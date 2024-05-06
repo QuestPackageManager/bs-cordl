@@ -29,37 +29,37 @@ namespace LIV::SDK::Unity {
 struct CORDL_TYPE SDKMatrix4x4 {
 public:
   // Declarations
-  /// @brief Method Perspective, addr 0x2502618, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Perspective, addr 0x25f92a4, size 0xac, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKMatrix4x4 Perspective(float_t vFov, float_t aspect, float_t zNear, float_t zFar);
 
-  /// @brief Method Rotate, addr 0x2502864, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Rotate, addr 0x25f94f0, size 0x94, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKMatrix4x4 Rotate(::LIV::SDK::Unity::SDKQuaternion value);
 
-  /// @brief Method Scale, addr 0x25028f8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Scale, addr 0x25f9584, size 0x2c, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKMatrix4x4 Scale(::LIV::SDK::Unity::SDKVector3 value);
 
-  /// @brief Method TRS, addr 0x2502924, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method TRS, addr 0x25f95b0, size 0xe4, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKMatrix4x4 TRS(::LIV::SDK::Unity::SDKVector3 translation, ::LIV::SDK::Unity::SDKQuaternion rotation, ::LIV::SDK::Unity::SDKVector3 scale);
 
-  /// @brief Method ToString, addr 0x2502a08, size 0x4ac, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x25f9694, size 0x4ac, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method Translate, addr 0x2502828, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Translate, addr 0x25f94b4, size 0x3c, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKMatrix4x4 Translate(::LIV::SDK::Unity::SDKVector3 value);
 
-  /// @brief Method get_identity, addr 0x25025ec, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_identity, addr 0x25f9278, size 0x2c, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKMatrix4x4 get_identity();
 
-  /// @brief Method op_Implicit, addr 0x25016d8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x25f8364, size 0x44, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKMatrix4x4 op_Implicit___LIV__SDK__Unity__SDKMatrix4x4(::UnityEngine::Matrix4x4 v);
 
-  /// @brief Method op_Implicit, addr 0x25003cc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x25f7058, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 op_Implicit___UnityEngine__Matrix4x4(::LIV::SDK::Unity::SDKMatrix4x4 v);
 
-  /// @brief Method op_Multiply, addr 0x25026c4, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method op_Multiply, addr 0x25f9350, size 0x10c, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKMatrix4x4 op_Multiply(::LIV::SDK::Unity::SDKMatrix4x4 lhs, ::LIV::SDK::Unity::SDKMatrix4x4 rhs);
 
-  /// @brief Method op_Multiply, addr 0x25027d0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method op_Multiply, addr 0x25f945c, size 0x58, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKVector3 op_Multiply(::LIV::SDK::Unity::SDKMatrix4x4 lhs, ::LIV::SDK::Unity::SDKVector3 rhs);
 
   // Ctor Parameters []

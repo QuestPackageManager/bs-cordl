@@ -30,15 +30,15 @@ public:
   /// @brief Field otherRuntimes, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_otherRuntimes, put = __cordl_internal_set_otherRuntimes)) int32_t otherRuntimes;
 
-  /// @brief Method EvaluateMagnitude, addr 0x23ea320, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EvaluateMagnitude, addr 0x24e1f10, size 0xc, virtual true, abstract: false, final false
   inline float_t EvaluateMagnitude(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
-  /// @brief Method Init, addr 0x23ea394, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x24e1f84, size 0x4, virtual false, abstract: false, final false
   static inline void Init();
 
   static inline ::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite* New_ctor();
 
-  /// @brief Method ReadValue, addr 0x23ea318, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ReadValue, addr 0x24e1f08, size 0x8, virtual true, abstract: false, final false
   inline float_t ReadValue(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
   constexpr int32_t const& __cordl_internal_get_oculusRuntime() const;
@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set_otherRuntimes(int32_t value);
 
-  /// @brief Method .ctor, addr 0x23ea398, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24e1f88, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

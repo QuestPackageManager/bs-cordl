@@ -36,12 +36,12 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CORDL_TYPE __CertificateUrl__ListBuffer16 : public ::System::IO::MemoryStream {
 public:
   // Declarations
-  /// @brief Method EncodeTo, addr 0x10cac00, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method EncodeTo, addr 0x11be324, size 0xe4, virtual false, abstract: false, final false
   inline void EncodeTo(::System::IO::Stream* output);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::__CertificateUrl__ListBuffer16* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10cab98, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11be2bc, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -84,7 +84,7 @@ public:
   /// @brief Field mUrlAndHashList, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_mUrlAndHashList, put = __cordl_internal_set_mUrlAndHashList))::System::Collections::IList* mUrlAndHashList;
 
-  /// @brief Method Encode, addr 0x10ca7f4, size 0x3a4, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x11bdf18, size 0x3a4, virtual true, abstract: false, final false
   inline void Encode(::System::IO::Stream* output);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::CertificateUrl* New_ctor(uint8_t type, ::System::Collections::IList* urlAndHashList);
@@ -101,16 +101,16 @@ public:
 
   constexpr void __cordl_internal_set_mUrlAndHashList(::System::Collections::IList* value);
 
-  /// @brief Method .ctor, addr 0x10ca678, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11bdd9c, size 0x16c, virtual false, abstract: false, final false
   inline void _ctor(uint8_t type, ::System::Collections::IList* urlAndHashList);
 
-  /// @brief Method get_Type, addr 0x10ca7e4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x11bdf08, size 0x8, virtual true, abstract: false, final false
   inline uint8_t get_Type();
 
-  /// @brief Method get_UrlAndHashList, addr 0x10ca7ec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_UrlAndHashList, addr 0x11bdf10, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::IList* get_UrlAndHashList();
 
-  /// @brief Method parse, addr 0x10cace4, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method parse, addr 0x11be408, size 0x298, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::CertificateUrl* parse(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::System::IO::Stream* input);
 
 protected:

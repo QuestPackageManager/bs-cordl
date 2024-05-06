@@ -25,10 +25,10 @@ namespace System::Net::Sockets {
 struct CORDL_TYPE IPPacketInformation {
 public:
   // Declarations
-  /// @brief Method Equals, addr 0x2e2bfb0, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2f2a8b0, size 0x9c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* comparand);
 
-  /// @brief Method GetHashCode, addr 0x2e2c04c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2f2a94c, size 0x44, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters []

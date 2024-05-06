@@ -11,15 +11,14 @@
 #include "GlobalNamespace/zzzz__NoteCutScoreSpawner_def.hpp"
 #include "GlobalNamespace/zzzz__PerceivedLoudnessPerLevelModel_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerHeightDetector_def.hpp"
-#include "GlobalNamespace/zzzz__RelativeSfxVolumePerLevelModel_def.hpp"
 #include "GlobalNamespace/zzzz__SongProfilingController_def.hpp"
 #include "Tweening/zzzz__SongTimeTweeningManager_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::GameplayCoreInstaller.InstallBindings
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayCoreInstaller::*)()>(&::GlobalNamespace::GameplayCoreInstaller::InstallBindings)> {
-  constexpr static std::size_t size = 0x15cc;
-  constexpr static std::size_t addrs = 0x262ee70;
+  constexpr static std::size_t size = 0x15bc;
+  constexpr static std::size_t addrs = 0x272ec68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -34,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayCoreInstaller::*)()>(
     &::GlobalNamespace::GameplayCoreInstaller::InstallRecordingTool)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x263043c;
+  constexpr static std::size_t addrs = 0x2730224;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayCoreInstaller*>::get(),
@@ -47,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayCoreInstaller::*)()>(&::GlobalNamespace::GameplayCoreInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26304fc;
+  constexpr static std::size_t addrs = 0x27302e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayCoreInstaller*>::get(), ".ctor",
@@ -200,19 +199,6 @@ GlobalNamespace::GameplayCoreInstaller::__cordl_internal_get__perceivedLoudnessP
 constexpr void GlobalNamespace::GameplayCoreInstaller::__cordl_internal_set__perceivedLoudnessPerLevelModel(::GlobalNamespace::PerceivedLoudnessPerLevelModel* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____perceivedLoudnessPerLevelModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::GlobalNamespace::RelativeSfxVolumePerLevelModel*& GlobalNamespace::GameplayCoreInstaller::__cordl_internal_get__relativeSfxVolumePerLevelModel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____relativeSfxVolumePerLevelModel;
-}
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RelativeSfxVolumePerLevelModel*> const&
-GlobalNamespace::GameplayCoreInstaller::__cordl_internal_get__relativeSfxVolumePerLevelModel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____relativeSfxVolumePerLevelModel;
-}
-constexpr void GlobalNamespace::GameplayCoreInstaller::__cordl_internal_set__relativeSfxVolumePerLevelModel(::GlobalNamespace::RelativeSfxVolumePerLevelModel* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____relativeSfxVolumePerLevelModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::GameplayCoreInstaller::InstallBindings() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),

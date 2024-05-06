@@ -2,15 +2,15 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__ParticleSystem_impl.hpp"
 #include "GlobalNamespace/zzzz__ShockwaveEffect_def.hpp"
-#include "GlobalNamespace/zzzz__IntSO_def.hpp"
+#include "BeatSaber/GameSettings/zzzz__GraphicSettingsHandler_def.hpp"
 #include "UnityEngine/zzzz__ParticleSystem_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ShockwaveEffect.Start
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ShockwaveEffect::*)()>(&::GlobalNamespace::ShockwaveEffect::Start)> {
-  constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x25c1fa4;
+  constexpr static std::size_t size = 0x1b0;
+  constexpr static std::size_t addrs = 0x26c0b08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ShockwaveEffect*>::get(), "Start",
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ShockwaveEffect::*)(::UnityEngine::Vector3)>(
     &::GlobalNamespace::ShockwaveEffect::SpawnShockwave)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x25c20f4;
+  constexpr static std::size_t addrs = 0x26c0cb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ShockwaveEffect::*)()>(&::GlobalNamespace::ShockwaveEffect::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25c21c8;
+  constexpr static std::size_t addrs = 0x26c0d8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ShockwaveEffect*>::get(), ".ctor",
@@ -58,17 +58,17 @@ constexpr void GlobalNamespace::ShockwaveEffect::__cordl_internal_set__shockwave
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____shockwavePS)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::GlobalNamespace::IntSO>& GlobalNamespace::ShockwaveEffect::__cordl_internal_get__maxShockwaveParticles() {
+constexpr ::BeatSaber::GameSettings::GraphicSettingsHandler*& GlobalNamespace::ShockwaveEffect::__cordl_internal_get__graphicSettingsHandler() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____maxShockwaveParticles;
+  return this->____graphicSettingsHandler;
 }
-constexpr ::UnityW<::GlobalNamespace::IntSO> const& GlobalNamespace::ShockwaveEffect::__cordl_internal_get__maxShockwaveParticles() const {
+constexpr ::cordl_internals::to_const_pointer<::BeatSaber::GameSettings::GraphicSettingsHandler*> const& GlobalNamespace::ShockwaveEffect::__cordl_internal_get__graphicSettingsHandler() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____maxShockwaveParticles;
+  return this->____graphicSettingsHandler;
 }
-constexpr void GlobalNamespace::ShockwaveEffect::__cordl_internal_set__maxShockwaveParticles(::UnityW<::GlobalNamespace::IntSO> value) {
+constexpr void GlobalNamespace::ShockwaveEffect::__cordl_internal_set__graphicSettingsHandler(::BeatSaber::GameSettings::GraphicSettingsHandler* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____maxShockwaveParticles)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____graphicSettingsHandler)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::__ParticleSystem__EmitParams& GlobalNamespace::ShockwaveEffect::__cordl_internal_get__shockwavePSEmitParams() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

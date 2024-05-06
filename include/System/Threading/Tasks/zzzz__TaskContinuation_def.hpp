@@ -21,7 +21,7 @@ namespace System::Threading::Tasks {
 class CORDL_TYPE TaskContinuation : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InlineIfPossibleOrElseQueue, addr 0x28b4690, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method InlineIfPossibleOrElseQueue, addr 0x29b2f40, size 0x144, virtual false, abstract: false, final false
   static inline void InlineIfPossibleOrElseQueue(::System::Threading::Tasks::Task* task, bool needsProtection);
 
   static inline ::System::Threading::Tasks::TaskContinuation* New_ctor();
@@ -29,7 +29,7 @@ public:
   /// @brief Method Run, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Run(::System::Threading::Tasks::Task* completedTask, bool bCanInlineContinuationTask);
 
-  /// @brief Method .ctor, addr 0x28b47d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29b3084, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

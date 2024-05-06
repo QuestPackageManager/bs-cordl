@@ -108,57 +108,57 @@ public:
   /// @brief Field updateInterval, offset 0xb0, size 0x4
   __declspec(property(get = __cordl_internal_get_updateInterval, put = __cordl_internal_set_updateInterval)) float_t updateInterval;
 
-  /// @brief Method Awake, addr 0x2a82990, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2b7e240, size 0x1e4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method ComponentComposition, addr 0x2a83bb0, size 0x338, virtual false, abstract: false, final false
+  /// @brief Method ComponentComposition, addr 0x2b7f460, size 0x338, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> ComponentComposition(::UnityEngine::GameObject* GO);
 
-  /// @brief Method InitUIComponents, addr 0x2a82c2c, size 0x3b4, virtual false, abstract: false, final false
+  /// @brief Method InitUIComponents, addr 0x2b7e4dc, size 0x3b4, virtual false, abstract: false, final false
   inline void InitUIComponents();
 
   static inline ::GlobalNamespace::OVRDebugInfo* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x2a8327c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2b7eb2c, size 0x8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RiftPresentGUI, addr 0x2a83a2c, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method RiftPresentGUI, addr 0x2b7f2dc, size 0x184, virtual false, abstract: false, final false
   inline void RiftPresentGUI(::UnityEngine::GameObject* guiMainOBj);
 
-  /// @brief Method Update, addr 0x2a82b74, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2b7e424, size 0xb8, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateDeviceDetection, addr 0x2a82fe0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method UpdateDeviceDetection, addr 0x2b7e890, size 0x34, virtual false, abstract: false, final false
   inline void UpdateDeviceDetection();
 
-  /// @brief Method UpdateEyeDepthOffset, addr 0x2a835bc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method UpdateEyeDepthOffset, addr 0x2b7ee6c, size 0xc0, virtual false, abstract: false, final false
   inline void UpdateEyeDepthOffset();
 
-  /// @brief Method UpdateEyeHeightOffset, addr 0x2a834fc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method UpdateEyeHeightOffset, addr 0x2b7edac, size 0xc0, virtual false, abstract: false, final false
   inline void UpdateEyeHeightOffset();
 
-  /// @brief Method UpdateFOV, addr 0x2a8367c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method UpdateFOV, addr 0x2b7ef2c, size 0x100, virtual false, abstract: false, final false
   inline void UpdateFOV();
 
-  /// @brief Method UpdateFPS, addr 0x2a8394c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method UpdateFPS, addr 0x2b7f1fc, size 0xe0, virtual false, abstract: false, final false
   inline void UpdateFPS();
 
-  /// @brief Method UpdateIPD, addr 0x2a83430, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method UpdateIPD, addr 0x2b7ece0, size 0xcc, virtual false, abstract: false, final false
   inline void UpdateIPD();
 
-  /// @brief Method UpdateLatencyValues, addr 0x2a83948, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method UpdateLatencyValues, addr 0x2b7f1f8, size 0x4, virtual false, abstract: false, final false
   inline void UpdateLatencyValues();
 
-  /// @brief Method UpdateResolutionEyeTexture, addr 0x2a8377c, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method UpdateResolutionEyeTexture, addr 0x2b7f02c, size 0x1cc, virtual false, abstract: false, final false
   inline void UpdateResolutionEyeTexture();
 
-  /// @brief Method UpdateStrings, addr 0x2a8304c, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method UpdateStrings, addr 0x2b7e8fc, size 0x230, virtual false, abstract: false, final false
   inline void UpdateStrings();
 
-  /// @brief Method UpdateVariable, addr 0x2a83014, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method UpdateVariable, addr 0x2b7e8c4, size 0x38, virtual false, abstract: false, final false
   inline void UpdateVariable();
 
-  /// @brief Method VariableObjectManager, addr 0x2a83284, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method VariableObjectManager, addr 0x2b7eb34, size 0x1ac, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> VariableObjectManager(::UnityEngine::GameObject* gameObject, ::StringW name, float_t posY, ::StringW str, int32_t fontSize);
 
   constexpr float_t const& __cordl_internal_get_accum() const;
@@ -329,7 +329,7 @@ public:
 
   constexpr void __cordl_internal_set_updateInterval(float_t value);
 
-  /// @brief Method .ctor, addr 0x2a83ee8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b7f798, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -23,13 +23,13 @@ public:
   // Declarations
   static inline ::System::IO::__TextReader__NullTextReader* New_ctor();
 
-  /// @brief Method Read, addr 0x2789794, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x2888eb4, size 0x8, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count);
 
-  /// @brief Method ReadLine, addr 0x278979c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ReadLine, addr 0x2888ebc, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ReadLine();
 
-  /// @brief Method .ctor, addr 0x278973c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2888e5c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

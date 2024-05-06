@@ -36,10 +36,10 @@ public:
 
   constexpr void __cordl_internal_set__dec(::System::Decimal value);
 
-  /// @brief Method .ctor, addr 0x275c700, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x285be10, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(uint8_t scale, uint8_t sign, uint32_t hi, uint32_t mid, uint32_t low);
 
-  /// @brief Method get_Value, addr 0x275c79c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x285beac, size 0xc, virtual false, abstract: false, final false
   inline ::System::Decimal get_Value();
 
 protected:

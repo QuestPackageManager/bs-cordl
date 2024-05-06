@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::KdfDoublePipelineIterationParameters::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, bool)>(&::Org::BouncyCastle::Crypto::Parameters::KdfDoublePipelineIterationParameters::_ctor)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x10a2104;
+  constexpr static std::size_t addrs = 0x1195828;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Crypto::Parameters::KdfDoublePipelineIterationParameters* (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
         &::Org::BouncyCastle::Crypto::Parameters::KdfDoublePipelineIterationParameters::CreateWithCounter)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x10a2268;
+  constexpr static std::size_t addrs = 0x119598c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Crypto::Parameters::KdfDoublePipelineIterationParameters* (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
         &::Org::BouncyCastle::Crypto::Parameters::KdfDoublePipelineIterationParameters::CreateWithoutCounter)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x10a22e4;
+  constexpr static std::size_t addrs = 0x1195a08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (
     ::Org::BouncyCastle::Crypto::Parameters::KdfDoublePipelineIterationParameters::*)()>(&::Org::BouncyCastle::Crypto::Parameters::KdfDoublePipelineIterationParameters::get_Ki)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x10a2374;
+  constexpr static std::size_t addrs = 0x1195a98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Parameters::KdfDoublePipelineIterationParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::KdfDoublePipelineIterationParameters::get_UseCounter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x10a23d0;
+  constexpr static std::size_t addrs = 0x1195af4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Parameters::KdfDoublePipelineIterationParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::KdfDoublePipelineIterationParameters::get_R)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x10a23d8;
+  constexpr static std::size_t addrs = 0x1195afc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (
     ::Org::BouncyCastle::Crypto::Parameters::KdfDoublePipelineIterationParameters::*)()>(&::Org::BouncyCastle::Crypto::Parameters::KdfDoublePipelineIterationParameters::get_FixedInputData)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x10a23e0;
+  constexpr static std::size_t addrs = 0x1195b04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

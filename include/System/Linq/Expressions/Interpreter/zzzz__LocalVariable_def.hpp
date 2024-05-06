@@ -32,7 +32,7 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::LocalVariable* New_ctor(int32_t index, bool closure);
 
-  /// @brief Method ToString, addr 0x2b3f2b8, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2c3bbb8, size 0x100, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr int32_t const& __cordl_internal_get_Index() const;
@@ -47,16 +47,16 @@ public:
 
   constexpr void __cordl_internal_set__flags(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2b3f274, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c3bb74, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(int32_t index, bool closure);
 
-  /// @brief Method get_InClosure, addr 0x2b39e58, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_InClosure, addr 0x2c36758, size 0xc, virtual false, abstract: false, final false
   inline bool get_InClosure();
 
-  /// @brief Method get_IsBoxed, addr 0x2b39e64, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IsBoxed, addr 0x2c36764, size 0xc, virtual false, abstract: false, final false
   inline bool get_IsBoxed();
 
-  /// @brief Method set_IsBoxed, addr 0x2b3f258, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_IsBoxed, addr 0x2c3bb58, size 0x1c, virtual false, abstract: false, final false
   inline void set_IsBoxed(bool value);
 
 protected:

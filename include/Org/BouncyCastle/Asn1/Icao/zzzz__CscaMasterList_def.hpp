@@ -45,14 +45,14 @@ public:
   /// @brief Field version, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version))::Org::BouncyCastle::Asn1::DerInteger* version;
 
-  /// @brief Method CopyCertList, addr 0x10df750, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method CopyCertList, addr 0x11d2e74, size 0x78, virtual false, abstract: false, final false
   static inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*, ::Array<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*>*>
   CopyCertList(::ArrayW<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*, ::Array<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*>*> orig);
 
-  /// @brief Method GetCertStructs, addr 0x10df7e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetCertStructs, addr 0x11d2f08, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*, ::Array<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*>*> GetCertStructs();
 
-  /// @brief Method GetInstance, addr 0x10df39c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x11d2ac0, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Icao::CscaMasterList* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Icao::CscaMasterList*
@@ -60,7 +60,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Icao::CscaMasterList* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x10df7ec, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x11d2f10, size 0x11c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::ArrayW<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*, ::Array<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*>*> const& __cordl_internal_get_certList() const;
@@ -75,13 +75,13 @@ public:
 
   constexpr void __cordl_internal_set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0x10df6c8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11d2dec, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*, ::Array<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*>*> certStructs);
 
-  /// @brief Method .ctor, addr 0x10df440, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11d2b64, size 0x288, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Version, addr 0x10df7c8, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_Version, addr 0x11d2eec, size 0x1c, virtual true, abstract: false, final false
   inline int32_t get_Version();
 
 protected:

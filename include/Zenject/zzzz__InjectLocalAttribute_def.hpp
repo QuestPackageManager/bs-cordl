@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::Zenject::InjectLocalAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3409724, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x360e460, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

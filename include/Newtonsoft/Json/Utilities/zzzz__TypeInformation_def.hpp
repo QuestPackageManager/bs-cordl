@@ -50,13 +50,13 @@ public:
 
   constexpr void __cordl_internal_set__Type_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x290949c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a07d4c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::Newtonsoft::Json::Utilities::PrimitiveTypeCode typeCode);
 
-  /// @brief Method get_Type, addr 0x290948c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x2a07d3c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_Type();
 
-  /// @brief Method get_TypeCode, addr 0x2909494, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x2a07d44, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Utilities::PrimitiveTypeCode get_TypeCode();
 
 protected:

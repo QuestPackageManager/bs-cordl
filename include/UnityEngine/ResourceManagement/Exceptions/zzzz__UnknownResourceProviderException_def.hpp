@@ -50,7 +50,7 @@ public:
   static inline ::UnityEngine::ResourceManagement::Exceptions::UnknownResourceProviderException* New_ctor(::System::Runtime::Serialization::SerializationInfo* message,
                                                                                                           ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method ToString, addr 0x30ff9b0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3306438, size 0xc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*& __cordl_internal_get__Location_k__BackingField();
@@ -59,28 +59,28 @@ public:
 
   constexpr void __cordl_internal_set__Location_k__BackingField(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* value);
 
-  /// @brief Method .ctor, addr 0x30ff78c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3306214, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x30fb500, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3301f88, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location);
 
-  /// @brief Method .ctor, addr 0x30ff790, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3306218, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x30ff794, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x330621c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x30ff798, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3306220, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* message, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method get_Location, addr 0x30ff77c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Location, addr 0x3306204, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* get_Location();
 
-  /// @brief Method get_Message, addr 0x30ff79c, size 0x214, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x3306224, size 0x214, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
-  /// @brief Method set_Location, addr 0x30ff784, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Location, addr 0x330620c, size 0x8, virtual false, abstract: false, final false
   inline void set_Location(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* value);
 
 protected:

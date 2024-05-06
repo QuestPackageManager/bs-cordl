@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::System::Xml::Linq::LineInfoEndElementAnnotation* New_ctor(int32_t lineNumber, int32_t linePosition);
 
-  /// @brief Method .ctor, addr 0x2c98a14, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d97314, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(int32_t lineNumber, int32_t linePosition);
 
 protected:

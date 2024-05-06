@@ -47,18 +47,18 @@ public:
 
   __declspec(property(get = get_renderer))::UnityW<::UnityEngine::Renderer> renderer;
 
-  /// @brief Method Awake, addr 0x23f0928, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x24e8518, size 0x2c, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method InitIfNeeded, addr 0x23f09a8, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method InitIfNeeded, addr 0x24e8598, size 0xc8, virtual true, abstract: false, final false
   inline void InitIfNeeded();
 
   static inline ::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x23f0960, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x24e8550, size 0x10, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnValidate, addr 0x23f0974, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x24e8564, size 0x34, virtual true, abstract: false, final false
   inline void OnValidate();
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__cachedTransform() const;
@@ -85,19 +85,19 @@ public:
 
   constexpr void __cordl_internal_set__renderer(::UnityW<::UnityEngine::Renderer> value);
 
-  /// @brief Method .ctor, addr 0x23f0b84, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24e8774, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_cachedTransform, addr 0x23f0920, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cachedTransform, addr 0x24e8510, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_cachedTransform();
 
-  /// @brief Method get_meshFilter, addr 0x23f0918, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_meshFilter, addr 0x24e8508, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::MeshFilter> get_meshFilter();
 
-  /// @brief Method get_renderer, addr 0x23f0910, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_renderer, addr 0x24e8500, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Renderer> get_renderer();
 
-  /// @brief Method set_isPartOfInstancedRendering, addr 0x23efda0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_isPartOfInstancedRendering, addr 0x24e7990, size 0x30, virtual false, abstract: false, final false
   inline void set_isPartOfInstancedRendering(bool value);
 
 protected:

@@ -44,10 +44,10 @@ public:
   static inline ::System::Linq::Expressions::Interpreter::ArrayByRefUpdater* New_ctor(::System::Linq::Expressions::Interpreter::LocalDefinition array,
                                                                                       ::System::Linq::Expressions::Interpreter::LocalDefinition index, int32_t argumentIndex);
 
-  /// @brief Method UndefineTemps, addr 0x2b39fcc, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method UndefineTemps, addr 0x2c368cc, size 0x78, virtual true, abstract: false, final false
   inline void UndefineTemps(::System::Linq::Expressions::Interpreter::InstructionList* instructions, ::System::Linq::Expressions::Interpreter::LocalVariables* locals);
 
-  /// @brief Method Update, addr 0x2b39ec0, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x2c367c0, size 0x10c, virtual true, abstract: false, final false
   inline void Update(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame, ::System::Object* value);
 
   constexpr ::System::Linq::Expressions::Interpreter::LocalDefinition const& __cordl_internal_get__array() const;
@@ -62,7 +62,7 @@ public:
 
   constexpr void __cordl_internal_set__index(::System::Linq::Expressions::Interpreter::LocalDefinition value);
 
-  /// @brief Method .ctor, addr 0x2b39e70, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c36770, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Interpreter::LocalDefinition array, ::System::Linq::Expressions::Interpreter::LocalDefinition index, int32_t argumentIndex);
 
 protected:

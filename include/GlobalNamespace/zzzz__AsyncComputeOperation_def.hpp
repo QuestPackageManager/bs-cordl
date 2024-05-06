@@ -50,13 +50,13 @@ public:
 
   constexpr void __cordl_internal_set__timeoutMs(int32_t value);
 
-  /// @brief Method .ctor, addr 0xf93568, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1087c8c, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(int32_t timeoutMs);
 
-  /// @brief Method get_elapsedTime, addr 0xf934b4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_elapsedTime, addr 0x1087bd8, size 0x84, virtual false, abstract: false, final false
   inline double_t get_elapsedTime();
 
-  /// @brief Method get_hasTimedOut, addr 0xf93538, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_hasTimedOut, addr 0x1087c5c, size 0x30, virtual false, abstract: false, final false
   inline bool get_hasTimedOut();
 
 protected:

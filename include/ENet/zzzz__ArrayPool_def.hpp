@@ -26,10 +26,10 @@ public:
   /// @brief Field pointerBuffer, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_pointerBuffer, put = setStaticF_pointerBuffer))::ArrayW<void*, ::Array<void*>*> pointerBuffer;
 
-  /// @brief Method GetByteBuffer, addr 0x24dc868, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetByteBuffer, addr 0x25d44f4, size 0x94, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetByteBuffer();
 
-  /// @brief Method GetPointerBuffer, addr 0x24dc8fc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetPointerBuffer, addr 0x25d4588, size 0x94, virtual false, abstract: false, final false
   static inline ::ArrayW<void*, ::Array<void*>*> GetPointerBuffer();
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_byteBuffer();

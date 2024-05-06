@@ -25,16 +25,16 @@ public:
   // Declarations
   __declspec(property(get = get_Count)) int32_t Count;
 
-  /// @brief Method Clear, addr 0x2df295c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x2ef125c, size 0xc, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method ConcatNoDelimiter, addr 0x2df2a64, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method ConcatNoDelimiter, addr 0x2ef1364, size 0x2b8, virtual false, abstract: false, final false
   inline void ConcatNoDelimiter(::StringW s);
 
-  /// @brief Method GetResult, addr 0x2df2970, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetResult, addr 0x2ef1270, size 0xf4, virtual false, abstract: false, final false
   inline ::StringW GetResult();
 
-  /// @brief Method get_Count, addr 0x2df2968, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x2ef1268, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
   // Ctor Parameters []

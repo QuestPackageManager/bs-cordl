@@ -29,10 +29,10 @@ public:
   /// @brief Field data, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data))::ArrayW<uint8_t, ::Array<uint8_t>*> data;
 
-  /// @brief Method Encode, addr 0x10a03ec, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x1193b10, size 0x84, virtual false, abstract: false, final false
   inline void Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off);
 
-  /// @brief Method GetEncoded, addr 0x10a05f0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x1193d14, size 0x5c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off);
@@ -45,10 +45,10 @@ public:
 
   constexpr void __cordl_internal_set_data(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x10a00e4, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1193808, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off);
 
-  /// @brief Method .ctor, addr 0x10a04e8, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1193c0c, size 0x108, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* input);
 
   static inline int32_t getStaticF_KeySize();

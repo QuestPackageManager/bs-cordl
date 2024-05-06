@@ -106,7 +106,7 @@ public:
   __declspec(property(get = __cordl_internal_get_selectionStateDidChangeEvent,
                       put = __cordl_internal_set_selectionStateDidChangeEvent))::System::Action_1<::HMUI::__NoTransitionsButton__SelectionState>* selectionStateDidChangeEvent;
 
-  /// @brief Method DoStateTransition, addr 0x2419d08, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method DoStateTransition, addr 0x2513994, size 0x40, virtual true, abstract: false, final false
   inline void DoStateTransition(::UnityEngine::UI::__Selectable__SelectionState state, bool instant);
 
   static inline ::HMUI::NoTransitionsButton* New_ctor();
@@ -123,16 +123,16 @@ public:
 
   constexpr void __cordl_internal_set_selectionStateDidChangeEvent(::System::Action_1<::HMUI::__NoTransitionsButton__SelectionState>* value);
 
-  /// @brief Method .ctor, addr 0x2419d48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25139d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_selectionStateDidChangeEvent, addr 0x2419524, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method add_selectionStateDidChangeEvent, addr 0x25131b0, size 0xb4, virtual false, abstract: false, final false
   inline void add_selectionStateDidChangeEvent(::System::Action_1<::HMUI::__NoTransitionsButton__SelectionState>* value);
 
-  /// @brief Method get_selectionState, addr 0x2419d00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectionState, addr 0x251398c, size 0x8, virtual false, abstract: false, final false
   inline ::HMUI::__NoTransitionsButton__SelectionState get_selectionState();
 
-  /// @brief Method remove_selectionStateDidChangeEvent, addr 0x241970c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method remove_selectionStateDidChangeEvent, addr 0x2513398, size 0xb4, virtual false, abstract: false, final false
   inline void remove_selectionStateDidChangeEvent(::System::Action_1<::HMUI::__NoTransitionsButton__SelectionState>* value);
 
 protected:

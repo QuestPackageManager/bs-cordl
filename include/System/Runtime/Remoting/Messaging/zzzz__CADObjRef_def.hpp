@@ -52,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set_objref(::System::Runtime::Remoting::ObjRef* value);
 
-  /// @brief Method .ctor, addr 0x27299b0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2827dac, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::ObjRef* o, int32_t sourceDomain);
 
 protected:

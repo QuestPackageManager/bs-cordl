@@ -139,51 +139,51 @@ public:
   /// @brief Convert operator to "::UnityEngine::UI::ILayoutSelfController"
   constexpr operator ::UnityEngine::UI::ILayoutSelfController*() noexcept;
 
-  /// @brief Method DoesParentExists, addr 0x32c2140, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method DoesParentExists, addr 0x34c8e7c, size 0x8, virtual false, abstract: false, final false
   inline bool DoesParentExists();
 
-  /// @brief Method GetParentSize, addr 0x32c1f30, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method GetParentSize, addr 0x34c8c6c, size 0x110, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 GetParentSize();
 
-  /// @brief Method GetSizeDeltaToProduceSize, addr 0x32c2040, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method GetSizeDeltaToProduceSize, addr 0x34c8d7c, size 0xf8, virtual false, abstract: false, final false
   inline float_t GetSizeDeltaToProduceSize(float_t size, int32_t axis);
 
-  /// @brief Method IsAspectModeValid, addr 0x32c16ec, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsAspectModeValid, addr 0x34c8428, size 0x28, virtual false, abstract: false, final false
   inline bool IsAspectModeValid();
 
-  /// @brief Method IsComponentValidOnObject, addr 0x32c1620, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method IsComponentValidOnObject, addr 0x34c835c, size 0xcc, virtual false, abstract: false, final false
   inline bool IsComponentValidOnObject();
 
   static inline ::UnityEngine::UI::AspectRatioFitter* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x32c1714, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x34c8450, size 0x7c, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x32c1538, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x34c8274, size 0x98, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnRectTransformDimensionsChange, addr 0x32c1c28, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnRectTransformDimensionsChange, addr 0x34c8964, size 0x4, virtual true, abstract: false, final false
   inline void OnRectTransformDimensionsChange();
 
-  /// @brief Method OnTransformParentChanged, addr 0x32c1b7c, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method OnTransformParentChanged, addr 0x34c88b8, size 0x98, virtual true, abstract: false, final false
   inline void OnTransformParentChanged();
 
-  /// @brief Method SetDirty, addr 0x32c1414, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetDirty, addr 0x34c8150, size 0x4, virtual false, abstract: false, final false
   inline void SetDirty();
 
-  /// @brief Method SetLayoutHorizontal, addr 0x32c2138, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetLayoutHorizontal, addr 0x34c8e74, size 0x4, virtual true, abstract: false, final false
   inline void SetLayoutHorizontal();
 
-  /// @brief Method SetLayoutVertical, addr 0x32c213c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetLayoutVertical, addr 0x34c8e78, size 0x4, virtual true, abstract: false, final false
   inline void SetLayoutVertical();
 
-  /// @brief Method Start, addr 0x32c15d0, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x34c830c, size 0x50, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x32c1c14, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x34c8950, size 0x14, virtual true, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateRect, addr 0x32c1c2c, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method UpdateRect, addr 0x34c8968, size 0x304, virtual false, abstract: false, final false
   inline void UpdateRect();
 
   constexpr ::UnityEngine::UI::__AspectRatioFitter__AspectMode const& __cordl_internal_get_m_AspectMode() const;
@@ -222,16 +222,16 @@ public:
 
   constexpr void __cordl_internal_set_m_Tracker(::UnityEngine::DrivenRectTransformTracker value);
 
-  /// @brief Method .ctor, addr 0x32c1528, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34c8264, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_aspectMode, addr 0x32c1398, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_aspectMode, addr 0x34c80d4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::__AspectRatioFitter__AspectMode get_aspectMode();
 
-  /// @brief Method get_aspectRatio, addr 0x32c1418, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_aspectRatio, addr 0x34c8154, size 0x8, virtual false, abstract: false, final false
   inline float_t get_aspectRatio();
 
-  /// @brief Method get_rectTransform, addr 0x32c1494, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_rectTransform, addr 0x34c81d0, size 0x94, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RectTransform> get_rectTransform();
 
   /// @brief Convert to "::UnityEngine::UI::ILayoutController"
@@ -240,10 +240,10 @@ public:
   /// @brief Convert to "::UnityEngine::UI::ILayoutSelfController"
   constexpr ::UnityEngine::UI::ILayoutSelfController* i___UnityEngine__UI__ILayoutSelfController() noexcept;
 
-  /// @brief Method set_aspectMode, addr 0x32c13a0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method set_aspectMode, addr 0x34c80dc, size 0x74, virtual false, abstract: false, final false
   inline void set_aspectMode(::UnityEngine::UI::__AspectRatioFitter__AspectMode value);
 
-  /// @brief Method set_aspectRatio, addr 0x32c1420, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method set_aspectRatio, addr 0x34c815c, size 0x74, virtual false, abstract: false, final false
   inline void set_aspectRatio(float_t value);
 
 protected:

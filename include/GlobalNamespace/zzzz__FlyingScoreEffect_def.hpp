@@ -58,10 +58,10 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__FlyingScoreEffect__Pool* New_ctor();
 
-  /// @brief Method OnDespawned, addr 0x25bb220, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method OnDespawned, addr 0x26b8d74, size 0x60, virtual true, abstract: false, final false
   inline void OnDespawned(::GlobalNamespace::FlyingScoreEffect* item);
 
-  /// @brief Method .ctor, addr 0x25bb280, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b8dd4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -122,24 +122,24 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ICutScoreBufferDidFinishReceiver"
   constexpr operator ::GlobalNamespace::ICutScoreBufferDidFinishReceiver*() noexcept;
 
-  /// @brief Method HandleCutScoreBufferDidChange, addr 0x25bb078, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method HandleCutScoreBufferDidChange, addr 0x26b8bcc, size 0x4c, virtual true, abstract: false, final true
   inline void HandleCutScoreBufferDidChange(::GlobalNamespace::CutScoreBuffer* cutScoreBuffer);
 
-  /// @brief Method HandleCutScoreBufferDidFinish, addr 0x25bb0c4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method HandleCutScoreBufferDidFinish, addr 0x26b8c18, size 0x4, virtual true, abstract: false, final true
   inline void HandleCutScoreBufferDidFinish(::GlobalNamespace::CutScoreBuffer* cutScoreBuffer);
 
-  /// @brief Method InitAndPresent, addr 0x25baa84, size 0x4e4, virtual false, abstract: false, final false
+  /// @brief Method InitAndPresent, addr 0x26b85d8, size 0x4e4, virtual false, abstract: false, final false
   inline void InitAndPresent(::GlobalNamespace::IReadonlyCutScoreBuffer* cutScoreBuffer, float_t duration, ::UnityEngine::Vector3 targetPos, ::UnityEngine::Color color);
 
-  /// @brief Method ManualUpdate, addr 0x25baff0, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x26b8b44, size 0x88, virtual true, abstract: false, final false
   inline void ManualUpdate(float_t t);
 
   static inline ::GlobalNamespace::FlyingScoreEffect* New_ctor();
 
-  /// @brief Method RefreshScore, addr 0x25baf68, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method RefreshScore, addr 0x26b8abc, size 0x88, virtual false, abstract: false, final false
   inline void RefreshScore(int32_t score, int32_t maxPossibleCutScore);
 
-  /// @brief Method UnregisterCallbacksIfNeeded, addr 0x25bb0c8, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method UnregisterCallbacksIfNeeded, addr 0x26b8c1c, size 0x128, virtual false, abstract: false, final false
   inline void UnregisterCallbacksIfNeeded();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
@@ -184,7 +184,7 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshPro> value);
 
-  /// @brief Method .ctor, addr 0x25bb1f0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b8d44, size 0x30, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::ICutScoreBufferDidChangeReceiver"

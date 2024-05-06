@@ -82,10 +82,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0xf92978, size 0x6b4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x108709c, size 0x6b4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0xf9302c, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x1087750, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -186,7 +186,7 @@ public:
 
   static inline ::BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass1_0* New_ctor();
 
-  /// @brief Method <GetAwaiter>g__SetResult|0, addr 0xf93084, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method <GetAwaiter>g__SetResult|0, addr 0x10877a8, size 0xd0, virtual false, abstract: false, final false
   inline void _GetAwaiter_g__SetResult_0(::UnityEngine::AsyncOperation* _);
 
   constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::UnityEngine::Networking::__UnityWebRequest__Result>*& __cordl_internal_get_tcs();
@@ -201,7 +201,7 @@ public:
 
   constexpr void __cordl_internal_set_webRequestOperation(::UnityEngine::Networking::UnityWebRequestAsyncOperation* value);
 
-  /// @brief Method .ctor, addr 0xf92970, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1087094, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -246,11 +246,11 @@ public:
 
   using __c__DisplayClass1_0 = ::BGLib::UnityExtension::__UnityWebRequestExtensions____c__DisplayClass1_0;
 
-  /// @brief Method GetAwaiter, addr 0xf9255c, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method GetAwaiter, addr 0x1086c80, size 0x194, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Networking::__UnityWebRequest__Result>
   GetAwaiter(::UnityEngine::Networking::UnityWebRequestAsyncOperation* webRequestOperation);
 
-  /// @brief Method SendWebRequestAsync, addr 0xf92870, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method SendWebRequestAsync, addr 0x1086f94, size 0x100, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::UnityEngine::Networking::__UnityWebRequest__Result>* SendWebRequestAsync(::UnityEngine::Networking::UnityWebRequest* request,
                                                                                                                               ::System::Threading::CancellationToken cancellationToken);
 

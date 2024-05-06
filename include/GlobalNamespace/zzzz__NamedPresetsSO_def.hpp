@@ -26,7 +26,7 @@ public:
 
   static inline ::GlobalNamespace::NamedPresetsSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x13d46ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14c9e90, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_namedPresets, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

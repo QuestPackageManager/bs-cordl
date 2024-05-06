@@ -9,12 +9,27 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute::*)(
     ::System::Runtime::InteropServices::CallingConvention)>(&::System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2758930;
+  constexpr static std::size_t addrs = 0x2857d2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::InteropServices::CallingConvention>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute.get_CallingConvention
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::InteropServices::CallingConvention (
+    ::System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute::*)()>(&::System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute::get_CallingConvention)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x2857d54;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute*>::get(),
+                                                 "get_CallingConvention", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -39,6 +54,12 @@ inline void System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute:
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::InteropServices::CallingConvention>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, callingConvention);
+}
+inline ::System::Runtime::InteropServices::CallingConvention System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute::get_CallingConvention() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute*>::get(),
+                                               "get_CallingConvention", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Runtime::InteropServices::CallingConvention, false>(this, ___internal_method);
 }
 // Ctor Parameters []
 constexpr ::System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute::UnmanagedFunctionPointerAttribute() {}

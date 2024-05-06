@@ -45,7 +45,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*();
 
-  /// @brief Method Create, addr 0x301aaac, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x3156838, size 0x50, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::DualMotorRumbleCommand Create(float_t lowFrequency, float_t highFrequency);
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand const& __cordl_internal_get_baseCommand() const;
@@ -66,10 +66,10 @@ public:
 
   constexpr void __cordl_internal_set_lowFrequencyMotorSpeed(float_t value);
 
-  /// @brief Method get_Type, addr 0x301c114, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x3157ea0, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
 
-  /// @brief Method get_typeStatic, addr 0x301c144, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x3157ed0, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"

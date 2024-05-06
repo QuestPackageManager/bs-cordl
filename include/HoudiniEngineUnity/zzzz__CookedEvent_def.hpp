@@ -30,7 +30,7 @@ public:
   // Declarations
   static inline ::HoudiniEngineUnity::CookedEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24386b4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2532340, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

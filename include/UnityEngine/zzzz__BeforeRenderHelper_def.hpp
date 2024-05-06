@@ -73,16 +73,16 @@ public:
   /// @brief Field s_OrderBlocks, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_OrderBlocks, put = setStaticF_s_OrderBlocks))::System::Collections::Generic::List_1<::UnityEngine::__BeforeRenderHelper__OrderBlock>* s_OrderBlocks;
 
-  /// @brief Method GetUpdateOrder, addr 0x31f529c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method GetUpdateOrder, addr 0x33fbfd0, size 0x118, virtual false, abstract: false, final false
   static inline int32_t GetUpdateOrder(::UnityEngine::Events::UnityAction* callback);
 
-  /// @brief Method Invoke, addr 0x31f5a0c, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x33fc740, size 0x19c, virtual false, abstract: false, final false
   static inline void Invoke();
 
-  /// @brief Method RegisterCallback, addr 0x31f53b4, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method RegisterCallback, addr 0x33fc0e8, size 0x348, virtual false, abstract: false, final false
   static inline void RegisterCallback(::UnityEngine::Events::UnityAction* callback);
 
-  /// @brief Method UnregisterCallback, addr 0x31f56fc, size 0x310, virtual false, abstract: false, final false
+  /// @brief Method UnregisterCallback, addr 0x33fc430, size 0x310, virtual false, abstract: false, final false
   static inline void UnregisterCallback(::UnityEngine::Events::UnityAction* callback);
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::__BeforeRenderHelper__OrderBlock>* getStaticF_s_OrderBlocks();

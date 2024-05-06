@@ -7,7 +7,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::StyleSheets::ScalableImage::*)()>(
     &::UnityEngine::UIElements::StyleSheets::ScalableImage::ToString)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x3335f84;
+  constexpr static std::size_t addrs = 0x353acc0;
 
   inline static ::MethodInfo const* methodInfo() {
 

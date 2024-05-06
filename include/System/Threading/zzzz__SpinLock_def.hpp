@@ -65,36 +65,36 @@ public:
   /// @brief Field MAXIMUM_WAITERS, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_MAXIMUM_WAITERS, put = setStaticF_MAXIMUM_WAITERS)) int32_t MAXIMUM_WAITERS;
 
-  /// @brief Method ContinueTryEnter, addr 0x289ee28, size 0x488, virtual false, abstract: false, final false
+  /// @brief Method ContinueTryEnter, addr 0x299d6d8, size 0x488, virtual false, abstract: false, final false
   inline void ContinueTryEnter(int32_t millisecondsTimeout, ByRef<bool> lockTaken);
 
-  /// @brief Method ContinueTryEnterWithThreadTracking, addr 0x289f3b4, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method ContinueTryEnterWithThreadTracking, addr 0x299dc64, size 0x128, virtual false, abstract: false, final false
   inline void ContinueTryEnterWithThreadTracking(int32_t millisecondsTimeout, uint32_t startTime, ByRef<bool> lockTaken);
 
-  /// @brief Method DecrementWaiters, addr 0x289f4dc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method DecrementWaiters, addr 0x299dd8c, size 0x60, virtual false, abstract: false, final false
   inline void DecrementWaiters();
 
-  /// @brief Method Enter, addr 0x289ed5c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Enter, addr 0x299d60c, size 0x7c, virtual false, abstract: false, final false
   inline void Enter(ByRef<bool> lockTaken);
 
-  /// @brief Method Exit, addr 0x289f66c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Exit, addr 0x299df1c, size 0x50, virtual false, abstract: false, final false
   inline void Exit(bool useMemoryBarrier);
 
-  /// @brief Method ExitSlowPath, addr 0x289f6bc, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method ExitSlowPath, addr 0x299df6c, size 0xe0, virtual false, abstract: false, final false
   inline void ExitSlowPath(bool useMemoryBarrier);
 
-  /// @brief Method TryEnter, addr 0x289f2b0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method TryEnter, addr 0x299db60, size 0x98, virtual false, abstract: false, final false
   inline void TryEnter(int32_t millisecondsTimeout, ByRef<bool> lockTaken);
 
-  /// @brief Method .ctor, addr 0x289ed24, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x299d5d4, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(bool enableThreadOwnerTracking);
 
   static inline int32_t getStaticF_MAXIMUM_WAITERS();
 
-  /// @brief Method get_IsHeldByCurrentThread, addr 0x289f79c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_IsHeldByCurrentThread, addr 0x299e04c, size 0xa0, virtual false, abstract: false, final false
   inline bool get_IsHeldByCurrentThread();
 
-  /// @brief Method get_IsThreadOwnerTrackingEnabled, addr 0x289f398, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_IsThreadOwnerTrackingEnabled, addr 0x299dc48, size 0x1c, virtual false, abstract: false, final false
   inline bool get_IsThreadOwnerTrackingEnabled();
 
   static inline void setStaticF_MAXIMUM_WAITERS(int32_t value);

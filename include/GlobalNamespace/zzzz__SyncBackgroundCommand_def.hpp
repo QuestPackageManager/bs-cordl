@@ -37,7 +37,7 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IBackgroundCommand"
   constexpr operator ::GlobalNamespace::IBackgroundCommand*() noexcept;
 
-  /// @brief Method Execute, addr 0xf8ee34, size 0x168, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x1083608, size 0x168, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* Execute();
 
   /// @brief Method ExecuteInternal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -51,10 +51,10 @@ public:
 
   constexpr void __cordl_internal_set__taskCompletionSource(::System::Threading::Tasks::TaskCompletionSource_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0xf8ef9c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1083770, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_resultTask, addr 0xf8edec, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_resultTask, addr 0x10835c0, size 0x48, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* get_resultTask();
 
   /// @brief Convert to "::GlobalNamespace::IBackgroundCommand"

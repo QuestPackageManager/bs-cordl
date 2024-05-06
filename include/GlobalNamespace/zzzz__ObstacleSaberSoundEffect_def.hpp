@@ -45,21 +45,21 @@ public:
   /// @brief Field _volume, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__volume, put = __cordl_internal_set__volume)) float_t _volume;
 
-  /// @brief Method Awake, addr 0x25129e4, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2609d4c, size 0x104, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleSparkleEffecDidEnd, addr 0x2512de0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method HandleSparkleEffecDidEnd, addr 0x260a148, size 0x14, virtual false, abstract: false, final false
   inline void HandleSparkleEffecDidEnd(::GlobalNamespace::SaberType saberType);
 
-  /// @brief Method HandleSparkleEffectDidStart, addr 0x2512d18, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method HandleSparkleEffectDidStart, addr 0x260a080, size 0xc8, virtual false, abstract: false, final false
   inline void HandleSparkleEffectDidStart(::GlobalNamespace::SaberType saberType);
 
-  /// @brief Method LateUpdate, addr 0x2512c14, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x2609f7c, size 0x104, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::ObstacleSaberSoundEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x2512ae8, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2609e50, size 0x12c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
@@ -92,7 +92,7 @@ public:
 
   constexpr void __cordl_internal_set__volume(float_t value);
 
-  /// @brief Method .ctor, addr 0x2512df4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x260a15c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

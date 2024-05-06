@@ -29,19 +29,19 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::LocalKeywordSpace>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::LocalKeywordSpace>*();
 
-  /// @brief Method Equals, addr 0x3229b3c, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3431878, size 0x7c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method Equals, addr 0x3229bb8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x34318f4, size 0xc, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::LocalKeywordSpace rhs);
 
-  /// @brief Method GetHashCode, addr 0x3229b14, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3431850, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::LocalKeywordSpace>"
   constexpr ::System::IEquatable_1<::UnityEngine::Rendering::LocalKeywordSpace>* i___System__IEquatable_1___UnityEngine__Rendering__LocalKeywordSpace_();
 
-  /// @brief Method op_Equality, addr 0x3229abc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x34317f8, size 0x8, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Rendering::LocalKeywordSpace lhs, ::UnityEngine::Rendering::LocalKeywordSpace rhs);
 
   // Ctor Parameters []

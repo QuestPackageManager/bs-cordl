@@ -24,7 +24,7 @@ public:
   // Declarations
   static inline ::HoudiniEngineUnity::HEU_OutputAttributeDictionary* New_ctor();
 
-  /// @brief Method .ctor, addr 0x246dc4c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25688d8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

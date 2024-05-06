@@ -55,7 +55,7 @@ public:
 
   static inline ::UnityEngine::InputSystem::XR::__XRLayoutBuilder____c__DisplayClass5_0* New_ctor();
 
-  /// @brief Method <OnFindLayoutForDevice>b__0, addr 0x2ffbc34, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <OnFindLayoutForDevice>b__0, addr 0x31389c0, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::InputControlLayout* _OnFindLayoutForDevice_b__0();
 
   constexpr ::UnityEngine::InputSystem::XR::XRLayoutBuilder*& __cordl_internal_get_layout();
@@ -64,7 +64,7 @@ public:
 
   constexpr void __cordl_internal_set_layout(::UnityEngine::InputSystem::XR::XRLayoutBuilder* value);
 
-  /// @brief Method .ctor, addr 0x2ffabac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3137938, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -118,31 +118,31 @@ public:
   static __declspec(property(get = getStaticF_poseSubControlTypes,
                              put = setStaticF_poseSubControlTypes))::ArrayW<::UnityEngine::InputSystem::XR::FeatureType, ::Array<::UnityEngine::InputSystem::XR::FeatureType>*> poseSubControlTypes;
 
-  /// @brief Method Build, addr 0x2ffaee0, size 0xb04, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x3137c6c, size 0xb04, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::InputControlLayout* Build();
 
-  /// @brief Method ConvertPotentialAliasToName, addr 0x2ffabbc, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method ConvertPotentialAliasToName, addr 0x3137948, size 0x17c, virtual false, abstract: false, final false
   static inline ::StringW ConvertPotentialAliasToName(::UnityEngine::InputSystem::Layouts::InputControlLayout* layout, ::StringW nameOrAlias);
 
-  /// @brief Method GetParentControlName, addr 0x2ffad54, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetParentControlName, addr 0x3137ae0, size 0x38, virtual false, abstract: false, final false
   inline ::StringW GetParentControlName(::StringW name);
 
-  /// @brief Method GetSizeOfFeature, addr 0x2ffa580, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetSizeOfFeature, addr 0x313730c, size 0x78, virtual false, abstract: false, final false
   static inline uint32_t GetSizeOfFeature(::UnityEngine::InputSystem::XR::XRFeatureDescriptor featureDescriptor);
 
-  /// @brief Method IsPoseControl, addr 0x2ffad8c, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method IsPoseControl, addr 0x3137b18, size 0x154, virtual false, abstract: false, final false
   inline bool IsPoseControl(::System::Collections::Generic::List_1<::UnityEngine::InputSystem::XR::XRFeatureDescriptor>* features, int32_t startIndex);
 
-  /// @brief Method IsSubControl, addr 0x2ffad38, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method IsSubControl, addr 0x3137ac4, size 0x1c, virtual false, abstract: false, final false
   inline bool IsSubControl(::StringW name);
 
   static inline ::UnityEngine::InputSystem::XR::XRLayoutBuilder* New_ctor();
 
-  /// @brief Method OnFindLayoutForDevice, addr 0x2ffa758, size 0x454, virtual false, abstract: false, final false
+  /// @brief Method OnFindLayoutForDevice, addr 0x31374e4, size 0x454, virtual false, abstract: false, final false
   static inline ::StringW OnFindLayoutForDevice(ByRef<::UnityEngine::InputSystem::Layouts::InputDeviceDescription> description, ::StringW matchedLayout,
                                                 ::UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate* executeCommandDelegate);
 
-  /// @brief Method SanitizeString, addr 0x2ffa5f8, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method SanitizeString, addr 0x3137384, size 0x160, virtual false, abstract: false, final false
   static inline ::StringW SanitizeString(::StringW original, bool allowPaths);
 
   constexpr ::UnityEngine::InputSystem::XR::XRDeviceDescriptor*& __cordl_internal_get_descriptor();
@@ -163,7 +163,7 @@ public:
 
   constexpr void __cordl_internal_set_parentLayout(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2ffabb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3137940, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_poseSubControlNames();

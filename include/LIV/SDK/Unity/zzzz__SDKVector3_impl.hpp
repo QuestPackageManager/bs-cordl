@@ -6,7 +6,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LIV::SDK::Unity::SDKVector3 (*)()>(&::LIV::SDK::Unity::SDKVector3::get_zero)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2502104;
+  constexpr static std::size_t addrs = 0x25f8d90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKVector3>::get(), "get_zero",
@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LIV::SDK::Unity::SDKVector3 (*)()>(&::LIV::SDK::Unity::SDKVector3::get_one)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2502114;
+  constexpr static std::size_t addrs = 0x25f8da0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKVector3>::get(), "get_one",
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LIV::SDK::Unity::SDKVector3 (*)()>(&::LIV::SDK::Unity::SDKVector3::get_forward)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2502124;
+  constexpr static std::size_t addrs = 0x25f8db0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKVector3>::get(), "get_forward",
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LIV::SDK::Unity::SDKVector3 (*)()>(&::LIV::SDK::Unity::SDKVector3::get_up)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2502134;
+  constexpr static std::size_t addrs = 0x25f8dc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKVector3>::get(), "get_up",
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LIV::SDK::Unity::SDKVector3 (*)()>(&::LIV::SDK::Unity::SDKVector3::get_right)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2502144;
+  constexpr static std::size_t addrs = 0x25f8dd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKVector3>::get(), "get_right",
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::LIV::SDK::Unity::SDKVector3)>(
     &::LIV::SDK::Unity::SDKVector3::op_Implicit___UnityEngine__Vector3)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2502154;
+  constexpr static std::size_t addrs = 0x25f8de0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LIV::SDK::Unity::SDKVector3 (*)(::UnityEngine::Vector3)>(
     &::LIV::SDK::Unity::SDKVector3::op_Implicit___LIV__SDK__Unity__SDKVector3)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x25016d0;
+  constexpr static std::size_t addrs = 0x25f835c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LIV::SDK::Unity::SDKVector3 (*)(::LIV::SDK::Unity::SDKVector3, ::LIV::SDK::Unity::SDKVector3)>(
     &::LIV::SDK::Unity::SDKVector3::op_Addition)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2502158;
+  constexpr static std::size_t addrs = 0x25f8de4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LIV::SDK::Unity::SDKVector3 (*)(::LIV::SDK::Unity::SDKVector3, ::LIV::SDK::Unity::SDKVector3)>(
     &::LIV::SDK::Unity::SDKVector3::op_Subtraction)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2502168;
+  constexpr static std::size_t addrs = 0x25f8df4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LIV::SDK::Unity::SDKVector3 (*)(::LIV::SDK::Unity::SDKVector3, ::LIV::SDK::Unity::SDKVector3)>(
     &::LIV::SDK::Unity::SDKVector3::op_Multiply)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2502178;
+  constexpr static std::size_t addrs = 0x25f8e04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LIV::SDK::Unity::SDKVector3 (*)(::LIV::SDK::Unity::SDKVector3, float_t)>(
     &::LIV::SDK::Unity::SDKVector3::op_Multiply)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2502188;
+  constexpr static std::size_t addrs = 0x25f8e14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -165,7 +165,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::LIV::SDK::Unity::SDKVector3::*)()>(&::LIV::SDK::Unity::SDKVector3::ToString)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x2502198;
+  constexpr static std::size_t addrs = 0x25f8e24;
 
   inline static ::MethodInfo const* methodInfo() {
 

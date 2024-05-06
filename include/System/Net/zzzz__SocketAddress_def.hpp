@@ -51,16 +51,16 @@ public:
   /// @brief Field m_hash, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get_m_hash, put = __cordl_internal_set_m_hash)) int32_t m_hash;
 
-  /// @brief Method Equals, addr 0x2ed3c20, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2fd6520, size 0xec, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* comparand);
 
-  /// @brief Method GetHashCode, addr 0x2ed3d0c, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2fd660c, size 0x130, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetIPAddress, addr 0x2ed3984, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method GetIPAddress, addr 0x2fd6284, size 0x1f4, virtual false, abstract: false, final false
   inline ::System::Net::IPAddress* GetIPAddress();
 
-  /// @brief Method GetIPEndPoint, addr 0x2ed3b78, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetIPEndPoint, addr 0x2fd6478, size 0xa8, virtual false, abstract: false, final false
   inline ::System::Net::IPEndPoint* GetIPEndPoint();
 
   static inline ::System::Net::SocketAddress* New_ctor(::System::Net::Sockets::AddressFamily family, int32_t size);
@@ -69,7 +69,7 @@ public:
 
   static inline ::System::Net::SocketAddress* New_ctor(::System::Net::IPAddress* ipaddress, int32_t port);
 
-  /// @brief Method ToString, addr 0x2ed3e3c, size 0x2ec, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2fd673c, size 0x2ec, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_m_Buffer() const;
@@ -96,22 +96,22 @@ public:
 
   constexpr void __cordl_internal_set_m_hash(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2ed3580, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fd5e80, size 0x120, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Sockets::AddressFamily family, int32_t size);
 
-  /// @brief Method .ctor, addr 0x2ed36a0, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fd5fa0, size 0x288, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::IPAddress* ipAddress);
 
-  /// @brief Method .ctor, addr 0x2ed3928, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fd6228, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::IPAddress* ipaddress, int32_t port);
 
-  /// @brief Method get_Family, addr 0x2ed34c4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_Family, addr 0x2fd5dc4, size 0x38, virtual false, abstract: false, final false
   inline ::System::Net::Sockets::AddressFamily get_Family();
 
-  /// @brief Method get_Item, addr 0x2ed3504, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x2fd5e04, size 0x7c, virtual false, abstract: false, final false
   inline uint8_t get_Item(int32_t offset);
 
-  /// @brief Method get_Size, addr 0x2ed34fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Size, addr 0x2fd5dfc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Size();
 
 protected:

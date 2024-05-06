@@ -51,15 +51,15 @@ public:
   /// @brief Field _initData, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData))::GlobalNamespace::__CoreGameHUDController__InitData* _initData;
 
-  /// @brief Method HandleNoteWasCut, addr 0x25c24f8, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasCut, addr 0x26c10bc, size 0x118, virtual false, abstract: false, final false
   inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
   static inline ::GlobalNamespace::BadNoteCutEffectSpawner* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x25c2460, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x26c1024, size 0x98, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x25c23ac, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x26c0f70, size 0xb4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
@@ -86,7 +86,7 @@ public:
 
   constexpr void __cordl_internal_set__initData(::GlobalNamespace::__CoreGameHUDController__InitData* value);
 
-  /// @brief Method .ctor, addr 0x25c280c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c13d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

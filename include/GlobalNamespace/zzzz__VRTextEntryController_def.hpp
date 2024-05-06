@@ -78,21 +78,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x2640498, size 0x160, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2740284, size 0x160, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__VRTextEntryController___BlinkCursor_d__23* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x26405f8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x27403e4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2640600, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x27403ec, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2640640, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x274042c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x2640494, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x2740280, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -119,7 +119,7 @@ public:
 
   constexpr void __cordl_internal_set__cursorColor_5__2(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x26401f4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x273ffe0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -212,30 +212,30 @@ public:
   /// @brief Field textDidChangeEvent, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_textDidChangeEvent, put = __cordl_internal_set_textDidChangeEvent))::System::Action_1<::StringW>* textDidChangeEvent;
 
-  /// @brief Method Awake, addr 0x263ffd0, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x273fdbc, size 0x18c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method BlinkCursor, addr 0x2640180, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method BlinkCursor, addr 0x273ff6c, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* BlinkCursor();
 
-  /// @brief Method HandleUIKeyboardDeleteButtonWasPressed, addr 0x2640318, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method HandleUIKeyboardDeleteButtonWasPressed, addr 0x2740104, size 0x134, virtual false, abstract: false, final false
   inline void HandleUIKeyboardDeleteButtonWasPressed();
 
-  /// @brief Method HandleUIKeyboardTextKeyWasPressed, addr 0x264021c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method HandleUIKeyboardTextKeyWasPressed, addr 0x2740008, size 0xfc, virtual false, abstract: false, final false
   inline void HandleUIKeyboardTextKeyWasPressed(char16_t key);
 
   static inline ::GlobalNamespace::VRTextEntryController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x26401e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x273ffd4, size 0xc, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x264015c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x273ff48, size 0x24, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method <Awake>b__20_0, addr 0x264045c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__20_0, addr 0x2740248, size 0x1c, virtual false, abstract: false, final false
   inline void _Awake_b__20_0();
 
-  /// @brief Method <Awake>b__20_1, addr 0x2640478, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__20_1, addr 0x2740264, size 0x1c, virtual false, abstract: false, final false
   inline void _Awake_b__20_1();
 
   constexpr bool const& __cordl_internal_get__allowBlank() const;
@@ -292,34 +292,34 @@ public:
 
   constexpr void __cordl_internal_set_textDidChangeEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x264044c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2740238, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_cancelButtonWasPressedEvent, addr 0x263fda4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_cancelButtonWasPressedEvent, addr 0x273fb90, size 0x9c, virtual false, abstract: false, final false
   inline void add_cancelButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method add_okButtonWasPressedEvent, addr 0x263fc6c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_okButtonWasPressedEvent, addr 0x273fa58, size 0x9c, virtual false, abstract: false, final false
   inline void add_okButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method add_textDidChangeEvent, addr 0x263fb0c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_textDidChangeEvent, addr 0x273f8f8, size 0xb0, virtual false, abstract: false, final false
   inline void add_textDidChangeEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method get_text, addr 0x263fef8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x273fce4, size 0x24, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method remove_cancelButtonWasPressedEvent, addr 0x263fe40, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_cancelButtonWasPressedEvent, addr 0x273fc2c, size 0x9c, virtual false, abstract: false, final false
   inline void remove_cancelButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method remove_okButtonWasPressedEvent, addr 0x263fd08, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_okButtonWasPressedEvent, addr 0x273faf4, size 0x9c, virtual false, abstract: false, final false
   inline void remove_okButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method remove_textDidChangeEvent, addr 0x263fbbc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_textDidChangeEvent, addr 0x273f9a8, size 0xb0, virtual false, abstract: false, final false
   inline void remove_textDidChangeEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method set_hideCancelButton, addr 0x263fedc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_hideCancelButton, addr 0x273fcc8, size 0x1c, virtual false, abstract: false, final false
   inline void set_hideCancelButton(bool value);
 
-  /// @brief Method set_text, addr 0x263ff1c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x273fd08, size 0xb4, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:

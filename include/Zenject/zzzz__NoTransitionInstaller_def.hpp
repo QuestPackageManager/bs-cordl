@@ -24,18 +24,18 @@ namespace Zenject {
 class CORDL_TYPE NoTransitionInstaller : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Method InstallBindings, addr 0x3453be0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3657ba8, size 0x4, virtual true, abstract: false, final false
   inline void InstallBindings(::Zenject::DiContainer* container);
 
   static inline ::Zenject::NoTransitionInstaller* New_ctor();
 
-  /// @brief Method PostInstall, addr 0x3453be4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method PostInstall, addr 0x3657bac, size 0x4, virtual true, abstract: false, final false
   inline void PostInstall(::Zenject::DiContainer* container);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x3453bf0, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x3657bb8, size 0x178, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x3453be8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3657bb0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

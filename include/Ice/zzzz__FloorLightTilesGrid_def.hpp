@@ -63,19 +63,19 @@ public:
 
   __declspec(property(get = get_ySize)) int32_t ySize;
 
-  /// @brief Method DespawnAll, addr 0xf6d058, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method DespawnAll, addr 0x105bc64, size 0xc0, virtual true, abstract: false, final false
   inline void DespawnAll();
 
-  /// @brief Method DespawnTile, addr 0xf6d118, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method DespawnTile, addr 0x105bd24, size 0x60, virtual false, abstract: false, final false
   inline void DespawnTile(::Ice::FloorLightTile* floorLightTile);
 
-  /// @brief Method HandleFloorLightTileDidFinish, addr 0xf6d178, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleFloorLightTileDidFinish, addr 0x105bd84, size 0x4, virtual false, abstract: false, final false
   inline void HandleFloorLightTileDidFinish(::Ice::FloorLightTile* floorLightTile);
 
-  /// @brief Method HighlightTile, addr 0xf6c700, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method HighlightTile, addr 0x105b30c, size 0x1b8, virtual false, abstract: false, final false
   inline void HighlightTile(int32_t x, int32_t y, float_t fadeInDuration, float_t fadeOutDuration, ::UnityEngine::Color color);
 
-  /// @brief Method Init, addr 0xf6c164, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x105ad70, size 0x194, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::Vector3 anchorPoint, int32_t xSize, int32_t ySize, float_t tileWidth, float_t tileHeight);
 
   static inline ::Ice::FloorLightTilesGrid* New_ctor();
@@ -128,10 +128,10 @@ public:
 
   constexpr void __cordl_internal_set__ySize(int32_t value);
 
-  /// @brief Method .ctor, addr 0xf6d17c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x105bd88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ySize, addr 0xf6d050, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ySize, addr 0x105bc5c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ySize();
 
 protected:

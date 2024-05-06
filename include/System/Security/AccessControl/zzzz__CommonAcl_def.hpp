@@ -129,15 +129,15 @@ public:
   /// @brief Field raw_acl, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_raw_acl, put = __cordl_internal_set_raw_acl))::System::Security::AccessControl::RawAcl* raw_acl;
 
-  /// @brief Method AddAce, addr 0x2706010, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AddAce, addr 0x280340c, size 0x1c, virtual false, abstract: false, final false
   inline void AddAce(::System::Security::AccessControl::AceQualifier aceQualifier, ::System::Security::Principal::SecurityIdentifier* sid, int32_t accessMask,
                      ::System::Security::AccessControl::InheritanceFlags inheritanceFlags, ::System::Security::AccessControl::PropagationFlags propagationFlags,
                      ::System::Security::AccessControl::AuditFlags auditFlags);
 
-  /// @brief Method AddAce, addr 0x27060ec, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method AddAce, addr 0x28034e8, size 0x78, virtual false, abstract: false, final false
   inline void AddAce(::System::Security::AccessControl::QualifiedAce* newAce);
 
-  /// @brief Method AddAceGetQualifiedAce, addr 0x270602c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method AddAceGetQualifiedAce, addr 0x2803428, size 0xc0, virtual false, abstract: false, final false
   inline ::System::Security::AccessControl::QualifiedAce* AddAceGetQualifiedAce(::System::Security::AccessControl::AceQualifier aceQualifier, ::System::Security::Principal::SecurityIdentifier* sid,
                                                                                 int32_t accessMask, ::System::Security::AccessControl::InheritanceFlags inheritanceFlags,
                                                                                 ::System::Security::AccessControl::PropagationFlags propagationFlags,
@@ -146,41 +146,41 @@ public:
   /// @brief Method ApplyCanonicalSortToExplicitAces, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ApplyCanonicalSortToExplicitAces();
 
-  /// @brief Method ApplyCanonicalSortToExplicitAces, addr 0x2705e4c, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method ApplyCanonicalSortToExplicitAces, addr 0x2803248, size 0x1c4, virtual false, abstract: false, final false
   inline void ApplyCanonicalSortToExplicitAces(int32_t start, int32_t count);
 
-  /// @brief Method CanonicalizeAndClearAefa, addr 0x2704cc0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method CanonicalizeAndClearAefa, addr 0x28020bc, size 0xc4, virtual false, abstract: false, final false
   inline void CanonicalizeAndClearAefa();
 
-  /// @brief Method CopyAce, addr 0x2704dec, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method CopyAce, addr 0x28021e8, size 0x8c, virtual false, abstract: false, final false
   static inline ::System::Security::AccessControl::GenericAce* CopyAce(::System::Security::AccessControl::GenericAce* ace);
 
-  /// @brief Method GetAceFlags, addr 0x2706164, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetAceFlags, addr 0x2803560, size 0xd8, virtual false, abstract: false, final false
   inline ::System::Security::AccessControl::AceFlags GetAceFlags(::System::Security::AccessControl::InheritanceFlags inheritanceFlags,
                                                                  ::System::Security::AccessControl::PropagationFlags propagationFlags, ::System::Security::AccessControl::AuditFlags auditFlags);
 
   /// @brief Method GetAceInsertPosition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetAceInsertPosition(::System::Security::AccessControl::AceQualifier aceQualifier);
 
-  /// @brief Method GetCanonicalExplicitAceCount, addr 0x2705804, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetCanonicalExplicitAceCount, addr 0x2802c00, size 0x80, virtual false, abstract: false, final false
   inline int32_t GetCanonicalExplicitAceCount();
 
-  /// @brief Method GetCanonicalExplicitDenyAceCount, addr 0x2705578, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method GetCanonicalExplicitDenyAceCount, addr 0x2802974, size 0x144, virtual false, abstract: false, final false
   inline int32_t GetCanonicalExplicitDenyAceCount();
 
-  /// @brief Method GetObjectAceTypeGuids, addr 0x2705d1c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetObjectAceTypeGuids, addr 0x2803118, size 0x98, virtual false, abstract: false, final false
   static inline void GetObjectAceTypeGuids(::System::Security::AccessControl::ObjectAce* ace, ByRef<::System::Guid> type, ByRef<::System::Guid> inheritedType);
 
-  /// @brief Method Init, addr 0x2704c1c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2802018, size 0x18, virtual false, abstract: false, final false
   inline void Init(bool isContainer, bool isDS, ::System::Security::AccessControl::RawAcl* rawAcl);
 
-  /// @brief Method IsAceMeaningless, addr 0x27051fc, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method IsAceMeaningless, addr 0x28025f8, size 0x100, virtual true, abstract: false, final false
   inline bool IsAceMeaningless(::System::Security::AccessControl::GenericAce* ace);
 
-  /// @brief Method MergeExplicitAcePair, addr 0x2705884, size 0x404, virtual false, abstract: false, final false
+  /// @brief Method MergeExplicitAcePair, addr 0x2802c80, size 0x404, virtual false, abstract: false, final false
   inline ::System::Security::AccessControl::GenericAce* MergeExplicitAcePair(::System::Security::AccessControl::GenericAce* ace1, ::System::Security::AccessControl::GenericAce* ace2);
 
-  /// @brief Method MergeExplicitAces, addr 0x27050e4, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method MergeExplicitAces, addr 0x28024e0, size 0x118, virtual false, abstract: false, final false
   inline void MergeExplicitAces();
 
   static inline ::System::Security::AccessControl::CommonAcl* New_ctor(bool isContainer, bool isDS, int32_t capacity);
@@ -190,10 +190,10 @@ public:
   /// @brief Method RemoveAces, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void RemoveAces(::System::Security::AccessControl::__CommonAcl__RemoveAcesCallback_1<T>* callback);
 
-  /// @brief Method RequireCanonicity, addr 0x2704eb8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method RequireCanonicity, addr 0x28022b4, size 0x60, virtual false, abstract: false, final false
   inline void RequireCanonicity();
 
-  /// @brief Method TestCanonicity, addr 0x2704f18, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method TestCanonicity, addr 0x2802314, size 0x1cc, virtual false, abstract: false, final false
   inline bool TestCanonicity();
 
   constexpr bool const& __cordl_internal_get_is_aefa() const;
@@ -226,31 +226,31 @@ public:
 
   constexpr void __cordl_internal_set_raw_acl(::System::Security::AccessControl::RawAcl* value);
 
-  /// @brief Method .ctor, addr 0x2704c34, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2802030, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(bool isContainer, bool isDS, int32_t capacity);
 
-  /// @brief Method .ctor, addr 0x2704a90, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2801e8c, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(bool isContainer, bool isDS, uint8_t revision, int32_t capacity);
 
-  /// @brief Method get_Count, addr 0x2704d84, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method get_Count, addr 0x2802180, size 0x20, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_IsCanonical, addr 0x2704da4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsCanonical, addr 0x28021a0, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsCanonical();
 
-  /// @brief Method get_IsContainer, addr 0x2704dac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsContainer, addr 0x28021a8, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsContainer();
 
-  /// @brief Method get_IsDS, addr 0x2704db4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDS, addr 0x28021b0, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDS();
 
-  /// @brief Method get_Item, addr 0x2704dc8, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method get_Item, addr 0x28021c4, size 0x24, virtual true, abstract: false, final true
   inline ::System::Security::AccessControl::GenericAce* get_Item(int32_t index);
 
-  /// @brief Method set_IsAefa, addr 0x2704dbc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsAefa, addr 0x28021b8, size 0xc, virtual false, abstract: false, final false
   inline void set_IsAefa(bool value);
 
-  /// @brief Method set_Item, addr 0x2704e78, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method set_Item, addr 0x2802274, size 0x40, virtual true, abstract: false, final true
   inline void set_Item(int32_t index, ::System::Security::AccessControl::GenericAce* value);
 
 protected:

@@ -54,12 +54,12 @@ public:
 
   __declspec(property(get = get_materialPropertyBlock))::UnityEngine::MaterialPropertyBlock* materialPropertyBlock;
 
-  /// @brief Method Awake, addr 0x25d8034, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x26d7d74, size 0xf0, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::Spectrogram* New_ctor();
 
-  /// @brief Method Update, addr 0x25d8124, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x26d7e64, size 0x1a8, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__materialPropertyBlockController() const;
@@ -86,14 +86,14 @@ public:
 
   constexpr void __cordl_internal_set__spectrogramData(::UnityW<::GlobalNamespace::BasicSpectrogramData> value);
 
-  /// @brief Method .ctor, addr 0x25d82cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d800c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::MaterialPropertyBlock* getStaticF__materialPropertyBlock();
 
   static inline int32_t getStaticF__spectrogramDataID();
 
-  /// @brief Method get_materialPropertyBlock, addr 0x25d7f80, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method get_materialPropertyBlock, addr 0x26d7cc0, size 0xb4, virtual false, abstract: false, final false
   inline ::UnityEngine::MaterialPropertyBlock* get_materialPropertyBlock();
 
   static inline void setStaticF__materialPropertyBlock(::UnityEngine::MaterialPropertyBlock* value);

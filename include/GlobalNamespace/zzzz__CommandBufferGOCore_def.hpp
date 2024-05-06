@@ -60,13 +60,13 @@ public:
 
   static inline ::GlobalNamespace::CommandBufferGOCore* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x2ad67d8, size 0x404, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x2bd3088, size 0x404, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x2ad63c4, size 0x414, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x2bd2c74, size 0x414, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnWillRenderObject, addr 0x2ad6c84, size 0x1b4, virtual true, abstract: false, final false
+  /// @brief Method OnWillRenderObject, addr 0x2bd3534, size 0x1b4, virtual true, abstract: false, final false
   inline void OnWillRenderObject();
 
   constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Camera>, ::GlobalNamespace::CommandBufferOwners*>*& __cordl_internal_get__cameras();
@@ -82,7 +82,7 @@ public:
 
   constexpr void __cordl_internal_set__mesh(::UnityW<::UnityEngine::Mesh> value);
 
-  /// @brief Method .ctor, addr 0x2ad6000, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bd28b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityW<::UnityEngine::Material> getStaticF__material();

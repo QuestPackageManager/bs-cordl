@@ -33,19 +33,19 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Convertible*() noexcept;
 
-  /// @brief Method Equals, addr 0xfce550, size 0x108, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x10c1c74, size 0x108, virtual true, abstract: false, final true
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetDerEncoded, addr 0xfce45c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetDerEncoded, addr 0x10c1b80, size 0xc0, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetDerEncoded();
 
-  /// @brief Method GetEncoded, addr 0xfce2b4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x10c19d8, size 0xb4, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
-  /// @brief Method GetEncoded, addr 0xfce368, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x10c1a8c, size 0xf4, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded(::StringW encoding);
 
-  /// @brief Method GetHashCode, addr 0xfce51c, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method GetHashCode, addr 0x10c1c40, size 0x28, virtual true, abstract: false, final true
   inline int32_t GetHashCode();
 
   static inline ::Org::BouncyCastle::Asn1::Asn1Encodable* New_ctor();
@@ -53,7 +53,7 @@ public:
   /// @brief Method ToAsn1Object, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-  /// @brief Method .ctor, addr 0xfce664, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10c1d88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Convertible"

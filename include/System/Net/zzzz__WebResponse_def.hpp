@@ -54,26 +54,26 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method Close, addr 0x2ed96a0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x2fdbfa0, size 0x4, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method Dispose, addr 0x2ed96a4, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2fdbfa4, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x2ed9710, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x2fdc010, size 0x8c, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method GetObjectData, addr 0x2ed969c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x2fdbf9c, size 0x4, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method GetResponseStream, addr 0x2ed97a4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetResponseStream, addr 0x2fdc0a4, size 0x24, virtual true, abstract: false, final false
   inline ::System::IO::Stream* GetResponseStream();
 
   static inline ::System::Net::WebResponse* New_ctor();
 
   static inline ::System::Net::WebResponse* New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x2ed9690, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x2fdbf90, size 0xc, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
                                                                        ::System::Runtime::Serialization::StreamingContext streamingContext);
 
@@ -83,19 +83,19 @@ public:
 
   constexpr void __cordl_internal_set_m_IsFromCache(bool value);
 
-  /// @brief Method .ctor, addr 0x2ed9680, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fdbf80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2ed9688, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fdbf88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method get_Headers, addr 0x2ed97ec, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_Headers, addr 0x2fdc0ec, size 0x24, virtual true, abstract: false, final false
   inline ::System::Net::WebHeaderCollection* get_Headers();
 
-  /// @brief Method get_IsFromCache, addr 0x2ed979c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsFromCache, addr 0x2fdc09c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsFromCache();
 
-  /// @brief Method get_ResponseUri, addr 0x2ed97c8, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_ResponseUri, addr 0x2fdc0c8, size 0x24, virtual true, abstract: false, final false
   inline ::System::Uri* get_ResponseUri();
 
   /// @brief Convert to "::System::IDisposable"

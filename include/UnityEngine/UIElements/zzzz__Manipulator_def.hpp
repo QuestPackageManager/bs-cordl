@@ -46,16 +46,16 @@ public:
 
   constexpr void __cordl_internal_set_m_Target(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method .ctor, addr 0x334f0dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3552e18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_target, addr 0x334f080, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_target, addr 0x3552dbc, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::VisualElement* get_target();
 
   /// @brief Convert to "::UnityEngine::UIElements::IManipulator"
   constexpr ::UnityEngine::UIElements::IManipulator* i___UnityEngine__UIElements__IManipulator() noexcept;
 
-  /// @brief Method set_target, addr 0x334f088, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method set_target, addr 0x3552dc4, size 0x54, virtual true, abstract: false, final true
   inline void set_target(::UnityEngine::UIElements::VisualElement* value);
 
 protected:

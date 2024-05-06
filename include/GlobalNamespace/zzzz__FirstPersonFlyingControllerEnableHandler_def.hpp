@@ -35,7 +35,7 @@ public:
 
   __declspec(property(get = get_flyingControllerEnabled, put = set_flyingControllerEnabled)) bool flyingControllerEnabled;
 
-  /// @brief Method InstallDependencies, addr 0x2580870, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method InstallDependencies, addr 0x2678d04, size 0xb0, virtual false, abstract: false, final false
   inline void InstallDependencies(::BGLib::DotnetExtension::CommandLine::CommandLineParserResult commandLineParserResult);
 
   static inline ::GlobalNamespace::FirstPersonFlyingControllerEnableHandler* New_ctor();
@@ -52,13 +52,13 @@ public:
 
   constexpr void __cordl_internal_set__flyingController(::UnityW<::GlobalNamespace::FirstPersonFlyingController> value);
 
-  /// @brief Method .ctor, addr 0x2580920, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2678db4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_flyingControllerEnabled, addr 0x2580834, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_flyingControllerEnabled, addr 0x2678cc8, size 0x1c, virtual false, abstract: false, final false
   inline bool get_flyingControllerEnabled();
 
-  /// @brief Method set_flyingControllerEnabled, addr 0x2580850, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_flyingControllerEnabled, addr 0x2678ce4, size 0x20, virtual false, abstract: false, final false
   inline void set_flyingControllerEnabled(bool value);
 
 protected:

@@ -32,14 +32,14 @@ public:
   // Declarations
   static inline ::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue* New_ctor();
 
-  /// @brief Method TryParse, addr 0x2c775b4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x2d74eb4, size 0xb0, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, int32_t minimalCount, ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue*>*> result);
 
-  /// @brief Method TryParseElement, addr 0x2c7744c, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method TryParseElement, addr 0x2d74d4c, size 0x168, virtual false, abstract: false, final false
   static inline bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ByRef<::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue*> parsedValue,
                                      ByRef<::System::Net::Http::Headers::Token> t);
 
-  /// @brief Method .ctor, addr 0x2c77444, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d74d44, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

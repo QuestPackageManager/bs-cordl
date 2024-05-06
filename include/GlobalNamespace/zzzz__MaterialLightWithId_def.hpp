@@ -72,10 +72,10 @@ public:
 
   __declspec(property(get = get_color))::UnityEngine::Color color;
 
-  /// @brief Method Awake, addr 0x23fcb74, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x24f4764, size 0x80, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method ColorWasSet, addr 0x23fcbf4, size 0x188, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x24f47e4, size 0x188, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::MaterialLightWithId* New_ctor();
@@ -152,12 +152,12 @@ public:
 
   constexpr void __cordl_internal_set__setColorOnly(bool value);
 
-  /// @brief Method .ctor, addr 0x23fcd7c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f496c, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::MaterialPropertyBlock* getStaticF__materialPropertyBlock();
 
-  /// @brief Method get_color, addr 0x23fcb68, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x24f4758, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
   static inline void setStaticF__materialPropertyBlock(::UnityEngine::MaterialPropertyBlock* value);

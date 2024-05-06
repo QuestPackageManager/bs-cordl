@@ -33,15 +33,15 @@ public:
   /// @brief Field _scoreController, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__scoreController, put = __cordl_internal_set__scoreController))::GlobalNamespace::IScoreController* _scoreController;
 
-  /// @brief Method HandleScoringForNoteStarted, addr 0x25c5130, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method HandleScoringForNoteStarted, addr 0x26c3e88, size 0xc0, virtual false, abstract: false, final false
   inline void HandleScoringForNoteStarted(::GlobalNamespace::ScoringElement* scoringElement);
 
   static inline ::GlobalNamespace::NoteCutScoreSpawner* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x25c5028, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x26c3d80, size 0x108, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x25c4f38, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x26c3c90, size 0xf0, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::FlyingScoreSpawner> const& __cordl_internal_get__flyingScoreSpawner() const;
@@ -56,7 +56,7 @@ public:
 
   constexpr void __cordl_internal_set__scoreController(::GlobalNamespace::IScoreController* value);
 
-  /// @brief Method .ctor, addr 0x25c51dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c3f48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -71,21 +71,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x25bcaa4, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26ba5f8, size 0xcc, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__MenuLightsManager___Start_d__4* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x25bcb70, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x26ba6c4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x25bcb78, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x26ba6cc, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x25bcbb8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x26ba70c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x25bcaa0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x26ba5f4, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -106,7 +106,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MenuLightsManager> value);
 
-  /// @brief Method .ctor, addr 0x25bc61c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ba170, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -175,33 +175,33 @@ public:
   /// @brief Field _smooth, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__smooth, put = __cordl_internal_set__smooth)) float_t _smooth;
 
-  /// @brief Method CurrentColorForID, addr 0x25bc848, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method CurrentColorForID, addr 0x26ba39c, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::Color CurrentColorForID(int32_t lightId);
 
-  /// @brief Method IsColorVeryCloseToColor, addr 0x25bc7e8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method IsColorVeryCloseToColor, addr 0x26ba33c, size 0x44, virtual false, abstract: false, final false
   inline bool IsColorVeryCloseToColor(::UnityEngine::Color color0, ::UnityEngine::Color color1);
 
   static inline ::GlobalNamespace::MenuLightsManager* New_ctor();
 
-  /// @brief Method RefreshColors, addr 0x25bca04, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method RefreshColors, addr 0x26ba558, size 0x8c, virtual false, abstract: false, final false
   inline void RefreshColors();
 
-  /// @brief Method RefreshLightsDictForPreset, addr 0x25bc868, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method RefreshLightsDictForPreset, addr 0x26ba3bc, size 0xe0, virtual false, abstract: false, final false
   inline void RefreshLightsDictForPreset(::GlobalNamespace::MenuLightsPresetSO* preset);
 
-  /// @brief Method SetColor, addr 0x25bc82c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SetColor, addr 0x26ba380, size 0x1c, virtual false, abstract: false, final false
   inline void SetColor(int32_t lightId, ::UnityEngine::Color color);
 
-  /// @brief Method SetColorPreset, addr 0x25bc948, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method SetColorPreset, addr 0x26ba49c, size 0xbc, virtual false, abstract: false, final false
   inline void SetColorPreset(::GlobalNamespace::MenuLightsPresetSO* preset, bool animated);
 
-  /// @brief Method SetColorsFromPreset, addr 0x25bc684, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method SetColorsFromPreset, addr 0x26ba1d8, size 0x164, virtual false, abstract: false, final false
   inline bool SetColorsFromPreset(::GlobalNamespace::MenuLightsPresetSO* preset, float_t interpolationFactor);
 
-  /// @brief Method Start, addr 0x25bc5b4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x26ba108, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Start();
 
-  /// @brief Method Update, addr 0x25bc644, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x26ba198, size 0x40, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::GlobalNamespace::MenuLightsPresetSO> const& __cordl_internal_get__defaultPreset() const;
@@ -228,7 +228,7 @@ public:
 
   constexpr void __cordl_internal_set__smooth(float_t value);
 
-  /// @brief Method .ctor, addr 0x25bca90, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ba5e4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

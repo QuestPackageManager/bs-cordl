@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockFloatCurve::*)()>(
     &::GlobalNamespace::MaterialPropertyBlockFloatCurve::SetProperty)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x23ff368;
+  constexpr static std::size_t addrs = 0x24f6ff4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockFloatCurve::*)()>(
     &::GlobalNamespace::MaterialPropertyBlockFloatCurve::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x23ff400;
+  constexpr static std::size_t addrs = 0x24f708c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MaterialPropertyBlockFloatCurve*>::get(),

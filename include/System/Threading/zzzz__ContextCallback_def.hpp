@@ -22,12 +22,12 @@ namespace System::Threading {
 class CORDL_TYPE ContextCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x289fb48, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x299e3f8, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* state);
 
   static inline ::System::Threading::ContextCallback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x289cdcc, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x299b67c, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:

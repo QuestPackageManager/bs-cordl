@@ -7,7 +7,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::IdRefNode::*)(::System::Xml::Schema::IdRefNode*, ::StringW, int32_t, int32_t)>(
     &::System::Xml::Schema::IdRefNode::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2d227e8;
+  constexpr static std::size_t addrs = 0x2e1f0e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -31,31 +31,31 @@ public:
 
   __declspec(property(get = get_Value)) float_t Value;
 
-  /// @brief Method Auto, addr 0x33f341c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Auto, addr 0x35f9158, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Yoga::YogaValue Auto();
 
-  /// @brief Method Equals, addr 0x33f3368, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x35f90a4, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x33f3308, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x35f9044, size 0x60, virtual false, abstract: false, final false
   inline bool Equals(::UnityEngine::Yoga::YogaValue other);
 
-  /// @brief Method GetHashCode, addr 0x33f33e0, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x35f911c, size 0x3c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Percent, addr 0x33f3428, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Percent, addr 0x35f9164, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::Yoga::YogaValue Percent(float_t value);
 
-  /// @brief Method Point, addr 0x33f32e4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Point, addr 0x35f9020, size 0x24, virtual false, abstract: false, final false
   static inline ::UnityEngine::Yoga::YogaValue Point(float_t value);
 
-  /// @brief Method get_Unit, addr 0x33f0134, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Unit, addr 0x35f5e70, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Yoga::YogaUnit get_Unit();
 
-  /// @brief Method get_Value, addr 0x33f013c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x35f5e78, size 0x8, virtual false, abstract: false, final false
   inline float_t get_Value();
 
-  /// @brief Method op_Implicit, addr 0x33f3450, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x35f918c, size 0x2c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Yoga::YogaValue op_Implicit___UnityEngine__Yoga__YogaValue(float_t pointValue);
 
   // Ctor Parameters []

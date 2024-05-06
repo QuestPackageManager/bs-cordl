@@ -21,7 +21,7 @@ namespace UnityEngine {
 class CORDL_TYPE Internal_SubsystemDescriptors : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Internal_AddDescriptor, addr 0x3268a10, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Internal_AddDescriptor, addr 0x347174c, size 0x54, virtual false, abstract: false, final false
   static inline void Internal_AddDescriptor(::UnityEngine::SubsystemDescriptor* descriptor);
 
 protected:

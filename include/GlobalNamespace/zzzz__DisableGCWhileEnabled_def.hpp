@@ -20,13 +20,13 @@ public:
   // Declarations
   static inline ::GlobalNamespace::DisableGCWhileEnabled* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x23dcf28, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x24d4b2c, size 0xc, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x23dcf1c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x24d4b20, size 0xc, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method .ctor, addr 0x23dcf34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24d4b38, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

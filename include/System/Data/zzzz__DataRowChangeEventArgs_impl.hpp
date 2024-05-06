@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataRowChangeEventArgs::*)(::System::Data::DataRow*, ::System::Data::DataRowAction)>(
     &::System::Data::DataRowChangeEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x2babc18;
+  constexpr static std::size_t addrs = 0x2ca9518;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

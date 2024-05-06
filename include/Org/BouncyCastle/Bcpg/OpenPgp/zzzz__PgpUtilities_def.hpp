@@ -51,77 +51,77 @@ namespace Org::BouncyCastle::Bcpg::OpenPgp {
 class CORDL_TYPE PgpUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateWrapper, addr 0x1229d1c, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method CreateWrapper, addr 0x131b440, size 0x124, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IWrapper* CreateWrapper(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm);
 
-  /// @brief Method DoMakeKeyFromPassPhrase, addr 0x122fd00, size 0x970, virtual false, abstract: false, final false
+  /// @brief Method DoMakeKeyFromPassPhrase, addr 0x1321424, size 0x970, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* DoMakeKeyFromPassPhrase(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag algorithm, ::Org::BouncyCastle::Bcpg::S2k* s2k,
                                                                                                ::ArrayW<uint8_t, ::Array<uint8_t>*> rawPassPhrase, bool clearPassPhrase);
 
-  /// @brief Method DsaSigToMpi, addr 0x123a9ec, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method DsaSigToMpi, addr 0x132c110, size 0x260, virtual false, abstract: false, final false
   static inline ::ArrayW<::Org::BouncyCastle::Bcpg::MPInteger*, ::Array<::Org::BouncyCastle::Bcpg::MPInteger*>*> DsaSigToMpi(::ArrayW<uint8_t, ::Array<uint8_t>*> encoding);
 
-  /// @brief Method EncodePassPhrase, addr 0x122e6a8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method EncodePassPhrase, addr 0x131fdcc, size 0x50, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodePassPhrase(::ArrayW<char16_t, ::Array<char16_t>*> passPhrase, bool utf8);
 
-  /// @brief Method GenerateIV, addr 0x1232a0c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GenerateIV, addr 0x1324130, size 0x7c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateIV(int32_t length, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method GenerateS2k, addr 0x123297c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GenerateS2k, addr 0x13240a0, size 0x90, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Bcpg::S2k* GenerateS2k(::Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm, int32_t s2kCount, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method GetDecoderStream, addr 0x123e2d4, size 0x414, virtual false, abstract: false, final false
+  /// @brief Method GetDecoderStream, addr 0x132f9f8, size 0x414, virtual false, abstract: false, final false
   static inline ::System::IO::Stream* GetDecoderStream(::System::IO::Stream* inputStream);
 
-  /// @brief Method GetDigestName, addr 0x1229ae8, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method GetDigestName, addr 0x131b20c, size 0x12c, virtual false, abstract: false, final false
   static inline ::StringW GetDigestName(::Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm);
 
-  /// @brief Method GetKeySize, addr 0x123dcd8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetKeySize, addr 0x132f3fc, size 0xa4, virtual false, abstract: false, final false
   static inline int32_t GetKeySize(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag algorithm);
 
-  /// @brief Method GetSignatureName, addr 0x12383f4, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method GetSignatureName, addr 0x1329b18, size 0x180, virtual false, abstract: false, final false
   static inline ::StringW GetSignatureName(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm, ::Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm);
 
-  /// @brief Method GetSymmetricCipherName, addr 0x1229944, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method GetSymmetricCipherName, addr 0x131b068, size 0x1a4, virtual false, abstract: false, final false
   static inline ::StringW GetSymmetricCipherName(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag algorithm);
 
-  /// @brief Method IsPossiblyBase64, addr 0x123e28c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method IsPossiblyBase64, addr 0x132f9b0, size 0x48, virtual false, abstract: false, final false
   static inline bool IsPossiblyBase64(int32_t ch);
 
-  /// @brief Method MakeKey, addr 0x123dd7c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method MakeKey, addr 0x132f4a0, size 0x78, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* MakeKey(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag algorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> keyBytes);
 
-  /// @brief Method MakeKeyFromPassPhrase, addr 0x123de90, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method MakeKeyFromPassPhrase, addr 0x132f5b4, size 0x3c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* MakeKeyFromPassPhrase(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag algorithm, ::Org::BouncyCastle::Bcpg::S2k* s2k,
                                                                                              ::ArrayW<char16_t, ::Array<char16_t>*> passPhrase);
 
-  /// @brief Method MakeKeyFromPassPhraseRaw, addr 0x123df04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method MakeKeyFromPassPhraseRaw, addr 0x132f628, size 0x8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* MakeKeyFromPassPhraseRaw(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag algorithm, ::Org::BouncyCastle::Bcpg::S2k* s2k,
                                                                                                 ::ArrayW<uint8_t, ::Array<uint8_t>*> rawPassPhrase);
 
-  /// @brief Method MakeKeyFromPassPhraseUtf8, addr 0x123decc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method MakeKeyFromPassPhraseUtf8, addr 0x132f5f0, size 0x38, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* MakeKeyFromPassPhraseUtf8(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag algorithm, ::Org::BouncyCastle::Bcpg::S2k* s2k,
                                                                                                  ::ArrayW<char16_t, ::Array<char16_t>*> passPhrase);
 
-  /// @brief Method MakeRandomKey, addr 0x123ddf4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method MakeRandomKey, addr 0x132f518, size 0x9c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* MakeRandomKey(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag algorithm,
                                                                                      ::Org::BouncyCastle::Security::SecureRandom* random);
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpUtilities* New_ctor();
 
-  /// @brief Method PipeFileContents, addr 0x123dfe0, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method PipeFileContents, addr 0x132f704, size 0x1e0, virtual false, abstract: false, final false
   static inline void PipeFileContents(::System::IO::FileInfo* file, ::System::IO::Stream* pOut, int32_t bufSize);
 
-  /// @brief Method RsaSigToMpi, addr 0x123ac4c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method RsaSigToMpi, addr 0x132c370, size 0xfc, virtual false, abstract: false, final false
   static inline ::ArrayW<::Org::BouncyCastle::Bcpg::MPInteger*, ::Array<::Org::BouncyCastle::Bcpg::MPInteger*>*> RsaSigToMpi(::ArrayW<uint8_t, ::Array<uint8_t>*> encoding);
 
-  /// @brief Method WriteFileToLiteralData, addr 0x123df0c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method WriteFileToLiteralData, addr 0x132f630, size 0xd4, virtual false, abstract: false, final false
   static inline void WriteFileToLiteralData(::System::IO::Stream* output, char16_t fileType, ::System::IO::FileInfo* file);
 
-  /// @brief Method WriteFileToLiteralData, addr 0x123e1c0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method WriteFileToLiteralData, addr 0x132f8e4, size 0xcc, virtual false, abstract: false, final false
   static inline void WriteFileToLiteralData(::System::IO::Stream* output, char16_t fileType, ::System::IO::FileInfo* file, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer);
 
-  /// @brief Method .ctor, addr 0x123dcd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x132f3f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

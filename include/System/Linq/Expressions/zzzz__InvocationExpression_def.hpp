@@ -53,15 +53,15 @@ public:
   /// @brief Convert operator to "::System::Linq::Expressions::IArgumentProvider"
   constexpr operator ::System::Linq::Expressions::IArgumentProvider*() noexcept;
 
-  /// @brief Method Accept, addr 0x2b0b3f4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Accept, addr 0x2c08cf4, size 0x28, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* Accept(::System::Linq::Expressions::ExpressionVisitor* visitor);
 
-  /// @brief Method GetArgument, addr 0x2b0b3a4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetArgument, addr 0x2c08ca4, size 0x28, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* GetArgument(int32_t index);
 
   static inline ::System::Linq::Expressions::InvocationExpression* New_ctor(::System::Linq::Expressions::Expression* expression, ::System::Type* returnType);
 
-  /// @brief Method Rewrite, addr 0x2b0b41c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Rewrite, addr 0x2c08d1c, size 0x28, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::InvocationExpression* Rewrite(::System::Linq::Expressions::Expression* lambda,
                                                                     ::ArrayW<::System::Linq::Expressions::Expression*, ::Array<::System::Linq::Expressions::Expression*>*> arguments);
 
@@ -77,19 +77,19 @@ public:
 
   constexpr void __cordl_internal_set__Type_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x2b0b31c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c08c1c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Expression* expression, ::System::Type* returnType);
 
-  /// @brief Method get_ArgumentCount, addr 0x2b0b3cc, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_ArgumentCount, addr 0x2c08ccc, size 0x28, virtual true, abstract: false, final false
   inline int32_t get_ArgumentCount();
 
-  /// @brief Method get_Expression, addr 0x2b0b39c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Expression, addr 0x2c08c9c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Expression();
 
-  /// @brief Method get_NodeType, addr 0x2b0b394, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_NodeType, addr 0x2c08c94, size 0x8, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::ExpressionType get_NodeType();
 
-  /// @brief Method get_Type, addr 0x2b0b38c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Type, addr 0x2c08c8c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* get_Type();
 
   /// @brief Convert to "::System::Linq::Expressions::IArgumentProvider"

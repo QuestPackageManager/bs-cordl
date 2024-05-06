@@ -37,22 +37,22 @@ public:
   __declspec(property(get = __cordl_internal_get__nodePoseSyncStateManager,
                       put = __cordl_internal_set__nodePoseSyncStateManager))::UnityW<::GlobalNamespace::NodePoseSyncStateManager> _nodePoseSyncStateManager;
 
-  /// @brief Method Dispose, addr 0x2604898, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x2704704, size 0xd0, virtual true, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method FindPlayerToMirror, addr 0x2604ad0, size 0x3a4, virtual false, abstract: false, final false
+  /// @brief Method FindPlayerToMirror, addr 0x270493c, size 0x3a4, virtual false, abstract: false, final false
   inline void FindPlayerToMirror();
 
-  /// @brief Method HandleOptionalAvatarDataReceived, addr 0x2604e74, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method HandleOptionalAvatarDataReceived, addr 0x2704ce0, size 0x1d8, virtual false, abstract: false, final false
   inline void HandleOptionalAvatarDataReceived(::BeatSaber::AvatarCore::OptionalAvatarDataPacket* optionalAvatarDataPacket, ::GlobalNamespace::IConnectedPlayer* player);
 
-  /// @brief Method Init, addr 0x2604894, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x2704700, size 0x4, virtual true, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::MockPlayerLobbyPoseGeneratorMirror* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager,
                                                                                 ::GlobalNamespace::NodePoseSyncStateManager* nodePoseSyncStateManager);
 
-  /// @brief Method Tick, addr 0x2604968, size 0x168, virtual true, abstract: false, final false
+  /// @brief Method Tick, addr 0x27047d4, size 0x168, virtual true, abstract: false, final false
   inline void Tick();
 
   constexpr ::GlobalNamespace::IConnectedPlayer*& __cordl_internal_get__mirroredPlayer();
@@ -67,7 +67,7 @@ public:
 
   constexpr void __cordl_internal_set__nodePoseSyncStateManager(::UnityW<::GlobalNamespace::NodePoseSyncStateManager> value);
 
-  /// @brief Method .ctor, addr 0x2604710, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x270457c, size 0x184, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::GlobalNamespace::NodePoseSyncStateManager* nodePoseSyncStateManager);
 
 protected:

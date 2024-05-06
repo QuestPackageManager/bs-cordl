@@ -74,27 +74,27 @@ public:
   /// @brief Method Compare, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t Compare(::StringW x, ::StringW y);
 
-  /// @brief Method Compare, addr 0x284a4c0, size 0x190, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x2949c94, size 0x190, virtual true, abstract: false, final true
   inline int32_t Compare(::System::Object* x, ::System::Object* y);
 
-  /// @brief Method Create, addr 0x284a3c4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2949b98, size 0xb8, virtual false, abstract: false, final false
   static inline ::System::StringComparer* Create(::System::Globalization::CultureInfo* culture, bool ignoreCase);
 
   /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Equals(::StringW x, ::StringW y);
 
-  /// @brief Method Equals, addr 0x284a650, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2949e24, size 0xc8, virtual true, abstract: false, final true
   inline bool Equals(::System::Object* x, ::System::Object* y);
 
   /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t GetHashCode(::StringW obj);
 
-  /// @brief Method GetHashCode, addr 0x284a718, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method GetHashCode, addr 0x2949eec, size 0xc8, virtual true, abstract: false, final true
   inline int32_t GetHashCode(::System::Object* obj);
 
   static inline ::System::StringComparer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x284a7e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2949fb4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::CultureAwareComparer* getStaticF_s_invariantCulture();
@@ -105,13 +105,13 @@ public:
 
   static inline ::System::OrdinalIgnoreCaseComparer* getStaticF_s_ordinalIgnoreCase();
 
-  /// @brief Method get_InvariantCultureIgnoreCase, addr 0x284a2bc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_InvariantCultureIgnoreCase, addr 0x2949a90, size 0x58, virtual false, abstract: false, final false
   static inline ::System::StringComparer* get_InvariantCultureIgnoreCase();
 
-  /// @brief Method get_Ordinal, addr 0x284a314, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Ordinal, addr 0x2949ae8, size 0x58, virtual false, abstract: false, final false
   static inline ::System::StringComparer* get_Ordinal();
 
-  /// @brief Method get_OrdinalIgnoreCase, addr 0x284a36c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_OrdinalIgnoreCase, addr 0x2949b40, size 0x58, virtual false, abstract: false, final false
   static inline ::System::StringComparer* get_OrdinalIgnoreCase();
 
   /// @brief Convert to "::System::Collections::Generic::IComparer_1<::StringW>"

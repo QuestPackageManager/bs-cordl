@@ -46,7 +46,7 @@ public:
 
   static inline ::HMUI::__StackedController____c__DisplayClass5_0* New_ctor();
 
-  /// @brief Method <PopViewControllers>g__AnimationLayouter|0, addr 0x2416008, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method <PopViewControllers>g__AnimationLayouter|0, addr 0x250fc94, size 0x74, virtual false, abstract: false, final false
   inline void _PopViewControllers_g__AnimationLayouter_0(float_t t, ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*> viewControllers,
                                                          ::System::Collections::Generic::HashSet_1<::UnityW<::HMUI::ViewController>>* removingViewControllers);
 
@@ -56,7 +56,7 @@ public:
 
   constexpr void __cordl_internal_set_numberOfViewControllersToPop(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2415f60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x250fbec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -96,30 +96,30 @@ public:
 
   __declspec(property(get = get_topStackedViewController))::UnityW<::HMUI::ViewController> topStackedViewController;
 
-  /// @brief Method LayoutViewControllers, addr 0x2415bb8, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method LayoutViewControllers, addr 0x250f844, size 0xe8, virtual true, abstract: false, final false
   inline void LayoutViewControllers(::System::Collections::Generic::List_1<::UnityW<::HMUI::ViewController>>* viewControllers);
 
   static inline ::HMUI::StackedController* New_ctor();
 
-  /// @brief Method PopViewController, addr 0x2415d98, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method PopViewController, addr 0x250fa24, size 0x14, virtual false, abstract: false, final false
   inline void PopViewController(::System::Action* finishedCallback, bool immediately);
 
-  /// @brief Method PopViewControllers, addr 0x2415dac, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method PopViewControllers, addr 0x250fa38, size 0x1b4, virtual false, abstract: false, final false
   inline void PopViewControllers(int32_t numberOfViewControllersToPop, ::System::Action* finishedCallback, bool immediately);
 
-  /// @brief Method PushViewController, addr 0x2415cec, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method PushViewController, addr 0x250f978, size 0xac, virtual false, abstract: false, final false
   inline void PushViewController(::HMUI::ViewController* viewController, ::System::Action* finishedCallback, bool immediately);
 
-  /// @brief Method SetupViewControllerRect, addr 0x2415ca0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SetupViewControllerRect, addr 0x250f92c, size 0x28, virtual false, abstract: false, final false
   static inline void SetupViewControllerRect(::HMUI::ViewController* viewController, int32_t index);
 
-  /// @brief Method <PushViewController>g__AnimationLayouter|3_0, addr 0x2415f70, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method <PushViewController>g__AnimationLayouter|3_0, addr 0x250fbfc, size 0x98, virtual false, abstract: false, final false
   static inline void _PushViewController_g__AnimationLayouter_3_0(float_t t, ::ArrayW<::HMUI::ViewController*, ::Array<::HMUI::ViewController*>*> viewControllers);
 
-  /// @brief Method .ctor, addr 0x2415f68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x250fbf4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_topStackedViewController, addr 0x2415b40, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_topStackedViewController, addr 0x250f7cc, size 0x78, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::ViewController> get_topStackedViewController();
 
 protected:

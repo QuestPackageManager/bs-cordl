@@ -38,10 +38,10 @@ public:
 
   constexpr void __cordl_internal_set__achievementsIds(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::AchievementSO>>* value);
 
-  /// @brief Method .ctor, addr 0x139ce30, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1492554, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_achievementsIds, addr 0x139ce28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_achievementsIds, addr 0x149254c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::AchievementSO>>* get_achievementsIds();
 
 protected:

@@ -21,13 +21,13 @@ public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Controls::DoubleControl* New_ctor();
 
-  /// @brief Method ReadUnprocessedValueFromState, addr 0x303d170, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ReadUnprocessedValueFromState, addr 0x3177efc, size 0xc, virtual true, abstract: false, final false
   inline double_t ReadUnprocessedValueFromState(::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method WriteValueIntoState, addr 0x303d17c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method WriteValueIntoState, addr 0x3177f08, size 0xc, virtual true, abstract: false, final false
   inline void WriteValueIntoState(double_t value, ::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method .ctor, addr 0x303d0e8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3177e74, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

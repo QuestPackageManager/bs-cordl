@@ -51,10 +51,10 @@ public:
 
   static inline ::HMUI::VerticalScrollIndicator* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x2433ec4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x252eb50, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method RefreshHandle, addr 0x2433d84, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method RefreshHandle, addr 0x252ea10, size 0xf0, virtual false, abstract: false, final false
   inline void RefreshHandle();
 
   constexpr ::UnityW<::UnityEngine::AnimationClip> const& __cordl_internal_get__disabledAnimationClip() const;
@@ -93,22 +93,22 @@ public:
 
   constexpr void __cordl_internal_set__progress(float_t value);
 
-  /// @brief Method .ctor, addr 0x2433ec8, size 0x1010, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x252eb54, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_normalizedPageHeight, addr 0x2433e7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_normalizedPageHeight, addr 0x252eb08, size 0x8, virtual false, abstract: false, final false
   inline float_t get_normalizedPageHeight();
 
-  /// @brief Method get_progress, addr 0x2433e74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_progress, addr 0x252eb00, size 0x8, virtual false, abstract: false, final false
   inline float_t get_progress();
 
-  /// @brief Method set_disabled, addr 0x2433e84, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method set_disabled, addr 0x252eb10, size 0x40, virtual false, abstract: false, final false
   inline void set_disabled(bool value);
 
-  /// @brief Method set_normalizedPageHeight, addr 0x242d634, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_normalizedPageHeight, addr 0x25282c0, size 0x2c, virtual false, abstract: false, final false
   inline void set_normalizedPageHeight(float_t value);
 
-  /// @brief Method set_progress, addr 0x242d89c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_progress, addr 0x2528528, size 0x2c, virtual false, abstract: false, final false
   inline void set_progress(float_t value);
 
 protected:

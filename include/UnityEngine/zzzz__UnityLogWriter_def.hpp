@@ -26,30 +26,30 @@ public:
   // Declarations
   __declspec(property(get = get_Encoding))::System::Text::Encoding* Encoding;
 
-  /// @brief Method Init, addr 0x31d1a44, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x33d8778, size 0x80, virtual false, abstract: false, final false
   static inline void Init();
 
   static inline ::UnityEngine::UnityLogWriter* New_ctor();
 
-  /// @brief Method Write, addr 0x31d1bbc, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x33d88f0, size 0x48, virtual true, abstract: false, final false
   inline void Write(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count);
 
-  /// @brief Method Write, addr 0x31d1b78, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x33d88ac, size 0x44, virtual true, abstract: false, final false
   inline void Write(::StringW s);
 
-  /// @brief Method Write, addr 0x31d1b24, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x33d8858, size 0x54, virtual true, abstract: false, final false
   inline void Write(char16_t value);
 
-  /// @brief Method WriteStringToUnityLog, addr 0x31d19c4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method WriteStringToUnityLog, addr 0x33d86f8, size 0x44, virtual false, abstract: false, final false
   static inline void WriteStringToUnityLog(::StringW s);
 
-  /// @brief Method WriteStringToUnityLogImpl, addr 0x31d1a08, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method WriteStringToUnityLogImpl, addr 0x33d873c, size 0x3c, virtual false, abstract: false, final false
   static inline void WriteStringToUnityLogImpl(::StringW s);
 
-  /// @brief Method .ctor, addr 0x31d1ac4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33d87f8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Encoding, addr 0x31d1b1c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Encoding, addr 0x33d8850, size 0x8, virtual true, abstract: false, final false
   inline ::System::Text::Encoding* get_Encoding();
 
 protected:

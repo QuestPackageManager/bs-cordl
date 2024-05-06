@@ -137,21 +137,21 @@ public:
   /// @brief Field _triggerKey, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__triggerKey, put = __cordl_internal_set__triggerKey))::UnityEngine::InputSystem::Key _triggerKey;
 
-  /// @brief Method GenerateAndSaveCubemapTexture, addr 0x257a7f4, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GenerateAndSaveCubemapTexture, addr 0x2672c88, size 0xbc, virtual false, abstract: false, final false
   inline void GenerateAndSaveCubemapTexture();
 
   static inline ::GlobalNamespace::CubemapCapture* New_ctor();
 
-  /// @brief Method RenderCubemapTexture, addr 0x257a8b0, size 0x4d4, virtual false, abstract: false, final false
+  /// @brief Method RenderCubemapTexture, addr 0x2672d44, size 0x4d4, virtual false, abstract: false, final false
   inline void RenderCubemapTexture(::UnityEngine::Cubemap* cubemap);
 
-  /// @brief Method SaveCubemapTexture, addr 0x257ad84, size 0x7d0, virtual false, abstract: false, final false
+  /// @brief Method SaveCubemapTexture, addr 0x2673218, size 0x7d0, virtual false, abstract: false, final false
   inline void SaveCubemapTexture(::UnityEngine::Cubemap* cubemap, ::StringW path);
 
-  /// @brief Method SerializeTextureToByteArray, addr 0x257b554, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method SerializeTextureToByteArray, addr 0x26739e8, size 0xf4, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> SerializeTextureToByteArray(::UnityEngine::Texture2D* texture);
 
-  /// @brief Method Update, addr 0x257a774, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2672c08, size 0x80, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__camera() const;
@@ -208,7 +208,7 @@ public:
 
   constexpr void __cordl_internal_set__triggerKey(::UnityEngine::InputSystem::Key value);
 
-  /// @brief Method .ctor, addr 0x257b648, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2673adc, size 0x150, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

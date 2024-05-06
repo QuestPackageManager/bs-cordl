@@ -57,7 +57,7 @@ public:
 
   static inline ::UnityEngine::ProBuilder::__InternalUtility____c__DisplayClass7_0* New_ctor();
 
-  /// @brief Method <TryParseColor>b__0, addr 0x3078054, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <TryParseColor>b__0, addr 0x327fadc, size 0x1c, virtual false, abstract: false, final false
   inline bool _TryParseColor_b__0(char16_t c);
 
   constexpr ::StringW const& __cordl_internal_get_valid() const;
@@ -66,7 +66,7 @@ public:
 
   constexpr void __cordl_internal_set_valid(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3077d64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x327f7ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -104,7 +104,7 @@ public:
   // Declarations
   using __c__DisplayClass7_0 = ::UnityEngine::ProBuilder::__InternalUtility____c__DisplayClass7_0;
 
-  /// @brief Method ControlKeyString, addr 0x3077a14, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ControlKeyString, addr 0x327f49c, size 0xf0, virtual false, abstract: false, final false
   static inline ::StringW ControlKeyString(char16_t character);
 
   /// @brief Method DemandComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -113,7 +113,7 @@ public:
   /// @brief Method DemandComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T DemandComponent(::UnityEngine::GameObject* gameObject);
 
-  /// @brief Method EmptyGameObjectWithTransform, addr 0x3077810, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method EmptyGameObjectWithTransform, addr 0x327f298, size 0xe8, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> EmptyGameObjectWithTransform(::UnityEngine::Transform* t);
 
   /// @brief Method GetComponents, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -125,17 +125,17 @@ public:
   /// @brief Method GetComponents, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T, ::Array<T>*> GetComponents(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Transform>>* transforms);
 
-  /// @brief Method MeshGameObjectWithTransform, addr 0x30778f8, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method MeshGameObjectWithTransform, addr 0x327f380, size 0x11c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> MeshGameObjectWithTransform(::StringW name, ::UnityEngine::Transform* t, ::UnityEngine::Mesh* mesh, ::UnityEngine::Material* mat,
                                                                                 bool inheritParent);
 
   /// @brief Method NextEnumValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T NextEnumValue(T current);
 
-  /// @brief Method StringToVector3Array, addr 0x3077d6c, size 0x2e8, virtual false, abstract: false, final false
+  /// @brief Method StringToVector3Array, addr 0x327f7f4, size 0x2e8, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> StringToVector3Array(::StringW str);
 
-  /// @brief Method TryParseColor, addr 0x3077b04, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method TryParseColor, addr 0x327f58c, size 0x260, virtual false, abstract: false, final false
   static inline bool TryParseColor(::StringW value, ByRef<::UnityEngine::Color> col);
 
 protected:

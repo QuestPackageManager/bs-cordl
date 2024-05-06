@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::MessageWithNetSyncSessionsChangedNotification::*)(void*)>(
     &::Oculus::Platform::MessageWithNetSyncSessionsChangedNotification::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x29c7dac;
+  constexpr static std::size_t addrs = 0x2ac565c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::NetSyncSessionsChangedNotification* (
     ::Oculus::Platform::MessageWithNetSyncSessionsChangedNotification::*)()>(&::Oculus::Platform::MessageWithNetSyncSessionsChangedNotification::GetNetSyncSessionsChangedNotification)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x29cb534;
+  constexpr static std::size_t addrs = 0x2ac8de4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::NetSyncSessionsChangedNotification* (
     ::Oculus::Platform::MessageWithNetSyncSessionsChangedNotification::*)(void*)>(&::Oculus::Platform::MessageWithNetSyncSessionsChangedNotification::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x29cb570;
+  constexpr static std::size_t addrs = 0x2ac8e20;
 
   inline static ::MethodInfo const* methodInfo() {
 

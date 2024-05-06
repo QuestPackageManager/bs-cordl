@@ -70,19 +70,19 @@ public:
 
   constexpr void __cordl_internal_set__value(int32_t value);
 
-  /// @brief Method .ctor, addr 0x1401b80, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14f410c, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(float_t time, ::BeatmapSaveDataCommon::BeatmapEventType type, int32_t value, float_t floatValue);
 
-  /// @brief Method get_floatValue, addr 0x1401bdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_floatValue, addr 0x14f4168, size 0x8, virtual false, abstract: false, final false
   inline float_t get_floatValue();
 
-  /// @brief Method get_time, addr 0x1401bc4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_time, addr 0x14f4150, size 0x8, virtual true, abstract: false, final false
   inline float_t get_time();
 
-  /// @brief Method get_type, addr 0x1401bcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x14f4158, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::BeatmapEventType get_type();
 
-  /// @brief Method get_value, addr 0x1401bd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x14f4160, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_value();
 
 protected:

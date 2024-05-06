@@ -42,15 +42,15 @@ public:
   __declspec(property(get = __cordl_internal_get__onSerializedHandler,
                       put = __cordl_internal_set__onSerializedHandler))::System::Runtime::Serialization::SerializationEventHandler* _onSerializedHandler;
 
-  /// @brief Method AddOnSerialized, addr 0x2738444, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method AddOnSerialized, addr 0x2836840, size 0x90, virtual false, abstract: false, final false
   inline void AddOnSerialized(::System::Object* obj);
 
   static inline ::System::Runtime::Serialization::SerializationObjectManager* New_ctor(::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method RaiseOnSerializedEvent, addr 0x27384d4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method RaiseOnSerializedEvent, addr 0x28368d0, size 0x20, virtual false, abstract: false, final false
   inline void RaiseOnSerializedEvent();
 
-  /// @brief Method RegisterObject, addr 0x2738334, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method RegisterObject, addr 0x2836730, size 0x110, virtual false, abstract: false, final false
   inline void RegisterObject(::System::Object* obj);
 
   constexpr ::System::Runtime::Serialization::StreamingContext const& __cordl_internal_get__context() const;
@@ -71,7 +71,7 @@ public:
 
   constexpr void __cordl_internal_set__onSerializedHandler(::System::Runtime::Serialization::SerializationEventHandler* value);
 
-  /// @brief Method .ctor, addr 0x27382a0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x283669c, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::StreamingContext context);
 
 protected:

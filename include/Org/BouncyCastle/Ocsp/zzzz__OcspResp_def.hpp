@@ -37,16 +37,16 @@ public:
   /// @brief Field resp, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_resp, put = __cordl_internal_set_resp))::Org::BouncyCastle::Asn1::Ocsp::OcspResponse* resp;
 
-  /// @brief Method Equals, addr 0x1212264, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x1302988, size 0xb0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetEncoded, addr 0x1212248, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x130296c, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
-  /// @brief Method GetHashCode, addr 0x1212314, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x1302a38, size 0x1c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetResponseObject, addr 0x1212074, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method GetResponseObject, addr 0x1302798, size 0x1d4, virtual false, abstract: false, final false
   inline ::System::Object* GetResponseObject();
 
   static inline ::Org::BouncyCastle::Ocsp::OcspResp* New_ctor(::Org::BouncyCastle::Asn1::Asn1InputStream* aIn);
@@ -63,19 +63,19 @@ public:
 
   constexpr void __cordl_internal_set_resp(::Org::BouncyCastle::Asn1::Ocsp::OcspResponse* value);
 
-  /// @brief Method .ctor, addr 0x1211ea4, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13025c8, size 0x138, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1InputStream* aIn);
 
-  /// @brief Method .ctor, addr 0x1211fdc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1302700, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* inStr);
 
-  /// @brief Method .ctor, addr 0x1211e30, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1302554, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> resp);
 
-  /// @brief Method .ctor, addr 0x1211e08, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x130252c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Ocsp::OcspResponse* resp);
 
-  /// @brief Method get_Status, addr 0x1212050, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_Status, addr 0x1302774, size 0x24, virtual false, abstract: false, final false
   inline int32_t get_Status();
 
 protected:

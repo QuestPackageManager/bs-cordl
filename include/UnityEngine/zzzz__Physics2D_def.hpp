@@ -50,70 +50,70 @@ public:
   static __declspec(property(get = getStaticF_m_LastDisabledRigidbody2D,
                              put = setStaticF_m_LastDisabledRigidbody2D))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Rigidbody2D>>* m_LastDisabledRigidbody2D;
 
-  /// @brief Method GetRayIntersection, addr 0x3250c0c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetRayIntersection, addr 0x3459948, size 0xc0, virtual false, abstract: false, final false
   static inline ::UnityEngine::RaycastHit2D GetRayIntersection(::UnityEngine::Ray ray, float_t distance, int32_t layerMask);
 
-  /// @brief Method GetRayIntersectionAll, addr 0x3250ccc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method GetRayIntersectionAll, addr 0x3459a08, size 0xac, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::RaycastHit2D, ::Array<::UnityEngine::RaycastHit2D>*> GetRayIntersectionAll(::UnityEngine::Ray ray);
 
-  /// @brief Method GetRayIntersectionAll, addr 0x3250e28, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method GetRayIntersectionAll, addr 0x3459b64, size 0xac, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::RaycastHit2D, ::Array<::UnityEngine::RaycastHit2D>*> GetRayIntersectionAll(::UnityEngine::Ray ray, float_t distance);
 
-  /// @brief Method GetRayIntersectionAll, addr 0x3250ed4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetRayIntersectionAll, addr 0x3459c10, size 0xb8, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::RaycastHit2D, ::Array<::UnityEngine::RaycastHit2D>*> GetRayIntersectionAll(::UnityEngine::Ray ray, float_t distance, int32_t layerMask);
 
-  /// @brief Method GetRayIntersectionAll_Internal, addr 0x3250d78, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetRayIntersectionAll_Internal, addr 0x3459ab4, size 0xb0, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::RaycastHit2D, ::Array<::UnityEngine::RaycastHit2D>*> GetRayIntersectionAll_Internal(::UnityEngine::PhysicsScene2D physicsScene, ::UnityEngine::Vector3 origin,
                                                                                                                             ::UnityEngine::Vector3 direction, float_t distance, int32_t layerMask);
 
-  /// @brief Method GetRayIntersectionAll_Internal_Injected, addr 0x3250f8c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetRayIntersectionAll_Internal_Injected, addr 0x3459cc8, size 0x6c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::RaycastHit2D, ::Array<::UnityEngine::RaycastHit2D>*> GetRayIntersectionAll_Internal_Injected(ByRef<::UnityEngine::PhysicsScene2D> physicsScene,
                                                                                                                                      ByRef<::UnityEngine::Vector3> origin,
                                                                                                                                      ByRef<::UnityEngine::Vector3> direction, float_t distance,
                                                                                                                                      int32_t layerMask);
 
-  /// @brief Method GetRayIntersectionNonAlloc, addr 0x3250ff8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetRayIntersectionNonAlloc, addr 0x3459d34, size 0x98, virtual false, abstract: false, final false
   static inline int32_t GetRayIntersectionNonAlloc(::UnityEngine::Ray ray, ::ArrayW<::UnityEngine::RaycastHit2D, ::Array<::UnityEngine::RaycastHit2D>*> results);
 
-  /// @brief Method GetRayIntersectionNonAlloc, addr 0x3251090, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetRayIntersectionNonAlloc, addr 0x3459dcc, size 0xa0, virtual false, abstract: false, final false
   static inline int32_t GetRayIntersectionNonAlloc(::UnityEngine::Ray ray, ::ArrayW<::UnityEngine::RaycastHit2D, ::Array<::UnityEngine::RaycastHit2D>*> results, float_t distance);
 
-  /// @brief Method GetRayIntersectionNonAlloc, addr 0x3251130, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetRayIntersectionNonAlloc, addr 0x3459e6c, size 0xa4, virtual false, abstract: false, final false
   static inline int32_t GetRayIntersectionNonAlloc(::UnityEngine::Ray ray, ::ArrayW<::UnityEngine::RaycastHit2D, ::Array<::UnityEngine::RaycastHit2D>*> results, float_t distance, int32_t layerMask);
 
-  /// @brief Method Raycast, addr 0x32504dc, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Raycast, addr 0x3459218, size 0xc4, virtual false, abstract: false, final false
   static inline ::UnityEngine::RaycastHit2D Raycast(::UnityEngine::Vector2 origin, ::UnityEngine::Vector2 direction);
 
-  /// @brief Method Raycast, addr 0x32505a0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Raycast, addr 0x34592dc, size 0xcc, virtual false, abstract: false, final false
   static inline ::UnityEngine::RaycastHit2D Raycast(::UnityEngine::Vector2 origin, ::UnityEngine::Vector2 direction, float_t distance);
 
-  /// @brief Method Raycast, addr 0x325066c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method Raycast, addr 0x34593a8, size 0x11c, virtual false, abstract: false, final false
   static inline ::UnityEngine::RaycastHit2D Raycast(::UnityEngine::Vector2 origin, ::UnityEngine::Vector2 direction, float_t distance, int32_t layerMask);
 
-  /// @brief Method Raycast, addr 0x3250788, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method Raycast, addr 0x34594c4, size 0x11c, virtual false, abstract: false, final false
   static inline ::UnityEngine::RaycastHit2D Raycast(::UnityEngine::Vector2 origin, ::UnityEngine::Vector2 direction, float_t distance, int32_t layerMask, float_t minDepth);
 
-  /// @brief Method Raycast, addr 0x32508a4, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method Raycast, addr 0x34595e0, size 0x124, virtual false, abstract: false, final false
   static inline ::UnityEngine::RaycastHit2D Raycast(::UnityEngine::Vector2 origin, ::UnityEngine::Vector2 direction, float_t distance, int32_t layerMask, float_t minDepth, float_t maxDepth);
 
-  /// @brief Method Raycast, addr 0x32509c8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Raycast, addr 0x3459704, size 0xbc, virtual false, abstract: false, final false
   static inline int32_t Raycast(::UnityEngine::Vector2 origin, ::UnityEngine::Vector2 direction, ::UnityEngine::ContactFilter2D contactFilter,
                                 ::ArrayW<::UnityEngine::RaycastHit2D, ::Array<::UnityEngine::RaycastHit2D>*> results);
 
-  /// @brief Method Raycast, addr 0x3250a84, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Raycast, addr 0x34597c0, size 0xc4, virtual false, abstract: false, final false
   static inline int32_t Raycast(::UnityEngine::Vector2 origin, ::UnityEngine::Vector2 direction, ::UnityEngine::ContactFilter2D contactFilter,
                                 ::ArrayW<::UnityEngine::RaycastHit2D, ::Array<::UnityEngine::RaycastHit2D>*> results, float_t distance);
 
-  /// @brief Method Raycast, addr 0x3250b48, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Raycast, addr 0x3459884, size 0xc4, virtual false, abstract: false, final false
   static inline int32_t Raycast(::UnityEngine::Vector2 origin, ::UnityEngine::Vector2 direction, ::UnityEngine::ContactFilter2D contactFilter,
                                 ::System::Collections::Generic::List_1<::UnityEngine::RaycastHit2D>* results, float_t distance);
 
   static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Rigidbody2D>>* getStaticF_m_LastDisabledRigidbody2D();
 
-  /// @brief Method get_defaultPhysicsScene, addr 0x32504ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultPhysicsScene, addr 0x34591e8, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::PhysicsScene2D get_defaultPhysicsScene();
 
-  /// @brief Method get_queriesHitTriggers, addr 0x32504b4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_queriesHitTriggers, addr 0x34591f0, size 0x28, virtual false, abstract: false, final false
   static inline bool get_queriesHitTriggers();
 
   static inline void setStaticF_m_LastDisabledRigidbody2D(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Rigidbody2D>>* value);

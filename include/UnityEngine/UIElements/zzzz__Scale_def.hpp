@@ -35,37 +35,37 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::Scale>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::Scale>*();
 
-  /// @brief Method Equals, addr 0x33c4e58, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x35cab94, size 0xbc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x33c4e0c, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x35cab48, size 0x4c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::Scale other);
 
-  /// @brief Method GetHashCode, addr 0x33bbe44, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x35c1b80, size 0x50, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Initial, addr 0x33c4d68, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Initial, addr 0x35caaa4, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Scale Initial();
 
-  /// @brief Method None, addr 0x33c04bc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method None, addr 0x35c61f8, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Scale None();
 
-  /// @brief Method ToString, addr 0x33c4f14, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x35cac50, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x33c4d54, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35caa90, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 scale);
 
-  /// @brief Method get_value, addr 0x33c4dac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x35caae8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_value();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::Scale>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::Scale>* i___System__IEquatable_1___UnityEngine__UIElements__Scale_();
 
-  /// @brief Method op_Equality, addr 0x33bbc7c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x35c19b8, size 0x54, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::Scale lhs, ::UnityEngine::UIElements::Scale rhs);
 
-  /// @brief Method op_Inequality, addr 0x33c4db8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x35caaf4, size 0x54, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::UIElements::Scale lhs, ::UnityEngine::UIElements::Scale rhs);
 
   // Ctor Parameters []

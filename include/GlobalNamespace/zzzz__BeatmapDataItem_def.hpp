@@ -108,7 +108,7 @@ public:
   /// @brief Convert operator to "::System::IComparable_1<::GlobalNamespace::BeatmapDataItem*>"
   constexpr operator ::System::IComparable_1<::GlobalNamespace::BeatmapDataItem*>*() noexcept;
 
-  /// @brief Method CompareTo, addr 0xf45ccc, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x1034840, size 0x4c, virtual true, abstract: false, final true
   inline int32_t CompareTo(::GlobalNamespace::BeatmapDataItem* b);
 
   /// @brief Method GetCopy, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -140,16 +140,16 @@ public:
 
   constexpr void __cordl_internal_set_type(::GlobalNamespace::__BeatmapDataItem__BeatmapDataItemType value);
 
-  /// @brief Method .ctor, addr 0xf45c80, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10347f4, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(float_t time, int32_t executionOrder, int32_t subtypeIdentifier, ::GlobalNamespace::__BeatmapDataItem__BeatmapDataItemType type);
 
-  /// @brief Method get_executionOrder, addr 0xf45c70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_executionOrder, addr 0x10347e4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_executionOrder();
 
-  /// @brief Method get_subtypeGroupIdentifier, addr 0xf45c78, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_subtypeGroupIdentifier, addr 0x10347ec, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_subtypeGroupIdentifier();
 
-  /// @brief Method get_time, addr 0xf45c68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_time, addr 0x10347dc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_time();
 
   /// @brief Convert to "::System::IComparable_1<::GlobalNamespace::BeatmapDataItem*>"

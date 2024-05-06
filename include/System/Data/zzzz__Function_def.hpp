@@ -97,7 +97,7 @@ public:
 
   constexpr void __cordl_internal_set__result(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x2bd2f98, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ccf898, size 0x1d8, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::System::Data::FunctionId id, ::System::Type* result, bool IsValidateArguments, bool IsVariantArgumentList, int32_t argumentCount, ::System::Type* a1,
                     ::System::Type* a2, ::System::Type* a3);
 

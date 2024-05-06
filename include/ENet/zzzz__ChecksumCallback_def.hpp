@@ -28,18 +28,18 @@ namespace ENet {
 class CORDL_TYPE ChecksumCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x24dc78c, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x25d4418, size 0xb4, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(void* buffers, int32_t bufferCount, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x24dc840, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x25d44cc, size 0x28, virtual true, abstract: false, final false
   inline uint64_t EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x24dc778, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x25d4404, size 0x14, virtual true, abstract: false, final false
   inline uint64_t Invoke(void* buffers, int32_t bufferCount);
 
   static inline ::ENet::ChecksumCallback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x24dc6b4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d4340, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:

@@ -87,10 +87,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x291826c, size 0x250, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2a16b1c, size 0x250, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x29184bc, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2a16d6c, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -164,10 +164,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x29184c8, size 0x90c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2a16d78, size 0x90c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2918dd4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2a17684, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -282,10 +282,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2918de0, size 0x33c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2a17690, size 0x33c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x291911c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2a179cc, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -402,60 +402,60 @@ public:
   /// @brief Field SingleQuoteCharEscapeFlags, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_SingleQuoteCharEscapeFlags, put = setStaticF_SingleQuoteCharEscapeFlags))::ArrayW<bool, ::Array<bool>*> SingleQuoteCharEscapeFlags;
 
-  /// @brief Method FirstCharToEscape, addr 0x2917128, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method FirstCharToEscape, addr 0x2a159d8, size 0xb4, virtual false, abstract: false, final false
   static inline int32_t FirstCharToEscape(::StringW s, ::ArrayW<bool, ::Array<bool>*> charEscapeFlags, ::Newtonsoft::Json::StringEscapeHandling stringEscapeHandling);
 
-  /// @brief Method GetCharEscapeFlags, addr 0x2916a24, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetCharEscapeFlags, addr 0x2a152d4, size 0x98, virtual false, abstract: false, final false
   static inline ::ArrayW<bool, ::Array<bool>*> GetCharEscapeFlags(::Newtonsoft::Json::StringEscapeHandling stringEscapeHandling, char16_t quoteChar);
 
-  /// @brief Method ShouldEscapeJavaScriptString, addr 0x2916abc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method ShouldEscapeJavaScriptString, addr 0x2a1536c, size 0x88, virtual false, abstract: false, final false
   static inline bool ShouldEscapeJavaScriptString(::StringW s, ::ArrayW<bool, ::Array<bool>*> charEscapeFlags);
 
-  /// @brief Method ToEscapedJavaScriptString, addr 0x29171dc, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method ToEscapedJavaScriptString, addr 0x2a15a8c, size 0x230, virtual false, abstract: false, final false
   static inline ::StringW ToEscapedJavaScriptString(::StringW value, char16_t delimiter, bool appendDelimiters, ::Newtonsoft::Json::StringEscapeHandling stringEscapeHandling);
 
-  /// @brief Method TryGetDateConstructorValue, addr 0x29180b0, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method TryGetDateConstructorValue, addr 0x2a16960, size 0x1bc, virtual false, abstract: false, final false
   static inline bool TryGetDateConstructorValue(::Newtonsoft::Json::JsonReader* reader, ByRef<::System::Nullable_1<int64_t>> integer, ByRef<::StringW> errorMessage);
 
-  /// @brief Method TryGetDateFromConstructorJson, addr 0x2917c00, size 0x4b0, virtual false, abstract: false, final false
+  /// @brief Method TryGetDateFromConstructorJson, addr 0x2a164b0, size 0x4b0, virtual false, abstract: false, final false
   static inline bool TryGetDateFromConstructorJson(::Newtonsoft::Json::JsonReader* reader, ByRef<::System::DateTime> dateTime, ByRef<::StringW> errorMessage);
 
-  /// @brief Method WriteCharAsync, addr 0x29179e4, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method WriteCharAsync, addr 0x2a16294, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* WriteCharAsync(::System::Threading::Tasks::Task* task, ::System::IO::TextWriter* writer, char16_t c,
                                                                  ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteDefinitelyEscapedJavaScriptStringWithoutDelimitersAsync, addr 0x2917ad8, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method WriteDefinitelyEscapedJavaScriptStringWithoutDelimitersAsync, addr 0x2a16388, size 0x128, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task*
   WriteDefinitelyEscapedJavaScriptStringWithoutDelimitersAsync(::System::IO::TextWriter* writer, ::StringW s, int32_t lastWritePosition, ::ArrayW<bool, ::Array<bool>*> charEscapeFlags,
                                                                ::Newtonsoft::Json::StringEscapeHandling stringEscapeHandling, ::Newtonsoft::Json::JsonTextWriter* client,
                                                                ::ArrayW<char16_t, ::Array<char16_t>*> writeBuffer, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteEscapedJavaScriptString, addr 0x2916b44, size 0x5e4, virtual false, abstract: false, final false
+  /// @brief Method WriteEscapedJavaScriptString, addr 0x2a153f4, size 0x5e4, virtual false, abstract: false, final false
   static inline void WriteEscapedJavaScriptString(::System::IO::TextWriter* writer, ::StringW s, char16_t delimiter, bool appendDelimiters, ::ArrayW<bool, ::Array<bool>*> charEscapeFlags,
                                                   ::Newtonsoft::Json::StringEscapeHandling stringEscapeHandling, ::Newtonsoft::Json::IArrayPool_1<char16_t>* bufferPool,
                                                   ByRef<::ArrayW<char16_t, ::Array<char16_t>*>> writeBuffer);
 
-  /// @brief Method WriteEscapedJavaScriptStringAsync, addr 0x291740c, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method WriteEscapedJavaScriptStringAsync, addr 0x2a15cbc, size 0x18c, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* WriteEscapedJavaScriptStringAsync(::System::IO::TextWriter* writer, ::StringW s, char16_t delimiter, bool appendDelimiters,
                                                                                     ::ArrayW<bool, ::Array<bool>*> charEscapeFlags, ::Newtonsoft::Json::StringEscapeHandling stringEscapeHandling,
                                                                                     ::Newtonsoft::Json::JsonTextWriter* client, ::ArrayW<char16_t, ::Array<char16_t>*> writeBuffer,
                                                                                     ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteEscapedJavaScriptStringWithDelimitersAsync, addr 0x29178b4, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method WriteEscapedJavaScriptStringWithDelimitersAsync, addr 0x2a16164, size 0x130, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* WriteEscapedJavaScriptStringWithDelimitersAsync(::System::Threading::Tasks::Task* task, ::System::IO::TextWriter* writer, ::StringW s,
                                                                                                   char16_t delimiter, ::ArrayW<bool, ::Array<bool>*> charEscapeFlags,
                                                                                                   ::Newtonsoft::Json::StringEscapeHandling stringEscapeHandling,
                                                                                                   ::Newtonsoft::Json::JsonTextWriter* client, ::ArrayW<char16_t, ::Array<char16_t>*> writeBuffer,
                                                                                                   ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteEscapedJavaScriptStringWithDelimitersAsync, addr 0x2917598, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method WriteEscapedJavaScriptStringWithDelimitersAsync, addr 0x2a15e48, size 0x1f8, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* WriteEscapedJavaScriptStringWithDelimitersAsync(::System::IO::TextWriter* writer, ::StringW s, char16_t delimiter,
                                                                                                   ::ArrayW<bool, ::Array<bool>*> charEscapeFlags,
                                                                                                   ::Newtonsoft::Json::StringEscapeHandling stringEscapeHandling,
                                                                                                   ::Newtonsoft::Json::JsonTextWriter* client, ::ArrayW<char16_t, ::Array<char16_t>*> writeBuffer,
                                                                                                   ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteEscapedJavaScriptStringWithoutDelimitersAsync, addr 0x2917790, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method WriteEscapedJavaScriptStringWithoutDelimitersAsync, addr 0x2a16040, size 0x124, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* WriteEscapedJavaScriptStringWithoutDelimitersAsync(::System::IO::TextWriter* writer, ::StringW s, ::ArrayW<bool, ::Array<bool>*> charEscapeFlags,
                                                                                                      ::Newtonsoft::Json::StringEscapeHandling stringEscapeHandling,
                                                                                                      ::Newtonsoft::Json::JsonTextWriter* client, ::ArrayW<char16_t, ::Array<char16_t>*> writeBuffer,

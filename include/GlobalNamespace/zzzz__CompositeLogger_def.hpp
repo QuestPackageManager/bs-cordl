@@ -37,31 +37,31 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IBeatSaberLogger"
   constexpr operator ::GlobalNamespace::IBeatSaberLogger*() noexcept;
 
-  /// @brief Method AddLogger, addr 0x2589678, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method AddLogger, addr 0x2682628, size 0xa8, virtual false, abstract: false, final false
   inline void AddLogger(::GlobalNamespace::IBeatSaberLogger* logger);
 
-  /// @brief Method Log, addr 0x2589720, size 0x1b0, virtual true, abstract: false, final true
+  /// @brief Method Log, addr 0x26826d0, size 0x1b0, virtual true, abstract: false, final true
   inline void Log(::StringW message);
 
-  /// @brief Method Log, addr 0x25898d0, size 0x1c4, virtual true, abstract: false, final true
+  /// @brief Method Log, addr 0x2682880, size 0x1c4, virtual true, abstract: false, final true
   inline void Log(::StringW message, ::System::Object* context);
 
-  /// @brief Method LogError, addr 0x2589e0c, size 0x1b4, virtual true, abstract: false, final true
+  /// @brief Method LogError, addr 0x2682dbc, size 0x1b4, virtual true, abstract: false, final true
   inline void LogError(::StringW message);
 
-  /// @brief Method LogError, addr 0x2589fc0, size 0x1c4, virtual true, abstract: false, final true
+  /// @brief Method LogError, addr 0x2682f70, size 0x1c4, virtual true, abstract: false, final true
   inline void LogError(::StringW message, ::System::Object* context);
 
-  /// @brief Method LogException, addr 0x258a184, size 0x1b4, virtual true, abstract: false, final true
+  /// @brief Method LogException, addr 0x2683134, size 0x1b4, virtual true, abstract: false, final true
   inline void LogException(::System::Exception* exception);
 
-  /// @brief Method LogException, addr 0x258a338, size 0x1c4, virtual true, abstract: false, final true
+  /// @brief Method LogException, addr 0x26832e8, size 0x1c4, virtual true, abstract: false, final true
   inline void LogException(::System::Exception* exception, ::System::Object* context);
 
-  /// @brief Method LogWarning, addr 0x2589a94, size 0x1b4, virtual true, abstract: false, final true
+  /// @brief Method LogWarning, addr 0x2682a44, size 0x1b4, virtual true, abstract: false, final true
   inline void LogWarning(::StringW message);
 
-  /// @brief Method LogWarning, addr 0x2589c48, size 0x1c4, virtual true, abstract: false, final true
+  /// @brief Method LogWarning, addr 0x2682bf8, size 0x1c4, virtual true, abstract: false, final true
   inline void LogWarning(::StringW message, ::System::Object* context);
 
   static inline ::GlobalNamespace::CompositeLogger* New_ctor(::System::Collections::Generic::List_1<::GlobalNamespace::IBeatSaberLogger*>* loggers);
@@ -72,7 +72,7 @@ public:
 
   constexpr void __cordl_internal_set__loggers(::System::Collections::Generic::List_1<::GlobalNamespace::IBeatSaberLogger*>* value);
 
-  /// @brief Method .ctor, addr 0x2589650, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2682600, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::GlobalNamespace::IBeatSaberLogger*>* loggers);
 
   /// @brief Convert to "::GlobalNamespace::IBeatSaberLogger"

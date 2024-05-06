@@ -25,7 +25,7 @@ namespace BeatmapDataLoaderVersion4 {
 class CORDL_TYPE LightRotationBaseDataConverter : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Convert, addr 0x140592c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x14f7eec, size 0xb0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::LightRotationBaseData* Convert(float_t beat, ::BeatmapSaveDataVersion4::LightRotationEvent lightRotationEvent);
 
 protected:

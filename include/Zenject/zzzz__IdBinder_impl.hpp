@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::IdBinder::*)(::Zenject::BindInfo*)>(&::Zenject::IdBinder::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x342a058;
+  constexpr static std::size_t addrs = 0x362ed94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -21,8 +21,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::IdBinder::*)(::System::Object*)>(&::Zenject::IdBinder::WithId)> {
-  constexpr static std::size_t size = 0x101c;
-  constexpr static std::size_t addrs = 0x342a080;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x362edbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

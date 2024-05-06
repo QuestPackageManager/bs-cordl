@@ -53,218 +53,218 @@ namespace UnityEngine::Yoga {
 class CORDL_TYPE Native : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method YGConfigFree, addr 0x33f2ccc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method YGConfigFree, addr 0x35f8a08, size 0x8c, virtual false, abstract: false, final false
   static inline void YGConfigFree(void* config);
 
-  /// @brief Method YGConfigFreeInternal, addr 0x33f2d58, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method YGConfigFreeInternal, addr 0x35f8a94, size 0x3c, virtual false, abstract: false, final false
   static inline void YGConfigFreeInternal(void* config);
 
-  /// @brief Method YGConfigGetDefault, addr 0x33f2c7c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method YGConfigGetDefault, addr 0x35f89b8, size 0x28, virtual false, abstract: false, final false
   static inline void* YGConfigGetDefault();
 
-  /// @brief Method YGConfigGetUseWebDefaults, addr 0x33f2dd8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method YGConfigGetUseWebDefaults, addr 0x35f8b14, size 0x3c, virtual false, abstract: false, final false
   static inline bool YGConfigGetUseWebDefaults(void* config);
 
-  /// @brief Method YGConfigNew, addr 0x33f2ca4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method YGConfigNew, addr 0x35f89e0, size 0x28, virtual false, abstract: false, final false
   static inline void* YGConfigNew();
 
-  /// @brief Method YGConfigSetPointScaleFactor, addr 0x33f2e14, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method YGConfigSetPointScaleFactor, addr 0x35f8b50, size 0x4c, virtual false, abstract: false, final false
   static inline void YGConfigSetPointScaleFactor(void* config, float_t pixelsInPoint);
 
-  /// @brief Method YGConfigSetUseWebDefaults, addr 0x33f2d94, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method YGConfigSetUseWebDefaults, addr 0x35f8ad0, size 0x44, virtual false, abstract: false, final false
   static inline void YGConfigSetUseWebDefaults(void* config, bool useWebDefaults);
 
-  /// @brief Method YGNodeBaselineInvoke, addr 0x33f2ec4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method YGNodeBaselineInvoke, addr 0x35f8c00, size 0x4c, virtual false, abstract: false, final false
   static inline void YGNodeBaselineInvoke(::UnityEngine::Yoga::YogaNode* node, float_t width, float_t height, void* returnValueAddress);
 
-  /// @brief Method YGNodeCalculateLayout, addr 0x33f289c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method YGNodeCalculateLayout, addr 0x35f85d8, size 0x5c, virtual false, abstract: false, final false
   static inline void YGNodeCalculateLayout(void* node, float_t availableWidth, float_t availableHeight, ::UnityEngine::Yoga::YogaDirection parentDirection);
 
-  /// @brief Method YGNodeCopyStyle, addr 0x33f0fec, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method YGNodeCopyStyle, addr 0x35f6d28, size 0x44, virtual false, abstract: false, final false
   static inline void YGNodeCopyStyle(void* dstNode, void* srcNode);
 
-  /// @brief Method YGNodeFree, addr 0x33f0c98, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method YGNodeFree, addr 0x35f69d4, size 0x8c, virtual false, abstract: false, final false
   static inline void YGNodeFree(void* ygNode);
 
-  /// @brief Method YGNodeFreeInternal, addr 0x33f2c40, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method YGNodeFreeInternal, addr 0x35f897c, size 0x3c, virtual false, abstract: false, final false
   static inline void YGNodeFreeInternal(void* ygNode);
 
-  /// @brief Method YGNodeGetHasNewLayout, addr 0x33f0f44, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method YGNodeGetHasNewLayout, addr 0x35f6c80, size 0x3c, virtual false, abstract: false, final false
   static inline bool YGNodeGetHasNewLayout(void* node);
 
-  /// @brief Method YGNodeInsertChild, addr 0x33f2484, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method YGNodeInsertChild, addr 0x35f81c0, size 0x54, virtual false, abstract: false, final false
   static inline void YGNodeInsertChild(void* node, void* child, uint32_t index);
 
-  /// @brief Method YGNodeIsDirty, addr 0x33f0e54, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method YGNodeIsDirty, addr 0x35f6b90, size 0x3c, virtual false, abstract: false, final false
   static inline bool YGNodeIsDirty(void* node);
 
-  /// @brief Method YGNodeLayoutGetBorder, addr 0x33f0988, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method YGNodeLayoutGetBorder, addr 0x35f66c4, size 0x44, virtual false, abstract: false, final false
   static inline float_t YGNodeLayoutGetBorder(void* node, ::UnityEngine::Yoga::YogaEdge edge);
 
-  /// @brief Method YGNodeLayoutGetBottom, addr 0x33f20dc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method YGNodeLayoutGetBottom, addr 0x35f7e18, size 0x3c, virtual false, abstract: false, final false
   static inline float_t YGNodeLayoutGetBottom(void* node);
 
-  /// @brief Method YGNodeLayoutGetHeight, addr 0x33f21cc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method YGNodeLayoutGetHeight, addr 0x35f7f08, size 0x3c, virtual false, abstract: false, final false
   static inline float_t YGNodeLayoutGetHeight(void* node);
 
-  /// @brief Method YGNodeLayoutGetLeft, addr 0x33f1f74, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method YGNodeLayoutGetLeft, addr 0x35f7cb0, size 0x3c, virtual false, abstract: false, final false
   static inline float_t YGNodeLayoutGetLeft(void* node);
 
-  /// @brief Method YGNodeLayoutGetMargin, addr 0x33f0700, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method YGNodeLayoutGetMargin, addr 0x35f643c, size 0x44, virtual false, abstract: false, final false
   static inline float_t YGNodeLayoutGetMargin(void* node, ::UnityEngine::Yoga::YogaEdge edge);
 
-  /// @brief Method YGNodeLayoutGetPadding, addr 0x33f0844, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method YGNodeLayoutGetPadding, addr 0x35f6580, size 0x44, virtual false, abstract: false, final false
   static inline float_t YGNodeLayoutGetPadding(void* node, ::UnityEngine::Yoga::YogaEdge edge);
 
-  /// @brief Method YGNodeLayoutGetRight, addr 0x33f2064, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method YGNodeLayoutGetRight, addr 0x35f7da0, size 0x3c, virtual false, abstract: false, final false
   static inline float_t YGNodeLayoutGetRight(void* node);
 
-  /// @brief Method YGNodeLayoutGetTop, addr 0x33f1fec, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method YGNodeLayoutGetTop, addr 0x35f7d28, size 0x3c, virtual false, abstract: false, final false
   static inline float_t YGNodeLayoutGetTop(void* node);
 
-  /// @brief Method YGNodeLayoutGetWidth, addr 0x33f2154, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method YGNodeLayoutGetWidth, addr 0x35f7e90, size 0x3c, virtual false, abstract: false, final false
   static inline float_t YGNodeLayoutGetWidth(void* node);
 
-  /// @brief Method YGNodeMarkDirty, addr 0x33f0ecc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method YGNodeMarkDirty, addr 0x35f6c08, size 0x3c, virtual false, abstract: false, final false
   static inline void YGNodeMarkDirty(void* node);
 
-  /// @brief Method YGNodeMeasureInvoke, addr 0x33f2e60, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method YGNodeMeasureInvoke, addr 0x35f8b9c, size 0x64, virtual false, abstract: false, final false
   static inline void YGNodeMeasureInvoke(::UnityEngine::Yoga::YogaNode* node, float_t width, ::UnityEngine::Yoga::YogaMeasureMode widthMode, float_t height,
                                          ::UnityEngine::Yoga::YogaMeasureMode heightMode, void* returnValueAddress);
 
-  /// @brief Method YGNodeNewWithConfig, addr 0x33f0bc4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method YGNodeNewWithConfig, addr 0x35f6900, size 0x3c, virtual false, abstract: false, final false
   static inline void* YGNodeNewWithConfig(void* config);
 
-  /// @brief Method YGNodeRemoveChild, addr 0x33f25a0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method YGNodeRemoveChild, addr 0x35f82dc, size 0x44, virtual false, abstract: false, final false
   static inline void YGNodeRemoveChild(void* node, void* child);
 
-  /// @brief Method YGNodeRemoveMeasureFunc, addr 0x33f2764, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method YGNodeRemoveMeasureFunc, addr 0x35f84a0, size 0x3c, virtual false, abstract: false, final false
   static inline void YGNodeRemoveMeasureFunc(void* node);
 
-  /// @brief Method YGNodeSetConfig, addr 0x33f0dd4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method YGNodeSetConfig, addr 0x35f6b10, size 0x44, virtual false, abstract: false, final false
   static inline void YGNodeSetConfig(void* ygNode, void* config);
 
-  /// @brief Method YGNodeSetHasNewLayout, addr 0x33f231c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method YGNodeSetHasNewLayout, addr 0x35f8058, size 0x44, virtual false, abstract: false, final false
   static inline void YGNodeSetHasNewLayout(void* node, bool hasNewLayout);
 
-  /// @brief Method YGNodeSetMeasureFunc, addr 0x33f27a0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method YGNodeSetMeasureFunc, addr 0x35f84dc, size 0x3c, virtual false, abstract: false, final false
   static inline void YGNodeSetMeasureFunc(void* node);
 
-  /// @brief Method YGNodeStyleGetDirection, addr 0x33f2860, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method YGNodeStyleGetDirection, addr 0x35f859c, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Yoga::YogaDirection YGNodeStyleGetDirection(void* node);
 
-  /// @brief Method YGNodeStyleSetAlignContent, addr 0x33f131c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method YGNodeStyleSetAlignContent, addr 0x35f7058, size 0x44, virtual false, abstract: false, final false
   static inline void YGNodeStyleSetAlignContent(void* node, ::UnityEngine::Yoga::YogaAlign alignContent);
 
-  /// @brief Method YGNodeStyleSetAlignItems, addr 0x33f120c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method YGNodeStyleSetAlignItems, addr 0x35f6f48, size 0x44, virtual false, abstract: false, final false
   static inline void YGNodeStyleSetAlignItems(void* node, ::UnityEngine::Yoga::YogaAlign alignItems);
 
-  /// @brief Method YGNodeStyleSetAlignSelf, addr 0x33f1294, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method YGNodeStyleSetAlignSelf, addr 0x35f6fd0, size 0x44, virtual false, abstract: false, final false
   static inline void YGNodeStyleSetAlignSelf(void* node, ::UnityEngine::Yoga::YogaAlign alignSelf);
 
-  /// @brief Method YGNodeStyleSetBorder, addr 0x33f057c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method YGNodeStyleSetBorder, addr 0x35f62b8, size 0x54, virtual false, abstract: false, final false
   static inline void YGNodeStyleSetBorder(void* node, ::UnityEngine::Yoga::YogaEdge edge, float_t border);
 
-  /// @brief Method YGNodeStyleSetDisplay, addr 0x33f1184, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method YGNodeStyleSetDisplay, addr 0x35f6ec0, size 0x44, virtual false, abstract: false, final false
   static inline void YGNodeStyleSetDisplay(void* node, ::UnityEngine::Yoga::YogaDisplay display);
 
-  /// @brief Method YGNodeStyleSetFlex, addr 0x33f14bc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method YGNodeStyleSetFlex, addr 0x35f71f8, size 0x4c, virtual false, abstract: false, final false
   static inline void YGNodeStyleSetFlex(void* node, float_t flex);
 
-  /// @brief Method YGNodeStyleSetFlexBasis, addr 0x33f177c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method YGNodeStyleSetFlexBasis, addr 0x35f74b8, size 0x4c, virtual false, abstract: false, final false
   static inline void YGNodeStyleSetFlexBasis(void* node, float_t flexBasis);
 
-  /// @brief Method YGNodeStyleSetFlexBasisAuto, addr 0x33f1740, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method YGNodeStyleSetFlexBasisAuto, addr 0x35f747c, size 0x3c, virtual false, abstract: false, final false
   static inline void YGNodeStyleSetFlexBasisAuto(void* node);
 
-  /// @brief Method YGNodeStyleSetFlexBasisPercent, addr 0x33f16f4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method YGNodeStyleSetFlexBasisPercent, addr 0x35f7430, size 0x4c, virtual false, abstract: false, final false
   static inline void YGNodeStyleSetFlexBasisPercent(void* node, float_t flexBasis);
 
-  /// @brief Method YGNodeStyleSetFlexDirection, addr 0x33f1074, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method YGNodeStyleSetFlexDirection, addr 0x35f6db0, size 0x44, virtual false, abstract: false, final false
   static inline void YGNodeStyleSetFlexDirection(void* node, ::UnityEngine::Yoga::YogaFlexDirection flexDirection);
 
-  /// @brief Method YGNodeStyleSetFlexGrow, addr 0x33f1554, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method YGNodeStyleSetFlexGrow, addr 0x35f7290, size 0x4c, virtual false, abstract: false, final false
   static inline void YGNodeStyleSetFlexGrow(void* node, float_t flexGrow);
 
-  /// @brief Method YGNodeStyleSetFlexShrink, addr 0x33f15ec, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method YGNodeStyleSetFlexShrink, addr 0x35f7328, size 0x4c, virtual false, abstract: false, final false
   static inline void YGNodeStyleSetFlexShrink(void* node, float_t flexShrink);
 
-  /// @brief Method YGNodeStyleSetFlexWrap, addr 0x33f142c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method YGNodeStyleSetFlexWrap, addr 0x35f7168, size 0x44, virtual false, abstract: false, final false
   static inline void YGNodeStyleSetFlexWrap(void* node, ::UnityEngine::Yoga::YogaWrap flexWrap);
 
-  /// @brief Method YGNodeStyleSetHeight, addr 0x33f1a9c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method YGNodeStyleSetHeight, addr 0x35f77d8, size 0x4c, virtual false, abstract: false, final false
   static inline void YGNodeStyleSetHeight(void* node, float_t height);
 
-  /// @brief Method YGNodeStyleSetHeightAuto, addr 0x33f1a60, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method YGNodeStyleSetHeightAuto, addr 0x35f779c, size 0x3c, virtual false, abstract: false, final false
   static inline void YGNodeStyleSetHeightAuto(void* node);
 
-  /// @brief Method YGNodeStyleSetHeightPercent, addr 0x33f1a14, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method YGNodeStyleSetHeightPercent, addr 0x35f7750, size 0x4c, virtual false, abstract: false, final false
   static inline void YGNodeStyleSetHeightPercent(void* node, float_t height);
 
-  /// @brief Method YGNodeStyleSetJustifyContent, addr 0x33f10fc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method YGNodeStyleSetJustifyContent, addr 0x35f6e38, size 0x44, virtual false, abstract: false, final false
   static inline void YGNodeStyleSetJustifyContent(void* node, ::UnityEngine::Yoga::YogaJustify justifyContent);
 
-  /// @brief Method YGNodeStyleSetMargin, addr 0x33f037c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method YGNodeStyleSetMargin, addr 0x35f60b8, size 0x54, virtual false, abstract: false, final false
   static inline void YGNodeStyleSetMargin(void* node, ::UnityEngine::Yoga::YogaEdge edge, float_t margin);
 
-  /// @brief Method YGNodeStyleSetMarginAuto, addr 0x33f0338, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method YGNodeStyleSetMarginAuto, addr 0x35f6074, size 0x44, virtual false, abstract: false, final false
   static inline void YGNodeStyleSetMarginAuto(void* node, ::UnityEngine::Yoga::YogaEdge edge);
 
-  /// @brief Method YGNodeStyleSetMarginPercent, addr 0x33f02e4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method YGNodeStyleSetMarginPercent, addr 0x35f6020, size 0x54, virtual false, abstract: false, final false
   static inline void YGNodeStyleSetMarginPercent(void* node, ::UnityEngine::Yoga::YogaEdge edge, float_t margin);
 
-  /// @brief Method YGNodeStyleSetMaxHeight, addr 0x33f1cc4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method YGNodeStyleSetMaxHeight, addr 0x35f7a00, size 0x4c, virtual false, abstract: false, final false
   static inline void YGNodeStyleSetMaxHeight(void* node, float_t maxHeight);
 
-  /// @brief Method YGNodeStyleSetMaxHeightPercent, addr 0x33f1c78, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method YGNodeStyleSetMaxHeightPercent, addr 0x35f79b4, size 0x4c, virtual false, abstract: false, final false
   static inline void YGNodeStyleSetMaxHeightPercent(void* node, float_t maxHeight);
 
-  /// @brief Method YGNodeStyleSetMaxWidth, addr 0x33f1bb0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method YGNodeStyleSetMaxWidth, addr 0x35f78ec, size 0x4c, virtual false, abstract: false, final false
   static inline void YGNodeStyleSetMaxWidth(void* node, float_t maxWidth);
 
-  /// @brief Method YGNodeStyleSetMaxWidthPercent, addr 0x33f1b64, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method YGNodeStyleSetMaxWidthPercent, addr 0x35f78a0, size 0x4c, virtual false, abstract: false, final false
   static inline void YGNodeStyleSetMaxWidthPercent(void* node, float_t maxWidth);
 
-  /// @brief Method YGNodeStyleSetMinHeight, addr 0x33f1eec, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method YGNodeStyleSetMinHeight, addr 0x35f7c28, size 0x4c, virtual false, abstract: false, final false
   static inline void YGNodeStyleSetMinHeight(void* node, float_t minHeight);
 
-  /// @brief Method YGNodeStyleSetMinHeightPercent, addr 0x33f1ea0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method YGNodeStyleSetMinHeightPercent, addr 0x35f7bdc, size 0x4c, virtual false, abstract: false, final false
   static inline void YGNodeStyleSetMinHeightPercent(void* node, float_t minHeight);
 
-  /// @brief Method YGNodeStyleSetMinWidth, addr 0x33f1dd8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method YGNodeStyleSetMinWidth, addr 0x35f7b14, size 0x4c, virtual false, abstract: false, final false
   static inline void YGNodeStyleSetMinWidth(void* node, float_t minWidth);
 
-  /// @brief Method YGNodeStyleSetMinWidthPercent, addr 0x33f1d8c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method YGNodeStyleSetMinWidthPercent, addr 0x35f7ac8, size 0x4c, virtual false, abstract: false, final false
   static inline void YGNodeStyleSetMinWidthPercent(void* node, float_t minWidth);
 
-  /// @brief Method YGNodeStyleSetOverflow, addr 0x33f224c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method YGNodeStyleSetOverflow, addr 0x35f7f88, size 0x44, virtual false, abstract: false, final false
   static inline void YGNodeStyleSetOverflow(void* node, ::UnityEngine::Yoga::YogaOverflow flexWrap);
 
-  /// @brief Method YGNodeStyleSetPadding, addr 0x33f04d8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method YGNodeStyleSetPadding, addr 0x35f6214, size 0x54, virtual false, abstract: false, final false
   static inline void YGNodeStyleSetPadding(void* node, ::UnityEngine::Yoga::YogaEdge edge, float_t padding);
 
-  /// @brief Method YGNodeStyleSetPaddingPercent, addr 0x33f0484, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method YGNodeStyleSetPaddingPercent, addr 0x35f61c0, size 0x54, virtual false, abstract: false, final false
   static inline void YGNodeStyleSetPaddingPercent(void* node, ::UnityEngine::Yoga::YogaEdge edge, float_t padding);
 
-  /// @brief Method YGNodeStyleSetPosition, addr 0x33f0198, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method YGNodeStyleSetPosition, addr 0x35f5ed4, size 0x54, virtual false, abstract: false, final false
   static inline void YGNodeStyleSetPosition(void* node, ::UnityEngine::Yoga::YogaEdge edge, float_t position);
 
-  /// @brief Method YGNodeStyleSetPositionPercent, addr 0x33f0144, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method YGNodeStyleSetPositionPercent, addr 0x35f5e80, size 0x54, virtual false, abstract: false, final false
   static inline void YGNodeStyleSetPositionPercent(void* node, ::UnityEngine::Yoga::YogaEdge edge, float_t position);
 
-  /// @brief Method YGNodeStyleSetPositionType, addr 0x33f13a4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method YGNodeStyleSetPositionType, addr 0x35f70e0, size 0x44, virtual false, abstract: false, final false
   static inline void YGNodeStyleSetPositionType(void* node, ::UnityEngine::Yoga::YogaPositionType positionType);
 
-  /// @brief Method YGNodeStyleSetWidth, addr 0x33f190c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method YGNodeStyleSetWidth, addr 0x35f7648, size 0x4c, virtual false, abstract: false, final false
   static inline void YGNodeStyleSetWidth(void* node, float_t width);
 
-  /// @brief Method YGNodeStyleSetWidthAuto, addr 0x33f18d0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method YGNodeStyleSetWidthAuto, addr 0x35f760c, size 0x3c, virtual false, abstract: false, final false
   static inline void YGNodeStyleSetWidthAuto(void* node);
 
-  /// @brief Method YGNodeStyleSetWidthPercent, addr 0x33f1884, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method YGNodeStyleSetWidthPercent, addr 0x35f75c0, size 0x4c, virtual false, abstract: false, final false
   static inline void YGNodeStyleSetWidthPercent(void* node, float_t width);
 
-  /// @brief Method YGSetManagedObject, addr 0x33f2720, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method YGSetManagedObject, addr 0x35f845c, size 0x44, virtual false, abstract: false, final false
   static inline void YGSetManagedObject(void* ygNode, ::UnityEngine::Yoga::YogaNode* node);
 
 protected:

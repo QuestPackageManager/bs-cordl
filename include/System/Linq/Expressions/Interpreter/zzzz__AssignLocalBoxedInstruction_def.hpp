@@ -31,19 +31,19 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::AssignLocalBoxedInstruction* New_ctor(int32_t index);
 
-  /// @brief Method Run, addr 0x2b3dfd4, size 0x134, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x2c3a8d4, size 0x134, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x2b3df5c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c3a85c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t index);
 
-  /// @brief Method get_ConsumedStack, addr 0x2b3df84, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x2c3a884, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x2b3df94, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x2c3a894, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x2b3df8c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x2c3a88c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
 protected:

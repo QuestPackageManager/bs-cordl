@@ -36,25 +36,25 @@ public:
   // Declarations
   __declspec(property(get = get_PreserveWhitespace)) bool PreserveWhitespace;
 
-  /// @brief Method CompleteValidation, addr 0x2df4cf8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method CompleteValidation, addr 0x2ef35f8, size 0x4, virtual true, abstract: false, final false
   inline void CompleteValidation();
 
-  /// @brief Method DetectValidationType, addr 0x2df49b4, size 0x344, virtual false, abstract: false, final false
+  /// @brief Method DetectValidationType, addr 0x2ef32b4, size 0x344, virtual false, abstract: false, final false
   inline ::System::Xml::ValidationType DetectValidationType();
 
-  /// @brief Method FindId, addr 0x2df4cfc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method FindId, addr 0x2ef35fc, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* FindId(::StringW name);
 
   static inline ::System::Xml::Schema::AutoValidator* New_ctor(::System::Xml::XmlValidatingReaderImpl* reader, ::System::Xml::Schema::XmlSchemaCollection* schemaCollection,
                                                                ::System::Xml::IValidationEventHandling* eventHandling);
 
-  /// @brief Method Validate, addr 0x2df48d0, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method Validate, addr 0x2ef31d0, size 0xe4, virtual true, abstract: false, final false
   inline void Validate();
 
-  /// @brief Method .ctor, addr 0x2df4784, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ef3084, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlValidatingReaderImpl* reader, ::System::Xml::Schema::XmlSchemaCollection* schemaCollection, ::System::Xml::IValidationEventHandling* eventHandling);
 
-  /// @brief Method get_PreserveWhitespace, addr 0x2df48c8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_PreserveWhitespace, addr 0x2ef31c8, size 0x8, virtual true, abstract: false, final false
   inline bool get_PreserveWhitespace();
 
 protected:

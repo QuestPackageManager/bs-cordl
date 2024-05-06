@@ -38,7 +38,7 @@ namespace UnityEngine::InputSystem::Utilities {
 class CORDL_TYPE DelegateHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InvokeCallbacksSafe, addr 0x3042034, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method InvokeCallbacksSafe, addr 0x317cdc0, size 0x2bc, virtual false, abstract: false, final false
   static inline void InvokeCallbacksSafe(ByRef<::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action*>> callbacks, ::StringW callbackName, ::System::Object* context);
 
   /// @brief Method InvokeCallbacksSafe, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

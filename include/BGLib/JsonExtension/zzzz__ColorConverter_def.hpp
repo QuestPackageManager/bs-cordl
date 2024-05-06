@@ -36,14 +36,14 @@ public:
   // Declarations
   static inline ::BGLib::JsonExtension::ColorConverter* New_ctor();
 
-  /// @brief Method ReadJson, addr 0xf8841c, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method ReadJson, addr 0x107a390, size 0xa0, virtual true, abstract: false, final false
   inline ::UnityEngine::Color ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::UnityEngine::Color existingValue, bool hasExistingValue,
                                        ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method WriteJson, addr 0xf884bc, size 0x190, virtual true, abstract: false, final false
+  /// @brief Method WriteJson, addr 0x107a430, size 0x190, virtual true, abstract: false, final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::UnityEngine::Color value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method .ctor, addr 0xf8864c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x107a5c0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

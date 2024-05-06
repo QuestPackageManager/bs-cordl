@@ -105,16 +105,16 @@ public:
   /// @brief Field _hasInjected, offset 0x1c, size 0x1
   __declspec(property(get = __cordl_internal_get__hasInjected, put = __cordl_internal_set__hasInjected)) bool _hasInjected;
 
-  /// @brief Method Awake, addr 0x346ebf0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x3672bb8, size 0x48, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Construct, addr 0x346ebac, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Construct, addr 0x3672b74, size 0x44, virtual false, abstract: false, final false
   inline void Construct();
 
-  /// @brief Method GetContainerForCurrentScene, addr 0x346ed90, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetContainerForCurrentScene, addr 0x3672d58, size 0x90, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* GetContainerForCurrentScene();
 
-  /// @brief Method LookupContainer, addr 0x346ec38, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method LookupContainer, addr 0x3672c00, size 0x158, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* LookupContainer();
 
   static inline ::Zenject::ZenAutoInjecter* New_ctor();
@@ -131,19 +131,19 @@ public:
 
   constexpr void __cordl_internal_set__hasInjected(bool value);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x346eeb0, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x3672e78, size 0x254, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method __zenInjectMethod0, addr 0x346ee30, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method __zenInjectMethod0, addr 0x3672df8, size 0x80, virtual false, abstract: false, final false
   static inline void __zenInjectMethod0(::System::Object* P_0, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_1);
 
-  /// @brief Method .ctor, addr 0x346ee20, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3672de8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ContainerSource, addr 0x346eb9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContainerSource, addr 0x3672b64, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::__ZenAutoInjecter__ContainerSources get_ContainerSource();
 
-  /// @brief Method set_ContainerSource, addr 0x346eba4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ContainerSource, addr 0x3672b6c, size 0x8, virtual false, abstract: false, final false
   inline void set_ContainerSource(::Zenject::__ZenAutoInjecter__ContainerSources value);
 
 protected:

@@ -42,21 +42,21 @@ public:
   /// @brief Field _screenSystem, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__screenSystem, put = __cordl_internal_set__screenSystem))::UnityW<::HMUI::ScreenSystem> _screenSystem;
 
-  /// @brief Method HandleBeforeDismissingScenes, addr 0x2413d30, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method HandleBeforeDismissingScenes, addr 0x250d9bc, size 0xb4, virtual false, abstract: false, final false
   inline void HandleBeforeDismissingScenes();
 
-  /// @brief Method HandleSceneTransitionDidFinish, addr 0x2413b3c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method HandleSceneTransitionDidFinish, addr 0x250d7c8, size 0xb4, virtual false, abstract: false, final false
   inline void HandleSceneTransitionDidFinish(::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, ::Zenject::DiContainer* container);
 
   static inline ::HMUI::HierarchyManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x2413bf0, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x250d87c, size 0x140, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x2413a20, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x250d6ac, size 0x11c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartWithFlowCoordinator, addr 0x2413de4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method StartWithFlowCoordinator, addr 0x250da70, size 0x28, virtual false, abstract: false, final false
   inline void StartWithFlowCoordinator(::HMUI::FlowCoordinator* flowCoordinator);
 
   constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get__gameScenesManager() const;
@@ -77,7 +77,7 @@ public:
 
   constexpr void __cordl_internal_set__screenSystem(::UnityW<::HMUI::ScreenSystem> value);
 
-  /// @brief Method .ctor, addr 0x2413e0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x250da98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

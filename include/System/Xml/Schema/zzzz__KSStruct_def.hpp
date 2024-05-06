@@ -56,7 +56,7 @@ public:
 
   constexpr void __cordl_internal_set_ks(::System::Xml::Schema::KeySequence* value);
 
-  /// @brief Method .ctor, addr 0x2df846c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ef6d6c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::KeySequence* ks, int32_t dim);
 
 protected:

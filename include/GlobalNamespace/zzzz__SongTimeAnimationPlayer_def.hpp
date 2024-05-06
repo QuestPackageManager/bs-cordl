@@ -33,7 +33,7 @@ public:
 
   static inline ::GlobalNamespace::SongTimeAnimationPlayer* New_ctor();
 
-  /// @brief Method Update, addr 0x2514838, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x260bba0, size 0x44, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::AnimationClip> const& __cordl_internal_get__animationClip() const;
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set__audioTimeSyncController(::UnityW<::GlobalNamespace::AudioTimeSyncController> value);
 
-  /// @brief Method .ctor, addr 0x251487c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x260bbe4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

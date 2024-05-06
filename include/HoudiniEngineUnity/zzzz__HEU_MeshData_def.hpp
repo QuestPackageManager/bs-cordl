@@ -123,7 +123,7 @@ public:
 
   constexpr void __cordl_internal_set__vertices(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value);
 
-  /// @brief Method .ctor, addr 0x24bc224, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25b3eb0, size 0x1f0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

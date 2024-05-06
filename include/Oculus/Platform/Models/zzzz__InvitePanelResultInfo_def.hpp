@@ -30,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set_InvitesSent(bool value);
 
-  /// @brief Method .ctor, addr 0x29ddc8c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2adc53c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
 protected:

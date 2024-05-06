@@ -45,16 +45,16 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator"
   constexpr operator ::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator*() noexcept;
 
-  /// @brief Method CalculatePublicKey, addr 0x1063544, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method CalculatePublicKey, addr 0x1156c68, size 0x24, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* CalculatePublicKey(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* g, ::Org::BouncyCastle::Math::BigInteger* x);
 
-  /// @brief Method GenerateKeyPair, addr 0x106330c, size 0x148, virtual true, abstract: false, final true
+  /// @brief Method GenerateKeyPair, addr 0x1156a30, size 0x148, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateKeyPair();
 
-  /// @brief Method GeneratePrivateKey, addr 0x1063454, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GeneratePrivateKey, addr 0x1156b78, size 0xf0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* GeneratePrivateKey(::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method Init, addr 0x1063220, size 0xec, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0x1156944, size 0xec, virtual true, abstract: false, final true
   inline void Init(::Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Generators::DsaKeyPairGenerator* New_ctor();
@@ -65,7 +65,7 @@ public:
 
   constexpr void __cordl_internal_set_param(::Org::BouncyCastle::Crypto::Parameters::DsaKeyGenerationParameters* value);
 
-  /// @brief Method .ctor, addr 0x10635e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1156d04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Math::BigInteger* getStaticF_One();

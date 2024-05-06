@@ -48,19 +48,19 @@ public:
 
   constexpr void __cordl_internal_set__validPlatformEnvironment_k__BackingField(::GlobalNamespace::PlatformEnvironment value);
 
-  /// @brief Method .ctor, addr 0x2ad45e8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bd0e98, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW token, ::GlobalNamespace::PlatformEnvironment validPlatformEnvironment);
 
-  /// @brief Method get_token, addr 0x2ad45c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_token, addr 0x2bd0e78, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_token();
 
-  /// @brief Method get_validPlatformEnvironment, addr 0x2ad45d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_validPlatformEnvironment, addr 0x2bd0e88, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlatformEnvironment get_validPlatformEnvironment();
 
-  /// @brief Method set_token, addr 0x2ad45d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_token, addr 0x2bd0e80, size 0x8, virtual false, abstract: false, final false
   inline void set_token(::StringW value);
 
-  /// @brief Method set_validPlatformEnvironment, addr 0x2ad45e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_validPlatformEnvironment, addr 0x2bd0e90, size 0x8, virtual false, abstract: false, final false
   inline void set_validPlatformEnvironment(::GlobalNamespace::PlatformEnvironment value);
 
 protected:

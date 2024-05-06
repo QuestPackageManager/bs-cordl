@@ -27,23 +27,23 @@ public:
   /// @brief Field m_positiveBuffer, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_m_positiveBuffer, put = setStaticF_m_positiveBuffer))::ArrayW<::StringW, ::Array<::StringW>*> m_positiveBuffer;
 
-  /// @brief Method Dispose, addr 0x2f395a8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3039ea8, size 0x98, virtual false, abstract: false, final false
   static inline void Dispose();
 
-  /// @brief Method Init, addr 0x2f3da90, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x303e390, size 0x280, virtual false, abstract: false, final false
   static inline void Init(int32_t minNegativeValue, int32_t maxPositiveValue);
 
-  /// @brief Method ToStringNonAlloc, addr 0x2f3dd10, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method ToStringNonAlloc, addr 0x303e610, size 0x120, virtual false, abstract: false, final false
   static inline ::StringW ToStringNonAlloc(int32_t value);
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_m_negativeBuffer();
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_m_positiveBuffer();
 
-  /// @brief Method get_MaxValue, addr 0x2f3da2c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_MaxValue, addr 0x303e32c, size 0x64, virtual false, abstract: false, final false
   static inline int32_t get_MaxValue();
 
-  /// @brief Method get_MinValue, addr 0x2f3d9c0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_MinValue, addr 0x303e2c0, size 0x6c, virtual false, abstract: false, final false
   static inline int32_t get_MinValue();
 
   static inline void setStaticF_m_negativeBuffer(::ArrayW<::StringW, ::Array<::StringW>*> value);

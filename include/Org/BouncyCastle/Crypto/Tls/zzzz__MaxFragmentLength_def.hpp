@@ -19,12 +19,12 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CORDL_TYPE MaxFragmentLength : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsValid, addr 0x10fdf9c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x11f16c0, size 0x14, virtual false, abstract: false, final false
   static inline bool IsValid(uint8_t maxFragmentLength);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::MaxFragmentLength* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10fdfb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11f16d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

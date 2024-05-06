@@ -101,13 +101,13 @@ public:
 
   __declspec(property(get = get_minorVersion)) uint32_t minorVersion;
 
-  /// @brief Method Get, addr 0x13f07b8, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x14e2aec, size 0x200, virtual false, abstract: false, final false
   inline ::StringW Get(::GlobalNamespace::__SonyVersion__VersionFormat format);
 
-  /// @brief Method GetFromString, addr 0x13f01d8, size 0x550, virtual false, abstract: false, final false
+  /// @brief Method GetFromString, addr 0x14e250c, size 0x550, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::SonyVersion* GetFromString(::StringW versionString);
 
-  /// @brief Method IsVersionFormatValid, addr 0x13f0728, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method IsVersionFormatValid, addr 0x14e2a5c, size 0x90, virtual false, abstract: false, final false
   static inline bool IsVersionFormatValid(::StringW versionString);
 
   static inline ::GlobalNamespace::SonyVersion* New_ctor(uint32_t majorVersion, uint32_t minorVersion);
@@ -124,13 +124,13 @@ public:
 
   constexpr void __cordl_internal_set__minorVersion(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x13f01ac, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14e24e0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(uint32_t majorVersion, uint32_t minorVersion);
 
-  /// @brief Method get_majorVersion, addr 0x13f019c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_majorVersion, addr 0x14e24d0, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_majorVersion();
 
-  /// @brief Method get_minorVersion, addr 0x13f01a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_minorVersion, addr 0x14e24d8, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_minorVersion();
 
 protected:

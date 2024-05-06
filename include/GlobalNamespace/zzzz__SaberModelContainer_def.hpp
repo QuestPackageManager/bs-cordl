@@ -39,7 +39,7 @@ public:
 
   static inline ::GlobalNamespace::SaberModelContainer* New_ctor();
 
-  /// @brief Method Start, addr 0x26262a4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2726178, size 0x84, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set__saberModelControllerPrefab(::UnityW<::GlobalNamespace::SaberModelController> value);
 
-  /// @brief Method .ctor, addr 0x2626618, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27264ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

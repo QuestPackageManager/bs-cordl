@@ -58,10 +58,10 @@ public:
            ::ArrayW<::System::Linq::Expressions::Interpreter::LocalDefinition, ::Array<::System::Linq::Expressions::Interpreter::LocalDefinition>*> args, ::System::Reflection::MethodInfo* indexer,
            int32_t argumentIndex);
 
-  /// @brief Method UndefineTemps, addr 0x2b3a784, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method UndefineTemps, addr 0x2c37084, size 0xfc, virtual true, abstract: false, final false
   inline void UndefineTemps(::System::Linq::Expressions::Interpreter::InstructionList* instructions, ::System::Linq::Expressions::Interpreter::LocalVariables* locals);
 
-  /// @brief Method Update, addr 0x2b3a530, size 0x254, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x2c36e30, size 0x254, virtual true, abstract: false, final false
   inline void Update(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame, ::System::Object* value);
 
   constexpr ::ArrayW<::System::Linq::Expressions::Interpreter::LocalDefinition, ::Array<::System::Linq::Expressions::Interpreter::LocalDefinition>*> const& __cordl_internal_get__args() const;
@@ -82,7 +82,7 @@ public:
 
   constexpr void __cordl_internal_set__obj(::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition> value);
 
-  /// @brief Method .ctor, addr 0x2b3a4e0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c36de0, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition> obj,
                     ::ArrayW<::System::Linq::Expressions::Interpreter::LocalDefinition, ::Array<::System::Linq::Expressions::Interpreter::LocalDefinition>*> args,
                     ::System::Reflection::MethodInfo* indexer, int32_t argumentIndex);

@@ -36,19 +36,19 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord>*();
 
-  /// @brief Method Equals, addr 0x3271320, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x347a05c, size 0x80, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x32713a0, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x347a0dc, size 0xa4, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord other);
 
-  /// @brief Method GetHashCode, addr 0x32712b4, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3479ff0, size 0x6c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method get_glyphIndex, addr 0x32712a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_glyphIndex, addr 0x3479fdc, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_glyphIndex();
 
-  /// @brief Method get_glyphValueRecord, addr 0x32712a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_glyphValueRecord, addr 0x3479fe4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::LowLevel::GlyphValueRecord get_glyphValueRecord();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord>"

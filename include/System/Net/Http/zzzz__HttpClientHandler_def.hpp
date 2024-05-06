@@ -70,10 +70,10 @@ public:
 
   static inline ::System::Net::Http::__HttpClientHandler____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c66b8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d6448c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <set_ClientCertificateOptions>b__23_1, addr 0x2c66b94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <set_ClientCertificateOptions>b__23_1, addr 0x2d64494, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate*
   _set_ClientCertificateOptions_b__23_1(::System::Object* sender, ::StringW targetHost, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* localCertificates,
                                         ::System::Security::Cryptography::X509Certificates::X509Certificate* remoteCertificate, ::ArrayW<::StringW, ::Array<::StringW>*> acceptableIssuers);
@@ -127,24 +127,24 @@ public:
   /// @brief Field _delegatingHandler, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__delegatingHandler, put = __cordl_internal_set__delegatingHandler))::System::Net::Http::IMonoHttpClientHandler* _delegatingHandler;
 
-  /// @brief Method CreateDefaultHandler, addr 0x2c66114, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CreateDefaultHandler, addr 0x2d63a14, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Net::Http::IMonoHttpClientHandler* CreateDefaultHandler();
 
-  /// @brief Method Dispose, addr 0x2c6660c, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x2d63f0c, size 0xb4, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::System::Net::Http::HttpClientHandler* New_ctor();
 
   static inline ::System::Net::Http::HttpClientHandler* New_ctor(::System::Net::Http::IMonoHttpClientHandler* handler);
 
-  /// @brief Method SendAsync, addr 0x2c66a58, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method SendAsync, addr 0x2d64358, size 0xbc, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* SendAsync(::System::Net::Http::HttpRequestMessage* request,
                                                                                                   ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method SetWebRequestTimeout, addr 0x2c669ac, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method SetWebRequestTimeout, addr 0x2d642ac, size 0xac, virtual false, abstract: false, final false
   inline void SetWebRequestTimeout(::System::TimeSpan timeout);
 
-  /// @brief Method ThrowForModifiedManagedSslOptionsIfStarted, addr 0x2c666c4, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method ThrowForModifiedManagedSslOptionsIfStarted, addr 0x2d63fc4, size 0x104, virtual false, abstract: false, final false
   inline void ThrowForModifiedManagedSslOptionsIfStarted();
 
   constexpr ::System::Net::Http::ClientCertificateOption const& __cordl_internal_get__clientCertificateOptions() const;
@@ -159,24 +159,24 @@ public:
 
   constexpr void __cordl_internal_set__delegatingHandler(::System::Net::Http::IMonoHttpClientHandler* value);
 
-  /// @brief Method .ctor, addr 0x2c6631c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d63c1c, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2c66354, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d63c54, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Http::IMonoHttpClientHandler* handler);
 
-  /// @brief Method <set_ClientCertificateOptions>b__23_0, addr 0x2c66b14, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <set_ClientCertificateOptions>b__23_0, addr 0x2d64414, size 0x14, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate*
   _set_ClientCertificateOptions_b__23_0(::System::Object* sender, ::StringW targetHost, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* localCertificates,
                                         ::System::Security::Cryptography::X509Certificates::X509Certificate* remoteCertificate, ::ArrayW<::StringW, ::Array<::StringW>*> acceptableIssuers);
 
-  /// @brief Method get_ClientCertificateOptions, addr 0x2c667c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ClientCertificateOptions, addr 0x2d640c8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Http::ClientCertificateOption get_ClientCertificateOptions();
 
-  /// @brief Method get_ClientCertificates, addr 0x2c667d0, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method get_ClientCertificates, addr 0x2d640d0, size 0x1dc, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* get_ClientCertificates();
 
-  /// @brief Method set_ClientCertificateOptions, addr 0x2c6638c, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method set_ClientCertificateOptions, addr 0x2d63c8c, size 0x280, virtual false, abstract: false, final false
   inline void set_ClientCertificateOptions(::System::Net::Http::ClientCertificateOption value);
 
 protected:

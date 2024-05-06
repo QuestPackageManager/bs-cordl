@@ -90,31 +90,31 @@ public:
 
   constexpr void __cordl_internal_set__score_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2562b4c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x266ae24, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(int32_t score, ::StringW playerName, int32_t rank, bool fullCombo);
 
-  /// @brief Method get_fullCombo, addr 0x25719a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fullCombo, addr 0x266ae10, size 0x8, virtual false, abstract: false, final false
   inline bool get_fullCombo();
 
-  /// @brief Method get_playerName, addr 0x2571988, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerName, addr 0x266adf0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_playerName();
 
-  /// @brief Method get_rank, addr 0x2571998, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rank, addr 0x266ae00, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_rank();
 
-  /// @brief Method get_score, addr 0x2571978, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_score, addr 0x266ade0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_score();
 
-  /// @brief Method set_fullCombo, addr 0x25719b0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_fullCombo, addr 0x266ae18, size 0xc, virtual false, abstract: false, final false
   inline void set_fullCombo(bool value);
 
-  /// @brief Method set_playerName, addr 0x2571990, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_playerName, addr 0x266adf8, size 0x8, virtual false, abstract: false, final false
   inline void set_playerName(::StringW value);
 
-  /// @brief Method set_rank, addr 0x25719a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rank, addr 0x266ae08, size 0x8, virtual false, abstract: false, final false
   inline void set_rank(int32_t value);
 
-  /// @brief Method set_score, addr 0x2571980, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_score, addr 0x266ade8, size 0x8, virtual false, abstract: false, final false
   inline void set_score(int32_t value);
 
 protected:
@@ -185,18 +185,18 @@ public:
   /// @brief Convert operator to "::HMUI::__TableView__IDataSource"
   constexpr operator ::HMUI::__TableView__IDataSource*() noexcept;
 
-  /// @brief Method CellForIdx, addr 0x2571778, size 0x1f0, virtual true, abstract: false, final true
+  /// @brief Method CellForIdx, addr 0x266abb0, size 0x1f0, virtual true, abstract: false, final true
   inline ::UnityW<::HMUI::TableCell> CellForIdx(::HMUI::TableView* tableView, int32_t row);
 
-  /// @brief Method CellSize, addr 0x2571724, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method CellSize, addr 0x266ab5c, size 0x8, virtual true, abstract: false, final true
   inline float_t CellSize();
 
   static inline ::GlobalNamespace::LeaderboardTableView* New_ctor();
 
-  /// @brief Method NumberOfCells, addr 0x257172c, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method NumberOfCells, addr 0x266ab64, size 0x4c, virtual true, abstract: false, final true
   inline int32_t NumberOfCells();
 
-  /// @brief Method SetScores, addr 0x2562b98, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetScores, addr 0x266ada0, size 0x30, virtual false, abstract: false, final false
   inline void SetScores(::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardTableView__ScoreData*>* scores, int32_t specialScorePos);
 
   constexpr ::UnityW<::GlobalNamespace::LeaderboardTableCell> const& __cordl_internal_get__cellPrefab() const;
@@ -229,7 +229,7 @@ public:
 
   constexpr void __cordl_internal_set__tableView(::UnityW<::HMUI::TableView> value);
 
-  /// @brief Method .ctor, addr 0x2571968, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x266add0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::HMUI::__TableView__IDataSource"

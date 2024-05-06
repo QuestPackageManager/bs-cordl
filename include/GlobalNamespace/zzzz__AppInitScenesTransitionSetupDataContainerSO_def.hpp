@@ -33,7 +33,7 @@ public:
 
   constexpr void __cordl_internal_set_appInitScenesTransitionSetupData(::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0x25a89d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a2a70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

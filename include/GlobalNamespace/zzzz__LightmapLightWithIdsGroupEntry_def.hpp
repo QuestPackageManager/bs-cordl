@@ -86,16 +86,16 @@ public:
 
   constexpr void __cordl_internal_set__lightGroup(::UnityW<::GlobalNamespace::LightGroupSO> value);
 
-  /// @brief Method .ctor, addr 0x23fb30c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f2efc, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::LightGroupSO* lightGroup, float_t groupIntensity, float_t groupProbeHighlightsIntensityMultiplier);
 
-  /// @brief Method get_groupIntensity, addr 0x23fb2fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_groupIntensity, addr 0x24f2eec, size 0x8, virtual false, abstract: false, final false
   inline float_t get_groupIntensity();
 
-  /// @brief Method get_groupProbeHighlightsIntensityMultiplier, addr 0x23fb304, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_groupProbeHighlightsIntensityMultiplier, addr 0x24f2ef4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_groupProbeHighlightsIntensityMultiplier();
 
-  /// @brief Method get_lightGroup, addr 0x23fb2f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightGroup, addr 0x24f2ee4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::LightGroupSO> get_lightGroup();
 
 protected:
@@ -176,16 +176,16 @@ public:
 
   constexpr void __cordl_internal_set__probeHighlightsIntensityMultiplier(float_t value);
 
-  /// @brief Method .ctor, addr 0x23fb360, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f2f50, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(int32_t lightId, float_t intensity, float_t probeHighlightsIntensityMultiplier);
 
-  /// @brief Method get_intensity, addr 0x23fb350, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_intensity, addr 0x24f2f40, size 0x8, virtual false, abstract: false, final false
   inline float_t get_intensity();
 
-  /// @brief Method get_lightId, addr 0x23fb348, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightId, addr 0x24f2f38, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_lightId();
 
-  /// @brief Method get_probeHighlightsIntensityMultiplier, addr 0x23fb358, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_probeHighlightsIntensityMultiplier, addr 0x24f2f48, size 0x8, virtual false, abstract: false, final false
   inline float_t get_probeHighlightsIntensityMultiplier();
 
 protected:
@@ -295,19 +295,19 @@ public:
 
   constexpr void __cordl_internal_set__lightmapLightWithIds(::UnityW<::GlobalNamespace::LightmapLightWithIds> value);
 
-  /// @brief Method .ctor, addr 0x23fb2ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f2edc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_groupLightData, addr 0x23fb2d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_groupLightData, addr 0x24f2ec4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::__LightmapLightWithIdsGroupEntry__GroupLightData*>* get_groupLightData();
 
-  /// @brief Method get_groupLightsWeighting, addr 0x23fb2e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_groupLightsWeighting, addr 0x24f2ed4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorMixAndWeightingApproach get_groupLightsWeighting();
 
-  /// @brief Method get_individualLightData, addr 0x23fb2dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_individualLightData, addr 0x24f2ecc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::__LightmapLightWithIdsGroupEntry__LightIntensitiesWithId*>* get_individualLightData();
 
-  /// @brief Method get_lightmapLightWithIds, addr 0x23fb2cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightmapLightWithIds, addr 0x24f2ebc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::LightmapLightWithIds> get_lightmapLightWithIds();
 
 protected:

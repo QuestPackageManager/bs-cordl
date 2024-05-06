@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cmp::PkiConfirmContent* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Cmp::PkiConfirmContent::GetInstance)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0xfd4cb0;
+  constexpr static std::size_t addrs = 0x10c83d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cmp::PkiConfirmContent::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::PkiConfirmContent::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xfd5324;
+  constexpr static std::size_t addrs = 0x10c8a48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cmp::PkiConfirmContent*>::get(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Cmp::PkiConfirmContent::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::PkiConfirmContent::ToAsn1Object)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0xfd532c;
+  constexpr static std::size_t addrs = 0x10c8a50;
 
   inline static ::MethodInfo const* methodInfo() {
 

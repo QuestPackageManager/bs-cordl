@@ -26,7 +26,7 @@ public:
 
   static inline ::GlobalNamespace::LightColorGroupParent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25cafa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c9d10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IEditTimeValidated"

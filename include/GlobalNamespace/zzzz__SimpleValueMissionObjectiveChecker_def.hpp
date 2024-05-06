@@ -18,12 +18,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE SimpleValueMissionObjectiveChecker : public ::GlobalNamespace::MissionObjectiveChecker {
 public:
   // Declarations
-  /// @brief Method CheckAndUpdateStatus, addr 0x25eba1c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method CheckAndUpdateStatus, addr 0x26ea9c8, size 0x104, virtual false, abstract: false, final false
   inline void CheckAndUpdateStatus();
 
   static inline ::GlobalNamespace::SimpleValueMissionObjectiveChecker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25ebb28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26eaad4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

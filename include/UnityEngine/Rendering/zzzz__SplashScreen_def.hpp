@@ -18,7 +18,7 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE SplashScreen : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_isFinished, addr 0x3223a18, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_isFinished, addr 0x342a754, size 0x28, virtual false, abstract: false, final false
   static inline bool get_isFinished();
 
 protected:

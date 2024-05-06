@@ -15,7 +15,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Playables::PlayableGraph, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::IMarker*>*, double_t, ::UnityEngine::Playables::DirectorWrapMode)>(
     &::UnityEngine::Timeline::NotificationUtilities::CreateNotificationsPlayable)> {
   constexpr static std::size_t size = 0x6e0;
-  constexpr static std::size_t addrs = 0x319f6d4;
+  constexpr static std::size_t addrs = 0x33a615c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::UnityEngine::Timeline::NotificationUtilities::TrackTypeSupportsNotifications)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x319fdb4;
+  constexpr static std::size_t addrs = 0x33a683c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

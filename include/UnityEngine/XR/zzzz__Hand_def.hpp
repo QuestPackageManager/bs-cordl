@@ -32,19 +32,19 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::XR::Hand>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::XR::Hand>*();
 
-  /// @brief Method Equals, addr 0x34014ec, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3607228, size 0x88, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x3401574, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x36072b0, size 0x24, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::XR::Hand other);
 
-  /// @brief Method GetHashCode, addr 0x3401598, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x36072d4, size 0x4c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method get_deviceId, addr 0x34014dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_deviceId, addr 0x3607218, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_deviceId();
 
-  /// @brief Method get_featureIndex, addr 0x34014e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_featureIndex, addr 0x3607220, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_featureIndex();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::XR::Hand>"

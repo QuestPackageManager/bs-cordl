@@ -24,21 +24,21 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE MouseLeaveWindowEvent : public ::UnityEngine::UIElements::MouseEventBase_1<::UnityEngine::UIElements::MouseLeaveWindowEvent*> {
 public:
   // Declarations
-  /// @brief Method GetPooled, addr 0x33a0bd8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x35a6914, size 0xb4, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::MouseLeaveWindowEvent* GetPooled(::UnityEngine::Event* systemEvent);
 
-  /// @brief Method Init, addr 0x33a0a94, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x35a67d0, size 0x50, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x33a0ae4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x35a6820, size 0xa4, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::MouseLeaveWindowEvent* New_ctor();
 
-  /// @brief Method PostDispatch, addr 0x33a0c8c, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method PostDispatch, addr 0x35a69c8, size 0x15c, virtual true, abstract: false, final false
   inline void PostDispatch(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method .ctor, addr 0x33a0b88, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35a68c4, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

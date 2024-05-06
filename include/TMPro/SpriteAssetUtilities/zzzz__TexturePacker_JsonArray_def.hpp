@@ -64,7 +64,7 @@ namespace TMPro::SpriteAssetUtilities {
 struct CORDL_TYPE __TexturePacker_JsonArray__SpriteFrame {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x317cf70, size 0x278, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x33839f8, size 0x278, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters []
@@ -112,7 +112,7 @@ namespace TMPro::SpriteAssetUtilities {
 struct CORDL_TYPE __TexturePacker_JsonArray__SpriteSize {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x317d1e8, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3383c70, size 0xac, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters []
@@ -298,7 +298,7 @@ public:
 
   constexpr void __cordl_internal_set_meta(::TMPro::SpriteAssetUtilities::__TexturePacker_JsonArray__Meta value);
 
-  /// @brief Method .ctor, addr 0x317d294, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3383d1c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -351,7 +351,7 @@ public:
 
   static inline ::TMPro::SpriteAssetUtilities::TexturePacker_JsonArray* New_ctor();
 
-  /// @brief Method .ctor, addr 0x317cf68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33839f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

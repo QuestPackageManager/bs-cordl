@@ -38,14 +38,14 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-  /// @brief Method GetInstance, addr 0x1003524, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x10f6c48, size 0x1dc, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Esf::SignaturePolicyIdentifier* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::SignaturePolicyIdentifier* New_ctor();
 
   static inline ::Org::BouncyCastle::Asn1::Esf::SignaturePolicyIdentifier* New_ctor(::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId* signaturePolicyId);
 
-  /// @brief Method ToAsn1Object, addr 0x100379c, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x10f6ec0, size 0x78, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId*& __cordl_internal_get_sigPolicy();
@@ -54,13 +54,13 @@ public:
 
   constexpr void __cordl_internal_set_sigPolicy(::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId* value);
 
-  /// @brief Method .ctor, addr 0x1003778, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10f6e9c, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x1003700, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10f6e24, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId* signaturePolicyId);
 
-  /// @brief Method get_SignaturePolicyId, addr 0x1003794, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SignaturePolicyId, addr 0x10f6eb8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId* get_SignaturePolicyId();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"

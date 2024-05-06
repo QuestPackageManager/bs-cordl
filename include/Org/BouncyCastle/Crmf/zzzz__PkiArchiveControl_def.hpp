@@ -60,7 +60,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crmf::IControl"
   constexpr operator ::Org::BouncyCastle::Crmf::IControl*() noexcept;
 
-  /// @brief Method GetEnvelopedData, addr 0x137f97c, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method GetEnvelopedData, addr 0x14750a0, size 0x264, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::CmsEnvelopedData* GetEnvelopedData();
 
   static inline ::Org::BouncyCastle::Crmf::PkiArchiveControl* New_ctor(::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions* pkiArchiveOptions);
@@ -71,7 +71,7 @@ public:
 
   constexpr void __cordl_internal_set_pkiArchiveOptions(::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions* value);
 
-  /// @brief Method .ctor, addr 0x137c350, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1471a74, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Crmf::PkiArchiveOptions* pkiArchiveOptions);
 
   static inline int32_t getStaticF_archiveRemGenPrivKey();
@@ -82,16 +82,16 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_type();
 
-  /// @brief Method get_ArchiveType, addr 0x137f918, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_ArchiveType, addr 0x147503c, size 0x20, virtual false, abstract: false, final false
   inline int32_t get_ArchiveType();
 
-  /// @brief Method get_EnvelopedData, addr 0x137f938, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_EnvelopedData, addr 0x147505c, size 0x44, virtual false, abstract: false, final false
   inline bool get_EnvelopedData();
 
-  /// @brief Method get_Type, addr 0x137f8b8, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method get_Type, addr 0x1474fdc, size 0x58, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_Type();
 
-  /// @brief Method get_Value, addr 0x137f910, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Value, addr 0x1475034, size 0x8, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Value();
 
   /// @brief Convert to "::Org::BouncyCastle::Crmf::IControl"

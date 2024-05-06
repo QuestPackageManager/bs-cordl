@@ -28,10 +28,10 @@ public:
   /// @brief Method GetOrAddComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T GetOrAddComponent(::UnityEngine::GameObject* go);
 
-  /// @brief Method SafeDestroy, addr 0xf904f4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method SafeDestroy, addr 0x1084e00, size 0xa8, virtual false, abstract: false, final false
   static inline void SafeDestroy(::UnityEngine::Object* obj);
 
-  /// @brief Method get_CurrentTimeStamp, addr 0xf90440, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentTimeStamp, addr 0x1084d4c, size 0xb4, virtual false, abstract: false, final false
   static inline double_t get_CurrentTimeStamp();
 
 protected:

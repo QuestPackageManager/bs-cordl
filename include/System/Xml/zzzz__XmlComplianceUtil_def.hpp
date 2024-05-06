@@ -19,10 +19,10 @@ namespace System::Xml {
 class CORDL_TYPE XmlComplianceUtil : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CDataNormalize, addr 0x2db455c, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method CDataNormalize, addr 0x2eb1e5c, size 0x1e4, virtual false, abstract: false, final false
   static inline ::StringW CDataNormalize(::StringW value);
 
-  /// @brief Method NonCDataNormalize, addr 0x2db42d0, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method NonCDataNormalize, addr 0x2eb1bd0, size 0x28c, virtual false, abstract: false, final false
   static inline ::StringW NonCDataNormalize(::StringW value);
 
 protected:

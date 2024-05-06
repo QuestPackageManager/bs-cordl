@@ -31,10 +31,10 @@ public:
 
   static inline ::UnityEngine::Audio::AudioMixerGroup* New_ctor();
 
-  /// @brief Method .ctor, addr 0x31cc2c8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33d2d50, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_audioMixer, addr 0x31cc320, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_audioMixer, addr 0x33d2da8, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Audio::AudioMixer> get_audioMixer();
 
   /// @brief Convert to "::UnityEngine::Internal::ISubAssetNotDuplicatable"

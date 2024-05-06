@@ -22,10 +22,10 @@ namespace TMPro {
 struct CORDL_TYPE GlyphPairKey {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x3141bc4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x334664c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(uint32_t firstGlyphIndex, uint32_t secondGlyphIndex);
 
-  /// @brief Method .ctor, addr 0x3139548, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x333dfd0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::TMPro::TMP_GlyphPairAdjustmentRecord* record);
 
   // Ctor Parameters []

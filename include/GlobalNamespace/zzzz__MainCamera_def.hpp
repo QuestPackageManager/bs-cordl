@@ -44,7 +44,7 @@ public:
 
   __declspec(property(get = get_rotation))::UnityEngine::Quaternion rotation;
 
-  /// @brief Method Awake, addr 0x258af00, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2683eb0, size 0x60, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::MainCamera* New_ctor();
@@ -61,19 +61,19 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x258af60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2683f10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_camera, addr 0x258ae98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_camera, addr 0x2683e48, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> get_camera();
 
-  /// @brief Method get_position, addr 0x258aec8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_position, addr 0x2683e78, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_position();
 
-  /// @brief Method get_rotation, addr 0x258aee4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_rotation, addr 0x2683e94, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_rotation();
 
-  /// @brief Method set_enableCamera, addr 0x258aea0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_enableCamera, addr 0x2683e50, size 0x28, virtual false, abstract: false, final false
   inline void set_enableCamera(bool value);
 
 protected:

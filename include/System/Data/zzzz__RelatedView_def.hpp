@@ -61,16 +61,16 @@ public:
   /// @brief Convert operator to "::System::Data::IFilter"
   constexpr operator ::System::Data::IFilter*() noexcept;
 
-  /// @brief Method AddNew, addr 0x2bde248, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method AddNew, addr 0x2cdab48, size 0x60, virtual true, abstract: false, final false
   inline ::System::Data::DataRowView* AddNew();
 
-  /// @brief Method GetFilter, addr 0x2bde244, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method GetFilter, addr 0x2cdab44, size 0x4, virtual true, abstract: false, final false
   inline ::System::Data::IFilter* GetFilter();
 
-  /// @brief Method GetParentValues, addr 0x2bde030, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetParentValues, addr 0x2cda930, size 0x9c, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetParentValues();
 
-  /// @brief Method Invoke, addr 0x2bde0cc, size 0x178, virtual true, abstract: false, final true
+  /// @brief Method Invoke, addr 0x2cda9cc, size 0x178, virtual true, abstract: false, final true
   inline bool Invoke(::System::Data::DataRow* row, ::System::Data::DataRowVersion version);
 
   static inline ::System::Data::RelatedView* New_ctor(::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> columns,
@@ -79,7 +79,7 @@ public:
   static inline ::System::Data::RelatedView* New_ctor(::System::Data::DataRowView* parentRowView, ::System::Data::DataKey parentKey,
                                                       ::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> childKeyColumns);
 
-  /// @brief Method SetIndex, addr 0x2bde2a8, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method SetIndex, addr 0x2cdaba8, size 0x24, virtual true, abstract: false, final false
   inline void SetIndex(::StringW newSort, ::System::Data::DataViewRowState newRowStates, ::System::Data::IFilter* newRowFilter);
 
   constexpr ::System::Data::DataKey const& __cordl_internal_get__childKey() const;
@@ -106,10 +106,10 @@ public:
 
   constexpr void __cordl_internal_set__parentRowView(::System::Data::DataRowView* value);
 
-  /// @brief Method .ctor, addr 0x2bdde10, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cda710, size 0x118, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> columns, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> values);
 
-  /// @brief Method .ctor, addr 0x2bddf28, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cda828, size 0x108, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataRowView* parentRowView, ::System::Data::DataKey parentKey, ::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> childKeyColumns);
 
   /// @brief Convert to "::System::Data::IFilter"

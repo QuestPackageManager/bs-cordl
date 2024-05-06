@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::UpaException::*)(::System::Object*, ::System::Object*)>(
     &::System::Xml::Schema::UpaException::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x2df94e4;
+  constexpr static std::size_t addrs = 0x2ef7de4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::Schema::UpaException::*)()>(&::System::Xml::Schema::UpaException::get_Particle1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2df9554;
+  constexpr static std::size_t addrs = 0x2ef7e54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::UpaException*>::get(), "get_Particle1",
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::Schema::UpaException::*)()>(&::System::Xml::Schema::UpaException::get_Particle2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2df955c;
+  constexpr static std::size_t addrs = 0x2ef7e5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::UpaException*>::get(), "get_Particle2",

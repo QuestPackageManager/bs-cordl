@@ -58,13 +58,13 @@ public:
   static inline ::System::Threading::QueueUserWorkItemCallback* New_ctor(::System::Threading::WaitCallback* waitCallback, ::System::Object* stateObj, bool compressStack,
                                                                          ByRef<::System::Threading::StackCrawlMark> stackMark);
 
-  /// @brief Method System.Threading.IThreadPoolWorkItem.ExecuteWorkItem, addr 0x28a557c, size 0xd8, virtual true, abstract: false, final true
+  /// @brief Method System.Threading.IThreadPoolWorkItem.ExecuteWorkItem, addr 0x29a3e2c, size 0xd8, virtual true, abstract: false, final true
   inline void System_Threading_IThreadPoolWorkItem_ExecuteWorkItem();
 
-  /// @brief Method System.Threading.IThreadPoolWorkItem.MarkAborted, addr 0x28a5654, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Threading.IThreadPoolWorkItem.MarkAborted, addr 0x29a3f04, size 0x4, virtual true, abstract: false, final true
   inline void System_Threading_IThreadPoolWorkItem_MarkAborted(::System::Threading::ThreadAbortException* tae);
 
-  /// @brief Method WaitCallback_Context, addr 0x28a5658, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method WaitCallback_Context, addr 0x29a3f08, size 0x78, virtual false, abstract: false, final false
   static inline void WaitCallback_Context(::System::Object* state);
 
   constexpr ::System::Threading::WaitCallback*& __cordl_internal_get_callback();
@@ -85,7 +85,7 @@ public:
 
   constexpr void __cordl_internal_set_state(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x28a54c4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29a3d74, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::WaitCallback* waitCallback, ::System::Object* stateObj, bool compressStack, ByRef<::System::Threading::StackCrawlMark> stackMark);
 
   static inline ::System::Threading::ContextCallback* getStaticF_ccb();

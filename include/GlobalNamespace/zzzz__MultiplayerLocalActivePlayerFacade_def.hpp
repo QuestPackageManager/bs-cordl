@@ -70,7 +70,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MultiplayerLocalActivePlayerFacade__Factory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25fc6c8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26fb4cc, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -155,27 +155,27 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IStartSeekSongControllerProvider"
   constexpr operator ::GlobalNamespace::IStartSeekSongControllerProvider*() noexcept;
 
-  /// @brief Method DisablePlayer, addr 0x25fc5e8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method DisablePlayer, addr 0x26fb3ec, size 0x64, virtual false, abstract: false, final false
   inline void DisablePlayer();
 
   static inline ::GlobalNamespace::MultiplayerLocalActivePlayerFacade* New_ctor();
 
-  /// @brief Method PauseSpawning, addr 0x25fc64c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method PauseSpawning, addr 0x26fb450, size 0x1c, virtual false, abstract: false, final false
   inline void PauseSpawning();
 
-  /// @brief Method ReportPlayerDidFinish, addr 0x25fc5b0, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method ReportPlayerDidFinish, addr 0x26fb3b4, size 0x1c, virtual true, abstract: false, final true
   inline void ReportPlayerDidFinish(::GlobalNamespace::MultiplayerLevelCompletionResults* results);
 
-  /// @brief Method ReportPlayerNetworkDidFailed, addr 0x25fc5cc, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method ReportPlayerNetworkDidFailed, addr 0x26fb3d0, size 0x1c, virtual true, abstract: false, final true
   inline void ReportPlayerNetworkDidFailed(::GlobalNamespace::MultiplayerLevelCompletionResults* results);
 
-  /// @brief Method ResumeSpawning, addr 0x25fc668, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ResumeSpawning, addr 0x26fb46c, size 0x1c, virtual false, abstract: false, final false
   inline void ResumeSpawning();
 
-  /// @brief Method __ForceStopSong, addr 0x25fc684, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method __ForceStopSong, addr 0x26fb488, size 0x34, virtual false, abstract: false, final false
   inline void __ForceStopSong();
 
-  /// @brief Method __GetActiveOnlyGameObjects, addr 0x25fc6b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method __GetActiveOnlyGameObjects, addr 0x26fb4bc, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> __GetActiveOnlyGameObjects();
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> const& __cordl_internal_get__activeOnlyGameObjects() const;
@@ -238,25 +238,25 @@ public:
 
   constexpr void __cordl_internal_set_playerNetworkDidFailedEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
-  /// @brief Method .ctor, addr 0x25fc6c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26fb4c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_playerDidFinishEvent, addr 0x25fc2f0, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_playerDidFinishEvent, addr 0x26fb0f4, size 0xb0, virtual true, abstract: false, final true
   inline void add_playerDidFinishEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
-  /// @brief Method add_playerNetworkDidFailedEvent, addr 0x25fc450, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_playerNetworkDidFailedEvent, addr 0x26fb254, size 0xb0, virtual true, abstract: false, final true
   inline void add_playerNetworkDidFailedEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
-  /// @brief Method get_currentLocalPlayerLevelCompletionResult, addr 0x25fc2cc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_currentLocalPlayerLevelCompletionResult, addr 0x26fb0d0, size 0x24, virtual false, abstract: false, final false
   inline ::GlobalNamespace::LevelCompletionResults* get_currentLocalPlayerLevelCompletionResult();
 
-  /// @brief Method get_introAnimator, addr 0x25fc2b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_introAnimator, addr 0x26fb0b8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator> get_introAnimator();
 
-  /// @brief Method get_outroAnimator, addr 0x25fc2bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_outroAnimator, addr 0x26fb0c0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_outroAnimator();
 
-  /// @brief Method get_songController, addr 0x25fc2c4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_songController, addr 0x26fb0c8, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::IStartSeekSongController* get_songController();
 
   /// @brief Convert to "::GlobalNamespace::IMultiplayerLevelEndActionsListener"
@@ -268,10 +268,10 @@ public:
   /// @brief Convert to "::GlobalNamespace::IStartSeekSongControllerProvider"
   constexpr ::GlobalNamespace::IStartSeekSongControllerProvider* i___GlobalNamespace__IStartSeekSongControllerProvider() noexcept;
 
-  /// @brief Method remove_playerDidFinishEvent, addr 0x25fc3a0, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_playerDidFinishEvent, addr 0x26fb1a4, size 0xb0, virtual true, abstract: false, final true
   inline void remove_playerDidFinishEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
-  /// @brief Method remove_playerNetworkDidFailedEvent, addr 0x25fc500, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_playerNetworkDidFailedEvent, addr 0x26fb304, size 0xb0, virtual true, abstract: false, final true
   inline void remove_playerNetworkDidFailedEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
 protected:

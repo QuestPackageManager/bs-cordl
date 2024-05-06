@@ -7,7 +7,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Models::AssetFileDeleteResult::*)(void*)>(
     &::Oculus::Platform::Models::AssetFileDeleteResult::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x29dc2c8;
+  constexpr static std::size_t addrs = 0x2adab78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

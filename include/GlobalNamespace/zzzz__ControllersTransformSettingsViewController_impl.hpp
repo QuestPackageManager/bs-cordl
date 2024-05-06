@@ -1,16 +1,16 @@
 #pragma once
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__ControllersTransformSettingsViewController_def.hpp"
+#include "BeatSaber/GameSettings/zzzz__MainSettingsHandler_def.hpp"
 #include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
-#include "GlobalNamespace/zzzz__Vector3SO_def.hpp"
 #include "HMUI/zzzz__RangeValuesTextSlider_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ControllersTransformSettingsViewController.DidActivate
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ControllersTransformSettingsViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::ControllersTransformSettingsViewController::DidActivate)> {
-  constexpr static std::size_t size = 0x570;
-  constexpr static std::size_t addrs = 0x253fc5c;
+  constexpr static std::size_t size = 0x564;
+  constexpr static std::size_t addrs = 0x265ea58;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ControllersTransformSettingsViewController::*)(bool, bool)>(
     &::GlobalNamespace::ControllersTransformSettingsViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x25401cc;
+  constexpr static std::size_t addrs = 0x265efbc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ControllersTransformSettingsViewController::*)()>(
     &::GlobalNamespace::ControllersTransformSettingsViewController::OnDestroy)> {
   constexpr static std::size_t size = 0x338;
-  constexpr static std::size_t addrs = 0x2540278;
+  constexpr static std::size_t addrs = 0x265f068;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,8 +57,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ControllersTransformSettingsViewController::*)(::HMUI::RangeValuesTextSlider*, float_t)>(
     &::GlobalNamespace::ControllersTransformSettingsViewController::HandlePositionSliderValueDidChange)> {
-  constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x25405b0;
+  constexpr static std::size_t size = 0x138;
+  constexpr static std::size_t addrs = 0x265f3a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -74,8 +74,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ControllersTransformSettingsViewController::*)(::HMUI::RangeValuesTextSlider*, float_t)>(
     &::GlobalNamespace::ControllersTransformSettingsViewController::HandleRotationSliderValueDidChange)> {
-  constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x25406d0;
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x265f4d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ControllersTransformSettingsViewController::*)()>(
     &::GlobalNamespace::ControllersTransformSettingsViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25407e8;
+  constexpr static std::size_t addrs = 0x265f608;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -101,30 +101,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::GlobalNamespace::Vector3SO>& GlobalNamespace::ControllersTransformSettingsViewController::__cordl_internal_get__controllerPosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____controllerPosition;
-}
-constexpr ::UnityW<::GlobalNamespace::Vector3SO> const& GlobalNamespace::ControllersTransformSettingsViewController::__cordl_internal_get__controllerPosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____controllerPosition;
-}
-constexpr void GlobalNamespace::ControllersTransformSettingsViewController::__cordl_internal_set__controllerPosition(::UnityW<::GlobalNamespace::Vector3SO> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____controllerPosition)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::UnityW<::GlobalNamespace::Vector3SO>& GlobalNamespace::ControllersTransformSettingsViewController::__cordl_internal_get__controllerRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____controllerRotation;
-}
-constexpr ::UnityW<::GlobalNamespace::Vector3SO> const& GlobalNamespace::ControllersTransformSettingsViewController::__cordl_internal_get__controllerRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____controllerRotation;
-}
-constexpr void GlobalNamespace::ControllersTransformSettingsViewController::__cordl_internal_set__controllerRotation(::UnityW<::GlobalNamespace::Vector3SO> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____controllerRotation)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
 constexpr ::UnityW<::HMUI::RangeValuesTextSlider>& GlobalNamespace::ControllersTransformSettingsViewController::__cordl_internal_get__posXSlider() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____posXSlider;
@@ -209,6 +185,19 @@ GlobalNamespace::ControllersTransformSettingsViewController::__cordl_internal_ge
 constexpr void GlobalNamespace::ControllersTransformSettingsViewController::__cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____vrPlatformHelper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::BeatSaber::GameSettings::MainSettingsHandler*& GlobalNamespace::ControllersTransformSettingsViewController::__cordl_internal_get__mainSettingsHandler() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____mainSettingsHandler;
+}
+constexpr ::cordl_internals::to_const_pointer<::BeatSaber::GameSettings::MainSettingsHandler*> const&
+GlobalNamespace::ControllersTransformSettingsViewController::__cordl_internal_get__mainSettingsHandler() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____mainSettingsHandler;
+}
+constexpr void GlobalNamespace::ControllersTransformSettingsViewController::__cordl_internal_set__mainSettingsHandler(::BeatSaber::GameSettings::MainSettingsHandler* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mainSettingsHandler)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::ControllersTransformSettingsViewController::DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling) {
   auto* ___internal_method =

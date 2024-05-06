@@ -8,10 +8,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PresetsSettingsController)
 namespace GlobalNamespace {
-class IntSO;
-}
-namespace GlobalNamespace {
 class NamedPresetsSO;
+}
+namespace System {
+template <typename T> class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -20,35 +20,54 @@ class PresetsSettingsController;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PresetsSettingsController);
 // Type: ::PresetsSettingsController
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PresetsSettingsController*
 class CORDL_TYPE PresetsSettingsController : public ::GlobalNamespace::ListSettingsController {
 public:
   // Declarations
-  /// @brief Field _limitNumberOfElements, offset 0x38, size 0x1
+  /// @brief Field _customIndex, offset 0x38, size 0x4
+  __declspec(property(get = __cordl_internal_get__customIndex, put = __cordl_internal_set__customIndex)) int32_t _customIndex;
+
+  /// @brief Field _limitNumberOfElements, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get__limitNumberOfElements, put = __cordl_internal_set__limitNumberOfElements)) bool _limitNumberOfElements;
 
-  /// @brief Field _numberOfElementsLimit, offset 0x3c, size 0x4
+  /// @brief Field _numberOfElementsLimit, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get__numberOfElementsLimit, put = __cordl_internal_set__numberOfElementsLimit)) int32_t _numberOfElementsLimit;
 
-  /// @brief Field _presets, offset 0x30, size 0x8
+  /// @brief Field _presets, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__presets, put = __cordl_internal_set__presets))::UnityW<::GlobalNamespace::NamedPresetsSO> _presets;
 
-  /// @brief Field _settingsValue, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__settingsValue, put = __cordl_internal_set__settingsValue))::UnityW<::GlobalNamespace::IntSO> _settingsValue;
+  /// @brief Field valueDidChangeEvent, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_valueDidChangeEvent, put = __cordl_internal_set_valueDidChangeEvent))::System::Action_1<int32_t>* valueDidChangeEvent;
 
-  /// @brief Method ApplyValue, addr 0x253c334, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method ApplyValue, addr 0x2632a6c, size 0x20, virtual true, abstract: false, final false
   inline void ApplyValue(int32_t idx);
 
-  /// @brief Method GetInitValues, addr 0x253c25c, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method GetInitValues, addr 0x26329c8, size 0xa4, virtual true, abstract: false, final false
   inline bool GetInitValues(ByRef<int32_t> idx, ByRef<int32_t> numberOfElements);
+
+  /// @brief Method GetValue, addr 0x263290c, size 0x8, virtual false, abstract: false, final false
+  inline int32_t GetValue();
 
   static inline ::GlobalNamespace::PresetsSettingsController* New_ctor();
 
-  /// @brief Method TextForValue, addr 0x253c38c, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method SetInteractable, addr 0x2632994, size 0x34, virtual false, abstract: false, final false
+  inline void SetInteractable(bool interactable);
+
+  /// @brief Method SetNumberOfElementsLimit, addr 0x2632974, size 0x20, virtual false, abstract: false, final false
+  inline void SetNumberOfElementsLimit(int32_t numberOfElementsLimit);
+
+  /// @brief Method SetValue, addr 0x2632914, size 0x60, virtual false, abstract: false, final false
+  inline void SetValue(int32_t index);
+
+  /// @brief Method TextForValue, addr 0x2632a8c, size 0x50, virtual true, abstract: false, final false
   inline ::StringW TextForValue(int32_t idx);
+
+  constexpr int32_t const& __cordl_internal_get__customIndex() const;
+
+  constexpr int32_t& __cordl_internal_get__customIndex();
 
   constexpr bool const& __cordl_internal_get__limitNumberOfElements() const;
 
@@ -62,9 +81,11 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::NamedPresetsSO>& __cordl_internal_get__presets();
 
-  constexpr ::UnityW<::GlobalNamespace::IntSO> const& __cordl_internal_get__settingsValue() const;
+  constexpr ::System::Action_1<int32_t>*& __cordl_internal_get_valueDidChangeEvent();
 
-  constexpr ::UnityW<::GlobalNamespace::IntSO>& __cordl_internal_get__settingsValue();
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<int32_t>*> const& __cordl_internal_get_valueDidChangeEvent() const;
+
+  constexpr void __cordl_internal_set__customIndex(int32_t value);
 
   constexpr void __cordl_internal_set__limitNumberOfElements(bool value);
 
@@ -72,10 +93,16 @@ public:
 
   constexpr void __cordl_internal_set__presets(::UnityW<::GlobalNamespace::NamedPresetsSO> value);
 
-  constexpr void __cordl_internal_set__settingsValue(::UnityW<::GlobalNamespace::IntSO> value);
+  constexpr void __cordl_internal_set_valueDidChangeEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x253c3dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2632adc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
+
+  /// @brief Method add_valueDidChangeEvent, addr 0x26327ac, size 0xb0, virtual false, abstract: false, final false
+  inline void add_valueDidChangeEvent(::System::Action_1<int32_t>* value);
+
+  /// @brief Method remove_valueDidChangeEvent, addr 0x263285c, size 0xb0, virtual false, abstract: false, final false
+  inline void remove_valueDidChangeEvent(::System::Action_1<int32_t>* value);
 
 protected:
   // Ctor Parameters []
@@ -91,30 +118,35 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   PresetsSettingsController(PresetsSettingsController const&) = delete;
 
-  /// @brief Field _settingsValue, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::IntSO> ____settingsValue;
-
-  /// @brief Field _presets, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _presets, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NamedPresetsSO> ____presets;
 
-  /// @brief Field _limitNumberOfElements, offset: 0x38, size: 0x1, def value: None
+  /// @brief Field _limitNumberOfElements, offset: 0x30, size: 0x1, def value: None
   bool ____limitNumberOfElements;
 
-  /// @brief Field _numberOfElementsLimit, offset: 0x3c, size: 0x4, def value: None
+  /// @brief Field _numberOfElementsLimit, offset: 0x34, size: 0x4, def value: None
   int32_t ____numberOfElementsLimit;
+
+  /// @brief Field _customIndex, offset: 0x38, size: 0x4, def value: None
+  int32_t ____customIndex;
+
+  /// @brief Field valueDidChangeEvent, offset: 0x40, size: 0x8, def value: None
+  ::System::Action_1<int32_t>* ___valueDidChangeEvent;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PresetsSettingsController, 0x40>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PresetsSettingsController, 0x48>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PresetsSettingsController, ____settingsValue) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PresetsSettingsController, ____presets) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PresetsSettingsController, ____presets) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PresetsSettingsController, ____limitNumberOfElements) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PresetsSettingsController, ____limitNumberOfElements) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PresetsSettingsController, ____numberOfElementsLimit) == 0x34, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PresetsSettingsController, ____numberOfElementsLimit) == 0x3c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PresetsSettingsController, ____customIndex) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PresetsSettingsController, ___valueDidChangeEvent) == 0x40, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PresetsSettingsController);

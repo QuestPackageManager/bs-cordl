@@ -42,15 +42,15 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IPreviewMediaData"
   constexpr operator ::GlobalNamespace::IPreviewMediaData*() noexcept;
 
-  /// @brief Method GetCoverSpriteAsync, addr 0x13cbaf0, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method GetCoverSpriteAsync, addr 0x14c1aec, size 0x70, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>* GetCoverSpriteAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method GetPreviewAudioClip, addr 0x13cbb60, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method GetPreviewAudioClip, addr 0x14c1b5c, size 0x70, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* GetPreviewAudioClip(::System::Threading::CancellationToken cancellationToken);
 
   static inline ::GlobalNamespace::StaticPreviewMediaData* New_ctor(::UnityEngine::Sprite* coverSprite, ::UnityEngine::AudioClip* previewAudioClip);
 
-  /// @brief Method UnloadPreviewAudioClip, addr 0x13cbbd0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method UnloadPreviewAudioClip, addr 0x14c1bcc, size 0x4, virtual true, abstract: false, final true
   inline void UnloadPreviewAudioClip();
 
   constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__coverSprite() const;
@@ -65,7 +65,7 @@ public:
 
   constexpr void __cordl_internal_set__previewAudioClip(::UnityW<::UnityEngine::AudioClip> value);
 
-  /// @brief Method .ctor, addr 0x13c88a0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14bdbac, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Sprite* coverSprite, ::UnityEngine::AudioClip* previewAudioClip);
 
   /// @brief Convert to "::GlobalNamespace::IPreviewMediaData"

@@ -26,12 +26,12 @@ namespace UnityEngine::Yoga {
 class CORDL_TYPE BaselineFunction : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x33f36f0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x35f942c, size 0x14, virtual true, abstract: false, final false
   inline float_t Invoke(::UnityEngine::Yoga::YogaNode* node, float_t width, float_t height);
 
   static inline ::UnityEngine::Yoga::BaselineFunction* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x33f35c0, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35f92fc, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:

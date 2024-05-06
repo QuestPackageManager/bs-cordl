@@ -46,19 +46,19 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::INotifyCompletion"
   constexpr operator ::System::Runtime::CompilerServices::INotifyCompletion*();
 
-  /// @brief Method GetResult, addr 0x275db04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetResult, addr 0x285d214, size 0x8, virtual false, abstract: false, final false
   inline void GetResult();
 
-  /// @brief Method OnCompleted, addr 0x275c4c8, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method OnCompleted, addr 0x285bbd8, size 0x14, virtual true, abstract: false, final true
   inline void OnCompleted(::System::Action* continuation);
 
-  /// @brief Method UnsafeOnCompleted, addr 0x275c688, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method UnsafeOnCompleted, addr 0x285bd98, size 0x14, virtual true, abstract: false, final true
   inline void UnsafeOnCompleted(::System::Action* continuation);
 
-  /// @brief Method .ctor, addr 0x275dacc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x285d1dc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::Task* task, bool continueOnCapturedContext);
 
-  /// @brief Method get_IsCompleted, addr 0x275dae8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_IsCompleted, addr 0x285d1f8, size 0x1c, virtual false, abstract: false, final false
   inline bool get_IsCompleted();
 
   /// @brief Convert to "::System::Runtime::CompilerServices::ICriticalNotifyCompletion"
@@ -104,10 +104,10 @@ public:
   // Declarations
   using ConfiguredTaskAwaiter = ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
 
-  /// @brief Method GetAwaiter, addr 0x275dadc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetAwaiter, addr 0x285d1ec, size 0xc, virtual false, abstract: false, final false
   inline ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter GetAwaiter();
 
-  /// @brief Method .ctor, addr 0x275dab4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x285d1c4, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::Task* task, bool continueOnCapturedContext);
 
   // Ctor Parameters []

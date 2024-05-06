@@ -24,7 +24,7 @@ public:
   /// @brief Field nodeBuffer, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_nodeBuffer, put = __cordl_internal_set_nodeBuffer))::ArrayW<uint8_t, ::Array<uint8_t>*> nodeBuffer;
 
-  /// @brief Method FindCaseInsensitiveString, addr 0x2d67698, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method FindCaseInsensitiveString, addr 0x2e62f98, size 0x12c, virtual false, abstract: false, final false
   inline uint8_t FindCaseInsensitiveString(::StringW stringToFind);
 
   static inline ::System::Xml::TernaryTreeReadOnly* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> nodeBuffer);
@@ -35,7 +35,7 @@ public:
 
   constexpr void __cordl_internal_set_nodeBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x2d68914, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e64214, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> nodeBuffer);
 
 protected:

@@ -64,56 +64,56 @@ public:
   /// @brief Field lockobj, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_lockobj, put = setStaticF_lockobj))::System::Object* lockobj;
 
-  /// @brief Method CanSecure, addr 0x26a1534, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method CanSecure, addr 0x279e930, size 0xa0, virtual false, abstract: false, final false
   static inline bool CanSecure(::StringW path);
 
-  /// @brief Method Copy, addr 0x269fd9c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Copy, addr 0x279d198, size 0x98, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::CspParameters* Copy(::System::Security::Cryptography::CspParameters* p);
 
-  /// @brief Method FromXml, addr 0x26a0d50, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method FromXml, addr 0x279e14c, size 0x11c, virtual false, abstract: false, final false
   inline void FromXml(::StringW xml);
 
-  /// @brief Method IsMachineProtected, addr 0x26a1490, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method IsMachineProtected, addr 0x279e88c, size 0x90, virtual false, abstract: false, final false
   static inline bool IsMachineProtected(::StringW path);
 
-  /// @brief Method IsUserProtected, addr 0x26a1400, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method IsUserProtected, addr 0x279e7fc, size 0x90, virtual false, abstract: false, final false
   static inline bool IsUserProtected(::StringW path);
 
-  /// @brief Method Load, addr 0x26a0b9c, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x279df98, size 0x1b4, virtual false, abstract: false, final false
   inline bool Load();
 
   static inline ::Mono::Security::Cryptography::KeyPairPersistence* New_ctor(::System::Security::Cryptography::CspParameters* parameters);
 
   static inline ::Mono::Security::Cryptography::KeyPairPersistence* New_ctor(::System::Security::Cryptography::CspParameters* parameters, ::StringW keyPair);
 
-  /// @brief Method ProtectMachine, addr 0x26a12cc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ProtectMachine, addr 0x279e6c8, size 0x90, virtual false, abstract: false, final false
   static inline bool ProtectMachine(::StringW path);
 
-  /// @brief Method ProtectUser, addr 0x26a135c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ProtectUser, addr 0x279e758, size 0x90, virtual false, abstract: false, final false
   static inline bool ProtectUser(::StringW path);
 
-  /// @brief Method Remove, addr 0x26a13ec, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x279e7e8, size 0x14, virtual false, abstract: false, final false
   inline void Remove();
 
-  /// @brief Method Save, addr 0x26a0e6c, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method Save, addr 0x279e268, size 0x24c, virtual false, abstract: false, final false
   inline void Save();
 
-  /// @brief Method ToXml, addr 0x26a10b8, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method ToXml, addr 0x279e4b4, size 0x214, virtual false, abstract: false, final false
   inline ::StringW ToXml();
 
-  /// @brief Method _CanSecure, addr 0x26a1520, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method _CanSecure, addr 0x279e91c, size 0x4, virtual false, abstract: false, final false
   static inline bool _CanSecure(::cordl_internals::Ptr<char16_t> root);
 
-  /// @brief Method _IsMachineProtected, addr 0x26a1530, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method _IsMachineProtected, addr 0x279e92c, size 0x4, virtual false, abstract: false, final false
   static inline bool _IsMachineProtected(::cordl_internals::Ptr<char16_t> path);
 
-  /// @brief Method _IsUserProtected, addr 0x26a152c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method _IsUserProtected, addr 0x279e928, size 0x4, virtual false, abstract: false, final false
   static inline bool _IsUserProtected(::cordl_internals::Ptr<char16_t> path);
 
-  /// @brief Method _ProtectMachine, addr 0x26a1528, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method _ProtectMachine, addr 0x279e924, size 0x4, virtual false, abstract: false, final false
   static inline bool _ProtectMachine(::cordl_internals::Ptr<char16_t> path);
 
-  /// @brief Method _ProtectUser, addr 0x26a1524, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method _ProtectUser, addr 0x279e920, size 0x4, virtual false, abstract: false, final false
   static inline bool _ProtectUser(::cordl_internals::Ptr<char16_t> path);
 
   constexpr ::StringW const& __cordl_internal_get__container() const;
@@ -140,10 +140,10 @@ public:
 
   constexpr void __cordl_internal_set__params(::System::Security::Cryptography::CspParameters* value);
 
-  /// @brief Method .ctor, addr 0x269fd10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x279d10c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::CspParameters* parameters);
 
-  /// @brief Method .ctor, addr 0x269fd18, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x279d114, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::CspParameters* parameters, ::StringW keyPair);
 
   static inline ::StringW getStaticF__machinePath();
@@ -156,28 +156,28 @@ public:
 
   static inline ::System::Object* getStaticF_lockobj();
 
-  /// @brief Method get_CanChange, addr 0x26a0b8c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_CanChange, addr 0x279df88, size 0x10, virtual false, abstract: false, final false
   inline bool get_CanChange();
 
-  /// @brief Method get_ContainerName, addr 0x269ffc0, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method get_ContainerName, addr 0x279d3bc, size 0x100, virtual false, abstract: false, final false
   inline ::StringW get_ContainerName();
 
-  /// @brief Method get_Filename, addr 0x269fe34, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method get_Filename, addr 0x279d230, size 0x18c, virtual false, abstract: false, final false
   inline ::StringW get_Filename();
 
-  /// @brief Method get_KeyValue, addr 0x26a0b70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KeyValue, addr 0x279df6c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_KeyValue();
 
-  /// @brief Method get_MachinePath, addr 0x26a00e0, size 0x548, virtual false, abstract: false, final false
+  /// @brief Method get_MachinePath, addr 0x279d4dc, size 0x548, virtual false, abstract: false, final false
   static inline ::StringW get_MachinePath();
 
-  /// @brief Method get_UseDefaultKeyContainer, addr 0x26a15d4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_UseDefaultKeyContainer, addr 0x279e9d0, size 0x20, virtual false, abstract: false, final false
   inline bool get_UseDefaultKeyContainer();
 
-  /// @brief Method get_UseMachineKeyStore, addr 0x26a00c0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_UseMachineKeyStore, addr 0x279d4bc, size 0x20, virtual false, abstract: false, final false
   inline bool get_UseMachineKeyStore();
 
-  /// @brief Method get_UserPath, addr 0x26a0628, size 0x548, virtual false, abstract: false, final false
+  /// @brief Method get_UserPath, addr 0x279da24, size 0x548, virtual false, abstract: false, final false
   static inline ::StringW get_UserPath();
 
   static inline void setStaticF__machinePath(::StringW value);
@@ -190,7 +190,7 @@ public:
 
   static inline void setStaticF_lockobj(::System::Object* value);
 
-  /// @brief Method set_KeyValue, addr 0x26a0b78, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_KeyValue, addr 0x279df74, size 0x14, virtual false, abstract: false, final false
   inline void set_KeyValue(::StringW value);
 
 protected:

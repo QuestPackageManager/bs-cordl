@@ -26,13 +26,13 @@ public:
 
   static inline ::UnityEngine::Grid* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3235664, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x343d3a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_cellSize, addr 0x32355c4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_cellSize, addr 0x343d300, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_cellSize();
 
-  /// @brief Method get_cellSize_Injected, addr 0x3235620, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_cellSize_Injected, addr 0x343d35c, size 0x44, virtual false, abstract: false, final false
   inline void get_cellSize_Injected(ByRef<::UnityEngine::Vector3> ret);
 
 protected:

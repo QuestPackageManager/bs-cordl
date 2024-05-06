@@ -40,48 +40,48 @@ namespace System::Xml::Schema {
 class CORDL_TYPE XmlDateTimeConverter : public ::System::Xml::Schema::XmlBaseConverter {
 public:
   // Declarations
-  /// @brief Method ChangeType, addr 0x2d3b6b0, size 0x3b0, virtual true, abstract: false, final false
+  /// @brief Method ChangeType, addr 0x2e37fb0, size 0x3b0, virtual true, abstract: false, final false
   inline ::System::Object* ChangeType(::StringW value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method ChangeType, addr 0x2d3b318, size 0x398, virtual true, abstract: false, final false
+  /// @brief Method ChangeType, addr 0x2e37c18, size 0x398, virtual true, abstract: false, final false
   inline ::System::Object* ChangeType(::System::DateTime value, ::System::Type* destinationType);
 
-  /// @brief Method ChangeType, addr 0x2d3ba60, size 0x710, virtual true, abstract: false, final false
+  /// @brief Method ChangeType, addr 0x2e38360, size 0x710, virtual true, abstract: false, final false
   inline ::System::Object* ChangeType(::System::Object* value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method Create, addr 0x2d3a12c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2e36a2c, size 0x60, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::XmlValueConverter* Create(::System::Xml::Schema::XmlSchemaType* schemaType);
 
   static inline ::System::Xml::Schema::XmlDateTimeConverter* New_ctor(::System::Xml::Schema::XmlSchemaType* schemaType);
 
-  /// @brief Method ToDateTime, addr 0x2d3a1f4, size 0x1d0, virtual true, abstract: false, final false
+  /// @brief Method ToDateTime, addr 0x2e36af4, size 0x1d0, virtual true, abstract: false, final false
   inline ::System::DateTime ToDateTime(::StringW value);
 
-  /// @brief Method ToDateTime, addr 0x2d3a18c, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method ToDateTime, addr 0x2e36a8c, size 0x68, virtual true, abstract: false, final false
   inline ::System::DateTime ToDateTime(::System::DateTimeOffset value);
 
-  /// @brief Method ToDateTime, addr 0x2d3a3c4, size 0x35c, virtual true, abstract: false, final false
+  /// @brief Method ToDateTime, addr 0x2e36cc4, size 0x35c, virtual true, abstract: false, final false
   inline ::System::DateTime ToDateTime(::System::Object* value);
 
-  /// @brief Method ToDateTimeOffset, addr 0x2d3a748, size 0x1d0, virtual true, abstract: false, final false
+  /// @brief Method ToDateTimeOffset, addr 0x2e37048, size 0x1d0, virtual true, abstract: false, final false
   inline ::System::DateTimeOffset ToDateTimeOffset(::StringW value);
 
-  /// @brief Method ToDateTimeOffset, addr 0x2d3a720, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method ToDateTimeOffset, addr 0x2e37020, size 0x28, virtual true, abstract: false, final false
   inline ::System::DateTimeOffset ToDateTimeOffset(::System::DateTime value);
 
-  /// @brief Method ToDateTimeOffset, addr 0x2d3a918, size 0x360, virtual true, abstract: false, final false
+  /// @brief Method ToDateTimeOffset, addr 0x2e37218, size 0x360, virtual true, abstract: false, final false
   inline ::System::DateTimeOffset ToDateTimeOffset(::System::Object* value);
 
-  /// @brief Method ToString, addr 0x2d3ac78, size 0x180, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2e37578, size 0x180, virtual true, abstract: false, final false
   inline ::StringW ToString(::System::DateTime value);
 
-  /// @brief Method ToString, addr 0x2d3adf8, size 0x1c8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2e376f8, size 0x1c8, virtual true, abstract: false, final false
   inline ::StringW ToString(::System::DateTimeOffset value);
 
-  /// @brief Method ToString, addr 0x2d3afc0, size 0x358, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2e378c0, size 0x358, virtual true, abstract: false, final false
   inline ::StringW ToString(::System::Object* value, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method .ctor, addr 0x2d3a0c4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e369c4, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaType* schemaType);
 
 protected:

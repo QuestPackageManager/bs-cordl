@@ -20,10 +20,10 @@ namespace HoudiniEngineUnity {
 struct CORDL_TYPE HAPI_Viewport {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x247c268, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2576ef4, size 0x70, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method .ctor, addr 0x247c1e0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2576e6c, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(bool initializeFields);
 
   // Ctor Parameters []

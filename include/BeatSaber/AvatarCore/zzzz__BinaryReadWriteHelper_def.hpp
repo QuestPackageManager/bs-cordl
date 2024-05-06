@@ -27,10 +27,10 @@ namespace BeatSaber::AvatarCore {
 class CORDL_TYPE BinaryReadWriteHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ReadColor, addr 0xf5288c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ReadColor, addr 0x1041400, size 0x90, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color ReadColor(::System::IO::BinaryReader* binaryReader);
 
-  /// @brief Method Write, addr 0xf52804, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0x1041378, size 0x88, virtual false, abstract: false, final false
   static inline void Write(::System::IO::BinaryWriter* binaryWriter, ::UnityEngine::Color color);
 
 protected:

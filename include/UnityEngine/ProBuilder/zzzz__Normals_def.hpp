@@ -36,16 +36,16 @@ public:
   /// @brief Field s_SmoothAvgCount, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_SmoothAvgCount, put = setStaticF_s_SmoothAvgCount))::ArrayW<float_t, ::Array<float_t>*> s_SmoothAvgCount;
 
-  /// @brief Method CalculateHardNormals, addr 0x3085c04, size 0x4c8, virtual false, abstract: false, final false
+  /// @brief Method CalculateHardNormals, addr 0x328d68c, size 0x4c8, virtual false, abstract: false, final false
   static inline void CalculateHardNormals(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
 
-  /// @brief Method CalculateNormals, addr 0x30860cc, size 0x5a8, virtual false, abstract: false, final false
+  /// @brief Method CalculateNormals, addr 0x328db54, size 0x5a8, virtual false, abstract: false, final false
   static inline void CalculateNormals(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
 
-  /// @brief Method CalculateTangents, addr 0x3085708, size 0x4fc, virtual false, abstract: false, final false
+  /// @brief Method CalculateTangents, addr 0x328d190, size 0x4fc, virtual false, abstract: false, final false
   static inline void CalculateTangents(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
 
-  /// @brief Method ClearIntArray, addr 0x308560c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ClearIntArray, addr 0x328d094, size 0xfc, virtual false, abstract: false, final false
   static inline void ClearIntArray(int32_t count);
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_s_CachedIntArray();

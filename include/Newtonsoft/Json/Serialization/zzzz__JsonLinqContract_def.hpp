@@ -23,7 +23,7 @@ public:
   // Declarations
   static inline ::Newtonsoft::Json::Serialization::JsonLinqContract* New_ctor(::System::Type* underlyingType);
 
-  /// @brief Method .ctor, addr 0x292949c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a27d4c, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* underlyingType);
 
 protected:

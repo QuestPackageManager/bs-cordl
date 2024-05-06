@@ -30,7 +30,7 @@ public:
   /// @brief Field _textPageScrollView, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__textPageScrollView, put = __cordl_internal_set__textPageScrollView))::UnityW<::HMUI::TextPageScrollView> _textPageScrollView;
 
-  /// @brief Method DidActivate, addr 0x2564bec, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x265a40c, size 0x44, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::PrivacyPolicyDisplayViewController* New_ctor();
@@ -47,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set__textPageScrollView(::UnityW<::HMUI::TextPageScrollView> value);
 
-  /// @brief Method .ctor, addr 0x2564c30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x265a450, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

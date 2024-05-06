@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::LightColorBaseData* (*)(float_t, ::BeatmapSaveDataVersion4::LightColorEvent)>(
     &::BeatmapDataLoaderVersion4::LightColorBaseDataConverter::Convert)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x14055f0;
+  constexpr static std::size_t addrs = 0x14f7bb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

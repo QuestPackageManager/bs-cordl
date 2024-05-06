@@ -22,7 +22,7 @@ namespace System::Security::Cryptography {
 class CORDL_TYPE CryptoConfigForwarder : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateFromName, addr 0x26f83b4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CreateFromName, addr 0x27f57b0, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Object* CreateFromName(::StringW name);
 
 protected:

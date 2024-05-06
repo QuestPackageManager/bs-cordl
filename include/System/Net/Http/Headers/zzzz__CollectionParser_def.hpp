@@ -37,10 +37,10 @@ public:
   template <typename T>
   static inline bool TryParse(::StringW input, int32_t minimalCount, ::System::Net::Http::Headers::ElementTryParser_1<T>* parser, ByRef<::System::Collections::Generic::List_1<T>*> result);
 
-  /// @brief Method TryParse, addr 0x2c70dc8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x2d6e6c8, size 0xb0, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, int32_t minimalCount, ByRef<::System::Collections::Generic::List_1<::StringW>*> result);
 
-  /// @brief Method TryParseStringElement, addr 0x2c70e78, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method TryParseStringElement, addr 0x2d6e778, size 0xcc, virtual false, abstract: false, final false
   static inline bool TryParseStringElement(::System::Net::Http::Headers::Lexer* lexer, ByRef<::StringW> parsedValue, ByRef<::System::Net::Http::Headers::Token> t);
 
 protected:

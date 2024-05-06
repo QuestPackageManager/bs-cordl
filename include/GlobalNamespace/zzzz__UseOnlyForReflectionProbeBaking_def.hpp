@@ -18,12 +18,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE UseOnlyForReflectionProbeBaking : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Method Awake, addr 0x25890f8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x26820a8, size 0x24, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::UseOnlyForReflectionProbeBaking* New_ctor();
 
-  /// @brief Method .ctor, addr 0x258911c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26820cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

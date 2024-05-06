@@ -21,7 +21,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE DefaultEnvironmentEventsFactory : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InsertDefaultEvents, addr 0x13bb2a0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method InsertDefaultEvents, addr 0x14b09e8, size 0xac, virtual false, abstract: false, final false
   static inline void InsertDefaultEvents(::GlobalNamespace::BeatmapData* beatmapData);
 
 protected:

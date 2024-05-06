@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<::UnityEngine::Color>, ::UnityEngine::Color)>(&::HMUI::SetPropertyUtility::SetColor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x242f2dc;
+  constexpr static std::size_t addrs = 0x2529f68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

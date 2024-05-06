@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::EmptyEnumerable::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::EmptyEnumerable::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x12c7ad8;
+  constexpr static std::size_t addrs = 0x13b91fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::Org::BouncyCastle::Utilities::Collections::EmptyEnumerable::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::EmptyEnumerable::GetEnumerator)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x12c7ae0;
+  constexpr static std::size_t addrs = 0x13b9204;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

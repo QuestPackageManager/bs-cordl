@@ -32,13 +32,13 @@ public:
 
   static inline ::System::Runtime::InteropServices::MarshalDirectiveException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x2757ef4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28572f0, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2757f74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2857370, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x2757f50, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x285734c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

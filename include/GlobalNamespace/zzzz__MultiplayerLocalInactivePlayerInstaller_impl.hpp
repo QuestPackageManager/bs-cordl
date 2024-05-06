@@ -4,16 +4,14 @@
 #include "BeatSaber/AvatarCore/zzzz__OptionalAvatarDataSender_def.hpp"
 #include "GlobalNamespace/zzzz__AudioManagerSO_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayCoreSceneSetupData_def.hpp"
-#include "GlobalNamespace/zzzz__PerceivedLoudnessPerLevelModel_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
-#include "GlobalNamespace/zzzz__RelativeSfxVolumePerLevelModel_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller.InstallBindings
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller::*)()>(
     &::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller::InstallBindings)> {
-  constexpr static std::size_t size = 0x310;
-  constexpr static std::size_t addrs = 0x25fe81c;
+  constexpr static std::size_t size = 0x33c;
+  constexpr static std::size_t addrs = 0x26fd620;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -29,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller::*)()>(
     &::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25feb78;
+  constexpr static std::size_t addrs = 0x26fd9a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -62,32 +60,6 @@ GlobalNamespace::MultiplayerLocalInactivePlayerInstaller::__cordl_internal_get__
 constexpr void GlobalNamespace::MultiplayerLocalInactivePlayerInstaller::__cordl_internal_set__sceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sceneSetupData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::GlobalNamespace::PerceivedLoudnessPerLevelModel*& GlobalNamespace::MultiplayerLocalInactivePlayerInstaller::__cordl_internal_get__beatmapLoudnessModel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____beatmapLoudnessModel;
-}
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PerceivedLoudnessPerLevelModel*> const&
-GlobalNamespace::MultiplayerLocalInactivePlayerInstaller::__cordl_internal_get__beatmapLoudnessModel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____beatmapLoudnessModel;
-}
-constexpr void GlobalNamespace::MultiplayerLocalInactivePlayerInstaller::__cordl_internal_set__beatmapLoudnessModel(::GlobalNamespace::PerceivedLoudnessPerLevelModel* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapLoudnessModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::GlobalNamespace::RelativeSfxVolumePerLevelModel*& GlobalNamespace::MultiplayerLocalInactivePlayerInstaller::__cordl_internal_get__relativeSfxVolumePerLevelModel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____relativeSfxVolumePerLevelModel;
-}
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RelativeSfxVolumePerLevelModel*> const&
-GlobalNamespace::MultiplayerLocalInactivePlayerInstaller::__cordl_internal_get__relativeSfxVolumePerLevelModel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____relativeSfxVolumePerLevelModel;
-}
-constexpr void GlobalNamespace::MultiplayerLocalInactivePlayerInstaller::__cordl_internal_set__relativeSfxVolumePerLevelModel(::GlobalNamespace::RelativeSfxVolumePerLevelModel* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____relativeSfxVolumePerLevelModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& GlobalNamespace::MultiplayerLocalInactivePlayerInstaller::__cordl_internal_get__playerDataModel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

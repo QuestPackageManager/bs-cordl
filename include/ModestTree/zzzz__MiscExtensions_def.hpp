@@ -42,7 +42,7 @@ public:
   /// @brief Method AllocFreeAddRange, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void AllocFreeAddRange(::System::Collections::Generic::IList_1<T>* list, ::System::Collections::Generic::IList_1<T>* items);
 
-  /// @brief Method Fmt, addr 0x340b61c, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method Fmt, addr 0x3610358, size 0x1b4, virtual false, abstract: false, final false
   static inline ::StringW Fmt(::StringW s, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   /// @brief Method GetValueAndRemove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -51,7 +51,7 @@ public:
   /// @brief Method IndexOf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline int32_t IndexOf(::System::Collections::Generic::IList_1<T>* list, T item);
 
-  /// @brief Method Join, addr 0x340c420, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Join, addr 0x361115c, size 0x64, virtual false, abstract: false, final false
   static inline ::StringW Join(::System::Collections::Generic::IEnumerable_1<::StringW>* values, ::StringW separator);
 
   /// @brief Method RemoveWithConfirm, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

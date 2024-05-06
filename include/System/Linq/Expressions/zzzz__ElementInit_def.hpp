@@ -48,7 +48,7 @@ public:
   /// @brief Convert operator to "::System::Linq::Expressions::IArgumentProvider"
   constexpr operator ::System::Linq::Expressions::IArgumentProvider*() noexcept;
 
-  /// @brief Method GetArgument, addr 0x2b00f44, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method GetArgument, addr 0x2bfe844, size 0x58, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::Expression* GetArgument(int32_t index);
 
   constexpr ::System::Reflection::MethodInfo*& __cordl_internal_get__AddMethod_k__BackingField();
@@ -64,13 +64,13 @@ public:
 
   constexpr void __cordl_internal_set__Arguments_k__BackingField(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* value);
 
-  /// @brief Method get_AddMethod, addr 0x2b00f34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AddMethod, addr 0x2bfe834, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::MethodInfo* get_AddMethod();
 
-  /// @brief Method get_ArgumentCount, addr 0x2b00f9c, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method get_ArgumentCount, addr 0x2bfe89c, size 0x50, virtual true, abstract: false, final true
   inline int32_t get_ArgumentCount();
 
-  /// @brief Method get_Arguments, addr 0x2b00f3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Arguments, addr 0x2bfe83c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* get_Arguments();
 
   /// @brief Convert to "::System::Linq::Expressions::IArgumentProvider"

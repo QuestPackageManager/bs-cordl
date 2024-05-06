@@ -121,7 +121,7 @@ public:
   // Declarations
   using AnchorPositions = ::TMPro::__TMP_Compatibility__AnchorPositions;
 
-  /// @brief Method ConvertTextAlignmentEnumValues, addr 0x31319d4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ConvertTextAlignmentEnumValues, addr 0x333645c, size 0x24, virtual false, abstract: false, final false
   static inline ::TMPro::TextAlignmentOptions ConvertTextAlignmentEnumValues(::TMPro::TextAlignmentOptions oldValue);
 
 protected:

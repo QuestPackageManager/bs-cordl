@@ -53,11 +53,11 @@ public:
   /// @brief Convert operator to "::Zenject::IProvider"
   constexpr operator ::Zenject::IProvider*() noexcept;
 
-  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x3456770, size 0x150, virtual true, abstract: false, final true
+  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x365a738, size 0x150, virtual true, abstract: false, final true
   inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction,
                                              ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 
-  /// @brief Method GetInstanceType, addr 0x3456704, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method GetInstanceType, addr 0x365a6cc, size 0x6c, virtual true, abstract: false, final true
   inline ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
 
   static inline ::Zenject::PrefabGameObjectProvider* New_ctor(::Zenject::IPrefabInstantiator* prefabCreator);
@@ -68,13 +68,13 @@ public:
 
   constexpr void __cordl_internal_set__prefabCreator(::Zenject::IPrefabInstantiator* value);
 
-  /// @brief Method .ctor, addr 0x34566cc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x365a694, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::IPrefabInstantiator* prefabCreator);
 
-  /// @brief Method get_IsCached, addr 0x34566f4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsCached, addr 0x365a6bc, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsCached();
 
-  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x34566fc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x365a6c4, size 0x8, virtual true, abstract: false, final true
   inline bool get_TypeVariesBasedOnMemberType();
 
   /// @brief Convert to "::Zenject::IProvider"

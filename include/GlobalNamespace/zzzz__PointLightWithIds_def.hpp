@@ -27,7 +27,7 @@ public:
   /// @brief Field _pointLight, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__pointLight, put = __cordl_internal_set__pointLight))::UnityW<::GlobalNamespace::PointLight> _pointLight;
 
-  /// @brief Method ColorWasSet, addr 0x23fda9c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x24f568c, size 0x20, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::PointLightWithIds* New_ctor();
@@ -38,7 +38,7 @@ public:
 
   constexpr void __cordl_internal_set__pointLight(::UnityW<::GlobalNamespace::PointLight> value);
 
-  /// @brief Method .ctor, addr 0x23fdabc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f56ac, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

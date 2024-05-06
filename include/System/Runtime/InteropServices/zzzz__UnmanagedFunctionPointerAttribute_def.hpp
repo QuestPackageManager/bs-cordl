@@ -22,6 +22,8 @@ namespace System::Runtime::InteropServices {
 class CORDL_TYPE UnmanagedFunctionPointerAttribute : public ::System::Attribute {
 public:
   // Declarations
+  __declspec(property(get = get_CallingConvention))::System::Runtime::InteropServices::CallingConvention CallingConvention;
+
   /// @brief Field m_callingConvention, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_m_callingConvention, put = __cordl_internal_set_m_callingConvention))::System::Runtime::InteropServices::CallingConvention m_callingConvention;
 
@@ -33,8 +35,11 @@ public:
 
   constexpr void __cordl_internal_set_m_callingConvention(::System::Runtime::InteropServices::CallingConvention value);
 
-  /// @brief Method .ctor, addr 0x2758930, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2857d2c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::InteropServices::CallingConvention callingConvention);
+
+  /// @brief Method get_CallingConvention, addr 0x2857d54, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Runtime::InteropServices::CallingConvention get_CallingConvention();
 
 protected:
   // Ctor Parameters []

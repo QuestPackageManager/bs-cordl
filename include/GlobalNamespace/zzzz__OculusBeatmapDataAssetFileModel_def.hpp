@@ -178,7 +178,7 @@ public:
 
   constexpr void __cordl_internal_set_levelId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x13e5c6c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14d901c, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::StringW levelId, ::StringW assetBundlePath);
 
 protected:
@@ -238,7 +238,7 @@ public:
 
   static inline ::GlobalNamespace::__OculusBeatmapDataAssetFileModel____c__DisplayClass13_0* New_ctor();
 
-  /// @brief Method <TryDeleteAssetBundleFileForBeatmapLevelAsync>b__0, addr 0x13e6198, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method <TryDeleteAssetBundleFileForBeatmapLevelAsync>b__0, addr 0x14d9548, size 0x15c, virtual false, abstract: false, final false
   inline void _TryDeleteAssetBundleFileForBeatmapLevelAsync_b__0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetFileDeleteResult*>* msg);
 
   constexpr ::GlobalNamespace::OculusBeatmapDataAssetFileModel*& __cordl_internal_get___4__this();
@@ -265,7 +265,7 @@ public:
 
   constexpr void __cordl_internal_set_taskSource(::System::Threading::Tasks::TaskCompletionSource_1<bool>* value);
 
-  /// @brief Method .ctor, addr 0x13e6190, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14d9540, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -319,10 +319,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x13e62f4, size 0x488, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x14d96a4, size 0x488, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x13e677c, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x14d9b2c, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -405,10 +405,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x13e67d4, size 0x974, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x14d9b84, size 0x980, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x13e7148, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x14da520, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -509,7 +509,7 @@ public:
 
   static inline ::GlobalNamespace::__OculusBeatmapDataAssetFileModel____c__DisplayClass15_0* New_ctor();
 
-  /// @brief Method <ReloadAssetDetailsForAllLevelsAsync>b__0, addr 0x13e71a8, size 0x3fc, virtual false, abstract: false, final false
+  /// @brief Method <ReloadAssetDetailsForAllLevelsAsync>b__0, addr 0x14da580, size 0x3fc, virtual false, abstract: false, final false
   inline void _ReloadAssetDetailsForAllLevelsAsync_b__0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetDetailsList*>* getListMsg);
 
   constexpr ::GlobalNamespace::OculusBeatmapDataAssetFileModel*& __cordl_internal_get___4__this();
@@ -530,7 +530,7 @@ public:
 
   constexpr void __cordl_internal_set_taskSource(::System::Threading::Tasks::TaskCompletionSource_1<bool>* value);
 
-  /// @brief Method .ctor, addr 0x13e71a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14da578, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -579,10 +579,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x13e75a4, size 0x318, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x14da97c, size 0x318, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x13e78bc, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x14dac94, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -655,7 +655,7 @@ public:
 
   static inline ::GlobalNamespace::__OculusBeatmapDataAssetFileModel____c__DisplayClass16_0* New_ctor();
 
-  /// @brief Method <GetDownloadAssetBundleFileAsync>b__0, addr 0x13e791c, size 0x10e0, virtual false, abstract: false, final false
+  /// @brief Method <GetDownloadAssetBundleFileAsync>b__0, addr 0x14dacf4, size 0xe0, virtual false, abstract: false, final false
   inline void _GetDownloadAssetBundleFileAsync_b__0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetFileDownloadResult*>* msg);
 
   constexpr ::GlobalNamespace::OculusBeatmapDataAssetFileModel*& __cordl_internal_get___4__this();
@@ -676,7 +676,7 @@ public:
 
   constexpr void __cordl_internal_set_taskSource(::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::GetAssetBundleFileResult>* value);
 
-  /// @brief Method .ctor, addr 0x13e7914, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14dacec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -725,10 +725,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x13e89fc, size 0x790, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x14dadd4, size 0x70c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x13e918c, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x14db4e0, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -844,27 +844,27 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IBeatmapDataAssetFileModel"
   constexpr operator ::GlobalNamespace::IBeatmapDataAssetFileModel*() noexcept;
 
-  /// @brief Method GetAssetBundleFileForBeatmapLevelAsync, addr 0x13e583c, size 0x110, virtual true, abstract: false, final true
+  /// @brief Method GetAssetBundleFileForBeatmapLevelAsync, addr 0x14d8bec, size 0x110, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::GetAssetBundleFileResult>* GetAssetBundleFileForBeatmapLevelAsync(::GlobalNamespace::BeatmapLevel* beatmapLevel,
                                                                                                                                  ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method GetDownloadAssetBundleFileAsync, addr 0x13e5a50, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method GetDownloadAssetBundleFileAsync, addr 0x14d8e00, size 0x10c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::GetAssetBundleFileResult>* GetDownloadAssetBundleFileAsync(::StringW levelId, ::Oculus::Platform::Models::AssetDetails* assetDetails,
                                                                                                                           ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method GetTaskCompletionSourceForDownload, addr 0x13e5b5c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method GetTaskCompletionSourceForDownload, addr 0x14d8f0c, size 0x110, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::GetAssetBundleFileResult>* GetTaskCompletionSourceForDownload(::StringW levelId,
                                                                                                                                              ::Oculus::Platform::Models::AssetDetails* assetDetail);
 
-  /// @brief Method HandleAssetFileDownloadUpdate, addr 0x13e5d00, size 0x490, virtual false, abstract: false, final false
+  /// @brief Method HandleAssetFileDownloadUpdate, addr 0x14d90b0, size 0x490, virtual false, abstract: false, final false
   inline void HandleAssetFileDownloadUpdate(::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetFileDownloadUpdate*>* msg);
 
   static inline ::GlobalNamespace::OculusBeatmapDataAssetFileModel* New_ctor(::GlobalNamespace::OculusPlatformAdditionalContentModel* oculusPlatformAdditionalContentModel);
 
-  /// @brief Method ReloadAssetDetailsForAllLevelsAsync, addr 0x13e594c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method ReloadAssetDetailsForAllLevelsAsync, addr 0x14d8cfc, size 0x104, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* ReloadAssetDetailsForAllLevelsAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method TryDeleteAssetBundleFileForBeatmapLevelAsync, addr 0x13e572c, size 0x110, virtual true, abstract: false, final true
+  /// @brief Method TryDeleteAssetBundleFileForBeatmapLevelAsync, addr 0x14d8adc, size 0x110, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<bool>* TryDeleteAssetBundleFileForBeatmapLevelAsync(::GlobalNamespace::BeatmapLevel* beatmapLevel,
                                                                                                 ::System::Threading::CancellationToken cancellationToken);
 
@@ -920,16 +920,16 @@ public:
 
   constexpr void __cordl_internal_set_levelDataAssetDownloadUpdateEvent(::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>* value);
 
-  /// @brief Method .ctor, addr 0x13e5548, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14d88f8, size 0x1e4, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::OculusPlatformAdditionalContentModel* oculusPlatformAdditionalContentModel);
 
-  /// @brief Method add_levelDataAssetDownloadUpdateEvent, addr 0x13e53e8, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_levelDataAssetDownloadUpdateEvent, addr 0x14d8798, size 0xb0, virtual true, abstract: false, final true
   inline void add_levelDataAssetDownloadUpdateEvent(::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>* value);
 
   /// @brief Convert to "::GlobalNamespace::IBeatmapDataAssetFileModel"
   constexpr ::GlobalNamespace::IBeatmapDataAssetFileModel* i___GlobalNamespace__IBeatmapDataAssetFileModel() noexcept;
 
-  /// @brief Method remove_levelDataAssetDownloadUpdateEvent, addr 0x13e5498, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_levelDataAssetDownloadUpdateEvent, addr 0x14d8848, size 0xb0, virtual true, abstract: false, final true
   inline void remove_levelDataAssetDownloadUpdateEvent(::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>* value);
 
 protected:

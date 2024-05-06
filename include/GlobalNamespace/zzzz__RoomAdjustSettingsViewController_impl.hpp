@@ -1,9 +1,8 @@
 #pragma once
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__RoomAdjustSettingsViewController_def.hpp"
-#include "GlobalNamespace/zzzz__FloatSO_def.hpp"
+#include "BeatSaber/GameSettings/zzzz__MainSettingsHandler_def.hpp"
 #include "GlobalNamespace/zzzz__StepValuePicker_def.hpp"
-#include "GlobalNamespace/zzzz__Vector3SO_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::RoomAdjustSettingsViewController.DidActivate
@@ -12,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RoomAdjustSettingsViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::RoomAdjustSettingsViewController::DidActivate)> {
   constexpr static std::size_t size = 0x30c;
-  constexpr static std::size_t addrs = 0x2566648;
+  constexpr static std::size_t addrs = 0x26619d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,8 +26,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RoomAdjustSettingsViewController::*)(::UnityEngine::Vector3)>(
     &::GlobalNamespace::RoomAdjustSettingsViewController::Move)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x2566ae0;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x2661e88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,8 +41,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RoomAdjustSettingsViewController::*)(float_t)>(
     &::GlobalNamespace::RoomAdjustSettingsViewController::Rotate)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x2566b74;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x2661f3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,8 +56,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RoomAdjustSettingsViewController::*)()>(
     &::GlobalNamespace::RoomAdjustSettingsViewController::ResetRoom)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x2566bfc;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x2661fe0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RoomAdjustSettingsViewController*>::get(),
@@ -66,17 +65,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::RoomAdjustSettingsViewController.Refresh
+//  Writing Method size for method: ::GlobalNamespace::RoomAdjustSettingsViewController.RefreshTexts
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RoomAdjustSettingsViewController::*)()>(
-    &::GlobalNamespace::RoomAdjustSettingsViewController::Refresh)> {
-  constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x2566954;
+    &::GlobalNamespace::RoomAdjustSettingsViewController::RefreshTexts)> {
+  constexpr static std::size_t size = 0x1a4;
+  constexpr static std::size_t addrs = 0x2661ce4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RoomAdjustSettingsViewController*>::get(),
-                                                                               "Refresh", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                               "RefreshTexts", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -86,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RoomAdjustSettingsViewController::*)(::GlobalNamespace::StepValuePicker*, float_t)>(
     &::GlobalNamespace::RoomAdjustSettingsViewController::RefreshRoomOffsetValuePicker)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x2566c88;
+  constexpr static std::size_t addrs = 0x2662098;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -102,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RoomAdjustSettingsViewController::*)()>(
     &::GlobalNamespace::RoomAdjustSettingsViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2566d4c;
+  constexpr static std::size_t addrs = 0x266215c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RoomAdjustSettingsViewController*>::get(),
@@ -110,156 +109,132 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::RoomAdjustSettingsViewController._DidActivate_b__10_0
+//  Writing Method size for method: ::GlobalNamespace::RoomAdjustSettingsViewController._DidActivate_b__9_0
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RoomAdjustSettingsViewController::*)()>(
-    &::GlobalNamespace::RoomAdjustSettingsViewController::_DidActivate_b__10_0)> {
+    &::GlobalNamespace::RoomAdjustSettingsViewController::_DidActivate_b__9_0)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2566d54;
+  constexpr static std::size_t addrs = 0x2662164;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RoomAdjustSettingsViewController*>::get(),
-                                                                               "<DidActivate>b__10_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                               "<DidActivate>b__9_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::RoomAdjustSettingsViewController._DidActivate_b__10_1
+//  Writing Method size for method: ::GlobalNamespace::RoomAdjustSettingsViewController._DidActivate_b__9_1
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RoomAdjustSettingsViewController::*)()>(
-    &::GlobalNamespace::RoomAdjustSettingsViewController::_DidActivate_b__10_1)> {
+    &::GlobalNamespace::RoomAdjustSettingsViewController::_DidActivate_b__9_1)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2566d68;
+  constexpr static std::size_t addrs = 0x2662178;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RoomAdjustSettingsViewController*>::get(),
-                                                                               "<DidActivate>b__10_1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                               "<DidActivate>b__9_1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::RoomAdjustSettingsViewController._DidActivate_b__10_2
+//  Writing Method size for method: ::GlobalNamespace::RoomAdjustSettingsViewController._DidActivate_b__9_2
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RoomAdjustSettingsViewController::*)()>(
-    &::GlobalNamespace::RoomAdjustSettingsViewController::_DidActivate_b__10_2)> {
+    &::GlobalNamespace::RoomAdjustSettingsViewController::_DidActivate_b__9_2)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2566d7c;
+  constexpr static std::size_t addrs = 0x266218c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RoomAdjustSettingsViewController*>::get(),
-                                                                               "<DidActivate>b__10_2", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                               "<DidActivate>b__9_2", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::RoomAdjustSettingsViewController._DidActivate_b__10_3
+//  Writing Method size for method: ::GlobalNamespace::RoomAdjustSettingsViewController._DidActivate_b__9_3
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RoomAdjustSettingsViewController::*)()>(
-    &::GlobalNamespace::RoomAdjustSettingsViewController::_DidActivate_b__10_3)> {
+    &::GlobalNamespace::RoomAdjustSettingsViewController::_DidActivate_b__9_3)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2566d90;
+  constexpr static std::size_t addrs = 0x26621a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RoomAdjustSettingsViewController*>::get(),
-                                                                               "<DidActivate>b__10_3", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                               "<DidActivate>b__9_3", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::RoomAdjustSettingsViewController._DidActivate_b__10_4
+//  Writing Method size for method: ::GlobalNamespace::RoomAdjustSettingsViewController._DidActivate_b__9_4
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RoomAdjustSettingsViewController::*)()>(
-    &::GlobalNamespace::RoomAdjustSettingsViewController::_DidActivate_b__10_4)> {
+    &::GlobalNamespace::RoomAdjustSettingsViewController::_DidActivate_b__9_4)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2566da4;
+  constexpr static std::size_t addrs = 0x26621b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RoomAdjustSettingsViewController*>::get(),
-                                                                               "<DidActivate>b__10_4", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                               "<DidActivate>b__9_4", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::RoomAdjustSettingsViewController._DidActivate_b__10_5
+//  Writing Method size for method: ::GlobalNamespace::RoomAdjustSettingsViewController._DidActivate_b__9_5
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RoomAdjustSettingsViewController::*)()>(
-    &::GlobalNamespace::RoomAdjustSettingsViewController::_DidActivate_b__10_5)> {
+    &::GlobalNamespace::RoomAdjustSettingsViewController::_DidActivate_b__9_5)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2566db8;
+  constexpr static std::size_t addrs = 0x26621c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RoomAdjustSettingsViewController*>::get(),
-                                                                               "<DidActivate>b__10_5", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                               "<DidActivate>b__9_5", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::RoomAdjustSettingsViewController._DidActivate_b__10_6
+//  Writing Method size for method: ::GlobalNamespace::RoomAdjustSettingsViewController._DidActivate_b__9_6
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RoomAdjustSettingsViewController::*)()>(
-    &::GlobalNamespace::RoomAdjustSettingsViewController::_DidActivate_b__10_6)> {
+    &::GlobalNamespace::RoomAdjustSettingsViewController::_DidActivate_b__9_6)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2566dcc;
+  constexpr static std::size_t addrs = 0x26621dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RoomAdjustSettingsViewController*>::get(),
-                                                                               "<DidActivate>b__10_6", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                               "<DidActivate>b__9_6", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::RoomAdjustSettingsViewController._DidActivate_b__10_7
+//  Writing Method size for method: ::GlobalNamespace::RoomAdjustSettingsViewController._DidActivate_b__9_7
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RoomAdjustSettingsViewController::*)()>(
-    &::GlobalNamespace::RoomAdjustSettingsViewController::_DidActivate_b__10_7)> {
+    &::GlobalNamespace::RoomAdjustSettingsViewController::_DidActivate_b__9_7)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2566dd4;
+  constexpr static std::size_t addrs = 0x26621e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RoomAdjustSettingsViewController*>::get(),
-                                                                               "<DidActivate>b__10_7", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                               "<DidActivate>b__9_7", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::RoomAdjustSettingsViewController._DidActivate_b__10_8
+//  Writing Method size for method: ::GlobalNamespace::RoomAdjustSettingsViewController._DidActivate_b__9_8
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RoomAdjustSettingsViewController::*)()>(
-    &::GlobalNamespace::RoomAdjustSettingsViewController::_DidActivate_b__10_8)> {
+    &::GlobalNamespace::RoomAdjustSettingsViewController::_DidActivate_b__9_8)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2566ddc;
+  constexpr static std::size_t addrs = 0x26621ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RoomAdjustSettingsViewController*>::get(),
-                                                                               "<DidActivate>b__10_8", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                               "<DidActivate>b__9_8", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::GlobalNamespace::Vector3SO>& GlobalNamespace::RoomAdjustSettingsViewController::__cordl_internal_get__roomCenter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____roomCenter;
-}
-constexpr ::UnityW<::GlobalNamespace::Vector3SO> const& GlobalNamespace::RoomAdjustSettingsViewController::__cordl_internal_get__roomCenter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____roomCenter;
-}
-constexpr void GlobalNamespace::RoomAdjustSettingsViewController::__cordl_internal_set__roomCenter(::UnityW<::GlobalNamespace::Vector3SO> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____roomCenter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::UnityW<::GlobalNamespace::FloatSO>& GlobalNamespace::RoomAdjustSettingsViewController::__cordl_internal_get__roomRotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____roomRotation;
-}
-constexpr ::UnityW<::GlobalNamespace::FloatSO> const& GlobalNamespace::RoomAdjustSettingsViewController::__cordl_internal_get__roomRotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____roomRotation;
-}
-constexpr void GlobalNamespace::RoomAdjustSettingsViewController::__cordl_internal_set__roomRotation(::UnityW<::GlobalNamespace::FloatSO> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____roomRotation)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
 constexpr ::UnityW<::GlobalNamespace::StepValuePicker>& GlobalNamespace::RoomAdjustSettingsViewController::__cordl_internal_get__xStepValuePicker() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____xStepValuePicker;
@@ -320,6 +295,19 @@ constexpr void GlobalNamespace::RoomAdjustSettingsViewController::__cordl_intern
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____resetButton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
+constexpr ::BeatSaber::GameSettings::MainSettingsHandler*& GlobalNamespace::RoomAdjustSettingsViewController::__cordl_internal_get__mainSettingsHandler() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____mainSettingsHandler;
+}
+constexpr ::cordl_internals::to_const_pointer<::BeatSaber::GameSettings::MainSettingsHandler*> const&
+GlobalNamespace::RoomAdjustSettingsViewController::__cordl_internal_get__mainSettingsHandler() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____mainSettingsHandler;
+}
+constexpr void GlobalNamespace::RoomAdjustSettingsViewController::__cordl_internal_set__mainSettingsHandler(::BeatSaber::GameSettings::MainSettingsHandler* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mainSettingsHandler)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
 inline void GlobalNamespace::RoomAdjustSettingsViewController::DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RoomAdjustSettingsViewController*>::get(), 5)));
@@ -342,9 +330,9 @@ inline void GlobalNamespace::RoomAdjustSettingsViewController::ResetRoom() {
                                                                              "ResetRoom", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::RoomAdjustSettingsViewController::Refresh() {
+inline void GlobalNamespace::RoomAdjustSettingsViewController::RefreshTexts() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RoomAdjustSettingsViewController*>::get(),
-                                                                             "Refresh", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                             "RefreshTexts", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::RoomAdjustSettingsViewController::RefreshRoomOffsetValuePicker(::GlobalNamespace::StepValuePicker* stepValuePicker, float_t roomOffsetValue) {
@@ -362,49 +350,49 @@ inline void GlobalNamespace::RoomAdjustSettingsViewController::_ctor() {
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::RoomAdjustSettingsViewController::_DidActivate_b__10_0() {
+inline void GlobalNamespace::RoomAdjustSettingsViewController::_DidActivate_b__9_0() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RoomAdjustSettingsViewController*>::get(),
-                                                                             "<DidActivate>b__10_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                             "<DidActivate>b__9_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::RoomAdjustSettingsViewController::_DidActivate_b__10_1() {
+inline void GlobalNamespace::RoomAdjustSettingsViewController::_DidActivate_b__9_1() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RoomAdjustSettingsViewController*>::get(),
-                                                                             "<DidActivate>b__10_1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                             "<DidActivate>b__9_1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::RoomAdjustSettingsViewController::_DidActivate_b__10_2() {
+inline void GlobalNamespace::RoomAdjustSettingsViewController::_DidActivate_b__9_2() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RoomAdjustSettingsViewController*>::get(),
-                                                                             "<DidActivate>b__10_2", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                             "<DidActivate>b__9_2", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::RoomAdjustSettingsViewController::_DidActivate_b__10_3() {
+inline void GlobalNamespace::RoomAdjustSettingsViewController::_DidActivate_b__9_3() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RoomAdjustSettingsViewController*>::get(),
-                                                                             "<DidActivate>b__10_3", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                             "<DidActivate>b__9_3", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::RoomAdjustSettingsViewController::_DidActivate_b__10_4() {
+inline void GlobalNamespace::RoomAdjustSettingsViewController::_DidActivate_b__9_4() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RoomAdjustSettingsViewController*>::get(),
-                                                                             "<DidActivate>b__10_4", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                             "<DidActivate>b__9_4", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::RoomAdjustSettingsViewController::_DidActivate_b__10_5() {
+inline void GlobalNamespace::RoomAdjustSettingsViewController::_DidActivate_b__9_5() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RoomAdjustSettingsViewController*>::get(),
-                                                                             "<DidActivate>b__10_5", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                             "<DidActivate>b__9_5", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::RoomAdjustSettingsViewController::_DidActivate_b__10_6() {
+inline void GlobalNamespace::RoomAdjustSettingsViewController::_DidActivate_b__9_6() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RoomAdjustSettingsViewController*>::get(),
-                                                                             "<DidActivate>b__10_6", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                             "<DidActivate>b__9_6", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::RoomAdjustSettingsViewController::_DidActivate_b__10_7() {
+inline void GlobalNamespace::RoomAdjustSettingsViewController::_DidActivate_b__9_7() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RoomAdjustSettingsViewController*>::get(),
-                                                                             "<DidActivate>b__10_7", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                             "<DidActivate>b__9_7", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::RoomAdjustSettingsViewController::_DidActivate_b__10_8() {
+inline void GlobalNamespace::RoomAdjustSettingsViewController::_DidActivate_b__9_8() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RoomAdjustSettingsViewController*>::get(),
-                                                                             "<DidActivate>b__10_8", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                             "<DidActivate>b__9_8", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

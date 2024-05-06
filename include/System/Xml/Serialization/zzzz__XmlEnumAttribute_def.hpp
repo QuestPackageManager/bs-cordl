@@ -27,7 +27,7 @@ public:
   /// @brief Field name, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
 
-  /// @brief Method AddKeyHash, addr 0x2dcf46c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method AddKeyHash, addr 0x2ecdd6c, size 0x7c, virtual false, abstract: false, final false
   inline void AddKeyHash(::System::Text::StringBuilder* sb);
 
   static inline ::System::Xml::Serialization::XmlEnumAttribute* New_ctor(::StringW name);
@@ -38,10 +38,10 @@ public:
 
   constexpr void __cordl_internal_set_name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2dd1240, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ecfb40, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method get_Name, addr 0x2dd1268, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x2ecfb68, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:

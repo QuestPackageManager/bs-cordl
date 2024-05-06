@@ -44,7 +44,7 @@ public:
 
   constexpr void __cordl_internal_set__preferredExtension_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x326683c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x346f578, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW preferredExtension, ::ArrayW<::StringW, ::Array<::StringW>*> otherExtensions);
 
 protected:

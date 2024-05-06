@@ -102,10 +102,10 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method <BevelEdges>b__7, addr 0x30d09c8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method <BevelEdges>b__7, addr 0x32d7450, size 0x3c, virtual false, abstract: false, final false
   inline int32_t _BevelEdges_b__7(int32_t x);
 
-  /// @brief Method <BevelEdges>b__8, addr 0x30d0a04, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method <BevelEdges>b__8, addr 0x32d748c, size 0x3c, virtual false, abstract: false, final false
   inline int32_t _BevelEdges_b__8(int32_t x);
 
   constexpr ::System::Func_2<int32_t, int32_t>*& __cordl_internal_get___9__7();
@@ -133,7 +133,7 @@ public:
 
   constexpr void __cordl_internal_set_sharedIndexes(::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*> value);
 
-  /// @brief Method .ctor, addr 0x30cfaac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32d6534, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -189,7 +189,7 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_1* New_ctor();
 
-  /// @brief Method <BevelEdges>b__4, addr 0x30d0a40, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method <BevelEdges>b__4, addr 0x32d74c8, size 0x3c, virtual false, abstract: false, final false
   inline bool _BevelEdges_b__4(::UnityEngine::ProBuilder::WingedEdge* x);
 
   constexpr ::UnityEngine::ProBuilder::EdgeLookup const& __cordl_internal_get_lup() const;
@@ -198,7 +198,7 @@ public:
 
   constexpr void __cordl_internal_set_lup(::UnityEngine::ProBuilder::EdgeLookup value);
 
-  /// @brief Method .ctor, addr 0x30cfab4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32d653c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -242,7 +242,7 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2* New_ctor();
 
-  /// @brief Method <BevelEdges>b__5, addr 0x30d0a7c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method <BevelEdges>b__5, addr 0x32d7504, size 0x100, virtual false, abstract: false, final false
   inline bool _BevelEdges_b__5(::UnityEngine::ProBuilder::WingedEdge* x);
 
   constexpr ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0*& __cordl_internal_get_CS$__8__locals1();
@@ -257,7 +257,7 @@ public:
 
   constexpr void __cordl_internal_set_c(int32_t value);
 
-  /// @brief Method .ctor, addr 0x30d0740, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32d71c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -319,22 +319,22 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c* New_ctor();
 
-  /// @brief Method <BevelEdges>b__0_0, addr 0x30d0be8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <BevelEdges>b__0_0, addr 0x32d7670, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Face* _BevelEdges_b__0_0(::UnityEngine::ProBuilder::FaceRebuildData* x);
 
-  /// @brief Method <BevelEdges>b__0_1, addr 0x30d0c50, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <BevelEdges>b__0_1, addr 0x32d76d8, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Face* _BevelEdges_b__0_1(::UnityEngine::ProBuilder::FaceRebuildData* x);
 
-  /// @brief Method <BevelEdges>b__0_2, addr 0x30d0c68, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <BevelEdges>b__0_2, addr 0x32d76f0, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Face* _BevelEdges_b__0_2(::UnityEngine::ProBuilder::FaceRebuildData* x);
 
-  /// @brief Method <BevelEdges>b__0_3, addr 0x30d0c80, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <BevelEdges>b__0_3, addr 0x32d7708, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Face* _BevelEdges_b__0_3(::UnityEngine::ProBuilder::FaceRebuildData* x);
 
-  /// @brief Method <BevelEdges>b__0_6, addr 0x30d0c00, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <BevelEdges>b__0_6, addr 0x32d7688, size 0x50, virtual false, abstract: false, final false
   inline int32_t _BevelEdges_b__0_6(::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::FaceRebuildData*, ::System::Collections::Generic::List_1<int32_t>*> x);
 
-  /// @brief Method .ctor, addr 0x30d0be0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32d7668, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c* getStaticF___9();
@@ -402,21 +402,21 @@ public:
   /// @brief Field k_BridgeIndexesTri, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_k_BridgeIndexesTri, put = setStaticF_k_BridgeIndexesTri))::ArrayW<int32_t, ::Array<int32_t>*> k_BridgeIndexesTri;
 
-  /// @brief Method BevelEdges, addr 0x30cd364, size 0x2748, virtual false, abstract: false, final false
+  /// @brief Method BevelEdges, addr 0x32d3dec, size 0x2748, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Face*>* BevelEdges(::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
                                                                                                      ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Edge>* edges, float_t amount);
 
-  /// @brief Method GetBridgeFaces, addr 0x30cfe8c, size 0x8b4, virtual false, abstract: false, final false
+  /// @brief Method GetBridgeFaces, addr 0x32d6914, size 0x8b4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::FaceRebuildData*>* GetBridgeFaces(
       ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* vertices, ::UnityEngine::ProBuilder::WingedEdge* left, ::UnityEngine::ProBuilder::WingedEdge* right,
       ::System::Collections::Generic::Dictionary_2<
           int32_t, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::FaceRebuildData*, ::System::Collections::Generic::List_1<int32_t>*>>*>*
           holes);
 
-  /// @brief Method GetLeadingEdge, addr 0x30d084c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetLeadingEdge, addr 0x32d72d4, size 0xe8, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Edge GetLeadingEdge(::UnityEngine::ProBuilder::WingedEdge* wing, int32_t common);
 
-  /// @brief Method SlideEdge, addr 0x30cfabc, size 0x3d0, virtual false, abstract: false, final false
+  /// @brief Method SlideEdge, addr 0x32d6544, size 0x3d0, virtual false, abstract: false, final false
   static inline void SlideEdge(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* vertices, ::UnityEngine::ProBuilder::WingedEdge* we, float_t amount);
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_k_BridgeIndexesTri();

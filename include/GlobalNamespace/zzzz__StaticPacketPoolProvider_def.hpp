@@ -38,7 +38,7 @@ public:
   /// @brief Method GetPacketPool, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::GlobalNamespace::PacketPool_1<T>* GetPacketPool();
 
-  /// @brief Method TryGetPacketPool, addr 0xfa9570, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method TryGetPacketPool, addr 0x109dc94, size 0x90, virtual false, abstract: false, final false
   static inline bool TryGetPacketPool(::System::Type* t, ByRef<::GlobalNamespace::IPacketPool*> pool);
 
   static inline ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*, ::GlobalNamespace::IPacketPool*>* getStaticF__staticPools();

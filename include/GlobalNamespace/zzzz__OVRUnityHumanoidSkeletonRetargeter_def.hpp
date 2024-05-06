@@ -698,10 +698,10 @@ public:
 
   constexpr void __cordl_internal_set_ToPosition(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x2a07fe8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b04898, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2a073e8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b03c98, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRSkeletonMetadata__BoneData* otherBoneData);
 
 protected:
@@ -790,30 +790,30 @@ public:
   __declspec(property(get = __cordl_internal_get__boneEnumValues,
                       put = __cordl_internal_set__boneEnumValues))::ArrayW<::UnityEngine::HumanBodyBones, ::Array<::UnityEngine::HumanBodyBones>*> _boneEnumValues;
 
-  /// @brief Method AssembleSkeleton, addr 0x2a079ec, size 0x5fc, virtual false, abstract: false, final false
+  /// @brief Method AssembleSkeleton, addr 0x2b0429c, size 0x5fc, virtual false, abstract: false, final false
   inline void AssembleSkeleton(::GlobalNamespace::OVRSkeleton* skeleton, bool useBindPose,
                                ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__OVRSkeleton__BoneId, ::UnityEngine::HumanBodyBones>* customBoneIdToHumanBodyBone);
 
-  /// @brief Method BuildBoneData, addr 0x2a0746c, size 0x580, virtual false, abstract: false, final false
+  /// @brief Method BuildBoneData, addr 0x2b03d1c, size 0x580, virtual false, abstract: false, final false
   inline void BuildBoneData(::UnityEngine::Animator* animator);
 
-  /// @brief Method BuildBoneDataSkeleton, addr 0x2a04c98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method BuildBoneDataSkeleton, addr 0x2b01548, size 0x8, virtual false, abstract: false, final false
   inline void BuildBoneDataSkeleton(::GlobalNamespace::OVRSkeleton* skeleton, bool useBindPose,
                                     ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__OVRSkeleton__BoneId, ::UnityEngine::HumanBodyBones>* customBoneIdToHumanBodyBone);
 
-  /// @brief Method BuildCoordinateAxesForAllBones, addr 0x2a033bc, size 0x4ec, virtual false, abstract: false, final false
+  /// @brief Method BuildCoordinateAxesForAllBones, addr 0x2affc6c, size 0x4ec, virtual false, abstract: false, final false
   inline void BuildCoordinateAxesForAllBones();
 
-  /// @brief Method CreateQuaternionForBoneData, addr 0x2a0846c, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method CreateQuaternionForBoneData, addr 0x2b04d1c, size 0x17c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion CreateQuaternionForBoneData(::UnityEngine::Vector3 fromPosition, ::UnityEngine::Vector3 toPosition);
 
-  /// @brief Method CreateQuaternionForBoneDataWithRightVec, addr 0x2a082ac, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method CreateQuaternionForBoneDataWithRightVec, addr 0x2b04b5c, size 0x1c0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion CreateQuaternionForBoneDataWithRightVec(::UnityEngine::Vector3 fromPosition, ::UnityEngine::Vector3 toPosition, ::UnityEngine::Vector3 rightVector);
 
-  /// @brief Method FindBoneWithBoneId, addr 0x2a07ff0, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method FindBoneWithBoneId, addr 0x2b048a0, size 0x1ac, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRBone* FindBoneWithBoneId(::System::Collections::Generic::IList_1<::GlobalNamespace::OVRBone*>* bones, ::GlobalNamespace::__OVRSkeleton__BoneId boneId);
 
-  /// @brief Method FindFirstChild, addr 0x2a0819c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method FindFirstChild, addr 0x2b04a4c, size 0x110, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Transform> FindFirstChild(::UnityEngine::Transform* startTransform, ::UnityEngine::Transform* currTransform);
 
   static inline ::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRSkeletonMetadata* New_ctor(::UnityEngine::Animator* animator);
@@ -841,17 +841,17 @@ public:
 
   constexpr void __cordl_internal_set__boneEnumValues(::ArrayW<::UnityEngine::HumanBodyBones, ::Array<::UnityEngine::HumanBodyBones>*> value);
 
-  /// @brief Method .ctor, addr 0x2a0324c, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2affafc, size 0x170, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Animator* animator);
 
-  /// @brief Method .ctor, addr 0x2a07084, size 0x364, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b03934, size 0x364, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRSkeletonMetadata* otherSkeletonMetaData);
 
-  /// @brief Method .ctor, addr 0x2a04b10, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b013c0, size 0x188, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::OVRSkeleton* skeleton, bool useBindPose,
                     ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__OVRSkeleton__BoneId, ::UnityEngine::HumanBodyBones>* customBoneIdToHumanBodyBone);
 
-  /// @brief Method get_BodyToBoneData, addr 0x2a0707c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BodyToBoneData, addr 0x2b0392c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::HumanBodyBones, ::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRSkeletonMetadata__BoneData*>* get_BodyToBoneData();
 
 protected:
@@ -941,7 +941,7 @@ public:
 
   constexpr void __cordl_internal_set_RotationChange(::UnityEngine::Quaternion value);
 
-  /// @brief Method .ctor, addr 0x2a02ef0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aff7a0, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1069,25 +1069,25 @@ public:
   __declspec(property(get = __cordl_internal_get__targetTPoseRotations,
                       put = __cordl_internal_set__targetTPoseRotations))::System::Collections::Generic::Dictionary_2<::UnityEngine::HumanBodyBones, ::UnityEngine::Quaternion>* _targetTPoseRotations;
 
-  /// @brief Method AdjustCustomBoneIdToHumanBodyBoneMapping, addr 0x2a03a80, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method AdjustCustomBoneIdToHumanBodyBoneMapping, addr 0x2b00330, size 0xc4, virtual false, abstract: false, final false
   inline void AdjustCustomBoneIdToHumanBodyBoneMapping();
 
-  /// @brief Method AlignTargetWithSource, addr 0x2a03d54, size 0x6d8, virtual false, abstract: false, final false
+  /// @brief Method AlignTargetWithSource, addr 0x2b00604, size 0x6d8, virtual false, abstract: false, final false
   inline void AlignTargetWithSource();
 
-  /// @brief Method ComputeOffsetsUsingSkeletonComponent, addr 0x2a0442c, size 0x6e4, virtual false, abstract: false, final false
+  /// @brief Method ComputeOffsetsUsingSkeletonComponent, addr 0x2b00cdc, size 0x6e4, virtual false, abstract: false, final false
   inline void ComputeOffsetsUsingSkeletonComponent();
 
-  /// @brief Method CopyBoneIdToHumanBodyBoneMapping, addr 0x2a038a8, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method CopyBoneIdToHumanBodyBoneMapping, addr 0x2b00158, size 0x1d8, virtual false, abstract: false, final false
   inline void CopyBoneIdToHumanBodyBoneMapping();
 
-  /// @brief Method CreateCustomBoneIdToHumanBodyBoneMapping, addr 0x2a03114, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method CreateCustomBoneIdToHumanBodyBoneMapping, addr 0x2aff9c4, size 0x18, virtual false, abstract: false, final false
   inline void CreateCustomBoneIdToHumanBodyBoneMapping();
 
-  /// @brief Method FindAdjustment, addr 0x2a04cec, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method FindAdjustment, addr 0x2b0159c, size 0x50, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__JointAdjustment* FindAdjustment(::UnityEngine::HumanBodyBones boneId);
 
-  /// @brief Method IsBodySectionInArray, addr 0x2a04ca0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method IsBodySectionInArray, addr 0x2b01550, size 0x4c, virtual false, abstract: false, final false
   static inline bool IsBodySectionInArray(::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRHumanBodyBonesMappings__BodySection bodySectionToCheck,
                                           ::ArrayW<::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRHumanBodyBonesMappings__BodySection,
                                                    ::Array<::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRHumanBodyBonesMappings__BodySection>*>
@@ -1095,22 +1095,22 @@ public:
 
   static inline ::GlobalNamespace::OVRUnityHumanoidSkeletonRetargeter* New_ctor();
 
-  /// @brief Method RecomputeSkeletalOffsetsIfNecessary, addr 0x2a03d3c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method RecomputeSkeletalOffsetsIfNecessary, addr 0x2b005ec, size 0x18, virtual false, abstract: false, final false
   inline void RecomputeSkeletalOffsetsIfNecessary();
 
-  /// @brief Method RemoveMappingCorrespondingToHumanBodyBone, addr 0x2a03b44, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method RemoveMappingCorrespondingToHumanBodyBone, addr 0x2b003f4, size 0x1c4, virtual false, abstract: false, final false
   inline void RemoveMappingCorrespondingToHumanBodyBone(::UnityEngine::HumanBodyBones boneId);
 
-  /// @brief Method Start, addr 0x2a02f68, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x2aff818, size 0xcc, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StoreTTargetPoseRotations, addr 0x2a0312c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method StoreTTargetPoseRotations, addr 0x2aff9dc, size 0x120, virtual false, abstract: false, final false
   inline void StoreTTargetPoseRotations();
 
-  /// @brief Method Update, addr 0x2a03d08, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x2b005b8, size 0x34, virtual true, abstract: false, final false
   inline void Update();
 
-  /// @brief Method ValidateGameObjectForUnityHumanoidRetargeting, addr 0x2a03034, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method ValidateGameObjectForUnityHumanoidRetargeting, addr 0x2aff8e4, size 0xe0, virtual false, abstract: false, final false
   static inline void ValidateGameObjectForUnityHumanoidRetargeting(::UnityEngine::GameObject* go);
 
   constexpr ::ArrayW<::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__JointAdjustment*, ::Array<::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__JointAdjustment*>*> const&
@@ -1190,38 +1190,38 @@ public:
 
   constexpr void __cordl_internal_set__targetTPoseRotations(::System::Collections::Generic::Dictionary_2<::UnityEngine::HumanBodyBones, ::UnityEngine::Quaternion>* value);
 
-  /// @brief Method .ctor, addr 0x2a02cec, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aff59c, size 0x204, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Adjustments, addr 0x2a02f50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Adjustments, addr 0x2aff800, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__JointAdjustment*, ::Array<::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__JointAdjustment*>*> get_Adjustments();
 
-  /// @brief Method get_AnimatorTargetSkeleton, addr 0x2a02cd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AnimatorTargetSkeleton, addr 0x2aff584, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Animator> get_AnimatorTargetSkeleton();
 
-  /// @brief Method get_BodySectionToPosition, addr 0x2a02f60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BodySectionToPosition, addr 0x2aff810, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRHumanBodyBonesMappings__BodySection,
                   ::Array<::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRHumanBodyBonesMappings__BodySection>*>
   get_BodySectionToPosition();
 
-  /// @brief Method get_BodySectionsToAlign, addr 0x2a02f58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BodySectionsToAlign, addr 0x2aff808, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRHumanBodyBonesMappings__BodySection,
                   ::Array<::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRHumanBodyBonesMappings__BodySection>*>
   get_BodySectionsToAlign();
 
-  /// @brief Method get_CustomBoneIdToHumanBodyBone, addr 0x2a02cdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CustomBoneIdToHumanBodyBone, addr 0x2aff58c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__OVRSkeleton__BoneId, ::UnityEngine::HumanBodyBones>* get_CustomBoneIdToHumanBodyBone();
 
-  /// @brief Method get_SourceSkeletonData, addr 0x2a02cbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SourceSkeletonData, addr 0x2aff56c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRSkeletonMetadata* get_SourceSkeletonData();
 
-  /// @brief Method get_SourceSkeletonTPoseData, addr 0x2a02cc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SourceSkeletonTPoseData, addr 0x2aff574, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRSkeletonMetadata* get_SourceSkeletonTPoseData();
 
-  /// @brief Method get_TargetSkeletonData, addr 0x2a02ccc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TargetSkeletonData, addr 0x2aff57c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRSkeletonMetadata* get_TargetSkeletonData();
 
-  /// @brief Method get_TargetTPoseRotations, addr 0x2a02ce4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TargetTPoseRotations, addr 0x2aff594, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::HumanBodyBones, ::UnityEngine::Quaternion>* get_TargetTPoseRotations();
 
 protected:

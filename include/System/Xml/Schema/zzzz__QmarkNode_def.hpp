@@ -24,16 +24,16 @@ public:
   // Declarations
   __declspec(property(get = get_IsNullable)) bool IsNullable;
 
-  /// @brief Method ConstructPos, addr 0x2dfbe34, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ConstructPos, addr 0x2efa734, size 0x20, virtual true, abstract: false, final false
   inline void ConstructPos(::System::Xml::Schema::BitSet* firstpos, ::System::Xml::Schema::BitSet* lastpos,
                            ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*> followpos);
 
   static inline ::System::Xml::Schema::QmarkNode* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2dfbe5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2efa75c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsNullable, addr 0x2dfbe54, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsNullable, addr 0x2efa754, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsNullable();
 
 protected:

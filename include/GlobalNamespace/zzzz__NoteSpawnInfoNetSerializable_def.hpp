@@ -112,10 +112,10 @@ public:
   /// @brief Field timeToPrevColorNote, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get_timeToPrevColorNote, put = __cordl_internal_set_timeToPrevColorNote)) float_t timeToPrevColorNote;
 
-  /// @brief Method Deserialize, addr 0x14140f8, size 0x1b4, virtual true, abstract: false, final false
+  /// @brief Method Deserialize, addr 0x1505748, size 0x1b4, virtual true, abstract: false, final false
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Init, addr 0x1413dbc, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x150540c, size 0x140, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteSpawnInfoNetSerializable* Init(float_t time, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer,
                                                                ::GlobalNamespace::NoteLineLayer beforeJumpNoteLineLayer, ::GlobalNamespace::__NoteData__GameplayType gameplayType,
                                                                ::GlobalNamespace::__NoteData__ScoringType scoringType, ::GlobalNamespace::ColorType colorType,
@@ -126,10 +126,10 @@ public:
 
   static inline ::GlobalNamespace::NoteSpawnInfoNetSerializable* New_ctor();
 
-  /// @brief Method Obtain, addr 0x1413d58, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Obtain, addr 0x15053a8, size 0x64, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::NoteSpawnInfoNetSerializable* Obtain();
 
-  /// @brief Method Serialize, addr 0x1413f54, size 0x1a4, virtual true, abstract: false, final false
+  /// @brief Method Serialize, addr 0x15055a4, size 0x1a4, virtual true, abstract: false, final false
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   constexpr ::GlobalNamespace::NoteLineLayer const& __cordl_internal_get_beforeJumpNoteLineLayer() const;
@@ -258,7 +258,7 @@ public:
 
   constexpr void __cordl_internal_set_timeToPrevColorNote(float_t value);
 
-  /// @brief Method .ctor, addr 0x1413efc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x150554c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

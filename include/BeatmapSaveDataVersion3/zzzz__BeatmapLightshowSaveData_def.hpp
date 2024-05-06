@@ -120,10 +120,10 @@ public:
 
   constexpr void __cordl_internal_set_vfxEventBoxGroups(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::FxEventBoxGroup*>* value);
 
-  /// @brief Method .ctor, addr 0x140009c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14f1660, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isEmpty, addr 0x13fffb4, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method get_isEmpty, addr 0x14f1578, size 0xe8, virtual false, abstract: false, final false
   inline bool get_isEmpty();
 
 protected:

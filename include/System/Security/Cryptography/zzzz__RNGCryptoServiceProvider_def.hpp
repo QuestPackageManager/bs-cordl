@@ -30,30 +30,30 @@ public:
   /// @brief Field _lock, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__lock, put = setStaticF__lock))::System::Object* _lock;
 
-  /// @brief Method Check, addr 0x26f62a4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Check, addr 0x27f36a0, size 0xb4, virtual false, abstract: false, final false
   inline void Check();
 
-  /// @brief Method Dispose, addr 0x26f6694, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x27f3a90, size 0xc, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Finalize, addr 0x26f657c, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x27f3978, size 0x118, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method GetBytes, addr 0x26f6360, size 0x21c, virtual true, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x27f375c, size 0x21c, virtual true, abstract: false, final false
   inline void GetBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   static inline ::System::Security::Cryptography::RNGCryptoServiceProvider* New_ctor();
 
-  /// @brief Method RngClose, addr 0x26f635c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RngClose, addr 0x27f3758, size 0x4, virtual false, abstract: false, final false
   static inline void RngClose(void* handle);
 
-  /// @brief Method RngGetBytes, addr 0x26f6358, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RngGetBytes, addr 0x27f3754, size 0x4, virtual false, abstract: false, final false
   static inline void* RngGetBytes(void* handle, ::cordl_internals::Ptr<uint8_t> data, void* data_length);
 
-  /// @brief Method RngInitialize, addr 0x26f62a0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RngInitialize, addr 0x27f369c, size 0x4, virtual false, abstract: false, final false
   static inline void* RngInitialize(::cordl_internals::Ptr<uint8_t> seed, void* seed_length);
 
-  /// @brief Method RngOpen, addr 0x26f6204, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RngOpen, addr 0x27f3600, size 0x4, virtual false, abstract: false, final false
   static inline bool RngOpen();
 
   constexpr void* const& __cordl_internal_get__handle() const;
@@ -62,7 +62,7 @@ public:
 
   constexpr void __cordl_internal_set__handle(void* value);
 
-  /// @brief Method .ctor, addr 0x26f6208, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27f3604, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Object* getStaticF__lock();

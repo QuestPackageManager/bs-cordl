@@ -26,10 +26,10 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus* New_ctor(int32_t value);
 
-  /// @brief Method .ctor, addr 0x10ec5fc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11dfd20, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerEnumerated* value);
 
-  /// @brief Method .ctor, addr 0x10ed150, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11e0874, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(int32_t value);
 
 protected:

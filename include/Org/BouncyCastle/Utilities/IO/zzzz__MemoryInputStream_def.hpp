@@ -24,10 +24,10 @@ public:
 
   static inline ::Org::BouncyCastle::Utilities::IO::MemoryInputStream* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer);
 
-  /// @brief Method .ctor, addr 0x12cfc64, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13c1388, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer);
 
-  /// @brief Method get_CanWrite, addr 0x12cfc70, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_CanWrite, addr 0x13c1394, size 0x8, virtual true, abstract: false, final true
   inline bool get_CanWrite();
 
 protected:

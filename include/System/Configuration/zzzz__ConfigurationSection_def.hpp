@@ -28,16 +28,16 @@ namespace System::Configuration {
 class CORDL_TYPE ConfigurationSection : public ::System::Configuration::ConfigurationElement {
 public:
   // Declarations
-  /// @brief Method DeserializeSection, addr 0x2add4e0, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method DeserializeSection, addr 0x2bd9ac0, size 0x38, virtual true, abstract: false, final false
   inline void DeserializeSection(::System::Xml::XmlReader* reader);
 
-  /// @brief Method IsModified, addr 0x2add518, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method IsModified, addr 0x2bd9af8, size 0x38, virtual true, abstract: false, final false
   inline bool IsModified();
 
-  /// @brief Method ResetModified, addr 0x2add550, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method ResetModified, addr 0x2bd9b30, size 0x38, virtual true, abstract: false, final false
   inline void ResetModified();
 
-  /// @brief Method SerializeSection, addr 0x2add588, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method SerializeSection, addr 0x2bd9b68, size 0x38, virtual true, abstract: false, final false
   inline ::StringW SerializeSection(::System::Configuration::ConfigurationElement* parentElement, ::StringW name, ::System::Configuration::ConfigurationSaveMode saveMode);
 
 protected:

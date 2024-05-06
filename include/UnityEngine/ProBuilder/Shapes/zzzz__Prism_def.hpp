@@ -33,15 +33,15 @@ namespace UnityEngine::ProBuilder::Shapes {
 class CORDL_TYPE Prism : public ::UnityEngine::ProBuilder::Shapes::Shape {
 public:
   // Declarations
-  /// @brief Method CopyShape, addr 0x30bccc8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method CopyShape, addr 0x32c3750, size 0x4, virtual true, abstract: false, final false
   inline void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* shape);
 
   static inline ::UnityEngine::ProBuilder::Shapes::Prism* New_ctor();
 
-  /// @brief Method RebuildMesh, addr 0x30bcccc, size 0x814, virtual true, abstract: false, final false
+  /// @brief Method RebuildMesh, addr 0x32c3754, size 0x814, virtual true, abstract: false, final false
   inline ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method .ctor, addr 0x30bd4e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32c3f68, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

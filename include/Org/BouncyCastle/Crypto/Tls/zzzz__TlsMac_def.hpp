@@ -51,20 +51,20 @@ public:
   /// @brief Field secret, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_secret, put = __cordl_internal_set_secret))::ArrayW<uint8_t, ::Array<uint8_t>*> secret;
 
-  /// @brief Method CalculateMac, addr 0x111a5fc, size 0x2f4, virtual true, abstract: false, final false
+  /// @brief Method CalculateMac, addr 0x120dd20, size 0x2f4, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CalculateMac(int64_t seqNo, uint8_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> message, int32_t offset, int32_t length);
 
-  /// @brief Method CalculateMacConstantTime, addr 0x111aac4, size 0x284, virtual true, abstract: false, final false
+  /// @brief Method CalculateMacConstantTime, addr 0x120e1e8, size 0x284, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CalculateMacConstantTime(int64_t seqNo, uint8_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> message, int32_t offset, int32_t length, int32_t fullLength,
                                                                        ::ArrayW<uint8_t, ::Array<uint8_t>*> dummyData);
 
-  /// @brief Method GetDigestBlockCount, addr 0x111ad48, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method GetDigestBlockCount, addr 0x120e46c, size 0x10, virtual true, abstract: false, final false
   inline int32_t GetDigestBlockCount(int32_t inputLength);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsMac* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::IDigest* digest,
                                                                    ::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t keyOff, int32_t keyLen);
 
-  /// @brief Method Truncate, addr 0x111ad58, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Truncate, addr 0x120e47c, size 0x88, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Truncate(::ArrayW<uint8_t, ::Array<uint8_t>*> bs);
 
   constexpr ::Org::BouncyCastle::Crypto::Tls::TlsContext*& __cordl_internal_get_context();
@@ -103,13 +103,13 @@ public:
 
   constexpr void __cordl_internal_set_secret(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x111a13c, size 0x404, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x120d860, size 0x404, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::IDigest* digest, ::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t keyOff, int32_t keyLen);
 
-  /// @brief Method get_MacSecret, addr 0x111a5ec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_MacSecret, addr 0x120dd10, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_MacSecret();
 
-  /// @brief Method get_Size, addr 0x111a5f4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Size, addr 0x120dd18, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Size();
 
 protected:

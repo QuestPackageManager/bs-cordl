@@ -70,15 +70,15 @@ public:
 
   __declspec(property(get = get_velocity, put = set_velocity))::UnityEngine::InputSystem::Controls::Vector3Control* velocity;
 
-  /// @brief Method FinishSetup, addr 0x2ff8cd4, size 0x194, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x3135a60, size 0x194, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::InputSystem::XR::PoseControl* New_ctor();
 
-  /// @brief Method ReadUnprocessedValueFromState, addr 0x2ff8e68, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method ReadUnprocessedValueFromState, addr 0x3135bf4, size 0x174, virtual true, abstract: false, final false
   inline ::UnityEngine::InputSystem::XR::PoseState ReadUnprocessedValueFromState(::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method WriteValueIntoState, addr 0x2ff8fdc, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method WriteValueIntoState, addr 0x3135d68, size 0x128, virtual true, abstract: false, final false
   inline void WriteValueIntoState(::UnityEngine::InputSystem::XR::PoseState value, ::cordl_internals::Ptr<void> statePtr);
 
   constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __cordl_internal_get__angularVelocity_k__BackingField();
@@ -117,43 +117,43 @@ public:
 
   constexpr void __cordl_internal_set__velocity_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method .ctor, addr 0x2ff8c58, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31359e4, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_angularVelocity, addr 0x2ff8c48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_angularVelocity, addr 0x31359d4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_angularVelocity();
 
-  /// @brief Method get_isTracked, addr 0x2ff8bf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isTracked, addr 0x3135984, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_isTracked();
 
-  /// @brief Method get_position, addr 0x2ff8c18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_position, addr 0x31359a4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_position();
 
-  /// @brief Method get_rotation, addr 0x2ff8c28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotation, addr 0x31359b4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::QuaternionControl* get_rotation();
 
-  /// @brief Method get_trackingState, addr 0x2ff8c08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_trackingState, addr 0x3135994, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::IntegerControl* get_trackingState();
 
-  /// @brief Method get_velocity, addr 0x2ff8c38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_velocity, addr 0x31359c4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_velocity();
 
-  /// @brief Method set_angularVelocity, addr 0x2ff8c50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_angularVelocity, addr 0x31359dc, size 0x8, virtual false, abstract: false, final false
   inline void set_angularVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method set_isTracked, addr 0x2ff8c00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isTracked, addr 0x313598c, size 0x8, virtual false, abstract: false, final false
   inline void set_isTracked(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_position, addr 0x2ff8c20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_position, addr 0x31359ac, size 0x8, virtual false, abstract: false, final false
   inline void set_position(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method set_rotation, addr 0x2ff8c30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rotation, addr 0x31359bc, size 0x8, virtual false, abstract: false, final false
   inline void set_rotation(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
-  /// @brief Method set_trackingState, addr 0x2ff8c10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_trackingState, addr 0x313599c, size 0x8, virtual false, abstract: false, final false
   inline void set_trackingState(::UnityEngine::InputSystem::Controls::IntegerControl* value);
 
-  /// @brief Method set_velocity, addr 0x2ff8c40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_velocity, addr 0x31359cc, size 0x8, virtual false, abstract: false, final false
   inline void set_velocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
 protected:

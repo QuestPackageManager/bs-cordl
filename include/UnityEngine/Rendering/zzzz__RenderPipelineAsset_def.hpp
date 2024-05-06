@@ -72,78 +72,78 @@ public:
   /// @brief Method CreatePipeline, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Rendering::RenderPipeline* CreatePipeline();
 
-  /// @brief Method InternalCreatePipeline, addr 0x32246b8, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method InternalCreatePipeline, addr 0x342b3f4, size 0x2f8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::RenderPipeline* InternalCreatePipeline();
 
   static inline ::UnityEngine::Rendering::RenderPipelineAsset* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3224e4c, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x342bb88, size 0x4c, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnValidate, addr 0x3224d90, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x342bacc, size 0xbc, virtual true, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method .ctor, addr 0x3224e98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x342bbd4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_autodeskInteractiveMaskedShader, addr 0x3224d18, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_autodeskInteractiveMaskedShader, addr 0x342ba54, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_autodeskInteractiveMaskedShader();
 
-  /// @brief Method get_autodeskInteractiveShader, addr 0x3224d08, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_autodeskInteractiveShader, addr 0x342ba44, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_autodeskInteractiveShader();
 
-  /// @brief Method get_autodeskInteractiveTransparentShader, addr 0x3224d10, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_autodeskInteractiveTransparentShader, addr 0x342ba4c, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_autodeskInteractiveTransparentShader();
 
-  /// @brief Method get_default2DMaskMaterial, addr 0x3224d70, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_default2DMaskMaterial, addr 0x342baac, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_default2DMaskMaterial();
 
-  /// @brief Method get_default2DMaterial, addr 0x3224d68, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_default2DMaterial, addr 0x342baa4, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_default2DMaterial();
 
-  /// @brief Method get_defaultLineMaterial, addr 0x3224d40, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_defaultLineMaterial, addr 0x342ba7c, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_defaultLineMaterial();
 
-  /// @brief Method get_defaultMaterial, addr 0x3224d00, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_defaultMaterial, addr 0x342ba3c, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_defaultMaterial();
 
-  /// @brief Method get_defaultParticleMaterial, addr 0x3224d38, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_defaultParticleMaterial, addr 0x342ba74, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_defaultParticleMaterial();
 
-  /// @brief Method get_defaultShader, addr 0x3224d78, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_defaultShader, addr 0x342bab4, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_defaultShader();
 
-  /// @brief Method get_defaultSpeedTree7Shader, addr 0x3224d80, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_defaultSpeedTree7Shader, addr 0x342babc, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_defaultSpeedTree7Shader();
 
-  /// @brief Method get_defaultSpeedTree8Shader, addr 0x3224d88, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_defaultSpeedTree8Shader, addr 0x342bac4, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_defaultSpeedTree8Shader();
 
-  /// @brief Method get_defaultTerrainMaterial, addr 0x3224d48, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_defaultTerrainMaterial, addr 0x342ba84, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_defaultTerrainMaterial();
 
-  /// @brief Method get_defaultUIETC1SupportedMaterial, addr 0x3224d60, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_defaultUIETC1SupportedMaterial, addr 0x342ba9c, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_defaultUIETC1SupportedMaterial();
 
-  /// @brief Method get_defaultUIMaterial, addr 0x3224d50, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_defaultUIMaterial, addr 0x342ba8c, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_defaultUIMaterial();
 
-  /// @brief Method get_defaultUIOverdrawMaterial, addr 0x3224d58, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_defaultUIOverdrawMaterial, addr 0x342ba94, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_defaultUIOverdrawMaterial();
 
-  /// @brief Method get_prefixedRenderingLayerMaskNames, addr 0x3224cf8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_prefixedRenderingLayerMaskNames, addr 0x342ba34, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_prefixedRenderingLayerMaskNames();
 
-  /// @brief Method get_renderingLayerMaskNames, addr 0x3224cf0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_renderingLayerMaskNames, addr 0x342ba2c, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_renderingLayerMaskNames();
 
-  /// @brief Method get_terrainDetailGrassBillboardShader, addr 0x3224d30, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_terrainDetailGrassBillboardShader, addr 0x342ba6c, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_terrainDetailGrassBillboardShader();
 
-  /// @brief Method get_terrainDetailGrassShader, addr 0x3224d28, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_terrainDetailGrassShader, addr 0x342ba64, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_terrainDetailGrassShader();
 
-  /// @brief Method get_terrainDetailLitShader, addr 0x3224d20, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_terrainDetailLitShader, addr 0x342ba5c, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_terrainDetailLitShader();
 
 protected:

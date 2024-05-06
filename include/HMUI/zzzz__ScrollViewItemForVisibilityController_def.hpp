@@ -22,12 +22,12 @@ namespace HMUI {
 class CORDL_TYPE ScrollViewItemForVisibilityController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Method GetWorldCorners, addr 0x242e0a0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetWorldCorners, addr 0x2528d2c, size 0x68, virtual false, abstract: false, final false
   inline void GetWorldCorners(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> fourCornersArray);
 
   static inline ::HMUI::ScrollViewItemForVisibilityController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x242e108, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2528d94, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

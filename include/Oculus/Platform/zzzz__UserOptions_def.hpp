@@ -29,21 +29,21 @@ public:
   /// @brief Field Handle, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_Handle, put = __cordl_internal_set_Handle)) void* Handle;
 
-  /// @brief Method AddServiceProvider, addr 0x29d92bc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method AddServiceProvider, addr 0x2ad6b6c, size 0x68, virtual false, abstract: false, final false
   inline void AddServiceProvider(::Oculus::Platform::ServiceProvider value);
 
-  /// @brief Method ClearServiceProviders, addr 0x29d9b58, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ClearServiceProviders, addr 0x2ad7408, size 0x58, virtual false, abstract: false, final false
   inline void ClearServiceProviders();
 
-  /// @brief Method Finalize, addr 0x29d9c18, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x2ad74c8, size 0xd4, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::Oculus::Platform::UserOptions* New_ctor();
 
-  /// @brief Method SetMaxUsers, addr 0x29d9af0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetMaxUsers, addr 0x2ad73a0, size 0x68, virtual false, abstract: false, final false
   inline void SetMaxUsers(uint32_t value);
 
-  /// @brief Method SetTimeWindow, addr 0x29d9bb0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetTimeWindow, addr 0x2ad7460, size 0x68, virtual false, abstract: false, final false
   inline void SetTimeWindow(::Oculus::Platform::TimeWindow value);
 
   constexpr void* const& __cordl_internal_get_Handle() const;
@@ -52,10 +52,10 @@ public:
 
   constexpr void __cordl_internal_set_Handle(void* value);
 
-  /// @brief Method .ctor, addr 0x29d9258, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ad6b08, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method op_Explicit, addr 0x29d9324, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x2ad6bd4, size 0x58, virtual false, abstract: false, final false
   static inline void* op_Explicit_void_(::Oculus::Platform::UserOptions* options);
 
 protected:

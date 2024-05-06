@@ -22,7 +22,7 @@ namespace Oculus::Platform {
 class CORDL_TYPE DeviceApplicationIntegrity : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetIntegrityToken, addr 0x29d5368, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method GetIntegrityToken, addr 0x2ad2c18, size 0x160, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::StringW>* GetIntegrityToken(::StringW challenge_nonce);
 
 protected:

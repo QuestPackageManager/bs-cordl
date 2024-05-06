@@ -33,10 +33,10 @@ namespace LIV::SDK::Unity {
 struct CORDL_TYPE SDKPose {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x25045a8, size 0x278, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x25fb234, size 0x278, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_empty, addr 0x24fe224, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_empty, addr 0x25f4eb0, size 0x70, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKPose get_empty();
 
   // Ctor Parameters []

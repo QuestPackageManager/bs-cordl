@@ -97,28 +97,28 @@ public:
 
   __declspec(property(get = get_uv, put = set_uv))::UnityEngine::ProBuilder::AutoUnwrapSettings uv;
 
-  /// @brief Method CacheDistinctIndexes, addr 0x3071c44, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method CacheDistinctIndexes, addr 0x32796cc, size 0x74, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> CacheDistinctIndexes();
 
-  /// @brief Method CacheEdges, addr 0x3071d44, size 0x300, virtual false, abstract: false, final false
+  /// @brief Method CacheEdges, addr 0x32797cc, size 0x300, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*> CacheEdges();
 
-  /// @brief Method Contains, addr 0x30724f4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x3279f7c, size 0x94, virtual false, abstract: false, final false
   inline bool Contains(int32_t a, int32_t b, int32_t c);
 
-  /// @brief Method CopyFrom, addr 0x30723b8, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method CopyFrom, addr 0x3279e40, size 0x13c, virtual false, abstract: false, final false
   inline void CopyFrom(::UnityEngine::ProBuilder::Face* other);
 
-  /// @brief Method GetDistinctIndices, addr 0x307302c, size 0x3ec, virtual false, abstract: false, final false
+  /// @brief Method GetDistinctIndices, addr 0x327aab4, size 0x3ec, virtual false, abstract: false, final false
   static inline void GetDistinctIndices(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces, ::System::Collections::Generic::List_1<int32_t>* indices);
 
-  /// @brief Method GetIndices, addr 0x3072c68, size 0x3c4, virtual false, abstract: false, final false
+  /// @brief Method GetIndices, addr 0x327a6f0, size 0x3c4, virtual false, abstract: false, final false
   static inline void GetIndices(::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces, ::System::Collections::Generic::List_1<int32_t>* indices);
 
-  /// @brief Method InvalidateCache, addr 0x3071ab0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InvalidateCache, addr 0x3279538, size 0x8, virtual false, abstract: false, final false
   inline void InvalidateCache();
 
-  /// @brief Method IsQuad, addr 0x3072588, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method IsQuad, addr 0x327a010, size 0x48, virtual false, abstract: false, final false
   inline bool IsQuad();
 
   static inline ::UnityEngine::ProBuilder::Face* New_ctor();
@@ -133,28 +133,28 @@ public:
   static inline ::UnityEngine::ProBuilder::Face* New_ctor(::System::Collections::Generic::IEnumerable_1<int32_t>* triangles, int32_t submeshIndex, ::UnityEngine::ProBuilder::AutoUnwrapSettings u,
                                                           int32_t smoothing, int32_t texture, int32_t element, bool manualUVs);
 
-  /// @brief Method Reverse, addr 0x3072c18, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Reverse, addr 0x327a6a0, size 0x50, virtual false, abstract: false, final false
   inline void Reverse();
 
-  /// @brief Method SetIndexes, addr 0x3071b34, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method SetIndexes, addr 0x32795bc, size 0x110, virtual false, abstract: false, final false
   inline void SetIndexes(::System::Collections::Generic::IEnumerable_1<int32_t>* indices);
 
-  /// @brief Method ShiftIndexes, addr 0x3072b20, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ShiftIndexes, addr 0x327a5a8, size 0x44, virtual false, abstract: false, final false
   inline void ShiftIndexes(int32_t offset);
 
-  /// @brief Method ShiftIndexesToZero, addr 0x3072bb4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ShiftIndexesToZero, addr 0x327a63c, size 0x64, virtual false, abstract: false, final false
   inline void ShiftIndexesToZero();
 
-  /// @brief Method SmallestIndexValue, addr 0x3072b64, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method SmallestIndexValue, addr 0x327a5ec, size 0x50, virtual false, abstract: false, final false
   inline int32_t SmallestIndexValue();
 
-  /// @brief Method ToQuad, addr 0x30725d0, size 0x384, virtual false, abstract: false, final false
+  /// @brief Method ToQuad, addr 0x327a058, size 0x384, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> ToQuad();
 
-  /// @brief Method ToString, addr 0x3072954, size 0x1cc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x327a3dc, size 0x1cc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryGetNextEdge, addr 0x3073418, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method TryGetNextEdge, addr 0x327aea0, size 0x16c, virtual false, abstract: false, final false
   inline bool TryGetNextEdge(::UnityEngine::ProBuilder::Edge source, int32_t index, ByRef<::UnityEngine::ProBuilder::Edge> nextEdge, ByRef<int32_t> nextIndex);
 
   constexpr int32_t const& __cordl_internal_get_elementGroup() const;
@@ -217,81 +217,81 @@ public:
 
   constexpr void __cordl_internal_set_m_Uv(::UnityEngine::ProBuilder::AutoUnwrapSettings value);
 
-  /// @brief Method .ctor, addr 0x3072150, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3279bd8, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x307216c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3279bf4, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<int32_t>* indices);
 
-  /// @brief Method .ctor, addr 0x307238c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3279e14, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ProBuilder::Face* other);
 
-  /// @brief Method .ctor, addr 0x3072210, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3279c98, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<int32_t, ::Array<int32_t>*> triangles, ::UnityEngine::Material* m, ::UnityEngine::ProBuilder::AutoUnwrapSettings u, int32_t smoothing, int32_t texture, int32_t element,
                     bool manualUVs);
 
-  /// @brief Method .ctor, addr 0x30722d0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3279d58, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<int32_t>* triangles, int32_t submeshIndex, ::UnityEngine::ProBuilder::AutoUnwrapSettings u, int32_t smoothing, int32_t texture,
                     int32_t element, bool manualUVs);
 
-  /// @brief Method get_Item, addr 0x3072120, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x3279ba8, size 0x30, virtual false, abstract: false, final false
   inline int32_t get_Item(int32_t i);
 
-  /// @brief Method get_distinctIndexes, addr 0x3071cb8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_distinctIndexes, addr 0x3279740, size 0x8c, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<int32_t>* get_distinctIndexes();
 
-  /// @brief Method get_distinctIndexesInternal, addr 0x3071464, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_distinctIndexesInternal, addr 0x3278eec, size 0x14, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> get_distinctIndexesInternal();
 
-  /// @brief Method get_edges, addr 0x3072044, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_edges, addr 0x3279acc, size 0x8c, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::ProBuilder::Edge>* get_edges();
 
-  /// @brief Method get_edgesInternal, addr 0x30718c0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_edgesInternal, addr 0x3279348, size 0x14, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*> get_edgesInternal();
 
-  /// @brief Method get_indexes, addr 0x3071ab8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_indexes, addr 0x3279540, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<int32_t>* get_indexes();
 
-  /// @brief Method get_indexesInternal, addr 0x30719e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_indexesInternal, addr 0x3279468, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> get_indexesInternal();
 
-  /// @brief Method get_manualUV, addr 0x30719bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_manualUV, addr 0x3279444, size 0x8, virtual false, abstract: false, final false
   inline bool get_manualUV();
 
-  /// @brief Method get_material, addr 0x30720e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_material, addr 0x3279b68, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_material();
 
-  /// @brief Method get_smoothingGroup, addr 0x30720d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_smoothingGroup, addr 0x3279b58, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_smoothingGroup();
 
-  /// @brief Method get_submeshIndex, addr 0x30720f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_submeshIndex, addr 0x3279b78, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_submeshIndex();
 
-  /// @brief Method get_textureGroup, addr 0x30719d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_textureGroup, addr 0x3279458, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_textureGroup();
 
-  /// @brief Method get_uv, addr 0x3072100, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_uv, addr 0x3279b88, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::AutoUnwrapSettings get_uv();
 
-  /// @brief Method set_indexesInternal, addr 0x30719e8, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method set_indexesInternal, addr 0x3279470, size 0xc8, virtual false, abstract: false, final false
   inline void set_indexesInternal(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  /// @brief Method set_manualUV, addr 0x30719c4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_manualUV, addr 0x327944c, size 0xc, virtual false, abstract: false, final false
   inline void set_manualUV(bool value);
 
-  /// @brief Method set_material, addr 0x30720e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_material, addr 0x3279b70, size 0x8, virtual false, abstract: false, final false
   inline void set_material(::UnityEngine::Material* value);
 
-  /// @brief Method set_smoothingGroup, addr 0x30720d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_smoothingGroup, addr 0x3279b60, size 0x8, virtual false, abstract: false, final false
   inline void set_smoothingGroup(int32_t value);
 
-  /// @brief Method set_submeshIndex, addr 0x30720f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_submeshIndex, addr 0x3279b80, size 0x8, virtual false, abstract: false, final false
   inline void set_submeshIndex(int32_t value);
 
-  /// @brief Method set_textureGroup, addr 0x30719d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_textureGroup, addr 0x3279460, size 0x8, virtual false, abstract: false, final false
   inline void set_textureGroup(int32_t value);
 
-  /// @brief Method set_uv, addr 0x3072110, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_uv, addr 0x3279b98, size 0x10, virtual false, abstract: false, final false
   inline void set_uv(::UnityEngine::ProBuilder::AutoUnwrapSettings value);
 
 protected:

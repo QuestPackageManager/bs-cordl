@@ -66,13 +66,13 @@ public:
 
   constexpr void __cordl_internal_set__platformLeaderboardId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x13adc64, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14a3340, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW difficultyBeatmapId, ::StringW platformLeaderboardId);
 
-  /// @brief Method get_difficultyBeatmapId, addr 0x13add14, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_difficultyBeatmapId, addr 0x14a33f0, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_difficultyBeatmapId();
 
-  /// @brief Method get_platformLeaderboardId, addr 0x13add0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_platformLeaderboardId, addr 0x14a33e8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_platformLeaderboardId();
 
   /// @brief Convert to "::GlobalNamespace::ILeaderboardIdData"
@@ -129,10 +129,10 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ILeaderboardIdContainer"
   constexpr operator ::GlobalNamespace::ILeaderboardIdContainer*() noexcept;
 
-  /// @brief Method Add, addr 0x13adb78, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x14a3254, size 0xec, virtual false, abstract: false, final false
   inline void Add(::StringW difficultyBeatmapId, ::StringW platformLeaderboardId);
 
-  /// @brief Method ILeaderboardIdContainer.get_leaderboardIds, addr 0x13adb0c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method ILeaderboardIdContainer.get_leaderboardIds, addr 0x14a31e8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::ILeaderboardIdData*>* ILeaderboardIdContainer_get_leaderboardIds();
 
   static inline ::GlobalNamespace::LeaderboardIdsSO* New_ctor();
@@ -143,16 +143,16 @@ public:
 
   constexpr void __cordl_internal_set__leaderboardIds(::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardIdsSO__LeaderboardIdData*>* value);
 
-  /// @brief Method .ctor, addr 0x13adc90, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14a336c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_leaderboardIds, addr 0x13adb14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leaderboardIds, addr 0x14a31f0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__LeaderboardIdsSO__LeaderboardIdData*>* get_leaderboardIds();
 
   /// @brief Convert to "::GlobalNamespace::ILeaderboardIdContainer"
   constexpr ::GlobalNamespace::ILeaderboardIdContainer* i___GlobalNamespace__ILeaderboardIdContainer() noexcept;
 
-  /// @brief Method set_leaderboardIds, addr 0x13adb1c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_leaderboardIds, addr 0x14a31f8, size 0x5c, virtual false, abstract: false, final false
   inline void set_leaderboardIds(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__LeaderboardIdsSO__LeaderboardIdData*>* value);
 
 protected:

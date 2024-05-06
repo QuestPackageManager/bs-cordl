@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Android::DualShock4GamepadAndroid* New_ctor();
 
-  /// @brief Method .ctor, addr 0x30192dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3155068, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -41,10 +41,10 @@ public:
 
   __declspec(property(get = get_intEventsList))::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion3::IntFxEventBaseData*>* intEventsList;
 
-  /// @brief Method AddEventAndGetIndex, addr 0x1400454, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method AddEventAndGetIndex, addr 0x14f1a18, size 0xc0, virtual false, abstract: false, final false
   inline int32_t AddEventAndGetIndex(::BeatmapSaveDataVersion3::FloatFxEventBaseData* e);
 
-  /// @brief Method AddEventAndGetIndex, addr 0x1400514, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method AddEventAndGetIndex, addr 0x14f1ad8, size 0xc0, virtual false, abstract: false, final false
   inline int32_t AddEventAndGetIndex(::BeatmapSaveDataVersion3::IntFxEventBaseData* e);
 
   static inline ::BeatmapSaveDataVersion3::FxEventsCollection* New_ctor();
@@ -64,17 +64,17 @@ public:
 
   constexpr void __cordl_internal_set__il(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::IntFxEventBaseData*>* value);
 
-  /// @brief Method .ctor, addr 0x14002bc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14f1880, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x140037c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14f1940, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::IntFxEventBaseData*>* intFxEventBaseData,
                     ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::FloatFxEventBaseData*>* floatFxEventBaseData);
 
-  /// @brief Method get_floatEventsList, addr 0x14002b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_floatEventsList, addr 0x14f1878, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion3::FloatFxEventBaseData*>* get_floatEventsList();
 
-  /// @brief Method get_intEventsList, addr 0x14002ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_intEventsList, addr 0x14f1870, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::BeatmapSaveDataVersion3::IntFxEventBaseData*>* get_intEventsList();
 
 protected:

@@ -24,7 +24,7 @@ public:
   // Declarations
   static inline ::Oculus::Platform::Models::ProductList* New_ctor(void* a);
 
-  /// @brief Method .ctor, addr 0x29dfe54, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ade704, size 0x25c, virtual false, abstract: false, final false
   inline void _ctor(void* a);
 
 protected:

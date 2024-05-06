@@ -4,14 +4,14 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(PlaybackHelpers)
+namespace BeatSaber::GameSettings {
+class MainSettingsHandler;
+}
 namespace BeatSaber::RecPlay {
 struct PoseOffsets;
 }
 namespace GlobalNamespace {
 class IVRPlatformHelper;
-}
-namespace GlobalNamespace {
-class MainSettingsModelSO;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -27,8 +27,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE PlaybackHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreatePoseOffsets, addr 0x2597224, size 0x56c, virtual false, abstract: false, final false
-  static inline ::BeatSaber::RecPlay::PoseOffsets CreatePoseOffsets(::GlobalNamespace::MainSettingsModelSO* settings, ::GlobalNamespace::IVRPlatformHelper* vrPlatformHelper);
+  /// @brief Method CreatePoseOffsets, addr 0x26904ac, size 0x560, virtual false, abstract: false, final false
+  static inline ::BeatSaber::RecPlay::PoseOffsets CreatePoseOffsets(::BeatSaber::GameSettings::MainSettingsHandler* mainSettingsHandler, ::GlobalNamespace::IVRPlatformHelper* vrPlatformHelper);
 
 protected:
   // Ctor Parameters []

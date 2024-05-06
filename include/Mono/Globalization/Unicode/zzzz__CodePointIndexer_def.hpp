@@ -28,7 +28,7 @@ namespace Mono::Globalization::Unicode {
 struct CORDL_TYPE __CodePointIndexer__TableRange {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x26962dc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27936d8, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(int32_t start, int32_t end, int32_t indexStart);
 
   // Ctor Parameters []
@@ -101,7 +101,7 @@ public:
   static inline ::Mono::Globalization::Unicode::CodePointIndexer* New_ctor(::ArrayW<int32_t, ::Array<int32_t>*> starts, ::ArrayW<int32_t, ::Array<int32_t>*> ends, int32_t defaultIndex,
                                                                            int32_t defaultCP);
 
-  /// @brief Method ToIndex, addr 0x26962f4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ToIndex, addr 0x27936f0, size 0x84, virtual false, abstract: false, final false
   inline int32_t ToIndex(int32_t cp);
 
   constexpr int32_t const& __cordl_internal_get_TotalCount() const;
@@ -129,7 +129,7 @@ public:
 
   constexpr void __cordl_internal_set_ranges(::ArrayW<::Mono::Globalization::Unicode::__CodePointIndexer__TableRange, ::Array<::Mono::Globalization::Unicode::__CodePointIndexer__TableRange>*> value);
 
-  /// @brief Method .ctor, addr 0x2696188, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2793584, size 0x154, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<int32_t, ::Array<int32_t>*> starts, ::ArrayW<int32_t, ::Array<int32_t>*> ends, int32_t defaultIndex, int32_t defaultCP);
 
 protected:

@@ -58,7 +58,7 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::DrawParams* New_ctor();
 
-  /// @brief Method Reset, addr 0x33239d0, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x352870c, size 0x1cc, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>*& __cordl_internal_get_defaultMaterial();
@@ -85,7 +85,7 @@ public:
 
   constexpr void __cordl_internal_set_view(::System::Collections::Generic::Stack_1<::UnityEngine::Matrix4x4>* value);
 
-  /// @brief Method .ctor, addr 0x331e6d4, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3523410, size 0x158, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rect getStaticF_k_FullNormalizedRect();

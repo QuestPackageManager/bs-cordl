@@ -46,15 +46,15 @@ public:
   /// @brief Field rfc5054_8192, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_rfc5054_8192, put = setStaticF_rfc5054_8192))::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* rfc5054_8192;
 
-  /// @brief Method FromHex, addr 0x1386a34, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method FromHex, addr 0x147c158, size 0xa0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* FromHex(::StringW hex);
 
-  /// @brief Method FromNG, addr 0x1386ad4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method FromNG, addr 0x147c1f8, size 0xb4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* FromNG(::StringW hexN, ::StringW hexG);
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6StandardGroups* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1386d54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x147c478, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* getStaticF_rfc5054_1024();

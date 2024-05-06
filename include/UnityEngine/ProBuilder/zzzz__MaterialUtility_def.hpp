@@ -31,10 +31,10 @@ public:
   /// @brief Field s_MaterialArray, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_MaterialArray, put = setStaticF_s_MaterialArray))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* s_MaterialArray;
 
-  /// @brief Method GetMaterialCount, addr 0x30797f4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetMaterialCount, addr 0x328127c, size 0xd0, virtual false, abstract: false, final false
   static inline int32_t GetMaterialCount(::UnityEngine::Renderer* renderer);
 
-  /// @brief Method GetSharedMaterial, addr 0x30798c4, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method GetSharedMaterial, addr 0x328134c, size 0x140, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> GetSharedMaterial(::UnityEngine::Renderer* renderer, int32_t index);
 
   static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* getStaticF_s_MaterialArray();

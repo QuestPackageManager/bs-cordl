@@ -97,7 +97,7 @@ public:
 
   constexpr void __cordl_internal_set_InjectableInfo(::Zenject::InjectableInfo* value);
 
-  /// @brief Method .ctor, addr 0x34722e0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36762a8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::FieldInfo* fieldInfo, ::Zenject::InjectableInfo* injectableInfo);
 
 protected:
@@ -158,7 +158,7 @@ public:
 
   constexpr void __cordl_internal_set_ParameterInfo(::System::Reflection::ParameterInfo* value);
 
-  /// @brief Method .ctor, addr 0x347230c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36762d4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::ParameterInfo* parameterInfo, ::Zenject::InjectableInfo* injectableInfo);
 
 protected:
@@ -219,7 +219,7 @@ public:
 
   constexpr void __cordl_internal_set_PropertyInfo(::System::Reflection::PropertyInfo* value);
 
-  /// @brief Method .ctor, addr 0x3472338, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3676300, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::PropertyInfo* propertyInfo, ::Zenject::InjectableInfo* injectableInfo);
 
 protected:
@@ -283,7 +283,7 @@ public:
 
   constexpr void __cordl_internal_set_Parameters(::System::Collections::Generic::List_1<::Zenject::Internal::__ReflectionTypeInfo__InjectParameterInfo*>* value);
 
-  /// @brief Method .ctor, addr 0x3472364, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x367632c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MethodInfo* methodInfo, ::System::Collections::Generic::List_1<::Zenject::Internal::__ReflectionTypeInfo__InjectParameterInfo*>* parameters);
 
 protected:
@@ -347,7 +347,7 @@ public:
 
   constexpr void __cordl_internal_set_Parameters(::System::Collections::Generic::List_1<::Zenject::Internal::__ReflectionTypeInfo__InjectParameterInfo*>* value);
 
-  /// @brief Method .ctor, addr 0x3472390, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3676358, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::ConstructorInfo* constructorInfo, ::System::Collections::Generic::List_1<::Zenject::Internal::__ReflectionTypeInfo__InjectParameterInfo*>* parameters);
 
 protected:
@@ -462,7 +462,7 @@ public:
 
   constexpr void __cordl_internal_set_Type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x347228c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3676254, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::System::Type* baseType, ::Zenject::Internal::__ReflectionTypeInfo__InjectConstructorInfo* injectConstructor,
                     ::System::Collections::Generic::List_1<::Zenject::Internal::__ReflectionTypeInfo__InjectMethodInfo*>* injectMethods,
                     ::System::Collections::Generic::List_1<::Zenject::Internal::__ReflectionTypeInfo__InjectFieldInfo*>* injectFields,

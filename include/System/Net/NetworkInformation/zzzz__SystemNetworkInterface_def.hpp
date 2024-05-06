@@ -28,7 +28,7 @@ public:
   /// @brief Field nif, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_nif, put = setStaticF_nif))::System::Net::NetworkInformation::NetworkInterfaceFactory* nif;
 
-  /// @brief Method GetNetworkInterfaces, addr 0x2f21030, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method GetNetworkInterfaces, addr 0x3021930, size 0xfc, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Net::NetworkInformation::NetworkInterface*, ::Array<::System::Net::NetworkInformation::NetworkInterface*>*> GetNetworkInterfaces();
 
   static inline ::System::Net::NetworkInformation::NetworkInterfaceFactory* getStaticF_nif();

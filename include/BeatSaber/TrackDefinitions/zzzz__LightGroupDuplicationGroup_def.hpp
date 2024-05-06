@@ -48,13 +48,13 @@ public:
 
   constexpr void __cordl_internal_set__lightGroups(::ArrayW<::UnityW<::GlobalNamespace::LightGroupSO>, ::Array<::UnityW<::GlobalNamespace::LightGroupSO>>*> value);
 
-  /// @brief Method .ctor, addr 0xf761e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1069790, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_duplicationGroupName, addr 0xf761d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_duplicationGroupName, addr 0x1069780, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_duplicationGroupName();
 
-  /// @brief Method get_lightGroups, addr 0xf761d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightGroups, addr 0x1069788, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::LightGroupSO>, ::Array<::UnityW<::GlobalNamespace::LightGroupSO>>*> get_lightGroups();
 
 protected:

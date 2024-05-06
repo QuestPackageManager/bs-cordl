@@ -43,7 +43,7 @@ public:
   /// @brief Field sigQualifier, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_sigQualifier, put = __cordl_internal_set_sigQualifier))::Org::BouncyCastle::Asn1::Asn1Object* sigQualifier;
 
-  /// @brief Method GetInstance, addr 0x100323c, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x10f6960, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
@@ -51,7 +51,7 @@ public:
   static inline ::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* sigPolicyQualifierId,
                                                                                  ::Org::BouncyCastle::Asn1::Asn1Encodable* sigQualifier);
 
-  /// @brief Method ToAsn1Object, addr 0x10047bc, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x10f7ee0, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_sigPolicyQualifierId();
@@ -66,16 +66,16 @@ public:
 
   constexpr void __cordl_internal_set_sigQualifier(::Org::BouncyCastle::Asn1::Asn1Object* value);
 
-  /// @brief Method .ctor, addr 0x100455c, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10f7c80, size 0x208, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0x1004764, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10f7e88, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* sigPolicyQualifierId, ::Org::BouncyCastle::Asn1::Asn1Encodable* sigQualifier);
 
-  /// @brief Method get_SigPolicyQualifierId, addr 0x10047ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SigPolicyQualifierId, addr 0x10f7ed0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_SigPolicyQualifierId();
 
-  /// @brief Method get_SigQualifier, addr 0x10047b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SigQualifier, addr 0x10f7ed8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* get_SigQualifier();
 
 protected:

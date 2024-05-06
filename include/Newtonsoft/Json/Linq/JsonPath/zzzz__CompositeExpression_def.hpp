@@ -40,7 +40,7 @@ public:
       property(get = __cordl_internal_get__Expressions_k__BackingField,
                put = __cordl_internal_set__Expressions_k__BackingField))::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::QueryExpression*>* _Expressions_k__BackingField;
 
-  /// @brief Method IsMatch, addr 0x298126c, size 0x29c, virtual true, abstract: false, final false
+  /// @brief Method IsMatch, addr 0x2a7eb1c, size 0x29c, virtual true, abstract: false, final false
   inline bool IsMatch(::Newtonsoft::Json::Linq::JToken* root, ::Newtonsoft::Json::Linq::JToken* t, ::Newtonsoft::Json::Linq::JsonSelectSettings* settings);
 
   static inline ::Newtonsoft::Json::Linq::JsonPath::CompositeExpression* New_ctor(::Newtonsoft::Json::Linq::JsonPath::QueryOperator _cordl_operator);
@@ -52,13 +52,13 @@ public:
 
   constexpr void __cordl_internal_set__Expressions_k__BackingField(::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::QueryExpression*>* value);
 
-  /// @brief Method .ctor, addr 0x29809ec, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a7e29c, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::Linq::JsonPath::QueryOperator _cordl_operator);
 
-  /// @brief Method get_Expressions, addr 0x298125c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Expressions, addr 0x2a7eb0c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::QueryExpression*>* get_Expressions();
 
-  /// @brief Method set_Expressions, addr 0x2981264, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Expressions, addr 0x2a7eb14, size 0x8, virtual false, abstract: false, final false
   inline void set_Expressions(::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::QueryExpression*>* value);
 
 protected:

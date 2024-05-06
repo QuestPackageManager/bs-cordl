@@ -45,16 +45,16 @@ public:
                       put = __cordl_internal_set__labels))::System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2<::System::Linq::Expressions::LabelTarget*,
                                                                                                                                 ::System::Linq::Expressions::Interpreter::LabelInfo*>* _labels;
 
-  /// @brief Method AddLabelInfo, addr 0x2b288a0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method AddLabelInfo, addr 0x2c261a0, size 0xb0, virtual false, abstract: false, final false
   inline void AddLabelInfo(::System::Linq::Expressions::LabelTarget* target, ::System::Linq::Expressions::Interpreter::LabelInfo* info);
 
-  /// @brief Method ContainsTarget, addr 0x2b28718, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ContainsTarget, addr 0x2c26018, size 0x60, virtual false, abstract: false, final false
   inline bool ContainsTarget(::System::Linq::Expressions::LabelTarget* target);
 
   static inline ::System::Linq::Expressions::Interpreter::LabelScopeInfo* New_ctor(::System::Linq::Expressions::Interpreter::LabelScopeInfo* parent,
                                                                                    ::System::Linq::Expressions::Interpreter::LabelScopeKind kind);
 
-  /// @brief Method TryGetLabelInfo, addr 0x2b28de0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method TryGetLabelInfo, addr 0x2c266e0, size 0x78, virtual false, abstract: false, final false
   inline bool TryGetLabelInfo(::System::Linq::Expressions::LabelTarget* target, ByRef<::System::Linq::Expressions::Interpreter::LabelInfo*> info);
 
   constexpr ::System::Linq::Expressions::Interpreter::LabelScopeKind const& __cordl_internal_get_Kind() const;
@@ -79,10 +79,10 @@ public:
   constexpr void __cordl_internal_set__labels(
       ::System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2<::System::Linq::Expressions::LabelTarget*, ::System::Linq::Expressions::Interpreter::LabelInfo*>* value);
 
-  /// @brief Method .ctor, addr 0x2b28db0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c266b0, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Interpreter::LabelScopeInfo* parent, ::System::Linq::Expressions::Interpreter::LabelScopeKind kind);
 
-  /// @brief Method get_CanJumpInto, addr 0x2b28c90, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_CanJumpInto, addr 0x2c26590, size 0x10, virtual false, abstract: false, final false
   inline bool get_CanJumpInto();
 
 protected:

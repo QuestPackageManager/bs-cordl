@@ -30,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set_Id(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x29dc5e0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2adae90, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
 protected:

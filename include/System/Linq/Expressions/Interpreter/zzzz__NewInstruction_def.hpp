@@ -42,15 +42,15 @@ public:
   /// @brief Field _constructor, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__constructor, put = __cordl_internal_set__constructor))::System::Reflection::ConstructorInfo* _constructor;
 
-  /// @brief Method GetArgs, addr 0x2b435f4, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method GetArgs, addr 0x2c3fef4, size 0x16c, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetArgs(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame, int32_t first);
 
   static inline ::System::Linq::Expressions::Interpreter::NewInstruction* New_ctor(::System::Reflection::ConstructorInfo* constructor, int32_t argumentCount);
 
-  /// @brief Method Run, addr 0x2b434a4, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x2c3fda4, size 0x150, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method ToString, addr 0x2b43760, size 0x1cc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2c40060, size 0x1cc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr int32_t const& __cordl_internal_get__argumentCount() const;
@@ -65,16 +65,16 @@ public:
 
   constexpr void __cordl_internal_set__constructor(::System::Reflection::ConstructorInfo* value);
 
-  /// @brief Method .ctor, addr 0x2b43424, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c3fd24, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::ConstructorInfo* constructor, int32_t argumentCount);
 
-  /// @brief Method get_ConsumedStack, addr 0x2b43454, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x2c3fd54, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x2b43464, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x2c3fd64, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x2b4345c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x2c3fd5c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
 protected:

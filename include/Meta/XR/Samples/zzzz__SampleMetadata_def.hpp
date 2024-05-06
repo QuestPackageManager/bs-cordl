@@ -23,18 +23,18 @@ public:
   /// @brief Field _timestampOpen, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__timestampOpen, put = __cordl_internal_set__timestampOpen)) float_t _timestampOpen;
 
-  /// @brief Method Awake, addr 0x2acf89c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2bcc14c, size 0x1c, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::Meta::XR::Samples::SampleMetadata* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x2acfbac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2bcc45c, size 0xc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SendEvent, addr 0x2acf8ec, size 0x2c0, virtual false, abstract: false, final false
+  /// @brief Method SendEvent, addr 0x2bcc19c, size 0x2c0, virtual false, abstract: false, final false
   inline void SendEvent(int32_t eventType);
 
-  /// @brief Method Start, addr 0x2acf8b8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2bcc168, size 0x34, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr float_t const& __cordl_internal_get__timestampOpen() const;
@@ -43,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set__timestampOpen(float_t value);
 
-  /// @brief Method .ctor, addr 0x2acfbb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bcc468, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -40,16 +40,16 @@ public:
 
   constexpr void __cordl_internal_set__Document_k__BackingField(::System::Linq::Expressions::SymbolDocumentInfo* value);
 
-  /// @brief Method get_Document, addr 0x2b00e60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Document, addr 0x2bfe760, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::SymbolDocumentInfo* get_Document();
 
-  /// @brief Method get_EndLine, addr 0x2b00e38, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_EndLine, addr 0x2bfe738, size 0x28, virtual true, abstract: false, final false
   inline int32_t get_EndLine();
 
-  /// @brief Method get_IsClear, addr 0x2b00e68, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_IsClear, addr 0x2bfe768, size 0x28, virtual true, abstract: false, final false
   inline bool get_IsClear();
 
-  /// @brief Method get_StartLine, addr 0x2b00e10, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_StartLine, addr 0x2bfe710, size 0x28, virtual true, abstract: false, final false
   inline int32_t get_StartLine();
 
 protected:

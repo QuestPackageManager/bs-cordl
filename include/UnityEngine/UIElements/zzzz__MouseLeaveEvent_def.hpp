@@ -18,15 +18,15 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE MouseLeaveEvent : public ::UnityEngine::UIElements::MouseEventBase_1<::UnityEngine::UIElements::MouseLeaveEvent*> {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x33a07d0, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x35a650c, size 0x54, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x33a0824, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x35a6560, size 0xc, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::MouseLeaveEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x33a0830, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35a656c, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

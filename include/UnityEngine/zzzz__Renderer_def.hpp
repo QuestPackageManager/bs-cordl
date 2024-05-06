@@ -85,150 +85,150 @@ public:
 
   __declspec(property(get = get_sortingOrder, put = set_sortingOrder)) int32_t sortingOrder;
 
-  /// @brief Method CopySharedMaterialArray, addr 0x31d35bc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method CopySharedMaterialArray, addr 0x33da2f0, size 0x44, virtual false, abstract: false, final false
   inline void CopySharedMaterialArray(ByRef<::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*>> m);
 
-  /// @brief Method GetLightmapST, addr 0x31d3bf8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetLightmapST, addr 0x33da92c, size 0x60, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 GetLightmapST(::UnityEngineInternal::LightmapType lt);
 
-  /// @brief Method GetLightmapST_Injected, addr 0x31d3c58, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetLightmapST_Injected, addr 0x33da98c, size 0x54, virtual false, abstract: false, final false
   inline void GetLightmapST_Injected(::UnityEngineInternal::LightmapType lt, ByRef<::UnityEngine::Vector4> ret);
 
-  /// @brief Method GetMaterial, addr 0x31d34c4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetMaterial, addr 0x33da1f8, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> GetMaterial();
 
-  /// @brief Method GetMaterialArray, addr 0x31d3580, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetMaterialArray, addr 0x33da2b4, size 0x3c, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> GetMaterialArray();
 
-  /// @brief Method GetMaterialCount, addr 0x31d3cb4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetMaterialCount, addr 0x33da9e8, size 0x3c, virtual false, abstract: false, final false
   inline int32_t GetMaterialCount();
 
-  /// @brief Method GetPropertyBlock, addr 0x31d380c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetPropertyBlock, addr 0x33da540, size 0x44, virtual false, abstract: false, final false
   inline void GetPropertyBlock(::UnityEngine::MaterialPropertyBlock* properties);
 
-  /// @brief Method GetPropertyBlock, addr 0x31d3850, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetPropertyBlock, addr 0x33da584, size 0x54, virtual false, abstract: false, final false
   inline void GetPropertyBlock(::UnityEngine::MaterialPropertyBlock* properties, int32_t materialIndex);
 
-  /// @brief Method GetSharedMaterial, addr 0x31d3500, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetSharedMaterial, addr 0x33da234, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> GetSharedMaterial();
 
-  /// @brief Method GetSharedMaterialArray, addr 0x31d3cf0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetSharedMaterialArray, addr 0x33daa24, size 0x3c, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> GetSharedMaterialArray();
 
-  /// @brief Method GetSharedMaterials, addr 0x31d3f2c, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method GetSharedMaterials, addr 0x33dac60, size 0x134, virtual false, abstract: false, final false
   inline void GetSharedMaterials(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* m);
 
-  /// @brief Method Internal_GetPropertyBlock, addr 0x31d3688, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetPropertyBlock, addr 0x33da3bc, size 0x44, virtual false, abstract: false, final false
   inline void Internal_GetPropertyBlock(::UnityEngine::MaterialPropertyBlock* dest);
 
-  /// @brief Method Internal_GetPropertyBlockMaterialIndex, addr 0x31d3720, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetPropertyBlockMaterialIndex, addr 0x33da454, size 0x54, virtual false, abstract: false, final false
   inline void Internal_GetPropertyBlockMaterialIndex(::UnityEngine::MaterialPropertyBlock* dest, int32_t materialIndex);
 
-  /// @brief Method Internal_SetPropertyBlock, addr 0x31d3644, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Internal_SetPropertyBlock, addr 0x33da378, size 0x44, virtual false, abstract: false, final false
   inline void Internal_SetPropertyBlock(::UnityEngine::MaterialPropertyBlock* properties);
 
-  /// @brief Method Internal_SetPropertyBlockMaterialIndex, addr 0x31d36cc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Internal_SetPropertyBlockMaterialIndex, addr 0x33da400, size 0x54, virtual false, abstract: false, final false
   inline void Internal_SetPropertyBlockMaterialIndex(::UnityEngine::MaterialPropertyBlock* properties, int32_t materialIndex);
 
   static inline ::UnityEngine::Renderer* New_ctor();
 
-  /// @brief Method SetMaterial, addr 0x31d353c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetMaterial, addr 0x33da270, size 0x44, virtual false, abstract: false, final false
   inline void SetMaterial(::UnityEngine::Material* m);
 
-  /// @brief Method SetMaterialArray, addr 0x31d3600, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetMaterialArray, addr 0x33da334, size 0x44, virtual false, abstract: false, final false
   inline void SetMaterialArray(::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> m);
 
-  /// @brief Method SetPropertyBlock, addr 0x31d3774, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetPropertyBlock, addr 0x33da4a8, size 0x44, virtual false, abstract: false, final false
   inline void SetPropertyBlock(::UnityEngine::MaterialPropertyBlock* properties);
 
-  /// @brief Method SetPropertyBlock, addr 0x31d37b8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetPropertyBlock, addr 0x33da4ec, size 0x54, virtual false, abstract: false, final false
   inline void SetPropertyBlock(::UnityEngine::MaterialPropertyBlock* properties, int32_t materialIndex);
 
-  /// @brief Method .ctor, addr 0x31d4060, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33dad94, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bounds, addr 0x31d3308, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_bounds, addr 0x33da03c, size 0x68, virtual false, abstract: false, final false
   inline ::UnityEngine::Bounds get_bounds();
 
-  /// @brief Method get_bounds_Injected, addr 0x31d3370, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_bounds_Injected, addr 0x33da0a4, size 0x44, virtual false, abstract: false, final false
   inline void get_bounds_Injected(ByRef<::UnityEngine::Bounds> ret);
 
-  /// @brief Method get_enabled, addr 0x31d38a4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_enabled, addr 0x33da5d8, size 0x3c, virtual false, abstract: false, final false
   inline bool get_enabled();
 
-  /// @brief Method get_isPartOfStaticBatch, addr 0x31d3bbc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isPartOfStaticBatch, addr 0x33da8f0, size 0x3c, virtual false, abstract: false, final false
   inline bool get_isPartOfStaticBatch();
 
-  /// @brief Method get_lightmapScaleOffset, addr 0x31d3cac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightmapScaleOffset, addr 0x33da9e0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 get_lightmapScaleOffset();
 
-  /// @brief Method get_material, addr 0x31d3dac, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_material, addr 0x33daae0, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_material();
 
-  /// @brief Method get_materials, addr 0x31d3d2c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_materials, addr 0x33daa60, size 0x3c, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> get_materials();
 
-  /// @brief Method get_sharedMaterial, addr 0x31d3e2c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_sharedMaterial, addr 0x33dab60, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_sharedMaterial();
 
-  /// @brief Method get_sharedMaterials, addr 0x31d3eac, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_sharedMaterials, addr 0x33dabe0, size 0x3c, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> get_sharedMaterials();
 
-  /// @brief Method get_sortingLayerID, addr 0x31d3a78, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_sortingLayerID, addr 0x33da7ac, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_sortingLayerID();
 
-  /// @brief Method get_sortingOrder, addr 0x31d3af8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_sortingOrder, addr 0x33da82c, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_sortingOrder();
 
-  /// @brief Method set_allowOcclusionWhenDynamic, addr 0x31d3b78, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_allowOcclusionWhenDynamic, addr 0x33da8ac, size 0x44, virtual false, abstract: false, final false
   inline void set_allowOcclusionWhenDynamic(bool value);
 
-  /// @brief Method set_bounds, addr 0x31d33b4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_bounds, addr 0x33da0e8, size 0x44, virtual false, abstract: false, final false
   inline void set_bounds(::UnityEngine::Bounds value);
 
-  /// @brief Method set_bounds_Injected, addr 0x31d33f8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_bounds_Injected, addr 0x33da12c, size 0x44, virtual false, abstract: false, final false
   inline void set_bounds_Injected(ByRef<::UnityEngine::Bounds> value);
 
-  /// @brief Method set_enabled, addr 0x31d38e0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_enabled, addr 0x33da614, size 0x44, virtual false, abstract: false, final false
   inline void set_enabled(bool value);
 
-  /// @brief Method set_lightProbeUsage, addr 0x31d39f0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_lightProbeUsage, addr 0x33da724, size 0x44, virtual false, abstract: false, final false
   inline void set_lightProbeUsage(::UnityEngine::Rendering::LightProbeUsage value);
 
-  /// @brief Method set_localBounds, addr 0x31d343c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_localBounds, addr 0x33da170, size 0x44, virtual false, abstract: false, final false
   inline void set_localBounds(::UnityEngine::Bounds value);
 
-  /// @brief Method set_localBounds_Injected, addr 0x31d3480, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_localBounds_Injected, addr 0x33da1b4, size 0x44, virtual false, abstract: false, final false
   inline void set_localBounds_Injected(ByRef<::UnityEngine::Bounds> value);
 
-  /// @brief Method set_material, addr 0x31d3de8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_material, addr 0x33dab1c, size 0x44, virtual false, abstract: false, final false
   inline void set_material(::UnityEngine::Material* value);
 
-  /// @brief Method set_materials, addr 0x31d3d68, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_materials, addr 0x33daa9c, size 0x44, virtual false, abstract: false, final false
   inline void set_materials(::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> value);
 
-  /// @brief Method set_motionVectorGenerationMode, addr 0x31d39ac, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_motionVectorGenerationMode, addr 0x33da6e0, size 0x44, virtual false, abstract: false, final false
   inline void set_motionVectorGenerationMode(::UnityEngine::MotionVectorGenerationMode value);
 
-  /// @brief Method set_receiveShadows, addr 0x31d3968, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_receiveShadows, addr 0x33da69c, size 0x44, virtual false, abstract: false, final false
   inline void set_receiveShadows(bool value);
 
-  /// @brief Method set_reflectionProbeUsage, addr 0x31d3a34, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_reflectionProbeUsage, addr 0x33da768, size 0x44, virtual false, abstract: false, final false
   inline void set_reflectionProbeUsage(::UnityEngine::Rendering::ReflectionProbeUsage value);
 
-  /// @brief Method set_shadowCastingMode, addr 0x31d3924, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_shadowCastingMode, addr 0x33da658, size 0x44, virtual false, abstract: false, final false
   inline void set_shadowCastingMode(::UnityEngine::Rendering::ShadowCastingMode value);
 
-  /// @brief Method set_sharedMaterial, addr 0x31d3e68, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_sharedMaterial, addr 0x33dab9c, size 0x44, virtual false, abstract: false, final false
   inline void set_sharedMaterial(::UnityEngine::Material* value);
 
-  /// @brief Method set_sharedMaterials, addr 0x31d3ee8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_sharedMaterials, addr 0x33dac1c, size 0x44, virtual false, abstract: false, final false
   inline void set_sharedMaterials(::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> value);
 
-  /// @brief Method set_sortingLayerID, addr 0x31d3ab4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_sortingLayerID, addr 0x33da7e8, size 0x44, virtual false, abstract: false, final false
   inline void set_sortingLayerID(int32_t value);
 
-  /// @brief Method set_sortingOrder, addr 0x31d3b34, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_sortingOrder, addr 0x33da868, size 0x44, virtual false, abstract: false, final false
   inline void set_sortingOrder(int32_t value);
 
 protected:

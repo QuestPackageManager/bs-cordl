@@ -34,10 +34,10 @@ public:
 
   constexpr void __cordl_internal_set__rectTransform(::UnityW<::UnityEngine::RectTransform> value);
 
-  /// @brief Method .ctor, addr 0xf4f63c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x103e1b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_rectTransform, addr 0xf4f634, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rectTransform, addr 0x103e1a8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RectTransform> get_rectTransform();
 
 protected:

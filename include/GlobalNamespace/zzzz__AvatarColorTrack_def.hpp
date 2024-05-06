@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::AvatarColorTrack* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25a1e34, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x269bcf8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

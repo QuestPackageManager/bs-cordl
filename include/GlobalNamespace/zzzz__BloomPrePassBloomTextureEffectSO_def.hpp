@@ -75,7 +75,7 @@ public:
 
   static inline ::GlobalNamespace::BloomPrePassBloomTextureEffectSO* New_ctor();
 
-  /// @brief Method Render, addr 0x2adbcd4, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method Render, addr 0x2bd857c, size 0x6c, virtual true, abstract: false, final false
   inline void Render(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest);
 
   constexpr ::UnityW<::GlobalNamespace::BloomFogSO> const& __cordl_internal_get__bloomFog() const;
@@ -156,10 +156,10 @@ public:
 
   constexpr void __cordl_internal_set__upsamplePass(::GlobalNamespace::__PyramidBloomRendererSO__Pass value);
 
-  /// @brief Method .ctor, addr 0x2adbd40, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bd85e8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_toneMapping, addr 0x2adbcb4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_toneMapping, addr 0x2bd855c, size 0x20, virtual true, abstract: false, final false
   inline ::GlobalNamespace::ToneMapping get_toneMapping();
 
 protected:

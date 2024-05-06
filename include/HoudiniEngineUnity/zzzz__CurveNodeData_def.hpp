@@ -40,10 +40,10 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::CurveNodeData*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::CurveNodeData*>*() noexcept;
 
-  /// @brief Method GetRotation, addr 0x243b218, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetRotation, addr 0x2534ea4, size 0x24, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion GetRotation();
 
-  /// @brief Method IsEquivalentTo, addr 0x243b23c, size 0x1ac, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x2534ec8, size 0x1ac, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::CurveNodeData* other);
 
   static inline ::HoudiniEngineUnity::CurveNodeData* New_ctor();
@@ -74,19 +74,19 @@ public:
 
   constexpr void __cordl_internal_set_scale(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x243ad4c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25349d8, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x243b128, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2534db4, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::HoudiniEngineUnity::CurveNodeData* other);
 
-  /// @brief Method .ctor, addr 0x243adf4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2534a80, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 position);
 
-  /// @brief Method .ctor, addr 0x243aec4, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2534b50, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method .ctor, addr 0x243aff0, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2534c7c, size 0x138, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 scale);
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::CurveNodeData*>"

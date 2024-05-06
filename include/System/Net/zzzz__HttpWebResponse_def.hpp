@@ -107,22 +107,22 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method CheckDisposed, addr 0x2f07bb8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method CheckDisposed, addr 0x30084b8, size 0x84, virtual false, abstract: false, final false
   inline void CheckDisposed();
 
-  /// @brief Method Close, addr 0x2f07ec4, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x30087c4, size 0x30, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method Dispose, addr 0x2f07f04, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3008804, size 0x14, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method FillCookies, addr 0x2f075e8, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method FillCookies, addr 0x3007ee8, size 0x214, virtual false, abstract: false, final false
   inline void FillCookies();
 
-  /// @brief Method GetObjectData, addr 0x2f07d04, size 0x1c0, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x3008604, size 0x1c0, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method GetResponseStream, addr 0x2f07c5c, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetResponseStream, addr 0x300855c, size 0x9c, virtual true, abstract: false, final false
   inline ::System::IO::Stream* GetResponseStream();
 
   static inline ::System::Net::HttpWebResponse* New_ctor();
@@ -133,10 +133,10 @@ public:
 
   static inline ::System::Net::HttpWebResponse* New_ctor(::System::Uri* uri, ::StringW method, ::System::Net::WebResponseStream* stream, ::System::Net::CookieContainer* container);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x2f07ef4, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x30087f4, size 0x10, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x2f07cf8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x30085f8, size 0xc, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
                                                                        ::System::Runtime::Serialization::StreamingContext streamingContext);
 
@@ -212,28 +212,28 @@ public:
 
   constexpr void __cordl_internal_set_webHeaders(::System::Net::WebHeaderCollection* value);
 
-  /// @brief Method .ctor, addr 0x2f0752c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3007e2c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2f077fc, size 0x39c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x30080fc, size 0x39c, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method .ctor, addr 0x2f07534, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3007e34, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::System::Uri* uri, ::StringW method, ::System::Net::HttpStatusCode status, ::System::Net::WebHeaderCollection* headers);
 
-  /// @brief Method .ctor, addr 0x2f06d70, size 0x2ec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3007670, size 0x2ec, virtual false, abstract: false, final false
   inline void _ctor(::System::Uri* uri, ::StringW method, ::System::Net::WebResponseStream* stream, ::System::Net::CookieContainer* container);
 
-  /// @brief Method get_Headers, addr 0x2f07b98, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Headers, addr 0x3008498, size 0x8, virtual true, abstract: false, final false
   inline ::System::Net::WebHeaderCollection* get_Headers();
 
-  /// @brief Method get_ResponseUri, addr 0x2f07ba0, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_ResponseUri, addr 0x30084a0, size 0x18, virtual true, abstract: false, final false
   inline ::System::Uri* get_ResponseUri();
 
-  /// @brief Method get_StatusCode, addr 0x2f07c3c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_StatusCode, addr 0x300853c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Net::HttpStatusCode get_StatusCode();
 
-  /// @brief Method get_StatusDescription, addr 0x2f07c44, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_StatusDescription, addr 0x3008544, size 0x18, virtual true, abstract: false, final false
   inline ::StringW get_StatusDescription();
 
   /// @brief Convert to "::System::IDisposable"

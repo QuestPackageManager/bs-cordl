@@ -79,54 +79,54 @@ public:
   /// @brief Field dataType, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_dataType, put = __cordl_internal_set_dataType))::GlobalNamespace::OVRGLTFType dataType;
 
-  /// @brief Method GetDataCount, addr 0x29f65c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetDataCount, addr 0x2af3e78, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetDataCount();
 
-  /// @brief Method GetMaxValueForType, addr 0x29f7ae4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetMaxValueForType, addr 0x2af5394, size 0x28, virtual false, abstract: false, final false
   inline float_t GetMaxValueForType(::GlobalNamespace::OVRGLTFComponentType type);
 
-  /// @brief Method GetStrideForType, addr 0x29f67e4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetStrideForType, addr 0x2af4094, size 0x28, virtual false, abstract: false, final false
   inline int32_t GetStrideForType(::GlobalNamespace::OVRGLTFComponentType type);
 
   static inline ::GlobalNamespace::OVRGLTFAccessor* New_ctor(::OVRSimpleJSON::JSONNode* node, ::OVRSimpleJSON::JSONNode* root, bool bufferViewOnly);
 
-  /// @brief Method ReadAsBoneWeights, addr 0x29f7f88, size 0x398, virtual false, abstract: false, final false
+  /// @brief Method ReadAsBoneWeights, addr 0x2af5838, size 0x398, virtual false, abstract: false, final false
   inline void ReadAsBoneWeights(::GlobalNamespace::OVRBinaryChunk chunk, ByRef<::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>> data, int32_t offset);
 
-  /// @brief Method ReadAsColor, addr 0x29f765c, size 0x488, virtual false, abstract: false, final false
+  /// @brief Method ReadAsColor, addr 0x2af4f0c, size 0x488, virtual false, abstract: false, final false
   inline void ReadAsColor(::GlobalNamespace::OVRBinaryChunk chunk, ByRef<::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>> data, int32_t offset);
 
-  /// @brief Method ReadAsFloat, addr 0x29f69fc, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method ReadAsFloat, addr 0x2af42ac, size 0x210, virtual false, abstract: false, final false
   inline void ReadAsFloat(::GlobalNamespace::OVRBinaryChunk chunk, ByRef<::ArrayW<float_t, ::Array<float_t>*>> data, int32_t offset);
 
-  /// @brief Method ReadAsInt, addr 0x29f65d0, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method ReadAsInt, addr 0x2af3e80, size 0x214, virtual false, abstract: false, final false
   inline void ReadAsInt(::GlobalNamespace::OVRBinaryChunk chunk, ByRef<::ArrayW<int32_t, ::Array<int32_t>*>> data, int32_t offset);
 
-  /// @brief Method ReadAsMatrix4x4, addr 0x29f7b0c, size 0x36c, virtual false, abstract: false, final false
+  /// @brief Method ReadAsMatrix4x4, addr 0x2af53bc, size 0x36c, virtual false, abstract: false, final false
   inline void ReadAsMatrix4x4(::GlobalNamespace::OVRBinaryChunk chunk, ByRef<::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*>> data, int32_t offset,
                               ::UnityEngine::Vector3 conversionScale);
 
-  /// @brief Method ReadAsTexture, addr 0x29f7e78, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method ReadAsTexture, addr 0x2af5728, size 0x110, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadAsTexture(::GlobalNamespace::OVRBinaryChunk chunk);
 
-  /// @brief Method ReadAsVector2, addr 0x29f6c74, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method ReadAsVector2, addr 0x2af4524, size 0x25c, virtual false, abstract: false, final false
   inline void ReadAsVector2(::GlobalNamespace::OVRBinaryChunk chunk, ByRef<::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>> data, int32_t offset);
 
-  /// @brief Method ReadAsVector3, addr 0x29f6ed0, size 0x398, virtual false, abstract: false, final false
+  /// @brief Method ReadAsVector3, addr 0x2af4780, size 0x398, virtual false, abstract: false, final false
   inline void ReadAsVector3(::GlobalNamespace::OVRBinaryChunk chunk, ByRef<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>> data, int32_t offset,
                             ::UnityEngine::Vector3 conversionScale);
 
-  /// @brief Method ReadAsVector4, addr 0x29f7268, size 0x3f4, virtual false, abstract: false, final false
+  /// @brief Method ReadAsVector4, addr 0x2af4b18, size 0x3f4, virtual false, abstract: false, final false
   inline void ReadAsVector4(::GlobalNamespace::OVRBinaryChunk chunk, ByRef<::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>> data, int32_t offset,
                             ::UnityEngine::Vector4 conversionScale);
 
-  /// @brief Method ReadElementAsFloat, addr 0x29f6c0c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ReadElementAsFloat, addr 0x2af44bc, size 0x68, virtual false, abstract: false, final false
   inline float_t ReadElementAsFloat(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t index);
 
-  /// @brief Method ReadElementAsUint, addr 0x29f680c, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method ReadElementAsUint, addr 0x2af40bc, size 0x1f0, virtual false, abstract: false, final false
   inline uint32_t ReadElementAsUint(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t index, ::GlobalNamespace::OVRGLTFComponentType type);
 
-  /// @brief Method ToOVRType, addr 0x29f6464, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method ToOVRType, addr 0x2af3d14, size 0x164, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRGLTFType ToOVRType(::StringW type);
 
   constexpr int32_t const& __cordl_internal_get_additionalOffset() const;
@@ -183,7 +183,7 @@ public:
 
   constexpr void __cordl_internal_set_dataType(::GlobalNamespace::OVRGLTFType value);
 
-  /// @brief Method .ctor, addr 0x29f6124, size 0x340, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2af39d4, size 0x340, virtual false, abstract: false, final false
   inline void _ctor(::OVRSimpleJSON::JSONNode* node, ::OVRSimpleJSON::JSONNode* root, bool bufferViewOnly);
 
 protected:

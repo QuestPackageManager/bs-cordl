@@ -23,10 +23,10 @@ public:
   /// @brief Field m_Ptr, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) void* m_Ptr;
 
-  /// @brief Method Dispose, addr 0x33fdd18, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3603a54, size 0x94, virtual true, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method Release, addr 0x33fdcdc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x3603a18, size 0x3c, virtual false, abstract: false, final false
   inline void Release();
 
   constexpr void* const& __cordl_internal_get_m_Ptr() const;

@@ -71,10 +71,10 @@ public:
 
   static inline ::GlobalNamespace::DefaultScenesTransitionsFromInit* New_ctor();
 
-  /// @brief Method TransitionToNextScene, addr 0x2507fac, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method TransitionToNextScene, addr 0x25fec38, size 0x1d0, virtual false, abstract: false, final false
   inline void TransitionToNextScene(bool goStraightToMenu, bool goStraightToEditor, bool goToRecordingToolScene);
 
-  /// @brief Method TransitionToStartupErrorScene, addr 0x250817c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method TransitionToStartupErrorScene, addr 0x25fee08, size 0xac, virtual false, abstract: false, final false
   inline void TransitionToStartupErrorScene(::StringW title, ::StringW subtitle);
 
   constexpr ::UnityW<::GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO> const& __cordl_internal_get__beatmapEditorScenesTransitionSetupData() const;
@@ -119,10 +119,10 @@ public:
 
   constexpr void __cordl_internal_set__startupErrorScenesTransitionSetupData(::UnityW<::GlobalNamespace::StartupErrorScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0x2508228, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25feeb4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_mainMenuScenesTransitionSetupData, addr 0x2507fa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mainMenuScenesTransitionSetupData, addr 0x25fec30, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MenuScenesTransitionSetupDataSO> get_mainMenuScenesTransitionSetupData();
 
 protected:

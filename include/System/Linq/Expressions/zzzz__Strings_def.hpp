@@ -22,364 +22,364 @@ namespace System::Linq::Expressions {
 class CORDL_TYPE Strings : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AmbiguousJump, addr 0x2b063f8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method AmbiguousJump, addr 0x2c03cf8, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW AmbiguousJump(::System::Object* p0);
 
-  /// @brief Method AmbiguousMatchInExpandoObject, addr 0x2b011ec, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method AmbiguousMatchInExpandoObject, addr 0x2bfeaec, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW AmbiguousMatchInExpandoObject(::System::Object* p0);
 
-  /// @brief Method BinaryOperatorNotDefined, addr 0x2b03d04, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method BinaryOperatorNotDefined, addr 0x2c01604, size 0x64, virtual false, abstract: false, final false
   static inline ::StringW BinaryOperatorNotDefined(::System::Object* p0, ::System::Object* p1, ::System::Object* p2);
 
-  /// @brief Method BinderNotCompatibleWithCallSite, addr 0x2b016c0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method BinderNotCompatibleWithCallSite, addr 0x2bfefc0, size 0x64, virtual false, abstract: false, final false
   static inline ::StringW BinderNotCompatibleWithCallSite(::System::Object* p0, ::System::Object* p1, ::System::Object* p2);
 
-  /// @brief Method CannotAutoInitializeValueTypeMemberThroughProperty, addr 0x2b04670, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method CannotAutoInitializeValueTypeMemberThroughProperty, addr 0x2c01f70, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW CannotAutoInitializeValueTypeMemberThroughProperty(::System::Object* p0);
 
-  /// @brief Method CoercionOperatorNotDefined, addr 0x2b03b3c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CoercionOperatorNotDefined, addr 0x2c0143c, size 0x5c, virtual false, abstract: false, final false
   static inline ::StringW CoercionOperatorNotDefined(::System::Object* p0, ::System::Object* p1);
 
-  /// @brief Method DuplicateVariable, addr 0x2b03574, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method DuplicateVariable, addr 0x2c00e74, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW DuplicateVariable(::System::Object* p0);
 
-  /// @brief Method DynamicBinderResultNotAssignable, addr 0x2b01a6c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method DynamicBinderResultNotAssignable, addr 0x2bff36c, size 0x64, virtual false, abstract: false, final false
   static inline ::StringW DynamicBinderResultNotAssignable(::System::Object* p0, ::System::Object* p1, ::System::Object* p2);
 
-  /// @brief Method DynamicBindingNeedsRestrictions, addr 0x2b017a8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method DynamicBindingNeedsRestrictions, addr 0x2bff0a8, size 0x5c, virtual false, abstract: false, final false
   static inline ::StringW DynamicBindingNeedsRestrictions(::System::Object* p0, ::System::Object* p1);
 
-  /// @brief Method DynamicObjectResultNotAssignable, addr 0x2b018a0, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method DynamicObjectResultNotAssignable, addr 0x2bff1a0, size 0x140, virtual false, abstract: false, final false
   static inline ::StringW DynamicObjectResultNotAssignable(::System::Object* p0, ::System::Object* p1, ::System::Object* p2, ::System::Object* p3);
 
-  /// @brief Method ExpressionTypeCannotInitializeArrayType, addr 0x2b048dc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ExpressionTypeCannotInitializeArrayType, addr 0x2c021dc, size 0x5c, virtual false, abstract: false, final false
   static inline ::StringW ExpressionTypeCannotInitializeArrayType(::System::Object* p0, ::System::Object* p1);
 
-  /// @brief Method ExpressionTypeDoesNotMatchAssignment, addr 0x2b04a9c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ExpressionTypeDoesNotMatchAssignment, addr 0x2c0239c, size 0x5c, virtual false, abstract: false, final false
   static inline ::StringW ExpressionTypeDoesNotMatchAssignment(::System::Object* p0, ::System::Object* p1);
 
-  /// @brief Method ExpressionTypeDoesNotMatchConstructorParameter, addr 0x2b07494, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ExpressionTypeDoesNotMatchConstructorParameter, addr 0x2c04d94, size 0x5c, virtual false, abstract: false, final false
   static inline ::StringW ExpressionTypeDoesNotMatchConstructorParameter(::System::Object* p0, ::System::Object* p1);
 
-  /// @brief Method ExpressionTypeDoesNotMatchLabel, addr 0x2b04b7c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ExpressionTypeDoesNotMatchLabel, addr 0x2c0247c, size 0x5c, virtual false, abstract: false, final false
   static inline ::StringW ExpressionTypeDoesNotMatchLabel(::System::Object* p0, ::System::Object* p1);
 
-  /// @brief Method ExpressionTypeDoesNotMatchMethodParameter, addr 0x2b070b0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ExpressionTypeDoesNotMatchMethodParameter, addr 0x2c049b0, size 0x64, virtual false, abstract: false, final false
   static inline ::StringW ExpressionTypeDoesNotMatchMethodParameter(::System::Object* p0, ::System::Object* p1, ::System::Object* p2);
 
-  /// @brief Method ExpressionTypeDoesNotMatchParameter, addr 0x2b071dc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ExpressionTypeDoesNotMatchParameter, addr 0x2c04adc, size 0x5c, virtual false, abstract: false, final false
   static inline ::StringW ExpressionTypeDoesNotMatchParameter(::System::Object* p0, ::System::Object* p1);
 
-  /// @brief Method ExpressionTypeDoesNotMatchReturn, addr 0x2b049bc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ExpressionTypeDoesNotMatchReturn, addr 0x2c022bc, size 0x5c, virtual false, abstract: false, final false
   static inline ::StringW ExpressionTypeDoesNotMatchReturn(::System::Object* p0, ::System::Object* p1);
 
-  /// @brief Method ExpressionTypeNotInvocable, addr 0x2b04c5c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ExpressionTypeNotInvocable, addr 0x2c0255c, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW ExpressionTypeNotInvocable(::System::Object* p0);
 
-  /// @brief Method ExtensionNodeMustOverrideProperty, addr 0x2b038cc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ExtensionNodeMustOverrideProperty, addr 0x2c011cc, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW ExtensionNodeMustOverrideProperty(::System::Object* p0);
 
-  /// @brief Method FieldInfoNotDefinedForType, addr 0x2b04e14, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method FieldInfoNotDefinedForType, addr 0x2c02714, size 0x64, virtual false, abstract: false, final false
   static inline ::StringW FieldInfoNotDefinedForType(::System::Object* p0, ::System::Object* p1, ::System::Object* p2);
 
-  /// @brief Method GenericMethodWithArgsDoesNotExistOnType, addr 0x2b05d70, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GenericMethodWithArgsDoesNotExistOnType, addr 0x2c03670, size 0x5c, virtual false, abstract: false, final false
   static inline ::StringW GenericMethodWithArgsDoesNotExistOnType(::System::Object* p0, ::System::Object* p1);
 
-  /// @brief Method IncorrectNumberOfMethodCallArguments, addr 0x2b073bc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method IncorrectNumberOfMethodCallArguments, addr 0x2c04cbc, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW IncorrectNumberOfMethodCallArguments(::System::Object* p0);
 
-  /// @brief Method IncorrectTypeForTypeAs, addr 0x2b04740, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method IncorrectTypeForTypeAs, addr 0x2c02040, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW IncorrectTypeForTypeAs(::System::Object* p0);
 
-  /// @brief Method InstanceAndMethodTypeMismatch, addr 0x2b05768, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method InstanceAndMethodTypeMismatch, addr 0x2c03068, size 0x64, virtual false, abstract: false, final false
   static inline ::StringW InstanceAndMethodTypeMismatch(::System::Object* p0, ::System::Object* p1, ::System::Object* p2);
 
-  /// @brief Method InstanceFieldNotDefinedForType, addr 0x2b04d2c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method InstanceFieldNotDefinedForType, addr 0x2c0262c, size 0x5c, virtual false, abstract: false, final false
   static inline ::StringW InstanceFieldNotDefinedForType(::System::Object* p0, ::System::Object* p1);
 
-  /// @brief Method InstancePropertyNotDefinedForType, addr 0x2b05680, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method InstancePropertyNotDefinedForType, addr 0x2c02f80, size 0x5c, virtual false, abstract: false, final false
   static inline ::StringW InstancePropertyNotDefinedForType(::System::Object* p0, ::System::Object* p1);
 
-  /// @brief Method InvalidLvalue, addr 0x2b06738, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method InvalidLvalue, addr 0x2c04038, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW InvalidLvalue(::System::Object* p0);
 
-  /// @brief Method InvalidMetaObjectCreated, addr 0x2b0112c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method InvalidMetaObjectCreated, addr 0x2bfea2c, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW InvalidMetaObjectCreated(::System::Object* p0);
 
-  /// @brief Method InvalidNullValue, addr 0x2b07770, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method InvalidNullValue, addr 0x2c05070, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW InvalidNullValue(::System::Object* p0);
 
-  /// @brief Method InvalidObjectType, addr 0x2b0787c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method InvalidObjectType, addr 0x2c0517c, size 0x5c, virtual false, abstract: false, final false
   static inline ::StringW InvalidObjectType(::System::Object* p0, ::System::Object* p1);
 
-  /// @brief Method KeyDoesNotExistInExpando, addr 0x2b01384, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method KeyDoesNotExistInExpando, addr 0x2bfec84, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW KeyDoesNotExistInExpando(::System::Object* p0);
 
-  /// @brief Method LabelTargetAlreadyDefined, addr 0x2b060e0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method LabelTargetAlreadyDefined, addr 0x2c039e0, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW LabelTargetAlreadyDefined(::System::Object* p0);
 
-  /// @brief Method LabelTargetUndefined, addr 0x2b061a0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method LabelTargetUndefined, addr 0x2c03aa0, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW LabelTargetUndefined(::System::Object* p0);
 
-  /// @brief Method LogicalOperatorMustHaveBooleanOperators, addr 0x2b05bb0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method LogicalOperatorMustHaveBooleanOperators, addr 0x2c034b0, size 0x5c, virtual false, abstract: false, final false
   static inline ::StringW LogicalOperatorMustHaveBooleanOperators(::System::Object* p0, ::System::Object* p1);
 
-  /// @brief Method MemberNotFieldOrProperty, addr 0x2b05170, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method MemberNotFieldOrProperty, addr 0x2c02a70, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW MemberNotFieldOrProperty(::System::Object* p0);
 
-  /// @brief Method MethodContainsGenericParameters, addr 0x2b05240, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method MethodContainsGenericParameters, addr 0x2c02b40, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW MethodContainsGenericParameters(::System::Object* p0);
 
-  /// @brief Method MethodIsGeneric, addr 0x2b05310, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method MethodIsGeneric, addr 0x2c02c10, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW MethodIsGeneric(::System::Object* p0);
 
-  /// @brief Method MethodWithArgsDoesNotExistOnType, addr 0x2b05c90, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method MethodWithArgsDoesNotExistOnType, addr 0x2c03590, size 0x5c, virtual false, abstract: false, final false
   static inline ::StringW MethodWithArgsDoesNotExistOnType(::System::Object* p0, ::System::Object* p1);
 
-  /// @brief Method MethodWithMoreThanOneMatch, addr 0x2b05e50, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method MethodWithMoreThanOneMatch, addr 0x2c03750, size 0x5c, virtual false, abstract: false, final false
   static inline ::StringW MethodWithMoreThanOneMatch(::System::Object* p0, ::System::Object* p1);
 
-  /// @brief Method MustRewriteChildToSameType, addr 0x2b069cc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method MustRewriteChildToSameType, addr 0x2c042cc, size 0x64, virtual false, abstract: false, final false
   static inline ::StringW MustRewriteChildToSameType(::System::Object* p0, ::System::Object* p1, ::System::Object* p2);
 
-  /// @brief Method MustRewriteToSameNode, addr 0x2b068dc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method MustRewriteToSameNode, addr 0x2c041dc, size 0x64, virtual false, abstract: false, final false
   static inline ::StringW MustRewriteToSameNode(::System::Object* p0, ::System::Object* p1, ::System::Object* p2);
 
-  /// @brief Method MustRewriteWithoutMethod, addr 0x2b06ab4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method MustRewriteWithoutMethod, addr 0x2c043b4, size 0x5c, virtual false, abstract: false, final false
   static inline ::StringW MustRewriteWithoutMethod(::System::Object* p0, ::System::Object* p1);
 
-  /// @brief Method NonLocalJumpWithValue, addr 0x2b06650, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method NonLocalJumpWithValue, addr 0x2c03f50, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW NonLocalJumpWithValue(::System::Object* p0);
 
-  /// @brief Method OperandTypesDoNotMatchParameters, addr 0x2b03ecc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method OperandTypesDoNotMatchParameters, addr 0x2c017cc, size 0x5c, virtual false, abstract: false, final false
   static inline ::StringW OperandTypesDoNotMatchParameters(::System::Object* p0, ::System::Object* p1);
 
-  /// @brief Method OutOfRange, addr 0x2b06010, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method OutOfRange, addr 0x2c03910, size 0x5c, virtual false, abstract: false, final false
   static inline ::StringW OutOfRange(::System::Object* p0, ::System::Object* p1);
 
-  /// @brief Method OverloadOperatorTypeDoesNotMatchConversionType, addr 0x2b03fac, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method OverloadOperatorTypeDoesNotMatchConversionType, addr 0x2c018ac, size 0x5c, virtual false, abstract: false, final false
   static inline ::StringW OverloadOperatorTypeDoesNotMatchConversionType(::System::Object* p0, ::System::Object* p1);
 
-  /// @brief Method ParameterExpressionNotValidAsDelegate, addr 0x2b054b0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ParameterExpressionNotValidAsDelegate, addr 0x2c02db0, size 0x5c, virtual false, abstract: false, final false
   static inline ::StringW ParameterExpressionNotValidAsDelegate(::System::Object* p0, ::System::Object* p1);
 
-  /// @brief Method PropertyDoesNotHaveAccessor, addr 0x2b053e0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method PropertyDoesNotHaveAccessor, addr 0x2c02ce0, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW PropertyDoesNotHaveAccessor(::System::Object* p0);
 
-  /// @brief Method PropertyNotDefinedForType, addr 0x2b05598, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method PropertyNotDefinedForType, addr 0x2c02e98, size 0x5c, virtual false, abstract: false, final false
   static inline ::StringW PropertyNotDefinedForType(::System::Object* p0, ::System::Object* p1);
 
-  /// @brief Method ReferenceEqualityNotDefined, addr 0x2b03dec, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ReferenceEqualityNotDefined, addr 0x2c016ec, size 0x5c, virtual false, abstract: false, final false
   static inline ::StringW ReferenceEqualityNotDefined(::System::Object* p0, ::System::Object* p1);
 
-  /// @brief Method SameKeyExistsInExpando, addr 0x2b012c4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method SameKeyExistsInExpando, addr 0x2bfebc4, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW SameKeyExistsInExpando(::System::Object* p0);
 
-  /// @brief Method TypeContainsGenericParameters, addr 0x2b06de4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method TypeContainsGenericParameters, addr 0x2c046e4, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW TypeContainsGenericParameters(::System::Object* p0);
 
-  /// @brief Method TypeIsGeneric, addr 0x2b06ed8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method TypeIsGeneric, addr 0x2c047d8, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW TypeIsGeneric(::System::Object* p0);
 
-  /// @brief Method TypeParameterIsNotDelegate, addr 0x2b01f70, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method TypeParameterIsNotDelegate, addr 0x2bff870, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW TypeParameterIsNotDelegate(::System::Object* p0);
 
-  /// @brief Method UnaryOperatorNotDefined, addr 0x2b03c1c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method UnaryOperatorNotDefined, addr 0x2c0151c, size 0x5c, virtual false, abstract: false, final false
   static inline ::StringW UnaryOperatorNotDefined(::System::Object* p0, ::System::Object* p1);
 
-  /// @brief Method UnhandledBinary, addr 0x2b05850, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method UnhandledBinary, addr 0x2c03150, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW UnhandledBinary(::System::Object* p0);
 
-  /// @brief Method UnhandledUnary, addr 0x2b05920, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method UnhandledUnary, addr 0x2c03220, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW UnhandledUnary(::System::Object* p0);
 
-  /// @brief Method UserDefinedOpMustHaveConsistentTypes, addr 0x2b059f0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method UserDefinedOpMustHaveConsistentTypes, addr 0x2c032f0, size 0x5c, virtual false, abstract: false, final false
   static inline ::StringW UserDefinedOpMustHaveConsistentTypes(::System::Object* p0, ::System::Object* p1);
 
-  /// @brief Method UserDefinedOpMustHaveValidReturnType, addr 0x2b05ad0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method UserDefinedOpMustHaveValidReturnType, addr 0x2c033d0, size 0x5c, virtual false, abstract: false, final false
   static inline ::StringW UserDefinedOpMustHaveValidReturnType(::System::Object* p0, ::System::Object* p1);
 
-  /// @brief Method UserDefinedOperatorMustBeStatic, addr 0x2b0399c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method UserDefinedOperatorMustBeStatic, addr 0x2c0129c, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW UserDefinedOperatorMustBeStatic(::System::Object* p0);
 
-  /// @brief Method UserDefinedOperatorMustNotBeVoid, addr 0x2b03a6c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method UserDefinedOperatorMustNotBeVoid, addr 0x2c0136c, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW UserDefinedOperatorMustNotBeVoid(::System::Object* p0);
 
-  /// @brief Method VariableMustNotBeByRef, addr 0x2b03460, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method VariableMustNotBeByRef, addr 0x2c00d60, size 0x5c, virtual false, abstract: false, final false
   static inline ::StringW VariableMustNotBeByRef(::System::Object* p0, ::System::Object* p1);
 
-  /// @brief Method get_AccessorsCannotHaveByRefArgs, addr 0x2b02200, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_AccessorsCannotHaveByRefArgs, addr 0x2bffb00, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_AccessorsCannotHaveByRefArgs();
 
-  /// @brief Method get_AccessorsCannotHaveVarArgs, addr 0x2b02124, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_AccessorsCannotHaveVarArgs, addr 0x2bffa24, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_AccessorsCannotHaveVarArgs();
 
-  /// @brief Method get_ArgumentCannotBeOfTypeVoid, addr 0x2b05f48, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_ArgumentCannotBeOfTypeVoid, addr 0x2c03848, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_ArgumentCannotBeOfTypeVoid();
 
-  /// @brief Method get_ArgumentMustBeArray, addr 0x2b04170, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_ArgumentMustBeArray, addr 0x2c01a70, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_ArgumentMustBeArray();
 
-  /// @brief Method get_ArgumentMustBeArrayIndexType, addr 0x2b04414, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_ArgumentMustBeArrayIndexType, addr 0x2c01d14, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_ArgumentMustBeArrayIndexType();
 
-  /// @brief Method get_ArgumentMustBeBoolean, addr 0x2b0424c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_ArgumentMustBeBoolean, addr 0x2c01b4c, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_ArgumentMustBeBoolean();
 
-  /// @brief Method get_ArgumentMustBeInteger, addr 0x2b04328, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_ArgumentMustBeInteger, addr 0x2c01c28, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_ArgumentMustBeInteger();
 
-  /// @brief Method get_ArgumentMustBeSingleDimensionalArrayType, addr 0x2b044f0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_ArgumentMustBeSingleDimensionalArrayType, addr 0x2c01df0, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_ArgumentMustBeSingleDimensionalArrayType();
 
-  /// @brief Method get_ArgumentMustNotHaveValueType, addr 0x2b03034, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_ArgumentMustNotHaveValueType, addr 0x2c00934, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_ArgumentMustNotHaveValueType();
 
-  /// @brief Method get_ArgumentTypesMustMatch, addr 0x2b045bc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_ArgumentTypesMustMatch, addr 0x2c01ebc, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_ArgumentTypesMustMatch();
 
-  /// @brief Method get_BindingCannotBeNull, addr 0x2b01b5c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_BindingCannotBeNull, addr 0x2bff45c, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_BindingCannotBeNull();
 
-  /// @brief Method get_BodyOfCatchMustHaveSameTypeAsBodyOfTry, addr 0x2b03818, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_BodyOfCatchMustHaveSameTypeAsBodyOfTry, addr 0x2c01118, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_BodyOfCatchMustHaveSameTypeAsBodyOfTry();
 
-  /// @brief Method get_BothAccessorsMustBeStatic, addr 0x2b02a40, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_BothAccessorsMustBeStatic, addr 0x2c00340, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_BothAccessorsMustBeStatic();
 
-  /// @brief Method get_BoundsCannotBeLessThanOne, addr 0x2b02518, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_BoundsCannotBeLessThanOne, addr 0x2bffe18, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_BoundsCannotBeLessThanOne();
 
-  /// @brief Method get_CoalesceUsedOnNonNullType, addr 0x2b04818, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_CoalesceUsedOnNonNullType, addr 0x2c02118, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_CoalesceUsedOnNonNullType();
 
-  /// @brief Method get_CollectionModifiedWhileEnumerating, addr 0x2b0145c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_CollectionModifiedWhileEnumerating, addr 0x2bfed5c, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_CollectionModifiedWhileEnumerating();
 
-  /// @brief Method get_CollectionReadOnly, addr 0x2b01528, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_CollectionReadOnly, addr 0x2bfee28, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_CollectionReadOnly();
 
-  /// @brief Method get_ControlCannotEnterExpression, addr 0x2b0659c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_ControlCannotEnterExpression, addr 0x2c03e9c, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_ControlCannotEnterExpression();
 
-  /// @brief Method get_ControlCannotEnterTry, addr 0x2b064d0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_ControlCannotEnterTry, addr 0x2c03dd0, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_ControlCannotEnterTry();
 
-  /// @brief Method get_ControlCannotLeaveFilterTest, addr 0x2b06344, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_ControlCannotLeaveFilterTest, addr 0x2c03c44, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_ControlCannotLeaveFilterTest();
 
-  /// @brief Method get_ControlCannotLeaveFinally, addr 0x2b06278, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_ControlCannotLeaveFinally, addr 0x2c03b78, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_ControlCannotLeaveFinally();
 
-  /// @brief Method get_ConversionIsNotSupportedForArithmeticTypes, addr 0x2b04094, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_ConversionIsNotSupportedForArithmeticTypes, addr 0x2c01994, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_ConversionIsNotSupportedForArithmeticTypes();
 
-  /// @brief Method get_EnumerationIsDone, addr 0x2b06d20, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_EnumerationIsDone, addr 0x2c04620, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_EnumerationIsDone();
 
-  /// @brief Method get_ExpressionMustBeReadable, addr 0x2b075c0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_ExpressionMustBeReadable, addr 0x2c04ec0, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_ExpressionMustBeReadable();
 
-  /// @brief Method get_ExpressionMustBeWriteable, addr 0x2b02f58, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_ExpressionMustBeWriteable, addr 0x2c00858, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_ExpressionMustBeWriteable();
 
-  /// @brief Method get_FaultCannotHaveCatchOrFinally, addr 0x2b03680, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_FaultCannotHaveCatchOrFinally, addr 0x2c00f80, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_FaultCannotHaveCatchOrFinally();
 
-  /// @brief Method get_FirstArgumentMustBeCallSite, addr 0x2b02048, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_FirstArgumentMustBeCallSite, addr 0x2bff948, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_FirstArgumentMustBeCallSite();
 
-  /// @brief Method get_IncorrectNumberOfConstructorArguments, addr 0x2b06fd4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_IncorrectNumberOfConstructorArguments, addr 0x2c048d4, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_IncorrectNumberOfConstructorArguments();
 
-  /// @brief Method get_IncorrectNumberOfIndexes, addr 0x2b04f04, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_IncorrectNumberOfIndexes, addr 0x2c02804, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_IncorrectNumberOfIndexes();
 
-  /// @brief Method get_IncorrectNumberOfLambdaArguments, addr 0x2b072f8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_IncorrectNumberOfLambdaArguments, addr 0x2c04bf8, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_IncorrectNumberOfLambdaArguments();
 
-  /// @brief Method get_IncorrectNumberOfLambdaDeclarationParameters, addr 0x2b04fd0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_IncorrectNumberOfLambdaDeclarationParameters, addr 0x2c028d0, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_IncorrectNumberOfLambdaDeclarationParameters();
 
-  /// @brief Method get_IndexesOfSetGetMustMatch, addr 0x2b01ebc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_IndexesOfSetGetMustMatch, addr 0x2bff7bc, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_IndexesOfSetGetMustMatch();
 
-  /// @brief Method get_InvalidArgumentValue, addr 0x2b076ac, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_InvalidArgumentValue, addr 0x2c04fac, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_InvalidArgumentValue();
 
-  /// @brief Method get_InvalidUnboxType, addr 0x2b02e7c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_InvalidUnboxType, addr 0x2c0077c, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_InvalidUnboxType();
 
-  /// @brief Method get_LabelMustBeVoidOrHaveExpression, addr 0x2b031dc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_LabelMustBeVoidOrHaveExpression, addr 0x2c00adc, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_LabelMustBeVoidOrHaveExpression();
 
-  /// @brief Method get_LabelTypeMustBeVoid, addr 0x2b032b8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_LabelTypeMustBeVoid, addr 0x2c00bb8, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_LabelTypeMustBeVoid();
 
-  /// @brief Method get_LambdaTypeMustBeDerivedFromSystemDelegate, addr 0x2b050ac, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_LambdaTypeMustBeDerivedFromSystemDelegate, addr 0x2c029ac, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_LambdaTypeMustBeDerivedFromSystemDelegate();
 
-  /// @brief Method get_MustBeReducible, addr 0x2b03100, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_MustBeReducible, addr 0x2c00a00, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_MustBeReducible();
 
-  /// @brief Method get_MustReduceToDifferent, addr 0x2b015f4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_MustReduceToDifferent, addr 0x2bfeef4, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_MustReduceToDifferent();
 
-  /// @brief Method get_NoOrInvalidRuleProduced, addr 0x2b0243c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_NoOrInvalidRuleProduced, addr 0x2bffd3c, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_NoOrInvalidRuleProduced();
 
-  /// @brief Method get_NonAbstractConstructorRequired, addr 0x2b06bf8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_NonAbstractConstructorRequired, addr 0x2c044f8, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_NonAbstractConstructorRequired();
 
-  /// @brief Method get_OnlyStaticFieldsHaveNullInstance, addr 0x2b02b1c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_OnlyStaticFieldsHaveNullInstance, addr 0x2c0041c, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_OnlyStaticFieldsHaveNullInstance();
 
-  /// @brief Method get_OnlyStaticMethodsHaveNullInstance, addr 0x2b02cc4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_OnlyStaticMethodsHaveNullInstance, addr 0x2c005c4, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_OnlyStaticMethodsHaveNullInstance();
 
-  /// @brief Method get_OnlyStaticPropertiesHaveNullInstance, addr 0x2b02bf8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_OnlyStaticPropertiesHaveNullInstance, addr 0x2c004f8, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_OnlyStaticPropertiesHaveNullInstance();
 
-  /// @brief Method get_PropertyCannotHaveRefType, addr 0x2b01de0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_PropertyCannotHaveRefType, addr 0x2bff6e0, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_PropertyCannotHaveRefType();
 
-  /// @brief Method get_PropertyTypeCannotBeVoid, addr 0x2b02da0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_PropertyTypeCannotBeVoid, addr 0x2c006a0, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_PropertyTypeCannotBeVoid();
 
-  /// @brief Method get_PropertyTypeMustMatchGetter, addr 0x2b02888, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_PropertyTypeMustMatchGetter, addr 0x2c00188, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_PropertyTypeMustMatchGetter();
 
-  /// @brief Method get_PropertyTypeMustMatchSetter, addr 0x2b02964, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_PropertyTypeMustMatchSetter, addr 0x2c00264, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_PropertyTypeMustMatchSetter();
 
-  /// @brief Method get_QuotedExpressionMustBeLambda, addr 0x2b03394, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_QuotedExpressionMustBeLambda, addr 0x2c00c94, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_QuotedExpressionMustBeLambda();
 
-  /// @brief Method get_ReducedNotCompatible, addr 0x2b01c28, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_ReducedNotCompatible, addr 0x2bff528, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_ReducedNotCompatible();
 
-  /// @brief Method get_ReducibleMustOverrideReduce, addr 0x2b01078, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_ReducibleMustOverrideReduce, addr 0x2bfe978, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_ReducibleMustOverrideReduce();
 
-  /// @brief Method get_RethrowRequiresCatch, addr 0x2b06810, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_RethrowRequiresCatch, addr 0x2c04110, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_RethrowRequiresCatch();
 
-  /// @brief Method get_SetterHasNoParams, addr 0x2b01d04, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_SetterHasNoParams, addr 0x2bff604, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_SetterHasNoParams();
 
-  /// @brief Method get_SetterMustBeVoid, addr 0x2b027ac, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_SetterMustBeVoid, addr 0x2c000ac, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_SetterMustBeVoid();
 
-  /// @brief Method get_TryMustHaveCatchFinallyOrFault, addr 0x2b0374c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_TryMustHaveCatchFinallyOrFault, addr 0x2c0104c, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_TryMustHaveCatchFinallyOrFault();
 
-  /// @brief Method get_TypeMustBeDerivedFromSystemDelegate, addr 0x2b02370, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_TypeMustBeDerivedFromSystemDelegate, addr 0x2bffc70, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_TypeMustBeDerivedFromSystemDelegate();
 
-  /// @brief Method get_TypeMustNotBeByRef, addr 0x2b025f4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_TypeMustNotBeByRef, addr 0x2bffef4, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_TypeMustNotBeByRef();
 
-  /// @brief Method get_TypeMustNotBePointer, addr 0x2b026d0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_TypeMustNotBePointer, addr 0x2bfffd0, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_TypeMustNotBePointer();
 
 protected:

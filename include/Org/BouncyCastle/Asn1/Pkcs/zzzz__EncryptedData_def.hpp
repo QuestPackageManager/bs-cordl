@@ -48,7 +48,7 @@ public:
   /// @brief Field data, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data))::Org::BouncyCastle::Asn1::Asn1Sequence* data;
 
-  /// @brief Method GetInstance, addr 0x10f27d8, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x11e5efc, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptedData* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptedData* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* contentType,
@@ -56,7 +56,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptedData* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x10f2e44, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x11e6568, size 0x124, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_data();
@@ -65,20 +65,20 @@ public:
 
   constexpr void __cordl_internal_set_data(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method .ctor, addr 0x10f2b40, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11e6264, size 0x184, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* contentType, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* encryptionAlgorithm,
                     ::Org::BouncyCastle::Asn1::Asn1Encodable* content);
 
-  /// @brief Method .ctor, addr 0x10f2960, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11e6084, size 0x1e0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Content, addr 0x10f2d7c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method get_Content, addr 0x11e64a0, size 0xc8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_Content();
 
-  /// @brief Method get_ContentType, addr 0x10f2cc4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_ContentType, addr 0x11e63e8, size 0x90, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_ContentType();
 
-  /// @brief Method get_EncryptionAlgorithm, addr 0x10f2d54, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_EncryptionAlgorithm, addr 0x11e6478, size 0x28, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_EncryptionAlgorithm();
 
 protected:

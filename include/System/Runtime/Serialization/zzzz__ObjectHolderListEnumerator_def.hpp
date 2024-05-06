@@ -39,7 +39,7 @@ public:
   /// @brief Field m_startingVersion, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_m_startingVersion, put = __cordl_internal_set_m_startingVersion)) int32_t m_startingVersion;
 
-  /// @brief Method MoveNext, addr 0x273e540, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method MoveNext, addr 0x283c93c, size 0xbc, virtual false, abstract: false, final false
   inline bool MoveNext();
 
   static inline ::System::Runtime::Serialization::ObjectHolderListEnumerator* New_ctor(::System::Runtime::Serialization::ObjectHolderList* list, bool isFixupEnumerator);
@@ -68,10 +68,10 @@ public:
 
   constexpr void __cordl_internal_set_m_startingVersion(int32_t value);
 
-  /// @brief Method .ctor, addr 0x273f65c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x283da58, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::ObjectHolderList* list, bool isFixupEnumerator);
 
-  /// @brief Method get_Current, addr 0x273e4e8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_Current, addr 0x283c8e4, size 0x3c, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::ObjectHolder* get_Current();
 
 protected:

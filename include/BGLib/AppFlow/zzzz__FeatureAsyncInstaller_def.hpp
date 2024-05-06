@@ -30,19 +30,19 @@ public:
   // Declarations
   __declspec(property(get = get_assetLabelRuntimeKey))::StringW assetLabelRuntimeKey;
 
-  /// @brief Method InstallBindings, addr 0xf7f260, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x1071810, size 0x4, virtual true, abstract: false, final false
   inline void InstallBindings();
 
-  /// @brief Method LoadResourcesBeforeInstall, addr 0xf7ef08, size 0x358, virtual true, abstract: false, final false
+  /// @brief Method LoadResourcesBeforeInstall, addr 0x10714b8, size 0x358, virtual true, abstract: false, final false
   inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::UnityW<::Zenject::ScriptableObjectInstaller>>* scriptableObjectInstallers,
                                          ::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry* registry);
 
   static inline ::BGLib::AppFlow::FeatureAsyncInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf7f264, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1071814, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_assetLabelRuntimeKey, addr 0xf7eec8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_assetLabelRuntimeKey, addr 0x1071478, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_assetLabelRuntimeKey();
 
 protected:

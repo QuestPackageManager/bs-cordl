@@ -44,123 +44,123 @@ public:
   /// @brief Field _rightToLeft, offset 0x98, size 0x1
   __declspec(property(get = __cordl_internal_get__rightToLeft, put = __cordl_internal_set__rightToLeft)) bool _rightToLeft;
 
-  /// @brief Method Advance, addr 0x2e938dc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Advance, addr 0x2f941dc, size 0x64, virtual false, abstract: false, final false
   inline void Advance(int32_t i);
 
-  /// @brief Method Backtrack, addr 0x2e93d04, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Backtrack, addr 0x2f94604, size 0xf8, virtual false, abstract: false, final false
   inline void Backtrack();
 
-  /// @brief Method Backwardnext, addr 0x2e943fc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Backwardnext, addr 0x2f94cfc, size 0x30, virtual false, abstract: false, final false
   inline void Backwardnext();
 
-  /// @brief Method Bump, addr 0x2e94024, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Bump, addr 0x2f94924, size 0x14, virtual false, abstract: false, final false
   inline int32_t Bump();
 
-  /// @brief Method CharAt, addr 0x2e9442c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method CharAt, addr 0x2f94d2c, size 0x1c, virtual false, abstract: false, final false
   inline char16_t CharAt(int32_t j);
 
-  /// @brief Method FindFirstChar, addr 0x2e94448, size 0x360, virtual true, abstract: false, final false
+  /// @brief Method FindFirstChar, addr 0x2f94d48, size 0x360, virtual true, abstract: false, final false
   inline bool FindFirstChar();
 
-  /// @brief Method Forwardcharnext, addr 0x2e94064, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Forwardcharnext, addr 0x2f94964, size 0x90, virtual false, abstract: false, final false
   inline char16_t Forwardcharnext();
 
-  /// @brief Method Forwardchars, addr 0x2e94038, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Forwardchars, addr 0x2f94938, size 0x2c, virtual false, abstract: false, final false
   inline int32_t Forwardchars();
 
-  /// @brief Method Go, addr 0x2e947a8, size 0x11dc, virtual true, abstract: false, final false
+  /// @brief Method Go, addr 0x2f950a8, size 0x11dc, virtual true, abstract: false, final false
   inline void Go();
 
-  /// @brief Method Goto, addr 0x2e93960, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Goto, addr 0x2f94260, size 0x78, virtual false, abstract: false, final false
   inline void Goto(int32_t newpos);
 
-  /// @brief Method InitTrackCount, addr 0x2e938bc, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method InitTrackCount, addr 0x2f941bc, size 0x20, virtual true, abstract: false, final false
   inline void InitTrackCount();
 
-  /// @brief Method Leftchars, addr 0x2e94004, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Leftchars, addr 0x2f94904, size 0x10, virtual false, abstract: false, final false
   inline int32_t Leftchars();
 
   static inline ::System::Text::RegularExpressions::RegexInterpreter* New_ctor(::System::Text::RegularExpressions::RegexCode* code, ::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method Operand, addr 0x2e93fc0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Operand, addr 0x2f948c0, size 0x44, virtual false, abstract: false, final false
   inline int32_t Operand(int32_t i);
 
-  /// @brief Method Operator, addr 0x2e93fb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Operator, addr 0x2f948b8, size 0x8, virtual false, abstract: false, final false
   inline int32_t Operator();
 
-  /// @brief Method Refmatch, addr 0x2e94260, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method Refmatch, addr 0x2f94b60, size 0x19c, virtual false, abstract: false, final false
   inline bool Refmatch(int32_t index, int32_t len);
 
-  /// @brief Method Rightchars, addr 0x2e94014, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Rightchars, addr 0x2f94914, size 0x10, virtual false, abstract: false, final false
   inline int32_t Rightchars();
 
-  /// @brief Method SetOperator, addr 0x2e93940, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method SetOperator, addr 0x2f94240, size 0x20, virtual false, abstract: false, final false
   inline void SetOperator(int32_t op);
 
-  /// @brief Method StackPeek, addr 0x2e93f44, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method StackPeek, addr 0x2f94844, size 0x38, virtual false, abstract: false, final false
   inline int32_t StackPeek();
 
-  /// @brief Method StackPeek, addr 0x2e93f7c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method StackPeek, addr 0x2f9487c, size 0x3c, virtual false, abstract: false, final false
   inline int32_t StackPeek(int32_t i);
 
-  /// @brief Method StackPop, addr 0x2e93f24, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method StackPop, addr 0x2f94824, size 0x10, virtual false, abstract: false, final false
   inline void StackPop();
 
-  /// @brief Method StackPop, addr 0x2e93f34, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method StackPop, addr 0x2f94834, size 0x10, virtual false, abstract: false, final false
   inline void StackPop(int32_t framesize);
 
-  /// @brief Method StackPush, addr 0x2e93e90, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method StackPush, addr 0x2f94790, size 0x3c, virtual false, abstract: false, final false
   inline void StackPush(int32_t I1);
 
-  /// @brief Method StackPush, addr 0x2e93ecc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method StackPush, addr 0x2f947cc, size 0x58, virtual false, abstract: false, final false
   inline void StackPush(int32_t I1, int32_t I2);
 
-  /// @brief Method Stringmatch, addr 0x2e940f4, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method Stringmatch, addr 0x2f949f4, size 0x16c, virtual false, abstract: false, final false
   inline bool Stringmatch(::StringW str);
 
-  /// @brief Method Textpos, addr 0x2e93a54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Textpos, addr 0x2f94354, size 0x8, virtual false, abstract: false, final false
   inline int32_t Textpos();
 
-  /// @brief Method Textstart, addr 0x2e93a4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Textstart, addr 0x2f9434c, size 0x8, virtual false, abstract: false, final false
   inline int32_t Textstart();
 
-  /// @brief Method Textto, addr 0x2e93a20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Textto, addr 0x2f94320, size 0x8, virtual false, abstract: false, final false
   inline void Textto(int32_t newpos);
 
-  /// @brief Method TrackPeek, addr 0x2e93e1c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method TrackPeek, addr 0x2f9471c, size 0x38, virtual false, abstract: false, final false
   inline int32_t TrackPeek();
 
-  /// @brief Method TrackPeek, addr 0x2e93e54, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method TrackPeek, addr 0x2f94754, size 0x3c, virtual false, abstract: false, final false
   inline int32_t TrackPeek(int32_t i);
 
-  /// @brief Method TrackPop, addr 0x2e93dfc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method TrackPop, addr 0x2f946fc, size 0x10, virtual false, abstract: false, final false
   inline void TrackPop();
 
-  /// @brief Method TrackPop, addr 0x2e93e0c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method TrackPop, addr 0x2f9470c, size 0x10, virtual false, abstract: false, final false
   inline void TrackPop(int32_t framesize);
 
-  /// @brief Method TrackPush, addr 0x2e93a80, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method TrackPush, addr 0x2f94380, size 0x40, virtual false, abstract: false, final false
   inline void TrackPush();
 
-  /// @brief Method TrackPush, addr 0x2e93ac0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method TrackPush, addr 0x2f943c0, size 0x5c, virtual false, abstract: false, final false
   inline void TrackPush(int32_t I1);
 
-  /// @brief Method TrackPush, addr 0x2e93b1c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method TrackPush, addr 0x2f9441c, size 0x78, virtual false, abstract: false, final false
   inline void TrackPush(int32_t I1, int32_t I2);
 
-  /// @brief Method TrackPush, addr 0x2e93b94, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method TrackPush, addr 0x2f94494, size 0x94, virtual false, abstract: false, final false
   inline void TrackPush(int32_t I1, int32_t I2, int32_t I3);
 
-  /// @brief Method TrackPush2, addr 0x2e93c28, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method TrackPush2, addr 0x2f94528, size 0x60, virtual false, abstract: false, final false
   inline void TrackPush2(int32_t I1);
 
-  /// @brief Method TrackPush2, addr 0x2e93c88, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method TrackPush2, addr 0x2f94588, size 0x7c, virtual false, abstract: false, final false
   inline void TrackPush2(int32_t I1, int32_t I2);
 
-  /// @brief Method Trackpos, addr 0x2e93a5c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Trackpos, addr 0x2f9435c, size 0x24, virtual false, abstract: false, final false
   inline int32_t Trackpos();
 
-  /// @brief Method Trackto, addr 0x2e93a28, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Trackto, addr 0x2f94328, size 0x24, virtual false, abstract: false, final false
   inline void Trackto(int32_t newpos);
 
   constexpr bool const& __cordl_internal_get__caseInsensitive() const;
@@ -199,7 +199,7 @@ public:
 
   constexpr void __cordl_internal_set__rightToLeft(bool value);
 
-  /// @brief Method .ctor, addr 0x2e93888, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f94188, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Text::RegularExpressions::RegexCode* code, ::System::Globalization::CultureInfo* culture);
 
 protected:

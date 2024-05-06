@@ -37,7 +37,7 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InstancedInput*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InstancedInput*>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x245cb08, size 0x1a0, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x2556794, size 0x1a0, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_InstancedInput* other);
 
   static inline ::HoudiniEngineUnity::HEU_InstancedInput* New_ctor();
@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set__scaleOffset(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x245cca8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2556934, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InstancedInput*>"

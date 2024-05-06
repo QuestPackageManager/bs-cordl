@@ -54,10 +54,10 @@ public:
   __declspec(property(get = __cordl_internal_get_pageXmlNmsp,
                       put = __cordl_internal_set_pageXmlNmsp))::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> pageXmlNmsp;
 
-  /// @brief Method GetXmlNamespaceNode, addr 0x2dc1a58, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetXmlNamespaceNode, addr 0x2ebf358, size 0x10, virtual false, abstract: false, final false
   inline int32_t GetXmlNamespaceNode(ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>> pageXmlNmsp);
 
-  /// @brief Method LookupNamespaces, addr 0x2dc1a68, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method LookupNamespaces, addr 0x2ebf368, size 0xd4, virtual false, abstract: false, final false
   inline int32_t LookupNamespaces(::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> pageElem, int32_t idxElem,
                                   ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>> pageNmsp);
 
@@ -92,10 +92,10 @@ public:
 
   constexpr void __cordl_internal_set_pageXmlNmsp(::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> value);
 
-  /// @brief Method get_HasLineInfo, addr 0x2dc1a50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HasLineInfo, addr 0x2ebf350, size 0x8, virtual false, abstract: false, final false
   inline bool get_HasLineInfo();
 
-  /// @brief Method get_NameTable, addr 0x2dc1a48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NameTable, addr 0x2ebf348, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlNameTable* get_NameTable();
 
 protected:

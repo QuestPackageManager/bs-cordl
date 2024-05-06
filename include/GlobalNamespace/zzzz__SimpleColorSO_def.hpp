@@ -29,7 +29,7 @@ public:
 
   static inline ::GlobalNamespace::SimpleColorSO* New_ctor();
 
-  /// @brief Method SetColor, addr 0x139ca8c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetColor, addr 0x14921b0, size 0xc, virtual false, abstract: false, final false
   inline void SetColor(::UnityEngine::Color c);
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
@@ -38,10 +38,10 @@ public:
 
   constexpr void __cordl_internal_set__color(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x139ca98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14921bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_color, addr 0x139ca80, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_color, addr 0x14921a4, size 0xc, virtual true, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
 protected:

@@ -33,97 +33,97 @@ namespace UnityEngine {
 class CORDL_TYPE GL : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Begin, addr 0x31f6b40, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Begin, addr 0x33fd874, size 0x3c, virtual false, abstract: false, final false
   static inline void Begin(int32_t mode);
 
-  /// @brief Method Clear, addr 0x31f6c80, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x33fd9b4, size 0x10, virtual false, abstract: false, final false
   static inline void Clear(bool clearDepth, bool clearColor, ::UnityEngine::Color backgroundColor);
 
-  /// @brief Method Clear, addr 0x31f6c74, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x33fd9a8, size 0xc, virtual false, abstract: false, final false
   static inline void Clear(bool clearDepth, bool clearColor, ::UnityEngine::Color backgroundColor, float_t depth);
 
-  /// @brief Method Color, addr 0x31f6660, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Color, addr 0x33fd394, size 0x58, virtual false, abstract: false, final false
   static inline void Color(::UnityEngine::Color c);
 
-  /// @brief Method End, addr 0x31f6b7c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method End, addr 0x33fd8b0, size 0x28, virtual false, abstract: false, final false
   static inline void End();
 
-  /// @brief Method Flush, addr 0x31f6780, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Flush, addr 0x33fd4b4, size 0x28, virtual false, abstract: false, final false
   static inline void Flush();
 
-  /// @brief Method GLClear, addr 0x31f6ba4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GLClear, addr 0x33fd8d8, size 0x6c, virtual false, abstract: false, final false
   static inline void GLClear(bool clearDepth, bool clearColor, ::UnityEngine::Color backgroundColor, float_t depth);
 
-  /// @brief Method GLClear_Injected, addr 0x31f6c10, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GLClear_Injected, addr 0x33fd944, size 0x64, virtual false, abstract: false, final false
   static inline void GLClear_Injected(bool clearDepth, bool clearColor, ByRef<::UnityEngine::Color> backgroundColor, float_t depth);
 
-  /// @brief Method GLIssuePluginEvent, addr 0x31f6a0c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GLIssuePluginEvent, addr 0x33fd740, size 0x44, virtual false, abstract: false, final false
   static inline void GLIssuePluginEvent(void* callback, int32_t eventID);
 
-  /// @brief Method GLLoadPixelMatrixScript, addr 0x31f695c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GLLoadPixelMatrixScript, addr 0x33fd690, size 0x58, virtual false, abstract: false, final false
   static inline void GLLoadPixelMatrixScript(float_t left, float_t right, float_t bottom, float_t top);
 
-  /// @brief Method ImmediateColor, addr 0x31f6608, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ImmediateColor, addr 0x33fd33c, size 0x58, virtual false, abstract: false, final false
   static inline void ImmediateColor(float_t r, float_t g, float_t b, float_t a);
 
-  /// @brief Method IssuePluginEvent, addr 0x31f6a50, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method IssuePluginEvent, addr 0x33fd784, size 0xf0, virtual false, abstract: false, final false
   static inline void IssuePluginEvent(void* callback, int32_t eventID);
 
-  /// @brief Method LoadOrtho, addr 0x31f68bc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method LoadOrtho, addr 0x33fd5f0, size 0x28, virtual false, abstract: false, final false
   static inline void LoadOrtho();
 
-  /// @brief Method LoadPixelMatrix, addr 0x31f69b4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method LoadPixelMatrix, addr 0x33fd6e8, size 0x58, virtual false, abstract: false, final false
   static inline void LoadPixelMatrix(float_t left, float_t right, float_t bottom, float_t top);
 
-  /// @brief Method LoadProjectionMatrix, addr 0x31f68e4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method LoadProjectionMatrix, addr 0x33fd618, size 0x3c, virtual false, abstract: false, final false
   static inline void LoadProjectionMatrix(::UnityEngine::Matrix4x4 mat);
 
-  /// @brief Method LoadProjectionMatrix_Injected, addr 0x31f6920, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method LoadProjectionMatrix_Injected, addr 0x33fd654, size 0x3c, virtual false, abstract: false, final false
   static inline void LoadProjectionMatrix_Injected(ByRef<::UnityEngine::Matrix4x4> mat);
 
-  /// @brief Method PopMatrix, addr 0x31f6894, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method PopMatrix, addr 0x33fd5c8, size 0x28, virtual false, abstract: false, final false
   static inline void PopMatrix();
 
-  /// @brief Method PushMatrix, addr 0x31f686c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method PushMatrix, addr 0x33fd5a0, size 0x28, virtual false, abstract: false, final false
   static inline void PushMatrix();
 
-  /// @brief Method SetViewMatrix, addr 0x31f67a8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetViewMatrix, addr 0x33fd4dc, size 0x3c, virtual false, abstract: false, final false
   static inline void SetViewMatrix(::UnityEngine::Matrix4x4 m);
 
-  /// @brief Method SetViewMatrix_Injected, addr 0x31f67e4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetViewMatrix_Injected, addr 0x33fd518, size 0x3c, virtual false, abstract: false, final false
   static inline void SetViewMatrix_Injected(ByRef<::UnityEngine::Matrix4x4> m);
 
-  /// @brief Method TexCoord, addr 0x31f6574, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method TexCoord, addr 0x33fd2a8, size 0x50, virtual false, abstract: false, final false
   static inline void TexCoord(::UnityEngine::Vector3 v);
 
-  /// @brief Method TexCoord2, addr 0x31f65c4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method TexCoord2, addr 0x33fd2f8, size 0x44, virtual false, abstract: false, final false
   static inline void TexCoord2(float_t x, float_t y);
 
-  /// @brief Method TexCoord3, addr 0x31f6524, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method TexCoord3, addr 0x33fd258, size 0x50, virtual false, abstract: false, final false
   static inline void TexCoord3(float_t x, float_t y, float_t z);
 
-  /// @brief Method Vertex3, addr 0x31f64d4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Vertex3, addr 0x33fd208, size 0x50, virtual false, abstract: false, final false
   static inline void Vertex3(float_t x, float_t y, float_t z);
 
-  /// @brief Method Viewport, addr 0x31f6c90, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Viewport, addr 0x33fd9c4, size 0x44, virtual false, abstract: false, final false
   static inline void Viewport(::UnityEngine::Rect pixelRect);
 
-  /// @brief Method Viewport_Injected, addr 0x31f6cd4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Viewport_Injected, addr 0x33fda08, size 0x3c, virtual false, abstract: false, final false
   static inline void Viewport_Injected(ByRef<::UnityEngine::Rect> pixelRect);
 
-  /// @brief Method get_invertCulling, addr 0x31f671c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_invertCulling, addr 0x33fd450, size 0x28, virtual false, abstract: false, final false
   static inline bool get_invertCulling();
 
-  /// @brief Method get_sRGBWrite, addr 0x31f66b8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_sRGBWrite, addr 0x33fd3ec, size 0x28, virtual false, abstract: false, final false
   static inline bool get_sRGBWrite();
 
-  /// @brief Method set_invertCulling, addr 0x31f6744, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_invertCulling, addr 0x33fd478, size 0x3c, virtual false, abstract: false, final false
   static inline void set_invertCulling(bool value);
 
-  /// @brief Method set_modelview, addr 0x31f6820, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_modelview, addr 0x33fd554, size 0x4c, virtual false, abstract: false, final false
   static inline void set_modelview(::UnityEngine::Matrix4x4 value);
 
-  /// @brief Method set_sRGBWrite, addr 0x31f66e0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_sRGBWrite, addr 0x33fd414, size 0x3c, virtual false, abstract: false, final false
   static inline void set_sRGBWrite(bool value);
 
 protected:

@@ -31,11 +31,11 @@ namespace UnityEngine::ProBuilder::MeshOperations {
 class CORDL_TYPE Subdivision : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Subdivide, addr 0x30eeb0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Subdivide, addr 0x32f5594, size 0x8, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*> Subdivide(::UnityEngine::ProBuilder::ProBuilderMesh* pb,
                                                                                                                  ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>* faces);
 
-  /// @brief Method Subdivide, addr 0x30eea58, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Subdivide, addr 0x32f54e0, size 0xb4, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::ActionResult* Subdivide(::UnityEngine::ProBuilder::ProBuilderMesh* pb);
 
 protected:

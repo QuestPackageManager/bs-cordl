@@ -26,15 +26,15 @@ public:
   // Declarations
   __declspec(property(get = get_outputs))::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* outputs;
 
-  /// @brief Method CanCompileClips, addr 0x3198b8c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CanCompileClips, addr 0x339f614, size 0x8, virtual true, abstract: false, final false
   inline bool CanCompileClips();
 
   static inline ::UnityEngine::Timeline::GroupTrack* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3198bec, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x339f674, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_outputs, addr 0x3198b94, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_outputs, addr 0x339f61c, size 0x58, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* get_outputs();
 
 protected:

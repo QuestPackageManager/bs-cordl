@@ -77,18 +77,18 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x2c6db28, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2d6b428, size 0x10, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x2c6db38, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x2d6b438, size 0x34, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method EnsureSuccessStatusCode, addr 0x2c6bf18, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method EnsureSuccessStatusCode, addr 0x2d69818, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Net::Http::HttpResponseMessage* EnsureSuccessStatusCode();
 
   static inline ::System::Net::Http::HttpResponseMessage* New_ctor(::System::Net::HttpStatusCode statusCode);
 
-  /// @brief Method ToString, addr 0x2c6db6c, size 0x23c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2d6b46c, size 0x23c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Net::Http::HttpContent*& __cordl_internal_get__Content_k__BackingField();
@@ -133,40 +133,40 @@ public:
 
   constexpr void __cordl_internal_set_version(::System::Version* value);
 
-  /// @brief Method .ctor, addr 0x2c67d78, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d65678, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::HttpStatusCode statusCode);
 
-  /// @brief Method get_Content, addr 0x2c6da0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Content, addr 0x2d6b30c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Http::HttpContent* get_Content();
 
-  /// @brief Method get_Headers, addr 0x2c67ee4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_Headers, addr 0x2d657e4, size 0x68, virtual false, abstract: false, final false
   inline ::System::Net::Http::Headers::HttpResponseHeaders* get_Headers();
 
-  /// @brief Method get_IsSuccessStatusCode, addr 0x2c6da7c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_IsSuccessStatusCode, addr 0x2d6b37c, size 0x14, virtual false, abstract: false, final false
   inline bool get_IsSuccessStatusCode();
 
-  /// @brief Method get_ReasonPhrase, addr 0x2c6da90, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_ReasonPhrase, addr 0x2d6b390, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW get_ReasonPhrase();
 
-  /// @brief Method get_StatusCode, addr 0x2c6dabc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StatusCode, addr 0x2d6b3bc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::HttpStatusCode get_StatusCode();
 
-  /// @brief Method get_Version, addr 0x2c6dac4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x2d6b3c4, size 0x64, virtual false, abstract: false, final false
   inline ::System::Version* get_Version();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_Content, addr 0x2c6da14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Content, addr 0x2d6b314, size 0x8, virtual false, abstract: false, final false
   inline void set_Content(::System::Net::Http::HttpContent* value);
 
-  /// @brief Method set_ReasonPhrase, addr 0x2c6daac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ReasonPhrase, addr 0x2d6b3ac, size 0x8, virtual false, abstract: false, final false
   inline void set_ReasonPhrase(::StringW value);
 
-  /// @brief Method set_RequestMessage, addr 0x2c6dab4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RequestMessage, addr 0x2d6b3b4, size 0x8, virtual false, abstract: false, final false
   inline void set_RequestMessage(::System::Net::Http::HttpRequestMessage* value);
 
-  /// @brief Method set_StatusCode, addr 0x2c6d9bc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method set_StatusCode, addr 0x2d6b2bc, size 0x50, virtual false, abstract: false, final false
   inline void set_StatusCode(::System::Net::HttpStatusCode value);
 
 protected:

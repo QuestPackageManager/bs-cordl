@@ -32,7 +32,7 @@ public:
 
   __declspec(property(put = set_canHaveAnyAttribute)) bool canHaveAnyAttribute;
 
-  /// @brief Method Init, addr 0x3361078, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x3564db4, size 0x4, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::UxmlTraits* New_ctor();
@@ -43,10 +43,10 @@ public:
 
   constexpr void __cordl_internal_set__canHaveAnyAttribute_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x336104c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3564d88, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_canHaveAnyAttribute, addr 0x336106c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_canHaveAnyAttribute, addr 0x3564da8, size 0xc, virtual false, abstract: false, final false
   inline void set_canHaveAnyAttribute(bool value);
 
 protected:

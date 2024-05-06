@@ -49,21 +49,21 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::INoteControllerDidInitEvent"
   constexpr operator ::GlobalNamespace::INoteControllerDidInitEvent*() noexcept;
 
-  /// @brief Method Awake, addr 0x252c044, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2622370, size 0xc4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleNoteControllerDidInit, addr 0x252c3ec, size 0xd0, virtual true, abstract: false, final true
+  /// @brief Method HandleNoteControllerDidInit, addr 0x2622718, size 0xd0, virtual true, abstract: false, final true
   inline void HandleNoteControllerDidInit(::GlobalNamespace::NoteControllerBase* noteController);
 
-  /// @brief Method HandleNoteJumpDidUpdateProgress, addr 0x252c3e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteJumpDidUpdateProgress, addr 0x2622714, size 0x4, virtual false, abstract: false, final false
   inline void HandleNoteJumpDidUpdateProgress(float_t progress);
 
   static inline ::GlobalNamespace::NoteJumpStartScaleUp* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x252c260, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x262258c, size 0x188, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method UpdateScale, addr 0x252c108, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method UpdateScale, addr 0x2622434, size 0x158, virtual false, abstract: false, final false
   inline void UpdateScale(float_t progress);
 
   constexpr float_t const& __cordl_internal_get__fullScaleJumpPart() const;
@@ -90,7 +90,7 @@ public:
 
   constexpr void __cordl_internal_set__targetTransform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x252c4bc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26227e8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::INoteControllerDidInitEvent"

@@ -75,22 +75,22 @@ public:
 
   static inline ::GlobalNamespace::__EnvironmentsListModel____c* New_ctor();
 
-  /// @brief Method <CreateFromAddressables>b__13_0, addr 0x13a92fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <CreateFromAddressables>b__13_0, addr 0x149e9d8, size 0x4, virtual false, abstract: false, final false
   inline void _CreateFromAddressables_b__13_0(::GlobalNamespace::EnvironmentInfoSO* _);
 
-  /// @brief Method <.ctor>b__12_0, addr 0x13a929c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__12_0, addr 0x149e978, size 0x18, virtual false, abstract: false, final false
   inline int32_t __ctor_b__12_0(::GlobalNamespace::EnvironmentInfoSO* envInfo);
 
-  /// @brief Method <.ctor>b__12_1, addr 0x13a92b4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__12_1, addr 0x149e990, size 0x18, virtual false, abstract: false, final false
   inline ::StringW __ctor_b__12_1(::GlobalNamespace::EnvironmentInfoSO* e);
 
-  /// @brief Method <.ctor>b__12_2, addr 0x13a92cc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__12_2, addr 0x149e9a8, size 0x18, virtual false, abstract: false, final false
   inline ::StringW __ctor_b__12_2(::GlobalNamespace::EnvironmentInfoSO* e);
 
-  /// @brief Method <.ctor>b__12_3, addr 0x13a92e4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__12_3, addr 0x149e9c0, size 0x18, virtual false, abstract: false, final false
   inline ::StringW __ctor_b__12_3(::GlobalNamespace::EnvironmentInfoSO* envInfo);
 
-  /// @brief Method .ctor, addr 0x13a9294, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x149e970, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__EnvironmentsListModel____c* getStaticF___9();
@@ -173,22 +173,22 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IVerboseLogger"
   constexpr operator ::GlobalNamespace::IVerboseLogger*() noexcept;
 
-  /// @brief Method CreateFromAddressables, addr 0x13a8c18, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method CreateFromAddressables, addr 0x149e2f4, size 0x24c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::EnvironmentsListModel* CreateFromAddressables();
 
-  /// @brief Method GetAllEnvironmentInfosWithType, addr 0x13a9044, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method GetAllEnvironmentInfosWithType, addr 0x149e720, size 0x134, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* GetAllEnvironmentInfosWithType(::GlobalNamespace::EnvironmentType environmentType);
 
-  /// @brief Method GetEnvironmentInfoBySerializedName, addr 0x13a8e64, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetEnvironmentInfoBySerializedName, addr 0x149e540, size 0x70, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::EnvironmentInfoSO> GetEnvironmentInfoBySerializedName(::StringW environmentSerializedName);
 
-  /// @brief Method GetEnvironmentInfoBySerializedNameSafe, addr 0x13a8ed4, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method GetEnvironmentInfoBySerializedNameSafe, addr 0x149e5b0, size 0x170, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::EnvironmentInfoSO> GetEnvironmentInfoBySerializedNameSafe(::StringW environmentSerializedName);
 
-  /// @brief Method GetFirstEnvironmentInfoWithType, addr 0x13a9178, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetFirstEnvironmentInfoWithType, addr 0x149e854, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::EnvironmentInfoSO> GetFirstEnvironmentInfoWithType(::GlobalNamespace::EnvironmentType environmentType);
 
-  /// @brief Method GetLastEnvironmentInfoWithType, addr 0x13a91d4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetLastEnvironmentInfoWithType, addr 0x149e8b0, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::EnvironmentInfoSO> GetLastEnvironmentInfoWithType(::GlobalNamespace::EnvironmentType environmentType);
 
   static inline ::GlobalNamespace::EnvironmentsListModel* New_ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* envInfoSOs);
@@ -218,19 +218,19 @@ public:
 
   constexpr void __cordl_internal_set__environmentSerializedNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method .ctor, addr 0x13a88c8, size 0x350, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x149dfa4, size 0x350, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* envInfoSOs);
 
-  /// @brief Method get_environmentInfos, addr 0x13a88b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_environmentInfos, addr 0x149df8c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* get_environmentInfos();
 
-  /// @brief Method get_environmentNames, addr 0x13a88b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_environmentNames, addr 0x149df94, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_environmentNames();
 
-  /// @brief Method get_environmentSerializedNames, addr 0x13a88c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_environmentSerializedNames, addr 0x149df9c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_environmentSerializedNames();
 
-  /// @brief Method get_loggerPrefix, addr 0x13a8870, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_loggerPrefix, addr 0x149df4c, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_loggerPrefix();
 
   /// @brief Convert to "::GlobalNamespace::IVerboseLogger"

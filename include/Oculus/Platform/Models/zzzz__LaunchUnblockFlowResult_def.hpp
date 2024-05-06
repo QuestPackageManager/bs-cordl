@@ -39,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set_DidUnblock(bool value);
 
-  /// @brief Method .ctor, addr 0x29de0a4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2adc954, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
 protected:

@@ -57,7 +57,7 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
 
-  /// @brief Method Deserialize, addr 0xfbd62c, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0x10b0d50, size 0x98, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
   static inline ::GlobalNamespace::PlayerSpecificSettingsNetSerializable* New_ctor();
@@ -67,7 +67,7 @@ public:
                                                                                    ::UnityEngine::Color obstaclesColor, ::UnityEngine::Color environmentColor0, ::UnityEngine::Color environmentColor1,
                                                                                    ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost);
 
-  /// @brief Method Serialize, addr 0xfbd43c, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x10b0b60, size 0x90, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   constexpr bool const& __cordl_internal_get_automaticPlayerHeight() const;
@@ -112,10 +112,10 @@ public:
 
   constexpr void __cordl_internal_set_userName(::StringW value);
 
-  /// @brief Method .ctor, addr 0xfbd624, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10b0d48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0xfbd6c4, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10b0de8, size 0x140, virtual false, abstract: false, final false
   inline void _ctor(::StringW userId, ::StringW userName, bool leftHanded, bool automaticPlayerHeight, float_t playerHeight, float_t headPosToPlayerHeightOffset, ::UnityEngine::Color saberAColor,
                     ::UnityEngine::Color saberBColor, ::UnityEngine::Color obstaclesColor, ::UnityEngine::Color environmentColor0, ::UnityEngine::Color environmentColor1,
                     ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost);

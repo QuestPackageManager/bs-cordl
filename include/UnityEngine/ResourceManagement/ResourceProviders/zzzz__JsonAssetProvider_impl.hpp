@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (
     ::UnityEngine::ResourceManagement::ResourceProviders::JsonAssetProvider::*)(::System::Type*, ::StringW)>(&::UnityEngine::ResourceManagement::ResourceProviders::JsonAssetProvider::Convert)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3107058;
+  constexpr static std::size_t addrs = 0x330dae0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::JsonAssetProvider::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::JsonAssetProvider::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3107064;
+  constexpr static std::size_t addrs = 0x330daec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

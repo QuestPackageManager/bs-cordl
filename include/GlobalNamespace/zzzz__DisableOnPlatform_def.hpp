@@ -26,7 +26,7 @@ public:
   __declspec(property(get = __cordl_internal_get__disabledPlatforms,
                       put = __cordl_internal_set__disabledPlatforms))::ArrayW<::UnityEngine::RuntimePlatform, ::Array<::UnityEngine::RuntimePlatform>*> _disabledPlatforms;
 
-  /// @brief Method Awake, addr 0x23d8b74, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x24d0778, size 0x98, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::DisableOnPlatform* New_ctor();
@@ -37,7 +37,7 @@ public:
 
   constexpr void __cordl_internal_set__disabledPlatforms(::ArrayW<::UnityEngine::RuntimePlatform, ::Array<::UnityEngine::RuntimePlatform>*> value);
 
-  /// @brief Method .ctor, addr 0x23d8c0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24d0810, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

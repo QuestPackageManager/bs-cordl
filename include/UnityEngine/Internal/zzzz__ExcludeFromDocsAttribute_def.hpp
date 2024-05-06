@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Internal::ExcludeFromDocsAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3220d5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3427a98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

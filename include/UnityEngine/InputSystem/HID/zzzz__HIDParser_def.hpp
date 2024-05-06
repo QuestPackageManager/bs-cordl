@@ -67,7 +67,7 @@ namespace UnityEngine::InputSystem::HID {
 struct CORDL_TYPE __HIDParser__HIDReportData {
 public:
   // Declarations
-  /// @brief Method FindOrAddReport, addr 0x3012428, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method FindOrAddReport, addr 0x314f1b4, size 0x18c, virtual false, abstract: false, final false
   static inline int32_t FindOrAddReport(::System::Nullable_1<int32_t> reportId, ::UnityEngine::InputSystem::HID::__HID__HIDReportType reportType,
                                         ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::HID::__HIDParser__HIDReportData>* reports);
 
@@ -264,13 +264,13 @@ namespace UnityEngine::InputSystem::HID {
 struct CORDL_TYPE __HIDParser__HIDItemStateLocal {
 public:
   // Declarations
-  /// @brief Method GetUsage, addr 0x30122b0, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method GetUsage, addr 0x314f03c, size 0x118, virtual false, abstract: false, final false
   inline int32_t GetUsage(int32_t index);
 
-  /// @brief Method Reset, addr 0x30123c8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x314f154, size 0x60, virtual false, abstract: false, final false
   static inline void Reset(ByRef<::UnityEngine::InputSystem::HID::__HIDParser__HIDItemStateLocal> state);
 
-  /// @brief Method SetUsage, addr 0x30120cc, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method SetUsage, addr 0x314ee58, size 0x158, virtual false, abstract: false, final false
   inline void SetUsage(int32_t value);
 
   // Ctor Parameters []
@@ -355,13 +355,13 @@ namespace UnityEngine::InputSystem::HID {
 struct CORDL_TYPE __HIDParser__HIDItemStateGlobal {
 public:
   // Declarations
-  /// @brief Method GetPhysicalMax, addr 0x3012678, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetPhysicalMax, addr 0x314f404, size 0xb4, virtual false, abstract: false, final false
   inline int32_t GetPhysicalMax();
 
-  /// @brief Method GetPhysicalMin, addr 0x30125b4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GetPhysicalMin, addr 0x314f340, size 0xc4, virtual false, abstract: false, final false
   inline int32_t GetPhysicalMin();
 
-  /// @brief Method GetUsagePage, addr 0x3012224, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetUsagePage, addr 0x314efb0, size 0x8c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::HID::__HID__UsagePage GetUsagePage(int32_t index, ByRef<::UnityEngine::InputSystem::HID::__HIDParser__HIDItemStateLocal> localItemState);
 
   // Ctor Parameters []
@@ -454,13 +454,13 @@ public:
 
   using HIDReportData = ::UnityEngine::InputSystem::HID::__HIDParser__HIDReportData;
 
-  /// @brief Method ParseReportDescriptor, addr 0x3011fe4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ParseReportDescriptor, addr 0x314ed70, size 0x70, virtual false, abstract: false, final false
   static inline bool ParseReportDescriptor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, ByRef<::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor> deviceDescriptor);
 
-  /// @brief Method ParseReportDescriptor, addr 0x300e920, size 0xc44, virtual false, abstract: false, final false
+  /// @brief Method ParseReportDescriptor, addr 0x314b6ac, size 0xc44, virtual false, abstract: false, final false
   static inline bool ParseReportDescriptor(::cordl_internals::Ptr<uint8_t> bufferPtr, int32_t bufferLength, ByRef<::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor> deviceDescriptor);
 
-  /// @brief Method ReadData, addr 0x3012054, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ReadData, addr 0x314ede0, size 0x78, virtual false, abstract: false, final false
   static inline int32_t ReadData(int32_t itemSize, ::cordl_internals::Ptr<uint8_t> currentPtr, ::cordl_internals::Ptr<uint8_t> endPtr);
 
 protected:

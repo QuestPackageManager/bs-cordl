@@ -37,7 +37,7 @@ public:
 
   static inline ::GlobalNamespace::ColorPickerButtonController* New_ctor();
 
-  /// @brief Method SetColor, addr 0x2663070, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SetColor, addr 0x2762460, size 0x28, virtual false, abstract: false, final false
   inline void SetColor(::UnityEngine::Color color);
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__button() const;
@@ -52,10 +52,10 @@ public:
 
   constexpr void __cordl_internal_set__colorImage(::UnityW<::UnityEngine::UI::Image> value);
 
-  /// @brief Method .ctor, addr 0x2663098, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2762488, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_button, addr 0x2663068, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_button, addr 0x2762458, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Button> get_button();
 
 protected:

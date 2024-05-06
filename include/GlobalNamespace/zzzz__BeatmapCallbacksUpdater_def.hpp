@@ -31,15 +31,15 @@ public:
   __declspec(property(get = __cordl_internal_get__beatmapCallbacksController,
                       put = __cordl_internal_set__beatmapCallbacksController))::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
 
-  /// @brief Method LateUpdate, addr 0x251b808, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x2612c04, size 0x124, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::BeatmapCallbacksUpdater* New_ctor();
 
-  /// @brief Method Pause, addr 0x251b92c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Pause, addr 0x2612d28, size 0xc, virtual false, abstract: false, final false
   inline void Pause();
 
-  /// @brief Method Resume, addr 0x251b938, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Resume, addr 0x2612d34, size 0xc, virtual false, abstract: false, final false
   inline void Resume();
 
   constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSource();
@@ -54,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
 
-  /// @brief Method .ctor, addr 0x251b944, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2612d40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

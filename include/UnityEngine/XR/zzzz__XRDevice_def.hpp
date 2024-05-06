@@ -31,13 +31,13 @@ public:
   /// @brief Field deviceLoaded, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_deviceLoaded, put = setStaticF_deviceLoaded))::System::Action_1<::StringW>* deviceLoaded;
 
-  /// @brief Method DisableAutoXRCameraTracking, addr 0x3400e9c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method DisableAutoXRCameraTracking, addr 0x3606bd8, size 0x44, virtual false, abstract: false, final false
   static inline void DisableAutoXRCameraTracking(::UnityEngine::Camera* camera, bool disabled);
 
-  /// @brief Method InvokeDeviceLoaded, addr 0x3400ee0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method InvokeDeviceLoaded, addr 0x3606c1c, size 0x6c, virtual false, abstract: false, final false
   static inline void InvokeDeviceLoaded(::StringW loadedDeviceName);
 
-  /// @brief Method SetTrackingSpaceType, addr 0x3400e60, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetTrackingSpaceType, addr 0x3606b9c, size 0x3c, virtual false, abstract: false, final false
   static inline bool SetTrackingSpaceType(::UnityEngine::XR::TrackingSpaceType trackingSpaceType);
 
   static inline ::System::Action_1<::StringW>* getStaticF_deviceLoaded();

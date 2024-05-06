@@ -24,25 +24,25 @@ namespace UnityEngine::Timeline {
 class CORDL_TYPE TimelineClipCapsExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method HasAll, addr 0x3191740, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HasAll, addr 0x33981c8, size 0xc, virtual false, abstract: false, final false
   static inline bool HasAll(::UnityEngine::Timeline::ClipCaps caps, ::UnityEngine::Timeline::ClipCaps flags);
 
-  /// @brief Method HasAny, addr 0x3183f54, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HasAny, addr 0x338a9dc, size 0xc, virtual false, abstract: false, final false
   static inline bool HasAny(::UnityEngine::Timeline::ClipCaps caps, ::UnityEngine::Timeline::ClipCaps flags);
 
-  /// @brief Method SupportsBlending, addr 0x3191728, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SupportsBlending, addr 0x33981b0, size 0x18, virtual false, abstract: false, final false
   static inline bool SupportsBlending(::UnityEngine::Timeline::TimelineClip* clip);
 
-  /// @brief Method SupportsClipIn, addr 0x31916f8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SupportsClipIn, addr 0x3398180, size 0x18, virtual false, abstract: false, final false
   static inline bool SupportsClipIn(::UnityEngine::Timeline::TimelineClip* clip);
 
-  /// @brief Method SupportsExtrapolation, addr 0x31916e0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SupportsExtrapolation, addr 0x3398168, size 0x18, virtual false, abstract: false, final false
   static inline bool SupportsExtrapolation(::UnityEngine::Timeline::TimelineClip* clip);
 
-  /// @brief Method SupportsLooping, addr 0x31916c8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SupportsLooping, addr 0x3398150, size 0x18, virtual false, abstract: false, final false
   static inline bool SupportsLooping(::UnityEngine::Timeline::TimelineClip* clip);
 
-  /// @brief Method SupportsSpeedMultiplier, addr 0x3191710, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SupportsSpeedMultiplier, addr 0x3398198, size 0x18, virtual false, abstract: false, final false
   static inline bool SupportsSpeedMultiplier(::UnityEngine::Timeline::TimelineClip* clip);
 
 protected:

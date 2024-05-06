@@ -25,12 +25,12 @@ namespace Org::BouncyCastle::Ocsp {
 class CORDL_TYPE OCSPRespGenerator : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Generate, addr 0x1212330, size 0x318, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x1302a54, size 0x318, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Ocsp::OcspResp* Generate(int32_t status, ::System::Object* response);
 
   static inline ::Org::BouncyCastle::Ocsp::OCSPRespGenerator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1212648, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1302d6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

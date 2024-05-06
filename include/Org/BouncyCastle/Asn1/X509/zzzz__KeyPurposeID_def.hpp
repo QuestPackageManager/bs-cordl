@@ -57,7 +57,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::KeyPurposeID* New_ctor(::StringW id);
 
-  /// @brief Method .ctor, addr 0x1302014, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13f4738, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW id);
 
   static inline ::Org::BouncyCastle::Asn1::X509::KeyPurposeID* getStaticF_AnyExtendedKeyUsage();

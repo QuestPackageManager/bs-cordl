@@ -2,8 +2,8 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__FakeMirrorObjectsInstaller_def.hpp"
+#include "BeatSaber/GameSettings/zzzz__GraphicSettingsHandler_def.hpp"
 #include "GlobalNamespace/zzzz__FakeMirrorObjectsInstaller_def.hpp"
-#include "GlobalNamespace/zzzz__IntSO_def.hpp"
 #include "GlobalNamespace/zzzz__MirrorRendererGraphicsSettingsPresets_def.hpp"
 #include "GlobalNamespace/zzzz__MirroredBombNoteController_def.hpp"
 #include "GlobalNamespace/zzzz__MirroredGameNoteController_def.hpp"
@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__FakeMirrorObjectsInstaller____c::*)()>(
     &::GlobalNamespace::__FakeMirrorObjectsInstaller____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x262edd4;
+  constexpr static std::size_t addrs = 0x272ebcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FakeMirrorObjectsInstaller____c*>::get(),
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__FakeMirrorObjectsInstaller____c::*)(::Zenject::BindingId)>(
     &::GlobalNamespace::__FakeMirrorObjectsInstaller____c::_InstallBindings_b__10_0)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x262eddc;
+  constexpr static std::size_t addrs = 0x272ebd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::MirroredGameNoteController> (::GlobalNamespace::FakeMirrorObjectsInstaller::*)()>(
     &::GlobalNamespace::FakeMirrorObjectsInstaller::get_mirroredGameNoteControllerPrefab)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x262e83c;
+  constexpr static std::size_t addrs = 0x272e63c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -94,8 +94,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FakeMirrorObjectsInstaller::*)()>(
     &::GlobalNamespace::FakeMirrorObjectsInstaller::InstallBindings)> {
-  constexpr static std::size_t size = 0x524;
-  constexpr static std::size_t addrs = 0x262e844;
+  constexpr static std::size_t size = 0x51c;
+  constexpr static std::size_t addrs = 0x272e644;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FakeMirrorObjectsInstaller::*)()>(&::GlobalNamespace::FakeMirrorObjectsInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x262ed68;
+  constexpr static std::size_t addrs = 0x272eb60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FakeMirrorObjectsInstaller*>::get(), ".ctor",
@@ -191,18 +191,6 @@ constexpr void GlobalNamespace::FakeMirrorObjectsInstaller::__cordl_internal_set
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mirroredSliderControllerPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::GlobalNamespace::IntSO>& GlobalNamespace::FakeMirrorObjectsInstaller::__cordl_internal_get__mirrorGraphicsSettings() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____mirrorGraphicsSettings;
-}
-constexpr ::UnityW<::GlobalNamespace::IntSO> const& GlobalNamespace::FakeMirrorObjectsInstaller::__cordl_internal_get__mirrorGraphicsSettings() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____mirrorGraphicsSettings;
-}
-constexpr void GlobalNamespace::FakeMirrorObjectsInstaller::__cordl_internal_set__mirrorGraphicsSettings(::UnityW<::GlobalNamespace::IntSO> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mirrorGraphicsSettings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
 constexpr ::UnityW<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets>& GlobalNamespace::FakeMirrorObjectsInstaller::__cordl_internal_get__mirrorRendererGraphicsSettingsPresets() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mirrorRendererGraphicsSettingsPresets;
@@ -215,6 +203,18 @@ constexpr void GlobalNamespace::FakeMirrorObjectsInstaller::__cordl_internal_set
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mirrorRendererGraphicsSettingsPresets)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::BeatSaber::GameSettings::GraphicSettingsHandler*& GlobalNamespace::FakeMirrorObjectsInstaller::__cordl_internal_get__graphicSettings() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____graphicSettings;
+}
+constexpr ::cordl_internals::to_const_pointer<::BeatSaber::GameSettings::GraphicSettingsHandler*> const& GlobalNamespace::FakeMirrorObjectsInstaller::__cordl_internal_get__graphicSettings() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____graphicSettings;
+}
+constexpr void GlobalNamespace::FakeMirrorObjectsInstaller::__cordl_internal_set__graphicSettings(::BeatSaber::GameSettings::GraphicSettingsHandler* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____graphicSettings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityW<::GlobalNamespace::MirroredGameNoteController> GlobalNamespace::FakeMirrorObjectsInstaller::get_mirroredGameNoteControllerPrefab() {
   static auto* ___internal_method =

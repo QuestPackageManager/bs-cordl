@@ -38,7 +38,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::UI::IMeshModifier"
   constexpr operator ::UnityEngine::UI::IMeshModifier*() noexcept;
 
-  /// @brief Method ModifyMesh, addr 0x32de8f4, size 0x1a8, virtual true, abstract: false, final false
+  /// @brief Method ModifyMesh, addr 0x34e5630, size 0x1a8, virtual true, abstract: false, final false
   inline void ModifyMesh(::UnityEngine::Mesh* mesh);
 
   /// @brief Method ModifyMesh, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -46,13 +46,13 @@ public:
 
   static inline ::UnityEngine::UI::BaseMeshEffect* New_ctor();
 
-  /// @brief Method OnDidApplyAnimationProperties, addr 0x32de858, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method OnDidApplyAnimationProperties, addr 0x34e5594, size 0x9c, virtual true, abstract: false, final false
   inline void OnDidApplyAnimationProperties();
 
-  /// @brief Method OnDisable, addr 0x32de7bc, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x34e54f8, size 0x9c, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x32de714, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x34e5450, size 0xa8, virtual true, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::UnityW<::UnityEngine::UI::Graphic> const& __cordl_internal_get_m_Graphic() const;
@@ -61,10 +61,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Graphic(::UnityW<::UnityEngine::UI::Graphic> value);
 
-  /// @brief Method .ctor, addr 0x32dea9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34e57d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_graphic, addr 0x32de680, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_graphic, addr 0x34e53bc, size 0x94, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Graphic> get_graphic();
 
   /// @brief Convert to "::UnityEngine::UI::IMeshModifier"

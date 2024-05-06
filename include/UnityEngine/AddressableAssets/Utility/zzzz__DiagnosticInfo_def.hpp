@@ -36,7 +36,7 @@ public:
   /// @brief Field ObjectId, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_ObjectId, put = __cordl_internal_set_ObjectId)) int32_t ObjectId;
 
-  /// @brief Method CreateEvent, addr 0x2f5d094, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method CreateEvent, addr 0x305e994, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent CreateEvent(::StringW category, ::UnityEngine::ResourceManagement::__ResourceManager__DiagnosticEventType eventType,
                                                                                      int32_t frame, int32_t val);
 
@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set_ObjectId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2f5d0d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x305e9d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

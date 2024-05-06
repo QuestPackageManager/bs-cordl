@@ -27,10 +27,10 @@ namespace LIV::SDK::Unity {
 struct CORDL_TYPE SDKControllerState {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x2504240, size 0x368, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x25faecc, size 0x368, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_empty, addr 0x25041f4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_empty, addr 0x25fae80, size 0x4c, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKControllerState get_empty();
 
   // Ctor Parameters []

@@ -129,7 +129,7 @@ namespace UnityEngine::Timeline {
 class CORDL_TYPE __TimelineClip__TimelineClipUpgrade : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method UpgradeClipInFromGlobalToLocal, addr 0x3183bec, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method UpgradeClipInFromGlobalToLocal, addr 0x338a674, size 0x3c, virtual false, abstract: false, final false
   static inline void UpgradeClipInFromGlobalToLocal(::UnityEngine::Timeline::TimelineClip* clip);
 
 protected:
@@ -469,90 +469,90 @@ public:
   /// @brief Convert operator to "::UnityEngine::Timeline::ICurvesOwner"
   constexpr operator ::UnityEngine::Timeline::ICurvesOwner*() noexcept;
 
-  /// @brief Method CalculateEasingRatio, addr 0x3185b78, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method CalculateEasingRatio, addr 0x338c600, size 0xcc, virtual false, abstract: false, final false
   static inline double_t CalculateEasingRatio(double_t easeIn, double_t easeOut);
 
-  /// @brief Method ConformEaseValues, addr 0x3185ae8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ConformEaseValues, addr 0x338c570, size 0x90, virtual false, abstract: false, final false
   inline void ConformEaseValues();
 
-  /// @brief Method CreateCurves, addr 0x31857fc, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method CreateCurves, addr 0x338c284, size 0xcc, virtual true, abstract: false, final true
   inline void CreateCurves(::StringW curvesClipName);
 
-  /// @brief Method EvaluateMixIn, addr 0x3185178, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method EvaluateMixIn, addr 0x338bc00, size 0xd4, virtual false, abstract: false, final false
   inline float_t EvaluateMixIn(double_t time);
 
-  /// @brief Method EvaluateMixOut, addr 0x3185084, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method EvaluateMixOut, addr 0x338bb0c, size 0xf4, virtual false, abstract: false, final false
   inline float_t EvaluateMixOut(double_t time);
 
-  /// @brief Method FromLocalTimeUnbound, addr 0x3185548, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method FromLocalTimeUnbound, addr 0x338bfd0, size 0x44, virtual false, abstract: false, final false
   inline double_t FromLocalTimeUnbound(double_t time);
 
-  /// @brief Method GetDefaultMixInCurve, addr 0x3184c44, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultMixInCurve, addr 0x338b6cc, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::AnimationCurve* GetDefaultMixInCurve();
 
-  /// @brief Method GetDefaultMixOutCurve, addr 0x3184d54, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultMixOutCurve, addr 0x338b7dc, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::AnimationCurve* GetDefaultMixOutCurve();
 
-  /// @brief Method GetExtrapolatedTime, addr 0x3185388, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method GetExtrapolatedTime, addr 0x338be10, size 0x118, virtual false, abstract: false, final false
   static inline double_t GetExtrapolatedTime(double_t time, ::UnityEngine::Timeline::__TimelineClip__ClipExtrapolation mode, double_t duration);
 
-  /// @brief Method GetParentTrack, addr 0x31844f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetParentTrack, addr 0x338af7c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Timeline::TrackAsset> GetParentTrack();
 
-  /// @brief Method Hash, addr 0x3184e98, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method Hash, addr 0x338b920, size 0x1ec, virtual false, abstract: false, final false
   inline int32_t Hash();
 
-  /// @brief Method IsExtrapolatedTime, addr 0x31856dc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsExtrapolatedTime, addr 0x338c164, size 0x3c, virtual false, abstract: false, final false
   inline bool IsExtrapolatedTime(double_t sequenceTime);
 
-  /// @brief Method IsPostExtrapolatedTime, addr 0x31854a0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method IsPostExtrapolatedTime, addr 0x338bf28, size 0x58, virtual false, abstract: false, final false
   inline bool IsPostExtrapolatedTime(double_t sequenceTime);
 
-  /// @brief Method IsPreExtrapolatedTime, addr 0x3185338, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method IsPreExtrapolatedTime, addr 0x338bdc0, size 0x50, virtual false, abstract: false, final false
   inline bool IsPreExtrapolatedTime(double_t sequenceTime);
 
   static inline ::UnityEngine::Timeline::TimelineClip* New_ctor(::UnityEngine::Timeline::TrackAsset* parent);
 
-  /// @brief Method SanitizeTimeValue, addr 0x3184048, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method SanitizeTimeValue, addr 0x338aad0, size 0x198, virtual false, abstract: false, final false
   static inline double_t SanitizeTimeValue(double_t value, double_t defaultValue);
 
-  /// @brief Method SetParentTrack_Internal, addr 0x3183c64, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method SetParentTrack_Internal, addr 0x338a6ec, size 0xf4, virtual false, abstract: false, final false
   inline void SetParentTrack_Internal(::UnityEngine::Timeline::TrackAsset* newParentTrack);
 
-  /// @brief Method SetPostExtrapolationTime, addr 0x31856cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetPostExtrapolationTime, addr 0x338c154, size 0x8, virtual false, abstract: false, final false
   inline void SetPostExtrapolationTime(double_t time);
 
-  /// @brief Method SetPreExtrapolationTime, addr 0x31856d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetPreExtrapolationTime, addr 0x338c15c, size 0x8, virtual false, abstract: false, final false
   inline void SetPreExtrapolationTime(double_t time);
 
-  /// @brief Method ToLocalTime, addr 0x318524c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method ToLocalTime, addr 0x338bcd4, size 0xec, virtual false, abstract: false, final false
   inline double_t ToLocalTime(double_t time);
 
-  /// @brief Method ToLocalTimeUnbound, addr 0x31854f8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ToLocalTimeUnbound, addr 0x338bf80, size 0x50, virtual false, abstract: false, final false
   inline double_t ToLocalTimeUnbound(double_t time);
 
-  /// @brief Method ToString, addr 0x318590c, size 0x1dc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x338c394, size 0x1dc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize, addr 0x31858d4, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize, addr 0x338c35c, size 0x38, virtual true, abstract: false, final true
   inline void UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize();
 
-  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize, addr 0x31858c8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize, addr 0x338c350, size 0xc, virtual true, abstract: false, final true
   inline void UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize();
 
-  /// @brief Method UnityEngine.Timeline.ICurvesOwner.get_assetOwner, addr 0x31844cc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Timeline.ICurvesOwner.get_assetOwner, addr 0x338af54, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::Object> UnityEngine_Timeline_ICurvesOwner_get_assetOwner();
 
-  /// @brief Method UnityEngine.Timeline.ICurvesOwner.get_defaultCurvesName, addr 0x31843d8, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Timeline.ICurvesOwner.get_defaultCurvesName, addr 0x338ae60, size 0x58, virtual true, abstract: false, final true
   inline ::StringW UnityEngine_Timeline_ICurvesOwner_get_defaultCurvesName();
 
-  /// @brief Method UnityEngine.Timeline.ICurvesOwner.get_targetTrack, addr 0x31844d4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.Timeline.ICurvesOwner.get_targetTrack, addr 0x338af5c, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::Timeline::TrackAsset> UnityEngine_Timeline_ICurvesOwner_get_targetTrack();
 
-  /// @brief Method UpdateDirty, addr 0x318403c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method UpdateDirty, addr 0x338aac4, size 0x4, virtual false, abstract: false, final false
   inline void UpdateDirty(double_t oldValue, double_t newValue);
 
-  /// @brief Method UpgradeToLatestVersion, addr 0x3183bb4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method UpgradeToLatestVersion, addr 0x338a63c, size 0x38, virtual false, abstract: false, final false
   inline void UpgradeToLatestVersion();
 
   constexpr ::UnityW<::UnityEngine::AnimationClip> const& __cordl_internal_get_m_AnimationCurves() const;
@@ -693,7 +693,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3183c28, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x338a6b0, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Timeline::TrackAsset* parent);
 
   static inline ::UnityEngine::Timeline::ClipCaps getStaticF_kDefaultClipCaps();
@@ -710,121 +710,121 @@ public:
 
   static inline double_t getStaticF_kTimeScaleMin();
 
-  /// @brief Method get_animationClip, addr 0x318558c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method get_animationClip, addr 0x338c014, size 0xf8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::AnimationClip> get_animationClip();
 
-  /// @brief Method get_asset, addr 0x31844bc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_asset, addr 0x338af44, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::Object> get_asset();
 
-  /// @brief Method get_blendInCurveMode, addr 0x3184b98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_blendInCurveMode, addr 0x338b620, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Timeline::__TimelineClip__BlendCurveMode get_blendInCurveMode();
 
-  /// @brief Method get_blendInDuration, addr 0x3184a48, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_blendInDuration, addr 0x338b4d0, size 0x20, virtual false, abstract: false, final false
   inline double_t get_blendInDuration();
 
-  /// @brief Method get_blendOutCurveMode, addr 0x3184ba8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_blendOutCurveMode, addr 0x338b630, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Timeline::__TimelineClip__BlendCurveMode get_blendOutCurveMode();
 
-  /// @brief Method get_blendOutDuration, addr 0x3184af0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_blendOutDuration, addr 0x338b578, size 0x20, virtual false, abstract: false, final false
   inline double_t get_blendOutDuration();
 
-  /// @brief Method get_clipAssetDuration, addr 0x3184308, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method get_clipAssetDuration, addr 0x338ad90, size 0xc0, virtual false, abstract: false, final false
   inline double_t get_clipAssetDuration();
 
-  /// @brief Method get_clipCaps, addr 0x3183e70, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method get_clipCaps, addr 0x338a8f8, size 0xe4, virtual false, abstract: false, final false
   inline ::UnityEngine::Timeline::ClipCaps get_clipCaps();
 
-  /// @brief Method get_clipIn, addr 0x3184200, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_clipIn, addr 0x338ac88, size 0x20, virtual false, abstract: false, final false
   inline double_t get_clipIn();
 
-  /// @brief Method get_curves, addr 0x31843c8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_curves, addr 0x338ae50, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::AnimationClip> get_curves();
 
-  /// @brief Method get_displayName, addr 0x31842f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_displayName, addr 0x338ad80, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_displayName();
 
-  /// @brief Method get_duration, addr 0x31841e8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_duration, addr 0x338ac70, size 0x8, virtual true, abstract: false, final true
   inline double_t get_duration();
 
-  /// @brief Method get_easeInDuration, addr 0x3184630, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method get_easeInDuration, addr 0x338b0b8, size 0xbc, virtual false, abstract: false, final false
   inline double_t get_easeInDuration();
 
-  /// @brief Method get_easeOutDuration, addr 0x3184810, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method get_easeOutDuration, addr 0x338b298, size 0xbc, virtual false, abstract: false, final false
   inline double_t get_easeOutDuration();
 
-  /// @brief Method get_easeOutTime, addr 0x3184a1c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_easeOutTime, addr 0x338b4a4, size 0x2c, virtual false, abstract: false, final false
   inline double_t get_easeOutTime();
 
-  /// @brief Method get_eastOutTime, addr 0x31849f0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_eastOutTime, addr 0x338b478, size 0x2c, virtual false, abstract: false, final false
   inline double_t get_eastOutTime();
 
-  /// @brief Method get_end, addr 0x31841f0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_end, addr 0x338ac78, size 0x10, virtual false, abstract: false, final false
   inline double_t get_end();
 
-  /// @brief Method get_exposedParameters, addr 0x3184e18, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_exposedParameters, addr 0x338b8a0, size 0x80, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::StringW>* get_exposedParameters();
 
-  /// @brief Method get_extrapolatedDuration, addr 0x3185730, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method get_extrapolatedDuration, addr 0x338c1b8, size 0xcc, virtual false, abstract: false, final false
   inline double_t get_extrapolatedDuration();
 
-  /// @brief Method get_extrapolatedStart, addr 0x3185718, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_extrapolatedStart, addr 0x338c1a0, size 0x18, virtual false, abstract: false, final false
   inline double_t get_extrapolatedStart();
 
-  /// @brief Method get_hasBlendIn, addr 0x31848cc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_hasBlendIn, addr 0x338b354, size 0x2c, virtual false, abstract: false, final false
   inline bool get_hasBlendIn();
 
-  /// @brief Method get_hasBlendOut, addr 0x31846ec, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_hasBlendOut, addr 0x338b174, size 0x2c, virtual false, abstract: false, final false
   inline bool get_hasBlendOut();
 
-  /// @brief Method get_hasCurves, addr 0x3184430, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method get_hasCurves, addr 0x338aeb8, size 0x8c, virtual true, abstract: false, final true
   inline bool get_hasCurves();
 
-  /// @brief Method get_hasPostExtrapolation, addr 0x3183d78, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_hasPostExtrapolation, addr 0x338a800, size 0x20, virtual false, abstract: false, final false
   inline bool get_hasPostExtrapolation();
 
-  /// @brief Method get_hasPreExtrapolation, addr 0x3183d58, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_hasPreExtrapolation, addr 0x338a7e0, size 0x20, virtual false, abstract: false, final false
   inline bool get_hasPreExtrapolation();
 
-  /// @brief Method get_mixInCurve, addr 0x3184bb8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_mixInCurve, addr 0x338b640, size 0x8c, virtual false, abstract: false, final false
   inline ::UnityEngine::AnimationCurve* get_mixInCurve();
 
-  /// @brief Method get_mixInDuration, addr 0x3184c84, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_mixInDuration, addr 0x338b70c, size 0x44, virtual false, abstract: false, final false
   inline double_t get_mixInDuration();
 
-  /// @brief Method get_mixInPercentage, addr 0x3184c64, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_mixInPercentage, addr 0x338b6ec, size 0x20, virtual false, abstract: false, final false
   inline float_t get_mixInPercentage();
 
-  /// @brief Method get_mixOutCurve, addr 0x3184cc8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_mixOutCurve, addr 0x338b750, size 0x8c, virtual false, abstract: false, final false
   inline ::UnityEngine::AnimationCurve* get_mixOutCurve();
 
-  /// @brief Method get_mixOutDuration, addr 0x3184da0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_mixOutDuration, addr 0x338b828, size 0x44, virtual false, abstract: false, final false
   inline double_t get_mixOutDuration();
 
-  /// @brief Method get_mixOutPercentage, addr 0x3184de4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_mixOutPercentage, addr 0x338b86c, size 0x20, virtual false, abstract: false, final false
   inline float_t get_mixOutPercentage();
 
-  /// @brief Method get_mixOutTime, addr 0x3184d74, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_mixOutTime, addr 0x338b7fc, size 0x2c, virtual false, abstract: false, final false
   inline double_t get_mixOutTime();
 
-  /// @brief Method get_parentTrack, addr 0x31844e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_parentTrack, addr 0x338af70, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Timeline::TrackAsset> get_parentTrack();
 
-  /// @brief Method get_postExtrapolationMode, addr 0x3185684, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_postExtrapolationMode, addr 0x338c10c, size 0x24, virtual false, abstract: false, final false
   inline ::UnityEngine::Timeline::__TimelineClip__ClipExtrapolation get_postExtrapolationMode();
 
-  /// @brief Method get_preExtrapolationMode, addr 0x31856a8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_preExtrapolationMode, addr 0x338c130, size 0x24, virtual false, abstract: false, final false
   inline ::UnityEngine::Timeline::__TimelineClip__ClipExtrapolation get_preExtrapolationMode();
 
-  /// @brief Method get_recordable, addr 0x3184e04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_recordable, addr 0x338b88c, size 0x8, virtual false, abstract: false, final false
   inline bool get_recordable();
 
-  /// @brief Method get_start, addr 0x3184040, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_start, addr 0x338aac8, size 0x8, virtual false, abstract: false, final false
   inline double_t get_start();
 
-  /// @brief Method get_timeScale, addr 0x3183d98, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method get_timeScale, addr 0x338a820, size 0xd8, virtual false, abstract: false, final false
   inline double_t get_timeScale();
 
-  /// @brief Method get_underlyingAsset, addr 0x31844dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_underlyingAsset, addr 0x338af64, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> get_underlyingAsset();
 
   /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
@@ -847,64 +847,64 @@ public:
 
   static inline void setStaticF_kTimeScaleMin(double_t value);
 
-  /// @brief Method set_asset, addr 0x31844c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_asset, addr 0x338af4c, size 0x8, virtual false, abstract: false, final false
   inline void set_asset(::UnityEngine::Object* value);
 
-  /// @brief Method set_blendInCurveMode, addr 0x3184ba0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_blendInCurveMode, addr 0x338b628, size 0x8, virtual false, abstract: false, final false
   inline void set_blendInCurveMode(::UnityEngine::Timeline::__TimelineClip__BlendCurveMode value);
 
-  /// @brief Method set_blendInDuration, addr 0x3184a68, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method set_blendInDuration, addr 0x338b4f0, size 0x88, virtual false, abstract: false, final false
   inline void set_blendInDuration(double_t value);
 
-  /// @brief Method set_blendOutCurveMode, addr 0x3184bb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_blendOutCurveMode, addr 0x338b638, size 0x8, virtual false, abstract: false, final false
   inline void set_blendOutCurveMode(::UnityEngine::Timeline::__TimelineClip__BlendCurveMode value);
 
-  /// @brief Method set_blendOutDuration, addr 0x3184b10, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method set_blendOutDuration, addr 0x338b598, size 0x88, virtual false, abstract: false, final false
   inline void set_blendOutDuration(double_t value);
 
-  /// @brief Method set_clipIn, addr 0x3184220, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method set_clipIn, addr 0x338aca8, size 0xd8, virtual false, abstract: false, final false
   inline void set_clipIn(double_t value);
 
-  /// @brief Method set_curves, addr 0x31843d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_curves, addr 0x338ae58, size 0x8, virtual false, abstract: false, final false
   inline void set_curves(::UnityEngine::AnimationClip* value);
 
-  /// @brief Method set_displayName, addr 0x3184300, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_displayName, addr 0x338ad88, size 0x8, virtual false, abstract: false, final false
   inline void set_displayName(::StringW value);
 
-  /// @brief Method set_duration, addr 0x3180218, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method set_duration, addr 0x3386ca0, size 0xac, virtual false, abstract: false, final false
   inline void set_duration(double_t value);
 
-  /// @brief Method set_easeInDuration, addr 0x3184718, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method set_easeInDuration, addr 0x338b1a0, size 0xf8, virtual false, abstract: false, final false
   inline void set_easeInDuration(double_t value);
 
-  /// @brief Method set_easeOutDuration, addr 0x31848f8, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method set_easeOutDuration, addr 0x338b380, size 0xf8, virtual false, abstract: false, final false
   inline void set_easeOutDuration(double_t value);
 
-  /// @brief Method set_mixInCurve, addr 0x3184c5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_mixInCurve, addr 0x338b6e4, size 0x8, virtual false, abstract: false, final false
   inline void set_mixInCurve(::UnityEngine::AnimationCurve* value);
 
-  /// @brief Method set_mixOutCurve, addr 0x3184d6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_mixOutCurve, addr 0x338b7f4, size 0x8, virtual false, abstract: false, final false
   inline void set_mixOutCurve(::UnityEngine::AnimationCurve* value);
 
-  /// @brief Method set_parentTrack, addr 0x31844f0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_parentTrack, addr 0x338af78, size 0x4, virtual false, abstract: false, final false
   inline void set_parentTrack(::UnityEngine::Timeline::TrackAsset* value);
 
-  /// @brief Method set_postExtrapolationMode, addr 0x3180458, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method set_postExtrapolationMode, addr 0x3386ee0, size 0x34, virtual false, abstract: false, final false
   inline void set_postExtrapolationMode(::UnityEngine::Timeline::__TimelineClip__ClipExtrapolation value);
 
-  /// @brief Method set_preExtrapolationMode, addr 0x3180424, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method set_preExtrapolationMode, addr 0x3386eac, size 0x34, virtual false, abstract: false, final false
   inline void set_preExtrapolationMode(::UnityEngine::Timeline::__TimelineClip__ClipExtrapolation value);
 
-  /// @brief Method set_recordable, addr 0x3184e0c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_recordable, addr 0x338b894, size 0xc, virtual false, abstract: false, final false
   inline void set_recordable(bool value);
 
-  /// @brief Method set_start, addr 0x3180114, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method set_start, addr 0x3386b9c, size 0x104, virtual false, abstract: false, final false
   inline void set_start(double_t value);
 
-  /// @brief Method set_timeScale, addr 0x3183f60, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method set_timeScale, addr 0x338a9e8, size 0xdc, virtual false, abstract: false, final false
   inline void set_timeScale(double_t value);
 
-  /// @brief Method set_underlyingAsset, addr 0x31844e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_underlyingAsset, addr 0x338af6c, size 0x4, virtual false, abstract: false, final false
   inline void set_underlyingAsset(::UnityEngine::Object* value);
 
 protected:

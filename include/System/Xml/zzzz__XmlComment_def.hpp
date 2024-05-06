@@ -37,27 +37,27 @@ public:
 
   __declspec(property(get = get_NodeType))::System::Xml::XmlNodeType NodeType;
 
-  /// @brief Method CloneNode, addr 0x2d92ac0, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method CloneNode, addr 0x2e8f3c0, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* CloneNode(bool deep);
 
   static inline ::System::Xml::XmlComment* New_ctor(::StringW comment, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method WriteContentTo, addr 0x2d92b5c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method WriteContentTo, addr 0x2e8f45c, size 0x4, virtual true, abstract: false, final false
   inline void WriteContentTo(::System::Xml::XmlWriter* w);
 
-  /// @brief Method WriteTo, addr 0x2d92b1c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method WriteTo, addr 0x2e8f41c, size 0x40, virtual true, abstract: false, final false
   inline void WriteTo(::System::Xml::XmlWriter* w);
 
-  /// @brief Method .ctor, addr 0x2d92a3c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e8f33c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW comment, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method get_LocalName, addr 0x2d92a90, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x2e8f390, size 0x28, virtual true, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_Name, addr 0x2d92a68, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x2e8f368, size 0x28, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NodeType, addr 0x2d92ab8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x2e8f3b8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
 protected:

@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::StringSignal* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23dff5c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24d7b60, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

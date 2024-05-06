@@ -39,21 +39,21 @@ public:
   /// @brief Field _timer, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__timer, put = __cordl_internal_set__timer))::System::Threading::Timer* _timer;
 
-  /// @brief Method ManageLeases, addr 0x271e778, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method ManageLeases, addr 0x281cb74, size 0x264, virtual false, abstract: false, final false
   inline void ManageLeases(::System::Object* state);
 
   static inline ::System::Runtime::Remoting::Lifetime::LeaseManager* New_ctor();
 
-  /// @brief Method SetPollTime, addr 0x271e3d0, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method SetPollTime, addr 0x281c7cc, size 0xf8, virtual false, abstract: false, final false
   inline void SetPollTime(::System::TimeSpan timeSpan);
 
-  /// @brief Method StartManager, addr 0x271e5fc, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method StartManager, addr 0x281c9f8, size 0x160, virtual false, abstract: false, final false
   inline void StartManager();
 
-  /// @brief Method StopManager, addr 0x271e75c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method StopManager, addr 0x281cb58, size 0x1c, virtual false, abstract: false, final false
   inline void StopManager();
 
-  /// @brief Method TrackLifetime, addr 0x271e4c8, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method TrackLifetime, addr 0x281c8c4, size 0x134, virtual false, abstract: false, final false
   inline void TrackLifetime(::System::Runtime::Remoting::ServerIdentity* identity);
 
   constexpr ::System::Collections::ArrayList*& __cordl_internal_get__objects();
@@ -68,7 +68,7 @@ public:
 
   constexpr void __cordl_internal_set__timer(::System::Threading::Timer* value);
 
-  /// @brief Method .ctor, addr 0x271e9dc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x281cdd8, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

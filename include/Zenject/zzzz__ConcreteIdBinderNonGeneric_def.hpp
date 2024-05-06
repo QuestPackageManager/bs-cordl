@@ -35,10 +35,10 @@ public:
   // Declarations
   static inline ::Zenject::ConcreteIdBinderNonGeneric* New_ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::BindStatement* bindStatement);
 
-  /// @brief Method WithId, addr 0x3417300, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method WithId, addr 0x361c03c, size 0x1c, virtual false, abstract: false, final false
   inline ::Zenject::ConcreteBinderNonGeneric* WithId(::System::Object* identifier);
 
-  /// @brief Method .ctor, addr 0x34172cc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x361c008, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::BindStatement* bindStatement);
 
 protected:

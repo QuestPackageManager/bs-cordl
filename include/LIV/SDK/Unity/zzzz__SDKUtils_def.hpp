@@ -83,77 +83,77 @@ namespace LIV::SDK::Unity {
 class CORDL_TYPE SDKUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ApplyUserSpaceTransform, addr 0x24fef64, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ApplyUserSpaceTransform, addr 0x25f5bf0, size 0xf0, virtual false, abstract: false, final false
   static inline void ApplyUserSpaceTransform(::LIV::SDK::Unity::SDKRender* render);
 
-  /// @brief Method CleanCameraBehaviours, addr 0x250061c, size 0x384, virtual false, abstract: false, final false
+  /// @brief Method CleanCameraBehaviours, addr 0x25f72a8, size 0x384, virtual false, abstract: false, final false
   static inline void CleanCameraBehaviours(::UnityEngine::Camera* camera, ::ArrayW<::StringW, ::Array<::StringW>*> excludeBehaviours);
 
-  /// @brief Method ContainsFlag, addr 0x24fc9d8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ContainsFlag, addr 0x25f3664, size 0xc, virtual false, abstract: false, final false
   static inline bool ContainsFlag(uint64_t flags, uint64_t flag);
 
-  /// @brief Method CreateBridgeOutputFrame, addr 0x24ffe1c, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method CreateBridgeOutputFrame, addr 0x25f6aa8, size 0x188, virtual false, abstract: false, final false
   static inline void CreateBridgeOutputFrame(::LIV::SDK::Unity::SDKRender* render);
 
-  /// @brief Method CreateClipPlane, addr 0x25009a0, size 0x4bc, virtual false, abstract: false, final false
+  /// @brief Method CreateClipPlane, addr 0x25f762c, size 0x4bc, virtual false, abstract: false, final false
   static inline void CreateClipPlane(::UnityEngine::Mesh* mesh, int32_t resX, int32_t resY, bool useQuads, float_t skirtLength);
 
-  /// @brief Method CreateTexture, addr 0x2501b80, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method CreateTexture, addr 0x25f880c, size 0x170, virtual false, abstract: false, final false
   static inline bool CreateTexture(ByRef<::UnityEngine::RenderTexture*> renderTexture, int32_t width, int32_t height, int32_t depth, ::UnityEngine::RenderTextureFormat format);
 
   /// @brief Method DestroyObject, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool DestroyObject(ByRef<T> reference);
 
-  /// @brief Method DestroyTexture, addr 0x2501044, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method DestroyTexture, addr 0x25f7cd0, size 0x94, virtual false, abstract: false, final false
   static inline void DestroyTexture(ByRef<::UnityEngine::RenderTexture*> _renderTexture);
 
-  /// @brief Method DisableStandardAssets, addr 0x250025c, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method DisableStandardAssets, addr 0x25f6ee8, size 0x170, virtual false, abstract: false, final false
   static inline void DisableStandardAssets(::UnityEngine::Camera* cameraInstance, ByRef<::ArrayW<::UnityEngine::MonoBehaviour*, ::Array<::UnityEngine::MonoBehaviour*>*>> behaviours,
                                            ByRef<::ArrayW<bool, ::Array<bool>*>> wasBehaviourEnabled);
 
   /// @brief Method DisposeObject, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool DisposeObject(ByRef<T> reference);
 
-  /// @brief Method FeatureEnabled, addr 0x24fe014, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method FeatureEnabled, addr 0x25f4ca0, size 0xc, virtual false, abstract: false, final false
   static inline bool FeatureEnabled(::LIV::SDK::Unity::FEATURES features, ::LIV::SDK::Unity::FEATURES feature);
 
-  /// @brief Method ForceForwardRendering, addr 0x2504b78, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method ForceForwardRendering, addr 0x25fb804, size 0x28c, virtual false, abstract: false, final false
   static inline void ForceForwardRendering(::UnityEngine::Camera* cameraInstance, ::UnityEngine::Mesh* clipPlaneMesh, ::UnityEngine::Material* forceForwardRenderingMaterial);
 
-  /// @brief Method GetCameraPositionAndRotation, addr 0x2504884, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetCameraPositionAndRotation, addr 0x25fb510, size 0x78, virtual false, abstract: false, final false
   static inline void GetCameraPositionAndRotation(::LIV::SDK::Unity::SDKPose pose, ::UnityEngine::Matrix4x4 originLocalToWorldMatrix, ByRef<::UnityEngine::Vector3> position,
                                                   ByRef<::UnityEngine::Quaternion> rotation);
 
-  /// @brief Method GetColorSpace, addr 0x2501f10, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetColorSpace, addr 0x25f8b9c, size 0x8c, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::TEXTURE_COLOR_SPACE GetColorSpace(::UnityEngine::RenderTexture* renderTexture);
 
-  /// @brief Method GetDevice, addr 0x2501eac, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetDevice, addr 0x25f8b38, size 0x64, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::TEXTURE_DEVICE GetDevice();
 
-  /// @brief Method GetReadWriteFromColorSpace, addr 0x2504820, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetReadWriteFromColorSpace, addr 0x25fb4ac, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::RenderTextureReadWrite GetReadWriteFromColorSpace(::LIV::SDK::Unity::TEXTURE_COLOR_SPACE colorSpace);
 
-  /// @brief Method GetRenderingPipeline, addr 0x2504864, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetRenderingPipeline, addr 0x25fb4f0, size 0x20, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::RENDERING_PIPELINE GetRenderingPipeline(::UnityEngine::RenderingPath renderingPath);
 
-  /// @brief Method GetTrackedSpace, addr 0x25048fc, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method GetTrackedSpace, addr 0x25fb588, size 0x27c, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKTrackedSpace GetTrackedSpace(::UnityEngine::Transform* transform);
 
-  /// @brief Method RestoreStandardAssets, addr 0x2500508, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method RestoreStandardAssets, addr 0x25f7194, size 0x88, virtual false, abstract: false, final false
   static inline void RestoreStandardAssets(ByRef<::ArrayW<::UnityEngine::MonoBehaviour*, ::Array<::UnityEngine::MonoBehaviour*>*>> behaviours,
                                            ByRef<::ArrayW<bool, ::Array<bool>*>> wasBehaviourEnabled);
 
-  /// @brief Method RotateQuaternionByMatrix, addr 0x250156c, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method RotateQuaternionByMatrix, addr 0x25f81f8, size 0x164, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion RotateQuaternionByMatrix(::UnityEngine::Matrix4x4 matrix, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method SetCamera, addr 0x24fecc0, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method SetCamera, addr 0x25f594c, size 0x24c, virtual false, abstract: false, final false
   static inline void SetCamera(::UnityEngine::Camera* camera, ::UnityEngine::Transform* cameraTransform, ::LIV::SDK::Unity::SDKInputFrame inputFrame, ::UnityEngine::Matrix4x4 originLocalToWorldMatrix,
                                int32_t layerMask);
 
-  /// @brief Method SetFlag, addr 0x24fba68, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SetFlag, addr 0x25f26f4, size 0x14, virtual false, abstract: false, final false
   static inline uint64_t SetFlag(uint64_t flags, uint64_t flag, bool enabled);
 
-  /// @brief Method get_GetDefaultColorSpace, addr 0x2504838, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_GetDefaultColorSpace, addr 0x25fb4c4, size 0x2c, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::TEXTURE_COLOR_SPACE get_GetDefaultColorSpace();
 
 protected:

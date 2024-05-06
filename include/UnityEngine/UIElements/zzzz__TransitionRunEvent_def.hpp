@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::TransitionRunEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x339da68, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35a37a4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -50,24 +50,24 @@ public:
   /// @brief Field _tickableManager, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__tickableManager, put = __cordl_internal_set__tickableManager))::Zenject::TickableManager* _tickableManager;
 
-  /// @brief Method FixedUpdate, addr 0x346460c, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method FixedUpdate, addr 0x36685d4, size 0x10, virtual true, abstract: false, final false
   inline void FixedUpdate();
 
-  /// @brief Method Initialize, addr 0x34645c8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x3668590, size 0x34, virtual false, abstract: false, final false
   inline void Initialize();
 
-  /// @brief Method LateUpdate, addr 0x346461c, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x36685e4, size 0x10, virtual true, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::Zenject::MonoKernel* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x346462c, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x36685f4, size 0x54, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x34645c4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x366858c, size 0x4, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x34645fc, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x36685c4, size 0x10, virtual true, abstract: false, final false
   inline void Update();
 
   constexpr ::Zenject::DisposableManager*& __cordl_internal_get__disposablesManager();
@@ -100,22 +100,22 @@ public:
 
   constexpr void __cordl_internal_set__tickableManager(::Zenject::TickableManager* value);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x3464a1c, size 0x480, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x36689e4, size 0x480, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method __zenFieldSetter0, addr 0x3464680, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method __zenFieldSetter0, addr 0x3668648, size 0x134, virtual false, abstract: false, final false
   static inline void __zenFieldSetter0(::System::Object* P_0, ::System::Object* P_1);
 
-  /// @brief Method __zenFieldSetter1, addr 0x34647b4, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method __zenFieldSetter1, addr 0x366877c, size 0x134, virtual false, abstract: false, final false
   static inline void __zenFieldSetter1(::System::Object* P_0, ::System::Object* P_1);
 
-  /// @brief Method __zenFieldSetter2, addr 0x34648e8, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method __zenFieldSetter2, addr 0x36688b0, size 0x134, virtual false, abstract: false, final false
   static inline void __zenFieldSetter2(::System::Object* P_0, ::System::Object* P_1);
 
-  /// @brief Method .ctor, addr 0x346394c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3667914, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsDestroyed, addr 0x34645bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDestroyed, addr 0x3668584, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDestroyed();
 
 protected:

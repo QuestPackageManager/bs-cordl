@@ -49,7 +49,7 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IRichPresenceData"
   constexpr operator ::GlobalNamespace::IRichPresenceData*() noexcept;
 
-  /// @brief Method GetDestinationLocalizedString, addr 0x259bec4, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method GetDestinationLocalizedString, addr 0x2695140, size 0x148, virtual false, abstract: false, final false
   static inline ::StringW GetDestinationLocalizedString(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
   static inline ::GlobalNamespace::PlayingDifficultyBeatmapRichPresenceData* New_ctor(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
@@ -78,13 +78,13 @@ public:
 
   constexpr void __cordl_internal_set__localizedDescription(::StringW value);
 
-  /// @brief Method .ctor, addr 0x259c00c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2695288, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
-  /// @brief Method get_apiName, addr 0x259be94, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_apiName, addr 0x2695110, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_apiName();
 
-  /// @brief Method get_localizedDescription, addr 0x259be9c, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method get_localizedDescription, addr 0x2695118, size 0x28, virtual true, abstract: false, final true
   inline ::StringW get_localizedDescription();
 
   /// @brief Convert to "::GlobalNamespace::IRichPresenceData"

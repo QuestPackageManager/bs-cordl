@@ -47,13 +47,13 @@ public:
 
   constexpr void __cordl_internal_set__easeType(::GlobalNamespace::EaseType value);
 
-  /// @brief Method .ctor, addr 0x263dd58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x273db44, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_easeDuration, addr 0x263dd50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_easeDuration, addr 0x273db3c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_easeDuration();
 
-  /// @brief Method get_easeType, addr 0x263dd48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_easeType, addr 0x273db34, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EaseType get_easeType();
 
 protected:

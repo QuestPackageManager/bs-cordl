@@ -49,64 +49,64 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::Background>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::Background>*();
 
-  /// @brief Method Equals, addr 0x33bf1a4, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x35c4ee0, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x33bf170, size 0x34, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x35c4eac, size 0x34, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::Background other);
 
-  /// @brief Method FromObject, addr 0x33bedd8, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method FromObject, addr 0x35c4b14, size 0x258, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Background FromObject(::System::Object* obj);
 
-  /// @brief Method FromRenderTexture, addr 0x33bed3c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method FromRenderTexture, addr 0x35c4a78, size 0x34, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Background FromRenderTexture(::UnityEngine::RenderTexture* rt);
 
-  /// @brief Method FromSprite, addr 0x33bed70, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method FromSprite, addr 0x35c4aac, size 0x34, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Background FromSprite(::UnityEngine::Sprite* s);
 
-  /// @brief Method FromTexture2D, addr 0x33bed08, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method FromTexture2D, addr 0x35c4a44, size 0x34, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Background FromTexture2D(::UnityEngine::Texture2D* t);
 
-  /// @brief Method FromVectorImage, addr 0x33beda4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method FromVectorImage, addr 0x35c4ae0, size 0x34, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Background FromVectorImage(::UnityEngine::UIElements::VectorImage* vi);
 
-  /// @brief Method GetHashCode, addr 0x33bf234, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x35c4f70, size 0x98, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x33bf2cc, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x35c5008, size 0x138, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_renderTexture, addr 0x33bec00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_renderTexture, addr 0x35c493c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RenderTexture> get_renderTexture();
 
-  /// @brief Method get_sprite, addr 0x33beb7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sprite, addr 0x35c48b8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_sprite();
 
-  /// @brief Method get_texture, addr 0x33beaf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_texture, addr 0x35c4834, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> get_texture();
 
-  /// @brief Method get_vectorImage, addr 0x33bec84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_vectorImage, addr 0x35c49c0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UIElements::VectorImage> get_vectorImage();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::Background>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::Background>* i___System__IEquatable_1___UnityEngine__UIElements__Background_();
 
-  /// @brief Method op_Equality, addr 0x33bf030, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x35c4d6c, size 0x108, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::Background lhs, ::UnityEngine::UIElements::Background rhs);
 
-  /// @brief Method op_Inequality, addr 0x33bf138, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x35c4e74, size 0x38, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::UIElements::Background lhs, ::UnityEngine::UIElements::Background rhs);
 
-  /// @brief Method set_renderTexture, addr 0x33bec08, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method set_renderTexture, addr 0x35c4944, size 0x7c, virtual false, abstract: false, final false
   inline void set_renderTexture(::UnityEngine::RenderTexture* value);
 
-  /// @brief Method set_sprite, addr 0x33beb84, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method set_sprite, addr 0x35c48c0, size 0x7c, virtual false, abstract: false, final false
   inline void set_sprite(::UnityEngine::Sprite* value);
 
-  /// @brief Method set_texture, addr 0x33beb00, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method set_texture, addr 0x35c483c, size 0x7c, virtual false, abstract: false, final false
   inline void set_texture(::UnityEngine::Texture2D* value);
 
-  /// @brief Method set_vectorImage, addr 0x33bec8c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method set_vectorImage, addr 0x35c49c8, size 0x7c, virtual false, abstract: false, final false
   inline void set_vectorImage(::UnityEngine::UIElements::VectorImage* value);
 
   // Ctor Parameters []

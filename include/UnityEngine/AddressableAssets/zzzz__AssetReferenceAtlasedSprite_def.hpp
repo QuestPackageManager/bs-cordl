@@ -27,13 +27,13 @@ public:
   // Declarations
   static inline ::UnityEngine::AddressableAssets::AssetReferenceAtlasedSprite* New_ctor(::StringW guid);
 
-  /// @brief Method ValidateAsset, addr 0x2f58600, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method ValidateAsset, addr 0x3059f00, size 0x78, virtual true, abstract: false, final false
   inline bool ValidateAsset(::UnityEngine::Object* obj);
 
-  /// @brief Method ValidateAsset, addr 0x2f58678, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ValidateAsset, addr 0x3059f78, size 0x8, virtual true, abstract: false, final false
   inline bool ValidateAsset(::StringW path);
 
-  /// @brief Method .ctor, addr 0x2f585a8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3059ea8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::StringW guid);
 
 protected:

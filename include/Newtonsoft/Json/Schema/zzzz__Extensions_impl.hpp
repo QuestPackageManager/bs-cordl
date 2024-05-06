@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Schema::__Extensions____c__DisplayClass0_0::*)()>(
     &::Newtonsoft::Json::Schema::__Extensions____c__DisplayClass0_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x294aa18;
+  constexpr static std::size_t addrs = 0x2a492c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Schema::__Extensions____c__DisplayClass0_0::*)(
     ::System::Object*, ::Newtonsoft::Json::Schema::ValidationEventArgs*)>(&::Newtonsoft::Json::Schema::__Extensions____c__DisplayClass0_0::_IsValid_b__0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x294af20;
+  constexpr static std::size_t addrs = 0x2a497d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Schema::__Extensions____c__DisplayClass1_0::*)()>(
     &::Newtonsoft::Json::Schema::__Extensions____c__DisplayClass1_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x294af10;
+  constexpr static std::size_t addrs = 0x2a497c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Schema::__Extensions____c__DisplayClass1_0::*)(
     ::System::Object*, ::Newtonsoft::Json::Schema::ValidationEventArgs*)>(&::Newtonsoft::Json::Schema::__Extensions____c__DisplayClass1_0::_IsValid_b__0)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x294af28;
+  constexpr static std::size_t addrs = 0x2a497d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Newtonsoft::Json::Linq::JToken*, ::Newtonsoft::Json::Schema::JsonSchema*)>(
     &::Newtonsoft::Json::Schema::Extensions::IsValid)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x294a950;
+  constexpr static std::size_t addrs = 0x2a49200;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(
     ::Newtonsoft::Json::Linq::JToken*, ::Newtonsoft::Json::Schema::JsonSchema*, ByRef<::System::Collections::Generic::IList_1<::StringW>*>)>(&::Newtonsoft::Json::Schema::Extensions::IsValid)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x294ad84;
+  constexpr static std::size_t addrs = 0x2a49634;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Newtonsoft::Json::Linq::JToken*, ::Newtonsoft::Json::Schema::JsonSchema*)>(
     &::Newtonsoft::Json::Schema::Extensions::Validate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x294af18;
+  constexpr static std::size_t addrs = 0x2a497c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Newtonsoft::Json::Linq::JToken*, ::Newtonsoft::Json::Schema::JsonSchema*,
                                                                                            ::Newtonsoft::Json::Schema::ValidationEventHandler*)>(&::Newtonsoft::Json::Schema::Extensions::Validate)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x294ab50;
+  constexpr static std::size_t addrs = 0x2a49400;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -37,16 +37,16 @@ public:
   static inline ::System::Security::Authentication::AuthenticationException* New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
                                                                                       ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method .ctor, addr 0x2ea7ad0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fa93d0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2ea7b28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fa9428, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x2ea7b30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fa9430, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x2ea7b38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fa9438, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
 protected:

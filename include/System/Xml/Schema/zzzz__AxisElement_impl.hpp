@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::DoubleLinkAxis* (::System::Xml::Schema::AxisElement::*)()>(
     &::System::Xml::Schema::AxisElement::get_CurNode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2df2d1c;
+  constexpr static std::size_t addrs = 0x2ef161c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::AxisElement*>::get(), "get_CurNode",
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::AxisElement::*)(::System::Xml::Schema::DoubleLinkAxis*, int32_t)>(
     &::System::Xml::Schema::AxisElement::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x2df2d24;
+  constexpr static std::size_t addrs = 0x2ef1624;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::AxisElement::*)(int32_t)>(&::System::Xml::Schema::AxisElement::SetDepth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2df2d58;
+  constexpr static std::size_t addrs = 0x2ef1658;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::AxisElement::*)(int32_t, ::System::Xml::Schema::ForwardAxis*)>(
     &::System::Xml::Schema::AxisElement::MoveToParent)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x2df2d60;
+  constexpr static std::size_t addrs = 0x2ef1660;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::AxisElement::*)(::StringW, ::StringW, int32_t, ::System::Xml::Schema::ForwardAxis*)>(
     &::System::Xml::Schema::AxisElement::MoveToChild)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x2df2e6c;
+  constexpr static std::size_t addrs = 0x2ef176c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

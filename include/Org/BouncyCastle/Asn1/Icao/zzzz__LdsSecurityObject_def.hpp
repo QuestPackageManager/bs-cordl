@@ -64,13 +64,13 @@ public:
   /// @brief Field versionInfo, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_versionInfo, put = __cordl_internal_set_versionInfo))::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo* versionInfo;
 
-  /// @brief Method CheckDatagroupHashSeqSize, addr 0x10e05e8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method CheckDatagroupHashSeqSize, addr 0x11d3d0c, size 0xac, virtual false, abstract: false, final false
   inline void CheckDatagroupHashSeqSize(int32_t size);
 
-  /// @brief Method GetDatagroupHash, addr 0x10e081c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetDatagroupHash, addr 0x11d3f40, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Icao::DataGroupHash*, ::Array<::Org::BouncyCastle::Asn1::Icao::DataGroupHash*>*> GetDatagroupHash();
 
-  /// @brief Method GetInstance, addr 0x10dfe8c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x11d35b0, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Icao::LdsSecurityObject* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Icao::LdsSecurityObject*
@@ -84,7 +84,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Icao::LdsSecurityObject* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x10e082c, size 0x1c0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x11d3f50, size 0x1c0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::ArrayW<::Org::BouncyCastle::Asn1::Icao::DataGroupHash*, ::Array<::Org::BouncyCastle::Asn1::Icao::DataGroupHash*>*> const& __cordl_internal_get_datagroupHash() const;
@@ -111,25 +111,25 @@ public:
 
   constexpr void __cordl_internal_set_versionInfo(::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo* value);
 
-  /// @brief Method .ctor, addr 0x10e0694, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11d3db8, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digestAlgorithmIdentifier,
                     ::ArrayW<::Org::BouncyCastle::Asn1::Icao::DataGroupHash*, ::Array<::Org::BouncyCastle::Asn1::Icao::DataGroupHash*>*> datagroupHash);
 
-  /// @brief Method .ctor, addr 0x10e0740, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11d3e64, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digestAlgorithmIdentifier,
                     ::ArrayW<::Org::BouncyCastle::Asn1::Icao::DataGroupHash*, ::Array<::Org::BouncyCastle::Asn1::Icao::DataGroupHash*>*> datagroupHash,
                     ::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo* versionInfo);
 
-  /// @brief Method .ctor, addr 0x10dff30, size 0x570, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11d3654, size 0x570, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_DigestAlgorithmIdentifier, addr 0x10e0814, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DigestAlgorithmIdentifier, addr 0x11d3f38, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_DigestAlgorithmIdentifier();
 
-  /// @brief Method get_Version, addr 0x10e07f8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x11d3f1c, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Version();
 
-  /// @brief Method get_VersionInfo, addr 0x10e0824, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_VersionInfo, addr 0x11d3f48, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo* get_VersionInfo();
 
 protected:

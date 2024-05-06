@@ -110,24 +110,24 @@ public:
   /// @brief Field didFinishEvent, offset 0xf8, size 0x8
   __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent))::System::Action_1<::UnityW<::GlobalNamespace::HelpFlowCoordinator>>* didFinishEvent;
 
-  /// @brief Method BackButtonWasPressed, addr 0x264a160, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BackButtonWasPressed, addr 0x2749fd8, size 0x20, virtual true, abstract: false, final false
   inline void BackButtonWasPressed(::HMUI::ViewController* topViewController);
 
-  /// @brief Method DidActivate, addr 0x2649968, size 0x50c, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x27497e0, size 0x50c, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x2649e74, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x2749cec, size 0x10c, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleDidSelectHelpSubMenu, addr 0x2649f80, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method HandleDidSelectHelpSubMenu, addr 0x2749df8, size 0x64, virtual false, abstract: false, final false
   inline void HandleDidSelectHelpSubMenu(int32_t idx);
 
-  /// @brief Method HandleHowToPlayViewControllerDidFinish, addr 0x264a0e8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method HandleHowToPlayViewControllerDidFinish, addr 0x2749f60, size 0x78, virtual false, abstract: false, final false
   inline void HandleHowToPlayViewControllerDidFinish(::GlobalNamespace::__HowToPlayViewController__HowToPlayOptions howToPlayOptions);
 
   static inline ::GlobalNamespace::HelpFlowCoordinator* New_ctor();
 
-  /// @brief Method ReplaceViewController, addr 0x2649fe4, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method ReplaceViewController, addr 0x2749e5c, size 0x104, virtual false, abstract: false, final false
   inline void ReplaceViewController(::HMUI::ViewController* viewController);
 
   constexpr ::UnityW<::GlobalNamespace::EulaDisplayViewController> const& __cordl_internal_get__eulaDisplayViewController() const;
@@ -203,13 +203,13 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::HelpFlowCoordinator>>* value);
 
-  /// @brief Method .ctor, addr 0x264a180, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2749ff8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x2649808, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x2749680, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::HelpFlowCoordinator>>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x26498b8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x2749730, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::HelpFlowCoordinator>>* value);
 
 protected:

@@ -4,6 +4,8 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__WaypointsTestMenuViewController_def.hpp"
+#include "BeatSaber/GameSettings/zzzz__GraphicSettingsHandler_def.hpp"
+#include "BeatSaber/PerformancePresets/zzzz__PerformancePreset_def.hpp"
 #include "GlobalNamespace/zzzz__AudioClipAsyncLoader_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristicSO_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataLoader_def.hpp"
@@ -26,388 +28,401 @@
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17._ctor
+//  Writing Method size for method: ::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::*)(int32_t)>(
-    &::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::*)(int32_t)>(
+    &::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0xf69aa8;
+  constexpr static std::size_t addrs = 0x1059630;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17*>::get(), ".ctor",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18*>::get(), ".ctor",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17.System_IDisposable_Dispose
+//  Writing Method size for method: ::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18.System_IDisposable_Dispose
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::*)()>(
-    &::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::System_IDisposable_Dispose)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::*)()>(
+    &::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0xf69c70;
+  constexpr static std::size_t addrs = 0x10597f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18*>::get(),
                                                  "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17.MoveNext
+//  Writing Method size for method: ::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::*)()>(
-    &::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::MoveNext)> {
-  constexpr static std::size_t size = 0xaf0;
-  constexpr static std::size_t addrs = 0xf69dc4;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::*)()>(
+    &::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::MoveNext)> {
+  constexpr static std::size_t size = 0xb74;
+  constexpr static std::size_t addrs = 0x105994c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17*>::get(), "MoveNext",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18*>::get(), "MoveNext",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17.__m__Finally1
+//  Writing Method size for method: ::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18.__m__Finally1
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::*)()>(
-    &::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::__m__Finally1)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::*)()>(
+    &::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::__m__Finally1)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0xf6a954;
+  constexpr static std::size_t addrs = 0x105a560;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18*>::get(),
                                                  "<>m__Finally1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17.__m__Finally2
+//  Writing Method size for method: ::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18.__m__Finally2
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::*)()>(
-    &::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::__m__Finally2)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::*)()>(
+    &::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::__m__Finally2)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0xf6a904;
+  constexpr static std::size_t addrs = 0x105a510;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18*>::get(),
                                                  "<>m__Finally2", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17.__m__Finally3
+//  Writing Method size for method: ::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18.__m__Finally3
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::*)()>(
-    &::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::__m__Finally3)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::*)()>(
+    &::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::__m__Finally3)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0xf6a8b4;
+  constexpr static std::size_t addrs = 0x105a4c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18*>::get(),
                                                  "<>m__Finally3", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17.System_Collections_Generic_IEnumerator_System_Object__get_Current
+//  Writing Method size for method: ::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18.System_Collections_Generic_IEnumerator_System_Object__get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::*)()>(
-    &::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::*)()>(
+    &::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf6a9a4;
+  constexpr static std::size_t addrs = 0x105a5b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17*>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18*>::get(),
                                     "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17.System_Collections_IEnumerator_Reset
+//  Writing Method size for method: ::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18.System_Collections_IEnumerator_Reset
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::*)()>(
-    &::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::System_Collections_IEnumerator_Reset)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::*)()>(
+    &::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0xf6a9ac;
+  constexpr static std::size_t addrs = 0x105a5b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18*>::get(),
                                                  "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17.System_Collections_IEnumerator_get_Current
+//  Writing Method size for method: ::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18.System_Collections_IEnumerator_get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::*)()>(
-    &::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::System_Collections_IEnumerator_get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::*)()>(
+    &::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf6a9ec;
+  constexpr static std::size_t addrs = 0x105a5f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18*>::get(),
                                                  "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-constexpr GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
+constexpr GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
 constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>*
-GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
+GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::operator ::System::Collections::IEnumerator*() noexcept {
+constexpr GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::i___System__Collections__IEnumerator() noexcept {
+constexpr ::System::Collections::IEnumerator* GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::operator ::System::IDisposable*() noexcept {
+constexpr GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::i___System__IDisposable() noexcept {
+constexpr ::System::IDisposable* GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
-constexpr int32_t& GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::__cordl_internal_get___1__state() {
+constexpr int32_t& GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr int32_t const& GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::__cordl_internal_get___1__state() const {
+constexpr int32_t const& GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr void GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::__cordl_internal_set___1__state(int32_t value) {
+constexpr void GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::__cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
-constexpr ::System::Object*& GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::__cordl_internal_get___2__current() {
+constexpr ::System::Object*& GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::__cordl_internal_get___2__current() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::__cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr void GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::__cordl_internal_set___2__current(::System::Object* value) {
+constexpr void GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::__cordl_internal_set___2__current(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::GlobalNamespace::WaypointsTestMenuViewController>& GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::__cordl_internal_get___4__this() {
+constexpr ::UnityW<::GlobalNamespace::WaypointsTestMenuViewController>& GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::UnityW<::GlobalNamespace::WaypointsTestMenuViewController> const& GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::__cordl_internal_get___4__this() const {
+constexpr ::UnityW<::GlobalNamespace::WaypointsTestMenuViewController> const& GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::WaypointsTestMenuViewController> value) {
+constexpr void GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::WaypointsTestMenuViewController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::__cordl_internal_get__count_5__2() {
+constexpr int32_t& GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::__cordl_internal_get__count_5__2() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____count_5__2;
 }
-constexpr int32_t const& GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::__cordl_internal_get__count_5__2() const {
+constexpr int32_t const& GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::__cordl_internal_get__count_5__2() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____count_5__2;
 }
-constexpr void GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::__cordl_internal_set__count_5__2(int32_t value) {
+constexpr void GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::__cordl_internal_set__count_5__2(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____count_5__2 = value;
 }
 constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDifficulty>*&
-GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::__cordl_internal_get__difficultiesToCheck_5__3() {
+GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::__cordl_internal_get__difficultiesToCheck_5__3() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____difficultiesToCheck_5__3;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDifficulty>*> const&
-GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::__cordl_internal_get__difficultiesToCheck_5__3() const {
+GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::__cordl_internal_get__difficultiesToCheck_5__3() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____difficultiesToCheck_5__3;
 }
-constexpr void GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::__cordl_internal_set__difficultiesToCheck_5__3(
+constexpr void GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::__cordl_internal_set__difficultiesToCheck_5__3(
     ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDifficulty>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____difficultiesToCheck_5__3)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::__List_1__Enumerator<::UnityW<::GlobalNamespace::BeatmapLevelSO>>&
-GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::__cordl_internal_get___7__wrap3() {
+constexpr ::BeatSaber::PerformancePresets::PerformancePreset*& GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::__cordl_internal_get__currentPreset_5__4() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____7__wrap3;
+  return this->____currentPreset_5__4;
+}
+constexpr ::cordl_internals::to_const_pointer<::BeatSaber::PerformancePresets::PerformancePreset*> const&
+GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::__cordl_internal_get__currentPreset_5__4() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____currentPreset_5__4;
+}
+constexpr void GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::__cordl_internal_set__currentPreset_5__4(::BeatSaber::PerformancePresets::PerformancePreset* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____currentPreset_5__4)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::System::Collections::Generic::__List_1__Enumerator<::UnityW<::GlobalNamespace::BeatmapLevelSO>>&
+GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::__cordl_internal_get___7__wrap4() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____7__wrap4;
 }
 constexpr ::System::Collections::Generic::__List_1__Enumerator<::UnityW<::GlobalNamespace::BeatmapLevelSO>> const&
-GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::__cordl_internal_get___7__wrap3() const {
+GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::__cordl_internal_get___7__wrap4() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____7__wrap3;
+  return this->_____7__wrap4;
 }
-constexpr void GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::__cordl_internal_set___7__wrap3(
+constexpr void GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::__cordl_internal_set___7__wrap4(
     ::System::Collections::Generic::__List_1__Enumerator<::UnityW<::GlobalNamespace::BeatmapLevelSO>> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->_____7__wrap3 = value;
+  this->_____7__wrap4 = value;
 }
-constexpr ::UnityW<::GlobalNamespace::BeatmapLevelSO>& GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::__cordl_internal_get__previewLevel_5__5() {
+constexpr ::UnityW<::GlobalNamespace::BeatmapLevelSO>& GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::__cordl_internal_get__previewLevel_5__6() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____previewLevel_5__5;
+  return this->____previewLevel_5__6;
 }
-constexpr ::UnityW<::GlobalNamespace::BeatmapLevelSO> const& GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::__cordl_internal_get__previewLevel_5__5() const {
+constexpr ::UnityW<::GlobalNamespace::BeatmapLevelSO> const& GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::__cordl_internal_get__previewLevel_5__6() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____previewLevel_5__5;
+  return this->____previewLevel_5__6;
 }
-constexpr void GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::__cordl_internal_set__previewLevel_5__5(::UnityW<::GlobalNamespace::BeatmapLevelSO> value) {
+constexpr void GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::__cordl_internal_set__previewLevel_5__6(::UnityW<::GlobalNamespace::BeatmapLevelSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____previewLevel_5__5)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____previewLevel_5__6)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::GlobalNamespace::BeatmapLevelDataSO>& GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::__cordl_internal_get__beatmapLevelData_5__6() {
+constexpr ::UnityW<::GlobalNamespace::BeatmapLevelDataSO>& GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::__cordl_internal_get__beatmapLevelData_5__7() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____beatmapLevelData_5__6;
+  return this->____beatmapLevelData_5__7;
 }
-constexpr ::UnityW<::GlobalNamespace::BeatmapLevelDataSO> const& GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::__cordl_internal_get__beatmapLevelData_5__6() const {
+constexpr ::UnityW<::GlobalNamespace::BeatmapLevelDataSO> const& GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::__cordl_internal_get__beatmapLevelData_5__7() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____beatmapLevelData_5__6;
+  return this->____beatmapLevelData_5__7;
 }
-constexpr void GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::__cordl_internal_set__beatmapLevelData_5__6(::UnityW<::GlobalNamespace::BeatmapLevelDataSO> value) {
+constexpr void GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::__cordl_internal_set__beatmapLevelData_5__7(::UnityW<::GlobalNamespace::BeatmapLevelDataSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapLevelData_5__6)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapLevelData_5__7)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::__List_1__Enumerator<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>&
-GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::__cordl_internal_get___7__wrap6() {
+GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::__cordl_internal_get___7__wrap7() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____7__wrap6;
+  return this->_____7__wrap7;
 }
 constexpr ::System::Collections::Generic::__List_1__Enumerator<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>> const&
-GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::__cordl_internal_get___7__wrap6() const {
+GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::__cordl_internal_get___7__wrap7() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____7__wrap6;
+  return this->_____7__wrap7;
 }
-constexpr void GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::__cordl_internal_set___7__wrap6(
+constexpr void GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::__cordl_internal_set___7__wrap7(
     ::System::Collections::Generic::__List_1__Enumerator<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->_____7__wrap6 = value;
+  this->_____7__wrap7 = value;
 }
-constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>& GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::__cordl_internal_get__characteristic_5__8() {
+constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>& GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::__cordl_internal_get__characteristic_5__9() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____characteristic_5__8;
+  return this->____characteristic_5__9;
 }
-constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> const& GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::__cordl_internal_get__characteristic_5__8() const {
+constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> const& GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::__cordl_internal_get__characteristic_5__9() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____characteristic_5__8;
+  return this->____characteristic_5__9;
 }
-constexpr void GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::__cordl_internal_set__characteristic_5__8(::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> value) {
+constexpr void GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::__cordl_internal_set__characteristic_5__9(::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____characteristic_5__8)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____characteristic_5__9)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::__List_1__Enumerator<::GlobalNamespace::BeatmapDifficulty>&
-GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::__cordl_internal_get___7__wrap8() {
+GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::__cordl_internal_get___7__wrap9() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____7__wrap8;
+  return this->_____7__wrap9;
 }
 constexpr ::System::Collections::Generic::__List_1__Enumerator<::GlobalNamespace::BeatmapDifficulty> const&
-GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::__cordl_internal_get___7__wrap8() const {
+GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::__cordl_internal_get___7__wrap9() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____7__wrap8;
+  return this->_____7__wrap9;
 }
-constexpr void GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::__cordl_internal_set___7__wrap8(
+constexpr void GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::__cordl_internal_set___7__wrap9(
     ::System::Collections::Generic::__List_1__Enumerator<::GlobalNamespace::BeatmapDifficulty> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->_____7__wrap8 = value;
+  this->_____7__wrap9 = value;
 }
-constexpr ::GlobalNamespace::BeatmapDifficulty& GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::__cordl_internal_get__difficulty_5__10() {
+constexpr ::GlobalNamespace::BeatmapDifficulty& GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::__cordl_internal_get__difficulty_5__11() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____difficulty_5__10;
+  return this->____difficulty_5__11;
 }
-constexpr ::GlobalNamespace::BeatmapDifficulty const& GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::__cordl_internal_get__difficulty_5__10() const {
+constexpr ::GlobalNamespace::BeatmapDifficulty const& GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::__cordl_internal_get__difficulty_5__11() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____difficulty_5__10;
+  return this->____difficulty_5__11;
 }
-constexpr void GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::__cordl_internal_set__difficulty_5__10(::GlobalNamespace::BeatmapDifficulty value) {
+constexpr void GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::__cordl_internal_set__difficulty_5__11(::GlobalNamespace::BeatmapDifficulty value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____difficulty_5__10 = value;
+  this->____difficulty_5__11 = value;
 }
-inline ::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17* GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17*>(__1__state));
+inline ::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18* GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18*>(__1__state));
 }
-inline void GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::_ctor(int32_t __1__state) {
+inline void GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::_ctor(int32_t __1__state) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
 }
-inline void GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::System_IDisposable_Dispose() {
+inline void GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::System_IDisposable_Dispose() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18*>::get(),
                                                "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::MoveNext() {
+inline bool GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17*>::get(), "MoveNext",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18*>::get(), "MoveNext",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::__m__Finally1() {
+inline void GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::__m__Finally1() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18*>::get(),
                                                "<>m__Finally1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::__m__Finally2() {
+inline void GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::__m__Finally2() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18*>::get(),
                                                "<>m__Finally2", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::__m__Finally3() {
+inline void GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::__m__Finally3() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18*>::get(),
                                                "<>m__Finally3", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
+inline ::System::Object* GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18*>::get(),
                                   "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::System_Collections_IEnumerator_Reset() {
+inline void GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18*>::get(),
                                                "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::System_Collections_IEnumerator_get_Current() {
+inline ::System::Object* GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18*>::get(),
                                                "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__17::__WaypointsTestMenuViewController___CheckBeatmaps_d__17() {}
+constexpr ::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__18::__WaypointsTestMenuViewController___CheckBeatmaps_d__18() {}
 //  Writing Method size for method: ::GlobalNamespace::WaypointsTestMenuViewController.Start
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::WaypointsTestMenuViewController::*)()>(
     &::GlobalNamespace::WaypointsTestMenuViewController::Start)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0xf69804;
+  constexpr static std::size_t addrs = 0x105938c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::WaypointsTestMenuViewController*>::get(),
@@ -421,7 +436,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::WaypointsTestMenuViewController::*)()>(
     &::GlobalNamespace::WaypointsTestMenuViewController::OnDestroy)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0xf6995c;
+  constexpr static std::size_t addrs = 0x10594e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::WaypointsTestMenuViewController*>::get(),
@@ -435,7 +450,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::WaypointsTestMenuViewController::*)()>(
     &::GlobalNamespace::WaypointsTestMenuViewController::CheckBeatmaps)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0xf69a40;
+  constexpr static std::size_t addrs = 0x10595c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::WaypointsTestMenuViewController*>::get(),
@@ -449,7 +464,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::WaypointsTestMenuViewController::*)(
     ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*)>(&::GlobalNamespace::WaypointsTestMenuViewController::HandleMainGameSceneDidFinish)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0xf69ad0;
+  constexpr static std::size_t addrs = 0x1059658;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -465,7 +480,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::WaypointsTestMenuViewController::*)()>(
     &::GlobalNamespace::WaypointsTestMenuViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf69b64;
+  constexpr static std::size_t addrs = 0x10596ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::WaypointsTestMenuViewController*>::get(),
@@ -473,45 +488,45 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::WaypointsTestMenuViewController._Start_b__15_0
+//  Writing Method size for method: ::GlobalNamespace::WaypointsTestMenuViewController._Start_b__16_0
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::WaypointsTestMenuViewController::*)()>(
-    &::GlobalNamespace::WaypointsTestMenuViewController::_Start_b__15_0)> {
+    &::GlobalNamespace::WaypointsTestMenuViewController::_Start_b__16_0)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0xf69b6c;
+  constexpr static std::size_t addrs = 0x10596f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::WaypointsTestMenuViewController*>::get(),
-                                                                               "<Start>b__15_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                               "<Start>b__16_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::WaypointsTestMenuViewController._Start_b__15_1
+//  Writing Method size for method: ::GlobalNamespace::WaypointsTestMenuViewController._Start_b__16_1
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::WaypointsTestMenuViewController::*)()>(
-    &::GlobalNamespace::WaypointsTestMenuViewController::_Start_b__15_1)> {
+    &::GlobalNamespace::WaypointsTestMenuViewController::_Start_b__16_1)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0xf69c1c;
+  constexpr static std::size_t addrs = 0x10597a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::WaypointsTestMenuViewController*>::get(),
-                                                                               "<Start>b__15_1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                               "<Start>b__16_1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::WaypointsTestMenuViewController._HandleMainGameSceneDidFinish_b__18_0
+//  Writing Method size for method: ::GlobalNamespace::WaypointsTestMenuViewController._HandleMainGameSceneDidFinish_b__19_0
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::WaypointsTestMenuViewController::*)(::Zenject::DiContainer*)>(
-    &::GlobalNamespace::WaypointsTestMenuViewController::_HandleMainGameSceneDidFinish_b__18_0)> {
+    &::GlobalNamespace::WaypointsTestMenuViewController::_HandleMainGameSceneDidFinish_b__19_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf69c68;
+  constexpr static std::size_t addrs = 0x10597f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::WaypointsTestMenuViewController*>::get(), "<HandleMainGameSceneDidFinish>b__18_0",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::WaypointsTestMenuViewController*>::get(), "<HandleMainGameSceneDidFinish>b__19_0",
         std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get() })));
     return ___internal_method;
   }
@@ -666,6 +681,19 @@ constexpr void GlobalNamespace::WaypointsTestMenuViewController::__cordl_interna
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapDataLoader)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
+constexpr ::BeatSaber::GameSettings::GraphicSettingsHandler*& GlobalNamespace::WaypointsTestMenuViewController::__cordl_internal_get__graphicSettingsHandler() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____graphicSettingsHandler;
+}
+constexpr ::cordl_internals::to_const_pointer<::BeatSaber::GameSettings::GraphicSettingsHandler*> const&
+GlobalNamespace::WaypointsTestMenuViewController::__cordl_internal_get__graphicSettingsHandler() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____graphicSettingsHandler;
+}
+constexpr void GlobalNamespace::WaypointsTestMenuViewController::__cordl_internal_set__graphicSettingsHandler(::BeatSaber::GameSettings::GraphicSettingsHandler* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____graphicSettingsHandler)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
 constexpr ::HMUI::ButtonBinder*& GlobalNamespace::WaypointsTestMenuViewController::__cordl_internal_get__buttonBinder() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buttonBinder;
@@ -733,19 +761,19 @@ inline void GlobalNamespace::WaypointsTestMenuViewController::_ctor() {
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::WaypointsTestMenuViewController::_Start_b__15_0() {
+inline void GlobalNamespace::WaypointsTestMenuViewController::_Start_b__16_0() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::WaypointsTestMenuViewController*>::get(),
-                                                                             "<Start>b__15_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                             "<Start>b__16_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::WaypointsTestMenuViewController::_Start_b__15_1() {
+inline void GlobalNamespace::WaypointsTestMenuViewController::_Start_b__16_1() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::WaypointsTestMenuViewController*>::get(),
-                                                                             "<Start>b__15_1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                             "<Start>b__16_1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::WaypointsTestMenuViewController::_HandleMainGameSceneDidFinish_b__18_0(::Zenject::DiContainer* container) {
+inline void GlobalNamespace::WaypointsTestMenuViewController::_HandleMainGameSceneDidFinish_b__19_0(::Zenject::DiContainer* container) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::WaypointsTestMenuViewController*>::get(), "<HandleMainGameSceneDidFinish>b__18_0",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::WaypointsTestMenuViewController*>::get(), "<HandleMainGameSceneDidFinish>b__19_0",
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, container);
 }

@@ -47,50 +47,50 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash*() noexcept;
 
-  /// @brief Method BlockUpdate, addr 0x10cc680, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method BlockUpdate, addr 0x11bfda4, size 0x13c, virtual true, abstract: false, final false
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t len);
 
-  /// @brief Method DoFinal, addr 0x10cc7bc, size 0x1ec, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x11bfee0, size 0x1ec, virtual true, abstract: false, final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method ForkPrfHash, addr 0x10cc12c, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method ForkPrfHash, addr 0x11bf850, size 0x60, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::IDigest* ForkPrfHash();
 
-  /// @brief Method GetByteLength, addr 0x10cc308, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method GetByteLength, addr 0x11bfa2c, size 0x148, virtual true, abstract: false, final false
   inline int32_t GetByteLength();
 
-  /// @brief Method GetDigestSize, addr 0x10cc450, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method GetDigestSize, addr 0x11bfb74, size 0x114, virtual true, abstract: false, final false
   inline int32_t GetDigestSize();
 
-  /// @brief Method GetFinalHash, addr 0x10cc18c, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method GetFinalHash, addr 0x11bf8b0, size 0x50, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetFinalHash(uint8_t hashAlgorithm);
 
-  /// @brief Method Init, addr 0x10cc06c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x11bf790, size 0x8, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::Tls::TlsContext* context);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::CombinedHash* New_ctor();
 
   static inline ::Org::BouncyCastle::Crypto::Tls::CombinedHash* New_ctor(::Org::BouncyCastle::Crypto::Tls::CombinedHash* t);
 
-  /// @brief Method NotifyPrfDetermined, addr 0x10cc074, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method NotifyPrfDetermined, addr 0x11bf798, size 0x4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash* NotifyPrfDetermined();
 
-  /// @brief Method Reset, addr 0x10cc9a8, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x11c00cc, size 0x108, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method SealHashAlgorithms, addr 0x10cc0c8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SealHashAlgorithms, addr 0x11bf7ec, size 0x4, virtual true, abstract: false, final false
   inline void SealHashAlgorithms();
 
-  /// @brief Method Ssl3Complete, addr 0x10ccab0, size 0x33c, virtual true, abstract: false, final false
+  /// @brief Method Ssl3Complete, addr 0x11c01d4, size 0x33c, virtual true, abstract: false, final false
   inline void Ssl3Complete(::Org::BouncyCastle::Crypto::IDigest* d, ::ArrayW<uint8_t, ::Array<uint8_t>*> ipad, ::ArrayW<uint8_t, ::Array<uint8_t>*> opad, int32_t padLength);
 
-  /// @brief Method StopTracking, addr 0x10cc0cc, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method StopTracking, addr 0x11bf7f0, size 0x60, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash* StopTracking();
 
-  /// @brief Method TrackHashAlgorithm, addr 0x10cc078, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method TrackHashAlgorithm, addr 0x11bf79c, size 0x50, virtual true, abstract: false, final false
   inline void TrackHashAlgorithm(uint8_t hashAlgorithm);
 
-  /// @brief Method Update, addr 0x10cc564, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x11bfc88, size 0x11c, virtual true, abstract: false, final false
   inline void Update(uint8_t input);
 
   constexpr ::Org::BouncyCastle::Crypto::Tls::TlsContext*& __cordl_internal_get_mContext();
@@ -111,13 +111,13 @@ public:
 
   constexpr void __cordl_internal_set_mSha1(::Org::BouncyCastle::Crypto::IDigest* value);
 
-  /// @brief Method .ctor, addr 0x10cbf54, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11bf678, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x10cbfd0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11bf6f4, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::CombinedHash* t);
 
-  /// @brief Method get_AlgorithmName, addr 0x10cc1dc, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x11bf900, size 0x12c, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDigest"

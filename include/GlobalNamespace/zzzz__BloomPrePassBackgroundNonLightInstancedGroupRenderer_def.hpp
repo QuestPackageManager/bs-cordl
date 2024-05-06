@@ -151,7 +151,7 @@ public:
 
   constexpr void __cordl_internal_set_propertyType(::GlobalNamespace::__BloomPrePassBackgroundNonLightInstancedGroupRenderer__PropertyType value);
 
-  /// @brief Method .ctor, addr 0x23f0908, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24e84f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -240,27 +240,27 @@ public:
   /// @brief Field _worldSpaceCameraPosID, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__worldSpaceCameraPosID, put = setStaticF__worldSpaceCameraPosID)) int32_t _worldSpaceCameraPosID;
 
-  /// @brief Method AutoFillRenderers, addr 0x23f0728, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method AutoFillRenderers, addr 0x24e8318, size 0x50, virtual false, abstract: false, final false
   inline void AutoFillRenderers();
 
-  /// @brief Method Awake, addr 0x23efb44, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x24e7734, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method GetCachedFloatArray, addr 0x23f064c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetCachedFloatArray, addr 0x24e823c, size 0xdc, virtual false, abstract: false, final false
   inline ::ArrayW<float_t, ::Array<float_t>*> GetCachedFloatArray(::StringW propertyName);
 
-  /// @brief Method GetCachedMatrixArray, addr 0x23f0494, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetCachedMatrixArray, addr 0x24e8084, size 0xdc, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> GetCachedMatrixArray(::StringW propertyName);
 
-  /// @brief Method GetCachedVectorArray, addr 0x23f0570, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetCachedVectorArray, addr 0x24e8160, size 0xdc, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> GetCachedVectorArray(::StringW propertyName);
 
-  /// @brief Method InitIfNeeded, addr 0x23efb48, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method InitIfNeeded, addr 0x24e7738, size 0x258, virtual false, abstract: false, final false
   inline void InitIfNeeded();
 
   static inline ::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer* New_ctor();
 
-  /// @brief Method Render, addr 0x23efdd0, size 0x6c4, virtual true, abstract: false, final false
+  /// @brief Method Render, addr 0x24e79c0, size 0x6c4, virtual true, abstract: false, final false
   inline void Render(::UnityEngine::RenderTexture* dest, ::UnityEngine::Matrix4x4 viewMatrix, ::UnityEngine::Matrix4x4 projectionMatrix);
 
   constexpr ::UnityEngine::Rendering::CommandBuffer*& __cordl_internal_get__commandBuffer();
@@ -329,7 +329,7 @@ public:
                                                                     ::Array<::GlobalNamespace::__BloomPrePassBackgroundNonLightInstancedGroupRenderer__SupportedProperty*>*>
                                                                value);
 
-  /// @brief Method .ctor, addr 0x23f0778, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24e8368, size 0x128, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__worldSpaceCameraPosID();

@@ -268,41 +268,41 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE __MeshGenerationContextUtils__RectangleParams {
 public:
   // Declarations
-  /// @brief Method AdjustSpriteUVsForScaleMode, addr 0x33c98b8, size 0x760, virtual false, abstract: false, final false
+  /// @brief Method AdjustSpriteUVsForScaleMode, addr 0x35cf5f4, size 0x760, virtual false, abstract: false, final false
   static inline void AdjustSpriteUVsForScaleMode(::UnityEngine::Rect rect, ::UnityEngine::Rect uv, ::UnityEngine::Rect geomRect, ::UnityEngine::Texture* texture, ::UnityEngine::Sprite* sprite,
                                                  ::UnityEngine::ScaleMode scaleMode, ByRef<::UnityEngine::Rect> rectOut, ByRef<::UnityEngine::Rect> uvOut);
 
-  /// @brief Method AdjustUVsForScaleMode, addr 0x33c9598, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method AdjustUVsForScaleMode, addr 0x35cf2d4, size 0x320, virtual false, abstract: false, final false
   static inline void AdjustUVsForScaleMode(::UnityEngine::Rect rect, ::UnityEngine::Rect uv, ::UnityEngine::Texture* texture, ::UnityEngine::ScaleMode scaleMode, ByRef<::UnityEngine::Rect> rectOut,
                                            ByRef<::UnityEngine::Rect> uvOut);
 
-  /// @brief Method ApplyPackingRotation, addr 0x33ca2e8, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method ApplyPackingRotation, addr 0x35d0024, size 0x12c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rect ApplyPackingRotation(::UnityEngine::Rect uv, ::UnityEngine::SpritePackingRotation rotation);
 
-  /// @brief Method ComputeGeomRect, addr 0x33ca138, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method ComputeGeomRect, addr 0x35cfe74, size 0xd8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rect ComputeGeomRect(::UnityEngine::Sprite* sprite);
 
-  /// @brief Method ComputeUVRect, addr 0x33ca210, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method ComputeUVRect, addr 0x35cff4c, size 0xd8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rect ComputeUVRect(::UnityEngine::Sprite* sprite);
 
-  /// @brief Method HasRadius, addr 0x33cad60, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method HasRadius, addr 0x35d0a9c, size 0x74, virtual false, abstract: false, final false
   inline bool HasRadius(float_t epsilon);
 
-  /// @brief Method MakeSprite, addr 0x33ca580, size 0x6c4, virtual false, abstract: false, final false
+  /// @brief Method MakeSprite, addr 0x35d02bc, size 0x6c4, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams MakeSprite(::UnityEngine::Rect rect, ::UnityEngine::Sprite* sprite, ::UnityEngine::ScaleMode scaleMode,
                                                                                                     ::UnityEngine::UIElements::ContextType panelContext, bool hasRadius,
                                                                                                     ByRef<::UnityEngine::Vector4> slices);
 
-  /// @brief Method MakeTextured, addr 0x33ca414, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method MakeTextured, addr 0x35d0150, size 0x16c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams MakeTextured(::UnityEngine::Rect rect, ::UnityEngine::Rect uv, ::UnityEngine::Texture* texture,
                                                                                                       ::UnityEngine::ScaleMode scaleMode, ::UnityEngine::UIElements::ContextType panelContext);
 
-  /// @brief Method MakeVectorTextured, addr 0x33cac44, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method MakeVectorTextured, addr 0x35d0980, size 0x11c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams MakeVectorTextured(::UnityEngine::Rect rect, ::UnityEngine::Rect uv,
                                                                                                             ::UnityEngine::UIElements::VectorImage* vectorImage, ::UnityEngine::ScaleMode scaleMode,
                                                                                                             ::UnityEngine::UIElements::ContextType panelContext);
 
-  /// @brief Method RectIntersection, addr 0x33ca018, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method RectIntersection, addr 0x35cfd54, size 0x120, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rect RectIntersection(::UnityEngine::Rect a, ::UnityEngine::Rect b);
 
   // Ctor Parameters []
@@ -450,13 +450,13 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE __MeshGenerationContextUtils__TextParams {
 public:
   // Declarations
-  /// @brief Method GetHashCode, addr 0x33cadd4, size 0x2a0, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x35d0b10, size 0x2a0, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetTextNativeSettings, addr 0x33cb41c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method GetTextNativeSettings, addr 0x35d1158, size 0xd4, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::TextNativeSettings GetTextNativeSettings(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams textParams, float_t scaling);
 
-  /// @brief Method MakeStyleBased, addr 0x33cb074, size 0x3a8, virtual false, abstract: false, final false
+  /// @brief Method MakeStyleBased, addr 0x35d0db0, size 0x3a8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams MakeStyleBased(::UnityEngine::UIElements::VisualElement* ve, ::StringW text);
 
   // Ctor Parameters []
@@ -598,20 +598,20 @@ public:
 
   using TextParams = ::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams;
 
-  /// @brief Method AdjustBackgroundSizeForBorders, addr 0x33c9144, size 0x454, virtual false, abstract: false, final false
+  /// @brief Method AdjustBackgroundSizeForBorders, addr 0x35cee80, size 0x454, virtual false, abstract: false, final false
   static inline void AdjustBackgroundSizeForBorders(::UnityEngine::UIElements::VisualElement* visualElement, ByRef<::UnityEngine::Rect> rect);
 
-  /// @brief Method ConvertBorderRadiusPercentToPoints, addr 0x33c8e6c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ConvertBorderRadiusPercentToPoints, addr 0x35ceba8, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 ConvertBorderRadiusPercentToPoints(::UnityEngine::Vector2 borderRectSize, ::UnityEngine::UIElements::Length length);
 
-  /// @brief Method GetVisualElementRadii, addr 0x33c8ea8, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method GetVisualElementRadii, addr 0x35cebe4, size 0x29c, virtual false, abstract: false, final false
   static inline void GetVisualElementRadii(::UnityEngine::UIElements::VisualElement* ve, ByRef<::UnityEngine::Vector2> topLeft, ByRef<::UnityEngine::Vector2> bottomLeft,
                                            ByRef<::UnityEngine::Vector2> topRight, ByRef<::UnityEngine::Vector2> bottomRight);
 
-  /// @brief Method Rectangle, addr 0x33c8c38, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Rectangle, addr 0x35ce974, size 0x100, virtual false, abstract: false, final false
   static inline void Rectangle(::UnityEngine::UIElements::MeshGenerationContext* mgc, ::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams rectParams);
 
-  /// @brief Method Text, addr 0x33c8d38, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method Text, addr 0x35cea74, size 0x134, virtual false, abstract: false, final false
   static inline void Text(::UnityEngine::UIElements::MeshGenerationContext* mgc, ::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams textParams,
                           ::UnityEngine::UIElements::ITextHandle* handle, float_t pixelsPerPoint);
 

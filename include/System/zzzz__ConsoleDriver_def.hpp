@@ -37,28 +37,28 @@ public:
   /// @brief Field is_console, offset 0xffffffff, size 0x1
   static __declspec(property(get = getStaticF_is_console, put = setStaticF_is_console)) bool is_console;
 
-  /// @brief Method CreateNullConsoleDriver, addr 0x287dda0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method CreateNullConsoleDriver, addr 0x297d650, size 0x4c, virtual false, abstract: false, final false
   static inline ::System::IConsoleDriver* CreateNullConsoleDriver();
 
-  /// @brief Method CreateTermInfoDriver, addr 0x287de48, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method CreateTermInfoDriver, addr 0x297d6f8, size 0x60, virtual false, abstract: false, final false
   static inline ::System::IConsoleDriver* CreateTermInfoDriver(::StringW term);
 
-  /// @brief Method CreateWindowsConsoleDriver, addr 0x287ddec, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CreateWindowsConsoleDriver, addr 0x297d69c, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::IConsoleDriver* CreateWindowsConsoleDriver();
 
-  /// @brief Method InternalKeyAvailable, addr 0x287e1f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InternalKeyAvailable, addr 0x297daa8, size 0x4, virtual false, abstract: false, final false
   static inline int32_t InternalKeyAvailable(int32_t ms_timeout);
 
-  /// @brief Method Isatty, addr 0x287e1f4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Isatty, addr 0x297daa4, size 0x4, virtual false, abstract: false, final false
   static inline bool Isatty(void* handle);
 
-  /// @brief Method ReadKey, addr 0x287d764, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method ReadKey, addr 0x297d014, size 0xd8, virtual false, abstract: false, final false
   static inline ::System::ConsoleKeyInfo ReadKey(bool intercept);
 
-  /// @brief Method SetEcho, addr 0x287e200, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetEcho, addr 0x297dab0, size 0x8, virtual false, abstract: false, final false
   static inline bool SetEcho(bool wantEcho);
 
-  /// @brief Method TtySetup, addr 0x287e1fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TtySetup, addr 0x297daac, size 0x4, virtual false, abstract: false, final false
   static inline bool TtySetup(::StringW keypadXmit, ::StringW teardown, ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> control_characters, ByRef<::cordl_internals::Ptr<int32_t>> address);
 
   static inline bool getStaticF_called_isatty();
@@ -67,7 +67,7 @@ public:
 
   static inline bool getStaticF_is_console();
 
-  /// @brief Method get_IsConsole, addr 0x287cfb4, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method get_IsConsole, addr 0x297c864, size 0x138, virtual false, abstract: false, final false
   static inline bool get_IsConsole();
 
   static inline void setStaticF_called_isatty(bool value);

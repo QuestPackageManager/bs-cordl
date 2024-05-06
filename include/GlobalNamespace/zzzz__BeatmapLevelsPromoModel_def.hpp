@@ -47,16 +47,16 @@ public:
   __declspec(property(get = __cordl_internal_get__updatedBeatmapLevelsSet,
                       put = __cordl_internal_set__updatedBeatmapLevelsSet))::System::Collections::Generic::HashSet_1<::StringW>* _updatedBeatmapLevelsSet;
 
-  /// @brief Method IsBeatmapLevelPackPromoted, addr 0x13f865c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method IsBeatmapLevelPackPromoted, addr 0x14ead68, size 0x5c, virtual false, abstract: false, final false
   inline bool IsBeatmapLevelPackPromoted(::GlobalNamespace::BeatmapLevelPack* beatmapLevelPack);
 
-  /// @brief Method IsBeatmapLevelPackUpdated, addr 0x13f86b8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method IsBeatmapLevelPackUpdated, addr 0x14eadc4, size 0x5c, virtual false, abstract: false, final false
   inline bool IsBeatmapLevelPackUpdated(::GlobalNamespace::BeatmapLevelPack* beatmapLevelPack);
 
-  /// @brief Method IsBeatmapLevelPromoted, addr 0x13f8714, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method IsBeatmapLevelPromoted, addr 0x14eae20, size 0x5c, virtual false, abstract: false, final false
   inline bool IsBeatmapLevelPromoted(::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
-  /// @brief Method IsBeatmapLevelUpdated, addr 0x13f8770, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method IsBeatmapLevelUpdated, addr 0x14eae7c, size 0x5c, virtual false, abstract: false, final false
   inline bool IsBeatmapLevelUpdated(::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
   static inline ::GlobalNamespace::BeatmapLevelsPromoModel* New_ctor(::GlobalNamespace::BeatmapLevelsPromoDataSO* promoDataSO);
@@ -85,7 +85,7 @@ public:
 
   constexpr void __cordl_internal_set__updatedBeatmapLevelsSet(::System::Collections::Generic::HashSet_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x13f8530, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14eac3c, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapLevelsPromoDataSO* promoDataSO);
 
 protected:

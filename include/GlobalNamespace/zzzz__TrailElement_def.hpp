@@ -38,18 +38,18 @@ public:
   /// @brief Field time, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_time, put = __cordl_internal_set_time)) float_t time;
 
-  /// @brief Method CopyFrom, addr 0x25c165c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method CopyFrom, addr 0x26c045c, size 0x40, virtual false, abstract: false, final false
   inline void CopyFrom(::GlobalNamespace::TrailElement* other);
 
   static inline ::GlobalNamespace::TrailElement* New_ctor();
 
-  /// @brief Method SetData, addr 0x25c161c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x26c041c, size 0x40, virtual false, abstract: false, final false
   inline void SetData(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, float_t time);
 
-  /// @brief Method SetDistance, addr 0x25c169c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetDistance, addr 0x26c049c, size 0x8, virtual false, abstract: false, final false
   inline void SetDistance(float_t value);
 
-  /// @brief Method UpdateLocalDistance, addr 0x25c16a4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method UpdateLocalDistance, addr 0x26c04a4, size 0xa8, virtual false, abstract: false, final false
   inline void UpdateLocalDistance(::GlobalNamespace::TrailElement* prev);
 
   constexpr float_t const& __cordl_internal_get_distance() const;
@@ -82,7 +82,7 @@ public:
 
   constexpr void __cordl_internal_set_time(float_t value);
 
-  /// @brief Method .ctor, addr 0x25c174c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c054c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -29,24 +29,24 @@ public:
   /// @brief Field m_ChildForceExpandWidth, offset 0x58, size 0x1
   __declspec(property(get = __cordl_internal_get_m_ChildForceExpandWidth, put = __cordl_internal_set_m_ChildForceExpandWidth)) bool m_ChildForceExpandWidth;
 
-  /// @brief Method CalcAlongAxis, addr 0x240e6f0, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method CalcAlongAxis, addr 0x250737c, size 0x174, virtual false, abstract: false, final false
   inline void CalcAlongAxis(int32_t axis);
 
-  /// @brief Method CalculateLayoutInputHorizontal, addr 0x240e6d0, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method CalculateLayoutInputHorizontal, addr 0x250735c, size 0x20, virtual true, abstract: false, final false
   inline void CalculateLayoutInputHorizontal();
 
-  /// @brief Method CalculateLayoutInputVertical, addr 0x240e864, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CalculateLayoutInputVertical, addr 0x25074f0, size 0x8, virtual true, abstract: false, final false
   inline void CalculateLayoutInputVertical();
 
   static inline ::HMUI::StackLayoutGroup* New_ctor();
 
-  /// @brief Method SetChildrenAlongAxis, addr 0x240e874, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method SetChildrenAlongAxis, addr 0x2507500, size 0x208, virtual false, abstract: false, final false
   inline void SetChildrenAlongAxis(int32_t axis);
 
-  /// @brief Method SetLayoutHorizontal, addr 0x240e86c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetLayoutHorizontal, addr 0x25074f8, size 0x8, virtual true, abstract: false, final false
   inline void SetLayoutHorizontal();
 
-  /// @brief Method SetLayoutVertical, addr 0x240ea7c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetLayoutVertical, addr 0x2507708, size 0x8, virtual true, abstract: false, final false
   inline void SetLayoutVertical();
 
   constexpr bool const& __cordl_internal_get_m_ChildForceExpandHeight() const;
@@ -61,19 +61,19 @@ public:
 
   constexpr void __cordl_internal_set_m_ChildForceExpandWidth(bool value);
 
-  /// @brief Method .ctor, addr 0x240e6c0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x250734c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_childForceExpandHeight, addr 0x240e65c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_childForceExpandHeight, addr 0x25072e8, size 0x8, virtual false, abstract: false, final false
   inline bool get_childForceExpandHeight();
 
-  /// @brief Method get_childForceExpandWidth, addr 0x240e5f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_childForceExpandWidth, addr 0x2507284, size 0x8, virtual false, abstract: false, final false
   inline bool get_childForceExpandWidth();
 
-  /// @brief Method set_childForceExpandHeight, addr 0x240e664, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_childForceExpandHeight, addr 0x25072f0, size 0x5c, virtual false, abstract: false, final false
   inline void set_childForceExpandHeight(bool value);
 
-  /// @brief Method set_childForceExpandWidth, addr 0x240e600, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_childForceExpandWidth, addr 0x250728c, size 0x5c, virtual false, abstract: false, final false
   inline void set_childForceExpandWidth(bool value);
 
 protected:

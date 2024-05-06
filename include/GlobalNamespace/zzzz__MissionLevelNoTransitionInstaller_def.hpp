@@ -74,7 +74,7 @@ public:
   __declspec(property(get = __cordl_internal_get__scenesTransitionSetupData,
                       put = __cordl_internal_set__scenesTransitionSetupData))::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> _scenesTransitionSetupData;
 
-  /// @brief Method InstallBindings, addr 0x25a67e0, size 0x158, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x26a06bc, size 0x25c, virtual true, abstract: false, final false
   inline void InstallBindings(::Zenject::DiContainer* container);
 
   static inline ::GlobalNamespace::MissionLevelNoTransitionInstaller* New_ctor();
@@ -133,7 +133,7 @@ public:
 
   constexpr void __cordl_internal_set__scenesTransitionSetupData(::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0x25a6d20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a0cf8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

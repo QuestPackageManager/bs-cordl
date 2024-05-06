@@ -88,22 +88,22 @@ public:
   /// @brief Convert operator to "::System::ISpanFormattable"
   constexpr operator ::System::ISpanFormattable*() noexcept;
 
-  /// @brief Method Clone, addr 0x28542dc, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method Clone, addr 0x2953b84, size 0x60, virtual true, abstract: false, final true
   inline ::System::Object* Clone();
 
-  /// @brief Method CompareTo, addr 0x285442c, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x2953cd4, size 0x68, virtual true, abstract: false, final true
   inline int32_t CompareTo(::System::Version* value);
 
-  /// @brief Method CompareTo, addr 0x285435c, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x2953c04, size 0xbc, virtual true, abstract: false, final true
   inline int32_t CompareTo(::System::Object* version);
 
-  /// @brief Method Equals, addr 0x2854494, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2953d3c, size 0x64, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x28544f8, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2953da0, size 0x60, virtual true, abstract: false, final true
   inline bool Equals(::System::Version* obj);
 
-  /// @brief Method GetHashCode, addr 0x2854558, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2953e00, size 0x1c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Version* New_ctor();
@@ -118,34 +118,34 @@ public:
 
   static inline ::System::Version* New_ctor(::System::Version* version);
 
-  /// @brief Method Parse, addr 0x28541e0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x2953a88, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::Version* Parse(::StringW input);
 
-  /// @brief Method ParseVersion, addr 0x2854a1c, size 0x4d4, virtual false, abstract: false, final false
+  /// @brief Method ParseVersion, addr 0x29542c4, size 0x4d4, virtual false, abstract: false, final false
   static inline ::System::Version* ParseVersion(::System::ReadOnlySpan_1<char16_t> input, bool throwOnFailure);
 
-  /// @brief Method System.ISpanFormattable.TryFormat, addr 0x28549f0, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method System.ISpanFormattable.TryFormat, addr 0x2954298, size 0x2c, virtual true, abstract: false, final true
   inline bool System_ISpanFormattable_TryFormat(::System::Span_1<char16_t> destination, ByRef<int32_t> charsWritten, ::System::ReadOnlySpan_1<char16_t> format, ::System::IFormatProvider* provider);
 
-  /// @brief Method ToCachedStringBuilder, addr 0x2854650, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method ToCachedStringBuilder, addr 0x2953ef8, size 0x24c, virtual false, abstract: false, final false
   inline ::System::Text::StringBuilder* ToCachedStringBuilder(int32_t fieldCount);
 
-  /// @brief Method ToString, addr 0x2854574, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2953e1c, size 0x28, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x28545c4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x2953e6c, size 0x8c, virtual false, abstract: false, final false
   inline ::StringW ToString(int32_t fieldCount);
 
-  /// @brief Method TryFormat, addr 0x285489c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method TryFormat, addr 0x2954144, size 0x2c, virtual false, abstract: false, final false
   inline bool TryFormat(::System::Span_1<char16_t> destination, ByRef<int32_t> charsWritten);
 
-  /// @brief Method TryFormat, addr 0x28548c8, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method TryFormat, addr 0x2954170, size 0x128, virtual false, abstract: false, final false
   inline bool TryFormat(::System::Span_1<char16_t> destination, int32_t fieldCount, ByRef<int32_t> charsWritten);
 
-  /// @brief Method TryParse, addr 0x2854ef0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x2954798, size 0x6c, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ByRef<::System::Version*> result);
 
-  /// @brief Method TryParseComponent, addr 0x2854f84, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method TryParseComponent, addr 0x295482c, size 0x118, virtual false, abstract: false, final false
   static inline bool TryParseComponent(::System::ReadOnlySpan_1<char16_t> component, ::StringW componentName, bool throwOnFailure, ByRef<int32_t> parsedComponent);
 
   constexpr int32_t const& __cordl_internal_get__Build() const;
@@ -172,37 +172,37 @@ public:
 
   constexpr void __cordl_internal_set__Revision(int32_t value);
 
-  /// @brief Method .ctor, addr 0x285427c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2953b24, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x28540dc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2953984, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(int32_t major, int32_t minor);
 
-  /// @brief Method .ctor, addr 0x2853fe4, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x295388c, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor(int32_t major, int32_t minor, int32_t build);
 
-  /// @brief Method .ctor, addr 0x2853ec0, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2953768, size 0x124, virtual false, abstract: false, final false
   inline void _ctor(int32_t major, int32_t minor, int32_t build, int32_t revision);
 
-  /// @brief Method .ctor, addr 0x285419c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2953a44, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::StringW version);
 
-  /// @brief Method .ctor, addr 0x28542a0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2953b48, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Version* version);
 
-  /// @brief Method get_Build, addr 0x285434c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Build, addr 0x2953bf4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Build();
 
-  /// @brief Method get_DefaultFormatFieldCount, addr 0x285459c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultFormatFieldCount, addr 0x2953e44, size 0x28, virtual false, abstract: false, final false
   inline int32_t get_DefaultFormatFieldCount();
 
-  /// @brief Method get_Major, addr 0x285433c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Major, addr 0x2953be4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Major();
 
-  /// @brief Method get_Minor, addr 0x2854344, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Minor, addr 0x2953bec, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Minor();
 
-  /// @brief Method get_Revision, addr 0x2854354, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Revision, addr 0x2953bfc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Revision();
 
   /// @brief Convert to "::System::ICloneable"
@@ -220,22 +220,22 @@ public:
   /// @brief Convert to "::System::ISpanFormattable"
   constexpr ::System::ISpanFormattable* i___System__ISpanFormattable() noexcept;
 
-  /// @brief Method op_Equality, addr 0x2854418, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x2953cc0, size 0x14, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Version* v1, ::System::Version* v2);
 
-  /// @brief Method op_GreaterThan, addr 0x2855168, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_GreaterThan, addr 0x2954a10, size 0x10, virtual false, abstract: false, final false
   static inline bool op_GreaterThan(::System::Version* v1, ::System::Version* v2);
 
-  /// @brief Method op_GreaterThanOrEqual, addr 0x2855178, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_GreaterThanOrEqual, addr 0x2954a20, size 0x10, virtual false, abstract: false, final false
   static inline bool op_GreaterThanOrEqual(::System::Version* v1, ::System::Version* v2);
 
-  /// @brief Method op_Inequality, addr 0x2854f5c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x2954804, size 0x28, virtual false, abstract: false, final false
   static inline bool op_Inequality(::System::Version* v1, ::System::Version* v2);
 
-  /// @brief Method op_LessThan, addr 0x285509c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method op_LessThan, addr 0x2954944, size 0x64, virtual false, abstract: false, final false
   static inline bool op_LessThan(::System::Version* v1, ::System::Version* v2);
 
-  /// @brief Method op_LessThanOrEqual, addr 0x2855100, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method op_LessThanOrEqual, addr 0x29549a8, size 0x68, virtual false, abstract: false, final false
   static inline bool op_LessThanOrEqual(::System::Version* v1, ::System::Version* v2);
 
 protected:

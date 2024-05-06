@@ -22,10 +22,10 @@ namespace GlobalNamespace {
 class CORDL_TYPE ConnectionFailedReasonMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ErrorCode, addr 0x13dc98c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ErrorCode, addr 0x14cfd3c, size 0x80, virtual false, abstract: false, final false
   static inline ::StringW ErrorCode(::GlobalNamespace::ConnectionFailedReason connectionFailedReason);
 
-  /// @brief Method LocalizedKey, addr 0x13dc8d8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method LocalizedKey, addr 0x14cfc88, size 0xb4, virtual false, abstract: false, final false
   static inline ::StringW LocalizedKey(::GlobalNamespace::ConnectionFailedReason connectionFailedReason);
 
 protected:

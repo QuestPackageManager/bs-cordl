@@ -46,15 +46,15 @@ public:
   /// @brief Field didFinishEvent, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent))::System::Action_1<::UnityW<::HMUI::ViewController>>* didFinishEvent;
 
-  /// @brief Method DidActivate, addr 0x25447f4, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x263a4b4, size 0xec, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x2544c28, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x263a8e8, size 0xf8, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
   static inline ::GlobalNamespace::PlayerOptionsViewController* New_ctor();
 
-  /// @brief Method <DidActivate>b__6_0, addr 0x2544d28, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__6_0, addr 0x263a9e8, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__6_0();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__okButton() const;
@@ -81,13 +81,13 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::UnityW<::HMUI::ViewController>>* value);
 
-  /// @brief Method .ctor, addr 0x2544d20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263a9e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x2544694, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x263a354, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::UnityW<::HMUI::ViewController>>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x2544744, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x263a404, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::UnityW<::HMUI::ViewController>>* value);
 
 protected:

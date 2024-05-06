@@ -393,7 +393,7 @@ public:
   /// @brief Convert operator to "::Zenject::ITickable"
   constexpr operator ::Zenject::ITickable*() noexcept;
 
-  /// @brief Method DispatchOnMainThread, addr 0x23d9054, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method DispatchOnMainThread, addr 0x24d0c58, size 0x58, virtual false, abstract: false, final false
   inline void DispatchOnMainThread(::System::Action* action);
 
   /// @brief Method DispatchOnMainThread, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -411,7 +411,7 @@ public:
 
   static inline ::GlobalNamespace::MainThreadDispatcher* New_ctor();
 
-  /// @brief Method Tick, addr 0x23d90ac, size 0x104, virtual true, abstract: false, final true
+  /// @brief Method Tick, addr 0x24d0cb0, size 0x104, virtual true, abstract: false, final true
   inline void Tick();
 
   constexpr ::System::Collections::Concurrent::ConcurrentQueue_1<::System::Action*>*& __cordl_internal_get__dispatchQueue();
@@ -420,7 +420,7 @@ public:
 
   constexpr void __cordl_internal_set__dispatchQueue(::System::Collections::Concurrent::ConcurrentQueue_1<::System::Action*>* value);
 
-  /// @brief Method .ctor, addr 0x23d91b0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24d0db4, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Zenject::ITickable"

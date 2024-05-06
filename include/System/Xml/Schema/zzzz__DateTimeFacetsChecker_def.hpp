@@ -33,21 +33,21 @@ namespace System::Xml::Schema {
 class CORDL_TYPE DateTimeFacetsChecker : public ::System::Xml::Schema::FacetsChecker {
 public:
   // Declarations
-  /// @brief Method CheckValueFacets, addr 0x2e197f8, size 0x3bc, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x2f180f8, size 0x3bc, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::System::DateTime value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x2e19794, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x2f18094, size 0x64, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::System::Object* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method MatchEnumeration, addr 0x2e19bb4, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method MatchEnumeration, addr 0x2f184b4, size 0x13c, virtual false, abstract: false, final false
   inline bool MatchEnumeration(::System::DateTime value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method MatchEnumeration, addr 0x2e19cf0, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method MatchEnumeration, addr 0x2f185f0, size 0x5c, virtual true, abstract: false, final false
   inline bool MatchEnumeration(::System::Object* value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
   static inline ::System::Xml::Schema::DateTimeFacetsChecker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e05470, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f03d70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -27,13 +27,13 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE EventDispatchUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ExecuteDefaultAction, addr 0x33a27e0, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method ExecuteDefaultAction, addr 0x35a851c, size 0x1a8, virtual false, abstract: false, final false
   static inline void ExecuteDefaultAction(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method PropagateEvent, addr 0x339aef4, size 0x74c, virtual false, abstract: false, final false
+  /// @brief Method PropagateEvent, addr 0x35a0c30, size 0x74c, virtual false, abstract: false, final false
   static inline void PropagateEvent(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method PropagateToIMGUIContainer, addr 0x339b64c, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method PropagateToIMGUIContainer, addr 0x35a1388, size 0x224, virtual false, abstract: false, final false
   static inline void PropagateToIMGUIContainer(::UnityEngine::UIElements::VisualElement* root, ::UnityEngine::UIElements::EventBase* evt);
 
 protected:

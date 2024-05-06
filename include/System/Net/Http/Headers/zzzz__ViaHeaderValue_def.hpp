@@ -59,24 +59,24 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Equals, addr 0x2c7bf78, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2d79878, size 0xe8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2c7c060, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2d79960, size 0xcc, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Net::Http::Headers::ViaHeaderValue* New_ctor();
 
-  /// @brief Method System.ICloneable.Clone, addr 0x2c7bf70, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.ICloneable.Clone, addr 0x2d79870, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method ToString, addr 0x2c7c430, size 0x1b8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2d79d30, size 0x1b8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryParse, addr 0x2c7c12c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x2d79a2c, size 0xb0, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, int32_t minimalCount, ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::ViaHeaderValue*>*> result);
 
-  /// @brief Method TryParseElement, addr 0x2c7c1dc, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method TryParseElement, addr 0x2d79adc, size 0x254, virtual false, abstract: false, final false
   static inline bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ByRef<::System::Net::Http::Headers::ViaHeaderValue*> parsedValue, ByRef<::System::Net::Http::Headers::Token> t);
 
   constexpr ::StringW const& __cordl_internal_get__Comment_k__BackingField() const;
@@ -103,34 +103,34 @@ public:
 
   constexpr void __cordl_internal_set__ReceivedBy_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2c7bf28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d79828, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Comment, addr 0x2c7bf30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Comment, addr 0x2d79830, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Comment();
 
-  /// @brief Method get_ProtocolName, addr 0x2c7bf40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ProtocolName, addr 0x2d79840, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ProtocolName();
 
-  /// @brief Method get_ProtocolVersion, addr 0x2c7bf50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ProtocolVersion, addr 0x2d79850, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ProtocolVersion();
 
-  /// @brief Method get_ReceivedBy, addr 0x2c7bf60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ReceivedBy, addr 0x2d79860, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ReceivedBy();
 
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  /// @brief Method set_Comment, addr 0x2c7bf38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Comment, addr 0x2d79838, size 0x8, virtual false, abstract: false, final false
   inline void set_Comment(::StringW value);
 
-  /// @brief Method set_ProtocolName, addr 0x2c7bf48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ProtocolName, addr 0x2d79848, size 0x8, virtual false, abstract: false, final false
   inline void set_ProtocolName(::StringW value);
 
-  /// @brief Method set_ProtocolVersion, addr 0x2c7bf58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ProtocolVersion, addr 0x2d79858, size 0x8, virtual false, abstract: false, final false
   inline void set_ProtocolVersion(::StringW value);
 
-  /// @brief Method set_ReceivedBy, addr 0x2c7bf68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ReceivedBy, addr 0x2d79868, size 0x8, virtual false, abstract: false, final false
   inline void set_ReceivedBy(::StringW value);
 
 protected:

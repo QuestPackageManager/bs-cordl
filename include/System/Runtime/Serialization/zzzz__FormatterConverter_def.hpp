@@ -33,30 +33,30 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::IFormatterConverter"
   constexpr operator ::System::Runtime::Serialization::IFormatterConverter*() noexcept;
 
-  /// @brief Method Convert, addr 0x27373e0, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method Convert, addr 0x28357dc, size 0xa0, virtual true, abstract: false, final true
   inline ::System::Object* Convert(::System::Object* value, ::System::Type* type);
 
   static inline ::System::Runtime::Serialization::FormatterConverter* New_ctor();
 
-  /// @brief Method ThrowValueNullException, addr 0x2737480, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ThrowValueNullException, addr 0x283587c, size 0x50, virtual false, abstract: false, final false
   static inline void ThrowValueNullException();
 
-  /// @brief Method ToBoolean, addr 0x27374d0, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method ToBoolean, addr 0x28358cc, size 0x98, virtual true, abstract: false, final true
   inline bool ToBoolean(::System::Object* value);
 
-  /// @brief Method ToInt32, addr 0x2737568, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method ToInt32, addr 0x2835964, size 0x98, virtual true, abstract: false, final true
   inline int32_t ToInt32(::System::Object* value);
 
-  /// @brief Method ToInt64, addr 0x2737600, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method ToInt64, addr 0x28359fc, size 0x98, virtual true, abstract: false, final true
   inline int64_t ToInt64(::System::Object* value);
 
-  /// @brief Method ToSingle, addr 0x2737698, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method ToSingle, addr 0x2835a94, size 0x98, virtual true, abstract: false, final true
   inline float_t ToSingle(::System::Object* value);
 
-  /// @brief Method ToString, addr 0x2737730, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method ToString, addr 0x2835b2c, size 0x98, virtual true, abstract: false, final true
   inline ::StringW ToString(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x27377c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2835bc4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Runtime::Serialization::IFormatterConverter"

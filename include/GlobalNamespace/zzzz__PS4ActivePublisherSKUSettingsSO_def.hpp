@@ -33,7 +33,7 @@ public:
 
   constexpr void __cordl_internal_set_activePublisherSKUSettings(::UnityW<::GlobalNamespace::PS4PublisherSKUSettingsSO> value);
 
-  /// @brief Method .ctor, addr 0x13eb29c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14dd5d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

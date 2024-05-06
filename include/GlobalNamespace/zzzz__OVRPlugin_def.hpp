@@ -2024,7 +2024,7 @@ public:
 
   constexpr void __cordl_internal_set_d7(uint8_t value);
 
-  /// @brief Method .ctor, addr 0x2a2d670, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b29f20, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -2345,18 +2345,18 @@ namespace GlobalNamespace {
 class CORDL_TYPE __OVRPlugin__LogCallback2DelegateType : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x2a422e8, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2b3eb98, size 0xe4, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::GlobalNamespace::__OVRPlugin__LogLevel logLevel, void* message, int32_t size, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2a423cc, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2b3ec7c, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x2a422d4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2b3eb84, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::GlobalNamespace::__OVRPlugin__LogLevel logLevel, void* message, int32_t size);
 
   static inline ::GlobalNamespace::__OVRPlugin__LogCallback2DelegateType* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2a42210, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b3eac0, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -4702,7 +4702,7 @@ public:
   /// @brief Field zero, offset 0xffffffff, size 0xc
   static __declspec(property(get = getStaticF_zero, put = setStaticF_zero))::GlobalNamespace::__OVRPlugin__Vector3f zero;
 
-  /// @brief Method ToString, addr 0x2a423d8, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2b3ec88, size 0xfc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   static inline ::GlobalNamespace::__OVRPlugin__Vector3f getStaticF_zero();
@@ -4752,7 +4752,7 @@ public:
   /// @brief Field zero, offset 0xffffffff, size 0x10
   static __declspec(property(get = getStaticF_zero, put = setStaticF_zero))::GlobalNamespace::__OVRPlugin__Vector4f zero;
 
-  /// @brief Method ToString, addr 0x2a42520, size 0x1e4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2b3edd0, size 0x1e4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   static inline ::GlobalNamespace::__OVRPlugin__Vector4f getStaticF_zero();
@@ -4807,7 +4807,7 @@ public:
   /// @brief Field zero, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_zero, put = setStaticF_zero))::GlobalNamespace::__OVRPlugin__Vector4s zero;
 
-  /// @brief Method ToString, addr 0x2a4274c, size 0x1e4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2b3effc, size 0x1e4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   static inline ::GlobalNamespace::__OVRPlugin__Vector4s getStaticF_zero();
@@ -4862,7 +4862,7 @@ public:
   /// @brief Field identity, offset 0xffffffff, size 0x10
   static __declspec(property(get = getStaticF_identity, put = setStaticF_identity))::GlobalNamespace::__OVRPlugin__Quatf identity;
 
-  /// @brief Method ToString, addr 0x2a42978, size 0x1e4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2b3f228, size 0x1e4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   static inline ::GlobalNamespace::__OVRPlugin__Quatf getStaticF_identity();
@@ -4917,7 +4917,7 @@ public:
   /// @brief Field identity, offset 0xffffffff, size 0x1c
   static __declspec(property(get = getStaticF_identity, put = setStaticF_identity))::GlobalNamespace::__OVRPlugin__Posef identity;
 
-  /// @brief Method ToString, addr 0x2a43bac, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2b4045c, size 0xf4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   static inline ::GlobalNamespace::__OVRPlugin__Posef getStaticF_identity();
@@ -4962,7 +4962,7 @@ public:
   /// @brief Field zero, offset 0xffffffff, size 0x40
   static __declspec(property(get = getStaticF_zero, put = setStaticF_zero))::GlobalNamespace::__OVRPlugin__TextureRectMatrixf zero;
 
-  /// @brief Method ToString, addr 0x2a43d78, size 0x1f8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2b40628, size 0x1f8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   static inline ::GlobalNamespace::__OVRPlugin__TextureRectMatrixf getStaticF_zero();
@@ -5141,7 +5141,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE __OVRPlugin__ControllerState6 {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x2a44148, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b409f8, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__OVRPlugin__ControllerState5 cs);
 
   // Ctor Parameters []
@@ -5315,7 +5315,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE __OVRPlugin__ControllerState5 {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x2a44210, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b40ac0, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__OVRPlugin__ControllerState4 cs);
 
   // Ctor Parameters []
@@ -5477,7 +5477,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE __OVRPlugin__ControllerState4 {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x2a442a0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b40b50, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__OVRPlugin__ControllerState2 cs);
 
   // Ctor Parameters []
@@ -5750,7 +5750,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE __OVRPlugin__ControllerState2 {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x2a4430c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b40bbc, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__OVRPlugin__ControllerState cs);
 
   // Ctor Parameters []
@@ -6344,13 +6344,13 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::__OVRPlugin__Sizei>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::__OVRPlugin__Sizei>*();
 
-  /// @brief Method Equals, addr 0x2a4438c, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2b40c3c, size 0x88, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x2a44364, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x2b40c14, size 0x28, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::__OVRPlugin__Sizei other);
 
-  /// @brief Method GetHashCode, addr 0x2a44414, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2b40cc4, size 0x14, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::GlobalNamespace::__OVRPlugin__Sizei getStaticF_zero();
@@ -6893,7 +6893,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE __OVRPlugin__Colorf {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x2a44504, size 0x1e4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2b40db4, size 0x1e4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters []
@@ -7197,7 +7197,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE __OVRPlugin__LayerDesc {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x2a446e8, size 0x400, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2b40f98, size 0x400, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters []
@@ -7308,10 +7308,10 @@ namespace GlobalNamespace {
 struct CORDL_TYPE __OVRPlugin__LayerDescInternal {
 public:
   // Declarations
-  /// @brief Method ToLayerDesc, addr 0x2a44bc4, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method ToLayerDesc, addr 0x2b41474, size 0x150, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRPlugin__LayerDesc ToLayerDesc();
 
-  /// @brief Method .ctor, addr 0x2a44ae8, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b41398, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__OVRPlugin__LayerDesc layerDesc);
 
   // Ctor Parameters []
@@ -9757,7 +9757,7 @@ public:
 
   constexpr void __cordl_internal_set_VertexUV0(::ArrayW<::GlobalNamespace::__OVRPlugin__Vector2f, ::Array<::GlobalNamespace::__OVRPlugin__Vector2f>*> value);
 
-  /// @brief Method .ctor, addr 0x2a44d14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b415c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -9937,16 +9937,16 @@ public:
 
   __declspec(property(get = get_PositionValid)) bool PositionValid;
 
-  /// @brief Method get_OrientationTracked, addr 0x2a44d34, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_OrientationTracked, addr 0x2b415e4, size 0xc, virtual false, abstract: false, final false
   inline bool get_OrientationTracked();
 
-  /// @brief Method get_OrientationValid, addr 0x2a44d1c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_OrientationValid, addr 0x2b415cc, size 0xc, virtual false, abstract: false, final false
   inline bool get_OrientationValid();
 
-  /// @brief Method get_PositionTracked, addr 0x2a44d40, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_PositionTracked, addr 0x2b415f0, size 0xc, virtual false, abstract: false, final false
   inline bool get_PositionTracked();
 
-  /// @brief Method get_PositionValid, addr 0x2a44d28, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_PositionValid, addr 0x2b415d8, size 0xc, virtual false, abstract: false, final false
   inline bool get_PositionValid();
 
   // Ctor Parameters []
@@ -10928,7 +10928,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE __OVRPlugin__FaceExpressionStatusInternal {
 public:
   // Declarations
-  /// @brief Method ToFaceExpressionStatus, addr 0x2a44d4c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ToFaceExpressionStatus, addr 0x2b415fc, size 0x1c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRPlugin__FaceExpressionStatus ToFaceExpressionStatus();
 
   // Ctor Parameters []
@@ -12193,7 +12193,7 @@ public:
   // Declarations
   __declspec(property(get = get_IsValid)) bool IsValid;
 
-  /// @brief Method get_IsValid, addr 0x2a44d68, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsValid, addr 0x2b41618, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsValid();
 
   // Ctor Parameters []
@@ -13238,10 +13238,10 @@ public:
   // Declarations
   __declspec(property(get = get_Visible, put = set_Visible)) bool Visible;
 
-  /// @brief Method get_Visible, addr 0x2a44d78, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_Visible, addr 0x2b41628, size 0x10, virtual false, abstract: false, final false
   inline bool get_Visible();
 
-  /// @brief Method set_Visible, addr 0x2a44d88, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Visible, addr 0x2b41638, size 0xc, virtual false, abstract: false, final false
   inline void set_Visible(bool value);
 
   // Ctor Parameters []
@@ -13458,7 +13458,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE __OVRPlugin__InsightPassthroughStyle2 {
 public:
   // Declarations
-  /// @brief Method CopyTo, addr 0x2a44d94, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x2b41644, size 0x24, virtual false, abstract: false, final false
   inline void CopyTo(ByRef<::GlobalNamespace::__OVRPlugin__InsightPassthroughStyle> target);
 
   // Ctor Parameters []
@@ -14578,90 +14578,90 @@ public:
   /// @brief Field cachedTexture, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_cachedTexture, put = setStaticF_cachedTexture))::UnityW<::UnityEngine::Texture2D> cachedTexture;
 
-  /// @brief Method EncodeMrcFrame, addr 0x2a46d64, size 0x4e8, virtual false, abstract: false, final false
+  /// @brief Method EncodeMrcFrame, addr 0x2b43614, size 0x4e8, virtual false, abstract: false, final false
   static inline bool EncodeMrcFrame(::UnityEngine::RenderTexture* frame, ::ArrayW<float_t, ::Array<float_t>*> audioData, int32_t audioFrames, int32_t audioChannels, double_t timestamp,
                                     double_t poseTime, ByRef<int32_t> outSyncId);
 
-  /// @brief Method EncodeMrcFrame, addr 0x2a46700, size 0x354, virtual false, abstract: false, final false
+  /// @brief Method EncodeMrcFrame, addr 0x2b42fb0, size 0x354, virtual false, abstract: false, final false
   static inline bool EncodeMrcFrame(void* textureHandle, void* fgTextureHandle, ::ArrayW<float_t, ::Array<float_t>*> audioData, int32_t audioFrames, int32_t audioChannels, double_t timestamp,
                                     double_t poseTime, ByRef<int32_t> outSyncId);
 
-  /// @brief Method GetInitialized, addr 0x2a45008, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method GetInitialized, addr 0x2b418b8, size 0xd4, virtual false, abstract: false, final false
   static inline bool GetInitialized();
 
-  /// @brief Method GetMrcActivationMode, addr 0x2a45280, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetMrcActivationMode, addr 0x2b41b30, size 0xcc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Media__MrcActivationMode GetMrcActivationMode();
 
-  /// @brief Method GetMrcAudioSampleRate, addr 0x2a46330, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GetMrcAudioSampleRate, addr 0x2b42be0, size 0xc4, virtual false, abstract: false, final false
   static inline int32_t GetMrcAudioSampleRate();
 
-  /// @brief Method GetMrcFrameImageFlipped, addr 0x2a465b8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetMrcFrameImageFlipped, addr 0x2b42e68, size 0xcc, virtual false, abstract: false, final false
   static inline bool GetMrcFrameImageFlipped();
 
-  /// @brief Method GetMrcFrameSize, addr 0x2a46088, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method GetMrcFrameSize, addr 0x2b42938, size 0xe0, virtual false, abstract: false, final false
   static inline void GetMrcFrameSize(ByRef<int32_t> frameWidth, ByRef<int32_t> frameHeight);
 
-  /// @brief Method GetMrcInputVideoBufferType, addr 0x2a45de8, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetMrcInputVideoBufferType, addr 0x2b42698, size 0xc8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Media__InputVideoBufferType GetMrcInputVideoBufferType();
 
-  /// @brief Method GetPlatformCameraMode, addr 0x2a45634, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetPlatformCameraMode, addr 0x2b41ee4, size 0xcc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Media__PlatformCameraMode GetPlatformCameraMode();
 
-  /// @brief Method Initialize, addr 0x2a44db8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x2b41668, size 0xc0, virtual false, abstract: false, final false
   static inline bool Initialize();
 
-  /// @brief Method IsCastingToRemoteClient, addr 0x2a476e4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method IsCastingToRemoteClient, addr 0x2b43f94, size 0xd4, virtual false, abstract: false, final false
   static inline bool IsCastingToRemoteClient();
 
-  /// @brief Method IsMrcActivated, addr 0x2a45a0c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method IsMrcActivated, addr 0x2b422bc, size 0xd0, virtual false, abstract: false, final false
   static inline bool IsMrcActivated();
 
-  /// @brief Method IsMrcEnabled, addr 0x2a458c0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method IsMrcEnabled, addr 0x2b42170, size 0xd0, virtual false, abstract: false, final false
   static inline bool IsMrcEnabled();
 
   static inline ::GlobalNamespace::__OVRPlugin__Media* New_ctor();
 
-  /// @brief Method SetAvailableQueueIndexVulkan, addr 0x2a47390, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method SetAvailableQueueIndexVulkan, addr 0x2b43c40, size 0xc8, virtual false, abstract: false, final false
   static inline bool SetAvailableQueueIndexVulkan(uint32_t queueIndexVk);
 
-  /// @brief Method SetMrcActivationMode, addr 0x2a453c8, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method SetMrcActivationMode, addr 0x2b41c78, size 0xc8, virtual false, abstract: false, final false
   static inline bool SetMrcActivationMode(::GlobalNamespace::__OVRPlugin__Media__MrcActivationMode mode);
 
-  /// @brief Method SetMrcAudioSampleRate, addr 0x2a461ec, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method SetMrcAudioSampleRate, addr 0x2b42a9c, size 0xc8, virtual false, abstract: false, final false
   static inline bool SetMrcAudioSampleRate(int32_t sampleRate);
 
-  /// @brief Method SetMrcFrameImageFlipped, addr 0x2a46470, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method SetMrcFrameImageFlipped, addr 0x2b42d20, size 0xcc, virtual false, abstract: false, final false
   static inline bool SetMrcFrameImageFlipped(bool imageFlipped);
 
-  /// @brief Method SetMrcFrameSize, addr 0x2a45f2c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method SetMrcFrameSize, addr 0x2b427dc, size 0xd8, virtual false, abstract: false, final false
   static inline bool SetMrcFrameSize(int32_t frameWidth, int32_t frameHeight);
 
-  /// @brief Method SetMrcHeadsetControllerPose, addr 0x2a474d4, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method SetMrcHeadsetControllerPose, addr 0x2b43d84, size 0x14c, virtual false, abstract: false, final false
   static inline bool SetMrcHeadsetControllerPose(::GlobalNamespace::__OVRPlugin__Posef headsetPose, ::GlobalNamespace::__OVRPlugin__Posef leftControllerPose,
                                                  ::GlobalNamespace::__OVRPlugin__Posef rightControllerPose);
 
-  /// @brief Method SetMrcInputVideoBufferType, addr 0x2a45ca4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method SetMrcInputVideoBufferType, addr 0x2b42554, size 0xc8, virtual false, abstract: false, final false
   static inline bool SetMrcInputVideoBufferType(::GlobalNamespace::__OVRPlugin__Media__InputVideoBufferType videoBufferType);
 
-  /// @brief Method SetPlatformCameraMode, addr 0x2a4577c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method SetPlatformCameraMode, addr 0x2b4202c, size 0xc8, virtual false, abstract: false, final false
   static inline bool SetPlatformCameraMode(::GlobalNamespace::__OVRPlugin__Media__PlatformCameraMode mode);
 
-  /// @brief Method SetPlatformInitialized, addr 0x2a4550c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method SetPlatformInitialized, addr 0x2b41dbc, size 0xc0, virtual false, abstract: false, final false
   static inline bool SetPlatformInitialized();
 
-  /// @brief Method Shutdown, addr 0x2a44ee0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Shutdown, addr 0x2b41790, size 0xc0, virtual false, abstract: false, final false
   static inline bool Shutdown();
 
-  /// @brief Method SyncMrcFrame, addr 0x2a4724c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method SyncMrcFrame, addr 0x2b43afc, size 0xc8, virtual false, abstract: false, final false
   static inline bool SyncMrcFrame(int32_t syncId);
 
-  /// @brief Method Update, addr 0x2a45158, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2b41a08, size 0xc0, virtual false, abstract: false, final false
   static inline bool Update();
 
-  /// @brief Method UseMrcDebugCamera, addr 0x2a45b58, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method UseMrcDebugCamera, addr 0x2b42408, size 0xd0, virtual false, abstract: false, final false
   static inline bool UseMrcDebugCamera();
 
-  /// @brief Method .ctor, addr 0x2a47834, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b440e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityW<::UnityEngine::Texture2D> getStaticF_cachedTexture();
@@ -15172,30 +15172,30 @@ namespace GlobalNamespace {
 class CORDL_TYPE __OVRPlugin__Ktx : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method DestroyKtxTexture, addr 0x2a4831c, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method DestroyKtxTexture, addr 0x2b44bcc, size 0x12c, virtual false, abstract: false, final false
   static inline bool DestroyKtxTexture(void* texture);
 
-  /// @brief Method GetKtxTextureData, addr 0x2a48144, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method GetKtxTextureData, addr 0x2b449f4, size 0x144, virtual false, abstract: false, final false
   static inline bool GetKtxTextureData(void* texture, void* textureData, uint32_t bufferSize);
 
-  /// @brief Method GetKtxTextureHeight, addr 0x2a47c04, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method GetKtxTextureHeight, addr 0x2b444b4, size 0x13c, virtual false, abstract: false, final false
   static inline uint32_t GetKtxTextureHeight(void* texture);
 
-  /// @brief Method GetKtxTextureSize, addr 0x2a47f84, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method GetKtxTextureSize, addr 0x2b44834, size 0x13c, virtual false, abstract: false, final false
   static inline uint32_t GetKtxTextureSize(void* texture);
 
-  /// @brief Method GetKtxTextureWidth, addr 0x2a47a44, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method GetKtxTextureWidth, addr 0x2b442f4, size 0x13c, virtual false, abstract: false, final false
   static inline uint32_t GetKtxTextureWidth(void* texture);
 
-  /// @brief Method LoadKtxFromMemory, addr 0x2a4783c, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method LoadKtxFromMemory, addr 0x2b440ec, size 0x174, virtual false, abstract: false, final false
   static inline void* LoadKtxFromMemory(void* dataPtr, uint32_t length);
 
   static inline ::GlobalNamespace::__OVRPlugin__Ktx* New_ctor();
 
-  /// @brief Method TranscodeKtxTexture, addr 0x2a47dc4, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method TranscodeKtxTexture, addr 0x2b44674, size 0x13c, virtual false, abstract: false, final false
   static inline bool TranscodeKtxTexture(void* texture, uint32_t format);
 
-  /// @brief Method .ctor, addr 0x2a484c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b44d74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -15229,42 +15229,42 @@ public:
   /// @brief Field Enabled, offset 0xffffffff, size 0x1
   static __declspec(property(get = getStaticF_Enabled, put = setStaticF_Enabled)) bool Enabled;
 
-  /// @brief Method HookGetInstanceProcAddr, addr 0x2a48650, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method HookGetInstanceProcAddr, addr 0x2b44f00, size 0xc4, virtual false, abstract: false, final false
   static inline void* HookGetInstanceProcAddr(void* func);
 
   static inline ::GlobalNamespace::__OVRPlugin__UnityOpenXR* New_ctor();
 
-  /// @brief Method OnAppSpaceChange, addr 0x2a48b4c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method OnAppSpaceChange, addr 0x2b453fc, size 0xc0, virtual false, abstract: false, final false
   static inline void OnAppSpaceChange(uint64_t xrSpace);
 
-  /// @brief Method OnInstanceCreate, addr 0x2a48790, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method OnInstanceCreate, addr 0x2b45040, size 0xc8, virtual false, abstract: false, final false
   static inline bool OnInstanceCreate(uint64_t xrInstance);
 
-  /// @brief Method OnInstanceDestroy, addr 0x2a488d4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method OnInstanceDestroy, addr 0x2b45184, size 0xc0, virtual false, abstract: false, final false
   static inline void OnInstanceDestroy(uint64_t xrInstance);
 
-  /// @brief Method OnSessionBegin, addr 0x2a48de0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method OnSessionBegin, addr 0x2b45690, size 0xc0, virtual false, abstract: false, final false
   static inline void OnSessionBegin(uint64_t xrSession);
 
-  /// @brief Method OnSessionCreate, addr 0x2a48a10, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method OnSessionCreate, addr 0x2b452c0, size 0xc0, virtual false, abstract: false, final false
   static inline void OnSessionCreate(uint64_t xrSession);
 
-  /// @brief Method OnSessionDestroy, addr 0x2a49194, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method OnSessionDestroy, addr 0x2b45a44, size 0xc0, virtual false, abstract: false, final false
   static inline void OnSessionDestroy(uint64_t xrSession);
 
-  /// @brief Method OnSessionEnd, addr 0x2a48f1c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method OnSessionEnd, addr 0x2b457cc, size 0xc0, virtual false, abstract: false, final false
   static inline void OnSessionEnd(uint64_t xrSession);
 
-  /// @brief Method OnSessionExiting, addr 0x2a49058, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method OnSessionExiting, addr 0x2b45908, size 0xc0, virtual false, abstract: false, final false
   static inline void OnSessionExiting(uint64_t xrSession);
 
-  /// @brief Method OnSessionStateChange, addr 0x2a48c88, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method OnSessionStateChange, addr 0x2b45538, size 0xd4, virtual false, abstract: false, final false
   static inline void OnSessionStateChange(int32_t oldState, int32_t newState);
 
-  /// @brief Method SetClientVersion, addr 0x2a484cc, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method SetClientVersion, addr 0x2b44d7c, size 0xf0, virtual false, abstract: false, final false
   static inline void SetClientVersion();
 
-  /// @brief Method .ctor, addr 0x2a492d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b45b80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline bool getStaticF_Enabled();
@@ -15358,22 +15358,22 @@ public:
   // Declarations
   using ResultType = ::GlobalNamespace::__OVRPlugin__Qpl__ResultType;
 
-  /// @brief Method CreateMarkerHandle, addr 0x2a49918, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method CreateMarkerHandle, addr 0x2b461c8, size 0xdc, virtual false, abstract: false, final false
   static inline bool CreateMarkerHandle(::StringW name, ByRef<int32_t> nameHandle);
 
-  /// @brief Method DestroyMarkerHandle, addr 0x2a49a90, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method DestroyMarkerHandle, addr 0x2b46340, size 0xc8, virtual false, abstract: false, final false
   static inline bool DestroyMarkerHandle(int32_t nameHandle);
 
-  /// @brief Method MarkerAnnotation, addr 0x2a49760, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method MarkerAnnotation, addr 0x2b46010, size 0xf0, virtual false, abstract: false, final false
   static inline void MarkerAnnotation(int32_t markerId, ::StringW annotationKey, ::StringW annotationValue, int32_t instanceKey);
 
-  /// @brief Method MarkerEnd, addr 0x2a49448, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method MarkerEnd, addr 0x2b45cf8, size 0xf0, virtual false, abstract: false, final false
   static inline void MarkerEnd(int32_t markerId, ::GlobalNamespace::__OVRPlugin__Qpl__ResultType resultTypeId, int32_t instanceKey, int64_t timestampMs);
 
-  /// @brief Method MarkerPointCached, addr 0x2a495d4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method MarkerPointCached, addr 0x2b45e84, size 0xf0, virtual false, abstract: false, final false
   static inline void MarkerPointCached(int32_t markerId, int32_t nameHandle, int32_t instanceKey, int64_t timestampMs);
 
-  /// @brief Method MarkerStart, addr 0x2a492d8, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method MarkerStart, addr 0x2b45b88, size 0xdc, virtual false, abstract: false, final false
   static inline void MarkerStart(int32_t markerId, int32_t instanceKey, int64_t timestampMs);
 
 protected:
@@ -15418,7 +15418,7 @@ public:
 
   static inline ::System::Version* getStaticF_version();
 
-  /// @brief Method ovrp_GetEyeTextureSize, addr 0x2a49bd4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetEyeTextureSize, addr 0x2b46484, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Sizei ovrp_GetEyeTextureSize(::GlobalNamespace::__OVRPlugin__Eye eyeId);
 
   static inline void setStaticF_version(::System::Version* value);
@@ -15456,7 +15456,7 @@ public:
 
   static inline ::System::Version* getStaticF_version();
 
-  /// @brief Method ovrp_SetOverlayQuad2, addr 0x2a49cd4, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method ovrp_SetOverlayQuad2, addr 0x2b46584, size 0xe4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Bool ovrp_SetOverlayQuad2(::GlobalNamespace::__OVRPlugin__Bool onTop, ::GlobalNamespace::__OVRPlugin__Bool headLocked, void* texture, void* device,
                                                                           ::GlobalNamespace::__OVRPlugin__Posef pose, ::GlobalNamespace::__OVRPlugin__Vector3f scale);
 
@@ -15495,10 +15495,10 @@ public:
 
   static inline ::System::Version* getStaticF_version();
 
-  /// @brief Method ovrp_GetNodePose, addr 0x2a49e3c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetNodePose, addr 0x2b466ec, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Posef ovrp_GetNodePose(::GlobalNamespace::__OVRPlugin__Node nodeId);
 
-  /// @brief Method ovrp_SetControllerVibration, addr 0x2a49ec0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ovrp_SetControllerVibration, addr 0x2b46770, size 0x94, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Bool ovrp_SetControllerVibration(uint32_t controllerMask, float_t frequency, float_t amplitude);
 
   static inline void setStaticF_version(::System::Version* value);
@@ -15536,10 +15536,10 @@ public:
 
   static inline ::System::Version* getStaticF_version();
 
-  /// @brief Method ovrp_GetNodeAcceleration, addr 0x2a4a05c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetNodeAcceleration, addr 0x2b4690c, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Posef ovrp_GetNodeAcceleration(::GlobalNamespace::__OVRPlugin__Node nodeId);
 
-  /// @brief Method ovrp_GetNodeVelocity, addr 0x2a49fd8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetNodeVelocity, addr 0x2b46888, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Posef ovrp_GetNodeVelocity(::GlobalNamespace::__OVRPlugin__Node nodeId);
 
   static inline void setStaticF_version(::System::Version* value);
@@ -15612,16 +15612,16 @@ public:
 
   static inline ::System::Version* getStaticF_version();
 
-  /// @brief Method ovrp_GetTrackingCalibratedOrigin, addr 0x2a4a2cc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetTrackingCalibratedOrigin, addr 0x2b46b7c, size 0x74, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Posef ovrp_GetTrackingCalibratedOrigin();
 
-  /// @brief Method ovrp_GetTrackingOriginType, addr 0x2a4a1e8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetTrackingOriginType, addr 0x2b46a98, size 0x68, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__TrackingOrigin ovrp_GetTrackingOriginType();
 
-  /// @brief Method ovrp_RecenterTrackingOrigin, addr 0x2a4a340, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_RecenterTrackingOrigin, addr 0x2b46bf0, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Bool ovrp_RecenterTrackingOrigin(uint32_t flags);
 
-  /// @brief Method ovrp_SetTrackingOriginType, addr 0x2a4a250, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_SetTrackingOriginType, addr 0x2b46b00, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Bool ovrp_SetTrackingOriginType(::GlobalNamespace::__OVRPlugin__TrackingOrigin originType);
 
   static inline void setStaticF_version(::System::Version* value);
@@ -15657,150 +15657,150 @@ public:
   /// @brief Field version, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_version, put = setStaticF_version))::System::Version* version;
 
-  /// @brief Method _ovrp_GetAppLatencyTimings, addr 0x2a4b550, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method _ovrp_GetAppLatencyTimings, addr 0x2b47e00, size 0x68, virtual false, abstract: false, final false
   static inline void* _ovrp_GetAppLatencyTimings();
 
-  /// @brief Method _ovrp_GetNativeSDKVersion, addr 0x2a4a594, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method _ovrp_GetNativeSDKVersion, addr 0x2b46e44, size 0x68, virtual false, abstract: false, final false
   static inline void* _ovrp_GetNativeSDKVersion();
 
-  /// @brief Method _ovrp_GetSystemProductName, addr 0x2a4b1cc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method _ovrp_GetSystemProductName, addr 0x2b47a7c, size 0x68, virtual false, abstract: false, final false
   static inline void* _ovrp_GetSystemProductName();
 
-  /// @brief Method _ovrp_GetVersion, addr 0x2a4a4a8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method _ovrp_GetVersion, addr 0x2b46d58, size 0x68, virtual false, abstract: false, final false
   static inline void* _ovrp_GetVersion();
 
   static inline ::System::Version* getStaticF_version();
 
-  /// @brief Method ovrp_GetAppHasVrFocus, addr 0x2a4b418, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetAppHasVrFocus, addr 0x2b47cc8, size 0x68, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Bool ovrp_GetAppHasVrFocus();
 
-  /// @brief Method ovrp_GetAppLatencyTimings, addr 0x2a4b5b8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetAppLatencyTimings, addr 0x2b47e68, size 0x84, virtual false, abstract: false, final false
   static inline ::StringW ovrp_GetAppLatencyTimings();
 
-  /// @brief Method ovrp_GetAppMonoscopic, addr 0x2a4b334, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetAppMonoscopic, addr 0x2b47be4, size 0x68, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Bool ovrp_GetAppMonoscopic();
 
-  /// @brief Method ovrp_GetAppShouldQuit, addr 0x2a4b480, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetAppShouldQuit, addr 0x2b47d30, size 0x68, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Bool ovrp_GetAppShouldQuit();
 
-  /// @brief Method ovrp_GetAppShouldRecenter, addr 0x2a4b4e8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetAppShouldRecenter, addr 0x2b47d98, size 0x68, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Bool ovrp_GetAppShouldRecenter();
 
-  /// @brief Method ovrp_GetAudioInId, addr 0x2a4a6e8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetAudioInId, addr 0x2b46f98, size 0x68, virtual false, abstract: false, final false
   static inline void* ovrp_GetAudioInId();
 
-  /// @brief Method ovrp_GetAudioOutId, addr 0x2a4a680, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetAudioOutId, addr 0x2b46f30, size 0x68, virtual false, abstract: false, final false
   static inline void* ovrp_GetAudioOutId();
 
-  /// @brief Method ovrp_GetControllerState, addr 0x2a4acb8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetControllerState, addr 0x2b47568, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__ControllerState ovrp_GetControllerState(uint32_t controllerMask);
 
-  /// @brief Method ovrp_GetEyeTextureScale, addr 0x2a4a750, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetEyeTextureScale, addr 0x2b47000, size 0x64, virtual false, abstract: false, final false
   static inline float_t ovrp_GetEyeTextureScale();
 
-  /// @brief Method ovrp_GetInitialized, addr 0x2a4a440, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetInitialized, addr 0x2b46cf0, size 0x68, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Bool ovrp_GetInitialized();
 
-  /// @brief Method ovrp_GetNativeSDKVersion, addr 0x2a4a5fc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetNativeSDKVersion, addr 0x2b46eac, size 0x84, virtual false, abstract: false, final false
   static inline ::StringW ovrp_GetNativeSDKVersion();
 
-  /// @brief Method ovrp_GetNodeFrustum, addr 0x2a4ac3c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetNodeFrustum, addr 0x2b474ec, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Frustumf ovrp_GetNodeFrustum(::GlobalNamespace::__OVRPlugin__Node nodeId);
 
-  /// @brief Method ovrp_GetNodeOrientationTracked, addr 0x2a4ab44, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetNodeOrientationTracked, addr 0x2b473f4, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Bool ovrp_GetNodeOrientationTracked(::GlobalNamespace::__OVRPlugin__Node nodeId);
 
-  /// @brief Method ovrp_GetNodePositionTracked, addr 0x2a4abc0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetNodePositionTracked, addr 0x2b47470, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Bool ovrp_GetNodePositionTracked(::GlobalNamespace::__OVRPlugin__Node nodeId);
 
-  /// @brief Method ovrp_GetNodePresent, addr 0x2a4aac8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetNodePresent, addr 0x2b47378, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Bool ovrp_GetNodePresent(::GlobalNamespace::__OVRPlugin__Node nodeId);
 
-  /// @brief Method ovrp_GetSystemBatteryLevel, addr 0x2a4b104, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetSystemBatteryLevel, addr 0x2b479b4, size 0x64, virtual false, abstract: false, final false
   static inline float_t ovrp_GetSystemBatteryLevel();
 
-  /// @brief Method ovrp_GetSystemBatteryStatus, addr 0x2a4b09c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetSystemBatteryStatus, addr 0x2b4794c, size 0x68, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__BatteryStatus ovrp_GetSystemBatteryStatus();
 
-  /// @brief Method ovrp_GetSystemBatteryTemperature, addr 0x2a4b168, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetSystemBatteryTemperature, addr 0x2b47a18, size 0x64, virtual false, abstract: false, final false
   static inline float_t ovrp_GetSystemBatteryTemperature();
 
-  /// @brief Method ovrp_GetSystemCpuLevel, addr 0x2a4ad3c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetSystemCpuLevel, addr 0x2b475ec, size 0x68, virtual false, abstract: false, final false
   static inline int32_t ovrp_GetSystemCpuLevel();
 
-  /// @brief Method ovrp_GetSystemDisplayFrequency, addr 0x2a4af6c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetSystemDisplayFrequency, addr 0x2b4781c, size 0x64, virtual false, abstract: false, final false
   static inline float_t ovrp_GetSystemDisplayFrequency();
 
-  /// @brief Method ovrp_GetSystemGpuLevel, addr 0x2a4ae20, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetSystemGpuLevel, addr 0x2b476d0, size 0x68, virtual false, abstract: false, final false
   static inline int32_t ovrp_GetSystemGpuLevel();
 
-  /// @brief Method ovrp_GetSystemPowerSavingMode, addr 0x2a4af04, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetSystemPowerSavingMode, addr 0x2b477b4, size 0x68, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Bool ovrp_GetSystemPowerSavingMode();
 
-  /// @brief Method ovrp_GetSystemProductName, addr 0x2a4b234, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetSystemProductName, addr 0x2b47ae4, size 0x84, virtual false, abstract: false, final false
   static inline ::StringW ovrp_GetSystemProductName();
 
-  /// @brief Method ovrp_GetSystemVSyncCount, addr 0x2a4afd0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetSystemVSyncCount, addr 0x2b47880, size 0x68, virtual false, abstract: false, final false
   static inline int32_t ovrp_GetSystemVSyncCount();
 
-  /// @brief Method ovrp_GetSystemVolume, addr 0x2a4b038, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetSystemVolume, addr 0x2b478e8, size 0x64, virtual false, abstract: false, final false
   static inline float_t ovrp_GetSystemVolume();
 
-  /// @brief Method ovrp_GetTrackingOrientationEnabled, addr 0x2a4a898, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetTrackingOrientationEnabled, addr 0x2b47148, size 0x68, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Bool ovrp_GetTrackingOrientationEnabled();
 
-  /// @brief Method ovrp_GetTrackingOrientationSupported, addr 0x2a4a830, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetTrackingOrientationSupported, addr 0x2b470e0, size 0x68, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Bool ovrp_GetTrackingOrientationSupported();
 
-  /// @brief Method ovrp_GetTrackingPositionEnabled, addr 0x2a4a9e4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetTrackingPositionEnabled, addr 0x2b47294, size 0x68, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Bool ovrp_GetTrackingPositionEnabled();
 
-  /// @brief Method ovrp_GetTrackingPositionSupported, addr 0x2a4a97c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetTrackingPositionSupported, addr 0x2b4722c, size 0x68, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Bool ovrp_GetTrackingPositionSupported();
 
-  /// @brief Method ovrp_GetUserEyeDepth, addr 0x2a4b784, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetUserEyeDepth, addr 0x2b48034, size 0x64, virtual false, abstract: false, final false
   static inline float_t ovrp_GetUserEyeDepth();
 
-  /// @brief Method ovrp_GetUserEyeHeight, addr 0x2a4b864, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetUserEyeHeight, addr 0x2b48114, size 0x64, virtual false, abstract: false, final false
   static inline float_t ovrp_GetUserEyeHeight();
 
-  /// @brief Method ovrp_GetUserIPD, addr 0x2a4b6a4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetUserIPD, addr 0x2b47f54, size 0x64, virtual false, abstract: false, final false
   static inline float_t ovrp_GetUserIPD();
 
-  /// @brief Method ovrp_GetUserPresent, addr 0x2a4b63c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetUserPresent, addr 0x2b47eec, size 0x68, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Bool ovrp_GetUserPresent();
 
-  /// @brief Method ovrp_GetVersion, addr 0x2a4a510, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetVersion, addr 0x2b46dc0, size 0x84, virtual false, abstract: false, final false
   static inline ::StringW ovrp_GetVersion();
 
-  /// @brief Method ovrp_SetAppMonoscopic, addr 0x2a4b39c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_SetAppMonoscopic, addr 0x2b47c4c, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Bool ovrp_SetAppMonoscopic(::GlobalNamespace::__OVRPlugin__Bool value);
 
-  /// @brief Method ovrp_SetEyeTextureScale, addr 0x2a4a7b4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_SetEyeTextureScale, addr 0x2b47064, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Bool ovrp_SetEyeTextureScale(float_t value);
 
-  /// @brief Method ovrp_SetSystemCpuLevel, addr 0x2a4ada4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_SetSystemCpuLevel, addr 0x2b47654, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Bool ovrp_SetSystemCpuLevel(int32_t value);
 
-  /// @brief Method ovrp_SetSystemGpuLevel, addr 0x2a4ae88, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_SetSystemGpuLevel, addr 0x2b47738, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Bool ovrp_SetSystemGpuLevel(int32_t value);
 
-  /// @brief Method ovrp_SetTrackingOrientationEnabled, addr 0x2a4a900, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_SetTrackingOrientationEnabled, addr 0x2b471b0, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Bool ovrp_SetTrackingOrientationEnabled(::GlobalNamespace::__OVRPlugin__Bool value);
 
-  /// @brief Method ovrp_SetTrackingPositionEnabled, addr 0x2a4aa4c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_SetTrackingPositionEnabled, addr 0x2b472fc, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Bool ovrp_SetTrackingPositionEnabled(::GlobalNamespace::__OVRPlugin__Bool value);
 
-  /// @brief Method ovrp_SetUserEyeDepth, addr 0x2a4b7e8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_SetUserEyeDepth, addr 0x2b48098, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Bool ovrp_SetUserEyeDepth(float_t value);
 
-  /// @brief Method ovrp_SetUserEyeHeight, addr 0x2a4b8c8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_SetUserEyeHeight, addr 0x2b48178, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Bool ovrp_SetUserEyeHeight(float_t value);
 
-  /// @brief Method ovrp_SetUserIPD, addr 0x2a4b708, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_SetUserIPD, addr 0x2b47fb8, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Bool ovrp_SetUserIPD(float_t value);
 
-  /// @brief Method ovrp_ShowSystemUI, addr 0x2a4b2b8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_ShowSystemUI, addr 0x2b47b68, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Bool ovrp_ShowSystemUI(::GlobalNamespace::__OVRPlugin__PlatformUI ui);
 
   static inline void setStaticF_version(::System::Version* value);
@@ -15838,10 +15838,10 @@ public:
 
   static inline ::System::Version* getStaticF_version();
 
-  /// @brief Method ovrp_SetSystemVSyncCount, addr 0x2a4b9c8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_SetSystemVSyncCount, addr 0x2b48278, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Bool ovrp_SetSystemVSyncCount(int32_t vsyncCount);
 
-  /// @brief Method ovrpi_SetTrackingCalibratedOrigin, addr 0x2a4ba44, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ovrpi_SetTrackingCalibratedOrigin, addr 0x2b482f4, size 0x68, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Bool ovrpi_SetTrackingCalibratedOrigin();
 
   static inline void setStaticF_version(::System::Version* value);
@@ -15879,13 +15879,13 @@ public:
 
   static inline ::System::Version* getStaticF_version();
 
-  /// @brief Method ovrp_GetEyeOcclusionMeshEnabled, addr 0x2a4bb30, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetEyeOcclusionMeshEnabled, addr 0x2b483e0, size 0x68, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Bool ovrp_GetEyeOcclusionMeshEnabled();
 
-  /// @brief Method ovrp_GetSystemHeadphonesPresent, addr 0x2a4bc14, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetSystemHeadphonesPresent, addr 0x2b484c4, size 0x68, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Bool ovrp_GetSystemHeadphonesPresent();
 
-  /// @brief Method ovrp_SetEyeOcclusionMeshEnabled, addr 0x2a4bb98, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_SetEyeOcclusionMeshEnabled, addr 0x2b48448, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Bool ovrp_SetEyeOcclusionMeshEnabled(::GlobalNamespace::__OVRPlugin__Bool value);
 
   static inline void setStaticF_version(::System::Version* value);
@@ -15923,7 +15923,7 @@ public:
 
   static inline ::System::Version* getStaticF_version();
 
-  /// @brief Method ovrp_GetSystemRegion, addr 0x2a4bd00, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetSystemRegion, addr 0x2b485b0, size 0x68, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__SystemRegion ovrp_GetSystemRegion();
 
   static inline void setStaticF_version(::System::Version* value);
@@ -15961,32 +15961,32 @@ public:
 
   static inline ::System::Version* getStaticF_version();
 
-  /// @brief Method ovrp_GetAppCpuStartToGpuEndTime, addr 0x2a4c1b4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetAppCpuStartToGpuEndTime, addr 0x2b48a64, size 0x64, virtual false, abstract: false, final false
   static inline float_t ovrp_GetAppCpuStartToGpuEndTime();
 
-  /// @brief Method ovrp_GetControllerHapticsDesc, addr 0x2a4bed0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetControllerHapticsDesc, addr 0x2b48780, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__HapticsDesc ovrp_GetControllerHapticsDesc(uint32_t controllerMask);
 
-  /// @brief Method ovrp_GetControllerHapticsState, addr 0x2a4bf54, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetControllerHapticsState, addr 0x2b48804, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__HapticsState ovrp_GetControllerHapticsState(uint32_t controllerMask);
 
-  /// @brief Method ovrp_GetEyeRecommendedResolutionScale, addr 0x2a4c150, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetEyeRecommendedResolutionScale, addr 0x2b48a00, size 0x64, virtual false, abstract: false, final false
   static inline float_t ovrp_GetEyeRecommendedResolutionScale();
 
-  /// @brief Method ovrp_GetSystemRecommendedMSAALevel, addr 0x2a4c218, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetSystemRecommendedMSAALevel, addr 0x2b48ac8, size 0x68, virtual false, abstract: false, final false
   static inline int32_t ovrp_GetSystemRecommendedMSAALevel();
 
-  /// @brief Method ovrp_GetTrackingIPDEnabled, addr 0x2a4bdec, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetTrackingIPDEnabled, addr 0x2b4869c, size 0x68, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Bool ovrp_GetTrackingIPDEnabled();
 
-  /// @brief Method ovrp_SetControllerHaptics, addr 0x2a4bfd0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ovrp_SetControllerHaptics, addr 0x2b48880, size 0x94, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Bool ovrp_SetControllerHaptics(uint32_t controllerMask, ::GlobalNamespace::__OVRPlugin__HapticsBuffer hapticsBuffer);
 
-  /// @brief Method ovrp_SetOverlayQuad3, addr 0x2a4c064, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method ovrp_SetOverlayQuad3, addr 0x2b48914, size 0xec, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Bool ovrp_SetOverlayQuad3(uint32_t flags, void* textureLeft, void* textureRight, void* device, ::GlobalNamespace::__OVRPlugin__Posef pose,
                                                                           ::GlobalNamespace::__OVRPlugin__Vector3f scale, int32_t layerIndex);
 
-  /// @brief Method ovrp_SetTrackingIPDEnabled, addr 0x2a4be54, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_SetTrackingIPDEnabled, addr 0x2b48704, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Bool ovrp_SetTrackingIPDEnabled(::GlobalNamespace::__OVRPlugin__Bool value);
 
   static inline void setStaticF_version(::System::Version* value);
@@ -16024,10 +16024,10 @@ public:
 
   static inline ::System::Version* getStaticF_version();
 
-  /// @brief Method ovrp_GetAppChromaticCorrection, addr 0x2a4c304, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetAppChromaticCorrection, addr 0x2b48bb4, size 0x68, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Bool ovrp_GetAppChromaticCorrection();
 
-  /// @brief Method ovrp_SetAppChromaticCorrection, addr 0x2a4c36c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_SetAppChromaticCorrection, addr 0x2b48c1c, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Bool ovrp_SetAppChromaticCorrection(::GlobalNamespace::__OVRPlugin__Bool value);
 
   static inline void setStaticF_version(::System::Version* value);
@@ -16065,37 +16065,37 @@ public:
 
   static inline ::System::Version* getStaticF_version();
 
-  /// @brief Method ovrp_GetBoundaryConfigured, addr 0x2a4c46c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetBoundaryConfigured, addr 0x2b48d1c, size 0x68, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Bool ovrp_GetBoundaryConfigured();
 
-  /// @brief Method ovrp_GetBoundaryDimensions, addr 0x2a4c6b4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetBoundaryDimensions, addr 0x2b48f64, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Vector3f ovrp_GetBoundaryDimensions(::GlobalNamespace::__OVRPlugin__BoundaryType boundaryType);
 
-  /// @brief Method ovrp_GetBoundaryGeometry, addr 0x2a4c614, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetBoundaryGeometry, addr 0x2b48ec4, size 0xa0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__BoundaryGeometry ovrp_GetBoundaryGeometry(::GlobalNamespace::__OVRPlugin__BoundaryType boundaryType);
 
-  /// @brief Method ovrp_GetBoundaryVisible, addr 0x2a4c730, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetBoundaryVisible, addr 0x2b48fe0, size 0x68, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Bool ovrp_GetBoundaryVisible();
 
-  /// @brief Method ovrp_GetNodeAcceleration2, addr 0x2a4c9d0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetNodeAcceleration2, addr 0x2b49280, size 0x94, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Posef ovrp_GetNodeAcceleration2(int32_t stateId, ::GlobalNamespace::__OVRPlugin__Node nodeId);
 
-  /// @brief Method ovrp_GetNodePose2, addr 0x2a4c8a8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetNodePose2, addr 0x2b49158, size 0x94, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Posef ovrp_GetNodePose2(int32_t stateId, ::GlobalNamespace::__OVRPlugin__Node nodeId);
 
-  /// @brief Method ovrp_GetNodeVelocity2, addr 0x2a4c93c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetNodeVelocity2, addr 0x2b491ec, size 0x94, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Posef ovrp_GetNodeVelocity2(int32_t stateId, ::GlobalNamespace::__OVRPlugin__Node nodeId);
 
-  /// @brief Method ovrp_SetBoundaryVisible, addr 0x2a4c798, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_SetBoundaryVisible, addr 0x2b49048, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Bool ovrp_SetBoundaryVisible(::GlobalNamespace::__OVRPlugin__Bool value);
 
-  /// @brief Method ovrp_TestBoundaryNode, addr 0x2a4c4d4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ovrp_TestBoundaryNode, addr 0x2b48d84, size 0x94, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__BoundaryTestResult ovrp_TestBoundaryNode(::GlobalNamespace::__OVRPlugin__Node nodeId, ::GlobalNamespace::__OVRPlugin__BoundaryType boundaryType);
 
-  /// @brief Method ovrp_TestBoundaryPoint, addr 0x2a4c568, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ovrp_TestBoundaryPoint, addr 0x2b48e18, size 0xac, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__BoundaryTestResult ovrp_TestBoundaryPoint(::GlobalNamespace::__OVRPlugin__Vector3f point, ::GlobalNamespace::__OVRPlugin__BoundaryType boundaryType);
 
-  /// @brief Method ovrp_Update2, addr 0x2a4c814, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ovrp_Update2, addr 0x2b490c4, size 0x94, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Bool ovrp_Update2(int32_t stateId, int32_t frameIndex, double_t predictionSeconds);
 
   static inline void setStaticF_version(::System::Version* value);
@@ -16133,22 +16133,22 @@ public:
 
   static inline ::System::Version* getStaticF_version();
 
-  /// @brief Method ovrp_GetActiveController, addr 0x2a4cb50, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetActiveController, addr 0x2b49400, size 0x68, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Controller ovrp_GetActiveController();
 
-  /// @brief Method ovrp_GetAppPerfStats, addr 0x2a4ccb4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetAppPerfStats, addr 0x2b49564, size 0x88, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__AppPerfStats ovrp_GetAppPerfStats();
 
-  /// @brief Method ovrp_GetBoundaryGeometry2, addr 0x2a4cc20, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetBoundaryGeometry2, addr 0x2b494d0, size 0x94, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Bool ovrp_GetBoundaryGeometry2(::GlobalNamespace::__OVRPlugin__BoundaryType boundaryType, void* points, ByRef<int32_t> pointsCount);
 
-  /// @brief Method ovrp_GetConnectedControllers, addr 0x2a4cbb8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetConnectedControllers, addr 0x2b49468, size 0x68, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Controller ovrp_GetConnectedControllers();
 
-  /// @brief Method ovrp_GetSystemHeadsetType, addr 0x2a4cae8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetSystemHeadsetType, addr 0x2b49398, size 0x68, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__SystemHeadset ovrp_GetSystemHeadsetType();
 
-  /// @brief Method ovrp_ResetAppPerfStats, addr 0x2a4cd3c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ovrp_ResetAppPerfStats, addr 0x2b495ec, size 0x68, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Bool ovrp_ResetAppPerfStats();
 
   static inline void setStaticF_version(::System::Version* value);
@@ -16221,10 +16221,10 @@ public:
 
   static inline ::System::Version* getStaticF_version();
 
-  /// @brief Method ovrp_GetDesiredEyeTextureFormat, addr 0x2a4cf28, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetDesiredEyeTextureFormat, addr 0x2b497d8, size 0x68, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__EyeTextureFormat ovrp_GetDesiredEyeTextureFormat();
 
-  /// @brief Method ovrp_SetDesiredEyeTextureFormat, addr 0x2a4ceac, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_SetDesiredEyeTextureFormat, addr 0x2b4975c, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Bool ovrp_SetDesiredEyeTextureFormat(::GlobalNamespace::__OVRPlugin__EyeTextureFormat value);
 
   static inline void setStaticF_version(::System::Version* value);
@@ -16262,13 +16262,13 @@ public:
 
   static inline ::System::Version* getStaticF_version();
 
-  /// @brief Method ovrp_GetAppFramerate, addr 0x2a4d014, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetAppFramerate, addr 0x2b498c4, size 0x64, virtual false, abstract: false, final false
   static inline float_t ovrp_GetAppFramerate();
 
-  /// @brief Method ovrp_GetControllerState2, addr 0x2a4d10c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetControllerState2, addr 0x2b499bc, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__ControllerState2 ovrp_GetControllerState2(uint32_t controllerMask);
 
-  /// @brief Method ovrp_GetNodePoseState, addr 0x2a4d078, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetNodePoseState, addr 0x2b49928, size 0x94, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__PoseStatef ovrp_GetNodePoseState(::GlobalNamespace::__OVRPlugin__Step stepId, ::GlobalNamespace::__OVRPlugin__Node nodeId);
 
   static inline void setStaticF_version(::System::Version* value);
@@ -16306,57 +16306,57 @@ public:
 
   static inline ::System::Version* getStaticF_version();
 
-  /// @brief Method ovrp_CalculateLayerDesc, addr 0x2a4d648, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method ovrp_CalculateLayerDesc, addr 0x2b49ef8, size 0xcc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_CalculateLayerDesc(::GlobalNamespace::__OVRPlugin__OverlayShape shape, ::GlobalNamespace::__OVRPlugin__LayerLayout layout,
                                                                                ByRef<::GlobalNamespace::__OVRPlugin__Sizei> textureSize, int32_t mipLevels, int32_t sampleCount,
                                                                                ::GlobalNamespace::__OVRPlugin__EyeTextureFormat format, int32_t layerFlags,
                                                                                ByRef<::GlobalNamespace::__OVRPlugin__LayerDescInternal> layerDesc);
 
-  /// @brief Method ovrp_EnqueueDestroyLayer, addr 0x2a4d798, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_EnqueueDestroyLayer, addr 0x2b4a048, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_EnqueueDestroyLayer(void* layerId);
 
-  /// @brief Method ovrp_EnqueueSetupLayer, addr 0x2a4d714, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_EnqueueSetupLayer, addr 0x2b49fc4, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_EnqueueSetupLayer(ByRef<::GlobalNamespace::__OVRPlugin__LayerDescInternal> desc, void* layerId);
 
-  /// @brief Method ovrp_EnqueueSubmitLayer, addr 0x2a4d934, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method ovrp_EnqueueSubmitLayer, addr 0x2b4a1e4, size 0xcc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_EnqueueSubmitLayer(uint32_t flags, void* textureLeft, void* textureRight, int32_t layerId, int32_t frameIndex,
                                                                                ByRef<::GlobalNamespace::__OVRPlugin__Posef> pose, ByRef<::GlobalNamespace::__OVRPlugin__Vector3f> scale,
                                                                                int32_t layerIndex);
 
-  /// @brief Method ovrp_GetExternalCameraCount, addr 0x2a4d3b4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetExternalCameraCount, addr 0x2b49c64, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetExternalCameraCount(ByRef<int32_t> cameraCount);
 
-  /// @brief Method ovrp_GetExternalCameraExtrinsics, addr 0x2a4d5c4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetExternalCameraExtrinsics, addr 0x2b49e74, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetExternalCameraExtrinsics(int32_t cameraId, ByRef<::GlobalNamespace::__OVRPlugin__CameraExtrinsics> cameraExtrinsics);
 
-  /// @brief Method ovrp_GetExternalCameraIntrinsics, addr 0x2a4d540, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetExternalCameraIntrinsics, addr 0x2b49df0, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetExternalCameraIntrinsics(int32_t cameraId, ByRef<::GlobalNamespace::__OVRPlugin__CameraIntrinsics> cameraIntrinsics);
 
-  /// @brief Method ovrp_GetExternalCameraName, addr 0x2a4d430, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetExternalCameraName, addr 0x2b49ce0, size 0x110, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetExternalCameraName(int32_t cameraId, ::ArrayW<char16_t, ::Array<char16_t>*> cameraName);
 
-  /// @brief Method ovrp_GetEyeTextureArrayEnabled, addr 0x2a4da84, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetEyeTextureArrayEnabled, addr 0x2b4a334, size 0x68, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Bool ovrp_GetEyeTextureArrayEnabled();
 
-  /// @brief Method ovrp_GetLayerTexturePtr, addr 0x2a4d898, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetLayerTexturePtr, addr 0x2b4a148, size 0x9c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetLayerTexturePtr(int32_t layerId, int32_t stage, ::GlobalNamespace::__OVRPlugin__Eye eyeId, ByRef<void*> textureHandle);
 
-  /// @brief Method ovrp_GetLayerTextureStageCount, addr 0x2a4d814, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetLayerTextureStageCount, addr 0x2b4a0c4, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetLayerTextureStageCount(int32_t layerId, ByRef<int32_t> layerTextureStageCount);
 
-  /// @brief Method ovrp_GetMixedRealityInitialized, addr 0x2a4d2e4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetMixedRealityInitialized, addr 0x2b49b94, size 0x68, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Bool ovrp_GetMixedRealityInitialized();
 
-  /// @brief Method ovrp_GetNodeFrustum2, addr 0x2a4da00, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetNodeFrustum2, addr 0x2b4a2b0, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetNodeFrustum2(::GlobalNamespace::__OVRPlugin__Node nodeId, ByRef<::GlobalNamespace::__OVRPlugin__Frustumf2> nodeFrustum);
 
-  /// @brief Method ovrp_InitializeMixedReality, addr 0x2a4d214, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ovrp_InitializeMixedReality, addr 0x2b49ac4, size 0x68, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_InitializeMixedReality();
 
-  /// @brief Method ovrp_ShutdownMixedReality, addr 0x2a4d27c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ovrp_ShutdownMixedReality, addr 0x2b49b2c, size 0x68, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_ShutdownMixedReality();
 
-  /// @brief Method ovrp_UpdateExternalCamera, addr 0x2a4d34c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ovrp_UpdateExternalCamera, addr 0x2b49bfc, size 0x68, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_UpdateExternalCamera();
 
   static inline void setStaticF_version(::System::Version* value);
@@ -16397,37 +16397,37 @@ public:
 
   static inline ::System::Version* getStaticF_version();
 
-  /// @brief Method ovrp_CloseCameraDevice, addr 0x2a4dd54, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_CloseCameraDevice, addr 0x2b4a604, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_CloseCameraDevice(::GlobalNamespace::__OVRPlugin__CameraDevice cameraDevice);
 
-  /// @brief Method ovrp_GetCameraDeviceColorFrameBgraPixels, addr 0x2a4df4c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetCameraDeviceColorFrameBgraPixels, addr 0x2b4a7fc, size 0x94, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetCameraDeviceColorFrameBgraPixels(::GlobalNamespace::__OVRPlugin__CameraDevice cameraDevice, ByRef<void*> colorFrameBgraPixels,
                                                                                                 ByRef<int32_t> colorFrameRowPitch);
 
-  /// @brief Method ovrp_GetCameraDeviceColorFrameSize, addr 0x2a4dec8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetCameraDeviceColorFrameSize, addr 0x2b4a778, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetCameraDeviceColorFrameSize(::GlobalNamespace::__OVRPlugin__CameraDevice cameraDevice,
                                                                                           ByRef<::GlobalNamespace::__OVRPlugin__Sizei> colorFrameSize);
 
-  /// @brief Method ovrp_GetControllerState4, addr 0x2a4dfe0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetControllerState4, addr 0x2b4a890, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetControllerState4(uint32_t controllerMask, ByRef<::GlobalNamespace::__OVRPlugin__ControllerState4> controllerState);
 
-  /// @brief Method ovrp_HasCameraDeviceOpened, addr 0x2a4ddd0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_HasCameraDeviceOpened, addr 0x2b4a680, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Bool ovrp_HasCameraDeviceOpened(::GlobalNamespace::__OVRPlugin__CameraDevice cameraDevice);
 
-  /// @brief Method ovrp_IsCameraDeviceAvailable, addr 0x2a4dbd8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_IsCameraDeviceAvailable, addr 0x2b4a488, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Bool ovrp_IsCameraDeviceAvailable(::GlobalNamespace::__OVRPlugin__CameraDevice cameraDevice);
 
-  /// @brief Method ovrp_IsCameraDeviceColorFrameAvailable, addr 0x2a4de4c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_IsCameraDeviceColorFrameAvailable, addr 0x2b4a6fc, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Bool ovrp_IsCameraDeviceColorFrameAvailable(::GlobalNamespace::__OVRPlugin__CameraDevice cameraDevice);
 
-  /// @brief Method ovrp_OpenCameraDevice, addr 0x2a4dcd8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_OpenCameraDevice, addr 0x2b4a588, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_OpenCameraDevice(::GlobalNamespace::__OVRPlugin__CameraDevice cameraDevice);
 
-  /// @brief Method ovrp_SetCameraDevicePreferredColorFrameSize, addr 0x2a4dc54, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_SetCameraDevicePreferredColorFrameSize, addr 0x2b4a504, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_SetCameraDevicePreferredColorFrameSize(::GlobalNamespace::__OVRPlugin__CameraDevice cameraDevice,
                                                                                                    ::GlobalNamespace::__OVRPlugin__Sizei preferredColorFrameSize);
 
-  /// @brief Method ovrp_UpdateCameraDevices, addr 0x2a4db70, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ovrp_UpdateCameraDevices, addr 0x2b4a420, size 0x68, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_UpdateCameraDevices();
 
   static inline void setStaticF_version(::System::Version* value);
@@ -16500,13 +16500,13 @@ public:
 
   static inline ::System::Version* getStaticF_version();
 
-  /// @brief Method ovrp_GetAppHasInputFocus, addr 0x2a4e264, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetAppHasInputFocus, addr 0x2b4ab14, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetAppHasInputFocus(ByRef<::GlobalNamespace::__OVRPlugin__Bool> appHasInputFocus);
 
-  /// @brief Method ovrp_GetHandNodePoseStateLatency, addr 0x2a4e1e8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetHandNodePoseStateLatency, addr 0x2b4aa98, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetHandNodePoseStateLatency(ByRef<double_t> latencyInSeconds);
 
-  /// @brief Method ovrp_SetHandNodePoseStateLatency, addr 0x2a4e16c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_SetHandNodePoseStateLatency, addr 0x2b4aa1c, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_SetHandNodePoseStateLatency(double_t latencyInSeconds);
 
   static inline void setStaticF_version(::System::Version* value);
@@ -16579,31 +16579,31 @@ public:
 
   static inline ::System::Version* getStaticF_version();
 
-  /// @brief Method ovrp_GetAppAsymmetricFov, addr 0x2a4e7d0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetAppAsymmetricFov, addr 0x2b4b080, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetAppAsymmetricFov(ByRef<::GlobalNamespace::__OVRPlugin__Bool> useAsymmetricFov);
 
-  /// @brief Method ovrp_GetGPUUtilLevel, addr 0x2a4e5d8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetGPUUtilLevel, addr 0x2b4ae88, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetGPUUtilLevel(ByRef<float_t> gpuUtil);
 
-  /// @brief Method ovrp_GetGPUUtilSupported, addr 0x2a4e55c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetGPUUtilSupported, addr 0x2b4ae0c, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetGPUUtilSupported(ByRef<::GlobalNamespace::__OVRPlugin__Bool> gpuUtilSupported);
 
-  /// @brief Method ovrp_GetSystemDisplayAvailableFrequencies, addr 0x2a4e6d0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetSystemDisplayAvailableFrequencies, addr 0x2b4af80, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetSystemDisplayAvailableFrequencies(void* systemDisplayAvailableFrequencies, ByRef<int32_t> numFrequencies);
 
-  /// @brief Method ovrp_GetSystemDisplayFrequency2, addr 0x2a4e654, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetSystemDisplayFrequency2, addr 0x2b4af04, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetSystemDisplayFrequency2(ByRef<float_t> systemDisplayFrequency);
 
-  /// @brief Method ovrp_GetTiledMultiResLevel, addr 0x2a4e464, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetTiledMultiResLevel, addr 0x2b4ad14, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetTiledMultiResLevel(ByRef<::GlobalNamespace::__OVRPlugin__FoveatedRenderingLevel> level);
 
-  /// @brief Method ovrp_GetTiledMultiResSupported, addr 0x2a4e3e8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetTiledMultiResSupported, addr 0x2b4ac98, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetTiledMultiResSupported(ByRef<::GlobalNamespace::__OVRPlugin__Bool> foveationSupported);
 
-  /// @brief Method ovrp_SetSystemDisplayFrequency, addr 0x2a4e754, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_SetSystemDisplayFrequency, addr 0x2b4b004, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_SetSystemDisplayFrequency(float_t requestedFrequency);
 
-  /// @brief Method ovrp_SetTiledMultiResLevel, addr 0x2a4e4e0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_SetTiledMultiResLevel, addr 0x2b4ad90, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_SetTiledMultiResLevel(::GlobalNamespace::__OVRPlugin__FoveatedRenderingLevel level);
 
   static inline void setStaticF_version(::System::Version* value);
@@ -16641,13 +16641,13 @@ public:
 
   static inline ::System::Version* getStaticF_version();
 
-  /// @brief Method ovrp_EnqueueSetupLayer2, addr 0x2a4ea00, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ovrp_EnqueueSetupLayer2, addr 0x2b4b2b0, size 0x94, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_EnqueueSetupLayer2(ByRef<::GlobalNamespace::__OVRPlugin__LayerDescInternal> desc, int32_t compositionDepth, void* layerId);
 
-  /// @brief Method ovrp_GetDominantHand, addr 0x2a4e8d0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetDominantHand, addr 0x2b4b180, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetDominantHand(ByRef<::GlobalNamespace::__OVRPlugin__Handedness> dominantHand);
 
-  /// @brief Method ovrp_SendEvent, addr 0x2a4e94c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ovrp_SendEvent, addr 0x2b4b1fc, size 0xb4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_SendEvent(::StringW name, ::StringW param);
 
   static inline void setStaticF_version(::System::Version* value);
@@ -16685,18 +16685,18 @@ public:
 
   static inline ::System::Version* getStaticF_version();
 
-  /// @brief Method ovrp_GetHeadPoseModifier, addr 0x2a4ec20, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetHeadPoseModifier, addr 0x2b4b4d0, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetHeadPoseModifier(ByRef<::GlobalNamespace::__OVRPlugin__Quatf> relativeRotation,
                                                                                 ByRef<::GlobalNamespace::__OVRPlugin__Vector3f> relativeTranslation);
 
-  /// @brief Method ovrp_GetLayerAndroidSurfaceObject, addr 0x2a4eb18, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetLayerAndroidSurfaceObject, addr 0x2b4b3c8, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetLayerAndroidSurfaceObject(int32_t layerId, ByRef<void*> surfaceObject);
 
-  /// @brief Method ovrp_GetNodePoseStateRaw, addr 0x2a4eca4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetNodePoseStateRaw, addr 0x2b4b554, size 0x9c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetNodePoseStateRaw(::GlobalNamespace::__OVRPlugin__Step stepId, int32_t frameIndex, ::GlobalNamespace::__OVRPlugin__Node nodeId,
                                                                                 ByRef<::GlobalNamespace::__OVRPlugin__PoseStatef> nodePoseState);
 
-  /// @brief Method ovrp_SetHeadPoseModifier, addr 0x2a4eb9c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_SetHeadPoseModifier, addr 0x2b4b44c, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_SetHeadPoseModifier(ByRef<::GlobalNamespace::__OVRPlugin__Quatf> relativeRotation,
                                                                                 ByRef<::GlobalNamespace::__OVRPlugin__Vector3f> relativeTranslation);
 
@@ -16735,22 +16735,22 @@ public:
 
   static inline ::System::Version* getStaticF_version();
 
-  /// @brief Method ovrp_GetCurrentTrackingTransformPose, addr 0x2a4edc4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetCurrentTrackingTransformPose, addr 0x2b4b674, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetCurrentTrackingTransformPose(ByRef<::GlobalNamespace::__OVRPlugin__Posef> trackingTransformPose);
 
-  /// @brief Method ovrp_GetPerfMetricsFloat, addr 0x2a4f018, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetPerfMetricsFloat, addr 0x2b4b8c8, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetPerfMetricsFloat(::GlobalNamespace::__OVRPlugin__PerfMetrics perfMetrics, ByRef<float_t> value);
 
-  /// @brief Method ovrp_GetPerfMetricsInt, addr 0x2a4f09c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetPerfMetricsInt, addr 0x2b4b94c, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetPerfMetricsInt(::GlobalNamespace::__OVRPlugin__PerfMetrics perfMetrics, ByRef<int32_t> value);
 
-  /// @brief Method ovrp_GetTrackingTransformRawPose, addr 0x2a4ee40, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetTrackingTransformRawPose, addr 0x2b4b6f0, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetTrackingTransformRawPose(ByRef<::GlobalNamespace::__OVRPlugin__Posef> trackingTransformRawPose);
 
-  /// @brief Method ovrp_IsPerfMetricsSupported, addr 0x2a4ef94, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_IsPerfMetricsSupported, addr 0x2b4b844, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_IsPerfMetricsSupported(::GlobalNamespace::__OVRPlugin__PerfMetrics perfMetrics, ByRef<::GlobalNamespace::__OVRPlugin__Bool> isSupported);
 
-  /// @brief Method ovrp_SendEvent2, addr 0x2a4eebc, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method ovrp_SendEvent2, addr 0x2b4b76c, size 0xd8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_SendEvent2(::StringW name, ::StringW param, ::StringW source);
 
   static inline void setStaticF_version(::System::Version* value);
@@ -16788,10 +16788,10 @@ public:
 
   static inline ::System::Version* getStaticF_version();
 
-  /// @brief Method ovrp_GetTimeInSeconds, addr 0x2a4f1a4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetTimeInSeconds, addr 0x2b4ba54, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetTimeInSeconds(ByRef<double_t> value);
 
-  /// @brief Method ovrp_SetColorScaleAndOffset, addr 0x2a4f220, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method ovrp_SetColorScaleAndOffset, addr 0x2b4bad0, size 0xdc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_SetColorScaleAndOffset(::UnityEngine::Vector4 colorScale, ::UnityEngine::Vector4 colorOffset,
                                                                                    ::GlobalNamespace::__OVRPlugin__Bool applyToAllLayers);
 
@@ -16830,7 +16830,7 @@ public:
 
   static inline ::System::Version* getStaticF_version();
 
-  /// @brief Method ovrp_AddCustomMetadata, addr 0x2a4f380, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ovrp_AddCustomMetadata, addr 0x2b4bc30, size 0xb4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_AddCustomMetadata(::StringW name, ::StringW param);
 
   static inline void setStaticF_version(::System::Version* value);
@@ -16868,7 +16868,7 @@ public:
 
   static inline ::System::Version* getStaticF_version();
 
-  /// @brief Method ovrp_EnqueueSubmitLayer2, addr 0x2a4f4b8, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ovrp_EnqueueSubmitLayer2, addr 0x2b4bd68, size 0xfc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_EnqueueSubmitLayer2(uint32_t flags, void* textureLeft, void* textureRight, int32_t layerId, int32_t frameIndex,
                                                                                 ByRef<::GlobalNamespace::__OVRPlugin__Posef> pose, ByRef<::GlobalNamespace::__OVRPlugin__Vector3f> scale,
                                                                                 int32_t layerIndex, ::GlobalNamespace::__OVRPlugin__Bool overrideTextureRectMatrix,
@@ -17016,79 +17016,79 @@ public:
 
   static inline ::System::Version* getStaticF_version();
 
-  /// @brief Method ovrp_GetNodeOrientationValid, addr 0x2a4f8c4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetNodeOrientationValid, addr 0x2b4c174, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetNodeOrientationValid(::GlobalNamespace::__OVRPlugin__Node nodeId, ByRef<::GlobalNamespace::__OVRPlugin__Bool> nodeOrientationValid);
 
-  /// @brief Method ovrp_GetNodePositionValid, addr 0x2a4f948, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetNodePositionValid, addr 0x2b4c1f8, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetNodePositionValid(::GlobalNamespace::__OVRPlugin__Node nodeId, ByRef<::GlobalNamespace::__OVRPlugin__Bool> nodePositionValid);
 
-  /// @brief Method ovrp_GetTrackingTransformRelativePose, addr 0x2a4f7c4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetTrackingTransformRelativePose, addr 0x2b4c074, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetTrackingTransformRelativePose(ByRef<::GlobalNamespace::__OVRPlugin__Posef> trackingTransformRelativePose,
                                                                                              ::GlobalNamespace::__OVRPlugin__TrackingOrigin trackingOrigin);
 
-  /// @brief Method ovrp_Media_EncodeMrcFrame, addr 0x2a46b18, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ovrp_Media_EncodeMrcFrame, addr 0x2b433c8, size 0xbc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_Media_EncodeMrcFrame(void* rawBuffer, void* audioDataPtr, int32_t audioDataLen, int32_t audioChannels, double_t timestamp,
                                                                                  ByRef<int32_t> outSyncId);
 
-  /// @brief Method ovrp_Media_EncodeMrcFrameWithDualTextures, addr 0x2a46ca0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method ovrp_Media_EncodeMrcFrameWithDualTextures, addr 0x2b43550, size 0xc4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_Media_EncodeMrcFrameWithDualTextures(void* backgroundTextureHandle, void* foregroundTextureHandle, void* audioData, int32_t audioDataLen,
                                                                                                  int32_t audioChannels, double_t timestamp, ByRef<int32_t> outSyncId);
 
-  /// @brief Method ovrp_Media_GetInitialized, addr 0x2a450dc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_Media_GetInitialized, addr 0x2b4198c, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_Media_GetInitialized(ByRef<::GlobalNamespace::__OVRPlugin__Bool> initialized);
 
-  /// @brief Method ovrp_Media_GetMrcActivationMode, addr 0x2a4534c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_Media_GetMrcActivationMode, addr 0x2b41bfc, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_Media_GetMrcActivationMode(ByRef<::GlobalNamespace::__OVRPlugin__Media__MrcActivationMode> activationMode);
 
-  /// @brief Method ovrp_Media_GetMrcAudioSampleRate, addr 0x2a463f4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_Media_GetMrcAudioSampleRate, addr 0x2b42ca4, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_Media_GetMrcAudioSampleRate(ByRef<int32_t> sampleRate);
 
-  /// @brief Method ovrp_Media_GetMrcFrameImageFlipped, addr 0x2a46684, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_Media_GetMrcFrameImageFlipped, addr 0x2b42f34, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_Media_GetMrcFrameImageFlipped(ByRef<::GlobalNamespace::__OVRPlugin__Bool> flipped);
 
-  /// @brief Method ovrp_Media_GetMrcFrameSize, addr 0x2a46168, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_Media_GetMrcFrameSize, addr 0x2b42a18, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_Media_GetMrcFrameSize(ByRef<int32_t> frameWidth, ByRef<int32_t> frameHeight);
 
-  /// @brief Method ovrp_Media_GetMrcInputVideoBufferType, addr 0x2a45eb0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_Media_GetMrcInputVideoBufferType, addr 0x2b42760, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_Media_GetMrcInputVideoBufferType(ByRef<::GlobalNamespace::__OVRPlugin__Media__InputVideoBufferType> inputVideoBufferType);
 
-  /// @brief Method ovrp_Media_Initialize, addr 0x2a44e78, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ovrp_Media_Initialize, addr 0x2b41728, size 0x68, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_Media_Initialize();
 
-  /// @brief Method ovrp_Media_IsMrcActivated, addr 0x2a45adc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_Media_IsMrcActivated, addr 0x2b4238c, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_Media_IsMrcActivated(ByRef<::GlobalNamespace::__OVRPlugin__Bool> mrcActivated);
 
-  /// @brief Method ovrp_Media_IsMrcEnabled, addr 0x2a45990, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_Media_IsMrcEnabled, addr 0x2b42240, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_Media_IsMrcEnabled(ByRef<::GlobalNamespace::__OVRPlugin__Bool> mrcEnabled);
 
-  /// @brief Method ovrp_Media_SetMrcActivationMode, addr 0x2a45490, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_Media_SetMrcActivationMode, addr 0x2b41d40, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_Media_SetMrcActivationMode(::GlobalNamespace::__OVRPlugin__Media__MrcActivationMode activationMode);
 
-  /// @brief Method ovrp_Media_SetMrcAudioSampleRate, addr 0x2a462b4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_Media_SetMrcAudioSampleRate, addr 0x2b42b64, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_Media_SetMrcAudioSampleRate(int32_t sampleRate);
 
-  /// @brief Method ovrp_Media_SetMrcFrameImageFlipped, addr 0x2a4653c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_Media_SetMrcFrameImageFlipped, addr 0x2b42dec, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_Media_SetMrcFrameImageFlipped(::GlobalNamespace::__OVRPlugin__Bool flipped);
 
-  /// @brief Method ovrp_Media_SetMrcFrameSize, addr 0x2a46004, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_Media_SetMrcFrameSize, addr 0x2b428b4, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_Media_SetMrcFrameSize(int32_t frameWidth, int32_t frameHeight);
 
-  /// @brief Method ovrp_Media_SetMrcInputVideoBufferType, addr 0x2a45d6c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_Media_SetMrcInputVideoBufferType, addr 0x2b4261c, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_Media_SetMrcInputVideoBufferType(::GlobalNamespace::__OVRPlugin__Media__InputVideoBufferType inputVideoBufferType);
 
-  /// @brief Method ovrp_Media_Shutdown, addr 0x2a44fa0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ovrp_Media_Shutdown, addr 0x2b41850, size 0x68, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_Media_Shutdown();
 
-  /// @brief Method ovrp_Media_SyncMrcFrame, addr 0x2a47314, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_Media_SyncMrcFrame, addr 0x2b43bc4, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_Media_SyncMrcFrame(int32_t syncId);
 
-  /// @brief Method ovrp_Media_Update, addr 0x2a45218, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ovrp_Media_Update, addr 0x2b41ac8, size 0x68, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_Media_Update();
 
-  /// @brief Method ovrp_Media_UseMrcDebugCamera, addr 0x2a45c28, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_Media_UseMrcDebugCamera, addr 0x2b424d8, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_Media_UseMrcDebugCamera(ByRef<::GlobalNamespace::__OVRPlugin__Bool> useMrcDebugCamera);
 
-  /// @brief Method ovrp_SetDeveloperMode, addr 0x2a4f848, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_SetDeveloperMode, addr 0x2b4c0f8, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_SetDeveloperMode(::GlobalNamespace::__OVRPlugin__Bool active);
 
   static inline void setStaticF_version(::System::Version* value);
@@ -17231,7 +17231,7 @@ public:
 
   static inline ::System::Version* getStaticF_version();
 
-  /// @brief Method ovrp_GetAdaptiveGpuPerformanceScale2, addr 0x2a4fbdc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetAdaptiveGpuPerformanceScale2, addr 0x2b4c48c, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetAdaptiveGpuPerformanceScale2(ByRef<float_t> adaptiveGpuPerformanceScale);
 
   static inline void setStaticF_version(::System::Version* value);
@@ -17304,40 +17304,40 @@ public:
 
   static inline ::System::Version* getStaticF_version();
 
-  /// @brief Method ovrp_GetHandState, addr 0x2a4fddc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetHandState, addr 0x2b4c68c, size 0x94, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetHandState(::GlobalNamespace::__OVRPlugin__Step stepId, ::GlobalNamespace::__OVRPlugin__Hand hand,
                                                                          ByRef<::GlobalNamespace::__OVRPlugin__HandStateInternal> handState);
 
-  /// @brief Method ovrp_GetHandTrackingEnabled, addr 0x2a4fd60, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetHandTrackingEnabled, addr 0x2b4c610, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetHandTrackingEnabled(ByRef<::GlobalNamespace::__OVRPlugin__Bool> handTrackingEnabled);
 
-  /// @brief Method ovrp_GetLocalTrackingSpaceRecenterCount, addr 0x2a502f4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetLocalTrackingSpaceRecenterCount, addr 0x2b4cba4, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetLocalTrackingSpaceRecenterCount(ByRef<int32_t> recenterCount);
 
-  /// @brief Method ovrp_GetMesh, addr 0x2a4ff30, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetMesh, addr 0x2b4c7e0, size 0x80, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetMesh(::GlobalNamespace::__OVRPlugin__MeshType meshType, void* meshPtr);
 
-  /// @brief Method ovrp_GetSkeleton, addr 0x2a4fe70, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetSkeleton, addr 0x2b4c720, size 0xc0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetSkeleton(::GlobalNamespace::__OVRPlugin__SkeletonType skeletonType, ByRef<::GlobalNamespace::__OVRPlugin__Skeleton> skeleton);
 
-  /// @brief Method ovrp_GetUseOverriddenExternalCameraFov, addr 0x2a50044, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetUseOverriddenExternalCameraFov, addr 0x2b4c8f4, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetUseOverriddenExternalCameraFov(int32_t cameraId, ByRef<::GlobalNamespace::__OVRPlugin__Bool> useOverriddenFov);
 
-  /// @brief Method ovrp_GetUseOverriddenExternalCameraStaticPose, addr 0x2a5015c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetUseOverriddenExternalCameraStaticPose, addr 0x2b4ca0c, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetUseOverriddenExternalCameraStaticPose(int32_t cameraId, ByRef<::GlobalNamespace::__OVRPlugin__Bool> useOverriddenStaticPose);
 
-  /// @brief Method ovrp_OverrideExternalCameraFov, addr 0x2a4ffb0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ovrp_OverrideExternalCameraFov, addr 0x2b4c860, size 0x94, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_OverrideExternalCameraFov(int32_t cameraId, ::GlobalNamespace::__OVRPlugin__Bool useOverriddenFov,
                                                                                       ByRef<::GlobalNamespace::__OVRPlugin__Fovf> fov);
 
-  /// @brief Method ovrp_OverrideExternalCameraStaticPose, addr 0x2a500c8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ovrp_OverrideExternalCameraStaticPose, addr 0x2b4c978, size 0x94, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_OverrideExternalCameraStaticPose(int32_t cameraId, ::GlobalNamespace::__OVRPlugin__Bool useOverriddenPose,
                                                                                              ByRef<::GlobalNamespace::__OVRPlugin__Posef> poseInStageOrigin);
 
-  /// @brief Method ovrp_ResetDefaultExternalCamera, addr 0x2a501e0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ovrp_ResetDefaultExternalCamera, addr 0x2b4ca90, size 0x68, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_ResetDefaultExternalCamera();
 
-  /// @brief Method ovrp_SetDefaultExternalCamera, addr 0x2a50248, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ovrp_SetDefaultExternalCamera, addr 0x2b4caf8, size 0xac, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_SetDefaultExternalCamera(::StringW cameraName, ByRef<::GlobalNamespace::__OVRPlugin__CameraIntrinsics> cameraIntrinsics,
                                                                                      ByRef<::GlobalNamespace::__OVRPlugin__CameraExtrinsics> cameraExtrinsics);
 
@@ -17376,10 +17376,10 @@ public:
 
   static inline ::System::Version* getStaticF_version();
 
-  /// @brief Method ovrp_GetSystemHmd3DofModeEnabled, addr 0x2a503f4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetSystemHmd3DofModeEnabled, addr 0x2b4cca4, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetSystemHmd3DofModeEnabled(ByRef<::GlobalNamespace::__OVRPlugin__Bool> enabled);
 
-  /// @brief Method ovrp_Media_SetAvailableQueueIndexVulkan, addr 0x2a47458, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_Media_SetAvailableQueueIndexVulkan, addr 0x2b43d08, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_Media_SetAvailableQueueIndexVulkan(uint32_t queueIndexVk);
 
   static inline void setStaticF_version(::System::Version* value);
@@ -17417,10 +17417,10 @@ public:
 
   static inline ::System::Version* getStaticF_version();
 
-  /// @brief Method ovrp_GetTiledMultiResDynamic, addr 0x2a504f4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetTiledMultiResDynamic, addr 0x2b4cda4, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetTiledMultiResDynamic(ByRef<::GlobalNamespace::__OVRPlugin__Bool> isDynamic);
 
-  /// @brief Method ovrp_SetTiledMultiResDynamic, addr 0x2a50570, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_SetTiledMultiResDynamic, addr 0x2b4ce20, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_SetTiledMultiResDynamic(::GlobalNamespace::__OVRPlugin__Bool isDynamic);
 
   static inline void setStaticF_version(::System::Version* value);
@@ -17493,7 +17493,7 @@ public:
 
   static inline ::System::Version* getStaticF_version();
 
-  /// @brief Method ovrp_SetExternalCameraProperties, addr 0x2a506f4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ovrp_SetExternalCameraProperties, addr 0x2b4cfa4, size 0xac, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_SetExternalCameraProperties(::StringW cameraName, ByRef<::GlobalNamespace::__OVRPlugin__CameraIntrinsics> cameraIntrinsics,
                                                                                         ByRef<::GlobalNamespace::__OVRPlugin__CameraExtrinsics> cameraExtrinsics);
 
@@ -17532,56 +17532,56 @@ public:
 
   static inline ::System::Version* getStaticF_version();
 
-  /// @brief Method ovrp_GetHmdColorDesc, addr 0x2a508a0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetHmdColorDesc, addr 0x2b4d150, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetHmdColorDesc(ByRef<::GlobalNamespace::__OVRPlugin__ColorSpace> colorSpace);
 
-  /// @brief Method ovrp_Media_CreateCustomCameraAnchor, addr 0x2a50c34, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_Media_CreateCustomCameraAnchor, addr 0x2b4d4e4, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_Media_CreateCustomCameraAnchor(void* anchorName, ByRef<void*> anchorHandle);
 
-  /// @brief Method ovrp_Media_DestroyCustomCameraAnchor, addr 0x2a50cb8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_Media_DestroyCustomCameraAnchor, addr 0x2b4d568, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_Media_DestroyCustomCameraAnchor(void* anchorHandle);
 
-  /// @brief Method ovrp_Media_EncodeMrcFrameDualTexturesWithPoseTime, addr 0x2a46bd4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method ovrp_Media_EncodeMrcFrameDualTexturesWithPoseTime, addr 0x2b43484, size 0xcc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_Media_EncodeMrcFrameDualTexturesWithPoseTime(void* backgroundTextureHandle, void* foregroundTextureHandle, void* audioData,
                                                                                                          int32_t audioDataLen, int32_t audioChannels, double_t timestamp, double_t poseTime,
                                                                                                          ByRef<int32_t> outSyncId);
 
-  /// @brief Method ovrp_Media_EncodeMrcFrameWithPoseTime, addr 0x2a46a54, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method ovrp_Media_EncodeMrcFrameWithPoseTime, addr 0x2b43304, size 0xc4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_Media_EncodeMrcFrameWithPoseTime(void* rawBuffer, void* audioDataPtr, int32_t audioDataLen, int32_t audioChannels, double_t timestamp,
                                                                                              double_t poseTime, ByRef<int32_t> outSyncId);
 
-  /// @brief Method ovrp_Media_EnumerateCameraAnchorHandles, addr 0x2a5091c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_Media_EnumerateCameraAnchorHandles, addr 0x2b4d1cc, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_Media_EnumerateCameraAnchorHandles(ByRef<int32_t> anchorCount, ByRef<void*> CameraAnchorHandle);
 
-  /// @brief Method ovrp_Media_GetCameraAnchorHandle, addr 0x2a50b2c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_Media_GetCameraAnchorHandle, addr 0x2b4d3dc, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_Media_GetCameraAnchorHandle(void* anchorName, ByRef<void*> anchorHandle);
 
-  /// @brief Method ovrp_Media_GetCameraAnchorName, addr 0x2a50a1c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method ovrp_Media_GetCameraAnchorName, addr 0x2b4d2cc, size 0x110, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_Media_GetCameraAnchorName(void* anchorHandle, ::ArrayW<char16_t, ::Array<char16_t>*> cameraName);
 
-  /// @brief Method ovrp_Media_GetCameraAnchorType, addr 0x2a50bb0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_Media_GetCameraAnchorType, addr 0x2b4d460, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_Media_GetCameraAnchorType(void* anchorHandle, ByRef<::GlobalNamespace::__OVRPlugin__CameraAnchorType> anchorType);
 
-  /// @brief Method ovrp_Media_GetCameraMinMaxDistance, addr 0x2a50e48, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ovrp_Media_GetCameraMinMaxDistance, addr 0x2b4d6f8, size 0x94, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_Media_GetCameraMinMaxDistance(void* anchorHandle, ByRef<double_t> minDistance, ByRef<double_t> maxDistance);
 
-  /// @brief Method ovrp_Media_GetCurrentCameraAnchorHandle, addr 0x2a509a0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_Media_GetCurrentCameraAnchorHandle, addr 0x2b4d250, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_Media_GetCurrentCameraAnchorHandle(ByRef<void*> anchorHandle);
 
-  /// @brief Method ovrp_Media_GetCustomCameraAnchorPose, addr 0x2a50d34, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_Media_GetCustomCameraAnchorPose, addr 0x2b4d5e4, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_Media_GetCustomCameraAnchorPose(void* anchorHandle, ByRef<::GlobalNamespace::__OVRPlugin__Posef> pose);
 
-  /// @brief Method ovrp_Media_SetCameraMinMaxDistance, addr 0x2a50edc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ovrp_Media_SetCameraMinMaxDistance, addr 0x2b4d78c, size 0x94, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_Media_SetCameraMinMaxDistance(void* anchorHandle, double_t minDistance, double_t maxDistance);
 
-  /// @brief Method ovrp_Media_SetCustomCameraAnchorPose, addr 0x2a50db8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ovrp_Media_SetCustomCameraAnchorPose, addr 0x2b4d668, size 0x90, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_Media_SetCustomCameraAnchorPose(void* anchorHandle, ::GlobalNamespace::__OVRPlugin__Posef pose);
 
-  /// @brief Method ovrp_Media_SetHeadsetControllerPose, addr 0x2a47620, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method ovrp_Media_SetHeadsetControllerPose, addr 0x2b43ed0, size 0xc4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_Media_SetHeadsetControllerPose(::GlobalNamespace::__OVRPlugin__Posef headsetPose, ::GlobalNamespace::__OVRPlugin__Posef leftControllerPose,
                                                                                            ::GlobalNamespace::__OVRPlugin__Posef rightControllerPose);
 
-  /// @brief Method ovrp_SetClientColorDesc, addr 0x2a50824, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_SetClientColorDesc, addr 0x2b4d0d4, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_SetClientColorDesc(::GlobalNamespace::__OVRPlugin__ColorSpace colorSpace);
 
   static inline void setStaticF_version(::System::Version* value);
@@ -17762,7 +17762,7 @@ public:
 
   static inline ::System::Version* getStaticF_version();
 
-  /// @brief Method ovrp_Media_SetPlatformInitialized, addr 0x2a455cc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ovrp_Media_SetPlatformInitialized, addr 0x2b41e7c, size 0x68, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_Media_SetPlatformInitialized();
 
   static inline void setStaticF_version(::System::Version* value);
@@ -17800,16 +17800,16 @@ public:
 
   static inline ::System::Version* getStaticF_version();
 
-  /// @brief Method ovrp_GetNativeOpenXRHandles, addr 0x2a51468, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetNativeOpenXRHandles, addr 0x2b4dd18, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetNativeOpenXRHandles(ByRef<uint64_t> xrInstance, ByRef<uint64_t> xrSession);
 
-  /// @brief Method ovrp_GetNativeXrApiType, addr 0x2a513ec, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetNativeXrApiType, addr 0x2b4dc9c, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetNativeXrApiType(ByRef<::GlobalNamespace::__OVRPlugin__XrApi> xrApi);
 
-  /// @brief Method ovrp_GetSkeleton2, addr 0x2a51288, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetSkeleton2, addr 0x2b4db38, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetSkeleton2(::GlobalNamespace::__OVRPlugin__SkeletonType skeletonType, ByRef<::GlobalNamespace::__OVRPlugin__Skeleton2Internal> skeleton);
 
-  /// @brief Method ovrp_PollEvent, addr 0x2a5130c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method ovrp_PollEvent, addr 0x2b4dbbc, size 0xe0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_PollEvent(ByRef<::GlobalNamespace::__OVRPlugin__EventDataBuffer> eventDataBuffer);
 
   static inline void setStaticF_version(::System::Version* value);
@@ -17847,7 +17847,7 @@ public:
 
   static inline ::System::Version* getStaticF_version();
 
-  /// @brief Method ovrp_PollEvent2, addr 0x2a51570, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_PollEvent2, addr 0x2b4de20, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_PollEvent2(ByRef<::GlobalNamespace::__OVRPlugin__EventType> eventType, ByRef<void*> eventData);
 
   static inline void setStaticF_version(::System::Version* value);
@@ -17920,19 +17920,19 @@ public:
 
   static inline ::System::Version* getStaticF_version();
 
-  /// @brief Method ovrp_GetEyeFovPremultipliedAlphaMode, addr 0x2a51778, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetEyeFovPremultipliedAlphaMode, addr 0x2b4e028, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetEyeFovPremultipliedAlphaMode(ByRef<::GlobalNamespace::__OVRPlugin__Bool> enabled);
 
-  /// @brief Method ovrp_Media_GetPlatformCameraMode, addr 0x2a45700, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_Media_GetPlatformCameraMode, addr 0x2b41fb0, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_Media_GetPlatformCameraMode(ByRef<::GlobalNamespace::__OVRPlugin__Media__PlatformCameraMode> platformCameraMode);
 
-  /// @brief Method ovrp_Media_SetPlatformCameraMode, addr 0x2a45844, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_Media_SetPlatformCameraMode, addr 0x2b420f4, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_Media_SetPlatformCameraMode(::GlobalNamespace::__OVRPlugin__Media__PlatformCameraMode platformCameraMode);
 
-  /// @brief Method ovrp_SetEyeFovPremultipliedAlphaMode, addr 0x2a516fc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_SetEyeFovPremultipliedAlphaMode, addr 0x2b4dfac, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_SetEyeFovPremultipliedAlphaMode(::GlobalNamespace::__OVRPlugin__Bool enabled);
 
-  /// @brief Method ovrp_SetKeyboardOverlayUV, addr 0x2a517f4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_SetKeyboardOverlayUV, addr 0x2b4e0a4, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_SetKeyboardOverlayUV(::GlobalNamespace::__OVRPlugin__Vector2f uv);
 
   static inline void setStaticF_version(::System::Version* value);
@@ -18145,33 +18145,33 @@ public:
 
   static inline ::System::Version* getStaticF_version();
 
-  /// @brief Method ovrp_AddInsightPassthroughSurfaceGeometry, addr 0x2a51e8c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ovrp_AddInsightPassthroughSurfaceGeometry, addr 0x2b4e73c, size 0xac, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_AddInsightPassthroughSurfaceGeometry(int32_t layerId, uint64_t meshHandle, ::UnityEngine::Matrix4x4 T_world_model,
                                                                                                  ByRef<uint64_t> geometryInstanceHandle);
 
-  /// @brief Method ovrp_CreateInsightTriangleMesh, addr 0x2a51d5c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ovrp_CreateInsightTriangleMesh, addr 0x2b4e60c, size 0xb4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_CreateInsightTriangleMesh(int32_t layerId, void* vertices, int32_t vertexCount, void* triangles, int32_t triangleCount,
                                                                                       ByRef<uint64_t> meshHandle);
 
-  /// @brief Method ovrp_DestroyInsightPassthroughGeometryInstance, addr 0x2a51f38, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_DestroyInsightPassthroughGeometryInstance, addr 0x2b4e7e8, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_DestroyInsightPassthroughGeometryInstance(uint64_t geometryInstanceHandle);
 
-  /// @brief Method ovrp_DestroyInsightTriangleMesh, addr 0x2a51e10, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_DestroyInsightTriangleMesh, addr 0x2b4e6c0, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_DestroyInsightTriangleMesh(uint64_t meshHandle);
 
-  /// @brief Method ovrp_GetInsightPassthroughInitialized, addr 0x2a51c60, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetInsightPassthroughInitialized, addr 0x2b4e510, size 0x68, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Bool ovrp_GetInsightPassthroughInitialized();
 
-  /// @brief Method ovrp_InitializeInsightPassthrough, addr 0x2a51b90, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ovrp_InitializeInsightPassthrough, addr 0x2b4e440, size 0x68, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_InitializeInsightPassthrough();
 
-  /// @brief Method ovrp_SetInsightPassthroughStyle, addr 0x2a51cc8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ovrp_SetInsightPassthroughStyle, addr 0x2b4e578, size 0x94, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_SetInsightPassthroughStyle(int32_t layerId, ::GlobalNamespace::__OVRPlugin__InsightPassthroughStyle style);
 
-  /// @brief Method ovrp_ShutdownInsightPassthrough, addr 0x2a51bf8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ovrp_ShutdownInsightPassthrough, addr 0x2b4e4a8, size 0x68, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_ShutdownInsightPassthrough();
 
-  /// @brief Method ovrp_UpdateInsightPassthroughGeometryTransform, addr 0x2a51fb4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ovrp_UpdateInsightPassthroughGeometryTransform, addr 0x2b4e864, size 0x94, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_UpdateInsightPassthroughGeometryTransform(uint64_t geometryInstanceHandle, ::UnityEngine::Matrix4x4 T_world_model);
 
   static inline void setStaticF_version(::System::Version* value);
@@ -18209,7 +18209,7 @@ public:
 
   static inline ::System::Version* getStaticF_version();
 
-  /// @brief Method ovrp_LocateSpace, addr 0x2a520cc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ovrp_LocateSpace, addr 0x2b4e97c, size 0x94, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_LocateSpace(ByRef<::GlobalNamespace::__OVRPlugin__Posef> location, ByRef<uint64_t> space,
                                                                         ::GlobalNamespace::__OVRPlugin__TrackingOrigin trackingOrigin);
 
@@ -18248,28 +18248,28 @@ public:
 
   static inline ::System::Version* getStaticF_version();
 
-  /// @brief Method ovrp_DestroySpace, addr 0x2a521e4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_DestroySpace, addr 0x2b4ea94, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_DestroySpace(ByRef<uint64_t> space);
 
-  /// @brief Method ovrp_KtxDestroy, addr 0x2a48448, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_KtxDestroy, addr 0x2b44cf8, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_KtxDestroy(void* texture);
 
-  /// @brief Method ovrp_KtxGetTextureData, addr 0x2a48288, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ovrp_KtxGetTextureData, addr 0x2b44b38, size 0x94, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_KtxGetTextureData(void* texture, void* data, uint32_t bufferSize);
 
-  /// @brief Method ovrp_KtxLoadFromMemory, addr 0x2a479b0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ovrp_KtxLoadFromMemory, addr 0x2b44260, size 0x94, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_KtxLoadFromMemory(ByRef<void*> data, uint32_t length, ByRef<void*> texture);
 
-  /// @brief Method ovrp_KtxTextureHeight, addr 0x2a47d40, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_KtxTextureHeight, addr 0x2b445f0, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_KtxTextureHeight(void* texture, ByRef<uint32_t> height);
 
-  /// @brief Method ovrp_KtxTextureSize, addr 0x2a480c0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_KtxTextureSize, addr 0x2b44970, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_KtxTextureSize(void* texture, ByRef<uint32_t> size);
 
-  /// @brief Method ovrp_KtxTextureWidth, addr 0x2a47b80, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_KtxTextureWidth, addr 0x2b44430, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_KtxTextureWidth(void* texture, ByRef<uint32_t> width);
 
-  /// @brief Method ovrp_KtxTranscode, addr 0x2a47f00, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_KtxTranscode, addr 0x2b447b0, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_KtxTranscode(void* texture, uint32_t format);
 
   static inline void setStaticF_version(::System::Version* value);
@@ -18307,10 +18307,10 @@ public:
 
   static inline ::System::Version* getStaticF_version();
 
-  /// @brief Method ovrp_GetInsightPassthroughInitializationState, addr 0x2a522e4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetInsightPassthroughInitializationState, addr 0x2b4eb94, size 0x68, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetInsightPassthroughInitializationState();
 
-  /// @brief Method ovrp_Media_IsCastingToRemoteClient, addr 0x2a477b8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_Media_IsCastingToRemoteClient, addr 0x2b44068, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_Media_IsCastingToRemoteClient(ByRef<::GlobalNamespace::__OVRPlugin__Bool> isCasting);
 
   static inline void setStaticF_version(::System::Version* value);
@@ -18383,31 +18383,31 @@ public:
 
   static inline ::System::Version* getStaticF_version();
 
-  /// @brief Method ovrp_GetKeyboardState, addr 0x2a528d8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetKeyboardState, addr 0x2b4f188, size 0x94, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetKeyboardState(::GlobalNamespace::__OVRPlugin__Step stepId, int32_t frameIndex,
                                                                              ByRef<::GlobalNamespace::__OVRPlugin__KeyboardState> keyboardState);
 
-  /// @brief Method ovrp_GetRenderModelPaths, addr 0x2a524f0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetRenderModelPaths, addr 0x2b4eda0, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetRenderModelPaths(uint32_t index, void* path);
 
-  /// @brief Method ovrp_GetRenderModelProperties, addr 0x2a52574, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetRenderModelProperties, addr 0x2b4ee24, size 0xf8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetRenderModelProperties(::StringW path, ByRef<::GlobalNamespace::__OVRPlugin__RenderModelPropertiesInternal> properties);
 
-  /// @brief Method ovrp_GetSystemKeyboardDescription, addr 0x2a527e4, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetSystemKeyboardDescription, addr 0x2b4f094, size 0xf4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetSystemKeyboardDescription(::GlobalNamespace::__OVRPlugin__TrackedKeyboardQueryFlags keyboardQueryFlags,
                                                                                          ByRef<::GlobalNamespace::__OVRPlugin__KeyboardDescription> keyboardDescription);
 
-  /// @brief Method ovrp_LoadRenderModel, addr 0x2a52454, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_LoadRenderModel, addr 0x2b4ed04, size 0x9c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_LoadRenderModel(uint64_t modelKey, uint32_t bufferInputCapacity, ByRef<uint32_t> bufferCountOutput, void* buffer);
 
-  /// @brief Method ovrp_SetInsightPassthroughKeyboardHandsIntensity, addr 0x2a5266c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ovrp_SetInsightPassthroughKeyboardHandsIntensity, addr 0x2b4ef1c, size 0x94, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_SetInsightPassthroughKeyboardHandsIntensity(int32_t layerId,
                                                                                                         ::GlobalNamespace::__OVRPlugin__InsightPassthroughKeyboardHandsIntensity intensity);
 
-  /// @brief Method ovrp_StartKeyboardTracking, addr 0x2a52700, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_StartKeyboardTracking, addr 0x2b4efb0, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_StartKeyboardTracking(uint64_t trackedKeyboardId);
 
-  /// @brief Method ovrp_StopKeyboardTracking, addr 0x2a5277c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ovrp_StopKeyboardTracking, addr 0x2b4f02c, size 0x68, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_StopKeyboardTracking();
 
   static inline void setStaticF_version(::System::Version* value);
@@ -18451,7 +18451,7 @@ public:
 
   static inline ::System::Version* getStaticF_version();
 
-  /// @brief Method ovrp_GetNodePoseStateImmediate, addr 0x2a529f0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetNodePoseStateImmediate, addr 0x2b4f2a0, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetNodePoseStateImmediate(::GlobalNamespace::__OVRPlugin__Node nodeId, ByRef<::GlobalNamespace::__OVRPlugin__PoseStatef> nodePoseState);
 
   static inline void setStaticF_version(::System::Version* value);
@@ -18489,7 +18489,7 @@ public:
 
   static inline ::System::Version* getStaticF_version();
 
-  /// @brief Method ovrp_SetLogCallback2, addr 0x2a52af8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ovrp_SetLogCallback2, addr 0x2b4f3a8, size 0x80, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_SetLogCallback2(::GlobalNamespace::__OVRPlugin__LogCallback2DelegateType* logCallback);
 
   static inline void setStaticF_version(::System::Version* value);
@@ -18527,52 +18527,52 @@ public:
 
   static inline ::System::Version* getStaticF_version();
 
-  /// @brief Method ovrp_GetSuggestedCpuPerformanceLevel, addr 0x2a52cf4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetSuggestedCpuPerformanceLevel, addr 0x2b4f5a4, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetSuggestedCpuPerformanceLevel(ByRef<::GlobalNamespace::__OVRPlugin__ProcessorPerformanceLevel> perfLevel);
 
-  /// @brief Method ovrp_GetSuggestedGpuPerformanceLevel, addr 0x2a52dec, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetSuggestedGpuPerformanceLevel, addr 0x2b4f69c, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetSuggestedGpuPerformanceLevel(ByRef<::GlobalNamespace::__OVRPlugin__ProcessorPerformanceLevel> perfLevel);
 
-  /// @brief Method ovrp_IsInsightPassthroughSupported, addr 0x2a52bfc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_IsInsightPassthroughSupported, addr 0x2b4f4ac, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_IsInsightPassthroughSupported(ByRef<::GlobalNamespace::__OVRPlugin__Bool> supported);
 
-  /// @brief Method ovrp_SetSuggestedCpuPerformanceLevel, addr 0x2a52c78, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_SetSuggestedCpuPerformanceLevel, addr 0x2b4f528, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_SetSuggestedCpuPerformanceLevel(::GlobalNamespace::__OVRPlugin__ProcessorPerformanceLevel perfLevel);
 
-  /// @brief Method ovrp_SetSuggestedGpuPerformanceLevel, addr 0x2a52d70, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_SetSuggestedGpuPerformanceLevel, addr 0x2b4f620, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_SetSuggestedGpuPerformanceLevel(::GlobalNamespace::__OVRPlugin__ProcessorPerformanceLevel perfLevel);
 
-  /// @brief Method ovrp_UnityOpenXR_HookGetInstanceProcAddr, addr 0x2a48714, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_UnityOpenXR_HookGetInstanceProcAddr, addr 0x2b44fc4, size 0x7c, virtual false, abstract: false, final false
   static inline void* ovrp_UnityOpenXR_HookGetInstanceProcAddr(void* func);
 
-  /// @brief Method ovrp_UnityOpenXR_OnAppSpaceChange, addr 0x2a48c0c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_UnityOpenXR_OnAppSpaceChange, addr 0x2b454bc, size 0x7c, virtual false, abstract: false, final false
   static inline void ovrp_UnityOpenXR_OnAppSpaceChange(uint64_t xrSpace);
 
-  /// @brief Method ovrp_UnityOpenXR_OnInstanceCreate, addr 0x2a48858, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_UnityOpenXR_OnInstanceCreate, addr 0x2b45108, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_UnityOpenXR_OnInstanceCreate(uint64_t xrInstance);
 
-  /// @brief Method ovrp_UnityOpenXR_OnInstanceDestroy, addr 0x2a48994, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_UnityOpenXR_OnInstanceDestroy, addr 0x2b45244, size 0x7c, virtual false, abstract: false, final false
   static inline void ovrp_UnityOpenXR_OnInstanceDestroy(uint64_t xrInstance);
 
-  /// @brief Method ovrp_UnityOpenXR_OnSessionBegin, addr 0x2a48ea0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_UnityOpenXR_OnSessionBegin, addr 0x2b45750, size 0x7c, virtual false, abstract: false, final false
   static inline void ovrp_UnityOpenXR_OnSessionBegin(uint64_t xrSession);
 
-  /// @brief Method ovrp_UnityOpenXR_OnSessionCreate, addr 0x2a48ad0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_UnityOpenXR_OnSessionCreate, addr 0x2b45380, size 0x7c, virtual false, abstract: false, final false
   static inline void ovrp_UnityOpenXR_OnSessionCreate(uint64_t xrSession);
 
-  /// @brief Method ovrp_UnityOpenXR_OnSessionDestroy, addr 0x2a49254, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_UnityOpenXR_OnSessionDestroy, addr 0x2b45b04, size 0x7c, virtual false, abstract: false, final false
   static inline void ovrp_UnityOpenXR_OnSessionDestroy(uint64_t xrSession);
 
-  /// @brief Method ovrp_UnityOpenXR_OnSessionEnd, addr 0x2a48fdc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_UnityOpenXR_OnSessionEnd, addr 0x2b4588c, size 0x7c, virtual false, abstract: false, final false
   static inline void ovrp_UnityOpenXR_OnSessionEnd(uint64_t xrSession);
 
-  /// @brief Method ovrp_UnityOpenXR_OnSessionExiting, addr 0x2a49118, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_UnityOpenXR_OnSessionExiting, addr 0x2b459c8, size 0x7c, virtual false, abstract: false, final false
   static inline void ovrp_UnityOpenXR_OnSessionExiting(uint64_t xrSession);
 
-  /// @brief Method ovrp_UnityOpenXR_OnSessionStateChange, addr 0x2a48d5c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_UnityOpenXR_OnSessionStateChange, addr 0x2b4560c, size 0x84, virtual false, abstract: false, final false
   static inline void ovrp_UnityOpenXR_OnSessionStateChange(int32_t oldState, int32_t newState);
 
-  /// @brief Method ovrp_UnityOpenXR_SetClientVersion, addr 0x2a485bc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ovrp_UnityOpenXR_SetClientVersion, addr 0x2b44e6c, size 0x94, virtual false, abstract: false, final false
   static inline void ovrp_UnityOpenXR_SetClientVersion(int32_t majorVersion, int32_t minorVersion, int32_t patchVersion);
 
   static inline void setStaticF_version(::System::Version* value);
@@ -18610,53 +18610,53 @@ public:
 
   static inline ::System::Version* getStaticF_version();
 
-  /// @brief Method ovrp_CreateSpatialAnchor, addr 0x2a52eec, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_CreateSpatialAnchor, addr 0x2b4f79c, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_CreateSpatialAnchor(ByRef<::GlobalNamespace::__OVRPlugin__SpatialAnchorCreateInfo> createInfo, ByRef<uint64_t> requestId);
 
-  /// @brief Method ovrp_EnumerateSpaceSupportedComponents, addr 0x2a530b4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method ovrp_EnumerateSpaceSupportedComponents, addr 0x2b4f964, size 0xa4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result
   ovrp_EnumerateSpaceSupportedComponents(ByRef<uint64_t> space, uint32_t componentTypesCapacityInput, ByRef<uint32_t> componentTypesCountOutput,
                                          ByRef<::ArrayW<::GlobalNamespace::__OVRPlugin__SpaceComponentType, ::Array<::GlobalNamespace::__OVRPlugin__SpaceComponentType>*>> componentTypes);
 
-  /// @brief Method ovrp_EraseSpace, addr 0x2a5336c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ovrp_EraseSpace, addr 0x2b4fc1c, size 0x94, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_EraseSpace(ByRef<uint64_t> space, ::GlobalNamespace::__OVRPlugin__SpaceStorageLocation location, ByRef<uint64_t> requestId);
 
-  /// @brief Method ovrp_GetSpaceBoundary2D, addr 0x2a53694, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetSpaceBoundary2D, addr 0x2b4ff44, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetSpaceBoundary2D(ByRef<uint64_t> space, ByRef<::GlobalNamespace::__OVRPlugin__PolygonalBoundary2DInternal> boundaryInternal);
 
-  /// @brief Method ovrp_GetSpaceBoundingBox2D, addr 0x2a53484, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetSpaceBoundingBox2D, addr 0x2b4fd34, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetSpaceBoundingBox2D(ByRef<uint64_t> space, ByRef<::GlobalNamespace::__OVRPlugin__Rectf> rect);
 
-  /// @brief Method ovrp_GetSpaceBoundingBox3D, addr 0x2a53508, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetSpaceBoundingBox3D, addr 0x2b4fdb8, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetSpaceBoundingBox3D(ByRef<uint64_t> space, ByRef<::GlobalNamespace::__OVRPlugin__Boundsf> bounds);
 
-  /// @brief Method ovrp_GetSpaceComponentStatus, addr 0x2a5301c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetSpaceComponentStatus, addr 0x2b4f8cc, size 0x98, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetSpaceComponentStatus(ByRef<uint64_t> space, ::GlobalNamespace::__OVRPlugin__SpaceComponentType componentType,
                                                                                     ByRef<::GlobalNamespace::__OVRPlugin__Bool> enabled, ByRef<::GlobalNamespace::__OVRPlugin__Bool> changePending);
 
-  /// @brief Method ovrp_GetSpaceContainer, addr 0x2a53400, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetSpaceContainer, addr 0x2b4fcb0, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetSpaceContainer(ByRef<uint64_t> space, ByRef<::GlobalNamespace::__OVRPlugin__SpaceContainerInternal> containerInternal);
 
-  /// @brief Method ovrp_GetSpaceRoomLayout, addr 0x2a53610, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetSpaceRoomLayout, addr 0x2b4fec0, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetSpaceRoomLayout(ByRef<uint64_t> space, ByRef<::GlobalNamespace::__OVRPlugin__RoomLayoutInternal> roomLayoutInternal);
 
-  /// @brief Method ovrp_GetSpaceSemanticLabels, addr 0x2a5358c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetSpaceSemanticLabels, addr 0x2b4fe3c, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetSpaceSemanticLabels(ByRef<uint64_t> space, ByRef<::GlobalNamespace::__OVRPlugin__SpaceSemanticLabelInternal> labelsInternal);
 
-  /// @brief Method ovrp_QuerySpaces, addr 0x2a531f4, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method ovrp_QuerySpaces, addr 0x2b4faa4, size 0xdc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_QuerySpaces(ByRef<::GlobalNamespace::__OVRPlugin__SpaceQueryInfo> queryInfo, ByRef<uint64_t> requestId);
 
-  /// @brief Method ovrp_RequestSceneCapture, addr 0x2a53718, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method ovrp_RequestSceneCapture, addr 0x2b4ffc8, size 0xdc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_RequestSceneCapture(ByRef<::GlobalNamespace::__OVRPlugin__SceneCaptureRequestInternal> request, ByRef<uint64_t> requestId);
 
-  /// @brief Method ovrp_RetrieveSpaceQueryResults, addr 0x2a532d0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_RetrieveSpaceQueryResults, addr 0x2b4fb80, size 0x9c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_RetrieveSpaceQueryResults(ByRef<uint64_t> requestId, uint32_t resultCapacityInput, ByRef<uint32_t> resultCountOutput, void* results);
 
-  /// @brief Method ovrp_SaveSpace, addr 0x2a53158, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_SaveSpace, addr 0x2b4fa08, size 0x9c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_SaveSpace(ByRef<uint64_t> space, ::GlobalNamespace::__OVRPlugin__SpaceStorageLocation location,
                                                                       ::GlobalNamespace::__OVRPlugin__SpaceStoragePersistenceMode mode, ByRef<uint64_t> requestId);
 
-  /// @brief Method ovrp_SetSpaceComponentStatus, addr 0x2a52f70, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ovrp_SetSpaceComponentStatus, addr 0x2b4f820, size 0xac, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_SetSpaceComponentStatus(ByRef<uint64_t> space, ::GlobalNamespace::__OVRPlugin__SpaceComponentType componentType,
                                                                                     ::GlobalNamespace::__OVRPlugin__Bool enable, double_t timeout, ByRef<uint64_t> requestId);
 
@@ -18730,33 +18730,33 @@ public:
 
   static inline ::System::Version* getStaticF_version();
 
-  /// @brief Method ovrp_ChangeVirtualKeyboardTextContext, addr 0x2a53ae8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ovrp_ChangeVirtualKeyboardTextContext, addr 0x2b50398, size 0x94, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_ChangeVirtualKeyboardTextContext(::StringW textContext);
 
-  /// @brief Method ovrp_CreateVirtualKeyboard, addr 0x2a53980, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_CreateVirtualKeyboard, addr 0x2b50230, size 0x6c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_CreateVirtualKeyboard(::GlobalNamespace::__OVRPlugin__VirtualKeyboardCreateInfo createInfo);
 
-  /// @brief Method ovrp_CreateVirtualKeyboardSpace, addr 0x2a53b7c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_CreateVirtualKeyboardSpace, addr 0x2b5042c, size 0x8c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_CreateVirtualKeyboardSpace(::GlobalNamespace::__OVRPlugin__VirtualKeyboardSpaceCreateInfo createInfo, ByRef<uint64_t> keyboardSpace);
 
-  /// @brief Method ovrp_DestroyVirtualKeyboard, addr 0x2a539ec, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ovrp_DestroyVirtualKeyboard, addr 0x2b5029c, size 0x68, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_DestroyVirtualKeyboard();
 
-  /// @brief Method ovrp_GetRenderModelProperties2, addr 0x2a53d10, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetRenderModelProperties2, addr 0x2b505c0, size 0x100, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetRenderModelProperties2(::StringW path, ::GlobalNamespace::__OVRPlugin__RenderModelFlags flags,
                                                                                       ByRef<::GlobalNamespace::__OVRPlugin__RenderModelPropertiesInternal> properties);
 
-  /// @brief Method ovrp_GetSpaceUuid, addr 0x2a538fc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetSpaceUuid, addr 0x2b501ac, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetSpaceUuid(ByRef<uint64_t> space, ByRef<::System::Guid> uuid);
 
-  /// @brief Method ovrp_GetVirtualKeyboardScale, addr 0x2a53c94, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetVirtualKeyboardScale, addr 0x2b50544, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetVirtualKeyboardScale(ByRef<float_t> location);
 
-  /// @brief Method ovrp_SendVirtualKeyboardInput, addr 0x2a53a54, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ovrp_SendVirtualKeyboardInput, addr 0x2b50304, size 0x94, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_SendVirtualKeyboardInput(::GlobalNamespace::__OVRPlugin__VirtualKeyboardInputInfo inputInfo,
                                                                                      ByRef<::GlobalNamespace::__OVRPlugin__Posef> interactorRootPose);
 
-  /// @brief Method ovrp_SuggestVirtualKeyboardLocation, addr 0x2a53c08, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_SuggestVirtualKeyboardLocation, addr 0x2b504b8, size 0x8c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_SuggestVirtualKeyboardLocation(::GlobalNamespace::__OVRPlugin__VirtualKeyboardLocationInfo locationInfo);
 
   static inline void setStaticF_version(::System::Version* value);
@@ -18829,7 +18829,7 @@ public:
 
   static inline ::System::Version* getStaticF_version();
 
-  /// @brief Method ovrp_GetNodePoseStateAtTime, addr 0x2a53f18, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetNodePoseStateAtTime, addr 0x2b507c8, size 0x94, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetNodePoseStateAtTime(double_t time, ::GlobalNamespace::__OVRPlugin__Node nodeId,
                                                                                    ByRef<::GlobalNamespace::__OVRPlugin__PoseStatef> nodePoseState);
 
@@ -18868,95 +18868,95 @@ public:
 
   static inline ::System::Version* getStaticF_version();
 
-  /// @brief Method ovrp_GetBodyState, addr 0x2a54680, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetBodyState, addr 0x2b50f30, size 0x94, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetBodyState(::GlobalNamespace::__OVRPlugin__Step stepId, int32_t frameIndex,
                                                                          ByRef<::GlobalNamespace::__OVRPlugin__BodyStateInternal> bodyState);
 
-  /// @brief Method ovrp_GetBodyTrackingEnabled, addr 0x2a54588, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetBodyTrackingEnabled, addr 0x2b50e38, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetBodyTrackingEnabled(ByRef<::GlobalNamespace::__OVRPlugin__Bool> value);
 
-  /// @brief Method ovrp_GetBodyTrackingSupported, addr 0x2a54604, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetBodyTrackingSupported, addr 0x2b50eb4, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetBodyTrackingSupported(ByRef<::GlobalNamespace::__OVRPlugin__Bool> value);
 
-  /// @brief Method ovrp_GetControllerSampleRateHz, addr 0x2a54d6c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetControllerSampleRateHz, addr 0x2b5161c, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetControllerSampleRateHz(::GlobalNamespace::__OVRPlugin__Controller controller, ByRef<float_t> sampleRateHz);
 
-  /// @brief Method ovrp_GetControllerState5, addr 0x2a54934, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetControllerState5, addr 0x2b511e4, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetControllerState5(uint32_t controllerMask, ByRef<::GlobalNamespace::__OVRPlugin__ControllerState5> controllerState);
 
-  /// @brief Method ovrp_GetCurrentInteractionProfile, addr 0x2a54bc8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetCurrentInteractionProfile, addr 0x2b51478, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetCurrentInteractionProfile(::GlobalNamespace::__OVRPlugin__Hand hand,
                                                                                          ByRef<::GlobalNamespace::__OVRPlugin__InteractionProfile> interactionProfile);
 
-  /// @brief Method ovrp_GetEyeGazesState, addr 0x2a548a0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetEyeGazesState, addr 0x2b51150, size 0x94, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetEyeGazesState(::GlobalNamespace::__OVRPlugin__Step stepId, int32_t frameIndex,
                                                                              ByRef<::GlobalNamespace::__OVRPlugin__EyeGazesStateInternal> eyeGazesState);
 
-  /// @brief Method ovrp_GetEyeTrackingEnabled, addr 0x2a54824, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetEyeTrackingEnabled, addr 0x2b510d4, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetEyeTrackingEnabled(ByRef<::GlobalNamespace::__OVRPlugin__Bool> eyeTrackingEnabled);
 
-  /// @brief Method ovrp_GetEyeTrackingSupported, addr 0x2a54490, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetEyeTrackingSupported, addr 0x2b50d40, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetEyeTrackingSupported(ByRef<::GlobalNamespace::__OVRPlugin__Bool> eyeTrackingSupported);
 
-  /// @brief Method ovrp_GetFaceState, addr 0x2a54790, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetFaceState, addr 0x2b51040, size 0x94, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetFaceState(::GlobalNamespace::__OVRPlugin__Step stepId, int32_t frameIndex,
                                                                          ByRef<::GlobalNamespace::__OVRPlugin__FaceStateInternal> faceState);
 
-  /// @brief Method ovrp_GetFaceTrackingEnabled, addr 0x2a54714, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetFaceTrackingEnabled, addr 0x2b50fc4, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetFaceTrackingEnabled(ByRef<::GlobalNamespace::__OVRPlugin__Bool> faceTrackingEnabled);
 
-  /// @brief Method ovrp_GetFaceTrackingSupported, addr 0x2a5450c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetFaceTrackingSupported, addr 0x2b50dbc, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetFaceTrackingSupported(ByRef<::GlobalNamespace::__OVRPlugin__Bool> faceTrackingSupported);
 
-  /// @brief Method ovrp_GetFoveationEyeTracked, addr 0x2a54128, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetFoveationEyeTracked, addr 0x2b509d8, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetFoveationEyeTracked(ByRef<::GlobalNamespace::__OVRPlugin__Bool> isEyeTrackedFoveation);
 
-  /// @brief Method ovrp_GetFoveationEyeTrackedSupported, addr 0x2a540ac, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetFoveationEyeTrackedSupported, addr 0x2b5095c, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetFoveationEyeTrackedSupported(ByRef<::GlobalNamespace::__OVRPlugin__Bool> foveationSupported);
 
-  /// @brief Method ovrp_GetLocalDimming, addr 0x2a54b4c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetLocalDimming, addr 0x2b513fc, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetLocalDimming(ByRef<::GlobalNamespace::__OVRPlugin__Bool> localDimmingMode);
 
-  /// @brief Method ovrp_GetLocalDimmingSupported, addr 0x2a54a54, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetLocalDimmingSupported, addr 0x2b51304, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetLocalDimmingSupported(ByRef<::GlobalNamespace::__OVRPlugin__Bool> localDimmingSupported);
 
-  /// @brief Method ovrp_GetPassthroughCapabilityFlags, addr 0x2a54030, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetPassthroughCapabilityFlags, addr 0x2b508e0, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetPassthroughCapabilityFlags(ByRef<::GlobalNamespace::__OVRPlugin__PassthroughCapabilityFlags> capabilityFlags);
 
-  /// @brief Method ovrp_SetControllerHapticsAmplitudeEnvelope, addr 0x2a54c4c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ovrp_SetControllerHapticsAmplitudeEnvelope, addr 0x2b514fc, size 0x94, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_SetControllerHapticsAmplitudeEnvelope(::GlobalNamespace::__OVRPlugin__Controller controllerMask,
                                                                                                   ::GlobalNamespace::__OVRPlugin__HapticsAmplitudeEnvelopeVibration hapticsVibration);
 
-  /// @brief Method ovrp_SetControllerHapticsPcm, addr 0x2a54ce0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_SetControllerHapticsPcm, addr 0x2b51590, size 0x8c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_SetControllerHapticsPcm(::GlobalNamespace::__OVRPlugin__Controller controllerMask,
                                                                                     ::GlobalNamespace::__OVRPlugin__HapticsPcmVibration hapticsVibration);
 
-  /// @brief Method ovrp_SetControllerLocalizedVibration, addr 0x2a549b8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_SetControllerLocalizedVibration, addr 0x2b51268, size 0x9c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_SetControllerLocalizedVibration(::GlobalNamespace::__OVRPlugin__Controller controllerMask,
                                                                                             ::GlobalNamespace::__OVRPlugin__HapticsLocation hapticsLocationMask, float_t frequency, float_t amplitude);
 
-  /// @brief Method ovrp_SetFoveationEyeTracked, addr 0x2a541a4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_SetFoveationEyeTracked, addr 0x2b50a54, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_SetFoveationEyeTracked(::GlobalNamespace::__OVRPlugin__Bool isEyeTrackedFoveation);
 
-  /// @brief Method ovrp_SetLocalDimming, addr 0x2a54ad0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_SetLocalDimming, addr 0x2b51380, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_SetLocalDimming(::GlobalNamespace::__OVRPlugin__Bool localDimmingMode);
 
-  /// @brief Method ovrp_StartBodyTracking, addr 0x2a542f0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ovrp_StartBodyTracking, addr 0x2b50ba0, size 0x68, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_StartBodyTracking();
 
-  /// @brief Method ovrp_StartEyeTracking, addr 0x2a543c0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ovrp_StartEyeTracking, addr 0x2b50c70, size 0x68, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_StartEyeTracking();
 
-  /// @brief Method ovrp_StartFaceTracking, addr 0x2a54220, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ovrp_StartFaceTracking, addr 0x2b50ad0, size 0x68, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_StartFaceTracking();
 
-  /// @brief Method ovrp_StopBodyTracking, addr 0x2a54358, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ovrp_StopBodyTracking, addr 0x2b50c08, size 0x68, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_StopBodyTracking();
 
-  /// @brief Method ovrp_StopEyeTracking, addr 0x2a54428, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ovrp_StopEyeTracking, addr 0x2b50cd8, size 0x68, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_StopEyeTracking();
 
-  /// @brief Method ovrp_StopFaceTracking, addr 0x2a54288, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ovrp_StopFaceTracking, addr 0x2b50b38, size 0x68, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_StopFaceTracking();
 
   static inline void setStaticF_version(::System::Version* value);
@@ -18994,45 +18994,45 @@ public:
 
   static inline ::System::Version* getStaticF_version();
 
-  /// @brief Method ovrp_CreateSpaceUser, addr 0x2a55040, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_CreateSpaceUser, addr 0x2b518f0, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_CreateSpaceUser(ByRef<uint64_t> spaceUserId, ByRef<uint64_t> spaceUserHandle);
 
-  /// @brief Method ovrp_DeclareUser, addr 0x2a551d4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ovrp_DeclareUser, addr 0x2b51a84, size 0x80, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_DeclareUser(ByRef<uint64_t> userId, ByRef<uint64_t> userHandle);
 
-  /// @brief Method ovrp_DestroySpaceUser, addr 0x2a550c4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_DestroySpaceUser, addr 0x2b51974, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_DestroySpaceUser(ByRef<uint64_t> userHandle);
 
-  /// @brief Method ovrp_GetSpaceUserId, addr 0x2a54fbc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetSpaceUserId, addr 0x2b5186c, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetSpaceUserId(ByRef<uint64_t> spaceUserHandle, ByRef<uint64_t> spaceUserId);
 
-  /// @brief Method ovrp_LocateSpace2, addr 0x2a55140, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ovrp_LocateSpace2, addr 0x2b519f0, size 0x94, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_LocateSpace2(ByRef<::GlobalNamespace::__OVRPlugin__SpaceLocationf> location, ByRef<uint64_t> space,
                                                                          ::GlobalNamespace::__OVRPlugin__TrackingOrigin trackingOrigin);
 
-  /// @brief Method ovrp_QplCreateMarkerHandle, addr 0x2a499f4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_QplCreateMarkerHandle, addr 0x2b462a4, size 0x9c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_QplCreateMarkerHandle(::StringW name, ByRef<int32_t> nameHandle);
 
-  /// @brief Method ovrp_QplDestroyMarkerHandle, addr 0x2a49b58, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_QplDestroyMarkerHandle, addr 0x2b46408, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_QplDestroyMarkerHandle(int32_t nameHandle);
 
-  /// @brief Method ovrp_QplMarkerAnnotation, addr 0x2a49850, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method ovrp_QplMarkerAnnotation, addr 0x2b46100, size 0xc8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_QplMarkerAnnotation(int32_t markerId, ::StringW annotationKey, ::StringW annotationValue, int32_t instanceKey);
 
-  /// @brief Method ovrp_QplMarkerEnd, addr 0x2a49538, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_QplMarkerEnd, addr 0x2b45de8, size 0x9c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_QplMarkerEnd(int32_t markerId, ::GlobalNamespace::__OVRPlugin__Qpl__ResultType resultTypeId, int32_t instanceKey, int64_t timestampMs);
 
-  /// @brief Method ovrp_QplMarkerPointCached, addr 0x2a496c4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_QplMarkerPointCached, addr 0x2b45f74, size 0x9c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_QplMarkerPointCached(int32_t markerId, int32_t nameHandle, int32_t instanceKey, int64_t timestampMs);
 
-  /// @brief Method ovrp_QplMarkerStart, addr 0x2a493b4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ovrp_QplMarkerStart, addr 0x2b45c64, size 0x94, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_QplMarkerStart(int32_t markerId, int32_t instanceKey, int64_t timestampMs);
 
-  /// @brief Method ovrp_SaveSpaceList, addr 0x2a54f20, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_SaveSpaceList, addr 0x2b517d0, size 0x9c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_SaveSpaceList(::cordl_internals::Ptr<uint64_t> spaces, uint32_t numSpaces, ::GlobalNamespace::__OVRPlugin__SpaceStorageLocation location,
                                                                           ByRef<uint64_t> requestId);
 
-  /// @brief Method ovrp_ShareSpaces, addr 0x2a54e74, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ovrp_ShareSpaces, addr 0x2b51724, size 0xac, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_ShareSpaces(::cordl_internals::Ptr<uint64_t> spaces, uint32_t numSpaces, ::cordl_internals::Ptr<uint64_t> userHandles, uint32_t numUsers,
                                                                         ByRef<uint64_t> requestId);
 
@@ -19106,7 +19106,7 @@ public:
 
   static inline ::System::Version* getStaticF_version();
 
-  /// @brief Method ovrp_GetSpaceTriangleMesh, addr 0x2a5535c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetSpaceTriangleMesh, addr 0x2b51c0c, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetSpaceTriangleMesh(ByRef<uint64_t> space, ByRef<::GlobalNamespace::__OVRPlugin__TriangleMeshInternal> triangleMeshInternal);
 
   static inline void setStaticF_version(::System::Version* value);
@@ -19144,19 +19144,19 @@ public:
 
   static inline ::System::Version* getStaticF_version();
 
-  /// @brief Method ovrp_GetControllerState6, addr 0x2a55464, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetControllerState6, addr 0x2b51d14, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetControllerState6(uint32_t controllerMask, ByRef<::GlobalNamespace::__OVRPlugin__ControllerState6> controllerState);
 
-  /// @brief Method ovrp_GetVirtualKeyboardDirtyTextures, addr 0x2a55564, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetVirtualKeyboardDirtyTextures, addr 0x2b51e14, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetVirtualKeyboardDirtyTextures(ByRef<::GlobalNamespace::__OVRPlugin__VirtualKeyboardTextureIdsInternal> textureIds);
 
-  /// @brief Method ovrp_GetVirtualKeyboardModelAnimationStates, addr 0x2a554e8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetVirtualKeyboardModelAnimationStates, addr 0x2b51d98, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetVirtualKeyboardModelAnimationStates(ByRef<::GlobalNamespace::__OVRPlugin__VirtualKeyboardModelAnimationStatesInternal> animationStates);
 
-  /// @brief Method ovrp_GetVirtualKeyboardTextureData, addr 0x2a555e0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetVirtualKeyboardTextureData, addr 0x2b51e90, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetVirtualKeyboardTextureData(uint64_t textureId, ByRef<::GlobalNamespace::__OVRPlugin__VirtualKeyboardTextureData> textureData);
 
-  /// @brief Method ovrp_SetVirtualKeyboardModelVisibility, addr 0x2a55664, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_SetVirtualKeyboardModelVisibility, addr 0x2b51f14, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_SetVirtualKeyboardModelVisibility(ByRef<::GlobalNamespace::__OVRPlugin__VirtualKeyboardModelVisibility> visibility);
 
   static inline void setStaticF_version(::System::Version* value);
@@ -19194,23 +19194,23 @@ public:
 
   static inline ::System::Version* getStaticF_version();
 
-  /// @brief Method ovrp_CreatePassthroughColorLut, addr 0x2a55764, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ovrp_CreatePassthroughColorLut, addr 0x2b52014, size 0xac, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_CreatePassthroughColorLut(::GlobalNamespace::__OVRPlugin__PassthroughColorLutChannels channels, uint32_t resolution,
                                                                                       ::GlobalNamespace::__OVRPlugin__PassthroughColorLutData data, ByRef<uint64_t> colorLut);
 
-  /// @brief Method ovrp_DestroyPassthroughColorLut, addr 0x2a55810, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_DestroyPassthroughColorLut, addr 0x2b520c0, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_DestroyPassthroughColorLut(uint64_t colorLut);
 
-  /// @brief Method ovrp_GetEyeLayerRecommendedResolution, addr 0x2a55a28, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetEyeLayerRecommendedResolution, addr 0x2b522d8, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetEyeLayerRecommendedResolution(ByRef<::GlobalNamespace::__OVRPlugin__Sizei> recommendedDimensions);
 
-  /// @brief Method ovrp_GetLayerRecommendedResolution, addr 0x2a559a4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetLayerRecommendedResolution, addr 0x2b52254, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetLayerRecommendedResolution(int32_t layerId, ByRef<::GlobalNamespace::__OVRPlugin__Sizei> recommendedDimensions);
 
-  /// @brief Method ovrp_SetInsightPassthroughStyle2, addr 0x2a55920, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_SetInsightPassthroughStyle2, addr 0x2b521d0, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_SetInsightPassthroughStyle2(int32_t layerId, ByRef<::GlobalNamespace::__OVRPlugin__InsightPassthroughStyle2> style);
 
-  /// @brief Method ovrp_UpdatePassthroughColorLut, addr 0x2a5588c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ovrp_UpdatePassthroughColorLut, addr 0x2b5213c, size 0x94, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_UpdatePassthroughColorLut(uint64_t colorLut, ::GlobalNamespace::__OVRPlugin__PassthroughColorLutData data);
 
   static inline void setStaticF_version(::System::Version* value);
@@ -19248,10 +19248,10 @@ public:
 
   static inline ::System::Version* getStaticF_version();
 
-  /// @brief Method ovrp_GetPassthroughCapabilities, addr 0x2a55b90, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetPassthroughCapabilities, addr 0x2b52440, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetPassthroughCapabilities(ByRef<::GlobalNamespace::__OVRPlugin__PassthroughCapabilities> capabilityFlags);
 
-  /// @brief Method ovrp_OnEditorShutdown, addr 0x2a55b28, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ovrp_OnEditorShutdown, addr 0x2b523d8, size 0x68, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_OnEditorShutdown();
 
   static inline void setStaticF_version(::System::Version* value);
@@ -19289,28 +19289,28 @@ public:
 
   static inline ::System::Version* getStaticF_version();
 
-  /// @brief Method ovrp_AreHandPosesGeneratedByControllerData, addr 0x2a55d88, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ovrp_AreHandPosesGeneratedByControllerData, addr 0x2b52638, size 0x94, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_AreHandPosesGeneratedByControllerData(::GlobalNamespace::__OVRPlugin__Step stepId, ::GlobalNamespace::__OVRPlugin__Node nodeId,
                                                                                                   ByRef<::GlobalNamespace::__OVRPlugin__Bool> isGeneratedByControllerData);
 
-  /// @brief Method ovrp_GetControllerIsInHand, addr 0x2a55f98, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetControllerIsInHand, addr 0x2b52848, size 0x94, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetControllerIsInHand(::GlobalNamespace::__OVRPlugin__Step stepId, ::GlobalNamespace::__OVRPlugin__Node nodeId,
                                                                                   ByRef<::GlobalNamespace::__OVRPlugin__Bool> isInHand);
 
-  /// @brief Method ovrp_GetCurrentDetachedInteractionProfile, addr 0x2a55f14, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetCurrentDetachedInteractionProfile, addr 0x2b527c4, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetCurrentDetachedInteractionProfile(::GlobalNamespace::__OVRPlugin__Hand hand,
                                                                                                  ByRef<::GlobalNamespace::__OVRPlugin__InteractionProfile> interactionProfile);
 
-  /// @brief Method ovrp_IsControllerDrivenHandPosesEnabled, addr 0x2a55d0c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_IsControllerDrivenHandPosesEnabled, addr 0x2b525bc, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_IsControllerDrivenHandPosesEnabled(ByRef<::GlobalNamespace::__OVRPlugin__Bool> enabled);
 
-  /// @brief Method ovrp_IsMultimodalHandsControllersSupported, addr 0x2a55e98, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_IsMultimodalHandsControllersSupported, addr 0x2b52748, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_IsMultimodalHandsControllersSupported(ByRef<::GlobalNamespace::__OVRPlugin__Bool> supported);
 
-  /// @brief Method ovrp_SetControllerDrivenHandPoses, addr 0x2a55c90, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_SetControllerDrivenHandPoses, addr 0x2b52540, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_SetControllerDrivenHandPoses(::GlobalNamespace::__OVRPlugin__Bool controllerDrivenHandPoses);
 
-  /// @brief Method ovrp_SetMultimodalHandsControllersSupported, addr 0x2a55e1c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_SetMultimodalHandsControllersSupported, addr 0x2b526cc, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_SetMultimodalHandsControllersSupported(::GlobalNamespace::__OVRPlugin__Bool supported);
 
   static inline void setStaticF_version(::System::Version* value);
@@ -19348,16 +19348,16 @@ public:
 
   static inline ::System::Version* getStaticF_version();
 
-  /// @brief Method ovrp_AreControllerDrivenHandPosesNatural, addr 0x2a56224, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_AreControllerDrivenHandPosesNatural, addr 0x2b52ad4, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_AreControllerDrivenHandPosesNatural(ByRef<::GlobalNamespace::__OVRPlugin__Bool> natural);
 
-  /// @brief Method ovrp_GetPassthroughPreferences, addr 0x2a560b0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_GetPassthroughPreferences, addr 0x2b52960, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_GetPassthroughPreferences(ByRef<::GlobalNamespace::__OVRPlugin__PassthroughPreferences> preferences);
 
-  /// @brief Method ovrp_SetControllerDrivenHandPosesAreNatural, addr 0x2a561a8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_SetControllerDrivenHandPosesAreNatural, addr 0x2b52a58, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_SetControllerDrivenHandPosesAreNatural(::GlobalNamespace::__OVRPlugin__Bool controllerDrivenHandPosesAreNatural);
 
-  /// @brief Method ovrp_SetEyeBufferSharpenType, addr 0x2a5612c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_SetEyeBufferSharpenType, addr 0x2b529dc, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_SetEyeBufferSharpenType(::GlobalNamespace::__OVRPlugin__LayerSharpenType sharpenType);
 
   static inline void setStaticF_version(::System::Version* value);
@@ -19395,7 +19395,7 @@ public:
 
   static inline ::System::Version* getStaticF_version();
 
-  /// @brief Method ovrp_SetSimultaneousHandsAndControllersEnabled, addr 0x2a56324, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ovrp_SetSimultaneousHandsAndControllersEnabled, addr 0x2b52bd4, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ovrp_SetSimultaneousHandsAndControllersEnabled(::GlobalNamespace::__OVRPlugin__Bool enabled);
 
   static inline void setStaticF_version(::System::Version* value);
@@ -20009,660 +20009,660 @@ public:
   /// @brief Field wrapperVersion, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_wrapperVersion, put = setStaticF_wrapperVersion))::System::Version* wrapperVersion;
 
-  /// @brief Method AddCustomMetadata, addr 0x2a36bbc, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method AddCustomMetadata, addr 0x2b3346c, size 0xd8, virtual false, abstract: false, final false
   static inline bool AddCustomMetadata(::StringW name, ::StringW param);
 
-  /// @brief Method AddInsightPassthroughSurfaceGeometry, addr 0x2a27da0, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method AddInsightPassthroughSurfaceGeometry, addr 0x2b24650, size 0x124, virtual false, abstract: false, final false
   static inline bool AddInsightPassthroughSurfaceGeometry(int32_t layerId, uint64_t meshHandle, ::UnityEngine::Matrix4x4 T_world_model, ByRef<uint64_t> geometryInstanceHandle);
 
-  /// @brief Method AreControllerDrivenHandPosesNatural, addr 0x2a3290c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method AreControllerDrivenHandPosesNatural, addr 0x2b2f1bc, size 0xd4, virtual false, abstract: false, final false
   static inline bool AreControllerDrivenHandPosesNatural();
 
-  /// @brief Method AreHandPosesGeneratedByControllerData, addr 0x2a306d8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method AreHandPosesGeneratedByControllerData, addr 0x2b2cf88, size 0xf4, virtual false, abstract: false, final false
   static inline bool AreHandPosesGeneratedByControllerData(::GlobalNamespace::__OVRPlugin__Step stepId, ::GlobalNamespace::__OVRPlugin__Node nodeId);
 
-  /// @brief Method CalculateLayerDesc, addr 0x2a2efcc, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method CalculateLayerDesc, addr 0x2b2b87c, size 0x198, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__LayerDesc CalculateLayerDesc(::GlobalNamespace::__OVRPlugin__OverlayShape shape, ::GlobalNamespace::__OVRPlugin__LayerLayout layout,
                                                                              ::GlobalNamespace::__OVRPlugin__Sizei textureSize, int32_t mipLevels, int32_t sampleCount,
                                                                              ::GlobalNamespace::__OVRPlugin__EyeTextureFormat format, int32_t layerFlags);
 
-  /// @brief Method ChangeVirtualKeyboardTextContext, addr 0x2a3c448, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method ChangeVirtualKeyboardTextContext, addr 0x2b38cf8, size 0xc4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ChangeVirtualKeyboardTextContext(::StringW textContext);
 
-  /// @brief Method CreateInsightTriangleMesh, addr 0x2a27bf8, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method CreateInsightTriangleMesh, addr 0x2b244a8, size 0x1a8, virtual false, abstract: false, final false
   static inline bool CreateInsightTriangleMesh(int32_t layerId, ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> vertices, ::ArrayW<int32_t, ::Array<int32_t>*> triangles,
                                                ByRef<uint64_t> meshHandle);
 
-  /// @brief Method CreatePassthroughColorLut, addr 0x2a33e34, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method CreatePassthroughColorLut, addr 0x2b306e4, size 0x120, virtual false, abstract: false, final false
   static inline bool CreatePassthroughColorLut(::GlobalNamespace::__OVRPlugin__PassthroughColorLutChannels channels, uint32_t resolution, ::GlobalNamespace::__OVRPlugin__PassthroughColorLutData data,
                                                ByRef<uint64_t> colorLut);
 
-  /// @brief Method CreateSpaceUser, addr 0x2a3fab0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method CreateSpaceUser, addr 0x2b3c360, size 0xdc, virtual false, abstract: false, final false
   static inline bool CreateSpaceUser(uint64_t spaceUserId, ByRef<uint64_t> spaceUserHandle);
 
-  /// @brief Method CreateSpatialAnchor, addr 0x2a3e8a4, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method CreateSpatialAnchor, addr 0x2b3b154, size 0xdc, virtual false, abstract: false, final false
   static inline bool CreateSpatialAnchor(::GlobalNamespace::__OVRPlugin__SpatialAnchorCreateInfo createInfo, ByRef<uint64_t> requestId);
 
-  /// @brief Method CreateVirtualKeyboard, addr 0x2a3c1d8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method CreateVirtualKeyboard, addr 0x2b38a88, size 0xbc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result CreateVirtualKeyboard(::GlobalNamespace::__OVRPlugin__VirtualKeyboardCreateInfo createInfo);
 
-  /// @brief Method CreateVirtualKeyboardSpace, addr 0x2a3c50c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method CreateVirtualKeyboardSpace, addr 0x2b38dbc, size 0xec, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result CreateVirtualKeyboardSpace(::GlobalNamespace::__OVRPlugin__VirtualKeyboardSpaceCreateInfo createInfo, ByRef<uint64_t> keyboardSpace);
 
-  /// @brief Method DestroyInsightPassthroughGeometryInstance, addr 0x2a26300, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method DestroyInsightPassthroughGeometryInstance, addr 0x2b22bb0, size 0xc8, virtual false, abstract: false, final false
   static inline bool DestroyInsightPassthroughGeometryInstance(uint64_t geometryInstanceHandle);
 
-  /// @brief Method DestroyInsightTriangleMesh, addr 0x2a263c8, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method DestroyInsightTriangleMesh, addr 0x2b22c78, size 0xc8, virtual false, abstract: false, final false
   static inline bool DestroyInsightTriangleMesh(uint64_t meshHandle);
 
-  /// @brief Method DestroyPassthroughColorLut, addr 0x2a33f54, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method DestroyPassthroughColorLut, addr 0x2b30804, size 0xe8, virtual false, abstract: false, final false
   static inline bool DestroyPassthroughColorLut(uint64_t colorLut);
 
-  /// @brief Method DestroySpace, addr 0x2a401ac, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method DestroySpace, addr 0x2b3ca5c, size 0xc8, virtual false, abstract: false, final false
   static inline bool DestroySpace(uint64_t space);
 
-  /// @brief Method DestroySpaceUser, addr 0x2a3fb8c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method DestroySpaceUser, addr 0x2b3c43c, size 0xc8, virtual false, abstract: false, final false
   static inline bool DestroySpaceUser(uint64_t spaceUserHandle);
 
-  /// @brief Method DestroyVirtualKeyboard, addr 0x2a3c294, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method DestroyVirtualKeyboard, addr 0x2b38b44, size 0xbc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result DestroyVirtualKeyboard();
 
-  /// @brief Method EnqueueDestroyLayer, addr 0x2a2f36c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method EnqueueDestroyLayer, addr 0x2b2bc1c, size 0xe0, virtual false, abstract: false, final false
   static inline bool EnqueueDestroyLayer(void* layerID);
 
-  /// @brief Method EnqueueSetupLayer, addr 0x2a2f164, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method EnqueueSetupLayer, addr 0x2b2ba14, size 0x208, virtual false, abstract: false, final false
   static inline bool EnqueueSetupLayer(::GlobalNamespace::__OVRPlugin__LayerDesc desc, int32_t compositionDepth, void* layerID);
 
-  /// @brief Method EnqueueSubmitLayer, addr 0x2a2ea64, size 0x568, virtual false, abstract: false, final false
+  /// @brief Method EnqueueSubmitLayer, addr 0x2b2b314, size 0x568, virtual false, abstract: false, final false
   static inline bool EnqueueSubmitLayer(bool onTop, bool headLocked, bool noDepthBufferTesting, void* leftTexture, void* rightTexture, int32_t layerId, int32_t frameIndex,
                                         ::GlobalNamespace::__OVRPlugin__Posef pose, ::GlobalNamespace::__OVRPlugin__Vector3f scale, int32_t layerIndex,
                                         ::GlobalNamespace::__OVRPlugin__OverlayShape shape, bool overrideTextureRectMatrix, ::GlobalNamespace::__OVRPlugin__TextureRectMatrixf textureRectMatrix,
                                         bool overridePerLayerColorScaleAndOffset, ::UnityEngine::Vector4 colorScale, ::UnityEngine::Vector4 colorOffset, bool expensiveSuperSample, bool bicubic,
                                         bool efficientSuperSample, bool efficientSharpen, bool expensiveSharpen, bool hidden, bool secureContent, bool automaticFiltering);
 
-  /// @brief Method EnumerateSpaceSupportedComponents, addr 0x2a3ed00, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method EnumerateSpaceSupportedComponents, addr 0x2b3b5b0, size 0xf0, virtual false, abstract: false, final false
   static inline bool EnumerateSpaceSupportedComponents(uint64_t space, ByRef<uint32_t> numSupportedComponents,
                                                        ::ArrayW<::GlobalNamespace::__OVRPlugin__SpaceComponentType, ::Array<::GlobalNamespace::__OVRPlugin__SpaceComponentType>*> supportedComponents);
 
-  /// @brief Method EraseSpace, addr 0x2a3eee4, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method EraseSpace, addr 0x2b3b794, size 0x194, virtual false, abstract: false, final false
   static inline bool EraseSpace(uint64_t space, ::GlobalNamespace::__OVRPlugin__SpaceStorageLocation location, ByRef<uint64_t> requestId);
 
-  /// @brief Method GetActiveController, addr 0x2a347c0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetActiveController, addr 0x2b31070, size 0xbc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Controller GetActiveController();
 
-  /// @brief Method GetAdaptiveGPUPerformanceScale, addr 0x2a36d5c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetAdaptiveGPUPerformanceScale, addr 0x2b3360c, size 0xd8, virtual false, abstract: false, final false
   static inline float_t GetAdaptiveGPUPerformanceScale();
 
-  /// @brief Method GetAppCpuStartToGpuEndTime, addr 0x2a31c24, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetAppCpuStartToGpuEndTime, addr 0x2b2e4d4, size 0xbc, virtual false, abstract: false, final false
   static inline float_t GetAppCpuStartToGpuEndTime();
 
-  /// @brief Method GetAppFramerate, addr 0x2a32444, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetAppFramerate, addr 0x2b2ecf4, size 0xbc, virtual false, abstract: false, final false
   static inline float_t GetAppFramerate();
 
-  /// @brief Method GetAppPerfStats, addr 0x2a32168, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method GetAppPerfStats, addr 0x2b2ea18, size 0x178, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__AppPerfStats GetAppPerfStats();
 
-  /// @brief Method GetBodyState, addr 0x2a39a94, size 0x221c, virtual false, abstract: false, final false
+  /// @brief Method GetBodyState, addr 0x2b36344, size 0x221c, virtual false, abstract: false, final false
   static inline bool GetBodyState(::GlobalNamespace::__OVRPlugin__Step stepId, ByRef<::GlobalNamespace::__OVRPlugin__BodyState> bodyState);
 
-  /// @brief Method GetBoundaryConfigured, addr 0x2a31ce0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetBoundaryConfigured, addr 0x2b2e590, size 0xc0, virtual false, abstract: false, final false
   static inline bool GetBoundaryConfigured();
 
-  /// @brief Method GetBoundaryDimensions, addr 0x2a3449c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GetBoundaryDimensions, addr 0x2b30d4c, size 0xc4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Vector3f GetBoundaryDimensions(::GlobalNamespace::__OVRPlugin__BoundaryType boundaryType);
 
-  /// @brief Method GetBoundaryGeometry, addr 0x2a31f98, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetBoundaryGeometry, addr 0x2b2e848, size 0xec, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__BoundaryGeometry GetBoundaryGeometry(::GlobalNamespace::__OVRPlugin__BoundaryType boundaryType);
 
-  /// @brief Method GetBoundaryGeometry2, addr 0x2a32084, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method GetBoundaryGeometry2, addr 0x2b2e934, size 0xe4, virtual false, abstract: false, final false
   static inline bool GetBoundaryGeometry2(::GlobalNamespace::__OVRPlugin__BoundaryType boundaryType, void* points, ByRef<int32_t> pointsCount);
 
-  /// @brief Method GetBoundaryVisible, addr 0x2a34560, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetBoundaryVisible, addr 0x2b30e10, size 0xc0, virtual false, abstract: false, final false
   static inline bool GetBoundaryVisible();
 
-  /// @brief Method GetConnectedControllers, addr 0x2a3487c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetConnectedControllers, addr 0x2b3112c, size 0xbc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Controller GetConnectedControllers();
 
-  /// @brief Method GetControllerHapticsDesc, addr 0x2a318d8, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetControllerHapticsDesc, addr 0x2b2e188, size 0xec, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__HapticsDesc GetControllerHapticsDesc(uint32_t controllerMask);
 
-  /// @brief Method GetControllerHapticsState, addr 0x2a319c4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GetControllerHapticsState, addr 0x2b2e274, size 0xc4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__HapticsState GetControllerHapticsState(uint32_t controllerMask);
 
-  /// @brief Method GetControllerIsInHand, addr 0x2a30898, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetControllerIsInHand, addr 0x2b2d148, size 0xf0, virtual false, abstract: false, final false
   static inline bool GetControllerIsInHand(::GlobalNamespace::__OVRPlugin__Step stepId, ::GlobalNamespace::__OVRPlugin__Node nodeId);
 
-  /// @brief Method GetControllerSampleRateHz, addr 0x2a317fc, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetControllerSampleRateHz, addr 0x2b2e0ac, size 0xdc, virtual false, abstract: false, final false
   static inline bool GetControllerSampleRateHz(::GlobalNamespace::__OVRPlugin__Controller controllerMask, ByRef<float_t> sampleRateHz);
 
-  /// @brief Method GetControllerState, addr 0x2a30d28, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetControllerState, addr 0x2b2d5d8, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__ControllerState GetControllerState(uint32_t controllerMask);
 
-  /// @brief Method GetControllerState2, addr 0x2a30dac, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method GetControllerState2, addr 0x2b2d65c, size 0x144, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__ControllerState2 GetControllerState2(uint32_t controllerMask);
 
-  /// @brief Method GetControllerState4, addr 0x2a30ef0, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method GetControllerState4, addr 0x2b2d7a0, size 0x15c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__ControllerState4 GetControllerState4(uint32_t controllerMask);
 
-  /// @brief Method GetControllerState5, addr 0x2a3104c, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method GetControllerState5, addr 0x2b2d8fc, size 0x164, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__ControllerState5 GetControllerState5(uint32_t controllerMask);
 
-  /// @brief Method GetControllerState6, addr 0x2a311b0, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method GetControllerState6, addr 0x2b2da60, size 0x168, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__ControllerState6 GetControllerState6(uint32_t controllerMask);
 
-  /// @brief Method GetCurrentDetachedInteractionProfile, addr 0x2a313ec, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentDetachedInteractionProfile, addr 0x2b2dc9c, size 0xd4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__InteractionProfile GetCurrentDetachedInteractionProfile(::GlobalNamespace::__OVRPlugin__Hand hand);
 
-  /// @brief Method GetCurrentInteractionProfile, addr 0x2a31318, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentInteractionProfile, addr 0x2b2dbc8, size 0xd4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__InteractionProfile GetCurrentInteractionProfile(::GlobalNamespace::__OVRPlugin__Hand hand);
 
-  /// @brief Method GetCurrentTrackingTransformPose, addr 0x2a30988, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentTrackingTransformPose, addr 0x2b2d238, size 0x120, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Posef GetCurrentTrackingTransformPose();
 
-  /// @brief Method GetDesiredEyeTextureFormat, addr 0x2a329e0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetDesiredEyeTextureFormat, addr 0x2b2f290, size 0xc0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__EyeTextureFormat GetDesiredEyeTextureFormat();
 
-  /// @brief Method GetDominantHand, addr 0x2a36220, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetDominantHand, addr 0x2b32ad0, size 0xcc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Handedness GetDominantHand();
 
-  /// @brief Method GetExternalCameraCount, addr 0x2a32de4, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method GetExternalCameraCount, addr 0x2b2f694, size 0xe4, virtual false, abstract: false, final false
   static inline int32_t GetExternalCameraCount();
 
-  /// @brief Method GetEyeFrustum, addr 0x2a2e64c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetEyeFrustum, addr 0x2b2aefc, size 0x58, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Frustumf GetEyeFrustum(::GlobalNamespace::__OVRPlugin__Eye eyeId);
 
-  /// @brief Method GetEyeGazesState, addr 0x2a3d920, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method GetEyeGazesState, addr 0x2b3a1d0, size 0x274, virtual false, abstract: false, final false
   static inline bool GetEyeGazesState(::GlobalNamespace::__OVRPlugin__Step stepId, int32_t frameIndex, ByRef<::GlobalNamespace::__OVRPlugin__EyeGazesState> eyeGazesState);
 
-  /// @brief Method GetEyeLayerRecommendedResolution, addr 0x2a41790, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetEyeLayerRecommendedResolution, addr 0x2b3e040, size 0xcc, virtual false, abstract: false, final false
   static inline bool GetEyeLayerRecommendedResolution(ByRef<::GlobalNamespace::__OVRPlugin__Sizei> recommendedSize);
 
-  /// @brief Method GetEyeRecommendedResolutionScale, addr 0x2a31b68, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetEyeRecommendedResolutionScale, addr 0x2b2e418, size 0xbc, virtual false, abstract: false, final false
   static inline float_t GetEyeRecommendedResolutionScale();
 
-  /// @brief Method GetEyeTextureSize, addr 0x2a2e6a4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetEyeTextureSize, addr 0x2b2af54, size 0x58, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Sizei GetEyeTextureSize(::GlobalNamespace::__OVRPlugin__Eye eyeId);
 
-  /// @brief Method GetFaceState, addr 0x2a3d700, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method GetFaceState, addr 0x2b39fb0, size 0x150, virtual false, abstract: false, final false
   static inline bool GetFaceState(::GlobalNamespace::__OVRPlugin__Step stepId, int32_t frameIndex, ByRef<::GlobalNamespace::__OVRPlugin__FaceState> faceState);
 
-  /// @brief Method GetFaceStateInternal, addr 0x2a3d184, size 0x57c, virtual false, abstract: false, final false
+  /// @brief Method GetFaceStateInternal, addr 0x2b39a34, size 0x57c, virtual false, abstract: false, final false
   static inline bool GetFaceStateInternal(::GlobalNamespace::__OVRPlugin__Step stepId, int32_t frameIndex, ByRef<::GlobalNamespace::__OVRPlugin__FaceState> faceState);
 
-  /// @brief Method GetHandNodePoseStateLatency, addr 0x2a325d0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetHandNodePoseStateLatency, addr 0x2b2ee80, size 0xd0, virtual false, abstract: false, final false
   static inline double_t GetHandNodePoseStateLatency();
 
-  /// @brief Method GetHandState, addr 0x2a36f08, size 0x6a4, virtual false, abstract: false, final false
+  /// @brief Method GetHandState, addr 0x2b337b8, size 0x6a4, virtual false, abstract: false, final false
   static inline bool GetHandState(::GlobalNamespace::__OVRPlugin__Step stepId, ::GlobalNamespace::__OVRPlugin__Hand hand, ByRef<::GlobalNamespace::__OVRPlugin__HandState> handState);
 
-  /// @brief Method GetHandTrackingEnabled, addr 0x2a36e34, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method GetHandTrackingEnabled, addr 0x2b336e4, size 0xd4, virtual false, abstract: false, final false
   static inline bool GetHandTrackingEnabled();
 
-  /// @brief Method GetHeadPoseModifier, addr 0x2a36558, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method GetHeadPoseModifier, addr 0x2b32e08, size 0x14c, virtual false, abstract: false, final false
   static inline bool GetHeadPoseModifier(ByRef<::GlobalNamespace::__OVRPlugin__Quatf> relativeRotation, ByRef<::GlobalNamespace::__OVRPlugin__Vector3f> relativeTranslation);
 
-  /// @brief Method GetHmdColorDesc, addr 0x2a3e2cc, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method GetHmdColorDesc, addr 0x2b3ab7c, size 0x130, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__ColorSpace GetHmdColorDesc();
 
-  /// @brief Method GetInsightPassthroughInitializationState, addr 0x2a33c60, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetInsightPassthroughInitializationState, addr 0x2b30510, size 0xbc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result GetInsightPassthroughInitializationState();
 
-  /// @brief Method GetKeyboardState, addr 0x2a3c004, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetKeyboardState, addr 0x2b388b4, size 0xf0, virtual false, abstract: false, final false
   static inline bool GetKeyboardState(::GlobalNamespace::__OVRPlugin__Step stepId, ByRef<::GlobalNamespace::__OVRPlugin__KeyboardState> keyboardState);
 
-  /// @brief Method GetLayerAndroidSurfaceObject, addr 0x2a2f66c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method GetLayerAndroidSurfaceObject, addr 0x2b2bf1c, size 0x10c, virtual false, abstract: false, final false
   static inline void* GetLayerAndroidSurfaceObject(int32_t layerId);
 
-  /// @brief Method GetLayerRecommendedResolution, addr 0x2a416b4, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetLayerRecommendedResolution, addr 0x2b3df64, size 0xdc, virtual false, abstract: false, final false
   static inline bool GetLayerRecommendedResolution(int32_t layerId, ByRef<::GlobalNamespace::__OVRPlugin__Sizei> recommendedSize);
 
-  /// @brief Method GetLayerTexture, addr 0x2a2f44c, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method GetLayerTexture, addr 0x2b2bcfc, size 0x124, virtual false, abstract: false, final false
   static inline void* GetLayerTexture(int32_t layerId, int32_t stage, ::GlobalNamespace::__OVRPlugin__Eye eyeId);
 
-  /// @brief Method GetLayerTextureStageCount, addr 0x2a2f570, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method GetLayerTextureStageCount, addr 0x2b2be20, size 0xfc, virtual false, abstract: false, final false
   static inline int32_t GetLayerTextureStageCount(int32_t layerId);
 
-  /// @brief Method GetLocalTrackingSpaceRecenterCount, addr 0x2a3e014, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetLocalTrackingSpaceRecenterCount, addr 0x2b3a8c4, size 0xd0, virtual false, abstract: false, final false
   static inline int32_t GetLocalTrackingSpaceRecenterCount();
 
-  /// @brief Method GetMesh, addr 0x2a3bcb0, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method GetMesh, addr 0x2b38560, size 0x1cc, virtual false, abstract: false, final false
   static inline bool GetMesh(::GlobalNamespace::__OVRPlugin__MeshType meshType, ByRef<::GlobalNamespace::__OVRPlugin__Mesh*> mesh);
 
-  /// @brief Method GetMixedRealityCameraInfo, addr 0x2a32f9c, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method GetMixedRealityCameraInfo, addr 0x2b2f84c, size 0x134, virtual false, abstract: false, final false
   static inline bool GetMixedRealityCameraInfo(int32_t cameraId, ByRef<::GlobalNamespace::__OVRPlugin__CameraExtrinsics> cameraExtrinsics,
                                                ByRef<::GlobalNamespace::__OVRPlugin__CameraIntrinsics> cameraIntrinsics);
 
-  /// @brief Method GetNativeOpenXRInstance, addr 0x2a3e614, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetNativeOpenXRInstance, addr 0x2b3aec4, size 0xdc, virtual false, abstract: false, final false
   static inline uint64_t GetNativeOpenXRInstance();
 
-  /// @brief Method GetNativeOpenXRSession, addr 0x2a3e6f0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetNativeOpenXRSession, addr 0x2b3afa0, size 0xdc, virtual false, abstract: false, final false
   static inline uint64_t GetNativeOpenXRSession();
 
-  /// @brief Method GetNodeAcceleration, addr 0x2a2fbb0, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method GetNodeAcceleration, addr 0x2b2c460, size 0x20c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Vector3f GetNodeAcceleration(::GlobalNamespace::__OVRPlugin__Node nodeId, ::GlobalNamespace::__OVRPlugin__Step stepId);
 
-  /// @brief Method GetNodeAngularAcceleration, addr 0x2a2fdbc, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method GetNodeAngularAcceleration, addr 0x2b2c66c, size 0x150, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Vector3f GetNodeAngularAcceleration(::GlobalNamespace::__OVRPlugin__Node nodeId, ::GlobalNamespace::__OVRPlugin__Step stepId);
 
-  /// @brief Method GetNodeAngularVelocity, addr 0x2a2fa60, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method GetNodeAngularVelocity, addr 0x2b2c310, size 0x150, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Vector3f GetNodeAngularVelocity(::GlobalNamespace::__OVRPlugin__Node nodeId, ::GlobalNamespace::__OVRPlugin__Step stepId);
 
-  /// @brief Method GetNodeFrustum2, addr 0x2a35cfc, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method GetNodeFrustum2, addr 0x2b325ac, size 0xe0, virtual false, abstract: false, final false
   static inline bool GetNodeFrustum2(::GlobalNamespace::__OVRPlugin__Node nodeId, ByRef<::GlobalNamespace::__OVRPlugin__Frustumf2> frustum);
 
-  /// @brief Method GetNodeOrientationTracked, addr 0x2a2ff70, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetNodeOrientationTracked, addr 0x2b2c820, size 0x64, virtual false, abstract: false, final false
   static inline bool GetNodeOrientationTracked(::GlobalNamespace::__OVRPlugin__Node nodeId);
 
-  /// @brief Method GetNodeOrientationValid, addr 0x2a2ffd4, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method GetNodeOrientationValid, addr 0x2b2c884, size 0x104, virtual false, abstract: false, final false
   static inline bool GetNodeOrientationValid(::GlobalNamespace::__OVRPlugin__Node nodeId);
 
-  /// @brief Method GetNodePose, addr 0x2a2e780, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method GetNodePose, addr 0x2b2b030, size 0x228, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Posef GetNodePose(::GlobalNamespace::__OVRPlugin__Node nodeId, ::GlobalNamespace::__OVRPlugin__Step stepId);
 
-  /// @brief Method GetNodePoseStateAtTime, addr 0x2a30478, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method GetNodePoseStateAtTime, addr 0x2b2cd28, size 0x138, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__PoseStatef GetNodePoseStateAtTime(double_t time, ::GlobalNamespace::__OVRPlugin__Node nodeId);
 
-  /// @brief Method GetNodePoseStateImmediate, addr 0x2a305b0, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method GetNodePoseStateImmediate, addr 0x2b2ce60, size 0x128, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__PoseStatef GetNodePoseStateImmediate(::GlobalNamespace::__OVRPlugin__Node nodeId);
 
-  /// @brief Method GetNodePoseStateRaw, addr 0x2a30240, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method GetNodePoseStateRaw, addr 0x2b2caf0, size 0x238, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__PoseStatef GetNodePoseStateRaw(::GlobalNamespace::__OVRPlugin__Node nodeId, ::GlobalNamespace::__OVRPlugin__Step stepId);
 
-  /// @brief Method GetNodePositionTracked, addr 0x2a300d8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetNodePositionTracked, addr 0x2b2c988, size 0x64, virtual false, abstract: false, final false
   static inline bool GetNodePositionTracked(::GlobalNamespace::__OVRPlugin__Node nodeId);
 
-  /// @brief Method GetNodePositionValid, addr 0x2a3013c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method GetNodePositionValid, addr 0x2b2c9ec, size 0x104, virtual false, abstract: false, final false
   static inline bool GetNodePositionValid(::GlobalNamespace::__OVRPlugin__Node nodeId);
 
-  /// @brief Method GetNodePresent, addr 0x2a2ff0c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetNodePresent, addr 0x2b2c7bc, size 0x64, virtual false, abstract: false, final false
   static inline bool GetNodePresent(::GlobalNamespace::__OVRPlugin__Node nodeId);
 
-  /// @brief Method GetNodeVelocity, addr 0x2a2f854, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method GetNodeVelocity, addr 0x2b2c104, size 0x20c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Vector3f GetNodeVelocity(::GlobalNamespace::__OVRPlugin__Node nodeId, ::GlobalNamespace::__OVRPlugin__Step stepId);
 
-  /// @brief Method GetPassthroughCapabilities, addr 0x2a343d0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetPassthroughCapabilities, addr 0x2b30c80, size 0xcc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result GetPassthroughCapabilities(ByRef<::GlobalNamespace::__OVRPlugin__PassthroughCapabilities> outCapabilities);
 
-  /// @brief Method GetPassthroughCapabilityFlags, addr 0x2a3421c, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method GetPassthroughCapabilityFlags, addr 0x2b30acc, size 0x1b4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__PassthroughCapabilityFlags GetPassthroughCapabilityFlags();
 
-  /// @brief Method GetPassthroughPreferences, addr 0x2a41ee4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetPassthroughPreferences, addr 0x2b3e794, size 0xc8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result GetPassthroughPreferences(ByRef<::GlobalNamespace::__OVRPlugin__PassthroughPreferences> preferences);
 
-  /// @brief Method GetPerfMetricsFloat, addr 0x2a36784, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method GetPerfMetricsFloat, addr 0x2b33034, size 0x104, virtual false, abstract: false, final false
   static inline ::System::Nullable_1<float_t> GetPerfMetricsFloat(::GlobalNamespace::__OVRPlugin__PerfMetrics perfMetrics);
 
-  /// @brief Method GetPerfMetricsInt, addr 0x2a36888, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method GetPerfMetricsInt, addr 0x2b33138, size 0x104, virtual false, abstract: false, final false
   static inline ::System::Nullable_1<int32_t> GetPerfMetricsInt(::GlobalNamespace::__OVRPlugin__PerfMetrics perfMetrics);
 
-  /// @brief Method GetRenderModelPaths, addr 0x2a4185c, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method GetRenderModelPaths, addr 0x2b3e10c, size 0x22c, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> GetRenderModelPaths();
 
-  /// @brief Method GetRenderModelProperties, addr 0x2a41a88, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method GetRenderModelProperties, addr 0x2b3e338, size 0x1a4, virtual false, abstract: false, final false
   static inline bool GetRenderModelProperties(::StringW modelPath, ByRef<::GlobalNamespace::__OVRPlugin__RenderModelProperties> modelProperties);
 
-  /// @brief Method GetSkeleton, addr 0x2a375d4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method GetSkeleton, addr 0x2b33e84, size 0xe0, virtual false, abstract: false, final false
   static inline bool GetSkeleton(::GlobalNamespace::__OVRPlugin__SkeletonType skeletonType, ByRef<::GlobalNamespace::__OVRPlugin__Skeleton> skeleton);
 
-  /// @brief Method GetSkeleton2, addr 0x2a376b4, size 0x2310, virtual false, abstract: false, final false
+  /// @brief Method GetSkeleton2, addr 0x2b33f64, size 0x2310, virtual false, abstract: false, final false
   static inline bool GetSkeleton2(::GlobalNamespace::__OVRPlugin__SkeletonType skeletonType, ByRef<::GlobalNamespace::__OVRPlugin__Skeleton2> skeleton);
 
-  /// @brief Method GetSpaceBoundary2D, addr 0x2a40d1c, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method GetSpaceBoundary2D, addr 0x2b3d5cc, size 0x1a0, virtual false, abstract: false, final false
   static inline ::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> GetSpaceBoundary2D(uint64_t space, ::Unity::Collections::Allocator allocator);
 
-  /// @brief Method GetSpaceBoundary2D, addr 0x2a40b70, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetSpaceBoundary2D, addr 0x2b3d420, size 0x84, virtual false, abstract: false, final false
   static inline bool GetSpaceBoundary2D(uint64_t space, ::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> boundary);
 
-  /// @brief Method GetSpaceBoundary2D, addr 0x2a40bf4, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method GetSpaceBoundary2D, addr 0x2b3d4a4, size 0x128, virtual false, abstract: false, final false
   static inline bool GetSpaceBoundary2D(uint64_t space, ::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> boundary, ByRef<int32_t> count);
 
-  /// @brief Method GetSpaceBoundary2D, addr 0x2a40ebc, size 0x318, virtual false, abstract: false, final false
+  /// @brief Method GetSpaceBoundary2D, addr 0x2b3d76c, size 0x318, virtual false, abstract: false, final false
   static inline bool GetSpaceBoundary2D(uint64_t space, ByRef<::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>> boundary);
 
-  /// @brief Method GetSpaceBoundary2DCount, addr 0x2a40a84, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetSpaceBoundary2DCount, addr 0x2b3d334, size 0xec, virtual false, abstract: false, final false
   static inline bool GetSpaceBoundary2DCount(uint64_t space, ByRef<int32_t> count);
 
-  /// @brief Method GetSpaceBoundingBox2D, addr 0x2a404e8, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetSpaceBoundingBox2D, addr 0x2b3cd98, size 0xdc, virtual false, abstract: false, final false
   static inline bool GetSpaceBoundingBox2D(uint64_t space, ByRef<::GlobalNamespace::__OVRPlugin__Rectf> rect);
 
-  /// @brief Method GetSpaceBoundingBox3D, addr 0x2a405c4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method GetSpaceBoundingBox3D, addr 0x2b3ce74, size 0xe0, virtual false, abstract: false, final false
   static inline bool GetSpaceBoundingBox3D(uint64_t space, ByRef<::GlobalNamespace::__OVRPlugin__Boundsf> bounds);
 
-  /// @brief Method GetSpaceComponentStatus, addr 0x2a3eb64, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetSpaceComponentStatus, addr 0x2b3b414, size 0x88, virtual false, abstract: false, final false
   static inline bool GetSpaceComponentStatus(uint64_t space, ::GlobalNamespace::__OVRPlugin__SpaceComponentType componentType, ByRef<bool> enabled, ByRef<bool> changePending);
 
-  /// @brief Method GetSpaceComponentStatusInternal, addr 0x2a3ebec, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetSpaceComponentStatusInternal, addr 0x2b3b49c, size 0x114, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result GetSpaceComponentStatusInternal(uint64_t space, ::GlobalNamespace::__OVRPlugin__SpaceComponentType componentType, ByRef<bool> enabled,
                                                                                        ByRef<bool> changePending);
 
-  /// @brief Method GetSpaceContainer, addr 0x2a40274, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method GetSpaceContainer, addr 0x2b3cb24, size 0x274, virtual false, abstract: false, final false
   static inline bool GetSpaceContainer(uint64_t space, ByRef<::ArrayW<::System::Guid, ::Array<::System::Guid>*>> containerUuids);
 
-  /// @brief Method GetSpaceRoomLayout, addr 0x2a40834, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method GetSpaceRoomLayout, addr 0x2b3d0e4, size 0x250, virtual false, abstract: false, final false
   static inline bool GetSpaceRoomLayout(uint64_t space, ByRef<::GlobalNamespace::__OVRPlugin__RoomLayout> roomLayout);
 
-  /// @brief Method GetSpaceSemanticLabels, addr 0x2a406a4, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method GetSpaceSemanticLabels, addr 0x2b3cf54, size 0x190, virtual false, abstract: false, final false
   static inline bool GetSpaceSemanticLabels(uint64_t space, ByRef<::StringW> labels);
 
-  /// @brief Method GetSpaceTriangleMesh, addr 0x2a414b4, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method GetSpaceTriangleMesh, addr 0x2b3dd64, size 0x200, virtual false, abstract: false, final false
   static inline bool GetSpaceTriangleMesh(uint64_t space, ::Unity::Collections::NativeArray_1<::UnityEngine::Vector3> vertices, ::Unity::Collections::NativeArray_1<int32_t> triangles);
 
-  /// @brief Method GetSpaceTriangleMeshCounts, addr 0x2a412f4, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method GetSpaceTriangleMeshCounts, addr 0x2b3dba4, size 0x1c0, virtual false, abstract: false, final false
   static inline bool GetSpaceTriangleMeshCounts(uint64_t space, ByRef<int32_t> vertexCount, ByRef<int32_t> triangleCount);
 
-  /// @brief Method GetSpaceUserId, addr 0x2a3f9d4, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetSpaceUserId, addr 0x2b3c284, size 0xdc, virtual false, abstract: false, final false
   static inline bool GetSpaceUserId(uint64_t spaceUserHandle, ByRef<uint64_t> spaceUserId);
 
-  /// @brief Method GetSpaceUuid, addr 0x2a3f078, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetSpaceUuid, addr 0x2b3b928, size 0xdc, virtual false, abstract: false, final false
   static inline bool GetSpaceUuid(uint64_t space, ByRef<::System::Guid> uuid);
 
-  /// @brief Method GetSystemHeadsetType, addr 0x2a34704, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetSystemHeadsetType, addr 0x2b30fb4, size 0xbc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__SystemHeadset GetSystemHeadsetType();
 
-  /// @brief Method GetSystemHmd3DofModeEnabled, addr 0x2a3e0e4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method GetSystemHmd3DofModeEnabled, addr 0x2b3a994, size 0xd4, virtual false, abstract: false, final false
   static inline bool GetSystemHmd3DofModeEnabled();
 
-  /// @brief Method GetSystemKeyboardDescription, addr 0x2a3c0f4, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method GetSystemKeyboardDescription, addr 0x2b389a4, size 0xe4, virtual false, abstract: false, final false
   static inline bool GetSystemKeyboardDescription(::GlobalNamespace::__OVRPlugin__TrackedKeyboardQueryFlags keyboardQueryFlags,
                                                   ByRef<::GlobalNamespace::__OVRPlugin__KeyboardDescription> keyboardDescription);
 
-  /// @brief Method GetTimeInSeconds, addr 0x2a3698c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetTimeInSeconds, addr 0x2b3323c, size 0xcc, virtual false, abstract: false, final false
   static inline double_t GetTimeInSeconds();
 
-  /// @brief Method GetTrackerFrustum, addr 0x2a2e9a8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetTrackerFrustum, addr 0x2b2b258, size 0x58, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Frustumf GetTrackerFrustum(::GlobalNamespace::__OVRPlugin__Tracker trackerId);
 
-  /// @brief Method GetTrackerPose, addr 0x2a2e6fc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetTrackerPose, addr 0x2b2afac, size 0x84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Posef GetTrackerPose(::GlobalNamespace::__OVRPlugin__Tracker trackerId);
 
-  /// @brief Method GetTrackingCalibratedOrigin, addr 0x2a349ec, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetTrackingCalibratedOrigin, addr 0x2b3129c, size 0x74, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Posef GetTrackingCalibratedOrigin();
 
-  /// @brief Method GetTrackingOriginType, addr 0x2a34938, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method GetTrackingOriginType, addr 0x2b311e8, size 0x50, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__TrackingOrigin GetTrackingOriginType();
 
-  /// @brief Method GetTrackingTransformRawPose, addr 0x2a30aa8, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method GetTrackingTransformRawPose, addr 0x2b2d358, size 0x120, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Posef GetTrackingTransformRawPose();
 
-  /// @brief Method GetTrackingTransformRelativePose, addr 0x2a30bc8, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method GetTrackingTransformRelativePose, addr 0x2b2d478, size 0x160, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Posef GetTrackingTransformRelativePose(::GlobalNamespace::__OVRPlugin__TrackingOrigin trackingOrigin);
 
-  /// @brief Method GetUseOverriddenExternalCameraFov, addr 0x2a331c0, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetUseOverriddenExternalCameraFov, addr 0x2b2fa70, size 0xec, virtual false, abstract: false, final false
   static inline bool GetUseOverriddenExternalCameraFov(int32_t cameraId);
 
-  /// @brief Method GetUseOverriddenExternalCameraStaticPose, addr 0x2a33390, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetUseOverriddenExternalCameraStaticPose, addr 0x2b2fc40, size 0xec, virtual false, abstract: false, final false
   static inline bool GetUseOverriddenExternalCameraStaticPose(int32_t cameraId);
 
-  /// @brief Method GetVirtualKeyboardDirtyTextures, addr 0x2a3cc3c, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method GetVirtualKeyboardDirtyTextures, addr 0x2b394ec, size 0x2dc, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result GetVirtualKeyboardDirtyTextures(ByRef<::GlobalNamespace::__OVRPlugin__VirtualKeyboardTextureIds> textureIds);
 
-  /// @brief Method GetVirtualKeyboardModelAnimationStates, addr 0x2a3c7a8, size 0x494, virtual false, abstract: false, final false
+  /// @brief Method GetVirtualKeyboardModelAnimationStates, addr 0x2b39058, size 0x494, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result GetVirtualKeyboardModelAnimationStates(ByRef<::GlobalNamespace::__OVRPlugin__VirtualKeyboardModelAnimationStates> animationStates);
 
-  /// @brief Method GetVirtualKeyboardScale, addr 0x2a3c6e0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetVirtualKeyboardScale, addr 0x2b38f90, size 0xc8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result GetVirtualKeyboardScale(ByRef<float_t> scale);
 
-  /// @brief Method GetVirtualKeyboardTextureData, addr 0x2a3cf18, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetVirtualKeyboardTextureData, addr 0x2b397c8, size 0xd8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result GetVirtualKeyboardTextureData(uint64_t textureId, ByRef<::GlobalNamespace::__OVRPlugin__VirtualKeyboardTextureData> textureData);
 
-  /// @brief Method GuidToUuidString, addr 0x2a2c394, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GuidToUuidString, addr 0x2b28c44, size 0x17c, virtual false, abstract: false, final false
   static inline ::StringW GuidToUuidString(::System::Guid guid);
 
-  /// @brief Method InitializeInsightPassthrough, addr 0x2a33a20, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method InitializeInsightPassthrough, addr 0x2b302d0, size 0xc0, virtual false, abstract: false, final false
   static inline bool InitializeInsightPassthrough();
 
-  /// @brief Method InitializeMixedReality, addr 0x2a32b68, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method InitializeMixedReality, addr 0x2b2f418, size 0xd4, virtual false, abstract: false, final false
   static inline bool InitializeMixedReality();
 
-  /// @brief Method IsControllerDrivenHandPosesEnabled, addr 0x2a32838, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method IsControllerDrivenHandPosesEnabled, addr 0x2b2f0e8, size 0xd4, virtual false, abstract: false, final false
   static inline bool IsControllerDrivenHandPosesEnabled();
 
-  /// @brief Method IsInsightPassthroughInitialized, addr 0x2a33ba0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method IsInsightPassthroughInitialized, addr 0x2b30450, size 0xc0, virtual false, abstract: false, final false
   static inline bool IsInsightPassthroughInitialized();
 
-  /// @brief Method IsInsightPassthroughSupported, addr 0x2a338b4, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method IsInsightPassthroughSupported, addr 0x2b30164, size 0x16c, virtual false, abstract: false, final false
   static inline bool IsInsightPassthroughSupported();
 
-  /// @brief Method IsMixedRealityInitialized, addr 0x2a32d10, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method IsMixedRealityInitialized, addr 0x2b2f5c0, size 0xd4, virtual false, abstract: false, final false
   static inline bool IsMixedRealityInitialized();
 
-  /// @brief Method IsMultimodalHandsControllersSupported, addr 0x2a337e0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method IsMultimodalHandsControllersSupported, addr 0x2b30090, size 0xd4, virtual false, abstract: false, final false
   static inline bool IsMultimodalHandsControllersSupported();
 
-  /// @brief Method IsOrientationTracked, addr 0x2a2c38c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsOrientationTracked, addr 0x2b28c3c, size 0x8, virtual false, abstract: false, final false
   static inline bool IsOrientationTracked(::GlobalNamespace::__OVRPlugin__SpaceLocationFlags value);
 
-  /// @brief Method IsOrientationValid, addr 0x2a2c37c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsOrientationValid, addr 0x2b28c2c, size 0x8, virtual false, abstract: false, final false
   static inline bool IsOrientationValid(::GlobalNamespace::__OVRPlugin__SpaceLocationFlags value);
 
-  /// @brief Method IsPassthroughShape, addr 0x2a2c344, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method IsPassthroughShape, addr 0x2b28bf4, size 0x30, virtual false, abstract: false, final false
   static inline bool IsPassthroughShape(::GlobalNamespace::__OVRPlugin__OverlayShape shape);
 
-  /// @brief Method IsPerfMetricsSupported, addr 0x2a366a4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method IsPerfMetricsSupported, addr 0x2b32f54, size 0xe0, virtual false, abstract: false, final false
   static inline bool IsPerfMetricsSupported(::GlobalNamespace::__OVRPlugin__PerfMetrics perfMetrics);
 
-  /// @brief Method IsPositionTracked, addr 0x2a2c384, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsPositionTracked, addr 0x2b28c34, size 0x8, virtual false, abstract: false, final false
   static inline bool IsPositionTracked(::GlobalNamespace::__OVRPlugin__SpaceLocationFlags value);
 
-  /// @brief Method IsPositionValid, addr 0x2a2c374, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsPositionValid, addr 0x2b28c24, size 0x8, virtual false, abstract: false, final false
   static inline bool IsPositionValid(::GlobalNamespace::__OVRPlugin__SpaceLocationFlags value);
 
-  /// @brief Method IsSuccess, addr 0x2a2c230, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsSuccess, addr 0x2b28ae0, size 0xc, virtual false, abstract: false, final false
   static inline bool IsSuccess(::GlobalNamespace::__OVRPlugin__Result result);
 
-  /// @brief Method IsValidBone, addr 0x2a375ac, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsValidBone, addr 0x2b33e5c, size 0x28, virtual false, abstract: false, final false
   static inline bool IsValidBone(::GlobalNamespace::__OVRPlugin__BoneId bone, ::GlobalNamespace::__OVRPlugin__SkeletonType skeletonType);
 
-  /// @brief Method LoadRenderModel, addr 0x2a41c2c, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method LoadRenderModel, addr 0x2b3e4dc, size 0x200, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> LoadRenderModel(uint64_t modelKey);
 
-  /// @brief Method LocateSpace, addr 0x2a3ff74, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method LocateSpace, addr 0x2b3c824, size 0xd0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Posef LocateSpace(uint64_t space, ::GlobalNamespace::__OVRPlugin__TrackingOrigin baseOrigin);
 
-  /// @brief Method OnEditorShutdown, addr 0x2a41e2c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method OnEditorShutdown, addr 0x2b3e6dc, size 0xb8, virtual false, abstract: false, final false
   static inline void OnEditorShutdown();
 
-  /// @brief Method OverrideExternalCameraFov, addr 0x2a330d0, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method OverrideExternalCameraFov, addr 0x2b2f980, size 0xf0, virtual false, abstract: false, final false
   static inline bool OverrideExternalCameraFov(int32_t cameraId, bool useOverriddenFov, ::GlobalNamespace::__OVRPlugin__Fovf fov);
 
-  /// @brief Method OverrideExternalCameraStaticPose, addr 0x2a332ac, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method OverrideExternalCameraStaticPose, addr 0x2b2fb5c, size 0xe4, virtual false, abstract: false, final false
   static inline bool OverrideExternalCameraStaticPose(int32_t cameraId, bool useOverriddenPose, ::GlobalNamespace::__OVRPlugin__Posef poseInStageOrigin);
 
-  /// @brief Method PollEvent, addr 0x2a3e3fc, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method PollEvent, addr 0x2b3acac, size 0x218, virtual false, abstract: false, final false
   static inline bool PollEvent(ByRef<::GlobalNamespace::__OVRPlugin__EventDataBuffer> eventDataBuffer);
 
-  /// @brief Method QuerySpaces, addr 0x2a3f154, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method QuerySpaces, addr 0x2b3ba04, size 0x21c, virtual false, abstract: false, final false
   static inline bool QuerySpaces(::GlobalNamespace::__OVRPlugin__SpaceQueryInfo queryInfo, ByRef<uint64_t> requestId);
 
-  /// @brief Method RecenterTrackingOrigin, addr 0x2a34abc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method RecenterTrackingOrigin, addr 0x2b3136c, size 0x64, virtual false, abstract: false, final false
   static inline bool RecenterTrackingOrigin(::GlobalNamespace::__OVRPlugin__RecenterFlags flags);
 
-  /// @brief Method RequestSceneCapture, addr 0x2a411d4, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method RequestSceneCapture, addr 0x2b3da84, size 0x120, virtual false, abstract: false, final false
   static inline bool RequestSceneCapture(::StringW requestString, ByRef<uint64_t> requestId);
 
-  /// @brief Method ResetAppPerfStats, addr 0x2a322e0, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method ResetAppPerfStats, addr 0x2b2eb90, size 0x164, virtual false, abstract: false, final false
   static inline bool ResetAppPerfStats();
 
-  /// @brief Method ResetDefaultExternalCamera, addr 0x2a3347c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method ResetDefaultExternalCamera, addr 0x2b2fd2c, size 0xc0, virtual false, abstract: false, final false
   static inline bool ResetDefaultExternalCamera();
 
-  /// @brief Method RetrieveSpaceQueryResults, addr 0x2a3f524, size 0x38c, virtual false, abstract: false, final false
+  /// @brief Method RetrieveSpaceQueryResults, addr 0x2b3bdd4, size 0x38c, virtual false, abstract: false, final false
   static inline bool RetrieveSpaceQueryResults(uint64_t requestId,
                                                ByRef<::ArrayW<::GlobalNamespace::__OVRPlugin__SpaceQueryResult, ::Array<::GlobalNamespace::__OVRPlugin__SpaceQueryResult>*>> results);
 
-  /// @brief Method RetrieveSpaceQueryResults, addr 0x2a3f370, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method RetrieveSpaceQueryResults, addr 0x2b3bc20, size 0x1b4, virtual false, abstract: false, final false
   static inline bool RetrieveSpaceQueryResults(uint64_t requestId, ByRef<::Unity::Collections::NativeArray_1<::GlobalNamespace::__OVRPlugin__SpaceQueryResult>> results,
                                                ::Unity::Collections::Allocator allocator);
 
-  /// @brief Method SaveSpace, addr 0x2a3edf0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method SaveSpace, addr 0x2b3b6a0, size 0xf4, virtual false, abstract: false, final false
   static inline bool SaveSpace(uint64_t space, ::GlobalNamespace::__OVRPlugin__SpaceStorageLocation location, ::GlobalNamespace::__OVRPlugin__SpaceStoragePersistenceMode mode,
                                ByRef<uint64_t> requestId);
 
-  /// @brief Method SaveSpaceList, addr 0x2a3f8b0, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method SaveSpaceList, addr 0x2b3c160, size 0x124, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result SaveSpaceList(::Unity::Collections::NativeArray_1<uint64_t> spaces, ::GlobalNamespace::__OVRPlugin__SpaceStorageLocation location,
                                                                      ByRef<uint64_t> requestId);
 
-  /// @brief Method SendEvent, addr 0x2a362ec, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method SendEvent, addr 0x2b32b9c, size 0x194, virtual false, abstract: false, final false
   static inline bool SendEvent(::StringW name, ::StringW param, ::StringW source);
 
-  /// @brief Method SendVirtualKeyboardInput, addr 0x2a3c350, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method SendVirtualKeyboardInput, addr 0x2b38c00, size 0xf8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result SendVirtualKeyboardInput(::GlobalNamespace::__OVRPlugin__VirtualKeyboardInputInfo inputInfo,
                                                                                 ByRef<::GlobalNamespace::__OVRPlugin__Posef> interactorRootPose);
 
-  /// @brief Method SetBoundaryVisible, addr 0x2a34620, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method SetBoundaryVisible, addr 0x2b30ed0, size 0xe4, virtual false, abstract: false, final false
   static inline bool SetBoundaryVisible(bool value);
 
-  /// @brief Method SetClientColorDesc, addr 0x2a3e1b8, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method SetClientColorDesc, addr 0x2b3aa68, size 0x114, virtual false, abstract: false, final false
   static inline bool SetClientColorDesc(::GlobalNamespace::__OVRPlugin__ColorSpace colorSpace);
 
-  /// @brief Method SetColorScaleAndOffset, addr 0x2a36a58, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method SetColorScaleAndOffset, addr 0x2b33308, size 0x164, virtual false, abstract: false, final false
   static inline bool SetColorScaleAndOffset(::UnityEngine::Vector4 colorScale, ::UnityEngine::Vector4 colorOffset, bool applyToAllLayers);
 
-  /// @brief Method SetControllerDrivenHandPoses, addr 0x2a326a0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method SetControllerDrivenHandPoses, addr 0x2b2ef50, size 0xcc, virtual false, abstract: false, final false
   static inline bool SetControllerDrivenHandPoses(bool controllerDrivenHandPoses);
 
-  /// @brief Method SetControllerDrivenHandPosesAreNatural, addr 0x2a3276c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method SetControllerDrivenHandPosesAreNatural, addr 0x2b2f01c, size 0xcc, virtual false, abstract: false, final false
   static inline bool SetControllerDrivenHandPosesAreNatural(bool controllerDrivenHandPosesAreNatural);
 
-  /// @brief Method SetControllerHaptics, addr 0x2a31a88, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method SetControllerHaptics, addr 0x2b2e338, size 0xe0, virtual false, abstract: false, final false
   static inline bool SetControllerHaptics(uint32_t controllerMask, ::GlobalNamespace::__OVRPlugin__HapticsBuffer hapticsBuffer);
 
-  /// @brief Method SetControllerHapticsAmplitudeEnvelope, addr 0x2a3162c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method SetControllerHapticsAmplitudeEnvelope, addr 0x2b2dedc, size 0xe0, virtual false, abstract: false, final false
   static inline bool SetControllerHapticsAmplitudeEnvelope(::GlobalNamespace::__OVRPlugin__Controller controllerMask,
                                                            ::GlobalNamespace::__OVRPlugin__HapticsAmplitudeEnvelopeVibration hapticsVibration);
 
-  /// @brief Method SetControllerHapticsPcm, addr 0x2a3170c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method SetControllerHapticsPcm, addr 0x2b2dfbc, size 0xf0, virtual false, abstract: false, final false
   static inline bool SetControllerHapticsPcm(::GlobalNamespace::__OVRPlugin__Controller controllerMask, ::GlobalNamespace::__OVRPlugin__HapticsPcmVibration hapticsVibration);
 
-  /// @brief Method SetControllerLocalizedVibration, addr 0x2a3153c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method SetControllerLocalizedVibration, addr 0x2b2ddec, size 0xf0, virtual false, abstract: false, final false
   static inline bool SetControllerLocalizedVibration(::GlobalNamespace::__OVRPlugin__Controller controllerMask, ::GlobalNamespace::__OVRPlugin__HapticsLocation hapticsLocationMask, float_t frequency,
                                                      float_t amplitude);
 
-  /// @brief Method SetControllerVibration, addr 0x2a314c0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetControllerVibration, addr 0x2b2dd70, size 0x7c, virtual false, abstract: false, final false
   static inline bool SetControllerVibration(uint32_t controllerMask, float_t frequency, float_t amplitude);
 
-  /// @brief Method SetDefaultExternalCamera, addr 0x2a3353c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method SetDefaultExternalCamera, addr 0x2b2fdec, size 0xe0, virtual false, abstract: false, final false
   static inline bool SetDefaultExternalCamera(::StringW cameraName, ByRef<::GlobalNamespace::__OVRPlugin__CameraIntrinsics> cameraIntrinsics,
                                               ByRef<::GlobalNamespace::__OVRPlugin__CameraExtrinsics> cameraExtrinsics);
 
-  /// @brief Method SetDesiredEyeTextureFormat, addr 0x2a32aa0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method SetDesiredEyeTextureFormat, addr 0x2b2f350, size 0xc8, virtual false, abstract: false, final false
   static inline bool SetDesiredEyeTextureFormat(::GlobalNamespace::__OVRPlugin__EyeTextureFormat value);
 
-  /// @brief Method SetDeveloperMode, addr 0x2a36c94, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method SetDeveloperMode, addr 0x2b33544, size 0xc8, virtual false, abstract: false, final false
   static inline bool SetDeveloperMode(::GlobalNamespace::__OVRPlugin__Bool active);
 
-  /// @brief Method SetExternalCameraProperties, addr 0x2a3361c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method SetExternalCameraProperties, addr 0x2b2fecc, size 0xe0, virtual false, abstract: false, final false
   static inline bool SetExternalCameraProperties(::StringW cameraName, ByRef<::GlobalNamespace::__OVRPlugin__CameraIntrinsics> cameraIntrinsics,
                                                  ByRef<::GlobalNamespace::__OVRPlugin__CameraExtrinsics> cameraExtrinsics);
 
-  /// @brief Method SetEyeBufferSharpenType, addr 0x2a41fac, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method SetEyeBufferSharpenType, addr 0x2b3e85c, size 0xc8, virtual false, abstract: false, final false
   static inline bool SetEyeBufferSharpenType(::GlobalNamespace::__OVRPlugin__LayerSharpenType sharpenType);
 
-  /// @brief Method SetHandNodePoseStateLatency, addr 0x2a32500, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method SetHandNodePoseStateLatency, addr 0x2b2edb0, size 0xd0, virtual false, abstract: false, final false
   static inline bool SetHandNodePoseStateLatency(double_t latencyInSeconds);
 
-  /// @brief Method SetHeadPoseModifier, addr 0x2a36480, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method SetHeadPoseModifier, addr 0x2b32d30, size 0xd8, virtual false, abstract: false, final false
   static inline bool SetHeadPoseModifier(ByRef<::GlobalNamespace::__OVRPlugin__Quatf> relativeRotation, ByRef<::GlobalNamespace::__OVRPlugin__Vector3f> relativeTranslation);
 
-  /// @brief Method SetInsightPassthroughKeyboardHandsIntensity, addr 0x2a3413c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method SetInsightPassthroughKeyboardHandsIntensity, addr 0x2b309ec, size 0xe0, virtual false, abstract: false, final false
   static inline bool SetInsightPassthroughKeyboardHandsIntensity(int32_t layerId, ::GlobalNamespace::__OVRPlugin__InsightPassthroughKeyboardHandsIntensity intensity);
 
-  /// @brief Method SetInsightPassthroughStyle, addr 0x2a33d1c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method SetInsightPassthroughStyle, addr 0x2b305cc, size 0x118, virtual false, abstract: false, final false
   static inline bool SetInsightPassthroughStyle(int32_t layerId, ::GlobalNamespace::__OVRPlugin__InsightPassthroughStyle style);
 
-  /// @brief Method SetInsightPassthroughStyle, addr 0x2a28ec8, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method SetInsightPassthroughStyle, addr 0x2b25778, size 0x214, virtual false, abstract: false, final false
   static inline bool SetInsightPassthroughStyle(int32_t layerId, ::GlobalNamespace::__OVRPlugin__InsightPassthroughStyle2 style);
 
-  /// @brief Method SetKeyboardOverlayUV, addr 0x2a3e7cc, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method SetKeyboardOverlayUV, addr 0x2b3b07c, size 0xd8, virtual false, abstract: false, final false
   static inline bool SetKeyboardOverlayUV(::GlobalNamespace::__OVRPlugin__Vector2f uv);
 
-  /// @brief Method SetLogCallback2, addr 0x2a2c23c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method SetLogCallback2, addr 0x2b28aec, size 0x108, virtual false, abstract: false, final false
   static inline void SetLogCallback2(::GlobalNamespace::__OVRPlugin__LogCallback2DelegateType* logCallback);
 
-  /// @brief Method SetMultimodalHandsControllersSupported, addr 0x2a336fc, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method SetMultimodalHandsControllersSupported, addr 0x2b2ffac, size 0xe4, virtual false, abstract: false, final false
   static inline bool SetMultimodalHandsControllersSupported(bool value);
 
-  /// @brief Method SetSimultaneousHandsAndControllersEnabled, addr 0x2a307cc, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method SetSimultaneousHandsAndControllersEnabled, addr 0x2b2d07c, size 0xcc, virtual false, abstract: false, final false
   static inline bool SetSimultaneousHandsAndControllersEnabled(bool enabled);
 
-  /// @brief Method SetSpaceComponentStatus, addr 0x2a3e980, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method SetSpaceComponentStatus, addr 0x2b3b230, size 0x1e4, virtual false, abstract: false, final false
   static inline bool SetSpaceComponentStatus(uint64_t space, ::GlobalNamespace::__OVRPlugin__SpaceComponentType componentType, bool enable, double_t timeout, ByRef<uint64_t> requestId);
 
-  /// @brief Method SetTrackingCalibratedOrigin, addr 0x2a34a60, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetTrackingCalibratedOrigin, addr 0x2b31310, size 0x5c, virtual false, abstract: false, final false
   static inline bool SetTrackingCalibratedOrigin();
 
-  /// @brief Method SetTrackingOriginType, addr 0x2a34988, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method SetTrackingOriginType, addr 0x2b31238, size 0x64, virtual false, abstract: false, final false
   static inline bool SetTrackingOriginType(::GlobalNamespace::__OVRPlugin__TrackingOrigin originType);
 
-  /// @brief Method SetVirtualKeyboardModelVisibility, addr 0x2a3cff0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method SetVirtualKeyboardModelVisibility, addr 0x2b398a0, size 0xc4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result SetVirtualKeyboardModelVisibility(ByRef<::GlobalNamespace::__OVRPlugin__VirtualKeyboardModelVisibility> visibility);
 
-  /// @brief Method ShareSpaces, addr 0x2a3fc54, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method ShareSpaces, addr 0x2b3c504, size 0x140, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result ShareSpaces(::Unity::Collections::NativeArray_1<uint64_t> spaces, ::Unity::Collections::NativeArray_1<uint64_t> userHandles,
                                                                    ByRef<uint64_t> requestId);
 
-  /// @brief Method ShowUI, addr 0x2a2ea00, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ShowUI, addr 0x2b2b2b0, size 0x64, virtual false, abstract: false, final false
   static inline bool ShowUI(::GlobalNamespace::__OVRPlugin__PlatformUI ui);
 
-  /// @brief Method ShutdownInsightPassthrough, addr 0x2a33ae0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method ShutdownInsightPassthrough, addr 0x2b30390, size 0xc0, virtual false, abstract: false, final false
   static inline bool ShutdownInsightPassthrough();
 
-  /// @brief Method ShutdownMixedReality, addr 0x2a32c3c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method ShutdownMixedReality, addr 0x2b2f4ec, size 0xd4, virtual false, abstract: false, final false
   static inline bool ShutdownMixedReality();
 
-  /// @brief Method StartBodyTracking, addr 0x2a3de94, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method StartBodyTracking, addr 0x2b3a744, size 0xc0, virtual false, abstract: false, final false
   static inline bool StartBodyTracking();
 
-  /// @brief Method StartEyeTracking, addr 0x2a3db94, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method StartEyeTracking, addr 0x2b3a444, size 0xc0, virtual false, abstract: false, final false
   static inline bool StartEyeTracking();
 
-  /// @brief Method StartFaceTracking, addr 0x2a3dd14, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method StartFaceTracking, addr 0x2b3a5c4, size 0xc0, virtual false, abstract: false, final false
   static inline bool StartFaceTracking();
 
-  /// @brief Method StartKeyboardTracking, addr 0x2a3be7c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method StartKeyboardTracking, addr 0x2b3872c, size 0xc8, virtual false, abstract: false, final false
   static inline bool StartKeyboardTracking(uint64_t trackedKeyboardId);
 
-  /// @brief Method StopBodyTracking, addr 0x2a3df54, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method StopBodyTracking, addr 0x2b3a804, size 0xc0, virtual false, abstract: false, final false
   static inline bool StopBodyTracking();
 
-  /// @brief Method StopEyeTracking, addr 0x2a3dc54, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method StopEyeTracking, addr 0x2b3a504, size 0xc0, virtual false, abstract: false, final false
   static inline bool StopEyeTracking();
 
-  /// @brief Method StopFaceTracking, addr 0x2a3ddd4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method StopFaceTracking, addr 0x2b3a684, size 0xc0, virtual false, abstract: false, final false
   static inline bool StopFaceTracking();
 
-  /// @brief Method StopKeyboardTracking, addr 0x2a3bf44, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method StopKeyboardTracking, addr 0x2b387f4, size 0xc0, virtual false, abstract: false, final false
   static inline bool StopKeyboardTracking();
 
-  /// @brief Method SuggestVirtualKeyboardLocation, addr 0x2a3c5f8, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method SuggestVirtualKeyboardLocation, addr 0x2b38ea8, size 0xe8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Result SuggestVirtualKeyboardLocation(::GlobalNamespace::__OVRPlugin__VirtualKeyboardLocationInfo locationInfo);
 
-  /// @brief Method TestBoundaryNode, addr 0x2a31da0, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method TestBoundaryNode, addr 0x2b2e650, size 0xec, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__BoundaryTestResult TestBoundaryNode(::GlobalNamespace::__OVRPlugin__Node nodeId, ::GlobalNamespace::__OVRPlugin__BoundaryType boundaryType);
 
-  /// @brief Method TestBoundaryPoint, addr 0x2a31e8c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method TestBoundaryPoint, addr 0x2b2e73c, size 0x10c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__BoundaryTestResult TestBoundaryPoint(::GlobalNamespace::__OVRPlugin__Vector3f point, ::GlobalNamespace::__OVRPlugin__BoundaryType boundaryType);
 
-  /// @brief Method ToBool, addr 0x2a2c8d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToBool, addr 0x2b29188, size 0x8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__Bool ToBool(bool b);
 
-  /// @brief Method TryLocateSpace, addr 0x2a3fd94, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method TryLocateSpace, addr 0x2b3c644, size 0x1e0, virtual false, abstract: false, final false
   static inline bool TryLocateSpace(uint64_t space, ::GlobalNamespace::__OVRPlugin__TrackingOrigin baseOrigin, ByRef<::GlobalNamespace::__OVRPlugin__Posef> pose);
 
-  /// @brief Method TryLocateSpace, addr 0x2a40044, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method TryLocateSpace, addr 0x2b3c8f4, size 0x168, virtual false, abstract: false, final false
   static inline bool TryLocateSpace(uint64_t space, ::GlobalNamespace::__OVRPlugin__TrackingOrigin baseOrigin, ByRef<::GlobalNamespace::__OVRPlugin__Posef> pose,
                                     ByRef<::GlobalNamespace::__OVRPlugin__SpaceLocationFlags> locationFlags);
 
-  /// @brief Method UpdateExternalCamera, addr 0x2a32ec8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method UpdateExternalCamera, addr 0x2b2f778, size 0xd4, virtual false, abstract: false, final false
   static inline bool UpdateExternalCamera();
 
-  /// @brief Method UpdateInsightPassthroughGeometryTransform, addr 0x2a28618, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method UpdateInsightPassthroughGeometryTransform, addr 0x2b24ec8, size 0x108, virtual false, abstract: false, final false
   static inline bool UpdateInsightPassthroughGeometryTransform(uint64_t geometryInstanceHandle, ::UnityEngine::Matrix4x4 transform);
 
-  /// @brief Method UpdateNodePhysicsPoses, addr 0x2a2f778, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method UpdateNodePhysicsPoses, addr 0x2b2c028, size 0xdc, virtual false, abstract: false, final false
   static inline bool UpdateNodePhysicsPoses(int32_t frameIndex, double_t predictionSeconds);
 
-  /// @brief Method UpdatePassthroughColorLut, addr 0x2a3403c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method UpdatePassthroughColorLut, addr 0x2b308ec, size 0x100, virtual false, abstract: false, final false
   static inline bool UpdatePassthroughColorLut(uint64_t colorLut, ::GlobalNamespace::__OVRPlugin__PassthroughColorLutData data);
 
   static inline int32_t getStaticF_MAX_CPU_CORES();
@@ -20707,193 +20707,193 @@ public:
 
   static inline ::System::Version* getStaticF_wrapperVersion();
 
-  /// @brief Method get_AsymmetricFovEnabled, addr 0x2a35ddc, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method get_AsymmetricFovEnabled, addr 0x2b3268c, size 0xd4, virtual false, abstract: false, final false
   static inline bool get_AsymmetricFovEnabled();
 
-  /// @brief Method get_EyeTextureArrayEnabled, addr 0x2a35eb0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method get_EyeTextureArrayEnabled, addr 0x2b32760, size 0xc0, virtual false, abstract: false, final false
   static inline bool get_EyeTextureArrayEnabled();
 
-  /// @brief Method get_audioInId, addr 0x2a2d678, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method get_audioInId, addr 0x2b29f28, size 0x314, virtual false, abstract: false, final false
   static inline ::StringW get_audioInId();
 
-  /// @brief Method get_audioOutId, addr 0x2a2d35c, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method get_audioOutId, addr 0x2b29c0c, size 0x314, virtual false, abstract: false, final false
   static inline ::StringW get_audioOutId();
 
-  /// @brief Method get_batteryLevel, addr 0x2a2de10, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_batteryLevel, addr 0x2b2a6c0, size 0x50, virtual false, abstract: false, final false
   static inline float_t get_batteryLevel();
 
-  /// @brief Method get_batteryStatus, addr 0x2a2e5fc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_batteryStatus, addr 0x2b2aeac, size 0x50, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__BatteryStatus get_batteryStatus();
 
-  /// @brief Method get_batteryTemperature, addr 0x2a2de60, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_batteryTemperature, addr 0x2b2a710, size 0x50, virtual false, abstract: false, final false
   static inline float_t get_batteryTemperature();
 
-  /// @brief Method get_bodyTrackingEnabled, addr 0x2a399c4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method get_bodyTrackingEnabled, addr 0x2b36274, size 0xd0, virtual false, abstract: false, final false
   static inline bool get_bodyTrackingEnabled();
 
-  /// @brief Method get_bodyTrackingSupported, addr 0x2a2aa28, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method get_bodyTrackingSupported, addr 0x2b272d8, size 0xd0, virtual false, abstract: false, final false
   static inline bool get_bodyTrackingSupported();
 
-  /// @brief Method get_chromatic, addr 0x2a2c708, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method get_chromatic, addr 0x2b28fb8, size 0xd8, virtual false, abstract: false, final false
   static inline bool get_chromatic();
 
-  /// @brief Method get_cpuLevel, addr 0x2a2e1d0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_cpuLevel, addr 0x2b2aa80, size 0x50, virtual false, abstract: false, final false
   static inline int32_t get_cpuLevel();
 
-  /// @brief Method get_eyeDepth, addr 0x2a2dc74, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_eyeDepth, addr 0x2b2a524, size 0x8c, virtual false, abstract: false, final false
   static inline float_t get_eyeDepth();
 
-  /// @brief Method get_eyeFovPremultipliedAlphaModeEnabled, addr 0x2a35b4c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method get_eyeFovPremultipliedAlphaModeEnabled, addr 0x2b323fc, size 0xd0, virtual false, abstract: false, final false
   static inline bool get_eyeFovPremultipliedAlphaModeEnabled();
 
-  /// @brief Method get_eyeHeight, addr 0x2a2dd60, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_eyeHeight, addr 0x2b2a610, size 0x50, virtual false, abstract: false, final false
   static inline float_t get_eyeHeight();
 
-  /// @brief Method get_eyeTrackedFoveatedRenderingEnabled, addr 0x2a34d30, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method get_eyeTrackedFoveatedRenderingEnabled, addr 0x2b315e0, size 0xec, virtual false, abstract: false, final false
   static inline bool get_eyeTrackedFoveatedRenderingEnabled();
 
-  /// @brief Method get_eyeTrackedFoveatedRenderingSupported, addr 0x2a34c64, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method get_eyeTrackedFoveatedRenderingSupported, addr 0x2b31514, size 0xcc, virtual false, abstract: false, final false
   static inline bool get_eyeTrackedFoveatedRenderingSupported();
 
-  /// @brief Method get_eyeTrackingEnabled, addr 0x2a3d850, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method get_eyeTrackingEnabled, addr 0x2b3a100, size 0xd0, virtual false, abstract: false, final false
   static inline bool get_eyeTrackingEnabled();
 
-  /// @brief Method get_eyeTrackingSupported, addr 0x2a2aaf8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method get_eyeTrackingSupported, addr 0x2b273a8, size 0xd0, virtual false, abstract: false, final false
   static inline bool get_eyeTrackingSupported();
 
-  /// @brief Method get_faceTrackingEnabled, addr 0x2a3d0b4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method get_faceTrackingEnabled, addr 0x2b39964, size 0xd0, virtual false, abstract: false, final false
   static inline bool get_faceTrackingEnabled();
 
-  /// @brief Method get_faceTrackingSupported, addr 0x2a2a958, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method get_faceTrackingSupported, addr 0x2b27208, size 0xd0, virtual false, abstract: false, final false
   static inline bool get_faceTrackingSupported();
 
-  /// @brief Method get_fixedFoveatedRenderingLevel, addr 0x2a350cc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_fixedFoveatedRenderingLevel, addr 0x2b3197c, size 0x4c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__FixedFoveatedRenderingLevel get_fixedFoveatedRenderingLevel();
 
-  /// @brief Method get_fixedFoveatedRenderingSupported, addr 0x2a34b94, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method get_fixedFoveatedRenderingSupported, addr 0x2b31444, size 0xd0, virtual false, abstract: false, final false
   static inline bool get_fixedFoveatedRenderingSupported();
 
-  /// @brief Method get_foveatedRenderingLevel, addr 0x2a34f04, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method get_foveatedRenderingLevel, addr 0x2b317b4, size 0xe4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__FoveatedRenderingLevel get_foveatedRenderingLevel();
 
-  /// @brief Method get_foveatedRenderingSupported, addr 0x2a34b20, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_foveatedRenderingSupported, addr 0x2b313d0, size 0x74, virtual false, abstract: false, final false
   static inline bool get_foveatedRenderingSupported();
 
-  /// @brief Method get_gpuLevel, addr 0x2a2e278, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_gpuLevel, addr 0x2b2ab28, size 0x50, virtual false, abstract: false, final false
   static inline int32_t get_gpuLevel();
 
-  /// @brief Method get_gpuUtilLevel, addr 0x2a355a0, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method get_gpuUtilLevel, addr 0x2b31e50, size 0xf0, virtual false, abstract: false, final false
   static inline float_t get_gpuUtilLevel();
 
-  /// @brief Method get_gpuUtilSupported, addr 0x2a354d0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method get_gpuUtilSupported, addr 0x2b31d80, size 0xd0, virtual false, abstract: false, final false
   static inline bool get_gpuUtilSupported();
 
-  /// @brief Method get_hasInputFocus, addr 0x2a2d9e8, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method get_hasInputFocus, addr 0x2b2a298, size 0xdc, virtual false, abstract: false, final false
   static inline bool get_hasInputFocus();
 
-  /// @brief Method get_hasVrFocus, addr 0x2a2d98c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_hasVrFocus, addr 0x2b2a23c, size 0x5c, virtual false, abstract: false, final false
   static inline bool get_hasVrFocus();
 
-  /// @brief Method get_headphonesPresent, addr 0x2a2d124, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_headphonesPresent, addr 0x2b299d4, size 0x90, virtual false, abstract: false, final false
   static inline bool get_headphonesPresent();
 
-  /// @brief Method get_hmdPresent, addr 0x2a2d000, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_hmdPresent, addr 0x2b298b0, size 0x94, virtual false, abstract: false, final false
   static inline bool get_hmdPresent();
 
-  /// @brief Method get_initialized, addr 0x2a2c510, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_initialized, addr 0x2b28dc0, size 0x5c, virtual false, abstract: false, final false
   static inline bool get_initialized();
 
-  /// @brief Method get_ipd, addr 0x2a2e418, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_ipd, addr 0x2b2acc8, size 0x50, virtual false, abstract: false, final false
   static inline float_t get_ipd();
 
-  /// @brief Method get_latency, addr 0x2a2dbcc, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_latency, addr 0x2b2a47c, size 0xa8, virtual false, abstract: false, final false
   static inline ::StringW get_latency();
 
-  /// @brief Method get_localDimming, addr 0x2a36044, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method get_localDimming, addr 0x2b328f4, size 0xf4, virtual false, abstract: false, final false
   static inline bool get_localDimming();
 
-  /// @brief Method get_localDimmingSupported, addr 0x2a35f70, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method get_localDimmingSupported, addr 0x2b32820, size 0xd4, virtual false, abstract: false, final false
   static inline bool get_localDimmingSupported();
 
-  /// @brief Method get_monoscopic, addr 0x2a2c8e0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_monoscopic, addr 0x2b29190, size 0x90, virtual false, abstract: false, final false
   static inline bool get_monoscopic();
 
-  /// @brief Method get_nativeSDKVersion, addr 0x2a2bf74, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method get_nativeSDKVersion, addr 0x2b28824, size 0x2bc, virtual false, abstract: false, final false
   static inline ::System::Version* get_nativeSDKVersion();
 
-  /// @brief Method get_nativeXrApi, addr 0x2a2c56c, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method get_nativeXrApi, addr 0x2b28e1c, size 0x19c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__XrApi get_nativeXrApi();
 
-  /// @brief Method get_occlusionMesh, addr 0x2a2e4c8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_occlusionMesh, addr 0x2b2ad78, size 0x90, virtual false, abstract: false, final false
   static inline bool get_occlusionMesh();
 
-  /// @brief Method get_position, addr 0x2a2cb48, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_position, addr 0x2b293f8, size 0x90, virtual false, abstract: false, final false
   static inline bool get_position();
 
-  /// @brief Method get_positionSupported, addr 0x2a2ce4c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_positionSupported, addr 0x2b296fc, size 0x90, virtual false, abstract: false, final false
   static inline bool get_positionSupported();
 
-  /// @brief Method get_positionTracked, addr 0x2a2cedc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_positionTracked, addr 0x2b2978c, size 0x94, virtual false, abstract: false, final false
   static inline bool get_positionTracked();
 
-  /// @brief Method get_powerSaving, addr 0x2a2cf70, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_powerSaving, addr 0x2b29820, size 0x90, virtual false, abstract: false, final false
   static inline bool get_powerSaving();
 
-  /// @brief Method get_productName, addr 0x2a2db7c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_productName, addr 0x2b2a42c, size 0x50, virtual false, abstract: false, final false
   static inline ::StringW get_productName();
 
-  /// @brief Method get_recommendedMSAALevel, addr 0x2a2d1b4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method get_recommendedMSAALevel, addr 0x2b29a64, size 0xd4, virtual false, abstract: false, final false
   static inline int32_t get_recommendedMSAALevel();
 
-  /// @brief Method get_rotation, addr 0x2a2ca14, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_rotation, addr 0x2b292c4, size 0x90, virtual false, abstract: false, final false
   static inline bool get_rotation();
 
-  /// @brief Method get_shouldQuit, addr 0x2a2dac4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_shouldQuit, addr 0x2b2a374, size 0x5c, virtual false, abstract: false, final false
   static inline bool get_shouldQuit();
 
-  /// @brief Method get_shouldRecenter, addr 0x2a2db20, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_shouldRecenter, addr 0x2b2a3d0, size 0x5c, virtual false, abstract: false, final false
   static inline bool get_shouldRecenter();
 
-  /// @brief Method get_suggestedCpuPerfLevel, addr 0x2a2deb0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method get_suggestedCpuPerfLevel, addr 0x2b2a760, size 0xd0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__ProcessorPerformanceLevel get_suggestedCpuPerfLevel();
 
-  /// @brief Method get_suggestedGpuPerfLevel, addr 0x2a2e040, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method get_suggestedGpuPerfLevel, addr 0x2b2a8f0, size 0xd0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__ProcessorPerformanceLevel get_suggestedGpuPerfLevel();
 
-  /// @brief Method get_systemDisplayFrequenciesAvailable, addr 0x2a35690, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method get_systemDisplayFrequenciesAvailable, addr 0x2b31f40, size 0x2a4, virtual false, abstract: false, final false
   static inline ::ArrayW<float_t, ::Array<float_t>*> get_systemDisplayFrequenciesAvailable();
 
-  /// @brief Method get_systemDisplayFrequency, addr 0x2a35934, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method get_systemDisplayFrequency, addr 0x2b321e4, size 0x14c, virtual false, abstract: false, final false
   static inline float_t get_systemDisplayFrequency();
 
-  /// @brief Method get_systemRegion, addr 0x2a2d288, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method get_systemRegion, addr 0x2b29b38, size 0xd4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__SystemRegion get_systemRegion();
 
-  /// @brief Method get_systemVolume, addr 0x2a2e3c8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_systemVolume, addr 0x2b2ac78, size 0x50, virtual false, abstract: false, final false
   static inline float_t get_systemVolume();
 
-  /// @brief Method get_tiledMultiResLevel, addr 0x2a35430, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_tiledMultiResLevel, addr 0x2b31ce0, size 0x4c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__OVRPlugin__TiledMultiResLevel get_tiledMultiResLevel();
 
-  /// @brief Method get_tiledMultiResSupported, addr 0x2a353e4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_tiledMultiResSupported, addr 0x2b31c94, size 0x4c, virtual false, abstract: false, final false
   static inline bool get_tiledMultiResSupported();
 
-  /// @brief Method get_useDynamicFixedFoveatedRendering, addr 0x2a35344, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_useDynamicFixedFoveatedRendering, addr 0x2b31bf4, size 0x4c, virtual false, abstract: false, final false
   static inline bool get_useDynamicFixedFoveatedRendering();
 
-  /// @brief Method get_useDynamicFoveatedRendering, addr 0x2a3516c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method get_useDynamicFoveatedRendering, addr 0x2b31a1c, size 0xf0, virtual false, abstract: false, final false
   static inline bool get_useDynamicFoveatedRendering();
 
-  /// @brief Method get_useIPDInPositionTracking, addr 0x2a2cc7c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method get_useIPDInPositionTracking, addr 0x2b2952c, size 0xd8, virtual false, abstract: false, final false
   static inline bool get_useIPDInPositionTracking();
 
-  /// @brief Method get_userPresent, addr 0x2a2d094, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_userPresent, addr 0x2b29944, size 0x90, virtual false, abstract: false, final false
   static inline bool get_userPresent();
 
-  /// @brief Method get_version, addr 0x2a2ba14, size 0x560, virtual false, abstract: false, final false
+  /// @brief Method get_version, addr 0x2b282c4, size 0x560, virtual false, abstract: false, final false
   static inline ::System::Version* get_version();
 
-  /// @brief Method get_vsyncCount, addr 0x2a2e320, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_vsyncCount, addr 0x2b2abd0, size 0x50, virtual false, abstract: false, final false
   static inline int32_t get_vsyncCount();
 
   static inline void setStaticF_MAX_CPU_CORES(int32_t value);
@@ -20938,73 +20938,73 @@ public:
 
   static inline void setStaticF_wrapperVersion(::System::Version* value);
 
-  /// @brief Method set_chromatic, addr 0x2a2c7e0, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method set_chromatic, addr 0x2b29090, size 0xf8, virtual false, abstract: false, final false
   static inline void set_chromatic(bool value);
 
-  /// @brief Method set_cpuLevel, addr 0x2a2e220, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_cpuLevel, addr 0x2b2aad0, size 0x58, virtual false, abstract: false, final false
   static inline void set_cpuLevel(int32_t value);
 
-  /// @brief Method set_eyeDepth, addr 0x2a2dd00, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_eyeDepth, addr 0x2b2a5b0, size 0x60, virtual false, abstract: false, final false
   static inline void set_eyeDepth(float_t value);
 
-  /// @brief Method set_eyeFovPremultipliedAlphaModeEnabled, addr 0x2a35c1c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method set_eyeFovPremultipliedAlphaModeEnabled, addr 0x2b324cc, size 0xe0, virtual false, abstract: false, final false
   static inline void set_eyeFovPremultipliedAlphaModeEnabled(bool value);
 
-  /// @brief Method set_eyeHeight, addr 0x2a2ddb0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_eyeHeight, addr 0x2b2a660, size 0x60, virtual false, abstract: false, final false
   static inline void set_eyeHeight(float_t value);
 
-  /// @brief Method set_eyeTrackedFoveatedRenderingEnabled, addr 0x2a34e1c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method set_eyeTrackedFoveatedRenderingEnabled, addr 0x2b316cc, size 0xe8, virtual false, abstract: false, final false
   static inline void set_eyeTrackedFoveatedRenderingEnabled(bool value);
 
-  /// @brief Method set_fixedFoveatedRenderingLevel, addr 0x2a35118, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_fixedFoveatedRenderingLevel, addr 0x2b319c8, size 0x54, virtual false, abstract: false, final false
   static inline void set_fixedFoveatedRenderingLevel(::GlobalNamespace::__OVRPlugin__FixedFoveatedRenderingLevel value);
 
-  /// @brief Method set_foveatedRenderingLevel, addr 0x2a34fe8, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method set_foveatedRenderingLevel, addr 0x2b31898, size 0xe4, virtual false, abstract: false, final false
   static inline void set_foveatedRenderingLevel(::GlobalNamespace::__OVRPlugin__FoveatedRenderingLevel value);
 
-  /// @brief Method set_gpuLevel, addr 0x2a2e2c8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_gpuLevel, addr 0x2b2ab78, size 0x58, virtual false, abstract: false, final false
   static inline void set_gpuLevel(int32_t value);
 
-  /// @brief Method set_ipd, addr 0x2a2e468, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_ipd, addr 0x2b2ad18, size 0x60, virtual false, abstract: false, final false
   static inline void set_ipd(float_t value);
 
-  /// @brief Method set_localDimming, addr 0x2a36138, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method set_localDimming, addr 0x2b329e8, size 0xe8, virtual false, abstract: false, final false
   static inline void set_localDimming(bool value);
 
-  /// @brief Method set_monoscopic, addr 0x2a2c970, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method set_monoscopic, addr 0x2b29220, size 0xa4, virtual false, abstract: false, final false
   static inline void set_monoscopic(bool value);
 
-  /// @brief Method set_occlusionMesh, addr 0x2a2e558, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method set_occlusionMesh, addr 0x2b2ae08, size 0xa4, virtual false, abstract: false, final false
   static inline void set_occlusionMesh(bool value);
 
-  /// @brief Method set_position, addr 0x2a2cbd8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method set_position, addr 0x2b29488, size 0xa4, virtual false, abstract: false, final false
   static inline void set_position(bool value);
 
-  /// @brief Method set_rotation, addr 0x2a2caa4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method set_rotation, addr 0x2b29354, size 0xa4, virtual false, abstract: false, final false
   static inline void set_rotation(bool value);
 
-  /// @brief Method set_suggestedCpuPerfLevel, addr 0x2a2df80, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method set_suggestedCpuPerfLevel, addr 0x2b2a830, size 0xc0, virtual false, abstract: false, final false
   static inline void set_suggestedCpuPerfLevel(::GlobalNamespace::__OVRPlugin__ProcessorPerformanceLevel value);
 
-  /// @brief Method set_suggestedGpuPerfLevel, addr 0x2a2e110, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method set_suggestedGpuPerfLevel, addr 0x2b2a9c0, size 0xc0, virtual false, abstract: false, final false
   static inline void set_suggestedGpuPerfLevel(::GlobalNamespace::__OVRPlugin__ProcessorPerformanceLevel value);
 
-  /// @brief Method set_systemDisplayFrequency, addr 0x2a35a80, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method set_systemDisplayFrequency, addr 0x2b32330, size 0xcc, virtual false, abstract: false, final false
   static inline void set_systemDisplayFrequency(float_t value);
 
-  /// @brief Method set_tiledMultiResLevel, addr 0x2a3547c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_tiledMultiResLevel, addr 0x2b31d2c, size 0x54, virtual false, abstract: false, final false
   static inline void set_tiledMultiResLevel(::GlobalNamespace::__OVRPlugin__TiledMultiResLevel value);
 
-  /// @brief Method set_useDynamicFixedFoveatedRendering, addr 0x2a35390, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_useDynamicFixedFoveatedRendering, addr 0x2b31c40, size 0x54, virtual false, abstract: false, final false
   static inline void set_useDynamicFixedFoveatedRendering(bool value);
 
-  /// @brief Method set_useDynamicFoveatedRendering, addr 0x2a3525c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method set_useDynamicFoveatedRendering, addr 0x2b31b0c, size 0xe8, virtual false, abstract: false, final false
   static inline void set_useDynamicFoveatedRendering(bool value);
 
-  /// @brief Method set_useIPDInPositionTracking, addr 0x2a2cd54, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method set_useIPDInPositionTracking, addr 0x2b29604, size 0xf8, virtual false, abstract: false, final false
   static inline void set_useIPDInPositionTracking(bool value);
 
-  /// @brief Method set_vsyncCount, addr 0x2a2e370, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_vsyncCount, addr 0x2b2ac20, size 0x58, virtual false, abstract: false, final false
   static inline void set_vsyncCount(int32_t value);
 
 protected:

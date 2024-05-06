@@ -7,210 +7,224 @@
 #include "GlobalNamespace/zzzz__FireworkItemController_def.hpp"
 #include "GlobalNamespace/zzzz__FireworksController_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::__FireworksController___SpawningCoroutine_d__8._ctor
+//  Writing Method size for method: ::GlobalNamespace::__FireworksController___SpawningCoroutine_d__10._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__FireworksController___SpawningCoroutine_d__8::*)(int32_t)>(
-    &::GlobalNamespace::__FireworksController___SpawningCoroutine_d__8::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__FireworksController___SpawningCoroutine_d__10::*)(int32_t)>(
+    &::GlobalNamespace::__FireworksController___SpawningCoroutine_d__10::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x25b9c40;
+  constexpr static std::size_t addrs = 0x26b7768;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FireworksController___SpawningCoroutine_d__8*>::get(), ".ctor",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FireworksController___SpawningCoroutine_d__10*>::get(), ".ctor",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__FireworksController___SpawningCoroutine_d__8.System_IDisposable_Dispose
+//  Writing Method size for method: ::GlobalNamespace::__FireworksController___SpawningCoroutine_d__10.System_IDisposable_Dispose
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__FireworksController___SpawningCoroutine_d__8::*)()>(
-    &::GlobalNamespace::__FireworksController___SpawningCoroutine_d__8::System_IDisposable_Dispose)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__FireworksController___SpawningCoroutine_d__10::*)()>(
+    &::GlobalNamespace::__FireworksController___SpawningCoroutine_d__10::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x25b9d90;
+  constexpr static std::size_t addrs = 0x26b7874;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FireworksController___SpawningCoroutine_d__8*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FireworksController___SpawningCoroutine_d__10*>::get(),
                                                  "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__FireworksController___SpawningCoroutine_d__8.MoveNext
+//  Writing Method size for method: ::GlobalNamespace::__FireworksController___SpawningCoroutine_d__10.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__FireworksController___SpawningCoroutine_d__8::*)()>(
-    &::GlobalNamespace::__FireworksController___SpawningCoroutine_d__8::MoveNext)> {
-  constexpr static std::size_t size = 0x2fc;
-  constexpr static std::size_t addrs = 0x25b9d94;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__FireworksController___SpawningCoroutine_d__10::*)()>(
+    &::GlobalNamespace::__FireworksController___SpawningCoroutine_d__10::MoveNext)> {
+  constexpr static std::size_t size = 0x36c;
+  constexpr static std::size_t addrs = 0x26b7878;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FireworksController___SpawningCoroutine_d__8*>::get(), "MoveNext",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FireworksController___SpawningCoroutine_d__10*>::get(), "MoveNext",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__FireworksController___SpawningCoroutine_d__8.System_Collections_Generic_IEnumerator_System_Object__get_Current
+//  Writing Method size for method: ::GlobalNamespace::__FireworksController___SpawningCoroutine_d__10.System_Collections_Generic_IEnumerator_System_Object__get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__FireworksController___SpawningCoroutine_d__8::*)()>(
-    &::GlobalNamespace::__FireworksController___SpawningCoroutine_d__8::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__FireworksController___SpawningCoroutine_d__10::*)()>(
+    &::GlobalNamespace::__FireworksController___SpawningCoroutine_d__10::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25ba090;
+  constexpr static std::size_t addrs = 0x26b7be4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FireworksController___SpawningCoroutine_d__8*>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FireworksController___SpawningCoroutine_d__10*>::get(),
                                     "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__FireworksController___SpawningCoroutine_d__8.System_Collections_IEnumerator_Reset
+//  Writing Method size for method: ::GlobalNamespace::__FireworksController___SpawningCoroutine_d__10.System_Collections_IEnumerator_Reset
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__FireworksController___SpawningCoroutine_d__8::*)()>(
-    &::GlobalNamespace::__FireworksController___SpawningCoroutine_d__8::System_Collections_IEnumerator_Reset)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__FireworksController___SpawningCoroutine_d__10::*)()>(
+    &::GlobalNamespace::__FireworksController___SpawningCoroutine_d__10::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x25ba098;
+  constexpr static std::size_t addrs = 0x26b7bec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FireworksController___SpawningCoroutine_d__8*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FireworksController___SpawningCoroutine_d__10*>::get(),
                                                  "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::__FireworksController___SpawningCoroutine_d__8.System_Collections_IEnumerator_get_Current
+//  Writing Method size for method: ::GlobalNamespace::__FireworksController___SpawningCoroutine_d__10.System_Collections_IEnumerator_get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__FireworksController___SpawningCoroutine_d__8::*)()>(
-    &::GlobalNamespace::__FireworksController___SpawningCoroutine_d__8::System_Collections_IEnumerator_get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__FireworksController___SpawningCoroutine_d__10::*)()>(
+    &::GlobalNamespace::__FireworksController___SpawningCoroutine_d__10::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25ba0d8;
+  constexpr static std::size_t addrs = 0x26b7c2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FireworksController___SpawningCoroutine_d__8*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FireworksController___SpawningCoroutine_d__10*>::get(),
                                                  "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-constexpr GlobalNamespace::__FireworksController___SpawningCoroutine_d__8::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
+constexpr GlobalNamespace::__FireworksController___SpawningCoroutine_d__10::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
 constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>*
-GlobalNamespace::__FireworksController___SpawningCoroutine_d__8::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
+GlobalNamespace::__FireworksController___SpawningCoroutine_d__10::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr GlobalNamespace::__FireworksController___SpawningCoroutine_d__8::operator ::System::Collections::IEnumerator*() noexcept {
+constexpr GlobalNamespace::__FireworksController___SpawningCoroutine_d__10::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* GlobalNamespace::__FireworksController___SpawningCoroutine_d__8::i___System__Collections__IEnumerator() noexcept {
+constexpr ::System::Collections::IEnumerator* GlobalNamespace::__FireworksController___SpawningCoroutine_d__10::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr GlobalNamespace::__FireworksController___SpawningCoroutine_d__8::operator ::System::IDisposable*() noexcept {
+constexpr GlobalNamespace::__FireworksController___SpawningCoroutine_d__10::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* GlobalNamespace::__FireworksController___SpawningCoroutine_d__8::i___System__IDisposable() noexcept {
+constexpr ::System::IDisposable* GlobalNamespace::__FireworksController___SpawningCoroutine_d__10::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
-constexpr int32_t& GlobalNamespace::__FireworksController___SpawningCoroutine_d__8::__cordl_internal_get___1__state() {
+constexpr int32_t& GlobalNamespace::__FireworksController___SpawningCoroutine_d__10::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr int32_t const& GlobalNamespace::__FireworksController___SpawningCoroutine_d__8::__cordl_internal_get___1__state() const {
+constexpr int32_t const& GlobalNamespace::__FireworksController___SpawningCoroutine_d__10::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr void GlobalNamespace::__FireworksController___SpawningCoroutine_d__8::__cordl_internal_set___1__state(int32_t value) {
+constexpr void GlobalNamespace::__FireworksController___SpawningCoroutine_d__10::__cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
-constexpr ::System::Object*& GlobalNamespace::__FireworksController___SpawningCoroutine_d__8::__cordl_internal_get___2__current() {
+constexpr ::System::Object*& GlobalNamespace::__FireworksController___SpawningCoroutine_d__10::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& GlobalNamespace::__FireworksController___SpawningCoroutine_d__8::__cordl_internal_get___2__current() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& GlobalNamespace::__FireworksController___SpawningCoroutine_d__10::__cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr void GlobalNamespace::__FireworksController___SpawningCoroutine_d__8::__cordl_internal_set___2__current(::System::Object* value) {
+constexpr void GlobalNamespace::__FireworksController___SpawningCoroutine_d__10::__cordl_internal_set___2__current(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::GlobalNamespace::FireworksController>& GlobalNamespace::__FireworksController___SpawningCoroutine_d__8::__cordl_internal_get___4__this() {
+constexpr ::UnityW<::GlobalNamespace::FireworksController>& GlobalNamespace::__FireworksController___SpawningCoroutine_d__10::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::UnityW<::GlobalNamespace::FireworksController> const& GlobalNamespace::__FireworksController___SpawningCoroutine_d__8::__cordl_internal_get___4__this() const {
+constexpr ::UnityW<::GlobalNamespace::FireworksController> const& GlobalNamespace::__FireworksController___SpawningCoroutine_d__10::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void GlobalNamespace::__FireworksController___SpawningCoroutine_d__8::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::FireworksController> value) {
+constexpr void GlobalNamespace::__FireworksController___SpawningCoroutine_d__10::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::FireworksController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::GlobalNamespace::__FireworksController___SpawningCoroutine_d__8* GlobalNamespace::__FireworksController___SpawningCoroutine_d__8::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__FireworksController___SpawningCoroutine_d__8*>(__1__state));
+inline ::GlobalNamespace::__FireworksController___SpawningCoroutine_d__10* GlobalNamespace::__FireworksController___SpawningCoroutine_d__10::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__FireworksController___SpawningCoroutine_d__10*>(__1__state));
 }
-inline void GlobalNamespace::__FireworksController___SpawningCoroutine_d__8::_ctor(int32_t __1__state) {
+inline void GlobalNamespace::__FireworksController___SpawningCoroutine_d__10::_ctor(int32_t __1__state) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FireworksController___SpawningCoroutine_d__8*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FireworksController___SpawningCoroutine_d__10*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
 }
-inline void GlobalNamespace::__FireworksController___SpawningCoroutine_d__8::System_IDisposable_Dispose() {
+inline void GlobalNamespace::__FireworksController___SpawningCoroutine_d__10::System_IDisposable_Dispose() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FireworksController___SpawningCoroutine_d__8*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FireworksController___SpawningCoroutine_d__10*>::get(),
                                                "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool GlobalNamespace::__FireworksController___SpawningCoroutine_d__8::MoveNext() {
+inline bool GlobalNamespace::__FireworksController___SpawningCoroutine_d__10::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FireworksController___SpawningCoroutine_d__8*>::get(), "MoveNext",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FireworksController___SpawningCoroutine_d__10*>::get(), "MoveNext",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::__FireworksController___SpawningCoroutine_d__8::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
+inline ::System::Object* GlobalNamespace::__FireworksController___SpawningCoroutine_d__10::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FireworksController___SpawningCoroutine_d__8*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FireworksController___SpawningCoroutine_d__10*>::get(),
                                   "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::__FireworksController___SpawningCoroutine_d__8::System_Collections_IEnumerator_Reset() {
+inline void GlobalNamespace::__FireworksController___SpawningCoroutine_d__10::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FireworksController___SpawningCoroutine_d__8*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FireworksController___SpawningCoroutine_d__10*>::get(),
                                                "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::__FireworksController___SpawningCoroutine_d__8::System_Collections_IEnumerator_get_Current() {
+inline ::System::Object* GlobalNamespace::__FireworksController___SpawningCoroutine_d__10::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FireworksController___SpawningCoroutine_d__8*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FireworksController___SpawningCoroutine_d__10*>::get(),
                                                "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__FireworksController___SpawningCoroutine_d__8::__FireworksController___SpawningCoroutine_d__8() {}
+constexpr ::GlobalNamespace::__FireworksController___SpawningCoroutine_d__10::__FireworksController___SpawningCoroutine_d__10() {}
 //  Writing Method size for method: ::GlobalNamespace::FireworksController.OnEnable
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FireworksController::*)()>(&::GlobalNamespace::FireworksController::OnEnable)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x25b9bb8;
+  constexpr static std::size_t addrs = 0x26b7574;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FireworksController*>::get(), "OnEnable",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::FireworksController.OnDisable
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FireworksController::*)()>(&::GlobalNamespace::FireworksController::OnDisable)> {
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x26b75fc;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FireworksController*>::get(), "OnDisable",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
@@ -221,7 +235,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::FireworksController::*)()>(
     &::GlobalNamespace::FireworksController::SpawningCoroutine)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x25b9bd8;
+  constexpr static std::size_t addrs = 0x26b7594;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FireworksController*>::get(),
@@ -229,17 +243,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::FireworksController.HandleFireworkItemControllerDidFinish
+//  Writing Method size for method: ::GlobalNamespace::FireworksController.ClearFireworkItemController
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FireworksController::*)(::GlobalNamespace::FireworkItemController*)>(
-    &::GlobalNamespace::FireworksController::HandleFireworkItemControllerDidFinish)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x25b9c68;
+    &::GlobalNamespace::FireworksController::ClearFireworkItemController)> {
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x26b7688;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FireworksController*>::get(), "HandleFireworkItemControllerDidFinish", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FireworksController*>::get(), "ClearFireworkItemController", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::FireworkItemController*>::get() })));
     return ___internal_method;
   }
@@ -249,7 +263,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FireworksController::*)()>(&::GlobalNamespace::FireworksController::OnDrawGizmosSelected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x25b9d20;
+  constexpr static std::size_t addrs = 0x26b7790;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FireworksController*>::get(),
@@ -261,8 +275,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FireworksController::*)()>(&::GlobalNamespace::FireworksController::_ctor)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x25b9d74;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x26b77e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FireworksController*>::get(), ".ctor",
@@ -357,8 +371,26 @@ constexpr void GlobalNamespace::FireworksController::__cordl_internal_set__firew
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____fireworkItemPool)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
+constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::FireworkItemController>>*& GlobalNamespace::FireworksController::__cordl_internal_get__activeFireworks() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____activeFireworks;
+}
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::FireworkItemController>>*> const&
+GlobalNamespace::FireworksController::__cordl_internal_get__activeFireworks() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____activeFireworks;
+}
+constexpr void GlobalNamespace::FireworksController::__cordl_internal_set__activeFireworks(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::FireworkItemController>>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____activeFireworks)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
 inline void GlobalNamespace::FireworksController::OnEnable() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FireworksController*>::get(), "OnEnable",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void GlobalNamespace::FireworksController::OnDisable() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FireworksController*>::get(), "OnDisable",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
@@ -367,9 +399,9 @@ inline ::System::Collections::IEnumerator* GlobalNamespace::FireworksController:
                                                                              "SpawningCoroutine", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::FireworksController::HandleFireworkItemControllerDidFinish(::GlobalNamespace::FireworkItemController* fireworkItemController) {
+inline void GlobalNamespace::FireworksController::ClearFireworkItemController(::GlobalNamespace::FireworkItemController* fireworkItemController) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FireworksController*>::get(), "HandleFireworkItemControllerDidFinish", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FireworksController*>::get(), "ClearFireworkItemController", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::FireworkItemController*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, fireworkItemController);
 }

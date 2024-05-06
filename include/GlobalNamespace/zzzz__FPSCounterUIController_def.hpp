@@ -71,21 +71,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x23d8f68, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x24d0b6c, size 0x94, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__FPSCounterUIController___Start_d__9* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x23d8ffc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x24d0c00, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x23d9004, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x24d0c08, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x23d9044, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x24d0c48, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x23d8f64, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x24d0b68, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -106,7 +106,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::FPSCounterUIController> value);
 
-  /// @brief Method .ctor, addr 0x23d8de8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24d09ec, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -187,15 +187,15 @@ public:
   /// @brief Field _uiUpdateTimeInterval, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__uiUpdateTimeInterval, put = __cordl_internal_set__uiUpdateTimeInterval)) float_t _uiUpdateTimeInterval;
 
-  /// @brief Method Awake, addr 0x23d8d20, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x24d0924, size 0x60, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method LateUpdate, addr 0x23d8e10, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x24d0a14, size 0x144, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::FPSCounterUIController* New_ctor();
 
-  /// @brief Method Start, addr 0x23d8d80, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x24d0984, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Start();
 
   constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__currentFPSText() const;
@@ -246,7 +246,7 @@ public:
 
   constexpr void __cordl_internal_set__uiUpdateTimeInterval(float_t value);
 
-  /// @brief Method .ctor, addr 0x23d8f54, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24d0b58, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

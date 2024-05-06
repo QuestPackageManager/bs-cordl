@@ -30,25 +30,25 @@ namespace System {
 class CORDL_TYPE UriTypeConverter : public ::System::ComponentModel::TypeConverter {
 public:
   // Declarations
-  /// @brief Method CanConvert, addr 0x2e8263c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method CanConvert, addr 0x2f81f3c, size 0xe4, virtual false, abstract: false, final false
   inline bool CanConvert(::System::Type* type);
 
-  /// @brief Method CanConvertFrom, addr 0x2e82720, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method CanConvertFrom, addr 0x2f82020, size 0xb4, virtual true, abstract: false, final false
   inline bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* sourceType);
 
-  /// @brief Method CanConvertTo, addr 0x2e827d4, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method CanConvertTo, addr 0x2f820d4, size 0x78, virtual true, abstract: false, final false
   inline bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* destinationType);
 
-  /// @brief Method ConvertFrom, addr 0x2e8284c, size 0x1ac, virtual true, abstract: false, final false
+  /// @brief Method ConvertFrom, addr 0x2f8214c, size 0x1ac, virtual true, abstract: false, final false
   inline ::System::Object* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value);
 
-  /// @brief Method ConvertTo, addr 0x2e829f8, size 0x1ec, virtual true, abstract: false, final false
+  /// @brief Method ConvertTo, addr 0x2f822f8, size 0x1ec, virtual true, abstract: false, final false
   inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
                                      ::System::Type* destinationType);
 
   static inline ::System::UriTypeConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e82634, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f81f34, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

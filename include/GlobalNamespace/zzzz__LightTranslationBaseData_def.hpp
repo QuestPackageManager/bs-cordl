@@ -61,7 +61,7 @@ public:
 
   constexpr void __cordl_internal_set_usePreviousEventTranslationValue(bool value);
 
-  /// @brief Method .ctor, addr 0x13c0268, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14b59b0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, bool usePreviousEventTranslationValue, ::GlobalNamespace::EaseType easeType, float_t translation);
 
 protected:

@@ -192,13 +192,13 @@ public:
 
   constexpr void __cordl_internal_set__viewportLocal(::HoudiniEngineUnity::HAPI_Viewport value);
 
-  /// @brief Method .ctor, addr 0x248d9d0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x258765c, size 0xac, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_SyncStatus, addr 0x249063c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_SyncStatus, addr 0x258a2c8, size 0x14, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::__HEU_SessionSyncData__Status get_SyncStatus();
 
-  /// @brief Method set_SyncStatus, addr 0x2490650, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_SyncStatus, addr 0x258a2dc, size 0xc, virtual false, abstract: false, final false
   inline void set_SyncStatus(::HoudiniEngineUnity::__HEU_SessionSyncData__Status value);
 
 protected:

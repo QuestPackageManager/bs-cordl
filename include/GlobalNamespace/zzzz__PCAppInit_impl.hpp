@@ -3,13 +3,16 @@
 #include "GlobalNamespace/zzzz__PCAppInit_def.hpp"
 #include "GlobalNamespace/zzzz__DefaultScenesTransitionsFromInit_def.hpp"
 #include "GlobalNamespace/zzzz__MainSystemInit_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
+#include "GlobalNamespace/zzzz__SettingsApplicatorSO_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
+#include "Zenject/zzzz__LazyInject_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PCAppInit.AppStartAndMultiSceneEditorSetup
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PCAppInit::*)()>(&::GlobalNamespace::PCAppInit::AppStartAndMultiSceneEditorSetup)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x250b71c;
+  constexpr static std::size_t addrs = 0x2602764;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -23,8 +26,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::PCAppInit::*)()>(
     &::GlobalNamespace::PCAppInit::RepeatableSetupAsync)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x250b784;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x26027cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -37,8 +40,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PCAppInit::*)()>(&::GlobalNamespace::PCAppInit::TransitionToNextScene)> {
-  constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x250b820;
+  constexpr static std::size_t size = 0x1bc;
+  constexpr static std::size_t addrs = 0x260286c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -51,8 +54,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PCAppInit::*)()>(&::GlobalNamespace::PCAppInit::InstallBindings)> {
-  constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x250b980;
+  constexpr static std::size_t size = 0x248;
+  constexpr static std::size_t addrs = 0x2602a28;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -66,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PCAppInit::*)()>(&::GlobalNamespace::PCAppInit::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x250bb4c;
+  constexpr static std::size_t addrs = 0x2602c70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PCAppInit*>::get(), ".ctor",
@@ -86,6 +89,18 @@ constexpr void GlobalNamespace::PCAppInit::__cordl_internal_set__mainSystemInit(
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mainSystemInit)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
+constexpr ::UnityW<::GlobalNamespace::SettingsApplicatorSO>& GlobalNamespace::PCAppInit::__cordl_internal_get__settingsApplicator() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____settingsApplicator;
+}
+constexpr ::UnityW<::GlobalNamespace::SettingsApplicatorSO> const& GlobalNamespace::PCAppInit::__cordl_internal_get__settingsApplicator() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____settingsApplicator;
+}
+constexpr void GlobalNamespace::PCAppInit::__cordl_internal_set__settingsApplicator(::UnityW<::GlobalNamespace::SettingsApplicatorSO> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____settingsApplicator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
 constexpr ::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit>& GlobalNamespace::PCAppInit::__cordl_internal_get__defaultScenesTransitionsFromInit() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultScenesTransitionsFromInit;
@@ -97,6 +112,18 @@ constexpr ::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit> const& G
 constexpr void GlobalNamespace::PCAppInit::__cordl_internal_set__defaultScenesTransitionsFromInit(::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____defaultScenesTransitionsFromInit)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::Zenject::LazyInject_1<::UnityW<::GlobalNamespace::PlayerDataModel>>*& GlobalNamespace::PCAppInit::__cordl_internal_get__playerDataModel() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____playerDataModel;
+}
+constexpr ::cordl_internals::to_const_pointer<::Zenject::LazyInject_1<::UnityW<::GlobalNamespace::PlayerDataModel>>*> const& GlobalNamespace::PCAppInit::__cordl_internal_get__playerDataModel() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____playerDataModel;
+}
+constexpr void GlobalNamespace::PCAppInit::__cordl_internal_set__playerDataModel(::Zenject::LazyInject_1<::UnityW<::GlobalNamespace::PlayerDataModel>>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playerDataModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::PCAppInit::AppStartAndMultiSceneEditorSetup() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),

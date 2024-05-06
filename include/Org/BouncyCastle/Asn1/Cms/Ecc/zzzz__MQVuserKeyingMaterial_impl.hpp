@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::Ecc::MQVuserKeyingMaterial::*)(
     ::Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey*, ::Org::BouncyCastle::Asn1::Asn1OctetString*)>(&::Org::BouncyCastle::Asn1::Cms::Ecc::MQVuserKeyingMaterial::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0xfda71c;
+  constexpr static std::size_t addrs = 0x10cde40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::Ecc::MQVuserKeyingMaterial::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Cms::Ecc::MQVuserKeyingMaterial::_ctor)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0xfda748;
+  constexpr static std::size_t addrs = 0x10cde6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cms::Ecc::MQVuserKeyingMaterial* (*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(
     &::Org::BouncyCastle::Asn1::Cms::Ecc::MQVuserKeyingMaterial::GetInstance)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0xfda988;
+  constexpr static std::size_t addrs = 0x10ce0ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cms::Ecc::MQVuserKeyingMaterial* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Cms::Ecc::MQVuserKeyingMaterial::GetInstance)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0xfda9a0;
+  constexpr static std::size_t addrs = 0x10ce0c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey* (
     ::Org::BouncyCastle::Asn1::Cms::Ecc::MQVuserKeyingMaterial::*)()>(&::Org::BouncyCastle::Asn1::Cms::Ecc::MQVuserKeyingMaterial::get_EphemeralPublicKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xfdab18;
+  constexpr static std::size_t addrs = 0x10ce23c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1OctetString* (::Org::BouncyCastle::Asn1::Cms::Ecc::MQVuserKeyingMaterial::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::Ecc::MQVuserKeyingMaterial::get_AddedUkm)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xfdab20;
+  constexpr static std::size_t addrs = 0x10ce244;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Cms::Ecc::MQVuserKeyingMaterial::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::Ecc::MQVuserKeyingMaterial::ToAsn1Object)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0xfdab28;
+  constexpr static std::size_t addrs = 0x10ce24c;
 
   inline static ::MethodInfo const* methodInfo() {
 

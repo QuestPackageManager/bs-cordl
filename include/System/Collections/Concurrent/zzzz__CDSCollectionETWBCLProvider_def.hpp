@@ -3,7 +3,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Diagnostics/Tracing/zzzz__EventSource_def.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(CDSCollectionETWBCLProvider)
 // Forward declare root types
 namespace System::Collections::Concurrent {
@@ -22,12 +21,15 @@ public:
   /// @brief Field Log, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Log, put = setStaticF_Log))::System::Collections::Concurrent::CDSCollectionETWBCLProvider* Log;
 
-  /// @brief Method ConcurrentDictionary_AcquiringAllLocks, addr 0x281199c, size 0x4, virtual false, abstract: false, final false
-  inline void ConcurrentDictionary_AcquiringAllLocks(int32_t numOfBuckets);
+  /// @brief Method ConcurrentBag_TryPeekSteals, addr 0x2f74b4c, size 0x38, virtual false, abstract: false, final false
+  inline void ConcurrentBag_TryPeekSteals();
+
+  /// @brief Method ConcurrentBag_TryTakeSteals, addr 0x2f74b14, size 0x38, virtual false, abstract: false, final false
+  inline void ConcurrentBag_TryTakeSteals();
 
   static inline ::System::Collections::Concurrent::CDSCollectionETWBCLProvider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2811998, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f74b0c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Concurrent::CDSCollectionETWBCLProvider* getStaticF_Log();

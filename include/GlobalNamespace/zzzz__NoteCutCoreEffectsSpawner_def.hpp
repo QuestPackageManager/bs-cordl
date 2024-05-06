@@ -103,30 +103,30 @@ public:
   __declspec(property(get = __cordl_internal_get__sliderInteractionManagers,
                       put = __cordl_internal_set__sliderInteractionManagers))::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::SliderInteractionManager>>* _sliderInteractionManagers;
 
-  /// @brief Method HandleNoteWasCut, addr 0x25c3ccc, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasCut, addr 0x26c2a24, size 0x198, virtual false, abstract: false, final false
   inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
-  /// @brief Method IsArcHapticsCurrentlyActive, addr 0x25c458c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method IsArcHapticsCurrentlyActive, addr 0x26c32e4, size 0x94, virtual false, abstract: false, final false
   inline bool IsArcHapticsCurrentlyActive(::GlobalNamespace::ColorType colorType);
 
   static inline ::GlobalNamespace::NoteCutCoreEffectsSpawner* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x25c3c34, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x26c298c, size 0x98, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method PlayHitChainNoteHapticEffect, addr 0x25c4524, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method PlayHitChainNoteHapticEffect, addr 0x26c327c, size 0x68, virtual false, abstract: false, final false
   inline void PlayHitChainNoteHapticEffect(::GlobalNamespace::NoteCutInfo noteCutInfo, bool isChainHead);
 
-  /// @brief Method PlayHitNoteHapticEffect, addr 0x25c43d0, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method PlayHitNoteHapticEffect, addr 0x26c3128, size 0x104, virtual false, abstract: false, final false
   inline void PlayHitNoteHapticEffect(::GlobalNamespace::NoteCutInfo noteCutInfo, ::GlobalNamespace::NoteData* noteData);
 
-  /// @brief Method SpawnBombCutEffect, addr 0x25c44d4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method SpawnBombCutEffect, addr 0x26c322c, size 0x50, virtual false, abstract: false, final false
   inline void SpawnBombCutEffect(ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo, ::GlobalNamespace::NoteController* noteController);
 
-  /// @brief Method SpawnNoteCutEffect, addr 0x25c3e64, size 0x56c, virtual false, abstract: false, final false
+  /// @brief Method SpawnNoteCutEffect, addr 0x26c2bbc, size 0x56c, virtual false, abstract: false, final false
   inline void SpawnNoteCutEffect(ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo, ::GlobalNamespace::NoteController* noteController, int32_t sparkleParticlesCount, int32_t explosionParticlesCount);
 
-  /// @brief Method Start, addr 0x25c3a50, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x26c27a8, size 0x1e4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
@@ -199,7 +199,7 @@ public:
 
   constexpr void __cordl_internal_set__sliderInteractionManagers(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::SliderInteractionManager>>* value);
 
-  /// @brief Method .ctor, addr 0x25c4eb0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c3c08, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

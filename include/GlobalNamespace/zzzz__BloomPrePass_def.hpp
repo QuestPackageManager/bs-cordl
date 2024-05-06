@@ -112,24 +112,24 @@ public:
   /// @brief Field _renderData, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__renderData, put = __cordl_internal_set__renderData))::GlobalNamespace::__BloomPrePassRenderDataSO__Data* _renderData;
 
-  /// @brief Method Awake, addr 0x23ed630, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x24e5220, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method LazyInit, addr 0x23ed634, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method LazyInit, addr 0x24e5224, size 0xc8, virtual false, abstract: false, final false
   inline void LazyInit();
 
   static inline ::GlobalNamespace::BloomPrePass* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x23ed848, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x24e5438, size 0xac, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnPostRender, addr 0x23eeaf4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method OnPostRender, addr 0x24e66e4, size 0x94, virtual false, abstract: false, final false
   inline void OnPostRender();
 
-  /// @brief Method OnPreRender, addr 0x23ed8f4, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method OnPreRender, addr 0x24e54e4, size 0x24c, virtual false, abstract: false, final false
   inline void OnPreRender();
 
-  /// @brief Method SetMode, addr 0x23eeba4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetMode, addr 0x24e6794, size 0x8, virtual false, abstract: false, final false
   inline void SetMode(::GlobalNamespace::__BloomPrePass__Mode mode);
 
   constexpr ::UnityW<::GlobalNamespace::BloomPrePassEffectContainerSO> const& __cordl_internal_get__bloomPrePassEffectContainer() const;
@@ -162,7 +162,7 @@ public:
 
   constexpr void __cordl_internal_set__renderData(::GlobalNamespace::__BloomPrePassRenderDataSO__Data* value);
 
-  /// @brief Method .ctor, addr 0x23eebac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24e679c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -26,14 +26,14 @@ class AnnotatedBeatmapLevelCollectionsGridViewAnimator;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator);
 // Type: ::AnnotatedBeatmapLevelCollectionsGridViewAnimator
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::AnnotatedBeatmapLevelCollectionsGridViewAnimator*
 class CORDL_TYPE AnnotatedBeatmapLevelCollectionsGridViewAnimator : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _contentPositionTween, offset 0x50, size 0x8
+  /// @brief Field _contentPositionTween, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__contentPositionTween, put = __cordl_internal_set__contentPositionTween))::Tweening::Vector2Tween* _contentPositionTween;
 
   /// @brief Field _contentTransform, offset 0x20, size 0x8
@@ -42,73 +42,76 @@ public:
   /// @brief Field _easeType, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get__easeType, put = __cordl_internal_set__easeType))::GlobalNamespace::EaseType _easeType;
 
-  /// @brief Field _rowCount, offset 0x3c, size 0x4
+  /// @brief Field _padding, offset 0x30, size 0x4
+  __declspec(property(get = __cordl_internal_get__padding, put = __cordl_internal_set__padding)) float_t _padding;
+
+  /// @brief Field _rowCount, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get__rowCount, put = __cordl_internal_set__rowCount)) int32_t _rowCount;
 
-  /// @brief Field _rowHeight, offset 0x38, size 0x4
+  /// @brief Field _rowHeight, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get__rowHeight, put = __cordl_internal_set__rowHeight)) float_t _rowHeight;
 
-  /// @brief Field _selectedRow, offset 0x40, size 0x4
+  /// @brief Field _selectedRow, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get__selectedRow, put = __cordl_internal_set__selectedRow)) int32_t _selectedRow;
 
   /// @brief Field _transitionDuration, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__transitionDuration, put = __cordl_internal_set__transitionDuration)) float_t _transitionDuration;
 
-  /// @brief Field _tweeningManager, offset 0x30, size 0x8
+  /// @brief Field _tweeningManager, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager))::UnityW<::Tweening::TimeTweeningManager> _tweeningManager;
 
-  /// @brief Field _viewportSizeTween, offset 0x48, size 0x8
+  /// @brief Field _viewportSizeTween, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__viewportSizeTween, put = __cordl_internal_set__viewportSizeTween))::Tweening::Vector2Tween* _viewportSizeTween;
 
   /// @brief Field _viewportTransform, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__viewportTransform, put = __cordl_internal_set__viewportTransform))::UnityW<::UnityEngine::RectTransform> _viewportTransform;
 
-  /// @brief Method AnimateClose, addr 0x256cb48, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method AnimateClose, addr 0x2664dac, size 0x308, virtual false, abstract: false, final false
   inline void AnimateClose(int32_t selectedRow, bool animated);
 
-  /// @brief Method AnimateOpen, addr 0x256c7e4, size 0x334, virtual false, abstract: false, final false
+  /// @brief Method AnimateOpen, addr 0x2664a3c, size 0x340, virtual false, abstract: false, final false
   inline void AnimateOpen(bool animated);
 
-  /// @brief Method DespawnAllActiveTweens, addr 0x256ddb0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method DespawnAllActiveTweens, addr 0x26658a8, size 0xc8, virtual false, abstract: false, final false
   inline void DespawnAllActiveTweens();
 
-  /// @brief Method GetContentYOffset, addr 0x256dd80, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetContentYOffset, addr 0x2665878, size 0x2c, virtual false, abstract: false, final false
   inline float_t GetContentYOffset();
 
-  /// @brief Method Init, addr 0x256b9d4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2663d70, size 0xb0, virtual false, abstract: false, final false
   inline void Init(float_t rowHeight, int32_t rowCount);
 
   static inline ::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x256ddac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x26658a4, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method ScrollToRowIdxInstant, addr 0x256c734, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ScrollToRowIdxInstant, addr 0x266498c, size 0x5c, virtual false, abstract: false, final false
   inline void ScrollToRowIdxInstant(int32_t selectedRow);
 
-  /// @brief Method <AnimateClose>b__14_0, addr 0x256dfd8, size 0x1c, virtual false, abstract: false, final false
-  inline void _AnimateClose_b__14_0(::UnityEngine::Vector2 size);
+  /// @brief Method <AnimateClose>b__15_0, addr 0x2665ad8, size 0x1c, virtual false, abstract: false, final false
+  inline void _AnimateClose_b__15_0(::UnityEngine::Vector2 size);
 
-  /// @brief Method <AnimateClose>b__14_1, addr 0x256dff4, size 0x88, virtual false, abstract: false, final false
-  inline void _AnimateClose_b__14_1();
+  /// @brief Method <AnimateClose>b__15_1, addr 0x2665af4, size 0x88, virtual false, abstract: false, final false
+  inline void _AnimateClose_b__15_1();
 
-  /// @brief Method <AnimateClose>b__14_2, addr 0x256e07c, size 0x1c, virtual false, abstract: false, final false
-  inline void _AnimateClose_b__14_2(::UnityEngine::Vector2 pos);
+  /// @brief Method <AnimateClose>b__15_2, addr 0x2665b7c, size 0x1c, virtual false, abstract: false, final false
+  inline void _AnimateClose_b__15_2(::UnityEngine::Vector2 pos);
 
-  /// @brief Method <AnimateClose>b__14_3, addr 0x256e098, size 0x88, virtual false, abstract: false, final false
-  inline void _AnimateClose_b__14_3();
+  /// @brief Method <AnimateClose>b__15_3, addr 0x2665b98, size 0x88, virtual false, abstract: false, final false
+  inline void _AnimateClose_b__15_3();
 
-  /// @brief Method <AnimateOpen>b__13_0, addr 0x256de90, size 0x1c, virtual false, abstract: false, final false
-  inline void _AnimateOpen_b__13_0(::UnityEngine::Vector2 size);
+  /// @brief Method <AnimateOpen>b__14_0, addr 0x2665990, size 0x1c, virtual false, abstract: false, final false
+  inline void _AnimateOpen_b__14_0(::UnityEngine::Vector2 size);
 
-  /// @brief Method <AnimateOpen>b__13_1, addr 0x256deac, size 0x88, virtual false, abstract: false, final false
-  inline void _AnimateOpen_b__13_1();
+  /// @brief Method <AnimateOpen>b__14_1, addr 0x26659ac, size 0x88, virtual false, abstract: false, final false
+  inline void _AnimateOpen_b__14_1();
 
-  /// @brief Method <AnimateOpen>b__13_2, addr 0x256df34, size 0x1c, virtual false, abstract: false, final false
-  inline void _AnimateOpen_b__13_2(::UnityEngine::Vector2 pos);
+  /// @brief Method <AnimateOpen>b__14_2, addr 0x2665a34, size 0x1c, virtual false, abstract: false, final false
+  inline void _AnimateOpen_b__14_2(::UnityEngine::Vector2 pos);
 
-  /// @brief Method <AnimateOpen>b__13_3, addr 0x256df50, size 0x88, virtual false, abstract: false, final false
-  inline void _AnimateOpen_b__13_3();
+  /// @brief Method <AnimateOpen>b__14_3, addr 0x2665a50, size 0x88, virtual false, abstract: false, final false
+  inline void _AnimateOpen_b__14_3();
 
   constexpr ::Tweening::Vector2Tween*& __cordl_internal_get__contentPositionTween();
 
@@ -121,6 +124,10 @@ public:
   constexpr ::GlobalNamespace::EaseType const& __cordl_internal_get__easeType() const;
 
   constexpr ::GlobalNamespace::EaseType& __cordl_internal_get__easeType();
+
+  constexpr float_t const& __cordl_internal_get__padding() const;
+
+  constexpr float_t& __cordl_internal_get__padding();
 
   constexpr int32_t const& __cordl_internal_get__rowCount() const;
 
@@ -156,6 +163,8 @@ public:
 
   constexpr void __cordl_internal_set__easeType(::GlobalNamespace::EaseType value);
 
+  constexpr void __cordl_internal_set__padding(float_t value);
+
   constexpr void __cordl_internal_set__rowCount(int32_t value);
 
   constexpr void __cordl_internal_set__rowHeight(float_t value);
@@ -170,7 +179,7 @@ public:
 
   constexpr void __cordl_internal_set__viewportTransform(::UnityW<::UnityEngine::RectTransform> value);
 
-  /// @brief Method .ctor, addr 0x256de78, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2665970, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -199,28 +208,31 @@ public:
   /// @brief Field _easeType, offset: 0x2c, size: 0x4, def value: None
   ::GlobalNamespace::EaseType ____easeType;
 
-  /// @brief Field _tweeningManager, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _padding, offset: 0x30, size: 0x4, def value: None
+  float_t ____padding;
+
+  /// @brief Field _tweeningManager, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::Tweening::TimeTweeningManager> ____tweeningManager;
 
-  /// @brief Field _rowHeight, offset: 0x38, size: 0x4, def value: None
+  /// @brief Field _rowHeight, offset: 0x40, size: 0x4, def value: None
   float_t ____rowHeight;
 
-  /// @brief Field _rowCount, offset: 0x3c, size: 0x4, def value: None
+  /// @brief Field _rowCount, offset: 0x44, size: 0x4, def value: None
   int32_t ____rowCount;
 
-  /// @brief Field _selectedRow, offset: 0x40, size: 0x4, def value: None
+  /// @brief Field _selectedRow, offset: 0x48, size: 0x4, def value: None
   int32_t ____selectedRow;
 
-  /// @brief Field _viewportSizeTween, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field _viewportSizeTween, offset: 0x50, size: 0x8, def value: None
   ::Tweening::Vector2Tween* ____viewportSizeTween;
 
-  /// @brief Field _contentPositionTween, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field _contentPositionTween, offset: 0x58, size: 0x8, def value: None
   ::Tweening::Vector2Tween* ____contentPositionTween;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator, 0x58>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator, 0x60>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator, ____viewportTransform) == 0x18, "Offset mismatch!");
 
@@ -230,17 +242,19 @@ static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridVi
 
 static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator, ____easeType) == 0x2c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator, ____tweeningManager) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator, ____padding) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator, ____rowHeight) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator, ____tweeningManager) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator, ____rowCount) == 0x3c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator, ____rowHeight) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator, ____selectedRow) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator, ____rowCount) == 0x44, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator, ____viewportSizeTween) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator, ____selectedRow) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator, ____contentPositionTween) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator, ____viewportSizeTween) == 0x50, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator, ____contentPositionTween) == 0x58, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridViewAnimator);

@@ -31,13 +31,13 @@ public:
 
   static inline ::UnityEngine::AssetReferenceUILabelRestriction* New_ctor(::ArrayW<::StringW, ::Array<::StringW>*> allowedLabels);
 
-  /// @brief Method ToString, addr 0x2f43978, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3045278, size 0xf4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ValidateAsset, addr 0x2f43968, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ValidateAsset, addr 0x3045268, size 0x8, virtual true, abstract: false, final false
   inline bool ValidateAsset(::UnityEngine::Object* obj);
 
-  /// @brief Method ValidateAsset, addr 0x2f43970, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ValidateAsset, addr 0x3045270, size 0x8, virtual true, abstract: false, final false
   inline bool ValidateAsset(::StringW path);
 
   constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_m_AllowedLabels() const;
@@ -52,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set_m_CachedToString(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2f43940, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3045240, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::StringW, ::Array<::StringW>*> allowedLabels);
 
 protected:

@@ -20,10 +20,10 @@ public:
   // Declarations
   static inline ::GlobalNamespace::PersistentScriptableObject* New_ctor();
 
-  /// @brief Method OnEnable, addr 0xf90e08, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x1085714, size 0x24, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method .ctor, addr 0xf90e2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1085738, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

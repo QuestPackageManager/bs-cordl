@@ -29,7 +29,7 @@ public:
 
   __declspec(property(get = get_sceneInfo))::UnityW<::GlobalNamespace::SceneInfo> sceneInfo;
 
-  /// @brief Method Init, addr 0xf7ec00, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x10711b0, size 0xec, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::SceneSetupData* sceneSetupData);
 
   static inline ::GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO* New_ctor();
@@ -40,10 +40,10 @@ public:
 
   constexpr void __cordl_internal_set__sceneInfo(::UnityW<::GlobalNamespace::SceneInfo> value);
 
-  /// @brief Method .ctor, addr 0xf7edd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1071384, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_sceneInfo, addr 0xf7eec0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sceneInfo, addr 0x1071470, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::SceneInfo> get_sceneInfo();
 
 protected:

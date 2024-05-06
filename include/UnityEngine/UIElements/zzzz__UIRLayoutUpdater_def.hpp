@@ -40,23 +40,23 @@ public:
 
   static inline ::UnityEngine::UIElements::UIRLayoutUpdater* New_ctor();
 
-  /// @brief Method OnVersionChanged, addr 0x33c7c48, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method OnVersionChanged, addr 0x35cd984, size 0x48, virtual true, abstract: false, final false
   inline void OnVersionChanged(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType);
 
-  /// @brief Method Update, addr 0x33c7c90, size 0x2ec, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x35cd9cc, size 0x2ec, virtual true, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateSubTree, addr 0x33c7f7c, size 0x810, virtual false, abstract: false, final false
+  /// @brief Method UpdateSubTree, addr 0x35cdcb8, size 0x810, virtual false, abstract: false, final false
   inline void UpdateSubTree(::UnityEngine::UIElements::VisualElement* ve, int32_t currentLayoutPass, bool isDisplayed);
 
-  /// @brief Method .ctor, addr 0x33c878c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35ce4c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_s_Description();
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_ProfilerMarker();
 
-  /// @brief Method get_profilerMarker, addr 0x33c7bf0, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_profilerMarker, addr 0x35cd92c, size 0x58, virtual true, abstract: false, final false
   inline ::Unity::Profiling::ProfilerMarker get_profilerMarker();
 
   static inline void setStaticF_s_Description(::StringW value);

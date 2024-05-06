@@ -45,37 +45,37 @@ namespace System::Text::RegularExpressions {
 struct CORDL_TYPE RegexWriter {
 public:
   // Declarations
-  /// @brief Method Dispose, addr 0x2e9e37c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x2f9ec7c, size 0x54, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method Emit, addr 0x2e9ef90, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Emit, addr 0x2f9f890, size 0xe4, virtual false, abstract: false, final false
   inline void Emit(int32_t op);
 
-  /// @brief Method Emit, addr 0x2e9e3d0, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method Emit, addr 0x2f9ecd0, size 0x14c, virtual false, abstract: false, final false
   inline void Emit(int32_t op, int32_t opd1);
 
-  /// @brief Method Emit, addr 0x2e9f074, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method Emit, addr 0x2f9f974, size 0x1ac, virtual false, abstract: false, final false
   inline void Emit(int32_t op, int32_t opd1, int32_t opd2);
 
-  /// @brief Method EmitFragment, addr 0x2e9e51c, size 0xa10, virtual false, abstract: false, final false
+  /// @brief Method EmitFragment, addr 0x2f9ee1c, size 0xa10, virtual false, abstract: false, final false
   inline void EmitFragment(int32_t nodetype, ::System::Text::RegularExpressions::RegexNode* node, int32_t curIndex);
 
-  /// @brief Method MapCapnum, addr 0x2e9f36c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method MapCapnum, addr 0x2f9fc6c, size 0xb4, virtual false, abstract: false, final false
   inline int32_t MapCapnum(int32_t capnum);
 
-  /// @brief Method PatchJump, addr 0x2e9ef2c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method PatchJump, addr 0x2f9f82c, size 0x64, virtual false, abstract: false, final false
   inline void PatchJump(int32_t offset, int32_t jumpDest);
 
-  /// @brief Method RegexCodeFromRegexTree, addr 0x2e9df1c, size 0x460, virtual false, abstract: false, final false
+  /// @brief Method RegexCodeFromRegexTree, addr 0x2f9e81c, size 0x460, virtual false, abstract: false, final false
   inline ::System::Text::RegularExpressions::RegexCode* RegexCodeFromRegexTree(::System::Text::RegularExpressions::RegexTree* tree);
 
-  /// @brief Method StringCode, addr 0x2e9f220, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method StringCode, addr 0x2f9fb20, size 0x14c, virtual false, abstract: false, final false
   inline int32_t StringCode(::StringW str);
 
-  /// @brief Method Write, addr 0x2e9de18, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0x2f9e718, size 0x104, virtual false, abstract: false, final false
   static inline ::System::Text::RegularExpressions::RegexCode* Write(::System::Text::RegularExpressions::RegexTree* tree);
 
-  /// @brief Method .ctor, addr 0x2e9dcd0, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f9e5d0, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::System::Span_1<int32_t> emittedSpan, ::System::Span_1<int32_t> intStackSpan);
 
   // Ctor Parameters []

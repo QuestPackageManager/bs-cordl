@@ -56,19 +56,19 @@ public:
 
   __declspec(property(get = get_userId))::StringW userId;
 
-  /// @brief Method Deserialize, addr 0x1414820, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method Deserialize, addr 0x1505e70, size 0x6c, virtual true, abstract: false, final false
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Init, addr 0x1414738, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x1505d88, size 0x30, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable* Init(::StringW userId, bool isServerOwner, bool hasRecommendBeatmapsPermission,
                                                                                     bool hasRecommendGameplayModifiersPermission, bool hasKickVotePermission, bool hasInvitePermission);
 
   static inline ::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable* New_ctor();
 
-  /// @brief Method Obtain, addr 0x14146d4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Obtain, addr 0x1505d24, size 0x64, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable* Obtain();
 
-  /// @brief Method Serialize, addr 0x14147c0, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method Serialize, addr 0x1505e10, size 0x60, virtual true, abstract: false, final false
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   constexpr bool const& __cordl_internal_get__hasInvitePermission() const;
@@ -107,25 +107,25 @@ public:
 
   constexpr void __cordl_internal_set__userId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x1414768, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1505db8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_hasInvitePermission, addr 0x14146cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hasInvitePermission, addr 0x1505d1c, size 0x8, virtual false, abstract: false, final false
   inline bool get_hasInvitePermission();
 
-  /// @brief Method get_hasKickVotePermission, addr 0x14146c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hasKickVotePermission, addr 0x1505d14, size 0x8, virtual false, abstract: false, final false
   inline bool get_hasKickVotePermission();
 
-  /// @brief Method get_hasRecommendBeatmapsPermission, addr 0x14146b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hasRecommendBeatmapsPermission, addr 0x1505d04, size 0x8, virtual false, abstract: false, final false
   inline bool get_hasRecommendBeatmapsPermission();
 
-  /// @brief Method get_hasRecommendGameplayModifiersPermission, addr 0x14146bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hasRecommendGameplayModifiersPermission, addr 0x1505d0c, size 0x8, virtual false, abstract: false, final false
   inline bool get_hasRecommendGameplayModifiersPermission();
 
-  /// @brief Method get_isServerOwner, addr 0x14146ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isServerOwner, addr 0x1505cfc, size 0x8, virtual false, abstract: false, final false
   inline bool get_isServerOwner();
 
-  /// @brief Method get_userId, addr 0x14146a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_userId, addr 0x1505cf4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_userId();
 
 protected:

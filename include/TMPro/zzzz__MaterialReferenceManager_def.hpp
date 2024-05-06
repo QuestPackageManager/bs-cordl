@@ -55,66 +55,66 @@ public:
   /// @brief Field s_Instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance))::TMPro::MaterialReferenceManager* s_Instance;
 
-  /// @brief Method AddColorGradientPreset, addr 0x311f204, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method AddColorGradientPreset, addr 0x3324c8c, size 0x30, virtual false, abstract: false, final false
   static inline void AddColorGradientPreset(int32_t hashCode, ::TMPro::TMP_ColorGradient* spriteAsset);
 
-  /// @brief Method AddColorGradientPreset_Internal, addr 0x311f234, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method AddColorGradientPreset_Internal, addr 0x3324cbc, size 0xa4, virtual false, abstract: false, final false
   inline void AddColorGradientPreset_Internal(int32_t hashCode, ::TMPro::TMP_ColorGradient* spriteAsset);
 
-  /// @brief Method AddFontAsset, addr 0x311eea0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method AddFontAsset, addr 0x3324928, size 0x20, virtual false, abstract: false, final false
   static inline void AddFontAsset(::TMPro::TMP_FontAsset* fontAsset);
 
-  /// @brief Method AddFontAssetInternal, addr 0x311eec0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method AddFontAssetInternal, addr 0x3324948, size 0xc4, virtual false, abstract: false, final false
   inline void AddFontAssetInternal(::TMPro::TMP_FontAsset* fontAsset);
 
-  /// @brief Method AddFontMaterial, addr 0x311f16c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method AddFontMaterial, addr 0x3324bf4, size 0x30, virtual false, abstract: false, final false
   static inline void AddFontMaterial(int32_t hashCode, ::UnityEngine::Material* material);
 
-  /// @brief Method AddFontMaterialInternal, addr 0x311f19c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method AddFontMaterialInternal, addr 0x3324c24, size 0x68, virtual false, abstract: false, final false
   inline void AddFontMaterialInternal(int32_t hashCode, ::UnityEngine::Material* material);
 
-  /// @brief Method AddSpriteAsset, addr 0x311f068, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method AddSpriteAsset, addr 0x3324af0, size 0x30, virtual false, abstract: false, final false
   static inline void AddSpriteAsset(int32_t hashCode, ::TMPro::TMP_SpriteAsset* spriteAsset);
 
-  /// @brief Method AddSpriteAsset, addr 0x311ef84, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method AddSpriteAsset, addr 0x3324a0c, size 0x20, virtual false, abstract: false, final false
   static inline void AddSpriteAsset(::TMPro::TMP_SpriteAsset* spriteAsset);
 
-  /// @brief Method AddSpriteAssetInternal, addr 0x311f098, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method AddSpriteAssetInternal, addr 0x3324b20, size 0xd4, virtual false, abstract: false, final false
   inline void AddSpriteAssetInternal(int32_t hashCode, ::TMPro::TMP_SpriteAsset* spriteAsset);
 
-  /// @brief Method AddSpriteAssetInternal, addr 0x311efa4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method AddSpriteAssetInternal, addr 0x3324a2c, size 0xc4, virtual false, abstract: false, final false
   inline void AddSpriteAssetInternal(::TMPro::TMP_SpriteAsset* spriteAsset);
 
-  /// @brief Method Contains, addr 0x311f2d8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x3324d60, size 0x5c, virtual false, abstract: false, final false
   inline bool Contains(::TMPro::TMP_FontAsset* font);
 
-  /// @brief Method Contains, addr 0x311f334, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x3324dbc, size 0x5c, virtual false, abstract: false, final false
   inline bool Contains(::TMPro::TMP_SpriteAsset* sprite);
 
   static inline ::TMPro::MaterialReferenceManager* New_ctor();
 
-  /// @brief Method TryGetColorGradientPreset, addr 0x311f4c8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method TryGetColorGradientPreset, addr 0x3324f50, size 0x30, virtual false, abstract: false, final false
   static inline bool TryGetColorGradientPreset(int32_t hashCode, ByRef<::TMPro::TMP_ColorGradient*> gradientPreset);
 
-  /// @brief Method TryGetColorGradientPresetInternal, addr 0x311f4f8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method TryGetColorGradientPresetInternal, addr 0x3324f80, size 0x6c, virtual false, abstract: false, final false
   inline bool TryGetColorGradientPresetInternal(int32_t hashCode, ByRef<::TMPro::TMP_ColorGradient*> gradientPreset);
 
-  /// @brief Method TryGetFontAsset, addr 0x311f390, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method TryGetFontAsset, addr 0x3324e18, size 0x30, virtual false, abstract: false, final false
   static inline bool TryGetFontAsset(int32_t hashCode, ByRef<::TMPro::TMP_FontAsset*> fontAsset);
 
-  /// @brief Method TryGetFontAssetInternal, addr 0x311f3c0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method TryGetFontAssetInternal, addr 0x3324e48, size 0x6c, virtual false, abstract: false, final false
   inline bool TryGetFontAssetInternal(int32_t hashCode, ByRef<::TMPro::TMP_FontAsset*> fontAsset);
 
-  /// @brief Method TryGetMaterial, addr 0x311f564, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method TryGetMaterial, addr 0x3324fec, size 0x30, virtual false, abstract: false, final false
   static inline bool TryGetMaterial(int32_t hashCode, ByRef<::UnityEngine::Material*> material);
 
-  /// @brief Method TryGetMaterialInternal, addr 0x311f594, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method TryGetMaterialInternal, addr 0x332501c, size 0x6c, virtual false, abstract: false, final false
   inline bool TryGetMaterialInternal(int32_t hashCode, ByRef<::UnityEngine::Material*> material);
 
-  /// @brief Method TryGetSpriteAsset, addr 0x311f42c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method TryGetSpriteAsset, addr 0x3324eb4, size 0x30, virtual false, abstract: false, final false
   static inline bool TryGetSpriteAsset(int32_t hashCode, ByRef<::TMPro::TMP_SpriteAsset*> spriteAsset);
 
-  /// @brief Method TryGetSpriteAssetInternal, addr 0x311f45c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method TryGetSpriteAssetInternal, addr 0x3324ee4, size 0x6c, virtual false, abstract: false, final false
   inline bool TryGetSpriteAssetInternal(int32_t hashCode, ByRef<::TMPro::TMP_SpriteAsset*> spriteAsset);
 
   constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::TMPro::TMP_ColorGradient>>*& __cordl_internal_get_m_ColorGradientReferenceLookup();
@@ -145,12 +145,12 @@ public:
 
   constexpr void __cordl_internal_set_m_SpriteAssetReferenceLookup(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::TMPro::TMP_SpriteAsset>>* value);
 
-  /// @brief Method .ctor, addr 0x311ed58, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33247e0, size 0x148, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::TMPro::MaterialReferenceManager* getStaticF_s_Instance();
 
-  /// @brief Method get_instance, addr 0x311ecdc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_instance, addr 0x3324764, size 0x7c, virtual false, abstract: false, final false
   static inline ::TMPro::MaterialReferenceManager* get_instance();
 
   static inline void setStaticF_s_Instance(::TMPro::MaterialReferenceManager* value);

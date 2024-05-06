@@ -128,33 +128,33 @@ public:
 
   __declspec(property(get = get_lightsId)) int32_t lightsId;
 
-  /// @brief Method CheckNextEventForFade, addr 0x25cfd8c, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method CheckNextEventForFade, addr 0x26ceaf8, size 0x218, virtual false, abstract: false, final false
   inline void CheckNextEventForFade(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
-  /// @brief Method GetHighlightColor, addr 0x25d0040, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetHighlightColor, addr 0x26cedac, size 0x9c, virtual false, abstract: false, final false
   inline ::UnityEngine::Color GetHighlightColor(int32_t beatmapEventValue, bool colorBoost);
 
-  /// @brief Method GetNormalColor, addr 0x25cffa4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetNormalColor, addr 0x26ced10, size 0x9c, virtual false, abstract: false, final false
   inline ::UnityEngine::Color GetNormalColor(int32_t beatmapEventValue, bool colorBoost);
 
-  /// @brief Method HandleColorBoostBeatmapEvent, addr 0x25d00dc, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method HandleColorBoostBeatmapEvent, addr 0x26cee48, size 0xcc, virtual false, abstract: false, final false
   inline void HandleColorBoostBeatmapEvent(::GlobalNamespace::ColorBoostBeatmapEventData* eventData);
 
-  /// @brief Method HandleColorChangeBeatmapEvent, addr 0x25cfa20, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method HandleColorChangeBeatmapEvent, addr 0x26ce78c, size 0x348, virtual false, abstract: false, final false
   inline void HandleColorChangeBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
   static inline ::GlobalNamespace::LightSwitchEventEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x25cf970, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x26ce6dc, size 0xb0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetColor, addr 0x25cfd68, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetColor, addr 0x26cead4, size 0x24, virtual false, abstract: false, final false
   inline void SetColor(::UnityEngine::Color color);
 
-  /// @brief Method SetupTweenAndSaveOtherColors, addr 0x25cf938, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method SetupTweenAndSaveOtherColors, addr 0x26ce6a4, size 0x38, virtual false, abstract: false, final false
   inline void SetupTweenAndSaveOtherColors(::UnityEngine::Color fromColor, ::UnityEngine::Color toColor, ::UnityEngine::Color alternativeFromColor, ::UnityEngine::Color alternativeToColor);
 
-  /// @brief Method Start, addr 0x25cf5dc, size 0x35c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x26ce348, size 0x35c, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__alternativeFromColor() const;
@@ -289,13 +289,13 @@ public:
 
   constexpr void __cordl_internal_set__usingBoostColors(bool value);
 
-  /// @brief Method .ctor, addr 0x25d01a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26cef14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_eventType, addr 0x25cf5d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_eventType, addr 0x26ce340, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BasicBeatmapEventType get_eventType();
 
-  /// @brief Method get_lightsId, addr 0x25cf5cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightsId, addr 0x26ce338, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_lightsId();
 
 protected:

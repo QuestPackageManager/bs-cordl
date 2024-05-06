@@ -53,13 +53,13 @@ public:
 
   static inline ::TMPro::TMP_ScrollbarEventHandler* New_ctor();
 
-  /// @brief Method OnDeselect, addr 0x316f39c, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method OnDeselect, addr 0x3374e24, size 0x74, virtual true, abstract: false, final true
   inline void OnDeselect(::UnityEngine::EventSystems::BaseEventData* eventData);
 
-  /// @brief Method OnPointerClick, addr 0x316f2bc, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method OnPointerClick, addr 0x3374d44, size 0x68, virtual true, abstract: false, final true
   inline void OnPointerClick(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnSelect, addr 0x316f324, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method OnSelect, addr 0x3374dac, size 0x78, virtual true, abstract: false, final true
   inline void OnSelect(::UnityEngine::EventSystems::BaseEventData* eventData);
 
   constexpr bool const& __cordl_internal_get_isSelected() const;
@@ -68,7 +68,7 @@ public:
 
   constexpr void __cordl_internal_set_isSelected(bool value);
 
-  /// @brief Method .ctor, addr 0x316f410, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3374e98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::EventSystems::IDeselectHandler"

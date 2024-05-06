@@ -93,7 +93,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::__DropdownField__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x33789fc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x357d738, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -130,7 +130,7 @@ public:
   /// @brief Field m_Index, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Index, put = __cordl_internal_set_m_Index))::UnityEngine::UIElements::UxmlIntAttributeDescription* m_Index;
 
-  /// @brief Method Init, addr 0x3378a44, size 0x17c, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x357d780, size 0x17c, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::__DropdownField__UxmlTraits* New_ctor();
@@ -147,7 +147,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Index(::UnityEngine::UIElements::UxmlIntAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x3378bc0, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x357d8fc, size 0xec, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -188,13 +188,13 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE __DropdownField__PopupTextElement : public ::UnityEngine::UIElements::TextElement {
 public:
   // Declarations
-  /// @brief Method DoMeasure, addr 0x3378cac, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method DoMeasure, addr 0x357d9e8, size 0xa4, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 DoMeasure(float_t desiredWidth, ::UnityEngine::UIElements::__VisualElement__MeasureMode widthMode, float_t desiredHeight,
                                           ::UnityEngine::UIElements::__VisualElement__MeasureMode heightMode);
 
   static inline ::UnityEngine::UIElements::__DropdownField__PopupTextElement* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3377c14, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x357c950, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -233,7 +233,7 @@ public:
 
   static inline ::UnityEngine::UIElements::__DropdownField____c__DisplayClass38_0* New_ctor();
 
-  /// @brief Method <AddMenuItems>b__0, addr 0x3378d50, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <AddMenuItems>b__0, addr 0x357da8c, size 0x2c, virtual false, abstract: false, final false
   inline void _AddMenuItems_b__0();
 
   constexpr ::UnityEngine::UIElements::DropdownField*& __cordl_internal_get___4__this();
@@ -248,7 +248,7 @@ public:
 
   constexpr void __cordl_internal_set_item(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3377f74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x357ccb0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -351,32 +351,32 @@ public:
 
   __declspec(property(get = get_value, put = set_value))::StringW value;
 
-  /// @brief Method AddMenuItems, addr 0x3377c6c, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method AddMenuItems, addr 0x357c9a8, size 0x308, virtual false, abstract: false, final false
   inline void AddMenuItems(::UnityEngine::UIElements::IGenericMenu* menu);
 
-  /// @brief Method ChangeValueFromMenu, addr 0x3377f7c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ChangeValueFromMenu, addr 0x357ccb8, size 0x10, virtual false, abstract: false, final false
   inline void ChangeValueFromMenu(::StringW menuItem);
 
-  /// @brief Method ExecuteDefaultActionAtTarget, addr 0x33781d8, size 0x180, virtual true, abstract: false, final false
+  /// @brief Method ExecuteDefaultActionAtTarget, addr 0x357cf14, size 0x180, virtual true, abstract: false, final false
   inline void ExecuteDefaultActionAtTarget(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method GetListItemToDisplay, addr 0x337780c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method GetListItemToDisplay, addr 0x357c548, size 0xac, virtual false, abstract: false, final false
   inline ::StringW GetListItemToDisplay(::StringW value);
 
-  /// @brief Method GetValueToDisplay, addr 0x3377780, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetValueToDisplay, addr 0x357c4bc, size 0x8c, virtual false, abstract: false, final false
   inline ::StringW GetValueToDisplay();
 
   static inline ::UnityEngine::UIElements::DropdownField* New_ctor();
 
   static inline ::UnityEngine::UIElements::DropdownField* New_ctor(::StringW label);
 
-  /// @brief Method SetValueWithoutNotify, addr 0x33780c8, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method SetValueWithoutNotify, addr 0x357ce04, size 0x110, virtual true, abstract: false, final false
   inline void SetValueWithoutNotify(::StringW newValue);
 
-  /// @brief Method ShowMenu, addr 0x3378358, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method ShowMenu, addr 0x357d094, size 0x180, virtual false, abstract: false, final false
   inline void ShowMenu();
 
-  /// @brief Method UpdateMixedValueContent, addr 0x33787ac, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method UpdateMixedValueContent, addr 0x357d4e8, size 0xc0, virtual true, abstract: false, final false
   inline void UpdateMixedValueContent();
 
   constexpr ::System::Func_1<::UnityEngine::UIElements::IGenericMenu*>*& __cordl_internal_get_createMenuCallback();
@@ -421,10 +421,10 @@ public:
 
   constexpr void __cordl_internal_set_m_TextElement(::UnityEngine::UIElements::TextElement* value);
 
-  /// @brief Method .ctor, addr 0x3377954, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x357c690, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x337795c, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x357c698, size 0x2b8, virtual false, abstract: false, final false
   inline void _ctor(::StringW label);
 
   static inline ::StringW getStaticF_arrowUssClassNameBasePopupField();
@@ -443,10 +443,10 @@ public:
 
   static inline ::StringW getStaticF_ussClassNamePopupField();
 
-  /// @brief Method get_textElement, addr 0x3377778, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_textElement, addr 0x357c4b4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TextElement* get_textElement();
 
-  /// @brief Method get_value, addr 0x3377ffc, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method get_value, addr 0x357cd38, size 0x48, virtual true, abstract: false, final false
   inline ::StringW get_value();
 
   static inline void setStaticF_arrowUssClassNameBasePopupField(::StringW value);
@@ -465,13 +465,13 @@ public:
 
   static inline void setStaticF_ussClassNamePopupField(::StringW value);
 
-  /// @brief Method set_choices, addr 0x3377f8c, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method set_choices, addr 0x357ccc8, size 0x70, virtual true, abstract: false, final false
   inline void set_choices(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method set_index, addr 0x33778b8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method set_index, addr 0x357c5f4, size 0x9c, virtual false, abstract: false, final false
   inline void set_index(int32_t value);
 
-  /// @brief Method set_value, addr 0x3378044, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method set_value, addr 0x357cd80, size 0x84, virtual true, abstract: false, final false
   inline void set_value(::StringW value);
 
 protected:

@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::__ShaderInfoStorageRGBA32____c::*)()>(
     &::UnityEngine::UIElements::UIR::__ShaderInfoStorageRGBA32____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33da640;
+  constexpr static std::size_t addrs = 0x35e037c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color32 (::UnityEngine::UIElements::UIR::__ShaderInfoStorageRGBA32____c::*)(::UnityEngine::Color)>(
     &::UnityEngine::UIElements::UIR::__ShaderInfoStorageRGBA32____c::__cctor_b__2_0)> {
   constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x33da648;
+  constexpr static std::size_t addrs = 0x35e0384;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::ShaderInfoStorageRGBA32::*)(int32_t, int32_t)>(
     &::UnityEngine::UIElements::UIR::ShaderInfoStorageRGBA32::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x33d84bc;
+  constexpr static std::size_t addrs = 0x35de1f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

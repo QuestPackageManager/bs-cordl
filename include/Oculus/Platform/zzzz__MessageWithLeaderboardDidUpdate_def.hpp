@@ -19,15 +19,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithLeaderboardDidUpdate : public ::Oculus::Platform::Message_1<bool> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x29ccbf8, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x2aca4a8, size 0x5c, virtual true, abstract: false, final false
   inline bool GetDataFromMessage(void* c_message);
 
-  /// @brief Method GetLeaderboardDidUpdate, addr 0x29ccbbc, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetLeaderboardDidUpdate, addr 0x2aca46c, size 0x3c, virtual true, abstract: false, final false
   inline bool GetLeaderboardDidUpdate();
 
   static inline ::Oculus::Platform::MessageWithLeaderboardDidUpdate* New_ctor(void* c_message);
 
-  /// @brief Method .ctor, addr 0x29c7c4c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ac54fc, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(void* c_message);
 
 protected:

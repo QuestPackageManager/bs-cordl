@@ -32,13 +32,13 @@ public:
 
   __declspec(property(get = get_YCoord))::Org::BouncyCastle::Math::EC::ECFieldElement* YCoord;
 
-  /// @brief Method Add, addr 0x11c5fa4, size 0xc40, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x12b66c8, size 0xc40, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Add(::Org::BouncyCastle::Math::EC::ECPoint* b);
 
-  /// @brief Method Detach, addr 0x11c5d3c, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Detach, addr 0x12b6460, size 0x98, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Detach();
 
-  /// @brief Method Negate, addr 0x11c7a34, size 0x278, virtual true, abstract: false, final false
+  /// @brief Method Negate, addr 0x12b8158, size 0x278, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Negate();
 
   static inline ::Org::BouncyCastle::Math::EC::F2mPoint* New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x,
@@ -52,26 +52,26 @@ public:
                                                                   ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> zs,
                                                                   bool withCompression);
 
-  /// @brief Method Twice, addr 0x11c6be4, size 0x908, virtual true, abstract: false, final false
+  /// @brief Method Twice, addr 0x12b7308, size 0x908, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Twice();
 
-  /// @brief Method TwicePlus, addr 0x11c74ec, size 0x548, virtual true, abstract: false, final false
+  /// @brief Method TwicePlus, addr 0x12b7c10, size 0x548, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* TwicePlus(::Org::BouncyCastle::Math::EC::ECPoint* b);
 
-  /// @brief Method .ctor, addr 0x11c5d34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12b6458, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y);
 
-  /// @brief Method .ctor, addr 0x11bd964, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12ae088, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y, bool withCompression);
 
-  /// @brief Method .ctor, addr 0x11be028, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12ae74c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y,
                     ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> zs, bool withCompression);
 
-  /// @brief Method get_CompressionYTilde, addr 0x11c5edc, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method get_CompressionYTilde, addr 0x12b6600, size 0xc8, virtual true, abstract: false, final false
   inline bool get_CompressionYTilde();
 
-  /// @brief Method get_YCoord, addr 0x11c5dd4, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method get_YCoord, addr 0x12b64f8, size 0x108, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* get_YCoord();
 
 protected:

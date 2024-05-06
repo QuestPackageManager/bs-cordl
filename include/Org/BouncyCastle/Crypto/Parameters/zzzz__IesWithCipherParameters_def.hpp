@@ -34,10 +34,10 @@ public:
 
   constexpr void __cordl_internal_set_cipherKeySize(int32_t value);
 
-  /// @brief Method .ctor, addr 0x10a1dc8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11954ec, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> derivation, ::ArrayW<uint8_t, ::Array<uint8_t>*> encoding, int32_t macKeySize, int32_t cipherKeySize);
 
-  /// @brief Method get_CipherKeySize, addr 0x10a1e08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CipherKeySize, addr 0x119552c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_CipherKeySize();
 
 protected:

@@ -22,10 +22,10 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Utilities::Zlib::Adler32* New_ctor();
 
-  /// @brief Method .ctor, addr 0x12d0f28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13c264c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method adler32, addr 0x12d0bfc, size 0x32c, virtual false, abstract: false, final false
+  /// @brief Method adler32, addr 0x13c2320, size 0x32c, virtual false, abstract: false, final false
   inline int64_t adler32(int64_t adler, ::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t index, int32_t len);
 
 protected:

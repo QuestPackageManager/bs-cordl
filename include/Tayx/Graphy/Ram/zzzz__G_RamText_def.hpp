@@ -51,18 +51,18 @@ public:
   /// @brief Field m_updateRate, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get_m_updateRate, put = __cordl_internal_set_m_updateRate)) float_t m_updateRate;
 
-  /// @brief Method Awake, addr 0x2f3eb2c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x303f42c, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Init, addr 0x2f3e8cc, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x303f1cc, size 0x10c, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::Tayx::Graphy::Ram::G_RamText* New_ctor();
 
-  /// @brief Method Update, addr 0x2f3eb30, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x303f430, size 0x160, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateParameters, addr 0x2f3e82c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method UpdateParameters, addr 0x303f12c, size 0xa0, virtual false, abstract: false, final false
   inline void UpdateParameters();
 
   constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_m_allocatedSystemMemorySizeText() const;
@@ -107,7 +107,7 @@ public:
 
   constexpr void __cordl_internal_set_m_updateRate(float_t value);
 
-  /// @brief Method .ctor, addr 0x2f3ec90, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x303f590, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

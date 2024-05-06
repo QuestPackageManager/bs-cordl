@@ -32,15 +32,15 @@ public:
   /// @brief Field _positionOffset, offset 0x18, size 0xc
   __declspec(property(get = __cordl_internal_get__positionOffset, put = __cordl_internal_set__positionOffset))::UnityEngine::Vector3 _positionOffset;
 
-  /// @brief Method HandleMultiplayerAvatarPoseControllerDidUpdatePose, addr 0xf4f57c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method HandleMultiplayerAvatarPoseControllerDidUpdatePose, addr 0x103e0f0, size 0x54, virtual false, abstract: false, final false
   inline void HandleMultiplayerAvatarPoseControllerDidUpdatePose(::UnityEngine::Vector3 headLocalPosition);
 
   static inline ::BeatSaber::AvatarCore::AvatarHeadOffset* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0xf4f3fc, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x103df70, size 0xd0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0xf4f2c4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x103de38, size 0x88, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::BeatSaber::AvatarCore::MultiplayerAvatarPoseController> const& __cordl_internal_get__avatarPoseController() const;
@@ -55,7 +55,7 @@ public:
 
   constexpr void __cordl_internal_set__positionOffset(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0xf4f5d0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x103e144, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

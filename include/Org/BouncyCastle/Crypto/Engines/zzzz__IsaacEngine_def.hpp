@@ -65,18 +65,18 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IStreamCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::IStreamCipher*() noexcept;
 
-  /// @brief Method Init, addr 0x10406fc, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x1134e20, size 0x114, virtual true, abstract: false, final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::IsaacEngine* New_ctor();
 
-  /// @brief Method ProcessBytes, addr 0x1040dec, size 0x1ec, virtual true, abstract: false, final false
+  /// @brief Method ProcessBytes, addr 0x1135510, size 0x1ec, virtual true, abstract: false, final false
   inline void ProcessBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t len, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset, addr 0x1041018, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x113573c, size 0x8, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method ReturnByte, addr 0x1040bf8, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method ReturnByte, addr 0x113531c, size 0x78, virtual true, abstract: false, final false
   inline uint8_t ReturnByte(uint8_t input);
 
   constexpr uint32_t const& __cordl_internal_get_a() const;
@@ -133,26 +133,26 @@ public:
 
   constexpr void __cordl_internal_set_workingKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x104116c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1135890, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_sizeL();
 
   static inline int32_t getStaticF_stateArraySize();
 
-  /// @brief Method get_AlgorithmName, addr 0x1040fd8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x11356fc, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IStreamCipher"
   constexpr ::Org::BouncyCastle::Crypto::IStreamCipher* i___Org__BouncyCastle__Crypto__IStreamCipher() noexcept;
 
-  /// @brief Method isaac, addr 0x1040c70, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method isaac, addr 0x1135394, size 0x17c, virtual false, abstract: false, final false
   inline void isaac();
 
-  /// @brief Method mix, addr 0x1041020, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method mix, addr 0x1135744, size 0xfc, virtual false, abstract: false, final false
   inline void mix(::ArrayW<uint32_t, ::Array<uint32_t>*> x);
 
-  /// @brief Method setKey, addr 0x1040810, size 0x3e8, virtual false, abstract: false, final false
+  /// @brief Method setKey, addr 0x1134f34, size 0x3e8, virtual false, abstract: false, final false
   inline void setKey(::ArrayW<uint8_t, ::Array<uint8_t>*> keyBytes);
 
   static inline void setStaticF_sizeL(int32_t value);

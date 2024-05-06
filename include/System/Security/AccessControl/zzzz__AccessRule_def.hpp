@@ -48,11 +48,11 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Security::AccessControl::AccessControlType value);
 
-  /// @brief Method .ctor, addr 0x2703fe8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28013e4, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Principal::IdentityReference* identity, int32_t accessMask, bool isInherited, ::System::Security::AccessControl::InheritanceFlags inheritanceFlags,
                     ::System::Security::AccessControl::PropagationFlags propagationFlags, ::System::Security::AccessControl::AccessControlType type);
 
-  /// @brief Method get_AccessControlType, addr 0x2704214, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AccessControlType, addr 0x2801610, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::AccessControl::AccessControlType get_AccessControlType();
 
 protected:

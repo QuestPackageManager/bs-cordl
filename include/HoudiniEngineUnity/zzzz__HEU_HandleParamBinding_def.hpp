@@ -110,7 +110,7 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_HandleParamBinding*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_HandleParamBinding*>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x247ba3c, size 0x200, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x25766c8, size 0x200, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_HandleParamBinding* other);
 
   static inline ::HoudiniEngineUnity::HEU_HandleParamBinding* New_ctor();
@@ -145,7 +145,7 @@ public:
 
   constexpr void __cordl_internal_set__parmID(int32_t value);
 
-  /// @brief Method .ctor, addr 0x247ab1c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25757a8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_HandleParamBinding*>"

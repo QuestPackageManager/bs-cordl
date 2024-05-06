@@ -7,7 +7,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BeatmapSaveDataVersion3::ColorBoostEventData::*)()>(
     &::BeatmapSaveDataVersion3::ColorBoostEventData::get_boost)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x14012dc;
+  constexpr static std::size_t addrs = 0x14f28a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::ColorBoostEventData*>::get(),
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapSaveDataVersion3::ColorBoostEventData::*)(float_t, bool)>(
     &::BeatmapSaveDataVersion3::ColorBoostEventData::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x14012e4;
+  constexpr static std::size_t addrs = 0x14f28a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

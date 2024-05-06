@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage::*)()>(
     &::GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage::get_offsetSyncTime)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x260543c;
+  constexpr static std::size_t addrs = 0x27052c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage::*)()>(
     &::GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage::get_isFailed)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x2605690;
+  constexpr static std::size_t addrs = 0x270551c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage::*)()>(
     &::GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26057d8;
+  constexpr static std::size_t addrs = 0x2705664;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

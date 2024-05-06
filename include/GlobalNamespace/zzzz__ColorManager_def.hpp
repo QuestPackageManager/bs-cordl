@@ -38,24 +38,24 @@ public:
 
   __declspec(property(get = get_obstaclesColor))::UnityEngine::Color obstaclesColor;
 
-  /// @brief Method ColorForSaberType, addr 0x257a25c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ColorForSaberType, addr 0x26726f0, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::Color ColorForSaberType(::GlobalNamespace::SaberType type);
 
-  /// @brief Method ColorForType, addr 0x257a1e8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ColorForType, addr 0x267267c, size 0x74, virtual false, abstract: false, final false
   inline ::UnityEngine::Color ColorForType(::GlobalNamespace::ColorType type);
 
-  /// @brief Method ColorForType, addr 0x257a100, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method ColorForType, addr 0x2672594, size 0xe8, virtual false, abstract: false, final false
   inline ::UnityEngine::Color ColorForType(::GlobalNamespace::EnvironmentColorType type, bool boost);
 
-  /// @brief Method EffectsColorForSaberType, addr 0x257a2b0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method EffectsColorForSaberType, addr 0x2672744, size 0x90, virtual false, abstract: false, final false
   inline ::UnityEngine::Color EffectsColorForSaberType(::GlobalNamespace::SaberType type);
 
-  /// @brief Method GetObstacleEffectColor, addr 0x257a340, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetObstacleEffectColor, addr 0x26727d4, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Color GetObstacleEffectColor();
 
   static inline ::GlobalNamespace::ColorManager* New_ctor();
 
-  /// @brief Method SetColorScheme, addr 0x257a0f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetColorScheme, addr 0x267258c, size 0x8, virtual false, abstract: false, final false
   inline void SetColorScheme(::GlobalNamespace::ColorScheme* colorScheme);
 
   constexpr ::GlobalNamespace::ColorScheme*& __cordl_internal_get__colorScheme();
@@ -64,10 +64,10 @@ public:
 
   constexpr void __cordl_internal_set__colorScheme(::GlobalNamespace::ColorScheme* value);
 
-  /// @brief Method .ctor, addr 0x257a39c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2672830, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_obstaclesColor, addr 0x257a0d8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_obstaclesColor, addr 0x267256c, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_obstaclesColor();
 
 protected:

@@ -45,12 +45,12 @@ namespace UnityEngine::Playables {
 class CORDL_TYPE __PlayableBinding__CreateOutputMethod : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x322fb1c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3437858, size 0x14, virtual true, abstract: false, final false
   inline ::UnityEngine::Playables::PlayableOutput Invoke(::UnityEngine::Playables::PlayableGraph graph, ::StringW name);
 
   static inline ::UnityEngine::Playables::__PlayableBinding__CreateOutputMethod* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x322fa58, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3437794, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -93,21 +93,21 @@ public:
 
   __declspec(property(get = get_streamName))::StringW streamName;
 
-  /// @brief Method CreateInternal, addr 0x322f9d4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CreateInternal, addr 0x3437710, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableBinding CreateInternal(::StringW name, ::UnityEngine::Object* sourceObject, ::System::Type* sourceType,
                                                                          ::UnityEngine::Playables::__PlayableBinding__CreateOutputMethod* createFunction);
 
-  /// @brief Method CreateOutput, addr 0x322f8ec, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method CreateOutput, addr 0x3437628, size 0x90, virtual false, abstract: false, final false
   inline ::UnityEngine::Playables::PlayableOutput CreateOutput(::UnityEngine::Playables::PlayableGraph graph);
 
   static inline double_t getStaticF_DefaultDuration();
 
   static inline ::ArrayW<::UnityEngine::Playables::PlayableBinding, ::Array<::UnityEngine::Playables::PlayableBinding>*> getStaticF_None();
 
-  /// @brief Method get_sourceObject, addr 0x322f8e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sourceObject, addr 0x3437620, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> get_sourceObject();
 
-  /// @brief Method get_streamName, addr 0x322f8dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_streamName, addr 0x3437618, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_streamName();
 
   static inline void setStaticF_DefaultDuration(double_t value);

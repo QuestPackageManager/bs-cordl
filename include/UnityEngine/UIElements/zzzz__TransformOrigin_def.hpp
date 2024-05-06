@@ -40,40 +40,40 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::TransformOrigin>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::TransformOrigin>*();
 
-  /// @brief Method Equals, addr 0x33c4ab8, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x35ca7f4, size 0xd0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x33c4a4c, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x35ca788, size 0x6c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::TransformOrigin other);
 
-  /// @brief Method GetHashCode, addr 0x33c48a8, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x35ca5e4, size 0x74, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Initial, addr 0x33c49b0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Initial, addr 0x35ca6ec, size 0x18, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::TransformOrigin Initial();
 
-  /// @brief Method ToString, addr 0x33c4b88, size 0x1cc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x35ca8c4, size 0x1cc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x33c49a4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35ca6e0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::Length x, ::UnityEngine::UIElements::Length y, float_t z);
 
-  /// @brief Method get_x, addr 0x33c49c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_x, addr 0x35ca704, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Length get_x();
 
-  /// @brief Method get_y, addr 0x33c49d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_y, addr 0x35ca70c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Length get_y();
 
-  /// @brief Method get_z, addr 0x33c49d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_z, addr 0x35ca714, size 0x8, virtual false, abstract: false, final false
   inline float_t get_z();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::TransformOrigin>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::TransformOrigin>* i___System__IEquatable_1___UnityEngine__UIElements__TransformOrigin_();
 
-  /// @brief Method op_Equality, addr 0x33c4708, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x35ca444, size 0x60, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::TransformOrigin lhs, ::UnityEngine::UIElements::TransformOrigin rhs);
 
-  /// @brief Method op_Inequality, addr 0x33c49e0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x35ca71c, size 0x6c, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::UIElements::TransformOrigin lhs, ::UnityEngine::UIElements::TransformOrigin rhs);
 
   // Ctor Parameters []

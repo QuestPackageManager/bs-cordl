@@ -112,64 +112,64 @@ public:
   /// @brief Convert operator to "::System::Xml::Serialization::IXmlSerializable"
   constexpr operator ::System::Xml::Serialization::IXmlSerializable*();
 
-  /// @brief Method CompareTo, addr 0x2c28c10, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method CompareTo, addr 0x2d26510, size 0x138, virtual false, abstract: false, final false
   inline int32_t CompareTo(::System::Data::SqlTypes::SqlMoney value);
 
-  /// @brief Method CompareTo, addr 0x2c28b28, size 0xe8, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x2d26428, size 0xe8, virtual true, abstract: false, final true
   inline int32_t CompareTo(::System::Object* value);
 
-  /// @brief Method Equals, addr 0x2c28d48, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2d26648, size 0xdc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* value);
 
-  /// @brief Method GetHashCode, addr 0x2c28e24, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2d26724, size 0x1c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetXsdType, addr 0x2c290a4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetXsdType, addr 0x2d269a4, size 0x8c, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlQualifiedName* GetXsdType(::System::Xml::Schema::XmlSchemaSet* schemaSet);
 
-  /// @brief Method GreaterThan, addr 0x2c289c0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GreaterThan, addr 0x2d262c0, size 0x84, virtual false, abstract: false, final false
   static inline ::System::Data::SqlTypes::SqlBoolean GreaterThan(::System::Data::SqlTypes::SqlMoney x, ::System::Data::SqlTypes::SqlMoney y);
 
-  /// @brief Method LessThan, addr 0x2c2893c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method LessThan, addr 0x2d2623c, size 0x84, virtual false, abstract: false, final false
   static inline ::System::Data::SqlTypes::SqlBoolean LessThan(::System::Data::SqlTypes::SqlMoney x, ::System::Data::SqlTypes::SqlMoney y);
 
-  /// @brief Method System.Xml.Serialization.IXmlSerializable.GetSchema, addr 0x2c28e40, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.Serialization.IXmlSerializable.GetSchema, addr 0x2d26740, size 0x8, virtual true, abstract: false, final true
   inline ::System::Xml::Schema::XmlSchema* System_Xml_Serialization_IXmlSerializable_GetSchema();
 
-  /// @brief Method System.Xml.Serialization.IXmlSerializable.ReadXml, addr 0x2c28e48, size 0x14c, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.Serialization.IXmlSerializable.ReadXml, addr 0x2d26748, size 0x14c, virtual true, abstract: false, final true
   inline void System_Xml_Serialization_IXmlSerializable_ReadXml(::System::Xml::XmlReader* reader);
 
-  /// @brief Method System.Xml.Serialization.IXmlSerializable.WriteXml, addr 0x2c28f94, size 0x110, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.Serialization.IXmlSerializable.WriteXml, addr 0x2d26894, size 0x110, virtual true, abstract: false, final true
   inline void System_Xml_Serialization_IXmlSerializable_WriteXml(::System::Xml::XmlWriter* writer);
 
-  /// @brief Method ToDecimal, addr 0x2c20888, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method ToDecimal, addr 0x2d1e188, size 0x100, virtual false, abstract: false, final false
   inline ::System::Decimal ToDecimal();
 
-  /// @brief Method ToDouble, addr 0x2c22e60, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method ToDouble, addr 0x2d20760, size 0x6c, virtual false, abstract: false, final false
   inline double_t ToDouble();
 
-  /// @brief Method ToSqlDecimal, addr 0x2c28aa0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method ToSqlDecimal, addr 0x2d263a0, size 0x88, virtual false, abstract: false, final false
   inline ::System::Data::SqlTypes::SqlDecimal ToSqlDecimal();
 
-  /// @brief Method ToSqlDouble, addr 0x2c28a44, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ToSqlDouble, addr 0x2d26344, size 0x5c, virtual false, abstract: false, final false
   inline ::System::Data::SqlTypes::SqlDouble ToSqlDouble();
 
-  /// @brief Method ToString, addr 0x2c27e18, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2d25718, size 0xa4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x2c27a78, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d25378, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(bool fNull);
 
-  /// @brief Method .ctor, addr 0x2c27c14, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d25514, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Decimal value);
 
-  /// @brief Method .ctor, addr 0x2c27a94, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d25394, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2c27b10, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d25410, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(int64_t value);
 
-  /// @brief Method .ctor, addr 0x2c27a84, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d25384, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(int64_t value, int32_t ignored);
 
   static inline ::System::Data::SqlTypes::SqlMoney getStaticF_MaxValue();
@@ -190,10 +190,10 @@ public:
 
   static inline int64_t getStaticF_s_minLong();
 
-  /// @brief Method get_IsNull, addr 0x2c20878, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_IsNull, addr 0x2d1e178, size 0x10, virtual true, abstract: false, final true
   inline bool get_IsNull();
 
-  /// @brief Method get_Value, addr 0x2c27d44, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x2d25644, size 0x4c, virtual false, abstract: false, final false
   inline ::System::Decimal get_Value();
 
   /// @brief Convert to "::System::Data::SqlTypes::INullable"
@@ -205,49 +205,49 @@ public:
   /// @brief Convert to "::System::Xml::Serialization::IXmlSerializable"
   constexpr ::System::Xml::Serialization::IXmlSerializable* i___System__Xml__Serialization__IXmlSerializable();
 
-  /// @brief Method op_Addition, addr 0x2c27fb0, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method op_Addition, addr 0x2d258b0, size 0x194, virtual false, abstract: false, final false
   static inline ::System::Data::SqlTypes::SqlMoney op_Addition(::System::Data::SqlTypes::SqlMoney x, ::System::Data::SqlTypes::SqlMoney y);
 
-  /// @brief Method op_Division, addr 0x2c283e0, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method op_Division, addr 0x2d25ce0, size 0x10c, virtual false, abstract: false, final false
   static inline ::System::Data::SqlTypes::SqlMoney op_Division(::System::Data::SqlTypes::SqlMoney x, ::System::Data::SqlTypes::SqlMoney y);
 
-  /// @brief Method op_Equality, addr 0x2c28738, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x2d26038, size 0xac, virtual false, abstract: false, final false
   static inline ::System::Data::SqlTypes::SqlBoolean op_Equality(::System::Data::SqlTypes::SqlMoney x, ::System::Data::SqlTypes::SqlMoney y);
 
-  /// @brief Method op_Explicit, addr 0x2c2174c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x2d1f04c, size 0xa0, virtual false, abstract: false, final false
   static inline ::System::Data::SqlTypes::SqlMoney op_Explicit___System__Data__SqlTypes__SqlMoney(::System::Data::SqlTypes::SqlDecimal x);
 
-  /// @brief Method op_GreaterThan, addr 0x2c28890, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method op_GreaterThan, addr 0x2d26190, size 0xac, virtual false, abstract: false, final false
   static inline ::System::Data::SqlTypes::SqlBoolean op_GreaterThan(::System::Data::SqlTypes::SqlMoney x, ::System::Data::SqlTypes::SqlMoney y);
 
-  /// @brief Method op_Implicit, addr 0x2c284ec, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2d25dec, size 0x94, virtual false, abstract: false, final false
   static inline ::System::Data::SqlTypes::SqlMoney op_Implicit___System__Data__SqlTypes__SqlMoney(::System::Data::SqlTypes::SqlByte x);
 
-  /// @brief Method op_Implicit, addr 0x2c28580, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2d25e80, size 0x94, virtual false, abstract: false, final false
   static inline ::System::Data::SqlTypes::SqlMoney op_Implicit___System__Data__SqlTypes__SqlMoney(::System::Data::SqlTypes::SqlInt16 x);
 
-  /// @brief Method op_Implicit, addr 0x2c28614, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2d25f14, size 0x90, virtual false, abstract: false, final false
   static inline ::System::Data::SqlTypes::SqlMoney op_Implicit___System__Data__SqlTypes__SqlMoney(::System::Data::SqlTypes::SqlInt32 x);
 
-  /// @brief Method op_Implicit, addr 0x2c286a4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2d25fa4, size 0x94, virtual false, abstract: false, final false
   static inline ::System::Data::SqlTypes::SqlMoney op_Implicit___System__Data__SqlTypes__SqlMoney(::System::Data::SqlTypes::SqlInt64 x);
 
-  /// @brief Method op_Implicit, addr 0x2c27d90, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2d25690, size 0x2c, virtual false, abstract: false, final false
   static inline ::System::Data::SqlTypes::SqlMoney op_Implicit___System__Data__SqlTypes__SqlMoney(::System::Decimal x);
 
-  /// @brief Method op_Implicit, addr 0x2c27dbc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2d256bc, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Data::SqlTypes::SqlMoney op_Implicit___System__Data__SqlTypes__SqlMoney(int64_t x);
 
-  /// @brief Method op_LessThan, addr 0x2c287e4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method op_LessThan, addr 0x2d260e4, size 0xac, virtual false, abstract: false, final false
   static inline ::System::Data::SqlTypes::SqlBoolean op_LessThan(::System::Data::SqlTypes::SqlMoney x, ::System::Data::SqlTypes::SqlMoney y);
 
-  /// @brief Method op_Multiply, addr 0x2c282d4, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method op_Multiply, addr 0x2d25bd4, size 0x10c, virtual false, abstract: false, final false
   static inline ::System::Data::SqlTypes::SqlMoney op_Multiply(::System::Data::SqlTypes::SqlMoney x, ::System::Data::SqlTypes::SqlMoney y);
 
-  /// @brief Method op_Subtraction, addr 0x2c28144, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method op_Subtraction, addr 0x2d25a44, size 0x190, virtual false, abstract: false, final false
   static inline ::System::Data::SqlTypes::SqlMoney op_Subtraction(::System::Data::SqlTypes::SqlMoney x, ::System::Data::SqlTypes::SqlMoney y);
 
-  /// @brief Method op_UnaryNegation, addr 0x2c27ebc, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method op_UnaryNegation, addr 0x2d257bc, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::Data::SqlTypes::SqlMoney op_UnaryNegation(::System::Data::SqlTypes::SqlMoney x);
 
   static inline void setStaticF_MaxValue(::System::Data::SqlTypes::SqlMoney value);

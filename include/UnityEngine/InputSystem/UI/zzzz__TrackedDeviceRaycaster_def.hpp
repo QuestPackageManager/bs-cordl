@@ -88,19 +88,19 @@ public:
 
   __declspec(property(get = get_worldHitPosition))::UnityEngine::Vector3 worldHitPosition;
 
-  /// @brief Method .ctor, addr 0x3009cd0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3146a5c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UI::Graphic* graphic, ::UnityEngine::Vector3 worldHitPosition, ::UnityEngine::Vector2 screenPosition, float_t distance);
 
-  /// @brief Method get_distance, addr 0x3009e10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_distance, addr 0x3146b9c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_distance();
 
-  /// @brief Method get_graphic, addr 0x3009df4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_graphic, addr 0x3146b80, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Graphic> get_graphic();
 
-  /// @brief Method get_screenPosition, addr 0x3009e08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_screenPosition, addr 0x3146b94, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_screenPosition();
 
-  /// @brief Method get_worldHitPosition, addr 0x3009dfc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_worldHitPosition, addr 0x3146b88, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_worldHitPosition();
 
   // Ctor Parameters []
@@ -158,11 +158,11 @@ public:
 
   static inline ::UnityEngine::InputSystem::UI::__TrackedDeviceRaycaster____c* New_ctor();
 
-  /// @brief Method <SortedRaycastGraphics>b__25_0, addr 0x3009e84, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <SortedRaycastGraphics>b__25_0, addr 0x3146c10, size 0x54, virtual false, abstract: false, final false
   inline int32_t _SortedRaycastGraphics_b__25_0(::UnityEngine::InputSystem::UI::__TrackedDeviceRaycaster__RaycastHitData g1,
                                                 ::UnityEngine::InputSystem::UI::__TrackedDeviceRaycaster__RaycastHitData g2);
 
-  /// @brief Method .ctor, addr 0x3009e7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3146c08, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::UI::__TrackedDeviceRaycaster____c* getStaticF___9();
@@ -252,22 +252,22 @@ public:
 
   static inline ::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x30093f8, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3146184, size 0xf4, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3009374, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3146100, size 0x84, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method PerformRaycast, addr 0x30031cc, size 0x5e0, virtual false, abstract: false, final false
+  /// @brief Method PerformRaycast, addr 0x313ff58, size 0x5e0, virtual false, abstract: false, final false
   inline void PerformRaycast(::UnityEngine::InputSystem::UI::ExtendedPointerEventData* eventData, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* resultAppendList);
 
-  /// @brief Method RayIntersectsRectTransform, addr 0x3009a78, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method RayIntersectsRectTransform, addr 0x3146804, size 0x258, virtual false, abstract: false, final false
   static inline bool RayIntersectsRectTransform(::UnityEngine::RectTransform* transform, ::UnityEngine::Ray ray, ByRef<::UnityEngine::Vector3> worldPosition, ByRef<float_t> distance);
 
-  /// @brief Method Raycast, addr 0x30094ec, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Raycast, addr 0x3146278, size 0xb0, virtual true, abstract: false, final false
   inline void Raycast(::UnityEngine::EventSystems::PointerEventData* eventData, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* resultAppendList);
 
-  /// @brief Method SortedRaycastGraphics, addr 0x300959c, size 0x4dc, virtual false, abstract: false, final false
+  /// @brief Method SortedRaycastGraphics, addr 0x3146328, size 0x4dc, virtual false, abstract: false, final false
   inline void SortedRaycastGraphics(::UnityEngine::Canvas* canvas, ::UnityEngine::Ray ray,
                                     ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::UI::__TrackedDeviceRaycaster__RaycastHitData>* results);
 
@@ -314,51 +314,51 @@ public:
 
   constexpr void __cordl_internal_set_m_RaycastResultsCache(::System::Collections::Generic::List_1<::UnityEngine::InputSystem::UI::__TrackedDeviceRaycaster__RaycastHitData>* value);
 
-  /// @brief Method .ctor, addr 0x3009ce4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3146a70, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityW<::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster>> getStaticF_s_Instances();
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::UI::__TrackedDeviceRaycaster__RaycastHitData>* getStaticF_s_SortedGraphics();
 
-  /// @brief Method get_blockingMask, addr 0x3009318, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_blockingMask, addr 0x31460a4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LayerMask get_blockingMask();
 
-  /// @brief Method get_canvas, addr 0x3009284, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_canvas, addr 0x3146010, size 0x94, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Canvas> get_canvas();
 
-  /// @brief Method get_checkFor2DOcclusion, addr 0x300933c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_checkFor2DOcclusion, addr 0x31460c8, size 0x8, virtual false, abstract: false, final false
   inline bool get_checkFor2DOcclusion();
 
-  /// @brief Method get_checkFor3DOcclusion, addr 0x3009328, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_checkFor3DOcclusion, addr 0x31460b4, size 0x8, virtual false, abstract: false, final false
   inline bool get_checkFor3DOcclusion();
 
-  /// @brief Method get_eventCamera, addr 0x30091f0, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method get_eventCamera, addr 0x3145f7c, size 0x94, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> get_eventCamera();
 
-  /// @brief Method get_ignoreReversedGraphics, addr 0x3009350, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ignoreReversedGraphics, addr 0x31460dc, size 0x8, virtual false, abstract: false, final false
   inline bool get_ignoreReversedGraphics();
 
-  /// @brief Method get_maxDistance, addr 0x3009364, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxDistance, addr 0x31460f0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_maxDistance();
 
   static inline void setStaticF_s_Instances(::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityW<::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster>> value);
 
   static inline void setStaticF_s_SortedGraphics(::System::Collections::Generic::List_1<::UnityEngine::InputSystem::UI::__TrackedDeviceRaycaster__RaycastHitData>* value);
 
-  /// @brief Method set_blockingMask, addr 0x3009320, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_blockingMask, addr 0x31460ac, size 0x8, virtual false, abstract: false, final false
   inline void set_blockingMask(::UnityEngine::LayerMask value);
 
-  /// @brief Method set_checkFor2DOcclusion, addr 0x3009344, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_checkFor2DOcclusion, addr 0x31460d0, size 0xc, virtual false, abstract: false, final false
   inline void set_checkFor2DOcclusion(bool value);
 
-  /// @brief Method set_checkFor3DOcclusion, addr 0x3009330, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_checkFor3DOcclusion, addr 0x31460bc, size 0xc, virtual false, abstract: false, final false
   inline void set_checkFor3DOcclusion(bool value);
 
-  /// @brief Method set_ignoreReversedGraphics, addr 0x3009358, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ignoreReversedGraphics, addr 0x31460e4, size 0xc, virtual false, abstract: false, final false
   inline void set_ignoreReversedGraphics(bool value);
 
-  /// @brief Method set_maxDistance, addr 0x300936c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maxDistance, addr 0x31460f8, size 0x8, virtual false, abstract: false, final false
   inline void set_maxDistance(float_t value);
 
 protected:

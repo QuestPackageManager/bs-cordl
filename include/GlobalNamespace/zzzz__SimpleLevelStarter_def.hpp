@@ -116,21 +116,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x25acefc, size 0x6d0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26a71a4, size 0x6d0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__SimpleLevelStarter___StartLevel_d__17* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x25ad5cc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x26a7874, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x25ad5d4, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x26a787c, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x25ad614, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x26a78bc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x25acef8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x26a71a0, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -157,7 +157,7 @@ public:
 
   constexpr void __cordl_internal_set__handle_5__2(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>> value);
 
-  /// @brief Method .ctor, addr 0x25acb38, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a6de0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -267,27 +267,27 @@ public:
   /// @brief Field _useTestNoteCutSoundEffects, offset 0x2c, size 0x1
   __declspec(property(get = __cordl_internal_get__useTestNoteCutSoundEffects, put = __cordl_internal_set__useTestNoteCutSoundEffects)) bool _useTestNoteCutSoundEffects;
 
-  /// @brief Method Awake, addr 0x25ac9b8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x26a6c60, size 0xc4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method ButtonPressed, addr 0x25acc88, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ButtonPressed, addr 0x26a6f30, size 0x20, virtual false, abstract: false, final false
   inline void ButtonPressed();
 
-  /// @brief Method HandleLevelDidFinish, addr 0x25acca8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method HandleLevelDidFinish, addr 0x26a6f50, size 0x3c, virtual false, abstract: false, final false
   inline void HandleLevelDidFinish(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelSceneSetupData, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
-  /// @brief Method InstallEarlyBindings, addr 0x25acb60, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method InstallEarlyBindings, addr 0x26a6e08, size 0x128, virtual false, abstract: false, final false
   inline void InstallEarlyBindings(::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, ::Zenject::DiContainer* container);
 
   static inline ::GlobalNamespace::SimpleLevelStarter* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x25aca7c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x26a6d24, size 0x54, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method StartLevel, addr 0x25acad0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method StartLevel, addr 0x26a6d78, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* StartLevel();
 
-  /// @brief Method <StartLevel>g__AfterSceneSwitchCallback|17_0, addr 0x25acdbc, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method <StartLevel>g__AfterSceneSwitchCallback|17_0, addr 0x26a7064, size 0x13c, virtual false, abstract: false, final false
   inline void _StartLevel_g__AfterSceneSwitchCallback_17_0(::Zenject::DiContainer* container);
 
   constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> const& __cordl_internal_get__beatmapCharacteristic() const;
@@ -380,7 +380,7 @@ public:
 
   constexpr void __cordl_internal_set__useTestNoteCutSoundEffects(bool value);
 
-  /// @brief Method .ctor, addr 0x25acce4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a6f8c, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

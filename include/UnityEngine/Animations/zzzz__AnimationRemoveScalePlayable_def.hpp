@@ -45,25 +45,25 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayable"
   constexpr operator ::UnityEngine::Playables::IPlayable*();
 
-  /// @brief Method Create, addr 0x31c455c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x33c9fe4, size 0x98, virtual false, abstract: false, final false
   static inline ::UnityEngine::Animations::AnimationRemoveScalePlayable Create(::UnityEngine::Playables::PlayableGraph graph, int32_t inputCount);
 
-  /// @brief Method CreateHandle, addr 0x31c45f4, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method CreateHandle, addr 0x33ca07c, size 0xe4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableHandle CreateHandle(::UnityEngine::Playables::PlayableGraph graph, int32_t inputCount);
 
-  /// @brief Method CreateHandleInternal, addr 0x31c4798, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method CreateHandleInternal, addr 0x33ca220, size 0x8c, virtual false, abstract: false, final false
   static inline bool CreateHandleInternal(::UnityEngine::Playables::PlayableGraph graph, ByRef<::UnityEngine::Playables::PlayableHandle> handle);
 
-  /// @brief Method CreateHandleInternal_Injected, addr 0x31c490c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method CreateHandleInternal_Injected, addr 0x33ca394, size 0x44, virtual false, abstract: false, final false
   static inline bool CreateHandleInternal_Injected(ByRef<::UnityEngine::Playables::PlayableGraph> graph, ByRef<::UnityEngine::Playables::PlayableHandle> handle);
 
-  /// @brief Method Equals, addr 0x31c4860, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x33ca2e8, size 0xac, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Animations::AnimationRemoveScalePlayable other);
 
-  /// @brief Method GetHandle, addr 0x31c4824, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetHandle, addr 0x33ca2ac, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableHandle GetHandle();
 
-  /// @brief Method .ctor, addr 0x31c46d8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33ca160, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Playables::PlayableHandle handle);
 
   static inline ::UnityEngine::Animations::AnimationRemoveScalePlayable getStaticF_m_NullPlayable();
@@ -74,7 +74,7 @@ public:
   /// @brief Convert to "::UnityEngine::Playables::IPlayable"
   constexpr ::UnityEngine::Playables::IPlayable* i___UnityEngine__Playables__IPlayable();
 
-  /// @brief Method op_Implicit, addr 0x31c4830, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x33ca2b8, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::Playable op_Implicit___UnityEngine__Playables__Playable(::UnityEngine::Animations::AnimationRemoveScalePlayable playable);
 
   static inline void setStaticF_m_NullPlayable(::UnityEngine::Animations::AnimationRemoveScalePlayable value);

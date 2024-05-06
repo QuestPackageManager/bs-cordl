@@ -38,10 +38,10 @@ public:
 
   constexpr void __cordl_internal_set_algorithm(::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag value);
 
-  /// @brief Method .ctor, addr 0x133db78, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x143229c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method get_Algorithm, addr 0x133f4fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Algorithm, addr 0x1433c20, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag get_Algorithm();
 
 protected:

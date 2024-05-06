@@ -17,6 +17,9 @@ class __BeatmapLevelExtensions____c;
 namespace System {
 template <typename T, typename TResult> class Func_2;
 }
+namespace UnityEngine {
+class Sprite;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class BeatmapLevelExtensions;
@@ -38,24 +41,24 @@ public:
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9, put = setStaticF___9))::GlobalNamespace::__BeatmapLevelExtensions____c* __9;
 
-  /// @brief Field <>9__0_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__0_0, put = setStaticF___9__0_0))::System::Func_2<::StringW, ::StringW>* __9__0_0;
+  /// @brief Field <>9__1_0, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF___9__1_0, put = setStaticF___9__1_0))::System::Func_2<::StringW, ::StringW>* __9__1_0;
 
   static inline ::GlobalNamespace::__BeatmapLevelExtensions____c* New_ctor();
 
-  /// @brief Method <ToRuntime>b__0_0, addr 0x13c8938, size 0x18, virtual false, abstract: false, final false
-  inline ::StringW _ToRuntime_b__0_0(::StringW l);
+  /// @brief Method <ToRuntime>b__1_0, addr 0x14be958, size 0x18, virtual false, abstract: false, final false
+  inline ::StringW _ToRuntime_b__1_0(::StringW l);
 
-  /// @brief Method .ctor, addr 0x13c8930, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14be950, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__BeatmapLevelExtensions____c* getStaticF___9();
 
-  static inline ::System::Func_2<::StringW, ::StringW>* getStaticF___9__0_0();
+  static inline ::System::Func_2<::StringW, ::StringW>* getStaticF___9__1_0();
 
   static inline void setStaticF___9(::GlobalNamespace::__BeatmapLevelExtensions____c* value);
 
-  static inline void setStaticF___9__0_0(::System::Func_2<::StringW, ::StringW>* value);
+  static inline void setStaticF___9__1_0(::System::Func_2<::StringW, ::StringW>* value);
 
 protected:
   // Ctor Parameters []
@@ -87,7 +90,10 @@ public:
   // Declarations
   using __c = ::GlobalNamespace::__BeatmapLevelExtensions____c;
 
-  /// @brief Method ToRuntime, addr 0x13c7b8c, size 0xc84, virtual false, abstract: false, final false
+  /// @brief Method ToCensoredRuntime, addr 0x14bd2d4, size 0x8d8, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::BeatmapLevel* ToCensoredRuntime(::GlobalNamespace::BeatmapLevelSO* beatmapLevelSo, ::UnityEngine::Sprite* coverSprite, ::StringW censoredLocalizedSongName);
+
+  /// @brief Method ToRuntime, addr 0x14bdbd8, size 0xc84, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapLevel* ToRuntime(::GlobalNamespace::BeatmapLevelSO* beatmapLevelSo);
 
 protected:

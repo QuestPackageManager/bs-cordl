@@ -54,24 +54,24 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Equals, addr 0x2c7b0dc, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2d789dc, size 0xe8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2c7b1c4, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2d78ac4, size 0x8c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Net::Http::Headers::StringWithQualityHeaderValue* New_ctor();
 
-  /// @brief Method System.ICloneable.Clone, addr 0x2c7b0d4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.ICloneable.Clone, addr 0x2d789d4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method ToString, addr 0x2c7b568, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2d78e68, size 0x10c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryParse, addr 0x2c7b250, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x2d78b50, size 0xb0, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, int32_t minimalCount, ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::StringWithQualityHeaderValue*>*> result);
 
-  /// @brief Method TryParseElement, addr 0x2c7b300, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method TryParseElement, addr 0x2d78c00, size 0x268, virtual false, abstract: false, final false
   static inline bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ByRef<::System::Net::Http::Headers::StringWithQualityHeaderValue*> parsedValue,
                                      ByRef<::System::Net::Http::Headers::Token> t);
 
@@ -87,22 +87,22 @@ public:
 
   constexpr void __cordl_internal_set__Value_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2c7b0a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d789a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Quality, addr 0x2c7b0b0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Quality, addr 0x2d789b0, size 0xc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<double_t> get_Quality();
 
-  /// @brief Method get_Value, addr 0x2c7b0c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x2d789c4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Value();
 
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  /// @brief Method set_Quality, addr 0x2c7b0bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Quality, addr 0x2d789bc, size 0x8, virtual false, abstract: false, final false
   inline void set_Quality(::System::Nullable_1<double_t> value);
 
-  /// @brief Method set_Value, addr 0x2c7b0cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Value, addr 0x2d789cc, size 0x8, virtual false, abstract: false, final false
   inline void set_Value(::StringW value);
 
 protected:

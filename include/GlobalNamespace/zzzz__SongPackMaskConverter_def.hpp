@@ -33,18 +33,18 @@ namespace GlobalNamespace {
 class CORDL_TYPE SongPackMaskConverter : public ::Newtonsoft::Json::JsonConverter {
 public:
   // Declarations
-  /// @brief Method CanConvert, addr 0x14190c8, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method CanConvert, addr 0x150a718, size 0x88, virtual true, abstract: false, final false
   inline bool CanConvert(::System::Type* objectType);
 
   static inline ::GlobalNamespace::SongPackMaskConverter* New_ctor();
 
-  /// @brief Method ReadJson, addr 0x1419150, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method ReadJson, addr 0x150a7a0, size 0x94, virtual true, abstract: false, final false
   inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method WriteJson, addr 0x14191e4, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method WriteJson, addr 0x150a834, size 0xb0, virtual true, abstract: false, final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method .ctor, addr 0x1419294, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x150a8e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

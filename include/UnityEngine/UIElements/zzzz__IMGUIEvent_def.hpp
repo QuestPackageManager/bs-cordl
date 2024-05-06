@@ -21,18 +21,18 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE IMGUIEvent : public ::UnityEngine::UIElements::EventBase_1<::UnityEngine::UIElements::IMGUIEvent*> {
 public:
   // Declarations
-  /// @brief Method GetPooled, addr 0x3398bd8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x359e914, size 0x84, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::IMGUIEvent* GetPooled(::UnityEngine::Event* systemEvent);
 
-  /// @brief Method Init, addr 0x3398d10, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x359ea4c, size 0x54, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x3398d64, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x359eaa0, size 0xc, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::IMGUIEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3398d70, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x359eaac, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

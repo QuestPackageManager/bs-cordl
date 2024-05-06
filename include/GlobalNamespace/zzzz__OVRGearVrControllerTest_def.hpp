@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::OVRGearVrControllerTest* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2a84f04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b807b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

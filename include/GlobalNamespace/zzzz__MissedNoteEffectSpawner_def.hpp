@@ -51,15 +51,15 @@ public:
   /// @brief Field _spawnPosZ, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__spawnPosZ, put = __cordl_internal_set__spawnPosZ)) float_t _spawnPosZ;
 
-  /// @brief Method HandleNoteWasMissed, addr 0x25c38bc, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasMissed, addr 0x26c2614, size 0x18c, virtual false, abstract: false, final false
   inline void HandleNoteWasMissed(::GlobalNamespace::NoteController* noteController);
 
   static inline ::GlobalNamespace::MissedNoteEffectSpawner* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x25c3824, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x26c257c, size 0x98, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x25c3750, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x26c24a8, size 0xd4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
@@ -92,7 +92,7 @@ public:
 
   constexpr void __cordl_internal_set__spawnPosZ(float_t value);
 
-  /// @brief Method .ctor, addr 0x25c3a48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c27a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

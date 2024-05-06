@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Timeline::ControlTrack* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3195840, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x339c2c8, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

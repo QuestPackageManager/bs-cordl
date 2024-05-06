@@ -45,7 +45,7 @@ public:
   /// @brief Field facets, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_facets, put = __cordl_internal_set_facets))::System::Xml::Schema::XmlSchemaObjectCollection* facets;
 
-  /// @brief Method Clone, addr 0x2d218ec, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x2e1e1ec, size 0xb0, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObject* Clone();
 
   static inline ::System::Xml::Schema::XmlSchemaSimpleTypeRestriction* New_ctor();
@@ -68,22 +68,22 @@ public:
 
   constexpr void __cordl_internal_set_facets(::System::Xml::Schema::XmlSchemaObjectCollection* value);
 
-  /// @brief Method .ctor, addr 0x2d2199c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e1e29c, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BaseType, addr 0x2d218d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BaseType, addr 0x2e1e1d4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaSimpleType* get_BaseType();
 
-  /// @brief Method get_BaseTypeName, addr 0x2d21834, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BaseTypeName, addr 0x2e1e134, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* get_BaseTypeName();
 
-  /// @brief Method get_Facets, addr 0x2d218e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Facets, addr 0x2e1e1e4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObjectCollection* get_Facets();
 
-  /// @brief Method set_BaseType, addr 0x2d218dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BaseType, addr 0x2e1e1dc, size 0x8, virtual false, abstract: false, final false
   inline void set_BaseType(::System::Xml::Schema::XmlSchemaSimpleType* value);
 
-  /// @brief Method set_BaseTypeName, addr 0x2d2183c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method set_BaseTypeName, addr 0x2e1e13c, size 0x98, virtual false, abstract: false, final false
   inline void set_BaseTypeName(::System::Xml::XmlQualifiedName* value);
 
 protected:

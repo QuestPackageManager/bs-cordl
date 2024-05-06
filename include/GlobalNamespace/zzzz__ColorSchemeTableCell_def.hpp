@@ -46,7 +46,7 @@ public:
 
   static inline ::GlobalNamespace::ColorSchemeTableCell* New_ctor();
 
-  /// @brief Method SetColors, addr 0x2634570, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetColors, addr 0x2734350, size 0x7c, virtual false, abstract: false, final false
   inline void SetColors(::UnityEngine::Color saberAColor, ::UnityEngine::Color saberBColor, ::UnityEngine::Color environment0Color, ::UnityEngine::Color environment1Color,
                         ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost, ::UnityEngine::Color obstacleColor);
 
@@ -68,16 +68,16 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x2634864, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2734644, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_text, addr 0x2634840, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x2734620, size 0x24, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method set_showEditIcon, addr 0x263452c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_showEditIcon, addr 0x273430c, size 0x20, virtual false, abstract: false, final false
   inline void set_showEditIcon(bool value);
 
-  /// @brief Method set_text, addr 0x263454c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x273432c, size 0x24, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:

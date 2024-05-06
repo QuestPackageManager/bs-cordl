@@ -45,23 +45,23 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator"
   constexpr operator ::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator*() noexcept;
 
-  /// @brief Method Close, addr 0x12207b0, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method Close, addr 0x1310ed4, size 0x40, virtual true, abstract: false, final true
   inline void Close();
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator* New_ctor();
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator* New_ctor(bool oldFormat);
 
-  /// @brief Method Open, addr 0x122072c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x1310e50, size 0x84, virtual false, abstract: false, final false
   inline ::System::IO::Stream* Open(::System::IO::Stream* outStr, char16_t format, ::System::IO::FileInfo* file);
 
-  /// @brief Method Open, addr 0x1220398, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x1310abc, size 0x1d4, virtual false, abstract: false, final false
   inline ::System::IO::Stream* Open(::System::IO::Stream* outStr, char16_t format, ::StringW name, int64_t length, ::System::DateTime modificationTime);
 
-  /// @brief Method Open, addr 0x122056c, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x1310c90, size 0x1c0, virtual false, abstract: false, final false
   inline ::System::IO::Stream* Open(::System::IO::Stream* outStr, char16_t format, ::StringW name, ::System::DateTime modificationTime, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer);
 
-  /// @brief Method WriteHeader, addr 0x1220254, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method WriteHeader, addr 0x1310978, size 0x144, virtual false, abstract: false, final false
   inline void WriteHeader(::Org::BouncyCastle::Bcpg::BcpgOutputStream* outStr, char16_t format, ::ArrayW<uint8_t, ::Array<uint8_t>*> encName, int64_t modificationTime);
 
   constexpr bool const& __cordl_internal_get_oldFormat() const;
@@ -76,10 +76,10 @@ public:
 
   constexpr void __cordl_internal_set_pkOut(::Org::BouncyCastle::Bcpg::BcpgOutputStream* value);
 
-  /// @brief Method .ctor, addr 0x1220224, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1310948, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x122022c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1310950, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool oldFormat);
 
   /// @brief Convert to "::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator"

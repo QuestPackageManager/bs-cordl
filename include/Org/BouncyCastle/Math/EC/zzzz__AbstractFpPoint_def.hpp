@@ -38,20 +38,20 @@ public:
                                                                          ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> zs,
                                                                          bool withCompression);
 
-  /// @brief Method SatisfiesCurveEquation, addr 0x113cf94, size 0x2d8, virtual true, abstract: false, final false
+  /// @brief Method SatisfiesCurveEquation, addr 0x12306b8, size 0x2d8, virtual true, abstract: false, final false
   inline bool SatisfiesCurveEquation();
 
-  /// @brief Method Subtract, addr 0x113d26c, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method Subtract, addr 0x1230990, size 0x60, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Subtract(::Org::BouncyCastle::Math::EC::ECPoint* b);
 
-  /// @brief Method .ctor, addr 0x113cf58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x123067c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y, bool withCompression);
 
-  /// @brief Method .ctor, addr 0x113cf60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1230684, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y,
                     ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> zs, bool withCompression);
 
-  /// @brief Method get_CompressionYTilde, addr 0x113cf68, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method get_CompressionYTilde, addr 0x123068c, size 0x2c, virtual true, abstract: false, final false
   inline bool get_CompressionYTilde();
 
 protected:

@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::Unity::XR::Oculus::Input::OculusGoController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x31ab49c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33b0f24, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

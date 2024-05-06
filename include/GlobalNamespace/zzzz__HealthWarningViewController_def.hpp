@@ -81,21 +81,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x2547530, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x263d1f0, size 0xc8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__HealthWarningViewController___DismissHealthAndSafety_d__15* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x25475f8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x263d2b8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2547600, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x263d2c0, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2547640, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x263d300, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x254752c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x263d1ec, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -116,7 +116,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::HealthWarningViewController> value);
 
-  /// @brief Method .ctor, addr 0x25474e0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263d1a0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -203,21 +203,21 @@ public:
   /// @brief Field didFinishEvent, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent))::System::Action* didFinishEvent;
 
-  /// @brief Method DidActivate, addr 0x2547204, size 0x1a4, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x263cec4, size 0x1a4, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x2547410, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x263d0d0, size 0xc4, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method DismissHealthAndSafety, addr 0x25473a8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method DismissHealthAndSafety, addr 0x263d068, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* DismissHealthAndSafety();
 
-  /// @brief Method Init, addr 0x25474d4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x263d194, size 0xc, virtual false, abstract: false, final false
   inline void Init(bool requiresInteraction);
 
   static inline ::GlobalNamespace::HealthWarningViewController* New_ctor();
 
-  /// @brief Method <DidActivate>b__12_0, addr 0x2547510, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__12_0, addr 0x263d1d0, size 0x1c, virtual false, abstract: false, final false
   inline void _DidActivate_b__12_0();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__continueButton() const;
@@ -280,13 +280,13 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x2547508, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263d1c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x25470cc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x263cd8c, size 0x9c, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x2547168, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x263ce28, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action* value);
 
 protected:

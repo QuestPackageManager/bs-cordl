@@ -32,7 +32,7 @@ public:
 
   constexpr void __cordl_internal_set__ProducerType_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x31ce804, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33d5294, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* producerType);
 
 protected:

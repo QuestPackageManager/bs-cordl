@@ -22,7 +22,7 @@ namespace System::Linq::Expressions::Interpreter {
 class CORDL_TYPE ConvertHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToInt32NoNull, addr 0x2b138bc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ToInt32NoNull, addr 0x2c111bc, size 0xb4, virtual false, abstract: false, final false
   static inline int32_t ToInt32NoNull(::System::Object* val);
 
 protected:

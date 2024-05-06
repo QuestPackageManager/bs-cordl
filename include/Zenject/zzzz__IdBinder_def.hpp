@@ -29,7 +29,7 @@ public:
 
   static inline ::Zenject::IdBinder* New_ctor(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method WithId, addr 0x342a080, size 0x101c, virtual false, abstract: false, final false
+  /// @brief Method WithId, addr 0x362edbc, size 0x1c, virtual false, abstract: false, final false
   inline void WithId(::System::Object* identifier);
 
   constexpr ::Zenject::BindInfo*& __cordl_internal_get__bindInfo();
@@ -38,7 +38,7 @@ public:
 
   constexpr void __cordl_internal_set__bindInfo(::Zenject::BindInfo* value);
 
-  /// @brief Method .ctor, addr 0x342a058, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x362ed94, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo);
 
 protected:

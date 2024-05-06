@@ -24,10 +24,10 @@ namespace GlobalNamespace {
 class CORDL_TYPE BeatmapDataNoArrowsTransform : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateTransformedData, addr 0x13a5404, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method CreateTransformedData, addr 0x149ab28, size 0xec, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
 
-  /// @brief Method <CreateTransformedData>g__ProcessData|0_0, addr 0x13a54f0, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method <CreateTransformedData>g__ProcessData|0_0, addr 0x149ac14, size 0xe4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::BeatmapDataItem* _CreateTransformedData_g__ProcessData_0_0(::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
 
 protected:

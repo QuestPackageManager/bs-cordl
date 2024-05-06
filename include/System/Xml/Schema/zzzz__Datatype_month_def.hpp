@@ -25,10 +25,10 @@ public:
 
   static inline ::System::Xml::Schema::Datatype_month* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e05d18, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f04618, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_TypeCode, addr 0x2e0c6b8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x2f0afb8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
 protected:

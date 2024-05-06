@@ -89,12 +89,12 @@ public:
   /// @brief Field rect, offset 0x58, size 0x10
   __declspec(property(get = __cordl_internal_get_rect, put = __cordl_internal_set_rect))::UnityEngine::RectInt rect;
 
-  /// @brief Method Create, addr 0x3304ff8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x3509d34, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::__DynamicAtlas__TextureInfo* Create();
 
   static inline ::UnityEngine::UIElements::__DynamicAtlas__TextureInfo* New_ctor();
 
-  /// @brief Method Reset, addr 0x3305098, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x3509dd4, size 0x30, virtual false, abstract: false, final false
   static inline void Reset(::UnityEngine::UIElements::__DynamicAtlas__TextureInfo* info);
 
   constexpr ::UnityEngine::UIElements::UIR::__Allocator2D__Alloc2D const& __cordl_internal_get_alloc() const;
@@ -121,7 +121,7 @@ public:
 
   constexpr void __cordl_internal_set_rect(::UnityEngine::RectInt value);
 
-  /// @brief Method .ctor, addr 0x3305050, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3509d8c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::__DynamicAtlas__TextureInfo*>* getStaticF_pool();
@@ -222,36 +222,36 @@ public:
 
   __declspec(property(put = set_minAtlasSize)) int32_t minAtlasSize;
 
-  /// @brief Method DestroyPages, addr 0x33035d4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method DestroyPages, addr 0x3509310, size 0x78, virtual false, abstract: false, final false
   inline void DestroyPages();
 
-  /// @brief Method InitPages, addr 0x33036f8, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method InitPages, addr 0x3509434, size 0x108, virtual false, abstract: false, final false
   inline void InitPages();
 
-  /// @brief Method IsTextureFormatSupported, addr 0x3303d00, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method IsTextureFormatSupported, addr 0x3509a3c, size 0x34, virtual false, abstract: false, final false
   static inline bool IsTextureFormatSupported(::UnityEngine::TextureFormat format);
 
-  /// @brief Method IsTextureValid, addr 0x3303d34, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method IsTextureValid, addr 0x3509a70, size 0x120, virtual true, abstract: false, final false
   inline bool IsTextureValid(::UnityEngine::Texture2D* texture, ::UnityEngine::FilterMode atlasFilterMode);
 
   static inline ::UnityEngine::UIElements::DynamicAtlas* New_ctor();
 
-  /// @brief Method OnAssignedToPanel, addr 0x330346c, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method OnAssignedToPanel, addr 0x35091a8, size 0xd0, virtual true, abstract: false, final false
   inline void OnAssignedToPanel(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method OnRemovedFromPanel, addr 0x330353c, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method OnRemovedFromPanel, addr 0x3509278, size 0x98, virtual true, abstract: false, final false
   inline void OnRemovedFromPanel(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method OnUpdateDynamicTextures, addr 0x3303c98, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method OnUpdateDynamicTextures, addr 0x35099d4, size 0x68, virtual true, abstract: false, final false
   inline void OnUpdateDynamicTextures(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method Reset, addr 0x330364c, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x3509388, size 0xac, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method ReturnAtlas, addr 0x3303b5c, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method ReturnAtlas, addr 0x3509898, size 0x13c, virtual true, abstract: false, final false
   inline void ReturnAtlas(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::Texture2D* src, ::UnityEngine::UIElements::TextureId atlas);
 
-  /// @brief Method TryGetAtlas, addr 0x3303800, size 0x35c, virtual true, abstract: false, final false
+  /// @brief Method TryGetAtlas, addr 0x350953c, size 0x35c, virtual true, abstract: false, final false
   inline bool TryGetAtlas(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::Texture2D* src, ByRef<::UnityEngine::UIElements::TextureId> atlas, ByRef<::UnityEngine::RectInt> atlasRect);
 
   constexpr ::UnityEngine::UIElements::DynamicAtlasFilters const& __cordl_internal_get_m_ActiveFilters() const;
@@ -315,31 +315,31 @@ public:
 
   constexpr void __cordl_internal_set_m_PointPage(::UnityEngine::UIElements::DynamicAtlasPage* value);
 
-  /// @brief Method .ctor, addr 0x3303f2c, size 0x10cc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3509c68, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_defaultFilters, addr 0x3303e9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultFilters, addr 0x3509bd8, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::DynamicAtlasFilters get_defaultFilters();
 
-  /// @brief Method get_isInitialized, addr 0x330344c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_isInitialized, addr 0x3509188, size 0x20, virtual false, abstract: false, final false
   inline bool get_isInitialized();
 
-  /// @brief Method get_maxSubTextureSize, addr 0x3303e54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxSubTextureSize, addr 0x3509b90, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxSubTextureSize();
 
-  /// @brief Method set_activeFilters, addr 0x3303ea4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_activeFilters, addr 0x3509be0, size 0x20, virtual false, abstract: false, final false
   inline void set_activeFilters(::UnityEngine::UIElements::DynamicAtlasFilters value);
 
-  /// @brief Method set_customFilter, addr 0x3303ee4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_customFilter, addr 0x3509c20, size 0x48, virtual false, abstract: false, final false
   inline void set_customFilter(::UnityEngine::UIElements::DynamicAtlasCustomFilter* value);
 
-  /// @brief Method set_maxAtlasSize, addr 0x3303e7c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_maxAtlasSize, addr 0x3509bb8, size 0x20, virtual false, abstract: false, final false
   inline void set_maxAtlasSize(int32_t value);
 
-  /// @brief Method set_maxSubTextureSize, addr 0x3303ec4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_maxSubTextureSize, addr 0x3509c00, size 0x20, virtual false, abstract: false, final false
   inline void set_maxSubTextureSize(int32_t value);
 
-  /// @brief Method set_minAtlasSize, addr 0x3303e5c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_minAtlasSize, addr 0x3509b98, size 0x20, virtual false, abstract: false, final false
   inline void set_minAtlasSize(int32_t value);
 
 protected:

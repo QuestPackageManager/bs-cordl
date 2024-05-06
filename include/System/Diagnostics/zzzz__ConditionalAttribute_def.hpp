@@ -30,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set__ConditionString_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x27fe6c4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28fdde4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW conditionString);
 
 protected:

@@ -25,27 +25,27 @@ namespace HoudiniEngineUnity {
 class CORDL_TYPE HEU_RenderingPipelineDefines : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AddDefine, addr 0x24bc6c4, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method AddDefine, addr 0x25b4350, size 0x108, virtual false, abstract: false, final false
   static inline void AddDefine(::StringW define);
 
-  /// @brief Method GetDefines, addr 0x24bc88c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetDefines, addr 0x25b4518, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::StringW>* GetDefines();
 
-  /// @brief Method GetPipeline, addr 0x24bc594, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method GetPipeline, addr 0x25b4220, size 0x130, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::HEU_PipelineType GetPipeline();
 
   static inline ::HoudiniEngineUnity::HEU_RenderingPipelineDefines* New_ctor();
 
-  /// @brief Method RemoveDefine, addr 0x24bc7cc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method RemoveDefine, addr 0x25b4458, size 0xc0, virtual false, abstract: false, final false
   static inline void RemoveDefine(::StringW define);
 
-  /// @brief Method SetDefines, addr 0x24bc8fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetDefines, addr 0x25b4588, size 0x4, virtual false, abstract: false, final false
   static inline void SetDefines(::System::Collections::Generic::List_1<::StringW>* definesList);
 
-  /// @brief Method UpdateDefines, addr 0x24bc4bc, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method UpdateDefines, addr 0x25b4148, size 0xd8, virtual false, abstract: false, final false
   static inline void UpdateDefines();
 
-  /// @brief Method .ctor, addr 0x24bc900, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25b458c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

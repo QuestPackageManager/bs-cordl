@@ -42,10 +42,10 @@ public:
   /// @brief Convert operator to "::System::Resources::IResourceGroveler"
   constexpr operator ::System::Resources::IResourceGroveler*() noexcept;
 
-  /// @brief Method GetNeutralResourcesLanguage, addr 0x2761250, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method GetNeutralResourcesLanguage, addr 0x2860960, size 0x320, virtual false, abstract: false, final false
   static inline ::System::Globalization::CultureInfo* GetNeutralResourcesLanguage(::System::Reflection::Assembly* a, ByRef<::System::Resources::UltimateResourceFallbackLocation> fallbackLocation);
 
-  /// @brief Method GetNeutralResourcesLanguageAttribute, addr 0x2761570, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetNeutralResourcesLanguageAttribute, addr 0x2860c80, size 0x74, virtual false, abstract: false, final false
   static inline bool GetNeutralResourcesLanguageAttribute(::System::Reflection::Assembly* assembly, ByRef<::StringW> cultureName, ByRef<int16_t> fallbackLocation);
 
   static inline ::System::Resources::ManifestBasedResourceGroveler* New_ctor(::System::Resources::__ResourceManager__ResourceManagerMediator* mediator);
@@ -56,7 +56,7 @@ public:
 
   constexpr void __cordl_internal_set__mediator(::System::Resources::__ResourceManager__ResourceManagerMediator* value);
 
-  /// @brief Method .ctor, addr 0x2761228, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2860938, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Resources::__ResourceManager__ResourceManagerMediator* mediator);
 
   /// @brief Convert to "::System::Resources::IResourceGroveler"

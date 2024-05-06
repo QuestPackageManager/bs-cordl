@@ -69,28 +69,28 @@ public:
 
   static inline ::GlobalNamespace::AutoSetupController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x2534184, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x262ab38, size 0x1c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x2533f84, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x262a938, size 0x200, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Setup, addr 0x2533f7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x262a930, size 0x8, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::AutoSetupData* autoSetupData);
 
-  /// @brief Method <OnEnable>b__12_0, addr 0x2534270, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__12_0, addr 0x262ac24, size 0x20, virtual false, abstract: false, final false
   inline void _OnEnable_b__12_0();
 
-  /// @brief Method <OnEnable>b__12_1, addr 0x2534290, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__12_1, addr 0x262ac44, size 0x20, virtual false, abstract: false, final false
   inline void _OnEnable_b__12_1(bool isOn);
 
-  /// @brief Method <OnEnable>b__12_2, addr 0x25342b0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__12_2, addr 0x262ac64, size 0x20, virtual false, abstract: false, final false
   inline void _OnEnable_b__12_2(bool isOn);
 
-  /// @brief Method <OnEnable>b__12_3, addr 0x25342d0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__12_3, addr 0x262ac84, size 0x20, virtual false, abstract: false, final false
   inline void _OnEnable_b__12_3(bool isOn);
 
-  /// @brief Method <OnEnable>b__12_4, addr 0x25342f0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__12_4, addr 0x262aca4, size 0x20, virtual false, abstract: false, final false
   inline void _OnEnable_b__12_4(bool isOn);
 
   constexpr ::GlobalNamespace::AutoSetupData*& __cordl_internal_get__autoSetupData();
@@ -147,13 +147,13 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::GlobalNamespace::AutoSetupData*>* value);
 
-  /// @brief Method .ctor, addr 0x25341a0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x262ab54, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x2533e1c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x262a7d0, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::AutoSetupData*>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x2533ecc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x262a880, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::AutoSetupData*>* value);
 
 protected:

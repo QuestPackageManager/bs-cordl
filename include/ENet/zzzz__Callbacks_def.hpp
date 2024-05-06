@@ -44,13 +44,13 @@ public:
 
   constexpr void __cordl_internal_set_nativeCallbacks(::ENet::ENetCallbacks value);
 
-  /// @brief Method .ctor, addr 0x24dd0e4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d4d70, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::ENet::AllocCallback* allocCallback, ::ENet::FreeCallback* freeCallback, ::ENet::NoMemoryCallback* noMemoryCallback);
 
-  /// @brief Method get_NativeData, addr 0x24dd0bc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_NativeData, addr 0x25d4d48, size 0x14, virtual false, abstract: false, final false
   inline ::ENet::ENetCallbacks get_NativeData();
 
-  /// @brief Method set_NativeData, addr 0x24dd0d0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_NativeData, addr 0x25d4d5c, size 0x14, virtual false, abstract: false, final false
   inline void set_NativeData(::ENet::ENetCallbacks value);
 
 protected:

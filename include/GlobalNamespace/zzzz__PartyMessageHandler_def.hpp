@@ -141,19 +141,19 @@ namespace GlobalNamespace {
 class CORDL_TYPE __PartyMessageHandler__ServerStatusUpdatedDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0xfbc43c, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x10afb60, size 0xc0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::GlobalNamespace::GameplayServerConfiguration configuration,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0xfbc4fc, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x10afc20, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0xfbc3ec, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x10afb10, size 0x50, virtual true, abstract: false, final false
   inline void Invoke(::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::GlobalNamespace::GameplayServerConfiguration configuration);
 
   static inline ::GlobalNamespace::__PartyMessageHandler__ServerStatusUpdatedDelegate* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0xfbc328, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10afa4c, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -184,18 +184,18 @@ namespace GlobalNamespace {
 class CORDL_TYPE __PartyMessageHandler__ConnectToMasterServerDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0xfbc5f0, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x10afd14, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW secret, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0xfbc610, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x10afd34, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0xfbc5dc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x10afd00, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::StringW secret);
 
   static inline ::GlobalNamespace::__PartyMessageHandler__ConnectToMasterServerDelegate* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0xfbc508, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10afc2c, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -235,18 +235,18 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
 
-  /// @brief Method Deserialize, addr 0xfbc640, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0x10afd64, size 0x28, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Init, addr 0xfbc28c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x10af9b0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__PartyMessageHandler__ConnectToMasterServerMessage* Init(::StringW secret);
 
   static inline ::GlobalNamespace::__PartyMessageHandler__ConnectToMasterServerMessage* New_ctor();
 
-  /// @brief Method Release, addr 0xfbc2d4, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method Release, addr 0x10af9f8, size 0x54, virtual true, abstract: false, final true
   inline void Release();
 
-  /// @brief Method Serialize, addr 0xfbc61c, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x10afd40, size 0x24, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   constexpr ::StringW const& __cordl_internal_get_secret() const;
@@ -255,10 +255,10 @@ public:
 
   constexpr void __cordl_internal_set_secret(::StringW value);
 
-  /// @brief Method .ctor, addr 0xfbc668, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10afd8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_pool, addr 0xfbc064, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_pool, addr 0x10af788, size 0x40, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PacketPool_1<::GlobalNamespace::__PartyMessageHandler__ConnectToMasterServerMessage*>* get_pool();
 
   /// @brief Convert to "::GlobalNamespace::IPoolablePacket"
@@ -323,13 +323,13 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method ConnectToMasterServer, addr 0xfbc204, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method ConnectToMasterServer, addr 0x10af928, size 0x88, virtual false, abstract: false, final false
   inline void ConnectToMasterServer(::StringW secret);
 
-  /// @brief Method Dispose, addr 0xfbc0a4, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x10af7c8, size 0x28, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method HandleConnectToMasterServer, addr 0xfbc294, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method HandleConnectToMasterServer, addr 0x10af9b8, size 0x40, virtual false, abstract: false, final false
   inline void HandleConnectToMasterServer(::GlobalNamespace::__PartyMessageHandler__ConnectToMasterServerMessage* packet);
 
   static inline ::GlobalNamespace::PartyMessageHandler* New_ctor(::GlobalNamespace::ConnectedPlayerManager* connectedPlayerManager);
@@ -353,16 +353,16 @@ public:
 
   constexpr void __cordl_internal_set_connectToMasterServerEvent(::GlobalNamespace::__PartyMessageHandler__ConnectToMasterServerDelegate* value);
 
-  /// @brief Method .ctor, addr 0xfbbefc, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10af620, size 0x168, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ConnectedPlayerManager* connectedPlayerManager);
 
-  /// @brief Method add_connectToMasterServerEvent, addr 0xfbc0cc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_connectToMasterServerEvent, addr 0x10af7f0, size 0x9c, virtual false, abstract: false, final false
   inline void add_connectToMasterServerEvent(::GlobalNamespace::__PartyMessageHandler__ConnectToMasterServerDelegate* value);
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method remove_connectToMasterServerEvent, addr 0xfbc168, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_connectToMasterServerEvent, addr 0x10af88c, size 0x9c, virtual false, abstract: false, final false
   inline void remove_connectToMasterServerEvent(::GlobalNamespace::__PartyMessageHandler__ConnectToMasterServerDelegate* value);
 
 protected:

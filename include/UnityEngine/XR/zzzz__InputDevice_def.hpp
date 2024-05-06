@@ -36,34 +36,34 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::XR::InputDevice>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::XR::InputDevice>*();
 
-  /// @brief Method Equals, addr 0x34013ec, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3607128, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x3401480, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x36071bc, size 0x28, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::XR::InputDevice other);
 
-  /// @brief Method GetHashCode, addr 0x34014a8, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x36071e4, size 0x34, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsValidId, addr 0x3401108, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsValidId, addr 0x3606e44, size 0x20, virtual false, abstract: false, final false
   inline bool IsValidId();
 
-  /// @brief Method SendHapticImpulse, addr 0x34011fc, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method SendHapticImpulse, addr 0x3606f38, size 0x100, virtual false, abstract: false, final false
   inline bool SendHapticImpulse(uint32_t channel, float_t amplitude, float_t duration);
 
-  /// @brief Method StopHaptics, addr 0x3401358, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method StopHaptics, addr 0x3607094, size 0x58, virtual false, abstract: false, final false
   inline void StopHaptics();
 
-  /// @brief Method .ctor, addr 0x3401084, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3606dc0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(uint64_t deviceId);
 
-  /// @brief Method get_deviceId, addr 0x3401094, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_deviceId, addr 0x3606dd0, size 0x18, virtual false, abstract: false, final false
   inline uint64_t get_deviceId();
 
-  /// @brief Method get_isValid, addr 0x34010ac, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_isValid, addr 0x3606de8, size 0x5c, virtual false, abstract: false, final false
   inline bool get_isValid();
 
-  /// @brief Method get_manufacturer, addr 0x3401164, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_manufacturer, addr 0x3606ea0, size 0x5c, virtual false, abstract: false, final false
   inline ::StringW get_manufacturer();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::XR::InputDevice>"

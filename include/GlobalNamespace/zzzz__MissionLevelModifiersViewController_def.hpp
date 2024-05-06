@@ -57,7 +57,7 @@ public:
 
   static inline ::GlobalNamespace::__MissionLevelModifiersViewController____c__DisplayClass7_0* New_ctor();
 
-  /// @brief Method <RefreshContent>b__0, addr 0x25595a0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method <RefreshContent>b__0, addr 0x264eec0, size 0x7c, virtual false, abstract: false, final false
   inline void _RefreshContent_b__0(int32_t idx, ::GlobalNamespace::GameplayModifierInfoListItem* gameplayModifierInfoListItem);
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*& __cordl_internal_get_modifierParamsList();
@@ -66,7 +66,7 @@ public:
 
   constexpr void __cordl_internal_set_modifierParamsList(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* value);
 
-  /// @brief Method .ctor, addr 0x2559590, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x264eeb0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -121,15 +121,15 @@ public:
   /// @brief Field _titleText, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__titleText, put = __cordl_internal_set__titleText))::UnityW<::TMPro::TextMeshProUGUI> _titleText;
 
-  /// @brief Method DidActivate, addr 0x255958c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x264eeac, size 0x4, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::MissionLevelModifiersViewController* New_ctor();
 
-  /// @brief Method RefreshContent, addr 0x25593fc, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method RefreshContent, addr 0x264ed1c, size 0x190, virtual false, abstract: false, final false
   inline void RefreshContent();
 
-  /// @brief Method Setup, addr 0x25593d0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x264ecf0, size 0x2c, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
   constexpr ::UnityW<::GlobalNamespace::GameplayModifierInfoListItemsList> const& __cordl_internal_get__gameplayModifierInfoListItemsList() const;
@@ -162,7 +162,7 @@ public:
 
   constexpr void __cordl_internal_set__titleText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x2559598, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x264eeb8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

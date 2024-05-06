@@ -57,10 +57,10 @@ public:
 
   static inline ::Environments::Definitions::__EnvironmentsAsyncInstaller____c* New_ctor();
 
-  /// @brief Method <LoadResourcesBeforeInstall>b__3_0, addr 0x140e058, size 0x1018, virtual false, abstract: false, final false
+  /// @brief Method <LoadResourcesBeforeInstall>b__3_0, addr 0x15006a8, size 0x18, virtual false, abstract: false, final false
   inline int32_t _LoadResourcesBeforeInstall_b__3_0(::GlobalNamespace::EnvironmentInfoSO* environmentInfo);
 
-  /// @brief Method .ctor, addr 0x140e050, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x15006a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Environments::Definitions::__EnvironmentsAsyncInstaller____c* getStaticF___9();
@@ -107,15 +107,15 @@ public:
 
   __declspec(property(get = get_assetLabelRuntimeKey))::StringW assetLabelRuntimeKey;
 
-  /// @brief Method InstallBindings, addr 0x140de24, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x1500474, size 0xb4, virtual true, abstract: false, final false
   inline void InstallBindings();
 
-  /// @brief Method LoadEnvironmentInfoListAsync, addr 0x140ded8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method LoadEnvironmentInfoListAsync, addr 0x1500528, size 0x84, virtual false, abstract: false, final false
   static inline ::System::Nullable_1<
       ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*>>
   LoadEnvironmentInfoListAsync();
 
-  /// @brief Method LoadResourcesBeforeInstall, addr 0x140dcfc, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method LoadResourcesBeforeInstall, addr 0x150034c, size 0x128, virtual true, abstract: false, final false
   inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* environmentInfos,
                                          ::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry* registry);
 
@@ -127,10 +127,10 @@ public:
 
   constexpr void __cordl_internal_set__environmentInfos(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* value);
 
-  /// @brief Method .ctor, addr 0x140df5c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x15005ac, size 0x90, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_assetLabelRuntimeKey, addr 0x140dcbc, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_assetLabelRuntimeKey, addr 0x150030c, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_assetLabelRuntimeKey();
 
 protected:

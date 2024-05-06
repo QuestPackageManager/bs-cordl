@@ -33,11 +33,11 @@ public:
   // Declarations
   __declspec(property(get = get_isReadable)) bool isReadable;
 
-  /// @brief Method Internal_Create, addr 0x31e470c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Internal_Create, addr 0x33eb440, size 0xc8, virtual false, abstract: false, final false
   static inline void Internal_Create(::UnityEngine::CubemapArray* mono, int32_t ext, int32_t count, int32_t mipCount, ::UnityEngine::Experimental::Rendering::GraphicsFormat format,
                                      ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags);
 
-  /// @brief Method Internal_CreateImpl, addr 0x31e4698, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Internal_CreateImpl, addr 0x33eb3cc, size 0x74, virtual false, abstract: false, final false
   static inline bool Internal_CreateImpl(::UnityEngine::CubemapArray* mono, int32_t ext, int32_t count, int32_t mipCount, ::UnityEngine::Experimental::Rendering::GraphicsFormat format,
                                          ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags);
 
@@ -56,29 +56,29 @@ public:
 
   static inline ::UnityEngine::CubemapArray* New_ctor(int32_t width, int32_t cubemapCount, ::UnityEngine::TextureFormat textureFormat, int32_t mipCount, bool linear);
 
-  /// @brief Method ValidateIsNotCrunched, addr 0x31e4980, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ValidateIsNotCrunched, addr 0x33eb6b4, size 0x58, virtual false, abstract: false, final false
   static inline void ValidateIsNotCrunched(::UnityEngine::Experimental::Rendering::TextureCreationFlags flags);
 
-  /// @brief Method .ctor, addr 0x31e47d4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33eb508, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t cubemapCount, ::UnityEngine::Experimental::Rendering::DefaultFormat format, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags);
 
-  /// @brief Method .ctor, addr 0x31e4820, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33eb554, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t cubemapCount, ::UnityEngine::Experimental::Rendering::GraphicsFormat format, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags);
 
-  /// @brief Method .ctor, addr 0x31e48b0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33eb5e4, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t cubemapCount, ::UnityEngine::Experimental::Rendering::GraphicsFormat format, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags,
                     int32_t mipCount);
 
-  /// @brief Method .ctor, addr 0x31e4b24, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33eb858, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t cubemapCount, ::UnityEngine::TextureFormat textureFormat, bool mipChain);
 
-  /// @brief Method .ctor, addr 0x31e4b10, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33eb844, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t cubemapCount, ::UnityEngine::TextureFormat textureFormat, bool mipChain, bool linear);
 
-  /// @brief Method .ctor, addr 0x31e49d8, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33eb70c, size 0x138, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t cubemapCount, ::UnityEngine::TextureFormat textureFormat, int32_t mipCount, bool linear);
 
-  /// @brief Method get_isReadable, addr 0x31e465c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method get_isReadable, addr 0x33eb390, size 0x3c, virtual true, abstract: false, final false
   inline bool get_isReadable();
 
 protected:

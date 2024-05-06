@@ -8,10 +8,10 @@ namespace GlobalNamespace {
 class DefaultScenesTransitionsFromInit;
 }
 namespace GlobalNamespace {
-class MainSettingsModelSO;
+class MainSystemInit;
 }
 namespace GlobalNamespace {
-class MainSystemInit;
+class SettingsApplicatorSO;
 }
 namespace System::Threading::Tasks {
 class Task;
@@ -30,52 +30,49 @@ namespace GlobalNamespace {
 class CORDL_TYPE QuestAppInit : public ::BeatSaber::Init::BSAppInit {
 public:
   // Declarations
-  /// @brief Field _defaultScenesTransitionsFromInit, offset 0x68, size 0x8
+  /// @brief Field _defaultScenesTransitionsFromInit, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__defaultScenesTransitionsFromInit,
                       put = __cordl_internal_set__defaultScenesTransitionsFromInit))::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit> _defaultScenesTransitionsFromInit;
-
-  /// @brief Field _mainSettingsModel, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__mainSettingsModel, put = __cordl_internal_set__mainSettingsModel))::UnityW<::GlobalNamespace::MainSettingsModelSO> _mainSettingsModel;
 
   /// @brief Field _mainSystemInit, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__mainSystemInit, put = __cordl_internal_set__mainSystemInit))::UnityW<::GlobalNamespace::MainSystemInit> _mainSystemInit;
 
-  /// @brief Method AppStartAndMultiSceneEditorSetup, addr 0x250d124, size 0x4, virtual true, abstract: false, final false
+  /// @brief Field _settingsApplicator, offset 0x68, size 0x8
+  __declspec(property(get = __cordl_internal_get__settingsApplicator, put = __cordl_internal_set__settingsApplicator))::UnityW<::GlobalNamespace::SettingsApplicatorSO> _settingsApplicator;
+
+  /// @brief Method AppStartAndMultiSceneEditorSetup, addr 0x2604348, size 0x4, virtual true, abstract: false, final false
   inline void AppStartAndMultiSceneEditorSetup();
 
-  /// @brief Method ApplyDeviceSettings, addr 0x250d48c, size 0x254, virtual false, abstract: false, final false
-  inline void ApplyDeviceSettings();
-
-  /// @brief Method InstallBindings, addr 0x250d25c, size 0x230, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x2604484, size 0x2a4, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::QuestAppInit* New_ctor();
 
-  /// @brief Method RepeatableSetupAsync, addr 0x250d128, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method RepeatableSetupAsync, addr 0x260434c, size 0xa0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* RepeatableSetupAsync();
 
-  /// @brief Method TransitionToNextScene, addr 0x250d1c4, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method TransitionToNextScene, addr 0x26043ec, size 0x98, virtual true, abstract: false, final false
   inline void TransitionToNextScene();
 
   constexpr ::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit> const& __cordl_internal_get__defaultScenesTransitionsFromInit() const;
 
   constexpr ::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit>& __cordl_internal_get__defaultScenesTransitionsFromInit();
 
-  constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO> const& __cordl_internal_get__mainSettingsModel() const;
-
-  constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO>& __cordl_internal_get__mainSettingsModel();
-
   constexpr ::UnityW<::GlobalNamespace::MainSystemInit> const& __cordl_internal_get__mainSystemInit() const;
 
   constexpr ::UnityW<::GlobalNamespace::MainSystemInit>& __cordl_internal_get__mainSystemInit();
 
-  constexpr void __cordl_internal_set__defaultScenesTransitionsFromInit(::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit> value);
+  constexpr ::UnityW<::GlobalNamespace::SettingsApplicatorSO> const& __cordl_internal_get__settingsApplicator() const;
 
-  constexpr void __cordl_internal_set__mainSettingsModel(::UnityW<::GlobalNamespace::MainSettingsModelSO> value);
+  constexpr ::UnityW<::GlobalNamespace::SettingsApplicatorSO>& __cordl_internal_get__settingsApplicator();
+
+  constexpr void __cordl_internal_set__defaultScenesTransitionsFromInit(::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit> value);
 
   constexpr void __cordl_internal_set__mainSystemInit(::UnityW<::GlobalNamespace::MainSystemInit> value);
 
-  /// @brief Method .ctor, addr 0x250d6e0, size 0x58, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__settingsApplicator(::UnityW<::GlobalNamespace::SettingsApplicatorSO> value);
+
+  /// @brief Method .ctor, addr 0x2604728, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -95,11 +92,11 @@ public:
   /// @brief Field _mainSystemInit, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MainSystemInit> ____mainSystemInit;
 
-  /// @brief Field _defaultScenesTransitionsFromInit, offset: 0x68, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit> ____defaultScenesTransitionsFromInit;
+  /// @brief Field _settingsApplicator, offset: 0x68, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::SettingsApplicatorSO> ____settingsApplicator;
 
-  /// @brief Field _mainSettingsModel, offset: 0x70, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::MainSettingsModelSO> ____mainSettingsModel;
+  /// @brief Field _defaultScenesTransitionsFromInit, offset: 0x70, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit> ____defaultScenesTransitionsFromInit;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -108,9 +105,9 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::QuestAppInit, 0
 
 static_assert(offsetof(::GlobalNamespace::QuestAppInit, ____mainSystemInit) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::QuestAppInit, ____defaultScenesTransitionsFromInit) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::QuestAppInit, ____settingsApplicator) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::QuestAppInit, ____mainSettingsModel) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::QuestAppInit, ____defaultScenesTransitionsFromInit) == 0x70, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::QuestAppInit);

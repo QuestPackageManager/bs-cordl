@@ -501,18 +501,18 @@ namespace HoudiniEngineUnity {
 class CORDL_TYPE __HEU_HoudiniAsset__UpdateUIDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x2457354, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2550fe0, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2457374, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2551000, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x2457340, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2550fcc, size 0x14, virtual true, abstract: false, final false
   inline void Invoke();
 
   static inline ::HoudiniEngineUnity::__HEU_HoudiniAsset__UpdateUIDelegate* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2457284, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2550f10, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -606,7 +606,7 @@ public:
 
   static inline ::HoudiniEngineUnity::__HEU_HoudiniAsset____c__DisplayClass281_0* New_ctor();
 
-  /// @brief Method <BakeToExistingPrefab>b__0, addr 0x2457388, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method <BakeToExistingPrefab>b__0, addr 0x2551014, size 0x10c, virtual false, abstract: false, final false
   inline void _BakeToExistingPrefab_b__0(::UnityEngine::Transform* trans);
 
   constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::TransformData>*& __cordl_internal_get_previousTransformValues();
@@ -615,7 +615,7 @@ public:
 
   constexpr void __cordl_internal_set_previousTransformValues(::System::Collections::Generic::List_1<::HoudiniEngineUnity::TransformData>* value);
 
-  /// @brief Method .ctor, addr 0x2457380, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x255100c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -668,19 +668,19 @@ public:
 
   static inline ::HoudiniEngineUnity::__HEU_HoudiniAsset____c* New_ctor();
 
-  /// @brief Method <ClearInvalidCurves>b__309_0, addr 0x2457500, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <ClearInvalidCurves>b__309_0, addr 0x255118c, size 0x5c, virtual false, abstract: false, final false
   inline bool _ClearInvalidCurves_b__309_0(::HoudiniEngineUnity::HEU_Curve* curve);
 
-  /// @brief Method <ClearInvalidLists>b__364_0, addr 0x245755c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <ClearInvalidLists>b__364_0, addr 0x25511e8, size 0x5c, virtual false, abstract: false, final false
   inline bool _ClearInvalidLists_b__364_0(::HoudiniEngineUnity::HEU_ObjectNode* node);
 
-  /// @brief Method <ClearInvalidLists>b__364_1, addr 0x24575b8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <ClearInvalidLists>b__364_1, addr 0x2551244, size 0x5c, virtual false, abstract: false, final false
   inline bool _ClearInvalidLists_b__364_1(::HoudiniEngineUnity::HEU_Curve* curve);
 
-  /// @brief Method <ClearInvalidLists>b__364_2, addr 0x2457614, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <ClearInvalidLists>b__364_2, addr 0x25512a0, size 0x5c, virtual false, abstract: false, final false
   inline bool _ClearInvalidLists_b__364_2(::HoudiniEngineUnity::HEU_MaterialData* data);
 
-  /// @brief Method .ctor, addr 0x24574f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2551184, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::HoudiniEngineUnity::__HEU_HoudiniAsset____c* getStaticF___9();
@@ -742,7 +742,7 @@ public:
 
   static inline ::HoudiniEngineUnity::__HEU_HoudiniAsset____c__DisplayClass365_0* New_ctor();
 
-  /// @brief Method <CopyPropertiesTo>b__0, addr 0x2457678, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method <CopyPropertiesTo>b__0, addr 0x2551304, size 0x7c, virtual false, abstract: false, final false
   inline bool _CopyPropertiesTo_b__0(::HoudiniEngineUnity::HEU_Curve* curve);
 
   constexpr ::System::Predicate_1<::UnityW<::HoudiniEngineUnity::HEU_Curve>>*& __cordl_internal_get___9__0();
@@ -763,7 +763,7 @@ public:
 
   constexpr void __cordl_internal_set_newAsset(::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> value);
 
-  /// @brief Method .ctor, addr 0x2457670, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25512fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1191,485 +1191,485 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset>>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset>>*() noexcept;
 
-  /// @brief Method AddAttributeStore, addr 0x2451574, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method AddAttributeStore, addr 0x254b200, size 0x19c, virtual false, abstract: false, final false
   inline void AddAttributeStore(::HoudiniEngineUnity::HEU_AttributesStore* attributeStore);
 
-  /// @brief Method AddCurve, addr 0x243b5b8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method AddCurve, addr 0x2535244, size 0xd4, virtual false, abstract: false, final false
   inline void AddCurve(::HoudiniEngineUnity::HEU_Curve* curve);
 
-  /// @brief Method AddCurveDrawCollider, addr 0x2450c9c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method AddCurveDrawCollider, addr 0x254a928, size 0xd4, virtual false, abstract: false, final false
   inline void AddCurveDrawCollider(::UnityEngine::Collider* newCollider);
 
-  /// @brief Method AddDownstreamConnection, addr 0x244fb04, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method AddDownstreamConnection, addr 0x2549790, size 0x80, virtual false, abstract: false, final false
   inline void AddDownstreamConnection(
       ::UnityEngine::Events::UnityAction_3<::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset>, bool, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*>* receiver);
 
-  /// @brief Method AddInputNode, addr 0x24431ac, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method AddInputNode, addr 0x253ce38, size 0xd4, virtual false, abstract: false, final false
   inline void AddInputNode(::HoudiniEngineUnity::HEU_InputNode* node);
 
-  /// @brief Method AddToAssetDBCache, addr 0x2451e14, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method AddToAssetDBCache, addr 0x254baa0, size 0x60, virtual false, abstract: false, final false
   inline void AddToAssetDBCache(::StringW assetObjectFileName, ::UnityEngine::Object* objectToAdd, ::StringW relativeFolderPath, ByRef<::UnityEngine::Object*> targetAssetDBObject);
 
-  /// @brief Method AddVolumeCache, addr 0x24512bc, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method AddVolumeCache, addr 0x254af48, size 0xd4, virtual false, abstract: false, final false
   inline void AddVolumeCache(::HoudiniEngineUnity::HEU_VolumeCache* cache);
 
-  /// @brief Method ApplyInputPresets, addr 0x24539e4, size 0x390, virtual false, abstract: false, final false
+  /// @brief Method ApplyInputPresets, addr 0x254d670, size 0x390, virtual false, abstract: false, final false
   inline bool ApplyInputPresets(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_InputPreset*>* inputPresets,
                                 bool bAddMissingInputsToRecookPreset);
 
-  /// @brief Method ApplyRecookPreset, addr 0x244bf5c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ApplyRecookPreset, addr 0x2545be8, size 0x7c, virtual false, abstract: false, final false
   inline void ApplyRecookPreset();
 
-  /// @brief Method ApplyVolumeCachePresets, addr 0x2453d74, size 0x4c4, virtual false, abstract: false, final false
+  /// @brief Method ApplyVolumeCachePresets, addr 0x254da00, size 0x4c4, virtual false, abstract: false, final false
   inline bool ApplyVolumeCachePresets(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCachePreset*>* volumeCachePresets);
 
-  /// @brief Method AssetUpdate, addr 0x24468d0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method AssetUpdate, addr 0x254055c, size 0x4, virtual false, abstract: false, final false
   inline void AssetUpdate();
 
-  /// @brief Method Awake, addr 0x24468c4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2540550, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method BakeToExistingPrefab, addr 0x244e7f4, size 0x640, virtual false, abstract: false, final false
+  /// @brief Method BakeToExistingPrefab, addr 0x2548480, size 0x640, virtual false, abstract: false, final false
   inline void BakeToExistingPrefab(::UnityEngine::GameObject* bakeTargetGO);
 
-  /// @brief Method BakeToExistingStandalone, addr 0x244ee34, size 0xc14, virtual false, abstract: false, final false
+  /// @brief Method BakeToExistingStandalone, addr 0x2548ac0, size 0xc14, virtual false, abstract: false, final false
   inline void BakeToExistingStandalone(::UnityEngine::GameObject* bakeTargetGO);
 
-  /// @brief Method BakeToNewPrefab, addr 0x244e234, size 0x3f8, virtual false, abstract: false, final false
+  /// @brief Method BakeToNewPrefab, addr 0x2547ec0, size 0x3f8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> BakeToNewPrefab(::StringW destinationPrefabPath);
 
-  /// @brief Method BakeToNewStandalone, addr 0x244e62c, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method BakeToNewStandalone, addr 0x25482b8, size 0x1c8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> BakeToNewStandalone();
 
-  /// @brief Method CalculateColliderState, addr 0x245243c, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method CalculateColliderState, addr 0x254c0c8, size 0x14c, virtual false, abstract: false, final false
   inline void CalculateColliderState();
 
-  /// @brief Method CalculateVisibility, addr 0x24521a4, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method CalculateVisibility, addr 0x254be30, size 0x14c, virtual false, abstract: false, final false
   inline void CalculateVisibility();
 
-  /// @brief Method CleanUpAndDisable, addr 0x24465ac, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CleanUpAndDisable, addr 0x2540238, size 0x5c, virtual false, abstract: false, final false
   inline void CleanUpAndDisable();
 
-  /// @brief Method CleanUpHandles, addr 0x244ce24, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method CleanUpHandles, addr 0x2546ab0, size 0x120, virtual false, abstract: false, final false
   inline void CleanUpHandles();
 
-  /// @brief Method CleanUpInputNodes, addr 0x244cb84, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method CleanUpInputNodes, addr 0x2546810, size 0x2a0, virtual false, abstract: false, final false
   inline void CleanUpInputNodes();
 
-  /// @brief Method ClearAllUpstreamConnections, addr 0x244c90c, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method ClearAllUpstreamConnections, addr 0x2546598, size 0x278, virtual false, abstract: false, final false
   inline void ClearAllUpstreamConnections();
 
-  /// @brief Method ClearBuildRequest, addr 0x24468f8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ClearBuildRequest, addr 0x2540584, size 0x10, virtual false, abstract: false, final false
   inline void ClearBuildRequest();
 
-  /// @brief Method ClearCurveDrawColliders, addr 0x2450dd0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method ClearCurveDrawColliders, addr 0x254aa5c, size 0x6c, virtual false, abstract: false, final false
   inline void ClearCurveDrawColliders();
 
-  /// @brief Method ClearInvalidCurves, addr 0x244cf78, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method ClearInvalidCurves, addr 0x2546c04, size 0x104, virtual false, abstract: false, final false
   inline void ClearInvalidCurves();
 
-  /// @brief Method ClearInvalidLists, addr 0x2446bb4, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method ClearInvalidLists, addr 0x2540840, size 0x274, virtual false, abstract: false, final false
   inline void ClearInvalidLists();
 
-  /// @brief Method ClearMaterialCache, addr 0x244c89c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ClearMaterialCache, addr 0x2546528, size 0x70, virtual false, abstract: false, final false
   inline void ClearMaterialCache();
 
-  /// @brief Method CloneAssetWithoutHDA, addr 0x244daec, size 0x5d0, virtual false, abstract: false, final false
+  /// @brief Method CloneAssetWithoutHDA, addr 0x2547778, size 0x5d0, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> CloneAssetWithoutHDA(ByRef<::StringW> bakedAssetPath, bool bWriteMeshesToAssetDatabase, bool bReconnectPrefabInstances);
 
-  /// @brief Method ConnectToUpstream, addr 0x244fa74, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ConnectToUpstream, addr 0x2549700, size 0x90, virtual false, abstract: false, final false
   inline void ConnectToUpstream(::HoudiniEngineUnity::HEU_HoudiniAsset* upstreamAsset);
 
-  /// @brief Method CopyPropertiesTo, addr 0x245288c, size 0xbec, virtual false, abstract: false, final false
+  /// @brief Method CopyPropertiesTo, addr 0x254c518, size 0xbec, virtual false, abstract: false, final false
   inline void CopyPropertiesTo(::HoudiniEngineUnity::HEU_HoudiniAsset* newAsset);
 
-  /// @brief Method CreateAndCookAsset, addr 0x2447fd4, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method CreateAndCookAsset, addr 0x2541c60, size 0x28c, virtual false, abstract: false, final false
   inline bool CreateAndCookAsset(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t subassetIndex, ByRef<int32_t> newAssetID, bool bCookTemplatedGeos);
 
-  /// @brief Method CreateAssetInputs, addr 0x24482cc, size 0x500, virtual false, abstract: false, final false
+  /// @brief Method CreateAssetInputs, addr 0x2541f58, size 0x500, virtual false, abstract: false, final false
   inline void CreateAssetInputs(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method CreateObjectNode, addr 0x244d3d8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method CreateObjectNode, addr 0x2547064, size 0xd8, virtual false, abstract: false, final false
   inline ::UnityW<::HoudiniEngineUnity::HEU_ObjectNode> CreateObjectNode(::HoudiniEngineUnity::HEU_SessionBase* session, ByRef<::HoudiniEngineUnity::HAPI_ObjectInfo> objectInfo,
                                                                          ByRef<::HoudiniEngineUnity::HAPI_Transform> objectTranform);
 
-  /// @brief Method CreateObjects, addr 0x24489e0, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method CreateObjects, addr 0x254266c, size 0x174, virtual false, abstract: false, final false
   inline bool CreateObjects(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method DeleteAllGeneratedData, addr 0x2446614, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method DeleteAllGeneratedData, addr 0x25402a0, size 0x298, virtual false, abstract: false, final false
   inline void DeleteAllGeneratedData(bool bIsRebuild);
 
-  /// @brief Method DeleteAssetCacheData, addr 0x244cf44, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method DeleteAssetCacheData, addr 0x2546bd0, size 0x34, virtual false, abstract: false, final false
   inline void DeleteAssetCacheData(bool bRegisterUndo);
 
-  /// @brief Method DeleteSessionDataOnly, addr 0x244c838, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method DeleteSessionDataOnly, addr 0x25464c4, size 0x64, virtual false, abstract: false, final false
   inline void DeleteSessionDataOnly();
 
-  /// @brief Method DisableAllColliders, addr 0x24522f0, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method DisableAllColliders, addr 0x254bf7c, size 0x14c, virtual false, abstract: false, final false
   inline void DisableAllColliders();
 
-  /// @brief Method DisconnectFromUpstream, addr 0x244fb84, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method DisconnectFromUpstream, addr 0x2549810, size 0x90, virtual false, abstract: false, final false
   inline void DisconnectFromUpstream(::HoudiniEngineUnity::HEU_HoudiniAsset* upstreamAsset);
 
-  /// @brief Method DoPostCookWork, addr 0x244a1b8, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method DoPostCookWork, addr 0x2543e44, size 0x17c, virtual false, abstract: false, final false
   inline void DoPostCookWork(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method DoesAssetRequireRecook, addr 0x244c448, size 0x3f0, virtual false, abstract: false, final false
+  /// @brief Method DoesAssetRequireRecook, addr 0x25460d4, size 0x3f0, virtual false, abstract: false, final false
   inline bool DoesAssetRequireRecook();
 
-  /// @brief Method DownloadParameterPresetFromHoudini, addr 0x244b4d8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method DownloadParameterPresetFromHoudini, addr 0x2545164, size 0x98, virtual false, abstract: false, final false
   inline void DownloadParameterPresetFromHoudini(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method DuplicateAsset, addr 0x2452588, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method DuplicateAsset, addr 0x254c214, size 0x304, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> DuplicateAsset(::UnityEngine::GameObject* newRootGameObject);
 
-  /// @brief Method ExecutePostCookCallbacks, addr 0x2449d5c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ExecutePostCookCallbacks, addr 0x25439e8, size 0xac, virtual false, abstract: false, final false
   inline void ExecutePostCookCallbacks();
 
-  /// @brief Method FinishRebuild, addr 0x2446fc0, size 0x588, virtual false, abstract: false, final false
+  /// @brief Method FinishRebuild, addr 0x2540c4c, size 0x588, virtual false, abstract: false, final false
   inline bool FinishRebuild();
 
-  /// @brief Method GenerateAttributesStore, addr 0x2448fb4, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method GenerateAttributesStore, addr 0x2542c40, size 0x154, virtual false, abstract: false, final false
   inline void GenerateAttributesStore(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method GenerateHandles, addr 0x2449108, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method GenerateHandles, addr 0x2542d94, size 0x18c, virtual false, abstract: false, final false
   inline void GenerateHandles(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method GenerateInstances, addr 0x2448cac, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method GenerateInstances, addr 0x2542938, size 0x308, virtual false, abstract: false, final false
   inline void GenerateInstances(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method GenerateObjectsGeometry, addr 0x2448b54, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GenerateObjectsGeometry, addr 0x25427e0, size 0x158, virtual false, abstract: false, final false
   inline void GenerateObjectsGeometry(::HoudiniEngineUnity::HEU_SessionBase* session, bool bRebuild);
 
-  /// @brief Method GenerateParameters, addr 0x24487cc, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method GenerateParameters, addr 0x2542458, size 0x214, virtual false, abstract: false, final false
   inline void GenerateParameters(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method GetAssetInputNode, addr 0x244d07c, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method GetAssetInputNode, addr 0x2546d08, size 0x190, virtual false, abstract: false, final false
   inline ::UnityW<::HoudiniEngineUnity::HEU_InputNode> GetAssetInputNode(::StringW inputName);
 
-  /// @brief Method GetAssetPreset, addr 0x2439258, size 0x7dc, virtual false, abstract: false, final false
+  /// @brief Method GetAssetPreset, addr 0x2532ee4, size 0x7dc, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_AssetPreset* GetAssetPreset();
 
-  /// @brief Method GetAssetSession, addr 0x24360d4, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method GetAssetSession, addr 0x252fd60, size 0x15c, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_SessionBase* GetAssetSession(bool bCreateIfInvalid);
 
-  /// @brief Method GetAttributeStore, addr 0x24513e4, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method GetAttributeStore, addr 0x254b070, size 0x190, virtual false, abstract: false, final false
   inline ::UnityW<::HoudiniEngineUnity::HEU_AttributesStore> GetAttributeStore(::StringW geoName, int32_t partID);
 
-  /// @brief Method GetAttributesStores, addr 0x2451390, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetAttributesStores, addr 0x254b01c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_AttributesStore>>* GetAttributesStores();
 
-  /// @brief Method GetClonableParts, addr 0x244e0bc, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method GetClonableParts, addr 0x2547d48, size 0x178, virtual false, abstract: false, final false
   inline void GetClonableParts(::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>* clonableParts);
 
-  /// @brief Method GetCookStatus, addr 0x244b144, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetCookStatus, addr 0x2544dd0, size 0x8, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetCookStatus GetCookStatus();
 
-  /// @brief Method GetCurve, addr 0x2450978, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method GetCurve, addr 0x254a604, size 0x1cc, virtual false, abstract: false, final false
   inline ::UnityW<::HoudiniEngineUnity::HEU_Curve> GetCurve(::StringW curveName);
 
-  /// @brief Method GetCurveDrawColliders, addr 0x2446180, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetCurveDrawColliders, addr 0x253fe0c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Collider>>* GetCurveDrawColliders();
 
-  /// @brief Method GetCurveDrawLayerMask, addr 0x2446188, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetCurveDrawLayerMask, addr 0x253fe14, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LayerMask GetCurveDrawLayerMask();
 
-  /// @brief Method GetCurves, addr 0x2450970, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetCurves, addr 0x254a5fc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_Curve>>* GetCurves();
 
-  /// @brief Method GetEditableCurveCount, addr 0x2450b44, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetEditableCurveCount, addr 0x254a7d0, size 0x158, virtual false, abstract: false, final false
   inline int32_t GetEditableCurveCount();
 
-  /// @brief Method GetHandleByName, addr 0x244d4b0, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method GetHandleByName, addr 0x254713c, size 0x190, virtual false, abstract: false, final false
   inline ::UnityW<::HoudiniEngineUnity::HEU_Handle> GetHandleByName(::StringW handleName);
 
-  /// @brief Method GetHandles, addr 0x244d640, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetHandles, addr 0x25472cc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_Handle>>* GetHandles();
 
-  /// @brief Method GetHoudiniTransformAndApply, addr 0x244fe00, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method GetHoudiniTransformAndApply, addr 0x2549a8c, size 0x2c8, virtual false, abstract: false, final false
   inline void GetHoudiniTransformAndApply(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method GetInputNode, addr 0x2450e44, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method GetInputNode, addr 0x254aad0, size 0x190, virtual false, abstract: false, final false
   inline ::UnityW<::HoudiniEngineUnity::HEU_InputNode> GetInputNode(::StringW inputName);
 
-  /// @brief Method GetInputNodeByIndex, addr 0x2450fd4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetInputNodeByIndex, addr 0x254ac60, size 0x84, virtual false, abstract: false, final false
   inline ::UnityW<::HoudiniEngineUnity::HEU_InputNode> GetInputNodeByIndex(int32_t index);
 
-  /// @brief Method GetInputNodes, addr 0x2450e3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetInputNodes, addr 0x254aac8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_InputNode>>* GetInputNodes();
 
-  /// @brief Method GetInstantiatedObject, addr 0x2454c84, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetInstantiatedObject, addr 0x254e910, size 0x94, virtual false, abstract: false, final false
   inline ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> GetInstantiatedObject();
 
-  /// @brief Method GetInstantiationMethod, addr 0x2454a8c, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method GetInstantiationMethod, addr 0x254e718, size 0x1f8, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetInstantiationMethod GetInstantiationMethod();
 
-  /// @brief Method GetInternalHDAPartWithGameObject, addr 0x24507c4, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method GetInternalHDAPartWithGameObject, addr 0x254a450, size 0x1ac, virtual false, abstract: false, final false
   inline ::UnityW<::HoudiniEngineUnity::HEU_PartData> GetInternalHDAPartWithGameObject(::UnityEngine::GameObject* outputGameObject);
 
-  /// @brief Method GetMaterialCache, addr 0x2450270, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetMaterialCache, addr 0x2549efc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_MaterialData>>* GetMaterialCache();
 
-  /// @brief Method GetMaterialData, addr 0x24500c8, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method GetMaterialData, addr 0x2549d54, size 0x1a8, virtual false, abstract: false, final false
   inline ::UnityW<::HoudiniEngineUnity::HEU_MaterialData> GetMaterialData(::UnityEngine::Material* material);
 
-  /// @brief Method GetNonParameterInputNodes, addr 0x2451058, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method GetNonParameterInputNodes, addr 0x254ace4, size 0x210, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_InputNode>>* GetNonParameterInputNodes();
 
-  /// @brief Method GetObjectNodeByName, addr 0x2436ab0, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method GetObjectNodeByName, addr 0x253073c, size 0x26c, virtual false, abstract: false, final false
   inline ::UnityW<::HoudiniEngineUnity::HEU_ObjectNode> GetObjectNodeByName(::StringW objName);
 
-  /// @brief Method GetObjectTransform, addr 0x244d694, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method GetObjectTransform, addr 0x2547320, size 0x23c, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HAPI_Transform GetObjectTransform(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t objectID);
 
-  /// @brief Method GetObjectWithID, addr 0x244d8d0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetObjectWithID, addr 0x254755c, size 0xd0, virtual false, abstract: false, final false
   inline ::UnityW<::HoudiniEngineUnity::HEU_ObjectNode> GetObjectWithID(int32_t objId);
 
-  /// @brief Method GetOutput, addr 0x245051c, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method GetOutput, addr 0x254a1a8, size 0x154, virtual false, abstract: false, final false
   inline void GetOutput(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeneratedOutput*>* outputs);
 
-  /// @brief Method GetOutputGameObjects, addr 0x2447554, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method GetOutputGameObjects, addr 0x25411e0, size 0x154, virtual false, abstract: false, final false
   inline void GetOutputGameObjects(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputObjects);
 
-  /// @brief Method GetOutputGeoNodes, addr 0x2450670, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method GetOutputGeoNodes, addr 0x254a2fc, size 0x154, virtual false, abstract: false, final false
   inline void GetOutputGeoNodes(::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_GeoNode>>* outputGeoNodes);
 
-  /// @brief Method GetSceneHDAAssetFromGameObject, addr 0x2451964, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method GetSceneHDAAssetFromGameObject, addr 0x254b5f0, size 0x144, virtual false, abstract: false, final false
   static inline ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> GetSceneHDAAssetFromGameObject(::UnityEngine::GameObject* outputGameObject);
 
-  /// @brief Method GetSceneHDAPartWithGameObject, addr 0x2451820, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method GetSceneHDAPartWithGameObject, addr 0x254b4ac, size 0x144, virtual false, abstract: false, final false
   static inline ::UnityW<::HoudiniEngineUnity::HEU_PartData> GetSceneHDAPartWithGameObject(::UnityEngine::GameObject* outputGameObject);
 
-  /// @brief Method GetValidAssetCacheFolderPath, addr 0x2450278, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetValidAssetCacheFolderPath, addr 0x2549f04, size 0x90, virtual false, abstract: false, final false
   inline ::StringW GetValidAssetCacheFolderPath();
 
-  /// @brief Method GetVolumeCacheCount, addr 0x245126c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetVolumeCacheCount, addr 0x254aef8, size 0x48, virtual false, abstract: false, final false
   inline int32_t GetVolumeCacheCount();
 
-  /// @brief Method GetVolumeCachePreset, addr 0x2454238, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method GetVolumeCachePreset, addr 0x254dec4, size 0x1dc, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_VolumeCachePreset* GetVolumeCachePreset(::StringW objName, ::StringW geoName, int32_t tile);
 
-  /// @brief Method GetVolumeCaches, addr 0x24512b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetVolumeCaches, addr 0x254af40, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_VolumeCache>>* GetVolumeCaches();
 
-  /// @brief Method HasInputNodeTransformChanged, addr 0x244d264, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method HasInputNodeTransformChanged, addr 0x2546ef0, size 0x174, virtual false, abstract: false, final false
   inline bool HasInputNodeTransformChanged();
 
-  /// @brief Method HasTransformChangedSinceLastUpdate, addr 0x2450488, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method HasTransformChangedSinceLastUpdate, addr 0x254a114, size 0x94, virtual false, abstract: false, final false
   inline bool HasTransformChangedSinceLastUpdate();
 
-  /// @brief Method HasValidAssetPath, addr 0x2446908, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HasValidAssetPath, addr 0x2540594, size 0x20, virtual false, abstract: false, final false
   inline bool HasValidAssetPath();
 
-  /// @brief Method HideAllGeometry, addr 0x2452058, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method HideAllGeometry, addr 0x254bce4, size 0x14c, virtual false, abstract: false, final false
   inline void HideAllGeometry();
 
-  /// @brief Method InputNodeNotifyRemoved, addr 0x2451268, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InputNodeNotifyRemoved, addr 0x254aef4, size 0x4, virtual false, abstract: false, final false
   inline void InputNodeNotifyRemoved(::HoudiniEngineUnity::HEU_InputNode* node);
 
-  /// @brief Method InternalSetAssetID, addr 0x2447858, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method InternalSetAssetID, addr 0x25414e4, size 0x188, virtual false, abstract: false, final false
   inline void InternalSetAssetID(int32_t assetID);
 
-  /// @brief Method InternalStartRecook, addr 0x2449740, size 0x61c, virtual false, abstract: false, final false
+  /// @brief Method InternalStartRecook, addr 0x25433cc, size 0x61c, virtual false, abstract: false, final false
   inline bool InternalStartRecook(bool bCheckParamsChanged, bool bSkipCookCheck, bool bUploadParameters, bool bUploadParameterPreset, bool bForceUploadInputs, bool bCookingSessionSync);
 
-  /// @brief Method InvalidateAsset, addr 0x2446608, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method InvalidateAsset, addr 0x2540294, size 0xc, virtual false, abstract: false, final false
   inline void InvalidateAsset();
 
-  /// @brief Method InvokeBakedEvent, addr 0x244d9a0, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method InvokeBakedEvent, addr 0x254762c, size 0x14c, virtual false, abstract: false, final false
   inline void InvokeBakedEvent(bool bSuccess, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputObjects, bool isNewBake);
 
-  /// @brief Method InvokePostCookEvent, addr 0x244a3d4, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method InvokePostCookEvent, addr 0x2544060, size 0x154, virtual false, abstract: false, final false
   inline void InvokePostCookEvent(bool bCookSuccess, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputObjects);
 
-  /// @brief Method InvokeReloadEvent, addr 0x24476a8, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method InvokeReloadEvent, addr 0x2541334, size 0x154, virtual false, abstract: false, final false
   inline void InvokeReloadEvent(bool bCookSuccess, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputObjects);
 
-  /// @brief Method IsAssetSavedInScene, addr 0x24468ac, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method IsAssetSavedInScene, addr 0x2540538, size 0x18, virtual false, abstract: false, final false
   inline bool IsAssetSavedInScene();
 
-  /// @brief Method IsAssetValid, addr 0x245044c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsAssetValid, addr 0x254a0d8, size 0x3c, virtual false, abstract: false, final false
   inline bool IsAssetValid();
 
-  /// @brief Method IsAssetValidInHoudini, addr 0x24477fc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method IsAssetValidInHoudini, addr 0x2541488, size 0x5c, virtual false, abstract: false, final false
   inline bool IsAssetValidInHoudini(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method IsEquivalentTo, addr 0x2454f1c, size 0x10c4, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x254eba8, size 0x10c4, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_HoudiniAsset* asset);
 
-  /// @brief Method IsHoudiniAssetOutput, addr 0x2451aa8, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method IsHoudiniAssetOutput, addr 0x254b734, size 0x150, virtual false, abstract: false, final false
   static inline bool IsHoudiniAssetOutput(::UnityEngine::GameObject* go);
 
-  /// @brief Method IsHoudiniAssetRoot, addr 0x2451bf8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method IsHoudiniAssetRoot, addr 0x254b884, size 0x8c, virtual false, abstract: false, final false
   static inline bool IsHoudiniAssetRoot(::UnityEngine::GameObject* go);
 
-  /// @brief Method IsValidForInteraction, addr 0x244a334, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method IsValidForInteraction, addr 0x2543fc0, size 0x70, virtual false, abstract: false, final false
   inline bool IsValidForInteraction(ByRef<::StringW> errorMessage);
 
-  /// @brief Method LoadAssetFileWithSubasset, addr 0x24479e0, size 0x5f4, virtual false, abstract: false, final false
+  /// @brief Method LoadAssetFileWithSubasset, addr 0x254166c, size 0x5f4, virtual false, abstract: false, final false
   inline bool LoadAssetFileWithSubasset(::HoudiniEngineUnity::HEU_SessionBase* session, bool bPromptForSubasset, int32_t desiredSubassetIndex);
 
-  /// @brief Method LoadAssetPresetAndCook, addr 0x243a0ac, size 0x508, virtual false, abstract: false, final false
+  /// @brief Method LoadAssetPresetAndCook, addr 0x2533d38, size 0x508, virtual false, abstract: false, final false
   inline void LoadAssetPresetAndCook(::HoudiniEngineUnity::HEU_AssetPreset* assetPreset);
 
   static inline ::HoudiniEngineUnity::HEU_HoudiniAsset* New_ctor();
 
-  /// @brief Method NotifyInputNodesCookFinished, addr 0x24494f0, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method NotifyInputNodesCookFinished, addr 0x254317c, size 0x14c, virtual false, abstract: false, final false
   inline void NotifyInputNodesCookFinished();
 
-  /// @brief Method NotifyUpstreamCooked, addr 0x244fa48, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method NotifyUpstreamCooked, addr 0x25496d4, size 0x2c, virtual false, abstract: false, final false
   inline void NotifyUpstreamCooked(::HoudiniEngineUnity::HEU_HoudiniAsset* upstreamAsset, bool bSuccess, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputs);
 
-  /// @brief Method NumAttributeStores, addr 0x2451398, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method NumAttributeStores, addr 0x254b024, size 0x4c, virtual false, abstract: false, final false
   inline int32_t NumAttributeStores();
 
-  /// @brief Method NumHandles, addr 0x244d648, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method NumHandles, addr 0x25472d4, size 0x4c, virtual false, abstract: false, final false
   inline int32_t NumHandles();
 
-  /// @brief Method OnDestroy, addr 0x24468cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2540558, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnEnable, addr 0x24468c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x2540554, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnValidate, addr 0x244a3a4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x2544030, size 0x30, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method PopulateObjectInstanceInfos, addr 0x2451c84, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method PopulateObjectInstanceInfos, addr 0x254b910, size 0x190, virtual false, abstract: false, final false
   inline void PopulateObjectInstanceInfos(::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_ObjectInstanceInfo>>* objInstanceInfos);
 
-  /// @brief Method PostAssetUpdate, addr 0x24468d4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method PostAssetUpdate, addr 0x2540560, size 0x4, virtual false, abstract: false, final false
   inline void PostAssetUpdate();
 
-  /// @brief Method ProcessHoudiniCookStatus, addr 0x2449f18, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method ProcessHoudiniCookStatus, addr 0x2543ba4, size 0x2a0, virtual false, abstract: false, final false
   inline void ProcessHoudiniCookStatus(bool bAsync);
 
-  /// @brief Method ProcessPoskCook, addr 0x244b14c, size 0x38c, virtual false, abstract: false, final false
+  /// @brief Method ProcessPoskCook, addr 0x2544dd8, size 0x38c, virtual false, abstract: false, final false
   inline void ProcessPoskCook();
 
-  /// @brief Method ProcessRebuild, addr 0x2446928, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method ProcessRebuild, addr 0x25405b4, size 0x28c, virtual false, abstract: false, final false
   inline void ProcessRebuild(bool bPromptForSubasset, int32_t desiredSubassetIndex);
 
-  /// @brief Method ReconnectInputsUpstreamNotifications, addr 0x244fc6c, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method ReconnectInputsUpstreamNotifications, addr 0x25498f8, size 0x194, virtual false, abstract: false, final false
   inline void ReconnectInputsUpstreamNotifications();
 
-  /// @brief Method RecookAsync, addr 0x244963c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method RecookAsync, addr 0x25432c8, size 0x104, virtual false, abstract: false, final false
   inline bool RecookAsync(bool bCheckParamsChanged, bool bSkipCookCheck, bool bUploadParameters, bool bUploadParameterPreset, bool bForceUploadInputs, bool bCookingSessionSync);
 
-  /// @brief Method RecookBlocking, addr 0x2449e08, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method RecookBlocking, addr 0x2543a94, size 0x110, virtual false, abstract: false, final false
   inline bool RecookBlocking(bool bCheckParamsChanged, bool bSkipCookCheck, bool bUploadParameters, bool bUploadParameterPreset, bool bForceUploadInputs, bool bCookingSessionSync);
 
-  /// @brief Method RemoveAttributeStore, addr 0x244d20c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method RemoveAttributeStore, addr 0x2546e98, size 0x58, virtual false, abstract: false, final false
   inline void RemoveAttributeStore(::HoudiniEngineUnity::HEU_AttributesStore* attributeStore);
 
-  /// @brief Method RemoveCurve, addr 0x2441b08, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method RemoveCurve, addr 0x253b794, size 0x58, virtual false, abstract: false, final false
   inline void RemoveCurve(::HoudiniEngineUnity::HEU_Curve* curve);
 
-  /// @brief Method RemoveCurveDrawCollider, addr 0x2450d70, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method RemoveCurveDrawCollider, addr 0x254a9fc, size 0x60, virtual false, abstract: false, final false
   inline void RemoveCurveDrawCollider(::UnityEngine::Collider* collider);
 
-  /// @brief Method RemoveDownstreamConnection, addr 0x244fc14, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method RemoveDownstreamConnection, addr 0x25498a0, size 0x58, virtual false, abstract: false, final false
   inline void RemoveDownstreamConnection(
       ::UnityEngine::Events::UnityAction_3<::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset>, bool, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*>* receiver);
 
-  /// @brief Method RemoveInputNode, addr 0x2441ab0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method RemoveInputNode, addr 0x253b73c, size 0x58, virtual false, abstract: false, final false
   inline void RemoveInputNode(::HoudiniEngineUnity::HEU_InputNode* node);
 
-  /// @brief Method RemoveMaterial, addr 0x2450308, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method RemoveMaterial, addr 0x2549f94, size 0x144, virtual false, abstract: false, final false
   inline void RemoveMaterial(::UnityEngine::Material* material);
 
-  /// @brief Method RemoveUnusedMaterials, addr 0x244bfd8, size 0x470, virtual false, abstract: false, final false
+  /// @brief Method RemoveUnusedMaterials, addr 0x2545c64, size 0x470, virtual false, abstract: false, final false
   inline void RemoveUnusedMaterials();
 
-  /// @brief Method RemoveVolumeCache, addr 0x2445bac, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method RemoveVolumeCache, addr 0x253f838, size 0xa8, virtual false, abstract: false, final false
   inline void RemoveVolumeCache(::HoudiniEngineUnity::HEU_VolumeCache* cache);
 
-  /// @brief Method RemoveVolumeCachePreset, addr 0x2454414, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method RemoveVolumeCachePreset, addr 0x254e0a0, size 0x68, virtual false, abstract: false, final false
   inline void RemoveVolumeCachePreset(::HoudiniEngineUnity::HEU_VolumeCachePreset* preset);
 
-  /// @brief Method ReorderAttributeStore, addr 0x2451710, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method ReorderAttributeStore, addr 0x254b39c, size 0x110, virtual false, abstract: false, final false
   inline void ReorderAttributeStore(int32_t oldIndex, int32_t newIndex);
 
-  /// @brief Method RequestBakeInPlace, addr 0x24468e0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method RequestBakeInPlace, addr 0x254056c, size 0x18, virtual false, abstract: false, final false
   inline void RequestBakeInPlace();
 
-  /// @brief Method RequestCook, addr 0x24360d0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RequestCook, addr 0x252fd5c, size 0x4, virtual false, abstract: false, final false
   inline void RequestCook(bool bCheckParametersChanged, bool bAsync, bool bSkipCookCheck, bool bUploadParameters);
 
-  /// @brief Method RequestReload, addr 0x24468dc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RequestReload, addr 0x2540568, size 0x4, virtual false, abstract: false, final false
   inline void RequestReload(bool bAsync);
 
-  /// @brief Method RequestResetParameters, addr 0x24468d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RequestResetParameters, addr 0x2540564, size 0x4, virtual false, abstract: false, final false
   inline void RequestResetParameters(bool bAsync);
 
-  /// @brief Method ResetAndCopyInstantiatedProperties, addr 0x2454768, size 0x324, virtual false, abstract: false, final false
+  /// @brief Method ResetAndCopyInstantiatedProperties, addr 0x254e3f4, size 0x324, virtual false, abstract: false, final false
   inline void ResetAndCopyInstantiatedProperties(::HoudiniEngineUnity::HEU_HoudiniAsset* newAsset);
 
-  /// @brief Method ResetMaterialOverrides, addr 0x2453478, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method ResetMaterialOverrides, addr 0x254d104, size 0x17c, virtual false, abstract: false, final false
   inline void ResetMaterialOverrides();
 
-  /// @brief Method ResetParametersToDefault, addr 0x24535f4, size 0x3f0, virtual false, abstract: false, final false
+  /// @brief Method ResetParametersToDefault, addr 0x254d280, size 0x3f0, virtual false, abstract: false, final false
   inline void ResetParametersToDefault();
 
-  /// @brief Method SetCookStatus, addr 0x2447548, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetCookStatus, addr 0x25411d4, size 0xc, virtual false, abstract: false, final false
   inline void SetCookStatus(::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetCookStatus status, ::HoudiniEngineUnity::__HEU_HoudiniAsset__AssetCookResult result);
 
-  /// @brief Method SetCurveDrawLayerMask, addr 0x2446190, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetCurveDrawLayerMask, addr 0x253fe1c, size 0x8, virtual false, abstract: false, final false
   inline void SetCurveDrawLayerMask(::UnityEngine::LayerMask mask);
 
-  /// @brief Method SetCurvesVisibilityInScene, addr 0x2451e74, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method SetCurvesVisibilityInScene, addr 0x254bb00, size 0x1e4, virtual false, abstract: false, final false
   static inline void SetCurvesVisibilityInScene(bool bShow);
 
-  /// @brief Method SetSoftDeleted, addr 0x2454d18, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method SetSoftDeleted, addr 0x254e9a4, size 0x204, virtual false, abstract: false, final false
   inline void SetSoftDeleted();
 
-  /// @brief Method SetupAsset, addr 0x2446230, size 0x37c, virtual false, abstract: false, final false
+  /// @brief Method SetupAsset, addr 0x253febc, size 0x37c, virtual false, abstract: false, final false
   inline void SetupAsset(::HoudiniEngineUnity::__HEU_HoudiniAsset__HEU_AssetType assetType, ::StringW filePath, ::UnityEngine::GameObject* rootGameObject,
                          ::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method StartHoudiniCookNode, addr 0x244b0d8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method StartHoudiniCookNode, addr 0x2544d64, size 0x6c, virtual false, abstract: false, final false
   inline bool StartHoudiniCookNode(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method StartRebuild, addr 0x2446e28, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method StartRebuild, addr 0x2540ab4, size 0x198, virtual false, abstract: false, final false
   inline bool StartRebuild(bool bPromptForSubasset, int32_t desiredSubassetIndex);
 
-  /// @brief Method SyncDirtyAttributesToHoudini, addr 0x244bdf8, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method SyncDirtyAttributesToHoudini, addr 0x2545a84, size 0x164, virtual false, abstract: false, final false
   inline void SyncDirtyAttributesToHoudini(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method SyncInternalParametersForUndoCompare, addr 0x245447c, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method SyncInternalParametersForUndoCompare, addr 0x254e108, size 0x204, virtual false, abstract: false, final false
   inline void SyncInternalParametersForUndoCompare();
 
-  /// @brief Method UpdateAllObjectNodes, addr 0x244b7c8, size 0x630, virtual false, abstract: false, final false
+  /// @brief Method UpdateAllObjectNodes, addr 0x2545454, size 0x630, virtual false, abstract: false, final false
   inline void UpdateAllObjectNodes(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method UpdateHoudiniMaterials, addr 0x244b570, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method UpdateHoudiniMaterials, addr 0x25451fc, size 0x258, virtual false, abstract: false, final false
   inline void UpdateHoudiniMaterials(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method UpdateInputsOnAssetRecreation, addr 0x244a528, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method UpdateInputsOnAssetRecreation, addr 0x25441b4, size 0x154, virtual false, abstract: false, final false
   inline void UpdateInputsOnAssetRecreation(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method UpdateParameterInputsToHoudini, addr 0x244a858, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method UpdateParameterInputsToHoudini, addr 0x25444e4, size 0xa4, virtual false, abstract: false, final false
   inline void UpdateParameterInputsToHoudini(::HoudiniEngineUnity::HEU_SessionBase* session, bool bForceUpdate);
 
-  /// @brief Method UpdateSessionSync, addr 0x2454680, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method UpdateSessionSync, addr 0x254e30c, size 0xe8, virtual false, abstract: false, final false
   inline bool UpdateSessionSync();
 
-  /// @brief Method UpdateTotalCookCount, addr 0x2448260, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method UpdateTotalCookCount, addr 0x2541eec, size 0x6c, virtual false, abstract: false, final false
   inline void UpdateTotalCookCount();
 
-  /// @brief Method UploadAttributeValues, addr 0x244aae4, size 0x430, virtual false, abstract: false, final false
+  /// @brief Method UploadAttributeValues, addr 0x2544770, size 0x430, virtual false, abstract: false, final false
   inline void UploadAttributeValues(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method UploadCurvesParameters, addr 0x244a8fc, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method UploadCurvesParameters, addr 0x2544588, size 0x1e8, virtual false, abstract: false, final false
   inline void UploadCurvesParameters(::HoudiniEngineUnity::HEU_SessionBase* session, bool bCheckParamsChanged);
 
-  /// @brief Method UploadInputNodes, addr 0x244af14, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method UploadInputNodes, addr 0x2544ba0, size 0x1c4, virtual false, abstract: false, final false
   inline void UploadInputNodes(::HoudiniEngineUnity::HEU_SessionBase* session, bool bForceUpdate, bool bUpdateAll);
 
-  /// @brief Method UploadParameterPresetToHoudini, addr 0x244a67c, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method UploadParameterPresetToHoudini, addr 0x2544308, size 0x1dc, virtual false, abstract: false, final false
   inline void UploadParameterPresetToHoudini(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method UploadUnityTransform, addr 0x2449294, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method UploadUnityTransform, addr 0x2542f20, size 0x25c, virtual false, abstract: false, final false
   inline void UploadUnityTransform(::HoudiniEngineUnity::HEU_SessionBase* session, bool bOnlySendIfChangedFromLastSync);
 
   constexpr bool const& __cordl_internal_get__WarnedPrefabNotSupported_k__BackingField() const;
@@ -2194,226 +2194,226 @@ public:
 
   constexpr void __cordl_internal_set__volumeCaches(::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_VolumeCache>>* value);
 
-  /// @brief Method .ctor, addr 0x2455fe0, size 0x12a4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x254fc6c, size 0x12a4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AlwaysOverwriteOnLoad, addr 0x2445fe4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AlwaysOverwriteOnLoad, addr 0x253fc70, size 0x8, virtual false, abstract: false, final false
   inline bool get_AlwaysOverwriteOnLoad();
 
-  /// @brief Method get_AssetHelp, addr 0x2445fa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AssetHelp, addr 0x253fc34, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_AssetHelp();
 
-  /// @brief Method get_AssetID, addr 0x2445fc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AssetID, addr 0x253fc4c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_AssetID();
 
-  /// @brief Method get_AssetInfo, addr 0x2445f6c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_AssetInfo, addr 0x253fbf8, size 0x1c, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HAPI_AssetInfo get_AssetInfo();
 
-  /// @brief Method get_AssetName, addr 0x2445f98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AssetName, addr 0x253fc24, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_AssetName();
 
-  /// @brief Method get_AssetOpName, addr 0x2445fa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AssetOpName, addr 0x253fc2c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_AssetOpName();
 
-  /// @brief Method get_AssetPath, addr 0x2445fc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AssetPath, addr 0x253fc54, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_AssetPath();
 
-  /// @brief Method get_AssetType, addr 0x2445f64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AssetType, addr 0x253fbf0, size 0x8, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::__HEU_HoudiniAsset__HEU_AssetType get_AssetType();
 
-  /// @brief Method get_AutoCookOnParameterChange, addr 0x24460bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AutoCookOnParameterChange, addr 0x253fd48, size 0x8, virtual false, abstract: false, final false
   inline bool get_AutoCookOnParameterChange();
 
-  /// @brief Method get_BakeUpdateKeepPreviousTransformValues, addr 0x2446134, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BakeUpdateKeepPreviousTransformValues, addr 0x253fdc0, size 0x8, virtual false, abstract: false, final false
   inline bool get_BakeUpdateKeepPreviousTransformValues();
 
-  /// @brief Method get_CookingTriggersDownCooks, addr 0x24460a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CookingTriggersDownCooks, addr 0x253fd34, size 0x8, virtual false, abstract: false, final false
   inline bool get_CookingTriggersDownCooks();
 
-  /// @brief Method get_CurveCookOnDrag, addr 0x24461ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CurveCookOnDrag, addr 0x253fe38, size 0x8, virtual false, abstract: false, final false
   inline bool get_CurveCookOnDrag();
 
-  /// @brief Method get_CurveDisableScaleRotation, addr 0x2446198, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CurveDisableScaleRotation, addr 0x253fe24, size 0x8, virtual false, abstract: false, final false
   inline bool get_CurveDisableScaleRotation();
 
-  /// @brief Method get_CurveDrawCollision, addr 0x2446170, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CurveDrawCollision, addr 0x253fdfc, size 0x8, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::__HEU_Curve__CurveDrawCollision get_CurveDrawCollision();
 
-  /// @brief Method get_CurveEditorEnabled, addr 0x244615c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CurveEditorEnabled, addr 0x253fde8, size 0x8, virtual false, abstract: false, final false
   inline bool get_CurveEditorEnabled();
 
-  /// @brief Method get_CurveFrameSelectedNodeDistance, addr 0x24461d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CurveFrameSelectedNodeDistance, addr 0x253fe60, size 0x8, virtual false, abstract: false, final false
   inline float_t get_CurveFrameSelectedNodeDistance();
 
-  /// @brief Method get_CurveFrameSelectedNodes, addr 0x24461c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CurveFrameSelectedNodes, addr 0x253fe4c, size 0x8, virtual false, abstract: false, final false
   inline bool get_CurveFrameSelectedNodes();
 
-  /// @brief Method get_EditableNodesToolsEnabled, addr 0x24461f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EditableNodesToolsEnabled, addr 0x253fe84, size 0x8, virtual false, abstract: false, final false
   inline bool get_EditableNodesToolsEnabled();
 
-  /// @brief Method get_GenerateMeshUsingPoints, addr 0x24460e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_GenerateMeshUsingPoints, addr 0x253fd70, size 0x8, virtual false, abstract: false, final false
   inline bool get_GenerateMeshUsingPoints();
 
-  /// @brief Method get_GenerateNormals, addr 0x244606c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_GenerateNormals, addr 0x253fcf8, size 0x8, virtual false, abstract: false, final false
   inline bool get_GenerateNormals();
 
-  /// @brief Method get_GenerateTangents, addr 0x2446058, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_GenerateTangents, addr 0x253fce4, size 0x8, virtual false, abstract: false, final false
   inline bool get_GenerateTangents();
 
-  /// @brief Method get_GenerateUVs, addr 0x2446044, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_GenerateUVs, addr 0x253fcd0, size 0x8, virtual false, abstract: false, final false
   inline bool get_GenerateUVs();
 
-  /// @brief Method get_GeoInputCount, addr 0x2445fb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_GeoInputCount, addr 0x253fc44, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_GeoInputCount();
 
-  /// @brief Method get_HandleCount, addr 0x2445ff8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HandleCount, addr 0x253fc84, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_HandleCount();
 
-  /// @brief Method get_HandlesEnabled, addr 0x24461e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HandlesEnabled, addr 0x253fe70, size 0x8, virtual false, abstract: false, final false
   inline bool get_HandlesEnabled();
 
-  /// @brief Method get_IgnoreNonDisplayNodes, addr 0x24460d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IgnoreNonDisplayNodes, addr 0x253fd5c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IgnoreNonDisplayNodes();
 
-  /// @brief Method get_InstanceInputUIState, addr 0x2446034, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InstanceInputUIState, addr 0x253fcc0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HoudiniEngineUnity::HEU_InstanceInputUIState> get_InstanceInputUIState();
 
-  /// @brief Method get_LoadAssetFromMemory, addr 0x2445fd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LoadAssetFromMemory, addr 0x253fc5c, size 0x8, virtual false, abstract: false, final false
   inline bool get_LoadAssetFromMemory();
 
-  /// @brief Method get_NodeInfo, addr 0x2445f88, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_NodeInfo, addr 0x253fc14, size 0x10, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HAPI_NodeInfo get_NodeInfo();
 
-  /// @brief Method get_OwnerGameObject, addr 0x244366c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OwnerGameObject, addr 0x253d2f8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_OwnerGameObject();
 
-  /// @brief Method get_Parameters, addr 0x2446008, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parameters, addr 0x253fc94, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HoudiniEngineUnity::HEU_Parameters> get_Parameters();
 
-  /// @brief Method get_PauseCooking, addr 0x2446148, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PauseCooking, addr 0x253fdd4, size 0x8, virtual false, abstract: false, final false
   inline bool get_PauseCooking();
 
-  /// @brief Method get_PendingAutoCookOnMouseRelease, addr 0x244621c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PendingAutoCookOnMouseRelease, addr 0x253fea8, size 0x8, virtual false, abstract: false, final false
   inline bool get_PendingAutoCookOnMouseRelease();
 
-  /// @brief Method get_PushTransformToHoudini, addr 0x2446080, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PushTransformToHoudini, addr 0x253fd0c, size 0x8, virtual false, abstract: false, final false
   inline bool get_PushTransformToHoudini();
 
-  /// @brief Method get_RootGameObject, addr 0x2446000, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RootGameObject, addr 0x253fc8c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_RootGameObject();
 
-  /// @brief Method get_SerializedMetaData, addr 0x2446214, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SerializedMetaData, addr 0x253fea0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HoudiniEngineUnity::HEU_AssetSerializedMetaData> get_SerializedMetaData();
 
-  /// @brief Method get_SessionID, addr 0x2446018, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SessionID, addr 0x253fca4, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_SessionID();
 
-  /// @brief Method get_SessionSyncAutoCook, addr 0x2446120, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SessionSyncAutoCook, addr 0x253fdac, size 0x8, virtual false, abstract: false, final false
   inline bool get_SessionSyncAutoCook();
 
-  /// @brief Method get_SplitGeosByGroup, addr 0x244610c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SplitGeosByGroup, addr 0x253fd98, size 0x8, virtual false, abstract: false, final false
   inline bool get_SplitGeosByGroup();
 
-  /// @brief Method get_SubassetNames, addr 0x2446010, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SubassetNames, addr 0x253fc9c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_SubassetNames();
 
-  /// @brief Method get_ToolsInfo, addr 0x244620c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ToolsInfo, addr 0x253fe98, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HoudiniEngineUnity::HEU_ToolsInfo> get_ToolsInfo();
 
-  /// @brief Method get_TransformChangeTriggersCooks, addr 0x2446094, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TransformChangeTriggersCooks, addr 0x253fd20, size 0x8, virtual false, abstract: false, final false
   inline bool get_TransformChangeTriggersCooks();
 
-  /// @brief Method get_TransformInputCount, addr 0x2445fb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TransformInputCount, addr 0x253fc3c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_TransformInputCount();
 
-  /// @brief Method get_UseLODGroups, addr 0x24460f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UseLODGroups, addr 0x253fd84, size 0x8, virtual false, abstract: false, final false
   inline bool get_UseLODGroups();
 
-  /// @brief Method get_WarnedPrefabNotSupported, addr 0x2446020, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_WarnedPrefabNotSupported, addr 0x253fcac, size 0x8, virtual false, abstract: false, final false
   inline bool get_WarnedPrefabNotSupported();
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset>>"
   constexpr ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset>>* i___HoudiniEngineUnity__IEquivable_1___UnityW___HoudiniEngineUnity__HEU_HoudiniAsset__() noexcept;
 
-  /// @brief Method set_AlwaysOverwriteOnLoad, addr 0x2445fec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_AlwaysOverwriteOnLoad, addr 0x253fc78, size 0xc, virtual false, abstract: false, final false
   inline void set_AlwaysOverwriteOnLoad(bool value);
 
-  /// @brief Method set_AutoCookOnParameterChange, addr 0x24460c4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_AutoCookOnParameterChange, addr 0x253fd50, size 0xc, virtual false, abstract: false, final false
   inline void set_AutoCookOnParameterChange(bool value);
 
-  /// @brief Method set_BakeUpdateKeepPreviousTransformValues, addr 0x244613c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_BakeUpdateKeepPreviousTransformValues, addr 0x253fdc8, size 0xc, virtual false, abstract: false, final false
   inline void set_BakeUpdateKeepPreviousTransformValues(bool value);
 
-  /// @brief Method set_CookingTriggersDownCooks, addr 0x24460b0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_CookingTriggersDownCooks, addr 0x253fd3c, size 0xc, virtual false, abstract: false, final false
   inline void set_CookingTriggersDownCooks(bool value);
 
-  /// @brief Method set_CurveCookOnDrag, addr 0x24461b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_CurveCookOnDrag, addr 0x253fe40, size 0xc, virtual false, abstract: false, final false
   inline void set_CurveCookOnDrag(bool value);
 
-  /// @brief Method set_CurveDisableScaleRotation, addr 0x24461a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_CurveDisableScaleRotation, addr 0x253fe2c, size 0xc, virtual false, abstract: false, final false
   inline void set_CurveDisableScaleRotation(bool value);
 
-  /// @brief Method set_CurveDrawCollision, addr 0x2446178, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CurveDrawCollision, addr 0x253fe04, size 0x8, virtual false, abstract: false, final false
   inline void set_CurveDrawCollision(::HoudiniEngineUnity::__HEU_Curve__CurveDrawCollision value);
 
-  /// @brief Method set_CurveEditorEnabled, addr 0x2446164, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_CurveEditorEnabled, addr 0x253fdf0, size 0xc, virtual false, abstract: false, final false
   inline void set_CurveEditorEnabled(bool value);
 
-  /// @brief Method set_CurveFrameSelectedNodeDistance, addr 0x24461dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CurveFrameSelectedNodeDistance, addr 0x253fe68, size 0x8, virtual false, abstract: false, final false
   inline void set_CurveFrameSelectedNodeDistance(float_t value);
 
-  /// @brief Method set_CurveFrameSelectedNodes, addr 0x24461c8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_CurveFrameSelectedNodes, addr 0x253fe54, size 0xc, virtual false, abstract: false, final false
   inline void set_CurveFrameSelectedNodes(bool value);
 
-  /// @brief Method set_EditableNodesToolsEnabled, addr 0x2446200, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_EditableNodesToolsEnabled, addr 0x253fe8c, size 0xc, virtual false, abstract: false, final false
   inline void set_EditableNodesToolsEnabled(bool value);
 
-  /// @brief Method set_GenerateMeshUsingPoints, addr 0x24460ec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_GenerateMeshUsingPoints, addr 0x253fd78, size 0xc, virtual false, abstract: false, final false
   inline void set_GenerateMeshUsingPoints(bool value);
 
-  /// @brief Method set_GenerateNormals, addr 0x2446074, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_GenerateNormals, addr 0x253fd00, size 0xc, virtual false, abstract: false, final false
   inline void set_GenerateNormals(bool value);
 
-  /// @brief Method set_GenerateTangents, addr 0x2446060, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_GenerateTangents, addr 0x253fcec, size 0xc, virtual false, abstract: false, final false
   inline void set_GenerateTangents(bool value);
 
-  /// @brief Method set_GenerateUVs, addr 0x244604c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_GenerateUVs, addr 0x253fcd8, size 0xc, virtual false, abstract: false, final false
   inline void set_GenerateUVs(bool value);
 
-  /// @brief Method set_HandlesEnabled, addr 0x24461ec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_HandlesEnabled, addr 0x253fe78, size 0xc, virtual false, abstract: false, final false
   inline void set_HandlesEnabled(bool value);
 
-  /// @brief Method set_IgnoreNonDisplayNodes, addr 0x24460d8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IgnoreNonDisplayNodes, addr 0x253fd64, size 0xc, virtual false, abstract: false, final false
   inline void set_IgnoreNonDisplayNodes(bool value);
 
-  /// @brief Method set_InstanceInputUIState, addr 0x244603c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_InstanceInputUIState, addr 0x253fcc8, size 0x8, virtual false, abstract: false, final false
   inline void set_InstanceInputUIState(::HoudiniEngineUnity::HEU_InstanceInputUIState* value);
 
-  /// @brief Method set_LoadAssetFromMemory, addr 0x2445fd8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_LoadAssetFromMemory, addr 0x253fc64, size 0xc, virtual false, abstract: false, final false
   inline void set_LoadAssetFromMemory(bool value);
 
-  /// @brief Method set_PauseCooking, addr 0x2446150, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_PauseCooking, addr 0x253fddc, size 0xc, virtual false, abstract: false, final false
   inline void set_PauseCooking(bool value);
 
-  /// @brief Method set_PendingAutoCookOnMouseRelease, addr 0x2446224, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_PendingAutoCookOnMouseRelease, addr 0x253feb0, size 0xc, virtual false, abstract: false, final false
   inline void set_PendingAutoCookOnMouseRelease(bool value);
 
-  /// @brief Method set_PushTransformToHoudini, addr 0x2446088, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_PushTransformToHoudini, addr 0x253fd14, size 0xc, virtual false, abstract: false, final false
   inline void set_PushTransformToHoudini(bool value);
 
-  /// @brief Method set_SessionSyncAutoCook, addr 0x2446128, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_SessionSyncAutoCook, addr 0x253fdb4, size 0xc, virtual false, abstract: false, final false
   inline void set_SessionSyncAutoCook(bool value);
 
-  /// @brief Method set_SplitGeosByGroup, addr 0x2446114, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_SplitGeosByGroup, addr 0x253fda0, size 0xc, virtual false, abstract: false, final false
   inline void set_SplitGeosByGroup(bool value);
 
-  /// @brief Method set_TransformChangeTriggersCooks, addr 0x244609c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_TransformChangeTriggersCooks, addr 0x253fd28, size 0xc, virtual false, abstract: false, final false
   inline void set_TransformChangeTriggersCooks(bool value);
 
-  /// @brief Method set_UseLODGroups, addr 0x2446100, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_UseLODGroups, addr 0x253fd8c, size 0xc, virtual false, abstract: false, final false
   inline void set_UseLODGroups(bool value);
 
-  /// @brief Method set_WarnedPrefabNotSupported, addr 0x2446028, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_WarnedPrefabNotSupported, addr 0x253fcb4, size 0xc, virtual false, abstract: false, final false
   inline void set_WarnedPrefabNotSupported(bool value);
 
 protected:

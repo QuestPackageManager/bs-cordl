@@ -7,7 +7,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::TypeForwardedFromAttribute::*)(::StringW)>(
     &::System::Runtime::CompilerServices::TypeForwardedFromAttribute::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x275ccfc;
+  constexpr static std::size_t addrs = 0x285c40c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::CompilerServices::TypeForwardedFromAttribute::*)()>(
     &::System::Runtime::CompilerServices::TypeForwardedFromAttribute::get_AssemblyFullName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x275cd80;
+  constexpr static std::size_t addrs = 0x285c490;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

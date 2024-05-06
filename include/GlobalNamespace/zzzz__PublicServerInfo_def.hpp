@@ -26,13 +26,13 @@ namespace GlobalNamespace {
 struct CORDL_TYPE PublicServerInfo {
 public:
   // Declarations
-  /// @brief Method Deserialize, addr 0xfbf448, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Deserialize, addr 0x10b2b6c, size 0x40, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PublicServerInfo Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Serialize, addr 0xfbf408, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Serialize, addr 0x10b2b2c, size 0x40, virtual false, abstract: false, final false
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method .ctor, addr 0xfbf3fc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10b2b20, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW code, int32_t currentPlayerCount);
 
   // Ctor Parameters []

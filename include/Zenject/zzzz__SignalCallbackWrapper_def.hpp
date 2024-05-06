@@ -55,12 +55,12 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x3411c44, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3616980, size 0xa0, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::Zenject::SignalCallbackWrapper* New_ctor(::Zenject::SignalBindingBindInfo* bindInfo, ::System::Action_1<::System::Object*>* action, ::Zenject::SignalBus* signalBus);
 
-  /// @brief Method OnSignalFired, addr 0x3411c20, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method OnSignalFired, addr 0x361695c, size 0x24, virtual false, abstract: false, final false
   inline void OnSignalFired(::System::Object* signal);
 
   constexpr ::System::Action_1<::System::Object*>*& __cordl_internal_get__action();
@@ -87,13 +87,13 @@ public:
 
   constexpr void __cordl_internal_set__signalType(::System::Type* value);
 
-  /// @brief Method __zenCreate, addr 0x3411ce4, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x3616a20, size 0x178, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x3411e5c, size 0x394, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x3616b98, size 0x394, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x3411b58, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3616894, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::SignalBindingBindInfo* bindInfo, ::System::Action_1<::System::Object*>* action, ::Zenject::SignalBus* signalBus);
 
   /// @brief Convert to "::System::IDisposable"

@@ -25,7 +25,7 @@ public:
   /// @brief Field _particleSystem, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__particleSystem, put = __cordl_internal_set__particleSystem))::UnityW<::UnityEngine::ParticleSystem> _particleSystem;
 
-  /// @brief Method Emit, addr 0x25b90ac, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Emit, addr 0x26b6a58, size 0x1c, virtual false, abstract: false, final false
   inline void Emit(int32_t count);
 
   static inline ::GlobalNamespace::EmitParticles* New_ctor();
@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set__particleSystem(::UnityW<::UnityEngine::ParticleSystem> value);
 
-  /// @brief Method .ctor, addr 0x25b90c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b6a74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

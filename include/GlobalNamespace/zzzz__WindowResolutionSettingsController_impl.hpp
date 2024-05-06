@@ -1,15 +1,15 @@
 #pragma once
 #include "GlobalNamespace/zzzz__ListSettingsController_impl.hpp"
 #include "GlobalNamespace/zzzz__WindowResolutionSettingsController_def.hpp"
-#include "GlobalNamespace/zzzz__Vector2IntSO_def.hpp"
+#include "BeatSaber/GameSettings/zzzz__GraphicSettingsHandler_def.hpp"
 #include "UnityEngine/zzzz__Vector2Int_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::WindowResolutionSettingsController.GetInitValues
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::WindowResolutionSettingsController::*)(ByRef<int32_t>, ByRef<int32_t>)>(
     &::GlobalNamespace::WindowResolutionSettingsController::GetInitValues)> {
-  constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x253d5b8;
+  constexpr static std::size_t size = 0x230;
+  constexpr static std::size_t addrs = 0x2633c74;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,8 +24,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::WindowResolutionSettingsController::*)(int32_t)>(
     &::GlobalNamespace::WindowResolutionSettingsController::ApplyValue)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x253d7cc;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x2633ea4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::WindowResolutionSettingsController::*)(int32_t)>(
     &::GlobalNamespace::WindowResolutionSettingsController::TextForValue)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x253d840;
+  constexpr static std::size_t addrs = 0x2633f24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::WindowResolutionSettingsController::*)()>(
     &::GlobalNamespace::WindowResolutionSettingsController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x253d90c;
+  constexpr static std::size_t addrs = 0x2633ff0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::WindowResolutionSettingsController*>::get(),
@@ -65,17 +65,18 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::GlobalNamespace::Vector2IntSO>& GlobalNamespace::WindowResolutionSettingsController::__cordl_internal_get__windowResolution() {
+constexpr ::BeatSaber::GameSettings::GraphicSettingsHandler*& GlobalNamespace::WindowResolutionSettingsController::__cordl_internal_get__graphicSettingsHandler() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____windowResolution;
+  return this->____graphicSettingsHandler;
 }
-constexpr ::UnityW<::GlobalNamespace::Vector2IntSO> const& GlobalNamespace::WindowResolutionSettingsController::__cordl_internal_get__windowResolution() const {
+constexpr ::cordl_internals::to_const_pointer<::BeatSaber::GameSettings::GraphicSettingsHandler*> const&
+GlobalNamespace::WindowResolutionSettingsController::__cordl_internal_get__graphicSettingsHandler() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____windowResolution;
+  return this->____graphicSettingsHandler;
 }
-constexpr void GlobalNamespace::WindowResolutionSettingsController::__cordl_internal_set__windowResolution(::UnityW<::GlobalNamespace::Vector2IntSO> value) {
+constexpr void GlobalNamespace::WindowResolutionSettingsController::__cordl_internal_set__graphicSettingsHandler(::BeatSaber::GameSettings::GraphicSettingsHandler* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____windowResolution)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____graphicSettingsHandler)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::UnityEngine::Vector2Int, ::Array<::UnityEngine::Vector2Int>*>& GlobalNamespace::WindowResolutionSettingsController::__cordl_internal_get__windowResolutions() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

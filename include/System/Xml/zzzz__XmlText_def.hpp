@@ -43,44 +43,44 @@ public:
 
   __declspec(property(get = get_Value, put = set_Value))::StringW Value;
 
-  /// @brief Method CloneNode, addr 0x2da731c, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method CloneNode, addr 0x2ea3c1c, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* CloneNode(bool deep);
 
   static inline ::System::Xml::XmlText* New_ctor(::StringW strData);
 
   static inline ::System::Xml::XmlText* New_ctor(::StringW strData, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method WriteContentTo, addr 0x2da749c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method WriteContentTo, addr 0x2ea3d9c, size 0x4, virtual true, abstract: false, final false
   inline void WriteContentTo(::System::Xml::XmlWriter* w);
 
-  /// @brief Method WriteTo, addr 0x2da745c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method WriteTo, addr 0x2ea3d5c, size 0x40, virtual true, abstract: false, final false
   inline void WriteTo(::System::Xml::XmlWriter* w);
 
-  /// @brief Method .ctor, addr 0x2da722c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ea3b2c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW strData);
 
-  /// @brief Method .ctor, addr 0x2da7238, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ea3b38, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW strData, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method get_IsText, addr 0x2da74a0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsText, addr 0x2ea3da0, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsText();
 
-  /// @brief Method get_LocalName, addr 0x2da7268, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x2ea3b68, size 0x28, virtual true, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_Name, addr 0x2da7240, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x2ea3b40, size 0x28, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NodeType, addr 0x2da7290, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x2ea3b90, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method get_ParentNode, addr 0x2da7298, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method get_ParentNode, addr 0x2ea3b98, size 0x84, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* get_ParentNode();
 
-  /// @brief Method get_Value, addr 0x2da7378, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x2ea3c78, size 0x10, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method set_Value, addr 0x2da7388, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method set_Value, addr 0x2ea3c88, size 0xd4, virtual true, abstract: false, final false
   inline void set_Value(::StringW value);
 
 protected:

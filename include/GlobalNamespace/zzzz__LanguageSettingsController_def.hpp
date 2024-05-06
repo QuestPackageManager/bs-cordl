@@ -7,8 +7,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LanguageSettingsController)
-namespace GlobalNamespace {
-class LanguageSO;
+namespace BeatSaber::GameSettings {
+class MainSettingsHandler;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -24,27 +24,27 @@ namespace GlobalNamespace {
 class CORDL_TYPE LanguageSettingsController : public ::GlobalNamespace::DropdownSettingsController {
 public:
   // Declarations
-  /// @brief Field _settingsValue, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__settingsValue, put = __cordl_internal_set__settingsValue))::UnityW<::GlobalNamespace::LanguageSO> _settingsValue;
+  /// @brief Field _mainSettingsHandler, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__mainSettingsHandler, put = __cordl_internal_set__mainSettingsHandler))::BeatSaber::GameSettings::MainSettingsHandler* _mainSettingsHandler;
 
-  /// @brief Method ApplyValue, addr 0x253c940, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method ApplyValue, addr 0x2632fa8, size 0xf8, virtual true, abstract: false, final false
   inline void ApplyValue(int32_t idx);
 
-  /// @brief Method GetInitValues, addr 0x253c81c, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method GetInitValues, addr 0x2632e84, size 0x124, virtual true, abstract: false, final false
   inline bool GetInitValues(ByRef<int32_t> idx, ByRef<int32_t> numberOfElements);
 
   static inline ::GlobalNamespace::LanguageSettingsController* New_ctor();
 
-  /// @brief Method TextForValue, addr 0x253ca28, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method TextForValue, addr 0x26330a0, size 0x64, virtual true, abstract: false, final false
   inline ::StringW TextForValue(int32_t idx);
 
-  constexpr ::UnityW<::GlobalNamespace::LanguageSO> const& __cordl_internal_get__settingsValue() const;
+  constexpr ::BeatSaber::GameSettings::MainSettingsHandler*& __cordl_internal_get__mainSettingsHandler();
 
-  constexpr ::UnityW<::GlobalNamespace::LanguageSO>& __cordl_internal_get__settingsValue();
+  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::GameSettings::MainSettingsHandler*> const& __cordl_internal_get__mainSettingsHandler() const;
 
-  constexpr void __cordl_internal_set__settingsValue(::UnityW<::GlobalNamespace::LanguageSO> value);
+  constexpr void __cordl_internal_set__mainSettingsHandler(::BeatSaber::GameSettings::MainSettingsHandler* value);
 
-  /// @brief Method .ctor, addr 0x253ca8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2633104, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -61,15 +61,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   LanguageSettingsController(LanguageSettingsController const&) = delete;
 
-  /// @brief Field _settingsValue, offset: 0x30, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::LanguageSO> ____settingsValue;
+  /// @brief Field _mainSettingsHandler, offset: 0x30, size: 0x8, def value: None
+  ::BeatSaber::GameSettings::MainSettingsHandler* ____mainSettingsHandler;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LanguageSettingsController, 0x38>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LanguageSettingsController, ____settingsValue) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LanguageSettingsController, ____mainSettingsHandler) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LanguageSettingsController);

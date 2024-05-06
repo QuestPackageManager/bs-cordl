@@ -23,7 +23,7 @@ namespace System::Globalization {
 struct CORDL_TYPE HebrewNumberParsingContext {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x27d7750, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28d5e70, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t result);
 
   // Ctor Parameters []

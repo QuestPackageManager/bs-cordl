@@ -36,7 +36,7 @@ public:
 
   static inline ::UnityEngine::Timeline::AudioMixerProperties* New_ctor();
 
-  /// @brief Method PrepareFrame, addr 0x31903f4, size 0x234, virtual true, abstract: false, final false
+  /// @brief Method PrepareFrame, addr 0x3396e7c, size 0x234, virtual true, abstract: false, final false
   inline void PrepareFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
   constexpr float_t const& __cordl_internal_get_spatialBlend() const;
@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set_volume(float_t value);
 
-  /// @brief Method .ctor, addr 0x3190628, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33970b0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

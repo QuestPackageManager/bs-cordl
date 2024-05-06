@@ -245,43 +245,43 @@ public:
 
   __declspec(property(get = get_variants))::StringW variants;
 
-  /// @brief Method AddProcessor, addr 0x2f98d68, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method AddProcessor, addr 0x30d4af4, size 0x4, virtual true, abstract: false, final false
   inline void AddProcessor(::System::Object* first);
 
-  /// @brief Method BakeOffsetIntoStateBlockRecursive, addr 0x2f98c00, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method BakeOffsetIntoStateBlockRecursive, addr 0x30d498c, size 0xb0, virtual false, abstract: false, final false
   inline void BakeOffsetIntoStateBlockRecursive(uint32_t offset);
 
-  /// @brief Method CallFinishSetupRecursive, addr 0x2f98b50, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method CallFinishSetupRecursive, addr 0x30d48dc, size 0xb0, virtual false, abstract: false, final false
   inline void CallFinishSetupRecursive();
 
   /// @brief Method CompareValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool CompareValue(::cordl_internals::Ptr<void> firstStatePtr, ::cordl_internals::Ptr<void> secondStatePtr);
 
-  /// @brief Method DebuggerDisplay, addr 0x2f982b8, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method DebuggerDisplay, addr 0x30d4044, size 0x124, virtual false, abstract: false, final false
   inline ::StringW DebuggerDisplay();
 
-  /// @brief Method EvaluateMagnitude, addr 0x2f98458, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method EvaluateMagnitude, addr 0x30d41e4, size 0x2c, virtual false, abstract: false, final false
   inline float_t EvaluateMagnitude();
 
-  /// @brief Method EvaluateMagnitude, addr 0x2f98498, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method EvaluateMagnitude, addr 0x30d4224, size 0x8, virtual true, abstract: false, final false
   inline float_t EvaluateMagnitude(::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method FinishSetup, addr 0x2f987dc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x30d4568, size 0x4, virtual true, abstract: false, final false
   inline void FinishSetup();
 
-  /// @brief Method GetChildControl, addr 0x2f985f4, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method GetChildControl, addr 0x30d4380, size 0x11c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputControl* GetChildControl(::StringW path);
 
   /// @brief Method GetChildControl, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TControl> inline TControl GetChildControl(::StringW path);
 
-  /// @brief Method GetDeviceIndex, addr 0x2f9880c, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method GetDeviceIndex, addr 0x30d4598, size 0x1bc, virtual false, abstract: false, final false
   inline int32_t GetDeviceIndex();
 
-  /// @brief Method IsValueConsideredPressed, addr 0x2f98cb0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method IsValueConsideredPressed, addr 0x30d4a3c, size 0xb8, virtual false, abstract: false, final false
   inline bool IsValueConsideredPressed(float_t value);
 
-  /// @brief Method MakeChildPath, addr 0x2f98710, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method MakeChildPath, addr 0x30d449c, size 0xac, virtual false, abstract: false, final false
   inline ::StringW MakeChildPath(::StringW path);
 
   static inline ::UnityEngine::InputSystem::InputControl* New_ctor();
@@ -295,25 +295,25 @@ public:
   /// @brief Method ReadValueFromStateIntoBuffer, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ReadValueFromStateIntoBuffer(::cordl_internals::Ptr<void> statePtr, ::cordl_internals::Ptr<void> bufferPtr, int32_t bufferSize);
 
-  /// @brief Method RefreshConfiguration, addr 0x2f98808, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method RefreshConfiguration, addr 0x30d4594, size 0x4, virtual true, abstract: false, final false
   inline void RefreshConfiguration();
 
-  /// @brief Method RefreshConfigurationIfNeeded, addr 0x2f97d14, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method RefreshConfigurationIfNeeded, addr 0x30d3aa0, size 0x34, virtual false, abstract: false, final false
   inline void RefreshConfigurationIfNeeded();
 
-  /// @brief Method ToString, addr 0x2f98250, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x30d3fdc, size 0x68, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryGetChildControl, addr 0x2f98570, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method TryGetChildControl, addr 0x30d42fc, size 0x84, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputControl* TryGetChildControl(::StringW path);
 
   /// @brief Method TryGetChildControl, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TControl> inline TControl TryGetChildControl(::StringW path);
 
-  /// @brief Method WriteValueFromBufferIntoState, addr 0x2f984a0, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method WriteValueFromBufferIntoState, addr 0x30d422c, size 0x68, virtual true, abstract: false, final false
   inline void WriteValueFromBufferIntoState(::cordl_internals::Ptr<void> bufferPtr, int32_t bufferSize, ::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method WriteValueFromObjectIntoState, addr 0x2f98508, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method WriteValueFromObjectIntoState, addr 0x30d4294, size 0x68, virtual true, abstract: false, final false
   inline void WriteValueFromObjectIntoState(::System::Object* value, ::cordl_internals::Ptr<void> statePtr);
 
   constexpr int32_t const& __cordl_internal_get_m_AliasCount() const;
@@ -442,82 +442,82 @@ public:
 
   constexpr void __cordl_internal_set_m_Variants(::UnityEngine::InputSystem::Utilities::InternedString value);
 
-  /// @brief Method .ctor, addr 0x2f987bc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x30d4548, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Item, addr 0x2f98168, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x30d3ef4, size 0x88, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputControl* get_Item(::StringW path);
 
-  /// @brief Method get_aliases, addr 0x2f97fe0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_aliases, addr 0x30d3d6c, size 0x70, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::InternedString> get_aliases();
 
-  /// @brief Method get_children, addr 0x2f97f00, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_children, addr 0x30d3c8c, size 0x70, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputControl*> get_children();
 
-  /// @brief Method get_currentStatePtr, addr 0x2f98484, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_currentStatePtr, addr 0x30d4210, size 0x14, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<void> get_currentStatePtr();
 
-  /// @brief Method get_defaultStatePtr, addr 0x2f989dc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_defaultStatePtr, addr 0x30d4768, size 0x48, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<void> get_defaultStatePtr();
 
-  /// @brief Method get_device, addr 0x2f97ef0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_device, addr 0x30d3c7c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputDevice* get_device();
 
-  /// @brief Method get_displayName, addr 0x2f97cbc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_displayName, addr 0x30d3a48, size 0x58, virtual false, abstract: false, final false
   inline ::StringW get_displayName();
 
-  /// @brief Method get_dontReset, addr 0x2f98ae0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_dontReset, addr 0x30d486c, size 0xc, virtual false, abstract: false, final false
   inline bool get_dontReset();
 
-  /// @brief Method get_hasDefaultState, addr 0x2f98b30, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_hasDefaultState, addr 0x30d48bc, size 0x20, virtual false, abstract: false, final false
   inline bool get_hasDefaultState();
 
-  /// @brief Method get_isButton, addr 0x2f98ab8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isButton, addr 0x30d4844, size 0xc, virtual false, abstract: false, final false
   inline bool get_isButton();
 
-  /// @brief Method get_isConfigUpToDate, addr 0x2f987e0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isConfigUpToDate, addr 0x30d456c, size 0xc, virtual false, abstract: false, final false
   inline bool get_isConfigUpToDate();
 
-  /// @brief Method get_isSetupFinished, addr 0x2f98a90, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isSetupFinished, addr 0x30d481c, size 0xc, virtual false, abstract: false, final false
   inline bool get_isSetupFinished();
 
-  /// @brief Method get_layout, addr 0x2f97ed0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_layout, addr 0x30d3c5c, size 0x10, virtual false, abstract: false, final false
   inline ::StringW get_layout();
 
-  /// @brief Method get_name, addr 0x2f97cac, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x30d3a38, size 0x10, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method get_noiseMaskPtr, addr 0x2f98a24, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_noiseMaskPtr, addr 0x30d47b0, size 0x48, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<void> get_noiseMaskPtr();
 
-  /// @brief Method get_noisy, addr 0x2f9805c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_noisy, addr 0x30d3de8, size 0xc, virtual false, abstract: false, final false
   inline bool get_noisy();
 
-  /// @brief Method get_parent, addr 0x2f97ef8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_parent, addr 0x30d3c84, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputControl* get_parent();
 
-  /// @brief Method get_path, addr 0x2f97d9c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_path, addr 0x30d3b28, size 0x40, virtual false, abstract: false, final false
   inline ::StringW get_path();
 
-  /// @brief Method get_previousFrameStatePtr, addr 0x2f989c8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_previousFrameStatePtr, addr 0x30d4754, size 0x14, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<void> get_previousFrameStatePtr();
 
-  /// @brief Method get_shortDisplayName, addr 0x2f97d50, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_shortDisplayName, addr 0x30d3adc, size 0x44, virtual false, abstract: false, final false
   inline ::StringW get_shortDisplayName();
 
-  /// @brief Method get_stateBlock, addr 0x2f98050, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_stateBlock, addr 0x30d3ddc, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::InputStateBlock get_stateBlock();
 
-  /// @brief Method get_stateOffsetRelativeToDeviceRoot, addr 0x2f98a6c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_stateOffsetRelativeToDeviceRoot, addr 0x30d47f8, size 0x24, virtual false, abstract: false, final false
   inline uint32_t get_stateOffsetRelativeToDeviceRoot();
 
-  /// @brief Method get_synthetic, addr 0x2f98140, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_synthetic, addr 0x30d3ecc, size 0xc, virtual false, abstract: false, final false
   inline bool get_synthetic();
 
-  /// @brief Method get_usages, addr 0x2f97f70, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_usages, addr 0x30d3cfc, size 0x70, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::InternedString> get_usages();
 
-  /// @brief Method get_usesStateFromOtherControl, addr 0x2f98b08, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_usesStateFromOtherControl, addr 0x30d4894, size 0xc, virtual false, abstract: false, final false
   inline bool get_usesStateFromOtherControl();
 
   /// @brief Method get_valueSizeInBytes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -526,34 +526,34 @@ public:
   /// @brief Method get_valueType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Type* get_valueType();
 
-  /// @brief Method get_variants, addr 0x2f97ee0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_variants, addr 0x30d3c6c, size 0x10, virtual false, abstract: false, final false
   inline ::StringW get_variants();
 
-  /// @brief Method set_displayName, addr 0x2f97d48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_displayName, addr 0x30d3ad4, size 0x8, virtual false, abstract: false, final false
   inline void set_displayName(::StringW value);
 
-  /// @brief Method set_dontReset, addr 0x2f98aec, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_dontReset, addr 0x30d4878, size 0x1c, virtual false, abstract: false, final false
   inline void set_dontReset(bool value);
 
-  /// @brief Method set_isButton, addr 0x2f98ac4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_isButton, addr 0x30d4850, size 0x1c, virtual false, abstract: false, final false
   inline void set_isButton(bool value);
 
-  /// @brief Method set_isConfigUpToDate, addr 0x2f987ec, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_isConfigUpToDate, addr 0x30d4578, size 0x1c, virtual false, abstract: false, final false
   inline void set_isConfigUpToDate(bool value);
 
-  /// @brief Method set_isSetupFinished, addr 0x2f98a9c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_isSetupFinished, addr 0x30d4828, size 0x1c, virtual false, abstract: false, final false
   inline void set_isSetupFinished(bool value);
 
-  /// @brief Method set_noisy, addr 0x2f98068, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method set_noisy, addr 0x30d3df4, size 0xd8, virtual false, abstract: false, final false
   inline void set_noisy(bool value);
 
-  /// @brief Method set_shortDisplayName, addr 0x2f97d94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_shortDisplayName, addr 0x30d3b20, size 0x8, virtual false, abstract: false, final false
   inline void set_shortDisplayName(::StringW value);
 
-  /// @brief Method set_synthetic, addr 0x2f9814c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_synthetic, addr 0x30d3ed8, size 0x1c, virtual false, abstract: false, final false
   inline void set_synthetic(bool value);
 
-  /// @brief Method set_usesStateFromOtherControl, addr 0x2f98b14, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_usesStateFromOtherControl, addr 0x30d48a0, size 0x1c, virtual false, abstract: false, final false
   inline void set_usesStateFromOtherControl(bool value);
 
 protected:

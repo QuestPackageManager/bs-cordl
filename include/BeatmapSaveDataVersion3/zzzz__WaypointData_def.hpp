@@ -59,16 +59,16 @@ public:
 
   constexpr void __cordl_internal_set_y(int32_t value);
 
-  /// @brief Method .ctor, addr 0x140148c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14f3a50, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, int32_t line, int32_t layer, ::BeatmapSaveDataCommon::OffsetDirection offsetDirection);
 
-  /// @brief Method get_layer, addr 0x140147c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_layer, addr 0x14f3a40, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_layer();
 
-  /// @brief Method get_line, addr 0x1401474, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_line, addr 0x14f3a38, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_line();
 
-  /// @brief Method get_offsetDirection, addr 0x1401484, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_offsetDirection, addr 0x14f3a48, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::OffsetDirection get_offsetDirection();
 
 protected:

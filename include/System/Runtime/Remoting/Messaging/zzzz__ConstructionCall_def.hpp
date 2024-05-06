@@ -106,13 +106,13 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMethodMessage"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMethodMessage*() noexcept;
 
-  /// @brief Method GetObjectData, addr 0x272d7f0, size 0x198, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x282bbec, size 0x198, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method InitDictionary, addr 0x272ce84, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method InitDictionary, addr 0x282b280, size 0x84, virtual true, abstract: false, final false
   inline void InitDictionary();
 
-  /// @brief Method InitMethodProperty, addr 0x272d124, size 0x2b0, virtual true, abstract: false, final false
+  /// @brief Method InitMethodProperty, addr 0x282b520, size 0x2b0, virtual true, abstract: false, final false
   inline void InitMethodProperty(::StringW key, ::System::Object* value);
 
   static inline ::System::Runtime::Remoting::Messaging::ConstructionCall* New_ctor(::System::Runtime::Serialization::SerializationInfo* info,
@@ -120,7 +120,7 @@ public:
 
   static inline ::System::Runtime::Remoting::Messaging::ConstructionCall* New_ctor(::System::Type* type);
 
-  /// @brief Method SetActivationAttributes, addr 0x272d0b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetActivationAttributes, addr 0x282b4ac, size 0x8, virtual false, abstract: false, final false
   inline void SetActivationAttributes(::ArrayW<::System::Object*, ::Array<::System::Object*>*> attributes);
 
   constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __cordl_internal_get__activationAttributes() const;
@@ -165,34 +165,34 @@ public:
 
   constexpr void __cordl_internal_set__sourceProxy(::System::Runtime::Remoting::Proxies::RemotingProxy* value);
 
-  /// @brief Method .ctor, addr 0x272cde8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x282b1e4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x271b0d0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28194cc, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
-  /// @brief Method get_ActivationType, addr 0x272cfc8, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method get_ActivationType, addr 0x282b3c4, size 0xc8, virtual true, abstract: false, final true
   inline ::System::Type* get_ActivationType();
 
-  /// @brief Method get_ActivationTypeName, addr 0x272d090, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_ActivationTypeName, addr 0x282b48c, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_ActivationTypeName();
 
-  /// @brief Method get_Activator, addr 0x272d098, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Activator, addr 0x282b494, size 0x8, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Activation::IActivator* get_Activator();
 
-  /// @brief Method get_CallSiteActivationAttributes, addr 0x272d0a8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_CallSiteActivationAttributes, addr 0x282b4a4, size 0x8, virtual true, abstract: false, final true
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> get_CallSiteActivationAttributes();
 
-  /// @brief Method get_ContextProperties, addr 0x272d0b8, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method get_ContextProperties, addr 0x282b4b4, size 0x6c, virtual true, abstract: false, final true
   inline ::System::Collections::IList* get_ContextProperties();
 
-  /// @brief Method get_IsContextOk, addr 0x272cfb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsContextOk, addr 0x282b3b0, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsContextOk();
 
-  /// @brief Method get_Properties, addr 0x272de18, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x282c214, size 0x30, virtual true, abstract: false, final false
   inline ::System::Collections::IDictionary* get_Properties();
 
-  /// @brief Method get_SourceProxy, addr 0x272de78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SourceProxy, addr 0x282c274, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::Proxies::RemotingProxy* get_SourceProxy();
 
   /// @brief Convert to "::System::Runtime::Remoting::Activation::IConstructionCallMessage"
@@ -207,13 +207,13 @@ public:
   /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMethodMessage"
   constexpr ::System::Runtime::Remoting::Messaging::IMethodMessage* i___System__Runtime__Remoting__Messaging__IMethodMessage() noexcept;
 
-  /// @brief Method set_Activator, addr 0x272d0a0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_Activator, addr 0x282b49c, size 0x8, virtual true, abstract: false, final true
   inline void set_Activator(::System::Runtime::Remoting::Activation::IActivator* value);
 
-  /// @brief Method set_IsContextOk, addr 0x272cfbc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsContextOk, addr 0x282b3b8, size 0xc, virtual false, abstract: false, final false
   inline void set_IsContextOk(bool value);
 
-  /// @brief Method set_SourceProxy, addr 0x272de80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SourceProxy, addr 0x282c27c, size 0x8, virtual false, abstract: false, final false
   inline void set_SourceProxy(::System::Runtime::Remoting::Proxies::RemotingProxy* value);
 
 protected:

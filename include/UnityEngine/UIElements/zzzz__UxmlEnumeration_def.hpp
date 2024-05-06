@@ -33,7 +33,7 @@ public:
 
   __declspec(property(get = get_values, put = set_values))::System::Collections::Generic::IEnumerable_1<::StringW>* values;
 
-  /// @brief Method Equals, addr 0x335e860, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x356259c, size 0x14c, virtual true, abstract: false, final false
   inline bool Equals(::UnityEngine::UIElements::UxmlTypeRestriction* other);
 
   static inline ::UnityEngine::UIElements::UxmlEnumeration* New_ctor();
@@ -44,13 +44,13 @@ public:
 
   constexpr void __cordl_internal_set_m_Values(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x335e9ac, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35626e8, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_values, addr 0x335e7fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_values, addr 0x3562538, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::StringW>* get_values();
 
-  /// @brief Method set_values, addr 0x335e804, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_values, addr 0x3562540, size 0x5c, virtual false, abstract: false, final false
   inline void set_values(::System::Collections::Generic::IEnumerable_1<::StringW>* value);
 
 protected:

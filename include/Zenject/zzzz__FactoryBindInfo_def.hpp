@@ -73,25 +73,25 @@ public:
 
   constexpr void __cordl_internal_set__ProviderFunc_k__BackingField(::System::Func_2<::Zenject::DiContainer*, ::Zenject::IProvider*>* value);
 
-  /// @brief Method .ctor, addr 0x342efd0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3632d0c, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* factoryType);
 
-  /// @brief Method get_Arguments, addr 0x342f080, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Arguments, addr 0x3632dbc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* get_Arguments();
 
-  /// @brief Method get_FactoryType, addr 0x342f060, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FactoryType, addr 0x3632d9c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_FactoryType();
 
-  /// @brief Method get_ProviderFunc, addr 0x342f070, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ProviderFunc, addr 0x3632dac, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_2<::Zenject::DiContainer*, ::Zenject::IProvider*>* get_ProviderFunc();
 
-  /// @brief Method set_Arguments, addr 0x342f088, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Arguments, addr 0x3632dc4, size 0x8, virtual false, abstract: false, final false
   inline void set_Arguments(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* value);
 
-  /// @brief Method set_FactoryType, addr 0x342f068, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_FactoryType, addr 0x3632da4, size 0x8, virtual false, abstract: false, final false
   inline void set_FactoryType(::System::Type* value);
 
-  /// @brief Method set_ProviderFunc, addr 0x342f078, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ProviderFunc, addr 0x3632db4, size 0x8, virtual false, abstract: false, final false
   inline void set_ProviderFunc(::System::Func_2<::Zenject::DiContainer*, ::Zenject::IProvider*>* value);
 
 protected:

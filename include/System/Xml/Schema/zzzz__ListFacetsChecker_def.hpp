@@ -30,15 +30,15 @@ namespace System::Xml::Schema {
 class CORDL_TYPE ListFacetsChecker : public ::System::Xml::Schema::FacetsChecker {
 public:
   // Declarations
-  /// @brief Method CheckValueFacets, addr 0x2cb66b8, size 0x23c, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x2db3fb8, size 0x23c, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::System::Object* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method MatchEnumeration, addr 0x2cb68f4, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method MatchEnumeration, addr 0x2db41f4, size 0xb8, virtual true, abstract: false, final false
   inline bool MatchEnumeration(::System::Object* value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
   static inline ::System::Xml::Schema::ListFacetsChecker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2cb69ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2db42ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

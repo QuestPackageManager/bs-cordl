@@ -28,13 +28,13 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Asn1ParsingException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0x1327234, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x141a958, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x132723c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x141a960, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x1327244, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x141a968, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
 protected:

@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::System::Diagnostics::Tracing::NonEventAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2800c68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2900388, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

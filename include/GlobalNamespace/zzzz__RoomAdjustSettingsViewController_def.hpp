@@ -5,14 +5,11 @@ CORDL_MODULE_INIT
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(RoomAdjustSettingsViewController)
-namespace GlobalNamespace {
-class FloatSO;
+namespace BeatSaber::GameSettings {
+class MainSettingsHandler;
 }
 namespace GlobalNamespace {
 class StepValuePicker;
-}
-namespace GlobalNamespace {
-class Vector3SO;
 }
 namespace UnityEngine::UI {
 class Button;
@@ -27,92 +24,85 @@ class RoomAdjustSettingsViewController;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::RoomAdjustSettingsViewController);
 // Type: ::RoomAdjustSettingsViewController
-// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::RoomAdjustSettingsViewController*
 class CORDL_TYPE RoomAdjustSettingsViewController : public ::HMUI::ViewController {
 public:
   // Declarations
-  /// @brief Field _resetButton, offset 0xa0, size 0x8
+  /// @brief Field _mainSettingsHandler, offset 0x98, size 0x8
+  __declspec(property(get = __cordl_internal_get__mainSettingsHandler, put = __cordl_internal_set__mainSettingsHandler))::BeatSaber::GameSettings::MainSettingsHandler* _mainSettingsHandler;
+
+  /// @brief Field _resetButton, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__resetButton, put = __cordl_internal_set__resetButton))::UnityW<::UnityEngine::UI::Button> _resetButton;
 
-  /// @brief Field _roomCenter, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__roomCenter, put = __cordl_internal_set__roomCenter))::UnityW<::GlobalNamespace::Vector3SO> _roomCenter;
-
-  /// @brief Field _roomRotation, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__roomRotation, put = __cordl_internal_set__roomRotation))::UnityW<::GlobalNamespace::FloatSO> _roomRotation;
-
-  /// @brief Field _rotStepValuePicker, offset 0x98, size 0x8
+  /// @brief Field _rotStepValuePicker, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__rotStepValuePicker, put = __cordl_internal_set__rotStepValuePicker))::UnityW<::GlobalNamespace::StepValuePicker> _rotStepValuePicker;
 
-  /// @brief Field _xStepValuePicker, offset 0x80, size 0x8
+  /// @brief Field _xStepValuePicker, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__xStepValuePicker, put = __cordl_internal_set__xStepValuePicker))::UnityW<::GlobalNamespace::StepValuePicker> _xStepValuePicker;
 
-  /// @brief Field _yStepValuePicker, offset 0x88, size 0x8
+  /// @brief Field _yStepValuePicker, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__yStepValuePicker, put = __cordl_internal_set__yStepValuePicker))::UnityW<::GlobalNamespace::StepValuePicker> _yStepValuePicker;
 
-  /// @brief Field _zStepValuePicker, offset 0x90, size 0x8
+  /// @brief Field _zStepValuePicker, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__zStepValuePicker, put = __cordl_internal_set__zStepValuePicker))::UnityW<::GlobalNamespace::StepValuePicker> _zStepValuePicker;
 
-  /// @brief Method DidActivate, addr 0x2566648, size 0x30c, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x26619d8, size 0x30c, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method Move, addr 0x2566ae0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Move, addr 0x2661e88, size 0xb4, virtual false, abstract: false, final false
   inline void Move(::UnityEngine::Vector3 move);
 
   static inline ::GlobalNamespace::RoomAdjustSettingsViewController* New_ctor();
 
-  /// @brief Method Refresh, addr 0x2566954, size 0x18c, virtual false, abstract: false, final false
-  inline void Refresh();
-
-  /// @brief Method RefreshRoomOffsetValuePicker, addr 0x2566c88, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method RefreshRoomOffsetValuePicker, addr 0x2662098, size 0xc4, virtual false, abstract: false, final false
   inline void RefreshRoomOffsetValuePicker(::GlobalNamespace::StepValuePicker* stepValuePicker, float_t roomOffsetValue);
 
-  /// @brief Method ResetRoom, addr 0x2566bfc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method RefreshTexts, addr 0x2661ce4, size 0x1a4, virtual false, abstract: false, final false
+  inline void RefreshTexts();
+
+  /// @brief Method ResetRoom, addr 0x2661fe0, size 0xb8, virtual false, abstract: false, final false
   inline void ResetRoom();
 
-  /// @brief Method Rotate, addr 0x2566b74, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Rotate, addr 0x2661f3c, size 0xa4, virtual false, abstract: false, final false
   inline void Rotate(float_t rotation);
 
-  /// @brief Method <DidActivate>b__10_0, addr 0x2566d54, size 0x14, virtual false, abstract: false, final false
-  inline void _DidActivate_b__10_0();
+  /// @brief Method <DidActivate>b__9_0, addr 0x2662164, size 0x14, virtual false, abstract: false, final false
+  inline void _DidActivate_b__9_0();
 
-  /// @brief Method <DidActivate>b__10_1, addr 0x2566d68, size 0x14, virtual false, abstract: false, final false
-  inline void _DidActivate_b__10_1();
+  /// @brief Method <DidActivate>b__9_1, addr 0x2662178, size 0x14, virtual false, abstract: false, final false
+  inline void _DidActivate_b__9_1();
 
-  /// @brief Method <DidActivate>b__10_2, addr 0x2566d7c, size 0x14, virtual false, abstract: false, final false
-  inline void _DidActivate_b__10_2();
+  /// @brief Method <DidActivate>b__9_2, addr 0x266218c, size 0x14, virtual false, abstract: false, final false
+  inline void _DidActivate_b__9_2();
 
-  /// @brief Method <DidActivate>b__10_3, addr 0x2566d90, size 0x14, virtual false, abstract: false, final false
-  inline void _DidActivate_b__10_3();
+  /// @brief Method <DidActivate>b__9_3, addr 0x26621a0, size 0x14, virtual false, abstract: false, final false
+  inline void _DidActivate_b__9_3();
 
-  /// @brief Method <DidActivate>b__10_4, addr 0x2566da4, size 0x14, virtual false, abstract: false, final false
-  inline void _DidActivate_b__10_4();
+  /// @brief Method <DidActivate>b__9_4, addr 0x26621b4, size 0x14, virtual false, abstract: false, final false
+  inline void _DidActivate_b__9_4();
 
-  /// @brief Method <DidActivate>b__10_5, addr 0x2566db8, size 0x14, virtual false, abstract: false, final false
-  inline void _DidActivate_b__10_5();
+  /// @brief Method <DidActivate>b__9_5, addr 0x26621c8, size 0x14, virtual false, abstract: false, final false
+  inline void _DidActivate_b__9_5();
 
-  /// @brief Method <DidActivate>b__10_6, addr 0x2566dcc, size 0x8, virtual false, abstract: false, final false
-  inline void _DidActivate_b__10_6();
+  /// @brief Method <DidActivate>b__9_6, addr 0x26621dc, size 0x8, virtual false, abstract: false, final false
+  inline void _DidActivate_b__9_6();
 
-  /// @brief Method <DidActivate>b__10_7, addr 0x2566dd4, size 0x8, virtual false, abstract: false, final false
-  inline void _DidActivate_b__10_7();
+  /// @brief Method <DidActivate>b__9_7, addr 0x26621e4, size 0x8, virtual false, abstract: false, final false
+  inline void _DidActivate_b__9_7();
 
-  /// @brief Method <DidActivate>b__10_8, addr 0x2566ddc, size 0x4, virtual false, abstract: false, final false
-  inline void _DidActivate_b__10_8();
+  /// @brief Method <DidActivate>b__9_8, addr 0x26621ec, size 0x4, virtual false, abstract: false, final false
+  inline void _DidActivate_b__9_8();
+
+  constexpr ::BeatSaber::GameSettings::MainSettingsHandler*& __cordl_internal_get__mainSettingsHandler();
+
+  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::GameSettings::MainSettingsHandler*> const& __cordl_internal_get__mainSettingsHandler() const;
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__resetButton() const;
 
   constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__resetButton();
-
-  constexpr ::UnityW<::GlobalNamespace::Vector3SO> const& __cordl_internal_get__roomCenter() const;
-
-  constexpr ::UnityW<::GlobalNamespace::Vector3SO>& __cordl_internal_get__roomCenter();
-
-  constexpr ::UnityW<::GlobalNamespace::FloatSO> const& __cordl_internal_get__roomRotation() const;
-
-  constexpr ::UnityW<::GlobalNamespace::FloatSO>& __cordl_internal_get__roomRotation();
 
   constexpr ::UnityW<::GlobalNamespace::StepValuePicker> const& __cordl_internal_get__rotStepValuePicker() const;
 
@@ -130,11 +120,9 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::StepValuePicker>& __cordl_internal_get__zStepValuePicker();
 
+  constexpr void __cordl_internal_set__mainSettingsHandler(::BeatSaber::GameSettings::MainSettingsHandler* value);
+
   constexpr void __cordl_internal_set__resetButton(::UnityW<::UnityEngine::UI::Button> value);
-
-  constexpr void __cordl_internal_set__roomCenter(::UnityW<::GlobalNamespace::Vector3SO> value);
-
-  constexpr void __cordl_internal_set__roomRotation(::UnityW<::GlobalNamespace::FloatSO> value);
 
   constexpr void __cordl_internal_set__rotStepValuePicker(::UnityW<::GlobalNamespace::StepValuePicker> value);
 
@@ -144,7 +132,7 @@ public:
 
   constexpr void __cordl_internal_set__zStepValuePicker(::UnityW<::GlobalNamespace::StepValuePicker> value);
 
-  /// @brief Method .ctor, addr 0x2566d4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x266215c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -161,26 +149,23 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   RoomAdjustSettingsViewController(RoomAdjustSettingsViewController const&) = delete;
 
-  /// @brief Field _roomCenter, offset: 0x70, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::Vector3SO> ____roomCenter;
-
-  /// @brief Field _roomRotation, offset: 0x78, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::FloatSO> ____roomRotation;
-
-  /// @brief Field _xStepValuePicker, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field _xStepValuePicker, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::StepValuePicker> ____xStepValuePicker;
 
-  /// @brief Field _yStepValuePicker, offset: 0x88, size: 0x8, def value: None
+  /// @brief Field _yStepValuePicker, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::StepValuePicker> ____yStepValuePicker;
 
-  /// @brief Field _zStepValuePicker, offset: 0x90, size: 0x8, def value: None
+  /// @brief Field _zStepValuePicker, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::StepValuePicker> ____zStepValuePicker;
 
-  /// @brief Field _rotStepValuePicker, offset: 0x98, size: 0x8, def value: None
+  /// @brief Field _rotStepValuePicker, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::StepValuePicker> ____rotStepValuePicker;
 
-  /// @brief Field _resetButton, offset: 0xa0, size: 0x8, def value: None
+  /// @brief Field _resetButton, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____resetButton;
+
+  /// @brief Field _mainSettingsHandler, offset: 0x98, size: 0x8, def value: None
+  ::BeatSaber::GameSettings::MainSettingsHandler* ____mainSettingsHandler;
 
   /// @brief Field kHorizontalMoveStep offset 0xffffffff size 0x4
   static constexpr float_t kHorizontalMoveStep{ 0.1 };
@@ -194,21 +179,19 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::RoomAdjustSettingsViewController, 0xa8>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::RoomAdjustSettingsViewController, 0xa0>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::RoomAdjustSettingsViewController, ____roomCenter) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::RoomAdjustSettingsViewController, ____xStepValuePicker) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::RoomAdjustSettingsViewController, ____roomRotation) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::RoomAdjustSettingsViewController, ____yStepValuePicker) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::RoomAdjustSettingsViewController, ____xStepValuePicker) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::RoomAdjustSettingsViewController, ____zStepValuePicker) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::RoomAdjustSettingsViewController, ____yStepValuePicker) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::RoomAdjustSettingsViewController, ____rotStepValuePicker) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::RoomAdjustSettingsViewController, ____zStepValuePicker) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::RoomAdjustSettingsViewController, ____resetButton) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::RoomAdjustSettingsViewController, ____rotStepValuePicker) == 0x98, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::RoomAdjustSettingsViewController, ____resetButton) == 0xa0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::RoomAdjustSettingsViewController, ____mainSettingsHandler) == 0x98, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::RoomAdjustSettingsViewController);

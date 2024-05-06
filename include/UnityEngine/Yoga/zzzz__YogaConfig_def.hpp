@@ -39,7 +39,7 @@ public:
   /// @brief Field _ygConfig, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__ygConfig, put = __cordl_internal_set__ygConfig)) void* _ygConfig;
 
-  /// @brief Method Finalize, addr 0x33f3080, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x35f8dbc, size 0x108, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::UnityEngine::Yoga::YogaConfig* New_ctor();
@@ -58,26 +58,26 @@ public:
 
   constexpr void __cordl_internal_set__ygConfig(void* value);
 
-  /// @brief Method .ctor, addr 0x33f303c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35f8d78, size 0x44, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x33f2f78, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35f8cb4, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(void* ygConfig);
 
   static inline ::UnityEngine::Yoga::YogaConfig* getStaticF_Default();
 
-  /// @brief Method get_Handle, addr 0x33f0bbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Handle, addr 0x35f68f8, size 0x8, virtual false, abstract: false, final false
   inline void* get_Handle();
 
-  /// @brief Method get_UseWebDefaults, addr 0x33f3188, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_UseWebDefaults, addr 0x35f8ec4, size 0x3c, virtual false, abstract: false, final false
   inline bool get_UseWebDefaults();
 
   static inline void setStaticF_Default(::UnityEngine::Yoga::YogaConfig* value);
 
-  /// @brief Method set_PointScaleFactor, addr 0x33f3208, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_PointScaleFactor, addr 0x35f8f44, size 0x4c, virtual false, abstract: false, final false
   inline void set_PointScaleFactor(float_t value);
 
-  /// @brief Method set_UseWebDefaults, addr 0x33f31c4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_UseWebDefaults, addr 0x35f8f00, size 0x44, virtual false, abstract: false, final false
   inline void set_UseWebDefaults(bool value);
 
 protected:

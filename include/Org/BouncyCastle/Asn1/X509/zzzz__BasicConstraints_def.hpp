@@ -52,16 +52,16 @@ public:
   /// @brief Field pathLenConstraint, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_pathLenConstraint, put = __cordl_internal_set_pathLenConstraint))::Org::BouncyCastle::Asn1::DerInteger* pathLenConstraint;
 
-  /// @brief Method FromExtensions, addr 0x11f68d0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method FromExtensions, addr 0x12e6ff4, size 0x68, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::BasicConstraints* FromExtensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
-  /// @brief Method GetInstance, addr 0x11f660c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x12e6d30, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::BasicConstraints* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x11f6624, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x12e6d48, size 0xf0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::BasicConstraints* GetInstance(::System::Object* obj);
 
-  /// @brief Method IsCA, addr 0x11f6a5c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsCA, addr 0x12e7180, size 0x14, virtual false, abstract: false, final false
   inline bool IsCA();
 
   static inline ::Org::BouncyCastle::Asn1::X509::BasicConstraints* New_ctor(bool cA);
@@ -70,10 +70,10 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::BasicConstraints* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x11f6a84, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x12e71a8, size 0x138, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-  /// @brief Method ToString, addr 0x11f6bbc, size 0x204, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x12e72e0, size 0x204, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::Org::BouncyCastle::Asn1::DerBoolean*& __cordl_internal_get_cA();
@@ -88,16 +88,16 @@ public:
 
   constexpr void __cordl_internal_set_pathLenConstraint(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0x11f6938, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12e705c, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(bool cA);
 
-  /// @brief Method .ctor, addr 0x11f69ac, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12e70d0, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(int32_t pathLenConstraint);
 
-  /// @brief Method .ctor, addr 0x11f6714, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12e6e38, size 0x1bc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_PathLenConstraint, addr 0x11f6a70, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_PathLenConstraint, addr 0x12e7194, size 0x14, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_PathLenConstraint();
 
 protected:

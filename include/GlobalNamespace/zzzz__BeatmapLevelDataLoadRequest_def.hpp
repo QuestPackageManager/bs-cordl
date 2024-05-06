@@ -67,10 +67,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x13c13d0, size 0x650, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x14b6b18, size 0x650, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x13c1a20, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x14b7168, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -174,21 +174,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x13c078c, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x14b5ed4, size 0x60, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method LoadDataAsync, addr 0x13c07ec, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method LoadDataAsync, addr 0x14b5f34, size 0xcc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IBeatmapLevelData*>* LoadDataAsync(::System::Threading::CancellationToken externalCancellationToken);
 
-  /// @brief Method LoadDataAsyncInternal, addr 0x13c107c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method LoadDataAsyncInternal, addr 0x14b67c4, size 0xfc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IBeatmapLevelData*>* LoadDataAsyncInternal(::System::Threading::CancellationToken cancellationToken);
 
   static inline ::GlobalNamespace::BeatmapLevelDataLoadRequest* New_ctor(::StringW assetBundlePath, ::StringW levelDataAssetName);
 
-  /// @brief Method ThrowIfExternalCancellationRequested, addr 0x13c1178, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfExternalCancellationRequested, addr 0x14b68c0, size 0x1d4, virtual false, abstract: false, final false
   inline void ThrowIfExternalCancellationRequested();
 
-  /// @brief Method UnloadBundle, addr 0x13c134c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method UnloadBundle, addr 0x14b6a94, size 0x84, virtual false, abstract: false, final false
   inline void UnloadBundle();
 
   constexpr ::StringW const& __cordl_internal_get__assetBundlePath() const;
@@ -227,13 +227,13 @@ public:
 
   constexpr void __cordl_internal_set_assetBundle(::UnityW<::UnityEngine::AssetBundle> value);
 
-  /// @brief Method .ctor, addr 0x13c08b8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14b6000, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::StringW assetBundlePath, ::StringW levelDataAssetName);
 
-  /// @brief Method get_HasFailed, addr 0x13c0750, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_HasFailed, addr 0x14b5e98, size 0x3c, virtual false, abstract: false, final false
   inline bool get_HasFailed();
 
-  /// @brief Method get_HasValidResult, addr 0x13c0fac, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_HasValidResult, addr 0x14b66f4, size 0x78, virtual false, abstract: false, final false
   inline bool get_HasValidResult();
 
   /// @brief Convert to "::System::IDisposable"

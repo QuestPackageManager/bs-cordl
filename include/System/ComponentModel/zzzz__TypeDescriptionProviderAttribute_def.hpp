@@ -32,10 +32,10 @@ public:
 
   constexpr void __cordl_internal_set__TypeName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2e4a6d0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f48fd0, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::StringW typeName);
 
-  /// @brief Method get_TypeName, addr 0x2e4a748, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TypeName, addr 0x2f49048, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_TypeName();
 
 protected:

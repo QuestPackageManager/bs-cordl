@@ -67,7 +67,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::__Scroller__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x337aea0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x357fbdc, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -111,7 +111,7 @@ public:
   /// @brief Field m_Value, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Value, put = __cordl_internal_set_m_Value))::UnityEngine::UIElements::UxmlFloatAttributeDescription* m_Value;
 
-  /// @brief Method Init, addr 0x337aee8, size 0x1ec, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x357fc24, size 0x1ec, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::__Scroller__UxmlTraits* New_ctor();
@@ -140,7 +140,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Value(::UnityEngine::UIElements::UxmlFloatAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x337b0d4, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x357fe10, size 0x25c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -240,26 +240,26 @@ public:
   /// @brief Field verticalVariantUssClassName, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_verticalVariantUssClassName, put = setStaticF_verticalVariantUssClassName))::StringW verticalVariantUssClassName;
 
-  /// @brief Method Adjust, addr 0x337aa1c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Adjust, addr 0x357f758, size 0x78, virtual false, abstract: false, final false
   inline void Adjust(float_t factor);
 
   static inline ::UnityEngine::UIElements::Scroller* New_ctor();
 
   static inline ::UnityEngine::UIElements::Scroller* New_ctor(float_t lowValue, float_t highValue, ::System::Action_1<float_t>* valueChanged, ::UnityEngine::UIElements::SliderDirection direction);
 
-  /// @brief Method OnSliderValueChange, addr 0x337aa94, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method OnSliderValueChange, addr 0x357f7d0, size 0x9c, virtual false, abstract: false, final false
   inline void OnSliderValueChange(::UnityEngine::UIElements::ChangeEvent_1<float_t>* evt);
 
-  /// @brief Method ScrollPageDown, addr 0x337ac30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ScrollPageDown, addr 0x357f96c, size 0x8, virtual false, abstract: false, final false
   inline void ScrollPageDown();
 
-  /// @brief Method ScrollPageDown, addr 0x337ac38, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ScrollPageDown, addr 0x357f974, size 0xf8, virtual false, abstract: false, final false
   inline void ScrollPageDown(float_t factor);
 
-  /// @brief Method ScrollPageUp, addr 0x337ab30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ScrollPageUp, addr 0x357f86c, size 0x8, virtual false, abstract: false, final false
   inline void ScrollPageUp();
 
-  /// @brief Method ScrollPageUp, addr 0x337ab38, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ScrollPageUp, addr 0x357f874, size 0xf8, virtual false, abstract: false, final false
   inline void ScrollPageUp(float_t factor);
 
   constexpr ::UnityEngine::UIElements::RepeatButton*& __cordl_internal_get__highButton_k__BackingField();
@@ -286,13 +286,13 @@ public:
 
   constexpr void __cordl_internal_set_valueChanged(::System::Action_1<float_t>* value);
 
-  /// @brief Method .ctor, addr 0x337a660, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x357f39c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x337a674, size 0x3a8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x357f3b0, size 0x3a8, virtual false, abstract: false, final false
   inline void _ctor(float_t lowValue, float_t highValue, ::System::Action_1<float_t>* valueChanged, ::UnityEngine::UIElements::SliderDirection direction);
 
-  /// @brief Method add_valueChanged, addr 0x337a124, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method add_valueChanged, addr 0x357ee60, size 0xb4, virtual false, abstract: false, final false
   inline void add_valueChanged(::System::Action_1<float_t>* value);
 
   static inline ::StringW getStaticF_highButtonUssClassName();
@@ -307,25 +307,25 @@ public:
 
   static inline ::StringW getStaticF_verticalVariantUssClassName();
 
-  /// @brief Method get_highButton, addr 0x337a2ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_highButton, addr 0x357efe8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::RepeatButton* get_highButton();
 
-  /// @brief Method get_highValue, addr 0x337a3b4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_highValue, addr 0x357f0f0, size 0x50, virtual false, abstract: false, final false
   inline float_t get_highValue();
 
-  /// @brief Method get_lowButton, addr 0x337a29c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lowButton, addr 0x357efd8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::RepeatButton* get_lowButton();
 
-  /// @brief Method get_lowValue, addr 0x337a304, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_lowValue, addr 0x357f040, size 0x50, virtual false, abstract: false, final false
   inline float_t get_lowValue();
 
-  /// @brief Method get_slider, addr 0x337a28c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_slider, addr 0x357efc8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Slider* get_slider();
 
-  /// @brief Method get_value, addr 0x337a2bc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x357eff8, size 0x24, virtual false, abstract: false, final false
   inline float_t get_value();
 
-  /// @brief Method remove_valueChanged, addr 0x337a1d8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method remove_valueChanged, addr 0x357ef14, size 0xb4, virtual false, abstract: false, final false
   inline void remove_valueChanged(::System::Action_1<float_t>* value);
 
   static inline void setStaticF_highButtonUssClassName(::StringW value);
@@ -340,25 +340,25 @@ public:
 
   static inline void setStaticF_verticalVariantUssClassName(::StringW value);
 
-  /// @brief Method set_direction, addr 0x337a464, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method set_direction, addr 0x357f1a0, size 0x1fc, virtual false, abstract: false, final false
   inline void set_direction(::UnityEngine::UIElements::SliderDirection value);
 
-  /// @brief Method set_highButton, addr 0x337a2b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_highButton, addr 0x357eff0, size 0x8, virtual false, abstract: false, final false
   inline void set_highButton(::UnityEngine::UIElements::RepeatButton* value);
 
-  /// @brief Method set_highValue, addr 0x337a404, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_highValue, addr 0x357f140, size 0x60, virtual false, abstract: false, final false
   inline void set_highValue(float_t value);
 
-  /// @brief Method set_lowButton, addr 0x337a2a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lowButton, addr 0x357efe0, size 0x8, virtual false, abstract: false, final false
   inline void set_lowButton(::UnityEngine::UIElements::RepeatButton* value);
 
-  /// @brief Method set_lowValue, addr 0x337a354, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_lowValue, addr 0x357f090, size 0x60, virtual false, abstract: false, final false
   inline void set_lowValue(float_t value);
 
-  /// @brief Method set_slider, addr 0x337a294, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_slider, addr 0x357efd0, size 0x8, virtual false, abstract: false, final false
   inline void set_slider(::UnityEngine::UIElements::Slider* value);
 
-  /// @brief Method set_value, addr 0x337a2e0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_value, addr 0x357f01c, size 0x24, virtual false, abstract: false, final false
   inline void set_value(float_t value);
 
 protected:

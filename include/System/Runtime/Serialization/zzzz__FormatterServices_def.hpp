@@ -61,7 +61,7 @@ public:
 
   static inline ::System::Runtime::Serialization::__FormatterServices____c__DisplayClass9_0* New_ctor();
 
-  /// @brief Method <GetSerializableMembers>b__0, addr 0x273abdc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method <GetSerializableMembers>b__0, addr 0x2838fd8, size 0xac, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Reflection::MemberInfo*, ::Array<::System::Reflection::MemberInfo*>*> _GetSerializableMembers_b__0(::System::Runtime::Serialization::MemberHolder* _);
 
   constexpr ::System::Type*& __cordl_internal_get_type();
@@ -70,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x27397c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2837bbc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -124,61 +124,61 @@ public:
   /// @brief Field unsafeTypeForwardersIsEnabledInitialized, offset 0xffffffff, size 0x1
   static __declspec(property(get = getStaticF_unsafeTypeForwardersIsEnabledInitialized, put = setStaticF_unsafeTypeForwardersIsEnabledInitialized)) bool unsafeTypeForwardersIsEnabledInitialized;
 
-  /// @brief Method CheckSerializable, addr 0x2738970, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method CheckSerializable, addr 0x2836d6c, size 0x20, virtual false, abstract: false, final false
   static inline bool CheckSerializable(::System::RuntimeType* type);
 
-  /// @brief Method GetClrAssemblyName, addr 0x273a558, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method GetClrAssemblyName, addr 0x2838954, size 0x16c, virtual false, abstract: false, final false
   static inline ::StringW GetClrAssemblyName(::System::Type* type, ByRef<bool> hasTypeForwardedFrom);
 
-  /// @brief Method GetClrTypeFullName, addr 0x273a6c4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetClrTypeFullName, addr 0x2838ac0, size 0x80, virtual false, abstract: false, final false
   static inline ::StringW GetClrTypeFullName(::System::Type* type);
 
-  /// @brief Method GetClrTypeFullNameForArray, addr 0x273a744, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method GetClrTypeFullNameForArray, addr 0x2838b40, size 0x224, virtual false, abstract: false, final false
   static inline ::StringW GetClrTypeFullNameForArray(::System::Type* type);
 
-  /// @brief Method GetClrTypeFullNameForNonArrayTypes, addr 0x273a968, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method GetClrTypeFullNameForNonArrayTypes, addr 0x2838d64, size 0x274, virtual false, abstract: false, final false
   static inline ::StringW GetClrTypeFullNameForNonArrayTypes(::System::Type* type);
 
-  /// @brief Method GetEnableUnsafeTypeForwarders, addr 0x273999c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetEnableUnsafeTypeForwarders, addr 0x2837d98, size 0x8, virtual false, abstract: false, final false
   static inline bool GetEnableUnsafeTypeForwarders();
 
-  /// @brief Method GetObjectData, addr 0x2739ff4, size 0x36c, virtual false, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x28383f0, size 0x36c, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetObjectData(::System::Object* obj,
                                                                                        ::ArrayW<::System::Reflection::MemberInfo*, ::Array<::System::Reflection::MemberInfo*>*> members);
 
-  /// @brief Method GetParentTypes, addr 0x2739090, size 0x408, virtual false, abstract: false, final false
+  /// @brief Method GetParentTypes, addr 0x283748c, size 0x408, virtual false, abstract: false, final false
   static inline bool GetParentTypes(::System::RuntimeType* parentType, ByRef<::ArrayW<::System::RuntimeType*, ::Array<::System::RuntimeType*>*>> parentTypes, ByRef<int32_t> parentTypeCount);
 
-  /// @brief Method GetSerializableMembers, addr 0x27387d8, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method GetSerializableMembers, addr 0x2836bd4, size 0x198, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Reflection::MemberInfo*, ::Array<::System::Reflection::MemberInfo*>*> GetSerializableMembers(::System::RuntimeType* type);
 
-  /// @brief Method GetSerializableMembers, addr 0x2739528, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method GetSerializableMembers, addr 0x2837924, size 0x298, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Reflection::MemberInfo*, ::Array<::System::Reflection::MemberInfo*>*> GetSerializableMembers(::System::Type* type,
                                                                                                                                 ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetTypeFromAssembly, addr 0x273a3e0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetTypeFromAssembly, addr 0x28387dc, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::Type* GetTypeFromAssembly(::System::Reflection::Assembly* assem, ::StringW name);
 
-  /// @brief Method GetUninitializedObject, addr 0x27397c8, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method GetUninitializedObject, addr 0x2837bc4, size 0x1cc, virtual false, abstract: false, final false
   static inline ::System::Object* GetUninitializedObject(::System::Type* type);
 
-  /// @brief Method InternalGetSerializableMembers, addr 0x2738990, size 0x700, virtual false, abstract: false, final false
+  /// @brief Method InternalGetSerializableMembers, addr 0x2836d8c, size 0x700, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Reflection::MemberInfo*, ::Array<::System::Reflection::MemberInfo*>*> InternalGetSerializableMembers(::System::RuntimeType* type);
 
-  /// @brief Method LoadAssemblyFromString, addr 0x273a47c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method LoadAssemblyFromString, addr 0x2838878, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Reflection::Assembly* LoadAssemblyFromString(::StringW assemblyName);
 
-  /// @brief Method LoadAssemblyFromStringNoThrow, addr 0x273a484, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method LoadAssemblyFromStringNoThrow, addr 0x2838880, size 0xd4, virtual false, abstract: false, final false
   static inline ::System::Reflection::Assembly* LoadAssemblyFromStringNoThrow(::StringW assemblyName);
 
-  /// @brief Method PopulateObjectMembers, addr 0x2739ce0, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method PopulateObjectMembers, addr 0x28380dc, size 0x314, virtual false, abstract: false, final false
   static inline ::System::Object* PopulateObjectMembers(::System::Object* obj, ::ArrayW<::System::Reflection::MemberInfo*, ::Array<::System::Reflection::MemberInfo*>*> members,
                                                         ::ArrayW<::System::Object*, ::Array<::System::Object*>*> data);
 
-  /// @brief Method SerializationSetValue, addr 0x2739a4c, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method SerializationSetValue, addr 0x2837e48, size 0x1e4, virtual false, abstract: false, final false
   static inline void SerializationSetValue(::System::Reflection::MemberInfo* fi, ::System::Object* target, ::System::Object* value);
 
-  /// @brief Method UnsafeTypeForwardersIsEnabled, addr 0x27399a4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method UnsafeTypeForwardersIsEnabled, addr 0x2837da0, size 0xa8, virtual false, abstract: false, final false
   static inline bool UnsafeTypeForwardersIsEnabled();
 
   static inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> getStaticF_advancedTypes();
@@ -193,7 +193,7 @@ public:
 
   static inline bool getStaticF_unsafeTypeForwardersIsEnabledInitialized();
 
-  /// @brief Method nativeGetUninitializedObject, addr 0x2739994, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method nativeGetUninitializedObject, addr 0x2837d90, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Object* nativeGetUninitializedObject(::System::RuntimeType* type);
 
   static inline void setStaticF_advancedTypes(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);

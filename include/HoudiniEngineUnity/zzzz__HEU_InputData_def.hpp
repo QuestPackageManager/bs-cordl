@@ -32,7 +32,7 @@ public:
 
   constexpr void __cordl_internal_set__inputObject(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x24b14e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25aa16c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -41,28 +41,28 @@ namespace Org::BouncyCastle::Security {
 class CORDL_TYPE PublicKeyFactory : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateKey, addr 0x12b0c6c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method CreateKey, addr 0x13a2390, size 0x1c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* CreateKey(::System::IO::Stream* inStr);
 
-  /// @brief Method CreateKey, addr 0x12af6e8, size 0x1584, virtual false, abstract: false, final false
+  /// @brief Method CreateKey, addr 0x13a0e0c, size 0x1584, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* CreateKey(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* keyInfo);
 
-  /// @brief Method CreateKey, addr 0x12af6cc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method CreateKey, addr 0x13a0df0, size 0x1c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* CreateKey(::ArrayW<uint8_t, ::Array<uint8_t>*> keyInfoData);
 
-  /// @brief Method GetRawKey, addr 0x12b0f00, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetRawKey, addr 0x13a2624, size 0x84, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetRawKey(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* keyInfo, int32_t expectedSize);
 
-  /// @brief Method IsPkcsDHParam, addr 0x12b0c88, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method IsPkcsDHParam, addr 0x13a23ac, size 0x140, virtual false, abstract: false, final false
   static inline bool IsPkcsDHParam(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Security::PublicKeyFactory* New_ctor();
 
-  /// @brief Method ReadPkcsDHParam, addr 0x12b0dc8, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method ReadPkcsDHParam, addr 0x13a24ec, size 0x138, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::DHPublicKeyParameters* ReadPkcsDHParam(::Org::BouncyCastle::Asn1::DerObjectIdentifier* algOid, ::Org::BouncyCastle::Math::BigInteger* y,
                                                                                                 ::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0x12af6c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13a0de8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

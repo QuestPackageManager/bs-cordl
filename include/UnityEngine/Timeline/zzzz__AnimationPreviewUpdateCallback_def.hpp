@@ -45,10 +45,10 @@ public:
   /// @brief Convert operator to "::UnityEngine::Timeline::ITimelineEvaluateCallback"
   constexpr operator ::UnityEngine::Timeline::ITimelineEvaluateCallback*() noexcept;
 
-  /// @brief Method Evaluate, addr 0x317f304, size 0x1d4, virtual true, abstract: false, final true
+  /// @brief Method Evaluate, addr 0x3385d8c, size 0x1d4, virtual true, abstract: false, final true
   inline void Evaluate();
 
-  /// @brief Method FetchPreviewComponents, addr 0x317f4d8, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method FetchPreviewComponents, addr 0x3385f60, size 0x124, virtual false, abstract: false, final false
   inline void FetchPreviewComponents();
 
   static inline ::UnityEngine::Timeline::AnimationPreviewUpdateCallback* New_ctor(::UnityEngine::Animations::AnimationPlayableOutput output);
@@ -71,7 +71,7 @@ public:
 
   constexpr void __cordl_internal_set_m_PreviewComponents(::System::Collections::Generic::List_1<::UnityEngine::Animations::IAnimationWindowPreview*>* value);
 
-  /// @brief Method .ctor, addr 0x317f23c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3385cc4, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Animations::AnimationPlayableOutput output);
 
   /// @brief Convert to "::UnityEngine::Timeline::ITimelineEvaluateCallback"

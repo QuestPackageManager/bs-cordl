@@ -84,21 +84,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x2407818, size 0xec, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x25004a4, size 0xec, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::HMUI::__HoverHintController___ShowHintAfterDelay_d__10* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2407904, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2500590, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x240790c, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2500598, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x240794c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x25005d8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x2407814, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x25004a0, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -131,7 +131,7 @@ public:
 
   constexpr void __cordl_internal_set_hoverHint(::UnityW<::HMUI::HoverHint> value);
 
-  /// @brief Method .ctor, addr 0x24073f8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2500084, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -221,21 +221,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x2407958, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x25005e4, size 0xcc, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::HMUI::__HoverHintController___HideHintAfterDelay_d__11* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2407a24, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x25006b0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2407a2c, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x25006b8, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2407a6c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x25006f8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x2407954, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x25005e0, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -262,7 +262,7 @@ public:
 
   constexpr void __cordl_internal_set_delay(float_t value);
 
-  /// @brief Method .ctor, addr 0x2407420, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25000ac, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -335,33 +335,33 @@ public:
   /// @brief Field _isHiding, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get__isHiding, put = __cordl_internal_set__isHiding)) bool _isHiding;
 
-  /// @brief Method Awake, addr 0x24070bc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x24ffd48, size 0xa0, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method GetScreenTransformForHoverHint, addr 0x2407448, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method GetScreenTransformForHoverHint, addr 0x25000d4, size 0x150, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Transform> GetScreenTransformForHoverHint(::HMUI::HoverHint* hoverHint);
 
-  /// @brief Method HideHint, addr 0x2406fa0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method HideHint, addr 0x24ffc2c, size 0x44, virtual false, abstract: false, final false
   inline void HideHint();
 
-  /// @brief Method HideHintAfterDelay, addr 0x2407380, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method HideHintAfterDelay, addr 0x250000c, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* HideHintAfterDelay(float_t delay);
 
-  /// @brief Method HideHintInstant, addr 0x2406f6c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method HideHintInstant, addr 0x24ffbf8, size 0x34, virtual false, abstract: false, final false
   inline void HideHintInstant();
 
   static inline ::HMUI::HoverHintController* New_ctor();
 
-  /// @brief Method OnApplicationFocus, addr 0x2407184, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationFocus, addr 0x24ffe10, size 0x2c, virtual false, abstract: false, final false
   inline void OnApplicationFocus(bool hasFocus);
 
-  /// @brief Method SetupAndShowHintPanel, addr 0x24071b0, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method SetupAndShowHintPanel, addr 0x24ffe3c, size 0x14c, virtual false, abstract: false, final false
   inline void SetupAndShowHintPanel(::HMUI::HoverHint* hoverHint);
 
-  /// @brief Method ShowHint, addr 0x2406e1c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ShowHint, addr 0x24ffaa8, size 0x94, virtual false, abstract: false, final false
   inline void ShowHint(::HMUI::HoverHint* hoverHint);
 
-  /// @brief Method ShowHintAfterDelay, addr 0x24072fc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ShowHintAfterDelay, addr 0x24fff88, size 0x84, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* ShowHintAfterDelay(::HMUI::HoverHint* hoverHint, float_t delay);
 
   constexpr ::UnityW<::HMUI::HoverHintPanel> const& __cordl_internal_get__hoverHintPanel() const;
@@ -382,7 +382,7 @@ public:
 
   constexpr void __cordl_internal_set__isHiding(bool value);
 
-  /// @brief Method .ctor, addr 0x240780c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2500498, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

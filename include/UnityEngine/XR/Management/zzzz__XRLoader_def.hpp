@@ -24,27 +24,27 @@ namespace UnityEngine::XR::Management {
 class CORDL_TYPE XRLoader : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
-  /// @brief Method Deinitialize, addr 0x31a3db8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Deinitialize, addr 0x33aa840, size 0x8, virtual true, abstract: false, final false
   inline bool Deinitialize();
 
   /// @brief Method GetLoadedSubsystem, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   template <typename T> inline T GetLoadedSubsystem();
 
-  /// @brief Method GetSupportedGraphicsDeviceTypes, addr 0x31a3dc0, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method GetSupportedGraphicsDeviceTypes, addr 0x33aa848, size 0x70, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::Rendering::GraphicsDeviceType>* GetSupportedGraphicsDeviceTypes(bool buildingPlayer);
 
-  /// @brief Method Initialize, addr 0x31a3da0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x33aa828, size 0x8, virtual true, abstract: false, final false
   inline bool Initialize();
 
   static inline ::UnityEngine::XR::Management::XRLoader* New_ctor();
 
-  /// @brief Method Start, addr 0x31a3da8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x33aa830, size 0x8, virtual true, abstract: false, final false
   inline bool Start();
 
-  /// @brief Method Stop, addr 0x31a3db0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Stop, addr 0x33aa838, size 0x8, virtual true, abstract: false, final false
   inline bool Stop();
 
-  /// @brief Method .ctor, addr 0x31a3e30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33aa8b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

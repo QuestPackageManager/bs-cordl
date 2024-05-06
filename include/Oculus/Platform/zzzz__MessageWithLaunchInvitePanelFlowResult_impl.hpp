@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::MessageWithLaunchInvitePanelFlowResult::*)(void*)>(
     &::Oculus::Platform::MessageWithLaunchInvitePanelFlowResult::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x29c7aec;
+  constexpr static std::size_t addrs = 0x2ac539c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::LaunchInvitePanelFlowResult* (
     ::Oculus::Platform::MessageWithLaunchInvitePanelFlowResult::*)()>(&::Oculus::Platform::MessageWithLaunchInvitePanelFlowResult::GetLaunchInvitePanelFlowResult)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x29ca82c;
+  constexpr static std::size_t addrs = 0x2ac80dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::LaunchInvitePanelFlowResult* (
     ::Oculus::Platform::MessageWithLaunchInvitePanelFlowResult::*)(void*)>(&::Oculus::Platform::MessageWithLaunchInvitePanelFlowResult::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x29ca868;
+  constexpr static std::size_t addrs = 0x2ac8118;
 
   inline static ::MethodInfo const* methodInfo() {
 

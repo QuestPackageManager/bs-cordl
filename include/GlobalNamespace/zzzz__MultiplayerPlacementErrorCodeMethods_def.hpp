@@ -24,7 +24,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE MultiplayerPlacementErrorCodeMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToConnectionFailedReason, addr 0xfa3528, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ToConnectionFailedReason, addr 0x1097c4c, size 0x20, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::ConnectionFailedReason ToConnectionFailedReason(::GlobalNamespace::MultiplayerPlacementErrorCode errorCode);
 
 protected:

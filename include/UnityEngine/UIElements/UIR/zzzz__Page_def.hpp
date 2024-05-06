@@ -284,10 +284,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x3324bd0, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x352990c, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x332551c, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x352a258, size 0x90, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::UnityEngine::UIElements::UIR::Page* New_ctor(uint32_t vertexMaxCount, uint32_t indexMaxCount, uint32_t maxQueuedFrameCount, bool mockPage);
@@ -322,19 +322,19 @@ public:
 
   constexpr void __cordl_internal_set_vertices(::UnityEngine::UIElements::UIR::__Page__DataSet_1<::UnityEngine::UIElements::Vertex>* value);
 
-  /// @brief Method .ctor, addr 0x3321010, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3525d4c, size 0x14c, virtual false, abstract: false, final false
   inline void _ctor(uint32_t vertexMaxCount, uint32_t indexMaxCount, uint32_t maxQueuedFrameCount, bool mockPage);
 
-  /// @brief Method get_disposed, addr 0x3325508, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x352a244, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
-  /// @brief Method get_isEmpty, addr 0x332115c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_isEmpty, addr 0x3525e98, size 0x48, virtual false, abstract: false, final false
   inline bool get_isEmpty();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_disposed, addr 0x3325510, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x352a24c, size 0xc, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
 protected:

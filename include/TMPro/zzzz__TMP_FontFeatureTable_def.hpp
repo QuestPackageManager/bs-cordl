@@ -49,13 +49,13 @@ public:
 
   static inline ::TMPro::__TMP_FontFeatureTable____c* New_ctor();
 
-  /// @brief Method <SortGlyphPairAdjustmentRecords>b__6_0, addr 0x3141c50, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <SortGlyphPairAdjustmentRecords>b__6_0, addr 0x33466d8, size 0x18, virtual false, abstract: false, final false
   inline uint32_t _SortGlyphPairAdjustmentRecords_b__6_0(::TMPro::TMP_GlyphPairAdjustmentRecord* s);
 
-  /// @brief Method <SortGlyphPairAdjustmentRecords>b__6_1, addr 0x3141c68, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <SortGlyphPairAdjustmentRecords>b__6_1, addr 0x33466f0, size 0x18, virtual false, abstract: false, final false
   inline uint32_t _SortGlyphPairAdjustmentRecords_b__6_1(::TMPro::TMP_GlyphPairAdjustmentRecord* s);
 
-  /// @brief Method .ctor, addr 0x3141c48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33466d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::TMPro::__TMP_FontFeatureTable____c* getStaticF___9();
@@ -113,7 +113,7 @@ public:
 
   static inline ::TMPro::TMP_FontFeatureTable* New_ctor();
 
-  /// @brief Method SortGlyphPairAdjustmentRecords, addr 0x3139b0c, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method SortGlyphPairAdjustmentRecords, addr 0x333e594, size 0x1ec, virtual false, abstract: false, final false
   inline void SortGlyphPairAdjustmentRecords();
 
   constexpr ::System::Collections::Generic::Dictionary_2<uint32_t, ::TMPro::TMP_GlyphPairAdjustmentRecord*>*& __cordl_internal_get_m_GlyphPairAdjustmentRecordLookupDictionary();
@@ -129,13 +129,13 @@ public:
 
   constexpr void __cordl_internal_set_m_GlyphPairAdjustmentRecords(::System::Collections::Generic::List_1<::TMPro::TMP_GlyphPairAdjustmentRecord*>* value);
 
-  /// @brief Method .ctor, addr 0x313e780, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3343208, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_glyphPairAdjustmentRecords, addr 0x3141bd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_glyphPairAdjustmentRecords, addr 0x334665c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::TMPro::TMP_GlyphPairAdjustmentRecord*>* get_glyphPairAdjustmentRecords();
 
-  /// @brief Method set_glyphPairAdjustmentRecords, addr 0x3141bdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_glyphPairAdjustmentRecords, addr 0x3346664, size 0x8, virtual false, abstract: false, final false
   inline void set_glyphPairAdjustmentRecords(::System::Collections::Generic::List_1<::TMPro::TMP_GlyphPairAdjustmentRecord*>* value);
 
 protected:

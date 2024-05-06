@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaChoice* (::System::Xml::Schema::XmlSchemaSubstitutionGroupV1Compat::*)()>(
     &::System::Xml::Schema::XmlSchemaSubstitutionGroupV1Compat::get_Choice)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2d21ce4;
+  constexpr static std::size_t addrs = 0x2e1e5e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaSubstitutionGroupV1Compat::*)()>(
     &::System::Xml::Schema::XmlSchemaSubstitutionGroupV1Compat::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2d21cec;
+  constexpr static std::size_t addrs = 0x2e1e5ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

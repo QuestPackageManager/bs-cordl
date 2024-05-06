@@ -27,7 +27,7 @@ public:
   /// @brief Method Obtain, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T Obtain();
 
-  /// @brief Method Release, addr 0xfbf528, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x10b2c4c, size 0xfc, virtual false, abstract: false, final false
   static inline void Release(::GlobalNamespace::IRemoteProcedureCall* t);
 
 protected:

@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::DoubleLinkAxis* (::System::Xml::Schema::ForwardAxis::*)()>(
     &::System::Xml::Schema::ForwardAxis::get_RootNode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2df3c7c;
+  constexpr static std::size_t addrs = 0x2ef257c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::ForwardAxis*>::get(), "get_RootNode",
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::DoubleLinkAxis* (::System::Xml::Schema::ForwardAxis::*)()>(
     &::System::Xml::Schema::ForwardAxis::get_TopNode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2df3c84;
+  constexpr static std::size_t addrs = 0x2ef2584;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::ForwardAxis*>::get(), "get_TopNode",
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::ForwardAxis::*)()>(&::System::Xml::Schema::ForwardAxis::get_IsAttribute)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2df3c8c;
+  constexpr static std::size_t addrs = 0x2ef258c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::ForwardAxis*>::get(), "get_IsAttribute",
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::ForwardAxis::*)()>(&::System::Xml::Schema::ForwardAxis::get_IsDss)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2df3c94;
+  constexpr static std::size_t addrs = 0x2ef2594;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::ForwardAxis*>::get(), "get_IsDss",
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::ForwardAxis::*)()>(&::System::Xml::Schema::ForwardAxis::get_IsSelfAxis)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2df3c9c;
+  constexpr static std::size_t addrs = 0x2ef259c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::ForwardAxis*>::get(), "get_IsSelfAxis",
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::ForwardAxis::*)(::System::Xml::Schema::DoubleLinkAxis*, bool)>(
     &::System::Xml::Schema::ForwardAxis::_ctor)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x2df3ca4;
+  constexpr static std::size_t addrs = 0x2ef25a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

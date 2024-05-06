@@ -23,16 +23,16 @@ namespace UnityEngine::TextCore::Text {
 class CORDL_TYPE TextUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetHashCodeCaseInSensitive, addr 0x3285254, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetHashCodeCaseInSensitive, addr 0x348df90, size 0x70, virtual false, abstract: false, final false
   static inline int32_t GetHashCodeCaseInSensitive(::StringW s);
 
-  /// @brief Method ToUpperASCIIFast, addr 0x3290db4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ToUpperASCIIFast, addr 0x3499af0, size 0x74, virtual false, abstract: false, final false
   static inline uint32_t ToUpperASCIIFast(uint32_t c);
 
-  /// @brief Method ToUpperFast, addr 0x3290d40, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method ToUpperFast, addr 0x3499a7c, size 0x74, virtual false, abstract: false, final false
   static inline char16_t ToUpperFast(char16_t c);
 
-  /// @brief Method UintToString, addr 0x328b6e0, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method UintToString, addr 0x349441c, size 0xd8, virtual false, abstract: false, final false
   static inline ::StringW UintToString(::System::Collections::Generic::List_1<uint32_t>* unicodes);
 
 protected:

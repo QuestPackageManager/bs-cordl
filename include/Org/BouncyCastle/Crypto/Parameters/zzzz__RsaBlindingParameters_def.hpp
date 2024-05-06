@@ -55,13 +55,13 @@ public:
 
   constexpr void __cordl_internal_set_publicKey(::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* value);
 
-  /// @brief Method .ctor, addr 0x10a35f4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1196d18, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* publicKey, ::Org::BouncyCastle::Math::BigInteger* blindingFactor);
 
-  /// @brief Method get_BlindingFactor, addr 0x10a3684, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BlindingFactor, addr 0x1196da8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_BlindingFactor();
 
-  /// @brief Method get_PublicKey, addr 0x10a367c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PublicKey, addr 0x1196da0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* get_PublicKey();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"

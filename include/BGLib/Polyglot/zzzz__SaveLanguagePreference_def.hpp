@@ -33,10 +33,10 @@ public:
 
   static inline ::BGLib::Polyglot::SaveLanguagePreference* New_ctor();
 
-  /// @brief Method OnLocalize, addr 0xf8e474, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method OnLocalize, addr 0x1080a64, size 0x28, virtual true, abstract: false, final true
   inline void OnLocalize(::BGLib::Polyglot::LocalizationModel* localization);
 
-  /// @brief Method Start, addr 0xf8e424, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x1080a14, size 0x50, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::StringW const& __cordl_internal_get_preferenceKey() const;
@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set_preferenceKey(::StringW value);
 
-  /// @brief Method .ctor, addr 0xf8e49c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1080a8c, size 0x1050, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::BGLib::Polyglot::ILocalize"

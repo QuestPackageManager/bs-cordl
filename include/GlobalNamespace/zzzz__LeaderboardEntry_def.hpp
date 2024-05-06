@@ -38,7 +38,7 @@ public:
 
   static inline ::GlobalNamespace::LeaderboardEntry* New_ctor();
 
-  /// @brief Method SetScore, addr 0x265d79c, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method SetScore, addr 0x26263cc, size 0x190, virtual false, abstract: false, final false
   inline void SetScore(int32_t score, ::StringW playerName, int32_t rank, bool highlighted, bool showSeparator);
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
@@ -65,7 +65,7 @@ public:
 
   constexpr void __cordl_internal_set__scoreText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x265d92c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x262655c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

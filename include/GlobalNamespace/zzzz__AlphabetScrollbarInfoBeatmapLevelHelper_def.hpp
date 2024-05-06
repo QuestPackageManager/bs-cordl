@@ -48,10 +48,10 @@ public:
 
   static inline ::GlobalNamespace::__AlphabetScrollbarInfoBeatmapLevelHelper____c* New_ctor();
 
-  /// @brief Method <CreateData>b__3_0, addr 0x13d28d0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <CreateData>b__3_0, addr 0x14c88d8, size 0x20, virtual false, abstract: false, final false
   inline ::StringW _CreateData_b__3_0(::GlobalNamespace::BeatmapLevel* x);
 
-  /// @brief Method .ctor, addr 0x13d28c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14c88d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__AlphabetScrollbarInfoBeatmapLevelHelper____c* getStaticF___9();
@@ -92,7 +92,7 @@ public:
   // Declarations
   using __c = ::GlobalNamespace::__AlphabetScrollbarInfoBeatmapLevelHelper____c;
 
-  /// @brief Method CreateData, addr 0x13d22d0, size 0x594, virtual false, abstract: false, final false
+  /// @brief Method CreateData, addr 0x14c82d8, size 0x594, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__AlphabetScrollInfo__Data*>*
   CreateData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevel*>* beatmapLevels, bool sortBeatmapLevels,
              ByRef<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevel*>*> sortedBeatmapLevels);

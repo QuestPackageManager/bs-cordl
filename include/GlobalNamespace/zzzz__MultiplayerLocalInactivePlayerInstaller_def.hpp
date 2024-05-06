@@ -14,13 +14,7 @@ namespace GlobalNamespace {
 class GameplayCoreSceneSetupData;
 }
 namespace GlobalNamespace {
-class PerceivedLoudnessPerLevelModel;
-}
-namespace GlobalNamespace {
 class PlayerDataModel;
-}
-namespace GlobalNamespace {
-class RelativeSfxVolumePerLevelModel;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -29,7 +23,7 @@ class MultiplayerLocalInactivePlayerInstaller;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller);
 // Type: ::MultiplayerLocalInactivePlayerInstaller
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MultiplayerLocalInactivePlayerInstaller*
@@ -39,24 +33,17 @@ public:
   /// @brief Field _audioManager, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__audioManager, put = __cordl_internal_set__audioManager))::UnityW<::GlobalNamespace::AudioManagerSO> _audioManager;
 
-  /// @brief Field _beatmapLoudnessModel, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapLoudnessModel, put = __cordl_internal_set__beatmapLoudnessModel))::GlobalNamespace::PerceivedLoudnessPerLevelModel* _beatmapLoudnessModel;
-
-  /// @brief Field _optionalAvatarDataSender, offset 0x48, size 0x8
+  /// @brief Field _optionalAvatarDataSender, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__optionalAvatarDataSender,
                       put = __cordl_internal_set__optionalAvatarDataSender))::BeatSaber::AvatarCore::OptionalAvatarDataSender* _optionalAvatarDataSender;
 
-  /// @brief Field _playerDataModel, offset 0x40, size 0x8
+  /// @brief Field _playerDataModel, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel))::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
-
-  /// @brief Field _relativeSfxVolumePerLevelModel, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__relativeSfxVolumePerLevelModel,
-                      put = __cordl_internal_set__relativeSfxVolumePerLevelModel))::GlobalNamespace::RelativeSfxVolumePerLevelModel* _relativeSfxVolumePerLevelModel;
 
   /// @brief Field _sceneSetupData, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__sceneSetupData, put = __cordl_internal_set__sceneSetupData))::GlobalNamespace::GameplayCoreSceneSetupData* _sceneSetupData;
 
-  /// @brief Method InstallBindings, addr 0x25fe81c, size 0x310, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x26fd620, size 0x33c, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller* New_ctor();
@@ -64,10 +51,6 @@ public:
   constexpr ::UnityW<::GlobalNamespace::AudioManagerSO> const& __cordl_internal_get__audioManager() const;
 
   constexpr ::UnityW<::GlobalNamespace::AudioManagerSO>& __cordl_internal_get__audioManager();
-
-  constexpr ::GlobalNamespace::PerceivedLoudnessPerLevelModel*& __cordl_internal_get__beatmapLoudnessModel();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PerceivedLoudnessPerLevelModel*> const& __cordl_internal_get__beatmapLoudnessModel() const;
 
   constexpr ::BeatSaber::AvatarCore::OptionalAvatarDataSender*& __cordl_internal_get__optionalAvatarDataSender();
 
@@ -77,27 +60,19 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& __cordl_internal_get__playerDataModel();
 
-  constexpr ::GlobalNamespace::RelativeSfxVolumePerLevelModel*& __cordl_internal_get__relativeSfxVolumePerLevelModel();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RelativeSfxVolumePerLevelModel*> const& __cordl_internal_get__relativeSfxVolumePerLevelModel() const;
-
   constexpr ::GlobalNamespace::GameplayCoreSceneSetupData*& __cordl_internal_get__sceneSetupData();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayCoreSceneSetupData*> const& __cordl_internal_get__sceneSetupData() const;
 
   constexpr void __cordl_internal_set__audioManager(::UnityW<::GlobalNamespace::AudioManagerSO> value);
 
-  constexpr void __cordl_internal_set__beatmapLoudnessModel(::GlobalNamespace::PerceivedLoudnessPerLevelModel* value);
-
   constexpr void __cordl_internal_set__optionalAvatarDataSender(::BeatSaber::AvatarCore::OptionalAvatarDataSender* value);
 
   constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
 
-  constexpr void __cordl_internal_set__relativeSfxVolumePerLevelModel(::GlobalNamespace::RelativeSfxVolumePerLevelModel* value);
-
   constexpr void __cordl_internal_set__sceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value);
 
-  /// @brief Method .ctor, addr 0x25feb78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26fd9a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -120,34 +95,24 @@ public:
   /// @brief Field _sceneSetupData, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::GameplayCoreSceneSetupData* ____sceneSetupData;
 
-  /// @brief Field _beatmapLoudnessModel, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::PerceivedLoudnessPerLevelModel* ____beatmapLoudnessModel;
-
-  /// @brief Field _relativeSfxVolumePerLevelModel, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::RelativeSfxVolumePerLevelModel* ____relativeSfxVolumePerLevelModel;
-
-  /// @brief Field _playerDataModel, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _playerDataModel, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
-  /// @brief Field _optionalAvatarDataSender, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field _optionalAvatarDataSender, offset: 0x38, size: 0x8, def value: None
   ::BeatSaber::AvatarCore::OptionalAvatarDataSender* ____optionalAvatarDataSender;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller, 0x50>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller, 0x40>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller, ____audioManager) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller, ____sceneSetupData) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller, ____beatmapLoudnessModel) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller, ____playerDataModel) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller, ____relativeSfxVolumePerLevelModel) == 0x38, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller, ____playerDataModel) == 0x40, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller, ____optionalAvatarDataSender) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller, ____optionalAvatarDataSender) == 0x38, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller);

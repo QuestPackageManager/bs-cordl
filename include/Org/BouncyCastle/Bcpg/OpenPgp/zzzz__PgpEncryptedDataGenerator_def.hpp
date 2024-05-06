@@ -114,7 +114,7 @@ public:
 
   constexpr void __cordl_internal_set_sessionInfo(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x121b6f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x130be1c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -163,13 +163,13 @@ public:
   /// @brief Field s2k, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_s2k, put = __cordl_internal_set_s2k))::Org::BouncyCastle::Bcpg::S2k* s2k;
 
-  /// @brief Method AddSessionInfo, addr 0x121b708, size 0x2a0, virtual true, abstract: false, final false
+  /// @brief Method AddSessionInfo, addr 0x130be2c, size 0x2a0, virtual true, abstract: false, final false
   inline void AddSessionInfo(::ArrayW<uint8_t, ::Array<uint8_t>*> si, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method Encode, addr 0x121b9a8, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x130c0cc, size 0x98, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* pOut);
 
-  /// @brief Method GetKey, addr 0x121b700, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetKey, addr 0x130be24, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* GetKey();
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedDataGenerator__PbeMethod* New_ctor(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm,
@@ -181,7 +181,7 @@ public:
 
   constexpr void __cordl_internal_set_s2k(::Org::BouncyCastle::Bcpg::S2k* value);
 
-  /// @brief Method .ctor, addr 0x121a184, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x130a8a8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, ::Org::BouncyCastle::Bcpg::S2k* s2k, ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key);
 
 protected:
@@ -226,21 +226,21 @@ public:
   /// @brief Field sessionKeyObfuscation, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get_sessionKeyObfuscation, put = __cordl_internal_set_sessionKeyObfuscation)) bool sessionKeyObfuscation;
 
-  /// @brief Method AddSessionInfo, addr 0x121ba40, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method AddSessionInfo, addr 0x130c164, size 0x24, virtual true, abstract: false, final false
   inline void AddSessionInfo(::ArrayW<uint8_t, ::Array<uint8_t>*> sessionInfo, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method ConvertToEncodedMpi, addr 0x121ccf8, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method ConvertToEncodedMpi, addr 0x130d41c, size 0x1a0, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ConvertToEncodedMpi(::ArrayW<uint8_t, ::Array<uint8_t>*> encryptedSessionInfo);
 
-  /// @brief Method Encode, addr 0x121ce98, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x130d5bc, size 0xb0, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* pOut);
 
-  /// @brief Method EncryptSessionInfo, addr 0x121ba64, size 0x94c, virtual false, abstract: false, final false
+  /// @brief Method EncryptSessionInfo, addr 0x130c188, size 0x94c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncryptSessionInfo(::ArrayW<uint8_t, ::Array<uint8_t>*> sessionInfo, ::Org::BouncyCastle::Security::SecureRandom* random);
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedDataGenerator__PubMethod* New_ctor(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* pubKey, bool sessionKeyObfuscation);
 
-  /// @brief Method ProcessSessionInfo, addr 0x121c3b0, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method ProcessSessionInfo, addr 0x130cad4, size 0x294, virtual false, abstract: false, final false
   inline ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> ProcessSessionInfo(::ArrayW<uint8_t, ::Array<uint8_t>*> encryptedSessionInfo);
 
   constexpr ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> const& __cordl_internal_get_data() const;
@@ -261,7 +261,7 @@ public:
 
   constexpr void __cordl_internal_set_sessionKeyObfuscation(bool value);
 
-  /// @brief Method .ctor, addr 0x121a368, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x130aa8c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* pubKey, bool sessionKeyObfuscation);
 
 protected:
@@ -343,34 +343,34 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator"
   constexpr operator ::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator*() noexcept;
 
-  /// @brief Method AddCheckSum, addr 0x121a398, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method AddCheckSum, addr 0x130aabc, size 0x90, virtual false, abstract: false, final false
   inline void AddCheckSum(::ArrayW<uint8_t, ::Array<uint8_t>*> sessionInfo);
 
-  /// @brief Method AddMethod, addr 0x121a1c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AddMethod, addr 0x130a8e4, size 0x8, virtual false, abstract: false, final false
   inline void AddMethod(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* key);
 
-  /// @brief Method AddMethod, addr 0x121a1c8, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method AddMethod, addr 0x130a8ec, size 0x14c, virtual false, abstract: false, final false
   inline void AddMethod(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* key, bool sessionKeyObfuscation);
 
-  /// @brief Method AddMethod, addr 0x1219f98, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method AddMethod, addr 0x130a6bc, size 0x30, virtual false, abstract: false, final false
   inline void AddMethod(::ArrayW<char16_t, ::Array<char16_t>*> passPhrase);
 
-  /// @brief Method AddMethod, addr 0x1219fc8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method AddMethod, addr 0x130a6ec, size 0x3c, virtual false, abstract: false, final false
   inline void AddMethod(::ArrayW<char16_t, ::Array<char16_t>*> passPhrase, ::Org::BouncyCastle::Bcpg::HashAlgorithmTag s2kDigest);
 
-  /// @brief Method AddMethodRaw, addr 0x121a178, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method AddMethodRaw, addr 0x130a89c, size 0xc, virtual false, abstract: false, final false
   inline void AddMethodRaw(::ArrayW<uint8_t, ::Array<uint8_t>*> rawPassPhrase, ::Org::BouncyCastle::Bcpg::HashAlgorithmTag s2kDigest);
 
-  /// @brief Method AddMethodUtf8, addr 0x121a138, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method AddMethodUtf8, addr 0x130a85c, size 0x40, virtual false, abstract: false, final false
   inline void AddMethodUtf8(::ArrayW<char16_t, ::Array<char16_t>*> passPhrase, ::Org::BouncyCastle::Bcpg::HashAlgorithmTag s2kDigest);
 
-  /// @brief Method Close, addr 0x121b434, size 0x2c4, virtual true, abstract: false, final true
+  /// @brief Method Close, addr 0x130bb58, size 0x2c4, virtual true, abstract: false, final true
   inline void Close();
 
-  /// @brief Method CreateSessionInfo, addr 0x121a428, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method CreateSessionInfo, addr 0x130ab4c, size 0xa8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CreateSessionInfo(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag algorithm, ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key);
 
-  /// @brief Method DoAddMethod, addr 0x121a004, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method DoAddMethod, addr 0x130a728, size 0x134, virtual false, abstract: false, final false
   inline void DoAddMethod(::ArrayW<uint8_t, ::Array<uint8_t>*> rawPassPhrase, bool clearPassPhrase, ::Org::BouncyCastle::Bcpg::HashAlgorithmTag s2kDigest);
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataGenerator* New_ctor(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm);
@@ -386,13 +386,13 @@ public:
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataGenerator* New_ctor(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, bool withIntegrityPacket,
                                                                                         ::Org::BouncyCastle::Security::SecureRandom* rand);
 
-  /// @brief Method Open, addr 0x121b428, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x130bb4c, size 0xc, virtual false, abstract: false, final false
   inline ::System::IO::Stream* Open(::System::IO::Stream* outStr, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer);
 
-  /// @brief Method Open, addr 0x121b420, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x130bb44, size 0x8, virtual false, abstract: false, final false
   inline ::System::IO::Stream* Open(::System::IO::Stream* outStr, int64_t length);
 
-  /// @brief Method Open, addr 0x121a4d0, size 0xf50, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x130abf4, size 0xf50, virtual false, abstract: false, final false
   inline ::System::IO::Stream* Open(::System::IO::Stream* outStr, int64_t length, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer);
 
   constexpr ::Org::BouncyCastle::Crypto::IBufferedCipher*& __cordl_internal_get_c();
@@ -449,19 +449,19 @@ public:
 
   constexpr void __cordl_internal_set_withIntegrityPacket(bool value);
 
-  /// @brief Method .ctor, addr 0x1219c98, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x130a3bc, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm);
 
-  /// @brief Method .ctor, addr 0x1219df8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x130a51c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, ::Org::BouncyCastle::Security::SecureRandom* rand);
 
-  /// @brief Method .ctor, addr 0x1219f08, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x130a62c, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, ::Org::BouncyCastle::Security::SecureRandom* rand, bool oldFormat);
 
-  /// @brief Method .ctor, addr 0x1219d44, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x130a468, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, bool withIntegrityPacket);
 
-  /// @brief Method .ctor, addr 0x1219e78, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x130a59c, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm, bool withIntegrityPacket, ::Org::BouncyCastle::Security::SecureRandom* rand);
 
   /// @brief Convert to "::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator"

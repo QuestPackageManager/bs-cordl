@@ -34,16 +34,16 @@ public:
 
   constexpr void __cordl_internal_set__Comment_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x340a20c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x360ef48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x340a214, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x360ef50, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW comment);
 
-  /// @brief Method get_Comment, addr 0x340a23c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Comment, addr 0x360ef78, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Comment();
 
-  /// @brief Method set_Comment, addr 0x340a244, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Comment, addr 0x360ef80, size 0x8, virtual false, abstract: false, final false
   inline void set_Comment(::StringW value);
 
 protected:

@@ -178,19 +178,19 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::CameraProperties>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::CameraProperties>*();
 
-  /// @brief Method Equals, addr 0x3226e5c, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x342eb98, size 0xb8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x3225ef0, size 0xf6c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x342dc2c, size 0xf6c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::CameraProperties other);
 
-  /// @brief Method GetCameraCullingPlane, addr 0x3225e04, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetCameraCullingPlane, addr 0x342db40, size 0xec, virtual false, abstract: false, final false
   inline ::UnityEngine::Plane GetCameraCullingPlane(int32_t index);
 
-  /// @brief Method GetHashCode, addr 0x3226f14, size 0x1174, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x342ec50, size 0x1174, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetShadowCullingPlane, addr 0x3225d18, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetShadowCullingPlane, addr 0x342da54, size 0xec, virtual false, abstract: false, final false
   inline ::UnityEngine::Plane GetShadowCullingPlane(int32_t index);
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::CameraProperties>"

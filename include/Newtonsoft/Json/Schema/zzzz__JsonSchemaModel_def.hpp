@@ -169,10 +169,10 @@ public:
   /// @brief Field <UniqueItems>k__BackingField, offset 0xa3, size 0x1
   __declspec(property(get = __cordl_internal_get__UniqueItems_k__BackingField, put = __cordl_internal_set__UniqueItems_k__BackingField)) bool _UniqueItems_k__BackingField;
 
-  /// @brief Method Combine, addr 0x29531f4, size 0x318, virtual false, abstract: false, final false
+  /// @brief Method Combine, addr 0x2a51aa4, size 0x318, virtual false, abstract: false, final false
   static inline void Combine(::Newtonsoft::Json::Schema::JsonSchemaModel* model, ::Newtonsoft::Json::Schema::JsonSchema* schema);
 
-  /// @brief Method Create, addr 0x2952ee4, size 0x310, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2a51794, size 0x310, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Schema::JsonSchemaModel* Create(::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchema*>* schemata);
 
   static inline ::Newtonsoft::Json::Schema::JsonSchemaModel* New_ctor();
@@ -317,145 +317,145 @@ public:
 
   constexpr void __cordl_internal_set__UniqueItems_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x2952eb8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a51768, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AdditionalItems, addr 0x2952e38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AdditionalItems, addr 0x2a516e8, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Schema::JsonSchemaModel* get_AdditionalItems();
 
-  /// @brief Method get_AdditionalProperties, addr 0x2952e28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AdditionalProperties, addr 0x2a516d8, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Schema::JsonSchemaModel* get_AdditionalProperties();
 
-  /// @brief Method get_AllowAdditionalItems, addr 0x2952e70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AllowAdditionalItems, addr 0x2a51720, size 0x8, virtual false, abstract: false, final false
   inline bool get_AllowAdditionalItems();
 
-  /// @brief Method get_AllowAdditionalProperties, addr 0x2952e5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AllowAdditionalProperties, addr 0x2a5170c, size 0x8, virtual false, abstract: false, final false
   inline bool get_AllowAdditionalProperties();
 
-  /// @brief Method get_Disallow, addr 0x2952ea8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Disallow, addr 0x2a51758, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Schema::JsonSchemaType get_Disallow();
 
-  /// @brief Method get_DivisibleBy, addr 0x2952d64, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_DivisibleBy, addr 0x2a51614, size 0xc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<double_t> get_DivisibleBy();
 
-  /// @brief Method get_Enum, addr 0x2952e98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Enum, addr 0x2a51748, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Linq::JToken*>* get_Enum();
 
-  /// @brief Method get_ExclusiveMaximum, addr 0x2952db4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ExclusiveMaximum, addr 0x2a51664, size 0x8, virtual false, abstract: false, final false
   inline bool get_ExclusiveMaximum();
 
-  /// @brief Method get_ExclusiveMinimum, addr 0x2952da0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ExclusiveMinimum, addr 0x2a51650, size 0x8, virtual false, abstract: false, final false
   inline bool get_ExclusiveMinimum();
 
-  /// @brief Method get_Items, addr 0x2952df8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Items, addr 0x2a516a8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchemaModel*>* get_Items();
 
-  /// @brief Method get_Maximum, addr 0x2952d8c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Maximum, addr 0x2a5163c, size 0xc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<double_t> get_Maximum();
 
-  /// @brief Method get_MaximumItems, addr 0x2952dd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaximumItems, addr 0x2a51688, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int32_t> get_MaximumItems();
 
-  /// @brief Method get_MaximumLength, addr 0x2952d54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaximumLength, addr 0x2a51604, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int32_t> get_MaximumLength();
 
-  /// @brief Method get_Minimum, addr 0x2952d78, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Minimum, addr 0x2a51628, size 0xc, virtual false, abstract: false, final false
   inline ::System::Nullable_1<double_t> get_Minimum();
 
-  /// @brief Method get_MinimumItems, addr 0x2952dc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MinimumItems, addr 0x2a51678, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int32_t> get_MinimumItems();
 
-  /// @brief Method get_MinimumLength, addr 0x2952d44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MinimumLength, addr 0x2a515f4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int32_t> get_MinimumLength();
 
-  /// @brief Method get_PatternProperties, addr 0x2952e18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PatternProperties, addr 0x2a516c8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchemaModel*>* get_PatternProperties();
 
-  /// @brief Method get_Patterns, addr 0x2952de8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Patterns, addr 0x2a51698, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::StringW>* get_Patterns();
 
-  /// @brief Method get_PositionalItemsValidation, addr 0x2952e48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PositionalItemsValidation, addr 0x2a516f8, size 0x8, virtual false, abstract: false, final false
   inline bool get_PositionalItemsValidation();
 
-  /// @brief Method get_Properties, addr 0x2952e08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x2a516b8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchemaModel*>* get_Properties();
 
-  /// @brief Method get_Required, addr 0x2952d20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Required, addr 0x2a515d0, size 0x8, virtual false, abstract: false, final false
   inline bool get_Required();
 
-  /// @brief Method get_Type, addr 0x2952d34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x2a515e4, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Schema::JsonSchemaType get_Type();
 
-  /// @brief Method get_UniqueItems, addr 0x2952e84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UniqueItems, addr 0x2a51734, size 0x8, virtual false, abstract: false, final false
   inline bool get_UniqueItems();
 
-  /// @brief Method set_AdditionalItems, addr 0x2952e40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AdditionalItems, addr 0x2a516f0, size 0x8, virtual false, abstract: false, final false
   inline void set_AdditionalItems(::Newtonsoft::Json::Schema::JsonSchemaModel* value);
 
-  /// @brief Method set_AdditionalProperties, addr 0x2952e30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AdditionalProperties, addr 0x2a516e0, size 0x8, virtual false, abstract: false, final false
   inline void set_AdditionalProperties(::Newtonsoft::Json::Schema::JsonSchemaModel* value);
 
-  /// @brief Method set_AllowAdditionalItems, addr 0x2952e78, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_AllowAdditionalItems, addr 0x2a51728, size 0xc, virtual false, abstract: false, final false
   inline void set_AllowAdditionalItems(bool value);
 
-  /// @brief Method set_AllowAdditionalProperties, addr 0x2952e64, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_AllowAdditionalProperties, addr 0x2a51714, size 0xc, virtual false, abstract: false, final false
   inline void set_AllowAdditionalProperties(bool value);
 
-  /// @brief Method set_Disallow, addr 0x2952eb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Disallow, addr 0x2a51760, size 0x8, virtual false, abstract: false, final false
   inline void set_Disallow(::Newtonsoft::Json::Schema::JsonSchemaType value);
 
-  /// @brief Method set_DivisibleBy, addr 0x2952d70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DivisibleBy, addr 0x2a51620, size 0x8, virtual false, abstract: false, final false
   inline void set_DivisibleBy(::System::Nullable_1<double_t> value);
 
-  /// @brief Method set_Enum, addr 0x2952ea0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Enum, addr 0x2a51750, size 0x8, virtual false, abstract: false, final false
   inline void set_Enum(::System::Collections::Generic::IList_1<::Newtonsoft::Json::Linq::JToken*>* value);
 
-  /// @brief Method set_ExclusiveMaximum, addr 0x2952dbc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ExclusiveMaximum, addr 0x2a5166c, size 0xc, virtual false, abstract: false, final false
   inline void set_ExclusiveMaximum(bool value);
 
-  /// @brief Method set_ExclusiveMinimum, addr 0x2952da8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ExclusiveMinimum, addr 0x2a51658, size 0xc, virtual false, abstract: false, final false
   inline void set_ExclusiveMinimum(bool value);
 
-  /// @brief Method set_Items, addr 0x2952e00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Items, addr 0x2a516b0, size 0x8, virtual false, abstract: false, final false
   inline void set_Items(::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchemaModel*>* value);
 
-  /// @brief Method set_Maximum, addr 0x2952d98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Maximum, addr 0x2a51648, size 0x8, virtual false, abstract: false, final false
   inline void set_Maximum(::System::Nullable_1<double_t> value);
 
-  /// @brief Method set_MaximumItems, addr 0x2952de0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MaximumItems, addr 0x2a51690, size 0x8, virtual false, abstract: false, final false
   inline void set_MaximumItems(::System::Nullable_1<int32_t> value);
 
-  /// @brief Method set_MaximumLength, addr 0x2952d5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MaximumLength, addr 0x2a5160c, size 0x8, virtual false, abstract: false, final false
   inline void set_MaximumLength(::System::Nullable_1<int32_t> value);
 
-  /// @brief Method set_Minimum, addr 0x2952d84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Minimum, addr 0x2a51634, size 0x8, virtual false, abstract: false, final false
   inline void set_Minimum(::System::Nullable_1<double_t> value);
 
-  /// @brief Method set_MinimumItems, addr 0x2952dd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MinimumItems, addr 0x2a51680, size 0x8, virtual false, abstract: false, final false
   inline void set_MinimumItems(::System::Nullable_1<int32_t> value);
 
-  /// @brief Method set_MinimumLength, addr 0x2952d4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MinimumLength, addr 0x2a515fc, size 0x8, virtual false, abstract: false, final false
   inline void set_MinimumLength(::System::Nullable_1<int32_t> value);
 
-  /// @brief Method set_PatternProperties, addr 0x2952e20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_PatternProperties, addr 0x2a516d0, size 0x8, virtual false, abstract: false, final false
   inline void set_PatternProperties(::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchemaModel*>* value);
 
-  /// @brief Method set_Patterns, addr 0x2952df0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Patterns, addr 0x2a516a0, size 0x8, virtual false, abstract: false, final false
   inline void set_Patterns(::System::Collections::Generic::IList_1<::StringW>* value);
 
-  /// @brief Method set_PositionalItemsValidation, addr 0x2952e50, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_PositionalItemsValidation, addr 0x2a51700, size 0xc, virtual false, abstract: false, final false
   inline void set_PositionalItemsValidation(bool value);
 
-  /// @brief Method set_Properties, addr 0x2952e10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Properties, addr 0x2a516c0, size 0x8, virtual false, abstract: false, final false
   inline void set_Properties(::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchemaModel*>* value);
 
-  /// @brief Method set_Required, addr 0x2952d28, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Required, addr 0x2a515d8, size 0xc, virtual false, abstract: false, final false
   inline void set_Required(bool value);
 
-  /// @brief Method set_Type, addr 0x2952d3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Type, addr 0x2a515ec, size 0x8, virtual false, abstract: false, final false
   inline void set_Type(::Newtonsoft::Json::Schema::JsonSchemaType value);
 
-  /// @brief Method set_UniqueItems, addr 0x2952e8c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_UniqueItems, addr 0x2a5173c, size 0xc, virtual false, abstract: false, final false
   inline void set_UniqueItems(bool value);
 
 protected:

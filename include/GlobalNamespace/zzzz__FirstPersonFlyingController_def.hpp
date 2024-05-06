@@ -82,19 +82,19 @@ public:
   /// @brief Field _transform, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform))::UnityW<::UnityEngine::Transform> _transform;
 
-  /// @brief Method Inject, addr 0x2580630, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method Inject, addr 0x2678ac4, size 0x128, virtual false, abstract: false, final false
   inline void Inject(::UnityEngine::Camera* camera, ::GlobalNamespace::VRCenterAdjust* centerAdjust, ::GlobalNamespace::VRController* controller0, ::GlobalNamespace::VRController* controller1,
                      ::UnityEngine::SpatialTracking::TrackedPoseDriver* trackedPoseDriver);
 
   static inline ::GlobalNamespace::FirstPersonFlyingController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x257fcd0, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x2678164, size 0x25c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x257f9c0, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x2677e54, size 0x270, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Update, addr 0x257ff2c, size 0x3a8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x26783c0, size 0x3a8, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__camera() const;
@@ -175,7 +175,7 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x2580758, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2678bec, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

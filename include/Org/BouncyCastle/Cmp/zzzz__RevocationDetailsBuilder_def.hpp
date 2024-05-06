@@ -36,21 +36,21 @@ public:
   /// @brief Field _templateBuilder, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__templateBuilder, put = __cordl_internal_set__templateBuilder))::Org::BouncyCastle::Asn1::Crmf::CertTemplateBuilder* _templateBuilder;
 
-  /// @brief Method Build, addr 0x1347178, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x143b89c, size 0xb4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cmp::RevocationDetails* Build();
 
   static inline ::Org::BouncyCastle::Cmp::RevocationDetailsBuilder* New_ctor();
 
-  /// @brief Method SetIssuer, addr 0x1347088, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetIssuer, addr 0x143b7ac, size 0x30, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cmp::RevocationDetailsBuilder* SetIssuer(::Org::BouncyCastle::Asn1::X509::X509Name* issuer);
 
-  /// @brief Method SetPublicKey, addr 0x1347058, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetPublicKey, addr 0x143b77c, size 0x30, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cmp::RevocationDetailsBuilder* SetPublicKey(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* publicKey);
 
-  /// @brief Method SetSerialNumber, addr 0x13470b8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method SetSerialNumber, addr 0x143b7dc, size 0x90, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cmp::RevocationDetailsBuilder* SetSerialNumber(::Org::BouncyCastle::Math::BigInteger* serialNumber);
 
-  /// @brief Method SetSubject, addr 0x1347148, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetSubject, addr 0x143b86c, size 0x30, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cmp::RevocationDetailsBuilder* SetSubject(::Org::BouncyCastle::Asn1::X509::X509Name* subject);
 
   constexpr ::Org::BouncyCastle::Asn1::Crmf::CertTemplateBuilder*& __cordl_internal_get__templateBuilder();
@@ -59,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set__templateBuilder(::Org::BouncyCastle::Asn1::Crmf::CertTemplateBuilder* value);
 
-  /// @brief Method .ctor, addr 0x134722c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x143b950, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

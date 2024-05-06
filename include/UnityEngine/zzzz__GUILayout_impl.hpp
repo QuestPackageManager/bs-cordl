@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GUILayoutOption* (*)(float_t)>(&::UnityEngine::GUILayout::Width)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3237938;
+  constexpr static std::size_t addrs = 0x343f674;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GUILayoutOption* (*)(float_t)>(&::UnityEngine::GUILayout::Height)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x32379d4;
+  constexpr static std::size_t addrs = 0x343f710;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

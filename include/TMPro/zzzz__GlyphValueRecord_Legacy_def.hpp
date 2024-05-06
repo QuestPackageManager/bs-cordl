@@ -22,10 +22,10 @@ namespace TMPro {
 struct CORDL_TYPE GlyphValueRecord_Legacy {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x313fc1c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33446a4, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::TextCore::LowLevel::GlyphValueRecord valueRecord);
 
-  /// @brief Method op_Addition, addr 0x313fc7c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method op_Addition, addr 0x3344704, size 0x14, virtual false, abstract: false, final false
   static inline ::TMPro::GlyphValueRecord_Legacy op_Addition(::TMPro::GlyphValueRecord_Legacy a, ::TMPro::GlyphValueRecord_Legacy b);
 
   // Ctor Parameters []

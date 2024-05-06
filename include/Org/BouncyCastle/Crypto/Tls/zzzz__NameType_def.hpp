@@ -19,12 +19,12 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CORDL_TYPE NameType : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsValid, addr 0x10fdffc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x11f1720, size 0xc, virtual false, abstract: false, final false
   static inline bool IsValid(uint8_t nameType);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::NameType* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10fe008, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11f172c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

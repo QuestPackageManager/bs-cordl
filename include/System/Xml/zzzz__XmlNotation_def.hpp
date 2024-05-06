@@ -50,15 +50,15 @@ public:
   /// @brief Field systemId, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_systemId, put = __cordl_internal_set_systemId))::StringW systemId;
 
-  /// @brief Method CloneNode, addr 0x2da6cd4, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method CloneNode, addr 0x2ea35d4, size 0x60, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* CloneNode(bool deep);
 
   static inline ::System::Xml::XmlNotation* New_ctor(::StringW name, ::StringW publicId, ::StringW systemId, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method WriteContentTo, addr 0x2da6da0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method WriteContentTo, addr 0x2ea36a0, size 0x4, virtual true, abstract: false, final false
   inline void WriteContentTo(::System::Xml::XmlWriter* w);
 
-  /// @brief Method WriteTo, addr 0x2da6d9c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method WriteTo, addr 0x2ea369c, size 0x4, virtual true, abstract: false, final false
   inline void WriteTo(::System::Xml::XmlWriter* w);
 
   constexpr ::StringW const& __cordl_internal_get_name() const;
@@ -79,22 +79,22 @@ public:
 
   constexpr void __cordl_internal_set_systemId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2da6c54, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ea3554, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::StringW publicId, ::StringW systemId, ::System::Xml::XmlDocument* doc);
 
-  /// @brief Method get_IsReadOnly, addr 0x2da6d34, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x2ea3634, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
-  /// @brief Method get_LocalName, addr 0x2da6cc4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x2ea35c4, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_Name, addr 0x2da6cbc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x2ea35bc, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NodeType, addr 0x2da6ccc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x2ea35cc, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method set_InnerXml, addr 0x2da6d3c, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method set_InnerXml, addr 0x2ea363c, size 0x60, virtual true, abstract: false, final false
   inline void set_InnerXml(::StringW value);
 
 protected:

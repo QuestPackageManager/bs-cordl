@@ -102,7 +102,7 @@ public:
 
   constexpr void __cordl_internal_set_fullyLid(bool value);
 
-  /// @brief Method .ctor, addr 0x25d7b18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d7858, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -214,27 +214,27 @@ public:
   __declspec(property(get = __cordl_internal_get__spawnRotationDataCallbackWrapper,
                       put = __cordl_internal_set__spawnRotationDataCallbackWrapper))::GlobalNamespace::BeatmapDataCallbackWrapper* _spawnRotationDataCallbackWrapper;
 
-  /// @brief Method ComputeAheadTime, addr 0x25d7b3c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ComputeAheadTime, addr 0x26d787c, size 0x5c, virtual false, abstract: false, final false
   inline float_t ComputeAheadTime();
 
-  /// @brief Method HandleBeatmapObjectCallback, addr 0x25d77bc, size 0x35c, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapObjectCallback, addr 0x26d74fc, size 0x35c, virtual false, abstract: false, final false
   inline void HandleBeatmapObjectCallback(::GlobalNamespace::BeatmapObjectData* beatmapObjectData);
 
-  /// @brief Method HandleBeatmapObjectSpawnControllerDidInit, addr 0x25d6b18, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapObjectSpawnControllerDidInit, addr 0x26d6858, size 0x144, virtual false, abstract: false, final false
   inline void HandleBeatmapObjectSpawnControllerDidInit();
 
-  /// @brief Method HandleSpawnRotationBeatmapEvent, addr 0x25d7b20, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleSpawnRotationBeatmapEvent, addr 0x26d7860, size 0x1c, virtual false, abstract: false, final false
   inline void HandleSpawnRotationBeatmapEvent(::GlobalNamespace::SpawnRotationBeatmapEventData* beatmapEventData);
 
   static inline ::GlobalNamespace::SpawnRotationChevronManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x25d76c0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x26d7400, size 0xfc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x25d69a8, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x26d66e8, size 0x170, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x25d6c5c, size 0xa64, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x26d699c, size 0xa64, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::System::Collections::Generic::HashSet_1<int32_t>*& __cordl_internal_get__activeDirections();
@@ -346,7 +346,7 @@ public:
 
   constexpr void __cordl_internal_set__spawnRotationDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
 
-  /// @brief Method .ctor, addr 0x25d7b98, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d78d8, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
