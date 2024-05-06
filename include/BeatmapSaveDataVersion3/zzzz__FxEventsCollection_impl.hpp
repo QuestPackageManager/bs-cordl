@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatmapSaveDataVersion3/FxEventsCollection.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatmapSaveDataVersion3/zzzz__FxEventsCollection_def.hpp"
 #include "BeatmapSaveDataVersion3/zzzz__FloatFxEventBaseData_def.hpp"

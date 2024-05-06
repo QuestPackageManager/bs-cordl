@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/XPath/XPathNavigatorKeyComparer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/XPath/zzzz__XPathNavigatorKeyComparer_def.hpp"
 #include "System/Collections/zzzz__IEqualityComparer_def.hpp"

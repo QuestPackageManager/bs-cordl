@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BGLib/DotnetExtension/CommandLine/ArgumentOption.hpp"
 #include "BGLib/DotnetExtension/CommandLine/zzzz__ArgumentType_impl.hpp"
 #include "BGLib/DotnetExtension/CommandLine/zzzz__ArgumentOption_def.hpp"
 #include "BGLib/DotnetExtension/CommandLine/zzzz__ArgumentType_def.hpp"

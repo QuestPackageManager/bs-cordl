@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Android/AndroidGravitySensor.hpp"
 #include "UnityEngine/InputSystem/zzzz__GravitySensor_impl.hpp"
 #include "UnityEngine/InputSystem/Android/zzzz__AndroidGravitySensor_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Android::AndroidGravitySensor._ctor

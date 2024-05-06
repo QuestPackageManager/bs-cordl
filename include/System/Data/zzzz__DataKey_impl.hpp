@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/DataKey.hpp"
 #include "System/Data/zzzz__DataKey_def.hpp"
 #include "System/Data/zzzz__DataColumn_def.hpp"
 #include "System/Data/zzzz__DataTable_def.hpp"

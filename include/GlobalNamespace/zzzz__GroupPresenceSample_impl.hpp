@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/GroupPresenceSample.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__GroupPresenceSample_def.hpp"
 #include "Oculus/Platform/Models/zzzz__DestinationList_def.hpp"

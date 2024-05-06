@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/PosePrediction.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PosePrediction_def.hpp"
 #include "GlobalNamespace/zzzz__PoseSerializable_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/PointerEnterEvent.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerEventBase_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerEnterEvent_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::PointerEnterEvent.Init

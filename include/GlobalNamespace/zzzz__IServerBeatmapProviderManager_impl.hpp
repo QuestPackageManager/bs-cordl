@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IServerBeatmapProviderManager.hpp"
 #include "GlobalNamespace/zzzz__IServerBeatmapProviderManager_def.hpp"
 #include "GlobalNamespace/zzzz__IServerBeatmapProvider_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"

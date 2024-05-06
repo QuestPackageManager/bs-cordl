@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Http/HttpMethod.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Http/zzzz__HttpMethod_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/Common/StorageType.hpp"
 #include "System/Data/Common/zzzz__StorageType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Data::Common::StorageType::StorageType(int32_t value__) noexcept {

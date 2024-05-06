@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/AccessControl/AuthorizationRuleCollection.hpp"
 #include "System/Collections/zzzz__ReadOnlyCollectionBase_impl.hpp"
 #include "System/Security/AccessControl/zzzz__AuthorizationRuleCollection_def.hpp"
 #include "System/Security/AccessControl/zzzz__AuthorizationRule_def.hpp"

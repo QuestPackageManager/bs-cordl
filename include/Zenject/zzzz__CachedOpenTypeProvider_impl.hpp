@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/CachedOpenTypeProvider.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__CachedOpenTypeProvider_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"

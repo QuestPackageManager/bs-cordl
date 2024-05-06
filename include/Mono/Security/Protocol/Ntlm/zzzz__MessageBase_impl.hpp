@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Security/Protocol/Ntlm/MessageBase.hpp"
 #include "Mono/Security/Protocol/Ntlm/zzzz__NtlmFlags_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Security/Protocol/Ntlm/zzzz__MessageBase_def.hpp"

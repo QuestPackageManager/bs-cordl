@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Collections/ArrayList_ReadOnlyArrayList.hpp"
 #include "System/Collections/zzzz__ArrayList_impl.hpp"
 #include "System/Collections/zzzz__ArrayList_ReadOnlyArrayList_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"

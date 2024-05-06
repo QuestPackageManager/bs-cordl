@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/__Il2CppComDelegate.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Events/InvokableCall.hpp"
 #include "UnityEngine/Events/zzzz__BaseInvokableCall_impl.hpp"
 #include "UnityEngine/Events/zzzz__InvokableCall_def.hpp"
 #include "System/Reflection/zzzz__MethodInfo_def.hpp"

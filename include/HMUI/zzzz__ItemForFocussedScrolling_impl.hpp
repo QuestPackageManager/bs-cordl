@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/ItemForFocussedScrolling.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__ItemForFocussedScrolling_def.hpp"
 //  Writing Method size for method: ::HMUI::ItemForFocussedScrolling._ctor

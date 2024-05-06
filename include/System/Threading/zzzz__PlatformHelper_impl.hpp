@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/PlatformHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/zzzz__PlatformHelper_def.hpp"
 //  Writing Method size for method: ::System::Threading::PlatformHelper.get_ProcessorCount

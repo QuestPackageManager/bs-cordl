@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/Mathematics/RigidTransform.hpp"
 #include "Unity/Mathematics/zzzz__float3_impl.hpp"
 #include "Unity/Mathematics/zzzz__quaternion_impl.hpp"
 #include "Unity/Mathematics/zzzz__RigidTransform_def.hpp"

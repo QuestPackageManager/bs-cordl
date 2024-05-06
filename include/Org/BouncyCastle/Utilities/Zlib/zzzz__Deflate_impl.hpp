@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Utilities/Zlib/Deflate.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Utilities/Zlib/zzzz__Deflate_def.hpp"
 #include "Org/BouncyCastle/Utilities/Zlib/zzzz__Deflate_def.hpp"

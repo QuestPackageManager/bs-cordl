@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ParseNumbers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__ParseNumbers_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"

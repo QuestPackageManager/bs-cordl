@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Utilities/Encoders/BufferedDecoder.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Utilities/Encoders/zzzz__BufferedDecoder_def.hpp"
 #include "Org/BouncyCastle/Utilities/Encoders/zzzz__ITranslator_def.hpp"

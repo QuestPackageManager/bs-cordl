@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UnitySynchronizationContext.hpp"
 #include "System/Threading/zzzz__SynchronizationContext_impl.hpp"
 #include "UnityEngine/zzzz__UnitySynchronizationContext_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"

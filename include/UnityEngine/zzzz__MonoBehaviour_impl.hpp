@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/MonoBehaviour.hpp"
 #include "UnityEngine/zzzz__Behaviour_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"

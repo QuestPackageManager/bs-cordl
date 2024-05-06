@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Http/HttpClient.hpp"
 #include "System/Net/Http/zzzz__HttpCompletionOption_impl.hpp"
 #include "System/Net/Http/zzzz__HttpMessageInvoker_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/IsisMtt/X509/AdmissionSyntax.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/IsisMtt/X509/zzzz__AdmissionSyntax_def.hpp"
 #include "Org/BouncyCastle/Asn1/IsisMtt/X509/zzzz__Admissions_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ArgumentBase.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__ArgumentBase_def.hpp"
 #include "System/zzzz__Type_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/INodePoseSyncStateManager.hpp"
 #include "GlobalNamespace/zzzz__INodePoseSyncStateManager_def.hpp"
 #include "GlobalNamespace/zzzz__INodePoseSyncStateManager_5_def.hpp"
 #include "GlobalNamespace/zzzz__NodePoseSyncStateDeltaNetSerializable_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/Burst/BurstExecutionEnvironment.hpp"
 #include "Unity/Burst/zzzz__BurstExecutionEnvironment_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::Unity::Burst::BurstExecutionEnvironment::BurstExecutionEnvironment(int32_t value__) noexcept {

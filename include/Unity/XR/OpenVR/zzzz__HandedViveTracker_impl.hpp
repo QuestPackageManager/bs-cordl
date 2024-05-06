@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/XR/OpenVR/HandedViveTracker.hpp"
 #include "Unity/XR/OpenVR/zzzz__ViveTracker_impl.hpp"
 #include "Unity/XR/OpenVR/zzzz__HandedViveTracker_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__AxisControl_def.hpp"

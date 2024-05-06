@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/PlatformNotSupportedException.hpp"
 #include "System/zzzz__NotSupportedException_impl.hpp"
 #include "System/zzzz__PlatformNotSupportedException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"

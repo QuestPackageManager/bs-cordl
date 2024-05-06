@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MissionLevelFinishedController.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionLevelFinishedController_def.hpp"
 #include "GlobalNamespace/zzzz__ILevelEndActions_def.hpp"

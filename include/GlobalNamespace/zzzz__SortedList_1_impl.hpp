@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SortedList_1.hpp"
 #include "GlobalNamespace/zzzz__SortedList_2_impl.hpp"
 #include "GlobalNamespace/zzzz__SortedList_1_def.hpp"
 #include "GlobalNamespace/zzzz__ISortedListItemProcessor_1_def.hpp"

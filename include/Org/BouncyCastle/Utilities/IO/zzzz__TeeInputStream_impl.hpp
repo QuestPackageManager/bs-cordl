@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Utilities/IO/TeeInputStream.hpp"
 #include "Org/BouncyCastle/Utilities/IO/zzzz__BaseInputStream_impl.hpp"
 #include "Org/BouncyCastle/Utilities/IO/zzzz__TeeInputStream_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"

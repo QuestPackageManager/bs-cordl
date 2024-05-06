@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Timeline/ActivationControlPlayable.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableBehaviour_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__ActivationControlPlayable_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__ActivationControlPlayable_def.hpp"

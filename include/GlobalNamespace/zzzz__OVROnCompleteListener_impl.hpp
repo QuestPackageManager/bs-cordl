@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OVROnCompleteListener.hpp"
 #include "UnityEngine/zzzz__AndroidJavaProxy_impl.hpp"
 #include "GlobalNamespace/zzzz__OVROnCompleteListener_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OVROnCompleteListener._ctor

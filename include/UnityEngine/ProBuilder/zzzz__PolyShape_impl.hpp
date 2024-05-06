@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ProBuilder/PolyShape.hpp"
 #include "UnityEngine/ProBuilder/zzzz__PolyShape_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__PolyShape_def.hpp"

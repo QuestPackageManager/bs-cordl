@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/WellKnownServiceTypeEntry.hpp"
 #include "System/Runtime/Remoting/zzzz__TypeEntry_impl.hpp"
 #include "System/Runtime/Remoting/zzzz__WellKnownObjectMode_impl.hpp"
 #include "System/Runtime/Remoting/zzzz__WellKnownServiceTypeEntry_def.hpp"

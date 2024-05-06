@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "SFB/StandaloneFileBrowser.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "SFB/zzzz__StandaloneFileBrowser_def.hpp"
 #include "SFB/zzzz__ExtensionFilter_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/MarshalByRefObject.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__MarshalByRefObject_def.hpp"
 #include "System/Runtime/Remoting/zzzz__ObjRef_def.hpp"

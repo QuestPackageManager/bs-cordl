@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/TutorialRestartController.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__TutorialRestartController_def.hpp"
 #include "GlobalNamespace/zzzz__ILevelRestartController_def.hpp"

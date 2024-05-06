@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/TextMeshProAutosizeGroup.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__TextMeshProAutosizeGroup_def.hpp"
 #include "TMPro/zzzz__TMP_Text_def.hpp"

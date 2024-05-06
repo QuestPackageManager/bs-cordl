@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Serialization/Formatters/Binary/BinaryFormatter.hpp"
 #include "System/Runtime/Serialization/Formatters/zzzz__FormatterAssemblyStyle_impl.hpp"
 #include "System/Runtime/Serialization/Formatters/zzzz__FormatterTypeStyle_impl.hpp"
 #include "System/Runtime/Serialization/Formatters/zzzz__TypeFilterLevel_impl.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Timeline/TimeFieldAttribute.hpp"
 #include "UnityEngine/Timeline/zzzz__TimeFieldAttribute_impl.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__TimeFieldAttribute_def.hpp"

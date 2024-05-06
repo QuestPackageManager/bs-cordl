@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/IO/DriveInfoInternal.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/IO/zzzz__DriveInfoInternal_def.hpp"
 //  Writing Method size for method: ::System::IO::DriveInfoInternal.GetLogicalDrives

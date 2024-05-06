@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/ProtocolViolationException.hpp"
 #include "System/zzzz__InvalidOperationException_impl.hpp"
 #include "System/Net/zzzz__ProtocolViolationException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"

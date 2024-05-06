@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/FileWebResponse.hpp"
 #include "System/IO/zzzz__FileAccess_impl.hpp"
 #include "System/Net/zzzz__WebResponse_impl.hpp"
 #include "System/Net/zzzz__FileWebResponse_def.hpp"

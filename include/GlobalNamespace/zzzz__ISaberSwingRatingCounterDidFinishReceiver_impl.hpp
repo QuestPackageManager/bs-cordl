@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ISaberSwingRatingCounterDidFinishReceiver.hpp"
 #include "GlobalNamespace/zzzz__ISaberSwingRatingCounterDidFinishReceiver_def.hpp"
 #include "GlobalNamespace/zzzz__ISaberSwingRatingCounter_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver.HandleSaberSwingRatingCounterDidFinish

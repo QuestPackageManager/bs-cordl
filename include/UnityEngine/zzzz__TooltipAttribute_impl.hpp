@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/TooltipAttribute.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "UnityEngine/zzzz__TooltipAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::TooltipAttribute._ctor

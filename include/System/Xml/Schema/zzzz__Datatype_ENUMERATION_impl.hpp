@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/Datatype_ENUMERATION.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_NMTOKEN_impl.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_ENUMERATION_def.hpp"
 #include "System/Xml/zzzz__XmlTokenizedType_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/HealthWarningDisplayViewController.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__HealthWarningDisplayViewController_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"

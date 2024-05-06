@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Playables/INotification.hpp"
 #include "UnityEngine/Playables/zzzz__INotification_def.hpp"
 #include "UnityEngine/zzzz__PropertyName_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Playables::INotification.get_id

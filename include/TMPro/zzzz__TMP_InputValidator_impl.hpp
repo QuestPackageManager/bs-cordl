@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/TMP_InputValidator.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "TMPro/zzzz__TMP_InputValidator_def.hpp"
 //  Writing Method size for method: ::TMPro::TMP_InputValidator.Validate

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/GroupedEnumerable_3.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Linq/zzzz__GroupedEnumerable_3_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"

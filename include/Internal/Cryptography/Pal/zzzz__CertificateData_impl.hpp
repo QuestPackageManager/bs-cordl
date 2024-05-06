@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Internal/Cryptography/Pal/CertificateData.hpp"
 #include "Internal/Cryptography/Pal/zzzz__CertificateData_impl.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_impl.hpp"
 #include "System/zzzz__DateTime_impl.hpp"

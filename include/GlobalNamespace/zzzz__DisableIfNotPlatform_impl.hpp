@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/DisableIfNotPlatform.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__DisableIfNotPlatform_def.hpp"
 #include "UnityEngine/zzzz__RuntimePlatform_def.hpp"

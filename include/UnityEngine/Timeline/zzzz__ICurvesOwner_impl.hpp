@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Timeline/ICurvesOwner.hpp"
 #include "UnityEngine/Timeline/zzzz__ICurvesOwner_def.hpp"
 #include "UnityEngine/Timeline/zzzz__TrackAsset_def.hpp"
 #include "UnityEngine/zzzz__AnimationClip_def.hpp"

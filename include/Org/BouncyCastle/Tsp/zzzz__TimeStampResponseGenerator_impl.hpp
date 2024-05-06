@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Tsp/TimeStampResponseGenerator.hpp"
 #include "Org/BouncyCastle/Asn1/Cmp/zzzz__PkiStatus_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerBitString_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"

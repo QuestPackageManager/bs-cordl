@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/DivideByZeroException.hpp"
 #include "System/zzzz__ArithmeticException_impl.hpp"
 #include "System/zzzz__DivideByZeroException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"

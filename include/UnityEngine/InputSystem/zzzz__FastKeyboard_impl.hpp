@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/FastKeyboard.hpp"
 #include "UnityEngine/InputSystem/zzzz__Keyboard_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__FastKeyboard_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__AnyKeyControl_def.hpp"

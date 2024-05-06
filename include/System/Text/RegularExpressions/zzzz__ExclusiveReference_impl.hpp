@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Text/RegularExpressions/ExclusiveReference.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Text/RegularExpressions/zzzz__ExclusiveReference_def.hpp"
 #include "System/Text/RegularExpressions/zzzz__RegexRunner_def.hpp"

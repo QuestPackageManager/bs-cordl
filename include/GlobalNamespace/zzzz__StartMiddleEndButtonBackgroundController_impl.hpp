@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/StartMiddleEndButtonBackgroundController.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__StartMiddleEndButtonBackgroundController_def.hpp"
 #include "HMUI/zzzz__ImageView_def.hpp"

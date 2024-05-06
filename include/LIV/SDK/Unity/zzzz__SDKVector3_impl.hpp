@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LIV/SDK/Unity/SDKVector3.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKVector3_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::LIV::SDK::Unity::SDKVector3.get_zero

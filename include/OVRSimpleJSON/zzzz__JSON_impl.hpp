@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVRSimpleJSON/JSON.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "OVRSimpleJSON/zzzz__JSON_def.hpp"
 #include "OVRSimpleJSON/zzzz__JSONNode_def.hpp"

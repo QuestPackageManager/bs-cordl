@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/AndroidJavaRunnable.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/zzzz__AndroidJavaRunnable_def.hpp"
 #include "System/zzzz__Object_def.hpp"

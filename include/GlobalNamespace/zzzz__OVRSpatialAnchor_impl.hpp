@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OVRSpatialAnchor.hpp"
 #include "GlobalNamespace/zzzz__OVRSpace_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRSpatialAnchor_impl.hpp"
 #include "System/zzzz__Guid_impl.hpp"

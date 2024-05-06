@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatSaber/BeatAvatarSDK/SkinColorSetSO.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "BeatSaber/BeatAvatarSDK/zzzz__SkinColorSetSO_def.hpp"
 #include "BeatSaber/BeatAvatarSDK/zzzz__SkinColorSO_def.hpp"

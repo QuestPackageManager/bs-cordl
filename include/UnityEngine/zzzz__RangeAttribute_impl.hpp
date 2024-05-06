@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/RangeAttribute.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "UnityEngine/zzzz__RangeAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::RangeAttribute._ctor

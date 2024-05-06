@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ParticleSystemMeshDistribution.hpp"
 #include "UnityEngine/zzzz__ParticleSystemMeshDistribution_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::ParticleSystemMeshDistribution::ParticleSystemMeshDistribution(int32_t value__) noexcept {

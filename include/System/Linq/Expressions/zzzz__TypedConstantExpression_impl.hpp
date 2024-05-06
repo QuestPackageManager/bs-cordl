@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/TypedConstantExpression.hpp"
 #include "System/Linq/Expressions/zzzz__ConstantExpression_impl.hpp"
 #include "System/Linq/Expressions/zzzz__TypedConstantExpression_def.hpp"
 #include "System/zzzz__Object_def.hpp"

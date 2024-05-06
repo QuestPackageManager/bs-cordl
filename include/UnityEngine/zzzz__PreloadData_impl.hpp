@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/PreloadData.hpp"
 #include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__PreloadData_def.hpp"
 //  Writing Method size for method: ::UnityEngine::PreloadData.PreloadDataDontStripMe

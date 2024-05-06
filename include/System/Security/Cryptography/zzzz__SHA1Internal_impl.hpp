@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Cryptography/SHA1Internal.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Security/Cryptography/zzzz__SHA1Internal_def.hpp"
 //  Writing Method size for method: ::System::Security::Cryptography::SHA1Internal._ctor

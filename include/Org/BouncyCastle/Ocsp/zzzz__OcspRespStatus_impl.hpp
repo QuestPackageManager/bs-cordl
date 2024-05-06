@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Ocsp/OcspRespStatus.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Ocsp/zzzz__OcspRespStatus_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Ocsp::OcspRespStatus._ctor

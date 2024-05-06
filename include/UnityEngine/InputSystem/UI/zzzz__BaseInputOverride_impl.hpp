@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/UI/BaseInputOverride.hpp"
 #include "UnityEngine/EventSystems/zzzz__BaseInput_impl.hpp"
 #include "UnityEngine/InputSystem/UI/zzzz__BaseInputOverride_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::UI::BaseInputOverride.get_compositionString

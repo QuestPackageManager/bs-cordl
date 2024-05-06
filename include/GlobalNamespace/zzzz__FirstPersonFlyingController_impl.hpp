@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/FirstPersonFlyingController.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__StereoTargetEyeMask_impl.hpp"
 #include "GlobalNamespace/zzzz__FirstPersonFlyingController_def.hpp"

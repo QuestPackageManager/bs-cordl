@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/UQueryState_1.hpp"
 #include "UnityEngine/UIElements/zzzz__UQuery_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UQueryState_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"

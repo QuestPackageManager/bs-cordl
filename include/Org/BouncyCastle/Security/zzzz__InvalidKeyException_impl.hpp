@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Security/InvalidKeyException.hpp"
 #include "Org/BouncyCastle/Security/zzzz__KeyException_impl.hpp"
 #include "Org/BouncyCastle/Security/zzzz__InvalidKeyException_def.hpp"
 #include "System/zzzz__Exception_def.hpp"

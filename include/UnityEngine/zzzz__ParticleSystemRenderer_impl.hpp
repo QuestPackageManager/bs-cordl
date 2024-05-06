@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ParticleSystemRenderer.hpp"
 #include "UnityEngine/zzzz__Renderer_impl.hpp"
 #include "UnityEngine/zzzz__ParticleSystemRenderer_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"

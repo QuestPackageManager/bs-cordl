@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/IPAddress_ReadOnlyIPAddress.hpp"
 #include "System/Net/zzzz__IPAddress_impl.hpp"
 #include "System/Net/zzzz__IPAddress_ReadOnlyIPAddress_def.hpp"
 //  Writing Method size for method: ::System::Net::__IPAddress__ReadOnlyIPAddress._ctor

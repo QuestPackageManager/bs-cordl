@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/Range.hpp"
 #include "System/Data/zzzz__Range_def.hpp"
 //  Writing Method size for method: ::System::Data::Range._ctor
 template <>

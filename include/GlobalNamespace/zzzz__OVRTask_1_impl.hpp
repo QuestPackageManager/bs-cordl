@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OVRTask_1.hpp"
 #include "GlobalNamespace/zzzz__OVRTask_1_impl.hpp"
 #include "System/zzzz__Guid_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/ProfileBlock.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__ProfileBlock_def.hpp"
 #include "System/Text/RegularExpressions/zzzz__Regex_def.hpp"

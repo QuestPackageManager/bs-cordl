@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/TextCore/Text/ColorGradientMode.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__ColorGradientMode_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::TextCore::Text::ColorGradientMode::ColorGradientMode(int32_t value__) noexcept {

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/TMP_LineInfo.hpp"
 #include "TMPro/zzzz__Extents_impl.hpp"
 #include "TMPro/zzzz__HorizontalAlignmentOptions_impl.hpp"
 #include "TMPro/zzzz__TMP_LineInfo_def.hpp"

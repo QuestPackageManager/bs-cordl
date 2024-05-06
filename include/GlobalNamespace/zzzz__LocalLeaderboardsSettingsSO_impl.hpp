@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/LocalLeaderboardsSettingsSO.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__LocalLeaderboardsSettingsSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::LocalLeaderboardsSettingsSO.get_maxNumberOfScoresInLeaderboard

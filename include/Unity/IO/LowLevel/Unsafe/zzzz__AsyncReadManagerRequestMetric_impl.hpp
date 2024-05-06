@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/IO/LowLevel/Unsafe/AsyncReadManagerRequestMetric.hpp"
 #include "Unity/IO/LowLevel/Unsafe/zzzz__AssetLoadingSubsystem_impl.hpp"
 #include "Unity/IO/LowLevel/Unsafe/zzzz__FileReadType_impl.hpp"
 #include "Unity/IO/LowLevel/Unsafe/zzzz__Priority_impl.hpp"

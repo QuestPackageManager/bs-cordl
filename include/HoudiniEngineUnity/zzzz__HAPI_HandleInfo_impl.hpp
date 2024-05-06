@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HAPI_HandleInfo.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_HandleInfo_def.hpp"
 // Ctor Parameters [CppParam { name: "nameSH", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "typeNameSH", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
 // name: "bindingsCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }]

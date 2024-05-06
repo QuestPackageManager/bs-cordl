@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/IKeyboardEvent.hpp"
 #include "UnityEngine/UIElements/zzzz__IKeyboardEvent_def.hpp"
 #include "UnityEngine/zzzz__EventModifiers_def.hpp"
 #include "UnityEngine/zzzz__KeyCode_def.hpp"

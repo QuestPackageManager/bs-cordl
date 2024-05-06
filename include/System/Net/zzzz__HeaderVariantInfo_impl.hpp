@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/HeaderVariantInfo.hpp"
 #include "System/Net/zzzz__CookieVariant_impl.hpp"
 #include "System/Net/zzzz__HeaderVariantInfo_def.hpp"
 #include "System/Net/zzzz__CookieVariant_def.hpp"

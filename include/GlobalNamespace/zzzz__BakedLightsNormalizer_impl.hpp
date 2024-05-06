@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BakedLightsNormalizer.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BakedLightsNormalizer_def.hpp"
 #include "GlobalNamespace/zzzz__LightConstants_def.hpp"

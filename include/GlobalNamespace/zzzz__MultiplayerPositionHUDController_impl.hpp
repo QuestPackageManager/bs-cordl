@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MultiplayerPositionHUDController.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerPositionHUDController_def.hpp"
 #include "GlobalNamespace/zzzz__CoreGameHUDController_def.hpp"

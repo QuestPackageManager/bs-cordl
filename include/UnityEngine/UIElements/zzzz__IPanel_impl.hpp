@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/IPanel.hpp"
 #include "UnityEngine/UIElements/zzzz__IPanel_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ContextType_def.hpp"

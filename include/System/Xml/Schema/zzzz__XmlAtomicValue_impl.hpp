@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/XmlAtomicValue.hpp"
 #include "System/Xml/Schema/zzzz__XmlAtomicValue_impl.hpp"
 #include "System/Xml/XPath/zzzz__XPathItem_impl.hpp"
 #include "System/zzzz__DateTime_impl.hpp"

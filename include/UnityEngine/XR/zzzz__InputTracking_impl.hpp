@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/XR/InputTracking.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/XR/zzzz__InputTracking_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"

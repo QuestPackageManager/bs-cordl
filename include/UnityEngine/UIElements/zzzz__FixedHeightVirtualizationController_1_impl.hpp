@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/FixedHeightVirtualizationController_1.hpp"
 #include "UnityEngine/UIElements/zzzz__VerticalVirtualizationController_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__FixedHeightVirtualizationController_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseVerticalCollectionView_def.hpp"

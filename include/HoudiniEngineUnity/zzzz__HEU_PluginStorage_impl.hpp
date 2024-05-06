@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HEU_PluginStorage.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_PluginStorage_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_PluginStorage_def.hpp"

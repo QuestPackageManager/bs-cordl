@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/PersistentScriptableObject.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PersistentScriptableObject.OnEnable

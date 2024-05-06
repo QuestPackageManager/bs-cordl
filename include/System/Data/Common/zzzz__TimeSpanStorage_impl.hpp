@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/Common/TimeSpanStorage.hpp"
 #include "System/Data/Common/zzzz__DataStorage_impl.hpp"
 #include "System/zzzz__TimeSpan_impl.hpp"
 #include "System/Data/Common/zzzz__TimeSpanStorage_def.hpp"

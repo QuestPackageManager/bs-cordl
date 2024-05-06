@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/DateTimeToken.hpp"
 #include "System/zzzz__DateTimeParse_impl.hpp"
 #include "System/zzzz__TokenType_impl.hpp"
 #include "System/zzzz__DateTimeToken_def.hpp"

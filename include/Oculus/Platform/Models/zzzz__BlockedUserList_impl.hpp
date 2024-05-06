@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/Models/BlockedUserList.hpp"
 #include "Oculus/Platform/Models/zzzz__DeserializableList_1_impl.hpp"
 #include "Oculus/Platform/Models/zzzz__BlockedUserList_def.hpp"
 #include "Oculus/Platform/Models/zzzz__BlockedUser_def.hpp"

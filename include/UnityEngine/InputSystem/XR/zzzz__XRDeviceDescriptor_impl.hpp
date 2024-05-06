@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/XR/XRDeviceDescriptor.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/XR/zzzz__InputDeviceCharacteristics_impl.hpp"
 #include "UnityEngine/InputSystem/XR/zzzz__XRDeviceDescriptor_def.hpp"

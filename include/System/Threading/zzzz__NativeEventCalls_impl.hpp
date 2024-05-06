@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/NativeEventCalls.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/zzzz__NativeEventCalls_def.hpp"
 #include "Microsoft/Win32/SafeHandles/zzzz__SafeWaitHandle_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/FieldAccessException.hpp"
 #include "System/zzzz__MemberAccessException_impl.hpp"
 #include "System/zzzz__FieldAccessException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Cache/RequestCacheLevel.hpp"
 #include "System/Net/Cache/zzzz__RequestCacheLevel_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Net::Cache::RequestCacheLevel::RequestCacheLevel(int32_t value__) noexcept {

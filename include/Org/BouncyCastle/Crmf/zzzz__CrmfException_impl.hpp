@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crmf/CrmfException.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "Org/BouncyCastle/Crmf/zzzz__CrmfException_def.hpp"
 #include "System/zzzz__Exception_def.hpp"

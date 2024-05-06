@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/Extents.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "TMPro/zzzz__Extents_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"

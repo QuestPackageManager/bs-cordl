@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/TerrainUtils/TerrainTileCoord.hpp"
 #include "UnityEngine/TerrainUtils/zzzz__TerrainTileCoord_def.hpp"
 //  Writing Method size for method: ::UnityEngine::TerrainUtils::TerrainTileCoord._ctor
 template <>

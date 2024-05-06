@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Util/MonoPInvokeCallbackAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "Mono/Util/zzzz__MonoPInvokeCallbackAttribute_def.hpp"
 #include "System/zzzz__Type_def.hpp"

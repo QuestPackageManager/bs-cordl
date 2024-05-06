@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Playables/PlayState.hpp"
 #include "UnityEngine/Playables/zzzz__PlayState_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Playables::PlayState::PlayState(int32_t value__) noexcept {

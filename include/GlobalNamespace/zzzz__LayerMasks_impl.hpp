@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/LayerMasks.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__LayerMask_impl.hpp"
 #include "GlobalNamespace/zzzz__LayerMasks_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Diagnostics/ProcessWaitHandle.hpp"
 #include "System/Threading/zzzz__WaitHandle_impl.hpp"
 #include "System/Diagnostics/zzzz__ProcessWaitHandle_def.hpp"
 #include "Microsoft/Win32/SafeHandles/zzzz__SafeProcessHandle_def.hpp"

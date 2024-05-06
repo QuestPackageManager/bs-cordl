@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/Tasks/AsyncCausalityTracer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/Tasks/zzzz__AsyncCausalityTracer_def.hpp"
 #include "System/Threading/Tasks/zzzz__AsyncCausalityStatus_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/CVRSettingHelper.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "OVR/OpenVR/zzzz__CVRSettingHelper_def.hpp"
 // Ctor Parameters [CppParam { name: "m_pSettings", ty: "void*", modifiers: "", def_value: Some("{}") }]

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/HumanTrait.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__HumanTrait_def.hpp"
 //  Writing Method size for method: ::UnityEngine::HumanTrait.GetBoneIndexFromMono

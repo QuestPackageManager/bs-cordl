@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Android/LowLevel/AndroidDeviceCapabilities.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/Android/LowLevel/zzzz__AndroidInputSource_impl.hpp"
 #include "UnityEngine/InputSystem/Android/LowLevel/zzzz__AndroidDeviceCapabilities_def.hpp"

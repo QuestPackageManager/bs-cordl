@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "VRUIControls/PhysicsRaycasterWithCache.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Ray_impl.hpp"
 #include "UnityEngine/zzzz__RaycastHit_impl.hpp"

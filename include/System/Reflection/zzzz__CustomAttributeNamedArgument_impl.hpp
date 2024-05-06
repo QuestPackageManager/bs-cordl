@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Reflection/CustomAttributeNamedArgument.hpp"
 #include "System/Reflection/zzzz__CustomAttributeTypedArgument_impl.hpp"
 #include "System/Reflection/zzzz__CustomAttributeNamedArgument_def.hpp"
 #include "System/Reflection/zzzz__CustomAttributeTypedArgument_def.hpp"

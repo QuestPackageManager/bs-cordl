@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/StructMultiKey_2.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__StructMultiKey_2_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"

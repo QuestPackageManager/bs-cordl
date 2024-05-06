@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/Mathematics/double3x3.hpp"
 #include "Unity/Mathematics/zzzz__double3_impl.hpp"
 #include "Unity/Mathematics/zzzz__double3x3_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/DrivenRectTransformTracker.hpp"
 #include "UnityEngine/zzzz__DrivenRectTransformTracker_def.hpp"
 #include "UnityEngine/zzzz__DrivenTransformProperties_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"

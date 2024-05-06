@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/RequireComponent.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/zzzz__RequireComponent_def.hpp"
 #include "System/zzzz__Type_def.hpp"

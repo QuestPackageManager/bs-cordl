@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/LoadingControl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__LoadingControl_def.hpp"
 #include "HMUI/zzzz__ButtonBinder_def.hpp"

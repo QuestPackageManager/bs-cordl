@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatSaber/RecPlay/PoseNoise.hpp"
 #include "BeatSaber/RecPlay/zzzz__PoseNoise_def.hpp"
 #include "UnityEngine/zzzz__Pose_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/SubsystemsImplementation/SubsystemWithProvider.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/SubsystemsImplementation/zzzz__SubsystemWithProvider_def.hpp"
 #include "UnityEngine/SubsystemsImplementation/zzzz__SubsystemProvider_def.hpp"

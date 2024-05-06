@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/TimeValue.hpp"
 #include "UnityEngine/UIElements/zzzz__TimeUnit_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TimeValue_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"

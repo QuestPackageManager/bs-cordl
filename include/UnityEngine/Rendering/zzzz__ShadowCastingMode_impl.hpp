@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Rendering/ShadowCastingMode.hpp"
 #include "UnityEngine/Rendering/zzzz__ShadowCastingMode_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Rendering::ShadowCastingMode::ShadowCastingMode(int32_t value__) noexcept {

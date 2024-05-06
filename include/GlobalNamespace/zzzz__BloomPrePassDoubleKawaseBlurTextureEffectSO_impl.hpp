@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BloomPrePassDoubleKawaseBlurTextureEffectSO.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassEffectSO_impl.hpp"
 #include "GlobalNamespace/zzzz__KawaseBlurRendererSO_impl.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassDoubleKawaseBlurTextureEffectSO_def.hpp"

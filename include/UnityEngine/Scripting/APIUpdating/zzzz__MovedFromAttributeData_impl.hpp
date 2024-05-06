@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Scripting/APIUpdating/MovedFromAttributeData.hpp"
 #include "UnityEngine/Scripting/APIUpdating/zzzz__MovedFromAttributeData_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Scripting::APIUpdating::MovedFromAttributeData.Set
 template <>

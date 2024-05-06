@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SliderController.hpp"
 #include "GlobalNamespace/zzzz__SliderControllerBase_impl.hpp"
 #include "GlobalNamespace/zzzz__SliderController_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"

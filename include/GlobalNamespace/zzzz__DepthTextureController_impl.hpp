@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/DepthTextureController.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__DepthTextureController_def.hpp"
 #include "BeatSaber/GameSettings/zzzz__GraphicSettingsHandler_def.hpp"

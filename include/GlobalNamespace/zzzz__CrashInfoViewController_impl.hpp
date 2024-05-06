@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/CrashInfoViewController.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__CrashInfoViewController_def.hpp"
 #include "GlobalNamespace/zzzz__CrashManagerSO_def.hpp"

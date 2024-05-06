@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/SessionMode.hpp"
 #include "HoudiniEngineUnity/zzzz__SessionMode_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::HoudiniEngineUnity::SessionMode::SessionMode(int32_t value__) noexcept {

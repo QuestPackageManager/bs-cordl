@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/NavigationController.hpp"
 #include "HMUI/zzzz__ContainerViewController_impl.hpp"
 #include "HMUI/zzzz__NavigationController_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/ServerCertValidationCallback.hpp"
 #include "System/Net/Security/zzzz__SslPolicyErrors_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__ServerCertValidationCallback_def.hpp"

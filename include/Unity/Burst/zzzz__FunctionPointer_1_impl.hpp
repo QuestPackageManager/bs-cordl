@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/Burst/FunctionPointer_1.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "Unity/Burst/zzzz__FunctionPointer_1_def.hpp"
 #include "Unity/Burst/zzzz__IFunctionPointer_def.hpp"

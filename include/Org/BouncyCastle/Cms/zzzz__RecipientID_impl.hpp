@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Cms/RecipientID.hpp"
 #include "Org/BouncyCastle/X509/Store/zzzz__X509CertStoreSelector_impl.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__RecipientID_def.hpp"
 #include "System/zzzz__Object_def.hpp"

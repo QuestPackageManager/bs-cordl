@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Cryptography/RSA.hpp"
 #include "System/Security/Cryptography/zzzz__AsymmetricAlgorithm_impl.hpp"
 #include "System/Security/Cryptography/zzzz__RSA_def.hpp"
 #include "System/Security/Cryptography/zzzz__RSAParameters_def.hpp"

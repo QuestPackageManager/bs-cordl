@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/CanvasGroupTransitionSO.hpp"
 #include "GlobalNamespace/zzzz__BaseTransitionSO_impl.hpp"
 #include "GlobalNamespace/zzzz__CanvasGroupTransitionSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::CanvasGroupTransitionSO.get_normalAlpha

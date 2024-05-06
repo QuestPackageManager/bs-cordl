@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Bcpg/RevocationReason.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__SignatureSubpacket_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__RevocationReason_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__RevocationReasonTag_def.hpp"

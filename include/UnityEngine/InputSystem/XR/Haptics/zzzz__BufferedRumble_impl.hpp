@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/XR/Haptics/BufferedRumble.hpp"
 #include "UnityEngine/InputSystem/XR/Haptics/zzzz__HapticCapabilities_impl.hpp"
 #include "UnityEngine/InputSystem/XR/Haptics/zzzz__BufferedRumble_def.hpp"
 #include "UnityEngine/InputSystem/XR/Haptics/zzzz__HapticCapabilities_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/FireEffectShaderHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__FireEffectShaderHelper_def.hpp"
 inline void GlobalNamespace::FireEffectShaderHelper::setStaticF_effectStartSongTimePropertyId(int32_t value) {

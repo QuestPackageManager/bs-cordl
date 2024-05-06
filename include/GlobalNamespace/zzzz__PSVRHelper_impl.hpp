@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/PSVRHelper.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__PSVRHelper_def.hpp"
 #include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"

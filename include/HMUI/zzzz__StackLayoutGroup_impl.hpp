@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/StackLayoutGroup.hpp"
 #include "UnityEngine/UI/zzzz__LayoutGroup_impl.hpp"
 #include "HMUI/zzzz__StackLayoutGroup_def.hpp"
 //  Writing Method size for method: ::HMUI::StackLayoutGroup.get_childForceExpandWidth

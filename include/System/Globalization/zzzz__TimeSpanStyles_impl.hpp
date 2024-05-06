@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Globalization/TimeSpanStyles.hpp"
 #include "System/Globalization/zzzz__TimeSpanStyles_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Globalization::TimeSpanStyles::TimeSpanStyles(int32_t value__) noexcept {

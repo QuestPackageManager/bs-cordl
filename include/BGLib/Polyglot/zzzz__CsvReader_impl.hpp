@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BGLib/Polyglot/CsvReader.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BGLib/Polyglot/zzzz__CsvReader_def.hpp"
 #include "BGLib/Polyglot/zzzz__CsvReader_def.hpp"

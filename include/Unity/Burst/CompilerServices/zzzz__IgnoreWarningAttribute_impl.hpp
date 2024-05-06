@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/Burst/CompilerServices/IgnoreWarningAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "Unity/Burst/CompilerServices/zzzz__IgnoreWarningAttribute_def.hpp"
 //  Writing Method size for method: ::Unity::Burst::CompilerServices::IgnoreWarningAttribute._ctor

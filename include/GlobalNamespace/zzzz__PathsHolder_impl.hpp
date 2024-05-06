@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/PathsHolder.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PathsHolder_def.hpp"
 #include "GlobalNamespace/zzzz__BezierPath_def.hpp"

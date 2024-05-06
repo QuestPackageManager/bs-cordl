@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ColorPickerButtonController.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ColorPickerButtonController_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"

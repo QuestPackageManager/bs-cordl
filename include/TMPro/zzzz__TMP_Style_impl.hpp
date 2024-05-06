@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/TMP_Style.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "TMPro/zzzz__TMP_Style_def.hpp"
 //  Writing Method size for method: ::TMPro::TMP_Style.get_NormalStyle

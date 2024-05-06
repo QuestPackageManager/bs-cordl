@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/BasicNodePool_1.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__LinkedPool_1_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__BasicNodePool_1_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__BasicNode_1_def.hpp"

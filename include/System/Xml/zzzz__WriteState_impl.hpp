@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/WriteState.hpp"
 #include "System/Xml/zzzz__WriteState_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Xml::WriteState::WriteState(int32_t value__) noexcept {

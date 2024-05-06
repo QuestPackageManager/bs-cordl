@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Cms/CmsAttributeTableGenerationException.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsException_impl.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsAttributeTableGenerationException_def.hpp"
 #include "System/zzzz__Exception_def.hpp"

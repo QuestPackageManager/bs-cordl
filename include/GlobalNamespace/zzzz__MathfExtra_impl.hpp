@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MathfExtra.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MathfExtra_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MathfExtra.Mod

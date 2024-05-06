@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/HapticFeedbackManager.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__HapticFeedbackManager_def.hpp"
 #include "GlobalNamespace/zzzz__IHapticFeedbackPlayer_def.hpp"

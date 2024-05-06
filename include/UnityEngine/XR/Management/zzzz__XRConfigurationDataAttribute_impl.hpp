@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/XR/Management/XRConfigurationDataAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/XR/Management/zzzz__XRConfigurationDataAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::XR::Management::XRConfigurationDataAttribute.get_displayName

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/CustomFormatRangeValuesSlider.hpp"
 #include "HMUI/zzzz__RangeValuesTextSlider_impl.hpp"
 #include "HMUI/zzzz__CustomFormatRangeValuesSlider_def.hpp"
 //  Writing Method size for method: ::HMUI::CustomFormatRangeValuesSlider.TextForValue

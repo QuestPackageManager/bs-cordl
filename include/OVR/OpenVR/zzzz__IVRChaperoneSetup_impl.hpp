@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/IVRChaperoneSetup.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "OVR/OpenVR/zzzz__IVRChaperoneSetup_def.hpp"
 #include "OVR/OpenVR/zzzz__EChaperoneConfigFile_def.hpp"

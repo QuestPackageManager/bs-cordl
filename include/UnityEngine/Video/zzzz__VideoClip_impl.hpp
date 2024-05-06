@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Video/VideoClip.hpp"
 #include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/Video/zzzz__VideoClip_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Video::VideoClip._ctor

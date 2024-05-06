@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HEU_MeshData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MeshTopology_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_MeshData_def.hpp"

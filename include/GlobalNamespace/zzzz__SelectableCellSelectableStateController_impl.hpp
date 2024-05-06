@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SelectableCellSelectableStateController.hpp"
 #include "GlobalNamespace/zzzz__SelectableStateController_1_impl.hpp"
 #include "GlobalNamespace/zzzz__SelectableCellSelectableStateController_def.hpp"
 #include "HMUI/zzzz__Interactable_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Http/Headers/MediaTypeWithQualityHeaderValue.hpp"
 #include "System/Net/Http/Headers/zzzz__MediaTypeHeaderValue_impl.hpp"
 #include "System/Net/Http/Headers/zzzz__MediaTypeWithQualityHeaderValue_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"

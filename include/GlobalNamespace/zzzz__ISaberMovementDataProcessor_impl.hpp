@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ISaberMovementDataProcessor.hpp"
 #include "GlobalNamespace/zzzz__ISaberMovementDataProcessor_def.hpp"
 #include "GlobalNamespace/zzzz__BladeMovementDataElement_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ISaberMovementDataProcessor.ProcessNewData

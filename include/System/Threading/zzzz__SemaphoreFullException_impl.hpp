@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/SemaphoreFullException.hpp"
 #include "System/zzzz__SystemException_impl.hpp"
 #include "System/Threading/zzzz__SemaphoreFullException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"

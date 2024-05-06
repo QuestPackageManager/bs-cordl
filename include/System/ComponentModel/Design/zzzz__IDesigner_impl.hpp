@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ComponentModel/Design/IDesigner.hpp"
 #include "System/ComponentModel/Design/zzzz__IDesigner_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 /// @brief Convert operator to "::System::IDisposable"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/CookieTokenizer.hpp"
 #include "System/Net/zzzz__CookieToken_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__CookieTokenizer_def.hpp"

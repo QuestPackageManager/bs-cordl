@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Serialization/SerializationFieldInfo.hpp"
 #include "System/Reflection/zzzz__FieldInfo_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationFieldInfo_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"

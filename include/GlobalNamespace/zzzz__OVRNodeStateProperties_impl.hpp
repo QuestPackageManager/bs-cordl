@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OVRNodeStateProperties.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRNodeStateProperties_def.hpp"
 #include "GlobalNamespace/zzzz__NodeStatePropertyType_def.hpp"

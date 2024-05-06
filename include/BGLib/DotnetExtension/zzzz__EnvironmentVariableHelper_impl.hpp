@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BGLib/DotnetExtension/EnvironmentVariableHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BGLib/DotnetExtension/zzzz__EnvironmentVariableHelper_def.hpp"
 //  Writing Method size for method: ::BGLib::DotnetExtension::EnvironmentVariableHelper.GetDirectoryPath

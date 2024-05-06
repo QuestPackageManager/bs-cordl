@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Cms/ISignerInfoGenerator.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__ISignerInfoGenerator_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__SignerInfo_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"

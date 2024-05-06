@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Variant.hpp"
 #include "System/zzzz__BRECORD_impl.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Variant_def.hpp"

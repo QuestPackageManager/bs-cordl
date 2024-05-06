@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ProBuilder/ActionResult.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__ActionResult_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__ActionResult_def.hpp"

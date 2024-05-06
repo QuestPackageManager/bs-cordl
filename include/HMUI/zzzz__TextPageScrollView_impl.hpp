@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/TextPageScrollView.hpp"
 #include "HMUI/zzzz__ScrollView_impl.hpp"
 #include "HMUI/zzzz__TextPageScrollView_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"

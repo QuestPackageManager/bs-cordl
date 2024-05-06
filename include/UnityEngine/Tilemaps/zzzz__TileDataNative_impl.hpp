@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Tilemaps/TileDataNative.hpp"
 #include "UnityEngine/Tilemaps/zzzz__TileFlags_impl.hpp"
 #include "UnityEngine/Tilemaps/zzzz__Tile_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"

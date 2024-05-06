@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/AuthenticationSchemeSelector.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Net/zzzz__AuthenticationSchemeSelector_def.hpp"
 #include "System/Net/zzzz__AuthenticationSchemes_def.hpp"

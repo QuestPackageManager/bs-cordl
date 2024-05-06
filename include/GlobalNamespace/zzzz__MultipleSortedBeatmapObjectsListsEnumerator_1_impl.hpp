@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MultipleSortedBeatmapObjectsListsEnumerator_1.hpp"
 #include "Priority_Queue/zzzz__StablePriorityQueueNode_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__ValueTuple_2_impl.hpp"

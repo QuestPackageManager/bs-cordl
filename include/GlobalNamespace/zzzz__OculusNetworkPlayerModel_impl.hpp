@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OculusNetworkPlayerModel.hpp"
 #include "GlobalNamespace/zzzz__PlatformNetworkPlayerModel_impl.hpp"
 #include "GlobalNamespace/zzzz__OculusNetworkPlayerModel_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OculusNetworkPlayerModel._ctor

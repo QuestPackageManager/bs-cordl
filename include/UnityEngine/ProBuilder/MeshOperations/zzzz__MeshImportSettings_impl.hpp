@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ProBuilder/MeshOperations/MeshImportSettings.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/MeshOperations/zzzz__MeshImportSettings_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings.get_quads

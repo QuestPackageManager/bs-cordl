@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/ICertificatePolicy.hpp"
 #include "System/Net/zzzz__ICertificatePolicy_def.hpp"
 #include "System/Net/zzzz__ServicePoint_def.hpp"
 #include "System/Net/zzzz__WebRequest_def.hpp"

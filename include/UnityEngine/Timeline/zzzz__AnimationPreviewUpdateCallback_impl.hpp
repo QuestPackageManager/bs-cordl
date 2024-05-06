@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Timeline/AnimationPreviewUpdateCallback.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Animations/zzzz__AnimationPlayableOutput_impl.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableGraph_impl.hpp"

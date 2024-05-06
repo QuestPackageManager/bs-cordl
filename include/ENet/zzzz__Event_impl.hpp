@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "ENet/Event.hpp"
 #include "ENet/zzzz__ENetEvent_impl.hpp"
 #include "ENet/zzzz__Event_def.hpp"
 #include "ENet/zzzz__ENetEvent_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/InputMetrics.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputMetrics_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputMetrics.get_maxNumDevices
 template <>

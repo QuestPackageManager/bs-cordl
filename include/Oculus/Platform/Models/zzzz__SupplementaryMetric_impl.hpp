@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/Models/SupplementaryMetric.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/Models/zzzz__SupplementaryMetric_def.hpp"
 //  Writing Method size for method: ::Oculus::Platform::Models::SupplementaryMetric._ctor

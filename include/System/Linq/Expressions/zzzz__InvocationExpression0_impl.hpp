@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/InvocationExpression0.hpp"
 #include "System/Linq/Expressions/zzzz__InvocationExpression_impl.hpp"
 #include "System/Linq/Expressions/zzzz__InvocationExpression0_def.hpp"
 #include "System/Linq/Expressions/zzzz__Expression_def.hpp"

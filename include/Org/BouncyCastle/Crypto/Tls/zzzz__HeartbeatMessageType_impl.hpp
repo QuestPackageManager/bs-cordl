@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/HeartbeatMessageType.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__HeartbeatMessageType_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Tls::HeartbeatMessageType.IsValid

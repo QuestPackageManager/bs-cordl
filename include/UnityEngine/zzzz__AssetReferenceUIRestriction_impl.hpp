@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/AssetReferenceUIRestriction.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/zzzz__AssetReferenceUIRestriction_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"

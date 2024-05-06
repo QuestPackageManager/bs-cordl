@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/FixedUpdateVector3SmoothValue.hpp"
 #include "GlobalNamespace/zzzz__FixedUpdateSmoothValue_1_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__FixedUpdateVector3SmoothValue_def.hpp"

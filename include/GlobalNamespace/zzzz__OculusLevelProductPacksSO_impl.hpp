@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OculusLevelProductPacksSO.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__OculusLevelProductPacksSO_def.hpp"
 #include "GlobalNamespace/zzzz__ILevelPackProductDataContainer_2_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/Mathematics/quaternion.hpp"
 #include "Unity/Mathematics/zzzz__float4_impl.hpp"
 #include "Unity/Mathematics/zzzz__quaternion_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"

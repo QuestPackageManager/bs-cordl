@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Http/MonoWebRequestHandler.hpp"
 #include "System/Net/Security/zzzz__AuthenticationLevel_impl.hpp"
 #include "System/Net/zzzz__DecompressionMethods_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"

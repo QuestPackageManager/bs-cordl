@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/WebResponseStream.hpp"
 #include "System/Net/zzzz__HttpStatusCode_impl.hpp"
 #include "System/Net/zzzz__ReadState_impl.hpp"
 #include "System/Net/zzzz__WebConnectionStream_impl.hpp"

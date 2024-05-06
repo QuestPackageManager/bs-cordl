@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Cryptography/RNGCryptoServiceProvider.hpp"
 #include "System/Security/Cryptography/zzzz__RandomNumberGenerator_impl.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/Security/Cryptography/zzzz__RNGCryptoServiceProvider_def.hpp"

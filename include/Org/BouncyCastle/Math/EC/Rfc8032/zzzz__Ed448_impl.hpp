@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Math/EC/Rfc8032/Ed448.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Math/EC/Rfc8032/zzzz__Ed448_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IXof_def.hpp"

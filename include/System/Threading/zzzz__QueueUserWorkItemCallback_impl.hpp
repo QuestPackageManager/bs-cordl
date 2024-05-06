@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/QueueUserWorkItemCallback.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/zzzz__QueueUserWorkItemCallback_def.hpp"
 #include "System/Threading/zzzz__ContextCallback_def.hpp"

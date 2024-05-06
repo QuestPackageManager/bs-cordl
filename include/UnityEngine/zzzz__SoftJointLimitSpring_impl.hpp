@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/SoftJointLimitSpring.hpp"
 #include "UnityEngine/zzzz__SoftJointLimitSpring_def.hpp"
 //  Writing Method size for method: ::UnityEngine::SoftJointLimitSpring.get_spring
 template <>

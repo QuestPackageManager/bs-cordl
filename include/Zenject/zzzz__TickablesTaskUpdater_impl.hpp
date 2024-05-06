@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/TickablesTaskUpdater.hpp"
 #include "Zenject/zzzz__TaskUpdater_1_impl.hpp"
 #include "Zenject/zzzz__TickablesTaskUpdater_def.hpp"
 #include "System/zzzz__Object_def.hpp"

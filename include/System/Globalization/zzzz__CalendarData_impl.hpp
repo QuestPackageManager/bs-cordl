@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Globalization/CalendarData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Globalization/zzzz__CalendarData_def.hpp"
 //  Writing Method size for method: ::System::Globalization::CalendarData._ctor

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "MS/Internal/Xml/XPath/AstNode.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "MS/Internal/Xml/XPath/zzzz__AstNode_def.hpp"
 #include "MS/Internal/Xml/XPath/zzzz__AstNode_def.hpp"

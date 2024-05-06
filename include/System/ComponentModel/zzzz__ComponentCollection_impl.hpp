@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ComponentModel/ComponentCollection.hpp"
 #include "System/Collections/zzzz__ReadOnlyCollectionBase_impl.hpp"
 #include "System/ComponentModel/zzzz__ComponentCollection_def.hpp"
 #include "System/ComponentModel/zzzz__IComponent_def.hpp"

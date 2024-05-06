@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Microsoft/Win32/SafeHandles/SafeHandleZeroOrMinusOneIsInvalid.hpp"
 #include "System/Runtime/InteropServices/zzzz__SafeHandle_impl.hpp"
 #include "Microsoft/Win32/SafeHandles/zzzz__SafeHandleZeroOrMinusOneIsInvalid_def.hpp"
 //  Writing Method size for method: ::Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid._ctor

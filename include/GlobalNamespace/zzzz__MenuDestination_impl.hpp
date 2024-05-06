@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MenuDestination.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MenuDestination_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MenuDestination._ctor

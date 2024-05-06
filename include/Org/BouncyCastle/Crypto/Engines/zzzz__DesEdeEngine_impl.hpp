@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Engines/DesEdeEngine.hpp"
 #include "Org/BouncyCastle/Crypto/Engines/zzzz__DesEngine_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Engines/zzzz__DesEdeEngine_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"

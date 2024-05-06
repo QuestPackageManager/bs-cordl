@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/VertexGradient.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "TMPro/zzzz__VertexGradient_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"

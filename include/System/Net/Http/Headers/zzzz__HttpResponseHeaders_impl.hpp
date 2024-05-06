@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Http/Headers/HttpResponseHeaders.hpp"
 #include "System/Net/Http/Headers/zzzz__HttpHeaders_impl.hpp"
 #include "System/Net/Http/Headers/zzzz__HttpResponseHeaders_def.hpp"
 //  Writing Method size for method: ::System::Net::Http::Headers::HttpResponseHeaders._ctor

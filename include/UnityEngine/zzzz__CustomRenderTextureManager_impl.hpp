@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/CustomRenderTextureManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__CustomRenderTextureManager_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"

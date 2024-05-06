@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/Burst/Unsafe.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Burst/zzzz__Unsafe_def.hpp"
 #include "System/zzzz__Object_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ComponentModel/ListChangedType.hpp"
 #include "System/ComponentModel/zzzz__ListChangedType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::ComponentModel::ListChangedType::ListChangedType(int32_t value__) noexcept {

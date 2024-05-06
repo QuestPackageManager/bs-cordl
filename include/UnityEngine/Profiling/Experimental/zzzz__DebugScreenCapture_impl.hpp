@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Profiling/Experimental/DebugScreenCapture.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "UnityEngine/zzzz__TextureFormat_impl.hpp"
 #include "UnityEngine/Profiling/Experimental/zzzz__DebugScreenCapture_def.hpp"

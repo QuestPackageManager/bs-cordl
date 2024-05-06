@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Security/X509/X509StoreManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Security/X509/zzzz__X509StoreManager_def.hpp"
 #include "Mono/Security/X509/zzzz__X509CertificateCollection_def.hpp"

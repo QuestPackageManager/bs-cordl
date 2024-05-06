@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Timeline/HashUtility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__HashUtility_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Timeline::HashUtility.CombineHash

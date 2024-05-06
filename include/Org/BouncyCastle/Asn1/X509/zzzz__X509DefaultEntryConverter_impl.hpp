@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/X509DefaultEntryConverter.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__X509NameEntryConverter_impl.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__X509DefaultEntryConverter_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"

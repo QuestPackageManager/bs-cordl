@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ObjectiveListItemsList.hpp"
 #include "HMUI/zzzz__UIItemsList_1_impl.hpp"
 #include "GlobalNamespace/zzzz__ObjectiveListItemsList_def.hpp"
 #include "GlobalNamespace/zzzz__ObjectiveListItem_def.hpp"

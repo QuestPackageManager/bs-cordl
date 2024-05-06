@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Net/Security/AsyncReadRequest.hpp"
 #include "Mono/Net/Security/zzzz__AsyncReadOrWriteRequest_impl.hpp"
 #include "Mono/Net/Security/zzzz__AsyncReadRequest_def.hpp"
 #include "Mono/Net/Security/zzzz__AsyncOperationStatus_def.hpp"

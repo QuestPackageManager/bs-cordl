@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MainSettingsMenuViewControllersInstaller.hpp"
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__MainSettingsMenuViewControllersInstaller_def.hpp"
 #include "GlobalNamespace/zzzz__MainSettingsMenuViewController_def.hpp"

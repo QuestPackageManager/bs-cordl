@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/RuntimeImports.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/zzzz__RuntimeImports_def.hpp"
 //  Writing Method size for method: ::System::Runtime::RuntimeImports.RhZeroMemory

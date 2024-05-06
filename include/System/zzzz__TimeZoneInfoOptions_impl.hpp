@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/TimeZoneInfoOptions.hpp"
 #include "System/zzzz__TimeZoneInfoOptions_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::TimeZoneInfoOptions::TimeZoneInfoOptions(int32_t value__) noexcept {

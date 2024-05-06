@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/DuplicateMirrorForReflectionProbe.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__DuplicateMirrorForReflectionProbe_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::DuplicateMirrorForReflectionProbe._ctor

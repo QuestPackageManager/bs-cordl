@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/DataCommonEventSource.hpp"
 #include "System/Diagnostics/Tracing/zzzz__EventSource_impl.hpp"
 #include "System/Data/zzzz__DataCommonEventSource_def.hpp"
 //  Writing Method size for method: ::System::Data::DataCommonEventSource.Trace

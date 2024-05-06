@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Timeline/FrameRateFieldAttribute.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__FrameRateFieldAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Timeline::FrameRateFieldAttribute._ctor

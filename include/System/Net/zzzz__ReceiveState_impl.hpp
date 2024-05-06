@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/ReceiveState.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__ReceiveState_def.hpp"
 #include "System/Net/zzzz__CommandStream_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/LowerResBlitTexture.hpp"
 #include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__LowerResBlitTexture_def.hpp"
 //  Writing Method size for method: ::UnityEngine::LowerResBlitTexture.LowerResBlitTextureDontStripMe

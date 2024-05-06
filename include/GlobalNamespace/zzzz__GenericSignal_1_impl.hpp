@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/GenericSignal_1.hpp"
 #include "GlobalNamespace/zzzz__Signal_impl.hpp"
 #include "GlobalNamespace/zzzz__GenericSignal_1_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"

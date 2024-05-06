@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/PlaybackRecord.hpp"
 #include "BeatSaber/RecPlay/zzzz__PoseNoise_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__PlaybackRecord_def.hpp"

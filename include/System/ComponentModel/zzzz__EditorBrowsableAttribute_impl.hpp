@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ComponentModel/EditorBrowsableAttribute.hpp"
 #include "System/ComponentModel/zzzz__EditorBrowsableState_impl.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/ComponentModel/zzzz__EditorBrowsableAttribute_def.hpp"

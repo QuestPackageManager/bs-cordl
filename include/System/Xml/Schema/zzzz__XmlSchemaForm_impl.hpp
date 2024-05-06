@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaForm.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaForm_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Xml::Schema::XmlSchemaForm::XmlSchemaForm(int32_t value__) noexcept {

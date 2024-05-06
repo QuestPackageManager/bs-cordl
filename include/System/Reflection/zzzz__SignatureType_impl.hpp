@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Reflection/SignatureType.hpp"
 #include "System/zzzz__Type_impl.hpp"
 #include "System/Reflection/zzzz__SignatureType_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/Datatype_fixed.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_decimal_impl.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_fixed_def.hpp"
 #include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"

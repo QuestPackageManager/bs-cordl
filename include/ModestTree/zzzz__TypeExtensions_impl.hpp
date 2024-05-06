@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "ModestTree/TypeExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "ModestTree/zzzz__TypeExtensions_def.hpp"
 #include "ModestTree/zzzz__TypeExtensions_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InspectorNameAttribute.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "UnityEngine/zzzz__InspectorNameAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InspectorNameAttribute._ctor

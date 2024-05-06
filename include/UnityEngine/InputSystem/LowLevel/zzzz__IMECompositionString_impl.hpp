@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/IMECompositionString.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__IMECompositionString_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__IMECompositionString_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"

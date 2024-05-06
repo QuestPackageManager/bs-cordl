@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatmapDataLoaderVersion4/ArcItemConverter.hpp"
 #include "GlobalNamespace/zzzz__BeatToTimeConverterProvider_impl.hpp"
 #include "BeatmapDataLoaderVersion4/zzzz__ArcItemConverter_def.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__ArcBeatIndex_def.hpp"

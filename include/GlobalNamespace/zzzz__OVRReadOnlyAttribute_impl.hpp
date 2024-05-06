@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OVRReadOnlyAttribute.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRReadOnlyAttribute_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OVRReadOnlyAttribute._ctor

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/XR/GoogleVr/DaydreamHMD.hpp"
 #include "UnityEngine/InputSystem/XR/zzzz__XRHMD_impl.hpp"
 #include "Unity/XR/GoogleVr/zzzz__DaydreamHMD_def.hpp"
 //  Writing Method size for method: ::Unity::XR::GoogleVr::DaydreamHMD._ctor

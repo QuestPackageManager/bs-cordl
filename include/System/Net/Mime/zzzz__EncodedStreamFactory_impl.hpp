@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Mime/EncodedStreamFactory.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Mime/zzzz__EncodedStreamFactory_def.hpp"
 //  Writing Method size for method: ::System::Net::Mime::EncodedStreamFactory._ctor

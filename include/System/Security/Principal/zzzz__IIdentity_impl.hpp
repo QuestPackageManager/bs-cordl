@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Principal/IIdentity.hpp"
 #include "System/Security/Principal/zzzz__IIdentity_def.hpp"
 //  Writing Method size for method: ::System::Security::Principal::IIdentity.get_Name
 template <>

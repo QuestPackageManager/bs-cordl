@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HAPI_Viewport.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_Viewport_def.hpp"
 //  Writing Method size for method: ::HoudiniEngineUnity::HAPI_Viewport._ctor
 template <>

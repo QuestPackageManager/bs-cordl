@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "MS/Internal/Xml/Cache/XPathNodeHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "MS/Internal/Xml/Cache/zzzz__XPathNodeHelper_def.hpp"
 #include "MS/Internal/Xml/Cache/zzzz__XPathNode_def.hpp"

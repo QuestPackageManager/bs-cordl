@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/SqlTypes/SqlTypeException.hpp"
 #include "System/zzzz__SystemException_impl.hpp"
 #include "System/Data/SqlTypes/zzzz__SqlTypeException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"

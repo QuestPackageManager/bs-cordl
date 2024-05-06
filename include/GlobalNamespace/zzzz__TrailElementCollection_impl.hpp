@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/TrailElementCollection.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__TrailElementCollection_def.hpp"
 #include "GlobalNamespace/zzzz__TrailElementCollection_def.hpp"

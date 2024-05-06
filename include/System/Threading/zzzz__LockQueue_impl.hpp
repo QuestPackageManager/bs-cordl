@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/LockQueue.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/zzzz__LockQueue_def.hpp"
 #include "System/Threading/zzzz__ReaderWriterLock_def.hpp"

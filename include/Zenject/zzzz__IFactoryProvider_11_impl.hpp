@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/IFactoryProvider_11.hpp"
 #include "Zenject/zzzz__IFactoryProviderBase_1_impl.hpp"
 #include "Zenject/zzzz__IFactoryProvider_11_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Converters/DataTableConverter.hpp"
 #include "Newtonsoft/Json/zzzz__JsonConverter_impl.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__DataTableConverter_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"

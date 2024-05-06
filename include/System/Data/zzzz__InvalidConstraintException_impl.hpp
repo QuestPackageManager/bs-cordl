@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/InvalidConstraintException.hpp"
 #include "System/Data/zzzz__DataException_impl.hpp"
 #include "System/Data/zzzz__InvalidConstraintException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"

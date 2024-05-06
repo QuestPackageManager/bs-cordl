@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/SetPropertyUtility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "HMUI/zzzz__SetPropertyUtility_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"

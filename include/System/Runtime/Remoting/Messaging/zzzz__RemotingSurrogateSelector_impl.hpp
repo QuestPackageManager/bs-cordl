@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/Messaging/RemotingSurrogateSelector.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__RemotingSurrogateSelector_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__ObjRefSurrogate_def.hpp"

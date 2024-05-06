@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaSimpleTypeContent.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaAnnotated_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaSimpleTypeContent_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::XmlSchemaSimpleTypeContent._ctor

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/ImageView.hpp"
 #include "HMUI/zzzz__ImageView_impl.hpp"
 #include "UnityEngine/UI/zzzz__Image_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"

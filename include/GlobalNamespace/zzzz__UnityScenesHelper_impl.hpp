@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/UnityScenesHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__UnityScenesHelper_def.hpp"
 #include "UnityEngine/SceneManagement/zzzz__Scene_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Timeline/InfiniteRuntimeClip.hpp"
 #include "UnityEngine/Playables/zzzz__Playable_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__RuntimeElement_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__InfiniteRuntimeClip_def.hpp"

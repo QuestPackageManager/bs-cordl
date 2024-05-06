@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/SubsystemBindings.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__SubsystemBindings_def.hpp"
 //  Writing Method size for method: ::UnityEngine::SubsystemBindings.DestroySubsystem

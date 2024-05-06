@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/IValueChanger_1.hpp"
 #include "HMUI/zzzz__IValueChanger_1_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 template <typename T> inline void HMUI::IValueChanger_1<T>::add_valueChangedEvent(::System::Action_1<T>* value) {

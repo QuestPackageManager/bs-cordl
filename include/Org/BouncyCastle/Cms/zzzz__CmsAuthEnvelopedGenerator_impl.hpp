@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Cms/CmsAuthEnvelopedGenerator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsAuthEnvelopedGenerator_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Cms::CmsAuthEnvelopedGenerator._ctor

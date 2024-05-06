@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/NetworkStatisticsDelta.hpp"
 #include "GlobalNamespace/zzzz__NetworkStatisticsDelta_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::NetworkStatisticsDelta._ctor
 template <>

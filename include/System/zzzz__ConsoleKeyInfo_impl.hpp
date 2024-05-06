@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ConsoleKeyInfo.hpp"
 #include "System/zzzz__ConsoleKey_impl.hpp"
 #include "System/zzzz__ConsoleModifiers_impl.hpp"
 #include "System/zzzz__ConsoleKeyInfo_def.hpp"

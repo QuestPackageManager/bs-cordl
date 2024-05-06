@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/XmlDocumentType.hpp"
 #include "System/Xml/zzzz__XmlLinkedNode_impl.hpp"
 #include "System/Xml/zzzz__XmlDocumentType_def.hpp"
 #include "System/Xml/Schema/zzzz__SchemaInfo_def.hpp"

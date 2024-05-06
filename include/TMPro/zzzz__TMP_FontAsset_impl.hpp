@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/TMP_FontAsset.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "TMPro/zzzz__AtlasPopulationMode_impl.hpp"
 #include "TMPro/zzzz__FontAssetCreationSettings_impl.hpp"

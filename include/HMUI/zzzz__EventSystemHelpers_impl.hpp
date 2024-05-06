@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/EventSystemHelpers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "HMUI/zzzz__EventSystemHelpers_def.hpp"
 //  Writing Method size for method: ::HMUI::EventSystemHelpers.IsInputFieldSelected

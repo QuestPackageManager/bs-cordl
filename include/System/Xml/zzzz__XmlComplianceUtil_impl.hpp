@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/XmlComplianceUtil.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__XmlComplianceUtil_def.hpp"
 //  Writing Method size for method: ::System::Xml::XmlComplianceUtil.NonCDataNormalize

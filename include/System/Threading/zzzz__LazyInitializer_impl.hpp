@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/LazyInitializer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/zzzz__LazyInitializer_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"

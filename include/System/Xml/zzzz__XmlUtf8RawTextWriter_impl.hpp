@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/XmlUtf8RawTextWriter.hpp"
 #include "System/Xml/zzzz__NewLineHandling_impl.hpp"
 #include "System/Xml/zzzz__XmlCharType_impl.hpp"
 #include "System/Xml/zzzz__XmlOutputMethod_impl.hpp"

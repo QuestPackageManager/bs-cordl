@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MultiplayerLobbyCenterStageManager.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLobbyCenterStageManager_def.hpp"
 #include "GlobalNamespace/zzzz__CenterStageScreenController_def.hpp"

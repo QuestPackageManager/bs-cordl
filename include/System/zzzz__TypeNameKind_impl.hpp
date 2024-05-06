@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/TypeNameKind.hpp"
 #include "System/zzzz__TypeNameKind_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::TypeNameKind::TypeNameKind(int32_t value__) noexcept {

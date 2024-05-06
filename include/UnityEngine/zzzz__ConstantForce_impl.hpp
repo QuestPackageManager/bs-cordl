@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ConstantForce.hpp"
 #include "UnityEngine/zzzz__Behaviour_impl.hpp"
 #include "UnityEngine/zzzz__ConstantForce_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"

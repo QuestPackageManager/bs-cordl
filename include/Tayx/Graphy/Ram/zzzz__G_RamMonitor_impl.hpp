@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Tayx/Graphy/Ram/G_RamMonitor.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Tayx/Graphy/Ram/zzzz__G_RamMonitor_def.hpp"
 //  Writing Method size for method: ::Tayx::Graphy::Ram::G_RamMonitor.get_AllocatedRam

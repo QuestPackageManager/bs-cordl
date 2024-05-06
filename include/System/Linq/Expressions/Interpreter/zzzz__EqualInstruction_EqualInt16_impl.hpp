@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/EqualInstruction_EqualInt16.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__EqualInstruction_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__EqualInstruction_EqualInt16_def.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__InterpretedFrame_def.hpp"

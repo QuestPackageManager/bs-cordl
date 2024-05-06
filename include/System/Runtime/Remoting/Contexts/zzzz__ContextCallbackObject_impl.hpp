@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/Contexts/ContextCallbackObject.hpp"
 #include "System/zzzz__ContextBoundObject_impl.hpp"
 #include "System/Runtime/Remoting/Contexts/zzzz__ContextCallbackObject_def.hpp"
 #include "System/Runtime/Remoting/Contexts/zzzz__CrossContextDelegate_def.hpp"

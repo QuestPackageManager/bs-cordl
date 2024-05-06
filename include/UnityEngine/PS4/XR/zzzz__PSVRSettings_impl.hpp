@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/PS4/XR/PSVRSettings.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "UnityEngine/PS4/XR/zzzz__PSVRSettings_def.hpp"
 //  Writing Method size for method: ::UnityEngine::PS4::XR::PSVRSettings._ctor

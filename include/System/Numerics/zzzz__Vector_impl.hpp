@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Numerics/Vector.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Numerics/zzzz__Vector_def.hpp"
 #include "System/Numerics/zzzz__Vector_1_def.hpp"

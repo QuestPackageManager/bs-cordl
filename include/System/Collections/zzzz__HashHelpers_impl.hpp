@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Collections/HashHelpers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/zzzz__HashHelpers_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConditionalWeakTable_2_def.hpp"

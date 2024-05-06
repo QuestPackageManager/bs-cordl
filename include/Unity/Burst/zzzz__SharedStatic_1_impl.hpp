@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/Burst/SharedStatic_1.hpp"
 #include "Unity/Burst/zzzz__SharedStatic_1_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 template <typename T> inline void Unity::Burst::SharedStatic_1<T>::_ctor(::cordl_internals::Ptr<void> buffer) {

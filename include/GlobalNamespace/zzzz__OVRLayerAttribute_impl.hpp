@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OVRLayerAttribute.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRLayerAttribute_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OVRLayerAttribute._ctor

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/XR/HashCodeHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/XR/zzzz__HashCodeHelper_def.hpp"
 //  Writing Method size for method: ::UnityEngine::XR::HashCodeHelper.Combine

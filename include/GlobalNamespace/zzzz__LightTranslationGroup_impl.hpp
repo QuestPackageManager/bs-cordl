@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/LightTranslationGroup.hpp"
 #include "GlobalNamespace/zzzz__LightTransformGroup_3_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "GlobalNamespace/zzzz__LightTranslationGroup_def.hpp"

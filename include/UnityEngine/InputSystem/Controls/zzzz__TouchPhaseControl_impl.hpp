@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Controls/TouchPhaseControl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_1_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__TouchPhase_impl.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__TouchPhaseControl_def.hpp"

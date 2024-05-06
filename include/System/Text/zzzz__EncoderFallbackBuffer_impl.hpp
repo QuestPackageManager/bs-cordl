@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Text/EncoderFallbackBuffer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Text/zzzz__EncoderFallbackBuffer_def.hpp"
 #include "System/Text/zzzz__EncoderNLS_def.hpp"

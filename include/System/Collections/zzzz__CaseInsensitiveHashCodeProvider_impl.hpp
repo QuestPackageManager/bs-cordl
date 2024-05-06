@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Collections/CaseInsensitiveHashCodeProvider.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/zzzz__CaseInsensitiveHashCodeProvider_def.hpp"
 #include "System/Collections/zzzz__IHashCodeProvider_def.hpp"

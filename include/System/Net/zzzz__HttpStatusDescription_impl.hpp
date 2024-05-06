@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/HttpStatusDescription.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__HttpStatusDescription_def.hpp"
 #include "System/Net/zzzz__HttpStatusCode_def.hpp"

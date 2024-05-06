@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Gen2GcCallback.hpp"
 #include "System/Runtime/ConstrainedExecution/zzzz__CriticalFinalizerObject_impl.hpp"
 #include "System/Runtime/InteropServices/zzzz__GCHandle_impl.hpp"
 #include "System/zzzz__Gen2GcCallback_def.hpp"

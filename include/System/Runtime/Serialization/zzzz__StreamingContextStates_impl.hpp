@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Serialization/StreamingContextStates.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContextStates_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Runtime::Serialization::StreamingContextStates::StreamingContextStates(int32_t value__) noexcept {

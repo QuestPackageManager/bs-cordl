@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Networking/PlayerConnection/MessageEventArgs.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Networking/PlayerConnection/zzzz__MessageEventArgs_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Networking::PlayerConnection::MessageEventArgs._ctor

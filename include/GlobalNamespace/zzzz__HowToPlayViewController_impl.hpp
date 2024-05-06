@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/HowToPlayViewController.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__HowToPlayViewController_def.hpp"
 #include "GlobalNamespace/zzzz__HowToPlayViewController_def.hpp"

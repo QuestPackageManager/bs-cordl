@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Microsoft/Win32/Win32Native.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Microsoft/Win32/zzzz__Win32Native_def.hpp"
 //  Writing Method size for method: ::Microsoft::Win32::Win32Native.GetMessage

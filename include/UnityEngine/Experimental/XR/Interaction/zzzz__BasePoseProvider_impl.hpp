@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Experimental/XR/Interaction/BasePoseProvider.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/Experimental/XR/Interaction/zzzz__BasePoseProvider_def.hpp"
 #include "UnityEngine/SpatialTracking/zzzz__PoseDataFlags_def.hpp"

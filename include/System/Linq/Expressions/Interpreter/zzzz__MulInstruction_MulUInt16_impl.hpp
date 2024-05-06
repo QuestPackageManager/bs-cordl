@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/MulInstruction_MulUInt16.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__MulInstruction_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__MulInstruction_MulUInt16_def.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__InterpretedFrame_def.hpp"

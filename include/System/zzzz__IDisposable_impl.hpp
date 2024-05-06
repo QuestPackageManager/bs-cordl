@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/IDisposable.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: ::System::IDisposable.Dispose
 template <>

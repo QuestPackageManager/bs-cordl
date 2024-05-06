@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Diagnostics/DebuggableAttribute.hpp"
 #include "System/Diagnostics/zzzz__DebuggableAttribute_impl.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Diagnostics/zzzz__DebuggableAttribute_def.hpp"

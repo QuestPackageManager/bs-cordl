@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HAPI_BoxInfo.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_BoxInfo_def.hpp"
 //  Writing Method size for method: ::HoudiniEngineUnity::HAPI_BoxInfo._ctor
 template <>

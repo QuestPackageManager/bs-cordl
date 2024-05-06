@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/SharedStatics.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__SharedStatics_def.hpp"
 #include "System/Security/Util/zzzz__Tokenizer_def.hpp"

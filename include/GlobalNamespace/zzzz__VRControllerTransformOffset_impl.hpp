@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/VRControllerTransformOffset.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__VRControllerTransformOffset_def.hpp"
 #include "UnityEngine/zzzz__Pose_def.hpp"

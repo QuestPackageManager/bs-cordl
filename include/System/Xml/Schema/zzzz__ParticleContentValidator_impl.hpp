@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/ParticleContentValidator.hpp"
 #include "System/Xml/Schema/zzzz__ContentValidator_impl.hpp"
 #include "System/Xml/Schema/zzzz__ParticleContentValidator_def.hpp"
 #include "System/Collections/zzzz__Stack_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/IEventPreProcessor.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__IEventPreProcessor_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::IEventPreProcessor.PreProcessEvent

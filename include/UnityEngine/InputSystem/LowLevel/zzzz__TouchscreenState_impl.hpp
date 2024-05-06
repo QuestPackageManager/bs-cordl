@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/TouchscreenState.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__TouchscreenState_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__TouchscreenState_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__IInputStateTypeInfo_def.hpp"

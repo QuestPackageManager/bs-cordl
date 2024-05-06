@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Configuration/ConfigurationElement.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Configuration/zzzz__ConfigurationElement_def.hpp"
 #include "System/Configuration/zzzz__ConfigurationPropertyCollection_def.hpp"

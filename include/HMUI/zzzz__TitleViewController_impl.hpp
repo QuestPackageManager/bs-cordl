@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/TitleViewController.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "HMUI/zzzz__TitleViewController_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"

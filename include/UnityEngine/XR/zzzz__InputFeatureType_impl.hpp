@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/XR/InputFeatureType.hpp"
 #include "UnityEngine/XR/zzzz__InputFeatureType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::XR::InputFeatureType::InputFeatureType(uint32_t value__) noexcept {

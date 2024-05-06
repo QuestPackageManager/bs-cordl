@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SyncBackgroundCommand.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__SyncBackgroundCommand_def.hpp"
 #include "GlobalNamespace/zzzz__IBackgroundCommand_def.hpp"

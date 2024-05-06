@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/__Il2CppComDelegate.hpp"
 #include "System/zzzz____Il2CppComObject_impl.hpp"
 #include "System/zzzz____Il2CppComDelegate_def.hpp"
 //  Writing Method size for method: ::System::__Il2CppComDelegate.Finalize

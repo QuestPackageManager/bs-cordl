@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatSaber/BeatAvatarSDK/IAvatarPart.hpp"
 #include "BeatSaber/BeatAvatarSDK/zzzz__IAvatarPart_def.hpp"
 //  Writing Method size for method: ::BeatSaber::BeatAvatarSDK::IAvatarPart.get_id
 template <>

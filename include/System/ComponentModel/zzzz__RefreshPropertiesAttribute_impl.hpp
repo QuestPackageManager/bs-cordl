@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ComponentModel/RefreshPropertiesAttribute.hpp"
 #include "System/ComponentModel/zzzz__RefreshProperties_impl.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/ComponentModel/zzzz__RefreshPropertiesAttribute_def.hpp"

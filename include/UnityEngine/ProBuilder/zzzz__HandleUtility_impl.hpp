@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ProBuilder/HandleUtility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__HandleUtility_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"

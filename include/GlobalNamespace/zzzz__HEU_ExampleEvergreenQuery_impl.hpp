@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/HEU_ExampleEvergreenQuery.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__HEU_ExampleEvergreenQuery_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_AttributeInfo_def.hpp"

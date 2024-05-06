@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Authentication/ExtendedProtection/ExtendedProtectionPolicyTypeConverter.hpp"
 #include "System/ComponentModel/zzzz__TypeConverter_impl.hpp"
 #include "System/Security/Authentication/ExtendedProtection/zzzz__ExtendedProtectionPolicyTypeConverter_def.hpp"
 #include "System/ComponentModel/zzzz__ITypeDescriptorContext_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/PhysicsSceneExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__PhysicsSceneExtensions_def.hpp"
 #include "UnityEngine/SceneManagement/zzzz__Scene_def.hpp"

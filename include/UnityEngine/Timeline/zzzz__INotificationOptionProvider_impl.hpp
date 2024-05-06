@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Timeline/INotificationOptionProvider.hpp"
 #include "UnityEngine/Timeline/zzzz__INotificationOptionProvider_def.hpp"
 #include "UnityEngine/Timeline/zzzz__NotificationFlags_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Timeline::INotificationOptionProvider.get_flags

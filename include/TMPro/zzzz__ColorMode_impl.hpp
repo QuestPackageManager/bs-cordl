@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/ColorMode.hpp"
 #include "TMPro/zzzz__ColorMode_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::TMPro::ColorMode::ColorMode(int32_t value__) noexcept {

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaTotalDigitsFacet.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaNumericFacet_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaTotalDigitsFacet_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::XmlSchemaTotalDigitsFacet._ctor

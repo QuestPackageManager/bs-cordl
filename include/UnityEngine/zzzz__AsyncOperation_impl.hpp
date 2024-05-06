@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/AsyncOperation.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "UnityEngine/zzzz__YieldInstruction_impl.hpp"
 #include "UnityEngine/zzzz__AsyncOperation_def.hpp"

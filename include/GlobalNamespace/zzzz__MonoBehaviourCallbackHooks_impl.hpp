@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MonoBehaviourCallbackHooks.hpp"
 #include "UnityEngine/ResourceManagement/Util/zzzz__ComponentSingleton_1_impl.hpp"
 #include "GlobalNamespace/zzzz__MonoBehaviourCallbackHooks_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"

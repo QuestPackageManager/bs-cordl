@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/AssetReferenceUILabelRestriction.hpp"
 #include "UnityEngine/zzzz__AssetReferenceUIRestriction_impl.hpp"
 #include "UnityEngine/zzzz__AssetReferenceUILabelRestriction_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"

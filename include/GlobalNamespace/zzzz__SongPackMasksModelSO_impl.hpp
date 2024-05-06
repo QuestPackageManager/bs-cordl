@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SongPackMasksModelSO.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__SongPackMasksModelSO_def.hpp"
 #include "GlobalNamespace/zzzz__SongPackMasksModelItem_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/AppInitSetupInstaller.hpp"
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__AppInitSetupInstaller_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::AppInitSetupInstaller.InstallBindings

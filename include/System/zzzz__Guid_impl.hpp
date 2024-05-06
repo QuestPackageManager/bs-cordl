@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Guid.hpp"
 #include "System/zzzz__Guid_impl.hpp"
 #include "System/zzzz__Guid_def.hpp"
 #include "System/zzzz__Exception_def.hpp"

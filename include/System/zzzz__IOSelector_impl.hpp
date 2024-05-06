@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/IOSelector.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__IOSelector_def.hpp"
 #include "System/zzzz__IOSelectorJob_def.hpp"

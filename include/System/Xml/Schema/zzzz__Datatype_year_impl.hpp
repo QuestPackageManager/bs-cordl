@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/Datatype_year.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_dateTimeBase_impl.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_year_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlTypeCode_def.hpp"

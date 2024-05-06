@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IFlyingObjectEffectDidFinishEvent.hpp"
 #include "GlobalNamespace/zzzz__IFlyingObjectEffectDidFinishEvent_def.hpp"
 #include "GlobalNamespace/zzzz__FlyingObjectEffect_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IFlyingObjectEffectDidFinishEvent.HandleFlyingObjectEffectDidFinish

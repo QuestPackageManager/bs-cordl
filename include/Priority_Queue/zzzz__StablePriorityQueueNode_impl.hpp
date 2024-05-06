@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Priority_Queue/StablePriorityQueueNode.hpp"
 #include "Priority_Queue/zzzz__FastPriorityQueueNode_impl.hpp"
 #include "Priority_Queue/zzzz__StablePriorityQueueNode_def.hpp"
 //  Writing Method size for method: ::Priority_Queue::StablePriorityQueueNode.get_InsertionIndex

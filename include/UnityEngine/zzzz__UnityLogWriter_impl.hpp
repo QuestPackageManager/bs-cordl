@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UnityLogWriter.hpp"
 #include "System/IO/zzzz__TextWriter_impl.hpp"
 #include "UnityEngine/zzzz__UnityLogWriter_def.hpp"
 #include "System/Text/zzzz__Encoding_def.hpp"

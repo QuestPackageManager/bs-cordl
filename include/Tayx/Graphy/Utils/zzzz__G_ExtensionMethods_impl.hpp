@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Tayx/Graphy/Utils/G_ExtensionMethods.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Tayx/Graphy/Utils/zzzz__G_ExtensionMethods_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"

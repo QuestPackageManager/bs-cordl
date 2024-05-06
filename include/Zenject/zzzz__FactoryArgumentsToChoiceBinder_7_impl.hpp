@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/FactoryArgumentsToChoiceBinder_7.hpp"
 #include "Zenject/zzzz__FactoryToChoiceBinder_7_impl.hpp"
 #include "Zenject/zzzz__FactoryArgumentsToChoiceBinder_7_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"

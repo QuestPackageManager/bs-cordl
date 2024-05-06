@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HAPI_SphereInfo.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_SphereInfo_def.hpp"
 //  Writing Method size for method: ::HoudiniEngineUnity::HAPI_SphereInfo._ctor
 template <>

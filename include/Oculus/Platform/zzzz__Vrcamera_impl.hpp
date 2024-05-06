@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/Vrcamera.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/zzzz__Vrcamera_def.hpp"
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"

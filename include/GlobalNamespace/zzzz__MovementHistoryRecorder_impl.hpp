@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MovementHistoryRecorder.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MovementHistoryRecorder_def.hpp"
 #include "GlobalNamespace/zzzz__AveragingValueRecorder_def.hpp"

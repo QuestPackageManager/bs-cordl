@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Serialization/UnreferencedObjectEventArgs.hpp"
 #include "System/zzzz__EventArgs_impl.hpp"
 #include "System/Xml/Serialization/zzzz__UnreferencedObjectEventArgs_def.hpp"
 #include "System/zzzz__Object_def.hpp"

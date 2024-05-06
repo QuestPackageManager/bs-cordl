@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Object.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::System::Object.Equals

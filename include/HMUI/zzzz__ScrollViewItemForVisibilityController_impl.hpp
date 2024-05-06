@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/ScrollViewItemForVisibilityController.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__ScrollViewItemForVisibilityController_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"

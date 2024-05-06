@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatSaber/Init/BSPlatform.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/Init/zzzz__BSPlatform_def.hpp"
 //  Writing Method size for method: ::BeatSaber::Init::BSPlatform.get_IsSteamPlatform

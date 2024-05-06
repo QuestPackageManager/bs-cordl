@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/AlertLevel.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__AlertLevel_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Tls::AlertLevel.GetName

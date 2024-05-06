@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/ToChoices.hpp"
 #include "Zenject/zzzz__ToChoices_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::Zenject::ToChoices::ToChoices(int32_t value__) noexcept {

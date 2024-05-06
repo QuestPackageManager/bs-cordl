@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ResourceManagement/Util/PlatformUtilities.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ResourceManagement/Util/zzzz__PlatformUtilities_def.hpp"
 #include "UnityEngine/zzzz__RuntimePlatform_def.hpp"

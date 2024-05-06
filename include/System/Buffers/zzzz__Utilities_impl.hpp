@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Buffers/Utilities.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Buffers/zzzz__Utilities_def.hpp"
 //  Writing Method size for method: ::System::Buffers::Utilities.SelectBucketIndex

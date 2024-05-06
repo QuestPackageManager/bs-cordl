@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BeatmapEditorSceneSetupData.hpp"
 #include "GlobalNamespace/zzzz__SceneSetupData_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEditorSceneSetupData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BeatmapEditorSceneSetupData.get_levelDirPath

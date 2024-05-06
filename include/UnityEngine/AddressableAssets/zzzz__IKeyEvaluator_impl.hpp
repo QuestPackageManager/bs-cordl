@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/AddressableAssets/IKeyEvaluator.hpp"
 #include "UnityEngine/AddressableAssets/zzzz__IKeyEvaluator_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::UnityEngine::AddressableAssets::IKeyEvaluator.get_RuntimeKey

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/NetworkInformation/UnicastIPAddressInformation.hpp"
 #include "System/Net/NetworkInformation/zzzz__IPAddressInformation_impl.hpp"
 #include "System/Net/NetworkInformation/zzzz__UnicastIPAddressInformation_def.hpp"
 //  Writing Method size for method: ::System::Net::NetworkInformation::UnicastIPAddressInformation._ctor

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/Noise3DTexturesGenerator.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__Noise3DTexturesGenerator_def.hpp"
 #include "GlobalNamespace/zzzz__Noise3DTexturesGenerator_def.hpp"

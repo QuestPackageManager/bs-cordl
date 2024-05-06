@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/PointerEventsHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerEventsHelper_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IPointerEvent_def.hpp"

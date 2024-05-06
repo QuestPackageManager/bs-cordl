@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Linq/ElementWriter.hpp"
 #include "System/Xml/Linq/zzzz__NamespaceResolver_impl.hpp"
 #include "System/Xml/Linq/zzzz__ElementWriter_def.hpp"
 #include "System/Xml/Linq/zzzz__NamespaceResolver_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/Contexts/CrossContextChannel.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Remoting/Contexts/zzzz__CrossContextChannel_def.hpp"
 #include "System/Runtime/Remoting/Contexts/zzzz__Context_def.hpp"

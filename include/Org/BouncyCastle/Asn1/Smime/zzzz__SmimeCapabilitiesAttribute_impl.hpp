@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Smime/SmimeCapabilitiesAttribute.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AttributeX509_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Smime/zzzz__SmimeCapabilitiesAttribute_def.hpp"
 #include "Org/BouncyCastle/Asn1/Smime/zzzz__SmimeCapabilityVector_def.hpp"

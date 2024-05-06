@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Ocsp/BasicOcspRespGenerator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Ocsp/zzzz__BasicOcspRespGenerator_def.hpp"
 #include "Org/BouncyCastle/Asn1/Ocsp/zzzz__CertStatus_def.hpp"

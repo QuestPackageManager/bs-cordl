@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "JetBrains/Annotations/AspChildControlTypeAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "JetBrains/Annotations/zzzz__AspChildControlTypeAttribute_def.hpp"
 #include "System/zzzz__Type_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/Models/LivestreamingStatus.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/Models/zzzz__LivestreamingStatus_def.hpp"
 //  Writing Method size for method: ::Oculus::Platform::Models::LivestreamingStatus._ctor

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BGLib/SaveDataCore/SaveDataFlushingService.hpp"
 #include "BGLib/SaveDataCore/zzzz__SaveDataResult_impl.hpp"
 #include "System/Collections/Generic/zzzz__List_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"

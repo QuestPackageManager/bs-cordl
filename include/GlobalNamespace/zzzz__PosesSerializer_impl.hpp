@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/PosesSerializer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PosesSerializer_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatSaberLogger_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LiteNetLib/NetPacket.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "LiteNetLib/zzzz__NetPacket_def.hpp"
 #include "LiteNetLib/zzzz__PacketProperty_def.hpp"

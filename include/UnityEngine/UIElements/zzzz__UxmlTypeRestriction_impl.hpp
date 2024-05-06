@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/UxmlTypeRestriction.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlTypeRestriction_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Bcpg/ExperimentalPacket.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__ContainedPacket_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__PacketTag_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__ExperimentalPacket_def.hpp"

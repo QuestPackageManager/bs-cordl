@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/XR/Oculus/Boundary.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/XR/Oculus/zzzz__Boundary_def.hpp"
 #include "Unity/XR/Oculus/zzzz__Boundary_def.hpp"

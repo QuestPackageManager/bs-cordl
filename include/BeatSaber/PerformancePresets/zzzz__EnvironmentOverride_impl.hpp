@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatSaber/PerformancePresets/EnvironmentOverride.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/PerformancePresets/zzzz__EnvironmentOverride_def.hpp"
 #include "BeatSaber/PerformancePresets/zzzz__PresetOverride_def.hpp"

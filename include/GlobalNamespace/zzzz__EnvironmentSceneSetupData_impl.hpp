@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/EnvironmentSceneSetupData.hpp"
 #include "GlobalNamespace/zzzz__SceneSetupData_impl.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentSceneSetupData_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevel_def.hpp"

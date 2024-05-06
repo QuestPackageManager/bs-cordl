@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/Internal/ReflectionInfoTypeInfoConverter.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/Internal/zzzz__ReflectionInfoTypeInfoConverter_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"

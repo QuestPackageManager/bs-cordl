@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/AudioReferenceCountingCache.hpp"
 #include "GlobalNamespace/zzzz__ReferenceCountingCache_2_impl.hpp"
 #include "GlobalNamespace/zzzz__AudioReferenceCountingCache_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"

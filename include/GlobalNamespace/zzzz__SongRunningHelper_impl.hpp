@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SongRunningHelper.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficulty_impl.hpp"
 #include "GlobalNamespace/zzzz__RecordingToolManager_impl.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"

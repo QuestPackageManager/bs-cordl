@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Ocsp/RevokedStatus.hpp"
 #include "Org/BouncyCastle/Ocsp/zzzz__CertificateStatus_impl.hpp"
 #include "Org/BouncyCastle/Ocsp/zzzz__RevokedStatus_def.hpp"
 #include "Org/BouncyCastle/Asn1/Ocsp/zzzz__RevokedInfo_def.hpp"

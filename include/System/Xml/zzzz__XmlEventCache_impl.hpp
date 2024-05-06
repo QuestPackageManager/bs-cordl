@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/XmlEventCache.hpp"
 #include "System/Xml/Xsl/Runtime/zzzz__StringConcat_impl.hpp"
 #include "System/Xml/zzzz__XmlEventCache_impl.hpp"
 #include "System/Xml/zzzz__XmlRawWriter_impl.hpp"

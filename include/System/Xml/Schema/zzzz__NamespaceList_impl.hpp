@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/NamespaceList.hpp"
 #include "System/Xml/Schema/zzzz__NamespaceList_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Schema/zzzz__NamespaceList_def.hpp"

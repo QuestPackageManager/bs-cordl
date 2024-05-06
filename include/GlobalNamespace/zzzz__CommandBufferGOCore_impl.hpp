@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/CommandBufferGOCore.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__CommandBufferGOCore_def.hpp"
 #include "GlobalNamespace/zzzz__CommandBufferOwners_def.hpp"

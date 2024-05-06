@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/NetworkUtility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__NetworkUtility_def.hpp"
 #include "GlobalNamespace/zzzz__AuthenticationToken_def.hpp"

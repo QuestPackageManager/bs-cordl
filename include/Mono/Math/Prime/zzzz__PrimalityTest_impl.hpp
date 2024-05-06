@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Math/Prime/PrimalityTest.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "Mono/Math/Prime/zzzz__PrimalityTest_def.hpp"
 #include "Mono/Math/Prime/zzzz__ConfidenceFactor_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/RequestStream.hpp"
 #include "System/IO/zzzz__Stream_impl.hpp"
 #include "System/Net/zzzz__RequestStream_def.hpp"
 #include "System/IO/zzzz__SeekOrigin_def.hpp"

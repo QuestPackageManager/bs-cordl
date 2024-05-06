@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/PerformanceConfigurationChecks.hpp"
 #include "BGLib/Polyglot/zzzz__Language_impl.hpp"
 #include "BeatSaber/GameSettings/zzzz__WindowMode_impl.hpp"
 #include "BeatSaber/PerformancePresets/zzzz__BloomPrepassTextureEffectPreset_impl.hpp"

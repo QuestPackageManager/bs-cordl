@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/Ray2DExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__Ray2DExtensions_def.hpp"
 #include "UnityEngine/zzzz__Ray2D_def.hpp"

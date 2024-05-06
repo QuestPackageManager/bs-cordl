@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/KnownHttpVerb.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__KnownHttpVerb_def.hpp"
 #include "System/Collections/Specialized/zzzz__ListDictionary_def.hpp"

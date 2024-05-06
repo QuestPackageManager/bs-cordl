@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/CompilerServices/IsByRefLikeAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IsByRefLikeAttribute_def.hpp"
 //  Writing Method size for method: ::System::Runtime::CompilerServices::IsByRefLikeAttribute._ctor

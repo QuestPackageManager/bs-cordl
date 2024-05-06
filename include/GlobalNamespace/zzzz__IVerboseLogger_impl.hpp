@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IVerboseLogger.hpp"
 #include "GlobalNamespace/zzzz__IVerboseLogger_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IVerboseLogger.get_loggerPrefix
 template <>

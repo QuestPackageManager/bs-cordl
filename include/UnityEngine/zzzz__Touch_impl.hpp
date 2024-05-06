@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Touch.hpp"
 #include "UnityEngine/zzzz__TouchPhase_impl.hpp"
 #include "UnityEngine/zzzz__TouchType_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"

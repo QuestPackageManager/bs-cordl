@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/AvatarColorTrack.hpp"
 #include "UnityEngine/Timeline/zzzz__TrackAsset_impl.hpp"
 #include "GlobalNamespace/zzzz__AvatarColorTrack_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::AvatarColorTrack._ctor

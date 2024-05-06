@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/IEntropySourceProvider.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IEntropySourceProvider_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IEntropySource_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::IEntropySourceProvider.Get

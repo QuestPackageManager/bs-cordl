@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/SystemCertificateProvider.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/zzzz__SystemCertificateProvider_def.hpp"
 #include "Microsoft/Win32/SafeHandles/zzzz__SafePasswordHandle_def.hpp"

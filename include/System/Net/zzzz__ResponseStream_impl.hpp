@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/ResponseStream.hpp"
 #include "System/IO/zzzz__Stream_impl.hpp"
 #include "System/Net/zzzz__ResponseStream_def.hpp"
 #include "System/IO/zzzz__MemoryStream_def.hpp"

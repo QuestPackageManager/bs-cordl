@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/TraceJsonWriter.hpp"
 #include "Newtonsoft/Json/zzzz__JsonWriter_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__TraceJsonWriter_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonTextWriter_def.hpp"

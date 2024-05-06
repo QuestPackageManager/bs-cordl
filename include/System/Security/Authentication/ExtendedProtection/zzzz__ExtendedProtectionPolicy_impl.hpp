@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Authentication/ExtendedProtection/ExtendedProtectionPolicy.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Security/Authentication/ExtendedProtection/zzzz__ExtendedProtectionPolicy_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"

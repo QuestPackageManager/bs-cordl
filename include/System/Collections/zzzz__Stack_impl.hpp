@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Collections/Stack.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/zzzz__Stack_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/QuantizedMathf.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__QuantizedMathf_def.hpp"
 #include "UnityEngine/zzzz__Pose_def.hpp"

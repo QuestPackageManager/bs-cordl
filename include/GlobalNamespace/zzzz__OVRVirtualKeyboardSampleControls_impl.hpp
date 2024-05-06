@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OVRVirtualKeyboardSampleControls.hpp"
 #include "GlobalNamespace/zzzz__OVRVirtualKeyboardSampleControls_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"

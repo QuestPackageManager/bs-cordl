@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/NetEventSource.hpp"
 #include "System/Diagnostics/Tracing/zzzz__EventKeywords_impl.hpp"
 #include "System/Diagnostics/Tracing/zzzz__EventSource_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"

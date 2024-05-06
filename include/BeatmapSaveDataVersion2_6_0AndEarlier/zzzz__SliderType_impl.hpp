@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatmapSaveDataVersion2_6_0AndEarlier/SliderType.hpp"
 #include "BeatmapSaveDataVersion2_6_0AndEarlier/zzzz__SliderType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::BeatmapSaveDataVersion2_6_0AndEarlier::SliderType::SliderType(int32_t value__) noexcept {

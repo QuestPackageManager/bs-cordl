@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/SqlTypes/EComparison.hpp"
 #include "System/Data/SqlTypes/zzzz__EComparison_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Data::SqlTypes::EComparison::EComparison(int32_t value__) noexcept {

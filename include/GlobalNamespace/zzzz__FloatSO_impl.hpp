@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/FloatSO.hpp"
 #include "GlobalNamespace/zzzz__ObservableVariableSO_1_impl.hpp"
 #include "GlobalNamespace/zzzz__FloatSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::FloatSO._ctor

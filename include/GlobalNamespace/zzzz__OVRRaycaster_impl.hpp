@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OVRRaycaster.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UI/zzzz__GraphicRaycaster_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"

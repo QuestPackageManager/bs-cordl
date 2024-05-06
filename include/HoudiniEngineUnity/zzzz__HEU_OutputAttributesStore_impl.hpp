@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HEU_OutputAttributesStore.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_OutputAttributesStore_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_OutputAttributeDictionary_def.hpp"

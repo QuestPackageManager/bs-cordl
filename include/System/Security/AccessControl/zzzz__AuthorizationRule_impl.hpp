@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/AccessControl/AuthorizationRule.hpp"
 #include "System/Security/AccessControl/zzzz__InheritanceFlags_impl.hpp"
 #include "System/Security/AccessControl/zzzz__PropagationFlags_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"

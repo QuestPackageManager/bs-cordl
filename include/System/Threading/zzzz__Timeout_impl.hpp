@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/Timeout.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__TimeSpan_impl.hpp"
 #include "System/Threading/zzzz__Timeout_def.hpp"

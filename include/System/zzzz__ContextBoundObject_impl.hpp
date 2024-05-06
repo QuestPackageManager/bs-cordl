@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ContextBoundObject.hpp"
 #include "System/zzzz__MarshalByRefObject_impl.hpp"
 #include "System/zzzz__ContextBoundObject_def.hpp"
 //  Writing Method size for method: ::System::ContextBoundObject._ctor

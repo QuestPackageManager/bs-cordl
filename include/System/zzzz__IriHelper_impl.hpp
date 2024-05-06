@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/IriHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__IriHelper_def.hpp"
 #include "System/zzzz__UriComponents_def.hpp"

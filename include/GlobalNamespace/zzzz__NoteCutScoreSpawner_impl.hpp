@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/NoteCutScoreSpawner.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteCutScoreSpawner_def.hpp"
 #include "GlobalNamespace/zzzz__FlyingScoreSpawner_def.hpp"

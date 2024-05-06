@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/XR/OpenVR/ViveLighthouse.hpp"
 #include "UnityEngine/InputSystem/zzzz__TrackedDevice_impl.hpp"
 #include "Unity/XR/OpenVR/zzzz__ViveLighthouse_def.hpp"
 //  Writing Method size for method: ::Unity::XR::OpenVR::ViveLighthouse._ctor

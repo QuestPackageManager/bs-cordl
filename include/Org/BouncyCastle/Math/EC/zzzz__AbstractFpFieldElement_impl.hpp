@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Math/EC/AbstractFpFieldElement.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECFieldElement_impl.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__AbstractFpFieldElement_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Math::EC::AbstractFpFieldElement._ctor

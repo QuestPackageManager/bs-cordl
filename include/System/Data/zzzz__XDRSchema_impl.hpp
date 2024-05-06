@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/XDRSchema.hpp"
 #include "System/Data/zzzz__XMLSchema_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Data/zzzz__XDRSchema_def.hpp"

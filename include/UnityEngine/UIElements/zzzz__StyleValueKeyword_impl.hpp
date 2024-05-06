@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/StyleValueKeyword.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleValueKeyword_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::UIElements::StyleValueKeyword::StyleValueKeyword(int32_t value__) noexcept {

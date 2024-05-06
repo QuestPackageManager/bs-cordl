@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/SubContainerCreatorByNewGameObjectMethod.hpp"
 #include "Zenject/zzzz__SubContainerCreatorByNewGameObjectDynamicContext_impl.hpp"
 #include "Zenject/zzzz__SubContainerCreatorByNewGameObjectMethod_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"

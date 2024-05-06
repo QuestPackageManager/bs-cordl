@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MultiplayerBigAvatarAnimator.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerBigAvatarAnimator_def.hpp"
 #include "GlobalNamespace/zzzz__EaseType_def.hpp"

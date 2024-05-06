@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/Collections/NativeArrayDispose.hpp"
 #include "Unity/Collections/zzzz__Allocator_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArrayDispose_def.hpp"
 #include "Unity/Collections/zzzz__Allocator_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/IndexField.hpp"
 #include "System/Data/zzzz__IndexField_def.hpp"
 #include "System/Data/zzzz__DataColumn_def.hpp"
 #include "System/zzzz__Object_def.hpp"

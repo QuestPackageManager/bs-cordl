@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Globalization/UnicodeCategory.hpp"
 #include "System/Globalization/zzzz__UnicodeCategory_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Globalization::UnicodeCategory::UnicodeCategory(int32_t value__) noexcept {

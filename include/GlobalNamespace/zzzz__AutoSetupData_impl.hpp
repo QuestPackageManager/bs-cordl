@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/AutoSetupData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__AutoSetupData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::AutoSetupData._ctor

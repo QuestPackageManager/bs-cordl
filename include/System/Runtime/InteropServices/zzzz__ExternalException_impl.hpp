@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/InteropServices/ExternalException.hpp"
 #include "System/zzzz__SystemException_impl.hpp"
 #include "System/Runtime/InteropServices/zzzz__ExternalException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"

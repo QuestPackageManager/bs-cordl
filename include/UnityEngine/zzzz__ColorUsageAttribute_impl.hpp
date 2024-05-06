@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ColorUsageAttribute.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "UnityEngine/zzzz__ColorUsageAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ColorUsageAttribute._ctor

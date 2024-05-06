@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/RuntimeRemoteClassHandle.hpp"
 #include "Mono/zzzz__RuntimeRemoteClassHandle_def.hpp"
 #include "Mono/zzzz__RuntimeClassHandle_def.hpp"
 #include "Mono/zzzz__RuntimeStructs_def.hpp"

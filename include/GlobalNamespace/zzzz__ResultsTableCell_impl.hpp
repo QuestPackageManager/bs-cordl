@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ResultsTableCell.hpp"
 #include "GlobalNamespace/zzzz__TableCellWithSeparator_impl.hpp"
 #include "GlobalNamespace/zzzz__ResultsTableCell_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"

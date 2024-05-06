@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MultiplayerPlayerStartState.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerPlayerStartState_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::MultiplayerPlayerStartState::MultiplayerPlayerStartState(int32_t value__) noexcept {

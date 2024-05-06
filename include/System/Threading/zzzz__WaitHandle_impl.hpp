@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/WaitHandle.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__MarshalByRefObject_impl.hpp"
 #include "System/Threading/zzzz__WaitHandle_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/TMP_LinkInfo.hpp"
 #include "TMPro/zzzz__TMP_LinkInfo_def.hpp"
 #include "TMPro/zzzz__TMP_Text_def.hpp"
 //  Writing Method size for method: ::TMPro::TMP_LinkInfo.SetLinkID

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/EnergyMissionObjectiveChecker.hpp"
 #include "GlobalNamespace/zzzz__MissionObjectiveChecker_impl.hpp"
 #include "GlobalNamespace/zzzz__EnergyMissionObjectiveChecker_def.hpp"
 #include "GlobalNamespace/zzzz__GameEnergyCounter_def.hpp"

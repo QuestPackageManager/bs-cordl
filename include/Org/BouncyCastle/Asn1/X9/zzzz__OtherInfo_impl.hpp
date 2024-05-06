@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/X9/OtherInfo.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/X9/zzzz__OtherInfo_def.hpp"
 #include "Org/BouncyCastle/Asn1/X9/zzzz__KeySpecificInfo_def.hpp"

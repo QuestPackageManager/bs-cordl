@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/Compute_DT_EventArgs.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "TMPro/zzzz__Compute_DistanceTransform_EventTypes_impl.hpp"
 #include "TMPro/zzzz__Compute_DT_EventArgs_def.hpp"

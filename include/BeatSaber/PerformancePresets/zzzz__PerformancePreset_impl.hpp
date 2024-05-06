@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatSaber/PerformancePresets/PerformancePreset.hpp"
 #include "BeatSaber/PerformancePresets/zzzz__BloomPrepassTextureEffectPreset_impl.hpp"
 #include "BeatSaber/PerformancePresets/zzzz__MainEffectPreset_impl.hpp"
 #include "BeatSaber/PerformancePresets/zzzz__MirrorQualityPreset_impl.hpp"

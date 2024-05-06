@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/AchievementSO.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__AchievementSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::AchievementSO.get_achievementId

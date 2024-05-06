@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LiteNetLib/Layers/XorEncryptLayer.hpp"
 #include "LiteNetLib/Layers/zzzz__PacketLayerBase_impl.hpp"
 #include "LiteNetLib/Layers/zzzz__XorEncryptLayer_def.hpp"
 #include "System/Net/zzzz__IPEndPoint_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UI/BaseVertexEffect.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UI/zzzz__BaseVertexEffect_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"

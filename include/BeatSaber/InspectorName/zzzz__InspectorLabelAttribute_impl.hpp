@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatSaber/InspectorName/InspectorLabelAttribute.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "BeatSaber/InspectorName/zzzz__InspectorLabelAttribute_def.hpp"
 //  Writing Method size for method: ::BeatSaber::InspectorName::InspectorLabelAttribute._ctor

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Cache/RequestCache.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Cache/zzzz__RequestCache_def.hpp"
 inline void System::Net::Cache::RequestCache::setStaticF_LineSplits(::ArrayW<char16_t, ::Array<char16_t>*> value) {

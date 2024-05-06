@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/AttributeUsageAttribute.hpp"
 #include "System/zzzz__AttributeTargets_impl.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/zzzz__AttributeUsageAttribute_def.hpp"

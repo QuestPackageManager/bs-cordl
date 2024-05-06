@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/EventArgs.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__EventArgs_def.hpp"
 //  Writing Method size for method: ::System::EventArgs._ctor

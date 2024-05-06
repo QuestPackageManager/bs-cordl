@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IPollable.hpp"
 #include "GlobalNamespace/zzzz__IPollable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IPollable.PollUpdate
 template <>

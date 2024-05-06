@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Motion.hpp"
 #include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Motion_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Motion._ctor

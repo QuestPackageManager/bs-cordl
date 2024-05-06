@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Converters/IsoDateTimeConverter.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__DateTimeConverterBase_impl.hpp"
 #include "System/Globalization/zzzz__DateTimeStyles_impl.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__IsoDateTimeConverter_def.hpp"

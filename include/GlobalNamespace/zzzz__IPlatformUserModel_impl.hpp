@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IPlatformUserModel.hpp"
 #include "GlobalNamespace/zzzz__IPlatformUserModel_def.hpp"
 #include "GlobalNamespace/zzzz__PlatformUserAuthTokenData_def.hpp"
 #include "GlobalNamespace/zzzz__UserInfo_def.hpp"

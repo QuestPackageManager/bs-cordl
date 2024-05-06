@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ParsingInfo.hpp"
 #include "System/zzzz__DateTimeParse_impl.hpp"
 #include "System/zzzz__ParsingInfo_def.hpp"
 #include "System/Globalization/zzzz__Calendar_def.hpp"

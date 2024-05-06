@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ProBuilder/ComponentMode.hpp"
 #include "UnityEngine/ProBuilder/zzzz__ComponentMode_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::ProBuilder::ComponentMode::ComponentMode(int32_t value__) noexcept {

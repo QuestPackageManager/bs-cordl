@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/NegateInstruction_NegateDouble.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__NegateInstruction_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__NegateInstruction_NegateDouble_def.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__InterpretedFrame_def.hpp"

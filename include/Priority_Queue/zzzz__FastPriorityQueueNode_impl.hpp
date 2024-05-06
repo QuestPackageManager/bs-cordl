@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Priority_Queue/FastPriorityQueueNode.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Priority_Queue/zzzz__FastPriorityQueueNode_def.hpp"
 //  Writing Method size for method: ::Priority_Queue::FastPriorityQueueNode.get_Priority

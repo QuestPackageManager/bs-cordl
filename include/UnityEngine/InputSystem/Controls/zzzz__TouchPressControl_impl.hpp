@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Controls/TouchPressControl.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_impl.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__TouchPressControl_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Controls::TouchPressControl.FinishSetup

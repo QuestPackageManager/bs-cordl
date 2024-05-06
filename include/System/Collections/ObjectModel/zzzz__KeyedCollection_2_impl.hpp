@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Collections/ObjectModel/KeyedCollection_2.hpp"
 #include "System/Collections/ObjectModel/zzzz__Collection_1_impl.hpp"
 #include "System/Collections/ObjectModel/zzzz__KeyedCollection_2_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"

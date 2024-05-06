@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Math/Raw/Nat512.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Math/Raw/zzzz__Nat512_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Math::Raw::Nat512.Mul

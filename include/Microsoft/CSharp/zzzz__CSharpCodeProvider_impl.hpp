@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Microsoft/CSharp/CSharpCodeProvider.hpp"
 #include "Microsoft/CSharp/zzzz__CodeDomProvider_impl.hpp"
 #include "Microsoft/CSharp/zzzz__CSharpCodeProvider_def.hpp"
 //  Writing Method size for method: ::Microsoft::CSharp::CSharpCodeProvider._ctor

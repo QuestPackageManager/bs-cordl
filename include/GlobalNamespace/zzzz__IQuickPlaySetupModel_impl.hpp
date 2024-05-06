@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IQuickPlaySetupModel.hpp"
 #include "GlobalNamespace/zzzz__IQuickPlaySetupModel_def.hpp"
 #include "GlobalNamespace/zzzz__QuickPlaySetupData_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"

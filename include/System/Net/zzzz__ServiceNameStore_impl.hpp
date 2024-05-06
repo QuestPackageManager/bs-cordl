@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/ServiceNameStore.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__ServiceNameStore_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"

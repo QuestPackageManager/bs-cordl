@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/XR/XRDisplaySubsystemDescriptor.hpp"
 #include "UnityEngine/zzzz__IntegratedSubsystemDescriptor_1_impl.hpp"
 #include "UnityEngine/XR/zzzz__XRDisplaySubsystemDescriptor_def.hpp"
 //  Writing Method size for method: ::UnityEngine::XR::XRDisplaySubsystemDescriptor._ctor

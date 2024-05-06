@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/UI/VirtualMouseInput.hpp"
 #include "UnityEngine/InputSystem/UI/zzzz__VirtualMouseInput_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputActionProperty_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"

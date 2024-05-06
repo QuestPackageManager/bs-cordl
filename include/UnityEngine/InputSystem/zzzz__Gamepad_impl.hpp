@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Gamepad.hpp"
 #include "UnityEngine/InputSystem/Haptics/zzzz__DualMotorRumble_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputDevice_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__Gamepad_def.hpp"

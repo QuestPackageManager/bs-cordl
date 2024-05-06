@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HEU_GeneratedOutput.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_GeneratedOutput_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_GeneratedOutputData_def.hpp"

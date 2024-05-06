@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/InternalException.hpp"
 #include "System/zzzz__SystemException_impl.hpp"
 #include "System/Net/zzzz__InternalException_def.hpp"
 //  Writing Method size for method: ::System::Net::InternalException._ctor

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/TypeAnalyzer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__ReflectionBakingCoverageModes_impl.hpp"
 #include "Zenject/zzzz__TypeAnalyzer_def.hpp"

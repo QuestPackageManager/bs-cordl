@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BeatmapDifficultySerializedMethods.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficultySerializedMethods_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficulty_def.hpp"

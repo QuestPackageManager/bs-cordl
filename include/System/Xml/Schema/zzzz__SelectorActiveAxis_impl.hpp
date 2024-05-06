@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/SelectorActiveAxis.hpp"
 #include "System/Xml/Schema/zzzz__ActiveAxis_impl.hpp"
 #include "System/Xml/Schema/zzzz__SelectorActiveAxis_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"

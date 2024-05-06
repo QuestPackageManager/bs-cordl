@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BGLib/Polyglot/TsvReader.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BGLib/Polyglot/zzzz__TsvReader_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"

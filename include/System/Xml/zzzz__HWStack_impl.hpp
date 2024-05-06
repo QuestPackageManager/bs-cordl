@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/HWStack.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__HWStack_def.hpp"
 #include "System/zzzz__ICloneable_def.hpp"

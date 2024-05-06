@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/CamelCaseNamingStrategy.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__NamingStrategy_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__CamelCaseNamingStrategy_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Serialization::CamelCaseNamingStrategy._ctor

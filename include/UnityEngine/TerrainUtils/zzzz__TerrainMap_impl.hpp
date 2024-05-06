@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/TerrainUtils/TerrainMap.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/TerrainUtils/zzzz__TerrainMapStatusCode_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"

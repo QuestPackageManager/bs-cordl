@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatSaber/Multiplayer/TimelineMock/StaticAvatarVisualDataProvider.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerAvatarsData_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/Multiplayer/TimelineMock/zzzz__StaticAvatarVisualDataProvider_def.hpp"

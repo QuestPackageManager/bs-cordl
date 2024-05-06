@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/UI/MultiplayerEventSystem.hpp"
 #include "UnityEngine/EventSystems/zzzz__EventSystem_impl.hpp"
 #include "UnityEngine/InputSystem/UI/zzzz__MultiplayerEventSystem_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"

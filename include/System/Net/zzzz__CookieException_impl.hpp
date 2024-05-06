@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/CookieException.hpp"
 #include "System/zzzz__FormatException_impl.hpp"
 #include "System/Net/zzzz__CookieException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"

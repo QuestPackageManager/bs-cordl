@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/IO/Stream_NullStream.hpp"
 #include "System/IO/zzzz__Stream_impl.hpp"
 #include "System/IO/zzzz__Stream_NullStream_def.hpp"
 #include "System/IO/zzzz__SeekOrigin_def.hpp"

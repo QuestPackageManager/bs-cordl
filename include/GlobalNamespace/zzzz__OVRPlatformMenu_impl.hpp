@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OVRPlatformMenu.hpp"
 #include "GlobalNamespace/zzzz__OVRInput_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRPlatformMenu_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"

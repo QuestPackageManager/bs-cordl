@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Tsp/TspValidationException.hpp"
 #include "Org/BouncyCastle/Tsp/zzzz__TspException_impl.hpp"
 #include "Org/BouncyCastle/Tsp/zzzz__TspValidationException_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Tsp::TspValidationException._ctor

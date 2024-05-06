@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/RuntimeGenericParamInfoHandle.hpp"
 #include "Mono/zzzz__RuntimeGenericParamInfoHandle_def.hpp"
 #include "Mono/zzzz__RuntimeStructs_def.hpp"
 #include "System/Reflection/zzzz__GenericParameterAttributes_def.hpp"

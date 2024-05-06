@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Cache/RequestCacheProtocol.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Cache/zzzz__RequestCacheProtocol_def.hpp"
 #include "System/zzzz__Object_def.hpp"

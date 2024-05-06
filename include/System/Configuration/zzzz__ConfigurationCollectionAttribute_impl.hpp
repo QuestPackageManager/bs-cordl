@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Configuration/ConfigurationCollectionAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Configuration/zzzz__ConfigurationCollectionAttribute_def.hpp"
 #include "System/zzzz__Type_def.hpp"

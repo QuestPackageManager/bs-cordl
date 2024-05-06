@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/ReflectionAttributeProvider.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__ReflectionAttributeProvider_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__IAttributeProvider_def.hpp"

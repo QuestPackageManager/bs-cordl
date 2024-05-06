@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Cms/CmsCompressedDataGenerator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsCompressedDataGenerator_def.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsCompressedData_def.hpp"

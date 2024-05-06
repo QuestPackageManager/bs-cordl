@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Math/EC/LongArray.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__LongArray_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"

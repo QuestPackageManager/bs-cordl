@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Internal/Runtime/Augments/RuntimeAugments.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Internal/Runtime/Augments/zzzz__RuntimeAugments_def.hpp"
 #include "Internal/Runtime/Augments/zzzz__ReflectionExecutionDomainCallbacks_def.hpp"

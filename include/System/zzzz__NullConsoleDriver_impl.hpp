@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/NullConsoleDriver.hpp"
 #include "System/zzzz__ConsoleKeyInfo_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__NullConsoleDriver_def.hpp"

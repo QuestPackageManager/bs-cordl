@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/Models/AbuseReportRecording.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/Models/zzzz__AbuseReportRecording_def.hpp"
 //  Writing Method size for method: ::Oculus::Platform::Models::AbuseReportRecording._ctor

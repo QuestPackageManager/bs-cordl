@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/VRBoneTransform_t.hpp"
 #include "OVR/OpenVR/zzzz__HmdQuaternionf_t_impl.hpp"
 #include "OVR/OpenVR/zzzz__HmdVector4_t_impl.hpp"
 #include "OVR/OpenVR/zzzz__VRBoneTransform_t_def.hpp"

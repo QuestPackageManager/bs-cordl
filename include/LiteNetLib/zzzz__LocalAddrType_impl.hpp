@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LiteNetLib/LocalAddrType.hpp"
 #include "LiteNetLib/zzzz__LocalAddrType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::LiteNetLib::LocalAddrType::LocalAddrType(int32_t value__) noexcept {

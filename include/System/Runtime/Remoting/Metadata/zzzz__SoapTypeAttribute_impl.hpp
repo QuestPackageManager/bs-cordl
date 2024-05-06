@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/Metadata/SoapTypeAttribute.hpp"
 #include "System/Runtime/Remoting/Metadata/zzzz__SoapAttribute_impl.hpp"
 #include "System/Runtime/Remoting/Metadata/zzzz__SoapTypeAttribute_def.hpp"
 #include "System/zzzz__Object_def.hpp"

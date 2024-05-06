@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/RuntimeGPtrArrayHandle.hpp"
 #include "Mono/zzzz__RuntimeGPtrArrayHandle_def.hpp"
 #include "Mono/zzzz__RuntimeStructs_def.hpp"
 //  Writing Method size for method: ::Mono::RuntimeGPtrArrayHandle._ctor

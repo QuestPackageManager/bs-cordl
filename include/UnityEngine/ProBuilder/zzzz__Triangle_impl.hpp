@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ProBuilder/Triangle.hpp"
 #include "UnityEngine/ProBuilder/zzzz__Triangle_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"

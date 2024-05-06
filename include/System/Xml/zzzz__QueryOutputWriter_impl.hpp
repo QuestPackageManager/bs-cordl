@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/QueryOutputWriter.hpp"
 #include "System/Xml/zzzz__XmlRawWriter_impl.hpp"
 #include "System/Xml/zzzz__QueryOutputWriter_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"

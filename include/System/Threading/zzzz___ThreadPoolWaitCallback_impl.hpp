@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/_ThreadPoolWaitCallback.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/zzzz___ThreadPoolWaitCallback_def.hpp"
 //  Writing Method size for method: ::System::Threading::_ThreadPoolWaitCallback.PerformWaitCallback

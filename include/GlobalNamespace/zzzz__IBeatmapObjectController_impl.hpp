@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IBeatmapObjectController.hpp"
 #include "GlobalNamespace/zzzz__IBeatmapObjectController_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IBeatmapObjectController.Dissolve
 template <>

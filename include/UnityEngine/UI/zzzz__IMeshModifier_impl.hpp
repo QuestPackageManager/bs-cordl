@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UI/IMeshModifier.hpp"
 #include "UnityEngine/UI/zzzz__IMeshModifier_def.hpp"
 #include "UnityEngine/UI/zzzz__VertexHelper_def.hpp"
 #include "UnityEngine/zzzz__Mesh_def.hpp"

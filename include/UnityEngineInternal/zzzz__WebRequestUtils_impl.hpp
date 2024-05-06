@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngineInternal/WebRequestUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngineInternal/zzzz__WebRequestUtils_def.hpp"
 #include "System/Text/RegularExpressions/zzzz__Regex_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Linq/XAttribute.hpp"
 #include "System/Xml/Linq/zzzz__XObject_impl.hpp"
 #include "System/Xml/Linq/zzzz__XAttribute_def.hpp"
 #include "System/Xml/Linq/zzzz__XName_def.hpp"

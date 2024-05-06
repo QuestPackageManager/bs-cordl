@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/DataLengthException.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__CryptoException_impl.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__DataLengthException_def.hpp"
 #include "System/zzzz__Exception_def.hpp"

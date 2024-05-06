@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/LockRecursionException.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "System/Threading/zzzz__LockRecursionException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Serialization/XmlTypeConvertorAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Xml/Serialization/zzzz__XmlTypeConvertorAttribute_def.hpp"
 //  Writing Method size for method: ::System::Xml::Serialization::XmlTypeConvertorAttribute.get_Method

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Tweening/SongTimeTweeningManager.hpp"
 #include "Tweening/zzzz__TweeningManager_impl.hpp"
 #include "Tweening/zzzz__SongTimeTweeningManager_def.hpp"
 #include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"

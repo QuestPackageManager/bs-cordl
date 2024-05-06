@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/ExceptionBuilder.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Data/zzzz__ExceptionBuilder_def.hpp"
 #include "System/Data/zzzz__AggregateType_def.hpp"

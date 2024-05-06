@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/XmlAutoDetectWriter.hpp"
 #include "System/Xml/zzzz__XmlRawWriter_impl.hpp"
 #include "System/Xml/zzzz__XmlAutoDetectWriter_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"

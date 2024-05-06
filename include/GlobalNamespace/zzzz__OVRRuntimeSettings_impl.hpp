@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OVRRuntimeSettings.hpp"
 #include "GlobalNamespace/zzzz__OVRManager_impl.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRRuntimeSettings_def.hpp"

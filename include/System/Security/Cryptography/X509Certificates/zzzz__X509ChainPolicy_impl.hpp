@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Cryptography/X509Certificates/X509ChainPolicy.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509RevocationFlag_impl.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509RevocationMode_impl.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509VerificationFlags_impl.hpp"

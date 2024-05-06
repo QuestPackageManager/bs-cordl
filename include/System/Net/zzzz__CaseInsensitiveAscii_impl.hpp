@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/CaseInsensitiveAscii.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__CaseInsensitiveAscii_def.hpp"
 #include "System/Collections/zzzz__IComparer_def.hpp"

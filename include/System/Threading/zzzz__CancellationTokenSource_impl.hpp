@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/CancellationTokenSource.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
 #include "System/Threading/zzzz__CancellationCallbackCoreWorkArguments_def.hpp"

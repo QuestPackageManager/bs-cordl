@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/CreditsData.hpp"
 #include "GlobalNamespace/zzzz__CreditsData_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__CreditsData_def.hpp"

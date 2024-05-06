@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Audio/AudioPlayableBinding.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Audio/zzzz__AudioPlayableBinding_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableBinding_def.hpp"

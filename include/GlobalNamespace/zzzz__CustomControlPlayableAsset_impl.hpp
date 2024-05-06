@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/CustomControlPlayableAsset.hpp"
 #include "UnityEngine/Timeline/zzzz__ControlPlayableAsset_impl.hpp"
 #include "GlobalNamespace/zzzz__CustomControlPlayableAsset_def.hpp"
 #include "GlobalNamespace/zzzz__AvatarColorBehaviour_def.hpp"

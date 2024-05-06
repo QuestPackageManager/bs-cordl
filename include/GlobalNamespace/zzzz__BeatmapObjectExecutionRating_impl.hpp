@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BeatmapObjectExecutionRating.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectExecutionRating_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BeatmapObjectExecutionRating.get_time

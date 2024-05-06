@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/PlayerLoop/Update.hpp"
 #include "UnityEngine/PlayerLoop/zzzz__Update_def.hpp"
 #include "UnityEngine/PlayerLoop/zzzz__Update_def.hpp"
 // Ctor Parameters []

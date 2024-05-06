@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/ValidateNames.hpp"
 #include "System/Xml/zzzz__XmlCharType_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__ValidateNames_def.hpp"

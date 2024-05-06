@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/TagAttribute.hpp"
 #include "TMPro/zzzz__TagAttribute_def.hpp"
 // Ctor Parameters [CppParam { name: "startIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
 // name: "hashCode", ty: "int32_t", modifiers: "", def_value: Some("{}") }]

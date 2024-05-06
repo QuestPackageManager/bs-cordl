@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/WebException.hpp"
 #include "System/Net/zzzz__WebExceptionInternalStatus_impl.hpp"
 #include "System/Net/zzzz__WebExceptionStatus_impl.hpp"
 #include "System/zzzz__InvalidOperationException_impl.hpp"

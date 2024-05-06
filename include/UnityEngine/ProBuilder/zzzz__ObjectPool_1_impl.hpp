@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ProBuilder/ObjectPool_1.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__ObjectPool_1_def.hpp"
 #include "System/Collections/Generic/zzzz__Queue_1_def.hpp"

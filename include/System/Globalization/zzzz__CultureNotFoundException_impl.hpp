@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Globalization/CultureNotFoundException.hpp"
 #include "System/zzzz__ArgumentException_impl.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/Globalization/zzzz__CultureNotFoundException_def.hpp"

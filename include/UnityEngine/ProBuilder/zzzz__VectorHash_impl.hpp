@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ProBuilder/VectorHash.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__VectorHash_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"

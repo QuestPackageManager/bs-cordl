@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Misc/NetscapeRevocationUrl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerIA5String_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Misc/zzzz__NetscapeRevocationUrl_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerIA5String_def.hpp"

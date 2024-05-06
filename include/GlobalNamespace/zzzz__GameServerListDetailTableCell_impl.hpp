@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/GameServerListDetailTableCell.hpp"
 #include "HMUI/zzzz__TableCell_impl.hpp"
 #include "GlobalNamespace/zzzz__GameServerListDetailTableCell_def.hpp"
 #include "HMUI/zzzz__ButtonBinder_def.hpp"

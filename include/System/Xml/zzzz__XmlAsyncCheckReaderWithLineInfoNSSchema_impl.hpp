@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/XmlAsyncCheckReaderWithLineInfoNSSchema.hpp"
 #include "System/Xml/zzzz__XmlAsyncCheckReaderWithLineInfoNS_impl.hpp"
 #include "System/Xml/zzzz__XmlAsyncCheckReaderWithLineInfoNSSchema_def.hpp"
 #include "System/Xml/Schema/zzzz__IXmlSchemaInfo_def.hpp"

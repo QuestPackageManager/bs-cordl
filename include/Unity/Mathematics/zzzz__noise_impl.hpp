@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/Mathematics/noise.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Mathematics/zzzz__noise_def.hpp"
 #include "Unity/Mathematics/zzzz__float2_def.hpp"

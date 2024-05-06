@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Check.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__Check_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Check.DataLength

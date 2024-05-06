@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Assertions/AssertionException.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "UnityEngine/Assertions/zzzz__AssertionException_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Assertions::AssertionException._ctor

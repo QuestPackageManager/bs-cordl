@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/XmlTypeCode.hpp"
 #include "System/Xml/Schema/zzzz__XmlTypeCode_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Xml::Schema::XmlTypeCode::XmlTypeCode(int32_t value__) noexcept {

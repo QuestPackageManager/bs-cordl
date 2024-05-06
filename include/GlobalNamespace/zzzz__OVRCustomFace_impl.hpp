@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OVRCustomFace.hpp"
 #include "GlobalNamespace/zzzz__OVRCustomFace_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRFace_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRCustomFace_def.hpp"

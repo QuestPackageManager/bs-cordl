@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/ScreenModeSO.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "HMUI/zzzz__ScreenModeSO_def.hpp"
 #include "HMUI/zzzz__ScreenModeData_def.hpp"

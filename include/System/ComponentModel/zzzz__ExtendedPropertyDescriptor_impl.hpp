@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ComponentModel/ExtendedPropertyDescriptor.hpp"
 #include "System/ComponentModel/zzzz__PropertyDescriptor_impl.hpp"
 #include "System/ComponentModel/zzzz__ExtendedPropertyDescriptor_def.hpp"
 #include "System/ComponentModel/zzzz__IExtenderProvider_def.hpp"

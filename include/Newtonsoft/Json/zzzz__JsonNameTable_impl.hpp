@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/JsonNameTable.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/zzzz__JsonNameTable_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::JsonNameTable.Get

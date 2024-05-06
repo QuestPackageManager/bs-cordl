@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Reflection/Emit/UnmanagedMarshal.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Reflection/Emit/zzzz__UnmanagedMarshal_def.hpp"
 //  Writing Method size for method: ::System::Reflection::Emit::UnmanagedMarshal._ctor

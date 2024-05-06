@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/BerGenerator.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Generator_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__BerGenerator_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"

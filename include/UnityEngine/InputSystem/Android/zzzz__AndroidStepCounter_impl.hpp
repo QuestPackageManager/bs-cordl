@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Android/AndroidStepCounter.hpp"
 #include "UnityEngine/InputSystem/zzzz__StepCounter_impl.hpp"
 #include "UnityEngine/InputSystem/Android/zzzz__AndroidStepCounter_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Android::AndroidStepCounter._ctor

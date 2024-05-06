@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SettingsApplicatorSO.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__SettingsApplicatorSO_def.hpp"
 #include "BeatSaber/GameSettings/zzzz__MainSettings_def.hpp"

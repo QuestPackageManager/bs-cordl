@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/AutoIncrementBigInteger.hpp"
 #include "System/Data/zzzz__AutoIncrementValue_impl.hpp"
 #include "System/Numerics/zzzz__BigInteger_impl.hpp"
 #include "System/Data/zzzz__AutoIncrementBigInteger_def.hpp"

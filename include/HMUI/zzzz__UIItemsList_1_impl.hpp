@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/UIItemsList_1.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__UIItemsList_1_def.hpp"

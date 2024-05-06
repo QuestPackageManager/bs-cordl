@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/HMAsyncRequest.hpp"
 #include "GlobalNamespace/zzzz__HMAutoincrementedRequestId_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "GlobalNamespace/zzzz__HMAsyncRequest_def.hpp"

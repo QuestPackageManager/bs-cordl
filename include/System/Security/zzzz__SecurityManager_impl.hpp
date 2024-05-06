@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/SecurityManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Security/zzzz__SecurityManager_def.hpp"
 //  Writing Method size for method: ::System::Security::SecurityManager.get_SecurityEnabled

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Profiling/Profiler.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Profiling/zzzz__Profiler_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Profiling::Profiler.set_logFile

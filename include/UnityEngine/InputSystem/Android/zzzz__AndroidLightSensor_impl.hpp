@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Android/AndroidLightSensor.hpp"
 #include "UnityEngine/InputSystem/zzzz__LightSensor_impl.hpp"
 #include "UnityEngine/InputSystem/Android/zzzz__AndroidLightSensor_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Android::AndroidLightSensor._ctor

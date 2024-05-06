@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BGLib/Polyglot/LocalizedText.hpp"
 #include "BGLib/Polyglot/zzzz__LocalizedTextComponent_1_impl.hpp"
 #include "BGLib/Polyglot/zzzz__LocalizedText_def.hpp"
 #include "BGLib/Polyglot/zzzz__LanguageDirection_def.hpp"

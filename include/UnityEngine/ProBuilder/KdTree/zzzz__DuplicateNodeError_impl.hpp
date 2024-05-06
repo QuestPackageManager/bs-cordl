@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ProBuilder/KdTree/DuplicateNodeError.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "UnityEngine/ProBuilder/KdTree/zzzz__DuplicateNodeError_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ProBuilder::KdTree::DuplicateNodeError._ctor

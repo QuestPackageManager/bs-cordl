@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "IgnoranceThirdparty/Volatile.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "IgnoranceThirdparty/zzzz__Volatile_def.hpp"
 #include "IgnoranceThirdparty/zzzz__Volatile_def.hpp"

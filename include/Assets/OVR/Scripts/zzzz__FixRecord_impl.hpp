@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Assets/OVR/Scripts/FixRecord.hpp"
 #include "Assets/OVR/Scripts/zzzz__Record_impl.hpp"
 #include "Assets/OVR/Scripts/zzzz__FixRecord_def.hpp"
 #include "Assets/OVR/Scripts/zzzz__FixMethodDelegate_def.hpp"

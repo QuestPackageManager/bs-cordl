@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/MonoListItem.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__MonoListItem_def.hpp"
 #include "System/zzzz__Object_def.hpp"

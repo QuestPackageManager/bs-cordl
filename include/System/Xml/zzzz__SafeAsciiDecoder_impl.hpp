@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/SafeAsciiDecoder.hpp"
 #include "System/Text/zzzz__Decoder_impl.hpp"
 #include "System/Xml/zzzz__SafeAsciiDecoder_def.hpp"
 //  Writing Method size for method: ::System::Xml::SafeAsciiDecoder._ctor

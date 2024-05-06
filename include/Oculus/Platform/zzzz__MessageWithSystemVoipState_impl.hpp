@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/MessageWithSystemVoipState.hpp"
 #include "Oculus/Platform/zzzz__Message_1_impl.hpp"
 #include "Oculus/Platform/zzzz__MessageWithSystemVoipState_def.hpp"
 #include "Oculus/Platform/Models/zzzz__SystemVoipState_def.hpp"

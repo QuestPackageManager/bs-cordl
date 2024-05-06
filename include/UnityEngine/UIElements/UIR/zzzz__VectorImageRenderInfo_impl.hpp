@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/VectorImageRenderInfo.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__Alloc_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__LinkedPoolItem_1_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__VectorImageRenderInfo_def.hpp"

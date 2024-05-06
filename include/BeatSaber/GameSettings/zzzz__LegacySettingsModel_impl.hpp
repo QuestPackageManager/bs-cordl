@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatSaber/GameSettings/LegacySettingsModel.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/GameSettings/zzzz__LegacySettingsModel_def.hpp"
 //  Writing Method size for method: ::BeatSaber::GameSettings::LegacySettingsModel._ctor

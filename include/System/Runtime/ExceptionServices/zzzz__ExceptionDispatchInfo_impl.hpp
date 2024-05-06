@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/ExceptionServices/ExceptionDispatchInfo.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/ExceptionServices/zzzz__ExceptionDispatchInfo_def.hpp"
 #include "System/zzzz__Exception_def.hpp"

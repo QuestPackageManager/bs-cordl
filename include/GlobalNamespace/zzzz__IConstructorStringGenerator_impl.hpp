@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IConstructorStringGenerator.hpp"
 #include "GlobalNamespace/zzzz__IConstructorStringGenerator_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IConstructorStringGenerator.ToConstructorString
 template <>

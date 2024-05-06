@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/JsonPropertyAttribute.hpp"
 #include "Newtonsoft/Json/zzzz__DefaultValueHandling_impl.hpp"
 #include "Newtonsoft/Json/zzzz__NullValueHandling_impl.hpp"
 #include "Newtonsoft/Json/zzzz__ObjectCreationHandling_impl.hpp"

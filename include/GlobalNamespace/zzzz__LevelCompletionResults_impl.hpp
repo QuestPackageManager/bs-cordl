@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/LevelCompletionResults.hpp"
 #include "GlobalNamespace/zzzz__LevelCompletionResults_impl.hpp"
 #include "GlobalNamespace/zzzz__RankModel_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"

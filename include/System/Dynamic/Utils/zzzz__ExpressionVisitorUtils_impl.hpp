@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Dynamic/Utils/ExpressionVisitorUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Dynamic/Utils/zzzz__ExpressionVisitorUtils_def.hpp"
 #include "System/Linq/Expressions/zzzz__BlockExpression_def.hpp"

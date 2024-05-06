@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HEU_AssetTask.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_AssetTask_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_Task_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"

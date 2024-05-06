@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/Burst/Intrinsics/BurstTargetCpuAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "Unity/Burst/zzzz__BurstTargetCpu_impl.hpp"
 #include "Unity/Burst/Intrinsics/zzzz__BurstTargetCpuAttribute_def.hpp"

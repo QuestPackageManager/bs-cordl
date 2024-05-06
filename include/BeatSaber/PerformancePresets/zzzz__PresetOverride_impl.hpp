@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatSaber/PerformancePresets/PresetOverride.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/PerformancePresets/zzzz__PresetOverride_def.hpp"
 //  Writing Method size for method: ::BeatSaber::PerformancePresets::PresetOverride._ctor

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/EaseType.hpp"
 #include "GlobalNamespace/zzzz__EaseType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::EaseType::EaseType(int32_t value__) noexcept {

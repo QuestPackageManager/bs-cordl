@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MaterialPropertyBlockFloatAnimator.hpp"
 #include "GlobalNamespace/zzzz__MaterialPropertyBlockAnimator_impl.hpp"
 #include "GlobalNamespace/zzzz__MaterialPropertyBlockFloatAnimator_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MaterialPropertyBlockFloatAnimator.SetProperty

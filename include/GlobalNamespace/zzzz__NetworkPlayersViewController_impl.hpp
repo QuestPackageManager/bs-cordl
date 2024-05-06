@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/NetworkPlayersViewController.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__NetworkPlayersViewController_def.hpp"
 #include "GlobalNamespace/zzzz__INetworkPlayerModel_def.hpp"

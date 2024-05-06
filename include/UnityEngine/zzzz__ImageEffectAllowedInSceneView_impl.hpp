@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ImageEffectAllowedInSceneView.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/zzzz__ImageEffectAllowedInSceneView_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ImageEffectAllowedInSceneView._ctor

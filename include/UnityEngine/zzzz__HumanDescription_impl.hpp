@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/HumanDescription.hpp"
 #include "UnityEngine/zzzz__HumanDescription_def.hpp"
 #include "UnityEngine/zzzz__HumanBone_def.hpp"
 #include "UnityEngine/zzzz__SkeletonBone_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/JsonPosition.hpp"
 #include "Newtonsoft/Json/zzzz__JsonContainerType_impl.hpp"
 #include "Newtonsoft/Json/zzzz__JsonPosition_def.hpp"
 #include "Newtonsoft/Json/zzzz__IJsonLineInfo_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/Collections/WriteOnlyAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "Unity/Collections/zzzz__WriteOnlyAttribute_def.hpp"
 //  Writing Method size for method: ::Unity::Collections::WriteOnlyAttribute._ctor

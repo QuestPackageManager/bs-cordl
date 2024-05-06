@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LiteNetLib/NetUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "LiteNetLib/zzzz__NetUtils_def.hpp"
 #include "LiteNetLib/zzzz__LocalAddrType_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/HeadObstacleLowPassAudioEffect.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__HeadObstacleLowPassAudioEffect_def.hpp"
 #include "GlobalNamespace/zzzz__MainAudioEffects_def.hpp"

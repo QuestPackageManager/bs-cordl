@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HEU_GeoNode.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_GeoInfo_impl.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_GeoNode_def.hpp"

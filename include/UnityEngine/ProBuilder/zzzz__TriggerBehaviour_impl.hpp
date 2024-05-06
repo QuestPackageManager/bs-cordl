@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ProBuilder/TriggerBehaviour.hpp"
 #include "UnityEngine/ProBuilder/zzzz__EntityBehaviour_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__TriggerBehaviour_def.hpp"
 #include "UnityEngine/SceneManagement/zzzz__LoadSceneMode_def.hpp"

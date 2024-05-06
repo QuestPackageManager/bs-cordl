@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ToggleableCanvasGroup.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ToggleableCanvasGroup_def.hpp"
 #include "UnityEngine/UI/zzzz__Toggle_def.hpp"

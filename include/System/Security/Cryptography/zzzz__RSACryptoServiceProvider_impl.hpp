@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Cryptography/RSACryptoServiceProvider.hpp"
 #include "System/Security/Cryptography/zzzz__CspProviderFlags_impl.hpp"
 #include "System/Security/Cryptography/zzzz__RSA_impl.hpp"
 #include "System/Security/Cryptography/zzzz__RSACryptoServiceProvider_def.hpp"

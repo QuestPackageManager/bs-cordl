@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/OnErrorAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__OnErrorAttribute_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Serialization::OnErrorAttribute._ctor

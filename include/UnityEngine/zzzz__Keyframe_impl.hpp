@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Keyframe.hpp"
 #include "UnityEngine/zzzz__Keyframe_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Keyframe._ctor
 template <>

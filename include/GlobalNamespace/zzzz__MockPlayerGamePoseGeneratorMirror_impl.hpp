@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MockPlayerGamePoseGeneratorMirror.hpp"
 #include "GlobalNamespace/zzzz__MockPlayerGamePoseGenerator_impl.hpp"
 #include "GlobalNamespace/zzzz__MockPlayerGamePoseGeneratorMirror_def.hpp"
 #include "BeatSaber/AvatarCore/zzzz__OptionalAvatarDataPacket_def.hpp"

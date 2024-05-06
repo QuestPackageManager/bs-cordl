@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BGNet/Core/GameLift/GetMultiplayerInstanceResponse.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerPlacementErrorCode_impl.hpp"
 #include "BGNet/Core/GameLift/zzzz__GetMultiplayerInstanceResponse_def.hpp"
 #include "BGNet/Core/GameLift/zzzz__PlayerSessionInfo_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/HoverHintPanel.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "HMUI/zzzz__HoverHintPanel_def.hpp"

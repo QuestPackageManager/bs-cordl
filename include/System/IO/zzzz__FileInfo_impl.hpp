@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/IO/FileInfo.hpp"
 #include "System/IO/zzzz__FileSystemInfo_impl.hpp"
 #include "System/IO/zzzz__FileInfo_def.hpp"
 #include "System/IO/zzzz__FileStream_def.hpp"

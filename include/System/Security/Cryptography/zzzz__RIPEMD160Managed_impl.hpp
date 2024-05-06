@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Cryptography/RIPEMD160Managed.hpp"
 #include "System/Security/Cryptography/zzzz__RIPEMD160_impl.hpp"
 #include "System/Security/Cryptography/zzzz__RIPEMD160Managed_def.hpp"
 //  Writing Method size for method: ::System::Security::Cryptography::RIPEMD160Managed._ctor

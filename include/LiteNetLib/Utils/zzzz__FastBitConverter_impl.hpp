@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LiteNetLib/Utils/FastBitConverter.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "LiteNetLib/Utils/zzzz__FastBitConverter_def.hpp"
 #include "LiteNetLib/Utils/zzzz__FastBitConverter_def.hpp"

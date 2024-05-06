@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Xml/SmallXmlParserException.hpp"
 #include "System/zzzz__SystemException_impl.hpp"
 #include "Mono/Xml/zzzz__SmallXmlParserException_def.hpp"
 //  Writing Method size for method: ::Mono::Xml::SmallXmlParserException._ctor

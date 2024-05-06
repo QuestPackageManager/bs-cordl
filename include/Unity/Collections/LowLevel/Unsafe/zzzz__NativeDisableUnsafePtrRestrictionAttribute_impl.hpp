@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/NativeDisableUnsafePtrRestrictionAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__NativeDisableUnsafePtrRestrictionAttribute_def.hpp"
 //  Writing Method size for method: ::Unity::Collections::LowLevel::Unsafe::NativeDisableUnsafePtrRestrictionAttribute._ctor

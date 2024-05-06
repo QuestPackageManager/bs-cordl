@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LiteNetLib/Utils/NetSerializer.hpp"
 #include "LiteNetLib/Utils/zzzz__NetSerializer_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "LiteNetLib/Utils/zzzz__NetSerializer_def.hpp"

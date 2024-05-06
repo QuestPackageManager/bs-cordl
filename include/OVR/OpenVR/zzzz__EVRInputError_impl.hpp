@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/EVRInputError.hpp"
 #include "OVR/OpenVR/zzzz__EVRInputError_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::OVR::OpenVR::EVRInputError::EVRInputError(int32_t value__) noexcept {

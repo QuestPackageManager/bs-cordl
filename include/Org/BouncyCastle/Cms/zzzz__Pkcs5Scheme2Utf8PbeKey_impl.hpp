@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Cms/Pkcs5Scheme2Utf8PbeKey.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsPbeKey_impl.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__Pkcs5Scheme2Utf8PbeKey_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"

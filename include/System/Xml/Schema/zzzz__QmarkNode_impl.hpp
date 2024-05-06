@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/QmarkNode.hpp"
 #include "System/Xml/Schema/zzzz__InteriorNode_impl.hpp"
 #include "System/Xml/Schema/zzzz__QmarkNode_def.hpp"
 #include "System/Xml/Schema/zzzz__BitSet_def.hpp"

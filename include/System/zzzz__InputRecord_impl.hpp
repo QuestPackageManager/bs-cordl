@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/InputRecord.hpp"
 #include "System/zzzz__InputRecord_def.hpp"
 // Ctor Parameters [CppParam { name: "EventType", ty: "int16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "KeyDown", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam {
 // name: "RepeatCount", ty: "int16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "VirtualKeyCode", ty: "int16_t", modifiers: "", def_value: Some("{}") }, CppParam { name:

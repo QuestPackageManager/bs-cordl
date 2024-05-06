@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/PerformanceConfigurationLog.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PerformanceConfigurationLog_def.hpp"
 #include "BeatSaber/GameSettings/zzzz__GraphicSettingsHandler_def.hpp"

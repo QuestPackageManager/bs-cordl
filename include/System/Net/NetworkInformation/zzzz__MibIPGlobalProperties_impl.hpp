@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/NetworkInformation/MibIPGlobalProperties.hpp"
 #include "System/Net/NetworkInformation/zzzz__UnixIPGlobalProperties_impl.hpp"
 #include "System/Net/NetworkInformation/zzzz__MibIPGlobalProperties_def.hpp"
 //  Writing Method size for method: ::System::Net::NetworkInformation::MibIPGlobalProperties._ctor

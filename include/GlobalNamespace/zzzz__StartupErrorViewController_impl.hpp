@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/StartupErrorViewController.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__StartupErrorViewController_def.hpp"
 #include "TMPro/zzzz__TMP_Text_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/RandomValueToShader.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__RandomValueToShader_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::RandomValueToShader.SetRandomValueToShaders

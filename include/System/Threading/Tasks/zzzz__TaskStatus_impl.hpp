@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/Tasks/TaskStatus.hpp"
 #include "System/Threading/Tasks/zzzz__TaskStatus_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Threading::Tasks::TaskStatus::TaskStatus(int32_t value__) noexcept {

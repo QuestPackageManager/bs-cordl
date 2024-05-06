@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LIV/SDK/Unity/SDKUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKUtils_def.hpp"
 #include "LIV/SDK/Unity/zzzz__FEATURES_def.hpp"

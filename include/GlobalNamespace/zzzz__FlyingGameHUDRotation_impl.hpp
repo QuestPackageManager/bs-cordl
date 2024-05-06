@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/FlyingGameHUDRotation.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__FlyingGameHUDRotation_def.hpp"
 #include "GlobalNamespace/zzzz__BeatLineManager_def.hpp"

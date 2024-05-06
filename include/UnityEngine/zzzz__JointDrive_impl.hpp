@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/JointDrive.hpp"
 #include "UnityEngine/zzzz__JointDrive_def.hpp"
 #include "UnityEngine/zzzz__JointDriveMode_def.hpp"
 //  Writing Method size for method: ::UnityEngine::JointDrive.get_mode

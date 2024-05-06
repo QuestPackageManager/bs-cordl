@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/Datatype_dayTimeDuration.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_duration_impl.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_dayTimeDuration_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlTypeCode_def.hpp"

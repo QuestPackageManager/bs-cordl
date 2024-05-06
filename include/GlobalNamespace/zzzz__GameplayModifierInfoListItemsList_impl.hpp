@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/GameplayModifierInfoListItemsList.hpp"
 #include "HMUI/zzzz__UIItemsList_1_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifierInfoListItemsList_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifierInfoListItem_def.hpp"

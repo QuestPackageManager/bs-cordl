@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/RuntimePanel.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseRuntimePanel_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__RuntimePanel_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventDispatcher_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatSaber/AvatarCore/AbstractAdapterInstallerSO.hpp"
 #include "Zenject/zzzz__ScriptableObjectInstaller_impl.hpp"
 #include "BeatSaber/AvatarCore/zzzz__AbstractAdapterInstallerSO_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"

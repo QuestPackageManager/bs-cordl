@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/InputFieldViewStaticAnimations.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__InputFieldViewStaticAnimations_def.hpp"
 #include "HMUI/zzzz__InputFieldView_def.hpp"

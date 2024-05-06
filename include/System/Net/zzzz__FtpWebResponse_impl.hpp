@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/FtpWebResponse.hpp"
 #include "System/IO/zzzz__MemoryStream_impl.hpp"
 #include "System/Net/zzzz__FtpStatusCode_impl.hpp"
 #include "System/Net/zzzz__WebResponse_impl.hpp"

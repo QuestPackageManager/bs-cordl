@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/TimeSlider.hpp"
 #include "HMUI/zzzz__RangeValuesTextSlider_impl.hpp"
 #include "HMUI/zzzz__TimeSlider_impl.hpp"
 #include "HMUI/zzzz__TimeSlider_def.hpp"

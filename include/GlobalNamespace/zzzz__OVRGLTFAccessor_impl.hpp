@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OVRGLTFAccessor.hpp"
 #include "GlobalNamespace/zzzz__OVRGLTFComponentType_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRGLTFType_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"

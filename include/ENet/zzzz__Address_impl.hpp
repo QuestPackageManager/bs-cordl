@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "ENet/Address.hpp"
 #include "ENet/zzzz__ENetAddress_impl.hpp"
 #include "ENet/zzzz__Address_def.hpp"
 #include "ENet/zzzz__ENetAddress_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/TMP_UpdateRegistry.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "TMPro/zzzz__TMP_UpdateRegistry_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"

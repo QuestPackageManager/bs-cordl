@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/XmlConfiguration/XmlReaderSection.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/XmlConfiguration/zzzz__XmlReaderSection_def.hpp"
 #include "System/Xml/zzzz__XmlResolver_def.hpp"

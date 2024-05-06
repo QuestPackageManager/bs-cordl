@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/Samples/SimplePlatformSample/DataEntry.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Oculus/Platform/Samples/SimplePlatformSample/zzzz__DataEntry_def.hpp"
 #include "Oculus/Platform/Models/zzzz__AchievementDefinitionList_def.hpp"

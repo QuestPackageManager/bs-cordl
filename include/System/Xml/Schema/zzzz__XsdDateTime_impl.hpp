@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/XsdDateTime.hpp"
 #include "System/Xml/Schema/zzzz__XsdDateTime_impl.hpp"
 #include "System/zzzz__DateTime_impl.hpp"
 #include "System/Xml/Schema/zzzz__XsdDateTime_def.hpp"

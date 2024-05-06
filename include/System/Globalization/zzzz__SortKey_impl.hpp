@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Globalization/SortKey.hpp"
 #include "System/Globalization/zzzz__CompareOptions_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Globalization/zzzz__SortKey_def.hpp"

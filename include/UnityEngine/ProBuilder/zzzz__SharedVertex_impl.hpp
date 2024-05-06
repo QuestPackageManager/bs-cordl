@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ProBuilder/SharedVertex.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__SharedVertex_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"

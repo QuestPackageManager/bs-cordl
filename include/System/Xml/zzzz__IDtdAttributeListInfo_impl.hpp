@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/IDtdAttributeListInfo.hpp"
 #include "System/Xml/zzzz__IDtdAttributeListInfo_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Xml/zzzz__IDtdAttributeInfo_def.hpp"

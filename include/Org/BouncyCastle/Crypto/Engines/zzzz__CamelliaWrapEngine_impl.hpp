@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Engines/CamelliaWrapEngine.hpp"
 #include "Org/BouncyCastle/Crypto/Engines/zzzz__Rfc3394WrapEngine_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Engines/zzzz__CamelliaWrapEngine_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Engines::CamelliaWrapEngine._ctor

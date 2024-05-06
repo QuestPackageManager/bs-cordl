@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/XsdCachingReader.hpp"
 #include "System/Xml/zzzz__XmlReader_impl.hpp"
 #include "System/Xml/zzzz__XsdCachingReader_impl.hpp"
 #include "System/Xml/zzzz__XsdCachingReader_def.hpp"

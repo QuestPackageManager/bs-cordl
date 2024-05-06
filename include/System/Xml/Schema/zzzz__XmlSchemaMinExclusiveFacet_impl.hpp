@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaMinExclusiveFacet.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaFacet_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaMinExclusiveFacet_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::XmlSchemaMinExclusiveFacet._ctor

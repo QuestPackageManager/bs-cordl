@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/GUILayoutOption.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__GUILayoutOption_impl.hpp"
 #include "UnityEngine/zzzz__GUILayoutOption_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/BaseRuntimePanel.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Panel_impl.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_impl.hpp"

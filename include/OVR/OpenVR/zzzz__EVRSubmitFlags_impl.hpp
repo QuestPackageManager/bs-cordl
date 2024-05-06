@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/EVRSubmitFlags.hpp"
 #include "OVR/OpenVR/zzzz__EVRSubmitFlags_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::OVR::OpenVR::EVRSubmitFlags::EVRSubmitFlags(int32_t value__) noexcept {

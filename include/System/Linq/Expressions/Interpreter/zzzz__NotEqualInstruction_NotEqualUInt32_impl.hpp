@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/NotEqualInstruction_NotEqualUInt32.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__NotEqualInstruction_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__NotEqualInstruction_NotEqualUInt32_def.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__InterpretedFrame_def.hpp"

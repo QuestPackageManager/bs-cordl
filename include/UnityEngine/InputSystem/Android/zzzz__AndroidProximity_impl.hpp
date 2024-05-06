@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Android/AndroidProximity.hpp"
 #include "UnityEngine/InputSystem/zzzz__ProximitySensor_impl.hpp"
 #include "UnityEngine/InputSystem/Android/zzzz__AndroidProximity_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Android::AndroidProximity._ctor

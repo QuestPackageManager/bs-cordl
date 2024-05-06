@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/XmlDataTreeWriter.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Data/zzzz__XmlDataTreeWriter_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ScoreFormatter.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__ScoreFormatter_def.hpp"
 #include "System/Globalization/zzzz__NumberFormatInfo_def.hpp"

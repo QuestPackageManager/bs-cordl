@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/XdrValidator.hpp"
 #include "System/Xml/Schema/zzzz__BaseValidator_impl.hpp"
 #include "System/Xml/Schema/zzzz__XdrValidator_def.hpp"
 #include "System/Collections/zzzz__Hashtable_def.hpp"

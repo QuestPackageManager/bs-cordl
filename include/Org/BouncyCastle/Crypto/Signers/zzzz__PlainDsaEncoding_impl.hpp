@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Signers/PlainDsaEncoding.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Signers/zzzz__PlainDsaEncoding_def.hpp"
 #include "Org/BouncyCastle/Crypto/Signers/zzzz__IDsaEncoding_def.hpp"

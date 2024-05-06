@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/BinXmlSqlMoney.hpp"
 #include "System/Xml/zzzz__BinXmlSqlMoney_def.hpp"
 #include "System/zzzz__Decimal_def.hpp"
 //  Writing Method size for method: ::System::Xml::BinXmlSqlMoney._ctor

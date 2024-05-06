@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/ProjectContext.hpp"
 #include "Zenject/zzzz__Context_impl.hpp"
 #include "Zenject/zzzz__ReflectionBakingCoverageModes_impl.hpp"
 #include "Zenject/zzzz__ProjectContext_def.hpp"

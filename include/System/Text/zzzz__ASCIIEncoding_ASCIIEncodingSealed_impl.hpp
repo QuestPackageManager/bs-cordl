@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Text/ASCIIEncoding_ASCIIEncodingSealed.hpp"
 #include "System/Text/zzzz__ASCIIEncoding_impl.hpp"
 #include "System/Text/zzzz__ASCIIEncoding_ASCIIEncodingSealed_def.hpp"
 //  Writing Method size for method: ::System::Text::__ASCIIEncoding__ASCIIEncodingSealed._ctor

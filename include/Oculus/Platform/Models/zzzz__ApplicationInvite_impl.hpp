@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/Models/ApplicationInvite.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/Models/zzzz__ApplicationInvite_def.hpp"
 #include "Oculus/Platform/Models/zzzz__Destination_def.hpp"

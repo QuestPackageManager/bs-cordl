@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Logging.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__Logging_def.hpp"
 //  Writing Method size for method: ::System::Net::Logging.get_On

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/GameplayModifierMask.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifierMask_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "uint16_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::GameplayModifierMask::GameplayModifierMask(uint16_t value__) noexcept {

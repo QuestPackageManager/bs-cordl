@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SpawnRotationBeatmapEventData.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventData_impl.hpp"
 #include "GlobalNamespace/zzzz__SpawnRotationBeatmapEventData_impl.hpp"
 #include "GlobalNamespace/zzzz__SpawnRotationBeatmapEventData_def.hpp"

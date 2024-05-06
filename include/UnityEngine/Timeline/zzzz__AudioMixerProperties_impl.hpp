@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Timeline/AudioMixerProperties.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableBehaviour_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__AudioMixerProperties_def.hpp"
 #include "UnityEngine/Playables/zzzz__FrameData_def.hpp"

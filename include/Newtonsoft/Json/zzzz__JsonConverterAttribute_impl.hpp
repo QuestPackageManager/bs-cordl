@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/JsonConverterAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "Newtonsoft/Json/zzzz__JsonConverterAttribute_def.hpp"
 #include "System/zzzz__Object_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/ClientCertificateType.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__ClientCertificateType_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Tls::ClientCertificateType._ctor

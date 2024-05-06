@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/BasicTlsPskIdentity.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__BasicTlsPskIdentity_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsPskIdentity_def.hpp"

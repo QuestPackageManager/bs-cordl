@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ILeaderboardIdContainer.hpp"
 #include "GlobalNamespace/zzzz__ILeaderboardIdContainer_def.hpp"
 #include "GlobalNamespace/zzzz__ILeaderboardIdData_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"

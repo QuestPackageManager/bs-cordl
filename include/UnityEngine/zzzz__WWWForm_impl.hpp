@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/WWWForm.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__WWWForm_def.hpp"
 #include "System/Text/zzzz__Encoding_def.hpp"

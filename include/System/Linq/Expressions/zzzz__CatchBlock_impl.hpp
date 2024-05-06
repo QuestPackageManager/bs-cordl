@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/CatchBlock.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Linq/Expressions/zzzz__CatchBlock_def.hpp"
 #include "System/Linq/Expressions/zzzz__Expression_def.hpp"

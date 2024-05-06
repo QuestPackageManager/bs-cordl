@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Apache/Bzip2/BZip2Constants.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Apache/Bzip2/zzzz__BZip2Constants_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Apache::Bzip2::BZip2Constants._ctor

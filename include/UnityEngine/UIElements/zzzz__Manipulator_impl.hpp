@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/Manipulator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Manipulator_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IManipulator_def.hpp"

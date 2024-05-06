@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/Common/Int64Storage.hpp"
 #include "System/Data/Common/zzzz__DataStorage_impl.hpp"
 #include "System/Data/Common/zzzz__Int64Storage_def.hpp"
 #include "System/Collections/zzzz__BitArray_def.hpp"

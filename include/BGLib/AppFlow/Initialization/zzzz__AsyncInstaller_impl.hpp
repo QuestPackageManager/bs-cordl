@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BGLib/AppFlow/Initialization/AsyncInstaller.hpp"
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "BGLib/AppFlow/Initialization/zzzz__AsyncInstaller_def.hpp"
 #include "BGLib/AppFlow/Initialization/zzzz__AsyncInstaller_def.hpp"

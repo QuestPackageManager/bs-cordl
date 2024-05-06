@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OVRSpaceUser.hpp"
 #include "GlobalNamespace/zzzz__OVRSpaceUser_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OVRSpaceUser.get_Valid

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Globalization/Unicode/Level2Map.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Globalization/Unicode/zzzz__Level2Map_def.hpp"
 //  Writing Method size for method: ::Mono::Globalization::Unicode::Level2Map._ctor

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/DtdParser.hpp"
 #include "System/Xml/zzzz__DtdParser_impl.hpp"
 #include "System/Xml/zzzz__LineInfo_impl.hpp"
 #include "System/Xml/zzzz__XmlCharType_impl.hpp"

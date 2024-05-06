@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MonotonicTimeProvider.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MonotonicTimeProvider_def.hpp"
 #include "BGNet/Core/zzzz__ITimeProvider_def.hpp"

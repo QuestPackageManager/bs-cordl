@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/Compositor_FrameTiming.hpp"
 #include "OVR/OpenVR/zzzz__TrackedDevicePose_t_impl.hpp"
 #include "OVR/OpenVR/zzzz__Compositor_FrameTiming_def.hpp"
 #include "OVR/OpenVR/zzzz__TrackedDevicePose_t_def.hpp"

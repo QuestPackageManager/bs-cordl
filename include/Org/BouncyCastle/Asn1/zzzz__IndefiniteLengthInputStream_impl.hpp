@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/IndefiniteLengthInputStream.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__LimitedInputStream_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__IndefiniteLengthInputStream_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"

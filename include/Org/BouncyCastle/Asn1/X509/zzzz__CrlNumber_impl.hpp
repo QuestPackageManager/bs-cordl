@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/CrlNumber.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerInteger_impl.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__CrlNumber_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"

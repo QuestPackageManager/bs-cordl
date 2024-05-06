@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Globalization/CharUnicodeInfo.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Globalization/zzzz__CharUnicodeInfo_def.hpp"
 #include "System/Globalization/zzzz__UnicodeCategory_def.hpp"

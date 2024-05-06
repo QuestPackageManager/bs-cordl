@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/LoadResourceFunction.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__LoadResourceFunction_def.hpp"
 #include "System/zzzz__Object_def.hpp"

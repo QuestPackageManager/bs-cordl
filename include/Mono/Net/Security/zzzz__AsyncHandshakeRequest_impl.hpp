@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Net/Security/AsyncHandshakeRequest.hpp"
 #include "Mono/Net/Security/zzzz__AsyncProtocolRequest_impl.hpp"
 #include "Mono/Net/Security/zzzz__AsyncHandshakeRequest_def.hpp"
 #include "Mono/Net/Security/zzzz__AsyncOperationStatus_def.hpp"

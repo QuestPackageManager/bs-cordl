@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Ocsp/OcspResponseStatus.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerEnumerated_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Ocsp/zzzz__OcspResponseStatus_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerEnumerated_def.hpp"

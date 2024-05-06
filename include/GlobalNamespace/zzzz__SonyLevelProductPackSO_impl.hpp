@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SonyLevelProductPackSO.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__SonyLevelProductPackSO_def.hpp"
 #include "GlobalNamespace/zzzz__SonyLevelProductCollectionModel_def.hpp"

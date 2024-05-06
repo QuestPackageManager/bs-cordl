@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/LightBakingPersistentSettingsSO.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__LightBakingPersistentSettingsSO_def.hpp"
 #include "BeatSaber/PerformancePresets/zzzz__PerformancePreset_def.hpp"

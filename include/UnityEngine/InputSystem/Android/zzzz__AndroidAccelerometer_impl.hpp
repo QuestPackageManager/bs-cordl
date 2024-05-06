@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Android/AndroidAccelerometer.hpp"
 #include "UnityEngine/InputSystem/zzzz__Accelerometer_impl.hpp"
 #include "UnityEngine/InputSystem/Android/zzzz__AndroidAccelerometer_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Android::AndroidAccelerometer._ctor

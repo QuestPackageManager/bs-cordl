@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Http/Headers/TransferCodingWithQualityHeaderValue.hpp"
 #include "System/Net/Http/Headers/zzzz__TransferCodingHeaderValue_impl.hpp"
 #include "System/Net/Http/Headers/zzzz__TransferCodingWithQualityHeaderValue_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"

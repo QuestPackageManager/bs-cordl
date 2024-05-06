@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OVRGLTFAnimatinonNode.hpp"
 #include "GlobalNamespace/zzzz__OVRBinaryChunk_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRGLTFAnimatinonNode_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRGLTFInputNode_impl.hpp"

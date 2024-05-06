@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/MiscellaneousUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__MiscellaneousUtils_def.hpp"
 #include "System/Text/RegularExpressions/zzzz__RegexOptions_def.hpp"

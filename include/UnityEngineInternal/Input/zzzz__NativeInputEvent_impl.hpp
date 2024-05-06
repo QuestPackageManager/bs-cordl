@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngineInternal/Input/NativeInputEvent.hpp"
 #include "UnityEngineInternal/Input/zzzz__NativeInputEventType_impl.hpp"
 #include "UnityEngineInternal/Input/zzzz__NativeInputEvent_def.hpp"
 #include "UnityEngineInternal/Input/zzzz__NativeInputEventType_def.hpp"

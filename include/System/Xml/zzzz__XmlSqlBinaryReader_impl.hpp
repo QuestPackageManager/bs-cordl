@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/XmlSqlBinaryReader.hpp"
 #include "System/Xml/zzzz__BinXmlToken_impl.hpp"
 #include "System/Xml/zzzz__DtdProcessing_impl.hpp"
 #include "System/Xml/zzzz__XmlCharType_impl.hpp"

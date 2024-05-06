@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/PlayerPrefsStorage.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PlayerPrefsStorage_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PlayerPrefsStorage.Initialize

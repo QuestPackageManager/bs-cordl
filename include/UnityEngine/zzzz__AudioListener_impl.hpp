@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/AudioListener.hpp"
 #include "UnityEngine/zzzz__AudioBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__AudioListener_def.hpp"
 #include "UnityEngine/zzzz__AudioVelocityUpdateMode_def.hpp"

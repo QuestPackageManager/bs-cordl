@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/FadeInOnSceneTransitionFinished.hpp"
 #include "GlobalNamespace/zzzz__ZenjectSafeBehaviour_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__FadeInOnSceneTransitionFinished_def.hpp"

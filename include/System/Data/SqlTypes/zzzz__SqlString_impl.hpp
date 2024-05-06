@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/SqlTypes/SqlString.hpp"
 #include "System/Data/SqlTypes/zzzz__SqlCompareOptions_impl.hpp"
 #include "System/Globalization/zzzz__CompareOptions_impl.hpp"
 #include "System/Data/SqlTypes/zzzz__SqlString_def.hpp"

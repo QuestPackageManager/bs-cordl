@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/DefaultJsonNameTable.hpp"
 #include "Newtonsoft/Json/zzzz__JsonNameTable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/zzzz__DefaultJsonNameTable_def.hpp"

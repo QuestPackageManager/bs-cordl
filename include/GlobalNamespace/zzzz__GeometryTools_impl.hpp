@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/GeometryTools.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__GeometryTools_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"

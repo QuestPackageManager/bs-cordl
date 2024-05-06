@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/HttpContinueDelegate.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Net/zzzz__HttpContinueDelegate_def.hpp"
 #include "System/Net/zzzz__WebHeaderCollection_def.hpp"

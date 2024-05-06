@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BtsResultsEnvironmentController.hpp"
 #include "GlobalNamespace/zzzz__BaseResultsEnvironmentController_impl.hpp"
 #include "GlobalNamespace/zzzz__BasicBeatmapEventType_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"

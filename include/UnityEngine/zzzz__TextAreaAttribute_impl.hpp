@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/TextAreaAttribute.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "UnityEngine/zzzz__TextAreaAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::TextAreaAttribute._ctor

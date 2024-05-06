@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HEU_InputInterfaceTerrain.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_Transform_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_InputData_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_InputInterface_impl.hpp"

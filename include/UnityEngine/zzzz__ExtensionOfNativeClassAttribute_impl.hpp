@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ExtensionOfNativeClassAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/zzzz__ExtensionOfNativeClassAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ExtensionOfNativeClassAttribute._ctor

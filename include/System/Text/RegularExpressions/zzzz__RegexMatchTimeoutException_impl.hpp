@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Text/RegularExpressions/RegexMatchTimeoutException.hpp"
 #include "System/zzzz__TimeSpan_impl.hpp"
 #include "System/zzzz__TimeoutException_impl.hpp"
 #include "System/Text/RegularExpressions/zzzz__RegexMatchTimeoutException_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/PosesRecordingSaveData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PosesRecordingSaveData_def.hpp"
 #include "GlobalNamespace/zzzz__PosesRecordingSaveData_def.hpp"

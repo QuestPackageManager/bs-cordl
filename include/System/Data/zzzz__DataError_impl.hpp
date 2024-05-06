@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/DataError.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Data/zzzz__DataError_def.hpp"
 #include "System/Data/zzzz__DataColumn_def.hpp"

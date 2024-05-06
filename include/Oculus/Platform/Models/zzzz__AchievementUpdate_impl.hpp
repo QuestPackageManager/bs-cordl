@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/Models/AchievementUpdate.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/Models/zzzz__AchievementUpdate_def.hpp"
 //  Writing Method size for method: ::Oculus::Platform::Models::AchievementUpdate._ctor

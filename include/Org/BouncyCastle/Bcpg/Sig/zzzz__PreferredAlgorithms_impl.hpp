@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Bcpg/Sig/PreferredAlgorithms.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__SignatureSubpacket_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/Sig/zzzz__PreferredAlgorithms_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__SignatureSubpacketTag_def.hpp"

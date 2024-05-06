@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/RenderTextureExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__RenderTextureExtensions_def.hpp"
 #include "UnityEngine/zzzz__RenderTexture_def.hpp"

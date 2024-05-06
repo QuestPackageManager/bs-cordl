@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/NetworkStatisticsState.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "GlobalNamespace/zzzz__NetworkStatisticsState_def.hpp"
 #include "GlobalNamespace/zzzz__NetworkStatisticsDelta_def.hpp"

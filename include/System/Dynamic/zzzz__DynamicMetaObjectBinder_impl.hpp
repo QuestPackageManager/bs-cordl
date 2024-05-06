@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Dynamic/DynamicMetaObjectBinder.hpp"
 #include "System/Runtime/CompilerServices/zzzz__CallSiteBinder_impl.hpp"
 #include "System/Dynamic/zzzz__DynamicMetaObjectBinder_def.hpp"
 #include "System/Collections/ObjectModel/zzzz__ReadOnlyCollection_1_def.hpp"

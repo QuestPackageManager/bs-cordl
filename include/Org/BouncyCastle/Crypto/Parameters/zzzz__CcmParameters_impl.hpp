@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/CcmParameters.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__AeadParameters_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__CcmParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__KeyParameter_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/Mathematics/math.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -6395,9 +6396,6 @@ public:
   /// @brief Field FLT_MIN_NORMAL offset 0xffffffff size 0x4
   static constexpr float_t FLT_MIN_NORMAL{ 0.000000000000000000000000000000000000011754944 };
 
-  /// @brief Field INFINITY offset 0xffffffff size 0x4
-  static constexpr float_t INFINITY{ INFINITY };
-
   /// @brief Field INFINITY_DBL offset 0xffffffff size 0x8
   static constexpr double_t INFINITY_DBL{ INFINITY };
 
@@ -6425,9 +6423,6 @@ public:
   /// @brief Field LOG2E_DBL offset 0xffffffff size 0x8
   static constexpr double_t LOG2E_DBL{ 1.4426950408889634 };
 
-  /// @brief Field NAN offset 0xffffffff size 0x4
-  static constexpr float_t NAN{ NAN };
-
   /// @brief Field NAN_DBL offset 0xffffffff size 0x8
   static constexpr double_t NAN_DBL{ NAN };
 
@@ -6442,6 +6437,12 @@ public:
 
   /// @brief Field SQRT2_DBL offset 0xffffffff size 0x8
   static constexpr double_t SQRT2_DBL{ 1.4142135623730951 };
+
+  /// @brief Field INFINITY offset 0xffffffff size 0x4
+  static constexpr float_t _cordl_INFINITY{ INFINITY };
+
+  /// @brief Field NAN offset 0xffffffff size 0x4
+  static constexpr float_t _cordl_NAN{ NAN };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

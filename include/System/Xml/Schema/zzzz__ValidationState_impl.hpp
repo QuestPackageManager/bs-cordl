@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/ValidationState.hpp"
 #include "System/Xml/Schema/zzzz__StateUnion_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaContentProcessing_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaValidity_impl.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/ThreadPool.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/zzzz__ThreadPool_def.hpp"
 #include "System/Threading/zzzz__IThreadPoolWorkItem_def.hpp"

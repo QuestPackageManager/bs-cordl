@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Schema/JsonSchemaNode.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Schema/zzzz__JsonSchemaNode_def.hpp"
 #include "Newtonsoft/Json/Schema/zzzz__JsonSchemaNode_def.hpp"

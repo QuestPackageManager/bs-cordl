@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ProBuilder/UnwrapParameters.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__UnwrapParameters_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ProBuilder::UnwrapParameters.get_hardAngle

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "ENet/InterceptCallback.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "ENet/zzzz__InterceptCallback_def.hpp"
 #include "ENet/zzzz__Address_def.hpp"

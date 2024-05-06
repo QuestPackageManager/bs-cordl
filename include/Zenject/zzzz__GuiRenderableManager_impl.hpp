@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/GuiRenderableManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__GuiRenderableManager_def.hpp"
 #include "ModestTree/Util/zzzz__ValuePair_2_def.hpp"

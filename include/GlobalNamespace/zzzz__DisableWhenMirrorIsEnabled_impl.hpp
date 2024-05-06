@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/DisableWhenMirrorIsEnabled.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__DisableWhenMirrorIsEnabled_def.hpp"
 #include "GlobalNamespace/zzzz__Mirror_def.hpp"

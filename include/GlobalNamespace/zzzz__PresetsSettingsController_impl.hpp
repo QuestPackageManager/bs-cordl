@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/PresetsSettingsController.hpp"
 #include "GlobalNamespace/zzzz__ListSettingsController_impl.hpp"
 #include "GlobalNamespace/zzzz__PresetsSettingsController_def.hpp"
 #include "GlobalNamespace/zzzz__NamedPresetsSO_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Math/EC/Abc/Tnaf.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Math/EC/Abc/zzzz__Tnaf_def.hpp"
 #include "Org/BouncyCastle/Math/EC/Abc/zzzz__SimpleBigDecimal_def.hpp"

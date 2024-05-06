@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/IVisualTreeUpdater.hpp"
 #include "UnityEngine/UIElements/zzzz__IVisualTreeUpdater_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ZenjectSafeBehaviour.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ZenjectSafeBehaviour_def.hpp"
 #include "System/zzzz__Object_def.hpp"

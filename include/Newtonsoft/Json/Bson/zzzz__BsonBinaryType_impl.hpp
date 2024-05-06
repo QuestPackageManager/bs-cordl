@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Bson/BsonBinaryType.hpp"
 #include "Newtonsoft/Json/Bson/zzzz__BsonBinaryType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::Newtonsoft::Json::Bson::BsonBinaryType::BsonBinaryType(uint8_t value__) noexcept {

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Versioning/TargetFrameworkAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Runtime/Versioning/zzzz__TargetFrameworkAttribute_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Versioning::TargetFrameworkAttribute._ctor

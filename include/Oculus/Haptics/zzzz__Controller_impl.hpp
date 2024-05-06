@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Haptics/Controller.hpp"
 #include "Oculus/Haptics/zzzz__Controller_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::Oculus::Haptics::Controller::Controller(int32_t value__) noexcept {

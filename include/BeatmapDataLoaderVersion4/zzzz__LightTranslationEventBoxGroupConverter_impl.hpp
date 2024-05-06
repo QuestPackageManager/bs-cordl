@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatmapDataLoaderVersion4/LightTranslationEventBoxGroupConverter.hpp"
 #include "BeatmapDataLoaderVersion4/zzzz__EventBoxGroupConverter_impl.hpp"
 #include "BeatmapDataLoaderVersion4/zzzz__LightTranslationEventBoxGroupConverter_def.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__EventBox_def.hpp"

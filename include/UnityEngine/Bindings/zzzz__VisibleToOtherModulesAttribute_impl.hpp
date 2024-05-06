@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Bindings/VisibleToOtherModulesAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/Bindings/zzzz__VisibleToOtherModulesAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Bindings::VisibleToOtherModulesAttribute._ctor

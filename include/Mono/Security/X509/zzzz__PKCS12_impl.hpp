@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Security/X509/PKCS12.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Security/X509/zzzz__PKCS12_def.hpp"
 #include "Mono/Security/Cryptography/zzzz__PKCS8_def.hpp"

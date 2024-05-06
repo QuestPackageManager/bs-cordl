@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/Syntax/Expression.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/StyleSheets/Syntax/zzzz__DataType_impl.hpp"
 #include "UnityEngine/UIElements/StyleSheets/Syntax/zzzz__ExpressionCombinator_impl.hpp"

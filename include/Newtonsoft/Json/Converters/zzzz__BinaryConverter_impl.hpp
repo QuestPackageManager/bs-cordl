@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Converters/BinaryConverter.hpp"
 #include "Newtonsoft/Json/zzzz__JsonConverter_impl.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__BinaryConverter_def.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__ReflectionObject_def.hpp"

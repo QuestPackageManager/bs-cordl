@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BeatmapCharacteristicInstaller.hpp"
 #include "BGLib/AppFlow/Initialization/zzzz__ScriptableObjectReferenceAsyncInstaller_1_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristicInstaller_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristicCollectionSO_def.hpp"

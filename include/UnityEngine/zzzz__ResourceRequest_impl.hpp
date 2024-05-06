@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ResourceRequest.hpp"
 #include "UnityEngine/zzzz__AsyncOperation_impl.hpp"
 #include "UnityEngine/zzzz__ResourceRequest_def.hpp"
 #include "System/zzzz__Type_def.hpp"

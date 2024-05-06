@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ConsoleScreenBufferInfo.hpp"
 #include "System/zzzz__Coord_impl.hpp"
 #include "System/zzzz__SmallRect_impl.hpp"
 #include "System/zzzz__ConsoleScreenBufferInfo_def.hpp"

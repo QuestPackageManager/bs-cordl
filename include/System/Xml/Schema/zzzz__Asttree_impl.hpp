@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/Asttree.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Schema/zzzz__Asttree_def.hpp"
 #include "MS/Internal/Xml/XPath/zzzz__Axis_def.hpp"

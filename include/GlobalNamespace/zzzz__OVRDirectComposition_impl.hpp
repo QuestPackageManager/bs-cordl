@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OVRDirectComposition.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRDirectComposition_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OVRDirectComposition._ctor

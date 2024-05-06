@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/InteropServices/InAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Runtime/InteropServices/zzzz__InAttribute_def.hpp"
 //  Writing Method size for method: ::System::Runtime::InteropServices::InAttribute._ctor

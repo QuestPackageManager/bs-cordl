@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Globalization/Unicode/Contraction.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Globalization/Unicode/zzzz__Contraction_def.hpp"
 //  Writing Method size for method: ::Mono::Globalization::Unicode::Contraction._ctor

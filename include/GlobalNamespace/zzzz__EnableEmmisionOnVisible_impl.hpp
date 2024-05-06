@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/EnableEmmisionOnVisible.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__EnableEmmisionOnVisible_def.hpp"
 #include "UnityEngine/zzzz__ParticleSystem_def.hpp"

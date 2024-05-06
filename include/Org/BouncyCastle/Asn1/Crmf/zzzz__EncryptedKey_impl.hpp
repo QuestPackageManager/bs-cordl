@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Crmf/EncryptedKey.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Crmf/zzzz__EncryptedKey_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__EnvelopedData_def.hpp"

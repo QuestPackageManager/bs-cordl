@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/Touchable.hpp"
 #include "UnityEngine/UI/zzzz__Graphic_impl.hpp"
 #include "HMUI/zzzz__Touchable_def.hpp"
 #include "UnityEngine/UI/zzzz__VertexHelper_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/Interpolation.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__Interpolation_def.hpp"
 #include "GlobalNamespace/zzzz__EaseType_def.hpp"

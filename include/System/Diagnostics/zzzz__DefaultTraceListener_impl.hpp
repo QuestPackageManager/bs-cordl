@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Diagnostics/DefaultTraceListener.hpp"
 #include "System/Diagnostics/zzzz__TraceListener_impl.hpp"
 #include "System/Diagnostics/zzzz__DefaultTraceListener_def.hpp"
 //  Writing Method size for method: ::System::Diagnostics::DefaultTraceListener.GetPrefix

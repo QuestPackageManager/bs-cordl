@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityOpus/ErrorCode.hpp"
 #include "UnityOpus/zzzz__ErrorCode_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityOpus::ErrorCode::ErrorCode(int32_t value__) noexcept {

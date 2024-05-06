@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Priority_Queue/IPriorityQueue_2.hpp"
 #include "Priority_Queue/zzzz__IPriorityQueue_2_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"

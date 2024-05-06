@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/IInstaller.hpp"
 #include "Zenject/zzzz__IInstaller_def.hpp"
 //  Writing Method size for method: ::Zenject::IInstaller.InstallBindings
 template <>

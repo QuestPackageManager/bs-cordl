@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/Tasks/TaskExceptionHolder.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/Tasks/zzzz__TaskExceptionHolder_def.hpp"
 #include "System/Collections/Generic/zzzz__LowLevelListWithIList_1_def.hpp"

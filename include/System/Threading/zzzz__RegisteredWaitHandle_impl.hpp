@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/RegisteredWaitHandle.hpp"
 #include "System/zzzz__MarshalByRefObject_impl.hpp"
 #include "System/zzzz__TimeSpan_impl.hpp"
 #include "System/Threading/zzzz__RegisteredWaitHandle_def.hpp"

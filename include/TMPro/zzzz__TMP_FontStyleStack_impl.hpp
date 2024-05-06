@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/TMP_FontStyleStack.hpp"
 #include "TMPro/zzzz__TMP_FontStyleStack_def.hpp"
 #include "TMPro/zzzz__FontStyles_def.hpp"
 //  Writing Method size for method: ::TMPro::TMP_FontStyleStack.Clear

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/Messaging/MCMDictionary.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__MessageDictionary_impl.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__MCMDictionary_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IMethodMessage_def.hpp"

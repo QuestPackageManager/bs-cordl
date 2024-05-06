@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Bcpg/UserAttributeSubpacket.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__UserAttributeSubpacketTag_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__UserAttributeSubpacket_def.hpp"

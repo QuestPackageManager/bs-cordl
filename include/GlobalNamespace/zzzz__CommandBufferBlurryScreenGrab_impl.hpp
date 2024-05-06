@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/CommandBufferBlurryScreenGrab.hpp"
 #include "GlobalNamespace/zzzz__CommandBufferGOCore_impl.hpp"
 #include "GlobalNamespace/zzzz__KawaseBlurRendererSO_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__CameraEvent_impl.hpp"

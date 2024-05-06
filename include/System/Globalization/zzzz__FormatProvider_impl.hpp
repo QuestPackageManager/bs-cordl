@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Globalization/FormatProvider.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Globalization/zzzz__FormatProvider_def.hpp"
 #include "System/Globalization/zzzz__FormatProvider_def.hpp"

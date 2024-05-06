@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/SystemNetworkCredential.hpp"
 #include "System/Net/zzzz__NetworkCredential_impl.hpp"
 #include "System/Net/zzzz__SystemNetworkCredential_def.hpp"
 //  Writing Method size for method: ::System::Net::SystemNetworkCredential._ctor

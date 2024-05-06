@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/Internal/LookupId.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__BindingId_impl.hpp"
 #include "Zenject/Internal/zzzz__LookupId_def.hpp"

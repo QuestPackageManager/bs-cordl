@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/SystemLanguage.hpp"
 #include "UnityEngine/zzzz__SystemLanguage_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::SystemLanguage::SystemLanguage(int32_t value__) noexcept {

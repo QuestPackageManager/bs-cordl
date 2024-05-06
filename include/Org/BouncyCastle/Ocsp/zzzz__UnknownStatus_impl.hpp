@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Ocsp/UnknownStatus.hpp"
 #include "Org/BouncyCastle/Ocsp/zzzz__CertificateStatus_impl.hpp"
 #include "Org/BouncyCastle/Ocsp/zzzz__UnknownStatus_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Ocsp::UnknownStatus._ctor

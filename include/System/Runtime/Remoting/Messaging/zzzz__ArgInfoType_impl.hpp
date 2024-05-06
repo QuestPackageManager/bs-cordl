@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/Messaging/ArgInfoType.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__ArgInfoType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Runtime::Remoting::Messaging::ArgInfoType::ArgInfoType(uint8_t value__) noexcept {

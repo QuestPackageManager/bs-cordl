@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/UpaException.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "System/Xml/Schema/zzzz__UpaException_def.hpp"
 #include "System/zzzz__Object_def.hpp"

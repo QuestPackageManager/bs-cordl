@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/NetworkInformation/NetworkInformationException.hpp"
 #include "System/ComponentModel/zzzz__Win32Exception_impl.hpp"
 #include "System/Net/NetworkInformation/zzzz__NetworkInformationException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/MessageWithAssetFileDownloadResult.hpp"
 #include "Oculus/Platform/zzzz__Message_1_impl.hpp"
 #include "Oculus/Platform/zzzz__MessageWithAssetFileDownloadResult_def.hpp"
 #include "Oculus/Platform/Models/zzzz__AssetFileDownloadResult_def.hpp"

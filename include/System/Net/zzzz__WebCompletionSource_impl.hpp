@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/WebCompletionSource.hpp"
 #include "System/Net/zzzz__WebCompletionSource_1_impl.hpp"
 #include "System/Net/zzzz__WebCompletionSource_def.hpp"
 #include "System/zzzz__Object_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Rendering/ReflectionProbeClearFlags.hpp"
 #include "UnityEngine/Rendering/zzzz__ReflectionProbeClearFlags_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Rendering::ReflectionProbeClearFlags::ReflectionProbeClearFlags(int32_t value__) noexcept {

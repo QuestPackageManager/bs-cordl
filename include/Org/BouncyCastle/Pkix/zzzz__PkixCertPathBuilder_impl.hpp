@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Pkix/PkixCertPathBuilder.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Pkix/zzzz__PkixCertPathBuilder_def.hpp"
 #include "Org/BouncyCastle/Pkix/zzzz__PkixBuilderParameters_def.hpp"

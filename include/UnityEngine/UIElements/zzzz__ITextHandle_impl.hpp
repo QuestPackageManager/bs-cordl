@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/ITextHandle.hpp"
 #include "UnityEngine/UIElements/zzzz__ITextHandle_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextInfo_def.hpp"
 #include "UnityEngine/UIElements/zzzz__CursorPositionStylePainterParameters_def.hpp"

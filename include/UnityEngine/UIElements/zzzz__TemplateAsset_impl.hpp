@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/TemplateAsset.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElementAsset_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TemplateAsset_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"

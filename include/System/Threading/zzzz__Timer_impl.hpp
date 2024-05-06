@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/Timer.hpp"
 #include "System/zzzz__MarshalByRefObject_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/zzzz__Timer_def.hpp"

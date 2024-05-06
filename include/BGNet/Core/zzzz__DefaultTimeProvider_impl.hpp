@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BGNet/Core/DefaultTimeProvider.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BGNet/Core/zzzz__DefaultTimeProvider_def.hpp"
 #include "BGNet/Core/zzzz__ITimeProvider_def.hpp"

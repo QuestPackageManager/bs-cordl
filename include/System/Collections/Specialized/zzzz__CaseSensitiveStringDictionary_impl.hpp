@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Collections/Specialized/CaseSensitiveStringDictionary.hpp"
 #include "System/Collections/Specialized/zzzz__StringDictionary_impl.hpp"
 #include "System/Collections/Specialized/zzzz__CaseSensitiveStringDictionary_def.hpp"
 //  Writing Method size for method: ::System::Collections::Specialized::CaseSensitiveStringDictionary._ctor

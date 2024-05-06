@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatmapSaveDataVersion3/IndexFilter.hpp"
 #include "BeatmapSaveDataCommon/zzzz__IndexFilterLimitAlsoAffectsType_impl.hpp"
 #include "BeatmapSaveDataCommon/zzzz__IndexFilterRandomType_impl.hpp"
 #include "BeatmapSaveDataCommon/zzzz__IndexFilterType_impl.hpp"

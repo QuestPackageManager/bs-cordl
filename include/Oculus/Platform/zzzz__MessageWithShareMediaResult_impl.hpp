@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/MessageWithShareMediaResult.hpp"
 #include "Oculus/Platform/zzzz__Message_1_impl.hpp"
 #include "Oculus/Platform/zzzz__MessageWithShareMediaResult_def.hpp"
 #include "Oculus/Platform/Models/zzzz__ShareMediaResult_def.hpp"

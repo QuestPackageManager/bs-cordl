@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ResourceManagement/Diagnostics/DiagnosticEventCollector.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/ResourceManagement/Diagnostics/zzzz__DiagnosticEventCollector_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"

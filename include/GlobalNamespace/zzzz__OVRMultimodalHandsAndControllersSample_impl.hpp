@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OVRMultimodalHandsAndControllersSample.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRMultimodalHandsAndControllersSample_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"

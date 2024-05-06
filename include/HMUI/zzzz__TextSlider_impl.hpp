@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/TextSlider.hpp"
 #include "UnityEngine/UI/zzzz__Selectable_impl.hpp"
 #include "UnityEngine/zzzz__DrivenRectTransformTracker_impl.hpp"
 #include "HMUI/zzzz__TextSlider_def.hpp"

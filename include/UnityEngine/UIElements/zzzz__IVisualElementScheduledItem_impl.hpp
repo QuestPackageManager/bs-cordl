@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/IVisualElementScheduledItem.hpp"
 #include "UnityEngine/UIElements/zzzz__IVisualElementScheduledItem_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::IVisualElementScheduledItem.Resume
 template <>

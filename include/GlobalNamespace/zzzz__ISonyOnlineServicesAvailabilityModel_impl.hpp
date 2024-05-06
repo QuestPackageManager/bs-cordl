@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ISonyOnlineServicesAvailabilityModel.hpp"
 #include "GlobalNamespace/zzzz__ISonyOnlineServicesAvailabilityModel_def.hpp"
 #include "GlobalNamespace/zzzz__ISonyOnlineServicesAvailabilityModel_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"

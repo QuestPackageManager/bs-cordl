@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/NoteDebrisRigidbodyPhysics.hpp"
 #include "GlobalNamespace/zzzz__NoteDebrisPhysics_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteDebrisRigidbodyPhysics_def.hpp"
 #include "GlobalNamespace/zzzz__NoteDebrisSimplePhysics_def.hpp"

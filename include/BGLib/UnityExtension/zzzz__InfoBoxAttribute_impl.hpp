@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BGLib/UnityExtension/InfoBoxAttribute.hpp"
 #include "BGLib/UnityExtension/zzzz__InfoBoxAttribute_impl.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "BGLib/UnityExtension/zzzz__InfoBoxAttribute_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/XmlIgnoreNamespaceReader.hpp"
 #include "System/Xml/zzzz__XmlNodeReader_impl.hpp"
 #include "System/Data/zzzz__XmlIgnoreNamespaceReader_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatSaber/BeatAvatarSDK/AvatarSpritePartSO.hpp"
 #include "BeatSaber/BeatAvatarSDK/zzzz__AvatarPartSO_1_impl.hpp"
 #include "BeatSaber/BeatAvatarSDK/zzzz__AvatarSpritePartSO_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"

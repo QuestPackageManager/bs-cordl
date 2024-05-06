@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HEU_VolumeScatterTrees.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_VolumeScatterTrees_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_TreePrototypeInfo_def.hpp"

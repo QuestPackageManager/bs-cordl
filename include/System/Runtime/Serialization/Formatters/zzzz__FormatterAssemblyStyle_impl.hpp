@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Serialization/Formatters/FormatterAssemblyStyle.hpp"
 #include "System/Runtime/Serialization/Formatters/zzzz__FormatterAssemblyStyle_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle::FormatterAssemblyStyle(int32_t value__) noexcept {

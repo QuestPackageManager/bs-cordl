@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OVRGearVrControllerTest.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRGearVrControllerTest_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OVRGearVrControllerTest._ctor

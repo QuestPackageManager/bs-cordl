@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Cryptography/DerSequenceReader.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Security/Cryptography/zzzz__DerSequenceReader_def.hpp"
 #include "System/Globalization/zzzz__DateTimeFormatInfo_def.hpp"

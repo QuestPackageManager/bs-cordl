@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Globalization/HebrewNumber.hpp"
 #include "System/Globalization/zzzz__HebrewNumber_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Globalization/zzzz__HebrewNumber_def.hpp"

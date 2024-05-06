@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Sockets/SocketAsyncOperation.hpp"
 #include "System/Net/Sockets/zzzz__SocketAsyncOperation_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Net::Sockets::SocketAsyncOperation::SocketAsyncOperation(int32_t value__) noexcept {

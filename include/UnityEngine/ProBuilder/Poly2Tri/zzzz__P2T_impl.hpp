@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ProBuilder/Poly2Tri/P2T.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__TriangulationAlgorithm_impl.hpp"
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__P2T_def.hpp"

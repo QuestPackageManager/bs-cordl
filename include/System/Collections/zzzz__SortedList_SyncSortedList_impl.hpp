@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Collections/SortedList_SyncSortedList.hpp"
 #include "System/Collections/zzzz__SortedList_impl.hpp"
 #include "System/Collections/zzzz__SortedList_SyncSortedList_def.hpp"
 #include "System/Collections/zzzz__IDictionaryEnumerator_def.hpp"

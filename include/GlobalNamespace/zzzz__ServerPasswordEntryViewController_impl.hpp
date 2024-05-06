@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ServerPasswordEntryViewController.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__ServerPasswordEntryViewController_def.hpp"
 #include "GlobalNamespace/zzzz__INetworkPlayer_def.hpp"

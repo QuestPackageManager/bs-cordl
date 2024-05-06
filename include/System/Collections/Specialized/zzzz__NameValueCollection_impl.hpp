@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Collections/Specialized/NameValueCollection.hpp"
 #include "System/Collections/Specialized/zzzz__NameObjectCollectionBase_impl.hpp"
 #include "System/Collections/Specialized/zzzz__NameValueCollection_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"

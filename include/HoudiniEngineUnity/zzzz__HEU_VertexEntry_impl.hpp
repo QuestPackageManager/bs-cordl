@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HEU_VertexEntry.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_VertexEntry_def.hpp"
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_VertexEntry._ctor

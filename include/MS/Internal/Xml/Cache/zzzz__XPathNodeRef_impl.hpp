@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "MS/Internal/Xml/Cache/XPathNodeRef.hpp"
 #include "MS/Internal/Xml/Cache/zzzz__XPathNodeRef_def.hpp"
 #include "MS/Internal/Xml/Cache/zzzz__XPathNode_def.hpp"
 //  Writing Method size for method: ::MS::Internal::Xml::Cache::XPathNodeRef._ctor

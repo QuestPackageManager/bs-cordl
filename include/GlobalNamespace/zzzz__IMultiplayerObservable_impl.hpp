@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IMultiplayerObservable.hpp"
 #include "GlobalNamespace/zzzz__IMultiplayerObservable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IMultiplayerObservable.get_offsetSyncTime
 template <>

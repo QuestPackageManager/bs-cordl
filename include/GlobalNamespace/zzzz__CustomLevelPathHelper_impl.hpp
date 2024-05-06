@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/CustomLevelPathHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__CustomLevelPathHelper_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::CustomLevelPathHelper._ctor

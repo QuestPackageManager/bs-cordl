@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/FocusType.hpp"
 #include "UnityEngine/zzzz__FocusType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::FocusType::FocusType(int32_t value__) noexcept {

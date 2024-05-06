@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Numerics/Hashing/HashHelpers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Numerics/Hashing/zzzz__HashHelpers_def.hpp"
 //  Writing Method size for method: ::System::Numerics::Hashing::HashHelpers.Combine

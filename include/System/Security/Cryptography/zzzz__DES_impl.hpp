@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Cryptography/DES.hpp"
 #include "System/Security/Cryptography/zzzz__SymmetricAlgorithm_impl.hpp"
 #include "System/Security/Cryptography/zzzz__DES_def.hpp"
 #include "System/Security/Cryptography/zzzz__KeySizes_def.hpp"

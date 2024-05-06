@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OVRGrabbable.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRGrabbable_def.hpp"
 #include "GlobalNamespace/zzzz__OVRGrabber_def.hpp"

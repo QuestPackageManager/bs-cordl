@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Assertions/Assert.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Assertions/zzzz__Assert_def.hpp"
 #include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"

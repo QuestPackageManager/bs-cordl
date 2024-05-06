@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/ScrollToTopOnEnable.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__ScrollToTopOnEnable_def.hpp"
 #include "HMUI/zzzz__ScrollView_def.hpp"

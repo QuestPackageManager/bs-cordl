@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/ChangeEvent_1.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__ChangeEvent_1_def.hpp"
 template <typename T> constexpr T& UnityEngine::UIElements::ChangeEvent_1<T>::__cordl_internal_get__previousValue_k__BackingField() {

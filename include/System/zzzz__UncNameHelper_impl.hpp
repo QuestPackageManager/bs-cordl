@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/UncNameHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__UncNameHelper_def.hpp"
 //  Writing Method size for method: ::System::UncNameHelper.ParseCanonicalName

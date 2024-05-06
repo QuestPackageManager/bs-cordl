@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Xsl/Runtime/StringConcat.hpp"
 #include "System/Xml/Xsl/Runtime/zzzz__StringConcat_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: ::System::Xml::Xsl::Runtime::StringConcat.Clear

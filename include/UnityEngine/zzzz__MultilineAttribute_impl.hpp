@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/MultilineAttribute.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "UnityEngine/zzzz__MultilineAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::MultilineAttribute._ctor

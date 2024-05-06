@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/AutoSetupController.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__AutoSetupController_def.hpp"
 #include "GlobalNamespace/zzzz__AutoSetupData_def.hpp"

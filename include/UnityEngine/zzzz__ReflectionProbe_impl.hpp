@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ReflectionProbe.hpp"
 #include "UnityEngine/zzzz__Behaviour_impl.hpp"
 #include "UnityEngine/zzzz__ReflectionProbe_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"

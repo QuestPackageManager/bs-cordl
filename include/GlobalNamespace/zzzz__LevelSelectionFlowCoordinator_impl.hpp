@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/LevelSelectionFlowCoordinator.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_impl.hpp"
 #include "GlobalNamespace/zzzz__SelectLevelCategoryViewController_impl.hpp"
 #include "HMUI/zzzz__FlowCoordinator_impl.hpp"

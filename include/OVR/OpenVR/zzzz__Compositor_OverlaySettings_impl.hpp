@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/Compositor_OverlaySettings.hpp"
 #include "OVR/OpenVR/zzzz__HmdMatrix44_t_impl.hpp"
 #include "OVR/OpenVR/zzzz__Compositor_OverlaySettings_def.hpp"
 #include "OVR/OpenVR/zzzz__HmdMatrix44_t_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Sensor.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputDevice_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__Sensor_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Sensor.get_samplingFrequency

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/SpatialTracking/TrackedPoseDriver.hpp"
 #include "UnityEngine/SpatialTracking/zzzz__TrackedPoseDriver_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Pose_impl.hpp"

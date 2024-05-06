@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatmapSaveDataCommon/IBeat.hpp"
 #include "BeatmapSaveDataCommon/zzzz__IBeat_def.hpp"
 #include "System/zzzz__IComparable_1_def.hpp"
 //  Writing Method size for method: ::BeatmapSaveDataCommon::IBeat.get_beat

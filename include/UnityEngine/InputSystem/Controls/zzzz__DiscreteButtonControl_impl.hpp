@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Controls/DiscreteButtonControl.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_impl.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__DiscreteButtonControl_impl.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__DiscreteButtonControl_def.hpp"

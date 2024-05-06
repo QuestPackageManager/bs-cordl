@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LiteNetLib/NatPunchModule.hpp"
 #include "LiteNetLib/zzzz__NatAddressType_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "LiteNetLib/zzzz__NatPunchModule_def.hpp"

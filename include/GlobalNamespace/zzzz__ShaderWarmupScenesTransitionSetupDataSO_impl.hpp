@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ShaderWarmupScenesTransitionSetupDataSO.hpp"
 #include "GlobalNamespace/zzzz__SingleFixedSceneScenesTransitionSetupDataSO_impl.hpp"
 #include "GlobalNamespace/zzzz__ShaderWarmupScenesTransitionSetupDataSO_def.hpp"
 #include "GlobalNamespace/zzzz__ShaderWarmupSceneSetupData_def.hpp"

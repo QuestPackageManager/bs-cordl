@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/StringBuffer.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__StringBuffer_def.hpp"
 #include "Newtonsoft/Json/zzzz__IArrayPool_1_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Utilities::StringBuffer.get_Position

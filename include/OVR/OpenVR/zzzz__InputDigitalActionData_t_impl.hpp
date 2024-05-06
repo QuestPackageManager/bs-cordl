@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/InputDigitalActionData_t.hpp"
 #include "OVR/OpenVR/zzzz__InputDigitalActionData_t_def.hpp"
 // Ctor Parameters [CppParam { name: "bActive", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "activeOrigin", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam {
 // name: "bState", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "bChanged", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "fUpdateTime", ty: "float_t",

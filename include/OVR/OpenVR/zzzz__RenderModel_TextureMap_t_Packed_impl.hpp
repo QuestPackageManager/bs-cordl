@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/RenderModel_TextureMap_t_Packed.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "OVR/OpenVR/zzzz__RenderModel_TextureMap_t_Packed_def.hpp"
 #include "OVR/OpenVR/zzzz__RenderModel_TextureMap_t_def.hpp"

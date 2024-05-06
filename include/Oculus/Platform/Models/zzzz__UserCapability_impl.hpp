@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/Models/UserCapability.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/Models/zzzz__UserCapability_def.hpp"
 //  Writing Method size for method: ::Oculus::Platform::Models::UserCapability._ctor

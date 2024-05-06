@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/CompositeLogger.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__CompositeLogger_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatSaberLogger_def.hpp"

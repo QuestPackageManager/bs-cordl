@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/Burst/OptimizeFor.hpp"
 #include "Unity/Burst/zzzz__OptimizeFor_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::Unity::Burst::OptimizeFor::OptimizeFor(int32_t value__) noexcept {

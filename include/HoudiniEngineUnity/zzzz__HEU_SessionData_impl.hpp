@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HEU_SessionData.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_Session_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__SessionConnectionState_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__SessionMode_impl.hpp"

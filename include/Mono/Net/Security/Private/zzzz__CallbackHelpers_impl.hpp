@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Net/Security/Private/CallbackHelpers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Net/Security/Private/zzzz__CallbackHelpers_def.hpp"
 #include "Mono/Net/Security/Private/zzzz__CallbackHelpers_def.hpp"

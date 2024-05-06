@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "JetBrains/Annotations/RazorImportNamespaceAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "JetBrains/Annotations/zzzz__RazorImportNamespaceAttribute_def.hpp"
 //  Writing Method size for method: ::JetBrains::Annotations::RazorImportNamespaceAttribute._ctor

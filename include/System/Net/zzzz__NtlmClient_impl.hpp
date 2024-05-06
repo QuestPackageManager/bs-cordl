@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/NtlmClient.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__NtlmClient_def.hpp"
 #include "System/Net/zzzz__Authorization_def.hpp"

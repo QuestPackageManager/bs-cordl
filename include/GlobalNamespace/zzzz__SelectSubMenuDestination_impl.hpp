@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SelectSubMenuDestination.hpp"
 #include "GlobalNamespace/zzzz__MenuDestination_impl.hpp"
 #include "GlobalNamespace/zzzz__SelectSubMenuDestination_impl.hpp"
 #include "GlobalNamespace/zzzz__SelectSubMenuDestination_def.hpp"

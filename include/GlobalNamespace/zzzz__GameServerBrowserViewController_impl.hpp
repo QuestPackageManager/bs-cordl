@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/GameServerBrowserViewController.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__GameServerBrowserViewController_def.hpp"
 #include "GlobalNamespace/zzzz__GameServersFilterText_def.hpp"

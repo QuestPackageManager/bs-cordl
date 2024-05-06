@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Serialization/SurrogateHashtable.hpp"
 #include "System/Collections/zzzz__Hashtable_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__SurrogateHashtable_def.hpp"
 #include "System/zzzz__Object_def.hpp"

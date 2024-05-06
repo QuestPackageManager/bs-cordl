@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/TypeNameParser.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__TypeNameParser_def.hpp"
 #include "System/Reflection/zzzz__AssemblyName_def.hpp"

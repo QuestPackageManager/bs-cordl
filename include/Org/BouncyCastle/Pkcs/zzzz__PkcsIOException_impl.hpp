@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Pkcs/PkcsIOException.hpp"
 #include "System/IO/zzzz__IOException_impl.hpp"
 #include "Org/BouncyCastle/Pkcs/zzzz__PkcsIOException_def.hpp"
 #include "System/zzzz__Exception_def.hpp"

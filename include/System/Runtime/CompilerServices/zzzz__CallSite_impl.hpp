@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/CompilerServices/CallSite.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__CallSite_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__CallSiteBinder_def.hpp"

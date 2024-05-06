@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BGLib/JsonExtension/Vector3Converter.hpp"
 #include "Newtonsoft/Json/zzzz__JsonConverter_1_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "BGLib/JsonExtension/zzzz__Vector3Converter_def.hpp"

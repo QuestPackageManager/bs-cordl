@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Asn1Null.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Null_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::Asn1Null._ctor

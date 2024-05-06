@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MultiplayerLevelNoTransitionInstaller.hpp"
 #include "Zenject/zzzz__NoTransitionInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLevelNoTransitionInstaller_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerLevelNoTransitionInstaller._ctor

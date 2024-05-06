@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/Burst/LowLevel/BurstCompilerService.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Burst/LowLevel/zzzz__BurstCompilerService_def.hpp"
 #include "System/Reflection/zzzz__MethodInfo_def.hpp"

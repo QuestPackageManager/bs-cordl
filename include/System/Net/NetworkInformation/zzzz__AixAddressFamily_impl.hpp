@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/NetworkInformation/AixAddressFamily.hpp"
 #include "System/Net/NetworkInformation/zzzz__AixAddressFamily_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Net::NetworkInformation::AixAddressFamily::AixAddressFamily(int32_t value__) noexcept {

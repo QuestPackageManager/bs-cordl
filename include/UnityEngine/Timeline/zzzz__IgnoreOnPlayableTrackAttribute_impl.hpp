@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Timeline/IgnoreOnPlayableTrackAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__IgnoreOnPlayableTrackAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Timeline::IgnoreOnPlayableTrackAttribute._ctor

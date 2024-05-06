@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Collections/Concurrent/ConcurrentDictionary_2.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/Concurrent/zzzz__ConcurrentDictionary_2_def.hpp"

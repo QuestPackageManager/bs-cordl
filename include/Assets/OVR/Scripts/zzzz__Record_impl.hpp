@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Assets/OVR/Scripts/Record.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Assets/OVR/Scripts/zzzz__Record_def.hpp"
 //  Writing Method size for method: ::Assets::OVR::Scripts::Record._ctor

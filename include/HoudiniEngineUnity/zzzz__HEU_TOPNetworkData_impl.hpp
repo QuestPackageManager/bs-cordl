@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HEU_TOPNetworkData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_TOPNetworkData_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_TOPNodeData_def.hpp"

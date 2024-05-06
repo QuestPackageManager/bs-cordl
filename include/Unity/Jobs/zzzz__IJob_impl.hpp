@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/Jobs/IJob.hpp"
 #include "Unity/Jobs/zzzz__IJob_def.hpp"
 //  Writing Method size for method: ::Unity::Jobs::IJob.Execute
 template <>

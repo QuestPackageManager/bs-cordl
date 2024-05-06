@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/PlayingTutorialPresenceData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PlayingTutorialPresenceData_def.hpp"
 #include "GlobalNamespace/zzzz__IRichPresenceData_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Collections/Specialized/BitVector32.hpp"
 #include "System/Collections/Specialized/zzzz__BitVector32_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Collections::Specialized::BitVector32.get_Item

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/VoipManager.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__VoipManager_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::VoipManager._ctor

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/DataViewListener.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Data/zzzz__DataViewListener_def.hpp"
 #include "System/ComponentModel/zzzz__CollectionChangeEventArgs_def.hpp"

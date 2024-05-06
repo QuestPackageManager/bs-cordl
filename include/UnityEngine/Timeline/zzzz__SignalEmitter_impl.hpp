@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Timeline/SignalEmitter.hpp"
 #include "UnityEngine/Timeline/zzzz__Marker_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__SignalEmitter_def.hpp"
 #include "UnityEngine/Playables/zzzz__INotification_def.hpp"

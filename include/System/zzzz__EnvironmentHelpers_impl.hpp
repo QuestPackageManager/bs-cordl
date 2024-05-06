@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/EnvironmentHelpers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__EnvironmentHelpers_def.hpp"
 //  Writing Method size for method: ::System::EnvironmentHelpers.IsWindowsVistaOrAbove

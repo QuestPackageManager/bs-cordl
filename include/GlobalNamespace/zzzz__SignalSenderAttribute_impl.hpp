@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SignalSenderAttribute.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "GlobalNamespace/zzzz__SignalSenderAttribute_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SignalSenderAttribute._ctor

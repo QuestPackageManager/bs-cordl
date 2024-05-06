@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Numerics/BigIntegerCalculator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Numerics/zzzz__BigIntegerCalculator_def.hpp"
 //  Writing Method size for method: ::System::Numerics::BigIntegerCalculator.Add

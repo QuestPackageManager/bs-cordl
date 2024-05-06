@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Modes/Gcm/GcmUtilities.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Modes/Gcm/zzzz__GcmUtilities_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Modes::Gcm::GcmUtilities.GenerateLookup

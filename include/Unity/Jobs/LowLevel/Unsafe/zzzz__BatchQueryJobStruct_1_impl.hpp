@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/Jobs/LowLevel/Unsafe/BatchQueryJobStruct_1.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "Unity/Jobs/LowLevel/Unsafe/zzzz__BatchQueryJobStruct_1_def.hpp"
 template <typename T> inline void Unity::Jobs::LowLevel::Unsafe::BatchQueryJobStruct_1<T>::setStaticF_jobReflectionData(void* value) {

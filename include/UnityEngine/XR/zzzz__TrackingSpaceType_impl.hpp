@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/XR/TrackingSpaceType.hpp"
 #include "UnityEngine/XR/zzzz__TrackingSpaceType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::XR::TrackingSpaceType::TrackingSpaceType(int32_t value__) noexcept {

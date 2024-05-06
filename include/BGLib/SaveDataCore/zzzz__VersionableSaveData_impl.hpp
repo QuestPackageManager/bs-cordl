@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BGLib/SaveDataCore/VersionableSaveData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BGLib/SaveDataCore/zzzz__VersionableSaveData_def.hpp"
 #include "BGLib/SaveDataCore/zzzz__ISerializableSaveData_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Security/Interface/Alert.hpp"
 #include "Mono/Security/Interface/zzzz__AlertDescription_impl.hpp"
 #include "Mono/Security/Interface/zzzz__AlertLevel_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"

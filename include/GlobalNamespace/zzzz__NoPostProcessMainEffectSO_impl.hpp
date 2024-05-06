@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/NoPostProcessMainEffectSO.hpp"
 #include "GlobalNamespace/zzzz__MainEffectSO_impl.hpp"
 #include "GlobalNamespace/zzzz__NoPostProcessMainEffectSO_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Serialization/ObjectHolderListEnumerator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__ObjectHolderListEnumerator_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ObjectHolderList_def.hpp"

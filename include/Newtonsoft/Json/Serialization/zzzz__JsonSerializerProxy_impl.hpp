@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/JsonSerializerProxy.hpp"
 #include "Newtonsoft/Json/zzzz__JsonSerializer_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__JsonSerializerProxy_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__ErrorEventArgs_def.hpp"

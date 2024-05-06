@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MissionNodeGizmos.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionNodeGizmos_def.hpp"
 #include "GlobalNamespace/zzzz__CampaignProgressModel_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Resources/NeutralResourcesLanguageAttribute.hpp"
 #include "System/Resources/zzzz__UltimateResourceFallbackLocation_impl.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Resources/zzzz__NeutralResourcesLanguageAttribute_def.hpp"

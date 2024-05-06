@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Pkcs/X509CertificateEntry.hpp"
 #include "Org/BouncyCastle/Pkcs/zzzz__Pkcs12Entry_impl.hpp"
 #include "Org/BouncyCastle/Pkcs/zzzz__X509CertificateEntry_def.hpp"
 #include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"

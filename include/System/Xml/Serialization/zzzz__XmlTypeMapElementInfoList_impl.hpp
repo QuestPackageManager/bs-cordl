@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Serialization/XmlTypeMapElementInfoList.hpp"
 #include "System/Collections/zzzz__ArrayList_impl.hpp"
 #include "System/Xml/Serialization/zzzz__XmlTypeMapElementInfoList_def.hpp"
 //  Writing Method size for method: ::System::Xml::Serialization::XmlTypeMapElementInfoList._ctor

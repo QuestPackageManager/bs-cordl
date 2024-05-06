@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/ConstraintCollection.hpp"
 #include "System/Data/zzzz__InternalDataCollectionBase_impl.hpp"
 #include "System/Data/zzzz__ConstraintCollection_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"

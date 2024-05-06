@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/PS5ActivityDataSO.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__PS5ActivityDataSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PS5ActivityDataSO.get_activityId

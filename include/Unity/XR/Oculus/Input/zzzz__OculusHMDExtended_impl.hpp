@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/XR/Oculus/Input/OculusHMDExtended.hpp"
 #include "Unity/XR/Oculus/Input/zzzz__OculusHMD_impl.hpp"
 #include "Unity/XR/Oculus/Input/zzzz__OculusHMDExtended_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_def.hpp"

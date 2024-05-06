@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/PanelRaycaster.hpp"
 #include "UnityEngine/EventSystems/zzzz__BaseRaycaster_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__PanelRaycaster_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"

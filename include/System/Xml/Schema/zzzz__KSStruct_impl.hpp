@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/KSStruct.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Schema/zzzz__KSStruct_def.hpp"
 #include "System/Xml/Schema/zzzz__KeySequence_def.hpp"

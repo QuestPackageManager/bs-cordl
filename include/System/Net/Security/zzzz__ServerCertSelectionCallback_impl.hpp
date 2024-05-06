@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Security/ServerCertSelectionCallback.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Net/Security/zzzz__ServerCertSelectionCallback_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_def.hpp"

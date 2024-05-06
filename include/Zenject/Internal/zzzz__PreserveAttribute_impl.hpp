@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/Internal/PreserveAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "Zenject/Internal/zzzz__PreserveAttribute_def.hpp"
 //  Writing Method size for method: ::Zenject::Internal::PreserveAttribute._ctor

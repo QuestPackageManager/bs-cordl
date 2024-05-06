@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MockComboController.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MockComboController_def.hpp"
 #include "GlobalNamespace/zzzz__IComboController_def.hpp"

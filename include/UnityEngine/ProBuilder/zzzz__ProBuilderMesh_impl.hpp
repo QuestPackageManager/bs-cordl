@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ProBuilder/ProBuilderMesh.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__ProBuilderMesh_impl.hpp"
 #include "UnityEngine/zzzz__HideFlags_impl.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Unity/CertHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Unity/zzzz__CertHelper_def.hpp"
 #include "Mono/Unity/zzzz__UnityTls_def.hpp"

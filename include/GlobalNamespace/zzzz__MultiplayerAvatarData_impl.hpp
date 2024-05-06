@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MultiplayerAvatarData.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerAvatarData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerAvatarData._ctor
 template <>

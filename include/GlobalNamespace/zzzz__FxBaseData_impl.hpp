@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/FxBaseData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__FxBaseData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::FxBaseData._ctor

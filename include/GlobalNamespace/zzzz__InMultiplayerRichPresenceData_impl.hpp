@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/InMultiplayerRichPresenceData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__InMultiplayerRichPresenceData_def.hpp"
 #include "GlobalNamespace/zzzz__IMultiplayerRichPresenceData_def.hpp"

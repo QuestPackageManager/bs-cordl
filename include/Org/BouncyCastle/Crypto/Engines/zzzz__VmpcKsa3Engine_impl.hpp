@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Engines/VmpcKsa3Engine.hpp"
 #include "Org/BouncyCastle/Crypto/Engines/zzzz__VmpcEngine_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Engines/zzzz__VmpcKsa3Engine_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Engines::VmpcKsa3Engine.get_AlgorithmName

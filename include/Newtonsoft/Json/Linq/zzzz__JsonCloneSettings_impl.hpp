@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Linq/JsonCloneSettings.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JsonCloneSettings_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Linq::JsonCloneSettings._ctor

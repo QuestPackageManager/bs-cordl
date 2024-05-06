@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Serialization/CodeIdentifier.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Serialization/zzzz__CodeIdentifier_def.hpp"
 #include "Microsoft/CSharp/zzzz__CodeDomProvider_def.hpp"

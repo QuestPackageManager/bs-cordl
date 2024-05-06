@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LIV/SDK/Unity/LIV.hpp"
 #include "LIV/SDK/Unity/zzzz__INVALIDATION_FLAGS_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__LayerMask_impl.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/AudioListenerController.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__AudioListenerController_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::AudioListenerController.get_isPaused

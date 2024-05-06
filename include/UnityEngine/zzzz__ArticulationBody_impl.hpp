@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ArticulationBody.hpp"
 #include "UnityEngine/zzzz__Behaviour_impl.hpp"
 #include "UnityEngine/zzzz__ArticulationBody_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"

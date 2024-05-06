@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/TextEditorEngine.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/zzzz__TextEditor_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TextEditorEngine_def.hpp"

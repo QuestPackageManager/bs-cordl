@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/TlsException.hpp"
 #include "System/IO/zzzz__IOException_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsException_def.hpp"
 #include "System/zzzz__Exception_def.hpp"

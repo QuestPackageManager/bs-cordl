@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/PlaceholderFactoryBindingFinalizer_1.hpp"
 #include "Zenject/zzzz__ProviderBindingFinalizer_impl.hpp"
 #include "Zenject/zzzz__PlaceholderFactoryBindingFinalizer_1_def.hpp"
 #include "Zenject/zzzz__BindInfo_def.hpp"

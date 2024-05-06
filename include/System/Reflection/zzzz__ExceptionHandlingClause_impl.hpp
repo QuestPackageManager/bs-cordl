@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Reflection/ExceptionHandlingClause.hpp"
 #include "System/Reflection/zzzz__ExceptionHandlingClauseOptions_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Reflection/zzzz__ExceptionHandlingClause_def.hpp"

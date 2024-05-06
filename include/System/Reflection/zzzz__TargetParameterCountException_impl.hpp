@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Reflection/TargetParameterCountException.hpp"
 #include "System/zzzz__ApplicationException_impl.hpp"
 #include "System/Reflection/zzzz__TargetParameterCountException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"

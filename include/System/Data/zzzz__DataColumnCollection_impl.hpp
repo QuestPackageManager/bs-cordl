@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/DataColumnCollection.hpp"
 #include "System/Data/zzzz__InternalDataCollectionBase_impl.hpp"
 #include "System/Data/zzzz__DataColumnCollection_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"

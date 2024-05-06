@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/TextCore/Text/FontStyleStack.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__FontStyleStack_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__FontStyles_def.hpp"
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::FontStyleStack.Clear

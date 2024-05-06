@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/StateMachineBehaviour.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "UnityEngine/zzzz__StateMachineBehaviour_def.hpp"
 #include "UnityEngine/Animations/zzzz__AnimatorControllerPlayable_def.hpp"

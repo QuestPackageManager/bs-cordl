@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/ExecutionContextSwitcher.hpp"
 #include "System/Threading/zzzz__ExecutionContext_impl.hpp"
 #include "System/Threading/zzzz__ExecutionContextSwitcher_def.hpp"
 #include "System/Threading/zzzz__ExecutionContext_def.hpp"

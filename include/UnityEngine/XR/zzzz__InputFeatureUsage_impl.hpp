@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/XR/InputFeatureUsage.hpp"
 #include "UnityEngine/XR/zzzz__InputFeatureType_impl.hpp"
 #include "UnityEngine/XR/zzzz__InputFeatureUsage_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"

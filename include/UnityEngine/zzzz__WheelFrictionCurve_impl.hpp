@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/WheelFrictionCurve.hpp"
 #include "UnityEngine/zzzz__WheelFrictionCurve_def.hpp"
 //  Writing Method size for method: ::UnityEngine::WheelFrictionCurve.get_extremumSlip
 template <>

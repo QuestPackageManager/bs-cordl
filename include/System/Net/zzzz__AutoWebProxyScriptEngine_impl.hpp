@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/AutoWebProxyScriptEngine.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__AutoWebProxyScriptEngine_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"

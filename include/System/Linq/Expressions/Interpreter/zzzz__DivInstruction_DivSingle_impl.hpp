@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/DivInstruction_DivSingle.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__DivInstruction_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__DivInstruction_DivSingle_def.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__InterpretedFrame_def.hpp"

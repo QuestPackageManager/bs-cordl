@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/ValueTuple_3.hpp"
 #include "Mono/zzzz__ValueTuple_3_def.hpp"
 // Ctor Parameters [CppParam { name: "Item1", ty: "T1", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "Item2", ty: "T2", modifiers: "", def_value: Some("nullptr") }, CppParam { name:
 // "Item3", ty: "T3", modifiers: "", def_value: Some("nullptr") }]

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/TextSegmentedControlCell.hpp"
 #include "HMUI/zzzz__SegmentedControlCell_impl.hpp"
 #include "HMUI/zzzz__TextSegmentedControlCell_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"

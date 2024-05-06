@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/XR/Oculus/Performance.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/XR/Oculus/zzzz__Performance_def.hpp"
 //  Writing Method size for method: ::Unity::XR::Oculus::Performance.TrySetCPULevel

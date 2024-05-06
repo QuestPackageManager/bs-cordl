@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/DebugConsoleExtensionMethods.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__DebugConsoleExtensionMethods_def.hpp"
 #include "GlobalNamespace/zzzz__DebugConsoleController_def.hpp"

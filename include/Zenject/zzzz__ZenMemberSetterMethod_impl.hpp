@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/ZenMemberSetterMethod.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "Zenject/zzzz__ZenMemberSetterMethod_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"

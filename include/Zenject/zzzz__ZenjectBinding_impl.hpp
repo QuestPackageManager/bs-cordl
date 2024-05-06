@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/ZenjectBinding.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Zenject/zzzz__ZenjectBinding_impl.hpp"
 #include "Zenject/zzzz__ZenjectBinding_def.hpp"

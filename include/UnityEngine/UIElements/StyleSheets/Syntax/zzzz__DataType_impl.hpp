@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/Syntax/DataType.hpp"
 #include "UnityEngine/UIElements/StyleSheets/Syntax/zzzz__DataType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::DataType::DataType(int32_t value__) noexcept {

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OVRSandwichComposition.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRSandwichComposition_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OVRSandwichComposition._ctor

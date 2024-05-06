@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/AppContextSwitches.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__AppContextSwitches_def.hpp"
 inline void System::AppContextSwitches::setStaticF_SetActorAsReferenceWhenCopyingClaimsIdentity(bool value) {

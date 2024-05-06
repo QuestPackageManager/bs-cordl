@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IGameNoteMirrorable.hpp"
 #include "GlobalNamespace/zzzz__IGameNoteMirrorable_def.hpp"
 #include "GlobalNamespace/zzzz__INoteMirrorable_def.hpp"
 #include "GlobalNamespace/zzzz__NoteData_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/IO/Compression/DeflateStream.hpp"
 #include "System/IO/Compression/zzzz__CompressionMode_impl.hpp"
 #include "System/IO/zzzz__Stream_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"

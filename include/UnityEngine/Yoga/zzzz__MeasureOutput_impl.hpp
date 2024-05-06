@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Yoga/MeasureOutput.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Yoga/zzzz__MeasureOutput_def.hpp"
 #include "UnityEngine/Yoga/zzzz__YogaSize_def.hpp"

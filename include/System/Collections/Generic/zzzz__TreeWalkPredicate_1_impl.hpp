@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Collections/Generic/TreeWalkPredicate_1.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Collections/Generic/zzzz__TreeWalkPredicate_1_def.hpp"
 #include "System/Collections/Generic/zzzz__SortedSet_1_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/WebResponse.hpp"
 #include "System/zzzz__MarshalByRefObject_impl.hpp"
 #include "System/Net/zzzz__WebResponse_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/KeyPurposeID.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_impl.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__KeyPurposeID_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::X509::KeyPurposeID._ctor

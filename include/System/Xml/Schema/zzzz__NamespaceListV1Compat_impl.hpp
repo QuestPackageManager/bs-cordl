@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/NamespaceListV1Compat.hpp"
 #include "System/Xml/Schema/zzzz__NamespaceList_impl.hpp"
 #include "System/Xml/Schema/zzzz__NamespaceListV1Compat_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::NamespaceListV1Compat._ctor

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/VisualElementFocusRing.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElementFocusRing_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElementFocusRing_def.hpp"

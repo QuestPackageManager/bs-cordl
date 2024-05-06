@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Cryptography/DSASignatureDescription.hpp"
 #include "System/Security/Cryptography/zzzz__SignatureDescription_impl.hpp"
 #include "System/Security/Cryptography/zzzz__DSASignatureDescription_def.hpp"
 //  Writing Method size for method: ::System::Security::Cryptography::DSASignatureDescription._ctor

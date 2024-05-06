@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Reflection/AssemblyProductAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Reflection/zzzz__AssemblyProductAttribute_def.hpp"
 //  Writing Method size for method: ::System::Reflection::AssemblyProductAttribute._ctor

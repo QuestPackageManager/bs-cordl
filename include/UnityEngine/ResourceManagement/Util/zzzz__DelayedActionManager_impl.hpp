@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ResourceManagement/Util/DelayedActionManager.hpp"
 #include "UnityEngine/ResourceManagement/Util/zzzz__ComponentSingleton_1_impl.hpp"
 #include "UnityEngine/ResourceManagement/Util/zzzz__DelayedActionManager_def.hpp"
 #include "System/Collections/Generic/zzzz__LinkedListNode_1_def.hpp"

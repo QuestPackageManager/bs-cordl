@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/LikeNode.hpp"
 #include "System/Data/zzzz__BinaryNode_impl.hpp"
 #include "System/Data/zzzz__LikeNode_def.hpp"
 #include "System/Data/zzzz__DataRowVersion_def.hpp"

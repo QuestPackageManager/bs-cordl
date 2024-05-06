@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Android/Permission.hpp"
 #include "UnityEngine/Android/zzzz__Permission_def.hpp"
 #include "UnityEngine/Android/zzzz__PermissionCallbacks_def.hpp"
 #include "UnityEngine/zzzz__AndroidJavaObject_def.hpp"

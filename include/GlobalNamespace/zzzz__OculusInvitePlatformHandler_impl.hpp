@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OculusInvitePlatformHandler.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OculusInvitePlatformHandler_def.hpp"
 #include "GlobalNamespace/zzzz__IInvitePlatformHandler_def.hpp"

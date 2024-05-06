@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/NotInstruction_NotBoolean.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__NotInstruction_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__NotInstruction_NotBoolean_def.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__InterpretedFrame_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Collections/Concurrent/PaddedHeadAndTail.hpp"
 #include "System/Collections/Concurrent/zzzz__PaddedHeadAndTail_def.hpp"
 constexpr int32_t& System::Collections::Concurrent::PaddedHeadAndTail::__cordl_internal_get_Head() {
   return this->___Head;

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/MessageWithUserReportID.hpp"
 #include "Oculus/Platform/zzzz__Message_1_impl.hpp"
 #include "Oculus/Platform/zzzz__MessageWithUserReportID_def.hpp"
 #include "Oculus/Platform/Models/zzzz__UserReportID_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Resources/UltimateResourceFallbackLocation.hpp"
 #include "System/Resources/zzzz__UltimateResourceFallbackLocation_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Resources::UltimateResourceFallbackLocation::UltimateResourceFallbackLocation(int32_t value__) noexcept {

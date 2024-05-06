@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Playables/INotificationReceiver.hpp"
 #include "UnityEngine/Playables/zzzz__INotificationReceiver_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/Playables/zzzz__INotification_def.hpp"

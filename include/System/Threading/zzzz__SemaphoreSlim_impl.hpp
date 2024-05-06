@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/SemaphoreSlim.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_impl.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_impl.hpp"

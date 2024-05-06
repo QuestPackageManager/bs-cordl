@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/TMP_GlyphValueRecord.hpp"
 #include "TMPro/zzzz__TMP_GlyphValueRecord_def.hpp"
 #include "TMPro/zzzz__GlyphValueRecord_Legacy_def.hpp"
 #include "UnityEngine/TextCore/LowLevel/zzzz__GlyphValueRecord_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "VRUIControls/VRInputModule.hpp"
 #include "UnityEngine/EventSystems/zzzz__BaseInputModule_impl.hpp"
 #include "VRUIControls/zzzz__VRInputModule_def.hpp"
 #include "GlobalNamespace/zzzz__HapticFeedbackManager_def.hpp"

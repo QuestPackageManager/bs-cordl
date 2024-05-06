@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Text/EncoderExceptionFallbackBuffer.hpp"
 #include "System/Text/zzzz__EncoderFallbackBuffer_impl.hpp"
 #include "System/Text/zzzz__EncoderExceptionFallbackBuffer_def.hpp"
 //  Writing Method size for method: ::System::Text::EncoderExceptionFallbackBuffer._ctor

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/SwitchView.hpp"
 #include "HMUI/zzzz__SwitchView_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__SwitchView_def.hpp"

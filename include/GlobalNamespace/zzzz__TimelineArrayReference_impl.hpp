@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/TimelineArrayReference.hpp"
 #include "GlobalNamespace/zzzz__TimelineArrayReference_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__TimelineArrayReference_def.hpp"

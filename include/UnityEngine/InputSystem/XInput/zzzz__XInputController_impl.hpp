@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/XInput/XInputController.hpp"
 #include "UnityEngine/InputSystem/XInput/zzzz__XInputController_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__Gamepad_impl.hpp"
 #include "UnityEngine/InputSystem/XInput/zzzz__XInputController_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/Datatype_unsignedShort.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_unsignedInt_impl.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_unsignedShort_def.hpp"
 #include "System/Xml/Schema/zzzz__FacetsChecker_def.hpp"

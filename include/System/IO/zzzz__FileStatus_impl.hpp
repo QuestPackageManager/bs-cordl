@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/IO/FileStatus.hpp"
 #include "GlobalNamespace/zzzz__Interop_impl.hpp"
 #include "System/IO/zzzz__FileStatus_def.hpp"
 #include "GlobalNamespace/zzzz__Interop_def.hpp"

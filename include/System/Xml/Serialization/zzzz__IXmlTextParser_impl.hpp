@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Serialization/IXmlTextParser.hpp"
 #include "System/Xml/Serialization/zzzz__IXmlTextParser_def.hpp"
 //  Writing Method size for method: ::System::Xml::Serialization::IXmlTextParser.get_Normalized
 template <>

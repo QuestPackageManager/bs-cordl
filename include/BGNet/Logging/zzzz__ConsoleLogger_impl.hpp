@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BGNet/Logging/ConsoleLogger.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BGNet/Logging/zzzz__ConsoleLogger_def.hpp"
 #include "BGNet/Logging/zzzz__Debug_def.hpp"

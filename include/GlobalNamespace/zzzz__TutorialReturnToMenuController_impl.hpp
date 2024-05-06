@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/TutorialReturnToMenuController.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__TutorialReturnToMenuController_def.hpp"
 #include "GlobalNamespace/zzzz__IReturnToMenuController_def.hpp"

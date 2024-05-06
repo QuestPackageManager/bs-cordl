@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Events/UnityEventTools.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Events/zzzz__UnityEventTools_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Events::UnityEventTools.TidyAssemblyTypeName

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/XR/Oculus/SystemHeadset.hpp"
 #include "Unity/XR/Oculus/zzzz__SystemHeadset_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::Unity::XR::Oculus::SystemHeadset::SystemHeadset(int32_t value__) noexcept {

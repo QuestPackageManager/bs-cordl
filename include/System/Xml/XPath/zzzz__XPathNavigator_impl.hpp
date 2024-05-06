@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/XPath/XPathNavigator.hpp"
 #include "System/Xml/XPath/zzzz__XPathItem_impl.hpp"
 #include "System/Xml/XPath/zzzz__XPathNavigator_def.hpp"
 #include "System/Collections/Generic/zzzz__IDictionary_2_def.hpp"

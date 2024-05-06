@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ComputeShader.hpp"
 #include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__ComputeShader_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ComputeShader.FindKernel

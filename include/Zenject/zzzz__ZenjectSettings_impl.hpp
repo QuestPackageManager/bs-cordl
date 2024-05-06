@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/ZenjectSettings.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__RootResolveMethods_impl.hpp"
 #include "Zenject/zzzz__SignalDefaultSyncModes_impl.hpp"

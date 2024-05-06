@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/NoExperimentModel.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__NoExperimentModel_def.hpp"
 #include "GlobalNamespace/zzzz__IExperimentData_def.hpp"

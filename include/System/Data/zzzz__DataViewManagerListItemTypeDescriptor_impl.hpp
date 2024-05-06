@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/DataViewManagerListItemTypeDescriptor.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Data/zzzz__DataViewManagerListItemTypeDescriptor_def.hpp"
 #include "System/Data/zzzz__DataTable_def.hpp"

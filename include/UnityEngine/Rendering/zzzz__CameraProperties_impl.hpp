@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Rendering/CameraProperties.hpp"
 #include "UnityEngine/Rendering/zzzz__CameraProperties_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__CoreCameraValues_impl.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_impl.hpp"

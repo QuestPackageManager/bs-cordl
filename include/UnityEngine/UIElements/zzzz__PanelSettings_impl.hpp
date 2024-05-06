@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/PanelSettings.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__PanelScaleMode_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__PanelScreenMatchMode_impl.hpp"

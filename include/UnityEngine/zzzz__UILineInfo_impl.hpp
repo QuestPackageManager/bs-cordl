@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UILineInfo.hpp"
 #include "UnityEngine/zzzz__UILineInfo_def.hpp"
 // Ctor Parameters [CppParam { name: "startCharIdx", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "height", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
 // name: "topY", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "leading", ty: "float_t", modifiers: "", def_value: Some("{}") }]

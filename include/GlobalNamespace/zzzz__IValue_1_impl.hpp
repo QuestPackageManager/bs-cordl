@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IValue_1.hpp"
 #include "GlobalNamespace/zzzz__IValue_1_def.hpp"
 template <typename T> inline T GlobalNamespace::IValue_1<T>::get_value() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),

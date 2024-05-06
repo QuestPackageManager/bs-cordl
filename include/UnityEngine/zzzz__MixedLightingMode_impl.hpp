@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/MixedLightingMode.hpp"
 #include "UnityEngine/zzzz__MixedLightingMode_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::MixedLightingMode::MixedLightingMode(int32_t value__) noexcept {

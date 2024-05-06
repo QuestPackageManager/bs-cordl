@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Sprites/DataUtility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Sprites/zzzz__DataUtility_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"

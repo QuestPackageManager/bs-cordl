@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LiteNetLib/Layers/Crc32cLayer.hpp"
 #include "LiteNetLib/Layers/zzzz__PacketLayerBase_impl.hpp"
 #include "LiteNetLib/Layers/zzzz__Crc32cLayer_def.hpp"
 #include "System/Net/zzzz__IPEndPoint_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ArticulationReducedSpace.hpp"
 #include "UnityEngine/zzzz__ArticulationReducedSpace_impl.hpp"
 #include "UnityEngine/zzzz__ArticulationReducedSpace_def.hpp"
 #include "UnityEngine/zzzz__ArticulationReducedSpace_def.hpp"

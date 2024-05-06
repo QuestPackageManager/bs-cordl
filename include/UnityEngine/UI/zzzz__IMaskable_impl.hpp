@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UI/IMaskable.hpp"
 #include "UnityEngine/UI/zzzz__IMaskable_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UI::IMaskable.RecalculateMasking
 template <>

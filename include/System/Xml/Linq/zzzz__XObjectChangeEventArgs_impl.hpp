@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Linq/XObjectChangeEventArgs.hpp"
 #include "System/Xml/Linq/zzzz__XObjectChange_impl.hpp"
 #include "System/zzzz__EventArgs_impl.hpp"
 #include "System/Xml/Linq/zzzz__XObjectChangeEventArgs_def.hpp"

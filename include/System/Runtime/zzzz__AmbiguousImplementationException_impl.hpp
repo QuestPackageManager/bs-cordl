@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/AmbiguousImplementationException.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "System/Runtime/zzzz__AmbiguousImplementationException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"

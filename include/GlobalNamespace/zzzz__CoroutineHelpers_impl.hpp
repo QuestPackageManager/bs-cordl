@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/CoroutineHelpers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__CoroutineHelpers_def.hpp"
 #include "GlobalNamespace/zzzz__CoroutineHelpers_def.hpp"

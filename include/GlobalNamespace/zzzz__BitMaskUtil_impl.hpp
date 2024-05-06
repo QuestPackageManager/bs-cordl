@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BitMaskUtil.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BitMaskUtil_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BitMaskUtil.NumberOfSetBits

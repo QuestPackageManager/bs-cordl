@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/StringComparer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__StringComparer_def.hpp"
 #include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"

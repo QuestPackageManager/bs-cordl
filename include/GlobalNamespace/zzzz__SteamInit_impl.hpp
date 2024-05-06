@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SteamInit.hpp"
 #include "GlobalNamespace/zzzz__BasePlatformInit_impl.hpp"
 #include "GlobalNamespace/zzzz__SteamInit_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"

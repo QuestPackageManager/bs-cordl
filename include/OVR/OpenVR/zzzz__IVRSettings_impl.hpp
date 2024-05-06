@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/IVRSettings.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "OVR/OpenVR/zzzz__IVRSettings_def.hpp"
 #include "OVR/OpenVR/zzzz__EVRSettingsError_def.hpp"

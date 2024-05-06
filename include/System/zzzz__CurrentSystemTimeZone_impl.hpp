@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/CurrentSystemTimeZone.hpp"
 #include "System/zzzz__TimeZone_impl.hpp"
 #include "System/zzzz__CurrentSystemTimeZone_def.hpp"
 #include "System/Collections/zzzz__Hashtable_def.hpp"

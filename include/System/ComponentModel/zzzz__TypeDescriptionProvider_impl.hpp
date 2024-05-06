@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ComponentModel/TypeDescriptionProvider.hpp"
 #include "System/ComponentModel/zzzz__CustomTypeDescriptor_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/ComponentModel/zzzz__TypeDescriptionProvider_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ColorSchemeDropdown.hpp"
 #include "HMUI/zzzz__DropdownWithTableView_impl.hpp"
 #include "GlobalNamespace/zzzz__ColorSchemeDropdown_def.hpp"
 #include "GlobalNamespace/zzzz__ColorSchemeTableCell_def.hpp"

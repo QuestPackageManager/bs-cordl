@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Internal/ExcludeFromDocsAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/Internal/zzzz__ExcludeFromDocsAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Internal::ExcludeFromDocsAttribute._ctor

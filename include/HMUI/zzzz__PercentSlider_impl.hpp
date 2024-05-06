@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/PercentSlider.hpp"
 #include "HMUI/zzzz__RangeValuesTextSlider_impl.hpp"
 #include "HMUI/zzzz__PercentSlider_def.hpp"
 //  Writing Method size for method: ::HMUI::PercentSlider.TextForValue

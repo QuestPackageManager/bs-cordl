@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/Messaging/HeaderHandler.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__HeaderHandler_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__Header_def.hpp"

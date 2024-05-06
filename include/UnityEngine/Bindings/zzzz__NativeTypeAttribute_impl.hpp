@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Bindings/NativeTypeAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/Bindings/zzzz__CodegenOptions_impl.hpp"
 #include "UnityEngine/Bindings/zzzz__NativeTypeAttribute_def.hpp"

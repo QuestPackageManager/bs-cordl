@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/Activation/RemoteActivationAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Runtime/Remoting/Activation/zzzz__RemoteActivationAttribute_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"

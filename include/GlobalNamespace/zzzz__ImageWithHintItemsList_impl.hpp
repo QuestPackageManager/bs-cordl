@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ImageWithHintItemsList.hpp"
 #include "HMUI/zzzz__UIItemsList_1_impl.hpp"
 #include "GlobalNamespace/zzzz__ImageWithHintItemsList_def.hpp"
 #include "HMUI/zzzz__ImageWithHint_def.hpp"

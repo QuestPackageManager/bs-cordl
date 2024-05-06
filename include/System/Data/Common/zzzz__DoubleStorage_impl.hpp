@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/Common/DoubleStorage.hpp"
 #include "System/Data/Common/zzzz__DataStorage_impl.hpp"
 #include "System/Data/Common/zzzz__DoubleStorage_def.hpp"
 #include "System/Collections/zzzz__BitArray_def.hpp"

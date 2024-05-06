@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/DataRelationPropertyDescriptor.hpp"
 #include "System/ComponentModel/zzzz__PropertyDescriptor_impl.hpp"
 #include "System/Data/zzzz__DataRelationPropertyDescriptor_def.hpp"
 #include "System/Data/zzzz__DataRelation_def.hpp"

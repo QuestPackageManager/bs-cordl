@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/BufferUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__BufferUtils_def.hpp"
 #include "Newtonsoft/Json/zzzz__IArrayPool_1_def.hpp"

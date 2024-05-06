@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/TextElementType.hpp"
 #include "TMPro/zzzz__TextElementType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::TMPro::TextElementType::TextElementType(uint8_t value__) noexcept {

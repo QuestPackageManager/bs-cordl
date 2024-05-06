@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OVRMeshData.hpp"
 #include "GlobalNamespace/zzzz__OVRMeshAttributes_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRMeshData_def.hpp"
 #include "GlobalNamespace/zzzz__OVRMeshAttributes_def.hpp"

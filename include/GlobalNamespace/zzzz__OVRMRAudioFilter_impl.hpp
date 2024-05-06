@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OVRMRAudioFilter.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRMRAudioFilter_def.hpp"
 #include "GlobalNamespace/zzzz__OVRExternalComposition_def.hpp"

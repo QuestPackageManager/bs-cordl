@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/DataTextWriter.hpp"
 #include "System/Xml/zzzz__XmlWriter_impl.hpp"
 #include "System/Data/zzzz__DataTextWriter_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LIV/SDK/Unity/SDKTrackedSpace.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKMatrix4x4_impl.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKQuaternion_impl.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKVector3_impl.hpp"

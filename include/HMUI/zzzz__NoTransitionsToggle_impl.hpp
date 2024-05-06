@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/NoTransitionsToggle.hpp"
 #include "HMUI/zzzz__UISelectionState_impl.hpp"
 #include "UnityEngine/UI/zzzz__Toggle_impl.hpp"
 #include "HMUI/zzzz__NoTransitionsToggle_def.hpp"

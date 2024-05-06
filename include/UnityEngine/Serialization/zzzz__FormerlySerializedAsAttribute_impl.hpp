@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Serialization/FormerlySerializedAsAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/Serialization/zzzz__FormerlySerializedAsAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Serialization::FormerlySerializedAsAttribute._ctor

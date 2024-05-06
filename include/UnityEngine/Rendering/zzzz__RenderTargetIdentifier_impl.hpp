@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Rendering/RenderTargetIdentifier.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__BuiltinRenderTextureType_impl.hpp"
 #include "UnityEngine/zzzz__CubemapFace_impl.hpp"

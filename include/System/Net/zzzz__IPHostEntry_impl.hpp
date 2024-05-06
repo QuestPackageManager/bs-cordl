@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/IPHostEntry.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__IPHostEntry_def.hpp"
 #include "System/Net/zzzz__IPAddress_def.hpp"

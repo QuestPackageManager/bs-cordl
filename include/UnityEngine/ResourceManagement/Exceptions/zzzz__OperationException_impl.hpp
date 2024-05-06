@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ResourceManagement/Exceptions/OperationException.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "UnityEngine/ResourceManagement/Exceptions/zzzz__OperationException_def.hpp"
 #include "System/zzzz__Exception_def.hpp"

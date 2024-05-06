@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/AccessControl/AceEnumerator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Security/AccessControl/zzzz__AceEnumerator_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"

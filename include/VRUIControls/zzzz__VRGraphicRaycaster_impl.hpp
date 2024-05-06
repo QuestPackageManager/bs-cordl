@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "VRUIControls/VRGraphicRaycaster.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__BaseRaycaster_impl.hpp"
 #include "UnityEngine/zzzz__LayerMask_impl.hpp"

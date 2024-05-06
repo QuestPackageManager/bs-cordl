@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/InteropServices/DllImportAttribute.hpp"
 #include "System/Runtime/InteropServices/zzzz__CallingConvention_impl.hpp"
 #include "System/Runtime/InteropServices/zzzz__CharSet_impl.hpp"
 #include "System/zzzz__Attribute_impl.hpp"

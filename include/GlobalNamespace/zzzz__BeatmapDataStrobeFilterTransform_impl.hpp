@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BeatmapDataStrobeFilterTransform.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentColorType_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataStrobeFilterTransform_def.hpp"

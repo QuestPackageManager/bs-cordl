@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/DisableGCWhileEnabled.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__DisableGCWhileEnabled_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::DisableGCWhileEnabled.OnEnable

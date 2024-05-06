@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/Tasks/TaskCanceledException.hpp"
 #include "System/zzzz__OperationCanceledException_impl.hpp"
 #include "System/Threading/Tasks/zzzz__TaskCanceledException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"

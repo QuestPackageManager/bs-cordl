@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Cryptography/RSAPKCS1SHA256SignatureDescription.hpp"
 #include "System/Security/Cryptography/zzzz__RSAPKCS1SignatureDescription_impl.hpp"
 #include "System/Security/Cryptography/zzzz__RSAPKCS1SHA256SignatureDescription_def.hpp"
 //  Writing Method size for method: ::System::Security::Cryptography::RSAPKCS1SHA256SignatureDescription._ctor

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BGLib/JsonExtension/ColorConverter.hpp"
 #include "Newtonsoft/Json/zzzz__JsonConverter_1_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "BGLib/JsonExtension/zzzz__ColorConverter_def.hpp"

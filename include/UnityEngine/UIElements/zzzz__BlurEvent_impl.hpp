@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/BlurEvent.hpp"
 #include "UnityEngine/UIElements/zzzz__FocusEventBase_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BlurEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IPanel_def.hpp"

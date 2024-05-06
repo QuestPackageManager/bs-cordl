@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/AnimationStartParams.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__AnimationStartParams_def.hpp"
 #include "UnityEngine/zzzz__Animation_def.hpp"

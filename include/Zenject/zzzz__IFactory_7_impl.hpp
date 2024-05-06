@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/IFactory_7.hpp"
 #include "Zenject/zzzz__IFactory_7_def.hpp"
 #include "Zenject/zzzz__IFactory_def.hpp"
 /// @brief Convert operator to "::Zenject::IFactory"

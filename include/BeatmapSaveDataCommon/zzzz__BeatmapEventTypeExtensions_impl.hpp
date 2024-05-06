@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatmapSaveDataCommon/BeatmapEventTypeExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatmapSaveDataCommon/zzzz__BeatmapEventTypeExtensions_def.hpp"
 #include "BeatmapSaveDataCommon/zzzz__BeatmapEventType_def.hpp"

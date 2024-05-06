@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/Test_LODGroup_Extensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__Test_LODGroup_Extensions_def.hpp"
 #include "HoudiniEngineUnity/zzzz__Test_LODGroup_Extensions_def.hpp"

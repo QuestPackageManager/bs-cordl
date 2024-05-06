@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HAPI_PDG_WorkitemInfo.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_PDG_WorkitemInfo_def.hpp"
 // Ctor Parameters [CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "numResults", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
 // name: "nameSH", ty: "int32_t", modifiers: "", def_value: Some("{}") }]

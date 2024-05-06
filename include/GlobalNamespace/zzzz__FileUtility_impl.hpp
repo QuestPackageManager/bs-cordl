@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/FileUtility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__FileUtility_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::FileUtility.GetPlatformPersistentDataPath

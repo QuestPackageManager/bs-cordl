@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Reflection/IReflectableType.hpp"
 #include "System/Reflection/zzzz__IReflectableType_def.hpp"
 #include "System/Reflection/zzzz__TypeInfo_def.hpp"
 //  Writing Method size for method: ::System::Reflection::IReflectableType.GetTypeInfo

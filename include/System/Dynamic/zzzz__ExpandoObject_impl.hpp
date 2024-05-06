@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Dynamic/ExpandoObject.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_impl.hpp"
 #include "System/Dynamic/zzzz__DynamicMetaObject_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"

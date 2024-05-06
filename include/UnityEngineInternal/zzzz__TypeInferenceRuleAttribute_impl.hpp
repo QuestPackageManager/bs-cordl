@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngineInternal/TypeInferenceRuleAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngineInternal/zzzz__TypeInferenceRuleAttribute_def.hpp"
 #include "UnityEngineInternal/zzzz__TypeInferenceRules_def.hpp"

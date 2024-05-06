@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ProBuilder/ProGridsConditionalSnapAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__ProGridsConditionalSnapAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ProBuilder::ProGridsConditionalSnapAttribute._ctor

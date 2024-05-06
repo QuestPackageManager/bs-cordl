@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Bits.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__Bits_def.hpp"
 //  Writing Method size for method: ::System::Xml::Bits.Count

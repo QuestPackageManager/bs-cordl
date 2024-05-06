@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Tsp/TspAlgorithms.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Tsp/zzzz__TspAlgorithms_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"

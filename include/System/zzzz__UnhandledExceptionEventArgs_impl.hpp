@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/UnhandledExceptionEventArgs.hpp"
 #include "System/zzzz__EventArgs_impl.hpp"
 #include "System/zzzz__UnhandledExceptionEventArgs_def.hpp"
 #include "System/zzzz__Object_def.hpp"

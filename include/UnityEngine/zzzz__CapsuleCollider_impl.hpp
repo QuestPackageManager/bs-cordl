@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/CapsuleCollider.hpp"
 #include "UnityEngine/zzzz__Collider_impl.hpp"
 #include "UnityEngine/zzzz__CapsuleCollider_def.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_def.hpp"

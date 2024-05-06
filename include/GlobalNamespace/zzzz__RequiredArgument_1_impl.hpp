@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/RequiredArgument_1.hpp"
 #include "GlobalNamespace/zzzz__ArgumentBase_impl.hpp"
 #include "GlobalNamespace/zzzz__RequiredArgument_1_def.hpp"
 template <typename T> constexpr T& GlobalNamespace::RequiredArgument_1<T>::__cordl_internal_get__value() {

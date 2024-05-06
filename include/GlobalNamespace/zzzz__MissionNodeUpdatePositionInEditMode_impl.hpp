@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MissionNodeUpdatePositionInEditMode.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionNodeUpdatePositionInEditMode_def.hpp"
 #include "GlobalNamespace/zzzz__MissionNodeConnection_def.hpp"

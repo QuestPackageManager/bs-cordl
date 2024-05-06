@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ProBuilder/WindingOrder.hpp"
 #include "UnityEngine/ProBuilder/zzzz__WindingOrder_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::ProBuilder::WindingOrder::WindingOrder(int32_t value__) noexcept {

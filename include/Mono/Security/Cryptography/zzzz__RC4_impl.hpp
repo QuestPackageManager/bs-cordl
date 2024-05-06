@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Security/Cryptography/RC4.hpp"
 #include "System/Security/Cryptography/zzzz__SymmetricAlgorithm_impl.hpp"
 #include "Mono/Security/Cryptography/zzzz__RC4_def.hpp"
 #include "System/Security/Cryptography/zzzz__KeySizes_def.hpp"

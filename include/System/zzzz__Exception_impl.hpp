@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Exception.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__Exception_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"

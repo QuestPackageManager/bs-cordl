@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/PromoBannerInfoSO.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__PromoBannerInfoSO_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"

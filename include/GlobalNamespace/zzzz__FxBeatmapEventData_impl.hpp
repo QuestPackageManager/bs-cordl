@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/FxBeatmapEventData.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventData_impl.hpp"
 #include "GlobalNamespace/zzzz__FxBeatmapEventData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::FxBeatmapEventData._ctor

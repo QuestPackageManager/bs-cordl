@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BurstFireEffect.hpp"
 #include "GlobalNamespace/zzzz__FireEffect_impl.hpp"
 #include "GlobalNamespace/zzzz__BurstFireEffect_def.hpp"
 #include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"

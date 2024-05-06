@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/PlatformException.hpp"
 #include "GlobalNamespace/zzzz__PlatformException_impl.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "GlobalNamespace/zzzz__PlatformException_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/SpriteAssetUtilities/TexturePacker_JsonArray.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "TMPro/SpriteAssetUtilities/zzzz__TexturePacker_JsonArray_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"

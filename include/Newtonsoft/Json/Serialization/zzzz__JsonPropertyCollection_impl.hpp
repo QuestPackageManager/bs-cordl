@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/JsonPropertyCollection.hpp"
 #include "System/Collections/ObjectModel/zzzz__KeyedCollection_2_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__JsonPropertyCollection_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__JsonProperty_def.hpp"

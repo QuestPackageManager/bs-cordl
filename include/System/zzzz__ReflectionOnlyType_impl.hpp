@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ReflectionOnlyType.hpp"
 #include "System/zzzz__RuntimeType_impl.hpp"
 #include "System/zzzz__ReflectionOnlyType_def.hpp"
 #include "System/zzzz__RuntimeTypeHandle_def.hpp"

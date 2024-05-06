@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/ConstructorHandling.hpp"
 #include "Newtonsoft/Json/zzzz__ConstructorHandling_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::Newtonsoft::Json::ConstructorHandling::ConstructorHandling(int32_t value__) noexcept {

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/Burst/CompilerServices/Constant.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Burst/CompilerServices/zzzz__Constant_def.hpp"
 //  Writing Method size for method: ::Unity::Burst::CompilerServices::Constant.IsConstantExpression

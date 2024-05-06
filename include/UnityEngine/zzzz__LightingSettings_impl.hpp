@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/LightingSettings.hpp"
 #include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__LightingSettings_def.hpp"
 //  Writing Method size for method: ::UnityEngine::LightingSettings.LightingSettingsDontStripMe

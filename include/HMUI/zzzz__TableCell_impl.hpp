@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/TableCell.hpp"
 #include "HMUI/zzzz__SelectableCell_impl.hpp"
 #include "HMUI/zzzz__TableCell_def.hpp"
 #include "HMUI/zzzz__ITableCellOwner_def.hpp"

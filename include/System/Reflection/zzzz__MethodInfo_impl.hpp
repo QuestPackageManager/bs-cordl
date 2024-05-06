@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Reflection/MethodInfo.hpp"
 #include "System/Reflection/zzzz__MethodBase_impl.hpp"
 #include "System/Reflection/zzzz__MethodInfo_def.hpp"
 #include "System/Reflection/zzzz__MemberTypes_def.hpp"

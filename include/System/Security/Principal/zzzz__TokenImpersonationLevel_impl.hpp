@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Principal/TokenImpersonationLevel.hpp"
 #include "System/Security/Principal/zzzz__TokenImpersonationLevel_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Security::Principal::TokenImpersonationLevel::TokenImpersonationLevel(int32_t value__) noexcept {

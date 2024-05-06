@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Sockets/SocketAsyncEventArgs.hpp"
 #include "System/Net/Sockets/zzzz__IPPacketInformation_impl.hpp"
 #include "System/Net/Sockets/zzzz__SocketAsyncOperation_impl.hpp"
 #include "System/Net/Sockets/zzzz__SocketError_impl.hpp"

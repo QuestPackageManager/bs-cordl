@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/XInput/XInputSupport.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/XInput/zzzz__XInputSupport_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::XInput::XInputSupport.Initialize

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Bson/BsonProperty.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Bson/zzzz__BsonProperty_def.hpp"
 #include "Newtonsoft/Json/Bson/zzzz__BsonString_def.hpp"

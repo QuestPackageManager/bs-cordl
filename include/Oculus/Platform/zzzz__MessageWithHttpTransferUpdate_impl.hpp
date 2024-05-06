@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/MessageWithHttpTransferUpdate.hpp"
 #include "Oculus/Platform/zzzz__Message_1_impl.hpp"
 #include "Oculus/Platform/zzzz__MessageWithHttpTransferUpdate_def.hpp"
 #include "Oculus/Platform/Models/zzzz__HttpTransferUpdate_def.hpp"

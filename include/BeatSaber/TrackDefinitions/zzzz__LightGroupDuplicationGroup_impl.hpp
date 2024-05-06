@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatSaber/TrackDefinitions/LightGroupDuplicationGroup.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "BeatSaber/TrackDefinitions/zzzz__LightGroupDuplicationGroup_def.hpp"
 #include "GlobalNamespace/zzzz__LightGroupSO_def.hpp"

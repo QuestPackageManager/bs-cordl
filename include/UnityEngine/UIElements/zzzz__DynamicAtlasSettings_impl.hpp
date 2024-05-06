@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/DynamicAtlasSettings.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__DynamicAtlasFiltersInternal_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__DynamicAtlasSettings_def.hpp"

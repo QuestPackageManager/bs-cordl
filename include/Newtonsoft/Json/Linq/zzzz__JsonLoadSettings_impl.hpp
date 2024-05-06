@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Linq/JsonLoadSettings.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__CommentHandling_impl.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__DuplicatePropertyNameHandling_impl.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__LineInfoHandling_impl.hpp"

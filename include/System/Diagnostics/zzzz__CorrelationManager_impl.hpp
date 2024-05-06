@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Diagnostics/CorrelationManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Diagnostics/zzzz__CorrelationManager_def.hpp"
 #include "System/Collections/zzzz__Stack_def.hpp"

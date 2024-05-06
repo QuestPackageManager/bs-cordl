@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LiteNetLib/Utils/NtpRequest.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "LiteNetLib/Utils/zzzz__NtpRequest_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NtpPacket_def.hpp"

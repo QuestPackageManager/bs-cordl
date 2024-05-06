@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Security/Certificates/CertificateNotYetValidException.hpp"
 #include "Org/BouncyCastle/Security/Certificates/zzzz__CertificateException_impl.hpp"
 #include "Org/BouncyCastle/Security/Certificates/zzzz__CertificateNotYetValidException_def.hpp"
 #include "System/zzzz__Exception_def.hpp"

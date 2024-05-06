@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Users/InputUserChange.hpp"
 #include "UnityEngine/InputSystem/Users/zzzz__InputUserChange_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::InputSystem::Users::InputUserChange::InputUserChange(int32_t value__) noexcept {

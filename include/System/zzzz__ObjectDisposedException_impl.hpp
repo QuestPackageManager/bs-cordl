@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ObjectDisposedException.hpp"
 #include "System/zzzz__InvalidOperationException_impl.hpp"
 #include "System/zzzz__ObjectDisposedException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"

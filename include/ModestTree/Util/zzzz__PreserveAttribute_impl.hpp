@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "ModestTree/Util/PreserveAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "ModestTree/Util/zzzz__PreserveAttribute_def.hpp"
 //  Writing Method size for method: ::ModestTree::Util::PreserveAttribute._ctor

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/NoTransitionsButton.hpp"
 #include "HMUI/zzzz__NoTransitionsButton_impl.hpp"
 #include "UnityEngine/UI/zzzz__Button_impl.hpp"
 #include "HMUI/zzzz__NoTransitionsButton_def.hpp"

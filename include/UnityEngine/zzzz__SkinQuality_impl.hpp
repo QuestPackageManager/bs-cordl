@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/SkinQuality.hpp"
 #include "UnityEngine/zzzz__SkinQuality_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::SkinQuality::SkinQuality(int32_t value__) noexcept {

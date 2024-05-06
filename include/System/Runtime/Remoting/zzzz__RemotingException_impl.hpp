@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/RemotingException.hpp"
 #include "System/zzzz__SystemException_impl.hpp"
 #include "System/Runtime/Remoting/zzzz__RemotingException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"

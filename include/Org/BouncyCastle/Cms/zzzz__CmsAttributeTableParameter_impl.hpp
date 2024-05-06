@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Cms/CmsAttributeTableParameter.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsAttributeTableParameter_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::Org::BouncyCastle::Cms::CmsAttributeTableParameter::CmsAttributeTableParameter(int32_t value__) noexcept {

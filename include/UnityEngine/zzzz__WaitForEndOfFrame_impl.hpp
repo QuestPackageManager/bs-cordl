@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/WaitForEndOfFrame.hpp"
 #include "UnityEngine/zzzz__YieldInstruction_impl.hpp"
 #include "UnityEngine/zzzz__WaitForEndOfFrame_def.hpp"
 //  Writing Method size for method: ::UnityEngine::WaitForEndOfFrame._ctor

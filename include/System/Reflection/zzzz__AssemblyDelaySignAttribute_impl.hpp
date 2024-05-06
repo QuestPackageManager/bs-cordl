@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Reflection/AssemblyDelaySignAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Reflection/zzzz__AssemblyDelaySignAttribute_def.hpp"
 //  Writing Method size for method: ::System::Reflection::AssemblyDelaySignAttribute._ctor

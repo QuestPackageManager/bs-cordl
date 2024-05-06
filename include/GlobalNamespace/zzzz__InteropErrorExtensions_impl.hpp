@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/InteropErrorExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__InteropErrorExtensions_def.hpp"
 #include "GlobalNamespace/zzzz__Interop_def.hpp"

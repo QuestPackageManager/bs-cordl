@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/EditableModifiersSelectionView.hpp"
 #include "GlobalNamespace/zzzz__ModifiersSelectionView_impl.hpp"
 #include "GlobalNamespace/zzzz__EditableModifiersSelectionView_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"

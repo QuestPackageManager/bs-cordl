@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Linq/BaseUriAnnotation.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Linq/zzzz__BaseUriAnnotation_def.hpp"
 //  Writing Method size for method: ::System::Xml::Linq::BaseUriAnnotation._ctor

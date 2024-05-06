@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Dynamic/BindingRestrictions_MergedRestriction.hpp"
 #include "System/Dynamic/zzzz__BindingRestrictions_impl.hpp"
 #include "System/Dynamic/zzzz__BindingRestrictions_MergedRestriction_def.hpp"
 #include "System/Dynamic/zzzz__BindingRestrictions_def.hpp"

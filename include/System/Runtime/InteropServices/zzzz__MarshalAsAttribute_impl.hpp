@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/InteropServices/MarshalAsAttribute.hpp"
 #include "System/Runtime/InteropServices/zzzz__UnmanagedType_impl.hpp"
 #include "System/Runtime/InteropServices/zzzz__VarEnum_impl.hpp"
 #include "System/zzzz__Attribute_impl.hpp"

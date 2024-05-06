@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HEU_AssetSync.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_BaseSync_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_AssetSync_def.hpp"

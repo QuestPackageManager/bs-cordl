@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/ZeroOpNode.hpp"
 #include "System/Data/zzzz__ExpressionNode_impl.hpp"
 #include "System/Data/zzzz__ZeroOpNode_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Net/Security/BufferOffsetSize2.hpp"
 #include "Mono/Net/Security/zzzz__BufferOffsetSize_impl.hpp"
 #include "Mono/Net/Security/zzzz__BufferOffsetSize2_def.hpp"
 //  Writing Method size for method: ::Mono::Net::Security::BufferOffsetSize2._ctor

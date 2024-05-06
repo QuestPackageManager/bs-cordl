@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BloomPrePassLightTypeSO.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassLightTypeSO_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"

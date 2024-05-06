@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/OnScreen/OnScreenSupport.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/OnScreen/zzzz__OnScreenSupport_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::OnScreen::OnScreenSupport.Initialize

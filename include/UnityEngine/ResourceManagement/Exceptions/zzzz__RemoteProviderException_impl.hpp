@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ResourceManagement/Exceptions/RemoteProviderException.hpp"
 #include "UnityEngine/ResourceManagement/Exceptions/zzzz__ProviderException_impl.hpp"
 #include "UnityEngine/ResourceManagement/Exceptions/zzzz__RemoteProviderException_def.hpp"
 #include "System/zzzz__Exception_def.hpp"

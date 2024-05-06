@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HEU_AssetSerializedMetaData.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_AssetSerializedMetaData_def.hpp"
 #include "HoudiniEngineUnity/zzzz__CurveNodeData_def.hpp"

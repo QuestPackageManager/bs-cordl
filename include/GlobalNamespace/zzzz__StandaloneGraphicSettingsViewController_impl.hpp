@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/StandaloneGraphicSettingsViewController.hpp"
 #include "GlobalNamespace/zzzz__GraphicSettingsViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__StandaloneGraphicSettingsViewController_def.hpp"
 #include "BeatSaber/PerformancePresets/zzzz__PerformancePreset_def.hpp"

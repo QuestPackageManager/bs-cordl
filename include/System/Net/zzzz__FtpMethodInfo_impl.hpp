@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/FtpMethodInfo.hpp"
 #include "System/Net/zzzz__FtpMethodFlags_impl.hpp"
 #include "System/Net/zzzz__FtpOperation_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IHealthCheckService.hpp"
 #include "GlobalNamespace/zzzz__IHealthCheckService_def.hpp"
 #include "GlobalNamespace/zzzz__IPollable_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"

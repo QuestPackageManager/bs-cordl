@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Security/Cryptography/MD4Managed.hpp"
 #include "Mono/Security/Cryptography/zzzz__MD4_impl.hpp"
 #include "Mono/Security/Cryptography/zzzz__MD4Managed_def.hpp"
 //  Writing Method size for method: ::Mono::Security::Cryptography::MD4Managed._ctor

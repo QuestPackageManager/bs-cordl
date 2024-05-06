@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/FloatFxBaseData.hpp"
 #include "GlobalNamespace/zzzz__EaseType_impl.hpp"
 #include "GlobalNamespace/zzzz__FxBaseData_impl.hpp"
 #include "GlobalNamespace/zzzz__FloatFxBaseData_def.hpp"

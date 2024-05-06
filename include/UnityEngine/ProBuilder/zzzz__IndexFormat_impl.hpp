@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ProBuilder/IndexFormat.hpp"
 #include "UnityEngine/ProBuilder/zzzz__IndexFormat_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::ProBuilder::IndexFormat::IndexFormat(int32_t value__) noexcept {

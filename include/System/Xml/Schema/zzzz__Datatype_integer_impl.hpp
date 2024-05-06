@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/Datatype_integer.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_decimal_impl.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_integer_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlTypeCode_def.hpp"

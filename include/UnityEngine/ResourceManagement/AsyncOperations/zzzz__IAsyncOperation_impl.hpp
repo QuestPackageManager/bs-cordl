@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ResourceManagement/AsyncOperations/IAsyncOperation.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__IAsyncOperation_def.hpp"
 #include "GlobalNamespace/zzzz__DelegateList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"

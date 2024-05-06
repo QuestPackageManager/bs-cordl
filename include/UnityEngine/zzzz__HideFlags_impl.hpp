@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/HideFlags.hpp"
 #include "UnityEngine/zzzz__HideFlags_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::HideFlags::HideFlags(int32_t value__) noexcept {

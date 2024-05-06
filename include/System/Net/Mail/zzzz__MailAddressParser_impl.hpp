@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Mail/MailAddressParser.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Mail/zzzz__MailAddressParser_def.hpp"
 #include "System/Net/Mail/zzzz__MailAddress_def.hpp"

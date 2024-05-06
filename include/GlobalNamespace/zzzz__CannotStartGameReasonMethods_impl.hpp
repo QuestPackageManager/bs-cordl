@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/CannotStartGameReasonMethods.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__CannotStartGameReasonMethods_def.hpp"
 #include "GlobalNamespace/zzzz__CannotStartGameReason_def.hpp"

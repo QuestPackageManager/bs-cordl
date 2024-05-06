@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/VRVulkanTextureData_t.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "OVR/OpenVR/zzzz__VRVulkanTextureData_t_def.hpp"
 // Ctor Parameters [CppParam { name: "m_nImage", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_pDevice", ty: "void*", modifiers: "", def_value: Some("{}") }, CppParam {

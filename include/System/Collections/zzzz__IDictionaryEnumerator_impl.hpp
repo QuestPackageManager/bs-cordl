@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Collections/IDictionaryEnumerator.hpp"
 #include "System/Collections/zzzz__IDictionaryEnumerator_def.hpp"
 #include "System/Collections/zzzz__DictionaryEntry_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"

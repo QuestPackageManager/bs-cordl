@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/Burst/IFunctionPointer.hpp"
 #include "Unity/Burst/zzzz__IFunctionPointer_def.hpp"
 //  Writing Method size for method: ::Unity::Burst::IFunctionPointer.FromIntPtr
 template <>

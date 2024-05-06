@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MomentaryLoudnessBuffer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MomentaryLoudnessBuffer_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MomentaryLoudnessBuffer.get_isNextReadingIntervalReady

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/Messaging/CADMethodCallMessage.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__CADMessageBase_impl.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__CADMethodCallMessage_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"

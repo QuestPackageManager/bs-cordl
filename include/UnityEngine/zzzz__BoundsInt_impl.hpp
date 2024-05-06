@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/BoundsInt.hpp"
 #include "UnityEngine/zzzz__Vector3Int_impl.hpp"
 #include "UnityEngine/zzzz__BoundsInt_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"

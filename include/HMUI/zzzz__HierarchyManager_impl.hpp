@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/HierarchyManager.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__HierarchyManager_def.hpp"
 #include "GlobalNamespace/zzzz__GameScenesManager_def.hpp"

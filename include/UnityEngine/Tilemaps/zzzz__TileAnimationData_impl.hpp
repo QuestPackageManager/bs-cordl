@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Tilemaps/TileAnimationData.hpp"
 #include "UnityEngine/Tilemaps/zzzz__TileAnimationData_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"
 // Ctor Parameters [CppParam { name: "m_AnimatedSprites", ty: "::ArrayW<::UnityW<::UnityEngine::Sprite>,::Array<::UnityW<::UnityEngine::Sprite>>*>", modifiers: "", def_value: Some("nullptr") },

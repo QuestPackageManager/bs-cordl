@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/VRPlatformSDK.hpp"
 #include "GlobalNamespace/zzzz__VRPlatformSDK_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::VRPlatformSDK::VRPlatformSDK(int32_t value__) noexcept {

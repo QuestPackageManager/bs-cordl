@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/PlayerPrefs.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__PlayerPrefs_def.hpp"
 //  Writing Method size for method: ::UnityEngine::PlayerPrefs.TrySetInt

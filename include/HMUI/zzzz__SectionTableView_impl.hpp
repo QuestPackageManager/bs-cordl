@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/SectionTableView.hpp"
 #include "HMUI/zzzz__TableView_impl.hpp"
 #include "HMUI/zzzz__SectionTableView_def.hpp"
 #include "HMUI/zzzz__SectionTableView_def.hpp"

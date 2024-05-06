@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/IO/FileStreamAsyncResult.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/IO/zzzz__FileStreamAsyncResult_def.hpp"
 #include "System/Threading/zzzz__ManualResetEvent_def.hpp"

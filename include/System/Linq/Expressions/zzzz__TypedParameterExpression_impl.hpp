@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/TypedParameterExpression.hpp"
 #include "System/Linq/Expressions/zzzz__ParameterExpression_impl.hpp"
 #include "System/Linq/Expressions/zzzz__TypedParameterExpression_def.hpp"
 #include "System/zzzz__Type_def.hpp"

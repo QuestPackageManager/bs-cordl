@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatmapSaveDataVersion3/ObstacleData.hpp"
 #include "BeatmapSaveDataVersion3/zzzz__BeatmapSaveDataItem_impl.hpp"
 #include "BeatmapSaveDataVersion3/zzzz__ObstacleData_def.hpp"
 //  Writing Method size for method: ::BeatmapSaveDataVersion3::ObstacleData.get_line

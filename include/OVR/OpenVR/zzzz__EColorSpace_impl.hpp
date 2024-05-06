@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/EColorSpace.hpp"
 #include "OVR/OpenVR/zzzz__EColorSpace_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::OVR::OpenVR::EColorSpace::EColorSpace(int32_t value__) noexcept {

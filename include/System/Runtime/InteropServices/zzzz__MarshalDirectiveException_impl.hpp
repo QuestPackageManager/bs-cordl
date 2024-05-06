@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/InteropServices/MarshalDirectiveException.hpp"
 #include "System/zzzz__SystemException_impl.hpp"
 #include "System/Runtime/InteropServices/zzzz__MarshalDirectiveException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"

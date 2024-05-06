@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Internal/Cryptography/OidLookup.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Internal/Cryptography/zzzz__OidLookup_def.hpp"
 #include "Internal/Cryptography/zzzz__OidLookup_def.hpp"

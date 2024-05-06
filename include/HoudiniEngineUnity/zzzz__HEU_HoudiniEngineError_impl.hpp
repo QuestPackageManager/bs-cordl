@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HEU_HoudiniEngineError.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_HoudiniEngineError_def.hpp"
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_HoudiniEngineError._ctor

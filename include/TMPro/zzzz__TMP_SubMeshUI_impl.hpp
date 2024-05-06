@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/TMP_SubMeshUI.hpp"
 #include "UnityEngine/UI/zzzz__MaskableGraphic_impl.hpp"
 #include "TMPro/zzzz__TMP_SubMeshUI_def.hpp"
 #include "TMPro/zzzz__MaterialReference_def.hpp"

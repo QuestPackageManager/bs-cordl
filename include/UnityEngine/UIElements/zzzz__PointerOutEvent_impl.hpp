@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/PointerOutEvent.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerEventBase_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerOutEvent_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::PointerOutEvent._ctor

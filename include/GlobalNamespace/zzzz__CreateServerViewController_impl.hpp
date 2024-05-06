@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/CreateServerViewController.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__CreateServerViewController_def.hpp"
 #include "GlobalNamespace/zzzz__CreateServerFormController_def.hpp"

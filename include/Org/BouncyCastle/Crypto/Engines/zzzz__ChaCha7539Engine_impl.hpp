@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Engines/ChaCha7539Engine.hpp"
 #include "Org/BouncyCastle/Crypto/Engines/zzzz__Salsa20Engine_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Engines/zzzz__ChaCha7539Engine_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine._ctor

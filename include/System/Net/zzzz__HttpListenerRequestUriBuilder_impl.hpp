@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/HttpListenerRequestUriBuilder.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__HttpListenerRequestUriBuilder_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"

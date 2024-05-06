@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Collections/Generic/BitHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/Generic/zzzz__BitHelper_def.hpp"
 //  Writing Method size for method: ::System::Collections::Generic::BitHelper._ctor
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Generic::BitHelper::*)(::cordl_internals::Ptr<int32_t>, int32_t)>(
     &::System::Collections::Generic::BitHelper::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2c59438;
+  constexpr static std::size_t addrs = 0x2f74be8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Generic::BitHelper::*)(::ArrayW<int32_t, ::Array<int32_t>*>, int32_t)>(
     &::System::Collections::Generic::BitHelper::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x2c59470;
+  constexpr static std::size_t addrs = 0x2f74c20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Generic::BitHelper::*)(int32_t)>(&::System::Collections::Generic::BitHelper::MarkBit)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x2c594a0;
+  constexpr static std::size_t addrs = 0x2f74c50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::Generic::BitHelper::*)(int32_t)>(&::System::Collections::Generic::BitHelper::IsMarked)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x2c5951c;
+  constexpr static std::size_t addrs = 0x2f74ccc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::System::Collections::Generic::BitHelper::ToIntArrayLength)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2c595a0;
+  constexpr static std::size_t addrs = 0x2f74d50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

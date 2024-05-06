@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Text/RegularExpressions/Regex.hpp"
 #include "System/Text/RegularExpressions/zzzz__RegexOptions_impl.hpp"
 #include "System/Text/RegularExpressions/zzzz__Regex_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"

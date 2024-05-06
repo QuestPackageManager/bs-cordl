@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/SelectableCell.hpp"
 #include "HMUI/zzzz__Interactable_impl.hpp"
 #include "HMUI/zzzz__SelectableCell_def.hpp"
 #include "GlobalNamespace/zzzz__Signal_def.hpp"

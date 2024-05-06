@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/ReaderPositionInfo.hpp"
 #include "System/Xml/zzzz__PositionInfo_impl.hpp"
 #include "System/Xml/zzzz__ReaderPositionInfo_def.hpp"
 #include "System/Xml/zzzz__IXmlLineInfo_def.hpp"

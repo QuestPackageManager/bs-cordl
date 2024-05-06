@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Security/Interface/MonoTlsConnectionInfo.hpp"
 #include "Mono/Security/Interface/zzzz__CipherSuiteCode_impl.hpp"
 #include "Mono/Security/Interface/zzzz__TlsProtocols_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OculusDeeplinkManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OculusDeeplinkManager_def.hpp"
 #include "GlobalNamespace/zzzz__Deeplink_def.hpp"

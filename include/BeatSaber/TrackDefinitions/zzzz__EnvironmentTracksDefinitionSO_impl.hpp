@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatSaber/TrackDefinitions/EnvironmentTracksDefinitionSO.hpp"
 #include "BeatSaber/TrackDefinitions/DataModels/zzzz__TrackToolbarType_impl.hpp"
 #include "BeatSaber/TrackDefinitions/zzzz__EnvironmentTracksDefinitionSO_impl.hpp"
 #include "GlobalNamespace/zzzz__BasicBeatmapEventType_impl.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/AxisElement.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Schema/zzzz__AxisElement_def.hpp"
 #include "System/Xml/Schema/zzzz__DoubleLinkAxis_def.hpp"

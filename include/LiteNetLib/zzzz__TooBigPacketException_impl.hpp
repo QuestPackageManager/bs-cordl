@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LiteNetLib/TooBigPacketException.hpp"
 #include "LiteNetLib/zzzz__InvalidPacketException_impl.hpp"
 #include "LiteNetLib/zzzz__TooBigPacketException_def.hpp"
 #include "System/zzzz__Exception_def.hpp"

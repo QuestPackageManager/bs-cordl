@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Yoga/YogaConstants.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Yoga/zzzz__YogaConstants_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Yoga::YogaConstants.IsUndefined

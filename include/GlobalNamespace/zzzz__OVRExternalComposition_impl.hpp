@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OVRExternalComposition.hpp"
 #include "GlobalNamespace/zzzz__OVRComposition_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRExternalComposition_def.hpp"
 #include "GlobalNamespace/zzzz__OVRMRAudioFilter_def.hpp"

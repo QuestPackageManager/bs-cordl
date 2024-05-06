@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Text/NormalizationCheck.hpp"
 #include "System/Text/zzzz__NormalizationCheck_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Text::NormalizationCheck::NormalizationCheck(int32_t value__) noexcept {

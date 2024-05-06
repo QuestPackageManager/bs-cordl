@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/PoolExceededFixedSizeException.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "Zenject/zzzz__PoolExceededFixedSizeException_def.hpp"
 //  Writing Method size for method: ::Zenject::PoolExceededFixedSizeException._ctor

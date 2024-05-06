@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Timeline/SignalTrack.hpp"
 #include "UnityEngine/Timeline/zzzz__MarkerTrack_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__SignalTrack_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Timeline::SignalTrack._ctor

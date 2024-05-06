@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Bcpg/Sig/SignatureExpirationTime.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__SignatureSubpacket_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/Sig/zzzz__SignatureExpirationTime_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Bcpg::Sig::SignatureExpirationTime.TimeToBytes

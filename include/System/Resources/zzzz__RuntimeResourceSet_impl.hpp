@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Resources/RuntimeResourceSet.hpp"
 #include "System/Resources/zzzz__ResourceSet_impl.hpp"
 #include "System/Resources/zzzz__RuntimeResourceSet_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"

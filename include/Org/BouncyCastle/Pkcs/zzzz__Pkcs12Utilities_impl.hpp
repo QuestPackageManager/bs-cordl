@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Pkcs/Pkcs12Utilities.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Pkcs/zzzz__Pkcs12Utilities_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Pkcs::Pkcs12Utilities.ConvertToDefiniteLength

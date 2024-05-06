@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/DlcPromoPanelDataSO.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__DlcPromoPanelDataSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelDataSO.get_cutOffTest

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Generators/Poly1305KeyGenerator.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__CipherKeyGenerator_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Generators/zzzz__Poly1305KeyGenerator_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__KeyGenerationParameters_def.hpp"

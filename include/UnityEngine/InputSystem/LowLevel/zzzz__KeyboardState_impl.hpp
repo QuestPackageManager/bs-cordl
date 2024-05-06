@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/KeyboardState.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__KeyboardState_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__KeyboardState_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__IInputStateTypeInfo_def.hpp"

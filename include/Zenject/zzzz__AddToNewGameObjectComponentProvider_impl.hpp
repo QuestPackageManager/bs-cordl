@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/AddToNewGameObjectComponentProvider.hpp"
 #include "Zenject/zzzz__AddToGameObjectComponentProviderBase_impl.hpp"
 #include "Zenject/zzzz__AddToNewGameObjectComponentProvider_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"

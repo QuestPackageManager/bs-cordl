@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/BinXmlSqlDecimal.hpp"
 #include "System/Xml/zzzz__BinXmlSqlDecimal_def.hpp"
 #include "System/zzzz__Decimal_def.hpp"
 //  Writing Method size for method: ::System::Xml::BinXmlSqlDecimal.get_IsPositive

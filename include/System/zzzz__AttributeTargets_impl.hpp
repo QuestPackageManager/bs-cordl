@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/AttributeTargets.hpp"
 #include "System/zzzz__AttributeTargets_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::AttributeTargets::AttributeTargets(int32_t value__) noexcept {

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LiteNetLib/DeliveryMethod.hpp"
 #include "LiteNetLib/zzzz__DeliveryMethod_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::LiteNetLib::DeliveryMethod::DeliveryMethod(uint8_t value__) noexcept {

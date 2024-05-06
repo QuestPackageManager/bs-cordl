@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatmapSaveDataVersion3/LightColorBaseData.hpp"
 #include "BeatmapSaveDataCommon/zzzz__EnvironmentColorType_impl.hpp"
 #include "BeatmapSaveDataVersion3/zzzz__TransitionType_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"

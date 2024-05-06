@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/GameServerPlayerTableItem.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__GameServerPlayerTableItem_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::GameServerPlayerTableItem._ctor

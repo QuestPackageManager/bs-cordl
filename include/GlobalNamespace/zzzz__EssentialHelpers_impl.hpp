@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/EssentialHelpers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__EssentialHelpers_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"

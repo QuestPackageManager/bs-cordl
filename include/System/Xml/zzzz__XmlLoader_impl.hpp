@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/XmlLoader.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__XmlLoader_def.hpp"
 #include "System/Xml/zzzz__IDtdInfo_def.hpp"

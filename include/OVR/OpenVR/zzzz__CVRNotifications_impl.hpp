@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/CVRNotifications.hpp"
 #include "OVR/OpenVR/zzzz__IVRNotifications_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "OVR/OpenVR/zzzz__CVRNotifications_def.hpp"

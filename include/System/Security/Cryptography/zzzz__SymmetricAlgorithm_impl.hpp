@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Cryptography/SymmetricAlgorithm.hpp"
 #include "System/Security/Cryptography/zzzz__CipherMode_impl.hpp"
 #include "System/Security/Cryptography/zzzz__PaddingMode_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"

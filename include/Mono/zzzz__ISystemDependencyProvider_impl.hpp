@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/ISystemDependencyProvider.hpp"
 #include "Mono/zzzz__ISystemDependencyProvider_def.hpp"
 #include "Mono/zzzz__ISystemCertificateProvider_def.hpp"
 //  Writing Method size for method: ::Mono::ISystemDependencyProvider.get_CertificateProvider

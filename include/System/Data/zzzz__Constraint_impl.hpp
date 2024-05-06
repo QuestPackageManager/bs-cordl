@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/Constraint.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Data/zzzz__Constraint_def.hpp"
 #include "System/Data/zzzz__ConstraintCollection_def.hpp"

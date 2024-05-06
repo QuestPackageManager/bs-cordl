@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Sockets/NetworkStream.hpp"
 #include "System/IO/zzzz__Stream_impl.hpp"
 #include "System/Net/Sockets/zzzz__NetworkStream_def.hpp"
 #include "System/IO/zzzz__FileAccess_def.hpp"

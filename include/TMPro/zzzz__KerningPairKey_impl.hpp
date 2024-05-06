@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/KerningPairKey.hpp"
 #include "TMPro/zzzz__KerningPairKey_def.hpp"
 //  Writing Method size for method: ::TMPro::KerningPairKey._ctor
 template <>

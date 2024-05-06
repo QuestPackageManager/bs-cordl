@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LufsMetering/SplitAudioJob.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "LufsMetering/zzzz__SplitAudioJob_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"

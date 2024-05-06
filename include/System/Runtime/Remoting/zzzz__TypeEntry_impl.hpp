@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/TypeEntry.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Remoting/zzzz__TypeEntry_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::TypeEntry._ctor

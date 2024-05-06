@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UI/Selectable.hpp"
 #include "UnityEngine/EventSystems/zzzz__UIBehaviour_impl.hpp"
 #include "UnityEngine/UI/zzzz__ColorBlock_impl.hpp"
 #include "UnityEngine/UI/zzzz__Navigation_impl.hpp"

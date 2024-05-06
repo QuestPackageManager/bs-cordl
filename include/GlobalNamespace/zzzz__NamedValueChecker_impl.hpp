@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/NamedValueChecker.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__NamedValueChecker_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"

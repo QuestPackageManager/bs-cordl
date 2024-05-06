@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UI/IClippable.hpp"
 #include "UnityEngine/UI/zzzz__IClippable_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"

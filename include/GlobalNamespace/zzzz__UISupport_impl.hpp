@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/UISupport.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__UISupport_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::UISupport.Initialize

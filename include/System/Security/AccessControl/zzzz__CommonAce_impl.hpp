@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/AccessControl/CommonAce.hpp"
 #include "System/Security/AccessControl/zzzz__QualifiedAce_impl.hpp"
 #include "System/Security/AccessControl/zzzz__CommonAce_def.hpp"
 #include "System/Security/AccessControl/zzzz__AceFlags_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SongPackMaskConverter.hpp"
 #include "Newtonsoft/Json/zzzz__JsonConverter_impl.hpp"
 #include "GlobalNamespace/zzzz__SongPackMaskConverter_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"

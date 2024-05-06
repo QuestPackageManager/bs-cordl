@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/IInputInteraction.hpp"
 #include "UnityEngine/InputSystem/zzzz__IInputInteraction_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputInteractionContext_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::IInputInteraction.Process

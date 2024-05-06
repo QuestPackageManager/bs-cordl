@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Reflection/MonoMethodInfo.hpp"
 #include "System/Reflection/zzzz__CallingConventions_impl.hpp"
 #include "System/Reflection/zzzz__MethodAttributes_impl.hpp"
 #include "System/Reflection/zzzz__MethodImplAttributes_impl.hpp"

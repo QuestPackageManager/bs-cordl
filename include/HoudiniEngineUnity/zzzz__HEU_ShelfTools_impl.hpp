@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HEU_ShelfTools.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_ShelfTools_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_ShelfToolData_def.hpp"

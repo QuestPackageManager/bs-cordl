@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SaberModelContainer.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SaberModelContainer_def.hpp"
 #include "GlobalNamespace/zzzz__SaberModelController_def.hpp"

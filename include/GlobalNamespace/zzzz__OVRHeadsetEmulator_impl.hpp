@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OVRHeadsetEmulator.hpp"
 #include "GlobalNamespace/zzzz__OVRHeadsetEmulator_impl.hpp"
 #include "UnityEngine/zzzz__CursorLockMode_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"

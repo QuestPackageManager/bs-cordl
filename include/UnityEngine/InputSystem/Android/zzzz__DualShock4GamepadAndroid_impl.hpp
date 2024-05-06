@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Android/DualShock4GamepadAndroid.hpp"
 #include "UnityEngine/InputSystem/DualShock/zzzz__DualShockGamepad_impl.hpp"
 #include "UnityEngine/InputSystem/Android/zzzz__DualShock4GamepadAndroid_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Android::DualShock4GamepadAndroid._ctor

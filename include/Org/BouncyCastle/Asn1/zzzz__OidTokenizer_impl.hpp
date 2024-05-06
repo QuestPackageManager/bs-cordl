@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/OidTokenizer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__OidTokenizer_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::OidTokenizer._ctor

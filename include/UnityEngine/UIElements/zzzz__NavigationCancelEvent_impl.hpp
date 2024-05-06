@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/NavigationCancelEvent.hpp"
 #include "UnityEngine/UIElements/zzzz__NavigationEventBase_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__NavigationCancelEvent_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::NavigationCancelEvent._ctor

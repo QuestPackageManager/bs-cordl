@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/__DTString.hpp"
 #include "System/zzzz__ReadOnlySpan_1_impl.hpp"
 #include "System/zzzz____DTString_def.hpp"
 #include "System/Globalization/zzzz__CompareInfo_def.hpp"

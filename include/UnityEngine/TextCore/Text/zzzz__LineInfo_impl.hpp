@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/TextCore/Text/LineInfo.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__Extents_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextAlignment_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__LineInfo_def.hpp"

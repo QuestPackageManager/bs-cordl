@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Serialization/IDeserializationCallback.hpp"
 #include "System/Runtime/Serialization/zzzz__IDeserializationCallback_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Serialization::IDeserializationCallback.OnDeserialization

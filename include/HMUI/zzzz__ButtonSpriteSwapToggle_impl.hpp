@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/ButtonSpriteSwapToggle.hpp"
 #include "HMUI/zzzz__ButtonSpriteSwap_impl.hpp"
 #include "HMUI/zzzz__ButtonSpriteSwapToggle_def.hpp"
 #include "HMUI/zzzz__NoTransitionsButton_def.hpp"

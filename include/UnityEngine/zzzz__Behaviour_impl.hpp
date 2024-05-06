@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Behaviour.hpp"
 #include "UnityEngine/zzzz__Component_impl.hpp"
 #include "UnityEngine/zzzz__Behaviour_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Behaviour.get_enabled

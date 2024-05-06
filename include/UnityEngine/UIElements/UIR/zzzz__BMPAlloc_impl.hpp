@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/BMPAlloc.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__OwnedState_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__BMPAlloc_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__OwnedState_def.hpp"

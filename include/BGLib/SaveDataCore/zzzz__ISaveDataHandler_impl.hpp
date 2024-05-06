@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BGLib/SaveDataCore/ISaveDataHandler.hpp"
 #include "BGLib/SaveDataCore/zzzz__ISaveDataHandler_def.hpp"
 #include "BGLib/SaveDataCore/zzzz__LoaderState_def.hpp"
 #include "BGLib/SaveDataCore/zzzz__SaveDataResult_def.hpp"

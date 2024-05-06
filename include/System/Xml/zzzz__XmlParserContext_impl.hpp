@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/XmlParserContext.hpp"
 #include "System/Xml/zzzz__XmlSpace_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__XmlParserContext_def.hpp"

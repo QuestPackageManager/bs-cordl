@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Resources/SatelliteContractVersionAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Resources/zzzz__SatelliteContractVersionAttribute_def.hpp"
 //  Writing Method size for method: ::System::Resources::SatelliteContractVersionAttribute._ctor

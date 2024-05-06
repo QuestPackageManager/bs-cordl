@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/ContentDecodeStream.hpp"
 #include "System/Net/zzzz__WebReadStream_impl.hpp"
 #include "System/Net/zzzz__ContentDecodeStream_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"

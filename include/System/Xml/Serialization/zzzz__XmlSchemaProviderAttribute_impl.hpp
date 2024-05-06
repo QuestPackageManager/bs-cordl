@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Serialization/XmlSchemaProviderAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Xml/Serialization/zzzz__XmlSchemaProviderAttribute_def.hpp"
 //  Writing Method size for method: ::System::Xml::Serialization::XmlSchemaProviderAttribute._ctor

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/ListView.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseVerticalCollectionView_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BindableElement_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__ListViewReorderMode_impl.hpp"

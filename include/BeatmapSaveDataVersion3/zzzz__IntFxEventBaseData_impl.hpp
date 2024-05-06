@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatmapSaveDataVersion3/IntFxEventBaseData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatmapSaveDataVersion3/zzzz__IntFxEventBaseData_def.hpp"
 //  Writing Method size for method: ::BeatmapSaveDataVersion3::IntFxEventBaseData.get_beat

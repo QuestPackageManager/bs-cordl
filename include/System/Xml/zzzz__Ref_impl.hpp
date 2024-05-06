@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Ref.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__Ref_def.hpp"
 //  Writing Method size for method: ::System::Xml::Ref.Equal

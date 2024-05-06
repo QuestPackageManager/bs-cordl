@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/NavigationTabEvent.hpp"
 #include "UnityEngine/UIElements/zzzz__NavigationEventBase_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__NavigationTabEvent_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__NavigationTabEvent_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Cursor.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Cursor_def.hpp"
 #include "UnityEngine/zzzz__CursorLockMode_def.hpp"

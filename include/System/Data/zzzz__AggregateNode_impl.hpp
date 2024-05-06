@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/AggregateNode.hpp"
 #include "System/Data/zzzz__AggregateType_impl.hpp"
 #include "System/Data/zzzz__Aggregate_impl.hpp"
 #include "System/Data/zzzz__ExpressionNode_impl.hpp"

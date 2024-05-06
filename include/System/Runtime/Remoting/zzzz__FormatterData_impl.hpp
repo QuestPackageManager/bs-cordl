@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/FormatterData.hpp"
 #include "System/Runtime/Remoting/zzzz__ProviderData_impl.hpp"
 #include "System/Runtime/Remoting/zzzz__FormatterData_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::FormatterData._ctor

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ContextMenu.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/zzzz__ContextMenu_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ContextMenu._ctor

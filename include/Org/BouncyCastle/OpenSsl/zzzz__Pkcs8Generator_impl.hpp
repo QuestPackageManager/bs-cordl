@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/OpenSsl/Pkcs8Generator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/OpenSsl/zzzz__Pkcs8Generator_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"

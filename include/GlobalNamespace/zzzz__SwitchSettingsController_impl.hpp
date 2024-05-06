@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SwitchSettingsController.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SwitchSettingsController_def.hpp"
 #include "UnityEngine/UI/zzzz__Toggle_def.hpp"

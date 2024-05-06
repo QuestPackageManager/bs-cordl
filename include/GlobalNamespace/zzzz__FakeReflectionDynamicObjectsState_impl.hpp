@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/FakeReflectionDynamicObjectsState.hpp"
 #include "GlobalNamespace/zzzz__FakeReflectionDynamicObjectsState_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::FakeReflectionDynamicObjectsState::FakeReflectionDynamicObjectsState(int32_t value__) noexcept {

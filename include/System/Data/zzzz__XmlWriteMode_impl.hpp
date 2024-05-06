@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/XmlWriteMode.hpp"
 #include "System/Data/zzzz__XmlWriteMode_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Data::XmlWriteMode::XmlWriteMode(int32_t value__) noexcept {

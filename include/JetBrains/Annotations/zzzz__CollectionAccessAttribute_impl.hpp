@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "JetBrains/Annotations/CollectionAccessAttribute.hpp"
 #include "JetBrains/Annotations/zzzz__CollectionAccessType_impl.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "JetBrains/Annotations/zzzz__CollectionAccessAttribute_def.hpp"

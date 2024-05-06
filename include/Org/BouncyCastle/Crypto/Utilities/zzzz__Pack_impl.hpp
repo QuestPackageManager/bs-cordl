@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Utilities/Pack.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Utilities/zzzz__Pack_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Utilities::Pack._ctor

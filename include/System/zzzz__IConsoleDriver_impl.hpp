@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/IConsoleDriver.hpp"
 #include "System/zzzz__IConsoleDriver_def.hpp"
 #include "System/zzzz__ConsoleKeyInfo_def.hpp"
 //  Writing Method size for method: ::System::IConsoleDriver.ReadKey

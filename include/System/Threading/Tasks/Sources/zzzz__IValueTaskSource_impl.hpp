@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/Tasks/Sources/IValueTaskSource.hpp"
 #include "System/Threading/Tasks/Sources/zzzz__IValueTaskSource_def.hpp"
 #include "System/Threading/Tasks/Sources/zzzz__ValueTaskSourceOnCompletedFlags_def.hpp"
 #include "System/Threading/Tasks/Sources/zzzz__ValueTaskSourceStatus_def.hpp"

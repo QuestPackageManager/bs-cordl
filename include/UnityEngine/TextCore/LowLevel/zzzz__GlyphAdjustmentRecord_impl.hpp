@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/TextCore/LowLevel/GlyphAdjustmentRecord.hpp"
 #include "UnityEngine/TextCore/LowLevel/zzzz__GlyphValueRecord_impl.hpp"
 #include "UnityEngine/TextCore/LowLevel/zzzz__GlyphAdjustmentRecord_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"

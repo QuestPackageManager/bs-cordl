@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/TransformScopeConcreteIdArgConditionCopyNonLazyBinder.hpp"
 #include "Zenject/zzzz__ScopeConcreteIdArgConditionCopyNonLazyBinder_impl.hpp"
 #include "Zenject/zzzz__TransformScopeConcreteIdArgConditionCopyNonLazyBinder_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"

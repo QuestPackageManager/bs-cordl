@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/DriverDirectMode_FrameTiming.hpp"
 #include "OVR/OpenVR/zzzz__DriverDirectMode_FrameTiming_def.hpp"
 // Ctor Parameters [CppParam { name: "m_nSize", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_nNumFramePresents", ty: "uint32_t", modifiers: "", def_value: Some("{}") },
 // CppParam { name: "m_nNumMisPresented", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_nNumDroppedFrames", ty: "uint32_t", modifiers: "", def_value: Some("{}") },

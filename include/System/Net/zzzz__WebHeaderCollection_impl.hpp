@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/WebHeaderCollection.hpp"
 #include "System/Collections/Specialized/zzzz__NameValueCollection_impl.hpp"
 #include "System/Net/zzzz__WebHeaderCollectionType_impl.hpp"
 #include "System/Net/zzzz__WebHeaderCollection_def.hpp"

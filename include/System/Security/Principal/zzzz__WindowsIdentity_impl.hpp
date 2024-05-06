@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Principal/WindowsIdentity.hpp"
 #include "System/Security/Claims/zzzz__ClaimsIdentity_impl.hpp"
 #include "System/Security/Principal/zzzz__WindowsAccountType_impl.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"

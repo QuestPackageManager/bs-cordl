@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/OnRemoveWriter.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Xml/zzzz__OnRemoveWriter_def.hpp"
 #include "System/Xml/zzzz__XmlRawWriter_def.hpp"

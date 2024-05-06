@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SpriteSwapTransitionSO.hpp"
 #include "GlobalNamespace/zzzz__BaseTransitionSO_impl.hpp"
 #include "GlobalNamespace/zzzz__SpriteSwapTransitionSO_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"

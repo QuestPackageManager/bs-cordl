@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/LinkedPoolItem_1.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__LinkedPoolItem_1_def.hpp"
 template <typename T> constexpr T& UnityEngine::UIElements::UIR::LinkedPoolItem_1<T>::__cordl_internal_get_poolNext() {

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Reflection/AssemblyName.hpp"
 #include "System/Configuration/Assemblies/zzzz__AssemblyHashAlgorithm_impl.hpp"
 #include "System/Configuration/Assemblies/zzzz__AssemblyVersionCompatibility_impl.hpp"
 #include "System/Reflection/zzzz__AssemblyContentType_impl.hpp"

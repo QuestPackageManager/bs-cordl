@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ComponentModel/Design/IDictionaryService.hpp"
 #include "System/ComponentModel/Design/zzzz__IDictionaryService_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::ComponentModel::Design::IDictionaryService.GetValue

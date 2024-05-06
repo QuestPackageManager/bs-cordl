@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Http/Headers/NameValueWithParametersHeaderValue.hpp"
 #include "System/Net/Http/Headers/zzzz__NameValueHeaderValue_impl.hpp"
 #include "System/Net/Http/Headers/zzzz__NameValueWithParametersHeaderValue_def.hpp"
 #include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"

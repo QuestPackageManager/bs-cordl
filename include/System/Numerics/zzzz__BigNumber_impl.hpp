@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Numerics/BigNumber.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Numerics/zzzz__BigNumber_def.hpp"
 #include "System/Globalization/zzzz__NumberFormatInfo_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/PartyMicState.hpp"
 #include "Oculus/Platform/zzzz__PartyMicState_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::Oculus::Platform::PartyMicState::PartyMicState(int32_t value__) noexcept {

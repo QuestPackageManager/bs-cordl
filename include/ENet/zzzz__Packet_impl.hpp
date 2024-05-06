@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "ENet/Packet.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "ENet/zzzz__Packet_def.hpp"
 #include "ENet/zzzz__PacketFlags_def.hpp"

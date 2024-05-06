@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MissionObjectiveChecker.hpp"
 #include "GlobalNamespace/zzzz__MissionObjectiveChecker_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionObjectiveChecker_def.hpp"

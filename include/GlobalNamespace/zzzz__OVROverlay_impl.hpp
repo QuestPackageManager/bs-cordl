@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OVROverlay.hpp"
 #include "GlobalNamespace/zzzz__OVRManager_impl.hpp"
 #include "GlobalNamespace/zzzz__OVROverlay_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_impl.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/LightmapData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__LightmapData_def.hpp"
 #include "UnityEngine/zzzz__Texture2D_def.hpp"

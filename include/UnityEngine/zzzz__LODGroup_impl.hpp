@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/LODGroup.hpp"
 #include "UnityEngine/zzzz__Component_impl.hpp"
 #include "UnityEngine/zzzz__LODGroup_def.hpp"
 #include "UnityEngine/zzzz__LOD_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Array.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__Array_def.hpp"

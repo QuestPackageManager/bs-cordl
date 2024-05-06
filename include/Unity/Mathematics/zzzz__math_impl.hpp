@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/Mathematics/math.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Mathematics/zzzz__math_def.hpp"
 #include "Unity/Mathematics/zzzz__RigidTransform_def.hpp"

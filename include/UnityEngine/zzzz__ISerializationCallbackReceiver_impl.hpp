@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ISerializationCallbackReceiver.hpp"
 #include "UnityEngine/zzzz__ISerializationCallbackReceiver_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ISerializationCallbackReceiver.OnBeforeSerialize
 template <>

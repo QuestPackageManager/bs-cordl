@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HAPI_PDG_State.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_PDG_State_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::HoudiniEngineUnity::HAPI_PDG_State::HAPI_PDG_State(int32_t value__) noexcept {

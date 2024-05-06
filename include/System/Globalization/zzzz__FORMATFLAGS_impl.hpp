@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Globalization/FORMATFLAGS.hpp"
 #include "System/Globalization/zzzz__FORMATFLAGS_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Globalization::FORMATFLAGS::FORMATFLAGS(int32_t value__) noexcept {

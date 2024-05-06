@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/TransformExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__TransformExtensions_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"

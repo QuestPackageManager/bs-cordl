@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/LOD.hpp"
 #include "UnityEngine/zzzz__LOD_def.hpp"
 #include "UnityEngine/zzzz__Renderer_def.hpp"
 //  Writing Method size for method: ::UnityEngine::LOD._ctor

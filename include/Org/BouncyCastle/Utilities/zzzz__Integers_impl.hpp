@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Utilities/Integers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Utilities/zzzz__Integers_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Utilities::Integers.NumberOfLeadingZeros

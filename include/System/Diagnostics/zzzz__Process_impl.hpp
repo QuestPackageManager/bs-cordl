@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Diagnostics/Process.hpp"
 #include "System/ComponentModel/zzzz__Component_impl.hpp"
 #include "System/Diagnostics/zzzz__Process_impl.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"

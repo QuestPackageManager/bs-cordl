@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Serialization/TypeLoadExceptionHolder.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__TypeLoadExceptionHolder_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Serialization::TypeLoadExceptionHolder._ctor

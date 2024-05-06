@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/AchievementsEvaluationHandler.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__AchievementsEvaluationHandler_def.hpp"
 #include "GlobalNamespace/zzzz__AchievementSO_def.hpp"

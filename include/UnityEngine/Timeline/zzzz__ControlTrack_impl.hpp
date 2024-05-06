@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Timeline/ControlTrack.hpp"
 #include "UnityEngine/Timeline/zzzz__TrackAsset_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__ControlTrack_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Timeline::ControlTrack._ctor

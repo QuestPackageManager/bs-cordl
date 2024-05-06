@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BloomFogEnvironmentParams.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__BloomFogEnvironmentParams_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BloomFogEnvironmentParams._ctor

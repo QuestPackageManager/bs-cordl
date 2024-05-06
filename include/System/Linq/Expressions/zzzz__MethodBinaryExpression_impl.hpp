@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/MethodBinaryExpression.hpp"
 #include "System/Linq/Expressions/zzzz__SimpleBinaryExpression_impl.hpp"
 #include "System/Linq/Expressions/zzzz__MethodBinaryExpression_def.hpp"
 #include "System/Linq/Expressions/zzzz__ExpressionType_def.hpp"

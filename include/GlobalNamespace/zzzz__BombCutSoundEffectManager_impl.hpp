@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BombCutSoundEffectManager.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BombCutSoundEffectManager_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectManager_def.hpp"

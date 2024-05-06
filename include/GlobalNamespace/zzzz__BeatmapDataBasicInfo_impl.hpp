@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BeatmapDataBasicInfo.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataBasicInfo_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BeatmapDataBasicInfo.get_numberOfLines

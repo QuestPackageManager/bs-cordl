@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/VRTextureDepthInfo_t.hpp"
 #include "OVR/OpenVR/zzzz__HmdMatrix44_t_impl.hpp"
 #include "OVR/OpenVR/zzzz__HmdVector2_t_impl.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"

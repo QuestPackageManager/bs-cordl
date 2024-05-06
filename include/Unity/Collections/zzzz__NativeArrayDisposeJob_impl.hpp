@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/Collections/NativeArrayDisposeJob.hpp"
 #include "Unity/Collections/zzzz__NativeArrayDispose_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArrayDisposeJob_def.hpp"
 #include "Unity/Collections/zzzz__NativeArrayDispose_def.hpp"

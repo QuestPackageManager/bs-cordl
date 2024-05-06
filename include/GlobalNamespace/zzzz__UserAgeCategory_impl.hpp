@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/UserAgeCategory.hpp"
 #include "GlobalNamespace/zzzz__UserAgeCategory_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::UserAgeCategory::UserAgeCategory(int32_t value__) noexcept {

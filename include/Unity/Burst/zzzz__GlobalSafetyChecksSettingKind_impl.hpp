@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/Burst/GlobalSafetyChecksSettingKind.hpp"
 #include "Unity/Burst/zzzz__GlobalSafetyChecksSettingKind_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::Unity::Burst::GlobalSafetyChecksSettingKind::GlobalSafetyChecksSettingKind(int32_t value__) noexcept {

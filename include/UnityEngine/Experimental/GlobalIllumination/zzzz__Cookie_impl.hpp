@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Experimental/GlobalIllumination/Cookie.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/Experimental/GlobalIllumination/zzzz__Cookie_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"

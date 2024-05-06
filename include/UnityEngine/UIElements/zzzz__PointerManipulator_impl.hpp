@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/PointerManipulator.hpp"
 #include "UnityEngine/UIElements/zzzz__MouseManipulator_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerManipulator_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IPointerEvent_def.hpp"

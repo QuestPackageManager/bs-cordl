@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SafeAreaFocusedSimpleDialogPromptViewController.hpp"
 #include "GlobalNamespace/zzzz__SimpleDialogPromptViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__SafeAreaFocusedSimpleDialogPromptViewController_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SafeAreaFocusedSimpleDialogPromptViewController._ctor

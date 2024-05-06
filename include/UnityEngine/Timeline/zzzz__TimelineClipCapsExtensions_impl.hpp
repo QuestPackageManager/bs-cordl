@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Timeline/TimelineClipCapsExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__TimelineClipCapsExtensions_def.hpp"
 #include "UnityEngine/Timeline/zzzz__ClipCaps_def.hpp"

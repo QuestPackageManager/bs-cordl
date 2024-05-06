@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Bcpg/PublicSubkeyPacket.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__PublicKeyPacket_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__PublicSubkeyPacket_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__BcpgInputStream_def.hpp"

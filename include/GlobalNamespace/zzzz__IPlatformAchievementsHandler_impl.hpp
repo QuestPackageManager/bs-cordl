@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IPlatformAchievementsHandler.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "GlobalNamespace/zzzz__IPlatformAchievementsHandler_def.hpp"
 #include "GlobalNamespace/zzzz__HMAsyncRequest_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/Lifetime/LeaseManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Remoting/Lifetime/zzzz__LeaseManager_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"

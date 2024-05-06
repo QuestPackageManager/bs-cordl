@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/PlatformSettings.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "Oculus/Platform/zzzz__PlatformSettings_def.hpp"
 //  Writing Method size for method: ::Oculus::Platform::PlatformSettings.get_AppID

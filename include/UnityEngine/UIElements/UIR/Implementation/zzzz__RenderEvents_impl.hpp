@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/Implementation/RenderEvents.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/UIR/Implementation/zzzz__RenderEvents_def.hpp"
 #include "UnityEngine/UIElements/UIR/Implementation/zzzz__ClipMethod_def.hpp"

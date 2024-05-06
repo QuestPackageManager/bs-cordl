@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LiteNetLib/ConnectionRequest.hpp"
 #include "LiteNetLib/zzzz__ConnectionRequestResult_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "LiteNetLib/zzzz__ConnectionRequest_def.hpp"

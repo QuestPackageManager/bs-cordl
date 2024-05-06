@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/IO/EnumerationOptions.hpp"
 #include "System/IO/zzzz__FileAttributes_impl.hpp"
 #include "System/IO/zzzz__MatchCasing_impl.hpp"
 #include "System/IO/zzzz__MatchType_impl.hpp"

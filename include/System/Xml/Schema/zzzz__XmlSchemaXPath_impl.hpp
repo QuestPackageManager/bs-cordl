@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaXPath.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaAnnotated_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaXPath_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::XmlSchemaXPath.get_XPath

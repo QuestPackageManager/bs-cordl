@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LufsMetering/FilteringJob.hpp"
 #include "LufsMetering/zzzz__FilterCoefficients_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "LufsMetering/zzzz__FilteringJob_def.hpp"

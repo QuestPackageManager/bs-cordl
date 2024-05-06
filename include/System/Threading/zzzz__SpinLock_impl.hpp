@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/SpinLock.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/zzzz__SpinLock_def.hpp"
 #include "System/Threading/zzzz__SpinLock_def.hpp"

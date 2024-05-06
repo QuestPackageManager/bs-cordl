@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaEnumerationFacet.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaFacet_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaEnumerationFacet_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::XmlSchemaEnumerationFacet._ctor

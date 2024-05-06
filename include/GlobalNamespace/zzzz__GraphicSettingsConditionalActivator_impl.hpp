@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/GraphicSettingsConditionalActivator.hpp"
 #include "GlobalNamespace/zzzz__GraphicSettingsConditionalActivator_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__GraphicSettingsConditionalActivator_def.hpp"

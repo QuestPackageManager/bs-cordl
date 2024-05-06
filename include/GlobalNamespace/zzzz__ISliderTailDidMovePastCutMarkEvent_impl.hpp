@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ISliderTailDidMovePastCutMarkEvent.hpp"
 #include "GlobalNamespace/zzzz__ISliderTailDidMovePastCutMarkEvent_def.hpp"
 #include "GlobalNamespace/zzzz__SliderController_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ISliderTailDidMovePastCutMarkEvent.HandleSliderTailDidMovePastCutMark

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/SchemaFormat.hpp"
 #include "System/Data/zzzz__SchemaFormat_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Data::SchemaFormat::SchemaFormat(int32_t value__) noexcept {

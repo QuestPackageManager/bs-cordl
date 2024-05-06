@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Dynamic/Utils/TypeUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Dynamic/Utils/zzzz__TypeUtils_def.hpp"
 #include "System/Dynamic/Utils/zzzz__TypeUtils_def.hpp"

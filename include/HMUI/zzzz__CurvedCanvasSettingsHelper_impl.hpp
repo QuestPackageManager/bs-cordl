@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/CurvedCanvasSettingsHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "HMUI/zzzz__CurvedCanvasSettingsHelper_def.hpp"
 #include "HMUI/zzzz__CurvedCanvasSettings_def.hpp"

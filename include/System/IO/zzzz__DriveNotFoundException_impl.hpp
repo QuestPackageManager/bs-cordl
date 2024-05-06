@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/IO/DriveNotFoundException.hpp"
 #include "System/IO/zzzz__IOException_impl.hpp"
 #include "System/IO/zzzz__DriveNotFoundException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"

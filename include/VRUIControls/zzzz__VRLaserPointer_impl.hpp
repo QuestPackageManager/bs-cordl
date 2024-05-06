@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "VRUIControls/VRLaserPointer.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "VRUIControls/zzzz__VRLaserPointer_def.hpp"
 #include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Networking/DownloadHandlerAssetBundle.hpp"
 #include "UnityEngine/Networking/zzzz__DownloadHandler_impl.hpp"
 #include "UnityEngine/Networking/zzzz__DownloadHandlerAssetBundle_def.hpp"
 #include "UnityEngine/zzzz__AssetBundle_def.hpp"

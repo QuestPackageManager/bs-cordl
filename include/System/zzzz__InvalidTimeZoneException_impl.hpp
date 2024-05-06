@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/InvalidTimeZoneException.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "System/zzzz__InvalidTimeZoneException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"

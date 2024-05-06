@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ProBuilder/Shapes/ShapeAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/ProBuilder/Shapes/zzzz__ShapeAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ProBuilder::Shapes::ShapeAttribute._ctor

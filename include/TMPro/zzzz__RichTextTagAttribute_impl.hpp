@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/RichTextTagAttribute.hpp"
 #include "TMPro/zzzz__TagUnitType_impl.hpp"
 #include "TMPro/zzzz__TagValueType_impl.hpp"
 #include "TMPro/zzzz__RichTextTagAttribute_def.hpp"

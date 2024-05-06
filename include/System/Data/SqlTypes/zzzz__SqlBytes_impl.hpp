@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/SqlTypes/SqlBytes.hpp"
 #include "System/Data/SqlTypes/zzzz__SqlBytesCharsState_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Data/SqlTypes/zzzz__SqlBytes_def.hpp"

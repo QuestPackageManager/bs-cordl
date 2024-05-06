@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatmapSaveDataVersion3/ColorBoostEventData.hpp"
 #include "BeatmapSaveDataVersion3/zzzz__BeatmapSaveDataItem_impl.hpp"
 #include "BeatmapSaveDataVersion3/zzzz__ColorBoostEventData_def.hpp"
 //  Writing Method size for method: ::BeatmapSaveDataVersion3::ColorBoostEventData.get_boost

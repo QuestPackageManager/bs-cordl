@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Globalization/Unicode/TailoringInfo.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Globalization/Unicode/zzzz__TailoringInfo_def.hpp"
 //  Writing Method size for method: ::Mono::Globalization::Unicode::TailoringInfo._ctor

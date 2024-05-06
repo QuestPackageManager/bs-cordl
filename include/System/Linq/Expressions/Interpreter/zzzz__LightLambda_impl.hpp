@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/LightLambda.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__LightLambda_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"

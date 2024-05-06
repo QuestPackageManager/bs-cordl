@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/GameServerBrowserStackedController.hpp"
 #include "HMUI/zzzz__StackedController_impl.hpp"
 #include "GlobalNamespace/zzzz__GameServerBrowserStackedController_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::GameServerBrowserStackedController.DidActivate

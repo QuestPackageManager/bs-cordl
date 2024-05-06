@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/Volatile.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/zzzz__Volatile_def.hpp"
 #include "System/Threading/zzzz__Volatile_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/DataColumnPropertyDescriptor.hpp"
 #include "System/ComponentModel/zzzz__PropertyDescriptor_impl.hpp"
 #include "System/Data/zzzz__DataColumnPropertyDescriptor_def.hpp"
 #include "System/ComponentModel/zzzz__AttributeCollection_def.hpp"

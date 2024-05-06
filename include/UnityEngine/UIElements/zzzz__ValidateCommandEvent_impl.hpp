@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/ValidateCommandEvent.hpp"
 #include "UnityEngine/UIElements/zzzz__CommandEventBase_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__ValidateCommandEvent_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::ValidateCommandEvent._ctor

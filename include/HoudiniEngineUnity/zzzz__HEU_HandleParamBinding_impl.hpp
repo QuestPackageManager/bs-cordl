@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HEU_HandleParamBinding.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_HandleParamBinding_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_HandleParamBinding_def.hpp"

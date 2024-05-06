@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/IProvider.hpp"
 #include "Zenject/zzzz__IProvider_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Action_def.hpp"

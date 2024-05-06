@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/FileDifficultyBeatmap.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__FileDifficultyBeatmap_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"

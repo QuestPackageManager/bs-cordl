@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/HighlightState.hpp"
 #include "TMPro/zzzz__TMP_Offset_impl.hpp"
 #include "UnityEngine/zzzz__Color32_impl.hpp"
 #include "TMPro/zzzz__HighlightState_def.hpp"

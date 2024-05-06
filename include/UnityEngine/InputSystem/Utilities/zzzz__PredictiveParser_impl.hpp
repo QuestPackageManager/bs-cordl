@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/PredictiveParser.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__PredictiveParser_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Utilities::PredictiveParser.ExpectSingleChar

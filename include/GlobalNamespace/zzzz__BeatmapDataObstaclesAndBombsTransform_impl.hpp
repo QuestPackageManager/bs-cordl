@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BeatmapDataObstaclesAndBombsTransform.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiers_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataObstaclesAndBombsTransform_def.hpp"

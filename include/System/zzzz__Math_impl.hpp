@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Math.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__Math_def.hpp"
 #include "System/zzzz__Decimal_def.hpp"

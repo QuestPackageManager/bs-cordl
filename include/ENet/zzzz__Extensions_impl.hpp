@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "ENet/Extensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "ENet/zzzz__Extensions_def.hpp"
 //  Writing Method size for method: ::ENet::Extensions.StringLength

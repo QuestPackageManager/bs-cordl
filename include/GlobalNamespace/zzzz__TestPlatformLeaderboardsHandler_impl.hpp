@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/TestPlatformLeaderboardsHandler.hpp"
 #include "GlobalNamespace/zzzz__PlatformLeaderboardsHandler_impl.hpp"
 #include "GlobalNamespace/zzzz__TestPlatformLeaderboardsHandler_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_def.hpp"

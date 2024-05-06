@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/SortingLayer.hpp"
 #include "UnityEngine/zzzz__SortingLayer_def.hpp"
 //  Writing Method size for method: ::UnityEngine::SortingLayer.GetLayerValueFromID
 template <>

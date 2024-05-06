@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ScreenCapture.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__ScreenCapture_def.hpp"
 #include "UnityEngine/zzzz__ScreenCapture_def.hpp"

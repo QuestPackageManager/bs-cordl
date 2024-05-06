@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/EnabledTransitionSO.hpp"
 #include "GlobalNamespace/zzzz__BaseTransitionSO_impl.hpp"
 #include "GlobalNamespace/zzzz__EnabledTransitionSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::EnabledTransitionSO.get_normalState

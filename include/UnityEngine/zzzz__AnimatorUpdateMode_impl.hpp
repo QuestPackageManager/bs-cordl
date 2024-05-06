@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/AnimatorUpdateMode.hpp"
 #include "UnityEngine/zzzz__AnimatorUpdateMode_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::AnimatorUpdateMode::AnimatorUpdateMode(int32_t value__) noexcept {

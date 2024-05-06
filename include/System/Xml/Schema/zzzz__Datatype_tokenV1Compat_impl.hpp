@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/Datatype_tokenV1Compat.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_normalizedStringV1Compat_impl.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_tokenV1Compat_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlTypeCode_def.hpp"

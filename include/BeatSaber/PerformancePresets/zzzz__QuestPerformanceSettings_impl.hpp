@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatSaber/PerformancePresets/QuestPerformanceSettings.hpp"
 #include "BeatSaber/PerformancePresets/zzzz__FoveatedRenderingLevel_impl.hpp"
 #include "BeatSaber/PerformancePresets/zzzz__ProcessorPerformanceLevel_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"

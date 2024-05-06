@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UI/StencilMaterial.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ColorWriteMask_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__CompareFunction_impl.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/Interlocked.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/zzzz__Interlocked_def.hpp"
 #include "System/zzzz__Object_def.hpp"

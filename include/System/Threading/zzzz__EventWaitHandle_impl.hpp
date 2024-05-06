@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/EventWaitHandle.hpp"
 #include "System/Threading/zzzz__WaitHandle_impl.hpp"
 #include "System/Threading/zzzz__EventWaitHandle_def.hpp"
 #include "System/Threading/zzzz__EventResetMode_def.hpp"

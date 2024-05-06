@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatSaber/PerformancePresets/CustomPerformancePreset.hpp"
 #include "BeatSaber/PerformancePresets/zzzz__PerformancePreset_impl.hpp"
 #include "BeatSaber/PerformancePresets/zzzz__CustomPerformancePreset_def.hpp"
 #include "BGLib/SaveDataCore/zzzz__ISerializableSaveData_def.hpp"

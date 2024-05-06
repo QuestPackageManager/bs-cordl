@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "IgnoranceCore/IgnoranceInternals.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "IgnoranceCore/zzzz__IgnoranceInternals_def.hpp"
 //  Writing Method size for method: ::IgnoranceCore::IgnoranceInternals._ctor

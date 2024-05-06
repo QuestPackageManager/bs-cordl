@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatSaber/GameSettings/LanguageHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/GameSettings/zzzz__LanguageHelper_def.hpp"
 #include "BGLib/Polyglot/zzzz__Language_def.hpp"

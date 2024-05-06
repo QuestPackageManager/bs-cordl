@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/AssemblyInfo.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__AssemblyInfo_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::AssemblyInfo.get_Version

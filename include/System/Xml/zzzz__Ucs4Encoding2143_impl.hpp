@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Ucs4Encoding2143.hpp"
 #include "System/Xml/zzzz__Ucs4Encoding_impl.hpp"
 #include "System/Xml/zzzz__Ucs4Encoding2143_def.hpp"
 //  Writing Method size for method: ::System::Xml::Ucs4Encoding2143._ctor

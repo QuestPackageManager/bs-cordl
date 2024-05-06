@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/UIKeyboardManager.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__UIKeyboardManager_def.hpp"
 #include "HMUI/zzzz__InputFieldView_def.hpp"

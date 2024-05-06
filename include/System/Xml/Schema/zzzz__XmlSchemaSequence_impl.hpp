@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaSequence.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaGroupBase_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaSequence_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaObjectCollection_def.hpp"

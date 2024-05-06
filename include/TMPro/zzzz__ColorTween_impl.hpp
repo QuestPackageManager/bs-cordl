@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/ColorTween.hpp"
 #include "TMPro/zzzz__ColorTween_impl.hpp"
 #include "UnityEngine/Events/zzzz__UnityEvent_1_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/GameplayServerConfiguration.hpp"
 #include "GlobalNamespace/zzzz__DiscoveryPolicy_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplayServerControlSettings_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplayServerMode_impl.hpp"

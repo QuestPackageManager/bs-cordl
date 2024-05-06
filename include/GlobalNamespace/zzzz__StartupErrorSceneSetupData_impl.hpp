@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/StartupErrorSceneSetupData.hpp"
 #include "GlobalNamespace/zzzz__SceneSetupData_impl.hpp"
 #include "GlobalNamespace/zzzz__StartupErrorSceneSetupData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::StartupErrorSceneSetupData._ctor

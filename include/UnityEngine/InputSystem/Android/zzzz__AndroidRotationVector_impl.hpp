@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Android/AndroidRotationVector.hpp"
 #include "UnityEngine/InputSystem/zzzz__AttitudeSensor_impl.hpp"
 #include "UnityEngine/InputSystem/Android/zzzz__AndroidRotationVector_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Android::AndroidRotationVector._ctor

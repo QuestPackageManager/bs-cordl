@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ObstacleExecutionRating.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectExecutionRating_impl.hpp"
 #include "GlobalNamespace/zzzz__ObstacleExecutionRating_impl.hpp"
 #include "GlobalNamespace/zzzz__ObstacleExecutionRating_def.hpp"

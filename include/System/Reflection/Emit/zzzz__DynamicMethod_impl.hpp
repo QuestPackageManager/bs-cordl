@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Reflection/Emit/DynamicMethod.hpp"
 #include "System/Reflection/zzzz__MethodInfo_impl.hpp"
 #include "System/Reflection/Emit/zzzz__DynamicMethod_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"

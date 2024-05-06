@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BezierCurve.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__BezierCurve_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"

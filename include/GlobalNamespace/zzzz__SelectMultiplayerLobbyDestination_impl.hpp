@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SelectMultiplayerLobbyDestination.hpp"
 #include "GlobalNamespace/zzzz__MenuDestination_impl.hpp"
 #include "GlobalNamespace/zzzz__SelectMultiplayerLobbyDestination_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SelectMultiplayerLobbyDestination._ctor

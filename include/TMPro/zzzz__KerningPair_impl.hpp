@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/KerningPair.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "TMPro/zzzz__GlyphValueRecord_Legacy_impl.hpp"
 #include "TMPro/zzzz__KerningPair_def.hpp"

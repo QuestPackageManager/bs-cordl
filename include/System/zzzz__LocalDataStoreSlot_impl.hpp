@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/LocalDataStoreSlot.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__LocalDataStoreSlot_def.hpp"
 #include "System/zzzz__LocalDataStoreMgr_def.hpp"

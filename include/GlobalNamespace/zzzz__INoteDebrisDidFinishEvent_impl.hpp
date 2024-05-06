@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/INoteDebrisDidFinishEvent.hpp"
 #include "GlobalNamespace/zzzz__INoteDebrisDidFinishEvent_def.hpp"
 #include "GlobalNamespace/zzzz__NoteDebris_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::INoteDebrisDidFinishEvent.HandleNoteDebrisDidFinish

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ComponentModel/Design/ITypeDescriptorFilterService.hpp"
 #include "System/ComponentModel/Design/zzzz__ITypeDescriptorFilterService_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
 #include "System/ComponentModel/zzzz__IComponent_def.hpp"

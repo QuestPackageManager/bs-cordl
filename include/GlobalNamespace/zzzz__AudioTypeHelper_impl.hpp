@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/AudioTypeHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__AudioTypeHelper_def.hpp"
 #include "UnityEngine/zzzz__AudioType_def.hpp"

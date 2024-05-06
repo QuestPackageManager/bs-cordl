@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Rendering/BatchCullingContext.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__BatchVisibility_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__LODParameters_impl.hpp"

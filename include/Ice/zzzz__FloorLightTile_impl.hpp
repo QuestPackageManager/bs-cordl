@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Ice/FloorLightTile.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_impl.hpp"
 #include "Ice/zzzz__FloorLightTile_def.hpp"

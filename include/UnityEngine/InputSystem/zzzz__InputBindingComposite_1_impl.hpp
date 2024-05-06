@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/InputBindingComposite_1.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputBindingComposite_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputBindingComposite_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SceneInfo.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__SceneInfo_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SceneInfo.get_sceneName

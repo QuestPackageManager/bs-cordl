@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/DropdownMenuAction.hpp"
 #include "UnityEngine/UIElements/zzzz__DropdownMenuAction_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__DropdownMenuItem_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__DropdownMenuAction_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/Datatype_negativeInteger.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_nonPositiveInteger_impl.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_negativeInteger_def.hpp"
 #include "System/Xml/Schema/zzzz__FacetsChecker_def.hpp"

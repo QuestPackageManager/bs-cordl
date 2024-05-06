@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Diagnostics/Tracing/EventKeywords.hpp"
 #include "System/Diagnostics/Tracing/zzzz__EventKeywords_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int64_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Diagnostics::Tracing::EventKeywords::EventKeywords(int64_t value__) noexcept {

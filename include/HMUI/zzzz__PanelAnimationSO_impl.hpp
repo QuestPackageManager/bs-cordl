@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/PanelAnimationSO.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "HMUI/zzzz__PanelAnimationSO_def.hpp"
 #include "System/zzzz__Action_def.hpp"

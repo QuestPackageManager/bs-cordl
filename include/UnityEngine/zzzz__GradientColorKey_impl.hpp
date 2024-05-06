@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/GradientColorKey.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__GradientColorKey_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/TermInfoDriver.hpp"
 #include "System/zzzz__ConsoleColor_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__TermInfoDriver_def.hpp"

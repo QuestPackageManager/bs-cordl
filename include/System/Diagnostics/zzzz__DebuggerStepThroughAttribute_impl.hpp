@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Diagnostics/DebuggerStepThroughAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Diagnostics/zzzz__DebuggerStepThroughAttribute_def.hpp"
 //  Writing Method size for method: ::System::Diagnostics::DebuggerStepThroughAttribute._ctor

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/KebabCaseNamingStrategy.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__NamingStrategy_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__KebabCaseNamingStrategy_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Serialization::KebabCaseNamingStrategy._ctor

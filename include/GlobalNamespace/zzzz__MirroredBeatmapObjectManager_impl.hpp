@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MirroredBeatmapObjectManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MirroredBeatmapObjectManager_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectManager_def.hpp"

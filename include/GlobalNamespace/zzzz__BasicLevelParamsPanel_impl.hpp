@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BasicLevelParamsPanel.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BasicLevelParamsPanel_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"

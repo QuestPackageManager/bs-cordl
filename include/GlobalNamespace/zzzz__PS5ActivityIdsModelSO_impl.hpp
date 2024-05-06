@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/PS5ActivityIdsModelSO.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__PS5ActivityIdsModelSO_def.hpp"
 #include "GlobalNamespace/zzzz__CompetetiveActivitySO_def.hpp"

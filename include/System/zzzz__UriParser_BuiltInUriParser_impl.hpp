@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/UriParser_BuiltInUriParser.hpp"
 #include "System/zzzz__UriParser_impl.hpp"
 #include "System/zzzz__UriParser_BuiltInUriParser_def.hpp"
 #include "System/zzzz__UriSyntaxFlags_def.hpp"

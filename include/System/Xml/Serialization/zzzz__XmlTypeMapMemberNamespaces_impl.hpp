@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Serialization/XmlTypeMapMemberNamespaces.hpp"
 #include "System/Xml/Serialization/zzzz__XmlTypeMapMember_impl.hpp"
 #include "System/Xml/Serialization/zzzz__XmlTypeMapMemberNamespaces_def.hpp"
 //  Writing Method size for method: ::System::Xml::Serialization::XmlTypeMapMemberNamespaces._ctor

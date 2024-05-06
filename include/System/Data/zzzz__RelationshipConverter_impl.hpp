@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/RelationshipConverter.hpp"
 #include "System/ComponentModel/zzzz__ExpandableObjectConverter_impl.hpp"
 #include "System/Data/zzzz__RelationshipConverter_def.hpp"
 #include "System/ComponentModel/zzzz__ITypeDescriptorContext_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "JetBrains/Annotations/XamlItemsControlAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "JetBrains/Annotations/zzzz__XamlItemsControlAttribute_def.hpp"
 //  Writing Method size for method: ::JetBrains::Annotations::XamlItemsControlAttribute._ctor

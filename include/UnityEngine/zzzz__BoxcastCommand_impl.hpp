@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/BoxcastCommand.hpp"
 #include "UnityEngine/zzzz__PhysicsScene_impl.hpp"
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"

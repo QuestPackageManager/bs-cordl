@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatmapSaveDataVersion2_6_0AndEarlier/ObstacleData.hpp"
 #include "BeatmapSaveDataVersion2_6_0AndEarlier/zzzz__BeatmapSaveDataItem_impl.hpp"
 #include "BeatmapSaveDataVersion2_6_0AndEarlier/zzzz__ObstacleType_impl.hpp"
 #include "BeatmapSaveDataVersion2_6_0AndEarlier/zzzz__ObstacleData_def.hpp"

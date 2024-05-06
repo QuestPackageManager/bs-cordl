@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Reflection/LocalVariableInfo.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Reflection/zzzz__LocalVariableInfo_def.hpp"
 #include "System/zzzz__Type_def.hpp"

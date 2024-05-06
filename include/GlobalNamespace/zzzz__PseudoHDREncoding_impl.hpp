@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/PseudoHDREncoding.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PseudoHDREncoding_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"

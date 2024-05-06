@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/PS5PlatformAdditionalContentModel.hpp"
 #include "GlobalNamespace/zzzz__SonyPlatformAdditionalContentModel_impl.hpp"
 #include "GlobalNamespace/zzzz__PS5PlatformAdditionalContentModel_def.hpp"
 #include "GlobalNamespace/zzzz__ISonyCommerceHelper_def.hpp"

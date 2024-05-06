@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Cmp/CertificateConfirmationContent.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Cmp/zzzz__CertificateConfirmationContent_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cmp/zzzz__CertConfirmContent_def.hpp"

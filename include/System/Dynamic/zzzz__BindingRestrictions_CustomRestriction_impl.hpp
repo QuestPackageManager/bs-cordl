@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Dynamic/BindingRestrictions_CustomRestriction.hpp"
 #include "System/Dynamic/zzzz__BindingRestrictions_impl.hpp"
 #include "System/Dynamic/zzzz__BindingRestrictions_CustomRestriction_def.hpp"
 #include "System/Linq/Expressions/zzzz__Expression_def.hpp"

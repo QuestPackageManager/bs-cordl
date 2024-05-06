@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/IBindingFinalizer.hpp"
 #include "Zenject/zzzz__IBindingFinalizer_def.hpp"
 #include "Zenject/zzzz__BindingInheritanceMethods_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"

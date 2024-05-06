@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/MessageWithLaunchFriendRequestFlowResult.hpp"
 #include "Oculus/Platform/zzzz__Message_1_impl.hpp"
 #include "Oculus/Platform/zzzz__MessageWithLaunchFriendRequestFlowResult_def.hpp"
 #include "Oculus/Platform/Models/zzzz__LaunchFriendRequestFlowResult_def.hpp"

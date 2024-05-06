@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/ServicePointManager.hpp"
 #include "System/Net/zzzz__SecurityProtocolType_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__ServicePointManager_def.hpp"

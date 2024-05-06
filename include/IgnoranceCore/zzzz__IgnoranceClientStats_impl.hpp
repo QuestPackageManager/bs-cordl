@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "IgnoranceCore/IgnoranceClientStats.hpp"
 #include "IgnoranceCore/zzzz__IgnoranceClientStats_def.hpp"
 // Ctor Parameters [CppParam { name: "RTT", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "BytesReceived", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam {
 // name: "BytesSent", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "PacketsReceived", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name:

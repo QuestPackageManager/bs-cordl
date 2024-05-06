@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ObjectiveListItem.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ObjectiveListItem_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"

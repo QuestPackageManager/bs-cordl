@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/AccessControl/PrivilegeNotHeldException.hpp"
 #include "System/zzzz__UnauthorizedAccessException_impl.hpp"
 #include "System/Security/AccessControl/zzzz__PrivilegeNotHeldException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"

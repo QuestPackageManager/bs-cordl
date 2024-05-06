@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Cms/CmsStreamException.hpp"
 #include "System/IO/zzzz__IOException_impl.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsStreamException_def.hpp"
 #include "System/zzzz__Exception_def.hpp"

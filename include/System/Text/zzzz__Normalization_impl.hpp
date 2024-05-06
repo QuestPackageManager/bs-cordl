@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Text/Normalization.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Text/zzzz__Normalization_def.hpp"
 #include "System/Text/zzzz__NormalizationCheck_def.hpp"

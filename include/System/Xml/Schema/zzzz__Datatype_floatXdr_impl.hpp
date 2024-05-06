@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/Datatype_floatXdr.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_float_impl.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_floatXdr_def.hpp"
 #include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"

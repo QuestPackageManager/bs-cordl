@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/CompilerServices/RuntimeOps.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__RuntimeOps_def.hpp"
 #include "System/Dynamic/zzzz__ExpandoObject_def.hpp"

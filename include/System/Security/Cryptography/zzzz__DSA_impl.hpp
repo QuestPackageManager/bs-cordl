@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Cryptography/DSA.hpp"
 #include "System/Security/Cryptography/zzzz__AsymmetricAlgorithm_impl.hpp"
 #include "System/Security/Cryptography/zzzz__DSA_def.hpp"
 #include "System/Security/Cryptography/zzzz__DSAParameters_def.hpp"

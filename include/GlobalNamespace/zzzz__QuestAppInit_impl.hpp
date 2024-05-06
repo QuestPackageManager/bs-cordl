@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/QuestAppInit.hpp"
 #include "BeatSaber/Init/zzzz__BSAppInit_impl.hpp"
 #include "GlobalNamespace/zzzz__QuestAppInit_def.hpp"
 #include "GlobalNamespace/zzzz__DefaultScenesTransitionsFromInit_def.hpp"

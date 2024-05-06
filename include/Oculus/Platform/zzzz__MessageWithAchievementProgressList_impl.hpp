@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/MessageWithAchievementProgressList.hpp"
 #include "Oculus/Platform/zzzz__Message_1_impl.hpp"
 #include "Oculus/Platform/zzzz__MessageWithAchievementProgressList_def.hpp"
 #include "Oculus/Platform/Models/zzzz__AchievementProgressList_def.hpp"

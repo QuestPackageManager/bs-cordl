@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/X509CertificateUtility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__X509CertificateUtility_def.hpp"
 #include "GlobalNamespace/zzzz__ICertificateEncryptionProvider_def.hpp"

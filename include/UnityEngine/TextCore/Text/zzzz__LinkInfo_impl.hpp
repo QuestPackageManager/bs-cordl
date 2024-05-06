@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/TextCore/Text/LinkInfo.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__LinkInfo_def.hpp"
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::LinkInfo.SetLinkId
 template <>

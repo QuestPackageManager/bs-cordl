@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/OpenSsl/PemWriter.hpp"
 #include "Org/BouncyCastle/Utilities/IO/Pem/zzzz__PemWriter_impl.hpp"
 #include "Org/BouncyCastle/OpenSsl/zzzz__PemWriter_def.hpp"
 #include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"

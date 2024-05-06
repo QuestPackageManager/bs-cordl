@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Bson/BsonObjectId.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Bson/zzzz__BsonObjectId_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Bson::BsonObjectId.get_Value

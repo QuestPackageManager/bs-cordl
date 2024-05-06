@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/RC5Parameters.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__KeyParameter_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__RC5Parameters_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Parameters::RC5Parameters._ctor

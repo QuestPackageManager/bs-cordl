@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HEU_MeshIndexFormat.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__IndexFormat_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_MeshIndexFormat_def.hpp"

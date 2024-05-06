@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Security/Authenticode/AuthenticodeBase.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Security/Authenticode/zzzz__AuthenticodeBase_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MultiplayerController.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerController_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerPlayerStartState_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"

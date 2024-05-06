@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MissionNodeSelectionManager.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionNodeSelectionManager_def.hpp"
 #include "GlobalNamespace/zzzz__MissionNodeVisualController_def.hpp"

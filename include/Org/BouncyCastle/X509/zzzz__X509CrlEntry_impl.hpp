@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/X509/X509CrlEntry.hpp"
 #include "Org/BouncyCastle/X509/zzzz__X509ExtensionBase_impl.hpp"
 #include "Org/BouncyCastle/X509/zzzz__X509CrlEntry_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__CrlEntry_def.hpp"

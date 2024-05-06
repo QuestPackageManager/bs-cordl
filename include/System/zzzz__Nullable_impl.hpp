@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Nullable.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__Nullable_def.hpp"
 #include "System/zzzz__Type_def.hpp"

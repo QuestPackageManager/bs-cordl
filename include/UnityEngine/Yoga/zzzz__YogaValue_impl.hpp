@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Yoga/YogaValue.hpp"
 #include "UnityEngine/Yoga/zzzz__YogaUnit_impl.hpp"
 #include "UnityEngine/Yoga/zzzz__YogaValue_def.hpp"
 #include "System/zzzz__Object_def.hpp"

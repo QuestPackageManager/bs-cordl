@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SelectModifiersViewController.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__SelectModifiersViewController_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiersPanelController_def.hpp"

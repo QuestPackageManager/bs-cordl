@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SignalOnUIButtonClick.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SignalOnUIButtonClick_def.hpp"
 #include "GlobalNamespace/zzzz__Signal_def.hpp"

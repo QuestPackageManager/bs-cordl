@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Security/Interface/TlsProtocols.hpp"
 #include "Mono/Security/Interface/zzzz__TlsProtocols_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::Mono::Security::Interface::TlsProtocols::TlsProtocols(int32_t value__) noexcept {

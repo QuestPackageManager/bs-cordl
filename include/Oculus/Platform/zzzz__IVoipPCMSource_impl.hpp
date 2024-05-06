@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/IVoipPCMSource.hpp"
 #include "Oculus/Platform/zzzz__IVoipPCMSource_def.hpp"
 //  Writing Method size for method: ::Oculus::Platform::IVoipPCMSource.GetPCM
 template <>

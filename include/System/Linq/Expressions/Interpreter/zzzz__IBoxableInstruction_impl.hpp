@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/IBoxableInstruction.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__IBoxableInstruction_def.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__Instruction_def.hpp"
 //  Writing Method size for method: ::System::Linq::Expressions::Interpreter::IBoxableInstruction.BoxIfIndexMatches

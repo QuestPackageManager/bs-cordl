@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/IncrementalReadDecoder.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__IncrementalReadDecoder_def.hpp"
 //  Writing Method size for method: ::System::Xml::IncrementalReadDecoder.get_IsFull

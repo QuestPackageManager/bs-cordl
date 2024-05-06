@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Utilities/Collections/UnmodifiableDictionaryProxy.hpp"
 #include "Org/BouncyCastle/Utilities/Collections/zzzz__UnmodifiableDictionary_impl.hpp"
 #include "Org/BouncyCastle/Utilities/Collections/zzzz__UnmodifiableDictionaryProxy_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"

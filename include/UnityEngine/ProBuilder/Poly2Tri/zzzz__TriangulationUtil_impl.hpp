@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ProBuilder/Poly2Tri/TriangulationUtil.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__TriangulationUtil_def.hpp"
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__Orientation_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Timeline/CustomSignalEventDrawer.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__CustomSignalEventDrawer_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Timeline::CustomSignalEventDrawer._ctor

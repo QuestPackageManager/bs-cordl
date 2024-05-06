@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/IComparable.hpp"
 #include "System/zzzz__IComparable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::IComparable.CompareTo

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ColorManagerInstaller.hpp"
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__ColorManagerInstaller_def.hpp"
 #include "GlobalNamespace/zzzz__ColorSchemeSO_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/IAsn1String.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__IAsn1String_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::IAsn1String.GetString
 template <>

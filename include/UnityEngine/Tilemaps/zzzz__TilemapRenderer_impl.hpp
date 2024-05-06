@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Tilemaps/TilemapRenderer.hpp"
 #include "UnityEngine/zzzz__Renderer_impl.hpp"
 #include "UnityEngine/Tilemaps/zzzz__TilemapRenderer_def.hpp"
 #include "UnityEngine/U2D/zzzz__SpriteAtlas_def.hpp"

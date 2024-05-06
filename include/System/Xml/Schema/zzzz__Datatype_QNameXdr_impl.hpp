@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/Datatype_QNameXdr.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_anySimpleType_impl.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_QNameXdr_def.hpp"
 #include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"

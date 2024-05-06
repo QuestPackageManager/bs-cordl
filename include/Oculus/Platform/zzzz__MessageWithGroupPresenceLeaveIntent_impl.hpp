@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/MessageWithGroupPresenceLeaveIntent.hpp"
 #include "Oculus/Platform/zzzz__Message_1_impl.hpp"
 #include "Oculus/Platform/zzzz__MessageWithGroupPresenceLeaveIntent_def.hpp"
 #include "Oculus/Platform/Models/zzzz__GroupPresenceLeaveIntent_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Cryptography/HashAlgorithm.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Security/Cryptography/zzzz__HashAlgorithm_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/DataRelationCollection_DataSetRelationCollection.hpp"
 #include "System/Data/zzzz__DataRelationCollection_impl.hpp"
 #include "System/Data/zzzz__DataRelationCollection_DataSetRelationCollection_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"

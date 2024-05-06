@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/LabelScopeInfo.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__LabelScopeKind_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__LabelScopeInfo_def.hpp"

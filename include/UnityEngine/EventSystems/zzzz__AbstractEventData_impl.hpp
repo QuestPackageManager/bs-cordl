@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/EventSystems/AbstractEventData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__AbstractEventData_def.hpp"
 //  Writing Method size for method: ::UnityEngine::EventSystems::AbstractEventData.Reset

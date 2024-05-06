@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Crmf/SubsequentMessage.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerInteger_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Crmf/zzzz__SubsequentMessage_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage._ctor

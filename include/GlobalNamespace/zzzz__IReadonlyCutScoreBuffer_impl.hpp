@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IReadonlyCutScoreBuffer.hpp"
 #include "GlobalNamespace/zzzz__IReadonlyCutScoreBuffer_def.hpp"
 #include "GlobalNamespace/zzzz__ICutScoreBufferDidChangeReceiver_def.hpp"
 #include "GlobalNamespace/zzzz__ICutScoreBufferDidFinishReceiver_def.hpp"

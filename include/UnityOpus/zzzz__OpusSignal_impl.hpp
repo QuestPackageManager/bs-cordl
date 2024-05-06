@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityOpus/OpusSignal.hpp"
 #include "UnityOpus/zzzz__OpusSignal_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityOpus::OpusSignal::OpusSignal(int32_t value__) noexcept {

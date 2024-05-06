@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Networking/UnityWebRequestTexture.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Networking/zzzz__UnityWebRequestTexture_def.hpp"
 #include "UnityEngine/Networking/zzzz__UnityWebRequest_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BeatmapDataZenModeTransform.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataZenModeTransform_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"

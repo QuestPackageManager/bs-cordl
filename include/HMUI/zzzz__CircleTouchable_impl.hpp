@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/CircleTouchable.hpp"
 #include "HMUI/zzzz__Touchable_impl.hpp"
 #include "HMUI/zzzz__CircleTouchable_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"

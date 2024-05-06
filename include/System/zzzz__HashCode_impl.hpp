@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/HashCode.hpp"
 #include "System/zzzz__HashCode_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::HashCode.GenerateGlobalSeed

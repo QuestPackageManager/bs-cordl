@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/IO/BinaryWriter.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/IO/zzzz__BinaryWriter_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"

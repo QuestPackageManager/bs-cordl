@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IPlayerDataModel.hpp"
 #include "GlobalNamespace/zzzz__IPlayerDataModel_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IPlayerDataModel.get_playerData

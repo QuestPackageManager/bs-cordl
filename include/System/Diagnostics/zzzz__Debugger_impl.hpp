@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Diagnostics/Debugger.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Diagnostics/zzzz__Debugger_def.hpp"
 //  Writing Method size for method: ::System::Diagnostics::Debugger.IsLogging

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/InteropServices/CallingConvention.hpp"
 #include "System/Runtime/InteropServices/zzzz__CallingConvention_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Runtime::InteropServices::CallingConvention::CallingConvention(int32_t value__) noexcept {

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BakedLightWithIdBase.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BakedLightWithIdBase_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BakedLightWithIdBase.get_id

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatSaber/TrackDefinitions/DataModels/TrackToolbarType.hpp"
 #include "BeatSaber/TrackDefinitions/DataModels/zzzz__TrackToolbarType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::BeatSaber::TrackDefinitions::DataModels::TrackToolbarType::TrackToolbarType(int32_t value__) noexcept {

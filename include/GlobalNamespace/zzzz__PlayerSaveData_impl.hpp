@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/PlayerSaveData.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficulty_impl.hpp"
 #include "GlobalNamespace/zzzz__PlayerSaveData_impl.hpp"
 #include "GlobalNamespace/zzzz__RankModel_impl.hpp"

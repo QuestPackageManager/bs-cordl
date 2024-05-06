@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "VRUIControls/MouseState.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "VRUIControls/zzzz__MouseState_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"

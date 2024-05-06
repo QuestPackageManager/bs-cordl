@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Utilities/Collections/UnmodifiableListProxy.hpp"
 #include "Org/BouncyCastle/Utilities/Collections/zzzz__UnmodifiableList_impl.hpp"
 #include "Org/BouncyCastle/Utilities/Collections/zzzz__UnmodifiableListProxy_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"

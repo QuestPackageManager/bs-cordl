@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/UInt32.hpp"
 #include "System/zzzz__UInt32_def.hpp"
 #include "System/Globalization/zzzz__NumberStyles_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"

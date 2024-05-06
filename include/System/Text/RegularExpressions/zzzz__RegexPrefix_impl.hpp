@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Text/RegularExpressions/RegexPrefix.hpp"
 #include "System/Text/RegularExpressions/zzzz__RegexPrefix_def.hpp"
 //  Writing Method size for method: ::System::Text::RegularExpressions::RegexPrefix._ctor
 template <>

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ObjectiveValueFormatterSO.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__ObjectiveValueFormatterSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ObjectiveValueFormatterSO.FormatValue

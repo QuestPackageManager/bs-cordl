@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/JointLimits.hpp"
 #include "UnityEngine/zzzz__JointLimits_def.hpp"
 //  Writing Method size for method: ::UnityEngine::JointLimits.get_min
 template <>

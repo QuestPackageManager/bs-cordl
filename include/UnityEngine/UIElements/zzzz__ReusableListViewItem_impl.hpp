@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/ReusableListViewItem.hpp"
 #include "UnityEngine/UIElements/zzzz__ReusableCollectionItem_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__ReusableListViewItem_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"

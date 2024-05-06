@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Tweening/TweeningManager.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Tweening/zzzz__TweeningManager_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"

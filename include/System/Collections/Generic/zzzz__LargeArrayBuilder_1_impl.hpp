@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Collections/Generic/LargeArrayBuilder_1.hpp"
 #include "System/Collections/Generic/zzzz__ArrayBuilder_1_impl.hpp"
 #include "System/Collections/Generic/zzzz__LargeArrayBuilder_1_def.hpp"
 #include "System/Collections/Generic/zzzz__ArrayBuilder_1_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Security/Interface/MonoRemoteCertificateValidationCallback.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "Mono/Security/Interface/zzzz__MonoRemoteCertificateValidationCallback_def.hpp"
 #include "Mono/Security/Interface/zzzz__MonoSslPolicyErrors_def.hpp"

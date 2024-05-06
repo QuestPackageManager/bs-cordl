@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LIV/SDK/Unity/SDKPriority.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKPriority_def.hpp"
 //  Writing Method size for method: ::LIV::SDK::Unity::SDKPriority.get_empty
 template <>

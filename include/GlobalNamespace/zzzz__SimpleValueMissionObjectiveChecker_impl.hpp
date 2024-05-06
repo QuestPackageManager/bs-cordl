@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SimpleValueMissionObjectiveChecker.hpp"
 #include "GlobalNamespace/zzzz__MissionObjectiveChecker_impl.hpp"
 #include "GlobalNamespace/zzzz__SimpleValueMissionObjectiveChecker_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SimpleValueMissionObjectiveChecker.CheckAndUpdateStatus

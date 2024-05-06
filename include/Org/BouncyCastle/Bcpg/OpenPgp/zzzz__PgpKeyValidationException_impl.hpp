@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Bcpg/OpenPgp/PgpKeyValidationException.hpp"
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpException_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpKeyValidationException_def.hpp"
 #include "System/zzzz__Exception_def.hpp"

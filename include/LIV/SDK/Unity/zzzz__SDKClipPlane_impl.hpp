@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LIV/SDK/Unity/SDKClipPlane.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKMatrix4x4_impl.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKClipPlane_def.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKMatrix4x4_def.hpp"

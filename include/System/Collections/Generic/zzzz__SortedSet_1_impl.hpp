@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Collections/Generic/SortedSet_1.hpp"
 #include "System/Collections/Generic/zzzz__NodeColor_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/Generic/zzzz__SortedSet_1_def.hpp"

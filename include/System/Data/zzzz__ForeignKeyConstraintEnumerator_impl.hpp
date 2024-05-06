@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/ForeignKeyConstraintEnumerator.hpp"
 #include "System/Data/zzzz__ConstraintEnumerator_impl.hpp"
 #include "System/Data/zzzz__ForeignKeyConstraintEnumerator_def.hpp"
 #include "System/Data/zzzz__Constraint_def.hpp"

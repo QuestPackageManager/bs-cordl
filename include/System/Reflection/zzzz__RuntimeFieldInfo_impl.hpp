@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Reflection/RuntimeFieldInfo.hpp"
 #include "System/Reflection/zzzz__FieldAttributes_impl.hpp"
 #include "System/Reflection/zzzz__RtFieldInfo_impl.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"

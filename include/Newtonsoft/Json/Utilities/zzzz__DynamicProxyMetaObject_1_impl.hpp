@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/DynamicProxyMetaObject_1.hpp"
 #include "System/Dynamic/zzzz__DynamicMetaObject_impl.hpp"
 #include "System/Dynamic/zzzz__GetMemberBinder_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"

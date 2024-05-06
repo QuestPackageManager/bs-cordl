@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Diagnostics/StackTrace.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Diagnostics/zzzz__StackTrace_def.hpp"
 #include "System/Diagnostics/zzzz__StackFrame_def.hpp"

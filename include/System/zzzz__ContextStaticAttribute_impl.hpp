@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ContextStaticAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/zzzz__ContextStaticAttribute_def.hpp"
 //  Writing Method size for method: ::System::ContextStaticAttribute._ctor

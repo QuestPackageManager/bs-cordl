@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/RenderingParamsSetupApplicator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__RenderingParamsSetupApplicator_def.hpp"
 #include "BeatSaber/GameSettings/zzzz__GraphicSettingsHandler_def.hpp"

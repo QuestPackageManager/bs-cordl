@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/LightColorGroupParent.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__LightColorGroupParent_def.hpp"
 #include "GlobalNamespace/zzzz__IEditTimeValidated_def.hpp"

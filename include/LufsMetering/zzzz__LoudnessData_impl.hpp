@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LufsMetering/LoudnessData.hpp"
 #include "LufsMetering/zzzz__LoudnessData_def.hpp"
 //  Writing Method size for method: ::LufsMetering::LoudnessData._ctor
 template <>

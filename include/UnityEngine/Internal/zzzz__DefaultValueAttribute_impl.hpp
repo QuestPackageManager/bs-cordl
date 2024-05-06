@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Internal/DefaultValueAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/Internal/zzzz__DefaultValueAttribute_def.hpp"
 #include "System/zzzz__Object_def.hpp"

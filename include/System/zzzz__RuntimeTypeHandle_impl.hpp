@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/RuntimeTypeHandle.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__RuntimeTypeHandle_def.hpp"
 #include "System/Reflection/zzzz__Assembly_def.hpp"

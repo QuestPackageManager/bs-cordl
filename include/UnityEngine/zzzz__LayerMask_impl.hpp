@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/LayerMask.hpp"
 #include "UnityEngine/zzzz__LayerMask_def.hpp"
 //  Writing Method size for method: ::UnityEngine::LayerMask.op_Implicit_int32_t
 template <>

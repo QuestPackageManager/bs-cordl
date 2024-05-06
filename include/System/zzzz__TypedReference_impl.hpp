@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/TypedReference.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__RuntimeTypeHandle_impl.hpp"
 #include "System/zzzz__TypedReference_def.hpp"

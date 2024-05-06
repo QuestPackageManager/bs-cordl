@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/AnimationEvent.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__AnimationEventSource_impl.hpp"
 #include "UnityEngine/zzzz__AnimatorClipInfo_impl.hpp"

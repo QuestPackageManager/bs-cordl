@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/AnimationState.hpp"
 #include "UnityEngine/zzzz__TrackedReference_impl.hpp"
 #include "UnityEngine/zzzz__AnimationState_def.hpp"
 #include "UnityEngine/zzzz__AnimationClip_def.hpp"

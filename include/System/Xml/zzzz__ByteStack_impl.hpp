@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/ByteStack.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__ByteStack_def.hpp"
 //  Writing Method size for method: ::System::Xml::ByteStack._ctor

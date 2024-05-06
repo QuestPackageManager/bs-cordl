@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/ValidationHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__ValidationHelper_def.hpp"
 //  Writing Method size for method: ::System::Net::ValidationHelper.MakeStringNull

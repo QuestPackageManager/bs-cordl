@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ComponentModel/Design/Serialization/InstanceDescriptor.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/ComponentModel/Design/Serialization/zzzz__InstanceDescriptor_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"

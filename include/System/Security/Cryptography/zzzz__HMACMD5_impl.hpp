@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Cryptography/HMACMD5.hpp"
 #include "System/Security/Cryptography/zzzz__HMAC_impl.hpp"
 #include "System/Security/Cryptography/zzzz__HMACMD5_def.hpp"
 //  Writing Method size for method: ::System::Security::Cryptography::HMACMD5._ctor

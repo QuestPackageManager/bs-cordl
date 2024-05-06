@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Collections/Generic/ValueListBuilder_1.hpp"
 #include "System/zzzz__Span_1_impl.hpp"
 #include "System/Collections/Generic/zzzz__ValueListBuilder_1_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"

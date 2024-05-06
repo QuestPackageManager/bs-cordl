@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/Positions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Schema/zzzz__Positions_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"

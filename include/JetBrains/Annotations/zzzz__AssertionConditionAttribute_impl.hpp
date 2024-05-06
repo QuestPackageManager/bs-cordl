@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "JetBrains/Annotations/AssertionConditionAttribute.hpp"
 #include "JetBrains/Annotations/zzzz__AssertionConditionType_impl.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "JetBrains/Annotations/zzzz__AssertionConditionAttribute_def.hpp"

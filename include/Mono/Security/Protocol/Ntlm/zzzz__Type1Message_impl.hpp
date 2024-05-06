@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Security/Protocol/Ntlm/Type1Message.hpp"
 #include "Mono/Security/Protocol/Ntlm/zzzz__MessageBase_impl.hpp"
 #include "Mono/Security/Protocol/Ntlm/zzzz__Type1Message_def.hpp"
 //  Writing Method size for method: ::Mono::Security::Protocol::Ntlm::Type1Message._ctor

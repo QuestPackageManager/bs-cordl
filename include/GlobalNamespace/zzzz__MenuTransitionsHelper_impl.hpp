@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MenuTransitionsHelper.hpp"
 #include "GlobalNamespace/zzzz__DisconnectedReason_impl.hpp"
 #include "GlobalNamespace/zzzz__TutorialScenesTransitionSetupDataSO_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"

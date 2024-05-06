@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Unity/UnityTlsProvider.hpp"
 #include "Mono/Net/Security/zzzz__MobileTlsProvider_impl.hpp"
 #include "Mono/Unity/zzzz__UnityTlsProvider_def.hpp"
 #include "Mono/Net/Security/zzzz__ChainValidationHelper_def.hpp"

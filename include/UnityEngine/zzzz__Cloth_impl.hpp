@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Cloth.hpp"
 #include "UnityEngine/zzzz__Component_impl.hpp"
 #include "UnityEngine/zzzz__Cloth_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"

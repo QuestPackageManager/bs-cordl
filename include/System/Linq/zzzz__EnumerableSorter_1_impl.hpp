@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/EnumerableSorter_1.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Linq/zzzz__EnumerableSorter_1_def.hpp"
 template <typename TElement> inline void System::Linq::EnumerableSorter_1<TElement>::ComputeKeys(::ArrayW<TElement, ::Array<TElement>*> elements, int32_t count) {

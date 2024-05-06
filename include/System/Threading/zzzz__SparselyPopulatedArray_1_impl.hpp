@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/SparselyPopulatedArray_1.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/zzzz__SparselyPopulatedArray_1_def.hpp"
 #include "System/Threading/zzzz__SparselyPopulatedArrayAddInfo_1_def.hpp"

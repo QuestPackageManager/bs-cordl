@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/TextClipping.hpp"
 #include "UnityEngine/zzzz__TextClipping_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::TextClipping::TextClipping(int32_t value__) noexcept {

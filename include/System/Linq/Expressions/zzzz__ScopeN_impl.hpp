@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/ScopeN.hpp"
 #include "System/Linq/Expressions/zzzz__ScopeExpression_impl.hpp"
 #include "System/Linq/Expressions/zzzz__ScopeN_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"

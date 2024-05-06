@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Globalization/Punycode.hpp"
 #include "System/Globalization/zzzz__Bootstring_impl.hpp"
 #include "System/Globalization/zzzz__Punycode_def.hpp"
 //  Writing Method size for method: ::System::Globalization::Punycode._ctor

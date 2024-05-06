@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/ScalableImage.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__ScalableImage_def.hpp"
 #include "UnityEngine/zzzz__Texture2D_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleSheets::ScalableImage.ToString

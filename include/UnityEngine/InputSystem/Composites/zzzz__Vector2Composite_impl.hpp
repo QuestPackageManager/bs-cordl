@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Composites/Vector2Composite.hpp"
 #include "UnityEngine/InputSystem/Composites/zzzz__Vector2Composite_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputBindingComposite_1_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"

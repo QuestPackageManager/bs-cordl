@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BladeMovementDataElement.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__BladeMovementDataElement_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"

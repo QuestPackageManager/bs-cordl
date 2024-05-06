@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MissionGameplayInstaller.hpp"
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionGameplayInstaller_def.hpp"
 #include "GlobalNamespace/zzzz__MissionGameplaySceneSetupData_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MultiplayerLobbyConnectionController.hpp"
 #include "GlobalNamespace/zzzz__ConnectionFailedReason_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLobbyConnectionController_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"

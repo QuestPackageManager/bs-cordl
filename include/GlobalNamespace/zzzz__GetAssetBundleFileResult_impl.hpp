@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/GetAssetBundleFileResult.hpp"
 #include "GlobalNamespace/zzzz__GetAssetBundleFileResult_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::GetAssetBundleFileResult._ctor
 template <>

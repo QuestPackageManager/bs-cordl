@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/XmlCachedStream.hpp"
 #include "System/IO/zzzz__MemoryStream_impl.hpp"
 #include "System/Xml/zzzz__XmlCachedStream_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"

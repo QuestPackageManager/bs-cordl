@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/LightGroupTranslationXTransform.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__LightGroupTranslationXTransform_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::LightGroupTranslationXTransform._ctor

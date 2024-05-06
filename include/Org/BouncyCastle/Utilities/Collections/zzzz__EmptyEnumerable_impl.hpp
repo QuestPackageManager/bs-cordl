@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Utilities/Collections/EmptyEnumerable.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Utilities/Collections/zzzz__EmptyEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/XPlatformAccessTokenFetchException.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "GlobalNamespace/zzzz__XPlatformAccessTokenFetchException_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::XPlatformAccessTokenFetchException._ctor

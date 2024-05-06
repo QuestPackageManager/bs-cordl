@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/MissingMethodException.hpp"
 #include "System/zzzz__MissingMemberException_impl.hpp"
 #include "System/zzzz__MissingMethodException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"

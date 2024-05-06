@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Nullable_1.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 template <typename T> inline void System::Nullable_1<T>::_ctor(T value) {

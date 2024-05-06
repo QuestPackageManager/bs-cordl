@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/FixedScenesScenesTransitionSetupDataSO.hpp"
 #include "GlobalNamespace/zzzz__ScenesTransitionSetupDataSO_impl.hpp"
 #include "GlobalNamespace/zzzz__FixedScenesScenesTransitionSetupDataSO_def.hpp"
 #include "GlobalNamespace/zzzz__SceneInfo_def.hpp"

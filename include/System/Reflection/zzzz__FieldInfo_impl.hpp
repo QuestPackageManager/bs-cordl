@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Reflection/FieldInfo.hpp"
 #include "System/Reflection/zzzz__MemberInfo_impl.hpp"
 #include "System/Reflection/zzzz__FieldInfo_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"

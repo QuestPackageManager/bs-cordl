@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/RectTransformUtility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__RectTransformUtility_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"

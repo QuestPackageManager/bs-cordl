@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/AppStaticSettingsSO.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__AppStaticSettingsSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::AppStaticSettingsSO._ctor

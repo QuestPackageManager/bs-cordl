@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/_Scripting/APIUpdating/APIUpdaterRuntimeHelpers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/_Scripting/APIUpdating/zzzz__APIUpdaterRuntimeHelpers_def.hpp"
 #include "System/zzzz__Type_def.hpp"

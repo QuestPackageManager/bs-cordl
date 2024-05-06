@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ILightGroup.hpp"
 #include "GlobalNamespace/zzzz__ILightGroup_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ILightGroup.get_groupId
 template <>

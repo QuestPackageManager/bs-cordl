@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatSaber/TrackDefinitions/DataModels/EnvironmentTrackDefinitionsListModel.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/TrackDefinitions/DataModels/zzzz__EnvironmentTrackDefinitionsListModel_def.hpp"
 #include "BeatSaber/TrackDefinitions/DataModels/zzzz__EnvironmentTrackDefinitionModel_def.hpp"

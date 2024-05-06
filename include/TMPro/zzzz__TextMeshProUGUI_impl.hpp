@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/TextMeshProUGUI.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "TMPro/zzzz__TMP_Text_impl.hpp"
 #include "Unity/Profiling/zzzz__ProfilerMarker_impl.hpp"

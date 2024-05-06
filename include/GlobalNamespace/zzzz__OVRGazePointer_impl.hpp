@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OVRGazePointer.hpp"
 #include "GlobalNamespace/zzzz__OVRCursor_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRGazePointer_def.hpp"
 #include "GlobalNamespace/zzzz__OVRProgressIndicator_def.hpp"

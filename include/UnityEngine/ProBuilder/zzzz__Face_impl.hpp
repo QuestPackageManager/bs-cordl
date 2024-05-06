@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ProBuilder/Face.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__AutoUnwrapSettings_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__Face_def.hpp"

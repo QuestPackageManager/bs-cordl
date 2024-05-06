@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Serialization/SerializationEventHandler.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationEventHandler_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"

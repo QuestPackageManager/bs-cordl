@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/SchemaNamespaceManager.hpp"
 #include "System/Xml/zzzz__XmlNamespaceManager_impl.hpp"
 #include "System/Xml/Schema/zzzz__SchemaNamespaceManager_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaObject_def.hpp"

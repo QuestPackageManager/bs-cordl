@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/CompilerServices/TupleElementNamesAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TupleElementNamesAttribute_def.hpp"
 //  Writing Method size for method: ::System::Runtime::CompilerServices::TupleElementNamesAttribute._ctor

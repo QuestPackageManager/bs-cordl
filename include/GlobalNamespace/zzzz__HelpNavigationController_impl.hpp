@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/HelpNavigationController.hpp"
 #include "HMUI/zzzz__NavigationController_impl.hpp"
 #include "GlobalNamespace/zzzz__HelpNavigationController_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::HelpNavigationController._ctor

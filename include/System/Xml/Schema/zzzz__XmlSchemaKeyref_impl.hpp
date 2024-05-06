@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaKeyref.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaIdentityConstraint_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaKeyref_def.hpp"
 #include "System/Xml/zzzz__XmlQualifiedName_def.hpp"

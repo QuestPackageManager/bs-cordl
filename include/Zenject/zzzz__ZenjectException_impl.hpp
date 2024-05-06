@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/ZenjectException.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "Zenject/zzzz__ZenjectException_def.hpp"
 #include "System/zzzz__Exception_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LIV/SDK/Unity/SDKControllerState.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKQuaternion_impl.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKVector3_impl.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKControllerState_def.hpp"

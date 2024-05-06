@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/UnsupportedAdvancedHapticsPlayer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__UnsupportedAdvancedHapticsPlayer_def.hpp"
 #include "GlobalNamespace/zzzz__IHapticFeedbackPlayer_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Math/Prime/Generator/SequentialSearchPrimeGeneratorBase.hpp"
 #include "Mono/Math/Prime/Generator/zzzz__PrimeGeneratorBase_impl.hpp"
 #include "Mono/Math/Prime/Generator/zzzz__SequentialSearchPrimeGeneratorBase_def.hpp"
 #include "Mono/Math/zzzz__BigInteger_def.hpp"

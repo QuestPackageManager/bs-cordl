@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/RenderTextureFromPostEffect.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__RenderTextureFromPostEffect_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"

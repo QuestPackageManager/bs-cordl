@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Events/UnityEventCallState.hpp"
 #include "UnityEngine/Events/zzzz__UnityEventCallState_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Events::UnityEventCallState::UnityEventCallState(int32_t value__) noexcept {

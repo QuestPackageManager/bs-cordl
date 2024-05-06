@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/JsonExtensionDataAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "Newtonsoft/Json/zzzz__JsonExtensionDataAttribute_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::JsonExtensionDataAttribute.get_WriteData

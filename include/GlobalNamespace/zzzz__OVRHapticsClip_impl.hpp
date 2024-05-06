@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OVRHapticsClip.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRHapticsClip_def.hpp"
 #include "UnityEngine/zzzz__AudioClip_def.hpp"

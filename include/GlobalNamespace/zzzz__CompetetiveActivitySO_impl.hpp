@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/CompetetiveActivitySO.hpp"
 #include "GlobalNamespace/zzzz__PS5ActivityDataSO_impl.hpp"
 #include "GlobalNamespace/zzzz__CompetetiveActivitySO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::CompetetiveActivitySO._ctor

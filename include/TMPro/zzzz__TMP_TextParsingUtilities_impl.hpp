@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/TMP_TextParsingUtilities.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "TMPro/zzzz__TMP_TextParsingUtilities_def.hpp"
 //  Writing Method size for method: ::TMPro::TMP_TextParsingUtilities.get_instance

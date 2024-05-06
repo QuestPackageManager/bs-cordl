@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Utilities/Times.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Utilities/zzzz__Times_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Utilities::Times.NanoTime

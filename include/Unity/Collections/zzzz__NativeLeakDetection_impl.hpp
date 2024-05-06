@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/Collections/NativeLeakDetection.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/zzzz__NativeLeakDetection_def.hpp"
 //  Writing Method size for method: ::Unity::Collections::NativeLeakDetection.Initialize

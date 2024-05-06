@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/StandardLevelNoTransitionInstaller.hpp"
 #include "Zenject/zzzz__NoTransitionInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__StandardLevelNoTransitionInstaller_def.hpp"
 #include "GlobalNamespace/zzzz__StandardLevelNoTransitionInstallerData_def.hpp"

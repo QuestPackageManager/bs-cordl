@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/AnimatorControllerParameter.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__AnimatorControllerParameterType_impl.hpp"
 #include "UnityEngine/zzzz__AnimatorControllerParameter_def.hpp"

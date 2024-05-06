@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/SpatialTracking/PoseDataSource.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/SpatialTracking/zzzz__PoseDataSource_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"

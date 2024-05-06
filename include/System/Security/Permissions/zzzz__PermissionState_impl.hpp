@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Permissions/PermissionState.hpp"
 #include "System/Security/Permissions/zzzz__PermissionState_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Security::Permissions::PermissionState::PermissionState(int32_t value__) noexcept {

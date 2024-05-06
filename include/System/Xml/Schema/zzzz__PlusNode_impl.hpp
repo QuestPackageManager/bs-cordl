@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/PlusNode.hpp"
 #include "System/Xml/Schema/zzzz__InteriorNode_impl.hpp"
 #include "System/Xml/Schema/zzzz__PlusNode_def.hpp"
 #include "System/Xml/Schema/zzzz__BitSet_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BeatmapEventData.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataItem_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BeatmapEventData.get_previousSameTypeEventData

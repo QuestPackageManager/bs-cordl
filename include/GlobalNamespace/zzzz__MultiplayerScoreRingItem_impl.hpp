@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MultiplayerScoreRingItem.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerScoreItem_impl.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerScoreRingItem_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/DateTimeOffset.hpp"
 #include "System/zzzz__DateTime_impl.hpp"
 #include "System/zzzz__DateTimeOffset_def.hpp"
 #include "System/Globalization/zzzz__Calendar_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/LocalizedHoverHint.hpp"
 #include "BGLib/Polyglot/zzzz__LocalizedTextComponent_1_impl.hpp"
 #include "GlobalNamespace/zzzz__LocalizedHoverHint_def.hpp"
 #include "BGLib/Polyglot/zzzz__LanguageDirection_def.hpp"

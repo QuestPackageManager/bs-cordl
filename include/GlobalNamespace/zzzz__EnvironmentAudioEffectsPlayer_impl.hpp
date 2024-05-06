@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/EnvironmentAudioEffectsPlayer.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentAudioEffectsPlayer_def.hpp"
 #include "UnityEngine/zzzz__AudioClip_def.hpp"

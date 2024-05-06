@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/GlyphValueRecord_Legacy.hpp"
 #include "TMPro/zzzz__GlyphValueRecord_Legacy_def.hpp"
 #include "UnityEngine/TextCore/LowLevel/zzzz__GlyphValueRecord_def.hpp"
 //  Writing Method size for method: ::TMPro::GlyphValueRecord_Legacy._ctor

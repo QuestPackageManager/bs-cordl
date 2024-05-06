@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ProgressActivitySO.hpp"
 #include "GlobalNamespace/zzzz__PS5ActivityDataSO_impl.hpp"
 #include "GlobalNamespace/zzzz__ProgressActivitySO_def.hpp"
 #include "GlobalNamespace/zzzz__ProgressActivitySubtaskSO_def.hpp"

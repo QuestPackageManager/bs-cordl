@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/CustomControlTrack.hpp"
 #include "UnityEngine/Timeline/zzzz__ControlTrack_impl.hpp"
 #include "GlobalNamespace/zzzz__CustomControlTrack_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::CustomControlTrack._ctor

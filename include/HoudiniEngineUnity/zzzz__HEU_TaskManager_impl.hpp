@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HEU_TaskManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_TaskManager_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_Task_def.hpp"

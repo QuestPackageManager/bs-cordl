@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/TextureSlotManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__TextureSlotManager_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TextureId_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Authorization.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__Authorization_def.hpp"
 //  Writing Method size for method: ::System::Net::Authorization._ctor

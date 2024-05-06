@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/TouchScreenTextEditorEventHandler.hpp"
 #include "UnityEngine/UIElements/zzzz__TextEditorEventHandler_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TouchScreenTextEditorEventHandler_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"

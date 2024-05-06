@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Tweening/Tween_1.hpp"
 #include "Tweening/zzzz__Tween_impl.hpp"
 #include "Tweening/zzzz__Tween_1_def.hpp"
 #include "GlobalNamespace/zzzz__EaseType_def.hpp"

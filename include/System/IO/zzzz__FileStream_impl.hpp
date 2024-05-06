@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/IO/FileStream.hpp"
 #include "System/IO/zzzz__FileAccess_impl.hpp"
 #include "System/IO/zzzz__Stream_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"

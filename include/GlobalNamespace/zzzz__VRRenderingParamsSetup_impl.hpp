@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/VRRenderingParamsSetup.hpp"
 #include "GlobalNamespace/zzzz__SceneType_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__VRRenderingParamsSetup_def.hpp"

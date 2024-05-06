@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HAPI_ParmChoiceInfo.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_ParmChoiceInfo_def.hpp"
 // Ctor Parameters [CppParam { name: "parentParmId", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "labelSH", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam
 // { name: "valueSH", ty: "int32_t", modifiers: "", def_value: Some("{}") }]

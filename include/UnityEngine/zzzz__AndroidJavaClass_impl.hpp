@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/AndroidJavaClass.hpp"
 #include "UnityEngine/zzzz__AndroidJavaObject_impl.hpp"
 #include "UnityEngine/zzzz__AndroidJavaClass_def.hpp"
 //  Writing Method size for method: ::UnityEngine::AndroidJavaClass._ctor

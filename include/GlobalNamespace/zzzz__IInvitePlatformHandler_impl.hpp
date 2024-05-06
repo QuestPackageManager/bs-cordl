@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IInvitePlatformHandler.hpp"
 #include "GlobalNamespace/zzzz__IInvitePlatformHandler_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IInvitePlatformHandler.get_isSupported
 template <>

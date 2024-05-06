@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HEU_InputAssetPreset.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_InputAssetPreset_def.hpp"
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_InputAssetPreset._ctor

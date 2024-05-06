@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Bindings/StaticAccessorAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/Bindings/zzzz__StaticAccessorType_impl.hpp"
 #include "UnityEngine/Bindings/zzzz__StaticAccessorAttribute_def.hpp"

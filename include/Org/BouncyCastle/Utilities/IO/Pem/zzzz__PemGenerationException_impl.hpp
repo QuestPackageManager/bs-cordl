@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Utilities/IO/Pem/PemGenerationException.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "Org/BouncyCastle/Utilities/IO/Pem/zzzz__PemGenerationException_def.hpp"
 #include "System/zzzz__Exception_def.hpp"

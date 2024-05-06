@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/SafeGPtrArrayHandle.hpp"
 #include "Mono/zzzz__RuntimeGPtrArrayHandle_impl.hpp"
 #include "Mono/zzzz__SafeGPtrArrayHandle_def.hpp"
 #include "Mono/zzzz__RuntimeGPtrArrayHandle_def.hpp"

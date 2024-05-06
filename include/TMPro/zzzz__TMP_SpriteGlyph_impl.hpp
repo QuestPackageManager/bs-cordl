@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/TMP_SpriteGlyph.hpp"
 #include "UnityEngine/TextCore/zzzz__Glyph_impl.hpp"
 #include "TMPro/zzzz__TMP_SpriteGlyph_def.hpp"
 #include "UnityEngine/TextCore/zzzz__GlyphMetrics_def.hpp"

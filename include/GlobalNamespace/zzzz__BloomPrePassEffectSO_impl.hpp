@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BloomPrePassEffectSO.hpp"
 #include "GlobalNamespace/zzzz__TextureEffectSO_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassEffectSO_def.hpp"

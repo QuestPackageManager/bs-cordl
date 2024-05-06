@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Utilities/MemoableResetException.hpp"
 #include "System/zzzz__InvalidCastException_impl.hpp"
 #include "Org/BouncyCastle/Utilities/zzzz__MemoableResetException_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Utilities::MemoableResetException._ctor

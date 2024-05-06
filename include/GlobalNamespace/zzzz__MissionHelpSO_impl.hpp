@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MissionHelpSO.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionHelpSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MissionHelpSO.get_missionHelpId

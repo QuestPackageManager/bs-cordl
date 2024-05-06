@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/Datatype_ID.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_NCName_impl.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_ID_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlTypeCode_def.hpp"

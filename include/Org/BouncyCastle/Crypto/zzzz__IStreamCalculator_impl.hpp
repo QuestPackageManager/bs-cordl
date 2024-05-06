@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/IStreamCalculator.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IStreamCalculator_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
 #include "System/zzzz__Object_def.hpp"

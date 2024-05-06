@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/IScheduler.hpp"
 #include "UnityEngine/UIElements/zzzz__IScheduler_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ScheduledItem_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::IScheduler.Unschedule

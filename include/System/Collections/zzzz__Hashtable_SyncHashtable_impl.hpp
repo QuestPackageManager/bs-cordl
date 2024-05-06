@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Collections/Hashtable_SyncHashtable.hpp"
 #include "System/Collections/zzzz__Hashtable_impl.hpp"
 #include "System/Collections/zzzz__Hashtable_SyncHashtable_def.hpp"
 #include "System/Collections/zzzz__Hashtable_def.hpp"

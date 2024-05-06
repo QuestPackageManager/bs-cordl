@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ManagedStreamHelpers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__ManagedStreamHelpers_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Linq/XContainer.hpp"
 #include "System/Xml/Linq/zzzz__NamespaceCache_impl.hpp"
 #include "System/Xml/Linq/zzzz__XNode_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/MouseEnterEvent.hpp"
 #include "UnityEngine/UIElements/zzzz__MouseEventBase_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__MouseEnterEvent_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::MouseEnterEvent.Init

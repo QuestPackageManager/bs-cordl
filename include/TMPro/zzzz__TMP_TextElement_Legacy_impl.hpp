@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/TMP_TextElement_Legacy.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "TMPro/zzzz__TMP_TextElement_Legacy_def.hpp"
 //  Writing Method size for method: ::TMPro::TMP_TextElement_Legacy._ctor

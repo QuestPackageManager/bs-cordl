@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Dns.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__Dns_def.hpp"

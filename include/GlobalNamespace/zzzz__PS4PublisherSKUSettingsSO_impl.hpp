@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/PS4PublisherSKUSettingsSO.hpp"
 #include "GlobalNamespace/zzzz__PS4ApplicationCategory_impl.hpp"
 #include "GlobalNamespace/zzzz__SonyPublisherSKUSettingsSO_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"

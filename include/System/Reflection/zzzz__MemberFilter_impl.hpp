@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Reflection/MemberFilter.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Reflection/zzzz__MemberFilter_def.hpp"
 #include "System/Reflection/zzzz__MemberInfo_def.hpp"

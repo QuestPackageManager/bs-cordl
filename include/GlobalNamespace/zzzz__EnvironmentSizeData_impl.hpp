@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/EnvironmentSizeData.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentSizeData_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentSizeData_def.hpp"

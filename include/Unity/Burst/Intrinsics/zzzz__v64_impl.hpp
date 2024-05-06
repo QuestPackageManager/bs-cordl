@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/Burst/Intrinsics/v64.hpp"
 #include "Unity/Burst/Intrinsics/zzzz__v64_def.hpp"
 //  Writing Method size for method: ::Unity::Burst::Intrinsics::v64._ctor
 template <>

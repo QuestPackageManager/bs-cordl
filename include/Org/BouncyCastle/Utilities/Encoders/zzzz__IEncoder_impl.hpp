@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Utilities/Encoders/IEncoder.hpp"
 #include "Org/BouncyCastle/Utilities/Encoders/zzzz__IEncoder_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Utilities::Encoders::IEncoder.Encode

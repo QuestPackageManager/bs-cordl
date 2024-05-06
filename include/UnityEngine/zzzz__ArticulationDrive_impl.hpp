@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ArticulationDrive.hpp"
 #include "UnityEngine/zzzz__ArticulationDrive_def.hpp"
 // Ctor Parameters [CppParam { name: "lowerLimit", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "upperLimit", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam
 // { name: "stiffness", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "damping", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "forceLimit", ty:

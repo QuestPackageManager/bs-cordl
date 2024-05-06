@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ArcVisibilityType.hpp"
 #include "GlobalNamespace/zzzz__ArcVisibilityType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::ArcVisibilityType::ArcVisibilityType(int32_t value__) noexcept {

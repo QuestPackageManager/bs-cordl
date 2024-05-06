@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OVRHaptics.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRHaptics_def.hpp"
 #include "GlobalNamespace/zzzz__OVRHapticsClip_def.hpp"

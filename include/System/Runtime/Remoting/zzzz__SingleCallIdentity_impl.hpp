@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/SingleCallIdentity.hpp"
 #include "System/Runtime/Remoting/zzzz__ServerIdentity_impl.hpp"
 #include "System/Runtime/Remoting/zzzz__SingleCallIdentity_def.hpp"
 #include "System/Runtime/Remoting/Contexts/zzzz__Context_def.hpp"

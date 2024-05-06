@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Schema/UndefinedSchemaIdHandling.hpp"
 #include "Newtonsoft/Json/Schema/zzzz__UndefinedSchemaIdHandling_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::Newtonsoft::Json::Schema::UndefinedSchemaIdHandling::UndefinedSchemaIdHandling(int32_t value__) noexcept {

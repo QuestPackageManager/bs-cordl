@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BGLib/Polyglot/LocalizationAsset.hpp"
 #include "BGLib/Polyglot/zzzz__GoogleDriveDownloadFormat_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BGLib/Polyglot/zzzz__LocalizationAsset_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crmf/ProofOfPossessionSigningKeyBuilder.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crmf/zzzz__ProofOfPossessionSigningKeyBuilder_def.hpp"
 #include "Org/BouncyCastle/Asn1/Crmf/zzzz__CertRequest_def.hpp"

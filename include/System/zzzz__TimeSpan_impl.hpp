@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/TimeSpan.hpp"
 #include "System/zzzz__TimeSpan_def.hpp"
 #include "System/zzzz__IComparable_1_def.hpp"
 #include "System/zzzz__IComparable_def.hpp"

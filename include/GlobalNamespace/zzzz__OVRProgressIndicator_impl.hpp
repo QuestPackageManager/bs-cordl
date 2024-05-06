@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OVRProgressIndicator.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRProgressIndicator_def.hpp"
 #include "UnityEngine/zzzz__MeshRenderer_def.hpp"

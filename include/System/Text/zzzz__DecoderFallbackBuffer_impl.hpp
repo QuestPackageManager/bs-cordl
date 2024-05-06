@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Text/DecoderFallbackBuffer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Text/zzzz__DecoderFallbackBuffer_def.hpp"
 //  Writing Method size for method: ::System::Text::DecoderFallbackBuffer.Fallback

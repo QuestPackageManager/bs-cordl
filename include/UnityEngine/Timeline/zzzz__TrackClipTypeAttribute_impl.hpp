@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Timeline/TrackClipTypeAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__TrackClipTypeAttribute_def.hpp"
 #include "System/zzzz__Type_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/EnvironmentVariableTarget.hpp"
 #include "System/zzzz__EnvironmentVariableTarget_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::EnvironmentVariableTarget::EnvironmentVariableTarget(int32_t value__) noexcept {

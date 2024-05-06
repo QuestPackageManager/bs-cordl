@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Cmp/ErrorMsgContent.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Cmp/zzzz__ErrorMsgContent_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cmp/zzzz__PkiFreeText_def.hpp"

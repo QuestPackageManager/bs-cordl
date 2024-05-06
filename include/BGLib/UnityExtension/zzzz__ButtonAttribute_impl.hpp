@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BGLib/UnityExtension/ButtonAttribute.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "BGLib/UnityExtension/zzzz__ButtonAttribute_def.hpp"
 //  Writing Method size for method: ::BGLib::UnityExtension::ButtonAttribute._ctor

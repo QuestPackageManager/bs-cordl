@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/NoteDebrisPoolInstaller.hpp"
 #include "Zenject/zzzz__ScriptableObjectInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteDebrisPoolInstaller_def.hpp"
 #include "GlobalNamespace/zzzz__BoolSO_def.hpp"

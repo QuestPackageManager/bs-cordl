@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/TubeLightTrack.hpp"
 #include "UnityEngine/Timeline/zzzz__TrackAsset_impl.hpp"
 #include "GlobalNamespace/zzzz__TubeLightTrack_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::TubeLightTrack._ctor

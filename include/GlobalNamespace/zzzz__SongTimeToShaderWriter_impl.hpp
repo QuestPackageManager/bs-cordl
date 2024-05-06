@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SongTimeToShaderWriter.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SongTimeToShaderWriter_def.hpp"
 #include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"

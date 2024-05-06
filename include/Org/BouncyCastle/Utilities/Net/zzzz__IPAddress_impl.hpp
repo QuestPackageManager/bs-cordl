@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Utilities/Net/IPAddress.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Utilities/Net/zzzz__IPAddress_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Utilities::Net::IPAddress.IsValid

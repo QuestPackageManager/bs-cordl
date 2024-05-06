@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/Burst/Intrinsics/v256.hpp"
 #include "Unity/Burst/Intrinsics/zzzz__v128_impl.hpp"
 #include "Unity/Burst/Intrinsics/zzzz__v256_def.hpp"
 #include "Unity/Burst/Intrinsics/zzzz__v128_def.hpp"

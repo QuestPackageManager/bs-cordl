@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Serialization/Formatters/Binary/TypeInformation.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__TypeInformation_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Serialization::Formatters::Binary::TypeInformation.get_FullTypeName

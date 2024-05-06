@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Dynamic/Utils/ExpressionUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Dynamic/Utils/zzzz__ExpressionUtils_def.hpp"
 #include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"

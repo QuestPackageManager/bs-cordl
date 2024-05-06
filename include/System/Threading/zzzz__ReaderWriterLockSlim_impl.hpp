@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/ReaderWriterLockSlim.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/zzzz__ReaderWriterLockSlim_def.hpp"
 #include "System/Threading/zzzz__EventWaitHandle_def.hpp"

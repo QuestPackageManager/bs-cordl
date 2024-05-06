@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Text/EncodingHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Text/zzzz__EncodingHelper_def.hpp"
 #include "System/Reflection/zzzz__Assembly_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/XmlTreeGen.hpp"
 #include "System/Data/zzzz__SchemaFormat_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Data/zzzz__XmlTreeGen_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ParticleSystemEmitEventEffectInstaller.hpp"
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__ParticleSystemEmitEventEffectInstaller_def.hpp"
 #include "GlobalNamespace/zzzz__ParticleSystemEventController_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/VROverlayFlags.hpp"
 #include "OVR/OpenVR/zzzz__VROverlayFlags_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::OVR::OpenVR::VROverlayFlags::VROverlayFlags(int32_t value__) noexcept {

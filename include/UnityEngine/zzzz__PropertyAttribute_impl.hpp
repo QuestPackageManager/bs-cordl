@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/PropertyAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::PropertyAttribute._ctor

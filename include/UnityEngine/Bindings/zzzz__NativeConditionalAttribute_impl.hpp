@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Bindings/NativeConditionalAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/Bindings/zzzz__NativeConditionalAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Bindings::NativeConditionalAttribute.set_Condition

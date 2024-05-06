@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/CastToEnumInstruction.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__CastInstruction_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__CastToEnumInstruction_def.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__InterpretedFrame_def.hpp"

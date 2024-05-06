@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/IVRNotifications.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "OVR/OpenVR/zzzz__IVRNotifications_def.hpp"
 #include "OVR/OpenVR/zzzz__EVRNotificationError_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BoolSignal.hpp"
 #include "GlobalNamespace/zzzz__GenericSignal_1_impl.hpp"
 #include "GlobalNamespace/zzzz__BoolSignal_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BoolSignal._ctor

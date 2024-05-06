@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MockPlayerAvatarType.hpp"
 #include "GlobalNamespace/zzzz__MockPlayerAvatarType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::MockPlayerAvatarType::MockPlayerAvatarType(int32_t value__) noexcept {

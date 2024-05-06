@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/TMP_GlyphAdjustmentRecord.hpp"
 #include "TMPro/zzzz__TMP_GlyphValueRecord_impl.hpp"
 #include "TMPro/zzzz__TMP_GlyphAdjustmentRecord_def.hpp"
 #include "TMPro/zzzz__TMP_GlyphValueRecord_def.hpp"

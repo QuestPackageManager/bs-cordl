@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/VRControllerState_t_Packed.hpp"
 #include "OVR/OpenVR/zzzz__VRControllerAxis_t_impl.hpp"
 #include "OVR/OpenVR/zzzz__VRControllerState_t_Packed_def.hpp"
 #include "OVR/OpenVR/zzzz__VRControllerAxis_t_def.hpp"

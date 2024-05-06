@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Globalization/NumberFormatInfo.hpp"
 #include "System/Globalization/zzzz__NumberStyles_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Globalization/zzzz__NumberFormatInfo_def.hpp"

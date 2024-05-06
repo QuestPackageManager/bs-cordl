@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Cryptography/TripleDESCryptoServiceProvider.hpp"
 #include "System/Security/Cryptography/zzzz__TripleDES_impl.hpp"
 #include "System/Security/Cryptography/zzzz__TripleDESCryptoServiceProvider_def.hpp"
 #include "System/Security/Cryptography/zzzz__ICryptoTransform_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/NotInstruction_NotUInt64.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__NotInstruction_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__NotInstruction_NotUInt64_def.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__InterpretedFrame_def.hpp"

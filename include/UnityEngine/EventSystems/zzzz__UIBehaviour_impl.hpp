@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/EventSystems/UIBehaviour.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__UIBehaviour_def.hpp"
 //  Writing Method size for method: ::UnityEngine::EventSystems::UIBehaviour.Awake

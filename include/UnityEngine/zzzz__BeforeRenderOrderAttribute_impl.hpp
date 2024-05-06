@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/BeforeRenderOrderAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/zzzz__BeforeRenderOrderAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::BeforeRenderOrderAttribute.get_order

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/ZenAutoInjecter.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Zenject/zzzz__ZenAutoInjecter_impl.hpp"
 #include "Zenject/zzzz__ZenAutoInjecter_def.hpp"

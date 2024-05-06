@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Events/PersistentCall.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Events/zzzz__PersistentListenerMode_impl.hpp"
 #include "UnityEngine/Events/zzzz__UnityEventCallState_impl.hpp"

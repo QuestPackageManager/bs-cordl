@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Serialization/XmlNamespaceDeclarationsAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Xml/Serialization/zzzz__XmlNamespaceDeclarationsAttribute_def.hpp"
 //  Writing Method size for method: ::System::Xml::Serialization::XmlNamespaceDeclarationsAttribute._ctor

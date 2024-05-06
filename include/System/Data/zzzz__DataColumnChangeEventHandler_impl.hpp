@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/DataColumnChangeEventHandler.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Data/zzzz__DataColumnChangeEventHandler_def.hpp"
 #include "System/Data/zzzz__DataColumnChangeEventArgs_def.hpp"

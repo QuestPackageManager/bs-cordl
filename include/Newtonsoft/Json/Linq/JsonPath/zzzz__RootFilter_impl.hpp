@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Linq/JsonPath/RootFilter.hpp"
 #include "Newtonsoft/Json/Linq/JsonPath/zzzz__PathFilter_impl.hpp"
 #include "Newtonsoft/Json/Linq/JsonPath/zzzz__RootFilter_def.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JToken_def.hpp"

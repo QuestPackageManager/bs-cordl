@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/HelpMenuViewController.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__HelpMenuViewController_def.hpp"
 #include "HMUI/zzzz__SegmentedControl_def.hpp"

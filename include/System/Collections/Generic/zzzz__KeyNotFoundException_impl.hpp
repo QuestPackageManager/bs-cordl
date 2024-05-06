@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Collections/Generic/KeyNotFoundException.hpp"
 #include "System/zzzz__SystemException_impl.hpp"
 #include "System/Collections/Generic/zzzz__KeyNotFoundException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"

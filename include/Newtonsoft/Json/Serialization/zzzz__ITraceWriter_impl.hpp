@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/ITraceWriter.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__ITraceWriter_def.hpp"
 #include "System/Diagnostics/zzzz__TraceLevel_def.hpp"
 #include "System/zzzz__Exception_def.hpp"

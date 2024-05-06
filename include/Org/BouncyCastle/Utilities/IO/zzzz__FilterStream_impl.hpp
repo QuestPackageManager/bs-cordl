@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Utilities/IO/FilterStream.hpp"
 #include "System/IO/zzzz__Stream_impl.hpp"
 #include "Org/BouncyCastle/Utilities/IO/zzzz__FilterStream_def.hpp"
 #include "System/IO/zzzz__SeekOrigin_def.hpp"

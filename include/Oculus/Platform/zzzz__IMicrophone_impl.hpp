@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/IMicrophone.hpp"
 #include "Oculus/Platform/zzzz__IMicrophone_def.hpp"
 //  Writing Method size for method: ::Oculus::Platform::IMicrophone.Start
 template <>

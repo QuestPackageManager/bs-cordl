@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HEU_ObjectNode.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_ObjectInfo_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_Transform_impl.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"

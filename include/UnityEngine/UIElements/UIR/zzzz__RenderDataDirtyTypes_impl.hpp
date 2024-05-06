@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/RenderDataDirtyTypes.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__RenderDataDirtyTypes_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::UIElements::UIR::RenderDataDirtyTypes::RenderDataDirtyTypes(int32_t value__) noexcept {

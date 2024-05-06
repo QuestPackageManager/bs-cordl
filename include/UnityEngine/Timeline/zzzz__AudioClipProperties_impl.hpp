@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Timeline/AudioClipProperties.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableBehaviour_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__AudioClipProperties_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Timeline::AudioClipProperties._ctor

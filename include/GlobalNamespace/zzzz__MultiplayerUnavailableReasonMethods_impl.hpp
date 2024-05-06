@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MultiplayerUnavailableReasonMethods.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerUnavailableReasonMethods_def.hpp"
 #include "BGLib/Polyglot/zzzz__Language_def.hpp"

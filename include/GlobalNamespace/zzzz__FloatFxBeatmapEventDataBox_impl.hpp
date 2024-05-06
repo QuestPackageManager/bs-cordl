@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/FloatFxBeatmapEventDataBox.hpp"
 #include "GlobalNamespace/zzzz__FxBeatmapEventDataBox_2_impl.hpp"
 #include "GlobalNamespace/zzzz__FloatFxBeatmapEventDataBox_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventDataBox_def.hpp"

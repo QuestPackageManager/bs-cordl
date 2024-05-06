@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/VersionSaveData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__VersionSaveData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::VersionSaveData._ctor

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Scripting/RequiredByNativeCodeAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/Scripting/zzzz__RequiredByNativeCodeAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Scripting::RequiredByNativeCodeAttribute._ctor

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Http/StringContent.hpp"
 #include "System/Net/Http/zzzz__ByteArrayContent_impl.hpp"
 #include "System/Net/Http/zzzz__StringContent_def.hpp"
 #include "System/Text/zzzz__Encoding_def.hpp"

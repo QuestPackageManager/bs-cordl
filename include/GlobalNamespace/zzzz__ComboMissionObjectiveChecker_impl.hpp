@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ComboMissionObjectiveChecker.hpp"
 #include "GlobalNamespace/zzzz__SimpleValueMissionObjectiveChecker_impl.hpp"
 #include "GlobalNamespace/zzzz__ComboMissionObjectiveChecker_def.hpp"
 #include "GlobalNamespace/zzzz__ComboController_def.hpp"

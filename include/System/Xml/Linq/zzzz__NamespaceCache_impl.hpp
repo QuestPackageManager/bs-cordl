@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Linq/NamespaceCache.hpp"
 #include "System/Xml/Linq/zzzz__NamespaceCache_def.hpp"
 #include "System/Xml/Linq/zzzz__XNamespace_def.hpp"
 //  Writing Method size for method: ::System::Xml::Linq::NamespaceCache.Get

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/WaitHandleCannotBeOpenedException.hpp"
 #include "System/zzzz__ApplicationException_impl.hpp"
 #include "System/Threading/zzzz__WaitHandleCannotBeOpenedException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/ZenjectAllowDuringValidationAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "Zenject/zzzz__ZenjectAllowDuringValidationAttribute_def.hpp"
 //  Writing Method size for method: ::Zenject::ZenjectAllowDuringValidationAttribute._ctor

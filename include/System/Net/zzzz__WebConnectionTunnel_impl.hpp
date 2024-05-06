@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/WebConnectionTunnel.hpp"
 #include "System/Net/zzzz__WebConnectionTunnel_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_impl.hpp"

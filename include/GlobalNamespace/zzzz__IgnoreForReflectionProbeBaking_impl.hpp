@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IgnoreForReflectionProbeBaking.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__IgnoreForReflectionProbeBaking_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IgnoreForReflectionProbeBaking._ctor

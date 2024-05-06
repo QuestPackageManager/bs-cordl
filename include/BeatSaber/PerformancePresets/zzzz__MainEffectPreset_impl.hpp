@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatSaber/PerformancePresets/MainEffectPreset.hpp"
 #include "BeatSaber/PerformancePresets/zzzz__MainEffectPreset_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::BeatSaber::PerformancePresets::MainEffectPreset::MainEffectPreset(int32_t value__) noexcept {

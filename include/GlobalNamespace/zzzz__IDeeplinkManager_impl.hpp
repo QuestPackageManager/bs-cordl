@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IDeeplinkManager.hpp"
 #include "GlobalNamespace/zzzz__IDeeplinkManager_def.hpp"
 #include "GlobalNamespace/zzzz__Deeplink_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"

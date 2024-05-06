@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/SqlTypes/SqlXmlStreamWrapper.hpp"
 #include "System/IO/zzzz__Stream_impl.hpp"
 #include "System/Data/SqlTypes/zzzz__SqlXmlStreamWrapper_def.hpp"
 #include "System/IO/zzzz__SeekOrigin_def.hpp"

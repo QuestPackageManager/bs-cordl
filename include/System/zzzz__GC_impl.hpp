@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/GC.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__GC_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__Ephemeron_def.hpp"

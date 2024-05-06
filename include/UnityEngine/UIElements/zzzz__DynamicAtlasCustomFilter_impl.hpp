@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/DynamicAtlasCustomFilter.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__DynamicAtlasCustomFilter_def.hpp"
 #include "System/zzzz__Object_def.hpp"

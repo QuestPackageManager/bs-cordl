@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Utilities/Encoders/UrlBase64Encoder.hpp"
 #include "Org/BouncyCastle/Utilities/Encoders/zzzz__Base64Encoder_impl.hpp"
 #include "Org/BouncyCastle/Utilities/Encoders/zzzz__UrlBase64Encoder_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Utilities::Encoders::UrlBase64Encoder._ctor

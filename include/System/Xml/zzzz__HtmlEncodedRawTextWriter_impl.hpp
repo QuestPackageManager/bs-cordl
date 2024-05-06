@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/HtmlEncodedRawTextWriter.hpp"
 #include "System/Xml/zzzz__AttributeProperties_impl.hpp"
 #include "System/Xml/zzzz__ElementProperties_impl.hpp"
 #include "System/Xml/zzzz__XmlEncodedRawTextWriter_impl.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/AtlasBase.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__AtlasBase_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IPanel_def.hpp"

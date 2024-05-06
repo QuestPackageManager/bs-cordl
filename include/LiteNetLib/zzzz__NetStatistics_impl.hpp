@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LiteNetLib/NetStatistics.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "LiteNetLib/zzzz__NetStatistics_def.hpp"
 //  Writing Method size for method: ::LiteNetLib::NetStatistics.get_PacketsSent

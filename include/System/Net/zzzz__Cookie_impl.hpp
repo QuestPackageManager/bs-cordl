@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Cookie.hpp"
 #include "System/Net/zzzz__CookieVariant_impl.hpp"
 #include "System/zzzz__DateTime_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"

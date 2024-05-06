@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/Installer.hpp"
 #include "Zenject/zzzz__InstallerBase_impl.hpp"
 #include "Zenject/zzzz__Installer_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Resources/ResourceManager.hpp"
 #include "System/Resources/zzzz__UltimateResourceFallbackLocation_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Resources/zzzz__ResourceManager_def.hpp"

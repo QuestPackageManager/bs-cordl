@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HAPI_TransformEuler.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_RSTOrder_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_XYZOrder_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_TransformEuler_def.hpp"

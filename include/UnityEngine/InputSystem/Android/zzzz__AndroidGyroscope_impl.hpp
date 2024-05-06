@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Android/AndroidGyroscope.hpp"
 #include "UnityEngine/InputSystem/zzzz__Gyroscope_impl.hpp"
 #include "UnityEngine/InputSystem/Android/zzzz__AndroidGyroscope_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Android::AndroidGyroscope._ctor

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Bcpg/Crc24.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__Crc24_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Bcpg::Crc24._ctor

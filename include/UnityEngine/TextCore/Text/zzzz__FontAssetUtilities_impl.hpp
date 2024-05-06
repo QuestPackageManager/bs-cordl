@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/TextCore/Text/FontAssetUtilities.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__FontAssetUtilities_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"

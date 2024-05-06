@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/ScreenSystem.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__ScreenSystem_def.hpp"
 #include "HMUI/zzzz__ButtonBinder_def.hpp"

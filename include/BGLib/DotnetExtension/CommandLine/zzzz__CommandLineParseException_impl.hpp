@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BGLib/DotnetExtension/CommandLine/CommandLineParseException.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "BGLib/DotnetExtension/CommandLine/zzzz__CommandLineParseException_def.hpp"
 #include "System/zzzz__Exception_def.hpp"

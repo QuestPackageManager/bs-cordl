@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/Numeric2FacetsChecker.hpp"
 #include "System/Xml/Schema/zzzz__FacetsChecker_impl.hpp"
 #include "System/Xml/Schema/zzzz__Numeric2FacetsChecker_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"

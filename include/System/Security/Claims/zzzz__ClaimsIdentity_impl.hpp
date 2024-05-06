@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Claims/ClaimsIdentity.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Security/Claims/zzzz__ClaimsIdentity_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"

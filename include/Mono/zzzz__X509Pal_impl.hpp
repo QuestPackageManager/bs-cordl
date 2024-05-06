@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/X509Pal.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/zzzz__X509Pal_def.hpp"
 #include "Mono/zzzz__X509PalImpl_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/MessageWithLinkedAccountList.hpp"
 #include "Oculus/Platform/zzzz__Message_1_impl.hpp"
 #include "Oculus/Platform/zzzz__MessageWithLinkedAccountList_def.hpp"
 #include "Oculus/Platform/Models/zzzz__LinkedAccountList_def.hpp"

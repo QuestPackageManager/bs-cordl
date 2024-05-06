@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/AnimatorStateInfo.hpp"
 #include "UnityEngine/zzzz__AnimatorStateInfo_def.hpp"
 //  Writing Method size for method: ::UnityEngine::AnimatorStateInfo.get_normalizedTime
 template <>

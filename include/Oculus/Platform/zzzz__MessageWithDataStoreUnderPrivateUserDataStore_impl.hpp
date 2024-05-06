@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/MessageWithDataStoreUnderPrivateUserDataStore.hpp"
 #include "Oculus/Platform/zzzz__Message_1_impl.hpp"
 #include "Oculus/Platform/zzzz__MessageWithDataStoreUnderPrivateUserDataStore_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"

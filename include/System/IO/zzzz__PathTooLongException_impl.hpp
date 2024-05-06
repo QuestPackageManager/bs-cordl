@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/IO/PathTooLongException.hpp"
 #include "System/IO/zzzz__IOException_impl.hpp"
 #include "System/IO/zzzz__PathTooLongException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"

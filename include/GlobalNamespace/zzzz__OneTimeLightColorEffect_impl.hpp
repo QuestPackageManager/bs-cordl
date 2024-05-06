@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OneTimeLightColorEffect.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OneTimeLightColorEffect_def.hpp"
 #include "GlobalNamespace/zzzz__ColorSO_def.hpp"

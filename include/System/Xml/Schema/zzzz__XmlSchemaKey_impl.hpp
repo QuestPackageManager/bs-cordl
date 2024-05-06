@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaKey.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaIdentityConstraint_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaKey_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::XmlSchemaKey._ctor

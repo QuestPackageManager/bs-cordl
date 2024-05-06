@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/Mathematics/Geometry/Plane.hpp"
 #include "Unity/Mathematics/zzzz__float4_impl.hpp"
 #include "Unity/Mathematics/Geometry/zzzz__Plane_def.hpp"
 #include "Unity/Mathematics/zzzz__float3_def.hpp"

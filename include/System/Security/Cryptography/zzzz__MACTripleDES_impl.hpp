@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Cryptography/MACTripleDES.hpp"
 #include "System/Security/Cryptography/zzzz__KeyedHashAlgorithm_impl.hpp"
 #include "System/Security/Cryptography/zzzz__MACTripleDES_def.hpp"
 #include "System/Security/Cryptography/zzzz__CryptoStream_def.hpp"

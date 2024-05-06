@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LufsMetering/FilterCoefficients.hpp"
 #include "LufsMetering/zzzz__FilterCoefficients_def.hpp"
 // Ctor Parameters [CppParam { name: "a0", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "a1", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "a2",
 // ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "b0", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "b1", ty: "float_t", modifiers: "", def_value:

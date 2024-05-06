@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Bindings/NativeHeaderAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/Bindings/zzzz__NativeHeaderAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Bindings::NativeHeaderAttribute.set_Header

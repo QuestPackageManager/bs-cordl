@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/IO/LowLevel/Unsafe/FileState.hpp"
 #include "Unity/IO/LowLevel/Unsafe/zzzz__FileState_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::Unity::IO::LowLevel::Unsafe::FileState::FileState(int32_t value__) noexcept {

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/ChunkedInputStream.hpp"
 #include "System/Net/zzzz__RequestStream_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__ChunkedInputStream_def.hpp"

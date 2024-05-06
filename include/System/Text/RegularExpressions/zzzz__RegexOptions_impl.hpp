@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Text/RegularExpressions/RegexOptions.hpp"
 #include "System/Text/RegularExpressions/zzzz__RegexOptions_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Text::RegularExpressions::RegexOptions::RegexOptions(int32_t value__) noexcept {

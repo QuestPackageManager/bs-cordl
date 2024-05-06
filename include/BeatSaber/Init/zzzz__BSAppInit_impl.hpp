@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatSaber/Init/BSAppInit.hpp"
 #include "BGLib/DotnetExtension/CommandLine/zzzz__ArgumentOption_impl.hpp"
 #include "BGLib/DotnetExtension/CommandLine/zzzz__CommandLineParserResult_impl.hpp"
 #include "GlobalNamespace/zzzz__AppInit_impl.hpp"

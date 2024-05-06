@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/Jobs/JobHandle.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "Unity/Jobs/zzzz__JobHandle_def.hpp"
 //  Writing Method size for method: ::Unity::Jobs::JobHandle.Complete

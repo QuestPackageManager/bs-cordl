@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/LocatedActiveAxis.hpp"
 #include "System/Xml/Schema/zzzz__ActiveAxis_impl.hpp"
 #include "System/Xml/Schema/zzzz__LocatedActiveAxis_def.hpp"
 #include "System/Xml/Schema/zzzz__Asttree_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Playables/ScriptPlayableOutput.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableOutputHandle_impl.hpp"
 #include "UnityEngine/Playables/zzzz__ScriptPlayableOutput_def.hpp"
 #include "UnityEngine/Playables/zzzz__IPlayableOutput_def.hpp"

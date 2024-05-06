@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Ice/NoteCutFloorLightStreakTileEffectSpawner.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Ice/zzzz__NoteCutFloorLightStreakTileEffectSpawner_def.hpp"

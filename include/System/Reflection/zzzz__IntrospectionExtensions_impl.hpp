@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Reflection/IntrospectionExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Reflection/zzzz__IntrospectionExtensions_def.hpp"
 #include "System/Reflection/zzzz__TypeInfo_def.hpp"

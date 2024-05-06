@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/DrawBufferRange.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__DrawBufferRange_def.hpp"
 // Ctor Parameters [CppParam { name: "firstIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "indexCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam
 // { name: "minIndexVal", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "vertsReferenced", ty: "int32_t", modifiers: "", def_value: Some("{}") }]

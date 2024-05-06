@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/HEU_BoundingVolume.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__HEU_BoundingVolume_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"

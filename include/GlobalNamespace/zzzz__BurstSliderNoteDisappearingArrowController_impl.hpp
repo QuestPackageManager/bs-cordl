@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BurstSliderNoteDisappearingArrowController.hpp"
 #include "GlobalNamespace/zzzz__DisappearingArrowControllerBase_1_impl.hpp"
 #include "GlobalNamespace/zzzz__BurstSliderNoteDisappearingArrowController_def.hpp"
 #include "GlobalNamespace/zzzz__BurstSliderGameNoteController_def.hpp"

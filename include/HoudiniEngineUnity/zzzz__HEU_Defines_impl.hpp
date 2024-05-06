@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HEU_Defines.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_Defines_def.hpp"
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_Defines._ctor

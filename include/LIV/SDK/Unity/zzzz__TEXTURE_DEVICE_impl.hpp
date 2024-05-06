@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LIV/SDK/Unity/TEXTURE_DEVICE.hpp"
 #include "LIV/SDK/Unity/zzzz__TEXTURE_DEVICE_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::LIV::SDK::Unity::TEXTURE_DEVICE::TEXTURE_DEVICE(uint32_t value__) noexcept {

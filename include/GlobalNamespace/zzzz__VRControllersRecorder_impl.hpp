@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/VRControllersRecorder.hpp"
 #include "GlobalNamespace/zzzz__VRControllersRecorder_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationBinder_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"

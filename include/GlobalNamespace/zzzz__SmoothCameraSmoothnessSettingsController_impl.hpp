@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SmoothCameraSmoothnessSettingsController.hpp"
 #include "GlobalNamespace/zzzz__ListSettingsController_impl.hpp"
 #include "GlobalNamespace/zzzz__SmoothCameraSmoothnessSettingsController_def.hpp"
 #include "BeatSaber/GameSettings/zzzz__MainSettingsHandler_def.hpp"

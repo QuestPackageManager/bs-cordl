@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/XR/Oculus/OculusSettings.hpp"
 #include "Unity/XR/Oculus/zzzz__OculusSettings_impl.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "Unity/XR/Oculus/zzzz__OculusSettings_def.hpp"

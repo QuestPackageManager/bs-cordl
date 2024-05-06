@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IPAPluginsDirDeleter.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__IPAPluginsDirDeleter_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IPAPluginsDirDeleter._ctor

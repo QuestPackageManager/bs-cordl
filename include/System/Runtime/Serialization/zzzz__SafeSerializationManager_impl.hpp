@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Serialization/SafeSerializationManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__SafeSerializationManager_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Pkix/TrustAnchor.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Pkix/zzzz__TrustAnchor_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__NameConstraints_def.hpp"

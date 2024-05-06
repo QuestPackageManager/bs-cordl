@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/CVRTrackedCamera.hpp"
 #include "OVR/OpenVR/zzzz__IVRTrackedCamera_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "OVR/OpenVR/zzzz__CVRTrackedCamera_def.hpp"

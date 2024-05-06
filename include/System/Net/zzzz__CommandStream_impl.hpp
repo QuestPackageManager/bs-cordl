@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/CommandStream.hpp"
 #include "System/Net/zzzz__CommandStream_impl.hpp"
 #include "System/Net/zzzz__NetworkStreamWrapper_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"

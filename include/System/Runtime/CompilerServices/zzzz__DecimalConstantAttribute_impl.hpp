@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/CompilerServices/DecimalConstantAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/zzzz__Decimal_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__DecimalConstantAttribute_def.hpp"

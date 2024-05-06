@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ProBuilder/Poly2Tri/PointOnEdgeException.hpp"
 #include "System/zzzz__NotImplementedException_impl.hpp"
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__PointOnEdgeException_def.hpp"
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__TriangulationPoint_def.hpp"

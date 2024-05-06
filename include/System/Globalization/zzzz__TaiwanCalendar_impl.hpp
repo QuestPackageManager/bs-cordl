@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Globalization/TaiwanCalendar.hpp"
 #include "System/Globalization/zzzz__Calendar_impl.hpp"
 #include "System/zzzz__DateTime_impl.hpp"
 #include "System/Globalization/zzzz__TaiwanCalendar_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Globalization/Unicode/ContractionComparer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Globalization/Unicode/zzzz__ContractionComparer_def.hpp"
 #include "Mono/Globalization/Unicode/zzzz__Contraction_def.hpp"

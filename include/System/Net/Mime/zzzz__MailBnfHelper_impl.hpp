@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Mime/MailBnfHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Mime/zzzz__MailBnfHelper_def.hpp"
 //  Writing Method size for method: ::System::Net::Mime::MailBnfHelper.CreateCharactersAllowedInAtoms

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/DeclareSignalAsyncTickPriorityCopyBinder.hpp"
 #include "Zenject/zzzz__SignalTickPriorityCopyBinder_impl.hpp"
 #include "Zenject/zzzz__DeclareSignalAsyncTickPriorityCopyBinder_def.hpp"
 #include "Zenject/zzzz__SignalCopyBinder_def.hpp"

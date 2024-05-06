@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatSaber/PerformancePresets/FoveatedRenderingLevel.hpp"
 #include "BeatSaber/PerformancePresets/zzzz__FoveatedRenderingLevel_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::BeatSaber::PerformancePresets::FoveatedRenderingLevel::FoveatedRenderingLevel(int32_t value__) noexcept {

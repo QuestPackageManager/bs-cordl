@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Cryptography/RijndaelManaged.hpp"
 #include "System/Security/Cryptography/zzzz__Rijndael_impl.hpp"
 #include "System/Security/Cryptography/zzzz__RijndaelManaged_def.hpp"
 #include "System/Security/Cryptography/zzzz__CipherMode_def.hpp"

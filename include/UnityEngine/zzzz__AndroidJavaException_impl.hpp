@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/AndroidJavaException.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "UnityEngine/zzzz__AndroidJavaException_def.hpp"
 //  Writing Method size for method: ::UnityEngine::AndroidJavaException._ctor

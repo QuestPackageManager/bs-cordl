@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Linq/DuplicatePropertyNameHandling.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__DuplicatePropertyNameHandling_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::Newtonsoft::Json::Linq::DuplicatePropertyNameHandling::DuplicatePropertyNameHandling(int32_t value__) noexcept {

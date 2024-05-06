@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BeatmapObjectAvoidancePathEvaluator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectAvoidancePathEvaluator_def.hpp"
 #include "GlobalNamespace/zzzz__BezierSplineEvaluator_def.hpp"

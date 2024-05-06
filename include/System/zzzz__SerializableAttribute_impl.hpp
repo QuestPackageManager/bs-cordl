@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/SerializableAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/zzzz__SerializableAttribute_def.hpp"
 //  Writing Method size for method: ::System::SerializableAttribute._ctor

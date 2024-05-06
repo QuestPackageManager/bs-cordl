@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/InteropServices/UnmanagedType.hpp"
 #include "System/Runtime/InteropServices/zzzz__UnmanagedType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Runtime::InteropServices::UnmanagedType::UnmanagedType(int32_t value__) noexcept {

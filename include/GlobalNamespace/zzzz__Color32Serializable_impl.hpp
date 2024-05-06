@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/Color32Serializable.hpp"
 #include "UnityEngine/zzzz__Color32_impl.hpp"
 #include "GlobalNamespace/zzzz__Color32Serializable_def.hpp"
 #include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"

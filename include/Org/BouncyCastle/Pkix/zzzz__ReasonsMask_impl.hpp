@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Pkix/ReasonsMask.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Pkix/zzzz__ReasonsMask_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__ReasonFlags_def.hpp"

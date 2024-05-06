@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/Datatype_normalizedString.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_string_impl.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_normalizedString_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaWhiteSpace_def.hpp"

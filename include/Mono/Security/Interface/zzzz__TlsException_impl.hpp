@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Security/Interface/TlsException.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "Mono/Security/Interface/zzzz__TlsException_def.hpp"
 #include "Mono/Security/Interface/zzzz__AlertDescription_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/CryptoPro/Gost3410NamedParameters.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Asn1/CryptoPro/zzzz__Gost3410NamedParameters_def.hpp"
 #include "Org/BouncyCastle/Asn1/CryptoPro/zzzz__Gost3410ParamSetParameters_def.hpp"

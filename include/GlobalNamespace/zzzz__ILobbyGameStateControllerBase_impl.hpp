@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ILobbyGameStateControllerBase.hpp"
 #include "GlobalNamespace/zzzz__ILobbyGameStateControllerBase_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ILobbyGameStateControllerBase.Activate
 template <>

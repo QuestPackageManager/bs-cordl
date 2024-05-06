@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UI/PositionAsUV1.hpp"
 #include "UnityEngine/UI/zzzz__BaseMeshEffect_impl.hpp"
 #include "UnityEngine/UI/zzzz__PositionAsUV1_def.hpp"
 #include "UnityEngine/UI/zzzz__VertexHelper_def.hpp"

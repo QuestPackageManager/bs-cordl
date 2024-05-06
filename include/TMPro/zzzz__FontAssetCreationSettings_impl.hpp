@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/FontAssetCreationSettings.hpp"
 #include "TMPro/zzzz__FontAssetCreationSettings_def.hpp"
 //  Writing Method size for method: ::TMPro::FontAssetCreationSettings._ctor
 template <>

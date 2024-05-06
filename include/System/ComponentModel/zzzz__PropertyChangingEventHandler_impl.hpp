@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ComponentModel/PropertyChangingEventHandler.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/ComponentModel/zzzz__PropertyChangingEventHandler_def.hpp"
 #include "System/ComponentModel/zzzz__PropertyChangingEventArgs_def.hpp"

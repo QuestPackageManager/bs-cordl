@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/RectangleFakeGlowLightWithId.hpp"
 #include "GlobalNamespace/zzzz__LightWithIdMonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__RectangleFakeGlowLightWithId_def.hpp"
 #include "GlobalNamespace/zzzz__RectangleFakeGlow_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/OpenSsl/PemReader.hpp"
 #include "Org/BouncyCastle/Utilities/IO/Pem/zzzz__PemReader_impl.hpp"
 #include "Org/BouncyCastle/OpenSsl/zzzz__PemReader_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__ContentInfo_def.hpp"

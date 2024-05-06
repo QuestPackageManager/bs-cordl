@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Rendering/GlobalKeyword.hpp"
 #include "UnityEngine/Rendering/zzzz__GlobalKeyword_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::GlobalKeyword.ToString
 template <>

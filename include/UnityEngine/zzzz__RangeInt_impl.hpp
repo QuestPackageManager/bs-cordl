@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/RangeInt.hpp"
 #include "UnityEngine/zzzz__RangeInt_def.hpp"
 //  Writing Method size for method: ::UnityEngine::RangeInt.get_end
 template <>

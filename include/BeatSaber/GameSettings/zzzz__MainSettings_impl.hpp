@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatSaber/GameSettings/MainSettings.hpp"
 #include "BGLib/SaveDataCore/zzzz__VersionableSaveData_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "BeatSaber/GameSettings/zzzz__MainSettings_def.hpp"

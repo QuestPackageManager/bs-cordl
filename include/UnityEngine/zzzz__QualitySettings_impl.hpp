@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/QualitySettings.hpp"
 #include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__QualitySettings_def.hpp"
 #include "UnityEngine/Rendering/zzzz__RenderPipelineAsset_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Resolution.hpp"
 #include "UnityEngine/zzzz__Resolution_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Resolution.get_width
 template <>

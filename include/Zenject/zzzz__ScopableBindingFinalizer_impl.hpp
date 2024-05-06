@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/ScopableBindingFinalizer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__ProviderBindingFinalizer_impl.hpp"
 #include "Zenject/zzzz__ScopableBindingFinalizer_def.hpp"

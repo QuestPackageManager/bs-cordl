@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/Contexts/IDynamicMessageSink.hpp"
 #include "System/Runtime/Remoting/Contexts/zzzz__IDynamicMessageSink_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::Contexts::IDynamicMessageSink.ProcessMessageFinish

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Net/Security/MonoSslServerAuthenticationOptions.hpp"
 #include "Mono/Net/Security/zzzz__MonoSslAuthenticationOptions_impl.hpp"
 #include "Mono/Net/Security/zzzz__MonoSslServerAuthenticationOptions_def.hpp"
 #include "System/Net/Security/zzzz__EncryptionPolicy_def.hpp"

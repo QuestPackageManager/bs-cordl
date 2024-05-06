@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/NullAllowed.hpp"
 #include "GlobalNamespace/zzzz__NullAllowed_impl.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "GlobalNamespace/zzzz__NullAllowed_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Utilities/IO/NullOutputStream.hpp"
 #include "Org/BouncyCastle/Utilities/IO/zzzz__BaseOutputStream_impl.hpp"
 #include "Org/BouncyCastle/Utilities/IO/zzzz__NullOutputStream_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Utilities::IO::NullOutputStream.WriteByte

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Reflection/Pointer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Reflection/zzzz__Pointer_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"

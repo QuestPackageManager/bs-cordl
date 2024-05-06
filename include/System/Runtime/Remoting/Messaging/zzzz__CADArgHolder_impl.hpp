@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/Messaging/CADArgHolder.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__CADArgHolder_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::Messaging::CADArgHolder._ctor

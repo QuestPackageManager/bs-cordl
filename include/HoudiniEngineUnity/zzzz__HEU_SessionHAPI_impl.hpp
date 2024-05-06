@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HEU_SessionHAPI.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_SessionBase_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_SessionHAPI_def.hpp"
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_SessionHAPI._ctor

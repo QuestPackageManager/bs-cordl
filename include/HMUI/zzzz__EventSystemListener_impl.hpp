@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/EventSystemListener.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__EventSystemListener_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"

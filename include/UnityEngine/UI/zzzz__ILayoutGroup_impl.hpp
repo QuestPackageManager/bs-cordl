@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UI/ILayoutGroup.hpp"
 #include "UnityEngine/UI/zzzz__ILayoutGroup_def.hpp"
 #include "UnityEngine/UI/zzzz__ILayoutController_def.hpp"
 /// @brief Convert operator to "::UnityEngine::UI::ILayoutController"

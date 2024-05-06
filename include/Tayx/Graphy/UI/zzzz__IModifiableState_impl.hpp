@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Tayx/Graphy/UI/IModifiableState.hpp"
 #include "Tayx/Graphy/UI/zzzz__IModifiableState_def.hpp"
 #include "Tayx/Graphy/zzzz__GraphyManager_def.hpp"
 //  Writing Method size for method: ::Tayx::Graphy::UI::IModifiableState.SetState

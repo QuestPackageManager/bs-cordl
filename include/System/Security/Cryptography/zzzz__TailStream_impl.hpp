@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Cryptography/TailStream.hpp"
 #include "System/IO/zzzz__Stream_impl.hpp"
 #include "System/Security/Cryptography/zzzz__TailStream_def.hpp"
 #include "System/IO/zzzz__SeekOrigin_def.hpp"

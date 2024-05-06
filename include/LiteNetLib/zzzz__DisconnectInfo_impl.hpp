@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LiteNetLib/DisconnectInfo.hpp"
 #include "LiteNetLib/zzzz__DisconnectReason_impl.hpp"
 #include "System/Net/Sockets/zzzz__SocketError_impl.hpp"
 #include "LiteNetLib/zzzz__DisconnectInfo_def.hpp"

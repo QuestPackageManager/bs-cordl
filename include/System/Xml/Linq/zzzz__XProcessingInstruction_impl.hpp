@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Linq/XProcessingInstruction.hpp"
 #include "System/Xml/Linq/zzzz__XNode_impl.hpp"
 #include "System/Xml/Linq/zzzz__XProcessingInstruction_def.hpp"
 #include "System/Xml/Linq/zzzz__XNode_def.hpp"

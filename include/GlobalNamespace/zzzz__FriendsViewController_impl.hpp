@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/FriendsViewController.hpp"
 #include "GlobalNamespace/zzzz__NetworkPlayersViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__FriendsViewController_def.hpp"
 #include "GlobalNamespace/zzzz__INetworkConfig_def.hpp"

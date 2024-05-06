@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OffsetDirectionExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OffsetDirectionExtensions_def.hpp"
 #include "GlobalNamespace/zzzz__OffsetDirection_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/VREvent_Keyboard_t.hpp"
 #include "OVR/OpenVR/zzzz__VREvent_Keyboard_t_def.hpp"
 //  Writing Method size for method: ::OVR::OpenVR::VREvent_Keyboard_t.get_cNewInput
 template <>

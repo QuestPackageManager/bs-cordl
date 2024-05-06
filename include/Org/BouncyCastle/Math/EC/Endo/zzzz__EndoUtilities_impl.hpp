@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Math/EC/Endo/EndoUtilities.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Math/EC/Endo/zzzz__EndoUtilities_def.hpp"
 #include "Org/BouncyCastle/Math/EC/Endo/zzzz__ECEndomorphism_def.hpp"

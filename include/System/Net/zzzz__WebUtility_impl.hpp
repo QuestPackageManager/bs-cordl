@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/WebUtility.hpp"
 #include "System/Net/Configuration/zzzz__UnicodeDecodingConformance_impl.hpp"
 #include "System/Net/Configuration/zzzz__UnicodeEncodingConformance_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"

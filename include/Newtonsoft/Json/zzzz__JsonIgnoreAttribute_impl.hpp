@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/JsonIgnoreAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "Newtonsoft/Json/zzzz__JsonIgnoreAttribute_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::JsonIgnoreAttribute._ctor

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ScoreMultiplierUIController.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ScoreMultiplierUIController_def.hpp"
 #include "GlobalNamespace/zzzz__IScoreController_def.hpp"

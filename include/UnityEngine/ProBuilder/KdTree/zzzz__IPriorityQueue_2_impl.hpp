@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ProBuilder/KdTree/IPriorityQueue_2.hpp"
 #include "UnityEngine/ProBuilder/KdTree/zzzz__IPriorityQueue_2_def.hpp"
 template <typename TItem, typename TPriority> inline void UnityEngine::ProBuilder::KdTree::IPriorityQueue_2<TItem, TPriority>::Enqueue(TItem item, TPriority priority) {
   auto* ___internal_method =

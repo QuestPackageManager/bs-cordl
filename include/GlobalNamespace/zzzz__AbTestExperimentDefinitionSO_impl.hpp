@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/AbTestExperimentDefinitionSO.hpp"
 #include "GlobalNamespace/zzzz__AbTestExperimentDefinitionSO_impl.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__AbTestExperimentDefinitionSO_def.hpp"

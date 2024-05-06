@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ComponentModel/ComponentConverter.hpp"
 #include "System/ComponentModel/zzzz__ReferenceConverter_impl.hpp"
 #include "System/ComponentModel/zzzz__ComponentConverter_def.hpp"
 #include "System/ComponentModel/zzzz__ITypeDescriptorContext_def.hpp"

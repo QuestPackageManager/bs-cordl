@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Diagnostics/CodeAnalysis/MaybeNullAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Diagnostics/CodeAnalysis/zzzz__MaybeNullAttribute_def.hpp"
 //  Writing Method size for method: ::System::Diagnostics::CodeAnalysis::MaybeNullAttribute._ctor

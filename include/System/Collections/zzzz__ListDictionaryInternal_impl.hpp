@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Collections/ListDictionaryInternal.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/zzzz__ListDictionaryInternal_def.hpp"
 #include "System/Collections/zzzz__DictionaryEntry_def.hpp"

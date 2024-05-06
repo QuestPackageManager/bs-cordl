@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/LightmapLightsWithIds.hpp"
 #include "GlobalNamespace/zzzz__LightConstants_impl.hpp"
 #include "GlobalNamespace/zzzz__LightWithIds_impl.hpp"
 #include "GlobalNamespace/zzzz__LightmapLightsWithIds_def.hpp"

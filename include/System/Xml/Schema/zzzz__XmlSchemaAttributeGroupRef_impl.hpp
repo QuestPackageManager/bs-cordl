@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaAttributeGroupRef.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaAnnotated_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaAttributeGroupRef_def.hpp"
 #include "System/Xml/zzzz__XmlQualifiedName_def.hpp"

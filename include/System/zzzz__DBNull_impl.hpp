@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/DBNull.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__DBNull_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"

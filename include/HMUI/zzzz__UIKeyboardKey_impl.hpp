@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/UIKeyboardKey.hpp"
 #include "UnityEngine/zzzz__KeyCode_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__UIKeyboardKey_def.hpp"

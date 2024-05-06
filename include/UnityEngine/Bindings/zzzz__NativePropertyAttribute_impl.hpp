@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Bindings/NativePropertyAttribute.hpp"
 #include "UnityEngine/Bindings/zzzz__NativeMethodAttribute_impl.hpp"
 #include "UnityEngine/Bindings/zzzz__TargetType_impl.hpp"
 #include "UnityEngine/Bindings/zzzz__NativePropertyAttribute_def.hpp"

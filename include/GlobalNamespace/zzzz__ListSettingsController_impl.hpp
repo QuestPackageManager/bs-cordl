@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ListSettingsController.hpp"
 #include "GlobalNamespace/zzzz__IncDecSettingsController_impl.hpp"
 #include "GlobalNamespace/zzzz__ListSettingsController_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ListSettingsController.GetInitValues

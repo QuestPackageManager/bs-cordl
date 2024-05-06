@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HEU_ThreadedTaskLoadGeo.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_GenerateOptions_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_ThreadedTaskLoadGeo_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_ThreadedTask_impl.hpp"

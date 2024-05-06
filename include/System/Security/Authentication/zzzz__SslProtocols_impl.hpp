@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Authentication/SslProtocols.hpp"
 #include "System/Security/Authentication/zzzz__SslProtocols_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Security::Authentication::SslProtocols::SslProtocols(int32_t value__) noexcept {

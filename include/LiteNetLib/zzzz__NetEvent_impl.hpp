@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LiteNetLib/NetEvent.hpp"
 #include "LiteNetLib/zzzz__DeliveryMethod_impl.hpp"
 #include "LiteNetLib/zzzz__DisconnectReason_impl.hpp"
 #include "LiteNetLib/zzzz__NetEvent_impl.hpp"

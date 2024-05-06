@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Rendering/LocalKeywordSpace.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__LocalKeywordSpace_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"

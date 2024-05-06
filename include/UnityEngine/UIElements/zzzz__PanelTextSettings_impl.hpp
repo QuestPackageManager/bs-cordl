@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/PanelTextSettings.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextSettings_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__PanelTextSettings_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/ConstrainedExecution/Consistency.hpp"
 #include "System/Runtime/ConstrainedExecution/zzzz__Consistency_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Runtime::ConstrainedExecution::Consistency::Consistency(int32_t value__) noexcept {

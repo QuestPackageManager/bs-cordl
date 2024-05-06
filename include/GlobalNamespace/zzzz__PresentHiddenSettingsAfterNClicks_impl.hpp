@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/PresentHiddenSettingsAfterNClicks.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__PresentHiddenSettingsAfterNClicks_def.hpp"
 #include "GlobalNamespace/zzzz__SettingsFlowCoordinator_def.hpp"

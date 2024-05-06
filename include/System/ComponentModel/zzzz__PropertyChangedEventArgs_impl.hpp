@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ComponentModel/PropertyChangedEventArgs.hpp"
 #include "System/zzzz__EventArgs_impl.hpp"
 #include "System/ComponentModel/zzzz__PropertyChangedEventArgs_def.hpp"
 //  Writing Method size for method: ::System::ComponentModel::PropertyChangedEventArgs._ctor

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Linq/JsonMergeSettings.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__MergeArrayHandling_impl.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__MergeNullValueHandling_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"

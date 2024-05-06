@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/FloatSignal.hpp"
 #include "GlobalNamespace/zzzz__GenericSignal_1_impl.hpp"
 #include "GlobalNamespace/zzzz__FloatSignal_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::FloatSignal._ctor

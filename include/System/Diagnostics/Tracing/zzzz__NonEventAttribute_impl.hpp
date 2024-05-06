@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Diagnostics/Tracing/NonEventAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Diagnostics/Tracing/zzzz__NonEventAttribute_def.hpp"
 //  Writing Method size for method: ::System::Diagnostics::Tracing::NonEventAttribute._ctor

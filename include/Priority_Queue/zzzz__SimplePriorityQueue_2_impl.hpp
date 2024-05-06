@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Priority_Queue/SimplePriorityQueue_2.hpp"
 #include "Priority_Queue/zzzz__GenericPriorityQueueNode_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Priority_Queue/zzzz__SimplePriorityQueue_2_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/IO/Compression/GZipStream.hpp"
 #include "System/IO/zzzz__Stream_impl.hpp"
 #include "System/IO/Compression/zzzz__GZipStream_def.hpp"
 #include "System/IO/Compression/zzzz__CompressionLevel_def.hpp"

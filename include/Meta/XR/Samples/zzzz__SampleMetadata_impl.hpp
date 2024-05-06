@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Meta/XR/Samples/SampleMetadata.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Meta/XR/Samples/zzzz__SampleMetadata_def.hpp"
 //  Writing Method size for method: ::Meta::XR::Samples::SampleMetadata.Awake

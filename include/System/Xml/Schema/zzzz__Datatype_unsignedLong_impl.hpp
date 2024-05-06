@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/Datatype_unsignedLong.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_nonNegativeInteger_impl.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_unsignedLong_def.hpp"
 #include "System/Xml/Schema/zzzz__FacetsChecker_def.hpp"

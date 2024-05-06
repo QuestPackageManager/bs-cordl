@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Reflection/TypeInfo.hpp"
 #include "System/Reflection/zzzz__BindingFlags_impl.hpp"
 #include "System/zzzz__Type_impl.hpp"
 #include "System/Reflection/zzzz__TypeInfo_def.hpp"

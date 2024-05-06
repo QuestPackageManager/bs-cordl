@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LIV/SDK/Unity/SDKResolution.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKResolution_def.hpp"
 //  Writing Method size for method: ::LIV::SDK::Unity::SDKResolution.get_zero
 template <>

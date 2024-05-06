@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/INoteVisualModifierTypeProvider.hpp"
 #include "GlobalNamespace/zzzz__INoteVisualModifierTypeProvider_def.hpp"
 #include "GlobalNamespace/zzzz__NoteVisualModifierType_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::INoteVisualModifierTypeProvider.get_noteVisualModifierType

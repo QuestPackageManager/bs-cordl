@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Security/Interface/MonoTlsSettings.hpp"
 #include "Mono/Security/Interface/zzzz__TlsProtocols_impl.hpp"
 #include "System/zzzz__DateTime_impl.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"

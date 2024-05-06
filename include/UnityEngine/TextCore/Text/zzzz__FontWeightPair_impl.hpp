@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/TextCore/Text/FontWeightPair.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__FontWeightPair_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__FontAsset_def.hpp"
 // Ctor Parameters [CppParam { name: "regularTypeface", ty: "::UnityW<::UnityEngine::TextCore::Text::FontAsset>", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "italicTypeface", ty:

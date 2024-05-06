@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/Proxies/RemotingProxy.hpp"
 #include "System/Runtime/Remoting/Proxies/zzzz__RealProxy_impl.hpp"
 #include "System/Runtime/Remoting/Proxies/zzzz__RemotingProxy_def.hpp"
 #include "System/Reflection/zzzz__MethodInfo_def.hpp"

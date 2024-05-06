@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MissionConnectionsGenerator.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionConnectionsGenerator_def.hpp"
 #include "GlobalNamespace/zzzz__MissionNodeConnection_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Configuration/NetSectionGroup.hpp"
 #include "System/Configuration/zzzz__ConfigurationSectionGroup_impl.hpp"
 #include "System/Net/Configuration/zzzz__NetSectionGroup_def.hpp"
 //  Writing Method size for method: ::System::Net::Configuration::NetSectionGroup._ctor

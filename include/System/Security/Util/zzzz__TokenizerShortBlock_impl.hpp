@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Util/TokenizerShortBlock.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Security/Util/zzzz__TokenizerShortBlock_def.hpp"
 //  Writing Method size for method: ::System::Security::Util::TokenizerShortBlock._ctor

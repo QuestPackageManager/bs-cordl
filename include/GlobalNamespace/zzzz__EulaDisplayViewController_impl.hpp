@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/EulaDisplayViewController.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__EulaDisplayViewController_def.hpp"
 #include "GlobalNamespace/zzzz__LocalizedTextAsset_def.hpp"

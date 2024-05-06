@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/LineRenderer.hpp"
 #include "UnityEngine/zzzz__Renderer_impl.hpp"
 #include "UnityEngine/zzzz__LineRenderer_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"

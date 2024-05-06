@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/EVRNotificationStyle.hpp"
 #include "OVR/OpenVR/zzzz__EVRNotificationStyle_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::OVR::OpenVR::EVRNotificationStyle::EVRNotificationStyle(int32_t value__) noexcept {

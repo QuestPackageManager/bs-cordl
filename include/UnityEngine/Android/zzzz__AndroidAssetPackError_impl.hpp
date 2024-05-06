@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Android/AndroidAssetPackError.hpp"
 #include "UnityEngine/Android/zzzz__AndroidAssetPackError_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Android::AndroidAssetPackError::AndroidAssetPackError(int32_t value__) noexcept {

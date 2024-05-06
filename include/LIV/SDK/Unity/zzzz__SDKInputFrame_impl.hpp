@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LIV/SDK/Unity/SDKInputFrame.hpp"
 #include "LIV/SDK/Unity/zzzz__FEATURES_impl.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKClipPlane_impl.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKPose_impl.hpp"

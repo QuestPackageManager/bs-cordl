@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/XmlSignificantWhitespace.hpp"
 #include "System/Xml/zzzz__XmlCharacterData_impl.hpp"
 #include "System/Xml/zzzz__XmlSignificantWhitespace_def.hpp"
 #include "System/Xml/zzzz__XmlDocument_def.hpp"

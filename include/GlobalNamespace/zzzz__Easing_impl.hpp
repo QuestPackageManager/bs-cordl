@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/Easing.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__Easing_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::Easing.Linear

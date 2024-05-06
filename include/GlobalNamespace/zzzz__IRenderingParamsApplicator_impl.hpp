@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IRenderingParamsApplicator.hpp"
 #include "GlobalNamespace/zzzz__IRenderingParamsApplicator_def.hpp"
 #include "GlobalNamespace/zzzz__SceneType_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IRenderingParamsApplicator.Apply

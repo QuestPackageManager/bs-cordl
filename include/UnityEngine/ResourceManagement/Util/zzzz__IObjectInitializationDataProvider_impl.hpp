@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ResourceManagement/Util/IObjectInitializationDataProvider.hpp"
 #include "UnityEngine/ResourceManagement/Util/zzzz__IObjectInitializationDataProvider_def.hpp"
 #include "UnityEngine/ResourceManagement/Util/zzzz__ObjectInitializationData_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::Util::IObjectInitializationDataProvider.get_Name

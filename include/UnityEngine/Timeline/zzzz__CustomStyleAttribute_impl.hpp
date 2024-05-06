@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Timeline/CustomStyleAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__CustomStyleAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Timeline::CustomStyleAttribute._ctor

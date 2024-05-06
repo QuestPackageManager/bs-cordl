@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Collections/Specialized/NameObjectCollectionBase.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/Specialized/zzzz__NameObjectCollectionBase_def.hpp"
 #include "System/Collections/Specialized/zzzz__NameObjectCollectionBase_def.hpp"

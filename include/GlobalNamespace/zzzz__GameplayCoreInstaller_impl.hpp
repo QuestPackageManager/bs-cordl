@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/GameplayCoreInstaller.hpp"
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplayCoreInstaller_def.hpp"
 #include "GlobalNamespace/zzzz__ArcAndObstacleHapticEffectManager_def.hpp"

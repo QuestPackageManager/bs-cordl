@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/DetachFromPanelEvent.hpp"
 #include "UnityEngine/UIElements/zzzz__PanelChangedEventBase_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__DetachFromPanelEvent_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::DetachFromPanelEvent._ctor

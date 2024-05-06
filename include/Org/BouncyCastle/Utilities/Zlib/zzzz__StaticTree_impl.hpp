@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Utilities/Zlib/StaticTree.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Utilities/Zlib/zzzz__StaticTree_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Utilities::Zlib::StaticTree._ctor

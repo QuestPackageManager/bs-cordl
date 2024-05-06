@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Rendering/RenderPipeline.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__RenderPipeline_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"

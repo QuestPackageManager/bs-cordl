@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/SimpleTextDropdown.hpp"
 #include "HMUI/zzzz__DropdownWithTableView_impl.hpp"
 #include "HMUI/zzzz__SimpleTextDropdown_def.hpp"
 #include "GlobalNamespace/zzzz__SimpleTextTableCell_def.hpp"

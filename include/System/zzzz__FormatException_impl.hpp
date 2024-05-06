@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/FormatException.hpp"
 #include "System/zzzz__SystemException_impl.hpp"
 #include "System/zzzz__FormatException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"

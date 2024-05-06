@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/HttpListenerRequest.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__HttpListenerRequest_def.hpp"
 #include "System/Collections/Specialized/zzzz__NameValueCollection_def.hpp"

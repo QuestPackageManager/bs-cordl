@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/Tasks/StackGuard.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/Tasks/zzzz__StackGuard_def.hpp"
 //  Writing Method size for method: ::System::Threading::Tasks::StackGuard.TryBeginInliningScope

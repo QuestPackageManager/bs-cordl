@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/DependencyInjector.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/zzzz__DependencyInjector_def.hpp"
 #include "Mono/zzzz__ISystemDependencyProvider_def.hpp"

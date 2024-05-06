@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Texture2D.hpp"
 #include "UnityEngine/zzzz__Texture_impl.hpp"
 #include "UnityEngine/zzzz__Texture2D_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"

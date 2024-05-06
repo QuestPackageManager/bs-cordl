@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/NetworkInformation/AixStructs/sockaddr_dl.hpp"
 #include "System/Net/NetworkInformation/AixStructs/zzzz__sockaddr_dl_def.hpp"
 //  Writing Method size for method: ::System::Net::NetworkInformation::AixStructs::sockaddr_dl.Read
 template <>

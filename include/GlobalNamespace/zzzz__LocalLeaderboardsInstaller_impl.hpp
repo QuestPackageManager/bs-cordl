@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/LocalLeaderboardsInstaller.hpp"
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__LocalLeaderboardsInstaller_def.hpp"
 #include "GlobalNamespace/zzzz__LocalLeaderboardsSettingsSO_def.hpp"

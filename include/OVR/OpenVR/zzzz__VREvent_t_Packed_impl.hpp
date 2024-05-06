@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/VREvent_t_Packed.hpp"
 #include "OVR/OpenVR/zzzz__VREvent_Data_t_impl.hpp"
 #include "OVR/OpenVR/zzzz__VREvent_t_Packed_def.hpp"
 #include "OVR/OpenVR/zzzz__VREvent_Data_t_def.hpp"

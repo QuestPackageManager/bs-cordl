@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LIV/SDK/Unity/SDKShaders.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKShaders_def.hpp"
 //  Writing Method size for method: ::LIV::SDK::Unity::SDKShaders.StartRendering

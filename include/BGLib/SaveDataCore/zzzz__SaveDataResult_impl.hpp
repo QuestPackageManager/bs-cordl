@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BGLib/SaveDataCore/SaveDataResult.hpp"
 #include "BGLib/SaveDataCore/zzzz__SaveDataResult_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::BGLib::SaveDataCore::SaveDataResult::SaveDataResult(int32_t value__) noexcept {

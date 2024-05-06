@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Smime/SmimeEncryptionKeyPreferenceAttribute.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AttributeX509_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Smime/zzzz__SmimeEncryptionKeyPreferenceAttribute_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__IssuerAndSerialNumber_def.hpp"

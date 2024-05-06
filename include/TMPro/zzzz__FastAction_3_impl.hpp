@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/FastAction_3.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "TMPro/zzzz__FastAction_3_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/Burst/Intrinsics/Common.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Burst/Intrinsics/zzzz__Common_def.hpp"
 //  Writing Method size for method: ::Unity::Burst::Intrinsics::Common.Pause

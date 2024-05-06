@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/JSONLazyCreator.hpp"
 #include "HoudiniEngineUnity/zzzz__JSONNode_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__JSONLazyCreator_def.hpp"
 #include "HoudiniEngineUnity/zzzz__JSONArray_def.hpp"

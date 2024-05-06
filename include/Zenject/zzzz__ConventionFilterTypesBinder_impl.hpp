@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/ConventionFilterTypesBinder.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__ConventionAssemblySelectionBinder_impl.hpp"
 #include "Zenject/zzzz__ConventionFilterTypesBinder_def.hpp"

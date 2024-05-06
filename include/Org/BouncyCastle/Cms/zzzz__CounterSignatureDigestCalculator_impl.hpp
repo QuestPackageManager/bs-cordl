@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Cms/CounterSignatureDigestCalculator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CounterSignatureDigestCalculator_def.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__IDigestCalculator_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UI/ILayoutElement.hpp"
 #include "UnityEngine/UI/zzzz__ILayoutElement_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UI::ILayoutElement.CalculateLayoutInputHorizontal
 template <>

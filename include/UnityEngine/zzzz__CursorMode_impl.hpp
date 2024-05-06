@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/CursorMode.hpp"
 #include "UnityEngine/zzzz__CursorMode_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::CursorMode::CursorMode(int32_t value__) noexcept {

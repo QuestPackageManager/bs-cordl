@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ResizableTextMeshPro.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ResizableTextMeshPro_def.hpp"
 #include "TMPro/zzzz__TMP_Text_def.hpp"

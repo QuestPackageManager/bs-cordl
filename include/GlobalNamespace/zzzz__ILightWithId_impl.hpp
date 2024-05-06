@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ILightWithId.hpp"
 #include "GlobalNamespace/zzzz__ILightWithId_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ILightWithId.get_isRegistered

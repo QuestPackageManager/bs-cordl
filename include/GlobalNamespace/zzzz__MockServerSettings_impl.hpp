@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MockServerSettings.hpp"
 #include "GlobalNamespace/zzzz__MockPlayerSettings_impl.hpp"
 #include "GlobalNamespace/zzzz__MockServerSettings_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MockServerSettings._ctor

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Security/EncryptionPolicy.hpp"
 #include "System/Net/Security/zzzz__EncryptionPolicy_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Net::Security::EncryptionPolicy::EncryptionPolicy(int32_t value__) noexcept {

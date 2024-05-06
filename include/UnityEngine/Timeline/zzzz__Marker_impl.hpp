@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Timeline/Marker.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__Marker_def.hpp"
 #include "UnityEngine/Timeline/zzzz__IMarker_def.hpp"

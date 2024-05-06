@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Security/Authenticode/AuthenticodeDeformatter.hpp"
 #include "Mono/Security/Authenticode/zzzz__AuthenticodeBase_impl.hpp"
 #include "System/zzzz__DateTime_impl.hpp"
 #include "Mono/Security/Authenticode/zzzz__AuthenticodeDeformatter_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/RemotingConfiguration.hpp"
 #include "System/Runtime/Remoting/zzzz__CustomErrorsModes_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Remoting/zzzz__RemotingConfiguration_def.hpp"

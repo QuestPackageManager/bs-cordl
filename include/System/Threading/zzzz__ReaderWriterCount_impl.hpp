@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/ReaderWriterCount.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/zzzz__ReaderWriterCount_def.hpp"
 //  Writing Method size for method: ::System::Threading::ReaderWriterCount._ctor

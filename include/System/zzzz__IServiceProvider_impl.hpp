@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/IServiceProvider.hpp"
 #include "System/zzzz__IServiceProvider_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"

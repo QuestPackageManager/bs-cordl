@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LIV/SDK/Unity/SDKOutputFrame.hpp"
 #include "LIV/SDK/Unity/zzzz__RENDERING_PIPELINE_impl.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKTrackedSpace_impl.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKOutputFrame_def.hpp"

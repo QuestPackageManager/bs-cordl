@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/DataViewSettingCollection.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Data/zzzz__DataViewSettingCollection_def.hpp"
 #include "System/Collections/zzzz__Hashtable_def.hpp"

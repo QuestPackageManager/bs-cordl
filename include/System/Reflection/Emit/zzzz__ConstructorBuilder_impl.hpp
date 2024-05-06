@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Reflection/Emit/ConstructorBuilder.hpp"
 #include "System/Reflection/zzzz__ConstructorInfo_impl.hpp"
 #include "System/Reflection/Emit/zzzz__ConstructorBuilder_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"

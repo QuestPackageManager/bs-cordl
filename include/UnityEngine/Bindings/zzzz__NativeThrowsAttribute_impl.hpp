@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Bindings/NativeThrowsAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/Bindings/zzzz__NativeThrowsAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Bindings::NativeThrowsAttribute.set_ThrowsException

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/TextCore/FaceInfo.hpp"
 #include "UnityEngine/TextCore/zzzz__FaceInfo_def.hpp"
 //  Writing Method size for method: ::UnityEngine::TextCore::FaceInfo.get_faceIndex
 template <>

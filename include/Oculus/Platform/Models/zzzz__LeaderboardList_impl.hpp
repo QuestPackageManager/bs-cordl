@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/Models/LeaderboardList.hpp"
 #include "Oculus/Platform/Models/zzzz__DeserializableList_1_impl.hpp"
 #include "Oculus/Platform/Models/zzzz__LeaderboardList_def.hpp"
 #include "Oculus/Platform/Models/zzzz__Leaderboard_def.hpp"

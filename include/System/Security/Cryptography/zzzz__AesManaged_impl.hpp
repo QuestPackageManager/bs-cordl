@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Cryptography/AesManaged.hpp"
 #include "System/Security/Cryptography/zzzz__Aes_impl.hpp"
 #include "System/Security/Cryptography/zzzz__AesManaged_def.hpp"
 #include "System/Security/Cryptography/zzzz__CipherMode_def.hpp"

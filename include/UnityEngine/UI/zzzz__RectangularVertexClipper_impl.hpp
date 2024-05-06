@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UI/RectangularVertexClipper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UI/zzzz__RectangularVertexClipper_def.hpp"
 #include "UnityEngine/zzzz__Canvas_def.hpp"

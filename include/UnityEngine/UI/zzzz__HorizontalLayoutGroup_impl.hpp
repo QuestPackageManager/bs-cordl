@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UI/HorizontalLayoutGroup.hpp"
 #include "UnityEngine/UI/zzzz__HorizontalOrVerticalLayoutGroup_impl.hpp"
 #include "UnityEngine/UI/zzzz__HorizontalLayoutGroup_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UI::HorizontalLayoutGroup._ctor

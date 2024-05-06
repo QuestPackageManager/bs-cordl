@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaInferenceException.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaException_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaInferenceException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"

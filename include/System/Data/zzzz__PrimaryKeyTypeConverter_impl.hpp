@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/PrimaryKeyTypeConverter.hpp"
 #include "System/ComponentModel/zzzz__ReferenceConverter_impl.hpp"
 #include "System/Data/zzzz__PrimaryKeyTypeConverter_def.hpp"
 #include "System/ComponentModel/zzzz__ITypeDescriptorContext_def.hpp"

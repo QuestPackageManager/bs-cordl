@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/OpenSsl/IPasswordFinder.hpp"
 #include "Org/BouncyCastle/OpenSsl/zzzz__IPasswordFinder_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::OpenSsl::IPasswordFinder.GetPassword
 template <>

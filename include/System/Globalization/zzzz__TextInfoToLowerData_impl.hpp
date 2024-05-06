@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Globalization/TextInfoToLowerData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Globalization/zzzz__TextInfoToLowerData_def.hpp"
 inline void System::Globalization::TextInfoToLowerData::setStaticF_range_00c0_0556(::ArrayW<char16_t, ::Array<char16_t>*> value) {

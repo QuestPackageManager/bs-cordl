@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/IMacFactory.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IMacFactory_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IStreamCalculator_def.hpp"
 #include "System/zzzz__Object_def.hpp"

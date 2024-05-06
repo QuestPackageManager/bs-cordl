@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HEU_BakedDataEvent.hpp"
 #include "UnityEngine/Events/zzzz__UnityEvent_1_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_BakedDataEvent_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_BakedEventData_def.hpp"

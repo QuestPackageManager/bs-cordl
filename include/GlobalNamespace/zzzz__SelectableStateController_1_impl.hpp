@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SelectableStateController_1.hpp"
 #include "GlobalNamespace/zzzz__SelectableStateController_impl.hpp"
 #include "GlobalNamespace/zzzz__SelectableStateController_1_def.hpp"
 template <typename T> constexpr T& GlobalNamespace::SelectableStateController_1<T>::__cordl_internal_get__component() {

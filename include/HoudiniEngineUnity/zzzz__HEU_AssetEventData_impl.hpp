@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HEU_AssetEventData.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_AssetEventType_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_AssetEventData_def.hpp"

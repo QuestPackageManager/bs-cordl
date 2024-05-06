@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/ScrollView.hpp"
 #include "HMUI/zzzz__ScrollView_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"

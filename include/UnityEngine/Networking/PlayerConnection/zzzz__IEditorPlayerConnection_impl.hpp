@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Networking/PlayerConnection/IEditorPlayerConnection.hpp"
 #include "UnityEngine/Networking/PlayerConnection/zzzz__IEditorPlayerConnection_def.hpp"
 #include "System/zzzz__Guid_def.hpp"
 #include "UnityEngine/Events/zzzz__UnityAction_1_def.hpp"

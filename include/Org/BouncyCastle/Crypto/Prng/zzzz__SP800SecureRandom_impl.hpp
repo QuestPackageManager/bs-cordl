@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Prng/SP800SecureRandom.hpp"
 #include "Org/BouncyCastle/Security/zzzz__SecureRandom_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Prng/zzzz__SP800SecureRandom_def.hpp"
 #include "Org/BouncyCastle/Crypto/Prng/Drbg/zzzz__ISP80090Drbg_def.hpp"

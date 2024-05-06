@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Globalization/CodePageDataItem.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Globalization/zzzz__CodePageDataItem_def.hpp"
 //  Writing Method size for method: ::System::Globalization::CodePageDataItem._ctor

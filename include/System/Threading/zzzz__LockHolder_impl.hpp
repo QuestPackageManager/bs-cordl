@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/LockHolder.hpp"
 #include "System/Threading/zzzz__LockHolder_def.hpp"
 #include "System/Threading/zzzz__Lock_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"

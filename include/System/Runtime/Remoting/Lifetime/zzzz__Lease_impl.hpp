@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/Lifetime/Lease.hpp"
 #include "System/Runtime/Remoting/Lifetime/zzzz__LeaseState_impl.hpp"
 #include "System/zzzz__DateTime_impl.hpp"
 #include "System/zzzz__MarshalByRefObject_impl.hpp"

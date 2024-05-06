@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/LocalizationKeyAttribute.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "GlobalNamespace/zzzz__LocalizationKeyAttribute_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::LocalizationKeyAttribute._ctor

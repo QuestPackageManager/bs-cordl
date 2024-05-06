@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/Metadata/SoapParameterAttribute.hpp"
 #include "System/Runtime/Remoting/Metadata/zzzz__SoapAttribute_impl.hpp"
 #include "System/Runtime/Remoting/Metadata/zzzz__SoapParameterAttribute_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::Metadata::SoapParameterAttribute._ctor

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/PrefabResourceBindingFinalizer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__ProviderBindingFinalizer_impl.hpp"
 #include "Zenject/zzzz__PrefabResourceBindingFinalizer_def.hpp"

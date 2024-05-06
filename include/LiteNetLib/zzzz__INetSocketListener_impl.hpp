@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LiteNetLib/INetSocketListener.hpp"
 #include "LiteNetLib/zzzz__INetSocketListener_def.hpp"
 #include "System/Net/Sockets/zzzz__SocketError_def.hpp"
 #include "System/Net/zzzz__IPEndPoint_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/Entitlements.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/zzzz__Entitlements_def.hpp"
 #include "Oculus/Platform/zzzz__Request_def.hpp"

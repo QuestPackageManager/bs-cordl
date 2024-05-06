@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Reflection/StrongNameKeyPair.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Reflection/zzzz__StrongNameKeyPair_def.hpp"
 #include "System/Runtime/Serialization/zzzz__IDeserializationCallback_def.hpp"

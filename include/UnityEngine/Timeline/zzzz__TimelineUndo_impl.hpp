@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Timeline/TimelineUndo.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__TimelineUndo_def.hpp"
 #include "UnityEngine/Timeline/zzzz__TimelineAsset_def.hpp"

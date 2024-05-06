@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/ToggleWithCallbacks.hpp"
 #include "UnityEngine/UI/zzzz__Toggle_impl.hpp"
 #include "HMUI/zzzz__ToggleWithCallbacks_def.hpp"
 #include "HMUI/zzzz__ToggleWithCallbacks_def.hpp"

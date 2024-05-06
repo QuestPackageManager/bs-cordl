@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/KnownTerminals.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__KnownTerminals_def.hpp"
 //  Writing Method size for method: ::System::KnownTerminals.get_linux

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/DataColumn.hpp"
 #include "System/ComponentModel/zzzz__MarshalByValueComponent_impl.hpp"
 #include "System/Data/Common/zzzz__StorageType_impl.hpp"
 #include "System/Data/zzzz__DataSetDateTime_impl.hpp"

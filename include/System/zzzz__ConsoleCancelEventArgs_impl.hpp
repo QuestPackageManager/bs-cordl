@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ConsoleCancelEventArgs.hpp"
 #include "System/zzzz__ConsoleSpecialKey_impl.hpp"
 #include "System/zzzz__EventArgs_impl.hpp"
 #include "System/zzzz__ConsoleCancelEventArgs_def.hpp"

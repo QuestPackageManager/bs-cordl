@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/BinaryCompatibility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__BinaryCompatibility_def.hpp"
 //  Writing Method size for method: ::System::Xml::BinaryCompatibility.get_TargetsAtLeast_Desktop_V4_5_2

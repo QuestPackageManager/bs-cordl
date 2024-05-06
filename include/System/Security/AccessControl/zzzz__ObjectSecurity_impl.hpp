@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/AccessControl/ObjectSecurity.hpp"
 #include "System/Security/AccessControl/zzzz__AccessControlSections_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Security/AccessControl/zzzz__ObjectSecurity_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/LazyAsn1InputStream.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1InputStream_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__LazyAsn1InputStream_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DefiniteLengthInputStream_def.hpp"

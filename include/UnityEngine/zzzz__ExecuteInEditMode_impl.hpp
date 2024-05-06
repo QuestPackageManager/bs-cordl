@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ExecuteInEditMode.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/zzzz__ExecuteInEditMode_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ExecuteInEditMode._ctor

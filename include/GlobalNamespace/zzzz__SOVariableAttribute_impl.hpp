@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SOVariableAttribute.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "GlobalNamespace/zzzz__SOVariableAttribute_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SOVariableAttribute._ctor

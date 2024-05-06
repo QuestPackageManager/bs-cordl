@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/HEU_ExampleInstanceCustomAttribute.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__HEU_ExampleInstanceCustomAttribute_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_OutputAttribute_def.hpp"

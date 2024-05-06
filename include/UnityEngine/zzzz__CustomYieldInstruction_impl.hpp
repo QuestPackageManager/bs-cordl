@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/CustomYieldInstruction.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__CustomYieldInstruction_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"

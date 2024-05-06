@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/Burst/CompilerServices/AssumeRangeAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "Unity/Burst/CompilerServices/zzzz__AssumeRangeAttribute_def.hpp"
 //  Writing Method size for method: ::Unity::Burst::CompilerServices::AssumeRangeAttribute._ctor

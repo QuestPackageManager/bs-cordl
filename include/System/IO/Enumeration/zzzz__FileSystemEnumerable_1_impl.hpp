@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/IO/Enumeration/FileSystemEnumerable_1.hpp"
 #include "System/IO/Enumeration/zzzz__FileSystemEnumerator_1_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/Datatype_dateTimeNoTimeZone.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_dateTimeBase_impl.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_dateTimeNoTimeZone_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::Datatype_dateTimeNoTimeZone._ctor

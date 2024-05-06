@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/TMP_FontUtilities.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "TMPro/zzzz__TMP_FontUtilities_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"

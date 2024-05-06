@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/Common/SqlConvert.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Data/Common/zzzz__SqlConvert_def.hpp"
 #include "System/Data/Common/zzzz__StorageType_def.hpp"

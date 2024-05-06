@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Security/SslStream.hpp"
 #include "System/Net/Security/zzzz__AuthenticatedStream_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Security/zzzz__SslStream_def.hpp"

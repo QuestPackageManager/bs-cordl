@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/TMP_Glyph.hpp"
 #include "TMPro/zzzz__TMP_TextElement_Legacy_impl.hpp"
 #include "TMPro/zzzz__TMP_Glyph_def.hpp"
 //  Writing Method size for method: ::TMPro::TMP_Glyph.Clone

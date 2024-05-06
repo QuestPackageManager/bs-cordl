@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Cache/RequestCachingSectionInternal.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Cache/zzzz__RequestCachingSectionInternal_def.hpp"
 //  Writing Method size for method: ::System::Net::Cache::RequestCachingSectionInternal._ctor

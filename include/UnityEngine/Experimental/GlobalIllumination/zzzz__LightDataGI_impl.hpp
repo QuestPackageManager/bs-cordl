@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Experimental/GlobalIllumination/LightDataGI.hpp"
 #include "UnityEngine/Experimental/GlobalIllumination/zzzz__FalloffType_impl.hpp"
 #include "UnityEngine/Experimental/GlobalIllumination/zzzz__LightMode_impl.hpp"
 #include "UnityEngine/Experimental/GlobalIllumination/zzzz__LightType_impl.hpp"

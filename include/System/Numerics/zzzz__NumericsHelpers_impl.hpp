@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Numerics/NumericsHelpers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Numerics/zzzz__NumericsHelpers_def.hpp"
 //  Writing Method size for method: ::System::Numerics::NumericsHelpers.GetDoubleParts

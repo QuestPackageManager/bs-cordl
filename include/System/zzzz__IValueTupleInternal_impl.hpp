@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/IValueTupleInternal.hpp"
 #include "System/zzzz__IValueTupleInternal_def.hpp"
 #include "System/Collections/zzzz__IEqualityComparer_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ITuple_def.hpp"

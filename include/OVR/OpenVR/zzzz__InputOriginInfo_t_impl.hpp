@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/InputOriginInfo_t.hpp"
 #include "OVR/OpenVR/zzzz__InputOriginInfo_t_def.hpp"
 //  Writing Method size for method: ::OVR::OpenVR::InputOriginInfo_t.get_rchRenderModelComponentName
 template <>

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Resources/FastResourceComparer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Resources/zzzz__FastResourceComparer_def.hpp"
 #include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"

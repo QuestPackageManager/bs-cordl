@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OVRVirtualKeyboardHandInputHandler.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRVirtualKeyboardHandInputHandler_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OVRVirtualKeyboardHandInputHandler.Awake

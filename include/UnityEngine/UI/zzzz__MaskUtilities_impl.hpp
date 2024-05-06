@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UI/MaskUtilities.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UI/zzzz__MaskUtilities_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"

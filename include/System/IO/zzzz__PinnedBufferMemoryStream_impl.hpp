@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/IO/PinnedBufferMemoryStream.hpp"
 #include "System/IO/zzzz__UnmanagedMemoryStream_impl.hpp"
 #include "System/Runtime/InteropServices/zzzz__GCHandle_impl.hpp"
 #include "System/IO/zzzz__PinnedBufferMemoryStream_def.hpp"

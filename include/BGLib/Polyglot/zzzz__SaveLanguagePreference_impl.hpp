@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BGLib/Polyglot/SaveLanguagePreference.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "BGLib/Polyglot/zzzz__SaveLanguagePreference_def.hpp"
 #include "BGLib/Polyglot/zzzz__ILocalize_def.hpp"

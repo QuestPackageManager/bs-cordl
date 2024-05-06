@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/IO/TextReader_NullTextReader.hpp"
 #include "System/IO/zzzz__TextReader_impl.hpp"
 #include "System/IO/zzzz__TextReader_NullTextReader_def.hpp"
 //  Writing Method size for method: ::System::IO::__TextReader__NullTextReader._ctor

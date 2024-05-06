@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Diagnostics/TraceInternal.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Diagnostics/zzzz__TraceInternal_def.hpp"
 #include "System/Diagnostics/zzzz__TraceListenerCollection_def.hpp"

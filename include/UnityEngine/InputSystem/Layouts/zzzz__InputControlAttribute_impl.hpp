@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Layouts/InputControlAttribute.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "UnityEngine/InputSystem/Layouts/zzzz__InputControlAttribute_def.hpp"
 #include "System/zzzz__Object_def.hpp"

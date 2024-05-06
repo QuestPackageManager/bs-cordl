@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/IO/CStreamReader.hpp"
 #include "System/IO/zzzz__StreamReader_impl.hpp"
 #include "System/IO/zzzz__CStreamReader_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"

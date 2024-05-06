@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/GUIScrollGroup.hpp"
 #include "UnityEngine/zzzz__GUILayoutGroup_impl.hpp"
 #include "UnityEngine/zzzz__GUIScrollGroup_def.hpp"
 #include "UnityEngine/zzzz__GUIStyle_def.hpp"

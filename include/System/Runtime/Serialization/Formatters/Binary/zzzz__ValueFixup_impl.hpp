@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Serialization/Formatters/Binary/ValueFixup.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__ValueFixupEnum_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__ValueFixup_def.hpp"

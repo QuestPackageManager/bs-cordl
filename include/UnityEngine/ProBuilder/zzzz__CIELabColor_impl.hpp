@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ProBuilder/CIELabColor.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__CIELabColor_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__XYZColor_def.hpp"

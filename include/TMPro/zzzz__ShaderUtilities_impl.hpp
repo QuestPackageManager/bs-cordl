@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/ShaderUtilities.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "TMPro/zzzz__ShaderUtilities_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"

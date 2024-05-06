@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BloomPrePassLightsUpdateSystem.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassLightsUpdateSystem_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BloomPrePassLightsUpdateSystem.LateUpdate

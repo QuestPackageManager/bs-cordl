@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/ConcreteIdBinderNonGeneric.hpp"
 #include "Zenject/zzzz__ConcreteBinderNonGeneric_impl.hpp"
 #include "Zenject/zzzz__ConcreteIdBinderNonGeneric_def.hpp"
 #include "System/zzzz__Object_def.hpp"

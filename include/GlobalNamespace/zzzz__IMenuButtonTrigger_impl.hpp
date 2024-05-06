@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IMenuButtonTrigger.hpp"
 #include "GlobalNamespace/zzzz__IMenuButtonTrigger_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IMenuButtonTrigger.add_menuButtonTriggeredEvent

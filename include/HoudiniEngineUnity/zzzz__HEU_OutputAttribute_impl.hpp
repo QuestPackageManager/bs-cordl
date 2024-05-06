@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HEU_OutputAttribute.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_AttributeOwner_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_StorageType_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"

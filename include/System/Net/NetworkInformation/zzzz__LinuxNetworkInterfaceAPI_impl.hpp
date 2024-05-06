@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/NetworkInformation/LinuxNetworkInterfaceAPI.hpp"
 #include "System/Net/NetworkInformation/zzzz__UnixNetworkInterfaceAPI_impl.hpp"
 #include "System/Net/NetworkInformation/zzzz__LinuxNetworkInterfaceAPI_def.hpp"
 #include "System/Net/NetworkInformation/zzzz__NetworkInterface_def.hpp"

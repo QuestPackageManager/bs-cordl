@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/SpinWait.hpp"
 #include "System/Threading/zzzz__SpinWait_def.hpp"
 //  Writing Method size for method: ::System::Threading::SpinWait.get_Count
 template <>

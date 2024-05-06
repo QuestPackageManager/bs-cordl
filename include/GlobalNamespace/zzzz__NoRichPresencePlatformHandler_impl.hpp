@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/NoRichPresencePlatformHandler.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__NoRichPresencePlatformHandler_def.hpp"
 #include "GlobalNamespace/zzzz__IRichPresenceData_def.hpp"

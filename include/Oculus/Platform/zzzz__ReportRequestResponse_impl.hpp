@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/ReportRequestResponse.hpp"
 #include "Oculus/Platform/zzzz__ReportRequestResponse_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::Oculus::Platform::ReportRequestResponse::ReportRequestResponse(int32_t value__) noexcept {

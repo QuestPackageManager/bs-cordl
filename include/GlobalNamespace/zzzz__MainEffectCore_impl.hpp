@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MainEffectCore.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MainEffectCore_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MainEffectCore.SetGlobalShaderValues

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Http/Headers/Token.hpp"
 #include "System/Net/Http/Headers/zzzz__Token_impl.hpp"
 #include "System/Net/Http/Headers/zzzz__Token_def.hpp"
 #include "System/Net/Http/Headers/zzzz__Token_def.hpp"

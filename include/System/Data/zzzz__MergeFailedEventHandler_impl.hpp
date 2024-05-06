@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/MergeFailedEventHandler.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Data/zzzz__MergeFailedEventHandler_def.hpp"
 #include "System/Data/zzzz__MergeFailedEventArgs_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Cryptography/DSACryptoServiceProvider.hpp"
 #include "System/Security/Cryptography/zzzz__DSA_impl.hpp"
 #include "System/Security/Cryptography/zzzz__DSACryptoServiceProvider_def.hpp"
 #include "Mono/Security/Cryptography/zzzz__DSAManaged_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ResourceManagement/IUpdateReceiver.hpp"
 #include "UnityEngine/ResourceManagement/zzzz__IUpdateReceiver_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::IUpdateReceiver.Update
 template <>

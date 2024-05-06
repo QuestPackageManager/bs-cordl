@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/RuntimePropertyHandle.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "Mono/zzzz__RuntimePropertyHandle_def.hpp"
 #include "System/zzzz__Object_def.hpp"

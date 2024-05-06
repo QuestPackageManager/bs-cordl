@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HAPI_PDG_EventInfo.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_PDG_EventInfo_def.hpp"
 // Ctor Parameters [CppParam { name: "nodeId", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "workitemId", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
 // name: "dependencyId", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "currentState", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "lastState",

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/SceneDecoratorContext.hpp"
 #include "Zenject/zzzz__Context_impl.hpp"
 #include "Zenject/zzzz__SceneDecoratorContext_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"

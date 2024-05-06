@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/TextCore/Text/FontAssetCreationEditorSettings.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__FontAssetCreationEditorSettings_def.hpp"
 // Ctor Parameters [CppParam { name: "sourceFontFileGUID", ty: "::StringW", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "faceIndex", ty: "int32_t", modifiers: "", def_value:
 // Some("{}") }, CppParam { name: "pointSizeSamplingMode", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "pointSize", ty: "int32_t", modifiers: "", def_value: Some("{}") },

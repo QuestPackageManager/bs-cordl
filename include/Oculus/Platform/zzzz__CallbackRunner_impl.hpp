@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/CallbackRunner.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Oculus/Platform/zzzz__CallbackRunner_def.hpp"
 //  Writing Method size for method: ::Oculus::Platform::CallbackRunner.ovr_UnityResetTestPlatform

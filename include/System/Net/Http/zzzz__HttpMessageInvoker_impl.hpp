@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Http/HttpMessageInvoker.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Http/zzzz__HttpMessageInvoker_def.hpp"
 #include "System/Net/Http/zzzz__HttpMessageHandler_def.hpp"

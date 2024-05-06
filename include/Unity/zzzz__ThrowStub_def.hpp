@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/ThrowStub.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,7 +19,7 @@ namespace Unity {
 class CORDL_TYPE ThrowStub : public ::System::ObjectDisposedException {
 public:
   // Declarations
-  /// @brief Method ThrowNotSupportedException, addr 0x2da05f8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method ThrowNotSupportedException, addr 0x2f78420, size 0x1040, virtual false, abstract: false, final false
   static inline void ThrowNotSupportedException();
 
 protected:

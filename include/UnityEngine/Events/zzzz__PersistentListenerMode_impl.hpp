@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Events/PersistentListenerMode.hpp"
 #include "UnityEngine/Events/zzzz__PersistentListenerMode_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Events::PersistentListenerMode::PersistentListenerMode(int32_t value__) noexcept {

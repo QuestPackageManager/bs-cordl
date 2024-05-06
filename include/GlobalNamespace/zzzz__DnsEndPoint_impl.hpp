@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/DnsEndPoint.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__DnsEndPoint_def.hpp"
 #include "BGNet/Core/zzzz__ITaskUtility_def.hpp"

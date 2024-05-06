@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MixedLightsColorSetterRuntimeLightWithIds.hpp"
 #include "GlobalNamespace/zzzz__RuntimeLightWithIds_impl.hpp"
 #include "GlobalNamespace/zzzz__MixedLightsColorSetterRuntimeLightWithIds_def.hpp"
 #include "GlobalNamespace/zzzz__MaterialPropertyBlockColorSetter_def.hpp"

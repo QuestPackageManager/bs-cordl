@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ObsoleteAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/zzzz__ObsoleteAttribute_def.hpp"
 //  Writing Method size for method: ::System::ObsoleteAttribute._ctor

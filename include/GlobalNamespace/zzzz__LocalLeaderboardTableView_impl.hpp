@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/LocalLeaderboardTableView.hpp"
 #include "GlobalNamespace/zzzz__LeaderboardTableView_impl.hpp"
 #include "GlobalNamespace/zzzz__LocalLeaderboardTableView_def.hpp"
 #include "GlobalNamespace/zzzz__LocalLeaderboardsModel_def.hpp"

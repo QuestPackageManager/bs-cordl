@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/STAThreadAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/zzzz__STAThreadAttribute_def.hpp"
 //  Writing Method size for method: ::System::STAThreadAttribute._ctor

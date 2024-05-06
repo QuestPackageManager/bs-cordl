@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/XR/Management/XRGeneralSettings.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "UnityEngine/XR/Management/zzzz__XRGeneralSettings_def.hpp"
 #include "UnityEngine/XR/Management/zzzz__XRManagerSettings_def.hpp"

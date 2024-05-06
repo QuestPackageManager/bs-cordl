@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Globalization/ISimpleCollator.hpp"
 #include "System/Globalization/zzzz__ISimpleCollator_def.hpp"
 #include "System/Globalization/zzzz__CompareOptions_def.hpp"
 #include "System/Globalization/zzzz__SortKey_def.hpp"

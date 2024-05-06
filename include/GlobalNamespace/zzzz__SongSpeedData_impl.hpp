@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SongSpeedData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__SongSpeedData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SongSpeedData._ctor

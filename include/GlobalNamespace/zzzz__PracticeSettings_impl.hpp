@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/PracticeSettings.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PracticeSettings_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PracticeSettings.get_startSongTime

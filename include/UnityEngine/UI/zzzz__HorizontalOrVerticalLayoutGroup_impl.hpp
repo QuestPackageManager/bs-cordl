@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UI/HorizontalOrVerticalLayoutGroup.hpp"
 #include "UnityEngine/UI/zzzz__LayoutGroup_impl.hpp"
 #include "UnityEngine/UI/zzzz__HorizontalOrVerticalLayoutGroup_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"

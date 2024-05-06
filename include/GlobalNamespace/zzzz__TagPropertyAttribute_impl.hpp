@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/TagPropertyAttribute.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "GlobalNamespace/zzzz__TagPropertyAttribute_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::TagPropertyAttribute._ctor

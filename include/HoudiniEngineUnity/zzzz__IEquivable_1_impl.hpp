@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/IEquivable_1.hpp"
 #include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
 template <typename T> inline bool HoudiniEngineUnity::IEquivable_1<T>::IsEquivalentTo(T other) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),

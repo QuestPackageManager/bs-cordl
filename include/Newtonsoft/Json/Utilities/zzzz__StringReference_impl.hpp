@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/StringReference.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__StringReference_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Utilities::StringReference.get_Item
 template <>

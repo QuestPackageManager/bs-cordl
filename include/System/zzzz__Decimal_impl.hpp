@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Decimal.hpp"
 #include "System/zzzz__Decimal_def.hpp"
 #include "System/Globalization/zzzz__NumberStyles_def.hpp"
 #include "System/Runtime/Serialization/zzzz__IDeserializationCallback_def.hpp"

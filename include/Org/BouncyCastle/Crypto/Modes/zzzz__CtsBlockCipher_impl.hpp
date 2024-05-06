@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Modes/CtsBlockCipher.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__BufferedBlockCipher_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Modes/zzzz__CtsBlockCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IBlockCipher_def.hpp"

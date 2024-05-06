@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Diagnostics/TraceSwitch.hpp"
 #include "System/Diagnostics/zzzz__Switch_impl.hpp"
 #include "System/Diagnostics/zzzz__TraceSwitch_def.hpp"
 //  Writing Method size for method: ::System::Diagnostics::TraceSwitch._ctor

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/ILateDisposable.hpp"
 #include "Zenject/zzzz__ILateDisposable_def.hpp"
 //  Writing Method size for method: ::Zenject::ILateDisposable.LateDispose
 template <>

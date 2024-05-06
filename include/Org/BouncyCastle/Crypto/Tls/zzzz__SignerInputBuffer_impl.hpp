@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/SignerInputBuffer.hpp"
 #include "Org/BouncyCastle/Utilities/IO/zzzz__BaseOutputStream_impl.hpp"
 #include "System/IO/zzzz__MemoryStream_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__SignerInputBuffer_def.hpp"

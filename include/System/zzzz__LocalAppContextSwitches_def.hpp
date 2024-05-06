@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/LocalAppContextSwitches.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,19 +19,13 @@ namespace System {
 class CORDL_TYPE LocalAppContextSwitches : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field DontThrowOnInvalidSurrogatePairs, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF_DontThrowOnInvalidSurrogatePairs, put = setStaticF_DontThrowOnInvalidSurrogatePairs)) bool DontThrowOnInvalidSurrogatePairs;
+  /// @brief Field MemberDescriptorEqualsReturnsFalseIfEquivalent, offset 0xffffffff, size 0x1
+  static __declspec(property(get = getStaticF_MemberDescriptorEqualsReturnsFalseIfEquivalent,
+                             put = setStaticF_MemberDescriptorEqualsReturnsFalseIfEquivalent)) bool MemberDescriptorEqualsReturnsFalseIfEquivalent;
 
-  /// @brief Field IgnoreEmptyKeySequences, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF_IgnoreEmptyKeySequences, put = setStaticF_IgnoreEmptyKeySequences)) bool IgnoreEmptyKeySequences;
+  static inline bool getStaticF_MemberDescriptorEqualsReturnsFalseIfEquivalent();
 
-  static inline bool getStaticF_DontThrowOnInvalidSurrogatePairs();
-
-  static inline bool getStaticF_IgnoreEmptyKeySequences();
-
-  static inline void setStaticF_DontThrowOnInvalidSurrogatePairs(bool value);
-
-  static inline void setStaticF_IgnoreEmptyKeySequences(bool value);
+  static inline void setStaticF_MemberDescriptorEqualsReturnsFalseIfEquivalent(bool value);
 
 protected:
   // Ctor Parameters []

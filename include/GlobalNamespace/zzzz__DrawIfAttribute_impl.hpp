@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/DrawIfAttribute.hpp"
 #include "GlobalNamespace/zzzz__DrawIfAttribute_impl.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "GlobalNamespace/zzzz__DrawIfAttribute_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ProBuilder/PickerOptions.hpp"
 #include "UnityEngine/ProBuilder/zzzz__RectSelectMode_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__PickerOptions_def.hpp"
 #include "System/zzzz__Object_def.hpp"

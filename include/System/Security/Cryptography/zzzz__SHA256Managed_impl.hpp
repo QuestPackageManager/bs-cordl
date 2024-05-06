@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Cryptography/SHA256Managed.hpp"
 #include "System/Security/Cryptography/zzzz__SHA256_impl.hpp"
 #include "System/Security/Cryptography/zzzz__SHA256Managed_def.hpp"
 //  Writing Method size for method: ::System::Security::Cryptography::SHA256Managed._ctor

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/NoTransitionToggleSelectableStateController.hpp"
 #include "GlobalNamespace/zzzz__SelectableStateController_1_impl.hpp"
 #include "GlobalNamespace/zzzz__NoTransitionToggleSelectableStateController_def.hpp"
 #include "HMUI/zzzz__NoTransitionsToggle_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OVRBoneCapsule.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRBoneCapsule_def.hpp"
 #include "UnityEngine/zzzz__CapsuleCollider_def.hpp"

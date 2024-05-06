@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/CachedReflectionInfo.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Linq/Expressions/zzzz__CachedReflectionInfo_def.hpp"
 #include "System/Reflection/zzzz__MethodInfo_def.hpp"

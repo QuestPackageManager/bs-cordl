@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/PointerOverEvent.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerEventBase_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerOverEvent_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::PointerOverEvent._ctor

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Globalization/DaylightTimeStruct.hpp"
 #include "System/zzzz__DateTime_impl.hpp"
 #include "System/zzzz__TimeSpan_impl.hpp"
 #include "System/Globalization/zzzz__DaylightTimeStruct_def.hpp"

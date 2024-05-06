@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/NetworkInformation/AixStructs/sockaddr_in.hpp"
 #include "System/Net/NetworkInformation/AixStructs/zzzz__sockaddr_in_def.hpp"
 // Ctor Parameters [CppParam { name: "sin_len", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "sin_family", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam {
 // name: "sin_port", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "sin_addr", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]

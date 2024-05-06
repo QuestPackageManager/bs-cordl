@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/MiscFacetsChecker.hpp"
 #include "System/Xml/Schema/zzzz__FacetsChecker_impl.hpp"
 #include "System/Xml/Schema/zzzz__MiscFacetsChecker_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::MiscFacetsChecker._ctor

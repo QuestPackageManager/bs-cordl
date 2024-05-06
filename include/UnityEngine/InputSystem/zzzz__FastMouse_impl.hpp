@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/FastMouse.hpp"
 #include "UnityEngine/InputSystem/zzzz__Mouse_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__FastMouse_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__AxisControl_def.hpp"

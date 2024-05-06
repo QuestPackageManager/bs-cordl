@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Serialization/XmlIgnoreAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Xml/Serialization/zzzz__XmlIgnoreAttribute_def.hpp"
 //  Writing Method size for method: ::System::Xml::Serialization::XmlIgnoreAttribute._ctor

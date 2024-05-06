@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Android/AndroidPressureSensor.hpp"
 #include "UnityEngine/InputSystem/zzzz__PressureSensor_impl.hpp"
 #include "UnityEngine/InputSystem/Android/zzzz__AndroidPressureSensor_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Android::AndroidPressureSensor._ctor

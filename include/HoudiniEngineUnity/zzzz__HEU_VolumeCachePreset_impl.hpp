@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HEU_VolumeCachePreset.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_VolumeCachePreset_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_VolumeLayerPreset_def.hpp"

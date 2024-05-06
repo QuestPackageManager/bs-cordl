@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngineInternal/Input/NativeInputUpdateType.hpp"
 #include "UnityEngineInternal/Input/zzzz__NativeInputUpdateType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngineInternal::Input::NativeInputUpdateType::NativeInputUpdateType(int32_t value__) noexcept {

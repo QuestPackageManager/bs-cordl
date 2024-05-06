@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/U2D/SpriteAtlasManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/U2D/zzzz__SpriteAtlasManager_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"

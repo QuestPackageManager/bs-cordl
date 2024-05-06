@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngineInternal/GenericStack.hpp"
 #include "System/Collections/zzzz__Stack_impl.hpp"
 #include "UnityEngineInternal/zzzz__GenericStack_def.hpp"
 //  Writing Method size for method: ::UnityEngineInternal::GenericStack._ctor

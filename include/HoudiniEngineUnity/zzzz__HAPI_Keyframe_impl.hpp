@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HAPI_Keyframe.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_Keyframe_def.hpp"
 //  Writing Method size for method: ::HoudiniEngineUnity::HAPI_Keyframe._ctor
 template <>

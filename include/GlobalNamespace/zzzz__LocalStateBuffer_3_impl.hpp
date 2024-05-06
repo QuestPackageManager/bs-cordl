@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/LocalStateBuffer_3.hpp"
 #include "GlobalNamespace/zzzz__StateBuffer_3_impl.hpp"
 #include "GlobalNamespace/zzzz__SyncStateId_impl.hpp"
 #include "GlobalNamespace/zzzz__LocalStateBuffer_3_def.hpp"

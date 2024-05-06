@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/DTSubString.hpp"
 #include "System/zzzz__DTSubStringType_impl.hpp"
 #include "System/zzzz__ReadOnlySpan_1_impl.hpp"
 #include "System/zzzz__DTSubString_def.hpp"

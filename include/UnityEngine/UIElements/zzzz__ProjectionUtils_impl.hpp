@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/ProjectionUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__ProjectionUtils_def.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_def.hpp"

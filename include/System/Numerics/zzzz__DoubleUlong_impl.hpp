@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Numerics/DoubleUlong.hpp"
 #include "System/Numerics/zzzz__DoubleUlong_def.hpp"
 constexpr double_t& System::Numerics::DoubleUlong::__cordl_internal_get_dbl() {
   return this->___dbl;

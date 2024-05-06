@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/DesEdeParameters.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__DesParameters_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__DesEdeParameters_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Parameters::DesEdeParameters.FixKey

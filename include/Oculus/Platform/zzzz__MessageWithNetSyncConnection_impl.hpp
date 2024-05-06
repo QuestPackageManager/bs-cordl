@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/MessageWithNetSyncConnection.hpp"
 #include "Oculus/Platform/zzzz__Message_1_impl.hpp"
 #include "Oculus/Platform/zzzz__MessageWithNetSyncConnection_def.hpp"
 #include "Oculus/Platform/Models/zzzz__NetSyncConnection_def.hpp"

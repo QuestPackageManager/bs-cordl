@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/AssemblyLoadEventHandler.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__AssemblyLoadEventHandler_def.hpp"
 #include "System/zzzz__AssemblyLoadEventArgs_def.hpp"

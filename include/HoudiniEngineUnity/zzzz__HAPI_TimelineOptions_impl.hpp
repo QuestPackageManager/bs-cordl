@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HAPI_TimelineOptions.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_TimelineOptions_def.hpp"
 // Ctor Parameters [CppParam { name: "fps", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "startTime", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
 // "endTime", ty: "float_t", modifiers: "", def_value: Some("{}") }]

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Globalization/CalendarId.hpp"
 #include "System/Globalization/zzzz__CalendarId_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "uint16_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Globalization::CalendarId::CalendarId(uint16_t value__) noexcept {

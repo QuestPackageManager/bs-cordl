@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Configuration/IgnoreSection.hpp"
 #include "System/Configuration/zzzz__ConfigurationSection_impl.hpp"
 #include "System/Configuration/zzzz__IgnoreSection_def.hpp"
 #include "System/Configuration/zzzz__ConfigurationElement_def.hpp"

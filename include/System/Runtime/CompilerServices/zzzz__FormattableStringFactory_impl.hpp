@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/CompilerServices/FormattableStringFactory.hpp"
 #include "System/zzzz__FormattableString_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__FormattableStringFactory_def.hpp"

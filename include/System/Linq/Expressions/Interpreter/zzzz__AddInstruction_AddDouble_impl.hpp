@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/AddInstruction_AddDouble.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__AddInstruction_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__AddInstruction_AddDouble_def.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__InterpretedFrame_def.hpp"

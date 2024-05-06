@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UI/IMaterialModifier.hpp"
 #include "UnityEngine/UI/zzzz__IMaterialModifier_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UI::IMaterialModifier.GetModifiedMaterial

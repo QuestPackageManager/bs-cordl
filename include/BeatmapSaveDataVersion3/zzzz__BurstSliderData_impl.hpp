@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatmapSaveDataVersion3/BurstSliderData.hpp"
 #include "BeatmapSaveDataVersion3/zzzz__BaseSliderData_impl.hpp"
 #include "BeatmapSaveDataVersion3/zzzz__BurstSliderData_def.hpp"
 #include "BeatmapSaveDataCommon/zzzz__NoteColorType_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OVRSceneObjectTransformType.hpp"
 #include "GlobalNamespace/zzzz__OVRSceneObjectTransformType_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRSceneObjectTransformType_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/AutoIncrementValue.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Data/zzzz__AutoIncrementValue_def.hpp"
 #include "System/zzzz__IFormatProvider_def.hpp"

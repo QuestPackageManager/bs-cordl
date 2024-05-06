@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/PropertyCollection.hpp"
 #include "System/Collections/zzzz__Hashtable_impl.hpp"
 #include "System/Data/zzzz__PropertyCollection_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"

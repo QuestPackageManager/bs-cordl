@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ProBuilder/MeshOperations/MeshValidation.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__Triangle_impl.hpp"
 #include "UnityEngine/ProBuilder/MeshOperations/zzzz__MeshValidation_def.hpp"

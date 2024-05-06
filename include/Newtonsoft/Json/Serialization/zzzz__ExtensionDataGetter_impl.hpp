@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/ExtensionDataGetter.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__ExtensionDataGetter_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"

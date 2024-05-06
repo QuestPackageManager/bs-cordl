@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/TMP_Compatibility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "TMPro/zzzz__TMP_Compatibility_def.hpp"
 #include "TMPro/zzzz__TMP_Compatibility_def.hpp"

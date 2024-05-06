@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/XR/Haptics/HapticState.hpp"
 #include "UnityEngine/InputSystem/XR/Haptics/zzzz__HapticState_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::XR::Haptics::HapticState._ctor
 template <>

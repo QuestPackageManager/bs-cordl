@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/GameObjectCreationParameters.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"

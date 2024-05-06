@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Collections/Generic/KeyValuePair.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_def.hpp"
 #include "System/zzzz__Object_def.hpp"

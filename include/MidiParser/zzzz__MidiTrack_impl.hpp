@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "MidiParser/MidiTrack.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "MidiParser/zzzz__MidiTrack_def.hpp"
 #include "MidiParser/zzzz__MidiEvent_def.hpp"

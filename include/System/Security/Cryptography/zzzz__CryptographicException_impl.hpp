@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Cryptography/CryptographicException.hpp"
 #include "System/zzzz__SystemException_impl.hpp"
 #include "System/Security/Cryptography/zzzz__CryptographicException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Yoga/YogaEdge.hpp"
 #include "UnityEngine/Yoga/zzzz__YogaEdge_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Yoga::YogaEdge::YogaEdge(int32_t value__) noexcept {

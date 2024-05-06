@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Http/HttpRequestException.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "System/Net/Http/zzzz__HttpRequestException_def.hpp"
 #include "System/zzzz__Exception_def.hpp"

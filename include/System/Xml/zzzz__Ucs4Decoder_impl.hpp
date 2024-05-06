@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Ucs4Decoder.hpp"
 #include "System/Text/zzzz__Decoder_impl.hpp"
 #include "System/Xml/zzzz__Ucs4Decoder_def.hpp"
 //  Writing Method size for method: ::System::Xml::Ucs4Decoder.GetCharCount

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LIV/SDK/Unity/SDKRender.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKInputFrame_impl.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKOutputFrame_impl.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKPose_impl.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ArticulationJacobian.hpp"
 #include "UnityEngine/zzzz__ArticulationJacobian_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ArticulationJacobian._ctor

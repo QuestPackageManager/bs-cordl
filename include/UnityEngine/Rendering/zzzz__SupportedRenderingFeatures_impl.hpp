@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Rendering/SupportedRenderingFeatures.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__SupportedRenderingFeatures_impl.hpp"
 #include "UnityEngine/zzzz__LightmapBakeType_impl.hpp"

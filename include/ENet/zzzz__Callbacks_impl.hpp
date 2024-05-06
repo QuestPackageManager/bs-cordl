@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "ENet/Callbacks.hpp"
 #include "ENet/zzzz__ENetCallbacks_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "ENet/zzzz__Callbacks_def.hpp"

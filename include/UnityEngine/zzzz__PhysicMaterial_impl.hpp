@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/PhysicMaterial.hpp"
 #include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__PhysicMaterial_def.hpp"
 #include "UnityEngine/zzzz__PhysicMaterialCombine_def.hpp"

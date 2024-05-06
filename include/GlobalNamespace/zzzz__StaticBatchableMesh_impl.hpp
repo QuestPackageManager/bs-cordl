@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/StaticBatchableMesh.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__StaticBatchableMesh_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::StaticBatchableMesh._ctor

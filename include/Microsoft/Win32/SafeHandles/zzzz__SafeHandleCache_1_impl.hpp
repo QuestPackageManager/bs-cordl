@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Microsoft/Win32/SafeHandles/SafeHandleCache_1.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Microsoft/Win32/SafeHandles/zzzz__SafeHandleCache_1_def.hpp"
 #include "System/Runtime/InteropServices/zzzz__SafeHandle_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Unity/UnityTlsConversions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Unity/zzzz__UnityTlsConversions_def.hpp"
 #include "Mono/Security/Interface/zzzz__AlertDescription_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/PSSortingLayer.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__PSSortingLayer_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PSSortingLayer._ctor

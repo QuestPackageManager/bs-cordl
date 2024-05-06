@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LIV/SDK/Unity/SDKTexture.hpp"
 #include "LIV/SDK/Unity/zzzz__TEXTURE_COLOR_SPACE_impl.hpp"
 #include "LIV/SDK/Unity/zzzz__TEXTURE_DEVICE_impl.hpp"
 #include "LIV/SDK/Unity/zzzz__TEXTURE_FORMAT_impl.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/Models/NetSyncSessionsChangedNotification.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/Models/zzzz__NetSyncSessionsChangedNotification_def.hpp"
 #include "Oculus/Platform/Models/zzzz__NetSyncSessionList_def.hpp"

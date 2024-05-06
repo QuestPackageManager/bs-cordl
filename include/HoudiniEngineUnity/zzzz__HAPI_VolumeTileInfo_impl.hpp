@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HAPI_VolumeTileInfo.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_VolumeTileInfo_def.hpp"
 // Ctor Parameters [CppParam { name: "minX", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "minY", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
 // "minZ", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "isValid", ty: "bool", modifiers: "", def_value: Some("{}") }]

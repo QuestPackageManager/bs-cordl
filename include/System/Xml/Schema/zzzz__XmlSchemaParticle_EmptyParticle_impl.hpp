@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaParticle_EmptyParticle.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaParticle_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaParticle_EmptyParticle_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::__XmlSchemaParticle__EmptyParticle.get_IsEmpty

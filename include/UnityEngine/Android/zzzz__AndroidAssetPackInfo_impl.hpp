@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Android/AndroidAssetPackInfo.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Android/zzzz__AndroidAssetPackError_impl.hpp"
 #include "UnityEngine/Android/zzzz__AndroidAssetPackStatus_impl.hpp"

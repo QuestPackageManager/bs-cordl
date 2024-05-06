@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/TOPNodeTags.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__TOPNodeTags_def.hpp"
 //  Writing Method size for method: ::HoudiniEngineUnity::TOPNodeTags._ctor

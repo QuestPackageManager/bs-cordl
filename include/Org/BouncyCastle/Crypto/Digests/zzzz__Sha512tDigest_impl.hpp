@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Digests/Sha512tDigest.hpp"
 #include "Org/BouncyCastle/Crypto/Digests/zzzz__LongDigest_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Digests/zzzz__Sha512tDigest_def.hpp"
 #include "Org/BouncyCastle/Utilities/zzzz__IMemoable_def.hpp"

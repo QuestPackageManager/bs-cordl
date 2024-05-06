@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/ConstantCheck.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Linq/Expressions/zzzz__ConstantCheck_def.hpp"
 #include "System/Linq/Expressions/zzzz__AnalyzeTypeIsResult_def.hpp"

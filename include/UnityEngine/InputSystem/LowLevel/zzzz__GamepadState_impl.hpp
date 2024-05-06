@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/GamepadState.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__GamepadState_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__GamepadButton_def.hpp"

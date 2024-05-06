@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/ChameleonKey.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Schema/zzzz__ChameleonKey_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchema_def.hpp"

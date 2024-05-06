@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Libraries/HM/HMLib/VR/HapticPresetSO.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "Libraries/HM/HMLib/VR/zzzz__HapticPresetSO_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Ess/SigningCertificateV2.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Ess/zzzz__SigningCertificateV2_def.hpp"
 #include "Org/BouncyCastle/Asn1/Ess/zzzz__EssCertIDv2_def.hpp"

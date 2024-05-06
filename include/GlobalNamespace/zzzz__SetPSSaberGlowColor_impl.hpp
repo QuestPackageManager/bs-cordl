@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SetPSSaberGlowColor.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SetPSSaberGlowColor_def.hpp"
 #include "GlobalNamespace/zzzz__ColorManager_def.hpp"

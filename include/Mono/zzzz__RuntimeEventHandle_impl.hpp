@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/RuntimeEventHandle.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "Mono/zzzz__RuntimeEventHandle_def.hpp"
 #include "System/zzzz__Object_def.hpp"

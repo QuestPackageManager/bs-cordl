@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/RethrowException.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__RethrowException_def.hpp"
 //  Writing Method size for method: ::System::Linq::Expressions::Interpreter::RethrowException._ctor

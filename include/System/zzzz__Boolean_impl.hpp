@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Boolean.hpp"
 #include "System/zzzz__Boolean_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
 #include "System/zzzz__Decimal_def.hpp"

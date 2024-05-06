@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/GreaterThanInstruction_GreaterThanChar.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__GreaterThanInstruction_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__GreaterThanInstruction_GreaterThanChar_def.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__InterpretedFrame_def.hpp"

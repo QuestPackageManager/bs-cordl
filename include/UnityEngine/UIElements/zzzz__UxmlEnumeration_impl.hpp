@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/UxmlEnumeration.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlTypeRestriction_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlEnumeration_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"

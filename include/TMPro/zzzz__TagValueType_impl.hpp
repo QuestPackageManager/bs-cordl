@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/TagValueType.hpp"
 #include "TMPro/zzzz__TagValueType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::TMPro::TagValueType::TagValueType(int32_t value__) noexcept {

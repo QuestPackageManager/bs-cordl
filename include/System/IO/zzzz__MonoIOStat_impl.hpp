@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/IO/MonoIOStat.hpp"
 #include "System/IO/zzzz__FileAttributes_impl.hpp"
 #include "System/IO/zzzz__MonoIOStat_def.hpp"
 #include "System/IO/zzzz__FileAttributes_def.hpp"

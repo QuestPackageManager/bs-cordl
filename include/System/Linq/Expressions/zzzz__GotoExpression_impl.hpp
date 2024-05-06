@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/GotoExpression.hpp"
 #include "System/Linq/Expressions/zzzz__Expression_impl.hpp"
 #include "System/Linq/Expressions/zzzz__GotoExpressionKind_impl.hpp"
 #include "System/Linq/Expressions/zzzz__GotoExpression_def.hpp"

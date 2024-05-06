@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "ENet/FreeCallback.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "ENet/zzzz__FreeCallback_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"

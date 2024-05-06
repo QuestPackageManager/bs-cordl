@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/ArrayExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__ArrayExtensions_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"

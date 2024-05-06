@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Configuration/SettingsSectionInternal.hpp"
 #include "System/Net/Sockets/zzzz__IPProtectionLevel_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Configuration/zzzz__SettingsSectionInternal_def.hpp"

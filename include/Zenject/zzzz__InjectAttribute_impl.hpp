@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/InjectAttribute.hpp"
 #include "Zenject/zzzz__InjectAttributeBase_impl.hpp"
 #include "Zenject/zzzz__InjectAttribute_def.hpp"
 //  Writing Method size for method: ::Zenject::InjectAttribute._ctor

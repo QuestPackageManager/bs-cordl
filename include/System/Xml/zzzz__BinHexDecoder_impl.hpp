@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/BinHexDecoder.hpp"
 #include "System/Xml/zzzz__IncrementalReadDecoder_impl.hpp"
 #include "System/Xml/zzzz__BinHexDecoder_def.hpp"
 //  Writing Method size for method: ::System::Xml::BinHexDecoder.get_IsFull

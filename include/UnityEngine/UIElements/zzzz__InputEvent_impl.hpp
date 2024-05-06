@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/InputEvent.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__InputEvent_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::InputEvent.set_previousData

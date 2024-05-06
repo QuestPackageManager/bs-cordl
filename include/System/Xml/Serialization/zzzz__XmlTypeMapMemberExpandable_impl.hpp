@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Serialization/XmlTypeMapMemberExpandable.hpp"
 #include "System/Xml/Serialization/zzzz__XmlTypeMapMemberElement_impl.hpp"
 #include "System/Xml/Serialization/zzzz__XmlTypeMapMemberExpandable_def.hpp"
 //  Writing Method size for method: ::System::Xml::Serialization::XmlTypeMapMemberExpandable.get_FlatArrayIndex

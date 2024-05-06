@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ComponentModel/Design/CheckoutException.hpp"
 #include "System/Runtime/InteropServices/zzzz__ExternalException_impl.hpp"
 #include "System/ComponentModel/Design/zzzz__CheckoutException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"

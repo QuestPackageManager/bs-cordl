@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/AlignmentUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__AlignmentUtils_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::AlignmentUtils.RoundToPixelGrid

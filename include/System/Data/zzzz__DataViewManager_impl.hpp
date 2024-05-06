@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/DataViewManager.hpp"
 #include "System/ComponentModel/zzzz__MarshalByValueComponent_impl.hpp"
 #include "System/Data/zzzz__DataViewManager_def.hpp"
 #include "System/Data/zzzz__DataViewSettingCollection_def.hpp"

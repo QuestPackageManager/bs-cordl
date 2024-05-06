@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UI/IVertexModifier.hpp"
 #include "UnityEngine/UI/zzzz__IVertexModifier_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/zzzz__UIVertex_def.hpp"

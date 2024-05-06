@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/DualShock/DualShockSupport.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/DualShock/zzzz__DualShockSupport_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::DualShock::DualShockSupport.Initialize

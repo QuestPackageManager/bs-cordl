@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SteamNetworkPlayerModel.hpp"
 #include "GlobalNamespace/zzzz__PlatformNetworkPlayerModel_impl.hpp"
 #include "GlobalNamespace/zzzz__SteamNetworkPlayerModel_def.hpp"
 #include "GlobalNamespace/zzzz__INetworkPlayerModel_def.hpp"

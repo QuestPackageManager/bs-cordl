@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/Profiling/LowLevel/MarkerFlags.hpp"
 #include "Unity/Profiling/LowLevel/zzzz__MarkerFlags_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "uint16_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::Unity::Profiling::LowLevel::MarkerFlags::MarkerFlags(uint16_t value__) noexcept {

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Timeline/TrackAssetExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__TrackAssetExtensions_def.hpp"
 #include "UnityEngine/Timeline/zzzz__GroupTrack_def.hpp"

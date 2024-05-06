@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/Burst/NoAliasAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "Unity/Burst/zzzz__NoAliasAttribute_def.hpp"
 //  Writing Method size for method: ::Unity::Burst::NoAliasAttribute._ctor

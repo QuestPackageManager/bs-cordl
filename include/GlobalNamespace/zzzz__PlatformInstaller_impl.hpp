@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/PlatformInstaller.hpp"
 #include "Zenject/zzzz__Installer_3_impl.hpp"
 #include "GlobalNamespace/zzzz__PlatformInstaller_def.hpp"
 #include "GlobalNamespace/zzzz__AppInitSetupData_def.hpp"

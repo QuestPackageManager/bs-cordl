@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "VRUIControls/MouseButtonEventData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_impl.hpp"
 #include "VRUIControls/zzzz__MouseButtonEventData_def.hpp"

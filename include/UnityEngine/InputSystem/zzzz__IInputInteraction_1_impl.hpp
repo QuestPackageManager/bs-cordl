@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/IInputInteraction_1.hpp"
 #include "UnityEngine/InputSystem/zzzz__IInputInteraction_1_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__IInputInteraction_def.hpp"
 /// @brief Convert operator to "::UnityEngine::InputSystem::IInputInteraction"

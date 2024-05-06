@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/X509/Store/X509StoreException.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "Org/BouncyCastle/X509/Store/zzzz__X509StoreException_def.hpp"
 #include "System/zzzz__Exception_def.hpp"

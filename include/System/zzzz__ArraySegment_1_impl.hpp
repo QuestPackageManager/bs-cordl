@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ArraySegment_1.hpp"
 #include "System/zzzz__ArraySegment_1_def.hpp"
 #include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"

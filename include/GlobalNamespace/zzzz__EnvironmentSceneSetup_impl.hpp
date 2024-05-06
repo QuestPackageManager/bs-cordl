@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/EnvironmentSceneSetup.hpp"
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentSceneSetup_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentSceneSetupData_def.hpp"

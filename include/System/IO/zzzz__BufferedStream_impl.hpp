@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/IO/BufferedStream.hpp"
 #include "System/IO/zzzz__Stream_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncValueTaskMethodBuilder_1_impl.hpp"

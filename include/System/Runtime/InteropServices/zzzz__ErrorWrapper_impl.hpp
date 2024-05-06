@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/InteropServices/ErrorWrapper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/InteropServices/zzzz__ErrorWrapper_def.hpp"
 constexpr int32_t& System::Runtime::InteropServices::ErrorWrapper::__cordl_internal_get_m_ErrorCode() {

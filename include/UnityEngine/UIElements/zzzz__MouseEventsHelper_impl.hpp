@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/MouseEventsHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__MouseEventsHelper_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IMouseEvent_def.hpp"

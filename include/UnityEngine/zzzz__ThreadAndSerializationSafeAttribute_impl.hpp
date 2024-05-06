@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ThreadAndSerializationSafeAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/zzzz__ThreadAndSerializationSafeAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ThreadAndSerializationSafeAttribute._ctor

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UI/IGraphicEnabledDisabled.hpp"
 #include "UnityEngine/UI/zzzz__IGraphicEnabledDisabled_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UI::IGraphicEnabledDisabled.OnSiblingGraphicEnabledDisabled
 template <>

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ICloneable.hpp"
 #include "System/zzzz__ICloneable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::ICloneable.Clone

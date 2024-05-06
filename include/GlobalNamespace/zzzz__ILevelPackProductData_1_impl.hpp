@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ILevelPackProductData_1.hpp"
 #include "GlobalNamespace/zzzz__ILevelPackProductData_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 template <typename TLevelProductData> inline ::StringW GlobalNamespace::ILevelPackProductData_1<TLevelProductData>::get_levelPackId() {

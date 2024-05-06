@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IFileStorage.hpp"
 #include "GlobalNamespace/zzzz__IFileStorage_def.hpp"
 #include "GlobalNamespace/zzzz__StoragePreference_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/Tasks/ContinuationTaskFromResultTask_1.hpp"
 #include "System/Threading/Tasks/zzzz__Task_impl.hpp"
 #include "System/Threading/Tasks/zzzz__ContinuationTaskFromResultTask_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__InternalTaskOptions_def.hpp"

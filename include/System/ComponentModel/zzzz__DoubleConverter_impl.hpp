@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ComponentModel/DoubleConverter.hpp"
 #include "System/ComponentModel/zzzz__BaseNumberConverter_impl.hpp"
 #include "System/ComponentModel/zzzz__DoubleConverter_def.hpp"
 #include "System/Globalization/zzzz__NumberFormatInfo_def.hpp"

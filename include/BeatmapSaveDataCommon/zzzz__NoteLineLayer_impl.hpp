@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatmapSaveDataCommon/NoteLineLayer.hpp"
 #include "BeatmapSaveDataCommon/zzzz__NoteLineLayer_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::BeatmapSaveDataCommon::NoteLineLayer::NoteLineLayer(int32_t value__) noexcept {

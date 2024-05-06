@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/XmlUnspecifiedAttribute.hpp"
 #include "System/Xml/zzzz__XmlAttribute_impl.hpp"
 #include "System/Xml/zzzz__XmlUnspecifiedAttribute_def.hpp"
 #include "System/Xml/zzzz__XmlDocument_def.hpp"

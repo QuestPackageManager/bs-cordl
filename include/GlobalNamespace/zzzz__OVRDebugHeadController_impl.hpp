@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OVRDebugHeadController.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRDebugHeadController_def.hpp"
 #include "GlobalNamespace/zzzz__OVRCameraRig_def.hpp"

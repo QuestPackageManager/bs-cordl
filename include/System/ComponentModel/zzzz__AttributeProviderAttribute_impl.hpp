@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ComponentModel/AttributeProviderAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/ComponentModel/zzzz__AttributeProviderAttribute_def.hpp"
 //  Writing Method size for method: ::System::ComponentModel::AttributeProviderAttribute.get_TypeName

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/IXmlNamespaceResolver.hpp"
 #include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
 #include "System/Collections/Generic/zzzz__IDictionary_2_def.hpp"
 #include "System/Xml/zzzz__XmlNamespaceScope_def.hpp"

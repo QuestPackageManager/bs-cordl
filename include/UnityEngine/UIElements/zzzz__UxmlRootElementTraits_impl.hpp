@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/UxmlRootElementTraits.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlTraits_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlRootElementTraits_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlStringAttributeDescription_def.hpp"

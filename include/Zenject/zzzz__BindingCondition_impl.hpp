@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/BindingCondition.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "Zenject/zzzz__BindingCondition_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"

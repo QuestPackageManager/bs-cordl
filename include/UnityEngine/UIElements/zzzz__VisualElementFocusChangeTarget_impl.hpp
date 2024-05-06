@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/VisualElementFocusChangeTarget.hpp"
 #include "UnityEngine/UIElements/zzzz__FocusChangeDirection_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElementFocusChangeTarget_def.hpp"
 #include "UnityEngine/UIElements/zzzz__FocusController_def.hpp"

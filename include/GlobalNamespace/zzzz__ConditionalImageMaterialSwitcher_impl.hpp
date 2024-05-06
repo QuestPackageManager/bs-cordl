@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ConditionalImageMaterialSwitcher.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ConditionalImageMaterialSwitcher_def.hpp"
 #include "GlobalNamespace/zzzz__BoolSO_def.hpp"

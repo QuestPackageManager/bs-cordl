@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/SliderState.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__SliderState_def.hpp"
 //  Writing Method size for method: ::UnityEngine::SliderState._ctor

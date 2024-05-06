@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LufsMetering/AudioJobHelpers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "LufsMetering/zzzz__AudioJobHelpers_def.hpp"
 #include "LufsMetering/zzzz__FilterCoefficients_def.hpp"

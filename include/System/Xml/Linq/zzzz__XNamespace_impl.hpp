@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Linq/XNamespace.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Linq/zzzz__XNamespace_def.hpp"
 #include "System/Xml/Linq/zzzz__XHashtable_1_def.hpp"

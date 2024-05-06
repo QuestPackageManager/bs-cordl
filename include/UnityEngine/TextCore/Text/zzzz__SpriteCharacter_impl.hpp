@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/TextCore/Text/SpriteCharacter.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextElement_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__SpriteCharacter_def.hpp"
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::SpriteCharacter.get_name

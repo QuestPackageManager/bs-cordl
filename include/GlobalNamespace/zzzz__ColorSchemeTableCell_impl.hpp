@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ColorSchemeTableCell.hpp"
 #include "HMUI/zzzz__TableCell_impl.hpp"
 #include "GlobalNamespace/zzzz__ColorSchemeTableCell_def.hpp"
 #include "GlobalNamespace/zzzz__ColorSchemeView_def.hpp"

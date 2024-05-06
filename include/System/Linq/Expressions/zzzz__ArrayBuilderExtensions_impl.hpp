@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/ArrayBuilderExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Linq/Expressions/zzzz__ArrayBuilderExtensions_def.hpp"
 #include "System/Collections/Generic/zzzz__ArrayBuilder_1_def.hpp"

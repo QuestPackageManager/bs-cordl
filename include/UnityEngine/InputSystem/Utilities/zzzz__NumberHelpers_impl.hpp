@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/NumberHelpers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__NumberHelpers_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Utilities::NumberHelpers.AlignToMultipleOf

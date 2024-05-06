@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/DropdownWithTableView.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__DropdownWithTableView_def.hpp"
 #include "HMUI/zzzz__ModalView_def.hpp"

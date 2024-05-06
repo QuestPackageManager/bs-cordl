@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UI/SpriteState.hpp"
 #include "UnityEngine/UI/zzzz__SpriteState_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/KeyboardBinder.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "HMUI/zzzz__KeyboardBinder_def.hpp"
 #include "HMUI/zzzz__KeyboardBinder_def.hpp"

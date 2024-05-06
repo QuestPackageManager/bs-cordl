@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/ElementUnderPointer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__ElementUnderPointer_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ContextType_def.hpp"

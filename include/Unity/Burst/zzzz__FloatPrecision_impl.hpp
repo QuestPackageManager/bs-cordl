@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/Burst/FloatPrecision.hpp"
 #include "Unity/Burst/zzzz__FloatPrecision_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::Unity::Burst::FloatPrecision::FloatPrecision(int32_t value__) noexcept {

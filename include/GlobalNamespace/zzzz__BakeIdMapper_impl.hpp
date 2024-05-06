@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BakeIdMapper.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BakeIdMapper_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BakeIdMapper._ctor

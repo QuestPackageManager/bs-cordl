@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HEU_NodeSync.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_BaseSync_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_NodeSync_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_SessionBase_def.hpp"

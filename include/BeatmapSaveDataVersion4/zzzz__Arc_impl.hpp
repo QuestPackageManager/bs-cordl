@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatmapSaveDataVersion4/Arc.hpp"
 #include "BeatmapSaveDataCommon/zzzz__SliderMidAnchorMode_impl.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__Arc_def.hpp"
 #include "BeatmapSaveDataCommon/zzzz__SliderMidAnchorMode_def.hpp"

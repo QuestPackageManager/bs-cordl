@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/AllElementsContentValidator.hpp"
 #include "System/Xml/Schema/zzzz__ContentValidator_impl.hpp"
 #include "System/Xml/Schema/zzzz__AllElementsContentValidator_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"

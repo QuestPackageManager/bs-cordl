@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/XmlRawWriterBase64Encoder.hpp"
 #include "System/Xml/zzzz__Base64Encoder_impl.hpp"
 #include "System/Xml/zzzz__XmlRawWriterBase64Encoder_def.hpp"
 #include "System/Xml/zzzz__XmlRawWriter_def.hpp"

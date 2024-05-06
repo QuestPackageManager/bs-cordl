@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/RestrictionFacets.hpp"
 #include "System/Xml/Schema/zzzz__RestrictionFlags_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaWhiteSpace_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"

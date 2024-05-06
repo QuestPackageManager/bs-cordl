@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HEU_ObjectInstanceInfo.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_ObjectInstanceInfo_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_InstancedInput_def.hpp"

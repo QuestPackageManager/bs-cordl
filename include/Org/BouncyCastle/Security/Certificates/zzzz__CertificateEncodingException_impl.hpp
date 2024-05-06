@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Security/Certificates/CertificateEncodingException.hpp"
 #include "Org/BouncyCastle/Security/Certificates/zzzz__CertificateException_impl.hpp"
 #include "Org/BouncyCastle/Security/Certificates/zzzz__CertificateEncodingException_def.hpp"
 #include "System/zzzz__Exception_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OVRProfilerScope.hpp"
 #include "GlobalNamespace/zzzz__OVRProfilerScope_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OVRProfilerScope._ctor

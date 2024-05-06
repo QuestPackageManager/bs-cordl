@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MultiplayerResultsPyramidView.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerResultsPyramidView_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"

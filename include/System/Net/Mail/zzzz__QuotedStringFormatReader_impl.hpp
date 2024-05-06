@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Mail/QuotedStringFormatReader.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Mail/zzzz__QuotedStringFormatReader_def.hpp"
 //  Writing Method size for method: ::System::Net::Mail::QuotedStringFormatReader.ReadReverseQuoted

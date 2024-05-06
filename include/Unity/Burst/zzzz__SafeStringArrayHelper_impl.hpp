@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/Burst/SafeStringArrayHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Burst/zzzz__SafeStringArrayHelper_def.hpp"
 //  Writing Method size for method: ::Unity::Burst::SafeStringArrayHelper.SerialiseStringArraySafe

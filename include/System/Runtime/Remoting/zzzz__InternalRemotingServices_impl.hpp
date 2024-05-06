@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/InternalRemotingServices.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Remoting/zzzz__InternalRemotingServices_def.hpp"
 #include "System/Collections/zzzz__Hashtable_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Cms/TimeStampedDataParser.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__TimeStampedDataParser_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__Evidence_def.hpp"

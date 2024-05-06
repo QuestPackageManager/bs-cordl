@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/XR/XRSupport.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/XR/zzzz__XRSupport_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::XR::XRSupport.Initialize

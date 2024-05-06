@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/IPoolable.hpp"
 #include "Zenject/zzzz__IPoolable_def.hpp"
 //  Writing Method size for method: ::Zenject::IPoolable.OnDespawned
 template <>

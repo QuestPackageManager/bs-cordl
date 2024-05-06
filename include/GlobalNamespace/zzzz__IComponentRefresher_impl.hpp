@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IComponentRefresher.hpp"
 #include "GlobalNamespace/zzzz__IComponentRefresher_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IComponentRefresher.__Refresh
 template <>

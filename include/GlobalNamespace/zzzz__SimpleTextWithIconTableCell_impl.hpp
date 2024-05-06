@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SimpleTextWithIconTableCell.hpp"
 #include "HMUI/zzzz__TableCell_impl.hpp"
 #include "GlobalNamespace/zzzz__SimpleTextWithIconTableCell_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"

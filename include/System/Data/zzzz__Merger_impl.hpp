@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/Merger.hpp"
 #include "System/Data/zzzz__MissingSchemaAction_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Data/zzzz__Merger_def.hpp"

@@ -1,21 +1,41 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/_PrivateImplementationDetails_.hpp"
+#include "GlobalNamespace/zzzz___PrivateImplementationDetails__impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz___PrivateImplementationDetails__def.hpp"
-inline void GlobalNamespace::_PrivateImplementationDetails_::setStaticF_1D8EE5DD0A2536B5ABB8D369F6CAAB05B62A56201972EEE21AAC47EE5191257F(int64_t value) {
-  ::cordl_internals::setStaticField<int64_t, "1D8EE5DD0A2536B5ABB8D369F6CAAB05B62A56201972EEE21AAC47EE5191257F",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::_PrivateImplementationDetails_*>::get>(std::forward<int64_t>(value));
+#include "GlobalNamespace/zzzz___PrivateImplementationDetails__def.hpp"
+// Ctor Parameters []
+constexpr ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 127 ::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 127() {}
+//  Writing Method size for method: ::GlobalNamespace::_PrivateImplementationDetails_.ComputeStringHash
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::StringW)>(&::GlobalNamespace::_PrivateImplementationDetails_::ComputeStringHash)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x2d6da9c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::_PrivateImplementationDetails_*>::get(), "ComputeStringHash",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+    return ___internal_method;
+  }
+};
+inline void GlobalNamespace::_PrivateImplementationDetails_::setStaticF_1D59178A3E2B293760F6FE72820F96FEC4071964A5B9E4BB13F7EA51510A4729(
+    ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 127 value) {
+  ::cordl_internals::setStaticField<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 127, "1D59178A3E2B293760F6FE72820F96FEC4071964A5B9E4BB13F7EA51510A4729",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::_PrivateImplementationDetails_*>::get>(
+      std::forward<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 127>(value));
 }
-inline int64_t GlobalNamespace::_PrivateImplementationDetails_::getStaticF_1D8EE5DD0A2536B5ABB8D369F6CAAB05B62A56201972EEE21AAC47EE5191257F() {
-  return ::cordl_internals::getStaticField<int64_t, "1D8EE5DD0A2536B5ABB8D369F6CAAB05B62A56201972EEE21AAC47EE5191257F",
+inline ::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize =
+    127 GlobalNamespace::_PrivateImplementationDetails_::getStaticF_1D59178A3E2B293760F6FE72820F96FEC4071964A5B9E4BB13F7EA51510A4729() {
+  return ::cordl_internals::getStaticField<::GlobalNamespace::___PrivateImplementationDetails_____StaticArrayInitTypeSize = 127, "1D59178A3E2B293760F6FE72820F96FEC4071964A5B9E4BB13F7EA51510A4729",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::_PrivateImplementationDetails_*>::get>();
 }
-inline void GlobalNamespace::_PrivateImplementationDetails_::setStaticF_F5397012DCA333BF243C6AAB47AA9D0FD58EFF88D1589545161773E7420D2F67(int64_t value) {
-  ::cordl_internals::setStaticField<int64_t, "F5397012DCA333BF243C6AAB47AA9D0FD58EFF88D1589545161773E7420D2F67",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::_PrivateImplementationDetails_*>::get>(std::forward<int64_t>(value));
-}
-inline int64_t GlobalNamespace::_PrivateImplementationDetails_::getStaticF_F5397012DCA333BF243C6AAB47AA9D0FD58EFF88D1589545161773E7420D2F67() {
-  return ::cordl_internals::getStaticField<int64_t, "F5397012DCA333BF243C6AAB47AA9D0FD58EFF88D1589545161773E7420D2F67",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::_PrivateImplementationDetails_*>::get>();
+inline uint32_t GlobalNamespace::_PrivateImplementationDetails_::ComputeStringHash(::StringW s) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::_PrivateImplementationDetails_*>::get(), "ComputeStringHash",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<uint32_t, false>(nullptr, ___internal_method, s);
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::_PrivateImplementationDetails_::_PrivateImplementationDetails_() {}

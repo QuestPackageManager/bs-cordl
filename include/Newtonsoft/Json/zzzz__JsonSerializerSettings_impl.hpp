@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/JsonSerializerSettings.hpp"
 #include "Newtonsoft/Json/zzzz__ConstructorHandling_impl.hpp"
 #include "Newtonsoft/Json/zzzz__DateFormatHandling_impl.hpp"
 #include "Newtonsoft/Json/zzzz__DateParseHandling_impl.hpp"

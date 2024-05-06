@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Reflection/RuntimeParameterInfo.hpp"
 #include "System/Reflection/zzzz__ParameterInfo_impl.hpp"
 #include "System/Reflection/zzzz__RuntimeParameterInfo_def.hpp"
 #include "System/Reflection/zzzz__CallingConventions_def.hpp"

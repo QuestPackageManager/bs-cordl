@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/LeafRangeNode.hpp"
 #include "System/Xml/Schema/zzzz__LeafNode_impl.hpp"
 #include "System/zzzz__Decimal_impl.hpp"
 #include "System/Xml/Schema/zzzz__LeafRangeNode_def.hpp"

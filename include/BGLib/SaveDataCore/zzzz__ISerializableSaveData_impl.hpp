@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BGLib/SaveDataCore/ISerializableSaveData.hpp"
 #include "BGLib/SaveDataCore/zzzz__ISerializableSaveData_def.hpp"
 //  Writing Method size for method: ::BGLib::SaveDataCore::ISerializableSaveData.get_isDirty
 template <>

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ISliderDidFinishJumpEvent.hpp"
 #include "GlobalNamespace/zzzz__ISliderDidFinishJumpEvent_def.hpp"
 #include "GlobalNamespace/zzzz__SliderController_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ISliderDidFinishJumpEvent.HandleSliderDidFinishJump

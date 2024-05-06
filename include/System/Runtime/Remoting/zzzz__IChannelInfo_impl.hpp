@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/IChannelInfo.hpp"
 #include "System/Runtime/Remoting/zzzz__IChannelInfo_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::IChannelInfo.get_ChannelData

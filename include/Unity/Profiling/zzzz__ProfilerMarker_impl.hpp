@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/Profiling/ProfilerMarker.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"

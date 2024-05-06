@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Diagnostics/StackTraceHiddenAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Diagnostics/zzzz__StackTraceHiddenAttribute_def.hpp"
 //  Writing Method size for method: ::System::Diagnostics::StackTraceHiddenAttribute._ctor

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Versioning/BinaryCompatibility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Versioning/zzzz__BinaryCompatibility_def.hpp"
 inline void System::Runtime::Versioning::BinaryCompatibility::setStaticF_TargetsAtLeast_Desktop_V4_5(bool value) {

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/CachingEventHandler.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Xml/zzzz__CachingEventHandler_def.hpp"
 #include "System/Xml/zzzz__XsdCachingReader_def.hpp"

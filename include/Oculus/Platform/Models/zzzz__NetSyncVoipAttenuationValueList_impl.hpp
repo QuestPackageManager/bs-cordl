@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/Models/NetSyncVoipAttenuationValueList.hpp"
 #include "Oculus/Platform/Models/zzzz__DeserializableList_1_impl.hpp"
 #include "Oculus/Platform/Models/zzzz__NetSyncVoipAttenuationValueList_def.hpp"
 #include "Oculus/Platform/Models/zzzz__NetSyncVoipAttenuationValue_def.hpp"

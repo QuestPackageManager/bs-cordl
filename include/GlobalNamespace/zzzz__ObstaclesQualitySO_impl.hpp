@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ObstaclesQualitySO.hpp"
 #include "BeatSaber/PerformancePresets/zzzz__ObstaclesQuality_impl.hpp"
 #include "GlobalNamespace/zzzz__ObservableVariableSO_1_impl.hpp"
 #include "GlobalNamespace/zzzz__ObstaclesQualitySO_def.hpp"

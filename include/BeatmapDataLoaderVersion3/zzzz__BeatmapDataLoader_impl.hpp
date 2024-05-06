@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatmapDataLoaderVersion3/BeatmapDataLoader.hpp"
 #include "BeatmapDataLoaderVersion3/zzzz__BeatmapDataLoader_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficulty_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"

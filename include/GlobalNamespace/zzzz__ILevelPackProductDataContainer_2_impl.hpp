@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ILevelPackProductDataContainer_2.hpp"
 #include "GlobalNamespace/zzzz__ILevelPackProductDataContainer_2_def.hpp"
 template <typename TLevelPackProductData, typename TLevelProductData>
 inline TLevelPackProductData GlobalNamespace::ILevelPackProductDataContainer_2<TLevelPackProductData, TLevelProductData>::get_levelPackProductData() {

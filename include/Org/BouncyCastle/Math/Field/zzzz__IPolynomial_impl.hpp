@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Math/Field/IPolynomial.hpp"
 #include "Org/BouncyCastle/Math/Field/zzzz__IPolynomial_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Math::Field::IPolynomial.get_Degree
 template <>

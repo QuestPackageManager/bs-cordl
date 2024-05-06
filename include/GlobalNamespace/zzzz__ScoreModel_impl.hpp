@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ScoreModel.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__ScoreModel_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapBasicData_def.hpp"

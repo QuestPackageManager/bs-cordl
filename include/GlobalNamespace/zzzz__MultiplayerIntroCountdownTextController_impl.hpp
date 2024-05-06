@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MultiplayerIntroCountdownTextController.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerIntroCountdownTextController_def.hpp"
 #include "TMPro/zzzz__TextMeshPro_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/PoolableSerializable.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PoolableSerializable_def.hpp"
 #include "GlobalNamespace/zzzz__IPoolableSerializable_def.hpp"

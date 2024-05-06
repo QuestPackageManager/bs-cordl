@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Math/EC/AbstractFpPoint.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECPointBase_impl.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__AbstractFpPoint_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECCurve_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/JsonException.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "Newtonsoft/Json/zzzz__JsonException_def.hpp"
 #include "Newtonsoft/Json/zzzz__IJsonLineInfo_def.hpp"

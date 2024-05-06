@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/BufferOffsetSize.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__BufferOffsetSize_def.hpp"
 //  Writing Method size for method: ::System::Net::BufferOffsetSize._ctor

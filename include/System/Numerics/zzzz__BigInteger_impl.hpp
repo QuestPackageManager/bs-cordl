@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Numerics/BigInteger.hpp"
 #include "System/Numerics/zzzz__BigInteger_def.hpp"
 #include "System/Globalization/zzzz__NumberStyles_def.hpp"
 #include "System/Numerics/zzzz__BigInteger_def.hpp"

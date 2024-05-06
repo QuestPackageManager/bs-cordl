@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/Mathematics/DoNotNormalizeAttribute.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "Unity/Mathematics/zzzz__DoNotNormalizeAttribute_def.hpp"
 //  Writing Method size for method: ::Unity::Mathematics::DoNotNormalizeAttribute._ctor

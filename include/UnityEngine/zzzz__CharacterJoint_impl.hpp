@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/CharacterJoint.hpp"
 #include "UnityEngine/zzzz__JointDrive_impl.hpp"
 #include "UnityEngine/zzzz__Joint_impl.hpp"
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"

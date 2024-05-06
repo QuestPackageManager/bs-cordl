@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Sockets/SocketException.hpp"
 #include "System/ComponentModel/zzzz__Win32Exception_impl.hpp"
 #include "System/Net/Sockets/zzzz__SocketException_def.hpp"
 #include "System/Net/Sockets/zzzz__SocketError_def.hpp"

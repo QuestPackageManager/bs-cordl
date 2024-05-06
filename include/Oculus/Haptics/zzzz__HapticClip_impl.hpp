@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Haptics/HapticClip.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "Oculus/Haptics/zzzz__HapticClip_def.hpp"
 //  Writing Method size for method: ::Oculus::Haptics::HapticClip._ctor

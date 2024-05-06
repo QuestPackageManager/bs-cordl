@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Math/EC/Rfc7748/X25519Field.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Math/EC/Rfc7748/zzzz__X25519Field_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Math::EC::Rfc7748::X25519Field._ctor

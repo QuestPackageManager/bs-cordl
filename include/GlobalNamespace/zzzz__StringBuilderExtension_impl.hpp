@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/StringBuilderExtension.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__StringBuilderExtension_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"

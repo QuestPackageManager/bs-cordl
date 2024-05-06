@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/Contexts/IContributeClientContextSink.hpp"
 #include "System/Runtime/Remoting/Contexts/zzzz__IContributeClientContextSink_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IMessageSink_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::Contexts::IContributeClientContextSink.GetClientContextSink

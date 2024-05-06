@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/XmlAsyncCheckWriter.hpp"
 #include "System/Xml/zzzz__XmlWriter_impl.hpp"
 #include "System/Xml/zzzz__XmlAsyncCheckWriter_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"

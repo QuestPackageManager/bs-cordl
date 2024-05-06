@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ProBuilder/ChangelogEntry.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__ChangelogEntry_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__SemVer_def.hpp"

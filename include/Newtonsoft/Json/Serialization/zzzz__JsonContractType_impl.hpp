@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/JsonContractType.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__JsonContractType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::Newtonsoft::Json::Serialization::JsonContractType::JsonContractType(int32_t value__) noexcept {

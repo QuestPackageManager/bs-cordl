@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OVRPointerVisualizer.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRPointerVisualizer_def.hpp"
 #include "UnityEngine/zzzz__LineRenderer_def.hpp"

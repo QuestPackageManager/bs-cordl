@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Haptics/HapticClipPlayer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Haptics/zzzz__HapticClipPlayer_def.hpp"
 #include "Oculus/Haptics/zzzz__Controller_def.hpp"

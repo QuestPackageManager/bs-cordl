@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/IO/DirectoryInfo.hpp"
 #include "System/IO/zzzz__FileSystemInfo_impl.hpp"
 #include "System/IO/zzzz__DirectoryInfo_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"

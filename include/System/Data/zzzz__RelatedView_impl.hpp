@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/RelatedView.hpp"
 #include "System/Data/zzzz__DataKey_impl.hpp"
 #include "System/Data/zzzz__DataView_impl.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"

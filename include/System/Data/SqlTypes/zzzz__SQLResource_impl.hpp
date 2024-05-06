@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/SqlTypes/SQLResource.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Data/SqlTypes/zzzz__SQLResource_def.hpp"
 //  Writing Method size for method: ::System::Data::SqlTypes::SQLResource.get_NullString

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/LightRotationGroup.hpp"
 #include "GlobalNamespace/zzzz__LightTransformGroup_3_impl.hpp"
 #include "GlobalNamespace/zzzz__LightRotationGroup_def.hpp"
 #include "GlobalNamespace/zzzz__LightGroupRotationXTransform_def.hpp"

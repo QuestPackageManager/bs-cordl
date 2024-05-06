@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/IPv6AddressHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__IPv6AddressHelper_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/MessageWithLeaderboardDidUpdate.hpp"
 #include "Oculus/Platform/zzzz__Message_1_impl.hpp"
 #include "Oculus/Platform/zzzz__MessageWithLeaderboardDidUpdate_def.hpp"
 //  Writing Method size for method: ::Oculus::Platform::MessageWithLeaderboardDidUpdate._ctor

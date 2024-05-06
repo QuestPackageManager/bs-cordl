@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/PS4/XR/PSVRLoader.hpp"
 #include "UnityEngine/XR/Management/zzzz__XRLoaderHelper_impl.hpp"
 #include "UnityEngine/PS4/XR/zzzz__PSVRLoader_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"

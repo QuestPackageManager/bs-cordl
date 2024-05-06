@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/DisableSpatializerOnUnsupportedPlatforms.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__DisableSpatializerOnUnsupportedPlatforms_def.hpp"
 #include "UnityEngine/zzzz__AudioSource_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BGLib/DotnetExtension/IntegerExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BGLib/DotnetExtension/zzzz__IntegerExtensions_def.hpp"
 //  Writing Method size for method: ::BGLib::DotnetExtension::IntegerExtensions.ToUInt

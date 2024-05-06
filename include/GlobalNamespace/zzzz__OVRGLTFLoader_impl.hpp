@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OVRGLTFLoader.hpp"
 #include "GlobalNamespace/zzzz__OVRBinaryChunk_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRMaterialData_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRTextureQualityFiltering_impl.hpp"

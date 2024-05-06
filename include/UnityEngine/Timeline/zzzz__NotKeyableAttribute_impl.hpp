@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Timeline/NotKeyableAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__NotKeyableAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Timeline::NotKeyableAttribute._ctor

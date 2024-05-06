@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ResolveEventArgs.hpp"
 #include "System/zzzz__EventArgs_impl.hpp"
 #include "System/zzzz__ResolveEventArgs_def.hpp"
 #include "System/Reflection/zzzz__Assembly_def.hpp"

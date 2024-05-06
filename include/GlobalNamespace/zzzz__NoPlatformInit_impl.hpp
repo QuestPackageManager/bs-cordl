@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/NoPlatformInit.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__NoPlatformInit_def.hpp"
 #include "GlobalNamespace/zzzz__IPlatformInit_def.hpp"

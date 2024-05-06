@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/IO/Enumeration/FileSystemName.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/IO/Enumeration/zzzz__FileSystemName_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"

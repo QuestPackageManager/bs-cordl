@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SpawnChevronObjectPoolsInstaller.hpp"
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__SpawnChevronObjectPoolsInstaller_def.hpp"
 #include "GlobalNamespace/zzzz__SpawnRotationChevron_def.hpp"

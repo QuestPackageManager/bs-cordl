@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/UTF16Decoder.hpp"
 #include "System/Text/zzzz__Decoder_impl.hpp"
 #include "System/Xml/zzzz__UTF16Decoder_def.hpp"
 //  Writing Method size for method: ::System::Xml::UTF16Decoder._ctor

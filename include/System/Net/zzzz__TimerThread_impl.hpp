@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/TimerThread.hpp"
 #include "System/Net/zzzz__TimerThread_impl.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"

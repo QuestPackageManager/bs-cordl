@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Mathf.hpp"
 #include "UnityEngine/zzzz__Mathf_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Mathf.IsPowerOfTwo

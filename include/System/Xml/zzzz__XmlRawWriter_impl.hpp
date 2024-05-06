@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/XmlRawWriter.hpp"
 #include "System/Xml/zzzz__XmlWriter_impl.hpp"
 #include "System/Xml/zzzz__XmlRawWriter_def.hpp"
 #include "System/Xml/zzzz__ConformanceLevel_def.hpp"

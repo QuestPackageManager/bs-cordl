@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/RoomAdjustSettingsViewController.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__RoomAdjustSettingsViewController_def.hpp"
 #include "BeatSaber/GameSettings/zzzz__MainSettingsHandler_def.hpp"

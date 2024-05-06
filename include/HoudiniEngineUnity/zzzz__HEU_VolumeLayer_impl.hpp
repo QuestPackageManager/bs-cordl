@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HEU_VolumeLayer.hpp"
 #include "HoudiniEngineUnity/zzzz__HFLayerType_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_VolumeLayer_def.hpp"

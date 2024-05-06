@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Tayx/Graphy/Utils/NumString/G_FloatString.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Tayx/Graphy/Utils/NumString/zzzz__G_FloatString_def.hpp"
 //  Writing Method size for method: ::Tayx::Graphy::Utils::NumString::G_FloatString.get_MinValue

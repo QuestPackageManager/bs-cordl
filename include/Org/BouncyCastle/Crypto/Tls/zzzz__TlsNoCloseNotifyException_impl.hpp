@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/TlsNoCloseNotifyException.hpp"
 #include "System/IO/zzzz__EndOfStreamException_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsNoCloseNotifyException_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Tls::TlsNoCloseNotifyException._ctor

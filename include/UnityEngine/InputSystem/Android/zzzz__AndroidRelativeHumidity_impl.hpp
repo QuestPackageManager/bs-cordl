@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Android/AndroidRelativeHumidity.hpp"
 #include "UnityEngine/InputSystem/zzzz__HumiditySensor_impl.hpp"
 #include "UnityEngine/InputSystem/Android/zzzz__AndroidRelativeHumidity_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Android::AndroidRelativeHumidity._ctor

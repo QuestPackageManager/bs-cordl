@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/TMP_Character.hpp"
 #include "TMPro/zzzz__TMP_TextElement_impl.hpp"
 #include "TMPro/zzzz__TMP_Character_def.hpp"
 #include "TMPro/zzzz__TMP_FontAsset_def.hpp"

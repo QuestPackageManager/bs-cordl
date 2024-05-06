@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/IExperimentalFeatures.hpp"
 #include "UnityEngine/UIElements/zzzz__IExperimentalFeatures_def.hpp"
 #include "UnityEngine/UIElements/Experimental/zzzz__ITransitionAnimations_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::IExperimentalFeatures.get_animation

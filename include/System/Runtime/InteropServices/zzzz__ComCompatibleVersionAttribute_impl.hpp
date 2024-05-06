@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/InteropServices/ComCompatibleVersionAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Runtime/InteropServices/zzzz__ComCompatibleVersionAttribute_def.hpp"
 //  Writing Method size for method: ::System::Runtime::InteropServices::ComCompatibleVersionAttribute._ctor

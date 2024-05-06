@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatSaber/BeatAvatarSDK/AvatarMeshPartSO.hpp"
 #include "BeatSaber/BeatAvatarSDK/zzzz__AvatarPartSO_1_impl.hpp"
 #include "BeatSaber/BeatAvatarSDK/zzzz__AvatarMeshPartSO_def.hpp"
 #include "UnityEngine/zzzz__Mesh_def.hpp"

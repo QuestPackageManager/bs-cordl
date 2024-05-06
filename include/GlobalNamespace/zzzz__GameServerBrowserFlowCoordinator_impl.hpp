@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/GameServerBrowserFlowCoordinator.hpp"
 #include "HMUI/zzzz__FlowCoordinator_impl.hpp"
 #include "GlobalNamespace/zzzz__GameServerBrowserFlowCoordinator_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::GameServerBrowserFlowCoordinator.DidActivate

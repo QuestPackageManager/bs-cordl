@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/FileBrowserTableCell.hpp"
 #include "HMUI/zzzz__TableCell_impl.hpp"
 #include "GlobalNamespace/zzzz__FileBrowserTableCell_def.hpp"
 #include "HMUI/zzzz__SelectableCell_def.hpp"

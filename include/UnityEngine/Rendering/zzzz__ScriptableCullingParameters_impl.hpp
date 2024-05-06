@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Rendering/ScriptableCullingParameters.hpp"
 #include "UnityEngine/Rendering/zzzz__CameraProperties_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__CullingOptions_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__LODParameters_impl.hpp"

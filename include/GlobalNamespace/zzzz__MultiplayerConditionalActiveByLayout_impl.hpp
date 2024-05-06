@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MultiplayerConditionalActiveByLayout.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerConditionalActiveByLayout_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerPlayerLayout_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"

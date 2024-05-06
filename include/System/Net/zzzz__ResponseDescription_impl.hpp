@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/ResponseDescription.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__ResponseDescription_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"

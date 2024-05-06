@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/DifficultyTableCell.hpp"
 #include "HMUI/zzzz__TableCell_impl.hpp"
 #include "GlobalNamespace/zzzz__DifficultyTableCell_def.hpp"
 #include "GlobalNamespace/zzzz__FillIndicator_def.hpp"

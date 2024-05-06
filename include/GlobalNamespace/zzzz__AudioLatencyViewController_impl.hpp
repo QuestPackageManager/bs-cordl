@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/AudioLatencyViewController.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__AudioLatencyViewController_def.hpp"
 #include "BeatSaber/GameSettings/zzzz__GraphicSettingsHandler_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/MatchResult.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__MatchResultErrorCode_impl.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__MatchResult_def.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__MatchResultErrorCode_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Collections/Generic/InternalStringComparer.hpp"
 #include "System/Collections/Generic/zzzz__EqualityComparer_1_impl.hpp"
 #include "System/Collections/Generic/zzzz__InternalStringComparer_def.hpp"
 //  Writing Method size for method: ::System::Collections::Generic::InternalStringComparer.GetHashCode

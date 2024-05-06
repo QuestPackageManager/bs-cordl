@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/TextCore/LowLevel/GlyphMarshallingStruct.hpp"
 #include "UnityEngine/TextCore/zzzz__GlyphClassDefinitionType_impl.hpp"
 #include "UnityEngine/TextCore/zzzz__GlyphMetrics_impl.hpp"
 #include "UnityEngine/TextCore/zzzz__GlyphRect_impl.hpp"

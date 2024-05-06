@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/IContractResolver.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__IContractResolver_def.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__JsonContract_def.hpp"
 #include "System/zzzz__Type_def.hpp"

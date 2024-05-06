@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/AvatarColorBehaviour.hpp"
 #include "GlobalNamespace/zzzz__EaseType_impl.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"

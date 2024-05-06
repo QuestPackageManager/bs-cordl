@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/TransitionStartEvent.hpp"
 #include "UnityEngine/UIElements/zzzz__TransitionEventBase_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TransitionStartEvent_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::TransitionStartEvent._ctor

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SelectLevelPackDestination.hpp"
 #include "GlobalNamespace/zzzz__MenuDestination_impl.hpp"
 #include "GlobalNamespace/zzzz__SelectLevelPackDestination_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelPack_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/LeaveExceptionHandlerInstruction.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__IndexedBranchInstruction_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__LeaveExceptionHandlerInstruction_def.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__InterpretedFrame_def.hpp"

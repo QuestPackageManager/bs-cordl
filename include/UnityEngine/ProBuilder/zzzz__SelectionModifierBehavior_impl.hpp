@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ProBuilder/SelectionModifierBehavior.hpp"
 #include "UnityEngine/ProBuilder/zzzz__SelectionModifierBehavior_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::ProBuilder::SelectionModifierBehavior::SelectionModifierBehavior(int32_t value__) noexcept {

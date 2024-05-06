@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UI/Navigation.hpp"
 #include "UnityEngine/UI/zzzz__Navigation_impl.hpp"
 #include "UnityEngine/UI/zzzz__Navigation_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"

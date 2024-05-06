@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ClientCertificateValidator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__ClientCertificateValidator_def.hpp"
 #include "GlobalNamespace/zzzz__DnsEndPoint_def.hpp"

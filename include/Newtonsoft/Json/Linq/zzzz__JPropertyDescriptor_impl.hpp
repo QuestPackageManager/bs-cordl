@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Linq/JPropertyDescriptor.hpp"
 #include "System/ComponentModel/zzzz__PropertyDescriptor_impl.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JPropertyDescriptor_def.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JObject_def.hpp"

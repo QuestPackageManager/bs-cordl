@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "JetBrains/Annotations/RazorWriteMethodAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "JetBrains/Annotations/zzzz__RazorWriteMethodAttribute_def.hpp"
 //  Writing Method size for method: ::JetBrains::Annotations::RazorWriteMethodAttribute._ctor

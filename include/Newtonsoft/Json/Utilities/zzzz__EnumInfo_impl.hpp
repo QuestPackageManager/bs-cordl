@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/EnumInfo.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__EnumInfo_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Utilities::EnumInfo._ctor

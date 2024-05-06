@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ProBuilder/Poly2Tri/ConstrainedPointSet.hpp"
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__PointSet_impl.hpp"
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__ConstrainedPointSet_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"

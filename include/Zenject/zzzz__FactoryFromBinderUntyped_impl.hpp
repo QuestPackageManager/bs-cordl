@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/FactoryFromBinderUntyped.hpp"
 #include "Zenject/zzzz__FactoryFromBinderBase_impl.hpp"
 #include "Zenject/zzzz__FactoryFromBinderUntyped_def.hpp"
 #include "System/zzzz__Type_def.hpp"

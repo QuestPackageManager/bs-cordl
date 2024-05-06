@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/LevelFailedText.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__LevelFailedText_def.hpp"
 #include "BGLib/Polyglot/zzzz__LocalizedTextMeshPro_def.hpp"

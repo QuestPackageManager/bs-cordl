@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Esf/CrlOcspRef.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Esf/zzzz__CrlOcspRef_def.hpp"
 #include "Org/BouncyCastle/Asn1/Esf/zzzz__CrlListID_def.hpp"

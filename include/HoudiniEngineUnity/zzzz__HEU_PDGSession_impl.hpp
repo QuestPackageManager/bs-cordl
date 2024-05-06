@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HEU_PDGSession.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_PDG_State_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_PDGSession_def.hpp"

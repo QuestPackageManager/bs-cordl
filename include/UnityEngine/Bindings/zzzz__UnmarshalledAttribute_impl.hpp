@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Bindings/UnmarshalledAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/Bindings/zzzz__UnmarshalledAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Bindings::UnmarshalledAttribute._ctor

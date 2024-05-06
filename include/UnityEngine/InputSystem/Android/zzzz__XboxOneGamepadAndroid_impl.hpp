@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Android/XboxOneGamepadAndroid.hpp"
 #include "UnityEngine/InputSystem/XInput/zzzz__XInputController_impl.hpp"
 #include "UnityEngine/InputSystem/Android/zzzz__XboxOneGamepadAndroid_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Android::XboxOneGamepadAndroid._ctor

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/TlsPskIdentity.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsPskIdentity_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity.SkipIdentityHint
 template <>

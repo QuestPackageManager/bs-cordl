@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SelectableStateController.hpp"
 #include "GlobalNamespace/zzzz__SelectableStateController_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SelectableStateController_def.hpp"

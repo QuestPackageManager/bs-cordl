@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/HelpFlowCoordinator.hpp"
 #include "HMUI/zzzz__FlowCoordinator_impl.hpp"
 #include "GlobalNamespace/zzzz__HelpFlowCoordinator_def.hpp"
 #include "GlobalNamespace/zzzz__EulaDisplayViewController_def.hpp"

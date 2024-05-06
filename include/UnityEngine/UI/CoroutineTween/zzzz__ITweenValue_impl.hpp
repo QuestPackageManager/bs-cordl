@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UI/CoroutineTween/ITweenValue.hpp"
 #include "UnityEngine/UI/CoroutineTween/zzzz__ITweenValue_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UI::CoroutineTween::ITweenValue.TweenValue
 template <>

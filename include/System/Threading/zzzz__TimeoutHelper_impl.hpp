@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/TimeoutHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/zzzz__TimeoutHelper_def.hpp"
 //  Writing Method size for method: ::System::Threading::TimeoutHelper.GetTime

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/TMP_SelectionCaret.hpp"
 #include "UnityEngine/UI/zzzz__MaskableGraphic_impl.hpp"
 #include "TMPro/zzzz__TMP_SelectionCaret_def.hpp"
 #include "UnityEngine/zzzz__Rect_def.hpp"

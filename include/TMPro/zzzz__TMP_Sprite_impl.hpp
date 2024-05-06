@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/TMP_Sprite.hpp"
 #include "TMPro/zzzz__TMP_TextElement_Legacy_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "TMPro/zzzz__TMP_Sprite_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Reflection/MemberInfoSerializationHolder.hpp"
 #include "System/Reflection/zzzz__MemberTypes_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Reflection/zzzz__MemberInfoSerializationHolder_def.hpp"

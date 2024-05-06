@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Bindings/NativeMethodAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/Bindings/zzzz__NativeMethodAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Bindings::NativeMethodAttribute.set_Name

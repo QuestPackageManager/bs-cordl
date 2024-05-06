@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/AccessControl/DiscretionaryAcl.hpp"
 #include "System/Security/AccessControl/zzzz__CommonAcl_impl.hpp"
 #include "System/Security/AccessControl/zzzz__DiscretionaryAcl_def.hpp"
 #include "System/Security/AccessControl/zzzz__AccessControlType_def.hpp"

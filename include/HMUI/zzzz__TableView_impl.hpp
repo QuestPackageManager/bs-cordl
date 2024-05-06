@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/TableView.hpp"
 #include "HMUI/zzzz__TableViewSelectionType_impl.hpp"
 #include "HMUI/zzzz__TableView_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"

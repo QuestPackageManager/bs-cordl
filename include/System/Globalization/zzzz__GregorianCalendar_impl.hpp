@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Globalization/GregorianCalendar.hpp"
 #include "System/Globalization/zzzz__Calendar_impl.hpp"
 #include "System/Globalization/zzzz__GregorianCalendarTypes_impl.hpp"
 #include "System/Globalization/zzzz__GregorianCalendar_def.hpp"

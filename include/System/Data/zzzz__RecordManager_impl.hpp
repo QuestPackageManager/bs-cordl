@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/RecordManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Data/zzzz__RecordManager_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BeatmapDataItemExecutionOrderConstants.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataItemExecutionOrderConstants_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BeatmapDataItemExecutionOrderConstants._ctor

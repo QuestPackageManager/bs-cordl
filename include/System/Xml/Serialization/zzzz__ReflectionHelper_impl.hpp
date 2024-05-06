@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Serialization/ReflectionHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Serialization/zzzz__ReflectionHelper_def.hpp"
 #include "System/Collections/zzzz__Hashtable_def.hpp"

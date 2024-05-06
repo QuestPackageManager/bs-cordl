@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Globalization/Bootstring.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Globalization/zzzz__Bootstring_def.hpp"
 //  Writing Method size for method: ::System::Globalization::Bootstring._ctor

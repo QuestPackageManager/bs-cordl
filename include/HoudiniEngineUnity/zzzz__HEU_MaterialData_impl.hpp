@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HEU_MaterialData.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_MaterialData_impl.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_MaterialData_def.hpp"

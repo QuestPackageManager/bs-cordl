@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/CastHelper_1.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "UnityEngine/zzzz__CastHelper_1_def.hpp"
 // Ctor Parameters [CppParam { name: "t", ty: "T", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "onePointerFurtherThanT", ty: "void*", modifiers: "", def_value: Some("{}") }]

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/PS5LevelProductPacksSO.hpp"
 #include "GlobalNamespace/zzzz__SonyLevelProductPackSO_impl.hpp"
 #include "GlobalNamespace/zzzz__PS5LevelProductPacksSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PS5LevelProductPacksSO._ctor

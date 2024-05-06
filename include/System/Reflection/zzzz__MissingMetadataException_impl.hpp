@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Reflection/MissingMetadataException.hpp"
 #include "System/zzzz__TypeAccessException_impl.hpp"
 #include "System/Reflection/zzzz__MissingMetadataException_def.hpp"
 //  Writing Method size for method: ::System::Reflection::MissingMetadataException._ctor

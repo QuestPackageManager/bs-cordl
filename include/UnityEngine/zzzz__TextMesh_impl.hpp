@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/TextMesh.hpp"
 #include "UnityEngine/zzzz__Component_impl.hpp"
 #include "UnityEngine/zzzz__TextMesh_def.hpp"
 #include "UnityEngine/zzzz__TextAlignment_def.hpp"

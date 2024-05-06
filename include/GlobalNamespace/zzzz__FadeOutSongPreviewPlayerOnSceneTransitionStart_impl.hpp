@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/FadeOutSongPreviewPlayerOnSceneTransitionStart.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__FadeOutSongPreviewPlayerOnSceneTransitionStart_def.hpp"
 #include "GlobalNamespace/zzzz__AudioPlayerBase_def.hpp"

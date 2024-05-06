@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Cryptography/CspParameters.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Security/Cryptography/zzzz__CspParameters_def.hpp"
 #include "System/Security/Cryptography/zzzz__CspProviderFlags_def.hpp"

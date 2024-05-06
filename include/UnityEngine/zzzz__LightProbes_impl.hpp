@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/LightProbes.hpp"
 #include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__LightProbes_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/RecordingToolInstallerSO.hpp"
 #include "Zenject/zzzz__ScriptableObjectInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__RecordingToolInstallerSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::RecordingToolInstallerSO.InstallBindings

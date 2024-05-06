@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Globalization/IdnMapping.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Globalization/zzzz__IdnMapping_def.hpp"
 #include "System/Globalization/zzzz__Punycode_def.hpp"

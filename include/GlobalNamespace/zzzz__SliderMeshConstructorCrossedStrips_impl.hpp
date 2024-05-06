@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SliderMeshConstructorCrossedStrips.hpp"
 #include "GlobalNamespace/zzzz__SliderMeshConstructor_impl.hpp"
 #include "GlobalNamespace/zzzz__SliderMeshConstructorCrossedStrips_def.hpp"
 #include "GlobalNamespace/zzzz__VertexPath_def.hpp"

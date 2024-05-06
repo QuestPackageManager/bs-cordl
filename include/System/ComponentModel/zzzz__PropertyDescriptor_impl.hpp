@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ComponentModel/PropertyDescriptor.hpp"
 #include "System/ComponentModel/zzzz__MemberDescriptor_impl.hpp"
 #include "System/ComponentModel/zzzz__PropertyDescriptor_def.hpp"
 #include "System/Collections/zzzz__Hashtable_def.hpp"

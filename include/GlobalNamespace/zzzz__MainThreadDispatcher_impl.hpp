@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MainThreadDispatcher.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MainThreadDispatcher_def.hpp"
 #include "GlobalNamespace/zzzz__MainThreadDispatcher_def.hpp"

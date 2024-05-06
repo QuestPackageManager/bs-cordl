@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SmoothStepPositionGroupEventEffect.hpp"
 #include "GlobalNamespace/zzzz__BasicBeatmapEventType_impl.hpp"
 #include "GlobalNamespace/zzzz__EaseType_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"

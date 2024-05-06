@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/OperatingSystem.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__PlatformID_impl.hpp"
 #include "System/zzzz__OperatingSystem_def.hpp"

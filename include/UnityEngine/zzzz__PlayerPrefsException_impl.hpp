@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/PlayerPrefsException.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "UnityEngine/zzzz__PlayerPrefsException_def.hpp"
 //  Writing Method size for method: ::UnityEngine::PlayerPrefsException._ctor

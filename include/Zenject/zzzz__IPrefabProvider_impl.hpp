@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/IPrefabProvider.hpp"
 #include "Zenject/zzzz__IPrefabProvider_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Zenject::IPrefabProvider.GetPrefab

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/Angle.hpp"
 #include "UnityEngine/UIElements/zzzz__Angle_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Angle_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IExperimentData.hpp"
 #include "GlobalNamespace/zzzz__IExperimentData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IExperimentData.get_experimentPlatformKey
 template <>

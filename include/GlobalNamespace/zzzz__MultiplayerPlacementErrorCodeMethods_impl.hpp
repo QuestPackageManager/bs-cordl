@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MultiplayerPlacementErrorCodeMethods.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerPlacementErrorCodeMethods_def.hpp"
 #include "GlobalNamespace/zzzz__ConnectionFailedReason_def.hpp"

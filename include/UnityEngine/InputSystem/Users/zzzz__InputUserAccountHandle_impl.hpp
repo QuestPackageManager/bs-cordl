@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Users/InputUserAccountHandle.hpp"
 #include "UnityEngine/InputSystem/Users/zzzz__InputUserAccountHandle_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ObjectsMovementRecorderEditorInstaller.hpp"
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__ObjectsMovementRecorderEditorInstaller_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ObjectsMovementRecorderEditorInstaller.InstallBindings

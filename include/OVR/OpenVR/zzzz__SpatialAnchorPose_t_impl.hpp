@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/SpatialAnchorPose_t.hpp"
 #include "OVR/OpenVR/zzzz__HmdMatrix34_t_impl.hpp"
 #include "OVR/OpenVR/zzzz__SpatialAnchorPose_t_def.hpp"
 #include "OVR/OpenVR/zzzz__HmdMatrix34_t_def.hpp"

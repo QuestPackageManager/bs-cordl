@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Utilities/IO/MemoryInputStream.hpp"
 #include "System/IO/zzzz__MemoryStream_impl.hpp"
 #include "Org/BouncyCastle/Utilities/IO/zzzz__MemoryInputStream_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Utilities::IO::MemoryInputStream._ctor

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/IVisualElementPanelActivatable.hpp"
 #include "UnityEngine/UIElements/zzzz__IVisualElementPanelActivatable_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::IVisualElementPanelActivatable.get_element

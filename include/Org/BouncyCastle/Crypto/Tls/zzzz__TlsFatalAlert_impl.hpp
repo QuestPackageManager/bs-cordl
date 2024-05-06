@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/TlsFatalAlert.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsException_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsFatalAlert_def.hpp"
 #include "System/zzzz__Exception_def.hpp"

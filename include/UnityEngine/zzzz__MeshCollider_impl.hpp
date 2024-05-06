@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/MeshCollider.hpp"
 #include "UnityEngine/zzzz__Collider_impl.hpp"
 #include "UnityEngine/zzzz__MeshCollider_def.hpp"
 #include "UnityEngine/zzzz__MeshColliderCookingOptions_def.hpp"

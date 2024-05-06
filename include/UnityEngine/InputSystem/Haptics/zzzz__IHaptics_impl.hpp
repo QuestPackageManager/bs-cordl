@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Haptics/IHaptics.hpp"
 #include "UnityEngine/InputSystem/Haptics/zzzz__IHaptics_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Haptics::IHaptics.PauseHaptics
 template <>

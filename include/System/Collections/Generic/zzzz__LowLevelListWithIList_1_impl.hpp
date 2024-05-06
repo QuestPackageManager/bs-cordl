@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Collections/Generic/LowLevelListWithIList_1.hpp"
 #include "System/Collections/Generic/zzzz__LowLevelList_1_impl.hpp"
 #include "System/Collections/Generic/zzzz__LowLevelListWithIList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"

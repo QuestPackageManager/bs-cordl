@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/VoipMuteState.hpp"
 #include "Oculus/Platform/zzzz__VoipMuteState_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::Oculus::Platform::VoipMuteState::VoipMuteState(int32_t value__) noexcept {

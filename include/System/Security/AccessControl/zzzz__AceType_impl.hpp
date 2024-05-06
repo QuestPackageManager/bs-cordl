@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/AccessControl/AceType.hpp"
 #include "System/Security/AccessControl/zzzz__AceType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Security::AccessControl::AceType::AceType(uint8_t value__) noexcept {

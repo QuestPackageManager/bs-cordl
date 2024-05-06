@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/XR/MeshGenerationResult.hpp"
 #include "UnityEngine/XR/zzzz__MeshGenerationStatus_impl.hpp"
 #include "UnityEngine/XR/zzzz__MeshId_impl.hpp"
 #include "UnityEngine/XR/zzzz__MeshVertexAttributes_impl.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HAPI_AssetInfo.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_AssetInfo_def.hpp"
 // Ctor Parameters [CppParam { name: "nodeId", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "objectNodeId", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
 // name: "hasEverCooked", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "nameSH", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "labelSH", ty:

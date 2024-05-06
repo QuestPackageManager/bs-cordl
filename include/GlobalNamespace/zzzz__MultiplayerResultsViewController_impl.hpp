@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MultiplayerResultsViewController.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerResultsViewController_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_def.hpp"

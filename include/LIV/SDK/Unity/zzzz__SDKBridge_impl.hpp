@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LIV/SDK/Unity/SDKBridge.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKBridge_impl.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKInputFrame_impl.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKResolution_impl.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ProBuilder/ExtrudeMethod.hpp"
 #include "UnityEngine/ProBuilder/zzzz__ExtrudeMethod_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::ProBuilder::ExtrudeMethod::ExtrudeMethod(int32_t value__) noexcept {

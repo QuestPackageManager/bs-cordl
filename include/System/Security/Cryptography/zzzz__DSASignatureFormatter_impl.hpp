@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Cryptography/DSASignatureFormatter.hpp"
 #include "System/Security/Cryptography/zzzz__AsymmetricSignatureFormatter_impl.hpp"
 #include "System/Security/Cryptography/zzzz__DSASignatureFormatter_def.hpp"
 //  Writing Method size for method: ::System::Security::Cryptography::DSASignatureFormatter._ctor

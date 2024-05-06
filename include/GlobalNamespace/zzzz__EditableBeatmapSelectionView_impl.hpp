@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/EditableBeatmapSelectionView.hpp"
 #include "GlobalNamespace/zzzz__BeatmapSelectionView_impl.hpp"
 #include "GlobalNamespace/zzzz__EditableBeatmapSelectionView_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_def.hpp"

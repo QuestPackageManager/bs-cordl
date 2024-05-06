@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/Interactable.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__Interactable_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "SFB/ExtensionFilter.hpp"
 #include "SFB/zzzz__ExtensionFilter_def.hpp"
 //  Writing Method size for method: ::SFB::ExtensionFilter._ctor
 template <>

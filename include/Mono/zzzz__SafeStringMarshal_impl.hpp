@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/SafeStringMarshal.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "Mono/zzzz__SafeStringMarshal_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"

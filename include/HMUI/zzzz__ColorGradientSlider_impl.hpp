@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/ColorGradientSlider.hpp"
 #include "HMUI/zzzz__TextSlider_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "HMUI/zzzz__ColorGradientSlider_def.hpp"

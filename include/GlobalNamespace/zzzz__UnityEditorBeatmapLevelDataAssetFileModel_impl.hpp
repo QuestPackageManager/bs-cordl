@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/UnityEditorBeatmapLevelDataAssetFileModel.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__UnityEditorBeatmapLevelDataAssetFileModel_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelDataSO_def.hpp"

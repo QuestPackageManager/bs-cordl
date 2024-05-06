@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SonyNetworkPlayerModel.hpp"
 #include "GlobalNamespace/zzzz__PlatformNetworkPlayerModel_impl.hpp"
 #include "GlobalNamespace/zzzz__SonyNetworkPlayerModel_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SonyNetworkPlayerModel._ctor

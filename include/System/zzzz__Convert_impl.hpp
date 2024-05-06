@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Convert.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__Convert_def.hpp"
 #include "System/zzzz__Base64FormattingOptions_def.hpp"

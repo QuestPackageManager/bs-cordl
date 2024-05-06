@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "JetBrains/Annotations/AssertionMethodAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "JetBrains/Annotations/zzzz__AssertionMethodAttribute_def.hpp"
 //  Writing Method size for method: ::JetBrains::Annotations::AssertionMethodAttribute._ctor

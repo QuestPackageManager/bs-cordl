@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/NonSerializedAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/zzzz__NonSerializedAttribute_def.hpp"
 //  Writing Method size for method: ::System::NonSerializedAttribute._ctor

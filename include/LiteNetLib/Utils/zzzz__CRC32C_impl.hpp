@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LiteNetLib/Utils/CRC32C.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "LiteNetLib/Utils/zzzz__CRC32C_def.hpp"
 //  Writing Method size for method: ::LiteNetLib::Utils::CRC32C.Compute

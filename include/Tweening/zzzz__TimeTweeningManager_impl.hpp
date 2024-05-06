@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Tweening/TimeTweeningManager.hpp"
 #include "Tweening/zzzz__TweeningManager_impl.hpp"
 #include "Tweening/zzzz__TimeTweeningManager_def.hpp"
 //  Writing Method size for method: ::Tweening::TimeTweeningManager.GetTime

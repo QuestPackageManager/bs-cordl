@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Reflection/Emit/EnumBuilder.hpp"
 #include "System/Reflection/zzzz__TypeInfo_impl.hpp"
 #include "System/Reflection/Emit/zzzz__EnumBuilder_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"

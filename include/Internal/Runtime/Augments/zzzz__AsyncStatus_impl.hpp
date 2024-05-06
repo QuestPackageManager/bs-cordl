@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Internal/Runtime/Augments/AsyncStatus.hpp"
 #include "Internal/Runtime/Augments/zzzz__AsyncStatus_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::Internal::Runtime::Augments::AsyncStatus::AsyncStatus(int32_t value__) noexcept {

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MoveBackWall.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MoveBackWall_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerTransforms_def.hpp"

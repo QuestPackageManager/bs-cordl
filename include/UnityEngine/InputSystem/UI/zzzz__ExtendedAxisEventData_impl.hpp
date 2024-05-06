@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/UI/ExtendedAxisEventData.hpp"
 #include "UnityEngine/EventSystems/zzzz__AxisEventData_impl.hpp"
 #include "UnityEngine/InputSystem/UI/zzzz__ExtendedAxisEventData_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__EventSystem_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/StackCrawlMark.hpp"
 #include "System/Threading/zzzz__StackCrawlMark_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Threading::StackCrawlMark::StackCrawlMark(int32_t value__) noexcept {

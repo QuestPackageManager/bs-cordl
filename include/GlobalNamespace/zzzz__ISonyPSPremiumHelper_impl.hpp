@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ISonyPSPremiumHelper.hpp"
 #include "GlobalNamespace/zzzz__ISonyPSPremiumHelper_def.hpp"
 #include "GlobalNamespace/zzzz__ISonyPSPremiumHelper_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"

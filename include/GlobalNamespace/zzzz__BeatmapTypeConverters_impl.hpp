@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BeatmapTypeConverters.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapTypeConverters_def.hpp"
 #include "BeatmapSaveDataCommon/zzzz__Axis_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "ModestTree/TypeStringFormatter.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "ModestTree/zzzz__TypeStringFormatter_def.hpp"
 #include "ModestTree/zzzz__TypeStringFormatter_def.hpp"

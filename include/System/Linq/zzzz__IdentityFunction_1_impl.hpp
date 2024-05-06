@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/IdentityFunction_1.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Linq/zzzz__IdentityFunction_1_def.hpp"
 #include "System/Linq/zzzz__IdentityFunction_1_def.hpp"

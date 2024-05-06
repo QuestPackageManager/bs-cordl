@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UI/MultipleDisplayUtilities.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UI/zzzz__MultipleDisplayUtilities_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"

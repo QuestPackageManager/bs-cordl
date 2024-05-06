@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/OrderedEnumerable_2.hpp"
 #include "System/Linq/zzzz__OrderedEnumerable_1_impl.hpp"
 #include "System/Linq/zzzz__OrderedEnumerable_2_def.hpp"
 #include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/InteriorNode.hpp"
 #include "System/Xml/Schema/zzzz__SyntaxTreeNode_impl.hpp"
 #include "System/Xml/Schema/zzzz__InteriorNode_def.hpp"
 #include "System/Xml/Schema/zzzz__Positions_def.hpp"

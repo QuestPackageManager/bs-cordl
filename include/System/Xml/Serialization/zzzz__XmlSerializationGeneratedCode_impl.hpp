@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Serialization/XmlSerializationGeneratedCode.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Serialization/zzzz__XmlSerializationGeneratedCode_def.hpp"
 //  Writing Method size for method: ::System::Xml::Serialization::XmlSerializationGeneratedCode._ctor

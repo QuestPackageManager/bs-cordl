@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/CurvedTextMeshPro.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_impl.hpp"
 #include "HMUI/zzzz__CurvedTextMeshPro_def.hpp"
 #include "GlobalNamespace/zzzz__ColorSO_def.hpp"

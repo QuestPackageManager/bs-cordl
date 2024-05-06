@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/DllNotFoundException.hpp"
 #include "System/zzzz__TypeLoadException_impl.hpp"
 #include "System/zzzz__DllNotFoundException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"

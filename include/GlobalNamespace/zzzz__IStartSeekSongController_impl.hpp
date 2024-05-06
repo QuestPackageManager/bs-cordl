@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IStartSeekSongController.hpp"
 #include "GlobalNamespace/zzzz__IStartSeekSongController_def.hpp"
 #include "UnityEngine/zzzz__WaitUntil_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IStartSeekSongController.get_waitUntilIsReadyToStartTheSong

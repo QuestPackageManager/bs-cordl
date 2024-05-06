@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IOVRSceneComponent.hpp"
 #include "GlobalNamespace/zzzz__IOVRSceneComponent_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IOVRSceneComponent.Initialize
 template <>

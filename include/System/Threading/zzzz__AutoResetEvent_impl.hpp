@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/AutoResetEvent.hpp"
 #include "System/Threading/zzzz__EventWaitHandle_impl.hpp"
 #include "System/Threading/zzzz__AutoResetEvent_def.hpp"
 //  Writing Method size for method: ::System::Threading::AutoResetEvent._ctor

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Cryptography/X509Certificates/X509FindType.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509FindType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Security::Cryptography::X509Certificates::X509FindType::X509FindType(int32_t value__) noexcept {

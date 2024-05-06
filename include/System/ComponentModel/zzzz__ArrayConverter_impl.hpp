@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ComponentModel/ArrayConverter.hpp"
 #include "System/ComponentModel/zzzz__CollectionConverter_impl.hpp"
 #include "System/ComponentModel/zzzz__TypeConverter_impl.hpp"
 #include "System/ComponentModel/zzzz__ArrayConverter_def.hpp"

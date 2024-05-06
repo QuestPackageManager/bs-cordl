@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BpmTimeProcessor.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BpmTimeProcessor_def.hpp"
 #include "BeatmapLevelSaveDataVersion4/zzzz__AudioSaveData_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Converters/RegexConverter.hpp"
 #include "Newtonsoft/Json/zzzz__JsonConverter_impl.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__RegexConverter_def.hpp"
 #include "Newtonsoft/Json/Bson/zzzz__BsonWriter_def.hpp"

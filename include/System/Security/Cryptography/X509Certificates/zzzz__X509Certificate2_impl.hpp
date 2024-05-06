@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Cryptography/X509Certificates/X509Certificate2.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_impl.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"

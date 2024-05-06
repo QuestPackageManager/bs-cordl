@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/XmlToDatasetMap.hpp"
 #include "System/Collections/zzzz__Hashtable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Data/zzzz__XmlToDatasetMap_def.hpp"

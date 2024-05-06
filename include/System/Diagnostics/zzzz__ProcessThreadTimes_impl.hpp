@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Diagnostics/ProcessThreadTimes.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Diagnostics/zzzz__ProcessThreadTimes_def.hpp"
 #include "System/zzzz__TimeSpan_def.hpp"

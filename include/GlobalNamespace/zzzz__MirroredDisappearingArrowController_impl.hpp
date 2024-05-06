@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MirroredDisappearingArrowController.hpp"
 #include "GlobalNamespace/zzzz__DisappearingArrowControllerBase_1_impl.hpp"
 #include "GlobalNamespace/zzzz__MirroredDisappearingArrowController_def.hpp"
 #include "GlobalNamespace/zzzz__MirroredGameNoteController_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/LightmapSettings.hpp"
 #include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__LightmapSettings_def.hpp"
 #include "UnityEngine/zzzz__ColorSpace_def.hpp"

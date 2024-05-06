@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/FrameTimingManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__FrameTimingManager_def.hpp"
 #include "UnityEngine/zzzz__FrameTiming_def.hpp"

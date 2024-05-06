@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "MidiParser/MidiEvent.hpp"
 #include "MidiParser/zzzz__MidiEvent_def.hpp"
 #include "MidiParser/zzzz__MetaEventType_def.hpp"
 //  Writing Method size for method: ::MidiParser::MidiEvent.get_MetaEventType

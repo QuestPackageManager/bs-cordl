@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Experimental/Rendering/BuiltinRuntimeReflectionSystem.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Experimental/Rendering/zzzz__BuiltinRuntimeReflectionSystem_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Yoga/YogaSize.hpp"
 #include "UnityEngine/Yoga/zzzz__YogaSize_def.hpp"
 // Ctor Parameters [CppParam { name: "width", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "height", ty: "float_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Yoga::YogaSize::YogaSize(float_t width, float_t height) noexcept {

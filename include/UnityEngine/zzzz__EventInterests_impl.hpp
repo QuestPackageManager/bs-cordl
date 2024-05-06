@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/EventInterests.hpp"
 #include "UnityEngine/zzzz__EventInterests_def.hpp"
 #include "UnityEngine/zzzz__EventType_def.hpp"
 //  Writing Method size for method: ::UnityEngine::EventInterests.get_wantsMouseMove

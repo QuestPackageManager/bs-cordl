@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Security/X509/Extensions/AuthorityKeyIdentifierExtension.hpp"
 #include "Mono/Security/X509/zzzz__X509Extension_impl.hpp"
 #include "Mono/Security/X509/Extensions/zzzz__AuthorityKeyIdentifierExtension_def.hpp"
 #include "Mono/Security/X509/zzzz__X509Extension_def.hpp"

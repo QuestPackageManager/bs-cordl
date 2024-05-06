@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/ReaderWriterLock.hpp"
 #include "System/Runtime/ConstrainedExecution/zzzz__CriticalFinalizerObject_impl.hpp"
 #include "System/Threading/zzzz__ReaderWriterLock_def.hpp"
 #include "System/Collections/zzzz__Hashtable_def.hpp"

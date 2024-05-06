@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/DynamicAtlas.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__Allocator2D_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__LinkedPoolItem_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__AtlasBase_impl.hpp"

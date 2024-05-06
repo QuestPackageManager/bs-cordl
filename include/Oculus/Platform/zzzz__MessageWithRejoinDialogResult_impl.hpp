@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/MessageWithRejoinDialogResult.hpp"
 #include "Oculus/Platform/zzzz__Message_1_impl.hpp"
 #include "Oculus/Platform/zzzz__MessageWithRejoinDialogResult_def.hpp"
 #include "Oculus/Platform/Models/zzzz__RejoinDialogResult_def.hpp"

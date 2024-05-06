@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Security/Cryptography/KeyPairPersistence.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Security/Cryptography/zzzz__KeyPairPersistence_def.hpp"
 #include "System/Security/Cryptography/zzzz__CspParameters_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Principal/NTAccount.hpp"
 #include "System/Security/Principal/zzzz__IdentityReference_impl.hpp"
 #include "System/Security/Principal/zzzz__NTAccount_def.hpp"
 #include "System/Security/Principal/zzzz__IdentityReference_def.hpp"

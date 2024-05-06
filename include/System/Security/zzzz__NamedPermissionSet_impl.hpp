@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/NamedPermissionSet.hpp"
 #include "System/Security/zzzz__PermissionSet_impl.hpp"
 #include "System/Security/zzzz__NamedPermissionSet_def.hpp"
 #include "System/Security/Permissions/zzzz__PermissionState_def.hpp"

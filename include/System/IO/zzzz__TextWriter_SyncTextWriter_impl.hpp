@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/IO/TextWriter_SyncTextWriter.hpp"
 #include "System/IO/zzzz__TextWriter_impl.hpp"
 #include "System/IO/zzzz__TextWriter_SyncTextWriter_def.hpp"
 #include "System/IO/zzzz__TextWriter_def.hpp"

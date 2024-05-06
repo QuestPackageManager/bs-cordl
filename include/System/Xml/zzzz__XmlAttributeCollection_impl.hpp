@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/XmlAttributeCollection.hpp"
 #include "System/Xml/zzzz__XmlNamedNodeMap_impl.hpp"
 #include "System/Xml/zzzz__XmlAttributeCollection_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"

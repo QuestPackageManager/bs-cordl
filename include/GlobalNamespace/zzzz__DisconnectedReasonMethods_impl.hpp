@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/DisconnectedReasonMethods.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__DisconnectedReasonMethods_def.hpp"
 #include "GlobalNamespace/zzzz__DisconnectedReason_def.hpp"

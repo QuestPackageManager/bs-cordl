@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Buffers/ArrayPoolEventSource.hpp"
 #include "System/Diagnostics/Tracing/zzzz__EventSource_impl.hpp"
 #include "System/Buffers/zzzz__ArrayPoolEventSource_def.hpp"
 #include "System/Buffers/zzzz__ArrayPoolEventSource_def.hpp"

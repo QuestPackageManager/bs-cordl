@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SettingsNavigationController.hpp"
 #include "HMUI/zzzz__NavigationController_impl.hpp"
 #include "GlobalNamespace/zzzz__SettingsNavigationController_def.hpp"
 #include "GlobalNamespace/zzzz__SettingsNavigationController_def.hpp"

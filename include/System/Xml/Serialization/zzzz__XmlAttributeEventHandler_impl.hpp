@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Serialization/XmlAttributeEventHandler.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Xml/Serialization/zzzz__XmlAttributeEventHandler_def.hpp"
 #include "System/Xml/Serialization/zzzz__XmlAttributeEventArgs_def.hpp"

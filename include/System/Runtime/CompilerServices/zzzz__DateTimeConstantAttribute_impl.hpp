@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/CompilerServices/DateTimeConstantAttribute.hpp"
 #include "System/Runtime/CompilerServices/zzzz__CustomConstantAttribute_impl.hpp"
 #include "System/zzzz__DateTime_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__DateTimeConstantAttribute_def.hpp"

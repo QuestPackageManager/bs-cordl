@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/XR/Oculus/Stats.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/XR/Oculus/zzzz__Stats_def.hpp"
 #include "Unity/XR/Oculus/zzzz__Stats_def.hpp"

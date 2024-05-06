@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Unity/X509ChainImplUnityTls.hpp"
 #include "Mono/Unity/zzzz__UnityTls_impl.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainImpl_impl.hpp"
 #include "Mono/Unity/zzzz__X509ChainImplUnityTls_def.hpp"

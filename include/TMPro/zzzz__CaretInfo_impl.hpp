@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/CaretInfo.hpp"
 #include "TMPro/zzzz__CaretPosition_impl.hpp"
 #include "TMPro/zzzz__CaretInfo_def.hpp"
 #include "TMPro/zzzz__CaretPosition_def.hpp"

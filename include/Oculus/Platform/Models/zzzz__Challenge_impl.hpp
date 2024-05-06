@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/Models/Challenge.hpp"
 #include "Oculus/Platform/zzzz__ChallengeCreationType_impl.hpp"
 #include "Oculus/Platform/zzzz__ChallengeVisibility_impl.hpp"
 #include "System/zzzz__DateTime_impl.hpp"

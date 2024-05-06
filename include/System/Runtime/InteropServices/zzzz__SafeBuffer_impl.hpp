@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/InteropServices/SafeBuffer.hpp"
 #include "Microsoft/Win32/SafeHandles/zzzz__SafeHandleZeroOrMinusOneIsInvalid_impl.hpp"
 #include "System/zzzz__UIntPtr_impl.hpp"
 #include "System/Runtime/InteropServices/zzzz__SafeBuffer_def.hpp"

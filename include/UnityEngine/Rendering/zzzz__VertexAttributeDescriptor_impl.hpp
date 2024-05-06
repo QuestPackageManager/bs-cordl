@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Rendering/VertexAttributeDescriptor.hpp"
 #include "UnityEngine/Rendering/zzzz__VertexAttributeFormat_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__VertexAttribute_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__VertexAttributeDescriptor_def.hpp"

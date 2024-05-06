@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/X509/X509V2AttributeCertificate.hpp"
 #include "Org/BouncyCastle/X509/zzzz__X509ExtensionBase_impl.hpp"
 #include "System/zzzz__DateTime_impl.hpp"
 #include "Org/BouncyCastle/X509/zzzz__X509V2AttributeCertificate_def.hpp"

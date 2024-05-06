@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/NoReflectionBakingAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "Zenject/zzzz__NoReflectionBakingAttribute_def.hpp"
 //  Writing Method size for method: ::Zenject::NoReflectionBakingAttribute._ctor

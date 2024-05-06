@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Priority_Queue/GenericPriorityQueueNode_1.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Priority_Queue/zzzz__GenericPriorityQueueNode_1_def.hpp"
 template <typename TPriority> constexpr TPriority& Priority_Queue::GenericPriorityQueueNode_1<TPriority>::__cordl_internal_get__Priority_k__BackingField() {

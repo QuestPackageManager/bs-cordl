@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/NoTransitionContext.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Zenject/zzzz__NoTransitionContext_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"

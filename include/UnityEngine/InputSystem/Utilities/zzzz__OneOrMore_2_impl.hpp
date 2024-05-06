@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/OneOrMore_2.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__OneOrMore_2_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__OneOrMore_2_def.hpp"

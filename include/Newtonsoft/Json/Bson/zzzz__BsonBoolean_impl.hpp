@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Bson/BsonBoolean.hpp"
 #include "Newtonsoft/Json/Bson/zzzz__BsonValue_impl.hpp"
 #include "Newtonsoft/Json/Bson/zzzz__BsonBoolean_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Bson::BsonBoolean._ctor

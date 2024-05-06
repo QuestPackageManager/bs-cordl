@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/Tasks/DebuggerSupport.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/Tasks/zzzz__DebuggerSupport_def.hpp"
 #include "Internal/Runtime/Augments/zzzz__AsyncStatus_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/NumericConvertInstruction.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__Instruction_impl.hpp"
 #include "System/zzzz__TypeCode_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__NumericConvertInstruction_def.hpp"

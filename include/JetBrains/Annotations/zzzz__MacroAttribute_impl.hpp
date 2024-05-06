@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "JetBrains/Annotations/MacroAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "JetBrains/Annotations/zzzz__MacroAttribute_def.hpp"
 //  Writing Method size for method: ::JetBrains::Annotations::MacroAttribute.get_Expression

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/LicensesDisplayViewController.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__LicensesDisplayViewController_def.hpp"
 #include "HMUI/zzzz__TextPageScrollView_def.hpp"

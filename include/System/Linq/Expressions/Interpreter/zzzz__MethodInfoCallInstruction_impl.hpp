@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/MethodInfoCallInstruction.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__CallInstruction_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__MethodInfoCallInstruction_def.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__InterpretedFrame_def.hpp"

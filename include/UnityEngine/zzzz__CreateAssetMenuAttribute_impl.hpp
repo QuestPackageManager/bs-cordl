@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/CreateAssetMenuAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/zzzz__CreateAssetMenuAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::CreateAssetMenuAttribute.set_menuName

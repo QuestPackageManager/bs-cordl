@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Enumerable.hpp"
 #include "System/Collections/Generic/zzzz__List_1_impl.hpp"
 #include "System/Linq/zzzz__Buffer_1_impl.hpp"
 #include "System/Linq/zzzz__Enumerable_impl.hpp"

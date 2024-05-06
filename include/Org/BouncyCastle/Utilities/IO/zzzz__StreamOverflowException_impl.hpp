@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Utilities/IO/StreamOverflowException.hpp"
 #include "System/IO/zzzz__IOException_impl.hpp"
 #include "Org/BouncyCastle/Utilities/IO/zzzz__StreamOverflowException_def.hpp"
 #include "System/zzzz__Exception_def.hpp"

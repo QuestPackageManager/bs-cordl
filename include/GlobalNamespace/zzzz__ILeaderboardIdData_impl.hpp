@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ILeaderboardIdData.hpp"
 #include "GlobalNamespace/zzzz__ILeaderboardIdData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ILeaderboardIdData.get_difficultyBeatmapId
 template <>

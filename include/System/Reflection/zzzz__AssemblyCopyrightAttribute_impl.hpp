@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Reflection/AssemblyCopyrightAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Reflection/zzzz__AssemblyCopyrightAttribute_def.hpp"
 //  Writing Method size for method: ::System::Reflection::AssemblyCopyrightAttribute._ctor

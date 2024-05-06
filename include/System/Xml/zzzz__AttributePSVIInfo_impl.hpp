@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/AttributePSVIInfo.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__AttributePSVIInfo_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaInfo_def.hpp"

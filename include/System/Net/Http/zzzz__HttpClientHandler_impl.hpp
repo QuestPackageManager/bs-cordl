@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Http/HttpClientHandler.hpp"
 #include "System/Net/Http/zzzz__ClientCertificateOption_impl.hpp"
 #include "System/Net/Http/zzzz__HttpMessageHandler_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"

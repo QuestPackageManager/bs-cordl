@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Tsp/TimeStampRequest.hpp"
 #include "Org/BouncyCastle/X509/zzzz__X509ExtensionBase_impl.hpp"
 #include "Org/BouncyCastle/Tsp/zzzz__TimeStampRequest_def.hpp"
 #include "Org/BouncyCastle/Asn1/Tsp/zzzz__TimeStampReq_def.hpp"

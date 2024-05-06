@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/VRControllersValueSettingsOffsets.hpp"
 #include "GlobalNamespace/zzzz__VRControllerTransformOffset_impl.hpp"
 #include "GlobalNamespace/zzzz__VRControllersValueSettingsOffsets_def.hpp"
 #include "BeatSaber/GameSettings/zzzz__MainSettingsHandler_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/InjectAttributeBase.hpp"
 #include "Zenject/Internal/zzzz__PreserveAttribute_impl.hpp"
 #include "Zenject/zzzz__InjectSources_impl.hpp"
 #include "Zenject/zzzz__InjectAttributeBase_def.hpp"

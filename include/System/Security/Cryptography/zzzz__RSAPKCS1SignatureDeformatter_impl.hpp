@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Cryptography/RSAPKCS1SignatureDeformatter.hpp"
 #include "System/Security/Cryptography/zzzz__AsymmetricSignatureDeformatter_impl.hpp"
 #include "System/Security/Cryptography/zzzz__RSAPKCS1SignatureDeformatter_def.hpp"
 #include "System/Security/Cryptography/zzzz__AsymmetricAlgorithm_def.hpp"

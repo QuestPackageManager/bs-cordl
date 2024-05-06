@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/SkeinParameters.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__SkeinParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__SkeinParameters_def.hpp"

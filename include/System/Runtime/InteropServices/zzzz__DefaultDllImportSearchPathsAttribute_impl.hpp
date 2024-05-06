@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/InteropServices/DefaultDllImportSearchPathsAttribute.hpp"
 #include "System/Runtime/InteropServices/zzzz__DllImportSearchPath_impl.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Runtime/InteropServices/zzzz__DefaultDllImportSearchPathsAttribute_def.hpp"

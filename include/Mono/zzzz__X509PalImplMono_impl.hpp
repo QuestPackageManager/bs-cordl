@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/X509PalImplMono.hpp"
 #include "Mono/zzzz__X509PalImpl_impl.hpp"
 #include "Mono/zzzz__X509PalImplMono_def.hpp"
 #include "Microsoft/Win32/SafeHandles/zzzz__SafePasswordHandle_def.hpp"

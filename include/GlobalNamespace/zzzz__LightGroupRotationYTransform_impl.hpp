@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/LightGroupRotationYTransform.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__LightGroupRotationYTransform_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::LightGroupRotationYTransform._ctor

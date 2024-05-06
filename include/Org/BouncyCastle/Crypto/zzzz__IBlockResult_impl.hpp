@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/IBlockResult.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IBlockResult_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::IBlockResult.Collect
 template <>

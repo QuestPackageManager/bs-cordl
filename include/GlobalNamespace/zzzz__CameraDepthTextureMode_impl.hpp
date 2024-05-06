@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/CameraDepthTextureMode.hpp"
 #include "UnityEngine/zzzz__DepthTextureMode_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__CameraDepthTextureMode_def.hpp"

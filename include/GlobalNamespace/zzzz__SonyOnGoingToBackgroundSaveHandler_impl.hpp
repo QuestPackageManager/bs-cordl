@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SonyOnGoingToBackgroundSaveHandler.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SonyOnGoingToBackgroundSaveHandler_def.hpp"
 #include "BGLib/SaveDataCore/zzzz__SaveDataFlushingService_def.hpp"

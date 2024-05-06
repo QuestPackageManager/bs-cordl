@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/WaitForSeconds.hpp"
 #include "UnityEngine/zzzz__YieldInstruction_impl.hpp"
 #include "UnityEngine/zzzz__WaitForSeconds_def.hpp"
 //  Writing Method size for method: ::UnityEngine::WaitForSeconds._ctor

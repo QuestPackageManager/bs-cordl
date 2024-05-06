@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IMultiplayerLevelEndActionsPublisher.hpp"
 #include "GlobalNamespace/zzzz__IMultiplayerLevelEndActionsPublisher_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLevelCompletionResults_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"

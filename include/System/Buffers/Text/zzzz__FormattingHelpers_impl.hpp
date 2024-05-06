@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Buffers/Text/FormattingHelpers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Buffers/Text/zzzz__FormattingHelpers_def.hpp"
 //  Writing Method size for method: ::System::Buffers::Text::FormattingHelpers.CountDigits

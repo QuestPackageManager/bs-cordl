@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Scripting/PreserveAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/Scripting/zzzz__PreserveAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Scripting::PreserveAttribute._ctor

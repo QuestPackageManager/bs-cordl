@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/WaitForSecondsRealtime.hpp"
 #include "UnityEngine/zzzz__CustomYieldInstruction_impl.hpp"
 #include "UnityEngine/zzzz__WaitForSecondsRealtime_def.hpp"
 //  Writing Method size for method: ::UnityEngine::WaitForSecondsRealtime.get_waitTime

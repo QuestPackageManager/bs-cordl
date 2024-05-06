@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/ValueChangedBinder_1.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "HMUI/zzzz__ValueChangedBinder_1_def.hpp"
 #include "HMUI/zzzz__IValueChanger_1_def.hpp"

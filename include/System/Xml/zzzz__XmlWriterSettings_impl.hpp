@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/XmlWriterSettings.hpp"
 #include "System/Xml/zzzz__ConformanceLevel_impl.hpp"
 #include "System/Xml/zzzz__NamespaceHandling_impl.hpp"
 #include "System/Xml/zzzz__NewLineHandling_impl.hpp"

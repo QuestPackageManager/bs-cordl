@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crmf/PKMacFactory.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crmf/zzzz__PKMacFactory_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cmp/zzzz__PbmParameter_def.hpp"

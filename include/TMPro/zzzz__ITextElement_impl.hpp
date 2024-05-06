@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/ITextElement.hpp"
 #include "TMPro/zzzz__ITextElement_def.hpp"
 #include "UnityEngine/UI/zzzz__CanvasUpdate_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"

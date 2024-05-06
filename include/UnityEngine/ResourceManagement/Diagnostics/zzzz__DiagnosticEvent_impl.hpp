@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ResourceManagement/Diagnostics/DiagnosticEvent.hpp"
 #include "UnityEngine/ResourceManagement/Diagnostics/zzzz__DiagnosticEvent_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent.get_Graph
 template <>

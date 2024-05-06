@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/XR/Provider/XRStats.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/XR/Provider/zzzz__XRStats_def.hpp"
 #include "UnityEngine/zzzz__IntegratedSubsystem_def.hpp"

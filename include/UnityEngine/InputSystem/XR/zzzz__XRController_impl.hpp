@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/XR/XRController.hpp"
 #include "UnityEngine/InputSystem/zzzz__TrackedDevice_impl.hpp"
 #include "UnityEngine/InputSystem/XR/zzzz__XRController_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::XR::XRController.get_leftHand

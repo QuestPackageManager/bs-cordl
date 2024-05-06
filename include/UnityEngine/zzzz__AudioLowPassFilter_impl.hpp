@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/AudioLowPassFilter.hpp"
 #include "UnityEngine/zzzz__Behaviour_impl.hpp"
 #include "UnityEngine/zzzz__AudioLowPassFilter_def.hpp"
 #include "UnityEngine/zzzz__AnimationCurve_def.hpp"

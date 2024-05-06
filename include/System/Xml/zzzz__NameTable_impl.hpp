@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/NameTable.hpp"
 #include "System/Xml/zzzz__XmlNameTable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__NameTable_def.hpp"

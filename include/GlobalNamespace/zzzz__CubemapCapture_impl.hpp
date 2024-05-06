@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/CubemapCapture.hpp"
 #include "GlobalNamespace/zzzz__CubemapCapture_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__Key_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"

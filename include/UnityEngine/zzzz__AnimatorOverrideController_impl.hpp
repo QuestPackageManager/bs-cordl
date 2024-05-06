@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/AnimatorOverrideController.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/zzzz__RuntimeAnimatorController_impl.hpp"
 #include "UnityEngine/zzzz__AnimatorOverrideController_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/AppDomainSetup.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__AppDomainSetup_def.hpp"
 #include "System/zzzz__Object_def.hpp"

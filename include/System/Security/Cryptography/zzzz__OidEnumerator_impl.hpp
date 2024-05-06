@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Cryptography/OidEnumerator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Security/Cryptography/zzzz__OidEnumerator_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"

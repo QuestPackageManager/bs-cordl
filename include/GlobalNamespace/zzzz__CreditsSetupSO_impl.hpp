@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/CreditsSetupSO.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__CreditsSetupSO_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"

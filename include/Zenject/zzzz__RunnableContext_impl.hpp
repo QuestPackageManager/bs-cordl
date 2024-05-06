@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/RunnableContext.hpp"
 #include "Zenject/zzzz__Context_impl.hpp"
 #include "Zenject/zzzz__RunnableContext_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"

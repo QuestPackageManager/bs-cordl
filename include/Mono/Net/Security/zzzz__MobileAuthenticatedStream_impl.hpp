@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Net/Security/MobileAuthenticatedStream.hpp"
 #include "Mono/Net/Security/zzzz__MobileAuthenticatedStream_impl.hpp"
 #include "System/Net/Security/zzzz__AuthenticatedStream_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"

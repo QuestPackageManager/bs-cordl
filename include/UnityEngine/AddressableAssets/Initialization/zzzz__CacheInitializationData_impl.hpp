@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/AddressableAssets/Initialization/CacheInitializationData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/AddressableAssets/Initialization/zzzz__CacheInitializationData_def.hpp"
 //  Writing Method size for method: ::UnityEngine::AddressableAssets::Initialization::CacheInitializationData.get_CompressionEnabled

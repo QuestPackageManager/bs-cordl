@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/NonLazyBinder.hpp"
 #include "Zenject/zzzz__IfNotBoundBinder_impl.hpp"
 #include "Zenject/zzzz__NonLazyBinder_def.hpp"
 #include "Zenject/zzzz__BindInfo_def.hpp"

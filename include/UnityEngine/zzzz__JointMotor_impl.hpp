@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/JointMotor.hpp"
 #include "UnityEngine/zzzz__JointMotor_def.hpp"
 //  Writing Method size for method: ::UnityEngine::JointMotor.get_targetVelocity
 template <>

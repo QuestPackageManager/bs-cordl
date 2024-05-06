@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Timeline/HideInMenuAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__HideInMenuAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Timeline::HideInMenuAttribute._ctor

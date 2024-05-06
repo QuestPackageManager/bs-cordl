@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/HeaderAttribute.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "UnityEngine/zzzz__HeaderAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::HeaderAttribute._ctor

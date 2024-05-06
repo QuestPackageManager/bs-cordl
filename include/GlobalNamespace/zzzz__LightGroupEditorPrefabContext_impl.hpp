@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/LightGroupEditorPrefabContext.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__LightGroupEditorPrefabContext_def.hpp"
 #include "GlobalNamespace/zzzz__LightGroupSO_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/GetXPlatformAccessTokenRequestSteam.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__GetXPlatformAccessTokenRequestSteam_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::GetXPlatformAccessTokenRequestSteam._ctor

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Linq/JTokenReader.hpp"
 #include "Newtonsoft/Json/zzzz__JsonReader_impl.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JTokenReader_def.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JContainer_def.hpp"

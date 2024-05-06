@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/VoipAudioSourceHiLevel.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Oculus/Platform/zzzz__VoipAudioSourceHiLevel_def.hpp"
 #include "Oculus/Platform/zzzz__IVoipPCMSource_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/TextNativeHandle.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TextVertex_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"

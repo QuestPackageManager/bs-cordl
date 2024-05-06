@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/DrivenTransformProperties.hpp"
 #include "UnityEngine/zzzz__DrivenTransformProperties_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::DrivenTransformProperties::DrivenTransformProperties(int32_t value__) noexcept {

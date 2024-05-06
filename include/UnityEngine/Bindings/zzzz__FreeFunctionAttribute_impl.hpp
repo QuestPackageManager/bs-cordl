@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Bindings/FreeFunctionAttribute.hpp"
 #include "UnityEngine/Bindings/zzzz__NativeMethodAttribute_impl.hpp"
 #include "UnityEngine/Bindings/zzzz__FreeFunctionAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Bindings::FreeFunctionAttribute._ctor

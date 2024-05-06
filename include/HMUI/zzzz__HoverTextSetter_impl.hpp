@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/HoverTextSetter.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__HoverTextSetter_def.hpp"
 #include "HMUI/zzzz__HoverTextController_def.hpp"

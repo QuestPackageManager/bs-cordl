@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/ForeignKeyConstraint.hpp"
 #include "System/Data/zzzz__AcceptRejectRule_impl.hpp"
 #include "System/Data/zzzz__Constraint_impl.hpp"
 #include "System/Data/zzzz__DataKey_impl.hpp"

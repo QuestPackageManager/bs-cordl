@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/RemoteMultiplayerSyncState_3.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerSyncState_3_impl.hpp"
 #include "GlobalNamespace/zzzz__RemoteMultiplayerSyncState_3_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"

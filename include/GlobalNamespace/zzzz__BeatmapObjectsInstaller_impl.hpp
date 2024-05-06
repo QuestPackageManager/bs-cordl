@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BeatmapObjectsInstaller.hpp"
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectsInstaller_def.hpp"
 #include "GlobalNamespace/zzzz__BeatLine_def.hpp"

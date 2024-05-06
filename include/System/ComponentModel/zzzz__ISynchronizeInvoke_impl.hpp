@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ComponentModel/ISynchronizeInvoke.hpp"
 #include "System/ComponentModel/zzzz__ISynchronizeInvoke_def.hpp"
 #include "System/zzzz__Delegate_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"

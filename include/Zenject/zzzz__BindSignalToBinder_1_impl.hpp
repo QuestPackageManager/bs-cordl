@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/BindSignalToBinder_1.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__BindSignalToBinder_1_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"

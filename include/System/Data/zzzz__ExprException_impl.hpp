@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/ExprException.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Data/zzzz__ExprException_def.hpp"
 #include "System/Data/zzzz__EvaluateException_def.hpp"

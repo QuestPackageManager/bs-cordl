@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/MaterialReference.hpp"
 #include "TMPro/zzzz__MaterialReference_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "TMPro/zzzz__TMP_FontAsset_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/OverflowException.hpp"
 #include "System/zzzz__ArithmeticException_impl.hpp"
 #include "System/zzzz__OverflowException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"

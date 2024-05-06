@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/AlphabetScrollbarInfoBeatmapLevelHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__AlphabetScrollbarInfoBeatmapLevelHelper_def.hpp"
 #include "GlobalNamespace/zzzz__AlphabetScrollInfo_def.hpp"

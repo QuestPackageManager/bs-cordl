@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Error.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Linq/zzzz__Error_def.hpp"
 #include "System/zzzz__Exception_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/IStylePainter.hpp"
 #include "UnityEngine/UIElements/zzzz__IStylePainter_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ITextHandle_def.hpp"

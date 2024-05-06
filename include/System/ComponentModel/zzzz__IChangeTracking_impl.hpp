@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ComponentModel/IChangeTracking.hpp"
 #include "System/ComponentModel/zzzz__IChangeTracking_def.hpp"
 //  Writing Method size for method: ::System::ComponentModel::IChangeTracking.get_IsChanged
 template <>

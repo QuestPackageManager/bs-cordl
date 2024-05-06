@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/LineTextureMode.hpp"
 #include "UnityEngine/zzzz__LineTextureMode_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::LineTextureMode::LineTextureMode(int32_t value__) noexcept {

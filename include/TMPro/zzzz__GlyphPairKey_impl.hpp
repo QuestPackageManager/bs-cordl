@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/GlyphPairKey.hpp"
 #include "TMPro/zzzz__GlyphPairKey_def.hpp"
 #include "TMPro/zzzz__TMP_GlyphPairAdjustmentRecord_def.hpp"
 //  Writing Method size for method: ::TMPro::GlyphPairKey._ctor

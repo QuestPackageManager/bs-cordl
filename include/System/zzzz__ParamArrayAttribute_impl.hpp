@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ParamArrayAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/zzzz__ParamArrayAttribute_def.hpp"
 //  Writing Method size for method: ::System::ParamArrayAttribute._ctor

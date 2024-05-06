@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/VREvent_Scroll_t.hpp"
 #include "OVR/OpenVR/zzzz__VREvent_Scroll_t_def.hpp"
 // Ctor Parameters [CppParam { name: "xdelta", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ydelta", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
 // "repeatCount", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]

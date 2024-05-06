@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/NativeClassAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/zzzz__NativeClassAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::NativeClassAttribute.set_QualifiedNativeName

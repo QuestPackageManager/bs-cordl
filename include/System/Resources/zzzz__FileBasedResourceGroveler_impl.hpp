@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Resources/FileBasedResourceGroveler.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Resources/zzzz__FileBasedResourceGroveler_def.hpp"
 #include "System/Resources/zzzz__IResourceGroveler_def.hpp"

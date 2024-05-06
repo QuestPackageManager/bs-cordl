@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Generators/Pkcs5S1ParametersGenerator.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__PbeParametersGenerator_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Generators/zzzz__Pkcs5S1ParametersGenerator_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"

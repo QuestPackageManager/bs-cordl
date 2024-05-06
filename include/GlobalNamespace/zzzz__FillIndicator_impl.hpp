@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/FillIndicator.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__FillIndicator_def.hpp"
 #include "UnityEngine/UI/zzzz__Image_def.hpp"

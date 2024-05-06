@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Collections/Generic/IEqualityComparer_1.hpp"
 #include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
 template <typename T> inline bool System::Collections::Generic::IEqualityComparer_1<T>::Equals(T x, T y) {
   auto* ___internal_method =

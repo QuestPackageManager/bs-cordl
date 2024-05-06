@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/IMECompositionMode.hpp"
 #include "UnityEngine/zzzz__IMECompositionMode_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::IMECompositionMode::IMECompositionMode(int32_t value__) noexcept {

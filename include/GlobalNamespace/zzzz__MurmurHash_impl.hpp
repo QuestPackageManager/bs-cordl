@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MurmurHash.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MurmurHash_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MurmurHash.MurmurHash2

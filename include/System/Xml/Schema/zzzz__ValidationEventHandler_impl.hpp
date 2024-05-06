@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/ValidationEventHandler.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Xml/Schema/zzzz__ValidationEventHandler_def.hpp"
 #include "System/Xml/Schema/zzzz__ValidationEventArgs_def.hpp"

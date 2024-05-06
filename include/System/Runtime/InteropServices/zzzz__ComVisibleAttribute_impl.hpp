@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/InteropServices/ComVisibleAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Runtime/InteropServices/zzzz__ComVisibleAttribute_def.hpp"
 //  Writing Method size for method: ::System::Runtime::InteropServices::ComVisibleAttribute._ctor

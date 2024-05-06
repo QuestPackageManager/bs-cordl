@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/LanguageSettingsController.hpp"
 #include "GlobalNamespace/zzzz__DropdownSettingsController_impl.hpp"
 #include "GlobalNamespace/zzzz__LanguageSettingsController_def.hpp"
 #include "BeatSaber/GameSettings/zzzz__MainSettingsHandler_def.hpp"

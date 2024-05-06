@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/HttpRequestCreator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__HttpRequestCreator_def.hpp"
 #include "System/Net/zzzz__IWebRequestCreate_def.hpp"

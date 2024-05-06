@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/EnterTextViewController.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__EnterTextViewController_def.hpp"
 #include "GlobalNamespace/zzzz__VRTextEntryController_def.hpp"

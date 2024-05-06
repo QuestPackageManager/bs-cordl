@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatmapSaveDataCommon/ExecutionTime.hpp"
 #include "BeatmapSaveDataCommon/zzzz__ExecutionTime_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::BeatmapSaveDataCommon::ExecutionTime::ExecutionTime(int32_t value__) noexcept {

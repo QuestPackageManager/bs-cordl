@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/FaceInfo_Legacy.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "TMPro/zzzz__FaceInfo_Legacy_def.hpp"
 //  Writing Method size for method: ::TMPro::FaceInfo_Legacy._ctor

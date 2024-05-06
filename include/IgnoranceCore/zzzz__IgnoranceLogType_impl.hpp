@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "IgnoranceCore/IgnoranceLogType.hpp"
 #include "IgnoranceCore/zzzz__IgnoranceLogType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::IgnoranceCore::IgnoranceLogType::IgnoranceLogType(int32_t value__) noexcept {

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ProBuilder/Log.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__LogLevel_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__LogOutput_impl.hpp"

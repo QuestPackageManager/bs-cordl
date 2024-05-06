@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LiteNetLib/SimpleChannel.hpp"
 #include "LiteNetLib/zzzz__BaseChannel_impl.hpp"
 #include "LiteNetLib/zzzz__SimpleChannel_def.hpp"
 #include "LiteNetLib/zzzz__NetPacket_def.hpp"

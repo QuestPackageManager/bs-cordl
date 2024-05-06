@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/RuntimeLabel.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__RuntimeLabel_def.hpp"
 //  Writing Method size for method: ::System::Linq::Expressions::Interpreter::RuntimeLabel._ctor
 template <>

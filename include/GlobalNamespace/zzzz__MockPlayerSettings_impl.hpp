@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MockPlayerSettings.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficulty_impl.hpp"
 #include "GlobalNamespace/zzzz__MockPlayerAvatarType_impl.hpp"
 #include "GlobalNamespace/zzzz__MockPlayerMovementType_impl.hpp"

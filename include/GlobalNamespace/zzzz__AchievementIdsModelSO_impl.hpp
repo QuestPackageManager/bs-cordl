@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/AchievementIdsModelSO.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__AchievementIdsModelSO_def.hpp"
 #include "GlobalNamespace/zzzz__AchievementSO_def.hpp"

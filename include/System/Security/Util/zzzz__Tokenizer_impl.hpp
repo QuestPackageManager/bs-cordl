@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Util/Tokenizer.hpp"
 #include "System/Security/Util/zzzz__Tokenizer_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Security/Util/zzzz__Tokenizer_def.hpp"

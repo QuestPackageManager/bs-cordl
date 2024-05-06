@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/LeafNode.hpp"
 #include "System/Xml/Schema/zzzz__SyntaxTreeNode_impl.hpp"
 #include "System/Xml/Schema/zzzz__LeafNode_def.hpp"
 #include "System/Xml/Schema/zzzz__BitSet_def.hpp"

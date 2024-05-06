@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/DomainNameHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__DomainNameHelper_def.hpp"
 //  Writing Method size for method: ::System::DomainNameHelper.ParseCanonicalName

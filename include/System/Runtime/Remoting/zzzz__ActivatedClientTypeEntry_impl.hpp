@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/ActivatedClientTypeEntry.hpp"
 #include "System/Runtime/Remoting/zzzz__TypeEntry_impl.hpp"
 #include "System/Runtime/Remoting/zzzz__ActivatedClientTypeEntry_def.hpp"
 #include "System/Runtime/Remoting/Contexts/zzzz__IContextAttribute_def.hpp"

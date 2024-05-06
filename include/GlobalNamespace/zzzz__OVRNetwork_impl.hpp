@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OVRNetwork.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRNetwork_def.hpp"
 #include "GlobalNamespace/zzzz__OVRNetwork_def.hpp"

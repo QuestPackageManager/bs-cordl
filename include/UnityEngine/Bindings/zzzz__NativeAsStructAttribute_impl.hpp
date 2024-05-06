@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Bindings/NativeAsStructAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/Bindings/zzzz__NativeAsStructAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Bindings::NativeAsStructAttribute._ctor

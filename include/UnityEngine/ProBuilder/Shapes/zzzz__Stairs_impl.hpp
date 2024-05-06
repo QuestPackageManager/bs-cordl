@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ProBuilder/Shapes/Stairs.hpp"
 #include "UnityEngine/ProBuilder/Shapes/zzzz__Shape_impl.hpp"
 #include "UnityEngine/ProBuilder/Shapes/zzzz__StepGenerationType_impl.hpp"
 #include "UnityEngine/ProBuilder/Shapes/zzzz__Stairs_def.hpp"

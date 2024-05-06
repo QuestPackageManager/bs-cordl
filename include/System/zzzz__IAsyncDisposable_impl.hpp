@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/IAsyncDisposable.hpp"
 #include "System/zzzz__IAsyncDisposable_def.hpp"
 #include "System/Threading/Tasks/zzzz__ValueTask_def.hpp"
 //  Writing Method size for method: ::System::IAsyncDisposable.DisposeAsync

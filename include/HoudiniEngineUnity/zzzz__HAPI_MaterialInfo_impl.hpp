@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HAPI_MaterialInfo.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_MaterialInfo_def.hpp"
 // Ctor Parameters [CppParam { name: "nodeId", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "exists", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name:
 // "hasChanged", ty: "bool", modifiers: "", def_value: Some("{}") }]

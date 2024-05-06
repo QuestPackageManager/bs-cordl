@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/FloatTween.hpp"
 #include "UnityEngine/Events/zzzz__UnityEvent_1_impl.hpp"
 #include "TMPro/zzzz__FloatTween_def.hpp"
 #include "TMPro/zzzz__FloatTween_def.hpp"

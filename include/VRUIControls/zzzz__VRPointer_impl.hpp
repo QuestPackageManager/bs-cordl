@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "VRUIControls/VRPointer.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "VRUIControls/zzzz__VRPointer_def.hpp"
 #include "GlobalNamespace/zzzz__VRController_def.hpp"

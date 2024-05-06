@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/SyntaxErrorException.hpp"
 #include "System/Data/zzzz__InvalidExpressionException_impl.hpp"
 #include "System/Data/zzzz__SyntaxErrorException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"

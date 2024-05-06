@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Diagnostics/DebuggerNonUserCodeAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Diagnostics/zzzz__DebuggerNonUserCodeAttribute_def.hpp"
 //  Writing Method size for method: ::System::Diagnostics::DebuggerNonUserCodeAttribute._ctor

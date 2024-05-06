@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/CameraRaycastHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__CameraRaycastHelper_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"

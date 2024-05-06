@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/NetworkInformation/UnixIPGlobalPropertiesFactoryPal.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/NetworkInformation/zzzz__UnixIPGlobalPropertiesFactoryPal_def.hpp"
 #include "System/Net/NetworkInformation/zzzz__IPGlobalProperties_def.hpp"

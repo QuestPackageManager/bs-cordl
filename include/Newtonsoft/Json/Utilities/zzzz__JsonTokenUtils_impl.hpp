@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/JsonTokenUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__JsonTokenUtils_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonToken_def.hpp"

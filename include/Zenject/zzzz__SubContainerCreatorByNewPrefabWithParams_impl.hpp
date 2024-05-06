@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/SubContainerCreatorByNewPrefabWithParams.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__TypeValuePair_impl.hpp"
 #include "Zenject/zzzz__SubContainerCreatorByNewPrefabWithParams_def.hpp"

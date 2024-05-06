@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/XPlatformAccessTokenData.hpp"
 #include "GlobalNamespace/zzzz__PlatformEnvironment_impl.hpp"
 #include "GlobalNamespace/zzzz__XPlatformAccessTokenData_def.hpp"
 #include "GlobalNamespace/zzzz__PlatformEnvironment_def.hpp"

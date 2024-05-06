@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BoxCuttableBySaber.hpp"
 #include "GlobalNamespace/zzzz__CuttableBySaber_impl.hpp"
 #include "GlobalNamespace/zzzz__BoxCuttableBySaber_def.hpp"
 #include "GlobalNamespace/zzzz__Saber_def.hpp"

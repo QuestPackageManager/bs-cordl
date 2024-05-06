@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/GaussianSeparableBlurRendererSO.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__GaussianSeparableBlurRendererSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::GaussianSeparableBlurRendererSO._ctor

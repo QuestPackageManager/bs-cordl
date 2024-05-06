@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MultiplayerLobbyInstaller.hpp"
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLobbyInstaller_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLobbyAvatarController_def.hpp"

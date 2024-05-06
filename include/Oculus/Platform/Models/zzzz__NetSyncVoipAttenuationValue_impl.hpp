@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/Models/NetSyncVoipAttenuationValue.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/Models/zzzz__NetSyncVoipAttenuationValue_def.hpp"
 //  Writing Method size for method: ::Oculus::Platform::Models::NetSyncVoipAttenuationValue._ctor

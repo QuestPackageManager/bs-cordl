@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Security/ASN1.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Security/zzzz__ASN1_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Collections/Specialized/OrderedDictionary.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/Specialized/zzzz__OrderedDictionary_def.hpp"
 #include "System/Collections/Specialized/zzzz__OrderedDictionary_def.hpp"

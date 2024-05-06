@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/LeftShiftInstruction_LeftShiftByte.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__LeftShiftInstruction_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__LeftShiftInstruction_LeftShiftByte_def.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__InterpretedFrame_def.hpp"

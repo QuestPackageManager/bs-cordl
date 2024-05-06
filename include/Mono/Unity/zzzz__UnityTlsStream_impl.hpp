@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Unity/UnityTlsStream.hpp"
 #include "Mono/Net/Security/zzzz__MobileAuthenticatedStream_impl.hpp"
 #include "Mono/Unity/zzzz__UnityTlsStream_def.hpp"
 #include "Mono/Net/Security/zzzz__MobileTlsContext_def.hpp"

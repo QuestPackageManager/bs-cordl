@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/Burst/CompilerServices/Aliasing.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Burst/CompilerServices/zzzz__Aliasing_def.hpp"
 //  Writing Method size for method: ::Unity::Burst::CompilerServices::Aliasing.ExpectAliased

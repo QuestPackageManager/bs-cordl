@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/ImageSource.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__ImageSource_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VectorImage_def.hpp"
 #include "UnityEngine/zzzz__RenderTexture_def.hpp"

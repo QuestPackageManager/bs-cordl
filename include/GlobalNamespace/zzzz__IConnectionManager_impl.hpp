@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IConnectionManager.hpp"
 #include "GlobalNamespace/zzzz__IConnectionManager_def.hpp"
 #include "BGNet/Core/zzzz__DeliveryMethod_def.hpp"
 #include "GlobalNamespace/zzzz__ConnectionFailedReason_def.hpp"

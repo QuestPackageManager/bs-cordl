@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/PathList.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__PathList_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"

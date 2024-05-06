@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/NetworkInformation/AixStructs/ifreq_mtu.hpp"
 #include "System/Net/NetworkInformation/AixStructs/zzzz__ifreq_mtu_impl.hpp"
 #include "System/Net/NetworkInformation/AixStructs/zzzz__ifreq_mtu_def.hpp"
 #include "System/Net/NetworkInformation/AixStructs/zzzz__ifreq_mtu_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Tweening/Vector2Tween.hpp"
 #include "Tweening/zzzz__Tween_1_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "Tweening/zzzz__Vector2Tween_def.hpp"

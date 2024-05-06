@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/UIElementsPackageUtility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UIElementsPackageUtility_def.hpp"
 inline void UnityEngine::UIElements::UIElementsPackageUtility::setStaticF_EditorResourcesBasePath(::StringW value) {

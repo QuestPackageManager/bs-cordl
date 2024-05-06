@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Gizmos.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Gizmos_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"

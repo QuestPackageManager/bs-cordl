@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/NetworkInformation/MacOsStructs/ifaddrs.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/Net/NetworkInformation/MacOsStructs/zzzz__ifaddrs_def.hpp"
 // Ctor Parameters [CppParam { name: "ifa_next", ty: "void*", modifiers: "", def_value: Some("{}") }, CppParam { name: "ifa_name", ty: "::StringW", modifiers: "", def_value: Some("nullptr") },

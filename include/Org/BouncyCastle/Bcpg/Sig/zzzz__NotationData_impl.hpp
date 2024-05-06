@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Bcpg/Sig/NotationData.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__SignatureSubpacket_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/Sig/zzzz__NotationData_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Bcpg::Sig::NotationData._ctor

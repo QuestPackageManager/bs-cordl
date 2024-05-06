@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/RenderSettings.hpp"
 #include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__RenderSettings_def.hpp"
 #include "UnityEngine/Rendering/zzzz__AmbientMode_def.hpp"

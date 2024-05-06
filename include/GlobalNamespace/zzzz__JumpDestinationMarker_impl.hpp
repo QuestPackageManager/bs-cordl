@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/JumpDestinationMarker.hpp"
 #include "UnityEngine/Timeline/zzzz__Marker_impl.hpp"
 #include "GlobalNamespace/zzzz__JumpDestinationMarker_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::JumpDestinationMarker._ctor

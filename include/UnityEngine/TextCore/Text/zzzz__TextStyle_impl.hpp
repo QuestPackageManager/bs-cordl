@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/TextCore/Text/TextStyle.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextStyle_def.hpp"
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextStyle.get_hashCode

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/NullAllowedIf.hpp"
 #include "GlobalNamespace/zzzz__ComparisonOperation_impl.hpp"
 #include "GlobalNamespace/zzzz__NullAllowed_impl.hpp"
 #include "GlobalNamespace/zzzz__NullAllowedIf_def.hpp"

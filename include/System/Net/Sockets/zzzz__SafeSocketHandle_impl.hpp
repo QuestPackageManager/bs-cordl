@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Sockets/SafeSocketHandle.hpp"
 #include "Microsoft/Win32/SafeHandles/zzzz__SafeHandleMinusOneIsInvalid_impl.hpp"
 #include "System/Net/Sockets/zzzz__SafeSocketHandle_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"

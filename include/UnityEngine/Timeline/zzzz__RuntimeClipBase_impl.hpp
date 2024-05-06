@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Timeline/RuntimeClipBase.hpp"
 #include "UnityEngine/Timeline/zzzz__RuntimeElement_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__RuntimeClipBase_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Timeline::RuntimeClipBase.get_start

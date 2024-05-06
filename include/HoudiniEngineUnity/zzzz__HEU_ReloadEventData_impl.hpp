@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HEU_ReloadEventData.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_AssetEventData_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_ReloadEventData_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_HoudiniAsset_def.hpp"

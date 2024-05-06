@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/SqlTypes/SqlDateTime.hpp"
 #include "System/zzzz__DateTime_impl.hpp"
 #include "System/zzzz__TimeSpan_impl.hpp"
 #include "System/Data/SqlTypes/zzzz__SqlDateTime_def.hpp"

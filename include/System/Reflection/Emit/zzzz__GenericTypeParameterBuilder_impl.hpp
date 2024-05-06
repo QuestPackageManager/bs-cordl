@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Reflection/Emit/GenericTypeParameterBuilder.hpp"
 #include "System/Reflection/zzzz__TypeInfo_impl.hpp"
 #include "System/Reflection/Emit/zzzz__GenericTypeParameterBuilder_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"

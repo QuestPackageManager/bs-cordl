@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Random.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__Random_def.hpp"
 //  Writing Method size for method: ::System::Random._ctor

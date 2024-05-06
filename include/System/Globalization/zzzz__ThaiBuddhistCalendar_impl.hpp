@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Globalization/ThaiBuddhistCalendar.hpp"
 #include "System/Globalization/zzzz__Calendar_impl.hpp"
 #include "System/Globalization/zzzz__ThaiBuddhistCalendar_def.hpp"
 #include "System/Globalization/zzzz__EraInfo_def.hpp"

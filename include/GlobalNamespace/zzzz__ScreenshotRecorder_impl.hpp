@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ScreenshotRecorder.hpp"
 #include "GlobalNamespace/zzzz__ScreenshotRecorder_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ScreenshotRecorder_def.hpp"

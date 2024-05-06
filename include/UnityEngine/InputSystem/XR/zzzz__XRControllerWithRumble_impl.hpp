@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/XR/XRControllerWithRumble.hpp"
 #include "UnityEngine/InputSystem/XR/zzzz__XRController_impl.hpp"
 #include "UnityEngine/InputSystem/XR/zzzz__XRControllerWithRumble_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::XR::XRControllerWithRumble.SendImpulse

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IAudioTimeSource.hpp"
 #include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IAudioTimeSource.get_songTime
 template <>

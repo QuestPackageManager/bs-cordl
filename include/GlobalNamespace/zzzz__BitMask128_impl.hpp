@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BitMask128.hpp"
 #include "GlobalNamespace/zzzz__BitMask128_def.hpp"
 #include "GlobalNamespace/zzzz__IBitMask_1_def.hpp"
 #include "LiteNetLib/Utils/zzzz__INetImmutableSerializable_1_def.hpp"

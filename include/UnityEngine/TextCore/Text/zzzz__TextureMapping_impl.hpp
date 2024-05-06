@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/TextCore/Text/TextureMapping.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextureMapping_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::TextCore::Text::TextureMapping::TextureMapping(int32_t value__) noexcept {

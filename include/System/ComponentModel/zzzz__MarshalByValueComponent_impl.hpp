@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ComponentModel/MarshalByValueComponent.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/ComponentModel/zzzz__MarshalByValueComponent_def.hpp"
 #include "System/ComponentModel/zzzz__EventHandlerList_def.hpp"

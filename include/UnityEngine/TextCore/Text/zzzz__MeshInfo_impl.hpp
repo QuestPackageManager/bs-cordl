@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/TextCore/Text/MeshInfo.hpp"
 #include "UnityEngine/zzzz__Color32_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__MeshInfo_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__VertexSortingOrder_def.hpp"

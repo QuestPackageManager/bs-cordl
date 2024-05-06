@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UI/CanvasUpdateRegistry.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UI/zzzz__CanvasUpdateRegistry_def.hpp"
 #include "System/zzzz__Comparison_1_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/WebRequestPrefixElement.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__WebRequestPrefixElement_def.hpp"
 #include "System/Net/zzzz__IWebRequestCreate_def.hpp"

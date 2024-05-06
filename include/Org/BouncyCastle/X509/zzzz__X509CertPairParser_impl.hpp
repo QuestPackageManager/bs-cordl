@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/X509/X509CertPairParser.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/X509/zzzz__X509CertPairParser_def.hpp"
 #include "Org/BouncyCastle/X509/zzzz__X509CertificatePair_def.hpp"

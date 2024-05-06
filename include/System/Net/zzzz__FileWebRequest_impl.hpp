@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/FileWebRequest.hpp"
 #include "System/IO/zzzz__FileAccess_impl.hpp"
 #include "System/Net/zzzz__WebRequest_impl.hpp"
 #include "System/Net/zzzz__FileWebRequest_def.hpp"

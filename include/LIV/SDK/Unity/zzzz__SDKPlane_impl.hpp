@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LIV/SDK/Unity/SDKPlane.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKVector3_impl.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKPlane_def.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKVector3_def.hpp"

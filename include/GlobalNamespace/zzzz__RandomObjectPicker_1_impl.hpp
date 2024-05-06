@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/RandomObjectPicker_1.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__RandomObjectPicker_1_def.hpp"
 template <typename T> constexpr ::ArrayW<T, ::Array<T>*>& GlobalNamespace::RandomObjectPicker_1<T>::__cordl_internal_get__objects() {

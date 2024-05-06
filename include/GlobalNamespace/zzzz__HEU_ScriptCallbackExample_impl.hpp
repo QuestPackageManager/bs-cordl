@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/HEU_ScriptCallbackExample.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__HEU_ScriptCallbackExample_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::HEU_ScriptCallbackExample.AssetCallbackWithMsg

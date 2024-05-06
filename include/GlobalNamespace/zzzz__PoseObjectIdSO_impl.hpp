@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/PoseObjectIdSO.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__PoseObjectIdSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PoseObjectIdSO.get_id

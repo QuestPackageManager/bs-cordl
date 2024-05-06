@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/SpanHelpers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__SpanHelpers_def.hpp"
 #include "System/Globalization/zzzz__CompareInfo_def.hpp"

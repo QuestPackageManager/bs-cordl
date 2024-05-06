@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Cryptography/X509Certificates/X509ChainImplMono.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__StoreLocation_impl.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainImpl_impl.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509ChainImplMono_def.hpp"

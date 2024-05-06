@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/DataTableClearEventHandler.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Data/zzzz__DataTableClearEventHandler_def.hpp"
 #include "System/Data/zzzz__DataTableClearEventArgs_def.hpp"

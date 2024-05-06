@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Linq/LineInfoEndElementAnnotation.hpp"
 #include "System/Xml/Linq/zzzz__LineInfoAnnotation_impl.hpp"
 #include "System/Xml/Linq/zzzz__LineInfoEndElementAnnotation_def.hpp"
 //  Writing Method size for method: ::System::Xml::Linq::LineInfoEndElementAnnotation._ctor

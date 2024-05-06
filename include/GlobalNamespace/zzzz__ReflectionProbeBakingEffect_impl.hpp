@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ReflectionProbeBakingEffect.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ReflectionProbeBakingEffect_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"

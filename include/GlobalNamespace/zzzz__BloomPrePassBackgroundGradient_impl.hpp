@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BloomPrePassBackgroundGradient.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassBackgroundTextureGradient_impl.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassBackgroundGradient_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"

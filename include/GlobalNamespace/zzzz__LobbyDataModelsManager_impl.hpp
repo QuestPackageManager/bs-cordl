@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/LobbyDataModelsManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__LobbyDataModelsManager_def.hpp"
 #include "GlobalNamespace/zzzz__ILobbyGameStateControllerBase_def.hpp"

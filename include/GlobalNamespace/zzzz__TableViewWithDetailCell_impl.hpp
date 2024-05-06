@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/TableViewWithDetailCell.hpp"
 #include "HMUI/zzzz__TableView_impl.hpp"
 #include "GlobalNamespace/zzzz__TableViewWithDetailCell_def.hpp"
 #include "GlobalNamespace/zzzz__TableViewWithDetailCell_def.hpp"

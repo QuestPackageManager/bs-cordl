@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ParticleSystemVertexStreams.hpp"
 #include "UnityEngine/zzzz__ParticleSystemVertexStreams_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::ParticleSystemVertexStreams::ParticleSystemVertexStreams(int32_t value__) noexcept {

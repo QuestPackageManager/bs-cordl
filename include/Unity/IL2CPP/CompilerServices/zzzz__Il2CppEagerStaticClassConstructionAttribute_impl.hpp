@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/IL2CPP/CompilerServices/Il2CppEagerStaticClassConstructionAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "Unity/IL2CPP/CompilerServices/zzzz__Il2CppEagerStaticClassConstructionAttribute_def.hpp"
 //  Writing Method size for method: ::Unity::IL2CPP::CompilerServices::Il2CppEagerStaticClassConstructionAttribute._ctor
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::IL2CPP::CompilerServices::Il2CppEagerStaticClassConstructionAttribute::*)()>(
     &::Unity::IL2CPP::CompilerServices::Il2CppEagerStaticClassConstructionAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x31bfe68;
+  constexpr static std::size_t addrs = 0x33d56ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

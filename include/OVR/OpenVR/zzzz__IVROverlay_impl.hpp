@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/IVROverlay.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "OVR/OpenVR/zzzz__IVROverlay_def.hpp"
 #include "OVR/OpenVR/zzzz__EColorSpace_def.hpp"

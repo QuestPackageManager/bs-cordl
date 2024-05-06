@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/NetworkInformation/GatewayIPAddressInformation.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/NetworkInformation/zzzz__GatewayIPAddressInformation_def.hpp"
 //  Writing Method size for method: ::System::Net::NetworkInformation::GatewayIPAddressInformation._ctor

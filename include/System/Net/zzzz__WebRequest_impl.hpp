@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/WebRequest.hpp"
 #include "System/Net/Security/zzzz__AuthenticationLevel_impl.hpp"
 #include "System/Security/Principal/zzzz__TokenImpersonationLevel_impl.hpp"
 #include "System/zzzz__MarshalByRefObject_impl.hpp"

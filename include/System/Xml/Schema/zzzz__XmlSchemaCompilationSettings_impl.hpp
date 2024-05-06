@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaCompilationSettings.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaCompilationSettings_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::XmlSchemaCompilationSettings._ctor

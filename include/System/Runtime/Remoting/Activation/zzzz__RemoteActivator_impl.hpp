@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/Activation/RemoteActivator.hpp"
 #include "System/zzzz__MarshalByRefObject_impl.hpp"
 #include "System/Runtime/Remoting/Activation/zzzz__RemoteActivator_def.hpp"
 #include "System/Runtime/Remoting/Activation/zzzz__IActivator_def.hpp"

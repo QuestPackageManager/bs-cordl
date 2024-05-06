@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/XPlatformAuthFeatureFlag.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__XPlatformAuthFeatureFlag_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::XPlatformAuthFeatureFlag.get_UseXPlatformAuth

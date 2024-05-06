@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatmapSaveDataCommon/BeatmapEventType.hpp"
 #include "BeatmapSaveDataCommon/zzzz__BeatmapEventType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::BeatmapSaveDataCommon::BeatmapEventType::BeatmapEventType(int32_t value__) noexcept {

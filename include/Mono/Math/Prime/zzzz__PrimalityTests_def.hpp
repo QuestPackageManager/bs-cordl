@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Math/Prime/PrimalityTests.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,11 +26,17 @@ namespace Mono::Math::Prime {
 class CORDL_TYPE PrimalityTests : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetSPPRounds, addr 0x278e1a0, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method GetSPPRounds, addr 0x27aa668, size 0x194, virtual false, abstract: false, final false
   static inline int32_t GetSPPRounds(::Mono::Math::BigInteger* bi, ::Mono::Math::Prime::ConfidenceFactor confidence);
 
-  /// @brief Method RabinMillerTest, addr 0x278e334, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method RabinMillerTest, addr 0x27aa9c8, size 0x290, virtual false, abstract: false, final false
   static inline bool RabinMillerTest(::Mono::Math::BigInteger* n, ::Mono::Math::Prime::ConfidenceFactor confidence);
+
+  /// @brief Method SmallPrimeSppTest, addr 0x27aa7fc, size 0x1cc, virtual false, abstract: false, final false
+  static inline bool SmallPrimeSppTest(::Mono::Math::BigInteger* bi, ::Mono::Math::Prime::ConfidenceFactor confidence);
+
+  /// @brief Method Test, addr 0x27a97b4, size 0x4c, virtual false, abstract: false, final false
+  static inline bool Test(::Mono::Math::BigInteger* n, ::Mono::Math::Prime::ConfidenceFactor confidence);
 
 protected:
   // Ctor Parameters []

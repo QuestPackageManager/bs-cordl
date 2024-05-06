@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/GradientAlphaKey.hpp"
 #include "UnityEngine/zzzz__GradientAlphaKey_def.hpp"
 //  Writing Method size for method: ::UnityEngine::GradientAlphaKey._ctor
 template <>

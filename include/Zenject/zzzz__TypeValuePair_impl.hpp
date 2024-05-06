@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/TypeValuePair.hpp"
 #include "Zenject/zzzz__TypeValuePair_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"

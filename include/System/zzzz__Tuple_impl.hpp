@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Tuple.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__Tuple_def.hpp"
 #include "System/zzzz__Tuple_2_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/EmitParticles.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__EmitParticles_def.hpp"
 #include "UnityEngine/zzzz__ParticleSystem_def.hpp"

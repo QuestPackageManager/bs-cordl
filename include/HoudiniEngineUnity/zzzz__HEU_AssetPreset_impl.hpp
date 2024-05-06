@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HEU_AssetPreset.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_AssetPreset_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_InputPreset_def.hpp"

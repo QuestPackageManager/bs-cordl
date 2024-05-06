@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/TerrainCollider.hpp"
 #include "UnityEngine/zzzz__Collider_impl.hpp"
 #include "UnityEngine/zzzz__TerrainCollider_def.hpp"
 #include "UnityEngine/zzzz__TerrainData_def.hpp"

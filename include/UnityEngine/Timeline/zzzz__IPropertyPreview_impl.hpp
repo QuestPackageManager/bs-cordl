@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Timeline/IPropertyPreview.hpp"
 #include "UnityEngine/Timeline/zzzz__IPropertyPreview_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableDirector_def.hpp"
 #include "UnityEngine/Timeline/zzzz__IPropertyCollector_def.hpp"

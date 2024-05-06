@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Experimental/GlobalIllumination/LightMode.hpp"
 #include "UnityEngine/Experimental/GlobalIllumination/zzzz__LightMode_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Experimental::GlobalIllumination::LightMode::LightMode(uint8_t value__) noexcept {

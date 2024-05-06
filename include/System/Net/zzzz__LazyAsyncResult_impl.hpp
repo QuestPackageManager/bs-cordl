@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/LazyAsyncResult.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__LazyAsyncResult_def.hpp"
 #include "System/Net/zzzz__LazyAsyncResult_def.hpp"

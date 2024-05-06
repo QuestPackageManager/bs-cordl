@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Http/Headers/Parser.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Http/Headers/zzzz__Parser_def.hpp"
 #include "System/Net/Http/Headers/zzzz__Parser_def.hpp"

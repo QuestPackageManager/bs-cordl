@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MainSettingsMenuViewController.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__MainSettingsMenuViewController_def.hpp"
 #include "GlobalNamespace/zzzz__SettingsSubMenuInfo_def.hpp"

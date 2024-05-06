@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/StylePropertyNameCollection.hpp"
 #include "System/Collections/Generic/zzzz__List_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StylePropertyName_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StylePropertyNameCollection_def.hpp"

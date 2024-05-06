@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LiteNetLib/Utils/InvalidTypeException.hpp"
 #include "System/zzzz__ArgumentException_impl.hpp"
 #include "LiteNetLib/Utils/zzzz__InvalidTypeException_def.hpp"
 //  Writing Method size for method: ::LiteNetLib::Utils::InvalidTypeException._ctor

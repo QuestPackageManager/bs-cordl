@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/Tasks/ThreadPoolTaskScheduler.hpp"
 #include "System/Threading/Tasks/zzzz__TaskScheduler_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/Tasks/zzzz__ThreadPoolTaskScheduler_def.hpp"

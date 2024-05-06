@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/XR/Oculus/Input/OculusGoController.hpp"
 #include "Unity/XR/Oculus/Input/zzzz__GearVRTrackedController_impl.hpp"
 #include "Unity/XR/Oculus/Input/zzzz__OculusGoController_def.hpp"
 //  Writing Method size for method: ::Unity::XR::Oculus::Input::OculusGoController._ctor

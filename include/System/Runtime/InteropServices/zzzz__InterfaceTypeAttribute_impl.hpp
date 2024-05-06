@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/InteropServices/InterfaceTypeAttribute.hpp"
 #include "System/Runtime/InteropServices/zzzz__ComInterfaceType_impl.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Runtime/InteropServices/zzzz__InterfaceTypeAttribute_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/Test_TreeInstance.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__TreeInstance_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__Test_TreeInstance_def.hpp"

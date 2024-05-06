@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/TMP_Offset.hpp"
 #include "TMPro/zzzz__TMP_Offset_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::TMPro::TMP_Offset.get_left

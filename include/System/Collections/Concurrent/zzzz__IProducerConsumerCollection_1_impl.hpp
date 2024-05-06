@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Collections/Concurrent/IProducerConsumerCollection_1.hpp"
 #include "System/Collections/Concurrent/zzzz__IProducerConsumerCollection_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatmapSaveDataVersion4/FloatFxEvent.hpp"
 #include "BeatmapSaveDataCommon/zzzz__EaseType_impl.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__FloatFxEvent_def.hpp"
 #include "BeatmapSaveDataCommon/zzzz__EaseType_def.hpp"

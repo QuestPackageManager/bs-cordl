@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Serialization/XmlTypeMapMemberAnyElement.hpp"
 #include "System/Xml/Serialization/zzzz__XmlTypeMapMemberExpandable_impl.hpp"
 #include "System/Xml/Serialization/zzzz__XmlTypeMapMemberAnyElement_def.hpp"
 //  Writing Method size for method: ::System::Xml::Serialization::XmlTypeMapMemberAnyElement.IsElementDefined

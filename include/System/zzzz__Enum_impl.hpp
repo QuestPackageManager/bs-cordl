@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Enum.hpp"
 #include "System/zzzz__Enum_ParseFailureKind_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"

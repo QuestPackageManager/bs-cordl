@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Collections/Queue.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/zzzz__Queue_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"

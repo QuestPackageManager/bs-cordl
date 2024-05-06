@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/IMGUIContainer.hpp"
 #include "Unity/Profiling/zzzz__ProfilerMarker_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__ContextType_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__IMGUIContainer_impl.hpp"

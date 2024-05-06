@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Profiling/Memory/Experimental/MetaData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Profiling/Memory/Experimental/zzzz__MetaData_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Profiling::Memory::Experimental::MetaData._ctor

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BGLib/SaveDataCore/LoaderState.hpp"
 #include "BGLib/SaveDataCore/zzzz__LoaderState_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::BGLib::SaveDataCore::LoaderState::LoaderState(uint8_t value__) noexcept {

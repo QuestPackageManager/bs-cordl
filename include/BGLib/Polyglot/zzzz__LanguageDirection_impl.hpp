@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BGLib/Polyglot/LanguageDirection.hpp"
 #include "BGLib/Polyglot/zzzz__LanguageDirection_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::BGLib::Polyglot::LanguageDirection::LanguageDirection(int32_t value__) noexcept {

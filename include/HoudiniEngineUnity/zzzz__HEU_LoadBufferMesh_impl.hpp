@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HEU_LoadBufferMesh.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_LoadBufferBase_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_LoadBufferMesh_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_GenerateGeoCache_def.hpp"

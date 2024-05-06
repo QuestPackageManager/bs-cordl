@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LufsMetering/CalculateRmsBlockJob.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "LufsMetering/zzzz__CalculateRmsBlockJob_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"

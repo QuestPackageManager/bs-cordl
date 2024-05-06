@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/__ComObject.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz____ComObject_def.hpp"
 //  Writing Method size for method: ::System::__ComObject._ctor

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/VROverlayTransformType.hpp"
 #include "OVR/OpenVR/zzzz__VROverlayTransformType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::OVR::OpenVR::VROverlayTransformType::VROverlayTransformType(int32_t value__) noexcept {

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/DeterministicHitChanceScoreCalculator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__DeterministicHitChanceScoreCalculator_def.hpp"
 #include "GlobalNamespace/zzzz__IMockPlayerScoreCalculator_def.hpp"

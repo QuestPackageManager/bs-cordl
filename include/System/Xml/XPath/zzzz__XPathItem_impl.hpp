@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/XPath/XPathItem.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/XPath/zzzz__XPathItem_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaType_def.hpp"

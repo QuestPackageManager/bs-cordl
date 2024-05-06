@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaSubstitutionGroupV1Compat.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaSubstitutionGroup_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaSubstitutionGroupV1Compat_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaChoice_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/Function.hpp"
 #include "System/Data/zzzz__FunctionId_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Data/zzzz__Function_def.hpp"

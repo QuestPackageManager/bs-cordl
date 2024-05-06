@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/XmlAnyConverter.hpp"
 #include "System/Xml/Schema/zzzz__XmlBaseConverter_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlAnyConverter_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlTypeCode_def.hpp"

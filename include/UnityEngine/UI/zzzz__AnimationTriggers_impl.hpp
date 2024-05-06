@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UI/AnimationTriggers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UI/zzzz__AnimationTriggers_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UI::AnimationTriggers.get_normalTrigger

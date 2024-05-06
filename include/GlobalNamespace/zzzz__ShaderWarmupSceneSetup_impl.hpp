@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ShaderWarmupSceneSetup.hpp"
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__ShaderWarmupSceneSetup_def.hpp"
 #include "GlobalNamespace/zzzz__ColorSchemeSO_def.hpp"

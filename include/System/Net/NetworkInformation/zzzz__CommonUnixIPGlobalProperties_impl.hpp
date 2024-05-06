@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/NetworkInformation/CommonUnixIPGlobalProperties.hpp"
 #include "System/Net/NetworkInformation/zzzz__IPGlobalProperties_impl.hpp"
 #include "System/Net/NetworkInformation/zzzz__CommonUnixIPGlobalProperties_def.hpp"
 //  Writing Method size for method: ::System::Net::NetworkInformation::CommonUnixIPGlobalProperties.getdomainname

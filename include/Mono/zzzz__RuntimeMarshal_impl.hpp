@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/RuntimeMarshal.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/zzzz__RuntimeMarshal_def.hpp"
 #include "Mono/zzzz__MonoAssemblyName_def.hpp"

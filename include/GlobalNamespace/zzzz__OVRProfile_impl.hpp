@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OVRProfile.hpp"
 #include "UnityEngine/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRProfile_def.hpp"
 #include "GlobalNamespace/zzzz__OVRProfile_def.hpp"

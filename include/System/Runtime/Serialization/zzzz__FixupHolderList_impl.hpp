@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Serialization/FixupHolderList.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__FixupHolderList_def.hpp"
 #include "System/Runtime/Serialization/zzzz__FixupHolder_def.hpp"

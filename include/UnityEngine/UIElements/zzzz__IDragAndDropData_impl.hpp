@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/IDragAndDropData.hpp"
 #include "UnityEngine/UIElements/zzzz__IDragAndDropData_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::IDragAndDropData.get_userData

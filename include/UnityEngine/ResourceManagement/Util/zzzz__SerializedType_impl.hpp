@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ResourceManagement/Util/SerializedType.hpp"
 #include "UnityEngine/ResourceManagement/Util/zzzz__SerializedType_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::Util::SerializedType.get_AssemblyName

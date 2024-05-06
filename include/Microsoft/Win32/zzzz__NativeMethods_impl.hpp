@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Microsoft/Win32/NativeMethods.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Microsoft/Win32/zzzz__NativeMethods_def.hpp"
 #include "Microsoft/Win32/SafeHandles/zzzz__SafeProcessHandle_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/XsdDuration.hpp"
 #include "System/Xml/Schema/zzzz__XsdDuration_def.hpp"
 #include "System/Xml/Schema/zzzz__XsdDuration_def.hpp"
 #include "System/zzzz__Exception_def.hpp"

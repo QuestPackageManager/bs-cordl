@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/IEnvoyInfo.hpp"
 #include "System/Runtime/Remoting/zzzz__IEnvoyInfo_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IMessageSink_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::IEnvoyInfo.get_EnvoySinks

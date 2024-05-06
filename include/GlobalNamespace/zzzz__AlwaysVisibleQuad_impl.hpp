@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/AlwaysVisibleQuad.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__AlwaysVisibleQuad_def.hpp"
 #include "UnityEngine/zzzz__Mesh_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Bcpg/PacketTag.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__PacketTag_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::Org::BouncyCastle::Bcpg::PacketTag::PacketTag(int32_t value__) noexcept {

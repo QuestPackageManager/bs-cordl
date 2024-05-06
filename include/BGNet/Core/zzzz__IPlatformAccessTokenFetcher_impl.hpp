@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BGNet/Core/IPlatformAccessTokenFetcher.hpp"
 #include "BGNet/Core/zzzz__IPlatformAccessTokenFetcher_def.hpp"
 #include "GlobalNamespace/zzzz__XPlatformAccessTokenData_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"

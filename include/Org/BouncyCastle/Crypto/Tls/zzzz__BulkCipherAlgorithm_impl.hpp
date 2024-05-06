@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/BulkCipherAlgorithm.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__BulkCipherAlgorithm_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Tls::BulkCipherAlgorithm._ctor

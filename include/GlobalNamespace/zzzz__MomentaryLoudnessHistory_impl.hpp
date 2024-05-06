@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MomentaryLoudnessHistory.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MomentaryLoudnessHistory_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MomentaryLoudnessHistory._ctor

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HEU_OutputAttributeDictionary.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_SerializableDictionary_2_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_OutputAttributeDictionary_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_OutputAttribute_def.hpp"

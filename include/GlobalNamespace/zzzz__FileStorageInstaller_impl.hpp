@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/FileStorageInstaller.hpp"
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__FileStorageInstaller_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::FileStorageInstaller.InstallBindings

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/Collections/ReadOnlyAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "Unity/Collections/zzzz__ReadOnlyAttribute_def.hpp"
 //  Writing Method size for method: ::Unity::Collections::ReadOnlyAttribute._ctor

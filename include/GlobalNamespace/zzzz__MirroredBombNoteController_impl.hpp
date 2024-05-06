@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MirroredBombNoteController.hpp"
 #include "GlobalNamespace/zzzz__MirroredNoteController_1_impl.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_impl.hpp"
 #include "GlobalNamespace/zzzz__MirroredBombNoteController_def.hpp"

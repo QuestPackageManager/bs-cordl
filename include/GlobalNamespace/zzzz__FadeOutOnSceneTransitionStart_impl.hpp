@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/FadeOutOnSceneTransitionStart.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__FadeOutOnSceneTransitionStart_def.hpp"
 #include "GlobalNamespace/zzzz__FadeInOutController_def.hpp"

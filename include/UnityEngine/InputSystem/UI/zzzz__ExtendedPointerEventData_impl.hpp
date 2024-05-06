@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/UI/ExtendedPointerEventData.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_impl.hpp"
 #include "UnityEngine/InputSystem/UI/zzzz__UIPointerType_impl.hpp"
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"

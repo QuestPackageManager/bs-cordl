@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/NamedPreset.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__NamedPreset_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::NamedPreset.get_presetNameLocalizationKey

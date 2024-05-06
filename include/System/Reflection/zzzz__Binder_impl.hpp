@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Reflection/Binder.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Reflection/zzzz__Binder_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"

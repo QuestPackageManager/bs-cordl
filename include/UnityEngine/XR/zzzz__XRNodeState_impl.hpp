@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/XR/XRNodeState.hpp"
 #include "UnityEngine/XR/zzzz__AvailableTrackingData_impl.hpp"
 #include "UnityEngine/XR/zzzz__XRNode_impl.hpp"
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"

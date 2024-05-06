@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/Profiling/LowLevel/Unsafe/ProfilerUnsafeUtility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Profiling/LowLevel/Unsafe/zzzz__ProfilerUnsafeUtility_def.hpp"
 #include "Unity/Profiling/LowLevel/zzzz__MarkerFlags_def.hpp"

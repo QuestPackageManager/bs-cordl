@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SliderInteractionEffect.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SliderInteractionEffect_def.hpp"
 #include "GlobalNamespace/zzzz__ColorType_def.hpp"

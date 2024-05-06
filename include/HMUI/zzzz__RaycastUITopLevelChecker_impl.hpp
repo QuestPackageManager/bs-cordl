@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/RaycastUITopLevelChecker.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__RaycastUITopLevelChecker_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"

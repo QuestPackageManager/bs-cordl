@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ProBuilder/ShapeGenerator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__ShapeGenerator_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__Axis_def.hpp"

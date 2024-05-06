@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Prng/IRandomGenerator.hpp"
 #include "Org/BouncyCastle/Crypto/Prng/zzzz__IRandomGenerator_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator.AddSeedMaterial
 template <>

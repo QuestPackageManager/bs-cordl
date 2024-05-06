@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/SessionConnectionState.hpp"
 #include "HoudiniEngineUnity/zzzz__SessionConnectionState_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::HoudiniEngineUnity::SessionConnectionState::SessionConnectionState(int32_t value__) noexcept {

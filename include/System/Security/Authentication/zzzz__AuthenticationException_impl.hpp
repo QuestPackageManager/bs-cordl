@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Authentication/AuthenticationException.hpp"
 #include "System/zzzz__SystemException_impl.hpp"
 #include "System/Security/Authentication/zzzz__AuthenticationException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"

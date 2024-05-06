@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/EasingFunction.hpp"
 #include "UnityEngine/UIElements/zzzz__EasingMode_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__EasingFunction_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"

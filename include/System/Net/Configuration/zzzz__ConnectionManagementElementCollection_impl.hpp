@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Configuration/ConnectionManagementElementCollection.hpp"
 #include "System/Configuration/zzzz__ConfigurationElementCollection_impl.hpp"
 #include "System/Net/Configuration/zzzz__ConnectionManagementElementCollection_def.hpp"
 //  Writing Method size for method: ::System::Net::Configuration::ConnectionManagementElementCollection._ctor

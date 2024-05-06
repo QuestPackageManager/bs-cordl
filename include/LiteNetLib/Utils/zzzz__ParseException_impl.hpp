@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LiteNetLib/Utils/ParseException.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "LiteNetLib/Utils/zzzz__ParseException_def.hpp"
 //  Writing Method size for method: ::LiteNetLib::Utils::ParseException._ctor

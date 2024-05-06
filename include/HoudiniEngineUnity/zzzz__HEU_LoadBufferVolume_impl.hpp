@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HEU_LoadBufferVolume.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_LoadBufferBase_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_LoadBufferVolume_def.hpp"

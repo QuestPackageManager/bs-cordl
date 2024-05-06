@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Buffers/Binary/BinaryPrimitives.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Buffers/Binary/zzzz__BinaryPrimitives_def.hpp"
 //  Writing Method size for method: ::System::Buffers::Binary::BinaryPrimitives.ReverseEndianness

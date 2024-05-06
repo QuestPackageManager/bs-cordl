@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/Experimental/Easing.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/Experimental/zzzz__Easing_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::Experimental::Easing.Linear

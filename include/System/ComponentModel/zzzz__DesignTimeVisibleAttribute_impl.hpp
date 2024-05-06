@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ComponentModel/DesignTimeVisibleAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/ComponentModel/zzzz__DesignTimeVisibleAttribute_def.hpp"
 #include "System/zzzz__Object_def.hpp"

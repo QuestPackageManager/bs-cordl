@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Diagnostics/Stopwatch.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Diagnostics/zzzz__Stopwatch_def.hpp"
 #include "System/zzzz__TimeSpan_def.hpp"

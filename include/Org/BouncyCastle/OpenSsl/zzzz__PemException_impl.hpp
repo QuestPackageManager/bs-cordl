@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/OpenSsl/PemException.hpp"
 #include "System/IO/zzzz__IOException_impl.hpp"
 #include "Org/BouncyCastle/OpenSsl/zzzz__PemException_def.hpp"
 #include "System/zzzz__Exception_def.hpp"

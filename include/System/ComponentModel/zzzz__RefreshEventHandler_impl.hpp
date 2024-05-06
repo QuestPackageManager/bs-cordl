@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ComponentModel/RefreshEventHandler.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/ComponentModel/zzzz__RefreshEventHandler_def.hpp"
 #include "System/ComponentModel/zzzz__RefreshEventArgs_def.hpp"

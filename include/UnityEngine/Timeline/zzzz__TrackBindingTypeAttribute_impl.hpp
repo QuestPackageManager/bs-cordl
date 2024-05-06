@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Timeline/TrackBindingTypeAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__TrackBindingFlags_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__TrackBindingTypeAttribute_def.hpp"

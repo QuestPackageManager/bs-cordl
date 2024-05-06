@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/ZenjectMoqExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__ZenjectMoqExtensions_def.hpp"
 #include "Zenject/zzzz__ConditionCopyNonLazyBinder_def.hpp"

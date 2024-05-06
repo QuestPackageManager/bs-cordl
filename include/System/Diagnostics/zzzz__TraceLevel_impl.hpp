@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Diagnostics/TraceLevel.hpp"
 #include "System/Diagnostics/zzzz__TraceLevel_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Diagnostics::TraceLevel::TraceLevel(int32_t value__) noexcept {

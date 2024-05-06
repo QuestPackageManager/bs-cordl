@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Android/AndroidMagneticFieldSensor.hpp"
 #include "UnityEngine/InputSystem/zzzz__MagneticFieldSensor_impl.hpp"
 #include "UnityEngine/InputSystem/Android/zzzz__AndroidMagneticFieldSensor_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Android::AndroidMagneticFieldSensor._ctor

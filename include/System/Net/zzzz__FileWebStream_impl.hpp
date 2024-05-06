@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/FileWebStream.hpp"
 #include "System/IO/zzzz__FileStream_impl.hpp"
 #include "System/Net/zzzz__FileWebStream_def.hpp"
 #include "System/IO/zzzz__FileAccess_def.hpp"

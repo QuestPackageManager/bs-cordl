@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Diagnostics/MonitoringDescriptionAttribute.hpp"
 #include "System/ComponentModel/zzzz__DescriptionAttribute_impl.hpp"
 #include "System/Diagnostics/zzzz__MonitoringDescriptionAttribute_def.hpp"
 //  Writing Method size for method: ::System::Diagnostics::MonitoringDescriptionAttribute._ctor

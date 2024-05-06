@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/SelectableCellStaticAnimations.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__SelectableCellStaticAnimations_def.hpp"
 #include "HMUI/zzzz__SelectableCell_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OVRCameraComposition.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRCameraComposition_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OVRCameraComposition._ctor

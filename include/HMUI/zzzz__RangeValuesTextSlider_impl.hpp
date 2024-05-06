@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/RangeValuesTextSlider.hpp"
 #include "HMUI/zzzz__TextSlider_impl.hpp"
 #include "HMUI/zzzz__RangeValuesTextSlider_def.hpp"
 #include "HMUI/zzzz__ButtonBinder_def.hpp"

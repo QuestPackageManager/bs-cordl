@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/DoesNotRequireDomainReloadInitAttribute.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "GlobalNamespace/zzzz__DoesNotRequireDomainReloadInitAttribute_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::DoesNotRequireDomainReloadInitAttribute._ctor

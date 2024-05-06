@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Resources/ResourceLocator.hpp"
 #include "System/Resources/zzzz__ResourceLocator_def.hpp"
 #include "System/Resources/zzzz__ResourceTypeCode_def.hpp"
 #include "System/zzzz__Object_def.hpp"

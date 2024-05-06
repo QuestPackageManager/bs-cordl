@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/Experimental/ValueAnimation_1.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/Experimental/zzzz__ValueAnimation_1_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"

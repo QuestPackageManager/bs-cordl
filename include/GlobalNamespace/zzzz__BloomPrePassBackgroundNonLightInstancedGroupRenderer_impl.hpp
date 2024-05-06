@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BloomPrePassBackgroundNonLightInstancedGroupRenderer.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassBackgroundNonLightInstancedGroupRenderer_impl.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassNonLightPass_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"

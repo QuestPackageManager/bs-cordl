@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/IOAsyncResult.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__IOAsyncResult_def.hpp"
 #include "System/Threading/zzzz__ManualResetEvent_def.hpp"
