@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/PosePrediction.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,22 +27,22 @@ namespace GlobalNamespace {
 class CORDL_TYPE PosePrediction : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InterpolatePose, addr 0xfc5174, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method InterpolatePose, addr 0x10b8898, size 0x2cc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Pose InterpolatePose(::UnityEngine::Pose prev, ::UnityEngine::Pose curr, float_t t);
 
-  /// @brief Method InterpolatePoseSerializable, addr 0xfc5520, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method InterpolatePoseSerializable, addr 0x10b8c44, size 0xf0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PoseSerializable InterpolatePoseSerializable(::GlobalNamespace::PoseSerializable a, ::GlobalNamespace::PoseSerializable b, float_t t);
 
   static inline ::GlobalNamespace::PosePrediction* New_ctor();
 
-  /// @brief Method PredictPose, addr 0xfc5084, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method PredictPose, addr 0x10b87a8, size 0xf0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Pose PredictPose(::UnityEngine::Pose prev, int64_t prevTime, ::UnityEngine::Pose curr, int64_t currTime, int64_t time);
 
-  /// @brief Method PredictPoseSerializable, addr 0xfc5440, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method PredictPoseSerializable, addr 0x10b8b64, size 0xe0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PoseSerializable PredictPoseSerializable(::GlobalNamespace::PoseSerializable prev, int64_t prevTime, ::GlobalNamespace::PoseSerializable curr, int64_t currTime,
                                                                             int64_t time);
 
-  /// @brief Method .ctor, addr 0xfc5610, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10b8d34, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

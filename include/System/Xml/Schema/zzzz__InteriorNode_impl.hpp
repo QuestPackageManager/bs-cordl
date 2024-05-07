@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/InteriorNode.hpp"
 #include "System/Xml/Schema/zzzz__SyntaxTreeNode_impl.hpp"
 #include "System/Xml/Schema/zzzz__InteriorNode_def.hpp"
 #include "System/Xml/Schema/zzzz__Positions_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::SyntaxTreeNode* (::System::Xml::Schema::InteriorNode::*)()>(
     &::System::Xml::Schema::InteriorNode::get_LeftChild)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2dfb3bc;
+  constexpr static std::size_t addrs = 0x2ef9cbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::InteriorNode*>::get(), "get_LeftChild",
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::InteriorNode::*)(::System::Xml::Schema::SyntaxTreeNode*)>(
     &::System::Xml::Schema::InteriorNode::set_LeftChild)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2dfb3c4;
+  constexpr static std::size_t addrs = 0x2ef9cc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::SyntaxTreeNode* (::System::Xml::Schema::InteriorNode::*)()>(
     &::System::Xml::Schema::InteriorNode::get_RightChild)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2dfb3cc;
+  constexpr static std::size_t addrs = 0x2ef9ccc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::InteriorNode*>::get(), "get_RightChild",
@@ -53,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::InteriorNode::*)(::System::Xml::Schema::SyntaxTreeNode*)>(
     &::System::Xml::Schema::InteriorNode::set_RightChild)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2dfb3d4;
+  constexpr static std::size_t addrs = 0x2ef9cd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::InteriorNode::*)(
     ::System::Xml::Schema::InteriorNode*, ::System::Xml::Schema::SymbolsDictionary*, ::System::Xml::Schema::Positions*)>(&::System::Xml::Schema::InteriorNode::ExpandTreeNoRecursive)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x2dfb3dc;
+  constexpr static std::size_t addrs = 0x2ef9cdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -85,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::InteriorNode::*)(
     ::System::Xml::Schema::InteriorNode*, ::System::Xml::Schema::SymbolsDictionary*, ::System::Xml::Schema::Positions*)>(&::System::Xml::Schema::InteriorNode::ExpandTree)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2dfb5bc;
+  constexpr static std::size_t addrs = 0x2ef9ebc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -99,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::InteriorNode::*)()>(&::System::Xml::Schema::InteriorNode::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2dfb620;
+  constexpr static std::size_t addrs = 0x2ef9f20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::InteriorNode*>::get(), ".ctor",

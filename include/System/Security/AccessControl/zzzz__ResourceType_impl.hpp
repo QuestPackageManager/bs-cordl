@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/AccessControl/ResourceType.hpp"
 #include "System/Security/AccessControl/zzzz__ResourceType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Security::AccessControl::ResourceType::ResourceType(int32_t value__) noexcept {

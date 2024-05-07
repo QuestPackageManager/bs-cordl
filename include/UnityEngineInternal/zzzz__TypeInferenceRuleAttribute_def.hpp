@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngineInternal/TypeInferenceRuleAttribute.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,7 +30,7 @@ public:
 
   static inline ::UnityEngineInternal::TypeInferenceRuleAttribute* New_ctor(::UnityEngineInternal::TypeInferenceRules rule);
 
-  /// @brief Method ToString, addr 0x31ce23c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x33d4ccc, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::StringW const& __cordl_internal_get__rule() const;
@@ -38,10 +39,10 @@ public:
 
   constexpr void __cordl_internal_set__rule(::StringW value);
 
-  /// @brief Method .ctor, addr 0x31ce214, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33d4ca4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW rule);
 
-  /// @brief Method .ctor, addr 0x31ce190, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33d4c20, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngineInternal::TypeInferenceRules rule);
 
 protected:

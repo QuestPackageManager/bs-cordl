@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Pkcs/AsymmetricKeyEntry.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,10 +37,10 @@ public:
   /// @brief Field key, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key))::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key;
 
-  /// @brief Method Equals, addr 0x12460ac, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x13377d0, size 0xa4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x1246150, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x1337874, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::Org::BouncyCastle::Pkcs::AsymmetricKeyEntry* New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key);
@@ -54,16 +55,16 @@ public:
 
   constexpr void __cordl_internal_set_key(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* value);
 
-  /// @brief Method .ctor, addr 0x1245fe0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1337704, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key);
 
-  /// @brief Method .ctor, addr 0x1246054, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1337778, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key, ::System::Collections::Hashtable* attributes);
 
-  /// @brief Method .ctor, addr 0x124607c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13377a0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key, ::System::Collections::IDictionary* attributes);
 
-  /// @brief Method get_Key, addr 0x12460a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Key, addr 0x13377c8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* get_Key();
 
 protected:

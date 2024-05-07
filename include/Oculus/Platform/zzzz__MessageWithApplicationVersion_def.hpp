@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/MessageWithApplicationVersion.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,15 +23,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithApplicationVersion : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::ApplicationVersion*> {
 public:
   // Declarations
-  /// @brief Method GetApplicationVersion, addr 0x29c969c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetApplicationVersion, addr 0x2ac6f4c, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::ApplicationVersion* GetApplicationVersion();
 
-  /// @brief Method GetDataFromMessage, addr 0x29c96d8, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x2ac6f88, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::ApplicationVersion* GetDataFromMessage(void* c_message);
 
   static inline ::Oculus::Platform::MessageWithApplicationVersion* New_ctor(void* c_message);
 
-  /// @brief Method .ctor, addr 0x29c740c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ac4cbc, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(void* c_message);
 
 protected:

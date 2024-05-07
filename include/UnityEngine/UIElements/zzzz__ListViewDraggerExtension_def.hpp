@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/ListViewDraggerExtension.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,7 +26,7 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE ListViewDraggerExtension : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetRecycledItemFromIndex, addr 0x33596e4, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method GetRecycledItemFromIndex, addr 0x355d420, size 0x348, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::ReusableCollectionItem* GetRecycledItemFromIndex(::UnityEngine::UIElements::BaseVerticalCollectionView* listView, int32_t index);
 
 protected:

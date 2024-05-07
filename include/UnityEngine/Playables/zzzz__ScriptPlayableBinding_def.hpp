@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Playables/ScriptPlayableBinding.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,10 +35,10 @@ namespace UnityEngine::Playables {
 class CORDL_TYPE ScriptPlayableBinding : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x322fb30, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x343786c, size 0xbc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableBinding Create(::StringW name, ::UnityEngine::Object* key, ::System::Type* type);
 
-  /// @brief Method CreateScriptOutput, addr 0x322fbec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CreateScriptOutput, addr 0x3437928, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableOutput CreateScriptOutput(::UnityEngine::Playables::PlayableGraph graph, ::StringW name);
 
 protected:

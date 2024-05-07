@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/XR/XRFeatureDescriptor.hpp"
 #include "UnityEngine/InputSystem/XR/zzzz__FeatureType_impl.hpp"
 #include "UnityEngine/InputSystem/XR/zzzz__XRFeatureDescriptor_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"

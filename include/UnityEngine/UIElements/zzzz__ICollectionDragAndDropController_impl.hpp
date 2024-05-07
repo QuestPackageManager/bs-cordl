@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/ICollectionDragAndDropController.hpp"
 #include "UnityEngine/UIElements/zzzz__ICollectionDragAndDropController_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IDragAndDropController_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IListDragAndDropArgs_def.hpp"

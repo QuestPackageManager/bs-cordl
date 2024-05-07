@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Agreement/JPake/JPakePrimeOrderGroup.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,19 +61,19 @@ public:
 
   constexpr void __cordl_internal_set_q(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method .ctor, addr 0x1383530, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1478c54, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* g);
 
-  /// @brief Method .ctor, addr 0x1383538, size 0x330, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1478c5c, size 0x330, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* g, bool skipChecks);
 
-  /// @brief Method get_G, addr 0x1383878, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_G, addr 0x1478f9c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_G();
 
-  /// @brief Method get_P, addr 0x1383868, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_P, addr 0x1478f8c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_P();
 
-  /// @brief Method get_Q, addr 0x1383870, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Q, addr 0x1478f94, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Q();
 
 protected:

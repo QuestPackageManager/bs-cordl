@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/ChannelData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Remoting/zzzz__ChannelData_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ArrayList* (::System::Runtime::Remoting::ChannelData::*)()>(
     &::System::Runtime::Remoting::ChannelData::get_ServerProviders)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x270fea4;
+  constexpr static std::size_t addrs = 0x280e2a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::ChannelData*>::get(),
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ArrayList* (::System::Runtime::Remoting::ChannelData::*)()>(
     &::System::Runtime::Remoting::ChannelData::get_ClientProviders)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x270ff10;
+  constexpr static std::size_t addrs = 0x280e30c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::ChannelData*>::get(),
@@ -37,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Hashtable* (::System::Runtime::Remoting::ChannelData::*)()>(
     &::System::Runtime::Remoting::ChannelData::get_CustomProperties)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x270ff7c;
+  constexpr static std::size_t addrs = 0x280e378;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::ChannelData*>::get(),
@@ -51,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::ChannelData::*)(::System::Runtime::Remoting::ChannelData*)>(
     &::System::Runtime::Remoting::ChannelData::CopyFrom)> {
   constexpr static std::size_t size = 0x940;
-  constexpr static std::size_t addrs = 0x270ffe8;
+  constexpr static std::size_t addrs = 0x280e3e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::ChannelData::*)()>(&::System::Runtime::Remoting::ChannelData::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x2711094;
+  constexpr static std::size_t addrs = 0x280f490;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::ChannelData*>::get(), ".ctor",

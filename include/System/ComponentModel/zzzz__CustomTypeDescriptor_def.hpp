@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ComponentModel/CustomTypeDescriptor.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,40 +57,40 @@ public:
   /// @brief Convert operator to "::System::ComponentModel::ICustomTypeDescriptor"
   constexpr operator ::System::ComponentModel::ICustomTypeDescriptor*() noexcept;
 
-  /// @brief Method GetAttributes, addr 0x2e3cae0, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method GetAttributes, addr 0x2f3b3e0, size 0xd8, virtual true, abstract: false, final false
   inline ::System::ComponentModel::AttributeCollection* GetAttributes();
 
-  /// @brief Method GetClassName, addr 0x2e3cbb8, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method GetClassName, addr 0x2f3b4b8, size 0xb0, virtual true, abstract: false, final false
   inline ::StringW GetClassName();
 
-  /// @brief Method GetComponentName, addr 0x2e3cc68, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method GetComponentName, addr 0x2f3b568, size 0xb0, virtual true, abstract: false, final false
   inline ::StringW GetComponentName();
 
-  /// @brief Method GetConverter, addr 0x2e3cd18, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method GetConverter, addr 0x2f3b618, size 0xe0, virtual true, abstract: false, final false
   inline ::System::ComponentModel::TypeConverter* GetConverter();
 
-  /// @brief Method GetDefaultEvent, addr 0x2e3cdf8, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method GetDefaultEvent, addr 0x2f3b6f8, size 0xb0, virtual true, abstract: false, final false
   inline ::System::ComponentModel::EventDescriptor* GetDefaultEvent();
 
-  /// @brief Method GetDefaultProperty, addr 0x2e3cea8, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method GetDefaultProperty, addr 0x2f3b7a8, size 0xb0, virtual true, abstract: false, final false
   inline ::System::ComponentModel::PropertyDescriptor* GetDefaultProperty();
 
-  /// @brief Method GetEditor, addr 0x2e3cf58, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method GetEditor, addr 0x2f3b858, size 0xb8, virtual true, abstract: false, final false
   inline ::System::Object* GetEditor(::System::Type* editorBaseType);
 
-  /// @brief Method GetEvents, addr 0x2e3d010, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method GetEvents, addr 0x2f3b910, size 0xdc, virtual true, abstract: false, final false
   inline ::System::ComponentModel::EventDescriptorCollection* GetEvents();
 
-  /// @brief Method GetEvents, addr 0x2e3d0ec, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method GetEvents, addr 0x2f3b9ec, size 0xe4, virtual true, abstract: false, final false
   inline ::System::ComponentModel::EventDescriptorCollection* GetEvents(::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes);
 
-  /// @brief Method GetProperties, addr 0x2e3d1d0, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method GetProperties, addr 0x2f3bad0, size 0xdc, virtual true, abstract: false, final false
   inline ::System::ComponentModel::PropertyDescriptorCollection* GetProperties();
 
-  /// @brief Method GetProperties, addr 0x2e3d2ac, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method GetProperties, addr 0x2f3bbac, size 0xe4, virtual true, abstract: false, final false
   inline ::System::ComponentModel::PropertyDescriptorCollection* GetProperties(::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes);
 
-  /// @brief Method GetPropertyOwner, addr 0x2e3d390, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method GetPropertyOwner, addr 0x2f3bc90, size 0xb8, virtual true, abstract: false, final false
   inline ::System::Object* GetPropertyOwner(::System::ComponentModel::PropertyDescriptor* pd);
 
   static inline ::System::ComponentModel::CustomTypeDescriptor* New_ctor();
@@ -100,7 +101,7 @@ public:
 
   constexpr void __cordl_internal_set__parent(::System::ComponentModel::ICustomTypeDescriptor* value);
 
-  /// @brief Method .ctor, addr 0x2e3cad8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f3b3d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::ComponentModel::ICustomTypeDescriptor"

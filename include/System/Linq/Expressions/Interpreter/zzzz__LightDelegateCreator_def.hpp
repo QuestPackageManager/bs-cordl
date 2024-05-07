@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/LightDelegateCreator.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,10 +41,10 @@ public:
   /// @brief Field _lambda, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__lambda, put = __cordl_internal_set__lambda))::System::Linq::Expressions::LambdaExpression* _lambda;
 
-  /// @brief Method CreateDelegate, addr 0x2b3a8b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CreateDelegate, addr 0x2c371b4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Delegate* CreateDelegate();
 
-  /// @brief Method CreateDelegate, addr 0x2b3a8bc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method CreateDelegate, addr 0x2c371bc, size 0x88, virtual false, abstract: false, final false
   inline ::System::Delegate* CreateDelegate(::ArrayW<::System::Runtime::CompilerServices::IStrongBox*, ::Array<::System::Runtime::CompilerServices::IStrongBox*>*> closure);
 
   static inline ::System::Linq::Expressions::Interpreter::LightDelegateCreator* New_ctor(::System::Linq::Expressions::Interpreter::Interpreter* interpreter,
@@ -61,10 +62,10 @@ public:
 
   constexpr void __cordl_internal_set__lambda(::System::Linq::Expressions::LambdaExpression* value);
 
-  /// @brief Method .ctor, addr 0x2b3a880, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c37180, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Interpreter::Interpreter* interpreter, ::System::Linq::Expressions::LambdaExpression* lambda);
 
-  /// @brief Method get_Interpreter, addr 0x2b3a8ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Interpreter, addr 0x2c371ac, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Interpreter::Interpreter* get_Interpreter();
 
 protected:

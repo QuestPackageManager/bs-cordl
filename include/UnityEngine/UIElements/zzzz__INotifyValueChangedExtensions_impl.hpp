@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/INotifyValueChangedExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__INotifyValueChangedExtensions_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ChangeEvent_1_def.hpp"

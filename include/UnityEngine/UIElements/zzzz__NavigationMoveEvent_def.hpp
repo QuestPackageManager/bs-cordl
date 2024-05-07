@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/NavigationMoveEvent.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -111,13 +112,13 @@ public:
 
   __declspec(property(put = set_move))::UnityEngine::Vector2 move;
 
-  /// @brief Method DetermineMoveDirection, addr 0x33a2014, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method DetermineMoveDirection, addr 0x35a7d50, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::__NavigationMoveEvent__Direction DetermineMoveDirection(float_t x, float_t y, float_t deadZone);
 
-  /// @brief Method GetPooled, addr 0x33a2080, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x35a7dbc, size 0xe0, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::NavigationMoveEvent* GetPooled(::UnityEngine::Vector2 moveVector);
 
-  /// @brief Method Init, addr 0x33a2160, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x35a7e9c, size 0x88, virtual true, abstract: false, final false
   inline void Init();
 
   static inline ::UnityEngine::UIElements::NavigationMoveEvent* New_ctor();
@@ -134,16 +135,16 @@ public:
 
   constexpr void __cordl_internal_set__move_k__BackingField(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x33a21e8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35a7f24, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_direction, addr 0x33a2068, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_direction, addr 0x35a7da4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::__NavigationMoveEvent__Direction get_direction();
 
-  /// @brief Method set_direction, addr 0x33a2070, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_direction, addr 0x35a7dac, size 0x8, virtual false, abstract: false, final false
   inline void set_direction(::UnityEngine::UIElements::__NavigationMoveEvent__Direction value);
 
-  /// @brief Method set_move, addr 0x33a2078, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_move, addr 0x35a7db4, size 0x8, virtual false, abstract: false, final false
   inline void set_move(::UnityEngine::Vector2 value);
 
 protected:

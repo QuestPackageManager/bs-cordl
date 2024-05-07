@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatSaber/AvatarCore/AvatarSystemIdentifier.hpp"
 #include "BeatSaber/AvatarCore/zzzz__AvatarSystemIdentifier_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::AvatarCore::AvatarSystemIdentifier::*)(::StringW)>(
     &::BeatSaber::AvatarCore::AvatarSystemIdentifier::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0xf5233c;
+  constexpr static std::size_t addrs = 0x1040eb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::StringW)>(&::BeatSaber::AvatarCore::AvatarSystemIdentifier::HashAvatarSystemTypeMultiplier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf51518;
+  constexpr static std::size_t addrs = 0x104008c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BeatSaber::AvatarCore::AvatarSystemIdentifier::*)(::BeatSaber::AvatarCore::AvatarSystemIdentifier)>(
     &::BeatSaber::AvatarCore::AvatarSystemIdentifier::Equals)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0xf52360;
+  constexpr static std::size_t addrs = 0x1040ed4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BeatSaber::AvatarCore::AvatarSystemIdentifier::*)(::System::Object*)>(
     &::BeatSaber::AvatarCore::AvatarSystemIdentifier::Equals)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0xf52370;
+  constexpr static std::size_t addrs = 0x1040ee4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -68,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::BeatSaber::AvatarCore::AvatarSystemIdentifier::*)()>(
     &::BeatSaber::AvatarCore::AvatarSystemIdentifier::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf523e8;
+  constexpr static std::size_t addrs = 0x1040f5c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -84,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::BeatSaber::AvatarCore::AvatarSystemIdentifier, ::BeatSaber::AvatarCore::AvatarSystemIdentifier)>(
     &::BeatSaber::AvatarCore::AvatarSystemIdentifier::op_Equality)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0xf523f0;
+  constexpr static std::size_t addrs = 0x1040f64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -100,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::BeatSaber::AvatarCore::AvatarSystemIdentifier, ::BeatSaber::AvatarCore::AvatarSystemIdentifier)>(
     &::BeatSaber::AvatarCore::AvatarSystemIdentifier::op_Inequality)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0xf52468;
+  constexpr static std::size_t addrs = 0x1040fdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

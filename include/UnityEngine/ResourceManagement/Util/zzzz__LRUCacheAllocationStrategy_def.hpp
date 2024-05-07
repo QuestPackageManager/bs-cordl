@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ResourceManagement/Util/LRUCacheAllocationStrategy.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,18 +55,18 @@ public:
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::Util::IAllocationStrategy"
   constexpr operator ::UnityEngine::ResourceManagement::Util::IAllocationStrategy*() noexcept;
 
-  /// @brief Method GetPool, addr 0x3101950, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetPool, addr 0x33083d8, size 0xf0, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::System::Object*>* GetPool();
 
-  /// @brief Method New, addr 0x3101b00, size 0x13c, virtual true, abstract: false, final true
+  /// @brief Method New, addr 0x3308588, size 0x13c, virtual true, abstract: false, final true
   inline ::System::Object* New(::System::Type* type, int32_t typeHash);
 
   static inline ::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy* New_ctor(int32_t poolMaxSize, int32_t poolCapacity, int32_t poolCacheMaxSize, int32_t initialPoolCacheCapacity);
 
-  /// @brief Method Release, addr 0x3101c3c, size 0x138, virtual true, abstract: false, final true
+  /// @brief Method Release, addr 0x33086c4, size 0x138, virtual true, abstract: false, final true
   inline void Release(int32_t typeHash, ::System::Object* obj);
 
-  /// @brief Method ReleasePool, addr 0x3101a40, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method ReleasePool, addr 0x33084c8, size 0xc0, virtual false, abstract: false, final false
   inline void ReleasePool(::System::Collections::Generic::List_1<::System::Object*>* pool);
 
   constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::List_1<::System::Object*>*>*& __cordl_internal_get_m_cache();
@@ -99,7 +100,7 @@ public:
 
   constexpr void __cordl_internal_set_m_poolMaxSize(int32_t value);
 
-  /// @brief Method .ctor, addr 0x30f9cf0, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3300778, size 0x1d8, virtual false, abstract: false, final false
   inline void _ctor(int32_t poolMaxSize, int32_t poolCapacity, int32_t poolCacheMaxSize, int32_t initialPoolCacheCapacity);
 
   /// @brief Convert to "::UnityEngine::ResourceManagement::Util::IAllocationStrategy"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/TextCore/GlyphMetrics.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,31 +40,31 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::TextCore::GlyphMetrics>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::TextCore::GlyphMetrics>*();
 
-  /// @brief Method Equals, addr 0x326f0b8, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3477df4, size 0x80, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x326f138, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x3477e74, size 0xa4, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::TextCore::GlyphMetrics other);
 
-  /// @brief Method GetHashCode, addr 0x326f04c, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3477d88, size 0x6c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x326f03c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3477d78, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(float_t width, float_t height, float_t bearingX, float_t bearingY, float_t advance);
 
-  /// @brief Method get_height, addr 0x326f01c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_height, addr 0x3477d58, size 0x8, virtual false, abstract: false, final false
   inline float_t get_height();
 
-  /// @brief Method get_horizontalAdvance, addr 0x326f034, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_horizontalAdvance, addr 0x3477d70, size 0x8, virtual false, abstract: false, final false
   inline float_t get_horizontalAdvance();
 
-  /// @brief Method get_horizontalBearingX, addr 0x326f024, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_horizontalBearingX, addr 0x3477d60, size 0x8, virtual false, abstract: false, final false
   inline float_t get_horizontalBearingX();
 
-  /// @brief Method get_horizontalBearingY, addr 0x326f02c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_horizontalBearingY, addr 0x3477d68, size 0x8, virtual false, abstract: false, final false
   inline float_t get_horizontalBearingY();
 
-  /// @brief Method get_width, addr 0x326f014, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_width, addr 0x3477d50, size 0x8, virtual false, abstract: false, final false
   inline float_t get_width();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::TextCore::GlyphMetrics>"

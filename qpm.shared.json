@@ -30,7 +30,10 @@
           "cmake -G Ninja -DCMAKE_BUILD_TYPE=RelWithDebInfo -B ./build -S .",
           "cmake --build ./build"
         ]
-      }
+      },
+      "qmodIncludeDirs": [],
+      "qmodIncludeFiles": [],
+      "qmodOutput": null
     },
     "dependencies": [
       {
@@ -49,25 +52,46 @@
     {
       "dependency": {
         "id": "libil2cpp",
-        "versionRange": "=0.3.1",
+        "versionRange": "=0.3.2",
         "additionalData": {
-          "headersOnly": true
+          "headersOnly": true,
+          "cmake": false
         }
       },
-      "version": "0.3.1"
+      "version": "0.3.2"
+    },
+    {
+      "dependency": {
+        "id": "paper",
+        "versionRange": "=3.6.3",
+        "additionalData": {
+          "soLink": "https://github.com/Fernthedev/paperlog/releases/download/v3.6.3/libpaperlog.so",
+          "debugSoLink": "https://github.com/Fernthedev/paperlog/releases/download/v3.6.3/debug_libpaperlog.so",
+          "overrideSoName": "libpaperlog.so",
+          "modLink": "https://github.com/Fernthedev/paperlog/releases/download/v3.6.3/paperlog.qmod",
+          "branchName": "version/v3_6_3",
+          "compileOptions": {
+            "systemIncludes": [
+              "shared/utfcpp/source"
+            ]
+          },
+          "cmake": false
+        }
+      },
+      "version": "3.6.3"
     },
     {
       "dependency": {
         "id": "beatsaber-hook",
-        "versionRange": "=5.0.9",
+        "versionRange": "=5.1.6",
         "additionalData": {
-          "soLink": "https://github.com/QuestPackageManager/beatsaber-hook/releases/download/v5.0.9/libbeatsaber-hook_5_0_9.so",
-          "debugSoLink": "https://github.com/QuestPackageManager/beatsaber-hook/releases/download/v5.0.9/debug_libbeatsaber-hook_5_0_9.so",
-          "branchName": "version/v5_0_9",
+          "soLink": "https://github.com/QuestPackageManager/beatsaber-hook/releases/download/v5.1.6/libbeatsaber-hook_5_1_6.so",
+          "debugSoLink": "https://github.com/QuestPackageManager/beatsaber-hook/releases/download/v5.1.6/debug_libbeatsaber-hook_5_1_6.so",
+          "branchName": "version/v5_1_6",
           "cmake": true
         }
       },
-      "version": "5.0.9"
+      "version": "5.1.6"
     },
     {
       "dependency": {
@@ -81,6 +105,25 @@
         }
       },
       "version": "0.1.4"
+    },
+    {
+      "dependency": {
+        "id": "fmt",
+        "versionRange": "=10.0.0",
+        "additionalData": {
+          "headersOnly": true,
+          "branchName": "version/v10_0_0",
+          "compileOptions": {
+            "systemIncludes": [
+              "fmt/include/"
+            ],
+            "cppFlags": [
+              "-DFMT_HEADER_ONLY"
+            ]
+          }
+        }
+      },
+      "version": "10.0.0"
     }
   ]
 }

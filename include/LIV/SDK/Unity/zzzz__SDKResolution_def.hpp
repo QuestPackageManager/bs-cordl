@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LIV/SDK/Unity/SDKResolution.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,10 +21,10 @@ namespace LIV::SDK::Unity {
 struct CORDL_TYPE SDKResolution {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x2502064, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x25f8cf0, size 0xa0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_zero, addr 0x24fde14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_zero, addr 0x25f4aa0, size 0x8, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKResolution get_zero();
 
   // Ctor Parameters []

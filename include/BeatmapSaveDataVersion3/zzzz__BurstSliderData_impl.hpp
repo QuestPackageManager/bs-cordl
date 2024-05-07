@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatmapSaveDataVersion3/BurstSliderData.hpp"
 #include "BeatmapSaveDataVersion3/zzzz__BaseSliderData_impl.hpp"
 #include "BeatmapSaveDataVersion3/zzzz__BurstSliderData_def.hpp"
 #include "BeatmapSaveDataCommon/zzzz__NoteColorType_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::BeatmapSaveDataVersion3::BurstSliderData::*)()>(
     &::BeatmapSaveDataVersion3::BurstSliderData::get_sliceCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1401630;
+  constexpr static std::size_t addrs = 0x14f3bd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::BurstSliderData*>::get(),
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::BeatmapSaveDataVersion3::BurstSliderData::*)()>(
     &::BeatmapSaveDataVersion3::BurstSliderData::get_squishAmount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1401638;
+  constexpr static std::size_t addrs = 0x14f3bdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::BurstSliderData*>::get(),
@@ -37,8 +38,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapSaveDataVersion3::BurstSliderData::*)(
     ::BeatmapSaveDataCommon::NoteColorType, float_t, int32_t, int32_t, ::BeatmapSaveDataCommon::NoteCutDirection, float_t, int32_t, int32_t, int32_t, float_t)>(
     &::BeatmapSaveDataVersion3::BurstSliderData::_ctor)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x1401640;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x14f3be4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

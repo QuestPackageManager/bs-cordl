@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Bcpg/MarkerPacket.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__ContainedPacket_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__MarkerPacket_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__BcpgInputStream_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::MarkerPacket::*)(::Org::BouncyCastle::Bcpg::BcpgInputStream*)>(
     &::Org::BouncyCastle::Bcpg::MarkerPacket::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x133dbe8;
+  constexpr static std::size_t addrs = 0x143230c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::MarkerPacket::*)(::Org::BouncyCastle::Bcpg::BcpgOutputStream*)>(
     &::Org::BouncyCastle::Bcpg::MarkerPacket::Encode)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x1340dec;
+  constexpr static std::size_t addrs = 0x1435510;
 
   inline static ::MethodInfo const* methodInfo() {
 

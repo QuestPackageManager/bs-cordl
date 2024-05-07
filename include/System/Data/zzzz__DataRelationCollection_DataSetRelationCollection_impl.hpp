@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/DataRelationCollection_DataSetRelationCollection.hpp"
 #include "System/Data/zzzz__DataRelationCollection_impl.hpp"
 #include "System/Data/zzzz__DataRelationCollection_DataSetRelationCollection_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::__DataRelationCollection__DataSetRelationCollection::*)(::System::Data::DataSet*)>(
     &::System::Data::__DataRelationCollection__DataSetRelationCollection::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x2ba7a28;
+  constexpr static std::size_t addrs = 0x2ca5328;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ArrayList* (::System::Data::__DataRelationCollection__DataSetRelationCollection::*)()>(
     &::System::Data::__DataRelationCollection__DataSetRelationCollection::get_List)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ba7ac0;
+  constexpr static std::size_t addrs = 0x2ca53c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::__DataRelationCollection__DataSetRelationCollection::*)()>(
     &::System::Data::__DataRelationCollection__DataSetRelationCollection::Clear)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x2ba7ac8;
+  constexpr static std::size_t addrs = 0x2ca53c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataSet* (::System::Data::__DataRelationCollection__DataSetRelationCollection::*)()>(
     &::System::Data::__DataRelationCollection__DataSetRelationCollection::GetDataSet)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ba7afc;
+  constexpr static std::size_t addrs = 0x2ca53fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -73,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataRelation* (::System::Data::__DataRelationCollection__DataSetRelationCollection::*)(int32_t)>(
     &::System::Data::__DataRelationCollection__DataSetRelationCollection::get_Item)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x2ba7b04;
+  constexpr static std::size_t addrs = 0x2ca5404;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -89,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataRelation* (::System::Data::__DataRelationCollection__DataSetRelationCollection::*)(::StringW)>(
     &::System::Data::__DataRelationCollection__DataSetRelationCollection::get_Item)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x2ba7c04;
+  constexpr static std::size_t addrs = 0x2ca5504;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -105,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::__DataRelationCollection__DataSetRelationCollection::*)(::System::Data::DataRelation*)>(
     &::System::Data::__DataRelationCollection__DataSetRelationCollection::AddCore)> {
   constexpr static std::size_t size = 0x574;
-  constexpr static std::size_t addrs = 0x2ba7cf0;
+  constexpr static std::size_t addrs = 0x2ca55f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -121,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::__DataRelationCollection__DataSetRelationCollection::*)(::System::Data::DataRelation*)>(
     &::System::Data::__DataRelationCollection__DataSetRelationCollection::RemoveCore)> {
   constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x2ba8264;
+  constexpr static std::size_t addrs = 0x2ca5b64;
 
   inline static ::MethodInfo const* methodInfo() {
 

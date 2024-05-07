@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Cms/CmsReadable.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsReadable_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Cms::CmsReadable.GetInputStream

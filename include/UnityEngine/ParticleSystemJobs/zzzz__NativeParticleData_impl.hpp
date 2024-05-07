@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ParticleSystemJobs/NativeParticleData.hpp"
 #include "UnityEngine/ParticleSystemJobs/zzzz__NativeParticleData_impl.hpp"
 #include "UnityEngine/ParticleSystemJobs/zzzz__NativeParticleData_def.hpp"
 #include "UnityEngine/ParticleSystemJobs/zzzz__NativeParticleData_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/VertexGradient.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "TMPro/zzzz__VertexGradient_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
@@ -7,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::VertexGradient::*)(::UnityEngine::Color)>(&::TMPro::VertexGradient::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3130660;
+  constexpr static std::size_t addrs = 0x33350e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -22,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::TMPro::VertexGradient::*)(::UnityEngine::Color, ::UnityEngine::Color, ::UnityEngine::Color, ::UnityEngine::Color)>(&::TMPro::VertexGradient::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3130684;
+  constexpr static std::size_t addrs = 0x333510c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

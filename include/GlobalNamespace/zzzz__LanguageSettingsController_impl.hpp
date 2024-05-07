@@ -1,14 +1,15 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/LanguageSettingsController.hpp"
 #include "GlobalNamespace/zzzz__DropdownSettingsController_impl.hpp"
 #include "GlobalNamespace/zzzz__LanguageSettingsController_def.hpp"
-#include "GlobalNamespace/zzzz__LanguageSO_def.hpp"
+#include "BeatSaber/GameSettings/zzzz__MainSettingsHandler_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::LanguageSettingsController.GetInitValues
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LanguageSettingsController::*)(ByRef<int32_t>, ByRef<int32_t>)>(
     &::GlobalNamespace::LanguageSettingsController::GetInitValues)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x253c81c;
+  constexpr static std::size_t addrs = 0x2632e84;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -22,8 +23,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LanguageSettingsController::*)(int32_t)>(
     &::GlobalNamespace::LanguageSettingsController::ApplyValue)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x253c940;
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x2632fa8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -38,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::LanguageSettingsController::*)(int32_t)>(
     &::GlobalNamespace::LanguageSettingsController::TextForValue)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x253ca28;
+  constexpr static std::size_t addrs = 0x26330a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -52,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LanguageSettingsController::*)()>(&::GlobalNamespace::LanguageSettingsController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x253ca8c;
+  constexpr static std::size_t addrs = 0x2633104;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LanguageSettingsController*>::get(), ".ctor",
@@ -60,17 +61,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::GlobalNamespace::LanguageSO>& GlobalNamespace::LanguageSettingsController::__cordl_internal_get__settingsValue() {
+constexpr ::BeatSaber::GameSettings::MainSettingsHandler*& GlobalNamespace::LanguageSettingsController::__cordl_internal_get__mainSettingsHandler() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____settingsValue;
+  return this->____mainSettingsHandler;
 }
-constexpr ::UnityW<::GlobalNamespace::LanguageSO> const& GlobalNamespace::LanguageSettingsController::__cordl_internal_get__settingsValue() const {
+constexpr ::cordl_internals::to_const_pointer<::BeatSaber::GameSettings::MainSettingsHandler*> const& GlobalNamespace::LanguageSettingsController::__cordl_internal_get__mainSettingsHandler() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____settingsValue;
+  return this->____mainSettingsHandler;
 }
-constexpr void GlobalNamespace::LanguageSettingsController::__cordl_internal_set__settingsValue(::UnityW<::GlobalNamespace::LanguageSO> value) {
+constexpr void GlobalNamespace::LanguageSettingsController::__cordl_internal_set__mainSettingsHandler(::BeatSaber::GameSettings::MainSettingsHandler* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____settingsValue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mainSettingsHandler)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline bool GlobalNamespace::LanguageSettingsController::GetInitValues(ByRef<int32_t> idx, ByRef<int32_t> numberOfElements) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),

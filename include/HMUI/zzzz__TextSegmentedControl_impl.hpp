@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/TextSegmentedControl.hpp"
 #include "HMUI/zzzz__SegmentedControl_impl.hpp"
 #include "HMUI/zzzz__TextSegmentedControl_def.hpp"
 #include "HMUI/zzzz__SegmentedControlCell_def.hpp"
@@ -11,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::TextSegmentedControl::*)(::System::Collections::Generic::IReadOnlyList_1<::StringW>*)>(
     &::HMUI::TextSegmentedControl::SetTexts)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x240a568;
+  constexpr static std::size_t addrs = 0x25031f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::HMUI::TextSegmentedControl::*)()>(&::HMUI::TextSegmentedControl::NumberOfCells)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x240a580;
+  constexpr static std::size_t addrs = 0x250320c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::TextSegmentedControl*>::get(), "NumberOfCells",
@@ -39,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::HMUI::SegmentedControlCell> (::HMUI::TextSegmentedControl::*)(int32_t)>(
     &::HMUI::TextSegmentedControl::CellForCellNumber)> {
   constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x240a62c;
+  constexpr static std::size_t addrs = 0x25032b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::TextSegmentedControl::*)()>(&::HMUI::TextSegmentedControl::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x240a960;
+  constexpr static std::size_t addrs = 0x25035ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::TextSegmentedControl*>::get(), ".ctor",

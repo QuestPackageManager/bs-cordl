@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/IO/StreamHelpers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/IO/zzzz__StreamHelpers_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
@@ -7,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IO::Stream*, ::System::IO::Stream*, int32_t)>(&::System::IO::StreamHelpers::ValidateCopyToArgs)> {
   constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x277e07c;
+  constexpr static std::size_t addrs = 0x287d79c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

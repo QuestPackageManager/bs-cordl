@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/ZenTypeInfoGetter.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "Zenject/zzzz__ZenTypeInfoGetter_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
@@ -10,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::ZenTypeInfoGetter::*)(::System::Object*, void*)>(&::Zenject::ZenTypeInfoGetter::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x346d5a0;
+  constexpr static std::size_t addrs = 0x3671568;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (::Zenject::ZenTypeInfoGetter::*)()>(&::Zenject::ZenTypeInfoGetter::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x346d65c;
+  constexpr static std::size_t addrs = 0x3671624;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -39,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (::Zenject::ZenTypeInfoGetter::*)(::System::AsyncCallback*, ::System::Object*)>(
     &::Zenject::ZenTypeInfoGetter::BeginInvoke)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x346d670;
+  constexpr static std::size_t addrs = 0x3671638;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -54,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (::Zenject::ZenTypeInfoGetter::*)(::System::IAsyncResult*)>(
     &::Zenject::ZenTypeInfoGetter::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x346d690;
+  constexpr static std::size_t addrs = 0x3671658;
 
   inline static ::MethodInfo const* methodInfo() {
 

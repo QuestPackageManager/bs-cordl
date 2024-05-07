@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/MaxBytesExceededException.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,13 +29,13 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::MaxBytesExceededException* New_ctor(::StringW message, ::System::Exception* e);
 
-  /// @brief Method .ctor, addr 0x1131a84, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12251a8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x1131a88, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12251ac, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x1131a8c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12251b0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* e);
 
 protected:

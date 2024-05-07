@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ComponentModel/AddingNewEventArgs.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,10 +35,10 @@ public:
 
   constexpr void __cordl_internal_set__NewObject_k__BackingField(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x2e34c9c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f3359c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_NewObject, addr 0x2e34cf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NewObject, addr 0x2f335f4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_NewObject();
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/IVRExtendedDisplay.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "OVR/OpenVR/zzzz__IVRExtendedDisplay_def.hpp"
 #include "OVR/OpenVR/zzzz__EVREye_def.hpp"
@@ -12,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRExtendedDisplay___GetWindowBounds::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRExtendedDisplay___GetWindowBounds::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x2aac3ec;
+  constexpr static std::size_t addrs = 0x2ba7c9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRExtendedDisplay___GetWindowBounds::*)(
     ByRef<int32_t>, ByRef<int32_t>, ByRef<uint32_t>, ByRef<uint32_t>)>(&::OVR::OpenVR::__IVRExtendedDisplay___GetWindowBounds::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2aac4c4;
+  constexpr static std::size_t addrs = 0x2ba7d74;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,7 +45,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::OVR::OpenVR::__IVRExtendedDisplay___GetWindowBounds::*)(ByRef<int32_t>, ByRef<int32_t>, ByRef<uint32_t>, ByRef<uint32_t>, ::System::AsyncCallback*, ::System::Object*)>(
     &::OVR::OpenVR::__IVRExtendedDisplay___GetWindowBounds::BeginInvoke)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x2aac4d8;
+  constexpr static std::size_t addrs = 0x2ba7d88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -60,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRExtendedDisplay___GetWindowBounds::*)(
     ByRef<int32_t>, ByRef<int32_t>, ByRef<uint32_t>, ByRef<uint32_t>, ::System::IAsyncResult*)>(&::OVR::OpenVR::__IVRExtendedDisplay___GetWindowBounds::EndInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2aac5d0;
+  constexpr static std::size_t addrs = 0x2ba7e80;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -106,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRExtendedDisplay___GetEyeOutputViewport::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRExtendedDisplay___GetEyeOutputViewport::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x2aac5f8;
+  constexpr static std::size_t addrs = 0x2ba7ea8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -121,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRExtendedDisplay___GetEyeOutputViewport::*)(
     ::OVR::OpenVR::EVREye, ByRef<uint32_t>, ByRef<uint32_t>, ByRef<uint32_t>, ByRef<uint32_t>)>(&::OVR::OpenVR::__IVRExtendedDisplay___GetEyeOutputViewport::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2aac6bc;
+  constexpr static std::size_t addrs = 0x2ba7f6c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -138,7 +139,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::OVR::OpenVR::__IVRExtendedDisplay___GetEyeOutputViewport::*)(::OVR::OpenVR::EVREye, ByRef<uint32_t>, ByRef<uint32_t>, ByRef<uint32_t>, ByRef<uint32_t>, ::System::AsyncCallback*,
                                                                    ::System::Object*)>(&::OVR::OpenVR::__IVRExtendedDisplay___GetEyeOutputViewport::BeginInvoke)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x2aac6d0;
+  constexpr static std::size_t addrs = 0x2ba7f80;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -154,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRExtendedDisplay___GetEyeOutputViewport::*)(
     ByRef<uint32_t>, ByRef<uint32_t>, ByRef<uint32_t>, ByRef<uint32_t>, ::System::IAsyncResult*)>(&::OVR::OpenVR::__IVRExtendedDisplay___GetEyeOutputViewport::EndInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2aac7e0;
+  constexpr static std::size_t addrs = 0x2ba8090;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -201,7 +202,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRExtendedDisplay___GetDXGIOutputInfo::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRExtendedDisplay___GetDXGIOutputInfo::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x2aac808;
+  constexpr static std::size_t addrs = 0x2ba80b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -216,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRExtendedDisplay___GetDXGIOutputInfo::*)(ByRef<int32_t>, ByRef<int32_t>)>(
     &::OVR::OpenVR::__IVRExtendedDisplay___GetDXGIOutputInfo::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2aac8e0;
+  constexpr static std::size_t addrs = 0x2ba8190;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -233,7 +234,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::IAsyncResult* (::OVR::OpenVR::__IVRExtendedDisplay___GetDXGIOutputInfo::*)(ByRef<int32_t>, ByRef<int32_t>, ::System::AsyncCallback*, ::System::Object*)>(
         &::OVR::OpenVR::__IVRExtendedDisplay___GetDXGIOutputInfo::BeginInvoke)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x2aac8f4;
+  constexpr static std::size_t addrs = 0x2ba81a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -249,7 +250,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRExtendedDisplay___GetDXGIOutputInfo::*)(
     ByRef<int32_t>, ByRef<int32_t>, ::System::IAsyncResult*)>(&::OVR::OpenVR::__IVRExtendedDisplay___GetDXGIOutputInfo::EndInvoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2aac998;
+  constexpr static std::size_t addrs = 0x2ba8248;
 
   inline static ::MethodInfo const* methodInfo() {
 

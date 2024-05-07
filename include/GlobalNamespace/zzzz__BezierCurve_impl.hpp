@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BezierCurve.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__BezierCurve_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::BezierCurve::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::GlobalNamespace::BezierCurve::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0xf68490;
+  constexpr static std::size_t addrs = 0x1058018;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

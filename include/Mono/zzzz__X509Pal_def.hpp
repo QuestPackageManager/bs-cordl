@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/X509Pal.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,7 +22,7 @@ namespace Mono {
 class CORDL_TYPE X509Pal : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_Instance, addr 0x2b5fbe4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_Instance, addr 0x2c5c4e4, size 0x60, virtual false, abstract: false, final false
   static inline ::Mono::X509PalImpl* get_Instance();
 
 protected:

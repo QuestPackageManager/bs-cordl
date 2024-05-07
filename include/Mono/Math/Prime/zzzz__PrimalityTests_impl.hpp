@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Math/Prime/PrimalityTests.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Math/Prime/zzzz__PrimalityTests_def.hpp"
 #include "Mono/Math/Prime/zzzz__ConfidenceFactor_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::Mono::Math::BigInteger*, ::Mono::Math::Prime::ConfidenceFactor)>(
     &::Mono::Math::Prime::PrimalityTests::GetSPPRounds)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x26ac26c;
+  constexpr static std::size_t addrs = 0x27aa668;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Mono::Math::BigInteger*, ::Mono::Math::Prime::ConfidenceFactor)>(
     &::Mono::Math::Prime::PrimalityTests::Test)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x26ab3b8;
+  constexpr static std::size_t addrs = 0x27a97b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -41,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Mono::Math::BigInteger*, ::Mono::Math::Prime::ConfidenceFactor)>(
     &::Mono::Math::Prime::PrimalityTests::RabinMillerTest)> {
   constexpr static std::size_t size = 0x290;
-  constexpr static std::size_t addrs = 0x26ac5cc;
+  constexpr static std::size_t addrs = 0x27aa9c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Mono::Math::BigInteger*, ::Mono::Math::Prime::ConfidenceFactor)>(
     &::Mono::Math::Prime::PrimalityTests::SmallPrimeSppTest)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x26ac400;
+  constexpr static std::size_t addrs = 0x27aa7fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

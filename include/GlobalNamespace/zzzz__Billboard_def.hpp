@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/Billboard.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -103,12 +104,12 @@ public:
   /// @brief Field _transform, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform))::UnityW<::UnityEngine::Transform> _transform;
 
-  /// @brief Method Awake, addr 0x23dc1ac, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x24d3db0, size 0x1c, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::Billboard* New_ctor();
 
-  /// @brief Method OnWillRenderObject, addr 0x23dc1c8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnWillRenderObject, addr 0x24d3dcc, size 0xd0, virtual false, abstract: false, final false
   inline void OnWillRenderObject();
 
   constexpr bool const& __cordl_internal_get__flipDirection() const;
@@ -129,7 +130,7 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x23dc298, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24d3e9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

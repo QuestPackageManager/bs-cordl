@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/OnRemoveWriter.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,12 +26,12 @@ namespace System::Xml {
 class CORDL_TYPE OnRemoveWriter : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2d67b04, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2e63404, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Xml::XmlRawWriter* writer);
 
   static inline ::System::Xml::OnRemoveWriter* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2d679d8, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e632d8, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:

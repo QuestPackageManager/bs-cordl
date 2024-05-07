@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/MonoChunkStream.hpp"
 #include "System/Net/zzzz__WebReadStream_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_impl.hpp"
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::__MonoChunkStream___ProcessReadAsync_d__7::*)()>(
     &::System::Net::__MonoChunkStream___ProcessReadAsync_d__7::MoveNext)> {
   constexpr static std::size_t size = 0x36c;
-  constexpr static std::size_t addrs = 0x2f0a650;
+  constexpr static std::size_t addrs = 0x300af50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__MonoChunkStream___ProcessReadAsync_d__7>::get(),
@@ -39,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::__MonoChunkStream___ProcessReadAsync_d__7::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::System::Net::__MonoChunkStream___ProcessReadAsync_d__7::SetStateMachine)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2f0a9bc;
+  constexpr static std::size_t addrs = 0x300b2bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -95,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::__MonoChunkStream___FinishReading_d__8::*)()>(
     &::System::Net::__MonoChunkStream___FinishReading_d__8::MoveNext)> {
   constexpr static std::size_t size = 0x3d0;
-  constexpr static std::size_t addrs = 0x2f0aa14;
+  constexpr static std::size_t addrs = 0x300b314;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::__MonoChunkStream___FinishReading_d__8>::get(),
@@ -109,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::__MonoChunkStream___FinishReading_d__8::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::System::Net::__MonoChunkStream___FinishReading_d__8::SetStateMachine)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2f0ade4;
+  constexpr static std::size_t addrs = 0x300b6e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -163,7 +164,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::MonoChunkParser* (::System::Net::MonoChunkStream::*)()>(
     &::System::Net::MonoChunkStream::get_Decoder)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2f0a1e0;
+  constexpr static std::size_t addrs = 0x300aae0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::MonoChunkStream*>::get(), "get_Decoder",
@@ -177,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Net::MonoChunkStream::*)(::System::Net::WebOperation*, ::System::IO::Stream*, ::System::Net::WebHeaderCollection*)>(&::System::Net::MonoChunkStream::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x2f0a1e8;
+  constexpr static std::size_t addrs = 0x300aae8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -194,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<int32_t>* (
     ::System::Net::MonoChunkStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::System::Threading::CancellationToken)>(&::System::Net::MonoChunkStream::ProcessReadAsync)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x2f0a2e8;
+  constexpr static std::size_t addrs = 0x300abe8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -209,7 +210,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::System::Net::MonoChunkStream::*)(::System::Threading::CancellationToken)>(
     &::System::Net::MonoChunkStream::FinishReading)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x2f0a40c;
+  constexpr static std::size_t addrs = 0x300ad0c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -223,7 +224,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::Net::MonoChunkStream::ThrowExpectingChunkTrailer)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x2f0a4ec;
+  constexpr static std::size_t addrs = 0x300adec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::MonoChunkStream*>::get(),
@@ -237,7 +238,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::System::Net::MonoChunkStream::*)(::System::Threading::CancellationToken)>(
     &::System::Net::MonoChunkStream::__n__0)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2f0a548;
+  constexpr static std::size_t addrs = 0x300ae48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

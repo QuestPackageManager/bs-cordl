@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/BoxedPrimitives.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -107,19 +108,19 @@ public:
   /// @brief Field Int64_M1, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Int64_M1, put = setStaticF_Int64_M1))::System::Object* Int64_M1;
 
-  /// @brief Method Get, addr 0x2907f24, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x2a067d4, size 0xe8, virtual false, abstract: false, final false
   static inline ::System::Object* Get(::System::Decimal value);
 
-  /// @brief Method Get, addr 0x2907b20, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x2a063d0, size 0x68, virtual false, abstract: false, final false
   static inline ::System::Object* Get(bool value);
 
-  /// @brief Method Get, addr 0x290800c, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x2a068bc, size 0x188, virtual false, abstract: false, final false
   static inline ::System::Object* Get(double_t value);
 
-  /// @brief Method Get, addr 0x2907b88, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x2a06438, size 0x1c8, virtual false, abstract: false, final false
   static inline ::System::Object* Get(int32_t value);
 
-  /// @brief Method Get, addr 0x2907d50, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x2a06600, size 0x1d4, virtual false, abstract: false, final false
   static inline ::System::Object* Get(int64_t value);
 
   static inline ::System::Object* getStaticF_BooleanFalse();

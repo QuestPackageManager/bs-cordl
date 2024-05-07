@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/MatchResult.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__MatchResultErrorCode_impl.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__MatchResult_def.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__MatchResultErrorCode_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::StyleSheets::MatchResult::*)()>(
     &::UnityEngine::UIElements::StyleSheets::MatchResult::get_success)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3340560;
+  constexpr static std::size_t addrs = 0x354529c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::MatchResult>::get(),

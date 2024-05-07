@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/CancellationCallbackCoreWorkArguments.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,7 +26,7 @@ namespace System::Threading {
 struct CORDL_TYPE CancellationCallbackCoreWorkArguments {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x289c484, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x299ad34, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::SparselyPopulatedArrayFragment_1<::System::Threading::CancellationCallbackInfo*>* currArrayFragment, int32_t currArrayIndex);
 
   // Ctor Parameters []

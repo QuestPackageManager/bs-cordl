@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/UIRenderDevice.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -66,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::__UIRenderDevice__DeviceToFree::*)()>(
     &::UnityEngine::UIElements::UIR::__UIRenderDevice__DeviceToFree::Dispose)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x331f83c;
+  constexpr static std::size_t addrs = 0x3524578;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -137,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::__UIRenderDevice____c::*)()>(
     &::UnityEngine::UIElements::UIR::__UIRenderDevice____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3324fc0;
+  constexpr static std::size_t addrs = 0x3529cfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::__UIRenderDevice____c*>::get(),
@@ -151,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::UIR::MeshHandle* (::UnityEngine::UIElements::UIR::__UIRenderDevice____c::*)()>(
     &::UnityEngine::UIElements::UIR::__UIRenderDevice____c::__ctor_b__53_0)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3324fc8;
+  constexpr static std::size_t addrs = 0x3529d04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::__UIRenderDevice____c*>::get(),
@@ -165,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::__UIRenderDevice____c::*)(::UnityEngine::UIElements::UIR::MeshHandle*)>(
     &::UnityEngine::UIElements::UIR::__UIRenderDevice____c::__ctor_b__53_1)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3325020;
+  constexpr static std::size_t addrs = 0x3529d5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -228,7 +229,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::UIElements::UIR::UIRenderDevice::*)()>(
     &::UnityEngine::UIElements::UIR::UIRenderDevice::get_maxVerticesPerPage)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x331dd48;
+  constexpr static std::size_t addrs = 0x3522a84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::UIRenderDevice*>::get(),
@@ -242,7 +243,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::UIR::UIRenderDevice::*)()>(
     &::UnityEngine::UIElements::UIR::UIRenderDevice::get_breakBatches)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x331dd50;
+  constexpr static std::size_t addrs = 0x3522a8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::UIRenderDevice*>::get(),
@@ -256,7 +257,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::UIRenderDevice::*)(bool)>(
     &::UnityEngine::UIElements::UIR::UIRenderDevice::set_breakBatches)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x331dd58;
+  constexpr static std::size_t addrs = 0x3522a94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -271,7 +272,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::UIRenderDevice::*)(uint32_t, uint32_t)>(
     &::UnityEngine::UIElements::UIR::UIRenderDevice::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x331e11c;
+  constexpr static std::size_t addrs = 0x3522e58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -286,7 +287,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::UIRenderDevice::*)(uint32_t, uint32_t, bool)>(
     &::UnityEngine::UIElements::UIR::UIRenderDevice::_ctor)> {
   constexpr static std::size_t size = 0x5b0;
-  constexpr static std::size_t addrs = 0x331e124;
+  constexpr static std::size_t addrs = 0x3522e60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -302,7 +303,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Texture2D> (*)()>(
     &::UnityEngine::UIElements::UIR::UIRenderDevice::get_defaultShaderInfoTexFloat)> {
   constexpr static std::size_t size = 0x394;
-  constexpr static std::size_t addrs = 0x331e82c;
+  constexpr static std::size_t addrs = 0x3523568;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::UIRenderDevice*>::get(),
@@ -316,7 +317,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Texture2D> (*)()>(
     &::UnityEngine::UIElements::UIR::UIRenderDevice::get_defaultShaderInfoTexARGB8)> {
   constexpr static std::size_t size = 0x2cc;
-  constexpr static std::size_t addrs = 0x331ebc0;
+  constexpr static std::size_t addrs = 0x35238fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::UIRenderDevice*>::get(),
@@ -329,7 +330,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::UnityEngine::UIElements::UIR::UIRenderDevice::get_vertexTexturingIsAvailable)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x331ee8c;
+  constexpr static std::size_t addrs = 0x3523bc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::UIRenderDevice*>::get(),
@@ -342,7 +343,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::UnityEngine::UIElements::UIR::UIRenderDevice::get_shaderModelIs35)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x331f070;
+  constexpr static std::size_t addrs = 0x3523dac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::UIRenderDevice*>::get(),
@@ -356,7 +357,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::UIRenderDevice::*)()>(
     &::UnityEngine::UIElements::UIR::UIRenderDevice::InitVertexDeclaration)> {
   constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x331f254;
+  constexpr static std::size_t addrs = 0x3523f90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::UIRenderDevice*>::get(),
@@ -370,7 +371,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::UIRenderDevice::*)()>(
     &::UnityEngine::UIElements::UIR::UIRenderDevice::CompleteCreation)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x331f4bc;
+  constexpr static std::size_t addrs = 0x35241f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::UIRenderDevice*>::get(),
@@ -384,7 +385,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::UIR::UIRenderDevice::*)()>(
     &::UnityEngine::UIElements::UIR::UIRenderDevice::get_fullyCreated)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x331f660;
+  constexpr static std::size_t addrs = 0x352439c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::UIRenderDevice*>::get(),
@@ -398,7 +399,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::UIR::UIRenderDevice::*)()>(
     &::UnityEngine::UIElements::UIR::UIRenderDevice::get_disposed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x331f670;
+  constexpr static std::size_t addrs = 0x35243ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::UIRenderDevice*>::get(),
@@ -412,7 +413,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::UIRenderDevice::*)(bool)>(
     &::UnityEngine::UIElements::UIR::UIRenderDevice::set_disposed)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x331f678;
+  constexpr static std::size_t addrs = 0x35243b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -427,7 +428,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::UIRenderDevice::*)()>(
     &::UnityEngine::UIElements::UIR::UIRenderDevice::Dispose)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x331f684;
+  constexpr static std::size_t addrs = 0x35243c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::UIRenderDevice*>::get(),
@@ -441,7 +442,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::UIRenderDevice::*)(bool)>(
     &::UnityEngine::UIElements::UIR::UIRenderDevice::Dispose)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x331f6f0;
+  constexpr static std::size_t addrs = 0x352442c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -458,7 +459,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::UIElements::UIR::UIRenderDevice::*)(uint32_t, uint32_t, ByRef<::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>>,
                                                        ByRef<::Unity::Collections::NativeSlice_1<uint16_t>>, ByRef<uint16_t>)>(&::UnityEngine::UIElements::UIR::UIRenderDevice::Allocate)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x331fc04;
+  constexpr static std::size_t addrs = 0x3524940;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -476,7 +477,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::UIRenderDevice::*)(
     ::UnityEngine::UIElements::UIR::MeshHandle*, uint32_t, ByRef<::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>>)>(&::UnityEngine::UIElements::UIR::UIRenderDevice::Update)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x33202f8;
+  constexpr static std::size_t addrs = 0x3525034;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -494,7 +495,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::UIElements::UIR::MeshHandle*, uint32_t, uint32_t, ByRef<::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>>,
     ByRef<::Unity::Collections::NativeSlice_1<uint16_t>>, ByRef<uint16_t>)>(&::UnityEngine::UIElements::UIR::UIRenderDevice::Update)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x3320bc4;
+  constexpr static std::size_t addrs = 0x3525900;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -514,7 +515,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::UIElements::UIR::Page*, uint32_t, uint32_t, ByRef<::UnityEngine::UIElements::UIR::Alloc>, ByRef<::UnityEngine::UIElements::UIR::Alloc>, bool)>(
     &::UnityEngine::UIElements::UIR::UIRenderDevice::TryAllocFromPage)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3320d4c;
+  constexpr static std::size_t addrs = 0x3525a88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -533,7 +534,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::UIElements::UIR::MeshHandle*, uint32_t, uint32_t, ByRef<::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>>,
     ByRef<::Unity::Collections::NativeSlice_1<uint16_t>>, bool)>(&::UnityEngine::UIElements::UIR::UIRenderDevice::Allocate)> {
   constexpr static std::size_t size = 0x634;
-  constexpr static std::size_t addrs = 0x331fcc4;
+  constexpr static std::size_t addrs = 0x3524a00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -554,7 +555,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ByRef<::Unity::Collections::NativeSlice_1<uint16_t>>, ByRef<uint16_t>, ByRef<::UnityEngine::UIElements::UIR::__UIRenderDevice__AllocToUpdate>, bool)>(
     &::UnityEngine::UIElements::UIR::UIRenderDevice::UpdateAfterGPUUsedData)> {
   constexpr static std::size_t size = 0x704;
-  constexpr static std::size_t addrs = 0x33204c0;
+  constexpr static std::size_t addrs = 0x35251fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -575,7 +576,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::UIRenderDevice::*)(::UnityEngine::UIElements::UIR::MeshHandle*)>(
     &::UnityEngine::UIElements::UIR::UIRenderDevice::Free)> {
   constexpr static std::size_t size = 0x84c;
-  constexpr static std::size_t addrs = 0x33211a4;
+  constexpr static std::size_t addrs = 0x3525ee0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -589,7 +590,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector4 (*)()>(&::UnityEngine::UIElements::UIR::UIRenderDevice::GetClipSpaceParams)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x33219f0;
+  constexpr static std::size_t addrs = 0x352672c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::UIRenderDevice*>::get(),
@@ -603,7 +604,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::UIRenderDevice::*)()>(
     &::UnityEngine::UIElements::UIR::UIRenderDevice::OnFrameRenderingBegin)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3321ab8;
+  constexpr static std::size_t addrs = 0x35267f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::UIRenderDevice*>::get(),
@@ -618,7 +619,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::UIElements::UIR::RenderChainCommand*, int32_t, ::UnityEngine::Material*, bool, bool, ByRef<::UnityEngine::UIElements::UIR::__UIRenderDevice__EvaluationState>)>(
     &::UnityEngine::UIElements::UIR::UIRenderDevice::ApplyDrawCommandState)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x3322510;
+  constexpr static std::size_t addrs = 0x352724c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -637,7 +638,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::UIRenderDevice::*)(
     ByRef<::UnityEngine::UIElements::UIR::__UIRenderDevice__EvaluationState>, bool)>(&::UnityEngine::UIElements::UIR::UIRenderDevice::ApplyBatchState)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x3322734;
+  constexpr static std::size_t addrs = 0x3527470;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -655,7 +656,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::UIR::Transform3x4>, ::Unity::Collections::NativeSlice_1<::UnityEngine::Vector4>, ::UnityEngine::MaterialPropertyBlock*, bool,
     ByRef<::System::Exception*>)>(&::UnityEngine::UIElements::UIR::UIRenderDevice::EvaluateChain)> {
   constexpr static std::size_t size = 0x1118;
-  constexpr static std::size_t addrs = 0x33228b8;
+  constexpr static std::size_t addrs = 0x35275f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -678,7 +679,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::UIRenderDevice::*)()>(
     &::UnityEngine::UIElements::UIR::UIRenderDevice::UpdateFenceValue)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x33249a0;
+  constexpr static std::size_t addrs = 0x35296dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::UIRenderDevice*>::get(),
@@ -693,7 +694,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::cordl_internals::Ptr<::UnityEngine::UIElements::UIR::DrawBufferRange>, ByRef<int32_t>, ByRef<int32_t>, int32_t, ::UnityEngine::UIElements::UIR::Page*)>(
     &::UnityEngine::UIElements::UIR::UIRenderDevice::KickRanges)> {
   constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x3323b9c;
+  constexpr static std::size_t addrs = 0x35288d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -711,7 +712,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::UIRenderDevice::*)(uint32_t)>(
     &::UnityEngine::UIElements::UIR::UIRenderDevice::WaitOnCpuFence)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3324a6c;
+  constexpr static std::size_t addrs = 0x35297a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -726,7 +727,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::UIRenderDevice::*)()>(
     &::UnityEngine::UIElements::UIR::UIRenderDevice::AdvanceFrame)> {
   constexpr static std::size_t size = 0x9b4;
-  constexpr static std::size_t addrs = 0x3321b5c;
+  constexpr static std::size_t addrs = 0x3526898;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::UIRenderDevice*>::get(),
@@ -740,7 +741,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::UIRenderDevice::*)()>(
     &::UnityEngine::UIElements::UIR::UIRenderDevice::PruneUnusedPages)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3324af4;
+  constexpr static std::size_t addrs = 0x3529830;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::UIRenderDevice*>::get(),
@@ -753,7 +754,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::UIElements::UIR::UIRenderDevice::PrepareForGfxDeviceRecreate)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x3324c3c;
+  constexpr static std::size_t addrs = 0x3529978;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::UIRenderDevice*>::get(),
@@ -766,7 +767,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::UIElements::UIR::UIRenderDevice::WrapUpGfxDeviceRecreate)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3324dc4;
+  constexpr static std::size_t addrs = 0x3529b00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::UIRenderDevice*>::get(),
@@ -779,7 +780,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::UIElements::UIR::UIRenderDevice::FlushAllPendingDeviceDisposes)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3324e24;
+  constexpr static std::size_t addrs = 0x3529b60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::UIRenderDevice*>::get(),
@@ -793,7 +794,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::UIR::__UIRenderDevice__DrawStatistics (
     ::UnityEngine::UIElements::UIR::UIRenderDevice::*)()>(&::UnityEngine::UIElements::UIR::UIRenderDevice::GatherDrawStatistics)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3324e9c;
+  constexpr static std::size_t addrs = 0x3529bd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::UIRenderDevice*>::get(),
@@ -806,7 +807,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::UIElements::UIR::UIRenderDevice::ProcessDeviceFreeQueue)> {
   constexpr static std::size_t size = 0x39c;
-  constexpr static std::size_t addrs = 0x331f868;
+  constexpr static std::size_t addrs = 0x35245a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::UIRenderDevice*>::get(),
@@ -819,7 +820,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::UIElements::UIR::UIRenderDevice::OnEngineUpdateGlobal)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3324eb4;
+  constexpr static std::size_t addrs = 0x3529bf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::UIRenderDevice*>::get(),
@@ -832,7 +833,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::UIElements::UIR::UIRenderDevice::OnFlushPendingResources)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3324f00;
+  constexpr static std::size_t addrs = 0x3529c3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::UIRenderDevice*>::get(),

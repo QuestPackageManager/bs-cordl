@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/DeviceResetEvent.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,7 +43,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo*();
 
-  /// @brief Method Create, addr 0x301d5b4, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x3159340, size 0xbc, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::DeviceResetEvent Create(int32_t deviceId, bool hardReset, double_t time);
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputEvent const& __cordl_internal_get_baseEvent() const;
@@ -57,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set_hardReset(bool value);
 
-  /// @brief Method get_typeStatic, addr 0x301d594, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x3159320, size 0x20, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo"

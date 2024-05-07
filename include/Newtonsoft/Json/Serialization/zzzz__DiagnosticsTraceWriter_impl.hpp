@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/DiagnosticsTraceWriter.hpp"
 #include "System/Diagnostics/zzzz__TraceLevel_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__DiagnosticsTraceWriter_def.hpp"
@@ -12,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Diagnostics::TraceLevel (::Newtonsoft::Json::Serialization::DiagnosticsTraceWriter::*)()>(
     &::Newtonsoft::Json::Serialization::DiagnosticsTraceWriter::get_LevelFilter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x292ce20;
+  constexpr static std::size_t addrs = 0x2a2b6d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::DiagnosticsTraceWriter::*)(::System::Diagnostics::TraceLevel)>(
     &::Newtonsoft::Json::Serialization::DiagnosticsTraceWriter::set_LevelFilter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x292ce28;
+  constexpr static std::size_t addrs = 0x2a2b6d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Diagnostics::TraceEventType (::Newtonsoft::Json::Serialization::DiagnosticsTraceWriter::*)(
     ::System::Diagnostics::TraceLevel)>(&::Newtonsoft::Json::Serialization::DiagnosticsTraceWriter::GetTraceEventType)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x292ce30;
+  constexpr static std::size_t addrs = 0x2a2b6e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::DiagnosticsTraceWriter::*)(
     ::System::Diagnostics::TraceLevel, ::StringW, ::System::Exception*)>(&::Newtonsoft::Json::Serialization::DiagnosticsTraceWriter::Trace)> {
   constexpr static std::size_t size = 0x490;
-  constexpr static std::size_t addrs = 0x292cea0;
+  constexpr static std::size_t addrs = 0x2a2b750;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -74,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::DiagnosticsTraceWriter::*)()>(
     &::Newtonsoft::Json::Serialization::DiagnosticsTraceWriter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x292d330;
+  constexpr static std::size_t addrs = 0x2a2bbe0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/HierarchyEvent.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__HierarchyEvent_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::HierarchyEvent::*)(::System::Object*, void*)>(
     &::UnityEngine::UIElements::HierarchyEvent::_ctor)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x3318904;
+  constexpr static std::size_t addrs = 0x351d640;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::HierarchyEvent::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::HierarchyChangeType)>(&::UnityEngine::UIElements::HierarchyEvent::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3318a34;
+  constexpr static std::size_t addrs = 0x351d770;
 
   inline static ::MethodInfo const* methodInfo() {
 

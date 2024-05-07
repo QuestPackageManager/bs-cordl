@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatmapSaveDataVersion3/LightRotationEventBoxGroup.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,13 +30,13 @@ namespace BeatmapSaveDataVersion3 {
 class CORDL_TYPE LightRotationEventBoxGroup : public ::BeatmapSaveDataVersion3::EventBoxGroup_1<::BeatmapSaveDataVersion3::LightRotationEventBox*> {
 public:
   // Declarations
-  /// @brief Method CopyWith, addr 0x1400794, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method CopyWith, addr 0x14f1d58, size 0xe0, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataVersion3::LightRotationEventBoxGroup* CopyWith(::System::Nullable_1<float_t> newBeat, ::System::Nullable_1<int32_t> newGroupId);
 
   static inline ::BeatmapSaveDataVersion3::LightRotationEventBoxGroup* New_ctor(float_t beat, int32_t groupId,
                                                                                 ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightRotationEventBox*>* eventBoxes);
 
-  /// @brief Method .ctor, addr 0x1400724, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14f1ce8, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, int32_t groupId, ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightRotationEventBox*>* eventBoxes);
 
 protected:

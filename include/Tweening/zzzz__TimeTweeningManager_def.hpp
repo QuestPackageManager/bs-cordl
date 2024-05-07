@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Tweening/TimeTweeningManager.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,12 +20,12 @@ namespace Tweening {
 class CORDL_TYPE TimeTweeningManager : public ::Tweening::TweeningManager {
 public:
   // Declarations
-  /// @brief Method GetTime, addr 0x2f42cec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetTime, addr 0x30445ec, size 0x8, virtual true, abstract: false, final false
   inline float_t GetTime();
 
   static inline ::Tweening::TimeTweeningManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f42cf4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x30445f4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

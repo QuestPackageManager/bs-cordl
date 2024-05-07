@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Serialization/Formatters/Binary/BinaryCrossAppDomainMap.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryCrossAppDomainMap_def.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz____BinaryParser_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainMap::*)()>(
     &::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainMap::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2744afc;
+  constexpr static std::size_t addrs = 0x2842ef8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainMap::*)(
     ::System::Runtime::Serialization::Formatters::Binary::__BinaryParser*)>(&::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainMap::Read)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2744b04;
+  constexpr static std::size_t addrs = 0x2842f00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -38,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainMap::*)()>(
     &::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainMap::Dump)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2744b2c;
+  constexpr static std::size_t addrs = 0x2842f28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

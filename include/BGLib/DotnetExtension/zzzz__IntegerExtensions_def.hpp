@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BGLib/DotnetExtension/IntegerExtensions.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,7 +21,7 @@ namespace BGLib::DotnetExtension {
 class CORDL_TYPE IntegerExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToUInt, addr 0xf82c4c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ToUInt, addr 0x10741fc, size 0x18, virtual false, abstract: false, final false
   static inline void ToUInt(int32_t number, ByRef<uint32_t> uNumber, ByRef<bool> isNegative);
 
 protected:

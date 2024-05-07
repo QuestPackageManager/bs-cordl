@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/AndroidJavaException.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,10 +33,10 @@ public:
 
   constexpr void __cordl_internal_set_mJavaStackTrace(::StringW value);
 
-  /// @brief Method .ctor, addr 0x31ac408, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33b1e90, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::StringW javaStackTrace);
 
-  /// @brief Method get_StackTrace, addr 0x31b20ec, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_StackTrace, addr 0x33b7b74, size 0x24, virtual true, abstract: false, final false
   inline ::StringW get_StackTrace();
 
 protected:

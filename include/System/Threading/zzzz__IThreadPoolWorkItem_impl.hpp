@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/IThreadPoolWorkItem.hpp"
 #include "System/Threading/zzzz__IThreadPoolWorkItem_def.hpp"
 #include "System/Threading/zzzz__ThreadAbortException_def.hpp"
 //  Writing Method size for method: ::System::Threading::IThreadPoolWorkItem.ExecuteWorkItem

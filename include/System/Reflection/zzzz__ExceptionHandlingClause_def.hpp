@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Reflection/ExceptionHandlingClause.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,7 +48,7 @@ public:
 
   static inline ::System::Reflection::ExceptionHandlingClause* New_ctor();
 
-  /// @brief Method ToString, addr 0x2772548, size 0x2c4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2871c68, size 0x2c4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Type*& __cordl_internal_get_catch_type();
@@ -92,7 +93,7 @@ public:
 
   constexpr void __cordl_internal_set_try_offset(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2772540, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2871c60, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

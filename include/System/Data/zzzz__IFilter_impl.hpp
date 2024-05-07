@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/IFilter.hpp"
 #include "System/Data/zzzz__IFilter_def.hpp"
 #include "System/Data/zzzz__DataRowVersion_def.hpp"
 #include "System/Data/zzzz__DataRow_def.hpp"

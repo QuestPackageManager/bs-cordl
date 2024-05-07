@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Mail/DotAtomReader.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,7 +21,7 @@ namespace System::Net::Mail {
 class CORDL_TYPE DotAtomReader : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ReadReverse, addr 0x2e317a0, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method ReadReverse, addr 0x2f300a0, size 0x254, virtual false, abstract: false, final false
   static inline int32_t ReadReverse(::StringW data, int32_t index);
 
 protected:

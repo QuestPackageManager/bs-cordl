@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/DnsEndPoint.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,29 +50,29 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::DnsEndPoint*>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::DnsEndPoint*>*() noexcept;
 
-  /// @brief Method Equals, addr 0xf9e1d4, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x10928f8, size 0xa0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0xf9e274, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x1092998, size 0x4c, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::DnsEndPoint* other);
 
-  /// @brief Method GetEndPoint, addr 0xf9e004, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetEndPoint, addr 0x1092728, size 0x94, virtual false, abstract: false, final false
   inline ::System::Net::IPEndPoint* GetEndPoint();
 
-  /// @brief Method GetEndPointAsync, addr 0xf9dee4, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method GetEndPointAsync, addr 0x1092608, size 0x120, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Net::IPEndPoint*>* GetEndPointAsync(::BGNet::Core::ITaskUtility* taskUtility);
 
-  /// @brief Method GetEndPointInternal, addr 0xf9e098, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetEndPointInternal, addr 0x10927bc, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Net::IPEndPoint* GetEndPointInternal();
 
-  /// @brief Method GetHashCode, addr 0xf9e2c0, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x10929e4, size 0x2c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::GlobalNamespace::DnsEndPoint* New_ctor(::System::Net::IPEndPoint* endPoint);
 
   static inline ::GlobalNamespace::DnsEndPoint* New_ctor(::StringW hostName, int32_t port);
 
-  /// @brief Method ToString, addr 0xf9e148, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x109286c, size 0x8c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Threading::Tasks::Task_1<::System::Net::IPEndPoint*>*& __cordl_internal_get__getEndPointTask();
@@ -92,13 +93,13 @@ public:
 
   constexpr void __cordl_internal_set_port(int32_t value);
 
-  /// @brief Method .ctor, addr 0xf9de30, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1092554, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::IPEndPoint* endPoint);
 
-  /// @brief Method .ctor, addr 0xf9cc60, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1091384, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW hostName, int32_t port);
 
-  /// @brief Method get_endPoint, addr 0xf9ddbc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_endPoint, addr 0x10924e0, size 0x74, virtual false, abstract: false, final false
   inline ::System::Net::IPEndPoint* get_endPoint();
 
   /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::DnsEndPoint*>"

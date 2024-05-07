@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/GameplayModifiersConfiguration.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiersConfiguration_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiersConfiguration_def.hpp"

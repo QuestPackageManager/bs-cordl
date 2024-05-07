@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/LogEventName.hpp"
 #include "Oculus/Platform/zzzz__LogEventName_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::Oculus::Platform::LogEventName::LogEventName(int32_t value__) noexcept {

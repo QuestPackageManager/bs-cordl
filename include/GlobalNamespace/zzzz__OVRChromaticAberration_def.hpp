@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OVRChromaticAberration.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,10 +28,10 @@ public:
 
   static inline ::GlobalNamespace::OVRChromaticAberration* New_ctor();
 
-  /// @brief Method Start, addr 0x2a7a8b8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2b77168, size 0x9c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x2a7a954, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2b77204, size 0xf0, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get_chromatic() const;
@@ -45,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set_toggleButton(::GlobalNamespace::__OVRInput__RawButton value);
 
-  /// @brief Method .ctor, addr 0x2a7aa44, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b772f4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

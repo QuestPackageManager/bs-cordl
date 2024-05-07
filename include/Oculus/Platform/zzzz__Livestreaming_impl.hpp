@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/Livestreaming.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/zzzz__Livestreaming_def.hpp"
 #include "Oculus/Platform/Models/zzzz__LivestreamingStatus_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Oculus::Platform::__Message_1__Callback<::Oculus::Platform::Models::LivestreamingStatus*>*)>(
     &::Oculus::Platform::Livestreaming::SetStatusUpdateNotificationCallback)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x29d73c4;
+  constexpr static std::size_t addrs = 0x2ad4c74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/Models/PartyUpdateNotification.hpp"
 #include "Oculus/Platform/zzzz__PartyUpdateAction_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/Models/zzzz__PartyUpdateNotification_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Models::PartyUpdateNotification::*)(void*)>(
     &::Oculus::Platform::Models::PartyUpdateNotification::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x29df8ac;
+  constexpr static std::size_t addrs = 0x2ade15c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Experimental/Rendering/ScriptableRuntimeReflectionSystemSettings.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,17 +28,17 @@ public:
   /// @brief Field s_Instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance))::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper* s_Instance;
 
-  /// @brief Method ScriptingDirtyReflectionSystemInstance, addr 0x322def4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ScriptingDirtyReflectionSystemInstance, addr 0x3435c30, size 0x28, virtual false, abstract: false, final false
   static inline void ScriptingDirtyReflectionSystemInstance();
 
   static inline ::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper* getStaticF_s_Instance();
 
-  /// @brief Method get_Internal_ScriptableRuntimeReflectionSystemSettings_instance, addr 0x322de9c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Internal_ScriptableRuntimeReflectionSystemSettings_instance, addr 0x3435bd8, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper* get_Internal_ScriptableRuntimeReflectionSystemSettings_instance();
 
   static inline void setStaticF_s_Instance(::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper* value);
 
-  /// @brief Method set_Internal_ScriptableRuntimeReflectionSystemSettings_system, addr 0x322dd54, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method set_Internal_ScriptableRuntimeReflectionSystemSettings_system, addr 0x3435a90, size 0x148, virtual false, abstract: false, final false
   static inline void set_Internal_ScriptableRuntimeReflectionSystemSettings_system(::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* value);
 
 protected:

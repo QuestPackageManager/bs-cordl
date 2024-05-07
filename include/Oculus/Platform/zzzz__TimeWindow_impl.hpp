@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/TimeWindow.hpp"
 #include "Oculus/Platform/zzzz__TimeWindow_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::Oculus::Platform::TimeWindow::TimeWindow(int32_t value__) noexcept {

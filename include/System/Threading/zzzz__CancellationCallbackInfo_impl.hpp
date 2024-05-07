@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/CancellationCallbackInfo.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/zzzz__CancellationCallbackInfo_def.hpp"
 #include "System/Threading/zzzz__CancellationCallbackInfo_WithSyncContext_def.hpp"
@@ -14,7 +15,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Action_1<::System::Object*>*, ::System::Object*, ::System::Threading::ExecutionContext*, ::System::Threading::CancellationTokenSource*)>(
     &::System::Threading::CancellationCallbackInfo::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x289bf20;
+  constexpr static std::size_t addrs = 0x299a7d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -32,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::CancellationCallbackInfo::*)()>(
     &::System::Threading::CancellationCallbackInfo::ExecuteCallback)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x289c5c4;
+  constexpr static std::size_t addrs = 0x299ae74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::CancellationCallbackInfo*>::get(),
@@ -45,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*)>(&::System::Threading::CancellationCallbackInfo::ExecutionContextCallback)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x289cfe0;
+  constexpr static std::size_t addrs = 0x299b890;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

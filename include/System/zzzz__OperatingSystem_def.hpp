@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/OperatingSystem.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,17 +64,17 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method Clone, addr 0x2856b58, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method Clone, addr 0x2956400, size 0x7c, virtual true, abstract: false, final true
   inline ::System::Object* Clone();
 
-  /// @brief Method GetObjectData, addr 0x2856b14, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method GetObjectData, addr 0x29563bc, size 0x3c, virtual true, abstract: false, final true
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::OperatingSystem* New_ctor(::System::PlatformID platform, ::System::Version* version);
 
   static inline ::System::OperatingSystem* New_ctor(::System::PlatformID platform, ::System::Version* version, ::StringW servicePack);
 
-  /// @brief Method ToString, addr 0x2856bd4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x295647c, size 0x4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::PlatformID const& __cordl_internal_get__platform() const;
@@ -100,16 +101,16 @@ public:
 
   constexpr void __cordl_internal_set__versionString(::StringW value);
 
-  /// @brief Method .ctor, addr 0x28569cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2956274, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::PlatformID platform, ::System::Version* version);
 
-  /// @brief Method .ctor, addr 0x28569d4, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x295627c, size 0x140, virtual false, abstract: false, final false
   inline void _ctor(::System::PlatformID platform, ::System::Version* version, ::StringW servicePack);
 
-  /// @brief Method get_Platform, addr 0x2856b50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Platform, addr 0x29563f8, size 0x8, virtual false, abstract: false, final false
   inline ::System::PlatformID get_Platform();
 
-  /// @brief Method get_VersionString, addr 0x2856bd8, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method get_VersionString, addr 0x2956480, size 0x1cc, virtual false, abstract: false, final false
   inline ::StringW get_VersionString();
 
   /// @brief Convert to "::System::ICloneable"

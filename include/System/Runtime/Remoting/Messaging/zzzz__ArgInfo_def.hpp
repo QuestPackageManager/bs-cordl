@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/Messaging/ArgInfo.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,7 +39,7 @@ public:
   /// @brief Field _paramMap, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__paramMap, put = __cordl_internal_set__paramMap))::ArrayW<int32_t, ::Array<int32_t>*> _paramMap;
 
-  /// @brief Method GetInOutArgs, addr 0x2729518, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetInOutArgs, addr 0x2827914, size 0x100, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetInOutArgs(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   static inline ::System::Runtime::Remoting::Messaging::ArgInfo* New_ctor(::System::Reflection::MethodBase* method, ::System::Runtime::Remoting::Messaging::ArgInfoType type);
@@ -61,7 +62,7 @@ public:
 
   constexpr void __cordl_internal_set__paramMap(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  /// @brief Method .ctor, addr 0x2729364, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2827760, size 0x1b4, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MethodBase* method, ::System::Runtime::Remoting::Messaging::ArgInfoType type);
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/Models/Destination.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/Models/zzzz__Destination_def.hpp"
 //  Writing Method size for method: ::Oculus::Platform::Models::Destination._ctor
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Models::Destination::*)(void*)>(&::Oculus::Platform::Models::Destination::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x29db9b8;
+  constexpr static std::size_t addrs = 0x2ada268;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

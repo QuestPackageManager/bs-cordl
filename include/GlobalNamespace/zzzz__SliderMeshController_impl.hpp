@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SliderMeshController.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SliderMeshController_def.hpp"
 #include "GlobalNamespace/zzzz__NoteCutDirection_def.hpp"
@@ -13,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::SliderMeshController::*)()>(&::GlobalNamespace::SliderMeshController::get_pathLength)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x25b4f54;
+  constexpr static std::size_t addrs = 0x26b2874;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SliderMeshController*>::get(),
@@ -27,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Mesh> (::GlobalNamespace::SliderMeshController::*)()>(
     &::GlobalNamespace::SliderMeshController::get_mesh)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x25b4f78;
+  constexpr static std::size_t addrs = 0x26b2898;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SliderMeshController*>::get(), "get_mesh",
@@ -41,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PathsHolder* (::GlobalNamespace::SliderMeshController::*)()>(
     &::GlobalNamespace::SliderMeshController::get_pathsHolder)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25b4f94;
+  constexpr static std::size_t addrs = 0x26b28b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SliderMeshController*>::get(),
@@ -55,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderMeshController::*)(
     ::GlobalNamespace::SliderData*, ::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t, float_t)>(&::GlobalNamespace::SliderMeshController::CreateBezierPathAndMesh)> {
   constexpr static std::size_t size = 0x758;
-  constexpr static std::size_t addrs = 0x25b0424;
+  constexpr static std::size_t addrs = 0x26add98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -73,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::GlobalNamespace::NoteCutDirection)>(
     &::GlobalNamespace::SliderMeshController::CutDirectionToControlPointPosition)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x25b4f9c;
+  constexpr static std::size_t addrs = 0x26b28bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -87,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderMeshController::*)()>(&::GlobalNamespace::SliderMeshController::_ctor)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x25b5078;
+  constexpr static std::size_t addrs = 0x26b2998;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SliderMeshController*>::get(), ".ctor",

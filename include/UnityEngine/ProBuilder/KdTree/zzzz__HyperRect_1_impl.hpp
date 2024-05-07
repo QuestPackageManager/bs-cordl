@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ProBuilder/KdTree/HyperRect_1.hpp"
 #include "UnityEngine/ProBuilder/KdTree/zzzz__HyperRect_1_def.hpp"
 #include "UnityEngine/ProBuilder/KdTree/zzzz__ITypeMath_1_def.hpp"
 template <typename T> inline ::ArrayW<T, ::Array<T>*> UnityEngine::ProBuilder::KdTree::HyperRect_1<T>::get_MinPoint() {

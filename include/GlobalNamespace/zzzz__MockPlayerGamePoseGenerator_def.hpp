@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MockPlayerGamePoseGenerator.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -69,10 +70,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method CreateEmptyLevelCompletionResults, addr 0x2666364, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method CreateEmptyLevelCompletionResults, addr 0x2765760, size 0x108, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::LevelCompletionResults* CreateEmptyLevelCompletionResults(::GlobalNamespace::__LevelCompletionResults__LevelEndStateType levelEndStateType);
 
-  /// @brief Method Dispose, addr 0x2666180, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x276557c, size 0x2c, virtual true, abstract: false, final false
   inline void Dispose();
 
   /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -81,10 +82,10 @@ public:
   static inline ::GlobalNamespace::MockPlayerGamePoseGenerator* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager,
                                                                          ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager, bool leftHanded);
 
-  /// @brief Method SimulateFail, addr 0x2666274, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method SimulateFail, addr 0x2765670, size 0xf0, virtual true, abstract: false, final false
   inline void SimulateFail();
 
-  /// @brief Method SimulateGiveUp, addr 0x266646c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method SimulateGiveUp, addr 0x2765868, size 0xf0, virtual false, abstract: false, final false
   inline void SimulateGiveUp();
 
   /// @brief Method Tick, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -120,7 +121,7 @@ public:
 
   constexpr void __cordl_internal_set_multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
 
-  /// @brief Method .ctor, addr 0x2665f44, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2765340, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager, bool leftHanded);
 
   /// @brief Convert to "::System::IDisposable"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatmapSaveDataVersion4/BeatIndex.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__BeatIndex_def.hpp"
 #include "BeatmapSaveDataCommon/zzzz__IBeat_def.hpp"
@@ -8,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::BeatmapSaveDataVersion4::BeatIndex::*)()>(&::BeatmapSaveDataVersion4::BeatIndex::get_beat)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x13ff4b0;
+  constexpr static std::size_t addrs = 0x14f0a9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion4::BeatIndex*>::get(), "get_beat",
@@ -21,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapSaveDataVersion4::BeatIndex::*)()>(&::BeatmapSaveDataVersion4::BeatIndex::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x13ff4b8;
+  constexpr static std::size_t addrs = 0x14f0aa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion4::BeatIndex*>::get(), ".ctor",

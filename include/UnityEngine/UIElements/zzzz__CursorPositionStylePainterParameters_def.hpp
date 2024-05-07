@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/CursorPositionStylePainterParameters.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,10 +43,10 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE CursorPositionStylePainterParameters {
 public:
   // Declarations
-  /// @brief Method GetDefault, addr 0x3306f40, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method GetDefault, addr 0x350bc7c, size 0x148, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::CursorPositionStylePainterParameters GetDefault(::UnityEngine::UIElements::VisualElement* ve, ::StringW text);
 
-  /// @brief Method GetTextNativeSettings, addr 0x3307088, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method GetTextNativeSettings, addr 0x350bdc4, size 0x50, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TextNativeSettings GetTextNativeSettings(float_t scaling);
 
   // Ctor Parameters []

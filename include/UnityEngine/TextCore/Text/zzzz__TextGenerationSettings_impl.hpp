@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/TextCore/Text/TextGenerationSettings.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__FontStyles_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextAlignment_impl.hpp"
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TextCore::Text::TextGenerationSettings::*)(
     ::UnityEngine::TextCore::Text::TextGenerationSettings*)>(&::UnityEngine::TextCore::Text::TextGenerationSettings::Equals)> {
   constexpr static std::size_t size = 0x3b4;
-  constexpr static std::size_t addrs = 0x328e094;
+  constexpr static std::size_t addrs = 0x3496dd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -38,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TextCore::Text::TextGenerationSettings::*)(::System::Object*)>(
     &::UnityEngine::TextCore::Text::TextGenerationSettings::Equals)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x328e448;
+  constexpr static std::size_t addrs = 0x3497184;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -54,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::TextCore::Text::TextGenerationSettings::*)()>(
     &::UnityEngine::TextCore::Text::TextGenerationSettings::GetHashCode)> {
   constexpr static std::size_t size = 0x56c;
-  constexpr static std::size_t addrs = 0x328e510;
+  constexpr static std::size_t addrs = 0x349724c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -70,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextGenerationSettings::*)()>(
     &::UnityEngine::TextCore::Text::TextGenerationSettings::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x328ea7c;
+  constexpr static std::size_t addrs = 0x34977b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGenerationSettings*>::get(),

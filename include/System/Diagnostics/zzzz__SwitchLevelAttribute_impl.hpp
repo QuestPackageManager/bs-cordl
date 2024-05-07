@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Diagnostics/SwitchLevelAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Diagnostics/zzzz__SwitchLevelAttribute_def.hpp"
 #include "System/zzzz__Type_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::SwitchLevelAttribute::*)(::System::Type*)>(
     &::System::Diagnostics::SwitchLevelAttribute::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2e9fd78;
+  constexpr static std::size_t addrs = 0x2fa1678;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::SwitchLevelAttribute::*)(::System::Type*)>(
     &::System::Diagnostics::SwitchLevelAttribute::set_SwitchLevelType)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x2e9fda4;
+  constexpr static std::size_t addrs = 0x2fa16a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

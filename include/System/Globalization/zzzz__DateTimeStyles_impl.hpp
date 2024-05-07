@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Globalization/DateTimeStyles.hpp"
 #include "System/Globalization/zzzz__DateTimeStyles_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Globalization::DateTimeStyles::DateTimeStyles(int32_t value__) noexcept {

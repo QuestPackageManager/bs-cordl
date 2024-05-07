@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ConnectionErrorDialogViewController.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,7 +39,7 @@ public:
 
   static inline ::GlobalNamespace::__ConnectionErrorDialogViewController____c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method <Init>b__0, addr 0x253fc40, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <Init>b__0, addr 0x2635dfc, size 0x1c, virtual false, abstract: false, final false
   inline void _Init_b__0(int32_t btnIdx);
 
   constexpr ::System::Action*& __cordl_internal_get_buttonAction();
@@ -47,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set_buttonAction(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x253fc30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2635dec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -85,12 +86,12 @@ public:
   // Declarations
   using __c__DisplayClass0_0 = ::GlobalNamespace::__ConnectionErrorDialogViewController____c__DisplayClass0_0;
 
-  /// @brief Method Init, addr 0x253fa98, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2635c54, size 0x198, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::DisconnectedReason reason, ::System::Action* buttonAction);
 
   static inline ::GlobalNamespace::ConnectionErrorDialogViewController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x253fc38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2635df4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

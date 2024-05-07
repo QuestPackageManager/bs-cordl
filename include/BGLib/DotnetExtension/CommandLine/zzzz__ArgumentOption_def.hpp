@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BGLib/DotnetExtension/CommandLine/ArgumentOption.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,16 +29,16 @@ public:
 
   __declspec(property(get = get_required)) bool required;
 
-  /// @brief Method ValidateArgumentValue, addr 0xf837a4, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method ValidateArgumentValue, addr 0x1075718, size 0x2ac, virtual false, abstract: false, final false
   inline void ValidateArgumentValue(::StringW value);
 
-  /// @brief Method .ctor, addr 0xf83758, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10756cc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::StringW hint, ::BGLib::DotnetExtension::CommandLine::ArgumentType type, ::ArrayW<::StringW, ::Array<::StringW>*> identifiers);
 
-  /// @brief Method get_expectsValue, addr 0xf8377c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_expectsValue, addr 0x10756f0, size 0x28, virtual false, abstract: false, final false
   inline bool get_expectsValue();
 
-  /// @brief Method get_required, addr 0xf83768, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_required, addr 0x10756dc, size 0x14, virtual false, abstract: false, final false
   inline bool get_required();
 
   // Ctor Parameters []

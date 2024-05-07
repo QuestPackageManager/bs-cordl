@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ISliderDidDissolveEvent.hpp"
 #include "GlobalNamespace/zzzz__ISliderDidDissolveEvent_def.hpp"
 #include "GlobalNamespace/zzzz__SliderController_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ISliderDidDissolveEvent.HandleSliderDidDissolve

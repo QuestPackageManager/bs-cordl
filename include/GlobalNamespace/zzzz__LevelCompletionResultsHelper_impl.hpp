@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/LevelCompletionResultsHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__LevelCompletionResultsHelper_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_def.hpp"
@@ -20,7 +21,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                    float_t, float_t, ::ArrayW<float_t, ::Array<float_t>*>, float_t, float_t, ::GlobalNamespace::__LevelCompletionResults__LevelEndStateType,
                                                    ::GlobalNamespace::__LevelCompletionResults__LevelEndAction, float_t, float_t)>(&::GlobalNamespace::LevelCompletionResultsHelper::Create)> {
   constexpr static std::size_t size = 0x45c;
-  constexpr static std::size_t addrs = 0x13b5a24;
+  constexpr static std::size_t addrs = 0x14ab100;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -47,7 +48,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(ByRef<::GlobalNamespace::BeatmapKey>, ::GlobalNamespace::PlayerData*, ::GlobalNamespace::PlayerLevelStatsData*, ::GlobalNamespace::LevelCompletionResults*,
                          ::GlobalNamespace::IReadonlyBeatmapData*, ::GlobalNamespace::PlatformLeaderboardsModel*)>(&::GlobalNamespace::LevelCompletionResultsHelper::ProcessScore)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x13b5e80;
+  constexpr static std::size_t addrs = 0x14ab55c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

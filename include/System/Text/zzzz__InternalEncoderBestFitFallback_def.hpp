@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Text/InternalEncoderBestFitFallback.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,13 +38,13 @@ public:
   /// @brief Field _encoding, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__encoding, put = __cordl_internal_set__encoding))::System::Text::Encoding* _encoding;
 
-  /// @brief Method CreateFallbackBuffer, addr 0x26b7cec, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method CreateFallbackBuffer, addr 0x27b60e8, size 0x60, virtual true, abstract: false, final false
   inline ::System::Text::EncoderFallbackBuffer* CreateFallbackBuffer();
 
-  /// @brief Method Equals, addr 0x26b7e7c, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x27b6278, size 0xc4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* value);
 
-  /// @brief Method GetHashCode, addr 0x26b7f40, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x27b633c, size 0x24, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Text::InternalEncoderBestFitFallback* New_ctor(::System::Text::Encoding* encoding);
@@ -60,10 +61,10 @@ public:
 
   constexpr void __cordl_internal_set__encoding(::System::Text::Encoding* value);
 
-  /// @brief Method .ctor, addr 0x26b7cbc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27b60b8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Text::Encoding* encoding);
 
-  /// @brief Method get_MaxCharCount, addr 0x26b7e74, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_MaxCharCount, addr 0x27b6270, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_MaxCharCount();
 
 protected:

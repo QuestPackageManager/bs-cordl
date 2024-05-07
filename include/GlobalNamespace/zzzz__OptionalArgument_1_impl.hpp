@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OptionalArgument_1.hpp"
 #include "GlobalNamespace/zzzz__ArgumentBase_impl.hpp"
 #include "GlobalNamespace/zzzz__OptionalArgument_1_def.hpp"
 template <typename T> constexpr bool& GlobalNamespace::OptionalArgument_1<T>::__cordl_internal_get__hasValue_k__BackingField() {

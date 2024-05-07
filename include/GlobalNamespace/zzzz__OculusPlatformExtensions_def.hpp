@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OculusPlatformExtensions.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,7 +34,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE OculusPlatformExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetAwaiter, addr 0xf70c1c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method GetAwaiter, addr 0x1062dec, size 0xf8, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message*> GetAwaiter(::Oculus::Platform::Request* oculusRequest);
 
   /// @brief Method GetAwaiter, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

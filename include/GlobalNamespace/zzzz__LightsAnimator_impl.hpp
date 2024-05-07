@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/LightsAnimator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__LightsAnimator_def.hpp"
@@ -19,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LightsAnimator___DisableDirectionalLightsCoroutine_d__11::*)(int32_t)>(
     &::GlobalNamespace::__LightsAnimator___DisableDirectionalLightsCoroutine_d__11::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x25f4df8;
+  constexpr static std::size_t addrs = 0x26f3c10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LightsAnimator___DisableDirectionalLightsCoroutine_d__11::*)()>(
     &::GlobalNamespace::__LightsAnimator___DisableDirectionalLightsCoroutine_d__11::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x25f4e28;
+  constexpr static std::size_t addrs = 0x26f3c40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -49,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__LightsAnimator___DisableDirectionalLightsCoroutine_d__11::*)()>(
     &::GlobalNamespace::__LightsAnimator___DisableDirectionalLightsCoroutine_d__11::MoveNext)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x25f4e2c;
+  constexpr static std::size_t addrs = 0x26f3c44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -64,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__LightsAnimator___DisableDirectionalLightsCoroutine_d__11::*)()>(
     &::GlobalNamespace::__LightsAnimator___DisableDirectionalLightsCoroutine_d__11::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25f4f34;
+  constexpr static std::size_t addrs = 0x26f3d4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LightsAnimator___DisableDirectionalLightsCoroutine_d__11::*)()>(
     &::GlobalNamespace::__LightsAnimator___DisableDirectionalLightsCoroutine_d__11::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x25f4f3c;
+  constexpr static std::size_t addrs = 0x26f3d54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -94,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__LightsAnimator___DisableDirectionalLightsCoroutine_d__11::*)()>(
     &::GlobalNamespace::__LightsAnimator___DisableDirectionalLightsCoroutine_d__11::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25f4f7c;
+  constexpr static std::size_t addrs = 0x26f3d94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -222,7 +223,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightsAnimator::*)()>(&::GlobalNamespace::LightsAnimator::Awake)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x25f4aa0;
+  constexpr static std::size_t addrs = 0x26f38b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightsAnimator*>::get(), "Awake",
@@ -235,7 +236,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightsAnimator::*)()>(&::GlobalNamespace::LightsAnimator::OnDestroy)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x25f4b80;
+  constexpr static std::size_t addrs = 0x26f3998;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightsAnimator*>::get(), "OnDestroy",
@@ -249,7 +250,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightsAnimator::*)(::UnityEngine::Color, float_t, ::GlobalNamespace::EaseType)>(
     &::GlobalNamespace::LightsAnimator::AnimateToColor)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x25f2208;
+  constexpr static std::size_t addrs = 0x26f1020;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -264,7 +265,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightsAnimator::*)(::UnityEngine::Color)>(&::GlobalNamespace::LightsAnimator::SetColor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x25f4c08;
+  constexpr static std::size_t addrs = 0x26f3a20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -279,7 +280,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightsAnimator::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::LightsAnimator::SetLightsColor)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x25f4c60;
+  constexpr static std::size_t addrs = 0x26f3a78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -293,7 +294,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightsAnimator::*)(float_t)>(&::GlobalNamespace::LightsAnimator::SetLightsWidth)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x25f2678;
+  constexpr static std::size_t addrs = 0x26f1490;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -307,7 +308,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightsAnimator::*)(float_t)>(&::GlobalNamespace::LightsAnimator::DisableDirectionalLights)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x25f4d48;
+  constexpr static std::size_t addrs = 0x26f3b60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -322,7 +323,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::LightsAnimator::*)(float_t)>(
     &::GlobalNamespace::LightsAnimator::DisableDirectionalLightsCoroutine)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x25f4d80;
+  constexpr static std::size_t addrs = 0x26f3b98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -336,7 +337,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightsAnimator::*)()>(&::GlobalNamespace::LightsAnimator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25f4e20;
+  constexpr static std::size_t addrs = 0x26f3c38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightsAnimator*>::get(), ".ctor",

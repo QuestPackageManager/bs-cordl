@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Linq/NamespaceResolver.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Linq/zzzz__NamespaceResolver_def.hpp"
 #include "System/Xml/Linq/zzzz__NamespaceResolver_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration::*)()>(
     &::System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ca02b8;
+  constexpr static std::size_t addrs = 0x2d9ebb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -83,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Linq::NamespaceResolver::*)()>(&::System::Xml::Linq::NamespaceResolver::PushScope)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2ca0194;
+  constexpr static std::size_t addrs = 0x2d9ea94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Linq::NamespaceResolver>::get(), "PushScope",
@@ -96,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Linq::NamespaceResolver::*)()>(&::System::Xml::Linq::NamespaceResolver::PopScope)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x2ca0240;
+  constexpr static std::size_t addrs = 0x2d9eb40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Linq::NamespaceResolver>::get(), "PopScope",
@@ -110,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Linq::NamespaceResolver::*)(::StringW, ::System::Xml::Linq::XNamespace*)>(
     &::System::Xml::Linq::NamespaceResolver::Add)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2ca01a4;
+  constexpr static std::size_t addrs = 0x2d9eaa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -126,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Linq::NamespaceResolver::*)(::StringW, ::System::Xml::Linq::XNamespace*)>(
     &::System::Xml::Linq::NamespaceResolver::AddFirst)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x2ca0028;
+  constexpr static std::size_t addrs = 0x2d9e928;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -142,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Linq::NamespaceResolver::*)(::System::Xml::Linq::XNamespace*, bool)>(
     &::System::Xml::Linq::NamespaceResolver::GetPrefixOfNamespace)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x2c9ff4c;
+  constexpr static std::size_t addrs = 0x2d9e84c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

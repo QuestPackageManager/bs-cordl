@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/TimerCallback.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Threading/zzzz__TimerCallback_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -7,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::TimerCallback::*)(::System::Object*, void*)>(&::System::Threading::TimerCallback::_ctor)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x28a9bec;
+  constexpr static std::size_t addrs = 0x29a849c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -21,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::TimerCallback::*)(::System::Object*)>(&::System::Threading::TimerCallback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x28a9d18;
+  constexpr static std::size_t addrs = 0x29a85c8;
 
   inline static ::MethodInfo const* methodInfo() {
 

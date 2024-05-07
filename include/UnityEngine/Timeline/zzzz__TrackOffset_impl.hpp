@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Timeline/TrackOffset.hpp"
 #include "UnityEngine/Timeline/zzzz__TrackOffset_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Timeline::TrackOffset::TrackOffset(int32_t value__) noexcept {

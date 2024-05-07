@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/CameraVideoStreamFrameHeader_t.hpp"
 #include "OVR/OpenVR/zzzz__EVRTrackedCameraFrameType_impl.hpp"
 #include "OVR/OpenVR/zzzz__TrackedDevicePose_t_impl.hpp"
 #include "OVR/OpenVR/zzzz__CameraVideoStreamFrameHeader_t_def.hpp"

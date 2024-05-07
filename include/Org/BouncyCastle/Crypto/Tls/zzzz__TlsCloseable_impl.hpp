@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/TlsCloseable.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCloseable_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Tls::TlsCloseable.Close
 template <>

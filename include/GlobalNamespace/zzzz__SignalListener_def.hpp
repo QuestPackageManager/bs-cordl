@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SignalListener.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,15 +31,15 @@ public:
   /// @brief Field _unityEvent, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__unityEvent, put = __cordl_internal_set__unityEvent))::UnityEngine::Events::UnityEvent* _unityEvent;
 
-  /// @brief Method HandleEvent, addr 0x23dfd54, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleEvent, addr 0x24d7958, size 0x1c, virtual false, abstract: false, final false
   inline void HandleEvent();
 
   static inline ::GlobalNamespace::SignalListener* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x23dfccc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x24d78d0, size 0x88, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x23dfc38, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x24d783c, size 0x94, virtual false, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::UnityW<::GlobalNamespace::Signal> const& __cordl_internal_get__signal() const;
@@ -53,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set__unityEvent(::UnityEngine::Events::UnityEvent* value);
 
-  /// @brief Method .ctor, addr 0x23dfd70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24d7974, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

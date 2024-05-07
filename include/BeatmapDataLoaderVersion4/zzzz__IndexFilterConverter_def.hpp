@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatmapDataLoaderVersion4/IndexFilterConverter.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,10 +26,10 @@ namespace BeatmapDataLoaderVersion4 {
 class CORDL_TYPE IndexFilterConverter : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Convert, addr 0x1405020, size 0x380, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x14f75e0, size 0x380, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::IndexFilter* Convert(::BeatmapSaveDataVersion4::IndexFilter indexFilter, int32_t groupSize);
 
-  /// @brief Method IsIndexFilterValid, addr 0x1405f78, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method IsIndexFilterValid, addr 0x14f8538, size 0xa4, virtual false, abstract: false, final false
   static inline bool IsIndexFilterValid(::BeatmapSaveDataVersion4::IndexFilter indexFilter, int32_t groupSize);
 
 protected:

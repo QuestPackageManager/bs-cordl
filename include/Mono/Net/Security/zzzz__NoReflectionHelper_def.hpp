@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Net/Security/NoReflectionHelper.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,7 +22,7 @@ namespace Mono::Net::Security {
 class CORDL_TYPE NoReflectionHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetProvider, addr 0x2b6ea9c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetProvider, addr 0x2c6b39c, size 0x4c, virtual false, abstract: false, final false
   static inline ::System::Object* GetProvider();
 
 protected:

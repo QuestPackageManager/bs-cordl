@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/TerrainCallbacks.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__TerrainCallbacks_def.hpp"
@@ -13,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__TerrainCallbacks__HeightmapChangedCallback::*)(::System::Object*, void*)>(
     &::UnityEngine::__TerrainCallbacks__HeightmapChangedCallback::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x326cebc;
+  constexpr static std::size_t addrs = 0x3475bf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__TerrainCallbacks__HeightmapChangedCallback::*)(
     ::UnityEngine::Terrain*, ::UnityEngine::RectInt, bool)>(&::UnityEngine::__TerrainCallbacks__HeightmapChangedCallback::Invoke)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x326cf94;
+  constexpr static std::size_t addrs = 0x3475cd0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -61,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__TerrainCallbacks__TextureChangedCallback::*)(::System::Object*, void*)>(
     &::UnityEngine::__TerrainCallbacks__TextureChangedCallback::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x326cfac;
+  constexpr static std::size_t addrs = 0x3475ce8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -76,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__TerrainCallbacks__TextureChangedCallback::*)(
     ::UnityEngine::Terrain*, ::StringW, ::UnityEngine::RectInt, bool)>(&::UnityEngine::__TerrainCallbacks__TextureChangedCallback::Invoke)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x326d084;
+  constexpr static std::size_t addrs = 0x3475dc0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -109,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::TerrainData*, ::UnityEngine::RectInt, bool)>(
     &::UnityEngine::TerrainCallbacks::InvokeHeightmapChangedCallback)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x326cc94;
+  constexpr static std::size_t addrs = 0x34759d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -126,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::TerrainData*, ::StringW, ::UnityEngine::RectInt, bool)>(
     &::UnityEngine::TerrainCallbacks::InvokeTextureChangedCallback)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x326cda0;
+  constexpr static std::size_t addrs = 0x3475adc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

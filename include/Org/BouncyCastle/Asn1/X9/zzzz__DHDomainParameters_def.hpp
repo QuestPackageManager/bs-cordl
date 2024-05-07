@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/X9/DHDomainParameters.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,13 +68,13 @@ public:
   /// @brief Field validationParms, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_validationParms, put = __cordl_internal_set_validationParms))::Org::BouncyCastle::Asn1::X9::DHValidationParms* validationParms;
 
-  /// @brief Method GetInstance, addr 0x1317dec, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x140a510, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::DHDomainParameters* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-  /// @brief Method GetInstance, addr 0x1317e04, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x140a528, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::DHDomainParameters* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetNext, addr 0x1318268, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method GetNext, addr 0x140a98c, size 0x150, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1Encodable* GetNext(::System::Collections::IEnumerator* e);
 
   static inline ::Org::BouncyCastle::Asn1::X9::DHDomainParameters* New_ctor(::Org::BouncyCastle::Asn1::DerInteger* p, ::Org::BouncyCastle::Asn1::DerInteger* g,
@@ -82,7 +83,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X9::DHDomainParameters* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x1318568, size 0x1cc, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x140ac8c, size 0x1cc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_g();
@@ -115,26 +116,26 @@ public:
 
   constexpr void __cordl_internal_set_validationParms(::Org::BouncyCastle::Asn1::X9::DHValidationParms* value);
 
-  /// @brief Method .ctor, addr 0x1318178, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x140a89c, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerInteger* p, ::Org::BouncyCastle::Asn1::DerInteger* g, ::Org::BouncyCastle::Asn1::DerInteger* q, ::Org::BouncyCastle::Asn1::DerInteger* j,
                     ::Org::BouncyCastle::Asn1::X9::DHValidationParms* validationParms);
 
-  /// @brief Method .ctor, addr 0x1317f8c, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x140a6b0, size 0x1ec, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_G, addr 0x1318548, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_G, addr 0x140ac6c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_G();
 
-  /// @brief Method get_J, addr 0x1318558, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_J, addr 0x140ac7c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_J();
 
-  /// @brief Method get_P, addr 0x1318540, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_P, addr 0x140ac64, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_P();
 
-  /// @brief Method get_Q, addr 0x1318550, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Q, addr 0x140ac74, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Q();
 
-  /// @brief Method get_ValidationParms, addr 0x1318560, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ValidationParms, addr 0x140ac84, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X9::DHValidationParms* get_ValidationParms();
 
 protected:

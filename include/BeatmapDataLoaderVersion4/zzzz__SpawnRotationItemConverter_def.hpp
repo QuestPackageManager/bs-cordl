@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatmapDataLoaderVersion4/SpawnRotationItemConverter.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,7 +36,7 @@ public:
   __declspec(property(get = __cordl_internal_get__spawnRotations,
                       put = __cordl_internal_set__spawnRotations))::ArrayW<::BeatmapSaveDataVersion4::SpawnRotation, ::Array<::BeatmapSaveDataVersion4::SpawnRotation>*> _spawnRotations;
 
-  /// @brief Method Convert, addr 0x1404604, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x14f6bc4, size 0xcc, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventData* Convert(::BeatmapSaveDataVersion4::BeatIndex* index);
 
   static inline ::BeatmapDataLoaderVersion4::SpawnRotationItemConverter* New_ctor(::ArrayW<::BeatmapSaveDataVersion4::SpawnRotation, ::Array<::BeatmapSaveDataVersion4::SpawnRotation>*> spawnRotations,
@@ -47,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set__spawnRotations(::ArrayW<::BeatmapSaveDataVersion4::SpawnRotation, ::Array<::BeatmapSaveDataVersion4::SpawnRotation>*> value);
 
-  /// @brief Method .ctor, addr 0x14045d8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14f6b98, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::BeatmapSaveDataVersion4::SpawnRotation, ::Array<::BeatmapSaveDataVersion4::SpawnRotation>*> spawnRotations, ::GlobalNamespace::IBeatToTimeConverter* bpmTimeProcessor);
 
 protected:

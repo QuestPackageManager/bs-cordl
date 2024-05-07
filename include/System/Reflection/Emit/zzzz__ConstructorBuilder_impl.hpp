@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Reflection/Emit/ConstructorBuilder.hpp"
 #include "System/Reflection/zzzz__ConstructorInfo_impl.hpp"
 #include "System/Reflection/Emit/zzzz__ConstructorBuilder_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"
@@ -16,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodAttributes (::System::Reflection::Emit::ConstructorBuilder::*)()>(
     &::System::Reflection::Emit::ConstructorBuilder::get_Attributes)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x27794fc;
+  constexpr static std::size_t addrs = 0x2878c1c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -32,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Reflection::Emit::ConstructorBuilder::*)()>(
     &::System::Reflection::Emit::ConstructorBuilder::get_DeclaringType)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x277953c;
+  constexpr static std::size_t addrs = 0x2878c5c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -48,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Reflection::Emit::ConstructorBuilder::*)()>(
     &::System::Reflection::Emit::ConstructorBuilder::get_Name)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x277957c;
+  constexpr static std::size_t addrs = 0x2878c9c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -64,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Reflection::ParameterInfo*, ::Array<::System::Reflection::ParameterInfo*>*> (
     ::System::Reflection::Emit::ConstructorBuilder::*)()>(&::System::Reflection::Emit::ConstructorBuilder::GetParameters)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x27795bc;
+  constexpr static std::size_t addrs = 0x2878cdc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -80,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodImplAttributes (::System::Reflection::Emit::ConstructorBuilder::*)()>(
     &::System::Reflection::Emit::ConstructorBuilder::GetMethodImplementationFlags)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x27795fc;
+  constexpr static std::size_t addrs = 0x2878d1c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -96,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::RuntimeMethodHandle (::System::Reflection::Emit::ConstructorBuilder::*)()>(
     &::System::Reflection::Emit::ConstructorBuilder::get_MethodHandle)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x277963c;
+  constexpr static std::size_t addrs = 0x2878d5c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -113,7 +114,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Reflection::Emit::ConstructorBuilder::*)(::System::Reflection::BindingFlags, ::System::Reflection::Binder*, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>,
                                                        ::System::Globalization::CultureInfo*)>(&::System::Reflection::Emit::ConstructorBuilder::Invoke)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x277967c;
+  constexpr static std::size_t addrs = 0x2878d9c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -129,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::Emit::ConstructorBuilder::*)(::System::Type*, bool)>(
     &::System::Reflection::Emit::ConstructorBuilder::IsDefined)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x27796bc;
+  constexpr static std::size_t addrs = 0x2878ddc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -145,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Object*, ::Array<::System::Object*>*> (::System::Reflection::Emit::ConstructorBuilder::*)(bool)>(
     &::System::Reflection::Emit::ConstructorBuilder::GetCustomAttributes)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x27796fc;
+  constexpr static std::size_t addrs = 0x2878e1c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -161,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Object*, ::Array<::System::Object*>*> (::System::Reflection::Emit::ConstructorBuilder::*)(
     ::System::Type*, bool)>(&::System::Reflection::Emit::ConstructorBuilder::GetCustomAttributes)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x277973c;
+  constexpr static std::size_t addrs = 0x2878e5c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -177,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Reflection::Emit::ConstructorBuilder::*)()>(
     &::System::Reflection::Emit::ConstructorBuilder::get_ReflectedType)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x277977c;
+  constexpr static std::size_t addrs = 0x2878e9c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -194,7 +195,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Reflection::Emit::ConstructorBuilder::*)(::System::Object*, ::System::Reflection::BindingFlags, ::System::Reflection::Binder*, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>,
                                                        ::System::Globalization::CultureInfo*)>(&::System::Reflection::Emit::ConstructorBuilder::Invoke)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x27797bc;
+  constexpr static std::size_t addrs = 0x2878edc;
 
   inline static ::MethodInfo const* methodInfo() {
 

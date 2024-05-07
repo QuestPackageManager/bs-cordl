@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/SecurityManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Security/zzzz__SecurityManager_def.hpp"
 //  Writing Method size for method: ::System::Security::SecurityManager.get_SecurityEnabled
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::System::Security::SecurityManager::get_SecurityEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d422c;
+  constexpr static std::size_t addrs = 0x27d2628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::SecurityManager*>::get(),
@@ -19,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::Security::SecurityManager::EnsureElevatedPermissions)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x26d7770;
+  constexpr static std::size_t addrs = 0x27d5b6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::SecurityManager*>::get(),

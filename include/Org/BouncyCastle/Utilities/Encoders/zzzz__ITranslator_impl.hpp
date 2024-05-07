@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Utilities/Encoders/ITranslator.hpp"
 #include "Org/BouncyCastle/Utilities/Encoders/zzzz__ITranslator_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Utilities::Encoders::ITranslator.GetEncodedBlockSize
 template <>

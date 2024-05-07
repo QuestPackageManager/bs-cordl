@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/UQueryExtensions.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,7 +60,7 @@ public:
   static __declspec(property(get = getStaticF_SingleElementTypeQuery,
                              put = setStaticF_SingleElementTypeQuery))::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*> SingleElementTypeQuery;
 
-  /// @brief Method Q, addr 0x3354bc4, size 0x3e0, virtual false, abstract: false, final false
+  /// @brief Method Q, addr 0x3558900, size 0x3e0, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::VisualElement* Q(::UnityEngine::UIElements::VisualElement* e, ::StringW name, ::StringW className);
 
   /// @brief Method Q, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/PS5ActivityDataSO.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__PS5ActivityDataSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PS5ActivityDataSO.get_activityId
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::PS5ActivityDataSO::*)()>(&::GlobalNamespace::PS5ActivityDataSO::get_activityId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x13eb484;
+  constexpr static std::size_t addrs = 0x14dd6ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PS5ActivityDataSO*>::get(), "get_activityId",
@@ -19,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PS5ActivityDataSO::*)()>(&::GlobalNamespace::PS5ActivityDataSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x13eb464;
+  constexpr static std::size_t addrs = 0x14dd6cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PS5ActivityDataSO*>::get(), ".ctor",

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/Experimental/Lerp.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,14 +26,14 @@ namespace UnityEngine::UIElements::Experimental {
 class CORDL_TYPE Lerp : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Interpolate, addr 0x3333aa0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Interpolate, addr 0x35387dc, size 0x38, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color Interpolate(::UnityEngine::Color start, ::UnityEngine::Color end, float_t ratio);
 
-  /// @brief Method Interpolate, addr 0x3333ad8, size 0x3f0, virtual false, abstract: false, final false
+  /// @brief Method Interpolate, addr 0x3538814, size 0x3f0, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::Experimental::StyleValues Interpolate(::UnityEngine::UIElements::Experimental::StyleValues start, ::UnityEngine::UIElements::Experimental::StyleValues end,
                                                                                  float_t ratio);
 
-  /// @brief Method Interpolate, addr 0x3333a90, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Interpolate, addr 0x35387cc, size 0x10, virtual false, abstract: false, final false
   static inline float_t Interpolate(float_t start, float_t end, float_t ratio);
 
 protected:

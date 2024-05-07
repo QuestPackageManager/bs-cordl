@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Cms/CmsAuthEnvelopedGenerator.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,7 +40,7 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::CmsAuthEnvelopedGenerator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x134b714, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x143fe38, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_Aes128Ccm();

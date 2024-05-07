@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/NewArrayBoundsExpression.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,10 +36,10 @@ public:
   static inline ::System::Linq::Expressions::NewArrayBoundsExpression* New_ctor(::System::Type* type,
                                                                                 ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* expressions);
 
-  /// @brief Method .ctor, addr 0x2b0e550, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c0be50, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* expressions);
 
-  /// @brief Method get_NodeType, addr 0x2b0e598, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_NodeType, addr 0x2c0be98, size 0x8, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::ExpressionType get_NodeType();
 
 protected:

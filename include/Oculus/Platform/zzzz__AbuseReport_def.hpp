@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/AbuseReport.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,10 +29,10 @@ namespace Oculus::Platform {
 class CORDL_TYPE AbuseReport : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ReportRequestHandled, addr 0x29a59a4, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method ReportRequestHandled, addr 0x2aa3254, size 0x14c, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request* ReportRequestHandled(::Oculus::Platform::ReportRequestResponse response);
 
-  /// @brief Method SetReportButtonPressedNotificationCallback, addr 0x29a5be0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetReportButtonPressedNotificationCallback, addr 0x2aa3490, size 0x74, virtual false, abstract: false, final false
   static inline void SetReportButtonPressedNotificationCallback(::Oculus::Platform::__Message_1__Callback<::StringW>* callback);
 
 protected:

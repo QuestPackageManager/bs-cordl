@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/OverflowException.hpp"
 #include "System/zzzz__ArithmeticException_impl.hpp"
 #include "System/zzzz__OverflowException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
@@ -9,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::OverflowException::*)()>(&::System::OverflowException::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x2843570;
+  constexpr static std::size_t addrs = 0x2942d44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::OverflowException*>::get(), ".ctor",
@@ -22,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::OverflowException::*)(::StringW)>(&::System::OverflowException::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x28435cc;
+  constexpr static std::size_t addrs = 0x2942da0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -36,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::OverflowException::*)(::StringW, ::System::Exception*)>(&::System::OverflowException::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x28435f0;
+  constexpr static std::size_t addrs = 0x2942dc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -52,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::OverflowException::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::OverflowException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2843614;
+  constexpr static std::size_t addrs = 0x2942de8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

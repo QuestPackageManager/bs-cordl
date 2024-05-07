@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/ChainBuilderStats.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__ChainBuilderStats_def.hpp"
 // Ctor Parameters [CppParam { name: "elementsAdded", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "elementsRemoved", ty: "uint32_t", modifiers: "", def_value: Some("{}")
 // }, CppParam { name: "recursiveClipUpdates", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "recursiveClipUpdatesExpanded", ty: "uint32_t", modifiers: "", def_value:

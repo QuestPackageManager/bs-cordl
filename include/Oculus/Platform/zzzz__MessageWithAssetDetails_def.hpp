@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/MessageWithAssetDetails.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,15 +23,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithAssetDetails : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetDetails*> {
 public:
   // Declarations
-  /// @brief Method GetAssetDetails, addr 0x29c9774, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetAssetDetails, addr 0x2ac7024, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AssetDetails* GetAssetDetails();
 
-  /// @brief Method GetDataFromMessage, addr 0x29c97b0, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x2ac7060, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AssetDetails* GetDataFromMessage(void* c_message);
 
   static inline ::Oculus::Platform::MessageWithAssetDetails* New_ctor(void* c_message);
 
-  /// @brief Method .ctor, addr 0x29c7464, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ac4d14, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(void* c_message);
 
 protected:

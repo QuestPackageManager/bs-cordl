@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UI/Outline.hpp"
 #include "UnityEngine/UI/zzzz__Shadow_impl.hpp"
 #include "UnityEngine/UI/zzzz__Outline_def.hpp"
 #include "UnityEngine/UI/zzzz__VertexHelper_def.hpp"
@@ -7,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Outline::*)()>(&::UnityEngine::UI::Outline::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32deaa4;
+  constexpr static std::size_t addrs = 0x34e57e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Outline*>::get(), ".ctor",
@@ -19,8 +20,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Outline::*)(::UnityEngine::UI::VertexHelper*)>(&::UnityEngine::UI::Outline::ModifyMesh)> {
-  constexpr static std::size_t size = 0x1c40;
-  constexpr static std::size_t addrs = 0x32deaac;
+  constexpr static std::size_t size = 0xc40;
+  constexpr static std::size_t addrs = 0x34e57e8;
 
   inline static ::MethodInfo const* methodInfo() {
 

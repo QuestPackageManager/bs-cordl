@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Bson/BsonValue.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,13 +50,13 @@ public:
 
   constexpr void __cordl_internal_set__value(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x299e2d0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a9bb80, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* value, ::Newtonsoft::Json::Bson::BsonType type);
 
-  /// @brief Method get_Type, addr 0x299e308, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x2a9bbb8, size 0x8, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Bson::BsonType get_Type();
 
-  /// @brief Method get_Value, addr 0x299e300, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x2a9bbb0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Value();
 
 protected:

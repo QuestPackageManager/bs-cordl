@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/HeadsetHapticSettingsSampleController.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,18 +51,18 @@ public:
   /// @brief Field _nextHapticSamplePlayTimeEnd, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get__nextHapticSamplePlayTimeEnd, put = __cordl_internal_set__nextHapticSamplePlayTimeEnd)) float_t _nextHapticSamplePlayTimeEnd;
 
-  /// @brief Method HandleHapticSettingValueDidChange, addr 0x253c7bc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method HandleHapticSettingValueDidChange, addr 0x2632e24, size 0x50, virtual false, abstract: false, final false
   inline void HandleHapticSettingValueDidChange(::GlobalNamespace::FormattedFloatListSettingsController* controller, float_t newValue);
 
   static inline ::GlobalNamespace::HeadsetHapticSettingsSampleController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x253c684, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2632cec, size 0xd0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x253c5ec, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2632c54, size 0x98, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x253c754, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2632dbc, size 0x68, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> const& __cordl_internal_get__formattedFloatListSettingsController() const;
@@ -106,7 +107,7 @@ public:
 
   constexpr void __cordl_internal_set__nextHapticSamplePlayTimeEnd(float_t value);
 
-  /// @brief Method .ctor, addr 0x253c80c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2632e74, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

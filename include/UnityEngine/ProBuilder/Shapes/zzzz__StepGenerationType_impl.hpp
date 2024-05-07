@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ProBuilder/Shapes/StepGenerationType.hpp"
 #include "UnityEngine/ProBuilder/Shapes/zzzz__StepGenerationType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::ProBuilder::Shapes::StepGenerationType::StepGenerationType(int32_t value__) noexcept {

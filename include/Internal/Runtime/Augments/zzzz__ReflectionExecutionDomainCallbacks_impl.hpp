@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Internal/Runtime/Augments/ReflectionExecutionDomainCallbacks.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Internal/Runtime/Augments/zzzz__ReflectionExecutionDomainCallbacks_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (::Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks::*)(::System::Type*)>(
     &::Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks::CreateMissingMetadataException)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x26ad50c;
+  constexpr static std::size_t addrs = 0x27ab908;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks::*)()>(
     &::Internal::Runtime::Augments::ReflectionExecutionDomainCallbacks::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26ad504;
+  constexpr static std::size_t addrs = 0x27ab900;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

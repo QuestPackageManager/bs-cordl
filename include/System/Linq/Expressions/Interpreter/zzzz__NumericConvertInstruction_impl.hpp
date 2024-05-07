@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/NumericConvertInstruction.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__Instruction_impl.hpp"
 #include "System/zzzz__TypeCode_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__NumericConvertInstruction_def.hpp"
@@ -14,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::NumericConvertInstruction::*)(
     ::System::TypeCode, ::System::TypeCode, bool)>(&::System::Linq::Expressions::Interpreter::NumericConvertInstruction::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2b46570;
+  constexpr static std::size_t addrs = 0x2c42e70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::NumericConvertInstruction::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::System::Linq::Expressions::Interpreter::NumericConvertInstruction::Run)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x2b465ac;
+  constexpr static std::size_t addrs = 0x2c42eac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -61,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::NumericConvertInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::NumericConvertInstruction::get_InstructionName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2b46680;
+  constexpr static std::size_t addrs = 0x2c42f80;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -77,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::NumericConvertInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::NumericConvertInstruction::get_ConsumedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b466c0;
+  constexpr static std::size_t addrs = 0x2c42fc0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -93,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::NumericConvertInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::NumericConvertInstruction::get_ProducedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b466c8;
+  constexpr static std::size_t addrs = 0x2c42fc8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -109,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::NumericConvertInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::NumericConvertInstruction::ToString)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x2b466d0;
+  constexpr static std::size_t addrs = 0x2c42fd0;
 
   inline static ::MethodInfo const* methodInfo() {
 

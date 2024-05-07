@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/CSharpCodeHelpers.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,19 +20,19 @@ namespace UnityEngine::InputSystem::Utilities {
 class CORDL_TYPE CSharpCodeHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsEmptyOrProperIdentifier, addr 0x3041be0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method IsEmptyOrProperIdentifier, addr 0x317c96c, size 0x2c, virtual false, abstract: false, final false
   static inline bool IsEmptyOrProperIdentifier(::StringW name);
 
-  /// @brief Method IsEmptyOrProperNamespaceName, addr 0x3041c0c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method IsEmptyOrProperNamespaceName, addr 0x317c998, size 0xd8, virtual false, abstract: false, final false
   static inline bool IsEmptyOrProperNamespaceName(::StringW name);
 
-  /// @brief Method IsProperIdentifier, addr 0x3041ad8, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method IsProperIdentifier, addr 0x317c864, size 0x108, virtual false, abstract: false, final false
   static inline bool IsProperIdentifier(::StringW name);
 
-  /// @brief Method MakeIdentifier, addr 0x3041ce4, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method MakeIdentifier, addr 0x317ca70, size 0x244, virtual false, abstract: false, final false
   static inline ::StringW MakeIdentifier(::StringW name, ::StringW suffix);
 
-  /// @brief Method MakeTypeName, addr 0x3041f28, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method MakeTypeName, addr 0x317ccb4, size 0x10c, virtual false, abstract: false, final false
   static inline ::StringW MakeTypeName(::StringW name, ::StringW suffix);
 
 protected:

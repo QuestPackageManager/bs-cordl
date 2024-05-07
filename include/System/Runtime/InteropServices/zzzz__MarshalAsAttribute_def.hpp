@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/InteropServices/MarshalAsAttribute.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,7 +61,7 @@ public:
   /// @brief Field utype, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_utype, put = __cordl_internal_set_utype))::System::Runtime::InteropServices::UnmanagedType utype;
 
-  /// @brief Method Copy, addr 0x275bb78, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Copy, addr 0x285b288, size 0x64, virtual false, abstract: false, final false
   inline ::System::Runtime::InteropServices::MarshalAsAttribute* Copy();
 
   static inline ::System::Runtime::InteropServices::MarshalAsAttribute* New_ctor(::System::Runtime::InteropServices::UnmanagedType unmanagedType);
@@ -125,10 +126,10 @@ public:
 
   constexpr void __cordl_internal_set_utype(::System::Runtime::InteropServices::UnmanagedType value);
 
-  /// @brief Method .ctor, addr 0x275bb48, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x285b258, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::InteropServices::UnmanagedType unmanagedType);
 
-  /// @brief Method get_Value, addr 0x275bb70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x285b280, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::InteropServices::UnmanagedType get_Value();
 
 protected:

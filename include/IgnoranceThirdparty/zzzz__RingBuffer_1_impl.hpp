@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "IgnoranceThirdparty/RingBuffer_1.hpp"
 #include "IgnoranceThirdparty/zzzz__Volatile_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "IgnoranceThirdparty/zzzz__RingBuffer_1_def.hpp"

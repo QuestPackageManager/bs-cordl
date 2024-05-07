@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/SingleCallIdentity.hpp"
 #include "System/Runtime/Remoting/zzzz__ServerIdentity_impl.hpp"
 #include "System/Runtime/Remoting/zzzz__SingleCallIdentity_def.hpp"
 #include "System/Runtime/Remoting/Contexts/zzzz__Context_def.hpp"
@@ -12,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::SingleCallIdentity::*)(
     ::StringW, ::System::Runtime::Remoting::Contexts::Context*, ::System::Type*)>(&::System::Runtime::Remoting::SingleCallIdentity::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x27157d0;
+  constexpr static std::size_t addrs = 0x2813bcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Messaging::IMessage* (
     ::System::Runtime::Remoting::SingleCallIdentity::*)(::System::Runtime::Remoting::Messaging::IMessage*)>(&::System::Runtime::Remoting::SingleCallIdentity::SyncObjectProcessMessage)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x2717d00;
+  constexpr static std::size_t addrs = 0x28160fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -46,7 +47,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Runtime::Remoting::SingleCallIdentity::*)(::System::Runtime::Remoting::Messaging::IMessage*, ::System::Runtime::Remoting::Messaging::IMessageSink*)>(
     &::System::Runtime::Remoting::SingleCallIdentity::AsyncObjectProcessMessage)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x2717f10;
+  constexpr static std::size_t addrs = 0x281630c;
 
   inline static ::MethodInfo const* methodInfo() {
 

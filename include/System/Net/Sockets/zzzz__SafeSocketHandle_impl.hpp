@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Sockets/SafeSocketHandle.hpp"
 #include "Microsoft/Win32/SafeHandles/zzzz__SafeHandleMinusOneIsInvalid_impl.hpp"
 #include "System/Net/Sockets/zzzz__SafeSocketHandle_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -10,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Sockets::SafeSocketHandle::*)(void*, bool)>(&::System::Net::Sockets::SafeSocketHandle::_ctor)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x2e2d75c;
+  constexpr static std::size_t addrs = 0x2f2c05c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::Sockets::SafeSocketHandle::*)()>(&::System::Net::Sockets::SafeSocketHandle::ReleaseHandle)> {
   constexpr static std::size_t size = 0x5cc;
-  constexpr static std::size_t addrs = 0x2e2d828;
+  constexpr static std::size_t addrs = 0x2f2c128;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -39,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Sockets::SafeSocketHandle::*)()>(
     &::System::Net::Sockets::SafeSocketHandle::RegisterForBlockingSyscall)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x2e2ddf4;
+  constexpr static std::size_t addrs = 0x2f2c6f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Sockets::SafeSocketHandle*>::get(),
@@ -53,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Sockets::SafeSocketHandle::*)()>(
     &::System::Net::Sockets::SafeSocketHandle::UnRegisterForBlockingSyscall)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x2e2df3c;
+  constexpr static std::size_t addrs = 0x2f2c83c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Sockets::SafeSocketHandle*>::get(),

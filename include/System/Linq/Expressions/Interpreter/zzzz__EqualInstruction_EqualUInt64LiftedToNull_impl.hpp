@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/EqualInstruction_EqualUInt64LiftedToNull.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__EqualInstruction_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__EqualInstruction_EqualUInt64LiftedToNull_def.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__InterpretedFrame_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::__EqualInstruction__EqualUInt64LiftedToNull::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::System::Linq::Expressions::Interpreter::__EqualInstruction__EqualUInt64LiftedToNull::Run)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x2b1b320;
+  constexpr static std::size_t addrs = 0x2c18c20;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::__EqualInstruction__EqualUInt64LiftedToNull::*)()>(
     &::System::Linq::Expressions::Interpreter::__EqualInstruction__EqualUInt64LiftedToNull::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b19f94;
+  constexpr static std::size_t addrs = 0x2c17894;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

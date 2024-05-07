@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Dynamic/DeleteIndexBinder.hpp"
 #include "System/Dynamic/zzzz__DynamicMetaObjectBinder_impl.hpp"
 #include "System/Dynamic/zzzz__DeleteIndexBinder_def.hpp"
 #include "System/Dynamic/zzzz__DynamicMetaObject_def.hpp"
@@ -9,7 +10,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Dynamic::DeleteIndexBinder::*)(::System::Dynamic::DynamicMetaObject*, ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*>)>(
     &::System::Dynamic::DeleteIndexBinder::Bind)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x2b50bd8;
+  constexpr static std::size_t addrs = 0x2c4d4d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +28,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Dynamic::DeleteIndexBinder::*)(::System::Dynamic::DynamicMetaObject*, ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*>)>(
     &::System::Dynamic::DeleteIndexBinder::FallbackDeleteIndex)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2b50c94;
+  constexpr static std::size_t addrs = 0x2c4d594;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

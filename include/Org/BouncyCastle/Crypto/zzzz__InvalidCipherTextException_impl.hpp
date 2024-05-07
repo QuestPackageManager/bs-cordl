@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/InvalidCipherTextException.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__CryptoException_impl.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__InvalidCipherTextException_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::InvalidCipherTextException::*)()>(
     &::Org::BouncyCastle::Crypto::InvalidCipherTextException::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x1131a78;
+  constexpr static std::size_t addrs = 0x122519c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::InvalidCipherTextException*>::get(),
@@ -22,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::InvalidCipherTextException::*)(::StringW)>(
     &::Org::BouncyCastle::Crypto::InvalidCipherTextException::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x1131a7c;
+  constexpr static std::size_t addrs = 0x12251a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::InvalidCipherTextException::*)(::StringW, ::System::Exception*)>(
     &::Org::BouncyCastle::Crypto::InvalidCipherTextException::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x1131a80;
+  constexpr static std::size_t addrs = 0x12251a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/ParameterByRefUpdater.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__ByRefUpdater_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__ParameterByRefUpdater_def.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__InterpretedFrame_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::ParameterByRefUpdater::*)(
     ::System::Linq::Expressions::Interpreter::LocalVariable*, int32_t)>(&::System::Linq::Expressions::Interpreter::ParameterByRefUpdater::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x2b39c48;
+  constexpr static std::size_t addrs = 0x2c36548;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::ParameterByRefUpdater::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*, ::System::Object*)>(&::System::Linq::Expressions::Interpreter::ParameterByRefUpdater::Update)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x2b39c78;
+  constexpr static std::size_t addrs = 0x2c36578;
 
   inline static ::MethodInfo const* methodInfo() {
 

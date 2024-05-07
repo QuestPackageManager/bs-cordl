@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/RestrictionFacets.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -155,7 +156,7 @@ public:
 
   constexpr void __cordl_internal_set_WhiteSpace(::System::Xml::Schema::XmlSchemaWhiteSpace value);
 
-  /// @brief Method .ctor, addr 0x2e01ca0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f005a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

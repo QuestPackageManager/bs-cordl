@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Bits.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,10 +35,10 @@ public:
   /// @brief Field MASK_1111111111111111, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_MASK_1111111111111111, put = setStaticF_MASK_1111111111111111)) uint32_t MASK_1111111111111111;
 
-  /// @brief Method Count, addr 0x2c95130, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Count, addr 0x2d93a30, size 0x9c, virtual false, abstract: false, final false
   static inline int32_t Count(uint32_t num);
 
-  /// @brief Method LeastPosition, addr 0x2c951cc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method LeastPosition, addr 0x2d93acc, size 0x6c, virtual false, abstract: false, final false
   static inline int32_t LeastPosition(uint32_t num);
 
   static inline uint32_t getStaticF_MASK_0000000011111111();

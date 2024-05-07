@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/StereoTargetEyeMask.hpp"
 #include "UnityEngine/zzzz__StereoTargetEyeMask_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::StereoTargetEyeMask::StereoTargetEyeMask(int32_t value__) noexcept {

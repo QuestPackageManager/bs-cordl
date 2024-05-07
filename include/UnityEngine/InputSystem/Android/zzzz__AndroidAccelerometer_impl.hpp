@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Android/AndroidAccelerometer.hpp"
 #include "UnityEngine/InputSystem/zzzz__Accelerometer_impl.hpp"
 #include "UnityEngine/InputSystem/Android/zzzz__AndroidAccelerometer_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Android::AndroidAccelerometer._ctor
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Android::AndroidAccelerometer::*)()>(
     &::UnityEngine::InputSystem::Android::AndroidAccelerometer::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x30192ec;
+  constexpr static std::size_t addrs = 0x3155078;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

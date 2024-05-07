@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "JetBrains/Annotations/PathReferenceAttribute.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,16 +35,16 @@ public:
 
   constexpr void __cordl_internal_set__BasePath_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x340a2a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x360efe0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x340a2ac, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x360efe8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW basePath);
 
-  /// @brief Method get_BasePath, addr 0x340a2d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BasePath, addr 0x360f010, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_BasePath();
 
-  /// @brief Method set_BasePath, addr 0x340a2dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BasePath, addr 0x360f018, size 0x8, virtual false, abstract: false, final false
   inline void set_BasePath(::StringW value);
 
 protected:

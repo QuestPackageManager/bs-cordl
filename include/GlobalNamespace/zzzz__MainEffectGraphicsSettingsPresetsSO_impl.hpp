@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MainEffectGraphicsSettingsPresetsSO.hpp"
 #include "GlobalNamespace/zzzz__NamedPreset_impl.hpp"
 #include "GlobalNamespace/zzzz__NamedPresetsSO_impl.hpp"
 #include "GlobalNamespace/zzzz__MainEffectGraphicsSettingsPresetsSO_def.hpp"
@@ -11,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MainEffectGraphicsSettingsPresetsSO__Preset::*)()>(
     &::GlobalNamespace::__MainEffectGraphicsSettingsPresetsSO__Preset::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x13d46dc;
+  constexpr static std::size_t addrs = 0x14c9ec0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -50,7 +51,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::GlobalNamespace::__MainEffectGraphicsSettingsPresetsSO__Preset*, ::Array<::GlobalNamespace::__MainEffectGraphicsSettingsPresetsSO__Preset*>*> (
         ::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::*)()>(&::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::get_presets)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x13d46c4;
+  constexpr static std::size_t addrs = 0x14c9ea8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO*>::get(),
@@ -64,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::GlobalNamespace::NamedPreset*, ::Array<::GlobalNamespace::NamedPreset*>*> (
     ::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::*)()>(&::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::get_namedPresets)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x13d46cc;
+  constexpr static std::size_t addrs = 0x14c9eb0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -80,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::*)()>(
     &::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x13d46d4;
+  constexpr static std::size_t addrs = 0x14c9eb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO*>::get(),

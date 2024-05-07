@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/ShaderInfoStorage_1.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__BaseShaderInfoStorage_impl.hpp"
 #include "UnityEngine/zzzz__TextureFormat_impl.hpp"

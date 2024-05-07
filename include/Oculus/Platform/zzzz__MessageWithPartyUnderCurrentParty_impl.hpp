@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/MessageWithPartyUnderCurrentParty.hpp"
 #include "Oculus/Platform/zzzz__Message_1_impl.hpp"
 #include "Oculus/Platform/zzzz__MessageWithPartyUnderCurrentParty_def.hpp"
 #include "Oculus/Platform/Models/zzzz__Party_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::MessageWithPartyUnderCurrentParty::*)(void*)>(
     &::Oculus::Platform::MessageWithPartyUnderCurrentParty::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x29c7e5c;
+  constexpr static std::size_t addrs = 0x2ac570c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::Party* (::Oculus::Platform::MessageWithPartyUnderCurrentParty::*)()>(
     &::Oculus::Platform::MessageWithPartyUnderCurrentParty::GetParty)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x29cba74;
+  constexpr static std::size_t addrs = 0x2ac9324;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -39,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::Party* (::Oculus::Platform::MessageWithPartyUnderCurrentParty::*)(void*)>(
     &::Oculus::Platform::MessageWithPartyUnderCurrentParty::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x29cbab0;
+  constexpr static std::size_t addrs = 0x2ac9360;
 
   inline static ::MethodInfo const* methodInfo() {
 

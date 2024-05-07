@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/TextCore/Text/FontStyleStack.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,13 +23,13 @@ namespace UnityEngine::TextCore::Text {
 struct CORDL_TYPE FontStyleStack {
 public:
   // Declarations
-  /// @brief Method Add, addr 0x329804c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x349fd88, size 0xfc, virtual false, abstract: false, final false
   inline uint8_t Add(::UnityEngine::TextCore::Text::FontStyles style);
 
-  /// @brief Method Clear, addr 0x3298040, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x349fd7c, size 0xc, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Remove, addr 0x3298148, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x349fe84, size 0x120, virtual false, abstract: false, final false
   inline uint8_t Remove(::UnityEngine::TextCore::Text::FontStyles style);
 
   // Ctor Parameters []

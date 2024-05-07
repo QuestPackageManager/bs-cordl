@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "JetBrains/Annotations/RazorWriteMethodParameterAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "JetBrains/Annotations/zzzz__RazorWriteMethodParameterAttribute_def.hpp"
 //  Writing Method size for method: ::JetBrains::Annotations::RazorWriteMethodParameterAttribute._ctor
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::RazorWriteMethodParameterAttribute::*)()>(
     &::JetBrains::Annotations::RazorWriteMethodParameterAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x340a8e8;
+  constexpr static std::size_t addrs = 0x360f624;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

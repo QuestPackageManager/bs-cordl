@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatSaber/AvatarCore/AvatarDisplayContext.hpp"
 #include "BeatSaber/AvatarCore/zzzz__AvatarDisplayContext_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::BeatSaber::AvatarCore::AvatarDisplayContext::AvatarDisplayContext(int32_t value__) noexcept {

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ComponentModel/ExpandableObjectConverter.hpp"
 #include "System/ComponentModel/zzzz__TypeConverter_impl.hpp"
 #include "System/ComponentModel/zzzz__ExpandableObjectConverter_def.hpp"
 #include "System/ComponentModel/zzzz__ITypeDescriptorContext_def.hpp"
@@ -11,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::ExpandableObjectConverter::*)()>(
     &::System::ComponentModel::ExpandableObjectConverter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2e40274;
+  constexpr static std::size_t addrs = 0x2f3eb74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ExpandableObjectConverter*>::get(),
@@ -26,7 +27,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::ComponentModel::ExpandableObjectConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Object*, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*>)>(
     &::System::ComponentModel::ExpandableObjectConverter::GetProperties)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2e4027c;
+  constexpr static std::size_t addrs = 0x2f3eb7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::ExpandableObjectConverter::*)(::System::ComponentModel::ITypeDescriptorContext*)>(
     &::System::ComponentModel::ExpandableObjectConverter::GetPropertiesSupported)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2e402e4;
+  constexpr static std::size_t addrs = 0x2f3ebe4;
 
   inline static ::MethodInfo const* methodInfo() {
 

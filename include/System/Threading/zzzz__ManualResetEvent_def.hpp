@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/ManualResetEvent.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,7 +21,7 @@ public:
   // Declarations
   static inline ::System::Threading::ManualResetEvent* New_ctor(bool initialState);
 
-  /// @brief Method .ctor, addr 0x2898ce4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2997594, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(bool initialState);
 
 protected:

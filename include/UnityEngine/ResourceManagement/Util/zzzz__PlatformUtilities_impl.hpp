@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ResourceManagement/Util/PlatformUtilities.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ResourceManagement/Util/zzzz__PlatformUtilities_def.hpp"
 #include "UnityEngine/zzzz__RuntimePlatform_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::RuntimePlatform)>(
     &::UnityEngine::ResourceManagement::Util::PlatformUtilities::PlatformUsesMultiThreading)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3101924;
+  constexpr static std::size_t addrs = 0x33083ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::Util::PlatformUtilities::*)()>(
     &::UnityEngine::ResourceManagement::Util::PlatformUtilities::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3101930;
+  constexpr static std::size_t addrs = 0x33083b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

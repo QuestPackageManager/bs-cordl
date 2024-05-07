@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/StartupErrorSceneSetupData.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set_title(::StringW value);
 
-  /// @brief Method .ctor, addr 0x25a8980, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a2a18, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW title, ::StringW subtitle);
 
 protected:

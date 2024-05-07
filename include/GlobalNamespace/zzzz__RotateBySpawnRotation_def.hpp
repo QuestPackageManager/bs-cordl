@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/RotateBySpawnRotation.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,21 +52,21 @@ public:
   /// @brief Field _targetRotation, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__targetRotation, put = __cordl_internal_set__targetRotation)) float_t _targetRotation;
 
-  /// @brief Method FixedUpdate, addr 0x25d66f0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method FixedUpdate, addr 0x26d6430, size 0x90, virtual false, abstract: false, final false
   inline void FixedUpdate();
 
-  /// @brief Method HandleSpawnRotationBeatmapEvent, addr 0x25d6654, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method HandleSpawnRotationBeatmapEvent, addr 0x26d6394, size 0x9c, virtual false, abstract: false, final false
   inline void HandleSpawnRotationBeatmapEvent(::GlobalNamespace::SpawnRotationBeatmapEventData* beatmapEventData);
 
-  /// @brief Method LateUpdate, addr 0x25d6780, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x26d64c0, size 0xc0, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::RotateBySpawnRotation* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x25d6638, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x26d6378, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x25d6500, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x26d6240, size 0x138, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr float_t const& __cordl_internal_get__aheadTime() const;
@@ -110,7 +111,7 @@ public:
 
   constexpr void __cordl_internal_set__targetRotation(float_t value);
 
-  /// @brief Method .ctor, addr 0x25d6840, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d6580, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/TextCore/LowLevel/FontFeatureLookupFlags.hpp"
 #include "UnityEngine/TextCore/LowLevel/zzzz__FontFeatureLookupFlags_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags::FontFeatureLookupFlags(int32_t value__) noexcept {

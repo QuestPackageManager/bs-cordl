@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/StackGuard.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -98,7 +99,7 @@ public:
   /// @brief Method RunOnEmptyStackCore, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename R> inline R RunOnEmptyStackCore(::System::Func_2<::System::Object*, R>* action, ::System::Object* state);
 
-  /// @brief Method TryEnterOnCurrentStack, addr 0x2b0ee9c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method TryEnterOnCurrentStack, addr 0x2c0c79c, size 0x70, virtual false, abstract: false, final false
   inline bool TryEnterOnCurrentStack();
 
   constexpr int32_t const& __cordl_internal_get__executionStackCount() const;
@@ -107,7 +108,7 @@ public:
 
   constexpr void __cordl_internal_set__executionStackCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2b0ef0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c0c80c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

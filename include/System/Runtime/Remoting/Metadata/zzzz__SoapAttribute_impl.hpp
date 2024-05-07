@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/Metadata/SoapAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Runtime/Remoting/Metadata/zzzz__SoapAttribute_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Metadata::SoapAttribute::*)()>(
     &::System::Runtime::Remoting::Metadata::SoapAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2727b18;
+  constexpr static std::size_t addrs = 0x2825f14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Metadata::SoapAttribute*>::get(),
@@ -22,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Remoting::Metadata::SoapAttribute::*)()>(
     &::System::Runtime::Remoting::Metadata::SoapAttribute::get_UseAttribute)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2727b20;
+  constexpr static std::size_t addrs = 0x2825f1c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -38,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::Remoting::Metadata::SoapAttribute::*)()>(
     &::System::Runtime::Remoting::Metadata::SoapAttribute::get_XmlNamespace)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2727b28;
+  constexpr static std::size_t addrs = 0x2825f24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -54,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Metadata::SoapAttribute::*)(::System::Object*)>(
     &::System::Runtime::Remoting::Metadata::SoapAttribute::SetReflectionObject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2727b30;
+  constexpr static std::size_t addrs = 0x2825f2c;
 
   inline static ::MethodInfo const* methodInfo() {
 

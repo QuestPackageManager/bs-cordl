@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/BufferOffsetSize.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__BufferOffsetSize_def.hpp"
 //  Writing Method size for method: ::System::Net::BufferOffsetSize._ctor
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::BufferOffsetSize::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, bool)>(
     &::System::Net::BufferOffsetSize::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x2eda5ac;
+  constexpr static std::size_t addrs = 0x2fdceac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::BufferOffsetSize::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, bool)>(
     &::System::Net::BufferOffsetSize::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2eda658;
+  constexpr static std::size_t addrs = 0x2fdcf58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

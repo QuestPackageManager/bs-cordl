@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/PlatformHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/zzzz__PlatformHelper_def.hpp"
 //  Writing Method size for method: ::System::Threading::PlatformHelper.get_ProcessorCount
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::System::Threading::PlatformHelper::get_ProcessorCount)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x289b1c8;
+  constexpr static std::size_t addrs = 0x2999a78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::PlatformHelper*>::get(),

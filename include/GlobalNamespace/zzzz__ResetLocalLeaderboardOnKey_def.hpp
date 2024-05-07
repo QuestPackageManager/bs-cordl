@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ResetLocalLeaderboardOnKey.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,7 +37,7 @@ public:
 
   static inline ::GlobalNamespace::ResetLocalLeaderboardOnKey* New_ctor();
 
-  /// @brief Method Update, addr 0x13fbc50, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x14ee318, size 0xb8, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::IFileStorage*& __cordl_internal_get__fileStorage();
@@ -57,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set__localLeaderboardsModel(::GlobalNamespace::LocalLeaderboardsModel* value);
 
-  /// @brief Method .ctor, addr 0x13fbd08, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14ee3d0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

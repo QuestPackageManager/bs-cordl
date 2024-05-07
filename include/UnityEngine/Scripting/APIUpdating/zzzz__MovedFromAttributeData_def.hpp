@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Scripting/APIUpdating/MovedFromAttributeData.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,7 +20,7 @@ namespace UnityEngine::Scripting::APIUpdating {
 struct CORDL_TYPE MovedFromAttributeData {
 public:
   // Declarations
-  /// @brief Method Set, addr 0x3220c74, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x34279b0, size 0x38, virtual false, abstract: false, final false
   inline void Set(bool autoUpdateAPI, ::StringW sourceNamespace, ::StringW sourceAssembly, ::StringW sourceClassName);
 
   // Ctor Parameters []

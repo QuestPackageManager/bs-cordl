@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/TMP_InputValidator.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "TMPro/zzzz__TMP_InputValidator_def.hpp"
 //  Writing Method size for method: ::TMPro::TMP_InputValidator.Validate
@@ -21,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputValidator::*)()>(&::TMPro::TMP_InputValidator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3168fec;
+  constexpr static std::size_t addrs = 0x336ea74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputValidator*>::get(), ".ctor",

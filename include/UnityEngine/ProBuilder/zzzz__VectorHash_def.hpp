@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ProBuilder/VectorHash.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,16 +30,16 @@ namespace UnityEngine::ProBuilder {
 class CORDL_TYPE VectorHash : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetHashCode, addr 0x30afde0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x32b7868, size 0x7c, virtual false, abstract: false, final false
   static inline int32_t GetHashCode(::UnityEngine::Vector2 v);
 
-  /// @brief Method GetHashCode, addr 0x309a70c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x32a2194, size 0xb0, virtual false, abstract: false, final false
   static inline int32_t GetHashCode(::UnityEngine::Vector3 v);
 
-  /// @brief Method GetHashCode, addr 0x30afe5c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x32b78e4, size 0xe0, virtual false, abstract: false, final false
   static inline int32_t GetHashCode(::UnityEngine::Vector4 v);
 
-  /// @brief Method HashFloat, addr 0x30afda0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method HashFloat, addr 0x32b7828, size 0x40, virtual false, abstract: false, final false
   static inline int32_t HashFloat(float_t f);
 
 protected:

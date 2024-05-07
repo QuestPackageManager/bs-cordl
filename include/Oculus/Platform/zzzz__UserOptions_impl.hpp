@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/UserOptions.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/zzzz__UserOptions_def.hpp"
@@ -9,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::UserOptions::*)()>(&::Oculus::Platform::UserOptions::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x29d9258;
+  constexpr static std::size_t addrs = 0x2ad6b08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::UserOptions*>::get(), ".ctor",
@@ -22,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::UserOptions::*)(uint32_t)>(&::Oculus::Platform::UserOptions::SetMaxUsers)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x29d9af0;
+  constexpr static std::size_t addrs = 0x2ad73a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::UserOptions::*)(::Oculus::Platform::ServiceProvider)>(
     &::Oculus::Platform::UserOptions::AddServiceProvider)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x29d92bc;
+  constexpr static std::size_t addrs = 0x2ad6b6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::UserOptions::*)()>(&::Oculus::Platform::UserOptions::ClearServiceProviders)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x29d9b58;
+  constexpr static std::size_t addrs = 0x2ad7408;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::UserOptions*>::get(), "ClearServiceProviders",
@@ -65,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::UserOptions::*)(::Oculus::Platform::TimeWindow)>(
     &::Oculus::Platform::UserOptions::SetTimeWindow)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x29d9bb0;
+  constexpr static std::size_t addrs = 0x2ad7460;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (*)(::Oculus::Platform::UserOptions*)>(&::Oculus::Platform::UserOptions::op_Explicit_void_)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x29d9324;
+  constexpr static std::size_t addrs = 0x2ad6bd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -93,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::UserOptions::*)()>(&::Oculus::Platform::UserOptions::Finalize)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x29d9c18;
+  constexpr static std::size_t addrs = 0x2ad74c8;
 
   inline static ::MethodInfo const* methodInfo() {
 

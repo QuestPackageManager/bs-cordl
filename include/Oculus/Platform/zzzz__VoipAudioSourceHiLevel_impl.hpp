@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/VoipAudioSourceHiLevel.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Oculus/Platform/zzzz__VoipAudioSourceHiLevel_def.hpp"
 #include "Oculus/Platform/zzzz__IVoipPCMSource_def.hpp"
@@ -11,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::__VoipAudioSourceHiLevel__FilterReadDelegate::*)()>(
     &::Oculus::Platform::__VoipAudioSourceHiLevel__FilterReadDelegate::Awake)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x29da454;
+  constexpr static std::size_t addrs = 0x2ad7d04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::__VoipAudioSourceHiLevel__FilterReadDelegate::*)(
     ::ArrayW<float_t, ::Array<float_t>*>, int32_t)>(&::Oculus::Platform::__VoipAudioSourceHiLevel__FilterReadDelegate::OnAudioFilterRead)> {
   constexpr static std::size_t size = 0x4cc;
-  constexpr static std::size_t addrs = 0x29da508;
+  constexpr static std::size_t addrs = 0x2ad7db8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::__VoipAudioSourceHiLevel__FilterReadDelegate::*)()>(
     &::Oculus::Platform::__VoipAudioSourceHiLevel__FilterReadDelegate::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x29da9d4;
+  constexpr static std::size_t addrs = 0x2ad8284;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -105,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::VoipAudioSourceHiLevel::*)(uint64_t)>(
     &::Oculus::Platform::VoipAudioSourceHiLevel::set_senderID)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x29d9cec;
+  constexpr static std::size_t addrs = 0x2ad759c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -119,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::VoipAudioSourceHiLevel::*)()>(&::Oculus::Platform::VoipAudioSourceHiLevel::Stop)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x29d9d98;
+  constexpr static std::size_t addrs = 0x2ad7648;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::VoipAudioSourceHiLevel*>::get(), "Stop",
@@ -133,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::VoipSampleRate (::Oculus::Platform::VoipAudioSourceHiLevel::*)(int32_t)>(
     &::Oculus::Platform::VoipAudioSourceHiLevel::SampleRateToEnum)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x29d9d9c;
+  constexpr static std::size_t addrs = 0x2ad764c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -147,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::VoipAudioSourceHiLevel::*)()>(&::Oculus::Platform::VoipAudioSourceHiLevel::Awake)> {
   constexpr static std::size_t size = 0x2a0;
-  constexpr static std::size_t addrs = 0x29d9dd8;
+  constexpr static std::size_t addrs = 0x2ad7688;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::VoipAudioSourceHiLevel*>::get(), "Awake",
@@ -160,7 +161,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::VoipAudioSourceHiLevel::*)()>(&::Oculus::Platform::VoipAudioSourceHiLevel::Start)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x29da078;
+  constexpr static std::size_t addrs = 0x2ad7928;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::VoipAudioSourceHiLevel*>::get(), "Start",
@@ -174,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::VoipAudioSourceHiLevel::*)()>(
     &::Oculus::Platform::VoipAudioSourceHiLevel::CreatePCMSource)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x29da094;
+  constexpr static std::size_t addrs = 0x2ad7944;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -188,7 +189,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::Oculus::Platform::VoipAudioSourceHiLevel::MSToElements)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x29da0fc;
+  constexpr static std::size_t addrs = 0x2ad79ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -202,7 +203,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::VoipAudioSourceHiLevel::*)()>(&::Oculus::Platform::VoipAudioSourceHiLevel::Update)> {
   constexpr static std::size_t size = 0x2e8;
-  constexpr static std::size_t addrs = 0x29da164;
+  constexpr static std::size_t addrs = 0x2ad7a14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::VoipAudioSourceHiLevel*>::get(), "Update",
@@ -215,7 +216,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::VoipAudioSourceHiLevel::*)()>(&::Oculus::Platform::VoipAudioSourceHiLevel::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x29da44c;
+  constexpr static std::size_t addrs = 0x2ad7cfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::VoipAudioSourceHiLevel*>::get(), ".ctor",

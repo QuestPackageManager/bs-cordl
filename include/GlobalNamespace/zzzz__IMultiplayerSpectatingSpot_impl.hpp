@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IMultiplayerSpectatingSpot.hpp"
 #include "GlobalNamespace/zzzz__IMultiplayerSpectatingSpot_def.hpp"
 #include "GlobalNamespace/zzzz__IMultiplayerObservable_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"

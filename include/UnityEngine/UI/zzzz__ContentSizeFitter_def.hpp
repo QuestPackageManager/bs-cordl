@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UI/ContentSizeFitter.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -121,27 +122,27 @@ public:
   /// @brief Convert operator to "::UnityEngine::UI::ILayoutSelfController"
   constexpr operator ::UnityEngine::UI::ILayoutSelfController*() noexcept;
 
-  /// @brief Method HandleSelfFittingAlongAxis, addr 0x32c2b34, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method HandleSelfFittingAlongAxis, addr 0x34c9870, size 0xe4, virtual false, abstract: false, final false
   inline void HandleSelfFittingAlongAxis(int32_t axis);
 
   static inline ::UnityEngine::UI::ContentSizeFitter* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x32c2ab4, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x34c97f0, size 0x7c, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x32c2a98, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x34c97d4, size 0x1c, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnRectTransformDimensionsChange, addr 0x32c2b30, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnRectTransformDimensionsChange, addr 0x34c986c, size 0x4, virtual true, abstract: false, final false
   inline void OnRectTransformDimensionsChange();
 
-  /// @brief Method SetDirty, addr 0x32c28fc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SetDirty, addr 0x34c9638, size 0x84, virtual false, abstract: false, final false
   inline void SetDirty();
 
-  /// @brief Method SetLayoutHorizontal, addr 0x32c2c30, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method SetLayoutHorizontal, addr 0x34c996c, size 0x24, virtual true, abstract: false, final false
   inline void SetLayoutHorizontal();
 
-  /// @brief Method SetLayoutVertical, addr 0x32c2c54, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetLayoutVertical, addr 0x34c9990, size 0x8, virtual true, abstract: false, final false
   inline void SetLayoutVertical();
 
   constexpr ::UnityEngine::UI::__ContentSizeFitter__FitMode const& __cordl_internal_get_m_HorizontalFit() const;
@@ -168,16 +169,16 @@ public:
 
   constexpr void __cordl_internal_set_m_VerticalFit(::UnityEngine::UI::__ContentSizeFitter__FitMode value);
 
-  /// @brief Method .ctor, addr 0x32c2a90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34c97cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_horizontalFit, addr 0x32c2880, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_horizontalFit, addr 0x34c95bc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::__ContentSizeFitter__FitMode get_horizontalFit();
 
-  /// @brief Method get_rectTransform, addr 0x32c29fc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_rectTransform, addr 0x34c9738, size 0x94, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RectTransform> get_rectTransform();
 
-  /// @brief Method get_verticalFit, addr 0x32c2980, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_verticalFit, addr 0x34c96bc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::__ContentSizeFitter__FitMode get_verticalFit();
 
   /// @brief Convert to "::UnityEngine::UI::ILayoutController"
@@ -186,10 +187,10 @@ public:
   /// @brief Convert to "::UnityEngine::UI::ILayoutSelfController"
   constexpr ::UnityEngine::UI::ILayoutSelfController* i___UnityEngine__UI__ILayoutSelfController() noexcept;
 
-  /// @brief Method set_horizontalFit, addr 0x32c2888, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method set_horizontalFit, addr 0x34c95c4, size 0x74, virtual false, abstract: false, final false
   inline void set_horizontalFit(::UnityEngine::UI::__ContentSizeFitter__FitMode value);
 
-  /// @brief Method set_verticalFit, addr 0x32c2988, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method set_verticalFit, addr 0x34c96c4, size 0x74, virtual false, abstract: false, final false
   inline void set_verticalFit(::UnityEngine::UI::__ContentSizeFitter__FitMode value);
 
 protected:

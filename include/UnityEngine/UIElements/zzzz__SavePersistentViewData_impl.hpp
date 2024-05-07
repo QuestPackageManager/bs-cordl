@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/SavePersistentViewData.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__SavePersistentViewData_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::SavePersistentViewData::*)(::System::Object*, void*)>(
     &::UnityEngine::UIElements::SavePersistentViewData::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3319c34;
+  constexpr static std::size_t addrs = 0x351e970;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::SavePersistentViewData::*)()>(
     &::UnityEngine::UIElements::SavePersistentViewData::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3319cf0;
+  constexpr static std::size_t addrs = 0x351ea2c;
 
   inline static ::MethodInfo const* methodInfo() {
 

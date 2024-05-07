@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ComponentModel/DoubleConverter.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,24 +34,24 @@ public:
 
   __declspec(property(get = get_TargetType))::System::Type* TargetType;
 
-  /// @brief Method FromString, addr 0x2e3ee2c, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method FromString, addr 0x2f3d72c, size 0x70, virtual true, abstract: false, final false
   inline ::System::Object* FromString(::StringW value, ::System::Globalization::NumberFormatInfo* formatInfo);
 
-  /// @brief Method FromString, addr 0x2e3ed6c, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method FromString, addr 0x2f3d66c, size 0xc0, virtual true, abstract: false, final false
   inline ::System::Object* FromString(::StringW value, int32_t radix);
 
   static inline ::System::ComponentModel::DoubleConverter* New_ctor();
 
-  /// @brief Method ToString, addr 0x2e3ee9c, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2f3d79c, size 0xb0, virtual true, abstract: false, final false
   inline ::StringW ToString(::System::Object* value, ::System::Globalization::NumberFormatInfo* formatInfo);
 
-  /// @brief Method .ctor, addr 0x2e3ef4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f3d84c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AllowHex, addr 0x2e3ecf8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_AllowHex, addr 0x2f3d5f8, size 0x8, virtual true, abstract: false, final false
   inline bool get_AllowHex();
 
-  /// @brief Method get_TargetType, addr 0x2e3ed00, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_TargetType, addr 0x2f3d600, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Type* get_TargetType();
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/StoreStaticFieldInstruction.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__FieldInstruction_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__StoreStaticFieldInstruction_def.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__InterpretedFrame_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::StoreStaticFieldInstruction::*)(::System::Reflection::FieldInfo*)>(
     &::System::Linq::Expressions::Interpreter::StoreStaticFieldInstruction::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2b1d8b4;
+  constexpr static std::size_t addrs = 0x2c1b1b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::StoreStaticFieldInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::StoreStaticFieldInstruction::get_InstructionName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2b1d8dc;
+  constexpr static std::size_t addrs = 0x2c1b1dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::StoreStaticFieldInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::StoreStaticFieldInstruction::get_ConsumedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b1d91c;
+  constexpr static std::size_t addrs = 0x2c1b21c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::StoreStaticFieldInstruction::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::System::Linq::Expressions::Interpreter::StoreStaticFieldInstruction::Run)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2b1d924;
+  constexpr static std::size_t addrs = 0x2c1b224;
 
   inline static ::MethodInfo const* methodInfo() {
 

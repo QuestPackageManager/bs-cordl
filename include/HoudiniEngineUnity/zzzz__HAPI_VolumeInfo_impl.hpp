@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HAPI_VolumeInfo.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_StorageType_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_Transform_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_VolumeType_impl.hpp"

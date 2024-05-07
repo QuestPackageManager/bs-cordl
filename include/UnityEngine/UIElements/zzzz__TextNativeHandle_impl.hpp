@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/TextNativeHandle.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TextVertex_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
@@ -16,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::UIElements::TextNativeHandle::*)()>(
     &::UnityEngine::UIElements::TextNativeHandle::get_MeasuredSizes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3395584;
+  constexpr static std::size_t addrs = 0x359b2c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextNativeHandle>::get(),
@@ -30,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TextNativeHandle::*)(::UnityEngine::Vector2)>(
     &::UnityEngine::UIElements::TextNativeHandle::set_MeasuredSizes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x339558c;
+  constexpr static std::size_t addrs = 0x359b2c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -45,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::UIElements::TextNativeHandle::*)()>(
     &::UnityEngine::UIElements::TextNativeHandle::get_RoundedSizes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3395594;
+  constexpr static std::size_t addrs = 0x359b2d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextNativeHandle>::get(),
@@ -59,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TextNativeHandle::*)(::UnityEngine::Vector2)>(
     &::UnityEngine::UIElements::TextNativeHandle::set_RoundedSizes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x339559c;
+  constexpr static std::size_t addrs = 0x359b2d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -73,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::ITextHandle* (*)()>(&::UnityEngine::UIElements::TextNativeHandle::New)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x33955a4;
+  constexpr static std::size_t addrs = 0x359b2e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextNativeHandle>::get(), "New",
@@ -86,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::TextNativeHandle::*)()>(&::UnityEngine::UIElements::TextNativeHandle::IsLegacy)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3395600;
+  constexpr static std::size_t addrs = 0x359b33c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextNativeHandle>::get(), "IsLegacy",
@@ -100,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::TextNativeHandle::*)(
     int32_t, ::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams, float_t, float_t)>(&::UnityEngine::UIElements::TextNativeHandle::GetLineHeight)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3395608;
+  constexpr static std::size_t addrs = 0x359b344;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -117,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextCore::Text::TextInfo* (
     ::UnityEngine::UIElements::TextNativeHandle::*)(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams, float_t)>(&::UnityEngine::UIElements::TextNativeHandle::Update)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x33956dc;
+  constexpr static std::size_t addrs = 0x359b418;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -133,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::TextVertex> (
     ::UnityEngine::UIElements::TextNativeHandle::*)(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams, float_t)>(&::UnityEngine::UIElements::TextNativeHandle::GetVertices)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x339574c;
+  constexpr static std::size_t addrs = 0x359b488;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -149,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::UIElements::TextNativeHandle::*)(
     ::UnityEngine::UIElements::CursorPositionStylePainterParameters, float_t)>(&::UnityEngine::UIElements::TextNativeHandle::GetCursorPosition)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x339595c;
+  constexpr static std::size_t addrs = 0x359b698;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -165,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::TextNativeHandle::*)(
     ::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams, float_t)>(&::UnityEngine::UIElements::TextNativeHandle::ComputeTextWidth)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x33959b4;
+  constexpr static std::size_t addrs = 0x359b6f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -181,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::TextNativeHandle::*)(
     ::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams, float_t)>(&::UnityEngine::UIElements::TextNativeHandle::ComputeTextHeight)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3395678;
+  constexpr static std::size_t addrs = 0x359b3b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -196,7 +197,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::TextNativeHandle::*)()>(&::UnityEngine::UIElements::TextNativeHandle::IsElided)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3395a34;
+  constexpr static std::size_t addrs = 0x359b770;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextNativeHandle>::get(), "IsElided",

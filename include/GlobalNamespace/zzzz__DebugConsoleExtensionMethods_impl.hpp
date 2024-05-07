@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/DebugConsoleExtensionMethods.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__DebugConsoleExtensionMethods_def.hpp"
 #include "GlobalNamespace/zzzz__DebugConsoleController_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__DebugConsoleController__ConsoleMessage (*)(::StringW, ::UnityEngine::LogType)>(
     &::GlobalNamespace::DebugConsoleExtensionMethods::ToConsoleMessage)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x257bca8;
+  constexpr static std::size_t addrs = 0x267413c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/MessageWithDestinationList.hpp"
 #include "Oculus/Platform/zzzz__Message_1_impl.hpp"
 #include "Oculus/Platform/zzzz__MessageWithDestinationList_def.hpp"
 #include "Oculus/Platform/Models/zzzz__DestinationList_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::MessageWithDestinationList::*)(void*)>(
     &::Oculus::Platform::MessageWithDestinationList::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x29c78dc;
+  constexpr static std::size_t addrs = 0x2ac518c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::DestinationList* (::Oculus::Platform::MessageWithDestinationList::*)()>(
     &::Oculus::Platform::MessageWithDestinationList::GetDestinationList)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x29ca1ec;
+  constexpr static std::size_t addrs = 0x2ac7a9c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -39,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::DestinationList* (::Oculus::Platform::MessageWithDestinationList::*)(void*)>(
     &::Oculus::Platform::MessageWithDestinationList::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x29ca228;
+  constexpr static std::size_t addrs = 0x2ac7ad8;
 
   inline static ::MethodInfo const* methodInfo() {
 

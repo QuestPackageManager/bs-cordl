@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Ice/BeatmapFloorLightTilesGrid.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,7 +45,7 @@ public:
 
   static inline ::Ice::BeatmapFloorLightTilesGrid* New_ctor();
 
-  /// @brief Method Start, addr 0xf6c074, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x105ac80, size 0xf0, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::IBeatmapObjectSpawnController*& __cordl_internal_get__beatmapObjectSpawnController();
@@ -77,7 +78,7 @@ public:
 
   constexpr void __cordl_internal_set__tileWidth(float_t value);
 
-  /// @brief Method .ctor, addr 0xf6c2f8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x105af04, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ScoreObjectiveValueFormatterSO.hpp"
 #include "GlobalNamespace/zzzz__ObjectiveValueFormatterSO_impl.hpp"
 #include "GlobalNamespace/zzzz__ScoreObjectiveValueFormatterSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ScoreObjectiveValueFormatterSO.FormatValue
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::ScoreObjectiveValueFormatterSO::*)(int32_t)>(
     &::GlobalNamespace::ScoreObjectiveValueFormatterSO::FormatValue)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x13d7570;
+  constexpr static std::size_t addrs = 0x14ca920;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScoreObjectiveValueFormatterSO::*)()>(
     &::GlobalNamespace::ScoreObjectiveValueFormatterSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x13d75c8;
+  constexpr static std::size_t addrs = 0x14ca978;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoreObjectiveValueFormatterSO*>::get(),

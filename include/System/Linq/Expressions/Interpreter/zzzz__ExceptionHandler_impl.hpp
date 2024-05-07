@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/ExceptionHandler.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__ExceptionHandler_def.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__ExceptionFilter_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::ExceptionHandler::*)(
     int32_t, int32_t, int32_t, ::System::Type*, ::System::Linq::Expressions::Interpreter::ExceptionFilter*)>(&::System::Linq::Expressions::Interpreter::ExceptionHandler::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2b2ae08;
+  constexpr static std::size_t addrs = 0x2c28708;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Linq::Expressions::Interpreter::ExceptionHandler::*)(::System::Type*)>(
     &::System::Linq::Expressions::Interpreter::ExceptionHandler::Matches)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2b2ae5c;
+  constexpr static std::size_t addrs = 0x2c2875c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::ExceptionHandler::*)()>(
     &::System::Linq::Expressions::Interpreter::ExceptionHandler::ToString)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x2b2ae80;
+  constexpr static std::size_t addrs = 0x2c28780;
 
   inline static ::MethodInfo const* methodInfo() {
 

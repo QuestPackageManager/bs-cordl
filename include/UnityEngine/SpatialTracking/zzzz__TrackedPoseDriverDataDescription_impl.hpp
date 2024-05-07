@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/SpatialTracking/TrackedPoseDriverDataDescription.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/SpatialTracking/zzzz__TrackedPoseDriverDataDescription_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -19,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SpatialTracking::TrackedPoseDriverDataDescription::*)()>(
     &::UnityEngine::SpatialTracking::TrackedPoseDriverDataDescription::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x326720c;
+  constexpr static std::size_t addrs = 0x346ff48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

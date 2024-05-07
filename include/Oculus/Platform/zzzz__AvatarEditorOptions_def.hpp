@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/AvatarEditorOptions.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,12 +25,12 @@ public:
   /// @brief Field Handle, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_Handle, put = __cordl_internal_set_Handle)) void* Handle;
 
-  /// @brief Method Finalize, addr 0x29a7a44, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x2aa52f4, size 0xd4, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::Oculus::Platform::AvatarEditorOptions* New_ctor();
 
-  /// @brief Method SetSourceOverride, addr 0x29a78e4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetSourceOverride, addr 0x2aa5194, size 0x68, virtual false, abstract: false, final false
   inline void SetSourceOverride(::StringW value);
 
   constexpr void* const& __cordl_internal_get_Handle() const;
@@ -38,10 +39,10 @@ public:
 
   constexpr void __cordl_internal_set_Handle(void* value);
 
-  /// @brief Method .ctor, addr 0x29a7818, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aa50c8, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method op_Explicit, addr 0x29a79ec, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method op_Explicit, addr 0x2aa529c, size 0x58, virtual false, abstract: false, final false
   static inline void* op_Explicit_void_(::Oculus::Platform::AvatarEditorOptions* options);
 
 protected:

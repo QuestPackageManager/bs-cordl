@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Android/LowLevel/AndroidCompensateDirectionProcessor.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,10 +28,10 @@ public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateDirectionProcessor* New_ctor();
 
-  /// @brief Method Process, addr 0x301a864, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Process, addr 0x31565f0, size 0x1c, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 Process(::UnityEngine::Vector3 vector, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method .ctor, addr 0x301a880, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x315660c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

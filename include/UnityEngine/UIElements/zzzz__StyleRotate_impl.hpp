@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/StyleRotate.hpp"
 #include "UnityEngine/UIElements/zzzz__Rotate_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleKeyword_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleRotate_def.hpp"
@@ -13,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::Rotate (::UnityEngine::UIElements::StyleRotate::*)()>(
     &::UnityEngine::UIElements::StyleRotate::get_value)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x33c21c4;
+  constexpr static std::size_t addrs = 0x35c7f00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleRotate>::get(), "get_value",
@@ -27,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::StyleKeyword (::UnityEngine::UIElements::StyleRotate::*)()>(
     &::UnityEngine::UIElements::StyleRotate::get_keyword)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33c5148;
+  constexpr static std::size_t addrs = 0x35cae84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleRotate>::get(), "get_keyword",
@@ -41,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleRotate::*)(::UnityEngine::UIElements::StyleKeyword)>(
     &::UnityEngine::UIElements::StyleRotate::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x33c5150;
+  constexpr static std::size_t addrs = 0x35cae8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::UnityEngine::UIElements::StyleRotate::*)(::UnityEngine::UIElements::Rotate, ::UnityEngine::UIElements::StyleKeyword)>(&::UnityEngine::UIElements::StyleRotate::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x33c5160;
+  constexpr static std::size_t addrs = 0x35cae9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::StyleRotate, ::UnityEngine::UIElements::StyleRotate)>(
     &::UnityEngine::UIElements::StyleRotate::op_Equality)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x33c5178;
+  constexpr static std::size_t addrs = 0x35caeb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -88,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::StyleRotate (*)(::UnityEngine::UIElements::StyleKeyword)>(
     &::UnityEngine::UIElements::StyleRotate::op_Implicit___UnityEngine__UIElements__StyleRotate)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x33c261c;
+  constexpr static std::size_t addrs = 0x35c8358;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -103,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::StyleRotate::*)(::UnityEngine::UIElements::StyleRotate)>(
     &::UnityEngine::UIElements::StyleRotate::Equals)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x33c51d4;
+  constexpr static std::size_t addrs = 0x35caf10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -118,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::StyleRotate::*)(::System::Object*)>(
     &::UnityEngine::UIElements::StyleRotate::Equals)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x33c5250;
+  constexpr static std::size_t addrs = 0x35caf8c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -132,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::StyleRotate::*)()>(&::UnityEngine::UIElements::StyleRotate::GetHashCode)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x33c52e0;
+  constexpr static std::size_t addrs = 0x35cb01c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -146,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::StyleRotate::*)()>(&::UnityEngine::UIElements::StyleRotate::ToString)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x33c5304;
+  constexpr static std::size_t addrs = 0x35cb040;
 
   inline static ::MethodInfo const* methodInfo() {
 

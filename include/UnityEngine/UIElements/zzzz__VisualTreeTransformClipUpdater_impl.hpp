@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/VisualTreeTransformClipUpdater.hpp"
 #include "Unity/Profiling/zzzz__ProfilerMarker_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseVisualTreeUpdater_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualTreeTransformClipUpdater_def.hpp"
@@ -11,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Profiling::ProfilerMarker (::UnityEngine::UIElements::VisualTreeTransformClipUpdater::*)()>(
     &::UnityEngine::UIElements::VisualTreeTransformClipUpdater::get_profilerMarker)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x330a1d8;
+  constexpr static std::size_t addrs = 0x350ef14;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeTransformClipUpdater::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::VersionChangeType)>(&::UnityEngine::UIElements::VisualTreeTransformClipUpdater::OnVersionChanged)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x330a230;
+  constexpr static std::size_t addrs = 0x350ef6c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UIElements::VisualElement*, bool, bool)>(
     &::UnityEngine::UIElements::VisualTreeTransformClipUpdater::DirtyHierarchy)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x330a324;
+  constexpr static std::size_t addrs = 0x350f060;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::VisualTreeTransformClipUpdater::DirtyBoundingBoxHierarchy)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x330a478;
+  constexpr static std::size_t addrs = 0x350f1b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -74,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeTransformClipUpdater::*)()>(
     &::UnityEngine::UIElements::VisualTreeTransformClipUpdater::Update)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x330a520;
+  constexpr static std::size_t addrs = 0x350f25c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -90,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeTransformClipUpdater::*)()>(
     &::UnityEngine::UIElements::VisualTreeTransformClipUpdater::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x330a784;
+  constexpr static std::size_t addrs = 0x350f4c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

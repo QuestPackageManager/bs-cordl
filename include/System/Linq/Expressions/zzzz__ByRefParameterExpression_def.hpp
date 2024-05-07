@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/ByRefParameterExpression.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,12 +23,12 @@ namespace System::Linq::Expressions {
 class CORDL_TYPE ByRefParameterExpression : public ::System::Linq::Expressions::TypedParameterExpression {
 public:
   // Declarations
-  /// @brief Method GetIsByRef, addr 0x2b0ee84, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetIsByRef, addr 0x2c0c784, size 0x8, virtual true, abstract: false, final false
   inline bool GetIsByRef();
 
   static inline ::System::Linq::Expressions::ByRefParameterExpression* New_ctor(::System::Type* type, ::StringW name);
 
-  /// @brief Method .ctor, addr 0x2b0ed84, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c0c684, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::StringW name);
 
 protected:

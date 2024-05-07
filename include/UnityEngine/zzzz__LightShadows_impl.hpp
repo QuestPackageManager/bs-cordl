@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/LightShadows.hpp"
 #include "UnityEngine/zzzz__LightShadows_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::LightShadows::LightShadows(int32_t value__) noexcept {

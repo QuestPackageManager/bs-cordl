@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/Proxies/TransparentProxy.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,18 +46,18 @@ public:
   /// @brief Field _rp, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__rp, put = __cordl_internal_set__rp))::System::Runtime::Remoting::Proxies::RealProxy* _rp;
 
-  /// @brief Method GetProxyType, addr 0x2719c48, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetProxyType, addr 0x2818044, size 0xd0, virtual false, abstract: false, final false
   inline ::System::RuntimeType* GetProxyType();
 
-  /// @brief Method InCurrentContext, addr 0x2719d50, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method InCurrentContext, addr 0x281814c, size 0x40, virtual false, abstract: false, final false
   inline bool InCurrentContext();
 
-  /// @brief Method LoadRemoteFieldNew, addr 0x2719d90, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method LoadRemoteFieldNew, addr 0x281818c, size 0x2dc, virtual false, abstract: false, final false
   inline ::System::Object* LoadRemoteFieldNew(void* classPtr, void* fieldPtr);
 
   static inline ::System::Runtime::Remoting::Proxies::TransparentProxy* New_ctor();
 
-  /// @brief Method StoreRemoteField, addr 0x271a95c, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method StoreRemoteField, addr 0x2818d58, size 0x2dc, virtual false, abstract: false, final false
   inline void StoreRemoteField(void* classPtr, void* fieldPtr, ::System::Object* arg);
 
   constexpr ::Mono::RuntimeRemoteClassHandle const& __cordl_internal_get__class() const;
@@ -77,13 +78,13 @@ public:
 
   constexpr void __cordl_internal_set__rp(::System::Runtime::Remoting::Proxies::RealProxy* value);
 
-  /// @brief Method .ctor, addr 0x271ac38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2819034, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsContextBoundObject, addr 0x2719d18, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_IsContextBoundObject, addr 0x2818114, size 0x1c, virtual false, abstract: false, final false
   inline bool get_IsContextBoundObject();
 
-  /// @brief Method get_TargetContext, addr 0x2719d34, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_TargetContext, addr 0x2818130, size 0x1c, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::Contexts::Context* get_TargetContext();
 
 protected:

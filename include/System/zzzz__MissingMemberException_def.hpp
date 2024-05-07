@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/MissingMemberException.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,10 +39,10 @@ public:
   /// @brief Field Signature, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get_Signature, put = __cordl_internal_set_Signature))::ArrayW<uint8_t, ::Array<uint8_t>*> Signature;
 
-  /// @brief Method FormatSignature, addr 0x28573f0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method FormatSignature, addr 0x2956c98, size 0x48, virtual false, abstract: false, final false
   static inline ::StringW FormatSignature(::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
 
-  /// @brief Method GetObjectData, addr 0x2857294, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x2956b3c, size 0x15c, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::MissingMemberException* New_ctor();
@@ -68,16 +69,16 @@ public:
 
   constexpr void __cordl_internal_set_Signature(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x2856e70, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2956718, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2856ed0, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2956778, size 0x184, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x2856e00, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29566a8, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method get_Message, addr 0x2857168, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x2956a10, size 0x12c, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
 protected:

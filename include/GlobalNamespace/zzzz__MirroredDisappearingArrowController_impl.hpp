@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MirroredDisappearingArrowController.hpp"
 #include "GlobalNamespace/zzzz__DisappearingArrowControllerBase_1_impl.hpp"
 #include "GlobalNamespace/zzzz__MirroredDisappearingArrowController_def.hpp"
 #include "GlobalNamespace/zzzz__MirroredGameNoteController_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::MirroredGameNoteController> (
     ::GlobalNamespace::MirroredDisappearingArrowController::*)()>(&::GlobalNamespace::MirroredDisappearingArrowController::get_gameNoteController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25279c8;
+  constexpr static std::size_t addrs = 0x261dcf4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirroredDisappearingArrowController::*)()>(
     &::GlobalNamespace::MirroredDisappearingArrowController::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x25279d0;
+  constexpr static std::size_t addrs = 0x261dcfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirroredDisappearingArrowController*>::get(),

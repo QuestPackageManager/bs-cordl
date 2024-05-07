@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/ScriptableObjectInstallerBase.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,12 +42,12 @@ public:
   /// @brief Convert operator to "::Zenject::IInstaller"
   constexpr operator ::Zenject::IInstaller*() noexcept;
 
-  /// @brief Method InstallBindings, addr 0x3445680, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3649648, size 0x40, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::Zenject::ScriptableObjectInstallerBase* New_ctor();
 
-  /// @brief Method Zenject.IInstaller.get_IsEnabled, addr 0x3445678, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Zenject.IInstaller.get_IsEnabled, addr 0x3649640, size 0x8, virtual true, abstract: false, final true
   inline bool Zenject_IInstaller_get_IsEnabled();
 
   constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
@@ -55,19 +56,19 @@ public:
 
   constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
 
-  /// @brief Method __zenCreate, addr 0x34456c0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x3649688, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x3445850, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x3649818, size 0x2f8, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method __zenFieldSetter0, addr 0x344571c, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method __zenFieldSetter0, addr 0x36496e4, size 0x134, virtual false, abstract: false, final false
   static inline void __zenFieldSetter0(::System::Object* P_0, ::System::Object* P_1);
 
-  /// @brief Method .ctor, addr 0x344544c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3649414, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Container, addr 0x3445670, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Container, addr 0x3649638, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* get_Container();
 
   /// @brief Convert to "::Zenject::IInstaller"

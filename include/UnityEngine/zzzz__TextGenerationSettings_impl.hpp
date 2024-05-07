@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/TextGenerationSettings.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__FontStyle_impl.hpp"
 #include "UnityEngine/zzzz__HorizontalWrapMode_impl.hpp"
@@ -19,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TextGenerationSettings::*)(::UnityEngine::Color, ::UnityEngine::Color)>(
     &::UnityEngine::TextGenerationSettings::CompareColors)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x329b2d8;
+  constexpr static std::size_t addrs = 0x34a2014;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TextGenerationSettings::*)(::UnityEngine::Vector2, ::UnityEngine::Vector2)>(
     &::UnityEngine::TextGenerationSettings::CompareVector2)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x329b410;
+  constexpr static std::size_t addrs = 0x34a214c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TextGenerationSettings::*)(::UnityEngine::TextGenerationSettings)>(
     &::UnityEngine::TextGenerationSettings::Equals)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x329b4d8;
+  constexpr static std::size_t addrs = 0x34a2214;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

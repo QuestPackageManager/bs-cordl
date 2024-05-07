@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/WindowsPlatform.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/zzzz__WindowsPlatform_def.hpp"
@@ -14,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::__WindowsPlatform__UnityLogDelegate::*)(::System::Object*, void*)>(
     &::Oculus::Platform::__WindowsPlatform__UnityLogDelegate::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x29dae50;
+  constexpr static std::size_t addrs = 0x2ad8700;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::__WindowsPlatform__UnityLogDelegate::*)(void*, void*)>(
     &::Oculus::Platform::__WindowsPlatform__UnityLogDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x29daf14;
+  constexpr static std::size_t addrs = 0x2ad87c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -45,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
     ::Oculus::Platform::__WindowsPlatform__UnityLogDelegate::*)(void*, void*, ::System::AsyncCallback*, ::System::Object*)>(&::Oculus::Platform::__WindowsPlatform__UnityLogDelegate::BeginInvoke)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x29daf28;
+  constexpr static std::size_t addrs = 0x2ad87d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -60,8 +61,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::__WindowsPlatform__UnityLogDelegate::*)(::System::IAsyncResult*)>(
     &::Oculus::Platform::__WindowsPlatform__UnityLogDelegate::EndInvoke)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x29dafc0;
+  constexpr static std::size_t size = 0x100c;
+  constexpr static std::size_t addrs = 0x2ad8870;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -105,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::WindowsPlatform::*)(void*, void*)>(&::Oculus::Platform::WindowsPlatform::CPPLogCallback)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x29dad30;
+  constexpr static std::size_t addrs = 0x2ad85e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -119,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (::Oculus::Platform::WindowsPlatform::*)()>(&::Oculus::Platform::WindowsPlatform::getCallbackPointer)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x29dae08;
+  constexpr static std::size_t addrs = 0x2ad86b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::WindowsPlatform*>::get(),
@@ -132,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Oculus::Platform::WindowsPlatform::*)(::StringW)>(&::Oculus::Platform::WindowsPlatform::Initialize)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x29ce21c;
+  constexpr static std::size_t addrs = 0x2acbacc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -147,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>* (
     ::Oculus::Platform::WindowsPlatform::*)(::StringW)>(&::Oculus::Platform::WindowsPlatform::AsyncInitialize)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x29cda20;
+  constexpr static std::size_t addrs = 0x2acb2d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -161,7 +162,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::WindowsPlatform::*)()>(&::Oculus::Platform::WindowsPlatform::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x29cda18;
+  constexpr static std::size_t addrs = 0x2acb2c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::WindowsPlatform*>::get(), ".ctor",

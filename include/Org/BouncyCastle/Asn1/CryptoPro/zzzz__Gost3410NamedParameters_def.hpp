@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/CryptoPro/Gost3410NamedParameters.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,18 +47,18 @@ public:
   /// @brief Field parameters, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_parameters, put = setStaticF_parameters))::System::Collections::IDictionary* parameters;
 
-  /// @brief Method GetByName, addr 0xff877c, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method GetByName, addr 0x10ebea0, size 0x1ec, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* GetByName(::StringW name);
 
-  /// @brief Method GetByOid, addr 0xff8554, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method GetByOid, addr 0x10ebc78, size 0x11c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* GetByOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetOid, addr 0xff8968, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method GetOid, addr 0x10ec08c, size 0x11c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetOid(::StringW name);
 
   static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410NamedParameters* New_ctor();
 
-  /// @brief Method .ctor, addr 0xff7df8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10eb51c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* getStaticF_cryptoProA();
@@ -70,7 +71,7 @@ public:
 
   static inline ::System::Collections::IDictionary* getStaticF_parameters();
 
-  /// @brief Method get_Names, addr 0xff8670, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method get_Names, addr 0x10ebd94, size 0x10c, virtual false, abstract: false, final false
   static inline ::System::Collections::IEnumerable* get_Names();
 
   static inline void setStaticF_cryptoProA(::Org::BouncyCastle::Asn1::CryptoPro::Gost3410ParamSetParameters* value);

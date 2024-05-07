@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/RuntimeRemoteClassHandle.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,7 +27,7 @@ public:
   // Declarations
   __declspec(property(get = get_ProxyClass))::Mono::RuntimeClassHandle ProxyClass;
 
-  /// @brief Method get_ProxyClass, addr 0x2693498, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_ProxyClass, addr 0x2790894, size 0x1c, virtual false, abstract: false, final false
   inline ::Mono::RuntimeClassHandle get_ProxyClass();
 
   // Ctor Parameters []

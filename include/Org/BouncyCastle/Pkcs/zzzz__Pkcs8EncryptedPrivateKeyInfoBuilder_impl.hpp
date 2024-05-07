@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Pkcs/Pkcs8EncryptedPrivateKeyInfoBuilder.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Pkcs/zzzz__Pkcs8EncryptedPrivateKeyInfoBuilder_def.hpp"
 #include "Org/BouncyCastle/Asn1/Pkcs/zzzz__PrivateKeyInfo_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfoBuilder::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfoBuilder::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x1256eb8;
+  constexpr static std::size_t addrs = 0x13485dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfoBuilder::*)(
     ::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo*)>(&::Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfoBuilder::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x1256ef0;
+  constexpr static std::size_t addrs = 0x1348614;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfo* (
     ::Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfoBuilder::*)(::Org::BouncyCastle::Crypto::ICipherBuilder*)>(&::Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfoBuilder::Build)> {
   constexpr static std::size_t size = 0x400;
-  constexpr static std::size_t addrs = 0x1256f18;
+  constexpr static std::size_t addrs = 0x134863c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/MessageWithLivestreamingApplicationStatus.hpp"
 #include "Oculus/Platform/zzzz__Message_1_impl.hpp"
 #include "Oculus/Platform/zzzz__MessageWithLivestreamingApplicationStatus_def.hpp"
 #include "Oculus/Platform/Models/zzzz__LivestreamingApplicationStatus_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::MessageWithLivestreamingApplicationStatus::*)(void*)>(
     &::Oculus::Platform::MessageWithLivestreamingApplicationStatus::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x29cadec;
+  constexpr static std::size_t addrs = 0x2ac869c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::LivestreamingApplicationStatus* (
     ::Oculus::Platform::MessageWithLivestreamingApplicationStatus::*)()>(&::Oculus::Platform::MessageWithLivestreamingApplicationStatus::GetLivestreamingApplicationStatus)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x29cae44;
+  constexpr static std::size_t addrs = 0x2ac86f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -39,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::LivestreamingApplicationStatus* (
     ::Oculus::Platform::MessageWithLivestreamingApplicationStatus::*)(void*)>(&::Oculus::Platform::MessageWithLivestreamingApplicationStatus::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x29cae80;
+  constexpr static std::size_t addrs = 0x2ac8730;
 
   inline static ::MethodInfo const* methodInfo() {
 

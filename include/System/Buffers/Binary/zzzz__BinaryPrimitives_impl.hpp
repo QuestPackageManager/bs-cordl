@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Buffers/Binary/BinaryPrimitives.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Buffers/Binary/zzzz__BinaryPrimitives_def.hpp"
 //  Writing Method size for method: ::System::Buffers::Binary::BinaryPrimitives.ReverseEndianness
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::System::Buffers::Binary::BinaryPrimitives::ReverseEndianness)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2812484;
+  constexpr static std::size_t addrs = 0x2911ba4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -20,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(int64_t)>(&::System::Buffers::Binary::BinaryPrimitives::ReverseEndianness)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x281248c;
+  constexpr static std::size_t addrs = 0x2911bac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (*)(uint16_t)>(&::System::Buffers::Binary::BinaryPrimitives::ReverseEndianness)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x28124a0;
+  constexpr static std::size_t addrs = 0x2911bc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint32_t)>(&::System::Buffers::Binary::BinaryPrimitives::ReverseEndianness)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x28124ac;
+  constexpr static std::size_t addrs = 0x2911bcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&::System::Buffers::Binary::BinaryPrimitives::ReverseEndianness)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x28124b4;
+  constexpr static std::size_t addrs = 0x2911bd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ComponentModel/ByteConverter.hpp"
 #include "System/ComponentModel/zzzz__BaseNumberConverter_impl.hpp"
 #include "System/ComponentModel/zzzz__ByteConverter_def.hpp"
 #include "System/Globalization/zzzz__NumberFormatInfo_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::ComponentModel::ByteConverter::*)()>(
     &::System::ComponentModel::ByteConverter::get_TargetType)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x2e36e94;
+  constexpr static std::size_t addrs = 0x2f35794;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::ComponentModel::ByteConverter::*)(::StringW, int32_t)>(
     &::System::ComponentModel::ByteConverter::FromString)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x2e36f00;
+  constexpr static std::size_t addrs = 0x2f35800;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::System::ComponentModel::ByteConverter::*)(::StringW, ::System::Globalization::NumberFormatInfo*)>(&::System::ComponentModel::ByteConverter::FromString)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x2e36f94;
+  constexpr static std::size_t addrs = 0x2f35894;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::StringW (::System::ComponentModel::ByteConverter::*)(::System::Object*, ::System::Globalization::NumberFormatInfo*)>(&::System::ComponentModel::ByteConverter::ToString)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2e37008;
+  constexpr static std::size_t addrs = 0x2f35908;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -69,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::ByteConverter::*)()>(&::System::ComponentModel::ByteConverter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2e370b8;
+  constexpr static std::size_t addrs = 0x2f359b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ByteConverter*>::get(), ".ctor",

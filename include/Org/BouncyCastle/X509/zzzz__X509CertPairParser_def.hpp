@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/X509/X509CertPairParser.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,19 +35,19 @@ public:
 
   static inline ::Org::BouncyCastle::X509::X509CertPairParser* New_ctor();
 
-  /// @brief Method ReadCertPair, addr 0x12ebd3c, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method ReadCertPair, addr 0x13de460, size 0x244, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::X509CertificatePair* ReadCertPair(::System::IO::Stream* inStream);
 
-  /// @brief Method ReadCertPair, addr 0x12ebcc4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ReadCertPair, addr 0x13de3e8, size 0x78, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::X509CertificatePair* ReadCertPair(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
-  /// @brief Method ReadCertPairs, addr 0x12ebff8, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method ReadCertPairs, addr 0x13de71c, size 0x110, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* ReadCertPairs(::System::IO::Stream* inStream);
 
-  /// @brief Method ReadCertPairs, addr 0x12ebf80, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ReadCertPairs, addr 0x13de6a4, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* ReadCertPairs(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
 
-  /// @brief Method ReadDerCrossCertificatePair, addr 0x12ebbd0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ReadDerCrossCertificatePair, addr 0x13de2f4, size 0xf4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::X509CertificatePair* ReadDerCrossCertificatePair(::System::IO::Stream* inStream);
 
   constexpr ::System::IO::Stream*& __cordl_internal_get_currentStream();
@@ -55,7 +56,7 @@ public:
 
   constexpr void __cordl_internal_set_currentStream(::System::IO::Stream* value);
 
-  /// @brief Method .ctor, addr 0x12ec108, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13de82c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "JetBrains/Annotations/HtmlElementAttributesAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "JetBrains/Annotations/zzzz__HtmlElementAttributesAttribute_def.hpp"
 //  Writing Method size for method: ::JetBrains::Annotations::HtmlElementAttributesAttribute._ctor
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::HtmlElementAttributesAttribute::*)()>(
     &::JetBrains::Annotations::HtmlElementAttributesAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x340a58c;
+  constexpr static std::size_t addrs = 0x360f2c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::JetBrains::Annotations::HtmlElementAttributesAttribute*>::get(),
@@ -21,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::HtmlElementAttributesAttribute::*)(::StringW)>(
     &::JetBrains::Annotations::HtmlElementAttributesAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x340a594;
+  constexpr static std::size_t addrs = 0x360f2d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::JetBrains::Annotations::HtmlElementAttributesAttribute::*)()>(
     &::JetBrains::Annotations::HtmlElementAttributesAttribute::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x340a5bc;
+  constexpr static std::size_t addrs = 0x360f2f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::JetBrains::Annotations::HtmlElementAttributesAttribute*>::get(),
@@ -50,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::HtmlElementAttributesAttribute::*)(::StringW)>(
     &::JetBrains::Annotations::HtmlElementAttributesAttribute::set_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x340a5c4;
+  constexpr static std::size_t addrs = 0x360f300;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

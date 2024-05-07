@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ObstacleScaleUp.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,21 +38,21 @@ public:
   /// @brief Field _targetTransform, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__targetTransform, put = __cordl_internal_set__targetTransform))::UnityW<::UnityEngine::Transform> _targetTransform;
 
-  /// @brief Method Awake, addr 0x252f37c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x26abff0, size 0x94, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleObstacleControllerDidInit, addr 0x252f68c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method HandleObstacleControllerDidInit, addr 0x26ac308, size 0xd8, virtual false, abstract: false, final false
   inline void HandleObstacleControllerDidInit(::GlobalNamespace::ObstacleControllerBase* obstacleController);
 
-  /// @brief Method HandleObstacleControllerDidUpdateProgress, addr 0x252f664, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method HandleObstacleControllerDidUpdateProgress, addr 0x26ac2e0, size 0x28, virtual false, abstract: false, final false
   inline void HandleObstacleControllerDidUpdateProgress(::GlobalNamespace::ObstacleController* obstacleController, float_t time);
 
   static inline ::GlobalNamespace::ObstacleScaleUp* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x252f52c, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x26ac1a4, size 0x13c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method UpdateScale, addr 0x252f410, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method UpdateScale, addr 0x26ac084, size 0x120, virtual false, abstract: false, final false
   inline void UpdateScale(float_t progress);
 
   constexpr float_t const& __cordl_internal_get__fullScalePart() const;
@@ -72,7 +73,7 @@ public:
 
   constexpr void __cordl_internal_set__targetTransform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x252f75c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ac3e0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

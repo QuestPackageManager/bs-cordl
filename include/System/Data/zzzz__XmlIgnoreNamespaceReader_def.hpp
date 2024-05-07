@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/XmlIgnoreNamespaceReader.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,10 +30,10 @@ public:
   /// @brief Field _namespacesToIgnore, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__namespacesToIgnore, put = __cordl_internal_set__namespacesToIgnore))::System::Collections::Generic::List_1<::StringW>* _namespacesToIgnore;
 
-  /// @brief Method MoveToFirstAttribute, addr 0x2bfb620, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method MoveToFirstAttribute, addr 0x2cf7f20, size 0x110, virtual true, abstract: false, final false
   inline bool MoveToFirstAttribute();
 
-  /// @brief Method MoveToNextAttribute, addr 0x2bfb730, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method MoveToNextAttribute, addr 0x2cf8030, size 0x10c, virtual true, abstract: false, final false
   inline bool MoveToNextAttribute();
 
   static inline ::System::Data::XmlIgnoreNamespaceReader* New_ctor(::System::Xml::XmlDocument* xdoc, ::ArrayW<::StringW, ::Array<::StringW>*> namespacesToIgnore);
@@ -43,7 +44,7 @@ public:
 
   constexpr void __cordl_internal_set__namespacesToIgnore(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x2bfb588, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cf7e88, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlDocument* xdoc, ::ArrayW<::StringW, ::Array<::StringW>*> namespacesToIgnore);
 
 protected:

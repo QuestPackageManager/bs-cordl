@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Serialization/XmlSerializerImplementation.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,7 +24,7 @@ public:
   // Declarations
   __declspec(property(get = get_Writer))::System::Xml::Serialization::XmlSerializationWriter* Writer;
 
-  /// @brief Method get_Writer, addr 0x2dedc14, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Writer, addr 0x2eec514, size 0x40, virtual true, abstract: false, final false
   inline ::System::Xml::Serialization::XmlSerializationWriter* get_Writer();
 
 protected:

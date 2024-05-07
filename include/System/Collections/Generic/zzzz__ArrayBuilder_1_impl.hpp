@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Collections/Generic/ArrayBuilder_1.hpp"
 #include "System/Collections/Generic/zzzz__ArrayBuilder_1_def.hpp"
 template <typename T> inline int32_t System::Collections::Generic::ArrayBuilder_1<T>::get_Capacity() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::ArrayBuilder_1<T>>::get(),

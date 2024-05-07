@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Security/X509/SafeBag.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,13 +47,13 @@ public:
 
   constexpr void __cordl_internal_set__bagOID(::StringW value);
 
-  /// @brief Method .ctor, addr 0x267038c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x276e788, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW bagOID, ::Mono::Security::ASN1* asn1);
 
-  /// @brief Method get_ASN1, addr 0x26703c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ASN1, addr 0x276e7bc, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::ASN1* get_ASN1();
 
-  /// @brief Method get_BagOID, addr 0x26703b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BagOID, addr 0x276e7b4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_BagOID();
 
 protected:

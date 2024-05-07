@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/GridView.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_impl.hpp"
 #include "System/Collections/Generic/zzzz__List_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -102,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__GridView__GridViewCellsEnumerator___GetEnumerator_d__1::*)(int32_t)>(
     &::GlobalNamespace::__GridView__GridViewCellsEnumerator___GetEnumerator_d__1::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x25712a0;
+  constexpr static std::size_t addrs = 0x266a6d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -117,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__GridView__GridViewCellsEnumerator___GetEnumerator_d__1::*)()>(
     &::GlobalNamespace::__GridView__GridViewCellsEnumerator___GetEnumerator_d__1::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x25712cc;
+  constexpr static std::size_t addrs = 0x266a704;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -132,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__GridView__GridViewCellsEnumerator___GetEnumerator_d__1::*)()>(
     &::GlobalNamespace::__GridView__GridViewCellsEnumerator___GetEnumerator_d__1::MoveNext)> {
   constexpr static std::size_t size = 0x2b0;
-  constexpr static std::size_t addrs = 0x2571384;
+  constexpr static std::size_t addrs = 0x266a7bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -147,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__GridView__GridViewCellsEnumerator___GetEnumerator_d__1::*)()>(
     &::GlobalNamespace::__GridView__GridViewCellsEnumerator___GetEnumerator_d__1::__m__Finally1)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x2571684;
+  constexpr static std::size_t addrs = 0x266aabc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -162,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__GridView__GridViewCellsEnumerator___GetEnumerator_d__1::*)()>(
     &::GlobalNamespace::__GridView__GridViewCellsEnumerator___GetEnumerator_d__1::__m__Finally2)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x2571634;
+  constexpr static std::size_t addrs = 0x266aa6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -178,7 +179,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityW<::UnityEngine::MonoBehaviour> (::GlobalNamespace::__GridView__GridViewCellsEnumerator___GetEnumerator_d__1::*)()>(
         &::GlobalNamespace::__GridView__GridViewCellsEnumerator___GetEnumerator_d__1::System_Collections_Generic_IEnumerator_UnityEngine_MonoBehaviour__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25716d4;
+  constexpr static std::size_t addrs = 0x266ab0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -193,7 +194,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__GridView__GridViewCellsEnumerator___GetEnumerator_d__1::*)()>(
     &::GlobalNamespace::__GridView__GridViewCellsEnumerator___GetEnumerator_d__1::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x25716dc;
+  constexpr static std::size_t addrs = 0x266ab14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -208,7 +209,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__GridView__GridViewCellsEnumerator___GetEnumerator_d__1::*)()>(
     &::GlobalNamespace::__GridView__GridViewCellsEnumerator___GetEnumerator_d__1::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x257171c;
+  constexpr static std::size_t addrs = 0x266ab54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -369,7 +370,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::MonoBehaviour>>* (
     ::GlobalNamespace::__GridView__GridViewCellsEnumerator::*)()>(&::GlobalNamespace::__GridView__GridViewCellsEnumerator::GetEnumerator)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x256c3ac;
+  constexpr static std::size_t addrs = 0x266a670;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GridView__GridViewCellsEnumerator*>::get(),
@@ -383,7 +384,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::__GridView__GridViewCellsEnumerator::*)()>(
     &::GlobalNamespace::__GridView__GridViewCellsEnumerator::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x25712c8;
+  constexpr static std::size_t addrs = 0x266a700;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -398,7 +399,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__GridView__GridViewCellsEnumerator::*)(::GlobalNamespace::GridView*)>(
     &::GlobalNamespace::__GridView__GridViewCellsEnumerator::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x25711b8;
+  constexpr static std::size_t addrs = 0x2669d2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -464,7 +465,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__GridView__IDataSource* (::GlobalNamespace::GridView::*)()>(
     &::GlobalNamespace::GridView::get_dataSource)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2571190;
+  constexpr static std::size_t addrs = 0x2669c6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GridView*>::get(), "get_dataSource",
@@ -478,7 +479,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__GridView__GridViewCellsEnumerator* (::GlobalNamespace::GridView::*)()>(
     &::GlobalNamespace::GridView::get_cellsEnumerator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2571198;
+  constexpr static std::size_t addrs = 0x2669c74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GridView*>::get(), "get_cellsEnumerator",
@@ -492,7 +493,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GridView::*)(::GlobalNamespace::__GridView__GridViewCellsEnumerator*)>(
     &::GlobalNamespace::GridView::set_cellsEnumerator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25711a0;
+  constexpr static std::size_t addrs = 0x2669c7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -506,7 +507,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::GridView::*)()>(&::GlobalNamespace::GridView::get_rowCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25711a8;
+  constexpr static std::size_t addrs = 0x2669c84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GridView*>::get(), "get_rowCount",
@@ -519,7 +520,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::GridView::*)()>(&::GlobalNamespace::GridView::get_columnCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25711b0;
+  constexpr static std::size_t addrs = 0x2669c8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GridView*>::get(), "get_columnCount",
@@ -533,7 +534,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GridView::*)(::GlobalNamespace::__GridView__IDataSource*, bool)>(
     &::GlobalNamespace::GridView::SetDataSource)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x256b93c;
+  constexpr static std::size_t addrs = 0x2669c94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -548,7 +549,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GridView::*)()>(&::GlobalNamespace::GridView::ReloadData)> {
   constexpr static std::size_t size = 0x774;
-  constexpr static std::size_t addrs = 0x256cf58;
+  constexpr static std::size_t addrs = 0x2669d54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GridView*>::get(), "ReloadData",
@@ -562,7 +563,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* (
     ::GlobalNamespace::GridView::*)(::UnityEngine::MonoBehaviour*)>(&::GlobalNamespace::GridView::GetActiveCellsForIdentifier)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x256bffc;
+  constexpr static std::size_t addrs = 0x266a4c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -576,7 +577,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GridView::*)()>(&::GlobalNamespace::GridView::_ctor)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x25711e0;
+  constexpr static std::size_t addrs = 0x266a5b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GridView*>::get(), ".ctor",

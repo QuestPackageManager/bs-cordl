@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Math/EC/Multiplier/WNafPreCompInfo.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__WNafPreCompInfo_def.hpp"
 #include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__PreCompInfo_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::*)()>(
     &::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::DecrementPromotionCountdown)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x11a6fd8;
+  constexpr static std::size_t addrs = 0x12986fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::*)()>(
     &::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::get_PromotionCountdown)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x11a7010;
+  constexpr static std::size_t addrs = 0x1298734;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::*)(int32_t)>(
     &::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::set_PromotionCountdown)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x11a7028;
+  constexpr static std::size_t addrs = 0x129874c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::*)()>(
     &::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::get_IsPromoted)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x11a704c;
+  constexpr static std::size_t addrs = 0x1298770;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -70,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::*)()>(
     &::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::get_ConfWidth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x11a7068;
+  constexpr static std::size_t addrs = 0x129878c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -86,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::*)(int32_t)>(
     &::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::set_ConfWidth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x11a7070;
+  constexpr static std::size_t addrs = 0x1298794;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -102,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*> (
     ::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::*)()>(&::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::get_PreComp)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x11a7078;
+  constexpr static std::size_t addrs = 0x129879c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -118,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::*)(
     ::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*>)>(&::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::set_PreComp)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x11a7080;
+  constexpr static std::size_t addrs = 0x12987a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -134,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*> (
     ::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::*)()>(&::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::get_PreCompNeg)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x11a7088;
+  constexpr static std::size_t addrs = 0x12987ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -150,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::*)(
     ::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*>)>(&::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::set_PreCompNeg)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x11a7090;
+  constexpr static std::size_t addrs = 0x12987b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -166,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECPoint* (::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::*)()>(
     &::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::get_Twice)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x11a7098;
+  constexpr static std::size_t addrs = 0x12987bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -182,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::*)(::Org::BouncyCastle::Math::EC::ECPoint*)>(
     &::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::set_Twice)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x11a70a0;
+  constexpr static std::size_t addrs = 0x12987c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -198,7 +199,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::*)()>(
     &::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::get_Width)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x11a70a8;
+  constexpr static std::size_t addrs = 0x12987cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -214,7 +215,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::*)(int32_t)>(
     &::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::set_Width)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x11a70b0;
+  constexpr static std::size_t addrs = 0x12987d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -230,7 +231,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::*)()>(
     &::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x11a70b8;
+  constexpr static std::size_t addrs = 0x12987dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

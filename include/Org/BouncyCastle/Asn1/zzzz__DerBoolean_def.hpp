@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/DerBoolean.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,32 +45,32 @@ public:
   /// @brief Field value, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) uint8_t value;
 
-  /// @brief Method Asn1Equals, addr 0x133009c, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Asn1Equals, addr 0x14237c0, size 0xa4, virtual true, abstract: false, final false
   inline bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
 
-  /// @brief Method Asn1GetHashCode, addr 0x1330140, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Asn1GetHashCode, addr 0x1423864, size 0x28, virtual true, abstract: false, final false
   inline int32_t Asn1GetHashCode();
 
-  /// @brief Method Encode, addr 0x1330018, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x142373c, size 0x84, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
-  /// @brief Method FromOctetString, addr 0x132620c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method FromOctetString, addr 0x1419930, size 0x120, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerBoolean* FromOctetString(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method GetInstance, addr 0x132fde4, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x1423508, size 0x150, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerBoolean* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-  /// @brief Method GetInstance, addr 0x132fc8c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x14233b0, size 0xf0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerBoolean* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetInstance, addr 0x132fd7c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x14234a0, size 0x68, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerBoolean* GetInstance(bool value);
 
   static inline ::Org::BouncyCastle::Asn1::DerBoolean* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> val);
 
   static inline ::Org::BouncyCastle::Asn1::DerBoolean* New_ctor(bool value);
 
-  /// @brief Method ToString, addr 0x1330168, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x142388c, size 0x6c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr uint8_t const& __cordl_internal_get_value() const;
@@ -78,17 +79,17 @@ public:
 
   constexpr void __cordl_internal_set_value(uint8_t value);
 
-  /// @brief Method .ctor, addr 0x132ff34, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1423658, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> val);
 
-  /// @brief Method .ctor, addr 0x132ffd4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14236f8, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(bool value);
 
   static inline ::Org::BouncyCastle::Asn1::DerBoolean* getStaticF_False();
 
   static inline ::Org::BouncyCastle::Asn1::DerBoolean* getStaticF_True();
 
-  /// @brief Method get_IsTrue, addr 0x1330008, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsTrue, addr 0x142372c, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsTrue();
 
   static inline void setStaticF_False(::Org::BouncyCastle::Asn1::DerBoolean* value);

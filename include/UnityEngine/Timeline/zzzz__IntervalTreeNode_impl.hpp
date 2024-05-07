@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Timeline/IntervalTreeNode.hpp"
 #include "UnityEngine/Timeline/zzzz__IntervalTreeNode_def.hpp"
 // Ctor Parameters [CppParam { name: "center", ty: "int64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "first", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
 // "last", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "left", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "right", ty: "int32_t", modifiers:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/CommandBufferGrabPass.hpp"
 #include "GlobalNamespace/zzzz__CommandBufferGOCore_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__CameraEvent_impl.hpp"
 #include "GlobalNamespace/zzzz__CommandBufferGrabPass_def.hpp"
@@ -13,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::CommandBuffer* (::GlobalNamespace::CommandBufferGrabPass::*)(::UnityEngine::Camera*)>(
     &::GlobalNamespace::CommandBufferGrabPass::CreateCommandBuffer)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x2ad6094;
+  constexpr static std::size_t addrs = 0x2bd2944;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -29,7 +30,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Camera>, ::GlobalNamespace::CommandBufferOwners*>* (::GlobalNamespace::CommandBufferGrabPass::*)()>(
         &::GlobalNamespace::CommandBufferGrabPass::CamerasDict)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2ad6280;
+  constexpr static std::size_t addrs = 0x2bd2b30;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::CameraEvent (::GlobalNamespace::CommandBufferGrabPass::*)()>(
     &::GlobalNamespace::CommandBufferGrabPass::CommandBufferCameraEvent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ad62d8;
+  constexpr static std::size_t addrs = 0x2bd2b88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CommandBufferGrabPass::*)()>(&::GlobalNamespace::CommandBufferGrabPass::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2ad62e0;
+  constexpr static std::size_t addrs = 0x2bd2b90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CommandBufferGrabPass*>::get(), ".ctor",

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngineInternal/MathfInternal.hpp"
 #include "UnityEngineInternal/zzzz__MathfInternal_def.hpp"
 inline void UnityEngineInternal::MathfInternal::setStaticF_FloatMinNormal(float_t value) {
   ::cordl_internals::setStaticField<float_t, "FloatMinNormal", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngineInternal::MathfInternal>::get>(std::forward<float_t>(value));

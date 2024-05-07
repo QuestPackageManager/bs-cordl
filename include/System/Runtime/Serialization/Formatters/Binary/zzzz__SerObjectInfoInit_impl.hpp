@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Serialization/Formatters/Binary/SerObjectInfoInit.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__SerObjectInfoInit_def.hpp"
 #include "System/Collections/zzzz__Hashtable_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit::*)()>(
     &::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x274cb48;
+  constexpr static std::size_t addrs = 0x284bf44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

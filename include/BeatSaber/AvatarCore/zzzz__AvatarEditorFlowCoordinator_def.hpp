@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatSaber/AvatarCore/AvatarEditorFlowCoordinator.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -174,10 +175,10 @@ public:
   /// @brief Field randomizeAllButtonWasPressedEvent, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get_randomizeAllButtonWasPressedEvent, put = __cordl_internal_set_randomizeAllButtonWasPressedEvent))::System::Action* randomizeAllButtonWasPressedEvent;
 
-  /// @brief Method Finish, addr 0xf4f274, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Finish, addr 0x103dde8, size 0x2c, virtual false, abstract: false, final false
   inline void Finish(::BeatSaber::AvatarCore::__AvatarEditorFlowCoordinator__FinishAction finishAction);
 
-  /// @brief Method HandleBeatAvatarEditorRandomizeAllButtonWasPressed, addr 0xf4f2a0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatAvatarEditorRandomizeAllButtonWasPressed, addr 0x103de14, size 0x1c, virtual false, abstract: false, final false
   inline void HandleBeatAvatarEditorRandomizeAllButtonWasPressed();
 
   static inline ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator* New_ctor();
@@ -185,10 +186,10 @@ public:
   /// @brief Method OneTimeInitialize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OneTimeInitialize();
 
-  /// @brief Method SetAvatarSystem, addr 0xf4f26c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetAvatarSystem, addr 0x103dde0, size 0x8, virtual false, abstract: false, final false
   inline void SetAvatarSystem(::BeatSaber::AvatarCore::IAvatarSystemMetadata* avatarSystem);
 
-  /// @brief Method Setup, addr 0xf4f20c, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method Setup, addr 0x103dd80, size 0x60, virtual true, abstract: false, final false
   inline void Setup(::BeatSaber::AvatarCore::__AvatarEditorFlowCoordinator__EditMode editMode);
 
   constexpr bool const& __cordl_internal_get__initialized() const;
@@ -226,27 +227,27 @@ public:
 
   constexpr void __cordl_internal_set_randomizeAllButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0xf4f2bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x103de30, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0xf4ee14, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x103d988, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_3<::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>, ::BeatSaber::AvatarCore::IAvatarSystemMetadata*,
                                                     ::BeatSaber::AvatarCore::__AvatarEditorFlowCoordinator__FinishAction>* value);
 
-  /// @brief Method add_didSetupEvent, addr 0xf4ef74, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didSetupEvent, addr 0x103dae8, size 0xb0, virtual false, abstract: false, final false
   inline void add_didSetupEvent(::System::Action_1<::BeatSaber::AvatarCore::__AvatarEditorFlowCoordinator__EditMode>* value);
 
-  /// @brief Method add_randomizeAllButtonWasPressedEvent, addr 0xf4f0d4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_randomizeAllButtonWasPressedEvent, addr 0x103dc48, size 0x9c, virtual false, abstract: false, final false
   inline void add_randomizeAllButtonWasPressedEvent(::System::Action* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0xf4eec4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x103da38, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_3<::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>, ::BeatSaber::AvatarCore::IAvatarSystemMetadata*,
                                                        ::BeatSaber::AvatarCore::__AvatarEditorFlowCoordinator__FinishAction>* value);
 
-  /// @brief Method remove_didSetupEvent, addr 0xf4f024, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSetupEvent, addr 0x103db98, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didSetupEvent(::System::Action_1<::BeatSaber::AvatarCore::__AvatarEditorFlowCoordinator__EditMode>* value);
 
-  /// @brief Method remove_randomizeAllButtonWasPressedEvent, addr 0xf4f170, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_randomizeAllButtonWasPressedEvent, addr 0x103dce4, size 0x9c, virtual false, abstract: false, final false
   inline void remove_randomizeAllButtonWasPressedEvent(::System::Action* value);
 
 protected:

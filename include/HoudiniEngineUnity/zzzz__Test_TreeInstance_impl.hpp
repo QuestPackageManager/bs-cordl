@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/Test_TreeInstance.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__TreeInstance_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__Test_TreeInstance_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::Test_TreeInstance::*)(::UnityEngine::TreeInstance)>(
     &::HoudiniEngineUnity::Test_TreeInstance::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x24d4434;
+  constexpr static std::size_t addrs = 0x25cc0c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::Test_TreeInstance::*)(::HoudiniEngineUnity::Test_TreeInstance*)>(
     &::HoudiniEngineUnity::Test_TreeInstance::IsEquivalentTo)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x24d4468;
+  constexpr static std::size_t addrs = 0x25cc0f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

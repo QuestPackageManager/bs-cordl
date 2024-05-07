@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Asn1Exception.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,13 +29,13 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Asn1Exception* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0x1322e44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1416568, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x1322e4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1416570, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x1322e54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1416578, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
 protected:

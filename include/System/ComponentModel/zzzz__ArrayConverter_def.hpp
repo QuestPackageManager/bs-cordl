@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ComponentModel/ArrayConverter.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,12 +50,12 @@ public:
   /// @brief Field _index, offset 0x98, size 0x4
   __declspec(property(get = __cordl_internal_get__index, put = __cordl_internal_set__index)) int32_t _index;
 
-  /// @brief Method GetValue, addr 0x2e353a0, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x2f33ca0, size 0xb4, virtual true, abstract: false, final false
   inline ::System::Object* GetValue(::System::Object* instance);
 
   static inline ::System::ComponentModel::__ArrayConverter__ArrayPropertyDescriptor* New_ctor(::System::Type* arrayType, ::System::Type* elementType, int32_t index);
 
-  /// @brief Method SetValue, addr 0x2e35454, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x2f33d54, size 0x100, virtual true, abstract: false, final false
   inline void SetValue(::System::Object* instance, ::System::Object* value);
 
   constexpr int32_t const& __cordl_internal_get__index() const;
@@ -63,7 +64,7 @@ public:
 
   constexpr void __cordl_internal_set__index(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2e351e8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f33ae8, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* arrayType, ::System::Type* elementType, int32_t index);
 
 protected:
@@ -101,20 +102,20 @@ public:
   // Declarations
   using ArrayPropertyDescriptor = ::System::ComponentModel::__ArrayConverter__ArrayPropertyDescriptor;
 
-  /// @brief Method ConvertTo, addr 0x2e34e48, size 0x1cc, virtual true, abstract: false, final false
+  /// @brief Method ConvertTo, addr 0x2f33748, size 0x1cc, virtual true, abstract: false, final false
   inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
                                      ::System::Type* destinationType);
 
-  /// @brief Method GetProperties, addr 0x2e35014, size 0x1d4, virtual true, abstract: false, final false
+  /// @brief Method GetProperties, addr 0x2f33914, size 0x1d4, virtual true, abstract: false, final false
   inline ::System::ComponentModel::PropertyDescriptorCollection* GetProperties(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Object* value,
                                                                                ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes);
 
-  /// @brief Method GetPropertiesSupported, addr 0x2e35390, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetPropertiesSupported, addr 0x2f33c90, size 0x8, virtual true, abstract: false, final false
   inline bool GetPropertiesSupported(::System::ComponentModel::ITypeDescriptorContext* context);
 
   static inline ::System::ComponentModel::ArrayConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e35398, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f33c98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

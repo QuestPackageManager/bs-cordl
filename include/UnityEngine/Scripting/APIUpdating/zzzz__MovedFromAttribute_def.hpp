@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Scripting/APIUpdating/MovedFromAttribute.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,10 +34,10 @@ public:
 
   constexpr void __cordl_internal_set_data(::UnityEngine::Scripting::APIUpdating::MovedFromAttributeData value);
 
-  /// @brief Method .ctor, addr 0x3220cac, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34279e8, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(bool autoUpdateAPI, ::StringW sourceNamespace, ::StringW sourceAssembly, ::StringW sourceClassName);
 
-  /// @brief Method .ctor, addr 0x3220d18, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3427a54, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::StringW sourceNamespace);
 
 protected:

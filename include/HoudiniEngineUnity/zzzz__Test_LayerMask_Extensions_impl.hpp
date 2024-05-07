@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/Test_LayerMask_Extensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__Test_LayerMask_Extensions_def.hpp"
 #include "HoudiniEngineUnity/zzzz__Test_LayerMask_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::Test_LayerMask* (*)(::UnityEngine::LayerMask)>(
     &::HoudiniEngineUnity::Test_LayerMask_Extensions::ToTestObject)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x24d2ce0;
+  constexpr static std::size_t addrs = 0x25ca96c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

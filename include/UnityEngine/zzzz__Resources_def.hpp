@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Resources.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,40 +36,40 @@ public:
   /// @brief Method ConvertObjects, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T, ::Array<T>*> ConvertObjects(::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> rawObjects);
 
-  /// @brief Method FindObjectsOfTypeAll, addr 0x3215314, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method FindObjectsOfTypeAll, addr 0x341c050, size 0x68, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> FindObjectsOfTypeAll(::System::Type* type);
 
   /// @brief Method FindObjectsOfTypeAll, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T, ::Array<T>*> FindObjectsOfTypeAll();
 
-  /// @brief Method GetBuiltinResource, addr 0x3215574, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetBuiltinResource, addr 0x341c2b0, size 0x44, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Object> GetBuiltinResource(::System::Type* type, ::StringW path);
 
   /// @brief Method GetBuiltinResource, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T GetBuiltinResource(::StringW path);
 
-  /// @brief Method Load, addr 0x321537c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x341c0b8, size 0x84, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Object> Load(::StringW path);
 
-  /// @brief Method Load, addr 0x3214e0c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x341bb48, size 0x78, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Object> Load(::StringW path, ::System::Type* systemTypeInstance);
 
   /// @brief Method Load, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T Load(::StringW path);
 
-  /// @brief Method LoadAll, addr 0x32154f0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method LoadAll, addr 0x341c22c, size 0x84, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> LoadAll(::StringW path);
 
-  /// @brief Method LoadAll, addr 0x3215478, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method LoadAll, addr 0x341c1b4, size 0x78, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> LoadAll(::StringW path, ::System::Type* systemTypeInstance);
 
-  /// @brief Method LoadAsync, addr 0x3215400, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method LoadAsync, addr 0x341c13c, size 0x78, virtual false, abstract: false, final false
   static inline ::UnityEngine::ResourceRequest* LoadAsync(::StringW path, ::System::Type* type);
 
-  /// @brief Method UnloadAsset, addr 0x32155b8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method UnloadAsset, addr 0x341c2f4, size 0x68, virtual false, abstract: false, final false
   static inline void UnloadAsset(::UnityEngine::Object* assetToUnload);
 
-  /// @brief Method UnloadUnusedAssets, addr 0x3215620, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method UnloadUnusedAssets, addr 0x341c35c, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::AsyncOperation* UnloadUnusedAssets();
 
 protected:

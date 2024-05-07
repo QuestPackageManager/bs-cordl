@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/AudioSpeakerMode.hpp"
 #include "UnityEngine/zzzz__AudioSpeakerMode_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::AudioSpeakerMode::AudioSpeakerMode(int32_t value__) noexcept {

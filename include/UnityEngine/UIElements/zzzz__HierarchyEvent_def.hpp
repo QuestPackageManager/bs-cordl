@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/HierarchyEvent.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,12 +29,12 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE HierarchyEvent : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x3318a34, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x351d770, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::HierarchyChangeType changeType);
 
   static inline ::UnityEngine::UIElements::HierarchyEvent* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x3318904, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x351d640, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:

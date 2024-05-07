@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatmapSaveDataVersion4/ColorNote.hpp"
 #include "BeatmapSaveDataCommon/zzzz__NoteColorType_impl.hpp"
 #include "BeatmapSaveDataCommon/zzzz__NoteCutDirection_impl.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__ColorNote_def.hpp"

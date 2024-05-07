@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/Models/LivestreamingVideoStats.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set_TotalViews(::StringW value);
 
-  /// @brief Method .ctor, addr 0x29decd0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2add580, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
 protected:

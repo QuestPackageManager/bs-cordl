@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Serialization/DataContractAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__DataContractAttribute_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Serialization::DataContractAttribute.get_IsReference
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::DataContractAttribute::*)()>(
     &::System::Runtime::Serialization::DataContractAttribute::get_IsReference)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2c88ee0;
+  constexpr static std::size_t addrs = 0x2d877e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::DataContractAttribute*>::get(),

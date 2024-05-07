@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/LessThanInstruction_LessThanUInt64.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,10 +28,10 @@ public:
   // Declarations
   static inline ::System::Linq::Expressions::Interpreter::__LessThanInstruction__LessThanUInt64* New_ctor(::System::Object* nullValue);
 
-  /// @brief Method Run, addr 0x2b29f74, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x2c27874, size 0xdc, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x2b2981c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c2711c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* nullValue);
 
 protected:

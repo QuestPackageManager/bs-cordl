@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HEU_AssetSync.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,18 +56,18 @@ namespace HoudiniEngineUnity {
 class CORDL_TYPE __HEU_AssetSync__AssetSyncCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x2490c20, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x258a8ac, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::HoudiniEngineUnity::HEU_AssetSync* assetSync, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2490c40, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x258a8cc, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x2490c0c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x258a898, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::HoudiniEngineUnity::HEU_AssetSync* assetSync);
 
   static inline ::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2490ae0, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x258a76c, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -105,30 +106,30 @@ public:
   /// @brief Field _onAssetLoaded, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__onAssetLoaded, put = __cordl_internal_set__onAssetLoaded))::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback* _onAssetLoaded;
 
-  /// @brief Method CreateThreadedTask, addr 0x2490764, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method CreateThreadedTask, addr 0x258a3f0, size 0x68, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo* CreateThreadedTask();
 
-  /// @brief Method InitializeAsset, addr 0x249066c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method InitializeAsset, addr 0x258a2f8, size 0xf8, virtual false, abstract: false, final false
   inline void InitializeAsset(::HoudiniEngineUnity::HEU_SessionBase* session, ::StringW assetPath, ::StringW nodeName, ::UnityEngine::Transform* parent, ::UnityEngine::Vector3 startPosition);
 
   static inline ::HoudiniEngineUnity::HEU_AssetSync* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x2490660, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x258a2ec, size 0xc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnEnable, addr 0x249065c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x258a2e8, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnLoadComplete, addr 0x249087c, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method OnLoadComplete, addr 0x258a508, size 0x34, virtual true, abstract: false, final false
   inline void OnLoadComplete(::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadData* loadData);
 
-  /// @brief Method Resync, addr 0x2490934, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Resync, addr 0x258a5c0, size 0x38, virtual true, abstract: false, final false
   inline void Resync();
 
-  /// @brief Method SetLoadCallback, addr 0x24907d0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method SetLoadCallback, addr 0x258a45c, size 0x38, virtual false, abstract: false, final false
   inline void SetLoadCallback(::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadCallback* callback);
 
-  /// @brief Method SetupLoadTask, addr 0x2490808, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method SetupLoadTask, addr 0x258a494, size 0x60, virtual true, abstract: false, final false
   inline void SetupLoadTask(::HoudiniEngineUnity::HEU_SessionBase* session);
 
   constexpr ::StringW const& __cordl_internal_get__assetPath() const;
@@ -143,7 +144,7 @@ public:
 
   constexpr void __cordl_internal_set__onAssetLoaded(::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback* value);
 
-  /// @brief Method .ctor, addr 0x249096c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x258a5f8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

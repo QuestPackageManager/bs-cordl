@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SteamInit.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,12 +22,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE SteamInit : public ::GlobalNamespace::BasePlatformInit {
 public:
   // Declarations
-  /// @brief Method InitializeInternalAsync, addr 0x250d738, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method InitializeInternalAsync, addr 0x2604780, size 0x68, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* InitializeInternalAsync();
 
   static inline ::GlobalNamespace::SteamInit* New_ctor();
 
-  /// @brief Method .ctor, addr 0x250d7a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26047e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

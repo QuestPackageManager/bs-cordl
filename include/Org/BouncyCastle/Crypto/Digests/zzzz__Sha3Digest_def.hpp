@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Digests/Sha3Digest.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,16 +27,16 @@ public:
   // Declarations
   __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
 
-  /// @brief Method CheckBitLength, addr 0x1010650, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method CheckBitLength, addr 0x1102d74, size 0xc4, virtual false, abstract: false, final false
   static inline int32_t CheckBitLength(int32_t bitLength);
 
-  /// @brief Method Copy, addr 0x10109a4, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method Copy, addr 0x11030c8, size 0x60, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::IMemoable* Copy();
 
-  /// @brief Method DoFinal, addr 0x1010880, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x1102fa4, size 0x40, virtual true, abstract: false, final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method DoFinal, addr 0x10108c0, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x1102fe4, size 0xe4, virtual true, abstract: false, final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff, uint8_t partialByte, int32_t partialBits);
 
   static inline ::Org::BouncyCastle::Crypto::Digests::Sha3Digest* New_ctor();
@@ -44,16 +45,16 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Digests::Sha3Digest* New_ctor(::Org::BouncyCastle::Crypto::Digests::Sha3Digest* source);
 
-  /// @brief Method .ctor, addr 0x1010714, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1102e38, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x101071c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1102e40, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(int32_t bitLength);
 
-  /// @brief Method .ctor, addr 0x1010794, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1102eb8, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Digests::Sha3Digest* source);
 
-  /// @brief Method get_AlgorithmName, addr 0x10107fc, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x1102f20, size 0x84, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
 protected:

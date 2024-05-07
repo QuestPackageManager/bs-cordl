@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/NoteBasicCutInfoHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteBasicCutInfoHelper_def.hpp"
 #include "GlobalNamespace/zzzz__ColorType_def.hpp"
@@ -13,7 +14,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::Transform*, ::GlobalNamespace::ColorType, ::GlobalNamespace::NoteCutDirection, ::GlobalNamespace::SaberType, float_t, ::UnityEngine::Vector3, float_t,
                          ByRef<bool>, ByRef<bool>, ByRef<bool>, ByRef<float_t>, ByRef<float_t>)>(&::GlobalNamespace::NoteBasicCutInfoHelper::GetBasicCutInfo)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x1412efc;
+  constexpr static std::size_t addrs = 0x150454c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

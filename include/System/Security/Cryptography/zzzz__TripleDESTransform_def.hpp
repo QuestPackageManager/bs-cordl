@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Cryptography/TripleDESTransform.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,10 +45,10 @@ public:
   /// @brief Field E3, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_E3, put = __cordl_internal_set_E3))::System::Security::Cryptography::DESTransform* E3;
 
-  /// @brief Method ECB, addr 0x26f8278, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method ECB, addr 0x27f5674, size 0x13c, virtual true, abstract: false, final false
   inline void ECB(::ArrayW<uint8_t, ::Array<uint8_t>*> input, ::ArrayW<uint8_t, ::Array<uint8_t>*> output);
 
-  /// @brief Method GetStrongKey, addr 0x26f81d0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetStrongKey, addr 0x27f55cc, size 0xa8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetStrongKey();
 
   static inline ::System::Security::Cryptography::TripleDESTransform* New_ctor(::System::Security::Cryptography::TripleDES* algo, bool encryption, ::ArrayW<uint8_t, ::Array<uint8_t>*> key,
@@ -89,7 +90,7 @@ public:
 
   constexpr void __cordl_internal_set_E3(::System::Security::Cryptography::DESTransform* value);
 
-  /// @brief Method .ctor, addr 0x26f7e94, size 0x33c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27f5290, size 0x33c, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::TripleDES* algo, bool encryption, ::ArrayW<uint8_t, ::Array<uint8_t>*> key, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
 
 protected:

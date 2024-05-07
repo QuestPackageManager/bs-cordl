@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BGNet/Core/ITaskUtility.hpp"
 #include "BGNet/Core/zzzz__ITaskUtility_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"

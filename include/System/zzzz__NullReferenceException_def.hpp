@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/NullReferenceException.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,13 +32,13 @@ public:
 
   static inline ::System::NullReferenceException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x2836414, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2934be8, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2836494, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2934c68, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x2836470, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2934c44, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/Collections/NativeArrayDisposeJob.hpp"
 #include "Unity/Collections/zzzz__NativeArrayDispose_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArrayDisposeJob_def.hpp"
 #include "Unity/Collections/zzzz__NativeArrayDispose_def.hpp"
@@ -8,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::NativeArrayDisposeJob::*)()>(&::Unity::Collections::NativeArrayDisposeJob::Execute)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x31cecfc;
+  constexpr static std::size_t addrs = 0x33d59f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::NativeArrayDisposeJob>::get(), "Execute",

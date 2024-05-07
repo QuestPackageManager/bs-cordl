@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "JetBrains/Annotations/ProvidesContextAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "JetBrains/Annotations/zzzz__ProvidesContextAttribute_def.hpp"
 //  Writing Method size for method: ::JetBrains::Annotations::ProvidesContextAttribute._ctor
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::ProvidesContextAttribute::*)()>(
     &::JetBrains::Annotations::ProvidesContextAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x340a29c;
+  constexpr static std::size_t addrs = 0x360efd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::JetBrains::Annotations::ProvidesContextAttribute*>::get(),

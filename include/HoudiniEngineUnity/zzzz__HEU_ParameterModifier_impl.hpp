@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HEU_ParameterModifier.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_ParameterModifier_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_ParameterModifier_def.hpp"
@@ -22,7 +23,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::HoudiniEngineUnity::HEU_ParameterModifier* (*)(::HoudiniEngineUnity::__HEU_ParameterModifier__ModifierAction, int32_t, int32_t, int32_t)>(
         &::HoudiniEngineUnity::HEU_ParameterModifier::GetNewModifier)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x247cfac;
+  constexpr static std::size_t addrs = 0x2577c38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_ParameterModifier::*)(::HoudiniEngineUnity::HEU_ParameterModifier*)>(
     &::HoudiniEngineUnity::HEU_ParameterModifier::IsEquivalentTo)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x247d038;
+  constexpr static std::size_t addrs = 0x2577cc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -53,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_ParameterModifier::*)()>(&::HoudiniEngineUnity::HEU_ParameterModifier::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x247d030;
+  constexpr static std::size_t addrs = 0x2577cbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_ParameterModifier*>::get(), ".ctor",

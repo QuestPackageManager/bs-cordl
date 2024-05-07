@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/TypeIdentifier.hpp"
 #include "System/zzzz__TypeIdentifier_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__TypeName_def.hpp"

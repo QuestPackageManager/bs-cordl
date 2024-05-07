@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Utilities/Dump.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Utilities/zzzz__Dump_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::Utilities::Dump._ctor
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Utilities::Dump::*)()>(&::Org::BouncyCastle::Asn1::Utilities::Dump::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x11ee77c;
+  constexpr static std::size_t addrs = 0x12deea0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Utilities::Dump*>::get(), ".ctor",
@@ -19,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<::StringW, ::Array<::StringW>*>)>(&::Org::BouncyCastle::Asn1::Utilities::Dump::Main)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x11ee784;
+  constexpr static std::size_t addrs = 0x12deea8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

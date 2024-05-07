@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatmapSaveDataVersion3/LightColorBaseData.hpp"
 #include "BeatmapSaveDataCommon/zzzz__EnvironmentColorType_impl.hpp"
 #include "BeatmapSaveDataVersion3/zzzz__TransitionType_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -11,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::BeatmapSaveDataVersion3::LightColorBaseData::*)()>(
     &::BeatmapSaveDataVersion3::LightColorBaseData::get_beat)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1400ef0;
+  constexpr static std::size_t addrs = 0x14f24b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::LightColorBaseData*>::get(),
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatmapSaveDataVersion3::TransitionType (::BeatmapSaveDataVersion3::LightColorBaseData::*)()>(
     &::BeatmapSaveDataVersion3::LightColorBaseData::get_transitionType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1400ef8;
+  constexpr static std::size_t addrs = 0x14f24bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::LightColorBaseData*>::get(),
@@ -39,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatmapSaveDataCommon::EnvironmentColorType (::BeatmapSaveDataVersion3::LightColorBaseData::*)()>(
     &::BeatmapSaveDataVersion3::LightColorBaseData::get_colorType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1400f00;
+  constexpr static std::size_t addrs = 0x14f24c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::LightColorBaseData*>::get(),
@@ -53,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::BeatmapSaveDataVersion3::LightColorBaseData::*)()>(
     &::BeatmapSaveDataVersion3::LightColorBaseData::get_brightness)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1400f08;
+  constexpr static std::size_t addrs = 0x14f24cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::LightColorBaseData*>::get(),
@@ -67,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::BeatmapSaveDataVersion3::LightColorBaseData::*)()>(
     &::BeatmapSaveDataVersion3::LightColorBaseData::get_strobeBeatFrequency)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1400f10;
+  constexpr static std::size_t addrs = 0x14f24d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::LightColorBaseData*>::get(),
@@ -81,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::BeatmapSaveDataVersion3::LightColorBaseData::*)()>(
     &::BeatmapSaveDataVersion3::LightColorBaseData::get_strobeBrightness)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1400f18;
+  constexpr static std::size_t addrs = 0x14f24dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::LightColorBaseData*>::get(),
@@ -95,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BeatmapSaveDataVersion3::LightColorBaseData::*)()>(
     &::BeatmapSaveDataVersion3::LightColorBaseData::get_strobeFade)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x1400f20;
+  constexpr static std::size_t addrs = 0x14f24e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::LightColorBaseData*>::get(),
@@ -109,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapSaveDataVersion3::LightColorBaseData::*)(
     float_t, ::BeatmapSaveDataVersion3::TransitionType, ::BeatmapSaveDataCommon::EnvironmentColorType, float_t, int32_t, float_t, bool)>(&::BeatmapSaveDataVersion3::LightColorBaseData::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x1400f30;
+  constexpr static std::size_t addrs = 0x14f24f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

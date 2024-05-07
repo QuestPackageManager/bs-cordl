@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/MatchResultInfo.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,7 +23,7 @@ namespace UnityEngine::UIElements::StyleSheets {
 struct CORDL_TYPE MatchResultInfo {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x33399d4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x353e710, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(bool success, ::UnityEngine::UIElements::PseudoStates triggerPseudoMask, ::UnityEngine::UIElements::PseudoStates dependencyPseudoMask);
 
   // Ctor Parameters []

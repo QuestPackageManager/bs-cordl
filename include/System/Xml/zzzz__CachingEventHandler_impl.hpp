@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/CachingEventHandler.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Xml/zzzz__CachingEventHandler_def.hpp"
 #include "System/Xml/zzzz__XsdCachingReader_def.hpp"
@@ -8,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::CachingEventHandler::*)(::System::Object*, void*)>(&::System::Xml::CachingEventHandler::_ctor)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x2d8bba8;
+  constexpr static std::size_t addrs = 0x2e884a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::CachingEventHandler::*)(::System::Xml::XsdCachingReader*)>(
     &::System::Xml::CachingEventHandler::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2d8bcd4;
+  constexpr static std::size_t addrs = 0x2e885d4;
 
   inline static ::MethodInfo const* methodInfo() {
 

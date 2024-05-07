@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BufferedLightColorGroupEffectManager.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,10 +51,10 @@ public:
 
   static inline ::GlobalNamespace::BufferedLightColorGroupEffectManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x25c9c50, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x26c89bc, size 0x5c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x25c9a98, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x26c8804, size 0x1b8, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::ArrayW<::GlobalNamespace::BufferedLightColorGroupEffect*, ::Array<::GlobalNamespace::BufferedLightColorGroupEffect*>*> const&
@@ -84,7 +85,7 @@ public:
   constexpr void __cordl_internal_set__materialPropertyBlockControllers(
       ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>, ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*> value);
 
-  /// @brief Method .ctor, addr 0x25c9cac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c8a18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

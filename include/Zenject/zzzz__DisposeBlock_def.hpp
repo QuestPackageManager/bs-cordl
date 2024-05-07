@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/DisposeBlock.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -123,30 +124,30 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Add, addr 0x346cc78, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x3670c40, size 0xe8, virtual false, abstract: false, final false
   inline void Add(::System::IDisposable* disposable);
 
   /// @brief Method AddRange, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void AddRange(::System::Collections::Generic::IList_1<T>* disposables);
 
-  /// @brief Method Dispose, addr 0x346ce3c, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3670e04, size 0x80, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method LazyInitializeDisposableList, addr 0x346cb84, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method LazyInitializeDisposableList, addr 0x3670b4c, size 0xf4, virtual false, abstract: false, final false
   inline void LazyInitializeDisposableList();
 
   static inline ::Zenject::DisposeBlock* New_ctor();
 
-  /// @brief Method OnDespawned, addr 0x346c824, size 0x360, virtual false, abstract: false, final false
+  /// @brief Method OnDespawned, addr 0x36707ec, size 0x360, virtual false, abstract: false, final false
   static inline void OnDespawned(::Zenject::DisposeBlock* that);
 
-  /// @brief Method OnSpawned, addr 0x346c7f8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method OnSpawned, addr 0x36707c0, size 0x2c, virtual false, abstract: false, final false
   static inline void OnSpawned(::Zenject::DisposeBlock* that);
 
-  /// @brief Method Remove, addr 0x346cd60, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x3670d28, size 0x64, virtual false, abstract: false, final false
   inline void Remove(::System::IDisposable* disposable);
 
-  /// @brief Method Spawn, addr 0x346cdc4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Spawn, addr 0x3670d8c, size 0x78, virtual false, abstract: false, final false
   static inline ::Zenject::DisposeBlock* Spawn();
 
   /// @brief Method Spawn, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -200,7 +201,7 @@ public:
 
   constexpr void __cordl_internal_set__objectPoolPairs(::System::Collections::Generic::List_1<::Zenject::__DisposeBlock__SpawnedObjectPoolPair>* value);
 
-  /// @brief Method .ctor, addr 0x346cebc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3670e84, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Zenject::StaticMemoryPool_1<::Zenject::DisposeBlock*>* getStaticF__pool();

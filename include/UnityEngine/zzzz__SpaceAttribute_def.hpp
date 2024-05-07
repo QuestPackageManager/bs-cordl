@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/SpaceAttribute.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,10 +33,10 @@ public:
 
   constexpr void __cordl_internal_set_height(float_t value);
 
-  /// @brief Method .ctor, addr 0x3203468, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x340a19c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3203488, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x340a1bc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(float_t height);
 
 protected:

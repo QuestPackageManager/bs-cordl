@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Controls/KeyControl.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__Key_impl.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__KeyControl_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Key (::UnityEngine::InputSystem::Controls::KeyControl::*)()>(
     &::UnityEngine::InputSystem::Controls::KeyControl::get_keyCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x303d9d8;
+  constexpr static std::size_t addrs = 0x3178764;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::KeyControl*>::get(),
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::KeyControl::*)(::UnityEngine::InputSystem::Key)>(
     &::UnityEngine::InputSystem::Controls::KeyControl::set_keyCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x303d9e0;
+  constexpr static std::size_t addrs = 0x317876c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -38,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::Controls::KeyControl::*)()>(
     &::UnityEngine::InputSystem::Controls::KeyControl::get_scanCode)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x303d9e8;
+  constexpr static std::size_t addrs = 0x3178774;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::KeyControl*>::get(),
@@ -52,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::KeyControl::*)()>(
     &::UnityEngine::InputSystem::Controls::KeyControl::RefreshConfiguration)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x303da04;
+  constexpr static std::size_t addrs = 0x3178790;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -68,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::KeyControl::*)()>(
     &::UnityEngine::InputSystem::Controls::KeyControl::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x303db74;
+  constexpr static std::size_t addrs = 0x3178900;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::KeyControl*>::get(),

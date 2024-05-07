@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Converters/ExpandoObjectConverter.hpp"
 #include "Newtonsoft/Json/zzzz__JsonConverter_impl.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__ExpandoObjectConverter_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
@@ -12,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Converters::ExpandoObjectConverter::*)(
     ::Newtonsoft::Json::JsonWriter*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*)>(&::Newtonsoft::Json::Converters::ExpandoObjectConverter::WriteJson)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x298958c;
+  constexpr static std::size_t addrs = 0x2a86e3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -29,7 +30,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Newtonsoft::Json::Converters::ExpandoObjectConverter::*)(::Newtonsoft::Json::JsonReader*, ::System::Type*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*)>(
     &::Newtonsoft::Json::Converters::ExpandoObjectConverter::ReadJson)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2989590;
+  constexpr static std::size_t addrs = 0x2a86e40;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -45,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Newtonsoft::Json::Converters::ExpandoObjectConverter::*)(::Newtonsoft::Json::JsonReader*)>(
     &::Newtonsoft::Json::Converters::ExpandoObjectConverter::ReadValue)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x2989594;
+  constexpr static std::size_t addrs = 0x2a86e44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -60,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Newtonsoft::Json::Converters::ExpandoObjectConverter::*)(::Newtonsoft::Json::JsonReader*)>(
     &::Newtonsoft::Json::Converters::ExpandoObjectConverter::ReadList)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x29898d0;
+  constexpr static std::size_t addrs = 0x2a87180;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -75,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Newtonsoft::Json::Converters::ExpandoObjectConverter::*)(::Newtonsoft::Json::JsonReader*)>(
     &::Newtonsoft::Json::Converters::ExpandoObjectConverter::ReadObject)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x2989700;
+  constexpr static std::size_t addrs = 0x2a86fb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -90,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Converters::ExpandoObjectConverter::*)(::System::Type*)>(
     &::Newtonsoft::Json::Converters::ExpandoObjectConverter::CanConvert)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x2989a64;
+  constexpr static std::size_t addrs = 0x2a87314;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -106,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Converters::ExpandoObjectConverter::*)()>(
     &::Newtonsoft::Json::Converters::ExpandoObjectConverter::get_CanWrite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2989aec;
+  constexpr static std::size_t addrs = 0x2a8739c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -122,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Converters::ExpandoObjectConverter::*)()>(
     &::Newtonsoft::Json::Converters::ExpandoObjectConverter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2989af4;
+  constexpr static std::size_t addrs = 0x2a873a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::ExpandoObjectConverter*>::get(),

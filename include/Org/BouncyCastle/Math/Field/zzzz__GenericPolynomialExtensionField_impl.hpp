@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Math/Field/GenericPolynomialExtensionField.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Math/Field/zzzz__GenericPolynomialExtensionField_def.hpp"
 #include "Org/BouncyCastle/Math/Field/zzzz__IExtensionField_def.hpp"
@@ -13,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::*)(
     ::Org::BouncyCastle::Math::Field::IFiniteField*, ::Org::BouncyCastle::Math::Field::IPolynomial*)>(&::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x11cb3b8;
+  constexpr static std::size_t addrs = 0x12bbadc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::*)()>(
     &::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::get_Characteristic)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x11cb68c;
+  constexpr static std::size_t addrs = 0x12bbdb0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -45,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::*)()>(
     &::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::get_Dimension)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x11cb72c;
+  constexpr static std::size_t addrs = 0x12bbe50;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -61,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::Field::IFiniteField* (
     ::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::*)()>(&::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::get_Subfield)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x11cb850;
+  constexpr static std::size_t addrs = 0x12bbf74;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -77,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::*)()>(
     &::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::get_Degree)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x11cb858;
+  constexpr static std::size_t addrs = 0x12bbf7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -93,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::Field::IPolynomial* (
     ::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::*)()>(&::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::get_MinimalPolynomial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x11cb8f8;
+  constexpr static std::size_t addrs = 0x12bc01c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -109,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::*)(::System::Object*)>(
     &::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::Equals)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x11cb900;
+  constexpr static std::size_t addrs = 0x12bc024;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -125,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::*)()>(
     &::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField::GetHashCode)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x11cb9d0;
+  constexpr static std::size_t addrs = 0x12bc0f4;
 
   inline static ::MethodInfo const* methodInfo() {
 

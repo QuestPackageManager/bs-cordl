@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MultiplayerConnectedPlayerGameplayAnimator.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,27 +62,27 @@ public:
   __declspec(property(get = __cordl_internal_get__playerSpectatingSpot,
                       put = __cordl_internal_set__playerSpectatingSpot))::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot> _playerSpectatingSpot;
 
-  /// @brief Method AnimateNewLeaderSelected, addr 0x25f2304, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method AnimateNewLeaderSelected, addr 0x26f111c, size 0x148, virtual true, abstract: false, final false
   inline void AnimateNewLeaderSelected(bool isLeading);
 
-  /// @brief Method HandleIsObservedChanged, addr 0x25f25fc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method HandleIsObservedChanged, addr 0x26f1414, size 0x7c, virtual false, abstract: false, final false
   inline void HandleIsObservedChanged(bool isObserved);
 
-  /// @brief Method HandlePlayerDidFail, addr 0x25f25f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerDidFail, addr 0x26f1410, size 0x4, virtual false, abstract: false, final false
   inline void HandlePlayerDidFail();
 
-  /// @brief Method HandleStateChanged, addr 0x25f244c, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method HandleStateChanged, addr 0x26f1264, size 0x110, virtual true, abstract: false, final false
   inline void HandleStateChanged(::GlobalNamespace::__MultiplayerController__State state);
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerGameplayAnimator* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x25f1f08, size 0x170, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x26f0d20, size 0x170, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x25f1e60, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x26f0c78, size 0xa8, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method TransitionIntoFailedState, addr 0x25f2114, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method TransitionIntoFailedState, addr 0x26f0f2c, size 0xf4, virtual false, abstract: false, final false
   inline void TransitionIntoFailedState();
 
   constexpr ::UnityW<::GlobalNamespace::ScaleAnimator> const& __cordl_internal_get__avatarScaleAnimator() const;
@@ -126,7 +127,7 @@ public:
 
   constexpr void __cordl_internal_set__playerSpectatingSpot(::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot> value);
 
-  /// @brief Method .ctor, addr 0x25f26e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26f1500, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

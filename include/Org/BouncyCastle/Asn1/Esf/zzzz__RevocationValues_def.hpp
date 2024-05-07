@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Esf/RevocationValues.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,13 +52,13 @@ public:
   /// @brief Field otherRevVals, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_otherRevVals, put = __cordl_internal_set_otherRevVals))::Org::BouncyCastle::Asn1::Esf::OtherRevVals* otherRevVals;
 
-  /// @brief Method GetCrlVals, addr 0x1002648, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method GetCrlVals, addr 0x10f5d6c, size 0x124, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::CertificateList*, ::Array<::Org::BouncyCastle::Asn1::X509::CertificateList*>*> GetCrlVals();
 
-  /// @brief Method GetInstance, addr 0x100181c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x10f4f40, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Esf::RevocationValues* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetOcspVals, addr 0x100276c, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method GetOcspVals, addr 0x10f5e90, size 0x124, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse*, ::Array<::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse*>*> GetOcspVals();
 
   static inline ::Org::BouncyCastle::Asn1::Esf::RevocationValues*
@@ -70,7 +71,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Esf::RevocationValues* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x1002898, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x10f5fbc, size 0x124, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_crlVals();
@@ -91,18 +92,18 @@ public:
 
   constexpr void __cordl_internal_set_otherRevVals(::Org::BouncyCastle::Asn1::Esf::OtherRevVals* value);
 
-  /// @brief Method .ctor, addr 0x100233c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10f5a60, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::CertificateList*, ::Array<::Org::BouncyCastle::Asn1::X509::CertificateList*>*> crlVals,
                     ::ArrayW<::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse*, ::Array<::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse*>*> ocspVals,
                     ::Org::BouncyCastle::Asn1::Esf::OtherRevVals* otherRevVals);
 
-  /// @brief Method .ctor, addr 0x10023f4, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10f5b18, size 0x254, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IEnumerable* crlVals, ::System::Collections::IEnumerable* ocspVals, ::Org::BouncyCastle::Asn1::Esf::OtherRevVals* otherRevVals);
 
-  /// @brief Method .ctor, addr 0x10018c0, size 0xa7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10f4fe4, size 0xa7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_OtherRevVals, addr 0x1002890, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OtherRevVals, addr 0x10f5fb4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Esf::OtherRevVals* get_OtherRevVals();
 
 protected:

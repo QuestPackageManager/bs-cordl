@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/LanguagePack.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,10 +29,10 @@ namespace Oculus::Platform {
 class CORDL_TYPE LanguagePack : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetCurrent, addr 0x29d710c, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetCurrent, addr 0x2ad49bc, size 0x158, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetDetails*>* GetCurrent();
 
-  /// @brief Method SetCurrent, addr 0x29d7264, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method SetCurrent, addr 0x2ad4b14, size 0x160, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AssetFileDownloadResult*>* SetCurrent(::StringW tag);
 
 protected:

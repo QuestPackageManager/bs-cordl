@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/AddressableAssets/AssetReferenceTexture2D.hpp"
 #include "UnityEngine/AddressableAssets/zzzz__AssetReferenceT_1_impl.hpp"
 #include "UnityEngine/AddressableAssets/zzzz__AssetReferenceTexture2D_def.hpp"
 #include "UnityEngine/zzzz__Texture2D_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::AssetReferenceTexture2D::*)(::StringW)>(
     &::UnityEngine::AddressableAssets::AssetReferenceTexture2D::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2f58498;
+  constexpr static std::size_t addrs = 0x3059d98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

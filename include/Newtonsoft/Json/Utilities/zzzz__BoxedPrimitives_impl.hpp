@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/BoxedPrimitives.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__BoxedPrimitives_def.hpp"
 #include "System/zzzz__Decimal_def.hpp"
@@ -8,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(bool)>(&::Newtonsoft::Json::Utilities::BoxedPrimitives::Get)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2907b20;
+  constexpr static std::size_t addrs = 0x2a063d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -22,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(int32_t)>(&::Newtonsoft::Json::Utilities::BoxedPrimitives::Get)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x2907b88;
+  constexpr static std::size_t addrs = 0x2a06438;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(int64_t)>(&::Newtonsoft::Json::Utilities::BoxedPrimitives::Get)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x2907d50;
+  constexpr static std::size_t addrs = 0x2a06600;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::System::Decimal)>(&::Newtonsoft::Json::Utilities::BoxedPrimitives::Get)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x2907f24;
+  constexpr static std::size_t addrs = 0x2a067d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(double_t)>(&::Newtonsoft::Json::Utilities::BoxedPrimitives::Get)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x290800c;
+  constexpr static std::size_t addrs = 0x2a068bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/NameNode.hpp"
 #include "System/Data/zzzz__ExpressionNode_impl.hpp"
 #include "System/Data/zzzz__NameNode_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -14,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Data::NameNode::*)(::System::Data::DataTable*, ::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(&::System::Data::NameNode::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x2bcd9ec;
+  constexpr static std::size_t addrs = 0x2cca2ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::NameNode::*)(::System::Data::DataTable*, ::StringW)>(&::System::Data::NameNode::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2bce41c;
+  constexpr static std::size_t addrs = 0x2ccad1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -45,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::NameNode::*)()>(&::System::Data::NameNode::get_IsSqlColumn)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2bd3f8c;
+  constexpr static std::size_t addrs = 0x2cd088c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -60,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Data::NameNode::*)(::System::Data::DataTable*, ::System::Collections::Generic::List_1<::System::Data::DataColumn*>*)>(&::System::Data::NameNode::Bind)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x2bd3fa8;
+  constexpr static std::size_t addrs = 0x2cd08a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -74,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::NameNode::*)()>(&::System::Data::NameNode::Eval)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2bd41d4;
+  constexpr static std::size_t addrs = 0x2cd0ad4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -89,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::NameNode::*)(::System::Data::DataRow*, ::System::Data::DataRowVersion)>(
     &::System::Data::NameNode::Eval)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2bd41f8;
+  constexpr static std::size_t addrs = 0x2cd0af8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -104,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::NameNode::*)(::ArrayW<int32_t, ::Array<int32_t>*>)>(
     &::System::Data::NameNode::Eval)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x2bd4294;
+  constexpr static std::size_t addrs = 0x2cd0b94;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -118,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::NameNode::*)()>(&::System::Data::NameNode::IsConstant)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2bd42c4;
+  constexpr static std::size_t addrs = 0x2cd0bc4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -132,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::NameNode::*)()>(&::System::Data::NameNode::IsTableConstant)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2bd42cc;
+  constexpr static std::size_t addrs = 0x2cd0bcc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -146,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::NameNode::*)()>(&::System::Data::NameNode::HasLocalAggregate)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2bd4320;
+  constexpr static std::size_t addrs = 0x2cd0c20;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -160,7 +161,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::NameNode::*)()>(&::System::Data::NameNode::HasRemoteAggregate)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2bd4374;
+  constexpr static std::size_t addrs = 0x2cd0c74;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -174,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::NameNode::*)(::System::Data::DataColumn*)>(&::System::Data::NameNode::DependsOn)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x2bd43c8;
+  constexpr static std::size_t addrs = 0x2cd0cc8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -188,7 +189,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::ExpressionNode* (::System::Data::NameNode::*)()>(&::System::Data::NameNode::Optimize)> {
   constexpr static std::size_t size = 0x1004;
-  constexpr static std::size_t addrs = 0x2bd4444;
+  constexpr static std::size_t addrs = 0x2cd0d44;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -202,7 +203,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(&::System::Data::NameNode::ParseName)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x2bcd738;
+  constexpr static std::size_t addrs = 0x2cca038;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/LaunchType.hpp"
 #include "Oculus/Platform/zzzz__LaunchType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::Oculus::Platform::LaunchType::LaunchType(int32_t value__) noexcept {

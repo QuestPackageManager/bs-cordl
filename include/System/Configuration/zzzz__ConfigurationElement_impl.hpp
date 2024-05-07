@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Configuration/ConfigurationElement.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Configuration/zzzz__ConfigurationElement_def.hpp"
 #include "System/Configuration/zzzz__ConfigurationPropertyCollection_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Configuration::ConfigurationPropertyCollection* (::System::Configuration::ConfigurationElement::*)()>(
     &::System::Configuration::ConfigurationElement::get_Properties)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2add400;
+  constexpr static std::size_t addrs = 0x2bd99e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Configuration::ConfigurationElement::*)()>(
     &::System::Configuration::ConfigurationElement::IsModified)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2add438;
+  constexpr static std::size_t addrs = 0x2bd9a18;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -38,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Configuration::ConfigurationElement::*)(::System::Configuration::ConfigurationElement*)>(
     &::System::Configuration::ConfigurationElement::Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2add470;
+  constexpr static std::size_t addrs = 0x2bd9a50;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -53,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Configuration::ConfigurationElement::*)()>(
     &::System::Configuration::ConfigurationElement::ResetModified)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2add4a8;
+  constexpr static std::size_t addrs = 0x2bd9a88;
 
   inline static ::MethodInfo const* methodInfo() {
 

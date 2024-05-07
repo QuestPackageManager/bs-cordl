@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/IO/__Error.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/IO/zzzz____Error_def.hpp"
 //  Writing Method size for method: ::System::IO::__Error.EndOfFile
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::IO::__Error::EndOfFile)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x27bb9b8;
+  constexpr static std::size_t addrs = 0x28bb0d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__Error*>::get(), "EndOfFile",
@@ -19,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::IO::__Error::FileNotOpen)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x27bba18;
+  constexpr static std::size_t addrs = 0x28bb138;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__Error*>::get(), "FileNotOpen",
@@ -32,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::IO::__Error::ReaderClosed)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x27bba7c;
+  constexpr static std::size_t addrs = 0x28bb19c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__Error*>::get(), "ReaderClosed",
@@ -45,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, bool)>(&::System::IO::__Error::GetDisplayablePath)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x27bbae0;
+  constexpr static std::size_t addrs = 0x28bb200;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, ::StringW)>(&::System::IO::__Error::WinIOError)> {
   constexpr static std::size_t size = 0x59c;
-  constexpr static std::size_t addrs = 0x27bbc2c;
+  constexpr static std::size_t addrs = 0x28bb34c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -73,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::IO::__Error::WriterClosed)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x27bc1c8;
+  constexpr static std::size_t addrs = 0x28bb8e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__Error*>::get(), "WriterClosed",

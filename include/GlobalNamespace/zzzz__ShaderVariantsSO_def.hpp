@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ShaderVariantsSO.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,13 +67,13 @@ public:
 
   constexpr void __cordl_internal_set__passType(::UnityEngine::Rendering::PassType value);
 
-  /// @brief Method .ctor, addr 0x2adb7ac, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bd8054, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Rendering::PassType passType, ::StringW keywords);
 
-  /// @brief Method get_keywords, addr 0x2adb7a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_keywords, addr 0x2bd804c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_keywords();
 
-  /// @brief Method get_passType, addr 0x2adb79c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_passType, addr 0x2bd8044, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::PassType get_passType();
 
 protected:
@@ -143,14 +144,14 @@ public:
   constexpr void
   __cordl_internal_set__variants(::ArrayW<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant__Variant*, ::Array<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant__Variant*>*> value);
 
-  /// @brief Method .ctor, addr 0x2adb770, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bd8018, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Shader* shader,
                     ::ArrayW<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant__Variant*, ::Array<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant__Variant*>*> variants);
 
-  /// @brief Method get_shader, addr 0x2adb768, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_shader, addr 0x2bd8010, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_shader();
 
-  /// @brief Method get_variants, addr 0x2adb760, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_variants, addr 0x2bd8008, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant__Variant*, ::Array<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant__Variant*>*> get_variants();
 
 protected:
@@ -200,7 +201,7 @@ public:
 
   __declspec(property(get = get_shaderVariants))::ArrayW<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant*, ::Array<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant*>*> shaderVariants;
 
-  /// @brief Method Init, addr 0x2adb750, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2bd7ff8, size 0x8, virtual false, abstract: false, final false
   inline void Init(::ArrayW<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant*, ::Array<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant*>*> shaderVariants);
 
   static inline ::GlobalNamespace::ShaderVariantsSO* New_ctor();
@@ -211,10 +212,10 @@ public:
 
   constexpr void __cordl_internal_set__shaderVariants(::ArrayW<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant*, ::Array<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant*>*> value);
 
-  /// @brief Method .ctor, addr 0x2adb758, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bd8000, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_shaderVariants, addr 0x2adb748, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_shaderVariants, addr 0x2bd7ff0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant*, ::Array<::GlobalNamespace::__ShaderVariantsSO__ShaderVariant*>*> get_shaderVariants();
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/UxmlRootElementTraits.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlTraits_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlRootElementTraits_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlStringAttributeDescription_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UxmlRootElementTraits::*)()>(
     &::UnityEngine::UIElements::UxmlRootElementTraits::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x335e0f4;
+  constexpr static std::size_t addrs = 0x3561e30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UxmlRootElementTraits*>::get(),

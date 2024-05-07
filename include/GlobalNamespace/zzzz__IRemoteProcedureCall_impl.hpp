@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IRemoteProcedureCall.hpp"
 #include "GlobalNamespace/zzzz__IRemoteProcedureCall_def.hpp"
 #include "GlobalNamespace/zzzz__IPoolablePacket_def.hpp"
 #include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"

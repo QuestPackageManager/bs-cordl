@@ -1,12 +1,13 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/FakeMirrorObjectsInstaller.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "Zenject/zzzz__MonoInstaller_def.hpp"
 CORDL_MODULE_EXPORT(FakeMirrorObjectsInstaller)
-namespace GlobalNamespace {
-class IntSO;
+namespace BeatSaber::GameSettings {
+class GraphicSettingsHandler;
 }
 namespace GlobalNamespace {
 class MirrorRendererGraphicsSettingsPresets;
@@ -58,10 +59,10 @@ public:
 
   static inline ::GlobalNamespace::__FakeMirrorObjectsInstaller____c* New_ctor();
 
-  /// @brief Method <InstallBindings>b__10_0, addr 0x262eddc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method <InstallBindings>b__10_0, addr 0x272ebd4, size 0x94, virtual false, abstract: false, final false
   inline bool _InstallBindings_b__10_0(::Zenject::BindingId t);
 
-  /// @brief Method .ctor, addr 0x262edd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x272ebcc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__FakeMirrorObjectsInstaller____c* getStaticF___9();
@@ -102,10 +103,10 @@ public:
   // Declarations
   using __c = ::GlobalNamespace::__FakeMirrorObjectsInstaller____c;
 
-  /// @brief Field _mirrorGraphicsSettings, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__mirrorGraphicsSettings, put = __cordl_internal_set__mirrorGraphicsSettings))::UnityW<::GlobalNamespace::IntSO> _mirrorGraphicsSettings;
+  /// @brief Field _graphicSettings, offset 0x58, size 0x8
+  __declspec(property(get = __cordl_internal_get__graphicSettings, put = __cordl_internal_set__graphicSettings))::BeatSaber::GameSettings::GraphicSettingsHandler* _graphicSettings;
 
-  /// @brief Field _mirrorRendererGraphicsSettingsPresets, offset 0x58, size 0x8
+  /// @brief Field _mirrorRendererGraphicsSettingsPresets, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__mirrorRendererGraphicsSettingsPresets,
                       put = __cordl_internal_set__mirrorRendererGraphicsSettingsPresets))::UnityW<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets> _mirrorRendererGraphicsSettingsPresets;
 
@@ -136,14 +137,14 @@ public:
 
   __declspec(property(get = get_mirroredGameNoteControllerPrefab))::UnityW<::GlobalNamespace::MirroredGameNoteController> mirroredGameNoteControllerPrefab;
 
-  /// @brief Method InstallBindings, addr 0x262e844, size 0x524, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x272e644, size 0x51c, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::FakeMirrorObjectsInstaller* New_ctor();
 
-  constexpr ::UnityW<::GlobalNamespace::IntSO> const& __cordl_internal_get__mirrorGraphicsSettings() const;
+  constexpr ::BeatSaber::GameSettings::GraphicSettingsHandler*& __cordl_internal_get__graphicSettings();
 
-  constexpr ::UnityW<::GlobalNamespace::IntSO>& __cordl_internal_get__mirrorGraphicsSettings();
+  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::GameSettings::GraphicSettingsHandler*> const& __cordl_internal_get__graphicSettings() const;
 
   constexpr ::UnityW<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets> const& __cordl_internal_get__mirrorRendererGraphicsSettingsPresets() const;
 
@@ -173,7 +174,7 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::MirroredSliderController>& __cordl_internal_get__mirroredSliderControllerPrefab();
 
-  constexpr void __cordl_internal_set__mirrorGraphicsSettings(::UnityW<::GlobalNamespace::IntSO> value);
+  constexpr void __cordl_internal_set__graphicSettings(::BeatSaber::GameSettings::GraphicSettingsHandler* value);
 
   constexpr void __cordl_internal_set__mirrorRendererGraphicsSettingsPresets(::UnityW<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets> value);
 
@@ -189,10 +190,10 @@ public:
 
   constexpr void __cordl_internal_set__mirroredSliderControllerPrefab(::UnityW<::GlobalNamespace::MirroredSliderController> value);
 
-  /// @brief Method .ctor, addr 0x262ed68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x272eb60, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_mirroredGameNoteControllerPrefab, addr 0x262e83c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mirroredGameNoteControllerPrefab, addr 0x272e63c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MirroredGameNoteController> get_mirroredGameNoteControllerPrefab();
 
 protected:
@@ -227,11 +228,11 @@ public:
   /// @brief Field _mirroredSliderControllerPrefab, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MirroredSliderController> ____mirroredSliderControllerPrefab;
 
-  /// @brief Field _mirrorGraphicsSettings, offset: 0x50, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::IntSO> ____mirrorGraphicsSettings;
-
-  /// @brief Field _mirrorRendererGraphicsSettingsPresets, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field _mirrorRendererGraphicsSettingsPresets, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets> ____mirrorRendererGraphicsSettingsPresets;
+
+  /// @brief Field _graphicSettings, offset: 0x58, size: 0x8, def value: None
+  ::BeatSaber::GameSettings::GraphicSettingsHandler* ____graphicSettings;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -250,9 +251,9 @@ static_assert(offsetof(::GlobalNamespace::FakeMirrorObjectsInstaller, ____mirror
 
 static_assert(offsetof(::GlobalNamespace::FakeMirrorObjectsInstaller, ____mirroredSliderControllerPrefab) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FakeMirrorObjectsInstaller, ____mirrorGraphicsSettings) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FakeMirrorObjectsInstaller, ____mirrorRendererGraphicsSettingsPresets) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FakeMirrorObjectsInstaller, ____mirrorRendererGraphicsSettingsPresets) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FakeMirrorObjectsInstaller, ____graphicSettings) == 0x58, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FakeMirrorObjectsInstaller);

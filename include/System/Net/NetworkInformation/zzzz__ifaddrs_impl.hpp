@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/NetworkInformation/ifaddrs.hpp"
 #include "System/Net/NetworkInformation/zzzz__ifa_ifu_impl.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/Net/NetworkInformation/zzzz__ifaddrs_def.hpp"

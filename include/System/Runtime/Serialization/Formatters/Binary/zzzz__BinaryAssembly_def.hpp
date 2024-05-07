@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Serialization/Formatters/Binary/BinaryAssembly.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,18 +33,18 @@ public:
   /// @brief Field assemblyString, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_assemblyString, put = __cordl_internal_set_assemblyString))::StringW assemblyString;
 
-  /// @brief Method Dump, addr 0x2744564, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Dump, addr 0x2842960, size 0x4, virtual false, abstract: false, final false
   inline void Dump();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryAssembly* New_ctor();
 
-  /// @brief Method Read, addr 0x2744520, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method Read, addr 0x284291c, size 0x44, virtual true, abstract: false, final true
   inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
 
-  /// @brief Method Set, addr 0x27444a4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x28428a0, size 0xc, virtual false, abstract: false, final false
   inline void Set(int32_t assemId, ::StringW assemblyString);
 
-  /// @brief Method Write, addr 0x27444b0, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Write, addr 0x28428ac, size 0x70, virtual true, abstract: false, final true
   inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
 
   constexpr int32_t const& __cordl_internal_get_assemId() const;
@@ -58,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set_assemblyString(::StringW value);
 
-  /// @brief Method .ctor, addr 0x274449c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2842898, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

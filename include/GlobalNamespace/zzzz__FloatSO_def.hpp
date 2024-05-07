@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/FloatSO.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,7 +22,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::FloatSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0xf91948, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10861a0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

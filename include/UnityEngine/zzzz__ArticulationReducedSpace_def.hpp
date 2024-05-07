@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ArticulationReducedSpace.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,19 +67,19 @@ public:
 
   __declspec(property(get = get_Item, put = set_Item)) float_t Item[];
 
-  /// @brief Method .ctor, addr 0x3257ee4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3460c20, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(float_t a);
 
-  /// @brief Method .ctor, addr 0x3257ef4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3460c30, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(float_t a, float_t b);
 
-  /// @brief Method .ctor, addr 0x3257f04, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3460c40, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(float_t a, float_t b, float_t c);
 
-  /// @brief Method get_Item, addr 0x3257e2c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x3460b68, size 0x5c, virtual false, abstract: false, final false
   inline float_t get_Item(int32_t i);
 
-  /// @brief Method set_Item, addr 0x3257e88, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x3460bc4, size 0x5c, virtual false, abstract: false, final false
   inline void set_Item(int32_t i, float_t value);
 
   // Ctor Parameters []

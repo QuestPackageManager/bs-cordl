@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MultiplayerLevelCompletionResults.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -218,13 +219,13 @@ public:
   /// @brief Convert operator to "::System::IComparable"
   constexpr operator ::System::IComparable*() noexcept;
 
-  /// @brief Method CompareTo, addr 0xfb4d38, size 0xec, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x10a845c, size 0xec, virtual true, abstract: false, final true
   inline int32_t CompareTo(::System::Object* obj);
 
-  /// @brief Method CreateFromSerializedData, addr 0xfb4c8c, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method CreateFromSerializedData, addr 0x10a83b0, size 0xac, virtual true, abstract: false, final true
   inline ::GlobalNamespace::MultiplayerLevelCompletionResults* CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method HasAnyResult, addr 0xfb4bbc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HasAnyResult, addr 0x10a82e0, size 0xc, virtual false, abstract: false, final false
   static inline bool HasAnyResult(::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState playerLevelEndState);
 
   static inline ::GlobalNamespace::MultiplayerLevelCompletionResults* New_ctor();
@@ -233,7 +234,7 @@ public:
                                                                                ::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason playerLevelEndReason,
                                                                                ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
-  /// @brief Method Serialize, addr 0xfb4c20, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x10a8344, size 0x6c, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   constexpr ::GlobalNamespace::LevelCompletionResults*& __cordl_internal_get__levelCompletionResults();
@@ -254,26 +255,26 @@ public:
 
   constexpr void __cordl_internal_set__playerLevelEndState(::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState value);
 
-  /// @brief Method .ctor, addr 0xfb4bdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10a8300, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0xfb4be4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10a8308, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState playerLevelEndState,
                     ::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason playerLevelEndReason, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
-  /// @brief Method get_failedOrGivenUp, addr 0xfb4bc8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_failedOrGivenUp, addr 0x10a82ec, size 0x14, virtual false, abstract: false, final false
   inline bool get_failedOrGivenUp();
 
-  /// @brief Method get_hasAnyResults, addr 0xfb4bac, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_hasAnyResults, addr 0x10a82d0, size 0x10, virtual false, abstract: false, final false
   inline bool get_hasAnyResults();
 
-  /// @brief Method get_levelCompletionResults, addr 0xfb4ba4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelCompletionResults, addr 0x10a82c8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::LevelCompletionResults* get_levelCompletionResults();
 
-  /// @brief Method get_playerLevelEndReason, addr 0xfb4b9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerLevelEndReason, addr 0x10a82c0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndReason get_playerLevelEndReason();
 
-  /// @brief Method get_playerLevelEndState, addr 0xfb4b94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerLevelEndState, addr 0x10a82b8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__MultiplayerLevelCompletionResults__MultiplayerPlayerLevelEndState get_playerLevelEndState();
 
   /// @brief Convert to "::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/Lock.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,12 +25,12 @@ public:
   /// @brief Field _lock, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__lock, put = __cordl_internal_set__lock))::System::Object* _lock;
 
-  /// @brief Method Acquire, addr 0x289d090, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Acquire, addr 0x299b940, size 0x8, virtual false, abstract: false, final false
   inline void Acquire();
 
   static inline ::System::Threading::Lock* New_ctor();
 
-  /// @brief Method Release, addr 0x289d0b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x299b964, size 0x8, virtual false, abstract: false, final false
   inline void Release();
 
   constexpr ::System::Object*& __cordl_internal_get__lock();
@@ -38,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set__lock(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x289d0c4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x299b974, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

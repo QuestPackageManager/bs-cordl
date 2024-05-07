@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/Ray2DExtensions.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,7 +28,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE Ray2DExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CircleIntersections, addr 0xf90e34, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method CircleIntersections, addr 0x1085740, size 0x22c, virtual false, abstract: false, final false
   static inline int32_t CircleIntersections(::UnityEngine::Ray2D ray, ::UnityEngine::Vector2 circleCenter, float_t radius, ::ArrayW<float_t, ::Array<float_t>*> distances);
 
 protected:

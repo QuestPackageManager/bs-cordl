@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/PS5PublisherSKUSettingsSO.hpp"
 #include "GlobalNamespace/zzzz__SonyPublisherSKUSettingsSO_impl.hpp"
 #include "GlobalNamespace/zzzz__PS5PublisherSKUSettingsSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PS5PublisherSKUSettingsSO._ctor
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PS5PublisherSKUSettingsSO::*)()>(&::GlobalNamespace::PS5PublisherSKUSettingsSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x13eb4ac;
+  constexpr static std::size_t addrs = 0x14dd718;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PS5PublisherSKUSettingsSO*>::get(), ".ctor",

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MouseLook.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,27 +60,27 @@ public:
   /// @brief Field _ySensitivity, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get__ySensitivity, put = __cordl_internal_set__ySensitivity)) float_t _ySensitivity;
 
-  /// @brief Method ClampRotationAroundXAxis, addr 0x258093c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ClampRotationAroundXAxis, addr 0x2678dd0, size 0x64, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion ClampRotationAroundXAxis(::UnityEngine::Quaternion q);
 
-  /// @brief Method Init, addr 0x257fc30, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x26780c4, size 0x6c, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::Transform* character, ::UnityEngine::Transform* camera);
 
-  /// @brief Method InternalLockUpdate, addr 0x25809b0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method InternalLockUpdate, addr 0x2678e44, size 0x78, virtual false, abstract: false, final false
   inline void InternalLockUpdate();
 
-  /// @brief Method LookRotation, addr 0x25802d4, size 0x35c, virtual false, abstract: false, final false
+  /// @brief Method LookRotation, addr 0x2678768, size 0x35c, virtual false, abstract: false, final false
   inline void LookRotation(::UnityEngine::Transform* character, ::UnityEngine::Transform* camera);
 
   static inline ::GlobalNamespace::MouseLook* New_ctor();
 
-  /// @brief Method SetCursorLock, addr 0x257fc9c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method SetCursorLock, addr 0x2678130, size 0x34, virtual false, abstract: false, final false
   inline void SetCursorLock(bool value);
 
-  /// @brief Method SetRotations, addr 0x2580928, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SetRotations, addr 0x2678dbc, size 0x14, virtual false, abstract: false, final false
   inline void SetRotations(::UnityEngine::Quaternion characterRotation, ::UnityEngine::Quaternion cameraRotation);
 
-  /// @brief Method UpdateCursorLock, addr 0x25809a0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method UpdateCursorLock, addr 0x2678e34, size 0x10, virtual false, abstract: false, final false
   inline void UpdateCursorLock();
 
   constexpr ::UnityEngine::Quaternion const& __cordl_internal_get__cameraTargetRot() const;
@@ -148,7 +149,7 @@ public:
 
   constexpr void __cordl_internal_set__ySensitivity(float_t value);
 
-  /// @brief Method .ctor, addr 0x2580800, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2678c94, size 0x34, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

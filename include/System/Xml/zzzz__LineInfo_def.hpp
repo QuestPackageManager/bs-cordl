@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/LineInfo.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,10 +20,10 @@ namespace System::Xml {
 struct CORDL_TYPE LineInfo {
 public:
   // Declarations
-  /// @brief Method Set, addr 0x2da81e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x2ea4ae4, size 0x8, virtual false, abstract: false, final false
   inline void Set(int32_t lineNo, int32_t linePos);
 
-  /// @brief Method .ctor, addr 0x2da81dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ea4adc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t lineNo, int32_t linePos);
 
   // Ctor Parameters []

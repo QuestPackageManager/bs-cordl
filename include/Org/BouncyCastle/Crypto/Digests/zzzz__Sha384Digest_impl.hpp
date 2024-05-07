@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Digests/Sha384Digest.hpp"
 #include "Org/BouncyCastle/Crypto/Digests/zzzz__LongDigest_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Digests/zzzz__Sha384Digest_def.hpp"
 #include "Org/BouncyCastle/Utilities/zzzz__IMemoable_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::Sha384Digest::*)()>(
     &::Org::BouncyCastle::Crypto::Digests::Sha384Digest::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x1010360;
+  constexpr static std::size_t addrs = 0x1102a84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::Sha384Digest*>::get(),
@@ -22,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::Sha384Digest::*)(::Org::BouncyCastle::Crypto::Digests::Sha384Digest*)>(
     &::Org::BouncyCastle::Crypto::Digests::Sha384Digest::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x10103b8;
+  constexpr static std::size_t addrs = 0x1102adc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -37,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Digests::Sha384Digest::*)()>(
     &::Org::BouncyCastle::Crypto::Digests::Sha384Digest::get_AlgorithmName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x1010420;
+  constexpr static std::size_t addrs = 0x1102b44;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -53,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Digests::Sha384Digest::*)()>(
     &::Org::BouncyCastle::Crypto::Digests::Sha384Digest::GetDigestSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1010460;
+  constexpr static std::size_t addrs = 0x1102b84;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -69,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Digests::Sha384Digest::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::Org::BouncyCastle::Crypto::Digests::Sha384Digest::DoFinal)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x1010468;
+  constexpr static std::size_t addrs = 0x1102b8c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -85,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::Sha384Digest::*)()>(
     &::Org::BouncyCastle::Crypto::Digests::Sha384Digest::Reset)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x1010520;
+  constexpr static std::size_t addrs = 0x1102c44;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -101,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Utilities::IMemoable* (::Org::BouncyCastle::Crypto::Digests::Sha384Digest::*)()>(
     &::Org::BouncyCastle::Crypto::Digests::Sha384Digest::Copy)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x1010568;
+  constexpr static std::size_t addrs = 0x1102c8c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -117,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::Sha384Digest::*)(::Org::BouncyCastle::Utilities::IMemoable*)>(
     &::Org::BouncyCastle::Crypto::Digests::Sha384Digest::Reset)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x10105c8;
+  constexpr static std::size_t addrs = 0x1102cec;
 
   inline static ::MethodInfo const* methodInfo() {
 

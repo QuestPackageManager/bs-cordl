@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Bindings/NativeThrowsAttribute.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,10 +32,10 @@ public:
 
   constexpr void __cordl_internal_set__ThrowsException_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x32671d0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x346ff0c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_ThrowsException, addr 0x32671c4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_ThrowsException, addr 0x346ff00, size 0xc, virtual true, abstract: false, final true
   inline void set_ThrowsException(bool value);
 
 protected:

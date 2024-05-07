@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ProBuilder/InternalUtility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__InternalUtility_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
@@ -16,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::__InternalUtility____c__DisplayClass7_0::*)()>(
     &::UnityEngine::ProBuilder::__InternalUtility____c__DisplayClass7_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3077d64;
+  constexpr static std::size_t addrs = 0x327f7ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -31,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::__InternalUtility____c__DisplayClass7_0::*)(char16_t)>(
     &::UnityEngine::ProBuilder::__InternalUtility____c__DisplayClass7_0::_TryParseColor_b__0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3078054;
+  constexpr static std::size_t addrs = 0x327fadc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::UnityEngine::Transform*)>(
     &::UnityEngine::ProBuilder::InternalUtility::EmptyGameObjectWithTransform)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x3077810;
+  constexpr static std::size_t addrs = 0x327f298;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -90,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(
     ::StringW, ::UnityEngine::Transform*, ::UnityEngine::Mesh*, ::UnityEngine::Material*, bool)>(&::UnityEngine::ProBuilder::InternalUtility::MeshGameObjectWithTransform)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x30778f8;
+  constexpr static std::size_t addrs = 0x327f380;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -107,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(char16_t)>(&::UnityEngine::ProBuilder::InternalUtility::ControlKeyString)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3077a14;
+  constexpr static std::size_t addrs = 0x327f49c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -121,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<::UnityEngine::Color>)>(&::UnityEngine::ProBuilder::InternalUtility::TryParseColor)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x3077b04;
+  constexpr static std::size_t addrs = 0x327f58c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -137,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> (*)(::StringW)>(
     &::UnityEngine::ProBuilder::InternalUtility::StringToVector3Array)> {
   constexpr static std::size_t size = 0x2e8;
-  constexpr static std::size_t addrs = 0x3077d6c;
+  constexpr static std::size_t addrs = 0x327f7f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

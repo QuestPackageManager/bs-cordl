@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Serialization/SurrogateForCyclicalReference.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__SurrogateForCyclicalReference_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializationSurrogate_def.hpp"
@@ -13,7 +14,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Object*, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(
     &::System::Runtime::Serialization::SurrogateForCyclicalReference::GetObjectData)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x273ac88;
+  constexpr static std::size_t addrs = 0x2839084;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -32,7 +33,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                         ::System::Runtime::Serialization::ISurrogateSelector*)>(
     &::System::Runtime::Serialization::SurrogateForCyclicalReference::SetObjectData)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x273ad58;
+  constexpr static std::size_t addrs = 0x2839154;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

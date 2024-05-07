@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/TcpValidationHelpers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__TcpValidationHelpers_def.hpp"
 //  Writing Method size for method: ::System::Net::TcpValidationHelpers.ValidatePortNumber
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t)>(&::System::Net::TcpValidationHelpers::ValidatePortNumber)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2ebdab0;
+  constexpr static std::size_t addrs = 0x2fc03b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

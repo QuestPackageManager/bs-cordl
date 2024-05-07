@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "VRUIControls/VRInputModule.hpp"
 #include "UnityEngine/EventSystems/zzzz__BaseInputModule_impl.hpp"
 #include "VRUIControls/zzzz__VRInputModule_def.hpp"
 #include "GlobalNamespace/zzzz__HapticFeedbackManager_def.hpp"
@@ -22,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::VRUIControls::VRInputModule::*)(::System::Action_1<::UnityW<::UnityEngine::GameObject>>*)>(
     &::VRUIControls::VRInputModule::add_onProcessMousePressEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3404f14;
+  constexpr static std::size_t addrs = 0x360ac50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -37,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::VRUIControls::VRInputModule::*)(::System::Action_1<::UnityW<::UnityEngine::GameObject>>*)>(
     &::VRUIControls::VRInputModule::remove_onProcessMousePressEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3404fc4;
+  constexpr static std::size_t addrs = 0x360ad00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -51,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::VRUIControls::VRInputModule::*)()>(&::VRUIControls::VRInputModule::OnDisable)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3405074;
+  constexpr static std::size_t addrs = 0x360adb0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -66,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::VRUIControls::VRInputModule::*)(int32_t, ByRef<::UnityEngine::EventSystems::PointerEventData*>, bool)>(
     &::VRUIControls::VRInputModule::GetPointerData)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3405298;
+  constexpr static std::size_t addrs = 0x360afd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::VRUIControls::MouseState* (::VRUIControls::VRInputModule::*)(int32_t)>(
     &::VRUIControls::VRInputModule::GetMousePointerEventData)> {
   constexpr static std::size_t size = 0x388;
-  constexpr static std::size_t addrs = 0x3405384;
+  constexpr static std::size_t addrs = 0x360b0c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -98,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::EventSystems::PointerEventData* (::VRUIControls::VRInputModule::*)(int32_t)>(
     &::VRUIControls::VRInputModule::GetLastPointerEventData)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x340570c;
+  constexpr static std::size_t addrs = 0x360b448;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -113,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::VRUIControls::VRInputModule::*)(::UnityEngine::Vector2, ::UnityEngine::Vector2, float_t, bool)>(
     &::VRUIControls::VRInputModule::ShouldStartDrag)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x340572c;
+  constexpr static std::size_t addrs = 0x360b468;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -130,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::VRUIControls::VRInputModule::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::VRUIControls::VRInputModule::ProcessMove)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x340575c;
+  constexpr static std::size_t addrs = 0x360b498;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -145,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::VRUIControls::VRInputModule::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::VRUIControls::VRInputModule::ProcessDrag)> {
   constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x340606c;
+  constexpr static std::size_t addrs = 0x360bda8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -159,7 +160,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::VRUIControls::VRInputModule::*)(int32_t)>(&::VRUIControls::VRInputModule::IsPointerOverGameObject)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3406330;
+  constexpr static std::size_t addrs = 0x360c06c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -173,7 +174,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::VRUIControls::VRInputModule::*)()>(&::VRUIControls::VRInputModule::ClearSelection)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x3405090;
+  constexpr static std::size_t addrs = 0x360adcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::VRUIControls::VRInputModule*>::get(), "ClearSelection",
@@ -186,7 +187,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::VRUIControls::VRInputModule::*)()>(&::VRUIControls::VRInputModule::ToString)> {
   constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x34063cc;
+  constexpr static std::size_t addrs = 0x360c108;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -201,7 +202,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::VRUIControls::VRInputModule::*)(::UnityEngine::GameObject*, ::UnityEngine::EventSystems::BaseEventData*)>(
     &::VRUIControls::VRInputModule::DeselectIfSelectionChanged)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x340663c;
+  constexpr static std::size_t addrs = 0x360c378;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -216,7 +217,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::VRUIControls::VRInputModule::*)()>(&::VRUIControls::VRInputModule::Process)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x340672c;
+  constexpr static std::size_t addrs = 0x360c468;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -230,7 +231,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::VRUIControls::VRInputModule::*)()>(&::VRUIControls::VRInputModule::SendUpdateEventToSelectedObject)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x34070c8;
+  constexpr static std::size_t addrs = 0x360ce04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -245,7 +246,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::VRUIControls::VRInputModule::*)(::VRUIControls::MouseButtonEventData*)>(
     &::VRUIControls::VRInputModule::ProcessMousePress)> {
   constexpr static std::size_t size = 0x720;
-  constexpr static std::size_t addrs = 0x3406940;
+  constexpr static std::size_t addrs = 0x360c67c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -260,7 +261,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::VRUIControls::VRInputModule::*)(::UnityEngine::EventSystems::PointerEventData*, ::UnityEngine::GameObject*)>(
     &::VRUIControls::VRInputModule::HandlePointerExitAndEnter)> {
   constexpr static std::size_t size = 0x8f8;
-  constexpr static std::size_t addrs = 0x3405774;
+  constexpr static std::size_t addrs = 0x360b4b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -276,7 +277,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::UnityEngine::EventSystems::RaycastResult, ::UnityEngine::EventSystems::RaycastResult)>(
     &::VRUIControls::VRInputModule::RaycastComparer)> {
   constexpr static std::size_t size = 0x3e4;
-  constexpr static std::size_t addrs = 0x3407210;
+  constexpr static std::size_t addrs = 0x360cf4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -291,7 +292,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::VRUIControls::VRInputModule::*)()>(&::VRUIControls::VRInputModule::_ctor)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x34075f4;
+  constexpr static std::size_t addrs = 0x360d330;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::VRUIControls::VRInputModule*>::get(), ".ctor",

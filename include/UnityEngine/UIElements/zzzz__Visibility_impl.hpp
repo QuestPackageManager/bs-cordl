@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/Visibility.hpp"
 #include "UnityEngine/UIElements/zzzz__Visibility_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::UIElements::Visibility::Visibility(int32_t value__) noexcept {

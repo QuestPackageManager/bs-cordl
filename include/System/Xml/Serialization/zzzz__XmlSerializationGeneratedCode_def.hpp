@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Serialization/XmlSerializationGeneratedCode.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,7 +21,7 @@ public:
   // Declarations
   static inline ::System::Xml::Serialization::XmlSerializationGeneratedCode* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2dd89f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ed72f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

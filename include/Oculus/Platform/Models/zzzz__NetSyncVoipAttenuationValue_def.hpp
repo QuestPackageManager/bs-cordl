@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/Models/NetSyncVoipAttenuationValue.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,7 +41,7 @@ public:
 
   constexpr void __cordl_internal_set_Distance(float_t value);
 
-  /// @brief Method .ctor, addr 0x29df304, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2addbb4, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
 protected:

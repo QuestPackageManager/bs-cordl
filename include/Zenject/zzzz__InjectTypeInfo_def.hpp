@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/InjectTypeInfo.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -82,7 +83,7 @@ public:
 
   constexpr void __cordl_internal_set_Setter(::Zenject::ZenMemberSetterMethod* value);
 
-  /// @brief Method .ctor, addr 0x3409dec, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x360eb28, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::ZenMemberSetterMethod* setter, ::Zenject::InjectableInfo* info);
 
 protected:
@@ -144,7 +145,7 @@ public:
 
   constexpr void __cordl_internal_set_Parameters(::ArrayW<::Zenject::InjectableInfo*, ::Array<::Zenject::InjectableInfo*>*> value);
 
-  /// @brief Method .ctor, addr 0x3409e18, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x360eb54, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::ZenFactoryMethod* factory, ::ArrayW<::Zenject::InjectableInfo*, ::Array<::Zenject::InjectableInfo*>*> parameters);
 
 protected:
@@ -215,7 +216,7 @@ public:
 
   constexpr void __cordl_internal_set_Parameters(::ArrayW<::Zenject::InjectableInfo*, ::Array<::Zenject::InjectableInfo*>*> value);
 
-  /// @brief Method .ctor, addr 0x3409e44, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x360eb80, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::ZenInjectMethod* action, ::ArrayW<::Zenject::InjectableInfo*, ::Array<::Zenject::InjectableInfo*>*> parameters, ::StringW name);
 
 protected:
@@ -331,15 +332,15 @@ public:
 
   constexpr void __cordl_internal_set__BaseTypeInfo_k__BackingField(::Zenject::InjectTypeInfo* value);
 
-  /// @brief Method .ctor, addr 0x3409bc0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x360e8fc, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::Zenject::__InjectTypeInfo__InjectConstructorInfo* injectConstructor,
                     ::ArrayW<::Zenject::__InjectTypeInfo__InjectMethodInfo*, ::Array<::Zenject::__InjectTypeInfo__InjectMethodInfo*>*> injectMethods,
                     ::ArrayW<::Zenject::__InjectTypeInfo__InjectMemberInfo*, ::Array<::Zenject::__InjectTypeInfo__InjectMemberInfo*>*> injectMembers);
 
-  /// @brief Method <get_AllInjectables>b__0, addr 0x3409dbc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <get_AllInjectables>b__0, addr 0x360eaf8, size 0x18, virtual false, abstract: false, final false
   static inline ::Zenject::InjectableInfo* _get_AllInjectables_b__0(::Zenject::__InjectTypeInfo__InjectMemberInfo* x);
 
-  /// @brief Method <get_AllInjectables>b__1, addr 0x3409dd4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <get_AllInjectables>b__1, addr 0x360eb10, size 0x18, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::Zenject::InjectableInfo*>* _get_AllInjectables_b__1(::Zenject::__InjectTypeInfo__InjectMethodInfo* x);
 
   static inline ::System::Func_2<::Zenject::__InjectTypeInfo__InjectMemberInfo*, ::Zenject::InjectableInfo*>* getStaticF_CS$__9__CachedAnonymousMethodDelegate2();
@@ -347,10 +348,10 @@ public:
   static inline ::System::Func_2<::Zenject::__InjectTypeInfo__InjectMethodInfo*, ::System::Collections::Generic::IEnumerable_1<::Zenject::InjectableInfo*>*>*
   getStaticF_CS$__9__CachedAnonymousMethodDelegate3();
 
-  /// @brief Method get_AllInjectables, addr 0x3409c10, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method get_AllInjectables, addr 0x360e94c, size 0x1ac, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Zenject::InjectableInfo*>* get_AllInjectables();
 
-  /// @brief Method get_BaseTypeInfo, addr 0x3409c00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BaseTypeInfo, addr 0x360e93c, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::InjectTypeInfo* get_BaseTypeInfo();
 
   static inline void setStaticF_CS$__9__CachedAnonymousMethodDelegate2(::System::Func_2<::Zenject::__InjectTypeInfo__InjectMemberInfo*, ::Zenject::InjectableInfo*>* value);
@@ -358,7 +359,7 @@ public:
   static inline void setStaticF_CS$__9__CachedAnonymousMethodDelegate3(
       ::System::Func_2<::Zenject::__InjectTypeInfo__InjectMethodInfo*, ::System::Collections::Generic::IEnumerable_1<::Zenject::InjectableInfo*>*>* value);
 
-  /// @brief Method set_BaseTypeInfo, addr 0x3409c08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BaseTypeInfo, addr 0x360e944, size 0x8, virtual false, abstract: false, final false
   inline void set_BaseTypeInfo(::Zenject::InjectTypeInfo* value);
 
 protected:

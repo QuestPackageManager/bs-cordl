@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/DeactivateAnimatorOnInputFocusCapture.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,18 +34,18 @@ public:
   /// @brief Field _wasEnabled, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get__wasEnabled, put = __cordl_internal_set__wasEnabled)) bool _wasEnabled;
 
-  /// @brief Method HandleInputFocusCaptured, addr 0x23d9a90, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method HandleInputFocusCaptured, addr 0x24d1694, size 0x40, virtual false, abstract: false, final false
   inline void HandleInputFocusCaptured();
 
-  /// @brief Method HandleInputFocusReleased, addr 0x23d9c74, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandleInputFocusReleased, addr 0x24d1878, size 0x24, virtual false, abstract: false, final false
   inline void HandleInputFocusReleased();
 
   static inline ::GlobalNamespace::DeactivateAnimatorOnInputFocusCapture* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x23d9ad0, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x24d16d4, size 0x1a4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x23d9880, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x24d1484, size 0x210, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::Animator> const& __cordl_internal_get__animator() const;
@@ -65,7 +66,7 @@ public:
 
   constexpr void __cordl_internal_set__wasEnabled(bool value);
 
-  /// @brief Method .ctor, addr 0x23d9c98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24d189c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ConsoleKeyInfo.hpp"
 #include "System/zzzz__ConsoleKey_impl.hpp"
 #include "System/zzzz__ConsoleModifiers_impl.hpp"
 #include "System/zzzz__ConsoleKeyInfo_def.hpp"
@@ -11,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ConsoleKeyInfo::*)(char16_t, ::System::ConsoleKey, bool, bool, bool)>(
     &::System::ConsoleKeyInfo::_ctor)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x2855378;
+  constexpr static std::size_t addrs = 0x2954c20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (::System::ConsoleKeyInfo::*)()>(&::System::ConsoleKeyInfo::get_KeyChar)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2855420;
+  constexpr static std::size_t addrs = 0x2954cc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ConsoleKeyInfo>::get(), "get_KeyChar",
@@ -40,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ConsoleKey (::System::ConsoleKeyInfo::*)()>(&::System::ConsoleKeyInfo::get_Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2855428;
+  constexpr static std::size_t addrs = 0x2954cd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ConsoleKeyInfo>::get(), "get_Key",
@@ -53,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ConsoleKeyInfo::*)(::System::Object*)>(&::System::ConsoleKeyInfo::Equals)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x2855430;
+  constexpr static std::size_t addrs = 0x2954cd8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -67,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ConsoleKeyInfo::*)(::System::ConsoleKeyInfo)>(&::System::ConsoleKeyInfo::Equals)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x28554c8;
+  constexpr static std::size_t addrs = 0x2954d70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -81,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ConsoleKeyInfo::*)()>(&::System::ConsoleKeyInfo::GetHashCode)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x28554fc;
+  constexpr static std::size_t addrs = 0x2954da4;
 
   inline static ::MethodInfo const* methodInfo() {
 

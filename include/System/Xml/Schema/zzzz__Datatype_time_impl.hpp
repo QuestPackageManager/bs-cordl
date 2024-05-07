@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/Datatype_time.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_dateTimeBase_impl.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_time_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlTypeCode_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlTypeCode (::System::Xml::Schema::Datatype_time::*)()>(
     &::System::Xml::Schema::Datatype_time::get_TypeCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2e0c688;
+  constexpr static std::size_t addrs = 0x2f0af88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -22,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Datatype_time::*)()>(&::System::Xml::Schema::Datatype_time::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2e0602c;
+  constexpr static std::size_t addrs = 0x2f0492c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_time*>::get(), ".ctor",

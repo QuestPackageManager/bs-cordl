@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OVRVirtualKeyboardHandInputHandler.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,12 +19,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE OVRVirtualKeyboardHandInputHandler : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Method Awake, addr 0x2a776a0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2b73f50, size 0x58, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::OVRVirtualKeyboardHandInputHandler* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2a776f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b73fa8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

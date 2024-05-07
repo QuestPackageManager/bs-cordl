@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/InteropServices/MarshalDirectiveException.hpp"
 #include "System/zzzz__SystemException_impl.hpp"
 #include "System/Runtime/InteropServices/zzzz__MarshalDirectiveException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::InteropServices::MarshalDirectiveException::*)()>(
     &::System::Runtime::InteropServices::MarshalDirectiveException::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x2757ef4;
+  constexpr static std::size_t addrs = 0x28572f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::InteropServices::MarshalDirectiveException::*)(::StringW)>(
     &::System::Runtime::InteropServices::MarshalDirectiveException::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2757f50;
+  constexpr static std::size_t addrs = 0x285734c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::InteropServices::MarshalDirectiveException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Runtime::InteropServices::MarshalDirectiveException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2757f74;
+  constexpr static std::size_t addrs = 0x2857370;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

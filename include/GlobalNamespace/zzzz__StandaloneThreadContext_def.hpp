@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/StandaloneThreadContext.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,10 +33,10 @@ public:
 
   static inline ::GlobalNamespace::StandaloneThreadContext* New_ctor();
 
-  /// @brief Method Run, addr 0xfc4440, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Run, addr 0x10b7b64, size 0x4, virtual true, abstract: false, final true
   inline void Run(::GlobalNamespace::IStandaloneThreadRunnable* runnable);
 
-  /// @brief Method .ctor, addr 0xfc4444, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10b7b68, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::StandaloneThreadContext* getStaticF_instance();

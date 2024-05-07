@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/ExprException.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,163 +48,163 @@ namespace System::Data {
 class CORDL_TYPE ExprException : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AggregateArgument, addr 0x2bce4ec, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method AggregateArgument, addr 0x2ccadec, size 0x40, virtual false, abstract: false, final false
   static inline ::System::Exception* AggregateArgument();
 
-  /// @brief Method AggregateUnbound, addr 0x2bc1d54, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method AggregateUnbound, addr 0x2cbe654, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Exception* AggregateUnbound(::StringW expr);
 
-  /// @brief Method AmbiguousBinop, addr 0x2bca324, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method AmbiguousBinop, addr 0x2cc6c24, size 0xd0, virtual false, abstract: false, final false
   static inline ::System::Exception* AmbiguousBinop(int32_t op, ::System::Type* type1, ::System::Type* type2);
 
-  /// @brief Method ArgumentType, addr 0x2bcf608, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method ArgumentType, addr 0x2ccbf08, size 0xc8, virtual false, abstract: false, final false
   static inline ::System::Exception* ArgumentType(::StringW function, int32_t arg, ::System::Type* type);
 
-  /// @brief Method ArgumentTypeInteger, addr 0x2bcf6d0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method ArgumentTypeInteger, addr 0x2ccbfd0, size 0xa4, virtual false, abstract: false, final false
   static inline ::System::Exception* ArgumentTypeInteger(::StringW function, int32_t arg);
 
-  /// @brief Method BindFailure, addr 0x2bcf774, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method BindFailure, addr 0x2ccc074, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Data::EvaluateException* BindFailure(::StringW relationName);
 
-  /// @brief Method ComputeNotAggregate, addr 0x2bc23dc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ComputeNotAggregate, addr 0x2cbecdc, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Exception* ComputeNotAggregate(::StringW expr);
 
-  /// @brief Method DatatypeConvertion, addr 0x2bcf4ac, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method DatatypeConvertion, addr 0x2ccbdac, size 0x8c, virtual false, abstract: false, final false
   static inline ::System::Exception* DatatypeConvertion(::System::Type* type1, ::System::Type* type2);
 
-  /// @brief Method DatavalueConvertion, addr 0x2bccbfc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method DatavalueConvertion, addr 0x2cc94fc, size 0x8c, virtual false, abstract: false, final false
   static inline ::System::Exception* DatavalueConvertion(::System::Object* value, ::System::Type* type, ::System::Exception* innerException);
 
-  /// @brief Method EvalNoContext, addr 0x2bc2328, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method EvalNoContext, addr 0x2cbec28, size 0x40, virtual false, abstract: false, final false
   static inline ::System::Exception* EvalNoContext();
 
-  /// @brief Method ExpressionTooComplex, addr 0x2bce52c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method ExpressionTooComplex, addr 0x2ccae2c, size 0x40, virtual false, abstract: false, final false
   static inline ::System::Exception* ExpressionTooComplex();
 
-  /// @brief Method ExpressionUnbound, addr 0x2bcf7c4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ExpressionUnbound, addr 0x2ccc0c4, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Exception* ExpressionUnbound(::StringW expr);
 
-  /// @brief Method FilterConvertion, addr 0x2bccda8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method FilterConvertion, addr 0x2cc96a8, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Exception* FilterConvertion(::StringW expr);
 
-  /// @brief Method FunctionArgumentCount, addr 0x2bcf45c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method FunctionArgumentCount, addr 0x2ccbd5c, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Exception* FunctionArgumentCount(::StringW name);
 
-  /// @brief Method FunctionArgumentOutOfRange, addr 0x2bcf3f4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method FunctionArgumentOutOfRange, addr 0x2ccbcf4, size 0x68, virtual false, abstract: false, final false
   static inline ::System::Exception* FunctionArgumentOutOfRange(::StringW arg, ::StringW func);
 
-  /// @brief Method InWithoutList, addr 0x2bcf5c8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method InWithoutList, addr 0x2ccbec8, size 0x40, virtual false, abstract: false, final false
   static inline ::System::Exception* InWithoutList();
 
-  /// @brief Method InWithoutParentheses, addr 0x2bc9f38, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method InWithoutParentheses, addr 0x2cc6838, size 0x40, virtual false, abstract: false, final false
   static inline ::System::Exception* InWithoutParentheses();
 
-  /// @brief Method InvalidDate, addr 0x2bced74, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method InvalidDate, addr 0x2ccb674, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Exception* InvalidDate(::StringW date);
 
-  /// @brief Method InvalidHoursArgument, addr 0x2bcf864, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method InvalidHoursArgument, addr 0x2ccc164, size 0x40, virtual false, abstract: false, final false
   static inline ::System::Exception* InvalidHoursArgument();
 
-  /// @brief Method InvalidIsSyntax, addr 0x2bc824c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method InvalidIsSyntax, addr 0x2cc4b4c, size 0x40, virtual false, abstract: false, final false
   static inline ::System::Exception* InvalidIsSyntax();
 
-  /// @brief Method InvalidMinutesArgument, addr 0x2bcf8a4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method InvalidMinutesArgument, addr 0x2ccc1a4, size 0x40, virtual false, abstract: false, final false
   static inline ::System::Exception* InvalidMinutesArgument();
 
-  /// @brief Method InvalidName, addr 0x2bcf538, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method InvalidName, addr 0x2ccbe38, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Exception* InvalidName(::StringW name);
 
-  /// @brief Method InvalidNameBracketing, addr 0x2bced24, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method InvalidNameBracketing, addr 0x2ccb624, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Exception* InvalidNameBracketing(::StringW name);
 
-  /// @brief Method InvalidPattern, addr 0x2bcacb0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method InvalidPattern, addr 0x2cc75b0, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Exception* InvalidPattern(::StringW pat);
 
-  /// @brief Method InvalidString, addr 0x2bcedf0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method InvalidString, addr 0x2ccb6f0, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Exception* InvalidString(::StringW str);
 
-  /// @brief Method InvalidTimeZoneRange, addr 0x2bcf8e4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method InvalidTimeZoneRange, addr 0x2ccc1e4, size 0x40, virtual false, abstract: false, final false
   static inline ::System::Exception* InvalidTimeZoneRange();
 
-  /// @brief Method InvalidType, addr 0x2bcf814, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method InvalidType, addr 0x2ccc114, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Exception* InvalidType(::StringW typeName);
 
-  /// @brief Method InvokeArgument, addr 0x2bccd64, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method InvokeArgument, addr 0x2cc9664, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Exception* InvokeArgument();
 
-  /// @brief Method LookupArgument, addr 0x2bcd970, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method LookupArgument, addr 0x2cca270, size 0x40, virtual false, abstract: false, final false
   static inline ::System::Exception* LookupArgument();
 
-  /// @brief Method MismatchKindandTimeSpan, addr 0x2bcf924, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method MismatchKindandTimeSpan, addr 0x2ccc224, size 0x40, virtual false, abstract: false, final false
   static inline ::System::Exception* MismatchKindandTimeSpan();
 
-  /// @brief Method MissingOperand, addr 0x2bcd3b8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method MissingOperand, addr 0x2cc9cb8, size 0x90, virtual false, abstract: false, final false
   static inline ::System::Exception* MissingOperand(::System::Data::OperatorInfo* before);
 
-  /// @brief Method MissingOperandBefore, addr 0x2bce3cc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method MissingOperandBefore, addr 0x2ccaccc, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Exception* MissingOperandBefore(::StringW op);
 
-  /// @brief Method MissingOperator, addr 0x2bcd6c0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method MissingOperator, addr 0x2cc9fc0, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Exception* MissingOperator(::StringW token);
 
-  /// @brief Method MissingRightParen, addr 0x2bcd680, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method MissingRightParen, addr 0x2cc9f80, size 0x40, virtual false, abstract: false, final false
   static inline ::System::Exception* MissingRightParen();
 
-  /// @brief Method NYI, addr 0x2bcf354, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method NYI, addr 0x2ccbc54, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Exception* NYI(::StringW moreinfo);
 
-  /// @brief Method NonConstantArgument, addr 0x2bcf588, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method NonConstantArgument, addr 0x2ccbe88, size 0x40, virtual false, abstract: false, final false
   static inline ::System::Exception* NonConstantArgument();
 
-  /// @brief Method Overflow, addr 0x2bc9ffc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Overflow, addr 0x2cc68fc, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Exception* Overflow(::System::Type* type);
 
-  /// @brief Method SyntaxError, addr 0x2bcdc40, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method SyntaxError, addr 0x2cca540, size 0x40, virtual false, abstract: false, final false
   static inline ::System::Exception* SyntaxError();
 
-  /// @brief Method TooManyRightParentheses, addr 0x2bce010, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method TooManyRightParentheses, addr 0x2cca910, size 0x40, virtual false, abstract: false, final false
   static inline ::System::Exception* TooManyRightParentheses();
 
-  /// @brief Method TypeMismatch, addr 0x2bcf3a4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method TypeMismatch, addr 0x2ccbca4, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Exception* TypeMismatch(::StringW expr);
 
-  /// @brief Method TypeMismatchInBinop, addr 0x2bc8590, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method TypeMismatchInBinop, addr 0x2cc4e90, size 0xd0, virtual false, abstract: false, final false
   static inline ::System::Exception* TypeMismatchInBinop(int32_t op, ::System::Type* type1, ::System::Type* type2);
 
-  /// @brief Method UnboundName, addr 0x2bc1e04, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method UnboundName, addr 0x2cbe704, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Exception* UnboundName(::StringW name);
 
-  /// @brief Method UndefinedFunction, addr 0x2bc1a94, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method UndefinedFunction, addr 0x2cbe394, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Exception* UndefinedFunction(::StringW name);
 
-  /// @brief Method UnknownToken, addr 0x2bce56c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method UnknownToken, addr 0x2ccae6c, size 0x110, virtual false, abstract: false, final false
   static inline ::System::Exception* UnknownToken(::System::Data::Tokens tokExpected, ::System::Data::Tokens tokCurr, int32_t position);
 
-  /// @brief Method UnknownToken, addr 0x2bce448, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method UnknownToken, addr 0x2ccad48, size 0xa4, virtual false, abstract: false, final false
   static inline ::System::Exception* UnknownToken(::StringW token, int32_t position);
 
-  /// @brief Method UnresolvedRelation, addr 0x2bc1da4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method UnresolvedRelation, addr 0x2cbe6a4, size 0x60, virtual false, abstract: false, final false
   static inline ::System::Exception* UnresolvedRelation(::StringW name, ::StringW expr);
 
-  /// @brief Method UnsupportedDataType, addr 0x2bcbafc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method UnsupportedDataType, addr 0x2cc83fc, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Exception* UnsupportedDataType(::System::Type* type);
 
-  /// @brief Method UnsupportedOperator, addr 0x2bc9f78, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method UnsupportedOperator, addr 0x2cc6878, size 0x84, virtual false, abstract: false, final false
   static inline ::System::Exception* UnsupportedOperator(int32_t op);
 
-  /// @brief Method _Eval, addr 0x2bcf274, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method _Eval, addr 0x2ccbb74, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Data::EvaluateException* _Eval(::StringW error);
 
-  /// @brief Method _Eval, addr 0x2bcf2e4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method _Eval, addr 0x2ccbbe4, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Data::EvaluateException* _Eval(::StringW error, ::System::Exception* innerException);
 
-  /// @brief Method _Expr, addr 0x2bcf194, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method _Expr, addr 0x2ccba94, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Data::InvalidExpressionException* _Expr(::StringW error);
 
-  /// @brief Method _Overflow, addr 0x2bcf124, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method _Overflow, addr 0x2ccba24, size 0x70, virtual false, abstract: false, final false
   static inline ::System::OverflowException* _Overflow(::StringW error);
 
-  /// @brief Method _Syntax, addr 0x2bcf204, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method _Syntax, addr 0x2ccbb04, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Data::SyntaxErrorException* _Syntax(::StringW error);
 
 protected:

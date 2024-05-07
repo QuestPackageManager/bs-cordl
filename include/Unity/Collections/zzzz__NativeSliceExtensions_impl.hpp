@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/Collections/NativeSliceExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/zzzz__NativeSliceExtensions_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"

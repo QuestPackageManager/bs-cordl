@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Scripting/GarbageCollector.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -92,17 +93,17 @@ public:
   /// @brief Field GCModeChanged, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_GCModeChanged, put = setStaticF_GCModeChanged))::System::Action_1<::UnityEngine::Scripting::__GarbageCollector__Mode>* GCModeChanged;
 
-  /// @brief Method GetMode, addr 0x3220c10, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetMode, addr 0x342794c, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::Scripting::__GarbageCollector__Mode GetMode();
 
-  /// @brief Method SetMode, addr 0x3220c38, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetMode, addr 0x3427974, size 0x3c, virtual false, abstract: false, final false
   static inline void SetMode(::UnityEngine::Scripting::__GarbageCollector__Mode mode);
 
   static inline ::System::Action_1<::UnityEngine::Scripting::__GarbageCollector__Mode>* getStaticF_GCModeChanged();
 
   static inline void setStaticF_GCModeChanged(::System::Action_1<::UnityEngine::Scripting::__GarbageCollector__Mode>* value);
 
-  /// @brief Method set_GCMode, addr 0x3220b50, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method set_GCMode, addr 0x342788c, size 0xc0, virtual false, abstract: false, final false
   static inline void set_GCMode(::UnityEngine::Scripting::__GarbageCollector__Mode value);
 
 protected:

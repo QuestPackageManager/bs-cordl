@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/IO/DigestStream.hpp"
 #include "System/IO/zzzz__Stream_impl.hpp"
 #include "Org/BouncyCastle/Crypto/IO/zzzz__DigestStream_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::IO::DigestStream::*)(
     ::System::IO::Stream*, ::Org::BouncyCastle::Crypto::IDigest*, ::Org::BouncyCastle::Crypto::IDigest*)>(&::Org::BouncyCastle::Crypto::IO::DigestStream::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x1072da8;
+  constexpr static std::size_t addrs = 0x11674cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::IDigest* (::Org::BouncyCastle::Crypto::IO::DigestStream::*)()>(
     &::Org::BouncyCastle::Crypto::IO::DigestStream::ReadDigest)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1072e28;
+  constexpr static std::size_t addrs = 0x116754c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::IDigest* (::Org::BouncyCastle::Crypto::IO::DigestStream::*)()>(
     &::Org::BouncyCastle::Crypto::IO::DigestStream::WriteDigest)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1072e30;
+  constexpr static std::size_t addrs = 0x1167554;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -59,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::IO::DigestStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::IO::DigestStream::Read)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x1072e38;
+  constexpr static std::size_t addrs = 0x116755c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -75,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::IO::DigestStream::*)()>(
     &::Org::BouncyCastle::Crypto::IO::DigestStream::ReadByte)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x1072f34;
+  constexpr static std::size_t addrs = 0x1167658;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -91,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::IO::DigestStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::IO::DigestStream::Write)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x1073004;
+  constexpr static std::size_t addrs = 0x1167728;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -107,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::IO::DigestStream::*)(uint8_t)>(
     &::Org::BouncyCastle::Crypto::IO::DigestStream::WriteByte)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x10730f4;
+  constexpr static std::size_t addrs = 0x1167818;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -123,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::IO::DigestStream::*)()>(
     &::Org::BouncyCastle::Crypto::IO::DigestStream::get_CanRead)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x10731bc;
+  constexpr static std::size_t addrs = 0x11678e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -138,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::IO::DigestStream::*)()>(
     &::Org::BouncyCastle::Crypto::IO::DigestStream::get_CanWrite)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x10731dc;
+  constexpr static std::size_t addrs = 0x1167900;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -154,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::IO::DigestStream::*)()>(
     &::Org::BouncyCastle::Crypto::IO::DigestStream::get_CanSeek)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x10731fc;
+  constexpr static std::size_t addrs = 0x1167920;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -169,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Org::BouncyCastle::Crypto::IO::DigestStream::*)()>(
     &::Org::BouncyCastle::Crypto::IO::DigestStream::get_Length)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x107321c;
+  constexpr static std::size_t addrs = 0x1167940;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -185,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Org::BouncyCastle::Crypto::IO::DigestStream::*)()>(
     &::Org::BouncyCastle::Crypto::IO::DigestStream::get_Position)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x107323c;
+  constexpr static std::size_t addrs = 0x1167960;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -201,7 +202,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::IO::DigestStream::*)(int64_t)>(
     &::Org::BouncyCastle::Crypto::IO::DigestStream::set_Position)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x1073260;
+  constexpr static std::size_t addrs = 0x1167984;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -216,7 +217,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::IO::DigestStream::*)()>(&::Org::BouncyCastle::Crypto::IO::DigestStream::Close)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x1073284;
+  constexpr static std::size_t addrs = 0x11679a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -231,7 +232,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::IO::DigestStream::*)()>(&::Org::BouncyCastle::Crypto::IO::DigestStream::Flush)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x10732ec;
+  constexpr static std::size_t addrs = 0x1167a10;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -247,7 +248,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Org::BouncyCastle::Crypto::IO::DigestStream::*)(int64_t, ::System::IO::SeekOrigin)>(
     &::Org::BouncyCastle::Crypto::IO::DigestStream::Seek)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x1073310;
+  constexpr static std::size_t addrs = 0x1167a34;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -263,7 +264,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::IO::DigestStream::*)(int64_t)>(
     &::Org::BouncyCastle::Crypto::IO::DigestStream::SetLength)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x1073334;
+  constexpr static std::size_t addrs = 0x1167a58;
 
   inline static ::MethodInfo const* methodInfo() {
 

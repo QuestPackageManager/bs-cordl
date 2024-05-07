@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Cms/IDigestCalculator.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__IDigestCalculator_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Cms::IDigestCalculator.GetDigest
 template <>

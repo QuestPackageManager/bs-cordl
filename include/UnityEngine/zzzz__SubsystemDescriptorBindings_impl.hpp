@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/SubsystemDescriptorBindings.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__SubsystemDescriptorBindings_def.hpp"
 //  Writing Method size for method: ::UnityEngine::SubsystemDescriptorBindings.Create
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (*)(void*)>(&::UnityEngine::SubsystemDescriptorBindings::Create)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x32689b8;
+  constexpr static std::size_t addrs = 0x34716f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -20,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(void*)>(&::UnityEngine::SubsystemDescriptorBindings::GetId)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3268968;
+  constexpr static std::size_t addrs = 0x34716a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

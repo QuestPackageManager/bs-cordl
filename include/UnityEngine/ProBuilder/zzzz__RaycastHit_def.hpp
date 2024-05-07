@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ProBuilder/RaycastHit.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,7 +63,7 @@ public:
 
   constexpr void __cordl_internal_set_point(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x30942f8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x329bd80, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(float_t distance, ::UnityEngine::Vector3 point, ::UnityEngine::Vector3 normal, int32_t face);
 
 protected:

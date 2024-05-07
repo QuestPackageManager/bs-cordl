@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/XmlDataTreeWriter.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Data/zzzz__XmlDataTreeWriter_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"
@@ -13,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XmlDataTreeWriter::*)(::System::Data::DataSet*)>(&::System::Data::XmlDataTreeWriter::_ctor)> {
   constexpr static std::size_t size = 0x348;
-  constexpr static std::size_t addrs = 0x2c12138;
+  constexpr static std::size_t addrs = 0x2d0ea38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -28,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XmlDataTreeWriter::*)(::System::Data::DataTable*, bool)>(
     &::System::Data::XmlDataTreeWriter::_ctor)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x2c1193c;
+  constexpr static std::size_t addrs = 0x2d0e23c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -44,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Data::DataTable*, ::Array<::System::Data::DataTable*>*> (::System::Data::XmlDataTreeWriter::*)()>(
     &::System::Data::XmlDataTreeWriter::CreateToplevelTables)> {
   constexpr static std::size_t size = 0x2d4;
-  constexpr static std::size_t addrs = 0x2c13edc;
+  constexpr static std::size_t addrs = 0x2d107dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XmlDataTreeWriter*>::get(),
@@ -58,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XmlDataTreeWriter::*)(::System::Data::DataTable*)>(
     &::System::Data::XmlDataTreeWriter::CreateTablesHierarchy)> {
   constexpr static std::size_t size = 0x384;
-  constexpr static std::size_t addrs = 0x2c13b58;
+  constexpr static std::size_t addrs = 0x2d10458;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -72,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Data::DataRow*)>(&::System::Data::XmlDataTreeWriter::RowHasErrors)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x2c12fd0;
+  constexpr static std::size_t addrs = 0x2d0f8d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XmlDataTreeWriter::*)(::System::Xml::XmlWriter*, ::System::Collections::Hashtable*)>(
     &::System::Data::XmlDataTreeWriter::SaveDiffgramData)> {
   constexpr static std::size_t size = 0x6a8;
-  constexpr static std::size_t addrs = 0x2c11a90;
+  constexpr static std::size_t addrs = 0x2d0e390;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -103,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XmlDataTreeWriter::*)(::System::Xml::XmlWriter*, bool)>(
     &::System::Data::XmlDataTreeWriter::Save)> {
   constexpr static std::size_t size = 0x8cc;
-  constexpr static std::size_t addrs = 0x2c15ab4;
+  constexpr static std::size_t addrs = 0x2d123b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -119,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ArrayList* (::System::Data::XmlDataTreeWriter::*)(::System::Data::DataRow*)>(
     &::System::Data::XmlDataTreeWriter::GetNestedChildRelations)> {
   constexpr static std::size_t size = 0x340;
-  constexpr static std::size_t addrs = 0x2c16380;
+  constexpr static std::size_t addrs = 0x2d12c80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -134,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XmlDataTreeWriter::*)(::System::Data::DataRow*, ::StringW)>(
     &::System::Data::XmlDataTreeWriter::XmlDataRowWriter)> {
   constexpr static std::size_t size = 0x1904;
-  constexpr static std::size_t addrs = 0x2c141b0;
+  constexpr static std::size_t addrs = 0x2d10ab0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -149,7 +150,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Object*)>(&::System::Data::XmlDataTreeWriter::PreserveSpace)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x2c13aa4;
+  constexpr static std::size_t addrs = 0x2d103a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

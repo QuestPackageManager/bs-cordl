@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Claims/Claim.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -71,7 +72,7 @@ public:
   /// @brief Field m_valueType, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_m_valueType, put = __cordl_internal_set_m_valueType))::StringW m_valueType;
 
-  /// @brief Method Clone, addr 0x26ff7a0, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x27fcb9c, size 0x70, virtual true, abstract: false, final false
   inline ::System::Security::Claims::Claim* Clone(::System::Security::Claims::ClaimsIdentity* identity);
 
   static inline ::System::Security::Claims::Claim* New_ctor(::System::Security::Claims::Claim* other, ::System::Security::Claims::ClaimsIdentity* subject);
@@ -82,10 +83,10 @@ public:
   static inline ::System::Security::Claims::Claim* New_ctor(::StringW type, ::StringW value, ::StringW valueType, ::StringW issuer, ::StringW originalIssuer,
                                                             ::System::Security::Claims::ClaimsIdentity* subject, ::StringW propertyKey, ::StringW propertyValue);
 
-  /// @brief Method OnDeserializedMethod, addr 0x26ff720, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method OnDeserializedMethod, addr 0x27fcb1c, size 0x60, virtual false, abstract: false, final false
   inline void OnDeserializedMethod(::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method ToString, addr 0x26ff810, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x27fcc0c, size 0x78, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::StringW const& __cordl_internal_get_m_issuer() const;
@@ -142,29 +143,29 @@ public:
 
   constexpr void __cordl_internal_set_m_valueType(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26ff40c, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27fc808, size 0x314, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Claims::Claim* other, ::System::Security::Claims::ClaimsIdentity* subject);
 
-  /// @brief Method .ctor, addr 0x26fa328, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27f7724, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::StringW type, ::StringW value, ::StringW valueType, ::StringW issuer, ::StringW originalIssuer, ::System::Security::Claims::ClaimsIdentity* subject);
 
-  /// @brief Method .ctor, addr 0x26ff07c, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27fc478, size 0x258, virtual false, abstract: false, final false
   inline void _ctor(::StringW type, ::StringW value, ::StringW valueType, ::StringW issuer, ::StringW originalIssuer, ::System::Security::Claims::ClaimsIdentity* subject, ::StringW propertyKey,
                     ::StringW propertyValue);
 
-  /// @brief Method get_Properties, addr 0x26ff2d4, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x27fc6d0, size 0x138, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* get_Properties();
 
-  /// @brief Method get_Subject, addr 0x26ff780, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Subject, addr 0x27fcb7c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Claims::ClaimsIdentity* get_Subject();
 
-  /// @brief Method get_Type, addr 0x26ff790, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x27fcb8c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Type();
 
-  /// @brief Method get_Value, addr 0x26ff798, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x27fcb94, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method set_Subject, addr 0x26ff788, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Subject, addr 0x27fcb84, size 0x8, virtual false, abstract: false, final false
   inline void set_Subject(::System::Security::Claims::ClaimsIdentity* value);
 
 protected:

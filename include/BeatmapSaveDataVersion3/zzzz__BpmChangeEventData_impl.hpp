@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatmapSaveDataVersion3/BpmChangeEventData.hpp"
 #include "BeatmapSaveDataVersion3/zzzz__BeatmapSaveDataItem_impl.hpp"
 #include "BeatmapSaveDataVersion3/zzzz__BpmChangeEventData_def.hpp"
 //  Writing Method size for method: ::BeatmapSaveDataVersion3::BpmChangeEventData.get_bpm
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::BeatmapSaveDataVersion3::BpmChangeEventData::*)()>(
     &::BeatmapSaveDataVersion3::BpmChangeEventData::get_bpm)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x140131c;
+  constexpr static std::size_t addrs = 0x14f28e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::BpmChangeEventData*>::get(), "get_bpm",
@@ -21,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapSaveDataVersion3::BpmChangeEventData::*)(float_t, float_t)>(
     &::BeatmapSaveDataVersion3::BpmChangeEventData::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x1401324;
+  constexpr static std::size_t addrs = 0x14f28e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

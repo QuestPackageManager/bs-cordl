@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/LessThanOrEqualInstruction.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__Instruction_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__LessThanOrEqualInstruction_def.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__Instruction_def.hpp"
@@ -21,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::LessThanOrEqualInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::LessThanOrEqualInstruction::get_ConsumedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b2a218;
+  constexpr static std::size_t addrs = 0x2c27b18;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -37,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::LessThanOrEqualInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::LessThanOrEqualInstruction::get_ProducedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b2a220;
+  constexpr static std::size_t addrs = 0x2c27b20;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -53,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::LessThanOrEqualInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::LessThanOrEqualInstruction::get_InstructionName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2b2a228;
+  constexpr static std::size_t addrs = 0x2c27b28;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -69,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::LessThanOrEqualInstruction::*)(::System::Object*)>(
     &::System::Linq::Expressions::Interpreter::LessThanOrEqualInstruction::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2b2a268;
+  constexpr static std::size_t addrs = 0x2c27b68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Interpreter::Instruction* (*)(::System::Type*, bool)>(
     &::System::Linq::Expressions::Interpreter::LessThanOrEqualInstruction::Create)> {
   constexpr static std::size_t size = 0x9ec;
-  constexpr static std::size_t addrs = 0x2b24cbc;
+  constexpr static std::size_t addrs = 0x2c225bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

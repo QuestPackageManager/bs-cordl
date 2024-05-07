@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Playables/ScriptPlayableBinding.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Playables/zzzz__ScriptPlayableBinding_def.hpp"
 #include "System/zzzz__Type_def.hpp"
@@ -12,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::PlayableBinding (*)(::StringW, ::UnityEngine::Object*, ::System::Type*)>(
     &::UnityEngine::Playables::ScriptPlayableBinding::Create)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x322fb30;
+  constexpr static std::size_t addrs = 0x343786c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::PlayableOutput (*)(::UnityEngine::Playables::PlayableGraph, ::StringW)>(
     &::UnityEngine::Playables::ScriptPlayableBinding::CreateScriptOutput)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x322fbec;
+  constexpr static std::size_t addrs = 0x3437928;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

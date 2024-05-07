@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Operators/GenericKey.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,19 +56,19 @@ public:
 
   constexpr void __cordl_internal_set_representation(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x1099194, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x118c8b8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithmIdentifier, ::ArrayW<uint8_t, ::Array<uint8_t>*> representation);
 
-  /// @brief Method .ctor, addr 0x10991c0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x118c8e4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithmIdentifier, ::System::Object* representation);
 
-  /// @brief Method .ctor, addr 0x109916c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x118c890, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* representation);
 
-  /// @brief Method get_AlgorithmIdentifier, addr 0x10991ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AlgorithmIdentifier, addr 0x118c910, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_AlgorithmIdentifier();
 
-  /// @brief Method get_Representation, addr 0x10991f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Representation, addr 0x118c918, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Representation();
 
 protected:

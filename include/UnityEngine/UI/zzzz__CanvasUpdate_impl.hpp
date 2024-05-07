@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UI/CanvasUpdate.hpp"
 #include "UnityEngine/UI/zzzz__CanvasUpdate_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::UI::CanvasUpdate::CanvasUpdate(int32_t value__) noexcept {

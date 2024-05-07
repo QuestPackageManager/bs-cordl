@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Collections/IEnumerable.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 //  Writing Method size for method: ::System::Collections::IEnumerable.GetEnumerator

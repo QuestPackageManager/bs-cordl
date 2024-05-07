@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/TMP_Asset.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,10 +63,10 @@ public:
 
   constexpr void __cordl_internal_set_materialHashCode(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3131000, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3335a88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_instanceID, addr 0x3130fd8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_instanceID, addr 0x3335a60, size 0x28, virtual false, abstract: false, final false
   inline int32_t get_instanceID();
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Bindings/IgnoreAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/Bindings/zzzz__IgnoreAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Bindings::IgnoreAttribute.set_DoesNotContributeToSize
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Bindings::IgnoreAttribute::*)(bool)>(
     &::UnityEngine::Bindings::IgnoreAttribute::set_DoesNotContributeToSize)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x32671f0;
+  constexpr static std::size_t addrs = 0x346ff2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -21,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Bindings::IgnoreAttribute::*)()>(&::UnityEngine::Bindings::IgnoreAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32671fc;
+  constexpr static std::size_t addrs = 0x346ff38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Bindings::IgnoreAttribute*>::get(), ".ctor",

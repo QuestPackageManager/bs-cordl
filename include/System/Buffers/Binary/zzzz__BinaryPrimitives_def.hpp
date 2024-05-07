@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Buffers/Binary/BinaryPrimitives.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,19 +20,19 @@ namespace System::Buffers::Binary {
 class CORDL_TYPE BinaryPrimitives : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ReverseEndianness, addr 0x2812484, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ReverseEndianness, addr 0x2911ba4, size 0x8, virtual false, abstract: false, final false
   static inline int32_t ReverseEndianness(int32_t value);
 
-  /// @brief Method ReverseEndianness, addr 0x281248c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ReverseEndianness, addr 0x2911bac, size 0x14, virtual false, abstract: false, final false
   static inline int64_t ReverseEndianness(int64_t value);
 
-  /// @brief Method ReverseEndianness, addr 0x28124a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ReverseEndianness, addr 0x2911bc0, size 0xc, virtual false, abstract: false, final false
   static inline uint16_t ReverseEndianness(uint16_t value);
 
-  /// @brief Method ReverseEndianness, addr 0x28124ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ReverseEndianness, addr 0x2911bcc, size 0x8, virtual false, abstract: false, final false
   static inline uint32_t ReverseEndianness(uint32_t value);
 
-  /// @brief Method ReverseEndianness, addr 0x28124b4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ReverseEndianness, addr 0x2911bd4, size 0x14, virtual false, abstract: false, final false
   static inline uint64_t ReverseEndianness(uint64_t value);
 
 protected:

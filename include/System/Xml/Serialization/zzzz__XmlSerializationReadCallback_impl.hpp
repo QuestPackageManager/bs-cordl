@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Serialization/XmlSerializationReadCallback.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Xml/Serialization/zzzz__XmlSerializationReadCallback_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Serialization::XmlSerializationReadCallback::*)(::System::Object*, void*)>(
     &::System::Xml::Serialization::XmlSerializationReadCallback::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x2dd89fc;
+  constexpr static std::size_t addrs = 0x2ed72fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::Serialization::XmlSerializationReadCallback::*)()>(
     &::System::Xml::Serialization::XmlSerializationReadCallback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2dd8ab8;
+  constexpr static std::size_t addrs = 0x2ed73b8;
 
   inline static ::MethodInfo const* methodInfo() {
 

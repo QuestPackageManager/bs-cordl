@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/InputPoseActionData_t.hpp"
 #include "OVR/OpenVR/zzzz__TrackedDevicePose_t_impl.hpp"
 #include "OVR/OpenVR/zzzz__InputPoseActionData_t_def.hpp"
 #include "OVR/OpenVR/zzzz__TrackedDevicePose_t_def.hpp"

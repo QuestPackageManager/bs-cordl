@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IMultiplayerStatusModel.hpp"
 #include "GlobalNamespace/zzzz__IMultiplayerStatusModel_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerStatusData_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"

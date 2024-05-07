@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/TlsProtocolHandler.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,10 +29,10 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsProtocolHandler* New_ctor(::System::IO::Stream* stream, ::Org::BouncyCastle::Security::SecureRandom* secureRandom);
 
-  /// @brief Method .ctor, addr 0x111b768, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x120ee8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* input, ::System::IO::Stream* output, ::Org::BouncyCastle::Security::SecureRandom* secureRandom);
 
-  /// @brief Method .ctor, addr 0x111b758, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x120ee7c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream, ::Org::BouncyCastle::Security::SecureRandom* secureRandom);
 
 protected:

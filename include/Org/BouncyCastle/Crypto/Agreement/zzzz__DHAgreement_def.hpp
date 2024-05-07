@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Agreement/DHAgreement.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,13 +49,13 @@ public:
   /// @brief Field random, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_random, put = __cordl_internal_set_random))::Org::BouncyCastle::Security::SecureRandom* random;
 
-  /// @brief Method CalculateAgreement, addr 0x1387794, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method CalculateAgreement, addr 0x147ceb8, size 0x298, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* CalculateAgreement(::Org::BouncyCastle::Crypto::Parameters::DHPublicKeyParameters* pub, ::Org::BouncyCastle::Math::BigInteger* message);
 
-  /// @brief Method CalculateMessage, addr 0x1387600, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method CalculateMessage, addr 0x147cd24, size 0x194, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* CalculateMessage();
 
-  /// @brief Method Init, addr 0x1387448, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x147cb6c, size 0x1b8, virtual false, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::DHAgreement* New_ctor();
@@ -83,7 +84,7 @@ public:
 
   constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method .ctor, addr 0x1387a2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x147d150, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

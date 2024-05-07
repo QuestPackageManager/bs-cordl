@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/FunctionId.hpp"
 #include "System/Data/zzzz__FunctionId_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Data::FunctionId::FunctionId(int32_t value__) noexcept {

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/StyleSheetColor.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__StyleSheetColor_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<::UnityEngine::Color>)>(
     &::UnityEngine::UIElements::StyleSheets::StyleSheetColor::TryGetColor)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x33376a8;
+  constexpr static std::size_t addrs = 0x353c3e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color32 (*)(uint32_t)>(&::UnityEngine::UIElements::StyleSheets::StyleSheetColor::HexToColor32)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x333a5b0;
+  constexpr static std::size_t addrs = 0x353f2ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

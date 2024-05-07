@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/Messaging/RemotingSurrogate.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__RemotingSurrogate_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializationSurrogate_def.hpp"
@@ -13,7 +14,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Object*, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(
     &::System::Runtime::Remoting::Messaging::RemotingSurrogate::GetObjectData)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x2735054;
+  constexpr static std::size_t addrs = 0x2833450;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -30,7 +31,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Runtime::Remoting::Messaging::RemotingSurrogate::*)(::System::Object*, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext,
                                                                   ::System::Runtime::Serialization::ISurrogateSelector*)>(&::System::Runtime::Remoting::Messaging::RemotingSurrogate::SetObjectData)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x273516c;
+  constexpr static std::size_t addrs = 0x2833568;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -46,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::RemotingSurrogate::*)()>(
     &::System::Runtime::Remoting::Messaging::RemotingSurrogate::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x27351ac;
+  constexpr static std::size_t addrs = 0x28335a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

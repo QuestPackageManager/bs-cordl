@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ISaberMovementData.hpp"
 #include "GlobalNamespace/zzzz__ISaberMovementData_def.hpp"
 #include "GlobalNamespace/zzzz__BladeMovementDataElement_def.hpp"
 #include "GlobalNamespace/zzzz__ISaberMovementDataProcessor_def.hpp"

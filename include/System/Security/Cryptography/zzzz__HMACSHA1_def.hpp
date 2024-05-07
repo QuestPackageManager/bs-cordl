@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Cryptography/HMACSHA1.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,13 +27,13 @@ public:
 
   static inline ::System::Security::Cryptography::HMACSHA1* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, bool useManagedSha1);
 
-  /// @brief Method .ctor, addr 0x26e1f44, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27df340, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x26e2604, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27dfa00, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method .ctor, addr 0x26e260c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27dfa08, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, bool useManagedSha1);
 
 protected:

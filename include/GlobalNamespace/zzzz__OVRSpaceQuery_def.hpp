@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OVRSpaceQuery.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -74,66 +75,66 @@ public:
 
   __declspec(property(get = get_UuidFilter, put = set_UuidFilter))::System::Collections::Generic::IEnumerable_1<::System::Guid>* UuidFilter;
 
-  /// @brief Method ToQueryInfo, addr 0x2a644a4, size 0x374, virtual false, abstract: false, final false
+  /// @brief Method ToQueryInfo, addr 0x2b60d54, size 0x374, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRPlugin__SpaceQueryInfo ToQueryInfo();
 
-  /// @brief Method TryQuerySpaces, addr 0x2a64818, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method TryQuerySpaces, addr 0x2b610c8, size 0x15c, virtual false, abstract: false, final false
   inline bool TryQuerySpaces(ByRef<uint64_t> requestId);
 
-  /// @brief Method ValidateSingleFilter, addr 0x2a6422c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ValidateSingleFilter, addr 0x2b60adc, size 0x5c, virtual false, abstract: false, final false
   static inline void ValidateSingleFilter(::System::Collections::Generic::IEnumerable_1<::System::Guid>* uuidFilter, ::GlobalNamespace::__OVRPlugin__SpaceComponentType componentFilter);
 
-  /// @brief Method .ctor, addr 0x2a64470, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b60d20, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__OVRSpaceQuery__Options other);
 
   static inline ::ArrayW<::GlobalNamespace::__OVRPlugin__SpaceComponentType, ::Array<::GlobalNamespace::__OVRPlugin__SpaceComponentType>*> getStaticF_ComponentTypes();
 
   static inline ::ArrayW<::System::Guid, ::Array<::System::Guid>*> getStaticF_Ids();
 
-  /// @brief Method get_ActionType, addr 0x2a641a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ActionType, addr 0x2b60a54, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRPlugin__SpaceQueryActionType get_ActionType();
 
-  /// @brief Method get_ComponentFilter, addr 0x2a641b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ComponentFilter, addr 0x2b60a64, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRPlugin__SpaceComponentType get_ComponentFilter();
 
-  /// @brief Method get_Location, addr 0x2a64184, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Location, addr 0x2b60a34, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRSpace__StorageLocation get_Location();
 
-  /// @brief Method get_MaxResults, addr 0x2a64164, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaxResults, addr 0x2b60a14, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_MaxResults();
 
-  /// @brief Method get_QueryType, addr 0x2a64194, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_QueryType, addr 0x2b60a44, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRPlugin__SpaceQueryType get_QueryType();
 
-  /// @brief Method get_Timeout, addr 0x2a64174, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Timeout, addr 0x2b60a24, size 0x8, virtual false, abstract: false, final false
   inline double_t get_Timeout();
 
-  /// @brief Method get_UuidFilter, addr 0x2a64288, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UuidFilter, addr 0x2b60b38, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Guid>* get_UuidFilter();
 
   static inline void setStaticF_ComponentTypes(::ArrayW<::GlobalNamespace::__OVRPlugin__SpaceComponentType, ::Array<::GlobalNamespace::__OVRPlugin__SpaceComponentType>*> value);
 
   static inline void setStaticF_Ids(::ArrayW<::System::Guid, ::Array<::System::Guid>*> value);
 
-  /// @brief Method set_ActionType, addr 0x2a641ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ActionType, addr 0x2b60a5c, size 0x8, virtual false, abstract: false, final false
   inline void set_ActionType(::GlobalNamespace::__OVRPlugin__SpaceQueryActionType value);
 
-  /// @brief Method set_ComponentFilter, addr 0x2a641bc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_ComponentFilter, addr 0x2b60a6c, size 0x70, virtual false, abstract: false, final false
   inline void set_ComponentFilter(::GlobalNamespace::__OVRPlugin__SpaceComponentType value);
 
-  /// @brief Method set_Location, addr 0x2a6418c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Location, addr 0x2b60a3c, size 0x8, virtual false, abstract: false, final false
   inline void set_Location(::GlobalNamespace::__OVRSpace__StorageLocation value);
 
-  /// @brief Method set_MaxResults, addr 0x2a6416c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MaxResults, addr 0x2b60a1c, size 0x8, virtual false, abstract: false, final false
   inline void set_MaxResults(int32_t value);
 
-  /// @brief Method set_QueryType, addr 0x2a6419c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_QueryType, addr 0x2b60a4c, size 0x8, virtual false, abstract: false, final false
   inline void set_QueryType(::GlobalNamespace::__OVRPlugin__SpaceQueryType value);
 
-  /// @brief Method set_Timeout, addr 0x2a6417c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Timeout, addr 0x2b60a2c, size 0x8, virtual false, abstract: false, final false
   inline void set_Timeout(double_t value);
 
-  /// @brief Method set_UuidFilter, addr 0x2a64290, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method set_UuidFilter, addr 0x2b60b40, size 0x1e0, virtual false, abstract: false, final false
   inline void set_UuidFilter(::System::Collections::Generic::IEnumerable_1<::System::Guid>* value);
 
   // Ctor Parameters []

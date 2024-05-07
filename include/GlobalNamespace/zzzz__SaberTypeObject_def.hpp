@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SaberTypeObject.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,10 +36,10 @@ public:
 
   constexpr void __cordl_internal_set__saberType(::GlobalNamespace::SaberType value);
 
-  /// @brief Method .ctor, addr 0x262691c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27267f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_saberType, addr 0x2626914, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_saberType, addr 0x27267e8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::SaberType get_saberType();
 
 protected:

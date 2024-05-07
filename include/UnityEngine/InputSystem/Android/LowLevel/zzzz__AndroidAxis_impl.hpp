@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Android/LowLevel/AndroidAxis.hpp"
 #include "UnityEngine/InputSystem/Android/LowLevel/zzzz__AndroidAxis_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis::AndroidAxis(int32_t value__) noexcept {

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Bson/BsonString.hpp"
 #include "Newtonsoft/Json/Bson/zzzz__BsonValue_impl.hpp"
 #include "Newtonsoft/Json/Bson/zzzz__BsonString_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -7,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Newtonsoft::Json::Bson::BsonString::*)()>(&::Newtonsoft::Json::Bson::BsonString::get_ByteCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x299e410;
+  constexpr static std::size_t addrs = 0x2a9bcc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Bson::BsonString*>::get(), "get_ByteCount",
@@ -20,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Bson::BsonString::*)(int32_t)>(&::Newtonsoft::Json::Bson::BsonString::set_ByteCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x299e418;
+  constexpr static std::size_t addrs = 0x2a9bcc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Bson::BsonString::*)()>(&::Newtonsoft::Json::Bson::BsonString::get_IncludeLength)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x299e420;
+  constexpr static std::size_t addrs = 0x2a9bcd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Bson::BsonString*>::get(),
@@ -48,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Bson::BsonString::*)(::System::Object*, bool)>(
     &::Newtonsoft::Json::Bson::BsonString::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x299e010;
+  constexpr static std::size_t addrs = 0x2a9b8c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

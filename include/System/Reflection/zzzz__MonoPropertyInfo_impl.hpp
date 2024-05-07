@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Reflection/MonoPropertyInfo.hpp"
 #include "System/Reflection/zzzz__PropertyAttributes_impl.hpp"
 #include "System/Reflection/zzzz__MonoPropertyInfo_def.hpp"
 #include "System/Reflection/zzzz__MethodInfo_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/INetworkConfig.hpp"
 #include "GlobalNamespace/zzzz__INetworkConfig_def.hpp"
 #include "GlobalNamespace/zzzz__DnsEndPoint_def.hpp"
 #include "GlobalNamespace/zzzz__ServiceEnvironment_def.hpp"

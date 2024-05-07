@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/ITreeViewItem.hpp"
 #include "UnityEngine/UIElements/zzzz__ITreeViewItem_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::ITreeViewItem.get_id

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/DefaultJsonNameTable.hpp"
 #include "Newtonsoft/Json/zzzz__JsonNameTable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/zzzz__DefaultJsonNameTable_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::__DefaultJsonNameTable__Entry::*)(
     ::StringW, int32_t, ::Newtonsoft::Json::__DefaultJsonNameTable__Entry*)>(&::Newtonsoft::Json::__DefaultJsonNameTable__Entry::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x28c3834;
+  constexpr static std::size_t addrs = 0x29c20e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -73,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::DefaultJsonNameTable::*)()>(&::Newtonsoft::Json::DefaultJsonNameTable::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x28c32c4;
+  constexpr static std::size_t addrs = 0x29c1b74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::DefaultJsonNameTable*>::get(), ".ctor",
@@ -87,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::DefaultJsonNameTable::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
     &::Newtonsoft::Json::DefaultJsonNameTable::Get)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x28c3334;
+  constexpr static std::size_t addrs = 0x29c1be4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -101,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::DefaultJsonNameTable::*)(::StringW)>(&::Newtonsoft::Json::DefaultJsonNameTable::Add)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x28c3570;
+  constexpr static std::size_t addrs = 0x29c1e20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -116,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::DefaultJsonNameTable::*)(::StringW, int32_t)>(
     &::Newtonsoft::Json::DefaultJsonNameTable::AddEntry)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x28c3728;
+  constexpr static std::size_t addrs = 0x29c1fd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -130,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::DefaultJsonNameTable::*)()>(&::Newtonsoft::Json::DefaultJsonNameTable::Grow)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x28c3874;
+  constexpr static std::size_t addrs = 0x29c2124;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::DefaultJsonNameTable*>::get(), "Grow",
@@ -144,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
     &::Newtonsoft::Json::DefaultJsonNameTable::TextEquals)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x28c34c0;
+  constexpr static std::size_t addrs = 0x29c1d70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

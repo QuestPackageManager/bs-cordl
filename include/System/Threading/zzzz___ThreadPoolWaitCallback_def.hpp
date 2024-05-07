@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/_ThreadPoolWaitCallback.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,7 +19,7 @@ namespace System::Threading {
 class CORDL_TYPE _ThreadPoolWaitCallback : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method PerformWaitCallback, addr 0x28a5478, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method PerformWaitCallback, addr 0x29a3d28, size 0x4c, virtual false, abstract: false, final false
   static inline bool PerformWaitCallback();
 
 protected:

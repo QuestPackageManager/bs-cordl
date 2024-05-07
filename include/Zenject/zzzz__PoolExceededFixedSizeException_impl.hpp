@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/PoolExceededFixedSizeException.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "Zenject/zzzz__PoolExceededFixedSizeException_def.hpp"
 //  Writing Method size for method: ::Zenject::PoolExceededFixedSizeException._ctor
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::PoolExceededFixedSizeException::*)(::StringW)>(&::Zenject::PoolExceededFixedSizeException::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3438654;
+  constexpr static std::size_t addrs = 0x363c390;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

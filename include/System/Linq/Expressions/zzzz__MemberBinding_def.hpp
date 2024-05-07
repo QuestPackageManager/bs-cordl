@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/MemberBinding.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,10 +49,10 @@ public:
 
   constexpr void __cordl_internal_set__Member_k__BackingField(::System::Reflection::MemberInfo* value);
 
-  /// @brief Method get_BindingType, addr 0x2b0c4e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BindingType, addr 0x2c09de0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::MemberBindingType get_BindingType();
 
-  /// @brief Method get_Member, addr 0x2b0c4e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Member, addr 0x2c09de8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::MemberInfo* get_Member();
 
 protected:

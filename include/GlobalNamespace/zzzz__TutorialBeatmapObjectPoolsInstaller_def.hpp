@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/TutorialBeatmapObjectPoolsInstaller.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,7 +44,7 @@ public:
   /// @brief Field _obstaclePrefab, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__obstaclePrefab, put = __cordl_internal_set__obstaclePrefab))::UnityW<::GlobalNamespace::ObstacleController> _obstaclePrefab;
 
-  /// @brief Method InstallBindings, addr 0x2631f34, size 0x18c, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x2731d00, size 0x18c, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::TutorialBeatmapObjectPoolsInstaller* New_ctor();
@@ -72,7 +73,7 @@ public:
 
   constexpr void __cordl_internal_set__obstaclePrefab(::UnityW<::GlobalNamespace::ObstacleController> value);
 
-  /// @brief Method .ctor, addr 0x26320c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2731e8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

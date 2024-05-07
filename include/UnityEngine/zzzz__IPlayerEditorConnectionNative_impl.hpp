@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/IPlayerEditorConnectionNative.hpp"
 #include "UnityEngine/zzzz__IPlayerEditorConnectionNative_def.hpp"
 #include "System/zzzz__Guid_def.hpp"
 //  Writing Method size for method: ::UnityEngine::IPlayerEditorConnectionNative.Initialize

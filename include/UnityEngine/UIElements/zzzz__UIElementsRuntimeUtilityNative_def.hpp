@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/UIElementsRuntimeUtilityNative.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,19 +28,19 @@ public:
   /// @brief Field UpdateRuntimePanelsCallback, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_UpdateRuntimePanelsCallback, put = setStaticF_UpdateRuntimePanelsCallback))::System::Action* UpdateRuntimePanelsCallback;
 
-  /// @brief Method RegisterPlayerloopCallback, addr 0x33f3910, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method RegisterPlayerloopCallback, addr 0x35f964c, size 0x28, virtual false, abstract: false, final false
   static inline void RegisterPlayerloopCallback();
 
-  /// @brief Method RepaintOverlayPanels, addr 0x33f3848, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method RepaintOverlayPanels, addr 0x35f9584, size 0x64, virtual false, abstract: false, final false
   static inline void RepaintOverlayPanels();
 
-  /// @brief Method UnregisterPlayerloopCallback, addr 0x33f3938, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method UnregisterPlayerloopCallback, addr 0x35f9674, size 0x28, virtual false, abstract: false, final false
   static inline void UnregisterPlayerloopCallback();
 
-  /// @brief Method UpdateRuntimePanels, addr 0x33f38ac, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method UpdateRuntimePanels, addr 0x35f95e8, size 0x64, virtual false, abstract: false, final false
   static inline void UpdateRuntimePanels();
 
-  /// @brief Method VisualElementCreation, addr 0x33f3960, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method VisualElementCreation, addr 0x35f969c, size 0x28, virtual false, abstract: false, final false
   static inline void VisualElementCreation();
 
   static inline ::System::Action* getStaticF_RepaintOverlayPanelsCallback();

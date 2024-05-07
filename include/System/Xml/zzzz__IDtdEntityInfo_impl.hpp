@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/IDtdEntityInfo.hpp"
 #include "System/Xml/zzzz__IDtdEntityInfo_def.hpp"
 //  Writing Method size for method: ::System::Xml::IDtdEntityInfo.get_Name
 template <>

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HEU_ParameterData.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -141,54 +142,54 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ParameterData*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ParameterData*>*() noexcept;
 
-  /// @brief Method HasMax, addr 0x247c34c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HasMax, addr 0x2576fd8, size 0x8, virtual false, abstract: false, final false
   inline bool HasMax();
 
-  /// @brief Method HasMin, addr 0x247c344, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HasMin, addr 0x2576fd0, size 0x8, virtual false, abstract: false, final false
   inline bool HasMin();
 
-  /// @brief Method HasUIMax, addr 0x247c35c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HasUIMax, addr 0x2576fe8, size 0x8, virtual false, abstract: false, final false
   inline bool HasUIMax();
 
-  /// @brief Method HasUIMin, addr 0x247c354, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HasUIMin, addr 0x2576fe0, size 0x8, virtual false, abstract: false, final false
   inline bool HasUIMin();
 
-  /// @brief Method IsAssetPath, addr 0x247c80c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsAssetPath, addr 0x2577498, size 0x8, virtual false, abstract: false, final false
   inline bool IsAssetPath();
 
-  /// @brief Method IsColor, addr 0x247c778, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsColor, addr 0x2577404, size 0x10, virtual false, abstract: false, final false
   inline bool IsColor();
 
-  /// @brief Method IsContainer, addr 0x247c6f4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method IsContainer, addr 0x2577380, size 0x54, virtual false, abstract: false, final false
   inline bool IsContainer();
 
-  /// @brief Method IsEquivalentTo, addr 0x247c814, size 0x71c, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x25774a0, size 0x71c, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_ParameterData* other);
 
-  /// @brief Method IsFloat, addr 0x247c310, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsFloat, addr 0x2576f9c, size 0x10, virtual false, abstract: false, final false
   inline bool IsFloat();
 
-  /// @brief Method IsInt, addr 0x247c300, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsInt, addr 0x2576f8c, size 0x10, virtual false, abstract: false, final false
   inline bool IsInt();
 
-  /// @brief Method IsMultiParam, addr 0x247c748, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsMultiParam, addr 0x25773d4, size 0x10, virtual false, abstract: false, final false
   inline bool IsMultiParam();
 
-  /// @brief Method IsPathFile, addr 0x247c330, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsPathFile, addr 0x2576fbc, size 0x14, virtual false, abstract: false, final false
   inline bool IsPathFile();
 
-  /// @brief Method IsRamp, addr 0x247c758, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsRamp, addr 0x25773e4, size 0x10, virtual false, abstract: false, final false
   inline bool IsRamp();
 
-  /// @brief Method IsString, addr 0x247c320, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsString, addr 0x2576fac, size 0x10, virtual false, abstract: false, final false
   inline bool IsString();
 
-  /// @brief Method IsToggle, addr 0x247c768, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsToggle, addr 0x25773f4, size 0x10, virtual false, abstract: false, final false
   inline bool IsToggle();
 
   static inline ::HoudiniEngineUnity::HEU_ParameterData* New_ctor();
 
-  /// @brief Method ToVector3, addr 0x247c788, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ToVector3, addr 0x2577414, size 0x84, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 ToVector3();
 
   constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__animCurve();
@@ -329,43 +330,43 @@ public:
 
   constexpr void __cordl_internal_set__unityIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x247cf30, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2577bbc, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ChildIndex, addr 0x247c2f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ChildIndex, addr 0x2576f7c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ChildIndex();
 
-  /// @brief Method get_FloatMax, addr 0x247c6dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FloatMax, addr 0x2577368, size 0x8, virtual false, abstract: false, final false
   inline float_t get_FloatMax();
 
-  /// @brief Method get_FloatMin, addr 0x247c6d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FloatMin, addr 0x2577360, size 0x8, virtual false, abstract: false, final false
   inline float_t get_FloatMin();
 
-  /// @brief Method get_FloatUIMax, addr 0x247c6ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FloatUIMax, addr 0x2577378, size 0x8, virtual false, abstract: false, final false
   inline float_t get_FloatUIMax();
 
-  /// @brief Method get_FloatUIMin, addr 0x247c6e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FloatUIMin, addr 0x2577370, size 0x8, virtual false, abstract: false, final false
   inline float_t get_FloatUIMin();
 
-  /// @brief Method get_IntMax, addr 0x247c440, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method get_IntMax, addr 0x25770cc, size 0xdc, virtual false, abstract: false, final false
   inline int32_t get_IntMax();
 
-  /// @brief Method get_IntMin, addr 0x247c364, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method get_IntMin, addr 0x2576ff0, size 0xdc, virtual false, abstract: false, final false
   inline int32_t get_IntMin();
 
-  /// @brief Method get_IntUIMax, addr 0x247c5f8, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method get_IntUIMax, addr 0x2577284, size 0xdc, virtual false, abstract: false, final false
   inline int32_t get_IntUIMax();
 
-  /// @brief Method get_IntUIMin, addr 0x247c51c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method get_IntUIMin, addr 0x25771a8, size 0xdc, virtual false, abstract: false, final false
   inline int32_t get_IntUIMin();
 
-  /// @brief Method get_ParentID, addr 0x247c2e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ParentID, addr 0x2576f74, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ParentID();
 
-  /// @brief Method get_ParmID, addr 0x247ab74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ParmID, addr 0x2575800, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ParmID();
 
-  /// @brief Method get_ParmSize, addr 0x247c2f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ParmSize, addr 0x2576f84, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ParmSize();
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ParameterData*>"

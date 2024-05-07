@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BeatmapEventData.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,18 +36,18 @@ public:
   /// @brief Method GetDefault, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::BeatmapEventData* GetDefault();
 
-  /// @brief Method GetDefault, addr 0xf46898, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetDefault, addr 0x103540c, size 0x2c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventData* GetDefault(::GlobalNamespace::BeatmapEventData* nextData);
 
   static inline ::GlobalNamespace::BeatmapEventData* New_ctor(float_t time, int32_t executionOrder, int32_t subtypeIdentifier);
 
-  /// @brief Method __ConnectWithNextSameTypeEventData, addr 0xf46880, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method __ConnectWithNextSameTypeEventData, addr 0x10353f4, size 0x10, virtual false, abstract: false, final false
   inline void __ConnectWithNextSameTypeEventData(::GlobalNamespace::BeatmapEventData* newNextSameTypeEvent);
 
-  /// @brief Method __ConnectWithPreviousSameTypeEventData, addr 0xf46870, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method __ConnectWithPreviousSameTypeEventData, addr 0x10353e4, size 0x10, virtual false, abstract: false, final false
   inline void __ConnectWithPreviousSameTypeEventData(::GlobalNamespace::BeatmapEventData* newPreviousSameTypeEvent);
 
-  /// @brief Method __ResetConnections, addr 0xf46890, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method __ResetConnections, addr 0x1035404, size 0x8, virtual false, abstract: false, final false
   inline void __ResetConnections();
 
   constexpr ::GlobalNamespace::BeatmapEventData*& __cordl_internal_get__nextSameTypeEventData_k__BackingField();
@@ -61,19 +62,19 @@ public:
 
   constexpr void __cordl_internal_set__previousSameTypeEventData_k__BackingField(::GlobalNamespace::BeatmapEventData* value);
 
-  /// @brief Method .ctor, addr 0xf46498, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x103500c, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(float_t time, int32_t executionOrder, int32_t subtypeIdentifier);
 
-  /// @brief Method get_nextSameTypeEventData, addr 0xf46860, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_nextSameTypeEventData, addr 0x10353d4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventData* get_nextSameTypeEventData();
 
-  /// @brief Method get_previousSameTypeEventData, addr 0xf46850, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_previousSameTypeEventData, addr 0x10353c4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventData* get_previousSameTypeEventData();
 
-  /// @brief Method set_nextSameTypeEventData, addr 0xf46868, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_nextSameTypeEventData, addr 0x10353dc, size 0x8, virtual false, abstract: false, final false
   inline void set_nextSameTypeEventData(::GlobalNamespace::BeatmapEventData* value);
 
-  /// @brief Method set_previousSameTypeEventData, addr 0xf46858, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_previousSameTypeEventData, addr 0x10353cc, size 0x8, virtual false, abstract: false, final false
   inline void set_previousSameTypeEventData(::GlobalNamespace::BeatmapEventData* value);
 
 protected:

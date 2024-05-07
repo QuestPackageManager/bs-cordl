@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/WebExceptionMapping.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__WebExceptionMapping_def.hpp"
 #include "System/Net/zzzz__WebExceptionStatus_def.hpp"
@@ -7,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Net::WebExceptionStatus)>(&::System::Net::WebExceptionMapping::GetWebStatusString)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x2ed4394;
+  constexpr static std::size_t addrs = 0x2fd6c94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

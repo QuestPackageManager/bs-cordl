@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/PrefabProviderResource.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,7 +32,7 @@ public:
   /// @brief Convert operator to "::Zenject::IPrefabProvider"
   constexpr operator ::Zenject::IPrefabProvider*() noexcept;
 
-  /// @brief Method GetPrefab, addr 0x3458b94, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method GetPrefab, addr 0x365cb5c, size 0xcc, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::Object> GetPrefab();
 
   static inline ::Zenject::PrefabProviderResource* New_ctor(::StringW resourcePath);
@@ -42,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set__resourcePath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3458b6c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x365cb34, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW resourcePath);
 
   /// @brief Convert to "::Zenject::IPrefabProvider"

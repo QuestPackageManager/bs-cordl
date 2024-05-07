@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Tsp/TimeStampTokenGenerator.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -86,7 +87,7 @@ public:
   /// @brief Field x509Crls, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_x509Crls, put = __cordl_internal_set_x509Crls))::Org::BouncyCastle::X509::Store::IX509Store* x509Crls;
 
-  /// @brief Method Generate, addr 0x12c1a38, size 0x6a8, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x13b315c, size 0x6a8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Tsp::TimeStampToken* Generate(::Org::BouncyCastle::Tsp::TimeStampRequest* request, ::Org::BouncyCastle::Math::BigInteger* serialNumber, ::System::DateTime genTime);
 
   static inline ::Org::BouncyCastle::Tsp::TimeStampTokenGenerator* New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key, ::Org::BouncyCastle::X509::X509Certificate* cert,
@@ -96,25 +97,25 @@ public:
                                                                             ::StringW digestOID, ::StringW tsaPolicyOID, ::Org::BouncyCastle::Asn1::Cms::AttributeTable* signedAttr,
                                                                             ::Org::BouncyCastle::Asn1::Cms::AttributeTable* unsignedAttr);
 
-  /// @brief Method SetAccuracyMicros, addr 0x12c3e00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetAccuracyMicros, addr 0x13b5524, size 0x8, virtual false, abstract: false, final false
   inline void SetAccuracyMicros(int32_t accuracyMicros);
 
-  /// @brief Method SetAccuracyMillis, addr 0x12c3df8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetAccuracyMillis, addr 0x13b551c, size 0x8, virtual false, abstract: false, final false
   inline void SetAccuracyMillis(int32_t accuracyMillis);
 
-  /// @brief Method SetAccuracySeconds, addr 0x12c3df0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetAccuracySeconds, addr 0x13b5514, size 0x8, virtual false, abstract: false, final false
   inline void SetAccuracySeconds(int32_t accuracySeconds);
 
-  /// @brief Method SetCertificates, addr 0x12c3de0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetCertificates, addr 0x13b5504, size 0x8, virtual false, abstract: false, final false
   inline void SetCertificates(::Org::BouncyCastle::X509::Store::IX509Store* certificates);
 
-  /// @brief Method SetCrls, addr 0x12c3de8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetCrls, addr 0x13b550c, size 0x8, virtual false, abstract: false, final false
   inline void SetCrls(::Org::BouncyCastle::X509::Store::IX509Store* crls);
 
-  /// @brief Method SetOrdering, addr 0x12c3e08, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetOrdering, addr 0x13b552c, size 0xc, virtual false, abstract: false, final false
   inline void SetOrdering(bool ordering);
 
-  /// @brief Method SetTsa, addr 0x12c3e14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetTsa, addr 0x13b5538, size 0x8, virtual false, abstract: false, final false
   inline void SetTsa(::Org::BouncyCastle::Asn1::X509::GeneralName* tsa);
 
   constexpr int32_t const& __cordl_internal_get_accuracyMicros() const;
@@ -195,10 +196,10 @@ public:
 
   constexpr void __cordl_internal_set_x509Crls(::Org::BouncyCastle::X509::Store::IX509Store* value);
 
-  /// @brief Method .ctor, addr 0x12c398c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13b50b0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key, ::Org::BouncyCastle::X509::X509Certificate* cert, ::StringW digestOID, ::StringW tsaPolicyOID);
 
-  /// @brief Method .ctor, addr 0x12c3998, size 0x448, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13b50bc, size 0x448, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key, ::Org::BouncyCastle::X509::X509Certificate* cert, ::StringW digestOID, ::StringW tsaPolicyOID,
                     ::Org::BouncyCastle::Asn1::Cms::AttributeTable* signedAttr, ::Org::BouncyCastle::Asn1::Cms::AttributeTable* unsignedAttr);
 

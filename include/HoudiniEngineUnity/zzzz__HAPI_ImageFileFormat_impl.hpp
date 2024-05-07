@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HAPI_ImageFileFormat.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_ImageFileFormat_def.hpp"
 // Ctor Parameters [CppParam { name: "nameSH", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "descriptionSH", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam
 // { name: "defaultExtensionSH", ty: "int32_t", modifiers: "", def_value: Some("{}") }]

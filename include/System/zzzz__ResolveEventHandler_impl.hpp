@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ResolveEventHandler.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__ResolveEventHandler_def.hpp"
 #include "System/Reflection/zzzz__Assembly_def.hpp"
@@ -9,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ResolveEventHandler::*)(::System::Object*, void*)>(&::System::ResolveEventHandler::_ctor)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x2845844;
+  constexpr static std::size_t addrs = 0x2945018;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::Assembly* (::System::ResolveEventHandler::*)(::System::Object*, ::System::ResolveEventArgs*)>(
     &::System::ResolveEventHandler::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2845974;
+  constexpr static std::size_t addrs = 0x2945148;
 
   inline static ::MethodInfo const* methodInfo() {
 

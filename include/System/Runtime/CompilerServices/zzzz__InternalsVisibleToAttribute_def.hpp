@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/CompilerServices/InternalsVisibleToAttribute.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,10 +42,10 @@ public:
 
   constexpr void __cordl_internal_set__assemblyName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x275eecc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x285e5dc, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW assemblyName);
 
-  /// @brief Method set_AllInternalsVisible, addr 0x275eefc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_AllInternalsVisible, addr 0x285e60c, size 0xc, virtual false, abstract: false, final false
   inline void set_AllInternalsVisible(bool value);
 
 protected:

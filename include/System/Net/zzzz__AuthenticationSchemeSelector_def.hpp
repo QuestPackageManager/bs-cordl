@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/AuthenticationSchemeSelector.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,12 +29,12 @@ namespace System::Net {
 class CORDL_TYPE AuthenticationSchemeSelector : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2ececa0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2fd15a0, size 0x14, virtual true, abstract: false, final false
   inline ::System::Net::AuthenticationSchemes Invoke(::System::Net::HttpListenerRequest* httpRequest);
 
   static inline ::System::Net::AuthenticationSchemeSelector* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2ecebcc, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fd14cc, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:

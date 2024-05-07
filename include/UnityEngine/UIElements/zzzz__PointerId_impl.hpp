@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/PointerId.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerId_def.hpp"
 inline void UnityEngine::UIElements::PointerId::setStaticF_maxPointers(int32_t value) {

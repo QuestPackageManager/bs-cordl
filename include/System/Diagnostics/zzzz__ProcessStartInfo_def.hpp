@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Diagnostics/ProcessStartInfo.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -307,86 +308,86 @@ public:
 
   constexpr void __cordl_internal_set_windowStyle(::System::Diagnostics::ProcessWindowStyle value);
 
-  /// @brief Method .ctor, addr 0x2ea6b78, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fa8478, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2ea36ec, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fa4fec, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Diagnostics::Process* parent);
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_empty();
 
-  /// @brief Method get_ArgumentList, addr 0x2ea69fc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_ArgumentList, addr 0x2fa82fc, size 0x80, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::Collection_1<::StringW>* get_ArgumentList();
 
-  /// @brief Method get_Arguments, addr 0x2ea6a7c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_Arguments, addr 0x2fa837c, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_Arguments();
 
-  /// @brief Method get_Domain, addr 0x2ea6b24, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_Domain, addr 0x2fa8424, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_Domain();
 
-  /// @brief Method get_EnvironmentVariables, addr 0x2ea648c, size 0x570, virtual false, abstract: false, final false
+  /// @brief Method get_EnvironmentVariables, addr 0x2fa7d8c, size 0x570, virtual false, abstract: false, final false
   inline ::System::Collections::Specialized::StringDictionary* get_EnvironmentVariables();
 
-  /// @brief Method get_FileName, addr 0x2ea45a8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_FileName, addr 0x2fa5ea8, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_FileName();
 
-  /// @brief Method get_HaveEnvVars, addr 0x2ea647c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HaveEnvVars, addr 0x2fa7d7c, size 0x10, virtual false, abstract: false, final false
   inline bool get_HaveEnvVars();
 
-  /// @brief Method get_LoadUserProfile, addr 0x2ea6bf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LoadUserProfile, addr 0x2fa84f8, size 0x8, virtual false, abstract: false, final false
   inline bool get_LoadUserProfile();
 
-  /// @brief Method get_Password, addr 0x2ea6bf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Password, addr 0x2fa84f0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::SecureString* get_Password();
 
-  /// @brief Method get_RedirectStandardError, addr 0x2ea6bb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RedirectStandardError, addr 0x2fa84b8, size 0x8, virtual false, abstract: false, final false
   inline bool get_RedirectStandardError();
 
-  /// @brief Method get_RedirectStandardInput, addr 0x2ea6b90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RedirectStandardInput, addr 0x2fa8490, size 0x8, virtual false, abstract: false, final false
   inline bool get_RedirectStandardInput();
 
-  /// @brief Method get_RedirectStandardOutput, addr 0x2ea6ba4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RedirectStandardOutput, addr 0x2fa84a4, size 0x8, virtual false, abstract: false, final false
   inline bool get_RedirectStandardOutput();
 
-  /// @brief Method get_StandardErrorEncoding, addr 0x2ea6bcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StandardErrorEncoding, addr 0x2fa84cc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Text::Encoding* get_StandardErrorEncoding();
 
-  /// @brief Method get_StandardInputEncoding, addr 0x2ea6d80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StandardInputEncoding, addr 0x2fa8680, size 0x8, virtual false, abstract: false, final false
   inline ::System::Text::Encoding* get_StandardInputEncoding();
 
-  /// @brief Method get_StandardOutputEncoding, addr 0x2ea6bd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StandardOutputEncoding, addr 0x2fa84d4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Text::Encoding* get_StandardOutputEncoding();
 
-  /// @brief Method get_UseShellExecute, addr 0x2ea6bdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UseShellExecute, addr 0x2fa84dc, size 0x8, virtual false, abstract: false, final false
   inline bool get_UseShellExecute();
 
-  /// @brief Method get_UserName, addr 0x2ea6118, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_UserName, addr 0x2fa7a18, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_UserName();
 
-  /// @brief Method get_WorkingDirectory, addr 0x2ea6ad0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_WorkingDirectory, addr 0x2fa83d0, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_WorkingDirectory();
 
   static inline void setStaticF_empty(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method set_Arguments, addr 0x2ea6b88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Arguments, addr 0x2fa8488, size 0x8, virtual false, abstract: false, final false
   inline void set_Arguments(::StringW value);
 
-  /// @brief Method set_FileName, addr 0x2ea6c00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_FileName, addr 0x2fa8500, size 0x8, virtual false, abstract: false, final false
   inline void set_FileName(::StringW value);
 
-  /// @brief Method set_RedirectStandardError, addr 0x2ea6bc0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_RedirectStandardError, addr 0x2fa84c0, size 0xc, virtual false, abstract: false, final false
   inline void set_RedirectStandardError(bool value);
 
-  /// @brief Method set_RedirectStandardInput, addr 0x2ea6b98, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_RedirectStandardInput, addr 0x2fa8498, size 0xc, virtual false, abstract: false, final false
   inline void set_RedirectStandardInput(bool value);
 
-  /// @brief Method set_RedirectStandardOutput, addr 0x2ea6bac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_RedirectStandardOutput, addr 0x2fa84ac, size 0xc, virtual false, abstract: false, final false
   inline void set_RedirectStandardOutput(bool value);
 
-  /// @brief Method set_UseShellExecute, addr 0x2ea6be4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_UseShellExecute, addr 0x2fa84e4, size 0xc, virtual false, abstract: false, final false
   inline void set_UseShellExecute(bool value);
 
-  /// @brief Method set_WindowStyle, addr 0x2ea6c08, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method set_WindowStyle, addr 0x2fa8508, size 0x178, virtual false, abstract: false, final false
   inline void set_WindowStyle(::System::Diagnostics::ProcessWindowStyle value);
 
 protected:

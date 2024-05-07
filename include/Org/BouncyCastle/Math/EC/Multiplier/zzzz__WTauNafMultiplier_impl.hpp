@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Math/EC/Multiplier/WTauNafMultiplier.hpp"
 #include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__AbstractECMultiplier_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__WTauNafMultiplier_def.hpp"
@@ -15,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::Multiplier::__WTauNafMultiplier__WTauNafCallback::*)(
     ::Org::BouncyCastle::Math::EC::AbstractF2mPoint*, int8_t)>(&::Org::BouncyCastle::Math::EC::Multiplier::__WTauNafMultiplier__WTauNafCallback::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x11a9d48;
+  constexpr static std::size_t addrs = 0x129b46c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -33,7 +34,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Math::EC::Multiplier::__WTauNafMultiplier__WTauNafCallback::*)(::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*)>(
     &::Org::BouncyCastle::Math::EC::Multiplier::__WTauNafMultiplier__WTauNafCallback::Precompute)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x11a9de0;
+  constexpr static std::size_t addrs = 0x129b504;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -106,7 +107,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier::*)(::Org::BouncyCastle::Math::EC::ECPoint*, ::Org::BouncyCastle::Math::BigInteger*)>(
     &::Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier::MultiplyPositive)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x11a95b4;
+  constexpr static std::size_t addrs = 0x129acd8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -123,7 +124,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier::*)(::Org::BouncyCastle::Math::EC::AbstractF2mPoint*, ::Org::BouncyCastle::Math::EC::Abc::ZTauElement*, int8_t, int8_t)>(
     &::Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier::MultiplyWTnaf)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x11a97a8;
+  constexpr static std::size_t addrs = 0x129aecc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -141,7 +142,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Math::EC::AbstractF2mPoint* (*)(::Org::BouncyCastle::Math::EC::AbstractF2mPoint*, ::ArrayW<int8_t, ::Array<int8_t>*>)>(
         &::Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier::MultiplyFromWTnaf)> {
   constexpr static std::size_t size = 0x454;
-  constexpr static std::size_t addrs = 0x11a98f4;
+  constexpr static std::size_t addrs = 0x129b018;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -157,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier::*)()>(
     &::Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x11a9dd8;
+  constexpr static std::size_t addrs = 0x129b4fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

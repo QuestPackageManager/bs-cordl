@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "VRUIControls/ButtonState.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_impl.hpp"
 #include "VRUIControls/zzzz__ButtonState_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::VRUIControls::MouseButtonEventData* (::VRUIControls::ButtonState::*)()>(
     &::VRUIControls::ButtonState::get_eventData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x340309c;
+  constexpr static std::size_t addrs = 0x3608dd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::VRUIControls::ButtonState*>::get(), "get_eventData",
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::VRUIControls::ButtonState::*)(::VRUIControls::MouseButtonEventData*)>(
     &::VRUIControls::ButtonState::set_eventData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34030a4;
+  constexpr static std::size_t addrs = 0x3608de0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::EventSystems::__PointerEventData__InputButton (::VRUIControls::ButtonState::*)()>(
     &::VRUIControls::ButtonState::get_button)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34030ac;
+  constexpr static std::size_t addrs = 0x3608de8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::VRUIControls::ButtonState*>::get(), "get_button",
@@ -53,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::VRUIControls::ButtonState::*)(::UnityEngine::EventSystems::__PointerEventData__InputButton)>(
     &::VRUIControls::ButtonState::set_button)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34030b4;
+  constexpr static std::size_t addrs = 0x3608df0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::VRUIControls::ButtonState::*)()>(&::VRUIControls::ButtonState::get_pressedValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34030bc;
+  constexpr static std::size_t addrs = 0x3608df8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::VRUIControls::ButtonState*>::get(), "get_pressedValue",
@@ -80,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::VRUIControls::ButtonState::*)(float_t)>(&::VRUIControls::ButtonState::set_pressedValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34030c4;
+  constexpr static std::size_t addrs = 0x3608e00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -94,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::VRUIControls::ButtonState::*)()>(&::VRUIControls::ButtonState::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x34030cc;
+  constexpr static std::size_t addrs = 0x3608e08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::VRUIControls::ButtonState*>::get(), ".ctor",

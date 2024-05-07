@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/ThemeStyleSheet.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,10 +21,10 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::ThemeStyleSheet* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x33ba3b8, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x35c00f4, size 0x1c, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method .ctor, addr 0x33ba538, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35c0274, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

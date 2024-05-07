@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "JetBrains/Annotations/BaseTypeRequiredAttribute.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,13 +35,13 @@ public:
 
   constexpr void __cordl_internal_set__BaseType_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x340a044, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x360ed80, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* baseType);
 
-  /// @brief Method get_BaseType, addr 0x340a06c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BaseType, addr 0x360eda8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_BaseType();
 
-  /// @brief Method set_BaseType, addr 0x340a074, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BaseType, addr 0x360edb0, size 0x8, virtual false, abstract: false, final false
   inline void set_BaseType(::System::Type* value);
 
 protected:

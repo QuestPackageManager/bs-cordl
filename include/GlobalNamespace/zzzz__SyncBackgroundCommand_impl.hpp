@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SyncBackgroundCommand.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__SyncBackgroundCommand_def.hpp"
 #include "GlobalNamespace/zzzz__IBackgroundCommand_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::SyncBackgroundCommand::*)()>(
     &::GlobalNamespace::SyncBackgroundCommand::get_resultTask)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0xf8edec;
+  constexpr static std::size_t addrs = 0x10835c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SyncBackgroundCommand*>::get(),
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::SyncBackgroundCommand::*)()>(
     &::GlobalNamespace::SyncBackgroundCommand::Execute)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0xf8ee34;
+  constexpr static std::size_t addrs = 0x1083608;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SyncBackgroundCommand*>::get(), "Execute",
@@ -51,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SyncBackgroundCommand::*)()>(&::GlobalNamespace::SyncBackgroundCommand::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0xf8ef9c;
+  constexpr static std::size_t addrs = 0x1083770;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SyncBackgroundCommand*>::get(), ".ctor",

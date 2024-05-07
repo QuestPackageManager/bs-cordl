@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/RepaintData.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -74,19 +75,19 @@ public:
 
   constexpr void __cordl_internal_set__repaintEvent_k__BackingField(::UnityEngine::Event* value);
 
-  /// @brief Method .ctor, addr 0x33188a4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x351d5e0, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_currentOffset, addr 0x3318874, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_currentOffset, addr 0x351d5b0, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 get_currentOffset();
 
-  /// @brief Method get_currentWorldClip, addr 0x3318888, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_currentWorldClip, addr 0x351d5c4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_currentWorldClip();
 
-  /// @brief Method get_repaintEvent, addr 0x3318894, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_repaintEvent, addr 0x351d5d0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Event* get_repaintEvent();
 
-  /// @brief Method set_repaintEvent, addr 0x331889c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_repaintEvent, addr 0x351d5d8, size 0x8, virtual false, abstract: false, final false
   inline void set_repaintEvent(::UnityEngine::Event* value);
 
 protected:

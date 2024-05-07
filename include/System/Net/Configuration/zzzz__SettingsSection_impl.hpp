@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Configuration/SettingsSection.hpp"
 #include "System/Configuration/zzzz__ConfigurationSection_impl.hpp"
 #include "System/Net/Configuration/zzzz__SettingsSection_def.hpp"
 #include "System/Configuration/zzzz__ConfigurationPropertyCollection_def.hpp"
@@ -7,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Configuration::SettingsSection::*)()>(&::System::Net::Configuration::SettingsSection::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2e797d8;
+  constexpr static std::size_t addrs = 0x2f780d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Configuration::SettingsSection*>::get(), ".ctor",
@@ -21,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Configuration::ConfigurationPropertyCollection* (::System::Net::Configuration::SettingsSection::*)()>(
     &::System::Net::Configuration::SettingsSection::get_Properties)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2e79810;
+  constexpr static std::size_t addrs = 0x2f78110;
 
   inline static ::MethodInfo const* methodInfo() {
 

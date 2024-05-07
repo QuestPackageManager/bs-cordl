@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/PlayerPrefsStorage.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PlayerPrefsStorage_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PlayerPrefsStorage.Initialize
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::GlobalNamespace::PlayerPrefsStorage::Initialize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0xf882ac;
+  constexpr static std::size_t addrs = 0x107a220;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerPrefsStorage*>::get(), "Initialize",
@@ -20,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PlayerPrefsStorage::*)(::StringW, ByRef<::StringW>)>(
     &::GlobalNamespace::PlayerPrefsStorage::LoadFile)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0xf882b0;
+  constexpr static std::size_t addrs = 0x107a224;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PlayerPrefsStorage::*)(::StringW)>(&::GlobalNamespace::PlayerPrefsStorage::FileExists)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0xf88330;
+  constexpr static std::size_t addrs = 0x107a2a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerPrefsStorage::*)()>(&::GlobalNamespace::PlayerPrefsStorage::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf8833c;
+  constexpr static std::size_t addrs = 0x107a2b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerPrefsStorage*>::get(), ".ctor",

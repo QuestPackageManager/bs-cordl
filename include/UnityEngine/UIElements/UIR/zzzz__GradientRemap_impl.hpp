@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/GradientRemap.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__LinkedPoolItem_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TextureId_impl.hpp"
 #include "UnityEngine/zzzz__RectInt_impl.hpp"
@@ -8,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::GradientRemap::*)()>(&::UnityEngine::UIElements::UIR::GradientRemap::Reset)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x331d2c0;
+  constexpr static std::size_t addrs = 0x3521ffc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::GradientRemap*>::get(), "Reset",
@@ -21,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::GradientRemap::*)()>(&::UnityEngine::UIElements::UIR::GradientRemap::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x331d264;
+  constexpr static std::size_t addrs = 0x3521fa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::GradientRemap*>::get(), ".ctor",

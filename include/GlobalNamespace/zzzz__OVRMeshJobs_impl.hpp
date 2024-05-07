@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OVRMeshJobs.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_impl.hpp"
 #include "System/Runtime/InteropServices/zzzz__GCHandle_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -22,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRMeshJobs__TransformToUnitySpaceJob::*)(int32_t)>(
     &::GlobalNamespace::__OVRMeshJobs__TransformToUnitySpaceJob::Execute)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x2a89af8;
+  constexpr static std::size_t addrs = 0x2b853a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -77,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRMeshJobs__TransformTrianglesJob::*)(int32_t)>(
     &::GlobalNamespace::__OVRMeshJobs__TransformTrianglesJob::Execute)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2a89c78;
+  constexpr static std::size_t addrs = 0x2b85528;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -145,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMeshJobs::*)()>(&::GlobalNamespace::OVRMeshJobs::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2a89af0;
+  constexpr static std::size_t addrs = 0x2b853a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMeshJobs*>::get(), ".ctor",

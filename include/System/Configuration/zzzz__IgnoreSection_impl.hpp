@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Configuration/IgnoreSection.hpp"
 #include "System/Configuration/zzzz__ConfigurationSection_impl.hpp"
 #include "System/Configuration/zzzz__IgnoreSection_def.hpp"
 #include "System/Configuration/zzzz__ConfigurationElement_def.hpp"
@@ -10,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Configuration::IgnoreSection::*)()>(&::System::Configuration::IgnoreSection::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2add5c4;
+  constexpr static std::size_t addrs = 0x2bd9ba4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Configuration::IgnoreSection*>::get(), ".ctor",
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Configuration::ConfigurationPropertyCollection* (::System::Configuration::IgnoreSection::*)()>(
     &::System::Configuration::IgnoreSection::get_Properties)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2add5fc;
+  constexpr static std::size_t addrs = 0x2bd9bdc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -39,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Configuration::IgnoreSection::*)(::System::Xml::XmlReader*)>(
     &::System::Configuration::IgnoreSection::DeserializeSection)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2add634;
+  constexpr static std::size_t addrs = 0x2bd9c14;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -53,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Configuration::IgnoreSection::*)()>(&::System::Configuration::IgnoreSection::IsModified)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2add66c;
+  constexpr static std::size_t addrs = 0x2bd9c4c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -68,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Configuration::IgnoreSection::*)(::System::Configuration::ConfigurationElement*)>(
     &::System::Configuration::IgnoreSection::Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2add6a4;
+  constexpr static std::size_t addrs = 0x2bd9c84;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -82,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Configuration::IgnoreSection::*)()>(&::System::Configuration::IgnoreSection::ResetModified)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2add6dc;
+  constexpr static std::size_t addrs = 0x2bd9cbc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -97,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Configuration::IgnoreSection::*)(
     ::System::Configuration::ConfigurationElement*, ::StringW, ::System::Configuration::ConfigurationSaveMode)>(&::System::Configuration::IgnoreSection::SerializeSection)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2add714;
+  constexpr static std::size_t addrs = 0x2bd9cf4;
 
   inline static ::MethodInfo const* methodInfo() {
 

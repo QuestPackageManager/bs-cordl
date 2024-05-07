@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/IBindingRequest.hpp"
 #include "UnityEngine/UIElements/zzzz__IBindingRequest_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::IBindingRequest.Bind

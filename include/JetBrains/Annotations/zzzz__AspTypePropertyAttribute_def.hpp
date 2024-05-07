@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "JetBrains/Annotations/AspTypePropertyAttribute.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,13 +33,13 @@ public:
 
   constexpr void __cordl_internal_set__CreateConstructorReferences_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x340a76c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x360f4a8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(bool createConstructorReferences);
 
-  /// @brief Method get_CreateConstructorReferences, addr 0x340a758, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CreateConstructorReferences, addr 0x360f494, size 0x8, virtual false, abstract: false, final false
   inline bool get_CreateConstructorReferences();
 
-  /// @brief Method set_CreateConstructorReferences, addr 0x340a760, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_CreateConstructorReferences, addr 0x360f49c, size 0xc, virtual false, abstract: false, final false
   inline void set_CreateConstructorReferences(bool value);
 
 protected:

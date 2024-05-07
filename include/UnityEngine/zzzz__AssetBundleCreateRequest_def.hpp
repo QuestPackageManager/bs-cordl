@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/AssetBundleCreateRequest.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,10 +26,10 @@ public:
 
   static inline ::UnityEngine::AssetBundleCreateRequest* New_ctor();
 
-  /// @brief Method .ctor, addr 0x31c7b04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33ce58c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_assetBundle, addr 0x31c7ac8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_assetBundle, addr 0x33ce550, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::AssetBundle> get_assetBundle();
 
 protected:

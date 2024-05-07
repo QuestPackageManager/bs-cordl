@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HAPI_TransformComponent.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_TransformComponent_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::HoudiniEngineUnity::HAPI_TransformComponent::HAPI_TransformComponent(int32_t value__) noexcept {

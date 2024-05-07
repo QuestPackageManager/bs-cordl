@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/VRPlatformUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__VRPlatformUtils_def.hpp"
 #include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
@@ -10,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::XR::XRNode)>(&::GlobalNamespace::VRPlatformUtils::TriggerValueDefaultImplementation)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x23e1838;
+  constexpr static std::size_t addrs = 0x24d9428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::VRPlatformUtils::GetMenuButtonDefaultImplementation)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x23e1114;
+  constexpr static std::size_t addrs = 0x24d8d18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -38,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::VRPlatformUtils::GetMenuButtonDownDefaultImplementation)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x23e1190;
+  constexpr static std::size_t addrs = 0x24d8d94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -53,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)(::GlobalNamespace::IVRPlatformHelper*)>(
     &::GlobalNamespace::VRPlatformUtils::GetAnyJoystickMaxAxisDefaultImplementation)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x23e18b8;
+  constexpr static std::size_t addrs = 0x24d94a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -67,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::GlobalNamespace::IVerboseLogger*)>(&::GlobalNamespace::VRPlatformUtils::StopXR)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x23e19f0;
+  constexpr static std::size_t addrs = 0x24d95e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

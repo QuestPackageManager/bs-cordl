@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/ITextElement.hpp"
 #include "UnityEngine/UIElements/zzzz__ITextElement_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::ITextElement.get_text
 template <>

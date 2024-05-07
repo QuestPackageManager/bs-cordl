@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BeatmapDataCallback_1.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataCallback_1_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/Contexts/IContextProperty.hpp"
 #include "System/Runtime/Remoting/Contexts/zzzz__IContextProperty_def.hpp"
 #include "System/Runtime/Remoting/Contexts/zzzz__Context_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::Contexts::IContextProperty.get_Name

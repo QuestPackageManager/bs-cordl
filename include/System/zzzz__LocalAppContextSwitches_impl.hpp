@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/LocalAppContextSwitches.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__LocalAppContextSwitches_def.hpp"
 inline void System::LocalAppContextSwitches::setStaticF_MemberDescriptorEqualsReturnsFalseIfEquivalent(bool value) {

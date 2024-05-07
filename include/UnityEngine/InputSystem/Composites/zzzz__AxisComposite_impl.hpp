@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Composites/AxisComposite.hpp"
 #include "UnityEngine/InputSystem/Composites/zzzz__AxisComposite_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputBindingComposite_1_impl.hpp"
 #include "UnityEngine/InputSystem/Composites/zzzz__AxisComposite_def.hpp"
@@ -19,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::Composites::AxisComposite::*)()>(
     &::UnityEngine::InputSystem::Composites::AxisComposite::get_midPoint)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2f903e0;
+  constexpr static std::size_t addrs = 0x30cb16c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Composites::AxisComposite*>::get(),
@@ -33,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::Composites::AxisComposite::*)(
     ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext>)>(&::UnityEngine::InputSystem::Composites::AxisComposite::ReadValue)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x2f903f4;
+  constexpr static std::size_t addrs = 0x30cb180;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -49,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::Composites::AxisComposite::*)(
     ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext>)>(&::UnityEngine::InputSystem::Composites::AxisComposite::EvaluateMagnitude)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x2f90514;
+  constexpr static std::size_t addrs = 0x30cb2a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -65,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Composites::AxisComposite::*)()>(
     &::UnityEngine::InputSystem::Composites::AxisComposite::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2f90560;
+  constexpr static std::size_t addrs = 0x30cb2ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Composites::AxisComposite*>::get(),

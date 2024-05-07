@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/InteropServices/VarEnum.hpp"
 #include "System/Runtime/InteropServices/zzzz__VarEnum_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Runtime::InteropServices::VarEnum::VarEnum(int32_t value__) noexcept {

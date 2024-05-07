@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatSaber/BeatAvatarSDK/HeadBodyOffsetSO.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "BeatSaber/BeatAvatarSDK/zzzz__HeadBodyOffsetSO_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::BeatSaber::BeatAvatarSDK::HeadBodyOffsetSO::*)()>(
     &::BeatSaber::BeatAvatarSDK::HeadBodyOffsetSO::get_headNeckOffset)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0xf60b4c;
+  constexpr static std::size_t addrs = 0x10506c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::HeadBodyOffsetSO*>::get(),
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::BeatSaber::BeatAvatarSDK::HeadBodyOffsetSO::*)()>(
     &::BeatSaber::BeatAvatarSDK::HeadBodyOffsetSO::get_verticalOffset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf60b58;
+  constexpr static std::size_t addrs = 0x10506cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::HeadBodyOffsetSO*>::get(),
@@ -36,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarSDK::HeadBodyOffsetSO::*)()>(&::BeatSaber::BeatAvatarSDK::HeadBodyOffsetSO::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0xf60b60;
+  constexpr static std::size_t addrs = 0x10506d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::HeadBodyOffsetSO*>::get(), ".ctor",

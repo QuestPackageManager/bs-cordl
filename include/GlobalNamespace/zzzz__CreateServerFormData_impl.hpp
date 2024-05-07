@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/CreateServerFormData.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficultyMask_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifierMask_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplayServerControlSettings_impl.hpp"

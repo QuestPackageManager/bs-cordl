@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/DefaultNamingStrategy.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__NamingStrategy_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__DefaultNamingStrategy_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Serialization::DefaultNamingStrategy.ResolvePropertyName
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Serialization::DefaultNamingStrategy::*)(::StringW)>(
     &::Newtonsoft::Json::Serialization::DefaultNamingStrategy::ResolvePropertyName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x292c068;
+  constexpr static std::size_t addrs = 0x2a2a918;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::DefaultNamingStrategy::*)()>(
     &::Newtonsoft::Json::Serialization::DefaultNamingStrategy::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x292c070;
+  constexpr static std::size_t addrs = 0x2a2a920;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::DefaultNamingStrategy*>::get(),

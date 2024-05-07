@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Dynamic/BindingRestrictions_CustomRestriction.hpp"
 #include "System/Dynamic/zzzz__BindingRestrictions_impl.hpp"
 #include "System/Dynamic/zzzz__BindingRestrictions_CustomRestriction_def.hpp"
 #include "System/Linq/Expressions/zzzz__Expression_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::__BindingRestrictions__CustomRestriction::*)(::System::Linq::Expressions::Expression*)>(
     &::System::Dynamic::__BindingRestrictions__CustomRestriction::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x2b4feb0;
+  constexpr static std::size_t addrs = 0x2c4c7b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Dynamic::__BindingRestrictions__CustomRestriction::*)(::System::Object*)>(
     &::System::Dynamic::__BindingRestrictions__CustomRestriction::Equals)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x2b503c0;
+  constexpr static std::size_t addrs = 0x2c4ccc0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Dynamic::__BindingRestrictions__CustomRestriction::*)()>(
     &::System::Dynamic::__BindingRestrictions__CustomRestriction::GetHashCode)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x2b50430;
+  constexpr static std::size_t addrs = 0x2c4cd30;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (::System::Dynamic::__BindingRestrictions__CustomRestriction::*)()>(
     &::System::Dynamic::__BindingRestrictions__CustomRestriction::GetExpression)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b50460;
+  constexpr static std::size_t addrs = 0x2c4cd60;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/FrameTimingManager.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,10 +24,10 @@ namespace UnityEngine {
 class CORDL_TYPE FrameTimingManager : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CaptureFrameTimings, addr 0x31f6d10, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method CaptureFrameTimings, addr 0x33fda44, size 0x28, virtual false, abstract: false, final false
   static inline void CaptureFrameTimings();
 
-  /// @brief Method GetLatestTimings, addr 0x31f6d38, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetLatestTimings, addr 0x33fda6c, size 0x44, virtual false, abstract: false, final false
   static inline uint32_t GetLatestTimings(uint32_t numFrames, ::ArrayW<::UnityEngine::FrameTiming, ::Array<::UnityEngine::FrameTiming>*> timings);
 
 protected:

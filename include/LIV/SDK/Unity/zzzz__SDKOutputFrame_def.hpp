@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LIV/SDK/Unity/SDKOutputFrame.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,10 +28,10 @@ namespace LIV::SDK::Unity {
 struct CORDL_TYPE SDKOutputFrame {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x2503884, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x25fa510, size 0xc4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_empty, addr 0x24fe1c4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_empty, addr 0x25f4e50, size 0x60, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKOutputFrame get_empty();
 
   // Ctor Parameters []

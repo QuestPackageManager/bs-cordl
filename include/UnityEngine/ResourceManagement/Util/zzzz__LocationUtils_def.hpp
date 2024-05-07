@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ResourceManagement/Util/LocationUtils.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,11 +25,11 @@ namespace UnityEngine::ResourceManagement::Util {
 class CORDL_TYPE LocationUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method DependenciesEqual, addr 0x3101548, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method DependenciesEqual, addr 0x3307fd0, size 0x278, virtual false, abstract: false, final false
   static inline bool DependenciesEqual(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* deps1,
                                        ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* deps2);
 
-  /// @brief Method LocationEquals, addr 0x310110c, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method LocationEquals, addr 0x3307b94, size 0x2f4, virtual false, abstract: false, final false
   static inline bool LocationEquals(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* loc1, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* loc2);
 
 protected:

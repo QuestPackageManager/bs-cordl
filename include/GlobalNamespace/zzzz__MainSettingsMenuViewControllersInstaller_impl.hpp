@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MainSettingsMenuViewControllersInstaller.hpp"
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__MainSettingsMenuViewControllersInstaller_def.hpp"
 #include "GlobalNamespace/zzzz__MainSettingsMenuViewController_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainSettingsMenuViewControllersInstaller::*)()>(
     &::GlobalNamespace::MainSettingsMenuViewControllersInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x2630974;
+  constexpr static std::size_t addrs = 0x273075c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainSettingsMenuViewControllersInstaller::*)()>(
     &::GlobalNamespace::MainSettingsMenuViewControllersInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2630a28;
+  constexpr static std::size_t addrs = 0x2730810;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

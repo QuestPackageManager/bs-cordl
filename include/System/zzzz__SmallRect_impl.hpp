@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/SmallRect.hpp"
 #include "System/zzzz__SmallRect_def.hpp"
 // Ctor Parameters [CppParam { name: "Left", ty: "int16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Top", ty: "int16_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
 // "Right", ty: "int16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Bottom", ty: "int16_t", modifiers: "", def_value: Some("{}") }]

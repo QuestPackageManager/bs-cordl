@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/Vector3MagnitudeComparer.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,7 +30,7 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IComparer_1<::UnityEngine::Vector3>"
   constexpr operator ::System::Collections::Generic::IComparer_1<::UnityEngine::Vector3>*();
 
-  /// @brief Method Compare, addr 0x3041a98, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x317c824, size 0x40, virtual true, abstract: false, final true
   inline int32_t Compare(::UnityEngine::Vector3 x, ::UnityEngine::Vector3 y);
 
   /// @brief Convert to "::System::Collections::Generic::IComparer_1<::UnityEngine::Vector3>"

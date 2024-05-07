@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Esf/CommitmentTypeIdentifier.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,7 +42,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Esf::CommitmentTypeIdentifier* New_ctor();
 
-  /// @brief Method .ctor, addr 0xffa4a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10edbcc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_ProofOfApproval();

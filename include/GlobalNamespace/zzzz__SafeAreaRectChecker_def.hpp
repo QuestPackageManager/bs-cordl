@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SafeAreaRectChecker.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set_checkingEnabled(bool value);
 
-  /// @brief Method .ctor, addr 0x263a358, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x273a144, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool checkingEnabled);
 
 protected:
@@ -123,10 +124,10 @@ public:
 
   static inline ::GlobalNamespace::SafeAreaRectChecker* New_ctor();
 
-  /// @brief Method Start, addr 0x263a0a4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2739e90, size 0x64, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x263a108, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2739ef4, size 0x1ec, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__activeObjectWhenInsideSafeArea() const;
@@ -189,7 +190,7 @@ public:
 
   constexpr void __cordl_internal_set__rectTransformToCheck(::UnityW<::UnityEngine::RectTransform> value);
 
-  /// @brief Method .ctor, addr 0x263a2f4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x273a0e0, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

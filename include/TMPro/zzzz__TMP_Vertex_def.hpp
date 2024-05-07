@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/TMP_Vertex.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,7 +36,7 @@ public:
 
   static inline ::TMPro::TMP_Vertex getStaticF_k_Zero();
 
-  /// @brief Method get_zero, addr 0x3131124, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_zero, addr 0x3335bac, size 0x68, virtual false, abstract: false, final false
   static inline ::TMPro::TMP_Vertex get_zero();
 
   static inline void setStaticF_k_Zero(::TMPro::TMP_Vertex value);

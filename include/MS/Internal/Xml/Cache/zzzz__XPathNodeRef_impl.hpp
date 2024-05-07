@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "MS/Internal/Xml/Cache/XPathNodeRef.hpp"
 #include "MS/Internal/Xml/Cache/zzzz__XPathNodeRef_def.hpp"
 #include "MS/Internal/Xml/Cache/zzzz__XPathNode_def.hpp"
 //  Writing Method size for method: ::MS::Internal::Xml::Cache::XPathNodeRef._ctor
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::MS::Internal::Xml::Cache::XPathNodeRef::*)(
     ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>, int32_t)>(&::MS::Internal::Xml::Cache::XPathNodeRef::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2d66328;
+  constexpr static std::size_t addrs = 0x2e62c28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> (
     ::MS::Internal::Xml::Cache::XPathNodeRef::*)()>(&::MS::Internal::Xml::Cache::XPathNodeRef::get_Page)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2d66334;
+  constexpr static std::size_t addrs = 0x2e62c34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::MS::Internal::Xml::Cache::XPathNodeRef>::get(), "get_Page",
@@ -37,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::MS::Internal::Xml::Cache::XPathNodeRef::*)()>(&::MS::Internal::Xml::Cache::XPathNodeRef::get_Index)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2d6633c;
+  constexpr static std::size_t addrs = 0x2e62c3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::MS::Internal::Xml::Cache::XPathNodeRef>::get(), "get_Index",
@@ -50,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::MS::Internal::Xml::Cache::XPathNodeRef::*)()>(&::MS::Internal::Xml::Cache::XPathNodeRef::GetHashCode)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2d66344;
+  constexpr static std::size_t addrs = 0x2e62c44;
 
   inline static ::MethodInfo const* methodInfo() {
 

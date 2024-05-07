@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/TMP_FontStyleStack.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,13 +23,13 @@ namespace TMPro {
 struct CORDL_TYPE TMP_FontStyleStack {
 public:
   // Declarations
-  /// @brief Method Add, addr 0x3178788, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x337e210, size 0xfc, virtual false, abstract: false, final false
   inline uint8_t Add(::TMPro::FontStyles style);
 
-  /// @brief Method Clear, addr 0x317877c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x337e204, size 0xc, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Remove, addr 0x3178884, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x337e30c, size 0x120, virtual false, abstract: false, final false
   inline uint8_t Remove(::TMPro::FontStyles style);
 
   // Ctor Parameters []

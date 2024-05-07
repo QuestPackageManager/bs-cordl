@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LiteNetLib/NetUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "LiteNetLib/zzzz__NetUtils_def.hpp"
 #include "LiteNetLib/zzzz__LocalAddrType_def.hpp"
@@ -12,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::IPEndPoint* (*)(::StringW, int32_t)>(&::LiteNetLib::NetUtils::MakeEndPoint)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x24e84e4;
+  constexpr static std::size_t addrs = 0x25e0170;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::IPAddress* (*)(::StringW)>(&::LiteNetLib::NetUtils::ResolveAddress)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x24ee548;
+  constexpr static std::size_t addrs = 0x25e61d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -41,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::IPAddress* (*)(::StringW, ::System::Net::Sockets::AddressFamily)>(
     &::LiteNetLib::NetUtils::ResolveAddress)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x24f31f4;
+  constexpr static std::size_t addrs = 0x25eae80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -57,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*> (*)(::StringW)>(
     &::LiteNetLib::NetUtils::ResolveAddresses)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x24f32c0;
+  constexpr static std::size_t addrs = 0x25eaf4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -72,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::StringW>* (*)(::LiteNetLib::LocalAddrType)>(
     &::LiteNetLib::NetUtils::GetLocalIpList)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x24f32e0;
+  constexpr static std::size_t addrs = 0x25eaf6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -87,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::IList_1<::StringW>*, ::LiteNetLib::LocalAddrType)>(
     &::LiteNetLib::NetUtils::GetLocalIpList)> {
   constexpr static std::size_t size = 0x84c;
-  constexpr static std::size_t addrs = 0x24f3384;
+  constexpr static std::size_t addrs = 0x25eb010;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -102,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::LiteNetLib::LocalAddrType)>(&::LiteNetLib::NetUtils::GetLocalIp)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x24e86a8;
+  constexpr static std::size_t addrs = 0x25e0334;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -116,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::LiteNetLib::NetUtils::PrintInterfaceInfos)> {
   constexpr static std::size_t size = 0x41c;
-  constexpr static std::size_t addrs = 0x24f3bd0;
+  constexpr static std::size_t addrs = 0x25eb85c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetUtils*>::get(), "PrintInterfaceInfos",
@@ -129,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, int32_t)>(&::LiteNetLib::NetUtils::RelativeSequenceNumber)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x24f1e00;
+  constexpr static std::size_t addrs = 0x25e9a8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

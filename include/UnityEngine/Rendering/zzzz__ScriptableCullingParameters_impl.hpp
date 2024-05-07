@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Rendering/ScriptableCullingParameters.hpp"
 #include "UnityEngine/Rendering/zzzz__CameraProperties_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__CullingOptions_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__LODParameters_impl.hpp"
@@ -36,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::ScriptableCullingParameters::*)()>(
     &::UnityEngine::Rendering::ScriptableCullingParameters::get_cullingPlaneCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3228088;
+  constexpr static std::size_t addrs = 0x342fdc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ScriptableCullingParameters>::get(),
@@ -50,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Rendering::ScriptableCullingParameters::*)(int32_t)>(
     &::UnityEngine::Rendering::ScriptableCullingParameters::GetLayerCullingDistance)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3228090;
+  constexpr static std::size_t addrs = 0x342fdcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Plane (::UnityEngine::Rendering::ScriptableCullingParameters::*)(int32_t)>(
     &::UnityEngine::Rendering::ScriptableCullingParameters::GetCullingPlane)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3228170;
+  constexpr static std::size_t addrs = 0x342feac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -80,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::ScriptableCullingParameters::*)(
     ::UnityEngine::Rendering::ScriptableCullingParameters)>(&::UnityEngine::Rendering::ScriptableCullingParameters::Equals)> {
   constexpr static std::size_t size = 0x740;
-  constexpr static std::size_t addrs = 0x3228260;
+  constexpr static std::size_t addrs = 0x342ff9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -95,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::ScriptableCullingParameters::*)(::System::Object*)>(
     &::UnityEngine::Rendering::ScriptableCullingParameters::Equals)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x32289a0;
+  constexpr static std::size_t addrs = 0x34306dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -111,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::ScriptableCullingParameters::*)()>(
     &::UnityEngine::Rendering::ScriptableCullingParameters::GetHashCode)> {
   constexpr static std::size_t size = 0x6a8;
-  constexpr static std::size_t addrs = 0x3228a58;
+  constexpr static std::size_t addrs = 0x3430794;
 
   inline static ::MethodInfo const* methodInfo() {
 

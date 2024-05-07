@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Serialization/Formatters/Binary/MemberPrimitiveTyped.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,18 +39,18 @@ public:
   /// @brief Field value, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value))::System::Object* value;
 
-  /// @brief Method Dump, addr 0x2744bec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Dump, addr 0x2842fe8, size 0x4, virtual false, abstract: false, final false
   inline void Dump();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped* New_ctor();
 
-  /// @brief Method Read, addr 0x2744ba4, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method Read, addr 0x2842fa0, size 0x48, virtual true, abstract: false, final true
   inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
 
-  /// @brief Method Set, addr 0x2744b38, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x2842f34, size 0xc, virtual false, abstract: false, final false
   inline void Set(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE primitiveTypeEnum, ::System::Object* value);
 
-  /// @brief Method Write, addr 0x2744b44, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method Write, addr 0x2842f40, size 0x60, virtual true, abstract: false, final true
   inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
 
   constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const& __cordl_internal_get_primitiveTypeEnum() const;
@@ -64,7 +65,7 @@ public:
 
   constexpr void __cordl_internal_set_value(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x2744b30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2842f2c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/_ThreadPoolWaitCallback.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/zzzz___ThreadPoolWaitCallback_def.hpp"
 //  Writing Method size for method: ::System::Threading::_ThreadPoolWaitCallback.PerformWaitCallback
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::System::Threading::_ThreadPoolWaitCallback::PerformWaitCallback)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x28a5478;
+  constexpr static std::size_t addrs = 0x29a3d28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::_ThreadPoolWaitCallback*>::get(),

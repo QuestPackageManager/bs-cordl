@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/CompilerServices/RuntimeFeature.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,7 +19,7 @@ namespace System::Runtime::CompilerServices {
 class CORDL_TYPE RuntimeFeature : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_IsDynamicCodeSupported, addr 0x275c9c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDynamicCodeSupported, addr 0x285c0d0, size 0x8, virtual false, abstract: false, final false
   static inline bool get_IsDynamicCodeSupported();
 
 protected:

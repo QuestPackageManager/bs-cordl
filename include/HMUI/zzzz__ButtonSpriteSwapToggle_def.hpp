@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/ButtonSpriteSwapToggle.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,12 +33,12 @@ public:
 
   __declspec(property(get = get_isToggled, put = set_isToggled)) bool isToggled;
 
-  /// @brief Method HandleButtonSelectionStateDidChange, addr 0x241990c, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method HandleButtonSelectionStateDidChange, addr 0x2513598, size 0x14c, virtual true, abstract: false, final false
   inline void HandleButtonSelectionStateDidChange(::HMUI::__NoTransitionsButton__SelectionState state);
 
   static inline ::HMUI::ButtonSpriteSwapToggle* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x24198dc, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x2513568, size 0x30, virtual true, abstract: false, final false
   inline void OnEnable();
 
   constexpr bool const& __cordl_internal_get__ignoreHighlight() const;
@@ -58,13 +59,13 @@ public:
 
   constexpr void __cordl_internal_set__resetToggleOnEnable(bool value);
 
-  /// @brief Method .ctor, addr 0x2419a58, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25136e4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isToggled, addr 0x2419894, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isToggled, addr 0x2513520, size 0x8, virtual false, abstract: false, final false
   inline bool get_isToggled();
 
-  /// @brief Method set_isToggled, addr 0x241989c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method set_isToggled, addr 0x2513528, size 0x40, virtual false, abstract: false, final false
   inline void set_isToggled(bool value);
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/NetworkInformation/LinuxNetworkInterfaceAPI.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,18 +25,18 @@ namespace System::Net::NetworkInformation {
 class CORDL_TYPE LinuxNetworkInterfaceAPI : public ::System::Net::NetworkInformation::UnixNetworkInterfaceAPI {
 public:
   // Declarations
-  /// @brief Method FreeInterfaceAddresses, addr 0x2f23810, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method FreeInterfaceAddresses, addr 0x3024110, size 0x4, virtual false, abstract: false, final false
   static inline void FreeInterfaceAddresses(void* ifap);
 
-  /// @brief Method GetAllNetworkInterfaces, addr 0x2f23910, size 0xaf4, virtual true, abstract: false, final false
+  /// @brief Method GetAllNetworkInterfaces, addr 0x3024210, size 0xaf4, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Net::NetworkInformation::NetworkInterface*, ::Array<::System::Net::NetworkInformation::NetworkInterface*>*> GetAllNetworkInterfaces();
 
-  /// @brief Method GetInterfaceAddresses, addr 0x2f23890, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetInterfaceAddresses, addr 0x3024190, size 0x4, virtual false, abstract: false, final false
   static inline int32_t GetInterfaceAddresses(ByRef<void*> ifap);
 
   static inline ::System::Net::NetworkInformation::LinuxNetworkInterfaceAPI* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f244dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3024ddc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

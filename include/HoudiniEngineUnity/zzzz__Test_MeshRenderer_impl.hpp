@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/Test_MeshRenderer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__Test_MeshRenderer_def.hpp"
 #include "HoudiniEngineUnity/zzzz__IEquivableWrapperClass_1_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::Test_MeshRenderer::*)(::UnityEngine::MeshRenderer*)>(
     &::HoudiniEngineUnity::Test_MeshRenderer::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x24d2184;
+  constexpr static std::size_t addrs = 0x25c9e10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::Test_MeshRenderer::*)()>(&::HoudiniEngineUnity::Test_MeshRenderer::IsNull)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x24d21ac;
+  constexpr static std::size_t addrs = 0x25c9e38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::Test_MeshRenderer*>::get(), "IsNull",
@@ -38,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::Test_MeshRenderer::*)(::HoudiniEngineUnity::Test_MeshRenderer*)>(
     &::HoudiniEngineUnity::Test_MeshRenderer::IsEquivalentTo)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x24d220c;
+  constexpr static std::size_t addrs = 0x25c9e98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

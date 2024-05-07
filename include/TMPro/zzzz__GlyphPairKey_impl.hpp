@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/GlyphPairKey.hpp"
 #include "TMPro/zzzz__GlyphPairKey_def.hpp"
 #include "TMPro/zzzz__TMP_GlyphPairAdjustmentRecord_def.hpp"
 //  Writing Method size for method: ::TMPro::GlyphPairKey._ctor
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::GlyphPairKey::*)(uint32_t, uint32_t)>(&::TMPro::GlyphPairKey::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3141bc4;
+  constexpr static std::size_t addrs = 0x334664c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -20,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::GlyphPairKey::*)(::TMPro::TMP_GlyphPairAdjustmentRecord*)>(&::TMPro::GlyphPairKey::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3139548;
+  constexpr static std::size_t addrs = 0x333dfd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

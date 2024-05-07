@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/NetworkInformation/ifa_ifu.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/Net/NetworkInformation/zzzz__ifa_ifu_def.hpp"
 constexpr void*& System::Net::NetworkInformation::ifa_ifu::__cordl_internal_get_ifu_broadaddr() {

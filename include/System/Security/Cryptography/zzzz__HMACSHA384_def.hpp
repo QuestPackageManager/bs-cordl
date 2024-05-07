@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Cryptography/HMACSHA384.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,13 +36,13 @@ public:
 
   constexpr void __cordl_internal_set_m_useLegacyBlockSize(bool value);
 
-  /// @brief Method .ctor, addr 0x26e27c0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27dfbbc, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x26e27e4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27dfbe0, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method get_BlockSize, addr 0x26e28d4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_BlockSize, addr 0x27dfcd0, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_BlockSize();
 
 protected:

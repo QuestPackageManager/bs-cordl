@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IGamePause.hpp"
 #include "GlobalNamespace/zzzz__IGamePause_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IGamePause.get_isPaused

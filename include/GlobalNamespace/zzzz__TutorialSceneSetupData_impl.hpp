@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/TutorialSceneSetupData.hpp"
 #include "GlobalNamespace/zzzz__SceneSetupData_impl.hpp"
 #include "GlobalNamespace/zzzz__TutorialSceneSetupData_def.hpp"
 #include "GlobalNamespace/zzzz__ColorScheme_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::TutorialSceneSetupData::*)(::GlobalNamespace::ColorScheme*, ::GlobalNamespace::PlayerSpecificSettings*)>(&::GlobalNamespace::TutorialSceneSetupData::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x25a89ac;
+  constexpr static std::size_t addrs = 0x26a2a44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

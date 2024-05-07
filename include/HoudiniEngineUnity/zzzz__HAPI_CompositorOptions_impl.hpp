@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HAPI_CompositorOptions.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_CompositorOptions_def.hpp"
 // Ctor Parameters [CppParam { name: "maximumResolutionX", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "maximumResolutionY", ty: "int32_t", modifiers: "", def_value:
 // Some("{}") }]

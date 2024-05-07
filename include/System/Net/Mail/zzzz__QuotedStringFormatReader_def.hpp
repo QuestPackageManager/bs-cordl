@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Mail/QuotedStringFormatReader.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,13 +21,13 @@ namespace System::Net::Mail {
 class CORDL_TYPE QuotedStringFormatReader : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsValidQtext, addr 0x2e32c18, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method IsValidQtext, addr 0x2f31518, size 0xb8, virtual false, abstract: false, final false
   static inline bool IsValidQtext(bool allowUnicode, char16_t ch);
 
-  /// @brief Method ReadReverseQuoted, addr 0x2e32808, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method ReadReverseQuoted, addr 0x2f31108, size 0x1cc, virtual false, abstract: false, final false
   static inline int32_t ReadReverseQuoted(::StringW data, int32_t index, bool permitUnicode);
 
-  /// @brief Method ReadReverseUnQuoted, addr 0x2e329d4, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method ReadReverseUnQuoted, addr 0x2f312d4, size 0x1a0, virtual false, abstract: false, final false
   static inline int32_t ReadReverseUnQuoted(::StringW data, int32_t index, bool permitUnicode, bool expectCommaDelimiter);
 
 protected:

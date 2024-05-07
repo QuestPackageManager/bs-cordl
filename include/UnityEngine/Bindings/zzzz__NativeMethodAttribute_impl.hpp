@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Bindings/NativeMethodAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/Bindings/zzzz__NativeMethodAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Bindings::NativeMethodAttribute.set_Name
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Bindings::NativeMethodAttribute::*)(::StringW)>(
     &::UnityEngine::Bindings::NativeMethodAttribute::set_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3266cd4;
+  constexpr static std::size_t addrs = 0x346fa10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Bindings::NativeMethodAttribute::*)(bool)>(
     &::UnityEngine::Bindings::NativeMethodAttribute::set_IsThreadSafe)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3266cdc;
+  constexpr static std::size_t addrs = 0x346fa18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -37,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Bindings::NativeMethodAttribute::*)(bool)>(
     &::UnityEngine::Bindings::NativeMethodAttribute::set_IsFreeFunction)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3266ce8;
+  constexpr static std::size_t addrs = 0x346fa24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -52,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Bindings::NativeMethodAttribute::*)(bool)>(
     &::UnityEngine::Bindings::NativeMethodAttribute::set_ThrowsException)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3266cf4;
+  constexpr static std::size_t addrs = 0x346fa30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -67,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Bindings::NativeMethodAttribute::*)(bool)>(
     &::UnityEngine::Bindings::NativeMethodAttribute::set_HasExplicitThis)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3266d00;
+  constexpr static std::size_t addrs = 0x346fa3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -81,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Bindings::NativeMethodAttribute::*)()>(&::UnityEngine::Bindings::NativeMethodAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3266d0c;
+  constexpr static std::size_t addrs = 0x346fa48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Bindings::NativeMethodAttribute*>::get(), ".ctor",
@@ -95,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Bindings::NativeMethodAttribute::*)(::StringW)>(
     &::UnityEngine::Bindings::NativeMethodAttribute::_ctor)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3266d14;
+  constexpr static std::size_t addrs = 0x346fa50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -110,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Bindings::NativeMethodAttribute::*)(::StringW, bool)>(
     &::UnityEngine::Bindings::NativeMethodAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3266e18;
+  constexpr static std::size_t addrs = 0x346fb54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -125,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Bindings::NativeMethodAttribute::*)(::StringW, bool, bool)>(
     &::UnityEngine::Bindings::NativeMethodAttribute::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3266e40;
+  constexpr static std::size_t addrs = 0x346fb7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

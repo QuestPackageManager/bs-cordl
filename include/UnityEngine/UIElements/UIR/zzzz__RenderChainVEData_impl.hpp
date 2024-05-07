@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/RenderChainVEData.hpp"
 #include "UnityEngine/UIElements/UIR/Implementation/zzzz__ClipMethod_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__BMPAlloc_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__RenderDataDirtyTypes_impl.hpp"
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::UIR::RenderChainCommand* (::UnityEngine::UIElements::UIR::RenderChainVEData::*)()>(
     &::UnityEngine::UIElements::UIR::RenderChainVEData::get_lastClosingOrLastCommand)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x33dff78;
+  constexpr static std::size_t addrs = 0x35e5cb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::RenderChainVEData>::get(),
@@ -37,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::UIR::BMPAlloc)>(
     &::UnityEngine::UIElements::UIR::RenderChainVEData::AllocatesID)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x33dff90;
+  constexpr static std::size_t addrs = 0x35e5ccc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -51,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::UIR::BMPAlloc)>(&::UnityEngine::UIElements::UIR::RenderChainVEData::InheritsID)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x33dffc4;
+  constexpr static std::size_t addrs = 0x35e5d00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

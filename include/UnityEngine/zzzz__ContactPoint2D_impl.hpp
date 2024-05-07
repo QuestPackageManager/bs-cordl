@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ContactPoint2D.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/zzzz__ContactPoint2D_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"

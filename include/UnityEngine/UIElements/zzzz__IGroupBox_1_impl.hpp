@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/IGroupBox_1.hpp"
 #include "UnityEngine/UIElements/zzzz__IGroupBox_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IGroupBox_def.hpp"
 /// @brief Convert operator to "::UnityEngine::UIElements::IGroupBox"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/TypeHelpers.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,16 +36,16 @@ public:
   /// @brief Method As, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TObject> static inline TObject As(::System::Object* obj);
 
-  /// @brief Method GetGenericTypeArgumentFromHierarchy, addr 0x2f8f918, size 0x3cc, virtual false, abstract: false, final false
+  /// @brief Method GetGenericTypeArgumentFromHierarchy, addr 0x30ca6a4, size 0x3cc, virtual false, abstract: false, final false
   static inline ::System::Type* GetGenericTypeArgumentFromHierarchy(::System::Type* type, ::System::Type* genericTypeDefinition, int32_t argumentIndex);
 
-  /// @brief Method GetNiceTypeName, addr 0x2f8f488, size 0x490, virtual false, abstract: false, final false
+  /// @brief Method GetNiceTypeName, addr 0x30ca214, size 0x490, virtual false, abstract: false, final false
   static inline ::StringW GetNiceTypeName(::System::Type* type);
 
-  /// @brief Method GetValueType, addr 0x2f8f2e8, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method GetValueType, addr 0x30ca074, size 0x1a0, virtual false, abstract: false, final false
   static inline ::System::Type* GetValueType(::System::Reflection::MemberInfo* member);
 
-  /// @brief Method IsInt, addr 0x2f8f2d8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsInt, addr 0x30ca064, size 0x10, virtual false, abstract: false, final false
   static inline bool IsInt(::System::TypeCode type);
 
 protected:

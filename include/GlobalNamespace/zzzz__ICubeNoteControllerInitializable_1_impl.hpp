@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ICubeNoteControllerInitializable_1.hpp"
 #include "GlobalNamespace/zzzz__ICubeNoteControllerInitializable_1_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 template <typename T> inline void GlobalNamespace::ICubeNoteControllerInitializable_1<T>::add_cubeNoteControllerDidInitEvent(::System::Action_1<T>* value) {

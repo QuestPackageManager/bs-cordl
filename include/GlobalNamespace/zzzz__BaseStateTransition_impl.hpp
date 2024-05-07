@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BaseStateTransition.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BaseStateTransition_def.hpp"
 #include "GlobalNamespace/zzzz__BaseTransitionSO_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::Tweening::TimeTweeningManager> (::GlobalNamespace::BaseStateTransition::*)()>(
     &::GlobalNamespace::BaseStateTransition::get_tweeningManager)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x263a648;
+  constexpr static std::size_t addrs = 0x273a434;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BaseStateTransition*>::get(),
@@ -39,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BaseStateTransition::*)(::GlobalNamespace::__SelectableStateController__ViewState)>(
     &::GlobalNamespace::BaseStateTransition::SetState)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x263a664;
+  constexpr static std::size_t addrs = 0x273a450;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BaseStateTransition::*)()>(&::GlobalNamespace::BaseStateTransition::OnEnable)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x263a6e0;
+  constexpr static std::size_t addrs = 0x273a4cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BaseStateTransition*>::get(), "OnEnable",
@@ -66,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BaseStateTransition::*)()>(&::GlobalNamespace::BaseStateTransition::OnDisable)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x263a834;
+  constexpr static std::size_t addrs = 0x273a620;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BaseStateTransition*>::get(), "OnDisable",
@@ -79,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BaseStateTransition::*)()>(&::GlobalNamespace::BaseStateTransition::OnDestroy)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x263a96c;
+  constexpr static std::size_t addrs = 0x273a758;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BaseStateTransition*>::get(), "OnDestroy",
@@ -93,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BaseStateTransition::*)(::GlobalNamespace::__SelectableStateController__ViewState, bool)>(
     &::GlobalNamespace::BaseStateTransition::HandleSelectableStateControllerStateDidChange)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x263aa04;
+  constexpr static std::size_t addrs = 0x273a7f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -110,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BaseStateTransition::*)()>(
     &::GlobalNamespace::BaseStateTransition::TransitionToNormalState)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x263aa70;
+  constexpr static std::size_t addrs = 0x273a85c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -125,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BaseStateTransition::*)()>(
     &::GlobalNamespace::BaseStateTransition::TransitionToHighlightedState)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x263aa74;
+  constexpr static std::size_t addrs = 0x273a860;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -140,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BaseStateTransition::*)()>(
     &::GlobalNamespace::BaseStateTransition::TransitionToPressedState)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x263aa78;
+  constexpr static std::size_t addrs = 0x273a864;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -155,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BaseStateTransition::*)()>(
     &::GlobalNamespace::BaseStateTransition::TransitionToDisabledState)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x263aa7c;
+  constexpr static std::size_t addrs = 0x273a868;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -170,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BaseStateTransition::*)()>(
     &::GlobalNamespace::BaseStateTransition::TransitionToSelectedState)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x263aa80;
+  constexpr static std::size_t addrs = 0x273a86c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -185,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BaseStateTransition::*)()>(
     &::GlobalNamespace::BaseStateTransition::TransitionToSelectedAndHighlightedState)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x263aa84;
+  constexpr static std::size_t addrs = 0x273a870;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -199,7 +200,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BaseStateTransition::*)()>(&::GlobalNamespace::BaseStateTransition::SetNormalState)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x263aa88;
+  constexpr static std::size_t addrs = 0x273a874;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -213,7 +214,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BaseStateTransition::*)()>(&::GlobalNamespace::BaseStateTransition::SetHighlightedState)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x263aa8c;
+  constexpr static std::size_t addrs = 0x273a878;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -227,7 +228,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BaseStateTransition::*)()>(&::GlobalNamespace::BaseStateTransition::SetPressedState)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x263aa90;
+  constexpr static std::size_t addrs = 0x273a87c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -241,7 +242,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BaseStateTransition::*)()>(&::GlobalNamespace::BaseStateTransition::SetDisabledState)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x263aa94;
+  constexpr static std::size_t addrs = 0x273a880;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -255,7 +256,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BaseStateTransition::*)()>(&::GlobalNamespace::BaseStateTransition::SetSelectedState)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x263aa98;
+  constexpr static std::size_t addrs = 0x273a884;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -270,7 +271,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BaseStateTransition::*)()>(
     &::GlobalNamespace::BaseStateTransition::SetSelectedAndHighlightedState)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x263aa9c;
+  constexpr static std::size_t addrs = 0x273a888;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -284,7 +285,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BaseStateTransition::*)()>(&::GlobalNamespace::BaseStateTransition::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x263aaa0;
+  constexpr static std::size_t addrs = 0x273a88c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BaseStateTransition*>::get(), ".ctor",

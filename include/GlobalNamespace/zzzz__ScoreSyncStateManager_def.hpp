@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ScoreSyncStateManager.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -70,36 +71,36 @@ public:
   constexpr operator ::GlobalNamespace::IScoreSyncStateManager_5<::GlobalNamespace::StandardScoreSyncState, ::GlobalNamespace::__StandardScoreSyncState__Score, int32_t,
                                                                  ::GlobalNamespace::StandardScoreSyncStateNetSerializable*, ::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable*>*() noexcept;
 
-  /// @brief Method Interpolate, addr 0x28beb78, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method Interpolate, addr 0x29be428, size 0xfc, virtual true, abstract: false, final false
   inline int32_t Interpolate(int32_t prev, int64_t prevTime, int32_t curr, int64_t currTime, int64_t time);
 
   static inline ::GlobalNamespace::ScoreSyncStateManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28bec74, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29be524, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_deltaMessageType, addr 0x28beb70, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_deltaMessageType, addr 0x29be420, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::__MultiplayerSessionManager__MessageType get_deltaMessageType();
 
-  /// @brief Method get_deltaSerializablePool, addr 0x28beb60, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_deltaSerializablePool, addr 0x29be410, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::IPacketPool_1<::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable*>* get_deltaSerializablePool();
 
-  /// @brief Method get_deltaUpdateFrequencyMs, addr 0x28beb38, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_deltaUpdateFrequencyMs, addr 0x29be3e8, size 0x8, virtual true, abstract: false, final false
   inline int64_t get_deltaUpdateFrequencyMs();
 
-  /// @brief Method get_fullStateUpdateFrequencyMs, addr 0x28beb40, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_fullStateUpdateFrequencyMs, addr 0x29be3f0, size 0x8, virtual true, abstract: false, final false
   inline int64_t get_fullStateUpdateFrequencyMs();
 
-  /// @brief Method get_localBufferSize, addr 0x28beb48, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_localBufferSize, addr 0x29be3f8, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_localBufferSize();
 
-  /// @brief Method get_messageType, addr 0x28beb68, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_messageType, addr 0x29be418, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::__MultiplayerSessionManager__MessageType get_messageType();
 
-  /// @brief Method get_remoteBufferSize, addr 0x28beb50, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_remoteBufferSize, addr 0x29be400, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_remoteBufferSize();
 
-  /// @brief Method get_serializablePool, addr 0x28beb58, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_serializablePool, addr 0x29be408, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::IPacketPool_1<::GlobalNamespace::StandardScoreSyncStateNetSerializable*>* get_serializablePool();
 
   /// @brief Convert to "::GlobalNamespace::IScoreSyncStateManager"

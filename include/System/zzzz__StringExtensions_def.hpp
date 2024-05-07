@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/StringExtensions.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,7 +21,7 @@ namespace System {
 class CORDL_TYPE StringExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SubstringTrim, addr 0x2e7b260, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method SubstringTrim, addr 0x2f7ab60, size 0x170, virtual false, abstract: false, final false
   static inline ::StringW SubstringTrim(::StringW value, int32_t startIndex, int32_t length);
 
 protected:

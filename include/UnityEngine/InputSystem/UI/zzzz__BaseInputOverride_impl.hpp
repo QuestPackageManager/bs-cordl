@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/UI/BaseInputOverride.hpp"
 #include "UnityEngine/EventSystems/zzzz__BaseInput_impl.hpp"
 #include "UnityEngine/InputSystem/UI/zzzz__BaseInputOverride_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::UI::BaseInputOverride.get_compositionString
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::UI::BaseInputOverride::*)()>(
     &::UnityEngine::InputSystem::UI::BaseInputOverride::get_compositionString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x300204c;
+  constexpr static std::size_t addrs = 0x313edd8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::UI::BaseInputOverride::*)()>(
     &::UnityEngine::InputSystem::UI::BaseInputOverride::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3002054;
+  constexpr static std::size_t addrs = 0x313ede0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::UI::BaseInputOverride*>::get(),

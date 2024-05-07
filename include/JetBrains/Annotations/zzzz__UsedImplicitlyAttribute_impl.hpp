@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "JetBrains/Annotations/UsedImplicitlyAttribute.hpp"
 #include "JetBrains/Annotations/zzzz__ImplicitUseKindFlags_impl.hpp"
 #include "JetBrains/Annotations/zzzz__ImplicitUseTargetFlags_impl.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
@@ -11,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::UsedImplicitlyAttribute::*)()>(
     &::JetBrains::Annotations::UsedImplicitlyAttribute::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x31cf2cc;
+  constexpr static std::size_t addrs = 0x33d6000;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::JetBrains::Annotations::UsedImplicitlyAttribute*>::get(),
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::UsedImplicitlyAttribute::*)(
     ::JetBrains::Annotations::ImplicitUseKindFlags, ::JetBrains::Annotations::ImplicitUseTargetFlags)>(&::JetBrains::Annotations::UsedImplicitlyAttribute::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x31cf2f0;
+  constexpr static std::size_t addrs = 0x33d6024;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((

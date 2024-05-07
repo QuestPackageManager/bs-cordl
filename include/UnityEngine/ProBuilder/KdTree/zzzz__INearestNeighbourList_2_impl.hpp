@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ProBuilder/KdTree/INearestNeighbourList_2.hpp"
 #include "UnityEngine/ProBuilder/KdTree/zzzz__INearestNeighbourList_2_def.hpp"
 template <typename TItem, typename TDistance> inline bool UnityEngine::ProBuilder::KdTree::INearestNeighbourList_2<TItem, TDistance>::Add(TItem item, TDistance distance) {
   auto* ___internal_method = THROW_UNLESS(

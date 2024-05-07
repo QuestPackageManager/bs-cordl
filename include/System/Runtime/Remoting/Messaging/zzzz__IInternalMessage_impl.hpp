@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/Messaging/IInternalMessage.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IInternalMessage_def.hpp"
 #include "System/Runtime/Remoting/zzzz__Identity_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::Messaging::IInternalMessage.get_TargetIdentity

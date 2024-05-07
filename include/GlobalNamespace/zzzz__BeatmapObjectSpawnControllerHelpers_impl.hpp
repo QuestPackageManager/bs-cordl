@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BeatmapObjectSpawnControllerHelpers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectSpawnControllerHelpers_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectSpawnMovementData_def.hpp"
@@ -10,7 +11,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::GlobalNamespace::PlayerSpecificSettings*, float_t, ByRef<::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteJumpValueType>, ByRef<float_t>)>(
         &::GlobalNamespace::BeatmapObjectSpawnControllerHelpers::GetNoteJumpValues)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2521670;
+  constexpr static std::size_t addrs = 0x2618504;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

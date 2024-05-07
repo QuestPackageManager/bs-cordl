@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/ParentForeignKeyConstraintEnumerator.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,7 +31,7 @@ public:
   /// @brief Field _table, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__table, put = __cordl_internal_set__table))::System::Data::DataTable* _table;
 
-  /// @brief Method IsValidCandidate, addr 0x2b7950c, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method IsValidCandidate, addr 0x2c76e0c, size 0x98, virtual true, abstract: false, final false
   inline bool IsValidCandidate(::System::Data::Constraint* constraint);
 
   static inline ::System::Data::ParentForeignKeyConstraintEnumerator* New_ctor(::System::Data::DataSet* dataSet, ::System::Data::DataTable* inTable);
@@ -41,7 +42,7 @@ public:
 
   constexpr void __cordl_internal_set__table(::System::Data::DataTable* value);
 
-  /// @brief Method .ctor, addr 0x2b794e8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c76de8, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataSet* dataSet, ::System::Data::DataTable* inTable);
 
 protected:

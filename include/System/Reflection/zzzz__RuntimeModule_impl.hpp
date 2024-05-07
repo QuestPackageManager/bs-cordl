@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Reflection/RuntimeModule.hpp"
 #include "System/Reflection/zzzz__Module_impl.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/Reflection/zzzz__RuntimeModule_def.hpp"
@@ -15,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::Assembly* (::System::Reflection::RuntimeModule::*)()>(
     &::System::Reflection::RuntimeModule::get_Assembly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x277702c;
+  constexpr static std::size_t addrs = 0x287674c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -29,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Reflection::RuntimeModule::*)()>(&::System::Reflection::RuntimeModule::get_ScopeName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2777034;
+  constexpr static std::size_t addrs = 0x2876754;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Guid (::System::Reflection::RuntimeModule::*)()>(
     &::System::Reflection::RuntimeModule::get_ModuleVersionId)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x277703c;
+  constexpr static std::size_t addrs = 0x287675c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::RuntimeModule::*)()>(&::System::Reflection::RuntimeModule::IsResource)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x277704c;
+  constexpr static std::size_t addrs = 0x287676c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -73,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Object*, ::Array<::System::Object*>*> (::System::Reflection::RuntimeModule::*)(bool)>(
     &::System::Reflection::RuntimeModule::GetCustomAttributes)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2777054;
+  constexpr static std::size_t addrs = 0x2876774;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -88,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::System::Object*, ::Array<::System::Object*>*> (::System::Reflection::RuntimeModule::*)(::System::Type*, bool)>(&::System::Reflection::RuntimeModule::GetCustomAttributes)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x27770bc;
+  constexpr static std::size_t addrs = 0x28767dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -103,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::RuntimeModule::*)(::System::Type*, bool)>(
     &::System::Reflection::RuntimeModule::IsDefined)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x277712c;
+  constexpr static std::size_t addrs = 0x287684c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -118,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Reflection::RuntimeModule::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Reflection::RuntimeModule::GetObjectData)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x277719c;
+  constexpr static std::size_t addrs = 0x28768bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -133,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::RuntimeAssembly* (::System::Reflection::RuntimeModule::*)()>(
     &::System::Reflection::RuntimeModule::GetRuntimeAssembly)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x2777234;
+  constexpr static std::size_t addrs = 0x2876954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::RuntimeModule*>::get(),
@@ -147,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Guid (::System::Reflection::RuntimeModule::*)()>(
     &::System::Reflection::RuntimeModule::GetModuleVersionId)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x27772ac;
+  constexpr static std::size_t addrs = 0x28769cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -161,7 +162,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(void*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::System::Reflection::RuntimeModule::GetGuidInternal)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x277732c;
+  constexpr static std::size_t addrs = 0x2876a4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -176,7 +177,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Reflection::RuntimeModule::*)()>(&::System::Reflection::RuntimeModule::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2777330;
+  constexpr static std::size_t addrs = 0x2876a50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::RuntimeModule*>::get(), ".ctor",

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Cmp/PkiBody.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,17 +48,17 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-  /// @brief Method GetBodyForType, addr 0xfd4364, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method GetBodyForType, addr 0x10c7a88, size 0x15c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1Encodable* GetBodyForType(int32_t type, ::Org::BouncyCastle::Asn1::Asn1Encodable* o);
 
-  /// @brief Method GetInstance, addr 0xfd418c, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x10c78b0, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiBody* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiBody* New_ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagged);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiBody* New_ctor(int32_t type, ::Org::BouncyCastle::Asn1::Asn1Encodable* content);
 
-  /// @brief Method ToAsn1Object, addr 0xfd52b0, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x10c89d4, size 0x74, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable*& __cordl_internal_get_body();
@@ -72,16 +73,16 @@ public:
 
   constexpr void __cordl_internal_set_tagNo(int32_t value);
 
-  /// @brief Method .ctor, addr 0xfd4314, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10c7a38, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagged);
 
-  /// @brief Method .ctor, addr 0xfd44c0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10c7be4, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(int32_t type, ::Org::BouncyCastle::Asn1::Asn1Encodable* content);
 
-  /// @brief Method get_Content, addr 0xfd52a8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Content, addr 0x10c89cc, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Content();
 
-  /// @brief Method get_Type, addr 0xfd52a0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x10c89c4, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Type();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"

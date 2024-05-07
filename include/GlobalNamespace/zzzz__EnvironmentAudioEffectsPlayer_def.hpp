@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/EnvironmentAudioEffectsPlayer.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,7 +33,7 @@ public:
 
   static inline ::GlobalNamespace::EnvironmentAudioEffectsPlayer* New_ctor();
 
-  /// @brief Method PlayEffect, addr 0x25101e8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method PlayEffect, addr 0x2607548, size 0x64, virtual false, abstract: false, final false
   inline void PlayEffect(::UnityEngine::AudioClip* clip, float_t volume);
 
   constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
@@ -41,10 +42,10 @@ public:
 
   constexpr void __cordl_internal_set__audioSource(::UnityW<::UnityEngine::AudioSource> value);
 
-  /// @brief Method .ctor, addr 0x251024c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26075ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_audioSource, addr 0x25101e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_audioSource, addr 0x2607540, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::AudioSource> get_audioSource();
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SonyContentVersion.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -98,13 +99,13 @@ public:
 
   __declspec(property(get = get_revision)) uint32_t revision;
 
-  /// @brief Method Get, addr 0x13eb940, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x14ddbac, size 0x178, virtual false, abstract: false, final false
   inline ::StringW Get(::GlobalNamespace::__SonyContentVersion__VersionFormat versionFormat);
 
-  /// @brief Method GetFromString, addr 0x13eb574, size 0x33c, virtual false, abstract: false, final false
+  /// @brief Method GetFromString, addr 0x14dd7e0, size 0x33c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::SonyContentVersion* GetFromString(::StringW versionString);
 
-  /// @brief Method IsVersionFormatValid, addr 0x13eb8b0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method IsVersionFormatValid, addr 0x14ddb1c, size 0x90, virtual false, abstract: false, final false
   static inline bool IsVersionFormatValid(::StringW versionString);
 
   static inline ::GlobalNamespace::SonyContentVersion* New_ctor(uint32_t majorVersion, uint32_t minorVersion, uint32_t revision);
@@ -127,16 +128,16 @@ public:
 
   constexpr void __cordl_internal_set__revision(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x13eb538, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14dd7a4, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(uint32_t majorVersion, uint32_t minorVersion, uint32_t revision);
 
-  /// @brief Method get_majorVersion, addr 0x13eb520, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_majorVersion, addr 0x14dd78c, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_majorVersion();
 
-  /// @brief Method get_minorVersion, addr 0x13eb528, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_minorVersion, addr 0x14dd794, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_minorVersion();
 
-  /// @brief Method get_revision, addr 0x13eb530, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_revision, addr 0x14dd79c, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_revision();
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Playables/DirectorWrapMode.hpp"
 #include "UnityEngine/Playables/zzzz__DirectorWrapMode_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Playables::DirectorWrapMode::DirectorWrapMode(int32_t value__) noexcept {

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/BinaryCompatibility.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,7 +19,7 @@ namespace System::Xml {
 class CORDL_TYPE BinaryCompatibility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_TargetsAtLeast_Desktop_V4_5_2, addr 0x2dc1a40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TargetsAtLeast_Desktop_V4_5_2, addr 0x2ebf340, size 0x8, virtual false, abstract: false, final false
   static inline bool get_TargetsAtLeast_Desktop_V4_5_2();
 
 protected:

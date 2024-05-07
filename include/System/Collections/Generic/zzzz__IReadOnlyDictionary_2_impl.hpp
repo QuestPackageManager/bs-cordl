@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Collections/Generic/IReadOnlyDictionary_2.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyDictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"

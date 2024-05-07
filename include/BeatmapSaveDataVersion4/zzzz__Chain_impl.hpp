@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatmapSaveDataVersion4/Chain.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__Chain_def.hpp"
 // Ctor Parameters [CppParam { name: "tx", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ty", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "c",
 // ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "s", ty: "float_t", modifiers: "", def_value: Some("{}") }]

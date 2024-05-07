@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/Locale.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__Locale_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -7,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::GlobalNamespace::Locale::GetText)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x266c968;
+  constexpr static std::size_t addrs = 0x278ffb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -22,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::GlobalNamespace::Locale::GetText)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x266c96c;
+  constexpr static std::size_t addrs = 0x278ffbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

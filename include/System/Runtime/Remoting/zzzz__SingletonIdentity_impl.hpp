@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/SingletonIdentity.hpp"
 #include "System/Runtime/Remoting/zzzz__ServerIdentity_impl.hpp"
 #include "System/Runtime/Remoting/zzzz__SingletonIdentity_def.hpp"
 #include "System/Runtime/Remoting/Contexts/zzzz__Context_def.hpp"
@@ -13,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::SingletonIdentity::*)(
     ::StringW, ::System::Runtime::Remoting::Contexts::Context*, ::System::Type*)>(&::System::Runtime::Remoting::SingletonIdentity::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x2715800;
+  constexpr static std::size_t addrs = 0x2813bfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::MarshalByRefObject* (::System::Runtime::Remoting::SingletonIdentity::*)()>(
     &::System::Runtime::Remoting::SingletonIdentity::GetServerObject)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x271795c;
+  constexpr static std::size_t addrs = 0x2815d58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::SingletonIdentity*>::get(),
@@ -44,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Messaging::IMessage* (
     ::System::Runtime::Remoting::SingletonIdentity::*)(::System::Runtime::Remoting::Messaging::IMessage*)>(&::System::Runtime::Remoting::SingletonIdentity::SyncObjectProcessMessage)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x2717b4c;
+  constexpr static std::size_t addrs = 0x2815f48;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -61,7 +62,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Runtime::Remoting::SingletonIdentity::*)(::System::Runtime::Remoting::Messaging::IMessage*, ::System::Runtime::Remoting::Messaging::IMessageSink*)>(
     &::System::Runtime::Remoting::SingletonIdentity::AsyncObjectProcessMessage)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x2717c1c;
+  constexpr static std::size_t addrs = 0x2816018;
 
   inline static ::MethodInfo const* methodInfo() {
 

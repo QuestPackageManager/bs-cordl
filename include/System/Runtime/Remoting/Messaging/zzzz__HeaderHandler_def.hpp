@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/Messaging/HeaderHandler.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,12 +27,12 @@ namespace System::Runtime::Remoting::Messaging {
 class CORDL_TYPE HeaderHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x272f404, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x282d800, size 0x14, virtual true, abstract: false, final false
   inline ::System::Object* Invoke(::ArrayW<::System::Runtime::Remoting::Messaging::Header*, ::Array<::System::Runtime::Remoting::Messaging::Header*>*> headers);
 
   static inline ::System::Runtime::Remoting::Messaging::HeaderHandler* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x272f2d8, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x282d6d4, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:

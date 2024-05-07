@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/TypeNameParser.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__TypeNameParser_def.hpp"
 #include "System/Reflection/zzzz__AssemblyName_def.hpp"
@@ -15,7 +16,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                                     ::System::Func_4<::System::Reflection::Assembly*, ::StringW, bool, ::System::Type*>*, bool, bool, ByRef<::System::Threading::StackCrawlMark>)>(
         &::System::TypeNameParser::GetType)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x287c8b4;
+  constexpr static std::size_t addrs = 0x297c164;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

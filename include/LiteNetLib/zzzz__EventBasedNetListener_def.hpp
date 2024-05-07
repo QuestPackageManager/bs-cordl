@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LiteNetLib/EventBasedNetListener.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -115,18 +116,18 @@ namespace LiteNetLib {
 class CORDL_TYPE __EventBasedNetListener__OnPeerConnected : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x24e6984, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x25de610, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::LiteNetLib::NetPeer* peer, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x24e69a4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x25de630, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x24e6970, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x25de5fc, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::LiteNetLib::NetPeer* peer);
 
   static inline ::LiteNetLib::__EventBasedNetListener__OnPeerConnected* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x24e6844, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25de4d0, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -157,18 +158,18 @@ namespace LiteNetLib {
 class CORDL_TYPE __EventBasedNetListener__OnPeerDisconnected : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x24e6af4, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x25de780, size 0x94, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::LiteNetLib::NetPeer* peer, ::LiteNetLib::DisconnectInfo disconnectInfo, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x24e6b88, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x25de814, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x24e6ae0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x25de76c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::LiteNetLib::NetPeer* peer, ::LiteNetLib::DisconnectInfo disconnectInfo);
 
   static inline ::LiteNetLib::__EventBasedNetListener__OnPeerDisconnected* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x24e69b0, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25de63c, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -199,18 +200,18 @@ namespace LiteNetLib {
 class CORDL_TYPE __EventBasedNetListener__OnNetworkError : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x24e6cd8, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x25de964, size 0x94, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::Net::IPEndPoint* endPoint, ::System::Net::Sockets::SocketError socketError, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x24e6d6c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x25de9f8, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x24e6cc4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x25de950, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Net::IPEndPoint* endPoint, ::System::Net::Sockets::SocketError socketError);
 
   static inline ::LiteNetLib::__EventBasedNetListener__OnNetworkError* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x24e6b94, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25de820, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -241,19 +242,19 @@ namespace LiteNetLib {
 class CORDL_TYPE __EventBasedNetListener__OnNetworkReceive : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x24e6ebc, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x25deb48, size 0x98, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::LiteNetLib::NetPeer* peer, ::LiteNetLib::NetPacketReader* reader, ::LiteNetLib::DeliveryMethod deliveryMethod, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x24e6f54, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x25debe0, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x24e6ea8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x25deb34, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::LiteNetLib::NetPeer* peer, ::LiteNetLib::NetPacketReader* reader, ::LiteNetLib::DeliveryMethod deliveryMethod);
 
   static inline ::LiteNetLib::__EventBasedNetListener__OnNetworkReceive* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x24e6d78, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25dea04, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -284,19 +285,19 @@ namespace LiteNetLib {
 class CORDL_TYPE __EventBasedNetListener__OnNetworkReceiveUnconnected : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x24e70a4, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x25ded30, size 0x98, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::Net::IPEndPoint* remoteEndPoint, ::LiteNetLib::NetPacketReader* reader, ::LiteNetLib::UnconnectedMessageType messageType,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x24e713c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x25dedc8, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x24e7090, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x25ded1c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Net::IPEndPoint* remoteEndPoint, ::LiteNetLib::NetPacketReader* reader, ::LiteNetLib::UnconnectedMessageType messageType);
 
   static inline ::LiteNetLib::__EventBasedNetListener__OnNetworkReceiveUnconnected* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x24e6f60, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25debec, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -327,18 +328,18 @@ namespace LiteNetLib {
 class CORDL_TYPE __EventBasedNetListener__OnNetworkLatencyUpdate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x24e728c, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x25def18, size 0x94, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::LiteNetLib::NetPeer* peer, int32_t latency, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x24e7320, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x25defac, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x24e7278, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x25def04, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::LiteNetLib::NetPeer* peer, int32_t latency);
 
   static inline ::LiteNetLib::__EventBasedNetListener__OnNetworkLatencyUpdate* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x24e7148, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25dedd4, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -369,18 +370,18 @@ namespace LiteNetLib {
 class CORDL_TYPE __EventBasedNetListener__OnConnectionRequest : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x24e746c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x25df0f8, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::LiteNetLib::ConnectionRequest* request, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x24e748c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x25df118, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x24e7458, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x25df0e4, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::LiteNetLib::ConnectionRequest* request);
 
   static inline ::LiteNetLib::__EventBasedNetListener__OnConnectionRequest* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x24e732c, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25defb8, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -411,18 +412,18 @@ namespace LiteNetLib {
 class CORDL_TYPE __EventBasedNetListener__OnDeliveryEvent : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x24e75dc, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x25df268, size 0x28, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::LiteNetLib::NetPeer* peer, ::System::Object* userData, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x24e7604, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x25df290, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x24e75c8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x25df254, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::LiteNetLib::NetPeer* peer, ::System::Object* userData);
 
   static inline ::LiteNetLib::__EventBasedNetListener__OnDeliveryEvent* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x24e7498, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25df124, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -503,53 +504,53 @@ public:
   /// @brief Convert operator to "::LiteNetLib::INetEventListener"
   constexpr operator ::LiteNetLib::INetEventListener*() noexcept;
 
-  /// @brief Method ClearConnectionRequestEvent, addr 0x24e674c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ClearConnectionRequestEvent, addr 0x25de3d8, size 0x8, virtual false, abstract: false, final false
   inline void ClearConnectionRequestEvent();
 
-  /// @brief Method ClearDeliveryEvent, addr 0x24e6754, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ClearDeliveryEvent, addr 0x25de3e0, size 0x8, virtual false, abstract: false, final false
   inline void ClearDeliveryEvent();
 
-  /// @brief Method ClearNetworkErrorEvent, addr 0x24e672c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ClearNetworkErrorEvent, addr 0x25de3b8, size 0x8, virtual false, abstract: false, final false
   inline void ClearNetworkErrorEvent();
 
-  /// @brief Method ClearNetworkLatencyUpdateEvent, addr 0x24e6744, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ClearNetworkLatencyUpdateEvent, addr 0x25de3d0, size 0x8, virtual false, abstract: false, final false
   inline void ClearNetworkLatencyUpdateEvent();
 
-  /// @brief Method ClearNetworkReceiveEvent, addr 0x24e6734, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ClearNetworkReceiveEvent, addr 0x25de3c0, size 0x8, virtual false, abstract: false, final false
   inline void ClearNetworkReceiveEvent();
 
-  /// @brief Method ClearNetworkReceiveUnconnectedEvent, addr 0x24e673c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ClearNetworkReceiveUnconnectedEvent, addr 0x25de3c8, size 0x8, virtual false, abstract: false, final false
   inline void ClearNetworkReceiveUnconnectedEvent();
 
-  /// @brief Method ClearPeerConnectedEvent, addr 0x24e671c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ClearPeerConnectedEvent, addr 0x25de3a8, size 0x8, virtual false, abstract: false, final false
   inline void ClearPeerConnectedEvent();
 
-  /// @brief Method ClearPeerDisconnectedEvent, addr 0x24e6724, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ClearPeerDisconnectedEvent, addr 0x25de3b0, size 0x8, virtual false, abstract: false, final false
   inline void ClearPeerDisconnectedEvent();
 
-  /// @brief Method LiteNetLib.IDeliveryEventListener.OnMessageDelivered, addr 0x24e6820, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method LiteNetLib.IDeliveryEventListener.OnMessageDelivered, addr 0x25de4ac, size 0x1c, virtual true, abstract: false, final true
   inline void LiteNetLib_IDeliveryEventListener_OnMessageDelivered(::LiteNetLib::NetPeer* peer, ::System::Object* userData);
 
-  /// @brief Method LiteNetLib.INetEventListener.OnConnectionRequest, addr 0x24e6804, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method LiteNetLib.INetEventListener.OnConnectionRequest, addr 0x25de490, size 0x1c, virtual true, abstract: false, final true
   inline void LiteNetLib_INetEventListener_OnConnectionRequest(::LiteNetLib::ConnectionRequest* request);
 
-  /// @brief Method LiteNetLib.INetEventListener.OnNetworkError, addr 0x24e6794, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method LiteNetLib.INetEventListener.OnNetworkError, addr 0x25de420, size 0x1c, virtual true, abstract: false, final true
   inline void LiteNetLib_INetEventListener_OnNetworkError(::System::Net::IPEndPoint* endPoint, ::System::Net::Sockets::SocketError socketErrorCode);
 
-  /// @brief Method LiteNetLib.INetEventListener.OnNetworkLatencyUpdate, addr 0x24e67e8, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method LiteNetLib.INetEventListener.OnNetworkLatencyUpdate, addr 0x25de474, size 0x1c, virtual true, abstract: false, final true
   inline void LiteNetLib_INetEventListener_OnNetworkLatencyUpdate(::LiteNetLib::NetPeer* peer, int32_t latency);
 
-  /// @brief Method LiteNetLib.INetEventListener.OnNetworkReceive, addr 0x24e67b0, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method LiteNetLib.INetEventListener.OnNetworkReceive, addr 0x25de43c, size 0x1c, virtual true, abstract: false, final true
   inline void LiteNetLib_INetEventListener_OnNetworkReceive(::LiteNetLib::NetPeer* peer, ::LiteNetLib::NetPacketReader* reader, ::LiteNetLib::DeliveryMethod deliveryMethod);
 
-  /// @brief Method LiteNetLib.INetEventListener.OnNetworkReceiveUnconnected, addr 0x24e67cc, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method LiteNetLib.INetEventListener.OnNetworkReceiveUnconnected, addr 0x25de458, size 0x1c, virtual true, abstract: false, final true
   inline void LiteNetLib_INetEventListener_OnNetworkReceiveUnconnected(::System::Net::IPEndPoint* remoteEndPoint, ::LiteNetLib::NetPacketReader* reader,
                                                                        ::LiteNetLib::UnconnectedMessageType messageType);
 
-  /// @brief Method LiteNetLib.INetEventListener.OnPeerConnected, addr 0x24e675c, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method LiteNetLib.INetEventListener.OnPeerConnected, addr 0x25de3e8, size 0x1c, virtual true, abstract: false, final true
   inline void LiteNetLib_INetEventListener_OnPeerConnected(::LiteNetLib::NetPeer* peer);
 
-  /// @brief Method LiteNetLib.INetEventListener.OnPeerDisconnected, addr 0x24e6778, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method LiteNetLib.INetEventListener.OnPeerDisconnected, addr 0x25de404, size 0x1c, virtual true, abstract: false, final true
   inline void LiteNetLib_INetEventListener_OnPeerDisconnected(::LiteNetLib::NetPeer* peer, ::LiteNetLib::DisconnectInfo disconnectInfo);
 
   static inline ::LiteNetLib::EventBasedNetListener* New_ctor();
@@ -602,31 +603,31 @@ public:
 
   constexpr void __cordl_internal_set_PeerDisconnectedEvent(::LiteNetLib::__EventBasedNetListener__OnPeerDisconnected* value);
 
-  /// @brief Method .ctor, addr 0x24e683c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25de4c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_ConnectionRequestEvent, addr 0x24e64ac, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_ConnectionRequestEvent, addr 0x25de138, size 0x9c, virtual false, abstract: false, final false
   inline void add_ConnectionRequestEvent(::LiteNetLib::__EventBasedNetListener__OnConnectionRequest* value);
 
-  /// @brief Method add_DeliveryEvent, addr 0x24e65e4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_DeliveryEvent, addr 0x25de270, size 0x9c, virtual false, abstract: false, final false
   inline void add_DeliveryEvent(::LiteNetLib::__EventBasedNetListener__OnDeliveryEvent* value);
 
-  /// @brief Method add_NetworkErrorEvent, addr 0x24e5fcc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_NetworkErrorEvent, addr 0x25ddc58, size 0x9c, virtual false, abstract: false, final false
   inline void add_NetworkErrorEvent(::LiteNetLib::__EventBasedNetListener__OnNetworkError* value);
 
-  /// @brief Method add_NetworkLatencyUpdateEvent, addr 0x24e6374, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_NetworkLatencyUpdateEvent, addr 0x25de000, size 0x9c, virtual false, abstract: false, final false
   inline void add_NetworkLatencyUpdateEvent(::LiteNetLib::__EventBasedNetListener__OnNetworkLatencyUpdate* value);
 
-  /// @brief Method add_NetworkReceiveEvent, addr 0x24e6104, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_NetworkReceiveEvent, addr 0x25ddd90, size 0x9c, virtual false, abstract: false, final false
   inline void add_NetworkReceiveEvent(::LiteNetLib::__EventBasedNetListener__OnNetworkReceive* value);
 
-  /// @brief Method add_NetworkReceiveUnconnectedEvent, addr 0x24e623c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_NetworkReceiveUnconnectedEvent, addr 0x25ddec8, size 0x9c, virtual false, abstract: false, final false
   inline void add_NetworkReceiveUnconnectedEvent(::LiteNetLib::__EventBasedNetListener__OnNetworkReceiveUnconnected* value);
 
-  /// @brief Method add_PeerConnectedEvent, addr 0x24e5d5c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_PeerConnectedEvent, addr 0x25dd9e8, size 0x9c, virtual false, abstract: false, final false
   inline void add_PeerConnectedEvent(::LiteNetLib::__EventBasedNetListener__OnPeerConnected* value);
 
-  /// @brief Method add_PeerDisconnectedEvent, addr 0x24e5e94, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_PeerDisconnectedEvent, addr 0x25ddb20, size 0x9c, virtual false, abstract: false, final false
   inline void add_PeerDisconnectedEvent(::LiteNetLib::__EventBasedNetListener__OnPeerDisconnected* value);
 
   /// @brief Convert to "::LiteNetLib::IDeliveryEventListener"
@@ -635,28 +636,28 @@ public:
   /// @brief Convert to "::LiteNetLib::INetEventListener"
   constexpr ::LiteNetLib::INetEventListener* i___LiteNetLib__INetEventListener() noexcept;
 
-  /// @brief Method remove_ConnectionRequestEvent, addr 0x24e6548, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_ConnectionRequestEvent, addr 0x25de1d4, size 0x9c, virtual false, abstract: false, final false
   inline void remove_ConnectionRequestEvent(::LiteNetLib::__EventBasedNetListener__OnConnectionRequest* value);
 
-  /// @brief Method remove_DeliveryEvent, addr 0x24e6680, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_DeliveryEvent, addr 0x25de30c, size 0x9c, virtual false, abstract: false, final false
   inline void remove_DeliveryEvent(::LiteNetLib::__EventBasedNetListener__OnDeliveryEvent* value);
 
-  /// @brief Method remove_NetworkErrorEvent, addr 0x24e6068, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_NetworkErrorEvent, addr 0x25ddcf4, size 0x9c, virtual false, abstract: false, final false
   inline void remove_NetworkErrorEvent(::LiteNetLib::__EventBasedNetListener__OnNetworkError* value);
 
-  /// @brief Method remove_NetworkLatencyUpdateEvent, addr 0x24e6410, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_NetworkLatencyUpdateEvent, addr 0x25de09c, size 0x9c, virtual false, abstract: false, final false
   inline void remove_NetworkLatencyUpdateEvent(::LiteNetLib::__EventBasedNetListener__OnNetworkLatencyUpdate* value);
 
-  /// @brief Method remove_NetworkReceiveEvent, addr 0x24e61a0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_NetworkReceiveEvent, addr 0x25dde2c, size 0x9c, virtual false, abstract: false, final false
   inline void remove_NetworkReceiveEvent(::LiteNetLib::__EventBasedNetListener__OnNetworkReceive* value);
 
-  /// @brief Method remove_NetworkReceiveUnconnectedEvent, addr 0x24e62d8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_NetworkReceiveUnconnectedEvent, addr 0x25ddf64, size 0x9c, virtual false, abstract: false, final false
   inline void remove_NetworkReceiveUnconnectedEvent(::LiteNetLib::__EventBasedNetListener__OnNetworkReceiveUnconnected* value);
 
-  /// @brief Method remove_PeerConnectedEvent, addr 0x24e5df8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_PeerConnectedEvent, addr 0x25dda84, size 0x9c, virtual false, abstract: false, final false
   inline void remove_PeerConnectedEvent(::LiteNetLib::__EventBasedNetListener__OnPeerConnected* value);
 
-  /// @brief Method remove_PeerDisconnectedEvent, addr 0x24e5f30, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_PeerDisconnectedEvent, addr 0x25ddbbc, size 0x9c, virtual false, abstract: false, final false
   inline void remove_PeerDisconnectedEvent(::LiteNetLib::__EventBasedNetListener__OnPeerDisconnected* value);
 
 protected:

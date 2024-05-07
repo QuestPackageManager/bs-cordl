@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ResultsTableCell.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,7 +49,7 @@ public:
 
   static inline ::GlobalNamespace::ResultsTableCell* New_ctor();
 
-  /// @brief Method SetData, addr 0x2575da4, size 0x38c, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x266e1dc, size 0x38c, virtual false, abstract: false, final false
   inline void SetData(int32_t order, ::GlobalNamespace::IConnectedPlayer* connectedPlayer, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__border() const;
@@ -81,7 +82,7 @@ public:
 
   constexpr void __cordl_internal_set__scoreText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x2576130, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x266e568, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

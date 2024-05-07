@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/IncrementInstruction_IncrementSingle.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__IncrementInstruction_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__IncrementInstruction_IncrementSingle_def.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__InterpretedFrame_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::__IncrementInstruction__IncrementSingle::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::System::Linq::Expressions::Interpreter::__IncrementInstruction__IncrementSingle::Run)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x2b20d84;
+  constexpr static std::size_t addrs = 0x2c1e684;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::__IncrementInstruction__IncrementSingle::*)()>(
     &::System::Linq::Expressions::Interpreter::__IncrementInstruction__IncrementSingle::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b20880;
+  constexpr static std::size_t addrs = 0x2c1e180;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

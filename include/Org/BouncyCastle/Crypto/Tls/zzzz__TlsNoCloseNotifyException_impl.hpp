@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/TlsNoCloseNotifyException.hpp"
 #include "System/IO/zzzz__EndOfStreamException_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsNoCloseNotifyException_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Tls::TlsNoCloseNotifyException._ctor
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsNoCloseNotifyException::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::TlsNoCloseNotifyException::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x111ade0;
+  constexpr static std::size_t addrs = 0x120e504;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

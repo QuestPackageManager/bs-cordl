@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ServerCodeView.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,21 +44,21 @@ public:
   /// @brief Field _serverCodeText, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__serverCodeText, put = __cordl_internal_set__serverCodeText))::UnityW<::TMPro::TextMeshProUGUI> _serverCodeText;
 
-  /// @brief Method HandleShowServerCodeButtonPressed, addr 0x25775f4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method HandleShowServerCodeButtonPressed, addr 0x266fa2c, size 0x10, virtual false, abstract: false, final false
   inline void HandleShowServerCodeButtonPressed();
 
   static inline ::GlobalNamespace::ServerCodeView* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x25775d8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x266fa10, size 0x1c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x2577540, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x266f978, size 0x98, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method RefreshText, addr 0x25774a0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method RefreshText, addr 0x266f8d8, size 0xa0, virtual false, abstract: false, final false
   inline void RefreshText(bool showCode);
 
-  /// @brief Method SetCode, addr 0x2577494, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetCode, addr 0x266f8cc, size 0xc, virtual false, abstract: false, final false
   inline void SetCode(::StringW serverCode);
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__button() const;
@@ -90,7 +91,7 @@ public:
 
   constexpr void __cordl_internal_set__serverCodeText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x2577604, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x266fa3c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

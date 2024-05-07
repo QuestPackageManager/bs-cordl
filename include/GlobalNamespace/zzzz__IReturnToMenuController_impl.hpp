@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IReturnToMenuController.hpp"
 #include "GlobalNamespace/zzzz__IReturnToMenuController_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IReturnToMenuController.ReturnToMenu
 template <>

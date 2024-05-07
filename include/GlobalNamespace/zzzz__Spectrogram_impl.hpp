@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/Spectrogram.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__Spectrogram_def.hpp"
 #include "GlobalNamespace/zzzz__BasicSpectrogramData_def.hpp"
@@ -11,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::MaterialPropertyBlock* (::GlobalNamespace::Spectrogram::*)()>(
     &::GlobalNamespace::Spectrogram::get_materialPropertyBlock)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x25d7f80;
+  constexpr static std::size_t addrs = 0x26d7cc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Spectrogram*>::get(),
@@ -24,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Spectrogram::*)()>(&::GlobalNamespace::Spectrogram::Awake)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x25d8034;
+  constexpr static std::size_t addrs = 0x26d7d74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Spectrogram*>::get(), "Awake",
@@ -37,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Spectrogram::*)()>(&::GlobalNamespace::Spectrogram::Update)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x25d8124;
+  constexpr static std::size_t addrs = 0x26d7e64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Spectrogram*>::get(), "Update",
@@ -50,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Spectrogram::*)()>(&::GlobalNamespace::Spectrogram::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25d82cc;
+  constexpr static std::size_t addrs = 0x26d800c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Spectrogram*>::get(), ".ctor",

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HEU_AssetPreset.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -105,7 +106,7 @@ public:
 
   constexpr void __cordl_internal_set_volumeCachePresets(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_VolumeCachePreset*>* value);
 
-  /// @brief Method .ctor, addr 0x243881c, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25324a8, size 0x148, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/IO/UnexceptionalStreamReader.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,27 +35,27 @@ public:
   /// @brief Field newlineChar, offset 0xffffffff, size 0x2
   static __declspec(property(get = getStaticF_newlineChar, put = setStaticF_newlineChar)) char16_t newlineChar;
 
-  /// @brief Method CheckEOL, addr 0x27c9624, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method CheckEOL, addr 0x28c7d44, size 0x198, virtual false, abstract: false, final false
   inline bool CheckEOL(char16_t current);
 
   static inline ::System::IO::UnexceptionalStreamReader* New_ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding);
 
-  /// @brief Method Peek, addr 0x27c927c, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Peek, addr 0x28c799c, size 0x88, virtual true, abstract: false, final false
   inline int32_t Peek();
 
-  /// @brief Method Read, addr 0x27c9304, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x28c7a24, size 0x88, virtual true, abstract: false, final false
   inline int32_t Read();
 
-  /// @brief Method Read, addr 0x27c938c, size 0x298, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x28c7aac, size 0x298, virtual true, abstract: false, final false
   inline int32_t Read(ByRef<::ArrayW<char16_t, ::Array<char16_t>*>> dest_buffer, int32_t index, int32_t count);
 
-  /// @brief Method ReadLine, addr 0x27c97bc, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method ReadLine, addr 0x28c7edc, size 0x88, virtual true, abstract: false, final false
   inline ::StringW ReadLine();
 
-  /// @brief Method ReadToEnd, addr 0x27c9844, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method ReadToEnd, addr 0x28c7f64, size 0x88, virtual true, abstract: false, final false
   inline ::StringW ReadToEnd();
 
-  /// @brief Method .ctor, addr 0x27c920c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28c792c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding);
 
   static inline ::ArrayW<bool, ::Array<bool>*> getStaticF_newline();

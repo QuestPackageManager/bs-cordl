@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Tsp/TspAlgorithms.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,7 +67,7 @@ public:
 
   static inline ::Org::BouncyCastle::Tsp::TspAlgorithms* New_ctor();
 
-  /// @brief Method .ctor, addr 0x12c4624, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13b5d48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::IList* getStaticF_Allowed();

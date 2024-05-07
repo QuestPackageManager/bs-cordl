@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/LessThanOrEqualInstruction_LessThanOrEqualSingle.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__LessThanOrEqualInstruction_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__LessThanOrEqualInstruction_LessThanOrEqualSingle_def.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__InterpretedFrame_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::__LessThanOrEqualInstruction__LessThanOrEqualSingle::*)(
     ::System::Object*)>(&::System::Linq::Expressions::Interpreter::__LessThanOrEqualInstruction__LessThanOrEqualSingle::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2b2a3f8;
+  constexpr static std::size_t addrs = 0x2c27cf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::__LessThanOrEqualInstruction__LessThanOrEqualSingle::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::System::Linq::Expressions::Interpreter::__LessThanOrEqualInstruction__LessThanOrEqualSingle::Run)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x2b2ac04;
+  constexpr static std::size_t addrs = 0x2c28504;
 
   inline static ::MethodInfo const* methodInfo() {
 

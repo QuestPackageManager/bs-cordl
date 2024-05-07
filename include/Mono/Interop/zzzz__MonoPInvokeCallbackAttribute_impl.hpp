@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Interop/MonoPInvokeCallbackAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "Mono/Interop/zzzz__MonoPInvokeCallbackAttribute_def.hpp"
 #include "System/zzzz__Type_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Interop::MonoPInvokeCallbackAttribute::*)(::System::Type*)>(
     &::Mono::Interop::MonoPInvokeCallbackAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2696180;
+  constexpr static std::size_t addrs = 0x279357c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/LocalVariable.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__LocalVariable_def.hpp"
 //  Writing Method size for method: ::System::Linq::Expressions::Interpreter::LocalVariable.get_IsBoxed
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Linq::Expressions::Interpreter::LocalVariable::*)()>(
     &::System::Linq::Expressions::Interpreter::LocalVariable::get_IsBoxed)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2b39e64;
+  constexpr static std::size_t addrs = 0x2c36764;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::LocalVariable*>::get(),
@@ -21,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::LocalVariable::*)(bool)>(
     &::System::Linq::Expressions::Interpreter::LocalVariable::set_IsBoxed)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2b3f258;
+  constexpr static std::size_t addrs = 0x2c3bb58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -36,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Linq::Expressions::Interpreter::LocalVariable::*)()>(
     &::System::Linq::Expressions::Interpreter::LocalVariable::get_InClosure)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2b39e58;
+  constexpr static std::size_t addrs = 0x2c36758;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::LocalVariable*>::get(),
@@ -50,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::LocalVariable::*)(int32_t, bool)>(
     &::System::Linq::Expressions::Interpreter::LocalVariable::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2b3f274;
+  constexpr static std::size_t addrs = 0x2c3bb74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -65,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::LocalVariable::*)()>(
     &::System::Linq::Expressions::Interpreter::LocalVariable::ToString)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x2b3f2b8;
+  constexpr static std::size_t addrs = 0x2c3bbb8;
 
   inline static ::MethodInfo const* methodInfo() {
 

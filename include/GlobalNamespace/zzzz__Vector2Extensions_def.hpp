@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/Vector2Extensions.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,7 +23,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE Vector2Extensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SignedAngleToLine, addr 0xf91adc, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method SignedAngleToLine, addr 0x1086200, size 0x1d4, virtual false, abstract: false, final false
   static inline float_t SignedAngleToLine(::UnityEngine::Vector2 vec, ::UnityEngine::Vector2 line);
 
 protected:

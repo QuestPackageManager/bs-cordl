@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Bcpg/IBcpgKey.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__IBcpgKey_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Bcpg::IBcpgKey.get_Format
 template <>

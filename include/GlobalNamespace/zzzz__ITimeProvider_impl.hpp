@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ITimeProvider.hpp"
 #include "GlobalNamespace/zzzz__ITimeProvider_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ITimeProvider.get_time
 template <>

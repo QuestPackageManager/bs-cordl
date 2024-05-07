@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IntFxBaseData.hpp"
 #include "GlobalNamespace/zzzz__FxBaseData_impl.hpp"
 #include "GlobalNamespace/zzzz__IntFxBaseData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IntFxBaseData._ctor
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IntFxBaseData::*)(float_t, bool, int32_t)>(&::GlobalNamespace::IntFxBaseData::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x13be018;
+  constexpr static std::size_t addrs = 0x14b3760;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

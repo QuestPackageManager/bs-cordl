@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/Interpolation.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__Interpolation_def.hpp"
 #include "GlobalNamespace/zzzz__EaseType_def.hpp"
@@ -7,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, ::GlobalNamespace::EaseType)>(&::GlobalNamespace::Interpolation::Interpolate)> {
   constexpr static std::size_t size = 0x540;
-  constexpr static std::size_t addrs = 0x2f41e1c;
+  constexpr static std::size_t addrs = 0x304371c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

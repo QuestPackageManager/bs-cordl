@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Tayx/Graphy/G_GraphShader.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -77,24 +78,24 @@ public:
   /// @brief Field m_goodThresholdPropertyId, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get_m_goodThresholdPropertyId, put = __cordl_internal_set_m_goodThresholdPropertyId)) int32_t m_goodThresholdPropertyId;
 
-  /// @brief Method InitializeShader, addr 0x2f3ca9c, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method InitializeShader, addr 0x303d39c, size 0x17c, virtual false, abstract: false, final false
   inline void InitializeShader();
 
   static inline ::Tayx::Graphy::G_GraphShader* New_ctor();
 
-  /// @brief Method UpdateArray, addr 0x2f3cc18, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method UpdateArray, addr 0x303d518, size 0x44, virtual false, abstract: false, final false
   inline void UpdateArray();
 
-  /// @brief Method UpdateAverage, addr 0x2f3cc5c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method UpdateAverage, addr 0x303d55c, size 0x3c, virtual false, abstract: false, final false
   inline void UpdateAverage();
 
-  /// @brief Method UpdateColors, addr 0x2f3cd00, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method UpdateColors, addr 0x303d600, size 0xa0, virtual false, abstract: false, final false
   inline void UpdateColors();
 
-  /// @brief Method UpdatePoints, addr 0x2f3cda0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method UpdatePoints, addr 0x303d6a0, size 0x3c, virtual false, abstract: false, final false
   inline void UpdatePoints();
 
-  /// @brief Method UpdateThresholds, addr 0x2f3cc98, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method UpdateThresholds, addr 0x303d598, size 0x68, virtual false, abstract: false, final false
   inline void UpdateThresholds();
 
   constexpr int32_t const& __cordl_internal_get_ArrayMaxSize() const;
@@ -199,7 +200,7 @@ public:
 
   constexpr void __cordl_internal_set_m_goodThresholdPropertyId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2f3cddc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x303d6dc, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

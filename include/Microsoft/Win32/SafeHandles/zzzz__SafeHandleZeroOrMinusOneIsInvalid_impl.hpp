@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Microsoft/Win32/SafeHandles/SafeHandleZeroOrMinusOneIsInvalid.hpp"
 #include "System/Runtime/InteropServices/zzzz__SafeHandle_impl.hpp"
 #include "Microsoft/Win32/SafeHandles/zzzz__SafeHandleZeroOrMinusOneIsInvalid_def.hpp"
 //  Writing Method size for method: ::Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid._ctor
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid::*)(bool)>(
     &::Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x26acf84;
+  constexpr static std::size_t addrs = 0x27ab380;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -22,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid::*)()>(
     &::Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid::get_IsInvalid)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x26ad0a8;
+  constexpr static std::size_t addrs = 0x27ab4a4;
 
   inline static ::MethodInfo const* methodInfo() {
 

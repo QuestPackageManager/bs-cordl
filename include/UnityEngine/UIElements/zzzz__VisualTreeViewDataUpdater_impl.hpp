@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/VisualTreeViewDataUpdater.hpp"
 #include "Unity/Profiling/zzzz__ProfilerMarker_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseVisualTreeUpdater_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualTreeViewDataUpdater_def.hpp"
@@ -12,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Profiling::ProfilerMarker (::UnityEngine::UIElements::VisualTreeViewDataUpdater::*)()>(
     &::UnityEngine::UIElements::VisualTreeViewDataUpdater::get_profilerMarker)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x334eb30;
+  constexpr static std::size_t addrs = 0x355286c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -28,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeViewDataUpdater::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::VersionChangeType)>(&::UnityEngine::UIElements::VisualTreeViewDataUpdater::OnVersionChanged)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x334eb88;
+  constexpr static std::size_t addrs = 0x35528c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeViewDataUpdater::*)()>(
     &::UnityEngine::UIElements::VisualTreeViewDataUpdater::Update)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x334ecc0;
+  constexpr static std::size_t addrs = 0x35529fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -60,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeViewDataUpdater::*)(::UnityEngine::UIElements::VisualElement*, bool)>(
     &::UnityEngine::UIElements::VisualTreeViewDataUpdater::ValidateViewDataOnSubTree)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x334ee04;
+  constexpr static std::size_t addrs = 0x3552b40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -76,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeViewDataUpdater::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::VisualTreeViewDataUpdater::PropagateToParents)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x334ec18;
+  constexpr static std::size_t addrs = 0x3552954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -91,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeViewDataUpdater::*)()>(
     &::UnityEngine::UIElements::VisualTreeViewDataUpdater::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x334ef54;
+  constexpr static std::size_t addrs = 0x3552c90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeViewDataUpdater*>::get(),

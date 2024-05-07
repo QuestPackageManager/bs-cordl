@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/ContextCallback.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Threading/zzzz__ContextCallback_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ContextCallback::*)(::System::Object*, void*)>(
     &::System::Threading::ContextCallback::_ctor)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x289cdcc;
+  constexpr static std::size_t addrs = 0x299b67c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -22,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ContextCallback::*)(::System::Object*)>(&::System::Threading::ContextCallback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x289fb48;
+  constexpr static std::size_t addrs = 0x299e3f8;
 
   inline static ::MethodInfo const* methodInfo() {
 

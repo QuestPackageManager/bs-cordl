@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OVRNodeStateProperties.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRNodeStateProperties_def.hpp"
 #include "GlobalNamespace/zzzz__NodeStatePropertyType_def.hpp"
@@ -13,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRNodeStateProperties::IsHmdPresent)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x29f0574;
+  constexpr static std::size_t addrs = 0x2aede24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRNodeStateProperties*>::get(),
@@ -28,7 +29,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                            ::GlobalNamespace::__OVRPlugin__Step, ByRef<::UnityEngine::Vector3>)>(
     &::GlobalNamespace::OVRNodeStateProperties::GetNodeStatePropertyVector3)> {
   constexpr static std::size_t size = 0x32c;
-  constexpr static std::size_t addrs = 0x29eb190;
+  constexpr static std::size_t addrs = 0x2ae8a40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -48,7 +49,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                            ::GlobalNamespace::__OVRPlugin__Step, ByRef<::UnityEngine::Quaternion>)>(
     &::GlobalNamespace::OVRNodeStateProperties::GetNodeStatePropertyQuaternion)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x29eb4bc;
+  constexpr static std::size_t addrs = 0x2ae8d6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -67,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::XR::XRNode, ByRef<::UnityEngine::XR::XRNodeState>)>(
     &::GlobalNamespace::OVRNodeStateProperties::ValidateProperty)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x29f2960;
+  constexpr static std::size_t addrs = 0x2af0210;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -83,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::XR::XRNode, ::GlobalNamespace::NodeStatePropertyType, ByRef<::UnityEngine::Vector3>)>(
     &::GlobalNamespace::OVRNodeStateProperties::GetUnityXRNodeStateVector3)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x29f26f0;
+  constexpr static std::size_t addrs = 0x2aeffa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -100,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::XR::XRNode, ::GlobalNamespace::NodeStatePropertyType, ByRef<::UnityEngine::Quaternion>)>(
     &::GlobalNamespace::OVRNodeStateProperties::GetUnityXRNodeStateQuaternion)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x29f2868;
+  constexpr static std::size_t addrs = 0x2af0118;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

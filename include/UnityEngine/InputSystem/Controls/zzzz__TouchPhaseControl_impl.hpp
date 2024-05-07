@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Controls/TouchPhaseControl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_1_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__TouchPhase_impl.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__TouchPhaseControl_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::TouchPhaseControl::*)()>(
     &::UnityEngine::InputSystem::Controls::TouchPhaseControl::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x303e508;
+  constexpr static std::size_t addrs = 0x3179294;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::TouchPhaseControl*>::get(),
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::TouchPhase (::UnityEngine::InputSystem::Controls::TouchPhaseControl::*)(
     ::cordl_internals::Ptr<void>)>(&::UnityEngine::InputSystem::Controls::TouchPhaseControl::ReadUnprocessedValueFromState)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x303e590;
+  constexpr static std::size_t addrs = 0x317931c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -39,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::TouchPhaseControl::*)(
     ::UnityEngine::InputSystem::TouchPhase, ::cordl_internals::Ptr<void>)>(&::UnityEngine::InputSystem::Controls::TouchPhaseControl::WriteValueIntoState)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x303e5b8;
+  constexpr static std::size_t addrs = 0x3179344;
 
   inline static ::MethodInfo const* methodInfo() {
 

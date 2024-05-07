@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatSaber/TrackDefinitions/EventTrackDefinitionSO.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -220,19 +221,19 @@ public:
 
   constexpr void __cordl_internal_set__visible(bool value);
 
-  /// @brief Method .ctor, addr 0xf761c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1069778, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_dataTransformation, addr 0xf761b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dataTransformation, addr 0x1069760, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::TrackDefinitions::__EventTrackDefinitionSO__DataTransformationType get_dataTransformation();
 
-  /// @brief Method get_markerType, addr 0xf761b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_markerType, addr 0x1069768, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::TrackDefinitions::__EventTrackDefinitionSO__MarkerType get_markerType();
 
-  /// @brief Method get_needsFiltering, addr 0xf761c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_needsFiltering, addr 0x1069770, size 0x8, virtual false, abstract: false, final false
   inline bool get_needsFiltering();
 
-  /// @brief Method get_visible, addr 0xf761a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_visible, addr 0x1069758, size 0x8, virtual false, abstract: false, final false
   inline bool get_visible();
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Pkcs/PkcsIOException.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,10 +27,10 @@ public:
 
   static inline ::Org::BouncyCastle::Pkcs::PkcsIOException* New_ctor(::StringW message, ::System::Exception* underlying);
 
-  /// @brief Method .ctor, addr 0x1257380, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1348aa4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x12569e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1348104, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* underlying);
 
 protected:

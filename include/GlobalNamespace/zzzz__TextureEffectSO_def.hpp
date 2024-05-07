@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/TextureEffectSO.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,10 +24,10 @@ public:
   // Declarations
   static inline ::GlobalNamespace::TextureEffectSO* New_ctor();
 
-  /// @brief Method Render, addr 0x2400094, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method Render, addr 0x24f7d20, size 0x68, virtual true, abstract: false, final false
   inline void Render(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest);
 
-  /// @brief Method .ctor, addr 0x24000fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f7d88, size 0x1008, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

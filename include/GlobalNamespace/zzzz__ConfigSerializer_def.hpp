@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ConfigSerializer.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,15 +23,15 @@ namespace GlobalNamespace {
 class CORDL_TYPE ConfigSerializer : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method LoadConfig, addr 0x23dc8e8, size 0x560, virtual false, abstract: false, final false
+  /// @brief Method LoadConfig, addr 0x24d44ec, size 0x560, virtual false, abstract: false, final false
   static inline bool LoadConfig(::System::Object* config, ::StringW filePath);
 
   static inline ::GlobalNamespace::ConfigSerializer* New_ctor();
 
-  /// @brief Method SaveConfig, addr 0x23dc4b8, size 0x430, virtual false, abstract: false, final false
+  /// @brief Method SaveConfig, addr 0x24d40bc, size 0x430, virtual false, abstract: false, final false
   static inline void SaveConfig(::System::Object* config, ::StringW filePath);
 
-  /// @brief Method .ctor, addr 0x23dce48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24d4a4c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

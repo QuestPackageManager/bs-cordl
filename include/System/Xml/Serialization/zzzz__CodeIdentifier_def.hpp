@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Serialization/CodeIdentifier.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,16 +26,16 @@ public:
   /// @brief Field csharp, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_csharp, put = setStaticF_csharp))::Microsoft::CSharp::CodeDomProvider* csharp;
 
-  /// @brief Method IsValid, addr 0x2dc49d8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x2ec22d8, size 0x7c, virtual false, abstract: false, final false
   static inline bool IsValid(char16_t c);
 
-  /// @brief Method IsValidStart, addr 0x2dc4a54, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method IsValidStart, addr 0x2ec2354, size 0x64, virtual false, abstract: false, final false
   static inline bool IsValidStart(char16_t c);
 
-  /// @brief Method MakePascal, addr 0x2dc46b0, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method MakePascal, addr 0x2ec1fb0, size 0x1a8, virtual false, abstract: false, final false
   static inline ::StringW MakePascal(::StringW identifier);
 
-  /// @brief Method MakeValid, addr 0x2dc4858, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method MakeValid, addr 0x2ec2158, size 0x180, virtual false, abstract: false, final false
   static inline ::StringW MakeValid(::StringW identifier);
 
   static inline ::Microsoft::CSharp::CodeDomProvider* getStaticF_csharp();

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MultiplayerCoreInstaller.hpp"
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerCoreInstaller_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayCoreSceneSetupData_def.hpp"
@@ -11,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerCoreInstaller::*)()>(
     &::GlobalNamespace::MultiplayerCoreInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x700;
-  constexpr static std::size_t addrs = 0x2630ebc;
+  constexpr static std::size_t addrs = 0x2730ca4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerCoreInstaller::*)()>(&::GlobalNamespace::MultiplayerCoreInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26315bc;
+  constexpr static std::size_t addrs = 0x27313a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerCoreInstaller*>::get(), ".ctor",

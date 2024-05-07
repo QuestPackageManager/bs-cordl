@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/SimpleTextDropdown.hpp"
 #include "HMUI/zzzz__DropdownWithTableView_impl.hpp"
 #include "HMUI/zzzz__SimpleTextDropdown_def.hpp"
 #include "GlobalNamespace/zzzz__SimpleTextTableCell_def.hpp"
@@ -12,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SimpleTextDropdown::*)()>(&::HMUI::SimpleTextDropdown::LazyInit)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x242f324;
+  constexpr static std::size_t addrs = 0x2529fb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SimpleTextDropdown*>::get(), "LazyInit",
@@ -25,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SimpleTextDropdown::*)()>(&::HMUI::SimpleTextDropdown::OnDestroy)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x242f3d4;
+  constexpr static std::size_t addrs = 0x252a060;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -39,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SimpleTextDropdown::*)(::HMUI::__TableView__IDataSource*)>(&::HMUI::SimpleTextDropdown::Init)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x242f464;
+  constexpr static std::size_t addrs = 0x252a0f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -54,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SimpleTextDropdown::*)(::System::Collections::Generic::IReadOnlyList_1<::StringW>*)>(
     &::HMUI::SimpleTextDropdown::SetTexts)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x242f4a4;
+  constexpr static std::size_t addrs = 0x252a130;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SimpleTextDropdown::*)(int32_t)>(&::HMUI::SimpleTextDropdown::SelectCellWithIdx)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x242f644;
+  constexpr static std::size_t addrs = 0x252a2d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -82,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::HMUI::SimpleTextDropdown::*)()>(&::HMUI::SimpleTextDropdown::CellSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x242f830;
+  constexpr static std::size_t addrs = 0x252a4bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SimpleTextDropdown*>::get(), "CellSize",
@@ -95,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::HMUI::SimpleTextDropdown::*)()>(&::HMUI::SimpleTextDropdown::NumberOfCells)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x242f838;
+  constexpr static std::size_t addrs = 0x252a4c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SimpleTextDropdown*>::get(), "NumberOfCells",
@@ -109,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::HMUI::TableCell> (::HMUI::SimpleTextDropdown::*)(::HMUI::TableView*, int32_t)>(
     &::HMUI::SimpleTextDropdown::CellForIdx)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x242f8e4;
+  constexpr static std::size_t addrs = 0x252a570;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -125,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SimpleTextDropdown::*)(::HMUI::DropdownWithTableView*, int32_t)>(
     &::HMUI::SimpleTextDropdown::HandleDidSelectCellWithIdx)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x242fb8c;
+  constexpr static std::size_t addrs = 0x252a818;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -140,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SimpleTextDropdown::*)()>(&::HMUI::SimpleTextDropdown::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x242fcd8;
+  constexpr static std::size_t addrs = 0x252a964;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SimpleTextDropdown*>::get(), ".ctor",

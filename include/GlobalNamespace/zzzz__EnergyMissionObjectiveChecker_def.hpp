@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/EnergyMissionObjectiveChecker.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,18 +26,18 @@ public:
   /// @brief Field _energyCounter, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__energyCounter, put = __cordl_internal_set__energyCounter))::UnityW<::GlobalNamespace::GameEnergyCounter> _energyCounter;
 
-  /// @brief Method CheckAndUpdateStatus, addr 0x25ebee4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method CheckAndUpdateStatus, addr 0x26eae90, size 0xc4, virtual false, abstract: false, final false
   inline void CheckAndUpdateStatus();
 
-  /// @brief Method HandleEnergyDidChange, addr 0x25ebe78, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method HandleEnergyDidChange, addr 0x26eae24, size 0x6c, virtual false, abstract: false, final false
   inline void HandleEnergyDidChange(float_t energy);
 
-  /// @brief Method Init, addr 0x25ebfa8, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x26eaf54, size 0x138, virtual true, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::EnergyMissionObjectiveChecker* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x25ebda8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x26ead54, size 0xd0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::UnityW<::GlobalNamespace::GameEnergyCounter> const& __cordl_internal_get__energyCounter() const;
@@ -45,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set__energyCounter(::UnityW<::GlobalNamespace::GameEnergyCounter> value);
 
-  /// @brief Method .ctor, addr 0x25ec0e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26eb08c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

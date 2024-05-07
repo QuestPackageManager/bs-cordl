@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/LevelScenesTransitionSetupDataSO.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,10 +36,10 @@ public:
 
   __declspec(property(get = get_transformedBeatmapData))::GlobalNamespace::IReadonlyBeatmapData* transformedBeatmapData;
 
-  /// @brief Method BeforeScenesWillBeActivated, addr 0x25a6d08, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method BeforeScenesWillBeActivated, addr 0x26a0ce0, size 0x18, virtual false, abstract: false, final false
   inline void BeforeScenesWillBeActivated();
 
-  /// @brief Method BeforeScenesWillBeActivatedAsync, addr 0x25a98b4, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method BeforeScenesWillBeActivatedAsync, addr 0x26a394c, size 0x18, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* BeforeScenesWillBeActivatedAsync();
 
   static inline ::GlobalNamespace::LevelScenesTransitionSetupDataSO* New_ctor();
@@ -49,16 +50,16 @@ public:
 
   constexpr void __cordl_internal_set__gameplayCoreSceneSetupData_k__BackingField(::GlobalNamespace::GameplayCoreSceneSetupData* value);
 
-  /// @brief Method .ctor, addr 0x25a98cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a3964, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_gameplayCoreSceneSetupData, addr 0x25a98a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameplayCoreSceneSetupData, addr 0x26a393c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayCoreSceneSetupData* get_gameplayCoreSceneSetupData();
 
-  /// @brief Method get_transformedBeatmapData, addr 0x25a9888, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_transformedBeatmapData, addr 0x26a3920, size 0x1c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IReadonlyBeatmapData* get_transformedBeatmapData();
 
-  /// @brief Method set_gameplayCoreSceneSetupData, addr 0x25a98ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_gameplayCoreSceneSetupData, addr 0x26a3944, size 0x8, virtual false, abstract: false, final false
   inline void set_gameplayCoreSceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value);
 
 protected:

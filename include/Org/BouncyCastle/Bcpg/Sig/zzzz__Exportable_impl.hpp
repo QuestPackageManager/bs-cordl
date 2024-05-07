@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Bcpg/Sig/Exportable.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__SignatureSubpacket_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/Sig/zzzz__Exportable_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Bcpg::Sig::Exportable.BooleanToByteArray
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(bool)>(&::Org::BouncyCastle::Bcpg::Sig::Exportable::BooleanToByteArray)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x1336548;
+  constexpr static std::size_t addrs = 0x142ac6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -21,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::Sig::Exportable::*)(bool, bool, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Bcpg::Sig::Exportable::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x13365b4;
+  constexpr static std::size_t addrs = 0x142acd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -37,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::Sig::Exportable::*)(bool, bool)>(
     &::Org::BouncyCastle::Bcpg::Sig::Exportable::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x13365fc;
+  constexpr static std::size_t addrs = 0x142ad20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -51,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Bcpg::Sig::Exportable::*)()>(&::Org::BouncyCastle::Bcpg::Sig::Exportable::IsExportable)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x1336648;
+  constexpr static std::size_t addrs = 0x142ad6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::Sig::Exportable*>::get(),

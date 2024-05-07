@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SongTimeSyncedVideoPlayer.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -84,21 +85,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x25a0c64, size 0xfc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x269adac, size 0xfc, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__SongTimeSyncedVideoPlayer___WaitForDependenciesAndPlay_d__17* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x25a0d60, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x269aea8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x25a0d68, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x269aeb0, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x25a0da8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x269aef0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x25a0c60, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x269ada8, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -119,7 +120,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::SongTimeSyncedVideoPlayer> value);
 
-  /// @brief Method .ctor, addr 0x25a0a5c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x269aba4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -205,36 +206,36 @@ public:
   __declspec(property(get = __cordl_internal_get__waitForDependenciesAndPlayCoroutine,
                       put = __cordl_internal_set__waitForDependenciesAndPlayCoroutine))::UnityEngine::Coroutine* _waitForDependenciesAndPlayCoroutine;
 
-  /// @brief Method ColorWasSet, addr 0x25a07d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x269a920, size 0x8, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
-  /// @brief Method LateUpdate, addr 0x25a0674, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x269a7bc, size 0x164, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::SongTimeSyncedVideoPlayer* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x25a042c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x269a574, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetSpriteAndStopVideo, addr 0x25a07fc, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method SetSpriteAndStopVideo, addr 0x269a944, size 0x260, virtual false, abstract: false, final false
   inline void SetSpriteAndStopVideo(::UnityEngine::Sprite* sprite);
 
-  /// @brief Method SetVideoClip, addr 0x25a07e0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SetVideoClip, addr 0x269a928, size 0x1c, virtual false, abstract: false, final false
   inline void SetVideoClip(::UnityEngine::Video::VideoClip* videoClip);
 
-  /// @brief Method Start, addr 0x25a0364, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x269a4ac, size 0x60, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StopVideoPlayer, addr 0x25a0430, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method StopVideoPlayer, addr 0x269a578, size 0x4c, virtual false, abstract: false, final false
   inline void StopVideoPlayer();
 
-  /// @brief Method Update, addr 0x25a047c, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x269a5c4, size 0x1f8, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method WaitForDependenciesAndPlay, addr 0x25a03c4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method WaitForDependenciesAndPlay, addr 0x269a50c, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* WaitForDependenciesAndPlay();
 
-  /// @brief Method <WaitForDependenciesAndPlay>b__17_0, addr 0x25a0b5c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method <WaitForDependenciesAndPlay>b__17_0, addr 0x269aca4, size 0x104, virtual false, abstract: false, final false
   inline bool _WaitForDependenciesAndPlay_b__17_0();
 
   constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSource();
@@ -273,7 +274,7 @@ public:
 
   constexpr void __cordl_internal_set__waitForDependenciesAndPlayCoroutine(::UnityEngine::Coroutine* value);
 
-  /// @brief Method .ctor, addr 0x25a0a84, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x269abcc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__colorId();

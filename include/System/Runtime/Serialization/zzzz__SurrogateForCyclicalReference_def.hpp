@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Serialization/SurrogateForCyclicalReference.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,10 +40,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializationSurrogate"
   constexpr operator ::System::Runtime::Serialization::ISerializationSurrogate*() noexcept;
 
-  /// @brief Method GetObjectData, addr 0x273ac88, size 0xd0, virtual true, abstract: false, final true
+  /// @brief Method GetObjectData, addr 0x2839084, size 0xd0, virtual true, abstract: false, final true
   inline void GetObjectData(::System::Object* obj, ::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method SetObjectData, addr 0x273ad58, size 0xdc, virtual true, abstract: false, final true
+  /// @brief Method SetObjectData, addr 0x2839154, size 0xdc, virtual true, abstract: false, final true
   inline ::System::Object* SetObjectData(::System::Object* obj, ::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context,
                                          ::System::Runtime::Serialization::ISurrogateSelector* selector);
 

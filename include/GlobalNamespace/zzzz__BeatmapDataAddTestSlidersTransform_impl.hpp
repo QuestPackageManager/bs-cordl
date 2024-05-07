@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BeatmapDataAddTestSlidersTransform.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataAddTestSlidersTransform_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
@@ -12,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IReadonlyBeatmapData* (*)(::GlobalNamespace::IReadonlyBeatmapData*)>(
     &::GlobalNamespace::BeatmapDataAddTestSlidersTransform::CreateTransformedData)> {
   constexpr static std::size_t size = 0x320;
-  constexpr static std::size_t addrs = 0x13a4c8c;
+  constexpr static std::size_t addrs = 0x149a3b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +29,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::NoteData* (*)(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapDataItem*>*, int32_t, ::GlobalNamespace::ColorType)>(
         &::GlobalNamespace::BeatmapDataAddTestSlidersTransform::FindNextSameColorTypeNote)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x13a4fac;
+  constexpr static std::size_t addrs = 0x149a6d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -45,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapDataAddTestSlidersTransform::*)()>(
     &::GlobalNamespace::BeatmapDataAddTestSlidersTransform::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x13a5198;
+  constexpr static std::size_t addrs = 0x149a8bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDataAddTestSlidersTransform*>::get(),

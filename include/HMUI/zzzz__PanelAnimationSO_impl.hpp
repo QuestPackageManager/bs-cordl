@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/PanelAnimationSO.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "HMUI/zzzz__PanelAnimationSO_def.hpp"
 #include "System/zzzz__Action_def.hpp"
@@ -10,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::PanelAnimationSO::*)(::UnityEngine::GameObject*)>(&::HMUI::PanelAnimationSO::ExecuteAnimation)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x24024c0;
+  constexpr static std::size_t addrs = 0x24fb14c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::PanelAnimationSO::*)(::UnityEngine::GameObject*, ::System::Action*)>(
     &::HMUI::PanelAnimationSO::ExecuteAnimation)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x240259c;
+  constexpr static std::size_t addrs = 0x24fb228;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -41,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::PanelAnimationSO::*)(::UnityEngine::GameObject*, ::UnityEngine::CanvasGroup*, ::System::Action*)>(
     &::HMUI::PanelAnimationSO::ExecuteAnimation)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x24025ac;
+  constexpr static std::size_t addrs = 0x24fb238;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -58,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::PanelAnimationSO::*)(::UnityEngine::GameObject*, ::UnityEngine::CanvasGroup*, bool, ::System::Action*)>(
     &::HMUI::PanelAnimationSO::ExecuteAnimation)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x24024d0;
+  constexpr static std::size_t addrs = 0x24fb15c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -74,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::PanelAnimationSO::*)()>(&::HMUI::PanelAnimationSO::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x24025b8;
+  constexpr static std::size_t addrs = 0x24fb244;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::PanelAnimationSO*>::get(), ".ctor",

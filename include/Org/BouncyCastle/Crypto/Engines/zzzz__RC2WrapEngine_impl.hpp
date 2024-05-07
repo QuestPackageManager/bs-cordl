@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Engines/RC2WrapEngine.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Engines/zzzz__RC2WrapEngine_def.hpp"
 #include "Org/BouncyCastle/Crypto/Modes/zzzz__CbcBlockCipher_def.hpp"
@@ -13,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::RC2WrapEngine::*)(bool, ::Org::BouncyCastle::Crypto::ICipherParameters*)>(
     &::Org::BouncyCastle::Crypto::Engines::RC2WrapEngine::Init)> {
   constexpr static std::size_t size = 0x2c0;
-  constexpr static std::size_t addrs = 0x10446c8;
+  constexpr static std::size_t addrs = 0x1138dec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -29,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Engines::RC2WrapEngine::*)()>(
     &::Org::BouncyCastle::Crypto::Engines::RC2WrapEngine::get_AlgorithmName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x1044988;
+  constexpr static std::size_t addrs = 0x11390ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -45,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Engines::RC2WrapEngine::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Engines::RC2WrapEngine::Wrap)> {
   constexpr static std::size_t size = 0x478;
-  constexpr static std::size_t addrs = 0x10449c8;
+  constexpr static std::size_t addrs = 0x11390ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -61,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Engines::RC2WrapEngine::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Engines::RC2WrapEngine::Unwrap)> {
   constexpr static std::size_t size = 0x5c0;
-  constexpr static std::size_t addrs = 0x1044fc0;
+  constexpr static std::size_t addrs = 0x11396e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -77,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Engines::RC2WrapEngine::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Engines::RC2WrapEngine::CalculateCmsKeyChecksum)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x1044e40;
+  constexpr static std::size_t addrs = 0x1139564;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -92,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Engines::RC2WrapEngine::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Engines::RC2WrapEngine::CheckCmsKeyChecksum)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x1045580;
+  constexpr static std::size_t addrs = 0x1139ca4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -108,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::RC2WrapEngine::*)()>(
     &::Org::BouncyCastle::Crypto::Engines::RC2WrapEngine::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x1045694;
+  constexpr static std::size_t addrs = 0x1139db8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::RC2WrapEngine*>::get(),

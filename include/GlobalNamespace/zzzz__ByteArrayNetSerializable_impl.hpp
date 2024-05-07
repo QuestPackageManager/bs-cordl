@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ByteArrayNetSerializable.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__ByteArrayNetSerializable_def.hpp"
 #include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::ByteArrayNetSerializable::*)()>(
     &::GlobalNamespace::ByteArrayNetSerializable::get_length)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf93f68;
+  constexpr static std::size_t addrs = 0x108868c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ByteArrayNetSerializable*>::get(),
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::GlobalNamespace::ByteArrayNetSerializable::*)()>(
     &::GlobalNamespace::ByteArrayNetSerializable::get_data)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf93f70;
+  constexpr static std::size_t addrs = 0x1088694;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ByteArrayNetSerializable*>::get(), "get_data",
@@ -38,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ByteArrayNetSerializable::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::GlobalNamespace::ByteArrayNetSerializable::set_data)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0xf94054;
+  constexpr static std::size_t addrs = 0x1088778;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ByteArrayNetSerializable::*)(::StringW, int32_t, int32_t, bool)>(
     &::GlobalNamespace::ByteArrayNetSerializable::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0xf94080;
+  constexpr static std::size_t addrs = 0x10887a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -69,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ByteArrayNetSerializable::*)(::StringW, int32_t, bool)>(
     &::GlobalNamespace::ByteArrayNetSerializable::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0xf940c8;
+  constexpr static std::size_t addrs = 0x10887ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -85,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ByteArrayNetSerializable::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::GlobalNamespace::ByteArrayNetSerializable::SetData)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0xf94058;
+  constexpr static std::size_t addrs = 0x108877c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -100,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ByteArrayNetSerializable::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::GlobalNamespace::ByteArrayNetSerializable::SetData)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0xf9410c;
+  constexpr static std::size_t addrs = 0x1088830;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -116,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::GlobalNamespace::ByteArrayNetSerializable::*)(bool)>(
     &::GlobalNamespace::ByteArrayNetSerializable::GetData)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0xf93f78;
+  constexpr static std::size_t addrs = 0x108869c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -131,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ByteArrayNetSerializable::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::ByteArrayNetSerializable::Serialize)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0xf9445c;
+  constexpr static std::size_t addrs = 0x1088b80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -146,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ByteArrayNetSerializable::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::ByteArrayNetSerializable::Deserialize)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0xf9454c;
+  constexpr static std::size_t addrs = 0x1088c70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -160,7 +161,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ByteArrayNetSerializable::*)()>(&::GlobalNamespace::ByteArrayNetSerializable::Clear)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0xf9432c;
+  constexpr static std::size_t addrs = 0x1088a50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ByteArrayNetSerializable*>::get(), "Clear",
@@ -174,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ByteArrayNetSerializable::*)(int32_t)>(
     &::GlobalNamespace::ByteArrayNetSerializable::Resize)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0xf9439c;
+  constexpr static std::size_t addrs = 0x1088ac0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -189,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::GlobalNamespace::ByteArrayNetSerializable*)>(
     &::GlobalNamespace::ByteArrayNetSerializable::op_Implicit___ArrayW_uint8_t___Array_uint8_t___)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0xf94790;
+  constexpr static std::size_t addrs = 0x1088eb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -204,7 +205,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ByteArrayNetSerializable::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::GlobalNamespace::ByteArrayNetSerializable::CopyTo)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0xf94440;
+  constexpr static std::size_t addrs = 0x1088b64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -219,7 +220,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ByteArrayNetSerializable::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ByRef<int32_t>)>(
     &::GlobalNamespace::ByteArrayNetSerializable::CopyTo)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0xf947a4;
+  constexpr static std::size_t addrs = 0x1088ec8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

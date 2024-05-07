@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LIV/SDK/Unity/SDKPriority.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,10 +21,10 @@ namespace LIV::SDK::Unity {
 struct CORDL_TYPE SDKPriority {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x2502ff4, size 0x26c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x25f9c80, size 0x26c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_empty, addr 0x2502fe8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_empty, addr 0x25f9c74, size 0xc, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKPriority get_empty();
 
   // Ctor Parameters []

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/ActionInstaller.hpp"
 #include "Zenject/zzzz__Installer_1_impl.hpp"
 #include "Zenject/zzzz__ActionInstaller_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
@@ -11,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::ActionInstaller::*)(::System::Action_1<::Zenject::DiContainer*>*)>(
     &::Zenject::ActionInstaller::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x345aa3c;
+  constexpr static std::size_t addrs = 0x365ea04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::ActionInstaller::*)()>(&::Zenject::ActionInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x346bc44;
+  constexpr static std::size_t addrs = 0x366fc0c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::Zenject::ActionInstaller::__zenCreate)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x346bc6c;
+  constexpr static std::size_t addrs = 0x366fc34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::ActionInstaller::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x346bd20;
+  constexpr static std::size_t addrs = 0x366fce8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ActionInstaller*>::get(), "__zenCreateInjectTypeInfo",

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SafeAreaFocusedSimpleDialogPromptViewController.hpp"
 #include "GlobalNamespace/zzzz__SimpleDialogPromptViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__SafeAreaFocusedSimpleDialogPromptViewController_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SafeAreaFocusedSimpleDialogPromptViewController._ctor
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SafeAreaFocusedSimpleDialogPromptViewController::*)()>(
     &::GlobalNamespace::SafeAreaFocusedSimpleDialogPromptViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2566de0;
+  constexpr static std::size_t addrs = 0x265bebc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

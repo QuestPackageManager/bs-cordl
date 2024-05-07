@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/AuthenticationSchemeSelector.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Net/zzzz__AuthenticationSchemeSelector_def.hpp"
 #include "System/Net/zzzz__AuthenticationSchemes_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::AuthenticationSchemeSelector::*)(::System::Object*, void*)>(
     &::System::Net::AuthenticationSchemeSelector::_ctor)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x2ecebcc;
+  constexpr static std::size_t addrs = 0x2fd14cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Net::AuthenticationSchemes (::System::Net::AuthenticationSchemeSelector::*)(::System::Net::HttpListenerRequest*)>(&::System::Net::AuthenticationSchemeSelector::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2ececa0;
+  constexpr static std::size_t addrs = 0x2fd15a0;
 
   inline static ::MethodInfo const* methodInfo() {
 

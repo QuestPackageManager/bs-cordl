@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/IMECompositionString.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -109,13 +110,13 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*();
 
-  /// @brief Method GetEnumerator, addr 0x301d894, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x3159620, size 0x94, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<char16_t>* GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x301d94c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x31596d8, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method ToString, addr 0x301d87c, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3159608, size 0x18, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::UnityEngine::InputSystem::LowLevel::__IMECompositionString___buffer_e__FixedBuffer const& __cordl_internal_get_buffer() const;
@@ -130,13 +131,13 @@ public:
 
   constexpr void __cordl_internal_set_size(int32_t value);
 
-  /// @brief Method .ctor, addr 0x301d784, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3159510, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::StringW characters);
 
-  /// @brief Method get_Count, addr 0x301d804, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x3159590, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Item, addr 0x301d80c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x3159598, size 0x70, virtual false, abstract: false, final false
   inline char16_t get_Item(int32_t index);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<char16_t>"
@@ -218,22 +219,22 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x301d990, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x315971c, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method MoveNext, addr 0x301d950, size 0x34, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x31596dc, size 0x34, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  /// @brief Method Reset, addr 0x301d984, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x3159710, size 0xc, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x301d99c, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3159728, size 0x5c, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method .ctor, addr 0x301d928, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31596b4, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::LowLevel::IMECompositionString compositionString);
 
-  /// @brief Method get_Current, addr 0x301d994, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x3159720, size 0x8, virtual true, abstract: false, final true
   inline char16_t get_Current();
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<char16_t>"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HAPI_GeoInfo.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,7 +27,7 @@ namespace HoudiniEngineUnity {
 struct CORDL_TYPE HAPI_GeoInfo {
 public:
   // Declarations
-  /// @brief Method getGroupCountByType, addr 0x247be8c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method getGroupCountByType, addr 0x2576b18, size 0x28, virtual false, abstract: false, final false
   inline int32_t getGroupCountByType(::HoudiniEngineUnity::HAPI_GroupType type);
 
   // Ctor Parameters []

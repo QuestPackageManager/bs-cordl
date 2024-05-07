@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Cryptography/SHA1CryptoServiceProvider.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,19 +27,19 @@ public:
   /// @brief Field sha, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_sha, put = __cordl_internal_set_sha))::System::Security::Cryptography::SHA1Internal* sha;
 
-  /// @brief Method Dispose, addr 0x26f7e2c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x27f5228, size 0xc, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Finalize, addr 0x26f7d8c, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x27f5188, size 0xa0, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method HashCore, addr 0x26f7e38, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method HashCore, addr 0x27f5234, size 0x24, virtual true, abstract: false, final false
   inline void HashCore(::ArrayW<uint8_t, ::Array<uint8_t>*> rgb, int32_t ibStart, int32_t cbSize);
 
-  /// @brief Method HashFinal, addr 0x26f7e5c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method HashFinal, addr 0x27f5258, size 0x20, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> HashFinal();
 
-  /// @brief Method Initialize, addr 0x26f7e7c, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x27f5278, size 0x18, virtual true, abstract: false, final false
   inline void Initialize();
 
   static inline ::System::Security::Cryptography::SHA1CryptoServiceProvider* New_ctor();
@@ -49,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set_sha(::System::Security::Cryptography::SHA1Internal* value);
 
-  /// @brief Method .ctor, addr 0x26f7d24, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27f5120, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

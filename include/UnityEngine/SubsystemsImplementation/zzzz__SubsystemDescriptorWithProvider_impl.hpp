@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/SubsystemsImplementation/SubsystemDescriptorWithProvider.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/SubsystemsImplementation/zzzz__SubsystemDescriptorWithProvider_def.hpp"
 #include "UnityEngine/zzzz__ISubsystemDescriptor_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider::*)()>(
     &::UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider::get_id)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3269cb8;
+  constexpr static std::size_t addrs = 0x34729f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ISubsystem* (::UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider::*)()>(
     &::UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider::UnityEngine_ISubsystemDescriptor_Create)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3269cc0;
+  constexpr static std::size_t addrs = 0x34729fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -55,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider::*)()>(
     &::UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3269ccc;
+  constexpr static std::size_t addrs = 0x3472a08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

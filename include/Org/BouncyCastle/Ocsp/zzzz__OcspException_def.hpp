@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Ocsp/OcspException.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,13 +29,13 @@ public:
 
   static inline ::Org::BouncyCastle::Ocsp::OcspException* New_ctor(::StringW message, ::System::Exception* e);
 
-  /// @brief Method .ctor, addr 0x120f66c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12ffd90, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x120f6c4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12ffde8, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x120bec8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12fc5ec, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* e);
 
 protected:

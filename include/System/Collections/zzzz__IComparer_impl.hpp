@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Collections/IComparer.hpp"
 #include "System/Collections/zzzz__IComparer_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Collections::IComparer.Compare

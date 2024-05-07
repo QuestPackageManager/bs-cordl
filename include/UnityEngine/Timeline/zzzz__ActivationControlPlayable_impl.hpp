@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Timeline/ActivationControlPlayable.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableBehaviour_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__ActivationControlPlayable_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__ActivationControlPlayable_def.hpp"
@@ -34,7 +35,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::__ActivationControlPlayable__PostPlaybackState)>(
     &::UnityEngine::Timeline::ActivationControlPlayable::Create)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x3193b48;
+  constexpr static std::size_t addrs = 0x339a5d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -51,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::ActivationControlPlayable::*)(
     ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData)>(&::UnityEngine::Timeline::ActivationControlPlayable::OnBehaviourPlay)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3198c40;
+  constexpr static std::size_t addrs = 0x339f6c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -67,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::ActivationControlPlayable::*)(
     ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData)>(&::UnityEngine::Timeline::ActivationControlPlayable::OnBehaviourPause)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3198cc8;
+  constexpr static std::size_t addrs = 0x339f750;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -83,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::ActivationControlPlayable::*)(
     ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*)>(&::UnityEngine::Timeline::ActivationControlPlayable::ProcessFrame)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3198d70;
+  constexpr static std::size_t addrs = 0x339f7f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -99,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::ActivationControlPlayable::*)(::UnityEngine::Playables::Playable)>(
     &::UnityEngine::Timeline::ActivationControlPlayable::OnGraphStart)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3198df8;
+  constexpr static std::size_t addrs = 0x339f880;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -115,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::ActivationControlPlayable::*)(::UnityEngine::Playables::Playable)>(
     &::UnityEngine::Timeline::ActivationControlPlayable::OnPlayableDestroy)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3198e8c;
+  constexpr static std::size_t addrs = 0x339f914;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -131,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::ActivationControlPlayable::*)()>(
     &::UnityEngine::Timeline::ActivationControlPlayable::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3198f58;
+  constexpr static std::size_t addrs = 0x339f9e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ActivationControlPlayable*>::get(),

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/NativeEventCalls.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,25 +25,25 @@ namespace System::Threading {
 class CORDL_TYPE NativeEventCalls : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CloseEvent_internal, addr 0x28a76ac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method CloseEvent_internal, addr 0x29a5f5c, size 0x4, virtual false, abstract: false, final false
   static inline void CloseEvent_internal(void* handle);
 
-  /// @brief Method CreateEvent_icall, addr 0x28a74d8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CreateEvent_icall, addr 0x29a5d88, size 0xc, virtual false, abstract: false, final false
   static inline void* CreateEvent_icall(bool manual, bool initial, ::cordl_internals::Ptr<char16_t> name, int32_t name_length, ByRef<int32_t> errorCode);
 
-  /// @brief Method CreateEvent_internal, addr 0x28a7480, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CreateEvent_internal, addr 0x29a5d30, size 0x58, virtual false, abstract: false, final false
   static inline void* CreateEvent_internal(bool manual, bool initial, ::StringW name, ByRef<int32_t> errorCode);
 
-  /// @brief Method ResetEvent, addr 0x28a75c8, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method ResetEvent, addr 0x29a5e78, size 0xe0, virtual false, abstract: false, final false
   static inline bool ResetEvent(::Microsoft::Win32::SafeHandles::SafeWaitHandle* handle);
 
-  /// @brief Method ResetEvent_internal, addr 0x28a76a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ResetEvent_internal, addr 0x29a5f58, size 0x4, virtual false, abstract: false, final false
   static inline bool ResetEvent_internal(void* handle);
 
-  /// @brief Method SetEvent, addr 0x28a74e4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method SetEvent, addr 0x29a5d94, size 0xe0, virtual false, abstract: false, final false
   static inline bool SetEvent(::Microsoft::Win32::SafeHandles::SafeWaitHandle* handle);
 
-  /// @brief Method SetEvent_internal, addr 0x28a75c4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetEvent_internal, addr 0x29a5e74, size 0x4, virtual false, abstract: false, final false
   static inline bool SetEvent_internal(void* handle);
 
 protected:

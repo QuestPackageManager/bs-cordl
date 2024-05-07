@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/EnterTryFaultInstruction.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__IndexedBranchInstruction_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__EnterTryFaultInstruction_def.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__InterpretedFrame_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::EnterTryFaultInstruction::*)(int32_t)>(
     &::System::Linq::Expressions::Interpreter::EnterTryFaultInstruction::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2b16c4c;
+  constexpr static std::size_t addrs = 0x2c1454c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::EnterTryFaultInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::EnterTryFaultInstruction::get_InstructionName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2b16c74;
+  constexpr static std::size_t addrs = 0x2c14574;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::EnterTryFaultInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::EnterTryFaultInstruction::get_ProducedContinuations)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b16cb4;
+  constexpr static std::size_t addrs = 0x2c145b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Interpreter::TryFaultHandler* (
     ::System::Linq::Expressions::Interpreter::EnterTryFaultInstruction::*)()>(&::System::Linq::Expressions::Interpreter::EnterTryFaultInstruction::get_Handler)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b16cbc;
+  constexpr static std::size_t addrs = 0x2c145bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -71,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::EnterTryFaultInstruction::*)(
     ::System::Linq::Expressions::Interpreter::TryFaultHandler*)>(&::System::Linq::Expressions::Interpreter::EnterTryFaultInstruction::SetTryHandler)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b16cc4;
+  constexpr static std::size_t addrs = 0x2c145c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -86,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::EnterTryFaultInstruction::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::System::Linq::Expressions::Interpreter::EnterTryFaultInstruction::Run)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x2b16ccc;
+  constexpr static std::size_t addrs = 0x2c145cc;
 
   inline static ::MethodInfo const* methodInfo() {
 

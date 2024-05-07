@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "JetBrains/Annotations/MustUseReturnValueAttribute.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,16 +35,16 @@ public:
 
   constexpr void __cordl_internal_set__Justification_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x340a25c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x360ef98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x340a264, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x360efa0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW justification);
 
-  /// @brief Method get_Justification, addr 0x340a28c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Justification, addr 0x360efc8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Justification();
 
-  /// @brief Method set_Justification, addr 0x340a294, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Justification, addr 0x360efd0, size 0x8, virtual false, abstract: false, final false
   inline void set_Justification(::StringW value);
 
 protected:

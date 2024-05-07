@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/TypeValuePair.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +25,7 @@ namespace Zenject {
 struct CORDL_TYPE TypeValuePair {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x343b764, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x363f4a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::System::Object* value);
 
   // Ctor Parameters []

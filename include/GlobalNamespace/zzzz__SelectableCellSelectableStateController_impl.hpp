@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SelectableCellSelectableStateController.hpp"
 #include "GlobalNamespace/zzzz__SelectableStateController_1_impl.hpp"
 #include "GlobalNamespace/zzzz__SelectableCellSelectableStateController_def.hpp"
 #include "HMUI/zzzz__Interactable_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SelectableCellSelectableStateController::*)()>(
     &::GlobalNamespace::SelectableCellSelectableStateController::OnEnable)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x263d77c;
+  constexpr static std::size_t addrs = 0x273d568;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SelectableCellSelectableStateController::*)()>(
     &::GlobalNamespace::SelectableCellSelectableStateController::OnDisable)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x263d94c;
+  constexpr static std::size_t addrs = 0x273d738;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SelectableCellSelectableStateController::*)(::HMUI::Interactable*, bool)>(
     &::GlobalNamespace::SelectableCellSelectableStateController::HandleSelectableCellInteractableDidChange)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x263daa0;
+  constexpr static std::size_t addrs = 0x273d88c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -57,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SelectableCellSelectableStateController::*)(
     ::HMUI::SelectableCell*, ::HMUI::__SelectableCell__TransitionType)>(&::GlobalNamespace::SelectableCellSelectableStateController::HandleSelectableCellHighlightDidChange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x263db28;
+  constexpr static std::size_t addrs = 0x273d914;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -74,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SelectableCellSelectableStateController::*)(
     ::HMUI::SelectableCell*, ::HMUI::__SelectableCell__TransitionType, ::System::Object*)>(&::GlobalNamespace::SelectableCellSelectableStateController::HandleSelectableCellSelectionStateDidChange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x263db2c;
+  constexpr static std::size_t addrs = 0x273d918;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -92,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SelectableCellSelectableStateController::*)(
     ::HMUI::SelectableCell*, ::HMUI::__SelectableCell__TransitionType)>(&::GlobalNamespace::SelectableCellSelectableStateController::ResolveState)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x263d8e0;
+  constexpr static std::size_t addrs = 0x273d6cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -108,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SelectableCellSelectableStateController::*)()>(
     &::GlobalNamespace::SelectableCellSelectableStateController::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x263db30;
+  constexpr static std::size_t addrs = 0x273d91c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

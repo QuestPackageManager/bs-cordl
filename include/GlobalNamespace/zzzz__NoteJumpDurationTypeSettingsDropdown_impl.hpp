@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/NoteJumpDurationTypeSettingsDropdown.hpp"
 #include "GlobalNamespace/zzzz__NoteJumpDurationTypeSettings_impl.hpp"
 #include "GlobalNamespace/zzzz__ValueDropdownController_1_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteJumpDurationTypeSettingsDropdown_def.hpp"
@@ -12,7 +13,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::NoteJumpDurationTypeSettings, ::StringW>*>* (::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown::*)()>(
     &::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown::GetNamedValues)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x253ca94;
+  constexpr static std::size_t addrs = 0x263310c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -28,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown::*)()>(
     &::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x253cb88;
+  constexpr static std::size_t addrs = 0x2633200;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown*>::get(),

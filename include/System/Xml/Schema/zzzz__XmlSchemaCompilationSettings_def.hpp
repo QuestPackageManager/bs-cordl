@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaCompilationSettings.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,10 +32,10 @@ public:
 
   constexpr void __cordl_internal_set_enableUpaCheck(bool value);
 
-  /// @brief Method .ctor, addr 0x2d12150, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e0fa50, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_EnableUpaCheck, addr 0x2d12170, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EnableUpaCheck, addr 0x2e0fa70, size 0x8, virtual false, abstract: false, final false
   inline bool get_EnableUpaCheck();
 
 protected:

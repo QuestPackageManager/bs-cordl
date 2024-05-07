@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LiteNetLib/INatPunchListener.hpp"
 #include "LiteNetLib/zzzz__INatPunchListener_def.hpp"
 #include "LiteNetLib/zzzz__NatAddressType_def.hpp"
 #include "System/Net/zzzz__IPEndPoint_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/ContentValidator.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -71,29 +72,29 @@ public:
   /// @brief Field isOpen, offset 0x14, size 0x1
   __declspec(property(get = __cordl_internal_get_isOpen, put = __cordl_internal_set_isOpen)) bool isOpen;
 
-  /// @brief Method AddParticleToExpected, addr 0x2dfc124, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method AddParticleToExpected, addr 0x2efaa24, size 0x70, virtual false, abstract: false, final false
   static inline void AddParticleToExpected(::System::Xml::Schema::XmlSchemaParticle* p, ::System::Xml::Schema::XmlSchemaSet* schemaSet, ::System::Collections::ArrayList* particles);
 
-  /// @brief Method AddParticleToExpected, addr 0x2dfc194, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method AddParticleToExpected, addr 0x2efaa94, size 0x230, virtual false, abstract: false, final false
   static inline void AddParticleToExpected(::System::Xml::Schema::XmlSchemaParticle* p, ::System::Xml::Schema::XmlSchemaSet* schemaSet, ::System::Collections::ArrayList* particles, bool global);
 
-  /// @brief Method CompleteValidation, addr 0x2dfc10c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CompleteValidation, addr 0x2efaa0c, size 0x8, virtual true, abstract: false, final false
   inline bool CompleteValidation(::System::Xml::Schema::ValidationState* context);
 
-  /// @brief Method ExpectedElements, addr 0x2dfc114, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ExpectedElements, addr 0x2efaa14, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::ArrayList* ExpectedElements(::System::Xml::Schema::ValidationState* context, bool isRequiredOnly);
 
-  /// @brief Method ExpectedParticles, addr 0x2dfc11c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ExpectedParticles, addr 0x2efaa1c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::ArrayList* ExpectedParticles(::System::Xml::Schema::ValidationState* context, bool isRequiredOnly, ::System::Xml::Schema::XmlSchemaSet* schemaSet);
 
-  /// @brief Method InitValidation, addr 0x2dfc0d8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method InitValidation, addr 0x2efa9d8, size 0x4, virtual true, abstract: false, final false
   inline void InitValidation(::System::Xml::Schema::ValidationState* context);
 
   static inline ::System::Xml::Schema::ContentValidator* New_ctor(::System::Xml::Schema::XmlSchemaContentType contentType);
 
   static inline ::System::Xml::Schema::ContentValidator* New_ctor(::System::Xml::Schema::XmlSchemaContentType contentType, bool isOpen, bool isEmptiable);
 
-  /// @brief Method ValidateElement, addr 0x2dfc0dc, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method ValidateElement, addr 0x2efa9dc, size 0x30, virtual true, abstract: false, final false
   inline ::System::Object* ValidateElement(::System::Xml::XmlQualifiedName* name, ::System::Xml::Schema::ValidationState* context, ByRef<int32_t> errorCode);
 
   constexpr ::System::Xml::Schema::XmlSchemaContentType const& __cordl_internal_get_contentType() const;
@@ -114,10 +115,10 @@ public:
 
   constexpr void __cordl_internal_set_isOpen(bool value);
 
-  /// @brief Method .ctor, addr 0x2dfc00c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2efa90c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaContentType contentType);
 
-  /// @brief Method .ctor, addr 0x2dfc03c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2efa93c, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaContentType contentType, bool isOpen, bool isEmptiable);
 
   static inline ::System::Xml::Schema::ContentValidator* getStaticF_Any();
@@ -128,16 +129,16 @@ public:
 
   static inline ::System::Xml::Schema::ContentValidator* getStaticF_TextOnly();
 
-  /// @brief Method get_ContentType, addr 0x2dfc07c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentType, addr 0x2efa97c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaContentType get_ContentType();
 
-  /// @brief Method get_IsEmptiable, addr 0x2dfc0a0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsEmptiable, addr 0x2efa9a0, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsEmptiable();
 
-  /// @brief Method get_IsOpen, addr 0x2dfc0a8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_IsOpen, addr 0x2efa9a8, size 0x24, virtual false, abstract: false, final false
   inline bool get_IsOpen();
 
-  /// @brief Method get_PreserveWhitespace, addr 0x2dfc084, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_PreserveWhitespace, addr 0x2efa984, size 0x1c, virtual false, abstract: false, final false
   inline bool get_PreserveWhitespace();
 
   static inline void setStaticF_Any(::System::Xml::Schema::ContentValidator* value);
@@ -148,7 +149,7 @@ public:
 
   static inline void setStaticF_TextOnly(::System::Xml::Schema::ContentValidator* value);
 
-  /// @brief Method set_IsOpen, addr 0x2dfc0cc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsOpen, addr 0x2efa9cc, size 0xc, virtual false, abstract: false, final false
   inline void set_IsOpen(bool value);
 
 protected:

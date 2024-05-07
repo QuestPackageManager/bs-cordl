@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LiteNetLib/ReliableChannel.hpp"
 #include "LiteNetLib/zzzz__BaseChannel_impl.hpp"
 #include "LiteNetLib/zzzz__DeliveryMethod_impl.hpp"
 #include "LiteNetLib/zzzz__ReliableChannel_def.hpp"
@@ -11,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::LiteNetLib::__ReliableChannel__PendingPacket::*)()>(
     &::LiteNetLib::__ReliableChannel__PendingPacket::ToString)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x24f4df0;
+  constexpr static std::size_t addrs = 0x25eca7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::__ReliableChannel__PendingPacket::*)(::LiteNetLib::NetPacket*)>(
     &::LiteNetLib::__ReliableChannel__PendingPacket::Init)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x24f4870;
+  constexpr static std::size_t addrs = 0x25ec4fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::__ReliableChannel__PendingPacket::*)(int64_t, ::LiteNetLib::NetPeer*)>(
     &::LiteNetLib::__ReliableChannel__PendingPacket::TrySend)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x24f487c;
+  constexpr static std::size_t addrs = 0x25ec508;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::LiteNetLib::__ReliableChannel__PendingPacket::*)(::LiteNetLib::NetPeer*)>(
     &::LiteNetLib::__ReliableChannel__PendingPacket::Clear)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x24f43c8;
+  constexpr static std::size_t addrs = 0x25ec054;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -105,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::ReliableChannel::*)(::LiteNetLib::NetPeer*, bool, uint8_t)>(
     &::LiteNetLib::ReliableChannel::_ctor)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x24f094c;
+  constexpr static std::size_t addrs = 0x25e85d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -120,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::ReliableChannel::*)(::LiteNetLib::NetPacket*)>(&::LiteNetLib::ReliableChannel::ProcessAck)> {
   constexpr static std::size_t size = 0x350;
-  constexpr static std::size_t addrs = 0x24f4078;
+  constexpr static std::size_t addrs = 0x25ebd04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -134,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::ReliableChannel::*)()>(&::LiteNetLib::ReliableChannel::SendNextPackets)> {
   constexpr static std::size_t size = 0x46c;
-  constexpr static std::size_t addrs = 0x24f4404;
+  constexpr static std::size_t addrs = 0x25ec090;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -148,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::LiteNetLib::ReliableChannel::*)(::LiteNetLib::NetPacket*)>(&::LiteNetLib::ReliableChannel::ProcessPacket)> {
   constexpr static std::size_t size = 0x4fc;
-  constexpr static std::size_t addrs = 0x24f48f4;
+  constexpr static std::size_t addrs = 0x25ec580;
 
   inline static ::MethodInfo const* methodInfo() {
 

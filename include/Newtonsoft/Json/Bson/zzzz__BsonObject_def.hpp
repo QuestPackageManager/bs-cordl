@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Bson/BsonObject.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,15 +55,15 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method Add, addr 0x299ded4, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x2a9b784, size 0x134, virtual false, abstract: false, final false
   inline void Add(::StringW name, ::Newtonsoft::Json::Bson::BsonToken* token);
 
-  /// @brief Method GetEnumerator, addr 0x299be64, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x2a99714, size 0x90, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Bson::BsonProperty*>* GetEnumerator();
 
   static inline ::Newtonsoft::Json::Bson::BsonObject* New_ctor();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x299e050, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2a9b900, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   constexpr ::System::Collections::Generic::List_1<::Newtonsoft::Json::Bson::BsonProperty*>*& __cordl_internal_get__children();
@@ -71,10 +72,10 @@ public:
 
   constexpr void __cordl_internal_set__children(::System::Collections::Generic::List_1<::Newtonsoft::Json::Bson::BsonProperty*>* value);
 
-  /// @brief Method .ctor, addr 0x299e054, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a9b904, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Type, addr 0x299e048, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x2a9b8f8, size 0x8, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Bson::BsonType get_Type();
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Bson::BsonProperty*>"

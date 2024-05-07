@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/NetworkInformation/MibIPGlobalProperties.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -79,7 +80,7 @@ public:
 
   constexpr void __cordl_internal_set_UdpFile(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2f25ea4, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x30267a4, size 0x168, virtual false, abstract: false, final false
   inline void _ctor(::StringW procDir);
 
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_wsChars();

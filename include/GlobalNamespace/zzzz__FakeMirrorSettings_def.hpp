@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/FakeMirrorSettings.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,16 +59,16 @@ public:
 
   static inline ::GlobalNamespace::FakeMirrorSettings* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x2ad75b4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x2bd3e5c, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnValidate, addr 0x2ad75b8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x2bd3e60, size 0x4, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method SetGlobalParameters, addr 0x2ad74a4, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method SetGlobalParameters, addr 0x2bd3d4c, size 0x110, virtual false, abstract: false, final false
   inline void SetGlobalParameters();
 
-  /// @brief Method Start, addr 0x2ad74a0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2bd3d48, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr float_t const& __cordl_internal_get__fakeMirrorTransparency() const;
@@ -106,7 +107,7 @@ public:
 
   constexpr void __cordl_internal_set__vertexDistortionZposMultiplier(float_t value);
 
-  /// @brief Method .ctor, addr 0x2ad75bc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bd3e64, size 0x30, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__fakeMirrorTransparencyId();
@@ -119,7 +120,7 @@ public:
 
   static inline int32_t getStaticF__vertexDistortionZposMultiplierId();
 
-  /// @brief Method get_fakeMirrorTransparency, addr 0x2ad7490, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fakeMirrorTransparency, addr 0x2bd3d38, size 0x8, virtual false, abstract: false, final false
   inline float_t get_fakeMirrorTransparency();
 
   static inline void setStaticF__fakeMirrorTransparencyId(int32_t value);
@@ -132,7 +133,7 @@ public:
 
   static inline void setStaticF__vertexDistortionZposMultiplierId(int32_t value);
 
-  /// @brief Method set_fakeMirrorTransparency, addr 0x2ad7498, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_fakeMirrorTransparency, addr 0x2bd3d40, size 0x8, virtual false, abstract: false, final false
   inline void set_fakeMirrorTransparency(float_t value);
 
 protected:

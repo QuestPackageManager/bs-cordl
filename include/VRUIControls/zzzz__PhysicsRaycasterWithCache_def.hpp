@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "VRUIControls/PhysicsRaycasterWithCache.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,7 +41,7 @@ namespace VRUIControls {
 struct CORDL_TYPE __PhysicsRaycasterWithCache__CachedRaycast {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x3403a08, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3609744, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(bool wasHit, ::UnityEngine::Ray ray, ::UnityEngine::RaycastHit hitInfo, float_t maxDistance, int32_t layerMask);
 
   // Ctor Parameters []
@@ -105,7 +106,7 @@ public:
 
   static inline ::VRUIControls::PhysicsRaycasterWithCache* New_ctor();
 
-  /// @brief Method Raycast, addr 0x340349c, size 0x56c, virtual false, abstract: false, final false
+  /// @brief Method Raycast, addr 0x36091d8, size 0x56c, virtual false, abstract: false, final false
   inline bool Raycast(::UnityEngine::Ray ray, ByRef<::UnityEngine::RaycastHit> hitInfo, float_t maxDistance, int32_t layerMask);
 
   constexpr ::System::Collections::Generic::List_1<::VRUIControls::__PhysicsRaycasterWithCache__CachedRaycast>*& __cordl_internal_get__cachedRaycasts();
@@ -121,7 +122,7 @@ public:
 
   constexpr void __cordl_internal_set__lastFrameCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3403a48, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3609784, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

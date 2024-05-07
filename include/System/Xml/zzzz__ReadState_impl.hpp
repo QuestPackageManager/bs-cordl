@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/ReadState.hpp"
 #include "System/Xml/zzzz__ReadState_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Xml::ReadState::ReadState(int32_t value__) noexcept {

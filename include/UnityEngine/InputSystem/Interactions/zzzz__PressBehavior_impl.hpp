@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Interactions/PressBehavior.hpp"
 #include "UnityEngine/InputSystem/Interactions/zzzz__PressBehavior_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::InputSystem::Interactions::PressBehavior::PressBehavior(int32_t value__) noexcept {

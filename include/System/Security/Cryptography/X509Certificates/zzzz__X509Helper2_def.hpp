@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Cryptography/X509Certificates/X509Helper2.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,19 +31,19 @@ namespace System::Security::Cryptography::X509Certificates {
 class CORDL_TYPE X509Helper2 : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateChainImpl, addr 0x2eb8b90, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method CreateChainImpl, addr 0x2fbb490, size 0x64, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::X509Certificates::X509ChainImpl* CreateChainImpl(bool useMachineContext);
 
-  /// @brief Method GetInvalidChainContextException, addr 0x2eb8c48, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetInvalidChainContextException, addr 0x2fbb548, size 0x88, virtual false, abstract: false, final false
   static inline ::System::Exception* GetInvalidChainContextException();
 
-  /// @brief Method GetMonoCertificate, addr 0x2eb8abc, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method GetMonoCertificate, addr 0x2fbb3bc, size 0xd4, virtual false, abstract: false, final false
   static inline ::Mono::Security::X509::X509Certificate* GetMonoCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
 
-  /// @brief Method IsValid, addr 0x2eb8bf4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x2fbb4f4, size 0x14, virtual false, abstract: false, final false
   static inline bool IsValid(::System::Security::Cryptography::X509Certificates::X509ChainImpl* impl);
 
-  /// @brief Method ThrowIfContextInvalid, addr 0x2eb8c08, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfContextInvalid, addr 0x2fbb508, size 0x40, virtual false, abstract: false, final false
   static inline void ThrowIfContextInvalid(::System::Security::Cryptography::X509Certificates::X509ChainImpl* impl);
 
 protected:

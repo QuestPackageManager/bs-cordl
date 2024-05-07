@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Text/DecoderNLS.hpp"
 #include "System/Text/zzzz__Decoder_impl.hpp"
 #include "System/Text/zzzz__DecoderNLS_def.hpp"
 #include "System/Text/zzzz__Encoding_def.hpp"
@@ -7,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::DecoderNLS::*)(::System::Text::Encoding*)>(&::System::Text::DecoderNLS::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x28b8f58;
+  constexpr static std::size_t addrs = 0x29b7808;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -21,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::DecoderNLS::*)()>(&::System::Text::DecoderNLS::Reset)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x28ba9dc;
+  constexpr static std::size_t addrs = 0x29b928c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -36,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::DecoderNLS::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::System::Text::DecoderNLS::GetCharCount)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x28ba9f4;
+  constexpr static std::size_t addrs = 0x29b92a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -51,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::DecoderNLS::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, bool)>(
     &::System::Text::DecoderNLS::GetCharCount)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x28baa04;
+  constexpr static std::size_t addrs = 0x29b92b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -66,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::DecoderNLS::*)(::cordl_internals::Ptr<uint8_t>, int32_t, bool)>(
     &::System::Text::DecoderNLS::GetCharCount)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x28babdc;
+  constexpr static std::size_t addrs = 0x29b948c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -81,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::DecoderNLS::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::ArrayW<char16_t, ::Array<char16_t>*>, int32_t)>(&::System::Text::DecoderNLS::GetChars)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x28bacd4;
+  constexpr static std::size_t addrs = 0x29b9584;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -96,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::DecoderNLS::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, bool)>(&::System::Text::DecoderNLS::GetChars)> {
   constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x28bace4;
+  constexpr static std::size_t addrs = 0x29b9594;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -111,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<int32_t (::System::Text::DecoderNLS::*)(::cordl_internals::Ptr<uint8_t>, int32_t, ::cordl_internals::Ptr<char16_t>, int32_t, bool)>(&::System::Text::DecoderNLS::GetChars)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x28baf7c;
+  constexpr static std::size_t addrs = 0x29b982c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -127,7 +128,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t, bool, ByRef<int32_t>, ByRef<int32_t>, ByRef<bool>)>(
     &::System::Text::DecoderNLS::Convert)> {
   constexpr static std::size_t size = 0x2d0;
-  constexpr static std::size_t addrs = 0x28bb09c;
+  constexpr static std::size_t addrs = 0x29b994c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -142,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::DecoderNLS::*)(
     ::cordl_internals::Ptr<uint8_t>, int32_t, ::cordl_internals::Ptr<char16_t>, int32_t, bool, ByRef<int32_t>, ByRef<int32_t>, ByRef<bool>)>(&::System::Text::DecoderNLS::Convert)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x28bb36c;
+  constexpr static std::size_t addrs = 0x29b9c1c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -156,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Text::DecoderNLS::*)()>(&::System::Text::DecoderNLS::get_MustFlush)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x28bb518;
+  constexpr static std::size_t addrs = 0x29b9dc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::DecoderNLS*>::get(), "get_MustFlush",
@@ -169,7 +170,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Text::DecoderNLS::*)()>(&::System::Text::DecoderNLS::get_HasState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x28bb520;
+  constexpr static std::size_t addrs = 0x29b9dd0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -183,7 +184,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::DecoderNLS::*)()>(&::System::Text::DecoderNLS::ClearMustFlush)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x28bb528;
+  constexpr static std::size_t addrs = 0x29b9dd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::DecoderNLS*>::get(), "ClearMustFlush",

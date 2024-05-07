@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/AndInstruction.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -104,12 +105,12 @@ public:
   /// @brief Field s_UInt64, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_UInt64, put = setStaticF_s_UInt64))::System::Linq::Expressions::Interpreter::Instruction* s_UInt64;
 
-  /// @brief Method Create, addr 0x2b129a4, size 0x3a0, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2c102a4, size 0x3a0, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::Interpreter::Instruction* Create(::System::Type* type);
 
   static inline ::System::Linq::Expressions::Interpreter::AndInstruction* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2b1299c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c1029c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_Boolean();
@@ -130,13 +131,13 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_UInt64();
 
-  /// @brief Method get_ConsumedStack, addr 0x2b1294c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x2c1024c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x2b1295c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x2c1025c, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x2b12954, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x2c10254, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
   static inline void setStaticF_s_Boolean(::System::Linq::Expressions::Interpreter::Instruction* value);

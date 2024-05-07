@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BGLib/AppFlow/Initialization/AsyncInstaller.hpp"
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "BGLib/AppFlow/Initialization/zzzz__AsyncInstaller_def.hpp"
 #include "BGLib/AppFlow/Initialization/zzzz__AsyncInstaller_def.hpp"
@@ -89,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::AppFlow::Initialization::AsyncInstaller::*)()>(
     &::BGLib::AppFlow::Initialization::AsyncInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf7f2ac;
+  constexpr static std::size_t addrs = 0x107185c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::Initialization::AsyncInstaller*>::get(),

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/AudioReferenceCountingCache.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,7 +28,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::AudioReferenceCountingCache* New_ctor();
 
-  /// @brief Method .ctor, addr 0x265e470, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x275d90c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

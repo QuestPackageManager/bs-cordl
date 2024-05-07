@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Agreement/JPake/JPakePrimeOrderGroup.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Agreement/JPake/zzzz__JPakePrimeOrderGroup_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
@@ -9,7 +10,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*)>(
     &::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1383530;
+  constexpr static std::size_t addrs = 0x1478c54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +28,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*, bool)>(
     &::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup::_ctor)> {
   constexpr static std::size_t size = 0x330;
-  constexpr static std::size_t addrs = 0x1383538;
+  constexpr static std::size_t addrs = 0x1478c5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -45,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup::*)()>(
     &::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup::get_P)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1383868;
+  constexpr static std::size_t addrs = 0x1478f8c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -61,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup::*)()>(
     &::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup::get_Q)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1383870;
+  constexpr static std::size_t addrs = 0x1478f94;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -77,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup::*)()>(
     &::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup::get_G)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1383878;
+  constexpr static std::size_t addrs = 0x1478f9c;
 
   inline static ::MethodInfo const* methodInfo() {
 

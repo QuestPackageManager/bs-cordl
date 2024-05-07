@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/NetworkInformation/AixIoctlRequest.hpp"
 #include "System/Net/NetworkInformation/zzzz__AixIoctlRequest_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Net::NetworkInformation::AixIoctlRequest::AixIoctlRequest(uint32_t value__) noexcept {

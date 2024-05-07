@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/BinaryNode.hpp"
 #include "System/Data/zzzz__ExpressionNode_impl.hpp"
 #include "System/Data/zzzz__BinaryNode_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -58,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Data::BinaryNode::*)(::System::Data::DataTable*, int32_t, ::System::Data::ExpressionNode*, ::System::Data::ExpressionNode*)>(&::System::Data::BinaryNode::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2bc24f0;
+  constexpr static std::size_t addrs = 0x2cbedf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -76,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Data::BinaryNode::*)(::System::Data::DataTable*, ::System::Collections::Generic::List_1<::System::Data::DataColumn*>*)>(&::System::Data::BinaryNode::Bind)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2bc2534;
+  constexpr static std::size_t addrs = 0x2cbee34;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -90,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::BinaryNode::*)()>(&::System::Data::BinaryNode::Eval)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2bc2588;
+  constexpr static std::size_t addrs = 0x2cbee88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -105,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::BinaryNode::*)(::System::Data::DataRow*, ::System::Data::DataRowVersion)>(
     &::System::Data::BinaryNode::Eval)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2bc259c;
+  constexpr static std::size_t addrs = 0x2cbee9c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -120,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::BinaryNode::*)(::ArrayW<int32_t, ::Array<int32_t>*>)>(
     &::System::Data::BinaryNode::Eval)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2bc7e74;
+  constexpr static std::size_t addrs = 0x2cc4774;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -134,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::BinaryNode::*)()>(&::System::Data::BinaryNode::IsConstant)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2bc7e90;
+  constexpr static std::size_t addrs = 0x2cc4790;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -148,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::BinaryNode::*)()>(&::System::Data::BinaryNode::IsTableConstant)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2bc7ed8;
+  constexpr static std::size_t addrs = 0x2cc47d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -162,7 +163,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::BinaryNode::*)()>(&::System::Data::BinaryNode::HasLocalAggregate)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2bc7f20;
+  constexpr static std::size_t addrs = 0x2cc4820;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -176,7 +177,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::BinaryNode::*)()>(&::System::Data::BinaryNode::HasRemoteAggregate)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2bc7f68;
+  constexpr static std::size_t addrs = 0x2cc4868;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -190,7 +191,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::BinaryNode::*)(::System::Data::DataColumn*)>(&::System::Data::BinaryNode::DependsOn)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2bc7fb0;
+  constexpr static std::size_t addrs = 0x2cc48b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -204,7 +205,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::ExpressionNode* (::System::Data::BinaryNode::*)()>(&::System::Data::BinaryNode::Optimize)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x2bc8014;
+  constexpr static std::size_t addrs = 0x2cc4914;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -219,7 +220,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::BinaryNode::*)(int32_t, ::System::Type*, ::System::Type*)>(
     &::System::Data::BinaryNode::SetTypeMismatchError)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x2bc8560;
+  constexpr static std::size_t addrs = 0x2cc4e60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -235,7 +236,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::System::Data::ExpressionNode*, ::System::Data::DataRow*, ::System::Data::DataRowVersion,
                                                                                                         ::ArrayW<int32_t, ::Array<int32_t>*>)>(&::System::Data::BinaryNode::Eval)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x2bc8660;
+  constexpr static std::size_t addrs = 0x2cc4f60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -253,7 +254,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<int32_t (::System::Data::BinaryNode::*)(::System::Object*, ::System::Object*, ::System::Data::Common::StorageType, int32_t)>(&::System::Data::BinaryNode::BinaryCompare)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2bc8690;
+  constexpr static std::size_t addrs = 0x2cc4f90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -271,7 +272,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::BinaryNode::*)(
     ::System::Object*, ::System::Object*, ::System::Data::Common::StorageType, int32_t, ::System::Globalization::CompareInfo*)>(&::System::Data::BinaryNode::BinaryCompare)> {
   constexpr static std::size_t size = 0xdd0;
-  constexpr static std::size_t addrs = 0x2bc8698;
+  constexpr static std::size_t addrs = 0x2cc4f98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -291,7 +292,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::System::Data::BinaryNode::*)(int32_t, ::System::Data::ExpressionNode*, ::System::Data::ExpressionNode*, ::System::Data::DataRow*, ::System::Data::DataRowVersion,
                                                                   ::ArrayW<int32_t, ::Array<int32_t>*>)>(&::System::Data::BinaryNode::EvalBinaryOp)> {
   constexpr static std::size_t size = 0x58bc;
-  constexpr static std::size_t addrs = 0x2bc25b8;
+  constexpr static std::size_t addrs = 0x2cbeeb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -311,7 +312,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Data::__BinaryNode__DataTypePrecedence (::System::Data::BinaryNode::*)(::System::Data::Common::StorageType)>(&::System::Data::BinaryNode::GetPrecedence)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2bca068;
+  constexpr static std::size_t addrs = 0x2cc6968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -326,7 +327,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::Common::StorageType (*)(::System::Data::__BinaryNode__DataTypePrecedence)>(
     &::System::Data::BinaryNode::GetPrecedenceType)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2bca08c;
+  constexpr static std::size_t addrs = 0x2cc698c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -341,7 +342,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::BinaryNode::*)(::System::Data::Common::StorageType, ::System::Data::Common::StorageType)>(
     &::System::Data::BinaryNode::IsMixed)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2bca0b0;
+  constexpr static std::size_t addrs = 0x2cc69b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -357,7 +358,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::BinaryNode::*)(::System::Data::Common::StorageType, ::System::Data::Common::StorageType)>(
     &::System::Data::BinaryNode::IsMixedSql)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x2bca1c0;
+  constexpr static std::size_t addrs = 0x2cc6ac0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -373,7 +374,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::Common::StorageType (::System::Data::BinaryNode::*)(
     ::System::Data::Common::StorageType, ::System::Data::Common::StorageType, bool, bool, int32_t)>(&::System::Data::BinaryNode::ResultType)> {
   constexpr static std::size_t size = 0x3e0;
-  constexpr static std::size_t addrs = 0x2bc9b20;
+  constexpr static std::size_t addrs = 0x2cc6420;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -391,7 +392,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::Common::StorageType (::System::Data::BinaryNode::*)(
     ::System::Data::Common::StorageType, ::System::Data::Common::StorageType, bool, bool, int32_t)>(&::System::Data::BinaryNode::ResultSqlType)> {
   constexpr static std::size_t size = 0x3dc;
-  constexpr static std::size_t addrs = 0x2bc9744;
+  constexpr static std::size_t addrs = 0x2cc6044;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -408,7 +409,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::BinaryNode::*)(int32_t)>(&::System::Data::BinaryNode::SqlResultType)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x2bca3f4;
+  constexpr static std::size_t addrs = 0x2cc6cf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

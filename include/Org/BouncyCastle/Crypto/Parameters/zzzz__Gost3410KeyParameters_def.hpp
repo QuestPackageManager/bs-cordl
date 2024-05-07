@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/Gost3410KeyParameters.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,7 +35,7 @@ public:
   /// @brief Field publicKeyParamSet, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_publicKeyParamSet, put = __cordl_internal_set_publicKeyParamSet))::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet;
 
-  /// @brief Method LookupParameters, addr 0x10a10f0, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method LookupParameters, addr 0x1194814, size 0x178, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters* LookupParameters(::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::Gost3410KeyParameters* New_ctor(bool isPrivate, ::Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters* parameters);
@@ -53,16 +54,16 @@ public:
 
   constexpr void __cordl_internal_set_publicKeyParamSet(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  /// @brief Method .ctor, addr 0x10a1088, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11947ac, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(bool isPrivate, ::Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters* parameters);
 
-  /// @brief Method .ctor, addr 0x10a10b8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11947dc, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(bool isPrivate, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet);
 
-  /// @brief Method get_Parameters, addr 0x10a1268, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parameters, addr 0x119498c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters* get_Parameters();
 
-  /// @brief Method get_PublicKeyParamSet, addr 0x10a1270, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PublicKeyParamSet, addr 0x1194994, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_PublicKeyParamSet();
 
 protected:

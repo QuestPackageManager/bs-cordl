@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Pkix/PkixCertPathBuilderResult.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,7 +41,7 @@ public:
                                                                                ::Org::BouncyCastle::Pkix::PkixPolicyNode* policyTree,
                                                                                ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* subjectPublicKey);
 
-  /// @brief Method ToString, addr 0x126434c, size 0x1a8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x1355a70, size 0x1a8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::Org::BouncyCastle::Pkix::PkixCertPath*& __cordl_internal_get_certPath();
@@ -49,11 +50,11 @@ public:
 
   constexpr void __cordl_internal_set_certPath(::Org::BouncyCastle::Pkix::PkixCertPath* value);
 
-  /// @brief Method .ctor, addr 0x125b528, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x134cc4c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Pkix::PkixCertPath* certPath, ::Org::BouncyCastle::Pkix::TrustAnchor* trustAnchor, ::Org::BouncyCastle::Pkix::PkixPolicyNode* policyTree,
                     ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* subjectPublicKey);
 
-  /// @brief Method get_CertPath, addr 0x1264344, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CertPath, addr 0x1355a68, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Pkix::PkixCertPath* get_CertPath();
 
 protected:

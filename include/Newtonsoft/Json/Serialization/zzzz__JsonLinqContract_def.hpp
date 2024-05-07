@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/JsonLinqContract.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,7 +24,7 @@ public:
   // Declarations
   static inline ::Newtonsoft::Json::Serialization::JsonLinqContract* New_ctor(::System::Type* underlyingType);
 
-  /// @brief Method .ctor, addr 0x292949c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a27d4c, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* underlyingType);
 
 protected:

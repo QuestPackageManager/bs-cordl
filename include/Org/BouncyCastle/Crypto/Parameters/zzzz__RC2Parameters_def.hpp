@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/RC2Parameters.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,19 +40,19 @@ public:
 
   constexpr void __cordl_internal_set_bits(int32_t value);
 
-  /// @brief Method .ctor, addr 0x10a3494, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1196bb8, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method .ctor, addr 0x10a34d4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1196bf8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t bits);
 
-  /// @brief Method .ctor, addr 0x10a34fc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1196c20, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t keyOff, int32_t keyLen);
 
-  /// @brief Method .ctor, addr 0x10a3530, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1196c54, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t keyOff, int32_t keyLen, int32_t bits);
 
-  /// @brief Method get_EffectiveKeyBits, addr 0x10a3558, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EffectiveKeyBits, addr 0x1196c7c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_EffectiveKeyBits();
 
 protected:

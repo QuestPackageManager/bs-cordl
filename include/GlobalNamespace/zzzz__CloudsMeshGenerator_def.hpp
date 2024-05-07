@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/CloudsMeshGenerator.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -591,7 +592,7 @@ public:
 
   constexpr void __cordl_internal_set__vertexCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0xf67198, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1056d20, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

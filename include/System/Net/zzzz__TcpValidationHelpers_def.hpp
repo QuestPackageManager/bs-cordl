@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/TcpValidationHelpers.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,7 +20,7 @@ namespace System::Net {
 class CORDL_TYPE TcpValidationHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ValidatePortNumber, addr 0x2ebdab0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ValidatePortNumber, addr 0x2fc03b0, size 0xc, virtual false, abstract: false, final false
   static inline bool ValidatePortNumber(int32_t port);
 
 protected:

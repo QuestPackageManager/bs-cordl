@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SonyPublisherSKUSettingsSO.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -65,19 +66,19 @@ public:
 
   constexpr void __cordl_internal_set__titleId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x13eb43c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14e2310, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_productLabel, addr 0x13effdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_productLabel, addr 0x14e2308, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_productLabel();
 
-  /// @brief Method get_serviceIdPrefix, addr 0x13effcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_serviceIdPrefix, addr 0x14e22f8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_serviceIdPrefix();
 
-  /// @brief Method get_skuName, addr 0x13effc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_skuName, addr 0x14e22f0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_skuName();
 
-  /// @brief Method get_titleId, addr 0x13effd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_titleId, addr 0x14e2300, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_titleId();
 
 protected:

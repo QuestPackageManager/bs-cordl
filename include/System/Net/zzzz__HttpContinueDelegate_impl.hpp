@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/HttpContinueDelegate.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Net/zzzz__HttpContinueDelegate_def.hpp"
 #include "System/Net/zzzz__WebHeaderCollection_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpContinueDelegate::*)(::System::Object*, void*)>(
     &::System::Net::HttpContinueDelegate::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x2ed2d44;
+  constexpr static std::size_t addrs = 0x2fd5644;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpContinueDelegate::*)(int32_t, ::System::Net::WebHeaderCollection*)>(
     &::System::Net::HttpContinueDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2ed2e08;
+  constexpr static std::size_t addrs = 0x2fd5708;
 
   inline static ::MethodInfo const* methodInfo() {
 

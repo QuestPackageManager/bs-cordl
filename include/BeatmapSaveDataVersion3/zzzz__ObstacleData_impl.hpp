@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatmapSaveDataVersion3/ObstacleData.hpp"
 #include "BeatmapSaveDataVersion3/zzzz__BeatmapSaveDataItem_impl.hpp"
 #include "BeatmapSaveDataVersion3/zzzz__ObstacleData_def.hpp"
 //  Writing Method size for method: ::BeatmapSaveDataVersion3::ObstacleData.get_line
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::BeatmapSaveDataVersion3::ObstacleData::*)()>(&::BeatmapSaveDataVersion3::ObstacleData::get_line)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x14016cc;
+  constexpr static std::size_t addrs = 0x14f3c60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::ObstacleData*>::get(), "get_line",
@@ -19,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::BeatmapSaveDataVersion3::ObstacleData::*)()>(&::BeatmapSaveDataVersion3::ObstacleData::get_layer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x14016d4;
+  constexpr static std::size_t addrs = 0x14f3c68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::ObstacleData*>::get(), "get_layer",
@@ -32,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::BeatmapSaveDataVersion3::ObstacleData::*)()>(&::BeatmapSaveDataVersion3::ObstacleData::get_duration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x14016dc;
+  constexpr static std::size_t addrs = 0x14f3c70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::ObstacleData*>::get(), "get_duration",
@@ -45,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::BeatmapSaveDataVersion3::ObstacleData::*)()>(&::BeatmapSaveDataVersion3::ObstacleData::get_width)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x14016e4;
+  constexpr static std::size_t addrs = 0x14f3c78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::ObstacleData*>::get(), "get_width",
@@ -58,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::BeatmapSaveDataVersion3::ObstacleData::*)()>(&::BeatmapSaveDataVersion3::ObstacleData::get_height)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x14016ec;
+  constexpr static std::size_t addrs = 0x14f3c80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::ObstacleData*>::get(), "get_height",
@@ -71,8 +72,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapSaveDataVersion3::ObstacleData::*)(float_t, int32_t, int32_t, float_t, int32_t, int32_t)>(
     &::BeatmapSaveDataVersion3::ObstacleData::_ctor)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x14016f4;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x14f3c88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

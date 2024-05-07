@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HAPI_CookOptions.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_PackedPrimInstancingMode_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_CookOptions_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_PackedPrimInstancingMode_def.hpp"

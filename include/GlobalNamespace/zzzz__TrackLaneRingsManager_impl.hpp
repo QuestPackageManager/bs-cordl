@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/TrackLaneRingsManager.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__TrackLaneRingsManager_def.hpp"
 #include "GlobalNamespace/zzzz__TrackLaneRing_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::TrackLaneRingsManager::*)()>(
     &::GlobalNamespace::TrackLaneRingsManager::get_ringPositionStep)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25d8ba0;
+  constexpr static std::size_t addrs = 0x26d88e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TrackLaneRingsManager*>::get(),
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityW<::GlobalNamespace::TrackLaneRing>, ::Array<::UnityW<::GlobalNamespace::TrackLaneRing>>*> (
     ::GlobalNamespace::TrackLaneRingsManager::*)()>(&::GlobalNamespace::TrackLaneRingsManager::get_Rings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25d8ba8;
+  constexpr static std::size_t addrs = 0x26d88e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TrackLaneRingsManager*>::get(), "get_Rings",
@@ -36,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TrackLaneRingsManager::*)()>(&::GlobalNamespace::TrackLaneRingsManager::Start)> {
   constexpr static std::size_t size = 0x2b0;
-  constexpr static std::size_t addrs = 0x25d8bb0;
+  constexpr static std::size_t addrs = 0x26d88f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TrackLaneRingsManager*>::get(), "Start",
@@ -49,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TrackLaneRingsManager::*)()>(&::GlobalNamespace::TrackLaneRingsManager::FixedUpdate)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x25d8e60;
+  constexpr static std::size_t addrs = 0x26d8ba0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TrackLaneRingsManager*>::get(), "FixedUpdate",
@@ -62,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TrackLaneRingsManager::*)()>(&::GlobalNamespace::TrackLaneRingsManager::LateUpdate)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x25d8efc;
+  constexpr static std::size_t addrs = 0x26d8c3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TrackLaneRingsManager*>::get(), "LateUpdate",
@@ -76,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TrackLaneRingsManager::*)()>(
     &::GlobalNamespace::TrackLaneRingsManager::OnDrawGizmosSelected)> {
   constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x25d8f98;
+  constexpr static std::size_t addrs = 0x26d8cd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TrackLaneRingsManager*>::get(),
@@ -89,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TrackLaneRingsManager::*)()>(&::GlobalNamespace::TrackLaneRingsManager::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x25d921c;
+  constexpr static std::size_t addrs = 0x26d8f5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TrackLaneRingsManager*>::get(), ".ctor",

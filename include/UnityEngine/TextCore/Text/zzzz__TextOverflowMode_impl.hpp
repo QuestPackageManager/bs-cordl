@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/TextCore/Text/TextOverflowMode.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextOverflowMode_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::TextCore::Text::TextOverflowMode::TextOverflowMode(int32_t value__) noexcept {

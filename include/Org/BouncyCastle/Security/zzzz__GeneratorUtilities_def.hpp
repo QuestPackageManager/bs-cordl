@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Security/GeneratorUtilities.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,48 +46,48 @@ public:
   /// @brief Field kpgAlgorithms, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_kpgAlgorithms, put = setStaticF_kpgAlgorithms))::System::Collections::IDictionary* kpgAlgorithms;
 
-  /// @brief Method AddDefaultKeySizeEntries, addr 0x129ddac, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method AddDefaultKeySizeEntries, addr 0x138f4d0, size 0x164, virtual false, abstract: false, final false
   static inline void AddDefaultKeySizeEntries(int32_t size, ::ArrayW<::StringW, ::Array<::StringW>*> algorithms);
 
-  /// @brief Method AddHMacKeyGenerator, addr 0x129d81c, size 0x368, virtual false, abstract: false, final false
+  /// @brief Method AddHMacKeyGenerator, addr 0x138ef40, size 0x368, virtual false, abstract: false, final false
   static inline void AddHMacKeyGenerator(::StringW algorithm, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> aliases);
 
-  /// @brief Method AddKgAlgorithm, addr 0x129d5f4, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method AddKgAlgorithm, addr 0x138ed18, size 0x228, virtual false, abstract: false, final false
   static inline void AddKgAlgorithm(::StringW canonicalName, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> aliases);
 
-  /// @brief Method AddKpgAlgorithm, addr 0x129db84, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method AddKpgAlgorithm, addr 0x138f2a8, size 0x228, virtual false, abstract: false, final false
   static inline void AddKpgAlgorithm(::StringW canonicalName, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> aliases);
 
-  /// @brief Method FindDefaultKeySize, addr 0x129e518, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method FindDefaultKeySize, addr 0x138fc3c, size 0x1a4, virtual false, abstract: false, final false
   static inline int32_t FindDefaultKeySize(::StringW canonicalName);
 
-  /// @brief Method GetCanonicalKeyGeneratorAlgorithm, addr 0x129df10, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method GetCanonicalKeyGeneratorAlgorithm, addr 0x138f634, size 0x138, virtual false, abstract: false, final false
   static inline ::StringW GetCanonicalKeyGeneratorAlgorithm(::StringW algorithm);
 
-  /// @brief Method GetCanonicalKeyPairGeneratorAlgorithm, addr 0x129e048, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method GetCanonicalKeyPairGeneratorAlgorithm, addr 0x138f76c, size 0x138, virtual false, abstract: false, final false
   static inline ::StringW GetCanonicalKeyPairGeneratorAlgorithm(::StringW algorithm);
 
-  /// @brief Method GetDefaultKeySize, addr 0x129ed38, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultKeySize, addr 0x139045c, size 0x21c, virtual false, abstract: false, final false
   static inline int32_t GetDefaultKeySize(::StringW algorithm);
 
-  /// @brief Method GetDefaultKeySize, addr 0x129ecd8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultKeySize, addr 0x13903fc, size 0x60, virtual false, abstract: false, final false
   static inline int32_t GetDefaultKeySize(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetKeyGenerator, addr 0x129e1e0, size 0x338, virtual false, abstract: false, final false
+  /// @brief Method GetKeyGenerator, addr 0x138f904, size 0x338, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::CipherKeyGenerator* GetKeyGenerator(::StringW algorithm);
 
-  /// @brief Method GetKeyGenerator, addr 0x129e180, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetKeyGenerator, addr 0x138f8a4, size 0x60, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::CipherKeyGenerator* GetKeyGenerator(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetKeyPairGenerator, addr 0x129e71c, size 0x5bc, virtual false, abstract: false, final false
+  /// @brief Method GetKeyPairGenerator, addr 0x138fe40, size 0x5bc, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator* GetKeyPairGenerator(::StringW algorithm);
 
-  /// @brief Method GetKeyPairGenerator, addr 0x129e6bc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetKeyPairGenerator, addr 0x138fde0, size 0x60, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator* GetKeyPairGenerator(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
   static inline ::Org::BouncyCastle::Security::GeneratorUtilities* New_ctor();
 
-  /// @brief Method .ctor, addr 0x129a298, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x138b9bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::IDictionary* getStaticF_defaultKeySizes();

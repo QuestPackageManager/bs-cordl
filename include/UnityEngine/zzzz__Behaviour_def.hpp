@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Behaviour.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,16 +25,16 @@ public:
 
   static inline ::UnityEngine::Behaviour* New_ctor();
 
-  /// @brief Method .ctor, addr 0x31fae88, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3401bbc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_enabled, addr 0x32044d4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_enabled, addr 0x340b208, size 0x3c, virtual false, abstract: false, final false
   inline bool get_enabled();
 
-  /// @brief Method get_isActiveAndEnabled, addr 0x3204554, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isActiveAndEnabled, addr 0x340b288, size 0x3c, virtual false, abstract: false, final false
   inline bool get_isActiveAndEnabled();
 
-  /// @brief Method set_enabled, addr 0x3204510, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_enabled, addr 0x340b244, size 0x44, virtual false, abstract: false, final false
   inline void set_enabled(bool value);
 
 protected:

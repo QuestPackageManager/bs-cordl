@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/EVROverlayError.hpp"
 #include "OVR/OpenVR/zzzz__EVROverlayError_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::OVR::OpenVR::EVROverlayError::EVROverlayError(int32_t value__) noexcept {

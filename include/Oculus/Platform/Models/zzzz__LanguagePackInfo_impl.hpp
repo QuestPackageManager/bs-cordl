@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/Models/LanguagePackInfo.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/Models/zzzz__LanguagePackInfo_def.hpp"
 //  Writing Method size for method: ::Oculus::Platform::Models::LanguagePackInfo._ctor
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Models::LanguagePackInfo::*)(void*)>(
     &::Oculus::Platform::Models::LanguagePackInfo::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x29dbff4;
+  constexpr static std::size_t addrs = 0x2ada8a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

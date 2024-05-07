@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/Messaging/RemotingSurrogateSelector.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__RemotingSurrogateSelector_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__ObjRefSurrogate_def.hpp"
@@ -13,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::RemotingSurrogateSelector::*)()>(
     &::System::Runtime::Remoting::Messaging::RemotingSurrogateSelector::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x27353e8;
+  constexpr static std::size_t addrs = 0x28337e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -30,7 +31,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                           ByRef<::System::Runtime::Serialization::ISurrogateSelector*>)>(
     &::System::Runtime::Remoting::Messaging::RemotingSurrogateSelector::GetSurrogate)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x27353f0;
+  constexpr static std::size_t addrs = 0x28337ec;
 
   inline static ::MethodInfo const* methodInfo() {
 

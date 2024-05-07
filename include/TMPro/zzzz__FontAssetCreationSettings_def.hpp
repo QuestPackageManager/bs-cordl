@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/FontAssetCreationSettings.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,7 +22,7 @@ namespace TMPro {
 struct CORDL_TYPE FontAssetCreationSettings {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x313fb38, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33445c0, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::StringW sourceFontFileGUID, int32_t pointSize, int32_t pointSizeSamplingMode, int32_t padding, int32_t packingMode, int32_t atlasWidth, int32_t atlasHeight,
                     int32_t characterSelectionMode, ::StringW characterSet, int32_t renderMode);
 

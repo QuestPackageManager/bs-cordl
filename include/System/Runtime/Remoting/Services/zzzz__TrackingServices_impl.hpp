@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/Services/TrackingServices.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Remoting/Services/zzzz__TrackingServices_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*, ::System::Runtime::Remoting::ObjRef*)>(
     &::System::Runtime::Remoting::Services::TrackingServices::NotifyMarshaledObject)> {
   constexpr static std::size_t size = 0x310;
-  constexpr static std::size_t addrs = 0x2713448;
+  constexpr static std::size_t addrs = 0x2811844;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*, ::System::Runtime::Remoting::ObjRef*)>(
     &::System::Runtime::Remoting::Services::TrackingServices::NotifyUnmarshaledObject)> {
   constexpr static std::size_t size = 0x310;
-  constexpr static std::size_t addrs = 0x271276c;
+  constexpr static std::size_t addrs = 0x2810b68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*)>(&::System::Runtime::Remoting::Services::TrackingServices::NotifyDisconnectedObject)> {
   constexpr static std::size_t size = 0x304;
-  constexpr static std::size_t addrs = 0x2717268;
+  constexpr static std::size_t addrs = 0x2815664;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Globalization/EncodingTable.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Globalization/zzzz__EncodingTable_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -10,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::System::Globalization::EncodingTable::GetNumEncodingItems)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x27f108c;
+  constexpr static std::size_t addrs = 0x28f07ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::EncodingTable*>::get(),
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::InternalEncodingDataItem (*)(::StringW, uint16_t)>(
     &::System::Globalization::EncodingTable::ENC)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x27f10f0;
+  constexpr static std::size_t addrs = 0x28f0810;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::InternalCodePageDataItem (*)(uint16_t, uint16_t, ::StringW, uint32_t)>(
     &::System::Globalization::EncodingTable::MapCodePageDataItem)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x27f10f8;
+  constexpr static std::size_t addrs = 0x28f0818;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -54,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW)>(&::System::Globalization::EncodingTable::internalGetCodePageFromName)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x27f65c4;
+  constexpr static std::size_t addrs = 0x28f5ce4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW)>(&::System::Globalization::EncodingTable::GetCodePageFromName)> {
   constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x27f6838;
+  constexpr static std::size_t addrs = 0x28f5f58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::CodePageDataItem* (*)(int32_t)>(
     &::System::Globalization::EncodingTable::GetCodePageDataItem)> {
   constexpr static std::size_t size = 0x2e8;
-  constexpr static std::size_t addrs = 0x27f6abc;
+  constexpr static std::size_t addrs = 0x28f61dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

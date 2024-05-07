@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/HeartbeatMessageType.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,12 +20,12 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CORDL_TYPE HeartbeatMessageType : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsValid, addr 0x10fdaf4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x11f1218, size 0x14, virtual false, abstract: false, final false
   static inline bool IsValid(uint8_t heartbeatMessageType);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::HeartbeatMessageType* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10fdf7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11f16a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

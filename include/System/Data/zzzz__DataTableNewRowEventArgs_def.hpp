@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/DataTableNewRowEventArgs.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,7 +33,7 @@ public:
 
   constexpr void __cordl_internal_set__Row_k__BackingField(::System::Data::DataRow* value);
 
-  /// @brief Method .ctor, addr 0x2bbbe38, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cb9738, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataRow* dataRow);
 
 protected:

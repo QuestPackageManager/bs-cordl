@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ComponentModel/ReadOnlyAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/ComponentModel/zzzz__ReadOnlyAttribute_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -7,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::ReadOnlyAttribute::*)(bool)>(&::System::ComponentModel::ReadOnlyAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2e34a6c;
+  constexpr static std::size_t addrs = 0x2f3336c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -22,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::ReadOnlyAttribute::*)()>(
     &::System::ComponentModel::ReadOnlyAttribute::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2e34a94;
+  constexpr static std::size_t addrs = 0x2f33394;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ReadOnlyAttribute*>::get(),
@@ -36,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::ReadOnlyAttribute::*)(::System::Object*)>(
     &::System::ComponentModel::ReadOnlyAttribute::Equals)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x2e34a9c;
+  constexpr static std::size_t addrs = 0x2f3339c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -51,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ComponentModel::ReadOnlyAttribute::*)()>(
     &::System::ComponentModel::ReadOnlyAttribute::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2e34b80;
+  constexpr static std::size_t addrs = 0x2f33480;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -66,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::ReadOnlyAttribute::*)()>(
     &::System::ComponentModel::ReadOnlyAttribute::IsDefaultAttribute)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x2e34b88;
+  constexpr static std::size_t addrs = 0x2f33488;
 
   inline static ::MethodInfo const* methodInfo() {
 

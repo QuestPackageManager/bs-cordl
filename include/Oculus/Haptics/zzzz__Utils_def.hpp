@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Haptics/Utils.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,10 +27,10 @@ namespace Oculus::Haptics {
 class CORDL_TYPE Utils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ControllerToFfiController, addr 0x29a14d8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ControllerToFfiController, addr 0x2a9ed88, size 0x8c, virtual false, abstract: false, final false
   static inline ::Oculus::Haptics::__Ffi__Controller ControllerToFfiController(::Oculus::Haptics::Controller controller);
 
-  /// @brief Method Map, addr 0x29a1c84, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Map, addr 0x2a9f534, size 0x28, virtual false, abstract: false, final false
   static inline float_t Map(int32_t input, int32_t inMin, int32_t inMax, int32_t outMin, int32_t outMax);
 
 protected:

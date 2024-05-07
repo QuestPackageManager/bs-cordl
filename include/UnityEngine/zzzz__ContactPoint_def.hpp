@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ContactPoint.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,22 +38,22 @@ public:
 
   __declspec(property(get = get_thisCollider))::UnityW<::UnityEngine::Collider> thisCollider;
 
-  /// @brief Method GetColliderByInstanceID, addr 0x3264a8c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetColliderByInstanceID, addr 0x346d7c8, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Collider> GetColliderByInstanceID(int32_t instanceID);
 
-  /// @brief Method get_normal, addr 0x3264a44, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_normal, addr 0x346d780, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_normal();
 
-  /// @brief Method get_otherCollider, addr 0x3264ac8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_otherCollider, addr 0x346d804, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Collider> get_otherCollider();
 
-  /// @brief Method get_point, addr 0x3264a38, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_point, addr 0x346d774, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_point();
 
-  /// @brief Method get_separation, addr 0x3264b04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_separation, addr 0x346d840, size 0x8, virtual false, abstract: false, final false
   inline float_t get_separation();
 
-  /// @brief Method get_thisCollider, addr 0x3264a50, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_thisCollider, addr 0x346d78c, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Collider> get_thisCollider();
 
   // Ctor Parameters []

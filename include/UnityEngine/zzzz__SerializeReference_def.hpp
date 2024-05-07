@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/SerializeReference.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,7 +21,7 @@ public:
   // Declarations
   static inline ::UnityEngine::SerializeReference* New_ctor();
 
-  /// @brief Method .ctor, addr 0x31d19bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33d86f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

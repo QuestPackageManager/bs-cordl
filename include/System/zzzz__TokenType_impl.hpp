@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/TokenType.hpp"
 #include "System/zzzz__TokenType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::TokenType::TokenType(int32_t value__) noexcept {

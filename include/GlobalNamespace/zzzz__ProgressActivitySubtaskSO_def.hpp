@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ProgressActivitySubtaskSO.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,10 +33,10 @@ public:
 
   constexpr void __cordl_internal_set__activityId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x13eb47c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14dd6e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_activityId, addr 0x13eb474, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_activityId, addr 0x14dd6dc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_activityId();
 
 protected:

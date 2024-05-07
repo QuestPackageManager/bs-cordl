@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MissionHelpSO.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,10 +33,10 @@ public:
 
   constexpr void __cordl_internal_set__missionHelpId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x13d7184, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14ca534, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_missionHelpId, addr 0x13d717c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_missionHelpId, addr 0x14ca52c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_missionHelpId();
 
 protected:

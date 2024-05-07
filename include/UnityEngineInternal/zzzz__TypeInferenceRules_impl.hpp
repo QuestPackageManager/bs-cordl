@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngineInternal/TypeInferenceRules.hpp"
 #include "UnityEngineInternal/zzzz__TypeInferenceRules_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngineInternal::TypeInferenceRules::TypeInferenceRules(int32_t value__) noexcept {

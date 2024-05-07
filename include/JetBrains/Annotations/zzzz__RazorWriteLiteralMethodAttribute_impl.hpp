@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "JetBrains/Annotations/RazorWriteLiteralMethodAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "JetBrains/Annotations/zzzz__RazorWriteLiteralMethodAttribute_def.hpp"
 //  Writing Method size for method: ::JetBrains::Annotations::RazorWriteLiteralMethodAttribute._ctor
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::RazorWriteLiteralMethodAttribute::*)()>(
     &::JetBrains::Annotations::RazorWriteLiteralMethodAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x340a8d8;
+  constexpr static std::size_t addrs = 0x360f614;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

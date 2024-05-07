@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BeatmapObjectSpawnControllerHelpers.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,7 +27,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE BeatmapObjectSpawnControllerHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetNoteJumpValues, addr 0x2521670, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetNoteJumpValues, addr 0x2618504, size 0x38, virtual false, abstract: false, final false
   static inline void GetNoteJumpValues(::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, float_t defaultNoteJumpStartBeatOffset,
                                        ByRef<::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteJumpValueType> noteJumpValueType, ByRef<float_t> noteJumpValue);
 

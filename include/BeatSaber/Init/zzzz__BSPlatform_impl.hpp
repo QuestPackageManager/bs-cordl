@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatSaber/Init/BSPlatform.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/Init/zzzz__BSPlatform_def.hpp"
 //  Writing Method size for method: ::BeatSaber::Init::BSPlatform.get_IsSteamPlatform
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::BeatSaber::Init::BSPlatform::get_IsSteamPlatform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf6f7b8;
+  constexpr static std::size_t addrs = 0x1061988;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Init::BSPlatform*>::get(), "get_IsSteamPlatform",

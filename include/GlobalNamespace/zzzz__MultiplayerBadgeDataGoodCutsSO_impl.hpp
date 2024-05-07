@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MultiplayerBadgeDataGoodCutsSO.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerBadgeDataMinMaxIntSO_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerBadgeDataGoodCutsSO_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerPlayerResultsData_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::MultiplayerBadgeDataGoodCutsSO::*)(::GlobalNamespace::MultiplayerPlayerResultsData*)>(
     &::GlobalNamespace::MultiplayerBadgeDataGoodCutsSO::GetValue)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x13d942c;
+  constexpr static std::size_t addrs = 0x14cc7dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerBadgeDataGoodCutsSO::*)()>(
     &::GlobalNamespace::MultiplayerBadgeDataGoodCutsSO::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x13d9454;
+  constexpr static std::size_t addrs = 0x14cc804;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerBadgeDataGoodCutsSO*>::get(),

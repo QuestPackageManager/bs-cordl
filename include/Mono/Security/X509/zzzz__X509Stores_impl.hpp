@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Security/X509/X509Stores.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Security/X509/zzzz__X509Stores_def.hpp"
 #include "Mono/Security/X509/zzzz__X509Store_def.hpp"
@@ -7,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::X509::X509Stores::*)(::StringW, bool)>(&::Mono::Security::X509::X509Stores::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x267de80;
+  constexpr static std::size_t addrs = 0x277c27c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -22,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::X509::X509Store* (::Mono::Security::X509::X509Stores::*)()>(
     &::Mono::Security::X509::X509Stores::get_TrustedRoot)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x267df50;
+  constexpr static std::size_t addrs = 0x277c34c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::X509::X509Stores*>::get(), "get_TrustedRoot",
@@ -36,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::X509::X509Store* (::Mono::Security::X509::X509Stores::*)(::StringW, bool)>(
     &::Mono::Security::X509::X509Stores::Open)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x267e02c;
+  constexpr static std::size_t addrs = 0x277c428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

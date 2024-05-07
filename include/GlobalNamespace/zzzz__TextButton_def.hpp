@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/TextButton.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,13 +49,13 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::UnityEngine::UI::Text> value);
 
-  /// @brief Method .ctor, addr 0x263a4f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x273a2e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_button, addr 0x263a4f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_button, addr 0x273a2dc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Button> get_button();
 
-  /// @brief Method get_text, addr 0x263a4e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x273a2d4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Text> get_text();
 
 protected:

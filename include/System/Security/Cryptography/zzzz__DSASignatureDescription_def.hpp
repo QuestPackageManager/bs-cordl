@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Cryptography/DSASignatureDescription.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,7 +21,7 @@ public:
   // Declarations
   static inline ::System::Security::Cryptography::DSASignatureDescription* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26edcc8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27eb0c4, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

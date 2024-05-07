@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/NetworkInformation/MacOsNetworkInterfaceAPI.hpp"
 #include "System/Net/NetworkInformation/zzzz__UnixNetworkInterfaceAPI_impl.hpp"
 #include "System/Net/NetworkInformation/zzzz__MacOsNetworkInterfaceAPI_def.hpp"
 #include "System/Net/NetworkInformation/zzzz__NetworkInterface_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::NetworkInformation::MacOsNetworkInterfaceAPI::*)()>(
     &::System::Net::NetworkInformation::MacOsNetworkInterfaceAPI::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2f24dd8;
+  constexpr static std::size_t addrs = 0x30256d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::NetworkInformation::MacOsNetworkInterfaceAPI::*)(int32_t)>(
     &::System::Net::NetworkInformation::MacOsNetworkInterfaceAPI::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2f23208;
+  constexpr static std::size_t addrs = 0x3023b08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +40,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::System::Net::NetworkInformation::NetworkInterface*, ::Array<::System::Net::NetworkInformation::NetworkInterface*>*> (::System::Net::NetworkInformation::MacOsNetworkInterfaceAPI::*)()>(
     &::System::Net::NetworkInformation::MacOsNetworkInterfaceAPI::GetAllNetworkInterfaces)> {
   constexpr static std::size_t size = 0xa6c;
-  constexpr static std::size_t addrs = 0x2f24df8;
+  constexpr static std::size_t addrs = 0x30256f8;
 
   inline static ::MethodInfo const* methodInfo() {
 

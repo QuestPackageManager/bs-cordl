@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/OpenSsl/PemUtilities.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -190,20 +191,20 @@ public:
 
   using PemMode = ::Org::BouncyCastle::OpenSsl::__PemUtilities__PemMode;
 
-  /// @brief Method Crypt, addr 0x124107c, size 0x4fc, virtual false, abstract: false, final false
+  /// @brief Method Crypt, addr 0x13327a0, size 0x4fc, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Crypt(bool encrypt, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, ::ArrayW<char16_t, ::Array<char16_t>*> password, ::StringW dekAlgName,
                                                            ::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
 
-  /// @brief Method GetCipherParameters, addr 0x1244028, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method GetCipherParameters, addr 0x133574c, size 0x140, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::ICipherParameters* GetCipherParameters(::ArrayW<char16_t, ::Array<char16_t>*> password, ::Org::BouncyCastle::OpenSsl::__PemUtilities__PemBaseAlg baseAlg,
                                                                                     ::ArrayW<uint8_t, ::Array<uint8_t>*> salt);
 
   static inline ::Org::BouncyCastle::OpenSsl::PemUtilities* New_ctor();
 
-  /// @brief Method ParseDekAlgName, addr 0x1243cd0, size 0x358, virtual false, abstract: false, final false
+  /// @brief Method ParseDekAlgName, addr 0x13353f4, size 0x358, virtual false, abstract: false, final false
   static inline void ParseDekAlgName(::StringW dekAlgName, ByRef<::Org::BouncyCastle::OpenSsl::__PemUtilities__PemBaseAlg> baseAlg, ByRef<::Org::BouncyCastle::OpenSsl::__PemUtilities__PemMode> mode);
 
-  /// @brief Method .ctor, addr 0x1244168, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x133588c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

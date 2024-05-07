@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/RenderModel_TextureMap_t.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "OVR/OpenVR/zzzz__RenderModel_TextureMap_t_def.hpp"
 // Ctor Parameters [CppParam { name: "unWidth", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "unHeight", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam {

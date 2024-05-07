@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Processors/InvertVector3Processor.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputProcessor_1_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/InputSystem/Processors/zzzz__InvertVector3Processor_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::InputSystem::Processors::InvertVector3Processor::*)(
     ::UnityEngine::Vector3, ::UnityEngine::InputSystem::InputControl*)>(&::UnityEngine::InputSystem::Processors::InvertVector3Processor::Process)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x302be1c;
+  constexpr static std::size_t addrs = 0x3167ba8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::Processors::InvertVector3Processor::*)()>(
     &::UnityEngine::InputSystem::Processors::InvertVector3Processor::ToString)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x302be50;
+  constexpr static std::size_t addrs = 0x3167bdc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Processors::InvertVector3Processor::*)()>(
     &::UnityEngine::InputSystem::Processors::InvertVector3Processor::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x302bf14;
+  constexpr static std::size_t addrs = 0x3167ca0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

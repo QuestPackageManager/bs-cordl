@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Collections/CaseInsensitiveComparer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/zzzz__CaseInsensitiveComparer_def.hpp"
 #include "System/Collections/zzzz__IComparer_def.hpp"
@@ -10,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::CaseInsensitiveComparer::*)()>(&::System::Collections::CaseInsensitiveComparer::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x2802ac0;
+  constexpr static std::size_t addrs = 0x29021e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::CaseInsensitiveComparer*>::get(), ".ctor",
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::CaseInsensitiveComparer::*)(::System::Globalization::CultureInfo*)>(
     &::System::Collections::CaseInsensitiveComparer::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x2802b3c;
+  constexpr static std::size_t addrs = 0x290225c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Collections::CaseInsensitiveComparer::*)(::System::Object*, ::System::Object*)>(
     &::System::Collections::CaseInsensitiveComparer::Compare)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x2802bc4;
+  constexpr static std::size_t addrs = 0x29022e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

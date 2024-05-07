@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ComponentModel/BrowsableAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/ComponentModel/zzzz__BrowsableAttribute_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -7,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::BrowsableAttribute::*)(bool)>(&::System::ComponentModel::BrowsableAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2e33508;
+  constexpr static std::size_t addrs = 0x2f31e08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -22,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::BrowsableAttribute::*)()>(
     &::System::ComponentModel::BrowsableAttribute::get_Browsable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2e33530;
+  constexpr static std::size_t addrs = 0x2f31e30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::BrowsableAttribute*>::get(),
@@ -36,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::BrowsableAttribute::*)(::System::Object*)>(
     &::System::ComponentModel::BrowsableAttribute::Equals)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x2e33538;
+  constexpr static std::size_t addrs = 0x2f31e38;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -51,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ComponentModel::BrowsableAttribute::*)()>(
     &::System::ComponentModel::BrowsableAttribute::GetHashCode)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2e3361c;
+  constexpr static std::size_t addrs = 0x2f31f1c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -66,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::BrowsableAttribute::*)()>(
     &::System::ComponentModel::BrowsableAttribute::IsDefaultAttribute)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2e3363c;
+  constexpr static std::size_t addrs = 0x2f31f3c;
 
   inline static ::MethodInfo const* methodInfo() {
 

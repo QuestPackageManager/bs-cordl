@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/ScriptingRuntimeHelpers.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,10 +26,10 @@ namespace System::Linq::Expressions::Interpreter {
 class CORDL_TYPE ScriptingRuntimeHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetPrimitiveDefaultValue, addr 0x2b4e928, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method GetPrimitiveDefaultValue, addr 0x2c4b228, size 0x2d8, virtual false, abstract: false, final false
   static inline ::System::Object* GetPrimitiveDefaultValue(::System::Type* type);
 
-  /// @brief Method Int32ToObject, addr 0x2b4017c, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method Int32ToObject, addr 0x2c3ca7c, size 0x128, virtual false, abstract: false, final false
   static inline ::System::Object* Int32ToObject(int32_t i);
 
 protected:

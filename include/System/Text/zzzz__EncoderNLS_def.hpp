@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Text/EncoderNLS.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,32 +46,32 @@ public:
   /// @brief Field _throwOnOverflow, offset 0x31, size 0x1
   __declspec(property(get = __cordl_internal_get__throwOnOverflow, put = __cordl_internal_set__throwOnOverflow)) bool _throwOnOverflow;
 
-  /// @brief Method ClearMustFlush, addr 0x26b99d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ClearMustFlush, addr 0x27b7dcc, size 0x8, virtual false, abstract: false, final false
   inline void ClearMustFlush();
 
-  /// @brief Method Convert, addr 0x26b953c, size 0x2cc, virtual true, abstract: false, final false
+  /// @brief Method Convert, addr 0x27b7938, size 0x2cc, virtual true, abstract: false, final false
   inline void Convert(::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t charIndex, int32_t charCount, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t byteIndex, int32_t byteCount, bool flush,
                       ByRef<int32_t> charsUsed, ByRef<int32_t> bytesUsed, ByRef<bool> completed);
 
-  /// @brief Method Convert, addr 0x26b9808, size 0x1a8, virtual true, abstract: false, final false
+  /// @brief Method Convert, addr 0x27b7c04, size 0x1a8, virtual true, abstract: false, final false
   inline void Convert(::cordl_internals::Ptr<char16_t> chars, int32_t charCount, ::cordl_internals::Ptr<uint8_t> bytes, int32_t byteCount, bool flush, ByRef<int32_t> charsUsed,
                       ByRef<int32_t> bytesUsed, ByRef<bool> completed);
 
-  /// @brief Method GetByteCount, addr 0x26b8eb4, size 0x1d8, virtual true, abstract: false, final false
+  /// @brief Method GetByteCount, addr 0x27b72b0, size 0x1d8, virtual true, abstract: false, final false
   inline int32_t GetByteCount(::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t index, int32_t count, bool flush);
 
-  /// @brief Method GetByteCount, addr 0x26b908c, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method GetByteCount, addr 0x27b7488, size 0xf8, virtual true, abstract: false, final false
   inline int32_t GetByteCount(::cordl_internals::Ptr<char16_t> chars, int32_t count, bool flush);
 
-  /// @brief Method GetBytes, addr 0x26b9184, size 0x298, virtual true, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x27b7580, size 0x298, virtual true, abstract: false, final false
   inline int32_t GetBytes(::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t charIndex, int32_t charCount, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t byteIndex, bool flush);
 
-  /// @brief Method GetBytes, addr 0x26b941c, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x27b7818, size 0x120, virtual true, abstract: false, final false
   inline int32_t GetBytes(::cordl_internals::Ptr<char16_t> chars, int32_t charCount, ::cordl_internals::Ptr<uint8_t> bytes, int32_t byteCount, bool flush);
 
   static inline ::System::Text::EncoderNLS* New_ctor(::System::Text::Encoding* encoding);
 
-  /// @brief Method Reset, addr 0x26b8e94, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x27b7290, size 0x20, virtual true, abstract: false, final false
   inline void Reset();
 
   constexpr char16_t const& __cordl_internal_get__charLeftOver() const;
@@ -103,16 +104,16 @@ public:
 
   constexpr void __cordl_internal_set__throwOnOverflow(bool value);
 
-  /// @brief Method .ctor, addr 0x26b8e50, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27b724c, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::System::Text::Encoding* encoding);
 
-  /// @brief Method get_Encoding, addr 0x26b99b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Encoding, addr 0x27b7dac, size 0x8, virtual false, abstract: false, final false
   inline ::System::Text::Encoding* get_Encoding();
 
-  /// @brief Method get_HasState, addr 0x26b99c0, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method get_HasState, addr 0x27b7dbc, size 0x10, virtual true, abstract: false, final false
   inline bool get_HasState();
 
-  /// @brief Method get_MustFlush, addr 0x26b99b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MustFlush, addr 0x27b7db4, size 0x8, virtual false, abstract: false, final false
   inline bool get_MustFlush();
 
 protected:

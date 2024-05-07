@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/StringReferenceExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__StringReferenceExtensions_def.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__StringReference_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::Newtonsoft::Json::Utilities::StringReference, char16_t, int32_t, int32_t)>(
     &::Newtonsoft::Json::Utilities::StringReferenceExtensions::IndexOf)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x291f8c8;
+  constexpr static std::size_t addrs = 0x2a1e178;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Newtonsoft::Json::Utilities::StringReference, ::StringW)>(
     &::Newtonsoft::Json::Utilities::StringReferenceExtensions::StartsWith)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x291f94c;
+  constexpr static std::size_t addrs = 0x2a1e1fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Newtonsoft::Json::Utilities::StringReference, ::StringW)>(
     &::Newtonsoft::Json::Utilities::StringReferenceExtensions::EndsWith)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x291fa00;
+  constexpr static std::size_t addrs = 0x2a1e2b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

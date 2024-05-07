@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Cryptography/RNGCryptoServiceProvider.hpp"
 #include "System/Security/Cryptography/zzzz__RandomNumberGenerator_impl.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/Security/Cryptography/zzzz__RNGCryptoServiceProvider_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::RNGCryptoServiceProvider::*)()>(
     &::System::Security::Cryptography::RNGCryptoServiceProvider::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x26f6208;
+  constexpr static std::size_t addrs = 0x27f3604;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::RNGCryptoServiceProvider::*)()>(
     &::System::Security::Cryptography::RNGCryptoServiceProvider::Check)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x26f62a4;
+  constexpr static std::size_t addrs = 0x27f36a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -38,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::System::Security::Cryptography::RNGCryptoServiceProvider::RngOpen)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x26f6204;
+  constexpr static std::size_t addrs = 0x27f3600;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -53,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (*)(::cordl_internals::Ptr<uint8_t>, void*)>(
     &::System::Security::Cryptography::RNGCryptoServiceProvider::RngInitialize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x26f62a0;
+  constexpr static std::size_t addrs = 0x27f369c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -69,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (*)(void*, ::cordl_internals::Ptr<uint8_t>, void*)>(
     &::System::Security::Cryptography::RNGCryptoServiceProvider::RngGetBytes)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x26f6358;
+  constexpr static std::size_t addrs = 0x27f3754;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -85,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(void*)>(&::System::Security::Cryptography::RNGCryptoServiceProvider::RngClose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x26f635c;
+  constexpr static std::size_t addrs = 0x27f3758;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -100,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::RNGCryptoServiceProvider::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::System::Security::Cryptography::RNGCryptoServiceProvider::GetBytes)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x26f6360;
+  constexpr static std::size_t addrs = 0x27f375c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -116,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::RNGCryptoServiceProvider::*)()>(
     &::System::Security::Cryptography::RNGCryptoServiceProvider::Finalize)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x26f657c;
+  constexpr static std::size_t addrs = 0x27f3978;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -132,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::RNGCryptoServiceProvider::*)(bool)>(
     &::System::Security::Cryptography::RNGCryptoServiceProvider::Dispose)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26f6694;
+  constexpr static std::size_t addrs = 0x27f3a90;
 
   inline static ::MethodInfo const* methodInfo() {
 

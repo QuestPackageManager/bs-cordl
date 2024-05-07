@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/ContentDecodeStream.hpp"
 #include "System/Net/zzzz__WebReadStream_impl.hpp"
 #include "System/Net/zzzz__ContentDecodeStream_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
@@ -21,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Net::ContentDecodeStream* (*)(::System::Net::WebOperation*, ::System::IO::Stream*, ::System::Net::__ContentDecodeStream__Mode)>(&::System::Net::ContentDecodeStream::Create)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x2ef1b78;
+  constexpr static std::size_t addrs = 0x2ff3478;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -38,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (::System::Net::ContentDecodeStream::*)()>(
     &::System::Net::ContentDecodeStream::get_OriginalInnerStream)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ef1c8c;
+  constexpr static std::size_t addrs = 0x2ff358c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ContentDecodeStream*>::get(),
@@ -52,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Net::ContentDecodeStream::*)(::System::Net::WebOperation*, ::System::IO::Stream*, ::System::IO::Stream*)>(&::System::Net::ContentDecodeStream::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2ef1c64;
+  constexpr static std::size_t addrs = 0x2ff3564;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -69,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<int32_t>* (
     ::System::Net::ContentDecodeStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::System::Threading::CancellationToken)>(&::System::Net::ContentDecodeStream::ProcessReadAsync)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2ef1c94;
+  constexpr static std::size_t addrs = 0x2ff3594;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -84,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::System::Net::ContentDecodeStream::*)(::System::Threading::CancellationToken)>(
     &::System::Net::ContentDecodeStream::FinishReading)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x2ef1cb8;
+  constexpr static std::size_t addrs = 0x2ff35b8;
 
   inline static ::MethodInfo const* methodInfo() {
 

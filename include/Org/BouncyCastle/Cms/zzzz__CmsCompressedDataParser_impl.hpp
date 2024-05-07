@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Cms/CmsCompressedDataParser.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsContentInfoParser_impl.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsCompressedDataParser_def.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsTypedStream_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsCompressedDataParser::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Cms::CmsCompressedDataParser::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x134c020;
+  constexpr static std::size_t addrs = 0x1440744;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsCompressedDataParser::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Cms::CmsCompressedDataParser::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x134c098;
+  constexpr static std::size_t addrs = 0x14407bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -39,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Cms::CmsTypedStream* (::Org::BouncyCastle::Cms::CmsCompressedDataParser::*)()>(
     &::Org::BouncyCastle::Cms::CmsCompressedDataParser::GetContent)> {
   constexpr static std::size_t size = 0x300;
-  constexpr static std::size_t addrs = 0x134c09c;
+  constexpr static std::size_t addrs = 0x14407c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CmsCompressedDataParser*>::get(),

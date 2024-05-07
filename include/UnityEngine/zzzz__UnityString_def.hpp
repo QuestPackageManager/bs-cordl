@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UnityString.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,7 +24,7 @@ namespace UnityEngine {
 class CORDL_TYPE UnityString : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Format, addr 0x326692c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x346f668, size 0x88, virtual false, abstract: false, final false
   static inline ::StringW Format(::StringW fmt, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
 protected:

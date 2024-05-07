@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Processors/NormalizeVector2Processor.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,13 +29,13 @@ public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Processors::NormalizeVector2Processor* New_ctor();
 
-  /// @brief Method Process, addr 0x302c19c, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method Process, addr 0x3167f28, size 0xb4, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 Process(::UnityEngine::Vector2 value, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method ToString, addr 0x302c250, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3167fdc, size 0x40, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x302c290, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x316801c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

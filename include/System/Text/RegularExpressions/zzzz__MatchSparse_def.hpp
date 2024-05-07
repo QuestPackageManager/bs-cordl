@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Text/RegularExpressions/MatchSparse.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,10 +44,10 @@ public:
 
   constexpr void __cordl_internal_set__caps(::System::Collections::Hashtable* value);
 
-  /// @brief Method .ctor, addr 0x2e84fa0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f848a0, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::System::Text::RegularExpressions::Regex* regex, ::System::Collections::Hashtable* caps, int32_t capcount, ::StringW text, int32_t begpos, int32_t len, int32_t startpos);
 
-  /// @brief Method get_Groups, addr 0x2e85050, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method get_Groups, addr 0x2f84950, size 0x74, virtual true, abstract: false, final false
   inline ::System::Text::RegularExpressions::GroupCollection* get_Groups();
 
 protected:

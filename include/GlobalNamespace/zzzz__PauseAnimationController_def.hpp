@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/PauseAnimationController.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,21 +32,21 @@ public:
   __declspec(property(get = __cordl_internal_get_resumeFromPauseAnimationDidFinishEvent,
                       put = __cordl_internal_set_resumeFromPauseAnimationDidFinishEvent))::System::Action* resumeFromPauseAnimationDidFinishEvent;
 
-  /// @brief Method Awake, addr 0x25e691c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x26e6720, size 0x30, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method EnterPauseAnimationDidFinish, addr 0x25e6a3c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method EnterPauseAnimationDidFinish, addr 0x26e6840, size 0x30, virtual false, abstract: false, final false
   inline void EnterPauseAnimationDidFinish();
 
   static inline ::GlobalNamespace::PauseAnimationController* New_ctor();
 
-  /// @brief Method ResumeFromPauseAnimationDidFinish, addr 0x25e6a6c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ResumeFromPauseAnimationDidFinish, addr 0x26e6870, size 0x50, virtual false, abstract: false, final false
   inline void ResumeFromPauseAnimationDidFinish();
 
-  /// @brief Method StartEnterPauseAnimation, addr 0x25e694c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method StartEnterPauseAnimation, addr 0x26e6750, size 0x78, virtual false, abstract: false, final false
   inline void StartEnterPauseAnimation();
 
-  /// @brief Method StartResumeFromPauseAnimation, addr 0x25e69c4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method StartResumeFromPauseAnimation, addr 0x26e67c8, size 0x78, virtual false, abstract: false, final false
   inline void StartResumeFromPauseAnimation();
 
   constexpr ::UnityW<::UnityEngine::Animator> const& __cordl_internal_get__animator() const;
@@ -60,13 +61,13 @@ public:
 
   constexpr void __cordl_internal_set_resumeFromPauseAnimationDidFinishEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x25e6abc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e68c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_resumeFromPauseAnimationDidFinishEvent, addr 0x25e67e4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_resumeFromPauseAnimationDidFinishEvent, addr 0x26e65e8, size 0x9c, virtual false, abstract: false, final false
   inline void add_resumeFromPauseAnimationDidFinishEvent(::System::Action* value);
 
-  /// @brief Method remove_resumeFromPauseAnimationDidFinishEvent, addr 0x25e6880, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_resumeFromPauseAnimationDidFinishEvent, addr 0x26e6684, size 0x9c, virtual false, abstract: false, final false
   inline void remove_resumeFromPauseAnimationDidFinishEvent(::System::Action* value);
 
 protected:

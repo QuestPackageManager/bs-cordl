@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BGLib/DotnetExtension/IntegerExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BGLib/DotnetExtension/zzzz__IntegerExtensions_def.hpp"
 //  Writing Method size for method: ::BGLib::DotnetExtension::IntegerExtensions.ToUInt
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, ByRef<uint32_t>, ByRef<bool>)>(&::BGLib::DotnetExtension::IntegerExtensions::ToUInt)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0xf82c4c;
+  constexpr static std::size_t addrs = 0x10741fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/AccessControl/CommonObjectSecurity.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,12 +25,12 @@ namespace System::Security::AccessControl {
 class CORDL_TYPE CommonObjectSecurity : public ::System::Security::AccessControl::ObjectSecurity {
 public:
   // Declarations
-  /// @brief Method GetAccessRules, addr 0x27065e4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetAccessRules, addr 0x28039e0, size 0xc, virtual false, abstract: false, final false
   inline ::System::Security::AccessControl::AuthorizationRuleCollection* GetAccessRules(bool includeExplicit, bool includeInherited, ::System::Type* targetType);
 
   static inline ::System::Security::AccessControl::CommonObjectSecurity* New_ctor(bool isContainer);
 
-  /// @brief Method .ctor, addr 0x27064dc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28038d8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(bool isContainer);
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/EnumTableViewDataSource_1.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__EnumTableViewDataSource_1_def.hpp"
 #include "GlobalNamespace/zzzz__TextOnlyTableCell_def.hpp"

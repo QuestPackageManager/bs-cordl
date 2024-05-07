@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/LightRotationBeatmapEventDataProcessor.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventDataProcessor_1_impl.hpp"
 #include "GlobalNamespace/zzzz__LightRotationBeatmapEventDataProcessor_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightRotationBeatmapEventDataProcessor::*)(
     ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*)>(&::GlobalNamespace::LightRotationBeatmapEventDataProcessor::ProcessInsertedEventDataInternal)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0xf48438;
+  constexpr static std::size_t addrs = 0x1036fac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightRotationBeatmapEventDataProcessor::*)(
     ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*)>(&::GlobalNamespace::LightRotationBeatmapEventDataProcessor::ProcessBeforeDeleteEventDataInternal)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0xf48548;
+  constexpr static std::size_t addrs = 0x10370bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightRotationBeatmapEventDataProcessor::*)()>(
     &::GlobalNamespace::LightRotationBeatmapEventDataProcessor::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0xf48644;
+  constexpr static std::size_t addrs = 0x10371b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

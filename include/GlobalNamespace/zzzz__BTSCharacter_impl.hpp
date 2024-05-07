@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BTSCharacter.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BTSCharacter_def.hpp"
 #include "GlobalNamespace/zzzz__BTSCharacterMaterialSwitcher_def.hpp"
@@ -11,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::BTSCharacter::*)()>(&::GlobalNamespace::BTSCharacter::get_characterName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf63498;
+  constexpr static std::size_t addrs = 0x105300c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BTSCharacter*>::get(), "get_characterName",
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::MaterialPropertyBlockController> (::GlobalNamespace::BTSCharacter::*)()>(
     &::GlobalNamespace::BTSCharacter::get_materialPropertyBlockController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf634a0;
+  constexpr static std::size_t addrs = 0x1053014;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Animator> (::GlobalNamespace::BTSCharacter::*)()>(
     &::GlobalNamespace::BTSCharacter::get_animator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf634a8;
+  constexpr static std::size_t addrs = 0x105301c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BTSCharacter*>::get(), "get_animator",
@@ -54,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (::GlobalNamespace::BTSCharacter::*)()>(
     &::GlobalNamespace::BTSCharacter::get_headTransform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf634b0;
+  constexpr static std::size_t addrs = 0x1053024;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BTSCharacter*>::get(), "get_headTransform",
@@ -68,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BTSCharacter::*)(::UnityEngine::AnimationClip*, bool)>(
     &::GlobalNamespace::BTSCharacter::SetAlternativeAnimationAndMaterial)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0xf634b8;
+  constexpr static std::size_t addrs = 0x105302c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -83,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BTSCharacter::*)()>(&::GlobalNamespace::BTSCharacter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf63900;
+  constexpr static std::size_t addrs = 0x1053474;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BTSCharacter*>::get(), ".ctor",

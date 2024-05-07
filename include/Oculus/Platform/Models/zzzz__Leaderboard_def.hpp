@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/Models/Leaderboard.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,7 +62,7 @@ public:
 
   constexpr void __cordl_internal_set__cordl_ID(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x29dcd38, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2adb5e8, size 0x128, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
 protected:

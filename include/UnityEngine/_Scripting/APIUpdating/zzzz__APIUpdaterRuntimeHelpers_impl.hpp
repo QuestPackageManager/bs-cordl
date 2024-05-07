@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/_Scripting/APIUpdating/APIUpdaterRuntimeHelpers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/_Scripting/APIUpdating/zzzz__APIUpdaterRuntimeHelpers_def.hpp"
 #include "System/zzzz__Type_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ByRef<::StringW>, ByRef<::StringW>, ByRef<::StringW>)>(
     &::UnityEngine::_Scripting::APIUpdating::APIUpdaterRuntimeHelpers::GetMovedFromAttributeDataForType)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x321cfd0;
+  constexpr static std::size_t addrs = 0x3423d0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ByRef<::StringW>, ByRef<::StringW>, ByRef<::StringW>)>(
     &::UnityEngine::_Scripting::APIUpdating::APIUpdaterRuntimeHelpers::GetObsoleteTypeRedirection)> {
   constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x321d110;
+  constexpr static std::size_t addrs = 0x3423e4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

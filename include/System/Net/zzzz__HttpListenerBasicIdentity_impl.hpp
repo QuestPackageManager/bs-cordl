@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/HttpListenerBasicIdentity.hpp"
 #include "System/Security/Principal/zzzz__GenericIdentity_impl.hpp"
 #include "System/Net/zzzz__HttpListenerBasicIdentity_def.hpp"
 //  Writing Method size for method: ::System::Net::HttpListenerBasicIdentity._ctor
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpListenerBasicIdentity::*)(::StringW, ::StringW)>(
     &::System::Net::HttpListenerBasicIdentity::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2efdd34;
+  constexpr static std::size_t addrs = 0x2fff634;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

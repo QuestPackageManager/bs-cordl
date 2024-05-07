@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Scripting/APIUpdating/MovedFromAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/Scripting/APIUpdating/zzzz__MovedFromAttributeData_impl.hpp"
 #include "UnityEngine/Scripting/APIUpdating/zzzz__MovedFromAttribute_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Scripting::APIUpdating::MovedFromAttribute::*)(bool, ::StringW, ::StringW, ::StringW)>(
     &::UnityEngine::Scripting::APIUpdating::MovedFromAttribute::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3220cac;
+  constexpr static std::size_t addrs = 0x34279e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Scripting::APIUpdating::MovedFromAttribute::*)(::StringW)>(
     &::UnityEngine::Scripting::APIUpdating::MovedFromAttribute::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3220d18;
+  constexpr static std::size_t addrs = 0x3427a54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

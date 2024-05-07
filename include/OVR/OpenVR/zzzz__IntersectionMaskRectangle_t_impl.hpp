@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/IntersectionMaskRectangle_t.hpp"
 #include "OVR/OpenVR/zzzz__IntersectionMaskRectangle_t_def.hpp"
 // Ctor Parameters [CppParam { name: "m_flTopLeftX", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_flTopLeftY", ty: "float_t", modifiers: "", def_value: Some("{}") },
 // CppParam { name: "m_flWidth", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_flHeight", ty: "float_t", modifiers: "", def_value: Some("{}") }]

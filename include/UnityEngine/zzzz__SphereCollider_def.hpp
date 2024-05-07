@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/SphereCollider.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,25 +30,25 @@ public:
 
   static inline ::UnityEngine::SphereCollider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x32615f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x346a330, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_center, addr 0x3261434, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_center, addr 0x346a170, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_center();
 
-  /// @brief Method get_center_Injected, addr 0x3261490, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_center_Injected, addr 0x346a1cc, size 0x44, virtual false, abstract: false, final false
   inline void get_center_Injected(ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method get_radius, addr 0x326156c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_radius, addr 0x346a2a8, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_radius();
 
-  /// @brief Method set_center, addr 0x32614d4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_center, addr 0x346a210, size 0x54, virtual false, abstract: false, final false
   inline void set_center(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_center_Injected, addr 0x3261528, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_center_Injected, addr 0x346a264, size 0x44, virtual false, abstract: false, final false
   inline void set_center_Injected(ByRef<::UnityEngine::Vector3> value);
 
-  /// @brief Method set_radius, addr 0x32615a8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_radius, addr 0x346a2e4, size 0x4c, virtual false, abstract: false, final false
   inline void set_radius(float_t value);
 
 protected:

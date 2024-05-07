@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HEU_ToolsInfo.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_ToolsInfo_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
@@ -30,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_ToolsInfo::*)(::HoudiniEngineUnity::HEU_ToolsInfo*)>(
     &::HoudiniEngineUnity::HEU_ToolsInfo::IsEquivalentTo)> {
   constexpr static std::size_t size = 0x620;
-  constexpr static std::size_t addrs = 0x24d5904;
+  constexpr static std::size_t addrs = 0x25cd590;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_ToolsInfo::*)()>(&::HoudiniEngineUnity::HEU_ToolsInfo::_ctor)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x24d5f24;
+  constexpr static std::size_t addrs = 0x25cdbb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_ToolsInfo*>::get(), ".ctor",

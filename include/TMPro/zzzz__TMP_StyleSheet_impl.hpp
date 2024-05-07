@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/TMP_StyleSheet.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "TMPro/zzzz__TMP_StyleSheet_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::TMPro::TMP_Style*>* (::TMPro::TMP_StyleSheet::*)()>(
     &::TMPro::TMP_StyleSheet::get_styles)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x31748d0;
+  constexpr static std::size_t addrs = 0x337a358;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_StyleSheet*>::get(), "get_styles",
@@ -23,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_StyleSheet::*)()>(&::TMPro::TMP_StyleSheet::Reset)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x31748d8;
+  constexpr static std::size_t addrs = 0x337a360;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_StyleSheet*>::get(), "Reset",
@@ -36,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TMP_Style* (::TMPro::TMP_StyleSheet::*)(int32_t)>(&::TMPro::TMP_StyleSheet::GetStyle)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3174bf4;
+  constexpr static std::size_t addrs = 0x337a67c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -50,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TMP_Style* (::TMPro::TMP_StyleSheet::*)(::StringW)>(&::TMPro::TMP_StyleSheet::GetStyle)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3174c7c;
+  constexpr static std::size_t addrs = 0x337a704;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -64,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_StyleSheet::*)()>(&::TMPro::TMP_StyleSheet::RefreshStyles)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3174d34;
+  constexpr static std::size_t addrs = 0x337a7bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_StyleSheet*>::get(), "RefreshStyles",
@@ -77,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_StyleSheet::*)()>(&::TMPro::TMP_StyleSheet::LoadStyleDictionaryInternal)> {
   constexpr static std::size_t size = 0x318;
-  constexpr static std::size_t addrs = 0x31748dc;
+  constexpr static std::size_t addrs = 0x337a364;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_StyleSheet*>::get(), "LoadStyleDictionaryInternal",
@@ -90,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_StyleSheet::*)()>(&::TMPro::TMP_StyleSheet::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3174d38;
+  constexpr static std::size_t addrs = 0x337a7c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_StyleSheet*>::get(), ".ctor",

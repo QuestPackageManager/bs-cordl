@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Numerics/Register.hpp"
 #include "System/Numerics/zzzz__Register_def.hpp"
 constexpr uint8_t& System::Numerics::Register::__cordl_internal_get_byte_0() {
   return this->___byte_0;

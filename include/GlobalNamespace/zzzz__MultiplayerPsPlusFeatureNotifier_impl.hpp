@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MultiplayerPsPlusFeatureNotifier.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerPsPlusFeatureNotifier_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerPsPlusFeatureNotifier._ctor
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerPsPlusFeatureNotifier::*)()>(
     &::GlobalNamespace::MultiplayerPsPlusFeatureNotifier::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2619c78;
+  constexpr static std::size_t addrs = 0x2719b04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerPsPlusFeatureNotifier*>::get(),

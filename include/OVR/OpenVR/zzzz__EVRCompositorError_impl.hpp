@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/EVRCompositorError.hpp"
 #include "OVR/OpenVR/zzzz__EVRCompositorError_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::OVR::OpenVR::EVRCompositorError::EVRCompositorError(int32_t value__) noexcept {

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Agreement/JPake/JPakeRound2Payload.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Agreement/JPake/zzzz__JPakeRound2Payload_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
@@ -9,7 +10,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::StringW, ::Org::BouncyCastle::Math::BigInteger*, ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*>)>(
     &::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound2Payload::_ctor)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x1382580;
+  constexpr static std::size_t addrs = 0x1477ca4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound2Payload::*)()>(
     &::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound2Payload::get_ParticipantId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1383c74;
+  constexpr static std::size_t addrs = 0x1479398;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound2Payload::*)()>(
     &::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound2Payload::get_A)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1383c7c;
+  constexpr static std::size_t addrs = 0x14793a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -59,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> (
     ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound2Payload::*)()>(&::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound2Payload::get_KnowledgeProofForX2s)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x1383c84;
+  constexpr static std::size_t addrs = 0x14793a8;
 
   inline static ::MethodInfo const* methodInfo() {
 

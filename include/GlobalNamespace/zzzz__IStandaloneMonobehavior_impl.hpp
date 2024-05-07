@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IStandaloneMonobehavior.hpp"
 #include "GlobalNamespace/zzzz__IStandaloneMonobehavior_def.hpp"
 #include "GlobalNamespace/zzzz__IStandaloneThreadRunner_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/HEU_ScriptMeshInputUVLayoutExample.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__HEU_ScriptMeshInputUVLayoutExample_def.hpp"
 #include "GlobalNamespace/zzzz__HEU_ScriptMeshInputUVLayoutExample_def.hpp"
@@ -18,7 +19,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*>, ::GlobalNamespace::__HEU_ScriptMeshInputUVLayoutExample__OutputMode, ::StringW)>(
         &::GlobalNamespace::HEU_ScriptMeshInputUVLayoutExample::ApplyUVLayoutTo)> {
   constexpr static std::size_t size = 0x840;
-  constexpr static std::size_t addrs = 0x243733c;
+  constexpr static std::size_t addrs = 0x2530fc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -35,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HEU_ScriptMeshInputUVLayoutExample::*)()>(
     &::GlobalNamespace::HEU_ScriptMeshInputUVLayoutExample::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2437c24;
+  constexpr static std::size_t addrs = 0x25318b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HEU_ScriptMeshInputUVLayoutExample*>::get(),

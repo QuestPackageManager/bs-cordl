@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/SubOvfInstruction_SubOvfUInt64.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__SubOvfInstruction_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__SubOvfInstruction_SubOvfUInt64_def.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__InterpretedFrame_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::__SubOvfInstruction__SubOvfUInt64::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::System::Linq::Expressions::Interpreter::__SubOvfInstruction__SubOvfUInt64::Run)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x2b4c398;
+  constexpr static std::size_t addrs = 0x2c48c98;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::__SubOvfInstruction__SubOvfUInt64::*)()>(
     &::System::Linq::Expressions::Interpreter::__SubOvfInstruction__SubOvfUInt64::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b4b8d4;
+  constexpr static std::size_t addrs = 0x2c481d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

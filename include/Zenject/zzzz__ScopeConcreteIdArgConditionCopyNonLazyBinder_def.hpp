@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/ScopeConcreteIdArgConditionCopyNonLazyBinder.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,18 +25,18 @@ namespace Zenject {
 class CORDL_TYPE ScopeConcreteIdArgConditionCopyNonLazyBinder : public ::Zenject::ConcreteIdArgConditionCopyNonLazyBinder {
 public:
   // Declarations
-  /// @brief Method AsCached, addr 0x342b1a8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method AsCached, addr 0x362eee4, size 0x20, virtual false, abstract: false, final false
   inline ::Zenject::ConcreteIdArgConditionCopyNonLazyBinder* AsCached();
 
-  /// @brief Method AsSingle, addr 0x342b1c8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method AsSingle, addr 0x362ef04, size 0x28, virtual false, abstract: false, final false
   inline ::Zenject::ConcreteIdArgConditionCopyNonLazyBinder* AsSingle();
 
-  /// @brief Method AsTransient, addr 0x342b1f0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method AsTransient, addr 0x362ef2c, size 0x20, virtual false, abstract: false, final false
   inline ::Zenject::ConcreteIdArgConditionCopyNonLazyBinder* AsTransient();
 
   static inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* New_ctor(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method .ctor, addr 0x342b0a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x362ede0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo);
 
 protected:

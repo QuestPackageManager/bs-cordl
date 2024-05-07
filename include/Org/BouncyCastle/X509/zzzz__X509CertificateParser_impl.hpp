@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/X509/X509CertificateParser.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/X509/zzzz__X509CertificateParser_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__X509CertificateStructure_def.hpp"
@@ -14,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::X509::X509Certificate* (
     ::Org::BouncyCastle::X509::X509CertificateParser::*)(::Org::BouncyCastle::Asn1::Asn1InputStream*)>(&::Org::BouncyCastle::X509::X509CertificateParser::ReadDerCertificate)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x12eb250;
+  constexpr static std::size_t addrs = 0x13dd974;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::X509::X509Certificate* (::Org::BouncyCastle::X509::X509CertificateParser::*)()>(
     &::Org::BouncyCastle::X509::X509CertificateParser::GetCertificate)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x12eb468;
+  constexpr static std::size_t addrs = 0x13ddb8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::X509::X509CertificateParser*>::get(),
@@ -43,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::X509::X509Certificate* (
     ::Org::BouncyCastle::X509::X509CertificateParser::*)(::System::IO::Stream*)>(&::Org::BouncyCastle::X509::X509CertificateParser::ReadPemCertificate)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x12eb54c;
+  constexpr static std::size_t addrs = 0x13ddc70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::X509::X509Certificate* (
     ::Org::BouncyCastle::X509::X509CertificateParser::*)(::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*)>(&::Org::BouncyCastle::X509::X509CertificateParser::CreateX509Certificate)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x12eb5f4;
+  constexpr static std::size_t addrs = 0x13ddd18;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -74,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::X509::X509Certificate* (
     ::Org::BouncyCastle::X509::X509CertificateParser::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::X509::X509CertificateParser::ReadCertificate)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x12eb654;
+  constexpr static std::size_t addrs = 0x13ddd78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -89,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ICollection* (
     ::Org::BouncyCastle::X509::X509CertificateParser::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::X509::X509CertificateParser::ReadCertificates)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x12eb9b0;
+  constexpr static std::size_t addrs = 0x13de0d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -104,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::X509::X509Certificate* (
     ::Org::BouncyCastle::X509::X509CertificateParser::*)(::System::IO::Stream*)>(&::Org::BouncyCastle::X509::X509CertificateParser::ReadCertificate)> {
   constexpr static std::size_t size = 0x2e4;
-  constexpr static std::size_t addrs = 0x12eb6cc;
+  constexpr static std::size_t addrs = 0x13dddf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -119,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ICollection* (::Org::BouncyCastle::X509::X509CertificateParser::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::X509::X509CertificateParser::ReadCertificates)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x12eba28;
+  constexpr static std::size_t addrs = 0x13de14c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -134,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::X509::X509CertificateParser::*)()>(
     &::Org::BouncyCastle::X509::X509CertificateParser::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x12ebbc8;
+  constexpr static std::size_t addrs = 0x13de2ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::X509::X509CertificateParser*>::get(),

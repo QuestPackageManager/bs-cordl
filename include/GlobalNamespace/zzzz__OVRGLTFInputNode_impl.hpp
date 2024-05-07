@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OVRGLTFInputNode.hpp"
 #include "GlobalNamespace/zzzz__OVRGLTFInputNode_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::OVRGLTFInputNode::OVRGLTFInputNode(int32_t value__) noexcept {

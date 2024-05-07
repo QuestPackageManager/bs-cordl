@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/NetworkInformation/LinuxIPInterfaceProperties.hpp"
 #include "System/Net/NetworkInformation/zzzz__UnixIPInterfaceProperties_impl.hpp"
 #include "System/Net/NetworkInformation/zzzz__LinuxIPInterfaceProperties_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -13,7 +14,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Net::NetworkInformation::LinuxNetworkInterface*, ::System::Collections::Generic::List_1<::System::Net::IPAddress*>*)>(
     &::System::Net::NetworkInformation::LinuxIPInterfaceProperties::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x2f232dc;
+  constexpr static std::size_t addrs = 0x3023bdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::NetworkInformation::IPAddressCollection* (
     ::System::Net::NetworkInformation::LinuxIPInterfaceProperties::*)(::StringW)>(&::System::Net::NetworkInformation::LinuxIPInterfaceProperties::ParseRouteInfo)> {
   constexpr static std::size_t size = 0x488;
-  constexpr static std::size_t addrs = 0x2f2334c;
+  constexpr static std::size_t addrs = 0x3023c4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::NetworkInformation::GatewayIPAddressInformationCollection* (
     ::System::Net::NetworkInformation::LinuxIPInterfaceProperties::*)()>(&::System::Net::NetworkInformation::LinuxIPInterfaceProperties::get_GatewayAddresses)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2f237d4;
+  constexpr static std::size_t addrs = 0x30240d4;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/IRemotingTypeInfo.hpp"
 #include "System/Runtime/Remoting/zzzz__IRemotingTypeInfo_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/Vector2MagnitudeComparer.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__Vector2MagnitudeComparer_def.hpp"
 #include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::Utilities::Vector2MagnitudeComparer::*)(
     ::UnityEngine::Vector2, ::UnityEngine::Vector2)>(&::UnityEngine::InputSystem::Utilities::Vector2MagnitudeComparer::Compare)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3041a68;
+  constexpr static std::size_t addrs = 0x317c7f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

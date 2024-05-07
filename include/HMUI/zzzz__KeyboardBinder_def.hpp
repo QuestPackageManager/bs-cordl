@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/KeyboardBinder.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -120,19 +121,19 @@ public:
 
   __declspec(property(get = get_enabled, put = set_enabled)) bool enabled;
 
-  /// @brief Method AddBinding, addr 0x2403988, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method AddBinding, addr 0x24fc614, size 0x140, virtual false, abstract: false, final false
   inline void AddBinding(::UnityEngine::KeyCode keyCode, ::HMUI::__KeyboardBinder__KeyBindingType keyBindingType, ::System::Action_1<bool>* action);
 
-  /// @brief Method AddBindings, addr 0x2403b80, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method AddBindings, addr 0x24fc80c, size 0x174, virtual false, abstract: false, final false
   inline void AddBindings(::System::Collections::Generic::List_1<::System::Tuple_3<::UnityEngine::KeyCode, ::HMUI::__KeyboardBinder__KeyBindingType, ::System::Action_1<bool>*>*>* bindingData);
 
-  /// @brief Method ClearBindings, addr 0x2403cf4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ClearBindings, addr 0x24fc980, size 0x70, virtual false, abstract: false, final false
   inline void ClearBindings();
 
-  /// @brief Method Init, addr 0x24038ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x24fc538, size 0xc, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method ManualUpdate, addr 0x2403d64, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x24fc9f0, size 0x110, virtual false, abstract: false, final false
   inline void ManualUpdate();
 
   static inline ::HMUI::KeyboardBinder* New_ctor();
@@ -174,19 +175,19 @@ public:
 
   constexpr void __cordl_internal_set__shouldClearBindings(bool value);
 
-  /// @brief Method .ctor, addr 0x2403800, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24fc48c, size 0xac, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2403ac8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24fc754, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::System::Tuple_3<::UnityEngine::KeyCode, ::HMUI::__KeyboardBinder__KeyBindingType, ::System::Action_1<bool>*>*>* bindingData);
 
-  /// @brief Method .ctor, addr 0x24038b8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24fc544, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::KeyCode keycode, ::HMUI::__KeyboardBinder__KeyBindingType keyBindingType, ::System::Action_1<bool>* action);
 
-  /// @brief Method get_enabled, addr 0x24037ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_enabled, addr 0x24fc478, size 0x8, virtual false, abstract: false, final false
   inline bool get_enabled();
 
-  /// @brief Method set_enabled, addr 0x24037f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_enabled, addr 0x24fc480, size 0xc, virtual false, abstract: false, final false
   inline void set_enabled(bool value);
 
 protected:

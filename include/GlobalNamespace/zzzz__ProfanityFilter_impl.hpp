@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ProfanityFilter.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__ProfanityFilter_def.hpp"
 #include "GlobalNamespace/zzzz__ProfanityFilter_def.hpp"
@@ -15,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__ProfanityFilter__TrieNode::*)(::StringW, int32_t)>(
     &::GlobalNamespace::__ProfanityFilter__TrieNode::AddWord)> {
   constexpr static std::size_t size = 0x4c4;
-  constexpr static std::size_t addrs = 0xfbea4c;
+  constexpr static std::size_t addrs = 0x10b2170;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__ProfanityFilter__TrieNode::*)(::StringW, int32_t)>(
     &::GlobalNamespace::__ProfanityFilter__TrieNode::IsMatch)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0xfbef78;
+  constexpr static std::size_t addrs = 0x10b269c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__ProfanityFilter__TrieNode::*)()>(&::GlobalNamespace::__ProfanityFilter__TrieNode::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0xfbea3c;
+  constexpr static std::size_t addrs = 0x10b2160;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__ProfanityFilter__TrieNode*>::get(), ".ctor",
@@ -106,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__ProfanityFilter___GetLookalikeLetters_d__4::*)(int32_t)>(
     &::GlobalNamespace::__ProfanityFilter___GetLookalikeLetters_d__4::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0xfbf168;
+  constexpr static std::size_t addrs = 0x10b288c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -121,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__ProfanityFilter___GetLookalikeLetters_d__4::*)()>(
     &::GlobalNamespace::__ProfanityFilter___GetLookalikeLetters_d__4::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0xfbf208;
+  constexpr static std::size_t addrs = 0x10b292c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -136,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__ProfanityFilter___GetLookalikeLetters_d__4::*)()>(
     &::GlobalNamespace::__ProfanityFilter___GetLookalikeLetters_d__4::MoveNext)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0xfbf20c;
+  constexpr static std::size_t addrs = 0x10b2930;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -151,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (::GlobalNamespace::__ProfanityFilter___GetLookalikeLetters_d__4::*)()>(
     &::GlobalNamespace::__ProfanityFilter___GetLookalikeLetters_d__4::System_Collections_Generic_IEnumerator_System_Char__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xfbf2b0;
+  constexpr static std::size_t addrs = 0x10b29d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -166,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__ProfanityFilter___GetLookalikeLetters_d__4::*)()>(
     &::GlobalNamespace::__ProfanityFilter___GetLookalikeLetters_d__4::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0xfbf2b8;
+  constexpr static std::size_t addrs = 0x10b29dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -181,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__ProfanityFilter___GetLookalikeLetters_d__4::*)()>(
     &::GlobalNamespace::__ProfanityFilter___GetLookalikeLetters_d__4::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0xfbf2f8;
+  constexpr static std::size_t addrs = 0x10b2a1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -197,7 +198,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::IEnumerator_1<char16_t>* (::GlobalNamespace::__ProfanityFilter___GetLookalikeLetters_d__4::*)()>(
         &::GlobalNamespace::__ProfanityFilter___GetLookalikeLetters_d__4::System_Collections_Generic_IEnumerable_System_Char__GetEnumerator)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0xfbf354;
+  constexpr static std::size_t addrs = 0x10b2a78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -212,7 +213,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::__ProfanityFilter___GetLookalikeLetters_d__4::*)()>(
     &::GlobalNamespace::__ProfanityFilter___GetLookalikeLetters_d__4::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0xfbf3f8;
+  constexpr static std::size_t addrs = 0x10b2b1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -380,7 +381,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ProfanityFilter::*)(::System::Collections::Generic::IEnumerable_1<::StringW>*)>(
     &::GlobalNamespace::ProfanityFilter::_ctor)> {
   constexpr static std::size_t size = 0x340;
-  constexpr static std::size_t addrs = 0xfbe6fc;
+  constexpr static std::size_t addrs = 0x10b1e20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -394,7 +395,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::ProfanityFilter::*)(::StringW)>(&::GlobalNamespace::ProfanityFilter::IsProfane)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0xfbef10;
+  constexpr static std::size_t addrs = 0x10b2634;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -409,7 +410,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<char16_t>* (*)(char16_t)>(
     &::GlobalNamespace::ProfanityFilter::GetLookalikeLetters)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0xfbf0f0;
+  constexpr static std::size_t addrs = 0x10b2814;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -423,7 +424,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (*)(char16_t)>(&::GlobalNamespace::ProfanityFilter::GetLeetEquivalent)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0xfbf19c;
+  constexpr static std::size_t addrs = 0x10b28c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

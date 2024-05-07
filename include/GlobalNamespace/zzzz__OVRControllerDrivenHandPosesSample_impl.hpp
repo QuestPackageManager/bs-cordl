@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OVRControllerDrivenHandPosesSample.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRControllerDrivenHandPosesSample_def.hpp"
 #include "GlobalNamespace/zzzz__OVRCameraRig_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRControllerDrivenHandPosesSample::*)()>(
     &::GlobalNamespace::OVRControllerDrivenHandPosesSample::Awake)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x29f3248;
+  constexpr static std::size_t addrs = 0x2af0af8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerDrivenHandPosesSample*>::get(),
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRControllerDrivenHandPosesSample::*)()>(
     &::GlobalNamespace::OVRControllerDrivenHandPosesSample::OnDestroy)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x29f359c;
+  constexpr static std::size_t addrs = 0x2af0e4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerDrivenHandPosesSample*>::get(),
@@ -38,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRControllerDrivenHandPosesSample::*)()>(
     &::GlobalNamespace::OVRControllerDrivenHandPosesSample::OnEnable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x29f35a0;
+  constexpr static std::size_t addrs = 0x2af0e50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerDrivenHandPosesSample*>::get(),
@@ -52,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRControllerDrivenHandPosesSample::*)()>(
     &::GlobalNamespace::OVRControllerDrivenHandPosesSample::OnDisable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x29f35a4;
+  constexpr static std::size_t addrs = 0x2af0e54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerDrivenHandPosesSample*>::get(),
@@ -66,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRControllerDrivenHandPosesSample::*)()>(
     &::GlobalNamespace::OVRControllerDrivenHandPosesSample::Update)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x29f35a8;
+  constexpr static std::size_t addrs = 0x2af0e58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerDrivenHandPosesSample*>::get(),
@@ -80,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRControllerDrivenHandPosesSample::*)()>(
     &::GlobalNamespace::OVRControllerDrivenHandPosesSample::UpdateLineRenderer)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x29f35ac;
+  constexpr static std::size_t addrs = 0x2af0e5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerDrivenHandPosesSample*>::get(),
@@ -94,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRControllerDrivenHandPosesSample::*)(bool)>(
     &::GlobalNamespace::OVRControllerDrivenHandPosesSample::UpdateLineRendererForHand)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x29f35fc;
+  constexpr static std::size_t addrs = 0x2af0eac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -109,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRControllerDrivenHandPosesSample::*)()>(
     &::GlobalNamespace::OVRControllerDrivenHandPosesSample::LateUpdate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x29f3870;
+  constexpr static std::size_t addrs = 0x2af1120;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerDrivenHandPosesSample*>::get(),
@@ -123,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRControllerDrivenHandPosesSample::*)()>(
     &::GlobalNamespace::OVRControllerDrivenHandPosesSample::SetControllerDrivenHandPosesTypeToNone)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x29f3324;
+  constexpr static std::size_t addrs = 0x2af0bd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -138,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRControllerDrivenHandPosesSample::*)()>(
     &::GlobalNamespace::OVRControllerDrivenHandPosesSample::SetControllerDrivenHandPosesTypeToControllerConforming)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x29f33f4;
+  constexpr static std::size_t addrs = 0x2af0ca4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -153,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRControllerDrivenHandPosesSample::*)()>(
     &::GlobalNamespace::OVRControllerDrivenHandPosesSample::SetControllerDrivenHandPosesTypeToNatural)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x29f34c8;
+  constexpr static std::size_t addrs = 0x2af0d78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -168,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRControllerDrivenHandPosesSample::*)()>(
     &::GlobalNamespace::OVRControllerDrivenHandPosesSample::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x29f3874;
+  constexpr static std::size_t addrs = 0x2af1124;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerDrivenHandPosesSample*>::get(),

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Bindings/NativeWritableSelfAttribute.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,10 +32,10 @@ public:
 
   constexpr void __cordl_internal_set__WritableSelf_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x3266cb4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x346f9f0, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_WritableSelf, addr 0x3266ca8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_WritableSelf, addr 0x346f9e4, size 0xc, virtual true, abstract: false, final true
   inline void set_WritableSelf(bool value);
 
 protected:

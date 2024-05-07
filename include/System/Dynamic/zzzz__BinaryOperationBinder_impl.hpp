@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Dynamic/BinaryOperationBinder.hpp"
 #include "System/Dynamic/zzzz__DynamicMetaObjectBinder_impl.hpp"
 #include "System/Linq/Expressions/zzzz__ExpressionType_impl.hpp"
 #include "System/Dynamic/zzzz__BinaryOperationBinder_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::ExpressionType (::System::Dynamic::BinaryOperationBinder::*)()>(
     &::System::Dynamic::BinaryOperationBinder::get_Operation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b4f7d4;
+  constexpr static std::size_t addrs = 0x2c4c0d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::BinaryOperationBinder*>::get(),
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Dynamic::DynamicMetaObject* (
     ::System::Dynamic::BinaryOperationBinder::*)(::System::Dynamic::DynamicMetaObject*, ::System::Dynamic::DynamicMetaObject*)>(&::System::Dynamic::BinaryOperationBinder::FallbackBinaryOperation)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2b4f7dc;
+  constexpr static std::size_t addrs = 0x2c4c0dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,7 +58,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Dynamic::BinaryOperationBinder::*)(::System::Dynamic::DynamicMetaObject*, ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*>)>(
     &::System::Dynamic::BinaryOperationBinder::Bind)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x2b4f7ec;
+  constexpr static std::size_t addrs = 0x2c4c0ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

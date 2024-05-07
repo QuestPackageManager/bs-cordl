@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Http/Headers/CacheControlHeaderValue.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__TimeSpan_impl.hpp"
@@ -16,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::ICollection_1<::System::Net::Http::Headers::NameValueHeaderValue*>* (
     ::System::Net::Http::Headers::CacheControlHeaderValue::*)()>(&::System::Net::Http::Headers::CacheControlHeaderValue::get_Extensions)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x2c6ead0;
+  constexpr static std::size_t addrs = 0x2d6c3d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::CacheControlHeaderValue*>::get(),
@@ -30,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<::System::TimeSpan> (::System::Net::Http::Headers::CacheControlHeaderValue::*)()>(
     &::System::Net::Http::Headers::CacheControlHeaderValue::get_MaxAge)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2c6eb50;
+  constexpr static std::size_t addrs = 0x2d6c450;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::CacheControlHeaderValue*>::get(),
@@ -44,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::CacheControlHeaderValue::*)(::System::Nullable_1<::System::TimeSpan>)>(
     &::System::Net::Http::Headers::CacheControlHeaderValue::set_MaxAge)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2c6eb5c;
+  constexpr static std::size_t addrs = 0x2d6c45c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::Http::Headers::CacheControlHeaderValue::*)()>(
     &::System::Net::Http::Headers::CacheControlHeaderValue::get_MaxStale)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2c6eb64;
+  constexpr static std::size_t addrs = 0x2d6c464;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::CacheControlHeaderValue*>::get(),
@@ -73,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::CacheControlHeaderValue::*)(bool)>(
     &::System::Net::Http::Headers::CacheControlHeaderValue::set_MaxStale)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2c6eb6c;
+  constexpr static std::size_t addrs = 0x2d6c46c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -88,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<::System::TimeSpan> (::System::Net::Http::Headers::CacheControlHeaderValue::*)()>(
     &::System::Net::Http::Headers::CacheControlHeaderValue::get_MaxStaleLimit)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2c6eb78;
+  constexpr static std::size_t addrs = 0x2d6c478;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::CacheControlHeaderValue*>::get(),
@@ -102,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::CacheControlHeaderValue::*)(::System::Nullable_1<::System::TimeSpan>)>(
     &::System::Net::Http::Headers::CacheControlHeaderValue::set_MaxStaleLimit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2c6eb84;
+  constexpr static std::size_t addrs = 0x2d6c484;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -117,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<::System::TimeSpan> (::System::Net::Http::Headers::CacheControlHeaderValue::*)()>(
     &::System::Net::Http::Headers::CacheControlHeaderValue::get_MinFresh)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2c6eb8c;
+  constexpr static std::size_t addrs = 0x2d6c48c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::CacheControlHeaderValue*>::get(),
@@ -131,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::CacheControlHeaderValue::*)(::System::Nullable_1<::System::TimeSpan>)>(
     &::System::Net::Http::Headers::CacheControlHeaderValue::set_MinFresh)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2c6eb98;
+  constexpr static std::size_t addrs = 0x2d6c498;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -146,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::Http::Headers::CacheControlHeaderValue::*)()>(
     &::System::Net::Http::Headers::CacheControlHeaderValue::get_MustRevalidate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2c6eba0;
+  constexpr static std::size_t addrs = 0x2d6c4a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::CacheControlHeaderValue*>::get(),
@@ -160,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::CacheControlHeaderValue::*)(bool)>(
     &::System::Net::Http::Headers::CacheControlHeaderValue::set_MustRevalidate)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2c6eba8;
+  constexpr static std::size_t addrs = 0x2d6c4a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -175,7 +176,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::Http::Headers::CacheControlHeaderValue::*)()>(
     &::System::Net::Http::Headers::CacheControlHeaderValue::get_NoCache)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2c6ebb4;
+  constexpr static std::size_t addrs = 0x2d6c4b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::CacheControlHeaderValue*>::get(),
@@ -189,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::CacheControlHeaderValue::*)(bool)>(
     &::System::Net::Http::Headers::CacheControlHeaderValue::set_NoCache)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2c6ebbc;
+  constexpr static std::size_t addrs = 0x2d6c4bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -204,7 +205,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::ICollection_1<::StringW>* (
     ::System::Net::Http::Headers::CacheControlHeaderValue::*)()>(&::System::Net::Http::Headers::CacheControlHeaderValue::get_NoCacheHeaders)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x2c6ebc8;
+  constexpr static std::size_t addrs = 0x2d6c4c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::CacheControlHeaderValue*>::get(),
@@ -218,7 +219,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::Http::Headers::CacheControlHeaderValue::*)()>(
     &::System::Net::Http::Headers::CacheControlHeaderValue::get_NoStore)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2c6ec48;
+  constexpr static std::size_t addrs = 0x2d6c548;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::CacheControlHeaderValue*>::get(),
@@ -232,7 +233,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::CacheControlHeaderValue::*)(bool)>(
     &::System::Net::Http::Headers::CacheControlHeaderValue::set_NoStore)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2c6ec50;
+  constexpr static std::size_t addrs = 0x2d6c550;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -247,7 +248,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::Http::Headers::CacheControlHeaderValue::*)()>(
     &::System::Net::Http::Headers::CacheControlHeaderValue::get_NoTransform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2c6ec5c;
+  constexpr static std::size_t addrs = 0x2d6c55c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::CacheControlHeaderValue*>::get(),
@@ -261,7 +262,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::CacheControlHeaderValue::*)(bool)>(
     &::System::Net::Http::Headers::CacheControlHeaderValue::set_NoTransform)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2c6ec64;
+  constexpr static std::size_t addrs = 0x2d6c564;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -276,7 +277,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::Http::Headers::CacheControlHeaderValue::*)()>(
     &::System::Net::Http::Headers::CacheControlHeaderValue::get_OnlyIfCached)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2c6ec70;
+  constexpr static std::size_t addrs = 0x2d6c570;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::CacheControlHeaderValue*>::get(),
@@ -290,7 +291,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::CacheControlHeaderValue::*)(bool)>(
     &::System::Net::Http::Headers::CacheControlHeaderValue::set_OnlyIfCached)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2c6ec78;
+  constexpr static std::size_t addrs = 0x2d6c578;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -305,7 +306,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::Http::Headers::CacheControlHeaderValue::*)()>(
     &::System::Net::Http::Headers::CacheControlHeaderValue::get_Private)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2c6ec84;
+  constexpr static std::size_t addrs = 0x2d6c584;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::CacheControlHeaderValue*>::get(),
@@ -319,7 +320,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::CacheControlHeaderValue::*)(bool)>(
     &::System::Net::Http::Headers::CacheControlHeaderValue::set_Private)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2c6ec8c;
+  constexpr static std::size_t addrs = 0x2d6c58c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -334,7 +335,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::ICollection_1<::StringW>* (
     ::System::Net::Http::Headers::CacheControlHeaderValue::*)()>(&::System::Net::Http::Headers::CacheControlHeaderValue::get_PrivateHeaders)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x2c6ec98;
+  constexpr static std::size_t addrs = 0x2d6c598;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::CacheControlHeaderValue*>::get(),
@@ -348,7 +349,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::Http::Headers::CacheControlHeaderValue::*)()>(
     &::System::Net::Http::Headers::CacheControlHeaderValue::get_ProxyRevalidate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2c6ed18;
+  constexpr static std::size_t addrs = 0x2d6c618;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::CacheControlHeaderValue*>::get(),
@@ -362,7 +363,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::CacheControlHeaderValue::*)(bool)>(
     &::System::Net::Http::Headers::CacheControlHeaderValue::set_ProxyRevalidate)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2c6ed20;
+  constexpr static std::size_t addrs = 0x2d6c620;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -377,7 +378,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::Http::Headers::CacheControlHeaderValue::*)()>(
     &::System::Net::Http::Headers::CacheControlHeaderValue::get_Public)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2c6ed2c;
+  constexpr static std::size_t addrs = 0x2d6c62c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::CacheControlHeaderValue*>::get(),
@@ -391,7 +392,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::CacheControlHeaderValue::*)(bool)>(
     &::System::Net::Http::Headers::CacheControlHeaderValue::set_Public)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2c6ed34;
+  constexpr static std::size_t addrs = 0x2d6c634;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -406,7 +407,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<::System::TimeSpan> (::System::Net::Http::Headers::CacheControlHeaderValue::*)()>(
     &::System::Net::Http::Headers::CacheControlHeaderValue::get_SharedMaxAge)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2c6ed40;
+  constexpr static std::size_t addrs = 0x2d6c640;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::CacheControlHeaderValue*>::get(),
@@ -420,7 +421,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::CacheControlHeaderValue::*)(::System::Nullable_1<::System::TimeSpan>)>(
     &::System::Net::Http::Headers::CacheControlHeaderValue::set_SharedMaxAge)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2c6ed4c;
+  constexpr static std::size_t addrs = 0x2d6c64c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -435,7 +436,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Net::Http::Headers::CacheControlHeaderValue::*)()>(
     &::System::Net::Http::Headers::CacheControlHeaderValue::System_ICloneable_Clone)> {
   constexpr static std::size_t size = 0x568;
-  constexpr static std::size_t addrs = 0x2c6ed54;
+  constexpr static std::size_t addrs = 0x2d6c654;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::CacheControlHeaderValue*>::get(),
@@ -449,7 +450,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::Http::Headers::CacheControlHeaderValue::*)(::System::Object*)>(
     &::System::Net::Http::Headers::CacheControlHeaderValue::Equals)> {
   constexpr static std::size_t size = 0x384;
-  constexpr static std::size_t addrs = 0x2c6f2bc;
+  constexpr static std::size_t addrs = 0x2d6cbbc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -465,7 +466,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::Http::Headers::CacheControlHeaderValue::*)()>(
     &::System::Net::Http::Headers::CacheControlHeaderValue::GetHashCode)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x2c6f640;
+  constexpr static std::size_t addrs = 0x2d6cf40;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -481,7 +482,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<::System::Net::Http::Headers::CacheControlHeaderValue*>)>(
     &::System::Net::Http::Headers::CacheControlHeaderValue::TryParse)> {
   constexpr static std::size_t size = 0x8f4;
-  constexpr static std::size_t addrs = 0x2c6f8a0;
+  constexpr static std::size_t addrs = 0x2d6d1a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -497,7 +498,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::Http::Headers::CacheControlHeaderValue::*)()>(
     &::System::Net::Http::Headers::CacheControlHeaderValue::ToString)> {
   constexpr static std::size_t size = 0x6e0;
-  constexpr static std::size_t addrs = 0x2c7037c;
+  constexpr static std::size_t addrs = 0x2d6dc7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -513,7 +514,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::CacheControlHeaderValue::*)()>(
     &::System::Net::Http::Headers::CacheControlHeaderValue::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2c70194;
+  constexpr static std::size_t addrs = 0x2d6da94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::CacheControlHeaderValue*>::get(),

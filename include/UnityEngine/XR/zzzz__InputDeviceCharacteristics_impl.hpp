@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/XR/InputDeviceCharacteristics.hpp"
 #include "UnityEngine/XR/zzzz__InputDeviceCharacteristics_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::XR::InputDeviceCharacteristics::InputDeviceCharacteristics(uint32_t value__) noexcept {

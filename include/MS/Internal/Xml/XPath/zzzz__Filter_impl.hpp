@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "MS/Internal/Xml/XPath/Filter.hpp"
 #include "MS/Internal/Xml/XPath/zzzz__AstNode_impl.hpp"
 #include "MS/Internal/Xml/XPath/zzzz__Filter_def.hpp"
 #include "MS/Internal/Xml/XPath/zzzz__AstNode_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::MS::Internal::Xml::XPath::Filter::*)(::MS::Internal::Xml::XPath::AstNode*, ::MS::Internal::Xml::XPath::AstNode*)>(&::MS::Internal::Xml::XPath::Filter::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2d6191c;
+  constexpr static std::size_t addrs = 0x2e5e21c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::MS::Internal::Xml::XPath::__AstNode__AstType (::MS::Internal::Xml::XPath::Filter::*)()>(
     &::MS::Internal::Xml::XPath::Filter::get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2d61948;
+  constexpr static std::size_t addrs = 0x2e5e248;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XPath::XPathResultType (::MS::Internal::Xml::XPath::Filter::*)()>(
     &::MS::Internal::Xml::XPath::Filter::get_ReturnType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2d61950;
+  constexpr static std::size_t addrs = 0x2e5e250;
 
   inline static ::MethodInfo const* methodInfo() {
 

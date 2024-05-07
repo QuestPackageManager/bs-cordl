@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UICharInfo.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/zzzz__UICharInfo_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"

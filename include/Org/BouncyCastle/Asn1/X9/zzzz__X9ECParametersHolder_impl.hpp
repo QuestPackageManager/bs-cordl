@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/X9/X9ECParametersHolder.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Asn1/X9/zzzz__X9ECParametersHolder_def.hpp"
 #include "Org/BouncyCastle/Asn1/X9/zzzz__X9ECParameters_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder::*)()>(
     &::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder::get_Parameters)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0xfcd640;
+  constexpr static std::size_t addrs = 0x10c0d64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*>::get(),
@@ -38,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder::*)()>(
     &::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xfcd914;
+  constexpr static std::size_t addrs = 0x10c1038;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*>::get(),

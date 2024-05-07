@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/LeafRangeNode.hpp"
 #include "System/Xml/Schema/zzzz__LeafNode_impl.hpp"
 #include "System/zzzz__Decimal_impl.hpp"
 #include "System/Xml/Schema/zzzz__LeafRangeNode_def.hpp"
@@ -13,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::LeafRangeNode::*)(::System::Decimal, ::System::Decimal)>(
     &::System::Xml::Schema::LeafRangeNode::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2dfbf10;
+  constexpr static std::size_t addrs = 0x2efa810;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::LeafRangeNode::*)(int32_t, ::System::Decimal, ::System::Decimal)>(
     &::System::Xml::Schema::LeafRangeNode::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x2dfbf58;
+  constexpr static std::size_t addrs = 0x2efa858;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (::System::Xml::Schema::LeafRangeNode::*)()>(&::System::Xml::Schema::LeafRangeNode::get_Max)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2dfbfa8;
+  constexpr static std::size_t addrs = 0x2efa8a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::LeafRangeNode*>::get(), "get_Max",
@@ -57,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (::System::Xml::Schema::LeafRangeNode::*)()>(&::System::Xml::Schema::LeafRangeNode::get_Min)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2dfbfb4;
+  constexpr static std::size_t addrs = 0x2efa8b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::LeafRangeNode*>::get(), "get_Min",
@@ -71,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::BitSet* (::System::Xml::Schema::LeafRangeNode::*)()>(
     &::System::Xml::Schema::LeafRangeNode::get_NextIteration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2dfbfc0;
+  constexpr static std::size_t addrs = 0x2efa8c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::LeafRangeNode*>::get(),
@@ -85,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::LeafRangeNode::*)(::System::Xml::Schema::BitSet*)>(
     &::System::Xml::Schema::LeafRangeNode::set_NextIteration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2dfbfc8;
+  constexpr static std::size_t addrs = 0x2efa8c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::LeafRangeNode::*)()>(&::System::Xml::Schema::LeafRangeNode::get_IsRangeNode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2dfbfd0;
+  constexpr static std::size_t addrs = 0x2efa8d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -114,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::LeafRangeNode::*)(
     ::System::Xml::Schema::InteriorNode*, ::System::Xml::Schema::SymbolsDictionary*, ::System::Xml::Schema::Positions*)>(&::System::Xml::Schema::LeafRangeNode::ExpandTree)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x2dfbfd8;
+  constexpr static std::size_t addrs = 0x2efa8d8;
 
   inline static ::MethodInfo const* methodInfo() {
 

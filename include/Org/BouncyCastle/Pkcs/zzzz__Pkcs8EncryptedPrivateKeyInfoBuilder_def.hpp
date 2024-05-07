@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Pkcs/Pkcs8EncryptedPrivateKeyInfoBuilder.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,7 +33,7 @@ public:
   /// @brief Field privateKeyInfo, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_privateKeyInfo, put = __cordl_internal_set_privateKeyInfo))::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* privateKeyInfo;
 
-  /// @brief Method Build, addr 0x1256f18, size 0x400, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x134863c, size 0x400, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfo* Build(::Org::BouncyCastle::Crypto::ICipherBuilder* encryptor);
 
   static inline ::Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfoBuilder* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> privateKeyInfo);
@@ -45,10 +46,10 @@ public:
 
   constexpr void __cordl_internal_set_privateKeyInfo(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* value);
 
-  /// @brief Method .ctor, addr 0x1256eb8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13485dc, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> privateKeyInfo);
 
-  /// @brief Method .ctor, addr 0x1256ef0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1348614, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* privateKeyInfo);
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MissionObjectiveResult.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionObjectiveResult_def.hpp"
 #include "GlobalNamespace/zzzz__MissionObjective_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MissionObjective* (::GlobalNamespace::MissionObjectiveResult::*)()>(
     &::GlobalNamespace::MissionObjectiveResult::get_missionObjective)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x13d7484;
+  constexpr static std::size_t addrs = 0x14ca834;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionObjectiveResult*>::get(),
@@ -22,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionObjectiveResult::*)(::GlobalNamespace::MissionObjective*)>(
     &::GlobalNamespace::MissionObjectiveResult::set_missionObjective)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x13d748c;
+  constexpr static std::size_t addrs = 0x14ca83c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -36,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MissionObjectiveResult::*)()>(&::GlobalNamespace::MissionObjectiveResult::get_cleared)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x13d7494;
+  constexpr static std::size_t addrs = 0x14ca844;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionObjectiveResult*>::get(), "get_cleared",
@@ -49,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionObjectiveResult::*)(bool)>(&::GlobalNamespace::MissionObjectiveResult::set_cleared)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x13d749c;
+  constexpr static std::size_t addrs = 0x14ca84c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -63,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::MissionObjectiveResult::*)()>(&::GlobalNamespace::MissionObjectiveResult::get_value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x13d74a8;
+  constexpr static std::size_t addrs = 0x14ca858;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionObjectiveResult*>::get(), "get_value",
@@ -77,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionObjectiveResult::*)(int32_t)>(
     &::GlobalNamespace::MissionObjectiveResult::set_value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x13d74b0;
+  constexpr static std::size_t addrs = 0x14ca860;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -92,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionObjectiveResult::*)(::GlobalNamespace::MissionObjective*, bool, int32_t)>(
     &::GlobalNamespace::MissionObjectiveResult::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x13d74b8;
+  constexpr static std::size_t addrs = 0x14ca868;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

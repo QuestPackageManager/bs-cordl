@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/TextCore/Text/SpriteCharacter.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,10 +43,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3298020, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x349fd5c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_name, addr 0x3298018, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x349fd54, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
 protected:

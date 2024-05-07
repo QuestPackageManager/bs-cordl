@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Bindings/PreventReadOnlyInstanceModificationAttribute.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,7 +21,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Bindings::PreventReadOnlyInstanceModificationAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3267204, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x346ff40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

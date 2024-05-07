@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatmapDataLoaderVersion4/LightColorBaseDataConverter.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,7 +26,7 @@ namespace BeatmapDataLoaderVersion4 {
 class CORDL_TYPE LightColorBaseDataConverter : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Convert, addr 0x14055f0, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x14f7bb0, size 0xe4, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::LightColorBaseData* Convert(float_t beat, ::BeatmapSaveDataVersion4::LightColorEvent lightColorEvent);
 
 protected:

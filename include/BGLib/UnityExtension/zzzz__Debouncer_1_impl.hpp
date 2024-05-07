@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BGLib/UnityExtension/Debouncer_1.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BGLib/UnityExtension/zzzz__Debouncer_1_def.hpp"
 #include "System/Collections/Generic/zzzz__Queue_1_def.hpp"

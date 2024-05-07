@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatSaber/RecPlay/PoseFrame.hpp"
 #include "UnityEngine/zzzz__Pose_impl.hpp"
 #include "BeatSaber/RecPlay/zzzz__PoseFrame_def.hpp"
 #include "UnityEngine/zzzz__Pose_def.hpp"

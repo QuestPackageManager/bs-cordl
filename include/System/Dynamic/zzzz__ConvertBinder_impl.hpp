@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Dynamic/ConvertBinder.hpp"
 #include "System/Dynamic/zzzz__DynamicMetaObjectBinder_impl.hpp"
 #include "System/Dynamic/zzzz__ConvertBinder_def.hpp"
 #include "System/Dynamic/zzzz__DynamicMetaObject_def.hpp"
@@ -8,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Dynamic::ConvertBinder::*)()>(&::System::Dynamic::ConvertBinder::get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b50a40;
+  constexpr static std::size_t addrs = 0x2c4d340;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ConvertBinder*>::get(), "get_Type",
@@ -22,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Dynamic::DynamicMetaObject* (::System::Dynamic::ConvertBinder::*)(::System::Dynamic::DynamicMetaObject*)>(
     &::System::Dynamic::ConvertBinder::FallbackConvert)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2b50a48;
+  constexpr static std::size_t addrs = 0x2c4d348;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +54,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Dynamic::ConvertBinder::*)(::System::Dynamic::DynamicMetaObject*, ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*>)>(
     &::System::Dynamic::ConvertBinder::Bind)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2b50a58;
+  constexpr static std::size_t addrs = 0x2c4d358;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

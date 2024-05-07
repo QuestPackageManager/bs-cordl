@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Globalization/CodePageDataItem.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Globalization/zzzz__CodePageDataItem_def.hpp"
 //  Writing Method size for method: ::System::Globalization::CodePageDataItem._ctor
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Globalization::CodePageDataItem::*)(int32_t)>(&::System::Globalization::CodePageDataItem::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x27f0df4;
+  constexpr static std::size_t addrs = 0x28f0514;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -20,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, uint32_t)>(&::System::Globalization::CodePageDataItem::CreateString)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x27f0e98;
+  constexpr static std::size_t addrs = 0x28f05b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -35,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Globalization::CodePageDataItem::*)()>(
     &::System::Globalization::CodePageDataItem::get_WebName)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x27f0f4c;
+  constexpr static std::size_t addrs = 0x28f066c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::CodePageDataItem*>::get(), "get_WebName",

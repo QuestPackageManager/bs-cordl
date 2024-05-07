@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Cms/MetaData.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__MetaData_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__Attributes_def.hpp"
@@ -15,7 +16,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Asn1::DerBoolean*, ::Org::BouncyCastle::Asn1::DerUtf8String*, ::Org::BouncyCastle::Asn1::DerIA5String*, ::Org::BouncyCastle::Asn1::Cms::Attributes*)>(
     &::Org::BouncyCastle::Asn1::Cms::MetaData::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0xfe5714;
+  constexpr static std::size_t addrs = 0x10d8e38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::MetaData::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Cms::MetaData::_ctor)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0xfe5754;
+  constexpr static std::size_t addrs = 0x10d8e78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cms::MetaData* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Cms::MetaData::GetInstance)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0xfe5968;
+  constexpr static std::size_t addrs = 0x10d908c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Cms::MetaData::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::MetaData::ToAsn1Object)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0xfe5a0c;
+  constexpr static std::size_t addrs = 0x10d9130;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -78,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Asn1::Cms::MetaData::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::MetaData::get_IsHashProtected)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0xfe5bac;
+  constexpr static std::size_t addrs = 0x10d92d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -93,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerUtf8String* (::Org::BouncyCastle::Asn1::Cms::MetaData::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::MetaData::get_FileName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xfe5bc8;
+  constexpr static std::size_t addrs = 0x10d92ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -108,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerIA5String* (::Org::BouncyCastle::Asn1::Cms::MetaData::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::MetaData::get_MediaType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xfe5bd0;
+  constexpr static std::size_t addrs = 0x10d92f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -123,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cms::Attributes* (::Org::BouncyCastle::Asn1::Cms::MetaData::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::MetaData::get_OtherMetaData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xfe5bd8;
+  constexpr static std::size_t addrs = 0x10d92fc;
 
   inline static ::MethodInfo const* methodInfo() {
 

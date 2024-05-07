@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/EventSystems/ICancelHandler.hpp"
 #include "UnityEngine/EventSystems/zzzz__ICancelHandler_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__BaseEventData_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"

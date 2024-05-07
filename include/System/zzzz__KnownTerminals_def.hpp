@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/KnownTerminals.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,13 +21,13 @@ namespace System {
 class CORDL_TYPE KnownTerminals : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_ansi, addr 0x28809fc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_ansi, addr 0x29802ac, size 0x70, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_ansi();
 
-  /// @brief Method get_linux, addr 0x288091c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_linux, addr 0x29801cc, size 0x70, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_linux();
 
-  /// @brief Method get_xterm, addr 0x288098c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_xterm, addr 0x298023c, size 0x70, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_xterm();
 
 protected:

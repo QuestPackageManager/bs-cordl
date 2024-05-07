@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/DataTableTypeConverter.hpp"
 #include "System/ComponentModel/zzzz__ReferenceConverter_impl.hpp"
 #include "System/Data/zzzz__DataTableTypeConverter_def.hpp"
 #include "System/ComponentModel/zzzz__ITypeDescriptorContext_def.hpp"
@@ -7,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataTableTypeConverter::*)()>(&::System::Data::DataTableTypeConverter::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x2bbc158;
+  constexpr static std::size_t addrs = 0x2cb9a58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataTableTypeConverter*>::get(), ".ctor",
@@ -21,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::DataTableTypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*)>(
     &::System::Data::DataTableTypeConverter::GetPropertiesSupported)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2bbc20c;
+  constexpr static std::size_t addrs = 0x2cb9b0c;
 
   inline static ::MethodInfo const* methodInfo() {
 

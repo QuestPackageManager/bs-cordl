@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UI/IMask.hpp"
 #include "UnityEngine/UI/zzzz__IMask_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UI::IMask.Enabled

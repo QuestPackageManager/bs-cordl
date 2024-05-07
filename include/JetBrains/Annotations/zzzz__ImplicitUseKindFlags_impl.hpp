@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "JetBrains/Annotations/ImplicitUseKindFlags.hpp"
 #include "JetBrains/Annotations/zzzz__ImplicitUseKindFlags_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::JetBrains::Annotations::ImplicitUseKindFlags::ImplicitUseKindFlags(int32_t value__) noexcept {

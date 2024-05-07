@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/ShaderInfoStorageRGBAFloat.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__ShaderInfoStorage_1_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
@@ -12,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::__ShaderInfoStorageRGBAFloat____c::*)()>(
     &::UnityEngine::UIElements::UIR::__ShaderInfoStorageRGBAFloat____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33daa34;
+  constexpr static std::size_t addrs = 0x35e0770;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::UnityEngine::UIElements::UIR::__ShaderInfoStorageRGBAFloat____c::*)(::UnityEngine::Color)>(
     &::UnityEngine::UIElements::UIR::__ShaderInfoStorageRGBAFloat____c::__cctor_b__2_0)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x33daa3c;
+  constexpr static std::size_t addrs = 0x35e0778;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -68,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::ShaderInfoStorageRGBAFloat::*)(int32_t, int32_t)>(
     &::UnityEngine::UIElements::UIR::ShaderInfoStorageRGBAFloat::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x33d8428;
+  constexpr static std::size_t addrs = 0x35de164;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

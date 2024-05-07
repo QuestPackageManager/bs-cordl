@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SplineUtils.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,7 +23,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE SplineUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Interpolate, addr 0x25c150c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Interpolate, addr 0x26c030c, size 0x110, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 Interpolate(::UnityEngine::Vector3 t0, ::UnityEngine::Vector3 p0, ::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 t1, float_t f);
 
 protected:

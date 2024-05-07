@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MaterialPropertyBlockPositionUpdater.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,7 +27,7 @@ public:
 
   static inline ::GlobalNamespace::MaterialPropertyBlockPositionUpdater* New_ctor();
 
-  /// @brief Method SetProperty, addr 0x23ff410, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method SetProperty, addr 0x24f709c, size 0xb4, virtual true, abstract: false, final false
   inline void SetProperty();
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__targetTransform() const;
@@ -35,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set__targetTransform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x23ff4c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f7150, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

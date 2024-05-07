@@ -1,11 +1,12 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HAPI_BoxInfo.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_BoxInfo_def.hpp"
 //  Writing Method size for method: ::HoudiniEngineUnity::HAPI_BoxInfo._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HAPI_BoxInfo::*)(bool)>(&::HoudiniEngineUnity::HAPI_BoxInfo::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x247c11c;
+  constexpr static std::size_t addrs = 0x2576da8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

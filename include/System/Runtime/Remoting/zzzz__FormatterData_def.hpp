@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/FormatterData.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,7 +21,7 @@ public:
   // Declarations
   static inline ::System::Runtime::Remoting::FormatterData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2711148, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x280f544, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

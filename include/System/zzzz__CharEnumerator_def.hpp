@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/CharEnumerator.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,23 +61,23 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Clone, addr 0x27a0fb4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Clone, addr 0x28a06d4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* Clone();
 
-  /// @brief Method Dispose, addr 0x27a1010, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x28a0730, size 0x18, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method MoveNext, addr 0x27a0fbc, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x28a06dc, size 0x54, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::System::CharEnumerator* New_ctor();
 
   static inline ::System::CharEnumerator* New_ctor(::StringW str);
 
-  /// @brief Method Reset, addr 0x27a1130, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x28a0850, size 0x10, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x27a1028, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x28a0748, size 0x64, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   constexpr char16_t const& __cordl_internal_get__currentElement() const;
@@ -97,13 +98,13 @@ public:
 
   constexpr void __cordl_internal_set__str(::StringW value);
 
-  /// @brief Method .ctor, addr 0x27a1140, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28a0860, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x27a0f84, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28a06a4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW str);
 
-  /// @brief Method get_Current, addr 0x27a108c, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x28a07ac, size 0xa4, virtual true, abstract: false, final true
   inline char16_t get_Current();
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<char16_t>"

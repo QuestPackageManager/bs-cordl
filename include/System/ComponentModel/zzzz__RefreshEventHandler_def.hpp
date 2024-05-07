@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ComponentModel/RefreshEventHandler.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,12 +26,12 @@ namespace System::ComponentModel {
 class CORDL_TYPE RefreshEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2e492d8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2f47bd8, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::ComponentModel::RefreshEventArgs* e);
 
   static inline ::System::ComponentModel::RefreshEventHandler* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2e491ac, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f47aac, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:

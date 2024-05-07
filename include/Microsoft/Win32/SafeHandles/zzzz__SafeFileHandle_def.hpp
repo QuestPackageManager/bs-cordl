@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Microsoft/Win32/SafeHandles/SafeFileHandle.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,10 +22,10 @@ public:
   // Declarations
   static inline ::Microsoft::Win32::SafeHandles::SafeFileHandle* New_ctor(void* preexistingHandle, bool ownsHandle);
 
-  /// @brief Method ReleaseHandle, addr 0x26acfe8, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method ReleaseHandle, addr 0x27ab3e4, size 0x7c, virtual true, abstract: false, final false
   inline bool ReleaseHandle();
 
-  /// @brief Method .ctor, addr 0x26acf5c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27ab358, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(void* preexistingHandle, bool ownsHandle);
 
 protected:

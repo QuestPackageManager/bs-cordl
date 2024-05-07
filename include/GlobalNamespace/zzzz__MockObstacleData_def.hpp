@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MockObstacleData.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -81,37 +82,37 @@ public:
 
   constexpr void __cordl_internal_set__width_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2665c8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2765084, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_duration, addr 0x2665c6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_duration, addr 0x2765064, size 0x8, virtual false, abstract: false, final false
   inline float_t get_duration();
 
-  /// @brief Method get_lineIndex, addr 0x2665c4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lineIndex, addr 0x2765044, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_lineIndex();
 
-  /// @brief Method get_lineLayer, addr 0x2665c5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lineLayer, addr 0x2765054, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::NoteLineLayer get_lineLayer();
 
-  /// @brief Method get_time, addr 0x2665c3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_time, addr 0x2765034, size 0x8, virtual false, abstract: false, final false
   inline float_t get_time();
 
-  /// @brief Method get_width, addr 0x2665c7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_width, addr 0x2765074, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_width();
 
-  /// @brief Method set_duration, addr 0x2665c74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_duration, addr 0x276506c, size 0x8, virtual false, abstract: false, final false
   inline void set_duration(float_t value);
 
-  /// @brief Method set_lineIndex, addr 0x2665c54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lineIndex, addr 0x276504c, size 0x8, virtual false, abstract: false, final false
   inline void set_lineIndex(int32_t value);
 
-  /// @brief Method set_lineLayer, addr 0x2665c64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lineLayer, addr 0x276505c, size 0x8, virtual false, abstract: false, final false
   inline void set_lineLayer(::GlobalNamespace::NoteLineLayer value);
 
-  /// @brief Method set_time, addr 0x2665c44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_time, addr 0x276503c, size 0x8, virtual false, abstract: false, final false
   inline void set_time(float_t value);
 
-  /// @brief Method set_width, addr 0x2665c84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_width, addr 0x276507c, size 0x8, virtual false, abstract: false, final false
   inline void set_width(int32_t value);
 
 protected:

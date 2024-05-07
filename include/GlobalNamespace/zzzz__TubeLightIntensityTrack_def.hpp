@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/TubeLightIntensityTrack.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,7 +21,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::TubeLightIntensityTrack* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25a4148, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x269e00c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

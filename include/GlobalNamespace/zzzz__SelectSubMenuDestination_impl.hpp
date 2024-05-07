@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SelectSubMenuDestination.hpp"
 #include "GlobalNamespace/zzzz__MenuDestination_impl.hpp"
 #include "GlobalNamespace/zzzz__SelectSubMenuDestination_impl.hpp"
 #include "GlobalNamespace/zzzz__SelectSubMenuDestination_def.hpp"
@@ -22,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SelectSubMenuDestination::*)(::GlobalNamespace::__SelectSubMenuDestination__Destination)>(
     &::GlobalNamespace::SelectSubMenuDestination::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x13a76dc;
+  constexpr static std::size_t addrs = 0x149cdb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

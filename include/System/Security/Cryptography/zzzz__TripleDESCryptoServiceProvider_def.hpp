@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Cryptography/TripleDESCryptoServiceProvider.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,21 +24,21 @@ namespace System::Security::Cryptography {
 class CORDL_TYPE TripleDESCryptoServiceProvider : public ::System::Security::Cryptography::TripleDES {
 public:
   // Declarations
-  /// @brief Method CreateDecryptor, addr 0x26ef244, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method CreateDecryptor, addr 0x27ec640, size 0x118, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::ICryptoTransform* CreateDecryptor(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbIV);
 
-  /// @brief Method CreateEncryptor, addr 0x26ef12c, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method CreateEncryptor, addr 0x27ec528, size 0x118, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::ICryptoTransform* CreateEncryptor(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbIV);
 
-  /// @brief Method GenerateIV, addr 0x26ef4c8, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method GenerateIV, addr 0x27ec8c4, size 0x68, virtual true, abstract: false, final false
   inline void GenerateIV();
 
-  /// @brief Method GenerateKey, addr 0x26ef35c, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method GenerateKey, addr 0x27ec758, size 0xc8, virtual true, abstract: false, final false
   inline void GenerateKey();
 
   static inline ::System::Security::Cryptography::TripleDESCryptoServiceProvider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26eece8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27ec0e4, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

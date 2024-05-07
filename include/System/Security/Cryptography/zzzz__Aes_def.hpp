@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Cryptography/Aes.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,7 +33,7 @@ public:
 
   static inline ::System::Security::Cryptography::Aes* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26df5a8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27dc9a4, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> getStaticF_s_legalBlockSizes();

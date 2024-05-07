@@ -1,11 +1,12 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/WheelFrictionCurve.hpp"
 #include "UnityEngine/zzzz__WheelFrictionCurve_def.hpp"
 //  Writing Method size for method: ::UnityEngine::WheelFrictionCurve.get_extremumSlip
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::WheelFrictionCurve::*)()>(&::UnityEngine::WheelFrictionCurve::get_extremumSlip)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32665bc;
+  constexpr static std::size_t addrs = 0x346f2f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::WheelFrictionCurve>::get(), "get_extremumSlip",
@@ -18,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::WheelFrictionCurve::*)(float_t)>(&::UnityEngine::WheelFrictionCurve::set_extremumSlip)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32665c4;
+  constexpr static std::size_t addrs = 0x346f300;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -32,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::WheelFrictionCurve::*)()>(&::UnityEngine::WheelFrictionCurve::get_extremumValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32665cc;
+  constexpr static std::size_t addrs = 0x346f308;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::WheelFrictionCurve>::get(), "get_extremumValue",
@@ -45,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::WheelFrictionCurve::*)(float_t)>(&::UnityEngine::WheelFrictionCurve::set_extremumValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32665d4;
+  constexpr static std::size_t addrs = 0x346f310;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::WheelFrictionCurve::*)()>(&::UnityEngine::WheelFrictionCurve::get_asymptoteSlip)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32665dc;
+  constexpr static std::size_t addrs = 0x346f318;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::WheelFrictionCurve>::get(), "get_asymptoteSlip",
@@ -72,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::WheelFrictionCurve::*)(float_t)>(&::UnityEngine::WheelFrictionCurve::set_asymptoteSlip)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32665e4;
+  constexpr static std::size_t addrs = 0x346f320;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::WheelFrictionCurve::*)()>(&::UnityEngine::WheelFrictionCurve::get_asymptoteValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32665ec;
+  constexpr static std::size_t addrs = 0x346f328;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::WheelFrictionCurve>::get(), "get_asymptoteValue",
@@ -99,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::WheelFrictionCurve::*)(float_t)>(&::UnityEngine::WheelFrictionCurve::set_asymptoteValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32665f4;
+  constexpr static std::size_t addrs = 0x346f330;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -113,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::WheelFrictionCurve::*)()>(&::UnityEngine::WheelFrictionCurve::get_stiffness)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32665fc;
+  constexpr static std::size_t addrs = 0x346f338;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::WheelFrictionCurve>::get(), "get_stiffness",
@@ -126,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::WheelFrictionCurve::*)(float_t)>(&::UnityEngine::WheelFrictionCurve::set_stiffness)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3266604;
+  constexpr static std::size_t addrs = 0x346f340;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

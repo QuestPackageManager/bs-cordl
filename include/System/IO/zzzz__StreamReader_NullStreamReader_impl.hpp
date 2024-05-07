@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/IO/StreamReader_NullStreamReader.hpp"
 #include "System/IO/zzzz__StreamReader_impl.hpp"
 #include "System/IO/zzzz__StreamReader_NullStreamReader_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
@@ -8,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::__StreamReader__NullStreamReader::*)()>(&::System::IO::__StreamReader__NullStreamReader::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x2782d04;
+  constexpr static std::size_t addrs = 0x2882424;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::__StreamReader__NullStreamReader*>::get(), ".ctor",
@@ -22,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (::System::IO::__StreamReader__NullStreamReader::*)()>(
     &::System::IO::__StreamReader__NullStreamReader::get_BaseStream)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2782d98;
+  constexpr static std::size_t addrs = 0x28824b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -38,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::Encoding* (::System::IO::__StreamReader__NullStreamReader::*)()>(
     &::System::IO::__StreamReader__NullStreamReader::get_CurrentEncoding)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2782df0;
+  constexpr static std::size_t addrs = 0x2882510;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -54,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::__StreamReader__NullStreamReader::*)(bool)>(
     &::System::IO::__StreamReader__NullStreamReader::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2782df8;
+  constexpr static std::size_t addrs = 0x2882518;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -70,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::IO::__StreamReader__NullStreamReader::*)()>(
     &::System::IO::__StreamReader__NullStreamReader::Peek)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2782dfc;
+  constexpr static std::size_t addrs = 0x288251c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -86,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::IO::__StreamReader__NullStreamReader::*)()>(
     &::System::IO::__StreamReader__NullStreamReader::Read)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2782e04;
+  constexpr static std::size_t addrs = 0x2882524;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -102,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<int32_t (::System::IO::__StreamReader__NullStreamReader::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(&::System::IO::__StreamReader__NullStreamReader::Read)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2782e0c;
+  constexpr static std::size_t addrs = 0x288252c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -118,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::IO::__StreamReader__NullStreamReader::*)()>(
     &::System::IO::__StreamReader__NullStreamReader::ReadLine)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2782e14;
+  constexpr static std::size_t addrs = 0x2882534;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -134,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::IO::__StreamReader__NullStreamReader::*)()>(
     &::System::IO::__StreamReader__NullStreamReader::ReadToEnd)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2782e1c;
+  constexpr static std::size_t addrs = 0x288253c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -150,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::IO::__StreamReader__NullStreamReader::*)()>(
     &::System::IO::__StreamReader__NullStreamReader::ReadBuffer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2782e64;
+  constexpr static std::size_t addrs = 0x2882584;
 
   inline static ::MethodInfo const* methodInfo() {
 

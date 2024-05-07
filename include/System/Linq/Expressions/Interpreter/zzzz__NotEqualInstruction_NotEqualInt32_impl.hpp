@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/NotEqualInstruction_NotEqualInt32.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__NotEqualInstruction_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__NotEqualInstruction_NotEqualInt32_def.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__InterpretedFrame_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::__NotEqualInstruction__NotEqualInt32::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::System::Linq::Expressions::Interpreter::__NotEqualInstruction__NotEqualInt32::Run)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x2b44898;
+  constexpr static std::size_t addrs = 0x2c41198;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::__NotEqualInstruction__NotEqualInt32::*)()>(
     &::System::Linq::Expressions::Interpreter::__NotEqualInstruction__NotEqualInt32::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b444c0;
+  constexpr static std::size_t addrs = 0x2c40dc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

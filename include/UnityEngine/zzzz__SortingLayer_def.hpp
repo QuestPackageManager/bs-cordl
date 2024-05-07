@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/SortingLayer.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,7 +20,7 @@ namespace UnityEngine {
 struct CORDL_TYPE SortingLayer {
 public:
   // Declarations
-  /// @brief Method GetLayerValueFromID, addr 0x3215648, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetLayerValueFromID, addr 0x341c384, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetLayerValueFromID(int32_t id);
 
   // Ctor Parameters []

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/EChaperoneConfigFile.hpp"
 #include "OVR/OpenVR/zzzz__EChaperoneConfigFile_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::OVR::OpenVR::EChaperoneConfigFile::EChaperoneConfigFile(int32_t value__) noexcept {

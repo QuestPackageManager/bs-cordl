@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IMissionNodesManager.hpp"
 #include "GlobalNamespace/zzzz__IMissionNodesManager_def.hpp"
 #include "GlobalNamespace/zzzz__IMissionNode_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"

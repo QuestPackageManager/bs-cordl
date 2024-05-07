@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Rendering/CoreCameraValues.hpp"
 #include "UnityEngine/Rendering/zzzz__CoreCameraValues_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::CoreCameraValues::*)(::UnityEngine::Rendering::CoreCameraValues)>(
     &::UnityEngine::Rendering::CoreCameraValues::Equals)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3225c2c;
+  constexpr static std::size_t addrs = 0x342d968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::CoreCameraValues::*)(::System::Object*)>(
     &::UnityEngine::Rendering::CoreCameraValues::Equals)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3225c60;
+  constexpr static std::size_t addrs = 0x342d99c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -38,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::CoreCameraValues::*)()>(
     &::UnityEngine::Rendering::CoreCameraValues::GetHashCode)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3225cf8;
+  constexpr static std::size_t addrs = 0x342da34;
 
   inline static ::MethodInfo const* methodInfo() {
 

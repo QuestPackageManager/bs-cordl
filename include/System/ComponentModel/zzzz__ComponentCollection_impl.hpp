@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ComponentModel/ComponentCollection.hpp"
 #include "System/Collections/zzzz__ReadOnlyCollectionBase_impl.hpp"
 #include "System/ComponentModel/zzzz__ComponentCollection_def.hpp"
 #include "System/ComponentModel/zzzz__IComponent_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::IComponent* (::System::ComponentModel::ComponentCollection::*)(::StringW)>(
     &::System::ComponentModel::ComponentCollection::get_Item)> {
   constexpr static std::size_t size = 0x588;
-  constexpr static std::size_t addrs = 0x2e3373c;
+  constexpr static std::size_t addrs = 0x2f3203c;
 
   inline static ::MethodInfo const* methodInfo() {
 

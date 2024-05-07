@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/Vector2Extensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__Vector2Extensions_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::Vector2, ::UnityEngine::Vector2)>(
     &::GlobalNamespace::Vector2Extensions::SignedAngleToLine)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0xf91adc;
+  constexpr static std::size_t addrs = 0x1086200;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

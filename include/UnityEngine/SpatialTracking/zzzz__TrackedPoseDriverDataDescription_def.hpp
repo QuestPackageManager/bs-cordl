@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/SpatialTracking/TrackedPoseDriverDataDescription.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -77,7 +78,7 @@ public:
 
   static inline ::UnityEngine::SpatialTracking::TrackedPoseDriverDataDescription* New_ctor();
 
-  /// @brief Method .ctor, addr 0x326720c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x346ff48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::SpatialTracking::__TrackedPoseDriverDataDescription__PoseData>* getStaticF_DeviceData();

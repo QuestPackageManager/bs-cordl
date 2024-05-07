@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaSubstitutionGroupV1Compat.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,10 +35,10 @@ public:
 
   constexpr void __cordl_internal_set_choice(::System::Xml::Schema::XmlSchemaChoice* value);
 
-  /// @brief Method .ctor, addr 0x2d21cec, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e1e5ec, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Choice, addr 0x2d21ce4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Choice, addr 0x2e1e5e4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaChoice* get_Choice();
 
 protected:

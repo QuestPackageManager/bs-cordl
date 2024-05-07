@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Http/Headers/TransferCodingWithQualityHeaderValue.hpp"
 #include "System/Net/Http/Headers/zzzz__TransferCodingHeaderValue_impl.hpp"
 #include "System/Net/Http/Headers/zzzz__TransferCodingWithQualityHeaderValue_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::TransferCodingWithQualityHeaderValue::*)()>(
     &::System::Net::Http::Headers::TransferCodingWithQualityHeaderValue::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2c7bd2c;
+  constexpr static std::size_t addrs = 0x2d7962c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +27,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::StringW, int32_t, ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::TransferCodingWithQualityHeaderValue*>*>)>(
         &::System::Net::Http::Headers::TransferCodingWithQualityHeaderValue::TryParse)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2c7bd34;
+  constexpr static std::size_t addrs = 0x2d79634;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -45,7 +46,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::System::Net::Http::Headers::Lexer*, ByRef<::System::Net::Http::Headers::TransferCodingWithQualityHeaderValue*>, ByRef<::System::Net::Http::Headers::Token>)>(
         &::System::Net::Http::Headers::TransferCodingWithQualityHeaderValue::TryParseElement)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x2c7bde4;
+  constexpr static std::size_t addrs = 0x2d796e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

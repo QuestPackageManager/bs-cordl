@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BeatmapSaveDataHelpers.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,10 +62,10 @@ public:
 
   constexpr void __cordl_internal_set_version(::StringW value);
 
-  /// @brief Method .ctor, addr 0x13fcbf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14ef2c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_v, addr 0x13fc998, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_v, addr 0x14ef060, size 0x30, virtual false, abstract: false, final false
   inline ::StringW get_v();
 
 protected:
@@ -110,7 +111,7 @@ public:
 
   static inline ::GlobalNamespace::__BeatmapSaveDataHelpers____c__DisplayClass6_0* New_ctor();
 
-  /// @brief Method <GetVersionAsync>b__0, addr 0x13fcc00, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <GetVersionAsync>b__0, addr 0x14ef2c8, size 0x58, virtual false, abstract: false, final false
   inline ::System::Version* _GetVersionAsync_b__0();
 
   constexpr ::StringW const& __cordl_internal_get_data() const;
@@ -119,7 +120,7 @@ public:
 
   constexpr void __cordl_internal_set_data(::StringW value);
 
-  /// @brief Method .ctor, addr 0x13fcab8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14ef180, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -171,10 +172,10 @@ public:
   /// @brief Field version4, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_version4, put = setStaticF_version4))::System::Version* version4;
 
-  /// @brief Method GetVersion, addr 0x13fc594, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method GetVersion, addr 0x14eec5c, size 0x228, virtual false, abstract: false, final false
   static inline ::System::Version* GetVersion(::StringW data);
 
-  /// @brief Method GetVersionAsync, addr 0x13fc9c8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetVersionAsync, addr 0x14ef090, size 0xf0, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::System::Version*>* GetVersionAsync(::StringW data);
 
   static inline ::System::Version* getStaticF_noVersion();

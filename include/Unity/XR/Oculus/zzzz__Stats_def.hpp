@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/XR/Oculus/Stats.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,34 +46,34 @@ namespace Unity::XR::Oculus {
 class CORDL_TYPE __Stats__AdaptivePerformance : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_AdaptivePerformanceScale, addr 0x31a7e08, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_AdaptivePerformanceScale, addr 0x33ad890, size 0x7c, virtual false, abstract: false, final false
   static inline float_t get_AdaptivePerformanceScale();
 
-  /// @brief Method get_BatteryLevel, addr 0x31a7d08, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_BatteryLevel, addr 0x33ad790, size 0x7c, virtual false, abstract: false, final false
   static inline float_t get_BatteryLevel();
 
-  /// @brief Method get_BatteryTemp, addr 0x31a7c8c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_BatteryTemp, addr 0x33ad714, size 0x7c, virtual false, abstract: false, final false
   static inline float_t get_BatteryTemp();
 
-  /// @brief Method get_CPULevel, addr 0x31a7e84, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_CPULevel, addr 0x33ad90c, size 0x94, virtual false, abstract: false, final false
   static inline int32_t get_CPULevel();
 
-  /// @brief Method get_GPUAppTime, addr 0x31a79cc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method get_GPUAppTime, addr 0x33ad454, size 0xb0, virtual false, abstract: false, final false
   static inline float_t get_GPUAppTime();
 
-  /// @brief Method get_GPUCompositorTime, addr 0x31a7a7c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method get_GPUCompositorTime, addr 0x33ad504, size 0xb0, virtual false, abstract: false, final false
   static inline float_t get_GPUCompositorTime();
 
-  /// @brief Method get_GPULevel, addr 0x31a7f18, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_GPULevel, addr 0x33ad9a0, size 0x94, virtual false, abstract: false, final false
   static inline int32_t get_GPULevel();
 
-  /// @brief Method get_MotionToPhoton, addr 0x31a7b2c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method get_MotionToPhoton, addr 0x33ad5b4, size 0xb0, virtual false, abstract: false, final false
   static inline float_t get_MotionToPhoton();
 
-  /// @brief Method get_PowerSavingMode, addr 0x31a7d84, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_PowerSavingMode, addr 0x33ad80c, size 0x84, virtual false, abstract: false, final false
   static inline bool get_PowerSavingMode();
 
-  /// @brief Method get_RefreshRate, addr 0x31a7bdc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method get_RefreshRate, addr 0x33ad664, size 0xb0, virtual false, abstract: false, final false
   static inline float_t get_RefreshRate();
 
 protected:
@@ -103,34 +104,34 @@ namespace Unity::XR::Oculus {
 class CORDL_TYPE __Stats__PerfMetrics : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method EnablePerfMetrics, addr 0x31a8408, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method EnablePerfMetrics, addr 0x33ade90, size 0x8, virtual false, abstract: false, final false
   static inline void EnablePerfMetrics(bool enable);
 
-  /// @brief Method get_AppCPUTime, addr 0x31a7fac, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_AppCPUTime, addr 0x33ada34, size 0x7c, virtual false, abstract: false, final false
   static inline float_t get_AppCPUTime();
 
-  /// @brief Method get_AppGPUTime, addr 0x31a8028, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_AppGPUTime, addr 0x33adab0, size 0x7c, virtual false, abstract: false, final false
   static inline float_t get_AppGPUTime();
 
-  /// @brief Method get_CPUClockFrequency, addr 0x31a8310, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_CPUClockFrequency, addr 0x33add98, size 0x7c, virtual false, abstract: false, final false
   static inline float_t get_CPUClockFrequency();
 
-  /// @brief Method get_CPUUtilizationAverage, addr 0x31a8218, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_CPUUtilizationAverage, addr 0x33adca0, size 0x7c, virtual false, abstract: false, final false
   static inline float_t get_CPUUtilizationAverage();
 
-  /// @brief Method get_CPUUtilizationWorst, addr 0x31a8294, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_CPUUtilizationWorst, addr 0x33add1c, size 0x7c, virtual false, abstract: false, final false
   static inline float_t get_CPUUtilizationWorst();
 
-  /// @brief Method get_CompositorCPUTime, addr 0x31a80a4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_CompositorCPUTime, addr 0x33adb2c, size 0x7c, virtual false, abstract: false, final false
   static inline float_t get_CompositorCPUTime();
 
-  /// @brief Method get_CompositorGPUTime, addr 0x31a8120, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_CompositorGPUTime, addr 0x33adba8, size 0x7c, virtual false, abstract: false, final false
   static inline float_t get_CompositorGPUTime();
 
-  /// @brief Method get_GPUClockFrequency, addr 0x31a838c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_GPUClockFrequency, addr 0x33ade14, size 0x7c, virtual false, abstract: false, final false
   static inline float_t get_GPUClockFrequency();
 
-  /// @brief Method get_GPUUtilization, addr 0x31a819c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_GPUUtilization, addr 0x33adc24, size 0x7c, virtual false, abstract: false, final false
   static inline float_t get_GPUUtilization();
 
 protected:
@@ -161,28 +162,28 @@ namespace Unity::XR::Oculus {
 class CORDL_TYPE __Stats__AppMetrics : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method EnableAppMetrics, addr 0x31a877c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method EnableAppMetrics, addr 0x33ae204, size 0x8, virtual false, abstract: false, final false
   static inline void EnableAppMetrics(bool enable);
 
-  /// @brief Method get_AppCPUElapsedTime, addr 0x31a8494, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_AppCPUElapsedTime, addr 0x33adf1c, size 0x7c, virtual false, abstract: false, final false
   static inline float_t get_AppCPUElapsedTime();
 
-  /// @brief Method get_AppQueueAheadTime, addr 0x31a8418, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_AppQueueAheadTime, addr 0x33adea0, size 0x7c, virtual false, abstract: false, final false
   static inline float_t get_AppQueueAheadTime();
 
-  /// @brief Method get_CPUStartToGPUEnd, addr 0x31a8684, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_CPUStartToGPUEnd, addr 0x33ae10c, size 0x7c, virtual false, abstract: false, final false
   static inline float_t get_CPUStartToGPUEnd();
 
-  /// @brief Method get_CompositorCPUTime, addr 0x31a8608, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_CompositorCPUTime, addr 0x33ae090, size 0x7c, virtual false, abstract: false, final false
   static inline float_t get_CompositorCPUTime();
 
-  /// @brief Method get_CompositorDroppedFrames, addr 0x31a8510, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_CompositorDroppedFrames, addr 0x33adf98, size 0x7c, virtual false, abstract: false, final false
   static inline float_t get_CompositorDroppedFrames();
 
-  /// @brief Method get_CompositorLatency, addr 0x31a858c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_CompositorLatency, addr 0x33ae014, size 0x7c, virtual false, abstract: false, final false
   static inline float_t get_CompositorLatency();
 
-  /// @brief Method get_GPUEndToVsync, addr 0x31a8700, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_GPUEndToVsync, addr 0x33ae188, size 0x7c, virtual false, abstract: false, final false
   static inline float_t get_GPUEndToVsync();
 
 protected:
@@ -225,19 +226,19 @@ public:
   /// @brief Field m_PluginVersion, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_m_PluginVersion, put = setStaticF_m_PluginVersion))::StringW m_PluginVersion;
 
-  /// @brief Method GetOculusDisplaySubsystem, addr 0x31a7618, size 0x344, virtual false, abstract: false, final false
+  /// @brief Method GetOculusDisplaySubsystem, addr 0x33ad0a0, size 0x344, virtual false, abstract: false, final false
   static inline ::UnityEngine::IntegratedSubsystem* GetOculusDisplaySubsystem();
 
   static inline ::Unity::XR::Oculus::Stats* New_ctor();
 
-  /// @brief Method .ctor, addr 0x31a795c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33ad3e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::IntegratedSubsystem* getStaticF_m_Display();
 
   static inline ::StringW getStaticF_m_PluginVersion();
 
-  /// @brief Method get_PluginVersion, addr 0x31a74c8, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method get_PluginVersion, addr 0x33acf50, size 0x14c, virtual false, abstract: false, final false
   static inline ::StringW get_PluginVersion();
 
   static inline void setStaticF_m_Display(::UnityEngine::IntegratedSubsystem* value);

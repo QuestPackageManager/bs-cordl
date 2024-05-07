@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MockPlayerLobbyPoseGeneratorAI.hpp"
 #include "GlobalNamespace/zzzz__MockPlayerLobbyPoseGenerator_impl.hpp"
 #include "UnityEngine/zzzz__Pose_impl.hpp"
 #include "GlobalNamespace/zzzz__MockPlayerLobbyPoseGeneratorAI_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI::*)(::GlobalNamespace::IMultiplayerSessionManager*)>(
     &::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x266a24c;
+  constexpr static std::size_t addrs = 0x2769648;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI::*)()>(
     &::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI::Init)> {
   constexpr static std::size_t size = 0x2d0;
-  constexpr static std::size_t addrs = 0x266aca8;
+  constexpr static std::size_t addrs = 0x276a0a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI::*)()>(
     &::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI::Tick)> {
   constexpr static std::size_t size = 0x9ec;
-  constexpr static std::size_t addrs = 0x266af78;
+  constexpr static std::size_t addrs = 0x276a374;
 
   inline static ::MethodInfo const* methodInfo() {
 

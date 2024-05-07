@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/MessageWithAvatarEditorResult.hpp"
 #include "Oculus/Platform/zzzz__Message_1_impl.hpp"
 #include "Oculus/Platform/zzzz__MessageWithAvatarEditorResult_def.hpp"
 #include "Oculus/Platform/Models/zzzz__AvatarEditorResult_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::MessageWithAvatarEditorResult::*)(void*)>(
     &::Oculus::Platform::MessageWithAvatarEditorResult::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x29c7674;
+  constexpr static std::size_t addrs = 0x2ac4f24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::AvatarEditorResult* (::Oculus::Platform::MessageWithAvatarEditorResult::*)()>(
     &::Oculus::Platform::MessageWithAvatarEditorResult::GetAvatarEditorResult)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x29c9c84;
+  constexpr static std::size_t addrs = 0x2ac7534;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -39,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::AvatarEditorResult* (::Oculus::Platform::MessageWithAvatarEditorResult::*)(void*)>(
     &::Oculus::Platform::MessageWithAvatarEditorResult::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x29c9cc0;
+  constexpr static std::size_t addrs = 0x2ac7570;
 
   inline static ::MethodInfo const* methodInfo() {
 

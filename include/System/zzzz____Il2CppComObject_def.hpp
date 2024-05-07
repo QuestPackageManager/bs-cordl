@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/__Il2CppComObject.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,7 +19,7 @@ namespace System {
 class CORDL_TYPE __Il2CppComObject : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Finalize, addr 0x3479790, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x367d758, size 0x3c, virtual true, abstract: false, final false
   inline void Finalize();
 
 protected:

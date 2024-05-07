@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/DefaultValueTypeConverter.hpp"
 #include "System/ComponentModel/zzzz__StringConverter_impl.hpp"
 #include "System/Data/zzzz__DefaultValueTypeConverter_def.hpp"
 #include "System/ComponentModel/zzzz__ITypeDescriptorContext_def.hpp"
@@ -10,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DefaultValueTypeConverter::*)()>(&::System::Data::DefaultValueTypeConverter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2bc1630;
+  constexpr static std::size_t addrs = 0x2cbdf30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DefaultValueTypeConverter*>::get(), ".ctor",
@@ -25,7 +26,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Data::DefaultValueTypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Globalization::CultureInfo*, ::System::Object*, ::System::Type*)>(
     &::System::Data::DefaultValueTypeConverter::ConvertTo)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x2bc1638;
+  constexpr static std::size_t addrs = 0x2cbdf38;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +42,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::System::Data::DefaultValueTypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Globalization::CultureInfo*, ::System::Object*)>(
         &::System::Data::DefaultValueTypeConverter::ConvertFrom)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x2bc17e8;
+  constexpr static std::size_t addrs = 0x2cbe0e8;
 
   inline static ::MethodInfo const* methodInfo() {
 

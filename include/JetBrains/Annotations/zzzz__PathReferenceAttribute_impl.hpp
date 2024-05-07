@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "JetBrains/Annotations/PathReferenceAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "JetBrains/Annotations/zzzz__PathReferenceAttribute_def.hpp"
 //  Writing Method size for method: ::JetBrains::Annotations::PathReferenceAttribute._ctor
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::PathReferenceAttribute::*)()>(
     &::JetBrains::Annotations::PathReferenceAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x340a2a4;
+  constexpr static std::size_t addrs = 0x360efe0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::JetBrains::Annotations::PathReferenceAttribute*>::get(),
@@ -21,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::PathReferenceAttribute::*)(::StringW)>(
     &::JetBrains::Annotations::PathReferenceAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x340a2ac;
+  constexpr static std::size_t addrs = 0x360efe8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::JetBrains::Annotations::PathReferenceAttribute::*)()>(
     &::JetBrains::Annotations::PathReferenceAttribute::get_BasePath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x340a2d4;
+  constexpr static std::size_t addrs = 0x360f010;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::JetBrains::Annotations::PathReferenceAttribute*>::get(),
@@ -50,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::PathReferenceAttribute::*)(::StringW)>(
     &::JetBrains::Annotations::PathReferenceAttribute::set_BasePath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x340a2dc;
+  constexpr static std::size_t addrs = 0x360f018;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

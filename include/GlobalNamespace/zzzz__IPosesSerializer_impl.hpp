@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IPosesSerializer.hpp"
 #include "GlobalNamespace/zzzz__IPosesSerializer_def.hpp"
 #include "GlobalNamespace/zzzz__PosesRecordingData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IPosesSerializer.SaveToOldFormat

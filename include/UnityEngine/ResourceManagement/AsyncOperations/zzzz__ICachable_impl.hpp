@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ResourceManagement/AsyncOperations/ICachable.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__ICachable_def.hpp"
 #include "UnityEngine/ResourceManagement/Util/zzzz__IOperationCacheKey_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::AsyncOperations::ICachable.get_Key

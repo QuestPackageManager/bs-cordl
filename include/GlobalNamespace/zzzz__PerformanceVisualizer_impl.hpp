@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/PerformanceVisualizer.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__PerformanceVisualizer_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PerformanceVisualizer::*)(::UnityEngine::Camera*, bool, bool)>(
     &::GlobalNamespace::PerformanceVisualizer::Initialize)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x2596b50;
+  constexpr static std::size_t addrs = 0x268fd78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -23,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PerformanceVisualizer::*)()>(&::GlobalNamespace::PerformanceVisualizer::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2596c24;
+  constexpr static std::size_t addrs = 0x268fe4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceVisualizer*>::get(), ".ctor",

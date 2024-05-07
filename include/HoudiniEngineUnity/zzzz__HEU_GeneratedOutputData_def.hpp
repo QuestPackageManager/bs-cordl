@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HEU_GeneratedOutputData.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,7 +48,7 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_GeneratedOutputData*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_GeneratedOutputData*>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x24413d0, size 0x1ec, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x253b05c, size 0x1ec, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_GeneratedOutputData* other);
 
   static inline ::HoudiniEngineUnity::HEU_GeneratedOutputData* New_ctor();
@@ -70,7 +71,7 @@ public:
 
   constexpr void __cordl_internal_set__renderMaterials(::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> value);
 
-  /// @brief Method .ctor, addr 0x2441354, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x253afe0, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_GeneratedOutputData*>"

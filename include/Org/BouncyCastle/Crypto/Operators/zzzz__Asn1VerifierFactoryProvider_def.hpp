@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Operators/Asn1VerifierFactoryProvider.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,7 +42,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IVerifierFactoryProvider"
   constexpr operator ::Org::BouncyCastle::Crypto::IVerifierFactoryProvider*() noexcept;
 
-  /// @brief Method CreateVerifierFactory, addr 0x1098170, size 0xc4, virtual true, abstract: false, final true
+  /// @brief Method CreateVerifierFactory, addr 0x118b894, size 0xc4, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::IVerifierFactory* CreateVerifierFactory(::System::Object* algorithmDetails);
 
   static inline ::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactoryProvider* New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
@@ -52,10 +53,10 @@ public:
 
   constexpr void __cordl_internal_set_publicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* value);
 
-  /// @brief Method .ctor, addr 0x1098148, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x118b86c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
 
-  /// @brief Method get_SignatureAlgNames, addr 0x1098234, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_SignatureAlgNames, addr 0x118b958, size 0x4c, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerable* get_SignatureAlgNames();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IVerifierFactoryProvider"

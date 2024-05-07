@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Math/EC/Custom/Sec/SecT163R1Point.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,13 +33,13 @@ public:
 
   __declspec(property(get = get_YCoord))::Org::BouncyCastle::Math::EC::ECFieldElement* YCoord;
 
-  /// @brief Method Add, addr 0x1180454, size 0x758, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x1271b78, size 0x758, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Add(::Org::BouncyCastle::Math::EC::ECPoint* b);
 
-  /// @brief Method Detach, addr 0x1180270, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Detach, addr 0x1271994, size 0x98, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Detach();
 
-  /// @brief Method Negate, addr 0x1181458, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method Negate, addr 0x1272b7c, size 0x164, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Negate();
 
   static inline ::Org::BouncyCastle::Math::EC::Custom::Sec::SecT163R1Point* New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x,
@@ -51,26 +52,26 @@ public:
   New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y,
            ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> zs, bool withCompression);
 
-  /// @brief Method Twice, addr 0x1180bac, size 0x380, virtual true, abstract: false, final false
+  /// @brief Method Twice, addr 0x12722d0, size 0x380, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Twice();
 
-  /// @brief Method TwicePlus, addr 0x1180f2c, size 0x52c, virtual true, abstract: false, final false
+  /// @brief Method TwicePlus, addr 0x1272650, size 0x52c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* TwicePlus(::Org::BouncyCastle::Math::EC::ECPoint* b);
 
-  /// @brief Method .ctor, addr 0x117fa04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1271128, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y);
 
-  /// @brief Method .ctor, addr 0x117fb68, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x127128c, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y, bool withCompression);
 
-  /// @brief Method .ctor, addr 0x117fc88, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12713ac, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECFieldElement* x, ::Org::BouncyCastle::Math::EC::ECFieldElement* y,
                     ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> zs, bool withCompression);
 
-  /// @brief Method get_CompressionYTilde, addr 0x11803d8, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method get_CompressionYTilde, addr 0x1271afc, size 0x7c, virtual true, abstract: false, final false
   inline bool get_CompressionYTilde();
 
-  /// @brief Method get_YCoord, addr 0x1180308, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method get_YCoord, addr 0x1271a2c, size 0xd0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* get_YCoord();
 
 protected:

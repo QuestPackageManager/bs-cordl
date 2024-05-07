@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/DateTimeRawInfo.hpp"
 #include "System/zzzz__DateTimeParse_impl.hpp"
 #include "System/zzzz__DateTimeRawInfo_def.hpp"
 #include "System/zzzz__DateTimeParse_def.hpp"
@@ -7,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::DateTimeRawInfo::*)(::cordl_internals::Ptr<int32_t>)>(&::System::DateTimeRawInfo::Init)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x282bacc;
+  constexpr static std::size_t addrs = 0x292a1ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -21,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::DateTimeRawInfo::*)(int32_t)>(&::System::DateTimeRawInfo::AddNumber)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x282baec;
+  constexpr static std::size_t addrs = 0x292a20c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -35,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::DateTimeRawInfo::*)(int32_t)>(&::System::DateTimeRawInfo::GetNumber)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x282bb04;
+  constexpr static std::size_t addrs = 0x292a224;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

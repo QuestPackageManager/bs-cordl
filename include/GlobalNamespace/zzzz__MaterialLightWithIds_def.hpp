@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MaterialLightWithIds.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,10 +59,10 @@ public:
   /// @brief Field _setColorOnly, offset 0x52, size 0x1
   __declspec(property(get = __cordl_internal_get__setColorOnly, put = __cordl_internal_set__setColorOnly)) bool _setColorOnly;
 
-  /// @brief Method Awake, addr 0x23fcde0, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x24f49d0, size 0x84, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method ColorWasSet, addr 0x23fce64, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x24f4a54, size 0x140, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::MaterialLightWithIds* New_ctor();
@@ -114,7 +115,7 @@ public:
 
   constexpr void __cordl_internal_set__setColorOnly(bool value);
 
-  /// @brief Method .ctor, addr 0x23fcfa4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f4b94, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::MaterialPropertyBlock* getStaticF__materialPropertyBlock();

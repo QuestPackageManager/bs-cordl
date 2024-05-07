@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/FireEffect.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -96,16 +97,16 @@ public:
 
   static inline ::GlobalNamespace::FireEffect* New_ctor();
 
-  /// @brief Method NotifyAlphaWasChanged, addr 0xf6e918, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method NotifyAlphaWasChanged, addr 0x105d524, size 0xc0, virtual false, abstract: false, final false
   inline void NotifyAlphaWasChanged(float_t currentAlpha);
 
-  /// @brief Method OnDestroy, addr 0xf6e498, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x105d0a4, size 0x2c, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetRenderersEnabled, addr 0xf6e6f8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method SetRenderersEnabled, addr 0x105d304, size 0x8c, virtual false, abstract: false, final false
   inline void SetRenderersEnabled(bool enabled);
 
-  /// @brief Method Start, addr 0xf6e238, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x105ce44, size 0x120, virtual true, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
@@ -192,7 +193,7 @@ public:
 
   constexpr void __cordl_internal_set__privatePointLightPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController> value);
 
-  /// @brief Method .ctor, addr 0xf6ea5c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x105d668, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

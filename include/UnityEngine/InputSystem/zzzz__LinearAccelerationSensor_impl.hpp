@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/LinearAccelerationSensor.hpp"
 #include "UnityEngine/InputSystem/zzzz__Sensor_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__LinearAccelerationSensor_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__Vector3Control_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::UnityEngine::InputSystem::LinearAccelerationSensor::*)()>(
     &::UnityEngine::InputSystem::LinearAccelerationSensor::get_acceleration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2fdcce8;
+  constexpr static std::size_t addrs = 0x3118a74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LinearAccelerationSensor*>::get(),
@@ -22,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LinearAccelerationSensor::*)(
     ::UnityEngine::InputSystem::Controls::Vector3Control*)>(&::UnityEngine::InputSystem::LinearAccelerationSensor::set_acceleration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2fdccf0;
+  constexpr static std::size_t addrs = 0x3118a7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -37,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LinearAccelerationSensor* (*)()>(
     &::UnityEngine::InputSystem::LinearAccelerationSensor::get_current)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2fdccf8;
+  constexpr static std::size_t addrs = 0x3118a84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LinearAccelerationSensor*>::get(),
@@ -51,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::InputSystem::LinearAccelerationSensor*)>(
     &::UnityEngine::InputSystem::LinearAccelerationSensor::set_current)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x2fdcd40;
+  constexpr static std::size_t addrs = 0x3118acc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -66,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LinearAccelerationSensor::*)()>(
     &::UnityEngine::InputSystem::LinearAccelerationSensor::MakeCurrent)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2fdcd8c;
+  constexpr static std::size_t addrs = 0x3118b18;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -82,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LinearAccelerationSensor::*)()>(
     &::UnityEngine::InputSystem::LinearAccelerationSensor::OnRemoved)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x2fdcde0;
+  constexpr static std::size_t addrs = 0x3118b6c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -98,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LinearAccelerationSensor::*)()>(
     &::UnityEngine::InputSystem::LinearAccelerationSensor::FinishSetup)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x2fdce64;
+  constexpr static std::size_t addrs = 0x3118bf0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -114,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LinearAccelerationSensor::*)()>(
     &::UnityEngine::InputSystem::LinearAccelerationSensor::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2fdcedc;
+  constexpr static std::size_t addrs = 0x3118c68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LinearAccelerationSensor*>::get(),

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/CLSCompliantAttribute.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set__compliant(bool value);
 
-  /// @brief Method .ctor, addr 0x279efa8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x289e6c8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool isCompliant);
 
 protected:

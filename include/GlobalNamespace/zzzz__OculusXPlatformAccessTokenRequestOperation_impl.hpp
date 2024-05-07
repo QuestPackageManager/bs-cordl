@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OculusXPlatformAccessTokenRequestOperation.hpp"
 #include "GlobalNamespace/zzzz__OculusXPlatformAccessTokenRequestOperation_impl.hpp"
 #include "GlobalNamespace/zzzz__XPlatformAccessTokenData_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
@@ -35,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OculusXPlatformAccessTokenRequestOperation___RequestXPlatformAccessToken_d__7::*)()>(
     &::GlobalNamespace::__OculusXPlatformAccessTokenRequestOperation___RequestXPlatformAccessToken_d__7::MoveNext)> {
   constexpr static std::size_t size = 0x2dc;
-  constexpr static std::size_t addrs = 0xf73694;
+  constexpr static std::size_t addrs = 0x1065864;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,8 +50,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OculusXPlatformAccessTokenRequestOperation___RequestXPlatformAccessToken_d__7::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::__OculusXPlatformAccessTokenRequestOperation___RequestXPlatformAccessToken_d__7::SetStateMachine)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0xf73970;
+  constexpr static std::size_t size = 0x1058;
+  constexpr static std::size_t addrs = 0x1065b40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -106,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusXPlatformAccessTokenRequestOperation::*)()>(
     &::GlobalNamespace::OculusXPlatformAccessTokenRequestOperation::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0xf732a4;
+  constexpr static std::size_t addrs = 0x1065474;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -122,7 +123,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData>* (*)(::System::Threading::CancellationToken)>(
         &::GlobalNamespace::OculusXPlatformAccessTokenRequestOperation::Run)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0xf72fc0;
+  constexpr static std::size_t addrs = 0x1065190;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -138,7 +139,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::OculusXPlatformAccessTokenRequestOperation::*)(::System::Threading::CancellationToken)>(
     &::GlobalNamespace::OculusXPlatformAccessTokenRequestOperation::RequestXPlatformAccessToken)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0xf73314;
+  constexpr static std::size_t addrs = 0x10654e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -153,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusXPlatformAccessTokenRequestOperation::*)()>(
     &::GlobalNamespace::OculusXPlatformAccessTokenRequestOperation::RequestAccessToken)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0xf73414;
+  constexpr static std::size_t addrs = 0x10655e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -168,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusXPlatformAccessTokenRequestOperation::*)(::Oculus::Platform::Message_1<::StringW>*)>(
     &::GlobalNamespace::OculusXPlatformAccessTokenRequestOperation::OnCompleteLoadingOculusAccessToken)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0xf73524;
+  constexpr static std::size_t addrs = 0x10656f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

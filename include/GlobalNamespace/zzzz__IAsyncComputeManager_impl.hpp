@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IAsyncComputeManager.hpp"
 #include "GlobalNamespace/zzzz__IAsyncComputeManager_def.hpp"
 #include "GlobalNamespace/zzzz__AsyncComputeOperation_1_def.hpp"
 #include "GlobalNamespace/zzzz__AsyncComputeOperation_def.hpp"

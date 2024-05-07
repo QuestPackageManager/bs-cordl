@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UISystemProfilerApi.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -86,13 +87,13 @@ public:
   // Declarations
   using SampleType = ::UnityEngine::__UISystemProfilerApi__SampleType;
 
-  /// @brief Method AddMarker, addr 0x33f984c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method AddMarker, addr 0x35ff588, size 0x44, virtual false, abstract: false, final false
   static inline void AddMarker(::StringW name, ::UnityEngine::Object* obj);
 
-  /// @brief Method BeginSample, addr 0x33f97d4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method BeginSample, addr 0x35ff510, size 0x3c, virtual false, abstract: false, final false
   static inline void BeginSample(::UnityEngine::__UISystemProfilerApi__SampleType type);
 
-  /// @brief Method EndSample, addr 0x33f9810, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method EndSample, addr 0x35ff54c, size 0x3c, virtual false, abstract: false, final false
   static inline void EndSample(::UnityEngine::__UISystemProfilerApi__SampleType type);
 
 protected:

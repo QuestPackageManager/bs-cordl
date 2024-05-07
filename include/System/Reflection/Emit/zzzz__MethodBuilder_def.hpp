@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Reflection/Emit/MethodBuilder.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,41 +61,41 @@ public:
 
   __declspec(property(get = get_ReflectedType))::System::Type* ReflectedType;
 
-  /// @brief Method GetBaseDefinition, addr 0x277ad4c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GetBaseDefinition, addr 0x287a46c, size 0x40, virtual true, abstract: false, final false
   inline ::System::Reflection::MethodInfo* GetBaseDefinition();
 
-  /// @brief Method GetCustomAttributes, addr 0x277adcc, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x287a4ec, size 0x40, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCustomAttributes(::System::Type* attributeType, bool inherit);
 
-  /// @brief Method GetCustomAttributes, addr 0x277ad8c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x287a4ac, size 0x40, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCustomAttributes(bool inherit);
 
-  /// @brief Method GetMethodImplementationFlags, addr 0x277ae0c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GetMethodImplementationFlags, addr 0x287a52c, size 0x40, virtual true, abstract: false, final false
   inline ::System::Reflection::MethodImplAttributes GetMethodImplementationFlags();
 
-  /// @brief Method GetParameters, addr 0x277ae4c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GetParameters, addr 0x287a56c, size 0x40, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Reflection::ParameterInfo*, ::Array<::System::Reflection::ParameterInfo*>*> GetParameters();
 
-  /// @brief Method Invoke, addr 0x277ae8c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x287a5ac, size 0x40, virtual true, abstract: false, final false
   inline ::System::Object* Invoke(::System::Object* obj, ::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder,
                                   ::ArrayW<::System::Object*, ::Array<::System::Object*>*> parameters, ::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method IsDefined, addr 0x277aecc, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method IsDefined, addr 0x287a5ec, size 0x40, virtual true, abstract: false, final false
   inline bool IsDefined(::System::Type* attributeType, bool inherit);
 
-  /// @brief Method get_Attributes, addr 0x277ac0c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Attributes, addr 0x287a32c, size 0x40, virtual true, abstract: false, final false
   inline ::System::Reflection::MethodAttributes get_Attributes();
 
-  /// @brief Method get_DeclaringType, addr 0x277ac4c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_DeclaringType, addr 0x287a36c, size 0x40, virtual true, abstract: false, final false
   inline ::System::Type* get_DeclaringType();
 
-  /// @brief Method get_MethodHandle, addr 0x277ac8c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_MethodHandle, addr 0x287a3ac, size 0x40, virtual true, abstract: false, final false
   inline ::System::RuntimeMethodHandle get_MethodHandle();
 
-  /// @brief Method get_Name, addr 0x277accc, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x287a3ec, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ReflectedType, addr 0x277ad0c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_ReflectedType, addr 0x287a42c, size 0x40, virtual true, abstract: false, final false
   inline ::System::Type* get_ReflectedType();
 
 protected:

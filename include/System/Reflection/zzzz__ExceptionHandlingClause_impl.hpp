@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Reflection/ExceptionHandlingClause.hpp"
 #include "System/Reflection/zzzz__ExceptionHandlingClauseOptions_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Reflection/zzzz__ExceptionHandlingClause_def.hpp"
@@ -8,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Reflection::ExceptionHandlingClause::*)()>(&::System::Reflection::ExceptionHandlingClause::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2772540;
+  constexpr static std::size_t addrs = 0x2871c60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::ExceptionHandlingClause*>::get(), ".ctor",
@@ -22,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Reflection::ExceptionHandlingClause::*)()>(
     &::System::Reflection::ExceptionHandlingClause::ToString)> {
   constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x2772548;
+  constexpr static std::size_t addrs = 0x2871c68;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ColorSchemeConverter.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +25,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE ColorSchemeConverter : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FromNetSerializable, addr 0x257a3a4, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method FromNetSerializable, addr 0x2672838, size 0x218, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::ColorScheme* FromNetSerializable(::GlobalNamespace::ColorSchemeNetSerializable serialized);
 
 protected:

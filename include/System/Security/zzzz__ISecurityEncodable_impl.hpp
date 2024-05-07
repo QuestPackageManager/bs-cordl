@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/ISecurityEncodable.hpp"
 #include "System/Security/zzzz__ISecurityEncodable_def.hpp"
 #include "System/Security/zzzz__SecurityElement_def.hpp"
 //  Writing Method size for method: ::System::Security::ISecurityEncodable.ToXml

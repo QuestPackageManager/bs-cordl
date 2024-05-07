@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Android/AndroidAssetPackInfo.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -86,7 +87,7 @@ public:
 
   constexpr void __cordl_internal_set__transferProgress_k__BackingField(float_t value);
 
-  /// @brief Method .ctor, addr 0x31baddc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33c0864, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::UnityEngine::Android::AndroidAssetPackStatus status, uint64_t size, uint64_t bytesDownloaded, float_t transferProgress,
                     ::UnityEngine::Android::AndroidAssetPackError error);
 

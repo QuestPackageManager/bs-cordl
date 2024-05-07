@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/PresentHiddenSettingsAfterNClicks.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,13 +54,13 @@ public:
 
   static inline ::GlobalNamespace::PresentHiddenSettingsAfterNClicks* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x253d250, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x26338e4, size 0x1c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x253d1b4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x2633848, size 0x9c, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method <OnEnable>b__6_0, addr 0x253d2dc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__6_0, addr 0x2633970, size 0x48, virtual false, abstract: false, final false
   inline void _OnEnable_b__6_0();
 
   constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
@@ -98,7 +99,7 @@ public:
 
   constexpr void __cordl_internal_set__settingsFlowCoordinator(::UnityW<::GlobalNamespace::SettingsFlowCoordinator> value);
 
-  /// @brief Method .ctor, addr 0x253d26c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2633900, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

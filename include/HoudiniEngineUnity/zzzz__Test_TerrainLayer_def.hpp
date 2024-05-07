@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/Test_TerrainLayer.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,10 +37,10 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_TerrainLayer*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_TerrainLayer*>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x24d3728, size 0x464, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x25cb3b4, size 0x464, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_TerrainLayer* other);
 
-  /// @brief Method IsNull, addr 0x24d36c8, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method IsNull, addr 0x25cb354, size 0x60, virtual true, abstract: false, final true
   inline bool IsNull();
 
   static inline ::HoudiniEngineUnity::Test_TerrainLayer* New_ctor(::UnityEngine::TerrainLayer* self);
@@ -50,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set_self(::UnityW<::UnityEngine::TerrainLayer> value);
 
-  /// @brief Method .ctor, addr 0x24d36a0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25cb32c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::TerrainLayer* self);
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_TerrainLayer*>"

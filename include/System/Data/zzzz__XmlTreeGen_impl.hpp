@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/XmlTreeGen.hpp"
 #include "System/Data/zzzz__SchemaFormat_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Data/zzzz__XmlTreeGen_def.hpp"
@@ -26,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XmlTreeGen::*)(::System::Data::SchemaFormat)>(&::System::Data::XmlTreeGen::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x2c03494;
+  constexpr static std::size_t addrs = 0x2cffd94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -41,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Data::PropertyCollection*, ::System::Xml::XmlElement*)>(
     &::System::Data::XmlTreeGen::AddExtendedProperties)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2c03534;
+  constexpr static std::size_t addrs = 0x2cffe34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Data::PropertyCollection*, ::System::Xml::XmlElement*, ::System::Type*)>(
     &::System::Data::XmlTreeGen::AddExtendedProperties)> {
   constexpr static std::size_t size = 0x764;
-  constexpr static std::size_t addrs = 0x2c0353c;
+  constexpr static std::size_t addrs = 0x2cffe3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XmlTreeGen::*)(::System::Object*, ::System::Xml::XmlElement*, ::System::Xml::XmlDocument*)>(
     &::System::Data::XmlTreeGen::AddXdoProperties)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x2c03ca0;
+  constexpr static std::size_t addrs = 0x2d005a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -91,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XmlTreeGen::*)(
     ::System::ComponentModel::PropertyDescriptor*, ::System::Object*, ::System::Xml::XmlElement*, ::System::Xml::XmlDocument*)>(&::System::Data::XmlTreeGen::AddXdoProperty)> {
   constexpr static std::size_t size = 0x924;
-  constexpr static std::size_t addrs = 0x2c03e50;
+  constexpr static std::size_t addrs = 0x2d00750;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -108,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Type*)>(&::System::Data::XmlTreeGen::XmlDataTypeName)> {
   constexpr static std::size_t size = 0xce4;
-  constexpr static std::size_t addrs = 0x2c04774;
+  constexpr static std::size_t addrs = 0x2d01074;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -123,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XmlTreeGen::*)(::System::Data::DataTable*, bool)>(
     &::System::Data::XmlTreeGen::GenerateConstraintNames)> {
   constexpr static std::size_t size = 0x528;
-  constexpr static std::size_t addrs = 0x2c05638;
+  constexpr static std::size_t addrs = 0x2d01f38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -139,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XmlTreeGen::*)(::System::Collections::ArrayList*)>(
     &::System::Data::XmlTreeGen::GenerateConstraintNames)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x2c05b60;
+  constexpr static std::size_t addrs = 0x2d02460;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -154,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XmlTreeGen::*)(::System::Data::DataSet*)>(
     &::System::Data::XmlTreeGen::GenerateConstraintNames)> {
   constexpr static std::size_t size = 0x2e4;
-  constexpr static std::size_t addrs = 0x2c05c58;
+  constexpr static std::size_t addrs = 0x2d02558;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -168,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Data::PropertyCollection*)>(&::System::Data::XmlTreeGen::_PropsNotEmpty)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2c05f3c;
+  constexpr static std::size_t addrs = 0x2d0283c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -183,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::XmlTreeGen::*)(::System::Data::DataSet*)>(
     &::System::Data::XmlTreeGen::HaveExtendedProperties)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x2c05f64;
+  constexpr static std::size_t addrs = 0x2d02864;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -198,7 +199,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XmlTreeGen::*)(::System::Xml::XmlDocument*, ::System::Xml::XmlElement*, ::StringW)>(
     &::System::Data::XmlTreeGen::WriteSchemaRoot)> {
   constexpr static std::size_t size = 0x264;
-  constexpr static std::size_t addrs = 0x2c060e8;
+  constexpr static std::size_t addrs = 0x2d029e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -214,7 +215,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Type*)>(&::System::Data::XmlTreeGen::ValidateColumnMapping)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x2c0634c;
+  constexpr static std::size_t addrs = 0x2d02c4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -228,7 +229,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XmlTreeGen::*)(::System::Data::DataSet*)>(&::System::Data::XmlTreeGen::SetupAutoGenerated)> {
   constexpr static std::size_t size = 0x2e0;
-  constexpr static std::size_t addrs = 0x2c063d4;
+  constexpr static std::size_t addrs = 0x2d02cd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -243,7 +244,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XmlTreeGen::*)(::System::Collections::ArrayList*)>(
     &::System::Data::XmlTreeGen::SetupAutoGenerated)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x2c070f8;
+  constexpr static std::size_t addrs = 0x2d039f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -257,7 +258,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XmlTreeGen::*)(::System::Data::DataTable*)>(&::System::Data::XmlTreeGen::SetupAutoGenerated)> {
   constexpr static std::size_t size = 0xa44;
-  constexpr static std::size_t addrs = 0x2c066b4;
+  constexpr static std::size_t addrs = 0x2d02fb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -272,7 +273,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XmlTreeGen::*)(::System::Data::DataTable*)>(
     &::System::Data::XmlTreeGen::CreateTablesHierarchy)> {
   constexpr static std::size_t size = 0x384;
-  constexpr static std::size_t addrs = 0x2c07844;
+  constexpr static std::size_t addrs = 0x2d04144;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -286,7 +287,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XmlTreeGen::*)(::System::Data::DataTable*)>(&::System::Data::XmlTreeGen::CreateRelations)> {
   constexpr static std::size_t size = 0x358;
-  constexpr static std::size_t addrs = 0x2c07bc8;
+  constexpr static std::size_t addrs = 0x2d044c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -301,7 +302,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Data::DataTable*, ::Array<::System::Data::DataTable*>*> (::System::Data::XmlTreeGen::*)()>(
     &::System::Data::XmlTreeGen::CreateToplevelTables)> {
   constexpr static std::size_t size = 0x2d4;
-  constexpr static std::size_t addrs = 0x2c07f20;
+  constexpr static std::size_t addrs = 0x2d04820;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XmlTreeGen*>::get(), "CreateToplevelTables",
@@ -315,7 +316,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XmlTreeGen::*)(::System::Xml::XmlDocument*, ::System::Xml::XmlWriter*, ::System::Data::DataSet*,
                                                                                                                        ::System::Data::DataTable*, bool)>(&::System::Data::XmlTreeGen::SchemaTree)> {
   constexpr static std::size_t size = 0x2720;
-  constexpr static std::size_t addrs = 0x2c081f4;
+  constexpr static std::size_t addrs = 0x2d04af4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -334,7 +335,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlElement* (::System::Data::XmlTreeGen::*)(::System::Xml::XmlDocument*, ::System::Data::DataTable*)>(
     &::System::Data::XmlTreeGen::SchemaTree)> {
   constexpr static std::size_t size = 0x444;
-  constexpr static std::size_t addrs = 0x2c0b5b0;
+  constexpr static std::size_t addrs = 0x2d07eb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -350,7 +351,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlElement* (
     ::System::Data::XmlTreeGen::*)(::System::Xml::XmlDocument*, ::System::Data::DataSet*, ::System::Data::DataTable*)>(&::System::Data::XmlTreeGen::FillDataSetElement)> {
   constexpr static std::size_t size = 0x620;
-  constexpr static std::size_t addrs = 0x2c0a914;
+  constexpr static std::size_t addrs = 0x2d07214;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -366,7 +367,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XmlTreeGen::*)(::System::Xml::XmlWriter*)>(&::System::Data::XmlTreeGen::SetPath)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x2c0e388;
+  constexpr static std::size_t addrs = 0x2d0ac88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -381,7 +382,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XmlTreeGen::*)(::System::Data::DataSet*, ::System::Xml::XmlWriter*)>(
     &::System::Data::XmlTreeGen::Save)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2c0e624;
+  constexpr static std::size_t addrs = 0x2d0af24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -397,7 +398,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XmlTreeGen::*)(::System::Data::DataTable*, ::System::Xml::XmlWriter*)>(
     &::System::Data::XmlTreeGen::Save)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x2c0e644;
+  constexpr static std::size_t addrs = 0x2d0af44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -413,7 +414,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Data::XmlTreeGen::*)(::System::Data::DataSet*, ::System::Data::DataTable*, ::System::Xml::XmlWriter*)>(&::System::Data::XmlTreeGen::Save)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2c0e638;
+  constexpr static std::size_t addrs = 0x2d0af38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -430,7 +431,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Data::XmlTreeGen::*)(::System::Data::DataSet*, ::System::Data::DataTable*, ::System::Xml::XmlWriter*, bool)>(&::System::Data::XmlTreeGen::Save)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2c0e704;
+  constexpr static std::size_t addrs = 0x2d0b004;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -448,7 +449,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XmlTreeGen::*)(
     ::System::Data::DataSet*, ::System::Data::DataTable*, ::System::Xml::XmlWriter*, bool, ::System::Converter_2<::System::Type*, ::StringW>*)>(&::System::Data::XmlTreeGen::Save)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x2c0e710;
+  constexpr static std::size_t addrs = 0x2d0b010;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -466,7 +467,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Xml::XmlElement* (::System::Data::XmlTreeGen::*)(::System::Data::DataRelation*, ::System::Xml::XmlDocument*)>(&::System::Data::XmlTreeGen::HandleRelation)> {
   constexpr static std::size_t size = 0x5bc;
-  constexpr static std::size_t addrs = 0x2c0aff4;
+  constexpr static std::size_t addrs = 0x2d078f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -481,7 +482,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlElement* (*)(::System::Xml::XmlElement*, ::StringW)>(&::System::Data::XmlTreeGen::FindSimpleType)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x2c0e864;
+  constexpr static std::size_t addrs = 0x2d0b164;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -496,7 +497,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlElement* (::System::Data::XmlTreeGen::*)(::StringW)>(&::System::Data::XmlTreeGen::GetSchema)> {
   constexpr static std::size_t size = 0x294;
-  constexpr static std::size_t addrs = 0x2c0e958;
+  constexpr static std::size_t addrs = 0x2d0b258;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -511,7 +512,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XmlTreeGen::*)(
     ::System::Data::DataColumn*, ::System::Xml::XmlDocument*, ::System::Xml::XmlElement*, ::System::Xml::XmlElement*)>(&::System::Data::XmlTreeGen::HandleColumnType)> {
   constexpr static std::size_t size = 0x478;
-  constexpr static std::size_t addrs = 0x2c0ebec;
+  constexpr static std::size_t addrs = 0x2d0b4ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -528,7 +529,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XmlTreeGen::*)(::System::Data::DataColumn*, ::System::Xml::XmlElement*)>(
     &::System::Data::XmlTreeGen::AddColumnProperties)> {
   constexpr static std::size_t size = 0x60c;
-  constexpr static std::size_t addrs = 0x2c0f064;
+  constexpr static std::size_t addrs = 0x2d0b964;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -544,7 +545,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Data::XmlTreeGen::*)(::System::Data::DataTable*)>(
     &::System::Data::XmlTreeGen::FindTargetNamespace)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x2c0f670;
+  constexpr static std::size_t addrs = 0x2d0bf70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -559,7 +560,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlElement* (
     ::System::Data::XmlTreeGen::*)(::System::Data::DataColumn*, ::System::Xml::XmlDocument*, ::System::Xml::XmlElement*, bool)>(&::System::Data::XmlTreeGen::HandleColumn)> {
   constexpr static std::size_t size = 0xb30;
-  constexpr static std::size_t addrs = 0x2c0f780;
+  constexpr static std::size_t addrs = 0x2d0c080;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -576,7 +577,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Data::AcceptRejectRule)>(&::System::Data::XmlTreeGen::TranslateAcceptRejectRule)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x2c10478;
+  constexpr static std::size_t addrs = 0x2d0cd78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -590,7 +591,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Data::Rule)>(&::System::Data::XmlTreeGen::TranslateRule)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x2c104e4;
+  constexpr static std::size_t addrs = 0x2d0cde4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -605,7 +606,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XmlTreeGen::*)(::System::Xml::XmlElement*, ::StringW, ::System::Xml::XmlElement*, ::StringW)>(
     &::System::Data::XmlTreeGen::AppendChildWithoutRef)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x2c0af3c;
+  constexpr static std::size_t addrs = 0x2d0783c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -622,7 +623,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlElement* (::System::Data::XmlTreeGen::*)(::System::Xml::XmlElement*, ::StringW)>(
     &::System::Data::XmlTreeGen::FindTypeNode)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x2c102b0;
+  constexpr static std::size_t addrs = 0x2d0cbb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -638,7 +639,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlElement* (
     ::System::Data::XmlTreeGen::*)(::System::Data::DataTable*, ::System::Xml::XmlDocument*, ::System::Xml::XmlElement*)>(&::System::Data::XmlTreeGen::HandleTable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2c0af34;
+  constexpr static std::size_t addrs = 0x2d07834;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -654,7 +655,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::XmlTreeGen::*)(::System::Data::DataTable*)>(&::System::Data::XmlTreeGen::HasMixedColumns)> {
   constexpr static std::size_t size = 0x3a4;
-  constexpr static std::size_t addrs = 0x2c1059c;
+  constexpr static std::size_t addrs = 0x2d0ce9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -668,7 +669,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Data::DataColumn*)>(&::System::Data::XmlTreeGen::AutoGenerated)> {
   constexpr static std::size_t size = 0x578;
-  constexpr static std::size_t addrs = 0x2c071ec;
+  constexpr static std::size_t addrs = 0x2d03aec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -682,7 +683,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Data::DataRelation*)>(&::System::Data::XmlTreeGen::AutoGenerated)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x2c10940;
+  constexpr static std::size_t addrs = 0x2d0d240;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -696,7 +697,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Data::UniqueConstraint*)>(&::System::Data::XmlTreeGen::AutoGenerated)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x2c07770;
+  constexpr static std::size_t addrs = 0x2d04070;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -711,7 +712,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::XmlTreeGen::*)(::System::Data::ForeignKeyConstraint*)>(
     &::System::Data::XmlTreeGen::AutoGenerated)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2c07764;
+  constexpr static std::size_t addrs = 0x2d04064;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -725,7 +726,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Data::ForeignKeyConstraint*, bool)>(&::System::Data::XmlTreeGen::AutoGenerated)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x2c10a24;
+  constexpr static std::size_t addrs = 0x2d0d324;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -740,7 +741,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::XmlTreeGen::*)(::System::Object*)>(&::System::Data::XmlTreeGen::IsAutoGenerated)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2c10b64;
+  constexpr static std::size_t addrs = 0x2d0d464;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -755,7 +756,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlElement* (
     ::System::Data::XmlTreeGen::*)(::System::Data::DataTable*, ::System::Xml::XmlDocument*, ::System::Xml::XmlElement*, bool)>(&::System::Data::XmlTreeGen::HandleTable)> {
   constexpr static std::size_t size = 0x2994;
-  constexpr static std::size_t addrs = 0x2c0b9f4;
+  constexpr static std::size_t addrs = 0x2d082f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -773,7 +774,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::XmlTreeGen::*)(::System::Xml::XmlElement*, ::System::Type*)>(
     &::System::Data::XmlTreeGen::SetMSDataAttribute)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x2c05458;
+  constexpr static std::size_t addrs = 0x2d01d58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

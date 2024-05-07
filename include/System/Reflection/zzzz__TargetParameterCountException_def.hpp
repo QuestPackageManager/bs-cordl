@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Reflection/TargetParameterCountException.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,13 +32,13 @@ public:
 
   static inline ::System::Reflection::TargetParameterCountException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x276ccf8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x286c408, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x276cd78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x286c488, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x276cd54, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x286c464, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

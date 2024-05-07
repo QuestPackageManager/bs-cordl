@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/ZenjectAllowDuringValidationAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "Zenject/zzzz__ZenjectAllowDuringValidationAttribute_def.hpp"
 //  Writing Method size for method: ::Zenject::ZenjectAllowDuringValidationAttribute._ctor
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::ZenjectAllowDuringValidationAttribute::*)()>(
     &::Zenject::ZenjectAllowDuringValidationAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x340a8f8;
+  constexpr static std::size_t addrs = 0x360f634;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ZenjectAllowDuringValidationAttribute*>::get(),

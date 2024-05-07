@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/StandardLevelReturnToMenuController.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__StandardLevelReturnToMenuController_def.hpp"
 #include "GlobalNamespace/zzzz__IReturnToMenuController_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelReturnToMenuController::*)()>(
     &::GlobalNamespace::StandardLevelReturnToMenuController::ReturnToMenu)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x25eb69c;
+  constexpr static std::size_t addrs = 0x26ea648;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelReturnToMenuController*>::get(),
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelReturnToMenuController::*)()>(
     &::GlobalNamespace::StandardLevelReturnToMenuController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25eb6dc;
+  constexpr static std::size_t addrs = 0x26ea688;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelReturnToMenuController*>::get(),

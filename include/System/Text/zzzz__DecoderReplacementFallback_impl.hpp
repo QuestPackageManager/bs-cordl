@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Text/DecoderReplacementFallback.hpp"
 #include "System/Text/zzzz__DecoderFallback_impl.hpp"
 #include "System/Text/zzzz__DecoderReplacementFallback_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
@@ -11,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::DecoderReplacementFallback::*)()>(&::System::Text::DecoderReplacementFallback::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x28ba3cc;
+  constexpr static std::size_t addrs = 0x29b8c7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::DecoderReplacementFallback*>::get(), ".ctor",
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::DecoderReplacementFallback::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Text::DecoderReplacementFallback::_ctor)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x28bb6d8;
+  constexpr static std::size_t addrs = 0x29b9f88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +43,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Text::DecoderReplacementFallback::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(
         &::System::Text::DecoderReplacementFallback::System_Runtime_Serialization_ISerializable_GetObjectData)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x28bb7dc;
+  constexpr static std::size_t addrs = 0x29ba08c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::DecoderReplacementFallback::*)(::StringW)>(
     &::System::Text::DecoderReplacementFallback::_ctor)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x28bb530;
+  constexpr static std::size_t addrs = 0x29b9de0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Text::DecoderReplacementFallback::*)()>(
     &::System::Text::DecoderReplacementFallback::get_DefaultString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x28bb838;
+  constexpr static std::size_t addrs = 0x29ba0e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::DecoderReplacementFallback*>::get(),
@@ -88,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::DecoderFallbackBuffer* (::System::Text::DecoderReplacementFallback::*)()>(
     &::System::Text::DecoderReplacementFallback::CreateFallbackBuffer)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x28bb840;
+  constexpr static std::size_t addrs = 0x29ba0f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -103,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::DecoderReplacementFallback::*)()>(
     &::System::Text::DecoderReplacementFallback::get_MaxCharCount)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x28bb8dc;
+  constexpr static std::size_t addrs = 0x29ba18c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -118,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Text::DecoderReplacementFallback::*)(::System::Object*)>(
     &::System::Text::DecoderReplacementFallback::Equals)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x28bb8f8;
+  constexpr static std::size_t addrs = 0x29ba1a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -133,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::DecoderReplacementFallback::*)()>(
     &::System::Text::DecoderReplacementFallback::GetHashCode)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x28bb978;
+  constexpr static std::size_t addrs = 0x29ba228;
 
   inline static ::MethodInfo const* methodInfo() {
 

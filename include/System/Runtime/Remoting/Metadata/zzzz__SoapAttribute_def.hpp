@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/Metadata/SoapAttribute.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,7 +38,7 @@ public:
 
   static inline ::System::Runtime::Remoting::Metadata::SoapAttribute* New_ctor();
 
-  /// @brief Method SetReflectionObject, addr 0x2727b30, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetReflectionObject, addr 0x2825f2c, size 0x8, virtual true, abstract: false, final false
   inline void SetReflectionObject(::System::Object* reflectionObject);
 
   constexpr ::StringW const& __cordl_internal_get_ProtXmlNamespace() const;
@@ -58,13 +59,13 @@ public:
 
   constexpr void __cordl_internal_set__useAttribute(bool value);
 
-  /// @brief Method .ctor, addr 0x2727b18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2825f14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_UseAttribute, addr 0x2727b20, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_UseAttribute, addr 0x2825f1c, size 0x8, virtual true, abstract: false, final false
   inline bool get_UseAttribute();
 
-  /// @brief Method get_XmlNamespace, addr 0x2727b28, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_XmlNamespace, addr 0x2825f24, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_XmlNamespace();
 
 protected:

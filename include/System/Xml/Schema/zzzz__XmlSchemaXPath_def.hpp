@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaXPath.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,13 +33,13 @@ public:
 
   constexpr void __cordl_internal_set_xpath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2d15c4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e1354c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_XPath, addr 0x2d15c3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XPath, addr 0x2e1353c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_XPath();
 
-  /// @brief Method set_XPath, addr 0x2d15c44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_XPath, addr 0x2e13544, size 0x8, virtual false, abstract: false, final false
   inline void set_XPath(::StringW value);
 
 protected:

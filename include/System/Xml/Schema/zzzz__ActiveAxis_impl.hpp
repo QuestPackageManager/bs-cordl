@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/ActiveAxis.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Schema/zzzz__ActiveAxis_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"
@@ -8,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Schema::ActiveAxis::*)()>(&::System::Xml::Schema::ActiveAxis::get_CurrentDepth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2df3628;
+  constexpr static std::size_t addrs = 0x2ef1f28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::ActiveAxis*>::get(), "get_CurrentDepth",
@@ -21,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::ActiveAxis::*)()>(&::System::Xml::Schema::ActiveAxis::Reactivate)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2df3630;
+  constexpr static std::size_t addrs = 0x2ef1f30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::ActiveAxis*>::get(), "Reactivate",
@@ -35,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::ActiveAxis::*)(::System::Xml::Schema::Asttree*)>(
     &::System::Xml::Schema::ActiveAxis::_ctor)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x2df3644;
+  constexpr static std::size_t addrs = 0x2ef1f44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -50,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::ActiveAxis::*)(::StringW, ::StringW)>(
     &::System::Xml::Schema::ActiveAxis::MoveToStartElement)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x2df37f0;
+  constexpr static std::size_t addrs = 0x2ef20f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -64,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::ActiveAxis::*)(::StringW, ::StringW)>(&::System::Xml::Schema::ActiveAxis::EndElement)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x2df3930;
+  constexpr static std::size_t addrs = 0x2ef2230;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -79,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::ActiveAxis::*)(::StringW, ::StringW)>(
     &::System::Xml::Schema::ActiveAxis::MoveToAttribute)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x2df3a40;
+  constexpr static std::size_t addrs = 0x2ef2340;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

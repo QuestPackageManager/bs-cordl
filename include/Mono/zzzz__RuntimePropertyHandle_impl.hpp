@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/RuntimePropertyHandle.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "Mono/zzzz__RuntimePropertyHandle_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -7,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::RuntimePropertyHandle::*)(void*)>(&::Mono::RuntimePropertyHandle::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2693784;
+  constexpr static std::size_t addrs = 0x2790b80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -21,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (::Mono::RuntimePropertyHandle::*)()>(&::Mono::RuntimePropertyHandle::get_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x269378c;
+  constexpr static std::size_t addrs = 0x2790b88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::RuntimePropertyHandle>::get(), "get_Value",
@@ -34,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::RuntimePropertyHandle::*)(::System::Object*)>(&::Mono::RuntimePropertyHandle::Equals)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x2693794;
+  constexpr static std::size_t addrs = 0x2790b90;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -48,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Mono::RuntimePropertyHandle::*)()>(&::Mono::RuntimePropertyHandle::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26938a0;
+  constexpr static std::size_t addrs = 0x2790c9c;
 
   inline static ::MethodInfo const* methodInfo() {
 

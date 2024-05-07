@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "JetBrains/Annotations/AspRequiredAttributeAttribute.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,13 +33,13 @@ public:
 
   constexpr void __cordl_internal_set__Attribute_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x340a720, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x360f45c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW attribute);
 
-  /// @brief Method get_Attribute, addr 0x340a748, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Attribute, addr 0x360f484, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Attribute();
 
-  /// @brief Method set_Attribute, addr 0x340a750, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Attribute, addr 0x360f48c, size 0x8, virtual false, abstract: false, final false
   inline void set_Attribute(::StringW value);
 
 protected:

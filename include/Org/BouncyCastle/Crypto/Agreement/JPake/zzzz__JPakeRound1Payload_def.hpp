@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Agreement/JPake/JPakeRound1Payload.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -85,24 +86,24 @@ public:
 
   constexpr void __cordl_internal_set_participantId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x1381af4, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1477218, size 0x19c, virtual false, abstract: false, final false
   inline void _ctor(::StringW participantId, ::Org::BouncyCastle::Math::BigInteger* gx1, ::Org::BouncyCastle::Math::BigInteger* gx2,
                     ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> knowledgeProofForX1,
                     ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> knowledgeProofForX2);
 
-  /// @brief Method get_Gx1, addr 0x1383b6c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Gx1, addr 0x1479290, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Gx1();
 
-  /// @brief Method get_Gx2, addr 0x1383b74, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Gx2, addr 0x1479298, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Gx2();
 
-  /// @brief Method get_KnowledgeProofForX1, addr 0x1383b7c, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method get_KnowledgeProofForX1, addr 0x14792a0, size 0x7c, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> get_KnowledgeProofForX1();
 
-  /// @brief Method get_KnowledgeProofForX2, addr 0x1383bf8, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method get_KnowledgeProofForX2, addr 0x147931c, size 0x7c, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> get_KnowledgeProofForX2();
 
-  /// @brief Method get_ParticipantId, addr 0x1383b64, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ParticipantId, addr 0x1479288, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_ParticipantId();
 
 protected:

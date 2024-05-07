@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/TextShadow.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,28 +39,28 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::TextShadow>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::TextShadow>*();
 
-  /// @brief Method Equals, addr 0x330aa8c, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x350f7c8, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x330ab1c, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x350f858, size 0x80, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::TextShadow other);
 
-  /// @brief Method GetHashCode, addr 0x330ab9c, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x350f8d8, size 0xd8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method LerpUnclamped, addr 0x330ade0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method LerpUnclamped, addr 0x350fb1c, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::TextShadow LerpUnclamped(::UnityEngine::UIElements::TextShadow a, ::UnityEngine::UIElements::TextShadow b, float_t t);
 
-  /// @brief Method ToString, addr 0x330acec, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x350fa28, size 0xf4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::TextShadow>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::TextShadow>* i___System__IEquatable_1___UnityEngine__UIElements__TextShadow_();
 
-  /// @brief Method op_Equality, addr 0x330ac74, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x350f9b0, size 0x30, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::TextShadow style1, ::UnityEngine::UIElements::TextShadow style2);
 
-  /// @brief Method op_Inequality, addr 0x330aca4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x350f9e0, size 0x48, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::UIElements::TextShadow style1, ::UnityEngine::UIElements::TextShadow style2);
 
   // Ctor Parameters []

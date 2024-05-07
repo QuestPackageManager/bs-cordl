@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Controls/AnyKeyControl.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_impl.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__AnyKeyControl_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Controls::AnyKeyControl._ctor
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::AnyKeyControl::*)()>(
     &::UnityEngine::InputSystem::Controls::AnyKeyControl::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x303c2b8;
+  constexpr static std::size_t addrs = 0x3177044;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::AnyKeyControl*>::get(),
@@ -21,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::Controls::AnyKeyControl::*)(::cordl_internals::Ptr<void>)>(
     &::UnityEngine::InputSystem::Controls::AnyKeyControl::ReadUnprocessedValueFromState)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x303c3b0;
+  constexpr static std::size_t addrs = 0x317713c;
 
   inline static ::MethodInfo const* methodInfo() {
 

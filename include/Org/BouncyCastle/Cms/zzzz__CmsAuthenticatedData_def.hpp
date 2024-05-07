@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Cms/CmsAuthenticatedData.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,19 +64,19 @@ public:
   /// @brief Field unauthAttrs, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_unauthAttrs, put = __cordl_internal_set_unauthAttrs))::Org::BouncyCastle::Asn1::Asn1Set* unauthAttrs;
 
-  /// @brief Method GetAuthAttrs, addr 0x13476a4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetAuthAttrs, addr 0x143bdc8, size 0x74, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* GetAuthAttrs();
 
-  /// @brief Method GetEncoded, addr 0x134778c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x143beb0, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
-  /// @brief Method GetMac, addr 0x1347604, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetMac, addr 0x143bd28, size 0x5c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetMac();
 
-  /// @brief Method GetRecipientInfos, addr 0x1347694, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetRecipientInfos, addr 0x143bdb8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::RecipientInformationStore* GetRecipientInfos();
 
-  /// @brief Method GetUnauthAttrs, addr 0x1347718, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetUnauthAttrs, addr 0x143be3c, size 0x74, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* GetUnauthAttrs();
 
   static inline ::Org::BouncyCastle::Cms::CmsAuthenticatedData* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> authData);
@@ -120,22 +121,22 @@ public:
 
   constexpr void __cordl_internal_set_unauthAttrs(::Org::BouncyCastle::Asn1::Asn1Set* value);
 
-  /// @brief Method .ctor, addr 0x1347454, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x143bb78, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> authData);
 
-  /// @brief Method .ctor, addr 0x13475e0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x143bd04, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* authData);
 
-  /// @brief Method .ctor, addr 0x1347478, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x143bb9c, size 0x168, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo);
 
-  /// @brief Method get_ContentInfo, addr 0x134769c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentInfo, addr 0x143bdc0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::ContentInfo* get_ContentInfo();
 
-  /// @brief Method get_MacAlgOid, addr 0x1347668, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_MacAlgOid, addr 0x143bd8c, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_MacAlgOid();
 
-  /// @brief Method get_MacAlgorithmID, addr 0x1347660, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MacAlgorithmID, addr 0x143bd84, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_MacAlgorithmID();
 
 protected:

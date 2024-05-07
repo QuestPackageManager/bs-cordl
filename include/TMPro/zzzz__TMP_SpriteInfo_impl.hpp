@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/TMP_SpriteInfo.hpp"
 #include "TMPro/zzzz__TMP_SpriteInfo_def.hpp"
 // Ctor Parameters [CppParam { name: "spriteIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "characterIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") },
 // CppParam { name: "vertexIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }]

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Utilities/MemoableResetException.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,7 +22,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Utilities::MemoableResetException* New_ctor(::StringW msg);
 
-  /// @brief Method .ctor, addr 0x12ded24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13d0448, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW msg);
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Generators/BaseKdfBytesGenerator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Generators/zzzz__BaseKdfBytesGenerator_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IDerivationFunction_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::BaseKdfBytesGenerator::*)(
     int32_t, ::Org::BouncyCastle::Crypto::IDigest*)>(&::Org::BouncyCastle::Crypto::Generators::BaseKdfBytesGenerator::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x1060508;
+  constexpr static std::size_t addrs = 0x1153c2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::BaseKdfBytesGenerator::*)(
     ::Org::BouncyCastle::Crypto::IDerivationParameters*)>(&::Org::BouncyCastle::Crypto::Generators::BaseKdfBytesGenerator::Init)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x1060538;
+  constexpr static std::size_t addrs = 0x1153c5c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::IDigest* (::Org::BouncyCastle::Crypto::Generators::BaseKdfBytesGenerator::*)()>(
     &::Org::BouncyCastle::Crypto::Generators::BaseKdfBytesGenerator::get_Digest)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1060648;
+  constexpr static std::size_t addrs = 0x1153d6c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Generators::BaseKdfBytesGenerator::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Generators::BaseKdfBytesGenerator::GenerateBytes)> {
   constexpr static std::size_t size = 0x534;
-  constexpr static std::size_t addrs = 0x1060650;
+  constexpr static std::size_t addrs = 0x1153d74;
 
   inline static ::MethodInfo const* methodInfo() {
 

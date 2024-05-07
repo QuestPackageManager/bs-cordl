@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/CachedAssetBundle.hpp"
 #include "UnityEngine/zzzz__Hash128_impl.hpp"
 #include "UnityEngine/zzzz__CachedAssetBundle_def.hpp"
 #include "UnityEngine/zzzz__Hash128_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::CachedAssetBundle::*)(::StringW, ::UnityEngine::Hash128)>(
     &::UnityEngine::CachedAssetBundle::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x31f9374;
+  constexpr static std::size_t addrs = 0x34000a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::CachedAssetBundle::*)()>(&::UnityEngine::CachedAssetBundle::get_name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x31f8d64;
+  constexpr static std::size_t addrs = 0x33ffa98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::CachedAssetBundle>::get(), "get_name",
@@ -36,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Hash128 (::UnityEngine::CachedAssetBundle::*)()>(&::UnityEngine::CachedAssetBundle::get_hash)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x31f8d6c;
+  constexpr static std::size_t addrs = 0x33ffaa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::CachedAssetBundle>::get(), "get_hash",

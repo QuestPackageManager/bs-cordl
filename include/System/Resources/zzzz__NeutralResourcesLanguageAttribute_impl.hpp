@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Resources/NeutralResourcesLanguageAttribute.hpp"
 #include "System/Resources/zzzz__UltimateResourceFallbackLocation_impl.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Resources/zzzz__NeutralResourcesLanguageAttribute_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Resources::NeutralResourcesLanguageAttribute::*)(::StringW)>(
     &::System::Resources::NeutralResourcesLanguageAttribute::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x275f180;
+  constexpr static std::size_t addrs = 0x285e890;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Resources::NeutralResourcesLanguageAttribute::*)()>(
     &::System::Resources::NeutralResourcesLanguageAttribute::get_CultureName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x275f1fc;
+  constexpr static std::size_t addrs = 0x285e90c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::NeutralResourcesLanguageAttribute*>::get(),
@@ -38,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Resources::UltimateResourceFallbackLocation (::System::Resources::NeutralResourcesLanguageAttribute::*)()>(
     &::System::Resources::NeutralResourcesLanguageAttribute::get_Location)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x275f204;
+  constexpr static std::size_t addrs = 0x285e914;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::NeutralResourcesLanguageAttribute*>::get(),

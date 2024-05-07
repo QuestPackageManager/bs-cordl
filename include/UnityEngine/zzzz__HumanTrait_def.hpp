@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/HumanTrait.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,7 +20,7 @@ namespace UnityEngine {
 class CORDL_TYPE HumanTrait : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetBoneIndexFromMono, addr 0x31bcb0c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetBoneIndexFromMono, addr 0x33c2594, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t GetBoneIndexFromMono(int32_t humanId);
 
 protected:

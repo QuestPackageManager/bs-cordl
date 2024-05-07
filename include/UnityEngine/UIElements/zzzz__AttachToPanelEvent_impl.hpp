@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/AttachToPanelEvent.hpp"
 #include "UnityEngine/UIElements/zzzz__PanelChangedEventBase_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__AttachToPanelEvent_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::AttachToPanelEvent._ctor
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::AttachToPanelEvent::*)()>(&::UnityEngine::UIElements::AttachToPanelEvent::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x33a1e0c;
+  constexpr static std::size_t addrs = 0x35a7b48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::AttachToPanelEvent*>::get(), ".ctor",

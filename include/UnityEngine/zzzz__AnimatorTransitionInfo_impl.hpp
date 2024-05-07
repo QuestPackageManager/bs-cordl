@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/AnimatorTransitionInfo.hpp"
 #include "UnityEngine/zzzz__AnimatorTransitionInfo_def.hpp"
 // Ctor Parameters [CppParam { name: "m_FullPath", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_UserName", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam
 // { name: "m_Name", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_HasFixedDuration", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Duration",

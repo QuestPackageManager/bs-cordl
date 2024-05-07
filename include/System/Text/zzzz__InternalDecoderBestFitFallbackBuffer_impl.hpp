@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Text/InternalDecoderBestFitFallbackBuffer.hpp"
 #include "System/Text/zzzz__DecoderFallbackBuffer_impl.hpp"
 #include "System/Text/zzzz__InternalDecoderBestFitFallbackBuffer_def.hpp"
 #include "System/Text/zzzz__InternalDecoderBestFitFallback_def.hpp"
@@ -8,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)()>(&::System::Text::InternalDecoderBestFitFallbackBuffer::get_InternalSyncObject)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x28b9dec;
+  constexpr static std::size_t addrs = 0x29b869c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::InternalDecoderBestFitFallbackBuffer*>::get(),
@@ -22,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::InternalDecoderBestFitFallbackBuffer::*)(::System::Text::InternalDecoderBestFitFallback*)>(
     &::System::Text::InternalDecoderBestFitFallbackBuffer::_ctor)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x28b9bf0;
+  constexpr static std::size_t addrs = 0x29b84a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -37,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Text::InternalDecoderBestFitFallbackBuffer::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::System::Text::InternalDecoderBestFitFallbackBuffer::Fallback)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x28b9e90;
+  constexpr static std::size_t addrs = 0x29b8740;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -53,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (::System::Text::InternalDecoderBestFitFallbackBuffer::*)()>(
     &::System::Text::InternalDecoderBestFitFallbackBuffer::GetNextChar)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x28ba010;
+  constexpr static std::size_t addrs = 0x29b88c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -69,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::InternalDecoderBestFitFallbackBuffer::*)()>(
     &::System::Text::InternalDecoderBestFitFallbackBuffer::get_Remaining)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x28ba050;
+  constexpr static std::size_t addrs = 0x29b8900;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -85,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::InternalDecoderBestFitFallbackBuffer::*)()>(
     &::System::Text::InternalDecoderBestFitFallbackBuffer::Reset)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x28ba05c;
+  constexpr static std::size_t addrs = 0x29b890c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -101,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::InternalDecoderBestFitFallbackBuffer::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::cordl_internals::Ptr<uint8_t>)>(&::System::Text::InternalDecoderBestFitFallbackBuffer::InternalFallback)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x28ba06c;
+  constexpr static std::size_t addrs = 0x29b891c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -117,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (::System::Text::InternalDecoderBestFitFallbackBuffer::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::System::Text::InternalDecoderBestFitFallbackBuffer::TryBestFit)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x28b9ed0;
+  constexpr static std::size_t addrs = 0x29b8780;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Users/InputUserAccountHandle.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,34 +34,34 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::InputSystem::Users::InputUserAccountHandle>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::InputSystem::Users::InputUserAccountHandle>*();
 
-  /// @brief Method Equals, addr 0x3001e60, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x313ebec, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x3001db0, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x313eb3c, size 0xb0, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::InputSystem::Users::InputUserAccountHandle other);
 
-  /// @brief Method GetHashCode, addr 0x3001f08, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x313ec94, size 0x58, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x3001cec, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x313ea78, size 0xc4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x3001c6c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x313e9f8, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::StringW apiName, uint64_t handle);
 
-  /// @brief Method get_apiName, addr 0x3001c5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_apiName, addr 0x313e9e8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_apiName();
 
-  /// @brief Method get_handle, addr 0x3001c64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_handle, addr 0x313e9f0, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_handle();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::InputSystem::Users::InputUserAccountHandle>"
   constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::Users::InputUserAccountHandle>* i___System__IEquatable_1___UnityEngine__InputSystem__Users__InputUserAccountHandle_();
 
-  /// @brief Method op_Equality, addr 0x3001b48, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x313e8d4, size 0x2c, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::InputSystem::Users::InputUserAccountHandle left, ::UnityEngine::InputSystem::Users::InputUserAccountHandle right);
 
-  /// @brief Method op_Inequality, addr 0x3001ed8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x313ec64, size 0x30, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::InputSystem::Users::InputUserAccountHandle left, ::UnityEngine::InputSystem::Users::InputUserAccountHandle right);
 
   // Ctor Parameters []

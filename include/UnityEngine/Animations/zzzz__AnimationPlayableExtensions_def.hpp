@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Animations/AnimationPlayableExtensions.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,7 +29,7 @@ public:
   /// @brief Method SetAnimatedProperties, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename U> static inline void SetAnimatedProperties(U playable, ::UnityEngine::AnimationClip* clip);
 
-  /// @brief Method SetAnimatedPropertiesInternal, addr 0x31c51fc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetAnimatedPropertiesInternal, addr 0x33cac84, size 0x44, virtual false, abstract: false, final false
   static inline void SetAnimatedPropertiesInternal(ByRef<::UnityEngine::Playables::PlayableHandle> playable, ::UnityEngine::AnimationClip* animatedProperties);
 
 protected:

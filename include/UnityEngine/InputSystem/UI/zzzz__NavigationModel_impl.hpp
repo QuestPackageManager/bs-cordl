@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/UI/NavigationModel.hpp"
 #include "UnityEngine/EventSystems/zzzz__MoveDirection_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/InputSystem/UI/zzzz__NavigationModel_def.hpp"
@@ -11,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::UI::NavigationModel::*)()>(
     &::UnityEngine::InputSystem::UI::NavigationModel::Reset)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3006864;
+  constexpr static std::size_t addrs = 0x31435f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::UI::NavigationModel>::get(), "Reset",

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Util/TokenizerShortBlock.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Security/Util/zzzz__TokenizerShortBlock_def.hpp"
 //  Writing Method size for method: ::System::Security::Util::TokenizerShortBlock._ctor
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Util::TokenizerShortBlock::*)()>(&::System::Security::Util::TokenizerShortBlock::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x26d93c4;
+  constexpr static std::size_t addrs = 0x27d77c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Util::TokenizerShortBlock*>::get(), ".ctor",

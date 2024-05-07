@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/XPath/XPathException.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,19 +41,19 @@ public:
   /// @brief Field res, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get_res, put = __cordl_internal_set_res))::StringW res;
 
-  /// @brief Method Create, addr 0x2dc2168, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2ebfa68, size 0x88, virtual false, abstract: false, final false
   static inline ::System::Xml::XPath::XPathException* Create(::StringW res);
 
-  /// @brief Method Create, addr 0x2dc2240, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2ebfb40, size 0xf0, virtual false, abstract: false, final false
   static inline ::System::Xml::XPath::XPathException* Create(::StringW res, ::StringW arg);
 
-  /// @brief Method Create, addr 0x2dc2330, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2ebfc30, size 0x11c, virtual false, abstract: false, final false
   static inline ::System::Xml::XPath::XPathException* Create(::StringW res, ::StringW arg, ::StringW arg2);
 
-  /// @brief Method CreateMessage, addr 0x2dc1db0, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method CreateMessage, addr 0x2ebf6b0, size 0x13c, virtual false, abstract: false, final false
   static inline ::StringW CreateMessage(::StringW res, ::ArrayW<::StringW, ::Array<::StringW>*> args);
 
-  /// @brief Method GetObjectData, addr 0x2dc1eec, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x2ebf7ec, size 0xe8, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Xml::XPath::XPathException* New_ctor();
@@ -83,22 +84,22 @@ public:
 
   constexpr void __cordl_internal_set_res(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2dc1fd4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ebf8d4, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2dc1b3c, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ebf43c, size 0x274, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x2dc2028, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ebf928, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x2dc21f0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ebfaf0, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::StringW res, ::ArrayW<::StringW, ::Array<::StringW>*> args);
 
-  /// @brief Method .ctor, addr 0x2dc210c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ebfa0c, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::StringW res, ::ArrayW<::StringW, ::Array<::StringW>*> args, ::System::Exception* inner);
 
-  /// @brief Method get_Message, addr 0x2dc244c, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x2ebfd4c, size 0x18, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
 protected:

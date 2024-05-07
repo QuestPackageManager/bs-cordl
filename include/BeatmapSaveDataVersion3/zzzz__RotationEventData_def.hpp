@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatmapSaveDataVersion3/RotationEventData.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,13 +48,13 @@ public:
 
   constexpr void __cordl_internal_set_r(float_t value);
 
-  /// @brief Method .ctor, addr 0x1401360, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14f2924, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, ::BeatmapSaveDataCommon::ExecutionTime executionTime, float_t rotation);
 
-  /// @brief Method get_executionTime, addr 0x1401350, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_executionTime, addr 0x14f2914, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::ExecutionTime get_executionTime();
 
-  /// @brief Method get_rotation, addr 0x1401358, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotation, addr 0x14f291c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_rotation();
 
 protected:

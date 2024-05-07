@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Serialization/XmlNodeEventArgs.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,7 +64,7 @@ public:
 
   constexpr void __cordl_internal_set_xmlNode(::System::Xml::XmlNode* value);
 
-  /// @brief Method .ctor, addr 0x2dc56f0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ec2ff0, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlNode* xmlNode, int32_t lineNumber, int32_t linePosition, ::System::Object* o);
 
 protected:

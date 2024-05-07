@@ -1,12 +1,13 @@
 #pragma once
+// IWYU pragma private; include "Unity/ThrowStub.hpp"
 #include "System/zzzz__ObjectDisposedException_impl.hpp"
 #include "Unity/zzzz__ThrowStub_def.hpp"
 //  Writing Method size for method: ::Unity::ThrowStub.ThrowNotSupportedException
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Unity::ThrowStub::ThrowNotSupportedException)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2ca1cf8;
+  constexpr static std::size_t size = 0x1040;
+  constexpr static std::size_t addrs = 0x2f78420;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::ThrowStub*>::get(), "ThrowNotSupportedException",

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/ConcreteIdBinderNonGeneric.hpp"
 #include "Zenject/zzzz__ConcreteBinderNonGeneric_impl.hpp"
 #include "Zenject/zzzz__ConcreteIdBinderNonGeneric_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -12,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::Zenject::ConcreteIdBinderNonGeneric::*)(::Zenject::DiContainer*, ::Zenject::BindInfo*, ::Zenject::BindStatement*)>(&::Zenject::ConcreteIdBinderNonGeneric::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x34172cc;
+  constexpr static std::size_t addrs = 0x361c008;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::ConcreteBinderNonGeneric* (::Zenject::ConcreteIdBinderNonGeneric::*)(::System::Object*)>(
     &::Zenject::ConcreteIdBinderNonGeneric::WithId)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3417300;
+  constexpr static std::size_t addrs = 0x361c03c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

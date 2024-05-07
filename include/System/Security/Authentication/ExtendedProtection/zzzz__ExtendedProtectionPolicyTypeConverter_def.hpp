@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Authentication/ExtendedProtection/ExtendedProtectionPolicyTypeConverter.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,16 +31,16 @@ namespace System::Security::Authentication::ExtendedProtection {
 class CORDL_TYPE ExtendedProtectionPolicyTypeConverter : public ::System::ComponentModel::TypeConverter {
 public:
   // Declarations
-  /// @brief Method CanConvertTo, addr 0x2ea7bd8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method CanConvertTo, addr 0x2fa94d8, size 0x40, virtual true, abstract: false, final false
   inline bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* destinationType);
 
-  /// @brief Method ConvertTo, addr 0x2ea7c18, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method ConvertTo, addr 0x2fa9518, size 0x40, virtual true, abstract: false, final false
   inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
                                      ::System::Type* destinationType);
 
   static inline ::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicyTypeConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ea7c58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fa9558, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

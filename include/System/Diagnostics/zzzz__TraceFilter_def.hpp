@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Diagnostics/TraceFilter.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,7 +31,7 @@ namespace System::Diagnostics {
 class CORDL_TYPE TraceFilter : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ShouldTrace, addr 0x2ea08e4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ShouldTrace, addr 0x2fa21e4, size 0x2c, virtual false, abstract: false, final false
   inline bool ShouldTrace(::System::Diagnostics::TraceEventCache* cache, ::StringW source, ::System::Diagnostics::TraceEventType eventType, int32_t id, ::StringW formatOrMessage);
 
   /// @brief Method ShouldTrace, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

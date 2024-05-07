@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/BootConfigData.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,7 +26,7 @@ public:
 
   static inline ::UnityEngine::BootConfigData* New_ctor(void* nativeHandle);
 
-  /// @brief Method WrapBootConfigData, addr 0x32043b0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method WrapBootConfigData, addr 0x340b0e4, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityEngine::BootConfigData* WrapBootConfigData(void* nativeHandle);
 
   constexpr void* const& __cordl_internal_get_m_Ptr() const;
@@ -34,7 +35,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Ptr(void* value);
 
-  /// @brief Method .ctor, addr 0x3204410, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x340b144, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(void* nativeHandle);
 
 protected:

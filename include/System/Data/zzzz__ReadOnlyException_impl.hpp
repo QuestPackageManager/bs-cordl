@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/ReadOnlyException.hpp"
 #include "System/Data/zzzz__DataException_impl.hpp"
 #include "System/Data/zzzz__ReadOnlyException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::ReadOnlyException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Data::ReadOnlyException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b84f30;
+  constexpr static std::size_t addrs = 0x2c82830;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::ReadOnlyException::*)()>(&::System::Data::ReadOnlyException::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x2b84f38;
+  constexpr static std::size_t addrs = 0x2c82838;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ReadOnlyException*>::get(), ".ctor",
@@ -37,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::ReadOnlyException::*)(::StringW)>(&::System::Data::ReadOnlyException::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2b84f94;
+  constexpr static std::size_t addrs = 0x2c82894;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

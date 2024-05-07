@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/ScriptableObjectInstaller_5.hpp"
 #include "Zenject/zzzz__ScriptableObjectInstallerBase_impl.hpp"
 #include "Zenject/zzzz__ScriptableObjectInstaller_5_def.hpp"
 #include "System/zzzz__Object_def.hpp"

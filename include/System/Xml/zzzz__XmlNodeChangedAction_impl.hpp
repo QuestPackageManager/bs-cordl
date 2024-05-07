@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/XmlNodeChangedAction.hpp"
 #include "System/Xml/zzzz__XmlNodeChangedAction_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Xml::XmlNodeChangedAction::XmlNodeChangedAction(int32_t value__) noexcept {

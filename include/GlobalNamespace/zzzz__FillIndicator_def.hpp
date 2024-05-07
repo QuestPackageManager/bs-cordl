@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/FillIndicator.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,13 +45,13 @@ public:
 
   constexpr void __cordl_internal_set__image(::UnityW<::UnityEngine::UI::Image> value);
 
-  /// @brief Method .ctor, addr 0x2636a34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2736814, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_fillAmount, addr 0x2636a18, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_fillAmount, addr 0x27367f8, size 0x1c, virtual false, abstract: false, final false
   inline float_t get_fillAmount();
 
-  /// @brief Method set_fillAmount, addr 0x26368e8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_fillAmount, addr 0x27366c8, size 0x44, virtual false, abstract: false, final false
   inline void set_fillAmount(float_t value);
 
 protected:

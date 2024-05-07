@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "JetBrains/Annotations/AssertionConditionAttribute.hpp"
 #include "JetBrains/Annotations/zzzz__AssertionConditionType_impl.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "JetBrains/Annotations/zzzz__AssertionConditionAttribute_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::AssertionConditionAttribute::*)(::JetBrains::Annotations::AssertionConditionType)>(
     &::JetBrains::Annotations::AssertionConditionAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x340a64c;
+  constexpr static std::size_t addrs = 0x360f388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::JetBrains::Annotations::AssertionConditionType (::JetBrains::Annotations::AssertionConditionAttribute::*)()>(
     &::JetBrains::Annotations::AssertionConditionAttribute::get_ConditionType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x340a674;
+  constexpr static std::size_t addrs = 0x360f3b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::JetBrains::Annotations::AssertionConditionAttribute*>::get(),
@@ -38,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::AssertionConditionAttribute::*)(::JetBrains::Annotations::AssertionConditionType)>(
     &::JetBrains::Annotations::AssertionConditionAttribute::set_ConditionType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x340a67c;
+  constexpr static std::size_t addrs = 0x360f3b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

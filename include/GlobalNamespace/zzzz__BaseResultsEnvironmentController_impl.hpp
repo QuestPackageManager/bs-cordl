@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BaseResultsEnvironmentController.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BaseResultsEnvironmentController_def.hpp"
 #include "GlobalNamespace/zzzz__IReadonlyBeatmapData_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BaseResultsEnvironmentController::*)()>(
     &::GlobalNamespace::BaseResultsEnvironmentController::Activate)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2515bf0;
+  constexpr static std::size_t addrs = 0x260cf58;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BaseResultsEnvironmentController::*)()>(
     &::GlobalNamespace::BaseResultsEnvironmentController::Deactivate)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2515c14;
+  constexpr static std::size_t addrs = 0x260cf7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -72,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BaseResultsEnvironmentController::*)()>(
     &::GlobalNamespace::BaseResultsEnvironmentController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2515c38;
+  constexpr static std::size_t addrs = 0x260cfa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BaseResultsEnvironmentController*>::get(),

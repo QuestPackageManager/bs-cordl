@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ToneMappingExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__ToneMappingExtensions_def.hpp"
 #include "GlobalNamespace/zzzz__ToneMapping_def.hpp"
@@ -7,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::GlobalNamespace::ToneMapping)>(&::GlobalNamespace::ToneMappingExtensions::SetShaderKeyword)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x23f30d0;
+  constexpr static std::size_t addrs = 0x24eacc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

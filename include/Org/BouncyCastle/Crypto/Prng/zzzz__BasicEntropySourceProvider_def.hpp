@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Prng/BasicEntropySourceProvider.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,13 +56,13 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Prng::__BasicEntropySourceProvider__BasicEntropySource* New_ctor(::Org::BouncyCastle::Security::SecureRandom* secureRandom, bool predictionResistant,
                                                                                                               int32_t entropySize);
 
-  /// @brief Method Org.BouncyCastle.Crypto.IEntropySource.GetEntropy, addr 0x10abc34, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Org.BouncyCastle.Crypto.IEntropySource.GetEntropy, addr 0x119f358, size 0x70, virtual true, abstract: false, final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org_BouncyCastle_Crypto_IEntropySource_GetEntropy();
 
-  /// @brief Method Org.BouncyCastle.Crypto.IEntropySource.get_EntropySize, addr 0x10abd20, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Org.BouncyCastle.Crypto.IEntropySource.get_EntropySize, addr 0x119f444, size 0x8, virtual true, abstract: false, final true
   inline int32_t Org_BouncyCastle_Crypto_IEntropySource_get_EntropySize();
 
-  /// @brief Method Org.BouncyCastle.Crypto.IEntropySource.get_IsPredictionResistant, addr 0x10abc2c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Org.BouncyCastle.Crypto.IEntropySource.get_IsPredictionResistant, addr 0x119f350, size 0x8, virtual true, abstract: false, final true
   inline bool Org_BouncyCastle_Crypto_IEntropySource_get_IsPredictionResistant();
 
   constexpr int32_t const& __cordl_internal_get_mEntropySize() const;
@@ -82,7 +83,7 @@ public:
 
   constexpr void __cordl_internal_set_mSecureRandom(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method .ctor, addr 0x10abbec, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x119f310, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* secureRandom, bool predictionResistant, int32_t entropySize);
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IEntropySource"
@@ -142,7 +143,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IEntropySourceProvider"
   constexpr operator ::Org::BouncyCastle::Crypto::IEntropySourceProvider*() noexcept;
 
-  /// @brief Method Get, addr 0x10abb6c, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method Get, addr 0x119f290, size 0x80, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::IEntropySource* Get(int32_t bitsRequired);
 
   static inline ::Org::BouncyCastle::Crypto::Prng::BasicEntropySourceProvider* New_ctor(::Org::BouncyCastle::Security::SecureRandom* secureRandom, bool isPredictionResistant);
@@ -159,7 +160,7 @@ public:
 
   constexpr void __cordl_internal_set_mSecureRandom(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method .ctor, addr 0x10abb3c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x119f260, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* secureRandom, bool isPredictionResistant);
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IEntropySourceProvider"

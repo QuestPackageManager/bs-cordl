@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/Test_HAPI_GeoInfo.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_GeoInfo_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__Test_HAPI_GeoInfo_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::Test_HAPI_GeoInfo::*)(::HoudiniEngineUnity::HAPI_GeoInfo)>(
     &::HoudiniEngineUnity::Test_HAPI_GeoInfo::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x24cf3e0;
+  constexpr static std::size_t addrs = 0x25c706c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::Test_HAPI_GeoInfo::*)(::HoudiniEngineUnity::Test_HAPI_GeoInfo*)>(
     &::HoudiniEngineUnity::Test_HAPI_GeoInfo::IsEquivalentTo)> {
   constexpr static std::size_t size = 0x300;
-  constexpr static std::size_t addrs = 0x24cf414;
+  constexpr static std::size_t addrs = 0x25c70a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

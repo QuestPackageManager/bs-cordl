@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/Test_TerrainLayer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__Test_TerrainLayer_def.hpp"
 #include "HoudiniEngineUnity/zzzz__IEquivableWrapperClass_1_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::Test_TerrainLayer::*)(::UnityEngine::TerrainLayer*)>(
     &::HoudiniEngineUnity::Test_TerrainLayer::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x24d36a0;
+  constexpr static std::size_t addrs = 0x25cb32c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::Test_TerrainLayer::*)()>(&::HoudiniEngineUnity::Test_TerrainLayer::IsNull)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x24d36c8;
+  constexpr static std::size_t addrs = 0x25cb354;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::Test_TerrainLayer*>::get(), "IsNull",
@@ -38,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::Test_TerrainLayer::*)(::HoudiniEngineUnity::Test_TerrainLayer*)>(
     &::HoudiniEngineUnity::Test_TerrainLayer::IsEquivalentTo)> {
   constexpr static std::size_t size = 0x464;
-  constexpr static std::size_t addrs = 0x24d3728;
+  constexpr static std::size_t addrs = 0x25cb3b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

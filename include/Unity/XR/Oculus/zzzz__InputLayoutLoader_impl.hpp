@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/XR/Oculus/InputLayoutLoader.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/XR/Oculus/zzzz__InputLayoutLoader_def.hpp"
 //  Writing Method size for method: ::Unity::XR::Oculus::InputLayoutLoader.RegisterInputLayouts
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Unity::XR::Oculus::InputLayoutLoader::RegisterInputLayouts)> {
   constexpr static std::size_t size = 0x358;
-  constexpr static std::size_t addrs = 0x31a6130;
+  constexpr static std::size_t addrs = 0x33abbb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::InputLayoutLoader*>::get(),

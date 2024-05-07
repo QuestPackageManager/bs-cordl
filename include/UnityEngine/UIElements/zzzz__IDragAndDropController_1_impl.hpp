@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/IDragAndDropController_1.hpp"
 #include "UnityEngine/UIElements/zzzz__IDragAndDropController_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__DragVisualMode_def.hpp"

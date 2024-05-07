@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/LoadLocalInstruction.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__LocalAccessInstruction_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__LoadLocalInstruction_def.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__IBoxableInstruction_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::LoadLocalInstruction::*)(int32_t)>(
     &::System::Linq::Expressions::Interpreter::LoadLocalInstruction::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2b3d6c0;
+  constexpr static std::size_t addrs = 0x2c39fc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::LoadLocalInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::LoadLocalInstruction::get_ProducedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b3d6e8;
+  constexpr static std::size_t addrs = 0x2c39fe8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::LoadLocalInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::LoadLocalInstruction::get_InstructionName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2b3d6f0;
+  constexpr static std::size_t addrs = 0x2c39ff0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::LoadLocalInstruction::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::System::Linq::Expressions::Interpreter::LoadLocalInstruction::Run)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x2b3d730;
+  constexpr static std::size_t addrs = 0x2c3a030;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -73,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Interpreter::Instruction* (
     ::System::Linq::Expressions::Interpreter::LoadLocalInstruction::*)(int32_t)>(&::System::Linq::Expressions::Interpreter::LoadLocalInstruction::BoxIfIndexMatches)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x2b3d7b8;
+  constexpr static std::size_t addrs = 0x2c3a0b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

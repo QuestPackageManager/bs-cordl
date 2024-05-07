@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/TextCore/Text/MeshInfo.hpp"
 #include "UnityEngine/zzzz__Color32_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__MeshInfo_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__VertexSortingOrder_def.hpp"
@@ -11,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::MeshInfo::*)(int32_t)>(&::UnityEngine::TextCore::Text::MeshInfo::_ctor)> {
   constexpr static std::size_t size = 0x354;
-  constexpr static std::size_t addrs = 0x3298d4c;
+  constexpr static std::size_t addrs = 0x34a0a88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::MeshInfo::*)(int32_t)>(
     &::UnityEngine::TextCore::Text::MeshInfo::ResizeMeshInfo)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x32990a0;
+  constexpr static std::size_t addrs = 0x34a0ddc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::MeshInfo::*)(bool)>(&::UnityEngine::TextCore::Text::MeshInfo::Clear)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x32959d8;
+  constexpr static std::size_t addrs = 0x349d714;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -54,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::MeshInfo::*)()>(&::UnityEngine::TextCore::Text::MeshInfo::ClearUnusedVertices)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3299288;
+  constexpr static std::size_t addrs = 0x34a0fc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::MeshInfo>::get(),
@@ -68,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::MeshInfo::*)(::UnityEngine::TextCore::Text::VertexSortingOrder)>(
     &::UnityEngine::TextCore::Text::MeshInfo::SortGeometry)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x32992c4;
+  constexpr static std::size_t addrs = 0x34a1000;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::MeshInfo::*)(int32_t, int32_t)>(
     &::UnityEngine::TextCore::Text::MeshInfo::SwapVertexData)> {
   constexpr static std::size_t size = 0x58c;
-  constexpr static std::size_t addrs = 0x3299340;
+  constexpr static std::size_t addrs = 0x34a107c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

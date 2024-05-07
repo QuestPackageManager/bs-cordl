@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SongStartHandler.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__SongStartHandler_def.hpp"
 #include "GlobalNamespace/zzzz__IGameplayRpcManager_def.hpp"
@@ -12,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::GlobalNamespace::SongStartHandler::*)()>(&::GlobalNamespace::SongStartHandler::get_songStartSyncTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xfc22d8;
+  constexpr static std::size_t addrs = 0x10b59fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongStartHandler*>::get(),
@@ -26,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongStartHandler::*)(::System::Action_1<int64_t>*)>(
     &::GlobalNamespace::SongStartHandler::add_setSongStartSyncTimeEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0xfc22e0;
+  constexpr static std::size_t addrs = 0x10b5a04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongStartHandler::*)(::System::Action_1<int64_t>*)>(
     &::GlobalNamespace::SongStartHandler::remove_setSongStartSyncTimeEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0xfc2390;
+  constexpr static std::size_t addrs = 0x10b5ab4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,7 +58,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::IMultiplayerSessionManager*, ::GlobalNamespace::IGameplayRpcManager*, ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*)>(
     &::GlobalNamespace::SongStartHandler::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0xfc2440;
+  constexpr static std::size_t addrs = 0x10b5b64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongStartHandler::*)()>(&::GlobalNamespace::SongStartHandler::GetLevelStartTimeOffset)> {
   constexpr static std::size_t size = 0x4ec;
-  constexpr static std::size_t addrs = 0xfc24e4;
+  constexpr static std::size_t addrs = 0x10b5c08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongStartHandler*>::get(),
@@ -86,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongStartHandler::*)()>(&::GlobalNamespace::SongStartHandler::Dispose)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0xfc29d0;
+  constexpr static std::size_t addrs = 0x10b60f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongStartHandler*>::get(), "Dispose",
@@ -99,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongStartHandler::*)(::StringW)>(&::GlobalNamespace::SongStartHandler::ForceStart)> {
   constexpr static std::size_t size = 0x6b0;
-  constexpr static std::size_t addrs = 0xfc2c14;
+  constexpr static std::size_t addrs = 0x10b6338;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -113,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongStartHandler::*)()>(&::GlobalNamespace::SongStartHandler::StartSong)> {
   constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0xfc32c4;
+  constexpr static std::size_t addrs = 0x10b69e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongStartHandler*>::get(), "StartSong",
@@ -127,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongStartHandler::*)(::StringW)>(
     &::GlobalNamespace::SongStartHandler::HandleSetGameplaySongReady)> {
   constexpr static std::size_t size = 0x2b0;
-  constexpr static std::size_t addrs = 0xfc355c;
+  constexpr static std::size_t addrs = 0x10b6c80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -142,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongStartHandler::*)(::StringW)>(
     &::GlobalNamespace::SongStartHandler::HandleGetGameplaySongReady)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0xfc380c;
+  constexpr static std::size_t addrs = 0x10b6f30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -157,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongStartHandler::*)(::StringW, int64_t)>(
     &::GlobalNamespace::SongStartHandler::HandleSetSongStartTime)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0xfc38b0;
+  constexpr static std::size_t addrs = 0x10b6fd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -171,7 +172,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongStartHandler::*)(::StringW)>(&::GlobalNamespace::SongStartHandler::Log)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0xfc38e0;
+  constexpr static std::size_t addrs = 0x10b7004;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

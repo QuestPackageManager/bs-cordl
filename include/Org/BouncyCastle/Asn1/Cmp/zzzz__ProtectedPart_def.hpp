@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Cmp/ProtectedPart.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,14 +44,14 @@ public:
   /// @brief Field header, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_header, put = __cordl_internal_set_header))::Org::BouncyCastle::Asn1::Cmp::PkiHeader* header;
 
-  /// @brief Method GetInstance, addr 0xfd9330, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x10cca54, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::ProtectedPart* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::ProtectedPart* New_ctor(::Org::BouncyCastle::Asn1::Cmp::PkiHeader* header, ::Org::BouncyCastle::Asn1::Cmp::PkiBody* body);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::ProtectedPart* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0xfd94f4, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x10ccc18, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiBody*& __cordl_internal_get_body();
@@ -65,16 +66,16 @@ public:
 
   constexpr void __cordl_internal_set_header(::Org::BouncyCastle::Asn1::Cmp::PkiHeader* value);
 
-  /// @brief Method .ctor, addr 0xfd94b8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10ccbdc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cmp::PkiHeader* header, ::Org::BouncyCastle::Asn1::Cmp::PkiBody* body);
 
-  /// @brief Method .ctor, addr 0xfd9284, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10cc9a8, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Body, addr 0xfd94ec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Body, addr 0x10ccc10, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiBody* get_Body();
 
-  /// @brief Method get_Header, addr 0xfd94e4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Header, addr 0x10ccc08, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeader* get_Header();
 
 protected:

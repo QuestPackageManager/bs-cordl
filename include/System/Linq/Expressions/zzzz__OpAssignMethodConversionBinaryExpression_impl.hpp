@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/OpAssignMethodConversionBinaryExpression.hpp"
 #include "System/Linq/Expressions/zzzz__MethodBinaryExpression_impl.hpp"
 #include "System/Linq/Expressions/zzzz__OpAssignMethodConversionBinaryExpression_def.hpp"
 #include "System/Linq/Expressions/zzzz__ExpressionType_def.hpp"
@@ -13,7 +14,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Linq::Expressions::ExpressionType, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Type*, ::System::Reflection::MethodInfo*,
     ::System::Linq::Expressions::LambdaExpression*)>(&::System::Linq::Expressions::OpAssignMethodConversionBinaryExpression::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2ae8ac0;
+  constexpr static std::size_t addrs = 0x2be53c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -33,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::LambdaExpression* (
     ::System::Linq::Expressions::OpAssignMethodConversionBinaryExpression::*)()>(&::System::Linq::Expressions::OpAssignMethodConversionBinaryExpression::GetConversion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ae8b48;
+  constexpr static std::size_t addrs = 0x2be5448;
 
   inline static ::MethodInfo const* methodInfo() {
 

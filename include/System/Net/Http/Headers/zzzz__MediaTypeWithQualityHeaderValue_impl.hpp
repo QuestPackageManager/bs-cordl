@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Http/Headers/MediaTypeWithQualityHeaderValue.hpp"
 #include "System/Net/Http/Headers/zzzz__MediaTypeHeaderValue_impl.hpp"
 #include "System/Net/Http/Headers/zzzz__MediaTypeWithQualityHeaderValue_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue::*)()>(
     &::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2c77444;
+  constexpr static std::size_t addrs = 0x2d74d44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +27,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::System::Net::Http::Headers::Lexer*, ByRef<::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue*>, ByRef<::System::Net::Http::Headers::Token>)>(
         &::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue::TryParseElement)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x2c7744c;
+  constexpr static std::size_t addrs = 0x2d74d4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,7 +45,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::StringW, int32_t, ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue*>*>)>(
         &::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue::TryParse)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2c775b4;
+  constexpr static std::size_t addrs = 0x2d74eb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

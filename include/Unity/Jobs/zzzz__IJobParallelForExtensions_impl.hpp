@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/Jobs/IJobParallelForExtensions.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"

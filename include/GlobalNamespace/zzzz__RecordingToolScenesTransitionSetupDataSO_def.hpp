@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/RecordingToolScenesTransitionSetupDataSO.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,12 +22,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE RecordingToolScenesTransitionSetupDataSO : public ::GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x25a6d74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x26a0d4c, size 0x8, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::RecordingToolSceneSetupData* recordingToolSceneSetupData);
 
   static inline ::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25ac184, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a642c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

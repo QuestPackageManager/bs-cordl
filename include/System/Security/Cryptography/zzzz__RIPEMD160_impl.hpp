@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Cryptography/RIPEMD160.hpp"
 #include "System/Security/Cryptography/zzzz__HashAlgorithm_impl.hpp"
 #include "System/Security/Cryptography/zzzz__RIPEMD160_def.hpp"
 //  Writing Method size for method: ::System::Security::Cryptography::RIPEMD160._ctor
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::RIPEMD160::*)()>(&::System::Security::Cryptography::RIPEMD160::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x26e7238;
+  constexpr static std::size_t addrs = 0x27e4634;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::RIPEMD160*>::get(), ".ctor",
@@ -19,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::RIPEMD160* (*)()>(&::System::Security::Cryptography::RIPEMD160::Create)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x26e7258;
+  constexpr static std::size_t addrs = 0x27e4654;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::RIPEMD160*>::get(), "Create",

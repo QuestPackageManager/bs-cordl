@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Security/SecurityUtilityException.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,13 +29,13 @@ public:
 
   static inline ::Org::BouncyCastle::Security::SecurityUtilityException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0x12b0fec, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13a2710, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x12b0f84, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13a26a8, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x12b1044, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13a2768, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
 protected:

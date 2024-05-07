@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/X509/Store/X509StoreFactory.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/X509/Store/zzzz__X509StoreFactory_def.hpp"
 #include "Org/BouncyCastle/X509/Store/zzzz__IX509StoreParameters_def.hpp"
@@ -11,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::X509::Store::X509StoreFactory::*)()>(
     &::Org::BouncyCastle::X509::Store::X509StoreFactory::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x12e37e0;
+  constexpr static std::size_t addrs = 0x13d4f04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::X509::Store::X509StoreFactory*>::get(),
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::X509::Store::IX509Store* (*)(::StringW, ::Org::BouncyCastle::X509::Store::IX509StoreParameters*)>(&::Org::BouncyCastle::X509::Store::X509StoreFactory::Create)> {
   constexpr static std::size_t size = 0x3b8;
-  constexpr static std::size_t addrs = 0x12e37e8;
+  constexpr static std::size_t addrs = 0x13d4f0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::ICollection*, ::System::Type*)>(
     &::Org::BouncyCastle::X509::Store::X509StoreFactory::checkCorrectType)> {
   constexpr static std::size_t size = 0x380;
-  constexpr static std::size_t addrs = 0x12e3ba0;
+  constexpr static std::size_t addrs = 0x13d52c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

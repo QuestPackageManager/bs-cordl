@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "JetBrains/Annotations/ContractAnnotationAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "JetBrains/Annotations/zzzz__ContractAnnotationAttribute_def.hpp"
 //  Writing Method size for method: ::JetBrains::Annotations::ContractAnnotationAttribute._ctor
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::ContractAnnotationAttribute::*)(::StringW)>(
     &::JetBrains::Annotations::ContractAnnotationAttribute::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3409f58;
+  constexpr static std::size_t addrs = 0x360ec94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::ContractAnnotationAttribute::*)(::StringW, bool)>(
     &::JetBrains::Annotations::ContractAnnotationAttribute::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3409f84;
+  constexpr static std::size_t addrs = 0x360ecc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -37,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::JetBrains::Annotations::ContractAnnotationAttribute::*)()>(
     &::JetBrains::Annotations::ContractAnnotationAttribute::get_Contract)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3409fb8;
+  constexpr static std::size_t addrs = 0x360ecf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::JetBrains::Annotations::ContractAnnotationAttribute*>::get(),
@@ -51,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::ContractAnnotationAttribute::*)(::StringW)>(
     &::JetBrains::Annotations::ContractAnnotationAttribute::set_Contract)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3409fc0;
+  constexpr static std::size_t addrs = 0x360ecfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::JetBrains::Annotations::ContractAnnotationAttribute::*)()>(
     &::JetBrains::Annotations::ContractAnnotationAttribute::get_ForceFullStates)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3409fc8;
+  constexpr static std::size_t addrs = 0x360ed04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::JetBrains::Annotations::ContractAnnotationAttribute*>::get(),
@@ -80,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::ContractAnnotationAttribute::*)(bool)>(
     &::JetBrains::Annotations::ContractAnnotationAttribute::set_ForceFullStates)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3409fd0;
+  constexpr static std::size_t addrs = 0x360ed0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

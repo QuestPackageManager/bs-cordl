@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SinglePositionTween.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,7 +53,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::Timeline::ITimelineClipAsset"
   constexpr operator ::UnityEngine::Timeline::ITimelineClipAsset*() noexcept;
 
-  /// @brief Method CreatePlayable, addr 0x25a3410, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method CreatePlayable, addr 0x269d2d4, size 0x1c4, virtual true, abstract: false, final false
   inline ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go);
 
   static inline ::GlobalNamespace::SinglePositionTween* New_ctor();
@@ -69,10 +70,10 @@ public:
 
   constexpr void __cordl_internal_set_transformReference(::UnityEngine::ExposedReference_1<::UnityW<::UnityEngine::Transform>> value);
 
-  /// @brief Method .ctor, addr 0x25a35d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x269d498, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_clipCaps, addr 0x25a3408, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_clipCaps, addr 0x269d2cc, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Timeline::ClipCaps get_clipCaps();
 
   /// @brief Convert to "::UnityEngine::Timeline::ITimelineClipAsset"

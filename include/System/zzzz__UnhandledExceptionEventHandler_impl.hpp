@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/UnhandledExceptionEventHandler.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__UnhandledExceptionEventHandler_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::UnhandledExceptionEventHandler::*)(::System::Object*, void*)>(
     &::System::UnhandledExceptionEventHandler::_ctor)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x28535a8;
+  constexpr static std::size_t addrs = 0x2952e50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::UnhandledExceptionEventHandler::*)(::System::Object*, ::System::UnhandledExceptionEventArgs*)>(
     &::System::UnhandledExceptionEventHandler::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x28536d8;
+  constexpr static std::size_t addrs = 0x2952f80;
 
   inline static ::MethodInfo const* methodInfo() {
 

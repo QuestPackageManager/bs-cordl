@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/LowerResBlitTexture.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,7 +19,7 @@ namespace UnityEngine {
 class CORDL_TYPE LowerResBlitTexture : public ::UnityEngine::Object {
 public:
   // Declarations
-  /// @brief Method LowerResBlitTextureDontStripMe, addr 0x3216cac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method LowerResBlitTextureDontStripMe, addr 0x341d9e8, size 0x4, virtual false, abstract: false, final false
   inline void LowerResBlitTextureDontStripMe();
 
 protected:

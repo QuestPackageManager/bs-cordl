@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Reflection/CorElementType.hpp"
 #include "System/Reflection/zzzz__CorElementType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Reflection::CorElementType::CorElementType(uint8_t value__) noexcept {

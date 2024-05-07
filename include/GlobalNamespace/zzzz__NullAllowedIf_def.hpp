@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/NullAllowedIf.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,7 +39,7 @@ public:
   /// @brief Field propertyName, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_propertyName, put = __cordl_internal_set_propertyName))::StringW propertyName;
 
-  /// @brief Method IsNullAllowedFor, addr 0xf81524, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method IsNullAllowedFor, addr 0x1072ad4, size 0xf4, virtual false, abstract: false, final false
   inline bool IsNullAllowedFor(::System::Object* value, ::GlobalNamespace::__NullAllowed__Context context);
 
   static inline ::GlobalNamespace::NullAllowedIf* New_ctor(::StringW propertyName, ::GlobalNamespace::ComparisonOperation comparisonOperation, ::System::Object* valueToCompare,
@@ -64,10 +65,10 @@ public:
 
   constexpr void __cordl_internal_set_propertyName(::StringW value);
 
-  /// @brief Method .ctor, addr 0xf814e0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1072a90, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::StringW propertyName, ::GlobalNamespace::ComparisonOperation comparisonOperation, ::System::Object* valueToCompare, ::GlobalNamespace::__NullAllowed__Context context);
 
-  /// @brief Method .ctor, addr 0xf814a0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1072a50, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::StringW propertyName, ::System::Object* equalsTo, ::GlobalNamespace::__NullAllowed__Context context);
 
 protected:

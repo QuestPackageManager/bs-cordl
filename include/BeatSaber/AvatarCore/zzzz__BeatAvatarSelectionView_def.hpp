@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatSaber/AvatarCore/BeatAvatarSelectionView.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,27 +48,27 @@ public:
   __declspec(property(get = __cordl_internal_get__beatAvatarVisualController,
                       put = __cordl_internal_set__beatAvatarVisualController))::UnityW<::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController> _beatAvatarVisualController;
 
-  /// @brief Method Activate, addr 0xf571f8, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method Activate, addr 0x1045d6c, size 0x48, virtual true, abstract: false, final false
   inline void Activate();
 
-  /// @brief Method Deactivate, addr 0xf57240, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Deactivate, addr 0x1045db4, size 0x24, virtual true, abstract: false, final false
   inline void Deactivate();
 
-  /// @brief Method HandleAvatarDataModelDidChangeAvatarData, addr 0xf57264, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleAvatarDataModelDidChangeAvatarData, addr 0x1045dd8, size 0x4, virtual false, abstract: false, final false
   inline void HandleAvatarDataModelDidChangeAvatarData(::BeatSaber::BeatAvatarSDK::AvatarData* data);
 
-  /// @brief Method Init, addr 0xf5705c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x1045bd0, size 0x94, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::BeatSaber::AvatarCore::BeatAvatarSelectionView* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0xf57118, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x1045c8c, size 0x98, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetCreated, addr 0xf571b0, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method SetCreated, addr 0x1045d24, size 0x48, virtual true, abstract: false, final false
   inline void SetCreated(bool isCreated);
 
-  /// @brief Method UpdateAvatarVisuals, addr 0xf570f0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method UpdateAvatarVisuals, addr 0x1045c64, size 0x28, virtual false, abstract: false, final false
   inline void UpdateAvatarVisuals();
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__avatarContainer() const;
@@ -94,7 +95,7 @@ public:
 
   constexpr void __cordl_internal_set__beatAvatarVisualController(::UnityW<::BeatSaber::BeatAvatarSDK::BeatAvatarVisualController> value);
 
-  /// @brief Method .ctor, addr 0xf57268, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1045ddc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

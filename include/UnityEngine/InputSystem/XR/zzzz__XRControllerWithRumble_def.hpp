@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/XR/XRControllerWithRumble.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,10 +22,10 @@ public:
   // Declarations
   static inline ::UnityEngine::InputSystem::XR::XRControllerWithRumble* New_ctor();
 
-  /// @brief Method SendImpulse, addr 0x2ff955c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method SendImpulse, addr 0x31362e8, size 0xac, virtual false, abstract: false, final false
   inline void SendImpulse(float_t amplitude, float_t duration);
 
-  /// @brief Method .ctor, addr 0x2ff9684, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3136410, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

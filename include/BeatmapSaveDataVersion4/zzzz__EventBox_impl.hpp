@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatmapSaveDataVersion4/EventBox.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__EventBox_def.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__BeatIndex_def.hpp"
 // Ctor Parameters [CppParam { name: "f", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "e", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "l", ty:

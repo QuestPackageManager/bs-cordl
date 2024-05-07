@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/DelegateHelpers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__DelegateHelpers_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
@@ -13,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action*>>, ::StringW,
                                                                                            ::System::Object*)>(&::UnityEngine::InputSystem::Utilities::DelegateHelpers::InvokeCallbacksSafe)> {
   constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x3042034;
+  constexpr static std::size_t addrs = 0x317cdc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

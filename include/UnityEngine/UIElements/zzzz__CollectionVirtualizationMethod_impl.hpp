@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/CollectionVirtualizationMethod.hpp"
 #include "UnityEngine/UIElements/zzzz__CollectionVirtualizationMethod_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::UIElements::CollectionVirtualizationMethod::CollectionVirtualizationMethod(int32_t value__) noexcept {

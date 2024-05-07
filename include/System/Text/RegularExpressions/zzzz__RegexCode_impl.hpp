@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Text/RegularExpressions/RegexCode.hpp"
 #include "System/Text/RegularExpressions/zzzz__RegexPrefix_impl.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -15,7 +16,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<int32_t, ::Array<int32_t>*>, ::System::Collections::Generic::List_1<::StringW>*, int32_t, ::System::Collections::Hashtable*, int32_t, ::System::Text::RegularExpressions::RegexBoyerMoore*,
     ::System::Nullable_1<::System::Text::RegularExpressions::RegexPrefix>, int32_t, bool)>(&::System::Text::RegularExpressions::RegexCode::_ctor)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x2e924c4;
+  constexpr static std::size_t addrs = 0x2f92dc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -35,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t)>(&::System::Text::RegularExpressions::RegexCode::OpcodeBacktracks)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x2e92594;
+  constexpr static std::size_t addrs = 0x2f92e94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

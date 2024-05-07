@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/AccessControl/RawAcl.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,12 +36,12 @@ public:
   /// @brief Field revision, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_revision, put = __cordl_internal_set_revision)) uint8_t revision;
 
-  /// @brief Method InsertAce, addr 0x270623c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method InsertAce, addr 0x2803638, size 0xd8, virtual false, abstract: false, final false
   inline void InsertAce(int32_t index, ::System::Security::AccessControl::GenericAce* ace);
 
   static inline ::System::Security::AccessControl::RawAcl* New_ctor(uint8_t revision, int32_t capacity);
 
-  /// @brief Method RemoveAce, addr 0x2705c88, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method RemoveAce, addr 0x2803084, size 0x58, virtual false, abstract: false, final false
   inline void RemoveAce(int32_t index);
 
   constexpr ::System::Collections::Generic::List_1<::System::Security::AccessControl::GenericAce*>*& __cordl_internal_get_list();
@@ -55,16 +56,16 @@ public:
 
   constexpr void __cordl_internal_set_revision(uint8_t value);
 
-  /// @brief Method .ctor, addr 0x2704b60, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2801f5c, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(uint8_t revision, int32_t capacity);
 
-  /// @brief Method get_Count, addr 0x27082cc, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x28056c8, size 0x48, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Item, addr 0x2708314, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_Item, addr 0x2805710, size 0x58, virtual true, abstract: false, final false
   inline ::System::Security::AccessControl::GenericAce* get_Item(int32_t index);
 
-  /// @brief Method set_Item, addr 0x270836c, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method set_Item, addr 0x2805768, size 0x68, virtual true, abstract: false, final false
   inline void set_Item(int32_t index, ::System::Security::AccessControl::GenericAce* value);
 
 protected:

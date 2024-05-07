@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/FlyingCar.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,13 +38,13 @@ public:
 
   static inline ::GlobalNamespace::FlyingCar* New_ctor();
 
-  /// @brief Method Start, addr 0x25d5804, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x26d5544, size 0x44, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x25d588c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x26d55cc, size 0x60, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdatePos, addr 0x25d5848, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method UpdatePos, addr 0x26d5588, size 0x44, virtual false, abstract: false, final false
   inline void UpdatePos();
 
   constexpr float_t const& __cordl_internal_get__endZ() const;
@@ -76,7 +77,7 @@ public:
 
   constexpr void __cordl_internal_set__startZ(float_t value);
 
-  /// @brief Method .ctor, addr 0x25d58ec, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d562c, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

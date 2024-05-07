@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Security/X509/X501.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Security/X509/zzzz__X501_def.hpp"
 #include "Mono/Security/zzzz__ASN1_def.hpp"
@@ -8,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::Mono::Security::ASN1*)>(&::Mono::Security::X509::X501::ToString)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x267013c;
+  constexpr static std::size_t addrs = 0x276e538;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -22,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::Mono::Security::ASN1*, bool, ::StringW, bool)>(&::Mono::Security::X509::X501::ToString)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x2678110;
+  constexpr static std::size_t addrs = 0x277650c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -38,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*, ::Mono::Security::ASN1*, bool)>(
     &::Mono::Security::X509::X501::AppendEntry)> {
   constexpr static std::size_t size = 0x7c4;
-  constexpr static std::size_t addrs = 0x267794c;
+  constexpr static std::size_t addrs = 0x2775d48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

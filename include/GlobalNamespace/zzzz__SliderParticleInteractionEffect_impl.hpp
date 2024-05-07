@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SliderParticleInteractionEffect.hpp"
 #include "GlobalNamespace/zzzz__SliderInteractionEffect_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "GlobalNamespace/zzzz__SliderParticleInteractionEffect_def.hpp"
@@ -13,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderParticleInteractionEffect::*)()>(
     &::GlobalNamespace::SliderParticleInteractionEffect::Start)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x25b52d0;
+  constexpr static std::size_t addrs = 0x26b2bf0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -29,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderParticleInteractionEffect::*)()>(
     &::GlobalNamespace::SliderParticleInteractionEffect::Update)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x25b543c;
+  constexpr static std::size_t addrs = 0x26b2d5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SliderParticleInteractionEffect*>::get(),
@@ -43,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderParticleInteractionEffect::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::SliderParticleInteractionEffect::SetPSStartColor)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x25b5368;
+  constexpr static std::size_t addrs = 0x26b2c88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderParticleInteractionEffect::*)(float_t)>(
     &::GlobalNamespace::SliderParticleInteractionEffect::StartEffect)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x25b54a8;
+  constexpr static std::size_t addrs = 0x26b2dc8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -74,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderParticleInteractionEffect::*)()>(
     &::GlobalNamespace::SliderParticleInteractionEffect::EndEffect)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x25b5560;
+  constexpr static std::size_t addrs = 0x26b2e80;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -90,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderParticleInteractionEffect::*)()>(
     &::GlobalNamespace::SliderParticleInteractionEffect::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25b55f4;
+  constexpr static std::size_t addrs = 0x26b2f14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SliderParticleInteractionEffect*>::get(),

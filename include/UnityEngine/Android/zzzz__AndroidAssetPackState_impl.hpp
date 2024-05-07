@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Android/AndroidAssetPackState.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Android/zzzz__AndroidAssetPackError_impl.hpp"
 #include "UnityEngine/Android/zzzz__AndroidAssetPackStatus_impl.hpp"
@@ -11,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Android::AndroidAssetPackState::*)(
     ::StringW, ::UnityEngine::Android::AndroidAssetPackStatus, ::UnityEngine::Android::AndroidAssetPackError)>(&::UnityEngine::Android::AndroidAssetPackState::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x31bae40;
+  constexpr static std::size_t addrs = 0x33c08c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

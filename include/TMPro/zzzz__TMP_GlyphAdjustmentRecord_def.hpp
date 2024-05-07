@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/TMP_GlyphAdjustmentRecord.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,22 +31,22 @@ public:
 
   __declspec(property(get = get_glyphValueRecord, put = set_glyphValueRecord))::TMPro::TMP_GlyphValueRecord glyphValueRecord;
 
-  /// @brief Method .ctor, addr 0x3141b10, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3346598, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord adjustmentRecord);
 
-  /// @brief Method .ctor, addr 0x313f344, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3343dcc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(uint32_t glyphIndex, ::TMPro::TMP_GlyphValueRecord glyphValueRecord);
 
-  /// @brief Method get_glyphIndex, addr 0x3141ae8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_glyphIndex, addr 0x3346570, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_glyphIndex();
 
-  /// @brief Method get_glyphValueRecord, addr 0x3141af8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_glyphValueRecord, addr 0x3346580, size 0xc, virtual false, abstract: false, final false
   inline ::TMPro::TMP_GlyphValueRecord get_glyphValueRecord();
 
-  /// @brief Method set_glyphIndex, addr 0x3141af0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_glyphIndex, addr 0x3346578, size 0x8, virtual false, abstract: false, final false
   inline void set_glyphIndex(uint32_t value);
 
-  /// @brief Method set_glyphValueRecord, addr 0x3141b04, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_glyphValueRecord, addr 0x334658c, size 0xc, virtual false, abstract: false, final false
   inline void set_glyphValueRecord(::TMPro::TMP_GlyphValueRecord value);
 
   // Ctor Parameters []

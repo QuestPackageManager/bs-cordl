@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/FadeOutOnSceneTransitionStart.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,15 +32,15 @@ public:
   /// @brief Field _gameScenesManager, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__gameScenesManager, put = __cordl_internal_set__gameScenesManager))::UnityW<::GlobalNamespace::GameScenesManager> _gameScenesManager;
 
-  /// @brief Method HandleGameScenesManagerTransitionDidStart, addr 0x2ad746c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleGameScenesManagerTransitionDidStart, addr 0x2bd3d14, size 0x1c, virtual false, abstract: false, final false
   inline void HandleGameScenesManagerTransitionDidStart(float_t duration);
 
   static inline ::GlobalNamespace::FadeOutOnSceneTransitionStart* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x2ad7398, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2bd3c40, size 0xd4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x2ad730c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2bd3bb4, size 0x8c, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::FadeInOutController> const& __cordl_internal_get__fadeInOut() const;
@@ -54,7 +55,7 @@ public:
 
   constexpr void __cordl_internal_set__gameScenesManager(::UnityW<::GlobalNamespace::GameScenesManager> value);
 
-  /// @brief Method .ctor, addr 0x2ad7488, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bd3d30, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

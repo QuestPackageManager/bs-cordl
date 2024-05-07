@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/CachedOpenTypeProvider.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__CachedOpenTypeProvider_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -18,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::__CachedOpenTypeProvider____c::*)()>(&::Zenject::__CachedOpenTypeProvider____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3454520;
+  constexpr static std::size_t addrs = 0x36584e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__CachedOpenTypeProvider____c*>::get(), ".ctor",
@@ -32,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Zenject::__CachedOpenTypeProvider____c::*)(::Zenject::CachedProvider*)>(
     &::Zenject::__CachedOpenTypeProvider____c::_get_NumInstances_b__8_0)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3454528;
+  constexpr static std::size_t addrs = 0x36584f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -47,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::Zenject::__CachedOpenTypeProvider____c::__zenCreate)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x34545c8;
+  constexpr static std::size_t addrs = 0x3658590;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::__CachedOpenTypeProvider____c::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x3454624;
+  constexpr static std::size_t addrs = 0x36585ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::__CachedOpenTypeProvider____c*>::get(),
@@ -117,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::CachedOpenTypeProvider::*)(::Zenject::IProvider*)>(&::Zenject::CachedOpenTypeProvider::_ctor)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x3453d68;
+  constexpr static std::size_t addrs = 0x3657d30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -131,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::CachedOpenTypeProvider::*)()>(&::Zenject::CachedOpenTypeProvider::get_IsCached)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3453e74;
+  constexpr static std::size_t addrs = 0x3657e3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::CachedOpenTypeProvider*>::get(), "get_IsCached",
@@ -144,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::CachedOpenTypeProvider::*)()>(&::Zenject::CachedOpenTypeProvider::get_TypeVariesBasedOnMemberType)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3453e7c;
+  constexpr static std::size_t addrs = 0x3657e44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -158,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Zenject::CachedOpenTypeProvider::*)()>(&::Zenject::CachedOpenTypeProvider::get_NumInstances)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x3453ea4;
+  constexpr static std::size_t addrs = 0x3657e6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::CachedOpenTypeProvider*>::get(), "get_NumInstances",
@@ -171,7 +172,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::CachedOpenTypeProvider::*)()>(&::Zenject::CachedOpenTypeProvider::ClearCache)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3453fd4;
+  constexpr static std::size_t addrs = 0x3657f9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::CachedOpenTypeProvider*>::get(), "ClearCache",
@@ -185,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::Zenject::CachedOpenTypeProvider::*)(::Zenject::InjectContext*)>(
     &::Zenject::CachedOpenTypeProvider::GetInstanceType)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3454024;
+  constexpr static std::size_t addrs = 0x3657fec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -201,7 +202,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Zenject::InjectContext*, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*, ByRef<::System::Action*>, ::System::Collections::Generic::List_1<::System::Object*>*)>(
     &::Zenject::CachedOpenTypeProvider::GetAllInstancesWithInjectSplit)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x34540d0;
+  constexpr static std::size_t addrs = 0x3658098;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

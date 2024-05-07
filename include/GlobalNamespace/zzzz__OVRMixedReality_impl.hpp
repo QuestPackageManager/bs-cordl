@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OVRMixedReality.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
@@ -14,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::GameObject*, ::UnityEngine::Camera*, ::GlobalNamespace::OVRMixedRealityCaptureConfiguration*,
                                                                                            ::GlobalNamespace::__OVRManager__TrackingOrigin)>(&::GlobalNamespace::OVRMixedReality::Update)> {
   constexpr static std::size_t size = 0x4e0;
-  constexpr static std::size_t addrs = 0x2a1c45c;
+  constexpr static std::size_t addrs = 0x2b19d0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::GlobalNamespace::OVRMixedReality::Cleanup)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x2a1c93c;
+  constexpr static std::size_t addrs = 0x2b1a1ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMixedReality*>::get(), "Cleanup",
@@ -44,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::GlobalNamespace::OVRMixedReality::RecenterPose)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x2a1d324;
+  constexpr static std::size_t addrs = 0x2b1abd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMixedReality*>::get(), "RecenterPose",

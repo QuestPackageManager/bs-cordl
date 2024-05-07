@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LIV/SDK/Unity/SDKInputFrame.hpp"
 #include "LIV/SDK/Unity/zzzz__FEATURES_impl.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKClipPlane_impl.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKPose_impl.hpp"
@@ -15,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LIV::SDK::Unity::SDKInputFrame (*)()>(&::LIV::SDK::Unity::SDKInputFrame::get_empty)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x24fd59c;
+  constexpr static std::size_t addrs = 0x25f4228;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKInputFrame>::get(), "get_empty",
@@ -28,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LIV::SDK::Unity::SDKInputFrame::*)()>(&::LIV::SDK::Unity::SDKInputFrame::ReleaseControl)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2501ac8;
+  constexpr static std::size_t addrs = 0x25f8754;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKInputFrame>::get(), "ReleaseControl",
@@ -41,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LIV::SDK::Unity::SDKInputFrame::*)()>(&::LIV::SDK::Unity::SDKInputFrame::ObtainControl)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2501ad8;
+  constexpr static std::size_t addrs = 0x25f8764;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKInputFrame>::get(), "ObtainControl",
@@ -54,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::LIV::SDK::Unity::SDKInputFrame::*)()>(&::LIV::SDK::Unity::SDKInputFrame::ToString)> {
   constexpr static std::size_t size = 0x334;
-  constexpr static std::size_t addrs = 0x25034ec;
+  constexpr static std::size_t addrs = 0x25fa178;
 
   inline static ::MethodInfo const* methodInfo() {
 

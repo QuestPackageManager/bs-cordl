@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LIV/SDK/Unity/SDKApplicationOutput.hpp"
 #include "LIV/SDK/Unity/zzzz__FEATURES_impl.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKApplicationOutput_def.hpp"
 #include "LIV/SDK/Unity/zzzz__FEATURES_def.hpp"
@@ -7,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LIV::SDK::Unity::SDKApplicationOutput (*)()>(&::LIV::SDK::Unity::SDKApplicationOutput::get_empty)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x24fc768;
+  constexpr static std::size_t addrs = 0x25f33f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKApplicationOutput>::get(), "get_empty",
@@ -20,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::LIV::SDK::Unity::SDKApplicationOutput::*)()>(&::LIV::SDK::Unity::SDKApplicationOutput::ToString)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x2503260;
+  constexpr static std::size_t addrs = 0x25f9eec;
 
   inline static ::MethodInfo const* methodInfo() {
 

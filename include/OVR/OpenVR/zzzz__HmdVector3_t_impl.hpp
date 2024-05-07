@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/HmdVector3_t.hpp"
 #include "OVR/OpenVR/zzzz__HmdVector3_t_def.hpp"
 // Ctor Parameters [CppParam { name: "v0", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "v1", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "v2",
 // ty: "float_t", modifiers: "", def_value: Some("{}") }]

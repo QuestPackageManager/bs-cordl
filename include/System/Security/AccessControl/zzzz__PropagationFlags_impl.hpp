@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/AccessControl/PropagationFlags.hpp"
 #include "System/Security/AccessControl/zzzz__PropagationFlags_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Security::AccessControl::PropagationFlags::PropagationFlags(int32_t value__) noexcept {

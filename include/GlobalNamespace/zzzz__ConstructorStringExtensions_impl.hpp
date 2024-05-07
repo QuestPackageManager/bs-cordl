@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ConstructorStringExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__ConstructorStringExtensions_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -10,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::UnityEngine::Vector3)>(&::GlobalNamespace::ConstructorStringExtensions::ToConstructorString)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0xf8f4c8;
+  constexpr static std::size_t addrs = 0x1083dd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::UnityEngine::Quaternion)>(&::GlobalNamespace::ConstructorStringExtensions::ToConstructorString)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0xf8f598;
+  constexpr static std::size_t addrs = 0x1083ea4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -38,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::UnityEngine::Pose)>(&::GlobalNamespace::ConstructorStringExtensions::ToConstructorString)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0xf8f748;
+  constexpr static std::size_t addrs = 0x1084054;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((

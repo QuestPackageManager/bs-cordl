@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Mail/QuotedPairReader.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,10 +21,10 @@ namespace System::Net::Mail {
 class CORDL_TYPE QuotedPairReader : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CountBackslashes, addr 0x2e32b74, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method CountBackslashes, addr 0x2f31474, size 0xa4, virtual false, abstract: false, final false
   static inline int32_t CountBackslashes(::StringW data, int32_t index);
 
-  /// @brief Method CountQuotedChars, addr 0x2e3160c, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method CountQuotedChars, addr 0x2f2ff0c, size 0x194, virtual false, abstract: false, final false
   static inline int32_t CountQuotedChars(::StringW data, int32_t index, bool permitUnicodeEscaping);
 
 protected:

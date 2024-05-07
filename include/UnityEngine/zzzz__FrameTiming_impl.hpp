@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/FrameTiming.hpp"
 #include "UnityEngine/zzzz__FrameTiming_def.hpp"
 // Ctor Parameters [CppParam { name: "cpuTimePresentCalled", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "cpuFrameTime", ty: "double_t", modifiers: "", def_value:
 // Some("{}") }, CppParam { name: "cpuTimeFrameComplete", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "gpuFrameTime", ty: "double_t", modifiers: "", def_value: Some("{}")

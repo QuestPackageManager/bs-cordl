@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "ENet/SslConfiguration.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,73 +53,73 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x24dcf1c, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x25d4ba8, size 0x18, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method .ctor, addr 0x24dcf08, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d4b94, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::ENet::ENetSslConfiguration sslConfiguration);
 
-  /// @brief Method get_Certificate, addr 0x24dcf84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Certificate, addr 0x25d4c10, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Certificate();
 
-  /// @brief Method get_CertificatePath, addr 0x24dcf7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CertificatePath, addr 0x25d4c08, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_CertificatePath();
 
-  /// @brief Method get_HostName, addr 0x24dcfc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HostName, addr 0x25d4c54, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_HostName();
 
-  /// @brief Method get_Mode, addr 0x24dcf6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Mode, addr 0x25d4bf8, size 0x8, virtual false, abstract: false, final false
   inline ::ENet::SslMode get_Mode();
 
-  /// @brief Method get_NativeSslConfiguration, addr 0x24dcee4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_NativeSslConfiguration, addr 0x25d4b70, size 0x10, virtual false, abstract: false, final false
   inline ::ENet::ENetSslConfiguration get_NativeSslConfiguration();
 
-  /// @brief Method get_PrivateKey, addr 0x24dcf94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PrivateKey, addr 0x25d4c20, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_PrivateKey();
 
-  /// @brief Method get_PrivateKeyPath, addr 0x24dcf8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PrivateKeyPath, addr 0x25d4c18, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_PrivateKeyPath();
 
-  /// @brief Method get_RootCertificate, addr 0x24dcfc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RootCertificate, addr 0x25d4c4c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_RootCertificate();
 
-  /// @brief Method get_RootCertificatePath, addr 0x24dcfb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RootCertificatePath, addr 0x25d4c44, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_RootCertificatePath();
 
-  /// @brief Method get_ValidateCertificate, addr 0x24dcf9c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_ValidateCertificate, addr 0x25d4c28, size 0x10, virtual false, abstract: false, final false
   inline bool get_ValidateCertificate();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable();
 
-  /// @brief Method set_Certificate, addr 0x24dcf3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Certificate, addr 0x25d4bc8, size 0x8, virtual false, abstract: false, final false
   inline void set_Certificate(::StringW value);
 
-  /// @brief Method set_CertificatePath, addr 0x24dcf34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CertificatePath, addr 0x25d4bc0, size 0x8, virtual false, abstract: false, final false
   inline void set_CertificatePath(::StringW value);
 
-  /// @brief Method set_HostName, addr 0x24dcf64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_HostName, addr 0x25d4bf0, size 0x8, virtual false, abstract: false, final false
   inline void set_HostName(::StringW value);
 
-  /// @brief Method set_Mode, addr 0x24dcf74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Mode, addr 0x25d4c00, size 0x8, virtual false, abstract: false, final false
   inline void set_Mode(::ENet::SslMode value);
 
-  /// @brief Method set_NativeSslConfiguration, addr 0x24dcef4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_NativeSslConfiguration, addr 0x25d4b80, size 0x14, virtual false, abstract: false, final false
   inline void set_NativeSslConfiguration(::ENet::ENetSslConfiguration value);
 
-  /// @brief Method set_PrivateKey, addr 0x24dcf4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_PrivateKey, addr 0x25d4bd8, size 0x8, virtual false, abstract: false, final false
   inline void set_PrivateKey(::StringW value);
 
-  /// @brief Method set_PrivateKeyPath, addr 0x24dcf44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_PrivateKeyPath, addr 0x25d4bd0, size 0x8, virtual false, abstract: false, final false
   inline void set_PrivateKeyPath(::StringW value);
 
-  /// @brief Method set_RootCertificate, addr 0x24dcf5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RootCertificate, addr 0x25d4be8, size 0x8, virtual false, abstract: false, final false
   inline void set_RootCertificate(::StringW value);
 
-  /// @brief Method set_RootCertificatePath, addr 0x24dcf54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RootCertificatePath, addr 0x25d4be0, size 0x8, virtual false, abstract: false, final false
   inline void set_RootCertificatePath(::StringW value);
 
-  /// @brief Method set_ValidateCertificate, addr 0x24dcfac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ValidateCertificate, addr 0x25d4c38, size 0xc, virtual false, abstract: false, final false
   inline void set_ValidateCertificate(bool value);
 
   // Ctor Parameters []

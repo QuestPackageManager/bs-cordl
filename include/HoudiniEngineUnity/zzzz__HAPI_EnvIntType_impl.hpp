@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HAPI_EnvIntType.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_EnvIntType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::HoudiniEngineUnity::HAPI_EnvIntType::HAPI_EnvIntType(int32_t value__) noexcept {

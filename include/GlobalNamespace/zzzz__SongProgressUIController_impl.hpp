@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SongProgressUIController.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SongProgressUIController_def.hpp"
 #include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
@@ -11,8 +12,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongProgressUIController::*)()>(&::GlobalNamespace::SongProgressUIController::Start)> {
-  constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x25e29b8;
+  constexpr static std::size_t size = 0x218;
+  constexpr static std::size_t addrs = 0x26e26f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongProgressUIController*>::get(), "Start",
@@ -24,8 +25,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongProgressUIController::*)()>(&::GlobalNamespace::SongProgressUIController::Update)> {
-  constexpr static std::size_t size = 0x2cc;
-  constexpr static std::size_t addrs = 0x25e2b5c;
+  constexpr static std::size_t size = 0x2d0;
+  constexpr static std::size_t addrs = 0x26e2910;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongProgressUIController*>::get(), "Update",
@@ -37,8 +38,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongProgressUIController::*)()>(&::GlobalNamespace::SongProgressUIController::_ctor)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x25e2e28;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x26e2be0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongProgressUIController*>::get(), ".ctor",
@@ -118,6 +119,42 @@ constexpr void GlobalNamespace::SongProgressUIController::__cordl_internal_set__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____progressSecondsText)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
+constexpr ::UnityW<::UnityEngine::RectTransform>& GlobalNamespace::SongProgressUIController::__cordl_internal_get__durationRectTransform() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____durationRectTransform;
+}
+constexpr ::UnityW<::UnityEngine::RectTransform> const& GlobalNamespace::SongProgressUIController::__cordl_internal_get__durationRectTransform() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____durationRectTransform;
+}
+constexpr void GlobalNamespace::SongProgressUIController::__cordl_internal_set__durationRectTransform(::UnityW<::UnityEngine::RectTransform> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____durationRectTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr float_t& GlobalNamespace::SongProgressUIController::__cordl_internal_get__durationTextOffsetShort() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____durationTextOffsetShort;
+}
+constexpr float_t const& GlobalNamespace::SongProgressUIController::__cordl_internal_get__durationTextOffsetShort() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____durationTextOffsetShort;
+}
+constexpr void GlobalNamespace::SongProgressUIController::__cordl_internal_set__durationTextOffsetShort(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____durationTextOffsetShort = value;
+}
+constexpr float_t& GlobalNamespace::SongProgressUIController::__cordl_internal_get__durationTextOffsetLong() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____durationTextOffsetLong;
+}
+constexpr float_t const& GlobalNamespace::SongProgressUIController::__cordl_internal_get__durationTextOffsetLong() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____durationTextOffsetLong;
+}
+constexpr void GlobalNamespace::SongProgressUIController::__cordl_internal_set__durationTextOffsetLong(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____durationTextOffsetLong = value;
+}
 constexpr ::GlobalNamespace::IAudioTimeSource*& GlobalNamespace::SongProgressUIController::__cordl_internal_get__audioTimeSource() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioTimeSource;
@@ -178,17 +215,29 @@ constexpr void GlobalNamespace::SongProgressUIController::__cordl_internal_set__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____progressImageRectTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr float_t& GlobalNamespace::SongProgressUIController::__cordl_internal_get_songLength() {
+constexpr float_t& GlobalNamespace::SongProgressUIController::__cordl_internal_get__songLength() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___songLength;
+  return this->____songLength;
 }
-constexpr float_t const& GlobalNamespace::SongProgressUIController::__cordl_internal_get_songLength() const {
+constexpr float_t const& GlobalNamespace::SongProgressUIController::__cordl_internal_get__songLength() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___songLength;
+  return this->____songLength;
 }
-constexpr void GlobalNamespace::SongProgressUIController::__cordl_internal_set_songLength(float_t value) {
+constexpr void GlobalNamespace::SongProgressUIController::__cordl_internal_set__songLength(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___songLength = value;
+  this->____songLength = value;
+}
+constexpr ::StringW& GlobalNamespace::SongProgressUIController::__cordl_internal_get__progressMinutesFormatString() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____progressMinutesFormatString;
+}
+constexpr ::StringW const& GlobalNamespace::SongProgressUIController::__cordl_internal_get__progressMinutesFormatString() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____progressMinutesFormatString;
+}
+constexpr void GlobalNamespace::SongProgressUIController::__cordl_internal_set__progressMinutesFormatString(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____progressMinutesFormatString)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::SongProgressUIController::Start() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongProgressUIController*>::get(), "Start",

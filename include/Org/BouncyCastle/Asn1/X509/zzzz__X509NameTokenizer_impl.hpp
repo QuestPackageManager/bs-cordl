@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/X509NameTokenizer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__X509NameTokenizer_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::X509NameTokenizer::*)(::StringW)>(
     &::Org::BouncyCastle::Asn1::X509::X509NameTokenizer::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x13155e0;
+  constexpr static std::size_t addrs = 0x1407d04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::X509NameTokenizer::*)(::StringW, char16_t)>(
     &::Org::BouncyCastle::Asn1::X509::X509NameTokenizer::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x13157b4;
+  constexpr static std::size_t addrs = 0x1407ed8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -38,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Asn1::X509::X509NameTokenizer::*)()>(
     &::Org::BouncyCastle::Asn1::X509::X509NameTokenizer::HasMoreTokens)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x1315840;
+  constexpr static std::size_t addrs = 0x1407f64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::X509NameTokenizer*>::get(),
@@ -52,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Asn1::X509::X509NameTokenizer::*)()>(
     &::Org::BouncyCastle::Asn1::X509::X509NameTokenizer::NextToken)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x13155e8;
+  constexpr static std::size_t addrs = 0x1407d0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::X509NameTokenizer*>::get(),

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Serialization/UnreferencedObjectEventArgs.hpp"
 #include "System/zzzz__EventArgs_impl.hpp"
 #include "System/Xml/Serialization/zzzz__UnreferencedObjectEventArgs_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Serialization::UnreferencedObjectEventArgs::*)(::System::Object*, ::StringW)>(
     &::System::Xml::Serialization::UnreferencedObjectEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x2dc58b8;
+  constexpr static std::size_t addrs = 0x2ec31b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

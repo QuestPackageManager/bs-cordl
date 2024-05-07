@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/AndroidReflection.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,37 +56,37 @@ public:
   static __declspec(property(get = getStaticF_s_ReflectionHelperSetNativeExceptionOnProxy,
                              put = setStaticF_s_ReflectionHelperSetNativeExceptionOnProxy)) void* s_ReflectionHelperSetNativeExceptionOnProxy;
 
-  /// @brief Method GetConstructorMember, addr 0x31b5cc8, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method GetConstructorMember, addr 0x33bb750, size 0x18c, virtual false, abstract: false, final false
   static inline void* GetConstructorMember(void* jclass, ::StringW signature);
 
-  /// @brief Method GetFieldClass, addr 0x31b6254, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetFieldClass, addr 0x33bbcdc, size 0x64, virtual false, abstract: false, final false
   static inline void* GetFieldClass(void* field);
 
-  /// @brief Method GetFieldMember, addr 0x31b6054, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method GetFieldMember, addr 0x33bbadc, size 0x200, virtual false, abstract: false, final false
   static inline void* GetFieldMember(void* jclass, ::StringW fieldName, ::StringW signature, bool isStatic);
 
-  /// @brief Method GetFieldSignature, addr 0x31b62b8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetFieldSignature, addr 0x33bbd40, size 0xa8, virtual false, abstract: false, final false
   static inline ::StringW GetFieldSignature(void* field);
 
-  /// @brief Method GetMethodID, addr 0x31b5c2c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetMethodID, addr 0x33bb6b4, size 0x9c, virtual false, abstract: false, final false
   static inline void* GetMethodID(::StringW clazz, ::StringW methodName, ::StringW signature);
 
-  /// @brief Method GetMethodMember, addr 0x31b5e54, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method GetMethodMember, addr 0x33bb8dc, size 0x200, virtual false, abstract: false, final false
   static inline void* GetMethodMember(void* jclass, ::StringW methodName, ::StringW signature, bool isStatic);
 
-  /// @brief Method GetStaticMethodID, addr 0x31b5b90, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetStaticMethodID, addr 0x33bb618, size 0x9c, virtual false, abstract: false, final false
   static inline void* GetStaticMethodID(::StringW clazz, ::StringW methodName, ::StringW signature);
 
-  /// @brief Method IsAssignableFrom, addr 0x31b5b70, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsAssignableFrom, addr 0x33bb5f8, size 0x20, virtual false, abstract: false, final false
   static inline bool IsAssignableFrom(::System::Type* t, ::System::Type* from);
 
-  /// @brief Method IsPrimitive, addr 0x31b5b5c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method IsPrimitive, addr 0x33bb5e4, size 0x14, virtual false, abstract: false, final false
   static inline bool IsPrimitive(::System::Type* t);
 
-  /// @brief Method NewProxyInstance, addr 0x31b6360, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method NewProxyInstance, addr 0x33bbde8, size 0xd0, virtual false, abstract: false, final false
   static inline void* NewProxyInstance(void* delegateHandle, void* interfaze);
 
-  /// @brief Method SetNativeExceptionOnProxy, addr 0x31b373c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method SetNativeExceptionOnProxy, addr 0x33b91c4, size 0x10c, virtual false, abstract: false, final false
   static inline void SetNativeExceptionOnProxy(void* proxy, ::System::Exception* e, bool methodNotFound);
 
   static inline void* getStaticF_s_FieldGetDeclaringClass();

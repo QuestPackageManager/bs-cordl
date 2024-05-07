@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OVRLayerAttribute.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRLayerAttribute_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OVRLayerAttribute._ctor
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRLayerAttribute::*)()>(&::GlobalNamespace::OVRLayerAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2a1077c;
+  constexpr static std::size_t addrs = 0x2b0e02c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRLayerAttribute*>::get(), ".ctor",

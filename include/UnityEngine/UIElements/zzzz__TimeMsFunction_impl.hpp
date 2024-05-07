@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/TimeMsFunction.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TimeMsFunction_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TimeMsFunction::*)(::System::Object*, void*)>(
     &::UnityEngine::UIElements::TimeMsFunction::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3319a94;
+  constexpr static std::size_t addrs = 0x351e7d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -22,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::UnityEngine::UIElements::TimeMsFunction::*)()>(&::UnityEngine::UIElements::TimeMsFunction::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3319b50;
+  constexpr static std::size_t addrs = 0x351e88c;
 
   inline static ::MethodInfo const* methodInfo() {
 

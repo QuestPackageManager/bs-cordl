@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Collections/Generic/BitHelper.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,17 +33,17 @@ public:
   /// @brief Field _useStackAlloc, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get__useStackAlloc, put = __cordl_internal_set__useStackAlloc)) bool _useStackAlloc;
 
-  /// @brief Method IsMarked, addr 0x2b5cc1c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method IsMarked, addr 0x2f74ccc, size 0x84, virtual false, abstract: false, final false
   inline bool IsMarked(int32_t bitPosition);
 
-  /// @brief Method MarkBit, addr 0x2b5cba0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method MarkBit, addr 0x2f74c50, size 0x7c, virtual false, abstract: false, final false
   inline void MarkBit(int32_t bitPosition);
 
   static inline ::System::Collections::Generic::BitHelper* New_ctor(::ArrayW<int32_t, ::Array<int32_t>*> bitArray, int32_t length);
 
   static inline ::System::Collections::Generic::BitHelper* New_ctor(::cordl_internals::Ptr<int32_t> bitArrayPtr, int32_t length);
 
-  /// @brief Method ToIntArrayLength, addr 0x2b5cca0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ToIntArrayLength, addr 0x2f74d50, size 0x28, virtual false, abstract: false, final false
   static inline int32_t ToIntArrayLength(int32_t n);
 
   constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__array() const;
@@ -69,10 +70,10 @@ public:
 
   constexpr void __cordl_internal_set__useStackAlloc(bool value);
 
-  /// @brief Method .ctor, addr 0x2b5cb70, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f74c20, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<int32_t, ::Array<int32_t>*> bitArray, int32_t length);
 
-  /// @brief Method .ctor, addr 0x2b5cb38, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f74be8, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::cordl_internals::Ptr<int32_t> bitArrayPtr, int32_t length);
 
 protected:

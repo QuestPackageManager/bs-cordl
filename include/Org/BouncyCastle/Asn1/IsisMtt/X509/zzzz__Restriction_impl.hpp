@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/IsisMtt/X509/Restriction.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/IsisMtt/X509/zzzz__Restriction_def.hpp"
 #include "Org/BouncyCastle/Asn1/X500/zzzz__DirectoryString_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::IsisMtt::X509::Restriction* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::Restriction::GetInstance)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x10e626c;
+  constexpr static std::size_t addrs = 0x11d9990;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::IsisMtt::X509::Restriction::*)(::Org::BouncyCastle::Asn1::X500::DirectoryString*)>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::Restriction::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x10e63c4;
+  constexpr static std::size_t addrs = 0x11d9ae8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::IsisMtt::X509::Restriction::*)(::StringW)>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::Restriction::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x10e63ec;
+  constexpr static std::size_t addrs = 0x11d9b10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X500::DirectoryString* (::Org::BouncyCastle::Asn1::IsisMtt::X509::Restriction::*)()>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::Restriction::get_RestrictionString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x10e6468;
+  constexpr static std::size_t addrs = 0x11d9b8c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -71,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::IsisMtt::X509::Restriction::*)()>(
     &::Org::BouncyCastle::Asn1::IsisMtt::X509::Restriction::ToAsn1Object)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x10e6470;
+  constexpr static std::size_t addrs = 0x11d9b94;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/IKeyUnwrapper.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IKeyUnwrapper_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IBlockResult_def.hpp"
 #include "System/zzzz__Object_def.hpp"

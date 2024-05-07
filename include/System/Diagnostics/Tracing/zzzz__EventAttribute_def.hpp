@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Diagnostics/Tracing/EventAttribute.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -75,19 +76,19 @@ public:
 
   constexpr void __cordl_internal_set__Message_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x28003c0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28ffae0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t eventId);
 
-  /// @brief Method set_EventId, addr 0x28003e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_EventId, addr 0x28ffb08, size 0x8, virtual false, abstract: false, final false
   inline void set_EventId(int32_t value);
 
-  /// @brief Method set_Keywords, addr 0x28003f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Keywords, addr 0x28ffb18, size 0x8, virtual false, abstract: false, final false
   inline void set_Keywords(::System::Diagnostics::Tracing::EventKeywords value);
 
-  /// @brief Method set_Level, addr 0x28003f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Level, addr 0x28ffb10, size 0x8, virtual false, abstract: false, final false
   inline void set_Level(::System::Diagnostics::Tracing::EventLevel value);
 
-  /// @brief Method set_Message, addr 0x2800400, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Message, addr 0x28ffb20, size 0x8, virtual false, abstract: false, final false
   inline void set_Message(::StringW value);
 
 protected:

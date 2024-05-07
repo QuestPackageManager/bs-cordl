@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MathfExtra.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MathfExtra_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MathfExtra.Mod
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t)>(&::GlobalNamespace::MathfExtra::Mod)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x265e210;
+  constexpr static std::size_t addrs = 0x275d6ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -20,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, int32_t)>(&::GlobalNamespace::MathfExtra::Mod)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x265e224;
+  constexpr static std::size_t addrs = 0x275d6c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -34,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, int32_t)>(&::GlobalNamespace::MathfExtra::Round)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x265e254;
+  constexpr static std::size_t addrs = 0x275d6f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -48,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t)>(&::GlobalNamespace::MathfExtra::MaxAbs)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x265e36c;
+  constexpr static std::size_t addrs = 0x275d808;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -62,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(float_t, float_t, float_t)>(&::GlobalNamespace::MathfExtra::Approximately)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x265e380;
+  constexpr static std::size_t addrs = 0x275d81c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

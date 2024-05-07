@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Cms/TimeStampAndCrl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__TimeStampAndCrl_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__ContentInfo_def.hpp"
@@ -12,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl::*)(::Org::BouncyCastle::Asn1::Cms::ContentInfo*)>(
     &::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0xfed124;
+  constexpr static std::size_t addrs = 0x10e0848;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0xfed14c;
+  constexpr static std::size_t addrs = 0x10e0870;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl::GetInstance)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0xfed1d4;
+  constexpr static std::size_t addrs = 0x10e08f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cms::ContentInfo* (::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl::get_TimeStampToken)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xfed278;
+  constexpr static std::size_t addrs = 0x10e099c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -73,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::CertificateList* (::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl::get_Crl)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xfed280;
+  constexpr static std::size_t addrs = 0x10e09a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -89,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl::ToAsn1Object)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0xfed288;
+  constexpr static std::size_t addrs = 0x10e09ac;
 
   inline static ::MethodInfo const* methodInfo() {
 

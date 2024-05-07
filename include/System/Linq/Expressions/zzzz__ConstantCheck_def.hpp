@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/ConstantCheck.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,10 +31,10 @@ namespace System::Linq::Expressions {
 class CORDL_TYPE ConstantCheck : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AnalyzeTypeIs, addr 0x2b00698, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method AnalyzeTypeIs, addr 0x2bfdf98, size 0x1b8, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::AnalyzeTypeIsResult AnalyzeTypeIs(::System::Linq::Expressions::Expression* operand, ::System::Type* testType);
 
-  /// @brief Method AnalyzeTypeIs, addr 0x2b0067c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AnalyzeTypeIs, addr 0x2bfdf7c, size 0x1c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::AnalyzeTypeIsResult AnalyzeTypeIs(::System::Linq::Expressions::TypeBinaryExpression* typeIs);
 
 protected:

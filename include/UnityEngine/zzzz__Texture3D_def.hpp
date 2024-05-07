@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Texture3D.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,20 +38,20 @@ public:
   // Declarations
   __declspec(property(get = get_isReadable)) bool isReadable;
 
-  /// @brief Method Apply, addr 0x31e3edc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x33eac10, size 0xc, virtual false, abstract: false, final false
   inline void Apply();
 
-  /// @brief Method Apply, addr 0x31e3e50, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Apply, addr 0x33eab84, size 0x8c, virtual false, abstract: false, final false
   inline void Apply(bool updateMipmaps, bool makeNoLongerReadable);
 
-  /// @brief Method ApplyImpl, addr 0x31e3888, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ApplyImpl, addr 0x33ea5bc, size 0x54, virtual false, abstract: false, final false
   inline void ApplyImpl(bool updateMipmaps, bool makeNoLongerReadable);
 
-  /// @brief Method Internal_Create, addr 0x31e37a8, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Internal_Create, addr 0x33ea4dc, size 0xe0, virtual false, abstract: false, final false
   static inline void Internal_Create(::UnityEngine::Texture3D* mono, int32_t w, int32_t h, int32_t d, int32_t mipCount, ::UnityEngine::Experimental::Rendering::GraphicsFormat format,
                                      ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags, void* nativeTex);
 
-  /// @brief Method Internal_CreateImpl, addr 0x31e371c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Internal_CreateImpl, addr 0x33ea450, size 0x8c, virtual false, abstract: false, final false
   static inline bool Internal_CreateImpl(::UnityEngine::Texture3D* mono, int32_t w, int32_t h, int32_t d, int32_t mipCount, ::UnityEngine::Experimental::Rendering::GraphicsFormat format,
                                          ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags, void* nativeTex);
 
@@ -71,38 +72,38 @@ public:
 
   static inline ::UnityEngine::Texture3D* New_ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, int32_t mipCount, void* nativeTex);
 
-  /// @brief Method SetPixels32, addr 0x31e3930, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SetPixels32, addr 0x33ea664, size 0x48, virtual false, abstract: false, final false
   inline void SetPixels32(::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*> colors);
 
-  /// @brief Method SetPixels32, addr 0x31e38dc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetPixels32, addr 0x33ea610, size 0x54, virtual false, abstract: false, final false
   inline void SetPixels32(::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*> colors, int32_t miplevel);
 
-  /// @brief Method ValidateIsNotCrunched, addr 0x31e3b58, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ValidateIsNotCrunched, addr 0x33ea88c, size 0x58, virtual false, abstract: false, final false
   static inline void ValidateIsNotCrunched(::UnityEngine::Experimental::Rendering::TextureCreationFlags flags);
 
-  /// @brief Method .ctor, addr 0x31e3978, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33ea6ac, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::Experimental::Rendering::DefaultFormat format, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags);
 
-  /// @brief Method .ctor, addr 0x31e39cc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33ea700, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::Experimental::Rendering::GraphicsFormat format, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags);
 
-  /// @brief Method .ctor, addr 0x31e3a6c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33ea7a0, size 0xec, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::Experimental::Rendering::GraphicsFormat format, ::UnityEngine::Experimental::Rendering::TextureCreationFlags flags,
                     int32_t mipCount);
 
-  /// @brief Method .ctor, addr 0x31e3e30, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33eab64, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, bool mipChain);
 
-  /// @brief Method .ctor, addr 0x31e3e40, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33eab74, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, bool mipChain, void* nativeTex);
 
-  /// @brief Method .ctor, addr 0x31e3bb0, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33ea8e4, size 0x14c, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, int32_t mipCount);
 
-  /// @brief Method .ctor, addr 0x31e3cfc, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33eaa30, size 0x134, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, int32_t depth, ::UnityEngine::TextureFormat textureFormat, int32_t mipCount, void* nativeTex);
 
-  /// @brief Method get_isReadable, addr 0x31e36e0, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method get_isReadable, addr 0x33ea414, size 0x3c, virtual true, abstract: false, final false
   inline bool get_isReadable();
 
 protected:

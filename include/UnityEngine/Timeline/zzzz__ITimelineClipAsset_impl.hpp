@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Timeline/ITimelineClipAsset.hpp"
 #include "UnityEngine/Timeline/zzzz__ITimelineClipAsset_def.hpp"
 #include "UnityEngine/Timeline/zzzz__ClipCaps_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Timeline::ITimelineClipAsset.get_clipCaps

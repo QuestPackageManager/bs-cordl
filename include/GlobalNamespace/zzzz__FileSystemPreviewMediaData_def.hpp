@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/FileSystemPreviewMediaData.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,16 +56,16 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IPreviewMediaData"
   constexpr operator ::GlobalNamespace::IPreviewMediaData*() noexcept;
 
-  /// @brief Method GetCoverSpriteAsync, addr 0x13cbd9c, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method GetCoverSpriteAsync, addr 0x14c1d98, size 0x28, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>* GetCoverSpriteAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method GetPreviewAudioClip, addr 0x13cbdc4, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method GetPreviewAudioClip, addr 0x14c1dc0, size 0x24, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* GetPreviewAudioClip(::System::Threading::CancellationToken cancellationToken);
 
   static inline ::GlobalNamespace::FileSystemPreviewMediaData* New_ctor(::GlobalNamespace::SpriteAsyncLoader* spriteAsyncLoader, ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader,
                                                                         ::StringW rootPath, ::StringW coverSpritePath, ::StringW previewAudioClipPath);
 
-  /// @brief Method UnloadPreviewAudioClip, addr 0x13cbde8, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method UnloadPreviewAudioClip, addr 0x14c1de4, size 0x24, virtual true, abstract: false, final true
   inline void UnloadPreviewAudioClip();
 
   constexpr ::GlobalNamespace::AudioClipAsyncLoader*& __cordl_internal_get__audioClipAsyncLoader();
@@ -91,7 +92,7 @@ public:
 
   constexpr void __cordl_internal_set__spriteAsyncLoader(::GlobalNamespace::SpriteAsyncLoader* value);
 
-  /// @brief Method .ctor, addr 0x13cbbd4, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14c1bd0, size 0x1c8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::SpriteAsyncLoader* spriteAsyncLoader, ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader, ::StringW rootPath, ::StringW coverSpritePath,
                     ::StringW previewAudioClipPath);
 

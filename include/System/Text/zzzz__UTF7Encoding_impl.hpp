@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Text/UTF7Encoding.hpp"
 #include "System/Text/zzzz__DecoderFallbackBuffer_impl.hpp"
 #include "System/Text/zzzz__DecoderFallback_impl.hpp"
 #include "System/Text/zzzz__DecoderNLS_impl.hpp"
@@ -18,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::__UTF7Encoding__Decoder::*)(::System::Text::UTF7Encoding*)>(
     &::System::Text::__UTF7Encoding__Decoder::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26c4990;
+  constexpr static std::size_t addrs = 0x27c2d8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -32,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::__UTF7Encoding__Decoder::*)()>(&::System::Text::__UTF7Encoding__Decoder::Reset)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x26c4bac;
+  constexpr static std::size_t addrs = 0x27c2fa8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -46,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Text::__UTF7Encoding__Decoder::*)()>(&::System::Text::__UTF7Encoding__Decoder::get_HasState)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x26c4bd4;
+  constexpr static std::size_t addrs = 0x27c2fd0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -118,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::__UTF7Encoding__Encoder::*)(::System::Text::UTF7Encoding*)>(
     &::System::Text::__UTF7Encoding__Encoder::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x26c49f8;
+  constexpr static std::size_t addrs = 0x27c2df4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -132,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::__UTF7Encoding__Encoder::*)()>(&::System::Text::__UTF7Encoding__Encoder::Reset)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x26c4be4;
+  constexpr static std::size_t addrs = 0x27c2fe0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -146,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Text::__UTF7Encoding__Encoder::*)()>(&::System::Text::__UTF7Encoding__Encoder::get_HasState)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x26c4c08;
+  constexpr static std::size_t addrs = 0x27c3004;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -206,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::__UTF7Encoding__DecoderUTF7Fallback::*)()>(
     &::System::Text::__UTF7Encoding__DecoderUTF7Fallback::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26c3110;
+  constexpr static std::size_t addrs = 0x27c150c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::__UTF7Encoding__DecoderUTF7Fallback*>::get(),
@@ -220,7 +221,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::DecoderFallbackBuffer* (::System::Text::__UTF7Encoding__DecoderUTF7Fallback::*)()>(
     &::System::Text::__UTF7Encoding__DecoderUTF7Fallback::CreateFallbackBuffer)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x26c4c28;
+  constexpr static std::size_t addrs = 0x27c3024;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -236,7 +237,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::__UTF7Encoding__DecoderUTF7Fallback::*)()>(
     &::System::Text::__UTF7Encoding__DecoderUTF7Fallback::get_MaxCharCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26c4c9c;
+  constexpr static std::size_t addrs = 0x27c3098;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -252,7 +253,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Text::__UTF7Encoding__DecoderUTF7Fallback::*)(::System::Object*)>(
     &::System::Text::__UTF7Encoding__DecoderUTF7Fallback::Equals)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x26c4ca4;
+  constexpr static std::size_t addrs = 0x27c30a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -268,7 +269,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::__UTF7Encoding__DecoderUTF7Fallback::*)()>(
     &::System::Text::__UTF7Encoding__DecoderUTF7Fallback::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26c4d00;
+  constexpr static std::size_t addrs = 0x27c30fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -314,7 +315,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::__UTF7Encoding__DecoderUTF7FallbackBuffer::*)(
     ::System::Text::__UTF7Encoding__DecoderUTF7Fallback*)>(&::System::Text::__UTF7Encoding__DecoderUTF7FallbackBuffer::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x26c4c8c;
+  constexpr static std::size_t addrs = 0x27c3088;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -329,7 +330,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Text::__UTF7Encoding__DecoderUTF7FallbackBuffer::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::System::Text::__UTF7Encoding__DecoderUTF7FallbackBuffer::Fallback)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x26c4d08;
+  constexpr static std::size_t addrs = 0x27c3104;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -345,7 +346,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (::System::Text::__UTF7Encoding__DecoderUTF7FallbackBuffer::*)()>(
     &::System::Text::__UTF7Encoding__DecoderUTF7FallbackBuffer::GetNextChar)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x26c4d48;
+  constexpr static std::size_t addrs = 0x27c3144;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -361,7 +362,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::__UTF7Encoding__DecoderUTF7FallbackBuffer::*)()>(
     &::System::Text::__UTF7Encoding__DecoderUTF7FallbackBuffer::get_Remaining)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26c4d68;
+  constexpr static std::size_t addrs = 0x27c3164;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -377,7 +378,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::__UTF7Encoding__DecoderUTF7FallbackBuffer::*)()>(
     &::System::Text::__UTF7Encoding__DecoderUTF7FallbackBuffer::Reset)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x26c4d74;
+  constexpr static std::size_t addrs = 0x27c3170;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -393,7 +394,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::__UTF7Encoding__DecoderUTF7FallbackBuffer::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::cordl_internals::Ptr<uint8_t>)>(&::System::Text::__UTF7Encoding__DecoderUTF7FallbackBuffer::InternalFallback)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x26c4d84;
+  constexpr static std::size_t addrs = 0x27c3180;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -485,7 +486,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::UTF7Encoding::*)()>(&::System::Text::UTF7Encoding::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x26c2d80;
+  constexpr static std::size_t addrs = 0x27c117c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::UTF7Encoding*>::get(), ".ctor",
@@ -498,7 +499,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::UTF7Encoding::*)(bool)>(&::System::Text::UTF7Encoding::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x26c2da4;
+  constexpr static std::size_t addrs = 0x27c11a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -512,7 +513,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::UTF7Encoding::*)()>(&::System::Text::UTF7Encoding::MakeTables)> {
   constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x26c2dd4;
+  constexpr static std::size_t addrs = 0x27c11d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::UTF7Encoding*>::get(), "MakeTables",
@@ -525,7 +526,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::UTF7Encoding::*)()>(&::System::Text::UTF7Encoding::SetDefaultFallbacks)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x26c3058;
+  constexpr static std::size_t addrs = 0x27c1454;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -539,7 +540,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Text::UTF7Encoding::*)(::System::Object*)>(&::System::Text::UTF7Encoding::Equals)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x26c3118;
+  constexpr static std::size_t addrs = 0x27c1514;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -553,7 +554,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::UTF7Encoding::*)()>(&::System::Text::UTF7Encoding::GetHashCode)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x26c31e8;
+  constexpr static std::size_t addrs = 0x27c15e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -568,7 +569,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::UTF7Encoding::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
     &::System::Text::UTF7Encoding::GetByteCount)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x26c3254;
+  constexpr static std::size_t addrs = 0x27c1650;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -582,7 +583,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::UTF7Encoding::*)(::StringW)>(&::System::Text::UTF7Encoding::GetByteCount)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x26c33d8;
+  constexpr static std::size_t addrs = 0x27c17d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -597,7 +598,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::UTF7Encoding::*)(::cordl_internals::Ptr<char16_t>, int32_t)>(
     &::System::Text::UTF7Encoding::GetByteCount)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x26c3468;
+  constexpr static std::size_t addrs = 0x27c1864;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -612,7 +613,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<int32_t (::System::Text::UTF7Encoding::*)(::StringW, int32_t, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::System::Text::UTF7Encoding::GetBytes)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x26c3540;
+  constexpr static std::size_t addrs = 0x27c193c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -627,7 +628,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::UTF7Encoding::*)(
     ::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::System::Text::UTF7Encoding::GetBytes)> {
   constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x26c37a0;
+  constexpr static std::size_t addrs = 0x27c1b9c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -642,7 +643,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<int32_t (::System::Text::UTF7Encoding::*)(::cordl_internals::Ptr<char16_t>, int32_t, ::cordl_internals::Ptr<uint8_t>, int32_t)>(&::System::Text::UTF7Encoding::GetBytes)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x26c3a1c;
+  constexpr static std::size_t addrs = 0x27c1e18;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -657,7 +658,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::UTF7Encoding::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::System::Text::UTF7Encoding::GetCharCount)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x26c3b1c;
+  constexpr static std::size_t addrs = 0x27c1f18;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -672,7 +673,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::UTF7Encoding::*)(::cordl_internals::Ptr<uint8_t>, int32_t)>(
     &::System::Text::UTF7Encoding::GetCharCount)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x26c3ca0;
+  constexpr static std::size_t addrs = 0x27c209c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -687,7 +688,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::UTF7Encoding::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::ArrayW<char16_t, ::Array<char16_t>*>, int32_t)>(&::System::Text::UTF7Encoding::GetChars)> {
   constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x26c3d78;
+  constexpr static std::size_t addrs = 0x27c2174;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -702,7 +703,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<int32_t (::System::Text::UTF7Encoding::*)(::cordl_internals::Ptr<uint8_t>, int32_t, ::cordl_internals::Ptr<char16_t>, int32_t)>(&::System::Text::UTF7Encoding::GetChars)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x26c3ff4;
+  constexpr static std::size_t addrs = 0x27c23f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -717,7 +718,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Text::UTF7Encoding::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::System::Text::UTF7Encoding::GetString)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x26c40f4;
+  constexpr static std::size_t addrs = 0x27c24f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -732,7 +733,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::UTF7Encoding::*)(::cordl_internals::Ptr<char16_t>, int32_t, ::System::Text::EncoderNLS*)>(
     &::System::Text::UTF7Encoding::GetByteCount)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x26c42bc;
+  constexpr static std::size_t addrs = 0x27c26b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -747,7 +748,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::UTF7Encoding::*)(
     ::cordl_internals::Ptr<char16_t>, int32_t, ::cordl_internals::Ptr<uint8_t>, int32_t, ::System::Text::EncoderNLS*)>(&::System::Text::UTF7Encoding::GetBytes)> {
   constexpr static std::size_t size = 0x39c;
-  constexpr static std::size_t addrs = 0x26c42d8;
+  constexpr static std::size_t addrs = 0x27c26d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -762,7 +763,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::UTF7Encoding::*)(::cordl_internals::Ptr<uint8_t>, int32_t, ::System::Text::DecoderNLS*)>(
     &::System::Text::UTF7Encoding::GetCharCount)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x26c4674;
+  constexpr static std::size_t addrs = 0x27c2a70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -777,7 +778,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::UTF7Encoding::*)(
     ::cordl_internals::Ptr<uint8_t>, int32_t, ::cordl_internals::Ptr<char16_t>, int32_t, ::System::Text::DecoderNLS*)>(&::System::Text::UTF7Encoding::GetChars)> {
   constexpr static std::size_t size = 0x29c;
-  constexpr static std::size_t addrs = 0x26c4690;
+  constexpr static std::size_t addrs = 0x27c2a8c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -791,7 +792,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::Decoder* (::System::Text::UTF7Encoding::*)()>(&::System::Text::UTF7Encoding::GetDecoder)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x26c492c;
+  constexpr static std::size_t addrs = 0x27c2d28;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -805,7 +806,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::Encoder* (::System::Text::UTF7Encoding::*)()>(&::System::Text::UTF7Encoding::GetEncoder)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x26c4998;
+  constexpr static std::size_t addrs = 0x27c2d94;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -819,7 +820,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::UTF7Encoding::*)(int32_t)>(&::System::Text::UTF7Encoding::GetMaxByteCount)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x26c49fc;
+  constexpr static std::size_t addrs = 0x27c2df8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -833,7 +834,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::UTF7Encoding::*)(int32_t)>(&::System::Text::UTF7Encoding::GetMaxCharCount)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x26c4ac0;
+  constexpr static std::size_t addrs = 0x27c2ebc;
 
   inline static ::MethodInfo const* methodInfo() {
 

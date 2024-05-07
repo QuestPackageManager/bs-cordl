@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/MessageWithPartyUnderCurrentParty.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,15 +23,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithPartyUnderCurrentParty : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::Party*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x29cbab0, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x2ac9360, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::Party* GetDataFromMessage(void* c_message);
 
-  /// @brief Method GetParty, addr 0x29cba74, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetParty, addr 0x2ac9324, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::Party* GetParty();
 
   static inline ::Oculus::Platform::MessageWithPartyUnderCurrentParty* New_ctor(void* c_message);
 
-  /// @brief Method .ctor, addr 0x29c7e5c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ac570c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(void* c_message);
 
 protected:

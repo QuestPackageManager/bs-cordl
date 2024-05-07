@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/FileDifficultyBeatmap.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,16 +29,16 @@ public:
   /// @brief Field _lightshowPath, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__lightshowPath, put = __cordl_internal_set__lightshowPath))::StringW _lightshowPath;
 
-  /// @brief Method GetBeatmapString, addr 0x13cb664, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetBeatmapString, addr 0x14c1660, size 0x78, virtual false, abstract: false, final false
   inline ::StringW GetBeatmapString();
 
-  /// @brief Method GetBeatmapStringAsync, addr 0x13cb4f4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetBeatmapStringAsync, addr 0x14c14f0, size 0xb8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::StringW>* GetBeatmapStringAsync();
 
-  /// @brief Method GetLightshowString, addr 0x13cb6dc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetLightshowString, addr 0x14c16d8, size 0x78, virtual false, abstract: false, final false
   inline ::StringW GetLightshowString();
 
-  /// @brief Method GetLightshowStringAsync, addr 0x13cb5ac, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetLightshowStringAsync, addr 0x14c15a8, size 0xb8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::StringW>* GetLightshowStringAsync();
 
   static inline ::GlobalNamespace::FileDifficultyBeatmap* New_ctor(::StringW beatmapPath, ::StringW lightshowPath);
@@ -54,7 +55,7 @@ public:
 
   constexpr void __cordl_internal_set__lightshowPath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x13cb4c8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14c14c4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW beatmapPath, ::StringW lightshowPath);
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HEU_PreAssetEventData.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set_AssetType(::HoudiniEngineUnity::HEU_AssetEventType value);
 
-  /// @brief Method .ctor, addr 0x24385f4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2532280, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::HoudiniEngineUnity::HEU_AssetEventType assetType);
 
 protected:

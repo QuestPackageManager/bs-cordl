@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MultiplayerResultsPyramidViewAvatarInstaller.hpp"
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerResultsPyramidViewAvatarInstaller_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerResultsPyramidViewAvatarInstaller::*)()>(
     &::GlobalNamespace::MultiplayerResultsPyramidViewAvatarInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x261a7b8;
+  constexpr static std::size_t addrs = 0x271a644;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerResultsPyramidViewAvatarInstaller::*)()>(
     &::GlobalNamespace::MultiplayerResultsPyramidViewAvatarInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x261aa08;
+  constexpr static std::size_t addrs = 0x271a894;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

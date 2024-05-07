@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/CuttableBySaber.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__CuttableBySaber_def.hpp"
@@ -15,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__CuttableBySaber__WasCutBySaberDelegate::*)(::System::Object*, void*)>(
     &::GlobalNamespace::__CuttableBySaber__WasCutBySaberDelegate::_ctor)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x26243dc;
+  constexpr static std::size_t addrs = 0x27242b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__CuttableBySaber__WasCutBySaberDelegate::*)(
     ::GlobalNamespace::Saber*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Vector3)>(&::GlobalNamespace::__CuttableBySaber__WasCutBySaberDelegate::Invoke)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x262450c;
+  constexpr static std::size_t addrs = 0x27243e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -47,7 +48,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::__CuttableBySaber__WasCutBySaberDelegate::*)(::GlobalNamespace::Saber*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Vector3, ::System::AsyncCallback*,
                                                                     ::System::Object*)>(&::GlobalNamespace::__CuttableBySaber__WasCutBySaberDelegate::BeginInvoke)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x2624530;
+  constexpr static std::size_t addrs = 0x2724404;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -63,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__CuttableBySaber__WasCutBySaberDelegate::*)(::System::IAsyncResult*)>(
     &::GlobalNamespace::__CuttableBySaber__WasCutBySaberDelegate::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x262461c;
+  constexpr static std::size_t addrs = 0x27244f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -111,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CuttableBySaber::*)(::GlobalNamespace::__CuttableBySaber__WasCutBySaberDelegate*)>(
     &::GlobalNamespace::CuttableBySaber::add_wasCutBySaberEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x26242a4;
+  constexpr static std::size_t addrs = 0x2724178;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -126,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CuttableBySaber::*)(::GlobalNamespace::__CuttableBySaber__WasCutBySaberDelegate*)>(
     &::GlobalNamespace::CuttableBySaber::remove_wasCutBySaberEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2624340;
+  constexpr static std::size_t addrs = 0x2724214;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -141,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CuttableBySaber::*)(
     ::GlobalNamespace::Saber*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Vector3)>(&::GlobalNamespace::CuttableBySaber::CallWasCutBySaberEvent)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2624210;
+  constexpr static std::size_t addrs = 0x27240e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -214,7 +215,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CuttableBySaber::*)()>(&::GlobalNamespace::CuttableBySaber::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x262429c;
+  constexpr static std::size_t addrs = 0x2724170;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CuttableBySaber*>::get(), ".ctor",

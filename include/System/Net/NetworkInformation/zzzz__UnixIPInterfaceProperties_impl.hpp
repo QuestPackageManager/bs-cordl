@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/NetworkInformation/UnixIPInterfaceProperties.hpp"
 #include "System/Net/NetworkInformation/zzzz__IPInterfaceProperties_impl.hpp"
 #include "System/Net/NetworkInformation/zzzz__UnixIPInterfaceProperties_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -13,7 +14,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Net::NetworkInformation::UnixNetworkInterface*, ::System::Collections::Generic::List_1<::System::Net::IPAddress*>*)>(
     &::System::Net::NetworkInformation::UnixIPInterfaceProperties::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2f21940;
+  constexpr static std::size_t addrs = 0x3022240;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::NetworkInformation::UnicastIPAddressInformationCollection* (
     ::System::Net::NetworkInformation::UnixIPInterfaceProperties::*)()>(&::System::Net::NetworkInformation::UnixIPInterfaceProperties::get_UnicastAddresses)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x2f260e8;
+  constexpr static std::size_t addrs = 0x30269e8;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Mime/MailBnfHelper.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -93,25 +94,25 @@ public:
   /// @brief Field s_months, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_months, put = setStaticF_s_months))::ArrayW<::StringW, ::Array<::StringW>*> s_months;
 
-  /// @brief Method CreateCharactersAllowedInAtoms, addr 0x2e305cc, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method CreateCharactersAllowedInAtoms, addr 0x2f2eecc, size 0x1dc, virtual false, abstract: false, final false
   static inline ::ArrayW<bool, ::Array<bool>*> CreateCharactersAllowedInAtoms();
 
-  /// @brief Method CreateCharactersAllowedInComments, addr 0x2e30b68, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method CreateCharactersAllowedInComments, addr 0x2f2f468, size 0x13c, virtual false, abstract: false, final false
   static inline ::ArrayW<bool, ::Array<bool>*> CreateCharactersAllowedInComments();
 
-  /// @brief Method CreateCharactersAllowedInDomainLiterals, addr 0x2e308bc, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method CreateCharactersAllowedInDomainLiterals, addr 0x2f2f1bc, size 0x114, virtual false, abstract: false, final false
   static inline ::ArrayW<bool, ::Array<bool>*> CreateCharactersAllowedInDomainLiterals();
 
-  /// @brief Method CreateCharactersAllowedInHeaderNames, addr 0x2e309d0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method CreateCharactersAllowedInHeaderNames, addr 0x2f2f2d0, size 0xa8, virtual false, abstract: false, final false
   static inline ::ArrayW<bool, ::Array<bool>*> CreateCharactersAllowedInHeaderNames();
 
-  /// @brief Method CreateCharactersAllowedInQuotedStrings, addr 0x2e307a8, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method CreateCharactersAllowedInQuotedStrings, addr 0x2f2f0a8, size 0x114, virtual false, abstract: false, final false
   static inline ::ArrayW<bool, ::Array<bool>*> CreateCharactersAllowedInQuotedStrings();
 
-  /// @brief Method CreateCharactersAllowedInTokens, addr 0x2e30a78, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method CreateCharactersAllowedInTokens, addr 0x2f2f378, size 0xf0, virtual false, abstract: false, final false
   static inline ::ArrayW<bool, ::Array<bool>*> CreateCharactersAllowedInTokens();
 
-  /// @brief Method IsAllowedWhiteSpace, addr 0x2e30ca4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method IsAllowedWhiteSpace, addr 0x2f2f5a4, size 0xcc, virtual false, abstract: false, final false
   static inline bool IsAllowedWhiteSpace(char16_t c);
 
   static inline int32_t getStaticF_Ascii7bitMaxValue();

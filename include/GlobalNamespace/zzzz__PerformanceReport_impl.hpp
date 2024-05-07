@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/PerformanceReport.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PerformanceReport_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayCoreSceneSetupData_def.hpp"
@@ -8,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::DateTime)>(&::GlobalNamespace::PerformanceReport::CreateTimestamp)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x25968a0;
+  constexpr static std::size_t addrs = 0x268fac8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::DateTime, ::GlobalNamespace::GameplayCoreSceneSetupData*)>(
     &::GlobalNamespace::PerformanceReport::CreateReportDescriptor)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x25968f0;
+  constexpr static std::size_t addrs = 0x268fb18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::ArrayW<float_t, ::Array<float_t>*>, float_t)>(
     &::GlobalNamespace::PerformanceReport::ListAggregatedFps)> {
   constexpr static std::size_t size = 0x324;
-  constexpr static std::size_t addrs = 0x259657c;
+  constexpr static std::size_t addrs = 0x268f7a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::ArrayW<float_t, ::Array<float_t>*>)>(&::GlobalNamespace::PerformanceReport::ListFrameDurations)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x2596468;
+  constexpr static std::size_t addrs = 0x268f690;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((

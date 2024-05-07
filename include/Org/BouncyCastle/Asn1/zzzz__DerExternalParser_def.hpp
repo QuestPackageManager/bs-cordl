@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/DerExternalParser.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,10 +33,10 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::DerExternalParser* New_ctor(::Org::BouncyCastle::Asn1::Asn1StreamParser* parser);
 
-  /// @brief Method ReadObject, addr 0x1330770, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ReadObject, addr 0x1423e94, size 0x20, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::IAsn1Convertible* ReadObject();
 
-  /// @brief Method ToAsn1Object, addr 0x1330790, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x1423eb4, size 0x74, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1StreamParser*& __cordl_internal_get__parser();
@@ -44,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set__parser(::Org::BouncyCastle::Asn1::Asn1StreamParser* value);
 
-  /// @brief Method .ctor, addr 0x13259b8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14190dc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1StreamParser* parser);
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/XMLSchema.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,24 +41,24 @@ namespace System::Data {
 class CORDL_TYPE XMLSchema : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FEqualIdentity, addr 0x2be4c18, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method FEqualIdentity, addr 0x2ce1518, size 0x74, virtual false, abstract: false, final false
   static inline bool FEqualIdentity(::System::Xml::XmlNode* node, ::StringW name, ::StringW ns);
 
-  /// @brief Method GenUniqueColumnName, addr 0x2be6960, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method GenUniqueColumnName, addr 0x2ce3260, size 0x128, virtual false, abstract: false, final false
   static inline ::StringW GenUniqueColumnName(::StringW proposedName, ::System::Data::DataTable* table);
 
-  /// @brief Method GetBooleanAttribute, addr 0x2beace0, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method GetBooleanAttribute, addr 0x2ce75e0, size 0x150, virtual false, abstract: false, final false
   static inline bool GetBooleanAttribute(::System::Xml::XmlElement* element, ::StringW attrName, ::StringW attrNS, bool defVal);
 
-  /// @brief Method GetConverter, addr 0x2beac88, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetConverter, addr 0x2ce7588, size 0x58, virtual false, abstract: false, final false
   static inline ::System::ComponentModel::TypeConverter* GetConverter(::System::Type* type);
 
   static inline ::System::Data::XMLSchema* New_ctor();
 
-  /// @brief Method SetProperties, addr 0x2be6dd0, size 0x448, virtual false, abstract: false, final false
+  /// @brief Method SetProperties, addr 0x2ce36d0, size 0x448, virtual false, abstract: false, final false
   static inline void SetProperties(::System::Object* instance, ::System::Xml::XmlAttributeCollection* attrs);
 
-  /// @brief Method .ctor, addr 0x2be4a04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ce1304, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

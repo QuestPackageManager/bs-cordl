@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IActivationFactory.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__IActivationFactory_def.hpp"
 #include "System/zzzz__Object_def.hpp"

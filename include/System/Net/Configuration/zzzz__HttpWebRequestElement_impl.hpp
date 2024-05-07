@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Configuration/HttpWebRequestElement.hpp"
 #include "System/Configuration/zzzz__ConfigurationElement_impl.hpp"
 #include "System/Net/Configuration/zzzz__HttpWebRequestElement_def.hpp"
 #include "System/Configuration/zzzz__ConfigurationPropertyCollection_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Configuration::HttpWebRequestElement::*)()>(
     &::System::Net::Configuration::HttpWebRequestElement::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2e796c0;
+  constexpr static std::size_t addrs = 0x2f77fc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Configuration::HttpWebRequestElement*>::get(),
@@ -22,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Configuration::ConfigurationPropertyCollection* (::System::Net::Configuration::HttpWebRequestElement::*)()>(
     &::System::Net::Configuration::HttpWebRequestElement::get_Properties)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2e796f8;
+  constexpr static std::size_t addrs = 0x2f77ff8;
 
   inline static ::MethodInfo const* methodInfo() {
 

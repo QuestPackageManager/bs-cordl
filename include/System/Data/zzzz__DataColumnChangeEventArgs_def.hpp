@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/DataColumnChangeEventArgs.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,7 +39,7 @@ public:
   /// @brief Field _column, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__column, put = __cordl_internal_set__column))::System::Data::DataColumn* _column;
 
-  /// @brief Method InitializeColumnChangeEvent, addr 0x2b81684, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method InitializeColumnChangeEvent, addr 0x2c7ef84, size 0xc, virtual false, abstract: false, final false
   inline void InitializeColumnChangeEvent(::System::Data::DataColumn* column, ::System::Object* value);
 
   static inline ::System::Data::DataColumnChangeEventArgs* New_ctor(::System::Data::DataRow* row);
@@ -63,16 +64,16 @@ public:
 
   constexpr void __cordl_internal_set__column(::System::Data::DataColumn* value);
 
-  /// @brief Method .ctor, addr 0x2b81588, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c7ee88, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataRow* row);
 
-  /// @brief Method .ctor, addr 0x2b815f4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c7eef4, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataRow* row, ::System::Data::DataColumn* column, ::System::Object* value);
 
-  /// @brief Method get_ProposedValue, addr 0x2b81674, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ProposedValue, addr 0x2c7ef74, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_ProposedValue();
 
-  /// @brief Method set_ProposedValue, addr 0x2b8167c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ProposedValue, addr 0x2c7ef7c, size 0x8, virtual false, abstract: false, final false
   inline void set_ProposedValue(::System::Object* value);
 
 protected:

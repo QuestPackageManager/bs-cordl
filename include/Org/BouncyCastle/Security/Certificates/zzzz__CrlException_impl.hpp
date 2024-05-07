@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Security/Certificates/CrlException.hpp"
 #include "Org/BouncyCastle/Security/zzzz__GeneralSecurityException_impl.hpp"
 #include "Org/BouncyCastle/Security/Certificates/zzzz__CrlException_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Security::Certificates::CrlException::*)()>(
     &::Org::BouncyCastle::Security::Certificates::CrlException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x128daf4;
+  constexpr static std::size_t addrs = 0x137f218;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Security::Certificates::CrlException::*)(::StringW)>(
     &::Org::BouncyCastle::Security::Certificates::CrlException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x128dafc;
+  constexpr static std::size_t addrs = 0x137f220;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Security::Certificates::CrlException::*)(::StringW, ::System::Exception*)>(
     &::Org::BouncyCastle::Security::Certificates::CrlException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x128db04;
+  constexpr static std::size_t addrs = 0x137f228;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

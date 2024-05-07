@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Generators/OpenBsdBCrypt.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,27 +37,27 @@ public:
   /// @brief Field EncodingTable, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_EncodingTable, put = setStaticF_EncodingTable))::ArrayW<uint8_t, ::Array<uint8_t>*> EncodingTable;
 
-  /// @brief Method CheckPassword, addr 0x106d044, size 0x528, virtual false, abstract: false, final false
+  /// @brief Method CheckPassword, addr 0x1160768, size 0x528, virtual false, abstract: false, final false
   static inline bool CheckPassword(::StringW bcryptString, ::ArrayW<char16_t, ::Array<char16_t>*> password);
 
-  /// @brief Method CreateBcryptString, addr 0x106c5d8, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method CreateBcryptString, addr 0x115fcfc, size 0x2e4, virtual false, abstract: false, final false
   static inline ::StringW CreateBcryptString(::StringW version, ::ArrayW<uint8_t, ::Array<uint8_t>*> password, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t cost);
 
-  /// @brief Method DecodeSaltString, addr 0x106d56c, size 0x3d4, virtual false, abstract: false, final false
+  /// @brief Method DecodeSaltString, addr 0x1160c90, size 0x3d4, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DecodeSaltString(::StringW saltString);
 
-  /// @brief Method EncodeData, addr 0x106c8bc, size 0x35c, virtual false, abstract: false, final false
+  /// @brief Method EncodeData, addr 0x115ffe0, size 0x35c, virtual false, abstract: false, final false
   static inline ::StringW EncodeData(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method Generate, addr 0x106cc18, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x116033c, size 0x78, virtual false, abstract: false, final false
   static inline ::StringW Generate(::ArrayW<char16_t, ::Array<char16_t>*> password, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t cost);
 
-  /// @brief Method Generate, addr 0x106cc90, size 0x3b4, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x11603b4, size 0x3b4, virtual false, abstract: false, final false
   static inline ::StringW Generate(::StringW version, ::ArrayW<char16_t, ::Array<char16_t>*> password, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t cost);
 
   static inline ::Org::BouncyCastle::Crypto::Generators::OpenBsdBCrypt* New_ctor();
 
-  /// @brief Method .ctor, addr 0x106c5d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x115fcf4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Utilities::Collections::ISet* getStaticF_AllowedVersions();

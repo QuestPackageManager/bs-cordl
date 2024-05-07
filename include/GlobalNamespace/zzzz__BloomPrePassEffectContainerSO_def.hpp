@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BloomPrePassEffectContainerSO.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,7 +27,7 @@ public:
 
   __declspec(property(get = get_bloomPrePassEffect))::UnityW<::GlobalNamespace::BloomPrePassEffectSO> bloomPrePassEffect;
 
-  /// @brief Method Init, addr 0x23f17c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x24e93b0, size 0x8, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::BloomPrePassEffectSO* bloomPrePassEffect);
 
   static inline ::GlobalNamespace::BloomPrePassEffectContainerSO* New_ctor();
@@ -37,10 +38,10 @@ public:
 
   constexpr void __cordl_internal_set__bloomPrePassEffect(::UnityW<::GlobalNamespace::BloomPrePassEffectSO> value);
 
-  /// @brief Method .ctor, addr 0x23f17c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24e93b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bloomPrePassEffect, addr 0x23f17b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bloomPrePassEffect, addr 0x24e93a8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BloomPrePassEffectSO> get_bloomPrePassEffect();
 
 protected:

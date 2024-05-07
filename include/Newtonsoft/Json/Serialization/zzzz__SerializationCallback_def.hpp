@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/SerializationCallback.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,18 +32,18 @@ namespace Newtonsoft::Json::Serialization {
 class CORDL_TYPE SerializationCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x292e0c4, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2a2c974, size 0x94, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::Object* o, ::System::Runtime::Serialization::StreamingContext context, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x292e158, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2a2ca08, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x292e0b0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2a2c960, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* o, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::Newtonsoft::Json::Serialization::SerializationCallback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2924390, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a22c40, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:

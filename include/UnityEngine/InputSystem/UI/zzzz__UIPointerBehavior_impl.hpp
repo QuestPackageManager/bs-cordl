@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/UI/UIPointerBehavior.hpp"
 #include "UnityEngine/InputSystem/UI/zzzz__UIPointerBehavior_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::InputSystem::UI::UIPointerBehavior::UIPointerBehavior(int32_t value__) noexcept {

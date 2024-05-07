@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Crmf/SubsequentMessage.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,10 +28,10 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage* New_ctor(int32_t value);
 
-  /// @brief Method ValueOf, addr 0xff2c20, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method ValueOf, addr 0x10e6344, size 0x110, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage* ValueOf(int32_t value);
 
-  /// @brief Method .ctor, addr 0xff4540, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10e7c64, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(int32_t value);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage* getStaticF_challengeResp();

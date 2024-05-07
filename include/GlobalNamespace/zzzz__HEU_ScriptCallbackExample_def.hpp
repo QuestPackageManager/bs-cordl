@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/HEU_ScriptCallbackExample.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,10 +23,10 @@ public:
   /// @brief Field _msg, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__msg, put = __cordl_internal_set__msg))::StringW _msg;
 
-  /// @brief Method AssetCallbackNoMsg, addr 0x24372cc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method AssetCallbackNoMsg, addr 0x2530f58, size 0x68, virtual false, abstract: false, final false
   inline void AssetCallbackNoMsg();
 
-  /// @brief Method AssetCallbackWithMsg, addr 0x2437234, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method AssetCallbackWithMsg, addr 0x2530ec0, size 0x98, virtual false, abstract: false, final false
   inline void AssetCallbackWithMsg(::StringW msg);
 
   static inline ::GlobalNamespace::HEU_ScriptCallbackExample* New_ctor();
@@ -36,7 +37,7 @@ public:
 
   constexpr void __cordl_internal_set__msg(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2437334, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2530fc0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

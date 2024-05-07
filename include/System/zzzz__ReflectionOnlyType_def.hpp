@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ReflectionOnlyType.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,10 +26,10 @@ public:
 
   static inline ::System::ReflectionOnlyType* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2877e64, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2977714, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_TypeHandle, addr 0x2877ebc, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_TypeHandle, addr 0x297776c, size 0x58, virtual true, abstract: false, final false
   inline ::System::RuntimeTypeHandle get_TypeHandle();
 
 protected:

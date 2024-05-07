@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/TMP_SelectionCaret.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,15 +22,15 @@ namespace TMPro {
 class CORDL_TYPE TMP_SelectionCaret : public ::UnityEngine::UI::MaskableGraphic {
 public:
   // Declarations
-  /// @brief Method Cull, addr 0x316f418, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method Cull, addr 0x3374ea0, size 0xd0, virtual true, abstract: false, final false
   inline void Cull(::UnityEngine::Rect clipRect, bool validRect);
 
   static inline ::TMPro::TMP_SelectionCaret* New_ctor();
 
-  /// @brief Method UpdateGeometry, addr 0x316f4e8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method UpdateGeometry, addr 0x3374f70, size 0x4, virtual true, abstract: false, final false
   inline void UpdateGeometry();
 
-  /// @brief Method .ctor, addr 0x316f4ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3374f74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Coroutine.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "UnityEngine/zzzz__YieldInstruction_impl.hpp"
 #include "UnityEngine/zzzz__Coroutine_def.hpp"
@@ -7,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Coroutine::*)()>(&::UnityEngine::Coroutine::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x320a878;
+  constexpr static std::size_t addrs = 0x34115ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Coroutine*>::get(), ".ctor",
@@ -20,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Coroutine::*)()>(&::UnityEngine::Coroutine::Finalize)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x320a880;
+  constexpr static std::size_t addrs = 0x34115b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -34,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(void*)>(&::UnityEngine::Coroutine::ReleaseCoroutine)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x320a93c;
+  constexpr static std::size_t addrs = 0x3411670;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

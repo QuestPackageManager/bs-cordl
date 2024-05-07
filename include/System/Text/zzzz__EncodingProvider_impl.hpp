@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Text/EncodingProvider.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Text/zzzz__EncodingProvider_def.hpp"
 #include "System/Text/zzzz__DecoderFallback_def.hpp"
@@ -41,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::Encoding* (
     ::System::Text::EncodingProvider::*)(int32_t, ::System::Text::EncoderFallback*, ::System::Text::DecoderFallback*)>(&::System::Text::EncodingProvider::GetEncoding)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x26bb378;
+  constexpr static std::size_t addrs = 0x27b9774;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::Encoding* (*)(int32_t)>(&::System::Text::EncodingProvider::GetEncodingFromProvider)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x26bb474;
+  constexpr static std::size_t addrs = 0x27b9870;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::Encoding* (*)(::StringW)>(&::System::Text::EncodingProvider::GetEncodingFromProvider)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x26bb550;
+  constexpr static std::size_t addrs = 0x27b994c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::Encoding* (*)(int32_t, ::System::Text::EncoderFallback*, ::System::Text::DecoderFallback*)>(
     &::System::Text::EncodingProvider::GetEncodingFromProvider)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x26bb62c;
+  constexpr static std::size_t addrs = 0x27b9a28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

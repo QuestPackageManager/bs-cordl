@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ConnectionFailedException.hpp"
 #include "GlobalNamespace/zzzz__ConnectionFailedReason_impl.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "GlobalNamespace/zzzz__ConnectionFailedException_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectionFailedException::*)(::GlobalNamespace::ConnectionFailedReason)>(
     &::GlobalNamespace::ConnectionFailedException::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0xf9c45c;
+  constexpr static std::size_t addrs = 0x1090b80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ConnectionFailedException::*)(::GlobalNamespace::ConnectionFailedReason, ::StringW)>(
     &::GlobalNamespace::ConnectionFailedException::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0xf9c4c8;
+  constexpr static std::size_t addrs = 0x1090bec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

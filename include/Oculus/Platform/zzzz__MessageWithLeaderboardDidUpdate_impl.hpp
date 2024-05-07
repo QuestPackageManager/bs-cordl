@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/MessageWithLeaderboardDidUpdate.hpp"
 #include "Oculus/Platform/zzzz__Message_1_impl.hpp"
 #include "Oculus/Platform/zzzz__MessageWithLeaderboardDidUpdate_def.hpp"
 //  Writing Method size for method: ::Oculus::Platform::MessageWithLeaderboardDidUpdate._ctor
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::MessageWithLeaderboardDidUpdate::*)(void*)>(
     &::Oculus::Platform::MessageWithLeaderboardDidUpdate::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x29c7c4c;
+  constexpr static std::size_t addrs = 0x2ac54fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -22,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Oculus::Platform::MessageWithLeaderboardDidUpdate::*)()>(
     &::Oculus::Platform::MessageWithLeaderboardDidUpdate::GetLeaderboardDidUpdate)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x29ccbbc;
+  constexpr static std::size_t addrs = 0x2aca46c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -38,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Oculus::Platform::MessageWithLeaderboardDidUpdate::*)(void*)>(
     &::Oculus::Platform::MessageWithLeaderboardDidUpdate::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x29ccbf8;
+  constexpr static std::size_t addrs = 0x2aca4a8;
 
   inline static ::MethodInfo const* methodInfo() {
 

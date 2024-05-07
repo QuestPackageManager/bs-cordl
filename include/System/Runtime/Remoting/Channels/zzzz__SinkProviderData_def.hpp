@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/Channels/SinkProviderData.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -64,13 +65,13 @@ public:
 
   constexpr void __cordl_internal_set_sinkName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2726180, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x282457c, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method get_Children, addr 0x272622c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Children, addr 0x2824628, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::IList* get_Children();
 
-  /// @brief Method get_Properties, addr 0x2726234, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x2824630, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::IDictionary* get_Properties();
 
 protected:

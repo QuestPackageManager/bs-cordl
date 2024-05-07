@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MurmurHash.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,7 +21,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE MurmurHash : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method MurmurHash2, addr 0x1412d88, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method MurmurHash2, addr 0x15043d8, size 0x174, virtual false, abstract: false, final false
   static inline uint32_t MurmurHash2(::StringW key);
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/EventSystemListener.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__EventSystemListener_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
@@ -12,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::EventSystemListener::*)(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>*)>(
     &::HMUI::EventSystemListener::add_pointerDidEnterEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2406964;
+  constexpr static std::size_t addrs = 0x24ff5f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::EventSystemListener::*)(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>*)>(
     &::HMUI::EventSystemListener::remove_pointerDidEnterEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2406a14;
+  constexpr static std::size_t addrs = 0x24ff6a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::EventSystemListener::*)(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>*)>(
     &::HMUI::EventSystemListener::add_pointerDidExitEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2406ac4;
+  constexpr static std::size_t addrs = 0x24ff750;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::EventSystemListener::*)(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>*)>(
     &::HMUI::EventSystemListener::remove_pointerDidExitEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2406b74;
+  constexpr static std::size_t addrs = 0x24ff800;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -72,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::EventSystemListener::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::HMUI::EventSystemListener::OnPointerEnter)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2406c24;
+  constexpr static std::size_t addrs = 0x24ff8b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::EventSystemListener::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::HMUI::EventSystemListener::OnPointerExit)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2406c40;
+  constexpr static std::size_t addrs = 0x24ff8cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -101,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::EventSystemListener::*)()>(&::HMUI::EventSystemListener::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2406c5c;
+  constexpr static std::size_t addrs = 0x24ff8e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::EventSystemListener*>::get(), ".ctor",

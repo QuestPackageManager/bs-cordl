@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/InvariantComparer.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,7 +38,7 @@ public:
   /// @brief Convert operator to "::System::Collections::IComparer"
   constexpr operator ::System::Collections::IComparer*() noexcept;
 
-  /// @brief Method Compare, addr 0x2e7ca88, size 0xec, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x2f7c388, size 0xec, virtual true, abstract: false, final true
   inline int32_t Compare(::System::Object* a, ::System::Object* b);
 
   static inline ::System::InvariantComparer* New_ctor();
@@ -48,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set_m_compareInfo(::System::Globalization::CompareInfo* value);
 
-  /// @brief Method .ctor, addr 0x2e7ca0c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f7c30c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::InvariantComparer* getStaticF_Default();

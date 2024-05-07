@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ScoreMultiplierCounter.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -102,10 +103,10 @@ public:
 
   static inline ::GlobalNamespace::ScoreMultiplierCounter* New_ctor();
 
-  /// @brief Method ProcessMultiplierEvent, addr 0x13fed48, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ProcessMultiplierEvent, addr 0x14f0304, size 0x9c, virtual false, abstract: false, final false
   inline bool ProcessMultiplierEvent(::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType multiplierEventType);
 
-  /// @brief Method Reset, addr 0x13fed30, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x14f02ec, size 0x18, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr int32_t const& __cordl_internal_get__multiplier() const;
@@ -126,13 +127,13 @@ public:
 
   constexpr void __cordl_internal_set__multiplierIncreaseProgress(int32_t value);
 
-  /// @brief Method .ctor, addr 0x13ff1cc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14f0788, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_multiplier, addr 0x13ff290, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_multiplier, addr 0x14f084c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_multiplier();
 
-  /// @brief Method get_normalizedProgress, addr 0x13ff298, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_normalizedProgress, addr 0x14f0854, size 0x14, virtual false, abstract: false, final false
   inline float_t get_normalizedProgress();
 
 protected:

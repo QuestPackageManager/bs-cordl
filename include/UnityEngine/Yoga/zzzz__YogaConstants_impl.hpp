@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Yoga/YogaConstants.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Yoga/zzzz__YogaConstants_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Yoga::YogaConstants.IsUndefined
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(float_t)>(&::UnityEngine::Yoga::YogaConstants::IsUndefined)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x33f2f10;
+  constexpr static std::size_t addrs = 0x35f8c4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

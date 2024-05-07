@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatSaber/AvatarCore/AvatarPoseData.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,7 +23,7 @@ namespace BeatSaber::AvatarCore {
 struct CORDL_TYPE AvatarPoseData {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0xf4f5e8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x103e15c, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Pose headPose, ::UnityEngine::Pose leftHandPose, ::UnityEngine::Pose rightHandPose);
 
   // Ctor Parameters []

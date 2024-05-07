@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/SignalDeclaration.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,13 +63,13 @@ public:
   // Declarations
   static inline ::Zenject::__SignalDeclaration__Factory* New_ctor();
 
-  /// @brief Method __zenCreate, addr 0x34138a4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x36185e0, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x34138fc, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x3618638, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x341385c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3618598, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -134,24 +135,24 @@ public:
   /// @brief Convert operator to "::Zenject::ITickable"
   constexpr operator ::Zenject::ITickable*() noexcept;
 
-  /// @brief Method Add, addr 0x3413308, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x3618044, size 0xdc, virtual false, abstract: false, final false
   inline void Add(::Zenject::SignalSubscription* subscription);
 
-  /// @brief Method Dispose, addr 0x3412950, size 0x154, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x361768c, size 0x154, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Fire, addr 0x3412aac, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method Fire, addr 0x36177e8, size 0x2dc, virtual false, abstract: false, final false
   inline void Fire(::System::Object* signal);
 
-  /// @brief Method FireInternal, addr 0x3412d88, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method FireInternal, addr 0x3617ac4, size 0x23c, virtual false, abstract: false, final false
   inline void FireInternal(::System::Collections::Generic::List_1<::Zenject::SignalSubscription*>* subscriptions, ::System::Object* signal);
 
   static inline ::Zenject::SignalDeclaration* New_ctor(::Zenject::SignalDeclarationBindInfo* bindInfo, ::Zenject::ZenjectSettings* zenjectSettings);
 
-  /// @brief Method Remove, addr 0x34133e4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x3618120, size 0x58, virtual false, abstract: false, final false
   inline void Remove(::Zenject::SignalSubscription* subscription);
 
-  /// @brief Method Tick, addr 0x3412fe8, size 0x320, virtual true, abstract: false, final true
+  /// @brief Method Tick, addr 0x3617d24, size 0x320, virtual true, abstract: false, final true
   inline void Tick();
 
   constexpr int32_t const& __cordl_internal_get__TickPriority_k__BackingField() const;
@@ -196,22 +197,22 @@ public:
 
   constexpr void __cordl_internal_set__subscriptions(::System::Collections::Generic::List_1<::Zenject::SignalSubscription*>* value);
 
-  /// @brief Method __zenCreate, addr 0x341343c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x3618178, size 0x11c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x3413558, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x3618294, size 0x304, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x34127a4, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36174e0, size 0x188, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::SignalDeclarationBindInfo* bindInfo, ::Zenject::ZenjectSettings* zenjectSettings);
 
-  /// @brief Method get_BindingId, addr 0x3412944, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_BindingId, addr 0x3617680, size 0xc, virtual false, abstract: false, final false
   inline ::Zenject::BindingId get_BindingId();
 
-  /// @brief Method get_IsAsync, addr 0x341293c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsAsync, addr 0x3617678, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsAsync();
 
-  /// @brief Method get_TickPriority, addr 0x341292c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TickPriority, addr 0x3617668, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_TickPriority();
 
   /// @brief Convert to "::System::IDisposable"
@@ -220,7 +221,7 @@ public:
   /// @brief Convert to "::Zenject::ITickable"
   constexpr ::Zenject::ITickable* i___Zenject__ITickable() noexcept;
 
-  /// @brief Method set_TickPriority, addr 0x3412934, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_TickPriority, addr 0x3617670, size 0x8, virtual false, abstract: false, final false
   inline void set_TickPriority(int32_t value);
 
 protected:

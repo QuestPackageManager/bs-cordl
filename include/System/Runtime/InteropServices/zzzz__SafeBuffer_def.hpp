@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/InteropServices/SafeBuffer.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,13 +31,13 @@ public:
   /// @brief Field _numBytes, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__numBytes, put = __cordl_internal_set__numBytes)) void* _numBytes;
 
-  /// @brief Method AcquirePointer, addr 0x2758360, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method AcquirePointer, addr 0x285775c, size 0x108, virtual false, abstract: false, final false
   inline void AcquirePointer(ByRef<::cordl_internals::Ptr<uint8_t>> pointer);
 
-  /// @brief Method NotInitialized, addr 0x2758468, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method NotInitialized, addr 0x2857864, size 0x74, virtual false, abstract: false, final false
   static inline ::System::InvalidOperationException* NotInitialized();
 
-  /// @brief Method ReleasePointer, addr 0x27585ac, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method ReleasePointer, addr 0x28579a8, size 0xdc, virtual false, abstract: false, final false
   inline void ReleasePointer();
 
   constexpr void* const& __cordl_internal_get__numBytes() const;

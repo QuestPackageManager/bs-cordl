@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/IPlaceholderFactory.hpp"
 #include "Zenject/zzzz__IPlaceholderFactory_def.hpp"
 #include "Zenject/zzzz__IValidatable_def.hpp"
 /// @brief Convert operator to "::Zenject::IValidatable"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/IBindable.hpp"
 #include "UnityEngine/UIElements/zzzz__IBindable_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IBinding_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::IBindable.get_binding

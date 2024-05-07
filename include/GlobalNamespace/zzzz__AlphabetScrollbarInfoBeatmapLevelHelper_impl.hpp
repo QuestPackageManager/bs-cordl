@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/AlphabetScrollbarInfoBeatmapLevelHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__AlphabetScrollbarInfoBeatmapLevelHelper_def.hpp"
 #include "GlobalNamespace/zzzz__AlphabetScrollInfo_def.hpp"
@@ -12,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__AlphabetScrollbarInfoBeatmapLevelHelper____c::*)()>(
     &::GlobalNamespace::__AlphabetScrollbarInfoBeatmapLevelHelper____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x13d28c8;
+  constexpr static std::size_t addrs = 0x14c88d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::__AlphabetScrollbarInfoBeatmapLevelHelper____c::*)(::GlobalNamespace::BeatmapLevel*)>(
     &::GlobalNamespace::__AlphabetScrollbarInfoBeatmapLevelHelper____c::_CreateData_b__3_0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x13d28d0;
+  constexpr static std::size_t addrs = 0x14c88d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -79,7 +80,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                                          ByRef<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevel*>*>)>(
     &::GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper::CreateData)> {
   constexpr static std::size_t size = 0x594;
-  constexpr static std::size_t addrs = 0x13d22d0;
+  constexpr static std::size_t addrs = 0x14c82d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

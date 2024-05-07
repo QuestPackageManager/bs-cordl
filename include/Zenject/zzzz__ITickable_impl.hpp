@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/ITickable.hpp"
 #include "Zenject/zzzz__ITickable_def.hpp"
 //  Writing Method size for method: ::Zenject::ITickable.Tick
 template <>

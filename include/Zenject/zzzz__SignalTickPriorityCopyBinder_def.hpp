@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/SignalTickPriorityCopyBinder.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,7 +34,7 @@ public:
 
   static inline ::Zenject::SignalTickPriorityCopyBinder* New_ctor(::Zenject::SignalDeclarationBindInfo* signalBindInfo);
 
-  /// @brief Method WithTickPriority, addr 0x3412780, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method WithTickPriority, addr 0x36174bc, size 0x24, virtual false, abstract: false, final false
   inline ::Zenject::SignalCopyBinder* WithTickPriority(int32_t priority);
 
   constexpr ::Zenject::SignalDeclarationBindInfo*& __cordl_internal_get__SignalBindInfo_k__BackingField();
@@ -42,13 +43,13 @@ public:
 
   constexpr void __cordl_internal_set__SignalBindInfo_k__BackingField(::Zenject::SignalDeclarationBindInfo* value);
 
-  /// @brief Method .ctor, addr 0x3412214, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3616f50, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::SignalDeclarationBindInfo* signalBindInfo);
 
-  /// @brief Method get_SignalBindInfo, addr 0x3412770, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SignalBindInfo, addr 0x36174ac, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::SignalDeclarationBindInfo* get_SignalBindInfo();
 
-  /// @brief Method set_SignalBindInfo, addr 0x3412778, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SignalBindInfo, addr 0x36174b4, size 0x8, virtual false, abstract: false, final false
   inline void set_SignalBindInfo(::Zenject::SignalDeclarationBindInfo* value);
 
 protected:

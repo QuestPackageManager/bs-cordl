@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/NoThrowExpressionVisitor.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,10 +33,10 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::NoThrowExpressionVisitor* New_ctor();
 
-  /// @brief Method VisitConditional, addr 0x2911e90, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method VisitConditional, addr 0x2a10740, size 0xfc, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* VisitConditional(::System::Linq::Expressions::ConditionalExpression* node);
 
-  /// @brief Method .ctor, addr 0x2911d04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a105b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Object* getStaticF_ErrorResult();

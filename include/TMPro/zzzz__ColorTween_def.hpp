@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/ColorTween.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -105,7 +106,7 @@ public:
   // Declarations
   static inline ::TMPro::__ColorTween__ColorTweenCallback* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3131bd0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3336658, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -153,52 +154,52 @@ public:
   /// @brief Convert operator to "::TMPro::ITweenValue"
   constexpr operator ::TMPro::ITweenValue*();
 
-  /// @brief Method AddOnChangedCallback, addr 0x3131b48, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method AddOnChangedCallback, addr 0x33365d0, size 0x88, virtual false, abstract: false, final false
   inline void AddOnChangedCallback(::UnityEngine::Events::UnityAction_1<::UnityEngine::Color>* callback);
 
-  /// @brief Method GetDuration, addr 0x3131c20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetDuration, addr 0x33366a8, size 0x8, virtual false, abstract: false, final false
   inline float_t GetDuration();
 
-  /// @brief Method GetIgnoreTimescale, addr 0x3131c18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetIgnoreTimescale, addr 0x33366a0, size 0x8, virtual false, abstract: false, final false
   inline bool GetIgnoreTimescale();
 
-  /// @brief Method TweenValue, addr 0x3131a5c, size 0xdc, virtual true, abstract: false, final true
+  /// @brief Method TweenValue, addr 0x33364e4, size 0xdc, virtual true, abstract: false, final true
   inline void TweenValue(float_t floatPercentage);
 
-  /// @brief Method ValidTarget, addr 0x3131b38, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method ValidTarget, addr 0x33365c0, size 0x10, virtual true, abstract: false, final true
   inline bool ValidTarget();
 
-  /// @brief Method get_duration, addr 0x3131a38, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_duration, addr 0x33364c0, size 0x8, virtual true, abstract: false, final true
   inline float_t get_duration();
 
-  /// @brief Method get_ignoreTimeScale, addr 0x3131a48, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_ignoreTimeScale, addr 0x33364d0, size 0x8, virtual true, abstract: false, final true
   inline bool get_ignoreTimeScale();
 
-  /// @brief Method get_startColor, addr 0x31319f8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_startColor, addr 0x3336480, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_startColor();
 
-  /// @brief Method get_targetColor, addr 0x3131a10, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_targetColor, addr 0x3336498, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_targetColor();
 
-  /// @brief Method get_tweenMode, addr 0x3131a28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_tweenMode, addr 0x33364b0, size 0x8, virtual false, abstract: false, final false
   inline ::TMPro::__ColorTween__ColorTweenMode get_tweenMode();
 
   /// @brief Convert to "::TMPro::ITweenValue"
   constexpr ::TMPro::ITweenValue* i___TMPro__ITweenValue();
 
-  /// @brief Method set_duration, addr 0x3131a40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_duration, addr 0x33364c8, size 0x8, virtual false, abstract: false, final false
   inline void set_duration(float_t value);
 
-  /// @brief Method set_ignoreTimeScale, addr 0x3131a50, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ignoreTimeScale, addr 0x33364d8, size 0xc, virtual false, abstract: false, final false
   inline void set_ignoreTimeScale(bool value);
 
-  /// @brief Method set_startColor, addr 0x3131a04, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_startColor, addr 0x333648c, size 0xc, virtual false, abstract: false, final false
   inline void set_startColor(::UnityEngine::Color value);
 
-  /// @brief Method set_targetColor, addr 0x3131a1c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_targetColor, addr 0x33364a4, size 0xc, virtual false, abstract: false, final false
   inline void set_targetColor(::UnityEngine::Color value);
 
-  /// @brief Method set_tweenMode, addr 0x3131a30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_tweenMode, addr 0x33364b8, size 0x8, virtual false, abstract: false, final false
   inline void set_tweenMode(::TMPro::__ColorTween__ColorTweenMode value);
 
   // Ctor Parameters []

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/PropertyNameUtils.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,10 +24,10 @@ namespace UnityEngine {
 class CORDL_TYPE PropertyNameUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method PropertyNameFromString, addr 0x31ffcdc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method PropertyNameFromString, addr 0x3406a10, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::PropertyName PropertyNameFromString(::StringW name);
 
-  /// @brief Method PropertyNameFromString_Injected, addr 0x31ffea8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method PropertyNameFromString_Injected, addr 0x3406bdc, size 0x44, virtual false, abstract: false, final false
   static inline void PropertyNameFromString_Injected(::StringW name, ByRef<::UnityEngine::PropertyName> ret);
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/MonoLimitationAttribute.hpp"
 #include "System/zzzz__MonoTODOAttribute_impl.hpp"
 #include "System/zzzz__MonoLimitationAttribute_def.hpp"
 //  Writing Method size for method: ::System::MonoLimitationAttribute._ctor
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::MonoLimitationAttribute::*)(::StringW)>(&::System::MonoLimitationAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x285e14c;
+  constexpr static std::size_t addrs = 0x295c9f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

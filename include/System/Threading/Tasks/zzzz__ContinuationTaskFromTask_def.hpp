@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/Tasks/ContinuationTaskFromTask.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,7 +37,7 @@ public:
   /// @brief Field m_antecedent, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_m_antecedent, put = __cordl_internal_set_m_antecedent))::System::Threading::Tasks::Task* m_antecedent;
 
-  /// @brief Method InnerInvoke, addr 0x28b45c0, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method InnerInvoke, addr 0x29b2e70, size 0xd0, virtual true, abstract: false, final false
   inline void InnerInvoke();
 
   static inline ::System::Threading::Tasks::ContinuationTaskFromTask* New_ctor(::System::Threading::Tasks::Task* antecedent, ::System::Delegate* action, ::System::Object* state,
@@ -49,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set_m_antecedent(::System::Threading::Tasks::Task* value);
 
-  /// @brief Method .ctor, addr 0x28b11e8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29afa98, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::Task* antecedent, ::System::Delegate* action, ::System::Object* state, ::System::Threading::Tasks::TaskCreationOptions creationOptions,
                     ::System::Threading::Tasks::InternalTaskOptions internalOptions);
 

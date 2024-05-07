@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/LicensesDisplayViewController.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,7 +31,7 @@ public:
   /// @brief Field _textPageScrollView, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__textPageScrollView, put = __cordl_internal_set__textPageScrollView))::UnityW<::HMUI::TextPageScrollView> _textPageScrollView;
 
-  /// @brief Method DidActivate, addr 0x2556918, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x264c238, size 0x44, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::LicensesDisplayViewController* New_ctor();
@@ -47,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set__textPageScrollView(::UnityW<::HMUI::TextPageScrollView> value);
 
-  /// @brief Method .ctor, addr 0x255695c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x264c27c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

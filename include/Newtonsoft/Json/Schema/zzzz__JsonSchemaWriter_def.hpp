@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Schema/JsonSchemaWriter.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,10 +56,10 @@ public:
 
   static inline ::Newtonsoft::Json::Schema::__JsonSchemaWriter____c* New_ctor();
 
-  /// @brief Method <WriteType>b__7_0, addr 0x295620c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <WriteType>b__7_0, addr 0x2a54abc, size 0xc, virtual false, abstract: false, final false
   inline bool _WriteType_b__7_0(::Newtonsoft::Json::Schema::JsonSchemaType v);
 
-  /// @brief Method .ctor, addr 0x2956204, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a54ab4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Newtonsoft::Json::Schema::__JsonSchemaWriter____c* getStaticF___9();
@@ -107,23 +108,23 @@ public:
 
   static inline ::Newtonsoft::Json::Schema::JsonSchemaWriter* New_ctor(::Newtonsoft::Json::JsonWriter* writer, ::Newtonsoft::Json::Schema::JsonSchemaResolver* resolver);
 
-  /// @brief Method ReferenceOrWriteSchema, addr 0x29552d8, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method ReferenceOrWriteSchema, addr 0x2a53b88, size 0xe4, virtual false, abstract: false, final false
   inline void ReferenceOrWriteSchema(::Newtonsoft::Json::Schema::JsonSchema* schema);
 
-  /// @brief Method WriteItems, addr 0x2955cec, size 0x4b4, virtual false, abstract: false, final false
+  /// @brief Method WriteItems, addr 0x2a5459c, size 0x4b4, virtual false, abstract: false, final false
   inline void WriteItems(::Newtonsoft::Json::Schema::JsonSchema* schema);
 
-  /// @brief Method WritePropertyIfNotNull, addr 0x29553bc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method WritePropertyIfNotNull, addr 0x2a53c6c, size 0x64, virtual false, abstract: false, final false
   inline void WritePropertyIfNotNull(::Newtonsoft::Json::JsonWriter* writer, ::StringW propertyName, ::System::Object* value);
 
-  /// @brief Method WriteSchema, addr 0x294ba3c, size 0x101c, virtual false, abstract: false, final false
+  /// @brief Method WriteSchema, addr 0x2a4a2ec, size 0x101c, virtual false, abstract: false, final false
   inline void WriteSchema(::Newtonsoft::Json::Schema::JsonSchema* schema);
 
-  /// @brief Method WriteSchemaDictionaryIfNotNull, addr 0x2955960, size 0x38c, virtual false, abstract: false, final false
+  /// @brief Method WriteSchemaDictionaryIfNotNull, addr 0x2a54210, size 0x38c, virtual false, abstract: false, final false
   inline void WriteSchemaDictionaryIfNotNull(::Newtonsoft::Json::JsonWriter* writer, ::StringW propertyName,
                                              ::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchema*>* properties);
 
-  /// @brief Method WriteType, addr 0x2955420, size 0x540, virtual false, abstract: false, final false
+  /// @brief Method WriteType, addr 0x2a53cd0, size 0x540, virtual false, abstract: false, final false
   inline void WriteType(::StringW propertyName, ::Newtonsoft::Json::JsonWriter* writer, ::Newtonsoft::Json::Schema::JsonSchemaType type);
 
   constexpr ::Newtonsoft::Json::Schema::JsonSchemaResolver*& __cordl_internal_get__resolver();
@@ -138,7 +139,7 @@ public:
 
   constexpr void __cordl_internal_set__writer(::Newtonsoft::Json::JsonWriter* value);
 
-  /// @brief Method .ctor, addr 0x294b9cc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a4a27c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::JsonWriter* writer, ::Newtonsoft::Json::Schema::JsonSchemaResolver* resolver);
 
 protected:

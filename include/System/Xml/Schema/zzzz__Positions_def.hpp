@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/Positions.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,7 +36,7 @@ public:
   /// @brief Field positions, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_positions, put = __cordl_internal_set_positions))::System::Collections::ArrayList* positions;
 
-  /// @brief Method Add, addr 0x2dfac30, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x2ef9530, size 0x90, virtual false, abstract: false, final false
   inline int32_t Add(int32_t symbol, ::System::Object* particle);
 
   static inline ::System::Xml::Schema::Positions* New_ctor();
@@ -46,13 +47,13 @@ public:
 
   constexpr void __cordl_internal_set_positions(::System::Collections::ArrayList* value);
 
-  /// @brief Method .ctor, addr 0x2dfad74, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ef9674, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Count, addr 0x2dfad50, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x2ef9650, size 0x24, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Item, addr 0x2dfacc0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x2ef95c0, size 0x90, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::Position get_Item(int32_t pos);
 
 protected:

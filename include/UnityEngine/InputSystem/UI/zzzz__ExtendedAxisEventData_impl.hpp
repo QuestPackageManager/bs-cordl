@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/UI/ExtendedAxisEventData.hpp"
 #include "UnityEngine/EventSystems/zzzz__AxisEventData_impl.hpp"
 #include "UnityEngine/InputSystem/UI/zzzz__ExtendedAxisEventData_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__EventSystem_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::UI::ExtendedAxisEventData::*)(::UnityEngine::EventSystems::EventSystem*)>(
     &::UnityEngine::InputSystem::UI::ExtendedAxisEventData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x300205c;
+  constexpr static std::size_t addrs = 0x313ede8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::UI::ExtendedAxisEventData::*)()>(
     &::UnityEngine::InputSystem::UI::ExtendedAxisEventData::ToString)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3002064;
+  constexpr static std::size_t addrs = 0x313edf0;
 
   inline static ::MethodInfo const* methodInfo() {
 

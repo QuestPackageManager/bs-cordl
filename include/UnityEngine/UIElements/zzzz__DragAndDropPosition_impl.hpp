@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/DragAndDropPosition.hpp"
 #include "UnityEngine/UIElements/zzzz__DragAndDropPosition_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::UIElements::DragAndDropPosition::DragAndDropPosition(int32_t value__) noexcept {

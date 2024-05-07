@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/BerOutputStream.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,10 +27,10 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Asn1::BerOutputStream* New_ctor(::System::IO::Stream* os);
 
-  /// @brief Method WriteObject, addr 0x132c98c, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method WriteObject, addr 0x14200b0, size 0x15c, virtual true, abstract: false, final false
   inline void WriteObject(::System::Object* obj);
 
-  /// @brief Method .ctor, addr 0x132b014, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x141e738, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* os);
 
 protected:

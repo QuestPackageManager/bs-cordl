@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/BadImageFormatException.hpp"
 #include "System/zzzz__SystemException_impl.hpp"
 #include "System/zzzz__BadImageFormatException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
@@ -9,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::BadImageFormatException::*)()>(&::System::BadImageFormatException::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x279af70;
+  constexpr static std::size_t addrs = 0x289a690;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::BadImageFormatException*>::get(), ".ctor",
@@ -22,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::BadImageFormatException::*)(::StringW)>(&::System::BadImageFormatException::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x279afcc;
+  constexpr static std::size_t addrs = 0x289a6ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -37,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::BadImageFormatException::*)(::StringW, ::System::Exception*)>(
     &::System::BadImageFormatException::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x279aff0;
+  constexpr static std::size_t addrs = 0x289a710;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -52,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::BadImageFormatException::*)(::StringW, ::StringW)>(&::System::BadImageFormatException::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x279b014;
+  constexpr static std::size_t addrs = 0x289a734;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -67,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::BadImageFormatException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::BadImageFormatException::_ctor)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x279b048;
+  constexpr static std::size_t addrs = 0x289a768;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::BadImageFormatException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::BadImageFormatException::GetObjectData)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x279b0f8;
+  constexpr static std::size_t addrs = 0x289a818;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -97,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::BadImageFormatException::*)()>(&::System::BadImageFormatException::get_Message)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x279b210;
+  constexpr static std::size_t addrs = 0x289a930;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -111,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::BadImageFormatException::*)()>(&::System::BadImageFormatException::SetMessageField)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x279b228;
+  constexpr static std::size_t addrs = 0x289a948;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::BadImageFormatException*>::get(), "SetMessageField",
@@ -124,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::BadImageFormatException::*)()>(&::System::BadImageFormatException::ToString)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x279b2a4;
+  constexpr static std::size_t addrs = 0x289a9c4;
 
   inline static ::MethodInfo const* methodInfo() {
 

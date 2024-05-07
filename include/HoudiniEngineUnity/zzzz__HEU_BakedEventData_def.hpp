@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HEU_BakedEventData.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set_IsNewBake(bool value);
 
-  /// @brief Method .ctor, addr 0x2438588, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2532214, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool successful, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputObjects, bool isNewBake);
 
 protected:

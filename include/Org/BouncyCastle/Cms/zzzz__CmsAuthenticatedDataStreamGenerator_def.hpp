@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Cms/CmsAuthenticatedDataStreamGenerator.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -68,7 +69,7 @@ public:
   /// @brief Field macStream, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_macStream, put = __cordl_internal_set_macStream))::System::IO::Stream* macStream;
 
-  /// @brief Method Close, addr 0x134b308, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x143fa2c, size 0x138, virtual true, abstract: false, final false
   inline void Close();
 
   static inline ::Org::BouncyCastle::Cms::__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream* New_ctor(::System::IO::Stream* macStream, ::Org::BouncyCastle::Crypto::IMac* mac,
@@ -76,10 +77,10 @@ public:
                                                                                                                             ::Org::BouncyCastle::Asn1::BerSequenceGenerator* authGen,
                                                                                                                             ::Org::BouncyCastle::Asn1::BerSequenceGenerator* eiGen);
 
-  /// @brief Method Write, addr 0x134b2e4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x143fa08, size 0x24, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t off, int32_t len);
 
-  /// @brief Method WriteByte, addr 0x134b2c0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method WriteByte, addr 0x143f9e4, size 0x24, virtual true, abstract: false, final false
   inline void WriteByte(uint8_t b);
 
   constexpr ::Org::BouncyCastle::Asn1::BerSequenceGenerator*& __cordl_internal_get_authGen();
@@ -112,7 +113,7 @@ public:
 
   constexpr void __cordl_internal_set_macStream(::System::IO::Stream* value);
 
-  /// @brief Method .ctor, addr 0x134b0b4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x143f7d8, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* macStream, ::Org::BouncyCastle::Crypto::IMac* mac, ::Org::BouncyCastle::Asn1::BerSequenceGenerator* cGen,
                     ::Org::BouncyCastle::Asn1::BerSequenceGenerator* authGen, ::Org::BouncyCastle::Asn1::BerSequenceGenerator* eiGen);
 
@@ -181,23 +182,23 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::CmsAuthenticatedDataStreamGenerator* New_ctor(::Org::BouncyCastle::Security::SecureRandom* rand);
 
-  /// @brief Method Open, addr 0x134b104, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x143f828, size 0xdc, virtual false, abstract: false, final false
   inline ::System::IO::Stream* Open(::System::IO::Stream* outStr, ::StringW encryptionOid);
 
-  /// @brief Method Open, addr 0x134b1e0, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x143f904, size 0xe0, virtual false, abstract: false, final false
   inline ::System::IO::Stream* Open(::System::IO::Stream* outStr, ::StringW encryptionOid, int32_t keySize);
 
-  /// @brief Method Open, addr 0x134a808, size 0x8ac, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x143ef2c, size 0x8ac, virtual false, abstract: false, final false
   inline ::System::IO::Stream* Open(::System::IO::Stream* outStr, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* macAlgId, ::Org::BouncyCastle::Crypto::ICipherParameters* cipherParameters,
                                     ::Org::BouncyCastle::Asn1::Asn1EncodableVector* recipientInfos);
 
-  /// @brief Method Open, addr 0x134a210, size 0x5f8, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x143e934, size 0x5f8, virtual false, abstract: false, final false
   inline ::System::IO::Stream* Open(::System::IO::Stream* outStr, ::StringW macOid, ::Org::BouncyCastle::Crypto::CipherKeyGenerator* keyGen);
 
-  /// @brief Method SetBerEncodeRecipients, addr 0x134a204, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetBerEncodeRecipients, addr 0x143e928, size 0xc, virtual false, abstract: false, final false
   inline void SetBerEncodeRecipients(bool berEncodeRecipientSet);
 
-  /// @brief Method SetBufferSize, addr 0x134a1fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetBufferSize, addr 0x143e920, size 0x8, virtual false, abstract: false, final false
   inline void SetBufferSize(int32_t bufferSize);
 
   constexpr bool const& __cordl_internal_get__berEncodeRecipientSet() const;
@@ -212,10 +213,10 @@ public:
 
   constexpr void __cordl_internal_set__bufferSize(int32_t value);
 
-  /// @brief Method .ctor, addr 0x134a1f4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x143e918, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x134a1f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x143e91c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* rand);
 
 protected:

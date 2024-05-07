@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaAll.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaGroupBase_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaAll_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaObjectCollection_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaObjectCollection* (::System::Xml::Schema::XmlSchemaAll::*)()>(
     &::System::Xml::Schema::XmlSchemaAll::get_Items)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2d0feb0;
+  constexpr static std::size_t addrs = 0x2e0d7b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -22,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::XmlSchemaAll::*)()>(&::System::Xml::Schema::XmlSchemaAll::get_IsEmpty)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2d0feb8;
+  constexpr static std::size_t addrs = 0x2e0d7b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -37,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaAll::*)(::System::Xml::Schema::XmlSchemaObjectCollection*)>(
     &::System::Xml::Schema::XmlSchemaAll::SetItems)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2d0fef8;
+  constexpr static std::size_t addrs = 0x2e0d7f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -51,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaAll::*)()>(&::System::Xml::Schema::XmlSchemaAll::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2d0ff00;
+  constexpr static std::size_t addrs = 0x2e0d800;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaAll*>::get(), ".ctor",

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Audio/AudioPlayableBinding.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,10 +32,10 @@ namespace UnityEngine::Audio {
 class CORDL_TYPE AudioPlayableBinding : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x31cc35c, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x33d2de4, size 0x13c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableBinding Create(::StringW name, ::UnityEngine::Object* key);
 
-  /// @brief Method CreateAudioOutput, addr 0x31cc498, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method CreateAudioOutput, addr 0x33d2f20, size 0x40, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableOutput CreateAudioOutput(::UnityEngine::Playables::PlayableGraph graph, ::StringW name);
 
 protected:

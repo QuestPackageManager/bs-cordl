@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/MouseState.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,7 +57,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*();
 
-  /// @brief Method WithButton, addr 0x301c350, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method WithButton, addr 0x31580dc, size 0x2c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::MouseState WithButton(::UnityEngine::InputSystem::LowLevel::MouseButton button, bool state);
 
   constexpr uint16_t const& __cordl_internal_get_buttons() const;
@@ -95,10 +96,10 @@ public:
 
   constexpr void __cordl_internal_set_scroll(::UnityEngine::Vector2 value);
 
-  /// @brief Method get_Format, addr 0x301c320, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Format, addr 0x31580ac, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Format();
 
-  /// @brief Method get_format, addr 0x301c37c, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_format, addr 0x3158108, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"

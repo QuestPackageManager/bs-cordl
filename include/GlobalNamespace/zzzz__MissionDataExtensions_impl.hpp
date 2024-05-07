@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MissionDataExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionDataExtensions_def.hpp"
 #include "GlobalNamespace/zzzz__MissionObjective_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::GlobalNamespace::__MissionObjective__ReferenceValueComparisonType)>(
     &::GlobalNamespace::MissionDataExtensions::Name)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x13d73f0;
+  constexpr static std::size_t addrs = 0x14ca7a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

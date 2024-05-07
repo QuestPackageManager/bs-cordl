@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/AudioManagerSO.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__AudioManagerSO_def.hpp"
 #include "UnityEngine/Audio/zzzz__AudioMixer_def.hpp"
@@ -7,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::AudioManagerSO::*)()>(&::GlobalNamespace::AudioManagerSO::get_sfxLatency)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x250de8c;
+  constexpr static std::size_t addrs = 0x260551c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioManagerSO*>::get(), "get_sfxLatency",
@@ -20,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioManagerSO::*)()>(&::GlobalNamespace::AudioManagerSO::Init)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x250940c;
+  constexpr static std::size_t addrs = 0x260038c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioManagerSO*>::get(), "Init",
@@ -33,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioManagerSO::*)(float_t)>(&::GlobalNamespace::AudioManagerSO::set_mainVolume)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x25094b4;
+  constexpr static std::size_t addrs = 0x260557c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioManagerSO::*)(float_t)>(&::GlobalNamespace::AudioManagerSO::set_musicVolume)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x250deec;
+  constexpr static std::size_t addrs = 0x26055e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::AudioManagerSO::*)()>(&::GlobalNamespace::AudioManagerSO::get_sfxVolume)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x250df54;
+  constexpr static std::size_t addrs = 0x2605648;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioManagerSO*>::get(), "get_sfxVolume",
@@ -74,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioManagerSO::*)(float_t)>(&::GlobalNamespace::AudioManagerSO::set_sfxVolume)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x250df6c;
+  constexpr static std::size_t addrs = 0x2604b0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -88,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::AudioManagerSO::*)()>(&::GlobalNamespace::AudioManagerSO::get_sfxEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x250dff0;
+  constexpr static std::size_t addrs = 0x2605660;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioManagerSO*>::get(), "get_sfxEnabled",
@@ -101,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioManagerSO::*)(bool)>(&::GlobalNamespace::AudioManagerSO::set_sfxEnabled)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x250dff8;
+  constexpr static std::size_t addrs = 0x2605668;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -115,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioManagerSO::*)(float_t)>(&::GlobalNamespace::AudioManagerSO::set_musicPitch)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x250e018;
+  constexpr static std::size_t addrs = 0x2605688;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -129,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioManagerSO::*)(float_t)>(&::GlobalNamespace::AudioManagerSO::set_musicSpeed)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x250e118;
+  constexpr static std::size_t addrs = 0x2605788;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -143,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioManagerSO::*)()>(&::GlobalNamespace::AudioManagerSO::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x250e17c;
+  constexpr static std::size_t addrs = 0x26057ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioManagerSO*>::get(), ".ctor",

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Timeline/SupportsChildTracksAttribute.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set_levels(int32_t value);
 
-  /// @brief Method .ctor, addr 0x319d04c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33a3ad4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* childType, int32_t levels);
 
 protected:

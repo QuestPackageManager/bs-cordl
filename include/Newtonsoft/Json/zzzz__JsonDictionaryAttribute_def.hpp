@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/JsonDictionaryAttribute.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,10 +24,10 @@ public:
 
   static inline ::Newtonsoft::Json::JsonDictionaryAttribute* New_ctor(::StringW id);
 
-  /// @brief Method .ctor, addr 0x28c7970, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29c6220, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x28c7978, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29c6228, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW id);
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Operators/Asn1SignatureFactory.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,7 +58,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ISignatureFactory"
   constexpr operator ::Org::BouncyCastle::Crypto::ISignatureFactory*() noexcept;
 
-  /// @brief Method CreateCalculator, addr 0x1097ce4, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method CreateCalculator, addr 0x118b408, size 0xb4, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::IStreamCalculator* CreateCalculator();
 
   static inline ::Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory* New_ctor(::StringW algorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey);
@@ -89,16 +90,16 @@ public:
 
   constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method .ctor, addr 0x1097b7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x118b2a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW algorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey);
 
-  /// @brief Method .ctor, addr 0x1097b84, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x118b2a8, size 0x158, virtual false, abstract: false, final false
   inline void _ctor(::StringW algorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method get_AlgorithmDetails, addr 0x1097cdc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_AlgorithmDetails, addr 0x118b400, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_AlgorithmDetails();
 
-  /// @brief Method get_SignatureAlgNames, addr 0x1097e14, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_SignatureAlgNames, addr 0x118b538, size 0x4c, virtual false, abstract: false, final false
   static inline ::System::Collections::IEnumerable* get_SignatureAlgNames();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ISignatureFactory"

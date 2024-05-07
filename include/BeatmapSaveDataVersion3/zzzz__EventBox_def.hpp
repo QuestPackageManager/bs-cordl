@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatmapSaveDataVersion3/EventBox.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,16 +63,16 @@ public:
 
   constexpr void __cordl_internal_set_w(float_t value);
 
-  /// @brief Method .ctor, addr 0x14009dc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14f1fa0, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::BeatmapSaveDataVersion3::IndexFilter* indexFilter, float_t beatDistributionParam, ::BeatmapSaveDataCommon::DistributionParamType beatDistributionParamType);
 
-  /// @brief Method get_beatDistributionParam, addr 0x14009cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatDistributionParam, addr 0x14f1f90, size 0x8, virtual false, abstract: false, final false
   inline float_t get_beatDistributionParam();
 
-  /// @brief Method get_beatDistributionParamType, addr 0x14009d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatDistributionParamType, addr 0x14f1f98, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::DistributionParamType get_beatDistributionParamType();
 
-  /// @brief Method get_indexFilter, addr 0x14009c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_indexFilter, addr 0x14f1f88, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataVersion3::IndexFilter* get_indexFilter();
 
 protected:

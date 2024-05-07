@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/Contexts/IDynamicProperty.hpp"
 #include "System/Runtime/Remoting/Contexts/zzzz__IDynamicProperty_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::Contexts::IDynamicProperty.get_Name
 template <>

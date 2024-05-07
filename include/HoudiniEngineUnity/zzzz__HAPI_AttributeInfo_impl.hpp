@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HAPI_AttributeInfo.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_AttributeOwner_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_AttributeTypeInfo_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_StorageType_impl.hpp"
@@ -11,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HAPI_AttributeInfo::*)(::StringW)>(&::HoudiniEngineUnity::HAPI_AttributeInfo::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x247c0f0;
+  constexpr static std::size_t addrs = 0x2576d7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MovementHistoryRecorder.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MovementHistoryRecorder_def.hpp"
 #include "GlobalNamespace/zzzz__AveragingValueRecorder_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::AveragingValueRecorder* (::GlobalNamespace::MovementHistoryRecorder::*)()>(
     &::GlobalNamespace::MovementHistoryRecorder::get_averagingValueRecorer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2624e08;
+  constexpr static std::size_t addrs = 0x2724cdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MovementHistoryRecorder*>::get(),
@@ -22,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MovementHistoryRecorder::*)(float_t, float_t, float_t, float_t)>(
     &::GlobalNamespace::MovementHistoryRecorder::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2624e10;
+  constexpr static std::size_t addrs = 0x2724ce4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -38,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MovementHistoryRecorder::*)(float_t)>(
     &::GlobalNamespace::MovementHistoryRecorder::AddMovement)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2624eac;
+  constexpr static std::size_t addrs = 0x2724d80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MovementHistoryRecorder::*)(float_t)>(
     &::GlobalNamespace::MovementHistoryRecorder::ManualUpdate)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2624ed0;
+  constexpr static std::size_t addrs = 0x2724da4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

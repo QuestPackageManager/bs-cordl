@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/AssetReferenceUIRestriction.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,13 +25,13 @@ public:
   // Declarations
   static inline ::UnityEngine::AssetReferenceUIRestriction* New_ctor();
 
-  /// @brief Method ValidateAsset, addr 0x2f43928, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ValidateAsset, addr 0x3045228, size 0x8, virtual true, abstract: false, final false
   inline bool ValidateAsset(::UnityEngine::Object* obj);
 
-  /// @brief Method ValidateAsset, addr 0x2f43930, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ValidateAsset, addr 0x3045230, size 0x8, virtual true, abstract: false, final false
   inline bool ValidateAsset(::StringW path);
 
-  /// @brief Method .ctor, addr 0x2f43938, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3045238, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

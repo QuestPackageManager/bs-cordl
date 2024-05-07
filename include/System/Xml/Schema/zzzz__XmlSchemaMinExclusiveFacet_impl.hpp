@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaMinExclusiveFacet.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaFacet_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaMinExclusiveFacet_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::XmlSchemaMinExclusiveFacet._ctor
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaMinExclusiveFacet::*)()>(
     &::System::Xml::Schema::XmlSchemaMinExclusiveFacet::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2d158d4;
+  constexpr static std::size_t addrs = 0x2e131d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaMinExclusiveFacet*>::get(),

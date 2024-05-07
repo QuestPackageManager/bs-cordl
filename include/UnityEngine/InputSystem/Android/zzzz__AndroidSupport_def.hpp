@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Android/AndroidSupport.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,16 +27,16 @@ namespace UnityEngine::InputSystem::Android {
 class CORDL_TYPE AndroidSupport : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Initialize, addr 0x301934c, size 0x8f4, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x31550d8, size 0x8f4, virtual false, abstract: false, final false
   static inline void Initialize();
 
   static inline ::UnityEngine::InputSystem::Android::AndroidSupport* New_ctor();
 
-  /// @brief Method OnFindLayoutForDevice, addr 0x3019c40, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method OnFindLayoutForDevice, addr 0x31559cc, size 0x254, virtual false, abstract: false, final false
   static inline ::StringW OnFindLayoutForDevice(ByRef<::UnityEngine::InputSystem::Layouts::InputDeviceDescription> description, ::StringW matchedLayout,
                                                 ::UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate* executeCommandDelegate);
 
-  /// @brief Method .ctor, addr 0x3019f54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3155ce0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/NoPostProcessMainEffectSO.hpp"
 #include "GlobalNamespace/zzzz__MainEffectSO_impl.hpp"
 #include "GlobalNamespace/zzzz__NoPostProcessMainEffectSO_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::NoPostProcessMainEffectSO::*)()>(
     &::GlobalNamespace::NoPostProcessMainEffectSO::get_hasPostProcessEffect)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ad848c;
+  constexpr static std::size_t addrs = 0x2bd4d34;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -23,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoPostProcessMainEffectSO::*)()>(&::GlobalNamespace::NoPostProcessMainEffectSO::OnEnable)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x2ad8494;
+  constexpr static std::size_t addrs = 0x2bd4d3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -37,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoPostProcessMainEffectSO::*)()>(&::GlobalNamespace::NoPostProcessMainEffectSO::OnDisable)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2ad8514;
+  constexpr static std::size_t addrs = 0x2bd4dbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoPostProcessMainEffectSO*>::get(),
@@ -50,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoPostProcessMainEffectSO::*)()>(&::GlobalNamespace::NoPostProcessMainEffectSO::PreRender)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2ad8520;
+  constexpr static std::size_t addrs = 0x2bd4dc8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -65,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoPostProcessMainEffectSO::*)(float_t)>(
     &::GlobalNamespace::NoPostProcessMainEffectSO::PostRender)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2ad8584;
+  constexpr static std::size_t addrs = 0x2bd4e2c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -80,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoPostProcessMainEffectSO::*)(float_t)>(
     &::GlobalNamespace::NoPostProcessMainEffectSO::DrawFadeQuad)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x2ad8590;
+  constexpr static std::size_t addrs = 0x2bd4e38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -94,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoPostProcessMainEffectSO::*)()>(&::GlobalNamespace::NoPostProcessMainEffectSO::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2ad867c;
+  constexpr static std::size_t addrs = 0x2bd4f24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoPostProcessMainEffectSO*>::get(), ".ctor",

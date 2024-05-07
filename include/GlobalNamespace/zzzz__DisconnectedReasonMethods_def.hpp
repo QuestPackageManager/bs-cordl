@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/DisconnectedReasonMethods.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,10 +23,10 @@ namespace GlobalNamespace {
 class CORDL_TYPE DisconnectedReasonMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ErrorCode, addr 0x13dcab4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ErrorCode, addr 0x14cfe64, size 0x80, virtual false, abstract: false, final false
   static inline ::StringW ErrorCode(::GlobalNamespace::DisconnectedReason disconnectedReason);
 
-  /// @brief Method LocalizedKey, addr 0x13dca0c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method LocalizedKey, addr 0x14cfdbc, size 0xa8, virtual false, abstract: false, final false
   static inline ::StringW LocalizedKey(::GlobalNamespace::DisconnectedReason connectionFailedReason);
 
 protected:

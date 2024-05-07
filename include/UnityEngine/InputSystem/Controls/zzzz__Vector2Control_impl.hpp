@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Controls/Vector2Control.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_1_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__Vector2Control_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::UnityEngine::InputSystem::Controls::Vector2Control::*)()>(
     &::UnityEngine::InputSystem::Controls::Vector2Control::get_x)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x303e890;
+  constexpr static std::size_t addrs = 0x317961c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::Vector2Control*>::get(),
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::Vector2Control::*)(::UnityEngine::InputSystem::Controls::AxisControl*)>(
     &::UnityEngine::InputSystem::Controls::Vector2Control::set_x)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x303e898;
+  constexpr static std::size_t addrs = 0x3179624;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::UnityEngine::InputSystem::Controls::Vector2Control::*)()>(
     &::UnityEngine::InputSystem::Controls::Vector2Control::get_y)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x303e8a0;
+  constexpr static std::size_t addrs = 0x317962c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::Vector2Control*>::get(),
@@ -53,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::Vector2Control::*)(::UnityEngine::InputSystem::Controls::AxisControl*)>(
     &::UnityEngine::InputSystem::Controls::Vector2Control::set_y)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x303e8a8;
+  constexpr static std::size_t addrs = 0x3179634;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -68,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::Vector2Control::*)()>(
     &::UnityEngine::InputSystem::Controls::Vector2Control::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x303ce24;
+  constexpr static std::size_t addrs = 0x3177bb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::Vector2Control*>::get(),
@@ -82,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::Vector2Control::*)()>(
     &::UnityEngine::InputSystem::Controls::Vector2Control::FinishSetup)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x303cd80;
+  constexpr static std::size_t addrs = 0x3177b0c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -98,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::InputSystem::Controls::Vector2Control::*)(::cordl_internals::Ptr<void>)>(
     &::UnityEngine::InputSystem::Controls::Vector2Control::ReadUnprocessedValueFromState)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x303e8b0;
+  constexpr static std::size_t addrs = 0x317963c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -114,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::Vector2Control::*)(::UnityEngine::Vector2, ::cordl_internals::Ptr<void>)>(
     &::UnityEngine::InputSystem::Controls::Vector2Control::WriteValueIntoState)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x303e918;
+  constexpr static std::size_t addrs = 0x31796a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -130,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::Controls::Vector2Control::*)(::cordl_internals::Ptr<void>)>(
     &::UnityEngine::InputSystem::Controls::Vector2Control::EvaluateMagnitude)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x303e978;
+  constexpr static std::size_t addrs = 0x3179704;
 
   inline static ::MethodInfo const* methodInfo() {
 

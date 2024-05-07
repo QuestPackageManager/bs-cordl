@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Serialization/XmlTypeAttribute.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,7 +38,7 @@ public:
   /// @brief Field typeName, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_typeName, put = __cordl_internal_set_typeName))::StringW typeName;
 
-  /// @brief Method AddKeyHash, addr 0x2deddac, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method AddKeyHash, addr 0x2eec6ac, size 0xa4, virtual false, abstract: false, final false
   inline void AddKeyHash(::System::Text::StringBuilder* sb);
 
   constexpr bool const& __cordl_internal_get_includeInSchema() const;
@@ -58,13 +59,13 @@ public:
 
   constexpr void __cordl_internal_set_typeName(::StringW value);
 
-  /// @brief Method get_IncludeInSchema, addr 0x2dedd48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IncludeInSchema, addr 0x2eec648, size 0x8, virtual false, abstract: false, final false
   inline bool get_IncludeInSchema();
 
-  /// @brief Method get_Namespace, addr 0x2dedd50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Namespace, addr 0x2eec650, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Namespace();
 
-  /// @brief Method get_TypeName, addr 0x2dedd58, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_TypeName, addr 0x2eec658, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_TypeName();
 
 protected:

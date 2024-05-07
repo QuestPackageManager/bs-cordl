@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/CompilerServices/ReflectionBlockedAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ReflectionBlockedAttribute_def.hpp"
 //  Writing Method size for method: ::System::Runtime::CompilerServices::ReflectionBlockedAttribute._ctor
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::ReflectionBlockedAttribute::*)()>(
     &::System::Runtime::CompilerServices::ReflectionBlockedAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x275db0c;
+  constexpr static std::size_t addrs = 0x285d21c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

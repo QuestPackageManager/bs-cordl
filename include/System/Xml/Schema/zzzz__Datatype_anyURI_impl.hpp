@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/Datatype_anyURI.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_anySimpleType_impl.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_anyURI_def.hpp"
 #include "System/Xml/Schema/zzzz__FacetsChecker_def.hpp"
@@ -18,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlValueConverter* (
     ::System::Xml::Schema::Datatype_anyURI::*)(::System::Xml::Schema::XmlSchemaType*)>(&::System::Xml::Schema::Datatype_anyURI::CreateValueConverter)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2e0cf24;
+  constexpr static std::size_t addrs = 0x2f0b824;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -33,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::FacetsChecker* (::System::Xml::Schema::Datatype_anyURI::*)()>(
     &::System::Xml::Schema::Datatype_anyURI::get_FacetsChecker)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2e0cf30;
+  constexpr static std::size_t addrs = 0x2f0b830;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -48,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlTypeCode (::System::Xml::Schema::Datatype_anyURI::*)()>(
     &::System::Xml::Schema::Datatype_anyURI::get_TypeCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2e0cf88;
+  constexpr static std::size_t addrs = 0x2f0b888;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -63,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Xml::Schema::Datatype_anyURI::*)()>(
     &::System::Xml::Schema::Datatype_anyURI::get_ValueType)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2e0cf90;
+  constexpr static std::size_t addrs = 0x2f0b890;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -77,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::Datatype_anyURI::*)()>(&::System::Xml::Schema::Datatype_anyURI::get_HasValueFacets)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2e0cfe8;
+  constexpr static std::size_t addrs = 0x2f0b8e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -92,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Xml::Schema::Datatype_anyURI::*)()>(
     &::System::Xml::Schema::Datatype_anyURI::get_ListValueType)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2e0cff0;
+  constexpr static std::size_t addrs = 0x2f0b8f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -107,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaWhiteSpace (::System::Xml::Schema::Datatype_anyURI::*)()>(
     &::System::Xml::Schema::Datatype_anyURI::get_BuiltInWhitespaceFacet)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2e0d048;
+  constexpr static std::size_t addrs = 0x2f0b948;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -122,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::RestrictionFlags (::System::Xml::Schema::Datatype_anyURI::*)()>(
     &::System::Xml::Schema::Datatype_anyURI::get_ValidRestrictionFlags)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2e0d050;
+  constexpr static std::size_t addrs = 0x2f0b950;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -137,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Schema::Datatype_anyURI::*)(::System::Object*, ::System::Object*)>(
     &::System::Xml::Schema::Datatype_anyURI::Compare)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x2e0d058;
+  constexpr static std::size_t addrs = 0x2f0b958;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -153,7 +154,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Exception* (::System::Xml::Schema::Datatype_anyURI::*)(::StringW, ::System::Xml::XmlNameTable*, ::System::Xml::IXmlNamespaceResolver*, ByRef<::System::Object*>)>(
         &::System::Xml::Schema::Datatype_anyURI::TryParseValue)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x2e0d144;
+  constexpr static std::size_t addrs = 0x2f0ba44;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -167,7 +168,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Datatype_anyURI::*)()>(&::System::Xml::Schema::Datatype_anyURI::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2e054d8;
+  constexpr static std::size_t addrs = 0x2f03dd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_anyURI*>::get(), ".ctor",

@@ -1,8 +1,14 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/PerformanceConfigurationChecks.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "BGLib/Polyglot/zzzz__Language_def.hpp"
+#include "BeatSaber/GameSettings/zzzz__WindowMode_def.hpp"
+#include "BeatSaber/PerformancePresets/zzzz__BloomPrepassTextureEffectPreset_def.hpp"
+#include "BeatSaber/PerformancePresets/zzzz__MainEffectPreset_def.hpp"
+#include "BeatSaber/PerformancePresets/zzzz__MirrorQualityPreset_def.hpp"
+#include "BeatSaber/PerformancePresets/zzzz__ObstaclesQuality_def.hpp"
 #include "GlobalNamespace/zzzz__ArcVisibilityType_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentEffectsFilterPreset_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifierMask_def.hpp"
@@ -25,6 +31,27 @@ CORDL_MODULE_EXPORT(PerformanceConfigurationChecks)
 namespace BGLib::Polyglot {
 struct Language;
 }
+namespace BeatSaber::GameSettings {
+class GraphicSettingsHandler;
+}
+namespace BeatSaber::GameSettings {
+class MainSettingsHandler;
+}
+namespace BeatSaber::GameSettings {
+struct WindowMode;
+}
+namespace BeatSaber::PerformancePresets {
+struct BloomPrepassTextureEffectPreset;
+}
+namespace BeatSaber::PerformancePresets {
+struct MainEffectPreset;
+}
+namespace BeatSaber::PerformancePresets {
+struct MirrorQualityPreset;
+}
+namespace BeatSaber::PerformancePresets {
+struct ObstaclesQuality;
+}
 namespace GlobalNamespace {
 struct ArcVisibilityType;
 }
@@ -33,9 +60,6 @@ struct EnvironmentEffectsFilterPreset;
 }
 namespace GlobalNamespace {
 struct GameplayModifierMask;
-}
-namespace GlobalNamespace {
-class MainSettingsModelSO;
 }
 namespace GlobalNamespace {
 struct NoteJumpDurationTypeSettings;
@@ -530,7 +554,7 @@ static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__Ocul
 
 } // namespace GlobalNamespace
 // Type: ::GameConfig
-// SizeInfo { instance_size: 200, native_size: 232, calculated_instance_size: 200, calculated_native_size: 216, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 264, native_size: 288, calculated_instance_size: 264, calculated_native_size: 280, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::PerformanceConfigurationChecks::GameConfig
@@ -541,274 +565,268 @@ public:
   // @brief default ctor
   constexpr __PerformanceConfigurationChecks__GameConfig();
 
-  // Ctor Parameters [CppParam { name: "editorWindowResolution", ty: "::UnityEngine::Vector2Int", modifiers: "", def_value: None }, CppParam { name: "windowResolution", ty:
-  // "::UnityEngine::Vector2Int", modifiers: "", def_value: None }, CppParam { name: "fullscreen", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "targetFramerate", ty: "float_t",
-  // modifiers: "", def_value: None }, CppParam { name: "vrResolutionScale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "menuVRResolutionScaleMultiplier", ty: "float_t",
-  // modifiers: "", def_value: None }, CppParam { name: "antiAliasingLevel", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "bloomPrePassGraphicsSettings", ty: "int32_t", modifiers:
-  // "", def_value: None }, CppParam { name: "mainEffectGraphicsSettings", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "mirrorGraphicsSettings", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "maxNumberOfCutSoundEffects", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maxShockwaveParticles", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "burnMarkTrailsEnabled", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "smokeGraphicsSettings", ty: "bool", modifiers: "", def_value: None },
-  // CppParam { name: "screenDisplacementEffectsEnabled", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "enableAlphaFeatures", ty: "bool", modifiers: "", def_value: None }, CppParam {
-  // name: "useFixedFoveatedRenderingDuringGameplay", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "depthTextureEnabled", ty: "bool", modifiers: "", def_value: None }, CppParam {
-  // name: "roomCenter", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "roomRotation", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "controllerPosition", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "controllerRotation", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None },
-  // CppParam { name: "controllersRumbleEnabled", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "smoothCameraEnabled", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
-  // "smoothCameraFieldOfView", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "smoothCameraPositionSmooth", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "smoothCameraRotationSmooth", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "smoothCameraThirdPersonEnabled", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
-  // "smoothCameraThirdPersonPosition", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "smoothCameraThirdPersonEulerAngles", ty: "::UnityEngine::Vector3", modifiers:
-  // "", def_value: None }, CppParam { name: "volume", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "ambientVolumeScale", ty: "float_t", modifiers: "", def_value: None }, CppParam
-  // { name: "overrideAudioLatency", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "audioLatency", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
+  // Ctor Parameters [CppParam { name: "roomCenter", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "roomRotation", ty: "double_t", modifiers: "", def_value: None },
+  // CppParam { name: "controllerPosition", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "controllerRotation", ty: "::UnityEngine::Vector3", modifiers: "",
+  // def_value: None }, CppParam { name: "hapticFeedback", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "smoothCameraEnabled", ty: "bool", modifiers: "", def_value: None }, CppParam
+  // { name: "smoothCameraFieldOfView", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "smoothCameraPositionSmooth", ty: "double_t", modifiers: "", def_value: None }, CppParam {
+  // name: "smoothCameraRotationSmooth", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "smoothCameraThirdPersonEnabled", ty: "bool", modifiers: "", def_value: None }, CppParam {
+  // name: "smoothCameraThirdPersonPosition", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "smoothCameraThirdPersonEulerAngles", ty: "::UnityEngine::Vector3",
+  // modifiers: "", def_value: None }, CppParam { name: "volume", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "ambientVolumeScale", ty: "double_t", modifiers: "", def_value:
+  // None }, CppParam { name: "overrideAudioLatency", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "audioLatency", ty: "double_t", modifiers: "", def_value: None }, CppParam { name:
   // "enableFPSCounter", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "enableFPSRecorder", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "enableMemoryTracker", ty:
   // "bool", modifiers: "", def_value: None }, CppParam { name: "createScreenshotDuringTheGame", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "language", ty:
   // "::BGLib::Polyglot::Language", modifiers: "", def_value: None }, CppParam { name: "pauseButtonPressDurationLevel", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
   // "useCustomServerEnvironment", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "forceGameLiftServerEnvironment", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
-  // "customServerHostName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "cpuLevel", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "gpuLevel", ty:
-  // "int32_t", modifiers: "", def_value: None }]
-  constexpr __PerformanceConfigurationChecks__GameConfig(::UnityEngine::Vector2Int editorWindowResolution, ::UnityEngine::Vector2Int windowResolution, bool fullscreen, float_t targetFramerate,
-                                                         float_t vrResolutionScale, float_t menuVRResolutionScaleMultiplier, int32_t antiAliasingLevel, int32_t bloomPrePassGraphicsSettings,
-                                                         int32_t mainEffectGraphicsSettings, int32_t mirrorGraphicsSettings, int32_t maxNumberOfCutSoundEffects, int32_t maxShockwaveParticles,
-                                                         bool burnMarkTrailsEnabled, bool smokeGraphicsSettings, bool screenDisplacementEffectsEnabled, bool enableAlphaFeatures,
-                                                         bool useFixedFoveatedRenderingDuringGameplay, bool depthTextureEnabled, ::UnityEngine::Vector3 roomCenter, float_t roomRotation,
-                                                         ::UnityEngine::Vector3 controllerPosition, ::UnityEngine::Vector3 controllerRotation, bool controllersRumbleEnabled, bool smoothCameraEnabled,
-                                                         float_t smoothCameraFieldOfView, float_t smoothCameraPositionSmooth, float_t smoothCameraRotationSmooth, bool smoothCameraThirdPersonEnabled,
-                                                         ::UnityEngine::Vector3 smoothCameraThirdPersonPosition, ::UnityEngine::Vector3 smoothCameraThirdPersonEulerAngles, float_t volume,
-                                                         float_t ambientVolumeScale, bool overrideAudioLatency, float_t audioLatency, bool enableFPSCounter, bool enableFPSRecorder,
-                                                         bool enableMemoryTracker, bool createScreenshotDuringTheGame, ::BGLib::Polyglot::Language language, int32_t pauseButtonPressDurationLevel,
-                                                         bool useCustomServerEnvironment, bool forceGameLiftServerEnvironment, ::StringW customServerHostName, int32_t cpuLevel,
-                                                         int32_t gpuLevel) noexcept;
+  // "customServerHostName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "windowResolution", ty: "::UnityEngine::Vector2Int", modifiers: "", def_value: None }, CppParam { name:
+  // "windowMode", ty: "::BeatSaber::GameSettings::WindowMode", modifiers: "", def_value: None }, CppParam { name: "performancePresetKey", ty: "::StringW", modifiers: "", def_value: None }, CppParam {
+  // name: "renderViewportScale", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "targetFramerate", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "vSyncCount",
+  // ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "maxQueuedFrames", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "vrResolutionScale", ty: "double_t",
+  // modifiers: "", def_value: None }, CppParam { name: "menuVRResolutionScaleMultiplier", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "antiAliasingLevel", ty: "int32_t",
+  // modifiers: "", def_value: None }, CppParam { name: "bloomPrePassTextureEffect", ty: "::BeatSaber::PerformancePresets::BloomPrepassTextureEffectPreset", modifiers: "", def_value: None }, CppParam
+  // { name: "mainEffectGraphicsSettings", ty: "::BeatSaber::PerformancePresets::MainEffectPreset", modifiers: "", def_value: None }, CppParam { name: "mirrorGraphicsSettings", ty:
+  // "::BeatSaber::PerformancePresets::MirrorQualityPreset", modifiers: "", def_value: None }, CppParam { name: "maxNumberOfCutSoundEffects", ty: "int32_t", modifiers: "", def_value: None }, CppParam
+  // { name: "maxShockwaveParticles", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "burnMarkTrailsEnabled", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
+  // "smokeGraphicsSettings", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "screenDisplacementEffectsEnabled", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
+  // "obstaclesQuality", ty: "::BeatSaber::PerformancePresets::ObstaclesQuality", modifiers: "", def_value: None }]
+  constexpr __PerformanceConfigurationChecks__GameConfig(
+      ::UnityEngine::Vector3 roomCenter, double_t roomRotation, ::UnityEngine::Vector3 controllerPosition, ::UnityEngine::Vector3 controllerRotation, bool hapticFeedback, bool smoothCameraEnabled,
+      double_t smoothCameraFieldOfView, double_t smoothCameraPositionSmooth, double_t smoothCameraRotationSmooth, bool smoothCameraThirdPersonEnabled,
+      ::UnityEngine::Vector3 smoothCameraThirdPersonPosition, ::UnityEngine::Vector3 smoothCameraThirdPersonEulerAngles, double_t volume, double_t ambientVolumeScale, bool overrideAudioLatency,
+      double_t audioLatency, bool enableFPSCounter, bool enableFPSRecorder, bool enableMemoryTracker, bool createScreenshotDuringTheGame, ::BGLib::Polyglot::Language language,
+      int32_t pauseButtonPressDurationLevel, bool useCustomServerEnvironment, bool forceGameLiftServerEnvironment, ::StringW customServerHostName, ::UnityEngine::Vector2Int windowResolution,
+      ::BeatSaber::GameSettings::WindowMode windowMode, ::StringW performancePresetKey, double_t renderViewportScale, double_t targetFramerate, int32_t vSyncCount, int32_t maxQueuedFrames,
+      double_t vrResolutionScale, double_t menuVRResolutionScaleMultiplier, int32_t antiAliasingLevel, ::BeatSaber::PerformancePresets::BloomPrepassTextureEffectPreset bloomPrePassTextureEffect,
+      ::BeatSaber::PerformancePresets::MainEffectPreset mainEffectGraphicsSettings, ::BeatSaber::PerformancePresets::MirrorQualityPreset mirrorGraphicsSettings, int32_t maxNumberOfCutSoundEffects,
+      int32_t maxShockwaveParticles, bool burnMarkTrailsEnabled, bool smokeGraphicsSettings, bool screenDisplacementEffectsEnabled,
+      ::BeatSaber::PerformancePresets::ObstaclesQuality obstaclesQuality) noexcept;
 
-  /// @brief Field editorWindowResolution, offset: 0x0, size: 0x8, def value: None
-  ::UnityEngine::Vector2Int editorWindowResolution;
-
-  /// @brief Field windowResolution, offset: 0x8, size: 0x8, def value: None
-  ::UnityEngine::Vector2Int windowResolution;
-
-  /// @brief Field fullscreen, offset: 0x10, size: 0x1, def value: None
-  bool fullscreen;
-
-  /// @brief Field targetFramerate, offset: 0x14, size: 0x4, def value: None
-  float_t targetFramerate;
-
-  /// @brief Field vrResolutionScale, offset: 0x18, size: 0x4, def value: None
-  float_t vrResolutionScale;
-
-  /// @brief Field menuVRResolutionScaleMultiplier, offset: 0x1c, size: 0x4, def value: None
-  float_t menuVRResolutionScaleMultiplier;
-
-  /// @brief Field antiAliasingLevel, offset: 0x20, size: 0x4, def value: None
-  int32_t antiAliasingLevel;
-
-  /// @brief Field bloomPrePassGraphicsSettings, offset: 0x24, size: 0x4, def value: None
-  int32_t bloomPrePassGraphicsSettings;
-
-  /// @brief Field mainEffectGraphicsSettings, offset: 0x28, size: 0x4, def value: None
-  int32_t mainEffectGraphicsSettings;
-
-  /// @brief Field mirrorGraphicsSettings, offset: 0x2c, size: 0x4, def value: None
-  int32_t mirrorGraphicsSettings;
-
-  /// @brief Field maxNumberOfCutSoundEffects, offset: 0x30, size: 0x4, def value: None
-  int32_t maxNumberOfCutSoundEffects;
-
-  /// @brief Field maxShockwaveParticles, offset: 0x34, size: 0x4, def value: None
-  int32_t maxShockwaveParticles;
-
-  /// @brief Field burnMarkTrailsEnabled, offset: 0x38, size: 0x1, def value: None
-  bool burnMarkTrailsEnabled;
-
-  /// @brief Field smokeGraphicsSettings, offset: 0x39, size: 0x1, def value: None
-  bool smokeGraphicsSettings;
-
-  /// @brief Field screenDisplacementEffectsEnabled, offset: 0x3a, size: 0x1, def value: None
-  bool screenDisplacementEffectsEnabled;
-
-  /// @brief Field enableAlphaFeatures, offset: 0x3b, size: 0x1, def value: None
-  bool enableAlphaFeatures;
-
-  /// @brief Field useFixedFoveatedRenderingDuringGameplay, offset: 0x3c, size: 0x1, def value: None
-  bool useFixedFoveatedRenderingDuringGameplay;
-
-  /// @brief Field depthTextureEnabled, offset: 0x3d, size: 0x1, def value: None
-  bool depthTextureEnabled;
-
-  /// @brief Field roomCenter, offset: 0x40, size: 0xc, def value: None
+  /// @brief Field roomCenter, offset: 0x0, size: 0xc, def value: None
   ::UnityEngine::Vector3 roomCenter;
 
-  /// @brief Field roomRotation, offset: 0x4c, size: 0x4, def value: None
-  float_t roomRotation;
+  /// @brief Field roomRotation, offset: 0x10, size: 0x8, def value: None
+  double_t roomRotation;
 
-  /// @brief Field controllerPosition, offset: 0x50, size: 0xc, def value: None
+  /// @brief Field controllerPosition, offset: 0x18, size: 0xc, def value: None
   ::UnityEngine::Vector3 controllerPosition;
 
-  /// @brief Field controllerRotation, offset: 0x5c, size: 0xc, def value: None
+  /// @brief Field controllerRotation, offset: 0x24, size: 0xc, def value: None
   ::UnityEngine::Vector3 controllerRotation;
 
-  /// @brief Field controllersRumbleEnabled, offset: 0x68, size: 0x1, def value: None
-  bool controllersRumbleEnabled;
+  /// @brief Field hapticFeedback, offset: 0x30, size: 0x1, def value: None
+  bool hapticFeedback;
 
-  /// @brief Field smoothCameraEnabled, offset: 0x69, size: 0x1, def value: None
+  /// @brief Field smoothCameraEnabled, offset: 0x31, size: 0x1, def value: None
   bool smoothCameraEnabled;
 
-  /// @brief Field smoothCameraFieldOfView, offset: 0x6c, size: 0x4, def value: None
-  float_t smoothCameraFieldOfView;
+  /// @brief Field smoothCameraFieldOfView, offset: 0x38, size: 0x8, def value: None
+  double_t smoothCameraFieldOfView;
 
-  /// @brief Field smoothCameraPositionSmooth, offset: 0x70, size: 0x4, def value: None
-  float_t smoothCameraPositionSmooth;
+  /// @brief Field smoothCameraPositionSmooth, offset: 0x40, size: 0x8, def value: None
+  double_t smoothCameraPositionSmooth;
 
-  /// @brief Field smoothCameraRotationSmooth, offset: 0x74, size: 0x4, def value: None
-  float_t smoothCameraRotationSmooth;
+  /// @brief Field smoothCameraRotationSmooth, offset: 0x48, size: 0x8, def value: None
+  double_t smoothCameraRotationSmooth;
 
-  /// @brief Field smoothCameraThirdPersonEnabled, offset: 0x78, size: 0x1, def value: None
+  /// @brief Field smoothCameraThirdPersonEnabled, offset: 0x50, size: 0x1, def value: None
   bool smoothCameraThirdPersonEnabled;
 
-  /// @brief Field smoothCameraThirdPersonPosition, offset: 0x7c, size: 0xc, def value: None
+  /// @brief Field smoothCameraThirdPersonPosition, offset: 0x54, size: 0xc, def value: None
   ::UnityEngine::Vector3 smoothCameraThirdPersonPosition;
 
-  /// @brief Field smoothCameraThirdPersonEulerAngles, offset: 0x88, size: 0xc, def value: None
+  /// @brief Field smoothCameraThirdPersonEulerAngles, offset: 0x60, size: 0xc, def value: None
   ::UnityEngine::Vector3 smoothCameraThirdPersonEulerAngles;
 
-  /// @brief Field volume, offset: 0x94, size: 0x4, def value: None
-  float_t volume;
+  /// @brief Field volume, offset: 0x70, size: 0x8, def value: None
+  double_t volume;
 
-  /// @brief Field ambientVolumeScale, offset: 0x98, size: 0x4, def value: None
-  float_t ambientVolumeScale;
+  /// @brief Field ambientVolumeScale, offset: 0x78, size: 0x8, def value: None
+  double_t ambientVolumeScale;
 
-  /// @brief Field overrideAudioLatency, offset: 0x9c, size: 0x1, def value: None
+  /// @brief Field overrideAudioLatency, offset: 0x80, size: 0x1, def value: None
   bool overrideAudioLatency;
 
-  /// @brief Field audioLatency, offset: 0xa0, size: 0x4, def value: None
-  float_t audioLatency;
+  /// @brief Field audioLatency, offset: 0x88, size: 0x8, def value: None
+  double_t audioLatency;
 
-  /// @brief Field enableFPSCounter, offset: 0xa4, size: 0x1, def value: None
+  /// @brief Field enableFPSCounter, offset: 0x90, size: 0x1, def value: None
   bool enableFPSCounter;
 
-  /// @brief Field enableFPSRecorder, offset: 0xa5, size: 0x1, def value: None
+  /// @brief Field enableFPSRecorder, offset: 0x91, size: 0x1, def value: None
   bool enableFPSRecorder;
 
-  /// @brief Field enableMemoryTracker, offset: 0xa6, size: 0x1, def value: None
+  /// @brief Field enableMemoryTracker, offset: 0x92, size: 0x1, def value: None
   bool enableMemoryTracker;
 
-  /// @brief Field createScreenshotDuringTheGame, offset: 0xa7, size: 0x1, def value: None
+  /// @brief Field createScreenshotDuringTheGame, offset: 0x93, size: 0x1, def value: None
   bool createScreenshotDuringTheGame;
 
-  /// @brief Field language, offset: 0xa8, size: 0x4, def value: None
+  /// @brief Field language, offset: 0x94, size: 0x4, def value: None
   ::BGLib::Polyglot::Language language;
 
-  /// @brief Field pauseButtonPressDurationLevel, offset: 0xac, size: 0x4, def value: None
+  /// @brief Field pauseButtonPressDurationLevel, offset: 0x98, size: 0x4, def value: None
   int32_t pauseButtonPressDurationLevel;
 
-  /// @brief Field useCustomServerEnvironment, offset: 0xb0, size: 0x1, def value: None
+  /// @brief Field useCustomServerEnvironment, offset: 0x9c, size: 0x1, def value: None
   bool useCustomServerEnvironment;
 
-  /// @brief Field forceGameLiftServerEnvironment, offset: 0xb1, size: 0x1, def value: None
+  /// @brief Field forceGameLiftServerEnvironment, offset: 0x9d, size: 0x1, def value: None
   bool forceGameLiftServerEnvironment;
 
-  /// @brief Field customServerHostName, offset: 0xb8, size: 0x8, def value: None
+  /// @brief Field customServerHostName, offset: 0xa0, size: 0x8, def value: None
   ::StringW customServerHostName;
 
-  /// @brief Field cpuLevel, offset: 0xc0, size: 0x4, def value: None
-  int32_t cpuLevel;
+  /// @brief Field windowResolution, offset: 0xa8, size: 0x8, def value: None
+  ::UnityEngine::Vector2Int windowResolution;
 
-  /// @brief Field gpuLevel, offset: 0xc4, size: 0x4, def value: None
-  int32_t gpuLevel;
+  /// @brief Field windowMode, offset: 0xb0, size: 0x4, def value: None
+  ::BeatSaber::GameSettings::WindowMode windowMode;
+
+  /// @brief Field performancePresetKey, offset: 0xb8, size: 0x8, def value: None
+  ::StringW performancePresetKey;
+
+  /// @brief Field renderViewportScale, offset: 0xc0, size: 0x8, def value: None
+  double_t renderViewportScale;
+
+  /// @brief Field targetFramerate, offset: 0xc8, size: 0x8, def value: None
+  double_t targetFramerate;
+
+  /// @brief Field vSyncCount, offset: 0xd0, size: 0x4, def value: None
+  int32_t vSyncCount;
+
+  /// @brief Field maxQueuedFrames, offset: 0xd4, size: 0x4, def value: None
+  int32_t maxQueuedFrames;
+
+  /// @brief Field vrResolutionScale, offset: 0xd8, size: 0x8, def value: None
+  double_t vrResolutionScale;
+
+  /// @brief Field menuVRResolutionScaleMultiplier, offset: 0xe0, size: 0x8, def value: None
+  double_t menuVRResolutionScaleMultiplier;
+
+  /// @brief Field antiAliasingLevel, offset: 0xe8, size: 0x4, def value: None
+  int32_t antiAliasingLevel;
+
+  /// @brief Field bloomPrePassTextureEffect, offset: 0xec, size: 0x4, def value: None
+  ::BeatSaber::PerformancePresets::BloomPrepassTextureEffectPreset bloomPrePassTextureEffect;
+
+  /// @brief Field mainEffectGraphicsSettings, offset: 0xf0, size: 0x4, def value: None
+  ::BeatSaber::PerformancePresets::MainEffectPreset mainEffectGraphicsSettings;
+
+  /// @brief Field mirrorGraphicsSettings, offset: 0xf4, size: 0x4, def value: None
+  ::BeatSaber::PerformancePresets::MirrorQualityPreset mirrorGraphicsSettings;
+
+  /// @brief Field maxNumberOfCutSoundEffects, offset: 0xf8, size: 0x4, def value: None
+  int32_t maxNumberOfCutSoundEffects;
+
+  /// @brief Field maxShockwaveParticles, offset: 0xfc, size: 0x4, def value: None
+  int32_t maxShockwaveParticles;
+
+  /// @brief Field burnMarkTrailsEnabled, offset: 0x100, size: 0x1, def value: None
+  bool burnMarkTrailsEnabled;
+
+  /// @brief Field smokeGraphicsSettings, offset: 0x101, size: 0x1, def value: None
+  bool smokeGraphicsSettings;
+
+  /// @brief Field screenDisplacementEffectsEnabled, offset: 0x102, size: 0x1, def value: None
+  bool screenDisplacementEffectsEnabled;
+
+  /// @brief Field obstaclesQuality, offset: 0x104, size: 0x4, def value: None
+  ::BeatSaber::PerformancePresets::ObstaclesQuality obstaclesQuality;
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc8 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x108 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, 0xc8>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, 0x108>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, editorWindowResolution) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, roomCenter) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, windowResolution) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, roomRotation) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, fullscreen) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, controllerPosition) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, targetFramerate) == 0x14, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, controllerRotation) == 0x24, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, vrResolutionScale) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, hapticFeedback) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, menuVRResolutionScaleMultiplier) == 0x1c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, smoothCameraEnabled) == 0x31, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, antiAliasingLevel) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, smoothCameraFieldOfView) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, bloomPrePassGraphicsSettings) == 0x24, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, smoothCameraPositionSmooth) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, mainEffectGraphicsSettings) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, smoothCameraRotationSmooth) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, mirrorGraphicsSettings) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, smoothCameraThirdPersonEnabled) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, maxNumberOfCutSoundEffects) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, smoothCameraThirdPersonPosition) == 0x54, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, maxShockwaveParticles) == 0x34, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, smoothCameraThirdPersonEulerAngles) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, burnMarkTrailsEnabled) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, volume) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, smokeGraphicsSettings) == 0x39, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, ambientVolumeScale) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, screenDisplacementEffectsEnabled) == 0x3a, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, overrideAudioLatency) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, enableAlphaFeatures) == 0x3b, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, audioLatency) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, useFixedFoveatedRenderingDuringGameplay) == 0x3c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, enableFPSCounter) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, depthTextureEnabled) == 0x3d, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, enableFPSRecorder) == 0x91, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, roomCenter) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, enableMemoryTracker) == 0x92, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, roomRotation) == 0x4c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, createScreenshotDuringTheGame) == 0x93, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, controllerPosition) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, language) == 0x94, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, controllerRotation) == 0x5c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, pauseButtonPressDurationLevel) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, controllersRumbleEnabled) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, useCustomServerEnvironment) == 0x9c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, smoothCameraEnabled) == 0x69, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, forceGameLiftServerEnvironment) == 0x9d, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, smoothCameraFieldOfView) == 0x6c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, customServerHostName) == 0xa0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, smoothCameraPositionSmooth) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, windowResolution) == 0xa8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, smoothCameraRotationSmooth) == 0x74, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, windowMode) == 0xb0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, smoothCameraThirdPersonEnabled) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, performancePresetKey) == 0xb8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, smoothCameraThirdPersonPosition) == 0x7c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, renderViewportScale) == 0xc0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, smoothCameraThirdPersonEulerAngles) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, targetFramerate) == 0xc8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, volume) == 0x94, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, vSyncCount) == 0xd0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, ambientVolumeScale) == 0x98, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, maxQueuedFrames) == 0xd4, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, overrideAudioLatency) == 0x9c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, vrResolutionScale) == 0xd8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, audioLatency) == 0xa0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, menuVRResolutionScaleMultiplier) == 0xe0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, enableFPSCounter) == 0xa4, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, antiAliasingLevel) == 0xe8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, enableFPSRecorder) == 0xa5, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, bloomPrePassTextureEffect) == 0xec, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, enableMemoryTracker) == 0xa6, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, mainEffectGraphicsSettings) == 0xf0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, createScreenshotDuringTheGame) == 0xa7, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, mirrorGraphicsSettings) == 0xf4, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, language) == 0xa8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, maxNumberOfCutSoundEffects) == 0xf8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, pauseButtonPressDurationLevel) == 0xac, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, maxShockwaveParticles) == 0xfc, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, useCustomServerEnvironment) == 0xb0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, burnMarkTrailsEnabled) == 0x100, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, forceGameLiftServerEnvironment) == 0xb1, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, smokeGraphicsSettings) == 0x101, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, customServerHostName) == 0xb8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, screenDisplacementEffectsEnabled) == 0x102, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, cpuLevel) == 0xc0, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, gpuLevel) == 0xc4, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig, obstaclesQuality) == 0x104, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::PlayerConfig
@@ -980,7 +998,7 @@ static_assert(offsetof(::GlobalNamespace::__PerformanceConfigurationChecks__Leve
 
 } // namespace GlobalNamespace
 // Type: ::PerformanceConfigurationChecks
-// SizeInfo { instance_size: 448, native_size: -1, calculated_instance_size: 448, calculated_native_size: 448, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 512, native_size: -1, calculated_instance_size: 512, calculated_native_size: 512, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PerformanceConfigurationChecks*
@@ -1006,14 +1024,14 @@ public:
   /// @brief Field appConfig, offset 0x10, size 0x10
   __declspec(property(get = __cordl_internal_get_appConfig, put = __cordl_internal_set_appConfig))::GlobalNamespace::__PerformanceConfigurationChecks__AppConfig appConfig;
 
-  /// @brief Field gameConfig, offset 0xb0, size 0xc8
+  /// @brief Field gameConfig, offset 0xb0, size 0x108
   __declspec(property(get = __cordl_internal_get_gameConfig, put = __cordl_internal_set_gameConfig))::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig gameConfig;
 
-  /// @brief Field invalid, offset 0x1b8, size 0x8
+  /// @brief Field invalid, offset 0x1f8, size 0x8
   __declspec(property(get = __cordl_internal_get_invalid,
                       put = __cordl_internal_set_invalid))::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__PerformanceConfigurationChecks__Mismatch>* invalid;
 
-  /// @brief Field levelConfig, offset 0x1b4, size 0x2
+  /// @brief Field levelConfig, offset 0x1f4, size 0x2
   __declspec(property(get = __cordl_internal_get_levelConfig, put = __cordl_internal_set_levelConfig))::GlobalNamespace::__PerformanceConfigurationChecks__LevelConfig levelConfig;
 
   /// @brief Field oculusXrConfig, offset 0xa4, size 0xc
@@ -1022,28 +1040,30 @@ public:
   /// @brief Field ovrConfig, offset 0x50, size 0x54
   __declspec(property(get = __cordl_internal_get_ovrConfig, put = __cordl_internal_set_ovrConfig))::GlobalNamespace::__PerformanceConfigurationChecks__OVRConfig ovrConfig;
 
-  /// @brief Field playerConfig, offset 0x178, size 0x3c
+  /// @brief Field playerConfig, offset 0x1b8, size 0x3c
   __declspec(property(get = __cordl_internal_get_playerConfig, put = __cordl_internal_set_playerConfig))::GlobalNamespace::__PerformanceConfigurationChecks__PlayerConfig playerConfig;
 
   /// @brief Field xrConfig, offset 0x20, size 0x30
   __declspec(property(get = __cordl_internal_get_xrConfig, put = __cordl_internal_set_xrConfig))::GlobalNamespace::__PerformanceConfigurationChecks__XRConfig xrConfig;
 
-  /// @brief Method CreateErrorLog, addr 0x25901e8, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method CreateErrorLog, addr 0x26891a8, size 0x29c, virtual false, abstract: false, final false
   inline ::StringW CreateErrorLog();
 
-  /// @brief Method IsValid, addr 0x259018c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x268914c, size 0x5c, virtual false, abstract: false, final false
   inline bool IsValid();
 
   static inline ::GlobalNamespace::PerformanceConfigurationChecks* New_ctor();
 
-  /// @brief Method SetExpected, addr 0x2590484, size 0xad0, virtual false, abstract: false, final false
-  inline bool SetExpected(::GlobalNamespace::MainSettingsModelSO* mainSettings, ::GlobalNamespace::PlayerSpecificSettings* playerSettings, ::GlobalNamespace::GameplayModifierMask modifiers);
+  /// @brief Method SetExpected, addr 0x2689444, size 0xad0, virtual false, abstract: false, final false
+  inline bool SetExpected(::BeatSaber::GameSettings::MainSettingsHandler* mainSettings, ::BeatSaber::GameSettings::GraphicSettingsHandler* graphicSettings,
+                          ::GlobalNamespace::PlayerSpecificSettings* playerSettings, ::GlobalNamespace::GameplayModifierMask modifiers);
 
   /// @brief Method VerifyEntry, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void VerifyEntry(::StringW name, T expected, T actual);
 
-  /// @brief Method VerifyExpected, addr 0x2590f54, size 0x1dec, virtual false, abstract: false, final false
-  inline bool VerifyExpected(::GlobalNamespace::MainSettingsModelSO* mainSettings, ::GlobalNamespace::PlayerSpecificSettings* playerSettings, ::GlobalNamespace::GameplayModifierMask modifiers);
+  /// @brief Method VerifyExpected, addr 0x2689f14, size 0x1e58, virtual false, abstract: false, final false
+  inline bool VerifyExpected(::BeatSaber::GameSettings::MainSettingsHandler* mainSettings, ::BeatSaber::GameSettings::GraphicSettingsHandler* graphicSettings,
+                             ::GlobalNamespace::PlayerSpecificSettings* playerSettings, ::GlobalNamespace::GameplayModifierMask modifiers);
 
   constexpr ::GlobalNamespace::__PerformanceConfigurationChecks__AppConfig const& __cordl_internal_get_appConfig() const;
 
@@ -1094,7 +1114,7 @@ public:
 
   constexpr void __cordl_internal_set_xrConfig(::GlobalNamespace::__PerformanceConfigurationChecks__XRConfig value);
 
-  /// @brief Method .ctor, addr 0x2592d40, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x268bd6c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1123,22 +1143,22 @@ public:
   /// @brief Field oculusXrConfig, offset: 0xa4, size: 0xc, def value: None
   ::GlobalNamespace::__PerformanceConfigurationChecks__OculusXRConfig ___oculusXrConfig;
 
-  /// @brief Field gameConfig, offset: 0xb0, size: 0xc8, def value: None
+  /// @brief Field gameConfig, offset: 0xb0, size: 0x108, def value: None
   ::GlobalNamespace::__PerformanceConfigurationChecks__GameConfig ___gameConfig;
 
-  /// @brief Field playerConfig, offset: 0x178, size: 0x3c, def value: None
+  /// @brief Field playerConfig, offset: 0x1b8, size: 0x3c, def value: None
   ::GlobalNamespace::__PerformanceConfigurationChecks__PlayerConfig ___playerConfig;
 
-  /// @brief Field levelConfig, offset: 0x1b4, size: 0x2, def value: None
+  /// @brief Field levelConfig, offset: 0x1f4, size: 0x2, def value: None
   ::GlobalNamespace::__PerformanceConfigurationChecks__LevelConfig ___levelConfig;
 
-  /// @brief Field invalid, offset: 0x1b8, size: 0x8, def value: None
+  /// @brief Field invalid, offset: 0x1f8, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__PerformanceConfigurationChecks__Mismatch>* ___invalid;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PerformanceConfigurationChecks, 0x1c0>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PerformanceConfigurationChecks, 0x200>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks, ___appConfig) == 0x10, "Offset mismatch!");
 
@@ -1150,11 +1170,11 @@ static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks, ___ocu
 
 static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks, ___gameConfig) == 0xb0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks, ___playerConfig) == 0x178, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks, ___playerConfig) == 0x1b8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks, ___levelConfig) == 0x1b4, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks, ___levelConfig) == 0x1f4, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks, ___invalid) == 0x1b8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks, ___invalid) == 0x1f8, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PerformanceConfigurationChecks);

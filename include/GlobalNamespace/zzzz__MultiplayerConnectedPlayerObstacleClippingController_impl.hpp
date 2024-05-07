@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MultiplayerConnectedPlayerObstacleClippingController.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerObstacleClippingController_def.hpp"
 #include "GlobalNamespace/zzzz__MaterialPropertyBlockController_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController::*)(
     ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController::SetClippingParams)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x25f4690;
+  constexpr static std::size_t addrs = 0x26f34a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController::*)()>(
     &::GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25f47dc;
+  constexpr static std::size_t addrs = 0x26f35f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

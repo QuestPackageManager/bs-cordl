@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/RecordingToolConfigurationProcessor.hpp"
 #include "BGLib/DotnetExtension/CommandLine/zzzz__CommandLineParserResult_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__RecordingToolConfigurationProcessor_def.hpp"
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__RecordingToolConfigurationProcessor__ColorSaveData::*)()>(
     &::GlobalNamespace::__RecordingToolConfigurationProcessor__ColorSaveData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2599d3c;
+  constexpr static std::size_t addrs = 0x2692fb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -85,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot::*)()>(
     &::GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2599d44;
+  constexpr static std::size_t addrs = 0x2692fc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -173,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingToolConfiguration::*)()>(
     &::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingToolConfiguration::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2598138;
+  constexpr static std::size_t addrs = 0x26913b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -215,7 +216,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::*)()>(
     &::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2599d4c;
+  constexpr static std::size_t addrs = 0x2692fc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -521,7 +522,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::BGLib::DotnetExtension::CommandLine::CommandLineParserResult, ::GlobalNamespace::IBeatSaberLogger*, ::GlobalNamespace::IPosesSerializer*, ::GlobalNamespace::EnvironmentsListModel*,
     ::GlobalNamespace::BeatmapLevelsModel*)>(&::GlobalNamespace::RecordingToolConfigurationProcessor::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x2597c0c;
+  constexpr static std::size_t addrs = 0x2690e88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -540,7 +541,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::RecordingToolConfigurationProcessor::*)()>(
     &::GlobalNamespace::RecordingToolConfigurationProcessor::IsRecordingToolEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2597c68;
+  constexpr static std::size_t addrs = 0x2690ee4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolConfigurationProcessor*>::get(),
@@ -554,7 +555,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::RecordingToolConfigurationProcessor::*)()>(
     &::GlobalNamespace::RecordingToolConfigurationProcessor::GetConfigFilePath)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x2597c70;
+  constexpr static std::size_t addrs = 0x2690eec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolConfigurationProcessor*>::get(),
@@ -568,7 +569,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::RecordingToolConfigurationProcessor::*)(::StringW)>(
     &::GlobalNamespace::RecordingToolConfigurationProcessor::LoadConfigurationFile)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x2597cec;
+  constexpr static std::size_t addrs = 0x2690f68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -583,7 +584,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingToolConfiguration* (
     ::GlobalNamespace::RecordingToolConfigurationProcessor::*)(::StringW)>(&::GlobalNamespace::RecordingToolConfigurationProcessor::DeserializeConfigurationFile)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x2597edc;
+  constexpr static std::size_t addrs = 0x2691158;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -598,7 +599,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingToolConfiguration* (
     ::GlobalNamespace::RecordingToolConfigurationProcessor::*)(::StringW)>(&::GlobalNamespace::RecordingToolConfigurationProcessor::LoadConfiguration)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2598140;
+  constexpr static std::size_t addrs = 0x26913bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -612,7 +613,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::LayerMask (*)()>(&::GlobalNamespace::RecordingToolConfigurationProcessor::GetDefaultMrcLayersMask)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x259815c;
+  constexpr static std::size_t addrs = 0x26913d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolConfigurationProcessor*>::get(),
@@ -626,7 +627,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::LayerMask (::GlobalNamespace::RecordingToolConfigurationProcessor::*)(::StringW)>(
     &::GlobalNamespace::RecordingToolConfigurationProcessor::GetLayerMask)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x25981f0;
+  constexpr static std::size_t addrs = 0x269146c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -641,7 +642,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::LayerMask (::GlobalNamespace::RecordingToolConfigurationProcessor::*)(
     ::ArrayW<::StringW, ::Array<::StringW>*>)>(&::GlobalNamespace::RecordingToolConfigurationProcessor::GetLayersMask)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x25983f8;
+  constexpr static std::size_t addrs = 0x2691674;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -656,7 +657,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ValueTuple_2<::GlobalNamespace::BeatmapLevelPack*, ::GlobalNamespace::BeatmapLevel*> (*)(
     ::StringW, ::StringW, ::GlobalNamespace::BeatmapLevelsModel*)>(&::GlobalNamespace::RecordingToolConfigurationProcessor::GetLevelPackAndLevelPreviewForLevelId)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x25984a4;
+  constexpr static std::size_t addrs = 0x2691720;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -675,7 +676,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                ::GlobalNamespace::BeatmapCharacteristicCollection*)>(
     &::GlobalNamespace::RecordingToolConfigurationProcessor::CreateRecordingToolSettingsFromConfiguration)> {
   constexpr static std::size_t size = 0x11f8;
-  constexpr static std::size_t addrs = 0x2598540;
+  constexpr static std::size_t addrs = 0x26917bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -693,7 +694,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::__ObjectsMovementRecorder__InitData* (::GlobalNamespace::RecordingToolConfigurationProcessor::*)(::GlobalNamespace::RecordingSettings*)>(
         &::GlobalNamespace::RecordingToolConfigurationProcessor::CreateObjectsMovementRecorderInitDataFromConfiguration)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x25998b4;
+  constexpr static std::size_t addrs = 0x2692b30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -709,7 +710,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::MenuDestination* (::GlobalNamespace::RecordingToolConfigurationProcessor::*)(::GlobalNamespace::RecordingSettings*, bool)>(
         &::GlobalNamespace::RecordingToolConfigurationProcessor::CreateMenuDestinationFromConfiguration)> {
   constexpr static std::size_t size = 0x390;
-  constexpr static std::size_t addrs = 0x25999ac;
+  constexpr static std::size_t addrs = 0x2692c28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

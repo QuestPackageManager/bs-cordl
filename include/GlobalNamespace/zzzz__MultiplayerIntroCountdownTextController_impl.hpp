@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MultiplayerIntroCountdownTextController.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerIntroCountdownTextController_def.hpp"
 #include "TMPro/zzzz__TextMeshPro_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerIntroCountdownTextController::*)(::StringW)>(
     &::GlobalNamespace::MultiplayerIntroCountdownTextController::SetText)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x261042c;
+  constexpr static std::size_t addrs = 0x27102b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerIntroCountdownTextController::*)(float_t)>(
     &::GlobalNamespace::MultiplayerIntroCountdownTextController::SetDistances)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x260fe10;
+  constexpr static std::size_t addrs = 0x270fc9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerIntroCountdownTextController::*)(bool)>(
     &::GlobalNamespace::MultiplayerIntroCountdownTextController::set_hide)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x260f3a8;
+  constexpr static std::size_t addrs = 0x270f234;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -53,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerIntroCountdownTextController::*)(float_t)>(
     &::GlobalNamespace::MultiplayerIntroCountdownTextController::set_fontSize)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x260fc8c;
+  constexpr static std::size_t addrs = 0x270fb18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::MultiplayerIntroCountdownTextController::*)()>(
     &::GlobalNamespace::MultiplayerIntroCountdownTextController::get_fontSize)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x260f3d4;
+  constexpr static std::size_t addrs = 0x270f260;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -83,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerIntroCountdownTextController::*)(float_t)>(
     &::GlobalNamespace::MultiplayerIntroCountdownTextController::set_alpha)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x260fd14;
+  constexpr static std::size_t addrs = 0x270fba0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::MultiplayerIntroCountdownTextController::*)()>(
     &::GlobalNamespace::MultiplayerIntroCountdownTextController::get_alpha)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x260f40c;
+  constexpr static std::size_t addrs = 0x270f298;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -113,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerIntroCountdownTextController::*)()>(
     &::GlobalNamespace::MultiplayerIntroCountdownTextController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26104ec;
+  constexpr static std::size_t addrs = 0x2710378;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

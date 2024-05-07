@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "ModestTree/Log.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "ModestTree/zzzz__Log_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
@@ -8,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(&::ModestTree::Log::Debug)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x340c100;
+  constexpr static std::size_t addrs = 0x3610e3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(&::ModestTree::Log::Info)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x340c104;
+  constexpr static std::size_t addrs = 0x3610e40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(&::ModestTree::Log::Warn)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x340baf8;
+  constexpr static std::size_t addrs = 0x3610834;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(&::ModestTree::Log::Trace)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x340c17c;
+  constexpr static std::size_t addrs = 0x3610eb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Exception*)>(&::ModestTree::Log::ErrorException)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x340c1f4;
+  constexpr static std::size_t addrs = 0x3610f30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -82,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::System::Exception*)>(&::ModestTree::Log::ErrorException)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x340c24c;
+  constexpr static std::size_t addrs = 0x3610f88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -97,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(&::ModestTree::Log::Error)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x340c2bc;
+  constexpr static std::size_t addrs = 0x3610ff8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

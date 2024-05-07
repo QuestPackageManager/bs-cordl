@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Cmp/KeyRecRepContent.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Cmp/zzzz__KeyRecRepContent_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cmp/zzzz__CertifiedKeyPair_def.hpp"
@@ -13,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cmp::KeyRecRepContent::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Cmp::KeyRecRepContent::_ctor)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0xfd30c4;
+  constexpr static std::size_t addrs = 0x10c67e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cmp::KeyRecRepContent* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Cmp::KeyRecRepContent::GetInstance)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0xfd3260;
+  constexpr static std::size_t addrs = 0x10c6984;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* (::Org::BouncyCastle::Asn1::Cmp::KeyRecRepContent::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::KeyRecRepContent::get_Status)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xfd33e8;
+  constexpr static std::size_t addrs = 0x10c6b0c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -59,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* (::Org::BouncyCastle::Asn1::Cmp::KeyRecRepContent::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::KeyRecRepContent::get_NewSigCert)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xfd33f0;
+  constexpr static std::size_t addrs = 0x10c6b14;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -75,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*, ::Array<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*>*> (
     ::Org::BouncyCastle::Asn1::Cmp::KeyRecRepContent::*)()>(&::Org::BouncyCastle::Asn1::Cmp::KeyRecRepContent::GetCACerts)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0xfd33f8;
+  constexpr static std::size_t addrs = 0x10c6b1c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -92,7 +93,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair*, ::Array<::Org::BouncyCastle::Asn1::Cmp::CertifiedKeyPair*>*> (::Org::BouncyCastle::Asn1::Cmp::KeyRecRepContent::*)()>(
         &::Org::BouncyCastle::Asn1::Cmp::KeyRecRepContent::GetKeyPairHist)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0xfd34f4;
+  constexpr static std::size_t addrs = 0x10c6c18;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -108,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Cmp::KeyRecRepContent::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::KeyRecRepContent::ToAsn1Object)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0xfd35f0;
+  constexpr static std::size_t addrs = 0x10c6d14;
 
   inline static ::MethodInfo const* methodInfo() {
 

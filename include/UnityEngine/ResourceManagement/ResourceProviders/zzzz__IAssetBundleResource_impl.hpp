@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ResourceManagement/ResourceProviders/IAssetBundleResource.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__IAssetBundleResource_def.hpp"
 #include "UnityEngine/zzzz__AssetBundle_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource.GetAssetBundle

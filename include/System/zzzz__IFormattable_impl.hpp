@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/IFormattable.hpp"
 #include "System/zzzz__IFormattable_def.hpp"
 #include "System/zzzz__IFormatProvider_def.hpp"
 //  Writing Method size for method: ::System::IFormattable.ToString

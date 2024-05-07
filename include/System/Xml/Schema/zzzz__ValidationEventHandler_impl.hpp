@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/ValidationEventHandler.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Xml/Schema/zzzz__ValidationEventHandler_def.hpp"
 #include "System/Xml/Schema/zzzz__ValidationEventArgs_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::ValidationEventHandler::*)(::System::Object*, void*)>(
     &::System::Xml::Schema::ValidationEventHandler::_ctor)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x2d02a50;
+  constexpr static std::size_t addrs = 0x2e00350;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Xml::Schema::ValidationEventHandler::*)(::System::Object*, ::System::Xml::Schema::ValidationEventArgs*)>(&::System::Xml::Schema::ValidationEventHandler::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2d02b80;
+  constexpr static std::size_t addrs = 0x2e00480;
 
   inline static ::MethodInfo const* methodInfo() {
 

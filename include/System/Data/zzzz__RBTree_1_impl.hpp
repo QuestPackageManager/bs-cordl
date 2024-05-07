@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/RBTree_1.hpp"
 #include "System/Data/zzzz__RBTree_1_impl.hpp"
 #include "System/Data/zzzz__TreeAccessMethod_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"

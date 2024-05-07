@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/PerformanceVisualizer.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,12 +22,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE PerformanceVisualizer : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Method Initialize, addr 0x2596b50, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x268fd78, size 0xd4, virtual false, abstract: false, final false
   inline void Initialize(::UnityEngine::Camera* mainCamera, bool enableFPSModule, bool enableMemoryModule);
 
   static inline ::GlobalNamespace::PerformanceVisualizer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2596c24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x268fe4c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

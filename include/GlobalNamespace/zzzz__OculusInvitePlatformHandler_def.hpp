@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OculusInvitePlatformHandler.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,13 +29,13 @@ public:
 
   static inline ::GlobalNamespace::OculusInvitePlatformHandler* New_ctor();
 
-  /// @brief Method OpenInvitePanel, addr 0x13dcc14, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method OpenInvitePanel, addr 0x14cffc4, size 0x60, virtual true, abstract: false, final true
   inline void OpenInvitePanel();
 
-  /// @brief Method .ctor, addr 0x13dcc74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14d0024, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isSupported, addr 0x13dcc0c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isSupported, addr 0x14cffbc, size 0x8, virtual true, abstract: false, final true
   inline bool get_isSupported();
 
   /// @brief Convert to "::GlobalNamespace::IInvitePlatformHandler"

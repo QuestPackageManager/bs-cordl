@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/SubContainerCreatorByNewGameObjectInstaller.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,7 +60,7 @@ public:
 
   static inline ::Zenject::__SubContainerCreatorByNewGameObjectInstaller____c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method <AddInstallers>b__0, addr 0x345aa98, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method <AddInstallers>b__0, addr 0x365ea60, size 0x178, virtual false, abstract: false, final false
   inline void _AddInstallers_b__0(::Zenject::DiContainer* subContainer);
 
   constexpr ::Zenject::SubContainerCreatorByNewGameObjectInstaller*& __cordl_internal_get___4__this();
@@ -74,13 +75,13 @@ public:
 
   constexpr void __cordl_internal_set_args(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* value);
 
-  /// @brief Method __zenCreate, addr 0x345ac10, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x365ebd8, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x345ac6c, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x365ec34, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x345aa34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x365e9fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -129,7 +130,7 @@ public:
   /// @brief Field _installerType, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__installerType, put = __cordl_internal_set__installerType))::System::Type* _installerType;
 
-  /// @brief Method AddInstallers, addr 0x345a940, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method AddInstallers, addr 0x365e908, size 0xf4, virtual true, abstract: false, final false
   inline void AddInstallers(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::GameObjectContext* context);
 
   static inline ::Zenject::SubContainerCreatorByNewGameObjectInstaller* New_ctor(::Zenject::DiContainer* container, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo,
@@ -147,7 +148,7 @@ public:
 
   constexpr void __cordl_internal_set__installerType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x345a870, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x365e838, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo, ::System::Type* installerType,
                     ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs);
 

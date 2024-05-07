@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Cms/CmsCompressedData.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,13 +32,13 @@ public:
   /// @brief Field contentInfo, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_contentInfo, put = __cordl_internal_set_contentInfo))::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo;
 
-  /// @brief Method GetContent, addr 0x134b7b4, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method GetContent, addr 0x143fed8, size 0x26c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetContent();
 
-  /// @brief Method GetContent, addr 0x134ba20, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method GetContent, addr 0x1440144, size 0x1e8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetContent(int32_t limit);
 
-  /// @brief Method GetEncoded, addr 0x134bc10, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x1440334, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
   static inline ::Org::BouncyCastle::Cms::CmsCompressedData* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> compressedData);
@@ -52,16 +53,16 @@ public:
 
   constexpr void __cordl_internal_set_contentInfo(::Org::BouncyCastle::Asn1::Cms::ContentInfo* value);
 
-  /// @brief Method .ctor, addr 0x134b71c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x143fe40, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> compressedData);
 
-  /// @brief Method .ctor, addr 0x134b77c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x143fea0, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* compressedDataStream);
 
-  /// @brief Method .ctor, addr 0x134b754, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x143fe78, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo);
 
-  /// @brief Method get_ContentInfo, addr 0x134bc08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentInfo, addr 0x144032c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::ContentInfo* get_ContentInfo();
 
 protected:

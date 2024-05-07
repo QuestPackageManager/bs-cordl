@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/AvatarVisualPropertyIds.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__AvatarVisualPropertyIds_def.hpp"
 inline void GlobalNamespace::AvatarVisualPropertyIds::setStaticF_keywordPointLightPrivate(::StringW value) {

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MultiplayerBadgeDataSaberMovementSO.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,12 +23,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE MultiplayerBadgeDataSaberMovementSO : public ::GlobalNamespace::MultiplayerBadgeDataMinMaxFloatSO {
 public:
   // Declarations
-  /// @brief Method GetValue, addr 0x13db0f4, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x14ce4a4, size 0x2c, virtual true, abstract: false, final false
   inline float_t GetValue(::GlobalNamespace::MultiplayerPlayerResultsData* result);
 
   static inline ::GlobalNamespace::MultiplayerBadgeDataSaberMovementSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x13db120, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14ce4d0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Reflection/Emit/UnmanagedMarshal.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Reflection/Emit/zzzz__UnmanagedMarshal_def.hpp"
 //  Writing Method size for method: ::System::Reflection::Emit::UnmanagedMarshal._ctor
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Reflection::Emit::UnmanagedMarshal::*)()>(&::System::Reflection::Emit::UnmanagedMarshal::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x277bacc;
+  constexpr static std::size_t addrs = 0x287b1ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::UnmanagedMarshal*>::get(), ".ctor",

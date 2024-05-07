@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SmoothStepPositionEventEffect.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -81,24 +82,24 @@ public:
   /// @brief Field _tweeningManager, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager))::UnityW<::Tweening::SongTimeTweeningManager> _tweeningManager;
 
-  /// @brief Method Awake, addr 0x25d3044, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x26d1db0, size 0x110, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method GetPositionForValue, addr 0x25d33f0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetPositionForValue, addr 0x26d215c, size 0x60, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetPositionForValue(int32_t value);
 
-  /// @brief Method HandleBeatmapEvent, addr 0x25d3314, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x26d2080, size 0xdc, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
   static inline ::GlobalNamespace::SmoothStepPositionEventEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x25d3278, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x26d1fe4, size 0x9c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetPosition, addr 0x25d3450, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SetPosition, addr 0x26d21bc, size 0x48, virtual false, abstract: false, final false
   inline void SetPosition(::UnityEngine::Vector3 position);
 
-  /// @brief Method Start, addr 0x25d3154, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x26d1ec0, size 0x124, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
@@ -173,7 +174,7 @@ public:
 
   constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::SongTimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x25d3498, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d2204, size 0x1070, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

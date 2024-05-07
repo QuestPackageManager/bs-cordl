@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ParticleSystemCurveMode.hpp"
 #include "UnityEngine/zzzz__ParticleSystemCurveMode_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::ParticleSystemCurveMode::ParticleSystemCurveMode(int32_t value__) noexcept {

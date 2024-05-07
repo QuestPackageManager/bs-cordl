@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/PoolExceededFixedSizeException.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,7 +22,7 @@ public:
   // Declarations
   static inline ::Zenject::PoolExceededFixedSizeException* New_ctor(::StringW errorMessage);
 
-  /// @brief Method .ctor, addr 0x3438654, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x363c390, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW errorMessage);
 
 protected:

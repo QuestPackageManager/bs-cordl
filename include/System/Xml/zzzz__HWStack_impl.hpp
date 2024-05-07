@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/HWStack.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__HWStack_def.hpp"
 #include "System/zzzz__ICloneable_def.hpp"
@@ -8,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::HWStack::*)(int32_t)>(&::System::Xml::HWStack::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2da79ec;
+  constexpr static std::size_t addrs = 0x2ea42ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -22,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::HWStack::*)(int32_t, int32_t)>(&::System::Xml::HWStack::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x2da79f4;
+  constexpr static std::size_t addrs = 0x2ea42f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -36,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::HWStack::*)()>(&::System::Xml::HWStack::Push)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x2da7a68;
+  constexpr static std::size_t addrs = 0x2ea4368;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::HWStack*>::get(), "Push",
@@ -49,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::HWStack::*)()>(&::System::Xml::HWStack::Pop)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2da7ba4;
+  constexpr static std::size_t addrs = 0x2ea44a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::HWStack*>::get(), "Pop",
@@ -62,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::HWStack::*)()>(&::System::Xml::HWStack::Peek)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2da7bec;
+  constexpr static std::size_t addrs = 0x2ea44ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::HWStack*>::get(), "Peek",
@@ -75,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::HWStack::*)(::System::Object*)>(&::System::Xml::HWStack::AddToTop)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x2da7c30;
+  constexpr static std::size_t addrs = 0x2ea4530;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -89,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::HWStack::*)(int32_t)>(&::System::Xml::HWStack::get_Item)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x2da7c9c;
+  constexpr static std::size_t addrs = 0x2ea459c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -103,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::HWStack::*)(int32_t, ::System::Object*)>(&::System::Xml::HWStack::set_Item)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2da7d18;
+  constexpr static std::size_t addrs = 0x2ea4618;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -117,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::HWStack::*)()>(&::System::Xml::HWStack::get_Length)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2da7dc8;
+  constexpr static std::size_t addrs = 0x2ea46c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::HWStack*>::get(), "get_Length",
@@ -131,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Xml::HWStack::*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>, int32_t, int32_t, int32_t)>(&::System::Xml::HWStack::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2da7dd0;
+  constexpr static std::size_t addrs = 0x2ea46d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -147,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::HWStack::*)()>(&::System::Xml::HWStack::Clone)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x2da7e14;
+  constexpr static std::size_t addrs = 0x2ea4714;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::HWStack*>::get(), "Clone",

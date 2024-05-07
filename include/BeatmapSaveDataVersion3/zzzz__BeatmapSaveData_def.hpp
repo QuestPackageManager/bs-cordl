@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatmapSaveDataVersion3/BeatmapSaveData.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -261,7 +262,7 @@ public:
 
   constexpr void __cordl_internal_set_waypoints(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::WaypointData*>* value);
 
-  /// @brief Method .ctor, addr 0x14000a4, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14f1668, size 0x10c, virtual false, abstract: false, final false
   inline void
   _ctor(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BpmChangeEventData*>* bpmEvents,
         ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::RotationEventData*>* rotationEvents,

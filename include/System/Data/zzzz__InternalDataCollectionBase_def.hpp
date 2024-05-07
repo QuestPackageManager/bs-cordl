@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/InternalDataCollectionBase.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,32 +62,32 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method CopyTo, addr 0x2b7455c, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x2c71e5c, size 0x48, virtual true, abstract: false, final false
   inline void CopyTo(::System::Array* ar, int32_t index);
 
-  /// @brief Method GetEnumerator, addr 0x2b745a4, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x2c71ea4, size 0x2c, virtual true, abstract: false, final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
-  /// @brief Method NamesEqual, addr 0x2b745d8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method NamesEqual, addr 0x2c71ed8, size 0xac, virtual false, abstract: false, final false
   inline int32_t NamesEqual(::StringW s1, ::StringW s2, bool fCaseSensitive, ::System::Globalization::CultureInfo* locale);
 
   static inline ::System::Data::InternalDataCollectionBase* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2b74690, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c71f90, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::ComponentModel::CollectionChangeEventArgs* getStaticF_s_refreshEventArgs();
 
-  /// @brief Method get_Count, addr 0x2b74530, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x2c71e30, size 0x2c, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsSynchronized, addr 0x2b745d0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsSynchronized, addr 0x2c71ed0, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_List, addr 0x2b74688, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_List, addr 0x2c71f88, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::ArrayList* get_List();
 
-  /// @brief Method get_SyncRoot, addr 0x2b74684, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method get_SyncRoot, addr 0x2c71f84, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* get_SyncRoot();
 
   /// @brief Convert to "::System::Collections::ICollection"

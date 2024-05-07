@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Cmp/GeneralPkiMessage.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,10 +43,10 @@ public:
 
   static inline ::Org::BouncyCastle::Cmp::GeneralPkiMessage* New_ctor(::Org::BouncyCastle::Asn1::Cmp::PkiMessage* pkiMessage);
 
-  /// @brief Method ParseBytes, addr 0x1345100, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ParseBytes, addr 0x1439824, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiMessage* ParseBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> encoding);
 
-  /// @brief Method ToAsn1Structure, addr 0x13451ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToAsn1Structure, addr 0x1439910, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiMessage* ToAsn1Structure();
 
   constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiMessage*& __cordl_internal_get_pkiMessage();
@@ -54,19 +55,19 @@ public:
 
   constexpr void __cordl_internal_set_pkiMessage(::Org::BouncyCastle::Asn1::Cmp::PkiMessage* value);
 
-  /// @brief Method .ctor, addr 0x1345140, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1439864, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> encoding);
 
-  /// @brief Method .ctor, addr 0x1345118, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x143983c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cmp::PkiMessage* pkiMessage);
 
-  /// @brief Method get_Body, addr 0x13451a0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_Body, addr 0x14398c4, size 0x20, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiBody* get_Body();
 
-  /// @brief Method get_HasProtection, addr 0x13451c0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_HasProtection, addr 0x14398e4, size 0x2c, virtual false, abstract: false, final false
   inline bool get_HasProtection();
 
-  /// @brief Method get_Header, addr 0x1345180, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_Header, addr 0x14398a4, size 0x20, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeader* get_Header();
 
 protected:

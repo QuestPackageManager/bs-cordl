@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IStateTable_3.hpp"
 #include "GlobalNamespace/zzzz__IStateTable_3_def.hpp"
 template <typename TStateTable, typename TType, typename TState> inline TState GlobalNamespace::IStateTable_3<TStateTable, TType, TState>::GetState(TType type) {
   auto* ___internal_method =

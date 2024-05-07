@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/PreserveReferencesHandling.hpp"
 #include "Newtonsoft/Json/zzzz__PreserveReferencesHandling_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::Newtonsoft::Json::PreserveReferencesHandling::PreserveReferencesHandling(int32_t value__) noexcept {

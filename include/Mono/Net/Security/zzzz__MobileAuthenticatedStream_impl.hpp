@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Net/Security/MobileAuthenticatedStream.hpp"
 #include "Mono/Net/Security/zzzz__MobileAuthenticatedStream_impl.hpp"
 #include "System/Net/Security/zzzz__AuthenticatedStream_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
@@ -66,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::__MobileAuthenticatedStream___ProcessAuthentication_d__48::*)()>(
     &::Mono::Net::Security::__MobileAuthenticatedStream___ProcessAuthentication_d__48::MoveNext)> {
   constexpr static std::size_t size = 0x904;
-  constexpr static std::size_t addrs = 0x2b6b3c0;
+  constexpr static std::size_t addrs = 0x2c67cc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -81,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::__MobileAuthenticatedStream___ProcessAuthentication_d__48::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Mono::Net::Security::__MobileAuthenticatedStream___ProcessAuthentication_d__48::SetStateMachine)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2b6bcc4;
+  constexpr static std::size_t addrs = 0x2c685c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -139,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::__MobileAuthenticatedStream___StartOperation_d__57::*)()>(
     &::Mono::Net::Security::__MobileAuthenticatedStream___StartOperation_d__57::MoveNext)> {
   constexpr static std::size_t size = 0x758;
-  constexpr static std::size_t addrs = 0x2b6bcd0;
+  constexpr static std::size_t addrs = 0x2c685d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -154,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::__MobileAuthenticatedStream___StartOperation_d__57::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Mono::Net::Security::__MobileAuthenticatedStream___StartOperation_d__57::SetStateMachine)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2b6c428;
+  constexpr static std::size_t addrs = 0x2c68d28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -212,7 +213,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::__MobileAuthenticatedStream____c__DisplayClass66_0::*)()>(
     &::Mono::Net::Security::__MobileAuthenticatedStream____c__DisplayClass66_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b6c480;
+  constexpr static std::size_t addrs = 0x2c68d80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -227,7 +228,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Mono::Net::Security::__MobileAuthenticatedStream____c__DisplayClass66_0::*)()>(
     &::Mono::Net::Security::__MobileAuthenticatedStream____c__DisplayClass66_0::_InnerRead_b__0)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2b6c488;
+  constexpr static std::size_t addrs = 0x2c68d88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -284,7 +285,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::__MobileAuthenticatedStream___InnerRead_d__66::*)()>(
     &::Mono::Net::Security::__MobileAuthenticatedStream___InnerRead_d__66::MoveNext)> {
   constexpr static std::size_t size = 0x444;
-  constexpr static std::size_t addrs = 0x2b6c4d0;
+  constexpr static std::size_t addrs = 0x2c68dd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -299,7 +300,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::__MobileAuthenticatedStream___InnerRead_d__66::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Mono::Net::Security::__MobileAuthenticatedStream___InnerRead_d__66::SetStateMachine)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2b6c914;
+  constexpr static std::size_t addrs = 0x2c69214;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -354,7 +355,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::__MobileAuthenticatedStream___InnerWrite_d__67::*)()>(
     &::Mono::Net::Security::__MobileAuthenticatedStream___InnerWrite_d__67::MoveNext)> {
   constexpr static std::size_t size = 0x290;
-  constexpr static std::size_t addrs = 0x2b6c96c;
+  constexpr static std::size_t addrs = 0x2c6926c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -369,7 +370,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::__MobileAuthenticatedStream___InnerWrite_d__67::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Mono::Net::Security::__MobileAuthenticatedStream___InnerWrite_d__67::SetStateMachine)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2b6cbfc;
+  constexpr static std::size_t addrs = 0x2c694fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -423,7 +424,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::IO::Stream*, bool, ::System::Net::Security::SslStream*, ::Mono::Security::Interface::MonoTlsSettings*, ::Mono::Net::Security::MobileTlsProvider*)>(
     &::Mono::Net::Security::MobileAuthenticatedStream::_ctor)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x2b66454;
+  constexpr static std::size_t addrs = 0x2c62d54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -441,7 +442,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Security::SslStream* (::Mono::Net::Security::MobileAuthenticatedStream::*)()>(
     &::Mono::Net::Security::MobileAuthenticatedStream::get_SslStream)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b69b8c;
+  constexpr static std::size_t addrs = 0x2c6648c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MobileAuthenticatedStream*>::get(),
@@ -455,7 +456,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::Interface::MonoTlsSettings* (::Mono::Net::Security::MobileAuthenticatedStream::*)()>(
     &::Mono::Net::Security::MobileAuthenticatedStream::get_Settings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b69b94;
+  constexpr static std::size_t addrs = 0x2c66494;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MobileAuthenticatedStream*>::get(),
@@ -469,7 +470,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Net::Security::MobileTlsProvider* (::Mono::Net::Security::MobileAuthenticatedStream::*)()>(
     &::Mono::Net::Security::MobileAuthenticatedStream::get_Provider)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b69b9c;
+  constexpr static std::size_t addrs = 0x2c6649c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MobileAuthenticatedStream*>::get(),
@@ -483,7 +484,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Mono::Net::Security::MobileAuthenticatedStream::*)()>(
     &::Mono::Net::Security::MobileAuthenticatedStream::get_TargetHost)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b69ba4;
+  constexpr static std::size_t addrs = 0x2c664a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MobileAuthenticatedStream*>::get(),
@@ -497,7 +498,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::MobileAuthenticatedStream::*)(::StringW)>(
     &::Mono::Net::Security::MobileAuthenticatedStream::set_TargetHost)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b69bac;
+  constexpr static std::size_t addrs = 0x2c664ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -512,7 +513,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::MobileAuthenticatedStream::*)(bool, bool)>(
     &::Mono::Net::Security::MobileAuthenticatedStream::CheckThrow)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x2b69bb4;
+  constexpr static std::size_t addrs = 0x2c664b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -527,7 +528,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Exception*)>(
     &::Mono::Net::Security::MobileAuthenticatedStream::GetSSPIException)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x2b67c80;
+  constexpr static std::size_t addrs = 0x2c64580;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -542,7 +543,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Exception*, ::StringW)>(
     &::Mono::Net::Security::MobileAuthenticatedStream::GetIOException)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x2b69c7c;
+  constexpr static std::size_t addrs = 0x2c6657c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MobileAuthenticatedStream*>::get(),
@@ -557,7 +558,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::Mono::Net::Security::MobileAuthenticatedStream::GetInternalError)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x2b69e00;
+  constexpr static std::size_t addrs = 0x2c66700;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MobileAuthenticatedStream*>::get(),
@@ -570,7 +571,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::Mono::Net::Security::MobileAuthenticatedStream::GetInvalidNestedCallException)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x2b69e50;
+  constexpr static std::size_t addrs = 0x2c66750;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MobileAuthenticatedStream*>::get(),
@@ -584,7 +585,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::ExceptionServices::ExceptionDispatchInfo* (
     ::Mono::Net::Security::MobileAuthenticatedStream::*)(::System::Exception*)>(&::Mono::Net::Security::MobileAuthenticatedStream::SetException)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2b67754;
+  constexpr static std::size_t addrs = 0x2c64054;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -600,7 +601,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::StringW, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*, ::System::Security::Authentication::SslProtocols, bool)>(
     &::Mono::Net::Security::MobileAuthenticatedStream::AuthenticateAsClient)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x2b69ea0;
+  constexpr static std::size_t addrs = 0x2c667a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -619,7 +620,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Security::Cryptography::X509Certificates::X509Certificate*, bool, ::System::Security::Authentication::SslProtocols, bool)>(
     &::Mono::Net::Security::MobileAuthenticatedStream::AuthenticateAsServer)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x2b6a1d8;
+  constexpr static std::size_t addrs = 0x2c66ad8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -638,7 +639,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Mono::Net::Security::MobileAuthenticatedStream::*)(::StringW, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*, ::System::Security::Authentication::SslProtocols,
                                                          bool)>(&::Mono::Net::Security::MobileAuthenticatedStream::AuthenticateAsClientAsync)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x2b6a41c;
+  constexpr static std::size_t addrs = 0x2c66d1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -657,7 +658,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Mono::Net::Security::MobileAuthenticatedStream::*)(bool, ::Mono::Net::Security::MonoSslAuthenticationOptions*, ::System::Threading::CancellationToken)>(
     &::Mono::Net::Security::MobileAuthenticatedStream::ProcessAuthentication)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x2b6a0e4;
+  constexpr static std::size_t addrs = 0x2c669e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -690,7 +691,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<int32_t (::Mono::Net::Security::MobileAuthenticatedStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Mono::Net::Security::MobileAuthenticatedStream::Read)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x2b6a538;
+  constexpr static std::size_t addrs = 0x2c66e38;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -706,7 +707,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::MobileAuthenticatedStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::Mono::Net::Security::MobileAuthenticatedStream::Write)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x2b6a738;
+  constexpr static std::size_t addrs = 0x2c67038;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -723,7 +724,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Mono::Net::Security::MobileAuthenticatedStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::System::Threading::CancellationToken)>(
     &::Mono::Net::Security::MobileAuthenticatedStream::ReadAsync)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2b6a808;
+  constexpr static std::size_t addrs = 0x2c67108;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -740,7 +741,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Mono::Net::Security::MobileAuthenticatedStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::System::Threading::CancellationToken)>(
     &::Mono::Net::Security::MobileAuthenticatedStream::WriteAsync)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2b6a8a4;
+  constexpr static std::size_t addrs = 0x2c671a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -757,7 +758,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Mono::Net::Security::MobileAuthenticatedStream::*)(::Mono::Net::Security::__MobileAuthenticatedStream__OperationType, ::Mono::Net::Security::AsyncProtocolRequest*,
                                                          ::System::Threading::CancellationToken)>(&::Mono::Net::Security::MobileAuthenticatedStream::StartOperation)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x2b6a61c;
+  constexpr static std::size_t addrs = 0x2c66f1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -774,7 +775,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Mono::Net::Security::MobileAuthenticatedStream::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ByRef<bool>)>(&::Mono::Net::Security::MobileAuthenticatedStream::InternalRead)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x2b64aa8;
+  constexpr static std::size_t addrs = 0x2c613a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -792,7 +793,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Mono::Net::Security::AsyncProtocolRequest*, ::Mono::Net::Security::BufferOffsetSize*, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::Mono::Net::Security::MobileAuthenticatedStream::InternalRead)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x2b6a940;
+  constexpr static std::size_t addrs = 0x2c67240;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -810,7 +811,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Net::Security::MobileAuthenticatedStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::Mono::Net::Security::MobileAuthenticatedStream::InternalWrite)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x2b645c0;
+  constexpr static std::size_t addrs = 0x2c60ec0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -827,7 +828,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Mono::Net::Security::AsyncProtocolRequest*, ::Mono::Net::Security::BufferOffsetSize2*, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::Mono::Net::Security::MobileAuthenticatedStream::InternalWrite)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x2b6aac0;
+  constexpr static std::size_t addrs = 0x2c673c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -845,7 +846,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<int32_t>* (
     ::Mono::Net::Security::MobileAuthenticatedStream::*)(bool, int32_t, ::System::Threading::CancellationToken)>(&::Mono::Net::Security::MobileAuthenticatedStream::InnerRead)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x2b68254;
+  constexpr static std::size_t addrs = 0x2c64b54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -861,7 +862,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
     ::Mono::Net::Security::MobileAuthenticatedStream::*)(bool, ::System::Threading::CancellationToken)>(&::Mono::Net::Security::MobileAuthenticatedStream::InnerWrite)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x2b67e14;
+  constexpr static std::size_t addrs = 0x2c64714;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -877,7 +878,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Net::Security::AsyncOperationStatus (::Mono::Net::Security::MobileAuthenticatedStream::*)(
     ::Mono::Net::Security::AsyncOperationStatus, bool)>(&::Mono::Net::Security::MobileAuthenticatedStream::ProcessHandshake)> {
   constexpr static std::size_t size = 0x3d8;
-  constexpr static std::size_t addrs = 0x2b683ec;
+  constexpr static std::size_t addrs = 0x2c64cec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -893,7 +894,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ValueTuple_2<int32_t, bool> (::Mono::Net::Security::MobileAuthenticatedStream::*)(
     ::Mono::Net::Security::BufferOffsetSize*)>(&::Mono::Net::Security::MobileAuthenticatedStream::ProcessRead)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x2b6894c;
+  constexpr static std::size_t addrs = 0x2c6524c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -908,7 +909,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ValueTuple_2<int32_t, bool> (::Mono::Net::Security::MobileAuthenticatedStream::*)(
     ::Mono::Net::Security::BufferOffsetSize*)>(&::Mono::Net::Security::MobileAuthenticatedStream::ProcessWrite)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x2b68b2c;
+  constexpr static std::size_t addrs = 0x2c6542c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -923,7 +924,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Net::Security::MobileAuthenticatedStream::*)()>(
     &::Mono::Net::Security::MobileAuthenticatedStream::get_IsAuthenticated)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x2b6abbc;
+  constexpr static std::size_t addrs = 0x2c674bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -939,7 +940,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::MobileAuthenticatedStream::*)(bool)>(
     &::Mono::Net::Security::MobileAuthenticatedStream::Dispose)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x2b6aca4;
+  constexpr static std::size_t addrs = 0x2c675a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -955,7 +956,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::MobileAuthenticatedStream::*)()>(
     &::Mono::Net::Security::MobileAuthenticatedStream::Flush)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2b6aef8;
+  constexpr static std::size_t addrs = 0x2c677f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -971,7 +972,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::X509Certificates::X509Certificate* (
     ::Mono::Net::Security::MobileAuthenticatedStream::*)()>(&::Mono::Net::Security::MobileAuthenticatedStream::get_LocalCertificate)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x2b6af1c;
+  constexpr static std::size_t addrs = 0x2c6781c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MobileAuthenticatedStream*>::get(),
@@ -985,7 +986,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::X509Certificates::X509Certificate* (
     ::Mono::Net::Security::MobileAuthenticatedStream::*)()>(&::Mono::Net::Security::MobileAuthenticatedStream::get_InternalLocalCertificate)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x2b6aff8;
+  constexpr static std::size_t addrs = 0x2c678f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MobileAuthenticatedStream*>::get(),
@@ -999,7 +1000,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Mono::Net::Security::MobileAuthenticatedStream::*)(int64_t, ::System::IO::SeekOrigin)>(
     &::Mono::Net::Security::MobileAuthenticatedStream::Seek)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2b6b0f8;
+  constexpr static std::size_t addrs = 0x2c679f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1015,7 +1016,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::MobileAuthenticatedStream::*)(int64_t)>(
     &::Mono::Net::Security::MobileAuthenticatedStream::SetLength)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2b6b138;
+  constexpr static std::size_t addrs = 0x2c67a38;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1031,7 +1032,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Net::Security::MobileAuthenticatedStream::*)()>(
     &::Mono::Net::Security::MobileAuthenticatedStream::get_CanRead)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2b6b15c;
+  constexpr static std::size_t addrs = 0x2c67a5c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1047,7 +1048,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Net::Security::MobileAuthenticatedStream::*)()>(
     &::Mono::Net::Security::MobileAuthenticatedStream::get_CanTimeout)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2b6b1a0;
+  constexpr static std::size_t addrs = 0x2c67aa0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1063,7 +1064,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Net::Security::MobileAuthenticatedStream::*)()>(
     &::Mono::Net::Security::MobileAuthenticatedStream::get_CanWrite)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2b6b1c0;
+  constexpr static std::size_t addrs = 0x2c67ac0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1079,7 +1080,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Net::Security::MobileAuthenticatedStream::*)()>(
     &::Mono::Net::Security::MobileAuthenticatedStream::get_CanSeek)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b6b224;
+  constexpr static std::size_t addrs = 0x2c67b24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1095,7 +1096,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Mono::Net::Security::MobileAuthenticatedStream::*)()>(
     &::Mono::Net::Security::MobileAuthenticatedStream::get_Length)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2b6b22c;
+  constexpr static std::size_t addrs = 0x2c67b2c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1111,7 +1112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Mono::Net::Security::MobileAuthenticatedStream::*)()>(
     &::Mono::Net::Security::MobileAuthenticatedStream::get_Position)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2b6b24c;
+  constexpr static std::size_t addrs = 0x2c67b4c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1127,7 +1128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::MobileAuthenticatedStream::*)(int64_t)>(
     &::Mono::Net::Security::MobileAuthenticatedStream::set_Position)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2b6b270;
+  constexpr static std::size_t addrs = 0x2c67b70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1143,7 +1144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Mono::Net::Security::MobileAuthenticatedStream::*)()>(
     &::Mono::Net::Security::MobileAuthenticatedStream::get_ReadTimeout)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2b6b2b0;
+  constexpr static std::size_t addrs = 0x2c67bb0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1159,7 +1160,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::MobileAuthenticatedStream::*)(int32_t)>(
     &::Mono::Net::Security::MobileAuthenticatedStream::set_ReadTimeout)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2b6b2d4;
+  constexpr static std::size_t addrs = 0x2c67bd4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1175,7 +1176,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Mono::Net::Security::MobileAuthenticatedStream::*)()>(
     &::Mono::Net::Security::MobileAuthenticatedStream::get_WriteTimeout)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2b6b2f8;
+  constexpr static std::size_t addrs = 0x2c67bf8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1191,7 +1192,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::MobileAuthenticatedStream::*)(int32_t)>(
     &::Mono::Net::Security::MobileAuthenticatedStream::set_WriteTimeout)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2b6b31c;
+  constexpr static std::size_t addrs = 0x2c67c1c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1207,7 +1208,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::MobileAuthenticatedStream::*)()>(
     &::Mono::Net::Security::MobileAuthenticatedStream::_InnerWrite_b__67_0)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x2b6b38c;
+  constexpr static std::size_t addrs = 0x2c67c8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MobileAuthenticatedStream*>::get(),

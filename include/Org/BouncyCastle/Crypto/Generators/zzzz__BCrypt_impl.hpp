@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Generators/BCrypt.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Generators/zzzz__BCrypt_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Generators::BCrypt._ctor
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::BCrypt::*)()>(
     &::Org::BouncyCastle::Crypto::Generators::BCrypt::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x1060b84;
+  constexpr static std::size_t addrs = 0x11542a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Generators::BCrypt*>::get(), ".ctor",
@@ -21,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::Org::BouncyCastle::Crypto::Generators::BCrypt::*)(uint32_t)>(
     &::Org::BouncyCastle::Crypto::Generators::BCrypt::F)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x1060bf0;
+  constexpr static std::size_t addrs = 0x1154314;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::BCrypt::*)(
     uint32_t, uint32_t, ::ArrayW<uint32_t, ::Array<uint32_t>*>)>(&::Org::BouncyCastle::Crypto::Generators::BCrypt::ProcessTable)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x1060c74;
+  constexpr static std::size_t addrs = 0x1154398;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -52,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::BCrypt::*)()>(
     &::Org::BouncyCastle::Crypto::Generators::BCrypt::InitState)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x1060da8;
+  constexpr static std::size_t addrs = 0x11544cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Generators::BCrypt*>::get(),
@@ -66,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::BCrypt::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Crypto::Generators::BCrypt::CyclicXorKey)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x1060ea8;
+  constexpr static std::size_t addrs = 0x11545cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -81,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Generators::BCrypt::*)()>(
     &::Org::BouncyCastle::Crypto::Generators::BCrypt::EncryptMagicString)> {
   constexpr static std::size_t size = 0x2d0;
-  constexpr static std::size_t addrs = 0x1060f30;
+  constexpr static std::size_t addrs = 0x1154654;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Generators::BCrypt*>::get(),
@@ -95,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::BCrypt::*)(
     ::ArrayW<uint32_t, ::Array<uint32_t>*>, ::ArrayW<uint32_t, ::Array<uint32_t>*>, uint32_t, uint32_t)>(&::Org::BouncyCastle::Crypto::Generators::BCrypt::ProcessTableWithSalt)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x1061200;
+  constexpr static std::size_t addrs = 0x1154924;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -112,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Generators::BCrypt::*)(
     int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Generators::BCrypt::DeriveRawKey)> {
   constexpr static std::size_t size = 0x320;
-  constexpr static std::size_t addrs = 0x106145c;
+  constexpr static std::size_t addrs = 0x1154b80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -129,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::ArrayW<char16_t, ::Array<char16_t>*>)>(
     &::Org::BouncyCastle::Crypto::Generators::BCrypt::PasswordToByteArray)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x106177c;
+  constexpr static std::size_t addrs = 0x1154ea0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -144,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>,
                                                                                                                            int32_t)>(&::Org::BouncyCastle::Crypto::Generators::BCrypt::Generate)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x10617ec;
+  constexpr static std::size_t addrs = 0x1154f10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

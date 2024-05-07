@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Timeline/SignalTrack.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,7 +21,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Timeline::SignalTrack* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3198794, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x339f21c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

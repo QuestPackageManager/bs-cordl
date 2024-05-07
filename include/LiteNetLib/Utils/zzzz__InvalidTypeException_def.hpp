@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LiteNetLib/Utils/InvalidTypeException.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,7 +22,7 @@ public:
   // Declarations
   static inline ::LiteNetLib::Utils::InvalidTypeException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x24f9f34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f0bc0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

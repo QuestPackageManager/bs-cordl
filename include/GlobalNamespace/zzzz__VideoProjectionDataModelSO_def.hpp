@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/VideoProjectionDataModelSO.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,13 +56,13 @@ public:
 
   constexpr void __cordl_internal_set__videoAssetReference(::UnityEngine::AddressableAssets::AssetReference* value);
 
-  /// @brief Method .ctor, addr 0x25d40a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d3e14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_id, addr 0x25d4098, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x26d3e04, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_id();
 
-  /// @brief Method get_videoAssetReference, addr 0x25d40a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_videoAssetReference, addr 0x26d3e0c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::AddressableAssets::AssetReference* get_videoAssetReference();
 
 protected:
@@ -123,10 +124,10 @@ public:
   constexpr void __cordl_internal_set__videoClipsWithId(
       ::ArrayW<::GlobalNamespace::__VideoProjectionDataModelSO__VideoClipWithId*, ::Array<::GlobalNamespace::__VideoProjectionDataModelSO__VideoClipWithId*>*> value);
 
-  /// @brief Method .ctor, addr 0x25d4090, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d3dfc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_videoClipWithIds, addr 0x25d4088, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_videoClipWithIds, addr 0x26d3df4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::__VideoProjectionDataModelSO__VideoClipWithId*, ::Array<::GlobalNamespace::__VideoProjectionDataModelSO__VideoClipWithId*>*> get_videoClipWithIds();
 
 protected:

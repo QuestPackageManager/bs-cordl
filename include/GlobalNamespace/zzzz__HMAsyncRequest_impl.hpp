@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/HMAsyncRequest.hpp"
 #include "GlobalNamespace/zzzz__HMAutoincrementedRequestId_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "GlobalNamespace/zzzz__HMAsyncRequest_def.hpp"
@@ -12,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__HMAsyncRequest__CancelHander::*)(::System::Object*, void*)>(
     &::GlobalNamespace::__HMAsyncRequest__CancelHander::_ctor)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x23ddf54;
+  constexpr static std::size_t addrs = 0x24d5b58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__HMAsyncRequest__CancelHander::*)(::GlobalNamespace::HMAsyncRequest*)>(
     &::GlobalNamespace::__HMAsyncRequest__CancelHander::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x23de080;
+  constexpr static std::size_t addrs = 0x24d5c84;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,7 +45,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::IAsyncResult* (::GlobalNamespace::__HMAsyncRequest__CancelHander::*)(::GlobalNamespace::HMAsyncRequest*, ::System::AsyncCallback*, ::System::Object*)>(
         &::GlobalNamespace::__HMAsyncRequest__CancelHander::BeginInvoke)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x23de094;
+  constexpr static std::size_t addrs = 0x24d5c98;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -60,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__HMAsyncRequest__CancelHander::*)(::System::IAsyncResult*)>(
     &::GlobalNamespace::__HMAsyncRequest__CancelHander::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x23de0b4;
+  constexpr static std::size_t addrs = 0x24d5cb8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -102,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__HMAsyncRequest__CancelHander* (::GlobalNamespace::HMAsyncRequest::*)()>(
     &::GlobalNamespace::HMAsyncRequest::get_CancelHandler)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23ddeac;
+  constexpr static std::size_t addrs = 0x24d5ab0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HMAsyncRequest*>::get(), "get_CancelHandler",
@@ -116,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HMAsyncRequest::*)(::GlobalNamespace::__HMAsyncRequest__CancelHander*)>(
     &::GlobalNamespace::HMAsyncRequest::set_CancelHandler)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23ddeb4;
+  constexpr static std::size_t addrs = 0x24d5ab8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -130,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::HMAsyncRequest::*)()>(&::GlobalNamespace::HMAsyncRequest::get_cancelled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23ddebc;
+  constexpr static std::size_t addrs = 0x24d5ac0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HMAsyncRequest*>::get(), "get_cancelled",
@@ -143,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HMAsyncRequest::*)()>(&::GlobalNamespace::HMAsyncRequest::Cancel)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x23ddec4;
+  constexpr static std::size_t addrs = 0x24d5ac8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -157,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HMAsyncRequest::*)()>(&::GlobalNamespace::HMAsyncRequest::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x23ddeec;
+  constexpr static std::size_t addrs = 0x24d5af0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HMAsyncRequest*>::get(), ".ctor",

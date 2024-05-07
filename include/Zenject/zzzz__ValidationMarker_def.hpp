@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/ValidationMarker.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,22 +48,22 @@ public:
 
   constexpr void __cordl_internal_set__MarkedType_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x3454e18, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3658de0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* markedType);
 
-  /// @brief Method .ctor, addr 0x34703d4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x367439c, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* markedType, bool instantiateFailed);
 
-  /// @brief Method get_InstantiateFailed, addr 0x3470408, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InstantiateFailed, addr 0x36743d0, size 0x8, virtual false, abstract: false, final false
   inline bool get_InstantiateFailed();
 
-  /// @brief Method get_MarkedType, addr 0x347041c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MarkedType, addr 0x36743e4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_MarkedType();
 
-  /// @brief Method set_InstantiateFailed, addr 0x3470410, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_InstantiateFailed, addr 0x36743d8, size 0xc, virtual false, abstract: false, final false
   inline void set_InstantiateFailed(bool value);
 
-  /// @brief Method set_MarkedType, addr 0x3470424, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_MarkedType, addr 0x36743ec, size 0x8, virtual false, abstract: false, final false
   inline void set_MarkedType(::System::Type* value);
 
 protected:

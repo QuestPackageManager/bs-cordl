@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/NetworkInformation/MacOsStructs/sockaddr_dl.hpp"
 #include "System/Net/NetworkInformation/MacOsStructs/zzzz__sockaddr_dl_def.hpp"
 //  Writing Method size for method: ::System::Net::NetworkInformation::MacOsStructs::sockaddr_dl.Read
 template <>
@@ -6,7 +7,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::NetworkInformation::MacOsStructs::sockaddr_dl::*)(void*)>(
     &::System::Net::NetworkInformation::MacOsStructs::sockaddr_dl::Read)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x2f25864;
+  constexpr static std::size_t addrs = 0x3026164;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

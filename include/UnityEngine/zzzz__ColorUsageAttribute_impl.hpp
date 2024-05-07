@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ColorUsageAttribute.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "UnityEngine/zzzz__ColorUsageAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ColorUsageAttribute._ctor
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ColorUsageAttribute::*)(bool)>(&::UnityEngine::ColorUsageAttribute::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3203598;
+  constexpr static std::size_t addrs = 0x340a2cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -20,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ColorUsageAttribute::*)(bool, bool)>(&::UnityEngine::ColorUsageAttribute::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x32035d4;
+  constexpr static std::size_t addrs = 0x340a308;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

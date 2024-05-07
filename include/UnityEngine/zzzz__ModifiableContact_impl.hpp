@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ModifiableContact.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/zzzz__ModifiableContact_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"

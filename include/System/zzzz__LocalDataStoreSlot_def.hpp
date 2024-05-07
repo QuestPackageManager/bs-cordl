@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/LocalDataStoreSlot.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,7 +38,7 @@ public:
   /// @brief Field m_slot, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_m_slot, put = __cordl_internal_set_m_slot)) int32_t m_slot;
 
-  /// @brief Method Finalize, addr 0x285e9b0, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x295d258, size 0xac, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::System::LocalDataStoreSlot* New_ctor(::System::LocalDataStoreMgr* mgr, int32_t slot, int64_t cookie);
@@ -60,16 +61,16 @@ public:
 
   constexpr void __cordl_internal_set_m_slot(int32_t value);
 
-  /// @brief Method .ctor, addr 0x285e958, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x295d200, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::LocalDataStoreMgr* mgr, int32_t slot, int64_t cookie);
 
-  /// @brief Method get_Cookie, addr 0x285e9a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Cookie, addr 0x295d250, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_Cookie();
 
-  /// @brief Method get_Manager, addr 0x285e998, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Manager, addr 0x295d240, size 0x8, virtual false, abstract: false, final false
   inline ::System::LocalDataStoreMgr* get_Manager();
 
-  /// @brief Method get_Slot, addr 0x285e9a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Slot, addr 0x295d248, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Slot();
 
 protected:

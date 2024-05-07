@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Resources/FileBasedResourceGroveler.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Resources/zzzz__FileBasedResourceGroveler_def.hpp"
 #include "System/Resources/zzzz__IResourceGroveler_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Resources::FileBasedResourceGroveler::*)(::System::Resources::__ResourceManager__ResourceManagerMediator*)>(&::System::Resources::FileBasedResourceGroveler::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2761200;
+  constexpr static std::size_t addrs = 0x2860910;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

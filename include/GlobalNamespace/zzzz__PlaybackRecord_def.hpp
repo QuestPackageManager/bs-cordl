@@ -1,10 +1,14 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/PlaybackRecord.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "BeatSaber/RecPlay/zzzz__PoseNoise_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(PlaybackRecord)
+namespace BeatSaber::GameSettings {
+class MainSettingsHandler;
+}
 namespace BeatSaber::RecPlay {
 class PlayerPoseSampler;
 }
@@ -16,9 +20,6 @@ class IVRPlatformHelper;
 }
 namespace GlobalNamespace {
 class LevelRecording;
-}
-namespace GlobalNamespace {
-class MainSettingsModelSO;
 }
 namespace GlobalNamespace {
 class PlayerTransforms;
@@ -62,27 +63,27 @@ public:
   /// @brief Field headNoise, offset 0x18, size 0xc
   __declspec(property(get = __cordl_internal_get_headNoise, put = __cordl_internal_set_headNoise))::BeatSaber::RecPlay::PoseNoise headNoise;
 
-  /// @brief Method Disable, addr 0x2597910, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method Disable, addr 0x2690b8c, size 0x138, virtual false, abstract: false, final false
   inline void Disable();
 
-  /// @brief Method Enable, addr 0x2597790, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method Enable, addr 0x2690a0c, size 0x180, virtual false, abstract: false, final false
   inline void Enable();
 
-  /// @brief Method Initialize, addr 0x25971a4, size 0x80, virtual false, abstract: false, final false
-  inline void Initialize(::GlobalNamespace::MainSettingsModelSO* settings, ::GlobalNamespace::IVRPlatformHelper* vrPlatformHelper, ::GlobalNamespace::LevelRecording* recording);
+  /// @brief Method Initialize, addr 0x269042c, size 0x80, virtual false, abstract: false, final false
+  inline void Initialize(::BeatSaber::GameSettings::MainSettingsHandler* mainSettingsHandler, ::GlobalNamespace::IVRPlatformHelper* vrPlatformHelper, ::GlobalNamespace::LevelRecording* recording);
 
   static inline ::GlobalNamespace::PlaybackRecord* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x2597ba0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x2690e1c, size 0x4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x2597b9c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x2690e18, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Refresh, addr 0x2597a48, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x2690cc4, size 0x150, virtual false, abstract: false, final false
   inline void Refresh();
 
-  /// @brief Method Update, addr 0x2597b98, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2690e14, size 0x4, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
@@ -121,7 +122,7 @@ public:
 
   constexpr void __cordl_internal_set_headNoise(::BeatSaber::RecPlay::PoseNoise value);
 
-  /// @brief Method .ctor, addr 0x2597ba4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2690e20, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

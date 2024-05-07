@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/Extents.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "TMPro/zzzz__Extents_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
@@ -7,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::Extents::*)(::UnityEngine::Vector2, ::UnityEngine::Vector2)>(&::TMPro::Extents::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x31309d4;
+  constexpr static std::size_t addrs = 0x333545c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -22,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::TMPro::Extents::*)()>(&::TMPro::Extents::ToString)> {
   constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x31309e0;
+  constexpr static std::size_t addrs = 0x3335468;
 
   inline static ::MethodInfo const* methodInfo() {
 

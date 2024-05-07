@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Text/ASCIIEncoding_ASCIIEncodingSealed.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,7 +21,7 @@ public:
   // Declarations
   static inline ::System::Text::__ASCIIEncoding__ASCIIEncodingSealed* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28b9074, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29b7924, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

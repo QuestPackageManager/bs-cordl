@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/NetworkInformation/CommonUnixIPGlobalProperties.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,13 +26,13 @@ public:
 
   static inline ::System::Net::NetworkInformation::CommonUnixIPGlobalProperties* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f25e44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3026744, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_DomainName, addr 0x2f25cc8, size 0x17c, virtual true, abstract: false, final false
+  /// @brief Method get_DomainName, addr 0x30265c8, size 0x17c, virtual true, abstract: false, final false
   inline ::StringW get_DomainName();
 
-  /// @brief Method getdomainname, addr 0x2f25c3c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method getdomainname, addr 0x302653c, size 0x8c, virtual false, abstract: false, final false
   static inline int32_t getdomainname(::ArrayW<uint8_t, ::Array<uint8_t>*> name, int32_t len);
 
 protected:

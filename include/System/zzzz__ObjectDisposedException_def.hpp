@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ObjectDisposedException.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,7 +33,7 @@ public:
   /// @brief Field _objectName, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__objectName, put = __cordl_internal_set__objectName))::StringW _objectName;
 
-  /// @brief Method GetObjectData, addr 0x2843074, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x2942848, size 0x108, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::ObjectDisposedException* New_ctor();
@@ -49,22 +50,22 @@ public:
 
   constexpr void __cordl_internal_set__objectName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2842ee8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29426bc, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2842fec, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29427c0, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x2842f80, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2942754, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW objectName);
 
-  /// @brief Method .ctor, addr 0x2842f48, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x294271c, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::StringW objectName, ::StringW message);
 
-  /// @brief Method get_Message, addr 0x2843264, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x2942a38, size 0xd4, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
-  /// @brief Method get_ObjectName, addr 0x284317c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectName, addr 0x2942950, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_ObjectName();
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BGLib/JsonExtension/ColorConverter.hpp"
 #include "Newtonsoft/Json/zzzz__JsonConverter_1_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "BGLib/JsonExtension/zzzz__ColorConverter_def.hpp"
@@ -13,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::BGLib::JsonExtension::ColorConverter::*)(
     ::Newtonsoft::Json::JsonReader*, ::System::Type*, ::UnityEngine::Color, bool, ::Newtonsoft::Json::JsonSerializer*)>(&::BGLib::JsonExtension::ColorConverter::ReadJson)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0xf8841c;
+  constexpr static std::size_t addrs = 0x107a390;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -28,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::JsonExtension::ColorConverter::*)(
     ::Newtonsoft::Json::JsonWriter*, ::UnityEngine::Color, ::Newtonsoft::Json::JsonSerializer*)>(&::BGLib::JsonExtension::ColorConverter::WriteJson)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0xf884bc;
+  constexpr static std::size_t addrs = 0x107a430;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::JsonExtension::ColorConverter::*)()>(&::BGLib::JsonExtension::ColorConverter::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0xf8864c;
+  constexpr static std::size_t addrs = 0x107a5c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::JsonExtension::ColorConverter*>::get(), ".ctor",

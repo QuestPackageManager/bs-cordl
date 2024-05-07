@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/LightGroupGridLayouter.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -94,7 +95,7 @@ public:
 
   constexpr void __cordl_internal_set__transposeOrder(bool value);
 
-  /// @brief Method .ctor, addr 0x25cb4e0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ca24c, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

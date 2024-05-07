@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/EventSystems/RaycasterManager.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,13 +28,13 @@ public:
   /// @brief Field s_Raycasters, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_Raycasters, put = setStaticF_s_Raycasters))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::BaseRaycaster>>* s_Raycasters;
 
-  /// @brief Method AddRaycaster, addr 0x32eef24, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method AddRaycaster, addr 0x34f4c60, size 0x114, virtual false, abstract: false, final false
   static inline void AddRaycaster(::UnityEngine::EventSystems::BaseRaycaster* baseRaycaster);
 
-  /// @brief Method GetRaycasters, addr 0x32ef038, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetRaycasters, addr 0x34f4d74, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::BaseRaycaster>>* GetRaycasters();
 
-  /// @brief Method RemoveRaycasters, addr 0x32ef090, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method RemoveRaycasters, addr 0x34f4dcc, size 0xd0, virtual false, abstract: false, final false
   static inline void RemoveRaycasters(::UnityEngine::EventSystems::BaseRaycaster* baseRaycaster);
 
   static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::BaseRaycaster>>* getStaticF_s_Raycasters();

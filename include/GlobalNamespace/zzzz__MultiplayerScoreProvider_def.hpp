@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MultiplayerScoreProvider.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -104,7 +105,7 @@ public:
   /// @brief Convert operator to "::System::IComparable_1<::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*>"
   constexpr operator ::System::IComparable_1<::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*>*() noexcept;
 
-  /// @brief Method CompareTo, addr 0x261b78c, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x271b618, size 0x88, virtual true, abstract: false, final true
   inline int32_t CompareTo(::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer* other);
 
   static inline ::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*
@@ -127,38 +128,38 @@ public:
 
   constexpr void __cordl_internal_set__scoreSyncManager(::UnityW<::GlobalNamespace::MultiplayerScoreProvider> value);
 
-  /// @brief Method .ctor, addr 0x261b4d8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x271b364, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::MultiplayerSyncState_3<::GlobalNamespace::StandardScoreSyncState, ::GlobalNamespace::__StandardScoreSyncState__Score, int32_t>* multiplayerSyncState,
                     ::GlobalNamespace::MultiplayerScoreProvider* scoreSyncManager);
 
-  /// @brief Method get_isActiveOrFinished, addr 0x2610c60, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_isActiveOrFinished, addr 0x2710aec, size 0x28, virtual false, abstract: false, final false
   inline bool get_isActiveOrFinished();
 
-  /// @brief Method get_isConnected, addr 0x261b3f8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_isConnected, addr 0x271b284, size 0xb8, virtual false, abstract: false, final false
   inline bool get_isConnected();
 
-  /// @brief Method get_isFailed, addr 0x2610c88, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_isFailed, addr 0x2710b14, size 0x28, virtual false, abstract: false, final false
   inline bool get_isFailed();
 
-  /// @brief Method get_isMe, addr 0x2614bb4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method get_isMe, addr 0x2714a40, size 0xb4, virtual false, abstract: false, final false
   inline bool get_isMe();
 
-  /// @brief Method get_lastScoreTime, addr 0x261b684, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_lastScoreTime, addr 0x271b510, size 0x50, virtual false, abstract: false, final false
   inline int64_t get_lastScoreTime();
 
-  /// @brief Method get_offsetSyncTime, addr 0x261b504, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_offsetSyncTime, addr 0x271b390, size 0xb8, virtual false, abstract: false, final false
   inline int64_t get_offsetSyncTime();
 
-  /// @brief Method get_score, addr 0x260c958, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_score, addr 0x270c7e4, size 0x30, virtual false, abstract: false, final false
   inline int32_t get_score();
 
-  /// @brief Method get_userId, addr 0x26108dc, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_userId, addr 0x2710768, size 0xb8, virtual false, abstract: false, final false
   inline ::StringW get_userId();
 
-  /// @brief Method get_userName, addr 0x261b6d4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_userName, addr 0x271b560, size 0xb8, virtual false, abstract: false, final false
   inline ::StringW get_userName();
 
-  /// @brief Method get_wasActiveAtLevelStart, addr 0x261b4b0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_wasActiveAtLevelStart, addr 0x271b33c, size 0x28, virtual false, abstract: false, final false
   inline bool get_wasActiveAtLevelStart();
 
   /// @brief Convert to "::System::IComparable_1<::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*>"
@@ -210,10 +211,10 @@ public:
 
   static inline ::GlobalNamespace::__MultiplayerScoreProvider____c* New_ctor();
 
-  /// @brief Method <Update>b__16_0, addr 0x261b880, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <Update>b__16_0, addr 0x271b70c, size 0x24, virtual false, abstract: false, final false
   inline bool _Update_b__16_0(::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer* p);
 
-  /// @brief Method .ctor, addr 0x261b878, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x271b704, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__MultiplayerScoreProvider____c* getStaticF___9();
@@ -257,7 +258,7 @@ public:
 
   static inline ::GlobalNamespace::__MultiplayerScoreProvider____c__DisplayClass18_0* New_ctor();
 
-  /// @brief Method <GetPositionOfPlayer>b__0, addr 0x261b8a4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <GetPositionOfPlayer>b__0, addr 0x271b730, size 0x28, virtual false, abstract: false, final false
   inline bool _GetPositionOfPlayer_b__0(::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer* p);
 
   constexpr ::StringW const& __cordl_internal_get_userId() const;
@@ -266,7 +267,7 @@ public:
 
   constexpr void __cordl_internal_set_userId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x261b5bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x271b448, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -336,15 +337,15 @@ public:
 
   __declspec(property(get = get_scoresAvailable)) bool scoresAvailable;
 
-  /// @brief Method GetPositionOfPlayer, addr 0x2619ac4, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method GetPositionOfPlayer, addr 0x2719950, size 0xe4, virtual false, abstract: false, final false
   inline int32_t GetPositionOfPlayer(::StringW userId);
 
   static inline ::GlobalNamespace::MultiplayerScoreProvider* New_ctor();
 
-  /// @brief Method TryGetScore, addr 0x260c8f0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method TryGetScore, addr 0x270c77c, size 0x68, virtual false, abstract: false, final false
   inline bool TryGetScore(::StringW userId, ByRef<::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*> data);
 
-  /// @brief Method Update, addr 0x261ad28, size 0x6d0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x271abb4, size 0x6d0, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*& __cordl_internal_get__firstPlayer_k__BackingField();
@@ -385,25 +386,25 @@ public:
 
   constexpr void __cordl_internal_set_firstPlayerDidChangeEvent(::System::Action_1<::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*>* value);
 
-  /// @brief Method .ctor, addr 0x261b5c4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x271b450, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_firstPlayerDidChangeEvent, addr 0x2610bb0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_firstPlayerDidChangeEvent, addr 0x2710a3c, size 0xb0, virtual false, abstract: false, final false
   inline void add_firstPlayerDidChangeEvent(::System::Action_1<::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*>* value);
 
-  /// @brief Method get_firstPlayer, addr 0x261ad10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_firstPlayer, addr 0x271ab9c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer* get_firstPlayer();
 
-  /// @brief Method get_rankedPlayers, addr 0x261ad20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rankedPlayers, addr 0x271abac, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*>* get_rankedPlayers();
 
-  /// @brief Method get_scoresAvailable, addr 0x26196e0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_scoresAvailable, addr 0x271956c, size 0x20, virtual false, abstract: false, final false
   inline bool get_scoresAvailable();
 
-  /// @brief Method remove_firstPlayerDidChangeEvent, addr 0x2610798, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_firstPlayerDidChangeEvent, addr 0x2710624, size 0xb0, virtual false, abstract: false, final false
   inline void remove_firstPlayerDidChangeEvent(::System::Action_1<::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*>* value);
 
-  /// @brief Method set_firstPlayer, addr 0x261ad18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_firstPlayer, addr 0x271aba4, size 0x8, virtual false, abstract: false, final false
   inline void set_firstPlayer(::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer* value);
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/MemoryPoolSettings.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -73,16 +74,16 @@ public:
 
   constexpr void __cordl_internal_set_ShowExpandWarning(bool value);
 
-  /// @brief Method __zenCreate, addr 0x34387ac, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x363c4e8, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x3438820, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x363c55c, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x34386bc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x363c3f8, size 0x30, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x34386ec, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x363c428, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(int32_t initialSize, int32_t maxSize, ::Zenject::PoolExpandMethods expandMethod, bool showExpandWarning);
 
   static inline ::Zenject::MemoryPoolSettings* getStaticF_Default();

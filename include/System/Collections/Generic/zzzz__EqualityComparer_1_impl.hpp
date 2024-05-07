@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Collections/Generic/EqualityComparer_1.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/Generic/zzzz__EqualityComparer_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"

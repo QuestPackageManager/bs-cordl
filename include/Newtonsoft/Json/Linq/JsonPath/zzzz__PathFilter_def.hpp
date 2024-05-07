@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Linq/JsonPath/PathFilter.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,16 +34,16 @@ public:
                                                                                                          ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* current,
                                                                                                          ::Newtonsoft::Json::Linq::JsonSelectSettings* settings);
 
-  /// @brief Method GetNextScanValue, addr 0x298117c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetNextScanValue, addr 0x2a7ea2c, size 0xa8, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::JToken* GetNextScanValue(::Newtonsoft::Json::Linq::JToken* originalParent, ::Newtonsoft::Json::Linq::JToken* container,
                                                                    ::Newtonsoft::Json::Linq::JToken* value);
 
-  /// @brief Method GetTokenIndex, addr 0x297b4a0, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method GetTokenIndex, addr 0x2a78d50, size 0x2cc, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::JToken* GetTokenIndex(::Newtonsoft::Json::Linq::JToken* t, ::Newtonsoft::Json::Linq::JsonSelectSettings* settings, int32_t index);
 
   static inline ::Newtonsoft::Json::Linq::JsonPath::PathFilter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x297adf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a786a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

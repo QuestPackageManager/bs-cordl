@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Dynamic/BindingRestrictions_MergedRestriction.hpp"
 #include "System/Dynamic/zzzz__BindingRestrictions_impl.hpp"
 #include "System/Dynamic/zzzz__BindingRestrictions_MergedRestriction_def.hpp"
 #include "System/Dynamic/zzzz__BindingRestrictions_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::__BindingRestrictions__MergedRestriction::*)(
     ::System::Dynamic::BindingRestrictions*, ::System::Dynamic::BindingRestrictions*)>(&::System::Dynamic::__BindingRestrictions__MergedRestriction::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x2b4f9d4;
+  constexpr static std::size_t addrs = 0x2c4c2d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (::System::Dynamic::__BindingRestrictions__MergedRestriction::*)()>(
     &::System::Dynamic::__BindingRestrictions__MergedRestriction::GetExpression)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x2b50270;
+  constexpr static std::size_t addrs = 0x2c4cb70;
 
   inline static ::MethodInfo const* methodInfo() {
 

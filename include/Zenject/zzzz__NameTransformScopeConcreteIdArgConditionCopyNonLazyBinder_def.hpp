@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,10 +31,10 @@ public:
   // Declarations
   static inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* New_ctor(::Zenject::BindInfo* bindInfo, ::Zenject::GameObjectCreationParameters* gameObjectInfo);
 
-  /// @brief Method WithGameObjectName, addr 0x3429fd8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method WithGameObjectName, addr 0x362ed14, size 0x1c, virtual false, abstract: false, final false
   inline ::Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder* WithGameObjectName(::StringW gameObjectName);
 
-  /// @brief Method .ctor, addr 0x341c338, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3621074, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo, ::Zenject::GameObjectCreationParameters* gameObjectInfo);
 
 protected:

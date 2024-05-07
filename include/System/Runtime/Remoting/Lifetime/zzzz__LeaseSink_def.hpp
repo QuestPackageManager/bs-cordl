@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/Lifetime/LeaseSink.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,16 +34,16 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessageSink"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMessageSink*() noexcept;
 
-  /// @brief Method AsyncProcessMessage, addr 0x271eda8, size 0xc4, virtual true, abstract: false, final true
+  /// @brief Method AsyncProcessMessage, addr 0x281d1a4, size 0xc4, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg,
                                                                                    ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
   static inline ::System::Runtime::Remoting::Lifetime::LeaseSink* New_ctor(::System::Runtime::Remoting::Messaging::IMessageSink* nextSink);
 
-  /// @brief Method RenewLease, addr 0x271eb1c, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method RenewLease, addr 0x281cf18, size 0x28c, virtual false, abstract: false, final false
   inline void RenewLease(::System::Runtime::Remoting::Messaging::IMessage* msg);
 
-  /// @brief Method SyncProcessMessage, addr 0x271ea6c, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method SyncProcessMessage, addr 0x281ce68, size 0xb0, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
 
   constexpr ::System::Runtime::Remoting::Messaging::IMessageSink*& __cordl_internal_get__nextSink();
@@ -51,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set__nextSink(::System::Runtime::Remoting::Messaging::IMessageSink* value);
 
-  /// @brief Method .ctor, addr 0x271ea44, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x281ce40, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::IMessageSink* nextSink);
 
   /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessageSink"

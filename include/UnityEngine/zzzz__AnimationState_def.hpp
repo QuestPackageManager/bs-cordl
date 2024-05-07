@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/AnimationState.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,19 +33,19 @@ public:
 
   static inline ::UnityEngine::AnimationState* New_ctor();
 
-  /// @brief Method .ctor, addr 0x31be7fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33c4284, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_clip, addr 0x31be368, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_clip, addr 0x33c3df0, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::AnimationClip> get_clip();
 
-  /// @brief Method set_normalizedTime, addr 0x31be764, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_normalizedTime, addr 0x33c41ec, size 0x4c, virtual false, abstract: false, final false
   inline void set_normalizedTime(float_t value);
 
-  /// @brief Method set_speed, addr 0x31be7b0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_speed, addr 0x33c4238, size 0x4c, virtual false, abstract: false, final false
   inline void set_speed(float_t value);
 
-  /// @brief Method set_time, addr 0x31be718, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_time, addr 0x33c41a0, size 0x4c, virtual false, abstract: false, final false
   inline void set_time(float_t value);
 
 protected:

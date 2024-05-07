@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ISpanFormattable.hpp"
 #include "System/zzzz__ISpanFormattable_def.hpp"
 #include "System/zzzz__IFormatProvider_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"

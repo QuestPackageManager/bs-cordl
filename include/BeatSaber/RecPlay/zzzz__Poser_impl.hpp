@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatSaber/RecPlay/Poser.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/RecPlay/zzzz__Poser_def.hpp"
 #include "UnityEngine/zzzz__Pose_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Pose (*)(ByRef<::UnityEngine::Pose>, ByRef<::UnityEngine::Pose>, float_t)>(
     &::BeatSaber::RecPlay::Poser::InterpolatePose)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0xf756b0;
+  constexpr static std::size_t addrs = 0x1068c60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Pose (*)(::UnityEngine::Pose)>(&::BeatSaber::RecPlay::Poser::InvertPose)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0xf75a00;
+  constexpr static std::size_t addrs = 0x1068fb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -38,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Pose (*)(::UnityEngine::Pose)>(&::BeatSaber::RecPlay::Poser::MirrorPoseYZ)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0xf75a68;
+  constexpr static std::size_t addrs = 0x1069018;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

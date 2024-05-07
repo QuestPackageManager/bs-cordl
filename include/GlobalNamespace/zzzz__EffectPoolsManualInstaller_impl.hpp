@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/EffectPoolsManualInstaller.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__EffectPoolsManualInstaller_def.hpp"
 #include "GlobalNamespace/zzzz__BeatEffect_def.hpp"
@@ -14,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EffectPoolsManualInstaller::*)(::Zenject::DiContainer*, bool)>(
     &::GlobalNamespace::EffectPoolsManualInstaller::ManualInstallBindings)> {
   constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x262e5ec;
+  constexpr static std::size_t addrs = 0x272e3ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EffectPoolsManualInstaller::*)()>(&::GlobalNamespace::EffectPoolsManualInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x262e834;
+  constexpr static std::size_t addrs = 0x272e634;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EffectPoolsManualInstaller*>::get(), ".ctor",

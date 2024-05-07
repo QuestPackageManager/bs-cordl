@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Math/Field/IExtensionField.hpp"
 #include "Org/BouncyCastle/Math/Field/zzzz__IExtensionField_def.hpp"
 #include "Org/BouncyCastle/Math/Field/zzzz__IFiniteField_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Math::Field::IExtensionField.get_Subfield

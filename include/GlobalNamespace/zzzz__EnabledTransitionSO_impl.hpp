@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/EnabledTransitionSO.hpp"
 #include "GlobalNamespace/zzzz__BaseTransitionSO_impl.hpp"
 #include "GlobalNamespace/zzzz__EnabledTransitionSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::EnabledTransitionSO.get_normalState
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::EnabledTransitionSO::*)()>(&::GlobalNamespace::EnabledTransitionSO::get_normalState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x263bb20;
+  constexpr static std::size_t addrs = 0x273b90c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnabledTransitionSO*>::get(),
@@ -19,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::EnabledTransitionSO::*)()>(&::GlobalNamespace::EnabledTransitionSO::get_highlightedState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x263bb28;
+  constexpr static std::size_t addrs = 0x273b914;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnabledTransitionSO*>::get(),
@@ -32,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::EnabledTransitionSO::*)()>(&::GlobalNamespace::EnabledTransitionSO::get_pressedState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x263bb30;
+  constexpr static std::size_t addrs = 0x273b91c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnabledTransitionSO*>::get(),
@@ -45,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::EnabledTransitionSO::*)()>(&::GlobalNamespace::EnabledTransitionSO::get_disabledState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x263bb38;
+  constexpr static std::size_t addrs = 0x273b924;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnabledTransitionSO*>::get(),
@@ -58,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::EnabledTransitionSO::*)()>(&::GlobalNamespace::EnabledTransitionSO::get_selectedState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x263bb40;
+  constexpr static std::size_t addrs = 0x273b92c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnabledTransitionSO*>::get(),
@@ -72,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::EnabledTransitionSO::*)()>(
     &::GlobalNamespace::EnabledTransitionSO::get_selectedAndHighlightedState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x263bb48;
+  constexpr static std::size_t addrs = 0x273b934;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -86,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnabledTransitionSO::*)()>(&::GlobalNamespace::EnabledTransitionSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x263bb50;
+  constexpr static std::size_t addrs = 0x273b93c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnabledTransitionSO*>::get(), ".ctor",

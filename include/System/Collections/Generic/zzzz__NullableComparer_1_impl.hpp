@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Collections/Generic/NullableComparer_1.hpp"
 #include "System/Collections/Generic/zzzz__Comparer_1_impl.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/Collections/Generic/zzzz__NullableComparer_1_def.hpp"

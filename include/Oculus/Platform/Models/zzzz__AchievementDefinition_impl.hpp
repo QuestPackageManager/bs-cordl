@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/Models/AchievementDefinition.hpp"
 #include "Oculus/Platform/zzzz__AchievementType_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/Models/zzzz__AchievementDefinition_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Models::AchievementDefinition::*)(void*)>(
     &::Oculus::Platform::Models::AchievementDefinition::_ctor)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x29db044;
+  constexpr static std::size_t addrs = 0x2ad98f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

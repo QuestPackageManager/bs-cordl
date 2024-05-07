@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/LevelDataAssetDownloadUpdate.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -87,7 +88,7 @@ public:
   // Declarations
   using AssetDownloadingState = ::GlobalNamespace::__LevelDataAssetDownloadUpdate__AssetDownloadingState;
 
-  /// @brief Method .ctor, addr 0x13d2960, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14c8968, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW levelID, uint32_t bytesTotal, uint32_t bytesTransferred, ::GlobalNamespace::__LevelDataAssetDownloadUpdate__AssetDownloadingState assetDownloadingState);
 
   // Ctor Parameters []

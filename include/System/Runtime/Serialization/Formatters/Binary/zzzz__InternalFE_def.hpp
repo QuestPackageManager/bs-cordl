@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Serialization/Formatters/Binary/InternalFE.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,7 +62,7 @@ public:
 
   constexpr void __cordl_internal_set_FEtypeFormat(::System::Runtime::Serialization::Formatters::FormatterTypeStyle value);
 
-  /// @brief Method .ctor, addr 0x27578e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2856cdc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

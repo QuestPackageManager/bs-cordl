@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatSaber/BeatAvatarAdapter/AvatarEditor/EditAvatarHistorySnapshot.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,7 +26,7 @@ namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
 struct CORDL_TYPE EditAvatarHistorySnapshot {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0xf58e20, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1047994, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::BeatSaber::BeatAvatarSDK::AvatarData* avatarData, ::BeatSaber::BeatAvatarSDK::AvatarPart avatarEditPart);
 
   // Ctor Parameters []

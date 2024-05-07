@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/NavigationEventDispatchingStrategy.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__NavigationEventDispatchingStrategy_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::NavigationEventDispatchingStrategy::*)(::UnityEngine::UIElements::EventBase*)>(
     &::UnityEngine::UIElements::NavigationEventDispatchingStrategy::CanDispatchEvent)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x339db88;
+  constexpr static std::size_t addrs = 0x35a38c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::NavigationEventDispatchingStrategy::*)(
     ::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::IPanel*)>(&::UnityEngine::UIElements::NavigationEventDispatchingStrategy::DispatchEvent)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x339dbdc;
+  constexpr static std::size_t addrs = 0x35a3918;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::NavigationEventDispatchingStrategy::*)()>(
     &::UnityEngine::UIElements::NavigationEventDispatchingStrategy::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x339dd20;
+  constexpr static std::size_t addrs = 0x35a3a5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/IDtdAttributeInfo.hpp"
 #include "System/Xml/zzzz__IDtdAttributeInfo_def.hpp"
 //  Writing Method size for method: ::System::Xml::IDtdAttributeInfo.get_Prefix
 template <>

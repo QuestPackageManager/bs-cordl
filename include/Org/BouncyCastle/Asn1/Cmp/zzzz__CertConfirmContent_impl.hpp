@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Cmp/CertConfirmContent.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Cmp/zzzz__CertConfirmContent_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cmp/zzzz__CertStatus_def.hpp"
@@ -11,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cmp::CertConfirmContent::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Cmp::CertConfirmContent::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0xfcf480;
+  constexpr static std::size_t addrs = 0x10c2ba4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cmp::CertConfirmContent* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Cmp::CertConfirmContent::GetInstance)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0xfcf4a8;
+  constexpr static std::size_t addrs = 0x10c2bcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Org::BouncyCastle::Asn1::Cmp::CertStatus*, ::Array<::Org::BouncyCastle::Asn1::Cmp::CertStatus*>*> (
     ::Org::BouncyCastle::Asn1::Cmp::CertConfirmContent::*)()>(&::Org::BouncyCastle::Asn1::Cmp::CertConfirmContent::ToCertStatusArray)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0xfcf634;
+  constexpr static std::size_t addrs = 0x10c2d58;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Cmp::CertConfirmContent::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::CertConfirmContent::ToAsn1Object)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xfcf8b0;
+  constexpr static std::size_t addrs = 0x10c2fd4;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HEU_VolumeCache.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_VolumeCache_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_DetailProperties_def.hpp"
@@ -22,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_VolumeCache::*)()>(&::HoudiniEngineUnity::HEU_VolumeCache::get_IsDirty)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24d6c6c;
+  constexpr static std::size_t addrs = 0x25ce8f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_VolumeCache*>::get(), "get_IsDirty",
@@ -35,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_VolumeCache::*)(bool)>(&::HoudiniEngineUnity::HEU_VolumeCache::set_IsDirty)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x24d6c74;
+  constexpr static std::size_t addrs = 0x25ce900;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -49,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::HoudiniEngineUnity::HEU_VolumeCache::*)()>(&::HoudiniEngineUnity::HEU_VolumeCache::get_TileIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24d6c80;
+  constexpr static std::size_t addrs = 0x25ce90c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_VolumeCache*>::get(), "get_TileIndex",
@@ -62,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::HoudiniEngineUnity::HEU_VolumeCache::*)()>(&::HoudiniEngineUnity::HEU_VolumeCache::get_ObjectName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24d6c88;
+  constexpr static std::size_t addrs = 0x25ce914;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_VolumeCache*>::get(), "get_ObjectName",
@@ -75,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::HoudiniEngineUnity::HEU_VolumeCache::*)()>(&::HoudiniEngineUnity::HEU_VolumeCache::get_GeoName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24d6c90;
+  constexpr static std::size_t addrs = 0x25ce91c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_VolumeCache*>::get(), "get_GeoName",
@@ -88,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_VolumeCache::*)()>(&::HoudiniEngineUnity::HEU_VolumeCache::get_UIExpanded)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24d6c98;
+  constexpr static std::size_t addrs = 0x25ce924;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_VolumeCache*>::get(), "get_UIExpanded",
@@ -101,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_VolumeCache::*)(bool)>(&::HoudiniEngineUnity::HEU_VolumeCache::set_UIExpanded)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x24d6ca0;
+  constexpr static std::size_t addrs = 0x25ce92c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -119,7 +120,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                                                                                                              ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_VolumeCache>>*)>(
         &::HoudiniEngineUnity::HEU_VolumeCache::UpdateVolumeCachesFromParts)> {
   constexpr static std::size_t size = 0x8dc;
-  constexpr static std::size_t addrs = 0x24d6cac;
+  constexpr static std::size_t addrs = 0x25ce938;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -137,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_VolumeCache::*)(::HoudiniEngineUnity::HEU_GeoNode*, int32_t)>(
     &::HoudiniEngineUnity::HEU_VolumeCache::Initialize)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x24d79dc;
+  constexpr static std::size_t addrs = 0x25cf668;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -152,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_VolumeCache::*)()>(&::HoudiniEngineUnity::HEU_VolumeCache::ResetParameters)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x24d7a24;
+  constexpr static std::size_t addrs = 0x25cf6b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_VolumeCache*>::get(), "ResetParameters",
@@ -166,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::HEU_VolumeLayer* (::HoudiniEngineUnity::HEU_VolumeCache::*)(::StringW)>(
     &::HoudiniEngineUnity::HEU_VolumeCache::GetLayer)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x24d7c58;
+  constexpr static std::size_t addrs = 0x25cf8e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -180,7 +181,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_VolumeCache::*)()>(&::HoudiniEngineUnity::HEU_VolumeCache::StartUpdateLayers)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x24d7588;
+  constexpr static std::size_t addrs = 0x25cf214;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_VolumeCache*>::get(),
@@ -193,7 +194,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_VolumeCache::*)()>(&::HoudiniEngineUnity::HEU_VolumeCache::FinishUpdateLayers)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x24d7a18;
+  constexpr static std::size_t addrs = 0x25cf6a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_VolumeCache*>::get(),
@@ -207,7 +208,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_VolumeCache::*)(
     ::HoudiniEngineUnity::HEU_SessionBase*, int32_t, int32_t, ::HoudiniEngineUnity::HEU_VolumeLayer*)>(&::HoudiniEngineUnity::HEU_VolumeCache::GetPartLayerAttributes)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x24d7de8;
+  constexpr static std::size_t addrs = 0x25cfa74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -224,7 +225,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_VolumeCache::*)(
     ::HoudiniEngineUnity::HEU_SessionBase*, int32_t, int32_t, ::StringW, ByRef<::UnityEngine::Texture2D*>)>(&::HoudiniEngineUnity::HEU_VolumeCache::LoadLayerTextureFromAttribute)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x24d7f44;
+  constexpr static std::size_t addrs = 0x25cfbd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -242,7 +243,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_VolumeCache::*)(
     ::HoudiniEngineUnity::HEU_SessionBase*, int32_t, int32_t, ::StringW, ByRef<float_t>)>(&::HoudiniEngineUnity::HEU_VolumeCache::LoadLayerFloatFromAttribute)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x24d813c;
+  constexpr static std::size_t addrs = 0x25cfdc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -259,7 +260,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_VolumeCache::*)(
     ::HoudiniEngineUnity::HEU_SessionBase*, int32_t, int32_t, ::StringW, ByRef<::UnityEngine::Color>)>(&::HoudiniEngineUnity::HEU_VolumeCache::LoadLayerColorFromAttribute)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x24d8270;
+  constexpr static std::size_t addrs = 0x25cfefc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -277,7 +278,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_VolumeCache::*)(
     ::HoudiniEngineUnity::HEU_SessionBase*, int32_t, int32_t, ::StringW, ByRef<::UnityEngine::Vector2>)>(&::HoudiniEngineUnity::HEU_VolumeCache::LoadLayerVector2FromAttribute)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x24d83dc;
+  constexpr static std::size_t addrs = 0x25d0068;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -295,7 +296,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_VolumeCache::*)(
     ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_PartData*)>(&::HoudiniEngineUnity::HEU_VolumeCache::UpdateLayerFromPart)> {
   constexpr static std::size_t size = 0x3e0;
-  constexpr static std::size_t addrs = 0x24d75fc;
+  constexpr static std::size_t addrs = 0x25cf288;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -311,7 +312,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_VolumeCache::*)(
     ::HoudiniEngineUnity::HEU_SessionBase*, ::HoudiniEngineUnity::HEU_HoudiniAsset*, bool)>(&::HoudiniEngineUnity::HEU_VolumeCache::GenerateTerrainWithAlphamaps)> {
   constexpr static std::size_t size = 0x17cc;
-  constexpr static std::size_t addrs = 0x24d8520;
+  constexpr static std::size_t addrs = 0x25d01ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -329,7 +330,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::HoudiniEngineUnity::HEU_VolumeCache::*)(::HoudiniEngineUnity::HEU_SessionBase*, int32_t, int32_t, ::UnityEngine::TerrainLayer*, bool, ::UnityEngine::Texture2D*)>(
         &::HoudiniEngineUnity::HEU_VolumeCache::LoadLayerPropertiesFromAttributes)> {
   constexpr static std::size_t size = 0x408;
-  constexpr static std::size_t addrs = 0x24da04c;
+  constexpr static std::size_t addrs = 0x25d1cd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -347,7 +348,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_VolumeCache::*)(
     ::HoudiniEngineUnity::HEU_SessionBase*, int32_t, int32_t, int32_t, bool)>(&::HoudiniEngineUnity::HEU_VolumeCache::PopulateScatterTrees)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x24da454;
+  constexpr static std::size_t addrs = 0x25d20e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -364,7 +365,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_VolumeCache::*)(
     ::HoudiniEngineUnity::HEU_SessionBase*, int32_t, int32_t, ::HoudiniEngineUnity::HEU_VolumeLayer*)>(&::HoudiniEngineUnity::HEU_VolumeCache::PopulateDetailPrototype)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x24da478;
+  constexpr static std::size_t addrs = 0x25d2104;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -381,7 +382,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_VolumeCache::*)(::HoudiniEngineUnity::HEU_VolumeCachePreset*)>(
     &::HoudiniEngineUnity::HEU_VolumeCache::PopulatePreset)> {
   constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x24da4a0;
+  constexpr static std::size_t addrs = 0x25d212c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -396,7 +397,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_VolumeCache::*)(::HoudiniEngineUnity::HEU_VolumeCachePreset*)>(
     &::HoudiniEngineUnity::HEU_VolumeCache::ApplyPreset)> {
   constexpr static std::size_t size = 0x2d8;
-  constexpr static std::size_t addrs = 0x24d9cec;
+  constexpr static std::size_t addrs = 0x25d1978;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -411,7 +412,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_VolumeCache::*)(::HoudiniEngineUnity::HEU_VolumeCache*)>(
     &::HoudiniEngineUnity::HEU_VolumeCache::CopyValuesTo)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x24da75c;
+  constexpr static std::size_t addrs = 0x25d23e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -426,7 +427,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HoudiniEngineUnity::HEU_DetailProperties*, ::HoudiniEngineUnity::HEU_DetailProperties*)>(
     &::HoudiniEngineUnity::HEU_VolumeCache::CopyDetailProperties)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x24da9a0;
+  constexpr static std::size_t addrs = 0x25d262c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -442,7 +443,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HoudiniEngineUnity::HEU_VolumeLayer*, ::HoudiniEngineUnity::HEU_VolumeLayer*)>(
     &::HoudiniEngineUnity::HEU_VolumeCache::CopyLayer)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x24d7ba0;
+  constexpr static std::size_t addrs = 0x25cf82c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -458,7 +459,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::HoudiniEngineUnity::HEU_DetailPrototype*, ::HoudiniEngineUnity::HEU_DetailPrototype*)>(
     &::HoudiniEngineUnity::HEU_VolumeCache::CopyPrototype)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x24da9c8;
+  constexpr static std::size_t addrs = 0x25d2654;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -473,7 +474,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Texture2D> (*)()>(&::HoudiniEngineUnity::HEU_VolumeCache::LoadDefaultSplatTexture)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x24d9fc4;
+  constexpr static std::size_t addrs = 0x25d1c50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_VolumeCache*>::get(),
@@ -486,7 +487,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Texture2D> (*)(::StringW)>(&::HoudiniEngineUnity::HEU_VolumeCache::LoadAssetTexture)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x24d803c;
+  constexpr static std::size_t addrs = 0x25cfcc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -501,7 +502,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::HEU_VolumeCache::*)(::HoudiniEngineUnity::HEU_VolumeCache*)>(
     &::HoudiniEngineUnity::HEU_VolumeCache::IsEquivalentTo)> {
   constexpr static std::size_t size = 0x31c;
-  constexpr static std::size_t addrs = 0x24daa10;
+  constexpr static std::size_t addrs = 0x25d269c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -515,7 +516,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_VolumeCache::*)()>(&::HoudiniEngineUnity::HEU_VolumeCache::_ctor)> {
   constexpr static std::size_t size = 0x1084;
-  constexpr static std::size_t addrs = 0x24dad2c;
+  constexpr static std::size_t addrs = 0x25d29b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_VolumeCache*>::get(), ".ctor",

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/LightColorBeatmapEventDataBox.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventDataBox_impl.hpp"
 #include "GlobalNamespace/zzzz__LightColorBeatmapEventDataBox_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventDataBox_def.hpp"
@@ -15,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::LightColorBeatmapEventDataBox::*)()>(
     &::GlobalNamespace::LightColorBeatmapEventDataBox::get_subtypeIdentifier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x13beb90;
+  constexpr static std::size_t addrs = 0x14b42d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -31,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::LightColorBeatmapEventDataBox::*)()>(
     &::GlobalNamespace::LightColorBeatmapEventDataBox::get_beatStep)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x13beb98;
+  constexpr static std::size_t addrs = 0x14b42e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -48,7 +49,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::IndexFilter*, float_t, ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType, float_t, ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType, bool,
     ::GlobalNamespace::EaseType, ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightColorBaseData*>*)>(&::GlobalNamespace::LightColorBeatmapEventDataBox::_ctor)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x13beba0;
+  constexpr static std::size_t addrs = 0x14b42e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -70,7 +71,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     float_t, int32_t, int32_t, int32_t, int32_t, float_t, ::GlobalNamespace::IBeatToTimeConverter*, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>*)>(
     &::GlobalNamespace::LightColorBeatmapEventDataBox::Unpack)> {
   constexpr static std::size_t size = 0x4fc;
-  constexpr static std::size_t addrs = 0x13beda8;
+  constexpr static std::size_t addrs = 0x14b44f0;
 
   inline static ::MethodInfo const* methodInfo() {
 

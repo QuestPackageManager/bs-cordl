@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/CollectionViewController.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__CollectionViewController_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"
@@ -14,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CollectionViewController::*)(::System::Action*)>(
     &::UnityEngine::UIElements::CollectionViewController::add_itemsSourceChanged)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x33d5e00;
+  constexpr static std::size_t addrs = 0x35dbb3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CollectionViewController::*)(::System::Action*)>(
     &::UnityEngine::UIElements::CollectionViewController::remove_itemsSourceChanged)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x33d5e9c;
+  constexpr static std::size_t addrs = 0x35dbbd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CollectionViewController::*)(::System::Action_2<int32_t, int32_t>*)>(
     &::UnityEngine::UIElements::CollectionViewController::add_itemIndexChanged)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x33d5f38;
+  constexpr static std::size_t addrs = 0x35dbc74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CollectionViewController::*)(::System::Action_2<int32_t, int32_t>*)>(
     &::UnityEngine::UIElements::CollectionViewController::remove_itemIndexChanged)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x33d5fe8;
+  constexpr static std::size_t addrs = 0x35dbd24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -74,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IList* (::UnityEngine::UIElements::CollectionViewController::*)()>(
     &::UnityEngine::UIElements::CollectionViewController::get_itemsSource)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33d6098;
+  constexpr static std::size_t addrs = 0x35dbdd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CollectionViewController*>::get(),
@@ -88,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CollectionViewController::*)(::System::Collections::IList*)>(
     &::UnityEngine::UIElements::CollectionViewController::set_itemsSource)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x33d54fc;
+  constexpr static std::size_t addrs = 0x35db238;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -103,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::BaseVerticalCollectionView* (::UnityEngine::UIElements::CollectionViewController::*)()>(
     &::UnityEngine::UIElements::CollectionViewController::get_view)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33d60bc;
+  constexpr static std::size_t addrs = 0x35dbdf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CollectionViewController*>::get(),
@@ -117,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::UnityEngine::UIElements::CollectionViewController::*)(::UnityEngine::UIElements::BaseVerticalCollectionView*)>(&::UnityEngine::UIElements::CollectionViewController::SetView)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x33d60c4;
+  constexpr static std::size_t addrs = 0x35dbe00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -132,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::CollectionViewController::*)()>(
     &::UnityEngine::UIElements::CollectionViewController::GetItemCount)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x33d6158;
+  constexpr static std::size_t addrs = 0x35dbe94;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -148,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::CollectionViewController::*)(int32_t)>(
     &::UnityEngine::UIElements::CollectionViewController::GetIdForIndex)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x33d6208;
+  constexpr static std::size_t addrs = 0x35dbf44;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -164,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::UIElements::CollectionViewController::*)(int32_t)>(
     &::UnityEngine::UIElements::CollectionViewController::GetItemForIndex)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x33d6240;
+  constexpr static std::size_t addrs = 0x35dbf7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -180,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CollectionViewController::*)(::UnityEngine::UIElements::ReusableCollectionItem*)>(
     &::UnityEngine::UIElements::CollectionViewController::InvokeMakeItem)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x33d637c;
+  constexpr static std::size_t addrs = 0x35dc0b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -196,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CollectionViewController::*)(
     ::UnityEngine::UIElements::ReusableCollectionItem*, int32_t)>(&::UnityEngine::UIElements::CollectionViewController::InvokeBindItem)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x33d4ce8;
+  constexpr static std::size_t addrs = 0x35daa24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -212,7 +213,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CollectionViewController::*)(
     ::UnityEngine::UIElements::ReusableCollectionItem*, int32_t)>(&::UnityEngine::UIElements::CollectionViewController::InvokeUnbindItem)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x33d63b4;
+  constexpr static std::size_t addrs = 0x35dc0f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -228,7 +229,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CollectionViewController::*)(::UnityEngine::UIElements::ReusableCollectionItem*)>(
     &::UnityEngine::UIElements::CollectionViewController::InvokeDestroyItem)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x33d63d8;
+  constexpr static std::size_t addrs = 0x35dc114;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -244,7 +245,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::CollectionViewController::*)()>(
     &::UnityEngine::UIElements::CollectionViewController::MakeItem)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x33d63fc;
+  constexpr static std::size_t addrs = 0x35dc138;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -260,7 +261,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CollectionViewController::*)(::UnityEngine::UIElements::VisualElement*, int32_t)>(
     &::UnityEngine::UIElements::CollectionViewController::BindItem)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x33d64d8;
+  constexpr static std::size_t addrs = 0x35dc214;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -276,7 +277,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CollectionViewController::*)(::UnityEngine::UIElements::VisualElement*, int32_t)>(
     &::UnityEngine::UIElements::CollectionViewController::UnbindItem)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x33d66a8;
+  constexpr static std::size_t addrs = 0x35dc3e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -292,7 +293,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CollectionViewController::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::CollectionViewController::DestroyItem)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x33d66dc;
+  constexpr static std::size_t addrs = 0x35dc418;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -308,7 +309,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CollectionViewController::*)()>(
     &::UnityEngine::UIElements::CollectionViewController::RaiseItemsSourceChanged)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x33d60a0;
+  constexpr static std::size_t addrs = 0x35dbddc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CollectionViewController*>::get(),
@@ -322,7 +323,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CollectionViewController::*)(int32_t, int32_t)>(
     &::UnityEngine::UIElements::CollectionViewController::RaiseItemIndexChanged)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x33d57f4;
+  constexpr static std::size_t addrs = 0x35db530;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -337,7 +338,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CollectionViewController::*)()>(
     &::UnityEngine::UIElements::CollectionViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33d5df8;
+  constexpr static std::size_t addrs = 0x35dbb34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CollectionViewController*>::get(),

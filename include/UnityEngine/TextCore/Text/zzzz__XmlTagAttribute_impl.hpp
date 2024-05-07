@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/TextCore/Text/XmlTagAttribute.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TagValueType_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__XmlTagAttribute_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TagValueType_def.hpp"

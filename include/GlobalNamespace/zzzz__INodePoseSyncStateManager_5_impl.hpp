@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/INodePoseSyncStateManager_5.hpp"
 #include "GlobalNamespace/zzzz__INodePoseSyncStateManager_5_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
 #include "GlobalNamespace/zzzz__LocalMultiplayerSyncState_3_def.hpp"

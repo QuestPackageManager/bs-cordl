@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/CompilerServices/CallerMemberNameAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__CallerMemberNameAttribute_def.hpp"
 //  Writing Method size for method: ::System::Runtime::CompilerServices::CallerMemberNameAttribute._ctor
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::CallerMemberNameAttribute::*)()>(
     &::System::Runtime::CompilerServices::CallerMemberNameAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x275c0e4;
+  constexpr static std::size_t addrs = 0x285b7f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

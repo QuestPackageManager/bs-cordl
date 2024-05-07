@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/ScreenModeController.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__ScreenModeController_def.hpp"
 #include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
@@ -10,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ScreenModeController::*)()>(&::HMUI::ScreenModeController::Awake)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x2415494;
+  constexpr static std::size_t addrs = 0x250f120;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScreenModeController*>::get(), "Awake",
@@ -23,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ScreenModeController::*)(::HMUI::ScreenModeData*)>(&::HMUI::ScreenModeController::SetMode)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x2415670;
+  constexpr static std::size_t addrs = 0x250f2fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -37,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ScreenModeController::*)()>(&::HMUI::ScreenModeController::SetDefaultMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2415884;
+  constexpr static std::size_t addrs = 0x250f510;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScreenModeController*>::get(), "SetDefaultMode",
@@ -50,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ScreenModeController::*)()>(&::HMUI::ScreenModeController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x241588c;
+  constexpr static std::size_t addrs = 0x250f518;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScreenModeController*>::get(), ".ctor",

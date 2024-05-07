@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/AsyncLocalValueChangedArgs_1.hpp"
 #include "System/Threading/zzzz__AsyncLocalValueChangedArgs_1_def.hpp"
 template <typename T> inline T System::Threading::AsyncLocalValueChangedArgs_1<T>::get_CurrentValue() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::AsyncLocalValueChangedArgs_1<T>>::get(),

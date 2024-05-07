@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/LabelTarget.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,7 +35,7 @@ public:
 
   static inline ::System::Linq::Expressions::LabelTarget* New_ctor(::System::Type* type, ::StringW name);
 
-  /// @brief Method ToString, addr 0x2b0c16c, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2c09a6c, size 0x58, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::StringW const& __cordl_internal_get__Name_k__BackingField() const;
@@ -49,13 +50,13 @@ public:
 
   constexpr void __cordl_internal_set__Type_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x2b0c130, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c09a30, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::StringW name);
 
-  /// @brief Method get_Name, addr 0x2b0c15c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x2c09a5c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Type, addr 0x2b0c164, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x2c09a64, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_Type();
 
 protected:

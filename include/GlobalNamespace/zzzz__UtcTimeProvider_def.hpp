@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/UtcTimeProvider.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,15 +33,15 @@ public:
   /// @brief Convert operator to "::BGNet::Core::ITimeProvider"
   constexpr operator ::BGNet::Core::ITimeProvider*() noexcept;
 
-  /// @brief Method GetTicks, addr 0xfb49fc, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method GetTicks, addr 0x10a8120, size 0xb4, virtual true, abstract: false, final true
   inline int64_t GetTicks();
 
-  /// @brief Method GetTimeMs, addr 0xfc5e20, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method GetTimeMs, addr 0x10b9544, size 0x2c, virtual true, abstract: false, final true
   inline int64_t GetTimeMs();
 
   static inline ::GlobalNamespace::UtcTimeProvider* New_ctor();
 
-  /// @brief Method .ctor, addr 0xfc5e4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10b9570, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::DateTime getStaticF__epoch();

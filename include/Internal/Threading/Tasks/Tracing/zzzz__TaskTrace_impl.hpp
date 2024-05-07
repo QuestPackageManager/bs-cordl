@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Internal/Threading/Tasks/Tracing/TaskTrace.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Internal/Threading/Tasks/Tracing/zzzz__TaskTrace_def.hpp"
 #include "Internal/Runtime/Augments/zzzz__TaskTraceCallbacks_def.hpp"
@@ -7,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::Internal::Threading::Tasks::Tracing::TaskTrace::get_Enabled)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x26ad188;
+  constexpr static std::size_t addrs = 0x27ab584;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Internal::Threading::Tasks::Tracing::TaskTrace*>::get(),
@@ -20,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, int32_t, int32_t)>(&::Internal::Threading::Tasks::Tracing::TaskTrace::TaskWaitBegin_Asynchronous)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x26ad1e8;
+  constexpr static std::size_t addrs = 0x27ab5e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -35,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, int32_t, int32_t)>(&::Internal::Threading::Tasks::Tracing::TaskTrace::TaskWaitBegin_Synchronous)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x26ad26c;
+  constexpr static std::size_t addrs = 0x27ab668;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -50,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, int32_t, int32_t)>(&::Internal::Threading::Tasks::Tracing::TaskTrace::TaskWaitEnd)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x26ad2f0;
+  constexpr static std::size_t addrs = 0x27ab6ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -66,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, int32_t, int32_t, int32_t, int32_t)>(
     &::Internal::Threading::Tasks::Tracing::TaskTrace::TaskScheduled)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x26ad374;
+  constexpr static std::size_t addrs = 0x27ab770;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MaterialPropertyBlockPositionUpdater.hpp"
 #include "GlobalNamespace/zzzz__MaterialPropertyBlockAnimator_impl.hpp"
 #include "GlobalNamespace/zzzz__MaterialPropertyBlockPositionUpdater_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockPositionUpdater::*)()>(
     &::GlobalNamespace::MaterialPropertyBlockPositionUpdater::SetProperty)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x23ff410;
+  constexpr static std::size_t addrs = 0x24f709c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockPositionUpdater::*)()>(
     &::GlobalNamespace::MaterialPropertyBlockPositionUpdater::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23ff4c4;
+  constexpr static std::size_t addrs = 0x24f7150;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MaterialPropertyBlockPositionUpdater*>::get(),

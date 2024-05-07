@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/VisualElementAnimationSystem.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -73,22 +74,22 @@ public:
 
   static inline ::UnityEngine::UIElements::VisualElementAnimationSystem* New_ctor();
 
-  /// @brief Method OnVersionChanged, addr 0x3307a88, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnVersionChanged, addr 0x350c7c4, size 0x4, virtual true, abstract: false, final false
   inline void OnVersionChanged(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType);
 
-  /// @brief Method RegisterAnimation, addr 0x3307364, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method RegisterAnimation, addr 0x350c0a0, size 0x64, virtual false, abstract: false, final false
   inline void RegisterAnimation(::UnityEngine::UIElements::Experimental::IValueAnimationUpdate* anim);
 
-  /// @brief Method RegisterAnimations, addr 0x33073c8, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method RegisterAnimations, addr 0x350c104, size 0x178, virtual false, abstract: false, final false
   inline void RegisterAnimations(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Experimental::IValueAnimationUpdate*>* anims);
 
-  /// @brief Method UnregisterAnimation, addr 0x3307188, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method UnregisterAnimation, addr 0x350bec4, size 0x64, virtual false, abstract: false, final false
   inline void UnregisterAnimation(::UnityEngine::UIElements::Experimental::IValueAnimationUpdate* anim);
 
-  /// @brief Method UnregisterAnimations, addr 0x33071ec, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method UnregisterAnimations, addr 0x350bf28, size 0x178, virtual false, abstract: false, final false
   inline void UnregisterAnimations(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Experimental::IValueAnimationUpdate*>* anims);
 
-  /// @brief Method Update, addr 0x3307540, size 0x46c, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x350c27c, size 0x46c, virtual true, abstract: false, final false
   inline void Update();
 
   constexpr int64_t const& __cordl_internal_get_lastUpdate() const;
@@ -123,7 +124,7 @@ public:
 
   constexpr void __cordl_internal_set_m_IterationListDirty(bool value);
 
-  /// @brief Method .ctor, addr 0x3307a8c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x350c7c8, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_s_Description();
@@ -134,10 +135,10 @@ public:
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_StylePropertyAnimationProfilerMarker();
 
-  /// @brief Method get_profilerMarker, addr 0x33070d8, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_profilerMarker, addr 0x350be14, size 0x58, virtual true, abstract: false, final false
   inline ::Unity::Profiling::ProfilerMarker get_profilerMarker();
 
-  /// @brief Method get_stylePropertyAnimationProfilerMarker, addr 0x3307130, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_stylePropertyAnimationProfilerMarker, addr 0x350be6c, size 0x58, virtual false, abstract: false, final false
   static inline ::Unity::Profiling::ProfilerMarker get_stylePropertyAnimationProfilerMarker();
 
   static inline void setStaticF_s_Description(::StringW value);

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/RecordingSettings.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficulty_impl.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentType_impl.hpp"
 #include "GlobalNamespace/zzzz__ObjectsMovementRecorder_impl.hpp"
@@ -23,7 +24,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*>, bool, float_t, float_t, bool,
     ::System::Nullable_1<::GlobalNamespace::EnvironmentType>, ::GlobalNamespace::EnvironmentInfoSO*, bool)>(&::GlobalNamespace::RecordingSettings::_ctor)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x2599738;
+  constexpr static std::size_t addrs = 0x26929b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -60,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::RecordingSettings::*)()>(&::GlobalNamespace::RecordingSettings::ToString)> {
   constexpr static std::size_t size = 0xa74;
-  constexpr static std::size_t addrs = 0x259a8bc;
+  constexpr static std::size_t addrs = 0x2693b38;
 
   inline static ::MethodInfo const* methodInfo() {
 

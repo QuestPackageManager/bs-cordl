@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/SubContainerCreatorUtil.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__SubContainerCreatorUtil_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Zenject::SubContainerCreatorBindInfo*, ::Zenject::DiContainer*)>(
     &::Zenject::SubContainerCreatorUtil::ApplyBindSettings)> {
   constexpr static std::size_t size = 0x304;
-  constexpr static std::size_t addrs = 0x345a254;
+  constexpr static std::size_t addrs = 0x365e21c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

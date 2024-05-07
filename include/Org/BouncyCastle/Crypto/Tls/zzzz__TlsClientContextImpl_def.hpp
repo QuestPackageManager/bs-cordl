@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/TlsClientContextImpl.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,10 +42,10 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsClientContextImpl* New_ctor(::Org::BouncyCastle::Security::SecureRandom* secureRandom,
                                                                                  ::Org::BouncyCastle::Crypto::Tls::SecurityParameters* securityParameters);
 
-  /// @brief Method .ctor, addr 0x1107824, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11faf48, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* secureRandom, ::Org::BouncyCastle::Crypto::Tls::SecurityParameters* securityParameters);
 
-  /// @brief Method get_IsServer, addr 0x1107894, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsServer, addr 0x11fafb8, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsServer();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsClientContext"

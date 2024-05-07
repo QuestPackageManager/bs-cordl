@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/FocusEvent.hpp"
 #include "UnityEngine/UIElements/zzzz__FocusEventBase_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__FocusEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IPanel_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::FocusEvent::*)(::UnityEngine::UIElements::IPanel*)>(
     &::UnityEngine::UIElements::FocusEvent::PreDispatch)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x33a12f8;
+  constexpr static std::size_t addrs = 0x35a7034;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -22,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::FocusEvent::*)()>(&::UnityEngine::UIElements::FocusEvent::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x33a13a0;
+  constexpr static std::size_t addrs = 0x35a70dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FocusEvent*>::get(), ".ctor",

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/StyleValueCollection.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,21 +41,21 @@ public:
   /// @brief Field m_Values, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Values, put = __cordl_internal_set_m_Values))::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StyleValue>* m_Values;
 
-  /// @brief Method GetStyleFloat, addr 0x33c0ea8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetStyleFloat, addr 0x35c6be4, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleFloat GetStyleFloat(::UnityEngine::UIElements::StyleSheets::StylePropertyId id);
 
-  /// @brief Method GetStyleInt, addr 0x33c0f00, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetStyleInt, addr 0x35c6c3c, size 0x74, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleInt GetStyleInt(::UnityEngine::UIElements::StyleSheets::StylePropertyId id);
 
-  /// @brief Method GetStyleLength, addr 0x33c0c74, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetStyleLength, addr 0x35c69b0, size 0x74, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleLength GetStyleLength(::UnityEngine::UIElements::StyleSheets::StylePropertyId id);
 
   static inline ::UnityEngine::UIElements::StyleValueCollection* New_ctor();
 
-  /// @brief Method SetStyleValue, addr 0x33c0f84, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method SetStyleValue, addr 0x35c6cc0, size 0x1fc, virtual false, abstract: false, final false
   inline void SetStyleValue(::UnityEngine::UIElements::StyleSheets::StyleValue value);
 
-  /// @brief Method TryGetStyleValue, addr 0x33c0ce8, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method TryGetStyleValue, addr 0x35c6a24, size 0x1c0, virtual false, abstract: false, final false
   inline bool TryGetStyleValue(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ByRef<::UnityEngine::UIElements::StyleSheets::StyleValue> value);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StyleValue>*& __cordl_internal_get_m_Values();
@@ -63,7 +64,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Values(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StyleValue>* value);
 
-  /// @brief Method .ctor, addr 0x33c1180, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35c6ebc, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

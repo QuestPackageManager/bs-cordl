@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/InjectSources.hpp"
 #include "Zenject/zzzz__InjectSources_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::Zenject::InjectSources::InjectSources(int32_t value__) noexcept {

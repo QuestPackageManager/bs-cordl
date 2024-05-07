@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/DuplicateNameException.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,13 +32,13 @@ public:
 
   static inline ::System::Data::DuplicateNameException* New_ctor(::StringW s);
 
-  /// @brief Method .ctor, addr 0x2b84d18, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c82618, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2b84d10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c82610, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x2b84d74, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c82674, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW s);
 
 protected:

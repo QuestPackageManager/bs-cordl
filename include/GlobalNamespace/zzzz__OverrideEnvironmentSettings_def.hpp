@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OverrideEnvironmentSettings.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,12 +35,12 @@ public:
   /// @brief Field overrideEnvironments, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_overrideEnvironments, put = __cordl_internal_set_overrideEnvironments)) bool overrideEnvironments;
 
-  /// @brief Method GetOverrideEnvironmentInfoForType, addr 0x13f112c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetOverrideEnvironmentInfoForType, addr 0x14e3460, size 0x78, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::EnvironmentInfoSO> GetOverrideEnvironmentInfoForType(::GlobalNamespace::EnvironmentType environmentType);
 
   static inline ::GlobalNamespace::OverrideEnvironmentSettings* New_ctor();
 
-  /// @brief Method SetEnvironmentInfoForType, addr 0x13f10c4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetEnvironmentInfoForType, addr 0x14e33f8, size 0x68, virtual false, abstract: false, final false
   inline void SetEnvironmentInfoForType(::GlobalNamespace::EnvironmentType environmentType, ::GlobalNamespace::EnvironmentInfoSO* environmentInfo);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::EnvironmentType, ::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*& __cordl_internal_get__data();
@@ -55,7 +56,7 @@ public:
 
   constexpr void __cordl_internal_set_overrideEnvironments(bool value);
 
-  /// @brief Method .ctor, addr 0x13f11a4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14e34d8, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

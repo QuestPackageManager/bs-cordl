@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/InvalidCastException.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,16 +37,16 @@ public:
 
   static inline ::System::InvalidCastException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x2833ef0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2932610, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2833f70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2932690, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x2831534, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x292fc54, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x2833f4c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x293266c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
 protected:

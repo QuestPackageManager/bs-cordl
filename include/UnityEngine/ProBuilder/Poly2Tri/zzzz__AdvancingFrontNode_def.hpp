@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ProBuilder/Poly2Tri/AdvancingFrontNode.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -76,13 +77,13 @@ public:
 
   constexpr void __cordl_internal_set_Value(double_t value);
 
-  /// @brief Method .ctor, addr 0x3062618, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x326a0a0, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* point);
 
-  /// @brief Method get_HasNext, addr 0x3062650, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HasNext, addr 0x326a0d8, size 0x10, virtual false, abstract: false, final false
   inline bool get_HasNext();
 
-  /// @brief Method get_HasPrev, addr 0x3062660, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HasPrev, addr 0x326a0e8, size 0x10, virtual false, abstract: false, final false
   inline bool get_HasPrev();
 
 protected:

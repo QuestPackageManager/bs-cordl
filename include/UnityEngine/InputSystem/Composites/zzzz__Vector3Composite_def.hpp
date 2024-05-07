@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Composites/Vector3Composite.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -118,7 +119,7 @@ public:
 
   static inline ::UnityEngine::InputSystem::Composites::Vector3Composite* New_ctor();
 
-  /// @brief Method ReadValue, addr 0x2f91550, size 0x254, virtual true, abstract: false, final false
+  /// @brief Method ReadValue, addr 0x30cc2dc, size 0x254, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 ReadValue(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
   constexpr int32_t const& __cordl_internal_get_backward() const;
@@ -163,7 +164,7 @@ public:
 
   constexpr void __cordl_internal_set_up(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2f917a4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x30cc530, size 0x1048, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

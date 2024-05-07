@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/AndroidJavaProxy.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,19 +47,19 @@ public:
   /// @brief Field s_JavaLangSystemClass, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_JavaLangSystemClass, put = setStaticF_s_JavaLangSystemClass))::UnityEngine::GlobalJavaObjectRef* s_JavaLangSystemClass;
 
-  /// @brief Method Finalize, addr 0x31b24e0, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x33b7f68, size 0x98, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method GetProxyObject, addr 0x31b457c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetProxyObject, addr 0x33ba004, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::AndroidJavaObject* GetProxyObject();
 
-  /// @brief Method GetRawProxy, addr 0x31b35f8, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method GetRawProxy, addr 0x33b9080, size 0x144, virtual false, abstract: false, final false
   inline void* GetRawProxy();
 
-  /// @brief Method Invoke, addr 0x31b2578, size 0x728, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x33b8000, size 0x728, virtual true, abstract: false, final false
   inline ::UnityEngine::AndroidJavaObject* Invoke(::StringW methodName, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method Invoke, addr 0x31b3848, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x33b92d0, size 0x164, virtual true, abstract: false, final false
   inline ::UnityEngine::AndroidJavaObject* Invoke(::StringW methodName, ::ArrayW<::UnityEngine::AndroidJavaObject*, ::Array<::UnityEngine::AndroidJavaObject*>*> javaArgs);
 
   static inline ::UnityEngine::AndroidJavaProxy* New_ctor(::StringW javaInterface);
@@ -77,27 +78,27 @@ public:
 
   constexpr void __cordl_internal_set_proxyObject(void* value);
 
-  /// @brief Method .ctor, addr 0x31b23a8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33b7e30, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::StringW javaInterface);
 
-  /// @brief Method .ctor, addr 0x31b2474, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33b7efc, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::AndroidJavaClass* javaInterface);
 
-  /// @brief Method equals, addr 0x31b4310, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method equals, addr 0x33b9d98, size 0xb8, virtual true, abstract: false, final false
   inline bool equals(::UnityEngine::AndroidJavaObject* obj);
 
   static inline void* getStaticF_s_HashCodeMethodID();
 
   static inline ::UnityEngine::GlobalJavaObjectRef* getStaticF_s_JavaLangSystemClass();
 
-  /// @brief Method hashCode, addr 0x31b4468, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method hashCode, addr 0x33b9ef0, size 0xb0, virtual true, abstract: false, final false
   inline int32_t hashCode();
 
   static inline void setStaticF_s_HashCodeMethodID(void* value);
 
   static inline void setStaticF_s_JavaLangSystemClass(::UnityEngine::GlobalJavaObjectRef* value);
 
-  /// @brief Method toString, addr 0x31b4518, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method toString, addr 0x33b9fa0, size 0x64, virtual true, abstract: false, final false
   inline ::StringW toString();
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/ConstrainedExecution/CriticalFinalizerObject.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,12 +19,12 @@ namespace System::Runtime::ConstrainedExecution {
 class CORDL_TYPE CriticalFinalizerObject : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Finalize, addr 0x275be80, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x285b590, size 0x8, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::System::Runtime::ConstrainedExecution::CriticalFinalizerObject* New_ctor();
 
-  /// @brief Method .ctor, addr 0x275be78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x285b588, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

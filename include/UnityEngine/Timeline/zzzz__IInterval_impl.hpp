@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Timeline/IInterval.hpp"
 #include "UnityEngine/Timeline/zzzz__IInterval_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Timeline::IInterval.get_intervalStart
 template <>

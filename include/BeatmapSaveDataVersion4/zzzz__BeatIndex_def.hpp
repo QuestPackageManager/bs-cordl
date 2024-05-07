@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatmapSaveDataVersion4/BeatIndex.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,10 +55,10 @@ public:
 
   constexpr void __cordl_internal_set_i(int32_t value);
 
-  /// @brief Method .ctor, addr 0x13ff4b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14f0aa4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_beat, addr 0x13ff4b0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_beat, addr 0x14f0a9c, size 0x8, virtual true, abstract: false, final true
   inline float_t get_beat();
 
   /// @brief Convert to "::BeatmapSaveDataCommon::IBeat"

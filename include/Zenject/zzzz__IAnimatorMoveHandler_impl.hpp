@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/IAnimatorMoveHandler.hpp"
 #include "Zenject/zzzz__IAnimatorMoveHandler_def.hpp"
 //  Writing Method size for method: ::Zenject::IAnimatorMoveHandler.OnAnimatorMove
 template <>

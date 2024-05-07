@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MirroredBeatmapObjectManager.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -118,31 +119,31 @@ public:
   __declspec(property(get = __cordl_internal_get__sliderControllersToMirroredSliderControllers, put = __cordl_internal_set__sliderControllersToMirroredSliderControllers))::System::Collections::
       Generic::Dictionary_2<::UnityW<::GlobalNamespace::SliderController>, ::UnityW<::GlobalNamespace::MirroredSliderController>>* _sliderControllersToMirroredSliderControllers;
 
-  /// @brief Method Finalize, addr 0x252259c, size 0x360, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x2618f08, size 0x360, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method HandleDidHideAllBeatmapObjects, addr 0x2523244, size 0x6f4, virtual false, abstract: false, final false
+  /// @brief Method HandleDidHideAllBeatmapObjects, addr 0x2619b9c, size 0x6f4, virtual false, abstract: false, final false
   inline void HandleDidHideAllBeatmapObjects(bool hide);
 
-  /// @brief Method HandleNoteWasDespawned, addr 0x2522b10, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasDespawned, addr 0x261947c, size 0x17c, virtual false, abstract: false, final false
   inline void HandleNoteWasDespawned(::GlobalNamespace::NoteController* noteController);
 
-  /// @brief Method HandleNoteWasSpawned, addr 0x25228fc, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasSpawned, addr 0x2619268, size 0x214, virtual false, abstract: false, final false
   inline void HandleNoteWasSpawned(::GlobalNamespace::NoteController* noteController);
 
-  /// @brief Method HandleObstacleWasDespawned, addr 0x2522e20, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method HandleObstacleWasDespawned, addr 0x2619778, size 0xc0, virtual false, abstract: false, final false
   inline void HandleObstacleWasDespawned(::GlobalNamespace::ObstacleController* obstacleController);
 
-  /// @brief Method HandleObstacleWasSpawned, addr 0x2522c8c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method HandleObstacleWasSpawned, addr 0x26195f8, size 0x98, virtual false, abstract: false, final false
   inline void HandleObstacleWasSpawned(::GlobalNamespace::ObstacleController* obstacleController);
 
-  /// @brief Method HandleSliderWasDespawned, addr 0x2523184, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method HandleSliderWasDespawned, addr 0x2619adc, size 0xc0, virtual false, abstract: false, final false
   inline void HandleSliderWasDespawned(::GlobalNamespace::SliderController* sliderController);
 
-  /// @brief Method HandleSliderWasSpawned, addr 0x2522ee0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method HandleSliderWasSpawned, addr 0x2619838, size 0x98, virtual false, abstract: false, final false
   inline void HandleSliderWasSpawned(::GlobalNamespace::SliderController* sliderController);
 
-  /// @brief Method Init, addr 0x2522188, size 0x414, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2618af4, size 0x414, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::BeatmapObjectManager* beatmapObjectManager, ::GlobalNamespace::__MirroredGameNoteController__Pool* mirroredBasicGameNotePool,
                    ::GlobalNamespace::__MirroredGameNoteController__Pool* burstSliderHeadGameNotePool, ::GlobalNamespace::__MirroredGameNoteController__Pool* burstSliderGameNotePool,
                    ::GlobalNamespace::__MirroredBombNoteController__Pool* mirroredBombNotePool, ::GlobalNamespace::__MirroredObstacleController__Pool* mirroredObstaclePool,
@@ -242,7 +243,7 @@ public:
   constexpr void __cordl_internal_set__sliderControllersToMirroredSliderControllers(
       ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::SliderController>, ::UnityW<::GlobalNamespace::MirroredSliderController>>* value);
 
-  /// @brief Method .ctor, addr 0x2523990, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x261a2e8, size 0x148, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

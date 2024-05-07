@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MaterialPropertyValuesSetter.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -73,7 +74,7 @@ public:
 
   static inline ::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyValuePairBase* New_ctor();
 
-  /// @brief Method RefreshPropertyId, addr 0x23ffb64, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method RefreshPropertyId, addr 0x24f77f0, size 0x20, virtual false, abstract: false, final false
   inline void RefreshPropertyId();
 
   constexpr int32_t const& __cordl_internal_get__propertyId_k__BackingField() const;
@@ -88,13 +89,13 @@ public:
 
   constexpr void __cordl_internal_set__propertyName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x23ffb9c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f7828, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_propertyId, addr 0x23ffb8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_propertyId, addr 0x24f7818, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_propertyId();
 
-  /// @brief Method set_propertyId, addr 0x23ffb94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_propertyId, addr 0x24f7820, size 0x8, virtual false, abstract: false, final false
   inline void set_propertyId(int32_t value);
 
 protected:
@@ -146,7 +147,7 @@ public:
 
   constexpr void __cordl_internal_set_value(float_t value);
 
-  /// @brief Method .ctor, addr 0x23ffbc4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f7850, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -193,7 +194,7 @@ public:
 
   constexpr void __cordl_internal_set_value(int32_t value);
 
-  /// @brief Method .ctor, addr 0x23ffbec, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f7878, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -240,7 +241,7 @@ public:
 
   constexpr void __cordl_internal_set_vector(::UnityEngine::Vector4 value);
 
-  /// @brief Method .ctor, addr 0x23ffc14, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f78a0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -287,7 +288,7 @@ public:
 
   constexpr void __cordl_internal_set_color(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x23ffc3c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f78c8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -356,18 +357,18 @@ public:
                       put = __cordl_internal_set__vectors))::ArrayW<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameVectorValuePair*,
                                                                     ::Array<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameVectorValuePair*>*> _vectors;
 
-  /// @brief Method ApplyParams, addr 0x23ff928, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method ApplyParams, addr 0x24f75b4, size 0x1a4, virtual false, abstract: false, final false
   inline void ApplyParams();
 
   static inline ::GlobalNamespace::MaterialPropertyValuesSetter* New_ctor();
 
-  /// @brief Method OnValidate, addr 0x23ffacc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x24f7758, size 0x98, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method RefreshPropertyIds, addr 0x23ff7d0, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method RefreshPropertyIds, addr 0x24f745c, size 0x158, virtual false, abstract: false, final false
   inline void RefreshPropertyIds();
 
-  /// @brief Method Start, addr 0x23ff7b8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x24f7444, size 0x18, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::ArrayW<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameColorValuePair*, ::Array<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameColorValuePair*>*> const&
@@ -412,7 +413,7 @@ public:
   constexpr void __cordl_internal_set__vectors(
       ::ArrayW<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameVectorValuePair*, ::Array<::GlobalNamespace::__MaterialPropertyValuesSetter__PropertyNameVectorValuePair*>*> value);
 
-  /// @brief Method .ctor, addr 0x23ffb84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f7810, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

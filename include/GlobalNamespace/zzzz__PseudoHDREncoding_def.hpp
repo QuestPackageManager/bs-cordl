@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/PseudoHDREncoding.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,7 +28,7 @@ public:
   /// @brief Field _material, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__material, put = setStaticF__material))::UnityW<::UnityEngine::Material> _material;
 
-  /// @brief Method CreatePseudoHDREncodedTexture, addr 0x2588d50, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method CreatePseudoHDREncodedTexture, addr 0x2681d00, size 0x1f0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::RenderTexture> CreatePseudoHDREncodedTexture(::UnityEngine::RenderTexture* src);
 
   static inline ::UnityW<::UnityEngine::Material> getStaticF__material();

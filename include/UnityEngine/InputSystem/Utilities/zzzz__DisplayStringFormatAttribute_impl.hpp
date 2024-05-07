@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/DisplayStringFormatAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__DisplayStringFormatAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Utilities::DisplayStringFormatAttribute.get_formatString
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::Utilities::DisplayStringFormatAttribute::*)()>(
     &::UnityEngine::InputSystem::Utilities::DisplayStringFormatAttribute::get_formatString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x30422f0;
+  constexpr static std::size_t addrs = 0x317d07c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -22,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Utilities::DisplayStringFormatAttribute::*)(::StringW)>(
     &::UnityEngine::InputSystem::Utilities::DisplayStringFormatAttribute::set_formatString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x30422f8;
+  constexpr static std::size_t addrs = 0x317d084;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Utilities::DisplayStringFormatAttribute::*)(::StringW)>(
     &::UnityEngine::InputSystem::Utilities::DisplayStringFormatAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3042300;
+  constexpr static std::size_t addrs = 0x317d08c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

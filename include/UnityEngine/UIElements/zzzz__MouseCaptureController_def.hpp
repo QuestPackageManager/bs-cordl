@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/MouseCaptureController.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,13 +22,13 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE MouseCaptureController : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CaptureMouse, addr 0x334d35c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method CaptureMouse, addr 0x3551098, size 0xe0, virtual false, abstract: false, final false
   static inline void CaptureMouse(::UnityEngine::UIElements::IEventHandler* handler);
 
-  /// @brief Method HasMouseCapture, addr 0x3351c44, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method HasMouseCapture, addr 0x3555980, size 0xb0, virtual false, abstract: false, final false
   static inline bool HasMouseCapture(::UnityEngine::UIElements::IEventHandler* handler);
 
-  /// @brief Method ReleaseMouse, addr 0x33525cc, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method ReleaseMouse, addr 0x3556308, size 0xe0, virtual false, abstract: false, final false
   static inline void ReleaseMouse(::UnityEngine::UIElements::IEventHandler* handler);
 
 protected:

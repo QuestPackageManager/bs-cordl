@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IGameEnergyCounter.hpp"
 #include "GlobalNamespace/zzzz__IGameEnergyCounter_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"

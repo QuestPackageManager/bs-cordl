@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/VREvent_DualAnalog_t.hpp"
 #include "OVR/OpenVR/zzzz__EDualAnalogWhich_impl.hpp"
 #include "OVR/OpenVR/zzzz__VREvent_DualAnalog_t_def.hpp"
 #include "OVR/OpenVR/zzzz__EDualAnalogWhich_def.hpp"

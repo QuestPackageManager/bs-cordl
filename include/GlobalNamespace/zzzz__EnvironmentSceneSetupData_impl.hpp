@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/EnvironmentSceneSetupData.hpp"
 #include "GlobalNamespace/zzzz__SceneSetupData_impl.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentSceneSetupData_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevel_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentSceneSetupData::*)(
     ::GlobalNamespace::EnvironmentInfoSO*, ::GlobalNamespace::BeatmapLevel*, bool)>(&::GlobalNamespace::EnvironmentSceneSetupData::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x25a78ec;
+  constexpr static std::size_t addrs = 0x26a19d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

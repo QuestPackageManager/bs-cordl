@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/InvalidCipherTextException.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,13 +29,13 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::InvalidCipherTextException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0x1131a78, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x122519c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x1131a7c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12251a0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x1131a80, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12251a4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
 protected:

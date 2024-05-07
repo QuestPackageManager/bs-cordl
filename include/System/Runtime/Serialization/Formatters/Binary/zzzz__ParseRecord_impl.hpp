@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Serialization/Formatters/Binary/ParseRecord.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__InternalArrayTypeE_impl.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__InternalMemberTypeE_impl.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__InternalMemberValueE_impl.hpp"
@@ -19,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::ParseRecord::*)()>(
     &::System::Runtime::Serialization::Formatters::Binary::ParseRecord::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x275398c;
+  constexpr static std::size_t addrs = 0x2852d88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -34,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::ParseRecord::*)()>(
     &::System::Runtime::Serialization::Formatters::Binary::ParseRecord::Init)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x27559c4;
+  constexpr static std::size_t addrs = 0x2854dc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

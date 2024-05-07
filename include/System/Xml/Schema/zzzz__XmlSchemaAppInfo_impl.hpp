@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaAppInfo.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaObject_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaAppInfo_def.hpp"
 #include "System/Xml/zzzz__XmlNode_def.hpp"
@@ -7,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaAppInfo::*)(::StringW)>(&::System::Xml::Schema::XmlSchemaAppInfo::set_Source)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2d10b1c;
+  constexpr static std::size_t addrs = 0x2e0e41c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Xml::XmlNode*, ::Array<::System::Xml::XmlNode*>*> (::System::Xml::Schema::XmlSchemaAppInfo::*)()>(
     &::System::Xml::Schema::XmlSchemaAppInfo::get_Markup)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2d10b24;
+  constexpr static std::size_t addrs = 0x2e0e424;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaAppInfo*>::get(), "get_Markup",
@@ -36,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Xml::Schema::XmlSchemaAppInfo::*)(::ArrayW<::System::Xml::XmlNode*, ::Array<::System::Xml::XmlNode*>*>)>(&::System::Xml::Schema::XmlSchemaAppInfo::set_Markup)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2d10b2c;
+  constexpr static std::size_t addrs = 0x2e0e42c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -50,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaAppInfo::*)()>(&::System::Xml::Schema::XmlSchemaAppInfo::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2d10b34;
+  constexpr static std::size_t addrs = 0x2e0e434;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaAppInfo*>::get(), ".ctor",

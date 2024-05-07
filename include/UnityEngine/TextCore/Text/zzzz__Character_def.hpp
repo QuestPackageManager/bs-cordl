@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/TextCore/Text/Character.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,13 +32,13 @@ public:
 
   static inline ::UnityEngine::TextCore::Text::Character* New_ctor(uint32_t unicode, uint32_t glyphIndex);
 
-  /// @brief Method .ctor, addr 0x3290cf8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3499a34, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x328717c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x348feb8, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(uint32_t unicode, ::UnityEngine::TextCore::Text::FontAsset* fontAsset, ::UnityEngine::TextCore::Glyph* glyph);
 
-  /// @brief Method .ctor, addr 0x328a648, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3493384, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(uint32_t unicode, uint32_t glyphIndex);
 
 protected:

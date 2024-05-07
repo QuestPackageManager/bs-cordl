@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/CubemapHelpers.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,16 +52,16 @@ public:
   /// @brief Field _cubemapHelpersMaterial, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__cubemapHelpersMaterial, put = setStaticF__cubemapHelpersMaterial))::UnityW<::UnityEngine::Material> _cubemapHelpersMaterial;
 
-  /// @brief Method Create2DTextureFromCubemap, addr 0x2587da4, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Create2DTextureFromCubemap, addr 0x2681238, size 0x170, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::RenderTexture> Create2DTextureFromCubemap(::UnityEngine::RenderTexture* src);
 
-  /// @brief Method CreateDownsampledCubemap, addr 0x2587bb8, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method CreateDownsampledCubemap, addr 0x268104c, size 0x1ec, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::RenderTexture> CreateDownsampledCubemap(::UnityEngine::RenderTexture* src, int32_t count);
 
-  /// @brief Method Downsample, addr 0x25878dc, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method Downsample, addr 0x2680d70, size 0x12c, virtual false, abstract: false, final false
   static inline void Downsample(::UnityEngine::Texture* src, ::UnityEngine::RenderTexture* dest);
 
-  /// @brief Method DrawCubemapFace, addr 0x2587a08, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method DrawCubemapFace, addr 0x2680e9c, size 0x1b0, virtual false, abstract: false, final false
   static inline void DrawCubemapFace(::UnityEngine::Texture* cubemap, ::UnityEngine::CubemapFace cubemapFace);
 
   static inline int32_t getStaticF__cubeFaceNumberId();
@@ -73,7 +74,7 @@ public:
 
   static inline ::UnityW<::UnityEngine::Material> getStaticF__cubemapHelpersMaterial();
 
-  /// @brief Method get_cubemapHelpersMaterial, addr 0x25877b4, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method get_cubemapHelpersMaterial, addr 0x2680c48, size 0x128, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> get_cubemapHelpersMaterial();
 
   static inline void setStaticF__cubeFaceNumberId(int32_t value);

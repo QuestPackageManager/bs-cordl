@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/XR/Management/XRManagementAnalytics.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/XR/Management/zzzz__XRManagementAnalytics_def.hpp"
 #include "UnityEngine/XR/Management/zzzz__XRManagementAnalytics_def.hpp"
@@ -19,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::UnityEngine::XR::Management::XRManagementAnalytics::Initialize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x31a3f0c;
+  constexpr static std::size_t addrs = 0x33aa994;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::Management::XRManagementAnalytics*>::get(),

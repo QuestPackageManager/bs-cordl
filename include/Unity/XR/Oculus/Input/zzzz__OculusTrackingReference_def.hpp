@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/XR/Oculus/Input/OculusTrackingReference.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,7 +55,7 @@ public:
 
   __declspec(property(get = get_trackingState, put = set_trackingState))::UnityEngine::InputSystem::Controls::IntegerControl* trackingState;
 
-  /// @brief Method FinishSetup, addr 0x31ab22c, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x33b0cb4, size 0x148, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::Unity::XR::Oculus::Input::OculusTrackingReference* New_ctor();
@@ -83,31 +84,31 @@ public:
 
   constexpr void __cordl_internal_set__trackingState_k__BackingField(::UnityEngine::InputSystem::Controls::IntegerControl* value);
 
-  /// @brief Method .ctor, addr 0x31ab374, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33b0dfc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_devicePosition, addr 0x31ab20c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_devicePosition, addr 0x33b0c94, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_devicePosition();
 
-  /// @brief Method get_deviceRotation, addr 0x31ab21c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_deviceRotation, addr 0x33b0ca4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::QuaternionControl* get_deviceRotation();
 
-  /// @brief Method get_isTracked, addr 0x31ab1fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isTracked, addr 0x33b0c84, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_isTracked();
 
-  /// @brief Method get_trackingState, addr 0x31ab1ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_trackingState, addr 0x33b0c74, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::IntegerControl* get_trackingState();
 
-  /// @brief Method set_devicePosition, addr 0x31ab214, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_devicePosition, addr 0x33b0c9c, size 0x8, virtual false, abstract: false, final false
   inline void set_devicePosition(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method set_deviceRotation, addr 0x31ab224, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_deviceRotation, addr 0x33b0cac, size 0x8, virtual false, abstract: false, final false
   inline void set_deviceRotation(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
-  /// @brief Method set_isTracked, addr 0x31ab204, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isTracked, addr 0x33b0c8c, size 0x8, virtual false, abstract: false, final false
   inline void set_isTracked(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_trackingState, addr 0x31ab1f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_trackingState, addr 0x33b0c7c, size 0x8, virtual false, abstract: false, final false
   inline void set_trackingState(::UnityEngine::InputSystem::Controls::IntegerControl* value);
 
 protected:

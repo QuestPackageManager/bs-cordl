@@ -1,11 +1,12 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/LineInfo.hpp"
 #include "System/Xml/zzzz__LineInfo_def.hpp"
 //  Writing Method size for method: ::System::Xml::LineInfo._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::LineInfo::*)(int32_t, int32_t)>(&::System::Xml::LineInfo::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2da81dc;
+  constexpr static std::size_t addrs = 0x2ea4adc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -19,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::LineInfo::*)(int32_t, int32_t)>(&::System::Xml::LineInfo::Set)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2da81e4;
+  constexpr static std::size_t addrs = 0x2ea4ae4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

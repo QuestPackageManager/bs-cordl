@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Collections/Specialized/BitVector32.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,28 +26,28 @@ public:
   // Declarations
   __declspec(property(get = get_Item, put = set_Item)) bool Item[];
 
-  /// @brief Method CreateMask, addr 0x2e6ebe8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CreateMask, addr 0x2f6d4e8, size 0x8, virtual false, abstract: false, final false
   static inline int32_t CreateMask();
 
-  /// @brief Method CreateMask, addr 0x2e6ebf0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method CreateMask, addr 0x2f6d4f0, size 0x70, virtual false, abstract: false, final false
   static inline int32_t CreateMask(int32_t previous);
 
-  /// @brief Method Equals, addr 0x2e6ec60, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2f6d560, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method GetHashCode, addr 0x2e6ecd8, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2f6d5d8, size 0x64, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x2e6ee0c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2f6d70c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x2e6ed3c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x2f6d63c, size 0xd0, virtual false, abstract: false, final false
   static inline ::StringW ToString(::System::Collections::Specialized::BitVector32 value);
 
-  /// @brief Method get_Item, addr 0x2e6ebb4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x2f6d4b4, size 0x18, virtual false, abstract: false, final false
   inline bool get_Item(int32_t bit);
 
-  /// @brief Method set_Item, addr 0x2e6ebcc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x2f6d4cc, size 0x1c, virtual false, abstract: false, final false
   inline void set_Item(int32_t bit, bool value);
 
   // Ctor Parameters []

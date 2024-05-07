@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Configuration/ConfigurationElement.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,16 +24,16 @@ public:
   // Declarations
   __declspec(property(get = get_Properties))::System::Configuration::ConfigurationPropertyCollection* Properties;
 
-  /// @brief Method IsModified, addr 0x2add438, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method IsModified, addr 0x2bd9a18, size 0x38, virtual true, abstract: false, final false
   inline bool IsModified();
 
-  /// @brief Method Reset, addr 0x2add470, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x2bd9a50, size 0x38, virtual true, abstract: false, final false
   inline void Reset(::System::Configuration::ConfigurationElement* parentElement);
 
-  /// @brief Method ResetModified, addr 0x2add4a8, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method ResetModified, addr 0x2bd9a88, size 0x38, virtual true, abstract: false, final false
   inline void ResetModified();
 
-  /// @brief Method get_Properties, addr 0x2add400, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x2bd99e0, size 0x38, virtual true, abstract: false, final false
   inline ::System::Configuration::ConfigurationPropertyCollection* get_Properties();
 
 protected:

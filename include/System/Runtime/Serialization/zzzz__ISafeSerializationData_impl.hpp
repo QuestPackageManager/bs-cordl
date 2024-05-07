@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Serialization/ISafeSerializationData.hpp"
 #include "System/Runtime/Serialization/zzzz__ISafeSerializationData_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Serialization::ISafeSerializationData.CompleteDeserialization

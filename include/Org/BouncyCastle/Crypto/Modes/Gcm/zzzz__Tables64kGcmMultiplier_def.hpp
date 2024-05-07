@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Modes/Gcm/Tables64kGcmMultiplier.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,10 +35,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier"
   constexpr operator ::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier*() noexcept;
 
-  /// @brief Method Init, addr 0x107ec40, size 0x614, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0x1173364, size 0x614, virtual true, abstract: false, final true
   inline void Init(::ArrayW<uint8_t, ::Array<uint8_t>*> H);
 
-  /// @brief Method MultiplyH, addr 0x107f254, size 0x150, virtual true, abstract: false, final true
+  /// @brief Method MultiplyH, addr 0x1173978, size 0x150, virtual true, abstract: false, final true
   inline void MultiplyH(::ArrayW<uint8_t, ::Array<uint8_t>*> x);
 
   static inline ::Org::BouncyCastle::Crypto::Modes::Gcm::Tables64kGcmMultiplier* New_ctor();
@@ -60,7 +61,7 @@ public:
                                                  ::Array<::ArrayW<::ArrayW<uint32_t, ::Array<uint32_t>*>, ::Array<::ArrayW<uint32_t, ::Array<uint32_t>*>>*>>*>
                                             value);
 
-  /// @brief Method .ctor, addr 0x107f3a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1173ac8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmMultiplier"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Cache/RequestCacheBinding.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,16 +64,16 @@ public:
 
   constexpr void __cordl_internal_set_m_RequestCache(::System::Net::Cache::RequestCache* value);
 
-  /// @brief Method .ctor, addr 0x2f26c4c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x302754c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Cache::RequestCache* requestCache, ::System::Net::Cache::RequestCacheValidator* cacheValidator, ::System::Net::Cache::RequestCachePolicy* policy);
 
-  /// @brief Method get_Cache, addr 0x2f26cc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Cache, addr 0x30275c8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Cache::RequestCache* get_Cache();
 
-  /// @brief Method get_Policy, addr 0x2f26cd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Policy, addr 0x30275d8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Cache::RequestCachePolicy* get_Policy();
 
-  /// @brief Method get_Validator, addr 0x2f26cd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Validator, addr 0x30275d0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Cache::RequestCacheValidator* get_Validator();
 
 protected:

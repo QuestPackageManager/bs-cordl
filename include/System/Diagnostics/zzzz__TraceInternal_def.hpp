@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Diagnostics/TraceInternal.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,7 +45,7 @@ public:
   /// @brief Field listeners, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_listeners, put = setStaticF_listeners))::System::Diagnostics::TraceListenerCollection* listeners;
 
-  /// @brief Method InitializeSettings, addr 0x2ea0910, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InitializeSettings, addr 0x2fa2210, size 0x4, virtual false, abstract: false, final false
   static inline void InitializeSettings();
 
   static inline ::StringW getStaticF_appName();
@@ -59,16 +60,16 @@ public:
 
   static inline ::System::Diagnostics::TraceListenerCollection* getStaticF_listeners();
 
-  /// @brief Method get_AutoFlush, addr 0x2ea0150, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_AutoFlush, addr 0x2fa1a50, size 0x60, virtual false, abstract: false, final false
   static inline bool get_AutoFlush();
 
-  /// @brief Method get_IndentLevel, addr 0x2ea0be8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_IndentLevel, addr 0x2fa24e8, size 0x58, virtual false, abstract: false, final false
   static inline int32_t get_IndentLevel();
 
-  /// @brief Method get_IndentSize, addr 0x2ea0c40, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_IndentSize, addr 0x2fa2540, size 0x60, virtual false, abstract: false, final false
   static inline int32_t get_IndentSize();
 
-  /// @brief Method get_Listeners, addr 0x2e9feb0, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method get_Listeners, addr 0x2fa17b0, size 0x254, virtual false, abstract: false, final false
   static inline ::System::Diagnostics::TraceListenerCollection* get_Listeners();
 
   static inline void setStaticF_appName(::StringW value);

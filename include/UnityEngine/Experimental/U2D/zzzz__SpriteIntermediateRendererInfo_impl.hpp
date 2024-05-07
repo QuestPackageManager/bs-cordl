@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Experimental/U2D/SpriteIntermediateRendererInfo.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "UnityEngine/zzzz__Bounds_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"

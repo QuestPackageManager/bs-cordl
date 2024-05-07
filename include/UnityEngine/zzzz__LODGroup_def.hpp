@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/LODGroup.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,19 +29,19 @@ public:
 
   __declspec(property(get = get_size)) float_t size;
 
-  /// @brief Method GetLODs, addr 0x31ea048, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetLODs, addr 0x33f0d7c, size 0x3c, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::LOD, ::Array<::UnityEngine::LOD>*> GetLODs();
 
-  /// @brief Method RecalculateBounds, addr 0x31ea00c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method RecalculateBounds, addr 0x33f0d40, size 0x3c, virtual false, abstract: false, final false
   inline void RecalculateBounds();
 
-  /// @brief Method SetLODs, addr 0x31ea084, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetLODs, addr 0x33f0db8, size 0x44, virtual false, abstract: false, final false
   inline void SetLODs(::ArrayW<::UnityEngine::LOD, ::Array<::UnityEngine::LOD>*> lods);
 
-  /// @brief Method get_lodCount, addr 0x31e9fd0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_lodCount, addr 0x33f0d04, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_lodCount();
 
-  /// @brief Method get_size, addr 0x31e9f94, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_size, addr 0x33f0cc8, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_size();
 
 protected:

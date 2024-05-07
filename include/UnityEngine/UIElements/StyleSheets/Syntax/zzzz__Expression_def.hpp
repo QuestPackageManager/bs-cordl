@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/Syntax/Expression.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -87,7 +88,7 @@ public:
 
   constexpr void __cordl_internal_set_type(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType value);
 
-  /// @brief Method .ctor, addr 0x3346d20, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x354ba5c, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType type);
 
 protected:

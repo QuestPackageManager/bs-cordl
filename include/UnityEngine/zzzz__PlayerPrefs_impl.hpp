@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/PlayerPrefs.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__PlayerPrefs_def.hpp"
 //  Writing Method size for method: ::UnityEngine::PlayerPrefs.TrySetInt
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, int32_t)>(&::UnityEngine::PlayerPrefs::TrySetInt)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x31cf3dc;
+  constexpr static std::size_t addrs = 0x33d6110;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -20,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, int32_t)>(&::UnityEngine::PlayerPrefs::SetInt)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x31cf420;
+  constexpr static std::size_t addrs = 0x33d6154;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -34,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW, int32_t)>(&::UnityEngine::PlayerPrefs::GetInt)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x31cf4b4;
+  constexpr static std::size_t addrs = 0x33d61e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -48,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW)>(&::UnityEngine::PlayerPrefs::GetInt)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x31cf4f8;
+  constexpr static std::size_t addrs = 0x33d622c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -62,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::StringW)>(&::UnityEngine::PlayerPrefs::GetString)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x31cf538;
+  constexpr static std::size_t addrs = 0x33d626c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -76,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::UnityEngine::PlayerPrefs::GetString)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x31cf57c;
+  constexpr static std::size_t addrs = 0x33d62b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -90,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::UnityEngine::PlayerPrefs::HasKey)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x31cf5e8;
+  constexpr static std::size_t addrs = 0x33d631c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/PanelTextSettings.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,15 +51,15 @@ public:
   static __declspec(property(get = getStaticF_s_DefaultPanelTextSettings,
                              put = setStaticF_s_DefaultPanelTextSettings))::UnityW<::UnityEngine::UIElements::PanelTextSettings> s_DefaultPanelTextSettings;
 
-  /// @brief Method GetCachedFontAsset, addr 0x3396064, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetCachedFontAsset, addr 0x359bda0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> GetCachedFontAsset(::UnityEngine::Font* font);
 
   static inline ::UnityEngine::UIElements::PanelTextSettings* New_ctor();
 
-  /// @brief Method UpdateLocalizationFontAsset, addr 0x3396a54, size 0x4c0, virtual false, abstract: false, final false
+  /// @brief Method UpdateLocalizationFontAsset, addr 0x359c790, size 0x4c0, virtual false, abstract: false, final false
   static inline void UpdateLocalizationFontAsset();
 
-  /// @brief Method .ctor, addr 0x3396f14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x359cc50, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Func_2<::StringW, ::UnityW<::UnityEngine::Object>>* getStaticF_EditorGUIUtilityLoad();
@@ -69,7 +70,7 @@ public:
 
   static inline ::UnityW<::UnityEngine::UIElements::PanelTextSettings> getStaticF_s_DefaultPanelTextSettings();
 
-  /// @brief Method get_defaultPanelTextSettings, addr 0x339656c, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method get_defaultPanelTextSettings, addr 0x359c2a8, size 0x134, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::UIElements::PanelTextSettings> get_defaultPanelTextSettings();
 
   static inline void setStaticF_EditorGUIUtilityLoad(::System::Func_2<::StringW, ::UnityW<::UnityEngine::Object>>* value);

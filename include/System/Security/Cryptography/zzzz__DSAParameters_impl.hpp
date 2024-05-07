@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Cryptography/DSAParameters.hpp"
 #include "System/Security/Cryptography/zzzz__DSAParameters_def.hpp"
 // Ctor Parameters [CppParam { name: "P", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "Q", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>",
 // modifiers: "", def_value: Some("nullptr") }, CppParam { name: "G", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "Y", ty:

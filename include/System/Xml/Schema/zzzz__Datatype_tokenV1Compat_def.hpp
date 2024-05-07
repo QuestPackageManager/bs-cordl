@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/Datatype_tokenV1Compat.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,10 +26,10 @@ public:
 
   static inline ::System::Xml::Schema::Datatype_tokenV1Compat* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e06390, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f04c90, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_TypeCode, addr 0x2e0d9d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x2f0c2d8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Converters/IXmlDeclaration.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__IXmlDeclaration_def.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__IXmlNode_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Converters::IXmlDeclaration.get_Version

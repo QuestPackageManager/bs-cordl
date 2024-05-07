@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Http/StringContent.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,12 +25,12 @@ namespace System::Net::Http {
 class CORDL_TYPE StringContent : public ::System::Net::Http::ByteArrayContent {
 public:
   // Declarations
-  /// @brief Method GetByteArray, addr 0x2c6e130, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetByteArray, addr 0x2d6ba30, size 0x3c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetByteArray(::StringW content, ::System::Text::Encoding* encoding);
 
   static inline ::System::Net::Http::StringContent* New_ctor(::StringW content, ::System::Text::Encoding* encoding, ::StringW mediaType);
 
-  /// @brief Method .ctor, addr 0x2c6e028, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d6b928, size 0x108, virtual false, abstract: false, final false
   inline void _ctor(::StringW content, ::System::Text::Encoding* encoding, ::StringW mediaType);
 
 protected:

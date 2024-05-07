@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/GameplayCoreSceneSetupData.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -14,6 +15,9 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GameplayCoreSceneSetupData)
+namespace BeatSaber::PerformancePresets {
+class PerformancePreset;
+}
 namespace GlobalNamespace {
 class AudioClipAsyncLoader;
 }
@@ -49,9 +53,6 @@ class IReadonlyBeatmapData;
 }
 namespace GlobalNamespace {
 struct LoadBeatmapLevelDataResult;
-}
-namespace GlobalNamespace {
-class MainSettingsModelSO;
 }
 namespace GlobalNamespace {
 class PlayerSpecificSettings;
@@ -117,10 +118,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x25a804c, size 0x4ec, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26a20f0, size 0x4ec, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x25a8538, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x26a25dc, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -191,10 +192,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x25a8544, size 0x23c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26a25e8, size 0x23c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x25a8780, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x26a2824, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -273,8 +274,8 @@ public:
   /// @brief Field _enableBeatmapDataCaching, offset 0xa9, size 0x1
   __declspec(property(get = __cordl_internal_get__enableBeatmapDataCaching, put = __cordl_internal_set__enableBeatmapDataCaching)) bool _enableBeatmapDataCaching;
 
-  /// @brief Field _mainSettingsModel, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get__mainSettingsModel, put = __cordl_internal_set__mainSettingsModel))::UnityW<::GlobalNamespace::MainSettingsModelSO> _mainSettingsModel;
+  /// @brief Field _performancePreset, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get__performancePreset, put = __cordl_internal_set__performancePreset))::BeatSaber::PerformancePresets::PerformancePreset* _performancePreset;
 
   /// @brief Field <songAudioClip>k__BackingField, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__songAudioClip_k__BackingField,
@@ -321,48 +322,46 @@ public:
   /// @brief Field useTestNoteCutSoundEffects, offset 0x50, size 0x1
   __declspec(property(get = __cordl_internal_get_useTestNoteCutSoundEffects, put = __cordl_internal_set_useTestNoteCutSoundEffects)) bool useTestNoteCutSoundEffects;
 
-  /// @brief Method LoadBeatmapLevelData, addr 0x25a7f5c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method LoadBeatmapLevelData, addr 0x26a2000, size 0xf0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IBeatmapLevelData*>* LoadBeatmapLevelData();
 
-  /// @brief Method LoadTransformedBeatmapData, addr 0x25a7c58, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method LoadTransformedBeatmapData, addr 0x26a1cfc, size 0x1e8, virtual false, abstract: false, final false
   inline void LoadTransformedBeatmapData();
 
-  /// @brief Method LoadTransformedBeatmapDataAsync, addr 0x25a7e94, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method LoadTransformedBeatmapDataAsync, addr 0x26a1f38, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* LoadTransformedBeatmapDataAsync();
 
+  static inline ::GlobalNamespace::GameplayCoreSceneSetupData*
+  New_ctor(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
+           ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings, bool useTestNoteCutSoundEffects,
+           ::GlobalNamespace::EnvironmentInfoSO* environmentInfo, ::GlobalNamespace::ColorScheme* colorScheme, ::BeatSaber::PerformancePresets::PerformancePreset* performancePreset,
+           ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader, ::GlobalNamespace::BeatmapDataLoader* beatmapDataLoader, ::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel,
+           bool enableBeatmapDataCaching, ::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData> recordingToolData);
+
+  static inline ::GlobalNamespace::GameplayCoreSceneSetupData*
+  New_ctor(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
+           ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings, bool useTestNoteCutSoundEffects,
+           ::GlobalNamespace::EnvironmentInfoSO* environmentInfo, ::GlobalNamespace::ColorScheme* colorScheme, ::BeatSaber::PerformancePresets::PerformancePreset* performancePreset,
+           ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader, ::GlobalNamespace::BeatmapDataLoader* beatmapDataLoader, bool enableBeatmapDataCaching, bool allowNullBeatmapLevelData,
+           ::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData> recordingToolData);
+
   static inline ::GlobalNamespace::GameplayCoreSceneSetupData* New_ctor(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
                                                                         ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings,
                                                                         ::GlobalNamespace::PracticeSettings* practiceSettings, bool useTestNoteCutSoundEffects,
                                                                         ::GlobalNamespace::EnvironmentInfoSO* environmentInfo, ::GlobalNamespace::ColorScheme* colorScheme,
-                                                                        ::GlobalNamespace::MainSettingsModelSO* mainSettingsModel, ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader,
-                                                                        ::GlobalNamespace::BeatmapDataLoader* beatmapDataLoader, ::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel,
+                                                                        ::BeatSaber::PerformancePresets::PerformancePreset* performancePreset,
+                                                                        ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader, ::GlobalNamespace::BeatmapDataLoader* beatmapDataLoader,
                                                                         bool enableBeatmapDataCaching, ::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData> recordingToolData);
-
-  static inline ::GlobalNamespace::GameplayCoreSceneSetupData* New_ctor(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
-                                                                        ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings,
-                                                                        ::GlobalNamespace::PracticeSettings* practiceSettings, bool useTestNoteCutSoundEffects,
-                                                                        ::GlobalNamespace::EnvironmentInfoSO* environmentInfo, ::GlobalNamespace::ColorScheme* colorScheme,
-                                                                        ::GlobalNamespace::MainSettingsModelSO* mainSettingsModel, ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader,
-                                                                        ::GlobalNamespace::BeatmapDataLoader* beatmapDataLoader, bool enableBeatmapDataCaching, bool allowNullBeatmapLevelData,
-                                                                        ::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData> recordingToolData);
-
-  static inline ::GlobalNamespace::GameplayCoreSceneSetupData* New_ctor(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
-                                                                        ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings,
-                                                                        ::GlobalNamespace::PracticeSettings* practiceSettings, bool useTestNoteCutSoundEffects,
-                                                                        ::GlobalNamespace::EnvironmentInfoSO* environmentInfo, ::GlobalNamespace::ColorScheme* colorScheme,
-                                                                        ::GlobalNamespace::MainSettingsModelSO* mainSettingsModel, ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader,
-                                                                        ::GlobalNamespace::BeatmapDataLoader* beatmapDataLoader, bool enableBeatmapDataCaching,
-                                                                        ::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData> recordingToolData);
 
   static inline ::GlobalNamespace::GameplayCoreSceneSetupData* New_ctor(::GlobalNamespace::IBeatmapLevelData* beatmapLevelData, ByRef<::GlobalNamespace::BeatmapKey> beatmapKey,
                                                                         ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
                                                                         ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings,
                                                                         bool useTestNoteCutSoundEffects, ::GlobalNamespace::EnvironmentInfoSO* environmentInfo,
-                                                                        ::GlobalNamespace::ColorScheme* colorScheme, ::GlobalNamespace::MainSettingsModelSO* mainSettingsModel,
+                                                                        ::GlobalNamespace::ColorScheme* colorScheme, ::BeatSaber::PerformancePresets::PerformancePreset* performancePreset,
                                                                         ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader, ::GlobalNamespace::BeatmapDataLoader* beatmapDataLoader,
                                                                         bool enableBeatmapDataCaching, ::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData> recordingToolData);
 
-  /// @brief Method TransformBeatmapData, addr 0x25a7e40, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method TransformBeatmapData, addr 0x26a1ee4, size 0x54, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IReadonlyBeatmapData* TransformBeatmapData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
 
   constexpr bool const& __cordl_internal_get__allowNullBeatmapLevelData() const;
@@ -389,9 +388,9 @@ public:
 
   constexpr bool& __cordl_internal_get__enableBeatmapDataCaching();
 
-  constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO> const& __cordl_internal_get__mainSettingsModel() const;
+  constexpr ::BeatSaber::PerformancePresets::PerformancePreset*& __cordl_internal_get__performancePreset();
 
-  constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO>& __cordl_internal_get__mainSettingsModel();
+  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::PerformancePresets::PerformancePreset*> const& __cordl_internal_get__performancePreset() const;
 
   constexpr ::UnityW<::UnityEngine::AudioClip> const& __cordl_internal_get__songAudioClip_k__BackingField() const;
 
@@ -453,7 +452,7 @@ public:
 
   constexpr void __cordl_internal_set__enableBeatmapDataCaching(bool value);
 
-  constexpr void __cordl_internal_set__mainSettingsModel(::UnityW<::GlobalNamespace::MainSettingsModelSO> value);
+  constexpr void __cordl_internal_set__performancePreset(::BeatSaber::PerformancePresets::PerformancePreset* value);
 
   constexpr void __cordl_internal_set__songAudioClip_k__BackingField(::UnityW<::UnityEngine::AudioClip> value);
 
@@ -479,50 +478,51 @@ public:
 
   constexpr void __cordl_internal_set_useTestNoteCutSoundEffects(bool value);
 
-  /// @brief Method .ctor, addr 0x25a7960, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a1a44, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
                     ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings, bool useTestNoteCutSoundEffects,
-                    ::GlobalNamespace::EnvironmentInfoSO* environmentInfo, ::GlobalNamespace::ColorScheme* colorScheme, ::GlobalNamespace::MainSettingsModelSO* mainSettingsModel,
+                    ::GlobalNamespace::EnvironmentInfoSO* environmentInfo, ::GlobalNamespace::ColorScheme* colorScheme, ::BeatSaber::PerformancePresets::PerformancePreset* performancePreset,
                     ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader, ::GlobalNamespace::BeatmapDataLoader* beatmapDataLoader, ::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel,
                     bool enableBeatmapDataCaching, ::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData> recordingToolData);
 
-  /// @brief Method .ctor, addr 0x25a79bc, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a1aa0, size 0x194, virtual false, abstract: false, final false
   inline void _ctor(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
                     ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings, bool useTestNoteCutSoundEffects,
-                    ::GlobalNamespace::EnvironmentInfoSO* environmentInfo, ::GlobalNamespace::ColorScheme* colorScheme, ::GlobalNamespace::MainSettingsModelSO* mainSettingsModel,
+                    ::GlobalNamespace::EnvironmentInfoSO* environmentInfo, ::GlobalNamespace::ColorScheme* colorScheme, ::BeatSaber::PerformancePresets::PerformancePreset* performancePreset,
                     ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader, ::GlobalNamespace::BeatmapDataLoader* beatmapDataLoader, bool enableBeatmapDataCaching,
                     bool allowNullBeatmapLevelData, ::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData> recordingToolData);
 
-  /// @brief Method .ctor, addr 0x25a7c0c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a1cb0, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
                     ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings, bool useTestNoteCutSoundEffects,
-                    ::GlobalNamespace::EnvironmentInfoSO* environmentInfo, ::GlobalNamespace::ColorScheme* colorScheme, ::GlobalNamespace::MainSettingsModelSO* mainSettingsModel,
+                    ::GlobalNamespace::EnvironmentInfoSO* environmentInfo, ::GlobalNamespace::ColorScheme* colorScheme, ::BeatSaber::PerformancePresets::PerformancePreset* performancePreset,
                     ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader, ::GlobalNamespace::BeatmapDataLoader* beatmapDataLoader, bool enableBeatmapDataCaching,
                     ::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData> recordingToolData);
 
-  /// @brief Method .ctor, addr 0x25a7b90, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a1c34, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IBeatmapLevelData* beatmapLevelData, ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
                     ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings,
                     bool useTestNoteCutSoundEffects, ::GlobalNamespace::EnvironmentInfoSO* environmentInfo, ::GlobalNamespace::ColorScheme* colorScheme,
-                    ::GlobalNamespace::MainSettingsModelSO* mainSettingsModel, ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader, ::GlobalNamespace::BeatmapDataLoader* beatmapDataLoader,
-                    bool enableBeatmapDataCaching, ::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData> recordingToolData);
+                    ::BeatSaber::PerformancePresets::PerformancePreset* performancePreset, ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader,
+                    ::GlobalNamespace::BeatmapDataLoader* beatmapDataLoader, bool enableBeatmapDataCaching,
+                    ::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData> recordingToolData);
 
-  /// @brief Method get_beatmapLevelData, addr 0x25a7940, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapLevelData, addr 0x26a1a24, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IBeatmapLevelData* get_beatmapLevelData();
 
-  /// @brief Method get_songAudioClip, addr 0x25a7930, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_songAudioClip, addr 0x26a1a14, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::AudioClip> get_songAudioClip();
 
-  /// @brief Method get_transformedBeatmapData, addr 0x25a7950, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_transformedBeatmapData, addr 0x26a1a34, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IReadonlyBeatmapData* get_transformedBeatmapData();
 
-  /// @brief Method set_beatmapLevelData, addr 0x25a7948, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_beatmapLevelData, addr 0x26a1a2c, size 0x8, virtual false, abstract: false, final false
   inline void set_beatmapLevelData(::GlobalNamespace::IBeatmapLevelData* value);
 
-  /// @brief Method set_songAudioClip, addr 0x25a7938, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_songAudioClip, addr 0x26a1a1c, size 0x8, virtual false, abstract: false, final false
   inline void set_songAudioClip(::UnityEngine::AudioClip* value);
 
-  /// @brief Method set_transformedBeatmapData, addr 0x25a7958, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_transformedBeatmapData, addr 0x26a1a3c, size 0x8, virtual false, abstract: false, final false
   inline void set_transformedBeatmapData(::GlobalNamespace::IReadonlyBeatmapData* value);
 
 protected:
@@ -578,8 +578,8 @@ public:
   /// @brief Field <transformedBeatmapData>k__BackingField, offset: 0x80, size: 0x8, def value: None
   ::GlobalNamespace::IReadonlyBeatmapData* ____transformedBeatmapData_k__BackingField;
 
-  /// @brief Field _mainSettingsModel, offset: 0x88, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::MainSettingsModelSO> ____mainSettingsModel;
+  /// @brief Field _performancePreset, offset: 0x88, size: 0x8, def value: None
+  ::BeatSaber::PerformancePresets::PerformancePreset* ____performancePreset;
 
   /// @brief Field _beatmapLevelsModel, offset: 0x90, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevelsModel* ____beatmapLevelsModel;
@@ -627,7 +627,7 @@ static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData, ____beatma
 
 static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData, ____transformedBeatmapData_k__BackingField) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData, ____mainSettingsModel) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData, ____performancePreset) == 0x88, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::GameplayCoreSceneSetupData, ____beatmapLevelsModel) == 0x90, "Offset mismatch!");
 

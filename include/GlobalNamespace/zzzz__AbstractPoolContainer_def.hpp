@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/AbstractPoolContainer.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,7 +24,7 @@ public:
 
   static inline ::GlobalNamespace::AbstractPoolContainer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2579864, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2671cf8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

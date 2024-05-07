@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/EnterTryCatchFinallyInstruction.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,21 +39,21 @@ public:
   /// @brief Field _tryHandler, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__tryHandler, put = __cordl_internal_set__tryHandler))::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler* _tryHandler;
 
-  /// @brief Method CreateTryCatch, addr 0x2b16634, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method CreateTryCatch, addr 0x2c13f34, size 0x68, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::Interpreter::EnterTryCatchFinallyInstruction* CreateTryCatch();
 
-  /// @brief Method CreateTryFinally, addr 0x2b165c8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method CreateTryFinally, addr 0x2c13ec8, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::Interpreter::EnterTryCatchFinallyInstruction* CreateTryFinally(int32_t labelIndex);
 
   static inline ::System::Linq::Expressions::Interpreter::EnterTryCatchFinallyInstruction* New_ctor(int32_t targetIndex, bool hasFinally);
 
-  /// @brief Method Run, addr 0x2b1669c, size 0x4a4, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x2c13f9c, size 0x4a4, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method SetTryHandler, addr 0x2b16580, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetTryHandler, addr 0x2c13e80, size 0x8, virtual false, abstract: false, final false
   inline void SetTryHandler(::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler* tryHandler);
 
-  /// @brief Method ToString, addr 0x2b16bac, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2c144ac, size 0xa0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr bool const& __cordl_internal_get__hasFinally() const;
@@ -67,16 +68,16 @@ public:
 
   constexpr void __cordl_internal_set__tryHandler(::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler* value);
 
-  /// @brief Method .ctor, addr 0x2b16598, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c13e98, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(int32_t targetIndex, bool hasFinally);
 
-  /// @brief Method get_Handler, addr 0x2b16588, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Handler, addr 0x2c13e88, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler* get_Handler();
 
-  /// @brief Method get_InstructionName, addr 0x2b16b40, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x2c14440, size 0x6c, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedContinuations, addr 0x2b16590, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedContinuations, addr 0x2c13e90, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedContinuations();
 
 protected:

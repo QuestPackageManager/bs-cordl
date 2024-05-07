@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Yoga/YogaConstants.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,7 +20,7 @@ namespace UnityEngine::Yoga {
 class CORDL_TYPE YogaConstants : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsUndefined, addr 0x33f2f10, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method IsUndefined, addr 0x35f8c4c, size 0x64, virtual false, abstract: false, final false
   static inline bool IsUndefined(float_t value);
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/__Il2CppComObject.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz____Il2CppComObject_def.hpp"
 //  Writing Method size for method: ::System::__Il2CppComObject.Finalize
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::__Il2CppComObject::*)()>(&::System::__Il2CppComObject::Finalize)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3479790;
+  constexpr static std::size_t addrs = 0x367d758;
 
   inline static ::MethodInfo const* methodInfo() {
 

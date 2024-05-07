@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BaseTransitionSO.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,13 +41,13 @@ public:
 
   constexpr void __cordl_internal_set__transitionTiming(::UnityW<::GlobalNamespace::TransitionTimingSO> value);
 
-  /// @brief Method .ctor, addr 0x263aae0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x273a8cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_easeDuration, addr 0x263aac4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_easeDuration, addr 0x273a8b0, size 0x1c, virtual false, abstract: false, final false
   inline float_t get_easeDuration();
 
-  /// @brief Method get_easeType, addr 0x263aaa8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_easeType, addr 0x273a894, size 0x1c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EaseType get_easeType();
 
 protected:

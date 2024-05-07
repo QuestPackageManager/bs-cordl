@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Configuration/Ipv6Element.hpp"
 #include "System/Configuration/zzzz__ConfigurationElement_impl.hpp"
 #include "System/Net/Configuration/zzzz__Ipv6Element_def.hpp"
 #include "System/Configuration/zzzz__ConfigurationPropertyCollection_def.hpp"
@@ -7,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Configuration::Ipv6Element::*)()>(&::System::Net::Configuration::Ipv6Element::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2e79730;
+  constexpr static std::size_t addrs = 0x2f78030;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Configuration::Ipv6Element*>::get(), ".ctor",
@@ -21,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Configuration::ConfigurationPropertyCollection* (::System::Net::Configuration::Ipv6Element::*)()>(
     &::System::Net::Configuration::Ipv6Element::get_Properties)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2e79768;
+  constexpr static std::size_t addrs = 0x2f78068;
 
   inline static ::MethodInfo const* methodInfo() {
 

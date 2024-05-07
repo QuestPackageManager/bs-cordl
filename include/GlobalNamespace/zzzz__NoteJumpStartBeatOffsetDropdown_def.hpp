@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/NoteJumpStartBeatOffsetDropdown.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,12 +27,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE NoteJumpStartBeatOffsetDropdown : public ::GlobalNamespace::ValueDropdownController_1<float_t> {
 public:
   // Declarations
-  /// @brief Method GetNamedValues, addr 0x253cbd0, size 0x198, virtual true, abstract: false, final false
+  /// @brief Method GetNamedValues, addr 0x2633248, size 0x198, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<float_t, ::StringW>*>* GetNamedValues();
 
   static inline ::GlobalNamespace::NoteJumpStartBeatOffsetDropdown* New_ctor();
 
-  /// @brief Method .ctor, addr 0x253cd68, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26333e0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

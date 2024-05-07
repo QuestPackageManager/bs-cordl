@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ComponentModel/Design/CheckoutException.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,13 +36,13 @@ public:
 
   static inline ::System::ComponentModel::Design::CheckoutException* New_ctor(::StringW message, int32_t errorCode);
 
-  /// @brief Method .ctor, addr 0x2e6d004, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f6b904, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2e6d014, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f6b914, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x2e6d00c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f6b90c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, int32_t errorCode);
 
   static inline ::System::ComponentModel::Design::CheckoutException* getStaticF_Canceled();

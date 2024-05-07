@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/StylePropertyCache.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,10 +30,10 @@ public:
   /// @brief Field s_PropertySyntaxCache, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_PropertySyntaxCache, put = setStaticF_s_PropertySyntaxCache))::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* s_PropertySyntaxCache;
 
-  /// @brief Method TryGetNonTerminalValue, addr 0x333f1ec, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method TryGetNonTerminalValue, addr 0x3543f28, size 0x90, virtual false, abstract: false, final false
   static inline bool TryGetNonTerminalValue(::StringW name, ByRef<::StringW> syntax);
 
-  /// @brief Method TryGetSyntax, addr 0x333f15c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method TryGetSyntax, addr 0x3543e98, size 0x90, virtual false, abstract: false, final false
   static inline bool TryGetSyntax(::StringW name, ByRef<::StringW> syntax);
 
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* getStaticF_s_NonTerminalValues();

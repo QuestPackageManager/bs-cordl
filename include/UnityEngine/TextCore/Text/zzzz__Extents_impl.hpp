@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/TextCore/Text/Extents.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__Extents_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
@@ -7,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::TextCore::Text::Extents::*)()>(&::UnityEngine::TextCore::Text::Extents::ToString)> {
   constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x3290030;
+  constexpr static std::size_t addrs = 0x3498d6c;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/TransformExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__TransformExtensions_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (*)(::UnityEngine::Transform*, ::UnityEngine::Quaternion)>(
     &::GlobalNamespace::TransformExtensions::InverseTransformRotation)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0xf91060;
+  constexpr static std::size_t addrs = 0x108596c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

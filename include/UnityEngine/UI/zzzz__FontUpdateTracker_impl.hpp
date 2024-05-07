@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UI/FontUpdateTracker.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UI/zzzz__FontUpdateTracker_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -10,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UI::Text*)>(&::UnityEngine::UI::FontUpdateTracker::TrackText)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x32a93a4;
+  constexpr static std::size_t addrs = 0x34b00e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Font*)>(&::UnityEngine::UI::FontUpdateTracker::RebuildForFont)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x32a95f4;
+  constexpr static std::size_t addrs = 0x34b0330;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UI::Text*)>(&::UnityEngine::UI::FontUpdateTracker::UntrackText)> {
   constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x32a9798;
+  constexpr static std::size_t addrs = 0x34b04d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

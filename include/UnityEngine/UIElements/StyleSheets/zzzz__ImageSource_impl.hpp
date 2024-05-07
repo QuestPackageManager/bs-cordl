@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/ImageSource.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__ImageSource_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VectorImage_def.hpp"
 #include "UnityEngine/zzzz__RenderTexture_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::StyleSheets::ImageSource::*)()>(
     &::UnityEngine::UIElements::StyleSheets::ImageSource::IsNull)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x333611c;
+  constexpr static std::size_t addrs = 0x353ae58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::ImageSource>::get(),

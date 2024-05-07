@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ProBuilder/KdTree/Math/DoubleMath.hpp"
 #include "UnityEngine/ProBuilder/KdTree/Math/zzzz__TypeMath_1_impl.hpp"
 #include "UnityEngine/ProBuilder/KdTree/Math/zzzz__DoubleMath_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ProBuilder::KdTree::Math::DoubleMath.Compare
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ProBuilder::KdTree::Math::DoubleMath::*)(double_t, double_t)>(
     &::UnityEngine::ProBuilder::KdTree::Math::DoubleMath::Compare)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x305edc8;
+  constexpr static std::size_t addrs = 0x3266850;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::KdTree::Math::DoubleMath::*)(double_t, double_t)>(
     &::UnityEngine::ProBuilder::KdTree::Math::DoubleMath::AreEqual)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x305ede8;
+  constexpr static std::size_t addrs = 0x3266870;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -39,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::UnityEngine::ProBuilder::KdTree::Math::DoubleMath::*)()>(
     &::UnityEngine::ProBuilder::KdTree::Math::DoubleMath::get_MinValue)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x305edf4;
+  constexpr static std::size_t addrs = 0x326687c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::UnityEngine::ProBuilder::KdTree::Math::DoubleMath::*)()>(
     &::UnityEngine::ProBuilder::KdTree::Math::DoubleMath::get_MaxValue)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x305ee00;
+  constexpr static std::size_t addrs = 0x3266888;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -71,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::UnityEngine::ProBuilder::KdTree::Math::DoubleMath::*)()>(
     &::UnityEngine::ProBuilder::KdTree::Math::DoubleMath::get_Zero)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x305ee0c;
+  constexpr static std::size_t addrs = 0x3266894;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -87,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::UnityEngine::ProBuilder::KdTree::Math::DoubleMath::*)()>(
     &::UnityEngine::ProBuilder::KdTree::Math::DoubleMath::get_NegativeInfinity)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x305ee14;
+  constexpr static std::size_t addrs = 0x326689c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -103,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::UnityEngine::ProBuilder::KdTree::Math::DoubleMath::*)()>(
     &::UnityEngine::ProBuilder::KdTree::Math::DoubleMath::get_PositiveInfinity)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x305ee20;
+  constexpr static std::size_t addrs = 0x32668a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -119,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::UnityEngine::ProBuilder::KdTree::Math::DoubleMath::*)(double_t, double_t)>(
     &::UnityEngine::ProBuilder::KdTree::Math::DoubleMath::Add)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x305ee2c;
+  constexpr static std::size_t addrs = 0x32668b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -135,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::UnityEngine::ProBuilder::KdTree::Math::DoubleMath::*)(double_t, double_t)>(
     &::UnityEngine::ProBuilder::KdTree::Math::DoubleMath::Subtract)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x305ee34;
+  constexpr static std::size_t addrs = 0x32668bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -151,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::UnityEngine::ProBuilder::KdTree::Math::DoubleMath::*)(double_t, double_t)>(
     &::UnityEngine::ProBuilder::KdTree::Math::DoubleMath::Multiply)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x305ee3c;
+  constexpr static std::size_t addrs = 0x32668c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -167,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::UnityEngine::ProBuilder::KdTree::Math::DoubleMath::*)(
     ::ArrayW<double_t, ::Array<double_t>*>, ::ArrayW<double_t, ::Array<double_t>*>)>(&::UnityEngine::ProBuilder::KdTree::Math::DoubleMath::DistanceSquaredBetweenPoints)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x305ee44;
+  constexpr static std::size_t addrs = 0x32668cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -183,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::KdTree::Math::DoubleMath::*)()>(
     &::UnityEngine::ProBuilder::KdTree::Math::DoubleMath::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x305ef44;
+  constexpr static std::size_t addrs = 0x32669cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::KdTree::Math::DoubleMath*>::get(),

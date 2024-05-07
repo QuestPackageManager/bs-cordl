@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/PyramidBloomMainEffectSO.hpp"
 #include "GlobalNamespace/zzzz__MainEffectSO_impl.hpp"
 #include "GlobalNamespace/zzzz__PyramidBloomRendererSO_impl.hpp"
 #include "GlobalNamespace/zzzz__PyramidBloomMainEffectSO_def.hpp"
@@ -13,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PyramidBloomMainEffectSO::*)()>(
     &::GlobalNamespace::PyramidBloomMainEffectSO::get_hasPostProcessEffect)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ad868c;
+  constexpr static std::size_t addrs = 0x2bd4f34;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PyramidBloomMainEffectSO::*)()>(&::GlobalNamespace::PyramidBloomMainEffectSO::OnEnable)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2ad8694;
+  constexpr static std::size_t addrs = 0x2bd4f3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PyramidBloomMainEffectSO::*)()>(&::GlobalNamespace::PyramidBloomMainEffectSO::OnDisable)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x2ad87d4;
+  constexpr static std::size_t addrs = 0x2bd507c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PyramidBloomMainEffectSO*>::get(), "OnDisable",
@@ -55,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PyramidBloomMainEffectSO::*)()>(
     &::GlobalNamespace::PyramidBloomMainEffectSO::LazyInitializeMaterials)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x2ad86b0;
+  constexpr static std::size_t addrs = 0x2bd4f58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PyramidBloomMainEffectSO*>::get(),
@@ -68,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PyramidBloomMainEffectSO::*)()>(&::GlobalNamespace::PyramidBloomMainEffectSO::PreRender)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2ad8804;
+  constexpr static std::size_t addrs = 0x2bd50ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -83,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::PyramidBloomMainEffectSO::*)(::UnityEngine::RenderTexture*, ::UnityEngine::RenderTexture*, float_t)>(&::GlobalNamespace::PyramidBloomMainEffectSO::Render)> {
   constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x2ad8868;
+  constexpr static std::size_t addrs = 0x2bd5110;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -97,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PyramidBloomMainEffectSO::*)()>(&::GlobalNamespace::PyramidBloomMainEffectSO::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2ad8ae4;
+  constexpr static std::size_t addrs = 0x2bd538c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PyramidBloomMainEffectSO*>::get(), ".ctor",

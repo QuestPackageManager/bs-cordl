@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/X25519PublicKeyParameters.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,10 +30,10 @@ public:
   /// @brief Field data, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data))::ArrayW<uint8_t, ::Array<uint8_t>*> data;
 
-  /// @brief Method Encode, addr 0x10a5fa0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x11996c4, size 0x84, virtual false, abstract: false, final false
   inline void Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off);
 
-  /// @brief Method GetEncoded, addr 0x10a6178, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x119989c, size 0x5c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::X25519PublicKeyParameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off);
@@ -45,10 +46,10 @@ public:
 
   constexpr void __cordl_internal_set_data(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x10a5df0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1199514, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off);
 
-  /// @brief Method .ctor, addr 0x10a6070, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1199794, size 0x108, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* input);
 
   static inline int32_t getStaticF_KeySize();

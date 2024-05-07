@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Asn1OutputStream.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerOutputStream_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1OutputStream_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Asn1OutputStream::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Asn1::Asn1OutputStream::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x13270d4;
+  constexpr static std::size_t addrs = 0x141a7f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Asn1OutputStream::*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Asn1OutputStream::WriteObject)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x13270d8;
+  constexpr static std::size_t addrs = 0x141a7fc;
 
   inline static ::MethodInfo const* methodInfo() {
 

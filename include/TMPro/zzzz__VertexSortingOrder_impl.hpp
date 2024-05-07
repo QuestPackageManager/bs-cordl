@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/VertexSortingOrder.hpp"
 #include "TMPro/zzzz__VertexSortingOrder_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::TMPro::VertexSortingOrder::VertexSortingOrder(int32_t value__) noexcept {

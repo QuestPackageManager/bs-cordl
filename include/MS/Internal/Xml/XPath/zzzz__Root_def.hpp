@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "MS/Internal/Xml/XPath/Root.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,13 +31,13 @@ public:
 
   static inline ::MS::Internal::Xml::XPath::Root* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d61ea4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e5e7a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ReturnType, addr 0x2d61eb4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ReturnType, addr 0x2e5e7b4, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XPath::XPathResultType get_ReturnType();
 
-  /// @brief Method get_Type, addr 0x2d61eac, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x2e5e7ac, size 0x8, virtual true, abstract: false, final false
   inline ::MS::Internal::Xml::XPath::__AstNode__AstType get_Type();
 
 protected:

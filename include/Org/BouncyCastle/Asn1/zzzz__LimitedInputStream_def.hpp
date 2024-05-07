@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/LimitedInputStream.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,7 +33,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::LimitedInputStream* New_ctor(::System::IO::Stream* inStream, int32_t limit);
 
-  /// @brief Method SetParentEofDetect, addr 0x132f1d8, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method SetParentEofDetect, addr 0x14228fc, size 0x90, virtual true, abstract: false, final false
   inline void SetParentEofDetect(bool on);
 
   constexpr ::System::IO::Stream*& __cordl_internal_get__in();
@@ -47,10 +48,10 @@ public:
 
   constexpr void __cordl_internal_set__limit(int32_t value);
 
-  /// @brief Method .ctor, addr 0x132f1a4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14228c8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* inStream, int32_t limit);
 
-  /// @brief Method get_Limit, addr 0x132f1d0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Limit, addr 0x14228f4, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Limit();
 
 protected:

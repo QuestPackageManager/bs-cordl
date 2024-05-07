@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/CachingEventHandler.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,12 +26,12 @@ namespace System::Xml {
 class CORDL_TYPE CachingEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2d8bcd4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2e885d4, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Xml::XsdCachingReader* cachingReader);
 
   static inline ::System::Xml::CachingEventHandler* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2d8bba8, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e884a8, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:

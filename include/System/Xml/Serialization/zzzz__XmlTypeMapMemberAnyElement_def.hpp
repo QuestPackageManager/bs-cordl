@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Serialization/XmlTypeMapMemberAnyElement.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,15 +22,15 @@ public:
   // Declarations
   __declspec(property(get = get_IsDefaultAny)) bool IsDefaultAny;
 
-  /// @brief Method IsElementDefined, addr 0x2dec02c, size 0x34c, virtual false, abstract: false, final false
+  /// @brief Method IsElementDefined, addr 0x2eea92c, size 0x34c, virtual false, abstract: false, final false
   inline bool IsElementDefined(::StringW name, ::StringW ns);
 
   static inline ::System::Xml::Serialization::XmlTypeMapMemberAnyElement* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2def230, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2eedb30, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsDefaultAny, addr 0x2deef34, size 0x2fc, virtual false, abstract: false, final false
+  /// @brief Method get_IsDefaultAny, addr 0x2eed834, size 0x2fc, virtual false, abstract: false, final false
   inline bool get_IsDefaultAny();
 
 protected:

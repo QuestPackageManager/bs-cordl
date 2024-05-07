@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Sockets/SendPacketsElement.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Sockets/zzzz__SendPacketsElement_def.hpp"
 constexpr ::StringW& System::Net::Sockets::SendPacketsElement::__cordl_internal_get_m_FilePath() {

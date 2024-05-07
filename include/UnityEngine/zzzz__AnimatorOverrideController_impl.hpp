@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/AnimatorOverrideController.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/zzzz__RuntimeAnimatorController_impl.hpp"
 #include "UnityEngine/zzzz__AnimatorOverrideController_def.hpp"
@@ -14,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__AnimatorOverrideController__OnOverrideControllerDirtyCallback::*)(::System::Object*, void*)>(
     &::UnityEngine::__AnimatorOverrideController__OnOverrideControllerDirtyCallback::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x31bc79c;
+  constexpr static std::size_t addrs = 0x33c2224;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__AnimatorOverrideController__OnOverrideControllerDirtyCallback::*)()>(
     &::UnityEngine::__AnimatorOverrideController__OnOverrideControllerDirtyCallback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x31bc858;
+  constexpr static std::size_t addrs = 0x33c22e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -64,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AnimatorOverrideController::*)(::UnityEngine::RuntimeAnimatorController*)>(
     &::UnityEngine::AnimatorOverrideController::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x31bc388;
+  constexpr static std::size_t addrs = 0x33c1e10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::AnimatorOverrideController*, ::UnityEngine::RuntimeAnimatorController*)>(
     &::UnityEngine::AnimatorOverrideController::Internal_Create)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x31bc430;
+  constexpr static std::size_t addrs = 0x33c1eb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -95,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::UnityEngine::AnimatorOverrideController::*)(::UnityEngine::AnimationClip*, ::UnityEngine::AnimationClip*, bool)>(&::UnityEngine::AnimatorOverrideController::SetClip)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x31bc474;
+  constexpr static std::size_t addrs = 0x33c1efc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -112,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AnimatorOverrideController::*)()>(
     &::UnityEngine::AnimatorOverrideController::SendNotification)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x31bc4d0;
+  constexpr static std::size_t addrs = 0x33c1f58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AnimatorOverrideController*>::get(),
@@ -127,7 +128,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::IList_1<::System::Collections::Generic::KeyValuePair_2<::UnityW<::UnityEngine::AnimationClip>, ::UnityW<::UnityEngine::AnimationClip>>>*)>(
     &::UnityEngine::AnimatorOverrideController::ApplyOverrides)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x31bc50c;
+  constexpr static std::size_t addrs = 0x33c1f94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -143,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::AnimatorOverrideController*)>(
     &::UnityEngine::AnimatorOverrideController::OnInvalidateOverrideController)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x31bc76c;
+  constexpr static std::size_t addrs = 0x33c21f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

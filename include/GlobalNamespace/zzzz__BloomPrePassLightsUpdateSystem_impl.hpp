@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BloomPrePassLightsUpdateSystem.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassLightsUpdateSystem_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BloomPrePassLightsUpdateSystem.LateUpdate
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassLightsUpdateSystem::*)()>(
     &::GlobalNamespace::BloomPrePassLightsUpdateSystem::LateUpdate)> {
   constexpr static std::size_t size = 0x2f0;
-  constexpr static std::size_t addrs = 0x23f1d64;
+  constexpr static std::size_t addrs = 0x24e9954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassLightsUpdateSystem*>::get(),
@@ -21,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassLightsUpdateSystem::*)()>(
     &::GlobalNamespace::BloomPrePassLightsUpdateSystem::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23f2054;
+  constexpr static std::size_t addrs = 0x24e9c44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassLightsUpdateSystem*>::get(),

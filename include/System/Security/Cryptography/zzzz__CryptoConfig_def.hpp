@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Cryptography/CryptoConfig.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,26 +37,26 @@ public:
   /// @brief Field lockObject, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_lockObject, put = setStaticF_lockObject))::System::Object* lockObject;
 
-  /// @brief Method CreateFromName, addr 0x26ee728, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CreateFromName, addr 0x27ebb24, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Object* CreateFromName(::StringW name);
 
-  /// @brief Method CreateFromName, addr 0x26ef9f0, size 0x1f2c, virtual false, abstract: false, final false
+  /// @brief Method CreateFromName, addr 0x27ecdec, size 0x1f2c, virtual false, abstract: false, final false
   static inline ::System::Object* CreateFromName(::StringW name, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method EncodeLongNumber, addr 0x26f25b0, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method EncodeLongNumber, addr 0x27ef9ac, size 0x190, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodeLongNumber(int64_t x);
 
-  /// @brief Method EncodeOID, addr 0x26f21a4, size 0x40c, virtual false, abstract: false, final false
+  /// @brief Method EncodeOID, addr 0x27ef5a0, size 0x40c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodeOID(::StringW str);
 
-  /// @brief Method MapNameToOID, addr 0x26f19f0, size 0x7b4, virtual false, abstract: false, final false
+  /// @brief Method MapNameToOID, addr 0x27eedec, size 0x7b4, virtual false, abstract: false, final false
   static inline ::StringW MapNameToOID(::StringW name);
 
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Type*>* getStaticF_algorithms();
 
   static inline ::System::Object* getStaticF_lockObject();
 
-  /// @brief Method get_AllowOnlyFipsAlgorithms, addr 0x26ea44c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AllowOnlyFipsAlgorithms, addr 0x27e7848, size 0x8, virtual false, abstract: false, final false
   static inline bool get_AllowOnlyFipsAlgorithms();
 
   static inline void setStaticF_algorithms(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Type*>* value);

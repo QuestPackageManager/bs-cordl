@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SelectLanguageViewController.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,18 +41,18 @@ public:
   /// @brief Field didPressContinueButtonEvent, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get_didPressContinueButtonEvent, put = __cordl_internal_set_didPressContinueButtonEvent))::System::Action* didPressContinueButtonEvent;
 
-  /// @brief Method DidActivate, addr 0x2568a24, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x265db00, size 0x100, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method HandleLanguageSettingsControllerOndropDownValueDidChange, addr 0x2568c04, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleLanguageSettingsControllerOndropDownValueDidChange, addr 0x265dce0, size 0x1c, virtual false, abstract: false, final false
   inline void HandleLanguageSettingsControllerOndropDownValueDidChange();
 
   static inline ::GlobalNamespace::SelectLanguageViewController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x2568b24, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x265dc00, size 0xe0, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method <DidActivate>b__8_0, addr 0x2568c28, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__8_0, addr 0x265dd04, size 0x1c, virtual false, abstract: false, final false
   inline void _DidActivate_b__8_0();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__continueButton() const;
@@ -78,19 +79,19 @@ public:
 
   constexpr void __cordl_internal_set_didPressContinueButtonEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x2568c20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x265dcfc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didChangeLanguageEvent, addr 0x25687b4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didChangeLanguageEvent, addr 0x265d890, size 0x9c, virtual false, abstract: false, final false
   inline void add_didChangeLanguageEvent(::System::Action* value);
 
-  /// @brief Method add_didPressContinueButtonEvent, addr 0x25688ec, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didPressContinueButtonEvent, addr 0x265d9c8, size 0x9c, virtual false, abstract: false, final false
   inline void add_didPressContinueButtonEvent(::System::Action* value);
 
-  /// @brief Method remove_didChangeLanguageEvent, addr 0x2568850, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didChangeLanguageEvent, addr 0x265d92c, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didChangeLanguageEvent(::System::Action* value);
 
-  /// @brief Method remove_didPressContinueButtonEvent, addr 0x2568988, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didPressContinueButtonEvent, addr 0x265da64, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didPressContinueButtonEvent(::System::Action* value);
 
 protected:

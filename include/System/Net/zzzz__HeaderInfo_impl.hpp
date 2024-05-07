@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/HeaderInfo.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__HeaderInfo_def.hpp"
 #include "System/Net/zzzz__HeaderParser_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HeaderInfo::*)(::StringW, bool, bool, bool, ::System::Net::HeaderParser*)>(
     &::System::Net::HeaderInfo::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2eda760;
+  constexpr static std::size_t addrs = 0x2fdd060;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

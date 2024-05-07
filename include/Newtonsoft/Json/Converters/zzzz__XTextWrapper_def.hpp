@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Converters/XTextWrapper.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,19 +34,19 @@ public:
 
   static inline ::Newtonsoft::Json::Converters::XTextWrapper* New_ctor(::System::Xml::Linq::XText* text);
 
-  /// @brief Method .ctor, addr 0x2990f00, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a8e7b0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XText* text);
 
-  /// @brief Method get_ParentNode, addr 0x2990fb0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_ParentNode, addr 0x2a8e860, size 0x44, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Converters::IXmlNode* get_ParentNode();
 
-  /// @brief Method get_Text, addr 0x2990e88, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_Text, addr 0x2a8e738, size 0x78, virtual false, abstract: false, final false
   inline ::System::Xml::Linq::XText* get_Text();
 
-  /// @brief Method get_Value, addr 0x2990f28, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x2a8e7d8, size 0x1c, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method set_Value, addr 0x2990f44, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method set_Value, addr 0x2a8e7f4, size 0x6c, virtual true, abstract: false, final false
   inline void set_Value(::StringW value);
 
 protected:

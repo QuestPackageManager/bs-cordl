@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/AudioReferenceCountingCache.hpp"
 #include "GlobalNamespace/zzzz__ReferenceCountingCache_2_impl.hpp"
 #include "GlobalNamespace/zzzz__AudioReferenceCountingCache_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
@@ -8,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioReferenceCountingCache::*)()>(&::GlobalNamespace::AudioReferenceCountingCache::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x265e470;
+  constexpr static std::size_t addrs = 0x275d90c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioReferenceCountingCache*>::get(), ".ctor",

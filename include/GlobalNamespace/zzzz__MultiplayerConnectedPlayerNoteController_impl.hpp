@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MultiplayerConnectedPlayerNoteController.hpp"
 #include "GlobalNamespace/zzzz__NoteController_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerNoteController_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerNoteController::*)(bool)>(
     &::GlobalNamespace::MultiplayerConnectedPlayerNoteController::HiddenStateDidChange)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x25f465c;
+  constexpr static std::size_t addrs = 0x26f3474;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerNoteController::*)(bool)>(
     &::GlobalNamespace::MultiplayerConnectedPlayerNoteController::Pause)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x25f4680;
+  constexpr static std::size_t addrs = 0x26f3498;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerNoteController::*)()>(
     &::GlobalNamespace::MultiplayerConnectedPlayerNoteController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25f43d0;
+  constexpr static std::size_t addrs = 0x26f31e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

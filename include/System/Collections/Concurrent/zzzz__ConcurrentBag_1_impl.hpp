@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Collections/Concurrent/ConcurrentBag_1.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/Concurrent/zzzz__ConcurrentBag_1_def.hpp"
 #include "System/Collections/Concurrent/zzzz__ConcurrentBag_1_def.hpp"

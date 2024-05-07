@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Security/PasswordException.hpp"
 #include "System/IO/zzzz__IOException_impl.hpp"
 #include "Org/BouncyCastle/Security/zzzz__PasswordException_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Security::PasswordException::*)(::StringW)>(
     &::Org::BouncyCastle::Security::PasswordException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x124166c;
+  constexpr static std::size_t addrs = 0x1332d90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Security::PasswordException::*)(::StringW, ::System::Exception*)>(
     &::Org::BouncyCastle::Security::PasswordException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1241674;
+  constexpr static std::size_t addrs = 0x1332d98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

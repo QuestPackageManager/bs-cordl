@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Bindings/VisibleToOtherModulesAttribute.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,10 +25,10 @@ public:
 
   static inline ::UnityEngine::Bindings::VisibleToOtherModulesAttribute* New_ctor(::ArrayW<::StringW, ::Array<::StringW>*> modules);
 
-  /// @brief Method .ctor, addr 0x3266a3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x346f778, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3266a44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x346f780, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::StringW, ::Array<::StringW>*> modules);
 
 protected:

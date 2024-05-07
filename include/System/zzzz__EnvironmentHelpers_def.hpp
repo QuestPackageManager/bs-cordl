@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/EnvironmentHelpers.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,7 +19,7 @@ namespace System {
 class CORDL_TYPE EnvironmentHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsWindowsVistaOrAbove, addr 0x2e81d0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsWindowsVistaOrAbove, addr 0x2f8160c, size 0x8, virtual false, abstract: false, final false
   static inline bool IsWindowsVistaOrAbove();
 
 protected:

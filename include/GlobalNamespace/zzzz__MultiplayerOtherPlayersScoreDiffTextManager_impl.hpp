@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MultiplayerOtherPlayersScoreDiffTextManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerOtherPlayersScoreDiffTextManager_def.hpp"
@@ -16,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MultiplayerOtherPlayersScoreDiffTextManager____c::*)()>(
     &::GlobalNamespace::__MultiplayerOtherPlayersScoreDiffTextManager____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2616098;
+  constexpr static std::size_t addrs = 0x2715f24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -31,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__MultiplayerOtherPlayersScoreDiffTextManager____c::*)(
     ::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*)>(&::GlobalNamespace::__MultiplayerOtherPlayersScoreDiffTextManager____c::_Update_b__10_0)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x26160a0;
+  constexpr static std::size_t addrs = 0x2715f2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::*)()>(
     &::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::Start)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x26150ec;
+  constexpr static std::size_t addrs = 0x2714f78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -98,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::*)()>(
     &::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::OnDestroy)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x26151a4;
+  constexpr static std::size_t addrs = 0x2715030;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -113,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::*)()>(
     &::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::Update)> {
   constexpr static std::size_t size = 0x3d4;
-  constexpr static std::size_t addrs = 0x2615274;
+  constexpr static std::size_t addrs = 0x2715100;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -128,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::*)()>(
     &::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::InitLeftRightPositions)> {
   constexpr static std::size_t size = 0x4bc;
-  constexpr static std::size_t addrs = 0x2615a08;
+  constexpr static std::size_t addrs = 0x2715894;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -143,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::*)()>(
     &::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::HideAll)> {
   constexpr static std::size_t size = 0x3c0;
-  constexpr static std::size_t addrs = 0x2615648;
+  constexpr static std::size_t addrs = 0x27154d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -158,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::*)(
     ::GlobalNamespace::__MultiplayerController__State)>(&::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::HandleStateChanged)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x2615ec4;
+  constexpr static std::size_t addrs = 0x2715d50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -173,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::*)()>(
     &::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x261602c;
+  constexpr static std::size_t addrs = 0x2715eb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

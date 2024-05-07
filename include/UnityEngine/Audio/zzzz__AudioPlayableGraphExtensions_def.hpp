@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Audio/AudioPlayableGraphExtensions.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,7 +27,7 @@ namespace UnityEngine::Audio {
 class CORDL_TYPE AudioPlayableGraphExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InternalCreateAudioOutput, addr 0x31cbeb8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method InternalCreateAudioOutput, addr 0x33d2940, size 0x54, virtual false, abstract: false, final false
   static inline bool InternalCreateAudioOutput(ByRef<::UnityEngine::Playables::PlayableGraph> graph, ::StringW name, ByRef<::UnityEngine::Playables::PlayableOutputHandle> handle);
 
 protected:

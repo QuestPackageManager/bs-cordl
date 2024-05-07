@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MultiplayerOutroAnimationController.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__PropertyName_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerOutroAnimationController_def.hpp"
@@ -20,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerOutroAnimationController::*)()>(
     &::GlobalNamespace::MultiplayerOutroAnimationController::Start)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x26160b4;
+  constexpr static std::size_t addrs = 0x2715f40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerOutroAnimationController*>::get(),
@@ -34,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerOutroAnimationController::*)()>(
     &::GlobalNamespace::MultiplayerOutroAnimationController::OnValidate)> {
   constexpr static std::size_t size = 0x7a4;
-  constexpr static std::size_t addrs = 0x2616214;
+  constexpr static std::size_t addrs = 0x27160a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerOutroAnimationController*>::get(),
@@ -48,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerOutroAnimationController::*)()>(
     &::GlobalNamespace::MultiplayerOutroAnimationController::OnDestroy)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x26169b8;
+  constexpr static std::size_t addrs = 0x2716844;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerOutroAnimationController*>::get(),
@@ -62,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerOutroAnimationController::*)(
     ::GlobalNamespace::MultiplayerResultsData*, ::System::Action*)>(&::GlobalNamespace::MultiplayerOutroAnimationController::AnimateOutro)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x260a468;
+  constexpr static std::size_t addrs = 0x270a2f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -78,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerOutroAnimationController::*)()>(
     &::GlobalNamespace::MultiplayerOutroAnimationController::BindOutroTimeline)> {
   constexpr static std::size_t size = 0x6b4;
-  constexpr static std::size_t addrs = 0x2616b24;
+  constexpr static std::size_t addrs = 0x27169b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerOutroAnimationController*>::get(),
@@ -92,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerOutroAnimationController::*)(
     ::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*>, bool, bool, ::UnityEngine::GameObject*)>(&::GlobalNamespace::MultiplayerOutroAnimationController::BindRingsAndAudio)> {
   constexpr static std::size_t size = 0x724;
-  constexpr static std::size_t addrs = 0x26173f8;
+  constexpr static std::size_t addrs = 0x2717284;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -109,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerOutroAnimationController::*)()>(
     &::GlobalNamespace::MultiplayerOutroAnimationController::Completed)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2618130;
+  constexpr static std::size_t addrs = 0x2717fbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerOutroAnimationController*>::get(),
@@ -123,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerOutroAnimationController::*)()>(
     &::GlobalNamespace::MultiplayerOutroAnimationController::HandlePlayerSpawningDidFinish)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2616154;
+  constexpr static std::size_t addrs = 0x2715fe0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerOutroAnimationController*>::get(),
@@ -137,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerOutroAnimationController::*)()>(
     &::GlobalNamespace::MultiplayerOutroAnimationController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2618554;
+  constexpr static std::size_t addrs = 0x27183e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerOutroAnimationController*>::get(),

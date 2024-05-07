@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ParseNumbers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__ParseNumbers_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
@@ -7,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::System::ReadOnlySpan_1<char16_t>, int32_t, int32_t)>(&::System::ParseNumbers::StringToLong)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x284390c;
+  constexpr static std::size_t addrs = 0x29430e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::System::ReadOnlySpan_1<char16_t>, int32_t, int32_t, ByRef<int32_t>)>(
     &::System::ParseNumbers::StringToLong)> {
   constexpr static std::size_t size = 0x370;
-  constexpr static std::size_t addrs = 0x2843924;
+  constexpr static std::size_t addrs = 0x29430f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::ReadOnlySpan_1<char16_t>, int32_t, int32_t)>(&::System::ParseNumbers::StringToInt)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x2843f48;
+  constexpr static std::size_t addrs = 0x294371c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -55,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::ReadOnlySpan_1<char16_t>, int32_t, int32_t, ByRef<int32_t>)>(
     &::System::ParseNumbers::StringToInt)> {
   constexpr static std::size_t size = 0x3cc;
-  constexpr static std::size_t addrs = 0x2843f60;
+  constexpr static std::size_t addrs = 0x2943734;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -71,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(int32_t, int32_t, int32_t, char16_t, int32_t)>(&::System::ParseNumbers::IntToString)> {
   constexpr static std::size_t size = 0x380;
-  constexpr static std::size_t addrs = 0x2844550;
+  constexpr static std::size_t addrs = 0x2943d24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -87,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(int64_t, int32_t, int32_t, char16_t, int32_t)>(&::System::ParseNumbers::LongToString)> {
   constexpr static std::size_t size = 0x3fc;
-  constexpr static std::size_t addrs = 0x28448d0;
+  constexpr static std::size_t addrs = 0x29440a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -103,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::ReadOnlySpan_1<char16_t>, ByRef<int32_t>)>(&::System::ParseNumbers::EatWhiteSpace)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x2843c94;
+  constexpr static std::size_t addrs = 0x2943468;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -118,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(int32_t, ::System::ReadOnlySpan_1<char16_t>, ByRef<int32_t>, bool)>(&::System::ParseNumbers::GrabLongs)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x2843d58;
+  constexpr static std::size_t addrs = 0x294352c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -134,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, ::System::ReadOnlySpan_1<char16_t>, ByRef<int32_t>, bool)>(&::System::ParseNumbers::GrabInts)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x284432c;
+  constexpr static std::size_t addrs = 0x2943b00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -150,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::ParseNumbers::ThrowOverflowInt32Exception)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x2844d64;
+  constexpr static std::size_t addrs = 0x2944538;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ParseNumbers*>::get(), "ThrowOverflowInt32Exception",
@@ -163,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::ParseNumbers::ThrowOverflowInt64Exception)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x2844ccc;
+  constexpr static std::size_t addrs = 0x29444a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ParseNumbers*>::get(), "ThrowOverflowInt64Exception",
@@ -176,7 +177,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::ParseNumbers::ThrowOverflowUInt32Exception)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x2844db0;
+  constexpr static std::size_t addrs = 0x2944584;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ParseNumbers*>::get(), "ThrowOverflowUInt32Exception",
@@ -189,7 +190,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::ParseNumbers::ThrowOverflowUInt64Exception)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x2844d18;
+  constexpr static std::size_t addrs = 0x29444ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ParseNumbers*>::get(), "ThrowOverflowUInt64Exception",
@@ -202,7 +203,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(char16_t, int32_t, ByRef<int32_t>)>(&::System::ParseNumbers::IsDigit)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2844dfc;
+  constexpr static std::size_t addrs = 0x29445d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

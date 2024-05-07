@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Serialization/Formatters/Binary/SerObjectInfoInit.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,7 +55,7 @@ public:
 
   constexpr void __cordl_internal_set_seenBeforeTable(::System::Collections::Hashtable* value);
 
-  /// @brief Method .ctor, addr 0x274cb48, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x284bf44, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

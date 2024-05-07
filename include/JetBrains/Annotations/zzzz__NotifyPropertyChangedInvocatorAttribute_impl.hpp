@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "JetBrains/Annotations/NotifyPropertyChangedInvocatorAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "JetBrains/Annotations/zzzz__NotifyPropertyChangedInvocatorAttribute_def.hpp"
 //  Writing Method size for method: ::JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute._ctor
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::*)()>(
     &::JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3409f18;
+  constexpr static std::size_t addrs = 0x360ec54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -22,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::*)(::StringW)>(
     &::JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3409f20;
+  constexpr static std::size_t addrs = 0x360ec5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::*)()>(
     &::JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::get_ParameterName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3409f48;
+  constexpr static std::size_t addrs = 0x360ec84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -52,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::*)(::StringW)>(
     &::JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::set_ParameterName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3409f50;
+  constexpr static std::size_t addrs = 0x360ec8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UI/SetPropertyUtility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UI/zzzz__SetPropertyUtility_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
@@ -7,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<::UnityEngine::Color>, ::UnityEngine::Color)>(&::UnityEngine::UI::SetPropertyUtility::SetColor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x32d63ec;
+  constexpr static std::size_t addrs = 0x34dd128;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

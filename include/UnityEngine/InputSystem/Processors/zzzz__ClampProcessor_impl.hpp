@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Processors/ClampProcessor.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputProcessor_1_impl.hpp"
 #include "UnityEngine/InputSystem/Processors/zzzz__ClampProcessor_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::Processors::ClampProcessor::*)(
     float_t, ::UnityEngine::InputSystem::InputControl*)>(&::UnityEngine::InputSystem::Processors::ClampProcessor::Process)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x302b668;
+  constexpr static std::size_t addrs = 0x31673f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::Processors::ClampProcessor::*)()>(
     &::UnityEngine::InputSystem::Processors::ClampProcessor::ToString)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x302b680;
+  constexpr static std::size_t addrs = 0x316740c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Processors::ClampProcessor::*)()>(
     &::UnityEngine::InputSystem::Processors::ClampProcessor::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x302b720;
+  constexpr static std::size_t addrs = 0x31674ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Processors::ClampProcessor*>::get(),

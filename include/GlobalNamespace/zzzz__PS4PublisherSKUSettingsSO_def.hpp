@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/PS4PublisherSKUSettingsSO.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,13 +57,13 @@ public:
 
   constexpr void __cordl_internal_set__masterVersion(::StringW value);
 
-  /// @brief Method .ctor, addr 0x13eb454, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14dd6bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_applicationVersion, addr 0x13eb44c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_applicationVersion, addr 0x14dd6b4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_applicationVersion();
 
-  /// @brief Method get_masterVersion, addr 0x13eb444, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_masterVersion, addr 0x14dd6ac, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_masterVersion();
 
 protected:
@@ -174,25 +175,25 @@ public:
 
   constexpr void __cordl_internal_set__parentalLockLevel(int32_t value);
 
-  /// @brief Method .ctor, addr 0x13eb434, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14dd6a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_applicationCategory, addr 0x13eb42c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_applicationCategory, addr 0x14dd69c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PS4ApplicationCategory get_applicationCategory();
 
-  /// @brief Method get_buildVersion, addr 0x13eb404, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_buildVersion, addr 0x14dd674, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion* get_buildVersion();
 
-  /// @brief Method get_defaultAgeRestriction, addr 0x13eb424, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultAgeRestriction, addr 0x14dd694, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_defaultAgeRestriction();
 
-  /// @brief Method get_latestBuildVersion, addr 0x13eb40c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_latestBuildVersion, addr 0x14dd67c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__PS4PublisherSKUSettingsSO__PS4BuildVersion* get_latestBuildVersion();
 
-  /// @brief Method get_npTitleFilenamePath, addr 0x13eb41c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_npTitleFilenamePath, addr 0x14dd68c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_npTitleFilenamePath();
 
-  /// @brief Method get_parentalLockLevel, addr 0x13eb414, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_parentalLockLevel, addr 0x14dd684, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_parentalLockLevel();
 
 protected:

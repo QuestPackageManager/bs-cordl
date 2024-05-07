@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IMultiplayerLevelEndActionsListener.hpp"
 #include "GlobalNamespace/zzzz__IMultiplayerLevelEndActionsListener_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLevelCompletionResults_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IMultiplayerLevelEndActionsListener.ReportPlayerDidFinish

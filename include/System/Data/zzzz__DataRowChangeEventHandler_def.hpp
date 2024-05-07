@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/DataRowChangeEventHandler.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,12 +26,12 @@ namespace System::Data {
 class CORDL_TYPE DataRowChangeEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2babdbc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2ca96bc, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* sender, ::System::Data::DataRowChangeEventArgs* e);
 
   static inline ::System::Data::DataRowChangeEventHandler* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2babc8c, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ca958c, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:

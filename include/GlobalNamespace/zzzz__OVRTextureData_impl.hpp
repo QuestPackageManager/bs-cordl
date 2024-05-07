@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OVRTextureData.hpp"
 #include "GlobalNamespace/zzzz__OVRTextureFormat_impl.hpp"
 #include "UnityEngine/zzzz__TextureFormat_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRTextureData_def.hpp"

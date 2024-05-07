@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HAPI_CurveInfo.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_CurveType_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_CurveInfo_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_CurveType_def.hpp"

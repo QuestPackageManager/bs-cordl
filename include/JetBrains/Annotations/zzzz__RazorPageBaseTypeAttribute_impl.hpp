@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "JetBrains/Annotations/RazorPageBaseTypeAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "JetBrains/Annotations/zzzz__RazorPageBaseTypeAttribute_def.hpp"
 //  Writing Method size for method: ::JetBrains::Annotations::RazorPageBaseTypeAttribute._ctor
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::RazorPageBaseTypeAttribute::*)(::StringW)>(
     &::JetBrains::Annotations::RazorPageBaseTypeAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x340a854;
+  constexpr static std::size_t addrs = 0x360f590;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::RazorPageBaseTypeAttribute::*)(::StringW, ::StringW)>(
     &::JetBrains::Annotations::RazorPageBaseTypeAttribute::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x340a87c;
+  constexpr static std::size_t addrs = 0x360f5b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -37,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::JetBrains::Annotations::RazorPageBaseTypeAttribute::*)()>(
     &::JetBrains::Annotations::RazorPageBaseTypeAttribute::get_BaseType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x340a8a8;
+  constexpr static std::size_t addrs = 0x360f5e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::JetBrains::Annotations::RazorPageBaseTypeAttribute*>::get(),
@@ -51,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::RazorPageBaseTypeAttribute::*)(::StringW)>(
     &::JetBrains::Annotations::RazorPageBaseTypeAttribute::set_BaseType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x340a8b0;
+  constexpr static std::size_t addrs = 0x360f5ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::JetBrains::Annotations::RazorPageBaseTypeAttribute::*)()>(
     &::JetBrains::Annotations::RazorPageBaseTypeAttribute::get_PageName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x340a8b8;
+  constexpr static std::size_t addrs = 0x360f5f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::JetBrains::Annotations::RazorPageBaseTypeAttribute*>::get(),
@@ -80,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::RazorPageBaseTypeAttribute::*)(::StringW)>(
     &::JetBrains::Annotations::RazorPageBaseTypeAttribute::set_PageName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x340a8c0;
+  constexpr static std::size_t addrs = 0x360f5fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

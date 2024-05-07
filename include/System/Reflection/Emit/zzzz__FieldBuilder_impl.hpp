@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Reflection/Emit/FieldBuilder.hpp"
 #include "System/Reflection/zzzz__FieldInfo_impl.hpp"
 #include "System/Reflection/Emit/zzzz__FieldBuilder_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"
@@ -14,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::FieldAttributes (::System::Reflection::Emit::FieldBuilder::*)()>(
     &::System::Reflection::Emit::FieldBuilder::get_Attributes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x277a33c;
+  constexpr static std::size_t addrs = 0x2879a5c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -29,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Reflection::Emit::FieldBuilder::*)()>(
     &::System::Reflection::Emit::FieldBuilder::get_DeclaringType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x277a344;
+  constexpr static std::size_t addrs = 0x2879a64;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::RuntimeFieldHandle (::System::Reflection::Emit::FieldBuilder::*)()>(
     &::System::Reflection::Emit::FieldBuilder::get_FieldHandle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x277a34c;
+  constexpr static std::size_t addrs = 0x2879a6c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -59,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Reflection::Emit::FieldBuilder::*)()>(
     &::System::Reflection::Emit::FieldBuilder::get_FieldType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x277a354;
+  constexpr static std::size_t addrs = 0x2879a74;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -73,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Reflection::Emit::FieldBuilder::*)()>(&::System::Reflection::Emit::FieldBuilder::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x277a35c;
+  constexpr static std::size_t addrs = 0x2879a7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -88,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Reflection::Emit::FieldBuilder::*)()>(
     &::System::Reflection::Emit::FieldBuilder::get_ReflectedType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x277a364;
+  constexpr static std::size_t addrs = 0x2879a84;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -103,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Object*, ::Array<::System::Object*>*> (::System::Reflection::Emit::FieldBuilder::*)(bool)>(
     &::System::Reflection::Emit::FieldBuilder::GetCustomAttributes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x277a36c;
+  constexpr static std::size_t addrs = 0x2879a8c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -118,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Object*, ::Array<::System::Object*>*> (::System::Reflection::Emit::FieldBuilder::*)(
     ::System::Type*, bool)>(&::System::Reflection::Emit::FieldBuilder::GetCustomAttributes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x277a374;
+  constexpr static std::size_t addrs = 0x2879a94;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -133,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Reflection::Emit::FieldBuilder::*)(::System::Object*)>(
     &::System::Reflection::Emit::FieldBuilder::GetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x277a37c;
+  constexpr static std::size_t addrs = 0x2879a9c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -148,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::Emit::FieldBuilder::*)(::System::Type*, bool)>(
     &::System::Reflection::Emit::FieldBuilder::IsDefined)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x277a384;
+  constexpr static std::size_t addrs = 0x2879aa4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -164,7 +165,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Object*, ::System::Object*, ::System::Reflection::BindingFlags, ::System::Reflection::Binder*, ::System::Globalization::CultureInfo*)>(
     &::System::Reflection::Emit::FieldBuilder::SetValue)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x277a38c;
+  constexpr static std::size_t addrs = 0x2879aac;
 
   inline static ::MethodInfo const* methodInfo() {
 

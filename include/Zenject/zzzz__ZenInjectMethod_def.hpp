@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/ZenInjectMethod.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,18 +30,18 @@ namespace Zenject {
 class CORDL_TYPE ZenInjectMethod : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x34098a8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x360e5e4, size 0x28, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::Object* obj, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x34098d0, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x360e60c, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3409894, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x360e5d0, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* obj, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   static inline ::Zenject::ZenInjectMethod* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x3409764, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x360e4a0, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:

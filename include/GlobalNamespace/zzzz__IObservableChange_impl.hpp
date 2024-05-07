@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IObservableChange.hpp"
 #include "GlobalNamespace/zzzz__IObservableChange_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IObservableChange.add_didChangeEvent

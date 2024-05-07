@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/AlphabetScrollInfo.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set_character(char16_t value);
 
-  /// @brief Method .ctor, addr 0x23dbe94, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24d3a98, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(char16_t character, int32_t cellIdx);
 
 protected:
@@ -91,7 +92,7 @@ public:
 
   static inline ::GlobalNamespace::AlphabetScrollInfo* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23dbe8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24d3a90, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

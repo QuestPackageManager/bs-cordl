@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/RichPresence.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,16 +31,16 @@ namespace Oculus::Platform {
 class CORDL_TYPE RichPresence : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Clear, addr 0x29d79b0, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x2ad5260, size 0x144, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request* Clear();
 
-  /// @brief Method GetDestinations, addr 0x29a4e40, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetDestinations, addr 0x2aa26f0, size 0x158, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::DestinationList*>* GetDestinations();
 
-  /// @brief Method GetNextDestinationListPage, addr 0x29d7cd8, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method GetNextDestinationListPage, addr 0x2ad5588, size 0x1dc, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::DestinationList*>* GetNextDestinationListPage(::Oculus::Platform::Models::DestinationList* list);
 
-  /// @brief Method Set, addr 0x29d7af4, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x2ad53a4, size 0x18c, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request* Set(::Oculus::Platform::RichPresenceOptions* richPresenceOptions);
 
 protected:

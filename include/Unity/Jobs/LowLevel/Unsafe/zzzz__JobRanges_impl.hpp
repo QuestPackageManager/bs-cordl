@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/Jobs/LowLevel/Unsafe/JobRanges.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "Unity/Jobs/LowLevel/Unsafe/zzzz__JobRanges_def.hpp"
 // Ctor Parameters [CppParam { name: "BatchSize", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "NumJobs", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {

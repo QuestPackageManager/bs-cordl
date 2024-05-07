@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Reflection/PropertyAttributes.hpp"
 #include "System/Reflection/zzzz__PropertyAttributes_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Reflection::PropertyAttributes::PropertyAttributes(int32_t value__) noexcept {

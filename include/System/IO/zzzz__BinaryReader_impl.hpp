@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/IO/BinaryReader.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/IO/zzzz__BinaryReader_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
@@ -11,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::BinaryReader::*)(::System::IO::Stream*)>(&::System::IO::BinaryReader::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x27bc22c;
+  constexpr static std::size_t addrs = 0x28bb94c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::BinaryReader::*)(::System::IO::Stream*, ::System::Text::Encoding*)>(
     &::System::IO::BinaryReader::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x27bc524;
+  constexpr static std::size_t addrs = 0x28bbc44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -42,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::BinaryReader::*)(::System::IO::Stream*, ::System::Text::Encoding*, bool)>(
     &::System::IO::BinaryReader::_ctor)> {
   constexpr static std::size_t size = 0x280;
-  constexpr static std::size_t addrs = 0x27bc2a4;
+  constexpr static std::size_t addrs = 0x28bb9c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -58,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (::System::IO::BinaryReader::*)()>(&::System::IO::BinaryReader::get_BaseStream)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x27bc52c;
+  constexpr static std::size_t addrs = 0x28bbc4c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -72,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::BinaryReader::*)()>(&::System::IO::BinaryReader::Close)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x27bc534;
+  constexpr static std::size_t addrs = 0x28bbc54;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -86,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::BinaryReader::*)(bool)>(&::System::IO::BinaryReader::Dispose)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x27bc544;
+  constexpr static std::size_t addrs = 0x28bbc64;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -100,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::BinaryReader::*)()>(&::System::IO::BinaryReader::Dispose)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x27bc588;
+  constexpr static std::size_t addrs = 0x28bbca8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::BinaryReader*>::get(), "Dispose",
@@ -113,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::IO::BinaryReader::*)()>(&::System::IO::BinaryReader::Read)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x27bc598;
+  constexpr static std::size_t addrs = 0x28bbcb8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -127,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::IO::BinaryReader::*)()>(&::System::IO::BinaryReader::ReadBoolean)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x27bc820;
+  constexpr static std::size_t addrs = 0x28bbf40;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -141,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::System::IO::BinaryReader::*)()>(&::System::IO::BinaryReader::ReadByte)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x27bc868;
+  constexpr static std::size_t addrs = 0x28bbf88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -155,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (::System::IO::BinaryReader::*)()>(&::System::IO::BinaryReader::ReadSByte)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x27bc89c;
+  constexpr static std::size_t addrs = 0x28bbfbc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -169,7 +170,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (::System::IO::BinaryReader::*)()>(&::System::IO::BinaryReader::ReadChar)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x27bc8dc;
+  constexpr static std::size_t addrs = 0x28bbffc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -183,7 +184,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (::System::IO::BinaryReader::*)()>(&::System::IO::BinaryReader::ReadInt16)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x27bc900;
+  constexpr static std::size_t addrs = 0x28bc020;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -197,7 +198,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (::System::IO::BinaryReader::*)()>(&::System::IO::BinaryReader::ReadUInt16)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x27bc948;
+  constexpr static std::size_t addrs = 0x28bc068;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -211,7 +212,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::IO::BinaryReader::*)()>(&::System::IO::BinaryReader::ReadInt32)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x27bc990;
+  constexpr static std::size_t addrs = 0x28bc0b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -225,7 +226,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::System::IO::BinaryReader::*)()>(&::System::IO::BinaryReader::ReadUInt32)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x27bca84;
+  constexpr static std::size_t addrs = 0x28bc1a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -239,7 +240,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::IO::BinaryReader::*)()>(&::System::IO::BinaryReader::ReadInt64)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x27bcaf4;
+  constexpr static std::size_t addrs = 0x28bc214;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -253,7 +254,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::System::IO::BinaryReader::*)()>(&::System::IO::BinaryReader::ReadUInt64)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x27bcba4;
+  constexpr static std::size_t addrs = 0x28bc2c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -267,7 +268,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::System::IO::BinaryReader::*)()>(&::System::IO::BinaryReader::ReadSingle)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x27bcc54;
+  constexpr static std::size_t addrs = 0x28bc374;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -281,7 +282,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::System::IO::BinaryReader::*)()>(&::System::IO::BinaryReader::ReadDouble)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x27bcc84;
+  constexpr static std::size_t addrs = 0x28bc3a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -295,7 +296,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (::System::IO::BinaryReader::*)()>(&::System::IO::BinaryReader::ReadDecimal)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x27bccb4;
+  constexpr static std::size_t addrs = 0x28bc3d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -309,7 +310,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::IO::BinaryReader::*)()>(&::System::IO::BinaryReader::ReadString)> {
   constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x27bcec8;
+  constexpr static std::size_t addrs = 0x28bc5e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -324,7 +325,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::IO::BinaryReader::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
     &::System::IO::BinaryReader::InternalReadChars)> {
   constexpr static std::size_t size = 0x2f8;
-  constexpr static std::size_t addrs = 0x27bd208;
+  constexpr static std::size_t addrs = 0x28bc928;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -339,7 +340,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::IO::BinaryReader::*)()>(&::System::IO::BinaryReader::InternalReadOneChar)> {
   constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x27bc5b0;
+  constexpr static std::size_t addrs = 0x28bbcd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::BinaryReader*>::get(), "InternalReadOneChar",
@@ -353,7 +354,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<char16_t, ::Array<char16_t>*> (::System::IO::BinaryReader::*)(int32_t)>(
     &::System::IO::BinaryReader::ReadChars)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x27bd500;
+  constexpr static std::size_t addrs = 0x28bcc20;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -368,7 +369,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::IO::BinaryReader::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::System::IO::BinaryReader::Read)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x27bd660;
+  constexpr static std::size_t addrs = 0x28bcd80;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -383,7 +384,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::System::IO::BinaryReader::*)(int32_t)>(
     &::System::IO::BinaryReader::ReadBytes)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x27bd7e4;
+  constexpr static std::size_t addrs = 0x28bcf04;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -397,7 +398,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::BinaryReader::*)(int32_t)>(&::System::IO::BinaryReader::FillBuffer)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x27bd974;
+  constexpr static std::size_t addrs = 0x28bd094;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -411,7 +412,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::IO::BinaryReader::*)()>(&::System::IO::BinaryReader::Read7BitEncodedInt)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x27bd160;
+  constexpr static std::size_t addrs = 0x28bc880;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::BinaryReader*>::get(), "Read7BitEncodedInt",

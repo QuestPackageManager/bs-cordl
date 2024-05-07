@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MultiplayerConnectedPlayerBombNoteController.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,7 +36,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MultiplayerConnectedPlayerBombNoteController__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25f43d8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26f31f0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -68,13 +69,13 @@ public:
   // Declarations
   using Pool = ::GlobalNamespace::__MultiplayerConnectedPlayerBombNoteController__Pool;
 
-  /// @brief Method Init, addr 0x25f07b8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x26ef5d0, size 0x58, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::NoteData* noteData, float_t worldRotation, ::UnityEngine::Vector3 moveStartPos, ::UnityEngine::Vector3 moveEndPos, ::UnityEngine::Vector3 jumpEndPos,
                    float_t moveDuration, float_t jumpDuration, float_t jumpGravity);
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25f43c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26f31e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

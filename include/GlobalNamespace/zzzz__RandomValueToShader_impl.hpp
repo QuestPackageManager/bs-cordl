@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/RandomValueToShader.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__RandomValueToShader_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::RandomValueToShader.SetRandomValueToShaders
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RandomValueToShader::*)()>(
     &::GlobalNamespace::RandomValueToShader::SetRandomValueToShaders)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x23f6304;
+  constexpr static std::size_t addrs = 0x24edef4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RandomValueToShader*>::get(),
@@ -20,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RandomValueToShader::*)()>(&::GlobalNamespace::RandomValueToShader::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x23f6398;
+  constexpr static std::size_t addrs = 0x24edf88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RandomValueToShader*>::get(), ".ctor",

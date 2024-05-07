@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/DefaultUnityXRHapticsHandler.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,18 +39,18 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Destroy, addr 0x23e14ac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Destroy, addr 0x24d909c, size 0x4, virtual false, abstract: false, final false
   inline void Destroy();
 
-  /// @brief Method Dispose, addr 0x23e152c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x24d911c, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::GlobalNamespace::DefaultUnityXRHapticsHandler* New_ctor(::UnityEngine::XR::XRNode node);
 
-  /// @brief Method StopHaptics, addr 0x23e14fc, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method StopHaptics, addr 0x24d90ec, size 0x30, virtual true, abstract: false, final true
   inline void StopHaptics();
 
-  /// @brief Method TriggerHapticPulse, addr 0x23e14b0, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method TriggerHapticPulse, addr 0x24d90a0, size 0x4c, virtual true, abstract: false, final true
   inline void TriggerHapticPulse(float_t strength, float_t duration);
 
   constexpr ::UnityEngine::XR::XRNode const& __cordl_internal_get__node() const;
@@ -58,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set__node(::UnityEngine::XR::XRNode value);
 
-  /// @brief Method .ctor, addr 0x23e1484, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24d9074, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::XR::XRNode node);
 
   /// @brief Convert to "::GlobalNamespace::IUnityXRHapticsHandler"

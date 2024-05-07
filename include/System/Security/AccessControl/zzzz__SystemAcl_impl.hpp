@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/AccessControl/SystemAcl.hpp"
 #include "System/Security/AccessControl/zzzz__CommonAcl_impl.hpp"
 #include "System/Security/AccessControl/zzzz__SystemAcl_def.hpp"
 #include "System/Security/AccessControl/zzzz__AceQualifier_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::AccessControl::SystemAcl::*)()>(
     &::System::Security::AccessControl::SystemAcl::ApplyCanonicalSortToExplicitAces)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x27083d4;
+  constexpr static std::size_t addrs = 0x28057d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Security::AccessControl::SystemAcl::*)(::System::Security::AccessControl::AceQualifier)>(
     &::System::Security::AccessControl::SystemAcl::GetAceInsertPosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x27083f4;
+  constexpr static std::size_t addrs = 0x28057f0;
 
   inline static ::MethodInfo const* methodInfo() {
 

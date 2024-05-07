@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Microsoft/CSharp/CodeDomProvider.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,7 +21,7 @@ public:
   // Declarations
   static inline ::Microsoft::CSharp::CodeDomProvider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2c88f88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d87888, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

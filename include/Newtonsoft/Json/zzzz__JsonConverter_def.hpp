@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/JsonConverter.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,13 +49,13 @@ public:
   /// @brief Method WriteJson, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method .ctor, addr 0x28c7820, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29c60d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_CanRead, addr 0x28c7810, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanRead, addr 0x29c60c0, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanRead();
 
-  /// @brief Method get_CanWrite, addr 0x28c7818, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanWrite, addr 0x29c60c8, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanWrite();
 
 protected:

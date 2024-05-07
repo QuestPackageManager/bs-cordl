@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/LevelRecording.hpp"
 #include "BeatSaber/RecPlay/zzzz__PlayerPoseFrames_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -8,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelRecording::*)()>(&::GlobalNamespace::LevelRecording::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x259719c;
+  constexpr static std::size_t addrs = 0x2690424;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelRecording*>::get(), ".ctor",

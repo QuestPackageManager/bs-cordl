@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/FlexyFollow.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,12 +57,12 @@ public:
   /// @brief Field _useLocalPosition, offset 0x33, size 0x1
   __declspec(property(get = __cordl_internal_get__useLocalPosition, put = __cordl_internal_set__useLocalPosition)) bool _useLocalPosition;
 
-  /// @brief Method LateUpdate, addr 0x23ddd74, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x24d5978, size 0x128, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::FlexyFollow* New_ctor();
 
-  /// @brief Method Start, addr 0x23ddcf0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x24d58f4, size 0x84, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr bool const& __cordl_internal_get__fixedXOffset() const;
@@ -124,7 +125,7 @@ public:
 
   constexpr void __cordl_internal_set__useLocalPosition(bool value);
 
-  /// @brief Method .ctor, addr 0x23dde9c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24d5aa0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

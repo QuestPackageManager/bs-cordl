@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SaberTypeExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__SaberTypeExtensions_def.hpp"
 #include "GlobalNamespace/zzzz__ColorType_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::SaberType, ::GlobalNamespace::ColorType)>(
     &::GlobalNamespace::SaberTypeExtensions::MatchesColorType)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x1413094;
+  constexpr static std::size_t addrs = 0x15046e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -25,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::XR::XRNode (*)(::GlobalNamespace::SaberType)>(&::GlobalNamespace::SaberTypeExtensions::Node)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x1415818;
+  constexpr static std::size_t addrs = 0x1506e68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SaberType (*)(bool)>(&::GlobalNamespace::SaberTypeExtensions::MainSaber)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x1415828;
+  constexpr static std::size_t addrs = 0x1506e78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -54,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SaberType (*)(::GlobalNamespace::ColorType)>(
     &::GlobalNamespace::SaberTypeExtensions::ToSaberType)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x1415834;
+  constexpr static std::size_t addrs = 0x1506e84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ColorType (*)(::GlobalNamespace::SaberType)>(
     &::GlobalNamespace::SaberTypeExtensions::ToColorType)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x14158bc;
+  constexpr static std::size_t addrs = 0x1506f0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

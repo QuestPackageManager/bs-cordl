@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Text/EncoderExceptionFallback.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,21 +28,21 @@ public:
   // Declarations
   __declspec(property(get = get_MaxCharCount)) int32_t MaxCharCount;
 
-  /// @brief Method CreateFallbackBuffer, addr 0x26b8380, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method CreateFallbackBuffer, addr 0x27b677c, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Text::EncoderFallbackBuffer* CreateFallbackBuffer();
 
-  /// @brief Method Equals, addr 0x26b83ec, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x27b67e8, size 0x5c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* value);
 
-  /// @brief Method GetHashCode, addr 0x26b8448, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x27b6844, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Text::EncoderExceptionFallback* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26b8378, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27b6774, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_MaxCharCount, addr 0x26b83e4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_MaxCharCount, addr 0x27b67e0, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_MaxCharCount();
 
 protected:

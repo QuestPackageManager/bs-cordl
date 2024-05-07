@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/Asttree.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,24 +43,24 @@ public:
   /// @brief Field _xpathexpr, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__xpathexpr, put = __cordl_internal_set__xpathexpr))::StringW _xpathexpr;
 
-  /// @brief Method CompileXPath, addr 0x2df3e54, size 0x7c4, virtual false, abstract: false, final false
+  /// @brief Method CompileXPath, addr 0x2ef2754, size 0x7c4, virtual false, abstract: false, final false
   inline void CompileXPath(::StringW xPath, bool isField, ::System::Xml::XmlNamespaceManager* nsmgr);
 
-  /// @brief Method IsAttribute, addr 0x2df2fd0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method IsAttribute, addr 0x2ef18d0, size 0x34, virtual false, abstract: false, final false
   static inline bool IsAttribute(::MS::Internal::Xml::XPath::Axis* ast);
 
-  /// @brief Method IsDescendantOrSelf, addr 0x2df464c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method IsDescendantOrSelf, addr 0x2ef2f4c, size 0x40, virtual false, abstract: false, final false
   static inline bool IsDescendantOrSelf(::MS::Internal::Xml::XPath::Axis* ast);
 
-  /// @brief Method IsNameTest, addr 0x2df4618, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method IsNameTest, addr 0x2ef2f18, size 0x34, virtual false, abstract: false, final false
   static inline bool IsNameTest(::MS::Internal::Xml::XPath::Axis* ast);
 
-  /// @brief Method IsSelf, addr 0x2df3dbc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method IsSelf, addr 0x2ef26bc, size 0x40, virtual false, abstract: false, final false
   static inline bool IsSelf(::MS::Internal::Xml::XPath::Axis* ast);
 
   static inline ::System::Xml::Schema::Asttree* New_ctor(::StringW xPath, bool isField, ::System::Xml::XmlNamespaceManager* nsmgr);
 
-  /// @brief Method SetURN, addr 0x2df468c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method SetURN, addr 0x2ef2f8c, size 0xf8, virtual false, abstract: false, final false
   inline void SetURN(::MS::Internal::Xml::XPath::Axis* axis, ::System::Xml::XmlNamespaceManager* nsmgr);
 
   constexpr ::System::Collections::ArrayList*& __cordl_internal_get__fAxisArray();
@@ -86,10 +87,10 @@ public:
 
   constexpr void __cordl_internal_set__xpathexpr(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2df3e04, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ef2704, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::StringW xPath, bool isField, ::System::Xml::XmlNamespaceManager* nsmgr);
 
-  /// @brief Method get_SubtreeArray, addr 0x2df3dfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SubtreeArray, addr 0x2ef26fc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* get_SubtreeArray();
 
 protected:

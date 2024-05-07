@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Math/EC/AbstractF2mFieldElement.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECFieldElement_impl.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__AbstractF2mFieldElement_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECFieldElement_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECFieldElement* (::Org::BouncyCastle::Math::EC::AbstractF2mFieldElement::*)()>(
     &::Org::BouncyCastle::Math::EC::AbstractF2mFieldElement::HalfTrace)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x116ebb0;
+  constexpr static std::size_t addrs = 0x12612d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Math::EC::AbstractF2mFieldElement::*)()>(
     &::Org::BouncyCastle::Math::EC::AbstractF2mFieldElement::get_HasFastTrace)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x116ecf0;
+  constexpr static std::size_t addrs = 0x1261414;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Math::EC::AbstractF2mFieldElement::*)()>(
     &::Org::BouncyCastle::Math::EC::AbstractF2mFieldElement::Trace)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x116ecf8;
+  constexpr static std::size_t addrs = 0x126141c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::AbstractF2mFieldElement::*)()>(
     &::Org::BouncyCastle::Math::EC::AbstractF2mFieldElement::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x116ee44;
+  constexpr static std::size_t addrs = 0x1261568;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::AbstractF2mFieldElement*>::get(),

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MockScoreSyncStateSender.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MockScoreSyncStateSender_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
@@ -11,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockScoreSyncStateSender::*)(::GlobalNamespace::IMultiplayerSessionManager*)>(
     &::GlobalNamespace::MockScoreSyncStateSender::_ctor)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x2666004;
+  constexpr static std::size_t addrs = 0x2765400;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockScoreSyncStateSender::*)()>(&::GlobalNamespace::MockScoreSyncStateSender::Dispose)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x26661ac;
+  constexpr static std::size_t addrs = 0x27655a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockScoreSyncStateSender*>::get(), "Dispose",
@@ -39,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockScoreSyncStateSender::*)(int32_t, int32_t, int32_t, int32_t, int32_t)>(
     &::GlobalNamespace::MockScoreSyncStateSender::SendScore)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x2669544;
+  constexpr static std::size_t addrs = 0x2768940;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -55,8 +56,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockScoreSyncStateSender::*)(
     ::GlobalNamespace::StandardScoreSyncStateNetSerializable*, ::GlobalNamespace::IConnectedPlayer*)>(&::GlobalNamespace::MockScoreSyncStateSender::HandleScoreSyncStateUpdate)> {
-  constexpr static std::size_t size = 0x1004;
-  constexpr static std::size_t addrs = 0x266b964;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x276ad60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

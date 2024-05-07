@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Android/DualShock4GamepadAndroid.hpp"
 #include "UnityEngine/InputSystem/DualShock/zzzz__DualShockGamepad_impl.hpp"
 #include "UnityEngine/InputSystem/Android/zzzz__DualShock4GamepadAndroid_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Android::DualShock4GamepadAndroid._ctor
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Android::DualShock4GamepadAndroid::*)()>(
     &::UnityEngine::InputSystem::Android::DualShock4GamepadAndroid::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x30192dc;
+  constexpr static std::size_t addrs = 0x3155068;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

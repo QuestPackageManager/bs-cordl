@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HAPI_ParmInfo.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,22 +49,22 @@ namespace HoudiniEngineUnity {
 struct CORDL_TYPE HAPI_ParmInfo {
 public:
   // Declarations
-  /// @brief Method isFloat, addr 0x247be04, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method isFloat, addr 0x2576a90, size 0x14, virtual false, abstract: false, final false
   inline bool isFloat();
 
-  /// @brief Method isInt, addr 0x247bde4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method isInt, addr 0x2576a70, size 0x20, virtual false, abstract: false, final false
   inline bool isInt();
 
-  /// @brief Method isNode, addr 0x247be68, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method isNode, addr 0x2576af4, size 0x10, virtual false, abstract: false, final false
   inline bool isNode();
 
-  /// @brief Method isNonValue, addr 0x247be78, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method isNonValue, addr 0x2576b04, size 0x14, virtual false, abstract: false, final false
   inline bool isNonValue();
 
-  /// @brief Method isPath, addr 0x247be48, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method isPath, addr 0x2576ad4, size 0x20, virtual false, abstract: false, final false
   inline bool isPath();
 
-  /// @brief Method isString, addr 0x247be18, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method isString, addr 0x2576aa4, size 0x30, virtual false, abstract: false, final false
   inline bool isString();
 
   // Ctor Parameters []

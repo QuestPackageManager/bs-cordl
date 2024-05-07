@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Tuple.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,13 +29,13 @@ namespace System {
 class CORDL_TYPE Tuple : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CombineHashCodes, addr 0x284c970, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CombineHashCodes, addr 0x294c144, size 0xc, virtual false, abstract: false, final false
   static inline int32_t CombineHashCodes(int32_t h1, int32_t h2);
 
-  /// @brief Method CombineHashCodes, addr 0x284c97c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method CombineHashCodes, addr 0x294c150, size 0x14, virtual false, abstract: false, final false
   static inline int32_t CombineHashCodes(int32_t h1, int32_t h2, int32_t h3);
 
-  /// @brief Method CombineHashCodes, addr 0x284c990, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method CombineHashCodes, addr 0x294c164, size 0x1c, virtual false, abstract: false, final false
   static inline int32_t CombineHashCodes(int32_t h1, int32_t h2, int32_t h3, int32_t h4);
 
   /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

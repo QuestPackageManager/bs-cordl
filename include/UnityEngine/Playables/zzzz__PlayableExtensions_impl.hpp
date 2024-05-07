@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Playables/PlayableExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableExtensions_def.hpp"
 #include "UnityEngine/Playables/zzzz__DirectorWrapMode_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Experimental/Rendering/ScriptableRuntimeReflectionSystemSettings.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Experimental/Rendering/zzzz__ScriptableRuntimeReflectionSystemSettings_def.hpp"
 #include "UnityEngine/Experimental/Rendering/zzzz__IScriptableRuntimeReflectionSystem_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem*)>(
     &::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemSettings::set_Internal_ScriptableRuntimeReflectionSystemSettings_system)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x322dd54;
+  constexpr static std::size_t addrs = 0x3435a90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper* (*)()>(
     &::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemSettings::get_Internal_ScriptableRuntimeReflectionSystemSettings_instance)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x322de9c;
+  constexpr static std::size_t addrs = 0x3435bd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(
     &::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemSettings::ScriptingDirtyReflectionSystemInstance)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x322def4;
+  constexpr static std::size_t addrs = 0x3435c30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

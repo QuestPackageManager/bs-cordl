@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/Channels/IChannelReceiver.hpp"
 #include "System/Runtime/Remoting/Channels/zzzz__IChannelReceiver_def.hpp"
 #include "System/Runtime/Remoting/Channels/zzzz__IChannel_def.hpp"
 #include "System/zzzz__Object_def.hpp"

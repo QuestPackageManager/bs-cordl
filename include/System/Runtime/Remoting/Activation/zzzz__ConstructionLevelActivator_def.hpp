@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/Activation/ConstructionLevelActivator.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,15 +33,15 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Activation::IActivator"
   constexpr operator ::System::Runtime::Remoting::Activation::IActivator*() noexcept;
 
-  /// @brief Method Activate, addr 0x2726f28, size 0xf0, virtual true, abstract: false, final true
+  /// @brief Method Activate, addr 0x2825324, size 0xf0, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Activation::IConstructionReturnMessage* Activate(::System::Runtime::Remoting::Activation::IConstructionCallMessage* msg);
 
   static inline ::System::Runtime::Remoting::Activation::ConstructionLevelActivator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x27262d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28246cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_NextActivator, addr 0x2726f20, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_NextActivator, addr 0x282531c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Activation::IActivator* get_NextActivator();
 
   /// @brief Convert to "::System::Runtime::Remoting::Activation::IActivator"

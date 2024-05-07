@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/VREvent_Process_t.hpp"
 #include "OVR/OpenVR/zzzz__VREvent_Process_t_def.hpp"
 // Ctor Parameters [CppParam { name: "pid", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "oldPid", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
 // "bForced", ty: "bool", modifiers: "", def_value: Some("{}") }]

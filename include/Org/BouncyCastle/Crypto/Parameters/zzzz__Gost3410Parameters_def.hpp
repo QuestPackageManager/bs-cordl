@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/Gost3410Parameters.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,13 +55,13 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipherParameters"
   constexpr operator ::Org::BouncyCastle::Crypto::ICipherParameters*() noexcept;
 
-  /// @brief Method Equals, addr 0x10a1378, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x1194a9c, size 0x9c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x10a1414, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x1194b38, size 0x80, virtual false, abstract: false, final false
   inline bool Equals(::Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters* other);
 
-  /// @brief Method GetHashCode, addr 0x10a1494, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x1194bb8, size 0x70, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q,
@@ -94,23 +95,23 @@ public:
 
   constexpr void __cordl_internal_set_validation(::Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters* value);
 
-  /// @brief Method .ctor, addr 0x10a1080, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11947a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* a);
 
-  /// @brief Method .ctor, addr 0x10a1278, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x119499c, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* a,
                     ::Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters* validation);
 
-  /// @brief Method get_A, addr 0x10a1368, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_A, addr 0x1194a8c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_A();
 
-  /// @brief Method get_P, addr 0x10a1358, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_P, addr 0x1194a7c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_P();
 
-  /// @brief Method get_Q, addr 0x10a1360, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Q, addr 0x1194a84, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Q();
 
-  /// @brief Method get_ValidationParameters, addr 0x10a1370, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ValidationParameters, addr 0x1194a94, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters* get_ValidationParameters();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatmapSaveDataCommon/IndexFilterRandomType.hpp"
 #include "BeatmapSaveDataCommon/zzzz__IndexFilterRandomType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::BeatmapSaveDataCommon::IndexFilterRandomType::IndexFilterRandomType(int32_t value__) noexcept {

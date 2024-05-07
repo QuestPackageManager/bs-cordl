@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Principal/WellKnownSidType.hpp"
 #include "System/Security/Principal/zzzz__WellKnownSidType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Security::Principal::WellKnownSidType::WellKnownSidType(int32_t value__) noexcept {

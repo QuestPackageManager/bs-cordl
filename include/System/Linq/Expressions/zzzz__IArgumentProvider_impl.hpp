@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/IArgumentProvider.hpp"
 #include "System/Linq/Expressions/zzzz__IArgumentProvider_def.hpp"
 #include "System/Linq/Expressions/zzzz__Expression_def.hpp"
 //  Writing Method size for method: ::System::Linq::Expressions::IArgumentProvider.GetArgument

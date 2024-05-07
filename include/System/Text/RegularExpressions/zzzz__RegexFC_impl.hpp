@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Text/RegularExpressions/RegexFC.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Text/RegularExpressions/zzzz__RegexFC_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"
@@ -8,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::RegexFC::*)(bool)>(&::System::Text::RegularExpressions::RegexFC::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x2e935c0;
+  constexpr static std::size_t addrs = 0x2f93ec0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::RegexFC::*)(char16_t, bool, bool, bool)>(
     &::System::Text::RegularExpressions::RegexFC::_ctor)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x2e936ec;
+  constexpr static std::size_t addrs = 0x2f93fec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::RegexFC::*)(::StringW, bool, bool)>(
     &::System::Text::RegularExpressions::RegexFC::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x2e937e0;
+  constexpr static std::size_t addrs = 0x2f940e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -55,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Text::RegularExpressions::RegexFC::*)(::System::Text::RegularExpressions::RegexFC*, bool)>(
     &::System::Text::RegularExpressions::RegexFC::AddFC)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x2e93640;
+  constexpr static std::size_t addrs = 0x2f93f40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Text::RegularExpressions::RegexFC::*)()>(
     &::System::Text::RegularExpressions::RegexFC::get_CaseInsensitive)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2e93874;
+  constexpr static std::size_t addrs = 0x2f94174;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::RegexFC*>::get(),
@@ -85,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::RegexFC::*)(bool)>(
     &::System::Text::RegularExpressions::RegexFC::set_CaseInsensitive)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2e9387c;
+  constexpr static std::size_t addrs = 0x2f9417c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -100,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Text::RegularExpressions::RegexFC::*)(::System::Globalization::CultureInfo*)>(
     &::System::Text::RegularExpressions::RegexFC::GetFirstChars)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2e929f8;
+  constexpr static std::size_t addrs = 0x2f932f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

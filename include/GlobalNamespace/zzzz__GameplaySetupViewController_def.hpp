@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/GameplaySetupViewController.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -108,7 +109,7 @@ public:
 
   constexpr void __cordl_internal_set_title(::StringW value);
 
-  /// @brief Method .ctor, addr 0x254424c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2639f0c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW title, ::GlobalNamespace::IRefreshable* refreshable, ::UnityEngine::GameObject* gameObject);
 
 protected:
@@ -218,36 +219,36 @@ public:
 
   __declspec(property(get = get_playerSettings))::GlobalNamespace::PlayerSpecificSettings* playerSettings;
 
-  /// @brief Method DidActivate, addr 0x2543d04, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x26399c4, size 0x174, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method HandleGameplayModifiersPanelControllerDidChangeGameplayModifiers, addr 0x2544120, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method HandleGameplayModifiersPanelControllerDidChangeGameplayModifiers, addr 0x2639de0, size 0x54, virtual false, abstract: false, final false
   inline void HandleGameplayModifiersPanelControllerDidChangeGameplayModifiers();
 
-  /// @brief Method HandlePlayerSettingsPanelControllerDidChangePlayerSettings, addr 0x25440e8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerSettingsPanelControllerDidChangePlayerSettings, addr 0x2639da8, size 0x38, virtual false, abstract: false, final false
   inline void HandlePlayerSettingsPanelControllerDidChangePlayerSettings();
 
-  /// @brief Method HandleSelectionSegmentedControlDidSelectCell, addr 0x2544030, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HandleSelectionSegmentedControlDidSelectCell, addr 0x2639cf0, size 0x8, virtual false, abstract: false, final false
   inline void HandleSelectionSegmentedControlDidSelectCell(::HMUI::SegmentedControl* segmentedControl, int32_t cellIdx);
 
-  /// @brief Method Init, addr 0x2543500, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x26391c0, size 0x90, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::GameplaySetupViewController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x2543f14, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x2639bd4, size 0x11c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method RefreshActivePanel, addr 0x2544174, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method RefreshActivePanel, addr 0x2639e34, size 0xd8, virtual false, abstract: false, final false
   inline void RefreshActivePanel();
 
-  /// @brief Method RefreshContent, addr 0x25435b4, size 0x72c, virtual false, abstract: false, final false
+  /// @brief Method RefreshContent, addr 0x2639274, size 0x72c, virtual false, abstract: false, final false
   inline void RefreshContent();
 
-  /// @brief Method SetActivePanel, addr 0x2544038, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method SetActivePanel, addr 0x2639cf8, size 0xb0, virtual false, abstract: false, final false
   inline void SetActivePanel(int32_t panelIdx);
 
-  /// @brief Method Setup, addr 0x2543474, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x2639134, size 0x8c, virtual false, abstract: false, final false
   inline void Setup(bool showModifiers, bool showEnvironmentOverrideSettings, bool showColorSchemesSettings, bool showMultiplayer,
                     ::GlobalNamespace::__PlayerSettingsPanelController__PlayerSettingsPanelLayout playerSettingsPanelLayout);
 
@@ -347,25 +348,25 @@ public:
 
   constexpr void __cordl_internal_set_didChangeGameplayModifiersEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x2544288, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2639f48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didChangeGameplayModifiersEvent, addr 0x2542f08, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didChangeGameplayModifiersEvent, addr 0x2638bc8, size 0x9c, virtual false, abstract: false, final false
   inline void add_didChangeGameplayModifiersEvent(::System::Action* value);
 
-  /// @brief Method get_colorSchemesSettings, addr 0x2543450, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_colorSchemesSettings, addr 0x2639110, size 0x24, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorSchemesSettings* get_colorSchemesSettings();
 
-  /// @brief Method get_environmentOverrideSettings, addr 0x254342c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_environmentOverrideSettings, addr 0x26390ec, size 0x24, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OverrideEnvironmentSettings* get_environmentOverrideSettings();
 
-  /// @brief Method get_gameplayModifiers, addr 0x2543410, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_gameplayModifiers, addr 0x26390d0, size 0x1c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
 
-  /// @brief Method get_playerSettings, addr 0x2543040, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_playerSettings, addr 0x2638d00, size 0x18, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerSpecificSettings* get_playerSettings();
 
-  /// @brief Method remove_didChangeGameplayModifiersEvent, addr 0x2542fa4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didChangeGameplayModifiersEvent, addr 0x2638c64, size 0x9c, virtual false, abstract: false, final false
   inline void remove_didChangeGameplayModifiersEvent(::System::Action* value);
 
 protected:

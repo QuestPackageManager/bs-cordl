@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Profiling/Memory/Experimental/MetaData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Profiling/Memory/Experimental/zzzz__MetaData_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Profiling::Memory::Experimental::MetaData._ctor
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Profiling::Memory::Experimental::MetaData::*)()>(
     &::UnityEngine::Profiling::Memory::Experimental::MetaData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x321dba8;
+  constexpr static std::size_t addrs = 0x34248e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Profiling::Memory::Experimental::MetaData*>::get(),

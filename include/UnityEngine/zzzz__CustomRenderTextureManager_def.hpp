@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/CustomRenderTextureManager.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,10 +31,10 @@ public:
   /// @brief Field textureUnloaded, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_textureUnloaded, put = setStaticF_textureUnloaded))::System::Action_1<::UnityW<::UnityEngine::CustomRenderTexture>>* textureUnloaded;
 
-  /// @brief Method InvokeOnTextureLoaded_Internal, addr 0x31e985c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method InvokeOnTextureLoaded_Internal, addr 0x33f0590, size 0x6c, virtual false, abstract: false, final false
   static inline void InvokeOnTextureLoaded_Internal(::UnityEngine::CustomRenderTexture* source);
 
-  /// @brief Method InvokeOnTextureUnloaded_Internal, addr 0x31e98c8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method InvokeOnTextureUnloaded_Internal, addr 0x33f05fc, size 0x6c, virtual false, abstract: false, final false
   static inline void InvokeOnTextureUnloaded_Internal(::UnityEngine::CustomRenderTexture* source);
 
   static inline ::System::Action_1<::UnityW<::UnityEngine::CustomRenderTexture>>* getStaticF_textureLoaded();

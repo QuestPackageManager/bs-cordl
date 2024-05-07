@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/FocusOutEvent.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,15 +19,15 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE FocusOutEvent : public ::UnityEngine::UIElements::FocusEventBase_1<::UnityEngine::UIElements::FocusOutEvent*> {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x33a10cc, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x35a6e08, size 0x54, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x33a1120, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x35a6e5c, size 0xc, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::FocusOutEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x33a112c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35a6e68, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

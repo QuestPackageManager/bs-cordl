@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/ConstraintConverter.hpp"
 #include "System/ComponentModel/zzzz__ExpandableObjectConverter_impl.hpp"
 #include "System/Data/zzzz__ConstraintConverter_def.hpp"
 #include "System/ComponentModel/zzzz__ITypeDescriptorContext_def.hpp"
@@ -10,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::ConstraintConverter::*)()>(&::System::Data::ConstraintConverter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b7858c;
+  constexpr static std::size_t addrs = 0x2c75e8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ConstraintConverter*>::get(), ".ctor",
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::ConstraintConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Type*)>(
     &::System::Data::ConstraintConverter::CanConvertTo)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x2b78594;
+  constexpr static std::size_t addrs = 0x2c75e94;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +41,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Data::ConstraintConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Globalization::CultureInfo*, ::System::Object*, ::System::Type*)>(
     &::System::Data::ConstraintConverter::ConvertTo)> {
   constexpr static std::size_t size = 0x964;
-  constexpr static std::size_t addrs = 0x2b7865c;
+  constexpr static std::size_t addrs = 0x2c75f5c;
 
   inline static ::MethodInfo const* methodInfo() {
 

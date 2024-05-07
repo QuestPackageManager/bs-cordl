@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/DynamicAtlas.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__Allocator2D_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__LinkedPoolItem_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__AtlasBase_impl.hpp"
@@ -27,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::__DynamicAtlas__TextureInfo* (*)()>(
     &::UnityEngine::UIElements::__DynamicAtlas__TextureInfo::Create)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3304ff8;
+  constexpr static std::size_t addrs = 0x3509d34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__DynamicAtlas__TextureInfo*>::get(),
@@ -41,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UIElements::__DynamicAtlas__TextureInfo*)>(
     &::UnityEngine::UIElements::__DynamicAtlas__TextureInfo::Reset)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3305098;
+  constexpr static std::size_t addrs = 0x3509dd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -56,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__DynamicAtlas__TextureInfo::*)()>(
     &::UnityEngine::UIElements::__DynamicAtlas__TextureInfo::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3305050;
+  constexpr static std::size_t addrs = 0x3509d8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__DynamicAtlas__TextureInfo*>::get(),
@@ -147,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::DynamicAtlas::*)()>(&::UnityEngine::UIElements::DynamicAtlas::get_isInitialized)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x330344c;
+  constexpr static std::size_t addrs = 0x3509188;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DynamicAtlas*>::get(),
@@ -161,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DynamicAtlas::*)(::UnityEngine::UIElements::IPanel*)>(
     &::UnityEngine::UIElements::DynamicAtlas::OnAssignedToPanel)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x330346c;
+  constexpr static std::size_t addrs = 0x35091a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -176,7 +177,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DynamicAtlas::*)(::UnityEngine::UIElements::IPanel*)>(
     &::UnityEngine::UIElements::DynamicAtlas::OnRemovedFromPanel)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x330353c;
+  constexpr static std::size_t addrs = 0x3509278;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -190,7 +191,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DynamicAtlas::*)()>(&::UnityEngine::UIElements::DynamicAtlas::Reset)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x330364c;
+  constexpr static std::size_t addrs = 0x3509388;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -204,7 +205,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DynamicAtlas::*)()>(&::UnityEngine::UIElements::DynamicAtlas::InitPages)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x33036f8;
+  constexpr static std::size_t addrs = 0x3509434;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DynamicAtlas*>::get(), "InitPages",
@@ -217,7 +218,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DynamicAtlas::*)()>(&::UnityEngine::UIElements::DynamicAtlas::DestroyPages)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x33035d4;
+  constexpr static std::size_t addrs = 0x3509310;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DynamicAtlas*>::get(), "DestroyPages",
@@ -232,7 +233,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::Texture2D*, ByRef<::UnityEngine::UIElements::TextureId>, ByRef<::UnityEngine::RectInt>)>(
     &::UnityEngine::UIElements::DynamicAtlas::TryGetAtlas)> {
   constexpr static std::size_t size = 0x35c;
-  constexpr static std::size_t addrs = 0x3303800;
+  constexpr static std::size_t addrs = 0x350953c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -247,7 +248,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DynamicAtlas::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::Texture2D*, ::UnityEngine::UIElements::TextureId)>(&::UnityEngine::UIElements::DynamicAtlas::ReturnAtlas)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x3303b5c;
+  constexpr static std::size_t addrs = 0x3509898;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -262,7 +263,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DynamicAtlas::*)(::UnityEngine::UIElements::IPanel*)>(
     &::UnityEngine::UIElements::DynamicAtlas::OnUpdateDynamicTextures)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3303c98;
+  constexpr static std::size_t addrs = 0x35099d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -276,7 +277,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::TextureFormat)>(&::UnityEngine::UIElements::DynamicAtlas::IsTextureFormatSupported)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3303d00;
+  constexpr static std::size_t addrs = 0x3509a3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -291,7 +292,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::DynamicAtlas::*)(::UnityEngine::Texture2D*, ::UnityEngine::FilterMode)>(
     &::UnityEngine::UIElements::DynamicAtlas::IsTextureValid)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x3303d34;
+  constexpr static std::size_t addrs = 0x3509a70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -306,7 +307,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DynamicAtlas::*)(int32_t)>(
     &::UnityEngine::UIElements::DynamicAtlas::set_minAtlasSize)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3303e5c;
+  constexpr static std::size_t addrs = 0x3509b98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -321,7 +322,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DynamicAtlas::*)(int32_t)>(
     &::UnityEngine::UIElements::DynamicAtlas::set_maxAtlasSize)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3303e7c;
+  constexpr static std::size_t addrs = 0x3509bb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -335,7 +336,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::DynamicAtlasFilters (*)()>(&::UnityEngine::UIElements::DynamicAtlas::get_defaultFilters)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3303e9c;
+  constexpr static std::size_t addrs = 0x3509bd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DynamicAtlas*>::get(),
@@ -349,7 +350,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DynamicAtlas::*)(::UnityEngine::UIElements::DynamicAtlasFilters)>(
     &::UnityEngine::UIElements::DynamicAtlas::set_activeFilters)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3303ea4;
+  constexpr static std::size_t addrs = 0x3509be0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -364,7 +365,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::DynamicAtlas::*)()>(
     &::UnityEngine::UIElements::DynamicAtlas::get_maxSubTextureSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3303e54;
+  constexpr static std::size_t addrs = 0x3509b90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DynamicAtlas*>::get(),
@@ -378,7 +379,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DynamicAtlas::*)(int32_t)>(
     &::UnityEngine::UIElements::DynamicAtlas::set_maxSubTextureSize)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3303ec4;
+  constexpr static std::size_t addrs = 0x3509c00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -393,7 +394,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DynamicAtlas::*)(::UnityEngine::UIElements::DynamicAtlasCustomFilter*)>(
     &::UnityEngine::UIElements::DynamicAtlas::set_customFilter)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3303ee4;
+  constexpr static std::size_t addrs = 0x3509c20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -406,8 +407,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DynamicAtlas::*)()>(&::UnityEngine::UIElements::DynamicAtlas::_ctor)> {
-  constexpr static std::size_t size = 0x10cc;
-  constexpr static std::size_t addrs = 0x3303f2c;
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x3509c68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DynamicAtlas*>::get(), ".ctor",

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/EventSystems/AbstractEventData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__AbstractEventData_def.hpp"
 //  Writing Method size for method: ::UnityEngine::EventSystems::AbstractEventData.Reset
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::AbstractEventData::*)()>(&::UnityEngine::EventSystems::AbstractEventData::Reset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32e4588;
+  constexpr static std::size_t addrs = 0x34ea2c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -21,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::AbstractEventData::*)()>(&::UnityEngine::EventSystems::AbstractEventData::Use)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x32e4590;
+  constexpr static std::size_t addrs = 0x34ea2cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -37,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::EventSystems::AbstractEventData::*)()>(
     &::UnityEngine::EventSystems::AbstractEventData::get_used)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32e459c;
+  constexpr static std::size_t addrs = 0x34ea2d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -52,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::AbstractEventData::*)()>(&::UnityEngine::EventSystems::AbstractEventData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32e45a4;
+  constexpr static std::size_t addrs = 0x34ea2e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::AbstractEventData*>::get(), ".ctor",

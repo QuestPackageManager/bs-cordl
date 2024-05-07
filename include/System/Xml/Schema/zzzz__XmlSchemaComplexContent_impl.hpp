@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaComplexContent.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaContentModel_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaComplexContent_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaContent_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::XmlSchemaComplexContent::*)()>(
     &::System::Xml::Schema::XmlSchemaComplexContent::get_IsMixed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2d12178;
+  constexpr static std::size_t addrs = 0x2e0fa78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaComplexContent*>::get(),
@@ -22,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaComplexContent::*)(bool)>(
     &::System::Xml::Schema::XmlSchemaComplexContent::set_IsMixed)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2d12180;
+  constexpr static std::size_t addrs = 0x2e0fa80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -37,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaContent* (::System::Xml::Schema::XmlSchemaComplexContent::*)()>(
     &::System::Xml::Schema::XmlSchemaComplexContent::get_Content)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2d12194;
+  constexpr static std::size_t addrs = 0x2e0fa94;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -53,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaComplexContent::*)(::System::Xml::Schema::XmlSchemaContent*)>(
     &::System::Xml::Schema::XmlSchemaComplexContent::set_Content)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2d1219c;
+  constexpr static std::size_t addrs = 0x2e0fa9c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -69,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::XmlSchemaComplexContent::*)()>(
     &::System::Xml::Schema::XmlSchemaComplexContent::get_HasMixedAttribute)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2d121a4;
+  constexpr static std::size_t addrs = 0x2e0faa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaComplexContent*>::get(),
@@ -82,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaComplexContent::*)()>(&::System::Xml::Schema::XmlSchemaComplexContent::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2d121ac;
+  constexpr static std::size_t addrs = 0x2e0faac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaComplexContent*>::get(), ".ctor",

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatmapSaveDataCommon/BeatmapEventTypeExtensions.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,12 +25,12 @@ namespace BeatmapSaveDataCommon {
 class CORDL_TYPE BeatmapEventTypeExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetSpecialEventTypes, addr 0x1401ec0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GetSpecialEventTypes, addr 0x14f444c, size 0xc4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::HashSet_1<::BeatmapSaveDataCommon::BeatmapEventType>* GetSpecialEventTypes();
 
   static inline ::BeatmapSaveDataCommon::BeatmapEventTypeExtensions* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1401f84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14f4510, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

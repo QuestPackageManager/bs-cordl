@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ProBuilder/HSVColor.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__HSVColor_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::HSVColor::*)(float_t, float_t, float_t)>(
     &::UnityEngine::ProBuilder::HSVColor::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x306eb44;
+  constexpr static std::size_t addrs = 0x32765cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::HSVColor::*)(float_t, float_t, float_t, float_t)>(
     &::UnityEngine::ProBuilder::HSVColor::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x306eb80;
+  constexpr static std::size_t addrs = 0x3276608;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::HSVColor* (*)(::UnityEngine::Color)>(&::UnityEngine::ProBuilder::HSVColor::FromRGB)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x306ebc8;
+  constexpr static std::size_t addrs = 0x3276650;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ProBuilder::HSVColor::*)()>(&::UnityEngine::ProBuilder::HSVColor::ToString)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x306ee64;
+  constexpr static std::size_t addrs = 0x32768ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -68,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::ProBuilder::HSVColor::*)(::UnityEngine::ProBuilder::HSVColor*)>(
     &::UnityEngine::ProBuilder::HSVColor::SqrDistance)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x306ef28;
+  constexpr static std::size_t addrs = 0x32769b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

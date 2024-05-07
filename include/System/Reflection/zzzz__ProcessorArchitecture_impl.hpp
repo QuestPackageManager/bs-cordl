@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Reflection/ProcessorArchitecture.hpp"
 #include "System/Reflection/zzzz__ProcessorArchitecture_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Reflection::ProcessorArchitecture::ProcessorArchitecture(int32_t value__) noexcept {

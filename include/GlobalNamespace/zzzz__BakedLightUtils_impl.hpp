@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BakedLightUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BakedLightUtils_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BakedLightUtils.ValidateLoadedEnvironmentScene
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::GlobalNamespace::BakedLightUtils::ValidateLoadedEnvironmentScene)> {
   constexpr static std::size_t size = 0x7a0;
-  constexpr static std::size_t addrs = 0x2586ab0;
+  constexpr static std::size_t addrs = 0x267ef44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

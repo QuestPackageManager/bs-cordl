@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/PlatformLeaderboardsHandler.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,7 +51,7 @@ public:
   inline ::GlobalNamespace::HMAsyncRequest* UploadScore(::GlobalNamespace::__LeaderboardScoreUploader__ScoreData* scoreData,
                                                         ::GlobalNamespace::__PlatformLeaderboardsModel__UploadScoreCompletionHandler* completionHandler);
 
-  /// @brief Method .ctor, addr 0x13b1e88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14a7564, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

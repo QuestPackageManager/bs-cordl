@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/ListViewDragger.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -76,13 +77,13 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::__ListViewDragger__DragPosition>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::__ListViewDragger__DragPosition>*();
 
-  /// @brief Method Equals, addr 0x335bd50, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x355fa8c, size 0x9c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x335b180, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x355eebc, size 0x58, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::__ListViewDragger__DragPosition other);
 
-  /// @brief Method GetHashCode, addr 0x335bdec, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x355fb28, size 0x48, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::__ListViewDragger__DragPosition>"
@@ -147,48 +148,48 @@ public:
 
   __declspec(property(get = get_targetScrollView))::UnityEngine::UIElements::ScrollView* targetScrollView;
 
-  /// @brief Method ApplyDragAndDropUI, addr 0x335a634, size 0x5e0, virtual false, abstract: false, final false
+  /// @brief Method ApplyDragAndDropUI, addr 0x355e370, size 0x5e0, virtual false, abstract: false, final false
   inline void ApplyDragAndDropUI(::UnityEngine::UIElements::__ListViewDragger__DragPosition dragPosition);
 
-  /// @brief Method CanStartDrag, addr 0x3359cd4, size 0x23c, virtual true, abstract: false, final false
+  /// @brief Method CanStartDrag, addr 0x355da10, size 0x23c, virtual true, abstract: false, final false
   inline bool CanStartDrag(::UnityEngine::Vector3 pointerPosition);
 
-  /// @brief Method ClearDragAndDropUI, addr 0x335b838, size 0x410, virtual true, abstract: false, final false
+  /// @brief Method ClearDragAndDropUI, addr 0x355f574, size 0x410, virtual true, abstract: false, final false
   inline void ClearDragAndDropUI();
 
-  /// @brief Method GetRecycledItem, addr 0x3359f10, size 0x398, virtual false, abstract: false, final false
+  /// @brief Method GetRecycledItem, addr 0x355dc4c, size 0x398, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ReusableCollectionItem* GetRecycledItem(::UnityEngine::Vector3 pointerPosition);
 
-  /// @brief Method GetVisualMode, addr 0x335a4d0, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method GetVisualMode, addr 0x355e20c, size 0x164, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::DragVisualMode GetVisualMode(::UnityEngine::Vector3 pointerPosition, ByRef<::UnityEngine::UIElements::__ListViewDragger__DragPosition> dragPosition);
 
-  /// @brief Method HandleDragAndScroll, addr 0x335ac14, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method HandleDragAndScroll, addr 0x355e950, size 0x23c, virtual false, abstract: false, final false
   inline void HandleDragAndScroll(::UnityEngine::Vector2 pointerPosition);
 
-  /// @brief Method MakeDragAndDropArgs, addr 0x335ae50, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method MakeDragAndDropArgs, addr 0x355eb8c, size 0x150, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ListDragAndDropArgs MakeDragAndDropArgs(::UnityEngine::UIElements::__ListViewDragger__DragPosition dragPosition);
 
   static inline ::UnityEngine::UIElements::ListViewDragger* New_ctor(::UnityEngine::UIElements::BaseVerticalCollectionView* listView);
 
-  /// @brief Method OnDrop, addr 0x335afa0, size 0x1e0, virtual true, abstract: false, final false
+  /// @brief Method OnDrop, addr 0x355ecdc, size 0x1e0, virtual true, abstract: false, final false
   inline void OnDrop(::UnityEngine::Vector3 pointerPosition);
 
-  /// @brief Method PlaceHoverBarAt, addr 0x335b1d8, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method PlaceHoverBarAt, addr 0x355ef14, size 0x184, virtual false, abstract: false, final false
   inline void PlaceHoverBarAt(float_t top);
 
-  /// @brief Method PlaceHoverBarAtElement, addr 0x335b35c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method PlaceHoverBarAtElement, addr 0x355f098, size 0xbc, virtual false, abstract: false, final false
   inline void PlaceHoverBarAtElement(::UnityEngine::UIElements::VisualElement* element);
 
-  /// @brief Method StartDrag, addr 0x335a2a8, size 0x1bc, virtual true, abstract: false, final false
+  /// @brief Method StartDrag, addr 0x355dfe4, size 0x1bc, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StartDragArgs* StartDrag(::UnityEngine::Vector3 pointerPosition);
 
-  /// @brief Method TryGetDragPosition, addr 0x335b418, size 0x340, virtual true, abstract: false, final false
+  /// @brief Method TryGetDragPosition, addr 0x355f154, size 0x340, virtual true, abstract: false, final false
   inline bool TryGetDragPosition(::UnityEngine::Vector2 pointerPosition, ByRef<::UnityEngine::UIElements::__ListViewDragger__DragPosition> dragPosition);
 
-  /// @brief Method UpdateDrag, addr 0x335a464, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method UpdateDrag, addr 0x355e1a0, size 0x6c, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::DragVisualMode UpdateDrag(::UnityEngine::Vector3 pointerPosition);
 
-  /// @brief Method <ApplyDragAndDropUI>b__22_0, addr 0x335bc48, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method <ApplyDragAndDropUI>b__22_0, addr 0x355f984, size 0x108, virtual false, abstract: false, final false
   inline void _ApplyDragAndDropUI_b__22_0(::UnityEngine::UIElements::GeometryChangedEvent* e);
 
   constexpr ::UnityEngine::UIElements::ICollectionDragAndDropController*& __cordl_internal_get__dragAndDropController_k__BackingField();
@@ -209,19 +210,19 @@ public:
 
   constexpr void __cordl_internal_set_m_LastDragPosition(::UnityEngine::UIElements::__ListViewDragger__DragPosition value);
 
-  /// @brief Method .ctor, addr 0x3359b94, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x355d8d0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::BaseVerticalCollectionView* listView);
 
-  /// @brief Method get_dragAndDropController, addr 0x3359b84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dragAndDropController, addr 0x355d8c0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ICollectionDragAndDropController* get_dragAndDropController();
 
-  /// @brief Method get_targetListView, addr 0x3359aec, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_targetListView, addr 0x355d828, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::BaseVerticalCollectionView* get_targetListView();
 
-  /// @brief Method get_targetScrollView, addr 0x3359b68, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_targetScrollView, addr 0x355d8a4, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ScrollView* get_targetScrollView();
 
-  /// @brief Method set_dragAndDropController, addr 0x3359b8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_dragAndDropController, addr 0x355d8c8, size 0x8, virtual false, abstract: false, final false
   inline void set_dragAndDropController(::UnityEngine::UIElements::ICollectionDragAndDropController* value);
 
 protected:

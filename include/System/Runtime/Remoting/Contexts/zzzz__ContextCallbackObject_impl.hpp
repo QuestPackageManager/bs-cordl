@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/Contexts/ContextCallbackObject.hpp"
 #include "System/zzzz__ContextBoundObject_impl.hpp"
 #include "System/Runtime/Remoting/Contexts/zzzz__ContextCallbackObject_def.hpp"
 #include "System/Runtime/Remoting/Contexts/zzzz__CrossContextDelegate_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Contexts::ContextCallbackObject::*)(
     ::System::Runtime::Remoting::Contexts::CrossContextDelegate*)>(&::System::Runtime::Remoting::Contexts::ContextCallbackObject::DoCallBack)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2721690;
+  constexpr static std::size_t addrs = 0x281fa8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Contexts::ContextCallbackObject::*)()>(
     &::System::Runtime::Remoting::Contexts::ContextCallbackObject::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2721688;
+  constexpr static std::size_t addrs = 0x281fa84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

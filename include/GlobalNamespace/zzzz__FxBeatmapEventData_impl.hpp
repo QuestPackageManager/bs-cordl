@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/FxBeatmapEventData.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventData_impl.hpp"
 #include "GlobalNamespace/zzzz__FxBeatmapEventData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::FxBeatmapEventData._ctor
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FxBeatmapEventData::*)(float_t, int32_t, int32_t, bool)>(
     &::GlobalNamespace::FxBeatmapEventData::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0xf46b4c;
+  constexpr static std::size_t addrs = 0x10356c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -22,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, int32_t)>(&::GlobalNamespace::FxBeatmapEventData::SubtypeIdentifier)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0xf46bb0;
+  constexpr static std::size_t addrs = 0x1035724;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

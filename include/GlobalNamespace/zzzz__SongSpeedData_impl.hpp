@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SongSpeedData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__SongSpeedData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SongSpeedData._ctor
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongSpeedData::*)(float_t)>(&::GlobalNamespace::SongSpeedData::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x13a9300;
+  constexpr static std::size_t addrs = 0x149e9dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

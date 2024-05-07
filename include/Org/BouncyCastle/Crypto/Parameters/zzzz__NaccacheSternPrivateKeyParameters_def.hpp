@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/NaccacheSternPrivateKeyParameters.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,21 +61,21 @@ public:
 
   constexpr void __cordl_internal_set_smallPrimes(::System::Collections::IList* value);
 
-  /// @brief Method .ctor, addr 0x10a2e8c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11965b0, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* g, ::Org::BouncyCastle::Math::BigInteger* n, int32_t lowerSigmaBound, ::System::Collections::ArrayList* smallPrimes,
                     ::Org::BouncyCastle::Math::BigInteger* phiN);
 
-  /// @brief Method .ctor, addr 0x10a2ee0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1196604, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* g, ::Org::BouncyCastle::Math::BigInteger* n, int32_t lowerSigmaBound, ::System::Collections::IList* smallPrimes,
                     ::Org::BouncyCastle::Math::BigInteger* phiN);
 
-  /// @brief Method get_PhiN, addr 0x10a2f34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PhiN, addr 0x1196658, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_PhiN();
 
-  /// @brief Method get_SmallPrimes, addr 0x10a2f3c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_SmallPrimes, addr 0x1196660, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* get_SmallPrimes();
 
-  /// @brief Method get_SmallPrimesList, addr 0x10a2fa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SmallPrimesList, addr 0x11966c8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::IList* get_SmallPrimesList();
 
 protected:

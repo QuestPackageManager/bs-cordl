@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/ConcreteBinderNonGeneric.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,22 +52,22 @@ public:
   /// @brief Method To, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TConcrete> inline ::Zenject::FromBinderNonGeneric* To();
 
-  /// @brief Method To, addr 0x3416d3c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method To, addr 0x361ba78, size 0x4, virtual false, abstract: false, final false
   inline ::Zenject::FromBinderNonGeneric* To(::ArrayW<::System::Type*, ::Array<::System::Type*>*> concreteTypes);
 
-  /// @brief Method To, addr 0x3416d40, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method To, addr 0x361ba7c, size 0x10c, virtual false, abstract: false, final false
   inline ::Zenject::FromBinderNonGeneric* To(::System::Collections::Generic::IEnumerable_1<::System::Type*>* concreteTypes);
 
-  /// @brief Method To, addr 0x3416e4c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method To, addr 0x361bb88, size 0x144, virtual false, abstract: false, final false
   inline ::Zenject::FromBinderNonGeneric* To(::System::Action_1<::Zenject::ConventionSelectTypesBinder*>* generator);
 
-  /// @brief Method ToSelf, addr 0x3416bfc, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method ToSelf, addr 0x361b938, size 0x124, virtual false, abstract: false, final false
   inline ::Zenject::FromBinderNonGeneric* ToSelf();
 
-  /// @brief Method <ToSelf>b__1_0, addr 0x3417228, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method <ToSelf>b__1_0, addr 0x361bf64, size 0xa4, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _ToSelf_b__1_0(::Zenject::DiContainer* container, ::System::Type* type);
 
-  /// @brief Method .ctor, addr 0x3416b98, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x361b8d4, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::BindStatement* bindStatement);
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ExposedReference_1.hpp"
 #include "UnityEngine/zzzz__PropertyName_impl.hpp"
 #include "UnityEngine/zzzz__ExposedReference_1_def.hpp"
 #include "UnityEngine/zzzz__IExposedPropertyTable_def.hpp"

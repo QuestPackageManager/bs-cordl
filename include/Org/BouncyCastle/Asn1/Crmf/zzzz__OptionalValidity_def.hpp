@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Crmf/OptionalValidity.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,14 +41,14 @@ public:
   /// @brief Field notBefore, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_notBefore, put = __cordl_internal_set_notBefore))::Org::BouncyCastle::Asn1::X509::Time* notBefore;
 
-  /// @brief Method GetInstance, addr 0xff0420, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x10e3b44, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Crmf::OptionalValidity* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::OptionalValidity* New_ctor(::Org::BouncyCastle::Asn1::X509::Time* notBefore, ::Org::BouncyCastle::Asn1::X509::Time* notAfter);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::OptionalValidity* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0xff1aac, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x10e51d0, size 0xc0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::Time*& __cordl_internal_get_notAfter();
@@ -62,16 +63,16 @@ public:
 
   constexpr void __cordl_internal_set_notBefore(::Org::BouncyCastle::Asn1::X509::Time* value);
 
-  /// @brief Method .ctor, addr 0xff1a70, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10e5194, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::Time* notBefore, ::Org::BouncyCastle::Asn1::X509::Time* notAfter);
 
-  /// @brief Method .ctor, addr 0xff1764, size 0x30c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10e4e88, size 0x30c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_NotAfter, addr 0xff1aa4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NotAfter, addr 0x10e51c8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::Time* get_NotAfter();
 
-  /// @brief Method get_NotBefore, addr 0xff1a9c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NotBefore, addr 0x10e51c0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::Time* get_NotBefore();
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Serialization/DataContractAttribute.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set_isReference(bool value);
 
-  /// @brief Method get_IsReference, addr 0x2c88ee0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsReference, addr 0x2d877e0, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsReference();
 
 protected:

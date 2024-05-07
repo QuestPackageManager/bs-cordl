@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Generators/KdfDoublePipelineIterationBytesGenerator.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -79,13 +80,13 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IMacDerivationFunction"
   constexpr operator ::Org::BouncyCastle::Crypto::IMacDerivationFunction*() noexcept;
 
-  /// @brief Method GenerateBytes, addr 0x1069730, size 0x208, virtual true, abstract: false, final true
+  /// @brief Method GenerateBytes, addr 0x115ce54, size 0x208, virtual true, abstract: false, final true
   inline int32_t GenerateBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff, int32_t length);
 
-  /// @brief Method GetMac, addr 0x1069938, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetMac, addr 0x115d05c, size 0x8, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::IMac* GetMac();
 
-  /// @brief Method Init, addr 0x1068f00, size 0x2bc, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0x115c624, size 0x2bc, virtual true, abstract: false, final true
   inline void Init(::Org::BouncyCastle::Crypto::IDerivationParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Generators::KdfDoublePipelineIterationBytesGenerator* New_ctor(::Org::BouncyCastle::Crypto::IMac* prf);
@@ -144,17 +145,17 @@ public:
 
   constexpr void __cordl_internal_set_useCounter(bool value);
 
-  /// @brief Method .ctor, addr 0x1068e10, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x115c534, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IMac* prf);
 
-  /// @brief Method generateNext, addr 0x10691bc, size 0x4ec, virtual false, abstract: false, final false
+  /// @brief Method generateNext, addr 0x115c8e0, size 0x4ec, virtual false, abstract: false, final false
   inline void generateNext();
 
   static inline ::Org::BouncyCastle::Math::BigInteger* getStaticF_IntegerMax();
 
   static inline ::Org::BouncyCastle::Math::BigInteger* getStaticF_Two();
 
-  /// @brief Method get_Digest, addr 0x10696a8, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method get_Digest, addr 0x115cdcc, size 0x88, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::IDigest* get_Digest();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDerivationFunction"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/ICloseEx.hpp"
 #include "System/Net/zzzz__ICloseEx_def.hpp"
 #include "System/Net/zzzz__CloseExState_def.hpp"
 //  Writing Method size for method: ::System::Net::ICloseEx.CloseEx

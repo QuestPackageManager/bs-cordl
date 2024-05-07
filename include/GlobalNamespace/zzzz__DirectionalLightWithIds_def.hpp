@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/DirectionalLightWithIds.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,7 +35,7 @@ public:
   /// @brief Field _setIntensityOnly, offset 0x50, size 0x1
   __declspec(property(get = __cordl_internal_get__setIntensityOnly, put = __cordl_internal_set__setIntensityOnly)) bool _setIntensityOnly;
 
-  /// @brief Method ColorWasSet, addr 0x23fa238, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x24f1e28, size 0x44, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::DirectionalLightWithIds* New_ctor();
@@ -57,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set__setIntensityOnly(bool value);
 
-  /// @brief Method .ctor, addr 0x23fa27c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f1e6c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

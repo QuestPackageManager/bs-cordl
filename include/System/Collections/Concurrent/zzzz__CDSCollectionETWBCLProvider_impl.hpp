@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Collections/Concurrent/CDSCollectionETWBCLProvider.hpp"
 #include "System/Diagnostics/Tracing/zzzz__EventSource_impl.hpp"
 #include "System/Collections/Concurrent/zzzz__CDSCollectionETWBCLProvider_def.hpp"
 //  Writing Method size for method: ::System::Collections::Concurrent::CDSCollectionETWBCLProvider._ctor
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Concurrent::CDSCollectionETWBCLProvider::*)()>(
     &::System::Collections::Concurrent::CDSCollectionETWBCLProvider::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2811998;
+  constexpr static std::size_t addrs = 0x29110b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -22,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Concurrent::CDSCollectionETWBCLProvider::*)(int32_t)>(
     &::System::Collections::Concurrent::CDSCollectionETWBCLProvider::ConcurrentDictionary_AcquiringAllLocks)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x281199c;
+  constexpr static std::size_t addrs = 0x29110bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

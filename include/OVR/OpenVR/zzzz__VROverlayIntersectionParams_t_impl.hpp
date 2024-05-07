@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/VROverlayIntersectionParams_t.hpp"
 #include "OVR/OpenVR/zzzz__ETrackingUniverseOrigin_impl.hpp"
 #include "OVR/OpenVR/zzzz__HmdVector3_t_impl.hpp"
 #include "OVR/OpenVR/zzzz__VROverlayIntersectionParams_t_def.hpp"

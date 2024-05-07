@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/SetupCoroutine.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__SetupCoroutine_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
@@ -8,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::IEnumerator*, void*)>(&::UnityEngine::SetupCoroutine::InvokeMoveNext)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x3207cac;
+  constexpr static std::size_t addrs = 0x340e9e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::System::Object*, ::StringW, ::System::Object*)>(
     &::UnityEngine::SetupCoroutine::InvokeMember)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3207e00;
+  constexpr static std::size_t addrs = 0x340eb34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

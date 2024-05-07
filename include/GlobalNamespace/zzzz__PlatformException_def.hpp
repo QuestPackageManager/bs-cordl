@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/PlatformException.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -123,10 +124,10 @@ public:
 
   constexpr void __cordl_internal_set_httpCode(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2ad5b34, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bd23e4, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__PlatformException__ErrorType error, int32_t code, int32_t httpCode, ::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x2ad5b20, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bd23d0, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__PlatformException__ErrorType error, ::StringW message, ::System::Exception* innerException);
 
 protected:

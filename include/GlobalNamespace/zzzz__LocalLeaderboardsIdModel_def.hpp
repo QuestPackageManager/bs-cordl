@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/LocalLeaderboardsIdModel.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,12 +24,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE LocalLeaderboardsIdModel : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetLocalLeaderboardID, addr 0x13ad488, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetLocalLeaderboardID, addr 0x14a2b64, size 0x8, virtual false, abstract: false, final false
   static inline ::StringW GetLocalLeaderboardID(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey);
 
   static inline ::GlobalNamespace::LocalLeaderboardsIdModel* New_ctor();
 
-  /// @brief Method .ctor, addr 0x13ad490, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14a2b6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

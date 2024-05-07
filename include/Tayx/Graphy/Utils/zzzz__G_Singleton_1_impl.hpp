@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Tayx/Graphy/Utils/G_Singleton_1.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Tayx/Graphy/Utils/zzzz__G_Singleton_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"

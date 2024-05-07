@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Security/SignerUtilities.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Security/zzzz__SignerUtilities_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
@@ -13,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Security::SignerUtilities::*)()>(&::Org::BouncyCastle::Security::SignerUtilities::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x12b10cc;
+  constexpr static std::size_t addrs = 0x13a27f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Security::SignerUtilities*>::get(), ".ctor",
@@ -27,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerObjectIdentifier* (*)(::StringW)>(
     &::Org::BouncyCastle::Security::SignerUtilities::GetObjectIdentifier)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x12bc1d8;
+  constexpr static std::size_t addrs = 0x13ad8fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ICollection* (*)()>(&::Org::BouncyCastle::Security::SignerUtilities::get_Algorithms)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x12bc434;
+  constexpr static std::size_t addrs = 0x13adb58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Security::SignerUtilities*>::get(),
@@ -55,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Encodable* (*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(
     &::Org::BouncyCastle::Security::SignerUtilities::GetDefaultX509Parameters)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x12bc500;
+  constexpr static std::size_t addrs = 0x13adc24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -70,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Encodable* (*)(::StringW)>(
     &::Org::BouncyCastle::Security::SignerUtilities::GetDefaultX509Parameters)> {
   constexpr static std::size_t size = 0x2a8;
-  constexpr static std::size_t addrs = 0x12bc560;
+  constexpr static std::size_t addrs = 0x13adc84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Encodable* (*)(::StringW)>(
     &::Org::BouncyCastle::Security::SignerUtilities::GetPssX509Parameters)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x12bc808;
+  constexpr static std::size_t addrs = 0x13adf2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -100,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::ISigner* (*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(
     &::Org::BouncyCastle::Security::SignerUtilities::GetSigner)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x12bca4c;
+  constexpr static std::size_t addrs = 0x13ae170;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -114,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::ISigner* (*)(::StringW)>(&::Org::BouncyCastle::Security::SignerUtilities::GetSigner)> {
   constexpr static std::size_t size = 0x103c;
-  constexpr static std::size_t addrs = 0x12bcaac;
+  constexpr static std::size_t addrs = 0x13ae1d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -129,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(
     &::Org::BouncyCastle::Security::SignerUtilities::GetEncodingName)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x12bdae8;
+  constexpr static std::size_t addrs = 0x13af20c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -145,7 +146,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Crypto::ISigner* (*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*, bool, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*,
                                                           ::Org::BouncyCastle::Security::SecureRandom*)>(&::Org::BouncyCastle::Security::SignerUtilities::InitSigner)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x12bdbf0;
+  constexpr static std::size_t addrs = 0x13af314;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -164,7 +165,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Crypto::ISigner* (*)(::StringW, bool, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*, ::Org::BouncyCastle::Security::SecureRandom*)>(
         &::Org::BouncyCastle::Security::SignerUtilities::InitSigner)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x12bdc70;
+  constexpr static std::size_t addrs = 0x13af394;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

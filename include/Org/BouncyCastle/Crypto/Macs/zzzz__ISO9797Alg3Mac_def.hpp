@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Macs/ISO9797Alg3Mac.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -65,16 +66,16 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IMac"
   constexpr operator ::Org::BouncyCastle::Crypto::IMac*() noexcept;
 
-  /// @brief Method BlockUpdate, addr 0x107a624, size 0x294, virtual true, abstract: false, final true
+  /// @brief Method BlockUpdate, addr 0x116ed48, size 0x294, virtual true, abstract: false, final true
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t len);
 
-  /// @brief Method DoFinal, addr 0x107a8b8, size 0x354, virtual true, abstract: false, final true
+  /// @brief Method DoFinal, addr 0x116efdc, size 0x354, virtual true, abstract: false, final true
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method GetMacSize, addr 0x107a504, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetMacSize, addr 0x116ec28, size 0x8, virtual true, abstract: false, final true
   inline int32_t GetMacSize();
 
-  /// @brief Method Init, addr 0x107a064, size 0x3e0, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0x116e788, size 0x3e0, virtual true, abstract: false, final true
   inline void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher);
@@ -86,10 +87,10 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Macs::ISO9797Alg3Mac* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher, ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* padding);
 
-  /// @brief Method Reset, addr 0x107a444, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x116eb68, size 0xc0, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method Update, addr 0x107a50c, size 0x118, virtual true, abstract: false, final true
+  /// @brief Method Update, addr 0x116ec30, size 0x118, virtual true, abstract: false, final true
   inline void Update(uint8_t input);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_buf() const;
@@ -140,19 +141,19 @@ public:
 
   constexpr void __cordl_internal_set_padding(::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* value);
 
-  /// @brief Method .ctor, addr 0x1079c3c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x116e360, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher);
 
-  /// @brief Method .ctor, addr 0x107a01c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x116e740, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher, int32_t macSizeInBits);
 
-  /// @brief Method .ctor, addr 0x1079cf4, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x116e418, size 0x264, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher, int32_t macSizeInBits, ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* padding);
 
-  /// @brief Method .ctor, addr 0x1079f58, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x116e67c, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher, ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* padding);
 
-  /// @brief Method get_AlgorithmName, addr 0x107a024, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_AlgorithmName, addr 0x116e748, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IMac"

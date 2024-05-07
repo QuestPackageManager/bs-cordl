@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/XR/XRDevice.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/XR/zzzz__XRDevice_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
@@ -9,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::XR::TrackingSpaceType)>(&::UnityEngine::XR::XRDevice::SetTrackingSpaceType)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3400e60;
+  constexpr static std::size_t addrs = 0x3606b9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Camera*, bool)>(&::UnityEngine::XR::XRDevice::DisableAutoXRCameraTracking)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3400e9c;
+  constexpr static std::size_t addrs = 0x3606bd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::XRDevice*>::get(),
@@ -38,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::UnityEngine::XR::XRDevice::InvokeDeviceLoaded)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3400ee0;
+  constexpr static std::size_t addrs = 0x3606c1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

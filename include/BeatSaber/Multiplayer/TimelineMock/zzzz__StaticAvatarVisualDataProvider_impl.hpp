@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatSaber/Multiplayer/TimelineMock/StaticAvatarVisualDataProvider.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerAvatarsData_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/Multiplayer/TimelineMock/zzzz__StaticAvatarVisualDataProvider_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MultiplayerAvatarsData (
     ::BeatSaber::Multiplayer::TimelineMock::StaticAvatarVisualDataProvider::*)()>(&::BeatSaber::Multiplayer::TimelineMock::StaticAvatarVisualDataProvider::get_avatarsData)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0xf4dea0;
+  constexpr static std::size_t addrs = 0x103ca14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::Multiplayer::TimelineMock::StaticAvatarVisualDataProvider::*)(
     ::GlobalNamespace::MultiplayerAvatarsData)>(&::BeatSaber::Multiplayer::TimelineMock::StaticAvatarVisualDataProvider::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0xf4deb4;
+  constexpr static std::size_t addrs = 0x103ca28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

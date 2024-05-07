@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/ConstraintTable.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Data/zzzz__ConstraintTable_def.hpp"
 #include "System/Data/zzzz__DataTable_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Data::ConstraintTable::*)(::System::Data::DataTable*, ::System::Xml::Schema::XmlSchemaIdentityConstraint*)>(&::System::Data::ConstraintTable::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2beae30;
+  constexpr static std::size_t addrs = 0x2ce7730;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

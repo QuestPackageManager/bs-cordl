@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Dynamic/BindingRestrictions_TypeRestriction.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,13 +35,13 @@ public:
   /// @brief Field _type, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__type, put = __cordl_internal_set__type))::System::Type* _type;
 
-  /// @brief Method Equals, addr 0x2b50468, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2c4cd68, size 0xc4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetExpression, addr 0x2b50580, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method GetExpression, addr 0x2c4ce80, size 0x60, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* GetExpression();
 
-  /// @brief Method GetHashCode, addr 0x2b5052c, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2c4ce2c, size 0x54, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Dynamic::__BindingRestrictions__TypeRestriction* New_ctor(::System::Linq::Expressions::Expression* parameter, ::System::Type* type);
@@ -57,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set__type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x2b4fb04, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c4c404, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Expression* parameter, ::System::Type* type);
 
 protected:

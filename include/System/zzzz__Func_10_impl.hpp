@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Func_10.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Func_10_def.hpp"
 #include "System/zzzz__Object_def.hpp"

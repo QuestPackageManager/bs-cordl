@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Cryptography/DSASignatureFormatter.hpp"
 #include "System/Security/Cryptography/zzzz__AsymmetricSignatureFormatter_impl.hpp"
 #include "System/Security/Cryptography/zzzz__DSASignatureFormatter_def.hpp"
 //  Writing Method size for method: ::System::Security::Cryptography::DSASignatureFormatter._ctor
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::DSASignatureFormatter::*)()>(
     &::System::Security::Cryptography::DSASignatureFormatter::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x26e1b28;
+  constexpr static std::size_t addrs = 0x27def24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::DSASignatureFormatter*>::get(),

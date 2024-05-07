@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/CompilerServices/IAsyncStateMachine.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 //  Writing Method size for method: ::System::Runtime::CompilerServices::IAsyncStateMachine.MoveNext
 template <>

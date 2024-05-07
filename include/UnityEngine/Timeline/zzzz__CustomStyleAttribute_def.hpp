@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Timeline/CustomStyleAttribute.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,7 +31,7 @@ public:
 
   constexpr void __cordl_internal_set_ussStyle(::StringW value);
 
-  /// @brief Method .ctor, addr 0x319d0c4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33a3b4c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW ussStyle);
 
 protected:

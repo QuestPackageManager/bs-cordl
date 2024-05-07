@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/DtlsHandshakeRetransmit.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__DtlsHandshakeRetransmit_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Tls::DtlsHandshakeRetransmit.ReceivedHandshakeRecord
 template <>

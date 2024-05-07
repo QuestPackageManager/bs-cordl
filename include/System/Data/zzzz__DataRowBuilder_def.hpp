@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/DataRowBuilder.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set__table(::System::Data::DataTable* value);
 
-  /// @brief Method .ctor, addr 0x2babbe8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ca94e8, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* table, int32_t record);
 
 protected:

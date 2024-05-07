@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/XmlValueGetter.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,12 +23,12 @@ namespace System::Xml::Schema {
 class CORDL_TYPE XmlValueGetter : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2d227d4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2e1f0d4, size 0x14, virtual true, abstract: false, final false
   inline ::System::Object* Invoke();
 
   static inline ::System::Xml::Schema::XmlValueGetter* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2d22718, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e1f018, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ShaderWarmupSceneSetupData.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,13 +37,13 @@ public:
 
   constexpr void __cordl_internal_set__nextScenesTransitionSetupData_k__BackingField(::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0x25a88f4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a298c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData);
 
-  /// @brief Method get_nextScenesTransitionSetupData, addr 0x25a88e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_nextScenesTransitionSetupData, addr 0x26a297c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> get_nextScenesTransitionSetupData();
 
-  /// @brief Method set_nextScenesTransitionSetupData, addr 0x25a88ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_nextScenesTransitionSetupData, addr 0x26a2984, size 0x8, virtual false, abstract: false, final false
   inline void set_nextScenesTransitionSetupData(::GlobalNamespace::ScenesTransitionSetupDataSO* value);
 
 protected:

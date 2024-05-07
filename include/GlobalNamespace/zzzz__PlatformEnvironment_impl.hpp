@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/PlatformEnvironment.hpp"
 #include "GlobalNamespace/zzzz__PlatformEnvironment_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::PlatformEnvironment::PlatformEnvironment(uint8_t value__) noexcept {

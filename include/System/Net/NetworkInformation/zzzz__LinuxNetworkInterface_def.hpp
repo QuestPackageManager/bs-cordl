@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/NetworkInformation/LinuxNetworkInterface.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,12 +39,12 @@ public:
   /// @brief Field iface_path, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_iface_path, put = __cordl_internal_set_iface_path))::StringW iface_path;
 
-  /// @brief Method GetIPProperties, addr 0x2f244ec, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method GetIPProperties, addr 0x3024dec, size 0x74, virtual true, abstract: false, final false
   inline ::System::Net::NetworkInformation::IPInterfaceProperties* GetIPProperties();
 
   static inline ::System::Net::NetworkInformation::LinuxNetworkInterface* New_ctor(::StringW name);
 
-  /// @brief Method ReadLine, addr 0x2f2481c, size 0x2ec, virtual false, abstract: false, final false
+  /// @brief Method ReadLine, addr 0x302511c, size 0x2ec, virtual false, abstract: false, final false
   static inline ::StringW ReadLine(::StringW path);
 
   constexpr ::StringW const& __cordl_internal_get_iface_flags_path() const;
@@ -64,13 +65,13 @@ public:
 
   constexpr void __cordl_internal_set_iface_path(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2f24404, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3024d04, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method get_IfacePath, addr 0x2f244e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IfacePath, addr 0x3024de4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_IfacePath();
 
-  /// @brief Method get_OperationalStatus, addr 0x2f24560, size 0x2bc, virtual true, abstract: false, final false
+  /// @brief Method get_OperationalStatus, addr 0x3024e60, size 0x2bc, virtual true, abstract: false, final false
   inline ::System::Net::NetworkInformation::OperationalStatus get_OperationalStatus();
 
 protected:

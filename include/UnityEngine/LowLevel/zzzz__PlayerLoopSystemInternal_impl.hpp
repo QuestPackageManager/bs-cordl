@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/LowLevel/PlayerLoopSystemInternal.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "UnityEngine/LowLevel/zzzz__PlayerLoopSystemInternal_def.hpp"
 #include "System/zzzz__Type_def.hpp"

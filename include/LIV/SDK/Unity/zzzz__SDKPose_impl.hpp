@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LIV/SDK/Unity/SDKPose.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKMatrix4x4_impl.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKQuaternion_impl.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKVector3_impl.hpp"
@@ -11,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LIV::SDK::Unity::SDKPose (*)()>(&::LIV::SDK::Unity::SDKPose::get_empty)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x24fe224;
+  constexpr static std::size_t addrs = 0x25f4eb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKPose>::get(), "get_empty",
@@ -24,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::LIV::SDK::Unity::SDKPose::*)()>(&::LIV::SDK::Unity::SDKPose::ToString)> {
   constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x25045a8;
+  constexpr static std::size_t addrs = 0x25fb234;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/OidTokenizer.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,7 +31,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::OidTokenizer* New_ctor(::StringW oid);
 
-  /// @brief Method NextToken, addr 0x1335be8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method NextToken, addr 0x142930c, size 0x88, virtual false, abstract: false, final false
   inline ::StringW NextToken();
 
   constexpr int32_t const& __cordl_internal_get_index() const;
@@ -45,10 +46,10 @@ public:
 
   constexpr void __cordl_internal_set_oid(::StringW value);
 
-  /// @brief Method .ctor, addr 0x1335bb0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14292d4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW oid);
 
-  /// @brief Method get_HasMoreTokens, addr 0x1335bd8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HasMoreTokens, addr 0x14292fc, size 0x10, virtual false, abstract: false, final false
   inline bool get_HasMoreTokens();
 
 protected:

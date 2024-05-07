@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/LocalLeaderboardsModel.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -231,7 +232,7 @@ public:
 
   constexpr void __cordl_internal_set__timestamp(int64_t value);
 
-  /// @brief Method .ctor, addr 0x13b0608, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14a5ce4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -302,7 +303,7 @@ public:
 
   constexpr void __cordl_internal_set__scores(::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__ScoreData*>* value);
 
-  /// @brief Method .ctor, addr 0x13b0600, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14a5cdc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -356,7 +357,7 @@ public:
 
   constexpr void __cordl_internal_set__leaderboardsData(::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>* value);
 
-  /// @brief Method .ctor, addr 0x13b0e0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14a64e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -395,10 +396,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x13b0e14, size 0x204, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x14a64f0, size 0x204, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x13b1018, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x14a66f4, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -463,10 +464,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x13b1070, size 0x2c8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x14a674c, size 0x2c8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x13b1338, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x14a6a14, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -547,16 +548,16 @@ public:
 
   static inline ::GlobalNamespace::__LocalLeaderboardsModel____c* New_ctor();
 
-  /// @brief Method <AppendLeaderboardScores>b__21_0, addr 0x13b13b0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <AppendLeaderboardScores>b__21_0, addr 0x14a6a8c, size 0x24, virtual false, abstract: false, final false
   inline int32_t _AppendLeaderboardScores_b__21_0(::GlobalNamespace::__LocalLeaderboardsModel__ScoreData* a, ::GlobalNamespace::__LocalLeaderboardsModel__ScoreData* b);
 
-  /// @brief Method <MigrateQuestLeaderboards>b__22_0, addr 0x13b13d4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <MigrateQuestLeaderboards>b__22_0, addr 0x14a6ab0, size 0x58, virtual false, abstract: false, final false
   inline bool _MigrateQuestLeaderboards_b__22_0(::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData* leaderboardData);
 
-  /// @brief Method <MigrateQuestLeaderboards>b__22_1, addr 0x13b142c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <MigrateQuestLeaderboards>b__22_1, addr 0x14a6b08, size 0xc, virtual false, abstract: false, final false
   inline bool _MigrateQuestLeaderboards_b__22_1(::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData* leaderboardData);
 
-  /// @brief Method .ctor, addr 0x13b13a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14a6a84, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__LocalLeaderboardsModel____c* getStaticF___9();
@@ -606,10 +607,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x13b1438, size 0x25c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x14a6b14, size 0x25c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x13b1694, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x14a6d70, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -665,10 +666,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x13b16a0, size 0x3c4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x14a6d7c, size 0x3c4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x13b1a64, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x14a7140, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -731,10 +732,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x13b1a70, size 0x2cc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x14a714c, size 0x2cc, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x13b1d3c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x14a7418, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -836,89 +837,89 @@ public:
       get = __cordl_internal_get_newScoreWasAddedToLeaderboardEvent,
       put = __cordl_internal_set_newScoreWasAddedToLeaderboardEvent))::System::Action_2<::StringW, ::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType>* newScoreWasAddedToLeaderboardEvent;
 
-  /// @brief Method AddScore, addr 0x13b02ec, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method AddScore, addr 0x14a59c8, size 0x314, virtual false, abstract: false, final false
   inline void AddScore(::StringW leaderboardId, ::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType leaderboardType, ::StringW playerName, int32_t score, bool fullCombo);
 
-  /// @brief Method AddScore, addr 0x13b0958, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method AddScore, addr 0x14a6034, size 0x5c, virtual false, abstract: false, final false
   inline void AddScore(::StringW leaderboardId, ::StringW playerName, int32_t score, bool fullCombo);
 
-  /// @brief Method AppendLeaderboardScores, addr 0x13af998, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method AppendLeaderboardScores, addr 0x14a5074, size 0x174, virtual false, abstract: false, final false
   static inline void AppendLeaderboardScores(::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__ScoreData*>* main,
                                              ::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__ScoreData*>* tail, int32_t maxNumberOfScores);
 
-  /// @brief Method ClearAllLeaderboardsAsync, addr 0x13b0b40, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method ClearAllLeaderboardsAsync, addr 0x14a621c, size 0xdc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ClearAllLeaderboardsAsync(bool deleteLeaderboardFile);
 
-  /// @brief Method ClearLastScorePosition, addr 0x13b0900, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ClearLastScorePosition, addr 0x14a5fdc, size 0x58, virtual false, abstract: false, final false
   inline void ClearLastScorePosition();
 
-  /// @brief Method ClearLeaderboard, addr 0x13b0a04, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method ClearLeaderboard, addr 0x14a60e0, size 0x13c, virtual false, abstract: false, final false
   inline void ClearLeaderboard(::StringW leaderboardId);
 
-  /// @brief Method GetCurrentTimestamp, addr 0x13b0030, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentTimestamp, addr 0x14a570c, size 0xcc, virtual false, abstract: false, final false
   inline int64_t GetCurrentTimestamp();
 
-  /// @brief Method GetHighScore, addr 0x13b06f0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetHighScore, addr 0x14a5dcc, size 0xa4, virtual false, abstract: false, final false
   inline int32_t GetHighScore(::StringW leaderboardId, ::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType leaderboardType);
 
-  /// @brief Method GetLastScorePosition, addr 0x13b0868, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetLastScorePosition, addr 0x14a5f44, size 0x98, virtual false, abstract: false, final false
   inline int32_t GetLastScorePosition(::StringW leaderboardId, ::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType leaderboardType);
 
-  /// @brief Method GetLeaderboardData, addr 0x13aff5c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method GetLeaderboardData, addr 0x14a5638, size 0xd4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData* GetLeaderboardData(::StringW leaderboardId, ::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType leaderboardType);
 
-  /// @brief Method GetLeaderboardsData, addr 0x13aff34, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetLeaderboardsData, addr 0x14a5610, size 0x28, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>*
   GetLeaderboardsData(::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType leaderboardType);
 
-  /// @brief Method GetPositionInLeaderboard, addr 0x13b0794, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method GetPositionInLeaderboard, addr 0x14a5e70, size 0xd4, virtual false, abstract: false, final false
   inline int32_t GetPositionInLeaderboard(::StringW leaderboardId, ::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType leaderboardType, int32_t score);
 
-  /// @brief Method GetScores, addr 0x13b06d8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetScores, addr 0x14a5db4, size 0x18, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__ScoreData*>* GetScores(::StringW leaderboardId,
                                                                                                                     ::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType leaderboardType);
 
-  /// @brief Method Load, addr 0x13b0ce4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x14a63c0, size 0x80, virtual false, abstract: false, final false
   inline void Load();
 
-  /// @brief Method LoadAsync, addr 0x13b0c1c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method LoadAsync, addr 0x14a62f8, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* LoadAsync();
 
-  /// @brief Method LoadInternal, addr 0x13b0d64, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method LoadInternal, addr 0x14a6440, size 0xa8, virtual false, abstract: false, final false
   inline void LoadInternal();
 
-  /// @brief Method LoadLeaderboardsData, addr 0x13af720, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method LoadLeaderboardsData, addr 0x14a4dfc, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>* LoadLeaderboardsData(::StringW filename);
 
-  /// @brief Method LoadLeaderboardsDataAsync, addr 0x13af624, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method LoadLeaderboardsDataAsync, addr 0x14a4d00, size 0xfc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>*>* LoadLeaderboardsDataAsync(::StringW filename);
 
-  /// @brief Method LoadLeaderboardsDataInternal, addr 0x13af780, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method LoadLeaderboardsDataInternal, addr 0x14a4e5c, size 0x80, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>*
   LoadLeaderboardsDataInternal(::GlobalNamespace::__LocalLeaderboardsModel__SavedLeaderboardsData* savedLeaderboardsData);
 
-  /// @brief Method MigrateQuestLeaderboards, addr 0x13afb0c, size 0x360, virtual false, abstract: false, final false
+  /// @brief Method MigrateQuestLeaderboards, addr 0x14a51e8, size 0x360, virtual false, abstract: false, final false
   static inline void MigrateQuestLeaderboards(::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>* leaderboardDataList, int32_t maxNumberOfScores);
 
   static inline ::GlobalNamespace::LocalLeaderboardsModel* New_ctor(::GlobalNamespace::IFileStorage* fileStorage, ::GlobalNamespace::LocalLeaderboardsSettingsSO* localLeaderboardsSettingsSo);
 
-  /// @brief Method SaveAsync, addr 0x13afe6c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method SaveAsync, addr 0x14a5548, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* SaveAsync();
 
-  /// @brief Method SaveLeaderboardsData, addr 0x13af800, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method SaveLeaderboardsData, addr 0x14a4edc, size 0xdc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* SaveLeaderboardsData(::StringW filename,
                                                                 ::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>* leaderboardsData);
 
-  /// @brief Method SaveLeaderboardsDataAsync, addr 0x13af8dc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method SaveLeaderboardsDataAsync, addr 0x14a4fb8, size 0xbc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* SaveLeaderboardsDataAsync(::StringW filename, ::StringW json);
 
-  /// @brief Method UpdateDailyLeaderboard, addr 0x13b00fc, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method UpdateDailyLeaderboard, addr 0x14a57d8, size 0x1f0, virtual false, abstract: false, final false
   inline void UpdateDailyLeaderboard(::StringW leaderboardId);
 
-  /// @brief Method WillScoreGoIntoLeaderboard, addr 0x13b0610, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method WillScoreGoIntoLeaderboard, addr 0x14a5cec, size 0xc8, virtual false, abstract: false, final false
   inline bool WillScoreGoIntoLeaderboard(::StringW leaderboardId, ::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType leaderboardType, int32_t score);
 
-  /// @brief Method WillScoreGoIntoLeaderboard, addr 0x13b09b4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method WillScoreGoIntoLeaderboard, addr 0x14a6090, size 0x50, virtual false, abstract: false, final false
   inline bool WillScoreGoIntoLeaderboard(::StringW leaderboardId, int32_t score);
 
   constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardData*>*& __cordl_internal_get__dailyLeaderboardsData();
@@ -967,13 +968,13 @@ public:
 
   constexpr void __cordl_internal_set_newScoreWasAddedToLeaderboardEvent(::System::Action_2<::StringW, ::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType>* value);
 
-  /// @brief Method .ctor, addr 0x13af584, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14a4c60, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IFileStorage* fileStorage, ::GlobalNamespace::LocalLeaderboardsSettingsSO* localLeaderboardsSettingsSo);
 
-  /// @brief Method add_newScoreWasAddedToLeaderboardEvent, addr 0x13af424, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_newScoreWasAddedToLeaderboardEvent, addr 0x14a4b00, size 0xb0, virtual false, abstract: false, final false
   inline void add_newScoreWasAddedToLeaderboardEvent(::System::Action_2<::StringW, ::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType>* value);
 
-  /// @brief Method remove_newScoreWasAddedToLeaderboardEvent, addr 0x13af4d4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_newScoreWasAddedToLeaderboardEvent, addr 0x14a4bb0, size 0xb0, virtual false, abstract: false, final false
   inline void remove_newScoreWasAddedToLeaderboardEvent(::System::Action_2<::StringW, ::GlobalNamespace::__LocalLeaderboardsModel__LeaderboardType>* value);
 
 protected:

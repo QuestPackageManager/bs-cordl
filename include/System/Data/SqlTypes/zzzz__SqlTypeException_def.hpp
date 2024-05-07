@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/SqlTypes/SqlTypeException.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,20 +37,20 @@ public:
 
   static inline ::System::Data::SqlTypes::SqlTypeException* New_ctor(::System::Runtime::Serialization::SerializationInfo* si, ::System::Runtime::Serialization::StreamingContext sc);
 
-  /// @brief Method SqlTypeExceptionSerialization, addr 0x2c2bc1c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method SqlTypeExceptionSerialization, addr 0x2d2951c, size 0xdc, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::SerializationInfo* SqlTypeExceptionSerialization(::System::Runtime::Serialization::SerializationInfo* si,
                                                                                                    ::System::Runtime::Serialization::StreamingContext sc);
 
-  /// @brief Method .ctor, addr 0x2c2bb48, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d29448, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2c19f6c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d1786c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x2c2bba8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d294a8, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* e);
 
-  /// @brief Method .ctor, addr 0x2c2bbcc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d294cc, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* si, ::System::Runtime::Serialization::StreamingContext sc);
 
 protected:

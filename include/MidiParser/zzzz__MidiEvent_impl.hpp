@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "MidiParser/MidiEvent.hpp"
 #include "MidiParser/zzzz__MidiEvent_def.hpp"
 #include "MidiParser/zzzz__MetaEventType_def.hpp"
 //  Writing Method size for method: ::MidiParser::MidiEvent.get_MetaEventType
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::MidiParser::MetaEventType (::MidiParser::MidiEvent::*)()>(&::MidiParser::MidiEvent::get_MetaEventType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2665534;
+  constexpr static std::size_t addrs = 0x276492c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::MidiParser::MidiEvent>::get(), "get_MetaEventType",
@@ -19,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::MidiParser::MidiEvent::*)()>(&::MidiParser::MidiEvent::get_Channel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x266553c;
+  constexpr static std::size_t addrs = 0x2764934;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::MidiParser::MidiEvent>::get(), "get_Channel",
@@ -32,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::MidiParser::MidiEvent::*)()>(&::MidiParser::MidiEvent::get_Note)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2665544;
+  constexpr static std::size_t addrs = 0x276493c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::MidiParser::MidiEvent>::get(), "get_Note",
@@ -45,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::MidiParser::MidiEvent::*)()>(&::MidiParser::MidiEvent::get_Velocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x266554c;
+  constexpr static std::size_t addrs = 0x2764944;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::MidiParser::MidiEvent>::get(), "get_Velocity",
@@ -58,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::MidiParser::MidiEvent::*)()>(&::MidiParser::MidiEvent::get_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2665554;
+  constexpr static std::size_t addrs = 0x276494c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::MidiParser::MidiEvent>::get(), "get_Value",

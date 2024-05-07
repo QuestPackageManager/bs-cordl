@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/DynamicUtils.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,19 +62,19 @@ public:
   /// @brief Field _setMemberCall, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__setMemberCall, put = setStaticF__setMemberCall))::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* _setMemberCall;
 
-  /// @brief Method CreateMemberCalls, addr 0x291130c, size 0x4dc, virtual false, abstract: false, final false
+  /// @brief Method CreateMemberCalls, addr 0x2a0fbbc, size 0x4dc, virtual false, abstract: false, final false
   static inline void CreateMemberCalls();
 
-  /// @brief Method CreateSharpArgumentInfoArray, addr 0x2911034, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method CreateSharpArgumentInfoArray, addr 0x2a0f8e4, size 0x2d8, virtual false, abstract: false, final false
   static inline ::System::Object* CreateSharpArgumentInfoArray(::ArrayW<int32_t, ::Array<int32_t>*> values);
 
-  /// @brief Method GetMember, addr 0x29117e8, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method GetMember, addr 0x2a10098, size 0x1d4, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::CallSiteBinder* GetMember(::StringW name, ::System::Type* context);
 
-  /// @brief Method Init, addr 0x2910e4c, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2a0f6fc, size 0x1e8, virtual false, abstract: false, final false
   static inline void Init();
 
-  /// @brief Method SetMember, addr 0x29119bc, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method SetMember, addr 0x2a1026c, size 0x1d4, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::CallSiteBinder* SetMember(::StringW name, ::System::Type* context);
 
   static inline ::System::Object* getStaticF__getCSharpArgumentInfoArray();
@@ -145,7 +146,7 @@ public:
   // Declarations
   using BinderWrapper = ::Newtonsoft::Json::Utilities::__DynamicUtils__BinderWrapper;
 
-  /// @brief Method GetDynamicMemberNames, addr 0x2910d64, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetDynamicMemberNames, addr 0x2a0f614, size 0xe8, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::StringW>* GetDynamicMemberNames(::System::Dynamic::IDynamicMetaObjectProvider* dynamicProvider);
 
 protected:

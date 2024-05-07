@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IAssetSongAudioClipProvider.hpp"
 #include "GlobalNamespace/zzzz__IAssetSongAudioClipProvider_def.hpp"
 #include "UnityEngine/zzzz__AudioClip_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IAssetSongAudioClipProvider.get_songAudioClip

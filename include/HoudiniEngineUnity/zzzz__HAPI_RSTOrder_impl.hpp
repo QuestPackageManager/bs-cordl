@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HAPI_RSTOrder.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_RSTOrder_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::HoudiniEngineUnity::HAPI_RSTOrder::HAPI_RSTOrder(int32_t value__) noexcept {

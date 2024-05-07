@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/NetworkInformation/IPGlobalPropertiesFactoryPal.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,7 +22,7 @@ namespace System::Net::NetworkInformation {
 class CORDL_TYPE IPGlobalPropertiesFactoryPal : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x2f20f0c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x302180c, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Net::NetworkInformation::IPGlobalProperties* Create();
 
 protected:

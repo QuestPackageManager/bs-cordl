@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IPacketPool_1.hpp"
 #include "GlobalNamespace/zzzz__IPacketPool_1_def.hpp"
 #include "GlobalNamespace/zzzz__IPacketPool_def.hpp"
 /// @brief Convert operator to "::GlobalNamespace::IPacketPool"

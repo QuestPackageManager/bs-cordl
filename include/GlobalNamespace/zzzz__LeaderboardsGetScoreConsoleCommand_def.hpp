@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/LeaderboardsGetScoreConsoleCommand.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -88,7 +89,7 @@ public:
 
   static inline ::GlobalNamespace::__LeaderboardsGetScoreConsoleCommand____c__DisplayClass13_0* New_ctor();
 
-  /// @brief Method <ExecuteAsync>b__0, addr 0x257d6e8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <ExecuteAsync>b__0, addr 0x2675b7c, size 0x54, virtual false, abstract: false, final false
   inline bool _ExecuteAsync_b__0(::GlobalNamespace::BeatmapKey entry);
 
   constexpr ::StringW const& __cordl_internal_get_characteristic() const;
@@ -103,7 +104,7 @@ public:
 
   constexpr void __cordl_internal_set_difficulty(::GlobalNamespace::BeatmapDifficulty value);
 
-  /// @brief Method .ctor, addr 0x257d6e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2675b74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -147,10 +148,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x257d73c, size 0x600, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2675bd0, size 0x600, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x257dd3c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x26761d0, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -261,22 +262,22 @@ public:
 
   __declspec(property(get = get_isAsyncCommand)) bool isAsyncCommand;
 
-  /// @brief Method Execute, addr 0x257d1f4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x2675688, size 0x4, virtual true, abstract: false, final false
   inline void Execute(::System::Collections::Generic::List_1<::GlobalNamespace::__DebugConsoleController__ConsoleMessage>* messages);
 
-  /// @brief Method ExecuteAsync, addr 0x257d1f8, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method ExecuteAsync, addr 0x267568c, size 0xdc, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ExecuteAsync(::System::Collections::Generic::List_1<::GlobalNamespace::__DebugConsoleController__ConsoleMessage>* messages);
 
-  /// @brief Method GetCommandName, addr 0x257d1b4, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GetCommandName, addr 0x2675648, size 0x40, virtual true, abstract: false, final false
   inline ::StringW GetCommandName();
 
-  /// @brief Method GetLongUsageHelp, addr 0x257d170, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetLongUsageHelp, addr 0x2675604, size 0x44, virtual true, abstract: false, final false
   inline ::GlobalNamespace::__DebugConsoleController__ConsoleMessage GetLongUsageHelp();
 
-  /// @brief Method GetShortHelpText, addr 0x257d12c, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetShortHelpText, addr 0x26755c0, size 0x44, virtual true, abstract: false, final false
   inline ::GlobalNamespace::__DebugConsoleController__ConsoleMessage GetShortHelpText();
 
-  /// @brief Method HandleLeaderboardsResultsReturned, addr 0x257d2d4, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method HandleLeaderboardsResultsReturned, addr 0x2675768, size 0x1d8, virtual false, abstract: false, final false
   inline void
   HandleLeaderboardsResultsReturned(::GlobalNamespace::__PlatformLeaderboardsModel__GetScoresResult result,
                                     ::ArrayW<::GlobalNamespace::__PlatformLeaderboardsModel__LeaderboardScore*, ::Array<::GlobalNamespace::__PlatformLeaderboardsModel__LeaderboardScore*>*> scores,
@@ -326,10 +327,10 @@ public:
 
   constexpr void __cordl_internal_set__levelId(::GlobalNamespace::RequiredArgument_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x257d4ac, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2675940, size 0x234, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isAsyncCommand, addr 0x257d124, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_isAsyncCommand, addr 0x26755b8, size 0x8, virtual true, abstract: false, final false
   inline bool get_isAsyncCommand();
 
 protected:

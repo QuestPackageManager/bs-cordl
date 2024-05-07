@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/U2D/SpriteAtlasManager.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,23 +36,23 @@ public:
   static __declspec(property(get = getStaticF_atlasRequested,
                              put = setStaticF_atlasRequested))::System::Action_2<::StringW, ::System::Action_1<::UnityW<::UnityEngine::U2D::SpriteAtlas>>*>* atlasRequested;
 
-  /// @brief Method PostRegisteredAtlas, addr 0x321d6ac, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method PostRegisteredAtlas, addr 0x34243e8, size 0x6c, virtual false, abstract: false, final false
   static inline void PostRegisteredAtlas(::UnityEngine::U2D::SpriteAtlas* spriteAtlas);
 
-  /// @brief Method Register, addr 0x321d718, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Register, addr 0x3424454, size 0x3c, virtual false, abstract: false, final false
   static inline void Register(::UnityEngine::U2D::SpriteAtlas* spriteAtlas);
 
-  /// @brief Method RequestAtlas, addr 0x321d44c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method RequestAtlas, addr 0x3424188, size 0xc0, virtual false, abstract: false, final false
   static inline bool RequestAtlas(::StringW tag);
 
-  /// @brief Method add_atlasRegistered, addr 0x321d50c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method add_atlasRegistered, addr 0x3424248, size 0xd0, virtual false, abstract: false, final false
   static inline void add_atlasRegistered(::System::Action_1<::UnityW<::UnityEngine::U2D::SpriteAtlas>>* value);
 
   static inline ::System::Action_1<::UnityW<::UnityEngine::U2D::SpriteAtlas>>* getStaticF_atlasRegistered();
 
   static inline ::System::Action_2<::StringW, ::System::Action_1<::UnityW<::UnityEngine::U2D::SpriteAtlas>>*>* getStaticF_atlasRequested();
 
-  /// @brief Method remove_atlasRegistered, addr 0x321d5dc, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method remove_atlasRegistered, addr 0x3424318, size 0xd0, virtual false, abstract: false, final false
   static inline void remove_atlasRegistered(::System::Action_1<::UnityW<::UnityEngine::U2D::SpriteAtlas>>* value);
 
   static inline void setStaticF_atlasRegistered(::System::Action_1<::UnityW<::UnityEngine::U2D::SpriteAtlas>>* value);

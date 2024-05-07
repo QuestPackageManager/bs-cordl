@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/ColumnTypeConverter.hpp"
 #include "System/ComponentModel/zzzz__TypeConverter_impl.hpp"
 #include "System/Data/zzzz__ColumnTypeConverter_def.hpp"
 #include "System/ComponentModel/zzzz__ITypeDescriptorContext_def.hpp"
@@ -11,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::ColumnTypeConverter::*)()>(&::System::Data::ColumnTypeConverter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b74718;
+  constexpr static std::size_t addrs = 0x2c72018;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ColumnTypeConverter*>::get(), ".ctor",
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::ColumnTypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Type*)>(
     &::System::Data::ColumnTypeConverter::CanConvertTo)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x2b74720;
+  constexpr static std::size_t addrs = 0x2c72020;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +42,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Data::ColumnTypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Globalization::CultureInfo*, ::System::Object*, ::System::Type*)>(
     &::System::Data::ColumnTypeConverter::ConvertTo)> {
   constexpr static std::size_t size = 0x510;
-  constexpr static std::size_t addrs = 0x2b747e8;
+  constexpr static std::size_t addrs = 0x2c720e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::ColumnTypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Type*)>(
     &::System::Data::ColumnTypeConverter::CanConvertFrom)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x2b74cf8;
+  constexpr static std::size_t addrs = 0x2c725f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -72,7 +73,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::System::Data::ColumnTypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Globalization::CultureInfo*, ::System::Object*)>(
         &::System::Data::ColumnTypeConverter::ConvertFrom)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x2b74dc0;
+  constexpr static std::size_t addrs = 0x2c726c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -87,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::__TypeConverter__StandardValuesCollection* (
     ::System::Data::ColumnTypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*)>(&::System::Data::ColumnTypeConverter::GetStandardValues)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x2b74fc8;
+  constexpr static std::size_t addrs = 0x2c728c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -102,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::ColumnTypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*)>(
     &::System::Data::ColumnTypeConverter::GetStandardValuesExclusive)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b750e0;
+  constexpr static std::size_t addrs = 0x2c729e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -117,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::ColumnTypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*)>(
     &::System::Data::ColumnTypeConverter::GetStandardValuesSupported)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b750e8;
+  constexpr static std::size_t addrs = 0x2c729e8;
 
   inline static ::MethodInfo const* methodInfo() {
 

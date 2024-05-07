@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/VertexFlags.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__VertexFlags_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::UIElements::UIR::VertexFlags::VertexFlags(int32_t value__) noexcept {

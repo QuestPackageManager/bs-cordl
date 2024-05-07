@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UI/PositionAsUV1.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,12 +22,12 @@ namespace UnityEngine::UI {
 class CORDL_TYPE PositionAsUV1 : public ::UnityEngine::UI::BaseMeshEffect {
 public:
   // Declarations
-  /// @brief Method ModifyMesh, addr 0x32e06f4, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method ModifyMesh, addr 0x34e6430, size 0xbc, virtual true, abstract: false, final false
   inline void ModifyMesh(::UnityEngine::UI::VertexHelper* vh);
 
   static inline ::UnityEngine::UI::PositionAsUV1* New_ctor();
 
-  /// @brief Method .ctor, addr 0x32e06ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34e6428, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SaberMovementData.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -69,36 +70,36 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ISaberMovementData"
   constexpr operator ::GlobalNamespace::ISaberMovementData*() noexcept;
 
-  /// @brief Method AddDataProcessor, addr 0x13a9ae4, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method AddDataProcessor, addr 0x149f1c0, size 0x58, virtual true, abstract: false, final true
   inline void AddDataProcessor(::GlobalNamespace::ISaberMovementDataProcessor* dataProcessor);
 
-  /// @brief Method AddNewData, addr 0x13a9d1c, size 0x4d0, virtual false, abstract: false, final false
+  /// @brief Method AddNewData, addr 0x149f3f8, size 0x4d0, virtual false, abstract: false, final false
   inline void AddNewData(::UnityEngine::Vector3 topPos, ::UnityEngine::Vector3 bottomPos, float_t time);
 
-  /// @brief Method ComputeAdditionalData, addr 0x13aa1ec, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method ComputeAdditionalData, addr 0x149f8c8, size 0x230, virtual false, abstract: false, final false
   inline void ComputeAdditionalData(::UnityEngine::Vector3 topPos, ::UnityEngine::Vector3 bottomPos, int32_t idxOffset, ByRef<::UnityEngine::Vector3> segmentNormal, ByRef<float_t> segmentAngle);
 
-  /// @brief Method ComputeCutPlaneNormal, addr 0x13aa558, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method ComputeCutPlaneNormal, addr 0x149fc34, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 ComputeCutPlaneNormal();
 
-  /// @brief Method ComputePlaneNormal, addr 0x13aa41c, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method ComputePlaneNormal, addr 0x149faf8, size 0x13c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 ComputePlaneNormal(::UnityEngine::Vector3 tp0, ::UnityEngine::Vector3 bp0, ::UnityEngine::Vector3 tp1, ::UnityEngine::Vector3 bp1);
 
-  /// @brief Method ComputeSwingRating, addr 0x13aa8c4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method ComputeSwingRating, addr 0x149ffa0, size 0xc, virtual true, abstract: false, final true
   inline float_t ComputeSwingRating();
 
-  /// @brief Method ComputeSwingRating, addr 0x13aa600, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method ComputeSwingRating, addr 0x149fcdc, size 0x2c4, virtual false, abstract: false, final false
   inline float_t ComputeSwingRating(bool overrideSegmenAngle, float_t overrideValue);
 
-  /// @brief Method ComputeSwingRating, addr 0x13aa5f8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method ComputeSwingRating, addr 0x149fcd4, size 0x8, virtual true, abstract: false, final true
   inline float_t ComputeSwingRating(float_t overrideSegmentAngle);
 
   static inline ::GlobalNamespace::SaberMovementData* New_ctor();
 
-  /// @brief Method RemoveDataProcessor, addr 0x13a9b3c, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method RemoveDataProcessor, addr 0x149f218, size 0x58, virtual true, abstract: false, final true
   inline void RemoveDataProcessor(::GlobalNamespace::ISaberMovementDataProcessor* dataProcessor);
 
-  /// @brief Method RequestLastDataProcessing, addr 0x13a9b94, size 0x188, virtual true, abstract: false, final true
+  /// @brief Method RequestLastDataProcessing, addr 0x149f270, size 0x188, virtual true, abstract: false, final true
   inline void RequestLastDataProcessing(::GlobalNamespace::ISaberMovementDataProcessor* dataProcessor);
 
   constexpr float_t const& __cordl_internal_get__bladeSpeed() const;
@@ -131,16 +132,16 @@ public:
 
   constexpr void __cordl_internal_set__validCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x13a9a3c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x149f118, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bladeSpeed, addr 0x13a997c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_bladeSpeed, addr 0x149f058, size 0x8, virtual true, abstract: false, final true
   inline float_t get_bladeSpeed();
 
-  /// @brief Method get_lastAddedData, addr 0x13a9984, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method get_lastAddedData, addr 0x149f060, size 0x5c, virtual true, abstract: false, final true
   inline ::GlobalNamespace::BladeMovementDataElement get_lastAddedData();
 
-  /// @brief Method get_prevAddedData, addr 0x13a99e0, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method get_prevAddedData, addr 0x149f0bc, size 0x5c, virtual true, abstract: false, final true
   inline ::GlobalNamespace::BladeMovementDataElement get_prevAddedData();
 
   /// @brief Convert to "::GlobalNamespace::IBladeMovementData"

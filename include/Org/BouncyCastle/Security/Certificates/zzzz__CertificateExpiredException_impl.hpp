@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Security/Certificates/CertificateExpiredException.hpp"
 #include "Org/BouncyCastle/Security/Certificates/zzzz__CertificateException_impl.hpp"
 #include "Org/BouncyCastle/Security/Certificates/zzzz__CertificateExpiredException_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Security::Certificates::CertificateExpiredException::*)()>(
     &::Org::BouncyCastle::Security::Certificates::CertificateExpiredException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x128daac;
+  constexpr static std::size_t addrs = 0x137f1d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Security::Certificates::CertificateExpiredException::*)(::StringW)>(
     &::Org::BouncyCastle::Security::Certificates::CertificateExpiredException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x128dab4;
+  constexpr static std::size_t addrs = 0x137f1d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Security::Certificates::CertificateExpiredException::*)(::StringW, ::System::Exception*)>(
     &::Org::BouncyCastle::Security::Certificates::CertificateExpiredException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x128dabc;
+  constexpr static std::size_t addrs = 0x137f1e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

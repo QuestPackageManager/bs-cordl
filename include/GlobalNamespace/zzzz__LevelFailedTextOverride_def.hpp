@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/LevelFailedTextOverride.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -96,13 +97,13 @@ public:
 
   constexpr void __cordl_internal_set__overrideText(::StringW value);
 
-  /// @brief Method .ctor, addr 0xf6d404, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x105c010, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_language, addr 0xf6d3f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_language, addr 0x105c000, size 0x8, virtual false, abstract: false, final false
   inline ::BGLib::Polyglot::Language get_language();
 
-  /// @brief Method get_overrideText, addr 0xf6d3fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_overrideText, addr 0x105c008, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_overrideText();
 
 protected:
@@ -148,7 +149,7 @@ public:
 
   static inline ::GlobalNamespace::__LevelFailedTextOverride____c__DisplayClass6_0* New_ctor();
 
-  /// @brief Method <Start>b__0, addr 0xf6d414, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__0, addr 0x105c020, size 0x24, virtual false, abstract: false, final false
   inline bool _Start_b__0(::GlobalNamespace::__LevelFailedTextOverride__LanguageOverride* data);
 
   constexpr ::BGLib::Polyglot::Language const& __cordl_internal_get_selectedLanguage() const;
@@ -157,7 +158,7 @@ public:
 
   constexpr void __cordl_internal_set_selectedLanguage(::BGLib::Polyglot::Language value);
 
-  /// @brief Method .ctor, addr 0xf6d40c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x105c018, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -196,10 +197,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0xf6d438, size 0xbe0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x105c044, size 0xbe0, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0xf6e018, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x105cc24, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -305,7 +306,7 @@ public:
 
   static inline ::GlobalNamespace::LevelFailedTextOverride* New_ctor();
 
-  /// @brief Method Start, addr 0xf6d358, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x105bf64, size 0x94, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapKey const& __cordl_internal_get__beatmapKey() const;
@@ -353,7 +354,7 @@ public:
   constexpr void __cordl_internal_set__perLanguageOverrides(
       ::ArrayW<::GlobalNamespace::__LevelFailedTextOverride__LanguageOverride*, ::Array<::GlobalNamespace::__LevelFailedTextOverride__LanguageOverride*>*> value);
 
-  /// @brief Method .ctor, addr 0xf6d3ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x105bff8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

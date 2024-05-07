@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/NetworkInformation/NetworkInterfaceFactory.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,7 +23,7 @@ namespace System::Net::NetworkInformation {
 class CORDL_TYPE NetworkInterfaceFactory : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x2f25aec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x30263ec, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Net::NetworkInformation::NetworkInterfaceFactory* Create();
 
   /// @brief Method GetAllNetworkInterfaces, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -30,7 +31,7 @@ public:
 
   static inline ::System::Net::NetworkInformation::NetworkInterfaceFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f25b40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3026440, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

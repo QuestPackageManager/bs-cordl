@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/VertexGradient.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,10 +23,10 @@ namespace TMPro {
 struct CORDL_TYPE VertexGradient {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x3130660, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33350e8, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color color);
 
-  /// @brief Method .ctor, addr 0x3130684, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x333510c, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Color color0, ::UnityEngine::Color color1, ::UnityEngine::Color color2, ::UnityEngine::Color color3);
 
   // Ctor Parameters []

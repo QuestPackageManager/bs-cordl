@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/TextOverflowModes.hpp"
 #include "TMPro/zzzz__TextOverflowModes_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::TMPro::TextOverflowModes::TextOverflowModes(int32_t value__) noexcept {

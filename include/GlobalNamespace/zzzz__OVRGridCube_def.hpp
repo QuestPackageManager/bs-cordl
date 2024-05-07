@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OVRGridCube.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,21 +62,21 @@ public:
   /// @brief Field gridSizeZ, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get_gridSizeZ, put = __cordl_internal_set_gridSizeZ)) int32_t gridSizeZ;
 
-  /// @brief Method CreateCubeGrid, addr 0x2a86d18, size 0x3a8, virtual false, abstract: false, final false
+  /// @brief Method CreateCubeGrid, addr 0x2b825c8, size 0x3a8, virtual false, abstract: false, final false
   inline void CreateCubeGrid();
 
-  /// @brief Method CubeGridSwitchColor, addr 0x2a870c0, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method CubeGridSwitchColor, addr 0x2b82970, size 0x188, virtual false, abstract: false, final false
   inline void CubeGridSwitchColor(bool CubeSwitchColor);
 
   static inline ::GlobalNamespace::OVRGridCube* New_ctor();
 
-  /// @brief Method SetOVRCameraController, addr 0x2a86d0c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetOVRCameraController, addr 0x2b825bc, size 0xc, virtual false, abstract: false, final false
   inline void SetOVRCameraController(ByRef<::GlobalNamespace::OVRCameraRig*> cameraController);
 
-  /// @brief Method Update, addr 0x2a86af0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2b823a0, size 0x4, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateCubeGrid, addr 0x2a86af4, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method UpdateCubeGrid, addr 0x2b823a4, size 0x218, virtual false, abstract: false, final false
   inline void UpdateCubeGrid();
 
   constexpr ::UnityW<::GlobalNamespace::OVRCameraRig> const& __cordl_internal_get_CameraController() const;
@@ -144,7 +145,7 @@ public:
 
   constexpr void __cordl_internal_set_gridSizeZ(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2a87248, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b82af8, size 0x30, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

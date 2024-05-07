@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Cryptography/Rijndael.hpp"
 #include "System/Security/Cryptography/zzzz__SymmetricAlgorithm_impl.hpp"
 #include "System/Security/Cryptography/zzzz__Rijndael_def.hpp"
 #include "System/Security/Cryptography/zzzz__KeySizes_def.hpp"
@@ -7,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::Rijndael::*)()>(&::System::Security::Cryptography::Rijndael::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x26e3ef0;
+  constexpr static std::size_t addrs = 0x27e12ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::Rijndael*>::get(), ".ctor",

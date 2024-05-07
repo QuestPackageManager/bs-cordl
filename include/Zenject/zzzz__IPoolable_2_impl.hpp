@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/IPoolable_2.hpp"
 #include "Zenject/zzzz__IPoolable_2_def.hpp"
 template <typename TParam1, typename TParam2> inline void Zenject::IPoolable_2<TParam1, TParam2>::OnDespawned() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/TutorialNoTransitionInstaller.hpp"
 #include "Zenject/zzzz__NoTransitionInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__TutorialNoTransitionInstaller_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerSpecificSettings_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialNoTransitionInstaller::*)(::Zenject::DiContainer*)>(
     &::GlobalNamespace::TutorialNoTransitionInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x25a737c;
+  constexpr static std::size_t addrs = 0x26a1460;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialNoTransitionInstaller::*)()>(
     &::GlobalNamespace::TutorialNoTransitionInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25a779c;
+  constexpr static std::size_t addrs = 0x26a1880;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TutorialNoTransitionInstaller*>::get(),

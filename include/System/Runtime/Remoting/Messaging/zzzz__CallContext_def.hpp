@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/Messaging/CallContext.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,21 +26,21 @@ namespace System::Runtime::Remoting::Messaging {
 class CORDL_TYPE CallContext : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method LogicalGetData, addr 0x2728008, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method LogicalGetData, addr 0x2826404, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Object* LogicalGetData(::StringW name);
 
-  /// @brief Method LogicalSetData, addr 0x2728068, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method LogicalSetData, addr 0x2826464, size 0x68, virtual false, abstract: false, final false
   static inline void LogicalSetData(::StringW name, ::System::Object* data);
 
   static inline ::System::Runtime::Remoting::Messaging::CallContext* New_ctor();
 
-  /// @brief Method SetCurrentCallContext, addr 0x2728000, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetCurrentCallContext, addr 0x28263fc, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Object* SetCurrentCallContext(::System::Runtime::Remoting::Messaging::LogicalCallContext* ctx);
 
-  /// @brief Method SetLogicalCallContext, addr 0x2711fb8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetLogicalCallContext, addr 0x28103b4, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::Messaging::LogicalCallContext* SetLogicalCallContext(::System::Runtime::Remoting::Messaging::LogicalCallContext* callCtx);
 
-  /// @brief Method .ctor, addr 0x2727ff8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28263f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

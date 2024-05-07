@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/DefaultBinder.hpp"
 #include "System/Reflection/zzzz__Binder_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__DefaultBinder_def.hpp"
@@ -20,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::__DefaultBinder__BinderState::*)(::ArrayW<int32_t, ::Array<int32_t>*>, int32_t, bool)>(
     &::System::__DefaultBinder__BinderState::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2864e30;
+  constexpr static std::size_t addrs = 0x29636e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -104,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::__DefaultBinder____c::*)()>(&::System::__DefaultBinder____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2868240;
+  constexpr static std::size_t addrs = 0x2966af0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::__DefaultBinder____c*>::get(), ".ctor",
@@ -117,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::__DefaultBinder____c::*)(::System::Type*)>(&::System::__DefaultBinder____c::_SelectProperty_b__2_0)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x2868248;
+  constexpr static std::size_t addrs = 0x2966af8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -164,7 +165,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                 ByRef<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>, ::ArrayW<::System::Reflection::ParameterModifier, ::Array<::System::Reflection::ParameterModifier>*>,
                                 ::System::Globalization::CultureInfo*, ::ArrayW<::StringW, ::Array<::StringW>*>, ByRef<::System::Object*>)>(&::System::DefaultBinder::BindToMethod)> {
   constexpr static std::size_t size = 0x1eec;
-  constexpr static std::size_t addrs = 0x2862bf4;
+  constexpr static std::size_t addrs = 0x29614a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -180,7 +181,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::DefaultBinder::*)(::System::Reflection::BindingFlags, ::ArrayW<::System::Reflection::FieldInfo*, ::Array<::System::Reflection::FieldInfo*>*>, ::System::Object*,
                                 ::System::Globalization::CultureInfo*)>(&::System::DefaultBinder::BindToField)> {
   constexpr static std::size_t size = 0x4b4;
-  constexpr static std::size_t addrs = 0x2865140;
+  constexpr static std::size_t addrs = 0x29639f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -197,7 +198,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                 ::ArrayW<::System::Type*, ::Array<::System::Type*>*>, ::ArrayW<::System::Reflection::ParameterModifier, ::Array<::System::Reflection::ParameterModifier>*>)>(
     &::System::DefaultBinder::SelectProperty)> {
   constexpr static std::size_t size = 0xa24;
-  constexpr static std::size_t addrs = 0x28656dc;
+  constexpr static std::size_t addrs = 0x2963f8c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -212,7 +213,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::System::DefaultBinder::*)(::System::Object*, ::System::Type*, ::System::Globalization::CultureInfo*)>(&::System::DefaultBinder::ChangeType)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x2866be0;
+  constexpr static std::size_t addrs = 0x2965490;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -227,7 +228,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::DefaultBinder::*)(ByRef<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>, ::System::Object*)>(&::System::DefaultBinder::ReorderArgumentArray)> {
   constexpr static std::size_t size = 0x2d8;
-  constexpr static std::size_t addrs = 0x2866c40;
+  constexpr static std::size_t addrs = 0x29654f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -243,7 +244,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Reflection::MethodBase* (*)(::ArrayW<::System::Reflection::MethodBase*, ::Array<::System::Reflection::MethodBase*>*>, ::ArrayW<::System::Type*, ::Array<::System::Type*>*>,
                                                       ::ArrayW<::System::Reflection::ParameterModifier, ::Array<::System::Reflection::ParameterModifier>*>)>(&::System::DefaultBinder::ExactBinding)> {
   constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x2866f18;
+  constexpr static std::size_t addrs = 0x29657c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -263,7 +264,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                             ::ArrayW<::System::Type*, ::Array<::System::Type*>*>,
                                             ::ArrayW<::System::Reflection::ParameterModifier, ::Array<::System::Reflection::ParameterModifier>*>)>(&::System::DefaultBinder::ExactPropertyBinding)> {
   constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x28672d8;
+  constexpr static std::size_t addrs = 0x2965b88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -284,7 +285,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                             ::ArrayW<::System::Reflection::ParameterInfo*, ::Array<::System::Reflection::ParameterInfo*>*>, ::ArrayW<int32_t, ::Array<int32_t>*>, ::System::Type*,
                             ::ArrayW<::System::Type*, ::Array<::System::Type*>*>, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(&::System::DefaultBinder::FindMostSpecific)> {
   constexpr static std::size_t size = 0x43c;
-  constexpr static std::size_t addrs = 0x28666bc;
+  constexpr static std::size_t addrs = 0x2964f6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -304,7 +305,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::Type*, ::System::Type*, ::System::Type*)>(&::System::DefaultBinder::FindMostSpecificType)> {
   constexpr static std::size_t size = 0x398;
-  constexpr static std::size_t addrs = 0x2866324;
+  constexpr static std::size_t addrs = 0x2964bd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -322,7 +323,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Reflection::MethodBase*, ::ArrayW<int32_t, ::Array<int32_t>*>, ::System::Type*, ::System::Reflection::MethodBase*, ::ArrayW<int32_t, ::Array<int32_t>*>, ::System::Type*,
     ::ArrayW<::System::Type*, ::Array<::System::Type*>*>, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(&::System::DefaultBinder::FindMostSpecificMethod)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x2864fc0;
+  constexpr static std::size_t addrs = 0x2963870;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -343,7 +344,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::Reflection::FieldInfo*, ::System::Reflection::FieldInfo*)>(
     &::System::DefaultBinder::FindMostSpecificField)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x28655f4;
+  constexpr static std::size_t addrs = 0x2963ea4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -359,7 +360,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::Reflection::PropertyInfo*, ::System::Reflection::PropertyInfo*)>(
     &::System::DefaultBinder::FindMostSpecificProperty)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x2866af8;
+  constexpr static std::size_t addrs = 0x29653a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -375,7 +376,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Reflection::MethodBase*, ::System::Reflection::MethodBase*)>(
     &::System::DefaultBinder::CompareMethodSigAndName)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x2867594;
+  constexpr static std::size_t addrs = 0x2965e44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -390,7 +391,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::Type*)>(&::System::DefaultBinder::GetHierarchyDepth)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x28676f0;
+  constexpr static std::size_t addrs = 0x2965fa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -405,7 +406,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Reflection::MethodBase* (*)(::ArrayW<::System::Reflection::MethodBase*, ::Array<::System::Reflection::MethodBase*>*>, int32_t)>(&::System::DefaultBinder::FindMostDerivedNewSlotMeth)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x2867188;
+  constexpr static std::size_t addrs = 0x2965a38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -421,7 +422,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<int32_t, ::Array<int32_t>*>, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::System::DefaultBinder::ReorderParams)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x2864e70;
+  constexpr static std::size_t addrs = 0x2963720;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -438,7 +439,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<int32_t, ::Array<int32_t>*>, ::ArrayW<::System::Reflection::ParameterInfo*, ::Array<::System::Reflection::ParameterInfo*>*>, ::ArrayW<::StringW, ::Array<::StringW>*>)>(
     &::System::DefaultBinder::CreateParamOrder)> {
   constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x2864ae0;
+  constexpr static std::size_t addrs = 0x2963390;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -455,7 +456,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::RuntimeType*, ::System::RuntimeType*)>(&::System::DefaultBinder::CanConvertPrimitive)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x2866100;
+  constexpr static std::size_t addrs = 0x29649b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -470,7 +471,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Object*, ::System::RuntimeType*)>(&::System::DefaultBinder::CanConvertPrimitiveObjectToType)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x2864d20;
+  constexpr static std::size_t addrs = 0x29635d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -486,7 +487,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Reflection::MethodBase*, ::System::Reflection::MethodBase*)>(
     &::System::DefaultBinder::CompareMethodSig)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x2867784;
+  constexpr static std::size_t addrs = 0x2966034;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -504,7 +505,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                 ::ArrayW<::System::Type*, ::Array<::System::Type*>*>, ::ArrayW<::System::Reflection::ParameterModifier, ::Array<::System::Reflection::ParameterModifier>*>)>(
     &::System::DefaultBinder::SelectMethod)> {
   constexpr static std::size_t size = 0x724;
-  constexpr static std::size_t addrs = 0x28678e0;
+  constexpr static std::size_t addrs = 0x2966190;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -522,7 +523,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::System::Type*)>(&::System::DefaultBinder::CanChangePrimitive)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2868004;
+  constexpr static std::size_t addrs = 0x29668b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -537,7 +538,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::System::Type*)>(&::System::DefaultBinder::CanPrimitiveWiden)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x2868068;
+  constexpr static std::size_t addrs = 0x2966918;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -552,7 +553,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::DefaultBinder::*)()>(&::System::DefaultBinder::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2868140;
+  constexpr static std::size_t addrs = 0x29669f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::DefaultBinder*>::get(), ".ctor",

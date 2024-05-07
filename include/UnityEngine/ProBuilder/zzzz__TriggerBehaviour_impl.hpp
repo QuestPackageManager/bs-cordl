@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ProBuilder/TriggerBehaviour.hpp"
 #include "UnityEngine/ProBuilder/zzzz__EntityBehaviour_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__TriggerBehaviour_def.hpp"
 #include "UnityEngine/SceneManagement/zzzz__LoadSceneMode_def.hpp"
@@ -8,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::TriggerBehaviour::*)()>(&::UnityEngine::ProBuilder::TriggerBehaviour::Initialize)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x30ad5f8;
+  constexpr static std::size_t addrs = 0x32b5080;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::TriggerBehaviour::*)()>(
     &::UnityEngine::ProBuilder::TriggerBehaviour::OnEnterPlayMode)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x30ad794;
+  constexpr static std::size_t addrs = 0x32b521c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -38,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::TriggerBehaviour::*)(
     ::UnityEngine::SceneManagement::Scene, ::UnityEngine::SceneManagement::LoadSceneMode)>(&::UnityEngine::ProBuilder::TriggerBehaviour::OnSceneLoaded)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x30ad84c;
+  constexpr static std::size_t addrs = 0x32b52d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -52,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::TriggerBehaviour::*)()>(&::UnityEngine::ProBuilder::TriggerBehaviour::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x30ad904;
+  constexpr static std::size_t addrs = 0x32b538c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::TriggerBehaviour*>::get(), ".ctor",

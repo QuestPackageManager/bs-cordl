@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Libraries/HM/HMLib/VR/HapticPresetSO.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "Libraries/HM/HMLib/VR/zzzz__HapticPresetSO_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Libraries::HM::HMLib::VR::HapticPresetSO::*)()>(
     &::Libraries::HM::HMLib::VR::HapticPresetSO::get_hasPS5HapticsClip)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x23e4e88;
+  constexpr static std::size_t addrs = 0x24dca78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Libraries::HM::HMLib::VR::HapticPresetSO*>::get(),
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Libraries::HM::HMLib::VR::HapticPresetSO::*)()>(
     &::Libraries::HM::HMLib::VR::HapticPresetSO::get_hasOculusHapticsClip)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x23e203c;
+  constexpr static std::size_t addrs = 0x24d9c2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Libraries::HM::HMLib::VR::HapticPresetSO*>::get(),
@@ -37,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Libraries::HM::HMLib::VR::HapticPresetSO::*)()>(&::Libraries::HM::HMLib::VR::HapticPresetSO::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x23ec05c;
+  constexpr static std::size_t addrs = 0x24e3c4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Libraries::HM::HMLib::VR::HapticPresetSO*>::get(), ".ctor",

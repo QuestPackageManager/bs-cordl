@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/LightGroupTranslationXTransform.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,7 +21,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::LightGroupTranslationXTransform* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25cb658, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ca3c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Serialization/ObjectHolderListEnumerator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__ObjectHolderListEnumerator_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ObjectHolderList_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::ObjectHolderListEnumerator::*)(
     ::System::Runtime::Serialization::ObjectHolderList*, bool)>(&::System::Runtime::Serialization::ObjectHolderListEnumerator::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x273f65c;
+  constexpr static std::size_t addrs = 0x283da58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::ObjectHolderListEnumerator::*)()>(
     &::System::Runtime::Serialization::ObjectHolderListEnumerator::MoveNext)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x273e540;
+  constexpr static std::size_t addrs = 0x283c93c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Serialization::ObjectHolder* (::System::Runtime::Serialization::ObjectHolderListEnumerator::*)()>(
     &::System::Runtime::Serialization::ObjectHolderListEnumerator::get_Current)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x273e4e8;
+  constexpr static std::size_t addrs = 0x283c8e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

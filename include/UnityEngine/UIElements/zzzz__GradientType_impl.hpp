@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/GradientType.hpp"
 #include "UnityEngine/UIElements/zzzz__GradientType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::UIElements::GradientType::GradientType(int32_t value__) noexcept {

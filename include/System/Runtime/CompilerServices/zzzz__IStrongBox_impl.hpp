@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/CompilerServices/IStrongBox.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IStrongBox_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Runtime::CompilerServices::IStrongBox.get_Value

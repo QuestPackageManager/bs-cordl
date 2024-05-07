@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ICoroutineStarter.hpp"
 #include "GlobalNamespace/zzzz__ICoroutineStarter_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "UnityEngine/zzzz__Coroutine_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/StartMiddleEndButtonsGroup.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,13 +27,13 @@ public:
 
   static inline ::GlobalNamespace::StartMiddleEndButtonsGroup* New_ctor();
 
-  /// @brief Method SetLayoutHorizontal, addr 0x263a3f4, size 0xe8, virtual true, abstract: false, final true
+  /// @brief Method SetLayoutHorizontal, addr 0x273a1e0, size 0xe8, virtual true, abstract: false, final true
   inline void SetLayoutHorizontal();
 
-  /// @brief Method SetLayoutVertical, addr 0x263a4dc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method SetLayoutVertical, addr 0x273a2c8, size 0x4, virtual true, abstract: false, final true
   inline void SetLayoutVertical();
 
-  /// @brief Method .ctor, addr 0x263a4e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x273a2cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::UI::ILayoutController"

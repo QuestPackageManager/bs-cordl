@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Dynamic/ConvertBinder.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,11 +31,11 @@ public:
   /// @brief Field <Type>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Type_k__BackingField, put = __cordl_internal_set__Type_k__BackingField))::System::Type* _Type_k__BackingField;
 
-  /// @brief Method Bind, addr 0x2b50a58, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method Bind, addr 0x2c4d358, size 0xb0, virtual true, abstract: false, final true
   inline ::System::Dynamic::DynamicMetaObject* Bind(::System::Dynamic::DynamicMetaObject* target,
                                                     ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> args);
 
-  /// @brief Method FallbackConvert, addr 0x2b50a48, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method FallbackConvert, addr 0x2c4d348, size 0x10, virtual false, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* FallbackConvert(::System::Dynamic::DynamicMetaObject* target);
 
   /// @brief Method FallbackConvert, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -46,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set__Type_k__BackingField(::System::Type* value);
 
-  /// @brief Method get_Type, addr 0x2b50a40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x2c4d340, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_Type();
 
 protected:

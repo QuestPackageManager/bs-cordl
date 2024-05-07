@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/TMP_InputField.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -537,18 +538,18 @@ namespace TMPro {
 class CORDL_TYPE __TMP_InputField__OnValidateInput : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x31688fc, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x336e384, size 0xc0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW text, int32_t charIndex, char16_t addedChar, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x31689bc, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x336e444, size 0x28, virtual true, abstract: false, final false
   inline char16_t EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x31688e8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x336e370, size 0x14, virtual true, abstract: false, final false
   inline char16_t Invoke(::StringW text, int32_t charIndex, char16_t addedChar);
 
   static inline ::TMPro::__TMP_InputField__OnValidateInput* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x3168810, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x336e298, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -581,7 +582,7 @@ public:
   // Declarations
   static inline ::TMPro::__TMP_InputField__SubmitEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x31689e4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x336e46c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -614,7 +615,7 @@ public:
   // Declarations
   static inline ::TMPro::__TMP_InputField__OnChangeEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3168a2c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x336e4b4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -647,7 +648,7 @@ public:
   // Declarations
   static inline ::TMPro::__TMP_InputField__SelectionEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3168a74, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x336e4fc, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -680,7 +681,7 @@ public:
   // Declarations
   static inline ::TMPro::__TMP_InputField__TextSelectionEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3168abc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x336e544, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -713,7 +714,7 @@ public:
   // Declarations
   static inline ::TMPro::__TMP_InputField__TouchScreenKeyboardEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3168b04, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x336e58c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -819,21 +820,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3168b78, size 0x10c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x336e600, size 0x10c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::TMPro::__TMP_InputField___CaretBlink_d__276* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3168c84, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x336e70c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3168c8c, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x336e714, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3168ccc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x336e754, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3168b74, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x336e5fc, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -854,7 +855,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::TMPro::TMP_InputField> value);
 
-  /// @brief Method .ctor, addr 0x3168b4c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x336e5d4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -934,21 +935,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3168d00, size 0x254, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x336e788, size 0x254, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::TMPro::__TMP_InputField___MouseDragOutsideRect_d__294* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3168f54, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x336e9dc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3168f5c, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x336e9e4, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3168f9c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x336ea24, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3168cfc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x336e784, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -975,7 +976,7 @@ public:
 
   constexpr void __cordl_internal_set_eventData(::UnityEngine::EventSystems::PointerEventData* value);
 
-  /// @brief Method .ctor, addr 0x3168cd4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x336e75c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -1499,327 +1500,327 @@ public:
   /// @brief Convert operator to "::UnityEngine::UI::ILayoutElement"
   constexpr operator ::UnityEngine::UI::ILayoutElement*() noexcept;
 
-  /// @brief Method ActivateInputField, addr 0x314d3d0, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method ActivateInputField, addr 0x3351e58, size 0x114, virtual false, abstract: false, final false
   inline void ActivateInputField();
 
-  /// @brief Method ActivateInputFieldInternal, addr 0x31464a0, size 0x400, virtual false, abstract: false, final false
+  /// @brief Method ActivateInputFieldInternal, addr 0x334af28, size 0x400, virtual false, abstract: false, final false
   inline void ActivateInputFieldInternal();
 
-  /// @brief Method AdjustRectTransformRelativeToViewport, addr 0x314cea0, size 0x530, virtual false, abstract: false, final false
+  /// @brief Method AdjustRectTransformRelativeToViewport, addr 0x3351928, size 0x530, virtual false, abstract: false, final false
   inline void AdjustRectTransformRelativeToViewport(::UnityEngine::Vector2 startPosition, float_t height, bool isCharVisible);
 
-  /// @brief Method AdjustTextPositionRelativeToViewport, addr 0x31495bc, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method AdjustTextPositionRelativeToViewport, addr 0x334e044, size 0x1d0, virtual false, abstract: false, final false
   inline void AdjustTextPositionRelativeToViewport(float_t relativePosition);
 
-  /// @brief Method Append, addr 0x314a924, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Append, addr 0x334f3ac, size 0xb0, virtual true, abstract: false, final false
   inline void Append(::StringW input);
 
-  /// @brief Method Append, addr 0x314a9d4, size 0x23c, virtual true, abstract: false, final false
+  /// @brief Method Append, addr 0x334f45c, size 0x23c, virtual true, abstract: false, final false
   inline void Append(char16_t input);
 
-  /// @brief Method AssignPositioningIfNeeded, addr 0x31448ec, size 0x500, virtual false, abstract: false, final false
+  /// @brief Method AssignPositioningIfNeeded, addr 0x3349374, size 0x500, virtual false, abstract: false, final false
   inline void AssignPositioningIfNeeded();
 
-  /// @brief Method Backspace, addr 0x31480b0, size 0x388, virtual false, abstract: false, final false
+  /// @brief Method Backspace, addr 0x334cb38, size 0x388, virtual false, abstract: false, final false
   inline void Backspace();
 
-  /// @brief Method CalculateLayoutInputHorizontal, addr 0x314d5e8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method CalculateLayoutInputHorizontal, addr 0x3352070, size 0x4, virtual true, abstract: false, final false
   inline void CalculateLayoutInputHorizontal();
 
-  /// @brief Method CalculateLayoutInputVertical, addr 0x314d5ec, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method CalculateLayoutInputVertical, addr 0x3352074, size 0x4, virtual true, abstract: false, final false
   inline void CalculateLayoutInputVertical();
 
-  /// @brief Method CaretBlink, addr 0x314554c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method CaretBlink, addr 0x3349fd4, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* CaretBlink();
 
-  /// @brief Method ClampCaretPos, addr 0x3143e3c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ClampCaretPos, addr 0x33488c4, size 0x44, virtual false, abstract: false, final false
   inline void ClampCaretPos(ByRef<int32_t> pos);
 
-  /// @brief Method ClampStringPos, addr 0x3143e04, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method ClampStringPos, addr 0x334888c, size 0x38, virtual false, abstract: false, final false
   inline void ClampStringPos(ByRef<int32_t> pos);
 
-  /// @brief Method CreateCursorVerts, addr 0x314cd50, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method CreateCursorVerts, addr 0x33517d8, size 0x150, virtual false, abstract: false, final false
   inline void CreateCursorVerts();
 
-  /// @brief Method DeactivateInputField, addr 0x3145120, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method DeactivateInputField, addr 0x3349ba8, size 0x1bc, virtual false, abstract: false, final false
   inline void DeactivateInputField(bool clearSelection);
 
-  /// @brief Method Delete, addr 0x314871c, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method Delete, addr 0x334d1a4, size 0x198, virtual false, abstract: false, final false
   inline void Delete();
 
-  /// @brief Method DeleteKey, addr 0x3148438, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method DeleteKey, addr 0x334cec0, size 0x224, virtual false, abstract: false, final false
   inline void DeleteKey();
 
-  /// @brief Method DoStateTransition, addr 0x314d5bc, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method DoStateTransition, addr 0x3352044, size 0x2c, virtual true, abstract: false, final false
   inline void DoStateTransition(::UnityEngine::UI::__Selectable__SelectionState state, bool instant);
 
-  /// @brief Method EnforceContentType, addr 0x314380c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method EnforceContentType, addr 0x3348294, size 0xbc, virtual false, abstract: false, final false
   inline void EnforceContentType();
 
-  /// @brief Method FindNextWordBegin, addr 0x314978c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method FindNextWordBegin, addr 0x334e214, size 0xd4, virtual false, abstract: false, final false
   inline int32_t FindNextWordBegin();
 
-  /// @brief Method FindPrevWordBegin, addr 0x3149860, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method FindPrevWordBegin, addr 0x334e2e8, size 0xb8, virtual false, abstract: false, final false
   inline int32_t FindPrevWordBegin();
 
-  /// @brief Method ForceLabelUpdate, addr 0x314b088, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ForceLabelUpdate, addr 0x334fb10, size 0x4, virtual false, abstract: false, final false
   inline void ForceLabelUpdate();
 
-  /// @brief Method GenerateCaret, addr 0x314b4b0, size 0xfe4, virtual false, abstract: false, final false
+  /// @brief Method GenerateCaret, addr 0x334ff38, size 0xfe4, virtual false, abstract: false, final false
   inline void GenerateCaret(::UnityEngine::UI::VertexHelper* vbo, ::UnityEngine::Vector2 roundingOffset);
 
-  /// @brief Method GenerateHightlight, addr 0x314c494, size 0x8bc, virtual false, abstract: false, final false
+  /// @brief Method GenerateHightlight, addr 0x3350f1c, size 0x8bc, virtual false, abstract: false, final false
   inline void GenerateHightlight(::UnityEngine::UI::VertexHelper* vbo, ::UnityEngine::Vector2 roundingOffset);
 
-  /// @brief Method GetCaretPositionFromStringIndex, addr 0x31453f0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetCaretPositionFromStringIndex, addr 0x3349e78, size 0x70, virtual false, abstract: false, final false
   inline int32_t GetCaretPositionFromStringIndex(int32_t stringIndex);
 
-  /// @brief Method GetMaxCaretPositionFromStringIndex, addr 0x314b018, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetMaxCaretPositionFromStringIndex, addr 0x334faa0, size 0x70, virtual false, abstract: false, final false
   inline int32_t GetMaxCaretPositionFromStringIndex(int32_t stringIndex);
 
-  /// @brief Method GetMinCaretPositionFromStringIndex, addr 0x314afa4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetMinCaretPositionFromStringIndex, addr 0x334fa2c, size 0x74, virtual false, abstract: false, final false
   inline int32_t GetMinCaretPositionFromStringIndex(int32_t stringIndex);
 
-  /// @brief Method GetScrollPositionRelativeToViewport, addr 0x31494ac, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method GetScrollPositionRelativeToViewport, addr 0x334df34, size 0x110, virtual false, abstract: false, final false
   inline float_t GetScrollPositionRelativeToViewport();
 
-  /// @brief Method GetSelectedString, addr 0x314865c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetSelectedString, addr 0x334d0e4, size 0xc0, virtual false, abstract: false, final false
   inline ::StringW GetSelectedString();
 
-  /// @brief Method GetStringIndexFromCaretPosition, addr 0x3145770, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetStringIndexFromCaretPosition, addr 0x334a1f8, size 0x60, virtual false, abstract: false, final false
   inline int32_t GetStringIndexFromCaretPosition(int32_t caretPosition);
 
-  /// @brief Method GraphicUpdateComplete, addr 0x314b154, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method GraphicUpdateComplete, addr 0x334fbdc, size 0x4, virtual true, abstract: false, final false
   inline void GraphicUpdateComplete();
 
-  /// @brief Method InPlaceEditing, addr 0x3145c2c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method InPlaceEditing, addr 0x334a6b4, size 0xc4, virtual false, abstract: false, final false
   inline bool InPlaceEditing();
 
-  /// @brief Method Insert, addr 0x314ac10, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Insert, addr 0x334f698, size 0x100, virtual false, abstract: false, final false
   inline void Insert(char16_t c);
 
-  /// @brief Method IsValidChar, addr 0x31490cc, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method IsValidChar, addr 0x334db54, size 0x20, virtual true, abstract: false, final false
   inline bool IsValidChar(char16_t c);
 
-  /// @brief Method KeyPressed, addr 0x3147c9c, size 0x414, virtual false, abstract: false, final false
+  /// @brief Method KeyPressed, addr 0x334c724, size 0x414, virtual false, abstract: false, final false
   inline ::TMPro::__TMP_InputField__EditState KeyPressed(::UnityEngine::Event* evt);
 
-  /// @brief Method LateUpdate, addr 0x3145e38, size 0x668, virtual true, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x334a8c0, size 0x668, virtual true, abstract: false, final false
   inline void LateUpdate();
 
-  /// @brief Method LayoutComplete, addr 0x314b150, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method LayoutComplete, addr 0x334fbd8, size 0x4, virtual true, abstract: false, final false
   inline void LayoutComplete();
 
-  /// @brief Method LineDownCharacterPosition, addr 0x3149a68, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method LineDownCharacterPosition, addr 0x334e4f0, size 0x14c, virtual false, abstract: false, final false
   inline int32_t LineDownCharacterPosition(int32_t originalPos, bool goToLastChar);
 
-  /// @brief Method LineUpCharacterPosition, addr 0x3149918, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method LineUpCharacterPosition, addr 0x334e3a0, size 0x150, virtual false, abstract: false, final false
   inline int32_t LineUpCharacterPosition(int32_t originalPos, bool goToFirstChar);
 
-  /// @brief Method MarkGeometryAsDirty, addr 0x3142d0c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method MarkGeometryAsDirty, addr 0x3347794, size 0x58, virtual false, abstract: false, final false
   inline void MarkGeometryAsDirty();
 
-  /// @brief Method MayDrag, addr 0x314712c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method MayDrag, addr 0x334bbb4, size 0x104, virtual false, abstract: false, final false
   inline bool MayDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method MouseDragOutsideRect, addr 0x31474dc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method MouseDragOutsideRect, addr 0x334bf64, size 0x74, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* MouseDragOutsideRect(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method MoveDown, addr 0x31490a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method MoveDown, addr 0x334db30, size 0xc, virtual false, abstract: false, final false
   inline void MoveDown(bool shift);
 
-  /// @brief Method MoveDown, addr 0x3149fcc, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method MoveDown, addr 0x334ea54, size 0x1c4, virtual false, abstract: false, final false
   inline void MoveDown(bool shift, bool goToLastChar);
 
-  /// @brief Method MoveLeft, addr 0x31488f0, size 0x3b0, virtual false, abstract: false, final false
+  /// @brief Method MoveLeft, addr 0x334d378, size 0x3b0, virtual false, abstract: false, final false
   inline void MoveLeft(bool shift, bool ctrl);
 
-  /// @brief Method MovePageDown, addr 0x31490c0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method MovePageDown, addr 0x334db48, size 0xc, virtual false, abstract: false, final false
   inline void MovePageDown(bool shift);
 
-  /// @brief Method MovePageDown, addr 0x314a628, size 0x2fc, virtual false, abstract: false, final false
+  /// @brief Method MovePageDown, addr 0x334f0b0, size 0x2fc, virtual false, abstract: false, final false
   inline void MovePageDown(bool shift, bool goToLastChar);
 
-  /// @brief Method MovePageUp, addr 0x31490b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method MovePageUp, addr 0x334db3c, size 0xc, virtual false, abstract: false, final false
   inline void MovePageUp(bool shift);
 
-  /// @brief Method MovePageUp, addr 0x314a340, size 0x2e8, virtual false, abstract: false, final false
+  /// @brief Method MovePageUp, addr 0x334edc8, size 0x2e8, virtual false, abstract: false, final false
   inline void MovePageUp(bool shift, bool goToFirstChar);
 
-  /// @brief Method MoveRight, addr 0x3148ca0, size 0x3fc, virtual false, abstract: false, final false
+  /// @brief Method MoveRight, addr 0x334d728, size 0x3fc, virtual false, abstract: false, final false
   inline void MoveRight(bool shift, bool ctrl);
 
-  /// @brief Method MoveTextEnd, addr 0x3145638, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method MoveTextEnd, addr 0x334a0c0, size 0x138, virtual false, abstract: false, final false
   inline void MoveTextEnd(bool shift);
 
-  /// @brief Method MoveTextStart, addr 0x31457d0, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method MoveTextStart, addr 0x334a258, size 0x13c, virtual false, abstract: false, final false
   inline void MoveTextStart(bool shift);
 
-  /// @brief Method MoveToEndOfLine, addr 0x314590c, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method MoveToEndOfLine, addr 0x334a394, size 0x180, virtual false, abstract: false, final false
   inline void MoveToEndOfLine(bool shift, bool ctrl);
 
-  /// @brief Method MoveToStartOfLine, addr 0x3145a8c, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method MoveToStartOfLine, addr 0x334a514, size 0x190, virtual false, abstract: false, final false
   inline void MoveToStartOfLine(bool shift, bool ctrl);
 
-  /// @brief Method MoveUp, addr 0x314909c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method MoveUp, addr 0x334db24, size 0xc, virtual false, abstract: false, final false
   inline void MoveUp(bool shift);
 
-  /// @brief Method MoveUp, addr 0x314a190, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method MoveUp, addr 0x334ec18, size 0x1b0, virtual false, abstract: false, final false
   inline void MoveUp(bool shift, bool goToFirstChar);
 
   static inline ::TMPro::TMP_InputField* New_ctor();
 
-  /// @brief Method ON_TEXT_CHANGED, addr 0x31452dc, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method ON_TEXT_CHANGED, addr 0x3349d64, size 0x114, virtual false, abstract: false, final false
   inline void ON_TEXT_CHANGED(::UnityEngine::Object* obj);
 
-  /// @brief Method OnBeginDrag, addr 0x3147230, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method OnBeginDrag, addr 0x334bcb8, size 0x20, virtual true, abstract: false, final false
   inline void OnBeginDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnControlClick, addr 0x314d52c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnControlClick, addr 0x3351fb4, size 0x4, virtual false, abstract: false, final false
   inline void OnControlClick();
 
-  /// @brief Method OnDeselect, addr 0x314d530, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method OnDeselect, addr 0x3351fb8, size 0x38, virtual true, abstract: false, final false
   inline void OnDeselect(::UnityEngine::EventSystems::BaseEventData* eventData);
 
-  /// @brief Method OnDisable, addr 0x3144df0, size 0x330, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3349878, size 0x330, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnDrag, addr 0x3147250, size 0x28c, virtual true, abstract: false, final false
+  /// @brief Method OnDrag, addr 0x334bcd8, size 0x28c, virtual true, abstract: false, final false
   inline void OnDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnEnable, addr 0x31441cc, size 0x720, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3348c54, size 0x720, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnEndDrag, addr 0x3147550, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method OnEndDrag, addr 0x334bfd8, size 0x1c, virtual true, abstract: false, final false
   inline void OnEndDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnFillVBO, addr 0x314b158, size 0x358, virtual false, abstract: false, final false
+  /// @brief Method OnFillVBO, addr 0x334fbe0, size 0x358, virtual false, abstract: false, final false
   inline void OnFillVBO(::UnityEngine::Mesh* vbo);
 
-  /// @brief Method OnFocus, addr 0x31455ec, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method OnFocus, addr 0x334a074, size 0x10, virtual false, abstract: false, final false
   inline void OnFocus();
 
-  /// @brief Method OnPointerClick, addr 0x314d508, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method OnPointerClick, addr 0x3351f90, size 0x24, virtual true, abstract: false, final false
   inline void OnPointerClick(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerDown, addr 0x314756c, size 0x730, virtual true, abstract: false, final false
+  /// @brief Method OnPointerDown, addr 0x334bff4, size 0x730, virtual true, abstract: false, final false
   inline void OnPointerDown(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnScroll, addr 0x31492ec, size 0x1c0, virtual true, abstract: false, final false
+  /// @brief Method OnScroll, addr 0x334dd74, size 0x1c0, virtual true, abstract: false, final false
   inline void OnScroll(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnScrollbarValueChange, addr 0x314af68, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method OnScrollbarValueChange, addr 0x334f9f0, size 0x3c, virtual false, abstract: false, final false
   inline void OnScrollbarValueChange(float_t value);
 
-  /// @brief Method OnSelect, addr 0x314d4e4, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method OnSelect, addr 0x3351f6c, size 0x24, virtual true, abstract: false, final false
   inline void OnSelect(::UnityEngine::EventSystems::BaseEventData* eventData);
 
-  /// @brief Method OnSubmit, addr 0x314d568, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method OnSubmit, addr 0x3351ff0, size 0x54, virtual true, abstract: false, final false
   inline void OnSubmit(::UnityEngine::EventSystems::BaseEventData* eventData);
 
-  /// @brief Method OnUpdateSelected, addr 0x31490f0, size 0x1a0, virtual true, abstract: false, final false
+  /// @brief Method OnUpdateSelected, addr 0x334db78, size 0x1a0, virtual true, abstract: false, final false
   inline void OnUpdateSelected(::UnityEngine::EventSystems::BaseEventData* eventData);
 
-  /// @brief Method PageDownCharacterPosition, addr 0x3149dc0, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method PageDownCharacterPosition, addr 0x334e848, size 0x20c, virtual false, abstract: false, final false
   inline int32_t PageDownCharacterPosition(int32_t originalPos, bool goToLastChar);
 
-  /// @brief Method PageUpCharacterPosition, addr 0x3149bb4, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method PageUpCharacterPosition, addr 0x334e63c, size 0x20c, virtual false, abstract: false, final false
   inline int32_t PageUpCharacterPosition(int32_t originalPos, bool goToFirstChar);
 
-  /// @brief Method ProcessEvent, addr 0x31490ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ProcessEvent, addr 0x334db74, size 0x4, virtual false, abstract: false, final false
   inline void ProcessEvent(::UnityEngine::Event* e);
 
-  /// @brief Method Rebuild, addr 0x314b08c, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Rebuild, addr 0x334fb14, size 0x10, virtual true, abstract: false, final false
   inline void Rebuild(::UnityEngine::UI::CanvasUpdate update);
 
-  /// @brief Method ReleaseSelection, addr 0x31468a0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ReleaseSelection, addr 0x334b328, size 0x2c, virtual false, abstract: false, final false
   inline void ReleaseSelection();
 
-  /// @brief Method SelectAll, addr 0x31455fc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SelectAll, addr 0x334a084, size 0x3c, virtual false, abstract: false, final false
   inline void SelectAll();
 
-  /// @brief Method SendOnEndEdit, addr 0x314ad10, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SendOnEndEdit, addr 0x334f798, size 0x5c, virtual false, abstract: false, final false
   inline void SendOnEndEdit();
 
-  /// @brief Method SendOnEndTextSelection, addr 0x314aecc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method SendOnEndTextSelection, addr 0x334f954, size 0x9c, virtual false, abstract: false, final false
   inline void SendOnEndTextSelection();
 
-  /// @brief Method SendOnFocus, addr 0x314ad6c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SendOnFocus, addr 0x334f7f4, size 0x5c, virtual false, abstract: false, final false
   inline void SendOnFocus();
 
-  /// @brief Method SendOnFocusLost, addr 0x314adc8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SendOnFocusLost, addr 0x334f850, size 0x5c, virtual false, abstract: false, final false
   inline void SendOnFocusLost();
 
-  /// @brief Method SendOnSubmit, addr 0x3149290, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SendOnSubmit, addr 0x334dd18, size 0x5c, virtual false, abstract: false, final false
   inline void SendOnSubmit();
 
-  /// @brief Method SendOnTextSelection, addr 0x314ae24, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method SendOnTextSelection, addr 0x334f8ac, size 0xa8, virtual false, abstract: false, final false
   inline void SendOnTextSelection();
 
-  /// @brief Method SendOnValueChanged, addr 0x3142b54, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SendOnValueChanged, addr 0x33475dc, size 0x5c, virtual false, abstract: false, final false
   inline void SendOnValueChanged();
 
-  /// @brief Method SendOnValueChangedAndUpdateLabel, addr 0x3147114, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SendOnValueChangedAndUpdateLabel, addr 0x334bb9c, size 0x18, virtual false, abstract: false, final false
   inline void SendOnValueChangedAndUpdateLabel();
 
-  /// @brief Method SendTouchScreenKeyboardStatusChanged, addr 0x31468cc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SendTouchScreenKeyboardStatusChanged, addr 0x334b354, size 0x74, virtual false, abstract: false, final false
   inline void SendTouchScreenKeyboardStatusChanged();
 
-  /// @brief Method SetCaretActive, addr 0x3142c3c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetCaretActive, addr 0x33476c4, size 0x54, virtual false, abstract: false, final false
   inline void SetCaretActive();
 
-  /// @brief Method SetCaretVisible, addr 0x31455b4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method SetCaretVisible, addr 0x334a03c, size 0x38, virtual false, abstract: false, final false
   inline void SetCaretVisible();
 
-  /// @brief Method SetGlobalFontAsset, addr 0x3143660, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method SetGlobalFontAsset, addr 0x33480e8, size 0xe0, virtual false, abstract: false, final false
   inline void SetGlobalFontAsset(::TMPro::TMP_FontAsset* fontAsset);
 
-  /// @brief Method SetGlobalPointSize, addr 0x3143570, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method SetGlobalPointSize, addr 0x3347ff8, size 0xe8, virtual false, abstract: false, final false
   inline void SetGlobalPointSize(float_t pointSize);
 
-  /// @brief Method SetText, addr 0x31424fc, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method SetText, addr 0x3346f84, size 0x134, virtual false, abstract: false, final false
   inline void SetText(::StringW value, bool sendCallback);
 
-  /// @brief Method SetTextComponentRichTextMode, addr 0x3143ce4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method SetTextComponentRichTextMode, addr 0x334876c, size 0x88, virtual false, abstract: false, final false
   inline void SetTextComponentRichTextMode();
 
-  /// @brief Method SetTextComponentWrapMode, addr 0x31420e0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method SetTextComponentWrapMode, addr 0x3346b68, size 0x94, virtual false, abstract: false, final false
   inline void SetTextComponentWrapMode();
 
-  /// @brief Method SetTextWithoutNotify, addr 0x3142630, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetTextWithoutNotify, addr 0x33470b8, size 0x8, virtual false, abstract: false, final false
   inline void SetTextWithoutNotify(::StringW input);
 
-  /// @brief Method SetToCustom, addr 0x3143ae8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetToCustom, addr 0x3348570, size 0x18, virtual false, abstract: false, final false
   inline void SetToCustom();
 
-  /// @brief Method SetToCustom, addr 0x3143ca4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetToCustom, addr 0x334872c, size 0x18, virtual false, abstract: false, final false
   inline void SetToCustom(::TMPro::__TMP_InputField__CharacterValidation characterValidation);
 
-  /// @brief Method SetToCustomIfContentTypeIsNot, addr 0x3143990, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SetToCustomIfContentTypeIsNot, addr 0x3348418, size 0x58, virtual false, abstract: false, final false
   inline void SetToCustomIfContentTypeIsNot(::ArrayW<::TMPro::__TMP_InputField__ContentType, ::Array<::TMPro::__TMP_InputField__ContentType>*> allowedContentTypes);
 
-  /// @brief Method UnityEngine.UI.ICanvasElement.get_transform, addr 0x314d90c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UI.ICanvasElement.get_transform, addr 0x3352394, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::Transform> UnityEngine_UI_ICanvasElement_get_transform();
 
-  /// @brief Method UpdateGeometry, addr 0x314b09c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method UpdateGeometry, addr 0x334fb24, size 0xb4, virtual false, abstract: false, final false
   inline void UpdateGeometry();
 
-  /// @brief Method UpdateLabel, addr 0x3142638, size 0x51c, virtual false, abstract: false, final false
+  /// @brief Method UpdateLabel, addr 0x33470c0, size 0x51c, virtual false, abstract: false, final false
   inline void UpdateLabel();
 
-  /// @brief Method UpdateMaskRegions, addr 0x3144dec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method UpdateMaskRegions, addr 0x3349874, size 0x4, virtual false, abstract: false, final false
   inline void UpdateMaskRegions();
 
-  /// @brief Method UpdateScrollbar, addr 0x3145460, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method UpdateScrollbar, addr 0x3349ee8, size 0xec, virtual false, abstract: false, final false
   inline void UpdateScrollbar();
 
-  /// @brief Method UpdateStringPositionFromKeyboard, addr 0x3145cf0, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method UpdateStringPositionFromKeyboard, addr 0x334a778, size 0x148, virtual false, abstract: false, final false
   inline void UpdateStringPositionFromKeyboard();
 
-  /// @brief Method UpdateTouchKeyboardFromEditChanges, addr 0x31488b4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method UpdateTouchKeyboardFromEditChanges, addr 0x334d33c, size 0x3c, virtual false, abstract: false, final false
   inline void UpdateTouchKeyboardFromEditChanges();
 
-  /// @brief Method Validate, addr 0x3146940, size 0x7d4, virtual false, abstract: false, final false
+  /// @brief Method Validate, addr 0x334b3c8, size 0x7d4, virtual false, abstract: false, final false
   inline char16_t Validate(::StringW text, int32_t pos, char16_t ch);
 
   constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get_caretRectTrans() const;
@@ -2368,204 +2369,204 @@ public:
 
   constexpr void __cordl_internal_set_m_isSelected(bool value);
 
-  /// @brief Method .ctor, addr 0x3141e50, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33468d8, size 0x290, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_kSeparators();
 
-  /// @brief Method get_asteriskChar, addr 0x3143d80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_asteriskChar, addr 0x3348808, size 0x8, virtual false, abstract: false, final false
   inline char16_t get_asteriskChar();
 
-  /// @brief Method get_caretBlinkRate, addr 0x3142bb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_caretBlinkRate, addr 0x3347640, size 0x8, virtual false, abstract: false, final false
   inline float_t get_caretBlinkRate();
 
-  /// @brief Method get_caretColor, addr 0x3142fb8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_caretColor, addr 0x3347a40, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_caretColor();
 
-  /// @brief Method get_caretPosition, addr 0x3143fac, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_caretPosition, addr 0x3348a34, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_caretPosition();
 
-  /// @brief Method get_caretPositionInternal, addr 0x3143e80, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_caretPositionInternal, addr 0x3348908, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_caretPositionInternal();
 
-  /// @brief Method get_caretSelectPositionInternal, addr 0x3143ef8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_caretSelectPositionInternal, addr 0x3348980, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_caretSelectPositionInternal();
 
-  /// @brief Method get_caretWidth, addr 0x3142c90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_caretWidth, addr 0x3347718, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_caretWidth();
 
-  /// @brief Method get_characterLimit, addr 0x31433ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_characterLimit, addr 0x3347e74, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_characterLimit();
 
-  /// @brief Method get_characterValidation, addr 0x3143b8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_characterValidation, addr 0x3348614, size 0x8, virtual false, abstract: false, final false
   inline ::TMPro::__TMP_InputField__CharacterValidation get_characterValidation();
 
-  /// @brief Method get_clipboard, addr 0x3145c1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_clipboard, addr 0x334a6a4, size 0x8, virtual false, abstract: false, final false
   static inline ::StringW get_clipboard();
 
-  /// @brief Method get_compositionLength, addr 0x3141e24, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_compositionLength, addr 0x33468ac, size 0x2c, virtual false, abstract: false, final false
   inline int32_t get_compositionLength();
 
-  /// @brief Method get_compositionString, addr 0x3141d90, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_compositionString, addr 0x3346818, size 0x94, virtual false, abstract: false, final false
   inline ::StringW get_compositionString();
 
-  /// @brief Method get_contentType, addr 0x3143790, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_contentType, addr 0x3348218, size 0x8, virtual false, abstract: false, final false
   inline ::TMPro::__TMP_InputField__ContentType get_contentType();
 
-  /// @brief Method get_customCaretColor, addr 0x3143028, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_customCaretColor, addr 0x3347ab0, size 0x8, virtual false, abstract: false, final false
   inline bool get_customCaretColor();
 
-  /// @brief Method get_flexibleHeight, addr 0x314d868, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_flexibleHeight, addr 0x33522f0, size 0x8, virtual true, abstract: false, final false
   inline float_t get_flexibleHeight();
 
-  /// @brief Method get_flexibleWidth, addr 0x314d728, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_flexibleWidth, addr 0x33521b0, size 0x8, virtual true, abstract: false, final false
   inline float_t get_flexibleWidth();
 
-  /// @brief Method get_fontAsset, addr 0x3143658, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fontAsset, addr 0x33480e0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::TMPro::TMP_FontAsset> get_fontAsset();
 
-  /// @brief Method get_hasSelection, addr 0x3143f70, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_hasSelection, addr 0x33489f8, size 0x3c, virtual false, abstract: false, final false
   inline bool get_hasSelection();
 
-  /// @brief Method get_inputSystem, addr 0x3141c80, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method get_inputSystem, addr 0x3346708, size 0x110, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::EventSystems::BaseInput> get_inputSystem();
 
-  /// @brief Method get_inputType, addr 0x3143a5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_inputType, addr 0x33484e4, size 0x8, virtual false, abstract: false, final false
   inline ::TMPro::__TMP_InputField__InputType get_inputType();
 
-  /// @brief Method get_inputValidator, addr 0x3143c18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_inputValidator, addr 0x33486a0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::TMPro::TMP_InputValidator> get_inputValidator();
 
-  /// @brief Method get_isFocused, addr 0x3142bb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isFocused, addr 0x3347638, size 0x8, virtual false, abstract: false, final false
   inline bool get_isFocused();
 
-  /// @brief Method get_isRichTextEditingAllowed, addr 0x314377c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isRichTextEditingAllowed, addr 0x3348204, size 0x8, virtual false, abstract: false, final false
   inline bool get_isRichTextEditingAllowed();
 
-  /// @brief Method get_keyboardType, addr 0x3143b00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_keyboardType, addr 0x3348588, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::TouchScreenKeyboardType get_keyboardType();
 
-  /// @brief Method get_layoutPriority, addr 0x314d870, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_layoutPriority, addr 0x33522f8, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_layoutPriority();
 
-  /// @brief Method get_lineLimit, addr 0x31439e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lineLimit, addr 0x3348470, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_lineLimit();
 
-  /// @brief Method get_lineType, addr 0x31438c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lineType, addr 0x3348350, size 0x8, virtual false, abstract: false, final false
   inline ::TMPro::__TMP_InputField__LineType get_lineType();
 
-  /// @brief Method get_mesh, addr 0x3142174, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_mesh, addr 0x3346bfc, size 0xa8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_mesh();
 
-  /// @brief Method get_minHeight, addr 0x314d730, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_minHeight, addr 0x33521b8, size 0x8, virtual true, abstract: false, final false
   inline float_t get_minHeight();
 
-  /// @brief Method get_minWidth, addr 0x314d5f0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_minWidth, addr 0x3352078, size 0x8, virtual true, abstract: false, final false
   inline float_t get_minWidth();
 
-  /// @brief Method get_multiLine, addr 0x3143d6c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_multiLine, addr 0x33487f4, size 0x14, virtual false, abstract: false, final false
   inline bool get_multiLine();
 
-  /// @brief Method get_onDeselect, addr 0x31431ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_onDeselect, addr 0x3347c34, size 0x8, virtual false, abstract: false, final false
   inline ::TMPro::__TMP_InputField__SelectionEvent* get_onDeselect();
 
-  /// @brief Method get_onEndEdit, addr 0x314308c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_onEndEdit, addr 0x3347b14, size 0x8, virtual false, abstract: false, final false
   inline ::TMPro::__TMP_InputField__SubmitEvent* get_onEndEdit();
 
-  /// @brief Method get_onEndTextSelection, addr 0x314326c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_onEndTextSelection, addr 0x3347cf4, size 0x8, virtual false, abstract: false, final false
   inline ::TMPro::__TMP_InputField__TextSelectionEvent* get_onEndTextSelection();
 
-  /// @brief Method get_onFocusSelectAll, addr 0x3143740, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_onFocusSelectAll, addr 0x33481c8, size 0x8, virtual false, abstract: false, final false
   inline bool get_onFocusSelectAll();
 
-  /// @brief Method get_onSelect, addr 0x314314c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_onSelect, addr 0x3347bd4, size 0x8, virtual false, abstract: false, final false
   inline ::TMPro::__TMP_InputField__SelectionEvent* get_onSelect();
 
-  /// @brief Method get_onSubmit, addr 0x31430ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_onSubmit, addr 0x3347b74, size 0x8, virtual false, abstract: false, final false
   inline ::TMPro::__TMP_InputField__SubmitEvent* get_onSubmit();
 
-  /// @brief Method get_onTextSelection, addr 0x314320c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_onTextSelection, addr 0x3347c94, size 0x8, virtual false, abstract: false, final false
   inline ::TMPro::__TMP_InputField__TextSelectionEvent* get_onTextSelection();
 
-  /// @brief Method get_onTouchScreenKeyboardStatusChanged, addr 0x314332c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_onTouchScreenKeyboardStatusChanged, addr 0x3347db4, size 0x8, virtual false, abstract: false, final false
   inline ::TMPro::__TMP_InputField__TouchScreenKeyboardEvent* get_onTouchScreenKeyboardStatusChanged();
 
-  /// @brief Method get_onValidateInput, addr 0x314338c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_onValidateInput, addr 0x3347e14, size 0x8, virtual false, abstract: false, final false
   inline ::TMPro::__TMP_InputField__OnValidateInput* get_onValidateInput();
 
-  /// @brief Method get_onValueChanged, addr 0x31432cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_onValueChanged, addr 0x3347d54, size 0x8, virtual false, abstract: false, final false
   inline ::TMPro::__TMP_InputField__OnChangeEvent* get_onValueChanged();
 
-  /// @brief Method get_placeholder, addr 0x3142d74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_placeholder, addr 0x33477fc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Graphic> get_placeholder();
 
-  /// @brief Method get_pointSize, addr 0x31434b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pointSize, addr 0x3347f3c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_pointSize();
 
-  /// @brief Method get_preferredHeight, addr 0x314d738, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method get_preferredHeight, addr 0x33521c0, size 0x130, virtual true, abstract: false, final false
   inline float_t get_preferredHeight();
 
-  /// @brief Method get_preferredWidth, addr 0x314d5f8, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method get_preferredWidth, addr 0x3352080, size 0x130, virtual true, abstract: false, final false
   inline float_t get_preferredWidth();
 
-  /// @brief Method get_readOnly, addr 0x3143cbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_readOnly, addr 0x3348744, size 0x8, virtual false, abstract: false, final false
   inline bool get_readOnly();
 
-  /// @brief Method get_resetOnDeActivation, addr 0x3143754, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_resetOnDeActivation, addr 0x33481dc, size 0x8, virtual false, abstract: false, final false
   inline bool get_resetOnDeActivation();
 
-  /// @brief Method get_restoreOriginalTextOnEscape, addr 0x3143768, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_restoreOriginalTextOnEscape, addr 0x33481f0, size 0x8, virtual false, abstract: false, final false
   inline bool get_restoreOriginalTextOnEscape();
 
-  /// @brief Method get_richText, addr 0x3143cd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_richText, addr 0x3348758, size 0x8, virtual false, abstract: false, final false
   inline bool get_richText();
 
-  /// @brief Method get_scrollSensitivity, addr 0x3142f3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_scrollSensitivity, addr 0x33479c4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_scrollSensitivity();
 
-  /// @brief Method get_selectionAnchorPosition, addr 0x3144070, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_selectionAnchorPosition, addr 0x3348af8, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_selectionAnchorPosition();
 
-  /// @brief Method get_selectionColor, addr 0x314304c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_selectionColor, addr 0x3347ad4, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_selectionColor();
 
-  /// @brief Method get_selectionFocusPosition, addr 0x3144088, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_selectionFocusPosition, addr 0x3348b10, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_selectionFocusPosition();
 
-  /// @brief Method get_selectionStringAnchorPosition, addr 0x314419c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_selectionStringAnchorPosition, addr 0x3348c24, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_selectionStringAnchorPosition();
 
-  /// @brief Method get_selectionStringFocusPosition, addr 0x31441b4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_selectionStringFocusPosition, addr 0x3348c3c, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_selectionStringFocusPosition();
 
-  /// @brief Method get_shouldHideMobileInput, addr 0x314221c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_shouldHideMobileInput, addr 0x3346ca4, size 0x48, virtual false, abstract: false, final false
   inline bool get_shouldHideMobileInput();
 
-  /// @brief Method get_shouldHideSoftKeyboard, addr 0x31422f0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_shouldHideSoftKeyboard, addr 0x3346d78, size 0x94, virtual false, abstract: false, final false
   inline bool get_shouldHideSoftKeyboard();
 
-  /// @brief Method get_stringPosition, addr 0x31440a0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_stringPosition, addr 0x3348b28, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_stringPosition();
 
-  /// @brief Method get_stringPositionInternal, addr 0x3143ea8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_stringPositionInternal, addr 0x3348930, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_stringPositionInternal();
 
-  /// @brief Method get_stringSelectPositionInternal, addr 0x3143f20, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_stringSelectPositionInternal, addr 0x33489a8, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_stringSelectPositionInternal();
 
-  /// @brief Method get_text, addr 0x31424ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x3346f74, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method get_textComponent, addr 0x3142d6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_textComponent, addr 0x33477f4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::TMPro::TMP_Text> get_textComponent();
 
-  /// @brief Method get_textViewport, addr 0x3142d64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_textViewport, addr 0x33477ec, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RectTransform> get_textViewport();
 
-  /// @brief Method get_verticalScrollbar, addr 0x3142d7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_verticalScrollbar, addr 0x3347804, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Scrollbar> get_verticalScrollbar();
 
-  /// @brief Method get_wasCanceled, addr 0x3143dfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_wasCanceled, addr 0x3348884, size 0x8, virtual false, abstract: false, final false
   inline bool get_wasCanceled();
 
   /// @brief Convert to "::UnityEngine::EventSystems::IBeginDragHandler"
@@ -2598,159 +2599,159 @@ public:
   /// @brief Convert to "::UnityEngine::UI::ILayoutElement"
   constexpr ::UnityEngine::UI::ILayoutElement* i___UnityEngine__UI__ILayoutElement() noexcept;
 
-  /// @brief Method isKeyboardUsingEvents, addr 0x3142498, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method isKeyboardUsingEvents, addr 0x3346f20, size 0x54, virtual false, abstract: false, final false
   inline bool isKeyboardUsingEvents();
 
   static inline void setStaticF_kSeparators(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
-  /// @brief Method set_asteriskChar, addr 0x3143d88, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method set_asteriskChar, addr 0x3348810, size 0x74, virtual false, abstract: false, final false
   inline void set_asteriskChar(char16_t value);
 
-  /// @brief Method set_caretBlinkRate, addr 0x3142bc0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method set_caretBlinkRate, addr 0x3347648, size 0x7c, virtual false, abstract: false, final false
   inline void set_caretBlinkRate(float_t value);
 
-  /// @brief Method set_caretColor, addr 0x3142ffc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_caretColor, addr 0x3347a84, size 0x2c, virtual false, abstract: false, final false
   inline void set_caretColor(::UnityEngine::Color value);
 
-  /// @brief Method set_caretPosition, addr 0x3143fc4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method set_caretPosition, addr 0x3348a4c, size 0x34, virtual false, abstract: false, final false
   inline void set_caretPosition(int32_t value);
 
-  /// @brief Method set_caretPositionInternal, addr 0x3143e98, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_caretPositionInternal, addr 0x3348920, size 0x10, virtual false, abstract: false, final false
   inline void set_caretPositionInternal(int32_t value);
 
-  /// @brief Method set_caretSelectPositionInternal, addr 0x3143f10, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_caretSelectPositionInternal, addr 0x3348998, size 0x10, virtual false, abstract: false, final false
   inline void set_caretSelectPositionInternal(int32_t value);
 
-  /// @brief Method set_caretWidth, addr 0x3142c98, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method set_caretWidth, addr 0x3347720, size 0x74, virtual false, abstract: false, final false
   inline void set_caretWidth(int32_t value);
 
-  /// @brief Method set_characterLimit, addr 0x31433f4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method set_characterLimit, addr 0x3347e7c, size 0xc0, virtual false, abstract: false, final false
   inline void set_characterLimit(int32_t value);
 
-  /// @brief Method set_characterValidation, addr 0x3143b94, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method set_characterValidation, addr 0x334861c, size 0x84, virtual false, abstract: false, final false
   inline void set_characterValidation(::TMPro::__TMP_InputField__CharacterValidation value);
 
-  /// @brief Method set_clipboard, addr 0x3145c24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_clipboard, addr 0x334a6ac, size 0x8, virtual false, abstract: false, final false
   static inline void set_clipboard(::StringW value);
 
-  /// @brief Method set_contentType, addr 0x3143798, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method set_contentType, addr 0x3348220, size 0x74, virtual false, abstract: false, final false
   inline void set_contentType(::TMPro::__TMP_InputField__ContentType value);
 
-  /// @brief Method set_customCaretColor, addr 0x3143030, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_customCaretColor, addr 0x3347ab8, size 0x1c, virtual false, abstract: false, final false
   inline void set_customCaretColor(bool value);
 
-  /// @brief Method set_fontAsset, addr 0x3132f70, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method set_fontAsset, addr 0x33379f8, size 0x80, virtual false, abstract: false, final false
   inline void set_fontAsset(::TMPro::TMP_FontAsset* value);
 
-  /// @brief Method set_inputType, addr 0x3143a64, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method set_inputType, addr 0x33484ec, size 0x84, virtual false, abstract: false, final false
   inline void set_inputType(::TMPro::__TMP_InputField__InputType value);
 
-  /// @brief Method set_inputValidator, addr 0x3143c20, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method set_inputValidator, addr 0x33486a8, size 0x84, virtual false, abstract: false, final false
   inline void set_inputValidator(::TMPro::TMP_InputValidator* value);
 
-  /// @brief Method set_isRichTextEditingAllowed, addr 0x3143784, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isRichTextEditingAllowed, addr 0x334820c, size 0xc, virtual false, abstract: false, final false
   inline void set_isRichTextEditingAllowed(bool value);
 
-  /// @brief Method set_keyboardType, addr 0x3143b08, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method set_keyboardType, addr 0x3348590, size 0x84, virtual false, abstract: false, final false
   inline void set_keyboardType(::UnityEngine::TouchScreenKeyboardType value);
 
-  /// @brief Method set_lineLimit, addr 0x31439f0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method set_lineLimit, addr 0x3348478, size 0x6c, virtual false, abstract: false, final false
   inline void set_lineLimit(int32_t value);
 
-  /// @brief Method set_lineType, addr 0x31438d0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method set_lineType, addr 0x3348358, size 0xc0, virtual false, abstract: false, final false
   inline void set_lineType(::TMPro::__TMP_InputField__LineType value);
 
-  /// @brief Method set_onDeselect, addr 0x31431b4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_onDeselect, addr 0x3347c3c, size 0x58, virtual false, abstract: false, final false
   inline void set_onDeselect(::TMPro::__TMP_InputField__SelectionEvent* value);
 
-  /// @brief Method set_onEndEdit, addr 0x3143094, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_onEndEdit, addr 0x3347b1c, size 0x58, virtual false, abstract: false, final false
   inline void set_onEndEdit(::TMPro::__TMP_InputField__SubmitEvent* value);
 
-  /// @brief Method set_onEndTextSelection, addr 0x3143274, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_onEndTextSelection, addr 0x3347cfc, size 0x58, virtual false, abstract: false, final false
   inline void set_onEndTextSelection(::TMPro::__TMP_InputField__TextSelectionEvent* value);
 
-  /// @brief Method set_onFocusSelectAll, addr 0x3143748, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_onFocusSelectAll, addr 0x33481d0, size 0xc, virtual false, abstract: false, final false
   inline void set_onFocusSelectAll(bool value);
 
-  /// @brief Method set_onSelect, addr 0x3143154, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_onSelect, addr 0x3347bdc, size 0x58, virtual false, abstract: false, final false
   inline void set_onSelect(::TMPro::__TMP_InputField__SelectionEvent* value);
 
-  /// @brief Method set_onSubmit, addr 0x31430f4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_onSubmit, addr 0x3347b7c, size 0x58, virtual false, abstract: false, final false
   inline void set_onSubmit(::TMPro::__TMP_InputField__SubmitEvent* value);
 
-  /// @brief Method set_onTextSelection, addr 0x3143214, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_onTextSelection, addr 0x3347c9c, size 0x58, virtual false, abstract: false, final false
   inline void set_onTextSelection(::TMPro::__TMP_InputField__TextSelectionEvent* value);
 
-  /// @brief Method set_onTouchScreenKeyboardStatusChanged, addr 0x3143334, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_onTouchScreenKeyboardStatusChanged, addr 0x3347dbc, size 0x58, virtual false, abstract: false, final false
   inline void set_onTouchScreenKeyboardStatusChanged(::TMPro::__TMP_InputField__TouchScreenKeyboardEvent* value);
 
-  /// @brief Method set_onValidateInput, addr 0x3143394, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_onValidateInput, addr 0x3347e1c, size 0x58, virtual false, abstract: false, final false
   inline void set_onValidateInput(::TMPro::__TMP_InputField__OnValidateInput* value);
 
-  /// @brief Method set_onValueChanged, addr 0x31432d4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_onValueChanged, addr 0x3347d5c, size 0x58, virtual false, abstract: false, final false
   inline void set_onValueChanged(::TMPro::__TMP_InputField__OnChangeEvent* value);
 
-  /// @brief Method set_placeholder, addr 0x3132f18, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_placeholder, addr 0x33379a0, size 0x58, virtual false, abstract: false, final false
   inline void set_placeholder(::UnityEngine::UI::Graphic* value);
 
-  /// @brief Method set_pointSize, addr 0x31434bc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method set_pointSize, addr 0x3347f44, size 0xb4, virtual false, abstract: false, final false
   inline void set_pointSize(float_t value);
 
-  /// @brief Method set_readOnly, addr 0x3143cc4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_readOnly, addr 0x334874c, size 0xc, virtual false, abstract: false, final false
   inline void set_readOnly(bool value);
 
-  /// @brief Method set_resetOnDeActivation, addr 0x314375c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_resetOnDeActivation, addr 0x33481e4, size 0xc, virtual false, abstract: false, final false
   inline void set_resetOnDeActivation(bool value);
 
-  /// @brief Method set_restoreOriginalTextOnEscape, addr 0x3143770, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_restoreOriginalTextOnEscape, addr 0x33481f8, size 0xc, virtual false, abstract: false, final false
   inline void set_restoreOriginalTextOnEscape(bool value);
 
-  /// @brief Method set_richText, addr 0x3143cd8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_richText, addr 0x3348760, size 0xc, virtual false, abstract: false, final false
   inline void set_richText(bool value);
 
-  /// @brief Method set_scrollSensitivity, addr 0x3142f44, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method set_scrollSensitivity, addr 0x33479cc, size 0x74, virtual false, abstract: false, final false
   inline void set_scrollSensitivity(float_t value);
 
-  /// @brief Method set_selectionAnchorPosition, addr 0x3143ff8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_selectionAnchorPosition, addr 0x3348a80, size 0x3c, virtual false, abstract: false, final false
   inline void set_selectionAnchorPosition(int32_t value);
 
-  /// @brief Method set_selectionColor, addr 0x3143060, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_selectionColor, addr 0x3347ae8, size 0x2c, virtual false, abstract: false, final false
   inline void set_selectionColor(::UnityEngine::Color value);
 
-  /// @brief Method set_selectionFocusPosition, addr 0x3144034, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_selectionFocusPosition, addr 0x3348abc, size 0x3c, virtual false, abstract: false, final false
   inline void set_selectionFocusPosition(int32_t value);
 
-  /// @brief Method set_selectionStringAnchorPosition, addr 0x31440ec, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_selectionStringAnchorPosition, addr 0x3348b74, size 0x58, virtual false, abstract: false, final false
   inline void set_selectionStringAnchorPosition(int32_t value);
 
-  /// @brief Method set_selectionStringFocusPosition, addr 0x3144144, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_selectionStringFocusPosition, addr 0x3348bcc, size 0x58, virtual false, abstract: false, final false
   inline void set_selectionStringFocusPosition(int32_t value);
 
-  /// @brief Method set_shouldHideMobileInput, addr 0x3142264, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method set_shouldHideMobileInput, addr 0x3346cec, size 0x8c, virtual false, abstract: false, final false
   inline void set_shouldHideMobileInput(bool value);
 
-  /// @brief Method set_shouldHideSoftKeyboard, addr 0x3142384, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method set_shouldHideSoftKeyboard, addr 0x3346e0c, size 0x114, virtual false, abstract: false, final false
   inline void set_shouldHideSoftKeyboard(bool value);
 
-  /// @brief Method set_stringPosition, addr 0x31440b8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method set_stringPosition, addr 0x3348b40, size 0x34, virtual false, abstract: false, final false
   inline void set_stringPosition(int32_t value);
 
-  /// @brief Method set_stringPositionInternal, addr 0x3143ec0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method set_stringPositionInternal, addr 0x3348948, size 0x38, virtual false, abstract: false, final false
   inline void set_stringPositionInternal(int32_t value);
 
-  /// @brief Method set_stringSelectPositionInternal, addr 0x3143f38, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method set_stringSelectPositionInternal, addr 0x33489c0, size 0x38, virtual false, abstract: false, final false
   inline void set_stringSelectPositionInternal(int32_t value);
 
-  /// @brief Method set_text, addr 0x31424f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x3346f7c, size 0x8, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
-  /// @brief Method set_textComponent, addr 0x3132ea4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method set_textComponent, addr 0x333792c, size 0x74, virtual false, abstract: false, final false
   inline void set_textComponent(::TMPro::TMP_Text* value);
 
-  /// @brief Method set_textViewport, addr 0x3132e4c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_textViewport, addr 0x33378d4, size 0x58, virtual false, abstract: false, final false
   inline void set_textViewport(::UnityEngine::RectTransform* value);
 
-  /// @brief Method set_verticalScrollbar, addr 0x3142d84, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method set_verticalScrollbar, addr 0x334780c, size 0x1b8, virtual false, abstract: false, final false
   inline void set_verticalScrollbar(::UnityEngine::UI::Scrollbar* value);
 
 protected:

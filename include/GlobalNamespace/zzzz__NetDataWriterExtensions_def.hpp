@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/NetDataWriterExtensions.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,10 +26,10 @@ namespace GlobalNamespace {
 class CORDL_TYPE NetDataWriterExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetUpPacket, addr 0xfb7eec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetUpPacket, addr 0x10ab610, size 0x4, virtual false, abstract: false, final false
   static inline void SetUpPacket(::LiteNetLib::Utils::NetDataWriter* netDataWriter, uint8_t senderId, uint8_t receiverId, ::GlobalNamespace::PacketOption packetOptions);
 
-  /// @brief Method SetUpPacket, addr 0xfb7ef0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method SetUpPacket, addr 0x10ab614, size 0x4c, virtual false, abstract: false, final false
   static inline void SetUpPacket(::LiteNetLib::Utils::NetDataWriter* netDataWriter, uint8_t senderId, uint8_t receiverId, uint8_t packetOptions);
 
 protected:

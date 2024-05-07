@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Cmp/PkiConfirmContent.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,15 +25,15 @@ namespace Org::BouncyCastle::Asn1::Cmp {
 class CORDL_TYPE PkiConfirmContent : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
-  /// @brief Method GetInstance, addr 0xfd4cb0, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x10c83d4, size 0x150, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiConfirmContent* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiConfirmContent* New_ctor();
 
-  /// @brief Method ToAsn1Object, addr 0xfd532c, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x10c8a50, size 0x58, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-  /// @brief Method .ctor, addr 0xfd5324, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10c8a48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

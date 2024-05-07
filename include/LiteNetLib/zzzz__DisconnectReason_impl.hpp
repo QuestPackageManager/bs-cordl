@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LiteNetLib/DisconnectReason.hpp"
 #include "LiteNetLib/zzzz__DisconnectReason_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::LiteNetLib::DisconnectReason::DisconnectReason(int32_t value__) noexcept {

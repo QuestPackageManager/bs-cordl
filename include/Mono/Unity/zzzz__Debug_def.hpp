@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Unity/Debug.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,10 +29,10 @@ namespace Mono::Unity {
 class CORDL_TYPE Debug : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CheckAndThrow, addr 0x2b607c8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method CheckAndThrow, addr 0x2c5d0c8, size 0xa0, virtual false, abstract: false, final false
   static inline void CheckAndThrow(::Mono::Unity::__UnityTls__unitytls_errorstate errorState, ::StringW context, ::Mono::Security::Interface::AlertDescription defaultAlert);
 
-  /// @brief Method CheckAndThrow, addr 0x2b60868, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method CheckAndThrow, addr 0x2c5d168, size 0xd8, virtual false, abstract: false, final false
   static inline void CheckAndThrow(::Mono::Unity::__UnityTls__unitytls_errorstate errorState, ::Mono::Unity::__UnityTls__unitytls_x509verify_result verifyResult, ::StringW context,
                                    ::Mono::Security::Interface::AlertDescription defaultAlert);
 

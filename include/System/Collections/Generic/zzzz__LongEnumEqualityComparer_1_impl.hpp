@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Collections/Generic/LongEnumEqualityComparer_1.hpp"
 #include "System/Collections/Generic/zzzz__EqualityComparer_1_impl.hpp"
 #include "System/Collections/Generic/zzzz__LongEnumEqualityComparer_1_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"

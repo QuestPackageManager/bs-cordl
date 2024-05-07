@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Yoga/MeasureOutput.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Yoga/zzzz__MeasureOutput_def.hpp"
 #include "UnityEngine/Yoga/zzzz__YogaSize_def.hpp"
@@ -7,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Yoga::YogaSize (*)(float_t, float_t)>(&::UnityEngine::Yoga::MeasureOutput::Make)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x33f2f74;
+  constexpr static std::size_t addrs = 0x35f8cb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

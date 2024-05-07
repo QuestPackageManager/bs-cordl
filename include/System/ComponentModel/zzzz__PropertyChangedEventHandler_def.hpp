@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ComponentModel/PropertyChangedEventHandler.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,12 +26,12 @@ namespace System::ComponentModel {
 class CORDL_TYPE PropertyChangedEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2e4b44c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2f49d4c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* sender, ::System::ComponentModel::PropertyChangedEventArgs* e);
 
   static inline ::System::ComponentModel::PropertyChangedEventHandler* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2e4b31c, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f49c1c, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:

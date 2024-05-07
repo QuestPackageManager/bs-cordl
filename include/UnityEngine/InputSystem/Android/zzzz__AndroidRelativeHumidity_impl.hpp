@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Android/AndroidRelativeHumidity.hpp"
 #include "UnityEngine/InputSystem/zzzz__HumiditySensor_impl.hpp"
 #include "UnityEngine/InputSystem/Android/zzzz__AndroidRelativeHumidity_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Android::AndroidRelativeHumidity._ctor
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Android::AndroidRelativeHumidity::*)()>(
     &::UnityEngine::InputSystem::Android::AndroidRelativeHumidity::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3019334;
+  constexpr static std::size_t addrs = 0x31550c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

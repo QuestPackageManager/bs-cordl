@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/SubContainerCreatorByNewGameObjectMethod.hpp"
 #include "Zenject/zzzz__SubContainerCreatorByNewGameObjectDynamicContext_impl.hpp"
 #include "Zenject/zzzz__SubContainerCreatorByNewGameObjectMethod_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -13,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SubContainerCreatorByNewGameObjectMethod::*)(
     ::Zenject::DiContainer*, ::Zenject::GameObjectCreationParameters*, ::System::Action_1<::Zenject::DiContainer*>*)>(&::Zenject::SubContainerCreatorByNewGameObjectMethod::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x345ae2c;
+  constexpr static std::size_t addrs = 0x365edf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SubContainerCreatorByNewGameObjectMethod::*)(
     ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*, ::Zenject::GameObjectContext*)>(&::Zenject::SubContainerCreatorByNewGameObjectMethod::AddInstallers)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x345ae68;
+  constexpr static std::size_t addrs = 0x365ee30;
 
   inline static ::MethodInfo const* methodInfo() {
 

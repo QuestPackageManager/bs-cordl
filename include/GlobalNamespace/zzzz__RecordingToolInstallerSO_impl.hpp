@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/RecordingToolInstallerSO.hpp"
 #include "Zenject/zzzz__ScriptableObjectInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__RecordingToolInstallerSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::RecordingToolInstallerSO.InstallBindings
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RecordingToolInstallerSO::*)()>(
     &::GlobalNamespace::RecordingToolInstallerSO::InstallBindings)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2599de8;
+  constexpr static std::size_t addrs = 0x2693064;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -21,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RecordingToolInstallerSO::*)()>(&::GlobalNamespace::RecordingToolInstallerSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2599dec;
+  constexpr static std::size_t addrs = 0x2693068;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolInstallerSO*>::get(), ".ctor",

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OVRSceneSampleController.hpp"
 #include "UnityEngine/zzzz__KeyCode_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRSceneSampleController_def.hpp"
@@ -11,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSceneSampleController::*)()>(&::GlobalNamespace::OVRSceneSampleController::Awake)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x2a93f04;
+  constexpr static std::size_t addrs = 0x2b8f7b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSceneSampleController*>::get(), "Awake",
@@ -24,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSceneSampleController::*)()>(&::GlobalNamespace::OVRSceneSampleController::Start)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x2a94098;
+  constexpr static std::size_t addrs = 0x2b8f948;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSceneSampleController*>::get(), "Start",
@@ -37,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSceneSampleController::*)()>(&::GlobalNamespace::OVRSceneSampleController::Update)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x2a94164;
+  constexpr static std::size_t addrs = 0x2b8fa14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSceneSampleController*>::get(), "Update",
@@ -51,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSceneSampleController::*)()>(
     &::GlobalNamespace::OVRSceneSampleController::UpdateVisionMode)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x2a942e8;
+  constexpr static std::size_t addrs = 0x2b8fb98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSceneSampleController*>::get(),
@@ -65,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSceneSampleController::*)()>(
     &::GlobalNamespace::OVRSceneSampleController::UpdateSpeedAndRotationScaleMultiplier)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x2a943a4;
+  constexpr static std::size_t addrs = 0x2b8fc54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -80,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSceneSampleController::*)()>(
     &::GlobalNamespace::OVRSceneSampleController::UpdateRecenterPose)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2a94238;
+  constexpr static std::size_t addrs = 0x2b8fae8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSceneSampleController*>::get(),
@@ -93,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSceneSampleController::*)()>(&::GlobalNamespace::OVRSceneSampleController::_ctor)> {
   constexpr static std::size_t size = 0x106c;
-  constexpr static std::size_t addrs = 0x2a94468;
+  constexpr static std::size_t addrs = 0x2b8fd18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSceneSampleController*>::get(), ".ctor",

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Comparer.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,10 +31,10 @@ public:
 
   static inline ::System::Net::Comparer* New_ctor();
 
-  /// @brief Method System.Collections.IComparer.Compare, addr 0x2ee2474, size 0xdc, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IComparer.Compare, addr 0x2fe4d74, size 0xdc, virtual true, abstract: false, final true
   inline int32_t System_Collections_IComparer_Compare(::System::Object* ol, ::System::Object* _cordl_or);
 
-  /// @brief Method .ctor, addr 0x2ee1460, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fe3d60, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Collections::IComparer"

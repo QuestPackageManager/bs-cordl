@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/BootConfigData.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__BootConfigData_def.hpp"
@@ -7,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::BootConfigData* (*)(void*)>(&::UnityEngine::BootConfigData::WrapBootConfigData)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x32043b0;
+  constexpr static std::size_t addrs = 0x340b0e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -21,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::BootConfigData::*)(void*)>(&::UnityEngine::BootConfigData::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3204410;
+  constexpr static std::size_t addrs = 0x340b144;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

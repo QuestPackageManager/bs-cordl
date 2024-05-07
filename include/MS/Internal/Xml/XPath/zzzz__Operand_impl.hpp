@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "MS/Internal/Xml/XPath/Operand.hpp"
 #include "MS/Internal/Xml/XPath/zzzz__AstNode_impl.hpp"
 #include "System/Xml/XPath/zzzz__XPathResultType_impl.hpp"
 #include "MS/Internal/Xml/XPath/zzzz__Operand_def.hpp"
@@ -10,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::MS::Internal::Xml::XPath::Operand::*)(::StringW)>(&::MS::Internal::Xml::XPath::Operand::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x2d61cf8;
+  constexpr static std::size_t addrs = 0x2e5e5f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::MS::Internal::Xml::XPath::Operand::*)(double_t)>(&::MS::Internal::Xml::XPath::Operand::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x2d61d28;
+  constexpr static std::size_t addrs = 0x2e5e628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::MS::Internal::Xml::XPath::__AstNode__AstType (::MS::Internal::Xml::XPath::Operand::*)()>(
     &::MS::Internal::Xml::XPath::Operand::get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2d61d98;
+  constexpr static std::size_t addrs = 0x2e5e698;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -54,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XPath::XPathResultType (::MS::Internal::Xml::XPath::Operand::*)()>(
     &::MS::Internal::Xml::XPath::Operand::get_ReturnType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2d61da0;
+  constexpr static std::size_t addrs = 0x2e5e6a0;
 
   inline static ::MethodInfo const* methodInfo() {
 

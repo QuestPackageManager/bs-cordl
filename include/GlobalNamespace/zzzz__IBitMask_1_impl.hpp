@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IBitMask_1.hpp"
 #include "GlobalNamespace/zzzz__IBitMask_1_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 /// @brief Convert operator to "::System::IEquatable_1<T>"

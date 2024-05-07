@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Collections/DictionaryEntry.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,13 +26,13 @@ public:
 
   __declspec(property(get = get_Value))::System::Object* Value;
 
-  /// @brief Method .ctor, addr 0x2801214, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2900934, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* key, ::System::Object* value);
 
-  /// @brief Method get_Key, addr 0x280121c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Key, addr 0x290093c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Key();
 
-  /// @brief Method get_Value, addr 0x2801224, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x2900944, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Value();
 
   // Ctor Parameters []

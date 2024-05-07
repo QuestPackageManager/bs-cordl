@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ScaleAnimator.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,36 +56,36 @@ public:
   /// @brief Field _tweeningManager, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager))::UnityW<::Tweening::TimeTweeningManager> _tweeningManager;
 
-  /// @brief Method Animate, addr 0x261efe8, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method Animate, addr 0x271eebc, size 0xfc, virtual false, abstract: false, final false
   inline void Animate(bool show, float_t duration, ::GlobalNamespace::EaseType easeType, float_t delay);
 
-  /// @brief Method HideInstant, addr 0x261eed0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method HideInstant, addr 0x271eda4, size 0xa8, virtual false, abstract: false, final false
   inline void HideInstant();
 
-  /// @brief Method InitIfNeeded, addr 0x261ec04, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method InitIfNeeded, addr 0x271ead8, size 0x254, virtual false, abstract: false, final false
   inline void InitIfNeeded();
 
   static inline ::GlobalNamespace::ScaleAnimator* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x261eb7c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x271ea50, size 0x88, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetPositionAndRotation, addr 0x261ee58, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SetPositionAndRotation, addr 0x271ed2c, size 0x78, virtual false, abstract: false, final false
   inline void SetPositionAndRotation(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method ShowInstant, addr 0x261ef78, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ShowInstant, addr 0x271ee4c, size 0x70, virtual false, abstract: false, final false
   inline void ShowInstant();
 
-  /// @brief Method <InitIfNeeded>b__7_0, addr 0x261f0f4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <InitIfNeeded>b__7_0, addr 0x271efc8, size 0x24, virtual false, abstract: false, final false
   inline void _InitIfNeeded_b__7_0(float_t val);
 
-  /// @brief Method <InitIfNeeded>b__7_1, addr 0x261f144, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <InitIfNeeded>b__7_1, addr 0x271f018, size 0x24, virtual false, abstract: false, final false
   inline void _InitIfNeeded_b__7_1(float_t val);
 
-  /// @brief Method <InitIfNeeded>b__7_2, addr 0x261f118, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <InitIfNeeded>b__7_2, addr 0x271efec, size 0x2c, virtual false, abstract: false, final false
   inline void _InitIfNeeded_b__7_2();
 
-  /// @brief Method <InitIfNeeded>b__7_3, addr 0x261f168, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <InitIfNeeded>b__7_3, addr 0x271f03c, size 0x2c, virtual false, abstract: false, final false
   inline void _InitIfNeeded_b__7_3();
 
   constexpr float_t const& __cordl_internal_get__displayedScale() const;
@@ -123,7 +124,7 @@ public:
 
   constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x261f0e4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x271efb8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

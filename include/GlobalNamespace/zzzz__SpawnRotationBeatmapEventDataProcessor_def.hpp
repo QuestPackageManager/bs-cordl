@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SpawnRotationBeatmapEventDataProcessor.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,13 +30,13 @@ public:
   // Declarations
   static inline ::GlobalNamespace::SpawnRotationBeatmapEventDataProcessor* New_ctor();
 
-  /// @brief Method ProcessBeforeDeleteEventDataInternal, addr 0xf48ad0, size 0x240, virtual true, abstract: false, final false
+  /// @brief Method ProcessBeforeDeleteEventDataInternal, addr 0x1037644, size 0x240, virtual true, abstract: false, final false
   inline void ProcessBeforeDeleteEventDataInternal(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* nodeToDelete);
 
-  /// @brief Method ProcessInsertedEventDataInternal, addr 0xf488e0, size 0x1f0, virtual true, abstract: false, final false
+  /// @brief Method ProcessInsertedEventDataInternal, addr 0x1037454, size 0x1f0, virtual true, abstract: false, final false
   inline void ProcessInsertedEventDataInternal(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* insertedNode);
 
-  /// @brief Method .ctor, addr 0xf48d10, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1037884, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

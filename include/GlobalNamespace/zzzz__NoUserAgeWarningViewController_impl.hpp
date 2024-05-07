@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/NoUserAgeWarningViewController.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__NoUserAgeWarningViewController_def.hpp"
 #include "System/zzzz__Action_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoUserAgeWarningViewController::*)(::System::Action*)>(
     &::GlobalNamespace::NoUserAgeWarningViewController::add_didFinishEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2561c30;
+  constexpr static std::size_t addrs = 0x26574ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoUserAgeWarningViewController::*)(::System::Action*)>(
     &::GlobalNamespace::NoUserAgeWarningViewController::remove_didFinishEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2561ccc;
+  constexpr static std::size_t addrs = 0x2657548;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoUserAgeWarningViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::NoUserAgeWarningViewController::DidActivate)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x2561d68;
+  constexpr static std::size_t addrs = 0x26575e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoUserAgeWarningViewController::*)(bool, bool)>(
     &::GlobalNamespace::NoUserAgeWarningViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x2561e10;
+  constexpr static std::size_t addrs = 0x265768c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -71,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoUserAgeWarningViewController::*)()>(
     &::GlobalNamespace::NoUserAgeWarningViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2561e40;
+  constexpr static std::size_t addrs = 0x26576bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoUserAgeWarningViewController*>::get(),
@@ -85,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoUserAgeWarningViewController::*)()>(
     &::GlobalNamespace::NoUserAgeWarningViewController::_DidActivate_b__4_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2561e48;
+  constexpr static std::size_t addrs = 0x26576c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoUserAgeWarningViewController*>::get(),

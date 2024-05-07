@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BGLib/DotnetExtension/CommandLine/CommandLineParseException.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "BGLib/DotnetExtension/CommandLine/zzzz__CommandLineParseException_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::DotnetExtension::CommandLine::CommandLineParseException::*)(::StringW, ::System::Exception*)>(
     &::BGLib::DotnetExtension::CommandLine::CommandLineParseException::_ctor)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0xf83a50;
+  constexpr static std::size_t addrs = 0x10759c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

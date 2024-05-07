@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BloomPrePassBackgroundColorsGradientTintColorWithLightIds.hpp"
 #include "GlobalNamespace/zzzz__LightWithIdMonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassBackgroundColorsGradientTintColorWithLightIds_def.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassBackgroundColorsGradient_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundColorsGradientTintColorWithLightIds::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::BloomPrePassBackgroundColorsGradientTintColorWithLightIds::ColorWasSet)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x23f9aac;
+  constexpr static std::size_t addrs = 0x24f169c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundColorsGradientTintColorWithLightIds::*)()>(
     &::GlobalNamespace::BloomPrePassBackgroundColorsGradientTintColorWithLightIds::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x23f9acc;
+  constexpr static std::size_t addrs = 0x24f16bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

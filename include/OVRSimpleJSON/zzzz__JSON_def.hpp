@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVRSimpleJSON/JSON.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,7 +23,7 @@ namespace OVRSimpleJSON {
 class CORDL_TYPE JSON : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Parse, addr 0x2aa7814, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x2ba30c4, size 0x4, virtual false, abstract: false, final false
   static inline ::OVRSimpleJSON::JSONNode* Parse(::StringW aJSON);
 
 protected:

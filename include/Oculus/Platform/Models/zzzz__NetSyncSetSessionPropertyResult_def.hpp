@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/Models/NetSyncSetSessionPropertyResult.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,7 +34,7 @@ public:
 
   constexpr void __cordl_internal_set_Session(::Oculus::Platform::Models::NetSyncSession* value);
 
-  /// @brief Method .ctor, addr 0x29df254, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2addb04, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Rendering/ScriptableRenderContext.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ShaderTagId_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ScriptableRenderContext_def.hpp"
@@ -13,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ScriptableRenderContext::*)(void*)>(
     &::UnityEngine::Rendering::ScriptableRenderContext::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x322449c;
+  constexpr static std::size_t addrs = 0x342b1d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -28,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ScriptableRenderContext::*)(
     ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Camera>>*)>(&::UnityEngine::Rendering::ScriptableRenderContext::GetCameras)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x32244a4;
+  constexpr static std::size_t addrs = 0x342b1e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::ScriptableRenderContext::*)(::UnityEngine::Rendering::ScriptableRenderContext)>(
     &::UnityEngine::Rendering::ScriptableRenderContext::Equals)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3225298;
+  constexpr static std::size_t addrs = 0x342bfd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -58,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::ScriptableRenderContext::*)(::System::Object*)>(
     &::UnityEngine::Rendering::ScriptableRenderContext::Equals)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3225308;
+  constexpr static std::size_t addrs = 0x342c044;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -74,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::ScriptableRenderContext::*)()>(
     &::UnityEngine::Rendering::ScriptableRenderContext::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3225380;
+  constexpr static std::size_t addrs = 0x342c0bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -90,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ScriptableRenderContext::*)(::System::Type*, ::System::Object*)>(
     &::UnityEngine::Rendering::ScriptableRenderContext::GetCameras_Internal)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x322520c;
+  constexpr static std::size_t addrs = 0x342bf48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ScriptableRenderContext>::get(),
@@ -106,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::Rendering::ScriptableRenderContext>, ::System::Type*, ::System::Object*)>(
     &::UnityEngine::Rendering::ScriptableRenderContext::GetCameras_Internal_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3225388;
+  constexpr static std::size_t addrs = 0x342c0c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

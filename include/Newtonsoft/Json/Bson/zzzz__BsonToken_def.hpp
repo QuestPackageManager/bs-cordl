@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Bson/BsonToken.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,22 +49,22 @@ public:
 
   constexpr void __cordl_internal_set__Parent_k__BackingField(::Newtonsoft::Json::Bson::BsonToken* value);
 
-  /// @brief Method .ctor, addr 0x299decc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a9b77c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_CalculatedSize, addr 0x299debc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CalculatedSize, addr 0x2a9b76c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_CalculatedSize();
 
-  /// @brief Method get_Parent, addr 0x299deac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parent, addr 0x2a9b75c, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Bson::BsonToken* get_Parent();
 
   /// @brief Method get_Type, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Newtonsoft::Json::Bson::BsonType get_Type();
 
-  /// @brief Method set_CalculatedSize, addr 0x299dec4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CalculatedSize, addr 0x2a9b774, size 0x8, virtual false, abstract: false, final false
   inline void set_CalculatedSize(int32_t value);
 
-  /// @brief Method set_Parent, addr 0x299deb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Parent, addr 0x2a9b764, size 0x8, virtual false, abstract: false, final false
   inline void set_Parent(::Newtonsoft::Json::Bson::BsonToken* value);
 
 protected:

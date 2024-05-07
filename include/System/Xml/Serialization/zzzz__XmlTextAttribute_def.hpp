@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Serialization/XmlTextAttribute.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,7 +36,7 @@ public:
   /// @brief Field type, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::System::Type* type;
 
-  /// @brief Method AddKeyHash, addr 0x2dedcb8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method AddKeyHash, addr 0x2eec5b8, size 0x90, virtual false, abstract: false, final false
   inline void AddKeyHash(::System::Text::StringBuilder* sb);
 
   static inline ::System::Xml::Serialization::XmlTextAttribute* New_ctor();
@@ -52,13 +53,13 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x2dedc54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2eec554, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_DataType, addr 0x2dedc5c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_DataType, addr 0x2eec55c, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_DataType();
 
-  /// @brief Method get_Type, addr 0x2dedcb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x2eec5b0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_Type();
 
 protected:

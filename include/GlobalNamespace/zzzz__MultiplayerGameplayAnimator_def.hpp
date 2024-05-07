@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MultiplayerGameplayAnimator.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -78,18 +79,18 @@ public:
   /// @brief Method AnimateNewLeaderSelected, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void AnimateNewLeaderSelected(bool isLeading);
 
-  /// @brief Method HandleNewLeaderWasSelected, addr 0x260d5c0, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method HandleNewLeaderWasSelected, addr 0x270d44c, size 0xe8, virtual false, abstract: false, final false
   inline void HandleNewLeaderWasSelected(::StringW userId);
 
-  /// @brief Method HandleStateChanged, addr 0x260d3ac, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method HandleStateChanged, addr 0x270d238, size 0x164, virtual true, abstract: false, final false
   inline void HandleStateChanged(::GlobalNamespace::__MultiplayerController__State state);
 
   static inline ::GlobalNamespace::MultiplayerGameplayAnimator* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x260d170, size 0x18c, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x270cffc, size 0x18c, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x260d0dc, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x270cf68, size 0x94, virtual true, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::ColorSO> const& __cordl_internal_get__activeLightsColor() const;
@@ -152,7 +153,7 @@ public:
 
   constexpr void __cordl_internal_set_tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x260d6a8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x270d534, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/RootResolveMethods.hpp"
 #include "Zenject/zzzz__RootResolveMethods_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::Zenject::RootResolveMethods::RootResolveMethods(int32_t value__) noexcept {

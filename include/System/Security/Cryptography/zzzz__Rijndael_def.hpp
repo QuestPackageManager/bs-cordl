@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Cryptography/Rijndael.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,7 +33,7 @@ public:
 
   static inline ::System::Security::Cryptography::Rijndael* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26e3ef0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27e12ec, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> getStaticF_s_legalBlockSizes();

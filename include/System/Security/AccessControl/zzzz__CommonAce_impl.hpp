@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/AccessControl/CommonAce.hpp"
 #include "System/Security/AccessControl/zzzz__QualifiedAce_impl.hpp"
 #include "System/Security/AccessControl/zzzz__CommonAce_def.hpp"
 #include "System/Security/AccessControl/zzzz__AceFlags_def.hpp"
@@ -12,7 +13,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Security::AccessControl::AceFlags, ::System::Security::AccessControl::AceQualifier, int32_t, ::System::Security::Principal::SecurityIdentifier*, bool,
     ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::System::Security::AccessControl::CommonAce::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x2704338;
+  constexpr static std::size_t addrs = 0x2801734;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -31,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::AccessControl::CommonAce::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::System::Security::AccessControl::CommonAce::_ctor)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x27044d0;
+  constexpr static std::size_t addrs = 0x28018cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Security::AccessControl::CommonAce::*)()>(
     &::System::Security::AccessControl::CommonAce::get_BinaryLength)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2704820;
+  constexpr static std::size_t addrs = 0x2801c1c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -62,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::AccessControl::CommonAce::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::System::Security::AccessControl::CommonAce::GetBinaryForm)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x2704870;
+  constexpr static std::size_t addrs = 0x2801c6c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -77,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::AccessControl::AceType (*)(::System::Security::AccessControl::AceQualifier, bool)>(
     &::System::Security::AccessControl::CommonAce::ConvertType)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x2704398;
+  constexpr static std::size_t addrs = 0x2801794;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

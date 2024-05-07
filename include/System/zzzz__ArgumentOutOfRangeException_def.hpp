@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ArgumentOutOfRangeException.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,7 +34,7 @@ public:
   /// @brief Field _actualValue, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get__actualValue, put = __cordl_internal_set__actualValue))::System::Object* _actualValue;
 
-  /// @brief Method GetObjectData, addr 0x279a8e8, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x289a008, size 0xd8, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::ArgumentOutOfRangeException* New_ctor();
@@ -52,22 +53,22 @@ public:
 
   constexpr void __cordl_internal_set__actualValue(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x279a748, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2899e68, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x279a810, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2899f30, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x279a7a4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2899ec4, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW paramName);
 
-  /// @brief Method .ctor, addr 0x27973e8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2896b08, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW paramName, ::System::Object* actualValue, ::StringW message);
 
-  /// @brief Method .ctor, addr 0x27962c8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28959e8, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::StringW paramName, ::StringW message);
 
-  /// @brief Method get_Message, addr 0x279a9c0, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x289a0e0, size 0xac, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
 protected:

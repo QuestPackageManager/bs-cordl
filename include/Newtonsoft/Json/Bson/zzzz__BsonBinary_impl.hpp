@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Bson/BsonBinary.hpp"
 #include "Newtonsoft/Json/Bson/zzzz__BsonBinaryType_impl.hpp"
 #include "Newtonsoft/Json/Bson/zzzz__BsonValue_impl.hpp"
 #include "Newtonsoft/Json/Bson/zzzz__BsonBinary_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Bson::BsonBinaryType (::Newtonsoft::Json::Bson::BsonBinary::*)()>(
     &::Newtonsoft::Json::Bson::BsonBinary::get_BinaryType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x299e428;
+  constexpr static std::size_t addrs = 0x2a9bcd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Bson::BsonBinary*>::get(), "get_BinaryType",
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Bson::BsonBinary::*)(::Newtonsoft::Json::Bson::BsonBinaryType)>(
     &::Newtonsoft::Json::Bson::BsonBinary::set_BinaryType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x299e430;
+  constexpr static std::size_t addrs = 0x2a9bce0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::Newtonsoft::Json::Bson::BsonBinary::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Newtonsoft::Json::Bson::BsonBinaryType)>(&::Newtonsoft::Json::Bson::BsonBinary::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x299e438;
+  constexpr static std::size_t addrs = 0x2a9bce8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

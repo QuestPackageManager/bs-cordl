@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/Constraint.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Data/zzzz__Constraint_def.hpp"
 #include "System/Data/zzzz__ConstraintCollection_def.hpp"
@@ -13,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Data::Constraint::*)()>(&::System::Data::Constraint::get_ConstraintName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b75d68;
+  constexpr static std::size_t addrs = 0x2c73668;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Constraint::*)(::StringW)>(&::System::Data::Constraint::set_ConstraintName)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x2b75d70;
+  constexpr static std::size_t addrs = 0x2c73670;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Data::Constraint::*)()>(&::System::Data::Constraint::get_SchemaName)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2b7620c;
+  constexpr static std::size_t addrs = 0x2c73b0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Constraint*>::get(), "get_SchemaName",
@@ -54,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Constraint::*)(::StringW)>(&::System::Data::Constraint::set_SchemaName)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x2b76244;
+  constexpr static std::size_t addrs = 0x2c73b44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -68,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::Constraint::*)()>(&::System::Data::Constraint::get_InCollection)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b76274;
+  constexpr static std::size_t addrs = 0x2c73b74;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -82,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Constraint::*)(bool)>(&::System::Data::Constraint::set_InCollection)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2b7627c;
+  constexpr static std::size_t addrs = 0x2c73b7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -111,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::PropertyCollection* (::System::Data::Constraint::*)()>(
     &::System::Data::Constraint::get_ExtendedProperties)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x2b762c0;
+  constexpr static std::size_t addrs = 0x2c73bc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Constraint*>::get(), "get_ExtendedProperties",
@@ -182,7 +183,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Constraint::*)()>(&::System::Data::Constraint::CheckConstraint)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x2b7632c;
+  constexpr static std::size_t addrs = 0x2c73c2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Constraint*>::get(), "CheckConstraint",
@@ -254,7 +255,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Constraint::*)()>(&::System::Data::Constraint::CheckStateForProperty)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x2b763c8;
+  constexpr static std::size_t addrs = 0x2c73cc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Constraint*>::get(), "CheckStateForProperty",
@@ -267,7 +268,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataSet* (::System::Data::Constraint::*)()>(&::System::Data::Constraint::get__DataSet)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b76508;
+  constexpr static std::size_t addrs = 0x2c73e08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -295,7 +296,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Data::Constraint::*)()>(&::System::Data::Constraint::ToString)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2b76510;
+  constexpr static std::size_t addrs = 0x2c73e10;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -309,7 +310,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Constraint::*)()>(&::System::Data::Constraint::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x2b7651c;
+  constexpr static std::size_t addrs = 0x2c73e1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::Constraint*>::get(), ".ctor",

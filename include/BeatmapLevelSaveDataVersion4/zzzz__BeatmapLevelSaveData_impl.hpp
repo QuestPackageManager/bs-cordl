@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatmapLevelSaveDataVersion4/BeatmapLevelSaveData.hpp"
 #include "BeatmapLevelSaveDataVersion4/zzzz__BeatmapLevelSaveData_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatmapLevelSaveDataVersion4/zzzz__BeatmapLevelSaveData_def.hpp"
@@ -34,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme::*)()>(
     &::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__ColorScheme::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1402138;
+  constexpr static std::size_t addrs = 0x14f46ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -165,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap::*)()>(
     &::BeatmapLevelSaveDataVersion4::__BeatmapLevelSaveData__DifficultyBeatmap::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1402140;
+  constexpr static std::size_t addrs = 0x14f46f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -301,7 +302,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapLevelSaveDataVersion4::BeatmapLevelSaveData::*)()>(
     &::BeatmapLevelSaveDataVersion4::BeatmapLevelSaveData::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x14020e8;
+  constexpr static std::size_t addrs = 0x14f469c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapLevelSaveDataVersion4::BeatmapLevelSaveData*>::get(),

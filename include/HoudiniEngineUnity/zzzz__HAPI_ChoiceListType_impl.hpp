@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HAPI_ChoiceListType.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_ChoiceListType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::HoudiniEngineUnity::HAPI_ChoiceListType::HAPI_ChoiceListType(int32_t value__) noexcept {

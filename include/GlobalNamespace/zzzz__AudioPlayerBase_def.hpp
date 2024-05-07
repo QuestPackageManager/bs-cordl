@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/AudioPlayerBase.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,7 +36,7 @@ public:
   /// @brief Method UnPauseCurrentChannel, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void UnPauseCurrentChannel();
 
-  /// @brief Method .ctor, addr 0x250e4d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2605b44, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_activeAudioClip, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

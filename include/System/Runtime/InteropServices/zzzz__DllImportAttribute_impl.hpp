@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/InteropServices/DllImportAttribute.hpp"
 #include "System/Runtime/InteropServices/zzzz__CallingConvention_impl.hpp"
 #include "System/Runtime/InteropServices/zzzz__CharSet_impl.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
@@ -13,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Attribute* (*)(::System::Reflection::RuntimeMethodInfo*)>(
     &::System::Runtime::InteropServices::DllImportAttribute::GetCustomAttribute)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x2758a70;
+  constexpr static std::size_t addrs = 0x2857e74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Reflection::RuntimeMethodInfo*)>(
     &::System::Runtime::InteropServices::DllImportAttribute::IsDefined)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2758cb4;
+  constexpr static std::size_t addrs = 0x28580b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,7 +45,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::StringW, ::StringW, ::System::Runtime::InteropServices::CharSet, bool, bool, bool, ::System::Runtime::InteropServices::CallingConvention, bool, bool)>(
     &::System::Runtime::InteropServices::DllImportAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x2758c28;
+  constexpr static std::size_t addrs = 0x285802c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -64,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::InteropServices::DllImportAttribute::*)(::StringW)>(
     &::System::Runtime::InteropServices::DllImportAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2758cdc;
+  constexpr static std::size_t addrs = 0x28580e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::InteropServices::DllImportAttribute::*)()>(
     &::System::Runtime::InteropServices::DllImportAttribute::get_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2758d04;
+  constexpr static std::size_t addrs = 0x2858108;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::DllImportAttribute*>::get(),

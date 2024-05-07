@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/Collections/NativeArrayDispose.hpp"
 #include "Unity/Collections/zzzz__Allocator_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArrayDispose_def.hpp"
 #include "Unity/Collections/zzzz__Allocator_def.hpp"
@@ -7,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::NativeArrayDispose::*)()>(&::Unity::Collections::NativeArrayDispose::Dispose)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x31cec74;
+  constexpr static std::size_t addrs = 0x33d596c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::NativeArrayDispose>::get(), "Dispose",

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "ENet/SslMode.hpp"
 #include "ENet/zzzz__SslMode_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::ENet::SslMode::SslMode(int32_t value__) noexcept {

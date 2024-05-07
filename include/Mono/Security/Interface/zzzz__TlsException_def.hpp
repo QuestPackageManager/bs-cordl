@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Security/Interface/TlsException.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,10 +39,10 @@ public:
 
   constexpr void __cordl_internal_set_alert(::Mono::Security::Interface::Alert* value);
 
-  /// @brief Method .ctor, addr 0x2683ffc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27813f8, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::Interface::Alert* alert, ::StringW message);
 
-  /// @brief Method .ctor, addr 0x2684070, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x278146c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::Interface::AlertDescription description, ::StringW message);
 
 protected:

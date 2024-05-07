@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/MeshGenerationContext.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -100,7 +101,7 @@ public:
 
   constexpr void __cordl_internal_set_painter(::UnityEngine::UIElements::IStylePainter* value);
 
-  /// @brief Method .ctor, addr 0x33cb4f0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35d122c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::IStylePainter* painter);
 
 protected:

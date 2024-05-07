@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/ECPointFormat.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,7 +22,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Tls::ECPointFormat* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10fd470, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11f0b94, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

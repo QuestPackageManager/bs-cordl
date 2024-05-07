@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/IPv6AddressHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__IPv6AddressHelper_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ValueTuple_2<int32_t, int32_t> (*)(::System::ReadOnlySpan_1<uint16_t>)>(
     &::System::IPv6AddressHelper::FindCompressionRange)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x2e79b60;
+  constexpr static std::size_t addrs = 0x2f79460;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::ReadOnlySpan_1<uint16_t>)>(&::System::IPv6AddressHelper::ShouldHaveIpv4Embedded)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x2e79c40;
+  constexpr static std::size_t addrs = 0x2f79540;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::cordl_internals::Ptr<char16_t>, int32_t, ByRef<int32_t>)>(&::System::IPv6AddressHelper::IsValidStrict)> {
   constexpr static std::size_t size = 0x344;
-  constexpr static std::size_t addrs = 0x2e79d10;
+  constexpr static std::size_t addrs = 0x2f79610;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -53,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::ReadOnlySpan_1<char16_t>, ::cordl_internals::Ptr<uint16_t>, int32_t, ByRef<::StringW>)>(
     &::System::IPv6AddressHelper::Parse)> {
   constexpr static std::size_t size = 0x50c;
-  constexpr static std::size_t addrs = 0x2e7a054;
+  constexpr static std::size_t addrs = 0x2f79954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -69,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, int32_t, ByRef<bool>, ByRef<::StringW>)>(&::System::IPv6AddressHelper::ParseCanonicalName)> {
   constexpr static std::size_t size = 0x63c;
-  constexpr static std::size_t addrs = 0x2e7a560;
+  constexpr static std::size_t addrs = 0x2f79e60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::ReadOnlySpan_1<uint16_t>)>(&::System::IPv6AddressHelper::IsLoopback)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x2e7ab9c;
+  constexpr static std::size_t addrs = 0x2f7a49c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -100,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::cordl_internals::Ptr<char16_t>, int32_t, ByRef<int32_t>, bool)>(
     &::System::IPv6AddressHelper::InternalIsValid)> {
   constexpr static std::size_t size = 0x2dc;
-  constexpr static std::size_t addrs = 0x2e7ac7c;
+  constexpr static std::size_t addrs = 0x2f7a57c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -116,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::cordl_internals::Ptr<char16_t>, int32_t, ByRef<int32_t>)>(&::System::IPv6AddressHelper::IsValid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2e7af58;
+  constexpr static std::size_t addrs = 0x2f7a858;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

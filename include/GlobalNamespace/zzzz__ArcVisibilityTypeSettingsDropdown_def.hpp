@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ArcVisibilityTypeSettingsDropdown.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,12 +30,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE ArcVisibilityTypeSettingsDropdown : public ::GlobalNamespace::ValueDropdownController_1<::GlobalNamespace::ArcVisibilityType> {
 public:
   // Declarations
-  /// @brief Method GetNamedValues, addr 0x253afa8, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method GetNamedValues, addr 0x263196c, size 0x164, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::ArcVisibilityType, ::StringW>*>* GetNamedValues();
 
   static inline ::GlobalNamespace::ArcVisibilityTypeSettingsDropdown* New_ctor();
 
-  /// @brief Method .ctor, addr 0x253b10c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2631ad0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Http/StringContent.hpp"
 #include "System/Net/Http/zzzz__ByteArrayContent_impl.hpp"
 #include "System/Net/Http/zzzz__StringContent_def.hpp"
 #include "System/Text/zzzz__Encoding_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::StringContent::*)(::StringW, ::System::Text::Encoding*, ::StringW)>(
     &::System::Net::Http::StringContent::_ctor)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x2c6e028;
+  constexpr static std::size_t addrs = 0x2d6b928;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::StringW, ::System::Text::Encoding*)>(
     &::System::Net::Http::StringContent::GetByteArray)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2c6e130;
+  constexpr static std::size_t addrs = 0x2d6ba30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

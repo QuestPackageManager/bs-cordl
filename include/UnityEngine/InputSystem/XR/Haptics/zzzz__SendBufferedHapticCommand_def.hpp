@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/XR/Haptics/SendBufferedHapticCommand.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -93,7 +94,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*();
 
-  /// @brief Method Create, addr 0x2ffcf84, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x3139d10, size 0x164, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::XR::Haptics::SendBufferedHapticCommand Create(::ArrayW<uint8_t, ::Array<uint8_t>*> rumbleBuffer);
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand const& __cordl_internal_get_baseCommand() const;
@@ -120,10 +121,10 @@ public:
 
   constexpr void __cordl_internal_set_channel(int32_t value);
 
-  /// @brief Method get_Type, addr 0x2ffd264, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x3139ff0, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
 
-  /// @brief Method get_typeStatic, addr 0x2ffd294, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x313a020, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/TMP_FontWeightPair.hpp"
 #include "TMPro/zzzz__TMP_FontWeightPair_def.hpp"
 #include "TMPro/zzzz__TMP_FontAsset_def.hpp"
 // Ctor Parameters [CppParam { name: "regularTypeface", ty: "::UnityW<::TMPro::TMP_FontAsset>", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "italicTypeface", ty:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MultiplayerLevelLoader.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -157,18 +158,18 @@ public:
   /// @brief Convert operator to "::Zenject::ITickable"
   constexpr operator ::Zenject::ITickable*() noexcept;
 
-  /// @brief Method ClearLoading, addr 0x2538394, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method ClearLoading, addr 0x262ed48, size 0x34, virtual false, abstract: false, final false
   inline void ClearLoading();
 
-  /// @brief Method LoadLevel, addr 0x2538254, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method LoadLevel, addr 0x262ec08, size 0x138, virtual false, abstract: false, final false
   inline void LoadLevel(::GlobalNamespace::ILevelGameplaySetupData* gameplaySetupData, int64_t initialStartTime);
 
   static inline ::GlobalNamespace::MultiplayerLevelLoader* New_ctor();
 
-  /// @brief Method SetNewStartTime, addr 0x253838c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetNewStartTime, addr 0x262ed40, size 0x8, virtual false, abstract: false, final false
   inline void SetNewStartTime(int64_t newStartTime);
 
-  /// @brief Method Tick, addr 0x25383c8, size 0x1f4, virtual true, abstract: false, final true
+  /// @brief Method Tick, addr 0x262ed7c, size 0x1f4, virtual true, abstract: false, final true
   inline void Tick();
 
   constexpr ::GlobalNamespace::IBeatmapLevelData*& __cordl_internal_get__beatmapLevelData();
@@ -238,22 +239,22 @@ public:
 
   constexpr void __cordl_internal_set_stillDownloadingSongEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x25385bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x262ef70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_countdownFinishedEvent, addr 0x25380f4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_countdownFinishedEvent, addr 0x262eaa8, size 0xb0, virtual false, abstract: false, final false
   inline void add_countdownFinishedEvent(::System::Action_2<::GlobalNamespace::ILevelGameplaySetupData*, ::GlobalNamespace::IBeatmapLevelData*>* value);
 
-  /// @brief Method add_stillDownloadingSongEvent, addr 0x2537fbc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_stillDownloadingSongEvent, addr 0x262e970, size 0x9c, virtual false, abstract: false, final false
   inline void add_stillDownloadingSongEvent(::System::Action* value);
 
   /// @brief Convert to "::Zenject::ITickable"
   constexpr ::Zenject::ITickable* i___Zenject__ITickable() noexcept;
 
-  /// @brief Method remove_countdownFinishedEvent, addr 0x25381a4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_countdownFinishedEvent, addr 0x262eb58, size 0xb0, virtual false, abstract: false, final false
   inline void remove_countdownFinishedEvent(::System::Action_2<::GlobalNamespace::ILevelGameplaySetupData*, ::GlobalNamespace::IBeatmapLevelData*>* value);
 
-  /// @brief Method remove_stillDownloadingSongEvent, addr 0x2538058, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_stillDownloadingSongEvent, addr 0x262ea0c, size 0x9c, virtual false, abstract: false, final false
   inline void remove_stillDownloadingSongEvent(::System::Action* value);
 
 protected:

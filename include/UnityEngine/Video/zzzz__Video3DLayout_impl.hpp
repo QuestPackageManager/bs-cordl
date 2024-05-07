@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Video/Video3DLayout.hpp"
 #include "UnityEngine/Video/zzzz__Video3DLayout_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Video::Video3DLayout::Video3DLayout(int32_t value__) noexcept {

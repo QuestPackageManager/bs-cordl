@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/AndroidJavaException.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "UnityEngine/zzzz__AndroidJavaException_def.hpp"
 //  Writing Method size for method: ::UnityEngine::AndroidJavaException._ctor
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AndroidJavaException::*)(::StringW, ::StringW)>(&::UnityEngine::AndroidJavaException::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x31ac408;
+  constexpr static std::size_t addrs = 0x33b1e90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -20,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::AndroidJavaException::*)()>(&::UnityEngine::AndroidJavaException::get_StackTrace)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x31b20ec;
+  constexpr static std::size_t addrs = 0x33b7b74;
 
   inline static ::MethodInfo const* methodInfo() {
 

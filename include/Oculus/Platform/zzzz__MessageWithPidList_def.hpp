@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/MessageWithPidList.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,15 +23,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithPidList : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::PidList*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x29cbd90, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x2ac9640, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::PidList* GetDataFromMessage(void* c_message);
 
-  /// @brief Method GetPidList, addr 0x29cbd54, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetPidList, addr 0x2ac9604, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::PidList* GetPidList();
 
   static inline ::Oculus::Platform::MessageWithPidList* New_ctor(void* c_message);
 
-  /// @brief Method .ctor, addr 0x29c7f0c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ac57bc, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(void* c_message);
 
 protected:

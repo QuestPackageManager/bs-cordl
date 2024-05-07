@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Timeline/TimelineHelpURLAttribute.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,7 +24,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Timeline::TimelineHelpURLAttribute* New_ctor(::System::Type* type);
 
-  /// @brief Method .ctor, addr 0x319038c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3396e14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
 protected:

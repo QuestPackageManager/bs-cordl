@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UI/Clipping.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,7 +29,7 @@ namespace UnityEngine::UI {
 class CORDL_TYPE Clipping : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FindCullAndClipWorldRect, addr 0x32a14b8, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method FindCullAndClipWorldRect, addr 0x34a81f4, size 0x260, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rect FindCullAndClipWorldRect(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::RectMask2D>>* rectMaskParents, ByRef<bool> validRect);
 
 protected:

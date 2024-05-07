@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Dynamic/InvokeBinder.hpp"
 #include "System/Dynamic/zzzz__DynamicMetaObjectBinder_impl.hpp"
 #include "System/Dynamic/zzzz__InvokeBinder_def.hpp"
 #include "System/Dynamic/zzzz__DynamicMetaObject_def.hpp"
@@ -9,7 +10,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Dynamic::InvokeBinder::*)(::System::Dynamic::DynamicMetaObject*, ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*>)>(
     &::System::Dynamic::InvokeBinder::FallbackInvoke)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2b57a10;
+  constexpr static std::size_t addrs = 0x2c54310;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +44,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Dynamic::InvokeBinder::*)(::System::Dynamic::DynamicMetaObject*, ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*>)>(
     &::System::Dynamic::InvokeBinder::Bind)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x2b57a20;
+  constexpr static std::size_t addrs = 0x2c54320;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ShockwaveEffect.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -6,8 +7,8 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__ParticleSystem_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(ShockwaveEffect)
-namespace GlobalNamespace {
-class IntSO;
+namespace BeatSaber::GameSettings {
+class GraphicSettingsHandler;
 }
 namespace UnityEngine {
 class ParticleSystem;
@@ -29,8 +30,9 @@ namespace GlobalNamespace {
 class CORDL_TYPE ShockwaveEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _maxShockwaveParticles, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__maxShockwaveParticles, put = __cordl_internal_set__maxShockwaveParticles))::UnityW<::GlobalNamespace::IntSO> _maxShockwaveParticles;
+  /// @brief Field _graphicSettingsHandler, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__graphicSettingsHandler,
+                      put = __cordl_internal_set__graphicSettingsHandler))::BeatSaber::GameSettings::GraphicSettingsHandler* _graphicSettingsHandler;
 
   /// @brief Field _prevShockwaveParticleSpawnTime, offset 0xb8, size 0x4
   __declspec(property(get = __cordl_internal_get__prevShockwaveParticleSpawnTime, put = __cordl_internal_set__prevShockwaveParticleSpawnTime)) float_t _prevShockwaveParticleSpawnTime;
@@ -43,15 +45,15 @@ public:
 
   static inline ::GlobalNamespace::ShockwaveEffect* New_ctor();
 
-  /// @brief Method SpawnShockwave, addr 0x25c20f4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SpawnShockwave, addr 0x26c0cb8, size 0xd4, virtual false, abstract: false, final false
   inline void SpawnShockwave(::UnityEngine::Vector3 pos);
 
-  /// @brief Method Start, addr 0x25c1fa4, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x26c0b08, size 0x1b0, virtual false, abstract: false, final false
   inline void Start();
 
-  constexpr ::UnityW<::GlobalNamespace::IntSO> const& __cordl_internal_get__maxShockwaveParticles() const;
+  constexpr ::BeatSaber::GameSettings::GraphicSettingsHandler*& __cordl_internal_get__graphicSettingsHandler();
 
-  constexpr ::UnityW<::GlobalNamespace::IntSO>& __cordl_internal_get__maxShockwaveParticles();
+  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::GameSettings::GraphicSettingsHandler*> const& __cordl_internal_get__graphicSettingsHandler() const;
 
   constexpr float_t const& __cordl_internal_get__prevShockwaveParticleSpawnTime() const;
 
@@ -65,7 +67,7 @@ public:
 
   constexpr ::UnityEngine::__ParticleSystem__EmitParams& __cordl_internal_get__shockwavePSEmitParams();
 
-  constexpr void __cordl_internal_set__maxShockwaveParticles(::UnityW<::GlobalNamespace::IntSO> value);
+  constexpr void __cordl_internal_set__graphicSettingsHandler(::BeatSaber::GameSettings::GraphicSettingsHandler* value);
 
   constexpr void __cordl_internal_set__prevShockwaveParticleSpawnTime(float_t value);
 
@@ -73,7 +75,7 @@ public:
 
   constexpr void __cordl_internal_set__shockwavePSEmitParams(::UnityEngine::__ParticleSystem__EmitParams value);
 
-  /// @brief Method .ctor, addr 0x25c21c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c0d8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -93,8 +95,8 @@ public:
   /// @brief Field _shockwavePS, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ParticleSystem> ____shockwavePS;
 
-  /// @brief Field _maxShockwaveParticles, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::IntSO> ____maxShockwaveParticles;
+  /// @brief Field _graphicSettingsHandler, offset: 0x20, size: 0x8, def value: None
+  ::BeatSaber::GameSettings::GraphicSettingsHandler* ____graphicSettingsHandler;
 
   /// @brief Field _shockwavePSEmitParams, offset: 0x28, size: 0x90, def value: None
   ::UnityEngine::__ParticleSystem__EmitParams ____shockwavePSEmitParams;
@@ -109,7 +111,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ShockwaveEffect
 
 static_assert(offsetof(::GlobalNamespace::ShockwaveEffect, ____shockwavePS) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ShockwaveEffect, ____maxShockwaveParticles) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ShockwaveEffect, ____graphicSettingsHandler) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ShockwaveEffect, ____shockwavePSEmitParams) == 0x28, "Offset mismatch!");
 

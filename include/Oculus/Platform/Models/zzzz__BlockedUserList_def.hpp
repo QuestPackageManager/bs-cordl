@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/Models/BlockedUserList.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +25,7 @@ public:
   // Declarations
   static inline ::Oculus::Platform::Models::BlockedUserList* New_ctor(void* a);
 
-  /// @brief Method .ctor, addr 0x29dc658, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2adaf08, size 0x25c, virtual false, abstract: false, final false
   inline void _ctor(void* a);
 
 protected:

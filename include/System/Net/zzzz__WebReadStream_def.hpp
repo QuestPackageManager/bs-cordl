@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/WebReadStream.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -77,10 +78,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2f196bc, size 0x584, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3019fbc, size 0x584, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2f19c40, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x301a540, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -188,22 +189,22 @@ public:
   /// @brief Field disposed, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get_disposed, put = __cordl_internal_set_disposed)) bool disposed;
 
-  /// @brief Method BeginRead, addr 0x2f1925c, size 0x1d0, virtual true, abstract: false, final false
+  /// @brief Method BeginRead, addr 0x3019b5c, size 0x1d0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginRead(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size, ::System::AsyncCallback* cb, ::System::Object* state);
 
-  /// @brief Method Dispose, addr 0x2f19670, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3019f70, size 0x4c, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method EndRead, addr 0x2f1942c, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method EndRead, addr 0x3019d2c, size 0x124, virtual true, abstract: false, final false
   inline int32_t EndRead(::System::IAsyncResult* r);
 
-  /// @brief Method FinishReading, addr 0x2f0a54c, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method FinishReading, addr 0x300ae4c, size 0x104, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* FinishReading(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Flush, addr 0x2f18e4c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method Flush, addr 0x301974c, size 0x40, virtual true, abstract: false, final false
   inline void Flush();
 
-  /// @brief Method GetException, addr 0x2f18e8c, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method GetException, addr 0x301978c, size 0x168, virtual false, abstract: false, final false
   inline ::System::Exception* GetException(::System::Exception* e);
 
   static inline ::System::Net::WebReadStream* New_ctor(::System::Net::WebOperation* operation, ::System::IO::Stream* innerStream);
@@ -212,19 +213,19 @@ public:
   inline ::System::Threading::Tasks::Task_1<int32_t>* ProcessReadAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size,
                                                                        ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Read, addr 0x2f18ff4, size 0x268, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x30198f4, size 0x268, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size);
 
-  /// @brief Method ReadAsync, addr 0x2f19550, size 0x120, virtual true, abstract: false, final true
+  /// @brief Method ReadAsync, addr 0x3019e50, size 0x120, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<int32_t>* ReadAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Seek, addr 0x2f18dcc, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method Seek, addr 0x30196cc, size 0x40, virtual true, abstract: false, final false
   inline int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin);
 
-  /// @brief Method SetLength, addr 0x2f18d8c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method SetLength, addr 0x301968c, size 0x40, virtual true, abstract: false, final false
   inline void SetLength(int64_t value);
 
-  /// @brief Method Write, addr 0x2f18e0c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x301970c, size 0x40, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
   constexpr ::System::IO::Stream*& __cordl_internal_get__InnerStream_k__BackingField();
@@ -245,31 +246,31 @@ public:
 
   constexpr void __cordl_internal_set_disposed(bool value);
 
-  /// @brief Method .ctor, addr 0x2f0a278, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x300ab78, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::WebOperation* operation, ::System::IO::Stream* innerStream);
 
-  /// @brief Method get_CanRead, addr 0x2f18d7c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanRead, addr 0x301967c, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanRead();
 
-  /// @brief Method get_CanSeek, addr 0x2f18d74, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanSeek, addr 0x3019674, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanSeek();
 
-  /// @brief Method get_CanWrite, addr 0x2f18d84, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanWrite, addr 0x3019684, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanWrite();
 
-  /// @brief Method get_InnerStream, addr 0x2f18cac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InnerStream, addr 0x30195ac, size 0x8, virtual false, abstract: false, final false
   inline ::System::IO::Stream* get_InnerStream();
 
-  /// @brief Method get_Length, addr 0x2f18cb4, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Length, addr 0x30195b4, size 0x40, virtual true, abstract: false, final false
   inline int64_t get_Length();
 
-  /// @brief Method get_Operation, addr 0x2f18ca4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Operation, addr 0x30195a4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::WebOperation* get_Operation();
 
-  /// @brief Method get_Position, addr 0x2f18cf4, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Position, addr 0x30195f4, size 0x40, virtual true, abstract: false, final false
   inline int64_t get_Position();
 
-  /// @brief Method set_Position, addr 0x2f18d34, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method set_Position, addr 0x3019634, size 0x40, virtual true, abstract: false, final false
   inline void set_Position(int64_t value);
 
 protected:

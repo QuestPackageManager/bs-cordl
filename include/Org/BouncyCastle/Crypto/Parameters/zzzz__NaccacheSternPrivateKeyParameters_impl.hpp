@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/NaccacheSternPrivateKeyParameters.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__NaccacheSternKeyParameters_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__NaccacheSternPrivateKeyParameters_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
@@ -11,7 +12,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*, int32_t, ::System::Collections::ArrayList*, ::Org::BouncyCastle::Math::BigInteger*)>(
     &::Org::BouncyCastle::Crypto::Parameters::NaccacheSternPrivateKeyParameters::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x10a2e8c;
+  constexpr static std::size_t addrs = 0x11965b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -31,7 +32,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*, int32_t, ::System::Collections::IList*, ::Org::BouncyCastle::Math::BigInteger*)>(
     &::Org::BouncyCastle::Crypto::Parameters::NaccacheSternPrivateKeyParameters::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x10a2ee0;
+  constexpr static std::size_t addrs = 0x1196604;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -50,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (
     ::Org::BouncyCastle::Crypto::Parameters::NaccacheSternPrivateKeyParameters::*)()>(&::Org::BouncyCastle::Crypto::Parameters::NaccacheSternPrivateKeyParameters::get_PhiN)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x10a2f34;
+  constexpr static std::size_t addrs = 0x1196658;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -65,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ArrayList* (::Org::BouncyCastle::Crypto::Parameters::NaccacheSternPrivateKeyParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::NaccacheSternPrivateKeyParameters::get_SmallPrimes)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x10a2f3c;
+  constexpr static std::size_t addrs = 0x1196660;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -80,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IList* (::Org::BouncyCastle::Crypto::Parameters::NaccacheSternPrivateKeyParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::NaccacheSternPrivateKeyParameters::get_SmallPrimesList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x10a2fa4;
+  constexpr static std::size_t addrs = 0x11966c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

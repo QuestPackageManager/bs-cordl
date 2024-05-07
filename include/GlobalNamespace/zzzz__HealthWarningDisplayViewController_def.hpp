@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/HealthWarningDisplayViewController.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,7 +35,7 @@ public:
   /// @brief Field _showShortHealthAndSafety, offset 0x88, size 0x1
   __declspec(property(get = __cordl_internal_get__showShortHealthAndSafety, put = __cordl_internal_set__showShortHealthAndSafety)) bool _showShortHealthAndSafety;
 
-  /// @brief Method DidActivate, addr 0x2547088, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x263cd48, size 0x3c, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::HealthWarningDisplayViewController* New_ctor();
@@ -63,7 +64,7 @@ public:
 
   constexpr void __cordl_internal_set__showShortHealthAndSafety(bool value);
 
-  /// @brief Method .ctor, addr 0x25470c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263cd84, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

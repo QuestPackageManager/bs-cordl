@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngineInternal/Input/NativeUpdateCallback.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,12 +29,12 @@ namespace UnityEngineInternal::Input {
 class CORDL_TYPE NativeUpdateCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x32493f0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x345212c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngineInternal::Input::NativeInputUpdateType updateType, ::cordl_internals::Ptr<::UnityEngineInternal::Input::NativeInputEventBuffer> buffer);
 
   static inline ::UnityEngineInternal::Input::NativeUpdateCallback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x324932c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3452068, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:

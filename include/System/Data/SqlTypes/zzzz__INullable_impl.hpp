@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/SqlTypes/INullable.hpp"
 #include "System/Data/SqlTypes/zzzz__INullable_def.hpp"
 //  Writing Method size for method: ::System::Data::SqlTypes::INullable.get_IsNull
 template <>

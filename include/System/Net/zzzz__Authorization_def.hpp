@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Authorization.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,16 +55,16 @@ public:
 
   constexpr void __cordl_internal_set_m_Message(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2ececb4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fd15b4, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::StringW token);
 
-  /// @brief Method .ctor, addr 0x2eced34, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fd1634, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::StringW token, bool finished);
 
-  /// @brief Method get_Complete, addr 0x2ecedbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Complete, addr 0x2fd16bc, size 0x8, virtual false, abstract: false, final false
   inline bool get_Complete();
 
-  /// @brief Method get_Message, addr 0x2ecedb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Message, addr 0x2fd16b4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Message();
 
 protected:

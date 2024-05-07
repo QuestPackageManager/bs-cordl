@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/DerBitString.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,31 +50,31 @@ public:
   /// @brief Field table, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_table, put = setStaticF_table))::ArrayW<char16_t, ::Array<char16_t>*> table;
 
-  /// @brief Method Asn1Equals, addr 0xfd6094, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method Asn1Equals, addr 0x10c97b8, size 0xd8, virtual true, abstract: false, final false
   inline bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
 
-  /// @brief Method Asn1GetHashCode, addr 0xfd600c, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Asn1GetHashCode, addr 0x10c9730, size 0x88, virtual true, abstract: false, final false
   inline int32_t Asn1GetHashCode();
 
-  /// @brief Method Encode, addr 0xfd5ef4, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x10c9618, size 0x118, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
-  /// @brief Method FromAsn1Octets, addr 0xfd5844, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method FromAsn1Octets, addr 0x10c8f68, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerBitString* FromAsn1Octets(::ArrayW<uint8_t, ::Array<uint8_t>*> octets);
 
-  /// @brief Method GetBytes, addr 0xfd5d40, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x10c9464, size 0xa0, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBytes();
 
-  /// @brief Method GetInstance, addr 0xfd5704, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x10c8e28, size 0x140, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerBitString* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-  /// @brief Method GetInstance, addr 0xfd3878, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x10c6f9c, size 0x20c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerBitString* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetOctets, addr 0xfd5c90, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method GetOctets, addr 0x10c93b4, size 0xb0, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetOctets();
 
-  /// @brief Method GetString, addr 0xfd616c, size 0x168, virtual true, abstract: false, final false
+  /// @brief Method GetString, addr 0x10c9890, size 0x168, virtual true, abstract: false, final false
   inline ::StringW GetString();
 
   static inline ::Org::BouncyCastle::Asn1::DerBitString* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
@@ -96,24 +97,24 @@ public:
 
   constexpr void __cordl_internal_set_mPadBits(int32_t value);
 
-  /// @brief Method .ctor, addr 0xfd5b34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10c9258, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0xfd59cc, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10c90f0, size 0x168, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t padBits);
 
-  /// @brief Method .ctor, addr 0xfd5b3c, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10c9260, size 0x128, virtual false, abstract: false, final false
   inline void _ctor(int32_t namedBits);
 
-  /// @brief Method .ctor, addr 0xfd5c64, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10c9388, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_table();
 
-  /// @brief Method get_IntValue, addr 0xfd5de8, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method get_IntValue, addr 0x10c950c, size 0x10c, virtual true, abstract: false, final false
   inline int32_t get_IntValue();
 
-  /// @brief Method get_PadBits, addr 0xfd5de0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_PadBits, addr 0x10c9504, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_PadBits();
 
   static inline void setStaticF_table(::ArrayW<char16_t, ::Array<char16_t>*> value);

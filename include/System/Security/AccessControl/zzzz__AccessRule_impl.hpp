@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/AccessControl/AccessRule.hpp"
 #include "System/Security/AccessControl/zzzz__AccessControlType_impl.hpp"
 #include "System/Security/AccessControl/zzzz__AuthorizationRule_impl.hpp"
 #include "System/Security/AccessControl/zzzz__AccessRule_def.hpp"
@@ -13,7 +14,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Security::Principal::IdentityReference*, int32_t, bool, ::System::Security::AccessControl::InheritanceFlags, ::System::Security::AccessControl::PropagationFlags,
     ::System::Security::AccessControl::AccessControlType)>(&::System::Security::AccessControl::AccessRule::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x2703fe8;
+  constexpr static std::size_t addrs = 0x28013e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -32,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::AccessControl::AccessControlType (::System::Security::AccessControl::AccessRule::*)()>(
     &::System::Security::AccessControl::AccessRule::get_AccessControlType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2704214;
+  constexpr static std::size_t addrs = 0x2801610;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::AccessRule*>::get(),

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UI/ILayoutIgnorer.hpp"
 #include "UnityEngine/UI/zzzz__ILayoutIgnorer_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UI::ILayoutIgnorer.get_ignoreLayout
 template <>

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "ENet/NoMemoryCallback.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,18 +29,18 @@ namespace ENet {
 class CORDL_TYPE NoMemoryCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x24dc2e4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x25d3f70, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x24dc304, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x25d3f90, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x24dc2d0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x25d3f5c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke();
 
   static inline ::ENet::NoMemoryCallback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x24dc214, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d3ea0, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Microsoft/MicrosoftObjectIdentifiers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Microsoft/zzzz__MicrosoftObjectIdentifiers_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Microsoft::MicrosoftObjectIdentifiers::*)()>(
     &::Org::BouncyCastle::Asn1::Microsoft::MicrosoftObjectIdentifiers::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x10e6df8;
+  constexpr static std::size_t addrs = 0x11da51c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

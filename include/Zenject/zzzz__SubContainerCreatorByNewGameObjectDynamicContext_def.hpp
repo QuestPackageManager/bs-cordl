@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/SubContainerCreatorByNewGameObjectDynamicContext.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,7 +32,7 @@ public:
   /// @brief Field _gameObjectBindInfo, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__gameObjectBindInfo, put = __cordl_internal_set__gameObjectBindInfo))::Zenject::GameObjectCreationParameters* _gameObjectBindInfo;
 
-  /// @brief Method CreateGameObject, addr 0x345a824, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method CreateGameObject, addr 0x365e7ec, size 0x4c, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> CreateGameObject(ByRef<bool> shouldMakeActive);
 
   static inline ::Zenject::SubContainerCreatorByNewGameObjectDynamicContext* New_ctor(::Zenject::DiContainer* container, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo);
@@ -42,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set__gameObjectBindInfo(::Zenject::GameObjectCreationParameters* value);
 
-  /// @brief Method .ctor, addr 0x345a7d0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x365e798, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo);
 
 protected:

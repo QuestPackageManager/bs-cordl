@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IntVfxBeatmapEventDataBox.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventDataBox_impl.hpp"
 #include "GlobalNamespace/zzzz__IntVfxBeatmapEventDataBox_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventDataBox_def.hpp"
@@ -15,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::IntVfxBeatmapEventDataBox::*)()>(
     &::GlobalNamespace::IntVfxBeatmapEventDataBox::get_subtypeIdentifier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x13bdc58;
+  constexpr static std::size_t addrs = 0x14b33a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -30,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::IntVfxBeatmapEventDataBox::*)()>(
     &::GlobalNamespace::IntVfxBeatmapEventDataBox::get_beatStep)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x13bdc60;
+  constexpr static std::size_t addrs = 0x14b33a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -46,7 +47,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::IndexFilter*, ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType, float_t, ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType, float_t, bool,
     ::GlobalNamespace::EaseType, ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IntFxBaseData*>*)>(&::GlobalNamespace::IntVfxBeatmapEventDataBox::_ctor)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x13bdc68;
+  constexpr static std::size_t addrs = 0x14b33b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -68,7 +69,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     float_t, int32_t, int32_t, int32_t, int32_t, float_t, ::GlobalNamespace::IBeatToTimeConverter*, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>*)>(
     &::GlobalNamespace::IntVfxBeatmapEventDataBox::Unpack)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x13bde70;
+  constexpr static std::size_t addrs = 0x14b35b8;
 
   inline static ::MethodInfo const* methodInfo() {
 

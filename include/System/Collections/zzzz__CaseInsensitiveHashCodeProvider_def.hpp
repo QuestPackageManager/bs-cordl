@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Collections/CaseInsensitiveHashCodeProvider.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,7 +38,7 @@ public:
   /// @brief Convert operator to "::System::Collections::IHashCodeProvider"
   constexpr operator ::System::Collections::IHashCodeProvider*() noexcept;
 
-  /// @brief Method GetHashCode, addr 0x2802db4, size 0xd8, virtual true, abstract: false, final true
+  /// @brief Method GetHashCode, addr 0x29024d4, size 0xd8, virtual true, abstract: false, final true
   inline int32_t GetHashCode(::System::Object* obj);
 
   static inline ::System::Collections::CaseInsensitiveHashCodeProvider* New_ctor();
@@ -50,10 +51,10 @@ public:
 
   constexpr void __cordl_internal_set__compareInfo(::System::Globalization::CompareInfo* value);
 
-  /// @brief Method .ctor, addr 0x2802cb0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29023d0, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2802d2c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x290244c, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Globalization::CultureInfo* culture);
 
   /// @brief Convert to "::System::Collections::IHashCodeProvider"

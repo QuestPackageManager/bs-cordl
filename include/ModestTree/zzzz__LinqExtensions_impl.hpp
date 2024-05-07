@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "ModestTree/LinqExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "ModestTree/zzzz__LinqExtensions_def.hpp"
 #include "ModestTree/zzzz__LinqExtensions_def.hpp"

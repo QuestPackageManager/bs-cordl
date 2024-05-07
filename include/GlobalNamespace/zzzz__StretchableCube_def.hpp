@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/StretchableCube.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -88,21 +89,21 @@ public:
   /// @brief Field vertices, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_vertices, put = setStaticF_vertices))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> vertices;
 
-  /// @brief Method Awake, addr 0x252f76c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x26ac3f0, size 0x70, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method CreateBox, addr 0x252f7dc, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method CreateBox, addr 0x26ac460, size 0x144, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> CreateBox();
 
   static inline ::GlobalNamespace::StretchableCube* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x252f920, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x26ac5a4, size 0xc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RecalculateUVs, addr 0x252f92c, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method RecalculateUVs, addr 0x26ac5b0, size 0x1e4, virtual false, abstract: false, final false
   inline void RecalculateUVs(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> uvs);
 
-  /// @brief Method RefreshUVs, addr 0x252fb10, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method RefreshUVs, addr 0x26ac794, size 0x94, virtual false, abstract: false, final false
   inline void RefreshUVs();
 
   constexpr ::UnityW<::UnityEngine::Mesh> const& __cordl_internal_get__mesh() const;
@@ -117,7 +118,7 @@ public:
 
   constexpr void __cordl_internal_set__uvs(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> value);
 
-  /// @brief Method .ctor, addr 0x252fba4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ac828, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Vector3 getStaticF_back();

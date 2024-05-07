@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MultipliedColorSO.hpp"
 #include "GlobalNamespace/zzzz__ColorSO_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "GlobalNamespace/zzzz__MultipliedColorSO_def.hpp"
@@ -9,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::MultipliedColorSO::*)()>(&::GlobalNamespace::MultipliedColorSO::get_color)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x139ca28;
+  constexpr static std::size_t addrs = 0x149214c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -23,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultipliedColorSO::*)()>(&::GlobalNamespace::MultipliedColorSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x139ca78;
+  constexpr static std::size_t addrs = 0x149219c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultipliedColorSO*>::get(), ".ctor",

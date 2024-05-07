@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/DistortionCoordinates_t.hpp"
 #include "OVR/OpenVR/zzzz__DistortionCoordinates_t_def.hpp"
 // Ctor Parameters [CppParam { name: "rfRed0", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rfRed1", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
 // "rfGreen0", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rfGreen1", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rfBlue0", ty: "float_t",

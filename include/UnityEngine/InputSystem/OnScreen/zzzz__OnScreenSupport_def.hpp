@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/OnScreen/OnScreenSupport.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,7 +19,7 @@ namespace UnityEngine::InputSystem::OnScreen {
 class CORDL_TYPE OnScreenSupport : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Initialize, addr 0x300c7d0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x314955c, size 0x4, virtual false, abstract: false, final false
   static inline void Initialize();
 
 protected:

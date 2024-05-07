@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BeatmapSelectionView.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -7,9 +8,6 @@ CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(BeatmapSelectionView)
 namespace GlobalNamespace {
 struct BeatmapKey;
-}
-namespace GlobalNamespace {
-class BeatmapLevelsModel;
 }
 namespace GlobalNamespace {
 class LevelBar;
@@ -24,16 +22,13 @@ class BeatmapSelectionView;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BeatmapSelectionView);
 // Type: ::BeatmapSelectionView
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BeatmapSelectionView*
 class CORDL_TYPE BeatmapSelectionView : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Field _beatmapLevelsModel, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapLevelsModel, put = __cordl_internal_set__beatmapLevelsModel))::GlobalNamespace::BeatmapLevelsModel* _beatmapLevelsModel;
-
   /// @brief Field _levelBar, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__levelBar, put = __cordl_internal_set__levelBar))::UnityW<::GlobalNamespace::LevelBar> _levelBar;
 
@@ -42,12 +37,8 @@ public:
 
   static inline ::GlobalNamespace::BeatmapSelectionView* New_ctor();
 
-  /// @brief Method SetBeatmap, addr 0x256e918, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method SetBeatmap, addr 0x2666418, size 0xbc, virtual true, abstract: false, final false
   inline void SetBeatmap(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey);
-
-  constexpr ::GlobalNamespace::BeatmapLevelsModel*& __cordl_internal_get__beatmapLevelsModel();
-
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelsModel*> const& __cordl_internal_get__beatmapLevelsModel() const;
 
   constexpr ::UnityW<::GlobalNamespace::LevelBar> const& __cordl_internal_get__levelBar() const;
 
@@ -57,13 +48,11 @@ public:
 
   constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__noLevelText();
 
-  constexpr void __cordl_internal_set__beatmapLevelsModel(::GlobalNamespace::BeatmapLevelsModel* value);
-
   constexpr void __cordl_internal_set__levelBar(::UnityW<::GlobalNamespace::LevelBar> value);
 
   constexpr void __cordl_internal_set__noLevelText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x256e9f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26664d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -86,19 +75,14 @@ public:
   /// @brief Field _noLevelText, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____noLevelText;
 
-  /// @brief Field _beatmapLevelsModel, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapLevelsModel* ____beatmapLevelsModel;
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapSelectionView, 0x30>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapSelectionView, 0x28>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BeatmapSelectionView, ____levelBar) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BeatmapSelectionView, ____noLevelText) == 0x20, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::BeatmapSelectionView, ____beatmapLevelsModel) == 0x28, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatmapSelectionView);

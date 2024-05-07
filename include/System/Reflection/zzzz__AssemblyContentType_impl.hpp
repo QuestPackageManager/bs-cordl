@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Reflection/AssemblyContentType.hpp"
 #include "System/Reflection/zzzz__AssemblyContentType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Reflection::AssemblyContentType::AssemblyContentType(int32_t value__) noexcept {

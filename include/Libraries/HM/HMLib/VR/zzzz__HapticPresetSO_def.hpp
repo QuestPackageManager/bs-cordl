@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Libraries/HM/HMLib/VR/HapticPresetSO.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -143,13 +144,13 @@ public:
 
   constexpr void __cordl_internal_set__useAdvancedHapticsOnSupportedPlatforms(bool value);
 
-  /// @brief Method .ctor, addr 0x23ec05c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24e3c4c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_hasOculusHapticsClip, addr 0x23e203c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method get_hasOculusHapticsClip, addr 0x24d9c2c, size 0xe4, virtual false, abstract: false, final false
   inline bool get_hasOculusHapticsClip();
 
-  /// @brief Method get_hasPS5HapticsClip, addr 0x23e4e88, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method get_hasPS5HapticsClip, addr 0x24dca78, size 0xe4, virtual false, abstract: false, final false
   inline bool get_hasPS5HapticsClip();
 
 protected:

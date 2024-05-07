@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/TextCore/Text/TextResourceManager.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,7 +37,7 @@ namespace UnityEngine::TextCore::Text {
 struct CORDL_TYPE __TextResourceManager__FontAssetRef {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x3297b98, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x349f8d4, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(int32_t nameHashCode, int32_t familyNameHashCode, int32_t styleNameHashCode, ::UnityEngine::TextCore::Text::FontAsset* fontAsset);
 
   // Ctor Parameters []
@@ -113,7 +114,7 @@ public:
   /// @brief Field s_FontAssetRemovalList, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_FontAssetRemovalList, put = setStaticF_s_FontAssetRemovalList))::System::Collections::Generic::List_1<int32_t>* s_FontAssetRemovalList;
 
-  /// @brief Method AddFontAsset, addr 0x329764c, size 0x4f4, virtual false, abstract: false, final false
+  /// @brief Method AddFontAsset, addr 0x349f388, size 0x4f4, virtual false, abstract: false, final false
   static inline void AddFontAsset(::UnityEngine::TextCore::Text::FontAsset* fontAsset);
 
   static inline int32_t getStaticF_k_RegularStyleHashCode();

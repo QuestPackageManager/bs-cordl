@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/Observable.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__Observable_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
@@ -48,7 +49,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* (*)(::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*,
                                                                                       ::UnityEngine::InputSystem::InputDevice*)>(&::UnityEngine::InputSystem::Utilities::Observable::ForDevice)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x30488e4;
+  constexpr static std::size_t addrs = 0x3183670;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

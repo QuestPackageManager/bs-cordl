@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BGLib/DotnetExtension/CommandLine/ArgumentType.hpp"
 #include "BGLib/DotnetExtension/CommandLine/zzzz__ArgumentType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::BGLib::DotnetExtension::CommandLine::ArgumentType::ArgumentType(int32_t value__) noexcept {

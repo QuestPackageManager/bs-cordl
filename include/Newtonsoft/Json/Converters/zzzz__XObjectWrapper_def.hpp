@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Converters/XObjectWrapper.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,7 +57,7 @@ public:
   /// @brief Convert operator to "::Newtonsoft::Json::Converters::IXmlNode"
   constexpr operator ::Newtonsoft::Json::Converters::IXmlNode*() noexcept;
 
-  /// @brief Method AppendChild, addr 0x2991774, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method AppendChild, addr 0x2a8f024, size 0x40, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Converters::IXmlNode* AppendChild(::Newtonsoft::Json::Converters::IXmlNode* newChild);
 
   static inline ::Newtonsoft::Json::Converters::XObjectWrapper* New_ctor(::System::Xml::Linq::XObject* xmlObject);
@@ -67,37 +68,37 @@ public:
 
   constexpr void __cordl_internal_set__xmlObject(::System::Xml::Linq::XObject* value);
 
-  /// @brief Method .ctor, addr 0x298fbe0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a8d490, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XObject* xmlObject);
 
-  /// @brief Method get_Attributes, addr 0x29916cc, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_Attributes, addr 0x2a8ef7c, size 0x58, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* get_Attributes();
 
-  /// @brief Method get_ChildNodes, addr 0x2991674, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_ChildNodes, addr 0x2a8ef24, size 0x58, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* get_ChildNodes();
 
-  /// @brief Method get_LocalName, addr 0x299166c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x2a8ef1c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_NamespaceUri, addr 0x29917b4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NamespaceUri, addr 0x2a8f064, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_NamespaceUri();
 
-  /// @brief Method get_NodeType, addr 0x2991654, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x2a8ef04, size 0x18, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method get_ParentNode, addr 0x2991724, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ParentNode, addr 0x2a8efd4, size 0x8, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Converters::IXmlNode* get_ParentNode();
 
-  /// @brief Method get_Value, addr 0x299172c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x2a8efdc, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method get_WrappedNode, addr 0x299164c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_WrappedNode, addr 0x2a8eefc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_WrappedNode();
 
   /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlNode"
   constexpr ::Newtonsoft::Json::Converters::IXmlNode* i___Newtonsoft__Json__Converters__IXmlNode() noexcept;
 
-  /// @brief Method set_Value, addr 0x2991734, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method set_Value, addr 0x2a8efe4, size 0x40, virtual true, abstract: false, final false
   inline void set_Value(::StringW value);
 
 protected:

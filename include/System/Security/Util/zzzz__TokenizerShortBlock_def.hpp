@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Util/TokenizerShortBlock.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,7 +41,7 @@ public:
 
   constexpr void __cordl_internal_set_m_next(::System::Security::Util::TokenizerShortBlock* value);
 
-  /// @brief Method .ctor, addr 0x26d93c4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27d77c0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IServerSongPackProvider.hpp"
 #include "GlobalNamespace/zzzz__IServerSongPackProvider_def.hpp"
 #include "GlobalNamespace/zzzz__SongPackMask_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IServerSongPackProvider.DecomposeSongPackMask

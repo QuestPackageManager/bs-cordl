@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Sockets/IPPacketInformation.hpp"
 #include "System/Net/Sockets/zzzz__IPPacketInformation_def.hpp"
 #include "System/Net/zzzz__IPAddress_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::Sockets::IPPacketInformation::*)(::System::Object*)>(
     &::System::Net::Sockets::IPPacketInformation::Equals)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2e2bfb0;
+  constexpr static std::size_t addrs = 0x2f2a8b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::Sockets::IPPacketInformation::*)()>(
     &::System::Net::Sockets::IPPacketInformation::GetHashCode)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2e2c04c;
+  constexpr static std::size_t addrs = 0x2f2a94c;
 
   inline static ::MethodInfo const* methodInfo() {
 

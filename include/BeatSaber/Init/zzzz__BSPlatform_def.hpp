@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatSaber/Init/BSPlatform.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,7 +19,7 @@ namespace BeatSaber::Init {
 class CORDL_TYPE BSPlatform : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_IsSteamPlatform, addr 0xf6f7b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsSteamPlatform, addr 0x1061988, size 0x8, virtual false, abstract: false, final false
   static inline bool get_IsSteamPlatform();
 
 protected:

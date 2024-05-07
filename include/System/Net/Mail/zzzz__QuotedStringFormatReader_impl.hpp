@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Mail/QuotedStringFormatReader.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Mail/zzzz__QuotedStringFormatReader_def.hpp"
 //  Writing Method size for method: ::System::Net::Mail::QuotedStringFormatReader.ReadReverseQuoted
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW, int32_t, bool)>(&::System::Net::Mail::QuotedStringFormatReader::ReadReverseQuoted)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x2e32808;
+  constexpr static std::size_t addrs = 0x2f31108;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -21,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW, int32_t, bool, bool)>(&::System::Net::Mail::QuotedStringFormatReader::ReadReverseUnQuoted)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x2e329d4;
+  constexpr static std::size_t addrs = 0x2f312d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -36,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(bool, char16_t)>(&::System::Net::Mail::QuotedStringFormatReader::IsValidQtext)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x2e32c18;
+  constexpr static std::size_t addrs = 0x2f31518;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

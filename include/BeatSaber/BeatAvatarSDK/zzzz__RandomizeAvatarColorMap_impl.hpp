@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatSaber/BeatAvatarSDK/RandomizeAvatarColorMap.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/BeatAvatarSDK/zzzz__RandomizeAvatarColorMap_def.hpp"
 //  Writing Method size for method: ::BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap.get_totalIndices
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap::*)()>(
     &::BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap::get_totalIndices)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf5fa0c;
+  constexpr static std::size_t addrs = 0x104f580;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap*>::get(),
@@ -21,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int32_t, ::Array<int32_t>*> (::BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap::*)()>(
     &::BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap::get_colorIndices)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf5fa14;
+  constexpr static std::size_t addrs = 0x104f588;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap*>::get(),
@@ -35,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap::*)(
     int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t)>(&::BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap::_ctor)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0xf5f48c;
+  constexpr static std::size_t addrs = 0x104f000;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

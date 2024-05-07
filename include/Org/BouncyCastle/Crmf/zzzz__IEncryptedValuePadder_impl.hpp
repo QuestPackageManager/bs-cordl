@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crmf/IEncryptedValuePadder.hpp"
 #include "Org/BouncyCastle/Crmf/zzzz__IEncryptedValuePadder_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crmf::IEncryptedValuePadder.GetPaddedData
 template <>

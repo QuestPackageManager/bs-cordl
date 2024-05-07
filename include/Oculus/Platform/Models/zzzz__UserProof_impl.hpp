@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/Models/UserProof.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/Models/zzzz__UserProof_def.hpp"
 //  Writing Method size for method: ::Oculus::Platform::Models::UserProof._ctor
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Models::UserProof::*)(void*)>(&::Oculus::Platform::Models::UserProof::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x29e0cc0;
+  constexpr static std::size_t addrs = 0x2adf570;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

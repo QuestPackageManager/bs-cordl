@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Globalization/HebrewNumber.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -140,7 +141,7 @@ namespace System::Globalization {
 struct CORDL_TYPE __HebrewNumber__HebrewValue {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x27d9a44, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28d8164, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Globalization::__HebrewNumber__HebrewToken token, int16_t value);
 
   // Ctor Parameters []
@@ -317,13 +318,13 @@ public:
   static __declspec(property(get = getStaticF_s_numberPasingState,
                              put = setStaticF_s_numberPasingState))::ArrayW<::System::Globalization::__HebrewNumber__HS, ::Array<::System::Globalization::__HebrewNumber__HS>*> s_numberPasingState;
 
-  /// @brief Method IsDigit, addr 0x27d7680, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method IsDigit, addr 0x28d5da0, size 0xd0, virtual false, abstract: false, final false
   static inline bool IsDigit(char16_t ch);
 
-  /// @brief Method ParseByChar, addr 0x27d775c, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method ParseByChar, addr 0x28d5e7c, size 0x190, virtual false, abstract: false, final false
   static inline ::System::Globalization::HebrewNumberParsingState ParseByChar(char16_t ch, ByRef<::System::Globalization::HebrewNumberParsingContext> context);
 
-  /// @brief Method ToString, addr 0x27d953c, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x28d7c5c, size 0x258, virtual false, abstract: false, final false
   static inline ::StringW ToString(int32_t Number);
 
   static inline ::ArrayW<::System::Globalization::__HebrewNumber__HebrewValue, ::Array<::System::Globalization::__HebrewNumber__HebrewValue>*> getStaticF_s_hebrewValues();

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/TermInfoReader.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__TermInfoReader_def.hpp"
 #include "System/zzzz__TermInfoNumbers_def.hpp"
@@ -8,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::TermInfoReader::*)(::StringW, ::StringW)>(&::System::TermInfoReader::_ctor)> {
   constexpr static std::size_t size = 0x2d8;
-  constexpr static std::size_t addrs = 0x2886bb4;
+  constexpr static std::size_t addrs = 0x2986464;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::TermInfoReader::*)(::StringW, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::System::TermInfoReader::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x2886e8c;
+  constexpr static std::size_t addrs = 0x298673c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -38,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::TermInfoReader::*)(int16_t)>(&::System::TermInfoReader::DetermineVersion)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x288cb18;
+  constexpr static std::size_t addrs = 0x298c3c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -53,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::TermInfoReader::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ByRef<int32_t>)>(
     &::System::TermInfoReader::ReadHeader)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x288ca24;
+  constexpr static std::size_t addrs = 0x298c2d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -69,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::TermInfoReader::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ByRef<int32_t>)>(
     &::System::TermInfoReader::ReadNames)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x288cae4;
+  constexpr static std::size_t addrs = 0x298c394;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -84,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::TermInfoReader::*)(::System::TermInfoNumbers)>(&::System::TermInfoReader::Get)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x2887814;
+  constexpr static std::size_t addrs = 0x29870c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -98,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::TermInfoReader::*)(::System::TermInfoStrings)>(&::System::TermInfoReader::Get)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x2887784;
+  constexpr static std::size_t addrs = 0x2987034;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -113,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::System::TermInfoReader::*)(::System::TermInfoStrings)>(
     &::System::TermInfoReader::GetStringBytes)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x288b6c8;
+  constexpr static std::size_t addrs = 0x298af78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -128,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (::System::TermInfoReader::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::System::TermInfoReader::GetInt16)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x288cbc8;
+  constexpr static std::size_t addrs = 0x298c478;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -144,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::TermInfoReader::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::System::TermInfoReader::GetString)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x288cc18;
+  constexpr static std::size_t addrs = 0x298c4c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -160,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::System::TermInfoReader::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::System::TermInfoReader::GetStringBytes)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x288cc94;
+  constexpr static std::size_t addrs = 0x298c544;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

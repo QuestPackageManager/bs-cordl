@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ReflectionProbeDataSO.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,19 +46,19 @@ public:
 
   constexpr void __cordl_internal_set__reflectionProbeCubemap2(::UnityW<::UnityEngine::Cubemap> value);
 
-  /// @brief Method .ctor, addr 0x25890f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26820a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_reflectionProbeCubemap1, addr 0x25890d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_reflectionProbeCubemap1, addr 0x2682080, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Cubemap> get_reflectionProbeCubemap1();
 
-  /// @brief Method get_reflectionProbeCubemap2, addr 0x25890e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_reflectionProbeCubemap2, addr 0x2682090, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Cubemap> get_reflectionProbeCubemap2();
 
-  /// @brief Method set_reflectionProbeCubemap1, addr 0x25890d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_reflectionProbeCubemap1, addr 0x2682088, size 0x8, virtual false, abstract: false, final false
   inline void set_reflectionProbeCubemap1(::UnityEngine::Cubemap* value);
 
-  /// @brief Method set_reflectionProbeCubemap2, addr 0x25890e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_reflectionProbeCubemap2, addr 0x2682098, size 0x8, virtual false, abstract: false, final false
   inline void set_reflectionProbeCubemap2(::UnityEngine::Cubemap* value);
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/Datatype_timeNoTimeZone.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,7 +21,7 @@ public:
   // Declarations
   static inline ::System::Xml::Schema::Datatype_timeNoTimeZone* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e06084, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f04984, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

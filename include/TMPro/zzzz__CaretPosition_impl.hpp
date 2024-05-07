@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/CaretPosition.hpp"
 #include "TMPro/zzzz__CaretPosition_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::TMPro::CaretPosition::CaretPosition(int32_t value__) noexcept {

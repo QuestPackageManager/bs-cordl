@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/SwitchView.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -123,24 +124,24 @@ public:
   /// @brief Field _toggle, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__toggle, put = __cordl_internal_set__toggle))::UnityW<::HMUI::ToggleWithCallbacks> _toggle;
 
-  /// @brief Method Awake, addr 0x242fce8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x252a974, size 0x50, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleOnValueChanged, addr 0x24301e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleOnValueChanged, addr 0x252ae70, size 0x4, virtual false, abstract: false, final false
   inline void HandleOnValueChanged(bool value);
 
-  /// @brief Method HandleStateDidChange, addr 0x24301e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleStateDidChange, addr 0x252ae74, size 0x4, virtual false, abstract: false, final false
   inline void HandleStateDidChange(::HMUI::__ToggleWithCallbacks__SelectionState value);
 
   static inline ::HMUI::SwitchView* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x2430024, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x252acb0, size 0x10c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RefreshVisuals, addr 0x242ff00, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method RefreshVisuals, addr 0x252ab8c, size 0x124, virtual false, abstract: false, final false
   inline void RefreshVisuals();
 
-  /// @brief Method Start, addr 0x242fd38, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x252a9c4, size 0x114, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::HMUI::__SwitchView__AnimationType const& __cordl_internal_get__animationType() const;
@@ -203,7 +204,7 @@ public:
 
   constexpr void __cordl_internal_set__toggle(::UnityW<::HMUI::ToggleWithCallbacks> value);
 
-  /// @brief Method .ctor, addr 0x2430240, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x252aecc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

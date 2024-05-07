@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/XInput/XInputSupport.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,7 +19,7 @@ namespace UnityEngine::InputSystem::XInput {
 class CORDL_TYPE XInputSupport : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Initialize, addr 0x2ffd424, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x313a1b0, size 0x70, virtual false, abstract: false, final false
   static inline void Initialize();
 
 protected:

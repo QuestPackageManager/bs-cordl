@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HEU_GeoSync.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,7 +28,7 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_GeoSync* New_ctor();
 
-  /// @brief Method SetupLoadTask, addr 0x24951d4, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method SetupLoadTask, addr 0x258ee60, size 0x98, virtual true, abstract: false, final false
   inline void SetupLoadTask(::HoudiniEngineUnity::HEU_SessionBase* session);
 
   constexpr ::StringW const& __cordl_internal_get__filePath() const;
@@ -36,7 +37,7 @@ public:
 
   constexpr void __cordl_internal_set__filePath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2495280, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x258ef0c, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

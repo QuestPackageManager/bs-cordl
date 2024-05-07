@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/Volatile.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/zzzz__Volatile_def.hpp"
 #include "System/Threading/zzzz__Volatile_def.hpp"
@@ -26,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<bool>)>(&::System::Threading::Volatile::Read)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x28a9d2c;
+  constexpr static std::size_t addrs = 0x29a85dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<bool>, bool)>(&::System::Threading::Volatile::Write)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x28a9d44;
+  constexpr static std::size_t addrs = 0x29a85f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -54,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(ByRef<int32_t>)>(&::System::Threading::Volatile::Read)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x28a9d68;
+  constexpr static std::size_t addrs = 0x29a8618;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -68,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<int32_t>, int32_t)>(&::System::Threading::Volatile::Write)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x28a9d80;
+  constexpr static std::size_t addrs = 0x29a8630;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

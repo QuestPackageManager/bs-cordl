@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/DelegateHelpers.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,10 +41,10 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::__DelegateHelpers____c* New_ctor();
 
-  /// @brief Method <MakeDelegate>b__1_0, addr 0x2b4e910, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <MakeDelegate>b__1_0, addr 0x2c4b210, size 0x18, virtual false, abstract: false, final false
   inline bool _MakeDelegate_b__1_0(::System::Type* t);
 
-  /// @brief Method .ctor, addr 0x2b4e908, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c4b208, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Linq::Expressions::Interpreter::__DelegateHelpers____c* getStaticF___9();
@@ -84,7 +85,7 @@ public:
   // Declarations
   using __c = ::System::Linq::Expressions::Interpreter::__DelegateHelpers____c;
 
-  /// @brief Method MakeDelegate, addr 0x2b3b71c, size 0x668, virtual false, abstract: false, final false
+  /// @brief Method MakeDelegate, addr 0x2c3801c, size 0x668, virtual false, abstract: false, final false
   static inline ::System::Type* MakeDelegate(::ArrayW<::System::Type*, ::Array<::System::Type*>*> types);
 
 protected:

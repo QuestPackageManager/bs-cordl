@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/HmdColor_t.hpp"
 #include "OVR/OpenVR/zzzz__HmdColor_t_def.hpp"
 // Ctor Parameters [CppParam { name: "r", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "g", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "b", ty:
 // "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "a", ty: "float_t", modifiers: "", def_value: Some("{}") }]

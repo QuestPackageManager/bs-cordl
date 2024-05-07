@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IVRPlatformHelper.hpp"
 #include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
 #include "GlobalNamespace/zzzz__VRPlatformSDK_def.hpp"
 #include "System/zzzz__Action_def.hpp"

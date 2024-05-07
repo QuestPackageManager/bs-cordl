@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Diagnostics/Tracing/EventLevel.hpp"
 #include "System/Diagnostics/Tracing/zzzz__EventLevel_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Diagnostics::Tracing::EventLevel::EventLevel(int32_t value__) noexcept {

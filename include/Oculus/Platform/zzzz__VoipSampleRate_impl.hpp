@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/VoipSampleRate.hpp"
 #include "Oculus/Platform/zzzz__VoipSampleRate_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::Oculus::Platform::VoipSampleRate::VoipSampleRate(int32_t value__) noexcept {

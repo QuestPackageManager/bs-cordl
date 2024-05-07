@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/JsonException.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,7 +32,7 @@ namespace Newtonsoft::Json {
 class CORDL_TYPE JsonException : public ::System::Exception {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x28c7b50, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x29c6400, size 0xac, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::JsonException* Create(::Newtonsoft::Json::IJsonLineInfo* lineInfo, ::StringW path, ::StringW message);
 
   static inline ::Newtonsoft::Json::JsonException* New_ctor();
@@ -42,16 +43,16 @@ public:
 
   static inline ::Newtonsoft::Json::JsonException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x28c79a0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29c6250, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x28c7ad0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29c6380, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x28c79f8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29c62a8, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x28c7a60, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29c6310, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
 protected:

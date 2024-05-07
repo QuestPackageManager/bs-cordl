@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ColorSchemeConverter.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__ColorSchemeConverter_def.hpp"
 #include "GlobalNamespace/zzzz__ColorSchemeNetSerializable_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ColorScheme* (*)(::GlobalNamespace::ColorSchemeNetSerializable)>(
     &::GlobalNamespace::ColorSchemeConverter::FromNetSerializable)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x257a3a4;
+  constexpr static std::size_t addrs = 0x2672838;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

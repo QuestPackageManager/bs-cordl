@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/ExceptionHelpers.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,7 +22,7 @@ namespace UnityEngine::InputSystem::Utilities {
 class CORDL_TYPE ExceptionHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsExceptionIndicatingBugInCode, addr 0x3042328, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method IsExceptionIndicatingBugInCode, addr 0x317d0b4, size 0xd8, virtual false, abstract: false, final false
   static inline bool IsExceptionIndicatingBugInCode(::System::Exception* exception);
 
 protected:

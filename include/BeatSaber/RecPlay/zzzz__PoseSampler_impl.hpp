@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatSaber/RecPlay/PoseSampler.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/RecPlay/zzzz__PoseSampler_def.hpp"
 #include "BeatSaber/RecPlay/zzzz__FrameSample_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Pose (*)(::ArrayW<::BeatSaber::RecPlay::PoseFrame, ::Array<::BeatSaber::RecPlay::PoseFrame>*>, float_t,
                                                                                                           ByRef<int32_t>)>(&::BeatSaber::RecPlay::PoseSampler::SamplePose)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0xf752d8;
+  constexpr static std::size_t addrs = 0x1068888;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::RecPlay::FrameSample (*)(
     ::ArrayW<::BeatSaber::RecPlay::PoseFrame, ::Array<::BeatSaber::RecPlay::PoseFrame>*>, float_t, int32_t)>(&::BeatSaber::RecPlay::PoseSampler::FindPoseSample)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0xf754e8;
+  constexpr static std::size_t addrs = 0x1068a98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Pose (*)(
     ::ArrayW<::BeatSaber::RecPlay::PoseFrame, ::Array<::BeatSaber::RecPlay::PoseFrame>*>, ByRef<::BeatSaber::RecPlay::FrameSample>)>(&::BeatSaber::RecPlay::PoseSampler::InterpolatePoseSample)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0xf75640;
+  constexpr static std::size_t addrs = 0x1068bf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

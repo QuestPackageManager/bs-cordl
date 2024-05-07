@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/FloatFxGroupEffectManager.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,10 +51,10 @@ public:
 
   static inline ::GlobalNamespace::__FloatFxGroupEffectManager____c* New_ctor();
 
-  /// @brief Method <Start>b__3_0, addr 0x25c8128, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__3_0, addr 0x26c6e94, size 0x20, virtual false, abstract: false, final false
   inline bool _Start_b__3_0(::GlobalNamespace::FloatFxGroup* group);
 
-  /// @brief Method .ctor, addr 0x25c8120, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c6e8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__FloatFxGroupEffectManager____c* getStaticF___9();
@@ -107,10 +108,10 @@ public:
 
   static inline ::GlobalNamespace::FloatFxGroupEffectManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x25c7e5c, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x26c6bc8, size 0x148, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x25c779c, size 0x668, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x26c6508, size 0x668, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
@@ -131,7 +132,7 @@ public:
 
   constexpr void __cordl_internal_set__floatFxGroups(::ArrayW<::UnityW<::GlobalNamespace::FloatFxGroup>, ::Array<::UnityW<::GlobalNamespace::FloatFxGroup>>*> value);
 
-  /// @brief Method .ctor, addr 0x25c8040, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c6dac, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

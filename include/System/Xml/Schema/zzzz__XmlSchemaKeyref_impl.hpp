@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaKeyref.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaIdentityConstraint_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaKeyref_def.hpp"
 #include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlQualifiedName* (::System::Xml::Schema::XmlSchemaKeyref::*)()>(
     &::System::Xml::Schema::XmlSchemaKeyref::get_Refer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2d15c5c;
+  constexpr static std::size_t addrs = 0x2e1355c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaKeyref*>::get(), "get_Refer",
@@ -22,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaKeyref::*)(::System::Xml::XmlQualifiedName*)>(
     &::System::Xml::Schema::XmlSchemaKeyref::set_Refer)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x2d15c64;
+  constexpr static std::size_t addrs = 0x2e13564;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaKeyref::*)()>(&::System::Xml::Schema::XmlSchemaKeyref::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2d15cfc;
+  constexpr static std::size_t addrs = 0x2e135fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaKeyref*>::get(), ".ctor",

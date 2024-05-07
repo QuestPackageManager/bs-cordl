@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/HierarchyTraversal.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,16 +25,16 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::StyleSheets::HierarchyTraversal* New_ctor();
 
-  /// @brief Method Recurse, addr 0x3333ed8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Recurse, addr 0x3538c14, size 0xd0, virtual false, abstract: false, final false
   inline void Recurse(::UnityEngine::UIElements::VisualElement* element, int32_t depth);
 
-  /// @brief Method Traverse, addr 0x3333ec8, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Traverse, addr 0x3538c04, size 0x10, virtual true, abstract: false, final false
   inline void Traverse(::UnityEngine::UIElements::VisualElement* element);
 
   /// @brief Method TraverseRecursive, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void TraverseRecursive(::UnityEngine::UIElements::VisualElement* element, int32_t depth);
 
-  /// @brief Method .ctor, addr 0x3333fa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3538ce4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

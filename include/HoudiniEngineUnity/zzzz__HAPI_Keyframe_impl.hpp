@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HAPI_Keyframe.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_Keyframe_def.hpp"
 //  Writing Method size for method: ::HoudiniEngineUnity::HAPI_Keyframe._ctor
 template <>
@@ -6,7 +7,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HAPI_Keyframe::*)(float_t, float_t, float_t, float_t)>(
     &::HoudiniEngineUnity::HAPI_Keyframe::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x247c110;
+  constexpr static std::size_t addrs = 0x2576d9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

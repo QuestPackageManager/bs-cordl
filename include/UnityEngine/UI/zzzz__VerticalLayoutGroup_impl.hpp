@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UI/VerticalLayoutGroup.hpp"
 #include "UnityEngine/UI/zzzz__HorizontalOrVerticalLayoutGroup_impl.hpp"
 #include "UnityEngine/UI/zzzz__VerticalLayoutGroup_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UI::VerticalLayoutGroup._ctor
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::VerticalLayoutGroup::*)()>(&::UnityEngine::UI::VerticalLayoutGroup::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x32c86f8;
+  constexpr static std::size_t addrs = 0x34cf434;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::VerticalLayoutGroup*>::get(), ".ctor",
@@ -20,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::VerticalLayoutGroup::*)()>(
     &::UnityEngine::UI::VerticalLayoutGroup::CalculateLayoutInputHorizontal)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x32c8704;
+  constexpr static std::size_t addrs = 0x34cf440;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -35,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::VerticalLayoutGroup::*)()>(
     &::UnityEngine::UI::VerticalLayoutGroup::CalculateLayoutInputVertical)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x32c8724;
+  constexpr static std::size_t addrs = 0x34cf460;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -49,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::VerticalLayoutGroup::*)()>(&::UnityEngine::UI::VerticalLayoutGroup::SetLayoutHorizontal)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x32c8730;
+  constexpr static std::size_t addrs = 0x34cf46c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -63,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::VerticalLayoutGroup::*)()>(&::UnityEngine::UI::VerticalLayoutGroup::SetLayoutVertical)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x32c873c;
+  constexpr static std::size_t addrs = 0x34cf478;
 
   inline static ::MethodInfo const* methodInfo() {
 

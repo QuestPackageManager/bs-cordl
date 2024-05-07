@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ProBuilder/Shapes/Pipe.hpp"
 #include "UnityEngine/ProBuilder/Shapes/zzzz__Shape_impl.hpp"
 #include "UnityEngine/ProBuilder/Shapes/zzzz__Pipe_def.hpp"
 #include "UnityEngine/ProBuilder/Shapes/zzzz__Shape_def.hpp"
@@ -12,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Shapes::Pipe::*)(::UnityEngine::ProBuilder::Shapes::Shape*)>(
     &::UnityEngine::ProBuilder::Shapes::Pipe::CopyShape)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x30bbe70;
+  constexpr static std::size_t addrs = 0x32c28f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Bounds (::UnityEngine::ProBuilder::Shapes::Pipe::*)(
     ::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Bounds)>(&::UnityEngine::ProBuilder::Shapes::Pipe::UpdateBounds)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x30bbefc;
+  constexpr static std::size_t addrs = 0x32c2984;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Bounds (::UnityEngine::ProBuilder::Shapes::Pipe::*)(
     ::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(&::UnityEngine::ProBuilder::Shapes::Pipe::RebuildMesh)> {
   constexpr static std::size_t size = 0xa70;
-  constexpr static std::size_t addrs = 0x30bbf34;
+  constexpr static std::size_t addrs = 0x32c29bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Shapes::Pipe::*)()>(&::UnityEngine::ProBuilder::Shapes::Pipe::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x30bc9a4;
+  constexpr static std::size_t addrs = 0x32c342c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::Pipe*>::get(), ".ctor",

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IReferenceCountingCache_2.hpp"
 #include "GlobalNamespace/zzzz__IReferenceCountingCache_2_def.hpp"
 template <typename TKey, typename TValue> inline int32_t GlobalNamespace::IReferenceCountingCache_2<TKey, TValue>::Insert(TKey key, TValue item) {
   auto* ___internal_method =

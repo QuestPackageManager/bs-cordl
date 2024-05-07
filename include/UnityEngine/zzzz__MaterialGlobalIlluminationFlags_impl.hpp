@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/MaterialGlobalIlluminationFlags.hpp"
 #include "UnityEngine/zzzz__MaterialGlobalIlluminationFlags_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::MaterialGlobalIlluminationFlags::MaterialGlobalIlluminationFlags(int32_t value__) noexcept {

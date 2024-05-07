@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/KnownHttpVerb.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,7 +61,7 @@ public:
 
   static inline ::System::Net::KnownHttpVerb* New_ctor(::StringW name, bool requireContentBody, bool contentBodyNotAllowed, bool connectRequest, bool expectNoContentResponse);
 
-  /// @brief Method Parse, addr 0x2ed318c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x2fd5a8c, size 0xc8, virtual false, abstract: false, final false
   static inline ::System::Net::KnownHttpVerb* Parse(::StringW name);
 
   constexpr bool const& __cordl_internal_get_ConnectRequest() const;
@@ -93,7 +94,7 @@ public:
 
   constexpr void __cordl_internal_set_RequireContentBody(bool value);
 
-  /// @brief Method .ctor, addr 0x2ed2e1c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fd571c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, bool requireContentBody, bool contentBodyNotAllowed, bool connectRequest, bool expectNoContentResponse);
 
   static inline ::System::Net::KnownHttpVerb* getStaticF_Connect();

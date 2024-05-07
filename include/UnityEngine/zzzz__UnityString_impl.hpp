@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UnityString.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__UnityString_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::UnityEngine::UnityString::Format)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x326692c;
+  constexpr static std::size_t addrs = 0x346f668;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

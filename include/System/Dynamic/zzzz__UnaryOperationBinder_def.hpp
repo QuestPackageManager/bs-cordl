@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Dynamic/UnaryOperationBinder.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,11 +23,11 @@ namespace System::Dynamic {
 class CORDL_TYPE UnaryOperationBinder : public ::System::Dynamic::DynamicMetaObjectBinder {
 public:
   // Declarations
-  /// @brief Method Bind, addr 0x2b57ec4, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method Bind, addr 0x2c547c4, size 0xac, virtual true, abstract: false, final true
   inline ::System::Dynamic::DynamicMetaObject* Bind(::System::Dynamic::DynamicMetaObject* target,
                                                     ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> args);
 
-  /// @brief Method FallbackUnaryOperation, addr 0x2b57eb4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method FallbackUnaryOperation, addr 0x2c547b4, size 0x10, virtual false, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* FallbackUnaryOperation(::System::Dynamic::DynamicMetaObject* target);
 
   /// @brief Method FallbackUnaryOperation, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/Profiling/LowLevel/Unsafe/ProfilerUnsafeUtility.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,13 +24,13 @@ namespace Unity::Profiling::LowLevel::Unsafe {
 class CORDL_TYPE ProfilerUnsafeUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method BeginSample, addr 0x31ce4bc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method BeginSample, addr 0x33d4f4c, size 0x3c, virtual false, abstract: false, final false
   static inline void BeginSample(void* markerPtr);
 
-  /// @brief Method CreateMarker, addr 0x31ce338, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CreateMarker, addr 0x33d4dc8, size 0x5c, virtual false, abstract: false, final false
   static inline void* CreateMarker(::StringW name, uint16_t categoryId, ::Unity::Profiling::LowLevel::MarkerFlags flags, int32_t metadataCount);
 
-  /// @brief Method EndSample, addr 0x31ce588, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method EndSample, addr 0x33d5018, size 0x3c, virtual false, abstract: false, final false
   static inline void EndSample(void* markerPtr);
 
 protected:

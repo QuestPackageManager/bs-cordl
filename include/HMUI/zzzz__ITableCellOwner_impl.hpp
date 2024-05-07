@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/ITableCellOwner.hpp"
 #include "HMUI/zzzz__ITableCellOwner_def.hpp"
 #include "HMUI/zzzz__TableViewSelectionType_def.hpp"
 //  Writing Method size for method: ::HMUI::ITableCellOwner.get_selectionType

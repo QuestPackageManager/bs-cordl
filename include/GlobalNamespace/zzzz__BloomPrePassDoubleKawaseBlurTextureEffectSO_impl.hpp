@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BloomPrePassDoubleKawaseBlurTextureEffectSO.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassEffectSO_impl.hpp"
 #include "GlobalNamespace/zzzz__KawaseBlurRendererSO_impl.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassDoubleKawaseBlurTextureEffectSO_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO::*)(
     ::UnityEngine::RenderTexture*, ::UnityEngine::RenderTexture*)>(&::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO::Render)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2adbd7c;
+  constexpr static std::size_t addrs = 0x2bd8624;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO::*)()>(
     &::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2adbdb4;
+  constexpr static std::size_t addrs = 0x2bd865c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

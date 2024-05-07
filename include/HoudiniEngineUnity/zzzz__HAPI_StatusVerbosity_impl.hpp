@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HAPI_StatusVerbosity.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_StatusVerbosity_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::HoudiniEngineUnity::HAPI_StatusVerbosity::HAPI_StatusVerbosity(int32_t value__) noexcept {

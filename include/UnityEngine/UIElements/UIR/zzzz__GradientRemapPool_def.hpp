@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/GradientRemapPool.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,13 +47,13 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::__GradientRemapPool____c* New_ctor();
 
-  /// @brief Method <.ctor>b__0_0, addr 0x331d20c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0_0, addr 0x3521f48, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::GradientRemap* __ctor_b__0_0();
 
-  /// @brief Method <.ctor>b__0_1, addr 0x331d2ac, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0_1, addr 0x3521fe8, size 0x14, virtual false, abstract: false, final false
   inline void __ctor_b__0_1(::UnityEngine::UIElements::UIR::GradientRemap* gradientRemap);
 
-  /// @brief Method .ctor, addr 0x331d204, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3521f40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::UIR::__GradientRemapPool____c* getStaticF___9();
@@ -99,7 +100,7 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::GradientRemapPool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x331d018, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3521d54, size 0x188, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

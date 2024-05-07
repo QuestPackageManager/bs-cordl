@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Net/Security/MobileTlsProvider.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,7 +57,7 @@ public:
                                   ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* certificates, bool wantsChain,
                                   ByRef<::System::Security::Cryptography::X509Certificates::X509Chain*> chain, ByRef<::System::Net::Security::SslPolicyErrors> errors, ByRef<int32_t> status11);
 
-  /// @brief Method .ctor, addr 0x2b6644c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c62d4c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

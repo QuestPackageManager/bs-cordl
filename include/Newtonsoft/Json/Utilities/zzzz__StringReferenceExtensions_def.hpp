@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/StringReferenceExtensions.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,13 +24,13 @@ namespace Newtonsoft::Json::Utilities {
 class CORDL_TYPE StringReferenceExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method EndsWith, addr 0x291fa00, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method EndsWith, addr 0x2a1e2b0, size 0xb8, virtual false, abstract: false, final false
   static inline bool EndsWith(::Newtonsoft::Json::Utilities::StringReference s, ::StringW text);
 
-  /// @brief Method IndexOf, addr 0x291f8c8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x2a1e178, size 0x84, virtual false, abstract: false, final false
   static inline int32_t IndexOf(::Newtonsoft::Json::Utilities::StringReference s, char16_t c, int32_t startIndex, int32_t length);
 
-  /// @brief Method StartsWith, addr 0x291f94c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method StartsWith, addr 0x2a1e1fc, size 0xb4, virtual false, abstract: false, final false
   static inline bool StartsWith(::Newtonsoft::Json::Utilities::StringReference s, ::StringW text);
 
 protected:

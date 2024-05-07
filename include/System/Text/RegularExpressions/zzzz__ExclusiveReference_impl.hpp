@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Text/RegularExpressions/ExclusiveReference.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Text/RegularExpressions/zzzz__ExclusiveReference_def.hpp"
 #include "System/Text/RegularExpressions/zzzz__RegexRunner_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::RegexRunner* (::System::Text::RegularExpressions::ExclusiveReference::*)()>(
     &::System::Text::RegularExpressions::ExclusiveReference::Get)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2e85e48;
+  constexpr static std::size_t addrs = 0x2f85748;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::ExclusiveReference*>::get(),
@@ -22,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::ExclusiveReference::*)(::System::Text::RegularExpressions::RegexRunner*)>(
     &::System::Text::RegularExpressions::ExclusiveReference::Release)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x2e85ea0;
+  constexpr static std::size_t addrs = 0x2f857a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -37,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::ExclusiveReference::*)()>(
     &::System::Text::RegularExpressions::ExclusiveReference::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2e85f5c;
+  constexpr static std::size_t addrs = 0x2f8585c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::ExclusiveReference*>::get(),

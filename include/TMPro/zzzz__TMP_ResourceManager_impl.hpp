@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/TMP_ResourceManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "TMPro/zzzz__TMP_ResourceManager_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -10,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::TMPro::TMP_Settings> (*)()>(&::TMPro::TMP_ResourceManager::GetTextSettings)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x316eeac;
+  constexpr static std::size_t addrs = 0x3374934;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager*>::get(), "GetTextSettings",
@@ -23,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::TMPro::TMP_FontAsset*)>(&::TMPro::TMP_ResourceManager::AddFontAsset)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x316efbc;
+  constexpr static std::size_t addrs = 0x3374a44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -37,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t, ByRef<::TMPro::TMP_FontAsset*>)>(&::TMPro::TMP_ResourceManager::TryGetFontAsset)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x316f110;
+  constexpr static std::size_t addrs = 0x3374b98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t)>(&::TMPro::TMP_ResourceManager::RebuildFontAssetCache)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x316f1a4;
+  constexpr static std::size_t addrs = 0x3374c2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_ResourceManager::*)()>(&::TMPro::TMP_ResourceManager::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x316eea4;
+  constexpr static std::size_t addrs = 0x337492c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ResourceManager*>::get(), ".ctor",

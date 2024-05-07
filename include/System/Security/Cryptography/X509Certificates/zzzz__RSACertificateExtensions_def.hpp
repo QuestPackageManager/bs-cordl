@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Cryptography/X509Certificates/RSACertificateExtensions.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +25,7 @@ namespace System::Security::Cryptography::X509Certificates {
 class CORDL_TYPE RSACertificateExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetRSAPublicKey, addr 0x2ae2c14, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method GetRSAPublicKey, addr 0x2bdf1f4, size 0xe4, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::RSA* GetRSAPublicKey(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
 
 protected:

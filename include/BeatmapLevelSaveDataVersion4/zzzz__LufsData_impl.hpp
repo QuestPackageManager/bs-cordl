@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatmapLevelSaveDataVersion4/LufsData.hpp"
 #include "BeatmapLevelSaveDataVersion4/zzzz__LufsData_def.hpp"
 // Ctor Parameters [CppParam { name: "si", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ei", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "l",
 // ty: "float_t", modifiers: "", def_value: Some("{}") }]

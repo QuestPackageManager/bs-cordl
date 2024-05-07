@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Linq/NamespaceCache.hpp"
 #include "System/Xml/Linq/zzzz__NamespaceCache_def.hpp"
 #include "System/Xml/Linq/zzzz__XNamespace_def.hpp"
 //  Writing Method size for method: ::System::Xml::Linq::NamespaceCache.Get
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Linq::XNamespace* (::System::Xml::Linq::NamespaceCache::*)(::StringW)>(
     &::System::Xml::Linq::NamespaceCache::Get)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x2c9d33c;
+  constexpr static std::size_t addrs = 0x2d9bc3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/Internal/ZenUtilInternal.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -100,19 +101,19 @@ public:
 
   static inline ::Zenject::Internal::__ZenUtilInternal____c* New_ctor();
 
-  /// @brief Method <GetAllSceneContexts>b__3_0, addr 0x3477cd0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <GetAllSceneContexts>b__3_0, addr 0x367bc98, size 0x50, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::SceneContext>>* _GetAllSceneContexts_b__3_0(::UnityEngine::GameObject* root);
 
-  /// @brief Method <GetRootGameObjects>b__10_0, addr 0x3477d20, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method <GetRootGameObjects>b__10_0, addr 0x367bce8, size 0x8c, virtual false, abstract: false, final false
   inline bool _GetRootGameObjects_b__10_0(::UnityEngine::GameObject* x);
 
-  /// @brief Method __zenCreate, addr 0x3477dac, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x367bd74, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x3477e08, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x367bdd0, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x3477cc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x367bc90, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Zenject::Internal::__ZenUtilInternal____c* getStaticF___9();
@@ -187,27 +188,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3477fe4, size 0x484, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x367bfac, size 0x484, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::Zenject::Internal::__ZenUtilInternal___GetAllSceneContexts_d__3* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<Zenject.SceneContext>.GetEnumerator, addr 0x3478568, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<Zenject.SceneContext>.GetEnumerator, addr 0x367c530, size 0x98, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::Zenject::SceneContext>>* System_Collections_Generic_IEnumerable_Zenject_SceneContext__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<Zenject.SceneContext>.get_Current, addr 0x3478518, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<Zenject.SceneContext>.get_Current, addr 0x367c4e0, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::Zenject::SceneContext> System_Collections_Generic_IEnumerator_Zenject_SceneContext__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x3478600, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x367c5c8, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3478520, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x367c4e8, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3478560, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x367c528, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3477fc8, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x367bf90, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -234,10 +235,10 @@ public:
 
   constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  /// @brief Method <>m__Finally1, addr 0x3478468, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x367c430, size 0xb0, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method .ctor, addr 0x3476e84, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x367ae4c, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::SceneContext>>"
@@ -308,7 +309,7 @@ public:
 
   static inline ::Zenject::Internal::__ZenUtilInternal____c__DisplayClass10_0* New_ctor();
 
-  /// @brief Method <GetRootGameObjects>b__1, addr 0x3478604, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method <GetRootGameObjects>b__1, addr 0x367c5cc, size 0x110, virtual false, abstract: false, final false
   inline bool _GetRootGameObjects_b__1(::UnityEngine::GameObject* x);
 
   constexpr ::UnityEngine::SceneManagement::Scene const& __cordl_internal_get_scene() const;
@@ -317,7 +318,7 @@ public:
 
   constexpr void __cordl_internal_set_scene(::UnityEngine::SceneManagement::Scene value);
 
-  /// @brief Method .ctor, addr 0x3477c5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x367bc24, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -359,39 +360,39 @@ public:
 
   using __c__DisplayClass10_0 = ::Zenject::Internal::__ZenUtilInternal____c__DisplayClass10_0;
 
-  /// @brief Method AddStateMachineBehaviourAutoInjectersInScene, addr 0x3476eb8, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method AddStateMachineBehaviourAutoInjectersInScene, addr 0x367ae80, size 0x320, virtual false, abstract: false, final false
   static inline void AddStateMachineBehaviourAutoInjectersInScene(::UnityEngine::SceneManagement::Scene scene);
 
-  /// @brief Method AddStateMachineBehaviourAutoInjectersUnderGameObject, addr 0x347739c, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method AddStateMachineBehaviourAutoInjectersUnderGameObject, addr 0x367b364, size 0x140, virtual false, abstract: false, final false
   static inline void AddStateMachineBehaviourAutoInjectersUnderGameObject(::UnityEngine::GameObject* root);
 
-  /// @brief Method AreFunctionsEqual, addr 0x3476c50, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method AreFunctionsEqual, addr 0x367ac18, size 0xa8, virtual false, abstract: false, final false
   static inline bool AreFunctionsEqual(::System::Delegate* left, ::System::Delegate* right);
 
-  /// @brief Method GetAllSceneContexts, addr 0x3476e14, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetAllSceneContexts, addr 0x367addc, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::SceneContext>>* GetAllSceneContexts();
 
-  /// @brief Method GetInheritanceDelta, addr 0x3476cf8, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method GetInheritanceDelta, addr 0x367acc0, size 0x11c, virtual false, abstract: false, final false
   static inline int32_t GetInheritanceDelta(::System::Type* derived, ::System::Type* parent);
 
-  /// @brief Method GetInjectableMonoBehavioursInScene, addr 0x34774dc, size 0x330, virtual false, abstract: false, final false
+  /// @brief Method GetInjectableMonoBehavioursInScene, addr 0x367b4a4, size 0x330, virtual false, abstract: false, final false
   static inline void GetInjectableMonoBehavioursInScene(::UnityEngine::SceneManagement::Scene scene, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* monoBehaviours);
 
-  /// @brief Method GetInjectableMonoBehavioursUnderGameObject, addr 0x3477b70, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetInjectableMonoBehavioursUnderGameObject, addr 0x367bb38, size 0x4, virtual false, abstract: false, final false
   static inline void GetInjectableMonoBehavioursUnderGameObject(::UnityEngine::GameObject* gameObject,
                                                                 ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* injectableComponents);
 
-  /// @brief Method GetInjectableMonoBehavioursUnderGameObjectInternal, addr 0x347780c, size 0x364, virtual false, abstract: false, final false
+  /// @brief Method GetInjectableMonoBehavioursUnderGameObjectInternal, addr 0x367b7d4, size 0x364, virtual false, abstract: false, final false
   static inline void GetInjectableMonoBehavioursUnderGameObjectInternal(::UnityEngine::GameObject* gameObject,
                                                                         ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* injectableComponents);
 
-  /// @brief Method GetRootGameObjects, addr 0x34771d8, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method GetRootGameObjects, addr 0x367b1a0, size 0x1c4, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>* GetRootGameObjects(::UnityEngine::SceneManagement::Scene scene);
 
-  /// @brief Method IsInjectableMonoBehaviourType, addr 0x3477b74, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method IsInjectableMonoBehaviourType, addr 0x367bb3c, size 0xe8, virtual false, abstract: false, final false
   static inline bool IsInjectableMonoBehaviourType(::System::Type* type);
 
-  /// @brief Method IsNull, addr 0x3476c34, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method IsNull, addr 0x367abfc, size 0x1c, virtual false, abstract: false, final false
   static inline bool IsNull(::System::Object* obj);
 
 protected:

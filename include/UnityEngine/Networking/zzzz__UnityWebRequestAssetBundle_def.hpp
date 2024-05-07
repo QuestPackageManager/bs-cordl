@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Networking/UnityWebRequestAssetBundle.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,13 +27,13 @@ namespace UnityEngine::Networking {
 class CORDL_TYPE UnityWebRequestAssetBundle : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetAssetBundle, addr 0x33f9adc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetAssetBundle, addr 0x35ff818, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Networking::UnityWebRequest* GetAssetBundle(::StringW uri);
 
-  /// @brief Method GetAssetBundle, addr 0x33f9c08, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetAssetBundle, addr 0x35ff944, size 0xf0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Networking::UnityWebRequest* GetAssetBundle(::StringW uri, ::UnityEngine::CachedAssetBundle cachedAssetBundle, uint32_t crc);
 
-  /// @brief Method GetAssetBundle, addr 0x33f9ae4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetAssetBundle, addr 0x35ff820, size 0xc0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Networking::UnityWebRequest* GetAssetBundle(::StringW uri, uint32_t crc);
 
 protected:

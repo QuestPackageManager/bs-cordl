@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/EmptyArray_1.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__EmptyArray_1_def.hpp"
 template <typename T> inline void System::EmptyArray_1<T>::setStaticF_Value(::ArrayW<T, ::Array<T>*> value) {

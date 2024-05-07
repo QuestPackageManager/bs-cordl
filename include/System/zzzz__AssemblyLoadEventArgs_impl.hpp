@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/AssemblyLoadEventArgs.hpp"
 #include "System/zzzz__EventArgs_impl.hpp"
 #include "System/zzzz__AssemblyLoadEventArgs_def.hpp"
 #include "System/Reflection/zzzz__Assembly_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::AssemblyLoadEventArgs::*)(::System::Reflection::Assembly*)>(
     &::System::AssemblyLoadEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x279ab7c;
+  constexpr static std::size_t addrs = 0x289a29c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

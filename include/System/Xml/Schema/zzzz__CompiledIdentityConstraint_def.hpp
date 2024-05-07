@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/CompiledIdentityConstraint.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -158,21 +159,21 @@ public:
 
   constexpr void __cordl_internal_set_selector(::System::Xml::Schema::Asttree* value);
 
-  /// @brief Method .ctor, addr 0x2df78b0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ef61b0, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2df791c, size 0x4c0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ef621c, size 0x4c0, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaIdentityConstraint* constraint, ::System::Xml::XmlNamespaceManager* nsmgr);
 
   static inline ::System::Xml::Schema::CompiledIdentityConstraint* getStaticF_Empty();
 
-  /// @brief Method get_Fields, addr 0x2df78a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Fields, addr 0x2ef61a8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Xml::Schema::Asttree*, ::Array<::System::Xml::Schema::Asttree*>*> get_Fields();
 
-  /// @brief Method get_Role, addr 0x2df7898, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Role, addr 0x2ef6198, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::__CompiledIdentityConstraint__ConstraintRole get_Role();
 
-  /// @brief Method get_Selector, addr 0x2df78a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Selector, addr 0x2ef61a0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::Asttree* get_Selector();
 
   static inline void setStaticF_Empty(::System::Xml::Schema::CompiledIdentityConstraint* value);

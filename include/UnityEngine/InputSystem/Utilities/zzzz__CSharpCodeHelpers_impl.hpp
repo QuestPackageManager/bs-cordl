@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/CSharpCodeHelpers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__CSharpCodeHelpers_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Utilities::CSharpCodeHelpers.IsProperIdentifier
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::UnityEngine::InputSystem::Utilities::CSharpCodeHelpers::IsProperIdentifier)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x3041ad8;
+  constexpr static std::size_t addrs = 0x317c864;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -20,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::UnityEngine::InputSystem::Utilities::CSharpCodeHelpers::IsEmptyOrProperIdentifier)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3041be0;
+  constexpr static std::size_t addrs = 0x317c96c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::UnityEngine::InputSystem::Utilities::CSharpCodeHelpers::IsEmptyOrProperNamespaceName)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3041c0c;
+  constexpr static std::size_t addrs = 0x317c998;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::StringW)>(&::UnityEngine::InputSystem::Utilities::CSharpCodeHelpers::MakeIdentifier)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x3041ce4;
+  constexpr static std::size_t addrs = 0x317ca70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -62,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::StringW)>(&::UnityEngine::InputSystem::Utilities::CSharpCodeHelpers::MakeTypeName)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x3041f28;
+  constexpr static std::size_t addrs = 0x317ccb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

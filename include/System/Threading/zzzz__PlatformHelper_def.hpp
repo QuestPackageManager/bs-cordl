@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/PlatformHelper.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,7 +35,7 @@ public:
 
   static inline int32_t getStaticF_s_processorCount();
 
-  /// @brief Method get_ProcessorCount, addr 0x289b1c8, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method get_ProcessorCount, addr 0x2999a78, size 0xec, virtual false, abstract: false, final false
   static inline int32_t get_ProcessorCount();
 
   static inline void setStaticF_IsSingleProcessor(bool value);

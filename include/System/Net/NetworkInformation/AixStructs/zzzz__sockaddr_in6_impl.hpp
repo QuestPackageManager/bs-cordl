@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/NetworkInformation/AixStructs/sockaddr_in6.hpp"
 #include "System/Net/NetworkInformation/AixStructs/zzzz__in6_addr_impl.hpp"
 #include "System/Net/NetworkInformation/AixStructs/zzzz__sockaddr_in6_def.hpp"
 #include "System/Net/NetworkInformation/AixStructs/zzzz__in6_addr_def.hpp"

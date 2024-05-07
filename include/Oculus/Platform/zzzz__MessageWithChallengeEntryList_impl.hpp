@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/MessageWithChallengeEntryList.hpp"
 #include "Oculus/Platform/zzzz__Message_1_impl.hpp"
 #include "Oculus/Platform/zzzz__MessageWithChallengeEntryList_def.hpp"
 #include "Oculus/Platform/Models/zzzz__ChallengeEntryList_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::MessageWithChallengeEntryList::*)(void*)>(
     &::Oculus::Platform::MessageWithChallengeEntryList::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x29c77d4;
+  constexpr static std::size_t addrs = 0x2ac5084;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::ChallengeEntryList* (::Oculus::Platform::MessageWithChallengeEntryList::*)()>(
     &::Oculus::Platform::MessageWithChallengeEntryList::GetChallengeEntryList)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x29c9fe4;
+  constexpr static std::size_t addrs = 0x2ac7894;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -39,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::ChallengeEntryList* (::Oculus::Platform::MessageWithChallengeEntryList::*)(void*)>(
     &::Oculus::Platform::MessageWithChallengeEntryList::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x29ca020;
+  constexpr static std::size_t addrs = 0x2ac78d0;
 
   inline static ::MethodInfo const* methodInfo() {
 

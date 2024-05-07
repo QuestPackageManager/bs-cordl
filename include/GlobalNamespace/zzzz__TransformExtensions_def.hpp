@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/TransformExtensions.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +25,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE TransformExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InverseTransformRotation, addr 0xf91060, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method InverseTransformRotation, addr 0x108596c, size 0xb4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion InverseTransformRotation(::UnityEngine::Transform* trans, ::UnityEngine::Quaternion worldRotation);
 
 protected:

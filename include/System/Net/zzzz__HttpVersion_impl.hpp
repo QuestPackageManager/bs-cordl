@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/HttpVersion.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__HttpVersion_def.hpp"
 #include "System/zzzz__Version_def.hpp"

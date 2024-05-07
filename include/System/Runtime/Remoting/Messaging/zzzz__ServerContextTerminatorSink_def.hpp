@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/Messaging/ServerContextTerminatorSink.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,16 +31,16 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessageSink"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMessageSink*() noexcept;
 
-  /// @brief Method AsyncProcessMessage, addr 0x2735e60, size 0xe8, virtual true, abstract: false, final true
+  /// @brief Method AsyncProcessMessage, addr 0x283425c, size 0xe8, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg,
                                                                                    ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
   static inline ::System::Runtime::Remoting::Messaging::ServerContextTerminatorSink* New_ctor();
 
-  /// @brief Method SyncProcessMessage, addr 0x2735d2c, size 0x134, virtual true, abstract: false, final true
+  /// @brief Method SyncProcessMessage, addr 0x2834128, size 0x134, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
 
-  /// @brief Method .ctor, addr 0x2735f48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2834344, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessageSink"

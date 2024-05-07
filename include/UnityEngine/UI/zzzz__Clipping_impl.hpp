@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UI/Clipping.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UI/zzzz__Clipping_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::Rect (*)(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::RectMask2D>>*, ByRef<bool>)>(&::UnityEngine::UI::Clipping::FindCullAndClipWorldRect)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x32a14b8;
+  constexpr static std::size_t addrs = 0x34a81f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

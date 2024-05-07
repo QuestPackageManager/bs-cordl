@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ComponentModel/ITypedList.hpp"
 #include "System/ComponentModel/zzzz__ITypedList_def.hpp"
 #include "System/ComponentModel/zzzz__PropertyDescriptorCollection_def.hpp"
 #include "System/ComponentModel/zzzz__PropertyDescriptor_def.hpp"

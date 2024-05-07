@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Ref.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__Ref_def.hpp"
 //  Writing Method size for method: ::System::Xml::Ref.Equal
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::StringW)>(&::System::Xml::Ref::Equal)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2da2304;
+  constexpr static std::size_t addrs = 0x2e9ec04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

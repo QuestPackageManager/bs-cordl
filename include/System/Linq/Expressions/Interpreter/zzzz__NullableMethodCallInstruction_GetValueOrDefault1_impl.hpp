@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/NullableMethodCallInstruction_GetValueOrDefault1.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__NullableMethodCallInstruction_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__NullableMethodCallInstruction_GetValueOrDefault1_def.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__InterpretedFrame_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::__NullableMethodCallInstruction__GetValueOrDefault1::*)()>(
     &::System::Linq::Expressions::Interpreter::__NullableMethodCallInstruction__GetValueOrDefault1::get_ConsumedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b4d0e0;
+  constexpr static std::size_t addrs = 0x2c499e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::__NullableMethodCallInstruction__GetValueOrDefault1::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::System::Linq::Expressions::Interpreter::__NullableMethodCallInstruction__GetValueOrDefault1::Run)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2b4d0e8;
+  constexpr static std::size_t addrs = 0x2c499e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::__NullableMethodCallInstruction__GetValueOrDefault1::*)()>(
     &::System::Linq::Expressions::Interpreter::__NullableMethodCallInstruction__GetValueOrDefault1::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b4cf34;
+  constexpr static std::size_t addrs = 0x2c49834;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

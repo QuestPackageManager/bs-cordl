@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Enumerable.hpp"
 #include "System/Collections/Generic/zzzz__List_1_impl.hpp"
 #include "System/Linq/zzzz__Buffer_1_impl.hpp"
 #include "System/Linq/zzzz__Enumerable_impl.hpp"
@@ -1943,6 +1944,299 @@ template <typename TSource> inline ::System::Collections::IEnumerator* System::L
 }
 // Ctor Parameters []
 template <typename TSource> constexpr ::System::Linq::__Enumerable___ConcatIterator_d__59_1<TSource>::__Enumerable___ConcatIterator_d__59_1() {}
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TResult>"
+template <typename TFirst, typename TSecond, typename TResult>
+constexpr System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>::operator ::System::Collections::Generic::IEnumerable_1<TResult>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<TResult>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<TResult>"
+template <typename TFirst, typename TSecond, typename TResult>
+constexpr ::System::Collections::Generic::IEnumerable_1<TResult>*
+System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>::i___System__Collections__Generic__IEnumerable_1_TResult_() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerable_1<TResult>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+template <typename TFirst, typename TSecond, typename TResult>
+constexpr System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>::operator ::System::Collections::IEnumerable*() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerable"
+template <typename TFirst, typename TSecond, typename TResult>
+constexpr ::System::Collections::IEnumerable* System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>::i___System__Collections__IEnumerable() noexcept {
+  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<TResult>"
+template <typename TFirst, typename TSecond, typename TResult>
+constexpr System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>::operator ::System::Collections::Generic::IEnumerator_1<TResult>*() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<TResult>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<TResult>"
+template <typename TFirst, typename TSecond, typename TResult>
+constexpr ::System::Collections::Generic::IEnumerator_1<TResult>*
+System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>::i___System__Collections__Generic__IEnumerator_1_TResult_() noexcept {
+  return static_cast<::System::Collections::Generic::IEnumerator_1<TResult>*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::IDisposable"
+template <typename TFirst, typename TSecond, typename TResult> constexpr System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+template <typename TFirst, typename TSecond, typename TResult>
+constexpr ::System::IDisposable* System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>::i___System__IDisposable() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+template <typename TFirst, typename TSecond, typename TResult>
+constexpr System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>::operator ::System::Collections::IEnumerator*() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::Collections::IEnumerator"
+template <typename TFirst, typename TSecond, typename TResult>
+constexpr ::System::Collections::IEnumerator* System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>::i___System__Collections__IEnumerator() noexcept {
+  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
+}
+template <typename TFirst, typename TSecond, typename TResult> constexpr int32_t& System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>::__cordl_internal_get___1__state() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____1__state;
+}
+template <typename TFirst, typename TSecond, typename TResult>
+constexpr int32_t const& System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>::__cordl_internal_get___1__state() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____1__state;
+}
+template <typename TFirst, typename TSecond, typename TResult>
+constexpr void System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>::__cordl_internal_set___1__state(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____1__state = value;
+}
+template <typename TFirst, typename TSecond, typename TResult> constexpr TResult& System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>::__cordl_internal_get___2__current() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____2__current;
+}
+template <typename TFirst, typename TSecond, typename TResult>
+constexpr TResult const& System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>::__cordl_internal_get___2__current() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____2__current;
+}
+template <typename TFirst, typename TSecond, typename TResult>
+constexpr void System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>::__cordl_internal_set___2__current(TResult value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+template <typename TFirst, typename TSecond, typename TResult>
+constexpr int32_t& System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>::__cordl_internal_get___l__initialThreadId() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____l__initialThreadId;
+}
+template <typename TFirst, typename TSecond, typename TResult>
+constexpr int32_t const& System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>::__cordl_internal_get___l__initialThreadId() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____l__initialThreadId;
+}
+template <typename TFirst, typename TSecond, typename TResult>
+constexpr void System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>::__cordl_internal_set___l__initialThreadId(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->_____l__initialThreadId = value;
+}
+template <typename TFirst, typename TSecond, typename TResult>
+constexpr ::System::Collections::Generic::IEnumerable_1<TFirst>*& System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>::__cordl_internal_get_first() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___first;
+}
+template <typename TFirst, typename TSecond, typename TResult>
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<TFirst>*> const&
+System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>::__cordl_internal_get_first() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___first;
+}
+template <typename TFirst, typename TSecond, typename TResult>
+constexpr void System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>::__cordl_internal_set_first(::System::Collections::Generic::IEnumerable_1<TFirst>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___first)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+template <typename TFirst, typename TSecond, typename TResult>
+constexpr ::System::Collections::Generic::IEnumerable_1<TFirst>*& System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>::__cordl_internal_get___3__first() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____3__first;
+}
+template <typename TFirst, typename TSecond, typename TResult>
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<TFirst>*> const&
+System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>::__cordl_internal_get___3__first() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____3__first;
+}
+template <typename TFirst, typename TSecond, typename TResult>
+constexpr void System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>::__cordl_internal_set___3__first(::System::Collections::Generic::IEnumerable_1<TFirst>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__first)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+template <typename TFirst, typename TSecond, typename TResult>
+constexpr ::System::Collections::Generic::IEnumerable_1<TSecond>*& System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>::__cordl_internal_get_second() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___second;
+}
+template <typename TFirst, typename TSecond, typename TResult>
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<TSecond>*> const&
+System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>::__cordl_internal_get_second() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___second;
+}
+template <typename TFirst, typename TSecond, typename TResult>
+constexpr void System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>::__cordl_internal_set_second(::System::Collections::Generic::IEnumerable_1<TSecond>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___second)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+template <typename TFirst, typename TSecond, typename TResult>
+constexpr ::System::Collections::Generic::IEnumerable_1<TSecond>*& System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>::__cordl_internal_get___3__second() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____3__second;
+}
+template <typename TFirst, typename TSecond, typename TResult>
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<TSecond>*> const&
+System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>::__cordl_internal_get___3__second() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____3__second;
+}
+template <typename TFirst, typename TSecond, typename TResult>
+constexpr void System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>::__cordl_internal_set___3__second(::System::Collections::Generic::IEnumerable_1<TSecond>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__second)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+template <typename TFirst, typename TSecond, typename TResult>
+constexpr ::System::Func_3<TFirst, TSecond, TResult>*& System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>::__cordl_internal_get_resultSelector() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___resultSelector;
+}
+template <typename TFirst, typename TSecond, typename TResult>
+constexpr ::cordl_internals::to_const_pointer<::System::Func_3<TFirst, TSecond, TResult>*> const&
+System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>::__cordl_internal_get_resultSelector() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___resultSelector;
+}
+template <typename TFirst, typename TSecond, typename TResult>
+constexpr void System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>::__cordl_internal_set_resultSelector(::System::Func_3<TFirst, TSecond, TResult>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___resultSelector)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+template <typename TFirst, typename TSecond, typename TResult>
+constexpr ::System::Func_3<TFirst, TSecond, TResult>*& System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>::__cordl_internal_get___3__resultSelector() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____3__resultSelector;
+}
+template <typename TFirst, typename TSecond, typename TResult>
+constexpr ::cordl_internals::to_const_pointer<::System::Func_3<TFirst, TSecond, TResult>*> const&
+System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>::__cordl_internal_get___3__resultSelector() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->_____3__resultSelector;
+}
+template <typename TFirst, typename TSecond, typename TResult>
+constexpr void System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>::__cordl_internal_set___3__resultSelector(::System::Func_3<TFirst, TSecond, TResult>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__resultSelector)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+template <typename TFirst, typename TSecond, typename TResult>
+constexpr ::System::Collections::Generic::IEnumerator_1<TFirst>*& System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>::__cordl_internal_get__e1_5__2() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____e1_5__2;
+}
+template <typename TFirst, typename TSecond, typename TResult>
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<TFirst>*> const&
+System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>::__cordl_internal_get__e1_5__2() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____e1_5__2;
+}
+template <typename TFirst, typename TSecond, typename TResult>
+constexpr void System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>::__cordl_internal_set__e1_5__2(::System::Collections::Generic::IEnumerator_1<TFirst>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____e1_5__2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+template <typename TFirst, typename TSecond, typename TResult>
+constexpr ::System::Collections::Generic::IEnumerator_1<TSecond>*& System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>::__cordl_internal_get__e2_5__3() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____e2_5__3;
+}
+template <typename TFirst, typename TSecond, typename TResult>
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<TSecond>*> const&
+System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>::__cordl_internal_get__e2_5__3() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____e2_5__3;
+}
+template <typename TFirst, typename TSecond, typename TResult>
+constexpr void System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>::__cordl_internal_set__e2_5__3(::System::Collections::Generic::IEnumerator_1<TSecond>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____e2_5__3)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+template <typename TFirst, typename TSecond, typename TResult>
+inline ::System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>* System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>*>(__1__state));
+}
+template <typename TFirst, typename TSecond, typename TResult> inline void System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>::_ctor(int32_t __1__state) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
+}
+template <typename TFirst, typename TSecond, typename TResult> inline void System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>::System_IDisposable_Dispose() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>*>::get(),
+                                               "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename TFirst, typename TSecond, typename TResult> inline bool System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>*>::get(), "MoveNext",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+template <typename TFirst, typename TSecond, typename TResult> inline void System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>::__m__Finally1() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>*>::get(),
+                                               "<>m__Finally1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename TFirst, typename TSecond, typename TResult> inline void System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>::__m__Finally2() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>*>::get(),
+                                               "<>m__Finally2", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename TFirst, typename TSecond, typename TResult>
+inline TResult System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>::System_Collections_Generic_IEnumerator_TResult__get_Current() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>*>::get(),
+                                               "System.Collections.Generic.IEnumerator<TResult>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<TResult, false>(this, ___internal_method);
+}
+template <typename TFirst, typename TSecond, typename TResult> inline void System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>::System_Collections_IEnumerator_Reset() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>*>::get(),
+                                               "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename TFirst, typename TSecond, typename TResult>
+inline ::System::Object* System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>::System_Collections_IEnumerator_get_Current() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>*>::get(),
+                                               "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+}
+template <typename TFirst, typename TSecond, typename TResult>
+inline ::System::Collections::Generic::IEnumerator_1<TResult>*
+System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>::System_Collections_Generic_IEnumerable_TResult__GetEnumerator() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>*>::get(),
+                                               "System.Collections.Generic.IEnumerable<TResult>.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<TResult>*, false>(this, ___internal_method);
+}
+template <typename TFirst, typename TSecond, typename TResult>
+inline ::System::Collections::IEnumerator* System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>::System_Collections_IEnumerable_GetEnumerator() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>*>::get(),
+                                               "System.Collections.IEnumerable.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method);
+}
+// Ctor Parameters []
+template <typename TFirst, typename TSecond, typename TResult> constexpr ::System::Linq::__Enumerable___ZipIterator_d__65_3<TFirst, TSecond, TResult>::__Enumerable___ZipIterator_d__65_3() {}
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TSource>"
 template <typename TSource> constexpr System::Linq::__Enumerable___DistinctIterator_d__68_1<TSource>::operator ::System::Collections::Generic::IEnumerable_1<TSource>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerable_1<TSource>*>(static_cast<void*>(this));
@@ -3693,7 +3987,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::__Enumerable___RangeIterator_d__115::*)(int32_t)>(
     &::System::Linq::__Enumerable___RangeIterator_d__115::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x2ae30c0;
+  constexpr static std::size_t addrs = 0x2bdf6a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3708,7 +4002,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::__Enumerable___RangeIterator_d__115::*)()>(
     &::System::Linq::__Enumerable___RangeIterator_d__115::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2ae4584;
+  constexpr static std::size_t addrs = 0x2be0e84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::__Enumerable___RangeIterator_d__115*>::get(),
@@ -3722,7 +4016,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Linq::__Enumerable___RangeIterator_d__115::*)()>(
     &::System::Linq::__Enumerable___RangeIterator_d__115::MoveNext)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2ae4588;
+  constexpr static std::size_t addrs = 0x2be0e88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::__Enumerable___RangeIterator_d__115*>::get(),
@@ -3736,7 +4030,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::__Enumerable___RangeIterator_d__115::*)()>(
     &::System::Linq::__Enumerable___RangeIterator_d__115::System_Collections_Generic_IEnumerator_System_Int32__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ae45ec;
+  constexpr static std::size_t addrs = 0x2be0eec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3751,7 +4045,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::__Enumerable___RangeIterator_d__115::*)()>(
     &::System::Linq::__Enumerable___RangeIterator_d__115::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2ae45f4;
+  constexpr static std::size_t addrs = 0x2be0ef4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3766,7 +4060,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Linq::__Enumerable___RangeIterator_d__115::*)()>(
     &::System::Linq::__Enumerable___RangeIterator_d__115::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x2ae4634;
+  constexpr static std::size_t addrs = 0x2be0f34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3781,7 +4075,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerator_1<int32_t>* (::System::Linq::__Enumerable___RangeIterator_d__115::*)()>(
     &::System::Linq::__Enumerable___RangeIterator_d__115::System_Collections_Generic_IEnumerable_System_Int32__GetEnumerator)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x2ae4690;
+  constexpr static std::size_t addrs = 0x2be0f90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3796,7 +4090,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::Linq::__Enumerable___RangeIterator_d__115::*)()>(
     &::System::Linq::__Enumerable___RangeIterator_d__115::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2ae473c;
+  constexpr static std::size_t addrs = 0x2be103c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3997,7 +4291,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<int32_t>* (*)(int32_t, int32_t)>(&::System::Linq::Enumerable::Range)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x2ae2fec;
+  constexpr static std::size_t addrs = 0x2bdf5cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4012,7 +4306,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<int32_t>* (*)(int32_t, int32_t)>(
     &::System::Linq::Enumerable::RangeIterator)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x2ae3038;
+  constexpr static std::size_t addrs = 0x2bdf618;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4026,7 +4320,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::Collections::Generic::IEnumerable_1<int32_t>*)>(&::System::Linq::Enumerable::Sum)> {
   constexpr static std::size_t size = 0x330;
-  constexpr static std::size_t addrs = 0x2ae30f4;
+  constexpr static std::size_t addrs = 0x2bdf6d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4035,12 +4329,26 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::System::Linq::Enumerable.Sum
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::System::Collections::Generic::IEnumerable_1<float_t>*)>(&::System::Linq::Enumerable::Sum)> {
+  constexpr static std::size_t size = 0x320;
+  constexpr static std::size_t addrs = 0x2bdfa04;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Enumerable*>::get(), "Sum", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<float_t>*>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::System::Linq::Enumerable.Min
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::Collections::Generic::IEnumerable_1<int32_t>*)>(&::System::Linq::Enumerable::Min)> {
   constexpr static std::size_t size = 0x328;
-  constexpr static std::size_t addrs = 0x2ae3424;
+  constexpr static std::size_t addrs = 0x2bdfd24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4054,7 +4362,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::System::Collections::Generic::IEnumerable_1<float_t>*)>(&::System::Linq::Enumerable::Min)> {
   constexpr static std::size_t size = 0x3ac;
-  constexpr static std::size_t addrs = 0x2ae374c;
+  constexpr static std::size_t addrs = 0x2be004c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4068,7 +4376,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::Collections::Generic::IEnumerable_1<int32_t>*)>(&::System::Linq::Enumerable::Max)> {
   constexpr static std::size_t size = 0x328;
-  constexpr static std::size_t addrs = 0x2ae3af8;
+  constexpr static std::size_t addrs = 0x2be03f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4082,7 +4390,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::System::Collections::Generic::IEnumerable_1<float_t>*)>(&::System::Linq::Enumerable::Max)> {
   constexpr static std::size_t size = 0x3b0;
-  constexpr static std::size_t addrs = 0x2ae3e20;
+  constexpr static std::size_t addrs = 0x2be0720;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4096,7 +4404,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)(::System::Collections::Generic::IEnumerable_1<int32_t>*)>(&::System::Linq::Enumerable::Average)> {
   constexpr static std::size_t size = 0x3b4;
-  constexpr static std::size_t addrs = 0x2ae41d0;
+  constexpr static std::size_t addrs = 0x2be0ad0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4339,6 +4647,40 @@ inline ::System::Collections::Generic::IEnumerable_1<TSource>* System::Linq::Enu
   static auto* ___internal_method =
       THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSource>::get() }));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TSource>*, false>(nullptr, ___internal_method, first, second);
+}
+template <typename TFirst, typename TSecond, typename TResult>
+inline ::System::Collections::Generic::IEnumerable_1<TResult>* System::Linq::Enumerable::Zip(::System::Collections::Generic::IEnumerable_1<TFirst>* first,
+                                                                                             ::System::Collections::Generic::IEnumerable_1<TSecond>* second,
+                                                                                             ::System::Func_3<TFirst, TSecond, TResult>* resultSelector) {
+  static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Enumerable*>::get(), "Zip",
+      std::array<Il2CppClass const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFirst>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSecond>::get(),
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get() },
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<TFirst>*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<TSecond>*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_3<TFirst, TSecond, TResult>*>::get() })));
+  static auto* ___internal_method =
+      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFirst>::get(),
+                                                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSecond>::get(),
+                                                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get() }));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TResult>*, false>(nullptr, ___internal_method, first, second, resultSelector);
+}
+template <typename TFirst, typename TSecond, typename TResult>
+inline ::System::Collections::Generic::IEnumerable_1<TResult>* System::Linq::Enumerable::ZipIterator(::System::Collections::Generic::IEnumerable_1<TFirst>* first,
+                                                                                                     ::System::Collections::Generic::IEnumerable_1<TSecond>* second,
+                                                                                                     ::System::Func_3<TFirst, TSecond, TResult>* resultSelector) {
+  static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Enumerable*>::get(), "ZipIterator",
+      std::array<Il2CppClass const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFirst>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSecond>::get(),
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get() },
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<TFirst>*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<TSecond>*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_3<TFirst, TSecond, TResult>*>::get() })));
+  static auto* ___internal_method =
+      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TFirst>::get(),
+                                                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSecond>::get(),
+                                                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TResult>::get() }));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TResult>*, false>(nullptr, ___internal_method, first, second, resultSelector);
 }
 template <typename TSource> inline ::System::Collections::Generic::IEnumerable_1<TSource>* System::Linq::Enumerable::Distinct(::System::Collections::Generic::IEnumerable_1<TSource>* source) {
   static auto* ___internal_method_base = THROW_UNLESS(
@@ -4837,6 +5179,12 @@ inline int32_t System::Linq::Enumerable::Sum(::System::Collections::Generic::IEn
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Enumerable*>::get(), "Sum", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<int32_t>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, source);
+}
+inline float_t System::Linq::Enumerable::Sum(::System::Collections::Generic::IEnumerable_1<float_t>* source) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Enumerable*>::get(), "Sum", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<float_t>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, source);
 }
 template <typename TSource> inline int32_t System::Linq::Enumerable::Sum(::System::Collections::Generic::IEnumerable_1<TSource>* source, ::System::Func_2<TSource, int32_t>* selector) {
   static auto* ___internal_method_base = THROW_UNLESS(

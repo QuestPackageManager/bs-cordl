@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/Channels/IServerChannelSinkProvider.hpp"
 #include "System/Runtime/Remoting/Channels/zzzz__IServerChannelSinkProvider_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::Channels::IServerChannelSinkProvider.set_Next
 template <>

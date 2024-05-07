@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ProBuilder/Shapes/Cube.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,15 +42,15 @@ public:
   /// @brief Field k_CubeVertices, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_k_CubeVertices, put = setStaticF_k_CubeVertices))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> k_CubeVertices;
 
-  /// @brief Method CopyShape, addr 0x30b926c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method CopyShape, addr 0x32bfcf4, size 0x4, virtual true, abstract: false, final false
   inline void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* shape);
 
   static inline ::UnityEngine::ProBuilder::Shapes::Cube* New_ctor();
 
-  /// @brief Method RebuildMesh, addr 0x30b9270, size 0x20c, virtual true, abstract: false, final false
+  /// @brief Method RebuildMesh, addr 0x32bfcf8, size 0x20c, virtual true, abstract: false, final false
   inline ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method .ctor, addr 0x30b947c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32bff04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_k_CubeTriangles();

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/StringSplitOptions.hpp"
 #include "System/zzzz__StringSplitOptions_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::StringSplitOptions::StringSplitOptions(int32_t value__) noexcept {

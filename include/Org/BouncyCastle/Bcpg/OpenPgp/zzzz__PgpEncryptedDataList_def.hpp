@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Bcpg/OpenPgp/PgpEncryptedDataList.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,10 +52,10 @@ public:
   /// @brief Field list, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_list, put = __cordl_internal_set_list))::System::Collections::IList* list;
 
-  /// @brief Method Get, addr 0x121d5c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x130dcec, size 0x4, virtual false, abstract: false, final false
   inline ::System::Object* Get(int32_t index);
 
-  /// @brief Method GetEncryptedDataObjects, addr 0x121d7c4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetEncryptedDataObjects, addr 0x130dee8, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerable* GetEncryptedDataObjects();
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataList* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
@@ -71,19 +72,19 @@ public:
 
   constexpr void __cordl_internal_set_list(::System::Collections::IList* value);
 
-  /// @brief Method .ctor, addr 0x121cf48, size 0x55c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x130d66c, size 0x55c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
 
-  /// @brief Method get_Count, addr 0x121d670, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x130dd94, size 0xa4, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsEmpty, addr 0x121d714, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method get_IsEmpty, addr 0x130de38, size 0xb0, virtual false, abstract: false, final false
   inline bool get_IsEmpty();
 
-  /// @brief Method get_Item, addr 0x121d4d4, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x130dbf8, size 0xf4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData* get_Item(int32_t index);
 
-  /// @brief Method get_Size, addr 0x121d5cc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_Size, addr 0x130dcf0, size 0xa4, virtual false, abstract: false, final false
   inline int32_t get_Size();
 
 protected:

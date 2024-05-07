@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Processors/CompensateDirectionProcessor.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,13 +29,13 @@ public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Processors::CompensateDirectionProcessor* New_ctor();
 
-  /// @brief Method Process, addr 0x302b768, size 0x1f0, virtual true, abstract: false, final false
+  /// @brief Method Process, addr 0x31674f4, size 0x1f0, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 Process(::UnityEngine::Vector3 value, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method ToString, addr 0x302b958, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x31676e4, size 0x40, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x302b998, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3167724, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

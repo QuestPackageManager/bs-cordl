@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Pool/PooledObject_1.hpp"
 #include "UnityEngine/Pool/zzzz__PooledObject_1_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/Pool/zzzz__IObjectPool_1_def.hpp"

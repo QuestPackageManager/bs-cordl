@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/Test_HAPI_ParmInfo.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_ParmInfo_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__Test_HAPI_ParmInfo_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::Test_HAPI_ParmInfo::*)(::HoudiniEngineUnity::HAPI_ParmInfo)>(
     &::HoudiniEngineUnity::Test_HAPI_ParmInfo::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x24cfc54;
+  constexpr static std::size_t addrs = 0x25c78e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::Test_HAPI_ParmInfo::*)(::HoudiniEngineUnity::Test_HAPI_ParmInfo*)>(
     &::HoudiniEngineUnity::Test_HAPI_ParmInfo::IsEquivalentTo)> {
   constexpr static std::size_t size = 0x78c;
-  constexpr static std::size_t addrs = 0x24cfc88;
+  constexpr static std::size_t addrs = 0x25c7914;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((

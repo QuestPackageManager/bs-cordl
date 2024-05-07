@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Math/EC/LongArray.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,144 +51,144 @@ public:
   /// @brief Field m_ints, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ints, put = __cordl_internal_set_m_ints))::ArrayW<int64_t, ::Array<int64_t>*> m_ints;
 
-  /// @brief Method Add, addr 0x11c8364, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x12b8a88, size 0x78, virtual false, abstract: false, final false
   static inline void Add(::ArrayW<int64_t, ::Array<int64_t>*> x, int32_t xOff, ::ArrayW<int64_t, ::Array<int64_t>*> y, int32_t yOff, int32_t count);
 
-  /// @brief Method Add, addr 0x11c8510, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x12b8c34, size 0x90, virtual false, abstract: false, final false
   static inline void Add(::ArrayW<int64_t, ::Array<int64_t>*> x, int32_t xOff, ::ArrayW<int64_t, ::Array<int64_t>*> y, int32_t yOff, ::ArrayW<int64_t, ::Array<int64_t>*> z, int32_t zOff,
                          int32_t count);
 
-  /// @brief Method AddBoth, addr 0x11c85a0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method AddBoth, addr 0x12b8cc4, size 0x98, virtual false, abstract: false, final false
   static inline void AddBoth(::ArrayW<int64_t, ::Array<int64_t>*> x, int32_t xOff, ::ArrayW<int64_t, ::Array<int64_t>*> y1, int32_t y1Off, ::ArrayW<int64_t, ::Array<int64_t>*> y2, int32_t y2Off,
                              int32_t count);
 
-  /// @brief Method AddOne, addr 0x11c1160, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method AddOne, addr 0x12b1884, size 0x11c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::LongArray* AddOne();
 
-  /// @brief Method AddShiftedByBitsSafe, addr 0x11c8264, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method AddShiftedByBitsSafe, addr 0x12b8988, size 0x100, virtual false, abstract: false, final false
   inline void AddShiftedByBitsSafe(::Org::BouncyCastle::Math::EC::LongArray* other, int32_t otherDegree, int32_t bits);
 
-  /// @brief Method AddShiftedByWords, addr 0x11c1000, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method AddShiftedByWords, addr 0x12b1724, size 0xd4, virtual false, abstract: false, final false
   inline void AddShiftedByWords(::Org::BouncyCastle::Math::EC::LongArray* other, int32_t words);
 
-  /// @brief Method AddShiftedDown, addr 0x11c8480, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method AddShiftedDown, addr 0x12b8ba4, size 0x90, virtual false, abstract: false, final false
   static inline int64_t AddShiftedDown(::ArrayW<int64_t, ::Array<int64_t>*> x, int32_t xOff, ::ArrayW<int64_t, ::Array<int64_t>*> y, int32_t yOff, int32_t count, int32_t shift);
 
-  /// @brief Method AddShiftedUp, addr 0x11c83dc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method AddShiftedUp, addr 0x12b8b00, size 0xa4, virtual false, abstract: false, final false
   static inline int64_t AddShiftedUp(::ArrayW<int64_t, ::Array<int64_t>*> x, int32_t xOff, ::ArrayW<int64_t, ::Array<int64_t>*> y, int32_t yOff, int32_t count, int32_t shift);
 
-  /// @brief Method BitLength, addr 0x11c7ec4, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method BitLength, addr 0x12b85e8, size 0x120, virtual false, abstract: false, final false
   static inline int32_t BitLength(int64_t w);
 
-  /// @brief Method Copy, addr 0x11c0f60, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Copy, addr 0x12b1684, size 0xa0, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::LongArray* Copy();
 
-  /// @brief Method CopyTo, addr 0x11be23c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x12ae960, size 0x2c, virtual false, abstract: false, final false
   inline void CopyTo(::ArrayW<int64_t, ::Array<int64_t>*> z, int32_t zOff);
 
-  /// @brief Method Degree, addr 0x11c085c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Degree, addr 0x12b0f80, size 0xa4, virtual false, abstract: false, final false
   inline int32_t Degree();
 
-  /// @brief Method DegreeFrom, addr 0x11c7fe4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method DegreeFrom, addr 0x12b8708, size 0xac, virtual false, abstract: false, final false
   inline int32_t DegreeFrom(int32_t limit);
 
-  /// @brief Method Distribute, addr 0x11c8638, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Distribute, addr 0x12b8d5c, size 0xa8, virtual false, abstract: false, final false
   static inline void Distribute(::ArrayW<int64_t, ::Array<int64_t>*> x, int32_t src, int32_t dst1, int32_t dst2, int32_t count);
 
-  /// @brief Method Equals, addr 0x11ca908, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x12bb02c, size 0x88, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x11ca990, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x12bb0b4, size 0xb0, virtual true, abstract: false, final false
   inline bool Equals(::Org::BouncyCastle::Math::EC::LongArray* other);
 
-  /// @brief Method FlipBit, addr 0x11c87b8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method FlipBit, addr 0x12b8edc, size 0x44, virtual false, abstract: false, final false
   static inline void FlipBit(::ArrayW<int64_t, ::Array<int64_t>*> buf, int32_t off, int32_t n);
 
-  /// @brief Method FlipVector, addr 0x11c9dcc, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method FlipVector, addr 0x12ba4f0, size 0x100, virtual false, abstract: false, final false
   static inline void FlipVector(::ArrayW<int64_t, ::Array<int64_t>*> x, int32_t xOff, ::ArrayW<int64_t, ::Array<int64_t>*> y, int32_t yOff, int32_t yLen, int32_t bits);
 
-  /// @brief Method FlipWord, addr 0x11c86fc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method FlipWord, addr 0x12b8e20, size 0x7c, virtual false, abstract: false, final false
   static inline void FlipWord(::ArrayW<int64_t, ::Array<int64_t>*> buf, int32_t off, int32_t bit, int64_t word);
 
-  /// @brief Method GetHashCode, addr 0x11caa40, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x12bb164, size 0x7c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetUsedLength, addr 0x11c7dc8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetUsedLength, addr 0x12b84ec, size 0x1c, virtual false, abstract: false, final false
   inline int32_t GetUsedLength();
 
-  /// @brief Method GetUsedLengthFrom, addr 0x11c7de4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method GetUsedLengthFrom, addr 0x12b8508, size 0xe0, virtual false, abstract: false, final false
   inline int32_t GetUsedLengthFrom(int32_t from);
 
-  /// @brief Method Interleave, addr 0x11c93a0, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method Interleave, addr 0x12b9ac4, size 0x178, virtual false, abstract: false, final false
   static inline void Interleave(::ArrayW<int64_t, ::Array<int64_t>*> x, int32_t xOff, ::ArrayW<int64_t, ::Array<int64_t>*> z, int32_t zOff, int32_t count, int32_t width);
 
-  /// @brief Method Interleave2_32to64, addr 0x11c9ecc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Interleave2_32to64, addr 0x12ba5f0, size 0xc0, virtual false, abstract: false, final false
   static inline int64_t Interleave2_32to64(int32_t x);
 
-  /// @brief Method Interleave2_n, addr 0x11ca788, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Interleave2_n, addr 0x12baeac, size 0xec, virtual false, abstract: false, final false
   static inline int64_t Interleave2_n(int64_t x, int32_t rounds);
 
-  /// @brief Method Interleave2_n, addr 0x11ca318, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Interleave2_n, addr 0x12baa3c, size 0xf4, virtual false, abstract: false, final false
   static inline void Interleave2_n(::ArrayW<int64_t, ::Array<int64_t>*> x, int32_t xOff, ::ArrayW<int64_t, ::Array<int64_t>*> z, int32_t zOff, int32_t count, int32_t rounds);
 
-  /// @brief Method Interleave3, addr 0x11ca40c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Interleave3, addr 0x12bab30, size 0x88, virtual false, abstract: false, final false
   static inline int64_t Interleave3(int64_t x);
 
-  /// @brief Method Interleave3, addr 0x11ca06c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Interleave3, addr 0x12ba790, size 0xe4, virtual false, abstract: false, final false
   static inline void Interleave3(::ArrayW<int64_t, ::Array<int64_t>*> x, int32_t xOff, ::ArrayW<int64_t, ::Array<int64_t>*> z, int32_t zOff, int32_t count);
 
-  /// @brief Method Interleave3_13to65, addr 0x11ca5e0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Interleave3_13to65, addr 0x12bad04, size 0x94, virtual false, abstract: false, final false
   static inline int64_t Interleave3_13to65(int32_t x);
 
-  /// @brief Method Interleave3_21to63, addr 0x11ca494, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Interleave3_21to63, addr 0x12babb8, size 0xac, virtual false, abstract: false, final false
   static inline int64_t Interleave3_21to63(int32_t x);
 
-  /// @brief Method Interleave4_16to64, addr 0x11ca874, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Interleave4_16to64, addr 0x12baf98, size 0x94, virtual false, abstract: false, final false
   static inline int64_t Interleave4_16to64(int32_t x);
 
-  /// @brief Method Interleave5, addr 0x11ca540, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Interleave5, addr 0x12bac64, size 0xa0, virtual false, abstract: false, final false
   static inline int64_t Interleave5(int64_t x);
 
-  /// @brief Method Interleave5, addr 0x11ca150, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Interleave5, addr 0x12ba874, size 0xe4, virtual false, abstract: false, final false
   static inline void Interleave5(::ArrayW<int64_t, ::Array<int64_t>*> x, int32_t xOff, ::ArrayW<int64_t, ::Array<int64_t>*> z, int32_t zOff, int32_t count);
 
-  /// @brief Method Interleave7, addr 0x11ca674, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method Interleave7, addr 0x12bad98, size 0x114, virtual false, abstract: false, final false
   static inline int64_t Interleave7(int64_t x);
 
-  /// @brief Method Interleave7, addr 0x11ca234, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Interleave7, addr 0x12ba958, size 0xe4, virtual false, abstract: false, final false
   static inline void Interleave7(::ArrayW<int64_t, ::Array<int64_t>*> x, int32_t xOff, ::ArrayW<int64_t, ::Array<int64_t>*> z, int32_t zOff, int32_t count);
 
-  /// @brief Method IsOne, addr 0x11c0918, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method IsOne, addr 0x12b103c, size 0x60, virtual false, abstract: false, final false
   inline bool IsOne();
 
-  /// @brief Method IsZero, addr 0x11c09cc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method IsZero, addr 0x12b10f0, size 0x4c, virtual false, abstract: false, final false
   inline bool IsZero();
 
-  /// @brief Method ModInverse, addr 0x11c25ec, size 0x480, virtual false, abstract: false, final false
+  /// @brief Method ModInverse, addr 0x12b2d10, size 0x480, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::LongArray* ModInverse(int32_t m, ::ArrayW<int32_t, ::Array<int32_t>*> ks);
 
-  /// @brief Method ModMultiply, addr 0x11c135c, size 0x450, virtual false, abstract: false, final false
+  /// @brief Method ModMultiply, addr 0x12b1a80, size 0x450, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::LongArray* ModMultiply(::Org::BouncyCastle::Math::EC::LongArray* other, int32_t m, ::ArrayW<int32_t, ::Array<int32_t>*> ks);
 
-  /// @brief Method ModMultiplyAlt, addr 0x11c8ee4, size 0x4bc, virtual false, abstract: false, final false
+  /// @brief Method ModMultiplyAlt, addr 0x12b9608, size 0x4bc, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::LongArray* ModMultiplyAlt(::Org::BouncyCastle::Math::EC::LongArray* other, int32_t m, ::ArrayW<int32_t, ::Array<int32_t>*> ks);
 
-  /// @brief Method ModMultiplyLD, addr 0x11c8914, size 0x518, virtual false, abstract: false, final false
+  /// @brief Method ModMultiplyLD, addr 0x12b9038, size 0x518, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::LongArray* ModMultiplyLD(::Org::BouncyCastle::Math::EC::LongArray* other, int32_t m, ::ArrayW<int32_t, ::Array<int32_t>*> ks);
 
-  /// @brief Method ModReduce, addr 0x11c9518, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method ModReduce, addr 0x12b9c3c, size 0xe4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::LongArray* ModReduce(int32_t m, ::ArrayW<int32_t, ::Array<int32_t>*> ks);
 
-  /// @brief Method ModSquare, addr 0x11c1f3c, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method ModSquare, addr 0x12b2660, size 0x190, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::LongArray* ModSquare(int32_t m, ::ArrayW<int32_t, ::Array<int32_t>*> ks);
 
-  /// @brief Method ModSquareN, addr 0x11c2424, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method ModSquareN, addr 0x12b2b48, size 0x134, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::LongArray* ModSquareN(int32_t n, int32_t m, ::ArrayW<int32_t, ::Array<int32_t>*> ks);
 
-  /// @brief Method Multiply, addr 0x11c1954, size 0x430, virtual false, abstract: false, final false
+  /// @brief Method Multiply, addr 0x12b2078, size 0x430, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::LongArray* Multiply(::Org::BouncyCastle::Math::EC::LongArray* other, int32_t m, ::ArrayW<int32_t, ::Array<int32_t>*> ks);
 
-  /// @brief Method MultiplyWord, addr 0x11c87fc, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method MultiplyWord, addr 0x12b8f20, size 0x118, virtual false, abstract: false, final false
   static inline void MultiplyWord(int64_t a, ::ArrayW<int64_t, ::Array<int64_t>*> b, int32_t bLen, ::ArrayW<int64_t, ::Array<int64_t>*> c, int32_t cOff);
 
   static inline ::Org::BouncyCastle::Math::EC::LongArray* New_ctor(::Org::BouncyCastle::Math::BigInteger* bigInt);
@@ -198,55 +199,55 @@ public:
 
   static inline ::Org::BouncyCastle::Math::EC::LongArray* New_ctor(::ArrayW<int64_t, ::Array<int64_t>*> ints, int32_t off, int32_t len);
 
-  /// @brief Method Reduce, addr 0x11c1d84, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Reduce, addr 0x12b24a8, size 0xe0, virtual false, abstract: false, final false
   inline void Reduce(int32_t m, ::ArrayW<int32_t, ::Array<int32_t>*> ks);
 
-  /// @brief Method ReduceBit, addr 0x11c9bb0, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method ReduceBit, addr 0x12ba2d4, size 0x114, virtual false, abstract: false, final false
   static inline void ReduceBit(::ArrayW<int64_t, ::Array<int64_t>*> buf, int32_t off, int32_t bit, int32_t m, ::ArrayW<int32_t, ::Array<int32_t>*> ks);
 
-  /// @brief Method ReduceBitWise, addr 0x11c9aec, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method ReduceBitWise, addr 0x12ba210, size 0xc4, virtual false, abstract: false, final false
   static inline void ReduceBitWise(::ArrayW<int64_t, ::Array<int64_t>*> buf, int32_t off, int32_t BitLength, int32_t m, ::ArrayW<int32_t, ::Array<int32_t>*> ks);
 
-  /// @brief Method ReduceInPlace, addr 0x11c95fc, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method ReduceInPlace, addr 0x12b9d20, size 0x248, virtual false, abstract: false, final false
   static inline int32_t ReduceInPlace(::ArrayW<int64_t, ::Array<int64_t>*> buf, int32_t off, int32_t len, int32_t m, ::ArrayW<int32_t, ::Array<int32_t>*> ks);
 
-  /// @brief Method ReduceResult, addr 0x11c8e2c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method ReduceResult, addr 0x12b9550, size 0xb8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::EC::LongArray* ReduceResult(::ArrayW<int64_t, ::Array<int64_t>*> buf, int32_t off, int32_t len, int32_t m, ::ArrayW<int32_t, ::Array<int32_t>*> ks);
 
-  /// @brief Method ReduceVectorWise, addr 0x11c9844, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method ReduceVectorWise, addr 0x12b9f68, size 0x138, virtual false, abstract: false, final false
   static inline void ReduceVectorWise(::ArrayW<int64_t, ::Array<int64_t>*> buf, int32_t off, int32_t len, int32_t words, int32_t m, ::ArrayW<int32_t, ::Array<int32_t>*> ks);
 
-  /// @brief Method ReduceWord, addr 0x11c9cc4, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method ReduceWord, addr 0x12ba3e8, size 0x108, virtual false, abstract: false, final false
   static inline void ReduceWord(::ArrayW<int64_t, ::Array<int64_t>*> buf, int32_t off, int32_t bit, int64_t word, int32_t m, ::ArrayW<int32_t, ::Array<int32_t>*> ks);
 
-  /// @brief Method ReduceWordWise, addr 0x11c997c, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method ReduceWordWise, addr 0x12ba0a0, size 0x170, virtual false, abstract: false, final false
   static inline void ReduceWordWise(::ArrayW<int64_t, ::Array<int64_t>*> buf, int32_t off, int32_t len, int32_t toBit, int32_t m, ::ArrayW<int32_t, ::Array<int32_t>*> ks);
 
-  /// @brief Method ResizedInts, addr 0x11c8090, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ResizedInts, addr 0x12b87b4, size 0xbc, virtual false, abstract: false, final false
   inline ::ArrayW<int64_t, ::Array<int64_t>*> ResizedInts(int32_t newLen);
 
-  /// @brief Method ShiftUp, addr 0x11c814c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ShiftUp, addr 0x12b8870, size 0x80, virtual false, abstract: false, final false
   static inline int64_t ShiftUp(::ArrayW<int64_t, ::Array<int64_t>*> x, int32_t xOff, int32_t count, int32_t shift);
 
-  /// @brief Method ShiftUp, addr 0x11c81cc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method ShiftUp, addr 0x12b88f0, size 0x98, virtual false, abstract: false, final false
   static inline int64_t ShiftUp(::ArrayW<int64_t, ::Array<int64_t>*> x, int32_t xOff, ::ArrayW<int64_t, ::Array<int64_t>*> z, int32_t zOff, int32_t count, int32_t shift);
 
-  /// @brief Method Square, addr 0x11c2230, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method Square, addr 0x12b2954, size 0x150, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::LongArray* Square(int32_t m, ::ArrayW<int32_t, ::Array<int32_t>*> ks);
 
-  /// @brief Method SquareInPlace, addr 0x11c9f8c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method SquareInPlace, addr 0x12ba6b0, size 0xe0, virtual false, abstract: false, final false
   static inline void SquareInPlace(::ArrayW<int64_t, ::Array<int64_t>*> x, int32_t xLen, int32_t m, ::ArrayW<int32_t, ::Array<int32_t>*> ks);
 
-  /// @brief Method TestBit, addr 0x11c8778, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method TestBit, addr 0x12b8e9c, size 0x40, virtual false, abstract: false, final false
   static inline bool TestBit(::ArrayW<int64_t, ::Array<int64_t>*> buf, int32_t off, int32_t n);
 
-  /// @brief Method TestBitZero, addr 0x11c0a54, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method TestBitZero, addr 0x12b1178, size 0x34, virtual false, abstract: false, final false
   inline bool TestBitZero();
 
-  /// @brief Method ToBigInteger, addr 0x11c0aa0, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method ToBigInteger, addr 0x12b11c4, size 0x214, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* ToBigInteger();
 
-  /// @brief Method ToString, addr 0x11caabc, size 0x1bc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x12bb1e0, size 0x1bc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::ArrayW<int64_t, ::Array<int64_t>*> const& __cordl_internal_get_m_ints() const;
@@ -255,16 +256,16 @@ public:
 
   constexpr void __cordl_internal_set_m_ints(::ArrayW<int64_t, ::Array<int64_t>*> value);
 
-  /// @brief Method .ctor, addr 0x11c0610, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12b0d34, size 0x224, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* bigInt);
 
-  /// @brief Method .ctor, addr 0x11c7cac, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12b83d0, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(int32_t intLen);
 
-  /// @brief Method .ctor, addr 0x11be714, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12aee38, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<int64_t, ::Array<int64_t>*> ints);
 
-  /// @brief Method .ctor, addr 0x11c7d14, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12b8438, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<int64_t, ::Array<int64_t>*> ints, int32_t off, int32_t len);
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_BitLengths();
@@ -279,7 +280,7 @@ public:
 
   static inline ::ArrayW<int64_t, ::Array<int64_t>*> getStaticF_INTERLEAVE7_TABLE();
 
-  /// @brief Method get_Length, addr 0x11c86e0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x12b8e04, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
   static inline void setStaticF_BitLengths(::ArrayW<uint8_t, ::Array<uint8_t>*> value);

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ModifierSpec.hpp"
 #include "System/zzzz__ModifierSpec_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
 #include "System/zzzz__Type_def.hpp"

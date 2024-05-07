@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Collections/Generic/KeyValuePair.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,7 +23,7 @@ namespace System::Collections::Generic {
 class CORDL_TYPE KeyValuePair : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method PairToString, addr 0x2811a88, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method PairToString, addr 0x29111a8, size 0xc0, virtual false, abstract: false, final false
   static inline ::StringW PairToString(::System::Object* key, ::System::Object* value);
 
 protected:

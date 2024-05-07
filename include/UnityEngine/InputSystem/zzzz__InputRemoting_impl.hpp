@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/InputRemoting.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/Layouts/zzzz__InputDeviceDescription_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputRemoting_impl.hpp"
@@ -81,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::__InputRemoting__Subscriber::*)()>(
     &::UnityEngine::InputSystem::__InputRemoting__Subscriber::Dispose)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2fda91c;
+  constexpr static std::size_t addrs = 0x31166a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputRemoting__Subscriber*>::get(),
@@ -95,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::__InputRemoting__Subscriber::*)()>(
     &::UnityEngine::InputSystem::__InputRemoting__Subscriber::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2fd9120;
+  constexpr static std::size_t addrs = 0x3114eac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::__InputRemoting__Subscriber*>::get(),
@@ -157,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::InputSystem::InputRemoting*)>(
     &::UnityEngine::InputSystem::__InputRemoting__ConnectMsg::Process)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2fd847c;
+  constexpr static std::size_t addrs = 0x3114208;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -180,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::InputSystem::InputRemoting*)>(
     &::UnityEngine::InputSystem::__InputRemoting__StartSendingMsg::Process)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2fd9014;
+  constexpr static std::size_t addrs = 0x3114da0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -203,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::InputSystem::InputRemoting*)>(
     &::UnityEngine::InputSystem::__InputRemoting__StopSendingMsg::Process)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2fd9024;
+  constexpr static std::size_t addrs = 0x3114db0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -226,7 +227,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::InputSystem::InputRemoting*, ::UnityEngine::InputSystem::__InputRemoting__Message)>(
     &::UnityEngine::InputSystem::__InputRemoting__DisconnectMsg::Process)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x2fd84c0;
+  constexpr static std::size_t addrs = 0x311424c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -260,7 +261,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<::UnityEngine::InputSystem::__InputRemoting__Message> (*)(
     ::UnityEngine::InputSystem::InputRemoting*, ::StringW)>(&::UnityEngine::InputSystem::__InputRemoting__NewLayoutMsg::Create)> {
   constexpr static std::size_t size = 0x24c;
-  constexpr static std::size_t addrs = 0x2fd9498;
+  constexpr static std::size_t addrs = 0x3115224;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -276,7 +277,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::InputSystem::InputRemoting*, ::UnityEngine::InputSystem::__InputRemoting__Message)>(
     &::UnityEngine::InputSystem::__InputRemoting__NewLayoutMsg::Process)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x2fd8554;
+  constexpr static std::size_t addrs = 0x31142e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -323,7 +324,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__InputRemoting__NewDeviceMsg____c::*)()>(
     &::GlobalNamespace::__InputRemoting__NewDeviceMsg____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2fdb11c;
+  constexpr static std::size_t addrs = 0x3116ea8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__InputRemoting__NewDeviceMsg____c*>::get(),
@@ -337,7 +338,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::__InputRemoting__NewDeviceMsg____c::*)(
     ::UnityEngine::InputSystem::Utilities::InternedString)>(&::GlobalNamespace::__InputRemoting__NewDeviceMsg____c::_Create_b__1_0)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2fdb124;
+  constexpr static std::size_t addrs = 0x3116eb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -386,7 +387,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::__InputRemoting__Message (*)(::UnityEngine::InputSystem::InputDevice*)>(
     &::UnityEngine::InputSystem::__InputRemoting__NewDeviceMsg::Create)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x2fd98d4;
+  constexpr static std::size_t addrs = 0x3115660;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -401,7 +402,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::InputSystem::InputRemoting*, ::UnityEngine::InputSystem::__InputRemoting__Message)>(
     &::UnityEngine::InputSystem::__InputRemoting__NewDeviceMsg::Process)> {
   constexpr static std::size_t size = 0x538;
-  constexpr static std::size_t addrs = 0x2fd864c;
+  constexpr static std::size_t addrs = 0x31143d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -432,7 +433,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::__InputRemoting__Message (*)(::UnityEngine::InputSystem::InputDevice*, bool)>(
     &::UnityEngine::InputSystem::__InputRemoting__NewEventsMsg::CreateResetEvent)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x2fd9fe0;
+  constexpr static std::size_t addrs = 0x3115d6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -448,7 +449,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::__InputRemoting__Message (*)(::UnityEngine::InputSystem::InputDevice*)>(
     &::UnityEngine::InputSystem::__InputRemoting__NewEventsMsg::CreateStateEvent)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x2fd9ad4;
+  constexpr static std::size_t addrs = 0x3115860;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -463,7 +464,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::__InputRemoting__Message (*)(
     ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent>, int32_t)>(&::UnityEngine::InputSystem::__InputRemoting__NewEventsMsg::Create)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x2fd9c34;
+  constexpr static std::size_t addrs = 0x31159c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -479,7 +480,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::InputSystem::InputRemoting*, ::UnityEngine::InputSystem::__InputRemoting__Message)>(
     &::UnityEngine::InputSystem::__InputRemoting__NewEventsMsg::Process)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x2fd8b84;
+  constexpr static std::size_t addrs = 0x3114910;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -534,7 +535,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__InputRemoting__ChangeUsageMsg____c::*)()>(
     &::GlobalNamespace::__InputRemoting__ChangeUsageMsg____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2fdb2e4;
+  constexpr static std::size_t addrs = 0x3117070;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__InputRemoting__ChangeUsageMsg____c*>::get(),
@@ -548,7 +549,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::__InputRemoting__ChangeUsageMsg____c::*)(
     ::UnityEngine::InputSystem::Utilities::InternedString)>(&::GlobalNamespace::__InputRemoting__ChangeUsageMsg____c::_Create_b__1_0)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2fdb2ec;
+  constexpr static std::size_t addrs = 0x3117078;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -597,7 +598,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::__InputRemoting__Message (*)(::UnityEngine::InputSystem::InputDevice*)>(
     &::UnityEngine::InputSystem::__InputRemoting__ChangeUsageMsg::Create)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x2fd9e3c;
+  constexpr static std::size_t addrs = 0x3115bc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -612,7 +613,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::InputSystem::InputRemoting*, ::UnityEngine::InputSystem::__InputRemoting__Message)>(
     &::UnityEngine::InputSystem::__InputRemoting__ChangeUsageMsg::Process)> {
   constexpr static std::size_t size = 0x310;
-  constexpr static std::size_t addrs = 0x2fd8c44;
+  constexpr static std::size_t addrs = 0x31149d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -643,7 +644,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::__InputRemoting__Message (*)(::UnityEngine::InputSystem::InputDevice*)>(
     &::UnityEngine::InputSystem::__InputRemoting__RemoveDeviceMsg::Create)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x2fd9dcc;
+  constexpr static std::size_t addrs = 0x3115b58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -658,7 +659,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::InputSystem::InputRemoting*, ::UnityEngine::InputSystem::__InputRemoting__Message)>(
     &::UnityEngine::InputSystem::__InputRemoting__RemoveDeviceMsg::Process)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x2fd8f54;
+  constexpr static std::size_t addrs = 0x3114ce0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -688,7 +689,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::InputRemoting::*)()>(&::UnityEngine::InputSystem::InputRemoting::get_sending)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2fd7e40;
+  constexpr static std::size_t addrs = 0x3113bcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputRemoting*>::get(), "get_sending",
@@ -701,7 +702,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputRemoting::*)(bool)>(&::UnityEngine::InputSystem::InputRemoting::set_sending)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2fd7e4c;
+  constexpr static std::size_t addrs = 0x3113bd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -716,7 +717,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputRemoting::*)(::UnityEngine::InputSystem::InputManager*, bool)>(
     &::UnityEngine::InputSystem::InputRemoting::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x2fd7e68;
+  constexpr static std::size_t addrs = 0x3113bf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -731,7 +732,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputRemoting::*)()>(&::UnityEngine::InputSystem::InputRemoting::StartSending)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x2fd7ef4;
+  constexpr static std::size_t addrs = 0x3113c80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputRemoting*>::get(),
@@ -744,7 +745,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputRemoting::*)()>(&::UnityEngine::InputSystem::InputRemoting::StopSending)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x2fd8190;
+  constexpr static std::size_t addrs = 0x3113f1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputRemoting*>::get(), "StopSending",
@@ -758,7 +759,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputRemoting::*)(::UnityEngine::InputSystem::__InputRemoting__Message)>(
     &::UnityEngine::InputSystem::InputRemoting::System_IObserver_UnityEngine_InputSystem_InputRemoting_Message__OnNext)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x2fd83f8;
+  constexpr static std::size_t addrs = 0x3114184;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -774,7 +775,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputRemoting::*)(::System::Exception*)>(
     &::UnityEngine::InputSystem::InputRemoting::System_IObserver_UnityEngine_InputSystem_InputRemoting_Message__OnError)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2fd9034;
+  constexpr static std::size_t addrs = 0x3114dc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -789,7 +790,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputRemoting::*)()>(
     &::UnityEngine::InputSystem::InputRemoting::System_IObserver_UnityEngine_InputSystem_InputRemoting_Message__OnCompleted)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2fd9038;
+  constexpr static std::size_t addrs = 0x3114dc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputRemoting*>::get(),
@@ -804,7 +805,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IDisposable* (
     ::UnityEngine::InputSystem::InputRemoting::*)(::System::IObserver_1<::UnityEngine::InputSystem::__InputRemoting__Message>*)>(&::UnityEngine::InputSystem::InputRemoting::Subscribe)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x2fd903c;
+  constexpr static std::size_t addrs = 0x3114dc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -819,7 +820,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputRemoting::*)()>(
     &::UnityEngine::InputSystem::InputRemoting::SendInitialMessages)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x2fd8178;
+  constexpr static std::size_t addrs = 0x3113f04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputRemoting*>::get(),
@@ -833,7 +834,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputRemoting::*)()>(
     &::UnityEngine::InputSystem::InputRemoting::SendAllGeneratedLayouts)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x2fd9128;
+  constexpr static std::size_t addrs = 0x3114eb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputRemoting*>::get(),
@@ -847,7 +848,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputRemoting::*)(::StringW)>(
     &::UnityEngine::InputSystem::InputRemoting::SendLayout)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x2fd93e4;
+  constexpr static std::size_t addrs = 0x3115170;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -861,7 +862,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputRemoting::*)()>(&::UnityEngine::InputSystem::InputRemoting::SendAllDevices)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x2fd927c;
+  constexpr static std::size_t addrs = 0x3115008;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputRemoting*>::get(),
@@ -875,7 +876,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputRemoting::*)(::UnityEngine::InputSystem::InputDevice*)>(
     &::UnityEngine::InputSystem::InputRemoting::SendDevice)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x2fd9850;
+  constexpr static std::size_t addrs = 0x31155dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -890,7 +891,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputRemoting::*)(
     ::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*)>(&::UnityEngine::InputSystem::InputRemoting::SendEvent)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2fd9bd0;
+  constexpr static std::size_t addrs = 0x311595c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -906,7 +907,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputRemoting::*)(
     ::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::InputDeviceChange)>(&::UnityEngine::InputSystem::InputRemoting::SendDeviceChange)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x2fd9d0c;
+  constexpr static std::size_t addrs = 0x3115a98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -922,7 +923,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputRemoting::*)(::StringW, ::UnityEngine::InputSystem::InputControlLayoutChange)>(
     &::UnityEngine::InputSystem::InputRemoting::SendLayoutChange)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x2fda058;
+  constexpr static std::size_t addrs = 0x3115de4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -938,7 +939,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputRemoting::*)(::UnityEngine::InputSystem::__InputRemoting__Message)>(
     &::UnityEngine::InputSystem::InputRemoting::Send)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x2fd96e4;
+  constexpr static std::size_t addrs = 0x3115470;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -953,7 +954,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::InputRemoting::*)(int32_t)>(
     &::UnityEngine::InputSystem::InputRemoting::FindOrCreateSenderRecord)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x2fda15c;
+  constexpr static std::size_t addrs = 0x3115ee8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -968,7 +969,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::InternedString (*)(int32_t)>(
     &::UnityEngine::InputSystem::InputRemoting::BuildLayoutNamespace)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x2fda200;
+  constexpr static std::size_t addrs = 0x3115f8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -983,7 +984,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::InputRemoting::*)(int32_t, int32_t)>(
     &::UnityEngine::InputSystem::InputRemoting::FindLocalDeviceId)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x2fda2a0;
+  constexpr static std::size_t addrs = 0x311602c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -998,7 +999,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputDevice* (::UnityEngine::InputSystem::InputRemoting::*)(int32_t, int32_t)>(
     &::UnityEngine::InputSystem::InputRemoting::TryGetDeviceByRemoteId)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2fda314;
+  constexpr static std::size_t addrs = 0x31160a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1013,7 +1014,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputManager* (::UnityEngine::InputSystem::InputRemoting::*)()>(
     &::UnityEngine::InputSystem::InputRemoting::get_manager)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2fda3b4;
+  constexpr static std::size_t addrs = 0x3116140;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputRemoting*>::get(), "get_manager",
@@ -1027,7 +1028,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputRemoting::*)(int32_t)>(
     &::UnityEngine::InputSystem::InputRemoting::RemoveRemoteDevices)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x2fda3bc;
+  constexpr static std::size_t addrs = 0x3116148;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

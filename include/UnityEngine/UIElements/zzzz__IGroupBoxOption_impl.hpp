@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/IGroupBoxOption.hpp"
 #include "UnityEngine/UIElements/zzzz__IGroupBoxOption_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::IGroupBoxOption.SetSelected
 template <>

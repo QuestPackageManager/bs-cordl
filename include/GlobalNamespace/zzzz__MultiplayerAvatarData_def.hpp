@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MultiplayerAvatarData.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,7 +21,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE MultiplayerAvatarData {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x1412520, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1503b70, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(uint32_t avatarTypeIdentifierHash, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   // Ctor Parameters []

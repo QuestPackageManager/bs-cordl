@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/VREvent_t_Packed.hpp"
 #include "OVR/OpenVR/zzzz__VREvent_Data_t_impl.hpp"
 #include "OVR/OpenVR/zzzz__VREvent_t_Packed_def.hpp"
 #include "OVR/OpenVR/zzzz__VREvent_Data_t_def.hpp"
@@ -8,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::VREvent_t_Packed::*)(::OVR::OpenVR::VREvent_t)>(&::OVR::OpenVR::VREvent_t_Packed::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2acde74;
+  constexpr static std::size_t addrs = 0x2bca724;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::VREvent_t_Packed::*)(ByRef<::OVR::OpenVR::VREvent_t>)>(
     &::OVR::OpenVR::VREvent_t_Packed::Unpack)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2ac87f0;
+  constexpr static std::size_t addrs = 0x2bc50a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

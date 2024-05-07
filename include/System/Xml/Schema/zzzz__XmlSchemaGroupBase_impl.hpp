@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaGroupBase.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaParticle_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaGroupBase_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaObjectCollection_def.hpp"
@@ -37,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaGroupBase::*)()>(&::System::Xml::Schema::XmlSchemaGroupBase::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2d0ff64;
+  constexpr static std::size_t addrs = 0x2e0d864;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaGroupBase*>::get(), ".ctor",

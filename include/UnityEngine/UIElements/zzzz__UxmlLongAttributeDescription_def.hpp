@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/UxmlLongAttributeDescription.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,10 +46,10 @@ public:
 
   static inline ::UnityEngine::UIElements::__UxmlLongAttributeDescription____c* New_ctor();
 
-  /// @brief Method <GetValueFromBag>b__3_0, addr 0x335fb7c, size 0x1040, virtual false, abstract: false, final false
+  /// @brief Method <GetValueFromBag>b__3_0, addr 0x35638b8, size 0x1040, virtual false, abstract: false, final false
   inline int64_t _GetValueFromBag_b__3_0(::StringW s, int64_t l);
 
-  /// @brief Method .ctor, addr 0x335fb74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35638b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::__UxmlLongAttributeDescription____c* getStaticF___9();
@@ -89,15 +90,15 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::__UxmlLongAttributeDescription____c;
 
-  /// @brief Method ConvertValueToLong, addr 0x335fad4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ConvertValueToLong, addr 0x3563810, size 0x3c, virtual false, abstract: false, final false
   static inline int64_t ConvertValueToLong(::StringW v, int64_t defaultValue);
 
-  /// @brief Method GetValueFromBag, addr 0x335f970, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method GetValueFromBag, addr 0x35636ac, size 0x164, virtual true, abstract: false, final false
   inline int64_t GetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::UxmlLongAttributeDescription* New_ctor();
 
-  /// @brief Method .ctor, addr 0x335f8d4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3563610, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

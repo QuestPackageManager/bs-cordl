@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/Models/PartyID.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/Models/zzzz__PartyID_def.hpp"
 //  Writing Method size for method: ::Oculus::Platform::Models::PartyID._ctor
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Models::PartyID::*)(void*)>(&::Oculus::Platform::Models::PartyID::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x29df834;
+  constexpr static std::size_t addrs = 0x2ade0e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

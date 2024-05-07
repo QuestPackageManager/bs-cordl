@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ObstacleSaberSparkleEffectManager.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -108,25 +109,25 @@ public:
   __declspec(property(get = __cordl_internal_get_sparkleEffectDidStartEvent,
                       put = __cordl_internal_set_sparkleEffectDidStartEvent))::System::Action_1<::GlobalNamespace::SaberType>* sparkleEffectDidStartEvent;
 
-  /// @brief Method BurnMarkPosForSaberType, addr 0x25c6794, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method BurnMarkPosForSaberType, addr 0x26c5500, size 0x8c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 BurnMarkPosForSaberType(::GlobalNamespace::SaberType saberType);
 
-  /// @brief Method GetBurnMarkPos, addr 0x25c62b4, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method GetBurnMarkPos, addr 0x26c5020, size 0x288, virtual false, abstract: false, final false
   inline bool GetBurnMarkPos(::UnityEngine::Bounds bounds, ::UnityEngine::Transform* transform, ::UnityEngine::Vector3 bladeBottomPos, ::UnityEngine::Vector3 bladeTopPos,
                              ByRef<::UnityEngine::Vector3> burnMarkPos);
 
-  /// @brief Method GetEffectRotation, addr 0x25c653c, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method GetEffectRotation, addr 0x26c52a8, size 0x124, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion GetEffectRotation(::UnityEngine::Vector3 pos, ::UnityEngine::Transform* transform, ::UnityEngine::Bounds bounds);
 
   static inline ::GlobalNamespace::ObstacleSaberSparkleEffectManager* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x25c5c04, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x26c4970, size 0xa4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method Start, addr 0x25c585c, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x26c45c8, size 0x2ac, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x25c5ca8, size 0x60c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x26c4a14, size 0x60c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::BeatmapObjectManager*& __cordl_internal_get__beatmapObjectManager();
@@ -213,19 +214,19 @@ public:
 
   constexpr void __cordl_internal_set_sparkleEffectDidStartEvent(::System::Action_1<::GlobalNamespace::SaberType>* value);
 
-  /// @brief Method .ctor, addr 0x25c6820, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c558c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_sparkleEffectDidEndEvent, addr 0x25c56fc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_sparkleEffectDidEndEvent, addr 0x26c4468, size 0xb0, virtual false, abstract: false, final false
   inline void add_sparkleEffectDidEndEvent(::System::Action_1<::GlobalNamespace::SaberType>* value);
 
-  /// @brief Method add_sparkleEffectDidStartEvent, addr 0x25c559c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_sparkleEffectDidStartEvent, addr 0x26c4308, size 0xb0, virtual false, abstract: false, final false
   inline void add_sparkleEffectDidStartEvent(::System::Action_1<::GlobalNamespace::SaberType>* value);
 
-  /// @brief Method remove_sparkleEffectDidEndEvent, addr 0x25c57ac, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_sparkleEffectDidEndEvent, addr 0x26c4518, size 0xb0, virtual false, abstract: false, final false
   inline void remove_sparkleEffectDidEndEvent(::System::Action_1<::GlobalNamespace::SaberType>* value);
 
-  /// @brief Method remove_sparkleEffectDidStartEvent, addr 0x25c564c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_sparkleEffectDidStartEvent, addr 0x26c43b8, size 0xb0, virtual false, abstract: false, final false
   inline void remove_sparkleEffectDidStartEvent(::System::Action_1<::GlobalNamespace::SaberType>* value);
 
 protected:

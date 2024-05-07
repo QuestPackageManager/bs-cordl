@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BinaryHeap_1.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BinaryHeap_1_def.hpp"
 template <typename T> constexpr ::ArrayW<T, ::Array<T>*>& GlobalNamespace::BinaryHeap_1<T>::__cordl_internal_get__data() {

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ComponentModel/BooleanConverter.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,24 +37,24 @@ public:
   /// @brief Field s_values, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_values, put = setStaticF_s_values))::System::ComponentModel::__TypeConverter__StandardValuesCollection* s_values;
 
-  /// @brief Method CanConvertFrom, addr 0x2e36a50, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method CanConvertFrom, addr 0x2f35350, size 0xc8, virtual true, abstract: false, final false
   inline bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* sourceType);
 
-  /// @brief Method ConvertFrom, addr 0x2e36b18, size 0x200, virtual true, abstract: false, final false
+  /// @brief Method ConvertFrom, addr 0x2f35418, size 0x200, virtual true, abstract: false, final false
   inline ::System::Object* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value);
 
-  /// @brief Method GetStandardValues, addr 0x2e36d18, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method GetStandardValues, addr 0x2f35618, size 0x164, virtual true, abstract: false, final false
   inline ::System::ComponentModel::__TypeConverter__StandardValuesCollection* GetStandardValues(::System::ComponentModel::ITypeDescriptorContext* context);
 
-  /// @brief Method GetStandardValuesExclusive, addr 0x2e36e7c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetStandardValuesExclusive, addr 0x2f3577c, size 0x8, virtual true, abstract: false, final false
   inline bool GetStandardValuesExclusive(::System::ComponentModel::ITypeDescriptorContext* context);
 
-  /// @brief Method GetStandardValuesSupported, addr 0x2e36e84, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetStandardValuesSupported, addr 0x2f35784, size 0x8, virtual true, abstract: false, final false
   inline bool GetStandardValuesSupported(::System::ComponentModel::ITypeDescriptorContext* context);
 
   static inline ::System::ComponentModel::BooleanConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e36e8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f3578c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::ComponentModel::__TypeConverter__StandardValuesCollection* getStaticF_s_values();

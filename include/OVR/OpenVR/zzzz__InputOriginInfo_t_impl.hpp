@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/InputOriginInfo_t.hpp"
 #include "OVR/OpenVR/zzzz__InputOriginInfo_t_def.hpp"
 //  Writing Method size for method: ::OVR::OpenVR::InputOriginInfo_t.get_rchRenderModelComponentName
 template <>
@@ -6,7 +7,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::OVR::OpenVR::InputOriginInfo_t::*)()>(
     &::OVR::OpenVR::InputOriginInfo_t::get_rchRenderModelComponentName)> {
   constexpr static std::size_t size = 0x86c;
-  constexpr static std::size_t addrs = 0x2acdf2c;
+  constexpr static std::size_t addrs = 0x2bca7dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

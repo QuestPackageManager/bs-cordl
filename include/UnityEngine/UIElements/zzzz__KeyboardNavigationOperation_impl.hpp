@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/KeyboardNavigationOperation.hpp"
 #include "UnityEngine/UIElements/zzzz__KeyboardNavigationOperation_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::UIElements::KeyboardNavigationOperation::KeyboardNavigationOperation(int32_t value__) noexcept {

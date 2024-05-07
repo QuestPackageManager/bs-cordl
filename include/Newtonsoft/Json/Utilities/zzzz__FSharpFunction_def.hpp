@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/FSharpFunction.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,7 +32,7 @@ public:
   /// @brief Field _invoker, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__invoker, put = __cordl_internal_set__invoker))::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* _invoker;
 
-  /// @brief Method Invoke, addr 0x2913850, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2a12100, size 0x2c, virtual false, abstract: false, final false
   inline ::System::Object* Invoke(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   static inline ::Newtonsoft::Json::Utilities::FSharpFunction* New_ctor(::System::Object* instance, ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* invoker);
@@ -48,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set__invoker(::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* value);
 
-  /// @brief Method .ctor, addr 0x2913824, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a120d4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* instance, ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* invoker);
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/MemoryPoolIdInitialSizeMaxSizeBinder_1.hpp"
 #include "Zenject/zzzz__MemoryPoolInitialSizeMaxSizeBinder_1_impl.hpp"
 #include "Zenject/zzzz__MemoryPoolIdInitialSizeMaxSizeBinder_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"

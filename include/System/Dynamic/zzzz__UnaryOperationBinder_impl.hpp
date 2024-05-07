@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Dynamic/UnaryOperationBinder.hpp"
 #include "System/Dynamic/zzzz__DynamicMetaObjectBinder_impl.hpp"
 #include "System/Dynamic/zzzz__UnaryOperationBinder_def.hpp"
 #include "System/Dynamic/zzzz__DynamicMetaObject_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Dynamic::DynamicMetaObject* (
     ::System::Dynamic::UnaryOperationBinder::*)(::System::Dynamic::DynamicMetaObject*)>(&::System::Dynamic::UnaryOperationBinder::FallbackUnaryOperation)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2b57eb4;
+  constexpr static std::size_t addrs = 0x2c547b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +40,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Dynamic::UnaryOperationBinder::*)(::System::Dynamic::DynamicMetaObject*, ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*>)>(
     &::System::Dynamic::UnaryOperationBinder::Bind)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x2b57ec4;
+  constexpr static std::size_t addrs = 0x2c547c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

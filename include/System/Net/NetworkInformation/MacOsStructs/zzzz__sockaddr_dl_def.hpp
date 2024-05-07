@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/NetworkInformation/MacOsStructs/sockaddr_dl.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,7 +21,7 @@ namespace System::Net::NetworkInformation::MacOsStructs {
 struct CORDL_TYPE sockaddr_dl {
 public:
   // Declarations
-  /// @brief Method Read, addr 0x2f25864, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method Read, addr 0x3026164, size 0x190, virtual false, abstract: false, final false
   inline void Read(void* ptr);
 
   // Ctor Parameters []

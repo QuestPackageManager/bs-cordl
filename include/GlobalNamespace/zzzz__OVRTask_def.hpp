@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OVRTask.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,7 +47,7 @@ public:
   /// @brief Method GetExisting, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TResult> static inline ::GlobalNamespace::OVRTask_1<TResult> GetExisting(uint64_t id);
 
-  /// @brief Method GetId, addr 0x2a7a498, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetId, addr 0x2b76d48, size 0x30, virtual false, abstract: false, final false
   static inline ::System::Guid GetId(uint64_t value);
 
   /// @brief Method SetResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

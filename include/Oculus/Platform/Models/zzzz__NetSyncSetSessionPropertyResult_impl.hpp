@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/Models/NetSyncSetSessionPropertyResult.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/Models/zzzz__NetSyncSetSessionPropertyResult_def.hpp"
 #include "Oculus/Platform/Models/zzzz__NetSyncSession_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Models::NetSyncSetSessionPropertyResult::*)(void*)>(
     &::Oculus::Platform::Models::NetSyncSetSessionPropertyResult::_ctor)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x29df254;
+  constexpr static std::size_t addrs = 0x2addb04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

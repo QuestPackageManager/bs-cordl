@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVRSimpleJSON/JSON.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "OVRSimpleJSON/zzzz__JSON_def.hpp"
 #include "OVRSimpleJSON/zzzz__JSONNode_def.hpp"
@@ -7,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVRSimpleJSON::JSONNode* (*)(::StringW)>(&::OVRSimpleJSON::JSON::Parse)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2aa7814;
+  constexpr static std::size_t addrs = 0x2ba30c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

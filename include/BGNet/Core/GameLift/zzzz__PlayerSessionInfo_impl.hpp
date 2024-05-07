@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BGNet/Core/GameLift/PlayerSessionInfo.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelSelectionMask_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplayServerConfiguration_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -7,8 +8,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGNet::Core::GameLift::PlayerSessionInfo::*)()>(&::BGNet::Core::GameLift::PlayerSessionInfo::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xfcbfc4;
+  constexpr static std::size_t size = 0x1008;
+  constexpr static std::size_t addrs = 0x10be6e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::PlayerSessionInfo*>::get(), ".ctor",

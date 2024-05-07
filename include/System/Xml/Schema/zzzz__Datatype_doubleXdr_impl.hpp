@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/Datatype_doubleXdr.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_double_impl.hpp"
 #include "System/Xml/Schema/zzzz__Datatype_doubleXdr_def.hpp"
 #include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (
     ::System::Xml::Schema::Datatype_doubleXdr::*)(::StringW, ::System::Xml::XmlNameTable*, ::System::Xml::IXmlNamespaceResolver*)>(&::System::Xml::Schema::Datatype_doubleXdr::ParseValue)> {
   constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x2e10b94;
+  constexpr static std::size_t addrs = 0x2f0f494;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Datatype_doubleXdr::*)()>(&::System::Xml::Schema::Datatype_doubleXdr::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2e058dc;
+  constexpr static std::size_t addrs = 0x2f041dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_doubleXdr*>::get(), ".ctor",

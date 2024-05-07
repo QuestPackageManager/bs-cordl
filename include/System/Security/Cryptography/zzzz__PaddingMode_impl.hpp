@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Cryptography/PaddingMode.hpp"
 #include "System/Security/Cryptography/zzzz__PaddingMode_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Security::Cryptography::PaddingMode::PaddingMode(int32_t value__) noexcept {

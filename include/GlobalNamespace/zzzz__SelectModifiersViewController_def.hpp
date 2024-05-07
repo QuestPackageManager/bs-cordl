@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SelectModifiersViewController.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,12 +31,12 @@ public:
 
   __declspec(property(get = get_gameplayModifiers))::GlobalNamespace::GameplayModifiers* gameplayModifiers;
 
-  /// @brief Method DidActivate, addr 0x255f1d4, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x2654a50, size 0xa0, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::SelectModifiersViewController* New_ctor();
 
-  /// @brief Method Setup, addr 0x255f1b8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x2654a34, size 0x1c, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
   constexpr ::UnityW<::GlobalNamespace::GameplayModifiersPanelController> const& __cordl_internal_get__gameplayModifiersPanelController() const;
@@ -44,10 +45,10 @@ public:
 
   constexpr void __cordl_internal_set__gameplayModifiersPanelController(::UnityW<::GlobalNamespace::GameplayModifiersPanelController> value);
 
-  /// @brief Method .ctor, addr 0x255f274, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2654af0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_gameplayModifiers, addr 0x255f19c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_gameplayModifiers, addr 0x2654a18, size 0x1c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
 
 protected:

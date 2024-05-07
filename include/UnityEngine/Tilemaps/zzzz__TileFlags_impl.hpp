@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Tilemaps/TileFlags.hpp"
 #include "UnityEngine/Tilemaps/zzzz__TileFlags_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Tilemaps::TileFlags::TileFlags(int32_t value__) noexcept {

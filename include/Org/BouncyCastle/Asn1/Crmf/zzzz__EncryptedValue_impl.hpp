@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Crmf/EncryptedValue.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Crmf/zzzz__EncryptedValue_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
@@ -13,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Crmf::EncryptedValue::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Crmf::EncryptedValue::_ctor)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0xff1380;
+  constexpr static std::size_t addrs = 0x10e4aa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Crmf::EncryptedValue::GetInstance)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0xff1224;
+  constexpr static std::size_t addrs = 0x10e4948;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -45,7 +46,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*, ::Org::BouncyCastle::Asn1::Asn1OctetString*, ::Org::BouncyCastle::Asn1::DerBitString*)>(
     &::Org::BouncyCastle::Asn1::Crmf::EncryptedValue::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0xff1578;
+  constexpr static std::size_t addrs = 0x10e4c9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (::Org::BouncyCastle::Asn1::Crmf::EncryptedValue::*)()>(
     &::Org::BouncyCastle::Asn1::Crmf::EncryptedValue::get_IntendedAlg)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xff161c;
+  constexpr static std::size_t addrs = 0x10e4d40;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -81,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (::Org::BouncyCastle::Asn1::Crmf::EncryptedValue::*)()>(
     &::Org::BouncyCastle::Asn1::Crmf::EncryptedValue::get_SymmAlg)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xff1624;
+  constexpr static std::size_t addrs = 0x10e4d48;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -97,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerBitString* (::Org::BouncyCastle::Asn1::Crmf::EncryptedValue::*)()>(
     &::Org::BouncyCastle::Asn1::Crmf::EncryptedValue::get_EncSymmKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xff162c;
+  constexpr static std::size_t addrs = 0x10e4d50;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -113,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (::Org::BouncyCastle::Asn1::Crmf::EncryptedValue::*)()>(
     &::Org::BouncyCastle::Asn1::Crmf::EncryptedValue::get_KeyAlg)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xff1634;
+  constexpr static std::size_t addrs = 0x10e4d58;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -129,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1OctetString* (::Org::BouncyCastle::Asn1::Crmf::EncryptedValue::*)()>(
     &::Org::BouncyCastle::Asn1::Crmf::EncryptedValue::get_ValueHint)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xff163c;
+  constexpr static std::size_t addrs = 0x10e4d60;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -145,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerBitString* (::Org::BouncyCastle::Asn1::Crmf::EncryptedValue::*)()>(
     &::Org::BouncyCastle::Asn1::Crmf::EncryptedValue::get_EncValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xff1644;
+  constexpr static std::size_t addrs = 0x10e4d68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -161,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Crmf::EncryptedValue::*)()>(
     &::Org::BouncyCastle::Asn1::Crmf::EncryptedValue::ToAsn1Object)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0xff164c;
+  constexpr static std::size_t addrs = 0x10e4d70;
 
   inline static ::MethodInfo const* methodInfo() {
 

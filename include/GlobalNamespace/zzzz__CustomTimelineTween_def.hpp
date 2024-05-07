@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/CustomTimelineTween.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,7 +35,7 @@ public:
 
   static inline ::GlobalNamespace::CustomTimelineTween* New_ctor();
 
-  /// @brief Method OnValidate, addr 0x25a219c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x269c060, size 0xd4, virtual false, abstract: false, final false
   inline void OnValidate();
 
   constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get_startPositions() const;
@@ -49,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set_transforms(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value);
 
-  /// @brief Method .ctor, addr 0x25a2270, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x269c134, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

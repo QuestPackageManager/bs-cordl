@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UnhandledExceptionHandler.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__UnhandledExceptionHandler_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -11,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__UnhandledExceptionHandler____c::*)()>(
     &::UnityEngine::__UnhandledExceptionHandler____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x320a760;
+  constexpr static std::size_t addrs = 0x3411494;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__UnhandledExceptionHandler____c*>::get(), ".ctor",
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__UnhandledExceptionHandler____c::*)(::System::Object*, ::System::UnhandledExceptionEventArgs*)>(
     &::UnityEngine::__UnhandledExceptionHandler____c::_RegisterUECatcher_b__0_0)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x320a768;
+  constexpr static std::size_t addrs = 0x341149c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -75,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::UnhandledExceptionHandler::RegisterUECatcher)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x320a604;
+  constexpr static std::size_t addrs = 0x3411338;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UnhandledExceptionHandler*>::get(),

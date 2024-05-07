@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ProBuilder/KdTree/DuplicateNodeError.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "UnityEngine/ProBuilder/KdTree/zzzz__DuplicateNodeError_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ProBuilder::KdTree::DuplicateNodeError._ctor
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::KdTree::DuplicateNodeError::*)()>(
     &::UnityEngine::ProBuilder::KdTree::DuplicateNodeError::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x305ed58;
+  constexpr static std::size_t addrs = 0x32667e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::KdTree::DuplicateNodeError*>::get(),

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HAPI_HandleBindingInfo.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_HandleBindingInfo_def.hpp"
 // Ctor Parameters [CppParam { name: "handleParmNameSH", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "assetParmNameSH", ty: "int32_t", modifiers: "", def_value: Some("{}")
 // }, CppParam { name: "assetParmId", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "assetParmIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }]

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Cursor.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Cursor_def.hpp"
 #include "UnityEngine/zzzz__CursorLockMode_def.hpp"
@@ -11,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Texture2D*, ::UnityEngine::Vector2, ::UnityEngine::CursorMode)>(
     &::UnityEngine::Cursor::SetCursor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x31d2a2c;
+  constexpr static std::size_t addrs = 0x33d9760;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::UnityEngine::Cursor::set_visible)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x31d2ad8;
+  constexpr static std::size_t addrs = 0x33d980c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -41,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::CursorLockMode (*)()>(&::UnityEngine::Cursor::get_lockState)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x31d2b14;
+  constexpr static std::size_t addrs = 0x33d9848;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Cursor*>::get(), "get_lockState",
@@ -54,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::CursorLockMode)>(&::UnityEngine::Cursor::set_lockState)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x31d2b3c;
+  constexpr static std::size_t addrs = 0x33d9870;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -69,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Texture2D*, ByRef<::UnityEngine::Vector2>, ::UnityEngine::CursorMode)>(
     &::UnityEngine::Cursor::SetCursor_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x31d2a84;
+  constexpr static std::size_t addrs = 0x33d97b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

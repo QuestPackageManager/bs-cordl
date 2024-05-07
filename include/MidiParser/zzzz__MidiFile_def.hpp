@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "MidiParser/MidiFile.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,22 +36,22 @@ namespace MidiParser {
 class CORDL_TYPE __MidiFile__Reader : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Read16, addr 0x2664d58, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Read16, addr 0x2764150, size 0x54, virtual false, abstract: false, final false
   static inline int32_t Read16(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ByRef<int32_t> i);
 
-  /// @brief Method Read32, addr 0x2664cc8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Read32, addr 0x27640c0, size 0x90, virtual false, abstract: false, final false
   static inline int32_t Read32(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ByRef<int32_t> i);
 
-  /// @brief Method Read8, addr 0x26652d4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Read8, addr 0x27646cc, size 0x38, virtual false, abstract: false, final false
   static inline uint8_t Read8(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ByRef<int32_t> i);
 
-  /// @brief Method ReadAllBytesFromStream, addr 0x266530c, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method ReadAllBytesFromStream, addr 0x2764704, size 0x228, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadAllBytesFromStream(::System::IO::Stream* input);
 
-  /// @brief Method ReadString, addr 0x2664c70, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ReadString, addr 0x2764068, size 0x58, virtual false, abstract: false, final false
   static inline ::StringW ReadString(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ByRef<int32_t> i, int32_t length);
 
-  /// @brief Method ReadVarInt, addr 0x26651d4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ReadVarInt, addr 0x27645cc, size 0x84, virtual false, abstract: false, final false
   static inline int32_t ReadVarInt(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ByRef<int32_t> i);
 
 protected:
@@ -99,10 +100,10 @@ public:
 
   static inline ::MidiParser::MidiFile* New_ctor(::StringW path);
 
-  /// @brief Method ParseMetaEvent, addr 0x26650f0, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method ParseMetaEvent, addr 0x27644e8, size 0xe4, virtual false, abstract: false, final false
   static inline bool ParseMetaEvent(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ByRef<int32_t> position, uint8_t metaEventType, ByRef<int32_t> data1, ByRef<int32_t> data2);
 
-  /// @brief Method ParseTrack, addr 0x2664dac, size 0x344, virtual false, abstract: false, final false
+  /// @brief Method ParseTrack, addr 0x27641a4, size 0x344, virtual false, abstract: false, final false
   static inline ::MidiParser::MidiTrack* ParseTrack(int32_t index, ::ArrayW<uint8_t, ::Array<uint8_t>*> data, ByRef<int32_t> position);
 
   constexpr int32_t const& __cordl_internal_get_format() const;
@@ -129,10 +130,10 @@ public:
 
   constexpr void __cordl_internal_set_tracksCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x266497c, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2763d74, size 0x2f4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0x2664958, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2763d50, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW path);
 
 protected:

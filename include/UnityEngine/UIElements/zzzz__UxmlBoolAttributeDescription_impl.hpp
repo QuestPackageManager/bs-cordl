@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/UxmlBoolAttributeDescription.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TypedUxmlAttributeDescription_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlBoolAttributeDescription_def.hpp"
@@ -12,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__UxmlBoolAttributeDescription____c::*)()>(
     &::UnityEngine::UIElements::__UxmlBoolAttributeDescription____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3361024;
+  constexpr static std::size_t addrs = 0x3564d60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::__UxmlBoolAttributeDescription____c::*)(::StringW, bool)>(
     &::UnityEngine::UIElements::__UxmlBoolAttributeDescription____c::_GetValueFromBag_b__3_0)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x336102c;
+  constexpr static std::size_t addrs = 0x3564d68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::__UxmlBoolAttributeDescription____c::*)(::StringW, bool)>(
     &::UnityEngine::UIElements::__UxmlBoolAttributeDescription____c::_TryGetValueFromBag_b__4_0)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x336103c;
+  constexpr static std::size_t addrs = 0x3564d78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -111,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UxmlBoolAttributeDescription::*)()>(
     &::UnityEngine::UIElements::UxmlBoolAttributeDescription::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3360bbc;
+  constexpr static std::size_t addrs = 0x35648f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UxmlBoolAttributeDescription*>::get(),
@@ -125,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::UxmlBoolAttributeDescription::*)(
     ::UnityEngine::UIElements::IUxmlAttributes*, ::UnityEngine::UIElements::CreationContext)>(&::UnityEngine::UIElements::UxmlBoolAttributeDescription::GetValueFromBag)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x3360c58;
+  constexpr static std::size_t addrs = 0x3564994;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -141,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::UxmlBoolAttributeDescription::*)(
     ::UnityEngine::UIElements::IUxmlAttributes*, ::UnityEngine::UIElements::CreationContext, ByRef<bool>)>(&::UnityEngine::UIElements::UxmlBoolAttributeDescription::TryGetValueFromBag)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x3360dc0;
+  constexpr static std::size_t addrs = 0x3564afc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -157,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, bool)>(&::UnityEngine::UIElements::UxmlBoolAttributeDescription::ConvertValueToBool)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3360f38;
+  constexpr static std::size_t addrs = 0x3564c74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

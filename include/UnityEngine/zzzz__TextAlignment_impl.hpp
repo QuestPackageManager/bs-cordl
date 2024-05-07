@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/TextAlignment.hpp"
 #include "UnityEngine/zzzz__TextAlignment_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::TextAlignment::TextAlignment(int32_t value__) noexcept {

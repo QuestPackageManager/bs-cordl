@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Pkix/ReasonsMask.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Pkix/zzzz__ReasonsMask_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__ReasonFlags_def.hpp"
@@ -7,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Pkix::ReasonsMask::*)(int32_t)>(&::Org::BouncyCastle::Pkix::ReasonsMask::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x1283438;
+  constexpr static std::size_t addrs = 0x1374b5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Pkix::ReasonsMask::*)()>(&::Org::BouncyCastle::Pkix::ReasonsMask::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x1283460;
+  constexpr static std::size_t addrs = 0x1374b84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Pkix::ReasonsMask*>::get(), ".ctor",
@@ -35,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Pkix::ReasonsMask::*)(::Org::BouncyCastle::Pkix::ReasonsMask*)>(
     &::Org::BouncyCastle::Pkix::ReasonsMask::AddReasons)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x128347c;
+  constexpr static std::size_t addrs = 0x1374ba0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Pkix::ReasonsMask::*)()>(&::Org::BouncyCastle::Pkix::ReasonsMask::get_IsAllReasons)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x128352c;
+  constexpr static std::size_t addrs = 0x1374c50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Pkix::ReasonsMask*>::get(),
@@ -63,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Pkix::ReasonsMask* (::Org::BouncyCastle::Pkix::ReasonsMask::*)(::Org::BouncyCastle::Pkix::ReasonsMask*)>(&::Org::BouncyCastle::Pkix::ReasonsMask::Intersect)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x12835a0;
+  constexpr static std::size_t addrs = 0x1374cc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -78,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Pkix::ReasonsMask::*)(::Org::BouncyCastle::Pkix::ReasonsMask*)>(
     &::Org::BouncyCastle::Pkix::ReasonsMask::HasNewReasons)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x1283668;
+  constexpr static std::size_t addrs = 0x1374d8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -93,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::ReasonFlags* (::Org::BouncyCastle::Pkix::ReasonsMask::*)()>(
     &::Org::BouncyCastle::Pkix::ReasonsMask::get_Reasons)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x12834c4;
+  constexpr static std::size_t addrs = 0x1374be8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Pkix::ReasonsMask*>::get(), "get_Reasons",

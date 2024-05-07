@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/InstancedMaterialLightWithId.hpp"
 #include "GlobalNamespace/zzzz__LightWithIdMonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "GlobalNamespace/zzzz__InstancedMaterialLightWithId_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::InstancedMaterialLightWithId::*)()>(
     &::GlobalNamespace::InstancedMaterialLightWithId::get_intensity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23fa3c0;
+  constexpr static std::size_t addrs = 0x24f1fb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::InstancedMaterialLightWithId*>::get(),
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::InstancedMaterialLightWithId::*)(float_t)>(
     &::GlobalNamespace::InstancedMaterialLightWithId::set_intensity)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x23fa3c8;
+  constexpr static std::size_t addrs = 0x24f1fb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::InstancedMaterialLightWithId::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::InstancedMaterialLightWithId::ColorWasSet)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x23fa3e0;
+  constexpr static std::size_t addrs = 0x24f1fd0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::InstancedMaterialLightWithId::*)()>(
     &::GlobalNamespace::InstancedMaterialLightWithId::AddNecessaryComponents)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x23fa48c;
+  constexpr static std::size_t addrs = 0x24f207c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::InstancedMaterialLightWithId*>::get(),
@@ -69,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::InstancedMaterialLightWithId::*)()>(
     &::GlobalNamespace::InstancedMaterialLightWithId::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x23fa590;
+  constexpr static std::size_t addrs = 0x24f2180;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::InstancedMaterialLightWithId*>::get(), ".ctor",

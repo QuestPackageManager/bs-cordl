@@ -1,8 +1,8 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/LevelCollectionTableView.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
@@ -29,9 +29,6 @@ class LevelPackHeaderTableCell;
 namespace GlobalNamespace {
 class PlayerDataModel;
 }
-namespace GlobalNamespace {
-class __LevelCollectionTableView____c;
-}
 namespace HMUI {
 class AlphabetScrollbar;
 }
@@ -56,9 +53,6 @@ template <typename T> class Action_1;
 namespace System {
 template <typename T1, typename T2> class Action_2;
 }
-namespace System {
-template <typename T, typename TResult> class Func_2;
-}
 namespace UnityEngine {
 class Sprite;
 }
@@ -66,62 +60,8 @@ class Sprite;
 namespace GlobalNamespace {
 class LevelCollectionTableView;
 }
-namespace GlobalNamespace {
-class __LevelCollectionTableView____c;
-}
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LevelCollectionTableView);
-MARK_REF_PTR_T(::GlobalNamespace::__LevelCollectionTableView____c);
-// Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
-namespace GlobalNamespace {
-// Is value type: false
-// CS Name: ::LevelCollectionTableView::<>c*
-class CORDL_TYPE __LevelCollectionTableView____c : public ::System::Object {
-public:
-  // Declarations
-  /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::GlobalNamespace::__LevelCollectionTableView____c* __9;
-
-  /// @brief Field <>9__27_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__27_0, put = setStaticF___9__27_0))::System::Func_2<::GlobalNamespace::BeatmapLevel*, bool>* __9__27_0;
-
-  static inline ::GlobalNamespace::__LevelCollectionTableView____c* New_ctor();
-
-  /// @brief Method <SetData>b__27_0, addr 0x2574bc0, size 0x20, virtual false, abstract: false, final false
-  inline bool _SetData_b__27_0(::GlobalNamespace::BeatmapLevel* beatmapLevel);
-
-  /// @brief Method .ctor, addr 0x2574bb8, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  static inline ::GlobalNamespace::__LevelCollectionTableView____c* getStaticF___9();
-
-  static inline ::System::Func_2<::GlobalNamespace::BeatmapLevel*, bool>* getStaticF___9__27_0();
-
-  static inline void setStaticF___9(::GlobalNamespace::__LevelCollectionTableView____c* value);
-
-  static inline void setStaticF___9__27_0(::System::Func_2<::GlobalNamespace::BeatmapLevel*, bool>* value);
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __LevelCollectionTableView____c();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "__LevelCollectionTableView____c", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __LevelCollectionTableView____c(__LevelCollectionTableView____c&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__LevelCollectionTableView____c", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __LevelCollectionTableView____c(__LevelCollectionTableView____c const&) = delete;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LevelCollectionTableView____c, 0x10>, "Size mismatch!");
-
-} // namespace GlobalNamespace
 // Type: ::LevelCollectionTableView
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 192, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
@@ -130,8 +70,6 @@ namespace GlobalNamespace {
 class CORDL_TYPE LevelCollectionTableView : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using __c = ::GlobalNamespace::__LevelCollectionTableView____c;
-
   /// @brief Field _additionalContentModel, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__additionalContentModel, put = __cordl_internal_set__additionalContentModel))::GlobalNamespace::IAdditionalContentModel* _additionalContentModel;
 
@@ -201,57 +139,57 @@ public:
   /// @brief Convert operator to "::HMUI::__TableView__IDataSource"
   constexpr operator ::HMUI::__TableView__IDataSource*() noexcept;
 
-  /// @brief Method CancelAsyncOperations, addr 0x257305c, size 0x37c, virtual false, abstract: false, final false
+  /// @brief Method CancelAsyncOperations, addr 0x266c518, size 0x37c, virtual false, abstract: false, final false
   inline void CancelAsyncOperations();
 
-  /// @brief Method CellForIdx, addr 0x2572b78, size 0x32c, virtual true, abstract: false, final true
+  /// @brief Method CellForIdx, addr 0x266c034, size 0x32c, virtual true, abstract: false, final true
   inline ::UnityW<::HMUI::TableCell> CellForIdx(::HMUI::TableView* tableView, int32_t row);
 
-  /// @brief Method CellSize, addr 0x2572ac0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method CellSize, addr 0x266bf7c, size 0x8, virtual true, abstract: false, final true
   inline float_t CellSize();
 
-  /// @brief Method ClearSelection, addr 0x25738dc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method ClearSelection, addr 0x266cd98, size 0x30, virtual false, abstract: false, final false
   inline void ClearSelection();
 
-  /// @brief Method HandleAdditionalContentModelDidInvalidateData, addr 0x2572fb8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method HandleAdditionalContentModelDidInvalidateData, addr 0x266c474, size 0xa4, virtual false, abstract: false, final false
   inline void HandleAdditionalContentModelDidInvalidateData();
 
-  /// @brief Method HandleDidSelectRowEvent, addr 0x2572ea4, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method HandleDidSelectRowEvent, addr 0x266c360, size 0x114, virtual false, abstract: false, final false
   inline void HandleDidSelectRowEvent(::HMUI::TableView* tableView, int32_t row);
 
-  /// @brief Method Init, addr 0x2572380, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x266b93c, size 0xc0, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method Init, addr 0x2572340, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x266b8fc, size 0x40, virtual false, abstract: false, final false
   inline void Init(::StringW headerText, ::UnityEngine::Sprite* headerSprite);
 
   static inline ::GlobalNamespace::LevelCollectionTableView* New_ctor();
 
-  /// @brief Method NumberOfCells, addr 0x2572ac8, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method NumberOfCells, addr 0x266bf84, size 0xb0, virtual true, abstract: false, final true
   inline int32_t NumberOfCells();
 
-  /// @brief Method OnDestroy, addr 0x25729ec, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x266bea8, size 0xd4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x25728fc, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x266bdb8, size 0xf0, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x2572810, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x266bccc, size 0xec, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method RefreshFavorites, addr 0x2572704, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method RefreshFavorites, addr 0x266bbc0, size 0x10c, virtual false, abstract: false, final false
   inline void RefreshFavorites(::System::Collections::Generic::HashSet_1<::StringW>* favoriteLevelIds);
 
-  /// @brief Method RefreshLevelsAvailability, addr 0x25733d8, size 0x4d8, virtual false, abstract: false, final false
+  /// @brief Method RefreshLevelsAvailability, addr 0x266c894, size 0x4d8, virtual false, abstract: false, final false
   inline void RefreshLevelsAvailability();
 
-  /// @brief Method SelectLevel, addr 0x257390c, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method SelectLevel, addr 0x266cdc8, size 0x1bc, virtual false, abstract: false, final false
   inline void SelectLevel(::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
-  /// @brief Method SelectLevelPackHeaderCell, addr 0x25738b0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method SelectLevelPackHeaderCell, addr 0x266cd6c, size 0x2c, virtual false, abstract: false, final false
   inline void SelectLevelPackHeaderCell();
 
-  /// @brief Method SetData, addr 0x2572440, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x266b9fc, size 0x1c4, virtual false, abstract: false, final false
   inline void SetData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevel*>* beatmapLevels, ::System::Collections::Generic::HashSet_1<::StringW>* favoriteLevelIds,
                       bool beatmapLevelsAreSorted, bool sortBeatmapLevels);
 
@@ -382,22 +320,22 @@ public:
 
   constexpr void __cordl_internal_set_didSelectLevelEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionTableView>, ::GlobalNamespace::BeatmapLevel*>* value);
 
-  /// @brief Method .ctor, addr 0x2573ac8, size 0x108c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x266cf84, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didSelectHeaderEvent, addr 0x25721e0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didSelectHeaderEvent, addr 0x266b79c, size 0xb0, virtual false, abstract: false, final false
   inline void add_didSelectHeaderEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelCollectionTableView>>* value);
 
-  /// @brief Method add_didSelectLevelEvent, addr 0x2572080, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didSelectLevelEvent, addr 0x266b63c, size 0xb0, virtual false, abstract: false, final false
   inline void add_didSelectLevelEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionTableView>, ::GlobalNamespace::BeatmapLevel*>* value);
 
   /// @brief Convert to "::HMUI::__TableView__IDataSource"
   constexpr ::HMUI::__TableView__IDataSource* i___HMUI____TableView__IDataSource() noexcept;
 
-  /// @brief Method remove_didSelectHeaderEvent, addr 0x2572290, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSelectHeaderEvent, addr 0x266b84c, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didSelectHeaderEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelCollectionTableView>>* value);
 
-  /// @brief Method remove_didSelectLevelEvent, addr 0x2572130, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSelectLevelEvent, addr 0x266b6ec, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didSelectLevelEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionTableView>, ::GlobalNamespace::BeatmapLevel*>* value);
 
 protected:
@@ -527,5 +465,3 @@ static_assert(offsetof(::GlobalNamespace::LevelCollectionTableView, ____selected
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LevelCollectionTableView);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LevelCollectionTableView*, "", "LevelCollectionTableView");
-NEED_NO_BOX(::GlobalNamespace::__LevelCollectionTableView____c);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__LevelCollectionTableView____c*, "", "LevelCollectionTableView/<>c");

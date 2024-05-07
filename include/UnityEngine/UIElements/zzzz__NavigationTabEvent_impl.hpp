@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/NavigationTabEvent.hpp"
 #include "UnityEngine/UIElements/zzzz__NavigationEventBase_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__NavigationTabEvent_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__NavigationTabEvent_def.hpp"
@@ -18,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::NavigationTabEvent::*)(::UnityEngine::UIElements::__NavigationTabEvent__Direction)>(
     &::UnityEngine::UIElements::NavigationTabEvent::set_direction)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33a2240;
+  constexpr static std::size_t addrs = 0x35a7f7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -33,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::__NavigationTabEvent__Direction (*)(int32_t)>(
     &::UnityEngine::UIElements::NavigationTabEvent::DetermineMoveDirection)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x33a2248;
+  constexpr static std::size_t addrs = 0x35a7f84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::NavigationTabEvent* (*)(int32_t)>(
     &::UnityEngine::UIElements::NavigationTabEvent::GetPooled)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x33a2264;
+  constexpr static std::size_t addrs = 0x35a7fa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::NavigationTabEvent::*)()>(&::UnityEngine::UIElements::NavigationTabEvent::Init)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x33a22f0;
+  constexpr static std::size_t addrs = 0x35a802c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -77,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::NavigationTabEvent::*)()>(&::UnityEngine::UIElements::NavigationTabEvent::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x33a2340;
+  constexpr static std::size_t addrs = 0x35a807c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::NavigationTabEvent*>::get(), ".ctor",

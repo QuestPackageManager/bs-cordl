@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ObsoleteAttribute.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,16 +46,16 @@ public:
 
   constexpr void __cordl_internal_set__message(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2843338, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2942b0c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2843358, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2942b2c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x2843384, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2942b58, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, bool error);
 
-  /// @brief Method get_Message, addr 0x28433b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Message, addr 0x2942b88, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Message();
 
 protected:

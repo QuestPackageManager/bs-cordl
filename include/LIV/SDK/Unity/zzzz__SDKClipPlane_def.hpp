@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LIV/SDK/Unity/SDKClipPlane.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,10 +26,10 @@ namespace LIV::SDK::Unity {
 struct CORDL_TYPE SDKClipPlane {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x2504018, size 0x1dc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x25faca4, size 0x1dc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_empty, addr 0x25034a4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_empty, addr 0x25fa130, size 0x34, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKClipPlane get_empty();
 
   // Ctor Parameters []

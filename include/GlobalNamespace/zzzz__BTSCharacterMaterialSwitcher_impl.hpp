@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BTSCharacterMaterialSwitcher.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BTSCharacterMaterialSwitcher_def.hpp"
@@ -12,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Renderer> (::GlobalNamespace::__BTSCharacterMaterialSwitcher__RendererMaterialsPairs::*)()>(
     &::GlobalNamespace::__BTSCharacterMaterialSwitcher__RendererMaterialsPairs::get_renderer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf63958;
+  constexpr static std::size_t addrs = 0x10534cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::GlobalNamespace::__BTSCharacterMaterialSwitcher__MaterialPairs*>* (
     ::GlobalNamespace::__BTSCharacterMaterialSwitcher__RendererMaterialsPairs::*)()>(&::GlobalNamespace::__BTSCharacterMaterialSwitcher__RendererMaterialsPairs::get_materialPairs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf63960;
+  constexpr static std::size_t addrs = 0x10534d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -42,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__BTSCharacterMaterialSwitcher__RendererMaterialsPairs::*)(::UnityEngine::Renderer*)>(
     &::GlobalNamespace::__BTSCharacterMaterialSwitcher__RendererMaterialsPairs::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0xf63968;
+  constexpr static std::size_t addrs = 0x10534dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -108,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__BTSCharacterMaterialSwitcher__MaterialPairs::*)()>(
     &::GlobalNamespace::__BTSCharacterMaterialSwitcher__MaterialPairs::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf639f8;
+  constexpr static std::size_t addrs = 0x105356c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -170,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BTSCharacterMaterialSwitcher::*)(bool)>(
     &::GlobalNamespace::BTSCharacterMaterialSwitcher::SwapMaterials)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0xf636ac;
+  constexpr static std::size_t addrs = 0x1053220;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -185,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BTSCharacterMaterialSwitcher::*)()>(
     &::GlobalNamespace::BTSCharacterMaterialSwitcher::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf63950;
+  constexpr static std::size_t addrs = 0x10534c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BTSCharacterMaterialSwitcher*>::get(), ".ctor",

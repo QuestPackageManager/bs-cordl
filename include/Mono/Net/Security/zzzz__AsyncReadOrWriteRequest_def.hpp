@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Net/Security/AsyncReadOrWriteRequest.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,7 +42,7 @@ public:
   static inline ::Mono::Net::Security::AsyncReadOrWriteRequest* New_ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, bool sync, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer,
                                                                          int32_t offset, int32_t size);
 
-  /// @brief Method ToString, addr 0x2b68880, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2c65180, size 0x5c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr int32_t const& __cordl_internal_get__CurrentSize_k__BackingField() const;
@@ -56,16 +57,16 @@ public:
 
   constexpr void __cordl_internal_set__UserBuffer_k__BackingField(::Mono::Net::Security::BufferOffsetSize* value);
 
-  /// @brief Method .ctor, addr 0x2b687dc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c650dc, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, bool sync, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size);
 
-  /// @brief Method get_CurrentSize, addr 0x2b687cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentSize, addr 0x2c650cc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_CurrentSize();
 
-  /// @brief Method get_UserBuffer, addr 0x2b687c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UserBuffer, addr 0x2c650c4, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Net::Security::BufferOffsetSize* get_UserBuffer();
 
-  /// @brief Method set_CurrentSize, addr 0x2b687d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CurrentSize, addr 0x2c650d4, size 0x8, virtual false, abstract: false, final false
   inline void set_CurrentSize(int32_t value);
 
 protected:

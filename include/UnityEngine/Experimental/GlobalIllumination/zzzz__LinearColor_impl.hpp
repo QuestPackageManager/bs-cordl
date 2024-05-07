@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Experimental/GlobalIllumination/LinearColor.hpp"
 #include "UnityEngine/Experimental/GlobalIllumination/zzzz__LinearColor_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Experimental::GlobalIllumination::LinearColor.get_red
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Experimental::GlobalIllumination::LinearColor::*)()>(
     &::UnityEngine::Experimental::GlobalIllumination::LinearColor::get_red)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x322b8f8;
+  constexpr static std::size_t addrs = 0x3433634;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -22,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Experimental::GlobalIllumination::LinearColor::*)(float_t)>(
     &::UnityEngine::Experimental::GlobalIllumination::LinearColor::set_red)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x322b900;
+  constexpr static std::size_t addrs = 0x343363c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Experimental::GlobalIllumination::LinearColor::*)()>(
     &::UnityEngine::Experimental::GlobalIllumination::LinearColor::get_green)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x322b9b4;
+  constexpr static std::size_t addrs = 0x34336f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -52,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Experimental::GlobalIllumination::LinearColor::*)(float_t)>(
     &::UnityEngine::Experimental::GlobalIllumination::LinearColor::set_green)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x322b9bc;
+  constexpr static std::size_t addrs = 0x34336f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Experimental::GlobalIllumination::LinearColor::*)()>(
     &::UnityEngine::Experimental::GlobalIllumination::LinearColor::get_blue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x322ba70;
+  constexpr static std::size_t addrs = 0x34337ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -82,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Experimental::GlobalIllumination::LinearColor::*)(float_t)>(
     &::UnityEngine::Experimental::GlobalIllumination::LinearColor::set_blue)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x322ba78;
+  constexpr static std::size_t addrs = 0x34337b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -97,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Experimental::GlobalIllumination::LinearColor (*)(::UnityEngine::Color, float_t)>(
     &::UnityEngine::Experimental::GlobalIllumination::LinearColor::Convert)> {
   constexpr static std::size_t size = 0x338;
-  constexpr static std::size_t addrs = 0x322bb2c;
+  constexpr static std::size_t addrs = 0x3433868;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -113,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Experimental::GlobalIllumination::LinearColor (*)()>(
     &::UnityEngine::Experimental::GlobalIllumination::LinearColor::Black)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x322be64;
+  constexpr static std::size_t addrs = 0x3433ba0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

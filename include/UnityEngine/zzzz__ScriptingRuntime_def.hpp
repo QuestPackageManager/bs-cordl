@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ScriptingRuntime.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,7 +21,7 @@ namespace UnityEngine {
 class CORDL_TYPE ScriptingRuntime : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetAllUserAssemblies, addr 0x3207c84, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetAllUserAssemblies, addr 0x340e9b8, size 0x28, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> GetAllUserAssemblies();
 
 protected:

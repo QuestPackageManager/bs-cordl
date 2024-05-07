@@ -1,18 +1,19 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/AudioLatencyViewController.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(AudioLatencyViewController)
-namespace GlobalNamespace {
-class BoolSO;
+namespace BeatSaber::GameSettings {
+class GraphicSettingsHandler;
+}
+namespace BeatSaber::GameSettings {
+class MainSettingsHandler;
 }
 namespace GlobalNamespace {
-class FloatSO;
-}
-namespace GlobalNamespace {
-class MainSettingsModelSO;
+class FormattedFloatListSettingsController;
 }
 namespace GlobalNamespace {
 class SongPreviewPlayer;
@@ -39,29 +40,31 @@ class AudioLatencyViewController;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::AudioLatencyViewController);
 // Type: ::AudioLatencyViewController
-// SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 192, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 200, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::AudioLatencyViewController*
 class CORDL_TYPE AudioLatencyViewController : public ::HMUI::ViewController {
 public:
   // Declarations
-  /// @brief Field _audioLatency, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__audioLatency, put = __cordl_internal_set__audioLatency))::UnityW<::GlobalNamespace::FloatSO> _audioLatency;
+  /// @brief Field _ambientSettingsList, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get__ambientSettingsList,
+                      put = __cordl_internal_set__ambientSettingsList))::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> _ambientSettingsList;
 
   /// @brief Field _disabledAlpha, offset 0xa0, size 0x4
   __declspec(property(get = __cordl_internal_get__disabledAlpha, put = __cordl_internal_set__disabledAlpha)) float_t _disabledAlpha;
 
-  /// @brief Field _mainSettingsModel, offset 0xb0, size 0x8
-  __declspec(property(get = __cordl_internal_get__mainSettingsModel, put = __cordl_internal_set__mainSettingsModel))::UnityW<::GlobalNamespace::MainSettingsModelSO> _mainSettingsModel;
+  /// @brief Field _graphicSettingsHandler, offset 0xb8, size 0x8
+  __declspec(property(get = __cordl_internal_get__graphicSettingsHandler,
+                      put = __cordl_internal_set__graphicSettingsHandler))::BeatSaber::GameSettings::GraphicSettingsHandler* _graphicSettingsHandler;
 
-  /// @brief Field _overrideAudioLatency, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__overrideAudioLatency, put = __cordl_internal_set__overrideAudioLatency))::UnityW<::GlobalNamespace::BoolSO> _overrideAudioLatency;
+  /// @brief Field _mainSettingsHandler, offset 0xb0, size 0x8
+  __declspec(property(get = __cordl_internal_get__mainSettingsHandler, put = __cordl_internal_set__mainSettingsHandler))::BeatSaber::GameSettings::MainSettingsHandler* _mainSettingsHandler;
 
   /// @brief Field _overrideAudioLatencyToggle, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__overrideAudioLatencyToggle, put = __cordl_internal_set__overrideAudioLatencyToggle))::UnityW<::UnityEngine::UI::Toggle> _overrideAudioLatencyToggle;
 
-  /// @brief Field _setupCanvasGroup, offset 0x80, size 0x8
+  /// @brief Field _setupCanvasGroup, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__setupCanvasGroup, put = __cordl_internal_set__setupCanvasGroup))::UnityW<::UnityEngine::CanvasGroup> _setupCanvasGroup;
 
   /// @brief Field _slider, offset 0x90, size 0x8
@@ -70,47 +73,57 @@ public:
   /// @brief Field _songPreviewPlayer, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get__songPreviewPlayer, put = __cordl_internal_set__songPreviewPlayer))::UnityW<::GlobalNamespace::SongPreviewPlayer> _songPreviewPlayer;
 
-  /// @brief Field _toggleBinder, offset 0xb8, size 0x8
+  /// @brief Field _toggleBinder, offset 0xc0, size 0x8
   __declspec(property(get = __cordl_internal_get__toggleBinder, put = __cordl_internal_set__toggleBinder))::HMUI::ToggleBinder* _toggleBinder;
 
   /// @brief Field _visualMetronome, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get__visualMetronome, put = __cordl_internal_set__visualMetronome))::UnityW<::GlobalNamespace::VisualMetronome> _visualMetronome;
 
-  /// @brief Method DidActivate, addr 0x253d914, size 0x230, virtual true, abstract: false, final false
+  /// @brief Field _volumeSettingsList, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get__volumeSettingsList,
+                      put = __cordl_internal_set__volumeSettingsList))::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> _volumeSettingsList;
+
+  /// @brief Method DidActivate, addr 0x265e2b8, size 0x2d4, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x253dc40, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x265e67c, size 0xf8, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleOverrideAudioLatencyToggleValueChanged, addr 0x253ddc0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method HandleAmbientVolumeChanged, addr 0x265e8cc, size 0x74, virtual false, abstract: false, final false
+  inline void HandleAmbientVolumeChanged(::GlobalNamespace::FormattedFloatListSettingsController* _, float_t newValue);
+
+  /// @brief Method HandleOverrideAudioLatencyToggleValueChanged, addr 0x265e9c8, size 0x7c, virtual false, abstract: false, final false
   inline void HandleOverrideAudioLatencyToggleValueChanged(bool isOn);
+
+  /// @brief Method HandleVolumeChanged, addr 0x265e858, size 0x74, virtual false, abstract: false, final false
+  inline void HandleVolumeChanged(::GlobalNamespace::FormattedFloatListSettingsController* _, float_t newValue);
 
   static inline ::GlobalNamespace::AudioLatencyViewController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x253dc68, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x265e774, size 0xe4, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RefreshVisuals, addr 0x253db44, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method RefreshVisuals, addr 0x265e58c, size 0xf0, virtual false, abstract: false, final false
   inline void RefreshVisuals(bool overrideAudioLatencyIsEnabled);
 
-  /// @brief Method SliderValueDidChange, addr 0x253dd4c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SliderValueDidChange, addr 0x265e940, size 0x88, virtual false, abstract: false, final false
   inline void SliderValueDidChange(::HMUI::RangeValuesTextSlider* slider, float_t value);
 
-  constexpr ::UnityW<::GlobalNamespace::FloatSO> const& __cordl_internal_get__audioLatency() const;
+  constexpr ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> const& __cordl_internal_get__ambientSettingsList() const;
 
-  constexpr ::UnityW<::GlobalNamespace::FloatSO>& __cordl_internal_get__audioLatency();
+  constexpr ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController>& __cordl_internal_get__ambientSettingsList();
 
   constexpr float_t const& __cordl_internal_get__disabledAlpha() const;
 
   constexpr float_t& __cordl_internal_get__disabledAlpha();
 
-  constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO> const& __cordl_internal_get__mainSettingsModel() const;
+  constexpr ::BeatSaber::GameSettings::GraphicSettingsHandler*& __cordl_internal_get__graphicSettingsHandler();
 
-  constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO>& __cordl_internal_get__mainSettingsModel();
+  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::GameSettings::GraphicSettingsHandler*> const& __cordl_internal_get__graphicSettingsHandler() const;
 
-  constexpr ::UnityW<::GlobalNamespace::BoolSO> const& __cordl_internal_get__overrideAudioLatency() const;
+  constexpr ::BeatSaber::GameSettings::MainSettingsHandler*& __cordl_internal_get__mainSettingsHandler();
 
-  constexpr ::UnityW<::GlobalNamespace::BoolSO>& __cordl_internal_get__overrideAudioLatency();
+  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::GameSettings::MainSettingsHandler*> const& __cordl_internal_get__mainSettingsHandler() const;
 
   constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__overrideAudioLatencyToggle() const;
 
@@ -136,13 +149,17 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::VisualMetronome>& __cordl_internal_get__visualMetronome();
 
-  constexpr void __cordl_internal_set__audioLatency(::UnityW<::GlobalNamespace::FloatSO> value);
+  constexpr ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> const& __cordl_internal_get__volumeSettingsList() const;
+
+  constexpr ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController>& __cordl_internal_get__volumeSettingsList();
+
+  constexpr void __cordl_internal_set__ambientSettingsList(::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> value);
 
   constexpr void __cordl_internal_set__disabledAlpha(float_t value);
 
-  constexpr void __cordl_internal_set__mainSettingsModel(::UnityW<::GlobalNamespace::MainSettingsModelSO> value);
+  constexpr void __cordl_internal_set__graphicSettingsHandler(::BeatSaber::GameSettings::GraphicSettingsHandler* value);
 
-  constexpr void __cordl_internal_set__overrideAudioLatency(::UnityW<::GlobalNamespace::BoolSO> value);
+  constexpr void __cordl_internal_set__mainSettingsHandler(::BeatSaber::GameSettings::MainSettingsHandler* value);
 
   constexpr void __cordl_internal_set__overrideAudioLatencyToggle(::UnityW<::UnityEngine::UI::Toggle> value);
 
@@ -156,7 +173,9 @@ public:
 
   constexpr void __cordl_internal_set__visualMetronome(::UnityW<::GlobalNamespace::VisualMetronome> value);
 
-  /// @brief Method .ctor, addr 0x253de28, size 0x14, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__volumeSettingsList(::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> value);
+
+  /// @brief Method .ctor, addr 0x265ea44, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -173,14 +192,14 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AudioLatencyViewController(AudioLatencyViewController const&) = delete;
 
-  /// @brief Field _audioLatency, offset: 0x70, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::FloatSO> ____audioLatency;
-
-  /// @brief Field _overrideAudioLatency, offset: 0x78, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::BoolSO> ____overrideAudioLatency;
-
-  /// @brief Field _setupCanvasGroup, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field _setupCanvasGroup, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::UnityEngine::CanvasGroup> ____setupCanvasGroup;
+
+  /// @brief Field _volumeSettingsList, offset: 0x78, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> ____volumeSettingsList;
+
+  /// @brief Field _ambientSettingsList, offset: 0x80, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> ____ambientSettingsList;
 
   /// @brief Field _overrideAudioLatencyToggle, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Toggle> ____overrideAudioLatencyToggle;
@@ -197,22 +216,25 @@ public:
   /// @brief Field _songPreviewPlayer, offset: 0xa8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SongPreviewPlayer> ____songPreviewPlayer;
 
-  /// @brief Field _mainSettingsModel, offset: 0xb0, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::MainSettingsModelSO> ____mainSettingsModel;
+  /// @brief Field _mainSettingsHandler, offset: 0xb0, size: 0x8, def value: None
+  ::BeatSaber::GameSettings::MainSettingsHandler* ____mainSettingsHandler;
 
-  /// @brief Field _toggleBinder, offset: 0xb8, size: 0x8, def value: None
+  /// @brief Field _graphicSettingsHandler, offset: 0xb8, size: 0x8, def value: None
+  ::BeatSaber::GameSettings::GraphicSettingsHandler* ____graphicSettingsHandler;
+
+  /// @brief Field _toggleBinder, offset: 0xc0, size: 0x8, def value: None
   ::HMUI::ToggleBinder* ____toggleBinder;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AudioLatencyViewController, 0xc0>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AudioLatencyViewController, 0xc8>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AudioLatencyViewController, ____audioLatency) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AudioLatencyViewController, ____setupCanvasGroup) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AudioLatencyViewController, ____overrideAudioLatency) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AudioLatencyViewController, ____volumeSettingsList) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AudioLatencyViewController, ____setupCanvasGroup) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AudioLatencyViewController, ____ambientSettingsList) == 0x80, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::AudioLatencyViewController, ____overrideAudioLatencyToggle) == 0x88, "Offset mismatch!");
 
@@ -224,9 +246,11 @@ static_assert(offsetof(::GlobalNamespace::AudioLatencyViewController, ____disabl
 
 static_assert(offsetof(::GlobalNamespace::AudioLatencyViewController, ____songPreviewPlayer) == 0xa8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AudioLatencyViewController, ____mainSettingsModel) == 0xb0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AudioLatencyViewController, ____mainSettingsHandler) == 0xb0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AudioLatencyViewController, ____toggleBinder) == 0xb8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AudioLatencyViewController, ____graphicSettingsHandler) == 0xb8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::AudioLatencyViewController, ____toggleBinder) == 0xc0, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::AudioLatencyViewController);

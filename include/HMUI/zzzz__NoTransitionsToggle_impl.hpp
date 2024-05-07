@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/NoTransitionsToggle.hpp"
 #include "HMUI/zzzz__UISelectionState_impl.hpp"
 #include "UnityEngine/UI/zzzz__Toggle_impl.hpp"
 #include "HMUI/zzzz__NoTransitionsToggle_def.hpp"
@@ -10,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HMUI::UISelectionState (::HMUI::NoTransitionsToggle::*)()>(&::HMUI::NoTransitionsToggle::get_selectionState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x242bd9c;
+  constexpr static std::size_t addrs = 0x2526a28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::NoTransitionsToggle*>::get(), "get_selectionState",
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::NoTransitionsToggle::*)(::System::Action_1<::HMUI::UISelectionState>*)>(
     &::HMUI::NoTransitionsToggle::add_selectionStateDidChangeEvent)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x242bda4;
+  constexpr static std::size_t addrs = 0x2526a30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::NoTransitionsToggle::*)(::System::Action_1<::HMUI::UISelectionState>*)>(
     &::HMUI::NoTransitionsToggle::remove_selectionStateDidChangeEvent)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x242be58;
+  constexpr static std::size_t addrs = 0x2526ae4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -53,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::NoTransitionsToggle::*)()>(&::HMUI::NoTransitionsToggle::Start)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x242bf0c;
+  constexpr static std::size_t addrs = 0x2526b98;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -68,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::NoTransitionsToggle::*)(::UnityEngine::UI::__Selectable__SelectionState, bool)>(
     &::HMUI::NoTransitionsToggle::DoStateTransition)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x242bfb8;
+  constexpr static std::size_t addrs = 0x2526c44;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -82,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::NoTransitionsToggle::*)()>(&::HMUI::NoTransitionsToggle::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x242c00c;
+  constexpr static std::size_t addrs = 0x2526c98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::NoTransitionsToggle*>::get(), ".ctor",
@@ -95,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::NoTransitionsToggle::*)(bool)>(&::HMUI::NoTransitionsToggle::_Start_b__6_0)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x242c014;
+  constexpr static std::size_t addrs = 0x2526ca0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

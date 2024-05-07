@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OVROnCompleteListener.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,7 +21,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::OVROnCompleteListener* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2a1d77c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b1b02c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method onFailure, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

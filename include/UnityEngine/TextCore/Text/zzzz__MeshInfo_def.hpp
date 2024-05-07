@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/TextCore/Text/MeshInfo.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,22 +40,22 @@ public:
   /// @brief Field k_DefaultColor, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_k_DefaultColor, put = setStaticF_k_DefaultColor))::UnityEngine::Color32 k_DefaultColor;
 
-  /// @brief Method Clear, addr 0x32959d8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x349d714, size 0x2c, virtual false, abstract: false, final false
   inline void Clear(bool uploadChanges);
 
-  /// @brief Method ClearUnusedVertices, addr 0x3299288, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ClearUnusedVertices, addr 0x34a0fc4, size 0x3c, virtual false, abstract: false, final false
   inline void ClearUnusedVertices();
 
-  /// @brief Method ResizeMeshInfo, addr 0x32990a0, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method ResizeMeshInfo, addr 0x34a0ddc, size 0x1e8, virtual false, abstract: false, final false
   inline void ResizeMeshInfo(int32_t size);
 
-  /// @brief Method SortGeometry, addr 0x32992c4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SortGeometry, addr 0x34a1000, size 0x7c, virtual false, abstract: false, final false
   inline void SortGeometry(::UnityEngine::TextCore::Text::VertexSortingOrder order);
 
-  /// @brief Method SwapVertexData, addr 0x3299340, size 0x58c, virtual false, abstract: false, final false
+  /// @brief Method SwapVertexData, addr 0x34a107c, size 0x58c, virtual false, abstract: false, final false
   inline void SwapVertexData(int32_t src, int32_t dst);
 
-  /// @brief Method .ctor, addr 0x3298d4c, size 0x354, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34a0a88, size 0x354, virtual false, abstract: false, final false
   inline void _ctor(int32_t size);
 
   static inline ::UnityEngine::Color32 getStaticF_k_DefaultColor();

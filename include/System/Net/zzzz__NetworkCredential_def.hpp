@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/NetworkCredential.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,16 +47,16 @@ public:
   /// @brief Convert operator to "::System::Net::ICredentials"
   constexpr operator ::System::Net::ICredentials*() noexcept;
 
-  /// @brief Method GetCredential, addr 0x2ed3498, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method GetCredential, addr 0x2fd5d98, size 0x4, virtual true, abstract: false, final true
   inline ::System::Net::NetworkCredential* GetCredential(::System::Uri* uri, ::StringW authType);
 
-  /// @brief Method InternalGetDomain, addr 0x2ed3490, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InternalGetDomain, addr 0x2fd5d90, size 0x8, virtual false, abstract: false, final false
   inline ::StringW InternalGetDomain();
 
-  /// @brief Method InternalGetPassword, addr 0x2ed3474, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method InternalGetPassword, addr 0x2fd5d74, size 0xc, virtual false, abstract: false, final false
   inline ::StringW InternalGetPassword();
 
-  /// @brief Method InternalGetUserName, addr 0x2ed3488, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InternalGetUserName, addr 0x2fd5d88, size 0x8, virtual false, abstract: false, final false
   inline ::StringW InternalGetUserName();
 
   static inline ::System::Net::NetworkCredential* New_ctor(::StringW userName, ::StringW password);
@@ -80,31 +81,31 @@ public:
 
   constexpr void __cordl_internal_set_m_userName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2ed3254, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fd5b54, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW userName, ::StringW password);
 
-  /// @brief Method .ctor, addr 0x2ed32bc, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fd5bbc, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::StringW userName, ::StringW password, ::StringW domain);
 
-  /// @brief Method get_Domain, addr 0x2ed3480, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Domain, addr 0x2fd5d80, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Domain();
 
-  /// @brief Method get_Password, addr 0x2ed3468, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Password, addr 0x2fd5d68, size 0xc, virtual false, abstract: false, final false
   inline ::StringW get_Password();
 
-  /// @brief Method get_UserName, addr 0x2ed3460, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UserName, addr 0x2fd5d60, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_UserName();
 
   /// @brief Convert to "::System::Net::ICredentials"
   constexpr ::System::Net::ICredentials* i___System__Net__ICredentials() noexcept;
 
-  /// @brief Method set_Domain, addr 0x2ed3400, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_Domain, addr 0x2fd5d00, size 0x60, virtual false, abstract: false, final false
   inline void set_Domain(::StringW value);
 
-  /// @brief Method set_Password, addr 0x2ed33e0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_Password, addr 0x2fd5ce0, size 0x20, virtual false, abstract: false, final false
   inline void set_Password(::StringW value);
 
-  /// @brief Method set_UserName, addr 0x2ed3380, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method set_UserName, addr 0x2fd5c80, size 0x60, virtual false, abstract: false, final false
   inline void set_UserName(::StringW value);
 
 protected:

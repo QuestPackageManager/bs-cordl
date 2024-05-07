@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/ICustomDeviceReset.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__ICustomDeviceReset_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::ICustomDeviceReset.Reset
 template <>

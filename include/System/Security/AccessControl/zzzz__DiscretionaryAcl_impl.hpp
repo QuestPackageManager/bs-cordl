@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/AccessControl/DiscretionaryAcl.hpp"
 #include "System/Security/AccessControl/zzzz__CommonAcl_impl.hpp"
 #include "System/Security/AccessControl/zzzz__DiscretionaryAcl_def.hpp"
 #include "System/Security/AccessControl/zzzz__AccessControlType_def.hpp"
@@ -13,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::AccessControl::DiscretionaryAcl::*)(bool, bool, int32_t)>(
     &::System::Security::AccessControl::DiscretionaryAcl::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2706b50;
+  constexpr static std::size_t addrs = 0x2803f4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,7 +31,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Security::AccessControl::AccessControlType, ::System::Security::Principal::SecurityIdentifier*, int32_t, ::System::Security::AccessControl::InheritanceFlags,
     ::System::Security::AccessControl::PropagationFlags)>(&::System::Security::AccessControl::DiscretionaryAcl::AddAccess)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x2706b5c;
+  constexpr static std::size_t addrs = 0x2803f58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -49,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::AccessControl::DiscretionaryAcl::*)()>(
     &::System::Security::AccessControl::DiscretionaryAcl::ApplyCanonicalSortToExplicitAces)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2706d30;
+  constexpr static std::size_t addrs = 0x280412c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -65,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Security::AccessControl::DiscretionaryAcl::*)(::System::Security::AccessControl::AceQualifier)>(
     &::System::Security::AccessControl::DiscretionaryAcl::GetAceInsertPosition)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2706d78;
+  constexpr static std::size_t addrs = 0x2804174;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -81,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::AccessControl::AceQualifier (*)(::System::Security::AccessControl::AccessControlType)>(
     &::System::Security::AccessControl::DiscretionaryAcl::GetAceQualifier)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x2706cd0;
+  constexpr static std::size_t addrs = 0x28040cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -96,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Security::AccessControl::DiscretionaryAcl::*)(::System::Security::AccessControl::GenericAce*)>(
     &::System::Security::AccessControl::DiscretionaryAcl::IsAceMeaningless)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x2706d88;
+  constexpr static std::size_t addrs = 0x2804184;
 
   inline static ::MethodInfo const* methodInfo() {
 

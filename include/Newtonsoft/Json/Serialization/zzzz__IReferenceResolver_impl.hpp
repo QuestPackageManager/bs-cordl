@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/IReferenceResolver.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__IReferenceResolver_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Serialization::IReferenceResolver.ResolveReference

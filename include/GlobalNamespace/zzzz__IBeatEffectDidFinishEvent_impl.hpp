@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IBeatEffectDidFinishEvent.hpp"
 #include "GlobalNamespace/zzzz__IBeatEffectDidFinishEvent_def.hpp"
 #include "GlobalNamespace/zzzz__BeatEffect_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IBeatEffectDidFinishEvent.HandleBeatEffectDidFinish

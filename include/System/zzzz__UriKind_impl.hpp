@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/UriKind.hpp"
 #include "System/zzzz__UriKind_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::UriKind::UriKind(int32_t value__) noexcept {

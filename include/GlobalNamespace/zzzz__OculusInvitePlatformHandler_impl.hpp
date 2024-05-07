@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OculusInvitePlatformHandler.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OculusInvitePlatformHandler_def.hpp"
 #include "GlobalNamespace/zzzz__IInvitePlatformHandler_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OculusInvitePlatformHandler::*)()>(
     &::GlobalNamespace::OculusInvitePlatformHandler::get_isSupported)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x13dcc0c;
+  constexpr static std::size_t addrs = 0x14cffbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusInvitePlatformHandler*>::get(),
@@ -22,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusInvitePlatformHandler::*)()>(
     &::GlobalNamespace::OculusInvitePlatformHandler::OpenInvitePanel)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x13dcc14;
+  constexpr static std::size_t addrs = 0x14cffc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusInvitePlatformHandler*>::get(),
@@ -35,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusInvitePlatformHandler::*)()>(&::GlobalNamespace::OculusInvitePlatformHandler::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x13dcc74;
+  constexpr static std::size_t addrs = 0x14d0024;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusInvitePlatformHandler*>::get(), ".ctor",

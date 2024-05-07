@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/AddressableAssets/DynamicResourceLocator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/AddressableAssets/zzzz__DynamicResourceLocator_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
@@ -14,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::AddressableAssets::DynamicResourceLocator::*)()>(
     &::UnityEngine::AddressableAssets::DynamicResourceLocator::get_LocatorId)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2f5bb90;
+  constexpr static std::size_t addrs = 0x305d490;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::DynamicResourceLocator*>::get(),
@@ -28,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::System::Object*>* (
     ::UnityEngine::AddressableAssets::DynamicResourceLocator::*)()>(&::UnityEngine::AddressableAssets::DynamicResourceLocator::get_Keys)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2f5bbd0;
+  constexpr static std::size_t addrs = 0x305d4d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::AddressableAssets::DynamicResourceLocator::*)()>(
     &::UnityEngine::AddressableAssets::DynamicResourceLocator::get_AtlasSpriteProviderId)> {
   constexpr static std::size_t size = 0x458;
-  constexpr static std::size_t addrs = 0x2f5bc14;
+  constexpr static std::size_t addrs = 0x305d514;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::DynamicResourceLocator*>::get(),
@@ -58,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::DynamicResourceLocator::*)(
     ::UnityEngine::AddressableAssets::AddressablesImpl*)>(&::UnityEngine::AddressableAssets::DynamicResourceLocator::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2f5c06c;
+  constexpr static std::size_t addrs = 0x305d96c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -74,7 +75,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Object*, ::System::Type*, ByRef<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>)>(
     &::UnityEngine::AddressableAssets::DynamicResourceLocator::Locate)> {
   constexpr static std::size_t size = 0x54c;
-  constexpr static std::size_t addrs = 0x2f5c094;
+  constexpr static std::size_t addrs = 0x305d994;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -93,7 +94,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Type*, ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*, ::StringW, ::StringW,
     ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&::UnityEngine::AddressableAssets::DynamicResourceLocator::CreateDynamicLocations)> {
   constexpr static std::size_t size = 0x68c;
-  constexpr static std::size_t addrs = 0x2f5c5e0;
+  constexpr static std::size_t addrs = 0x305dee0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

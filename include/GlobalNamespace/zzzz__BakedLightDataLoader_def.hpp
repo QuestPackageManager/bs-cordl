@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BakedLightDataLoader.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,10 +42,10 @@ public:
 
   static inline ::GlobalNamespace::BakedLightDataLoader* New_ctor();
 
-  /// @brief Method SetTextureDataToShaders, addr 0x258645c, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method SetTextureDataToShaders, addr 0x267e8f0, size 0x13c, virtual false, abstract: false, final false
   inline void SetTextureDataToShaders();
 
-  /// @brief Method Start, addr 0x25863a4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x267e838, size 0xb8, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::Texture2D> const& __cordl_internal_get__blackTexture() const;
@@ -59,21 +60,21 @@ public:
 
   constexpr void __cordl_internal_set__lightmapData(::UnityW<::GlobalNamespace::LightmapDataSO> value);
 
-  /// @brief Method .ctor, addr 0x2586598, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x267ea2c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__lightMap1PropertyId();
 
   static inline int32_t getStaticF__lightMap2PropertyId();
 
-  /// @brief Method get_lightmapData, addr 0x2586394, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightmapData, addr 0x267e828, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::LightmapDataSO> get_lightmapData();
 
   static inline void setStaticF__lightMap1PropertyId(int32_t value);
 
   static inline void setStaticF__lightMap2PropertyId(int32_t value);
 
-  /// @brief Method set_lightmapData, addr 0x258639c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lightmapData, addr 0x267e830, size 0x8, virtual false, abstract: false, final false
   inline void set_lightmapData(::GlobalNamespace::LightmapDataSO* value);
 
 protected:

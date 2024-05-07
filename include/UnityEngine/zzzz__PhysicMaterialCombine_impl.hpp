@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/PhysicMaterialCombine.hpp"
 #include "UnityEngine/zzzz__PhysicMaterialCombine_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::PhysicMaterialCombine::PhysicMaterialCombine(int32_t value__) noexcept {

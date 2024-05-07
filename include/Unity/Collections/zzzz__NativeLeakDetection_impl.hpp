@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/Collections/NativeLeakDetection.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/zzzz__NativeLeakDetection_def.hpp"
 //  Writing Method size for method: ::Unity::Collections::NativeLeakDetection.Initialize
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Unity::Collections::NativeLeakDetection::Initialize)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x31cec28;
+  constexpr static std::size_t addrs = 0x33d5920;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::NativeLeakDetection*>::get(), "Initialize",

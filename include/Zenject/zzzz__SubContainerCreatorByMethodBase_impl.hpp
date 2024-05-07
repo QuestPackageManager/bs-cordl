@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/SubContainerCreatorByMethodBase.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__SubContainerCreatorByMethodBase_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -13,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::Zenject::SubContainerCreatorByMethodBase::*)(::Zenject::DiContainer*, ::Zenject::SubContainerCreatorBindInfo*)>(&::Zenject::SubContainerCreatorByMethodBase::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x345a694;
+  constexpr static std::size_t addrs = 0x365e65c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -45,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::DiContainer* (::Zenject::SubContainerCreatorByMethodBase::*)()>(
     &::Zenject::SubContainerCreatorByMethodBase::CreateEmptySubContainer)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x345a6c0;
+  constexpr static std::size_t addrs = 0x365e688;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SubContainerCreatorByMethodBase*>::get(),

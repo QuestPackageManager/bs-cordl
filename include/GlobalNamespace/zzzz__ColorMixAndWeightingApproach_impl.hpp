@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ColorMixAndWeightingApproach.hpp"
 #include "GlobalNamespace/zzzz__ColorMixAndWeightingApproach_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::ColorMixAndWeightingApproach::ColorMixAndWeightingApproach(int32_t value__) noexcept {

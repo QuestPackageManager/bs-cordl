@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/Test_HAPI_ParmInfo_Extensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__Test_HAPI_ParmInfo_Extensions_def.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_ParmInfo_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::Test_HAPI_ParmInfo* (*)(::HoudiniEngineUnity::HAPI_ParmInfo)>(
     &::HoudiniEngineUnity::Test_HAPI_ParmInfo_Extensions::ToTestObject)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x24d0414;
+  constexpr static std::size_t addrs = 0x25c80a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

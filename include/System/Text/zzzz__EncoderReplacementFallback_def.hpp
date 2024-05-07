@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Text/EncoderReplacementFallback.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,13 +46,13 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method CreateFallbackBuffer, addr 0x26b9ce8, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method CreateFallbackBuffer, addr 0x27b80e4, size 0x60, virtual true, abstract: false, final false
   inline ::System::Text::EncoderFallbackBuffer* CreateFallbackBuffer();
 
-  /// @brief Method Equals, addr 0x26b9dac, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x27b81a8, size 0x80, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* value);
 
-  /// @brief Method GetHashCode, addr 0x26b9e2c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x27b8228, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Text::EncoderReplacementFallback* New_ctor();
@@ -60,7 +61,7 @@ public:
 
   static inline ::System::Text::EncoderReplacementFallback* New_ctor(::StringW replacement);
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x26b9c84, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x27b8080, size 0x5c, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   constexpr ::StringW const& __cordl_internal_get__strDefault() const;
@@ -69,19 +70,19 @@ public:
 
   constexpr void __cordl_internal_set__strDefault(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26b8aa0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27b6e9c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x26b9b80, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27b7f7c, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x26b99d8, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27b7dd4, size 0x1a8, virtual false, abstract: false, final false
   inline void _ctor(::StringW replacement);
 
-  /// @brief Method get_DefaultString, addr 0x26b9ce0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultString, addr 0x27b80dc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_DefaultString();
 
-  /// @brief Method get_MaxCharCount, addr 0x26b9d90, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_MaxCharCount, addr 0x27b818c, size 0x1c, virtual true, abstract: false, final false
   inline int32_t get_MaxCharCount();
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"

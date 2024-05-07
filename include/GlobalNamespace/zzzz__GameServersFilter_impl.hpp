@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/GameServersFilter.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficultyMask_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifierMask_impl.hpp"
 #include "GlobalNamespace/zzzz__SongPackMask_impl.hpp"
@@ -9,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServersFilter::*)()>(&::GlobalNamespace::GameServersFilter::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2536a4c;
+  constexpr static std::size_t addrs = 0x262d400;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersFilter*>::get(), ".ctor",

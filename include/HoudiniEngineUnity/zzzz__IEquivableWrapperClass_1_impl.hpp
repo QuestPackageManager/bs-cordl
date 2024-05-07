@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/IEquivableWrapperClass_1.hpp"
 #include "HoudiniEngineUnity/zzzz__IEquivableWrapperClass_1_def.hpp"
 #include "HoudiniEngineUnity/zzzz__IEquivable_1_def.hpp"
 /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<T>"

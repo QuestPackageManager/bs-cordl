@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/UriHelper.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,45 +32,45 @@ public:
   /// @brief Field HexUpperChars, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_HexUpperChars, put = setStaticF_HexUpperChars))::ArrayW<char16_t, ::Array<char16_t>*> HexUpperChars;
 
-  /// @brief Method EnsureDestinationSize, addr 0x2e7ea40, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method EnsureDestinationSize, addr 0x2f7e340, size 0x12c, virtual false, abstract: false, final false
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> EnsureDestinationSize(::cordl_internals::Ptr<char16_t> pStr, ::ArrayW<char16_t, ::Array<char16_t>*> dest, int32_t currentInputPos,
                                                                              int16_t charsToAdd, int16_t minReallocateChars, ByRef<int32_t> destPos, int32_t prevInputPos);
 
-  /// @brief Method EscapeAsciiChar, addr 0x2e7e1d0, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method EscapeAsciiChar, addr 0x2f7dad0, size 0x108, virtual false, abstract: false, final false
   static inline void EscapeAsciiChar(char16_t ch, ::ArrayW<char16_t, ::Array<char16_t>*> to, ByRef<int32_t> pos);
 
-  /// @brief Method EscapeString, addr 0x2e7e504, size 0x53c, virtual false, abstract: false, final false
+  /// @brief Method EscapeString, addr 0x2f7de04, size 0x53c, virtual false, abstract: false, final false
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> EscapeString(::StringW input, int32_t start, int32_t end, ::ArrayW<char16_t, ::Array<char16_t>*> dest, ByRef<int32_t> destPos, bool isUriString,
                                                                     char16_t force1, char16_t force2, char16_t rsvd);
 
-  /// @brief Method EscapedAscii, addr 0x2e7db9c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method EscapedAscii, addr 0x2f7d49c, size 0xc0, virtual false, abstract: false, final false
   static inline char16_t EscapedAscii(char16_t digit, char16_t next);
 
-  /// @brief Method Is3986Unreserved, addr 0x2e7f7a8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Is3986Unreserved, addr 0x2f7f0a8, size 0x9c, virtual false, abstract: false, final false
   static inline bool Is3986Unreserved(char16_t c);
 
-  /// @brief Method IsNotSafeForUnescape, addr 0x2e7dc5c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method IsNotSafeForUnescape, addr 0x2f7d55c, size 0x8c, virtual false, abstract: false, final false
   static inline bool IsNotSafeForUnescape(char16_t ch);
 
-  /// @brief Method IsReservedUnreservedOrHash, addr 0x2e7ec4c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method IsReservedUnreservedOrHash, addr 0x2f7e54c, size 0x108, virtual false, abstract: false, final false
   static inline bool IsReservedUnreservedOrHash(char16_t c);
 
-  /// @brief Method IsUnreserved, addr 0x2e7eb6c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method IsUnreserved, addr 0x2f7e46c, size 0xe0, virtual false, abstract: false, final false
   static inline bool IsUnreserved(char16_t c);
 
-  /// @brief Method MatchUTF8Sequence, addr 0x2e7dce8, size 0x4e8, virtual false, abstract: false, final false
+  /// @brief Method MatchUTF8Sequence, addr 0x2f7d5e8, size 0x4e8, virtual false, abstract: false, final false
   static inline void MatchUTF8Sequence(::cordl_internals::Ptr<char16_t> pDest, ::ArrayW<char16_t, ::Array<char16_t>*> dest, ByRef<int32_t> destOffset,
                                        ::ArrayW<char16_t, ::Array<char16_t>*> unescapedChars, int32_t charCount, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t byteCount, bool isQuery,
                                        bool iriParsing);
 
-  /// @brief Method TestForSubPath, addr 0x2e7e300, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method TestForSubPath, addr 0x2f7dc00, size 0x204, virtual false, abstract: false, final false
   static inline bool TestForSubPath(::cordl_internals::Ptr<char16_t> pMe, uint16_t meLength, ::cordl_internals::Ptr<char16_t> pShe, uint16_t sheLength, bool ignoreCase);
 
-  /// @brief Method UnescapeString, addr 0x2e7ed54, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method UnescapeString, addr 0x2f7e654, size 0xe0, virtual false, abstract: false, final false
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> UnescapeString(::StringW input, int32_t start, int32_t end, ::ArrayW<char16_t, ::Array<char16_t>*> dest, ByRef<int32_t> destPosition,
                                                                       char16_t rsvd1, char16_t rsvd2, char16_t rsvd3, ::System::UnescapeMode unescapeMode, ::System::UriParser* syntax, bool isQuery);
 
-  /// @brief Method UnescapeString, addr 0x2e7ee34, size 0x914, virtual false, abstract: false, final false
+  /// @brief Method UnescapeString, addr 0x2f7e734, size 0x914, virtual false, abstract: false, final false
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> UnescapeString(::cordl_internals::Ptr<char16_t> pStr, int32_t start, int32_t end, ::ArrayW<char16_t, ::Array<char16_t>*> dest,
                                                                       ByRef<int32_t> destPosition, char16_t rsvd1, char16_t rsvd2, char16_t rsvd3, ::System::UnescapeMode unescapeMode,
                                                                       ::System::UriParser* syntax, bool isQuery);

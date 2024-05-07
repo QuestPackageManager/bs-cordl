@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/ExtensionDataGetter.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,18 +35,18 @@ namespace Newtonsoft::Json::Serialization {
 class CORDL_TYPE ExtensionDataGetter : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x292e3ac, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2a2cc5c, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::Object* o, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x292e3cc, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2a2cc7c, size 0xc, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::System::Object*, ::System::Object*>>* EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x292e398, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2a2cc48, size 0x14, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::System::Object*, ::System::Object*>>* Invoke(::System::Object* o);
 
   static inline ::Newtonsoft::Json::Serialization::ExtensionDataGetter* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2924858, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a23108, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:

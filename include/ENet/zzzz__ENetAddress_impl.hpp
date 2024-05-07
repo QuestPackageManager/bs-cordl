@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "ENet/ENetAddress.hpp"
 #include "ENet/zzzz__ENetAddress_def.hpp"
 constexpr uint16_t& ENet::ENetAddress::__cordl_internal_get_port() {
   return this->___port;

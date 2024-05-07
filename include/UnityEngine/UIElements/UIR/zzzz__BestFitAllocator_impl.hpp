@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/BestFitAllocator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__LinkedPoolItem_1_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__LinkedPool_1_impl.hpp"
@@ -11,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::UIR::__BestFitAllocator__Block* (*)()>(
     &::UnityEngine::UIElements::UIR::__BestFitAllocator__BlockPool::CreateBlock)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x332535c;
+  constexpr static std::size_t addrs = 0x352a098;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UIElements::UIR::__BestFitAllocator__Block*)>(
     &::UnityEngine::UIElements::UIR::__BestFitAllocator__BlockPool::ResetBlock)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x33253fc;
+  constexpr static std::size_t addrs = 0x352a138;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::__BestFitAllocator__BlockPool::*)()>(
     &::UnityEngine::UIElements::UIR::__BestFitAllocator__BlockPool::_ctor)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3325024;
+  constexpr static std::size_t addrs = 0x3529d60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -79,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::UIElements::UIR::__BestFitAllocator__Block::*)()>(
     &::UnityEngine::UIElements::UIR::__BestFitAllocator__Block::get_size)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x332515c;
+  constexpr static std::size_t addrs = 0x3529e98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -94,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::__BestFitAllocator__Block::*)()>(
     &::UnityEngine::UIElements::UIR::__BestFitAllocator__Block::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x33253b4;
+  constexpr static std::size_t addrs = 0x352a0f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -212,7 +213,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::BestFitAllocator::*)(uint32_t)>(
     &::UnityEngine::UIElements::UIR::BestFitAllocator::_ctor)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x331c0f0;
+  constexpr static std::size_t addrs = 0x3520e2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -227,7 +228,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::UIElements::UIR::BestFitAllocator::*)()>(
     &::UnityEngine::UIElements::UIR::BestFitAllocator::get_totalSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3325114;
+  constexpr static std::size_t addrs = 0x3529e50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::BestFitAllocator*>::get(),
@@ -241,7 +242,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::UIElements::UIR::BestFitAllocator::*)()>(
     &::UnityEngine::UIElements::UIR::BestFitAllocator::get_highWatermark)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x331c604;
+  constexpr static std::size_t addrs = 0x3521340;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::BestFitAllocator*>::get(),
@@ -255,7 +256,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::UIR::Alloc (::UnityEngine::UIElements::UIR::BestFitAllocator::*)(uint32_t)>(
     &::UnityEngine::UIElements::UIR::BestFitAllocator::Allocate)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x331beb8;
+  constexpr static std::size_t addrs = 0x3520bf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -270,7 +271,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::BestFitAllocator::*)(::UnityEngine::UIElements::UIR::Alloc)>(
     &::UnityEngine::UIElements::UIR::BestFitAllocator::Free)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x331c3a8;
+  constexpr static std::size_t addrs = 0x35210e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -285,7 +286,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::UIR::__BestFitAllocator__Block* (
     ::UnityEngine::UIElements::UIR::BestFitAllocator::*)(::UnityEngine::UIElements::UIR::__BestFitAllocator__Block*)>(&::UnityEngine::UIElements::UIR::BestFitAllocator::CoalesceBlockWithPrevious)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x3325254;
+  constexpr static std::size_t addrs = 0x3529f90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -300,7 +301,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::UIR::__BestFitAllocator__Block* (
     ::UnityEngine::UIElements::UIR::BestFitAllocator::*)(uint32_t)>(&::UnityEngine::UIElements::UIR::BestFitAllocator::BestFitFindAvailableBlock)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x332511c;
+  constexpr static std::size_t addrs = 0x3529e58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -315,7 +316,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::BestFitAllocator::*)(
     ::UnityEngine::UIElements::UIR::__BestFitAllocator__Block*, uint32_t)>(&::UnityEngine::UIElements::UIR::BestFitAllocator::SplitBlock)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3325168;
+  constexpr static std::size_t addrs = 0x3529ea4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/Vrcamera.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,10 +23,10 @@ namespace Oculus::Platform {
 class CORDL_TYPE Vrcamera : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetGetDataChannelMessageUpdateNotificationCallback, addr 0x29d8cc8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetGetDataChannelMessageUpdateNotificationCallback, addr 0x2ad6578, size 0x74, virtual false, abstract: false, final false
   static inline void SetGetDataChannelMessageUpdateNotificationCallback(::Oculus::Platform::__Message_1__Callback<::StringW>* callback);
 
-  /// @brief Method SetGetSurfaceUpdateNotificationCallback, addr 0x29d8d3c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetGetSurfaceUpdateNotificationCallback, addr 0x2ad65ec, size 0x74, virtual false, abstract: false, final false
   static inline void SetGetSurfaceUpdateNotificationCallback(::Oculus::Platform::__Message_1__Callback<::StringW>* callback);
 
 protected:

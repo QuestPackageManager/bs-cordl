@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/PoseObject.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,13 +50,13 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x258bb2c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2684aec, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Transform* transform, ::GlobalNamespace::PoseObjectIdSO* poseObjectId);
 
-  /// @brief Method get_id, addr 0x258d9b0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x2686970, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW get_id();
 
-  /// @brief Method get_objectTransform, addr 0x258d9a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_objectTransform, addr 0x2686968, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_objectTransform();
 
 protected:

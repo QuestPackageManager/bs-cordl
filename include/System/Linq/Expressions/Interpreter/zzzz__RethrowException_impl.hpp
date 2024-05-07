@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/RethrowException.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__RethrowException_def.hpp"
 //  Writing Method size for method: ::System::Linq::Expressions::Interpreter::RethrowException._ctor
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::RethrowException::*)()>(
     &::System::Linq::Expressions::Interpreter::RethrowException::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2b2b3d0;
+  constexpr static std::size_t addrs = 0x2c28cd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

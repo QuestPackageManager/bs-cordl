@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/ILateTickable.hpp"
 #include "Zenject/zzzz__ILateTickable_def.hpp"
 //  Writing Method size for method: ::Zenject::ILateTickable.LateTick
 template <>

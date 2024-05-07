@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/RecordingToolSceneSetupData.hpp"
 #include "GlobalNamespace/zzzz__SceneSetupData_impl.hpp"
 #include "GlobalNamespace/zzzz__RecordingToolSceneSetupData_def.hpp"
 #include "GlobalNamespace/zzzz__ScenesTransitionSetupDataSO_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> (::GlobalNamespace::RecordingToolSceneSetupData::*)()>(
     &::GlobalNamespace::RecordingToolSceneSetupData::get_nextScenesTransitionSetupData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25a88b4;
+  constexpr static std::size_t addrs = 0x26a294c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RecordingToolSceneSetupData::*)(::GlobalNamespace::ScenesTransitionSetupDataSO*)>(
     &::GlobalNamespace::RecordingToolSceneSetupData::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x25a88bc;
+  constexpr static std::size_t addrs = 0x26a2954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

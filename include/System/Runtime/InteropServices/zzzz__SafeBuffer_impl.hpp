@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/InteropServices/SafeBuffer.hpp"
 #include "Microsoft/Win32/SafeHandles/zzzz__SafeHandleZeroOrMinusOneIsInvalid_impl.hpp"
 #include "System/zzzz__UIntPtr_impl.hpp"
 #include "System/Runtime/InteropServices/zzzz__SafeBuffer_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::InteropServices::SafeBuffer::*)(ByRef<::cordl_internals::Ptr<uint8_t>>)>(
     &::System::Runtime::InteropServices::SafeBuffer::AcquirePointer)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x2758360;
+  constexpr static std::size_t addrs = 0x285775c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::InteropServices::SafeBuffer::*)()>(
     &::System::Runtime::InteropServices::SafeBuffer::ReleasePointer)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x27585ac;
+  constexpr static std::size_t addrs = 0x28579a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::SafeBuffer*>::get(),
@@ -37,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::InvalidOperationException* (*)()>(&::System::Runtime::InteropServices::SafeBuffer::NotInitialized)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x2758468;
+  constexpr static std::size_t addrs = 0x2857864;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::SafeBuffer*>::get(),

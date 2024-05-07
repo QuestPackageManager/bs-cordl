@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/MouseCaptureEventBase_1.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerCaptureEventBase_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__MouseCaptureEventBase_1_def.hpp"
 template <typename T> inline void UnityEngine::UIElements::MouseCaptureEventBase_1<T>::Init() {

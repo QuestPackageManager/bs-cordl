@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MainSettingsMenuViewController.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__MainSettingsMenuViewController_def.hpp"
 #include "GlobalNamespace/zzzz__SettingsSubMenuInfo_def.hpp"
@@ -11,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainSettingsMenuViewController::*)(
     ::System::Action_2<::GlobalNamespace::SettingsSubMenuInfo*, int32_t>*)>(&::GlobalNamespace::MainSettingsMenuViewController::add_didSelectSettingsSubMenuEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x25585a4;
+  constexpr static std::size_t addrs = 0x264dec4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainSettingsMenuViewController::*)(
     ::System::Action_2<::GlobalNamespace::SettingsSubMenuInfo*, int32_t>*)>(&::GlobalNamespace::MainSettingsMenuViewController::remove_didSelectSettingsSubMenuEvent)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2558654;
+  constexpr static std::size_t addrs = 0x264df74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::MainSettingsMenuViewController::*)()>(
     &::GlobalNamespace::MainSettingsMenuViewController::get_numberOfSubMenus)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2558704;
+  constexpr static std::size_t addrs = 0x264e024;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsMenuViewController*>::get(),
@@ -57,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SettingsSubMenuInfo* (::GlobalNamespace::MainSettingsMenuViewController::*)()>(
     &::GlobalNamespace::MainSettingsMenuViewController::get_selectedSubMenuInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2558720;
+  constexpr static std::size_t addrs = 0x264e040;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsMenuViewController*>::get(),
@@ -71,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainSettingsMenuViewController::*)(int32_t)>(
     &::GlobalNamespace::MainSettingsMenuViewController::Init)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2558728;
+  constexpr static std::size_t addrs = 0x264e048;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainSettingsMenuViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::MainSettingsMenuViewController::DidActivate)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x2558760;
+  constexpr static std::size_t addrs = 0x264e080;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -102,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainSettingsMenuViewController::*)(::HMUI::SegmentedControl*, int32_t)>(
     &::GlobalNamespace::MainSettingsMenuViewController::HandleSettingsMenuSegmentedControlDidSelectCell)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2558950;
+  constexpr static std::size_t addrs = 0x264e270;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -119,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainSettingsMenuViewController::*)()>(
     &::GlobalNamespace::MainSettingsMenuViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25589a4;
+  constexpr static std::size_t addrs = 0x264e2c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsMenuViewController*>::get(),

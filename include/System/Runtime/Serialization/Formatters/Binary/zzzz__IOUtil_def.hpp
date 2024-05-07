@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Serialization/Formatters/Binary/IOUtil.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,13 +32,13 @@ namespace System::Runtime::Serialization::Formatters::Binary {
 class CORDL_TYPE IOUtil : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FlagTest, addr 0x2743828, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method FlagTest, addr 0x2841c24, size 0xc, virtual false, abstract: false, final false
   static inline bool FlagTest(::System::Runtime::Serialization::Formatters::Binary::MessageEnum flag, ::System::Runtime::Serialization::Formatters::Binary::MessageEnum target);
 
-  /// @brief Method WriteStringWithCode, addr 0x2743834, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method WriteStringWithCode, addr 0x2841c30, size 0x74, virtual false, abstract: false, final false
   static inline void WriteStringWithCode(::StringW value, ::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
 
-  /// @brief Method WriteWithCode, addr 0x27438a8, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method WriteWithCode, addr 0x2841ca4, size 0x12c, virtual false, abstract: false, final false
   static inline void WriteWithCode(::System::Type* type, ::System::Object* value, ::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
 
 protected:

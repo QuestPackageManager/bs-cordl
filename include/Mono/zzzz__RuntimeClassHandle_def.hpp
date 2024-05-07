@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/RuntimeClassHandle.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,25 +31,25 @@ public:
   // Declarations
   __declspec(property(get = get_Value))::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass> Value;
 
-  /// @brief Method Equals, addr 0x2693360, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x279075c, size 0x104, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2693464, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2790860, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetTypeFromClass, addr 0x269348c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetTypeFromClass, addr 0x2790888, size 0x4, virtual false, abstract: false, final false
   static inline void* GetTypeFromClass(::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass> klass);
 
-  /// @brief Method GetTypeHandle, addr 0x2693490, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetTypeHandle, addr 0x279088c, size 0x8, virtual false, abstract: false, final false
   inline ::System::RuntimeTypeHandle GetTypeHandle();
 
-  /// @brief Method .ctor, addr 0x2693338, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2790734, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(void* ptr);
 
-  /// @brief Method .ctor, addr 0x2693330, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x279072c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass> value);
 
-  /// @brief Method get_Value, addr 0x2693358, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x2790754, size 0x8, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<::Mono::__RuntimeStructs__MonoClass> get_Value();
 
   // Ctor Parameters []

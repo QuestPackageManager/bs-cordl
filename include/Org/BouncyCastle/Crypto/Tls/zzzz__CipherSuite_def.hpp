@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/CipherSuite.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,12 +20,12 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CORDL_TYPE CipherSuite : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsScsv, addr 0x10cbf14, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsScsv, addr 0x11bf638, size 0x20, virtual false, abstract: false, final false
   static inline bool IsScsv(int32_t cipherSuite);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::CipherSuite* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10cbf34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11bf658, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

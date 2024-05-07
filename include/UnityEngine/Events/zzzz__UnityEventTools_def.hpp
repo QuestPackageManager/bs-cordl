@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Events/UnityEventTools.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,7 +20,7 @@ namespace UnityEngine::Events {
 class CORDL_TYPE UnityEventTools : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method TidyAssemblyTypeName, addr 0x3231b78, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method TidyAssemblyTypeName, addr 0x34398b4, size 0x228, virtual false, abstract: false, final false
   static inline ::StringW TidyAssemblyTypeName(::StringW assemblyTypeName);
 
 protected:

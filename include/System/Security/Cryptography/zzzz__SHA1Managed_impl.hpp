@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Cryptography/SHA1Managed.hpp"
 #include "System/Security/Cryptography/zzzz__SHA1_impl.hpp"
 #include "System/Security/Cryptography/zzzz__SHA1Managed_def.hpp"
 //  Writing Method size for method: ::System::Security::Cryptography::SHA1Managed._ctor
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::SHA1Managed::*)()>(&::System::Security::Cryptography::SHA1Managed::_ctor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x26ea384;
+  constexpr static std::size_t addrs = 0x27e7780;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::SHA1Managed*>::get(), ".ctor",
@@ -20,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::SHA1Managed::*)()>(
     &::System::Security::Cryptography::SHA1Managed::Initialize)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x26ea4d8;
+  constexpr static std::size_t addrs = 0x27e78d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -36,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::SHA1Managed::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::System::Security::Cryptography::SHA1Managed::HashCore)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x26ea51c;
+  constexpr static std::size_t addrs = 0x27e7918;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -52,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::System::Security::Cryptography::SHA1Managed::*)()>(
     &::System::Security::Cryptography::SHA1Managed::HashFinal)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x26ea69c;
+  constexpr static std::size_t addrs = 0x27e7a98;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -68,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::SHA1Managed::*)()>(
     &::System::Security::Cryptography::SHA1Managed::InitializeState)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x26ea454;
+  constexpr static std::size_t addrs = 0x27e7850;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::SHA1Managed*>::get(),
@@ -82,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::SHA1Managed::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::System::Security::Cryptography::SHA1Managed::_HashData)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x26ea520;
+  constexpr static std::size_t addrs = 0x27e791c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -98,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::System::Security::Cryptography::SHA1Managed::*)()>(
     &::System::Security::Cryptography::SHA1Managed::_EndHash)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x26ea6a0;
+  constexpr static std::size_t addrs = 0x27e7a9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::SHA1Managed*>::get(),
@@ -112,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<uint32_t>, ::cordl_internals::Ptr<uint32_t>, ::cordl_internals::Ptr<uint8_t>)>(
     &::System::Security::Cryptography::SHA1Managed::SHATransform)> {
   constexpr static std::size_t size = 0x3f0;
-  constexpr static std::size_t addrs = 0x26ea844;
+  constexpr static std::size_t addrs = 0x27e7c40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -128,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<uint32_t>)>(&::System::Security::Cryptography::SHA1Managed::SHAExpand)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x26ead78;
+  constexpr static std::size_t addrs = 0x27e8174;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((

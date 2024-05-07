@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HEU_InputInterfaceTilemapSettings.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set__exportUnusedTiles(bool value);
 
-  /// @brief Method .ctor, addr 0x24b77e0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25af46c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

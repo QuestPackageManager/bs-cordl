@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ReflectionProbeDataSO.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__ReflectionProbeDataSO_def.hpp"
 #include "UnityEngine/zzzz__Cubemap_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Cubemap> (::GlobalNamespace::ReflectionProbeDataSO::*)()>(
     &::GlobalNamespace::ReflectionProbeDataSO::get_reflectionProbeCubemap1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25890d0;
+  constexpr static std::size_t addrs = 0x2682080;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ReflectionProbeDataSO*>::get(),
@@ -22,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ReflectionProbeDataSO::*)(::UnityEngine::Cubemap*)>(
     &::GlobalNamespace::ReflectionProbeDataSO::set_reflectionProbeCubemap1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25890d8;
+  constexpr static std::size_t addrs = 0x2682088;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -37,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Cubemap> (::GlobalNamespace::ReflectionProbeDataSO::*)()>(
     &::GlobalNamespace::ReflectionProbeDataSO::get_reflectionProbeCubemap2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25890e0;
+  constexpr static std::size_t addrs = 0x2682090;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ReflectionProbeDataSO*>::get(),
@@ -51,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ReflectionProbeDataSO::*)(::UnityEngine::Cubemap*)>(
     &::GlobalNamespace::ReflectionProbeDataSO::set_reflectionProbeCubemap2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25890e8;
+  constexpr static std::size_t addrs = 0x2682098;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -65,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ReflectionProbeDataSO::*)()>(&::GlobalNamespace::ReflectionProbeDataSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25890f0;
+  constexpr static std::size_t addrs = 0x26820a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ReflectionProbeDataSO*>::get(), ".ctor",

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/VREvent_Keyboard_t.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,7 +23,7 @@ public:
   // Declarations
   __declspec(property(get = get_cNewInput))::StringW cNewInput;
 
-  /// @brief Method get_cNewInput, addr 0x2acdd88, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method get_cNewInput, addr 0x2bca638, size 0xec, virtual false, abstract: false, final false
   inline ::StringW get_cNewInput();
 
   // Ctor Parameters []

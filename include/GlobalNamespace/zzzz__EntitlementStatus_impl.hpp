@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/EntitlementStatus.hpp"
 #include "GlobalNamespace/zzzz__EntitlementStatus_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::EntitlementStatus::EntitlementStatus(int32_t value__) noexcept {

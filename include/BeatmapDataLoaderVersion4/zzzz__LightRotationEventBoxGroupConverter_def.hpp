@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatmapDataLoaderVersion4/LightRotationEventBoxGroupConverter.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,13 +34,13 @@ namespace BeatmapDataLoaderVersion4 {
 class CORDL_TYPE LightRotationEventBoxGroupConverter : public ::BeatmapDataLoaderVersion4::EventBoxGroupConverter {
 public:
   // Declarations
-  /// @brief Method ConvertEvents, addr 0x14056d4, size 0x258, virtual true, abstract: false, final false
+  /// @brief Method ConvertEvents, addr 0x14f7c94, size 0x258, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventDataBox* ConvertEvents(::BeatmapSaveDataVersion4::EventBox eventBox, ::GlobalNamespace::IndexFilter* indexFilter);
 
   static inline ::BeatmapDataLoaderVersion4::LightRotationEventBoxGroupConverter* New_ctor(::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData,
                                                                                            ::GlobalNamespace::IEnvironmentLightGroups* lightGroups);
 
-  /// @brief Method .ctor, addr 0x1404bf8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14f71b8, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData, ::GlobalNamespace::IEnvironmentLightGroups* lightGroups);
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Cryptography/DSASignatureDeformatter.hpp"
 #include "System/Security/Cryptography/zzzz__AsymmetricSignatureDeformatter_impl.hpp"
 #include "System/Security/Cryptography/zzzz__DSASignatureDeformatter_def.hpp"
 #include "System/Security/Cryptography/zzzz__AsymmetricAlgorithm_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::DSASignatureDeformatter::*)()>(
     &::System::Security::Cryptography::DSASignatureDeformatter::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x26e170c;
+  constexpr static std::size_t addrs = 0x27deb08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::DSASignatureDeformatter::*)(
     ::System::Security::Cryptography::AsymmetricAlgorithm*)>(&::System::Security::Cryptography::DSASignatureDeformatter::_ctor)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x26e178c;
+  constexpr static std::size_t addrs = 0x27deb88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::DSASignatureDeformatter::*)(
     ::System::Security::Cryptography::AsymmetricAlgorithm*)>(&::System::Security::Cryptography::DSASignatureDeformatter::SetKey)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x26e1880;
+  constexpr static std::size_t addrs = 0x27dec7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::DSASignatureDeformatter::*)(::StringW)>(
     &::System::Security::Cryptography::DSASignatureDeformatter::SetHashAlgorithm)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x26e196c;
+  constexpr static std::size_t addrs = 0x27ded68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -71,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Security::Cryptography::DSASignatureDeformatter::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::System::Security::Cryptography::DSASignatureDeformatter::VerifySignature)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x26e1a38;
+  constexpr static std::size_t addrs = 0x27dee34;
 
   inline static ::MethodInfo const* methodInfo() {
 

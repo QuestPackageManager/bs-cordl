@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/EventSystems/OVRPointerEventData.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_impl.hpp"
 #include "UnityEngine/zzzz__Ray_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::OVRPointerEventData::*)(::UnityEngine::EventSystems::EventSystem*)>(
     &::UnityEngine::EventSystems::OVRPointerEventData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ad1940;
+  constexpr static std::size_t addrs = 0x2bce1f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::EventSystems::OVRPointerEventData::*)()>(
     &::UnityEngine::EventSystems::OVRPointerEventData::ToString)> {
   constexpr static std::size_t size = 0x3b4;
-  constexpr static std::size_t addrs = 0x2ad3a2c;
+  constexpr static std::size_t addrs = 0x2bd02dc;
 
   inline static ::MethodInfo const* methodInfo() {
 

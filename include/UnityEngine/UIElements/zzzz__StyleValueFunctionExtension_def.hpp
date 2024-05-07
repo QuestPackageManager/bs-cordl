@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/StyleValueFunctionExtension.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,7 +23,7 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE StyleValueFunctionExtension : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToUssString, addr 0x33ba598, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ToUssString, addr 0x35c02d4, size 0xf4, virtual false, abstract: false, final false
   static inline ::StringW ToUssString(::UnityEngine::UIElements::StyleValueFunction svf);
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/DtlsReplayWindow.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,13 +28,13 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DtlsReplayWindow* New_ctor();
 
-  /// @brief Method ReportAuthenticated, addr 0x10d99c8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method ReportAuthenticated, addr 0x11cd0ec, size 0xcc, virtual false, abstract: false, final false
   inline void ReportAuthenticated(int64_t seq);
 
-  /// @brief Method Reset, addr 0x10db3e4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x11ceb08, size 0x10, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method ShouldDiscard, addr 0x10d997c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ShouldDiscard, addr 0x11cd0a0, size 0x44, virtual false, abstract: false, final false
   inline bool ShouldDiscard(int64_t seq);
 
   constexpr int64_t const& __cordl_internal_get_mBitmap() const;
@@ -48,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set_mLatestConfirmedSeq(int64_t value);
 
-  /// @brief Method .ctor, addr 0x10d7614, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11cad38, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

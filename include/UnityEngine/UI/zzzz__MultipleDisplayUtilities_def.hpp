@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UI/MultipleDisplayUtilities.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,10 +29,10 @@ namespace UnityEngine::UI {
 class CORDL_TYPE MultipleDisplayUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetRelativeMousePositionForDrag, addr 0x32cbcbc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetRelativeMousePositionForDrag, addr 0x34d29f8, size 0x68, virtual false, abstract: false, final false
   static inline bool GetRelativeMousePositionForDrag(::UnityEngine::EventSystems::PointerEventData* eventData, ByRef<::UnityEngine::Vector2> position);
 
-  /// @brief Method RelativeMouseAtScaled, addr 0x32cbd24, size 0x468, virtual false, abstract: false, final false
+  /// @brief Method RelativeMouseAtScaled, addr 0x34d2a60, size 0x468, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 RelativeMouseAtScaled(::UnityEngine::Vector2 position);
 
 protected:

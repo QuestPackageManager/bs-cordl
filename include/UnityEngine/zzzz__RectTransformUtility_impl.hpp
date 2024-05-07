@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/RectTransformUtility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__RectTransformUtility_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
@@ -16,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::Vector2, ::UnityEngine::Transform*, ::UnityEngine::Canvas*)>(
     &::UnityEngine::RectTransformUtility::PixelAdjustPoint)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x33f5a08;
+  constexpr static std::size_t addrs = 0x35fb744;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rect (*)(::UnityEngine::RectTransform*, ::UnityEngine::Canvas*)>(
     &::UnityEngine::RectTransformUtility::PixelAdjustRect)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x33f5b08;
+  constexpr static std::size_t addrs = 0x35fb844;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Vector2, ::UnityEngine::RectTransform*, ::UnityEngine::Camera*, ::UnityEngine::Vector4)>(
     &::UnityEngine::RectTransformUtility::PointInRectangle)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x33f5bfc;
+  constexpr static std::size_t addrs = 0x35fb938;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -66,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::RectTransform*, ::UnityEngine::Vector2, ::UnityEngine::Camera*)>(
     &::UnityEngine::RectTransformUtility::RectangleContainsScreenPoint)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x33f5d00;
+  constexpr static std::size_t addrs = 0x35fba3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -83,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::RectTransform*, ::UnityEngine::Vector2, ::UnityEngine::Camera*, ::UnityEngine::Vector4)>(
     &::UnityEngine::RectTransformUtility::RectangleContainsScreenPoint)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x33f5dd4;
+  constexpr static std::size_t addrs = 0x35fbb10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -100,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::RectTransform*, ::UnityEngine::Vector2, ::UnityEngine::Camera*,
                                                                                            ByRef<::UnityEngine::Vector3>)>(&::UnityEngine::RectTransformUtility::ScreenPointToWorldPointInRectangle)> {
   constexpr static std::size_t size = 0x2ec;
-  constexpr static std::size_t addrs = 0x33f5e80;
+  constexpr static std::size_t addrs = 0x35fbbbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -117,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::RectTransform*, ::UnityEngine::Vector2, ::UnityEngine::Camera*,
                                                                                            ByRef<::UnityEngine::Vector2>)>(&::UnityEngine::RectTransformUtility::ScreenPointToLocalPointInRectangle)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x33f629c;
+  constexpr static std::size_t addrs = 0x35fbfd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -134,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Ray (*)(::UnityEngine::Camera*, ::UnityEngine::Vector2)>(
     &::UnityEngine::RectTransformUtility::ScreenPointToRay)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x33f616c;
+  constexpr static std::size_t addrs = 0x35fbea8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -150,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::Camera*, ::UnityEngine::Vector3)>(
     &::UnityEngine::RectTransformUtility::WorldToScreenPoint)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x33f639c;
+  constexpr static std::size_t addrs = 0x35fc0d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -166,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::RectTransform*, int32_t, bool, bool)>(
     &::UnityEngine::RectTransformUtility::FlipLayoutOnAxis)> {
   constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x33f644c;
+  constexpr static std::size_t addrs = 0x35fc188;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -182,7 +183,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::RectTransform*, bool, bool)>(&::UnityEngine::RectTransformUtility::FlipLayoutAxes)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x33f6710;
+  constexpr static std::size_t addrs = 0x35fc44c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -197,7 +198,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::Vector2)>(&::UnityEngine::RectTransformUtility::GetTransposed)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x33f6960;
+  constexpr static std::size_t addrs = 0x35fc69c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -212,7 +213,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::Vector2>, ::UnityEngine::Transform*, ::UnityEngine::Canvas*,
                                                                                            ByRef<::UnityEngine::Vector2>)>(&::UnityEngine::RectTransformUtility::PixelAdjustPoint_Injected)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x33f5aac;
+  constexpr static std::size_t addrs = 0x35fb7e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -229,7 +230,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::RectTransform*, ::UnityEngine::Canvas*, ByRef<::UnityEngine::Rect>)>(
     &::UnityEngine::RectTransformUtility::PixelAdjustRect_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x33f5ba8;
+  constexpr static std::size_t addrs = 0x35fb8e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -246,7 +247,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<::UnityEngine::Vector2>, ::UnityEngine::RectTransform*, ::UnityEngine::Camera*,
                                                                                            ByRef<::UnityEngine::Vector4>)>(&::UnityEngine::RectTransformUtility::PointInRectangle_Injected)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x33f5ca4;
+  constexpr static std::size_t addrs = 0x35fb9e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

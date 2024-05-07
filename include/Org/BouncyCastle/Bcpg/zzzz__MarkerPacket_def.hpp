@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Bcpg/MarkerPacket.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,7 +30,7 @@ public:
   /// @brief Field marker, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_marker, put = __cordl_internal_set_marker))::ArrayW<uint8_t, ::Array<uint8_t>*> marker;
 
-  /// @brief Method Encode, addr 0x1340dec, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x1435510, size 0x28, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
   static inline ::Org::BouncyCastle::Bcpg::MarkerPacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
@@ -40,7 +41,7 @@ public:
 
   constexpr void __cordl_internal_set_marker(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x133dbe8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x143230c, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
 protected:

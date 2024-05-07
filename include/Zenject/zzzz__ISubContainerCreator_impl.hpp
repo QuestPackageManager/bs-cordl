@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/ISubContainerCreator.hpp"
 #include "Zenject/zzzz__ISubContainerCreator_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/XR/XRMeshSubsystem.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,10 +41,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x3402d60, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3608a9c, size 0x3c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x3402d9c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x3608ad8, size 0x3c, virtual false, abstract: false, final false
   static inline void Dispose(void* self);
 
   /// @brief Convert to "::System::IDisposable"
@@ -80,12 +81,12 @@ public:
   // Declarations
   using MeshTransformList = ::UnityEngine::XR::__XRMeshSubsystem__MeshTransformList;
 
-  /// @brief Method InvokeMeshReadyDelegate, addr 0x3402cc0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method InvokeMeshReadyDelegate, addr 0x36089fc, size 0x58, virtual false, abstract: false, final false
   inline void InvokeMeshReadyDelegate(::UnityEngine::XR::MeshGenerationResult result, ::System::Action_1<::UnityEngine::XR::MeshGenerationResult>* onMeshGenerationComplete);
 
   static inline ::UnityEngine::XR::XRMeshSubsystem* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3402d18, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3608a54, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

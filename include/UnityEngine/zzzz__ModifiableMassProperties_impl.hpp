@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ModifiableMassProperties.hpp"
 #include "UnityEngine/zzzz__ModifiableMassProperties_def.hpp"
 // Ctor Parameters [CppParam { name: "inverseMassScale", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "inverseInertiaScale", ty: "float_t", modifiers: "", def_value:
 // Some("{}") }, CppParam { name: "otherInverseMassScale", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "otherInverseInertiaScale", ty: "float_t", modifiers: "", def_value:

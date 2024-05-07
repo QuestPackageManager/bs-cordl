@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BTSCharacter.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,7 +62,7 @@ public:
 
   static inline ::GlobalNamespace::BTSCharacter* New_ctor();
 
-  /// @brief Method SetAlternativeAnimationAndMaterial, addr 0xf634b8, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method SetAlternativeAnimationAndMaterial, addr 0x105302c, size 0x1f4, virtual false, abstract: false, final false
   inline void SetAlternativeAnimationAndMaterial(::UnityEngine::AnimationClip* animation, bool alternativeMaterialOn);
 
   constexpr ::UnityW<::UnityEngine::Animator> const& __cordl_internal_get__animator() const;
@@ -94,19 +95,19 @@ public:
 
   constexpr void __cordl_internal_set__materialPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController> value);
 
-  /// @brief Method .ctor, addr 0xf63900, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1053474, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_animator, addr 0xf634a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_animator, addr 0x105301c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Animator> get_animator();
 
-  /// @brief Method get_characterName, addr 0xf63498, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_characterName, addr 0x105300c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_characterName();
 
-  /// @brief Method get_headTransform, addr 0xf634b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_headTransform, addr 0x1053024, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_headTransform();
 
-  /// @brief Method get_materialPropertyBlockController, addr 0xf634a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_materialPropertyBlockController, addr 0x1053014, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> get_materialPropertyBlockController();
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/LastUsedBeatmapDataCache.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,17 +36,17 @@ namespace GlobalNamespace {
 struct CORDL_TYPE LastUsedBeatmapDataCache {
 public:
   // Declarations
-  /// @brief Method AreRequiredGameplayModifiersSame, addr 0x13b88a4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AreRequiredGameplayModifiersSame, addr 0x14adf80, size 0x1c, virtual false, abstract: false, final false
   static inline bool AreRequiredGameplayModifiersSame(::GlobalNamespace::GameplayModifiers* first, ::GlobalNamespace::GameplayModifiers* second);
 
-  /// @brief Method AreRequiredPlayerSettingsSame, addr 0x13b88c0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AreRequiredPlayerSettingsSame, addr 0x14adf9c, size 0x1c, virtual false, abstract: false, final false
   static inline bool AreRequiredPlayerSettingsSame(::GlobalNamespace::PlayerSpecificSettings* first, ::GlobalNamespace::PlayerSpecificSettings* second);
 
-  /// @brief Method AreSameBeatmapDataCached, addr 0x13b876c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method AreSameBeatmapDataCached, addr 0x14ade48, size 0xc4, virtual false, abstract: false, final false
   inline bool AreSameBeatmapDataCached(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::IEnvironmentInfo* environmentInfo, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
                                        ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
 
-  /// @brief Method .ctor, addr 0x13b8750, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14ade2c, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IReadonlyBeatmapData* beatmapData, ::GlobalNamespace::BeatmapKey beatmapKey, ::GlobalNamespace::IEnvironmentInfo* environmentInfo,
                     ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
 

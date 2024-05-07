@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Globalization/CultureNotFoundException.hpp"
 #include "System/zzzz__ArgumentException_impl.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/Globalization/zzzz__CultureNotFoundException_def.hpp"
@@ -11,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Globalization::CultureNotFoundException::*)()>(
     &::System::Globalization::CultureNotFoundException::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x27d2204;
+  constexpr static std::size_t addrs = 0x28d0924;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::CultureNotFoundException*>::get(),
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Globalization::CultureNotFoundException::*)(::StringW, ::StringW)>(
     &::System::Globalization::CultureNotFoundException::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x27d2290;
+  constexpr static std::size_t addrs = 0x28d09b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Globalization::CultureNotFoundException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Globalization::CultureNotFoundException::_ctor)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x27d22a4;
+  constexpr static std::size_t addrs = 0x28d09c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -56,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Globalization::CultureNotFoundException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Globalization::CultureNotFoundException::GetObjectData)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x27d2460;
+  constexpr static std::size_t addrs = 0x28d0b80;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -72,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<int32_t> (::System::Globalization::CultureNotFoundException::*)()>(
     &::System::Globalization::CultureNotFoundException::get_InvalidCultureId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x27d25c4;
+  constexpr static std::size_t addrs = 0x28d0ce4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -88,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Globalization::CultureNotFoundException::*)()>(
     &::System::Globalization::CultureNotFoundException::get_InvalidCultureName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x27d25cc;
+  constexpr static std::size_t addrs = 0x28d0cec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -103,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::System::Globalization::CultureNotFoundException::get_DefaultMessage)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x27d2250;
+  constexpr static std::size_t addrs = 0x28d0970;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::CultureNotFoundException*>::get(),
@@ -117,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Globalization::CultureNotFoundException::*)()>(
     &::System::Globalization::CultureNotFoundException::get_FormatedInvalidCultureId)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x27d25d4;
+  constexpr static std::size_t addrs = 0x28d0cf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::CultureNotFoundException*>::get(),
@@ -131,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Globalization::CultureNotFoundException::*)()>(
     &::System::Globalization::CultureNotFoundException::get_Message)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x27d2708;
+  constexpr static std::size_t addrs = 0x28d0e28;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Assets/OVR/Scripts/FixRecord.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -75,7 +76,7 @@ public:
 
   constexpr void __cordl_internal_set_targetObject(::UnityW<::UnityEngine::Object> value);
 
-  /// @brief Method .ctor, addr 0x2acfe74, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bcc724, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(int32_t order, ::StringW cat, ::StringW msg, ::Assets::OVR::Scripts::FixMethodDelegate* fix, ::UnityEngine::Object* target, bool editRequired,
                     ::ArrayW<::StringW, ::Array<::StringW>*> buttons);
 

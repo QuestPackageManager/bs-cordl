@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/ValidationState.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -204,7 +205,7 @@ public:
 
   constexpr void __cordl_internal_set_Validity(::System::Xml::Schema::XmlSchemaValidity value);
 
-  /// @brief Method .ctor, addr 0x2d02b94, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e00494, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

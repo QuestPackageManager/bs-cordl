@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/CVRInput.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,66 +64,66 @@ public:
   /// @brief Field FnTable, offset 0x10, size 0x90
   __declspec(property(get = __cordl_internal_get_FnTable, put = __cordl_internal_set_FnTable))::OVR::OpenVR::IVRInput FnTable;
 
-  /// @brief Method DecompressSkeletalBoneData, addr 0x2acd460, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method DecompressSkeletalBoneData, addr 0x2bc9d10, size 0x2c, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError DecompressSkeletalBoneData(void* pvCompressedBuffer, uint32_t unCompressedBufferSize, ByRef<::OVR::OpenVR::EVRSkeletalTransformSpace> peTransformSpace,
                                                                  ::ArrayW<::OVR::OpenVR::VRBoneTransform_t, ::Array<::OVR::OpenVR::VRBoneTransform_t>*> pTransformArray);
 
-  /// @brief Method GetActionHandle, addr 0x2acd2f8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetActionHandle, addr 0x2bc9ba8, size 0x28, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError GetActionHandle(::StringW pchActionName, ByRef<uint64_t> pHandle);
 
-  /// @brief Method GetActionOrigins, addr 0x2acd4b0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetActionOrigins, addr 0x2bc9d60, size 0x2c, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError GetActionOrigins(uint64_t actionSetHandle, uint64_t digitalActionHandle, ::ArrayW<uint64_t, ::Array<uint64_t>*> originsOut);
 
-  /// @brief Method GetActionSetHandle, addr 0x2acd2d0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetActionSetHandle, addr 0x2bc9b80, size 0x28, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError GetActionSetHandle(::StringW pchActionSetName, ByRef<uint64_t> pHandle);
 
-  /// @brief Method GetAnalogActionData, addr 0x2acd398, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetAnalogActionData, addr 0x2bc9c48, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError GetAnalogActionData(uint64_t action, ByRef<::OVR::OpenVR::InputAnalogActionData_t> pActionData, uint32_t unActionDataSize, uint64_t ulRestrictToDevice);
 
-  /// @brief Method GetDigitalActionData, addr 0x2acd374, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetDigitalActionData, addr 0x2bc9c24, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError GetDigitalActionData(uint64_t action, ByRef<::OVR::OpenVR::InputDigitalActionData_t> pActionData, uint32_t unActionDataSize, uint64_t ulRestrictToDevice);
 
-  /// @brief Method GetInputSourceHandle, addr 0x2acd320, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetInputSourceHandle, addr 0x2bc9bd0, size 0x28, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError GetInputSourceHandle(::StringW pchInputSourcePath, ByRef<uint64_t> pHandle);
 
-  /// @brief Method GetOriginLocalizedName, addr 0x2acd4dc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetOriginLocalizedName, addr 0x2bc9d8c, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError GetOriginLocalizedName(uint64_t origin, ::System::Text::StringBuilder* pchNameArray, uint32_t unNameArraySize);
 
-  /// @brief Method GetOriginTrackedDeviceInfo, addr 0x2acd500, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetOriginTrackedDeviceInfo, addr 0x2bc9db0, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError GetOriginTrackedDeviceInfo(uint64_t origin, ByRef<::OVR::OpenVR::InputOriginInfo_t> pOriginInfo, uint32_t unOriginInfoSize);
 
-  /// @brief Method GetPoseActionData, addr 0x2acd3bc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetPoseActionData, addr 0x2bc9c6c, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError GetPoseActionData(uint64_t action, ::OVR::OpenVR::ETrackingUniverseOrigin eOrigin, float_t fPredictedSecondsFromNow,
                                                         ByRef<::OVR::OpenVR::InputPoseActionData_t> pActionData, uint32_t unActionDataSize, uint64_t ulRestrictToDevice);
 
-  /// @brief Method GetSkeletalActionData, addr 0x2acd3e0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetSkeletalActionData, addr 0x2bc9c90, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError GetSkeletalActionData(uint64_t action, ByRef<::OVR::OpenVR::InputSkeletalActionData_t> pActionData, uint32_t unActionDataSize, uint64_t ulRestrictToDevice);
 
-  /// @brief Method GetSkeletalBoneData, addr 0x2acd404, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetSkeletalBoneData, addr 0x2bc9cb4, size 0x30, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError GetSkeletalBoneData(uint64_t action, ::OVR::OpenVR::EVRSkeletalTransformSpace eTransformSpace, ::OVR::OpenVR::EVRSkeletalMotionRange eMotionRange,
                                                           ::ArrayW<::OVR::OpenVR::VRBoneTransform_t, ::Array<::OVR::OpenVR::VRBoneTransform_t>*> pTransformArray, uint64_t ulRestrictToDevice);
 
-  /// @brief Method GetSkeletalBoneDataCompressed, addr 0x2acd434, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetSkeletalBoneDataCompressed, addr 0x2bc9ce4, size 0x2c, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError GetSkeletalBoneDataCompressed(uint64_t action, ::OVR::OpenVR::EVRSkeletalTransformSpace eTransformSpace, ::OVR::OpenVR::EVRSkeletalMotionRange eMotionRange,
                                                                     void* pvCompressedData, uint32_t unCompressedSize, ByRef<uint32_t> punRequiredCompressedSize, uint64_t ulRestrictToDevice);
 
   static inline ::OVR::OpenVR::CVRInput* New_ctor(void* pInterface);
 
-  /// @brief Method SetActionManifestPath, addr 0x2acd2ac, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetActionManifestPath, addr 0x2bc9b5c, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError SetActionManifestPath(::StringW pchActionManifestPath);
 
-  /// @brief Method ShowActionOrigins, addr 0x2acd524, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ShowActionOrigins, addr 0x2bc9dd4, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError ShowActionOrigins(uint64_t actionSetHandle, uint64_t ulActionHandle);
 
-  /// @brief Method ShowBindingsForActionSet, addr 0x2acd548, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method ShowBindingsForActionSet, addr 0x2bc9df8, size 0x30, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError ShowBindingsForActionSet(::ArrayW<::OVR::OpenVR::VRActiveActionSet_t, ::Array<::OVR::OpenVR::VRActiveActionSet_t>*> pSets, uint32_t unSizeOfVRSelectedActionSet_t,
                                                                uint64_t originToHighlight);
 
-  /// @brief Method TriggerHapticVibrationAction, addr 0x2acd48c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method TriggerHapticVibrationAction, addr 0x2bc9d3c, size 0x24, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError TriggerHapticVibrationAction(uint64_t action, float_t fStartSecondsFromNow, float_t fDurationSeconds, float_t fFrequency, float_t fAmplitude,
                                                                    uint64_t ulRestrictToDevice);
 
-  /// @brief Method UpdateActionState, addr 0x2acd348, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method UpdateActionState, addr 0x2bc9bf8, size 0x2c, virtual false, abstract: false, final false
   inline ::OVR::OpenVR::EVRInputError UpdateActionState(::ArrayW<::OVR::OpenVR::VRActiveActionSet_t, ::Array<::OVR::OpenVR::VRActiveActionSet_t>*> pSets, uint32_t unSizeOfVRSelectedActionSet_t);
 
   constexpr ::OVR::OpenVR::IVRInput const& __cordl_internal_get_FnTable() const;
@@ -131,7 +132,7 @@ public:
 
   constexpr void __cordl_internal_set_FnTable(::OVR::OpenVR::IVRInput value);
 
-  /// @brief Method .ctor, addr 0x2acd198, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bc9a48, size 0x114, virtual false, abstract: false, final false
   inline void _ctor(void* pInterface);
 
 protected:

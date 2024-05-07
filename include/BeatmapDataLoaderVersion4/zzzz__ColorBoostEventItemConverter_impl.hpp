@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatmapDataLoaderVersion4/ColorBoostEventItemConverter.hpp"
 #include "GlobalNamespace/zzzz__BeatToTimeConverterProvider_impl.hpp"
 #include "BeatmapDataLoaderVersion4/zzzz__ColorBoostEventItemConverter_def.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__BeatIndex_def.hpp"
@@ -12,7 +13,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::BeatmapSaveDataVersion4::ColorBoostEvent, ::Array<::BeatmapSaveDataVersion4::ColorBoostEvent>*>, ::GlobalNamespace::BpmTimeProcessor*)>(
     &::BeatmapDataLoaderVersion4::ColorBoostEventItemConverter::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x14049f0;
+  constexpr static std::size_t addrs = 0x14f6fb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapEventData* (
     ::BeatmapDataLoaderVersion4::ColorBoostEventItemConverter::*)(::BeatmapSaveDataVersion4::BeatIndex*)>(&::BeatmapDataLoaderVersion4::ColorBoostEventItemConverter::Convert)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x1404b14;
+  constexpr static std::size_t addrs = 0x14f70d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

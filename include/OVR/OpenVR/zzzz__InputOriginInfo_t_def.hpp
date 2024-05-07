@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/InputOriginInfo_t.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,7 +23,7 @@ public:
   // Declarations
   __declspec(property(get = get_rchRenderModelComponentName))::StringW rchRenderModelComponentName;
 
-  /// @brief Method get_rchRenderModelComponentName, addr 0x2acdf2c, size 0x86c, virtual false, abstract: false, final false
+  /// @brief Method get_rchRenderModelComponentName, addr 0x2bca7dc, size 0x86c, virtual false, abstract: false, final false
   inline ::StringW get_rchRenderModelComponentName();
 
   // Ctor Parameters []

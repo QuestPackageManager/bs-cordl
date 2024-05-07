@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/TextGenerationSettings.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,13 +48,13 @@ namespace UnityEngine {
 struct CORDL_TYPE TextGenerationSettings {
 public:
   // Declarations
-  /// @brief Method CompareColors, addr 0x329b2d8, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method CompareColors, addr 0x34a2014, size 0x138, virtual false, abstract: false, final false
   inline bool CompareColors(::UnityEngine::Color left, ::UnityEngine::Color right);
 
-  /// @brief Method CompareVector2, addr 0x329b410, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method CompareVector2, addr 0x34a214c, size 0xc8, virtual false, abstract: false, final false
   inline bool CompareVector2(::UnityEngine::Vector2 left, ::UnityEngine::Vector2 right);
 
-  /// @brief Method Equals, addr 0x329b4d8, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x34a2214, size 0x220, virtual false, abstract: false, final false
   inline bool Equals(::UnityEngine::TextGenerationSettings other);
 
   // Ctor Parameters []

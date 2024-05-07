@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Reflection/IntrospectionExtensions.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +25,7 @@ namespace System::Reflection {
 class CORDL_TYPE IntrospectionExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetTypeInfo, addr 0x2767a2c, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method GetTypeInfo, addr 0x286713c, size 0x16c, virtual false, abstract: false, final false
   static inline ::System::Reflection::TypeInfo* GetTypeInfo(::System::Type* type);
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BPMChangeBeatmapEventData.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventData_impl.hpp"
 #include "GlobalNamespace/zzzz__BPMChangeBeatmapEventData_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BPMChangeBeatmapEventData::*)(float_t, float_t)>(
     &::GlobalNamespace::BPMChangeBeatmapEventData::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0xf468c4;
+  constexpr static std::size_t addrs = 0x1035438;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapDataItem* (::GlobalNamespace::BPMChangeBeatmapEventData::*)()>(
     &::GlobalNamespace::BPMChangeBeatmapEventData::GetCopy)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0xf46908;
+  constexpr static std::size_t addrs = 0x103547c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -39,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapEventData* (::GlobalNamespace::BPMChangeBeatmapEventData::*)()>(
     &::GlobalNamespace::BPMChangeBeatmapEventData::GetDefault)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf46994;
+  constexpr static std::size_t addrs = 0x1035508;
 
   inline static ::MethodInfo const* methodInfo() {
 

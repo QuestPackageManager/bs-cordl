@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/HmdRect2_t.hpp"
 #include "OVR/OpenVR/zzzz__HmdVector2_t_impl.hpp"
 #include "OVR/OpenVR/zzzz__HmdRect2_t_def.hpp"
 #include "OVR/OpenVR/zzzz__HmdVector2_t_def.hpp"

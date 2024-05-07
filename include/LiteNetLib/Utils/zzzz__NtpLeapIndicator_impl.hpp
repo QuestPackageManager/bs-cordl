@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LiteNetLib/Utils/NtpLeapIndicator.hpp"
 #include "LiteNetLib/Utils/zzzz__NtpLeapIndicator_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::LiteNetLib::Utils::NtpLeapIndicator::NtpLeapIndicator(int32_t value__) noexcept {

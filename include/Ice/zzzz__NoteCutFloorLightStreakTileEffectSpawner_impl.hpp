@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Ice/NoteCutFloorLightStreakTileEffectSpawner.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Ice/zzzz__NoteCutFloorLightStreakTileEffectSpawner_def.hpp"
@@ -14,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Ice::NoteCutFloorLightStreakTileEffectSpawner::*)(::UnityEngine::Color)>(
     &::Ice::NoteCutFloorLightStreakTileEffectSpawner::set_spawnColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0xf6d184;
+  constexpr static std::size_t addrs = 0x105bd90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::Ice::NoteCutFloorLightStreakTileEffectSpawner::*)()>(
     &::Ice::NoteCutFloorLightStreakTileEffectSpawner::get_spawnColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0xf6d190;
+  constexpr static std::size_t addrs = 0x105bd9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Ice::NoteCutFloorLightStreakTileEffectSpawner*>::get(),
@@ -43,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Ice::NoteCutFloorLightStreakTileEffectSpawner::*)()>(
     &::Ice::NoteCutFloorLightStreakTileEffectSpawner::Start)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0xf6d19c;
+  constexpr static std::size_t addrs = 0x105bda8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Ice::NoteCutFloorLightStreakTileEffectSpawner*>::get(), "Start",
@@ -57,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Ice::NoteCutFloorLightStreakTileEffectSpawner::*)()>(
     &::Ice::NoteCutFloorLightStreakTileEffectSpawner::OnDestroy)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0xf6d228;
+  constexpr static std::size_t addrs = 0x105be34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Ice::NoteCutFloorLightStreakTileEffectSpawner*>::get(),
@@ -71,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Ice::NoteCutFloorLightStreakTileEffectSpawner::*)(
     ::GlobalNamespace::NoteController*, ByRef<::GlobalNamespace::NoteCutInfo>)>(&::Ice::NoteCutFloorLightStreakTileEffectSpawner::HandleNoteWasCut)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0xf6d2c0;
+  constexpr static std::size_t addrs = 0x105becc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -87,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Ice::NoteCutFloorLightStreakTileEffectSpawner::*)()>(
     &::Ice::NoteCutFloorLightStreakTileEffectSpawner::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0xf6d324;
+  constexpr static std::size_t addrs = 0x105bf30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Ice::NoteCutFloorLightStreakTileEffectSpawner*>::get(), ".ctor",

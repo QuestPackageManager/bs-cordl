@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/RosterOptions.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/zzzz__RosterOptions_def.hpp"
@@ -7,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::RosterOptions::*)()>(&::Oculus::Platform::RosterOptions::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x29a366c;
+  constexpr static std::size_t addrs = 0x2aa0f1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::RosterOptions*>::get(), ".ctor",
@@ -20,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::RosterOptions::*)(uint64_t)>(&::Oculus::Platform::RosterOptions::AddSuggestedUser)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x29a36d0;
+  constexpr static std::size_t addrs = 0x2aa0f80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::RosterOptions::*)()>(&::Oculus::Platform::RosterOptions::ClearSuggestedUsers)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x29d975c;
+  constexpr static std::size_t addrs = 0x2ad700c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::RosterOptions*>::get(), "ClearSuggestedUsers",
@@ -47,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (*)(::Oculus::Platform::RosterOptions*)>(&::Oculus::Platform::RosterOptions::op_Explicit_void_)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x29d5c08;
+  constexpr static std::size_t addrs = 0x2ad34b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::RosterOptions::*)()>(&::Oculus::Platform::RosterOptions::Finalize)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x29d97b4;
+  constexpr static std::size_t addrs = 0x2ad7064;
 
   inline static ::MethodInfo const* methodInfo() {
 

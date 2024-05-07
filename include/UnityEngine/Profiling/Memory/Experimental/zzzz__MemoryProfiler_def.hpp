@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Profiling/Memory/Experimental/MemoryProfiler.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,19 +50,19 @@ public:
   /// @brief Field m_SnapshotFinished, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_m_SnapshotFinished, put = setStaticF_m_SnapshotFinished))::System::Action_2<::StringW, bool>* m_SnapshotFinished;
 
-  /// @brief Method FinalizeSnapshot, addr 0x321de48, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method FinalizeSnapshot, addr 0x3424b84, size 0x84, virtual false, abstract: false, final false
   static inline void FinalizeSnapshot(::StringW path, bool result);
 
-  /// @brief Method PrepareMetadata, addr 0x321dbb0, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method PrepareMetadata, addr 0x34248ec, size 0x174, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> PrepareMetadata();
 
-  /// @brief Method SaveScreenshotToDisk, addr 0x321decc, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method SaveScreenshotToDisk, addr 0x3424c08, size 0xfc, virtual false, abstract: false, final false
   static inline void SaveScreenshotToDisk(::StringW path, bool result, void* pixelsPtr, int32_t pixelsCount, ::UnityEngine::TextureFormat format, int32_t width, int32_t height);
 
-  /// @brief Method WriteIntToByteArray, addr 0x321dd24, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method WriteIntToByteArray, addr 0x3424a60, size 0x8c, virtual false, abstract: false, final false
   static inline int32_t WriteIntToByteArray(::ArrayW<uint8_t, ::Array<uint8_t>*> array, int32_t offset, int32_t value);
 
-  /// @brief Method WriteStringToByteArray, addr 0x321ddb0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method WriteStringToByteArray, addr 0x3424aec, size 0x98, virtual false, abstract: false, final false
   static inline int32_t WriteStringToByteArray(::ArrayW<uint8_t, ::Array<uint8_t>*> array, int32_t offset, ::StringW value);
 
   static inline ::System::Action_1<::UnityEngine::Profiling::Memory::Experimental::MetaData*>* getStaticF_createMetaData();

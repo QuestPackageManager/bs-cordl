@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ConnectionFailedException.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,10 +37,10 @@ public:
 
   constexpr void __cordl_internal_set_reason(::GlobalNamespace::ConnectionFailedReason value);
 
-  /// @brief Method .ctor, addr 0xf9c45c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1090b80, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ConnectionFailedReason reason);
 
-  /// @brief Method .ctor, addr 0xf9c4c8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1090bec, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ConnectionFailedReason reason, ::StringW message);
 
 protected:

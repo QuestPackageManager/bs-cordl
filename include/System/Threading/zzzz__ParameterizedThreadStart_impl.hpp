@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/ParameterizedThreadStart.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Threading/zzzz__ParameterizedThreadStart_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ParameterizedThreadStart::*)(::System::Object*, void*)>(
     &::System::Threading::ParameterizedThreadStart::_ctor)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x2898cf4;
+  constexpr static std::size_t addrs = 0x29975a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ParameterizedThreadStart::*)(::System::Object*)>(
     &::System::Threading::ParameterizedThreadStart::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2898e20;
+  constexpr static std::size_t addrs = 0x29976d0;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/MessageWithAbuseReportRecording.hpp"
 #include "Oculus/Platform/zzzz__Message_1_impl.hpp"
 #include "Oculus/Platform/zzzz__MessageWithAbuseReportRecording_def.hpp"
 #include "Oculus/Platform/Models/zzzz__AbuseReportRecording_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::MessageWithAbuseReportRecording::*)(void*)>(
     &::Oculus::Platform::MessageWithAbuseReportRecording::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x29c905c;
+  constexpr static std::size_t addrs = 0x2ac690c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::AbuseReportRecording* (::Oculus::Platform::MessageWithAbuseReportRecording::*)()>(
     &::Oculus::Platform::MessageWithAbuseReportRecording::GetAbuseReportRecording)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x29c90b4;
+  constexpr static std::size_t addrs = 0x2ac6964;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -39,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::AbuseReportRecording* (::Oculus::Platform::MessageWithAbuseReportRecording::*)(void*)>(
     &::Oculus::Platform::MessageWithAbuseReportRecording::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x29c90f0;
+  constexpr static std::size_t addrs = 0x2ac69a0;
 
   inline static ::MethodInfo const* methodInfo() {
 

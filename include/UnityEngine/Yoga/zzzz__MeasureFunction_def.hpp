@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Yoga/MeasureFunction.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,13 +33,13 @@ namespace UnityEngine::Yoga {
 class CORDL_TYPE MeasureFunction : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x33f35ac, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x35f92e8, size 0x14, virtual true, abstract: false, final false
   inline ::UnityEngine::Yoga::YogaSize Invoke(::UnityEngine::Yoga::YogaNode* node, float_t width, ::UnityEngine::Yoga::YogaMeasureMode widthMode, float_t height,
                                               ::UnityEngine::Yoga::YogaMeasureMode heightMode);
 
   static inline ::UnityEngine::Yoga::MeasureFunction* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x33f347c, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35f91b8, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:

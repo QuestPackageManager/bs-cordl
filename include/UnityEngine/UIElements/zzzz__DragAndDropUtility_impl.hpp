@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/DragAndDropUtility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__DragAndDropUtility_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"
@@ -8,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::IDragAndDrop* (*)()>(&::UnityEngine::UIElements::DragAndDropUtility::get_dragAndDrop)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x335b78c;
+  constexpr static std::size_t addrs = 0x355f4c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DragAndDropUtility*>::get(),

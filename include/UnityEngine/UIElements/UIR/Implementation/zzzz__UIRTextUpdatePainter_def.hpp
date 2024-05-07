@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/Implementation/UIRTextUpdatePainter.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -90,22 +91,22 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IStylePainter"
   constexpr operator ::UnityEngine::UIElements::IStylePainter*() noexcept;
 
-  /// @brief Method Begin, addr 0x332f370, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method Begin, addr 0x35340ac, size 0x244, virtual false, abstract: false, final false
   inline void Begin(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::UIR::UIRenderDevice* device);
 
-  /// @brief Method Dispose, addr 0x332f640, size 0xc4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x353437c, size 0xc4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method DrawImmediate, addr 0x332f708, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method DrawImmediate, addr 0x3534444, size 0x4, virtual true, abstract: false, final true
   inline void DrawImmediate(::System::Action* callback, bool cullingEnabled);
 
-  /// @brief Method DrawRectangle, addr 0x332f704, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method DrawRectangle, addr 0x3534440, size 0x4, virtual true, abstract: false, final true
   inline void DrawRectangle(::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams rectParams);
 
-  /// @brief Method DrawText, addr 0x332f70c, size 0x368, virtual true, abstract: false, final true
+  /// @brief Method DrawText, addr 0x3534448, size 0x368, virtual true, abstract: false, final true
   inline void DrawText(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams textParams, ::UnityEngine::UIElements::ITextHandle* handle, float_t pixelsPerPoint);
 
-  /// @brief Method End, addr 0x332f5b4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method End, addr 0x35342f0, size 0x8c, virtual false, abstract: false, final false
   inline void End();
 
   static inline ::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter* New_ctor();
@@ -170,10 +171,10 @@ public:
 
   constexpr void __cordl_internal_set_m_XFormClipPages(::UnityEngine::Color32 value);
 
-  /// @brief Method .ctor, addr 0x332f300, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x353403c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_meshGenerationContext, addr 0x332f2f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_meshGenerationContext, addr 0x3534034, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MeshGenerationContext* get_meshGenerationContext();
 
   /// @brief Convert to "::System::IDisposable"

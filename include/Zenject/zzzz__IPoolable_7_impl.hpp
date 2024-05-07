@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/IPoolable_7.hpp"
 #include "Zenject/zzzz__IPoolable_7_def.hpp"
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7>
 inline void Zenject::IPoolable_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7>::OnDespawned() {

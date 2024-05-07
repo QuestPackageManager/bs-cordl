@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Cms/RecipientInformationStore.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,13 +45,13 @@ public:
   /// @brief Field table, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_table, put = __cordl_internal_set_table))::System::Collections::IDictionary* table;
 
-  /// @brief Method GetFirstRecipient, addr 0x137672c, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method GetFirstRecipient, addr 0x146be50, size 0x190, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::RecipientInformation* GetFirstRecipient(::Org::BouncyCastle::Cms::RecipientID* selector);
 
-  /// @brief Method GetRecipients, addr 0x1376960, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetRecipients, addr 0x146c084, size 0x5c, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* GetRecipients();
 
-  /// @brief Method GetRecipients, addr 0x13769bc, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method GetRecipients, addr 0x146c0e0, size 0x130, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* GetRecipients(::Org::BouncyCastle::Cms::RecipientID* selector);
 
   static inline ::Org::BouncyCastle::Cms::RecipientInformationStore* New_ctor(::System::Collections::ICollection* recipientInfos);
@@ -67,13 +68,13 @@ public:
 
   constexpr void __cordl_internal_set_table(::System::Collections::IDictionary* value);
 
-  /// @brief Method .ctor, addr 0x1351240, size 0x5a8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1446964, size 0x5a8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::ICollection* recipientInfos);
 
-  /// @brief Method get_Count, addr 0x13768bc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x146bfe0, size 0xa4, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Item, addr 0x1376728, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x146be4c, size 0x4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::RecipientInformation* get_Item(::Org::BouncyCastle::Cms::RecipientID* selector);
 
 protected:

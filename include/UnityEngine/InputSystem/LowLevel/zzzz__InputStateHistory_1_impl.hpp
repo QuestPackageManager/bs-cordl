@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/InputStateHistory_1.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputStateHistory_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputStateHistory_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"

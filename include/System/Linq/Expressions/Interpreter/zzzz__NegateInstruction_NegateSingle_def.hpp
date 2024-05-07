@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/NegateInstruction_NegateSingle.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,10 +25,10 @@ public:
   // Declarations
   static inline ::System::Linq::Expressions::Interpreter::__NegateInstruction__NegateSingle* New_ctor();
 
-  /// @brief Method Run, addr 0x2b42d2c, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x2c3f62c, size 0xb0, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x2b42b24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c3f424, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

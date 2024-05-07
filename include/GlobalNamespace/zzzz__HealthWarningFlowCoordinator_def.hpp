@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/HealthWarningFlowCoordinator.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -6,14 +7,19 @@ CORDL_MODULE_INIT
 #include "HMUI/zzzz__FlowCoordinator_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HealthWarningFlowCoordinator)
+namespace BGLib::SaveDataCore {
+class SaveDataFlushingService;
+}
 namespace GlobalNamespace {
 class AppInitScenesTransitionSetupDataContainerSO;
+}
+namespace GlobalNamespace {
+class EndOfLifeNoticeViewController;
 }
 namespace GlobalNamespace {
 class EulaViewController;
@@ -31,13 +37,7 @@ namespace GlobalNamespace {
 class HealthWarningViewController;
 }
 namespace GlobalNamespace {
-class IFileStorage;
-}
-namespace GlobalNamespace {
 class IPlatformInit;
-}
-namespace GlobalNamespace {
-class MainSettingsModelSO;
 }
 namespace GlobalNamespace {
 class NoUserAgeWarningViewController;
@@ -64,10 +64,10 @@ namespace GlobalNamespace {
 class __HealthWarningFlowCoordinator__InitData;
 }
 namespace GlobalNamespace {
-struct __HealthWarningFlowCoordinator___HandleSelectLanguageViewControllerDidChangeLanguageAsync_d__22;
+struct __HealthWarningFlowCoordinator___HandleSelectLanguageViewControllerDidChangeLanguageAsync_d__21;
 }
 namespace GlobalNamespace {
-struct __HealthWarningFlowCoordinator___WaitForUserAgeCategory_d__28;
+struct __HealthWarningFlowCoordinator___WaitForUserAgeCategory_d__29;
 }
 namespace GlobalNamespace {
 struct __PrivacyPolicyViewController__ButtonType;
@@ -93,9 +93,6 @@ class IAsyncStateMachine;
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
 }
-namespace System::Runtime::CompilerServices {
-struct TaskAwaiter;
-}
 // Forward declare root types
 namespace GlobalNamespace {
 class HealthWarningFlowCoordinator;
@@ -104,16 +101,16 @@ namespace GlobalNamespace {
 class __HealthWarningFlowCoordinator__InitData;
 }
 namespace GlobalNamespace {
-struct __HealthWarningFlowCoordinator___HandleSelectLanguageViewControllerDidChangeLanguageAsync_d__22;
+struct __HealthWarningFlowCoordinator___HandleSelectLanguageViewControllerDidChangeLanguageAsync_d__21;
 }
 namespace GlobalNamespace {
-struct __HealthWarningFlowCoordinator___WaitForUserAgeCategory_d__28;
+struct __HealthWarningFlowCoordinator___WaitForUserAgeCategory_d__29;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::HealthWarningFlowCoordinator);
 MARK_REF_PTR_T(::GlobalNamespace::__HealthWarningFlowCoordinator__InitData);
-MARK_VAL_T(::GlobalNamespace::__HealthWarningFlowCoordinator___HandleSelectLanguageViewControllerDidChangeLanguageAsync_d__22);
-MARK_VAL_T(::GlobalNamespace::__HealthWarningFlowCoordinator___WaitForUserAgeCategory_d__28);
+MARK_VAL_T(::GlobalNamespace::__HealthWarningFlowCoordinator___HandleSelectLanguageViewControllerDidChangeLanguageAsync_d__21);
+MARK_VAL_T(::GlobalNamespace::__HealthWarningFlowCoordinator___WaitForUserAgeCategory_d__29);
 // Type: ::InitData
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
@@ -134,7 +131,7 @@ public:
 
   constexpr void __cordl_internal_set_nextScenesTransitionSetupData(::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0x2649164, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x274905c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData);
 
 protected:
@@ -162,21 +159,21 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__HealthWarning
 static_assert(offsetof(::GlobalNamespace::__HealthWarningFlowCoordinator__InitData, ___nextScenesTransitionSetupData) == 0x10, "Offset mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<HandleSelectLanguageViewControllerDidChangeLanguageAsync>d__22
+// Type: ::<HandleSelectLanguageViewControllerDidChangeLanguageAsync>d__21
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::HealthWarningFlowCoordinator::<HandleSelectLanguageViewControllerDidChangeLanguageAsync>d__22
-struct CORDL_TYPE __HealthWarningFlowCoordinator___HandleSelectLanguageViewControllerDidChangeLanguageAsync_d__22 {
+// CS Name: ::HealthWarningFlowCoordinator::<HandleSelectLanguageViewControllerDidChangeLanguageAsync>d__21
+struct CORDL_TYPE __HealthWarningFlowCoordinator___HandleSelectLanguageViewControllerDidChangeLanguageAsync_d__21 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x264918c, size 0x36c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2749084, size 0x2ec, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26494f8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2749370, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -184,15 +181,15 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __HealthWarningFlowCoordinator___HandleSelectLanguageViewControllerDidChangeLanguageAsync_d__22();
+  constexpr __HealthWarningFlowCoordinator___HandleSelectLanguageViewControllerDidChangeLanguageAsync_d__21();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::HealthWarningFlowCoordinator>",
-  // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
-  constexpr __HealthWarningFlowCoordinator___HandleSelectLanguageViewControllerDidChangeLanguageAsync_d__22(int32_t __1__state,
+  // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None }]
+  constexpr __HealthWarningFlowCoordinator___HandleSelectLanguageViewControllerDidChangeLanguageAsync_d__21(int32_t __1__state,
                                                                                                             ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                                                                             ::UnityW<::GlobalNamespace::HealthWarningFlowCoordinator> __4__this,
-                                                                                                            ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
+                                                                                                            ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -204,7 +201,7 @@ public:
   ::UnityW<::GlobalNamespace::HealthWarningFlowCoordinator> __4__this;
 
   /// @brief Field <>u__1, offset: 0x30, size: 0x8, def value: None
-  ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
+  ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1;
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -212,32 +209,32 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__HealthWarningFlowCoordinator___HandleSelectLanguageViewControllerDidChangeLanguageAsync_d__22, 0x38>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__HealthWarningFlowCoordinator___HandleSelectLanguageViewControllerDidChangeLanguageAsync_d__21, 0x38>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__HealthWarningFlowCoordinator___HandleSelectLanguageViewControllerDidChangeLanguageAsync_d__22, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__HealthWarningFlowCoordinator___HandleSelectLanguageViewControllerDidChangeLanguageAsync_d__21, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__HealthWarningFlowCoordinator___HandleSelectLanguageViewControllerDidChangeLanguageAsync_d__22, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__HealthWarningFlowCoordinator___HandleSelectLanguageViewControllerDidChangeLanguageAsync_d__21, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__HealthWarningFlowCoordinator___HandleSelectLanguageViewControllerDidChangeLanguageAsync_d__22, __4__this) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__HealthWarningFlowCoordinator___HandleSelectLanguageViewControllerDidChangeLanguageAsync_d__21, __4__this) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__HealthWarningFlowCoordinator___HandleSelectLanguageViewControllerDidChangeLanguageAsync_d__22, __u__1) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__HealthWarningFlowCoordinator___HandleSelectLanguageViewControllerDidChangeLanguageAsync_d__21, __u__1) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
-// Type: ::<WaitForUserAgeCategory>d__28
+// Type: ::<WaitForUserAgeCategory>d__29
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: ::HealthWarningFlowCoordinator::<WaitForUserAgeCategory>d__28
-struct CORDL_TYPE __HealthWarningFlowCoordinator___WaitForUserAgeCategory_d__28 {
+// CS Name: ::HealthWarningFlowCoordinator::<WaitForUserAgeCategory>d__29
+struct CORDL_TYPE __HealthWarningFlowCoordinator___WaitForUserAgeCategory_d__29 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2649504, size 0x2f8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x274937c, size 0x2f8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26497fc, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2749674, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -245,12 +242,12 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr __HealthWarningFlowCoordinator___WaitForUserAgeCategory_d__28();
+  constexpr __HealthWarningFlowCoordinator___WaitForUserAgeCategory_d__29();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::HealthWarningFlowCoordinator>",
   // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None }]
-  constexpr __HealthWarningFlowCoordinator___WaitForUserAgeCategory_d__28(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
+  constexpr __HealthWarningFlowCoordinator___WaitForUserAgeCategory_d__29(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                                           ::UnityW<::GlobalNamespace::HealthWarningFlowCoordinator> __4__this,
                                                                           ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
 
@@ -272,15 +269,15 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__HealthWarningFlowCoordinator___WaitForUserAgeCategory_d__28, 0x38>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__HealthWarningFlowCoordinator___WaitForUserAgeCategory_d__29, 0x38>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__HealthWarningFlowCoordinator___WaitForUserAgeCategory_d__28, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__HealthWarningFlowCoordinator___WaitForUserAgeCategory_d__29, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__HealthWarningFlowCoordinator___WaitForUserAgeCategory_d__28, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__HealthWarningFlowCoordinator___WaitForUserAgeCategory_d__29, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__HealthWarningFlowCoordinator___WaitForUserAgeCategory_d__28, __4__this) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__HealthWarningFlowCoordinator___WaitForUserAgeCategory_d__29, __4__this) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__HealthWarningFlowCoordinator___WaitForUserAgeCategory_d__28, __u__1) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__HealthWarningFlowCoordinator___WaitForUserAgeCategory_d__29, __u__1) == 0x30, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::HealthWarningFlowCoordinator
@@ -293,42 +290,43 @@ public:
   // Declarations
   using InitData = ::GlobalNamespace::__HealthWarningFlowCoordinator__InitData;
 
-  using _HandleSelectLanguageViewControllerDidChangeLanguageAsync_d__22 = ::GlobalNamespace::__HealthWarningFlowCoordinator___HandleSelectLanguageViewControllerDidChangeLanguageAsync_d__22;
+  using _HandleSelectLanguageViewControllerDidChangeLanguageAsync_d__21 = ::GlobalNamespace::__HealthWarningFlowCoordinator___HandleSelectLanguageViewControllerDidChangeLanguageAsync_d__21;
 
-  using _WaitForUserAgeCategory_d__28 = ::GlobalNamespace::__HealthWarningFlowCoordinator___WaitForUserAgeCategory_d__28;
+  using _WaitForUserAgeCategory_d__29 = ::GlobalNamespace::__HealthWarningFlowCoordinator___WaitForUserAgeCategory_d__29;
 
-  /// @brief Field _appInitScenesTransitionSetupDataContainer, offset 0xb0, size 0x8
+  /// @brief Field _appInitScenesTransitionSetupDataContainer, offset 0xa8, size 0x8
   __declspec(property(
       get = __cordl_internal_get__appInitScenesTransitionSetupDataContainer,
       put = __cordl_internal_set__appInitScenesTransitionSetupDataContainer))::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO> _appInitScenesTransitionSetupDataContainer;
 
-  /// @brief Field _eulaViewController, offset 0xc8, size 0x8
+  /// @brief Field _endOfLifeNoticeViewController, offset 0xe8, size 0x8
+  __declspec(property(get = __cordl_internal_get__endOfLifeNoticeViewController,
+                      put = __cordl_internal_set__endOfLifeNoticeViewController))::UnityW<::GlobalNamespace::EndOfLifeNoticeViewController> _endOfLifeNoticeViewController;
+
+  /// @brief Field _eulaViewController, offset 0xc0, size 0x8
   __declspec(property(get = __cordl_internal_get__eulaViewController, put = __cordl_internal_set__eulaViewController))::UnityW<::GlobalNamespace::EulaViewController> _eulaViewController;
 
-  /// @brief Field _explicitContentWarningViewController, offset 0xe0, size 0x8
+  /// @brief Field _explicitContentWarningViewController, offset 0xd8, size 0x8
   __declspec(property(get = __cordl_internal_get__explicitContentWarningViewController,
                       put = __cordl_internal_set__explicitContentWarningViewController))::UnityW<::GlobalNamespace::ExplicitContentWarningViewController> _explicitContentWarningViewController;
 
   /// @brief Field _fadeInOut, offset 0xf8, size 0x8
   __declspec(property(get = __cordl_internal_get__fadeInOut, put = __cordl_internal_set__fadeInOut))::UnityW<::GlobalNamespace::FadeInOutController> _fadeInOut;
 
-  /// @brief Field _fileStorage, offset 0x110, size 0x8
-  __declspec(property(get = __cordl_internal_get__fileStorage, put = __cordl_internal_set__fileStorage))::GlobalNamespace::IFileStorage* _fileStorage;
+  /// @brief Field _flushingService, offset 0x110, size 0x8
+  __declspec(property(get = __cordl_internal_get__flushingService, put = __cordl_internal_set__flushingService))::BGLib::SaveDataCore::SaveDataFlushingService* _flushingService;
 
   /// @brief Field _gameScenesManager, offset 0x100, size 0x8
   __declspec(property(get = __cordl_internal_get__gameScenesManager, put = __cordl_internal_set__gameScenesManager))::UnityW<::GlobalNamespace::GameScenesManager> _gameScenesManager;
 
-  /// @brief Field _healthWarningViewController, offset 0xd8, size 0x8
+  /// @brief Field _healthWarningViewController, offset 0xd0, size 0x8
   __declspec(property(get = __cordl_internal_get__healthWarningViewController,
                       put = __cordl_internal_set__healthWarningViewController))::UnityW<::GlobalNamespace::HealthWarningViewController> _healthWarningViewController;
 
   /// @brief Field _initData, offset 0x108, size 0x8
   __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData))::GlobalNamespace::__HealthWarningFlowCoordinator__InitData* _initData;
 
-  /// @brief Field _mainSettingsModel, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get__mainSettingsModel, put = __cordl_internal_set__mainSettingsModel))::UnityW<::GlobalNamespace::MainSettingsModelSO> _mainSettingsModel;
-
-  /// @brief Field _noUserAgeWarningViewController, offset 0xe8, size 0x8
+  /// @brief Field _noUserAgeWarningViewController, offset 0xe0, size 0x8
   __declspec(property(get = __cordl_internal_get__noUserAgeWarningViewController,
                       put = __cordl_internal_set__noUserAgeWarningViewController))::UnityW<::GlobalNamespace::NoUserAgeWarningViewController> _noUserAgeWarningViewController;
 
@@ -338,15 +336,15 @@ public:
   /// @brief Field _playerDataModel, offset 0xf0, size 0x8
   __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel))::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
 
-  /// @brief Field _privacyPolicyViewController, offset 0xd0, size 0x8
+  /// @brief Field _privacyPolicyViewController, offset 0xc8, size 0x8
   __declspec(property(get = __cordl_internal_get__privacyPolicyViewController,
                       put = __cordl_internal_set__privacyPolicyViewController))::UnityW<::GlobalNamespace::PrivacyPolicyViewController> _privacyPolicyViewController;
 
-  /// @brief Field _selectLanguageViewController, offset 0xb8, size 0x8
+  /// @brief Field _selectLanguageViewController, offset 0xb0, size 0x8
   __declspec(property(get = __cordl_internal_get__selectLanguageViewController,
                       put = __cordl_internal_set__selectLanguageViewController))::UnityW<::GlobalNamespace::SelectLanguageViewController> _selectLanguageViewController;
 
-  /// @brief Field _selectRegionViewController, offset 0xc0, size 0x8
+  /// @brief Field _selectRegionViewController, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get__selectRegionViewController,
                       put = __cordl_internal_set__selectRegionViewController))::UnityW<::GlobalNamespace::SelectRegionViewController> _selectRegionViewController;
 
@@ -357,65 +355,72 @@ public:
   __declspec(property(get = __cordl_internal_get__viewControllerTitles,
                       put = __cordl_internal_set__viewControllerTitles))::System::Collections::Generic::Dictionary_2<::UnityW<::HMUI::ViewController>, ::StringW>* _viewControllerTitles;
 
-  /// @brief Method CheckPlayerSensitivityFlagAndContinueFlow, addr 0x2649034, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method CheckPlayerSensitivityFlagAndContinueFlow, addr 0x2748ed8, size 0xa0, virtual false, abstract: false, final false
   inline void CheckPlayerSensitivityFlagAndContinueFlow();
 
-  /// @brief Method DidActivate, addr 0x26482a8, size 0x564, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x274808c, size 0x5e8, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x264885c, size 0x2fc, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x27486c4, size 0x2fc, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method GoToNextScene, addr 0x2649118, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method EndOfLifeNoticeContinueFlow, addr 0x2748db0, size 0x38, virtual false, abstract: false, final false
+  inline void EndOfLifeNoticeContinueFlow();
+
+  /// @brief Method GoToNextScene, addr 0x2748fbc, size 0x3c, virtual false, abstract: false, final false
   inline void GoToNextScene();
 
-  /// @brief Method HandleEulaViewControllerDidFinish, addr 0x2648ecc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method HandleEndOfLifeNoticeViewControllerDidFinish, addr 0x2748de8, size 0x5c, virtual false, abstract: false, final false
+  inline void HandleEndOfLifeNoticeViewControllerDidFinish();
+
+  /// @brief Method HandleEulaViewControllerDidFinish, addr 0x2748c48, size 0x7c, virtual false, abstract: false, final false
   inline void HandleEulaViewControllerDidFinish(::GlobalNamespace::__EulaViewController__ButtonType buttonType);
 
-  /// @brief Method HandleExplicitContentWarningViewControllerDidFinish, addr 0x2649158, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleExplicitContentWarningViewControllerDidFinish, addr 0x2748ffc, size 0x58, virtual false, abstract: false, final false
   inline void HandleExplicitContentWarningViewControllerDidFinish();
 
-  /// @brief Method HandleHealthWarningViewControllerDidFinish, addr 0x2648c08, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method HandleHealthWarningViewControllerDidFinish, addr 0x2748d1c, size 0x94, virtual false, abstract: false, final false
   inline void HandleHealthWarningViewControllerDidFinish();
 
-  /// @brief Method HandleNoUserAgeWarningViewControllerDidFinish, addr 0x2649154, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleNoUserAgeWarningViewControllerDidFinish, addr 0x2748ff8, size 0x4, virtual false, abstract: false, final false
   inline void HandleNoUserAgeWarningViewControllerDidFinish();
 
-  /// @brief Method HandlePrivacyPolicyViewControllerDidFinish, addr 0x2648f48, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method HandlePrivacyPolicyViewControllerDidFinish, addr 0x2748cc4, size 0x58, virtual false, abstract: false, final false
   inline void HandlePrivacyPolicyViewControllerDidFinish(::GlobalNamespace::__PrivacyPolicyViewController__ButtonType buttonType);
 
-  /// @brief Method HandleSelectLanguageViewControllerDidChangeLanguageAsync, addr 0x2648cc8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method HandleSelectLanguageViewControllerDidChangeLanguageAsync, addr 0x2748a44, size 0x94, virtual false, abstract: false, final false
   inline void HandleSelectLanguageViewControllerDidChangeLanguageAsync();
 
-  /// @brief Method HandleSelectLanguageViewControllerDidPressContinueButton, addr 0x2648d5c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method HandleSelectLanguageViewControllerDidPressContinueButton, addr 0x2748ad8, size 0x4c, virtual false, abstract: false, final false
   inline void HandleSelectLanguageViewControllerDidPressContinueButton();
 
-  /// @brief Method HandleSelectRegionViewControllerDidPressContinueButton, addr 0x2648da8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method HandleSelectRegionViewControllerDidPressContinueButton, addr 0x2748b24, size 0x30, virtual false, abstract: false, final false
   inline void HandleSelectRegionViewControllerDidPressContinueButton(::GlobalNamespace::__SelectRegionViewController__Region region);
 
-  /// @brief Method HandleUserAgeCategoryArrived, addr 0x26490d4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method HandleUserAgeCategoryArrived, addr 0x2748f78, size 0x44, virtual false, abstract: false, final false
   inline void HandleUserAgeCategoryArrived();
 
   static inline ::GlobalNamespace::HealthWarningFlowCoordinator* New_ctor();
 
-  /// @brief Method ResolveMainViewController, addr 0x264880c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ResolveMainViewController, addr 0x2748674, size 0x50, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::ViewController> ResolveMainViewController();
 
-  /// @brief Method ResolvePlayerAgreementsViewController, addr 0x2648dd8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ResolvePlayerAgreementsViewController, addr 0x2748b54, size 0xf4, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::ViewController> ResolvePlayerAgreementsViewController();
 
-  /// @brief Method TopViewControllerWillChange, addr 0x2648b58, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method TopViewControllerWillChange, addr 0x27489c0, size 0x84, virtual true, abstract: false, final false
   inline void TopViewControllerWillChange(::HMUI::ViewController* oldViewController, ::HMUI::ViewController* newViewController, ::HMUI::__ViewController__AnimationType animationType);
 
-  /// @brief Method Update, addr 0x2648bdc, size 0x2c, virtual false, abstract: false, final false
-  inline void Update();
-
-  /// @brief Method WaitForUserAgeCategory, addr 0x2648fa0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method WaitForUserAgeCategory, addr 0x2748e44, size 0x94, virtual false, abstract: false, final false
   inline void WaitForUserAgeCategory();
 
   constexpr ::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO> const& __cordl_internal_get__appInitScenesTransitionSetupDataContainer() const;
 
   constexpr ::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO>& __cordl_internal_get__appInitScenesTransitionSetupDataContainer();
+
+  constexpr ::UnityW<::GlobalNamespace::EndOfLifeNoticeViewController> const& __cordl_internal_get__endOfLifeNoticeViewController() const;
+
+  constexpr ::UnityW<::GlobalNamespace::EndOfLifeNoticeViewController>& __cordl_internal_get__endOfLifeNoticeViewController();
 
   constexpr ::UnityW<::GlobalNamespace::EulaViewController> const& __cordl_internal_get__eulaViewController() const;
 
@@ -429,9 +434,9 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::FadeInOutController>& __cordl_internal_get__fadeInOut();
 
-  constexpr ::GlobalNamespace::IFileStorage*& __cordl_internal_get__fileStorage();
+  constexpr ::BGLib::SaveDataCore::SaveDataFlushingService*& __cordl_internal_get__flushingService();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IFileStorage*> const& __cordl_internal_get__fileStorage() const;
+  constexpr ::cordl_internals::to_const_pointer<::BGLib::SaveDataCore::SaveDataFlushingService*> const& __cordl_internal_get__flushingService() const;
 
   constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get__gameScenesManager() const;
 
@@ -444,10 +449,6 @@ public:
   constexpr ::GlobalNamespace::__HealthWarningFlowCoordinator__InitData*& __cordl_internal_get__initData();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__HealthWarningFlowCoordinator__InitData*> const& __cordl_internal_get__initData() const;
-
-  constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO> const& __cordl_internal_get__mainSettingsModel() const;
-
-  constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO>& __cordl_internal_get__mainSettingsModel();
 
   constexpr ::UnityW<::GlobalNamespace::NoUserAgeWarningViewController> const& __cordl_internal_get__noUserAgeWarningViewController() const;
 
@@ -483,21 +484,21 @@ public:
 
   constexpr void __cordl_internal_set__appInitScenesTransitionSetupDataContainer(::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO> value);
 
+  constexpr void __cordl_internal_set__endOfLifeNoticeViewController(::UnityW<::GlobalNamespace::EndOfLifeNoticeViewController> value);
+
   constexpr void __cordl_internal_set__eulaViewController(::UnityW<::GlobalNamespace::EulaViewController> value);
 
   constexpr void __cordl_internal_set__explicitContentWarningViewController(::UnityW<::GlobalNamespace::ExplicitContentWarningViewController> value);
 
   constexpr void __cordl_internal_set__fadeInOut(::UnityW<::GlobalNamespace::FadeInOutController> value);
 
-  constexpr void __cordl_internal_set__fileStorage(::GlobalNamespace::IFileStorage* value);
+  constexpr void __cordl_internal_set__flushingService(::BGLib::SaveDataCore::SaveDataFlushingService* value);
 
   constexpr void __cordl_internal_set__gameScenesManager(::UnityW<::GlobalNamespace::GameScenesManager> value);
 
   constexpr void __cordl_internal_set__healthWarningViewController(::UnityW<::GlobalNamespace::HealthWarningViewController> value);
 
   constexpr void __cordl_internal_set__initData(::GlobalNamespace::__HealthWarningFlowCoordinator__InitData* value);
-
-  constexpr void __cordl_internal_set__mainSettingsModel(::UnityW<::GlobalNamespace::MainSettingsModelSO> value);
 
   constexpr void __cordl_internal_set__noUserAgeWarningViewController(::UnityW<::GlobalNamespace::NoUserAgeWarningViewController> value);
 
@@ -515,7 +516,7 @@ public:
 
   constexpr void __cordl_internal_set__viewControllerTitles(::System::Collections::Generic::Dictionary_2<::UnityW<::HMUI::ViewController>, ::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x264915c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2749054, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -532,32 +533,32 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HealthWarningFlowCoordinator(HealthWarningFlowCoordinator const&) = delete;
 
-  /// @brief Field _mainSettingsModel, offset: 0xa8, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::MainSettingsModelSO> ____mainSettingsModel;
-
-  /// @brief Field _appInitScenesTransitionSetupDataContainer, offset: 0xb0, size: 0x8, def value: None
+  /// @brief Field _appInitScenesTransitionSetupDataContainer, offset: 0xa8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO> ____appInitScenesTransitionSetupDataContainer;
 
-  /// @brief Field _selectLanguageViewController, offset: 0xb8, size: 0x8, def value: None
+  /// @brief Field _selectLanguageViewController, offset: 0xb0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SelectLanguageViewController> ____selectLanguageViewController;
 
-  /// @brief Field _selectRegionViewController, offset: 0xc0, size: 0x8, def value: None
+  /// @brief Field _selectRegionViewController, offset: 0xb8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SelectRegionViewController> ____selectRegionViewController;
 
-  /// @brief Field _eulaViewController, offset: 0xc8, size: 0x8, def value: None
+  /// @brief Field _eulaViewController, offset: 0xc0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::EulaViewController> ____eulaViewController;
 
-  /// @brief Field _privacyPolicyViewController, offset: 0xd0, size: 0x8, def value: None
+  /// @brief Field _privacyPolicyViewController, offset: 0xc8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PrivacyPolicyViewController> ____privacyPolicyViewController;
 
-  /// @brief Field _healthWarningViewController, offset: 0xd8, size: 0x8, def value: None
+  /// @brief Field _healthWarningViewController, offset: 0xd0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::HealthWarningViewController> ____healthWarningViewController;
 
-  /// @brief Field _explicitContentWarningViewController, offset: 0xe0, size: 0x8, def value: None
+  /// @brief Field _explicitContentWarningViewController, offset: 0xd8, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ExplicitContentWarningViewController> ____explicitContentWarningViewController;
 
-  /// @brief Field _noUserAgeWarningViewController, offset: 0xe8, size: 0x8, def value: None
+  /// @brief Field _noUserAgeWarningViewController, offset: 0xe0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NoUserAgeWarningViewController> ____noUserAgeWarningViewController;
+
+  /// @brief Field _endOfLifeNoticeViewController, offset: 0xe8, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::EndOfLifeNoticeViewController> ____endOfLifeNoticeViewController;
 
   /// @brief Field _playerDataModel, offset: 0xf0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
@@ -571,8 +572,8 @@ public:
   /// @brief Field _initData, offset: 0x108, size: 0x8, def value: None
   ::GlobalNamespace::__HealthWarningFlowCoordinator__InitData* ____initData;
 
-  /// @brief Field _fileStorage, offset: 0x110, size: 0x8, def value: None
-  ::GlobalNamespace::IFileStorage* ____fileStorage;
+  /// @brief Field _flushingService, offset: 0x110, size: 0x8, def value: None
+  ::BGLib::SaveDataCore::SaveDataFlushingService* ____flushingService;
 
   /// @brief Field _platformInit, offset: 0x118, size: 0x8, def value: None
   ::GlobalNamespace::IPlatformInit* ____platformInit;
@@ -588,23 +589,23 @@ public:
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::HealthWarningFlowCoordinator, 0x130>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____mainSettingsModel) == 0xa8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____appInitScenesTransitionSetupDataContainer) == 0xa8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____appInitScenesTransitionSetupDataContainer) == 0xb0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____selectLanguageViewController) == 0xb0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____selectLanguageViewController) == 0xb8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____selectRegionViewController) == 0xb8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____selectRegionViewController) == 0xc0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____eulaViewController) == 0xc0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____eulaViewController) == 0xc8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____privacyPolicyViewController) == 0xc8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____privacyPolicyViewController) == 0xd0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____healthWarningViewController) == 0xd0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____healthWarningViewController) == 0xd8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____explicitContentWarningViewController) == 0xd8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____explicitContentWarningViewController) == 0xe0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____noUserAgeWarningViewController) == 0xe0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____noUserAgeWarningViewController) == 0xe8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____endOfLifeNoticeViewController) == 0xe8, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____playerDataModel) == 0xf0, "Offset mismatch!");
 
@@ -614,7 +615,7 @@ static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____game
 
 static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____initData) == 0x108, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____fileStorage) == 0x110, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____flushingService) == 0x110, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::HealthWarningFlowCoordinator, ____platformInit) == 0x118, "Offset mismatch!");
 
@@ -627,6 +628,6 @@ NEED_NO_BOX(::GlobalNamespace::HealthWarningFlowCoordinator);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::HealthWarningFlowCoordinator*, "", "HealthWarningFlowCoordinator");
 NEED_NO_BOX(::GlobalNamespace::__HealthWarningFlowCoordinator__InitData);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__HealthWarningFlowCoordinator__InitData*, "", "HealthWarningFlowCoordinator/InitData");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__HealthWarningFlowCoordinator___HandleSelectLanguageViewControllerDidChangeLanguageAsync_d__22, "",
-                       "HealthWarningFlowCoordinator/<HandleSelectLanguageViewControllerDidChangeLanguageAsync>d__22");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__HealthWarningFlowCoordinator___WaitForUserAgeCategory_d__28, "", "HealthWarningFlowCoordinator/<WaitForUserAgeCategory>d__28");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__HealthWarningFlowCoordinator___HandleSelectLanguageViewControllerDidChangeLanguageAsync_d__21, "",
+                       "HealthWarningFlowCoordinator/<HandleSelectLanguageViewControllerDidChangeLanguageAsync>d__21");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__HealthWarningFlowCoordinator___WaitForUserAgeCategory_d__29, "", "HealthWarningFlowCoordinator/<WaitForUserAgeCategory>d__29");

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/XR/Provider/XRStats.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,10 +26,10 @@ namespace UnityEngine::XR::Provider {
 class CORDL_TYPE XRStats : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method TryGetStat, addr 0x3402fec, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method TryGetStat, addr 0x3608d28, size 0x5c, virtual false, abstract: false, final false
   static inline bool TryGetStat(::UnityEngine::IntegratedSubsystem* xrSubsystem, ::StringW tag, ByRef<float_t> value);
 
-  /// @brief Method TryGetStat_Internal, addr 0x3403048, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method TryGetStat_Internal, addr 0x3608d84, size 0x54, virtual false, abstract: false, final false
   static inline bool TryGetStat_Internal(void* ptr, ::StringW tag, ByRef<float_t> value);
 
 protected:

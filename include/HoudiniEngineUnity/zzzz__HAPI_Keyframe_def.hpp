@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HAPI_Keyframe.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,7 +20,7 @@ namespace HoudiniEngineUnity {
 struct CORDL_TYPE HAPI_Keyframe {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x247c110, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2576d9c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t t, float_t v, float_t in_tangent, float_t out_tangent);
 
   // Ctor Parameters []

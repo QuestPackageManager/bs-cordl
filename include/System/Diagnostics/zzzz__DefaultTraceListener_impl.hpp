@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Diagnostics/DefaultTraceListener.hpp"
 #include "System/Diagnostics/zzzz__TraceListener_impl.hpp"
 #include "System/Diagnostics/zzzz__DefaultTraceListener_def.hpp"
 //  Writing Method size for method: ::System::Diagnostics::DefaultTraceListener.GetPrefix
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::StringW)>(&::System::Diagnostics::DefaultTraceListener::GetPrefix)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x2ea6f2c;
+  constexpr static std::size_t addrs = 0x2fa882c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -20,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::DefaultTraceListener::*)()>(&::System::Diagnostics::DefaultTraceListener::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2ea0984;
+  constexpr static std::size_t addrs = 0x2fa2284;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::DefaultTraceListener*>::get(), ".ctor",
@@ -34,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Diagnostics::DefaultTraceListener::*)()>(
     &::System::Diagnostics::DefaultTraceListener::get_LogFileName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ea6fa8;
+  constexpr static std::size_t addrs = 0x2fa88a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::DefaultTraceListener*>::get(),
@@ -47,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<char16_t>)>(&::System::Diagnostics::DefaultTraceListener::WriteWindowsDebugString)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2ea6fb0;
+  constexpr static std::size_t addrs = 0x2fa88b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -62,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::DefaultTraceListener::*)(::StringW)>(
     &::System::Diagnostics::DefaultTraceListener::WriteDebugString)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2ea6fb4;
+  constexpr static std::size_t addrs = 0x2fa88b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -77,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::DefaultTraceListener::*)(::StringW)>(
     &::System::Diagnostics::DefaultTraceListener::WriteMonoTrace)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x2ea7064;
+  constexpr static std::size_t addrs = 0x2fa8964;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -91,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::DefaultTraceListener::*)()>(&::System::Diagnostics::DefaultTraceListener::WritePrefix)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x2ea748c;
+  constexpr static std::size_t addrs = 0x2fa8d8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::DefaultTraceListener*>::get(),
@@ -105,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::DefaultTraceListener::*)(::StringW)>(
     &::System::Diagnostics::DefaultTraceListener::WriteImpl)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x2ea7514;
+  constexpr static std::size_t addrs = 0x2fa8e14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -120,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::DefaultTraceListener::*)(::StringW, ::StringW)>(
     &::System::Diagnostics::DefaultTraceListener::WriteLogFile)> {
   constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x2ea7210;
+  constexpr static std::size_t addrs = 0x2fa8b10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -135,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::DefaultTraceListener::*)(::StringW)>(
     &::System::Diagnostics::DefaultTraceListener::Write)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2ea75d0;
+  constexpr static std::size_t addrs = 0x2fa8ed0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -150,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::DefaultTraceListener::*)(::StringW)>(
     &::System::Diagnostics::DefaultTraceListener::WriteLine)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2ea75d4;
+  constexpr static std::size_t addrs = 0x2fa8ed4;
 
   inline static ::MethodInfo const* methodInfo() {
 

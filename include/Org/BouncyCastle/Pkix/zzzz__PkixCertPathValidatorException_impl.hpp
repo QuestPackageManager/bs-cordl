@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Pkix/PkixCertPathValidatorException.hpp"
 #include "Org/BouncyCastle/Security/zzzz__GeneralSecurityException_impl.hpp"
 #include "Org/BouncyCastle/Pkix/zzzz__PkixCertPathValidatorException_def.hpp"
 #include "Org/BouncyCastle/Pkix/zzzz__PkixCertPath_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Pkix::PkixCertPathValidatorException::*)()>(
     &::Org::BouncyCastle::Pkix::PkixCertPathValidatorException::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x12707ac;
+  constexpr static std::size_t addrs = 0x1361ed0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Pkix::PkixCertPathValidatorException::*)(::StringW)>(
     &::Org::BouncyCastle::Pkix::PkixCertPathValidatorException::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x12707b8;
+  constexpr static std::size_t addrs = 0x1361edc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Pkix::PkixCertPathValidatorException::*)(::StringW, ::System::Exception*)>(
     &::Org::BouncyCastle::Pkix::PkixCertPathValidatorException::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x125c52c;
+  constexpr static std::size_t addrs = 0x134dc50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -55,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Pkix::PkixCertPathValidatorException::*)(
     ::StringW, ::System::Exception*, ::Org::BouncyCastle::Pkix::PkixCertPath*, int32_t)>(&::Org::BouncyCastle::Pkix::PkixCertPathValidatorException::_ctor)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x12663f0;
+  constexpr static std::size_t addrs = 0x1357b14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -72,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Pkix::PkixCertPathValidatorException::*)()>(
     &::Org::BouncyCastle::Pkix::PkixCertPathValidatorException::get_Message)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x12707c4;
+  constexpr static std::size_t addrs = 0x1361ee8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -88,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Pkix::PkixCertPath* (::Org::BouncyCastle::Pkix::PkixCertPathValidatorException::*)()>(
     &::Org::BouncyCastle::Pkix::PkixCertPathValidatorException::get_CertPath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x12707f8;
+  constexpr static std::size_t addrs = 0x1361f1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -103,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Pkix::PkixCertPathValidatorException::*)()>(
     &::Org::BouncyCastle::Pkix::PkixCertPathValidatorException::get_Index)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1270800;
+  constexpr static std::size_t addrs = 0x1361f24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

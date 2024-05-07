@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Cmp/PkiHeader.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -117,10 +118,10 @@ public:
   /// @brief Field transactionID, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_transactionID, put = __cordl_internal_set_transactionID))::Org::BouncyCastle::Asn1::Asn1OctetString* transactionID;
 
-  /// @brief Method GetGeneralInfo, addr 0xfd6f0c, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method GetGeneralInfo, addr 0x10ca630, size 0x100, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue*, ::Array<::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue*>*> GetGeneralInfo();
 
-  /// @brief Method GetInstance, addr 0xfd6c60, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x10ca384, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeader* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeader* New_ctor(::Org::BouncyCastle::Asn1::DerInteger* pvno, ::Org::BouncyCastle::Asn1::X509::GeneralName* sender,
@@ -130,7 +131,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeader* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0xfd700c, size 0x22c, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x10ca730, size 0x22c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText*& __cordl_internal_get_freeText();
@@ -205,13 +206,13 @@ public:
 
   constexpr void __cordl_internal_set_transactionID(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  /// @brief Method .ctor, addr 0xfd6e78, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10ca59c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerInteger* pvno, ::Org::BouncyCastle::Asn1::X509::GeneralName* sender, ::Org::BouncyCastle::Asn1::X509::GeneralName* recipient);
 
-  /// @brief Method .ctor, addr 0xfd6de8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10ca50c, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(int32_t pvno, ::Org::BouncyCastle::Asn1::X509::GeneralName* sender, ::Org::BouncyCastle::Asn1::X509::GeneralName* recipient);
 
-  /// @brief Method .ctor, addr 0xfd69a4, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10ca0c8, size 0x2bc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline int32_t getStaticF_CMP_1999();
@@ -220,37 +221,37 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::GeneralName* getStaticF_NULL_NAME();
 
-  /// @brief Method get_FreeText, addr 0xfd6f04, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_FreeText, addr 0x10ca628, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* get_FreeText();
 
-  /// @brief Method get_MessageTime, addr 0xfd6ecc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_MessageTime, addr 0x10ca5f0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerGeneralizedTime* get_MessageTime();
 
-  /// @brief Method get_ProtectionAlg, addr 0xfd6ed4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProtectionAlg, addr 0x10ca5f8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_ProtectionAlg();
 
-  /// @brief Method get_Pvno, addr 0xfd6eb4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Pvno, addr 0x10ca5d8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Pvno();
 
-  /// @brief Method get_RecipKID, addr 0xfd6ee4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_RecipKID, addr 0x10ca608, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_RecipKID();
 
-  /// @brief Method get_RecipNonce, addr 0xfd6efc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_RecipNonce, addr 0x10ca620, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_RecipNonce();
 
-  /// @brief Method get_Recipient, addr 0xfd6ec4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Recipient, addr 0x10ca5e8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralName* get_Recipient();
 
-  /// @brief Method get_Sender, addr 0xfd6ebc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Sender, addr 0x10ca5e0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralName* get_Sender();
 
-  /// @brief Method get_SenderKID, addr 0xfd6edc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SenderKID, addr 0x10ca600, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_SenderKID();
 
-  /// @brief Method get_SenderNonce, addr 0xfd6ef4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SenderNonce, addr 0x10ca618, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_SenderNonce();
 
-  /// @brief Method get_TransactionID, addr 0xfd6eec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TransactionID, addr 0x10ca610, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_TransactionID();
 
   static inline void setStaticF_CMP_1999(int32_t value);

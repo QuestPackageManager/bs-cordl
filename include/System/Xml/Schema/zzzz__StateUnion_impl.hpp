@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/StateUnion.hpp"
 #include "System/Xml/Schema/zzzz__StateUnion_def.hpp"
 constexpr int32_t& System::Xml::Schema::StateUnion::__cordl_internal_get_State() {
   return this->___State;

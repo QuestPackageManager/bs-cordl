@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Cryptography/DESTransform.hpp"
 #include "Mono/Security/Cryptography/zzzz__SymmetricTransform_impl.hpp"
 #include "System/Security/Cryptography/zzzz__DESTransform_def.hpp"
 #include "System/Security/Cryptography/zzzz__SymmetricAlgorithm_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::DESTransform::*)(
     ::System::Security::Cryptography::SymmetricAlgorithm*, bool, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::System::Security::Cryptography::DESTransform::_ctor)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x26f27b8;
+  constexpr static std::size_t addrs = 0x27efbb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::System::Security::Cryptography::DESTransform::*)(uint32_t, int32_t)>(
     &::System::Security::Cryptography::DESTransform::CipherFunct)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x26f2e44;
+  constexpr static std::size_t addrs = 0x27f0240;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint32_t, ::Array<uint32_t>*>, bool)>(&::System::Security::Cryptography::DESTransform::Permutation)> {
   constexpr static std::size_t size = 0x324;
-  constexpr static std::size_t addrs = 0x26f3074;
+  constexpr static std::size_t addrs = 0x27f0470;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::System::Security::Cryptography::DESTransform::BSwap)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x26f3398;
+  constexpr static std::size_t addrs = 0x27f0794;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::DESTransform::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::System::Security::Cryptography::DESTransform::SetKey)> {
   constexpr static std::size_t size = 0x38c;
-  constexpr static std::size_t addrs = 0x26f2ab8;
+  constexpr static std::size_t addrs = 0x27efeb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -88,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::DESTransform::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::System::Security::Cryptography::DESTransform::ProcessBlock)> {
   constexpr static std::size_t size = 0x388;
-  constexpr static std::size_t addrs = 0x26f3410;
+  constexpr static std::size_t addrs = 0x27f080c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -104,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::DESTransform::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::System::Security::Cryptography::DESTransform::ECB)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x26f3798;
+  constexpr static std::size_t addrs = 0x27f0b94;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -119,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)()>(&::System::Security::Cryptography::DESTransform::GetStrongKey)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x26f29e0;
+  constexpr static std::size_t addrs = 0x27efddc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::DESTransform*>::get(),

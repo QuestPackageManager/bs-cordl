@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/FileUtility.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,7 +20,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE FileUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetPlatformPersistentDataPath, addr 0x257f9b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetPlatformPersistentDataPath, addr 0x2677e4c, size 0x8, virtual false, abstract: false, final false
   static inline ::StringW GetPlatformPersistentDataPath();
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Collections/Generic/KeyValuePair_2.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
 template <typename TKey, typename TValue> inline void System::Collections::Generic::KeyValuePair_2<TKey, TValue>::_ctor(TKey key, TValue value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

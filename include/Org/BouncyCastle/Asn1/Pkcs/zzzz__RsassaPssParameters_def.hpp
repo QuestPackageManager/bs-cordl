@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Pkcs/RsassaPssParameters.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -65,7 +66,7 @@ public:
   /// @brief Field trailerField, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_trailerField, put = __cordl_internal_set_trailerField))::Org::BouncyCastle::Asn1::DerInteger* trailerField;
 
-  /// @brief Method GetInstance, addr 0x10f9c34, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x11ed358, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters* New_ctor();
@@ -76,7 +77,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x10fa074, size 0x278, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x11ed798, size 0x278, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_hashAlgorithm();
@@ -103,14 +104,14 @@ public:
 
   constexpr void __cordl_internal_set_trailerField(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0x10f9fa0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11ed6c4, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x10fa014, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11ed738, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgorithm, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* maskGenAlgorithm,
                     ::Org::BouncyCastle::Asn1::DerInteger* saltLength, ::Org::BouncyCastle::Asn1::DerInteger* trailerField);
 
-  /// @brief Method .ctor, addr 0x10f9dbc, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11ed4e0, size 0x1e4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* getStaticF_DefaultHashAlgorithm();
@@ -121,16 +122,16 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::DerInteger* getStaticF_DefaultTrailerField();
 
-  /// @brief Method get_HashAlgorithm, addr 0x10fa054, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HashAlgorithm, addr 0x11ed778, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_HashAlgorithm();
 
-  /// @brief Method get_MaskGenAlgorithm, addr 0x10fa05c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaskGenAlgorithm, addr 0x11ed780, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_MaskGenAlgorithm();
 
-  /// @brief Method get_SaltLength, addr 0x10fa064, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SaltLength, addr 0x11ed788, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_SaltLength();
 
-  /// @brief Method get_TrailerField, addr 0x10fa06c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TrailerField, addr 0x11ed790, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_TrailerField();
 
   static inline void setStaticF_DefaultHashAlgorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);

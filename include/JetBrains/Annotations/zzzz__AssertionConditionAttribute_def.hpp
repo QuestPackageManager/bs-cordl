@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "JetBrains/Annotations/AssertionConditionAttribute.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,13 +37,13 @@ public:
 
   constexpr void __cordl_internal_set__ConditionType_k__BackingField(::JetBrains::Annotations::AssertionConditionType value);
 
-  /// @brief Method .ctor, addr 0x340a64c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x360f388, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::JetBrains::Annotations::AssertionConditionType conditionType);
 
-  /// @brief Method get_ConditionType, addr 0x340a674, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ConditionType, addr 0x360f3b0, size 0x8, virtual false, abstract: false, final false
   inline ::JetBrains::Annotations::AssertionConditionType get_ConditionType();
 
-  /// @brief Method set_ConditionType, addr 0x340a67c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ConditionType, addr 0x360f3b8, size 0x8, virtual false, abstract: false, final false
   inline void set_ConditionType(::JetBrains::Annotations::AssertionConditionType value);
 
 protected:

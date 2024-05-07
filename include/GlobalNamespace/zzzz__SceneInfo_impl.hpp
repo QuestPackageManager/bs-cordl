@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SceneInfo.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__SceneInfo_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SceneInfo.get_sceneName
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::SceneInfo::*)()>(&::GlobalNamespace::SceneInfo::get_sceneName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf7eb6c;
+  constexpr static std::size_t addrs = 0x107111c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SceneInfo*>::get(), "get_sceneName",
@@ -19,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::SceneInfo::*)()>(&::GlobalNamespace::SceneInfo::get_disabledRootObjects)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf7eb74;
+  constexpr static std::size_t addrs = 0x1071124;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SceneInfo*>::get(), "get_disabledRootObjects",
@@ -32,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SceneInfo::*)(::StringW)>(&::GlobalNamespace::SceneInfo::SetSceneName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf7eb7c;
+  constexpr static std::size_t addrs = 0x107112c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -46,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SceneInfo::*)()>(&::GlobalNamespace::SceneInfo::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf7eb84;
+  constexpr static std::size_t addrs = 0x1071134;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SceneInfo*>::get(), ".ctor",

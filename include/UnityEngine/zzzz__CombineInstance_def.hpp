@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/CombineInstance.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,16 +37,16 @@ public:
 
   __declspec(property(put = set_transform))::UnityEngine::Matrix4x4 transform;
 
-  /// @brief Method get_mesh, addr 0x31f7198, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_mesh, addr 0x33fdecc, size 0xc, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_mesh();
 
-  /// @brief Method set_mesh, addr 0x31f71a4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method set_mesh, addr 0x33fded8, size 0x88, virtual false, abstract: false, final false
   inline void set_mesh(::UnityEngine::Mesh* value);
 
-  /// @brief Method set_subMeshIndex, addr 0x31f73d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_subMeshIndex, addr 0x33fe104, size 0x8, virtual false, abstract: false, final false
   inline void set_subMeshIndex(int32_t value);
 
-  /// @brief Method set_transform, addr 0x31f73d8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_transform, addr 0x33fe10c, size 0x1c, virtual false, abstract: false, final false
   inline void set_transform(::UnityEngine::Matrix4x4 value);
 
   // Ctor Parameters []

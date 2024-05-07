@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/TextMeshProAutosizeGroup.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__TextMeshProAutosizeGroup_def.hpp"
 #include "TMPro/zzzz__TMP_Text_def.hpp"
@@ -7,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TextMeshProAutosizeGroup::*)()>(&::GlobalNamespace::TextMeshProAutosizeGroup::Start)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x2400104;
+  constexpr static std::size_t addrs = 0x24f8d90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextMeshProAutosizeGroup*>::get(), "Start",
@@ -20,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TextMeshProAutosizeGroup::*)()>(&::GlobalNamespace::TextMeshProAutosizeGroup::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x240020c;
+  constexpr static std::size_t addrs = 0x24f8e98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextMeshProAutosizeGroup*>::get(), ".ctor",

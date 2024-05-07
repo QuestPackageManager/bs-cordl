@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ReflectionProbeBakingOverride.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -111,7 +112,7 @@ public:
 
   static inline ::GlobalNamespace::ReflectionProbeBakingOverride* New_ctor();
 
-  /// @brief Method UpdateForProbeBaking, addr 0x2588f40, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method UpdateForProbeBaking, addr 0x2681ef0, size 0xe8, virtual false, abstract: false, final false
   inline void UpdateForProbeBaking();
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__localPosition() const;
@@ -156,7 +157,7 @@ public:
 
   constexpr void __cordl_internal_set__stateHandling(::GlobalNamespace::__ReflectionProbeBakingOverride__ActiveStateHandling value);
 
-  /// @brief Method .ctor, addr 0x2589028, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2681fd8, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/CastInstruction_CastInstructionNoT_Value.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,12 +25,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE __CastInstruction__CastInstructionNoT__Value : public ::System::Linq::Expressions::Interpreter::__CastInstruction__CastInstructionNoT {
 public:
   // Declarations
-  /// @brief Method ConvertNull, addr 0x2b4dc30, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method ConvertNull, addr 0x2c4a530, size 0x40, virtual true, abstract: false, final false
   inline void ConvertNull(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   static inline ::GlobalNamespace::__CastInstruction__CastInstructionNoT__Value* New_ctor(::System::Type* t);
 
-  /// @brief Method .ctor, addr 0x2b4da6c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c4a36c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* t);
 
 protected:

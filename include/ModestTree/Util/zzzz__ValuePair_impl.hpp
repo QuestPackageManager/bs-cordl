@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "ModestTree/Util/ValuePair.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "ModestTree/Util/zzzz__ValuePair_def.hpp"
 #include "ModestTree/Util/zzzz__ValuePair_2_def.hpp"

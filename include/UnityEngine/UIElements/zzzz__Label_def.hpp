@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/Label.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,7 +37,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::__Label__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3362480, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35661bc, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -69,7 +70,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::__Label__UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor, addr 0x336ea58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3572794, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -111,10 +112,10 @@ public:
 
   static inline ::UnityEngine::UIElements::Label* New_ctor(::StringW text);
 
-  /// @brief Method .ctor, addr 0x336e9a8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35726e4, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3364700, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x356843c, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::StringW text);
 
   static inline ::StringW getStaticF_ussClassName();

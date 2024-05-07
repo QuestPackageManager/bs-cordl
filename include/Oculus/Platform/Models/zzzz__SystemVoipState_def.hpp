@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/Models/SystemVoipState.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,7 +42,7 @@ public:
 
   constexpr void __cordl_internal_set_Status(::Oculus::Platform::SystemVoipStatus value);
 
-  /// @brief Method .ctor, addr 0x29e083c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2adf0ec, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
 protected:

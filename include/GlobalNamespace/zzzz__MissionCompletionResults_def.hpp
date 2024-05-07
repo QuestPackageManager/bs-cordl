@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MissionCompletionResults.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,11 +52,11 @@ public:
 
   constexpr void __cordl_internal_set_missionObjectiveResults(::ArrayW<::GlobalNamespace::MissionObjectiveResult*, ::Array<::GlobalNamespace::MissionObjectiveResult*>*> value);
 
-  /// @brief Method .ctor, addr 0x13d6c88, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14ca038, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::LevelCompletionResults* levelCompletionResults,
                     ::ArrayW<::GlobalNamespace::MissionObjectiveResult*, ::Array<::GlobalNamespace::MissionObjectiveResult*>*> missionObjectiveResults);
 
-  /// @brief Method get_IsMissionComplete, addr 0x13d6c20, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_IsMissionComplete, addr 0x14c9fd0, size 0x68, virtual false, abstract: false, final false
   inline bool get_IsMissionComplete();
 
 protected:

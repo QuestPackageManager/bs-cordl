@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Cms/DefaultAuthenticatedAttributeTableGenerator.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,10 +34,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::CmsAttributeTableGenerator"
   constexpr operator ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*() noexcept;
 
-  /// @brief Method CreateStandardAttributeTable, addr 0x136e468, size 0x528, virtual true, abstract: false, final false
+  /// @brief Method CreateStandardAttributeTable, addr 0x1463b8c, size 0x528, virtual true, abstract: false, final false
   inline ::System::Collections::IDictionary* CreateStandardAttributeTable(::System::Collections::IDictionary* parameters);
 
-  /// @brief Method GetAttributes, addr 0x136e990, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method GetAttributes, addr 0x14640b4, size 0x8c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* GetAttributes(::System::Collections::IDictionary* parameters);
 
   static inline ::Org::BouncyCastle::Cms::DefaultAuthenticatedAttributeTableGenerator* New_ctor();
@@ -49,10 +50,10 @@ public:
 
   constexpr void __cordl_internal_set_table(::System::Collections::IDictionary* value);
 
-  /// @brief Method .ctor, addr 0x136e380, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1463aa4, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x136e3e8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1463b0c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::AttributeTable* attributeTable);
 
   /// @brief Convert to "::Org::BouncyCastle::Cms::CmsAttributeTableGenerator"

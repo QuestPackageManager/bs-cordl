@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/MemberAssignment.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,7 +33,7 @@ public:
 
   constexpr void __cordl_internal_set__expression(::System::Linq::Expressions::Expression* value);
 
-  /// @brief Method get_Expression, addr 0x2b0c4d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Expression, addr 0x2c09dd8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Expression();
 
 protected:

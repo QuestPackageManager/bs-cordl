@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Base64FormattingOptions.hpp"
 #include "System/zzzz__Base64FormattingOptions_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Base64FormattingOptions::Base64FormattingOptions(int32_t value__) noexcept {

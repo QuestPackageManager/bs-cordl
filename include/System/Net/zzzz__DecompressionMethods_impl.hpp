@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/DecompressionMethods.hpp"
 #include "System/Net/zzzz__DecompressionMethods_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Net::DecompressionMethods::DecompressionMethods(int32_t value__) noexcept {

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "VRUIControls/MouseButtonEventData.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,10 +31,10 @@ public:
 
   static inline ::VRUIControls::MouseButtonEventData* New_ctor();
 
-  /// @brief Method PressedThisFrame, addr 0x34030d4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method PressedThisFrame, addr 0x3608e10, size 0x10, virtual false, abstract: false, final false
   inline bool PressedThisFrame();
 
-  /// @brief Method ReleasedThisFrame, addr 0x34030e4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ReleasedThisFrame, addr 0x3608e20, size 0x14, virtual false, abstract: false, final false
   inline bool ReleasedThisFrame();
 
   constexpr ::UnityEngine::EventSystems::PointerEventData*& __cordl_internal_get_buttonData();
@@ -48,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set_buttonState(::UnityEngine::EventSystems::__PointerEventData__FramePressState value);
 
-  /// @brief Method .ctor, addr 0x34030f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3608e34, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

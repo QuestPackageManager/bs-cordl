@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MaterialPropertyBlockControllerRandomValueSetter.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,18 +49,18 @@ public:
   /// @brief Field _propertyName, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__propertyName, put = __cordl_internal_set__propertyName))::StringW _propertyName;
 
-  /// @brief Method ApplyParams, addr 0x23ff240, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ApplyParams, addr 0x24f6ecc, size 0xbc, virtual false, abstract: false, final false
   inline void ApplyParams();
 
   static inline ::GlobalNamespace::MaterialPropertyBlockControllerRandomValueSetter* New_ctor();
 
-  /// @brief Method OnValidate, addr 0x23ff2fc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x24f6f88, size 0x24, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method RefreshPropertyId, addr 0x23ff220, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method RefreshPropertyId, addr 0x24f6eac, size 0x20, virtual false, abstract: false, final false
   inline void RefreshPropertyId();
 
-  /// @brief Method Start, addr 0x23ff1fc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x24f6e88, size 0x24, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__materialPropertyBlockController() const;
@@ -98,7 +99,7 @@ public:
 
   constexpr void __cordl_internal_set__propertyName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x23ff320, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f6fac, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

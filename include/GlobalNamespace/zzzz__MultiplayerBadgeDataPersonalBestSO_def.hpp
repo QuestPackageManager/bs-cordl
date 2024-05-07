@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MultiplayerBadgeDataPersonalBestSO.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,7 +39,7 @@ public:
   /// @brief Field _weight, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__weight, put = __cordl_internal_set__weight)) float_t _weight;
 
-  /// @brief Method CalculateBadgeData, addr 0x13dab18, size 0x580, virtual true, abstract: false, final false
+  /// @brief Method CalculateBadgeData, addr 0x14cdec8, size 0x580, virtual true, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerBadgeAwardData* CalculateBadgeData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData,
                                                                           ::GlobalNamespace::PlayerDataModel* playerDataModel, ByRef<::GlobalNamespace::BeatmapKey> beatmapKey,
                                                                           float_t randomMultiplier);
@@ -51,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set__weight(float_t value);
 
-  /// @brief Method .ctor, addr 0x13db098, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14ce448, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

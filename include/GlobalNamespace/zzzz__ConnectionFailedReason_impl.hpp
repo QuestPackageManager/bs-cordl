@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ConnectionFailedReason.hpp"
 #include "GlobalNamespace/zzzz__ConnectionFailedReason_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::ConnectionFailedReason::ConnectionFailedReason(int32_t value__) noexcept {

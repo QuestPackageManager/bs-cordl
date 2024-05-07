@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Ess/EssCertIDv2.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,10 +52,10 @@ public:
   /// @brief Field issuerSerial, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_issuerSerial, put = __cordl_internal_set_issuerSerial))::Org::BouncyCastle::Asn1::X509::IssuerSerial* issuerSerial;
 
-  /// @brief Method GetCertHash, addr 0x100589c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetCertHash, addr 0x10f8fc0, size 0x5c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetCertHash();
 
-  /// @brief Method GetInstance, addr 0x10054d8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x10f8bfc, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ess::EssCertIDv2* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Ess::EssCertIDv2* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algId, ::ArrayW<uint8_t, ::Array<uint8_t>*> certHash);
@@ -68,7 +69,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Ess::EssCertIDv2* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x1005900, size 0x1b4, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x10f9024, size 0x1b4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_certHash() const;
@@ -89,27 +90,27 @@ public:
 
   constexpr void __cordl_internal_set_issuerSerial(::Org::BouncyCastle::Asn1::X509::IssuerSerial* value);
 
-  /// @brief Method .ctor, addr 0x100587c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10f8fa0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algId, ::ArrayW<uint8_t, ::Array<uint8_t>*> certHash);
 
-  /// @brief Method .ctor, addr 0x10057ec, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10f8f10, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algId, ::ArrayW<uint8_t, ::Array<uint8_t>*> certHash, ::Org::BouncyCastle::Asn1::X509::IssuerSerial* issuerSerial);
 
-  /// @brief Method .ctor, addr 0x10057dc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10f8f00, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> certHash);
 
-  /// @brief Method .ctor, addr 0x1005884, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10f8fa8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> certHash, ::Org::BouncyCastle::Asn1::X509::IssuerSerial* issuerSerial);
 
-  /// @brief Method .ctor, addr 0x100557c, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10f8ca0, size 0x260, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* getStaticF_DefaultAlgID();
 
-  /// @brief Method get_HashAlgorithm, addr 0x1005894, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HashAlgorithm, addr 0x10f8fb8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_HashAlgorithm();
 
-  /// @brief Method get_IssuerSerial, addr 0x10058f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IssuerSerial, addr 0x10f901c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::IssuerSerial* get_IssuerSerial();
 
   static inline void setStaticF_DefaultAlgID(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);

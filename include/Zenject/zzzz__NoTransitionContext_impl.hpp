@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/NoTransitionContext.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Zenject/zzzz__NoTransitionContext_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
@@ -11,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Action_1<::Zenject::DiContainer*>* (::Zenject::NoTransitionContext::*)()>(
     &::Zenject::NoTransitionContext::get_installMethod)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3453900;
+  constexpr static std::size_t addrs = 0x36578c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::NoTransitionContext*>::get(), "get_installMethod",
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Action_1<::Zenject::DiContainer*>* (::Zenject::NoTransitionContext::*)()>(
     &::Zenject::NoTransitionContext::get_postInstallMethod)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3453974;
+  constexpr static std::size_t addrs = 0x365793c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::NoTransitionContext*>::get(), "get_postInstallMethod",
@@ -38,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::NoTransitionContext::*)()>(&::Zenject::NoTransitionContext::Awake)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x34539e8;
+  constexpr static std::size_t addrs = 0x36579b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::NoTransitionContext*>::get(), "Awake",
@@ -51,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::NoTransitionContext::*)()>(&::Zenject::NoTransitionContext::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3453a60;
+  constexpr static std::size_t addrs = 0x3657a28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::NoTransitionContext*>::get(), ".ctor",
@@ -64,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::NoTransitionContext::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x3453a68;
+  constexpr static std::size_t addrs = 0x3657a30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::NoTransitionContext*>::get(),

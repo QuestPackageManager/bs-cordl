@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OffsetDirectionExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OffsetDirectionExtensions_def.hpp"
 #include "GlobalNamespace/zzzz__OffsetDirection_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OffsetDirection (*)(::GlobalNamespace::OffsetDirection)>(
     &::GlobalNamespace::OffsetDirectionExtensions::OppositeDirection)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0xf49ddc;
+  constexpr static std::size_t addrs = 0x1038950;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

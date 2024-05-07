@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/IVerifier.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IVerifier_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::IVerifier.IsVerified
 template <>

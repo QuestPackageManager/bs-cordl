@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatmapDataLoaderVersion4/LightColorEventBoxGroupConverter.hpp"
 #include "BeatmapDataLoaderVersion4/zzzz__EventBoxGroupConverter_impl.hpp"
 #include "BeatmapDataLoaderVersion4/zzzz__LightColorEventBoxGroupConverter_def.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__EventBox_def.hpp"
@@ -12,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapDataLoaderVersion4::LightColorEventBoxGroupConverter::*)(
     ::BeatmapSaveDataVersion4::LightshowSaveData*, ::GlobalNamespace::IEnvironmentLightGroups*)>(&::BeatmapDataLoaderVersion4::LightColorEventBoxGroupConverter::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x1404bc8;
+  constexpr static std::size_t addrs = 0x14f7188;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,7 +30,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::BeatmapEventDataBox* (::BeatmapDataLoaderVersion4::LightColorEventBoxGroupConverter::*)(::BeatmapSaveDataVersion4::EventBox, ::GlobalNamespace::IndexFilter*)>(
         &::BeatmapDataLoaderVersion4::LightColorEventBoxGroupConverter::ConvertEvents)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x14053a0;
+  constexpr static std::size_t addrs = 0x14f7960;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Events/UnityAction.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,12 +23,12 @@ namespace UnityEngine::Events {
 class CORDL_TYPE UnityAction : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x3233d1c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x343ba58, size 0x14, virtual true, abstract: false, final false
   inline void Invoke();
 
   static inline ::UnityEngine::Events::UnityAction* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x3233c60, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x343b99c, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:

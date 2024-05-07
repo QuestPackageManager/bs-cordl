@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/AppStaticSettingsInstaller.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +25,7 @@ public:
   /// @brief Field _appStaticSettings, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__appStaticSettings, put = __cordl_internal_set__appStaticSettings))::UnityW<::GlobalNamespace::AppStaticSettingsSO> _appStaticSettings;
 
-  /// @brief Method InstallBindings, addr 0x2507db0, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x25fea3c, size 0x6c, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::AppStaticSettingsInstaller* New_ctor();
@@ -35,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set__appStaticSettings(::UnityW<::GlobalNamespace::AppStaticSettingsSO> value);
 
-  /// @brief Method .ctor, addr 0x2507e1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25feaa8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

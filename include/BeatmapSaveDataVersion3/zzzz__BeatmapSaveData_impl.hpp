@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatmapSaveDataVersion3/BeatmapSaveData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatmapSaveDataVersion3/zzzz__BeatmapSaveData_def.hpp"
 #include "BeatmapSaveDataCommon/zzzz__BasicEventTypesWithKeywords_def.hpp"
@@ -31,7 +32,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightTranslationEventBoxGroup*>*, ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::FxEventBoxGroup*>*,
     ::BeatmapSaveDataVersion3::FxEventsCollection*, ::BeatmapSaveDataCommon::BasicEventTypesWithKeywords*, bool)>(&::BeatmapSaveDataVersion3::BeatmapSaveData::_ctor)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x14000a4;
+  constexpr static std::size_t addrs = 0x14f1668;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((

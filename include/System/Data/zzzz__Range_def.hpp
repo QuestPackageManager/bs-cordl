@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/Range.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,19 +26,19 @@ public:
 
   __declspec(property(get = get_Min)) int32_t Min;
 
-  /// @brief Method CheckNull, addr 0x2bdd2b4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method CheckNull, addr 0x2cd9bb4, size 0x38, virtual false, abstract: false, final false
   inline void CheckNull();
 
-  /// @brief Method .ctor, addr 0x2bdd268, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cd9b68, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(int32_t min, int32_t max);
 
-  /// @brief Method get_Count, addr 0x2bd7cbc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x2cd45bc, size 0x20, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsNull, addr 0x2bd7808, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsNull, addr 0x2cd4108, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsNull();
 
-  /// @brief Method get_Min, addr 0x2bd7cdc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Min, addr 0x2cd45dc, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_Min();
 
   // Ctor Parameters []

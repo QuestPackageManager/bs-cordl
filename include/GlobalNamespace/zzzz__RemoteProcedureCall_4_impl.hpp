@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/RemoteProcedureCall_4.hpp"
 #include "GlobalNamespace/zzzz__RemoteProcedureCall_impl.hpp"
 #include "GlobalNamespace/zzzz__RemoteProcedureCall_4_def.hpp"
 #include "GlobalNamespace/zzzz__IRemoteProcedureCall_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Dynamic/Utils/EmptyReadOnlyCollection_1.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Dynamic/Utils/zzzz__EmptyReadOnlyCollection_1_def.hpp"
 #include "System/Collections/ObjectModel/zzzz__ReadOnlyCollection_1_def.hpp"

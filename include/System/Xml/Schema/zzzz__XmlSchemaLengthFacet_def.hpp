@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaLengthFacet.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,7 +21,7 @@ public:
   // Declarations
   static inline ::System::Xml::Schema::XmlSchemaLengthFacet* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d15834, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e13134, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

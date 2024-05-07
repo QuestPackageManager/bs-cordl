@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Serialization/IFormatterConverter.hpp"
 #include "System/Runtime/Serialization/zzzz__IFormatterConverter_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"

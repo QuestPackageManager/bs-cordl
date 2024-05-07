@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/AbandonedMutexException.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,7 +44,7 @@ public:
 
   static inline ::System::Threading::AbandonedMutexException* New_ctor(int32_t location, ::System::Threading::WaitHandle* handle);
 
-  /// @brief Method SetupException, addr 0x2898a8c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SetupException, addr 0x299733c, size 0x6c, virtual false, abstract: false, final false
   inline void SetupException(int32_t location, ::System::Threading::WaitHandle* handle);
 
   constexpr ::System::Threading::Mutex*& __cordl_internal_get__mutex();
@@ -58,13 +59,13 @@ public:
 
   constexpr void __cordl_internal_set__mutexIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2898970, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2997220, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2898af8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29973a8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x28989d4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2997284, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(int32_t location, ::System::Threading::WaitHandle* handle);
 
 protected:

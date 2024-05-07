@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/CrashManagerSO.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,15 +33,15 @@ public:
 
   __declspec(property(get = get_stackTrace))::StringW stackTrace;
 
-  /// @brief Method HandleLog, addr 0x257a6cc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method HandleLog, addr 0x2672b60, size 0xa0, virtual false, abstract: false, final false
   inline void HandleLog(::StringW logString, ::StringW stackTrace, ::UnityEngine::LogType type);
 
   static inline ::GlobalNamespace::CrashManagerSO* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x257a64c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x2672ae0, size 0x80, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method StartCatchingExceptions, addr 0x257a5cc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method StartCatchingExceptions, addr 0x2672a60, size 0x80, virtual false, abstract: false, final false
   inline void StartCatchingExceptions();
 
   constexpr ::StringW const& __cordl_internal_get__logString() const;
@@ -55,13 +56,13 @@ public:
 
   constexpr void __cordl_internal_set__stackTrace(::StringW value);
 
-  /// @brief Method .ctor, addr 0x257a76c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2672c00, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_logString, addr 0x257a5bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_logString, addr 0x2672a50, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_logString();
 
-  /// @brief Method get_stackTrace, addr 0x257a5c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_stackTrace, addr 0x2672a58, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_stackTrace();
 
 protected:

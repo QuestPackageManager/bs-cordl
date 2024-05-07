@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Security/CertificateHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Security/zzzz__CertificateHelper_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2Collection_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::X509Certificates::X509Certificate2* (*)()>(
     &::System::Net::Security::CertificateHelper::GetEligibleClientCertificate)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x2e2eaf0;
+  constexpr static std::size_t addrs = 0x2f2d3f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Security::CertificateHelper*>::get(),
@@ -25,7 +26,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Security::Cryptography::X509Certificates::X509Certificate2* (*)(::System::Security::Cryptography::X509Certificates::X509CertificateCollection*)>(
         &::System::Net::Security::CertificateHelper::GetEligibleClientCertificate)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x2e2ee20;
+  constexpr static std::size_t addrs = 0x2f2d720;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +42,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Security::Cryptography::X509Certificates::X509Certificate2* (*)(::System::Security::Cryptography::X509Certificates::X509Certificate2Collection*)>(
         &::System::Net::Security::CertificateHelper::GetEligibleClientCertificate)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x2e2ec9c;
+  constexpr static std::size_t addrs = 0x2f2d59c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

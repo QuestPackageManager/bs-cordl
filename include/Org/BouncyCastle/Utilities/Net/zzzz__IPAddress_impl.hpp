@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Utilities/Net/IPAddress.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Utilities/Net/zzzz__IPAddress_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Utilities::Net::IPAddress.IsValid
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::Org::BouncyCastle::Utilities::Net::IPAddress::IsValid)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x12d0650;
+  constexpr static std::size_t addrs = 0x13c1d74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -20,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::Org::BouncyCastle::Utilities::Net::IPAddress::IsValidWithNetMask)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x12d07c0;
+  constexpr static std::size_t addrs = 0x13c1ee4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::Org::BouncyCastle::Utilities::Net::IPAddress::IsValidIPv4)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x12d0678;
+  constexpr static std::size_t addrs = 0x13c1d9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::Org::BouncyCastle::Utilities::Net::IPAddress::unsafeIsValidIPv4)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x12d0928;
+  constexpr static std::size_t addrs = 0x13c204c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::Org::BouncyCastle::Utilities::Net::IPAddress::IsValidIPv4WithNetmask)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x12d07e8;
+  constexpr static std::size_t addrs = 0x13c1f0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::Org::BouncyCastle::Utilities::Net::IPAddress::IsValidIPv6WithNetmask)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x12d0888;
+  constexpr static std::size_t addrs = 0x13c1fac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, int32_t)>(&::Org::BouncyCastle::Utilities::Net::IPAddress::IsMaskValue)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x12d0a20;
+  constexpr static std::size_t addrs = 0x13c2144;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -104,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::Org::BouncyCastle::Utilities::Net::IPAddress::IsValidIPv6)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x12d071c;
+  constexpr static std::size_t addrs = 0x13c1e40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -118,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::Org::BouncyCastle::Utilities::Net::IPAddress::unsafeIsValidIPv6)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x12d0a4c;
+  constexpr static std::size_t addrs = 0x13c2170;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -132,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Net::IPAddress::*)()>(&::Org::BouncyCastle::Utilities::Net::IPAddress::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x12d0bf4;
+  constexpr static std::size_t addrs = 0x13c2318;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Net::IPAddress*>::get(), ".ctor",

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Serialization/ObjectIDGenerator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__ObjectIDGenerator_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::ObjectIDGenerator::*)()>(
     &::System::Runtime::Serialization::ObjectIDGenerator::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x273ae34;
+  constexpr static std::size_t addrs = 0x2839230;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::ObjectIDGenerator*>::get(),
@@ -22,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Runtime::Serialization::ObjectIDGenerator::*)(::System::Object*, ByRef<bool>)>(
     &::System::Runtime::Serialization::ObjectIDGenerator::FindElement)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x273af0c;
+  constexpr static std::size_t addrs = 0x2839308;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::ObjectIDGenerator*>::get(),
@@ -38,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::Runtime::Serialization::ObjectIDGenerator::*)(::System::Object*, ByRef<bool>)>(
     &::System::Runtime::Serialization::ObjectIDGenerator::GetId)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x273afd0;
+  constexpr static std::size_t addrs = 0x28393cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -54,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::Runtime::Serialization::ObjectIDGenerator::*)(::System::Object*, ByRef<bool>)>(
     &::System::Runtime::Serialization::ObjectIDGenerator::HasId)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x273b408;
+  constexpr static std::size_t addrs = 0x2839804;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -70,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::ObjectIDGenerator::*)()>(
     &::System::Runtime::Serialization::ObjectIDGenerator::Rehash)> {
   constexpr static std::size_t size = 0x2b4;
-  constexpr static std::size_t addrs = 0x273b154;
+  constexpr static std::size_t addrs = 0x2839550;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::ObjectIDGenerator*>::get(),

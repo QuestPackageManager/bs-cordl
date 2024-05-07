@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/QuickPlaySetupData.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -72,7 +73,7 @@ public:
 
   constexpr void __cordl_internal_set_packName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x13d8278, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14cb628, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -159,7 +160,7 @@ public:
 
   constexpr void __cordl_internal_set_serializedName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x13d8280, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14cb630, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -232,7 +233,7 @@ public:
 
   constexpr void __cordl_internal_set_packId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x13d8300, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14cb6b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -304,7 +305,7 @@ public:
 
   constexpr void __cordl_internal_set_predefinedPackIds(::System::Collections::Generic::List_1<::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPacksOverride__PredefinedPack*>* value);
 
-  /// @brief Method .ctor, addr 0x13d81b8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14cb568, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -361,10 +362,10 @@ public:
 
   constexpr void __cordl_internal_set_quickPlayAvailablePacksOverride(::GlobalNamespace::__QuickPlaySetupData__QuickPlaySongPacksOverride* value);
 
-  /// @brief Method .ctor, addr 0x13d81b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14cb560, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_hasOverride, addr 0x13d8128, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_hasOverride, addr 0x14cb4d8, size 0x88, virtual false, abstract: false, final false
   inline bool get_hasOverride();
 
 protected:

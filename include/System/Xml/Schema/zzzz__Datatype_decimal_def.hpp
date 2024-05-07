@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/Datatype_decimal.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -75,18 +76,18 @@ public:
   /// @brief Field numeric10FacetsChecker, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_numeric10FacetsChecker, put = setStaticF_numeric10FacetsChecker))::System::Xml::Schema::FacetsChecker* numeric10FacetsChecker;
 
-  /// @brief Method Compare, addr 0x2e0b440, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method Compare, addr 0x2f09d40, size 0xbc, virtual true, abstract: false, final false
   inline int32_t Compare(::System::Object* value1, ::System::Object* value2);
 
-  /// @brief Method CreateValueConverter, addr 0x2e0b314, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method CreateValueConverter, addr 0x2f09c14, size 0xc, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlValueConverter* CreateValueConverter(::System::Xml::Schema::XmlSchemaType* schemaType);
 
   static inline ::System::Xml::Schema::Datatype_decimal* New_ctor();
 
-  /// @brief Method TryParseValue, addr 0x2e0b4fc, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method TryParseValue, addr 0x2f09dfc, size 0x164, virtual true, abstract: false, final false
   inline ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ByRef<::System::Object*> typedValue);
 
-  /// @brief Method .ctor, addr 0x2e05834, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f04134, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Type* getStaticF_atomicValueType();
@@ -95,22 +96,22 @@ public:
 
   static inline ::System::Xml::Schema::FacetsChecker* getStaticF_numeric10FacetsChecker();
 
-  /// @brief Method get_BuiltInWhitespaceFacet, addr 0x2e0b430, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_BuiltInWhitespaceFacet, addr 0x2f09d30, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaWhiteSpace get_BuiltInWhitespaceFacet();
 
-  /// @brief Method get_FacetsChecker, addr 0x2e0b320, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_FacetsChecker, addr 0x2f09c20, size 0x58, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::FacetsChecker* get_FacetsChecker();
 
-  /// @brief Method get_ListValueType, addr 0x2e0b3d8, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_ListValueType, addr 0x2f09cd8, size 0x58, virtual true, abstract: false, final false
   inline ::System::Type* get_ListValueType();
 
-  /// @brief Method get_TypeCode, addr 0x2e0b378, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x2f09c78, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
-  /// @brief Method get_ValidRestrictionFlags, addr 0x2e0b438, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ValidRestrictionFlags, addr 0x2f09d38, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::RestrictionFlags get_ValidRestrictionFlags();
 
-  /// @brief Method get_ValueType, addr 0x2e0b380, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_ValueType, addr 0x2f09c80, size 0x58, virtual true, abstract: false, final false
   inline ::System::Type* get_ValueType();
 
   static inline void setStaticF_atomicValueType(::System::Type* value);

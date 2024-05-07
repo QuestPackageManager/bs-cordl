@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/GameplayModifierMaskExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifierMaskExtensions_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifierMask_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::GameplayModifierMask, ::GlobalNamespace::GameplayModifierMask)>(
     &::GlobalNamespace::GameplayModifierMaskExtensions::Contains)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x141109c;
+  constexpr static std::size_t addrs = 0x15026ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::GlobalNamespace::GameplayModifierMask, ::GlobalNamespace::GameplayModifierMask)>(
     &::GlobalNamespace::GameplayModifierMaskExtensions::DifferenceFrom)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x14110ac;
+  constexpr static std::size_t addrs = 0x15026fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::GlobalNamespace::GameplayModifierMask)>(
     &::GlobalNamespace::GameplayModifierMaskExtensions::ToHexString)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x14110bc;
+  constexpr static std::size_t addrs = 0x150270c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -56,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::GameplayModifiers* (*)(::GlobalNamespace::GameplayModifierMask)>(
     &::GlobalNamespace::GameplayModifierMaskExtensions::ToModifiers)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x1411118;
+  constexpr static std::size_t addrs = 0x1502768;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -71,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::GameplayModifierMask (*)(::GlobalNamespace::GameplayModifiers*)>(
     &::GlobalNamespace::GameplayModifierMaskExtensions::ToMask)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x1411354;
+  constexpr static std::size_t addrs = 0x15029a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Collections/Generic/LinkedListNode_1.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/Generic/zzzz__LinkedListNode_1_def.hpp"
 #include "System/Collections/Generic/zzzz__LinkedList_1_def.hpp"

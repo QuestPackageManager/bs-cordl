@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ScrollViewState.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,7 +21,7 @@ public:
   // Declarations
   static inline ::UnityEngine::ScrollViewState* New_ctor();
 
-  /// @brief Method .ctor, addr 0x323d050, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3444d8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

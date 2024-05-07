@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BGNet/Core/ITimeProvider.hpp"
 #include "BGNet/Core/zzzz__ITimeProvider_def.hpp"
 //  Writing Method size for method: ::BGNet::Core::ITimeProvider.GetTimeMs
 template <>

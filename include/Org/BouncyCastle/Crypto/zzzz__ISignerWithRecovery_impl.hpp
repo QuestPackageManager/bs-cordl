@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/ISignerWithRecovery.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ISignerWithRecovery_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ISigner_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::ISignerWithRecovery.HasFullMessage

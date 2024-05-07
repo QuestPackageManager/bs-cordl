@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/IStyle.hpp"
 #include "UnityEngine/UIElements/zzzz__IStyle_def.hpp"
 #include "UnityEngine/UIElements/zzzz__DisplayStyle_def.hpp"
 #include "UnityEngine/UIElements/zzzz__FlexDirection_def.hpp"

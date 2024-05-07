@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/EnvironmentKeywords.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,7 +36,7 @@ public:
 
   __declspec(property(get = get_environmentKeywords))::System::Collections::Generic::IReadOnlyList_1<::StringW>* environmentKeywords;
 
-  /// @brief Method HasKeyword, addr 0x13a823c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method HasKeyword, addr 0x149d918, size 0x58, virtual false, abstract: false, final false
   inline bool HasKeyword(::StringW keyword);
 
   static inline ::GlobalNamespace::EnvironmentKeywords* New_ctor(::System::Collections::Generic::IReadOnlyList_1<::StringW>* environmentKeywords);
@@ -52,10 +53,10 @@ public:
 
   constexpr void __cordl_internal_set__environmentKeywordsSet(::System::Collections::Generic::HashSet_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x13a8138, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x149d814, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IReadOnlyList_1<::StringW>* environmentKeywords);
 
-  /// @brief Method get_environmentKeywords, addr 0x13a8130, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_environmentKeywords, addr 0x149d80c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::StringW>* get_environmentKeywords();
 
 protected:

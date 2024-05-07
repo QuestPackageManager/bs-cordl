@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Serialization/XmlTypeMapMemberList.hpp"
 #include "System/Xml/Serialization/zzzz__XmlTypeMapMemberElement_impl.hpp"
 #include "System/Xml/Serialization/zzzz__XmlTypeMapMemberList_def.hpp"
 //  Writing Method size for method: ::System::Xml::Serialization::XmlTypeMapMemberList._ctor
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Serialization::XmlTypeMapMemberList::*)()>(
     &::System::Xml::Serialization::XmlTypeMapMemberList::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2deef08;
+  constexpr static std::size_t addrs = 0x2eed808;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::XmlTypeMapMemberList*>::get(),

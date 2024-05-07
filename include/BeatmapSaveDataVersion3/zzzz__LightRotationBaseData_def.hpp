@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatmapSaveDataVersion3/LightRotationBaseData.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -97,26 +98,26 @@ public:
 
   constexpr void __cordl_internal_set_r(float_t value);
 
-  /// @brief Method .ctor, addr 0x14010c0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14f2684, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, bool usePreviousEventRotationValue, ::BeatmapSaveDataCommon::EaseType easeType, int32_t loopsCount, float_t rotation,
                     ::BeatmapSaveDataCommon::RotationDirection rotationDirection);
 
-  /// @brief Method get_beat, addr 0x1401088, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beat, addr 0x14f264c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_beat();
 
-  /// @brief Method get_easeType, addr 0x14010a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_easeType, addr 0x14f2664, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::EaseType get_easeType();
 
-  /// @brief Method get_loopsCount, addr 0x14010a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_loopsCount, addr 0x14f266c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_loopsCount();
 
-  /// @brief Method get_rotation, addr 0x14010b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotation, addr 0x14f2674, size 0x8, virtual false, abstract: false, final false
   inline float_t get_rotation();
 
-  /// @brief Method get_rotationDirection, addr 0x14010b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotationDirection, addr 0x14f267c, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::RotationDirection get_rotationDirection();
 
-  /// @brief Method get_usePreviousEventRotationValue, addr 0x1401090, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_usePreviousEventRotationValue, addr 0x14f2654, size 0x10, virtual false, abstract: false, final false
   inline bool get_usePreviousEventRotationValue();
 
 protected:

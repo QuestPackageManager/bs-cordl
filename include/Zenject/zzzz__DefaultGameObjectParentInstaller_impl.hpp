@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/DefaultGameObjectParentInstaller.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__Installer_2_impl.hpp"
 #include "Zenject/zzzz__DefaultGameObjectParentInstaller_def.hpp"
@@ -13,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer::*)(::UnityEngine::GameObject*)>(
     &::Zenject::__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x346c454;
+  constexpr static std::size_t addrs = 0x367041c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer::*)()>(
     &::Zenject::__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer::Dispose)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x346c47c;
+  constexpr static std::size_t addrs = 0x3670444;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -43,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::Zenject::__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer::__zenCreate)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x346c4d8;
+  constexpr static std::size_t addrs = 0x36704a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(
     &::Zenject::__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x346c584;
+  constexpr static std::size_t addrs = 0x367054c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -125,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::DefaultGameObjectParentInstaller::*)(::StringW)>(
     &::Zenject::DefaultGameObjectParentInstaller::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x346bf94;
+  constexpr static std::size_t addrs = 0x366ff5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -140,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::DefaultGameObjectParentInstaller::*)()>(
     &::Zenject::DefaultGameObjectParentInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x346bff0;
+  constexpr static std::size_t addrs = 0x366ffb8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -155,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::Zenject::DefaultGameObjectParentInstaller::__zenCreate)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x346c138;
+  constexpr static std::size_t addrs = 0x3670100;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -169,7 +170,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::DefaultGameObjectParentInstaller::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x346c1e0;
+  constexpr static std::size_t addrs = 0x36701a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DefaultGameObjectParentInstaller*>::get(),

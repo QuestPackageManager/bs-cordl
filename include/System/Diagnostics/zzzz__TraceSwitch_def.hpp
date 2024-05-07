@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Diagnostics/TraceSwitch.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,7 +22,7 @@ public:
   // Declarations
   static inline ::System::Diagnostics::TraceSwitch* New_ctor(::StringW displayName, ::StringW description);
 
-  /// @brief Method .ctor, addr 0x2ea20bc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fa39bc, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW displayName, ::StringW description);
 
 protected:

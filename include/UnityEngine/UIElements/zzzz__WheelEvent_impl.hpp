@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/WheelEvent.hpp"
 #include "UnityEngine/UIElements/zzzz__MouseEventBase_1_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__WheelEvent_def.hpp"
@@ -11,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::UIElements::WheelEvent::*)()>(
     &::UnityEngine::UIElements::WheelEvent::get_delta)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x33a0510;
+  constexpr static std::size_t addrs = 0x35a624c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::WheelEvent*>::get(), "get_delta",
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::WheelEvent::*)(::UnityEngine::Vector3)>(
     &::UnityEngine::UIElements::WheelEvent::set_delta)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x33a051c;
+  constexpr static std::size_t addrs = 0x35a6258;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::WheelEvent* (*)(::UnityEngine::Event*)>(
     &::UnityEngine::UIElements::WheelEvent::GetPooled)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x33a0528;
+  constexpr static std::size_t addrs = 0x35a6264;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::WheelEvent* (*)(::UnityEngine::Vector3, ::UnityEngine::UIElements::IPointerEvent*)>(
     &::UnityEngine::UIElements::WheelEvent::GetPooled)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x33a05a4;
+  constexpr static std::size_t addrs = 0x35a62e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::WheelEvent::*)()>(&::UnityEngine::UIElements::WheelEvent::Init)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x33a061c;
+  constexpr static std::size_t addrs = 0x35a6358;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -84,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::WheelEvent::*)()>(&::UnityEngine::UIElements::WheelEvent::LocalInit)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x33a066c;
+  constexpr static std::size_t addrs = 0x35a63a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::WheelEvent*>::get(), "LocalInit",
@@ -97,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::WheelEvent::*)()>(&::UnityEngine::UIElements::WheelEvent::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x33a06cc;
+  constexpr static std::size_t addrs = 0x35a6408;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::WheelEvent*>::get(), ".ctor",

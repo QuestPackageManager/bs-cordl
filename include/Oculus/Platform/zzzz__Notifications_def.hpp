@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/Notifications.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,7 +23,7 @@ namespace Oculus::Platform {
 class CORDL_TYPE Notifications : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method MarkAsRead, addr 0x29d7698, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method MarkAsRead, addr 0x2ad4f48, size 0x14c, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request* MarkAsRead(uint64_t notificationID);
 
 protected:

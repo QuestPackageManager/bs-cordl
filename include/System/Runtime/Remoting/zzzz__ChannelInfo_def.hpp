@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/ChannelInfo.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,13 +44,13 @@ public:
 
   constexpr void __cordl_internal_set_channelData(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
 
-  /// @brief Method .ctor, addr 0x2708584, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2805980, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x27085ec, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28059e8, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* remoteChannelData);
 
-  /// @brief Method get_ChannelData, addr 0x2708694, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_ChannelData, addr 0x2805a90, size 0x8, virtual true, abstract: false, final true
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> get_ChannelData();
 
   /// @brief Convert to "::System::Runtime::Remoting::IChannelInfo"

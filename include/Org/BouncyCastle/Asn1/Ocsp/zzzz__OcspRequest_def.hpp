@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Ocsp/OcspRequest.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,17 +47,17 @@ public:
   /// @brief Field tbsRequest, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_tbsRequest, put = __cordl_internal_set_tbsRequest))::Org::BouncyCastle::Asn1::Ocsp::TbsRequest* tbsRequest;
 
-  /// @brief Method GetInstance, addr 0x10ebb9c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x11df2c0, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::OcspRequest* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x10ebbb4, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x11df2d8, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::OcspRequest* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::OcspRequest* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::Ocsp::OcspRequest* New_ctor(::Org::BouncyCastle::Asn1::Ocsp::TbsRequest* tbsRequest, ::Org::BouncyCastle::Asn1::Ocsp::Signature* optionalSignature);
 
-  /// @brief Method ToAsn1Object, addr 0x10ec084, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x11df7a8, size 0x114, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Ocsp::Signature*& __cordl_internal_get_optionalSignature();
@@ -71,16 +72,16 @@ public:
 
   constexpr void __cordl_internal_set_tbsRequest(::Org::BouncyCastle::Asn1::Ocsp::TbsRequest* value);
 
-  /// @brief Method .ctor, addr 0x10ebd3c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11df460, size 0x11c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0x10ebe58, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11df57c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Ocsp::TbsRequest* tbsRequest, ::Org::BouncyCastle::Asn1::Ocsp::Signature* optionalSignature);
 
-  /// @brief Method get_OptionalSignature, addr 0x10ec07c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OptionalSignature, addr 0x11df7a0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Ocsp::Signature* get_OptionalSignature();
 
-  /// @brief Method get_TbsRequest, addr 0x10ec074, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TbsRequest, addr 0x11df798, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Ocsp::TbsRequest* get_TbsRequest();
 
 protected:

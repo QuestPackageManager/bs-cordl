@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/CustomTweenBehaviour.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,10 +58,10 @@ public:
 
   static inline ::GlobalNamespace::__CustomTweenBehaviour____c* New_ctor();
 
-  /// @brief Method <OnBehaviourPlay>b__21_0, addr 0x25a2b08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <OnBehaviourPlay>b__21_0, addr 0x269c9cc, size 0x8, virtual false, abstract: false, final false
   inline float_t _OnBehaviourPlay_b__21_0(int32_t i);
 
-  /// @brief Method .ctor, addr 0x25a2b00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x269c9c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__CustomTweenBehaviour____c* getStaticF___9();
@@ -158,16 +159,16 @@ public:
 
   static inline ::GlobalNamespace::CustomTweenBehaviour* New_ctor();
 
-  /// @brief Method OnBehaviourPlay, addr 0x25a2898, size 0x1ec, virtual true, abstract: false, final false
+  /// @brief Method OnBehaviourPlay, addr 0x269c75c, size 0x1ec, virtual true, abstract: false, final false
   inline void OnBehaviourPlay(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method OnGraphStart, addr 0x25a2278, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method OnGraphStart, addr 0x269c13c, size 0x13c, virtual true, abstract: false, final false
   inline void OnGraphStart(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method OnPlayableDestroy, addr 0x25a2794, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method OnPlayableDestroy, addr 0x269c658, size 0x104, virtual true, abstract: false, final false
   inline void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method ProcessFrame, addr 0x25a23b4, size 0x3e0, virtual true, abstract: false, final false
+  /// @brief Method ProcessFrame, addr 0x269c278, size 0x3e0, virtual true, abstract: false, final false
   inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData);
 
   constexpr float_t const& __cordl_internal_get__duration() const;
@@ -278,7 +279,7 @@ public:
 
   constexpr void __cordl_internal_set_startLocationCurrentPosition(bool value);
 
-  /// @brief Method .ctor, addr 0x25a2a84, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x269c948, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

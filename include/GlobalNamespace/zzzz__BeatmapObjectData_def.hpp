@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BeatmapObjectData.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,7 +26,7 @@ public:
 
   static inline ::GlobalNamespace::BeatmapObjectData* New_ctor(float_t time, int32_t subtypeIdentifier);
 
-  /// @brief Method .ctor, addr 0xf48ec0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1037a34, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(float_t time, int32_t subtypeIdentifier);
 
 protected:

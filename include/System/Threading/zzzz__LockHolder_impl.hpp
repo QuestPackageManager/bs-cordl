@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/LockHolder.hpp"
 #include "System/Threading/zzzz__LockHolder_def.hpp"
 #include "System/Threading/zzzz__Lock_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
@@ -7,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::LockHolder (*)(::System::Threading::Lock*)>(&::System::Threading::LockHolder::Hold)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x289d06c;
+  constexpr static std::size_t addrs = 0x299b91c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -21,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::LockHolder::*)()>(&::System::Threading::LockHolder::Dispose)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x289d098;
+  constexpr static std::size_t addrs = 0x299b948;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::LockHolder>::get(), "Dispose",

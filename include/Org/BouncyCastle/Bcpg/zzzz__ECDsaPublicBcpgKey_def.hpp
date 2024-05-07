@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Bcpg/ECDsaPublicBcpgKey.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,13 +37,13 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::ECDsaPublicBcpgKey* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Math::EC::ECPoint* point);
 
-  /// @brief Method .ctor, addr 0x1340528, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1434c4c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor, addr 0x1340530, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1434c54, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Math::BigInteger* encodedPoint);
 
-  /// @brief Method .ctor, addr 0x134052c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1434c50, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Math::EC::ECPoint* point);
 
 protected:

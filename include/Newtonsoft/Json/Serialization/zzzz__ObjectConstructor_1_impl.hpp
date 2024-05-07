@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/ObjectConstructor_1.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__ObjectConstructor_1_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/EventDebugger.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__EventDebugger_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::PropagationPaths*)>(
     &::UnityEngine::UIElements::EventDebugger::LogPropagationPaths)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x33d2670;
+  constexpr static std::size_t addrs = 0x35d83ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

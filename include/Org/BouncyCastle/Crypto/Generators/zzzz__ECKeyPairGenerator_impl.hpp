@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Generators/ECKeyPairGenerator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Generators/zzzz__ECKeyPairGenerator_def.hpp"
 #include "Org/BouncyCastle/Asn1/X9/zzzz__X9ECParameters_def.hpp"
@@ -17,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::*)()>(
     &::Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x1064a04;
+  constexpr static std::size_t addrs = 0x1158128;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -32,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::*)(::StringW)>(
     &::Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::_ctor)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x1064a4c;
+  constexpr static std::size_t addrs = 0x1158170;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::*)(
     ::Org::BouncyCastle::Crypto::KeyGenerationParameters*)>(&::Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::Init)> {
   constexpr static std::size_t size = 0x2a8;
-  constexpr static std::size_t addrs = 0x1064b0c;
+  constexpr static std::size_t addrs = 0x1158230;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -62,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* (
     ::Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::*)()>(&::Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::GenerateKeyPair)> {
   constexpr static std::size_t size = 0x314;
-  constexpr static std::size_t addrs = 0x1064e28;
+  constexpr static std::size_t addrs = 0x115854c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -77,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* (
     ::Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::*)()>(&::Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::CreateBasePointMultiplier)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x106513c;
+  constexpr static std::size_t addrs = 0x1158860;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -93,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(
     &::Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::FindECCurveByOid)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x1064db4;
+  constexpr static std::size_t addrs = 0x11584d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -109,7 +110,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* (*)(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*)>(
         &::Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator::GetCorrespondingPublicKey)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x1065198;
+  constexpr static std::size_t addrs = 0x11588bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

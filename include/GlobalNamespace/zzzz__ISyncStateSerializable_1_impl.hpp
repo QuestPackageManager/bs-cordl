@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ISyncStateSerializable_1.hpp"
 #include "GlobalNamespace/zzzz__ISyncStateSerializable_1_def.hpp"
 #include "GlobalNamespace/zzzz__SyncStateId_def.hpp"
 template <typename T> inline ::GlobalNamespace::SyncStateId GlobalNamespace::ISyncStateSerializable_1<T>::get_id() {

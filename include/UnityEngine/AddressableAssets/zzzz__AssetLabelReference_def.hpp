@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/AddressableAssets/AssetLabelReference.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,12 +37,12 @@ public:
   /// @brief Convert operator to "::UnityEngine::AddressableAssets::IKeyEvaluator"
   constexpr operator ::UnityEngine::AddressableAssets::IKeyEvaluator*() noexcept;
 
-  /// @brief Method GetHashCode, addr 0x2f583c0, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3059cc0, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::AddressableAssets::AssetLabelReference* New_ctor();
 
-  /// @brief Method RuntimeKeyIsValid, addr 0x2f58344, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method RuntimeKeyIsValid, addr 0x3059c44, size 0x7c, virtual true, abstract: false, final true
   inline bool RuntimeKeyIsValid();
 
   constexpr ::StringW const& __cordl_internal_get_m_LabelString() const;
@@ -50,19 +51,19 @@ public:
 
   constexpr void __cordl_internal_set_m_LabelString(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2f583e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3059ce0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_RuntimeKey, addr 0x2f582ec, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method get_RuntimeKey, addr 0x3059bec, size 0x58, virtual true, abstract: false, final true
   inline ::System::Object* get_RuntimeKey();
 
-  /// @brief Method get_labelString, addr 0x2f582dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_labelString, addr 0x3059bdc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_labelString();
 
   /// @brief Convert to "::UnityEngine::AddressableAssets::IKeyEvaluator"
   constexpr ::UnityEngine::AddressableAssets::IKeyEvaluator* i___UnityEngine__AddressableAssets__IKeyEvaluator() noexcept;
 
-  /// @brief Method set_labelString, addr 0x2f582e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_labelString, addr 0x3059be4, size 0x8, virtual false, abstract: false, final false
   inline void set_labelString(::StringW value);
 
 protected:

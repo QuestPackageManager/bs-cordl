@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Http/NtlmSession.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Http/zzzz__NtlmSession_def.hpp"
 #include "Mono/Security/Protocol/Ntlm/zzzz__MessageBase_def.hpp"
@@ -10,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Http::NtlmSession::*)()>(&::Mono::Http::NtlmSession::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b6ec40;
+  constexpr static std::size_t addrs = 0x2c6b540;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Http::NtlmSession*>::get(), ".ctor",
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Net::Authorization* (::Mono::Http::NtlmSession::*)(::StringW, ::System::Net::WebRequest*, ::System::Net::ICredentials*)>(&::Mono::Http::NtlmSession::Authenticate)> {
   constexpr static std::size_t size = 0x48c;
-  constexpr static std::size_t addrs = 0x2b6ec48;
+  constexpr static std::size_t addrs = 0x2c6b548;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/IStreamCipher.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IStreamCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::IStreamCipher.get_AlgorithmName

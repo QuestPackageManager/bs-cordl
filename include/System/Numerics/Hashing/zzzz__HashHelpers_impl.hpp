@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Numerics/Hashing/HashHelpers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Numerics/Hashing/zzzz__HashHelpers_def.hpp"
 //  Writing Method size for method: ::System::Numerics::Hashing::HashHelpers.Combine
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, int32_t)>(&::System::Numerics::Hashing::HashHelpers::Combine)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x277bb30;
+  constexpr static std::size_t addrs = 0x287b250;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

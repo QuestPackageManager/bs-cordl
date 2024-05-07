@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/UnityScenesHelper.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,7 +22,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE UnityScenesHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetActiveRootObjectsInScene, addr 0xf91684, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method SetActiveRootObjectsInScene, addr 0x1085f90, size 0x1c8, virtual false, abstract: false, final false
   static inline void SetActiveRootObjectsInScene(::UnityEngine::SceneManagement::Scene scene, bool active);
 
 protected:

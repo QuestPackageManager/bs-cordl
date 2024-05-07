@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BGLib/Polyglot/LocalizedTextMesh.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "BGLib/Polyglot/zzzz__LocalizedTextMesh_def.hpp"
 #include "BGLib/Polyglot/zzzz__ILocalize_def.hpp"
@@ -11,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::BGLib::Polyglot::LocalizedTextMesh::*)()>(&::BGLib::Polyglot::LocalizedTextMesh::get_Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf8de08;
+  constexpr static std::size_t addrs = 0x10803f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizedTextMesh*>::get(), "get_Key",
@@ -24,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::Polyglot::LocalizedTextMesh::*)()>(&::BGLib::Polyglot::LocalizedTextMesh::Reset)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0xf8de10;
+  constexpr static std::size_t addrs = 0x1080400;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizedTextMesh*>::get(), "Reset",
@@ -37,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::Polyglot::LocalizedTextMesh::*)()>(&::BGLib::Polyglot::LocalizedTextMesh::Start)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0xf8de60;
+  constexpr static std::size_t addrs = 0x1080450;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizedTextMesh*>::get(), "Start",
@@ -51,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::Polyglot::LocalizedTextMesh::*)(::BGLib::Polyglot::LocalizationModel*)>(
     &::BGLib::Polyglot::LocalizedTextMesh::OnLocalize)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0xf8de80;
+  constexpr static std::size_t addrs = 0x1080470;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BGLib::Polyglot::LocalizedTextMesh::*)(::UnityEngine::TextAlignment, ::BGLib::Polyglot::LanguageDirection)>(
     &::BGLib::Polyglot::LocalizedTextMesh::IsOppositeDirection)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0xf8df88;
+  constexpr static std::size_t addrs = 0x1080578;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -82,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BGLib::Polyglot::LocalizedTextMesh::*)(::UnityEngine::TextAlignment)>(
     &::BGLib::Polyglot::LocalizedTextMesh::IsAlignmentRight)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0xf8dfb4;
+  constexpr static std::size_t addrs = 0x10805a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -97,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BGLib::Polyglot::LocalizedTextMesh::*)(::UnityEngine::TextAlignment)>(
     &::BGLib::Polyglot::LocalizedTextMesh::IsAlignmentLeft)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0xf8dfc0;
+  constexpr static std::size_t addrs = 0x10805b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -111,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::Polyglot::LocalizedTextMesh::*)()>(&::BGLib::Polyglot::LocalizedTextMesh::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf8dfcc;
+  constexpr static std::size_t addrs = 0x10805bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizedTextMesh*>::get(), ".ctor",

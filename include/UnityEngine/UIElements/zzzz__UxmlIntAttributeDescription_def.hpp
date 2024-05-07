@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/UxmlIntAttributeDescription.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,13 +50,13 @@ public:
 
   static inline ::UnityEngine::UIElements::__UxmlIntAttributeDescription____c* New_ctor();
 
-  /// @brief Method <GetValueFromBag>b__3_0, addr 0x335f854, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method <GetValueFromBag>b__3_0, addr 0x3563590, size 0x40, virtual false, abstract: false, final false
   inline int32_t _GetValueFromBag_b__3_0(::StringW s, int32_t i);
 
-  /// @brief Method <TryGetValueFromBag>b__4_0, addr 0x335f894, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method <TryGetValueFromBag>b__4_0, addr 0x35635d0, size 0x40, virtual false, abstract: false, final false
   inline int32_t _TryGetValueFromBag_b__4_0(::StringW s, int32_t i);
 
-  /// @brief Method .ctor, addr 0x335f84c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3563588, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::__UxmlIntAttributeDescription____c* getStaticF___9();
@@ -100,18 +101,18 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::__UxmlIntAttributeDescription____c;
 
-  /// @brief Method ConvertValueToInt, addr 0x335f7ac, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ConvertValueToInt, addr 0x35634e8, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t ConvertValueToInt(::StringW v, int32_t defaultValue);
 
-  /// @brief Method GetValueFromBag, addr 0x335f4d0, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method GetValueFromBag, addr 0x356320c, size 0x164, virtual true, abstract: false, final false
   inline int32_t GetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::UxmlIntAttributeDescription* New_ctor();
 
-  /// @brief Method TryGetValueFromBag, addr 0x335f634, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method TryGetValueFromBag, addr 0x3563370, size 0x178, virtual false, abstract: false, final false
   inline bool TryGetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc, ByRef<int32_t> value);
 
-  /// @brief Method .ctor, addr 0x335f434, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3563170, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

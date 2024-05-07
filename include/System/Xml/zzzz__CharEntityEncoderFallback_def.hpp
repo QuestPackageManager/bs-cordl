@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/CharEntityEncoderFallback.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,15 +46,15 @@ public:
   /// @brief Field textContentMarks, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_textContentMarks, put = __cordl_internal_set_textContentMarks))::ArrayW<int32_t, ::Array<int32_t>*> textContentMarks;
 
-  /// @brief Method CanReplaceAt, addr 0x2c95520, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method CanReplaceAt, addr 0x2d93e20, size 0x68, virtual false, abstract: false, final false
   inline bool CanReplaceAt(int32_t index);
 
-  /// @brief Method CreateFallbackBuffer, addr 0x2c95424, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method CreateFallbackBuffer, addr 0x2d93d24, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Text::EncoderFallbackBuffer* CreateFallbackBuffer();
 
   static inline ::System::Xml::CharEntityEncoderFallback* New_ctor();
 
-  /// @brief Method Reset, addr 0x2c95514, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x2d93e14, size 0xc, virtual false, abstract: false, final false
   inline void Reset(::ArrayW<int32_t, ::Array<int32_t>*> textContentMarks, int32_t endMarkPos);
 
   constexpr int32_t const& __cordl_internal_get_curMarkPos() const;
@@ -86,13 +87,13 @@ public:
 
   constexpr void __cordl_internal_set_textContentMarks(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  /// @brief Method .ctor, addr 0x2c9541c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d93d1c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_MaxCharCount, addr 0x2c95504, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_MaxCharCount, addr 0x2d93e04, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_MaxCharCount();
 
-  /// @brief Method set_StartOffset, addr 0x2c9550c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_StartOffset, addr 0x2d93e0c, size 0x8, virtual false, abstract: false, final false
   inline void set_StartOffset(int32_t value);
 
 protected:

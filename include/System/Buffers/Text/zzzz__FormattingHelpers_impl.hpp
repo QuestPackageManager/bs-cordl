@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Buffers/Text/FormattingHelpers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Buffers/Text/zzzz__FormattingHelpers_def.hpp"
 //  Writing Method size for method: ::System::Buffers::Text::FormattingHelpers.CountDigits
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(uint64_t)>(&::System::Buffers::Text::FormattingHelpers::CountDigits)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x28124c8;
+  constexpr static std::size_t addrs = 0x2911be8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -20,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(uint32_t)>(&::System::Buffers::Text::FormattingHelpers::CountDigits)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x2812584;
+  constexpr static std::size_t addrs = 0x2911ca4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(uint64_t)>(&::System::Buffers::Text::FormattingHelpers::CountHexDigits)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x28125f0;
+  constexpr static std::size_t addrs = 0x2911d10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

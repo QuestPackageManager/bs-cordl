@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/ECDomainParameters.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,16 +64,16 @@ public:
   /// @brief Field seed, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_seed, put = __cordl_internal_set_seed))::ArrayW<uint8_t, ::Array<uint8_t>*> seed;
 
-  /// @brief Method Equals, addr 0x109dba0, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x11912c4, size 0xa4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x109dc44, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x1191368, size 0x88, virtual true, abstract: false, final false
   inline bool Equals(::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* other);
 
-  /// @brief Method GetHashCode, addr 0x109dccc, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x11913f0, size 0x7c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetSeed, addr 0x109db44, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetSeed, addr 0x1191268, size 0x5c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSeed();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECPoint* g,
@@ -87,13 +88,13 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* New_ctor(::Org::BouncyCastle::Asn1::X9::X9ECParameters* x9);
 
-  /// @brief Method ValidatePrivateScalar, addr 0x109dd48, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method ValidatePrivateScalar, addr 0x119146c, size 0x138, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* ValidatePrivateScalar(::Org::BouncyCastle::Math::BigInteger* d);
 
-  /// @brief Method ValidatePublicPoint, addr 0x109d930, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method ValidatePublicPoint, addr 0x1191054, size 0x130, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::EC::ECPoint* ValidatePublicPoint(::Org::BouncyCastle::Math::EC::ECCurve* c, ::Org::BouncyCastle::Math::EC::ECPoint* q);
 
-  /// @brief Method ValidatePublicPoint, addr 0x109de80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ValidatePublicPoint, addr 0x11915a4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* ValidatePublicPoint(::Org::BouncyCastle::Math::EC::ECPoint* q);
 
   constexpr ::Org::BouncyCastle::Math::EC::ECCurve*& __cordl_internal_get_curve();
@@ -132,32 +133,32 @@ public:
 
   constexpr void __cordl_internal_set_seed(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x109d89c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1190fc0, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECPoint* g, ::Org::BouncyCastle::Math::BigInteger* n);
 
-  /// @brief Method .ctor, addr 0x109d928, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x119104c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECPoint* g, ::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Math::BigInteger* h);
 
-  /// @brief Method .ctor, addr 0x109d754, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1190e78, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::ECPoint* g, ::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Math::BigInteger* h,
                     ::ArrayW<uint8_t, ::Array<uint8_t>*> seed);
 
-  /// @brief Method .ctor, addr 0x109d70c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1190e30, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X9::X9ECParameters* x9);
 
-  /// @brief Method get_Curve, addr 0x109da60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Curve, addr 0x1191184, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECCurve* get_Curve();
 
-  /// @brief Method get_G, addr 0x109da68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_G, addr 0x119118c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* get_G();
 
-  /// @brief Method get_H, addr 0x109da78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_H, addr 0x119119c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_H();
 
-  /// @brief Method get_HInv, addr 0x109da80, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method get_HInv, addr 0x11911a4, size 0xc4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_HInv();
 
-  /// @brief Method get_N, addr 0x109da70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_N, addr 0x1191194, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_N();
 
 protected:

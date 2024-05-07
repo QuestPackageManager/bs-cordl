@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Events/PersistentCallGroup.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,7 +37,7 @@ public:
   /// @brief Field m_Calls, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Calls, put = __cordl_internal_set_m_Calls))::System::Collections::Generic::List_1<::UnityEngine::Events::PersistentCall*>* m_Calls;
 
-  /// @brief Method Initialize, addr 0x3232e14, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x343ab50, size 0x190, virtual false, abstract: false, final false
   inline void Initialize(::UnityEngine::Events::InvokableCallList* invokableList, ::UnityEngine::Events::UnityEventBase* unityEventBase);
 
   static inline ::UnityEngine::Events::PersistentCallGroup* New_ctor();
@@ -47,10 +48,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Calls(::System::Collections::Generic::List_1<::UnityEngine::Events::PersistentCall*>* value);
 
-  /// @brief Method .ctor, addr 0x3232d4c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x343aa88, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Count, addr 0x3232dcc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x343ab08, size 0x48, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
 protected:

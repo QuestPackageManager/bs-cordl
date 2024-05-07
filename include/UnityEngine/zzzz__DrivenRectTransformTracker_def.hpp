@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/DrivenRectTransformTracker.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,10 +29,10 @@ namespace UnityEngine {
 struct CORDL_TYPE DrivenRectTransformTracker {
 public:
   // Declarations
-  /// @brief Method Add, addr 0x3219670, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x34203ac, size 0x4, virtual false, abstract: false, final false
   inline void Add(::UnityEngine::Object* driver, ::UnityEngine::RectTransform* rectTransform, ::UnityEngine::DrivenTransformProperties drivenProperties);
 
-  /// @brief Method Clear, addr 0x3219674, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x34203b0, size 0x4, virtual false, abstract: false, final false
   inline void Clear();
 
   // Ctor Parameters []

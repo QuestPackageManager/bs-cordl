@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatmapDataLoaderVersion4/ColorBoostEventItemConverter.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,7 +36,7 @@ public:
   __declspec(property(get = __cordl_internal_get__colorBoostEvents,
                       put = __cordl_internal_set__colorBoostEvents))::ArrayW<::BeatmapSaveDataVersion4::ColorBoostEvent, ::Array<::BeatmapSaveDataVersion4::ColorBoostEvent>*> _colorBoostEvents;
 
-  /// @brief Method Convert, addr 0x1404b14, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x14f70d4, size 0xb4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventData* Convert(::BeatmapSaveDataVersion4::BeatIndex* index);
 
   static inline ::BeatmapDataLoaderVersion4::ColorBoostEventItemConverter*
@@ -47,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set__colorBoostEvents(::ArrayW<::BeatmapSaveDataVersion4::ColorBoostEvent, ::Array<::BeatmapSaveDataVersion4::ColorBoostEvent>*> value);
 
-  /// @brief Method .ctor, addr 0x14049f0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14f6fb0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::BeatmapSaveDataVersion4::ColorBoostEvent, ::Array<::BeatmapSaveDataVersion4::ColorBoostEvent>*> colorBoostEvents, ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
 
 protected:

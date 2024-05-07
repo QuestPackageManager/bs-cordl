@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/JSON.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,7 +23,7 @@ namespace HoudiniEngineUnity {
 class CORDL_TYPE JSON : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Parse, addr 0x24be8e0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x25b656c, size 0x4, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::JSONNode* Parse(::StringW aJSON);
 
 protected:

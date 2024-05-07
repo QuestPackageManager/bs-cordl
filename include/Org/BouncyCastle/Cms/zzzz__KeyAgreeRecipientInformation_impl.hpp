@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Cms/KeyAgreeRecipientInformation.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__RecipientInformation_impl.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__KeyAgreeRecipientInformation_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__KeyAgreeRecipientInfo_def.hpp"
@@ -20,7 +21,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::System::Collections::IList*, ::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo*, ::Org::BouncyCastle::Cms::CmsSecureReadable*)>(
         &::Org::BouncyCastle::Cms::KeyAgreeRecipientInformation::ReadRecipientInfo)> {
   constexpr static std::size_t size = 0x57c;
-  constexpr static std::size_t addrs = 0x1351ab8;
+  constexpr static std::size_t addrs = 0x14471dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -38,7 +39,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo*, ::Org::BouncyCastle::Cms::RecipientID*, ::Org::BouncyCastle::Asn1::Asn1OctetString*, ::Org::BouncyCastle::Cms::CmsSecureReadable*)>(
     &::Org::BouncyCastle::Cms::KeyAgreeRecipientInformation::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x1371fe4;
+  constexpr static std::size_t addrs = 0x1467708;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,7 +58,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Cms::KeyAgreeRecipientInformation::*)(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*, ::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey*)>(
     &::Org::BouncyCastle::Cms::KeyAgreeRecipientInformation::GetSenderPublicKey)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x137202c;
+  constexpr static std::size_t addrs = 0x1467750;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -74,7 +75,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Cms::KeyAgreeRecipientInformation::*)(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*, ::Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey*)>(
     &::Org::BouncyCastle::Cms::KeyAgreeRecipientInformation::GetPublicKeyFromOriginatorPublicKey)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x1372108;
+  constexpr static std::size_t addrs = 0x146782c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -91,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* (
     ::Org::BouncyCastle::Cms::KeyAgreeRecipientInformation::*)(::Org::BouncyCastle::Cms::OriginatorID*)>(&::Org::BouncyCastle::Cms::KeyAgreeRecipientInformation::GetPublicKeyFromOriginatorID)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x13721c8;
+  constexpr static std::size_t addrs = 0x14678ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -107,7 +108,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Cms::KeyAgreeRecipientInformation::*)(::StringW, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*)>(
     &::Org::BouncyCastle::Cms::KeyAgreeRecipientInformation::CalculateAgreedWrapKey)> {
   constexpr static std::size_t size = 0x3d4;
-  constexpr static std::size_t addrs = 0x1372218;
+  constexpr static std::size_t addrs = 0x146793c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -125,7 +126,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Crypto::Parameters::KeyParameter* (::Org::BouncyCastle::Cms::KeyAgreeRecipientInformation::*)(::StringW, ::Org::BouncyCastle::Crypto::Parameters::KeyParameter*)>(
         &::Org::BouncyCastle::Cms::KeyAgreeRecipientInformation::UnwrapSessionKey)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x13725ec;
+  constexpr static std::size_t addrs = 0x1467d10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -141,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Parameters::KeyParameter* (
     ::Org::BouncyCastle::Cms::KeyAgreeRecipientInformation::*)(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*)>(&::Org::BouncyCastle::Cms::KeyAgreeRecipientInformation::GetSessionKey)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x13727ac;
+  constexpr static std::size_t addrs = 0x1467ed0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -156,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Cms::CmsTypedStream* (
     ::Org::BouncyCastle::Cms::KeyAgreeRecipientInformation::*)(::Org::BouncyCastle::Crypto::ICipherParameters*)>(&::Org::BouncyCastle::Cms::KeyAgreeRecipientInformation::GetContentStream)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x1372a04;
+  constexpr static std::size_t addrs = 0x1468128;
 
   inline static ::MethodInfo const* methodInfo() {
 

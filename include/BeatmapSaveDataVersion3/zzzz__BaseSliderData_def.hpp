@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatmapSaveDataVersion3/BaseSliderData.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -108,29 +109,29 @@ public:
 
   constexpr void __cordl_internal_set_y(int32_t value);
 
-  /// @brief Method .ctor, addr 0x1401510, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14f3ac4, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::BeatmapSaveDataCommon::NoteColorType colorType, float_t headBeat, int32_t headLine, int32_t headLayer, ::BeatmapSaveDataCommon::NoteCutDirection headCutDirection,
                     float_t tailBeat, int32_t tailLine, int32_t tailLayer);
 
-  /// @brief Method get_colorType, addr 0x14014d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorType, addr 0x14f3a8c, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::NoteColorType get_colorType();
 
-  /// @brief Method get_headCutDirection, addr 0x14014f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_headCutDirection, addr 0x14f3aa4, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::NoteCutDirection get_headCutDirection();
 
-  /// @brief Method get_headLayer, addr 0x14014e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_headLayer, addr 0x14f3a9c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_headLayer();
 
-  /// @brief Method get_headLine, addr 0x14014e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_headLine, addr 0x14f3a94, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_headLine();
 
-  /// @brief Method get_tailBeat, addr 0x14014f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_tailBeat, addr 0x14f3aac, size 0x8, virtual false, abstract: false, final false
   inline float_t get_tailBeat();
 
-  /// @brief Method get_tailLayer, addr 0x1401508, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_tailLayer, addr 0x14f3abc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_tailLayer();
 
-  /// @brief Method get_tailLine, addr 0x1401500, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_tailLine, addr 0x14f3ab4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_tailLine();
 
 protected:

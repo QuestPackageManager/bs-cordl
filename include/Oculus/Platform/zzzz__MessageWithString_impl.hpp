@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/MessageWithString.hpp"
 #include "Oculus/Platform/zzzz__Message_1_impl.hpp"
 #include "Oculus/Platform/zzzz__MessageWithString_def.hpp"
 //  Writing Method size for method: ::Oculus::Platform::MessageWithString._ctor
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::MessageWithString::*)(void*)>(&::Oculus::Platform::MessageWithString::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x29c81cc;
+  constexpr static std::size_t addrs = 0x2ac5a7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -20,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Oculus::Platform::MessageWithString::*)()>(&::Oculus::Platform::MessageWithString::GetString)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x29cc414;
+  constexpr static std::size_t addrs = 0x2ac9cc4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -35,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Oculus::Platform::MessageWithString::*)(void*)>(
     &::Oculus::Platform::MessageWithString::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x29cc450;
+  constexpr static std::size_t addrs = 0x2ac9d00;
 
   inline static ::MethodInfo const* methodInfo() {
 

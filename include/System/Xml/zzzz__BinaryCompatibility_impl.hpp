@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/BinaryCompatibility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__BinaryCompatibility_def.hpp"
 //  Writing Method size for method: ::System::Xml::BinaryCompatibility.get_TargetsAtLeast_Desktop_V4_5_2
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::System::Xml::BinaryCompatibility::get_TargetsAtLeast_Desktop_V4_5_2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2dc1a40;
+  constexpr static std::size_t addrs = 0x2ebf340;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

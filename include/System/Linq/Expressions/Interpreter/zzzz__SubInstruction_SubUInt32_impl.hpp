@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/SubInstruction_SubUInt32.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__SubInstruction_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__SubInstruction_SubUInt32_def.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__InterpretedFrame_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::__SubInstruction__SubUInt32::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::System::Linq::Expressions::Interpreter::__SubInstruction__SubUInt32::Run)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x2b4b08c;
+  constexpr static std::size_t addrs = 0x2c4798c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::__SubInstruction__SubUInt32::*)()>(
     &::System::Linq::Expressions::Interpreter::__SubInstruction__SubUInt32::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b4ab60;
+  constexpr static std::size_t addrs = 0x2c47460;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

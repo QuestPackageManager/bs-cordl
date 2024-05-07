@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Rendering/CameraEventUtils.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,7 +22,7 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE CameraEventUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsValid, addr 0x3222c1c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x3429958, size 0xc, virtual false, abstract: false, final false
   static inline bool IsValid(::UnityEngine::Rendering::CameraEvent value);
 
 protected:

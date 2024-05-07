@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Cmp/ProtectedPkiMessage.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,23 +56,23 @@ public:
   /// @brief Field pkiMessage, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_pkiMessage, put = __cordl_internal_set_pkiMessage))::Org::BouncyCastle::Asn1::Cmp::PkiMessage* pkiMessage;
 
-  /// @brief Method GetCertificates, addr 0x134541c, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method GetCertificates, addr 0x1439b40, size 0x168, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::X509::X509Certificate*, ::Array<::Org::BouncyCastle::X509::X509Certificate*>*> GetCertificates();
 
   static inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessage* New_ctor(::Org::BouncyCastle::Asn1::Cmp::PkiMessage* pkiMessage);
 
   static inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessage* New_ctor(::Org::BouncyCastle::Cmp::GeneralPkiMessage* pkiMessage);
 
-  /// @brief Method Process, addr 0x1345704, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method Process, addr 0x1439e28, size 0x2d8, virtual false, abstract: false, final false
   inline ::System::Object* Process(::Org::BouncyCastle::Crypto::IStreamCalculator* streamCalculator);
 
-  /// @brief Method ToAsn1Message, addr 0x134536c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToAsn1Message, addr 0x1439a90, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiMessage* ToAsn1Message();
 
-  /// @brief Method Verify, addr 0x13459dc, size 0x2e8, virtual false, abstract: false, final false
+  /// @brief Method Verify, addr 0x143a100, size 0x2e8, virtual false, abstract: false, final false
   inline bool Verify(::Org::BouncyCastle::Crmf::PKMacBuilder* pkMacBuilder, ::ArrayW<char16_t, ::Array<char16_t>*> password);
 
-  /// @brief Method Verify, addr 0x1345584, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method Verify, addr 0x1439ca8, size 0x180, virtual false, abstract: false, final false
   inline bool Verify(::Org::BouncyCastle::Crypto::IVerifierFactory* verifierFactory);
 
   constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiMessage*& __cordl_internal_get_pkiMessage();
@@ -80,19 +81,19 @@ public:
 
   constexpr void __cordl_internal_set_pkiMessage(::Org::BouncyCastle::Asn1::Cmp::PkiMessage* value);
 
-  /// @brief Method .ctor, addr 0x134528c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14399b0, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cmp::PkiMessage* pkiMessage);
 
-  /// @brief Method .ctor, addr 0x13451f4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1439918, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Cmp::GeneralPkiMessage* pkiMessage);
 
-  /// @brief Method get_Body, addr 0x134534c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_Body, addr 0x1439a70, size 0x20, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiBody* get_Body();
 
-  /// @brief Method get_HasPasswordBasedMacProtected, addr 0x1345374, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_HasPasswordBasedMacProtected, addr 0x1439a98, size 0xa8, virtual false, abstract: false, final false
   inline bool get_HasPasswordBasedMacProtected();
 
-  /// @brief Method get_Header, addr 0x134532c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_Header, addr 0x1439a50, size 0x20, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeader* get_Header();
 
 protected:

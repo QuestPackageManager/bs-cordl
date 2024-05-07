@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/AddressableAssets/AssetReferenceAtlasedSprite.hpp"
 #include "UnityEngine/AddressableAssets/zzzz__AssetReferenceT_1_impl.hpp"
 #include "UnityEngine/AddressableAssets/zzzz__AssetReferenceAtlasedSprite_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::AssetReferenceAtlasedSprite::*)(::StringW)>(
     &::UnityEngine::AddressableAssets::AssetReferenceAtlasedSprite::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2f585a8;
+  constexpr static std::size_t addrs = 0x3059ea8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::AddressableAssets::AssetReferenceAtlasedSprite::*)(::UnityEngine::Object*)>(
     &::UnityEngine::AddressableAssets::AssetReferenceAtlasedSprite::ValidateAsset)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x2f58600;
+  constexpr static std::size_t addrs = 0x3059f00;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::AddressableAssets::AssetReferenceAtlasedSprite::*)(::StringW)>(
     &::UnityEngine::AddressableAssets::AssetReferenceAtlasedSprite::ValidateAsset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2f58678;
+  constexpr static std::size_t addrs = 0x3059f78;
 
   inline static ::MethodInfo const* methodInfo() {
 

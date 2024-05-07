@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ProBuilder/TriggerBehaviour.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,18 +25,18 @@ namespace UnityEngine::ProBuilder {
 class CORDL_TYPE TriggerBehaviour : public ::UnityEngine::ProBuilder::EntityBehaviour {
 public:
   // Declarations
-  /// @brief Method Initialize, addr 0x30ad5f8, size 0x19c, virtual true, abstract: false, final false
+  /// @brief Method Initialize, addr 0x32b5080, size 0x19c, virtual true, abstract: false, final false
   inline void Initialize();
 
   static inline ::UnityEngine::ProBuilder::TriggerBehaviour* New_ctor();
 
-  /// @brief Method OnEnterPlayMode, addr 0x30ad794, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method OnEnterPlayMode, addr 0x32b521c, size 0xb8, virtual true, abstract: false, final false
   inline void OnEnterPlayMode();
 
-  /// @brief Method OnSceneLoaded, addr 0x30ad84c, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method OnSceneLoaded, addr 0x32b52d4, size 0xb8, virtual true, abstract: false, final false
   inline void OnSceneLoaded(::UnityEngine::SceneManagement::Scene scene, ::UnityEngine::SceneManagement::LoadSceneMode mode);
 
-  /// @brief Method .ctor, addr 0x30ad904, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32b538c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

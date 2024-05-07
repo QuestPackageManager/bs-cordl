@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/ExceptionType.hpp"
 #include "System/Xml/zzzz__ExceptionType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Xml::ExceptionType::ExceptionType(int32_t value__) noexcept {

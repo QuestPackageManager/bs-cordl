@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Globalization/CompareOptions.hpp"
 #include "System/Globalization/zzzz__CompareOptions_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Globalization::CompareOptions::CompareOptions(int32_t value__) noexcept {

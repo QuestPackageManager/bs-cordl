@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/ExceptionServices/ExceptionDispatchInfo.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,15 +35,15 @@ public:
   /// @brief Field m_stackTrace, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_stackTrace, put = __cordl_internal_set_m_stackTrace))::System::Object* m_stackTrace;
 
-  /// @brief Method Capture, addr 0x275bd14, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Capture, addr 0x285b424, size 0xcc, virtual false, abstract: false, final false
   static inline ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* Capture(::System::Exception* source);
 
   static inline ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* New_ctor(::System::Exception* exception);
 
-  /// @brief Method Throw, addr 0x275bde8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Throw, addr 0x285b4f8, size 0x44, virtual false, abstract: false, final false
   inline void Throw();
 
-  /// @brief Method Throw, addr 0x275be2c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Throw, addr 0x285b53c, size 0x18, virtual false, abstract: false, final false
   static inline void Throw(::System::Exception* source);
 
   constexpr ::System::Exception*& __cordl_internal_get_m_Exception();
@@ -57,13 +58,13 @@ public:
 
   constexpr void __cordl_internal_set_m_stackTrace(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x275bbe4, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x285b2f4, size 0x128, virtual false, abstract: false, final false
   inline void _ctor(::System::Exception* exception);
 
-  /// @brief Method get_BinaryStackTraceArray, addr 0x275bd0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BinaryStackTraceArray, addr 0x285b41c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_BinaryStackTraceArray();
 
-  /// @brief Method get_SourceException, addr 0x275bde0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SourceException, addr 0x285b4f0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Exception* get_SourceException();
 
 protected:

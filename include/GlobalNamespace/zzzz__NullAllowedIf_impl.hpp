@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/NullAllowedIf.hpp"
 #include "GlobalNamespace/zzzz__ComparisonOperation_impl.hpp"
 #include "GlobalNamespace/zzzz__NullAllowed_impl.hpp"
 #include "GlobalNamespace/zzzz__NullAllowedIf_def.hpp"
@@ -11,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NullAllowedIf::*)(::StringW, ::System::Object*, ::GlobalNamespace::__NullAllowed__Context)>(
     &::GlobalNamespace::NullAllowedIf::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0xf814a0;
+  constexpr static std::size_t addrs = 0x1072a50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NullAllowedIf::*)(
     ::StringW, ::GlobalNamespace::ComparisonOperation, ::System::Object*, ::GlobalNamespace::__NullAllowed__Context)>(&::GlobalNamespace::NullAllowedIf::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0xf814e0;
+  constexpr static std::size_t addrs = 0x1072a90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -45,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::NullAllowedIf::*)(::System::Object*, ::GlobalNamespace::__NullAllowed__Context)>(
     &::GlobalNamespace::NullAllowedIf::IsNullAllowedFor)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0xf81524;
+  constexpr static std::size_t addrs = 0x1072ad4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

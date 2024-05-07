@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Collections/Generic/ValueListBuilder_1.hpp"
 #include "System/zzzz__Span_1_impl.hpp"
 #include "System/Collections/Generic/zzzz__ValueListBuilder_1_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
@@ -13,12 +14,6 @@ template <typename T> inline int32_t System::Collections::Generic::ValueListBuil
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::ValueListBuilder_1<T>>::get(),
                                                                              "get_Length", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
-}
-template <typename T> inline ByRef<T> System::Collections::Generic::ValueListBuilder_1<T>::get_Item(int32_t index) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::ValueListBuilder_1<T>>::get(), "get_Item",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<ByRef<T>, false>(this, ___internal_method, index);
 }
 template <typename T> inline void System::Collections::Generic::ValueListBuilder_1<T>::Append(T item) {
   static auto* ___internal_method =
@@ -40,11 +35,6 @@ template <typename T> inline void System::Collections::Generic::ValueListBuilder
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::ValueListBuilder_1<T>>::get(),
                                                                              "Grow", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-template <typename T> inline T System::Collections::Generic::ValueListBuilder_1<T>::Pop() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::ValueListBuilder_1<T>>::get(),
-                                                                             "Pop", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<T, false>(this, ___internal_method);
 }
 // Ctor Parameters [CppParam { name: "_span", ty: "::System::Span_1<T>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_arrayFromPool", ty: "::ArrayW<T,::Array<T>*>", modifiers: "",
 // def_value: Some("nullptr") }, CppParam { name: "_pos", ty: "int32_t", modifiers: "", def_value: Some("{}") }]

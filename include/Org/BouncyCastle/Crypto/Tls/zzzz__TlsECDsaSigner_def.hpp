@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/TlsECDsaSigner.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,18 +28,18 @@ public:
   // Declarations
   __declspec(property(get = get_SignatureAlgorithm)) uint8_t SignatureAlgorithm;
 
-  /// @brief Method CreateDsaImpl, addr 0x1117dd8, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method CreateDsaImpl, addr 0x120b4fc, size 0xc8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::IDsa* CreateDsaImpl(uint8_t hashAlgorithm);
 
-  /// @brief Method IsValidPublicKey, addr 0x1117d60, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method IsValidPublicKey, addr 0x120b484, size 0x78, virtual true, abstract: false, final false
   inline bool IsValidPublicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsECDsaSigner* New_ctor();
 
-  /// @brief Method .ctor, addr 0x111614c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1209870, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_SignatureAlgorithm, addr 0x1118078, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SignatureAlgorithm, addr 0x120b79c, size 0x8, virtual true, abstract: false, final false
   inline uint8_t get_SignatureAlgorithm();
 
 protected:

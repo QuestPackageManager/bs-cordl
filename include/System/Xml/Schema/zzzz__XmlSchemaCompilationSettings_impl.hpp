@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaCompilationSettings.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaCompilationSettings_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::XmlSchemaCompilationSettings._ctor
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaCompilationSettings::*)()>(
     &::System::Xml::Schema::XmlSchemaCompilationSettings::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2d12150;
+  constexpr static std::size_t addrs = 0x2e0fa50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaCompilationSettings*>::get(),
@@ -21,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::XmlSchemaCompilationSettings::*)()>(
     &::System::Xml::Schema::XmlSchemaCompilationSettings::get_EnableUpaCheck)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2d12170;
+  constexpr static std::size_t addrs = 0x2e0fa70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaCompilationSettings*>::get(),

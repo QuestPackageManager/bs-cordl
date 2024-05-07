@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/DefaultJsonNameTable.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set_Value(::StringW value);
 
-  /// @brief Method .ctor, addr 0x28c3834, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29c20e4, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::StringW value, int32_t hashCode, ::Newtonsoft::Json::__DefaultJsonNameTable__Entry* next);
 
 protected:
@@ -119,21 +120,21 @@ public:
   /// @brief Field _mask, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__mask, put = __cordl_internal_set__mask)) int32_t _mask;
 
-  /// @brief Method Add, addr 0x28c3570, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x29c1e20, size 0x1b8, virtual false, abstract: false, final false
   inline ::StringW Add(::StringW key);
 
-  /// @brief Method AddEntry, addr 0x28c3728, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method AddEntry, addr 0x29c1fd8, size 0x10c, virtual false, abstract: false, final false
   inline ::StringW AddEntry(::StringW str, int32_t hashCode);
 
-  /// @brief Method Get, addr 0x28c3334, size 0x18c, virtual true, abstract: false, final false
+  /// @brief Method Get, addr 0x29c1be4, size 0x18c, virtual true, abstract: false, final false
   inline ::StringW Get(::ArrayW<char16_t, ::Array<char16_t>*> key, int32_t start, int32_t length);
 
-  /// @brief Method Grow, addr 0x28c3874, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method Grow, addr 0x29c2124, size 0x128, virtual false, abstract: false, final false
   inline void Grow();
 
   static inline ::Newtonsoft::Json::DefaultJsonNameTable* New_ctor();
 
-  /// @brief Method TextEquals, addr 0x28c34c0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method TextEquals, addr 0x29c1d70, size 0xb0, virtual false, abstract: false, final false
   static inline bool TextEquals(::StringW str1, ::ArrayW<char16_t, ::Array<char16_t>*> str2, int32_t str2Start, int32_t str2Length);
 
   constexpr int32_t const& __cordl_internal_get__count() const;
@@ -154,7 +155,7 @@ public:
 
   constexpr void __cordl_internal_set__mask(int32_t value);
 
-  /// @brief Method .ctor, addr 0x28c32c4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29c1b74, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_HashCodeRandomizer();

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/TitleViewController.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "HMUI/zzzz__TitleViewController_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
@@ -7,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::TitleViewController::*)(::StringW)>(&::HMUI::TitleViewController::SetText)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x241607c;
+  constexpr static std::size_t addrs = 0x250fd08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -21,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::TitleViewController::*)()>(&::HMUI::TitleViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24160a0;
+  constexpr static std::size_t addrs = 0x250fd2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::TitleViewController*>::get(), ".ctor",

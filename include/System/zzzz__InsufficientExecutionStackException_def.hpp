@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/InsufficientExecutionStackException.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,10 +29,10 @@ public:
 
   static inline ::System::InsufficientExecutionStackException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x282f408, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x292db28, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x282f464, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x292db84, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
 protected:

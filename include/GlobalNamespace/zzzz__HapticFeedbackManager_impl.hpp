@@ -1,7 +1,7 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/HapticFeedbackManager.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__HapticFeedbackManager_def.hpp"
-#include "GlobalNamespace/zzzz__BoolSO_def.hpp"
 #include "GlobalNamespace/zzzz__IHapticFeedbackPlayer_def.hpp"
 #include "GlobalNamespace/zzzz__RumbleHapticFeedbackPlayer_def.hpp"
 #include "Libraries/HM/HMLib/VR/zzzz__HapticPresetSO_def.hpp"
@@ -11,8 +11,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HapticFeedbackManager::*)(
     ::UnityEngine::XR::XRNode, ::Libraries::HM::HMLib::VR::HapticPresetSO*)>(&::GlobalNamespace::HapticFeedbackManager::PlayHapticFeedback)> {
-  constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x23e1234;
+  constexpr static std::size_t size = 0x16c;
+  constexpr static std::size_t addrs = 0x24d8e38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HapticFeedbackManager::*)()>(&::GlobalNamespace::HapticFeedbackManager::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23e147c;
+  constexpr static std::size_t addrs = 0x24d906c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HapticFeedbackManager*>::get(), ".ctor",
@@ -35,18 +35,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::GlobalNamespace::BoolSO>& GlobalNamespace::HapticFeedbackManager::__cordl_internal_get__controllersRumbleEnabled() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____controllersRumbleEnabled;
-}
-constexpr ::UnityW<::GlobalNamespace::BoolSO> const& GlobalNamespace::HapticFeedbackManager::__cordl_internal_get__controllersRumbleEnabled() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____controllersRumbleEnabled;
-}
-constexpr void GlobalNamespace::HapticFeedbackManager::__cordl_internal_set__controllersRumbleEnabled(::UnityW<::GlobalNamespace::BoolSO> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____controllersRumbleEnabled)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
 constexpr ::UnityW<::GlobalNamespace::RumbleHapticFeedbackPlayer>& GlobalNamespace::HapticFeedbackManager::__cordl_internal_get__rumbleHapticFeedbackPlayer() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rumbleHapticFeedbackPlayer;
@@ -70,6 +58,18 @@ constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IHapticFeedback
 constexpr void GlobalNamespace::HapticFeedbackManager::__cordl_internal_set__advancedHapticFeedbackPlayer(::GlobalNamespace::IHapticFeedbackPlayer* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____advancedHapticFeedbackPlayer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr bool& GlobalNamespace::HapticFeedbackManager::__cordl_internal_get_hapticFeedbackEnabled() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___hapticFeedbackEnabled;
+}
+constexpr bool const& GlobalNamespace::HapticFeedbackManager::__cordl_internal_get_hapticFeedbackEnabled() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___hapticFeedbackEnabled;
+}
+constexpr void GlobalNamespace::HapticFeedbackManager::__cordl_internal_set_hapticFeedbackEnabled(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___hapticFeedbackEnabled = value;
 }
 inline void GlobalNamespace::HapticFeedbackManager::PlayHapticFeedback(::UnityEngine::XR::XRNode node, ::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

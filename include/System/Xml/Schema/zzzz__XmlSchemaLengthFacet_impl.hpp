@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaLengthFacet.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaNumericFacet_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaLengthFacet_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::XmlSchemaLengthFacet._ctor
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaLengthFacet::*)()>(&::System::Xml::Schema::XmlSchemaLengthFacet::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2d15834;
+  constexpr static std::size_t addrs = 0x2e13134;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaLengthFacet*>::get(), ".ctor",

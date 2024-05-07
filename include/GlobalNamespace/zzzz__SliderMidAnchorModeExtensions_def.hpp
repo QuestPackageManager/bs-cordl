@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SliderMidAnchorModeExtensions.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,7 +22,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE SliderMidAnchorModeExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method OppositeDirection, addr 0xf4a4b0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OppositeDirection, addr 0x1039024, size 0x1c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::SliderMidAnchorMode OppositeDirection(::GlobalNamespace::SliderMidAnchorMode sliderMidAnchorMode);
 
 protected:

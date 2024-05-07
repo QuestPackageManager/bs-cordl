@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HEU_PartData.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -210,10 +211,10 @@ public:
 
   static inline ::HoudiniEngineUnity::__HEU_PartData____c* New_ctor();
 
-  /// @brief Method <CopyGameObjectComponents>b__85_0, addr 0x24696f4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <CopyGameObjectComponents>b__85_0, addr 0x2563380, size 0x18, virtual false, abstract: false, final false
   inline int32_t _CopyGameObjectComponents_b__85_0(::UnityEngine::LOD a, ::UnityEngine::LOD b);
 
-  /// @brief Method .ctor, addr 0x24696ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2563378, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::HoudiniEngineUnity::__HEU_PartData____c* getStaticF___9();
@@ -258,7 +259,7 @@ public:
 
   static inline ::HoudiniEngineUnity::__HEU_PartData____c__DisplayClass86_0* New_ctor();
 
-  /// @brief Method <CopyChildGameObjects>b__0, addr 0x246970c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method <CopyChildGameObjects>b__0, addr 0x2563398, size 0x10c, virtual false, abstract: false, final false
   inline void _CopyChildGameObjects_b__0(::UnityEngine::Transform* trans);
 
   constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::TransformData>*& __cordl_internal_get_previousTransformValues();
@@ -267,7 +268,7 @@ public:
 
   constexpr void __cordl_internal_set_previousTransformValues(::System::Collections::Generic::List_1<::HoudiniEngineUnity::TransformData>* value);
 
-  /// @brief Method .ctor, addr 0x24674b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2561140, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -309,7 +310,7 @@ public:
 
   static inline ::HoudiniEngineUnity::__HEU_PartData____c__DisplayClass88_0* New_ctor();
 
-  /// @brief Method <BakePartToGameObject>b__0, addr 0x2469818, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method <BakePartToGameObject>b__0, addr 0x25634a4, size 0x10c, virtual false, abstract: false, final false
   inline void _BakePartToGameObject_b__0(::UnityEngine::Transform* trans);
 
   constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::TransformData>*& __cordl_internal_get_previousTransformValues();
@@ -318,7 +319,7 @@ public:
 
   constexpr void __cordl_internal_set_previousTransformValues(::System::Collections::Generic::List_1<::HoudiniEngineUnity::TransformData>* value);
 
-  /// @brief Method .ctor, addr 0x2467f24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2561bb0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -360,7 +361,7 @@ public:
 
   static inline ::HoudiniEngineUnity::__HEU_PartData____c__DisplayClass88_1* New_ctor();
 
-  /// @brief Method <BakePartToGameObject>b__1, addr 0x2469924, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method <BakePartToGameObject>b__1, addr 0x25635b0, size 0x10c, virtual false, abstract: false, final false
   inline void _BakePartToGameObject_b__1(::UnityEngine::Transform* trans);
 
   constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::TransformData>*& __cordl_internal_get_previousTransformValues();
@@ -369,7 +370,7 @@ public:
 
   constexpr void __cordl_internal_set_previousTransformValues(::System::Collections::Generic::List_1<::HoudiniEngineUnity::TransformData>* value);
 
-  /// @brief Method .ctor, addr 0x2467f2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2561bb8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -501,64 +502,64 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>*() noexcept;
 
-  /// @brief Method AppendBakedCloneName, addr 0x24675fc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method AppendBakedCloneName, addr 0x2561288, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW AppendBakedCloneName(::StringW name);
 
-  /// @brief Method ApplyHAPITransform, addr 0x2463234, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method ApplyHAPITransform, addr 0x255cec0, size 0x168, virtual false, abstract: false, final false
   inline void ApplyHAPITransform(ByRef<::HoudiniEngineUnity::HAPI_Transform> hapiTransform);
 
-  /// @brief Method BakePartToGameObject, addr 0x246772c, size 0x7f8, virtual false, abstract: false, final false
+  /// @brief Method BakePartToGameObject, addr 0x25613b8, size 0x7f8, virtual false, abstract: false, final false
   static inline void BakePartToGameObject(::HoudiniEngineUnity::HEU_PartData* partData, ::UnityEngine::GameObject* srcGO, ::UnityEngine::GameObject* targetGO, ::StringW assetName, bool bIsInstancer,
                                           bool bDeleteExistingComponents, bool bDontDeletePersistantResources, bool bWriteMeshesToAssetDatabase, ByRef<::StringW> bakedAssetPath,
                                           ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Mesh>, ::UnityW<::UnityEngine::Mesh>>* sourceToTargetMeshMap,
                                           ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Material>, ::UnityW<::UnityEngine::Material>>* sourceToCopiedMaterials,
                                           ByRef<::UnityEngine::Object*> assetDBObject, ::StringW assetObjectFileName, bool bReconnectPrefabInstances, bool bKeepPreviousTransformValues);
 
-  /// @brief Method BakePartToGameObject, addr 0x2467648, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method BakePartToGameObject, addr 0x25612d4, size 0xe4, virtual false, abstract: false, final false
   inline void BakePartToGameObject(::UnityEngine::GameObject* targetGO, bool bDeleteExistingComponents, bool bDontDeletePersistantResources, bool bWriteMeshesToAssetDatabase,
                                    ByRef<::StringW> bakedAssetPath, ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Mesh>, ::UnityW<::UnityEngine::Mesh>>* sourceToTargetMeshMap,
                                    ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Material>, ::UnityW<::UnityEngine::Material>>* sourceToCopiedMaterials,
                                    ByRef<::UnityEngine::Object*> assetDBObject, ::StringW assetObjectFileName, bool bReconnectPrefabInstances, bool bKeepPreviousTransformValues);
 
-  /// @brief Method BakePartToNewGameObject, addr 0x24674bc, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method BakePartToNewGameObject, addr 0x2561148, size 0x140, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject>
   BakePartToNewGameObject(::UnityEngine::Transform* parentTransform, bool bWriteMeshesToAssetDatabase, ByRef<::StringW> bakedAssetPath,
                           ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Mesh>, ::UnityW<::UnityEngine::Mesh>>* sourceToTargetMeshMap,
                           ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Material>, ::UnityW<::UnityEngine::Material>>* sourceToCopiedMaterials,
                           ByRef<::UnityEngine::Object*> assetDBObject, ::StringW assetObjectFileName, bool bReconnectPrefabInstances);
 
-  /// @brief Method CalculateColliderState, addr 0x2464fe0, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method CalculateColliderState, addr 0x255ec6c, size 0x2d8, virtual false, abstract: false, final false
   inline void CalculateColliderState();
 
-  /// @brief Method CalculateVisibility, addr 0x2464f94, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method CalculateVisibility, addr 0x255ec20, size 0x30, virtual false, abstract: false, final false
   inline void CalculateVisibility(bool bParentVisibility, bool bParentDisplayGeo);
 
-  /// @brief Method ClearGeneratedData, addr 0x2463a2c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method ClearGeneratedData, addr 0x255d6b8, size 0x18, virtual false, abstract: false, final false
   inline void ClearGeneratedData();
 
-  /// @brief Method ClearGeneratedMeshOutput, addr 0x2463a44, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method ClearGeneratedMeshOutput, addr 0x255d6d0, size 0x88, virtual false, abstract: false, final false
   inline void ClearGeneratedMeshOutput();
 
-  /// @brief Method ClearGeneratedVolumeOutput, addr 0x2463acc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method ClearGeneratedVolumeOutput, addr 0x255d758, size 0x34, virtual false, abstract: false, final false
   inline void ClearGeneratedVolumeOutput();
 
-  /// @brief Method ClearInstances, addr 0x2461bf0, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method ClearInstances, addr 0x255b87c, size 0x110, virtual false, abstract: false, final false
   inline void ClearInstances();
 
-  /// @brief Method ClearInvalidObjectInstanceInfos, addr 0x2461d00, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method ClearInvalidObjectInstanceInfos, addr 0x255b98c, size 0x200, virtual false, abstract: false, final false
   inline void ClearInvalidObjectInstanceInfos();
 
-  /// @brief Method ClearObjectInstanceInfos, addr 0x2463090, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method ClearObjectInstanceInfos, addr 0x255cd1c, size 0xcc, virtual false, abstract: false, final false
   inline void ClearObjectInstanceInfos();
 
-  /// @brief Method CopyChildGameObjects, addr 0x2467098, size 0x41c, virtual false, abstract: false, final false
+  /// @brief Method CopyChildGameObjects, addr 0x2560d24, size 0x41c, virtual false, abstract: false, final false
   static inline void CopyChildGameObjects(::HoudiniEngineUnity::HEU_PartData* partData, ::UnityEngine::GameObject* sourceGO, ::UnityEngine::GameObject* targetGO, ::StringW assetName,
                                           ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Mesh>, ::UnityW<::UnityEngine::Mesh>>* sourceToTargetMeshMap,
                                           ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Material>, ::UnityW<::UnityEngine::Material>>* sourceToCopiedMaterials,
                                           bool bWriteMeshesToAssetDatabase, ByRef<::StringW> bakedAssetPath, ByRef<::UnityEngine::Object*> assetDBObject, ::StringW assetObjectFileName,
                                           bool bDeleteExistingComponents, bool bDontDeletePersistantResources, bool bKeepPreviousTransformValues);
 
-  /// @brief Method CopyGameObjectComponents, addr 0x24652b8, size 0x1de0, virtual false, abstract: false, final false
+  /// @brief Method CopyGameObjectComponents, addr 0x255ef44, size 0x1de0, virtual false, abstract: false, final false
   static inline void CopyGameObjectComponents(::HoudiniEngineUnity::HEU_PartData* partData, ::UnityEngine::GameObject* sourceGO, ::UnityEngine::GameObject* targetGO, ::StringW assetName,
                                               ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Mesh>, ::UnityW<::UnityEngine::Mesh>>* sourceToTargetMeshMap,
                                               ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Material>, ::UnityW<::UnityEngine::Material>>* sourceToCopiedMaterials,
@@ -566,168 +567,168 @@ public:
                                               bool bDeleteExistingComponents, bool bDontDeletePersistantResources,
                                               ::System::Collections::Generic::List_1<::HoudiniEngineUnity::TransformData>* lodTransformValues);
 
-  /// @brief Method CreateNewInstanceFromObject, addr 0x2464304, size 0x408, virtual false, abstract: false, final false
+  /// @brief Method CreateNewInstanceFromObject, addr 0x255df90, size 0x408, virtual false, abstract: false, final false
   inline void CreateNewInstanceFromObject(::UnityEngine::GameObject* sourceObject, int32_t instanceIndex, ::UnityEngine::Transform* parentTransform,
                                           ByRef<::HoudiniEngineUnity::HAPI_Transform> hapiTransform, int32_t instancedObjectNodeID, ::StringW instancedObjectPath,
                                           ::UnityEngine::Vector3 rotationOffset, ::UnityEngine::Vector3 scaleOffset, ::ArrayW<::StringW, ::Array<::StringW>*> instancePrefixes,
                                           ::UnityEngine::GameObject* collisionSrcGO, bool copyParentFlags);
 
-  /// @brief Method CreateObjectInstanceInfo, addr 0x2464ae4, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method CreateObjectInstanceInfo, addr 0x255e770, size 0x18c, virtual false, abstract: false, final false
   inline ::UnityW<::HoudiniEngineUnity::HEU_ObjectInstanceInfo> CreateObjectInstanceInfo(::UnityEngine::GameObject* instancedObject, int32_t instancedObjectNodeID, ::StringW instancedObjectPath);
 
-  /// @brief Method DestroyAllData, addr 0x2462f5c, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method DestroyAllData, addr 0x255cbe8, size 0x134, virtual false, abstract: false, final false
   inline void DestroyAllData();
 
-  /// @brief Method DestroyAttributesStore, addr 0x246315c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method DestroyAttributesStore, addr 0x255cde8, size 0xd8, virtual false, abstract: false, final false
   inline void DestroyAttributesStore();
 
-  /// @brief Method DestroyPart, addr 0x245ecf4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method DestroyPart, addr 0x2558980, size 0x2c, virtual false, abstract: false, final false
   static inline void DestroyPart(::HoudiniEngineUnity::HEU_PartData* part);
 
-  /// @brief Method DestroyParts, addr 0x246902c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method DestroyParts, addr 0x2562cb8, size 0xd4, virtual false, abstract: false, final false
   static inline void DestroyParts(::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>* parts);
 
-  /// @brief Method GenerateAttributesStore, addr 0x2464c70, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GenerateAttributesStore, addr 0x255e8fc, size 0xb4, virtual false, abstract: false, final false
   inline void GenerateAttributesStore(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method GenerateInstancesFromObject, addr 0x246470c, size 0x300, virtual false, abstract: false, final false
+  /// @brief Method GenerateInstancesFromObject, addr 0x255e398, size 0x300, virtual false, abstract: false, final false
   inline void GenerateInstancesFromObject(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_ObjectNode* sourceObject,
                                           ::ArrayW<::StringW, ::Array<::StringW>*> instancePrefixes);
 
-  /// @brief Method GenerateInstancesFromObjectID, addr 0x2461698, size 0x3d4, virtual false, abstract: false, final false
+  /// @brief Method GenerateInstancesFromObjectID, addr 0x255b324, size 0x3d4, virtual false, abstract: false, final false
   inline void GenerateInstancesFromObjectID(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t objectNodeID, ::ArrayW<::StringW, ::Array<::StringW>*> instancePrefixes);
 
-  /// @brief Method GenerateInstancesFromObjectIds, addr 0x2460408, size 0x600, virtual false, abstract: false, final false
+  /// @brief Method GenerateInstancesFromObjectIds, addr 0x255a094, size 0x600, virtual false, abstract: false, final false
   inline void GenerateInstancesFromObjectIds(::HoudiniEngineUnity::HEU_SessionBase* session, ::ArrayW<::StringW, ::Array<::StringW>*> instancePrefixes);
 
-  /// @brief Method GenerateInstancesFromUnityAssetPathAttribute, addr 0x2460a08, size 0xc90, virtual false, abstract: false, final false
+  /// @brief Method GenerateInstancesFromUnityAssetPathAttribute, addr 0x255a694, size 0xc90, virtual false, abstract: false, final false
   inline void GenerateInstancesFromUnityAssetPathAttribute(::HoudiniEngineUnity::HEU_SessionBase* session, ::StringW unityInstanceAttr);
 
-  /// @brief Method GenerateMesh, addr 0x245e908, size 0x3ec, virtual false, abstract: false, final false
+  /// @brief Method GenerateMesh, addr 0x2558594, size 0x3ec, virtual false, abstract: false, final false
   inline bool GenerateMesh(::HoudiniEngineUnity::HEU_SessionBase* session, bool bGenerateUVs, bool bGenerateTangents, bool bGenerateNormals, bool bUseLODGroups);
 
-  /// @brief Method GeneratePartInstances, addr 0x2463b00, size 0x738, virtual false, abstract: false, final false
+  /// @brief Method GeneratePartInstances, addr 0x255d78c, size 0x738, virtual false, abstract: false, final false
   inline void GeneratePartInstances(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method GetClonableObjects, addr 0x24635ec, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetClonableObjects, addr 0x255d278, size 0x100, virtual false, abstract: false, final false
   inline void GetClonableObjects(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* clonableObjects);
 
-  /// @brief Method GetClonableParts, addr 0x24636ec, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method GetClonableParts, addr 0x255d378, size 0xf8, virtual false, abstract: false, final false
   inline void GetClonableParts(::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>* clonableParts);
 
-  /// @brief Method GetCurve, addr 0x2464d24, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetCurve, addr 0x255e9b0, size 0x98, virtual false, abstract: false, final false
   inline ::UnityW<::HoudiniEngineUnity::HEU_Curve> GetCurve(bool bEditableOnly);
 
-  /// @brief Method GetDebugInfo, addr 0x246339c, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method GetDebugInfo, addr 0x255d028, size 0x22c, virtual false, abstract: false, final false
   inline void GetDebugInfo(::System::Text::StringBuilder* sb);
 
-  /// @brief Method GetHDAPartWithGameObject, addr 0x246399c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetHDAPartWithGameObject, addr 0x255d628, size 0x84, virtual false, abstract: false, final false
   inline ::UnityW<::HoudiniEngineUnity::HEU_PartData> GetHDAPartWithGameObject(::UnityEngine::GameObject* inGameObject);
 
-  /// @brief Method GetObjectInstanceInfoWithObjectID, addr 0x2464238, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetObjectInstanceInfoWithObjectID, addr 0x255dec4, size 0xcc, virtual false, abstract: false, final false
   inline ::UnityW<::HoudiniEngineUnity::HEU_ObjectInstanceInfo> GetObjectInstanceInfoWithObjectID(int32_t objNodeID);
 
-  /// @brief Method GetObjectInstanceInfoWithObjectPath, addr 0x2464a0c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetObjectInstanceInfoWithObjectPath, addr 0x255e698, size 0xd8, virtual false, abstract: false, final false
   inline ::UnityW<::HoudiniEngineUnity::HEU_ObjectInstanceInfo> GetObjectInstanceInfoWithObjectPath(::StringW path);
 
-  /// @brief Method GetObjectInstanceInfos, addr 0x2468e08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetObjectInstanceInfos, addr 0x2562a94, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_ObjectInstanceInfo>>* GetObjectInstanceInfos();
 
-  /// @brief Method GetOutput, addr 0x24638e4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetOutput, addr 0x255d570, size 0xb8, virtual false, abstract: false, final false
   inline void GetOutput(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeneratedOutput*>* outputs);
 
-  /// @brief Method GetOutputGameObjects, addr 0x24637e4, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetOutputGameObjects, addr 0x255d470, size 0x100, virtual false, abstract: false, final false
   inline void GetOutputGameObjects(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputObjects);
 
-  /// @brief Method GetPartPointCount, addr 0x2462af4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetPartPointCount, addr 0x255c780, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetPartPointCount();
 
-  /// @brief Method GetVolumeLayerName, addr 0x2462f54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetVolumeLayerName, addr 0x255cbe0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW GetVolumeLayerName();
 
-  /// @brief Method HaveInstancesBeenGenerated, addr 0x2462b40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HaveInstancesBeenGenerated, addr 0x255c7cc, size 0x8, virtual false, abstract: false, final false
   inline bool HaveInstancesBeenGenerated();
 
-  /// @brief Method Initialize, addr 0x2462bfc, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x255c888, size 0x1e4, virtual false, abstract: false, final false
   inline void Initialize(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t partID, int32_t geoID, int32_t objectNodeID, ::HoudiniEngineUnity::HEU_GeoNode* geoNode,
                          ByRef<::HoudiniEngineUnity::HAPI_PartInfo> partInfo, ::HoudiniEngineUnity::__HEU_PartData__PartOutputType partOutputType, bool isEditable, bool isObjectInstancer,
                          bool isAttribInstancer);
 
-  /// @brief Method IsAttribInstancer, addr 0x2462ab8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsAttribInstancer, addr 0x255c744, size 0x8, virtual false, abstract: false, final false
   inline bool IsAttribInstancer();
 
-  /// @brief Method IsEquivalentTo, addr 0x2469100, size 0x588, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x2562d8c, size 0x588, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_PartData* other);
 
-  /// @brief Method IsInstancerAnyType, addr 0x2462ac0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method IsInstancerAnyType, addr 0x255c74c, size 0x2c, virtual false, abstract: false, final false
   inline bool IsInstancerAnyType();
 
-  /// @brief Method IsObjectInstancer, addr 0x2462afc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsObjectInstancer, addr 0x255c788, size 0x8, virtual false, abstract: false, final false
   inline bool IsObjectInstancer();
 
-  /// @brief Method IsPartCurve, addr 0x2462b18, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsPartCurve, addr 0x255c7a4, size 0x10, virtual false, abstract: false, final false
   inline bool IsPartCurve();
 
-  /// @brief Method IsPartEditable, addr 0x2462b38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsPartEditable, addr 0x255c7c4, size 0x8, virtual false, abstract: false, final false
   inline bool IsPartEditable();
 
-  /// @brief Method IsPartInstanced, addr 0x2462aec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsPartInstanced, addr 0x255c778, size 0x8, virtual false, abstract: false, final false
   inline bool IsPartInstanced();
 
-  /// @brief Method IsPartInstancer, addr 0x2462aa8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsPartInstancer, addr 0x255c734, size 0x10, virtual false, abstract: false, final false
   inline bool IsPartInstancer();
 
-  /// @brief Method IsPartMesh, addr 0x2462b28, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsPartMesh, addr 0x255c7b4, size 0x10, virtual false, abstract: false, final false
   inline bool IsPartMesh();
 
-  /// @brief Method IsPartVolume, addr 0x24603f8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsPartVolume, addr 0x255a084, size 0x10, virtual false, abstract: false, final false
   inline bool IsPartVolume();
 
-  /// @brief Method IsUsingMaterial, addr 0x24635c8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method IsUsingMaterial, addr 0x255d254, size 0x24, virtual false, abstract: false, final false
   inline bool IsUsingMaterial(::HoudiniEngineUnity::HEU_MaterialData* materialData);
 
   static inline ::HoudiniEngineUnity::HEU_PartData* New_ctor();
 
-  /// @brief Method PopulateObjectInstanceInfos, addr 0x2462038, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method PopulateObjectInstanceInfos, addr 0x255bcc4, size 0x58, virtual false, abstract: false, final false
   inline void PopulateObjectInstanceInfos(::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_ObjectInstanceInfo>>* objInstanceInfos);
 
-  /// @brief Method ProcessCurvePart, addr 0x2467f34, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method ProcessCurvePart, addr 0x2561bc0, size 0x138, virtual false, abstract: false, final false
   inline void ProcessCurvePart(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method SetColliderState, addr 0x2464fc4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SetColliderState, addr 0x255ec50, size 0x1c, virtual false, abstract: false, final false
   inline void SetColliderState(bool bEnabled);
 
-  /// @brief Method SetGameObject, addr 0x2462f28, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetGameObject, addr 0x255cbb4, size 0x24, virtual false, abstract: false, final false
   inline void SetGameObject(::UnityEngine::GameObject* gameObject);
 
-  /// @brief Method SetGameObjectName, addr 0x2462de0, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method SetGameObjectName, addr 0x255ca6c, size 0x148, virtual false, abstract: false, final false
   inline void SetGameObjectName(::StringW partName);
 
-  /// @brief Method SetObjectInstanceInfos, addr 0x2468c9c, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method SetObjectInstanceInfos, addr 0x2562928, size 0x16c, virtual false, abstract: false, final false
   inline void SetObjectInstanceInfos(::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_ObjectInstanceInfo>>* sourceObjectInstanceInfos);
 
-  /// @brief Method SetObjectInstancer, addr 0x2463a20, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetObjectInstancer, addr 0x255d6ac, size 0xc, virtual false, abstract: false, final false
   inline void SetObjectInstancer(bool bObjectInstancer);
 
-  /// @brief Method SetTerrainData, addr 0x2468e1c, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method SetTerrainData, addr 0x2562aa8, size 0x1a0, virtual false, abstract: false, final false
   inline void SetTerrainData(::UnityEngine::TerrainData* terrainData, ::StringW exportPathRelative, ::StringW exportPathUser);
 
-  /// @brief Method SetTerrainOffsetPosition, addr 0x2468e10, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetTerrainOffsetPosition, addr 0x2562a9c, size 0xc, virtual false, abstract: false, final false
   inline void SetTerrainOffsetPosition(::UnityEngine::Vector3 offsetPosition);
 
-  /// @brief Method SetVisiblity, addr 0x2464dbc, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method SetVisiblity, addr 0x255ea48, size 0x1d8, virtual false, abstract: false, final false
   inline void SetVisiblity(bool bVisibility);
 
-  /// @brief Method SetVolumeLayerName, addr 0x2462f4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetVolumeLayerName, addr 0x255cbd8, size 0x8, virtual false, abstract: false, final false
   inline void SetVolumeLayerName(::StringW name);
 
-  /// @brief Method SetupAttributeGeometry, addr 0x245ee74, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method SetupAttributeGeometry, addr 0x2558b00, size 0xcc, virtual false, abstract: false, final false
   inline void SetupAttributeGeometry(::HoudiniEngineUnity::HEU_SessionBase* session);
 
-  /// @brief Method SyncAttributesStore, addr 0x246806c, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method SyncAttributesStore, addr 0x2561cf8, size 0x128, virtual false, abstract: false, final false
   inline void SyncAttributesStore(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t geoID, ByRef<::HoudiniEngineUnity::HAPI_PartInfo> partInfo);
 
-  /// @brief Method ToString, addr 0x2468fbc, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2562c48, size 0x70, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::UnityW<::UnityEngine::Object> const& __cordl_internal_get__assetDBTerrainData() const;
@@ -863,37 +864,37 @@ public:
 
   constexpr void __cordl_internal_set__volumeLayerName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2462b7c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x255c808, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_GeneratedOutput, addr 0x2462b50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_GeneratedOutput, addr 0x255c7dc, size 0x8, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_GeneratedOutput* get_GeneratedOutput();
 
-  /// @brief Method get_MeshVertexCount, addr 0x2462b48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MeshVertexCount, addr 0x255c7d4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_MeshVertexCount();
 
-  /// @brief Method get_ObjectInstancesBeenGenerated, addr 0x2462b04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectInstancesBeenGenerated, addr 0x255c790, size 0x8, virtual false, abstract: false, final false
   inline bool get_ObjectInstancesBeenGenerated();
 
-  /// @brief Method get_OutputGameObject, addr 0x2462b58, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_OutputGameObject, addr 0x255c7e4, size 0x24, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_OutputGameObject();
 
-  /// @brief Method get_ParentAsset, addr 0x2462a20, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_ParentAsset, addr 0x255c6ac, size 0x88, virtual false, abstract: false, final false
   inline ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> get_ParentAsset();
 
-  /// @brief Method get_ParentGeoNode, addr 0x2462a18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ParentGeoNode, addr 0x255c6a4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HoudiniEngineUnity::HEU_GeoNode> get_ParentGeoNode();
 
-  /// @brief Method get_PartID, addr 0x2462a08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PartID, addr 0x255c694, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_PartID();
 
-  /// @brief Method get_PartName, addr 0x2462a10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PartName, addr 0x255c69c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_PartName();
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>"
   constexpr ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>* i___HoudiniEngineUnity__IEquivable_1___UnityW___HoudiniEngineUnity__HEU_PartData__() noexcept;
 
-  /// @brief Method set_ObjectInstancesBeenGenerated, addr 0x2462b0c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ObjectInstancesBeenGenerated, addr 0x255c798, size 0xc, virtual false, abstract: false, final false
   inline void set_ObjectInstancesBeenGenerated(bool value);
 
 protected:

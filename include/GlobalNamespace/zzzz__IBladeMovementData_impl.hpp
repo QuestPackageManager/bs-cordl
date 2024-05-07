@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IBladeMovementData.hpp"
 #include "GlobalNamespace/zzzz__IBladeMovementData_def.hpp"
 #include "GlobalNamespace/zzzz__BladeMovementDataElement_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IBladeMovementData.get_bladeSpeed

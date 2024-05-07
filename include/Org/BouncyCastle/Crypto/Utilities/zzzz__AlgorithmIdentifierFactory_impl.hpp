@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Utilities/AlgorithmIdentifierFactory.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Utilities/zzzz__AlgorithmIdentifierFactory_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
@@ -11,7 +12,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*, int32_t, ::Org::BouncyCastle::Security::SecureRandom*)>(
         &::Org::BouncyCastle::Crypto::Utilities::AlgorithmIdentifierFactory::GenerateEncryptionAlgID)> {
   constexpr static std::size_t size = 0x55c;
-  constexpr static std::size_t addrs = 0x112c1f0;
+  constexpr static std::size_t addrs = 0x121f914;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -29,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Utilities::AlgorithmIdentifierFactory::*)()>(
     &::Org::BouncyCastle::Crypto::Utilities::AlgorithmIdentifierFactory::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x112c870;
+  constexpr static std::size_t addrs = 0x121ff94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

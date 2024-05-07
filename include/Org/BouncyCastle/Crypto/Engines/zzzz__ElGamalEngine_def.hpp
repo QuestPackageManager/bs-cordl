@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Engines/ElGamalEngine.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,18 +51,18 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*() noexcept;
 
-  /// @brief Method GetInputBlockSize, addr 0x103b648, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GetInputBlockSize, addr 0x112fd6c, size 0x40, virtual true, abstract: false, final false
   inline int32_t GetInputBlockSize();
 
-  /// @brief Method GetOutputBlockSize, addr 0x103b688, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GetOutputBlockSize, addr 0x112fdac, size 0x40, virtual true, abstract: false, final false
   inline int32_t GetOutputBlockSize();
 
-  /// @brief Method Init, addr 0x103b394, size 0x2b4, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x112fab8, size 0x2b4, virtual true, abstract: false, final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::ElGamalEngine* New_ctor();
 
-  /// @brief Method ProcessBlock, addr 0x103b6c8, size 0x52c, virtual true, abstract: false, final false
+  /// @brief Method ProcessBlock, addr 0x112fdec, size 0x52c, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
   constexpr int32_t const& __cordl_internal_get_bitSize() const;
@@ -88,10 +89,10 @@ public:
 
   constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method .ctor, addr 0x103bbf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1130318, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AlgorithmName, addr 0x103b354, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x112fa78, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher"

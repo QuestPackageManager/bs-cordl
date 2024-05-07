@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/NetRes.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,13 +26,13 @@ namespace System::Net {
 class CORDL_TYPE NetRes : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetWebStatusCodeString, addr 0x2edcf30, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method GetWebStatusCodeString, addr 0x2fdf830, size 0x1dc, virtual false, abstract: false, final false
   static inline ::StringW GetWebStatusCodeString(::System::Net::FtpStatusCode statusCode, ::StringW statusDescription);
 
-  /// @brief Method GetWebStatusString, addr 0x2ed2a44, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetWebStatusString, addr 0x2fd5344, size 0xbc, virtual false, abstract: false, final false
   static inline ::StringW GetWebStatusString(::StringW Res, ::System::Net::WebExceptionStatus Status);
 
-  /// @brief Method GetWebStatusString, addr 0x2edced4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetWebStatusString, addr 0x2fdf7d4, size 0x5c, virtual false, abstract: false, final false
   static inline ::StringW GetWebStatusString(::System::Net::WebExceptionStatus Status);
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MultiplayerConnectedPlayerDisappearingArrowController.hpp"
 #include "GlobalNamespace/zzzz__DisappearingArrowControllerBase_1_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerDisappearingArrowController_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerGameNoteController_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController> (
     ::GlobalNamespace::MultiplayerConnectedPlayerDisappearingArrowController::*)()>(&::GlobalNamespace::MultiplayerConnectedPlayerDisappearingArrowController::get_gameNoteController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25f4420;
+  constexpr static std::size_t addrs = 0x26f3238;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerDisappearingArrowController::*)()>(
     &::GlobalNamespace::MultiplayerConnectedPlayerDisappearingArrowController::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x25f4428;
+  constexpr static std::size_t addrs = 0x26f3240;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

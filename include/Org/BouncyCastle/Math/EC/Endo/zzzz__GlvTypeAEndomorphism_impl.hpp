@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Math/EC/Endo/GlvTypeAEndomorphism.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Math/EC/Endo/zzzz__GlvTypeAEndomorphism_def.hpp"
 #include "Org/BouncyCastle/Math/EC/Endo/zzzz__ECEndomorphism_def.hpp"
@@ -13,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::Endo::GlvTypeAEndomorphism::*)(
     ::Org::BouncyCastle::Math::EC::ECCurve*, ::Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters*)>(&::Org::BouncyCastle::Math::EC::Endo::GlvTypeAEndomorphism::_ctor)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x11a44b0;
+  constexpr static std::size_t addrs = 0x1295bd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> (
     ::Org::BouncyCastle::Math::EC::Endo::GlvTypeAEndomorphism::*)(::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Math::EC::Endo::GlvTypeAEndomorphism::DecomposeScalar)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x11a4568;
+  constexpr static std::size_t addrs = 0x1295c8c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -45,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECPointMap* (::Org::BouncyCastle::Math::EC::Endo::GlvTypeAEndomorphism::*)()>(
     &::Org::BouncyCastle::Math::EC::Endo::GlvTypeAEndomorphism::get_PointMap)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x11a45e4;
+  constexpr static std::size_t addrs = 0x1295d08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -61,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Math::EC::Endo::GlvTypeAEndomorphism::*)()>(
     &::Org::BouncyCastle::Math::EC::Endo::GlvTypeAEndomorphism::get_HasEfficientPointMap)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x11a45ec;
+  constexpr static std::size_t addrs = 0x1295d10;
 
   inline static ::MethodInfo const* methodInfo() {
 

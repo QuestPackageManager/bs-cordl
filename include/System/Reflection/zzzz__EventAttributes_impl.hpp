@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Reflection/EventAttributes.hpp"
 #include "System/Reflection/zzzz__EventAttributes_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Reflection::EventAttributes::EventAttributes(int32_t value__) noexcept {

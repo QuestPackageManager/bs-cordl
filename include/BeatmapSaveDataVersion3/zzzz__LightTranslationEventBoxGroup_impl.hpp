@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatmapSaveDataVersion3/LightTranslationEventBoxGroup.hpp"
 #include "BeatmapSaveDataVersion3/zzzz__EventBoxGroup_1_impl.hpp"
 #include "BeatmapSaveDataVersion3/zzzz__LightTranslationEventBoxGroup_def.hpp"
 #include "BeatmapSaveDataVersion3/zzzz__LightTranslationEventBox_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapSaveDataVersion3::LightTranslationEventBoxGroup::*)(
     float_t, int32_t, ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightTranslationEventBox*>*)>(&::BeatmapSaveDataVersion3::LightTranslationEventBoxGroup::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x1400874;
+  constexpr static std::size_t addrs = 0x14f1e38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatmapSaveDataVersion3::LightTranslationEventBoxGroup* (
     ::BeatmapSaveDataVersion3::LightTranslationEventBoxGroup::*)(::System::Nullable_1<float_t>, ::System::Nullable_1<int32_t>)>(&::BeatmapSaveDataVersion3::LightTranslationEventBoxGroup::CopyWith)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x14008e4;
+  constexpr static std::size_t addrs = 0x14f1ea8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

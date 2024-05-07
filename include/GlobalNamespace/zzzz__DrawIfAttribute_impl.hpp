@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/DrawIfAttribute.hpp"
 #include "GlobalNamespace/zzzz__DrawIfAttribute_impl.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "GlobalNamespace/zzzz__DrawIfAttribute_def.hpp"
@@ -18,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::DrawIfAttribute::*)(::StringW, ::System::Object*, ::GlobalNamespace::__DrawIfAttribute__DisablingType)>(&::GlobalNamespace::DrawIfAttribute::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0xf813d4;
+  constexpr static std::size_t addrs = 0x1072984;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -34,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DrawIfAttribute::*)(
     ::StringW, ::System::Object*, ::System::Object*, ::GlobalNamespace::__DrawIfAttribute__DisablingType)>(&::GlobalNamespace::DrawIfAttribute::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0xf81410;
+  constexpr static std::size_t addrs = 0x10729c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/InputDeviceChange.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputDeviceChange_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::InputSystem::InputDeviceChange::InputDeviceChange(int32_t value__) noexcept {

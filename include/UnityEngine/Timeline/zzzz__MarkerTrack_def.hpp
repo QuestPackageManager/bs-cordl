@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Timeline/MarkerTrack.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,10 +29,10 @@ public:
 
   static inline ::UnityEngine::Timeline::MarkerTrack* New_ctor();
 
-  /// @brief Method .ctor, addr 0x319764c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x339e0d4, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_outputs, addr 0x3197468, size 0x1e4, virtual true, abstract: false, final false
+  /// @brief Method get_outputs, addr 0x339def0, size 0x1e4, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* get_outputs();
 
 protected:

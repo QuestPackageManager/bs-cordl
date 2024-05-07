@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatSaber/AvatarCore/ConnectedPlayerAvatarPoseDataProvider.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -68,7 +69,7 @@ public:
                                                                                          ::GlobalNamespace::INodePoseSyncStateManager* nodePoseSyncStateManager,
                                                                                          ::BeatSaber::AvatarCore::IAvatarPoseRestriction* avatarPoseRestriction);
 
-  /// @brief Method Tick, addr 0xf52ac8, size 0x564, virtual true, abstract: false, final true
+  /// @brief Method Tick, addr 0x104163c, size 0x564, virtual true, abstract: false, final true
   inline void Tick();
 
   constexpr ::BeatSaber::AvatarCore::IAvatarPoseRestriction*& __cordl_internal_get__avatarPoseRestriction();
@@ -101,14 +102,14 @@ public:
 
   constexpr void __cordl_internal_set_poseDidChangeEvent(::System::Action_1<::BeatSaber::AvatarCore::AvatarPoseData>* value);
 
-  /// @brief Method .ctor, addr 0xf52a8c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1041600, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IConnectedPlayer* connectedPlayer, ::GlobalNamespace::INodePoseSyncStateManager* nodePoseSyncStateManager,
                     ::BeatSaber::AvatarCore::IAvatarPoseRestriction* avatarPoseRestriction);
 
-  /// @brief Method add_poseDidChangeEvent, addr 0xf5292c, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_poseDidChangeEvent, addr 0x10414a0, size 0xb0, virtual true, abstract: false, final true
   inline void add_poseDidChangeEvent(::System::Action_1<::BeatSaber::AvatarCore::AvatarPoseData>* value);
 
-  /// @brief Method get_currentPose, addr 0xf5291c, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_currentPose, addr 0x1041490, size 0x10, virtual true, abstract: false, final true
   inline ::BeatSaber::AvatarCore::AvatarPoseData get_currentPose();
 
   /// @brief Convert to "::BeatSaber::AvatarCore::IAvatarPoseDataProvider"
@@ -117,7 +118,7 @@ public:
   /// @brief Convert to "::Zenject::ITickable"
   constexpr ::Zenject::ITickable* i___Zenject__ITickable() noexcept;
 
-  /// @brief Method remove_poseDidChangeEvent, addr 0xf529dc, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_poseDidChangeEvent, addr 0x1041550, size 0xb0, virtual true, abstract: false, final true
   inline void remove_poseDidChangeEvent(::System::Action_1<::BeatSaber::AvatarCore::AvatarPoseData>* value);
 
 protected:

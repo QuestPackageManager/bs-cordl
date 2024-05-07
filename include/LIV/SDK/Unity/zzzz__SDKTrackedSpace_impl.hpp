@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LIV/SDK/Unity/SDKTrackedSpace.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKMatrix4x4_impl.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKQuaternion_impl.hpp"
 #include "LIV/SDK/Unity/zzzz__SDKVector3_impl.hpp"
@@ -11,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LIV::SDK::Unity::SDKTrackedSpace (*)()>(&::LIV::SDK::Unity::SDKTrackedSpace::get_empty)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2503820;
+  constexpr static std::size_t addrs = 0x25fa4ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKTrackedSpace>::get(), "get_empty",
@@ -24,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::LIV::SDK::Unity::SDKTrackedSpace::*)()>(&::LIV::SDK::Unity::SDKTrackedSpace::ToString)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x2503948;
+  constexpr static std::size_t addrs = 0x25fa5d4;
 
   inline static ::MethodInfo const* methodInfo() {
 

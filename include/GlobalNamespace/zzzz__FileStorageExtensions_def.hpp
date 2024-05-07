@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/FileStorageExtensions.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -100,7 +101,7 @@ public:
 
   static inline ::GlobalNamespace::__FileStorageExtensions____c__DisplayClass1_0* New_ctor();
 
-  /// @brief Method <SaveFile>b__0, addr 0xf873f0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method <SaveFile>b__0, addr 0x1079364, size 0xbc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* _SaveFile_b__0();
 
   constexpr ::StringW const& __cordl_internal_get_fileName() const;
@@ -127,7 +128,7 @@ public:
 
   constexpr void __cordl_internal_set_value(::StringW value);
 
-  /// @brief Method .ctor, addr 0xf86eb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1078e28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -189,7 +190,7 @@ public:
 
   static inline ::GlobalNamespace::__FileStorageExtensions____c__DisplayClass2_0* New_ctor();
 
-  /// @brief Method <LoadFile>b__0, addr 0xf874ac, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method <LoadFile>b__0, addr 0x1079420, size 0xb4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::StringW>* _LoadFile_b__0();
 
   constexpr ::StringW const& __cordl_internal_get_fileName() const;
@@ -210,7 +211,7 @@ public:
 
   constexpr void __cordl_internal_set_storageLocation(::GlobalNamespace::StoragePreference value);
 
-  /// @brief Method .ctor, addr 0xf86f94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1078f08, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -267,7 +268,7 @@ public:
 
   static inline ::GlobalNamespace::__FileStorageExtensions____c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method <FileExists>b__0, addr 0xf87560, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method <FileExists>b__0, addr 0x10794d4, size 0xb4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* _FileExists_b__0();
 
   constexpr ::StringW const& __cordl_internal_get_fileName() const;
@@ -288,7 +289,7 @@ public:
 
   constexpr void __cordl_internal_set_storageLocation(::GlobalNamespace::StoragePreference value);
 
-  /// @brief Method .ctor, addr 0xf87074, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1078fe8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -345,7 +346,7 @@ public:
 
   static inline ::GlobalNamespace::__FileStorageExtensions____c__DisplayClass4_0* New_ctor();
 
-  /// @brief Method <DeleteFile>b__0, addr 0xf87614, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method <DeleteFile>b__0, addr 0x1079588, size 0xb4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* _DeleteFile_b__0();
 
   constexpr ::StringW const& __cordl_internal_get_fileName() const;
@@ -366,7 +367,7 @@ public:
 
   constexpr void __cordl_internal_set_storageLocation(::GlobalNamespace::StoragePreference value);
 
-  /// @brief Method .ctor, addr 0xf87140, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10790b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -481,13 +482,13 @@ public:
 
   using __c__DisplayClass4_0 = ::GlobalNamespace::__FileStorageExtensions____c__DisplayClass4_0;
 
-  /// @brief Method DeleteFile, addr 0xf8707c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method DeleteFile, addr 0x1078ff0, size 0xc4, virtual false, abstract: false, final false
   static inline void DeleteFile(::GlobalNamespace::IFileStorage* fileStorage, ::StringW fileName, ::GlobalNamespace::StoragePreference storageLocation);
 
-  /// @brief Method FileExists, addr 0xf86f9c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method FileExists, addr 0x1078f10, size 0xd8, virtual false, abstract: false, final false
   static inline bool FileExists(::GlobalNamespace::IFileStorage* fileStorage, ::StringW fileName, ::GlobalNamespace::StoragePreference storageLocation);
 
-  /// @brief Method LoadFile, addr 0xf86ebc, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method LoadFile, addr 0x1078e30, size 0xd8, virtual false, abstract: false, final false
   static inline ::StringW LoadFile(::GlobalNamespace::IFileStorage* fileStorage, ::StringW fileName, ::GlobalNamespace::StoragePreference storageLocation);
 
   /// @brief Method LoadFromJSONFile, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -497,14 +498,14 @@ public:
   template <typename T>
   static inline ::System::Threading::Tasks::Task_1<T>* LoadFromJSONFileAsync(::GlobalNamespace::IFileStorage* fileStorage, ::StringW fileName, ::GlobalNamespace::StoragePreference storageLocation);
 
-  /// @brief Method SaveFile, addr 0xf86de0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SaveFile, addr 0x1078d54, size 0xd4, virtual false, abstract: false, final false
   static inline void SaveFile(::GlobalNamespace::IFileStorage* fileStorage, ::StringW fileName, ::StringW value, ::GlobalNamespace::StoragePreference storageLocation);
 
-  /// @brief Method SaveToJSONFile, addr 0xf87148, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method SaveToJSONFile, addr 0x10790bc, size 0x174, virtual false, abstract: false, final false
   static inline void SaveToJSONFile(::GlobalNamespace::IFileStorage* fileStorage, ::System::Object* obj, ::StringW fileName, ::GlobalNamespace::StoragePreference storageLocation,
                                     ::Newtonsoft::Json::JsonSerializerSettings* overrideSerializerSettings);
 
-  /// @brief Method SaveToJSONFileAsync, addr 0xf872bc, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method SaveToJSONFileAsync, addr 0x1079230, size 0x134, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* SaveToJSONFileAsync(::GlobalNamespace::IFileStorage* fileStorage, ::System::Object* obj, ::StringW fileName,
                                                                       ::GlobalNamespace::StoragePreference storageLocation, ::Newtonsoft::Json::JsonSerializerSettings* overrideSerializerSettings);
 

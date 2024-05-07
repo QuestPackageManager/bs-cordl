@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Cms/DefaultSignatureAlgorithmIdentifierFinder.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -79,18 +80,18 @@ public:
   /// @brief Field pkcs15RsaEncryption, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_pkcs15RsaEncryption, put = setStaticF_pkcs15RsaEncryption))::Org::BouncyCastle::Utilities::Collections::ISet* pkcs15RsaEncryption;
 
-  /// @brief Method CreatePssParams, addr 0x1368dec, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method CreatePssParams, addr 0x145e510, size 0x12c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters* CreatePssParams(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgId, int32_t saltSize);
 
-  /// @brief Method Find, addr 0x13695d8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Find, addr 0x145ecfc, size 0x54, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* Find(::StringW sigAlgName);
 
-  /// @brief Method Generate, addr 0x1368f18, size 0x6c0, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x145e63c, size 0x6c0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* Generate(::StringW signatureAlgorithm);
 
   static inline ::Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFinder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x136962c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x145ed50, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_ENCRYPTION_DSA();

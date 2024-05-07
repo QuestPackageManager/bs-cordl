@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/IncrementalReadDummyDecoder.hpp"
 #include "System/Xml/zzzz__IncrementalReadDecoder_impl.hpp"
 #include "System/Xml/zzzz__IncrementalReadDummyDecoder_def.hpp"
 //  Writing Method size for method: ::System::Xml::IncrementalReadDummyDecoder.get_IsFull
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::IncrementalReadDummyDecoder::*)()>(&::System::Xml::IncrementalReadDummyDecoder::get_IsFull)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2d67b20;
+  constexpr static std::size_t addrs = 0x2e63420;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -21,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::IncrementalReadDummyDecoder::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
     &::System::Xml::IncrementalReadDummyDecoder::Decode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2d67b28;
+  constexpr static std::size_t addrs = 0x2e63428;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -35,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::IncrementalReadDummyDecoder::*)()>(&::System::Xml::IncrementalReadDummyDecoder::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2d67b30;
+  constexpr static std::size_t addrs = 0x2e63430;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::IncrementalReadDummyDecoder*>::get(), ".ctor",

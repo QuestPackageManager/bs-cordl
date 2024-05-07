@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Android/LowLevel/AndroidGameControllerState.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/Android/LowLevel/zzzz__AndroidGameControllerState_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_impl.hpp"
@@ -14,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Android::LowLevel::__AndroidGameControllerState__Variants::*)()>(
     &::UnityEngine::InputSystem::Android::LowLevel::__AndroidGameControllerState__Variants::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x301a080;
+  constexpr static std::size_t addrs = 0x3155e0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -53,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (
     ::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState::*)()>(&::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState::get_format)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3019f5c;
+  constexpr static std::size_t addrs = 0x3155ce8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -69,7 +70,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState::*)(::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode, bool)>(
     &::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState::WithButton)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3019fb4;
+  constexpr static std::size_t addrs = 0x3155d40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +88,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState::*)(::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis, float_t)>(
     &::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState::WithAxis)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3019ff8;
+  constexpr static std::size_t addrs = 0x3155d84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

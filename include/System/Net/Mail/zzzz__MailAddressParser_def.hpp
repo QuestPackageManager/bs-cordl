@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Mail/MailAddressParser.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,25 +25,25 @@ namespace System::Net::Mail {
 class CORDL_TYPE MailAddressParser : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method NormalizeOrThrow, addr 0x2e3271c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method NormalizeOrThrow, addr 0x2f3101c, size 0xec, virtual false, abstract: false, final false
   static inline ::StringW NormalizeOrThrow(::StringW input);
 
-  /// @brief Method ParseAddress, addr 0x2e319f4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method ParseAddress, addr 0x2f302f4, size 0x30, virtual false, abstract: false, final false
   static inline ::System::Net::Mail::MailAddress* ParseAddress(::StringW data);
 
-  /// @brief Method ParseAddress, addr 0x2e31a24, size 0x378, virtual false, abstract: false, final false
+  /// @brief Method ParseAddress, addr 0x2f30324, size 0x378, virtual false, abstract: false, final false
   static inline ::System::Net::Mail::MailAddress* ParseAddress(::StringW data, bool expectMultipleAddresses, ByRef<int32_t> index);
 
-  /// @brief Method ParseDisplayName, addr 0x2e321b8, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method ParseDisplayName, addr 0x2f30ab8, size 0x204, virtual false, abstract: false, final false
   static inline ::StringW ParseDisplayName(::StringW data, ByRef<int32_t> index, bool expectMultipleAddresses);
 
-  /// @brief Method ParseDomain, addr 0x2e31dfc, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method ParseDomain, addr 0x2f306fc, size 0xe8, virtual false, abstract: false, final false
   static inline ::StringW ParseDomain(::StringW data, ByRef<int32_t> index);
 
-  /// @brief Method ParseLocalPart, addr 0x2e31ee4, size 0x2d4, virtual false, abstract: false, final false
+  /// @brief Method ParseLocalPart, addr 0x2f307e4, size 0x2d4, virtual false, abstract: false, final false
   static inline ::StringW ParseLocalPart(::StringW data, ByRef<int32_t> index, bool expectAngleBracket, bool expectMultipleAddresses);
 
-  /// @brief Method ReadCfwsAndThrowIfIncomplete, addr 0x2e31d9c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ReadCfwsAndThrowIfIncomplete, addr 0x2f3069c, size 0x60, virtual false, abstract: false, final false
   static inline int32_t ReadCfwsAndThrowIfIncomplete(::StringW data, int32_t index);
 
 protected:

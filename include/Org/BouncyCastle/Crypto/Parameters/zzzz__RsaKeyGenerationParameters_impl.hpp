@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/RsaKeyGenerationParameters.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__KeyGenerationParameters_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__RsaKeyGenerationParameters_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters::*)(
     ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Security::SecureRandom*, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x10a368c;
+  constexpr static std::size_t addrs = 0x1196db0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters::get_PublicExponent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x10a36c4;
+  constexpr static std::size_t addrs = 0x1196de8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -42,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters::get_Certainty)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x10a36cc;
+  constexpr static std::size_t addrs = 0x1196df0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -57,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters::*)(::System::Object*)>(
     &::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters::Equals)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x10a36d4;
+  constexpr static std::size_t addrs = 0x1196df8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -73,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters::GetHashCode)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x10a3788;
+  constexpr static std::size_t addrs = 0x1196eac;
 
   inline static ::MethodInfo const* methodInfo() {
 

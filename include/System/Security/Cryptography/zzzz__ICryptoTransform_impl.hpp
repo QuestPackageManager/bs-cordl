@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Cryptography/ICryptoTransform.hpp"
 #include "System/Security/Cryptography/zzzz__ICryptoTransform_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: ::System::Security::Cryptography::ICryptoTransform.get_InputBlockSize

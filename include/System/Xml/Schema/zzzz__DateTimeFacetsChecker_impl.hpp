@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/DateTimeFacetsChecker.hpp"
 #include "System/Xml/Schema/zzzz__FacetsChecker_impl.hpp"
 #include "System/Xml/Schema/zzzz__DateTimeFacetsChecker_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"
@@ -12,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (
     ::System::Xml::Schema::DateTimeFacetsChecker::*)(::System::Object*, ::System::Xml::Schema::XmlSchemaDatatype*)>(&::System::Xml::Schema::DateTimeFacetsChecker::CheckValueFacets)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2e19794;
+  constexpr static std::size_t addrs = 0x2f18094;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (
     ::System::Xml::Schema::DateTimeFacetsChecker::*)(::System::DateTime, ::System::Xml::Schema::XmlSchemaDatatype*)>(&::System::Xml::Schema::DateTimeFacetsChecker::CheckValueFacets)> {
   constexpr static std::size_t size = 0x3bc;
-  constexpr static std::size_t addrs = 0x2e197f8;
+  constexpr static std::size_t addrs = 0x2f180f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::DateTimeFacetsChecker::*)(
     ::System::Object*, ::System::Collections::ArrayList*, ::System::Xml::Schema::XmlSchemaDatatype*)>(&::System::Xml::Schema::DateTimeFacetsChecker::MatchEnumeration)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x2e19cf0;
+  constexpr static std::size_t addrs = 0x2f185f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::DateTimeFacetsChecker::*)(
     ::System::DateTime, ::System::Collections::ArrayList*, ::System::Xml::Schema::XmlSchemaDatatype*)>(&::System::Xml::Schema::DateTimeFacetsChecker::MatchEnumeration)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x2e19bb4;
+  constexpr static std::size_t addrs = 0x2f184b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -73,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::DateTimeFacetsChecker::*)()>(&::System::Xml::Schema::DateTimeFacetsChecker::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2e05470;
+  constexpr static std::size_t addrs = 0x2f03d70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DateTimeFacetsChecker*>::get(), ".ctor",

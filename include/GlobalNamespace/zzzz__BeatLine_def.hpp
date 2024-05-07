@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BeatLine.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,7 +54,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__BeatLine__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2516dc4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x260e12c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -156,16 +157,16 @@ public:
 
   __declspec(property(get = get_rotation)) float_t rotation;
 
-  /// @brief Method AddHighlight, addr 0x2516ad0, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method AddHighlight, addr 0x260de38, size 0xdc, virtual false, abstract: false, final false
   inline void AddHighlight(float_t startTime, float_t arriveDuration, float_t jumpDuration);
 
-  /// @brief Method ColorWasSet, addr 0x2516ac4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x260de2c, size 0xc, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
-  /// @brief Method Init, addr 0x25169f8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x260dd60, size 0xcc, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::Vector3 position, float_t rotation);
 
-  /// @brief Method ManualUpdate, addr 0x2516bac, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x260df14, size 0x14c, virtual false, abstract: false, final false
   inline void ManualUpdate(float_t songTime);
 
   static inline ::GlobalNamespace::BeatLine* New_ctor();
@@ -218,13 +219,13 @@ public:
 
   constexpr void __cordl_internal_set__tubeBloomPrePassLight(::UnityW<::GlobalNamespace::TubeBloomPrePassLight> value);
 
-  /// @brief Method .ctor, addr 0x2516cf8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x260e060, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isFinished, addr 0x25169a0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_isFinished, addr 0x260dd08, size 0x50, virtual false, abstract: false, final false
   inline bool get_isFinished();
 
-  /// @brief Method get_rotation, addr 0x25169f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotation, addr 0x260dd58, size 0x8, virtual false, abstract: false, final false
   inline float_t get_rotation();
 
 protected:

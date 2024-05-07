@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Playables/ScriptPlayable_1.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableHandle_impl.hpp"
 #include "UnityEngine/Playables/zzzz__ScriptPlayable_1_def.hpp"
 #include "System/zzzz__ICloneable_def.hpp"

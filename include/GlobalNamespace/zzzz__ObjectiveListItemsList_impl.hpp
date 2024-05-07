@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ObjectiveListItemsList.hpp"
 #include "HMUI/zzzz__UIItemsList_1_impl.hpp"
 #include "GlobalNamespace/zzzz__ObjectiveListItemsList_def.hpp"
 #include "GlobalNamespace/zzzz__ObjectiveListItem_def.hpp"
@@ -7,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObjectiveListItemsList::*)()>(&::GlobalNamespace::ObjectiveListItemsList::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x25755b8;
+  constexpr static std::size_t addrs = 0x266d9f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObjectiveListItemsList*>::get(), ".ctor",

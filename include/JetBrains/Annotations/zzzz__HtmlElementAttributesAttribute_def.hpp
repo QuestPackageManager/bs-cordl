@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "JetBrains/Annotations/HtmlElementAttributesAttribute.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,16 +35,16 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x340a58c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x360f2c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x340a594, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x360f2d0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method get_Name, addr 0x340a5bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x360f2f8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method set_Name, addr 0x340a5c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x360f300, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
 protected:

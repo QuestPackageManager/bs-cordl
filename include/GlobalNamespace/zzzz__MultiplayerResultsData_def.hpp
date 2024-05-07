@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MultiplayerResultsData.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -90,21 +91,21 @@ public:
 
   constexpr void __cordl_internal_set__otherPlayersData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* value);
 
-  /// @brief Method .ctor, addr 0x13e3964, size 0x548, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14d6d14, size 0x548, virtual false, abstract: false, final false
   inline void _ctor(::StringW gameId, ::GlobalNamespace::MultiplayerLevelCompletionResults* localPlayerResultData,
                     ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>* otherPlayersResultData,
                     ::GlobalNamespace::MultiplayerBadgesProvider* badgesProvider, ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager);
 
-  /// @brief Method get_allPlayersSortedData, addr 0x13e395c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_allPlayersSortedData, addr 0x14d6d0c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* get_allPlayersSortedData();
 
-  /// @brief Method get_gameId, addr 0x13e3944, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameId, addr 0x14d6cf4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_gameId();
 
-  /// @brief Method get_localPlayerResultData, addr 0x13e394c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_localPlayerResultData, addr 0x14d6cfc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerPlayerResultsData* get_localPlayerResultData();
 
-  /// @brief Method get_otherPlayersData, addr 0x13e3954, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_otherPlayersData, addr 0x14d6d04, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* get_otherPlayersData();
 
 protected:

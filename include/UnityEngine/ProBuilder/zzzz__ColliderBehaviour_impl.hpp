@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ProBuilder/ColliderBehaviour.hpp"
 #include "UnityEngine/ProBuilder/zzzz__EntityBehaviour_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__ColliderBehaviour_def.hpp"
 #include "UnityEngine/SceneManagement/zzzz__LoadSceneMode_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::ColliderBehaviour::*)()>(
     &::UnityEngine::ProBuilder::ColliderBehaviour::Initialize)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x306dd94;
+  constexpr static std::size_t addrs = 0x327581c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::ColliderBehaviour::*)()>(
     &::UnityEngine::ProBuilder::ColliderBehaviour::OnEnterPlayMode)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x306df84;
+  constexpr static std::size_t addrs = 0x3275a0c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -39,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::ColliderBehaviour::*)(
     ::UnityEngine::SceneManagement::Scene, ::UnityEngine::SceneManagement::LoadSceneMode)>(&::UnityEngine::ProBuilder::ColliderBehaviour::OnSceneLoaded)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x306e03c;
+  constexpr static std::size_t addrs = 0x3275ac4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -53,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::ColliderBehaviour::*)()>(&::UnityEngine::ProBuilder::ColliderBehaviour::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x306e0f4;
+  constexpr static std::size_t addrs = 0x3275b7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::ColliderBehaviour*>::get(), ".ctor",

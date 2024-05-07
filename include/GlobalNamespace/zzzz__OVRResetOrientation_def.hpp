@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OVRResetOrientation.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +25,7 @@ public:
 
   static inline ::GlobalNamespace::OVRResetOrientation* New_ctor();
 
-  /// @brief Method Update, addr 0x2a9316c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2b8ea1c, size 0xe0, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::__OVRInput__RawButton const& __cordl_internal_get_resetButton() const;
@@ -33,7 +34,7 @@ public:
 
   constexpr void __cordl_internal_set_resetButton(::GlobalNamespace::__OVRInput__RawButton value);
 
-  /// @brief Method .ctor, addr 0x2a9324c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b8eafc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

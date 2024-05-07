@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ExecutionEngineException.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,13 +32,13 @@ public:
 
   static inline ::System::ExecutionEngineException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x281c37c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x291ba9c, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x281c3fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x291bb1c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x281c3d8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x291baf8, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

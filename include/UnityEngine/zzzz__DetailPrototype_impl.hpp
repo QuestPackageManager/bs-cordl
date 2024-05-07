@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/DetailPrototype.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__DetailPrototype_def.hpp"
@@ -13,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::DetailPrototype::*)(::UnityEngine::GameObject*)>(
     &::UnityEngine::DetailPrototype::set_prototype)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x326ac40;
+  constexpr static std::size_t addrs = 0x347397c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::DetailPrototype::*)(::UnityEngine::Texture2D*)>(
     &::UnityEngine::DetailPrototype::set_prototypeTexture)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x326ac48;
+  constexpr static std::size_t addrs = 0x3473984;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::DetailPrototype::*)()>(&::UnityEngine::DetailPrototype::get_minWidth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x326ac50;
+  constexpr static std::size_t addrs = 0x347398c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::DetailPrototype*>::get(), "get_minWidth",
@@ -55,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::DetailPrototype::*)(float_t)>(&::UnityEngine::DetailPrototype::set_minWidth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x326ac58;
+  constexpr static std::size_t addrs = 0x3473994;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::DetailPrototype::*)()>(&::UnityEngine::DetailPrototype::get_maxWidth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x326ac60;
+  constexpr static std::size_t addrs = 0x347399c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::DetailPrototype*>::get(), "get_maxWidth",
@@ -82,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::DetailPrototype::*)(float_t)>(&::UnityEngine::DetailPrototype::set_maxWidth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x326ac68;
+  constexpr static std::size_t addrs = 0x34739a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::DetailPrototype::*)()>(&::UnityEngine::DetailPrototype::get_minHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x326ac70;
+  constexpr static std::size_t addrs = 0x34739ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::DetailPrototype*>::get(), "get_minHeight",
@@ -109,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::DetailPrototype::*)(float_t)>(&::UnityEngine::DetailPrototype::set_minHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x326ac78;
+  constexpr static std::size_t addrs = 0x34739b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -123,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::DetailPrototype::*)()>(&::UnityEngine::DetailPrototype::get_maxHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x326ac80;
+  constexpr static std::size_t addrs = 0x34739bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::DetailPrototype*>::get(), "get_maxHeight",
@@ -136,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::DetailPrototype::*)(float_t)>(&::UnityEngine::DetailPrototype::set_maxHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x326ac88;
+  constexpr static std::size_t addrs = 0x34739c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -150,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::DetailPrototype::*)()>(&::UnityEngine::DetailPrototype::get_noiseSpread)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x326ac90;
+  constexpr static std::size_t addrs = 0x34739cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::DetailPrototype*>::get(), "get_noiseSpread",
@@ -163,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::DetailPrototype::*)(float_t)>(&::UnityEngine::DetailPrototype::set_noiseSpread)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x326ac98;
+  constexpr static std::size_t addrs = 0x34739d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -177,7 +178,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::UnityEngine::DetailPrototype::*)()>(&::UnityEngine::DetailPrototype::get_healthyColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x326aca0;
+  constexpr static std::size_t addrs = 0x34739dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::DetailPrototype*>::get(), "get_healthyColor",
@@ -190,7 +191,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::DetailPrototype::*)(::UnityEngine::Color)>(&::UnityEngine::DetailPrototype::set_healthyColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x326acac;
+  constexpr static std::size_t addrs = 0x34739e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -204,7 +205,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::UnityEngine::DetailPrototype::*)()>(&::UnityEngine::DetailPrototype::get_dryColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x326acb8;
+  constexpr static std::size_t addrs = 0x34739f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::DetailPrototype*>::get(), "get_dryColor",
@@ -217,7 +218,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::DetailPrototype::*)(::UnityEngine::Color)>(&::UnityEngine::DetailPrototype::set_dryColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x326acc4;
+  constexpr static std::size_t addrs = 0x3473a00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -232,7 +233,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::DetailRenderMode (::UnityEngine::DetailPrototype::*)()>(
     &::UnityEngine::DetailPrototype::get_renderMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x326acd0;
+  constexpr static std::size_t addrs = 0x3473a0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::DetailPrototype*>::get(), "get_renderMode",
@@ -246,7 +247,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::DetailPrototype::*)(::UnityEngine::DetailRenderMode)>(
     &::UnityEngine::DetailPrototype::set_renderMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x326acd8;
+  constexpr static std::size_t addrs = 0x3473a14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -260,7 +261,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::DetailPrototype::*)(bool)>(&::UnityEngine::DetailPrototype::set_usePrototypeMesh)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x326ace0;
+  constexpr static std::size_t addrs = 0x3473a1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -274,7 +275,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::DetailPrototype::*)()>(&::UnityEngine::DetailPrototype::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x326acfc;
+  constexpr static std::size_t addrs = 0x3473a38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::DetailPrototype*>::get(), ".ctor",
@@ -287,7 +288,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::DetailPrototype::*)(::System::Object*)>(&::UnityEngine::DetailPrototype::Equals)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x326ad9c;
+  constexpr static std::size_t addrs = 0x3473ad8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -301,7 +302,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::DetailPrototype::*)()>(&::UnityEngine::DetailPrototype::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x326afec;
+  constexpr static std::size_t addrs = 0x3473d28;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -315,7 +316,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::DetailPrototype::*)(::UnityEngine::DetailPrototype*)>(&::UnityEngine::DetailPrototype::Equals)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x326ae00;
+  constexpr static std::size_t addrs = 0x3473b3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

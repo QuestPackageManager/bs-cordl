@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/FinishTutorialAchievementHandler.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,15 +38,15 @@ public:
   /// @brief Field _tutorialFinishedSignal, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__tutorialFinishedSignal, put = __cordl_internal_set__tutorialFinishedSignal))::UnityW<::GlobalNamespace::Signal> _tutorialFinishedSignal;
 
-  /// @brief Method HandleTutorialFinished, addr 0x139e464, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleTutorialFinished, addr 0x1493b88, size 0x20, virtual false, abstract: false, final false
   inline void HandleTutorialFinished();
 
   static inline ::GlobalNamespace::FinishTutorialAchievementHandler* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x139e3d8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x1493afc, size 0x8c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x139e34c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x1493a70, size 0x8c, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::AchievementsModelSO> const& __cordl_internal_get__achievementsModel() const;
@@ -66,7 +67,7 @@ public:
 
   constexpr void __cordl_internal_set__tutorialFinishedSignal(::UnityW<::GlobalNamespace::Signal> value);
 
-  /// @brief Method .ctor, addr 0x139e484, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1493ba8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

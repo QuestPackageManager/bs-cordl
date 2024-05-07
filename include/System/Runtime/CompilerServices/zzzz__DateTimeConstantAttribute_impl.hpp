@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/CompilerServices/DateTimeConstantAttribute.hpp"
 #include "System/Runtime/CompilerServices/zzzz__CustomConstantAttribute_impl.hpp"
 #include "System/zzzz__DateTime_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__DateTimeConstantAttribute_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Runtime::CompilerServices::DateTimeConstantAttribute::*)()>(
     &::System::Runtime::CompilerServices::DateTimeConstantAttribute::get_Value)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x275c6a4;
+  constexpr static std::size_t addrs = 0x285bdb4;
 
   inline static ::MethodInfo const* methodInfo() {
 

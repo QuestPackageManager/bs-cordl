@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/InputDeviceCommandDelegate.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputDeviceCommandDelegate_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
@@ -13,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputDeviceCommandDelegate::*)(::System::Object*, void*)>(
     &::UnityEngine::InputSystem::LowLevel::InputDeviceCommandDelegate::_ctor)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x301afe8;
+  constexpr static std::size_t addrs = 0x3156d74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,7 +30,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::InputSystem::InputDevice*, ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputDeviceCommand>)>(
     &::UnityEngine::InputSystem::LowLevel::InputDeviceCommandDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x301b118;
+  constexpr static std::size_t addrs = 0x3156ea4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -47,7 +48,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                          ::System::AsyncCallback*, ::System::Object*)>(
     &::UnityEngine::InputSystem::LowLevel::InputDeviceCommandDelegate::BeginInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x301b12c;
+  constexpr static std::size_t addrs = 0x3156eb8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -63,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<int64_t> (::UnityEngine::InputSystem::LowLevel::InputDeviceCommandDelegate::*)(
     ::System::IAsyncResult*)>(&::UnityEngine::InputSystem::LowLevel::InputDeviceCommandDelegate::EndInvoke)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x301b154;
+  constexpr static std::size_t addrs = 0x3156ee0;
 
   inline static ::MethodInfo const* methodInfo() {
 

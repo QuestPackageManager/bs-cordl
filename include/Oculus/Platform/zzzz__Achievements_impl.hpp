@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/Achievements.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/zzzz__Achievements_def.hpp"
 #include "Oculus/Platform/Models/zzzz__AchievementDefinitionList_def.hpp"
@@ -11,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementUpdate*>* (*)(::StringW, uint64_t)>(
     &::Oculus::Platform::Achievements::AddCount)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x29d293c;
+  constexpr static std::size_t addrs = 0x2ad01ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementUpdate*>* (*)(::StringW, ::StringW)>(
     &::Oculus::Platform::Achievements::AddFields)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x29d2aac;
+  constexpr static std::size_t addrs = 0x2ad035c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementDefinitionList*>* (*)()>(
     &::Oculus::Platform::Achievements::GetAllDefinitions)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x29d2c1c;
+  constexpr static std::size_t addrs = 0x2ad04cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Achievements*>::get(), "GetAllDefinitions",
@@ -55,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementProgressList*>* (*)()>(
     &::Oculus::Platform::Achievements::GetAllProgress)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x29d2d74;
+  constexpr static std::size_t addrs = 0x2ad0624;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Achievements*>::get(), "GetAllProgress",
@@ -69,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementDefinitionList*>* (*)(::ArrayW<::StringW, ::Array<::StringW>*>)>(&::Oculus::Platform::Achievements::GetDefinitionsByName)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x29d2ecc;
+  constexpr static std::size_t addrs = 0x2ad077c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementProgressList*>* (*)(::ArrayW<::StringW, ::Array<::StringW>*>)>(&::Oculus::Platform::Achievements::GetProgressByName)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x29d3040;
+  constexpr static std::size_t addrs = 0x2ad08f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementUpdate*>* (*)(::StringW)>(
     &::Oculus::Platform::Achievements::Unlock)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x29d31b4;
+  constexpr static std::size_t addrs = 0x2ad0a64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -115,7 +116,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementDefinitionList*>* (*)(::Oculus::Platform::Models::AchievementDefinitionList*)>(
         &::Oculus::Platform::Achievements::GetNextAchievementDefinitionListPage)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x29d3314;
+  constexpr static std::size_t addrs = 0x2ad0bc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -131,7 +132,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::AchievementProgressList*>* (*)(::Oculus::Platform::Models::AchievementProgressList*)>(
         &::Oculus::Platform::Achievements::GetNextAchievementProgressListPage)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x29d34f0;
+  constexpr static std::size_t addrs = 0x2ad0da0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

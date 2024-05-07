@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "JetBrains/Annotations/LocalizationRequiredAttribute.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,16 +34,16 @@ public:
 
   constexpr void __cordl_internal_set__Required_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x3409fdc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x360ed18, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3409ffc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x360ed38, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(bool required);
 
-  /// @brief Method get_Required, addr 0x340a028, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Required, addr 0x360ed64, size 0x8, virtual false, abstract: false, final false
   inline bool get_Required();
 
-  /// @brief Method set_Required, addr 0x340a030, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Required, addr 0x360ed6c, size 0xc, virtual false, abstract: false, final false
   inline void set_Required(bool value);
 
 protected:

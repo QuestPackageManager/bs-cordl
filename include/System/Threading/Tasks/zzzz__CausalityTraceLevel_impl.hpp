@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/Tasks/CausalityTraceLevel.hpp"
 #include "System/Threading/Tasks/zzzz__CausalityTraceLevel_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Threading::Tasks::CausalityTraceLevel::CausalityTraceLevel(int32_t value__) noexcept {

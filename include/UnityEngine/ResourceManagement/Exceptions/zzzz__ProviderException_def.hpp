@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ResourceManagement/Exceptions/ProviderException.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,10 +41,10 @@ public:
 
   constexpr void __cordl_internal_set__Location_k__BackingField(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* value);
 
-  /// @brief Method .ctor, addr 0x30ffab4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x330653c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::System::Exception* innerException);
 
-  /// @brief Method get_Location, addr 0x30ffadc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Location, addr 0x3306564, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* get_Location();
 
 protected:

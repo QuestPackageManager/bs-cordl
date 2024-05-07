@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ProgressActivitySubtaskSO.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__ProgressActivitySubtaskSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ProgressActivitySubtaskSO.get_activityId
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::ProgressActivitySubtaskSO::*)()>(
     &::GlobalNamespace::ProgressActivitySubtaskSO::get_activityId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x13eb474;
+  constexpr static std::size_t addrs = 0x14dd6dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ProgressActivitySubtaskSO*>::get(),
@@ -20,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ProgressActivitySubtaskSO::*)()>(&::GlobalNamespace::ProgressActivitySubtaskSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x13eb47c;
+  constexpr static std::size_t addrs = 0x14dd6e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ProgressActivitySubtaskSO*>::get(), ".ctor",

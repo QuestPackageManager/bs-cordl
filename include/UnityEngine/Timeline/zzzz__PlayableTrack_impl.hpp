@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Timeline/PlayableTrack.hpp"
 #include "UnityEngine/Timeline/zzzz__TrackAsset_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__PlayableTrack_def.hpp"
 #include "UnityEngine/Timeline/zzzz__TimelineClip_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::PlayableTrack::*)(::UnityEngine::Timeline::TimelineClip*)>(
     &::UnityEngine::Timeline::PlayableTrack::OnCreateClip)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x319ce78;
+  constexpr static std::size_t addrs = 0x33a3900;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -22,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::PlayableTrack::*)()>(&::UnityEngine::Timeline::PlayableTrack::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x319cf0c;
+  constexpr static std::size_t addrs = 0x33a3994;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::PlayableTrack*>::get(), ".ctor",

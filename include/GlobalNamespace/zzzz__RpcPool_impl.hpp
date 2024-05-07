@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/RpcPool.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__RpcPool_def.hpp"
 #include "GlobalNamespace/zzzz__IRemoteProcedureCall_def.hpp"
@@ -7,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::GlobalNamespace::IRemoteProcedureCall*)>(&::GlobalNamespace::RpcPool::Release)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0xfbf528;
+  constexpr static std::size_t addrs = 0x10b2c4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

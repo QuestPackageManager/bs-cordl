@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/VarIntExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__VarIntExtensions_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
@@ -8,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::LiteNetLib::Utils::NetDataWriter*, int32_t)>(&::GlobalNamespace::VarIntExtensions::PutVarInt)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x14121ac;
+  constexpr static std::size_t addrs = 0x15037fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::LiteNetLib::Utils::NetDataReader*)>(&::GlobalNamespace::VarIntExtensions::GetVarInt)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x1412504;
+  constexpr static std::size_t addrs = 0x1503b54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::LiteNetLib::Utils::NetDataWriter*, uint32_t)>(&::GlobalNamespace::VarIntExtensions::PutVarUInt)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x140f190;
+  constexpr static std::size_t addrs = 0x15007e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::LiteNetLib::Utils::NetDataReader*)>(&::GlobalNamespace::VarIntExtensions::GetVarUInt)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x140f134;
+  constexpr static std::size_t addrs = 0x1500784;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::LiteNetLib::Utils::NetDataWriter*, int64_t)>(&::GlobalNamespace::VarIntExtensions::PutVarLong)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x141929c;
+  constexpr static std::size_t addrs = 0x150a8ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::LiteNetLib::Utils::NetDataReader*)>(&::GlobalNamespace::VarIntExtensions::GetVarLong)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x14192a8;
+  constexpr static std::size_t addrs = 0x150a8f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::LiteNetLib::Utils::NetDataWriter*, uint64_t)>(&::GlobalNamespace::VarIntExtensions::PutVarULong)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x14192c0;
+  constexpr static std::size_t addrs = 0x150a910;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -110,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::LiteNetLib::Utils::NetDataReader*)>(&::GlobalNamespace::VarIntExtensions::GetVarULong)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x1419308;
+  constexpr static std::size_t addrs = 0x150a958;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -125,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::LiteNetLib::Utils::NetDataReader*, ByRef<uint32_t>)>(
     &::GlobalNamespace::VarIntExtensions::TryGetVarUInt)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x141937c;
+  constexpr static std::size_t addrs = 0x150a9cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -141,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::LiteNetLib::Utils::NetDataReader*, ByRef<uint64_t>)>(
     &::GlobalNamespace::VarIntExtensions::TryGetVarULong)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x14193c8;
+  constexpr static std::size_t addrs = 0x150aa18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -156,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::GlobalNamespace::VarIntExtensions::GetSize)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x1415fd8;
+  constexpr static std::size_t addrs = 0x1507628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -170,7 +171,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(uint32_t)>(&::GlobalNamespace::VarIntExtensions::GetSize)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x1419470;
+  constexpr static std::size_t addrs = 0x150aac0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -184,7 +185,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int64_t)>(&::GlobalNamespace::VarIntExtensions::GetSize)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x1419450;
+  constexpr static std::size_t addrs = 0x150aaa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -197,8 +198,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(uint64_t)>(&::GlobalNamespace::VarIntExtensions::GetSize)> {
-  constexpr static std::size_t size = 0xfbf00c;
-  constexpr static std::size_t addrs = 0x141948c;
+  constexpr static std::size_t size = 0xfc59a4;
+  constexpr static std::size_t addrs = 0x150aadc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

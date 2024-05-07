@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Configuration/SettingsSectionInternal.hpp"
 #include "System/Net/Sockets/zzzz__IPProtectionLevel_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Configuration/zzzz__SettingsSectionInternal_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Configuration::SettingsSectionInternal* (*)()>(
     &::System::Net::Configuration::SettingsSectionInternal::get_Section)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2f2660c;
+  constexpr static std::size_t addrs = 0x3026f0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Configuration::SettingsSectionInternal*>::get(),
@@ -22,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::Configuration::SettingsSectionInternal::*)()>(
     &::System::Net::Configuration::SettingsSectionInternal::get_Ipv6Enabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2f26664;
+  constexpr static std::size_t addrs = 0x3026f64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Configuration::SettingsSectionInternal*>::get(),
@@ -36,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Configuration::SettingsSectionInternal::*)()>(
     &::System::Net::Configuration::SettingsSectionInternal::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x2f2666c;
+  constexpr static std::size_t addrs = 0x3026f6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Configuration::SettingsSectionInternal*>::get(),

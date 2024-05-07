@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/ElGamalPrivateKeyParameters.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,13 +34,13 @@ public:
   /// @brief Field x, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_x, put = __cordl_internal_set_x))::Org::BouncyCastle::Math::BigInteger* x;
 
-  /// @brief Method Equals, addr 0x10a0b7c, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x11942a0, size 0x9c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x10a0c18, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x119433c, size 0x58, virtual false, abstract: false, final false
   inline bool Equals(::Org::BouncyCastle::Crypto::Parameters::ElGamalPrivateKeyParameters* other);
 
-  /// @brief Method GetHashCode, addr 0x10a0c70, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x1194394, size 0x40, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::ElGamalPrivateKeyParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* x,
@@ -51,10 +52,10 @@ public:
 
   constexpr void __cordl_internal_set_x(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method .ctor, addr 0x10a0aec, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1194210, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* x, ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* parameters);
 
-  /// @brief Method get_X, addr 0x10a0b74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_X, addr 0x1194298, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_X();
 
 protected:

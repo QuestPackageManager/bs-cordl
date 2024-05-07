@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Dynamic/GetIndexBinder.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,11 +23,11 @@ namespace System::Dynamic {
 class CORDL_TYPE GetIndexBinder : public ::System::Dynamic::DynamicMetaObjectBinder {
 public:
   // Declarations
-  /// @brief Method Bind, addr 0x2b57778, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method Bind, addr 0x2c54078, size 0xb8, virtual true, abstract: false, final true
   inline ::System::Dynamic::DynamicMetaObject* Bind(::System::Dynamic::DynamicMetaObject* target,
                                                     ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> args);
 
-  /// @brief Method FallbackGetIndex, addr 0x2b57830, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method FallbackGetIndex, addr 0x2c54130, size 0x10, virtual false, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* FallbackGetIndex(::System::Dynamic::DynamicMetaObject* target,
                                                                 ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> indexes);
 

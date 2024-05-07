@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/TransitionData.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,19 +48,19 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::TransitionData>"
   constexpr operator ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::TransitionData>*();
 
-  /// @brief Method Copy, addr 0x33d37b8, size 0x144, virtual true, abstract: false, final true
+  /// @brief Method Copy, addr 0x35d94f4, size 0x144, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::TransitionData Copy();
 
-  /// @brief Method CopyFrom, addr 0x33d38fc, size 0x160, virtual true, abstract: false, final true
+  /// @brief Method CopyFrom, addr 0x35d9638, size 0x160, virtual true, abstract: false, final true
   inline void CopyFrom(ByRef<::UnityEngine::UIElements::TransitionData> other);
 
-  /// @brief Method Equals, addr 0x33d3af4, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x35d9830, size 0xb0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x33d3aa8, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x35d97e4, size 0x4c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::TransitionData other);
 
-  /// @brief Method GetHashCode, addr 0x33d3ba4, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x35d98e0, size 0x9c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::TransitionData>"
@@ -68,7 +69,7 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::TransitionData>"
   constexpr ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::TransitionData>* i___UnityEngine__UIElements__IStyleDataGroup_1___UnityEngine__UIElements__TransitionData_();
 
-  /// @brief Method op_Equality, addr 0x33d3a5c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x35d9798, size 0x4c, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::TransitionData lhs, ::UnityEngine::UIElements::TransitionData rhs);
 
   // Ctor Parameters []

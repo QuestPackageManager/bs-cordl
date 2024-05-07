@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/GradientRemap.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,7 +39,7 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::GradientRemap* New_ctor();
 
-  /// @brief Method Reset, addr 0x331d2c0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x3521ffc, size 0x68, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::UnityEngine::UIElements::TextureId const& __cordl_internal_get_atlas() const;
@@ -71,7 +72,7 @@ public:
 
   constexpr void __cordl_internal_set_origIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x331d264, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3521fa0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

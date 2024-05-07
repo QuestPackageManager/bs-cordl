@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/WritableAttribute.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,7 +21,7 @@ public:
   // Declarations
   static inline ::UnityEngine::WritableAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3266870, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x346f5ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

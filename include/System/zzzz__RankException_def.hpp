@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/RankException.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,13 +32,13 @@ public:
 
   static inline ::System::RankException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x28456ec, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2944ec0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2845764, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2944f38, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x2845744, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2944f18, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

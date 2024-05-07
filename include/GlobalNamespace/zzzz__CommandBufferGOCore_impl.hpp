@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/CommandBufferGOCore.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__CommandBufferGOCore_def.hpp"
 #include "GlobalNamespace/zzzz__CommandBufferOwners_def.hpp"
@@ -13,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CommandBufferGOCore::*)()>(&::GlobalNamespace::CommandBufferGOCore::OnEnable)> {
   constexpr static std::size_t size = 0x414;
-  constexpr static std::size_t addrs = 0x2ad63c4;
+  constexpr static std::size_t addrs = 0x2bd2c74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CommandBufferGOCore*>::get(), "OnEnable",
@@ -26,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CommandBufferGOCore::*)()>(&::GlobalNamespace::CommandBufferGOCore::OnDisable)> {
   constexpr static std::size_t size = 0x404;
-  constexpr static std::size_t addrs = 0x2ad67d8;
+  constexpr static std::size_t addrs = 0x2bd3088;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CommandBufferGOCore*>::get(), "OnDisable",
@@ -39,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CommandBufferGOCore::*)()>(&::GlobalNamespace::CommandBufferGOCore::OnWillRenderObject)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x2ad6c84;
+  constexpr static std::size_t addrs = 0x2bd3534;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -99,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CommandBufferGOCore::*)()>(&::GlobalNamespace::CommandBufferGOCore::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ad6000;
+  constexpr static std::size_t addrs = 0x2bd28b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CommandBufferGOCore*>::get(), ".ctor",

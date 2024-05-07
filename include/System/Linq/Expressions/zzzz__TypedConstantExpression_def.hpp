@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/TypedConstantExpression.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,10 +38,10 @@ public:
 
   constexpr void __cordl_internal_set__Type_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x2b00de4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bfe6e4, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* value, ::System::Type* type);
 
-  /// @brief Method get_Type, addr 0x2b00e08, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Type, addr 0x2bfe708, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* get_Type();
 
 protected:

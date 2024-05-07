@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ProBuilder/SimpleTuple_2.hpp"
 #include "UnityEngine/ProBuilder/zzzz__SimpleTuple_2_def.hpp"
 template <typename T1, typename T2> inline T1 UnityEngine::ProBuilder::SimpleTuple_2<T1, T2>::get_item1() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::SimpleTuple_2<T1, T2>>::get(),

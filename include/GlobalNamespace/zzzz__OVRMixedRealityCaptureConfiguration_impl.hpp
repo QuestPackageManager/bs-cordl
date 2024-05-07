@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OVRMixedRealityCaptureConfiguration.hpp"
 #include "GlobalNamespace/zzzz__OVRMixedRealityCaptureConfiguration_def.hpp"
 #include "GlobalNamespace/zzzz__OVRManager_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"

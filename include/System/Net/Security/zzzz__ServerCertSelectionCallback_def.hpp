@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Security/ServerCertSelectionCallback.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,12 +27,12 @@ namespace System::Net::Security {
 class CORDL_TYPE ServerCertSelectionCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2e2f890, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2f2e190, size 0x14, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate* Invoke(::StringW hostName);
 
   static inline ::System::Net::Security::ServerCertSelectionCallback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2e2f7bc, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f2e0bc, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MurmurHash.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MurmurHash_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MurmurHash.MurmurHash2
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::StringW)>(&::GlobalNamespace::MurmurHash::MurmurHash2)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x1412d88;
+  constexpr static std::size_t addrs = 0x15043d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

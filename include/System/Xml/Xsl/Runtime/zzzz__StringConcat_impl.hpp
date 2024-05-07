@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Xsl/Runtime/StringConcat.hpp"
 #include "System/Xml/Xsl/Runtime/zzzz__StringConcat_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: ::System::Xml::Xsl::Runtime::StringConcat.Clear
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Xsl::Runtime::StringConcat::*)()>(&::System::Xml::Xsl::Runtime::StringConcat::Clear)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2df295c;
+  constexpr static std::size_t addrs = 0x2ef125c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Xsl::Runtime::StringConcat>::get(), "Clear",
@@ -19,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Xsl::Runtime::StringConcat::*)()>(&::System::Xml::Xsl::Runtime::StringConcat::get_Count)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2df2968;
+  constexpr static std::size_t addrs = 0x2ef1268;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Xsl::Runtime::StringConcat>::get(), "get_Count",
@@ -32,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Xsl::Runtime::StringConcat::*)()>(&::System::Xml::Xsl::Runtime::StringConcat::GetResult)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x2df2970;
+  constexpr static std::size_t addrs = 0x2ef1270;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Xsl::Runtime::StringConcat>::get(), "GetResult",
@@ -46,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Xsl::Runtime::StringConcat::*)(::StringW)>(
     &::System::Xml::Xsl::Runtime::StringConcat::ConcatNoDelimiter)> {
   constexpr static std::size_t size = 0x2b8;
-  constexpr static std::size_t addrs = 0x2df2a64;
+  constexpr static std::size_t addrs = 0x2ef1364;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

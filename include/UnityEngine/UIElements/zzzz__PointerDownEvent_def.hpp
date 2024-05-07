@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/PointerDownEvent.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,18 +22,18 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE PointerDownEvent : public ::UnityEngine::UIElements::PointerEventBase_1<::UnityEngine::UIElements::PointerDownEvent*> {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x339dfc8, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x35a3d04, size 0x50, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x339e018, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x35a3d54, size 0x104, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::PointerDownEvent* New_ctor();
 
-  /// @brief Method PostDispatch, addr 0x339e16c, size 0x264, virtual true, abstract: false, final false
+  /// @brief Method PostDispatch, addr 0x35a3ea8, size 0x264, virtual true, abstract: false, final false
   inline void PostDispatch(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method .ctor, addr 0x339e11c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35a3e58, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

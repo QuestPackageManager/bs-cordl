@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/ClickEvent.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerEventBase_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__ClickEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerUpEvent_def.hpp"
@@ -7,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ClickEvent::*)()>(&::UnityEngine::UIElements::ClickEvent::Init)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x339f73c;
+  constexpr static std::size_t addrs = 0x35a5478;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -21,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ClickEvent::*)()>(&::UnityEngine::UIElements::ClickEvent::LocalInit)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x339f790;
+  constexpr static std::size_t addrs = 0x35a54cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ClickEvent*>::get(), "LocalInit",
@@ -34,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ClickEvent::*)()>(&::UnityEngine::UIElements::ClickEvent::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x339f79c;
+  constexpr static std::size_t addrs = 0x35a54d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ClickEvent*>::get(), ".ctor",
@@ -48,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::ClickEvent* (*)(::UnityEngine::UIElements::PointerUpEvent*, int32_t)>(
     &::UnityEngine::UIElements::ClickEvent::GetPooled)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x339f7f0;
+  constexpr static std::size_t addrs = 0x35a552c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

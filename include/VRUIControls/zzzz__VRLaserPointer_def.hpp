@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "VRUIControls/VRLaserPointer.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,13 +41,13 @@ public:
 
   static inline ::VRUIControls::VRLaserPointer* New_ctor();
 
-  /// @brief Method SetFadeDistance, addr 0x3407808, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method SetFadeDistance, addr 0x360d544, size 0xfc, virtual false, abstract: false, final false
   inline void SetFadeDistance(float_t distance);
 
-  /// @brief Method SetLocalPosition, addr 0x3407778, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SetLocalPosition, addr 0x360d4b4, size 0x48, virtual false, abstract: false, final false
   inline void SetLocalPosition(::UnityEngine::Vector3 position);
 
-  /// @brief Method SetLocalScale, addr 0x34077c0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SetLocalScale, addr 0x360d4fc, size 0x48, virtual false, abstract: false, final false
   inline void SetLocalScale(::UnityEngine::Vector3 scale);
 
   constexpr ::UnityW<::UnityEngine::MeshRenderer> const& __cordl_internal_get__renderer() const;
@@ -55,7 +56,7 @@ public:
 
   constexpr void __cordl_internal_set__renderer(::UnityW<::UnityEngine::MeshRenderer> value);
 
-  /// @brief Method .ctor, addr 0x3407904, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x360d640, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__fadeStartNormalizedDistanceId();

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MissionToggle.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -129,36 +130,36 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::ISubmitHandler"
   constexpr operator ::UnityEngine::EventSystems::ISubmitHandler*() noexcept;
 
-  /// @brief Method ChangeHighlight, addr 0x2533c20, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ChangeHighlight, addr 0x262a5d4, size 0x20, virtual false, abstract: false, final false
   inline void ChangeHighlight(bool value, bool ignoreCurrentValue);
 
-  /// @brief Method ChangeSelection, addr 0x2533554, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ChangeSelection, addr 0x2629f08, size 0x64, virtual false, abstract: false, final false
   inline void ChangeSelection(bool value, bool callSelectionDidChange, bool ignoreCurrentValue);
 
-  /// @brief Method InternalToggle, addr 0x2533c40, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method InternalToggle, addr 0x262a5f4, size 0x30, virtual false, abstract: false, final false
   inline void InternalToggle();
 
   static inline ::GlobalNamespace::MissionToggle* New_ctor();
 
-  /// @brief Method OnPointerClick, addr 0x2533c70, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method OnPointerClick, addr 0x262a624, size 0xa8, virtual true, abstract: false, final false
   inline void OnPointerClick(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerEnter, addr 0x2533db0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method OnPointerEnter, addr 0x262a764, size 0x24, virtual true, abstract: false, final false
   inline void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerExit, addr 0x2533dd4, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method OnPointerExit, addr 0x262a788, size 0x1c, virtual true, abstract: false, final false
   inline void OnPointerExit(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnSubmit, addr 0x2533d18, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method OnSubmit, addr 0x262a6cc, size 0x98, virtual true, abstract: false, final false
   inline void OnSubmit(::UnityEngine::EventSystems::BaseEventData* eventData);
 
-  /// @brief Method RefreshUI, addr 0x2533954, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method RefreshUI, addr 0x262a308, size 0x2a8, virtual false, abstract: false, final false
   inline void RefreshUI();
 
-  /// @brief Method SetText, addr 0x25334d0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetText, addr 0x2629e84, size 0x24, virtual false, abstract: false, final false
   inline void SetText(::StringW text);
 
-  /// @brief Method Start, addr 0x2533c04, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x262a5b8, size 0x1c, virtual true, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__bgImage() const;
@@ -257,19 +258,19 @@ public:
 
   constexpr void __cordl_internal_set_selectionDidChangeEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionToggle>>* value);
 
-  /// @brief Method .ctor, addr 0x2533df0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x262a7a4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_selectionDidChangeEvent, addr 0x2533238, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_selectionDidChangeEvent, addr 0x2629bec, size 0xb0, virtual false, abstract: false, final false
   inline void add_selectionDidChangeEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionToggle>>* value);
 
-  /// @brief Method get_highlighted, addr 0x2533bfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_highlighted, addr 0x262a5b0, size 0x8, virtual false, abstract: false, final false
   inline bool get_highlighted();
 
-  /// @brief Method get_interactable, addr 0x253394c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_interactable, addr 0x262a300, size 0x8, virtual false, abstract: false, final false
   inline bool get_interactable();
 
-  /// @brief Method get_selected, addr 0x2533944, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selected, addr 0x262a2f8, size 0x8, virtual false, abstract: false, final false
   inline bool get_selected();
 
   /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
@@ -287,16 +288,16 @@ public:
   /// @brief Convert to "::UnityEngine::EventSystems::ISubmitHandler"
   constexpr ::UnityEngine::EventSystems::ISubmitHandler* i___UnityEngine__EventSystems__ISubmitHandler() noexcept;
 
-  /// @brief Method remove_selectionDidChangeEvent, addr 0x2533420, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_selectionDidChangeEvent, addr 0x2629dd4, size 0xb0, virtual false, abstract: false, final false
   inline void remove_selectionDidChangeEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionToggle>>* value);
 
-  /// @brief Method set_interactable, addr 0x25332e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_interactable, addr 0x2629c9c, size 0xc, virtual false, abstract: false, final false
   inline void set_interactable(bool value);
 
-  /// @brief Method set_missionCleared, addr 0x2533938, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_missionCleared, addr 0x262a2ec, size 0xc, virtual false, abstract: false, final false
   inline void set_missionCleared(bool value);
 
-  /// @brief Method set_selected, addr 0x253316c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_selected, addr 0x2629b20, size 0x10, virtual false, abstract: false, final false
   inline void set_selected(bool value);
 
 protected:

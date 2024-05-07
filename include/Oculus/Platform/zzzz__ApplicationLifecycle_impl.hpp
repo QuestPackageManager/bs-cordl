@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/ApplicationLifecycle.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/zzzz__ApplicationLifecycle_def.hpp"
 #include "Oculus/Platform/Models/zzzz__LaunchDetails_def.hpp"
@@ -9,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::LaunchDetails* (*)()>(&::Oculus::Platform::ApplicationLifecycle::GetLaunchDetails)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x29ce3b0;
+  constexpr static std::size_t addrs = 0x2acbc60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::ApplicationLifecycle*>::get(),
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::Oculus::Platform::LaunchResult)>(
     &::Oculus::Platform::ApplicationLifecycle::LogDeeplinkResult)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x29ce440;
+  constexpr static std::size_t addrs = 0x2acbcf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Oculus::Platform::__Message_1__Callback<::StringW>*)>(
     &::Oculus::Platform::ApplicationLifecycle::SetLaunchIntentChangedNotificationCallback)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x29ce4a4;
+  constexpr static std::size_t addrs = 0x2acbd54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

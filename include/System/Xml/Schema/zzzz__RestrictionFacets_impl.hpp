@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/RestrictionFacets.hpp"
 #include "System/Xml/Schema/zzzz__RestrictionFlags_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaWhiteSpace_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -10,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::RestrictionFacets::*)()>(&::System::Xml::Schema::RestrictionFacets::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2e01ca0;
+  constexpr static std::size_t addrs = 0x2f005a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::RestrictionFacets*>::get(), ".ctor",

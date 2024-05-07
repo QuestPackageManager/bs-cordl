@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MainEffectCore.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,10 +29,10 @@ public:
 
   static inline ::GlobalNamespace::MainEffectCore* New_ctor();
 
-  /// @brief Method SetGlobalShaderValues, addr 0x2ad79c0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method SetGlobalShaderValues, addr 0x2bd4268, size 0x88, virtual false, abstract: false, final false
   static inline void SetGlobalShaderValues(float_t baseColorBoost, float_t baseColorBoostThreshold);
 
-  /// @brief Method .ctor, addr 0x2ad83d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bd4c7c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__baseColorBoostID();

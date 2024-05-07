@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MockPlayerLobbyPoseGeneratorRecording.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,15 +22,15 @@ namespace GlobalNamespace {
 class CORDL_TYPE MockPlayerLobbyPoseGeneratorRecording : public ::GlobalNamespace::MockPlayerLobbyPoseGenerator {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x2605054, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x2704ec0, size 0x68, virtual true, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager);
 
-  /// @brief Method Tick, addr 0x26050bc, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method Tick, addr 0x2704f28, size 0x68, virtual true, abstract: false, final false
   inline void Tick();
 
-  /// @brief Method .ctor, addr 0x260504c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2704eb8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager);
 
 protected:

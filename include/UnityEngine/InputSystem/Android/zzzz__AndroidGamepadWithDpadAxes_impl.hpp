@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Android/AndroidGamepadWithDpadAxes.hpp"
 #include "UnityEngine/InputSystem/Android/zzzz__AndroidGamepad_impl.hpp"
 #include "UnityEngine/InputSystem/Android/zzzz__AndroidGamepadWithDpadAxes_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Android::AndroidGamepadWithDpadAxes._ctor
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Android::AndroidGamepadWithDpadAxes::*)()>(
     &::UnityEngine::InputSystem::Android::AndroidGamepadWithDpadAxes::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x30192c4;
+  constexpr static std::size_t addrs = 0x3155050;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

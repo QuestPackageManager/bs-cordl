@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/HashAlgorithm.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__HashAlgorithm_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Tls::HashAlgorithm.GetName
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(uint8_t)>(&::Org::BouncyCastle::Crypto::Tls::HashAlgorithm::GetName)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x10fd560;
+  constexpr static std::size_t addrs = 0x11f0c84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -20,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(uint8_t)>(&::Org::BouncyCastle::Crypto::Tls::HashAlgorithm::GetText)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x10fd618;
+  constexpr static std::size_t addrs = 0x11f0d3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint8_t)>(&::Org::BouncyCastle::Crypto::Tls::HashAlgorithm::IsPrivate)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x10fd794;
+  constexpr static std::size_t addrs = 0x11f0eb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint8_t)>(&::Org::BouncyCastle::Crypto::Tls::HashAlgorithm::IsRecognized)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x10fd7a4;
+  constexpr static std::size_t addrs = 0x11f0ec8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::HashAlgorithm::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::HashAlgorithm::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x10fd7b8;
+  constexpr static std::size_t addrs = 0x11f0edc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::HashAlgorithm*>::get(), ".ctor",

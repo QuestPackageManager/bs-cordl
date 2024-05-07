@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Buffers/ArrayPool_1.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Buffers/zzzz__ArrayPool_1_def.hpp"
 template <typename T> inline void System::Buffers::ArrayPool_1<T>::setStaticF__Shared_k__BackingField(::System::Buffers::ArrayPool_1<T>* value) {

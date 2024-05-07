@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/CompilerServices/INotifyCompletion.hpp"
 #include "System/Runtime/CompilerServices/zzzz__INotifyCompletion_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 //  Writing Method size for method: ::System::Runtime::CompilerServices::INotifyCompletion.OnCompleted

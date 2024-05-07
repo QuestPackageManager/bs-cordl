@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ColorTransitionSO.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -93,25 +94,25 @@ public:
 
   constexpr void __cordl_internal_set__selectedColor(::UnityW<::GlobalNamespace::ColorSO> value);
 
-  /// @brief Method .ctor, addr 0x263bb18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x273b904, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_disabledColor, addr 0x263b29c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_disabledColor, addr 0x273b088, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_disabledColor();
 
-  /// @brief Method get_highlightedColor, addr 0x263b22c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_highlightedColor, addr 0x273b018, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_highlightedColor();
 
-  /// @brief Method get_normalColor, addr 0x263afbc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_normalColor, addr 0x273ada8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_normalColor();
 
-  /// @brief Method get_pressedColor, addr 0x263b264, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_pressedColor, addr 0x273b050, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_pressedColor();
 
-  /// @brief Method get_selectedAndHighlightedColor, addr 0x263b30c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_selectedAndHighlightedColor, addr 0x273b0f8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_selectedAndHighlightedColor();
 
-  /// @brief Method get_selectedColor, addr 0x263b2d4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_selectedColor, addr 0x273b0c0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_selectedColor();
 
 protected:

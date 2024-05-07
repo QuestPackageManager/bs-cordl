@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MoveBackWall.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,10 +49,10 @@ public:
 
   static inline ::GlobalNamespace::MoveBackWall* New_ctor();
 
-  /// @brief Method Start, addr 0x2621ae0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x27219b4, size 0x54, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x2621b34, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2721a08, size 0xbc, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr float_t const& __cordl_internal_get__fadeInRegion() const;
@@ -90,7 +91,7 @@ public:
 
   constexpr void __cordl_internal_set__thisZ(float_t value);
 
-  /// @brief Method .ctor, addr 0x2621bf0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2721ac4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

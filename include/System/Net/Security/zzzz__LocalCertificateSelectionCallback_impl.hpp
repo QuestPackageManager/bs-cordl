@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Security/LocalCertificateSelectionCallback.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Net/Security/zzzz__LocalCertificateSelectionCallback_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateCollection_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Security::LocalCertificateSelectionCallback::*)(::System::Object*, void*)>(
     &::System::Net::Security::LocalCertificateSelectionCallback::_ctor)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x2e2f448;
+  constexpr static std::size_t addrs = 0x2f2dd48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +28,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                    ::System::Security::Cryptography::X509Certificates::X509Certificate*, ::ArrayW<::StringW, ::Array<::StringW>*>)>(
     &::System::Net::Security::LocalCertificateSelectionCallback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2e2f578;
+  constexpr static std::size_t addrs = 0x2f2de78;
 
   inline static ::MethodInfo const* methodInfo() {
 

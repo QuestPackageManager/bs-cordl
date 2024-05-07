@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "MS/Internal/Xml/Cache/XPathDocumentNavigator.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -77,25 +78,25 @@ public:
   /// @brief Convert operator to "::System::Xml::IXmlLineInfo"
   constexpr operator ::System::Xml::IXmlLineInfo*() noexcept;
 
-  /// @brief Method Clone, addr 0x2d6593c, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x2e6223c, size 0x7c, virtual true, abstract: false, final false
   inline ::System::Xml::XPath::XPathNavigator* Clone();
 
-  /// @brief Method GetPositionHashCode, addr 0x2d66270, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetPositionHashCode, addr 0x2e62b70, size 0xc, virtual false, abstract: false, final false
   inline int32_t GetPositionHashCode();
 
-  /// @brief Method HasLineInfo, addr 0x2d6608c, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method HasLineInfo, addr 0x2e6298c, size 0x44, virtual true, abstract: false, final true
   inline bool HasLineInfo();
 
-  /// @brief Method IsSamePosition, addr 0x2d65fd0, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method IsSamePosition, addr 0x2e628d0, size 0xac, virtual true, abstract: false, final false
   inline bool IsSamePosition(::System::Xml::XPath::XPathNavigator* other);
 
-  /// @brief Method MoveToFirstNamespace, addr 0x2d65b64, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method MoveToFirstNamespace, addr 0x2e62464, size 0xf4, virtual true, abstract: false, final false
   inline bool MoveToFirstNamespace(::System::Xml::XPath::XPathNamespaceScope namespaceScope);
 
-  /// @brief Method MoveToNextNamespace, addr 0x2d65e20, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method MoveToNextNamespace, addr 0x2e62720, size 0x108, virtual true, abstract: false, final false
   inline bool MoveToNextNamespace(::System::Xml::XPath::XPathNamespaceScope scope);
 
-  /// @brief Method MoveToParent, addr 0x2d65f4c, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method MoveToParent, addr 0x2e6284c, size 0x2c, virtual true, abstract: false, final false
   inline bool MoveToParent();
 
   static inline ::MS::Internal::Xml::Cache::XPathDocumentNavigator* New_ctor(::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> pageCurrent,
@@ -127,35 +128,35 @@ public:
 
   constexpr void __cordl_internal_set__pageParent(::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> value);
 
-  /// @brief Method .ctor, addr 0x2d654dc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e61ddc, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> pageCurrent, int32_t idxCurrent,
                     ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> pageParent, int32_t idxParent);
 
-  /// @brief Method get_LineNumber, addr 0x2d660d0, size 0x84, virtual true, abstract: false, final true
+  /// @brief Method get_LineNumber, addr 0x2e629d0, size 0x84, virtual true, abstract: false, final true
   inline int32_t get_LineNumber();
 
-  /// @brief Method get_LinePosition, addr 0x2d6617c, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method get_LinePosition, addr 0x2e62a7c, size 0xa4, virtual true, abstract: false, final true
   inline int32_t get_LinePosition();
 
-  /// @brief Method get_LocalName, addr 0x2d659fc, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x2e622fc, size 0x3c, virtual true, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_NameTable, addr 0x2d65b04, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_NameTable, addr 0x2e62404, size 0x44, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNameTable* get_NameTable();
 
-  /// @brief Method get_NamespaceURI, addr 0x2d65a54, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method get_NamespaceURI, addr 0x2e62354, size 0x3c, virtual true, abstract: false, final false
   inline ::StringW get_NamespaceURI();
 
-  /// @brief Method get_NodeType, addr 0x2d659b8, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x2e622b8, size 0x38, virtual true, abstract: false, final false
   inline ::System::Xml::XPath::XPathNodeType get_NodeType();
 
-  /// @brief Method get_Prefix, addr 0x2d65aac, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method get_Prefix, addr 0x2e623ac, size 0x3c, virtual true, abstract: false, final false
   inline ::StringW get_Prefix();
 
-  /// @brief Method get_UnderlyingObject, addr 0x2d6607c, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method get_UnderlyingObject, addr 0x2e6297c, size 0x10, virtual true, abstract: false, final false
   inline ::System::Object* get_UnderlyingObject();
 
-  /// @brief Method get_Value, addr 0x2d65560, size 0x1fc, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x2e61e60, size 0x1fc, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
   /// @brief Convert to "::System::Xml::IXmlLineInfo"

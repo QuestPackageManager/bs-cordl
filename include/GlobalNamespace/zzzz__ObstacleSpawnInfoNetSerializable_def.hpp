@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ObstacleSpawnInfoNetSerializable.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -76,20 +77,20 @@ public:
   /// @brief Field width, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get_width, put = __cordl_internal_set_width)) int32_t width;
 
-  /// @brief Method Deserialize, addr 0x141458c, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method Deserialize, addr 0x1505bdc, size 0x118, virtual true, abstract: false, final false
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Init, addr 0x1414310, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x1505960, size 0x120, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ObstacleSpawnInfoNetSerializable* Init(float_t time, int32_t lineIndex, ::GlobalNamespace::NoteLineLayer lineLayer, float_t duration, int32_t width, int32_t height,
                                                                    ::UnityEngine::Vector3 moveStartPos, ::UnityEngine::Vector3 moveEndPos, ::UnityEngine::Vector3 jumpEndPos, float_t obstacleHeight,
                                                                    float_t moveDuration, float_t jumpDuration, float_t noteLinesDistance, float_t rotation);
 
   static inline ::GlobalNamespace::ObstacleSpawnInfoNetSerializable* New_ctor();
 
-  /// @brief Method Obtain, addr 0x14142ac, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Obtain, addr 0x15058fc, size 0x64, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::ObstacleSpawnInfoNetSerializable* Obtain();
 
-  /// @brief Method Serialize, addr 0x1414488, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method Serialize, addr 0x1505ad8, size 0x104, virtual true, abstract: false, final false
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   constexpr float_t const& __cordl_internal_get_duration() const;
@@ -176,7 +177,7 @@ public:
 
   constexpr void __cordl_internal_set_width(int32_t value);
 
-  /// @brief Method .ctor, addr 0x1414430, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1505a80, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

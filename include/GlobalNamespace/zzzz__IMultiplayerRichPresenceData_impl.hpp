@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IMultiplayerRichPresenceData.hpp"
 #include "GlobalNamespace/zzzz__IMultiplayerRichPresenceData_def.hpp"
 #include "GlobalNamespace/zzzz__IRichPresenceData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IMultiplayerRichPresenceData.get_multiplayerSecret

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ComponentModel/ComponentCollection.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +25,7 @@ public:
   // Declarations
   __declspec(property(get = get_Item))::System::ComponentModel::IComponent* Item[];
 
-  /// @brief Method get_Item, addr 0x2e3373c, size 0x588, virtual true, abstract: false, final false
+  /// @brief Method get_Item, addr 0x2f3203c, size 0x588, virtual true, abstract: false, final false
   inline ::System::ComponentModel::IComponent* get_Item(::StringW name);
 
 protected:

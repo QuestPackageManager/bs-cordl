@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/LocalDataStoreElement.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__LocalDataStoreElement_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -7,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::LocalDataStoreElement::*)(int64_t)>(&::System::LocalDataStoreElement::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x285e25c;
+  constexpr static std::size_t addrs = 0x295cb04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -21,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::LocalDataStoreElement::*)()>(&::System::LocalDataStoreElement::get_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x285e284;
+  constexpr static std::size_t addrs = 0x295cb2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::LocalDataStoreElement*>::get(), "get_Value",
@@ -34,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::LocalDataStoreElement::*)(::System::Object*)>(&::System::LocalDataStoreElement::set_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x285e28c;
+  constexpr static std::size_t addrs = 0x295cb34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -48,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::LocalDataStoreElement::*)()>(&::System::LocalDataStoreElement::get_Cookie)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x285e294;
+  constexpr static std::size_t addrs = 0x295cb3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::LocalDataStoreElement*>::get(), "get_Cookie",

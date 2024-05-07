@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Reflection/AssemblyDelaySignAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Reflection/zzzz__AssemblyDelaySignAttribute_def.hpp"
 //  Writing Method size for method: ::System::Reflection::AssemblyDelaySignAttribute._ctor
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Reflection::AssemblyDelaySignAttribute::*)(bool)>(
     &::System::Reflection::AssemblyDelaySignAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x27661bc;
+  constexpr static std::size_t addrs = 0x28658cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

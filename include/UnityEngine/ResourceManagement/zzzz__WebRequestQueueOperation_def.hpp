@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ResourceManagement/WebRequestQueueOperation.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,7 +42,7 @@ public:
   /// @brief Field m_WebRequest, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_m_WebRequest, put = __cordl_internal_set_m_WebRequest))::UnityEngine::Networking::UnityWebRequest* m_WebRequest;
 
-  /// @brief Method Complete, addr 0x30fe89c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Complete, addr 0x3305324, size 0x28, virtual false, abstract: false, final false
   inline void Complete(::UnityEngine::Networking::UnityWebRequestAsyncOperation* asyncOp);
 
   static inline ::UnityEngine::ResourceManagement::WebRequestQueueOperation* New_ctor(::UnityEngine::Networking::UnityWebRequest* request);
@@ -70,10 +71,10 @@ public:
 
   constexpr void __cordl_internal_set_m_WebRequest(::UnityEngine::Networking::UnityWebRequest* value);
 
-  /// @brief Method .ctor, addr 0x30fe874, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33052fc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Networking::UnityWebRequest* request);
 
-  /// @brief Method get_IsDone, addr 0x30fe854, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_IsDone, addr 0x33052dc, size 0x20, virtual false, abstract: false, final false
   inline bool get_IsDone();
 
 protected:

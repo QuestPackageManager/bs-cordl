@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/LikeNode.hpp"
 #include "System/Data/zzzz__BinaryNode_impl.hpp"
 #include "System/Data/zzzz__LikeNode_def.hpp"
 #include "System/Data/zzzz__DataRowVersion_def.hpp"
@@ -12,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Data::LikeNode::*)(::System::Data::DataTable*, int32_t, ::System::Data::ExpressionNode*, ::System::Data::ExpressionNode*)>(&::System::Data::LikeNode::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2bca48c;
+  constexpr static std::size_t addrs = 0x2cc6d8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -30,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::LikeNode::*)(::System::Data::DataRow*, ::System::Data::DataRowVersion)>(
     &::System::Data::LikeNode::Eval)> {
   constexpr static std::size_t size = 0x51c;
-  constexpr static std::size_t addrs = 0x2bca4d0;
+  constexpr static std::size_t addrs = 0x2cc6dd0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Data::LikeNode::*)(::StringW)>(&::System::Data::LikeNode::AnalyzePattern)> {
   constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x2bca9ec;
+  constexpr static std::size_t addrs = 0x2cc72ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

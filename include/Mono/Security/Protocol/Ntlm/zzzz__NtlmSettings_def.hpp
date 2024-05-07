@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Security/Protocol/Ntlm/NtlmSettings.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,7 +28,7 @@ public:
 
   static inline ::Mono::Security::Protocol::Ntlm::NtlmAuthLevel getStaticF_defaultAuthLevel();
 
-  /// @brief Method get_DefaultAuthLevel, addr 0x26811b0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultAuthLevel, addr 0x277f5ac, size 0x58, virtual false, abstract: false, final false
   static inline ::Mono::Security::Protocol::Ntlm::NtlmAuthLevel get_DefaultAuthLevel();
 
   static inline void setStaticF_defaultAuthLevel(::Mono::Security::Protocol::Ntlm::NtlmAuthLevel value);

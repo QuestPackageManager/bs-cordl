@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/OpenSsl/PemWriter.hpp"
 #include "Org/BouncyCastle/Utilities/IO/Pem/zzzz__PemWriter_impl.hpp"
 #include "Org/BouncyCastle/OpenSsl/zzzz__PemWriter_def.hpp"
 #include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::OpenSsl::PemWriter::*)(::System::IO::TextWriter*)>(
     &::Org::BouncyCastle::OpenSsl::PemWriter::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x1244ea0;
+  constexpr static std::size_t addrs = 0x13365c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::OpenSsl::PemWriter::*)(::System::Object*)>(
     &::Org::BouncyCastle::OpenSsl::PemWriter::WriteObject)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x1244ea4;
+  constexpr static std::size_t addrs = 0x13365c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::OpenSsl::PemWriter::*)(
     ::System::Object*, ::StringW, ::ArrayW<char16_t, ::Array<char16_t>*>, ::Org::BouncyCastle::Security::SecureRandom*)>(&::Org::BouncyCastle::OpenSsl::PemWriter::WriteObject)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x1245014;
+  constexpr static std::size_t addrs = 0x1336738;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

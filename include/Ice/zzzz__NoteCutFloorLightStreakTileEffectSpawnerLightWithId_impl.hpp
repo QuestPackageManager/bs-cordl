@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Ice/NoteCutFloorLightStreakTileEffectSpawnerLightWithId.hpp"
 #include "GlobalNamespace/zzzz__LightWithIdMonoBehaviour_impl.hpp"
 #include "Ice/zzzz__NoteCutFloorLightStreakTileEffectSpawnerLightWithId_def.hpp"
 #include "Ice/zzzz__NoteCutFloorLightStreakTileEffectSpawner_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Ice::NoteCutFloorLightStreakTileEffectSpawnerLightWithId::*)(::UnityEngine::Color)>(
     &::Ice::NoteCutFloorLightStreakTileEffectSpawnerLightWithId::ColorWasSet)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0xf6d330;
+  constexpr static std::size_t addrs = 0x105bf3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Ice::NoteCutFloorLightStreakTileEffectSpawnerLightWithId::*)()>(
     &::Ice::NoteCutFloorLightStreakTileEffectSpawnerLightWithId::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf6d350;
+  constexpr static std::size_t addrs = 0x105bf5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

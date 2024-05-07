@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Globalization/TextInfoToUpperData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Globalization/zzzz__TextInfoToUpperData_def.hpp"
 inline void System::Globalization::TextInfoToUpperData::setStaticF_range_00e0_0586(::ArrayW<char16_t, ::Array<char16_t>*> value) {

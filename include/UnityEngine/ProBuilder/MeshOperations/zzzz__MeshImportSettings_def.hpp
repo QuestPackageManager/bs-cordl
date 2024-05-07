@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ProBuilder/MeshOperations/MeshImportSettings.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,7 +38,7 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings* New_ctor();
 
-  /// @brief Method ToString, addr 0x30e9494, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x32eff1c, size 0xd8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr bool const& __cordl_internal_get_m_Quads() const;
@@ -58,25 +59,25 @@ public:
 
   constexpr void __cordl_internal_set_m_SmoothingThreshold(float_t value);
 
-  /// @brief Method .ctor, addr 0x30e956c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32efff4, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_quads, addr 0x30e945c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_quads, addr 0x32efee4, size 0x8, virtual false, abstract: false, final false
   inline bool get_quads();
 
-  /// @brief Method get_smoothing, addr 0x30e9470, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_smoothing, addr 0x32efef8, size 0x8, virtual false, abstract: false, final false
   inline bool get_smoothing();
 
-  /// @brief Method get_smoothingAngle, addr 0x30e9484, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_smoothingAngle, addr 0x32eff0c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_smoothingAngle();
 
-  /// @brief Method set_quads, addr 0x30e9464, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_quads, addr 0x32efeec, size 0xc, virtual false, abstract: false, final false
   inline void set_quads(bool value);
 
-  /// @brief Method set_smoothing, addr 0x30e9478, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_smoothing, addr 0x32eff00, size 0xc, virtual false, abstract: false, final false
   inline void set_smoothing(bool value);
 
-  /// @brief Method set_smoothingAngle, addr 0x30e948c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_smoothingAngle, addr 0x32eff14, size 0x8, virtual false, abstract: false, final false
   inline void set_smoothingAngle(float_t value);
 
 protected:

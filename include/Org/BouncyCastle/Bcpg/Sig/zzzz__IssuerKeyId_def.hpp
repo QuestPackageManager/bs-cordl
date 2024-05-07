@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Bcpg/Sig/IssuerKeyId.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,20 +23,20 @@ public:
   // Declarations
   __declspec(property(get = get_KeyId)) int64_t KeyId;
 
-  /// @brief Method KeyIdToBytes, addr 0x1336a8c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method KeyIdToBytes, addr 0x142b1b0, size 0xd4, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> KeyIdToBytes(int64_t keyId);
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::IssuerKeyId* New_ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::IssuerKeyId* New_ctor(bool critical, int64_t keyId);
 
-  /// @brief Method .ctor, addr 0x1336b60, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x142b284, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0x1336ba8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x142b2cc, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(bool critical, int64_t keyId);
 
-  /// @brief Method get_KeyId, addr 0x1336bf4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_KeyId, addr 0x142b318, size 0x9c, virtual false, abstract: false, final false
   inline int64_t get_KeyId();
 
 protected:

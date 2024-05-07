@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/GUITargetAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/zzzz__GUITargetAttribute_def.hpp"
 #include "System/zzzz__Type_def.hpp"
@@ -7,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::Type*, ::StringW)>(&::UnityEngine::GUITargetAttribute::GetGUITargetAttrValue)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x32420e8;
+  constexpr static std::size_t addrs = 0x3449e24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/X25519KeyGenerationParameters.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,7 +24,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Parameters::X25519KeyGenerationParameters* New_ctor(::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method .ctor, addr 0x10a59f0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1199114, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* random);
 
 protected:

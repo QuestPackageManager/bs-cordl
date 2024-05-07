@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MultipliedAndAddedColorSO.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,10 +57,10 @@ public:
 
   constexpr void __cordl_internal_set__multiplierColor(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x139ca20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1492144, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_color, addr 0x139c9b8, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method get_color, addr 0x14920dc, size 0x68, virtual true, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
 protected:

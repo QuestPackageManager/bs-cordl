@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/LightRotationBaseData.hpp"
 #include "GlobalNamespace/zzzz__EaseType_impl.hpp"
 #include "GlobalNamespace/zzzz__LightRotationDirection_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -11,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightRotationBaseData::*)(
     float_t, bool, ::GlobalNamespace::EaseType, float_t, int32_t, ::GlobalNamespace::LightRotationDirection)>(&::GlobalNamespace::LightRotationBaseData::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x13bfae4;
+  constexpr static std::size_t addrs = 0x14b522c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

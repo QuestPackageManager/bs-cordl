@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Serialization/XmlCustomFormatter.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,19 +31,19 @@ public:
   /// @brief Field allTimeFormats, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_allTimeFormats, put = setStaticF_allTimeFormats))::ArrayW<::StringW, ::Array<::StringW>*> allTimeFormats;
 
-  /// @brief Method FromEnum, addr 0x2dcfa8c, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method FromEnum, addr 0x2ece38c, size 0x288, virtual false, abstract: false, final false
   static inline ::StringW FromEnum(int64_t value, ::ArrayW<::StringW, ::Array<::StringW>*> values, ::ArrayW<int64_t, ::Array<int64_t>*> ids, ::StringW typeName);
 
-  /// @brief Method FromXmlNCName, addr 0x2dcfd6c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method FromXmlNCName, addr 0x2ece66c, size 0x58, virtual false, abstract: false, final false
   static inline ::StringW FromXmlNCName(::StringW ncName);
 
-  /// @brief Method FromXmlName, addr 0x2dcfd14, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method FromXmlName, addr 0x2ece614, size 0x58, virtual false, abstract: false, final false
   static inline ::StringW FromXmlName(::StringW name);
 
-  /// @brief Method FromXmlString, addr 0x2dcfdc4, size 0xa78, virtual false, abstract: false, final false
+  /// @brief Method FromXmlString, addr 0x2ece6c4, size 0xa78, virtual false, abstract: false, final false
   static inline ::System::Object* FromXmlString(::System::Xml::Serialization::TypeData* type, ::StringW value);
 
-  /// @brief Method ToXmlString, addr 0x2dce7a8, size 0xcc4, virtual false, abstract: false, final false
+  /// @brief Method ToXmlString, addr 0x2ecd0a8, size 0xcc4, virtual false, abstract: false, final false
   static inline ::StringW ToXmlString(::System::Xml::Serialization::TypeData* type, ::System::Object* value);
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_allTimeFormats();

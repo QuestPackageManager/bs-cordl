@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MirroredObstacleController.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,7 +42,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__MirroredObstacleController__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x252e344, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26244c0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -88,27 +89,27 @@ public:
 
   __declspec(property(put = set_hide)) bool hide;
 
-  /// @brief Method Awake, addr 0x252df88, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x26242b4, size 0x1c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleDidStartDissolving, addr 0x252e2f8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleDidStartDissolving, addr 0x26244ac, size 0xc, virtual false, abstract: false, final false
   inline void HandleDidStartDissolving(::GlobalNamespace::ObstacleControllerBase* obstacleController, float_t duration);
 
-  /// @brief Method Mirror, addr 0x2522d24, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method Mirror, addr 0x2619690, size 0xe8, virtual false, abstract: false, final false
   inline void Mirror(::GlobalNamespace::ObstacleController* obstacleController);
 
   static inline ::GlobalNamespace::MirroredObstacleController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x252dfa4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x26242d0, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RemoveListeners, addr 0x252dfa8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method RemoveListeners, addr 0x26242d4, size 0xd0, virtual false, abstract: false, final false
   inline void RemoveListeners();
 
-  /// @brief Method Update, addr 0x252e074, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x26243a4, size 0x4, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdatePositionAndRotation, addr 0x252e078, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method UpdatePositionAndRotation, addr 0x26243a8, size 0x104, virtual false, abstract: false, final false
   inline void UpdatePositionAndRotation();
 
   constexpr ::UnityW<::GlobalNamespace::ObstacleController> const& __cordl_internal_get__followedObstacle() const;
@@ -135,10 +136,10 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x252e334, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26244b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_hide, addr 0x2523938, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_hide, addr 0x261a290, size 0x2c, virtual false, abstract: false, final false
   inline void set_hide(bool value);
 
 protected:

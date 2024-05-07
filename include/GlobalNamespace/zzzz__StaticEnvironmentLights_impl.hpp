@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/StaticEnvironmentLights.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__StaticEnvironmentLights_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
@@ -8,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StaticEnvironmentLights::*)()>(&::GlobalNamespace::StaticEnvironmentLights::Awake)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x25d8980;
+  constexpr static std::size_t addrs = 0x26d86c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StaticEnvironmentLights*>::get(), "Awake",
@@ -21,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StaticEnvironmentLights::*)()>(&::GlobalNamespace::StaticEnvironmentLights::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25d8a14;
+  constexpr static std::size_t addrs = 0x26d8754;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StaticEnvironmentLights*>::get(), ".ctor",

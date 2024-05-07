@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HEU_GenerateOptions.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_GenerateOptions_def.hpp"
 // Ctor Parameters [CppParam { name: "_generateUVs", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "_generateTangents", ty: "bool", modifiers: "", def_value: Some("{}") },
 // CppParam { name: "_generateNormals", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "_useLODGroups", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name:

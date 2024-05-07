@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MediaAsyncLoader.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -89,10 +90,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x265fe78, size 0x3d8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x275f314, size 0x3d8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2660250, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x275f6ec, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -161,10 +162,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26602a8, size 0x440, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x275f744, size 0x440, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26606e8, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x275fb84, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -232,10 +233,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2660740, size 0x3c4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x275fbdc, size 0x3c4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2660b04, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x275ffa0, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -304,10 +305,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2660b5c, size 0x588, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x275fff8, size 0x58c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26610e4, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2760584, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -384,27 +385,27 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IMediaAsyncLoader"
   constexpr operator ::GlobalNamespace::IMediaAsyncLoader*() noexcept;
 
-  /// @brief Method LoadAudioClipAsync, addr 0x265fb38, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method LoadAudioClipAsync, addr 0x275efd4, size 0xf8, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* LoadAudioClipAsync(::StringW filePath, bool streamAudio);
 
-  /// @brief Method LoadAudioClipFromFilePathAsync, addr 0x265fb2c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method LoadAudioClipFromFilePathAsync, addr 0x275efc8, size 0xc, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* LoadAudioClipFromFilePathAsync(::StringW filePath);
 
-  /// @brief Method LoadSpriteAsync, addr 0x265fd28, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method LoadSpriteAsync, addr 0x275f1c4, size 0xf8, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>* LoadSpriteAsync(::StringW path, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method LoadTextureAsync, addr 0x265fc30, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method LoadTextureAsync, addr 0x275f0cc, size 0xf8, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Texture2D>>* LoadTextureAsync(::StringW path, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method LoadWebpage, addr 0x265fa34, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method LoadWebpage, addr 0x275eed0, size 0xf8, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::StringW>* LoadWebpage(::StringW uri, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Log, addr 0x265fe20, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Log, addr 0x275f2bc, size 0x58, virtual false, abstract: false, final false
   static inline void Log(::StringW message);
 
   static inline ::GlobalNamespace::MediaAsyncLoader* New_ctor();
 
-  /// @brief Method .ctor, addr 0x265e4b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x275d954, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IMediaAsyncLoader"

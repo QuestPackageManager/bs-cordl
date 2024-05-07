@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "JetBrains/Annotations/AspMvcPartialViewAttribute.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,7 +21,7 @@ public:
   // Declarations
   static inline ::JetBrains::Annotations::AspMvcPartialViewAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x340a544, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x360f280, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

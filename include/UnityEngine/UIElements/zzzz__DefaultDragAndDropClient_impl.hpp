@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/DefaultDragAndDropClient.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__DefaultDragAndDropClient_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -11,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::UIElements::DefaultDragAndDropClient::*)()>(
     &::UnityEngine::UIElements::DefaultDragAndDropClient::get_userData)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x335d438;
+  constexpr static std::size_t addrs = 0x3561174;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DefaultDragAndDropClient*>::get(),
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DefaultDragAndDropClient::*)(::UnityEngine::UIElements::StartDragArgs*)>(
     &::UnityEngine::UIElements::DefaultDragAndDropClient::StartDrag)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x335d450;
+  constexpr static std::size_t addrs = 0x356118c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::IDragAndDropData* (::UnityEngine::UIElements::DefaultDragAndDropClient::*)()>(
     &::UnityEngine::UIElements::DefaultDragAndDropClient::get_data)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x335b788;
+  constexpr static std::size_t addrs = 0x355f4c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DefaultDragAndDropClient*>::get(),
@@ -54,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DefaultDragAndDropClient::*)()>(
     &::UnityEngine::UIElements::DefaultDragAndDropClient::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x335d430;
+  constexpr static std::size_t addrs = 0x356116c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DefaultDragAndDropClient*>::get(),

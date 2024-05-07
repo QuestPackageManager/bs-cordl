@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/DHValidationParameters.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__DHValidationParameters_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters::_ctor)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x109c66c;
+  constexpr static std::size_t addrs = 0x118fd90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters::GetSeed)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x109c768;
+  constexpr static std::size_t addrs = 0x118fe8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters::get_Counter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x109c7e0;
+  constexpr static std::size_t addrs = 0x118ff04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -54,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters::*)(::System::Object*)>(
     &::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters::Equals)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x109c7e8;
+  constexpr static std::size_t addrs = 0x118ff0c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -70,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters::*)(
     ::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters*)>(&::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters::Equals)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x109c884;
+  constexpr static std::size_t addrs = 0x118ffa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -85,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters::GetHashCode)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x109c914;
+  constexpr static std::size_t addrs = 0x1190038;
 
   inline static ::MethodInfo const* methodInfo() {
 

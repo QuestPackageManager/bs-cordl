@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/SecureStringHasher.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__SecureStringHasher_def.hpp"
@@ -11,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::__SecureStringHasher__HashCodeOfStringDelegate::*)(::System::Object*, void*)>(
     &::System::Xml::__SecureStringHasher__HashCodeOfStringDelegate::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x2d68bd8;
+  constexpr static std::size_t addrs = 0x2e644d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::__SecureStringHasher__HashCodeOfStringDelegate::*)(::StringW, int32_t, int64_t)>(
     &::System::Xml::__SecureStringHasher__HashCodeOfStringDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2d68cb0;
+  constexpr static std::size_t addrs = 0x2e645b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::SecureStringHasher::*)()>(&::System::Xml::SecureStringHasher::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2d6893c;
+  constexpr static std::size_t addrs = 0x2e6423c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::SecureStringHasher*>::get(), ".ctor",
@@ -71,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::SecureStringHasher::*)(::StringW, ::StringW)>(&::System::Xml::SecureStringHasher::Equals)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x2d68960;
+  constexpr static std::size_t addrs = 0x2e64260;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -85,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::SecureStringHasher::*)(::StringW)>(&::System::Xml::SecureStringHasher::GetHashCode)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2d68978;
+  constexpr static std::size_t addrs = 0x2e64278;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW, int32_t, int64_t)>(&::System::Xml::SecureStringHasher::GetHashCodeOfString)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x2d68b6c;
+  constexpr static std::size_t addrs = 0x2e6446c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -115,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::__SecureStringHasher__HashCodeOfStringDelegate* (*)()>(
     &::System::Xml::SecureStringHasher::GetHashCodeDelegate)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x2d68a14;
+  constexpr static std::size_t addrs = 0x2e64314;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::SecureStringHasher*>::get(), "GetHashCodeDelegate",

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/HMAsyncRequest.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,18 +37,18 @@ namespace GlobalNamespace {
 class CORDL_TYPE __HMAsyncRequest__CancelHander : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x23de094, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x24d5c98, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::GlobalNamespace::HMAsyncRequest* request, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x23de0b4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x24d5cb8, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x23de080, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x24d5c84, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::GlobalNamespace::HMAsyncRequest* request);
 
   static inline ::GlobalNamespace::__HMAsyncRequest__CancelHander* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x23ddf54, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24d5b58, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -90,7 +91,7 @@ public:
 
   __declspec(property(get = get_cancelled)) bool cancelled;
 
-  /// @brief Method Cancel, addr 0x23ddec4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Cancel, addr 0x24d5ac8, size 0x28, virtual true, abstract: false, final false
   inline void Cancel();
 
   static inline ::GlobalNamespace::HMAsyncRequest* New_ctor();
@@ -107,16 +108,16 @@ public:
 
   constexpr void __cordl_internal_set__cancelled(bool value);
 
-  /// @brief Method .ctor, addr 0x23ddeec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24d5af0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_CancelHandler, addr 0x23ddeac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CancelHandler, addr 0x24d5ab0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__HMAsyncRequest__CancelHander* get_CancelHandler();
 
-  /// @brief Method get_cancelled, addr 0x23ddebc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cancelled, addr 0x24d5ac0, size 0x8, virtual false, abstract: false, final false
   inline bool get_cancelled();
 
-  /// @brief Method set_CancelHandler, addr 0x23ddeb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CancelHandler, addr 0x24d5ab8, size 0x8, virtual false, abstract: false, final false
   inline void set_CancelHandler(::GlobalNamespace::__HMAsyncRequest__CancelHander* value);
 
 protected:

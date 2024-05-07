@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Yoga/YogaValue.hpp"
 #include "UnityEngine/Yoga/zzzz__YogaUnit_impl.hpp"
 #include "UnityEngine/Yoga/zzzz__YogaValue_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -8,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Yoga::YogaUnit (::UnityEngine::Yoga::YogaValue::*)()>(&::UnityEngine::Yoga::YogaValue::get_Unit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33f0134;
+  constexpr static std::size_t addrs = 0x35f5e70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Yoga::YogaValue>::get(), "get_Unit",
@@ -21,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Yoga::YogaValue::*)()>(&::UnityEngine::Yoga::YogaValue::get_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33f013c;
+  constexpr static std::size_t addrs = 0x35f5e78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Yoga::YogaValue>::get(), "get_Value",
@@ -34,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Yoga::YogaValue (*)(float_t)>(&::UnityEngine::Yoga::YogaValue::Point)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x33f32e4;
+  constexpr static std::size_t addrs = 0x35f9020;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -48,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Yoga::YogaValue::*)(::UnityEngine::Yoga::YogaValue)>(&::UnityEngine::Yoga::YogaValue::Equals)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x33f3308;
+  constexpr static std::size_t addrs = 0x35f9044;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -62,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Yoga::YogaValue::*)(::System::Object*)>(&::UnityEngine::Yoga::YogaValue::Equals)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x33f3368;
+  constexpr static std::size_t addrs = 0x35f90a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -76,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Yoga::YogaValue::*)()>(&::UnityEngine::Yoga::YogaValue::GetHashCode)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x33f33e0;
+  constexpr static std::size_t addrs = 0x35f911c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -90,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Yoga::YogaValue (*)()>(&::UnityEngine::Yoga::YogaValue::Auto)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x33f341c;
+  constexpr static std::size_t addrs = 0x35f9158;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Yoga::YogaValue>::get(), "Auto",
@@ -103,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Yoga::YogaValue (*)(float_t)>(&::UnityEngine::Yoga::YogaValue::Percent)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x33f3428;
+  constexpr static std::size_t addrs = 0x35f9164;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -118,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Yoga::YogaValue (*)(float_t)>(
     &::UnityEngine::Yoga::YogaValue::op_Implicit___UnityEngine__Yoga__YogaValue)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x33f3450;
+  constexpr static std::size_t addrs = 0x35f918c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

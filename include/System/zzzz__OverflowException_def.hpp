@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/OverflowException.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,16 +37,16 @@ public:
 
   static inline ::System::OverflowException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x2843570, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2942d44, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2843614, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2942de8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x28435cc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2942da0, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x28435f0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2942dc4, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
 protected:

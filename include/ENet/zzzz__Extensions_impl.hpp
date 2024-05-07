@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "ENet/Extensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "ENet/zzzz__Extensions_def.hpp"
 //  Writing Method size for method: ::ENet::Extensions.StringLength
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::ENet::Extensions::StringLength)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x24dfd24;
+  constexpr static std::size_t addrs = 0x25d79b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

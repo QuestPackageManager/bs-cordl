@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/VREvent_Reserved_t.hpp"
 #include "OVR/OpenVR/zzzz__VREvent_Reserved_t_def.hpp"
 // Ctor Parameters [CppParam { name: "reserved0", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "reserved1", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam
 // { name: "reserved2", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "reserved3", ty: "uint64_t", modifiers: "", def_value: Some("{}") }]

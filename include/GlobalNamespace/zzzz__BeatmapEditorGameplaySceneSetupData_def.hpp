@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BeatmapEditorGameplaySceneSetupData.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set_useFirstPersonFlyingController(bool value);
 
-  /// @brief Method .ctor, addr 0x25a7870, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a1954, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(bool useFirstPersonFlyingController, bool recordVRMovement, bool playVRMovement);
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/Vector3TransitionSO.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -90,25 +91,25 @@ public:
 
   constexpr void __cordl_internal_set__selectedState(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x263dda8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x273db94, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_disabledState, addr 0x263dd84, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_disabledState, addr 0x273db70, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_disabledState();
 
-  /// @brief Method get_highlightedState, addr 0x263dd6c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_highlightedState, addr 0x273db58, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_highlightedState();
 
-  /// @brief Method get_normalState, addr 0x263dd60, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_normalState, addr 0x273db4c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_normalState();
 
-  /// @brief Method get_pressedState, addr 0x263dd78, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_pressedState, addr 0x273db64, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_pressedState();
 
-  /// @brief Method get_selectedAndHighlightedState, addr 0x263dd9c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_selectedAndHighlightedState, addr 0x273db88, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_selectedAndHighlightedState();
 
-  /// @brief Method get_selectedState, addr 0x263dd90, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_selectedState, addr 0x273db7c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_selectedState();
 
 protected:

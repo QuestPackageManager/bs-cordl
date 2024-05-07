@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LIV/SDK/Unity/SDKTrackedSpace.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,10 +32,10 @@ namespace LIV::SDK::Unity {
 struct CORDL_TYPE SDKTrackedSpace {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x2503948, size 0x244, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x25fa5d4, size 0x244, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_empty, addr 0x2503820, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_empty, addr 0x25fa4ac, size 0x64, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKTrackedSpace get_empty();
 
   // Ctor Parameters []

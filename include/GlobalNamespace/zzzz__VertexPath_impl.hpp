@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/VertexPath.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__VertexPath_def.hpp"
@@ -19,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::VertexPath::*)()>(&::GlobalNamespace::VertexPath::get_length)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x259f878;
+  constexpr static std::size_t addrs = 0x26999e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VertexPath*>::get(), "get_length",
@@ -32,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VertexPath::*)(int32_t)>(&::GlobalNamespace::VertexPath::_ctor)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x259f300;
+  constexpr static std::size_t addrs = 0x2699470;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -46,8 +47,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VertexPath::*)(::GlobalNamespace::BezierPath*)>(
     &::GlobalNamespace::VertexPath::UpdateByBezierPath)> {
-  constexpr static std::size_t size = 0x474;
-  constexpr static std::size_t addrs = 0x259f3e4;
+  constexpr static std::size_t size = 0x46c;
+  constexpr static std::size_t addrs = 0x2699554;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::VertexPath::*)(int32_t)>(&::GlobalNamespace::VertexPath::TimeAtPoint)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x259fe04;
+  constexpr static std::size_t addrs = 0x2699f4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -76,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VertexPath::*)(int32_t, ByRef<::UnityEngine::Vector3>, ByRef<::UnityEngine::Vector3>,
                                                                                                                           ByRef<::UnityEngine::Vector3>)>(&::GlobalNamespace::VertexPath::GetVertex)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x259fe3c;
+  constexpr static std::size_t addrs = 0x2699f84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -93,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::VertexPath::*)(int32_t)>(&::GlobalNamespace::VertexPath::GetPoint)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x259fe9c;
+  constexpr static std::size_t addrs = 0x2699fe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -107,8 +108,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VertexPath::*)(::GlobalNamespace::BezierPath*, int32_t)>(
     &::GlobalNamespace::VertexPath::SplitBezierPathIntoFixNumberOfSegments)> {
-  constexpr static std::size_t size = 0x584;
-  constexpr static std::size_t addrs = 0x259f880;
+  constexpr static std::size_t size = 0x564;
+  constexpr static std::size_t addrs = 0x26999e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -125,7 +126,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ByRef<::UnityEngine::Vector3>, ByRef<::UnityEngine::Vector3>, ByRef<::UnityEngine::Vector3>, ByRef<::UnityEngine::Vector3>, float_t, ByRef<::UnityEngine::Vector3>, ByRef<float_t>,
     ByRef<::GlobalNamespace::__VertexPath__Vertex>, ByRef<int32_t>)>(&::GlobalNamespace::VertexPath::AddVertex)> {
   constexpr static std::size_t size = 0x40c;
-  constexpr static std::size_t addrs = 0x259fed4;
+  constexpr static std::size_t addrs = 0x269a01c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

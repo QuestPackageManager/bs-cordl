@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/CastInstruction_CastInstructionNoT.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,12 +45,12 @@ public:
   /// @brief Method ConvertNull, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ConvertNull(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method Create, addr 0x2b4d974, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2c4a274, size 0xc8, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::Interpreter::CastInstruction* Create(::System::Type* t);
 
   static inline ::System::Linq::Expressions::Interpreter::__CastInstruction__CastInstructionNoT* New_ctor(::System::Type* t);
 
-  /// @brief Method Run, addr 0x2b4dabc, size 0x158, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x2c4a3bc, size 0x158, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   constexpr ::System::Type*& __cordl_internal_get__t();
@@ -58,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set__t(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x2b4da44, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c4a344, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* t);
 
 protected:

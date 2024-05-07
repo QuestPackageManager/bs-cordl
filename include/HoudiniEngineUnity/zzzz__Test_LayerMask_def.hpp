@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/Test_LayerMask.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,7 +32,7 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_LayerMask*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_LayerMask*>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x24d2be8, size 0xf8, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x25ca874, size 0xf8, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_LayerMask* other);
 
   static inline ::HoudiniEngineUnity::Test_LayerMask* New_ctor(::UnityEngine::LayerMask self);
@@ -42,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set_self(::UnityEngine::LayerMask value);
 
-  /// @brief Method .ctor, addr 0x24d2bc0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25ca84c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::LayerMask self);
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_LayerMask*>"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "ENet/FreeCallback.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "ENet/zzzz__FreeCallback_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
@@ -9,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ENet::FreeCallback::*)(::System::Object*, void*)>(&::ENet::FreeCallback::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x24dc0ac;
+  constexpr static std::size_t addrs = 0x25d3d38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -23,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ENet::FreeCallback::*)(void*)>(&::ENet::FreeCallback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x24dc170;
+  constexpr static std::size_t addrs = 0x25d3dfc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -38,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (::ENet::FreeCallback::*)(void*, ::System::AsyncCallback*, ::System::Object*)>(
     &::ENet::FreeCallback::BeginInvoke)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x24dc184;
+  constexpr static std::size_t addrs = 0x25d3e10;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -52,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ENet::FreeCallback::*)(::System::IAsyncResult*)>(&::ENet::FreeCallback::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x24dc208;
+  constexpr static std::size_t addrs = 0x25d3e94;
 
   inline static ::MethodInfo const* methodInfo() {
 

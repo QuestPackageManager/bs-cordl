@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/DeletedRowInaccessibleException.hpp"
 #include "System/Data/zzzz__DataException_impl.hpp"
 #include "System/Data/zzzz__DeletedRowInaccessibleException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DeletedRowInaccessibleException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Data::DeletedRowInaccessibleException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b84c88;
+  constexpr static std::size_t addrs = 0x2c82588;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DeletedRowInaccessibleException::*)()>(
     &::System::Data::DeletedRowInaccessibleException::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x2b84c90;
+  constexpr static std::size_t addrs = 0x2c82590;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DeletedRowInaccessibleException*>::get(), ".ctor",
@@ -39,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DeletedRowInaccessibleException::*)(::StringW)>(
     &::System::Data::DeletedRowInaccessibleException::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2b84cec;
+  constexpr static std::size_t addrs = 0x2c825ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

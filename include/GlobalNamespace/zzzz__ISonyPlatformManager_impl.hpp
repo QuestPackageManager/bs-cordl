@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ISonyPlatformManager.hpp"
 #include "GlobalNamespace/zzzz__ISonyPlatformManager_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ISonyPlatformManager.get_userAccountId

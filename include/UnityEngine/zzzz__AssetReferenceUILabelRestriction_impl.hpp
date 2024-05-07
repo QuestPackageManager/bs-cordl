@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/AssetReferenceUILabelRestriction.hpp"
 #include "UnityEngine/zzzz__AssetReferenceUIRestriction_impl.hpp"
 #include "UnityEngine/zzzz__AssetReferenceUILabelRestriction_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AssetReferenceUILabelRestriction::*)(::ArrayW<::StringW, ::Array<::StringW>*>)>(
     &::UnityEngine::AssetReferenceUILabelRestriction::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2f43940;
+  constexpr static std::size_t addrs = 0x3045240;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::AssetReferenceUILabelRestriction::*)(::UnityEngine::Object*)>(
     &::UnityEngine::AssetReferenceUILabelRestriction::ValidateAsset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2f43968;
+  constexpr static std::size_t addrs = 0x3045268;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -39,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::AssetReferenceUILabelRestriction::*)(::StringW)>(
     &::UnityEngine::AssetReferenceUILabelRestriction::ValidateAsset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2f43970;
+  constexpr static std::size_t addrs = 0x3045270;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::AssetReferenceUILabelRestriction::*)()>(
     &::UnityEngine::AssetReferenceUILabelRestriction::ToString)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x2f43978;
+  constexpr static std::size_t addrs = 0x3045278;
 
   inline static ::MethodInfo const* methodInfo() {
 

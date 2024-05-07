@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ObjectsMovementRecorderEditorInstaller.hpp"
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__ObjectsMovementRecorderEditorInstaller_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ObjectsMovementRecorderEditorInstaller.InstallBindings
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObjectsMovementRecorderEditorInstaller::*)()>(
     &::GlobalNamespace::ObjectsMovementRecorderEditorInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x258c3f8;
+  constexpr static std::size_t addrs = 0x26853b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObjectsMovementRecorderEditorInstaller::*)()>(
     &::GlobalNamespace::ObjectsMovementRecorderEditorInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x258c3fc;
+  constexpr static std::size_t addrs = 0x26853bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BGNet/Core/DefaultTimeProvider.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,7 +22,7 @@ namespace BGNet::Core {
 class CORDL_TYPE DefaultTimeProvider : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_instance, addr 0xfc91f8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_instance, addr 0x10bb91c, size 0x58, virtual false, abstract: false, final false
   static inline ::BGNet::Core::ITimeProvider* get_instance();
 
 protected:

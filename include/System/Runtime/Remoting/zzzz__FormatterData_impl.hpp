@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/FormatterData.hpp"
 #include "System/Runtime/Remoting/zzzz__ProviderData_impl.hpp"
 #include "System/Runtime/Remoting/zzzz__FormatterData_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::FormatterData._ctor
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::FormatterData::*)()>(&::System::Runtime::Remoting::FormatterData::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2711148;
+  constexpr static std::size_t addrs = 0x280f544;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::FormatterData*>::get(), ".ctor",

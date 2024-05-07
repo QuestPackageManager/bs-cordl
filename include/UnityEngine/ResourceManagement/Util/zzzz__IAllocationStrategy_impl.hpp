@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ResourceManagement/Util/IAllocationStrategy.hpp"
 #include "UnityEngine/ResourceManagement/Util/zzzz__IAllocationStrategy_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"

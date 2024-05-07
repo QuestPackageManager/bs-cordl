@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/AttributeUsageAttribute.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,23 +59,23 @@ public:
 
   constexpr void __cordl_internal_set__inherited(bool value);
 
-  /// @brief Method .ctor, addr 0x279ae98, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x289a5b8, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::System::AttributeTargets validOn);
 
   static inline ::System::AttributeUsageAttribute* getStaticF_Default();
 
-  /// @brief Method get_AllowMultiple, addr 0x279aed0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AllowMultiple, addr 0x289a5f0, size 0x8, virtual false, abstract: false, final false
   inline bool get_AllowMultiple();
 
-  /// @brief Method get_Inherited, addr 0x279aee4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Inherited, addr 0x289a604, size 0x8, virtual false, abstract: false, final false
   inline bool get_Inherited();
 
   static inline void setStaticF_Default(::System::AttributeUsageAttribute* value);
 
-  /// @brief Method set_AllowMultiple, addr 0x279aed8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_AllowMultiple, addr 0x289a5f8, size 0xc, virtual false, abstract: false, final false
   inline void set_AllowMultiple(bool value);
 
-  /// @brief Method set_Inherited, addr 0x279aeec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Inherited, addr 0x289a60c, size 0xc, virtual false, abstract: false, final false
   inline void set_Inherited(bool value);
 
 protected:

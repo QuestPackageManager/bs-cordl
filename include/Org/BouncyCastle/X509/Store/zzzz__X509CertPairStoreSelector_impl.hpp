@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/X509/Store/X509CertPairStoreSelector.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/X509/Store/zzzz__X509CertPairStoreSelector_def.hpp"
 #include "Org/BouncyCastle/X509/Store/zzzz__IX509Selector_def.hpp"
@@ -13,7 +14,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::X509::Store::X509CertStoreSelector* (*)(::Org::BouncyCastle::X509::Store::X509CertStoreSelector*)>(
         &::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::CloneSelector)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x12e2474;
+  constexpr static std::size_t addrs = 0x13d3b98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::*)()>(
     &::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x12e2500;
+  constexpr static std::size_t addrs = 0x13d3c24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -43,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::*)(
     ::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector*)>(&::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x12e2508;
+  constexpr static std::size_t addrs = 0x13d3c2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::X509::X509CertificatePair* (::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::*)()>(
     &::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::get_CertPair)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x12e2564;
+  constexpr static std::size_t addrs = 0x13d3c88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -73,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::*)(
     ::Org::BouncyCastle::X509::X509CertificatePair*)>(&::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::set_CertPair)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x12e256c;
+  constexpr static std::size_t addrs = 0x13d3c90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -88,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::X509::Store::X509CertStoreSelector* (
     ::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::*)()>(&::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::get_ForwardSelector)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x12e2554;
+  constexpr static std::size_t addrs = 0x13d3c78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -103,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::*)(
     ::Org::BouncyCastle::X509::Store::X509CertStoreSelector*)>(&::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::set_ForwardSelector)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x12e2574;
+  constexpr static std::size_t addrs = 0x13d3c98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -118,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::X509::Store::X509CertStoreSelector* (
     ::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::*)()>(&::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::get_ReverseSelector)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x12e255c;
+  constexpr static std::size_t addrs = 0x13d3c80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -133,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::*)(
     ::Org::BouncyCastle::X509::Store::X509CertStoreSelector*)>(&::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::set_ReverseSelector)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x12e2590;
+  constexpr static std::size_t addrs = 0x13d3cb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -148,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::*)(::System::Object*)>(
     &::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::Match)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x12e25ac;
+  constexpr static std::size_t addrs = 0x13d3cd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -163,7 +164,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::*)()>(
     &::Org::BouncyCastle::X509::Store::X509CertPairStoreSelector::Clone)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x12e26d8;
+  constexpr static std::size_t addrs = 0x13d3dfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

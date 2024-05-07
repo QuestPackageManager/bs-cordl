@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Dynamic/Utils/ExpressionVisitorUtils.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Dynamic/Utils/zzzz__ExpressionVisitorUtils_def.hpp"
 #include "System/Linq/Expressions/zzzz__BlockExpression_def.hpp"
@@ -13,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Linq::Expressions::Expression*, ::Array<::System::Linq::Expressions::Expression*>*> (*)(
     ::System::Linq::Expressions::ExpressionVisitor*, ::System::Linq::Expressions::BlockExpression*)>(&::System::Dynamic::Utils::ExpressionVisitorUtils::VisitBlockExpressions)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x2b58dfc;
+  constexpr static std::size_t addrs = 0x2c556fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,7 +31,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::System::Linq::Expressions::ParameterExpression*, ::Array<::System::Linq::Expressions::ParameterExpression*>*> (*)(
         ::System::Linq::Expressions::ExpressionVisitor*, ::System::Linq::Expressions::IParameterProvider*, ::StringW)>(&::System::Dynamic::Utils::ExpressionVisitorUtils::VisitParameters)> {
   constexpr static std::size_t size = 0x2b4;
-  constexpr static std::size_t addrs = 0x2b58fa0;
+  constexpr static std::size_t addrs = 0x2c558a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -47,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Linq::Expressions::Expression*, ::Array<::System::Linq::Expressions::Expression*>*> (*)(
     ::System::Linq::Expressions::ExpressionVisitor*, ::System::Linq::Expressions::IArgumentProvider*)>(&::System::Dynamic::Utils::ExpressionVisitorUtils::VisitArguments)> {
   constexpr static std::size_t size = 0x294;
-  constexpr static std::size_t addrs = 0x2b59254;
+  constexpr static std::size_t addrs = 0x2c55b54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

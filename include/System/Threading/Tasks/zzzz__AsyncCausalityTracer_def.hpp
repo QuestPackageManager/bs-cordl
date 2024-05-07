@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/Tasks/AsyncCausalityTracer.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,19 +30,19 @@ namespace System::Threading::Tasks {
 class CORDL_TYPE AsyncCausalityTracer : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method TraceOperationCompletion, addr 0x28b7020, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TraceOperationCompletion, addr 0x29b58d0, size 0x4, virtual false, abstract: false, final false
   static inline void TraceOperationCompletion(::System::Threading::Tasks::CausalityTraceLevel traceLevel, int32_t taskId, ::System::Threading::Tasks::AsyncCausalityStatus status);
 
-  /// @brief Method TraceOperationCreation, addr 0x28b701c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TraceOperationCreation, addr 0x29b58cc, size 0x4, virtual false, abstract: false, final false
   static inline void TraceOperationCreation(::System::Threading::Tasks::CausalityTraceLevel traceLevel, int32_t taskId, ::StringW operationName, uint64_t relatedContext);
 
-  /// @brief Method TraceSynchronousWorkCompletion, addr 0x28b3b5c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TraceSynchronousWorkCompletion, addr 0x29b240c, size 0x4, virtual false, abstract: false, final false
   static inline void TraceSynchronousWorkCompletion(::System::Threading::Tasks::CausalityTraceLevel traceLevel, ::System::Threading::Tasks::CausalitySynchronousWork work);
 
-  /// @brief Method TraceSynchronousWorkStart, addr 0x28b7024, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TraceSynchronousWorkStart, addr 0x29b58d4, size 0x4, virtual false, abstract: false, final false
   static inline void TraceSynchronousWorkStart(::System::Threading::Tasks::CausalityTraceLevel traceLevel, int32_t taskId, ::System::Threading::Tasks::CausalitySynchronousWork work);
 
-  /// @brief Method get_LoggingOn, addr 0x28b3b54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LoggingOn, addr 0x29b2404, size 0x8, virtual false, abstract: false, final false
   static inline bool get_LoggingOn();
 
 protected:

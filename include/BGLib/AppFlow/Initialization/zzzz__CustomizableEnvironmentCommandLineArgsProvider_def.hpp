@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BGLib/AppFlow/Initialization/CustomizableEnvironmentCommandLineArgsProvider.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,7 +21,7 @@ namespace BGLib::AppFlow::Initialization {
 class CORDL_TYPE CustomizableEnvironmentCommandLineArgsProvider : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetCommandLineArgs, addr 0xf802ec, size 0x1008, virtual false, abstract: false, final false
+  /// @brief Method GetCommandLineArgs, addr 0x107289c, size 0x8, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> GetCommandLineArgs();
 
 protected:

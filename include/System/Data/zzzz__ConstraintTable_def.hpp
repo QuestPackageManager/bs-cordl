@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/ConstraintTable.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set_table(::System::Data::DataTable* value);
 
-  /// @brief Method .ctor, addr 0x2beae30, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ce7730, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* t, ::System::Xml::Schema::XmlSchemaIdentityConstraint* c);
 
 protected:

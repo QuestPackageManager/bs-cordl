@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/CustomFormatRangeValuesSlider.hpp"
 #include "HMUI/zzzz__RangeValuesTextSlider_impl.hpp"
 #include "HMUI/zzzz__CustomFormatRangeValuesSlider_def.hpp"
 //  Writing Method size for method: ::HMUI::CustomFormatRangeValuesSlider.TextForValue
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::HMUI::CustomFormatRangeValuesSlider::*)(float_t)>(
     &::HMUI::CustomFormatRangeValuesSlider::TextForValue)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x240c53c;
+  constexpr static std::size_t addrs = 0x25051c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -21,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::CustomFormatRangeValuesSlider::*)()>(&::HMUI::CustomFormatRangeValuesSlider::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x240c5ac;
+  constexpr static std::size_t addrs = 0x2505238;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::CustomFormatRangeValuesSlider*>::get(), ".ctor",

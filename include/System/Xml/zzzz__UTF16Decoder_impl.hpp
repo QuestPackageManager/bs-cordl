@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/UTF16Decoder.hpp"
 #include "System/Text/zzzz__Decoder_impl.hpp"
 #include "System/Xml/zzzz__UTF16Decoder_def.hpp"
 //  Writing Method size for method: ::System::Xml::UTF16Decoder._ctor
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::UTF16Decoder::*)(bool)>(&::System::Xml::UTF16Decoder::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x2dbcbbc;
+  constexpr static std::size_t addrs = 0x2eba4bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -21,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::UTF16Decoder::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::System::Xml::UTF16Decoder::GetCharCount)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2dbcbec;
+  constexpr static std::size_t addrs = 0x2eba4ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -36,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::UTF16Decoder::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, bool)>(
     &::System::Xml::UTF16Decoder::GetCharCount)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x2dbcbfc;
+  constexpr static std::size_t addrs = 0x2eba4fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -51,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::UTF16Decoder::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::ArrayW<char16_t, ::Array<char16_t>*>, int32_t)>(&::System::Xml::UTF16Decoder::GetChars)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x2dbcce8;
+  constexpr static std::size_t addrs = 0x2eba5e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -67,7 +68,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t, bool, ByRef<int32_t>, ByRef<int32_t>, ByRef<bool>)>(
     &::System::Xml::UTF16Decoder::Convert)> {
   constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x2dbcf20;
+  constexpr static std::size_t addrs = 0x2eba820;
 
   inline static ::MethodInfo const* methodInfo() {
 

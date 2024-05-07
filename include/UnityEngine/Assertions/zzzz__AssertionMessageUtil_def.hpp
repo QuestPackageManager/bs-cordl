@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Assertions/AssertionMessageUtil.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,19 +23,19 @@ namespace UnityEngine::Assertions {
 class CORDL_TYPE AssertionMessageUtil : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method BooleanFailureMessage, addr 0x321fea8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method BooleanFailureMessage, addr 0x3426be4, size 0x90, virtual false, abstract: false, final false
   static inline ::StringW BooleanFailureMessage(bool expected);
 
-  /// @brief Method GetEqualityMessage, addr 0x32204fc, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method GetEqualityMessage, addr 0x3427238, size 0x1f4, virtual false, abstract: false, final false
   static inline ::StringW GetEqualityMessage(::System::Object* actual, ::System::Object* expected, bool expectEqual);
 
-  /// @brief Method GetMessage, addr 0x3220890, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetMessage, addr 0x34275cc, size 0xec, virtual false, abstract: false, final false
   static inline ::StringW GetMessage(::StringW failureMessage);
 
-  /// @brief Method GetMessage, addr 0x322097c, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetMessage, addr 0x34276b8, size 0x158, virtual false, abstract: false, final false
   static inline ::StringW GetMessage(::StringW failureMessage, ::StringW expected);
 
-  /// @brief Method NullFailureMessage, addr 0x322019c, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method NullFailureMessage, addr 0x3426ed8, size 0x168, virtual false, abstract: false, final false
   static inline ::StringW NullFailureMessage(::System::Object* value, bool expectNull);
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Schema/JsonSchemaNodeCollection.hpp"
 #include "System/Collections/ObjectModel/zzzz__KeyedCollection_2_impl.hpp"
 #include "Newtonsoft/Json/Schema/zzzz__JsonSchemaNodeCollection_def.hpp"
 #include "Newtonsoft/Json/Schema/zzzz__JsonSchemaNode_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Schema::JsonSchemaNodeCollection::*)(::Newtonsoft::Json::Schema::JsonSchemaNode*)>(
     &::Newtonsoft::Json::Schema::JsonSchemaNodeCollection::GetKeyForItem)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x2955118;
+  constexpr static std::size_t addrs = 0x2a539c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Schema::JsonSchemaNodeCollection::*)()>(
     &::Newtonsoft::Json::Schema::JsonSchemaNodeCollection::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x29535d4;
+  constexpr static std::size_t addrs = 0x2a51e84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Schema::JsonSchemaNodeCollection*>::get(),

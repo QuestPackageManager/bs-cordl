@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/LightRotationBeatmapEventDataBox.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventDataBox_impl.hpp"
 #include "GlobalNamespace/zzzz__LightAxis_impl.hpp"
 #include "GlobalNamespace/zzzz__LightRotationBeatmapEventDataBox_def.hpp"
@@ -17,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::LightRotationBeatmapEventDataBox::*)()>(
     &::GlobalNamespace::LightRotationBeatmapEventDataBox::get_subtypeIdentifier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x13bf320;
+  constexpr static std::size_t addrs = 0x14b4a68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -33,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::LightRotationBeatmapEventDataBox::*)()>(
     &::GlobalNamespace::LightRotationBeatmapEventDataBox::get_beatStep)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x13bf328;
+  constexpr static std::size_t addrs = 0x14b4a70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -51,7 +52,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType, bool, ::GlobalNamespace::EaseType, ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightRotationBaseData*>*)>(
     &::GlobalNamespace::LightRotationBeatmapEventDataBox::_ctor)> {
   constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x13bf330;
+  constexpr static std::size_t addrs = 0x14b4a78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -74,7 +75,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     float_t, int32_t, int32_t, int32_t, int32_t, float_t, ::GlobalNamespace::IBeatToTimeConverter*, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>*)>(
     &::GlobalNamespace::LightRotationBeatmapEventDataBox::Unpack)> {
   constexpr static std::size_t size = 0x580;
-  constexpr static std::size_t addrs = 0x13bf564;
+  constexpr static std::size_t addrs = 0x14b4cac;
 
   inline static ::MethodInfo const* methodInfo() {
 

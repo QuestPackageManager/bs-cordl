@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HEU_AssetPresetUtility.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,10 +31,10 @@ public:
   /// @brief Field PRESET_VERSION, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_PRESET_VERSION, put = setStaticF_PRESET_VERSION)) int32_t PRESET_VERSION;
 
-  /// @brief Method LoadPresetFileIntoAssetAndCook, addr 0x2439a44, size 0x668, virtual false, abstract: false, final false
+  /// @brief Method LoadPresetFileIntoAssetAndCook, addr 0x25336d0, size 0x668, virtual false, abstract: false, final false
   static inline void LoadPresetFileIntoAssetAndCook(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW filePath);
 
-  /// @brief Method SaveAssetPresetToFile, addr 0x2438c18, size 0x640, virtual false, abstract: false, final false
+  /// @brief Method SaveAssetPresetToFile, addr 0x25328a4, size 0x640, virtual false, abstract: false, final false
   static inline void SaveAssetPresetToFile(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, ::StringW filePath);
 
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_PRESET_IDENTIFIER();

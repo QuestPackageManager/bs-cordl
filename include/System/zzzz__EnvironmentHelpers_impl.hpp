@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/EnvironmentHelpers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__EnvironmentHelpers_def.hpp"
 //  Writing Method size for method: ::System::EnvironmentHelpers.IsWindowsVistaOrAbove
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::System::EnvironmentHelpers::IsWindowsVistaOrAbove)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2e81d0c;
+  constexpr static std::size_t addrs = 0x2f8160c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::EnvironmentHelpers*>::get(), "IsWindowsVistaOrAbove",

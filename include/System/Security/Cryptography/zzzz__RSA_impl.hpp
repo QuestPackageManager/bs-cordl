@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Cryptography/RSA.hpp"
 #include "System/Security/Cryptography/zzzz__AsymmetricAlgorithm_impl.hpp"
 #include "System/Security/Cryptography/zzzz__RSA_def.hpp"
 #include "System/Security/Cryptography/zzzz__RSAParameters_def.hpp"
@@ -7,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::RSA::*)()>(&::System::Security::Cryptography::RSA::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26e8de4;
+  constexpr static std::size_t addrs = 0x27e61e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::RSA*>::get(), ".ctor",
@@ -20,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::RSA* (*)()>(&::System::Security::Cryptography::RSA::Create)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x26e8dec;
+  constexpr static std::size_t addrs = 0x27e61e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::RSA*>::get(), "Create",
@@ -34,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::System::Security::Cryptography::RSA::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::System::Security::Cryptography::RSA::EncryptValue)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x26e8e8c;
+  constexpr static std::size_t addrs = 0x27e6288;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -48,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::RSA::*)(::StringW)>(&::System::Security::Cryptography::RSA::FromXmlString)> {
   constexpr static std::size_t size = 0x538;
-  constexpr static std::size_t addrs = 0x26e8eec;
+  constexpr static std::size_t addrs = 0x27e62e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -62,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::Cryptography::RSA::*)(bool)>(&::System::Security::Cryptography::RSA::ToXmlString)> {
   constexpr static std::size_t size = 0x43c;
-  constexpr static std::size_t addrs = 0x26e9440;
+  constexpr static std::size_t addrs = 0x27e683c;
 
   inline static ::MethodInfo const* methodInfo() {
 

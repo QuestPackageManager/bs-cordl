@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Linq/NamespaceCache.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,7 +23,7 @@ namespace System::Xml::Linq {
 struct CORDL_TYPE NamespaceCache {
 public:
   // Declarations
-  /// @brief Method Get, addr 0x2c9d33c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x2d9bc3c, size 0x34, virtual false, abstract: false, final false
   inline ::System::Xml::Linq::XNamespace* Get(::StringW namespaceName);
 
   // Ctor Parameters []

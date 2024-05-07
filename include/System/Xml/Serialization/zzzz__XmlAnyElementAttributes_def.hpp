@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Serialization/XmlAnyElementAttributes.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,21 +30,21 @@ public:
 
   __declspec(property(get = get_Order)) int32_t Order;
 
-  /// @brief Method Add, addr 0x2dcc824, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x2eca124, size 0xb8, virtual false, abstract: false, final false
   inline int32_t Add(::System::Xml::Serialization::XmlAnyElementAttribute* attribute);
 
-  /// @brief Method AddKeyHash, addr 0x2dcc8dc, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method AddKeyHash, addr 0x2eca1dc, size 0xcc, virtual false, abstract: false, final false
   inline void AddKeyHash(::System::Text::StringBuilder* sb);
 
   static inline ::System::Xml::Serialization::XmlAnyElementAttributes* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2dccc88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2eca588, size 0x1008, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Item, addr 0x2dcc724, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x2eca024, size 0x100, virtual false, abstract: false, final false
   inline ::System::Xml::Serialization::XmlAnyElementAttribute* get_Item(int32_t index);
 
-  /// @brief Method get_Order, addr 0x2dcc9a8, size 0x2e0, virtual false, abstract: false, final false
+  /// @brief Method get_Order, addr 0x2eca2a8, size 0x2e0, virtual false, abstract: false, final false
   inline int32_t get_Order();
 
 protected:

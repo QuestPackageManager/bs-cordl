@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Configuration/WebRequestModuleElementCollection.hpp"
 #include "System/Configuration/zzzz__ConfigurationElementCollection_impl.hpp"
 #include "System/Net/Configuration/zzzz__WebRequestModuleElementCollection_def.hpp"
 //  Writing Method size for method: ::System::Net::Configuration::WebRequestModuleElementCollection._ctor
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Configuration::WebRequestModuleElementCollection::*)()>(
     &::System::Net::Configuration::WebRequestModuleElementCollection::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2e79a78;
+  constexpr static std::size_t addrs = 0x2f78378;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

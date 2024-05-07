@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/TreePrototype.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__TreePrototype_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -8,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::UnityEngine::TreePrototype::*)()>(&::UnityEngine::TreePrototype::get_prefab)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x326aacc;
+  constexpr static std::size_t addrs = 0x3473808;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TreePrototype*>::get(), "get_prefab",
@@ -21,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TreePrototype::*)(::UnityEngine::GameObject*)>(&::UnityEngine::TreePrototype::set_prefab)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x326aad4;
+  constexpr static std::size_t addrs = 0x3473810;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -35,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::TreePrototype::*)()>(&::UnityEngine::TreePrototype::get_bendFactor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x326aadc;
+  constexpr static std::size_t addrs = 0x3473818;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TreePrototype*>::get(), "get_bendFactor",
@@ -48,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TreePrototype::*)(float_t)>(&::UnityEngine::TreePrototype::set_bendFactor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x326aae4;
+  constexpr static std::size_t addrs = 0x3473820;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::TreePrototype::*)()>(&::UnityEngine::TreePrototype::get_navMeshLod)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x326aaec;
+  constexpr static std::size_t addrs = 0x3473828;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TreePrototype*>::get(), "get_navMeshLod",
@@ -75,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TreePrototype::*)()>(&::UnityEngine::TreePrototype::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x326aaf4;
+  constexpr static std::size_t addrs = 0x3473830;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TreePrototype*>::get(), ".ctor",
@@ -88,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TreePrototype::*)(::System::Object*)>(&::UnityEngine::TreePrototype::Equals)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x326aafc;
+  constexpr static std::size_t addrs = 0x3473838;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -102,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::TreePrototype::*)()>(&::UnityEngine::TreePrototype::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x326ac38;
+  constexpr static std::size_t addrs = 0x3473974;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -116,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TreePrototype::*)(::UnityEngine::TreePrototype*)>(&::UnityEngine::TreePrototype::Equals)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x326ab60;
+  constexpr static std::size_t addrs = 0x347389c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

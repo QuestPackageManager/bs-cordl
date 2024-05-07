@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/RangePositionInfo.hpp"
 #include "System/Xml/Schema/zzzz__RangePositionInfo_def.hpp"
 #include "System/Xml/Schema/zzzz__BitSet_def.hpp"
 #include "System/zzzz__Decimal_def.hpp"

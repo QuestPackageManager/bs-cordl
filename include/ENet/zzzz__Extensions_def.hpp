@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "ENet/Extensions.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,7 +21,7 @@ namespace ENet {
 class CORDL_TYPE Extensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method StringLength, addr 0x24dfd24, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method StringLength, addr 0x25d79b0, size 0x9c, virtual false, abstract: false, final false
   static inline int32_t StringLength(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
 protected:

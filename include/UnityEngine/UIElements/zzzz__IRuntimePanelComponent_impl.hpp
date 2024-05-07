@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/IRuntimePanelComponent.hpp"
 #include "UnityEngine/UIElements/zzzz__IRuntimePanelComponent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IPanel_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::IRuntimePanelComponent.set_panel

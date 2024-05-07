@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ComponentModel/InvalidEnumArgumentException.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,16 +38,16 @@ public:
 
   static inline ::System::ComponentModel::InvalidEnumArgumentException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x2e3496c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f3326c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2e34980, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f33280, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(::StringW argumentName, int32_t invalidValue, ::System::Type* enumClass);
 
-  /// @brief Method .ctor, addr 0x2e34a64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f33364, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x2e34978, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f33278, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

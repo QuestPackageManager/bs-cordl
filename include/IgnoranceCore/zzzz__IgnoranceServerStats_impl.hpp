@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "IgnoranceCore/IgnoranceServerStats.hpp"
 #include "IgnoranceCore/zzzz__IgnoranceServerStats_def.hpp"
 #include "IgnoranceCore/zzzz__IgnoranceClientStats_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"

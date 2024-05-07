@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/NetworkInformation/sockaddr_ll.hpp"
 #include "System/Net/NetworkInformation/zzzz__sockaddr_ll_def.hpp"
 // Ctor Parameters [CppParam { name: "sll_family", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "sll_protocol", ty: "uint16_t", modifiers: "", def_value: Some("{}") },
 // CppParam { name: "sll_ifindex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "sll_hatype", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name:

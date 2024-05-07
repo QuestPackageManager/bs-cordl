@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/MessageWithUserCapabilityList.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,15 +23,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithUserCapabilityList : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::UserCapabilityList*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x29cc840, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x2aca0f0, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::UserCapabilityList* GetDataFromMessage(void* c_message);
 
-  /// @brief Method GetUserCapabilityList, addr 0x29cc804, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetUserCapabilityList, addr 0x2aca0b4, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::UserCapabilityList* GetUserCapabilityList();
 
   static inline ::Oculus::Platform::MessageWithUserCapabilityList* New_ctor(void* c_message);
 
-  /// @brief Method .ctor, addr 0x29c8384, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ac5c34, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(void* c_message);
 
 protected:

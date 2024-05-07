@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaGroupBase.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,7 +29,7 @@ public:
   /// @brief Method SetItems, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void SetItems(::System::Xml::Schema::XmlSchemaObjectCollection* newItems);
 
-  /// @brief Method .ctor, addr 0x2d0ff64, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e0d864, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_Items, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

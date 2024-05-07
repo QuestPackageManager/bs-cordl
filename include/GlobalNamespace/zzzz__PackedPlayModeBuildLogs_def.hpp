@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/PackedPlayModeBuildLogs.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,7 +35,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE __PackedPlayModeBuildLogs__RuntimeBuildLog {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x2f4391c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x304521c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::LogType type, ::StringW message);
 
   // Ctor Parameters []
@@ -88,13 +89,13 @@ public:
 
   constexpr void __cordl_internal_set_m_RuntimeBuildLogs(::System::Collections::Generic::List_1<::GlobalNamespace::__PackedPlayModeBuildLogs__RuntimeBuildLog>* value);
 
-  /// @brief Method .ctor, addr 0x2f438a0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x30451a0, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_RuntimeBuildLogs, addr 0x2f43890, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RuntimeBuildLogs, addr 0x3045190, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::__PackedPlayModeBuildLogs__RuntimeBuildLog>* get_RuntimeBuildLogs();
 
-  /// @brief Method set_RuntimeBuildLogs, addr 0x2f43898, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RuntimeBuildLogs, addr 0x3045198, size 0x8, virtual false, abstract: false, final false
   inline void set_RuntimeBuildLogs(::System::Collections::Generic::List_1<::GlobalNamespace::__PackedPlayModeBuildLogs__RuntimeBuildLog>* value);
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/IXmlLineInfo.hpp"
 #include "System/Xml/zzzz__IXmlLineInfo_def.hpp"
 //  Writing Method size for method: ::System::Xml::IXmlLineInfo.HasLineInfo
 template <>

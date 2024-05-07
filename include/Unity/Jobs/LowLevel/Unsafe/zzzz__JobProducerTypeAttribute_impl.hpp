@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/Jobs/LowLevel/Unsafe/JobProducerTypeAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "Unity/Jobs/LowLevel/Unsafe/zzzz__JobProducerTypeAttribute_def.hpp"
 #include "System/zzzz__Type_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Jobs::LowLevel::Unsafe::JobProducerTypeAttribute::*)(::System::Type*)>(
     &::Unity::Jobs::LowLevel::Unsafe::JobProducerTypeAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x31ce804;
+  constexpr static std::size_t addrs = 0x33d5294;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

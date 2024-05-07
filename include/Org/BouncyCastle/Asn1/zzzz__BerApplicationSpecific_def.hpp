@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/BerApplicationSpecific.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +25,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Asn1::BerApplicationSpecific* New_ctor(int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1EncodableVector* vec);
 
-  /// @brief Method .ctor, addr 0x132ac7c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x141e3a0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(int32_t tagNo, ::Org::BouncyCastle::Asn1::Asn1EncodableVector* vec);
 
 protected:

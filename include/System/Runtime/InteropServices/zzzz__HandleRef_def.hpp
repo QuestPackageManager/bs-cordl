@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/InteropServices/HandleRef.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,10 +26,10 @@ public:
   // Declarations
   __declspec(property(get = get_Handle)) void* Handle;
 
-  /// @brief Method .ctor, addr 0x2757ee4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28572e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* wrapper, void* handle);
 
-  /// @brief Method get_Handle, addr 0x2757eec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Handle, addr 0x28572e8, size 0x8, virtual false, abstract: false, final false
   inline void* get_Handle();
 
   // Ctor Parameters []

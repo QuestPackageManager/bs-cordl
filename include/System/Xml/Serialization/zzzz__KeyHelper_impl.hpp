@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Serialization/KeyHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Serialization/zzzz__KeyHelper_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
@@ -8,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*, int32_t, ::StringW)>(&::System::Xml::Serialization::KeyHelper::AddField)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2dc5928;
+  constexpr static std::size_t addrs = 0x2ec3228;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*, int32_t, ::StringW, ::StringW)>(
     &::System::Xml::Serialization::KeyHelper::AddField)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x2dc5930;
+  constexpr static std::size_t addrs = 0x2ec3230;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*, int32_t, bool)>(&::System::Xml::Serialization::KeyHelper::AddField)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2dc5a14;
+  constexpr static std::size_t addrs = 0x2ec3314;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -55,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*, int32_t, bool, bool)>(&::System::Xml::Serialization::KeyHelper::AddField)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2dc5a20;
+  constexpr static std::size_t addrs = 0x2ec3320;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -72,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*, int32_t, int32_t, int32_t)>(
     &::System::Xml::Serialization::KeyHelper::AddField)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x2dc5a68;
+  constexpr static std::size_t addrs = 0x2ec3368;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -89,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*, int32_t, ::System::Type*)>(
     &::System::Xml::Serialization::KeyHelper::AddField)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x2dc5b20;
+  constexpr static std::size_t addrs = 0x2ec3420;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

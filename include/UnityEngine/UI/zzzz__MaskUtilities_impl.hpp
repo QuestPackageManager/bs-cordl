@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UI/MaskUtilities.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UI/zzzz__MaskUtilities_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -11,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Component*)>(&::UnityEngine::UI::MaskUtilities::Notify2DMaskStateChanged)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x32ca3fc;
+  constexpr static std::size_t addrs = 0x34d1138;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Component*)>(&::UnityEngine::UI::MaskUtilities::NotifyStencilStateChanged)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x32c8acc;
+  constexpr static std::size_t addrs = 0x34cf808;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (*)(::UnityEngine::Transform*)>(
     &::UnityEngine::UI::MaskUtilities::FindRootSortOverrideCanvas)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x32c9228;
+  constexpr static std::size_t addrs = 0x34cff64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -55,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::UnityEngine::Transform*, ::UnityEngine::Transform*)>(
     &::UnityEngine::UI::MaskUtilities::GetStencilDepth)> {
   constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x32c93c8;
+  constexpr static std::size_t addrs = 0x34d0104;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Transform*, ::UnityEngine::Transform*)>(
     &::UnityEngine::UI::MaskUtilities::IsDescendantOrSelf)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x32ca658;
+  constexpr static std::size_t addrs = 0x34d1394;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UI::RectMask2D> (*)(::UnityEngine::UI::IClippable*)>(
     &::UnityEngine::UI::MaskUtilities::GetRectMaskForClippable)> {
   constexpr static std::size_t size = 0x41c;
-  constexpr static std::size_t addrs = 0x32c9e4c;
+  constexpr static std::size_t addrs = 0x34d0b88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -102,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::UI::RectMask2D*, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::RectMask2D>>*)>(&::UnityEngine::UI::MaskUtilities::GetRectMasksForClip)> {
   constexpr static std::size_t size = 0x364;
-  constexpr static std::size_t addrs = 0x32ca7a8;
+  constexpr static std::size_t addrs = 0x34d14e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -117,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::MaskUtilities::*)()>(&::UnityEngine::UI::MaskUtilities::_ctor)> {
   constexpr static std::size_t size = 0x1008;
-  constexpr static std::size_t addrs = 0x32cab0c;
+  constexpr static std::size_t addrs = 0x34d1848;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::MaskUtilities*>::get(), ".ctor",

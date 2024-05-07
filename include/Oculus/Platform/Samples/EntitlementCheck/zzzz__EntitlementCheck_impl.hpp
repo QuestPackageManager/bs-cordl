@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/Samples/EntitlementCheck/EntitlementCheck.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Oculus/Platform/Samples/EntitlementCheck/zzzz__EntitlementCheck_def.hpp"
 #include "Oculus/Platform/zzzz__Message_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action*)>(
     &::Oculus::Platform::Samples::EntitlementCheck::EntitlementCheck::add_UserFailedEntitlementCheck)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x29e3c30;
+  constexpr static std::size_t addrs = 0x2ae24e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action*)>(
     &::Oculus::Platform::Samples::EntitlementCheck::EntitlementCheck::remove_UserFailedEntitlementCheck)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x29e3ce8;
+  constexpr static std::size_t addrs = 0x2ae2598;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -39,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action*)>(
     &::Oculus::Platform::Samples::EntitlementCheck::EntitlementCheck::add_UserPassedEntitlementCheck)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x29e3da0;
+  constexpr static std::size_t addrs = 0x2ae2650;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action*)>(
     &::Oculus::Platform::Samples::EntitlementCheck::EntitlementCheck::remove_UserPassedEntitlementCheck)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x29e3e5c;
+  constexpr static std::size_t addrs = 0x2ae270c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -69,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Samples::EntitlementCheck::EntitlementCheck::*)()>(
     &::Oculus::Platform::Samples::EntitlementCheck::EntitlementCheck::Start)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x29e3f18;
+  constexpr static std::size_t addrs = 0x2ae27c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -84,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Samples::EntitlementCheck::EntitlementCheck::*)(::Oculus::Platform::Message*)>(
     &::Oculus::Platform::Samples::EntitlementCheck::EntitlementCheck::EntitlementCheckCallback)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x29e4348;
+  constexpr static std::size_t addrs = 0x2ae2bf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -99,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Samples::EntitlementCheck::EntitlementCheck::*)(bool)>(
     &::Oculus::Platform::Samples::EntitlementCheck::EntitlementCheck::HandleEntitlementCheckResult)> {
   constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x29e40cc;
+  constexpr static std::size_t addrs = 0x2ae297c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -113,8 +114,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Samples::EntitlementCheck::EntitlementCheck::*)()>(
     &::Oculus::Platform::Samples::EntitlementCheck::EntitlementCheck::_ctor)> {
-  constexpr static std::size_t size = 0x1010;
-  constexpr static std::size_t addrs = 0x29e4378;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x2ae2c28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

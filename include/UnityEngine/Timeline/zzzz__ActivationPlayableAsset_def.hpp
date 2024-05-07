@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Timeline/ActivationPlayableAsset.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,15 +39,15 @@ public:
   /// @brief Convert operator to "::UnityEngine::Timeline::ITimelineClipAsset"
   constexpr operator ::UnityEngine::Timeline::ITimelineClipAsset*() noexcept;
 
-  /// @brief Method CreatePlayable, addr 0x317d5c4, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method CreatePlayable, addr 0x338404c, size 0x6c, virtual true, abstract: false, final false
   inline ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go);
 
   static inline ::UnityEngine::Timeline::ActivationPlayableAsset* New_ctor();
 
-  /// @brief Method .ctor, addr 0x317d630, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33840b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_clipCaps, addr 0x317d5bc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_clipCaps, addr 0x3384044, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Timeline::ClipCaps get_clipCaps();
 
   /// @brief Convert to "::UnityEngine::Timeline::ITimelineClipAsset"

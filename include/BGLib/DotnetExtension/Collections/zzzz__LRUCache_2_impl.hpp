@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BGLib/DotnetExtension/Collections/LRUCache_2.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BGLib/DotnetExtension/Collections/zzzz__LRUCache_2_def.hpp"
 #include "BGLib/DotnetExtension/Collections/zzzz__LRUCache_2_def.hpp"

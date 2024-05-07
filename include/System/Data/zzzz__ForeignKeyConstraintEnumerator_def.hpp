@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/ForeignKeyConstraintEnumerator.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,15 +28,15 @@ namespace System::Data {
 class CORDL_TYPE ForeignKeyConstraintEnumerator : public ::System::Data::ConstraintEnumerator {
 public:
   // Declarations
-  /// @brief Method GetForeignKeyConstraint, addr 0x2b793b8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetForeignKeyConstraint, addr 0x2c76cb8, size 0x78, virtual false, abstract: false, final false
   inline ::System::Data::ForeignKeyConstraint* GetForeignKeyConstraint();
 
-  /// @brief Method IsValidCandidate, addr 0x2b79340, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method IsValidCandidate, addr 0x2c76c40, size 0x78, virtual true, abstract: false, final false
   inline bool IsValidCandidate(::System::Data::Constraint* constraint);
 
   static inline ::System::Data::ForeignKeyConstraintEnumerator* New_ctor(::System::Data::DataSet* dataSet);
 
-  /// @brief Method .ctor, addr 0x2b7933c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c76c3c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataSet* dataSet);
 
 protected:

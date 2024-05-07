@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Cryptography/RSAPKCS1SHA1SignatureDescription.hpp"
 #include "System/Security/Cryptography/zzzz__RSAPKCS1SignatureDescription_impl.hpp"
 #include "System/Security/Cryptography/zzzz__RSAPKCS1SHA1SignatureDescription_def.hpp"
 //  Writing Method size for method: ::System::Security::Cryptography::RSAPKCS1SHA1SignatureDescription._ctor
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::RSAPKCS1SHA1SignatureDescription::*)()>(
     &::System::Security::Cryptography::RSAPKCS1SHA1SignatureDescription::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x26edb28;
+  constexpr static std::size_t addrs = 0x27eaf24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

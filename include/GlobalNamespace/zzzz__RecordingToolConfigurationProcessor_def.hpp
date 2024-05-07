@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/RecordingToolConfigurationProcessor.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -122,7 +123,7 @@ public:
 
   constexpr void __cordl_internal_set_r(float_t value);
 
-  /// @brief Method .ctor, addr 0x2599d3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2692fb8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -215,7 +216,7 @@ public:
 
   constexpr void __cordl_internal_set_type(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2599d44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2692fc0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -288,7 +289,7 @@ public:
   constexpr void __cordl_internal_set_recordingConfigurations(
       ::ArrayW<::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration*, ::Array<::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration*>*> value);
 
-  /// @brief Method .ctor, addr 0x2598138, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26913b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -539,7 +540,7 @@ public:
 
   constexpr void __cordl_internal_set_startSongTime(float_t value);
 
-  /// @brief Method .ctor, addr 0x2599d4c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2692fc8, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -710,43 +711,43 @@ public:
   /// @brief Field _posesSerializer, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__posesSerializer, put = __cordl_internal_set__posesSerializer))::GlobalNamespace::IPosesSerializer* _posesSerializer;
 
-  /// @brief Method CreateMenuDestinationFromConfiguration, addr 0x25999ac, size 0x390, virtual false, abstract: false, final false
+  /// @brief Method CreateMenuDestinationFromConfiguration, addr 0x2692c28, size 0x390, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MenuDestination* CreateMenuDestinationFromConfiguration(::GlobalNamespace::RecordingSettings* recordingSettings, bool quitAppAfterRun);
 
-  /// @brief Method CreateObjectsMovementRecorderInitDataFromConfiguration, addr 0x25998b4, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method CreateObjectsMovementRecorderInitDataFromConfiguration, addr 0x2692b30, size 0xf8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__ObjectsMovementRecorder__InitData* CreateObjectsMovementRecorderInitDataFromConfiguration(::GlobalNamespace::RecordingSettings* recordingSettings);
 
-  /// @brief Method CreateRecordingToolSettingsFromConfiguration, addr 0x2598540, size 0x11f8, virtual false, abstract: false, final false
+  /// @brief Method CreateRecordingToolSettingsFromConfiguration, addr 0x26917bc, size 0x11f8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::RecordingToolSettings*
   CreateRecordingToolSettingsFromConfiguration(::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingToolConfiguration* recordingToolConfiguration,
                                                ::GlobalNamespace::BeatmapCharacteristicCollection* beatmapCharacteristicCollection);
 
-  /// @brief Method DeserializeConfigurationFile, addr 0x2597edc, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method DeserializeConfigurationFile, addr 0x2691158, size 0x25c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingToolConfiguration* DeserializeConfigurationFile(::StringW jsonData);
 
-  /// @brief Method GetConfigFilePath, addr 0x2597c70, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetConfigFilePath, addr 0x2690eec, size 0x7c, virtual false, abstract: false, final false
   inline ::StringW GetConfigFilePath();
 
-  /// @brief Method GetDefaultMrcLayersMask, addr 0x259815c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultMrcLayersMask, addr 0x26913d8, size 0x94, virtual false, abstract: false, final false
   static inline ::UnityEngine::LayerMask GetDefaultMrcLayersMask();
 
-  /// @brief Method GetLayerMask, addr 0x25981f0, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method GetLayerMask, addr 0x269146c, size 0x208, virtual false, abstract: false, final false
   inline ::UnityEngine::LayerMask GetLayerMask(::StringW layerName);
 
-  /// @brief Method GetLayersMask, addr 0x25983f8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method GetLayersMask, addr 0x2691674, size 0xac, virtual false, abstract: false, final false
   inline ::UnityEngine::LayerMask GetLayersMask(::ArrayW<::StringW, ::Array<::StringW>*> layerNames);
 
-  /// @brief Method GetLevelPackAndLevelPreviewForLevelId, addr 0x25984a4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetLevelPackAndLevelPreviewForLevelId, addr 0x2691720, size 0x9c, virtual false, abstract: false, final false
   static inline ::System::ValueTuple_2<::GlobalNamespace::BeatmapLevelPack*, ::GlobalNamespace::BeatmapLevel*>
   GetLevelPackAndLevelPreviewForLevelId(::StringW packId, ::StringW levelId, ::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel);
 
-  /// @brief Method IsRecordingToolEnabled, addr 0x2597c68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsRecordingToolEnabled, addr 0x2690ee4, size 0x8, virtual false, abstract: false, final false
   inline bool IsRecordingToolEnabled();
 
-  /// @brief Method LoadConfiguration, addr 0x2598140, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method LoadConfiguration, addr 0x26913bc, size 0x1c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingToolConfiguration* LoadConfiguration(::StringW filePath);
 
-  /// @brief Method LoadConfigurationFile, addr 0x2597cec, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method LoadConfigurationFile, addr 0x2690f68, size 0x1f0, virtual false, abstract: false, final false
   inline ::StringW LoadConfigurationFile(::StringW filePath);
 
   static inline ::GlobalNamespace::RecordingToolConfigurationProcessor* New_ctor(::BGLib::DotnetExtension::CommandLine::CommandLineParserResult commandLineParserResult,
@@ -784,7 +785,7 @@ public:
 
   constexpr void __cordl_internal_set__posesSerializer(::GlobalNamespace::IPosesSerializer* value);
 
-  /// @brief Method .ctor, addr 0x2597c0c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2690e88, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::BGLib::DotnetExtension::CommandLine::CommandLineParserResult commandLineParserResult, ::GlobalNamespace::IBeatSaberLogger* logger,
                     ::GlobalNamespace::IPosesSerializer* posesSerializer, ::GlobalNamespace::EnvironmentsListModel* environmentListModel, ::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel);
 

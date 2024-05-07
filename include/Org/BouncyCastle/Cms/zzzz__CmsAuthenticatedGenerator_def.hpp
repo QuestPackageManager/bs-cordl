@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Cms/CmsAuthenticatedGenerator.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,10 +26,10 @@ public:
 
   static inline ::Org::BouncyCastle::Cms::CmsAuthenticatedGenerator* New_ctor(::Org::BouncyCastle::Security::SecureRandom* rand);
 
-  /// @brief Method .ctor, addr 0x134887c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x143cfa0, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x13488d0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x143cff4, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* rand);
 
 protected:

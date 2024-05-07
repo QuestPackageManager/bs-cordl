@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Resources/NeutralResourcesLanguageAttribute.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,13 +49,13 @@ public:
 
   constexpr void __cordl_internal_set__Location_k__BackingField(::System::Resources::UltimateResourceFallbackLocation value);
 
-  /// @brief Method .ctor, addr 0x275f180, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x285e890, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::StringW cultureName);
 
-  /// @brief Method get_CultureName, addr 0x275f1fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CultureName, addr 0x285e90c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_CultureName();
 
-  /// @brief Method get_Location, addr 0x275f204, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Location, addr 0x285e914, size 0x8, virtual false, abstract: false, final false
   inline ::System::Resources::UltimateResourceFallbackLocation get_Location();
 
 protected:

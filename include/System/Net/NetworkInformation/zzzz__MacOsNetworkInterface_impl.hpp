@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/NetworkInformation/MacOsNetworkInterface.hpp"
 #include "System/Net/NetworkInformation/zzzz__UnixNetworkInterface_impl.hpp"
 #include "System/Net/NetworkInformation/zzzz__MacOsNetworkInterface_def.hpp"
 #include "System/Net/NetworkInformation/zzzz__IPInterfaceProperties_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::NetworkInformation::MacOsNetworkInterface::*)(::StringW, uint32_t)>(
     &::System::Net::NetworkInformation::MacOsNetworkInterface::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2f259f4;
+  constexpr static std::size_t addrs = 0x30262f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::NetworkInformation::IPInterfaceProperties* (
     ::System::Net::NetworkInformation::MacOsNetworkInterface::*)()>(&::System::Net::NetworkInformation::MacOsNetworkInterface::GetIPProperties)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x2f25a18;
+  constexpr static std::size_t addrs = 0x3026318;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::NetworkInformation::OperationalStatus (::System::Net::NetworkInformation::MacOsNetworkInterface::*)()>(
     &::System::Net::NetworkInformation::MacOsNetworkInterface::get_OperationalStatus)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2f25a8c;
+  constexpr static std::size_t addrs = 0x302638c;
 
   inline static ::MethodInfo const* methodInfo() {
 

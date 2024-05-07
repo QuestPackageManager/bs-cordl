@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/D3D12TextureData_t.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "OVR/OpenVR/zzzz__D3D12TextureData_t_def.hpp"
 // Ctor Parameters [CppParam { name: "m_pResource", ty: "void*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_pCommandQueue", ty: "void*", modifiers: "", def_value: Some("{}") },

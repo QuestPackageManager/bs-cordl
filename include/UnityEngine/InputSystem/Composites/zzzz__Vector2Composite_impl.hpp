@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Composites/Vector2Composite.hpp"
 #include "UnityEngine/InputSystem/Composites/zzzz__Vector2Composite_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputBindingComposite_1_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
@@ -21,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::InputSystem::Composites::Vector2Composite::*)(
     ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext>)>(&::UnityEngine::InputSystem::Composites::Vector2Composite::ReadValue)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x2f9132c;
+  constexpr static std::size_t addrs = 0x30cc0b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -37,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::Composites::Vector2Composite::*)(
     ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext>)>(&::UnityEngine::InputSystem::Composites::Vector2Composite::EvaluateMagnitude)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x2f91490;
+  constexpr static std::size_t addrs = 0x30cc21c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -53,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Composites::Vector2Composite::*)()>(
     &::UnityEngine::InputSystem::Composites::Vector2Composite::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x2f91500;
+  constexpr static std::size_t addrs = 0x30cc28c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Composites::Vector2Composite*>::get(),

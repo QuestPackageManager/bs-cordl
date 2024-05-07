@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Security/Cryptography/RC4.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,26 +34,26 @@ public:
   static __declspec(property(get = getStaticF_s_legalKeySizes,
                              put = setStaticF_s_legalKeySizes))::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> s_legalKeySizes;
 
-  /// @brief Method Create, addr 0x2688d28, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2786124, size 0x58, virtual false, abstract: false, final false
   static inline ::Mono::Security::Cryptography::RC4* Create();
 
   static inline ::Mono::Security::Cryptography::RC4* New_ctor();
 
-  /// @brief Method .ctor, addr 0x268416c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2781568, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> getStaticF_s_legalBlockSizes();
 
   static inline ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> getStaticF_s_legalKeySizes();
 
-  /// @brief Method get_IV, addr 0x2688ce0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_IV, addr 0x27860dc, size 0x44, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_IV();
 
   static inline void setStaticF_s_legalBlockSizes(::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> value);
 
   static inline void setStaticF_s_legalKeySizes(::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> value);
 
-  /// @brief Method set_IV, addr 0x2688d24, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method set_IV, addr 0x2786120, size 0x4, virtual true, abstract: false, final false
   inline void set_IV(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
 protected:

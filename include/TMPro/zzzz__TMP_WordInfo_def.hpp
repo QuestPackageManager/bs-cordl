@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/TMP_WordInfo.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,7 +24,7 @@ namespace TMPro {
 struct CORDL_TYPE TMP_WordInfo {
 public:
   // Declarations
-  /// @brief Method GetWord, addr 0x31308f8, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetWord, addr 0x3335380, size 0xdc, virtual false, abstract: false, final false
   inline ::StringW GetWord();
 
   // Ctor Parameters []

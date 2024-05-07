@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LiteNetLib/TooBigPacketException.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,13 +29,13 @@ public:
 
   static inline ::LiteNetLib::TooBigPacketException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x24e95b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e1244, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x24e95c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e124c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x24e95c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e1254, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
 protected:

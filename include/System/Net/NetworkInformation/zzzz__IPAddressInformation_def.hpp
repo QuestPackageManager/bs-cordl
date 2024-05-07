@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/NetworkInformation/IPAddressInformation.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,7 +26,7 @@ public:
 
   static inline ::System::Net::NetworkInformation::IPAddressInformation* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f20f00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3021800, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_Address, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

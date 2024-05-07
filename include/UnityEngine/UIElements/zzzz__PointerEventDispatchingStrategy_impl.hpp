@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/PointerEventDispatchingStrategy.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerEventDispatchingStrategy_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
@@ -11,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::PointerEventDispatchingStrategy::*)(::UnityEngine::UIElements::EventBase*)>(
     &::UnityEngine::UIElements::PointerEventDispatchingStrategy::CanDispatchEvent)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x339d228;
+  constexpr static std::size_t addrs = 0x35a2f64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PointerEventDispatchingStrategy::*)(
     ::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::IPanel*)>(&::UnityEngine::UIElements::PointerEventDispatchingStrategy::DispatchEvent)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x339d27c;
+  constexpr static std::size_t addrs = 0x35a2fb8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UIElements::EventBase*)>(
     &::UnityEngine::UIElements::PointerEventDispatchingStrategy::SendEventToTarget)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x339d4f0;
+  constexpr static std::size_t addrs = 0x35a322c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::IPanel*)>(
     &::UnityEngine::UIElements::PointerEventDispatchingStrategy::SetBestTargetForEvent)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x339d2b4;
+  constexpr static std::size_t addrs = 0x35a2ff0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -74,7 +75,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::IPanel*, ByRef<::UnityEngine::UIElements::VisualElement*>)>(
         &::UnityEngine::UIElements::PointerEventDispatchingStrategy::UpdateElementUnderPointer)> {
   constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x339d514;
+  constexpr static std::size_t addrs = 0x35a3250;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -92,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PointerEventDispatchingStrategy::*)()>(
     &::UnityEngine::UIElements::PointerEventDispatchingStrategy::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x339d7c0;
+  constexpr static std::size_t addrs = 0x35a34fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/LightManager.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -72,19 +73,19 @@ public:
 
   static inline ::GlobalNamespace::LightManager* New_ctor();
 
-  /// @brief Method OnCameraPreRender, addr 0x23f6830, size 0x560, virtual false, abstract: false, final false
+  /// @brief Method OnCameraPreRender, addr 0x24ee420, size 0x560, virtual false, abstract: false, final false
   inline void OnCameraPreRender(::UnityEngine::Camera* camera);
 
-  /// @brief Method OnDestroy, addr 0x23f6d90, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x24ee980, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x23f6744, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x24ee334, size 0xec, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x23f6658, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x24ee248, size 0xec, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method ResetColors, addr 0x23f6d94, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method ResetColors, addr 0x24ee984, size 0xe4, virtual false, abstract: false, final false
   inline void ResetColors();
 
   constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> const& __cordl_internal_get__directionalLightColors() const;
@@ -129,7 +130,7 @@ public:
 
   constexpr void __cordl_internal_set_lastRefreshFrameNum(int32_t value);
 
-  /// @brief Method .ctor, addr 0x23f6e78, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24eea68, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__directionalLightColorsID();

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/BaseRuntimePanel.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,10 +63,10 @@ public:
 
   static inline ::UnityEngine::UIElements::__BaseRuntimePanel____c* New_ctor();
 
-  /// @brief Method <.cctor>b__44_0, addr 0x3349af0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__44_0, addr 0x354d82c, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 __cctor_b__44_0(::UnityEngine::Vector2 p);
 
-  /// @brief Method .ctor, addr 0x3349ae8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x354d824, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::__BaseRuntimePanel____c* getStaticF___9();
@@ -156,27 +157,27 @@ public:
   /// @brief Field targetTexture, offset 0x180, size 0x8
   __declspec(property(get = __cordl_internal_get_targetTexture, put = __cordl_internal_set_targetTexture))::UnityW<::UnityEngine::RenderTexture> targetTexture;
 
-  /// @brief Method AssignPanelToComponents, addr 0x3348af4, size 0x32c, virtual false, abstract: false, final false
+  /// @brief Method AssignPanelToComponents, addr 0x354c830, size 0x32c, virtual false, abstract: false, final false
   inline void AssignPanelToComponents(::UnityEngine::UIElements::BaseRuntimePanel* panel);
 
-  /// @brief Method Dispose, addr 0x33491cc, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x354cf08, size 0x58, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::UnityEngine::UIElements::BaseRuntimePanel* New_ctor(::UnityEngine::ScriptableObject* ownerObject, ::UnityEngine::UIElements::EventDispatcher* dispatcher);
 
-  /// @brief Method PointerEntersPanel, addr 0x334990c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method PointerEntersPanel, addr 0x354d648, size 0xa0, virtual false, abstract: false, final false
   inline void PointerEntersPanel(int32_t pointerId, ::UnityEngine::Vector2 position);
 
-  /// @brief Method PointerLeavesPanel, addr 0x334984c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method PointerLeavesPanel, addr 0x354d588, size 0xc0, virtual false, abstract: false, final false
   inline void PointerLeavesPanel(int32_t pointerId, ::UnityEngine::Vector2 position);
 
-  /// @brief Method Repaint, addr 0x334948c, size 0x1e8, virtual true, abstract: false, final false
+  /// @brief Method Repaint, addr 0x354d1c8, size 0x1e8, virtual true, abstract: false, final false
   inline void Repaint(::UnityEngine::Event* e);
 
-  /// @brief Method ScreenToPanel, addr 0x33496f4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method ScreenToPanel, addr 0x354d430, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 ScreenToPanel(::UnityEngine::Vector2 screen);
 
-  /// @brief Method ScreenToPanel, addr 0x3349748, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method ScreenToPanel, addr 0x354d484, size 0x104, virtual false, abstract: false, final false
   inline bool ScreenToPanel(::UnityEngine::Vector2 screenPosition, ::UnityEngine::Vector2 screenDelta, ByRef<::UnityEngine::Vector2> panelPosition, ByRef<::UnityEngine::Vector2> panelDelta,
                             bool allowOutside);
 
@@ -240,60 +241,60 @@ public:
 
   constexpr void __cordl_internal_set_targetTexture(::UnityW<::UnityEngine::RenderTexture> value);
 
-  /// @brief Method .ctor, addr 0x33490bc, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x354cdf8, size 0x110, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ScriptableObject* ownerObject, ::UnityEngine::UIElements::EventDispatcher* dispatcher);
 
-  /// @brief Method add_destroyed, addr 0x3348f7c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method add_destroyed, addr 0x354ccb8, size 0xa0, virtual false, abstract: false, final false
   inline void add_destroyed(::System::Action* value);
 
   static inline ::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector2>* getStaticF_DefaultScreenToPanelSpace();
 
   static inline int32_t getStaticF_s_CurrentRuntimePanelCounter();
 
-  /// @brief Method get_drawToCameras, addr 0x334922c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_drawToCameras, addr 0x354cf68, size 0x8, virtual false, abstract: false, final false
   inline bool get_drawToCameras();
 
-  /// @brief Method get_screenRenderingHeight, addr 0x33493c0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method get_screenRenderingHeight, addr 0x354d0fc, size 0xcc, virtual false, abstract: false, final false
   inline int32_t get_screenRenderingHeight();
 
-  /// @brief Method get_screenRenderingWidth, addr 0x33492f4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method get_screenRenderingWidth, addr 0x354d030, size 0xcc, virtual false, abstract: false, final false
   inline int32_t get_screenRenderingWidth();
 
-  /// @brief Method get_screenToPanelSpace, addr 0x3349674, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_screenToPanelSpace, addr 0x354d3b0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector2>* get_screenToPanelSpace();
 
-  /// @brief Method get_selectableGameObject, addr 0x3348a50, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_selectableGameObject, addr 0x354c78c, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::GameObject> get_selectableGameObject();
 
-  /// @brief Method get_sortingPriority, addr 0x3348e20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sortingPriority, addr 0x354cb5c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_sortingPriority();
 
-  /// @brief Method get_standardWorldSpaceShader, addr 0x3349224, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_standardWorldSpaceShader, addr 0x354cf60, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Shader> get_standardWorldSpaceShader();
 
-  /// @brief Method get_targetDisplay, addr 0x33492e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_targetDisplay, addr 0x354d020, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_targetDisplay();
 
-  /// @brief Method remove_destroyed, addr 0x334901c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method remove_destroyed, addr 0x354cd58, size 0xa0, virtual false, abstract: false, final false
   inline void remove_destroyed(::System::Action* value);
 
   static inline void setStaticF_DefaultScreenToPanelSpace(::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector2>* value);
 
   static inline void setStaticF_s_CurrentRuntimePanelCounter(int32_t value);
 
-  /// @brief Method set_drawToCameras, addr 0x3349234, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method set_drawToCameras, addr 0x354cf70, size 0xb0, virtual false, abstract: false, final false
   inline void set_drawToCameras(bool value);
 
-  /// @brief Method set_screenToPanelSpace, addr 0x334967c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method set_screenToPanelSpace, addr 0x354d3b8, size 0x78, virtual false, abstract: false, final false
   inline void set_screenToPanelSpace(::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::Vector2>* value);
 
-  /// @brief Method set_selectableGameObject, addr 0x3348a58, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method set_selectableGameObject, addr 0x354c794, size 0x9c, virtual true, abstract: false, final true
   inline void set_selectableGameObject(::UnityEngine::GameObject* value);
 
-  /// @brief Method set_sortingPriority, addr 0x3348e28, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method set_sortingPriority, addr 0x354cb64, size 0xf8, virtual false, abstract: false, final false
   inline void set_sortingPriority(float_t value);
 
-  /// @brief Method set_targetDisplay, addr 0x33492ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_targetDisplay, addr 0x354d028, size 0x8, virtual false, abstract: false, final false
   inline void set_targetDisplay(int32_t value);
 
 protected:

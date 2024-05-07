@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/DigestHeaderParser.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,18 +48,18 @@ public:
   /// @brief Field values, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_values, put = __cordl_internal_set_values))::ArrayW<::StringW, ::Array<::StringW>*> values;
 
-  /// @brief Method GetKey, addr 0x2ef2320, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetKey, addr 0x2ff3c20, size 0x90, virtual false, abstract: false, final false
   inline ::StringW GetKey();
 
-  /// @brief Method GetKeywordAndValue, addr 0x2ef2110, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method GetKeywordAndValue, addr 0x2ff3a10, size 0x190, virtual false, abstract: false, final false
   inline bool GetKeywordAndValue(ByRef<::StringW> key, ByRef<::StringW> value);
 
   static inline ::System::Net::DigestHeaderParser* New_ctor(::StringW header);
 
-  /// @brief Method Parse, addr 0x2ef1f34, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x2ff3834, size 0x1dc, virtual false, abstract: false, final false
   inline bool Parse();
 
-  /// @brief Method SkipWhitespace, addr 0x2ef22a0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method SkipWhitespace, addr 0x2ff3ba0, size 0x80, virtual false, abstract: false, final false
   inline void SkipWhitespace();
 
   constexpr ::StringW const& __cordl_internal_get_header() const;
@@ -85,24 +86,24 @@ public:
 
   constexpr void __cordl_internal_set_values(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method .ctor, addr 0x2ef1da8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ff36a8, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::StringW header);
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_keywords();
 
-  /// @brief Method get_Algorithm, addr 0x2ef1edc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_Algorithm, addr 0x2ff37dc, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_Algorithm();
 
-  /// @brief Method get_Nonce, addr 0x2ef1eb0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_Nonce, addr 0x2ff37b0, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_Nonce();
 
-  /// @brief Method get_Opaque, addr 0x2ef1e84, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_Opaque, addr 0x2ff3784, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_Opaque();
 
-  /// @brief Method get_QOP, addr 0x2ef1f08, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_QOP, addr 0x2ff3808, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_QOP();
 
-  /// @brief Method get_Realm, addr 0x2ef1e5c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_Realm, addr 0x2ff375c, size 0x28, virtual false, abstract: false, final false
   inline ::StringW get_Realm();
 
   static inline void setStaticF_keywords(::ArrayW<::StringW, ::Array<::StringW>*> value);

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/PlatformInitializeResult.hpp"
 #include "Oculus/Platform/zzzz__PlatformInitializeResult_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::Oculus::Platform::PlatformInitializeResult::PlatformInitializeResult(int32_t value__) noexcept {

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/FixedSizeReadStream.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,10 +56,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2ef9330, size 0x2b0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2ffac30, size 0x2b0, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2ef95e0, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2ffaee0, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -147,7 +148,7 @@ public:
 
   static inline ::System::Net::FixedSizeReadStream* New_ctor(::System::Net::WebOperation* operation, ::System::IO::Stream* innerStream, int64_t contentLength);
 
-  /// @brief Method ProcessReadAsync, addr 0x2ef9208, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method ProcessReadAsync, addr 0x2ffab08, size 0x128, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ProcessReadAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size,
                                                                        ::System::Threading::CancellationToken cancellationToken);
 
@@ -163,10 +164,10 @@ public:
 
   constexpr void __cordl_internal_set_position(int64_t value);
 
-  /// @brief Method .ctor, addr 0x2ef91e0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ffaae0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::WebOperation* operation, ::System::IO::Stream* innerStream, int64_t contentLength);
 
-  /// @brief Method get_ContentLength, addr 0x2ef91d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentLength, addr 0x2ffaad8, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_ContentLength();
 
 protected:

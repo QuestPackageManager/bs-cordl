@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Bcpg/OpenPgp/PgpUserAttributeSubpacketVector.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/OpenPgp/zzzz__PgpUserAttributeSubpacketVector_def.hpp"
 #include "Org/BouncyCastle/Bcpg/Attr/zzzz__ImageAttrib_def.hpp"
@@ -12,7 +13,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*>*>)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpUserAttributeSubpacketVector::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x123d568;
+  constexpr static std::size_t addrs = 0x132ec8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,7 +30,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket* (::Org::BouncyCastle::Bcpg::OpenPgp::PgpUserAttributeSubpacketVector::*)(::Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag)>(
         &::Org::BouncyCastle::Bcpg::OpenPgp::PgpUserAttributeSubpacketVector::GetSubpacket)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x123d590;
+  constexpr static std::size_t addrs = 0x132ecb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Bcpg::Attr::ImageAttrib* (
     ::Org::BouncyCastle::Bcpg::OpenPgp::PgpUserAttributeSubpacketVector::*)()>(&::Org::BouncyCastle::Bcpg::OpenPgp::PgpUserAttributeSubpacketVector::GetImageAttribute)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x123d630;
+  constexpr static std::size_t addrs = 0x132ed54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -60,7 +61,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket*>*> (
         ::Org::BouncyCastle::Bcpg::OpenPgp::PgpUserAttributeSubpacketVector::*)()>(&::Org::BouncyCastle::Bcpg::OpenPgp::PgpUserAttributeSubpacketVector::ToSubpacketArray)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x123d6b0;
+  constexpr static std::size_t addrs = 0x132edd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -75,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Bcpg::OpenPgp::PgpUserAttributeSubpacketVector::*)(::System::Object*)>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpUserAttributeSubpacketVector::Equals)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x123d6b8;
+  constexpr static std::size_t addrs = 0x132eddc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -91,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Bcpg::OpenPgp::PgpUserAttributeSubpacketVector::*)()>(
     &::Org::BouncyCastle::Bcpg::OpenPgp::PgpUserAttributeSubpacketVector::GetHashCode)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x123d7dc;
+  constexpr static std::size_t addrs = 0x132ef00;
 
   inline static ::MethodInfo const* methodInfo() {
 

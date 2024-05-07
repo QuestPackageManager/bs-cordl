@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/StartupErrorFlowCoordinator.hpp"
 #include "HMUI/zzzz__FlowCoordinator_impl.hpp"
 #include "GlobalNamespace/zzzz__StartupErrorFlowCoordinator_def.hpp"
 #include "GlobalNamespace/zzzz__StartupErrorSceneSetupData_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StartupErrorFlowCoordinator::*)(bool, bool, bool)>(
     &::GlobalNamespace::StartupErrorFlowCoordinator::DidActivate)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x265d248;
+  constexpr static std::size_t addrs = 0x275d630;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StartupErrorFlowCoordinator::*)()>(&::GlobalNamespace::StartupErrorFlowCoordinator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x265d2bc;
+  constexpr static std::size_t addrs = 0x275d6a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StartupErrorFlowCoordinator*>::get(), ".ctor",

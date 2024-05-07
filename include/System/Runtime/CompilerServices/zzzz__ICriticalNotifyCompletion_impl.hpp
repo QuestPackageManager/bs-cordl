@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/CompilerServices/ICriticalNotifyCompletion.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ICriticalNotifyCompletion_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__INotifyCompletion_def.hpp"
 #include "System/zzzz__Action_def.hpp"

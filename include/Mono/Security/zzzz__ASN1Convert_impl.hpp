@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Security/ASN1Convert.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Security/zzzz__ASN1Convert_def.hpp"
 #include "Mono/Security/zzzz__ASN1_def.hpp"
@@ -8,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::ASN1* (*)(int32_t)>(&::Mono::Security::ASN1Convert::FromInt32)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x266dbc0;
+  constexpr static std::size_t addrs = 0x276bfbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -22,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::ASN1* (*)(::StringW)>(&::Mono::Security::ASN1Convert::FromOid)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x266dd28;
+  constexpr static std::size_t addrs = 0x276c124;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -37,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::ASN1* (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Mono::Security::ASN1Convert::FromUnsignedBigInteger)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x266de10;
+  constexpr static std::size_t addrs = 0x276c20c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::Mono::Security::ASN1*)>(&::Mono::Security::ASN1Convert::ToInt32)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x266df2c;
+  constexpr static std::size_t addrs = 0x276c328;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -65,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::Mono::Security::ASN1*)>(&::Mono::Security::ASN1Convert::ToOid)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x266e044;
+  constexpr static std::size_t addrs = 0x276c440;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -79,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (*)(::Mono::Security::ASN1*)>(&::Mono::Security::ASN1Convert::ToDateTime)> {
   constexpr static std::size_t size = 0x55c;
-  constexpr static std::size_t addrs = 0x266e2d0;
+  constexpr static std::size_t addrs = 0x276c6cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BeatmapLineData.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,7 +41,7 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IReadonlyBeatmapLineData"
   constexpr operator ::GlobalNamespace::IReadonlyBeatmapLineData*() noexcept;
 
-  /// @brief Method AddBeatmapObjectData, addr 0xf48e18, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method AddBeatmapObjectData, addr 0x103798c, size 0xa8, virtual false, abstract: false, final false
   inline void AddBeatmapObjectData(::GlobalNamespace::BeatmapObjectData* beatmapObjectData);
 
   static inline ::GlobalNamespace::BeatmapLineData* New_ctor(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectData*>* beatmapObjectData);
@@ -53,13 +54,13 @@ public:
 
   constexpr void __cordl_internal_set__beatmapObjectsData(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectData*>* value);
 
-  /// @brief Method .ctor, addr 0xf48df0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1037964, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectData*>* beatmapObjectData);
 
-  /// @brief Method .ctor, addr 0xf48d60, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10378d4, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(int32_t initialCapacity);
 
-  /// @brief Method get_beatmapObjectsData, addr 0xf48d58, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_beatmapObjectsData, addr 0x10378cc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapObjectData*>* get_beatmapObjectsData();
 
   /// @brief Convert to "::GlobalNamespace::IReadonlyBeatmapLineData"

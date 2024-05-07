@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HAPI_Result.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_Result_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::HoudiniEngineUnity::HAPI_Result::HAPI_Result(int32_t value__) noexcept {

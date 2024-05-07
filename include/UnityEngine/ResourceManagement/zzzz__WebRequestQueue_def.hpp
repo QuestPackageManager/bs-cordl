@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ResourceManagement/WebRequestQueue.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,16 +49,16 @@ public:
   static __declspec(property(get = getStaticF_s_QueuedOperations,
                              put = setStaticF_s_QueuedOperations))::System::Collections::Generic::Queue_1<::UnityEngine::ResourceManagement::WebRequestQueueOperation*>* s_QueuedOperations;
 
-  /// @brief Method OnWebAsyncOpComplete, addr 0x30feccc, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method OnWebAsyncOpComplete, addr 0x3305754, size 0x260, virtual false, abstract: false, final false
   static inline void OnWebAsyncOpComplete(::UnityEngine::AsyncOperation* operation);
 
-  /// @brief Method QueueRequest, addr 0x30fe988, size 0x344, virtual false, abstract: false, final false
+  /// @brief Method QueueRequest, addr 0x3305410, size 0x344, virtual false, abstract: false, final false
   static inline ::UnityEngine::ResourceManagement::WebRequestQueueOperation* QueueRequest(::UnityEngine::Networking::UnityWebRequest* request);
 
-  /// @brief Method SetMaxConcurrentRequests, addr 0x30fe8c4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method SetMaxConcurrentRequests, addr 0x330534c, size 0xc4, virtual false, abstract: false, final false
   static inline void SetMaxConcurrentRequests(int32_t maxRequests);
 
-  /// @brief Method WaitForRequestToBeActive, addr 0x30fef2c, size 0x48c, virtual false, abstract: false, final false
+  /// @brief Method WaitForRequestToBeActive, addr 0x33059b4, size 0x48c, virtual false, abstract: false, final false
   static inline void WaitForRequestToBeActive(::UnityEngine::ResourceManagement::WebRequestQueueOperation* request, int32_t millisecondsTimeout);
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::Networking::UnityWebRequestAsyncOperation*>* getStaticF_s_ActiveRequests();

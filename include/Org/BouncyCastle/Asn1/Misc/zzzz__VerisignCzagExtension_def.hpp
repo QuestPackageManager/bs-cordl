@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Misc/VerisignCzagExtension.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,10 +25,10 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Asn1::Misc::VerisignCzagExtension* New_ctor(::Org::BouncyCastle::Asn1::DerIA5String* str);
 
-  /// @brief Method ToString, addr 0x10e85b8, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x11dbcdc, size 0x60, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x10e8580, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11dbca4, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerIA5String* str);
 
 protected:

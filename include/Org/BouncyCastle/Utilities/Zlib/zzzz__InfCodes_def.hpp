@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Utilities/Zlib/InfCodes.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -157,23 +158,23 @@ public:
 
   constexpr void __cordl_internal_set_tree_index(int32_t value);
 
-  /// @brief Method .ctor, addr 0x12d5784, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13c6ea8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method free, addr 0x12d5834, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method free, addr 0x13c6f58, size 0x4, virtual false, abstract: false, final false
   inline void free(::Org::BouncyCastle::Utilities::Zlib::ZStream* z);
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_inflate_mask();
 
-  /// @brief Method inflate_fast, addr 0x12d7a00, size 0x860, virtual false, abstract: false, final false
+  /// @brief Method inflate_fast, addr 0x13c9124, size 0x860, virtual false, abstract: false, final false
   inline int32_t inflate_fast(int32_t bl, int32_t bd, ::ArrayW<int32_t, ::Array<int32_t>*> tl, int32_t tl_index, ::ArrayW<int32_t, ::Array<int32_t>*> td, int32_t td_index,
                               ::Org::BouncyCastle::Utilities::Zlib::InfBlocks* s, ::Org::BouncyCastle::Utilities::Zlib::ZStream* z);
 
-  /// @brief Method init, addr 0x12d6b74, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method init, addr 0x13c8298, size 0x24, virtual false, abstract: false, final false
   inline void init(int32_t bl, int32_t bd, ::ArrayW<int32_t, ::Array<int32_t>*> tl, int32_t tl_index, ::ArrayW<int32_t, ::Array<int32_t>*> td, int32_t td_index,
                    ::Org::BouncyCastle::Utilities::Zlib::ZStream* z);
 
-  /// @brief Method proc, addr 0x12d6ef8, size 0x9cc, virtual false, abstract: false, final false
+  /// @brief Method proc, addr 0x13c861c, size 0x9cc, virtual false, abstract: false, final false
   inline int32_t proc(::Org::BouncyCastle::Utilities::Zlib::InfBlocks* s, ::Org::BouncyCastle::Utilities::Zlib::ZStream* z, int32_t r);
 
   static inline void setStaticF_inflate_mask(::ArrayW<int32_t, ::Array<int32_t>*> value);

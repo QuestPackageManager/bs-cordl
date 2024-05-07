@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ProBuilder/EntityBehaviour.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,7 +42,7 @@ public:
   /// @brief Method OnSceneLoaded, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnSceneLoaded(::UnityEngine::SceneManagement::Scene scene, ::UnityEngine::SceneManagement::LoadSceneMode mode);
 
-  /// @brief Method SetMaterial, addr 0x306dea0, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method SetMaterial, addr 0x3275928, size 0xe4, virtual false, abstract: false, final false
   inline void SetMaterial(::UnityEngine::Material* material);
 
   constexpr bool const& __cordl_internal_get_manageVisibility() const;
@@ -50,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set_manageVisibility(bool value);
 
-  /// @brief Method .ctor, addr 0x306e104, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3275b8c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

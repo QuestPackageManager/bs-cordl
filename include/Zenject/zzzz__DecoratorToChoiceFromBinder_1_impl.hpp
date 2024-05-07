@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/DecoratorToChoiceFromBinder_1.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__DecoratorToChoiceFromBinder_1_def.hpp"
 #include "Zenject/zzzz__BindInfo_def.hpp"

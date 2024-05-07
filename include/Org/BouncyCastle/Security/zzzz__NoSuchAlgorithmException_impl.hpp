@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Security/NoSuchAlgorithmException.hpp"
 #include "Org/BouncyCastle/Security/zzzz__GeneralSecurityException_impl.hpp"
 #include "Org/BouncyCastle/Security/zzzz__NoSuchAlgorithmException_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Security::NoSuchAlgorithmException::*)()>(
     &::Org::BouncyCastle::Security::NoSuchAlgorithmException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x12a1c1c;
+  constexpr static std::size_t addrs = 0x1393340;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Security::NoSuchAlgorithmException*>::get(),
@@ -22,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Security::NoSuchAlgorithmException::*)(::StringW)>(
     &::Org::BouncyCastle::Security::NoSuchAlgorithmException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x12a1c24;
+  constexpr static std::size_t addrs = 0x1393348;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Security::NoSuchAlgorithmException::*)(::StringW, ::System::Exception*)>(
     &::Org::BouncyCastle::Security::NoSuchAlgorithmException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x12a1c2c;
+  constexpr static std::size_t addrs = 0x1393350;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

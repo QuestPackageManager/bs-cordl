@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/Background.hpp"
 #include "UnityEngine/UIElements/zzzz__Background_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -12,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Texture2D> (::UnityEngine::UIElements::Background::*)()>(
     &::UnityEngine::UIElements::Background::get_texture)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33beaf8;
+  constexpr static std::size_t addrs = 0x35c4834;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Background>::get(), "get_texture",
@@ -26,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Background::*)(::UnityEngine::Texture2D*)>(
     &::UnityEngine::UIElements::Background::set_texture)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x33beb00;
+  constexpr static std::size_t addrs = 0x35c483c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Sprite> (::UnityEngine::UIElements::Background::*)()>(
     &::UnityEngine::UIElements::Background::get_sprite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33beb7c;
+  constexpr static std::size_t addrs = 0x35c48b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Background>::get(), "get_sprite",
@@ -55,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Background::*)(::UnityEngine::Sprite*)>(
     &::UnityEngine::UIElements::Background::set_sprite)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x33beb84;
+  constexpr static std::size_t addrs = 0x35c48c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::RenderTexture> (::UnityEngine::UIElements::Background::*)()>(
     &::UnityEngine::UIElements::Background::get_renderTexture)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33bec00;
+  constexpr static std::size_t addrs = 0x35c493c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Background>::get(),
@@ -84,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Background::*)(::UnityEngine::RenderTexture*)>(
     &::UnityEngine::UIElements::Background::set_renderTexture)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x33bec08;
+  constexpr static std::size_t addrs = 0x35c4944;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UIElements::VectorImage> (::UnityEngine::UIElements::Background::*)()>(
     &::UnityEngine::UIElements::Background::get_vectorImage)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33bec84;
+  constexpr static std::size_t addrs = 0x35c49c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Background>::get(), "get_vectorImage",
@@ -113,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Background::*)(::UnityEngine::UIElements::VectorImage*)>(
     &::UnityEngine::UIElements::Background::set_vectorImage)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x33bec8c;
+  constexpr static std::size_t addrs = 0x35c49c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -128,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::Background (*)(::UnityEngine::Texture2D*)>(
     &::UnityEngine::UIElements::Background::FromTexture2D)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x33bed08;
+  constexpr static std::size_t addrs = 0x35c4a44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -143,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::Background (*)(::UnityEngine::RenderTexture*)>(
     &::UnityEngine::UIElements::Background::FromRenderTexture)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x33bed3c;
+  constexpr static std::size_t addrs = 0x35c4a78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -158,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::Background (*)(::UnityEngine::Sprite*)>(
     &::UnityEngine::UIElements::Background::FromSprite)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x33bed70;
+  constexpr static std::size_t addrs = 0x35c4aac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -173,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::Background (*)(::UnityEngine::UIElements::VectorImage*)>(
     &::UnityEngine::UIElements::Background::FromVectorImage)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x33beda4;
+  constexpr static std::size_t addrs = 0x35c4ae0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -187,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::Background (*)(::System::Object*)>(&::UnityEngine::UIElements::Background::FromObject)> {
   constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x33bedd8;
+  constexpr static std::size_t addrs = 0x35c4b14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -202,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::Background, ::UnityEngine::UIElements::Background)>(
     &::UnityEngine::UIElements::Background::op_Equality)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x33bf030;
+  constexpr static std::size_t addrs = 0x35c4d6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -218,7 +219,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::Background, ::UnityEngine::UIElements::Background)>(
     &::UnityEngine::UIElements::Background::op_Inequality)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x33bf138;
+  constexpr static std::size_t addrs = 0x35c4e74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -234,7 +235,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::Background::*)(::UnityEngine::UIElements::Background)>(
     &::UnityEngine::UIElements::Background::Equals)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x33bf170;
+  constexpr static std::size_t addrs = 0x35c4eac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -248,7 +249,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::Background::*)(::System::Object*)>(&::UnityEngine::UIElements::Background::Equals)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x33bf1a4;
+  constexpr static std::size_t addrs = 0x35c4ee0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -262,7 +263,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::Background::*)()>(&::UnityEngine::UIElements::Background::GetHashCode)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x33bf234;
+  constexpr static std::size_t addrs = 0x35c4f70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -276,7 +277,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::Background::*)()>(&::UnityEngine::UIElements::Background::ToString)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x33bf2cc;
+  constexpr static std::size_t addrs = 0x35c5008;
 
   inline static ::MethodInfo const* methodInfo() {
 

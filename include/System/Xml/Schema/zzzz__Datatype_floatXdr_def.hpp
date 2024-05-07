@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/Datatype_floatXdr.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,10 +31,10 @@ public:
   // Declarations
   static inline ::System::Xml::Schema::Datatype_floatXdr* New_ctor();
 
-  /// @brief Method ParseValue, addr 0x2e10e18, size 0x284, virtual true, abstract: false, final false
+  /// @brief Method ParseValue, addr 0x2f0f718, size 0x284, virtual true, abstract: false, final false
   inline ::System::Object* ParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr);
 
-  /// @brief Method .ctor, addr 0x2e05bb8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f044b8, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

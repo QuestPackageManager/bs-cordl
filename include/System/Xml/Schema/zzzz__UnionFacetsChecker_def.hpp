@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/UnionFacetsChecker.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,15 +31,15 @@ namespace System::Xml::Schema {
 class CORDL_TYPE UnionFacetsChecker : public ::System::Xml::Schema::FacetsChecker {
 public:
   // Declarations
-  /// @brief Method CheckValueFacets, addr 0x2cb69b4, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x2db42b4, size 0xfc, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::System::Object* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method MatchEnumeration, addr 0x2cb6ab0, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method MatchEnumeration, addr 0x2db43b0, size 0xb8, virtual true, abstract: false, final false
   inline bool MatchEnumeration(::System::Object* value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
   static inline ::System::Xml::Schema::UnionFacetsChecker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2cb6b68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2db4468, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

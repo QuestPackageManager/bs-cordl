@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/BindIPEndPoint.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,12 +29,12 @@ namespace System::Net {
 class CORDL_TYPE BindIPEndPoint : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2ef0844, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2ff2144, size 0x14, virtual true, abstract: false, final false
   inline ::System::Net::IPEndPoint* Invoke(::System::Net::ServicePoint* servicePoint, ::System::Net::IPEndPoint* remoteEndPoint, int32_t retryCount);
 
   static inline ::System::Net::BindIPEndPoint* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2ef0714, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ff2014, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:

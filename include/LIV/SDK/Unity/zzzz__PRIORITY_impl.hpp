@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LIV/SDK/Unity/PRIORITY.hpp"
 #include "LIV/SDK/Unity/zzzz__PRIORITY_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int8_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::LIV::SDK::Unity::PRIORITY::PRIORITY(int8_t value__) noexcept {

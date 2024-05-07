@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SaberSwingRatingCounter.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -123,30 +124,30 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ISaberSwingRatingCounter"
   constexpr operator ::GlobalNamespace::ISaberSwingRatingCounter*() noexcept;
 
-  /// @brief Method DrawGizmos, addr 0x13ab774, size 0x384, virtual false, abstract: false, final false
+  /// @brief Method DrawGizmos, addr 0x14a0e50, size 0x384, virtual false, abstract: false, final false
   inline void DrawGizmos();
 
-  /// @brief Method Finish, addr 0x13ab5c8, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method Finish, addr 0x14a0ca4, size 0x1ac, virtual false, abstract: false, final false
   inline void Finish();
 
-  /// @brief Method Init, addr 0x13aaae4, size 0x364, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x14a01c0, size 0x364, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::ISaberMovementData* saberMovementData, ::UnityEngine::Vector3 notePosition, ::UnityEngine::Quaternion noteRotation, bool rateBeforeCut, bool rateAfterCut);
 
   static inline ::GlobalNamespace::SaberSwingRatingCounter* New_ctor();
 
-  /// @brief Method ProcessNewData, addr 0x13aae48, size 0x780, virtual true, abstract: false, final true
+  /// @brief Method ProcessNewData, addr 0x14a0524, size 0x780, virtual true, abstract: false, final true
   inline void ProcessNewData(::GlobalNamespace::BladeMovementDataElement newData, ::GlobalNamespace::BladeMovementDataElement prevData, bool prevDataAreValid);
 
-  /// @brief Method RegisterDidChangeReceiver, addr 0x13aa984, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method RegisterDidChangeReceiver, addr 0x14a0060, size 0x58, virtual true, abstract: false, final true
   inline void RegisterDidChangeReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver* receiver);
 
-  /// @brief Method RegisterDidFinishReceiver, addr 0x13aa9dc, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method RegisterDidFinishReceiver, addr 0x14a00b8, size 0x58, virtual true, abstract: false, final true
   inline void RegisterDidFinishReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver* receiver);
 
-  /// @brief Method UnregisterDidChangeReceiver, addr 0x13aaa34, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method UnregisterDidChangeReceiver, addr 0x14a0110, size 0x58, virtual true, abstract: false, final true
   inline void UnregisterDidChangeReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver* receiver);
 
-  /// @brief Method UnregisterDidFinishReceiver, addr 0x13aaa8c, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method UnregisterDidFinishReceiver, addr 0x14a0168, size 0x58, virtual true, abstract: false, final true
   inline void UnregisterDidFinishReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver* receiver);
 
   constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__afterCutBottomPos() const;
@@ -277,13 +278,13 @@ public:
 
   constexpr void __cordl_internal_set__saberMovementData(::GlobalNamespace::ISaberMovementData* value);
 
-  /// @brief Method .ctor, addr 0x13abaf8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14a11d4, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_afterCutRating, addr 0x13aa97c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_afterCutRating, addr 0x14a0058, size 0x8, virtual true, abstract: false, final true
   inline float_t get_afterCutRating();
 
-  /// @brief Method get_beforeCutRating, addr 0x13aa974, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_beforeCutRating, addr 0x14a0050, size 0x8, virtual true, abstract: false, final true
   inline float_t get_beforeCutRating();
 
   /// @brief Convert to "::GlobalNamespace::ISaberMovementDataProcessor"

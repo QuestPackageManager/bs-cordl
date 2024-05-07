@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/IEntropySource.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IEntropySource_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::IEntropySource.get_IsPredictionResistant
 template <>

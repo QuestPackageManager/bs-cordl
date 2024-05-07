@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ResourceManagement/Util/ResourceManagerConfig.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,34 +37,34 @@ namespace UnityEngine::ResourceManagement::Util {
 class CORDL_TYPE ResourceManagerConfig : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateArrayResult, addr 0x3102710, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method CreateArrayResult, addr 0x3309198, size 0x1b8, virtual false, abstract: false, final false
   static inline ::System::Array* CreateArrayResult(::System::Type* type, ::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> allAssets);
 
   /// @brief Method CreateArrayResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TObject> static inline TObject CreateArrayResult(::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> allAssets);
 
-  /// @brief Method CreateListResult, addr 0x31028c8, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method CreateListResult, addr 0x3309350, size 0x1cc, virtual false, abstract: false, final false
   static inline ::System::Collections::IList* CreateListResult(::System::Type* type, ::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> allAssets);
 
   /// @brief Method CreateListResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TObject> static inline TObject CreateListResult(::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> allAssets);
 
-  /// @brief Method ExtractKeyAndSubKey, addr 0x3102408, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method ExtractKeyAndSubKey, addr 0x3308e90, size 0xe4, virtual false, abstract: false, final false
   static inline bool ExtractKeyAndSubKey(::System::Object* keyObj, ByRef<::StringW> mainKey, ByRef<::StringW> subKey);
 
   /// @brief Method IsInstance, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T1, typename T2> static inline bool IsInstance();
 
-  /// @brief Method IsPathRemote, addr 0x31024ec, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method IsPathRemote, addr 0x3308f74, size 0x60, virtual false, abstract: false, final false
   static inline bool IsPathRemote(::StringW path);
 
-  /// @brief Method PlatformCanLoadLocallyFromUrlPath, addr 0x310260c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method PlatformCanLoadLocallyFromUrlPath, addr 0x3309094, size 0x104, virtual false, abstract: false, final false
   static inline bool PlatformCanLoadLocallyFromUrlPath();
 
-  /// @brief Method ShouldPathUseWebRequest, addr 0x3102590, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ShouldPathUseWebRequest, addr 0x3309018, size 0x7c, virtual false, abstract: false, final false
   static inline bool ShouldPathUseWebRequest(::StringW path);
 
-  /// @brief Method StripQueryParameters, addr 0x310254c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method StripQueryParameters, addr 0x3308fd4, size 0x44, virtual false, abstract: false, final false
   static inline ::StringW StripQueryParameters(::StringW path);
 
 protected:

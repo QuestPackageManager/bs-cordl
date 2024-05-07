@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/NetworkInformation/sockaddr_in.hpp"
 #include "System/Net/NetworkInformation/zzzz__sockaddr_in_def.hpp"
 // Ctor Parameters [CppParam { name: "sin_family", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "sin_port", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam
 // { name: "sin_addr", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/TlsSrpLoginParameters.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsSrpLoginParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__Srp6GroupParameters_def.hpp"
@@ -10,7 +11,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters*, ::Org::BouncyCastle::Math::BigInteger*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Crypto::Tls::TlsSrpLoginParameters::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x1124b0c;
+  constexpr static std::size_t addrs = 0x1218230;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* (
     ::Org::BouncyCastle::Crypto::Tls::TlsSrpLoginParameters::*)()>(&::Org::BouncyCastle::Crypto::Tls::TlsSrpLoginParameters::get_Group)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1124b48;
+  constexpr static std::size_t addrs = 0x121826c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Tls::TlsSrpLoginParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::TlsSrpLoginParameters::get_Salt)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1124b50;
+  constexpr static std::size_t addrs = 0x1218274;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -59,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Crypto::Tls::TlsSrpLoginParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::TlsSrpLoginParameters::get_Verifier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1124b58;
+  constexpr static std::size_t addrs = 0x121827c;
 
   inline static ::MethodInfo const* methodInfo() {
 

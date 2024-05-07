@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/EnvironmentContext.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentContext_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::EnvironmentContext::EnvironmentContext(int32_t value__) noexcept {

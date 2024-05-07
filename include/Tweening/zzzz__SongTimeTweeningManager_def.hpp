@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Tweening/SongTimeTweeningManager.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,7 +26,7 @@ public:
   /// @brief Field _audioTimeSource, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__audioTimeSource, put = __cordl_internal_set__audioTimeSource))::GlobalNamespace::IAudioTimeSource* _audioTimeSource;
 
-  /// @brief Method GetTime, addr 0x25adb68, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method GetTime, addr 0x26a7e0c, size 0xa0, virtual true, abstract: false, final false
   inline float_t GetTime();
 
   static inline ::Tweening::SongTimeTweeningManager* New_ctor();
@@ -36,7 +37,7 @@ public:
 
   constexpr void __cordl_internal_set__audioTimeSource(::GlobalNamespace::IAudioTimeSource* value);
 
-  /// @brief Method .ctor, addr 0x25adc08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a7eac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

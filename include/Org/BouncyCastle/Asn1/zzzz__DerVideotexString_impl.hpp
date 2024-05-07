@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/DerVideotexString.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerStringBase_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerVideotexString_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
@@ -11,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerVideotexString* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::DerVideotexString::GetInstance)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x13349bc;
+  constexpr static std::size_t addrs = 0x14280e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerVideotexString* (*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(
     &::Org::BouncyCastle::Asn1::DerVideotexString::GetInstance)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x1334bdc;
+  constexpr static std::size_t addrs = 0x1428300;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::DerVideotexString::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Asn1::DerVideotexString::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x1326570;
+  constexpr static std::size_t addrs = 0x1419c94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Asn1::DerVideotexString::*)()>(
     &::Org::BouncyCastle::Asn1::DerVideotexString::GetString)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x1334d0c;
+  constexpr static std::size_t addrs = 0x1428430;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -72,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Asn1::DerVideotexString::*)()>(
     &::Org::BouncyCastle::Asn1::DerVideotexString::GetOctets)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x1334d18;
+  constexpr static std::size_t addrs = 0x142843c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::DerVideotexString*>::get(),
@@ -86,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::DerVideotexString::*)(::Org::BouncyCastle::Asn1::DerOutputStream*)>(
     &::Org::BouncyCastle::Asn1::DerVideotexString::Encode)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x1334d74;
+  constexpr static std::size_t addrs = 0x1428498;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -101,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Asn1::DerVideotexString::*)()>(
     &::Org::BouncyCastle::Asn1::DerVideotexString::Asn1GetHashCode)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x1334d98;
+  constexpr static std::size_t addrs = 0x14284bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -116,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Asn1::DerVideotexString::*)(::Org::BouncyCastle::Asn1::Asn1Object*)>(
     &::Org::BouncyCastle::Asn1::DerVideotexString::Asn1Equals)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x1334df4;
+  constexpr static std::size_t addrs = 0x1428518;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/SubsystemsImplementation/SubsystemProvider.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/SubsystemsImplementation/zzzz__SubsystemProvider_def.hpp"
 constexpr bool& UnityEngine::SubsystemsImplementation::SubsystemProvider::__cordl_internal_get_m_Running() {

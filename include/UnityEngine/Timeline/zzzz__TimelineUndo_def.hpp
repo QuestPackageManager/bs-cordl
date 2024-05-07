@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Timeline/TimelineUndo.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,19 +27,19 @@ namespace UnityEngine::Timeline {
 class CORDL_TYPE TimelineUndo : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method PushDestroyUndo, addr 0x31a0fe0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method PushDestroyUndo, addr 0x33a7a68, size 0x88, virtual false, abstract: false, final false
   static inline void PushDestroyUndo(::UnityEngine::Timeline::TimelineAsset* timeline, ::UnityEngine::Object* thingToDirty, ::UnityEngine::Object* objectToDestroy);
 
-  /// @brief Method PushUndo, addr 0x31a106c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method PushUndo, addr 0x33a7af4, size 0x4, virtual false, abstract: false, final false
   static inline void PushUndo(::UnityEngine::Object* thingToDirty, ::StringW operation);
 
-  /// @brief Method PushUndo, addr 0x31a1068, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method PushUndo, addr 0x33a7af0, size 0x4, virtual false, abstract: false, final false
   static inline void PushUndo(::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> thingsToDirty, ::StringW operation);
 
-  /// @brief Method RegisterCreatedObjectUndo, addr 0x31a1070, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RegisterCreatedObjectUndo, addr 0x33a7af8, size 0x4, virtual false, abstract: false, final false
   static inline void RegisterCreatedObjectUndo(::UnityEngine::Object* thingCreated, ::StringW operation);
 
-  /// @brief Method UndoName, addr 0x31a1074, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method UndoName, addr 0x33a7afc, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW UndoName(::StringW name);
 
 protected:

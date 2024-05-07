@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/DataExpression.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -76,41 +77,41 @@ public:
   /// @brief Convert operator to "::System::Data::IFilter"
   constexpr operator ::System::Data::IFilter*() noexcept;
 
-  /// @brief Method Bind, addr 0x2bcc8b0, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Bind, addr 0x2cc91b0, size 0xf0, virtual false, abstract: false, final false
   inline void Bind(::System::Data::DataTable* table);
 
-  /// @brief Method DependsOn, addr 0x2bc24d0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method DependsOn, addr 0x2cbedd0, size 0x1c, virtual false, abstract: false, final false
   inline bool DependsOn(::System::Data::DataColumn* column);
 
-  /// @brief Method Evaluate, addr 0x2bcca00, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Evaluate, addr 0x2cc9300, size 0xc, virtual false, abstract: false, final false
   inline ::System::Object* Evaluate();
 
-  /// @brief Method Evaluate, addr 0x2bcca0c, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method Evaluate, addr 0x2cc930c, size 0x1f0, virtual false, abstract: false, final false
   inline ::System::Object* Evaluate(::System::Data::DataRow* row, ::System::Data::DataRowVersion version);
 
-  /// @brief Method GetDependency, addr 0x2bccdf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetDependency, addr 0x2cc96f8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> GetDependency();
 
-  /// @brief Method HasLocalAggregate, addr 0x2bcce70, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HasLocalAggregate, addr 0x2cc9770, size 0x18, virtual false, abstract: false, final false
   inline bool HasLocalAggregate();
 
-  /// @brief Method HasRemoteAggregate, addr 0x2bcce88, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HasRemoteAggregate, addr 0x2cc9788, size 0x18, virtual false, abstract: false, final false
   inline bool HasRemoteAggregate();
 
-  /// @brief Method Invoke, addr 0x2bccc88, size 0xdc, virtual true, abstract: false, final true
+  /// @brief Method Invoke, addr 0x2cc9588, size 0xdc, virtual true, abstract: false, final true
   inline bool Invoke(::System::Data::DataRow* row, ::System::Data::DataRowVersion version);
 
-  /// @brief Method IsTableAggregate, addr 0x2bcce00, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method IsTableAggregate, addr 0x2cc9700, size 0x18, virtual false, abstract: false, final false
   inline bool IsTableAggregate();
 
-  /// @brief Method IsUnknown, addr 0x2bcce18, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method IsUnknown, addr 0x2cc9718, size 0x58, virtual false, abstract: false, final false
   static inline bool IsUnknown(::System::Object* value);
 
   static inline ::System::Data::DataExpression* New_ctor(::System::Data::DataTable* table, ::StringW expression);
 
   static inline ::System::Data::DataExpression* New_ctor(::System::Data::DataTable* table, ::StringW expression, ::System::Type* type);
 
-  /// @brief Method ToBoolean, addr 0x2bc94d4, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method ToBoolean, addr 0x2cc5dd4, size 0x270, virtual false, abstract: false, final false
   static inline bool ToBoolean(::System::Object* value);
 
   constexpr bool const& __cordl_internal_get__bound() const;
@@ -161,16 +162,16 @@ public:
 
   constexpr void __cordl_internal_set__table(::System::Data::DataTable* value);
 
-  /// @brief Method .ctor, addr 0x2bcb7f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cc80f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* table, ::StringW expression);
 
-  /// @brief Method .ctor, addr 0x2bcb800, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cc8100, size 0x194, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* table, ::StringW expression, ::System::Type* type);
 
-  /// @brief Method get_Expression, addr 0x2bcc9a0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_Expression, addr 0x2cc92a0, size 0x50, virtual false, abstract: false, final false
   inline ::StringW get_Expression();
 
-  /// @brief Method get_HasValue, addr 0x2bcc9f0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HasValue, addr 0x2cc92f0, size 0x10, virtual false, abstract: false, final false
   inline bool get_HasValue();
 
   /// @brief Convert to "::System::Data::IFilter"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Math/EC/Multiplier/FixedPointPreCompInfo.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,28 +67,28 @@ public:
 
   constexpr void __cordl_internal_set_m_width(int32_t value);
 
-  /// @brief Method .ctor, addr 0x11a5388, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1296aac, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_LookupTable, addr 0x11a5358, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_LookupTable, addr 0x1296a7c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECLookupTable* get_LookupTable();
 
-  /// @brief Method get_Offset, addr 0x11a5368, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Offset, addr 0x1296a8c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* get_Offset();
 
-  /// @brief Method get_Width, addr 0x11a5378, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Width, addr 0x1296a9c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Width();
 
   /// @brief Convert to "::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo"
   constexpr ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* i___Org__BouncyCastle__Math__EC__Multiplier__PreCompInfo() noexcept;
 
-  /// @brief Method set_LookupTable, addr 0x11a5360, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_LookupTable, addr 0x1296a84, size 0x8, virtual true, abstract: false, final false
   inline void set_LookupTable(::Org::BouncyCastle::Math::EC::ECLookupTable* value);
 
-  /// @brief Method set_Offset, addr 0x11a5370, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_Offset, addr 0x1296a94, size 0x8, virtual true, abstract: false, final false
   inline void set_Offset(::Org::BouncyCastle::Math::EC::ECPoint* value);
 
-  /// @brief Method set_Width, addr 0x11a5380, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_Width, addr 0x1296aa4, size 0x8, virtual true, abstract: false, final false
   inline void set_Width(int32_t value);
 
 protected:

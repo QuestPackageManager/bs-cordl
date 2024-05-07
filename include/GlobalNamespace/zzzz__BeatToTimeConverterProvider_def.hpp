@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BeatToTimeConverterProvider.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,7 +26,7 @@ public:
   /// @brief Field _bpmTimeProcessor, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__bpmTimeProcessor, put = __cordl_internal_set__bpmTimeProcessor))::GlobalNamespace::IBeatToTimeConverter* _bpmTimeProcessor;
 
-  /// @brief Method BeatToTime, addr 0x13bb1f0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method BeatToTime, addr 0x14b0938, size 0xb0, virtual false, abstract: false, final false
   inline float_t BeatToTime(float_t beat);
 
   static inline ::GlobalNamespace::BeatToTimeConverterProvider* New_ctor(::GlobalNamespace::IBeatToTimeConverter* bpmTimeProcessor);
@@ -36,7 +37,7 @@ public:
 
   constexpr void __cordl_internal_set__bpmTimeProcessor(::GlobalNamespace::IBeatToTimeConverter* value);
 
-  /// @brief Method .ctor, addr 0x13bb1c8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14b0910, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IBeatToTimeConverter* bpmTimeProcessor);
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/StartMiddleEndButtonBackgroundController.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,13 +39,13 @@ public:
 
   static inline ::GlobalNamespace::StartMiddleEndButtonBackgroundController* New_ctor();
 
-  /// @brief Method SetEndSprite, addr 0x263a3c8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetEndSprite, addr 0x273a1b4, size 0x24, virtual false, abstract: false, final false
   inline void SetEndSprite();
 
-  /// @brief Method SetMiddleSprite, addr 0x263a3a4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetMiddleSprite, addr 0x273a190, size 0x24, virtual false, abstract: false, final false
   inline void SetMiddleSprite();
 
-  /// @brief Method SetStartSprite, addr 0x263a380, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetStartSprite, addr 0x273a16c, size 0x24, virtual false, abstract: false, final false
   inline void SetStartSprite();
 
   constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__endSprite() const;
@@ -71,7 +72,7 @@ public:
 
   constexpr void __cordl_internal_set__startSprite(::UnityW<::UnityEngine::Sprite> value);
 
-  /// @brief Method .ctor, addr 0x263a3ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x273a1d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LiteNetLib/Utils/ParseException.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,7 +22,7 @@ public:
   // Declarations
   static inline ::LiteNetLib::Utils::ParseException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x24f9c68, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25f08f4, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

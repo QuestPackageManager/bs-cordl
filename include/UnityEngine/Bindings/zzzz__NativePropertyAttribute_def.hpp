@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Bindings/NativePropertyAttribute.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,19 +43,19 @@ public:
 
   constexpr void __cordl_internal_set__TargetType_k__BackingField(::UnityEngine::Bindings::TargetType value);
 
-  /// @brief Method .ctor, addr 0x3266e7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x346fbb8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3266e84, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x346fbc0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x3266e88, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x346fbc4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, bool isFree, ::UnityEngine::Bindings::TargetType targetType);
 
-  /// @brief Method .ctor, addr 0x3266eb8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x346fbf4, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, bool isFree, ::UnityEngine::Bindings::TargetType targetType, bool isThreadSafe);
 
-  /// @brief Method set_TargetType, addr 0x3266e74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_TargetType, addr 0x346fbb0, size 0x8, virtual false, abstract: false, final false
   inline void set_TargetType(::UnityEngine::Bindings::TargetType value);
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Cms/TimeStampedData.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -65,7 +66,7 @@ public:
   /// @brief Field version, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version))::Org::BouncyCastle::Asn1::DerInteger* version;
 
-  /// @brief Method GetInstance, addr 0xfed7bc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x10e0ee0, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::TimeStampedData* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::TimeStampedData* New_ctor(::Org::BouncyCastle::Asn1::DerIA5String* dataUri, ::Org::BouncyCastle::Asn1::Cms::MetaData* metaData,
@@ -73,7 +74,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cms::TimeStampedData* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0xfed880, size 0x1b0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x10e0fa4, size 0x1b0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_content();
@@ -106,23 +107,23 @@ public:
 
   constexpr void __cordl_internal_set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0xfed3d0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10e0af4, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerIA5String* dataUri, ::Org::BouncyCastle::Asn1::Cms::MetaData* metaData, ::Org::BouncyCastle::Asn1::Asn1OctetString* content,
                     ::Org::BouncyCastle::Asn1::Cms::Evidence* temporalEvidence);
 
-  /// @brief Method .ctor, addr 0xfed464, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10e0b88, size 0x268, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_Content, addr 0xfed870, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Content, addr 0x10e0f94, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_Content();
 
-  /// @brief Method get_DataUri, addr 0xfed860, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_DataUri, addr 0x10e0f84, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerIA5String* get_DataUri();
 
-  /// @brief Method get_MetaData, addr 0xfed868, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MetaData, addr 0x10e0f8c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::MetaData* get_MetaData();
 
-  /// @brief Method get_TemporalEvidence, addr 0xfed878, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TemporalEvidence, addr 0x10e0f9c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::Evidence* get_TemporalEvidence();
 
 protected:

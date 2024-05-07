@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ILevelRestartController.hpp"
 #include "GlobalNamespace/zzzz__ILevelRestartController_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ILevelRestartController.RestartLevel
 template <>

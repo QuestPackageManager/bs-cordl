@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/EnumInfo.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,7 +61,7 @@ public:
 
   constexpr void __cordl_internal_set_Values(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
 
-  /// @brief Method .ctor, addr 0x2912004, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a108b4, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(bool isFlags, ::ArrayW<uint64_t, ::Array<uint64_t>*> values, ::ArrayW<::StringW, ::Array<::StringW>*> names, ::ArrayW<::StringW, ::Array<::StringW>*> resolvedNames);
 
 protected:

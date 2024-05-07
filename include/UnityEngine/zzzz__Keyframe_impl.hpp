@@ -1,11 +1,12 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Keyframe.hpp"
 #include "UnityEngine/zzzz__Keyframe_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Keyframe._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Keyframe::*)(float_t, float_t)>(&::UnityEngine::Keyframe::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x31cf624;
+  constexpr static std::size_t addrs = 0x33d6358;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -19,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Keyframe::*)(float_t, float_t, float_t, float_t)>(&::UnityEngine::Keyframe::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x31cf634;
+  constexpr static std::size_t addrs = 0x33d6368;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

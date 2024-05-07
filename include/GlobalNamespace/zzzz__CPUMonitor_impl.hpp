@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/CPUMonitor.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__CPUMonitor_def.hpp"
 #include "GlobalNamespace/zzzz__ICPUMonitor_def.hpp"
@@ -10,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CPUMonitor::*)()>(&::GlobalNamespace::CPUMonitor::PollUpdate)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0xf9c53c;
+  constexpr static std::size_t addrs = 0x1090c60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CPUMonitor*>::get(), "PollUpdate",
@@ -23,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::CPUMonitor::*)()>(&::GlobalNamespace::CPUMonitor::get_utilization)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0xf9c634;
+  constexpr static std::size_t addrs = 0x1090d58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CPUMonitor*>::get(), "get_utilization",
@@ -36,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CPUMonitor::*)()>(&::GlobalNamespace::CPUMonitor::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0xf9c65c;
+  constexpr static std::size_t addrs = 0x1090d80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CPUMonitor*>::get(), ".ctor",

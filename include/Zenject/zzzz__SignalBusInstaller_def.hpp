@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/SignalBusInstaller.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,18 +26,18 @@ namespace Zenject {
 class CORDL_TYPE SignalBusInstaller : public ::Zenject::Installer_1<::Zenject::SignalBusInstaller*> {
 public:
   // Declarations
-  /// @brief Method InstallBindings, addr 0x3415d10, size 0x180, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x361aa4c, size 0x180, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::Zenject::SignalBusInstaller* New_ctor();
 
-  /// @brief Method __zenCreate, addr 0x3415ef4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x361ac30, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x3415f4c, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x361ac88, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x3415eac, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x361abe8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

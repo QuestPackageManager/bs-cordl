@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ProBuilder/ShapeFactory.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,10 +34,10 @@ public:
   /// @brief Method Instantiate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> Instantiate(::UnityEngine::ProBuilder::PivotLocation pivotType);
 
-  /// @brief Method Instantiate, addr 0x309e388, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method Instantiate, addr 0x32a5e10, size 0x258, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> Instantiate(::UnityEngine::ProBuilder::Shapes::Shape* shape, ::UnityEngine::ProBuilder::PivotLocation pivotType);
 
-  /// @brief Method Instantiate, addr 0x309e0f4, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method Instantiate, addr 0x32a5b7c, size 0x294, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> Instantiate(::System::Type* shapeType, ::UnityEngine::ProBuilder::PivotLocation pivotType);
 
 protected:

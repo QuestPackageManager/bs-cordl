@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/CannotUnloadAppDomainException.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,13 +32,13 @@ public:
 
   static inline ::System::CannotUnloadAppDomainException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x2856950, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29561f8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x28569c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2956270, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x28569a8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2956250, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

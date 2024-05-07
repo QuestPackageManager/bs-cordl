@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ResourceManagement/Util/ComponentSingleton_1.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/ResourceManagement/Util/zzzz__ComponentSingleton_1_def.hpp"
 template <typename T> inline void UnityEngine::ResourceManagement::Util::ComponentSingleton_1<T>::setStaticF_s_Instance(T value) {

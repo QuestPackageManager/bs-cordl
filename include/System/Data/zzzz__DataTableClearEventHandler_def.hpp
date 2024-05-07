@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/DataTableClearEventHandler.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,12 +26,12 @@ namespace System::Data {
 class CORDL_TYPE DataTableClearEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2bba574, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2cb7e74, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* sender, ::System::Data::DataTableClearEventArgs* e);
 
   static inline ::System::Data::DataTableClearEventHandler* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2bba444, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cb7d44, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:

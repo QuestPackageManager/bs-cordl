@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BloomPrePassDoubleKawaseBlurTextureEffectSO.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,7 +54,7 @@ public:
 
   static inline ::GlobalNamespace::BloomPrePassDoubleKawaseBlurTextureEffectSO* New_ctor();
 
-  /// @brief Method Render, addr 0x2adbd7c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Render, addr 0x2bd8624, size 0x38, virtual true, abstract: false, final false
   inline void Render(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest);
 
   constexpr float_t const& __cordl_internal_get__bloom1Boost() const;
@@ -104,7 +105,7 @@ public:
 
   constexpr void __cordl_internal_set__kawaseBlurRenderer(::UnityW<::GlobalNamespace::KawaseBlurRendererSO> value);
 
-  /// @brief Method .ctor, addr 0x2adbdb4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bd865c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

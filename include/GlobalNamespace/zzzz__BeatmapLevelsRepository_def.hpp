@@ -1,8 +1,10 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BeatmapLevelsRepository.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(BeatmapLevelsRepository)
@@ -53,16 +55,19 @@ public:
 
   __declspec(property(get = get_beatmapLevelPacks))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevelPack*>* beatmapLevelPacks;
 
-  /// @brief Method GetBeatmapLevelById, addr 0x13c8dac, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetBeatmapLevelById, addr 0x14bedcc, size 0x58, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapLevel* GetBeatmapLevelById(::StringW levelId);
 
-  /// @brief Method GetBeatmapLevelPackByBeatmapLevelId, addr 0x13c8d28, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetBeatmapLevelPackByBeatmapLevelId, addr 0x14bed48, size 0x84, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapLevelPack* GetBeatmapLevelPackByBeatmapLevelId(::StringW levelId);
 
-  /// @brief Method GetBeatmapLevelPackByPackId, addr 0x13c8cd0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetBeatmapLevelPackByPackId, addr 0x14becf0, size 0x58, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapLevelPack* GetBeatmapLevelPackByPackId(::StringW packId);
 
   static inline ::GlobalNamespace::BeatmapLevelsRepository* New_ctor(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapLevelPack*>* beatmapLevelPacks);
+
+  /// @brief Method TryGetBeatmapLevelById, addr 0x14bee24, size 0x68, virtual false, abstract: false, final false
+  inline bool TryGetBeatmapLevelById(::StringW levelId, ByRef<::GlobalNamespace::BeatmapLevel*> beatmapLevel);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*& __cordl_internal_get__beatmapLevelIdToBeatmapLevelPackId();
 
@@ -89,10 +94,10 @@ public:
 
   constexpr void __cordl_internal_set__idToBeatmapLevelPack(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::BeatmapLevelPack*>* value);
 
-  /// @brief Method .ctor, addr 0x13c8a80, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14beaa0, size 0x250, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapLevelPack*>* beatmapLevelPacks);
 
-  /// @brief Method get_beatmapLevelPacks, addr 0x13c8a78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapLevelPacks, addr 0x14bea98, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevelPack*>* get_beatmapLevelPacks();
 
 protected:

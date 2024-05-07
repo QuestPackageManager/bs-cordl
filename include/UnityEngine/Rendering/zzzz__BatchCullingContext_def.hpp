@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Rendering/BatchCullingContext.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,7 +41,7 @@ namespace UnityEngine::Rendering {
 struct CORDL_TYPE BatchCullingContext {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x3229150, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3430e8c, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::NativeArray_1<::UnityEngine::Plane> inCullingPlanes, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::BatchVisibility> inOutBatchVisibility,
                     ::Unity::Collections::NativeArray_1<int32_t> outVisibleIndices, ::Unity::Collections::NativeArray_1<int32_t> outVisibleIndicesY,
                     ::UnityEngine::Rendering::LODParameters inLodParameters, ::UnityEngine::Matrix4x4 inCullingMatrix, float_t inNearPlane);

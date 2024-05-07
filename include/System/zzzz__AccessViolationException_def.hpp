@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/AccessViolationException.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,10 +29,10 @@ public:
 
   static inline ::System::AccessViolationException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x2798a64, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2898184, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2798ac0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28981e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
 protected:

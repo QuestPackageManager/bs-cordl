@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngineInternal/Input/NativeInputEventBuffer.hpp"
 #include "UnityEngineInternal/Input/zzzz__NativeInputEventBuffer_def.hpp"
 constexpr ::cordl_internals::Ptr<void>& UnityEngineInternal::Input::NativeInputEventBuffer::__cordl_internal_get_eventBuffer() {
   return this->___eventBuffer;

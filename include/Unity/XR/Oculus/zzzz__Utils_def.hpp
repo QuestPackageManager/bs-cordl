@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/XR/Oculus/Utils.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,19 +26,19 @@ namespace Unity::XR::Oculus {
 class CORDL_TYPE Utils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method EnableDynamicFFR, addr 0x31a5abc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method EnableDynamicFFR, addr 0x33ab544, size 0x8c, virtual false, abstract: false, final false
   static inline bool EnableDynamicFFR(bool enable);
 
-  /// @brief Method GetFoveationLevel, addr 0x31a5b50, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetFoveationLevel, addr 0x33ab5d8, size 0x78, virtual false, abstract: false, final false
   static inline int32_t GetFoveationLevel();
 
-  /// @brief Method GetSystemHeadsetType, addr 0x31a5a20, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetSystemHeadsetType, addr 0x33ab4a8, size 0x4, virtual false, abstract: false, final false
   static inline ::Unity::XR::Oculus::SystemHeadset GetSystemHeadsetType();
 
-  /// @brief Method SetColorScaleAndOffset, addr 0x31a59d8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method SetColorScaleAndOffset, addr 0x33ab460, size 0x40, virtual false, abstract: false, final false
   static inline void SetColorScaleAndOffset(::UnityEngine::Vector4 colorScale, ::UnityEngine::Vector4 colorOffset);
 
-  /// @brief Method SetFoveationLevel, addr 0x31a5a28, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method SetFoveationLevel, addr 0x33ab4b0, size 0x8c, virtual false, abstract: false, final false
   static inline bool SetFoveationLevel(int32_t level);
 
 protected:

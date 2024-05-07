@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Serialization/XmlChoiceIdentifierAttribute.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,7 +28,7 @@ public:
   /// @brief Field memberName, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_memberName, put = __cordl_internal_set_memberName))::StringW memberName;
 
-  /// @brief Method AddKeyHash, addr 0x2dcf5a0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method AddKeyHash, addr 0x2ecdea0, size 0x7c, virtual false, abstract: false, final false
   inline void AddKeyHash(::System::Text::StringBuilder* sb);
 
   constexpr ::StringW const& __cordl_internal_get_memberName() const;
@@ -36,7 +37,7 @@ public:
 
   constexpr void __cordl_internal_set_memberName(::StringW value);
 
-  /// @brief Method get_MemberName, addr 0x2dcfa38, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_MemberName, addr 0x2ece338, size 0x54, virtual false, abstract: false, final false
   inline ::StringW get_MemberName();
 
 protected:

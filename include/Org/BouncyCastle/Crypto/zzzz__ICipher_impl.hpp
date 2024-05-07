@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/ICipher.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipher_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::ICipher.GetMaxOutputSize

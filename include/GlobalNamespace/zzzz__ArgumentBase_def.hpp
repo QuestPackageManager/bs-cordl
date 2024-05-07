@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ArgumentBase.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,7 +61,7 @@ public:
 
   constexpr void __cordl_internal_set_valueType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x257b798, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2673c2c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::StringW description, ::System::Type* valueType);
 
   /// @brief Method get_isOptional, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

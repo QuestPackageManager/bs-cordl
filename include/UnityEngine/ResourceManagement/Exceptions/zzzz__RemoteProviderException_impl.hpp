@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ResourceManagement/Exceptions/RemoteProviderException.hpp"
 #include "UnityEngine/ResourceManagement/Exceptions/zzzz__ProviderException_impl.hpp"
 #include "UnityEngine/ResourceManagement/Exceptions/zzzz__RemoteProviderException_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
@@ -11,7 +12,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::StringW, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::UnityEngine::ResourceManagement::Util::UnityWebRequestResult*, ::System::Exception*)>(
     &::UnityEngine::ResourceManagement::Exceptions::RemoteProviderException::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x30ffae4;
+  constexpr static std::size_t addrs = 0x330656c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ResourceManagement::Exceptions::RemoteProviderException::*)()>(
     &::UnityEngine::ResourceManagement::Exceptions::RemoteProviderException::get_Message)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x30ffb10;
+  constexpr static std::size_t addrs = 0x3306598;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -45,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ResourceManagement::Util::UnityWebRequestResult* (
     ::UnityEngine::ResourceManagement::Exceptions::RemoteProviderException::*)()>(&::UnityEngine::ResourceManagement::Exceptions::RemoteProviderException::get_WebRequestResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x30ffb1c;
+  constexpr static std::size_t addrs = 0x33065a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -60,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ResourceManagement::Exceptions::RemoteProviderException::*)()>(
     &::UnityEngine::ResourceManagement::Exceptions::RemoteProviderException::ToString)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x30ffb24;
+  constexpr static std::size_t addrs = 0x33065ac;
 
   inline static ::MethodInfo const* methodInfo() {
 

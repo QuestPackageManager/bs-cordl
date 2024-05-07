@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/GetViewDataDictionary.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,12 +26,12 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE GetViewDataDictionary : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x3319c20, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x351e95c, size 0x14, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::ISerializableJsonDictionary* Invoke();
 
   static inline ::UnityEngine::UIElements::GetViewDataDictionary* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x3319b64, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x351e8a0, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:

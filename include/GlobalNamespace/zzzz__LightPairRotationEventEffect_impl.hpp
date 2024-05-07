@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/LightPairRotationEventEffect.hpp"
 #include "GlobalNamespace/zzzz__BasicBeatmapEventType_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
@@ -17,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LightPairRotationEventEffect__RotationData::*)()>(
     &::GlobalNamespace::__LightPairRotationEventEffect__RotationData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25ce14c;
+  constexpr static std::size_t addrs = 0x26cceb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -115,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightPairRotationEventEffect::*)()>(
     &::GlobalNamespace::LightPairRotationEventEffect::Start)> {
   constexpr static std::size_t size = 0x3c8;
-  constexpr static std::size_t addrs = 0x25cdd84;
+  constexpr static std::size_t addrs = 0x26ccaf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightPairRotationEventEffect*>::get(), "Start",
@@ -129,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightPairRotationEventEffect::*)()>(
     &::GlobalNamespace::LightPairRotationEventEffect::Update)> {
   constexpr static std::size_t size = 0x2a4;
-  constexpr static std::size_t addrs = 0x25ce154;
+  constexpr static std::size_t addrs = 0x26ccec0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightPairRotationEventEffect*>::get(),
@@ -143,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightPairRotationEventEffect::*)()>(
     &::GlobalNamespace::LightPairRotationEventEffect::OnDestroy)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x25ce3f8;
+  constexpr static std::size_t addrs = 0x26cd164;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightPairRotationEventEffect*>::get(),
@@ -157,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightPairRotationEventEffect::*)(::GlobalNamespace::BasicBeatmapEventData*)>(
     &::GlobalNamespace::LightPairRotationEventEffect::HandleBeatmapEvent)> {
   constexpr static std::size_t size = 0x380;
-  constexpr static std::size_t addrs = 0x25ce414;
+  constexpr static std::size_t addrs = 0x26cd180;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -172,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightPairRotationEventEffect::*)(
     int32_t, ::GlobalNamespace::__LightPairRotationEventEffect__RotationData*, float_t, float_t)>(&::GlobalNamespace::LightPairRotationEventEffect::UpdateRotationData)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x25ce794;
+  constexpr static std::size_t addrs = 0x26cd500;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -189,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightPairRotationEventEffect::*)()>(
     &::GlobalNamespace::LightPairRotationEventEffect::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x25ce9b0;
+  constexpr static std::size_t addrs = 0x26cd71c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightPairRotationEventEffect*>::get(), ".ctor",

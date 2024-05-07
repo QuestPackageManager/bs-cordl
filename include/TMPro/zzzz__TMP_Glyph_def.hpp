@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/TMP_Glyph.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,12 +19,12 @@ namespace TMPro {
 class CORDL_TYPE TMP_Glyph : public ::TMPro::TMP_TextElement_Legacy {
 public:
   // Declarations
-  /// @brief Method Clone, addr 0x313fab4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Clone, addr 0x334453c, size 0x7c, virtual false, abstract: false, final false
   static inline ::TMPro::TMP_Glyph* Clone(::TMPro::TMP_Glyph* source);
 
   static inline ::TMPro::TMP_Glyph* New_ctor();
 
-  /// @brief Method .ctor, addr 0x313fb30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33445b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

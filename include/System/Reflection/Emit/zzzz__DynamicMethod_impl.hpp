@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Reflection/Emit/DynamicMethod.hpp"
 #include "System/Reflection/zzzz__MethodInfo_impl.hpp"
 #include "System/Reflection/Emit/zzzz__DynamicMethod_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"
@@ -17,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodAttributes (::System::Reflection::Emit::DynamicMethod::*)()>(
     &::System::Reflection::Emit::DynamicMethod::get_Attributes)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x27797fc;
+  constexpr static std::size_t addrs = 0x2878f1c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -32,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Reflection::Emit::DynamicMethod::*)()>(
     &::System::Reflection::Emit::DynamicMethod::get_DeclaringType)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x277983c;
+  constexpr static std::size_t addrs = 0x2878f5c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -46,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Reflection::Emit::DynamicMethod::*)()>(&::System::Reflection::Emit::DynamicMethod::get_Name)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x277987c;
+  constexpr static std::size_t addrs = 0x2878f9c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -61,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Reflection::ParameterInfo*, ::Array<::System::Reflection::ParameterInfo*>*> (
     ::System::Reflection::Emit::DynamicMethod::*)()>(&::System::Reflection::Emit::DynamicMethod::GetParameters)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x27798bc;
+  constexpr static std::size_t addrs = 0x2878fdc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -76,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::RuntimeMethodHandle (::System::Reflection::Emit::DynamicMethod::*)()>(
     &::System::Reflection::Emit::DynamicMethod::get_MethodHandle)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x27798fc;
+  constexpr static std::size_t addrs = 0x287901c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -91,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Reflection::Emit::DynamicMethod::*)()>(
     &::System::Reflection::Emit::DynamicMethod::get_ReflectedType)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x277993c;
+  constexpr static std::size_t addrs = 0x287905c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -106,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Object*, ::Array<::System::Object*>*> (::System::Reflection::Emit::DynamicMethod::*)(bool)>(
     &::System::Reflection::Emit::DynamicMethod::GetCustomAttributes)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x277997c;
+  constexpr static std::size_t addrs = 0x287909c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -121,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Object*, ::Array<::System::Object*>*> (::System::Reflection::Emit::DynamicMethod::*)(
     ::System::Type*, bool)>(&::System::Reflection::Emit::DynamicMethod::GetCustomAttributes)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x27799bc;
+  constexpr static std::size_t addrs = 0x28790dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -136,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodImplAttributes (::System::Reflection::Emit::DynamicMethod::*)()>(
     &::System::Reflection::Emit::DynamicMethod::GetMethodImplementationFlags)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x27799fc;
+  constexpr static std::size_t addrs = 0x287911c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -151,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo* (::System::Reflection::Emit::DynamicMethod::*)()>(
     &::System::Reflection::Emit::DynamicMethod::GetBaseDefinition)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2779a3c;
+  constexpr static std::size_t addrs = 0x287915c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -167,7 +168,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Reflection::Emit::DynamicMethod::*)(::System::Object*, ::System::Reflection::BindingFlags, ::System::Reflection::Binder*, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>,
                                                   ::System::Globalization::CultureInfo*)>(&::System::Reflection::Emit::DynamicMethod::Invoke)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2779a7c;
+  constexpr static std::size_t addrs = 0x287919c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -182,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::Emit::DynamicMethod::*)(::System::Type*, bool)>(
     &::System::Reflection::Emit::DynamicMethod::IsDefined)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2779abc;
+  constexpr static std::size_t addrs = 0x28791dc;
 
   inline static ::MethodInfo const* methodInfo() {
 

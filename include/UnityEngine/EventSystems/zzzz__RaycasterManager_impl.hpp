@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/EventSystems/RaycasterManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__RaycasterManager_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::EventSystems::BaseRaycaster*)>(
     &::UnityEngine::EventSystems::RaycasterManager::AddRaycaster)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x32eef24;
+  constexpr static std::size_t addrs = 0x34f4c60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::BaseRaycaster>>* (*)()>(
     &::UnityEngine::EventSystems::RaycasterManager::GetRaycasters)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x32ef038;
+  constexpr static std::size_t addrs = 0x34f4d74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::RaycasterManager*>::get(),
@@ -38,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::EventSystems::BaseRaycaster*)>(
     &::UnityEngine::EventSystems::RaycasterManager::RemoveRaycasters)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x32ef090;
+  constexpr static std::size_t addrs = 0x34f4dcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

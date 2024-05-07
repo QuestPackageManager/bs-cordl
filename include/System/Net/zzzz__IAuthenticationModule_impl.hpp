@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/IAuthenticationModule.hpp"
 #include "System/Net/zzzz__IAuthenticationModule_def.hpp"
 #include "System/Net/zzzz__Authorization_def.hpp"
 #include "System/Net/zzzz__ICredentials_def.hpp"

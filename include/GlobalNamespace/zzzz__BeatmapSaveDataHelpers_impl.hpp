@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BeatmapSaveDataHelpers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapSaveDataHelpers_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapSaveDataHelpers_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::__BeatmapSaveDataHelpers__VersionSerializedData::*)()>(
     &::GlobalNamespace::__BeatmapSaveDataHelpers__VersionSerializedData::get_v)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x13fc998;
+  constexpr static std::size_t addrs = 0x14ef060;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__BeatmapSaveDataHelpers__VersionSerializedData::*)()>(
     &::GlobalNamespace::__BeatmapSaveDataHelpers__VersionSerializedData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x13fcbf8;
+  constexpr static std::size_t addrs = 0x14ef2c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -81,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__BeatmapSaveDataHelpers____c__DisplayClass6_0::*)()>(
     &::GlobalNamespace::__BeatmapSaveDataHelpers____c__DisplayClass6_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x13fcab8;
+  constexpr static std::size_t addrs = 0x14ef180;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -96,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Version* (::GlobalNamespace::__BeatmapSaveDataHelpers____c__DisplayClass6_0::*)()>(
     &::GlobalNamespace::__BeatmapSaveDataHelpers____c__DisplayClass6_0::_GetVersionAsync_b__0)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x13fcc00;
+  constexpr static std::size_t addrs = 0x14ef2c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -139,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Version* (*)(::StringW)>(&::GlobalNamespace::BeatmapSaveDataHelpers::GetVersion)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x13fc594;
+  constexpr static std::size_t addrs = 0x14eec5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -154,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::System::Version*>* (*)(::StringW)>(
     &::GlobalNamespace::BeatmapSaveDataHelpers::GetVersionAsync)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x13fc9c8;
+  constexpr static std::size_t addrs = 0x14ef090;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "IntervalTree/IntervalTreeNode_2.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "IntervalTree/zzzz__IntervalTreeNode_2_def.hpp"
 #include "IntervalTree/zzzz__IntervalTreeNode_2_def.hpp"

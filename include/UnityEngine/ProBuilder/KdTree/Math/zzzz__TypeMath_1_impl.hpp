@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ProBuilder/KdTree/Math/TypeMath_1.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/KdTree/Math/zzzz__TypeMath_1_def.hpp"
 #include "UnityEngine/ProBuilder/KdTree/zzzz__ITypeMath_1_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/FiniteFieldDheGroup.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,12 +20,12 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CORDL_TYPE FiniteFieldDheGroup : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsValid, addr 0x10fd540, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x11f0c64, size 0x10, virtual false, abstract: false, final false
   static inline bool IsValid(uint8_t group);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::FiniteFieldDheGroup* New_ctor();
 
-  /// @brief Method .ctor, addr 0x10fd550, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11f0c74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

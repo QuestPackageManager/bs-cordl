@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/UriIdnScope.hpp"
 #include "System/zzzz__UriIdnScope_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::UriIdnScope::UriIdnScope(int32_t value__) noexcept {

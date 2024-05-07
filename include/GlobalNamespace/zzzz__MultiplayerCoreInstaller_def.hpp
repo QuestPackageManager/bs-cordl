@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MultiplayerCoreInstaller.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,7 +46,7 @@ public:
   __declspec(property(get = __cordl_internal_get__scoreSyncStateManagerPrefab,
                       put = __cordl_internal_set__scoreSyncStateManagerPrefab))::UnityW<::GlobalNamespace::ScoreSyncStateManager> _scoreSyncStateManagerPrefab;
 
-  /// @brief Method InstallBindings, addr 0x2630ebc, size 0x700, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x2730ca4, size 0x700, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::MultiplayerCoreInstaller* New_ctor();
@@ -74,7 +75,7 @@ public:
 
   constexpr void __cordl_internal_set__scoreSyncStateManagerPrefab(::UnityW<::GlobalNamespace::ScoreSyncStateManager> value);
 
-  /// @brief Method .ctor, addr 0x26315bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27313a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

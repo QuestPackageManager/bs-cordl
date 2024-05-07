@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Logging.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,7 +19,7 @@ namespace System::Net {
 class CORDL_TYPE Logging : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_On, addr 0x2eef094, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_On, addr 0x2ff0994, size 0x8, virtual false, abstract: false, final false
   static inline bool get_On();
 
 protected:

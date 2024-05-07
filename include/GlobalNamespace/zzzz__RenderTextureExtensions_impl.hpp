@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/RenderTextureExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__RenderTextureExtensions_def.hpp"
 #include "UnityEngine/zzzz__RenderTexture_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Texture2D> (*)(::UnityEngine::RenderTexture*)>(
     &::GlobalNamespace::RenderTextureExtensions::GetTexture2D)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x23db7d8;
+  constexpr static std::size_t addrs = 0x24d33dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((

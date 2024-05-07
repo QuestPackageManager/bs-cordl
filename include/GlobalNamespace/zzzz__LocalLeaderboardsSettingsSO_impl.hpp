@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/LocalLeaderboardsSettingsSO.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__LocalLeaderboardsSettingsSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::LocalLeaderboardsSettingsSO.get_maxNumberOfScoresInLeaderboard
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::LocalLeaderboardsSettingsSO::*)()>(
     &::GlobalNamespace::LocalLeaderboardsSettingsSO::get_maxNumberOfScoresInLeaderboard)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x13b1d48;
+  constexpr static std::size_t addrs = 0x14a7424;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -22,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalLeaderboardsSettingsSO::*)(int32_t)>(
     &::GlobalNamespace::LocalLeaderboardsSettingsSO::set_maxNumberOfScoresInLeaderboard)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x13b1d50;
+  constexpr static std::size_t addrs = 0x14a742c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalLeaderboardsSettingsSO::*)()>(&::GlobalNamespace::LocalLeaderboardsSettingsSO::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x13b1d58;
+  constexpr static std::size_t addrs = 0x14a7434;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalLeaderboardsSettingsSO*>::get(), ".ctor",

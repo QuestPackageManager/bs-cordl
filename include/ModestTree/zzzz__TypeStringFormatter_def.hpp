@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "ModestTree/TypeStringFormatter.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,10 +44,10 @@ public:
 
   static inline ::ModestTree::__TypeStringFormatter____c* New_ctor();
 
-  /// @brief Method <PrettyNameInternal>b__2_0, addr 0x340e464, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <PrettyNameInternal>b__2_0, addr 0x36131a0, size 0x54, virtual false, abstract: false, final false
   inline ::StringW _PrettyNameInternal_b__2_0(::System::Type* t);
 
-  /// @brief Method .ctor, addr 0x340e45c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3613198, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ModestTree::__TypeStringFormatter____c* getStaticF___9();
@@ -90,13 +91,13 @@ public:
   /// @brief Field _prettyNameCache, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__prettyNameCache, put = setStaticF__prettyNameCache))::System::Collections::Generic::Dictionary_2<::System::Type*, ::StringW>* _prettyNameCache;
 
-  /// @brief Method GetCSharpTypeName, addr 0x340e074, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method GetCSharpTypeName, addr 0x3612db0, size 0x2f8, virtual false, abstract: false, final false
   static inline ::StringW GetCSharpTypeName(::StringW typeName);
 
-  /// @brief Method PrettyName, addr 0x340c334, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method PrettyName, addr 0x3611070, size 0xec, virtual false, abstract: false, final false
   static inline ::StringW PrettyName(::System::Type* type);
 
-  /// @brief Method PrettyNameInternal, addr 0x340dc3c, size 0x438, virtual false, abstract: false, final false
+  /// @brief Method PrettyNameInternal, addr 0x3612978, size 0x438, virtual false, abstract: false, final false
   static inline ::StringW PrettyNameInternal(::System::Type* type);
 
   static inline ::System::Collections::Generic::Dictionary_2<::System::Type*, ::StringW>* getStaticF__prettyNameCache();

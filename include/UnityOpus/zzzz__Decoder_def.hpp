@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityOpus/Decoder.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,16 +48,16 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Decode, addr 0x24e4538, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x25dc1c4, size 0xcc, virtual false, abstract: false, final false
   inline int32_t Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t dataLength, ::ArrayW<float_t, ::Array<float_t>*> pcm, int32_t decodeFec);
 
-  /// @brief Method Dispose, addr 0x24e4914, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x25dc5a0, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x24e4774, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x25dc400, size 0x84, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Finalize, addr 0x24e4874, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x25dc500, size 0xa0, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::UnityOpus::Decoder* New_ctor(::UnityOpus::SamplingFrequency samplingFrequency, ::UnityOpus::NumChannels channels);
@@ -85,7 +86,7 @@ public:
 
   constexpr void __cordl_internal_set_softclipMem(::ArrayW<float_t, ::Array<float_t>*> value);
 
-  /// @brief Method .ctor, addr 0x24e4350, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25dbfdc, size 0x154, virtual false, abstract: false, final false
   inline void _ctor(::UnityOpus::SamplingFrequency samplingFrequency, ::UnityOpus::NumChannels channels);
 
   /// @brief Convert to "::System::IDisposable"

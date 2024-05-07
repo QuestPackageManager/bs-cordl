@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/ProviderData.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,7 +41,7 @@ public:
   /// @brief Field Type, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_Type, put = __cordl_internal_set_Type))::StringW Type;
 
-  /// @brief Method CopyFrom, addr 0x2710990, size 0x704, virtual false, abstract: false, final false
+  /// @brief Method CopyFrom, addr 0x280ed8c, size 0x704, virtual false, abstract: false, final false
   inline void CopyFrom(::System::Runtime::Remoting::ProviderData* other);
 
   static inline ::System::Runtime::Remoting::ProviderData* New_ctor();
@@ -75,7 +76,7 @@ public:
 
   constexpr void __cordl_internal_set_Type(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2710928, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x280ed24, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

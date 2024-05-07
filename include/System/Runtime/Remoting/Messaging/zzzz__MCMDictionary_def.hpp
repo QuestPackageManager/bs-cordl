@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/Messaging/MCMDictionary.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,7 +29,7 @@ public:
 
   static inline ::System::Runtime::Remoting::Messaging::MCMDictionary* New_ctor(::System::Runtime::Remoting::Messaging::IMethodMessage* message);
 
-  /// @brief Method .ctor, addr 0x272fdcc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x282e1c8, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::IMethodMessage* message);
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_InternalKeys();

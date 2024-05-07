@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Android/LowLevel/AndroidSensorCapabilities.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,13 +24,13 @@ namespace UnityEngine::InputSystem::Android::LowLevel {
 struct CORDL_TYPE AndroidSensorCapabilities {
 public:
   // Declarations
-  /// @brief Method FromJson, addr 0x301a598, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method FromJson, addr 0x3156324, size 0xa0, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorCapabilities FromJson(::StringW json);
 
-  /// @brief Method ToJson, addr 0x301a534, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ToJson, addr 0x31562c0, size 0x64, virtual false, abstract: false, final false
   inline ::StringW ToJson();
 
-  /// @brief Method ToString, addr 0x301a638, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x31563c4, size 0x98, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters []

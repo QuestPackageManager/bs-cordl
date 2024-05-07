@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/BufferedAsymmetricBlockCipher.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,36 +39,36 @@ public:
   /// @brief Field cipher, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_cipher, put = __cordl_internal_set_cipher))::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher;
 
-  /// @brief Method DoFinal, addr 0x11309f8, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x122411c, size 0x11c, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DoFinal();
 
-  /// @brief Method DoFinal, addr 0x1130b14, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x1224238, size 0x30, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
-  /// @brief Method GetBlockSize, addr 0x11305b8, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method GetBlockSize, addr 0x1223cdc, size 0xa4, virtual true, abstract: false, final false
   inline int32_t GetBlockSize();
 
-  /// @brief Method GetBufferPosition, addr 0x1130510, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetBufferPosition, addr 0x1223c34, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetBufferPosition();
 
-  /// @brief Method GetOutputSize, addr 0x113065c, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method GetOutputSize, addr 0x1223d80, size 0xa4, virtual true, abstract: false, final false
   inline int32_t GetOutputSize(int32_t length);
 
-  /// @brief Method GetUpdateOutputSize, addr 0x1130700, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetUpdateOutputSize, addr 0x1223e24, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetUpdateOutputSize(int32_t length);
 
-  /// @brief Method Init, addr 0x1130708, size 0x16c, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x1223e2c, size 0x16c, virtual true, abstract: false, final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher* New_ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher);
 
-  /// @brief Method ProcessByte, addr 0x1130874, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method ProcessByte, addr 0x1223f98, size 0x90, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ProcessByte(uint8_t input);
 
-  /// @brief Method ProcessBytes, addr 0x1130908, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ProcessBytes, addr 0x122402c, size 0xf0, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ProcessBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
-  /// @brief Method Reset, addr 0x1130b44, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x1224268, size 0x2c, virtual true, abstract: false, final false
   inline void Reset();
 
   constexpr int32_t const& __cordl_internal_get_bufOff() const;
@@ -88,10 +89,10 @@ public:
 
   constexpr void __cordl_internal_set_cipher(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* value);
 
-  /// @brief Method .ctor, addr 0x11304a4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1223bc8, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher);
 
-  /// @brief Method get_AlgorithmName, addr 0x1130518, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x1223c3c, size 0xa0, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
 protected:

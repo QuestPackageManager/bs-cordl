@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IJumpOffsetYProvider.hpp"
 #include "GlobalNamespace/zzzz__IJumpOffsetYProvider_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IJumpOffsetYProvider.get_jumpOffsetY
 template <>

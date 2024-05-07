@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ComputeShader.hpp"
 #include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__ComputeShader_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ComputeShader.FindKernel
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ComputeShader::*)(::StringW)>(&::UnityEngine::ComputeShader::FindKernel)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x32149d0;
+  constexpr static std::size_t addrs = 0x341b704;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

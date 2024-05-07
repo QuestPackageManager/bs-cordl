@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/LocalLeaderboardsAsyncLoader.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,18 +28,18 @@ namespace GlobalNamespace {
 class CORDL_TYPE LocalLeaderboardsAsyncLoader : public ::BGLib::AppFlow::Initialization::AsyncInstaller {
 public:
   // Declarations
-  /// @brief Method InstallBindings, addr 0x2508bac, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x25ff838, size 0x4, virtual true, abstract: false, final false
   inline void InstallBindings();
 
-  /// @brief Method LoadResourcesBeforeInstall, addr 0x2508af4, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method LoadResourcesBeforeInstall, addr 0x25ff780, size 0x5c, virtual true, abstract: false, final false
   inline void LoadResourcesBeforeInstall(::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry* registry, ::Zenject::DiContainer* container);
 
-  /// @brief Method LoadResourcesBeforeInstallAsync, addr 0x2508b50, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method LoadResourcesBeforeInstallAsync, addr 0x25ff7dc, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* LoadResourcesBeforeInstallAsync(::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry* registry, ::Zenject::DiContainer* container);
 
   static inline ::GlobalNamespace::LocalLeaderboardsAsyncLoader* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2508bb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25ff83c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

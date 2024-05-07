@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/RightShiftInstruction_RightShiftInt64.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__RightShiftInstruction_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__RightShiftInstruction_RightShiftInt64_def.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__InterpretedFrame_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::__RightShiftInstruction__RightShiftInt64::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::System::Linq::Expressions::Interpreter::__RightShiftInstruction__RightShiftInt64::Run)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x2b49c50;
+  constexpr static std::size_t addrs = 0x2c46550;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::__RightShiftInstruction__RightShiftInt64::*)()>(
     &::System::Linq::Expressions::Interpreter::__RightShiftInstruction__RightShiftInt64::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b49954;
+  constexpr static std::size_t addrs = 0x2c46254;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

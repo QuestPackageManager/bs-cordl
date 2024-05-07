@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Composites/Vector2Composite.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -114,12 +115,12 @@ public:
   /// @brief Field up, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_up, put = __cordl_internal_set_up)) int32_t up;
 
-  /// @brief Method EvaluateMagnitude, addr 0x2f91490, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method EvaluateMagnitude, addr 0x30cc21c, size 0x70, virtual true, abstract: false, final false
   inline float_t EvaluateMagnitude(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
   static inline ::UnityEngine::InputSystem::Composites::Vector2Composite* New_ctor();
 
-  /// @brief Method ReadValue, addr 0x2f9132c, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method ReadValue, addr 0x30cc0b8, size 0x164, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 ReadValue(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
   constexpr int32_t const& __cordl_internal_get_down() const;
@@ -158,7 +159,7 @@ public:
 
   constexpr void __cordl_internal_set_up(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2f91500, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x30cc28c, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

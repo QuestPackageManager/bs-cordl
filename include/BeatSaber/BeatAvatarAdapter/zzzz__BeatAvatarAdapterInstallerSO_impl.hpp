@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatSaber/BeatAvatarAdapter/BeatAvatarAdapterInstallerSO.hpp"
 #include "BeatSaber/AvatarCore/zzzz__AbstractAdapterInstallerSO_impl.hpp"
 #include "BeatSaber/BeatAvatarAdapter/zzzz__BeatAvatarAdapterInstallerSO_def.hpp"
 #include "BeatSaber/BeatAvatarAdapter/AvatarEditor/zzzz__BeatAvatarEditorViewController_def.hpp"
@@ -13,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarAdapter::BeatAvatarAdapterInstallerSO::*)()>(
     &::BeatSaber::BeatAvatarAdapter::BeatAvatarAdapterInstallerSO::InstallBindings)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0xf57fc8;
+  constexpr static std::size_t addrs = 0x1046b3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -29,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarAdapter::BeatAvatarAdapterInstallerSO::*)(::Zenject::DiContainer*)>(
     &::BeatSaber::BeatAvatarAdapter::BeatAvatarAdapterInstallerSO::InstallBindings)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0xf57fd8;
+  constexpr static std::size_t addrs = 0x1046b4c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -45,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarAdapter::BeatAvatarAdapterInstallerSO::*)()>(
     &::BeatSaber::BeatAvatarAdapter::BeatAvatarAdapterInstallerSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf581e8;
+  constexpr static std::size_t addrs = 0x1046d5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

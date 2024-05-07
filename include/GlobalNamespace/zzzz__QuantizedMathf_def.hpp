@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/QuantizedMathf.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,22 +31,22 @@ namespace GlobalNamespace {
 class CORDL_TYPE QuantizedMathf : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Approximately, addr 0x1415ad4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Approximately, addr 0x1507124, size 0x60, virtual false, abstract: false, final false
   static inline bool Approximately(::UnityEngine::Pose a, ::UnityEngine::Pose b);
 
-  /// @brief Method Approximately, addr 0x1415944, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Approximately, addr 0x1506f94, size 0xd4, virtual false, abstract: false, final false
   static inline bool Approximately(::UnityEngine::Quaternion a, ::UnityEngine::Quaternion b);
 
-  /// @brief Method Approximately, addr 0x1415a9c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Approximately, addr 0x15070ec, size 0x38, virtual false, abstract: false, final false
   static inline bool Approximately(::UnityEngine::Vector3 a, ::UnityEngine::Vector3 b);
 
-  /// @brief Method Approximately, addr 0x1415a18, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Approximately, addr 0x1507068, size 0x10, virtual false, abstract: false, final false
   static inline bool Approximately(float_t a, float_t b, float_t epsilon);
 
-  /// @brief Method Approximately, addr 0x1415a28, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Approximately, addr 0x1507078, size 0x74, virtual false, abstract: false, final false
   static inline bool Approximately(int32_t a, int32_t b, int32_t epsilon);
 
-  /// @brief Method QuantizedVectorComponentToString, addr 0x1415b34, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method QuantizedVectorComponentToString, addr 0x1507184, size 0x100, virtual false, abstract: false, final false
   static inline ::StringW QuantizedVectorComponentToString(int32_t v);
 
 protected:

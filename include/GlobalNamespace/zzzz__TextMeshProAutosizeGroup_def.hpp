@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/TextMeshProAutosizeGroup.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,7 +28,7 @@ public:
 
   static inline ::GlobalNamespace::TextMeshProAutosizeGroup* New_ctor();
 
-  /// @brief Method Start, addr 0x2400104, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x24f8d90, size 0x108, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::ArrayW<::UnityW<::TMPro::TMP_Text>, ::Array<::UnityW<::TMPro::TMP_Text>>*> const& __cordl_internal_get__texts() const;
@@ -36,7 +37,7 @@ public:
 
   constexpr void __cordl_internal_set__texts(::ArrayW<::UnityW<::TMPro::TMP_Text>, ::Array<::UnityW<::TMPro::TMP_Text>>*> value);
 
-  /// @brief Method .ctor, addr 0x240020c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f8e98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

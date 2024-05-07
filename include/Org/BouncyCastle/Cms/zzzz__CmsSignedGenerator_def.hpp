@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Cms/CmsSignedGenerator.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -133,35 +134,35 @@ public:
   /// @brief Field rand, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_rand, put = __cordl_internal_set_rand))::Org::BouncyCastle::Security::SecureRandom* rand;
 
-  /// @brief Method AddAttributeCertificates, addr 0x1356d00, size 0x5cc, virtual false, abstract: false, final false
+  /// @brief Method AddAttributeCertificates, addr 0x144c424, size 0x5cc, virtual false, abstract: false, final false
   inline void AddAttributeCertificates(::Org::BouncyCastle::X509::Store::IX509Store* store);
 
-  /// @brief Method AddCertificates, addr 0x1356cb8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method AddCertificates, addr 0x144c3dc, size 0x24, virtual false, abstract: false, final false
   inline void AddCertificates(::Org::BouncyCastle::X509::Store::IX509Store* certStore);
 
-  /// @brief Method AddCrls, addr 0x1356cdc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method AddCrls, addr 0x144c400, size 0x24, virtual false, abstract: false, final false
   inline void AddCrls(::Org::BouncyCastle::X509::Store::IX509Store* crlStore);
 
-  /// @brief Method AddSignerCallback, addr 0x1357734, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method AddSignerCallback, addr 0x144ce58, size 0x4, virtual true, abstract: false, final false
   inline void AddSignerCallback(::Org::BouncyCastle::Cms::SignerInformation* si);
 
-  /// @brief Method AddSigners, addr 0x13572cc, size 0x3e4, virtual false, abstract: false, final false
+  /// @brief Method AddSigners, addr 0x144c9f0, size 0x3e4, virtual false, abstract: false, final false
   inline void AddSigners(::Org::BouncyCastle::Cms::SignerInformationStore* signerStore);
 
-  /// @brief Method GetAttributeSet, addr 0x1356c3c, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method GetAttributeSet, addr 0x144c360, size 0x7c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Set* GetAttributeSet(::Org::BouncyCastle::Asn1::Cms::AttributeTable* attr);
 
-  /// @brief Method GetBaseParameters, addr 0x1356a00, size 0x23c, virtual true, abstract: false, final false
+  /// @brief Method GetBaseParameters, addr 0x144c124, size 0x23c, virtual true, abstract: false, final false
   inline ::System::Collections::IDictionary* GetBaseParameters(::Org::BouncyCastle::Asn1::DerObjectIdentifier* contentType, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digAlgId,
                                                                ::ArrayW<uint8_t, ::Array<uint8_t>*> hash);
 
-  /// @brief Method GetGeneratedDigests, addr 0x13576b0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetGeneratedDigests, addr 0x144cdd4, size 0x5c, virtual false, abstract: false, final false
   inline ::System::Collections::IDictionary* GetGeneratedDigests();
 
-  /// @brief Method GetSignerIdentifier, addr 0x1357738, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetSignerIdentifier, addr 0x144ce5c, size 0x74, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* GetSignerIdentifier(::Org::BouncyCastle::X509::X509Certificate* cert);
 
-  /// @brief Method GetSignerIdentifier, addr 0x1357840, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetSignerIdentifier, addr 0x144cf64, size 0x94, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* GetSignerIdentifier(::ArrayW<uint8_t, ::Array<uint8_t>*> subjectKeyIdentifier);
 
   static inline ::Org::BouncyCastle::Cms::CmsSignedGenerator* New_ctor();
@@ -210,10 +211,10 @@ public:
 
   constexpr void __cordl_internal_set_rand(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method .ctor, addr 0x13568fc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x144c020, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x1356960, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x144c084, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* rand);
 
   static inline ::StringW getStaticF_Data();
@@ -250,10 +251,10 @@ public:
 
   static inline ::StringW getStaticF_EncryptionRsaPss();
 
-  /// @brief Method get_UseDerForCerts, addr 0x135770c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UseDerForCerts, addr 0x144ce30, size 0x8, virtual false, abstract: false, final false
   inline bool get_UseDerForCerts();
 
-  /// @brief Method get_UseDerForCrls, addr 0x1357720, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UseDerForCrls, addr 0x144ce44, size 0x8, virtual false, abstract: false, final false
   inline bool get_UseDerForCrls();
 
   static inline void setStaticF_Data(::StringW value);
@@ -290,10 +291,10 @@ public:
 
   static inline void setStaticF_EncryptionRsaPss(::StringW value);
 
-  /// @brief Method set_UseDerForCerts, addr 0x1357714, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_UseDerForCerts, addr 0x144ce38, size 0xc, virtual false, abstract: false, final false
   inline void set_UseDerForCerts(bool value);
 
-  /// @brief Method set_UseDerForCrls, addr 0x1357728, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_UseDerForCrls, addr 0x144ce4c, size 0xc, virtual false, abstract: false, final false
   inline void set_UseDerForCrls(bool value);
 
 protected:

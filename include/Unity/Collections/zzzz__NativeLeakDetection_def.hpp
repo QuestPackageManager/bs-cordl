@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/Collections/NativeLeakDetection.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,7 +23,7 @@ public:
   /// @brief Field s_NativeLeakDetectionMode, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_s_NativeLeakDetectionMode, put = setStaticF_s_NativeLeakDetectionMode)) int32_t s_NativeLeakDetectionMode;
 
-  /// @brief Method Initialize, addr 0x31cec28, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x33d5920, size 0x4c, virtual false, abstract: false, final false
   static inline void Initialize();
 
   static inline int32_t getStaticF_s_NativeLeakDetectionMode();

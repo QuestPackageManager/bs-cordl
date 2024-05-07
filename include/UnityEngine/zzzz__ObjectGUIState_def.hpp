@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ObjectGUIState.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,19 +30,19 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Destroy, addr 0x323e100, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Destroy, addr 0x3445e3c, size 0xa0, virtual false, abstract: false, final false
   inline void Destroy();
 
-  /// @brief Method Dispose, addr 0x323e0a0, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3445ddc, size 0x60, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Finalize, addr 0x323e1a0, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x3445edc, size 0x94, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method Internal_Create, addr 0x323e078, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Internal_Create, addr 0x3445db4, size 0x28, virtual false, abstract: false, final false
   static inline void* Internal_Create();
 
-  /// @brief Method Internal_Destroy, addr 0x323e234, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Internal_Destroy, addr 0x3445f70, size 0x3c, virtual false, abstract: false, final false
   static inline void Internal_Destroy(void* ptr);
 
   static inline ::UnityEngine::ObjectGUIState* New_ctor();
@@ -52,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Ptr(void* value);
 
-  /// @brief Method .ctor, addr 0x323e030, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3445d6c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IDisposable"

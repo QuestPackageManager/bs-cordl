@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BGNet/Core/GameLift/GetMultiplayerInstanceResponse.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,7 +28,7 @@ namespace BGNet::Core::GameLift {
 struct CORDL_TYPE GetMultiplayerInstanceResponse {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0xfcbfac, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10be6d0, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::MultiplayerPlacementErrorCode errorCode, ::BGNet::Core::GameLift::PlayerSessionInfo* playerSessionInfo, int32_t pollIntervalMs, ::StringW ticketId,
                     ::StringW ticketStatus, ::StringW placementId, ::StringW placementStatus);
 

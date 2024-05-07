@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Decimal.hpp"
 #include "System/zzzz__Decimal_def.hpp"
 #include "System/Globalization/zzzz__NumberStyles_def.hpp"
 #include "System/Runtime/Serialization/zzzz__IDeserializationCallback_def.hpp"
@@ -34,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__Decimal__DecCalc__PowerOvfl::*)(uint32_t, uint32_t, uint32_t)>(
     &::GlobalNamespace::__Decimal__DecCalc__PowerOvfl::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x289895c;
+  constexpr static std::size_t addrs = 0x299720c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -64,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::GlobalNamespace::__Decimal__DecCalc__Buf12::*)()>(
     &::GlobalNamespace::__Decimal__DecCalc__Buf12::get_Low64)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x2896b50;
+  constexpr static std::size_t addrs = 0x2995400;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__Decimal__DecCalc__Buf12>::get(), "get_Low64",
@@ -78,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__Decimal__DecCalc__Buf12::*)(uint64_t)>(
     &::GlobalNamespace::__Decimal__DecCalc__Buf12::set_Low64)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x2896bb0;
+  constexpr static std::size_t addrs = 0x2995460;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -93,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::GlobalNamespace::__Decimal__DecCalc__Buf12::*)()>(
     &::GlobalNamespace::__Decimal__DecCalc__Buf12::get_High64)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x2896a74;
+  constexpr static std::size_t addrs = 0x2995324;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__Decimal__DecCalc__Buf12>::get(),
@@ -107,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__Decimal__DecCalc__Buf12::*)(uint64_t)>(
     &::GlobalNamespace::__Decimal__DecCalc__Buf12::set_High64)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x2896ad4;
+  constexpr static std::size_t addrs = 0x2995384;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -201,7 +202,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::GlobalNamespace::__Decimal__DecCalc__Buf16::*)()>(
     &::GlobalNamespace::__Decimal__DecCalc__Buf16::get_Low64)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x289717c;
+  constexpr static std::size_t addrs = 0x2995a2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__Decimal__DecCalc__Buf16>::get(), "get_Low64",
@@ -215,7 +216,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__Decimal__DecCalc__Buf16::*)(uint64_t)>(
     &::GlobalNamespace::__Decimal__DecCalc__Buf16::set_Low64)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x28971dc;
+  constexpr static std::size_t addrs = 0x2995a8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -230,7 +231,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::GlobalNamespace::__Decimal__DecCalc__Buf16::*)()>(
     &::GlobalNamespace::__Decimal__DecCalc__Buf16::get_High64)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x289711c;
+  constexpr static std::size_t addrs = 0x29959cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__Decimal__DecCalc__Buf16>::get(),
@@ -244,7 +245,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__Decimal__DecCalc__Buf16::*)(uint64_t)>(
     &::GlobalNamespace::__Decimal__DecCalc__Buf16::set_High64)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x28986c4;
+  constexpr static std::size_t addrs = 0x2996f74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -348,7 +349,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::GlobalNamespace::__Decimal__DecCalc__Buf24::*)()>(
     &::GlobalNamespace::__Decimal__DecCalc__Buf24::get_Low64)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x289845c;
+  constexpr static std::size_t addrs = 0x2996d0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__Decimal__DecCalc__Buf24>::get(), "get_Low64",
@@ -362,7 +363,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__Decimal__DecCalc__Buf24::*)(uint64_t)>(
     &::GlobalNamespace::__Decimal__DecCalc__Buf24::set_Low64)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x2898364;
+  constexpr static std::size_t addrs = 0x2996c14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -377,7 +378,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__Decimal__DecCalc__Buf24::*)(uint64_t)>(
     &::GlobalNamespace::__Decimal__DecCalc__Buf24::set_Mid64)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x28983e0;
+  constexpr static std::size_t addrs = 0x2996c90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -392,7 +393,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__Decimal__DecCalc__Buf24::*)(uint64_t)>(
     &::GlobalNamespace::__Decimal__DecCalc__Buf24::set_High64)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x2898648;
+  constexpr static std::size_t addrs = 0x2996ef8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -528,7 +529,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::System::__Decimal__DecCalc::*)()>(&::System::__Decimal__DecCalc::get_High)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2896790;
+  constexpr static std::size_t addrs = 0x2995040;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::__Decimal__DecCalc>::get(), "get_High",
@@ -541,7 +542,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::__Decimal__DecCalc::*)(uint32_t)>(&::System::__Decimal__DecCalc::set_High)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2896798;
+  constexpr static std::size_t addrs = 0x2995048;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -555,7 +556,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::System::__Decimal__DecCalc::*)()>(&::System::__Decimal__DecCalc::get_Low)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x28967a0;
+  constexpr static std::size_t addrs = 0x2995050;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::__Decimal__DecCalc>::get(), "get_Low",
@@ -568,7 +569,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::__Decimal__DecCalc::*)(uint32_t)>(&::System::__Decimal__DecCalc::set_Low)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x28967a8;
+  constexpr static std::size_t addrs = 0x2995058;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -582,7 +583,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::System::__Decimal__DecCalc::*)()>(&::System::__Decimal__DecCalc::get_Mid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x28967b0;
+  constexpr static std::size_t addrs = 0x2995060;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::__Decimal__DecCalc>::get(), "get_Mid",
@@ -595,7 +596,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::__Decimal__DecCalc::*)(uint32_t)>(&::System::__Decimal__DecCalc::set_Mid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x28967b8;
+  constexpr static std::size_t addrs = 0x2995068;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -609,7 +610,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::__Decimal__DecCalc::*)()>(&::System::__Decimal__DecCalc::get_IsNegative)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x28967c0;
+  constexpr static std::size_t addrs = 0x2995070;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::__Decimal__DecCalc>::get(), "get_IsNegative",
@@ -622,7 +623,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::System::__Decimal__DecCalc::*)()>(&::System::__Decimal__DecCalc::get_Low64)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x28967cc;
+  constexpr static std::size_t addrs = 0x299507c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::__Decimal__DecCalc>::get(), "get_Low64",
@@ -635,7 +636,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::__Decimal__DecCalc::*)(uint64_t)>(&::System::__Decimal__DecCalc::set_Low64)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x289682c;
+  constexpr static std::size_t addrs = 0x29950dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -649,7 +650,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(float_t)>(&::System::__Decimal__DecCalc::GetExponent)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x28968a8;
+  constexpr static std::size_t addrs = 0x2995158;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -663,7 +664,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(double_t)>(&::System::__Decimal__DecCalc::GetExponent)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x28968b4;
+  constexpr static std::size_t addrs = 0x2995164;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -677,7 +678,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint32_t, uint32_t)>(&::System::__Decimal__DecCalc::UInt32x32To64)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x28968c0;
+  constexpr static std::size_t addrs = 0x2995170;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -691,7 +692,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t, uint64_t, ByRef<::System::__Decimal__DecCalc>)>(&::System::__Decimal__DecCalc::UInt64x64To128)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x28968c8;
+  constexpr static std::size_t addrs = 0x2995178;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -707,7 +708,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(ByRef<::GlobalNamespace::__Decimal__DecCalc__Buf12>, uint32_t)>(
     &::System::__Decimal__DecCalc::Div96By32)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x28969dc;
+  constexpr static std::size_t addrs = 0x299528c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -722,7 +723,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<uint64_t>, ByRef<uint32_t>, uint32_t)>(&::System::__Decimal__DecCalc::Div96ByConst)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2896c2c;
+  constexpr static std::size_t addrs = 0x29954dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -737,7 +738,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<uint32_t>, ByRef<uint64_t>, ByRef<int32_t>)>(&::System::__Decimal__DecCalc::Unscale)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x2896c70;
+  constexpr static std::size_t addrs = 0x2995520;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -754,7 +755,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(ByRef<::GlobalNamespace::__Decimal__DecCalc__Buf12>, uint64_t)>(
     &::System::__Decimal__DecCalc::Div96By64)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x2896ecc;
+  constexpr static std::size_t addrs = 0x299577c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -770,7 +771,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<uint32_t (*)(ByRef<::GlobalNamespace::__Decimal__DecCalc__Buf16>, ByRef<::GlobalNamespace::__Decimal__DecCalc__Buf12>)>(&::System::__Decimal__DecCalc::Div128By96)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x2896fd8;
+  constexpr static std::size_t addrs = 0x2995888;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -786,7 +787,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(ByRef<::GlobalNamespace::__Decimal__DecCalc__Buf12>, uint32_t)>(
     &::System::__Decimal__DecCalc::IncreaseScale)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x2897258;
+  constexpr static std::size_t addrs = 0x2995b08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -802,7 +803,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::GlobalNamespace::__Decimal__DecCalc__Buf12>, uint32_t)>(
     &::System::__Decimal__DecCalc::IncreaseScale64)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x28972e0;
+  constexpr static std::size_t addrs = 0x2995b90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -818,7 +819,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::cordl_internals::Ptr<::GlobalNamespace::__Decimal__DecCalc__Buf24>, uint32_t, int32_t)>(
     &::System::__Decimal__DecCalc::ScaleResult)> {
   constexpr static std::size_t size = 0xbdc;
-  constexpr static std::size_t addrs = 0x289735c;
+  constexpr static std::size_t addrs = 0x2995c0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -834,7 +835,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::cordl_internals::Ptr<uint32_t>, uint32_t, ByRef<uint32_t>, ByRef<uint32_t>, uint32_t)>(
     &::System::__Decimal__DecCalc::DivByConst)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2897f38;
+  constexpr static std::size_t addrs = 0x29967e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -850,7 +851,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(uint32_t)>(&::System::__Decimal__DecCalc::LeadingZeroCount)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2897f8c;
+  constexpr static std::size_t addrs = 0x299683c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -865,7 +866,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(ByRef<::GlobalNamespace::__Decimal__DecCalc__Buf12>, int32_t, bool)>(
     &::System::__Decimal__DecCalc::OverflowUnscale)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x2897ff4;
+  constexpr static std::size_t addrs = 0x29968a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -881,7 +882,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(ByRef<::GlobalNamespace::__Decimal__DecCalc__Buf12>, int32_t)>(
     &::System::__Decimal__DecCalc::SearchScale)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x2898168;
+  constexpr static std::size_t addrs = 0x2996a18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -896,7 +897,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<::GlobalNamespace::__Decimal__DecCalc__Buf12>, uint32_t)>(&::System::__Decimal__DecCalc::Add32To96)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2898114;
+  constexpr static std::size_t addrs = 0x29969c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -912,7 +913,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::System::__Decimal__DecCalc>, ByRef<::System::__Decimal__DecCalc>, bool)>(
     &::System::__Decimal__DecCalc::DecAddSub)> {
   constexpr static std::size_t size = 0x694;
-  constexpr static std::size_t addrs = 0x2891e88;
+  constexpr static std::size_t addrs = 0x2990738;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -928,7 +929,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(ByRef<::System::Decimal>, ByRef<::System::Decimal>)>(&::System::__Decimal__DecCalc::VarDecCmp)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x28925a4;
+  constexpr static std::size_t addrs = 0x2990e54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -943,7 +944,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(ByRef<::System::Decimal>, ByRef<::System::Decimal>)>(&::System::__Decimal__DecCalc::VarDecCmpSub)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x28984bc;
+  constexpr static std::size_t addrs = 0x2996d6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -959,7 +960,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::System::__Decimal__DecCalc>, ByRef<::System::__Decimal__DecCalc>)>(
     &::System::__Decimal__DecCalc::VarDecMul)> {
   constexpr static std::size_t size = 0x468;
-  constexpr static std::size_t addrs = 0x2893e80;
+  constexpr static std::size_t addrs = 0x2992730;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -974,7 +975,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float_t, ByRef<::System::__Decimal__DecCalc>)>(&::System::__Decimal__DecCalc::VarDecFromR4)> {
   constexpr static std::size_t size = 0x404;
-  constexpr static std::size_t addrs = 0x2891264;
+  constexpr static std::size_t addrs = 0x298fb14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -989,7 +990,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(double_t, ByRef<::System::__Decimal__DecCalc>)>(&::System::__Decimal__DecCalc::VarDecFromR8)> {
   constexpr static std::size_t size = 0x40c;
-  constexpr static std::size_t addrs = 0x28916f0;
+  constexpr static std::size_t addrs = 0x298ffa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1004,7 +1005,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(ByRef<::System::Decimal>)>(&::System::__Decimal__DecCalc::VarR4FromDec)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x2895540;
+  constexpr static std::size_t addrs = 0x2993df0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1018,7 +1019,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)(ByRef<::System::Decimal>)>(&::System::__Decimal__DecCalc::VarR8FromDec)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x2894fa4;
+  constexpr static std::size_t addrs = 0x2993854;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1032,7 +1033,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(ByRef<::System::Decimal>)>(&::System::__Decimal__DecCalc::GetHashCode)> {
   constexpr static std::size_t size = 0x290;
-  constexpr static std::size_t addrs = 0x2893408;
+  constexpr static std::size_t addrs = 0x2991cb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1047,7 +1048,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::System::__Decimal__DecCalc>, ByRef<::System::__Decimal__DecCalc>)>(
     &::System::__Decimal__DecCalc::VarDecDiv)> {
   constexpr static std::size_t size = 0x96c;
-  constexpr static std::size_t addrs = 0x28928d4;
+  constexpr static std::size_t addrs = 0x2991184;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1063,7 +1064,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::System::__Decimal__DecCalc>, uint32_t, ::GlobalNamespace::__Decimal__DecCalc__RoundingMode)>(
     &::System::__Decimal__DecCalc::InternalRound)> {
   constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x289453c;
+  constexpr static std::size_t addrs = 0x2992dec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1079,7 +1080,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(ByRef<::System::__Decimal__DecCalc>)>(&::System::__Decimal__DecCalc::DecDivMod1E9)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x289110c;
+  constexpr static std::size_t addrs = 0x298f9bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1427,7 +1428,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::System::Decimal::*)()>(&::System::Decimal::get_High)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2890fa8;
+  constexpr static std::size_t addrs = 0x298f858;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Decimal>::get(), "get_High",
@@ -1440,7 +1441,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::System::Decimal::*)()>(&::System::Decimal::get_Low)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2890fb0;
+  constexpr static std::size_t addrs = 0x298f860;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Decimal>::get(), "get_Low",
@@ -1453,7 +1454,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::System::Decimal::*)()>(&::System::Decimal::get_Mid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2890fb8;
+  constexpr static std::size_t addrs = 0x298f868;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Decimal>::get(), "get_Mid",
@@ -1466,7 +1467,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Decimal::*)()>(&::System::Decimal::get_IsNegative)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2890fc0;
+  constexpr static std::size_t addrs = 0x298f870;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Decimal>::get(), "get_IsNegative",
@@ -1479,7 +1480,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Decimal::*)()>(&::System::Decimal::get_Scale)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2890fcc;
+  constexpr static std::size_t addrs = 0x298f87c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Decimal>::get(), "get_Scale",
@@ -1492,7 +1493,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::System::Decimal::*)()>(&::System::Decimal::get_Low64)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x2890fd4;
+  constexpr static std::size_t addrs = 0x298f884;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Decimal>::get(), "get_Low64",
@@ -1505,7 +1506,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<ByRef<::System::__Decimal__DecCalc> (*)(ByRef<::System::Decimal>)>(&::System::Decimal::AsMutable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2891034;
+  constexpr static std::size_t addrs = 0x298f8e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1519,7 +1520,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(ByRef<::System::Decimal>)>(&::System::Decimal::DecDivMod1E9)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x2891038;
+  constexpr static std::size_t addrs = 0x298f8e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1533,7 +1534,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Decimal::*)(int32_t)>(&::System::Decimal::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2891174;
+  constexpr static std::size_t addrs = 0x298fa24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1547,7 +1548,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Decimal::*)(uint32_t)>(&::System::Decimal::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2891198;
+  constexpr static std::size_t addrs = 0x298fa48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1561,7 +1562,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Decimal::*)(int64_t)>(&::System::Decimal::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x28911a4;
+  constexpr static std::size_t addrs = 0x298fa54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1575,7 +1576,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Decimal::*)(uint64_t)>(&::System::Decimal::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x28911cc;
+  constexpr static std::size_t addrs = 0x298fa7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1589,7 +1590,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Decimal::*)(float_t)>(&::System::Decimal::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x28911dc;
+  constexpr static std::size_t addrs = 0x298fa8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1603,7 +1604,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Decimal::*)(double_t)>(&::System::Decimal::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x2891668;
+  constexpr static std::size_t addrs = 0x298ff18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1617,7 +1618,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t)>(&::System::Decimal::IsValid)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2891afc;
+  constexpr static std::size_t addrs = 0x29903ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1631,7 +1632,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Decimal::*)(::ArrayW<int32_t, ::Array<int32_t>*>)>(&::System::Decimal::_ctor)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x2891b1c;
+  constexpr static std::size_t addrs = 0x29903cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1645,7 +1646,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Decimal::*)(int32_t, int32_t, int32_t, bool, uint8_t)>(&::System::Decimal::_ctor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2891c5c;
+  constexpr static std::size_t addrs = 0x299050c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1662,7 +1663,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Decimal::*)(::System::Object*)>(
     &::System::Decimal::System_Runtime_Serialization_IDeserializationCallback_OnDeserialization)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x2891cf8;
+  constexpr static std::size_t addrs = 0x29905a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1676,7 +1677,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Decimal::*)(ByRef<::System::Decimal>, int32_t)>(&::System::Decimal::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2891db0;
+  constexpr static std::size_t addrs = 0x2990660;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1691,7 +1692,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(ByRef<::System::Decimal>)>(&::System::Decimal::Abs)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2891dc0;
+  constexpr static std::size_t addrs = 0x2990670;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1705,7 +1706,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(::System::Decimal, ::System::Decimal)>(&::System::Decimal::Add)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x2891dd4;
+  constexpr static std::size_t addrs = 0x2990684;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1720,7 +1721,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::Decimal, ::System::Decimal)>(&::System::Decimal::Compare)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x289251c;
+  constexpr static std::size_t addrs = 0x2990dcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1735,7 +1736,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Decimal::*)(::System::Object*)>(&::System::Decimal::CompareTo)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x2892674;
+  constexpr static std::size_t addrs = 0x2990f24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1749,7 +1750,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Decimal::*)(::System::Decimal)>(&::System::Decimal::CompareTo)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x2892794;
+  constexpr static std::size_t addrs = 0x2991044;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1763,7 +1764,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(::System::Decimal, ::System::Decimal)>(&::System::Decimal::Divide)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2892824;
+  constexpr static std::size_t addrs = 0x29910d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1778,7 +1779,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Decimal::*)(::System::Object*)>(&::System::Decimal::Equals)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x2893240;
+  constexpr static std::size_t addrs = 0x2991af0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1792,7 +1793,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Decimal::*)(::System::Decimal)>(&::System::Decimal::Equals)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x289331c;
+  constexpr static std::size_t addrs = 0x2991bcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1806,7 +1807,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Decimal::*)()>(&::System::Decimal::GetHashCode)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x28933b4;
+  constexpr static std::size_t addrs = 0x2991c64;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1820,7 +1821,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Decimal::*)()>(&::System::Decimal::ToString)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x2893698;
+  constexpr static std::size_t addrs = 0x2991f48;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1834,7 +1835,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Decimal::*)(::System::IFormatProvider*)>(&::System::Decimal::ToString)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x2893744;
+  constexpr static std::size_t addrs = 0x2991ff4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1848,7 +1849,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Decimal::*)(::StringW, ::System::IFormatProvider*)>(&::System::Decimal::ToString)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x2893800;
+  constexpr static std::size_t addrs = 0x29920b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1864,7 +1865,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (::System::Decimal::*)(::System::Span_1<char16_t>, ByRef<int32_t>, ::System::ReadOnlySpan_1<char16_t>, ::System::IFormatProvider*)>(&::System::Decimal::TryFormat)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x28938d8;
+  constexpr static std::size_t addrs = 0x2992188;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1881,7 +1882,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(::StringW, ::System::IFormatProvider*)>(&::System::Decimal::Parse)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x28939a4;
+  constexpr static std::size_t addrs = 0x2992254;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1897,7 +1898,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(::StringW, ::System::Globalization::NumberStyles, ::System::IFormatProvider*)>(
     &::System::Decimal::Parse)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x2893a78;
+  constexpr static std::size_t addrs = 0x2992328;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1914,7 +1915,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::System::Globalization::NumberStyles, ::System::IFormatProvider*, ByRef<::System::Decimal>)>(
     &::System::Decimal::TryParse)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x2893b5c;
+  constexpr static std::size_t addrs = 0x299240c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1931,7 +1932,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int32_t, ::Array<int32_t>*> (*)(::System::Decimal)>(&::System::Decimal::GetBits)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2893c54;
+  constexpr static std::size_t addrs = 0x2992504;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1945,7 +1946,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<ByRef<::System::Decimal> (*)(ByRef<::System::Decimal>, ByRef<::System::Decimal>)>(&::System::Decimal::Max)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x2893cf0;
+  constexpr static std::size_t addrs = 0x29925a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1960,7 +1961,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<ByRef<::System::Decimal> (*)(ByRef<::System::Decimal>, ByRef<::System::Decimal>)>(&::System::Decimal::Min)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x2893d60;
+  constexpr static std::size_t addrs = 0x2992610;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1975,7 +1976,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(::System::Decimal, ::System::Decimal)>(&::System::Decimal::Multiply)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2893dd0;
+  constexpr static std::size_t addrs = 0x2992680;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1990,7 +1991,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(::System::Decimal)>(&::System::Decimal::Negate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x28942e8;
+  constexpr static std::size_t addrs = 0x2992b98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2004,7 +2005,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(::System::Decimal, int32_t)>(&::System::Decimal::Round)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x28942f0;
+  constexpr static std::size_t addrs = 0x2992ba0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2018,7 +2019,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(ByRef<::System::Decimal>, int32_t, ::System::MidpointRounding)>(&::System::Decimal::Round)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x2894384;
+  constexpr static std::size_t addrs = 0x2992c34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2034,7 +2035,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(::System::Decimal)>(&::System::Decimal::ToByte)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x28947c0;
+  constexpr static std::size_t addrs = 0x2993070;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2048,7 +2049,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(::System::Decimal)>(&::System::Decimal::ToSByte)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x2894aac;
+  constexpr static std::size_t addrs = 0x299335c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2062,7 +2063,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(::System::Decimal)>(&::System::Decimal::ToInt16)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x2894da4;
+  constexpr static std::size_t addrs = 0x2993654;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2076,7 +2077,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)(::System::Decimal)>(&::System::Decimal::ToDouble)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x2894f24;
+  constexpr static std::size_t addrs = 0x29937d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2090,7 +2091,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::Decimal)>(&::System::Decimal::ToInt32)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x2894c2c;
+  constexpr static std::size_t addrs = 0x29934dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2104,7 +2105,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::System::Decimal)>(&::System::Decimal::ToInt64)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x289506c;
+  constexpr static std::size_t addrs = 0x299391c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2118,7 +2119,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (*)(::System::Decimal)>(&::System::Decimal::ToUInt16)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x28951dc;
+  constexpr static std::size_t addrs = 0x2993a8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2132,7 +2133,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::System::Decimal)>(&::System::Decimal::ToUInt32)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x2894940;
+  constexpr static std::size_t addrs = 0x29931f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2146,7 +2147,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::Decimal)>(&::System::Decimal::ToUInt64)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x289535c;
+  constexpr static std::size_t addrs = 0x2993c0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2160,7 +2161,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::System::Decimal)>(&::System::Decimal::ToSingle)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x28954c0;
+  constexpr static std::size_t addrs = 0x2993d70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2174,7 +2175,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(::System::Decimal)>(&::System::Decimal::Truncate)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x289559c;
+  constexpr static std::size_t addrs = 0x2993e4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2188,7 +2189,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::System::Decimal>)>(&::System::Decimal::Truncate)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x289569c;
+  constexpr static std::size_t addrs = 0x2993f4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2202,7 +2203,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(uint8_t)>(&::System::Decimal::op_Implicit___System__Decimal)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2895734;
+  constexpr static std::size_t addrs = 0x2993fe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2216,7 +2217,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(int8_t)>(&::System::Decimal::op_Implicit___System__Decimal)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x2895740;
+  constexpr static std::size_t addrs = 0x2993ff0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2230,7 +2231,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(int16_t)>(&::System::Decimal::op_Implicit___System__Decimal)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x2895758;
+  constexpr static std::size_t addrs = 0x2994008;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2244,7 +2245,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(uint16_t)>(&::System::Decimal::op_Implicit___System__Decimal)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2895770;
+  constexpr static std::size_t addrs = 0x2994020;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2258,7 +2259,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(char16_t)>(&::System::Decimal::op_Implicit___System__Decimal)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x289577c;
+  constexpr static std::size_t addrs = 0x299402c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2272,7 +2273,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(int32_t)>(&::System::Decimal::op_Implicit___System__Decimal)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2895788;
+  constexpr static std::size_t addrs = 0x2994038;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2286,7 +2287,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(uint32_t)>(&::System::Decimal::op_Implicit___System__Decimal)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x289579c;
+  constexpr static std::size_t addrs = 0x299404c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2300,7 +2301,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(int64_t)>(&::System::Decimal::op_Implicit___System__Decimal)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x28957a8;
+  constexpr static std::size_t addrs = 0x2994058;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2314,7 +2315,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(uint64_t)>(&::System::Decimal::op_Implicit___System__Decimal)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x28957c0;
+  constexpr static std::size_t addrs = 0x2994070;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2328,7 +2329,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(float_t)>(&::System::Decimal::op_Explicit___System__Decimal)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x28957cc;
+  constexpr static std::size_t addrs = 0x299407c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2342,7 +2343,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(double_t)>(&::System::Decimal::op_Explicit___System__Decimal)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2895810;
+  constexpr static std::size_t addrs = 0x29940c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2356,7 +2357,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::Decimal)>(&::System::Decimal::op_Explicit_int32_t)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2895854;
+  constexpr static std::size_t addrs = 0x2994104;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2370,7 +2371,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::System::Decimal)>(&::System::Decimal::op_Explicit_int64_t)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x28958b8;
+  constexpr static std::size_t addrs = 0x2994168;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2384,7 +2385,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::Decimal)>(&::System::Decimal::op_Explicit_uint64_t)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x289591c;
+  constexpr static std::size_t addrs = 0x29941cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2398,7 +2399,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::System::Decimal)>(&::System::Decimal::op_Explicit_float_t)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2895980;
+  constexpr static std::size_t addrs = 0x2994230;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2412,7 +2413,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)(::System::Decimal)>(&::System::Decimal::op_Explicit_double_t)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x28959e4;
+  constexpr static std::size_t addrs = 0x2994294;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2426,7 +2427,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(::System::Decimal)>(&::System::Decimal::op_UnaryNegation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2895a48;
+  constexpr static std::size_t addrs = 0x29942f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2440,7 +2441,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(::System::Decimal)>(&::System::Decimal::op_Increment)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x2895a50;
+  constexpr static std::size_t addrs = 0x2994300;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2454,7 +2455,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(::System::Decimal, ::System::Decimal)>(&::System::Decimal::op_Addition)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x2895ac0;
+  constexpr static std::size_t addrs = 0x2994370;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2469,7 +2470,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(::System::Decimal, ::System::Decimal)>(&::System::Decimal::op_Subtraction)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x2895b74;
+  constexpr static std::size_t addrs = 0x2994424;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2484,7 +2485,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(::System::Decimal, ::System::Decimal)>(&::System::Decimal::op_Multiply)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2895c28;
+  constexpr static std::size_t addrs = 0x29944d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2499,7 +2500,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (*)(::System::Decimal, ::System::Decimal)>(&::System::Decimal::op_Division)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2895cd8;
+  constexpr static std::size_t addrs = 0x2994588;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2514,7 +2515,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Decimal, ::System::Decimal)>(&::System::Decimal::op_Equality)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x2895d88;
+  constexpr static std::size_t addrs = 0x2994638;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2529,7 +2530,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Decimal, ::System::Decimal)>(&::System::Decimal::op_Inequality)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x2895e18;
+  constexpr static std::size_t addrs = 0x29946c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2544,7 +2545,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Decimal, ::System::Decimal)>(&::System::Decimal::op_LessThan)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x2895ea8;
+  constexpr static std::size_t addrs = 0x2994758;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2559,7 +2560,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Decimal, ::System::Decimal)>(&::System::Decimal::op_LessThanOrEqual)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x2895f34;
+  constexpr static std::size_t addrs = 0x29947e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2574,7 +2575,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Decimal, ::System::Decimal)>(&::System::Decimal::op_GreaterThan)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x2895fc4;
+  constexpr static std::size_t addrs = 0x2994874;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2589,7 +2590,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Decimal, ::System::Decimal)>(&::System::Decimal::op_GreaterThanOrEqual)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x2896054;
+  constexpr static std::size_t addrs = 0x2994904;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2604,7 +2605,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TypeCode (::System::Decimal::*)()>(&::System::Decimal::GetTypeCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x28960e4;
+  constexpr static std::size_t addrs = 0x2994994;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Decimal>::get(), "GetTypeCode",
@@ -2617,7 +2618,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Decimal::*)(::System::IFormatProvider*)>(&::System::Decimal::System_IConvertible_ToBoolean)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x28960ec;
+  constexpr static std::size_t addrs = 0x299499c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2631,7 +2632,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (::System::Decimal::*)(::System::IFormatProvider*)>(&::System::Decimal::System_IConvertible_ToChar)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x289614c;
+  constexpr static std::size_t addrs = 0x29949fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2645,7 +2646,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (::System::Decimal::*)(::System::IFormatProvider*)>(&::System::Decimal::System_IConvertible_ToSByte)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x28961d8;
+  constexpr static std::size_t addrs = 0x2994a88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2659,7 +2660,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::System::Decimal::*)(::System::IFormatProvider*)>(&::System::Decimal::System_IConvertible_ToByte)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x2896238;
+  constexpr static std::size_t addrs = 0x2994ae8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2673,7 +2674,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (::System::Decimal::*)(::System::IFormatProvider*)>(&::System::Decimal::System_IConvertible_ToInt16)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x2896298;
+  constexpr static std::size_t addrs = 0x2994b48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2687,7 +2688,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (::System::Decimal::*)(::System::IFormatProvider*)>(&::System::Decimal::System_IConvertible_ToUInt16)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x28962f8;
+  constexpr static std::size_t addrs = 0x2994ba8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2701,7 +2702,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Decimal::*)(::System::IFormatProvider*)>(&::System::Decimal::System_IConvertible_ToInt32)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x2896358;
+  constexpr static std::size_t addrs = 0x2994c08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2715,7 +2716,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::System::Decimal::*)(::System::IFormatProvider*)>(&::System::Decimal::System_IConvertible_ToUInt32)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x28963b8;
+  constexpr static std::size_t addrs = 0x2994c68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2729,7 +2730,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::Decimal::*)(::System::IFormatProvider*)>(&::System::Decimal::System_IConvertible_ToInt64)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x2896418;
+  constexpr static std::size_t addrs = 0x2994cc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2743,7 +2744,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::System::Decimal::*)(::System::IFormatProvider*)>(&::System::Decimal::System_IConvertible_ToUInt64)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x2896478;
+  constexpr static std::size_t addrs = 0x2994d28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2757,7 +2758,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::System::Decimal::*)(::System::IFormatProvider*)>(&::System::Decimal::System_IConvertible_ToSingle)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x28964d8;
+  constexpr static std::size_t addrs = 0x2994d88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2771,7 +2772,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::System::Decimal::*)(::System::IFormatProvider*)>(&::System::Decimal::System_IConvertible_ToDouble)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x2896538;
+  constexpr static std::size_t addrs = 0x2994de8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2786,7 +2787,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (::System::Decimal::*)(::System::IFormatProvider*)>(
     &::System::Decimal::System_IConvertible_ToDecimal)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2896598;
+  constexpr static std::size_t addrs = 0x2994e48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2801,7 +2802,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (::System::Decimal::*)(::System::IFormatProvider*)>(
     &::System::Decimal::System_IConvertible_ToDateTime)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x28965a4;
+  constexpr static std::size_t addrs = 0x2994e54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2816,7 +2817,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Decimal::*)(::System::Type*, ::System::IFormatProvider*)>(
     &::System::Decimal::System_IConvertible_ToType)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x2896630;
+  constexpr static std::size_t addrs = 0x2994ee0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

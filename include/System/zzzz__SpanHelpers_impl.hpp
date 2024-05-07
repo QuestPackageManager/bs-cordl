@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/SpanHelpers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__SpanHelpers_def.hpp"
 #include "System/Globalization/zzzz__CompareInfo_def.hpp"
@@ -9,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(ByRef<uint8_t>, int32_t, ByRef<uint8_t>, int32_t)>(&::System::SpanHelpers::IndexOfAny)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x2847f6c;
+  constexpr static std::size_t addrs = 0x2947740;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(ByRef<uint8_t>, uint8_t, int32_t)>(&::System::SpanHelpers::IndexOf)> {
   constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x2847fec;
+  constexpr static std::size_t addrs = 0x29477c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<uint8_t>, ByRef<uint8_t>, uint64_t)>(&::System::SpanHelpers::SequenceEqual)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x2848284;
+  constexpr static std::size_t addrs = 0x2947a58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -54,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(ByRef<char16_t>, int32_t, ByRef<char16_t>, int32_t)>(&::System::SpanHelpers::SequenceCompareTo)> {
   constexpr static std::size_t size = 0x4d0;
-  constexpr static std::size_t addrs = 0x284844c;
+  constexpr static std::size_t addrs = 0x2947c20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -69,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(ByRef<char16_t>, char16_t, int32_t)>(&::System::SpanHelpers::IndexOf)> {
   constexpr static std::size_t size = 0x73c;
-  constexpr static std::size_t addrs = 0x284891c;
+  constexpr static std::size_t addrs = 0x29480f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -84,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(ByRef<char16_t>, char16_t, int32_t)>(&::System::SpanHelpers::LastIndexOf)> {
   constexpr static std::size_t size = 0x6e4;
-  constexpr static std::size_t addrs = 0x2849058;
+  constexpr static std::size_t addrs = 0x294882c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -99,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::Numerics::Vector_1<uint16_t>)>(&::System::SpanHelpers::LocateFirstFoundChar)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x284973c;
+  constexpr static std::size_t addrs = 0x2948f10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -113,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(uint64_t)>(&::System::SpanHelpers::LocateFirstFoundChar)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x28498fc;
+  constexpr static std::size_t addrs = 0x29490d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -127,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::Numerics::Vector_1<uint16_t>)>(&::System::SpanHelpers::LocateLastFoundChar)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x284991c;
+  constexpr static std::size_t addrs = 0x29490f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -141,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(uint64_t)>(&::System::SpanHelpers::LocateLastFoundChar)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2849adc;
+  constexpr static std::size_t addrs = 0x29492b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -156,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>, ::System::Globalization::CompareInfo*)>(&::System::SpanHelpers::EndsWithCultureHelper)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x2849b08;
+  constexpr static std::size_t addrs = 0x29492dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -173,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>, ::System::Globalization::CompareInfo*)>(&::System::SpanHelpers::EndsWithCultureIgnoreCaseHelper)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x2849d08;
+  constexpr static std::size_t addrs = 0x29494dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -190,7 +191,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>)>(
     &::System::SpanHelpers::EndsWithOrdinalIgnoreCaseHelper)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x2849e28;
+  constexpr static std::size_t addrs = 0x29495fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -205,7 +206,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<uint8_t>, uint64_t)>(&::System::SpanHelpers::ClearWithoutReferences)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x2849f08;
+  constexpr static std::size_t addrs = 0x29496dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -219,7 +220,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<void*>, uint64_t)>(&::System::SpanHelpers::ClearWithReferences)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x284a0f0;
+  constexpr static std::size_t addrs = 0x29498c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

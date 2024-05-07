@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/EventSystems/EventTriggerType.hpp"
 #include "UnityEngine/EventSystems/zzzz__EventTriggerType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::EventSystems::EventTriggerType::EventTriggerType(int32_t value__) noexcept {

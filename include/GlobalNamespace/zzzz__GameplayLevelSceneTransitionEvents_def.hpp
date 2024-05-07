@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/GameplayLevelSceneTransitionEvents.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,22 +56,22 @@ public:
   /// @brief Field anyGameplayLevelDidFinishEvent, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_anyGameplayLevelDidFinishEvent, put = __cordl_internal_set_anyGameplayLevelDidFinishEvent))::System::Action* anyGameplayLevelDidFinishEvent;
 
-  /// @brief Method Finalize, addr 0x25a941c, size 0x1e4, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x26a34b4, size 0x1e4, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method HandleMissionLevelDidFinish, addr 0x25a9864, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleMissionLevelDidFinish, addr 0x26a38fc, size 0x1c, virtual false, abstract: false, final false
   inline void HandleMissionLevelDidFinish(::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* missionLevelScenesTransitionSetupData,
                                           ::GlobalNamespace::MissionCompletionResults* missionCompletionResults);
 
-  /// @brief Method HandleMultiplayerLevelDidFinish, addr 0x25a9848, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleMultiplayerLevelDidFinish, addr 0x26a38e0, size 0x1c, virtual false, abstract: false, final false
   inline void HandleMultiplayerLevelDidFinish(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* multiplayerLevelScenesTransitionSetupData,
                                               ::GlobalNamespace::MultiplayerResultsData* multiplayerResultsData);
 
-  /// @brief Method HandleStandardLevelDidFinish, addr 0x25a9810, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleStandardLevelDidFinish, addr 0x26a38a8, size 0x1c, virtual false, abstract: false, final false
   inline void HandleStandardLevelDidFinish(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelScenesTransitionSetupData,
                                            ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
-  /// @brief Method InvokeAnyGameplayLevelDidFinish, addr 0x25a982c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeAnyGameplayLevelDidFinish, addr 0x26a38c4, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeAnyGameplayLevelDidFinish();
 
   static inline ::GlobalNamespace::GameplayLevelSceneTransitionEvents* New_ctor(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelScenesTransitionSetupData,
@@ -101,15 +102,15 @@ public:
 
   constexpr void __cordl_internal_set_anyGameplayLevelDidFinishEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x25a90a0, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a3138, size 0x16c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelScenesTransitionSetupData,
                     ::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* missionLevelScenesTransitionSetupData,
                     ::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* multiplayerLevelScenesTransitionSetupData);
 
-  /// @brief Method add_anyGameplayLevelDidFinishEvent, addr 0x25a8f68, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_anyGameplayLevelDidFinishEvent, addr 0x26a3000, size 0x9c, virtual false, abstract: false, final false
   inline void add_anyGameplayLevelDidFinishEvent(::System::Action* value);
 
-  /// @brief Method remove_anyGameplayLevelDidFinishEvent, addr 0x25a9004, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_anyGameplayLevelDidFinishEvent, addr 0x26a309c, size 0x9c, virtual false, abstract: false, final false
   inline void remove_anyGameplayLevelDidFinishEvent(::System::Action* value);
 
 protected:

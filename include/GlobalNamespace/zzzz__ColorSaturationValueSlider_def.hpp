@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ColorSaturationValueSlider.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -69,24 +70,24 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerUpHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerUpHandler*() noexcept;
 
-  /// @brief Method Awake, addr 0x2661c50, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x27610f0, size 0x90, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleNormalizedValueDidChange, addr 0x2661ebc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandleNormalizedValueDidChange, addr 0x276135c, size 0x24, virtual false, abstract: false, final false
   inline void HandleNormalizedValueDidChange(::HMUI::Slider2D* slider, ::UnityEngine::Vector2 normalizedValue);
 
   static inline ::GlobalNamespace::ColorSaturationValueSlider* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x2661ce0, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2761180, size 0x90, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnPointerUp, addr 0x2661ee0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method OnPointerUp, addr 0x2761380, size 0x44, virtual true, abstract: false, final false
   inline void OnPointerUp(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method SetHue, addr 0x2661d70, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SetHue, addr 0x2761210, size 0x14, virtual false, abstract: false, final false
   inline void SetHue(float_t hue);
 
-  /// @brief Method UpdateVisuals, addr 0x2661d84, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method UpdateVisuals, addr 0x2761224, size 0x138, virtual true, abstract: false, final false
   inline void UpdateVisuals();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__darkColor() const;
@@ -122,10 +123,10 @@ public:
   constexpr void __cordl_internal_set_colorSaturationOrValueDidChangeEvent(
       ::System::Action_3<::UnityW<::GlobalNamespace::ColorSaturationValueSlider>, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
-  /// @brief Method .ctor, addr 0x2661f24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27613c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_colorSaturationOrValueDidChangeEvent, addr 0x2661ae8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method add_colorSaturationOrValueDidChangeEvent, addr 0x2760f88, size 0xb4, virtual false, abstract: false, final false
   inline void
   add_colorSaturationOrValueDidChangeEvent(::System::Action_3<::UnityW<::GlobalNamespace::ColorSaturationValueSlider>, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
@@ -135,7 +136,7 @@ public:
   /// @brief Convert to "::UnityEngine::EventSystems::IPointerUpHandler"
   constexpr ::UnityEngine::EventSystems::IPointerUpHandler* i___UnityEngine__EventSystems__IPointerUpHandler() noexcept;
 
-  /// @brief Method remove_colorSaturationOrValueDidChangeEvent, addr 0x2661b9c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method remove_colorSaturationOrValueDidChangeEvent, addr 0x276103c, size 0xb4, virtual false, abstract: false, final false
   inline void
   remove_colorSaturationOrValueDidChangeEvent(::System::Action_3<::UnityW<::GlobalNamespace::ColorSaturationValueSlider>, ::UnityEngine::Vector2, ::GlobalNamespace::ColorChangeUIEventType>* value);
 

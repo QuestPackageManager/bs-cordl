@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Cryptography/X509Certificates/X509Certificate2Collection.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,38 +39,38 @@ public:
   /// @brief Field newline_split, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_newline_split, put = setStaticF_newline_split))::ArrayW<::StringW, ::Array<::StringW>*> newline_split;
 
-  /// @brief Method Add, addr 0x2eaef48, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x2fb0848, size 0x74, virtual false, abstract: false, final false
   inline int32_t Add(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
 
-  /// @brief Method AddRange, addr 0x2eaeda8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method AddRange, addr 0x2fb06a8, size 0x74, virtual false, abstract: false, final false
   inline void AddRange(::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* certificates);
 
-  /// @brief Method Contains, addr 0x2eaefbc, size 0x384, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x2fb08bc, size 0x384, virtual false, abstract: false, final false
   inline bool Contains(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
 
-  /// @brief Method Find, addr 0x2eaf40c, size 0x1138, virtual false, abstract: false, final false
+  /// @brief Method Find, addr 0x2fb0d0c, size 0x1138, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* Find(::System::Security::Cryptography::X509Certificates::X509FindType findType, ::System::Object* findValue,
                                                                                               bool validOnly);
 
-  /// @brief Method GetEnumerator, addr 0x2eb0544, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x2fb1e44, size 0x60, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Enumerator* GetEnumerator();
 
-  /// @brief Method GetKeyIdentifier, addr 0x2eaf340, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetKeyIdentifier, addr 0x2fb0c40, size 0xcc, virtual false, abstract: false, final false
   inline ::StringW GetKeyIdentifier(::System::Security::Cryptography::X509Certificates::X509Certificate2* x);
 
   static inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* New_ctor();
 
   static inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* New_ctor(::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* certificates);
 
-  /// @brief Method .ctor, addr 0x2eaed6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fb066c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2eaed7c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fb067c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* certificates);
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_newline_split();
 
-  /// @brief Method get_Item, addr 0x2eaee1c, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x2fb071c, size 0x12c, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2* get_Item(int32_t index);
 
   static inline void setStaticF_newline_split(::ArrayW<::StringW, ::Array<::StringW>*> value);

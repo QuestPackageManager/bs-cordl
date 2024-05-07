@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/VREvent_InputBindingLoad_t.hpp"
 #include "OVR/OpenVR/zzzz__VREvent_InputBindingLoad_t_def.hpp"
 // Ctor Parameters [CppParam { name: "ulAppContainer", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "pathMessage", ty: "uint64_t", modifiers: "", def_value: Some("{}") },
 // CppParam { name: "pathUrl", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "pathControllerType", ty: "uint64_t", modifiers: "", def_value: Some("{}") }]

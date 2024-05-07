@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/MemberBindingType.hpp"
 #include "System/Linq/Expressions/zzzz__MemberBindingType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Linq::Expressions::MemberBindingType::MemberBindingType(int32_t value__) noexcept {

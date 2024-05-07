@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/LocalLeaderboardsInstaller.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,7 +26,7 @@ public:
   __declspec(property(get = __cordl_internal_get__localLeaderboardsSettings,
                       put = __cordl_internal_set__localLeaderboardsSettings))::UnityW<::GlobalNamespace::LocalLeaderboardsSettingsSO> _localLeaderboardsSettings;
 
-  /// @brief Method InstallBindings, addr 0x2508bb8, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x25ff844, size 0xb0, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::LocalLeaderboardsInstaller* New_ctor();
@@ -36,7 +37,7 @@ public:
 
   constexpr void __cordl_internal_set__localLeaderboardsSettings(::UnityW<::GlobalNamespace::LocalLeaderboardsSettingsSO> value);
 
-  /// @brief Method .ctor, addr 0x2508c68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25ff8f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

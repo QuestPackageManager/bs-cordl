@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/NetworkInformation/UnixNoLibCIPGlobalProperties.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,10 +24,10 @@ public:
 
   static inline ::System::Net::NetworkInformation::UnixNoLibCIPGlobalProperties* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f25e9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x302679c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_DomainName, addr 0x2f25e54, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method get_DomainName, addr 0x3026754, size 0x48, virtual true, abstract: false, final false
   inline ::StringW get_DomainName();
 
 protected:

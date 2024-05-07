@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/CompilerServices/FixedBufferAttribute.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,13 +47,13 @@ public:
 
   constexpr void __cordl_internal_set__Length_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x275c7b0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x285bec0, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* elementType, int32_t length);
 
-  /// @brief Method get_ElementType, addr 0x275c7e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ElementType, addr 0x285bef0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ElementType();
 
-  /// @brief Method get_Length, addr 0x275c7e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x285bef8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
 protected:

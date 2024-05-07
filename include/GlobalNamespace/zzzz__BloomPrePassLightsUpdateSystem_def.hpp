@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BloomPrePassLightsUpdateSystem.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,12 +19,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE BloomPrePassLightsUpdateSystem : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Method LateUpdate, addr 0x23f1d64, size 0x2f0, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x24e9954, size 0x2f0, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::BloomPrePassLightsUpdateSystem* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23f2054, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24e9c44, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

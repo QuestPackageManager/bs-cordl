@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/NetworkInformation/SystemNetworkInterface.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/NetworkInformation/zzzz__SystemNetworkInterface_def.hpp"
 #include "System/Net/NetworkInformation/zzzz__NetworkInterfaceFactory_def.hpp"
@@ -10,7 +11,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::System::Net::NetworkInformation::NetworkInterface*, ::Array<::System::Net::NetworkInformation::NetworkInterface*>*> (*)()>(
         &::System::Net::NetworkInformation::SystemNetworkInterface::GetNetworkInterfaces)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x2f21030;
+  constexpr static std::size_t addrs = 0x3021930;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

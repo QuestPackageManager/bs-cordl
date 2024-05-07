@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/InteropServices/ICustomMarshaler.hpp"
 #include "System/Runtime/InteropServices/zzzz__ICustomMarshaler_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Runtime::InteropServices::ICustomMarshaler.MarshalNativeToManaged

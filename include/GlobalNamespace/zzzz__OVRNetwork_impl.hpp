@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OVRNetwork.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRNetwork_def.hpp"
 #include "GlobalNamespace/zzzz__OVRNetwork_def.hpp"
@@ -16,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::GlobalNamespace::__OVRNetwork__FrameHeader::*)()>(
     &::GlobalNamespace::__OVRNetwork__FrameHeader::ToBytes)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x2a8cecc;
+  constexpr static std::size_t addrs = 0x2b8877c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRNetwork__FrameHeader>::get(), "ToBytes",
@@ -30,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRNetwork__FrameHeader (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::GlobalNamespace::__OVRNetwork__FrameHeader::FromBytes)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x2a8cfec;
+  constexpr static std::size_t addrs = 0x2b8889c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRNetwork__OVRNetworkTcpServer::*)(int32_t)>(
     &::GlobalNamespace::__OVRNetwork__OVRNetworkTcpServer::StartListening)> {
   constexpr static std::size_t size = 0x528;
-  constexpr static std::size_t addrs = 0x2a8d11c;
+  constexpr static std::size_t addrs = 0x2b889cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -80,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRNetwork__OVRNetworkTcpServer::*)()>(
     &::GlobalNamespace::__OVRNetwork__OVRNetworkTcpServer::StopListening)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x2a8d644;
+  constexpr static std::size_t addrs = 0x2b88ef4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRNetwork__OVRNetworkTcpServer*>::get(),
@@ -94,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRNetwork__OVRNetworkTcpServer::*)(::System::IAsyncResult*)>(
     &::GlobalNamespace::__OVRNetwork__OVRNetworkTcpServer::DoAcceptTcpClientCallback)> {
   constexpr static std::size_t size = 0x54c;
-  constexpr static std::size_t addrs = 0x2a8d804;
+  constexpr static std::size_t addrs = 0x2b890b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -109,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__OVRNetwork__OVRNetworkTcpServer::*)()>(
     &::GlobalNamespace::__OVRNetwork__OVRNetworkTcpServer::HasConnectedClient)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x2a8dd50;
+  constexpr static std::size_t addrs = 0x2b89600;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRNetwork__OVRNetworkTcpServer*>::get(),
@@ -123,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRNetwork__OVRNetworkTcpServer::*)(int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::GlobalNamespace::__OVRNetwork__OVRNetworkTcpServer::Broadcast)> {
   constexpr static std::size_t size = 0x5b0;
-  constexpr static std::size_t addrs = 0x2a8dfa4;
+  constexpr static std::size_t addrs = 0x2b89854;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -139,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRNetwork__OVRNetworkTcpServer::*)(::System::IAsyncResult*)>(
     &::GlobalNamespace::__OVRNetwork__OVRNetworkTcpServer::DoWriteDataCallback)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x2a8e554;
+  constexpr static std::size_t addrs = 0x2b89e04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -154,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRNetwork__OVRNetworkTcpServer::*)()>(
     &::GlobalNamespace::__OVRNetwork__OVRNetworkTcpServer::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x2a8e648;
+  constexpr static std::size_t addrs = 0x2b89ef8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRNetwork__OVRNetworkTcpServer*>::get(),
@@ -259,7 +260,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__OVRNetwork__OVRNetworkTcpClient__ConnectionState (
     ::GlobalNamespace::__OVRNetwork__OVRNetworkTcpClient::*)()>(&::GlobalNamespace::__OVRNetwork__OVRNetworkTcpClient::get_connectionState)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2a8e6f4;
+  constexpr static std::size_t addrs = 0x2b89fa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRNetwork__OVRNetworkTcpClient*>::get(),
@@ -273,7 +274,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__OVRNetwork__OVRNetworkTcpClient::*)()>(
     &::GlobalNamespace::__OVRNetwork__OVRNetworkTcpClient::get_Connected)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2a8e71c;
+  constexpr static std::size_t addrs = 0x2b89fcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRNetwork__OVRNetworkTcpClient*>::get(),
@@ -287,7 +288,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRNetwork__OVRNetworkTcpClient::*)(int32_t)>(
     &::GlobalNamespace::__OVRNetwork__OVRNetworkTcpClient::Connect)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x2a8e730;
+  constexpr static std::size_t addrs = 0x2b89fe0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -302,7 +303,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRNetwork__OVRNetworkTcpClient::*)(::System::IAsyncResult*)>(
     &::GlobalNamespace::__OVRNetwork__OVRNetworkTcpClient::ConnectCallback)> {
   constexpr static std::size_t size = 0x300;
-  constexpr static std::size_t addrs = 0x2a8e8ac;
+  constexpr static std::size_t addrs = 0x2b8a15c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -317,7 +318,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRNetwork__OVRNetworkTcpClient::*)()>(
     &::GlobalNamespace::__OVRNetwork__OVRNetworkTcpClient::Disconnect)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x2a8ebac;
+  constexpr static std::size_t addrs = 0x2b8a45c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRNetwork__OVRNetworkTcpClient*>::get(),
@@ -331,7 +332,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRNetwork__OVRNetworkTcpClient::*)()>(
     &::GlobalNamespace::__OVRNetwork__OVRNetworkTcpClient::Tick)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x2a8ede4;
+  constexpr static std::size_t addrs = 0x2b8a694;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRNetwork__OVRNetworkTcpClient*>::get(),
@@ -345,7 +346,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRNetwork__OVRNetworkTcpClient::*)(::System::IAsyncResult*)>(
     &::GlobalNamespace::__OVRNetwork__OVRNetworkTcpClient::OnReadDataCallback)> {
   constexpr static std::size_t size = 0x4dc;
-  constexpr static std::size_t addrs = 0x2a8effc;
+  constexpr static std::size_t addrs = 0x2b8a8ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -360,7 +361,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__OVRNetwork__OVRNetworkTcpClient::*)()>(
     &::GlobalNamespace::__OVRNetwork__OVRNetworkTcpClient::_ctor)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x2a8f4d8;
+  constexpr static std::size_t addrs = 0x2b8ad88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRNetwork__OVRNetworkTcpClient*>::get(),
@@ -509,7 +510,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRNetwork::*)()>(&::GlobalNamespace::OVRNetwork::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2a8cec4;
+  constexpr static std::size_t addrs = 0x2b88774;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRNetwork*>::get(), ".ctor",

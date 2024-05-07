@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaMaxInclusiveFacet.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,7 +21,7 @@ public:
   // Declarations
   static inline ::System::Xml::Schema::XmlSchemaMaxInclusiveFacet* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d15934, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e13234, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

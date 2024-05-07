@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/IGuiRenderable.hpp"
 #include "Zenject/zzzz__IGuiRenderable_def.hpp"
 //  Writing Method size for method: ::Zenject::IGuiRenderable.GuiRender
 template <>

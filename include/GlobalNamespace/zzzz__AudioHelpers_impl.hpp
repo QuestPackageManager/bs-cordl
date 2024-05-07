@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/AudioHelpers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__AudioHelpers_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::AudioHelpers.NormalizedVolumeToDB
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t)>(&::GlobalNamespace::AudioHelpers::NormalizedVolumeToDB)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0xf8e5c8;
+  constexpr static std::size_t addrs = 0x1082d9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -20,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t)>(&::GlobalNamespace::AudioHelpers::DBToNormalizedVolume)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0xf8e63c;
+  constexpr static std::size_t addrs = 0x1082e10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

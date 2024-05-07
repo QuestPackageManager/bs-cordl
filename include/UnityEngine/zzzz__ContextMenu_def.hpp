@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ContextMenu.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,13 +54,13 @@ public:
 
   constexpr void __cordl_internal_set_validate(bool value);
 
-  /// @brief Method .ctor, addr 0x3209a34, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3410768, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::StringW itemName);
 
-  /// @brief Method .ctor, addr 0x3209a6c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34107a0, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW itemName, bool isValidateFunction);
 
-  /// @brief Method .ctor, addr 0x3209aa8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34107dc, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::StringW itemName, bool isValidateFunction, int32_t priority);
 
 protected:

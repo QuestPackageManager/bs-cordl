@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Rendering/VertexAttributeFormat.hpp"
 #include "UnityEngine/Rendering/zzzz__VertexAttributeFormat_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Rendering::VertexAttributeFormat::VertexAttributeFormat(int32_t value__) noexcept {

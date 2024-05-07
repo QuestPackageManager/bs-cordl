@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/PackPromoInfoSO.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,13 +56,13 @@ public:
 
   constexpr void __cordl_internal_set__promoBannerInfo(::UnityW<::GlobalNamespace::PromoBannerInfoSO> value);
 
-  /// @brief Method .ctor, addr 0x13d22a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14c82b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_levelID, addr 0x13d2298, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelID, addr 0x14c82a0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_levelID();
 
-  /// @brief Method get_promoBannerInfo, addr 0x13d22a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_promoBannerInfo, addr 0x14c82a8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::PromoBannerInfoSO> get_promoBannerInfo();
 
 protected:
@@ -130,13 +131,13 @@ public:
 
   constexpr void __cordl_internal_set__promoBannerInfo(::UnityW<::GlobalNamespace::PromoBannerInfoSO> value);
 
-  /// @brief Method .ctor, addr 0x13d2290, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14c8298, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_levelPromoInfos, addr 0x13d2288, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelPromoInfos, addr 0x14c8290, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::__PackPromoInfoSO__LevelPromoInfo*, ::Array<::GlobalNamespace::__PackPromoInfoSO__LevelPromoInfo*>*> get_levelPromoInfos();
 
-  /// @brief Method get_promoBannerInfo, addr 0x13d2280, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_promoBannerInfo, addr 0x14c8288, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::PromoBannerInfoSO> get_promoBannerInfo();
 
 protected:

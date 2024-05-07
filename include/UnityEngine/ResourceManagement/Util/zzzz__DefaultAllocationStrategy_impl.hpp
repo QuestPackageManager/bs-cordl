@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ResourceManagement/Util/DefaultAllocationStrategy.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ResourceManagement/Util/zzzz__DefaultAllocationStrategy_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::ResourceManagement::Util::DefaultAllocationStrategy::*)(::System::Type*, int32_t)>(
     &::UnityEngine::ResourceManagement::Util::DefaultAllocationStrategy::New)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3101938;
+  constexpr static std::size_t addrs = 0x33083c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::Util::DefaultAllocationStrategy::*)(int32_t, ::System::Object*)>(
     &::UnityEngine::ResourceManagement::Util::DefaultAllocationStrategy::Release)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3101944;
+  constexpr static std::size_t addrs = 0x33083cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::Util::DefaultAllocationStrategy::*)()>(
     &::UnityEngine::ResourceManagement::Util::DefaultAllocationStrategy::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3101948;
+  constexpr static std::size_t addrs = 0x33083d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

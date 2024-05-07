@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/MeshHandle.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__Alloc_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__LinkedPoolItem_1_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__MeshHandle_def.hpp"
@@ -8,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::MeshHandle::*)()>(&::UnityEngine::UIElements::UIR::MeshHandle::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x331dd00;
+  constexpr static std::size_t addrs = 0x3522a3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::MeshHandle*>::get(), ".ctor",

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MissionObjectiveTypeSO.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionObjectiveTypeSO_def.hpp"
 #include "GlobalNamespace/zzzz__ObjectiveValueFormatterSO_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::MissionObjectiveTypeSO::*)()>(
     &::GlobalNamespace::MissionObjectiveTypeSO::get_objectiveName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x13d74fc;
+  constexpr static std::size_t addrs = 0x14ca8ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionObjectiveTypeSO*>::get(),
@@ -22,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::MissionObjectiveTypeSO::*)()>(
     &::GlobalNamespace::MissionObjectiveTypeSO::get_objectiveNameLocalized)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x13d7504;
+  constexpr static std::size_t addrs = 0x14ca8b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionObjectiveTypeSO*>::get(),
@@ -36,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MissionObjectiveTypeSO::*)()>(
     &::GlobalNamespace::MissionObjectiveTypeSO::get_noConditionValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x13d7510;
+  constexpr static std::size_t addrs = 0x14ca8c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionObjectiveTypeSO*>::get(),
@@ -50,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::ObjectiveValueFormatterSO> (::GlobalNamespace::MissionObjectiveTypeSO::*)()>(
     &::GlobalNamespace::MissionObjectiveTypeSO::get_objectiveValueFormater)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x13d7518;
+  constexpr static std::size_t addrs = 0x14ca8c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionObjectiveTypeSO*>::get(),
@@ -63,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionObjectiveTypeSO::*)()>(&::GlobalNamespace::MissionObjectiveTypeSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x13d7520;
+  constexpr static std::size_t addrs = 0x14ca8d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionObjectiveTypeSO*>::get(), ".ctor",

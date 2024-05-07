@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/InteropServices/RuntimeInformation.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,13 +34,13 @@ public:
   /// @brief Field _processArchitecture, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__processArchitecture, put = setStaticF__processArchitecture))::System::Runtime::InteropServices::Architecture _processArchitecture;
 
-  /// @brief Method GetOSName, addr 0x275987c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetOSName, addr 0x2858c80, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW GetOSName();
 
-  /// @brief Method GetRuntimeArchitecture, addr 0x2759878, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetRuntimeArchitecture, addr 0x2858c7c, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW GetRuntimeArchitecture();
 
-  /// @brief Method IsOSPlatform, addr 0x2759880, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method IsOSPlatform, addr 0x2858c84, size 0x94, virtual false, abstract: false, final false
   static inline bool IsOSPlatform(::System::Runtime::InteropServices::OSPlatform osPlatform);
 
   static inline ::System::Runtime::InteropServices::Architecture getStaticF__osArchitecture();

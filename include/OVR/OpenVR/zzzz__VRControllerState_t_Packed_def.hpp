@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/VRControllerState_t_Packed.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,10 +29,10 @@ namespace OVR::OpenVR {
 struct CORDL_TYPE VRControllerState_t_Packed {
 public:
   // Declarations
-  /// @brief Method Unpack, addr 0x2ac8acc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Unpack, addr 0x2bc537c, size 0x3c, virtual false, abstract: false, final false
   inline void Unpack(ByRef<::OVR::OpenVR::VRControllerState_t> unpacked);
 
-  /// @brief Method .ctor, addr 0x2ac8a88, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bc5338, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::OVR::OpenVR::VRControllerState_t unpacked);
 
   // Ctor Parameters []

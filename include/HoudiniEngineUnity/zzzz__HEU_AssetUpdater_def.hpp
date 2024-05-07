@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HEU_AssetUpdater.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,30 +28,30 @@ namespace HoudiniEngineUnity {
 class CORDL_TYPE HEU_AssetUpdater : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AddAssetForUpdate, addr 0x243ad30, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method AddAssetForUpdate, addr 0x25349bc, size 0x4, virtual false, abstract: false, final false
   static inline void AddAssetForUpdate(::HoudiniEngineUnity::HEU_HoudiniAsset* asset);
 
-  /// @brief Method AddNodeSyncForUpdate, addr 0x243ad38, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method AddNodeSyncForUpdate, addr 0x25349c4, size 0x4, virtual false, abstract: false, final false
   static inline void AddNodeSyncForUpdate(::HoudiniEngineUnity::HEU_BaseSync* nodeSync);
 
   static inline ::HoudiniEngineUnity::HEU_AssetUpdater* New_ctor();
 
-  /// @brief Method OnBeforeAssemblyReload, addr 0x243acdc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method OnBeforeAssemblyReload, addr 0x2534968, size 0x50, virtual false, abstract: false, final false
   static inline void OnBeforeAssemblyReload();
 
-  /// @brief Method OnPrefabInstanceUpdate, addr 0x243ad40, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnPrefabInstanceUpdate, addr 0x25349cc, size 0x4, virtual false, abstract: false, final false
   static inline void OnPrefabInstanceUpdate(::UnityEngine::GameObject* instance);
 
-  /// @brief Method RemoveAsset, addr 0x243ad34, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RemoveAsset, addr 0x25349c0, size 0x4, virtual false, abstract: false, final false
   static inline void RemoveAsset(::HoudiniEngineUnity::HEU_HoudiniAsset* asset);
 
-  /// @brief Method RemoveNodeSync, addr 0x243ad3c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RemoveNodeSync, addr 0x25349c8, size 0x4, virtual false, abstract: false, final false
   static inline void RemoveNodeSync(::HoudiniEngineUnity::HEU_BaseSync* nodeSync);
 
-  /// @brief Method Update, addr 0x243ad2c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x25349b8, size 0x4, virtual false, abstract: false, final false
   static inline void Update();
 
-  /// @brief Method .ctor, addr 0x243ad44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25349d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

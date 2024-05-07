@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/JointSpring.hpp"
 #include "UnityEngine/zzzz__JointSpring_def.hpp"
 // Ctor Parameters [CppParam { name: "spring", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "damper", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
 // "targetPosition", ty: "float_t", modifiers: "", def_value: Some("{}") }]

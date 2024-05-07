@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/FlyingScoreEffect.hpp"
 #include "GlobalNamespace/zzzz__FlyingObjectEffect_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_impl.hpp"
@@ -19,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__FlyingScoreEffect__Pool::*)(::GlobalNamespace::FlyingScoreEffect*)>(
     &::GlobalNamespace::__FlyingScoreEffect__Pool::OnDespawned)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x25bb220;
+  constexpr static std::size_t addrs = 0x26b8d74;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -33,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__FlyingScoreEffect__Pool::*)()>(&::GlobalNamespace::__FlyingScoreEffect__Pool::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x25bb280;
+  constexpr static std::size_t addrs = 0x26b8dd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__FlyingScoreEffect__Pool*>::get(), ".ctor",
@@ -62,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FlyingScoreEffect::*)(
     ::GlobalNamespace::IReadonlyCutScoreBuffer*, float_t, ::UnityEngine::Vector3, ::UnityEngine::Color)>(&::GlobalNamespace::FlyingScoreEffect::InitAndPresent)> {
   constexpr static std::size_t size = 0x4e4;
-  constexpr static std::size_t addrs = 0x25baa84;
+  constexpr static std::size_t addrs = 0x26b85d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -78,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FlyingScoreEffect::*)(float_t)>(&::GlobalNamespace::FlyingScoreEffect::ManualUpdate)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x25baff0;
+  constexpr static std::size_t addrs = 0x26b8b44;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -93,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FlyingScoreEffect::*)(::GlobalNamespace::CutScoreBuffer*)>(
     &::GlobalNamespace::FlyingScoreEffect::HandleCutScoreBufferDidChange)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x25bb078;
+  constexpr static std::size_t addrs = 0x26b8bcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -108,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FlyingScoreEffect::*)(int32_t, int32_t)>(
     &::GlobalNamespace::FlyingScoreEffect::RefreshScore)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x25baf68;
+  constexpr static std::size_t addrs = 0x26b8abc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -123,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FlyingScoreEffect::*)(::GlobalNamespace::CutScoreBuffer*)>(
     &::GlobalNamespace::FlyingScoreEffect::HandleCutScoreBufferDidFinish)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x25bb0c4;
+  constexpr static std::size_t addrs = 0x26b8c18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -138,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FlyingScoreEffect::*)()>(
     &::GlobalNamespace::FlyingScoreEffect::UnregisterCallbacksIfNeeded)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x25bb0c8;
+  constexpr static std::size_t addrs = 0x26b8c1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingScoreEffect*>::get(),
@@ -151,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FlyingScoreEffect::*)()>(&::GlobalNamespace::FlyingScoreEffect::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x25bb1f0;
+  constexpr static std::size_t addrs = 0x26b8d44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingScoreEffect*>::get(), ".ctor",

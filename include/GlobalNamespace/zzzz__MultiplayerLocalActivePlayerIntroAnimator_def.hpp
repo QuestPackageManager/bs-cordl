@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MultiplayerLocalActivePlayerIntroAnimator.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,10 +27,10 @@ public:
 
   static inline ::GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator* New_ctor();
 
-  /// @brief Method SetAfterIntroValues, addr 0x25fe0f8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SetAfterIntroValues, addr 0x26fcefc, size 0x48, virtual false, abstract: false, final false
   inline void SetAfterIntroValues();
 
-  /// @brief Method SetBeforeIntroValues, addr 0x25fe0dc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SetBeforeIntroValues, addr 0x26fcee0, size 0x1c, virtual false, abstract: false, final false
   inline void SetBeforeIntroValues();
 
   constexpr ::UnityW<::UnityEngine::Playables::PlayableDirector> const& __cordl_internal_get__introPlayableDirector() const;
@@ -38,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set__introPlayableDirector(::UnityW<::UnityEngine::Playables::PlayableDirector> value);
 
-  /// @brief Method .ctor, addr 0x25fe140, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26fcf44, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

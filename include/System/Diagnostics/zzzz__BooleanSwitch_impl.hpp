@@ -1,12 +1,13 @@
 #pragma once
+// IWYU pragma private; include "System/Diagnostics/BooleanSwitch.hpp"
 #include "System/Diagnostics/zzzz__Switch_impl.hpp"
 #include "System/Diagnostics/zzzz__BooleanSwitch_def.hpp"
 //  Writing Method size for method: ::System::Diagnostics::BooleanSwitch._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::BooleanSwitch::*)(::StringW, ::StringW)>(&::System::Diagnostics::BooleanSwitch::_ctor)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x2e9f420;
+  constexpr static std::size_t size = 0x1070;
+  constexpr static std::size_t addrs = 0x2f9fd20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

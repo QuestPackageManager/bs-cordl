@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/AndInstruction_AndInt64.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,10 +25,10 @@ public:
   // Declarations
   static inline ::System::Linq::Expressions::Interpreter::__AndInstruction__AndInt64* New_ctor();
 
-  /// @brief Method Run, addr 0x2b13068, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x2c10968, size 0x100, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x2b12d5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c1065c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

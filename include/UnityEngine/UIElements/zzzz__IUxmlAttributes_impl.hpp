@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/IUxmlAttributes.hpp"
 #include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::IUxmlAttributes.TryGetAttributeValue
 template <>

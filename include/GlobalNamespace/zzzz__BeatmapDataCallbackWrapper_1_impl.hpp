@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BeatmapDataCallbackWrapper_1.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_1_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataCallback_1_def.hpp"

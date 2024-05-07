@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/JsonISerializableContract.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,13 +43,13 @@ public:
 
   constexpr void __cordl_internal_set__ISerializableCreator_k__BackingField(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* value);
 
-  /// @brief Method .ctor, addr 0x29296e0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a27f90, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* underlyingType);
 
-  /// @brief Method get_ISerializableCreator, addr 0x293017c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ISerializableCreator, addr 0x2a2ea2c, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* get_ISerializableCreator();
 
-  /// @brief Method set_ISerializableCreator, addr 0x2930184, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ISerializableCreator, addr 0x2a2ea34, size 0x8, virtual false, abstract: false, final false
   inline void set_ISerializableCreator(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* value);
 
 protected:

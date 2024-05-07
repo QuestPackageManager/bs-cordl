@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Reflection/Binder.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -74,7 +75,7 @@ public:
                                                             ::ArrayW<::System::Type*, ::Array<::System::Type*>*> indexes,
                                                             ::ArrayW<::System::Reflection::ParameterModifier, ::Array<::System::Reflection::ParameterModifier>*> modifiers);
 
-  /// @brief Method .ctor, addr 0x2766378, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2865a88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

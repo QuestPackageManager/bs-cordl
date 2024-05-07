@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BeatToTimeConverterProvider.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatToTimeConverterProvider_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatToTimeConverter_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatToTimeConverterProvider::*)(::GlobalNamespace::IBeatToTimeConverter*)>(
     &::GlobalNamespace::BeatToTimeConverterProvider::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x13bb1c8;
+  constexpr static std::size_t addrs = 0x14b0910;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::BeatToTimeConverterProvider::*)(float_t)>(
     &::GlobalNamespace::BeatToTimeConverterProvider::BeatToTime)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x13bb1f0;
+  constexpr static std::size_t addrs = 0x14b0938;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UI/MultipleDisplayUtilities.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UI/zzzz__MultipleDisplayUtilities_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::EventSystems::PointerEventData*, ByRef<::UnityEngine::Vector2>)>(
     &::UnityEngine::UI::MultipleDisplayUtilities::GetRelativeMousePositionForDrag)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x32cbcbc;
+  constexpr static std::size_t addrs = 0x34d29f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Vector2)>(
     &::UnityEngine::UI::MultipleDisplayUtilities::RelativeMouseAtScaled)> {
   constexpr static std::size_t size = 0x468;
-  constexpr static std::size_t addrs = 0x32cbd24;
+  constexpr static std::size_t addrs = 0x34d2a60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

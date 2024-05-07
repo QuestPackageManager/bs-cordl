@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/CreateDelegateInstruction.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__Instruction_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__CreateDelegateInstruction_def.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__InterpretedFrame_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::CreateDelegateInstruction::*)(
     ::System::Linq::Expressions::Interpreter::LightDelegateCreator*)>(&::System::Linq::Expressions::Interpreter::CreateDelegateInstruction::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2b4c560;
+  constexpr static std::size_t addrs = 0x2c48e60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::CreateDelegateInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::CreateDelegateInstruction::get_ConsumedStack)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2b4c588;
+  constexpr static std::size_t addrs = 0x2c48e88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::CreateDelegateInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::CreateDelegateInstruction::get_ProducedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b4c5ac;
+  constexpr static std::size_t addrs = 0x2c48eac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::CreateDelegateInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::CreateDelegateInstruction::get_InstructionName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2b4c5b4;
+  constexpr static std::size_t addrs = 0x2c48eb4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -72,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::CreateDelegateInstruction::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::System::Linq::Expressions::Interpreter::CreateDelegateInstruction::Run)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x2b4c5f4;
+  constexpr static std::size_t addrs = 0x2c48ef4;
 
   inline static ::MethodInfo const* methodInfo() {
 

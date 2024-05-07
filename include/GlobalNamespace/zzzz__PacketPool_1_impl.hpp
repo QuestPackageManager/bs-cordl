@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/PacketPool_1.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PacketPool_1_def.hpp"
 #include "GlobalNamespace/zzzz__IPacketPool_1_def.hpp"

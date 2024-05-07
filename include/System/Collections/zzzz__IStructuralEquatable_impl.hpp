@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Collections/IStructuralEquatable.hpp"
 #include "System/Collections/zzzz__IStructuralEquatable_def.hpp"
 #include "System/Collections/zzzz__IEqualityComparer_def.hpp"
 #include "System/zzzz__Object_def.hpp"

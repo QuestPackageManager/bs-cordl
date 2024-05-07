@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LIV/SDK/Unity/SDKShaders.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,22 +29,22 @@ public:
   /// @brief Field LIV_TESSELLATION_PROPERTY, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_LIV_TESSELLATION_PROPERTY, put = setStaticF_LIV_TESSELLATION_PROPERTY)) int32_t LIV_TESSELLATION_PROPERTY;
 
-  /// @brief Method StartBackgroundRendering, addr 0x24fffe8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method StartBackgroundRendering, addr 0x25f6c74, size 0x44, virtual false, abstract: false, final false
   static inline void StartBackgroundRendering();
 
-  /// @brief Method StartForegroundRendering, addr 0x2500410, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method StartForegroundRendering, addr 0x25f709c, size 0x44, virtual false, abstract: false, final false
   static inline void StartForegroundRendering();
 
-  /// @brief Method StartRendering, addr 0x24fffa4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method StartRendering, addr 0x25f6c30, size 0x44, virtual false, abstract: false, final false
   static inline void StartRendering();
 
-  /// @brief Method StopBackgroundRendering, addr 0x25001b8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method StopBackgroundRendering, addr 0x25f6e44, size 0x44, virtual false, abstract: false, final false
   static inline void StopBackgroundRendering();
 
-  /// @brief Method StopForegroundRendering, addr 0x25004c4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method StopForegroundRendering, addr 0x25f7150, size 0x44, virtual false, abstract: false, final false
   static inline void StopForegroundRendering();
 
-  /// @brief Method StopRendering, addr 0x25001fc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method StopRendering, addr 0x25f6e88, size 0x44, virtual false, abstract: false, final false
   static inline void StopRendering();
 
   static inline int32_t getStaticF_LIV_CLIP_PLANE_HEIGHT_MAP_PROPERTY();

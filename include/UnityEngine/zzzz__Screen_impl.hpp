@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Screen.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Screen_def.hpp"
 #include "UnityEngine/zzzz__FullScreenMode_def.hpp"
@@ -9,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::UnityEngine::Screen::get_width)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x31ebcec;
+  constexpr static std::size_t addrs = 0x33f2a20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Screen*>::get(), "get_width",
@@ -22,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::UnityEngine::Screen::get_height)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x31ebd14;
+  constexpr static std::size_t addrs = 0x33f2a48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Screen*>::get(), "get_height",
@@ -35,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::UnityEngine::Screen::get_dpi)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x31ebd3c;
+  constexpr static std::size_t addrs = 0x33f2a70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Screen*>::get(), "get_dpi",
@@ -48,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ScreenOrientation (*)()>(&::UnityEngine::Screen::GetScreenOrientation)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x31ebd64;
+  constexpr static std::size_t addrs = 0x33f2a98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Screen*>::get(), "GetScreenOrientation",
@@ -61,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ScreenOrientation (*)()>(&::UnityEngine::Screen::get_orientation)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x31ebd8c;
+  constexpr static std::size_t addrs = 0x33f2ac0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Screen*>::get(), "get_orientation",
@@ -74,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Resolution (*)()>(&::UnityEngine::Screen::get_currentResolution)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x31ebdb4;
+  constexpr static std::size_t addrs = 0x33f2ae8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Screen*>::get(), "get_currentResolution",
@@ -87,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::UnityEngine::Screen::get_fullScreen)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x31ebe3c;
+  constexpr static std::size_t addrs = 0x33f2b70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Screen*>::get(), "get_fullScreen",
@@ -100,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::UnityEngine::Screen::set_fullScreen)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x31ebe64;
+  constexpr static std::size_t addrs = 0x33f2b98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -114,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, int32_t, ::UnityEngine::FullScreenMode, int32_t)>(&::UnityEngine::Screen::SetResolution)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x31ebea0;
+  constexpr static std::size_t addrs = 0x33f2bd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -130,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, int32_t, bool, int32_t)>(&::UnityEngine::Screen::SetResolution)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x31ebefc;
+  constexpr static std::size_t addrs = 0x33f2c30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -145,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, int32_t, bool)>(&::UnityEngine::Screen::SetResolution)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x31ebf60;
+  constexpr static std::size_t addrs = 0x33f2c94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -161,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Resolution, ::Array<::UnityEngine::Resolution>*> (*)()>(
     &::UnityEngine::Screen::get_resolutions)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x31ebfc0;
+  constexpr static std::size_t addrs = 0x33f2cf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Screen*>::get(), "get_resolutions",
@@ -174,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::UnityEngine::Resolution>)>(&::UnityEngine::Screen::get_currentResolution_Injected)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x31ebe00;
+  constexpr static std::size_t addrs = 0x33f2b34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

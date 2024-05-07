@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/ImmediateModeException.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__ImmediateModeException_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ImmediateModeException::*)(::System::Exception*)>(
     &::UnityEngine::UIElements::ImmediateModeException::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x33180d0;
+  constexpr static std::size_t addrs = 0x351ce0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OVRMultimodalHandsAndControllersSample.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,27 +34,27 @@ public:
   /// @brief Field enableButton, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_enableButton, put = __cordl_internal_set_enableButton))::UnityW<::UnityEngine::UI::Button> enableButton;
 
-  /// @brief Method Awake, addr 0x2a1d57c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2b1ae2c, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method DisableMultiModality, addr 0x2a1d6f4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method DisableMultiModality, addr 0x2b1afa4, size 0x80, virtual false, abstract: false, final false
   inline void DisableMultiModality();
 
-  /// @brief Method EnableMultiModality, addr 0x2a1d674, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method EnableMultiModality, addr 0x2b1af24, size 0x80, virtual false, abstract: false, final false
   inline void EnableMultiModality();
 
   static inline ::GlobalNamespace::OVRMultimodalHandsAndControllersSample* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x2a1d580, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2b1ae30, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x2a1d588, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x2b1ae38, size 0x4, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x2a1d584, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x2b1ae34, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Update, addr 0x2a1d58c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2b1ae3c, size 0xe8, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get_disableButton() const;
@@ -74,7 +75,7 @@ public:
 
   constexpr void __cordl_internal_set_enableButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  /// @brief Method .ctor, addr 0x2a1d774, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b1b024, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

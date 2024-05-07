@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/WordWrapState.hpp"
 #include "TMPro/zzzz__Extents_impl.hpp"
 #include "TMPro/zzzz__FontStyles_impl.hpp"
 #include "TMPro/zzzz__FontWeight_impl.hpp"

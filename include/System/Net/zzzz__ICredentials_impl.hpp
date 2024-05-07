@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/ICredentials.hpp"
 #include "System/Net/zzzz__ICredentials_def.hpp"
 #include "System/Net/zzzz__NetworkCredential_def.hpp"
 #include "System/zzzz__Uri_def.hpp"

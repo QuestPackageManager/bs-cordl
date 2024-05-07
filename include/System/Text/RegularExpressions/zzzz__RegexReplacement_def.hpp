@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Text/RegularExpressions/RegexReplacement.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,20 +56,20 @@ public:
   /// @brief Field _strings, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__strings, put = __cordl_internal_set__strings))::System::Collections::Generic::List_1<::StringW>* _strings;
 
-  /// @brief Method GetOrCreate, addr 0x2e9cb9c, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetOrCreate, addr 0x2f9d49c, size 0x114, virtual false, abstract: false, final false
   static inline ::System::Text::RegularExpressions::RegexReplacement* GetOrCreate(::System::WeakReference_1<::System::Text::RegularExpressions::RegexReplacement*>* replRef, ::StringW replacement,
                                                                                   ::System::Collections::Hashtable* caps, int32_t capsize, ::System::Collections::Hashtable* capnames,
                                                                                   ::System::Text::RegularExpressions::RegexOptions roptions);
 
   static inline ::System::Text::RegularExpressions::RegexReplacement* New_ctor(::StringW rep, ::System::Text::RegularExpressions::RegexNode* concat, ::System::Collections::Hashtable* _caps);
 
-  /// @brief Method Replace, addr 0x2e9d08c, size 0x3a0, virtual false, abstract: false, final false
+  /// @brief Method Replace, addr 0x2f9d98c, size 0x3a0, virtual false, abstract: false, final false
   inline ::StringW Replace(::System::Text::RegularExpressions::Regex* regex, ::StringW input, int32_t count, int32_t startat);
 
-  /// @brief Method ReplacementImpl, addr 0x2e9ccb8, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method ReplacementImpl, addr 0x2f9d5b8, size 0x1a4, virtual false, abstract: false, final false
   inline void ReplacementImpl(::System::Text::StringBuilder* sb, ::System::Text::RegularExpressions::Match* match);
 
-  /// @brief Method ReplacementImplRTL, addr 0x2e9ce5c, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method ReplacementImplRTL, addr 0x2f9d75c, size 0x230, virtual false, abstract: false, final false
   inline void ReplacementImplRTL(::System::Collections::Generic::List_1<::StringW>* al, ::System::Text::RegularExpressions::Match* match);
 
   constexpr ::StringW const& __cordl_internal_get__Pattern_k__BackingField() const;
@@ -89,10 +90,10 @@ public:
 
   constexpr void __cordl_internal_set__strings(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x2e98108, size 0x4e8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f98a08, size 0x4e8, virtual false, abstract: false, final false
   inline void _ctor(::StringW rep, ::System::Text::RegularExpressions::RegexNode* concat, ::System::Collections::Hashtable* _caps);
 
-  /// @brief Method get_Pattern, addr 0x2e9ccb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Pattern, addr 0x2f9d5b0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Pattern();
 
 protected:

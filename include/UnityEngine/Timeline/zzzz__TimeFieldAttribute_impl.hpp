@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Timeline/TimeFieldAttribute.hpp"
 #include "UnityEngine/Timeline/zzzz__TimeFieldAttribute_impl.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__TimeFieldAttribute_def.hpp"
@@ -17,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Timeline::__TimeFieldAttribute__UseEditMode (::UnityEngine::Timeline::TimeFieldAttribute::*)()>(
     &::UnityEngine::Timeline::TimeFieldAttribute::get_useEditMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x319d084;
+  constexpr static std::size_t addrs = 0x33a3b0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::TimeFieldAttribute*>::get(),
@@ -31,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::TimeFieldAttribute::*)(::UnityEngine::Timeline::__TimeFieldAttribute__UseEditMode)>(
     &::UnityEngine::Timeline::TimeFieldAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x319d08c;
+  constexpr static std::size_t addrs = 0x33a3b14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/ColorPage.hpp"
 #include "UnityEngine/zzzz__Color32_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__ColorPage_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__BMPAlloc_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::UIElements::ColorPage (*)(::UnityEngine::UIElements::UIR::RenderChain*, ::UnityEngine::UIElements::UIR::BMPAlloc)>(&::UnityEngine::UIElements::ColorPage::Init)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x33c8bd8;
+  constexpr static std::size_t addrs = 0x35ce914;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

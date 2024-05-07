@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/SubContainerCreatorUtil.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +25,7 @@ namespace Zenject {
 class CORDL_TYPE SubContainerCreatorUtil : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ApplyBindSettings, addr 0x345a254, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method ApplyBindSettings, addr 0x365e21c, size 0x304, virtual false, abstract: false, final false
   static inline void ApplyBindSettings(::Zenject::SubContainerCreatorBindInfo* subContainerBindInfo, ::Zenject::DiContainer* subContainer);
 
 protected:

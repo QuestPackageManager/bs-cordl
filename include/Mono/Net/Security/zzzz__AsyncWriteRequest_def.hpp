@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Net/Security/AsyncWriteRequest.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,10 +30,10 @@ public:
   static inline ::Mono::Net::Security::AsyncWriteRequest* New_ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, bool sync, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset,
                                                                    int32_t size);
 
-  /// @brief Method Run, addr 0x2b68ab4, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x2c653b4, size 0x78, virtual true, abstract: false, final false
   inline ::Mono::Net::Security::AsyncOperationStatus Run(::Mono::Net::Security::AsyncOperationStatus status);
 
-  /// @brief Method .ctor, addr 0x2b68aac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c653ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, bool sync, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size);
 
 protected:

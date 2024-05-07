@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HAPI_TransformEuler.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,10 +29,10 @@ namespace HoudiniEngineUnity {
 struct CORDL_TYPE HAPI_TransformEuler {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x247bd1c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x25769a8, size 0xc8, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method .ctor, addr 0x247287c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x256d508, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor(bool initializeFields);
 
   // Ctor Parameters []

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Experimental/XR/Interaction/BasePoseProvider.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/Experimental/XR/Interaction/zzzz__BasePoseProvider_def.hpp"
 #include "UnityEngine/SpatialTracking/zzzz__PoseDataFlags_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::SpatialTracking::PoseDataFlags (::UnityEngine::Experimental::XR::Interaction::BasePoseProvider::*)(
     ByRef<::UnityEngine::Pose>)>(&::UnityEngine::Experimental::XR::Interaction::BasePoseProvider::GetPoseFromProvider)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3268878;
+  constexpr static std::size_t addrs = 0x34715b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Experimental::XR::Interaction::BasePoseProvider::*)(ByRef<::UnityEngine::Pose>)>(
     &::UnityEngine::Experimental::XR::Interaction::BasePoseProvider::TryGetPoseFromProvider)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x326889c;
+  constexpr static std::size_t addrs = 0x34715d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Experimental::XR::Interaction::BasePoseProvider::*)()>(
     &::UnityEngine::Experimental::XR::Interaction::BasePoseProvider::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3268924;
+  constexpr static std::size_t addrs = 0x3471660;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

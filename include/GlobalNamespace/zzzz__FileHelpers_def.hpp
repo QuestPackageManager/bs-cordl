@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/FileHelpers.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,19 +27,19 @@ namespace GlobalNamespace {
 class CORDL_TYPE FileHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetEscapedURLForFilePath, addr 0xf905f0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetEscapedURLForFilePath, addr 0x1084efc, size 0x78, virtual false, abstract: false, final false
   static inline ::StringW GetEscapedURLForFilePath(::StringW filePath);
 
-  /// @brief Method GetFileNamesFromFilePaths, addr 0xf90958, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetFileNamesFromFilePaths, addr 0x1085264, size 0xbc, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> GetFileNamesFromFilePaths(::System::Collections::Generic::IEnumerable_1<::StringW>* filePaths);
 
-  /// @brief Method GetFilePaths, addr 0xf90724, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method GetFilePaths, addr 0x1085030, size 0x234, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> GetFilePaths(::StringW directoryPath, ::System::Collections::Generic::HashSet_1<::StringW>* extensions);
 
-  /// @brief Method GetUniqueDirectoryNameByAppendingNumber, addr 0xf90668, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetUniqueDirectoryNameByAppendingNumber, addr 0x1084f74, size 0xbc, virtual false, abstract: false, final false
   static inline ::StringW GetUniqueDirectoryNameByAppendingNumber(::StringW dirName);
 
-  /// @brief Method PathIsUrl, addr 0xf9059c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method PathIsUrl, addr 0x1084ea8, size 0x54, virtual false, abstract: false, final false
   static inline bool PathIsUrl(::StringW filePath);
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Serialization/XmlTypeSerializationSource.hpp"
 #include "System/Xml/Serialization/zzzz__SerializationSource_impl.hpp"
 #include "System/Xml/Serialization/zzzz__XmlTypeSerializationSource_def.hpp"
 #include "System/Xml/Serialization/zzzz__XmlAttributeOverrides_def.hpp"
@@ -12,7 +13,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Type*, ::System::Xml::Serialization::XmlRootAttribute*, ::System::Xml::Serialization::XmlAttributeOverrides*, ::StringW, ::ArrayW<::System::Type*, ::Array<::System::Type*>*>)>(
     &::System::Xml::Serialization::XmlTypeSerializationSource::_ctor)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x2dc65d8;
+  constexpr static std::size_t addrs = 0x2ec3ed8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -31,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Serialization::XmlTypeSerializationSource::*)(::System::Object*)>(
     &::System::Xml::Serialization::XmlTypeSerializationSource::Equals)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x2dc66dc;
+  constexpr static std::size_t addrs = 0x2ec3fdc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -47,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Serialization::XmlTypeSerializationSource::*)()>(
     &::System::Xml::Serialization::XmlTypeSerializationSource::GetHashCode)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2dc67bc;
+  constexpr static std::size_t addrs = 0x2ec40bc;
 
   inline static ::MethodInfo const* methodInfo() {
 

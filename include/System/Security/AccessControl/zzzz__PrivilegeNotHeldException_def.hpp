@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/AccessControl/PrivilegeNotHeldException.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,7 +35,7 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method GetObjectData, addr 0x2703f0c, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x2801308, size 0xdc, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Security::AccessControl::PrivilegeNotHeldException* New_ctor();
@@ -48,10 +49,10 @@ public:
 
   constexpr void __cordl_internal_set__privilegeName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2703e38, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2801234, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2703e84, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2801280, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"

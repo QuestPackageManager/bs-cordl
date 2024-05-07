@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/SceneContextRegistryAdderAndRemover.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__SceneContextRegistryAdderAndRemover_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
@@ -13,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SceneContextRegistryAdderAndRemover::*)(::Zenject::SceneContext*, ::Zenject::SceneContextRegistry*)>(
     &::Zenject::SceneContextRegistryAdderAndRemover::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x34678c8;
+  constexpr static std::size_t addrs = 0x366b890;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SceneContextRegistryAdderAndRemover::*)()>(
     &::Zenject::SceneContextRegistryAdderAndRemover::Initialize)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x34678f4;
+  constexpr static std::size_t addrs = 0x366b8bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SceneContextRegistryAdderAndRemover*>::get(),
@@ -43,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SceneContextRegistryAdderAndRemover::*)()>(
     &::Zenject::SceneContextRegistryAdderAndRemover::Dispose)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3467914;
+  constexpr static std::size_t addrs = 0x366b8dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SceneContextRegistryAdderAndRemover*>::get(),
@@ -57,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::Zenject::SceneContextRegistryAdderAndRemover::__zenCreate)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x3467934;
+  constexpr static std::size_t addrs = 0x366b8fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -71,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::SceneContextRegistryAdderAndRemover::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x304;
-  constexpr static std::size_t addrs = 0x3467a50;
+  constexpr static std::size_t addrs = 0x366ba18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SceneContextRegistryAdderAndRemover*>::get(),

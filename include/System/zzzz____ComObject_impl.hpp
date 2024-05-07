@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/__ComObject.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz____ComObject_def.hpp"
 //  Writing Method size for method: ::System::__ComObject._ctor
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::__ComObject::*)()>(&::System::__ComObject::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2890f60;
+  constexpr static std::size_t addrs = 0x298f810;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::__ComObject*>::get(), ".ctor",

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BeatmapObjectsAvoidance.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -102,30 +103,30 @@ public:
   /// @brief Field _zOffset, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__zOffset, put = __cordl_internal_set__zOffset)) float_t _zOffset;
 
-  /// @brief Method AdjustPositionWithOffsetDirection, addr 0xf62930, size 0x2f0, virtual false, abstract: false, final false
+  /// @brief Method AdjustPositionWithOffsetDirection, addr 0x10524a4, size 0x2f0, virtual false, abstract: false, final false
   inline void AdjustPositionWithOffsetDirection(ByRef<::UnityEngine::Vector2> position, int32_t lineIndex, ::GlobalNamespace::OffsetDirection offsetDirection);
 
-  /// @brief Method Awake, addr 0xf61af4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x1051668, size 0x1c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method BuildAnimationCurvePath, addr 0xf622ec, size 0x584, virtual false, abstract: false, final false
+  /// @brief Method BuildAnimationCurvePath, addr 0x1051e60, size 0x584, virtual false, abstract: false, final false
   inline bool BuildAnimationCurvePath();
 
-  /// @brief Method HandleBeatmapObjectSpawnControllerDidInit, addr 0xf63480, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapObjectSpawnControllerDidInit, addr 0x1052ff4, size 0x4, virtual false, abstract: false, final false
   inline void HandleBeatmapObjectSpawnControllerDidInit();
 
   static inline ::GlobalNamespace::BeatmapObjectsAvoidance* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0xf62054, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x1051bc8, size 0x108, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetupAndRun, addr 0xf61c94, size 0x3c0, virtual false, abstract: false, final false
+  /// @brief Method SetupAndRun, addr 0x1051808, size 0x3c0, virtual false, abstract: false, final false
   inline void SetupAndRun();
 
-  /// @brief Method Start, addr 0xf61b10, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x1051684, size 0x184, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0xf6215c, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x1051cd0, size 0x190, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::BezierSplineEvaluator*& __cordl_internal_get__accelerationBezierSplineEvaluator();
@@ -212,7 +213,7 @@ public:
 
   constexpr void __cordl_internal_set__zOffset(float_t value);
 
-  /// @brief Method .ctor, addr 0xf63484, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1052ff8, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

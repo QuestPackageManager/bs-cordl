@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/LocalDefinition.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,19 +30,19 @@ public:
 
   __declspec(property(get = get_Parameter))::System::Linq::Expressions::ParameterExpression* Parameter;
 
-  /// @brief Method Equals, addr 0x2b3f3d4, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2c3bcd4, size 0x88, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2b3f45c, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2c3bd5c, size 0x4c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x2b3f3b8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c3bcb8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t localIndex, ::System::Linq::Expressions::ParameterExpression* parameter);
 
-  /// @brief Method get_Index, addr 0x2b3f3c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Index, addr 0x2c3bcc4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Index();
 
-  /// @brief Method get_Parameter, addr 0x2b3f3cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parameter, addr 0x2c3bccc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::ParameterExpression* get_Parameter();
 
   // Ctor Parameters []

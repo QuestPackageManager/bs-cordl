@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SelectLevelPackDestination.hpp"
 #include "GlobalNamespace/zzzz__MenuDestination_impl.hpp"
 #include "GlobalNamespace/zzzz__SelectLevelPackDestination_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelPack_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SelectLevelPackDestination::*)(::GlobalNamespace::BeatmapLevelPack*)>(
     &::GlobalNamespace::SelectLevelPackDestination::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x13a7704;
+  constexpr static std::size_t addrs = 0x149cde0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

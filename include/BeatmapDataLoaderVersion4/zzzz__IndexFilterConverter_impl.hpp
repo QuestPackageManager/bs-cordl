@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatmapDataLoaderVersion4/IndexFilterConverter.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatmapDataLoaderVersion4/zzzz__IndexFilterConverter_def.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__IndexFilter_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::BeatmapSaveDataVersion4::IndexFilter, int32_t)>(
     &::BeatmapDataLoaderVersion4::IndexFilterConverter::IsIndexFilterValid)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x1405f78;
+  constexpr static std::size_t addrs = 0x14f8538;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IndexFilter* (*)(::BeatmapSaveDataVersion4::IndexFilter, int32_t)>(
     &::BeatmapDataLoaderVersion4::IndexFilterConverter::Convert)> {
   constexpr static std::size_t size = 0x380;
-  constexpr static std::size_t addrs = 0x1405020;
+  constexpr static std::size_t addrs = 0x14f75e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/IProviderExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__IProviderExtensions_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -14,7 +15,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::Zenject::IProvider*, ::Zenject::InjectContext*, ByRef<::System::Action*>, ::System::Collections::Generic::List_1<::System::Object*>*)>(
         &::Zenject::IProviderExtensions::GetAllInstancesWithInjectSplit)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x3456b0c;
+  constexpr static std::size_t addrs = 0x365aad4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -32,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::Zenject::IProvider*, ::Zenject::InjectContext*, ::System::Collections::Generic::List_1<::System::Object*>*)>(&::Zenject::IProviderExtensions::GetAllInstances)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3456c08;
+  constexpr static std::size_t addrs = 0x365abd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +51,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Zenject::IProvider*, ::Zenject::InjectContext*, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*, ::System::Collections::Generic::List_1<::System::Object*>*)>(
     &::Zenject::IProviderExtensions::GetAllInstances)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3456c80;
+  constexpr static std::size_t addrs = 0x365ac48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::Zenject::IProvider*, ::Zenject::InjectContext*)>(
     &::Zenject::IProviderExtensions::TryGetInstance)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3456d78;
+  constexpr static std::size_t addrs = 0x365ad40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Object* (*)(::Zenject::IProvider*, ::Zenject::InjectContext*, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*)>(&::Zenject::IProviderExtensions::TryGetInstance)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x3456de8;
+  constexpr static std::size_t addrs = 0x365adb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -101,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::Zenject::IProvider*, ::Zenject::InjectContext*)>(
     &::Zenject::IProviderExtensions::GetInstance)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3456fd4;
+  constexpr static std::size_t addrs = 0x365af9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -117,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Object* (*)(::Zenject::IProvider*, ::Zenject::InjectContext*, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*)>(&::Zenject::IProviderExtensions::GetInstance)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x3457044;
+  constexpr static std::size_t addrs = 0x365b00c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

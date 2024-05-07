@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaSimpleType.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,7 +30,7 @@ public:
   /// @brief Field content, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get_content, put = __cordl_internal_set_content))::System::Xml::Schema::XmlSchemaSimpleTypeContent* content;
 
-  /// @brief Method Clone, addr 0x2d21560, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x2e1de60, size 0xf4, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObject* Clone();
 
   static inline ::System::Xml::Schema::XmlSchemaSimpleType* New_ctor();
@@ -40,13 +41,13 @@ public:
 
   constexpr void __cordl_internal_set_content(::System::Xml::Schema::XmlSchemaSimpleTypeContent* value);
 
-  /// @brief Method .ctor, addr 0x2d214d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e1ddd8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Content, addr 0x2d21550, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Content, addr 0x2e1de50, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaSimpleTypeContent* get_Content();
 
-  /// @brief Method set_Content, addr 0x2d21558, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Content, addr 0x2e1de58, size 0x8, virtual false, abstract: false, final false
   inline void set_Content(::System::Xml::Schema::XmlSchemaSimpleTypeContent* value);
 
 protected:

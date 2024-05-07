@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/CannotStartGameReasonMethods.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,7 +23,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE CannotStartGameReasonMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method LocalizedKey, addr 0x13dc800, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method LocalizedKey, addr 0x14cfbb0, size 0xd8, virtual false, abstract: false, final false
   static inline ::StringW LocalizedKey(::GlobalNamespace::CannotStartGameReason cannotStartGameReason);
 
 protected:

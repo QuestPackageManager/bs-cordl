@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ProBuilder/BuiltinMaterials.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -77,13 +78,13 @@ public:
   /// @brief Field s_VertexPickerMaterial, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_VertexPickerMaterial, put = setStaticF_s_VertexPickerMaterial))::UnityW<::UnityEngine::Material> s_VertexPickerMaterial;
 
-  /// @brief Method GetDefaultMaterial, addr 0x306c980, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultMaterial, addr 0x3274408, size 0x1f0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> GetDefaultMaterial();
 
-  /// @brief Method GetLegacyDiffuse, addr 0x306d130, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method GetLegacyDiffuse, addr 0x3274bb8, size 0x2a0, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> GetLegacyDiffuse();
 
-  /// @brief Method Init, addr 0x306c2e0, size 0x6a0, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3273d68, size 0x6a0, virtual false, abstract: false, final false
   static inline void Init();
 
   static inline ::StringW getStaticF_k_EdgePickerMaterial();
@@ -120,37 +121,37 @@ public:
 
   static inline ::UnityW<::UnityEngine::Material> getStaticF_s_VertexPickerMaterial();
 
-  /// @brief Method get_ShapePreviewMaterial, addr 0x306d42c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_ShapePreviewMaterial, addr 0x3274eb4, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> get_ShapePreviewMaterial();
 
-  /// @brief Method get_colliderMaterial, addr 0x306cf20, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method get_colliderMaterial, addr 0x32749a8, size 0x108, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> get_colliderMaterial();
 
-  /// @brief Method get_defaultMaterial, addr 0x306cc4c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_defaultMaterial, addr 0x32746d4, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> get_defaultMaterial();
 
-  /// @brief Method get_edgePickerMaterial, addr 0x306cdbc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_edgePickerMaterial, addr 0x3274844, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> get_edgePickerMaterial();
 
-  /// @brief Method get_facePickerMaterial, addr 0x306cd04, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_facePickerMaterial, addr 0x327478c, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> get_facePickerMaterial();
 
-  /// @brief Method get_geometryShadersSupported, addr 0x306cbf0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_geometryShadersSupported, addr 0x3274678, size 0x5c, virtual false, abstract: false, final false
   static inline bool get_geometryShadersSupported();
 
-  /// @brief Method get_noDrawMaterial, addr 0x306d028, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method get_noDrawMaterial, addr 0x3274ab0, size 0x108, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> get_noDrawMaterial();
 
-  /// @brief Method get_selectionPickerShader, addr 0x306cca8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_selectionPickerShader, addr 0x3274730, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Shader> get_selectionPickerShader();
 
-  /// @brief Method get_triggerMaterial, addr 0x306ce18, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method get_triggerMaterial, addr 0x32748a0, size 0x108, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> get_triggerMaterial();
 
-  /// @brief Method get_unlitVertexColor, addr 0x306d3d0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_unlitVertexColor, addr 0x3274e58, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> get_unlitVertexColor();
 
-  /// @brief Method get_vertexPickerMaterial, addr 0x306cd60, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_vertexPickerMaterial, addr 0x32747e8, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> get_vertexPickerMaterial();
 
   static inline void setStaticF_k_EdgePickerMaterial(::StringW value);

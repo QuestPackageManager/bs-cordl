@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ResourceManagement/Util/DefaultAllocationStrategy.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,15 +32,15 @@ public:
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::Util::IAllocationStrategy"
   constexpr operator ::UnityEngine::ResourceManagement::Util::IAllocationStrategy*() noexcept;
 
-  /// @brief Method New, addr 0x3101938, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method New, addr 0x33083c0, size 0xc, virtual true, abstract: false, final true
   inline ::System::Object* New(::System::Type* type, int32_t typeHash);
 
   static inline ::UnityEngine::ResourceManagement::Util::DefaultAllocationStrategy* New_ctor();
 
-  /// @brief Method Release, addr 0x3101944, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Release, addr 0x33083cc, size 0x4, virtual true, abstract: false, final true
   inline void Release(int32_t typeHash, ::System::Object* obj);
 
-  /// @brief Method .ctor, addr 0x3101948, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33083d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::ResourceManagement::Util::IAllocationStrategy"

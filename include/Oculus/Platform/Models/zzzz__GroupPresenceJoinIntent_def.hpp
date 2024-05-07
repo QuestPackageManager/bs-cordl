@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/Models/GroupPresenceJoinIntent.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set_MatchSessionId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x29dd700, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2adbfb0, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
 protected:

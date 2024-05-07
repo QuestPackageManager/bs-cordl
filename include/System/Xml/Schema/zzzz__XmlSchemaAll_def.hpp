@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaAll.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,7 +31,7 @@ public:
 
   static inline ::System::Xml::Schema::XmlSchemaAll* New_ctor();
 
-  /// @brief Method SetItems, addr 0x2d0fef8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetItems, addr 0x2e0d7f8, size 0x8, virtual true, abstract: false, final false
   inline void SetItems(::System::Xml::Schema::XmlSchemaObjectCollection* newItems);
 
   constexpr ::System::Xml::Schema::XmlSchemaObjectCollection*& __cordl_internal_get_items();
@@ -39,13 +40,13 @@ public:
 
   constexpr void __cordl_internal_set_items(::System::Xml::Schema::XmlSchemaObjectCollection* value);
 
-  /// @brief Method .ctor, addr 0x2d0ff00, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e0d800, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsEmpty, addr 0x2d0feb8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_IsEmpty, addr 0x2e0d7b8, size 0x40, virtual true, abstract: false, final false
   inline bool get_IsEmpty();
 
-  /// @brief Method get_Items, addr 0x2d0feb0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Items, addr 0x2e0d7b0, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObjectCollection* get_Items();
 
 protected:

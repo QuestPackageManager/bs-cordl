@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/BitStack.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,19 +32,19 @@ public:
 
   static inline ::System::Xml::BitStack* New_ctor();
 
-  /// @brief Method PeekBit, addr 0x2c95124, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method PeekBit, addr 0x2d93a24, size 0xc, virtual false, abstract: false, final false
   inline bool PeekBit();
 
-  /// @brief Method PopBit, addr 0x2c950b8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method PopBit, addr 0x2d939b8, size 0x28, virtual false, abstract: false, final false
   inline bool PopBit();
 
-  /// @brief Method PopCurr, addr 0x2c950e0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method PopCurr, addr 0x2d939e0, size 0x44, virtual false, abstract: false, final false
   inline void PopCurr();
 
-  /// @brief Method PushBit, addr 0x2c94fb8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method PushBit, addr 0x2d938b8, size 0x38, virtual false, abstract: false, final false
   inline void PushBit(bool bit);
 
-  /// @brief Method PushCurr, addr 0x2c94ff0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method PushCurr, addr 0x2d938f0, size 0xc8, virtual false, abstract: false, final false
   inline void PushCurr();
 
   constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get_bitStack() const;
@@ -64,7 +65,7 @@ public:
 
   constexpr void __cordl_internal_set_stackPos(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2c94f98, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d93898, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

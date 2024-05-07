@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/OpenSsl/PemException.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,10 +27,10 @@ public:
 
   static inline ::Org::BouncyCastle::OpenSsl::PemException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0x124167c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1332da0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x1241684, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1332da8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
 protected:

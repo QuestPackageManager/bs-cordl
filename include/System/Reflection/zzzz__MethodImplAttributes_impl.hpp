@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Reflection/MethodImplAttributes.hpp"
 #include "System/Reflection/zzzz__MethodImplAttributes_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Reflection::MethodImplAttributes::MethodImplAttributes(int32_t value__) noexcept {

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Math/EC/Custom/Sec/SecP256K1Field.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,66 +36,66 @@ public:
   /// @brief Field PExtInv, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_PExtInv, put = setStaticF_PExtInv))::ArrayW<uint32_t, ::Array<uint32_t>*> PExtInv;
 
-  /// @brief Method Add, addr 0x1160624, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x1252d48, size 0xd8, virtual false, abstract: false, final false
   static inline void Add(::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> y, ::ArrayW<uint32_t, ::Array<uint32_t>*> z);
 
-  /// @brief Method AddExt, addr 0x11606fc, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method AddExt, addr 0x1252e20, size 0x134, virtual false, abstract: false, final false
   static inline void AddExt(::ArrayW<uint32_t, ::Array<uint32_t>*> xx, ::ArrayW<uint32_t, ::Array<uint32_t>*> yy, ::ArrayW<uint32_t, ::Array<uint32_t>*> zz);
 
-  /// @brief Method AddOne, addr 0x1160830, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method AddOne, addr 0x1252f54, size 0xc8, virtual false, abstract: false, final false
   static inline void AddOne(::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> z);
 
-  /// @brief Method FromBigInteger, addr 0x11608f8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method FromBigInteger, addr 0x125301c, size 0xcc, virtual false, abstract: false, final false
   static inline ::ArrayW<uint32_t, ::Array<uint32_t>*> FromBigInteger(::Org::BouncyCastle::Math::BigInteger* x);
 
-  /// @brief Method Half, addr 0x11609c4, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Half, addr 0x12530e8, size 0xbc, virtual false, abstract: false, final false
   static inline void Half(::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> z);
 
-  /// @brief Method Inv, addr 0x1160a80, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method Inv, addr 0x12531a4, size 0x308, virtual false, abstract: false, final false
   static inline void Inv(::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> z);
 
-  /// @brief Method IsZero, addr 0x1160d88, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method IsZero, addr 0x12534ac, size 0x54, virtual false, abstract: false, final false
   static inline int32_t IsZero(::ArrayW<uint32_t, ::Array<uint32_t>*> x);
 
-  /// @brief Method Multiply, addr 0x1160e5c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Multiply, addr 0x1253580, size 0x88, virtual false, abstract: false, final false
   static inline void Multiply(::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> y, ::ArrayW<uint32_t, ::Array<uint32_t>*> z);
 
-  /// @brief Method MultiplyAddToExt, addr 0x11610a0, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method MultiplyAddToExt, addr 0x12537c4, size 0x130, virtual false, abstract: false, final false
   static inline void MultiplyAddToExt(::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> y, ::ArrayW<uint32_t, ::Array<uint32_t>*> zz);
 
-  /// @brief Method Negate, addr 0x11611d0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Negate, addr 0x12538f4, size 0x98, virtual false, abstract: false, final false
   static inline void Negate(::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> z);
 
   static inline ::Org::BouncyCastle::Math::EC::Custom::Sec::SecP256K1Field* New_ctor();
 
-  /// @brief Method Random, addr 0x116001c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method Random, addr 0x1252740, size 0xd8, virtual false, abstract: false, final false
   static inline void Random(::Org::BouncyCastle::Security::SecureRandom* r, ::ArrayW<uint32_t, ::Array<uint32_t>*> z);
 
-  /// @brief Method RandomMult, addr 0x11601c0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method RandomMult, addr 0x12528e4, size 0x6c, virtual false, abstract: false, final false
   static inline void RandomMult(::Org::BouncyCastle::Security::SecureRandom* r, ::ArrayW<uint32_t, ::Array<uint32_t>*> z);
 
-  /// @brief Method Reduce, addr 0x1160fb0, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Reduce, addr 0x12536d4, size 0xf0, virtual false, abstract: false, final false
   static inline void Reduce(::ArrayW<uint32_t, ::Array<uint32_t>*> xx, ::ArrayW<uint32_t, ::Array<uint32_t>*> z);
 
-  /// @brief Method Reduce32, addr 0x1161268, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Reduce32, addr 0x125398c, size 0xd0, virtual false, abstract: false, final false
   static inline void Reduce32(uint32_t x, ::ArrayW<uint32_t, ::Array<uint32_t>*> z);
 
-  /// @brief Method Square, addr 0x1160ddc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Square, addr 0x1253500, size 0x80, virtual false, abstract: false, final false
   static inline void Square(::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> z);
 
-  /// @brief Method SquareN, addr 0x1160ee4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method SquareN, addr 0x1253608, size 0xcc, virtual false, abstract: false, final false
   static inline void SquareN(::ArrayW<uint32_t, ::Array<uint32_t>*> x, int32_t n, ::ArrayW<uint32_t, ::Array<uint32_t>*> z);
 
-  /// @brief Method Subtract, addr 0x1161338, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Subtract, addr 0x1253a5c, size 0x34, virtual false, abstract: false, final false
   static inline void Subtract(::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> y, ::ArrayW<uint32_t, ::Array<uint32_t>*> z);
 
-  /// @brief Method SubtractExt, addr 0x116136c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method SubtractExt, addr 0x1253a90, size 0xe4, virtual false, abstract: false, final false
   static inline void SubtractExt(::ArrayW<uint32_t, ::Array<uint32_t>*> xx, ::ArrayW<uint32_t, ::Array<uint32_t>*> yy, ::ArrayW<uint32_t, ::Array<uint32_t>*> zz);
 
-  /// @brief Method Twice, addr 0x1161450, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Twice, addr 0x1253b74, size 0xcc, virtual false, abstract: false, final false
   static inline void Twice(::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> z);
 
-  /// @brief Method .ctor, addr 0x1161630, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1253d54, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<uint32_t, ::Array<uint32_t>*> getStaticF_P();

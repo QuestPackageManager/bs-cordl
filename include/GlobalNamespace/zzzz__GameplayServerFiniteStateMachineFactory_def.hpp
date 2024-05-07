@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/GameplayServerFiniteStateMachineFactory.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +25,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE GameplayServerFiniteStateMachineFactory : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0xfa6234, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x109a958, size 0x8c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::GameplayServerFiniteStateMachine* Create(::GlobalNamespace::__GameplayServerFiniteStateMachine__InitParams initParams);
 
 protected:

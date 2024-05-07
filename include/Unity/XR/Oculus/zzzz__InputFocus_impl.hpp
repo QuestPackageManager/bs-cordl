@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/XR/Oculus/InputFocus.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/XR/Oculus/zzzz__InputFocus_def.hpp"
 #include "System/zzzz__Action_def.hpp"
@@ -7,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action*)>(&::Unity::XR::Oculus::InputFocus::add_InputFocusAcquired)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x31a5bcc;
+  constexpr static std::size_t addrs = 0x33ab654;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action*)>(&::Unity::XR::Oculus::InputFocus::remove_InputFocusAcquired)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x31a5c84;
+  constexpr static std::size_t addrs = 0x33ab70c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action*)>(&::Unity::XR::Oculus::InputFocus::add_InputFocusLost)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x31a5d3c;
+  constexpr static std::size_t addrs = 0x33ab7c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action*)>(&::Unity::XR::Oculus::InputFocus::remove_InputFocusLost)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x31a5df8;
+  constexpr static std::size_t addrs = 0x33ab880;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::Unity::XR::Oculus::InputFocus::get_hasInputFocus)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x31a5eb4;
+  constexpr static std::size_t addrs = 0x33ab93c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::InputFocus*>::get(), "get_hasInputFocus",
@@ -76,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Unity::XR::Oculus::InputFocus::Update)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x31a5ebc;
+  constexpr static std::size_t addrs = 0x33ab944;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::InputFocus*>::get(), "Update",
@@ -89,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::Oculus::InputFocus::*)()>(&::Unity::XR::Oculus::InputFocus::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x31a5f5c;
+  constexpr static std::size_t addrs = 0x33ab9e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::InputFocus*>::get(), ".ctor",

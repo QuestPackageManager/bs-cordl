@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/ValidationErrorResponses.hpp"
 #include "Zenject/zzzz__ValidationErrorResponses_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::Zenject::ValidationErrorResponses::ValidationErrorResponses(int32_t value__) noexcept {

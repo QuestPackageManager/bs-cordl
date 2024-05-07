@@ -1,20 +1,14 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/LightBakingPersistentSettingsSO.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__LightBakingPersistentSettingsSO_def.hpp"
+#include "BeatSaber/PerformancePresets/zzzz__PerformancePreset_def.hpp"
 #include "GlobalNamespace/zzzz__BakedLightDataLoader_def.hpp"
 #include "GlobalNamespace/zzzz__BakedReflectionProbe_def.hpp"
-#include "GlobalNamespace/zzzz__BloomPrePassEffectContainerSO_def.hpp"
-#include "GlobalNamespace/zzzz__BloomPrePassEffectSO_def.hpp"
-#include "GlobalNamespace/zzzz__BloomPrePassGraphicsSettingsPresetsSO_def.hpp"
 #include "GlobalNamespace/zzzz__FakeMirrorObjectsInstaller_def.hpp"
 #include "GlobalNamespace/zzzz__FakeMirrorSettings_def.hpp"
 #include "GlobalNamespace/zzzz__LightmapLightsWithIds_def.hpp"
-#include "GlobalNamespace/zzzz__MainEffectContainerSO_def.hpp"
-#include "GlobalNamespace/zzzz__MainEffectGraphicsSettingsPresetsSO_def.hpp"
-#include "GlobalNamespace/zzzz__MainEffectSO_def.hpp"
-#include "GlobalNamespace/zzzz__MainSettingsModelSO_def.hpp"
-#include "GlobalNamespace/zzzz__MirrorRendererGraphicsSettingsPresets_def.hpp"
-#include "GlobalNamespace/zzzz__MirrorRendererSO_def.hpp"
+#include "GlobalNamespace/zzzz__SettingsApplicatorSO_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::LightBakingPersistentSettingsSO.get_reflectionsCount
@@ -23,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(
     &::GlobalNamespace::LightBakingPersistentSettingsSO::get_reflectionsCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25885b4;
+  constexpr static std::size_t addrs = 0x2681a48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightBakingPersistentSettingsSO*>::get(),
@@ -37,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightBakingPersistentSettingsSO::*)(int32_t)>(
     &::GlobalNamespace::LightBakingPersistentSettingsSO::set_reflectionsCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25885bc;
+  constexpr static std::size_t addrs = 0x2681a50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(
     &::GlobalNamespace::LightBakingPersistentSettingsSO::get_colorFromSchemeAlpha)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25885c4;
+  constexpr static std::size_t addrs = 0x2681a58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightBakingPersistentSettingsSO*>::get(),
@@ -66,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightBakingPersistentSettingsSO::*)(float_t)>(
     &::GlobalNamespace::LightBakingPersistentSettingsSO::set_colorFromSchemeAlpha)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25885cc;
+  constexpr static std::size_t addrs = 0x2681a60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,55 +75,11 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> (
     ::GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(&::GlobalNamespace::LightBakingPersistentSettingsSO::get_bakedLightEditorColors)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25885d4;
+  constexpr static std::size_t addrs = 0x2681a68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightBakingPersistentSettingsSO*>::get(),
                                                                                "get_bakedLightEditorColors", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::LightBakingPersistentSettingsSO.get_defaultDepthOnlyWriteMaterialForFakeMirror
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (::GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(
-    &::GlobalNamespace::LightBakingPersistentSettingsSO::get_defaultDepthOnlyWriteMaterialForFakeMirror)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25885dc;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightBakingPersistentSettingsSO*>::get(),
-                                                 "get_defaultDepthOnlyWriteMaterialForFakeMirror", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::LightBakingPersistentSettingsSO.get_mainEffectForBakingIsOn
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(
-    &::GlobalNamespace::LightBakingPersistentSettingsSO::get_mainEffectForBakingIsOn)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x25885e4;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightBakingPersistentSettingsSO*>::get(),
-                                                                               "get_mainEffectForBakingIsOn", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::LightBakingPersistentSettingsSO.set_mainEffectForBakingIsOn
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightBakingPersistentSettingsSO::*)(bool)>(
-    &::GlobalNamespace::LightBakingPersistentSettingsSO::set_mainEffectForBakingIsOn)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2588654;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightBakingPersistentSettingsSO*>::get(), "set_mainEffectForBakingIsOn",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
@@ -139,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::BakedLightDataLoader> (::GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(
     &::GlobalNamespace::LightBakingPersistentSettingsSO::get_bakedLightDataLoaderPrefab)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2588704;
+  constexpr static std::size_t addrs = 0x2681a70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightBakingPersistentSettingsSO*>::get(),
@@ -153,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::BakedReflectionProbe> (::GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(
     &::GlobalNamespace::LightBakingPersistentSettingsSO::get_bakedReflectionProbePrefab)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x258870c;
+  constexpr static std::size_t addrs = 0x2681a78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightBakingPersistentSettingsSO*>::get(),
@@ -167,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::LightmapLightsWithIds> (::GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(
     &::GlobalNamespace::LightBakingPersistentSettingsSO::get_lightmapLightsWithIds)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2588714;
+  constexpr static std::size_t addrs = 0x2681a80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightBakingPersistentSettingsSO*>::get(),
@@ -181,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::FakeMirrorObjectsInstaller> (::GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(
     &::GlobalNamespace::LightBakingPersistentSettingsSO::get_fakeMirrorObjectsInstallerPrefab)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x258871c;
+  constexpr static std::size_t addrs = 0x2681a88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -196,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::FakeMirrorSettings> (::GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(
     &::GlobalNamespace::LightBakingPersistentSettingsSO::get_fakeMirrorSettingsPrefab)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2588724;
+  constexpr static std::size_t addrs = 0x2681a90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightBakingPersistentSettingsSO*>::get(),
@@ -204,17 +154,33 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::GlobalNamespace::LightBakingPersistentSettingsSO.get_defaultDepthOnlyWriteMaterialForFakeMirror
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (::GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(
+    &::GlobalNamespace::LightBakingPersistentSettingsSO::get_defaultDepthOnlyWriteMaterialForFakeMirror)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x2681a98;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightBakingPersistentSettingsSO*>::get(),
+                                                 "get_defaultDepthOnlyWriteMaterialForFakeMirror", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::LightBakingPersistentSettingsSO.SetGraphicsSettingsForBaking
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightBakingPersistentSettingsSO::*)(::BeatSaber::PerformancePresets::PerformancePreset*)>(
     &::GlobalNamespace::LightBakingPersistentSettingsSO::SetGraphicsSettingsForBaking)> {
-  constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x258872c;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x2681aa0;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightBakingPersistentSettingsSO*>::get(),
-                                                                               "SetGraphicsSettingsForBaking", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightBakingPersistentSettingsSO*>::get(), "SetGraphicsSettingsForBaking", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatSaber::PerformancePresets::PerformancePreset*>::get() })));
     return ___internal_method;
   }
 };
@@ -223,41 +189,12 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(
     &::GlobalNamespace::LightBakingPersistentSettingsSO::SetPlatformGraphics)> {
-  constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x2588a30;
+  constexpr static std::size_t size = 0x158;
+  constexpr static std::size_t addrs = 0x2681ac4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightBakingPersistentSettingsSO*>::get(),
                                                                                "SetPlatformGraphics", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::LightBakingPersistentSettingsSO.SetToneMappingOn
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightBakingPersistentSettingsSO::*)(bool)>(
-    &::GlobalNamespace::LightBakingPersistentSettingsSO::SetToneMappingOn)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2588980;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightBakingPersistentSettingsSO*>::get(), "SetToneMappingOn",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::LightBakingPersistentSettingsSO.IsToneMappingOn
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(
-    &::GlobalNamespace::LightBakingPersistentSettingsSO::IsToneMappingOn)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x2588c34;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightBakingPersistentSettingsSO*>::get(),
-                                                                               "IsToneMappingOn", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -266,8 +203,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(
     &::GlobalNamespace::LightBakingPersistentSettingsSO::_ctor)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x2588c68;
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x2681c1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightBakingPersistentSettingsSO*>::get(),
@@ -275,6 +212,18 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+constexpr ::UnityW<::GlobalNamespace::SettingsApplicatorSO>& GlobalNamespace::LightBakingPersistentSettingsSO::__cordl_internal_get__settingsApplicator() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____settingsApplicator;
+}
+constexpr ::UnityW<::GlobalNamespace::SettingsApplicatorSO> const& GlobalNamespace::LightBakingPersistentSettingsSO::__cordl_internal_get__settingsApplicator() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____settingsApplicator;
+}
+constexpr void GlobalNamespace::LightBakingPersistentSettingsSO::__cordl_internal_set__settingsApplicator(::UnityW<::GlobalNamespace::SettingsApplicatorSO> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____settingsApplicator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
 constexpr int32_t& GlobalNamespace::LightBakingPersistentSettingsSO::__cordl_internal_get__reflectionsCount() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____reflectionsCount;
@@ -286,30 +235,6 @@ constexpr int32_t const& GlobalNamespace::LightBakingPersistentSettingsSO::__cor
 constexpr void GlobalNamespace::LightBakingPersistentSettingsSO::__cordl_internal_set__reflectionsCount(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____reflectionsCount = value;
-}
-constexpr ::UnityW<::GlobalNamespace::BloomPrePassEffectSO>& GlobalNamespace::LightBakingPersistentSettingsSO::__cordl_internal_get__bloomPrePassEffectToneMappingOff() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____bloomPrePassEffectToneMappingOff;
-}
-constexpr ::UnityW<::GlobalNamespace::BloomPrePassEffectSO> const& GlobalNamespace::LightBakingPersistentSettingsSO::__cordl_internal_get__bloomPrePassEffectToneMappingOff() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____bloomPrePassEffectToneMappingOff;
-}
-constexpr void GlobalNamespace::LightBakingPersistentSettingsSO::__cordl_internal_set__bloomPrePassEffectToneMappingOff(::UnityW<::GlobalNamespace::BloomPrePassEffectSO> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bloomPrePassEffectToneMappingOff)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::UnityW<::GlobalNamespace::MainEffectSO>& GlobalNamespace::LightBakingPersistentSettingsSO::__cordl_internal_get__mainEffectForBaking() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____mainEffectForBaking;
-}
-constexpr ::UnityW<::GlobalNamespace::MainEffectSO> const& GlobalNamespace::LightBakingPersistentSettingsSO::__cordl_internal_get__mainEffectForBaking() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____mainEffectForBaking;
-}
-constexpr void GlobalNamespace::LightBakingPersistentSettingsSO::__cordl_internal_set__mainEffectForBaking(::UnityW<::GlobalNamespace::MainEffectSO> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mainEffectForBaking)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr float_t& GlobalNamespace::LightBakingPersistentSettingsSO::__cordl_internal_get__colorFromSchemeAlpha() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -334,94 +259,6 @@ constexpr ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> const& 
 constexpr void GlobalNamespace::LightBakingPersistentSettingsSO::__cordl_internal_set__bakedLightEditorColors(::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bakedLightEditorColors)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO>& GlobalNamespace::LightBakingPersistentSettingsSO::__cordl_internal_get__mainSettingsModel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____mainSettingsModel;
-}
-constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO> const& GlobalNamespace::LightBakingPersistentSettingsSO::__cordl_internal_get__mainSettingsModel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____mainSettingsModel;
-}
-constexpr void GlobalNamespace::LightBakingPersistentSettingsSO::__cordl_internal_set__mainSettingsModel(::UnityW<::GlobalNamespace::MainSettingsModelSO> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mainSettingsModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::UnityW<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets>& GlobalNamespace::LightBakingPersistentSettingsSO::__cordl_internal_get__mirrorRendererGraphicsSettingsPresets() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____mirrorRendererGraphicsSettingsPresets;
-}
-constexpr ::UnityW<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets> const&
-GlobalNamespace::LightBakingPersistentSettingsSO::__cordl_internal_get__mirrorRendererGraphicsSettingsPresets() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____mirrorRendererGraphicsSettingsPresets;
-}
-constexpr void GlobalNamespace::LightBakingPersistentSettingsSO::__cordl_internal_set__mirrorRendererGraphicsSettingsPresets(::UnityW<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mirrorRendererGraphicsSettingsPresets)),
-                                          cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::UnityW<::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO>& GlobalNamespace::LightBakingPersistentSettingsSO::__cordl_internal_get__mainEffectGraphicsSettingsPresets() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____mainEffectGraphicsSettingsPresets;
-}
-constexpr ::UnityW<::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO> const& GlobalNamespace::LightBakingPersistentSettingsSO::__cordl_internal_get__mainEffectGraphicsSettingsPresets() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____mainEffectGraphicsSettingsPresets;
-}
-constexpr void GlobalNamespace::LightBakingPersistentSettingsSO::__cordl_internal_set__mainEffectGraphicsSettingsPresets(::UnityW<::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mainEffectGraphicsSettingsPresets)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::UnityW<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO>& GlobalNamespace::LightBakingPersistentSettingsSO::__cordl_internal_get__bloomPrePassGraphicsSettingsPresets() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____bloomPrePassGraphicsSettingsPresets;
-}
-constexpr ::UnityW<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO> const&
-GlobalNamespace::LightBakingPersistentSettingsSO::__cordl_internal_get__bloomPrePassGraphicsSettingsPresets() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____bloomPrePassGraphicsSettingsPresets;
-}
-constexpr void GlobalNamespace::LightBakingPersistentSettingsSO::__cordl_internal_set__bloomPrePassGraphicsSettingsPresets(::UnityW<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bloomPrePassGraphicsSettingsPresets)),
-                                          cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::UnityW<::GlobalNamespace::MirrorRendererSO>& GlobalNamespace::LightBakingPersistentSettingsSO::__cordl_internal_get__mirrorRenderer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____mirrorRenderer;
-}
-constexpr ::UnityW<::GlobalNamespace::MirrorRendererSO> const& GlobalNamespace::LightBakingPersistentSettingsSO::__cordl_internal_get__mirrorRenderer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____mirrorRenderer;
-}
-constexpr void GlobalNamespace::LightBakingPersistentSettingsSO::__cordl_internal_set__mirrorRenderer(::UnityW<::GlobalNamespace::MirrorRendererSO> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mirrorRenderer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::UnityW<::GlobalNamespace::MainEffectContainerSO>& GlobalNamespace::LightBakingPersistentSettingsSO::__cordl_internal_get__mainEffectContainer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____mainEffectContainer;
-}
-constexpr ::UnityW<::GlobalNamespace::MainEffectContainerSO> const& GlobalNamespace::LightBakingPersistentSettingsSO::__cordl_internal_get__mainEffectContainer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____mainEffectContainer;
-}
-constexpr void GlobalNamespace::LightBakingPersistentSettingsSO::__cordl_internal_set__mainEffectContainer(::UnityW<::GlobalNamespace::MainEffectContainerSO> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mainEffectContainer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::UnityW<::GlobalNamespace::BloomPrePassEffectContainerSO>& GlobalNamespace::LightBakingPersistentSettingsSO::__cordl_internal_get__bloomPrePassEffectContainer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____bloomPrePassEffectContainer;
-}
-constexpr ::UnityW<::GlobalNamespace::BloomPrePassEffectContainerSO> const& GlobalNamespace::LightBakingPersistentSettingsSO::__cordl_internal_get__bloomPrePassEffectContainer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____bloomPrePassEffectContainer;
-}
-constexpr void GlobalNamespace::LightBakingPersistentSettingsSO::__cordl_internal_set__bloomPrePassEffectContainer(::UnityW<::GlobalNamespace::BloomPrePassEffectContainerSO> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bloomPrePassEffectContainer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityW<::GlobalNamespace::BakedLightDataLoader>& GlobalNamespace::LightBakingPersistentSettingsSO::__cordl_internal_get__bakedLightDataLoaderPrefab() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -523,23 +360,6 @@ inline ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> GlobalName
                                                                              "get_bakedLightEditorColors", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>, false>(this, ___internal_method);
 }
-inline ::UnityW<::UnityEngine::Material> GlobalNamespace::LightBakingPersistentSettingsSO::get_defaultDepthOnlyWriteMaterialForFakeMirror() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightBakingPersistentSettingsSO*>::get(),
-                                               "get_defaultDepthOnlyWriteMaterialForFakeMirror", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Material>, false>(this, ___internal_method);
-}
-inline bool GlobalNamespace::LightBakingPersistentSettingsSO::get_mainEffectForBakingIsOn() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightBakingPersistentSettingsSO*>::get(),
-                                                                             "get_mainEffectForBakingIsOn", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline void GlobalNamespace::LightBakingPersistentSettingsSO::set_mainEffectForBakingIsOn(bool value) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightBakingPersistentSettingsSO*>::get(), "set_mainEffectForBakingIsOn",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
 inline ::UnityW<::GlobalNamespace::BakedLightDataLoader> GlobalNamespace::LightBakingPersistentSettingsSO::get_bakedLightDataLoaderPrefab() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightBakingPersistentSettingsSO*>::get(),
                                                                              "get_bakedLightDataLoaderPrefab", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -566,26 +386,22 @@ inline ::UnityW<::GlobalNamespace::FakeMirrorSettings> GlobalNamespace::LightBak
                                                                              "get_fakeMirrorSettingsPrefab", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::FakeMirrorSettings>, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::LightBakingPersistentSettingsSO::SetGraphicsSettingsForBaking() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightBakingPersistentSettingsSO*>::get(),
-                                                                             "SetGraphicsSettingsForBaking", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline ::UnityW<::UnityEngine::Material> GlobalNamespace::LightBakingPersistentSettingsSO::get_defaultDepthOnlyWriteMaterialForFakeMirror() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightBakingPersistentSettingsSO*>::get(),
+                                               "get_defaultDepthOnlyWriteMaterialForFakeMirror", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Material>, false>(this, ___internal_method);
+}
+inline void GlobalNamespace::LightBakingPersistentSettingsSO::SetGraphicsSettingsForBaking(::BeatSaber::PerformancePresets::PerformancePreset* lightBakingPreset) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightBakingPersistentSettingsSO*>::get(), "SetGraphicsSettingsForBaking", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatSaber::PerformancePresets::PerformancePreset*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, lightBakingPreset);
 }
 inline void GlobalNamespace::LightBakingPersistentSettingsSO::SetPlatformGraphics() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightBakingPersistentSettingsSO*>::get(),
                                                                              "SetPlatformGraphics", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline void GlobalNamespace::LightBakingPersistentSettingsSO::SetToneMappingOn(bool isOn) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightBakingPersistentSettingsSO*>::get(), "SetToneMappingOn",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, isOn);
-}
-inline bool GlobalNamespace::LightBakingPersistentSettingsSO::IsToneMappingOn() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightBakingPersistentSettingsSO*>::get(),
-                                                                             "IsToneMappingOn", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::LightBakingPersistentSettingsSO* GlobalNamespace::LightBakingPersistentSettingsSO::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LightBakingPersistentSettingsSO*>());

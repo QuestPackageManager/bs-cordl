@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Buffers/Utilities.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,10 +20,10 @@ namespace System::Buffers {
 class CORDL_TYPE Utilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetMaxSizeForBucket, addr 0x2812478, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetMaxSizeForBucket, addr 0x2911b98, size 0xc, virtual false, abstract: false, final false
   static inline int32_t GetMaxSizeForBucket(int32_t binIndex);
 
-  /// @brief Method SelectBucketIndex, addr 0x28123fc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SelectBucketIndex, addr 0x2911b1c, size 0x7c, virtual false, abstract: false, final false
   static inline int32_t SelectBucketIndex(int32_t bufferSize);
 
 protected:

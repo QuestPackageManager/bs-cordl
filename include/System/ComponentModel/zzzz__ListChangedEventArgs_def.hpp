@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ComponentModel/ListChangedEventArgs.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -79,25 +80,25 @@ public:
 
   constexpr void __cordl_internal_set__PropertyDescriptor_k__BackingField(::System::ComponentModel::PropertyDescriptor* value);
 
-  /// @brief Method .ctor, addr 0x2e41928, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f40228, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::ListChangedType listChangedType, int32_t newIndex);
 
-  /// @brief Method .ctor, addr 0x2e41930, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f40230, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::ListChangedType listChangedType, int32_t newIndex, int32_t oldIndex);
 
-  /// @brief Method .ctor, addr 0x2e419b0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f402b0, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::ListChangedType listChangedType, int32_t newIndex, ::System::ComponentModel::PropertyDescriptor* propDesc);
 
-  /// @brief Method .ctor, addr 0x2e419e0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f402e0, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::System::ComponentModel::ListChangedType listChangedType, ::System::ComponentModel::PropertyDescriptor* propDesc);
 
-  /// @brief Method get_ListChangedType, addr 0x2e41a54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ListChangedType, addr 0x2f40354, size 0x8, virtual false, abstract: false, final false
   inline ::System::ComponentModel::ListChangedType get_ListChangedType();
 
-  /// @brief Method get_NewIndex, addr 0x2e41a5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NewIndex, addr 0x2f4035c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_NewIndex();
 
-  /// @brief Method get_OldIndex, addr 0x2e41a64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OldIndex, addr 0x2f40364, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_OldIndex();
 
 protected:

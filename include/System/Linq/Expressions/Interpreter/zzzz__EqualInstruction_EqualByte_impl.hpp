@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/EqualInstruction_EqualByte.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__EqualInstruction_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__EqualInstruction_EqualByte_def.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__InterpretedFrame_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::__EqualInstruction__EqualByte::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::System::Linq::Expressions::Interpreter::__EqualInstruction__EqualByte::Run)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x2b1a554;
+  constexpr static std::size_t addrs = 0x2c17e54;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::__EqualInstruction__EqualByte::*)()>(
     &::System::Linq::Expressions::Interpreter::__EqualInstruction__EqualByte::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b19fdc;
+  constexpr static std::size_t addrs = 0x2c178dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

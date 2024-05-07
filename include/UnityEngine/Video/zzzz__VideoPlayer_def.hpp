@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Video/VideoPlayer.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -92,12 +93,12 @@ namespace UnityEngine::Video {
 class CORDL_TYPE __VideoPlayer__EventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x340079c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x36064d8, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::Video::VideoPlayer* source);
 
   static inline ::UnityEngine::Video::__VideoPlayer__EventHandler* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x34006c8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3606404, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -128,12 +129,12 @@ namespace UnityEngine::Video {
 class CORDL_TYPE __VideoPlayer__ErrorEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x3400888, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x36065c4, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::Video::VideoPlayer* source, ::StringW message);
 
   static inline ::UnityEngine::Video::__VideoPlayer__ErrorEventHandler* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x34007b0, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36064ec, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -164,12 +165,12 @@ namespace UnityEngine::Video {
 class CORDL_TYPE __VideoPlayer__FrameReadyEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x3400974, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x36066b0, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::Video::VideoPlayer* source, int64_t frameIdx);
 
   static inline ::UnityEngine::Video::__VideoPlayer__FrameReadyEventHandler* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x340089c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36065d8, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -200,12 +201,12 @@ namespace UnityEngine::Video {
 class CORDL_TYPE __VideoPlayer__TimeEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x3400a60, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x360679c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::Video::VideoPlayer* source, double_t seconds);
 
   static inline ::UnityEngine::Video::__VideoPlayer__TimeEventHandler* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x3400988, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36066c4, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -354,84 +355,84 @@ public:
 
   __declspec(property(get = get_width)) uint32_t width;
 
-  /// @brief Method EnableAudioTrack, addr 0x33ff7bc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method EnableAudioTrack, addr 0x36054f8, size 0x54, virtual false, abstract: false, final false
   inline void EnableAudioTrack(uint16_t trackIndex, bool enabled);
 
-  /// @brief Method GetAudioChannelCount, addr 0x33ff54c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetAudioChannelCount, addr 0x3605288, size 0x44, virtual false, abstract: false, final false
   inline uint16_t GetAudioChannelCount(uint16_t trackIndex);
 
-  /// @brief Method GetAudioLanguageCode, addr 0x33ff508, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetAudioLanguageCode, addr 0x3605244, size 0x44, virtual false, abstract: false, final false
   inline ::StringW GetAudioLanguageCode(uint16_t trackIndex);
 
-  /// @brief Method GetAudioSampleRate, addr 0x33ff590, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetAudioSampleRate, addr 0x36052cc, size 0x44, virtual false, abstract: false, final false
   inline uint32_t GetAudioSampleRate(uint16_t trackIndex);
 
-  /// @brief Method GetControlledAudioTrackCount, addr 0x33ff638, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetControlledAudioTrackCount, addr 0x3605374, size 0x3c, virtual false, abstract: false, final false
   inline uint16_t GetControlledAudioTrackCount();
 
-  /// @brief Method GetDirectAudioMute, addr 0x33ff9a8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetDirectAudioMute, addr 0x36056e4, size 0x44, virtual false, abstract: false, final false
   inline bool GetDirectAudioMute(uint16_t trackIndex);
 
-  /// @brief Method GetDirectAudioVolume, addr 0x33ff910, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetDirectAudioVolume, addr 0x360564c, size 0x44, virtual false, abstract: false, final false
   inline float_t GetDirectAudioVolume(uint16_t trackIndex);
 
-  /// @brief Method GetTargetAudioSource, addr 0x33ffa40, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetTargetAudioSource, addr 0x360577c, size 0x44, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::AudioSource> GetTargetAudioSource(uint16_t trackIndex);
 
-  /// @brief Method InvokeClockResyncOccurredCallback_Internal, addr 0x340068c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method InvokeClockResyncOccurredCallback_Internal, addr 0x36063c8, size 0x34, virtual false, abstract: false, final false
   static inline void InvokeClockResyncOccurredCallback_Internal(::UnityEngine::Video::VideoPlayer* source, double_t seconds);
 
-  /// @brief Method InvokeErrorReceivedCallback_Internal, addr 0x3400620, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method InvokeErrorReceivedCallback_Internal, addr 0x360635c, size 0x38, virtual false, abstract: false, final false
   static inline void InvokeErrorReceivedCallback_Internal(::UnityEngine::Video::VideoPlayer* source, ::StringW errorStr);
 
-  /// @brief Method InvokeFrameDroppedCallback_Internal, addr 0x34005ec, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method InvokeFrameDroppedCallback_Internal, addr 0x3606328, size 0x34, virtual false, abstract: false, final false
   static inline void InvokeFrameDroppedCallback_Internal(::UnityEngine::Video::VideoPlayer* source);
 
-  /// @brief Method InvokeFrameReadyCallback_Internal, addr 0x340054c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method InvokeFrameReadyCallback_Internal, addr 0x3606288, size 0x38, virtual false, abstract: false, final false
   static inline void InvokeFrameReadyCallback_Internal(::UnityEngine::Video::VideoPlayer* source, int64_t frameIdx);
 
-  /// @brief Method InvokeLoopPointReachedCallback_Internal, addr 0x3400584, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method InvokeLoopPointReachedCallback_Internal, addr 0x36062c0, size 0x34, virtual false, abstract: false, final false
   static inline void InvokeLoopPointReachedCallback_Internal(::UnityEngine::Video::VideoPlayer* source);
 
-  /// @brief Method InvokePrepareCompletedCallback_Internal, addr 0x3400518, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method InvokePrepareCompletedCallback_Internal, addr 0x3606254, size 0x34, virtual false, abstract: false, final false
   static inline void InvokePrepareCompletedCallback_Internal(::UnityEngine::Video::VideoPlayer* source);
 
-  /// @brief Method InvokeSeekCompletedCallback_Internal, addr 0x3400658, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method InvokeSeekCompletedCallback_Internal, addr 0x3606394, size 0x34, virtual false, abstract: false, final false
   static inline void InvokeSeekCompletedCallback_Internal(::UnityEngine::Video::VideoPlayer* source);
 
-  /// @brief Method InvokeStartedCallback_Internal, addr 0x34005b8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method InvokeStartedCallback_Internal, addr 0x36062f4, size 0x34, virtual false, abstract: false, final false
   static inline void InvokeStartedCallback_Internal(::UnityEngine::Video::VideoPlayer* source);
 
-  /// @brief Method IsAudioTrackEnabled, addr 0x33ff810, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method IsAudioTrackEnabled, addr 0x360554c, size 0x44, virtual false, abstract: false, final false
   inline bool IsAudioTrackEnabled(uint16_t trackIndex);
 
   static inline ::UnityEngine::Video::VideoPlayer* New_ctor();
 
-  /// @brief Method Pause, addr 0x33fec7c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Pause, addr 0x36049b8, size 0x3c, virtual false, abstract: false, final false
   inline void Pause();
 
-  /// @brief Method Play, addr 0x33fec40, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Play, addr 0x360497c, size 0x3c, virtual false, abstract: false, final false
   inline void Play();
 
-  /// @brief Method Prepare, addr 0x33feac8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Prepare, addr 0x3604804, size 0x3c, virtual false, abstract: false, final false
   inline void Prepare();
 
-  /// @brief Method SetControlledAudioTrackCount, addr 0x33ff778, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetControlledAudioTrackCount, addr 0x36054b4, size 0x44, virtual false, abstract: false, final false
   inline void SetControlledAudioTrackCount(uint16_t value);
 
-  /// @brief Method SetDirectAudioMute, addr 0x33ff9ec, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetDirectAudioMute, addr 0x3605728, size 0x54, virtual false, abstract: false, final false
   inline void SetDirectAudioMute(uint16_t trackIndex, bool mute);
 
-  /// @brief Method SetDirectAudioVolume, addr 0x33ff954, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetDirectAudioVolume, addr 0x3605690, size 0x54, virtual false, abstract: false, final false
   inline void SetDirectAudioVolume(uint16_t trackIndex, float_t volume);
 
-  /// @brief Method SetTargetAudioSource, addr 0x33ffa84, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetTargetAudioSource, addr 0x36057c0, size 0x54, virtual false, abstract: false, final false
   inline void SetTargetAudioSource(uint16_t trackIndex, ::UnityEngine::AudioSource* source);
 
-  /// @brief Method StepForward, addr 0x33fef28, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method StepForward, addr 0x3604c64, size 0x3c, virtual false, abstract: false, final false
   inline void StepForward();
 
-  /// @brief Method Stop, addr 0x33fecb8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Stop, addr 0x36049f4, size 0x3c, virtual false, abstract: false, final false
   inline void Stop();
 
   constexpr ::UnityEngine::Video::__VideoPlayer__TimeEventHandler*& __cordl_internal_get_clockResyncOccurred();
@@ -482,259 +483,259 @@ public:
 
   constexpr void __cordl_internal_set_started(::UnityEngine::Video::__VideoPlayer__EventHandler* value);
 
-  /// @brief Method .ctor, addr 0x34006c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36063fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_clockResyncOccurred, addr 0x3400228, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_clockResyncOccurred, addr 0x3605f64, size 0x9c, virtual false, abstract: false, final false
   inline void add_clockResyncOccurred(::UnityEngine::Video::__VideoPlayer__TimeEventHandler* value);
 
-  /// @brief Method add_errorReceived, addr 0x33fffb8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_errorReceived, addr 0x3605cf4, size 0x9c, virtual false, abstract: false, final false
   inline void add_errorReceived(::UnityEngine::Video::__VideoPlayer__ErrorEventHandler* value);
 
-  /// @brief Method add_frameDropped, addr 0x33ffe80, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_frameDropped, addr 0x3605bbc, size 0x9c, virtual false, abstract: false, final false
   inline void add_frameDropped(::UnityEngine::Video::__VideoPlayer__EventHandler* value);
 
-  /// @brief Method add_frameReady, addr 0x34003e0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_frameReady, addr 0x360611c, size 0x9c, virtual false, abstract: false, final false
   inline void add_frameReady(::UnityEngine::Video::__VideoPlayer__FrameReadyEventHandler* value);
 
-  /// @brief Method add_loopPointReached, addr 0x33ffc10, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_loopPointReached, addr 0x360594c, size 0x9c, virtual false, abstract: false, final false
   inline void add_loopPointReached(::UnityEngine::Video::__VideoPlayer__EventHandler* value);
 
-  /// @brief Method add_prepareCompleted, addr 0x33ffad8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_prepareCompleted, addr 0x3605814, size 0x9c, virtual false, abstract: false, final false
   inline void add_prepareCompleted(::UnityEngine::Video::__VideoPlayer__EventHandler* value);
 
-  /// @brief Method add_seekCompleted, addr 0x34000f0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_seekCompleted, addr 0x3605e2c, size 0x9c, virtual false, abstract: false, final false
   inline void add_seekCompleted(::UnityEngine::Video::__VideoPlayer__EventHandler* value);
 
-  /// @brief Method add_started, addr 0x33ffd48, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_started, addr 0x3605a84, size 0x9c, virtual false, abstract: false, final false
   inline void add_started(::UnityEngine::Video::__VideoPlayer__EventHandler* value);
 
-  /// @brief Method get_aspectRatio, addr 0x33fe904, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_aspectRatio, addr 0x3604640, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::Video::VideoAspectRatio get_aspectRatio();
 
-  /// @brief Method get_audioOutputMode, addr 0x33ff854, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_audioOutputMode, addr 0x3605590, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::Video::VideoAudioOutputMode get_audioOutputMode();
 
-  /// @brief Method get_audioTrackCount, addr 0x33ff4cc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_audioTrackCount, addr 0x3605208, size 0x3c, virtual false, abstract: false, final false
   inline uint16_t get_audioTrackCount();
 
-  /// @brief Method get_canSetDirectAudioVolume, addr 0x33ff8d4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_canSetDirectAudioVolume, addr 0x3605610, size 0x3c, virtual false, abstract: false, final false
   inline bool get_canSetDirectAudioVolume();
 
-  /// @brief Method get_canSetPlaybackSpeed, addr 0x33fef64, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_canSetPlaybackSpeed, addr 0x3604ca0, size 0x3c, virtual false, abstract: false, final false
   inline bool get_canSetPlaybackSpeed();
 
-  /// @brief Method get_canSetSkipOnDrop, addr 0x33ff26c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_canSetSkipOnDrop, addr 0x3604fa8, size 0x3c, virtual false, abstract: false, final false
   inline bool get_canSetSkipOnDrop();
 
-  /// @brief Method get_canSetTime, addr 0x33fed6c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_canSetTime, addr 0x3604aa8, size 0x3c, virtual false, abstract: false, final false
   inline bool get_canSetTime();
 
-  /// @brief Method get_canSetTimeSource, addr 0x33ff0a8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_canSetTimeSource, addr 0x3604de4, size 0x3c, virtual false, abstract: false, final false
   inline bool get_canSetTimeSource();
 
-  /// @brief Method get_canStep, addr 0x33feeec, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_canStep, addr 0x3604c28, size 0x3c, virtual false, abstract: false, final false
   inline bool get_canStep();
 
-  /// @brief Method get_clip, addr 0x33fe604, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_clip, addr 0x3604340, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Video::VideoClip> get_clip();
 
-  /// @brief Method get_clockTime, addr 0x33feeb0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_clockTime, addr 0x3604bec, size 0x3c, virtual false, abstract: false, final false
   inline double_t get_clockTime();
 
-  /// @brief Method get_controlledAudioTrackCount, addr 0x33ff5fc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_controlledAudioTrackCount, addr 0x3605338, size 0x3c, virtual false, abstract: false, final false
   inline uint16_t get_controlledAudioTrackCount();
 
-  /// @brief Method get_controlledAudioTrackMaxCount, addr 0x33ff5d4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_controlledAudioTrackMaxCount, addr 0x3605310, size 0x28, virtual false, abstract: false, final false
   static inline uint16_t get_controlledAudioTrackMaxCount();
 
-  /// @brief Method get_externalReferenceTime, addr 0x33ff1e4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_externalReferenceTime, addr 0x3604f20, size 0x3c, virtual false, abstract: false, final false
   inline double_t get_externalReferenceTime();
 
-  /// @brief Method get_frame, addr 0x33fee30, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_frame, addr 0x3604b6c, size 0x3c, virtual false, abstract: false, final false
   inline int64_t get_frame();
 
-  /// @brief Method get_frameCount, addr 0x33ff328, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_frameCount, addr 0x3605064, size 0x3c, virtual false, abstract: false, final false
   inline uint64_t get_frameCount();
 
-  /// @brief Method get_frameRate, addr 0x33ff364, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_frameRate, addr 0x36050a0, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_frameRate();
 
-  /// @brief Method get_height, addr 0x33ff418, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_height, addr 0x3605154, size 0x3c, virtual false, abstract: false, final false
   inline uint32_t get_height();
 
-  /// @brief Method get_isLooping, addr 0x33ff028, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isLooping, addr 0x3604d64, size 0x3c, virtual false, abstract: false, final false
   inline bool get_isLooping();
 
-  /// @brief Method get_isPaused, addr 0x33fed30, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isPaused, addr 0x3604a6c, size 0x3c, virtual false, abstract: false, final false
   inline bool get_isPaused();
 
-  /// @brief Method get_isPlaying, addr 0x33fecf4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isPlaying, addr 0x3604a30, size 0x3c, virtual false, abstract: false, final false
   inline bool get_isPlaying();
 
-  /// @brief Method get_isPrepared, addr 0x33feb04, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isPrepared, addr 0x3604840, size 0x3c, virtual false, abstract: false, final false
   inline bool get_isPrepared();
 
-  /// @brief Method get_length, addr 0x33ff3a0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_length, addr 0x36050dc, size 0x3c, virtual false, abstract: false, final false
   inline double_t get_length();
 
-  /// @brief Method get_pixelAspectRatioDenominator, addr 0x33ff490, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_pixelAspectRatioDenominator, addr 0x36051cc, size 0x3c, virtual false, abstract: false, final false
   inline uint32_t get_pixelAspectRatioDenominator();
 
-  /// @brief Method get_pixelAspectRatioNumerator, addr 0x33ff454, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_pixelAspectRatioNumerator, addr 0x3605190, size 0x3c, virtual false, abstract: false, final false
   inline uint32_t get_pixelAspectRatioNumerator();
 
-  /// @brief Method get_playOnAwake, addr 0x33febc0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_playOnAwake, addr 0x36048fc, size 0x3c, virtual false, abstract: false, final false
   inline bool get_playOnAwake();
 
-  /// @brief Method get_playbackSpeed, addr 0x33fefa0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_playbackSpeed, addr 0x3604cdc, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_playbackSpeed();
 
-  /// @brief Method get_renderMode, addr 0x33fe684, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_renderMode, addr 0x36043c0, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::Video::VideoRenderMode get_renderMode();
 
-  /// @brief Method get_sendFrameReadyEvents, addr 0x3400360, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_sendFrameReadyEvents, addr 0x360609c, size 0x3c, virtual false, abstract: false, final false
   inline bool get_sendFrameReadyEvents();
 
-  /// @brief Method get_skipOnDrop, addr 0x33ff2a8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_skipOnDrop, addr 0x3604fe4, size 0x3c, virtual false, abstract: false, final false
   inline bool get_skipOnDrop();
 
-  /// @brief Method get_source, addr 0x33fe504, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_source, addr 0x3604240, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::Video::VideoSource get_source();
 
-  /// @brief Method get_targetCamera, addr 0x33fe704, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_targetCamera, addr 0x3604440, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> get_targetCamera();
 
-  /// @brief Method get_targetCamera3DLayout, addr 0x33fea0c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_targetCamera3DLayout, addr 0x3604748, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::Video::Video3DLayout get_targetCamera3DLayout();
 
-  /// @brief Method get_targetCameraAlpha, addr 0x33fe984, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_targetCameraAlpha, addr 0x36046c0, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_targetCameraAlpha();
 
-  /// @brief Method get_targetMaterialProperty, addr 0x33fe884, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_targetMaterialProperty, addr 0x36045c0, size 0x3c, virtual false, abstract: false, final false
   inline ::StringW get_targetMaterialProperty();
 
-  /// @brief Method get_targetMaterialRenderer, addr 0x33fe804, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_targetMaterialRenderer, addr 0x3604540, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Renderer> get_targetMaterialRenderer();
 
-  /// @brief Method get_targetTexture, addr 0x33fe784, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_targetTexture, addr 0x36044c0, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RenderTexture> get_targetTexture();
 
-  /// @brief Method get_texture, addr 0x33fea8c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_texture, addr 0x36047c8, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture> get_texture();
 
-  /// @brief Method get_time, addr 0x33feda8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_time, addr 0x3604ae4, size 0x3c, virtual false, abstract: false, final false
   inline double_t get_time();
 
-  /// @brief Method get_timeReference, addr 0x33ff164, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_timeReference, addr 0x3604ea0, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::Video::VideoTimeReference get_timeReference();
 
-  /// @brief Method get_timeSource, addr 0x33ff0e4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_timeSource, addr 0x3604e20, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::Video::VideoTimeSource get_timeSource();
 
-  /// @brief Method get_url, addr 0x33fe584, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_url, addr 0x36042c0, size 0x3c, virtual false, abstract: false, final false
   inline ::StringW get_url();
 
-  /// @brief Method get_waitForFirstFrame, addr 0x33feb40, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_waitForFirstFrame, addr 0x360487c, size 0x3c, virtual false, abstract: false, final false
   inline bool get_waitForFirstFrame();
 
-  /// @brief Method get_width, addr 0x33ff3dc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_width, addr 0x3605118, size 0x3c, virtual false, abstract: false, final false
   inline uint32_t get_width();
 
-  /// @brief Method remove_clockResyncOccurred, addr 0x34002c4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_clockResyncOccurred, addr 0x3606000, size 0x9c, virtual false, abstract: false, final false
   inline void remove_clockResyncOccurred(::UnityEngine::Video::__VideoPlayer__TimeEventHandler* value);
 
-  /// @brief Method remove_errorReceived, addr 0x3400054, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_errorReceived, addr 0x3605d90, size 0x9c, virtual false, abstract: false, final false
   inline void remove_errorReceived(::UnityEngine::Video::__VideoPlayer__ErrorEventHandler* value);
 
-  /// @brief Method remove_frameDropped, addr 0x33fff1c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_frameDropped, addr 0x3605c58, size 0x9c, virtual false, abstract: false, final false
   inline void remove_frameDropped(::UnityEngine::Video::__VideoPlayer__EventHandler* value);
 
-  /// @brief Method remove_frameReady, addr 0x340047c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_frameReady, addr 0x36061b8, size 0x9c, virtual false, abstract: false, final false
   inline void remove_frameReady(::UnityEngine::Video::__VideoPlayer__FrameReadyEventHandler* value);
 
-  /// @brief Method remove_loopPointReached, addr 0x33ffcac, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_loopPointReached, addr 0x36059e8, size 0x9c, virtual false, abstract: false, final false
   inline void remove_loopPointReached(::UnityEngine::Video::__VideoPlayer__EventHandler* value);
 
-  /// @brief Method remove_prepareCompleted, addr 0x33ffb74, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_prepareCompleted, addr 0x36058b0, size 0x9c, virtual false, abstract: false, final false
   inline void remove_prepareCompleted(::UnityEngine::Video::__VideoPlayer__EventHandler* value);
 
-  /// @brief Method remove_seekCompleted, addr 0x340018c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_seekCompleted, addr 0x3605ec8, size 0x9c, virtual false, abstract: false, final false
   inline void remove_seekCompleted(::UnityEngine::Video::__VideoPlayer__EventHandler* value);
 
-  /// @brief Method remove_started, addr 0x33ffde4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_started, addr 0x3605b20, size 0x9c, virtual false, abstract: false, final false
   inline void remove_started(::UnityEngine::Video::__VideoPlayer__EventHandler* value);
 
-  /// @brief Method set_aspectRatio, addr 0x33fe940, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_aspectRatio, addr 0x360467c, size 0x44, virtual false, abstract: false, final false
   inline void set_aspectRatio(::UnityEngine::Video::VideoAspectRatio value);
 
-  /// @brief Method set_audioOutputMode, addr 0x33ff890, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_audioOutputMode, addr 0x36055cc, size 0x44, virtual false, abstract: false, final false
   inline void set_audioOutputMode(::UnityEngine::Video::VideoAudioOutputMode value);
 
-  /// @brief Method set_clip, addr 0x33fe640, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_clip, addr 0x360437c, size 0x44, virtual false, abstract: false, final false
   inline void set_clip(::UnityEngine::Video::VideoClip* value);
 
-  /// @brief Method set_controlledAudioTrackCount, addr 0x33ff674, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method set_controlledAudioTrackCount, addr 0x36053b0, size 0x104, virtual false, abstract: false, final false
   inline void set_controlledAudioTrackCount(uint16_t value);
 
-  /// @brief Method set_externalReferenceTime, addr 0x33ff220, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_externalReferenceTime, addr 0x3604f5c, size 0x4c, virtual false, abstract: false, final false
   inline void set_externalReferenceTime(double_t value);
 
-  /// @brief Method set_frame, addr 0x33fee6c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_frame, addr 0x3604ba8, size 0x44, virtual false, abstract: false, final false
   inline void set_frame(int64_t value);
 
-  /// @brief Method set_isLooping, addr 0x33ff064, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_isLooping, addr 0x3604da0, size 0x44, virtual false, abstract: false, final false
   inline void set_isLooping(bool value);
 
-  /// @brief Method set_playOnAwake, addr 0x33febfc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_playOnAwake, addr 0x3604938, size 0x44, virtual false, abstract: false, final false
   inline void set_playOnAwake(bool value);
 
-  /// @brief Method set_playbackSpeed, addr 0x33fefdc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_playbackSpeed, addr 0x3604d18, size 0x4c, virtual false, abstract: false, final false
   inline void set_playbackSpeed(float_t value);
 
-  /// @brief Method set_renderMode, addr 0x33fe6c0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_renderMode, addr 0x36043fc, size 0x44, virtual false, abstract: false, final false
   inline void set_renderMode(::UnityEngine::Video::VideoRenderMode value);
 
-  /// @brief Method set_sendFrameReadyEvents, addr 0x340039c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_sendFrameReadyEvents, addr 0x36060d8, size 0x44, virtual false, abstract: false, final false
   inline void set_sendFrameReadyEvents(bool value);
 
-  /// @brief Method set_skipOnDrop, addr 0x33ff2e4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_skipOnDrop, addr 0x3605020, size 0x44, virtual false, abstract: false, final false
   inline void set_skipOnDrop(bool value);
 
-  /// @brief Method set_source, addr 0x33fe540, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_source, addr 0x360427c, size 0x44, virtual false, abstract: false, final false
   inline void set_source(::UnityEngine::Video::VideoSource value);
 
-  /// @brief Method set_targetCamera, addr 0x33fe740, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_targetCamera, addr 0x360447c, size 0x44, virtual false, abstract: false, final false
   inline void set_targetCamera(::UnityEngine::Camera* value);
 
-  /// @brief Method set_targetCamera3DLayout, addr 0x33fea48, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_targetCamera3DLayout, addr 0x3604784, size 0x44, virtual false, abstract: false, final false
   inline void set_targetCamera3DLayout(::UnityEngine::Video::Video3DLayout value);
 
-  /// @brief Method set_targetCameraAlpha, addr 0x33fe9c0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_targetCameraAlpha, addr 0x36046fc, size 0x4c, virtual false, abstract: false, final false
   inline void set_targetCameraAlpha(float_t value);
 
-  /// @brief Method set_targetMaterialProperty, addr 0x33fe8c0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_targetMaterialProperty, addr 0x36045fc, size 0x44, virtual false, abstract: false, final false
   inline void set_targetMaterialProperty(::StringW value);
 
-  /// @brief Method set_targetMaterialRenderer, addr 0x33fe840, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_targetMaterialRenderer, addr 0x360457c, size 0x44, virtual false, abstract: false, final false
   inline void set_targetMaterialRenderer(::UnityEngine::Renderer* value);
 
-  /// @brief Method set_targetTexture, addr 0x33fe7c0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_targetTexture, addr 0x36044fc, size 0x44, virtual false, abstract: false, final false
   inline void set_targetTexture(::UnityEngine::RenderTexture* value);
 
-  /// @brief Method set_time, addr 0x33fede4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_time, addr 0x3604b20, size 0x4c, virtual false, abstract: false, final false
   inline void set_time(double_t value);
 
-  /// @brief Method set_timeReference, addr 0x33ff1a0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_timeReference, addr 0x3604edc, size 0x44, virtual false, abstract: false, final false
   inline void set_timeReference(::UnityEngine::Video::VideoTimeReference value);
 
-  /// @brief Method set_timeSource, addr 0x33ff120, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_timeSource, addr 0x3604e5c, size 0x44, virtual false, abstract: false, final false
   inline void set_timeSource(::UnityEngine::Video::VideoTimeSource value);
 
-  /// @brief Method set_url, addr 0x33fe5c0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_url, addr 0x36042fc, size 0x44, virtual false, abstract: false, final false
   inline void set_url(::StringW value);
 
-  /// @brief Method set_waitForFirstFrame, addr 0x33feb7c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_waitForFirstFrame, addr 0x36048b8, size 0x44, virtual false, abstract: false, final false
   inline void set_waitForFirstFrame(bool value);
 
 protected:

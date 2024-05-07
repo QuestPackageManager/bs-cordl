@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Composites/ButtonWithTwoModifiers.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputBindingComposite_1_impl.hpp"
 #include "UnityEngine/InputSystem/Composites/zzzz__ButtonWithTwoModifiers_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputBindingCompositeContext_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers::*)(
     ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext>)>(&::UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers::ReadValue)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x2f90788;
+  constexpr static std::size_t addrs = 0x30cb514;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers::*)(
     ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext>)>(&::UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers::ModifiersArePressed)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x2f907f8;
+  constexpr static std::size_t addrs = 0x30cb584;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers::*)(
     ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext>)>(&::UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers::EvaluateMagnitude)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2f908ac;
+  constexpr static std::size_t addrs = 0x30cb638;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers::*)(
     ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext>)>(&::UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers::FinishSetup)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x2f908b8;
+  constexpr static std::size_t addrs = 0x30cb644;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -71,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers::*)()>(
     &::UnityEngine::InputSystem::Composites::ButtonWithTwoModifiers::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2f90948;
+  constexpr static std::size_t addrs = 0x30cb6d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

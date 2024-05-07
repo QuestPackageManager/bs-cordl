@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/NetworkInformation/NetworkInformationException.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,13 +33,13 @@ public:
   static inline ::System::Net::NetworkInformation::NetworkInformationException* New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
                                                                                          ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method .ctor, addr 0x2f20f70, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3021870, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2f20fd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x30218d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method get_ErrorCode, addr 0x2f20fdc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ErrorCode, addr 0x30218dc, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ErrorCode();
 
 protected:

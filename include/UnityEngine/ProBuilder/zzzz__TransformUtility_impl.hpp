@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ProBuilder/TransformUtility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__TransformUtility_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -9,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Transform*)>(&::UnityEngine::ProBuilder::TransformUtility::UnparentChildren)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x30acc08;
+  constexpr static std::size_t addrs = 0x32b4690;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -23,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Transform*)>(&::UnityEngine::ProBuilder::TransformUtility::ReparentChildren)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x30acd58;
+  constexpr static std::size_t addrs = 0x32b47e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -38,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Vertex* (*)(::UnityEngine::Transform*, ::UnityEngine::ProBuilder::Vertex*)>(
     &::UnityEngine::ProBuilder::TransformUtility::TransformVertex)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x30ace80;
+  constexpr static std::size_t addrs = 0x32b4908;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -54,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Vertex* (*)(::UnityEngine::Transform*, ::UnityEngine::ProBuilder::Vertex*)>(
     &::UnityEngine::ProBuilder::TransformUtility::InverseTransformVertex)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x30ad064;
+  constexpr static std::size_t addrs = 0x32b4aec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

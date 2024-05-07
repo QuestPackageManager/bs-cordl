@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ProBuilder/BezierPoint.hpp"
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__BezierPoint_def.hpp"
@@ -13,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::BezierPoint::*)(
     ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(&::UnityEngine::ProBuilder::BezierPoint::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3068ba0;
+  constexpr static std::size_t addrs = 0x3270628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::BezierPoint::*)(
     ::UnityEngine::ProBuilder::BezierTangentDirection, ::UnityEngine::ProBuilder::BezierTangentMode)>(&::UnityEngine::ProBuilder::BezierPoint::EnforceTangentMode)> {
   constexpr static std::size_t size = 0x318;
-  constexpr static std::size_t addrs = 0x3068bc8;
+  constexpr static std::size_t addrs = 0x3270650;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -46,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::BezierPoint::*)(::UnityEngine::Vector3)>(
     &::UnityEngine::ProBuilder::BezierPoint::SetPosition)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3068ee0;
+  constexpr static std::size_t addrs = 0x3270968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::UnityEngine::ProBuilder::BezierPoint::*)(::UnityEngine::Vector3, ::UnityEngine::ProBuilder::BezierTangentMode)>(&::UnityEngine::ProBuilder::BezierPoint::SetTangentIn)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3068f30;
+  constexpr static std::size_t addrs = 0x32709b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -77,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::UnityEngine::ProBuilder::BezierPoint::*)(::UnityEngine::Vector3, ::UnityEngine::ProBuilder::BezierTangentMode)>(&::UnityEngine::ProBuilder::BezierPoint::SetTangentOut)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3068f44;
+  constexpr static std::size_t addrs = 0x32709cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -93,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::ProBuilder::BezierPoint, ::UnityEngine::ProBuilder::BezierPoint, float_t)>(
     &::UnityEngine::ProBuilder::BezierPoint::QuadraticPosition)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3068f58;
+  constexpr static std::size_t addrs = 0x32709e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -110,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::ProBuilder::BezierPoint, ::UnityEngine::ProBuilder::BezierPoint, float_t)>(
     &::UnityEngine::ProBuilder::BezierPoint::CubicPosition)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3068fb8;
+  constexpr static std::size_t addrs = 0x3270a40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -127,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::BezierPoint>*, int32_t,
                                                                                                              int32_t, int32_t)>(&::UnityEngine::ProBuilder::BezierPoint::GetLookDirection)> {
   constexpr static std::size_t size = 0x9f8;
-  constexpr static std::size_t addrs = 0x3069058;
+  constexpr static std::size_t addrs = 0x3270ae0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IMockPlayerScoreCalculator.hpp"
 #include "GlobalNamespace/zzzz__IMockPlayerScoreCalculator_def.hpp"
 #include "GlobalNamespace/zzzz__MockNoteData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IMockPlayerScoreCalculator.GetScoreForNote

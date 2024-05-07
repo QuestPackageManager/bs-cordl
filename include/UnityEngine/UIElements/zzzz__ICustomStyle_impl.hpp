@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/ICustomStyle.hpp"
 #include "UnityEngine/UIElements/zzzz__ICustomStyle_def.hpp"
 #include "UnityEngine/UIElements/zzzz__CustomStyleProperty_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VectorImage_def.hpp"

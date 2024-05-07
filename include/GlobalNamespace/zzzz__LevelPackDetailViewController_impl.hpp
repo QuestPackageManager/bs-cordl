@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/LevelPackDetailViewController.hpp"
 #include "GlobalNamespace/zzzz__EntitlementStatus_impl.hpp"
 #include "GlobalNamespace/zzzz__OpenProductStoreResult_impl.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
@@ -40,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LevelPackDetailViewController___RefreshAvailabilityAsync_d__22::*)()>(
     &::GlobalNamespace::__LevelPackDetailViewController___RefreshAvailabilityAsync_d__22::MoveNext)> {
   constexpr static std::size_t size = 0x458;
-  constexpr static std::size_t addrs = 0x255020c;
+  constexpr static std::size_t addrs = 0x2645b20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -55,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LevelPackDetailViewController___RefreshAvailabilityAsync_d__22::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::__LevelPackDetailViewController___RefreshAvailabilityAsync_d__22::SetStateMachine)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2550664;
+  constexpr static std::size_t addrs = 0x2645f78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -107,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LevelPackDetailViewController___OpenLevelPackProductStoreAsync_d__24::*)()>(
     &::GlobalNamespace::__LevelPackDetailViewController___OpenLevelPackProductStoreAsync_d__24::MoveNext)> {
   constexpr static std::size_t size = 0x378;
-  constexpr static std::size_t addrs = 0x2550670;
+  constexpr static std::size_t addrs = 0x2645f84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -122,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__LevelPackDetailViewController___OpenLevelPackProductStoreAsync_d__24::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::__LevelPackDetailViewController___OpenLevelPackProductStoreAsync_d__24::SetStateMachine)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x25509e8;
+  constexpr static std::size_t addrs = 0x26462fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -174,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelPackDetailViewController::*)(::GlobalNamespace::BeatmapLevelPack*)>(
     &::GlobalNamespace::LevelPackDetailViewController::SetData)> {
   constexpr static std::size_t size = 0x2cc;
-  constexpr static std::size_t addrs = 0x254b114;
+  constexpr static std::size_t addrs = 0x2640dd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -189,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelPackDetailViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::LevelPackDetailViewController::DidActivate)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x254f8b0;
+  constexpr static std::size_t addrs = 0x26451c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -205,7 +206,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelPackDetailViewController::*)(bool, bool)>(
     &::GlobalNamespace::LevelPackDetailViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x254faac;
+  constexpr static std::size_t addrs = 0x26453c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -221,7 +222,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelPackDetailViewController::*)()>(
     &::GlobalNamespace::LevelPackDetailViewController::OnDestroy)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x254fbb8;
+  constexpr static std::size_t addrs = 0x26454cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -237,7 +238,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelPackDetailViewController::*)()>(
     &::GlobalNamespace::LevelPackDetailViewController::RefreshAvailabilityAsync)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x254f81c;
+  constexpr static std::size_t addrs = 0x2645130;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(),
@@ -251,7 +252,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelPackDetailViewController::*)()>(
     &::GlobalNamespace::LevelPackDetailViewController::BuyPackButtonWasPressed)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x254fd24;
+  constexpr static std::size_t addrs = 0x2645638;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(),
@@ -265,7 +266,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelPackDetailViewController::*)()>(
     &::GlobalNamespace::LevelPackDetailViewController::OpenLevelPackProductStoreAsync)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x254fdb8;
+  constexpr static std::size_t addrs = 0x26456cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(),
@@ -279,7 +280,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelPackDetailViewController::*)(
     ::GlobalNamespace::__LevelPackDetailViewController__ContentType, ::StringW)>(&::GlobalNamespace::LevelPackDetailViewController::ShowContent)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x254fe4c;
+  constexpr static std::size_t addrs = 0x2645760;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -295,7 +296,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelPackDetailViewController::*)()>(
     &::GlobalNamespace::LevelPackDetailViewController::HandleAdditionalContentModelDidInvalidateData)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2550084;
+  constexpr static std::size_t addrs = 0x2645998;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -310,7 +311,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelPackDetailViewController::*)()>(
     &::GlobalNamespace::LevelPackDetailViewController::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2550088;
+  constexpr static std::size_t addrs = 0x264599c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(),
@@ -324,7 +325,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelPackDetailViewController::*)()>(
     &::GlobalNamespace::LevelPackDetailViewController::_DidActivate_g__HandleDidPressRefreshButton_19_0)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x25500f0;
+  constexpr static std::size_t addrs = 0x2645a04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -339,7 +340,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelPackDetailViewController::*)()>(
     &::GlobalNamespace::LevelPackDetailViewController::_DidActivate_b__19_1)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x25500f4;
+  constexpr static std::size_t addrs = 0x2645a08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(),
@@ -353,7 +354,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelPackDetailViewController::*)()>(
     &::GlobalNamespace::LevelPackDetailViewController::_DidActivate_b__19_2)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x2550180;
+  constexpr static std::size_t addrs = 0x2645a94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelPackDetailViewController*>::get(),

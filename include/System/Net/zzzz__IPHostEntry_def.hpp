@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/IPHostEntry.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,22 +68,22 @@ public:
 
   constexpr void __cordl_internal_set_isTrustedHost(bool value);
 
-  /// @brief Method .ctor, addr 0x2ed1f68, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fd4868, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AddressList, addr 0x2ed1f58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AddressList, addr 0x2fd4858, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*> get_AddressList();
 
-  /// @brief Method get_HostName, addr 0x2ed1f40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HostName, addr 0x2fd4840, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_HostName();
 
-  /// @brief Method set_AddressList, addr 0x2ed1f60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AddressList, addr 0x2fd4860, size 0x8, virtual false, abstract: false, final false
   inline void set_AddressList(::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*> value);
 
-  /// @brief Method set_Aliases, addr 0x2ed1f50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Aliases, addr 0x2fd4850, size 0x8, virtual false, abstract: false, final false
   inline void set_Aliases(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method set_HostName, addr 0x2ed1f48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_HostName, addr 0x2fd4848, size 0x8, virtual false, abstract: false, final false
   inline void set_HostName(::StringW value);
 
 protected:

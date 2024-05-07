@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/NewArrayInstruction.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,7 +38,7 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::NewArrayInstruction* New_ctor(::System::Type* elementType);
 
-  /// @brief Method Run, addr 0x2b1382c, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x2c1112c, size 0x90, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   constexpr ::System::Type*& __cordl_internal_get__elementType();
@@ -46,16 +47,16 @@ public:
 
   constexpr void __cordl_internal_set__elementType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x2b137b4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c110b4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* elementType);
 
-  /// @brief Method get_ConsumedStack, addr 0x2b137dc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x2c110dc, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x2b137ec, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x2c110ec, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x2b137e4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x2c110e4, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
 protected:

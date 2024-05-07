@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/StartupErrorSceneSetupData.hpp"
 #include "GlobalNamespace/zzzz__SceneSetupData_impl.hpp"
 #include "GlobalNamespace/zzzz__StartupErrorSceneSetupData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::StartupErrorSceneSetupData._ctor
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StartupErrorSceneSetupData::*)(::StringW, ::StringW)>(
     &::GlobalNamespace::StartupErrorSceneSetupData::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x25a8980;
+  constexpr static std::size_t addrs = 0x26a2a18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

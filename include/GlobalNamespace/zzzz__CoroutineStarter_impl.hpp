@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/CoroutineStarter.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__CoroutineStarter_def.hpp"
 #include "GlobalNamespace/zzzz__ICoroutineStarter_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Coroutine* (::GlobalNamespace::CoroutineStarter::*)(::System::Collections::IEnumerator*)>(
     &::GlobalNamespace::CoroutineStarter::ICoroutineStarter_StartCoroutine)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0xf8fc14;
+  constexpr static std::size_t addrs = 0x1084520;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CoroutineStarter::*)(::UnityEngine::Coroutine*)>(
     &::GlobalNamespace::CoroutineStarter::ICoroutineStarter_StopCoroutine)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0xf8fce8;
+  constexpr static std::size_t addrs = 0x10845f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CoroutineStarter::*)()>(&::GlobalNamespace::CoroutineStarter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf8fdb4;
+  constexpr static std::size_t addrs = 0x10846c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CoroutineStarter*>::get(), ".ctor",

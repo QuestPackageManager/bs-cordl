@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SetPSSaberGlowColor.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,7 +39,7 @@ public:
 
   static inline ::GlobalNamespace::SetPSSaberGlowColor* New_ctor();
 
-  /// @brief Method Start, addr 0x262696c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2726840, size 0x84, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::ColorManager*& __cordl_internal_get__colorManager();
@@ -59,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set__saber(::UnityW<::GlobalNamespace::SaberTypeObject> value);
 
-  /// @brief Method .ctor, addr 0x26269f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27268c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

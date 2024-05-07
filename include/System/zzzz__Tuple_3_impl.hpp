@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Tuple_3.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__Tuple_3_def.hpp"
 #include "System/Collections/zzzz__IComparer_def.hpp"

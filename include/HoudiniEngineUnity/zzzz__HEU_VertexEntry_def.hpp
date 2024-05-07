@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HEU_VertexEntry.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set__vertexIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x24ae524, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25a71b0, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(int32_t meshKey, int32_t vertexIndex, int32_t normalIndex);
 
 protected:

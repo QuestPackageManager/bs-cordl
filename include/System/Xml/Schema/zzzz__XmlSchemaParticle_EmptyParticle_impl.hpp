@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaParticle_EmptyParticle.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaParticle_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaParticle_EmptyParticle_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::__XmlSchemaParticle__EmptyParticle.get_IsEmpty
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::__XmlSchemaParticle__EmptyParticle::*)()>(
     &::System::Xml::Schema::__XmlSchemaParticle__EmptyParticle::get_IsEmpty)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2d1967c;
+  constexpr static std::size_t addrs = 0x2e15f7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::__XmlSchemaParticle__EmptyParticle::*)()>(
     &::System::Xml::Schema::__XmlSchemaParticle__EmptyParticle::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2d19628;
+  constexpr static std::size_t addrs = 0x2e15f28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

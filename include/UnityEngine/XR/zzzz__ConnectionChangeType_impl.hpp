@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/XR/ConnectionChangeType.hpp"
 #include "UnityEngine/XR/zzzz__ConnectionChangeType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::XR::ConnectionChangeType::ConnectionChangeType(uint32_t value__) noexcept {

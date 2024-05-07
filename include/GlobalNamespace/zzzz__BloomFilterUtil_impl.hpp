@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BloomFilterUtil.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BloomFilterUtil_def.hpp"
 #include "GlobalNamespace/zzzz__BloomFilterUtil_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/ConcreteIdArgConditionCopyNonLazyBinder.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,10 +30,10 @@ public:
   // Declarations
   static inline ::Zenject::ConcreteIdArgConditionCopyNonLazyBinder* New_ctor(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method WithConcreteId, addr 0x3417324, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method WithConcreteId, addr 0x361c060, size 0x1c, virtual false, abstract: false, final false
   inline ::Zenject::ArgConditionCopyNonLazyBinder* WithConcreteId(::System::Object* id);
 
-  /// @brief Method .ctor, addr 0x341731c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x361c058, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo);
 
 protected:

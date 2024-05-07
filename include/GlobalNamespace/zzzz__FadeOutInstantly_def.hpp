@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/FadeOutInstantly.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,7 +27,7 @@ public:
 
   static inline ::GlobalNamespace::FadeOutInstantly* New_ctor();
 
-  /// @brief Method Start, addr 0x2ad72e8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2bd3b90, size 0x1c, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::FadeInOutController> const& __cordl_internal_get__fadeInOut() const;
@@ -35,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set__fadeInOut(::UnityW<::GlobalNamespace::FadeInOutController> value);
 
-  /// @brief Method .ctor, addr 0x2ad7304, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bd3bac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

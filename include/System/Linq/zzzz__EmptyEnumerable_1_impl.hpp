@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/EmptyEnumerable_1.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Linq/zzzz__EmptyEnumerable_1_def.hpp"
 template <typename TElement> inline void System::Linq::EmptyEnumerable_1<TElement>::setStaticF_Instance(::ArrayW<TElement, ::Array<TElement>*> value) {

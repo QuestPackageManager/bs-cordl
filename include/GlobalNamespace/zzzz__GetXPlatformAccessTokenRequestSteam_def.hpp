@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/GetXPlatformAccessTokenRequestSteam.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,7 +41,7 @@ public:
 
   constexpr void __cordl_internal_set_platformUserId(int64_t value);
 
-  /// @brief Method .ctor, addr 0x2ad5bfc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bd24ac, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW platformToken, int64_t platformUserId);
 
 protected:

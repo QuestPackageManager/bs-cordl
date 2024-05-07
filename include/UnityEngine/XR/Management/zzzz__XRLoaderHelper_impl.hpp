@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/XR/Management/XRLoaderHelper.hpp"
 #include "UnityEngine/XR/Management/zzzz__XRLoader_impl.hpp"
 #include "UnityEngine/XR/Management/zzzz__XRLoaderHelper_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -11,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::XR::Management::XRLoaderHelper::*)()>(
     &::UnityEngine::XR::Management::XRLoaderHelper::Deinitialize)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x31a3e38;
+  constexpr static std::size_t addrs = 0x33aa8c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::Management::XRLoaderHelper::*)()>(&::UnityEngine::XR::Management::XRLoaderHelper::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x31a3e90;
+  constexpr static std::size_t addrs = 0x33aa918;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::Management::XRLoaderHelper*>::get(), ".ctor",

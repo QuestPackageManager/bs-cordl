@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Serialization/XmlSerializerImplementation.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Serialization/zzzz__XmlSerializerImplementation_def.hpp"
 #include "System/Xml/Serialization/zzzz__XmlSerializationWriter_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Serialization::XmlSerializationWriter* (
     ::System::Xml::Serialization::XmlSerializerImplementation::*)()>(&::System::Xml::Serialization::XmlSerializerImplementation::get_Writer)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2dedc14;
+  constexpr static std::size_t addrs = 0x2eec514;
 
   inline static ::MethodInfo const* methodInfo() {
 

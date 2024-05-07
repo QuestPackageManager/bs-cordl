@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/NetworkInformation/SystemGatewayIPAddressInformation.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,7 +33,7 @@ public:
 
   static inline ::System::Net::NetworkInformation::SystemGatewayIPAddressInformation* New_ctor(::System::Net::IPAddress* address);
 
-  /// @brief Method ToGatewayIpAddressInformationCollection, addr 0x2f2125c, size 0x2f0, virtual false, abstract: false, final false
+  /// @brief Method ToGatewayIpAddressInformationCollection, addr 0x3021b5c, size 0x2f0, virtual false, abstract: false, final false
   static inline ::System::Net::NetworkInformation::GatewayIPAddressInformationCollection* ToGatewayIpAddressInformationCollection(::System::Net::NetworkInformation::IPAddressCollection* addresses);
 
   constexpr ::System::Net::IPAddress*& __cordl_internal_get_address();
@@ -41,7 +42,7 @@ public:
 
   constexpr void __cordl_internal_set_address(::System::Net::IPAddress* value);
 
-  /// @brief Method .ctor, addr 0x2f21234, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3021b34, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::IPAddress* address);
 
 protected:

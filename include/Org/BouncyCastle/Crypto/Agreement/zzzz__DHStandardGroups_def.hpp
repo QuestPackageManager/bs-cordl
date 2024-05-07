@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Agreement/DHStandardGroups.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -152,21 +153,21 @@ public:
   /// @brief Field rfc7919_ffdhe8192_p, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_rfc7919_ffdhe8192_p, put = setStaticF_rfc7919_ffdhe8192_p))::StringW rfc7919_ffdhe8192_p;
 
-  /// @brief Method FromHex, addr 0x1387e38, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method FromHex, addr 0x147d55c, size 0xa0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* FromHex(::StringW hex);
 
-  /// @brief Method FromPG, addr 0x1387ed8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method FromPG, addr 0x147d5fc, size 0xb4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* FromPG(::StringW hexP, ::StringW hexG);
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::DHStandardGroups* New_ctor();
 
-  /// @brief Method SafePrimeGen2, addr 0x1387f8c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SafePrimeGen2, addr 0x147d6b0, size 0x58, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* SafePrimeGen2(::StringW hexP);
 
-  /// @brief Method SafePrimeGen2, addr 0x1387fe4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method SafePrimeGen2, addr 0x147d708, size 0xd0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* SafePrimeGen2(::StringW hexP, int32_t l);
 
-  /// @brief Method .ctor, addr 0x1388548, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x147dc6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Math::BigInteger* getStaticF_Two();

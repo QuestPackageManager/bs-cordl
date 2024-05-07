@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Bcpg/S2k.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__BcpgObject_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__HashAlgorithmTag_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__S2k_def.hpp"
@@ -10,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::S2k::*)(::System::IO::Stream*)>(&::Org::BouncyCastle::Bcpg::S2k::_ctor)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x134222c;
+  constexpr static std::size_t addrs = 0x1436950;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::S2k::*)(::Org::BouncyCastle::Bcpg::HashAlgorithmTag)>(
     &::Org::BouncyCastle::Bcpg::S2k::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x13423c4;
+  constexpr static std::size_t addrs = 0x1436ae8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::Org::BouncyCastle::Bcpg::S2k::*)(::Org::BouncyCastle::Bcpg::HashAlgorithmTag, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Bcpg::S2k::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x13423f4;
+  constexpr static std::size_t addrs = 0x1436b18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -56,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::Org::BouncyCastle::Bcpg::S2k::*)(::Org::BouncyCastle::Bcpg::HashAlgorithmTag, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Bcpg::S2k::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x1342430;
+  constexpr static std::size_t addrs = 0x1436b54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -72,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Bcpg::S2k::*)()>(&::Org::BouncyCastle::Bcpg::S2k::get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x134247c;
+  constexpr static std::size_t addrs = 0x1436ba0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -87,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Bcpg::HashAlgorithmTag (::Org::BouncyCastle::Bcpg::S2k::*)()>(
     &::Org::BouncyCastle::Bcpg::S2k::get_HashAlgorithm)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1342484;
+  constexpr static std::size_t addrs = 0x1436ba8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -101,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Bcpg::S2k::*)()>(&::Org::BouncyCastle::Bcpg::S2k::GetIV)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x134248c;
+  constexpr static std::size_t addrs = 0x1436bb0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -115,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Org::BouncyCastle::Bcpg::S2k::*)()>(&::Org::BouncyCastle::Bcpg::S2k::GetIterationCount)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x13424e8;
+  constexpr static std::size_t addrs = 0x1436c0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::S2k*>::get(), "GetIterationCount",
@@ -128,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Org::BouncyCastle::Bcpg::S2k::*)()>(&::Org::BouncyCastle::Bcpg::S2k::get_IterationCount)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x13424f4;
+  constexpr static std::size_t addrs = 0x1436c18;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -142,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Bcpg::S2k::*)()>(&::Org::BouncyCastle::Bcpg::S2k::get_ProtectionMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1342514;
+  constexpr static std::size_t addrs = 0x1436c38;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -157,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::S2k::*)(::Org::BouncyCastle::Bcpg::BcpgOutputStream*)>(
     &::Org::BouncyCastle::Bcpg::S2k::Encode)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x134251c;
+  constexpr static std::size_t addrs = 0x1436c40;
 
   inline static ::MethodInfo const* methodInfo() {
 

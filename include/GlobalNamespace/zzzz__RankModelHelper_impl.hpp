@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/RankModelHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__RankModelHelper_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiersModelSO_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__RankModel__Rank (*)(
     ::GlobalNamespace::GameplayModifiers*, ::GlobalNamespace::GameplayModifiersModelSO*, float_t)>(&::GlobalNamespace::RankModelHelper::MaxRankForGameplayModifiers)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x13fbba4;
+  constexpr static std::size_t addrs = 0x14ee2b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

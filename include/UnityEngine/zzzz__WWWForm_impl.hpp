@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/WWWForm.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__WWWForm_def.hpp"
 #include "System/Text/zzzz__Encoding_def.hpp"
@@ -7,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::Encoding* (*)()>(&::UnityEngine::WWWForm::get_DefaultEncoding)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33fae0c;
+  constexpr static std::size_t addrs = 0x3600b48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::WWWForm*>::get(), "get_DefaultEncoding",

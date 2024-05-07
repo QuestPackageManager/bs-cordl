@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ObjectDisposedException.hpp"
 #include "System/zzzz__InvalidOperationException_impl.hpp"
 #include "System/zzzz__ObjectDisposedException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
@@ -8,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ObjectDisposedException::*)()>(&::System::ObjectDisposedException::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x2842ee8;
+  constexpr static std::size_t addrs = 0x29426bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ObjectDisposedException*>::get(), ".ctor",
@@ -21,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ObjectDisposedException::*)(::StringW)>(&::System::ObjectDisposedException::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x2842f80;
+  constexpr static std::size_t addrs = 0x2942754;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -35,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ObjectDisposedException::*)(::StringW, ::StringW)>(&::System::ObjectDisposedException::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2842f48;
+  constexpr static std::size_t addrs = 0x294271c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -50,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ObjectDisposedException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::ObjectDisposedException::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x2842fec;
+  constexpr static std::size_t addrs = 0x29427c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ObjectDisposedException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::ObjectDisposedException::GetObjectData)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x2843074;
+  constexpr static std::size_t addrs = 0x2942848;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -80,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::ObjectDisposedException::*)()>(&::System::ObjectDisposedException::get_Message)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x2843264;
+  constexpr static std::size_t addrs = 0x2942a38;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -94,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::ObjectDisposedException::*)()>(&::System::ObjectDisposedException::get_ObjectName)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x284317c;
+  constexpr static std::size_t addrs = 0x2942950;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ObjectDisposedException*>::get(), "get_ObjectName",

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/SpinLock.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/zzzz__SpinLock_def.hpp"
 #include "System/Threading/zzzz__SpinLock_def.hpp"
@@ -9,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::SpinLock::*)(bool)>(&::System::Threading::SpinLock::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x289ed24;
+  constexpr static std::size_t addrs = 0x299d5d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::SpinLock::*)(ByRef<bool>)>(&::System::Threading::SpinLock::Enter)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x289ed5c;
+  constexpr static std::size_t addrs = 0x299d60c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -37,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::SpinLock::*)(int32_t, ByRef<bool>)>(&::System::Threading::SpinLock::TryEnter)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x289f2b0;
+  constexpr static std::size_t addrs = 0x299db60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -51,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::SpinLock::*)(int32_t, ByRef<bool>)>(&::System::Threading::SpinLock::ContinueTryEnter)> {
   constexpr static std::size_t size = 0x488;
-  constexpr static std::size_t addrs = 0x289ee28;
+  constexpr static std::size_t addrs = 0x299d6d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -65,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::SpinLock::*)()>(&::System::Threading::SpinLock::DecrementWaiters)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x289f4dc;
+  constexpr static std::size_t addrs = 0x299dd8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::SpinLock>::get(), "DecrementWaiters",
@@ -79,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::SpinLock::*)(int32_t, uint32_t, ByRef<bool>)>(
     &::System::Threading::SpinLock::ContinueTryEnterWithThreadTracking)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x289f3b4;
+  constexpr static std::size_t addrs = 0x299dc64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -94,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::SpinLock::*)(bool)>(&::System::Threading::SpinLock::Exit)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x289f66c;
+  constexpr static std::size_t addrs = 0x299df1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -108,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::SpinLock::*)(bool)>(&::System::Threading::SpinLock::ExitSlowPath)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x289f6bc;
+  constexpr static std::size_t addrs = 0x299df6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -122,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::SpinLock::*)()>(&::System::Threading::SpinLock::get_IsHeldByCurrentThread)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x289f79c;
+  constexpr static std::size_t addrs = 0x299e04c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::SpinLock>::get(),
@@ -135,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::SpinLock::*)()>(&::System::Threading::SpinLock::get_IsThreadOwnerTrackingEnabled)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x289f398;
+  constexpr static std::size_t addrs = 0x299dc48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

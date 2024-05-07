@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BeatmapDataCallbackWrapper.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -59,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set_subtypeIdentifiers(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  /// @brief Method .ctor, addr 0x251b94c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2612d48, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(float_t aheadTime, ::System::Type* BasicBeatmapEventType, ::ArrayW<int32_t, ::Array<int32_t>*> subtypeIdentifiers);
 
 protected:

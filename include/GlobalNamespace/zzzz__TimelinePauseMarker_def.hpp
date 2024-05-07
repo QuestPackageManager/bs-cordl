@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/TimelinePauseMarker.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,10 +42,10 @@ public:
 
   constexpr void __cordl_internal_set__id_k__BackingField(::UnityEngine::PropertyName value);
 
-  /// @brief Method .ctor, addr 0x23e0190, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24d7d94, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_id, addr 0x23e0188, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_id, addr 0x24d7d8c, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::PropertyName get_id();
 
   /// @brief Convert to "::UnityEngine::Playables::INotification"

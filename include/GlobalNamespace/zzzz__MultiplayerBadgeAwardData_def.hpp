@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MultiplayerBadgeAwardData.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,7 +68,7 @@ public:
   /// @brief Convert operator to "::System::IComparable"
   constexpr operator ::System::IComparable*() noexcept;
 
-  /// @brief Method CompareTo, addr 0x13db19c, size 0xf0, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x14ce54c, size 0xf0, virtual true, abstract: false, final true
   inline int32_t CompareTo(::System::Object* obj);
 
   static inline ::GlobalNamespace::MultiplayerBadgeAwardData* New_ctor(::GlobalNamespace::IConnectedPlayer* awardedPlayer, float_t weight, ::StringW title, ::StringW subtitle,
@@ -109,22 +110,22 @@ public:
 
   constexpr void __cordl_internal_set__weight(float_t value);
 
-  /// @brief Method .ctor, addr 0x13d93b4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14cc764, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IConnectedPlayer* awardedPlayer, float_t weight, ::StringW title, ::StringW subtitle, ::GlobalNamespace::MultiplayerBadgeDataSO* badgeData);
 
-  /// @brief Method get_awardedPlayer, addr 0x13db160, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_awardedPlayer, addr 0x14ce510, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IConnectedPlayer* get_awardedPlayer();
 
-  /// @brief Method get_icon, addr 0x13db194, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_icon, addr 0x14ce544, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_icon();
 
-  /// @brief Method get_subtitle, addr 0x13db18c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_subtitle, addr 0x14ce53c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_subtitle();
 
-  /// @brief Method get_title, addr 0x13db184, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_title, addr 0x14ce534, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_title();
 
-  /// @brief Method get_titleLocalizationKey, addr 0x13db168, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_titleLocalizationKey, addr 0x14ce518, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW get_titleLocalizationKey();
 
   /// @brief Convert to "::System::IComparable"

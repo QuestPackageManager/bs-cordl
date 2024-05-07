@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/IVRResources.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "OVR/OpenVR/zzzz__IVRResources_def.hpp"
 #include "OVR/OpenVR/zzzz__IVRResources_def.hpp"
@@ -12,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRResources___LoadSharedResource::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRResources___LoadSharedResource::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x2ac4618;
+  constexpr static std::size_t addrs = 0x2bc0ec8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::__IVRResources___LoadSharedResource::*)(::StringW, ::StringW, uint32_t)>(
     &::OVR::OpenVR::__IVRResources___LoadSharedResource::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2ac46f0;
+  constexpr static std::size_t addrs = 0x2bc0fa0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,7 +45,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::IAsyncResult* (::OVR::OpenVR::__IVRResources___LoadSharedResource::*)(::StringW, ::StringW, uint32_t, ::System::AsyncCallback*, ::System::Object*)>(
         &::OVR::OpenVR::__IVRResources___LoadSharedResource::BeginInvoke)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x2ac4704;
+  constexpr static std::size_t addrs = 0x2bc0fb4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -60,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::__IVRResources___LoadSharedResource::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::__IVRResources___LoadSharedResource::EndInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2ac479c;
+  constexpr static std::size_t addrs = 0x2bc104c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -103,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::__IVRResources___GetResourceFullPath::*)(::System::Object*, void*)>(
     &::OVR::OpenVR::__IVRResources___GetResourceFullPath::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x2ac47c4;
+  constexpr static std::size_t addrs = 0x2bc1074;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -118,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::__IVRResources___GetResourceFullPath::*)(
     ::StringW, ::StringW, ::System::Text::StringBuilder*, uint32_t)>(&::OVR::OpenVR::__IVRResources___GetResourceFullPath::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2ac489c;
+  constexpr static std::size_t addrs = 0x2bc114c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -135,7 +136,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::OVR::OpenVR::__IVRResources___GetResourceFullPath::*)(::StringW, ::StringW, ::System::Text::StringBuilder*, uint32_t, ::System::AsyncCallback*, ::System::Object*)>(
     &::OVR::OpenVR::__IVRResources___GetResourceFullPath::BeginInvoke)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x2ac48b0;
+  constexpr static std::size_t addrs = 0x2bc1160;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -151,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::__IVRResources___GetResourceFullPath::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::__IVRResources___GetResourceFullPath::EndInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2ac4958;
+  constexpr static std::size_t addrs = 0x2bc1208;
 
   inline static ::MethodInfo const* methodInfo() {
 

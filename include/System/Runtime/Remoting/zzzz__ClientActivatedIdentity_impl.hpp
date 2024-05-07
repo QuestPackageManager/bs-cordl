@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/ClientActivatedIdentity.hpp"
 #include "System/Runtime/Remoting/zzzz__ServerIdentity_impl.hpp"
 #include "System/Runtime/Remoting/zzzz__ClientActivatedIdentity_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IMessageCtrl_def.hpp"
@@ -12,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::ClientActivatedIdentity::*)(::StringW, ::System::Type*)>(
     &::System::Runtime::Remoting::ClientActivatedIdentity::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2715740;
+  constexpr static std::size_t addrs = 0x2813b3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::MarshalByRefObject* (::System::Runtime::Remoting::ClientActivatedIdentity::*)()>(
     &::System::Runtime::Remoting::ClientActivatedIdentity::GetServerObject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x271756c;
+  constexpr static std::size_t addrs = 0x2815968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::ClientActivatedIdentity*>::get(),
@@ -41,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::ClientActivatedIdentity::*)(::System::MarshalByRefObject*)>(
     &::System::Runtime::Remoting::ClientActivatedIdentity::SetClientProxy)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2717574;
+  constexpr static std::size_t addrs = 0x2815970;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -56,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::ClientActivatedIdentity::*)()>(
     &::System::Runtime::Remoting::ClientActivatedIdentity::OnLifetimeExpired)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x271757c;
+  constexpr static std::size_t addrs = 0x2815978;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -72,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Messaging::IMessage* (
     ::System::Runtime::Remoting::ClientActivatedIdentity::*)(::System::Runtime::Remoting::Messaging::IMessage*)>(&::System::Runtime::Remoting::ClientActivatedIdentity::SyncObjectProcessMessage)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x27175d8;
+  constexpr static std::size_t addrs = 0x28159d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -89,7 +90,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Runtime::Remoting::ClientActivatedIdentity::*)(::System::Runtime::Remoting::Messaging::IMessage*, ::System::Runtime::Remoting::Messaging::IMessageSink*)>(
     &::System::Runtime::Remoting::ClientActivatedIdentity::AsyncObjectProcessMessage)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x271786c;
+  constexpr static std::size_t addrs = 0x2815c68;
 
   inline static ::MethodInfo const* methodInfo() {
 

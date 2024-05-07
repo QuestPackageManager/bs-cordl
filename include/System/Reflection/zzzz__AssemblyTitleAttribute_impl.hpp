@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Reflection/AssemblyTitleAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Reflection/zzzz__AssemblyTitleAttribute_def.hpp"
 //  Writing Method size for method: ::System::Reflection::AssemblyTitleAttribute._ctor
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Reflection::AssemblyTitleAttribute::*)(::StringW)>(
     &::System::Reflection::AssemblyTitleAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2766328;
+  constexpr static std::size_t addrs = 0x2865a38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

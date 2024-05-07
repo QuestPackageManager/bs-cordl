@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/UnhandledExceptionEventArgs.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,13 +46,13 @@ public:
 
   constexpr void __cordl_internal_set__isTerminating(bool value);
 
-  /// @brief Method .ctor, addr 0x2853524, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2952dcc, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* exception, bool isTerminating);
 
-  /// @brief Method get_ExceptionObject, addr 0x2853598, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ExceptionObject, addr 0x2952e40, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_ExceptionObject();
 
-  /// @brief Method get_IsTerminating, addr 0x28535a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsTerminating, addr 0x2952e48, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsTerminating();
 
 protected:

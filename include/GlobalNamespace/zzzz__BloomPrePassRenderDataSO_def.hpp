@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BloomPrePassRenderDataSO.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -89,7 +90,7 @@ public:
 
   constexpr void __cordl_internal_set_viewMatrix(::UnityEngine::Matrix4x4 value);
 
-  /// @brief Method .ctor, addr 0x23ed6fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24e52ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -163,7 +164,7 @@ public:
 
   constexpr void __cordl_internal_set_data(::GlobalNamespace::__BloomPrePassRenderDataSO__Data* value);
 
-  /// @brief Method .ctor, addr 0x23f21e8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24e9dd8, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/GreaterThanInstruction_GreaterThanDouble.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__GreaterThanInstruction_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__GreaterThanInstruction_GreaterThanDouble_def.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__InterpretedFrame_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::__GreaterThanInstruction__GreaterThanDouble::*)(::System::Object*)>(
     &::System::Linq::Expressions::Interpreter::__GreaterThanInstruction__GreaterThanDouble::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2b1e558;
+  constexpr static std::size_t addrs = 0x2c1be58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::__GreaterThanInstruction__GreaterThanDouble::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::System::Linq::Expressions::Interpreter::__GreaterThanInstruction__GreaterThanDouble::Run)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x2b1ee20;
+  constexpr static std::size_t addrs = 0x2c1c720;
 
   inline static ::MethodInfo const* methodInfo() {
 

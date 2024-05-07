@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/ConstraintStruct.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Schema/zzzz__ConstraintStruct_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"
@@ -10,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Schema::ConstraintStruct::*)()>(&::System::Xml::Schema::ConstraintStruct::get_TableDim)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2df7e3c;
+  constexpr static std::size_t addrs = 0x2ef673c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::ConstraintStruct*>::get(), "get_TableDim",
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::ConstraintStruct::*)(::System::Xml::Schema::CompiledIdentityConstraint*)>(
     &::System::Xml::Schema::ConstraintStruct::_ctor)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x2df7e44;
+  constexpr static std::size_t addrs = 0x2ef6744;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

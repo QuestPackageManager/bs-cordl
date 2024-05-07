@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/StaticContext.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__StaticContext_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
@@ -7,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Zenject::StaticContext::Clear)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3444844;
+  constexpr static std::size_t addrs = 0x364880c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::StaticContext*>::get(), "Clear",
@@ -20,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::Zenject::StaticContext::get_HasContainer)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x344488c;
+  constexpr static std::size_t addrs = 0x3648854;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::StaticContext*>::get(), "get_HasContainer",
@@ -33,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::DiContainer* (*)()>(&::Zenject::StaticContext::get_Container)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x34402c0;
+  constexpr static std::size_t addrs = 0x3644288;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::StaticContext*>::get(), "get_Container",

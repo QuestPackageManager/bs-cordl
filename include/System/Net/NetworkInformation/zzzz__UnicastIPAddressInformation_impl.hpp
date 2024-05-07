@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/NetworkInformation/UnicastIPAddressInformation.hpp"
 #include "System/Net/NetworkInformation/zzzz__IPAddressInformation_impl.hpp"
 #include "System/Net/NetworkInformation/zzzz__UnicastIPAddressInformation_def.hpp"
 //  Writing Method size for method: ::System::Net::NetworkInformation::UnicastIPAddressInformation._ctor
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::NetworkInformation::UnicastIPAddressInformation::*)()>(
     &::System::Net::NetworkInformation::UnicastIPAddressInformation::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2f2154c;
+  constexpr static std::size_t addrs = 0x3021e4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ComponentModel/MultilineStringConverter.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,20 +38,20 @@ namespace System::ComponentModel {
 class CORDL_TYPE MultilineStringConverter : public ::System::ComponentModel::TypeConverter {
 public:
   // Declarations
-  /// @brief Method ConvertTo, addr 0x2e421b4, size 0x184, virtual true, abstract: false, final false
+  /// @brief Method ConvertTo, addr 0x2f40ab4, size 0x184, virtual true, abstract: false, final false
   inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
                                      ::System::Type* destinationType);
 
-  /// @brief Method GetProperties, addr 0x2e42338, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetProperties, addr 0x2f40c38, size 0x8, virtual true, abstract: false, final false
   inline ::System::ComponentModel::PropertyDescriptorCollection* GetProperties(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Object* value,
                                                                                ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes);
 
-  /// @brief Method GetPropertiesSupported, addr 0x2e42340, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetPropertiesSupported, addr 0x2f40c40, size 0x8, virtual true, abstract: false, final false
   inline bool GetPropertiesSupported(::System::ComponentModel::ITypeDescriptorContext* context);
 
   static inline ::System::ComponentModel::MultilineStringConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e42348, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f40c48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

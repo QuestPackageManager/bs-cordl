@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/X509/PemParser.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/X509/zzzz__PemParser_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
@@ -8,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::X509::PemParser::*)(::StringW)>(&::Org::BouncyCastle::X509::PemParser::_ctor)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x12e5b70;
+  constexpr static std::size_t addrs = 0x13d7294;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::X509::PemParser::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::X509::PemParser::ReadLine)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x12e5c88;
+  constexpr static std::size_t addrs = 0x13d73ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,8 +38,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Sequence* (::Org::BouncyCastle::X509::PemParser::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::X509::PemParser::ReadPemObject)> {
-  constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x12e5d58;
+  constexpr static std::size_t size = 0x1214;
+  constexpr static std::size_t addrs = 0x13d747c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

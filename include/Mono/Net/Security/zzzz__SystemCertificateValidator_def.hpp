@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Net/Security/SystemCertificateValidator.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,7 +29,7 @@ public:
   /// @brief Field s_flags, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_s_flags, put = setStaticF_s_flags))::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags s_flags;
 
-  /// @brief Method NeedsChain, addr 0x2b69a24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method NeedsChain, addr 0x2c66324, size 0x8, virtual false, abstract: false, final false
   static inline bool NeedsChain(::Mono::Security::Interface::MonoTlsSettings* settings);
 
   static inline bool getStaticF_is_macosx();

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ObjectiveValueFormatterSO.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,12 +21,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE ObjectiveValueFormatterSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
-  /// @brief Method FormatValue, addr 0x13d7554, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method FormatValue, addr 0x14ca904, size 0x1c, virtual true, abstract: false, final false
   inline ::StringW FormatValue(int32_t value);
 
   static inline ::GlobalNamespace::ObjectiveValueFormatterSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x13d711c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14ca4cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

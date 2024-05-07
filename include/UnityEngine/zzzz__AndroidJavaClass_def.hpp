@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/AndroidJavaClass.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,13 +25,13 @@ public:
 
   static inline ::UnityEngine::AndroidJavaClass* New_ctor(void* jclass);
 
-  /// @brief Method _AndroidJavaClass, addr 0x31b5a9c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method _AndroidJavaClass, addr 0x33bb524, size 0xc0, virtual false, abstract: false, final false
   inline void _AndroidJavaClass(::StringW className);
 
-  /// @brief Method .ctor, addr 0x31b2448, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33b7ed0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW className);
 
-  /// @brief Method .ctor, addr 0x31b52b0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33bad38, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(void* jclass);
 
 protected:

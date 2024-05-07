@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "VRUIControls/PhysicsRaycasterWithCache.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Ray_impl.hpp"
 #include "UnityEngine/zzzz__RaycastHit_impl.hpp"
@@ -13,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::VRUIControls::__PhysicsRaycasterWithCache__CachedRaycast::*)(
     bool, ::UnityEngine::Ray, ::UnityEngine::RaycastHit, float_t, int32_t)>(&::VRUIControls::__PhysicsRaycasterWithCache__CachedRaycast::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3403a08;
+  constexpr static std::size_t addrs = 0x3609744;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -51,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (::VRUIControls::PhysicsRaycasterWithCache::*)(::UnityEngine::Ray, ByRef<::UnityEngine::RaycastHit>, float_t, int32_t)>(&::VRUIControls::PhysicsRaycasterWithCache::Raycast)> {
   constexpr static std::size_t size = 0x56c;
-  constexpr static std::size_t addrs = 0x340349c;
+  constexpr static std::size_t addrs = 0x36091d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -67,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::VRUIControls::PhysicsRaycasterWithCache::*)()>(&::VRUIControls::PhysicsRaycasterWithCache::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3403a48;
+  constexpr static std::size_t addrs = 0x3609784;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::VRUIControls::PhysicsRaycasterWithCache*>::get(), ".ctor",

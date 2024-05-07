@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "JetBrains/Annotations/RazorInjectionAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "JetBrains/Annotations/zzzz__RazorInjectionAttribute_def.hpp"
 //  Writing Method size for method: ::JetBrains::Annotations::RazorInjectionAttribute._ctor
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::RazorInjectionAttribute::*)(::StringW, ::StringW)>(
     &::JetBrains::Annotations::RazorInjectionAttribute::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x340a7d0;
+  constexpr static std::size_t addrs = 0x360f50c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -22,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::JetBrains::Annotations::RazorInjectionAttribute::*)()>(
     &::JetBrains::Annotations::RazorInjectionAttribute::get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x340a7fc;
+  constexpr static std::size_t addrs = 0x360f538;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::JetBrains::Annotations::RazorInjectionAttribute*>::get(),
@@ -36,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::RazorInjectionAttribute::*)(::StringW)>(
     &::JetBrains::Annotations::RazorInjectionAttribute::set_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x340a804;
+  constexpr static std::size_t addrs = 0x360f540;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::JetBrains::Annotations::RazorInjectionAttribute::*)()>(
     &::JetBrains::Annotations::RazorInjectionAttribute::get_FieldName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x340a80c;
+  constexpr static std::size_t addrs = 0x360f548;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::JetBrains::Annotations::RazorInjectionAttribute*>::get(),
@@ -65,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::RazorInjectionAttribute::*)(::StringW)>(
     &::JetBrains::Annotations::RazorInjectionAttribute::set_FieldName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x340a814;
+  constexpr static std::size_t addrs = 0x360f550;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

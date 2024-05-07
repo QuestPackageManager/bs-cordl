@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/GUILayoutOption.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__GUILayoutOption_impl.hpp"
 #include "UnityEngine/zzzz__GUILayoutOption_def.hpp"
@@ -30,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUILayoutOption::*)(::UnityEngine::__GUILayoutOption__Type, ::System::Object*)>(
     &::UnityEngine::GUILayoutOption::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x32477d0;
+  constexpr static std::size_t addrs = 0x344f50c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

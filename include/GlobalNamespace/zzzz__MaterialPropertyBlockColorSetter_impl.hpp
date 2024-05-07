@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MaterialPropertyBlockColorSetter.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MaterialPropertyBlockColorSetter_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::MaterialPropertyBlockColorSetter::*)()>(
     &::GlobalNamespace::MaterialPropertyBlockColorSetter::get_color)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x23fef6c;
+  constexpr static std::size_t addrs = 0x24f6b5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MaterialPropertyBlockColorSetter*>::get(),
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::MaterialPropertyBlockController> (
     ::GlobalNamespace::MaterialPropertyBlockColorSetter::*)()>(&::GlobalNamespace::MaterialPropertyBlockColorSetter::get_materialPropertyBlockController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23fef98;
+  constexpr static std::size_t addrs = 0x24f6b88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockColorSetter::*)(::GlobalNamespace::MaterialPropertyBlockController*)>(
     &::GlobalNamespace::MaterialPropertyBlockColorSetter::set_materialPropertyBlockController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23fefa0;
+  constexpr static std::size_t addrs = 0x24f6b90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockColorSetter::*)()>(
     &::GlobalNamespace::MaterialPropertyBlockColorSetter::Awake)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x23fefa8;
+  constexpr static std::size_t addrs = 0x24f6b98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MaterialPropertyBlockColorSetter*>::get(),
@@ -69,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockColorSetter::*)()>(
     &::GlobalNamespace::MaterialPropertyBlockColorSetter::InitIfNeeded)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x23fefd8;
+  constexpr static std::size_t addrs = 0x24f6bc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MaterialPropertyBlockColorSetter*>::get(),
@@ -82,8 +83,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockColorSetter::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::MaterialPropertyBlockColorSetter::SetColor)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x23ff008;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x24f6bf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -98,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockColorSetter::*)()>(
     &::GlobalNamespace::MaterialPropertyBlockColorSetter::OnValidate)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x23ff0b4;
+  constexpr static std::size_t addrs = 0x24f6d40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MaterialPropertyBlockColorSetter*>::get(),
@@ -112,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockColorSetter::*)()>(
     &::GlobalNamespace::MaterialPropertyBlockColorSetter::AddNecessaryComponents)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x23ff0ec;
+  constexpr static std::size_t addrs = 0x24f6d78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MaterialPropertyBlockColorSetter*>::get(),
@@ -126,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MaterialPropertyBlockColorSetter::*)()>(
     &::GlobalNamespace::MaterialPropertyBlockColorSetter::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x23ff1dc;
+  constexpr static std::size_t addrs = 0x24f6e68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MaterialPropertyBlockColorSetter*>::get(),
@@ -205,6 +206,18 @@ constexpr bool const& GlobalNamespace::MaterialPropertyBlockColorSetter::__cordl
 constexpr void GlobalNamespace::MaterialPropertyBlockColorSetter::__cordl_internal_set__multiplyWithAlpha(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____multiplyWithAlpha = value;
+}
+constexpr bool& GlobalNamespace::MaterialPropertyBlockColorSetter::__cordl_internal_get__disableOnZeroAlpha() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____disableOnZeroAlpha;
+}
+constexpr bool const& GlobalNamespace::MaterialPropertyBlockColorSetter::__cordl_internal_get__disableOnZeroAlpha() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____disableOnZeroAlpha;
+}
+constexpr void GlobalNamespace::MaterialPropertyBlockColorSetter::__cordl_internal_set__disableOnZeroAlpha(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____disableOnZeroAlpha = value;
 }
 constexpr int32_t& GlobalNamespace::MaterialPropertyBlockColorSetter::__cordl_internal_get__propertyId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

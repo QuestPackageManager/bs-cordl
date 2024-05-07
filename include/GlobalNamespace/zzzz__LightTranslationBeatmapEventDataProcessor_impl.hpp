@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/LightTranslationBeatmapEventDataProcessor.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventDataProcessor_1_impl.hpp"
 #include "GlobalNamespace/zzzz__LightTranslationBeatmapEventDataProcessor_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightTranslationBeatmapEventDataProcessor::*)(
     ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*)>(&::GlobalNamespace::LightTranslationBeatmapEventDataProcessor::ProcessInsertedEventDataInternal)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0xf4868c;
+  constexpr static std::size_t addrs = 0x1037200;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightTranslationBeatmapEventDataProcessor::*)(
     ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*)>(&::GlobalNamespace::LightTranslationBeatmapEventDataProcessor::ProcessBeforeDeleteEventDataInternal)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0xf4879c;
+  constexpr static std::size_t addrs = 0x1037310;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightTranslationBeatmapEventDataProcessor::*)()>(
     &::GlobalNamespace::LightTranslationBeatmapEventDataProcessor::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0xf48898;
+  constexpr static std::size_t addrs = 0x103740c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

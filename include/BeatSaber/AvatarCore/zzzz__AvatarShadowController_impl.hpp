@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatSaber/AvatarCore/AvatarShadowController.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "BeatSaber/AvatarCore/zzzz__AvatarShadowController_def.hpp"
 #include "BeatSaber/AvatarCore/zzzz__AvatarController_def.hpp"
@@ -11,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::AvatarCore::AvatarShadowController::*)()>(
     &::BeatSaber::AvatarCore::AvatarShadowController::Start)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0xf50258;
+  constexpr static std::size_t addrs = 0x103edcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::AvatarShadowController*>::get(), "Start",
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::AvatarCore::AvatarShadowController::*)()>(
     &::BeatSaber::AvatarCore::AvatarShadowController::Update)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0xf50274;
+  constexpr static std::size_t addrs = 0x103ede8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::AvatarShadowController*>::get(),
@@ -39,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::AvatarCore::AvatarShadowController::*)(::UnityEngine::Vector3)>(
     &::BeatSaber::AvatarCore::AvatarShadowController::FollowPosition)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0xf5031c;
+  constexpr static std::size_t addrs = 0x103ee90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -54,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::AvatarCore::AvatarShadowController::*)()>(
     &::BeatSaber::AvatarCore::AvatarShadowController::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0xf50404;
+  constexpr static std::size_t addrs = 0x103ef78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::AvatarShadowController*>::get(), ".ctor",

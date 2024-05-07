@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/XR/Oculus/OculusRestarter.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Unity/XR/Oculus/zzzz__OculusRestarter_def.hpp"
@@ -15,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::Oculus::__OculusRestarter___PauseAndRestartCoroutine_d__22::*)(int32_t)>(
     &::Unity::XR::Oculus::__OculusRestarter___PauseAndRestartCoroutine_d__22::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x31a9b38;
+  constexpr static std::size_t addrs = 0x33af5c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::Oculus::__OculusRestarter___PauseAndRestartCoroutine_d__22::*)()>(
     &::Unity::XR::Oculus::__OculusRestarter___PauseAndRestartCoroutine_d__22::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x31a9c0c;
+  constexpr static std::size_t addrs = 0x33af694;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -45,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::XR::Oculus::__OculusRestarter___PauseAndRestartCoroutine_d__22::*)()>(
     &::Unity::XR::Oculus::__OculusRestarter___PauseAndRestartCoroutine_d__22::MoveNext)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x31a9c28;
+  constexpr static std::size_t addrs = 0x33af6b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -60,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::Oculus::__OculusRestarter___PauseAndRestartCoroutine_d__22::*)()>(
     &::Unity::XR::Oculus::__OculusRestarter___PauseAndRestartCoroutine_d__22::__m__Finally1)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x31a9e7c;
+  constexpr static std::size_t addrs = 0x33af904;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -75,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Unity::XR::Oculus::__OculusRestarter___PauseAndRestartCoroutine_d__22::*)()>(
     &::Unity::XR::Oculus::__OculusRestarter___PauseAndRestartCoroutine_d__22::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x31a9ebc;
+  constexpr static std::size_t addrs = 0x33af944;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::Oculus::__OculusRestarter___PauseAndRestartCoroutine_d__22::*)()>(
     &::Unity::XR::Oculus::__OculusRestarter___PauseAndRestartCoroutine_d__22::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x31a9ec4;
+  constexpr static std::size_t addrs = 0x33af94c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -105,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Unity::XR::Oculus::__OculusRestarter___PauseAndRestartCoroutine_d__22::*)()>(
     &::Unity::XR::Oculus::__OculusRestarter___PauseAndRestartCoroutine_d__22::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x31a9f04;
+  constexpr static std::size_t addrs = 0x33af98c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -240,7 +241,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::Oculus::__OculusRestarter___RestartCoroutine_d__23::*)(int32_t)>(
     &::Unity::XR::Oculus::__OculusRestarter___RestartCoroutine_d__23::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x31a9bdc;
+  constexpr static std::size_t addrs = 0x33af664;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -255,7 +256,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::Oculus::__OculusRestarter___RestartCoroutine_d__23::*)()>(
     &::Unity::XR::Oculus::__OculusRestarter___RestartCoroutine_d__23::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x31a9f0c;
+  constexpr static std::size_t addrs = 0x33af994;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -270,7 +271,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::XR::Oculus::__OculusRestarter___RestartCoroutine_d__23::*)()>(
     &::Unity::XR::Oculus::__OculusRestarter___RestartCoroutine_d__23::MoveNext)> {
   constexpr static std::size_t size = 0x42c;
-  constexpr static std::size_t addrs = 0x31a9f38;
+  constexpr static std::size_t addrs = 0x33af9c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -285,7 +286,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::Oculus::__OculusRestarter___RestartCoroutine_d__23::*)()>(
     &::Unity::XR::Oculus::__OculusRestarter___RestartCoroutine_d__23::__m__Finally1)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x31aa364;
+  constexpr static std::size_t addrs = 0x33afdec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -300,7 +301,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Unity::XR::Oculus::__OculusRestarter___RestartCoroutine_d__23::*)()>(
     &::Unity::XR::Oculus::__OculusRestarter___RestartCoroutine_d__23::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x31aa478;
+  constexpr static std::size_t addrs = 0x33aff00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -315,7 +316,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::Oculus::__OculusRestarter___RestartCoroutine_d__23::*)()>(
     &::Unity::XR::Oculus::__OculusRestarter___RestartCoroutine_d__23::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x31aa480;
+  constexpr static std::size_t addrs = 0x33aff08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -330,7 +331,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Unity::XR::Oculus::__OculusRestarter___RestartCoroutine_d__23::*)()>(
     &::Unity::XR::Oculus::__OculusRestarter___RestartCoroutine_d__23::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x31aa4c0;
+  constexpr static std::size_t addrs = 0x33aff48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -464,7 +465,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::Oculus::OculusRestarter::*)()>(&::Unity::XR::Oculus::OculusRestarter::ResetCallbacks)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x31a9640;
+  constexpr static std::size_t addrs = 0x33af0c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::OculusRestarter*>::get(), "ResetCallbacks",
@@ -477,7 +478,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::XR::Oculus::OculusRestarter::*)()>(&::Unity::XR::Oculus::OculusRestarter::get_isRunning)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x31a96a8;
+  constexpr static std::size_t addrs = 0x33af130;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::OculusRestarter*>::get(), "get_isRunning",
@@ -490,7 +491,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::Unity::XR::Oculus::OculusRestarter::get_TimeBetweenRestartAttempts)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x31a96b8;
+  constexpr static std::size_t addrs = 0x33af140;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::OculusRestarter*>::get(),
@@ -503,7 +504,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float_t)>(&::Unity::XR::Oculus::OculusRestarter::set_TimeBetweenRestartAttempts)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x31a9710;
+  constexpr static std::size_t addrs = 0x33af198;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -517,7 +518,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::Unity::XR::Oculus::OculusRestarter::get_PauseAndRestartAttempts)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x31a9774;
+  constexpr static std::size_t addrs = 0x33af1fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::OculusRestarter*>::get(),
@@ -530,7 +531,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::Unity::XR::Oculus::OculusRestarter> (*)()>(&::Unity::XR::Oculus::OculusRestarter::get_Instance)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x31a97cc;
+  constexpr static std::size_t addrs = 0x33af254;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::OculusRestarter*>::get(), "get_Instance",
@@ -543,7 +544,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::Oculus::OculusRestarter::*)()>(&::Unity::XR::Oculus::OculusRestarter::PauseAndRestart)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x31a99a0;
+  constexpr static std::size_t addrs = 0x33af428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::OculusRestarter*>::get(), "PauseAndRestart",
@@ -557,7 +558,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::Unity::XR::Oculus::OculusRestarter::*)(float_t)>(
     &::Unity::XR::Oculus::OculusRestarter::PauseAndRestartCoroutine)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x31a9ac0;
+  constexpr static std::size_t addrs = 0x33af548;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -572,7 +573,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::Unity::XR::Oculus::OculusRestarter::*)(bool)>(
     &::Unity::XR::Oculus::OculusRestarter::RestartCoroutine)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x31a9b60;
+  constexpr static std::size_t addrs = 0x33af5e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -586,7 +587,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::Oculus::OculusRestarter::*)()>(&::Unity::XR::Oculus::OculusRestarter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x31a9c04;
+  constexpr static std::size_t addrs = 0x33af68c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::OculusRestarter*>::get(), ".ctor",

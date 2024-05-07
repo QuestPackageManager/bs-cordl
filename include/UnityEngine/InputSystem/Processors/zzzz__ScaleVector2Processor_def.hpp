@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Processors/ScaleVector2Processor.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,10 +36,10 @@ public:
 
   static inline ::UnityEngine::InputSystem::Processors::ScaleVector2Processor* New_ctor();
 
-  /// @brief Method Process, addr 0x302c510, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Process, addr 0x316829c, size 0x10, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 Process(::UnityEngine::Vector2 value, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method ToString, addr 0x302c520, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x31682ac, size 0xa0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr float_t const& __cordl_internal_get_x() const;
@@ -53,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set_y(float_t value);
 
-  /// @brief Method .ctor, addr 0x302c5c0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x316834c, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

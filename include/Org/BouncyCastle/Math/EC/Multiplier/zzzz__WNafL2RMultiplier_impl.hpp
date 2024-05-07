@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Math/EC/Multiplier/WNafL2RMultiplier.hpp"
 #include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__AbstractECMultiplier_impl.hpp"
 #include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__WNafL2RMultiplier_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECPoint_def.hpp"
@@ -10,7 +11,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Math::EC::Multiplier::WNafL2RMultiplier::*)(::Org::BouncyCastle::Math::EC::ECPoint*, ::Org::BouncyCastle::Math::BigInteger*)>(
     &::Org::BouncyCastle::Math::EC::Multiplier::WNafL2RMultiplier::MultiplyPositive)> {
   constexpr static std::size_t size = 0x308;
-  constexpr static std::size_t addrs = 0x11a681c;
+  constexpr static std::size_t addrs = 0x1297f40;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::Multiplier::WNafL2RMultiplier::*)()>(
     &::Org::BouncyCastle::Math::EC::Multiplier::WNafL2RMultiplier::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x11a6fd0;
+  constexpr static std::size_t addrs = 0x12986f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

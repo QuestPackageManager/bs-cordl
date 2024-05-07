@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/Test_AnimationCurve.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__Test_AnimationCurve_def.hpp"
 #include "HoudiniEngineUnity/zzzz__IEquivableWrapperClass_1_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::Test_AnimationCurve::*)(::UnityEngine::AnimationCurve*)>(
     &::HoudiniEngineUnity::Test_AnimationCurve::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x24d31fc;
+  constexpr static std::size_t addrs = 0x25cae88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::Test_AnimationCurve::*)()>(&::HoudiniEngineUnity::Test_AnimationCurve::IsNull)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x24d3224;
+  constexpr static std::size_t addrs = 0x25caeb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::Test_AnimationCurve*>::get(), "IsNull",
@@ -38,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HoudiniEngineUnity::Test_AnimationCurve::*)(::HoudiniEngineUnity::Test_AnimationCurve*)>(
     &::HoudiniEngineUnity::Test_AnimationCurve::IsEquivalentTo)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x24d3234;
+  constexpr static std::size_t addrs = 0x25caec0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

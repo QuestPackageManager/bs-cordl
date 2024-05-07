@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/PointerLeaveEvent.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerEventBase_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerLeaveEvent_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::PointerLeaveEvent.Init
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PointerLeaveEvent::*)()>(&::UnityEngine::UIElements::PointerLeaveEvent::Init)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x339f914;
+  constexpr static std::size_t addrs = 0x35a5650;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -20,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PointerLeaveEvent::*)()>(&::UnityEngine::UIElements::PointerLeaveEvent::LocalInit)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x339f968;
+  constexpr static std::size_t addrs = 0x35a56a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerLeaveEvent*>::get(),
@@ -33,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PointerLeaveEvent::*)()>(&::UnityEngine::UIElements::PointerLeaveEvent::_ctor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x339f974;
+  constexpr static std::size_t addrs = 0x35a56b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerLeaveEvent*>::get(), ".ctor",

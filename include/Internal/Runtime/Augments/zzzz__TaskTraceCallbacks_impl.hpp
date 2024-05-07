@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Internal/Runtime/Augments/TaskTraceCallbacks.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Internal/Runtime/Augments/zzzz__TaskTraceCallbacks_def.hpp"
 //  Writing Method size for method: ::Internal::Runtime::Augments::TaskTraceCallbacks.get_Enabled

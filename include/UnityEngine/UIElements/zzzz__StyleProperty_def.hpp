@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/StyleProperty.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -76,13 +77,13 @@ public:
 
   constexpr void __cordl_internal_set_requireVariableResolve(bool value);
 
-  /// @brief Method .ctor, addr 0x33b8ae0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35be81c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_name, addr 0x33b8ad0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x35be80c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method get_values, addr 0x33b8ad8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_values, addr 0x35be814, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::UIElements::StyleValueHandle, ::Array<::UnityEngine::UIElements::StyleValueHandle>*> get_values();
 
 protected:

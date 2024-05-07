@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/WellKnownClientTypeEntry.hpp"
 #include "System/Runtime/Remoting/zzzz__TypeEntry_impl.hpp"
 #include "System/Runtime/Remoting/zzzz__WellKnownClientTypeEntry_def.hpp"
 #include "System/zzzz__Type_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::WellKnownClientTypeEntry::*)(::StringW, ::StringW, ::StringW)>(
     &::System::Runtime::Remoting::WellKnownClientTypeEntry::_ctor)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x271963c;
+  constexpr static std::size_t addrs = 0x2817a38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::Remoting::WellKnownClientTypeEntry::*)()>(
     &::System::Runtime::Remoting::WellKnownClientTypeEntry::get_ApplicationUrl)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x271976c;
+  constexpr static std::size_t addrs = 0x2817b68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::WellKnownClientTypeEntry*>::get(),
@@ -38,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Runtime::Remoting::WellKnownClientTypeEntry::*)()>(
     &::System::Runtime::Remoting::WellKnownClientTypeEntry::get_ObjectType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2719774;
+  constexpr static std::size_t addrs = 0x2817b70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::WellKnownClientTypeEntry*>::get(),
@@ -52,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::Remoting::WellKnownClientTypeEntry::*)()>(
     &::System::Runtime::Remoting::WellKnownClientTypeEntry::get_ObjectUrl)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x271977c;
+  constexpr static std::size_t addrs = 0x2817b78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::WellKnownClientTypeEntry*>::get(),
@@ -66,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::Remoting::WellKnownClientTypeEntry::*)()>(
     &::System::Runtime::Remoting::WellKnownClientTypeEntry::ToString)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2719784;
+  constexpr static std::size_t addrs = 0x2817b80;
 
   inline static ::MethodInfo const* methodInfo() {
 

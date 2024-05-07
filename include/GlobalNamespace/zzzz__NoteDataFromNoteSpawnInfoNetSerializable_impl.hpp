@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/NoteDataFromNoteSpawnInfoNetSerializable.hpp"
 #include "GlobalNamespace/zzzz__NoteData_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteDataFromNoteSpawnInfoNetSerializable_def.hpp"
 #include "GlobalNamespace/zzzz__NoteSpawnInfoNetSerializable_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteDataFromNoteSpawnInfoNetSerializable::*)(
     ::GlobalNamespace::NoteSpawnInfoNetSerializable*)>(&::GlobalNamespace::NoteDataFromNoteSpawnInfoNetSerializable::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x25f0c50;
+  constexpr static std::size_t addrs = 0x26efa68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/NoExperimentModel.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__NoExperimentModel_def.hpp"
 #include "GlobalNamespace/zzzz__IExperimentData_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<bool>* (::GlobalNamespace::NoExperimentModel::*)()>(
     &::GlobalNamespace::NoExperimentModel::IsEmployee)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x13a9328;
+  constexpr static std::size_t addrs = 0x149ea04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoExperimentModel*>::get(), "IsEmployee",
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task_1<bool>* (::GlobalNamespace::NoExperimentModel::*)(::GlobalNamespace::IExperimentData*)>(&::GlobalNamespace::NoExperimentModel::IsInTest)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x13a9390;
+  constexpr static std::size_t addrs = 0x149ea6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoExperimentModel::*)()>(&::GlobalNamespace::NoExperimentModel::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x13a93f8;
+  constexpr static std::size_t addrs = 0x149ead4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoExperimentModel*>::get(), ".ctor",

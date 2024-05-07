@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/DBNull.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -60,71 +61,71 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method GetObjectData, addr 0x2812dc4, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method GetObjectData, addr 0x29124e4, size 0x10, virtual true, abstract: false, final true
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetTypeCode, addr 0x2812e64, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetTypeCode, addr 0x2912584, size 0x8, virtual true, abstract: false, final true
   inline ::System::TypeCode GetTypeCode();
 
   static inline ::System::DBNull* New_ctor();
 
   static inline ::System::DBNull* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method System.IConvertible.ToBoolean, addr 0x2812e6c, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToBoolean, addr 0x291258c, size 0x50, virtual true, abstract: false, final true
   inline bool System_IConvertible_ToBoolean(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToByte, addr 0x2812f5c, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToByte, addr 0x291267c, size 0x50, virtual true, abstract: false, final true
   inline uint8_t System_IConvertible_ToByte(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToChar, addr 0x2812ebc, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToChar, addr 0x29125dc, size 0x50, virtual true, abstract: false, final true
   inline char16_t System_IConvertible_ToChar(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToDateTime, addr 0x281327c, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToDateTime, addr 0x291299c, size 0x50, virtual true, abstract: false, final true
   inline ::System::DateTime System_IConvertible_ToDateTime(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToDecimal, addr 0x281322c, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToDecimal, addr 0x291294c, size 0x50, virtual true, abstract: false, final true
   inline ::System::Decimal System_IConvertible_ToDecimal(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToDouble, addr 0x28131dc, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToDouble, addr 0x29128fc, size 0x50, virtual true, abstract: false, final true
   inline double_t System_IConvertible_ToDouble(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToInt16, addr 0x2812fac, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToInt16, addr 0x29126cc, size 0x50, virtual true, abstract: false, final true
   inline int16_t System_IConvertible_ToInt16(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToInt32, addr 0x281304c, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToInt32, addr 0x291276c, size 0x50, virtual true, abstract: false, final true
   inline int32_t System_IConvertible_ToInt32(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToInt64, addr 0x28130ec, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToInt64, addr 0x291280c, size 0x50, virtual true, abstract: false, final true
   inline int64_t System_IConvertible_ToInt64(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToSByte, addr 0x2812f0c, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToSByte, addr 0x291262c, size 0x50, virtual true, abstract: false, final true
   inline int8_t System_IConvertible_ToSByte(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToSingle, addr 0x281318c, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToSingle, addr 0x29128ac, size 0x50, virtual true, abstract: false, final true
   inline float_t System_IConvertible_ToSingle(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToType, addr 0x28132cc, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToType, addr 0x29129ec, size 0x70, virtual true, abstract: false, final true
   inline ::System::Object* System_IConvertible_ToType(::System::Type* type, ::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToUInt16, addr 0x2812ffc, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToUInt16, addr 0x291271c, size 0x50, virtual true, abstract: false, final true
   inline uint16_t System_IConvertible_ToUInt16(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToUInt32, addr 0x281309c, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToUInt32, addr 0x29127bc, size 0x50, virtual true, abstract: false, final true
   inline uint32_t System_IConvertible_ToUInt32(::System::IFormatProvider* provider);
 
-  /// @brief Method System.IConvertible.ToUInt64, addr 0x281313c, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method System.IConvertible.ToUInt64, addr 0x291285c, size 0x50, virtual true, abstract: false, final true
   inline uint64_t System_IConvertible_ToUInt64(::System::IFormatProvider* provider);
 
-  /// @brief Method ToString, addr 0x2812dd4, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x29124f4, size 0x48, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x2812e1c, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method ToString, addr 0x291253c, size 0x48, virtual true, abstract: false, final true
   inline ::StringW ToString(::System::IFormatProvider* provider);
 
-  /// @brief Method .ctor, addr 0x2812d64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2912484, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2812d6c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x291248c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::DBNull* getStaticF_Value();

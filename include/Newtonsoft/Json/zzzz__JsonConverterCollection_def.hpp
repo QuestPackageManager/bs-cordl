@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/JsonConverterCollection.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,7 +24,7 @@ public:
   // Declarations
   static inline ::Newtonsoft::Json::JsonConverterCollection* New_ctor();
 
-  /// @brief Method .ctor, addr 0x28c7928, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29c61d8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/AccessControl/PrivilegeNotHeldException.hpp"
 #include "System/zzzz__UnauthorizedAccessException_impl.hpp"
 #include "System/Security/AccessControl/zzzz__PrivilegeNotHeldException_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::AccessControl::PrivilegeNotHeldException::*)()>(
     &::System::Security::AccessControl::PrivilegeNotHeldException::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x2703e38;
+  constexpr static std::size_t addrs = 0x2801234;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::AccessControl::PrivilegeNotHeldException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Security::AccessControl::PrivilegeNotHeldException::_ctor)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x2703e84;
+  constexpr static std::size_t addrs = 0x2801280;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::AccessControl::PrivilegeNotHeldException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Security::AccessControl::PrivilegeNotHeldException::GetObjectData)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x2703f0c;
+  constexpr static std::size_t addrs = 0x2801308;
 
   inline static ::MethodInfo const* methodInfo() {
 

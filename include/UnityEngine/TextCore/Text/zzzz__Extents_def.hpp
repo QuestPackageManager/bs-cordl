@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/TextCore/Text/Extents.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,7 +24,7 @@ namespace UnityEngine::TextCore::Text {
 struct CORDL_TYPE Extents {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x3290030, size 0x2ac, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3498d6c, size 0x2ac, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters []

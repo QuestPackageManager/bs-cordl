@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UI/HorizontalLayoutGroup.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,21 +19,21 @@ namespace UnityEngine::UI {
 class CORDL_TYPE HorizontalLayoutGroup : public ::UnityEngine::UI::HorizontalOrVerticalLayoutGroup {
 public:
   // Declarations
-  /// @brief Method CalculateLayoutInputHorizontal, addr 0x32c4138, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method CalculateLayoutInputHorizontal, addr 0x34cae74, size 0x20, virtual true, abstract: false, final false
   inline void CalculateLayoutInputHorizontal();
 
-  /// @brief Method CalculateLayoutInputVertical, addr 0x32c43fc, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method CalculateLayoutInputVertical, addr 0x34cb138, size 0xc, virtual true, abstract: false, final false
   inline void CalculateLayoutInputVertical();
 
   static inline ::UnityEngine::UI::HorizontalLayoutGroup* New_ctor();
 
-  /// @brief Method SetLayoutHorizontal, addr 0x32c4408, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method SetLayoutHorizontal, addr 0x34cb144, size 0xc, virtual true, abstract: false, final false
   inline void SetLayoutHorizontal();
 
-  /// @brief Method SetLayoutVertical, addr 0x32c4a80, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method SetLayoutVertical, addr 0x34cb7bc, size 0xc, virtual true, abstract: false, final false
   inline void SetLayoutVertical();
 
-  /// @brief Method .ctor, addr 0x32c4120, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34cae5c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

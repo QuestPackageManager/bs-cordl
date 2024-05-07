@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Utilities/CollectionWrapper_1.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__CollectionWrapper_1_def.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__IWrappedCollection_def.hpp"

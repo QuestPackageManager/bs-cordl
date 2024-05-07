@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/SubsystemBindings.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__SubsystemBindings_def.hpp"
 //  Writing Method size for method: ::UnityEngine::SubsystemBindings.DestroySubsystem
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(void*)>(&::UnityEngine::SubsystemBindings::DestroySubsystem)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3268dcc;
+  constexpr static std::size_t addrs = 0x3471b08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

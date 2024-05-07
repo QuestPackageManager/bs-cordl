@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Http/HttpRequestException.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,13 +29,13 @@ public:
 
   static inline ::System::Net::Http::HttpRequestException* New_ctor(::StringW message, ::System::Exception* inner);
 
-  /// @brief Method .ctor, addr 0x2c6d38c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d6ac8c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2c6c5e4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d69ee4, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x2c69f94, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d67894, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* inner);
 
 protected:

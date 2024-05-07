@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/Channels/CrossAppDomainChannel.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,29 +55,29 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Channels::IChannelSender"
   constexpr operator ::System::Runtime::Remoting::Channels::IChannelSender*() noexcept;
 
-  /// @brief Method CreateMessageSink, addr 0x2724f98, size 0x180, virtual true, abstract: false, final false
+  /// @brief Method CreateMessageSink, addr 0x2823394, size 0x180, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::IMessageSink* CreateMessageSink(::StringW url, ::System::Object* data, ByRef<::StringW> uri);
 
   static inline ::System::Runtime::Remoting::Channels::CrossAppDomainChannel* New_ctor();
 
-  /// @brief Method RegisterCrossAppDomainChannel, addr 0x27160f8, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method RegisterCrossAppDomainChannel, addr 0x28144f4, size 0x144, virtual false, abstract: false, final false
   static inline void RegisterCrossAppDomainChannel();
 
-  /// @brief Method StartListening, addr 0x2724f94, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method StartListening, addr 0x2823390, size 0x4, virtual true, abstract: false, final false
   inline void StartListening(::System::Object* data);
 
-  /// @brief Method .ctor, addr 0x2724ed8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28232d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Object* getStaticF_s_lock();
 
-  /// @brief Method get_ChannelData, addr 0x2724f28, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_ChannelData, addr 0x2823324, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Object* get_ChannelData();
 
-  /// @brief Method get_ChannelName, addr 0x2724ee0, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_ChannelName, addr 0x28232dc, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_ChannelName();
 
-  /// @brief Method get_ChannelPriority, addr 0x2724f20, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ChannelPriority, addr 0x282331c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ChannelPriority();
 
   /// @brief Convert to "::System::Runtime::Remoting::Channels::IChannel"

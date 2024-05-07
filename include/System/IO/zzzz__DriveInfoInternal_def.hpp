@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/IO/DriveInfoInternal.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,7 +21,7 @@ namespace System::IO {
 class CORDL_TYPE DriveInfoInternal : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetLogicalDrives, addr 0x27ca9f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetLogicalDrives, addr 0x28c9110, size 0x8, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> GetLogicalDrives();
 
 protected:

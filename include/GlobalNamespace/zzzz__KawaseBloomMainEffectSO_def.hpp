@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/KawaseBloomMainEffectSO.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -73,21 +74,21 @@ public:
 
   __declspec(property(get = get_hasPostProcessEffect)) bool hasPostProcessEffect;
 
-  /// @brief Method LazyInitializeMaterials, addr 0x2ad7880, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method LazyInitializeMaterials, addr 0x2bd4128, size 0xbc, virtual false, abstract: false, final false
   inline void LazyInitializeMaterials();
 
   static inline ::GlobalNamespace::KawaseBloomMainEffectSO* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x2ad793c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x2bd41e4, size 0x20, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x2ad7864, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x2bd410c, size 0x1c, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method PreRender, addr 0x2ad795c, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method PreRender, addr 0x2bd4204, size 0x64, virtual true, abstract: false, final false
   inline void PreRender();
 
-  /// @brief Method Render, addr 0x2ad7a48, size 0x210, virtual true, abstract: false, final false
+  /// @brief Method Render, addr 0x2bd42f0, size 0x210, virtual true, abstract: false, final false
   inline void Render(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest, float_t fade);
 
   constexpr float_t const& __cordl_internal_get__baseColorBoost() const;
@@ -150,7 +151,7 @@ public:
 
   constexpr void __cordl_internal_set__mainEffectShader(::UnityW<::UnityEngine::Shader> value);
 
-  /// @brief Method .ctor, addr 0x2ad7c58, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bd4500, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__bloomIntensityID();
@@ -159,7 +160,7 @@ public:
 
   static inline int32_t getStaticF__fadeID();
 
-  /// @brief Method get_hasPostProcessEffect, addr 0x2ad785c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_hasPostProcessEffect, addr 0x2bd4104, size 0x8, virtual true, abstract: false, final false
   inline bool get_hasPostProcessEffect();
 
   static inline void setStaticF__bloomIntensityID(int32_t value);

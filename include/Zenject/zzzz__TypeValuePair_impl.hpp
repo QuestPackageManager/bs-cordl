@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/TypeValuePair.hpp"
 #include "Zenject/zzzz__TypeValuePair_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
@@ -7,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::TypeValuePair::*)(::System::Type*, ::System::Object*)>(&::Zenject::TypeValuePair::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x343b764;
+  constexpr static std::size_t addrs = 0x363f4a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

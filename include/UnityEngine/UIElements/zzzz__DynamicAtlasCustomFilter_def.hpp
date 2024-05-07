@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/DynamicAtlasCustomFilter.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,12 +30,12 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE DynamicAtlasCustomFilter : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x3303438, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3509174, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::UnityEngine::Texture2D* texture, ByRef<::UnityEngine::UIElements::DynamicAtlasFilters> filtersToApply);
 
   static inline ::UnityEngine::UIElements::DynamicAtlasCustomFilter* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x3303360, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x350909c, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:

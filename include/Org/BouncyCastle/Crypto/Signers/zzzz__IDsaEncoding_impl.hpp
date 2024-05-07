@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Signers/IDsaEncoding.hpp"
 #include "Org/BouncyCastle/Crypto/Signers/zzzz__IDsaEncoding_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Signers::IDsaEncoding.Decode

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/XmlNodeType.hpp"
 #include "System/Xml/zzzz__XmlNodeType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Xml::XmlNodeType::XmlNodeType(int32_t value__) noexcept {

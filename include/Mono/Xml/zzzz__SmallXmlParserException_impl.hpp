@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Xml/SmallXmlParserException.hpp"
 #include "System/zzzz__SystemException_impl.hpp"
 #include "Mono/Xml/zzzz__SmallXmlParserException_def.hpp"
 //  Writing Method size for method: ::Mono::Xml::SmallXmlParserException._ctor
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Xml::SmallXmlParserException::*)(::StringW, int32_t, int32_t)>(
     &::Mono::Xml::SmallXmlParserException::_ctor)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x269466c;
+  constexpr static std::size_t addrs = 0x2791a68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

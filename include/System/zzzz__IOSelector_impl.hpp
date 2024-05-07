@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/IOSelector.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__IOSelector_def.hpp"
 #include "System/zzzz__IOSelectorJob_def.hpp"
@@ -7,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(void*, ::System::IOSelectorJob*)>(&::System::IOSelector::Add)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2e82158;
+  constexpr static std::size_t addrs = 0x2f81a58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

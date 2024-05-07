@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/CrlReason.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerEnumerated_impl.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__CrlReason_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerEnumerated_def.hpp"
@@ -7,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::CrlReason::*)(int32_t)>(&::Org::BouncyCastle::Asn1::X509::CrlReason::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x12fb154;
+  constexpr static std::size_t addrs = 0x13ed878;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::CrlReason::*)(::Org::BouncyCastle::Asn1::DerEnumerated*)>(
     &::Org::BouncyCastle::Asn1::X509::CrlReason::_ctor)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x12fb1bc;
+  constexpr static std::size_t addrs = 0x13ed8e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Asn1::X509::CrlReason::*)()>(&::Org::BouncyCastle::Asn1::X509::CrlReason::ToString)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x12fb230;
+  constexpr static std::size_t addrs = 0x13ed954;
 
   inline static ::MethodInfo const* methodInfo() {
 

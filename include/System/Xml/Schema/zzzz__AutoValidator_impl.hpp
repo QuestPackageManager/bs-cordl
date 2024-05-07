@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/AutoValidator.hpp"
 #include "System/Xml/Schema/zzzz__BaseValidator_impl.hpp"
 #include "System/Xml/Schema/zzzz__AutoValidator_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaCollection_def.hpp"
@@ -12,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::AutoValidator::*)(
     ::System::Xml::XmlValidatingReaderImpl*, ::System::Xml::Schema::XmlSchemaCollection*, ::System::Xml::IValidationEventHandling*)>(&::System::Xml::Schema::AutoValidator::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x2df4784;
+  constexpr static std::size_t addrs = 0x2ef3084;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::AutoValidator::*)()>(&::System::Xml::Schema::AutoValidator::get_PreserveWhitespace)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2df48c8;
+  constexpr static std::size_t addrs = 0x2ef31c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::AutoValidator::*)()>(&::System::Xml::Schema::AutoValidator::Validate)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x2df48d0;
+  constexpr static std::size_t addrs = 0x2ef31d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::AutoValidator::*)()>(&::System::Xml::Schema::AutoValidator::CompleteValidation)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2df4cf8;
+  constexpr static std::size_t addrs = 0x2ef35f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -71,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::Schema::AutoValidator::*)(::StringW)>(
     &::System::Xml::Schema::AutoValidator::FindId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2df4cfc;
+  constexpr static std::size_t addrs = 0x2ef35fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -86,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::ValidationType (::System::Xml::Schema::AutoValidator::*)()>(
     &::System::Xml::Schema::AutoValidator::DetectValidationType)> {
   constexpr static std::size_t size = 0x344;
-  constexpr static std::size_t addrs = 0x2df49b4;
+  constexpr static std::size_t addrs = 0x2ef32b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::AutoValidator*>::get(),

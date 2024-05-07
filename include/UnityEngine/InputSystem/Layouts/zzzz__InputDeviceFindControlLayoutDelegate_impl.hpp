@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Layouts/InputDeviceFindControlLayoutDelegate.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/InputSystem/Layouts/zzzz__InputDeviceFindControlLayoutDelegate_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
@@ -12,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Layouts::InputDeviceFindControlLayoutDelegate::*)(::System::Object*, void*)>(
     &::UnityEngine::InputSystem::Layouts::InputDeviceFindControlLayoutDelegate::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x302cbd8;
+  constexpr static std::size_t addrs = 0x3168964;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +29,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ByRef<::UnityEngine::InputSystem::Layouts::InputDeviceDescription>, ::StringW, ::UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate*)>(
     &::UnityEngine::InputSystem::Layouts::InputDeviceFindControlLayoutDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x302ccb0;
+  constexpr static std::size_t addrs = 0x3168a3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -46,7 +47,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                   ::UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate*, ::System::AsyncCallback*,
                                                                                   ::System::Object*)>(&::UnityEngine::InputSystem::Layouts::InputDeviceFindControlLayoutDelegate::BeginInvoke)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x302ccc4;
+  constexpr static std::size_t addrs = 0x3168a50;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -62,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::Layouts::InputDeviceFindControlLayoutDelegate::*)(
     ByRef<::UnityEngine::InputSystem::Layouts::InputDeviceDescription>, ::System::IAsyncResult*)>(&::UnityEngine::InputSystem::Layouts::InputDeviceFindControlLayoutDelegate::EndInvoke)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x302cd64;
+  constexpr static std::size_t addrs = 0x3168af0;
 
   inline static ::MethodInfo const* methodInfo() {
 

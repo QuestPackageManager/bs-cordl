@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatmapDataLoaderVersion4/ObstacleItemConverter.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,7 +36,7 @@ public:
   __declspec(property(get = __cordl_internal_get__obstacles,
                       put = __cordl_internal_set__obstacles))::ArrayW<::BeatmapSaveDataVersion4::Obstacle, ::Array<::BeatmapSaveDataVersion4::Obstacle>*> _obstacles;
 
-  /// @brief Method Convert, addr 0x14040d4, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method Convert, addr 0x14f6694, size 0x108, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapObjectData* Convert(::BeatmapSaveDataVersion4::BeatmapBeatIndex* index);
 
   static inline ::BeatmapDataLoaderVersion4::ObstacleItemConverter* New_ctor(::ArrayW<::BeatmapSaveDataVersion4::Obstacle, ::Array<::BeatmapSaveDataVersion4::Obstacle>*> obstacles,
@@ -47,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set__obstacles(::ArrayW<::BeatmapSaveDataVersion4::Obstacle, ::Array<::BeatmapSaveDataVersion4::Obstacle>*> value);
 
-  /// @brief Method .ctor, addr 0x1403edc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14f649c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::BeatmapSaveDataVersion4::Obstacle, ::Array<::BeatmapSaveDataVersion4::Obstacle>*> obstacles, ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
 
 protected:

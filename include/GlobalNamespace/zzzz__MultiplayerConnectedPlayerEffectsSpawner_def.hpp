@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MultiplayerConnectedPlayerEffectsSpawner.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -40,15 +41,15 @@ public:
   /// @brief Field _noteDebrisSpawner, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__noteDebrisSpawner, put = __cordl_internal_set__noteDebrisSpawner))::UnityW<::GlobalNamespace::NoteDebrisSpawner> _noteDebrisSpawner;
 
-  /// @brief Method HandleBeatmapObjectEventManagerConnectedPlayerBeatmapObjectWasCut, addr 0x25f181c, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapObjectEventManagerConnectedPlayerBeatmapObjectWasCut, addr 0x26f0634, size 0x1d4, virtual false, abstract: false, final false
   inline void HandleBeatmapObjectEventManagerConnectedPlayerBeatmapObjectWasCut(::GlobalNamespace::NoteCutInfoNetSerializable* noteCutInfo);
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerEffectsSpawner* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x25f1714, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x26f052c, size 0x108, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x25f1624, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x26f043c, size 0xf0, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager*& __cordl_internal_get__beatmapObjectEventManager();
@@ -69,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set__noteDebrisSpawner(::UnityW<::GlobalNamespace::NoteDebrisSpawner> value);
 
-  /// @brief Method .ctor, addr 0x25f1a14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26f0808, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

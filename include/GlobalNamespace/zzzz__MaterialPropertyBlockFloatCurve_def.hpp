@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MaterialPropertyBlockFloatCurve.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,7 +34,7 @@ public:
 
   static inline ::GlobalNamespace::MaterialPropertyBlockFloatCurve* New_ctor();
 
-  /// @brief Method SetProperty, addr 0x23ff368, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method SetProperty, addr 0x24f6ff4, size 0x98, virtual true, abstract: false, final false
   inline void SetProperty();
 
   constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__curve();
@@ -54,7 +55,7 @@ public:
 
   constexpr void __cordl_internal_set__valueMultiplier(float_t value);
 
-  /// @brief Method .ctor, addr 0x23ff400, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f708c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/GuiRenderableManager.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -82,13 +83,13 @@ public:
 
   constexpr void __cordl_internal_set_Renderable(::Zenject::IGuiRenderable* value);
 
-  /// @brief Method __zenCreate, addr 0x346154c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x3665514, size 0x110, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x346165c, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x3665624, size 0x304, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x3460dd0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3664d98, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::IGuiRenderable* renderable, int32_t priority);
 
 protected:
@@ -140,16 +141,16 @@ public:
 
   constexpr void __cordl_internal_set_renderable(::Zenject::IGuiRenderable* value);
 
-  /// @brief Method <.ctor>b__1, addr 0x3461960, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__1, addr 0x3665928, size 0x80, virtual false, abstract: false, final false
   inline bool __ctor_b__1(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x);
 
-  /// @brief Method __zenCreate, addr 0x34619e0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x36659a8, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x3461a3c, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x3665a04, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x3460dc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3664d90, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -196,19 +197,19 @@ public:
 
   static inline ::Zenject::__GuiRenderableManager____c* New_ctor();
 
-  /// @brief Method <.ctor>b__1_0, addr 0x3461c80, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__1_0, addr 0x3665c48, size 0x18, virtual false, abstract: false, final false
   inline int32_t __ctor_b__1_0(::Zenject::__GuiRenderableManager__RenderableInfo* x);
 
-  /// @brief Method <.ctor>b__1_2, addr 0x3461c68, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__1_2, addr 0x3665c30, size 0x18, virtual false, abstract: false, final false
   inline int32_t __ctor_b__1_2(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x);
 
-  /// @brief Method __zenCreate, addr 0x3461c98, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x3665c60, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x3461cf4, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x3665cbc, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x3461c60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3665c28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Zenject::__GuiRenderableManager____c* getStaticF___9();
@@ -264,7 +265,7 @@ public:
   static inline ::Zenject::GuiRenderableManager* New_ctor(::System::Collections::Generic::List_1<::Zenject::IGuiRenderable*>* renderables,
                                                           ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* priorities);
 
-  /// @brief Method OnGui, addr 0x3460e00, size 0x32c, virtual false, abstract: false, final false
+  /// @brief Method OnGui, addr 0x3664dc8, size 0x32c, virtual false, abstract: false, final false
   inline void OnGui();
 
   constexpr ::System::Collections::Generic::List_1<::Zenject::__GuiRenderableManager__RenderableInfo*>*& __cordl_internal_get__renderables();
@@ -273,13 +274,13 @@ public:
 
   constexpr void __cordl_internal_set__renderables(::System::Collections::Generic::List_1<::Zenject::__GuiRenderableManager__RenderableInfo*>* value);
 
-  /// @brief Method __zenCreate, addr 0x346112c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x36650f4, size 0x11c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x3461248, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x3665210, size 0x304, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x3460828, size 0x5a0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36647f0, size 0x5a0, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::Zenject::IGuiRenderable*>* renderables,
                     ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* priorities);
 

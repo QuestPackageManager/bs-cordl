@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/SecurityUtils.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,36 +35,36 @@ namespace System {
 class CORDL_TYPE SecurityUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method DemandGrantSet, addr 0x2e7c5c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method DemandGrantSet, addr 0x2f7bec0, size 0x4, virtual false, abstract: false, final false
   static inline void DemandGrantSet(::System::Reflection::Assembly* assembly);
 
-  /// @brief Method DemandReflectionAccess, addr 0x2e7c5bc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method DemandReflectionAccess, addr 0x2f7bebc, size 0x4, virtual false, abstract: false, final false
   static inline void DemandReflectionAccess(::System::Type* type);
 
-  /// @brief Method GenericArgumentsAreVisible, addr 0x2e7c85c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GenericArgumentsAreVisible, addr 0x2f7c15c, size 0xa0, virtual false, abstract: false, final false
   static inline bool GenericArgumentsAreVisible(::System::Reflection::MethodInfo* method);
 
-  /// @brief Method HasReflectionPermission, addr 0x2e7c5c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HasReflectionPermission, addr 0x2f7bec4, size 0x8, virtual false, abstract: false, final false
   static inline bool HasReflectionPermission(::System::Type* type);
 
-  /// @brief Method MethodInfoInvoke, addr 0x2e7c8fc, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method MethodInfoInvoke, addr 0x2f7c1fc, size 0x110, virtual false, abstract: false, final false
   static inline ::System::Object* MethodInfoInvoke(::System::Reflection::MethodInfo* method, ::System::Object* target, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method SecureConstructorInvoke, addr 0x2e7c6d8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SecureConstructorInvoke, addr 0x2f7bfd8, size 0xc, virtual false, abstract: false, final false
   static inline ::System::Object* SecureConstructorInvoke(::System::Type* type, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> argTypes,
                                                           ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args, bool allowNonPublic);
 
-  /// @brief Method SecureConstructorInvoke, addr 0x2e7c6e4, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method SecureConstructorInvoke, addr 0x2f7bfe4, size 0x178, virtual false, abstract: false, final false
   static inline ::System::Object* SecureConstructorInvoke(::System::Type* type, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> argTypes,
                                                           ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args, bool allowNonPublic, ::System::Reflection::BindingFlags extraFlags);
 
-  /// @brief Method SecureCreateInstance, addr 0x2e7c5cc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SecureCreateInstance, addr 0x2f7becc, size 0xc, virtual false, abstract: false, final false
   static inline ::System::Object* SecureCreateInstance(::System::Type* type);
 
-  /// @brief Method SecureCreateInstance, addr 0x2e7c6d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SecureCreateInstance, addr 0x2f7bfd0, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Object* SecureCreateInstance(::System::Type* type, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method SecureCreateInstance, addr 0x2e7c5d8, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method SecureCreateInstance, addr 0x2f7bed8, size 0xf8, virtual false, abstract: false, final false
   static inline ::System::Object* SecureCreateInstance(::System::Type* type, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args, bool allowNonPublic);
 
 protected:

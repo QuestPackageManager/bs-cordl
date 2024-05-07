@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Collections/Generic/TreeRotation.hpp"
 #include "System/Collections/Generic/zzzz__TreeRotation_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Collections::Generic::TreeRotation::TreeRotation(uint8_t value__) noexcept {

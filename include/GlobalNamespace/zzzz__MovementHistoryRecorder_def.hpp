@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MovementHistoryRecorder.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,10 +37,10 @@ public:
 
   __declspec(property(get = get_averagingValueRecorer))::GlobalNamespace::AveragingValueRecorder* averagingValueRecorer;
 
-  /// @brief Method AddMovement, addr 0x2624eac, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method AddMovement, addr 0x2724d80, size 0x24, virtual false, abstract: false, final false
   inline void AddMovement(float_t distance);
 
-  /// @brief Method ManualUpdate, addr 0x2624ed0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x2724da4, size 0x3c, virtual false, abstract: false, final false
   inline void ManualUpdate(float_t deltaTime);
 
   static inline ::GlobalNamespace::MovementHistoryRecorder* New_ctor(float_t averageWindowDuration, float_t historyValuesPerSecond, float_t increaseSpeed, float_t decreaseSpeed);
@@ -68,10 +69,10 @@ public:
 
   constexpr void __cordl_internal_set__increaseSpeed(float_t value);
 
-  /// @brief Method .ctor, addr 0x2624e10, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2724ce4, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(float_t averageWindowDuration, float_t historyValuesPerSecond, float_t increaseSpeed, float_t decreaseSpeed);
 
-  /// @brief Method get_averagingValueRecorer, addr 0x2624e08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_averagingValueRecorer, addr 0x2724cdc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::AveragingValueRecorder* get_averagingValueRecorer();
 
 protected:

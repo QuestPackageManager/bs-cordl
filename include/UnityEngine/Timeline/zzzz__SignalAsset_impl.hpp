@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Timeline/SignalAsset.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__SignalAsset_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action_1<::UnityW<::UnityEngine::Timeline::SignalAsset>>*)>(
     &::UnityEngine::Timeline::SignalAsset::add_OnEnableCallback)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x31976a8;
+  constexpr static std::size_t addrs = 0x339e130;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action_1<::UnityW<::UnityEngine::Timeline::SignalAsset>>*)>(
     &::UnityEngine::Timeline::SignalAsset::remove_OnEnableCallback)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3197774;
+  constexpr static std::size_t addrs = 0x339e1fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -37,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::SignalAsset::*)()>(&::UnityEngine::Timeline::SignalAsset::OnEnable)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3197840;
+  constexpr static std::size_t addrs = 0x339e2c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::SignalAsset*>::get(), "OnEnable",
@@ -50,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::SignalAsset::*)()>(&::UnityEngine::Timeline::SignalAsset::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x31978ac;
+  constexpr static std::size_t addrs = 0x339e334;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::SignalAsset*>::get(), ".ctor",

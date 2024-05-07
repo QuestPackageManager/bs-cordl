@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MissionLevelGameplayManager.hpp"
 #include "GlobalNamespace/zzzz__MissionLevelGameplayManager_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MissionLevelGameplayManager__InitData::*)(bool)>(
     &::GlobalNamespace::__MissionLevelGameplayManager__InitData::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x25dd844;
+  constexpr static std::size_t addrs = 0x26dd584;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -72,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MissionLevelGameplayManager___Start_d__23::*)(int32_t)>(
     &::GlobalNamespace::__MissionLevelGameplayManager___Start_d__23::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x25dd240;
+  constexpr static std::size_t addrs = 0x26dcf80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MissionLevelGameplayManager___Start_d__23::*)()>(
     &::GlobalNamespace::__MissionLevelGameplayManager___Start_d__23::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x25dd86c;
+  constexpr static std::size_t addrs = 0x26dd5ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -102,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__MissionLevelGameplayManager___Start_d__23::*)()>(
     &::GlobalNamespace::__MissionLevelGameplayManager___Start_d__23::MoveNext)> {
   constexpr static std::size_t size = 0x3c0;
-  constexpr static std::size_t addrs = 0x25dd870;
+  constexpr static std::size_t addrs = 0x26dd5b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -117,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__MissionLevelGameplayManager___Start_d__23::*)()>(
     &::GlobalNamespace::__MissionLevelGameplayManager___Start_d__23::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25dde18;
+  constexpr static std::size_t addrs = 0x26ddb58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -132,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__MissionLevelGameplayManager___Start_d__23::*)()>(
     &::GlobalNamespace::__MissionLevelGameplayManager___Start_d__23::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x25dde20;
+  constexpr static std::size_t addrs = 0x26ddb60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -147,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__MissionLevelGameplayManager___Start_d__23::*)()>(
     &::GlobalNamespace::__MissionLevelGameplayManager___Start_d__23::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25dde60;
+  constexpr static std::size_t addrs = 0x26ddba0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -264,7 +265,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionLevelGameplayManager::*)(::System::Action*)>(
     &::GlobalNamespace::MissionLevelGameplayManager::add_levelWillStartIntroEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x25dccf0;
+  constexpr static std::size_t addrs = 0x26dca30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -279,7 +280,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionLevelGameplayManager::*)(::System::Action*)>(
     &::GlobalNamespace::MissionLevelGameplayManager::remove_levelWillStartIntroEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x25dcd8c;
+  constexpr static std::size_t addrs = 0x26dcacc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -294,7 +295,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionLevelGameplayManager::*)(::System::Action*)>(
     &::GlobalNamespace::MissionLevelGameplayManager::add_levelDidStartEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x25dce28;
+  constexpr static std::size_t addrs = 0x26dcb68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -309,7 +310,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionLevelGameplayManager::*)(::System::Action*)>(
     &::GlobalNamespace::MissionLevelGameplayManager::remove_levelDidStartEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x25dcec4;
+  constexpr static std::size_t addrs = 0x26dcc04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -324,7 +325,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionLevelGameplayManager::*)(::System::Action*)>(
     &::GlobalNamespace::MissionLevelGameplayManager::add_levelFailedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x25dcf60;
+  constexpr static std::size_t addrs = 0x26dcca0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -339,7 +340,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionLevelGameplayManager::*)(::System::Action*)>(
     &::GlobalNamespace::MissionLevelGameplayManager::remove_levelFailedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x25dcffc;
+  constexpr static std::size_t addrs = 0x26dcd3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -354,7 +355,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionLevelGameplayManager::*)(::System::Action*)>(
     &::GlobalNamespace::MissionLevelGameplayManager::add_levelFinishedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x25dd098;
+  constexpr static std::size_t addrs = 0x26dcdd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -369,7 +370,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionLevelGameplayManager::*)(::System::Action*)>(
     &::GlobalNamespace::MissionLevelGameplayManager::remove_levelFinishedEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x25dd134;
+  constexpr static std::size_t addrs = 0x26dce74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -383,7 +384,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionLevelGameplayManager::*)()>(&::GlobalNamespace::MissionLevelGameplayManager::Awake)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25dd1d0;
+  constexpr static std::size_t addrs = 0x26dcf10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionLevelGameplayManager*>::get(), "Awake",
@@ -397,7 +398,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::MissionLevelGameplayManager::*)()>(
     &::GlobalNamespace::MissionLevelGameplayManager::Start)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x25dd1d8;
+  constexpr static std::size_t addrs = 0x26dcf18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionLevelGameplayManager*>::get(), "Start",
@@ -411,7 +412,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionLevelGameplayManager::*)()>(
     &::GlobalNamespace::MissionLevelGameplayManager::OnDestroy)> {
   constexpr static std::size_t size = 0x2dc;
-  constexpr static std::size_t addrs = 0x25dd268;
+  constexpr static std::size_t addrs = 0x26dcfa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionLevelGameplayManager*>::get(),
@@ -425,7 +426,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionLevelGameplayManager::*)()>(
     &::GlobalNamespace::MissionLevelGameplayManager::HandleGameEnergyDidReach0)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x25dd72c;
+  constexpr static std::size_t addrs = 0x26dd46c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionLevelGameplayManager*>::get(),
@@ -439,7 +440,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionLevelGameplayManager::*)()>(
     &::GlobalNamespace::MissionLevelGameplayManager::HandleMissionObjectiveCheckersManagerObjectiveDidFail)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x25dd780;
+  constexpr static std::size_t addrs = 0x26dd4c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -454,7 +455,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionLevelGameplayManager::*)()>(
     &::GlobalNamespace::MissionLevelGameplayManager::HandleSongDidFinish)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x25dd7b4;
+  constexpr static std::size_t addrs = 0x26dd4f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionLevelGameplayManager*>::get(),
@@ -468,7 +469,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionLevelGameplayManager::*)(::System::Action_1<bool>*)>(
     &::GlobalNamespace::MissionLevelGameplayManager::HandlePauseControllerCanPause)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x25dd7e8;
+  constexpr static std::size_t addrs = 0x26dd528;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -483,7 +484,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionLevelGameplayManager::*)()>(
     &::GlobalNamespace::MissionLevelGameplayManager::HandlePauseControllerDidPause)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x25dd80c;
+  constexpr static std::size_t addrs = 0x26dd54c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionLevelGameplayManager*>::get(),
@@ -497,7 +498,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionLevelGameplayManager::*)()>(
     &::GlobalNamespace::MissionLevelGameplayManager::HandlePauseControllerDidResume)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x25dd824;
+  constexpr static std::size_t addrs = 0x26dd564;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionLevelGameplayManager*>::get(),
@@ -510,7 +511,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionLevelGameplayManager::*)()>(&::GlobalNamespace::MissionLevelGameplayManager::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25dd83c;
+  constexpr static std::size_t addrs = 0x26dd57c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionLevelGameplayManager*>::get(), ".ctor",

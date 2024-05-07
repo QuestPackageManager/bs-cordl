@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Diagnostics/ProcessThreadTimes.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Diagnostics/zzzz__ProcessThreadTimes_def.hpp"
 #include "System/zzzz__TimeSpan_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TimeSpan (::System::Diagnostics::ProcessThreadTimes::*)()>(
     &::System::Diagnostics::ProcessThreadTimes::get_TotalProcessorTime)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2ea3990;
+  constexpr static std::size_t addrs = 0x2fa5290;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::ProcessThreadTimes*>::get(),
@@ -21,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::ProcessThreadTimes::*)()>(&::System::Diagnostics::ProcessThreadTimes::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ea358c;
+  constexpr static std::size_t addrs = 0x2fa4e8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::ProcessThreadTimes*>::get(), ".ctor",

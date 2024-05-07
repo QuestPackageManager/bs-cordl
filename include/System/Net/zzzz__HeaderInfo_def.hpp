@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/HeaderInfo.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -69,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set_Parser(::System::Net::HeaderParser* value);
 
-  /// @brief Method .ctor, addr 0x2eda760, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fdd060, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, bool requestRestricted, bool responseRestricted, bool multi, ::System::Net::HeaderParser* p);
 
 protected:

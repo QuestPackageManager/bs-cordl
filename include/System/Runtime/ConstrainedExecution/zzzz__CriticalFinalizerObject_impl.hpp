@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/ConstrainedExecution/CriticalFinalizerObject.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/ConstrainedExecution/zzzz__CriticalFinalizerObject_def.hpp"
 //  Writing Method size for method: ::System::Runtime::ConstrainedExecution::CriticalFinalizerObject._ctor
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::ConstrainedExecution::CriticalFinalizerObject::*)()>(
     &::System::Runtime::ConstrainedExecution::CriticalFinalizerObject::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x275be78;
+  constexpr static std::size_t addrs = 0x285b588;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -22,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::ConstrainedExecution::CriticalFinalizerObject::*)()>(
     &::System::Runtime::ConstrainedExecution::CriticalFinalizerObject::Finalize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x275be80;
+  constexpr static std::size_t addrs = 0x285b590;
 
   inline static ::MethodInfo const* methodInfo() {
 

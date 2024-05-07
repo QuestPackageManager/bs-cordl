@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/PlayerDataModelHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PlayerDataModelHelper_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerAllOverallStatsData_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayerAllOverallStatsData* (*)(::GlobalNamespace::__PlayerSaveData__PlayerAllOverallStatsData*)>(
     &::GlobalNamespace::PlayerDataModelHelper::ToPlayerAllOverallStatsData)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x13f6a4c;
+  constexpr static std::size_t addrs = 0x14e8eb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::GlobalNamespace::PlayerAllOverallStatsData* (*)(::GlobalNamespace::__PlayerSaveDataV1_0_1__PlayerAllOverallStatsData*)>(&::GlobalNamespace::PlayerDataModelHelper::ToPlayerAllOverallStatsData)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x13f710c;
+  constexpr static std::size_t addrs = 0x14e9570;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +42,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* (*)(::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData*)>(
         &::GlobalNamespace::PlayerDataModelHelper::ToPlayerOverallStats)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x13f7aec;
+  constexpr static std::size_t addrs = 0x14ea1f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,7 +58,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData* (*)(::GlobalNamespace::__PlayerSaveDataV1_0_1__PlayerOverallStatsData*)>(
         &::GlobalNamespace::PlayerDataModelHelper::ToPlayerOverallStats)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x13f7bbc;
+  constexpr static std::size_t addrs = 0x14ea2c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -72,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__PlayerSaveData__PlayerAllOverallStatsData* (*)(::GlobalNamespace::PlayerAllOverallStatsData*)>(
     &::GlobalNamespace::PlayerDataModelHelper::ToPlayerAllOverallStatsData)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x13f465c;
+  constexpr static std::size_t addrs = 0x14e6a24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -88,7 +89,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::__PlayerSaveData__PlayerOverallStatsData* (*)(::GlobalNamespace::__PlayerAllOverallStatsData__PlayerOverallStatsData*)>(
         &::GlobalNamespace::PlayerDataModelHelper::ToPlayerOverallStatsData)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x13f7d4c;
+  constexpr static std::size_t addrs = 0x14ea458;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

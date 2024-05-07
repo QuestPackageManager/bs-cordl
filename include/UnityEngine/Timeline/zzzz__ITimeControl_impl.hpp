@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Timeline/ITimeControl.hpp"
 #include "UnityEngine/Timeline/zzzz__ITimeControl_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Timeline::ITimeControl.SetTime
 template <>

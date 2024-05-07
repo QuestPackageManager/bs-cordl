@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/Messaging/StackBuilderSink.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__StackBuilderSink_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IMessageCtrl_def.hpp"
@@ -13,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::StackBuilderSink::*)(::System::MarshalByRefObject*, bool)>(
     &::System::Runtime::Remoting::Messaging::StackBuilderSink::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x27363ec;
+  constexpr static std::size_t addrs = 0x28347e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Messaging::IMessage* (
     ::System::Runtime::Remoting::Messaging::StackBuilderSink::*)(::System::Runtime::Remoting::Messaging::IMessage*)>(&::System::Runtime::Remoting::Messaging::StackBuilderSink::SyncProcessMessage)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x2736490;
+  constexpr static std::size_t addrs = 0x283488c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -45,7 +46,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Runtime::Remoting::Messaging::StackBuilderSink::*)(::System::Runtime::Remoting::Messaging::IMessage*, ::System::Runtime::Remoting::Messaging::IMessageSink*)>(
     &::System::Runtime::Remoting::Messaging::StackBuilderSink::AsyncProcessMessage)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x27369ac;
+  constexpr static std::size_t addrs = 0x2834da8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -61,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::StackBuilderSink::*)(::System::Object*)>(
     &::System::Runtime::Remoting::Messaging::StackBuilderSink::ExecuteAsyncMessage)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x2736acc;
+  constexpr static std::size_t addrs = 0x2834ec8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::StackBuilderSink::*)(
     ::System::Runtime::Remoting::Messaging::IMessage*)>(&::System::Runtime::Remoting::Messaging::StackBuilderSink::CheckParameters)> {
   constexpr static std::size_t size = 0x450;
-  constexpr static std::size_t addrs = 0x273655c;
+  constexpr static std::size_t addrs = 0x2834958;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -91,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::StackBuilderSink::*)(::System::Object*)>(
     &::System::Runtime::Remoting::Messaging::StackBuilderSink::_AsyncProcessMessage_b__4_0)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x2736ccc;
+  constexpr static std::size_t addrs = 0x28350c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

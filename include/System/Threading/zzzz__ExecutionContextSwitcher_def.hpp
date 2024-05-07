@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/ExecutionContextSwitcher.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,10 +29,10 @@ namespace System::Threading {
 struct CORDL_TYPE ExecutionContextSwitcher {
 public:
   // Declarations
-  /// @brief Method Undo, addr 0x289fbe4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Undo, addr 0x299e494, size 0x88, virtual false, abstract: false, final false
   inline void Undo();
 
-  /// @brief Method UndoNoThrow, addr 0x289fb5c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method UndoNoThrow, addr 0x299e40c, size 0x88, virtual false, abstract: false, final false
   inline bool UndoNoThrow();
 
   // Ctor Parameters []

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/RenderModel_t_Packed.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "OVR/OpenVR/zzzz__RenderModel_t_Packed_def.hpp"
 #include "OVR/OpenVR/zzzz__RenderModel_t_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::RenderModel_t_Packed::*)(::OVR::OpenVR::RenderModel_t)>(
     &::OVR::OpenVR::RenderModel_t_Packed::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2acdedc;
+  constexpr static std::size_t addrs = 0x2bca78c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::RenderModel_t_Packed::*)(ByRef<::OVR::OpenVR::RenderModel_t>)>(
     &::OVR::OpenVR::RenderModel_t_Packed::Unpack)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2acdf08;
+  constexpr static std::size_t addrs = 0x2bca7b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

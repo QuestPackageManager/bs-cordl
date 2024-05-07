@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/MaxBytesExceededException.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__CryptoException_impl.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__MaxBytesExceededException_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::MaxBytesExceededException::*)()>(
     &::Org::BouncyCastle::Crypto::MaxBytesExceededException::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x1131a84;
+  constexpr static std::size_t addrs = 0x12251a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::MaxBytesExceededException*>::get(),
@@ -22,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::MaxBytesExceededException::*)(::StringW)>(
     &::Org::BouncyCastle::Crypto::MaxBytesExceededException::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x1131a88;
+  constexpr static std::size_t addrs = 0x12251ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::MaxBytesExceededException::*)(::StringW, ::System::Exception*)>(
     &::Org::BouncyCastle::Crypto::MaxBytesExceededException::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x1131a8c;
+  constexpr static std::size_t addrs = 0x12251b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

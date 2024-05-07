@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Gen2GcCallback.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,15 +32,15 @@ public:
   /// @brief Field _weakTargetObj, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__weakTargetObj, put = __cordl_internal_set__weakTargetObj))::System::Runtime::InteropServices::GCHandle _weakTargetObj;
 
-  /// @brief Method Finalize, addr 0x281c674, size 0x1ac, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x291bd94, size 0x1ac, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::System::Gen2GcCallback* New_ctor();
 
-  /// @brief Method Register, addr 0x281c5cc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Register, addr 0x291bcec, size 0x80, virtual false, abstract: false, final false
   static inline void Register(::System::Func_2<::System::Object*, bool>* callback, ::System::Object* targetObj);
 
-  /// @brief Method Setup, addr 0x281c64c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x291bd6c, size 0x28, virtual false, abstract: false, final false
   inline void Setup(::System::Func_2<::System::Object*, bool>* callback, ::System::Object* targetObj);
 
   constexpr ::System::Func_2<::System::Object*, bool>*& __cordl_internal_get__callback();
@@ -54,7 +55,7 @@ public:
 
   constexpr void __cordl_internal_set__weakTargetObj(::System::Runtime::InteropServices::GCHandle value);
 
-  /// @brief Method .ctor, addr 0x281c5c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x291bce4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

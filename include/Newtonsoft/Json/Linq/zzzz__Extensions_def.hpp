@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Linq/Extensions.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -118,10 +119,10 @@ public:
 
   static inline ::Newtonsoft::Json::Linq::__Extensions____c* New_ctor();
 
-  /// @brief Method <Properties>b__4_0, addr 0x2956564, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <Properties>b__4_0, addr 0x2a54e14, size 0x18, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JProperty*>* _Properties_b__4_0(::Newtonsoft::Json::Linq::JObject* d);
 
-  /// @brief Method .ctor, addr 0x295655c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a54e0c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Newtonsoft::Json::Linq::__Extensions____c* getStaticF___9();
@@ -800,7 +801,7 @@ public:
   /// @brief Method AncestorsAndSelf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::Newtonsoft::Json::Linq::IJEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* AncestorsAndSelf(::System::Collections::Generic::IEnumerable_1<T>* source);
 
-  /// @brief Method AsJEnumerable, addr 0x29564a8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method AsJEnumerable, addr 0x2a54d58, size 0x48, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::IJEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* AsJEnumerable(::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* source);
 
   /// @brief Method AsJEnumerable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -824,7 +825,7 @@ public:
   /// @brief Method DescendantsAndSelf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::Newtonsoft::Json::Linq::IJEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* DescendantsAndSelf(::System::Collections::Generic::IEnumerable_1<T>* source);
 
-  /// @brief Method Properties, addr 0x2956314, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method Properties, addr 0x2a54bc4, size 0x138, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::IJEnumerable_1<::Newtonsoft::Json::Linq::JProperty*>* Properties(::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JObject*>* source);
 
   /// @brief Method Value, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -833,10 +834,10 @@ public:
   /// @brief Method Value, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T, typename U> static inline U Value(::System::Collections::Generic::IEnumerable_1<T>* value);
 
-  /// @brief Method Values, addr 0x29564f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Values, addr 0x2a54da0, size 0x8, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::IJEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* Values(::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* source);
 
-  /// @brief Method Values, addr 0x295644c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Values, addr 0x2a54cfc, size 0x5c, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::IJEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* Values(::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* source,
                                                                                                     ::System::Object* key);
 

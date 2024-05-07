@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Diagnostics/CorrelationManager.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,15 +24,15 @@ public:
   // Declarations
   __declspec(property(get = get_LogicalOperationStack))::System::Collections::Stack* LogicalOperationStack;
 
-  /// @brief Method GetLogicalOperationStack, addr 0x2e9f49c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetLogicalOperationStack, addr 0x2fa0d9c, size 0xc0, virtual false, abstract: false, final false
   inline ::System::Collections::Stack* GetLogicalOperationStack();
 
   static inline ::System::Diagnostics::CorrelationManager* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e9f490, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fa0d90, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_LogicalOperationStack, addr 0x2e9f498, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_LogicalOperationStack, addr 0x2fa0d98, size 0x4, virtual false, abstract: false, final false
   inline ::System::Collections::Stack* get_LogicalOperationStack();
 
 protected:

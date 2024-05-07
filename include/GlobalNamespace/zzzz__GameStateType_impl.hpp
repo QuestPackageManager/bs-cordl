@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/GameStateType.hpp"
 #include "GlobalNamespace/zzzz__GameStateType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::GameStateType::GameStateType(int32_t value__) noexcept {

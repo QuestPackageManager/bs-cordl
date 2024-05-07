@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/ToggleWithCallbacks.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -106,7 +107,7 @@ public:
   __declspec(property(get = __cordl_internal_get_stateDidChangeEvent,
                       put = __cordl_internal_set_stateDidChangeEvent))::System::Action_1<::HMUI::__ToggleWithCallbacks__SelectionState>* stateDidChangeEvent;
 
-  /// @brief Method DoStateTransition, addr 0x2433d30, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method DoStateTransition, addr 0x252e9bc, size 0x4c, virtual true, abstract: false, final false
   inline void DoStateTransition(::UnityEngine::UI::__Selectable__SelectionState state, bool instant);
 
   static inline ::HMUI::ToggleWithCallbacks* New_ctor();
@@ -117,16 +118,16 @@ public:
 
   constexpr void __cordl_internal_set_stateDidChangeEvent(::System::Action_1<::HMUI::__ToggleWithCallbacks__SelectionState>* value);
 
-  /// @brief Method .ctor, addr 0x2433d7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x252ea08, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_stateDidChangeEvent, addr 0x242fe4c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method add_stateDidChangeEvent, addr 0x252aad8, size 0xb4, virtual false, abstract: false, final false
   inline void add_stateDidChangeEvent(::System::Action_1<::HMUI::__ToggleWithCallbacks__SelectionState>* value);
 
-  /// @brief Method get_selectionState, addr 0x24301ec, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_selectionState, addr 0x252ae78, size 0x54, virtual false, abstract: false, final false
   inline ::HMUI::__ToggleWithCallbacks__SelectionState get_selectionState();
 
-  /// @brief Method remove_stateDidChangeEvent, addr 0x2430130, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method remove_stateDidChangeEvent, addr 0x252adbc, size 0xb4, virtual false, abstract: false, final false
   inline void remove_stateDidChangeEvent(::System::Action_1<::HMUI::__ToggleWithCallbacks__SelectionState>* value);
 
 protected:

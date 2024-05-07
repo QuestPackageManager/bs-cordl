@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ListWithEvents_1.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__ListWithEvents_1_def.hpp"
 #include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"

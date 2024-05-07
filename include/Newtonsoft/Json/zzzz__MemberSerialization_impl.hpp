@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/MemberSerialization.hpp"
 #include "Newtonsoft/Json/zzzz__MemberSerialization_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::Newtonsoft::Json::MemberSerialization::MemberSerialization(int32_t value__) noexcept {

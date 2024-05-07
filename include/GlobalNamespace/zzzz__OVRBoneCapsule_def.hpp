@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OVRBoneCapsule.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -64,28 +65,28 @@ public:
 
   constexpr void __cordl_internal_set__CapsuleRigidbody_k__BackingField(::UnityW<::UnityEngine::Rigidbody> value);
 
-  /// @brief Method .ctor, addr 0x2a97f18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b937c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2a987d4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b94084, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(int16_t boneIndex, ::UnityEngine::Rigidbody* capsuleRigidBody, ::UnityEngine::CapsuleCollider* capsuleCollider);
 
-  /// @brief Method get_BoneIndex, addr 0x2a987a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BoneIndex, addr 0x2b94054, size 0x8, virtual false, abstract: false, final false
   inline int16_t get_BoneIndex();
 
-  /// @brief Method get_CapsuleCollider, addr 0x2a987c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CapsuleCollider, addr 0x2b94074, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::CapsuleCollider> get_CapsuleCollider();
 
-  /// @brief Method get_CapsuleRigidbody, addr 0x2a987b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CapsuleRigidbody, addr 0x2b94064, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Rigidbody> get_CapsuleRigidbody();
 
-  /// @brief Method set_BoneIndex, addr 0x2a987ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BoneIndex, addr 0x2b9405c, size 0x8, virtual false, abstract: false, final false
   inline void set_BoneIndex(int16_t value);
 
-  /// @brief Method set_CapsuleCollider, addr 0x2a987cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CapsuleCollider, addr 0x2b9407c, size 0x8, virtual false, abstract: false, final false
   inline void set_CapsuleCollider(::UnityEngine::CapsuleCollider* value);
 
-  /// @brief Method set_CapsuleRigidbody, addr 0x2a987bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CapsuleRigidbody, addr 0x2b9406c, size 0x8, virtual false, abstract: false, final false
   inline void set_CapsuleRigidbody(::UnityEngine::Rigidbody* value);
 
 protected:

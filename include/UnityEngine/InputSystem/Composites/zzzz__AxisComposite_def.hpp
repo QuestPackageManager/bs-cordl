@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Composites/AxisComposite.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -109,12 +110,12 @@ public:
   /// @brief Field whichSideWins, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_whichSideWins, put = __cordl_internal_set_whichSideWins))::UnityEngine::InputSystem::Composites::__AxisComposite__WhichSideWins whichSideWins;
 
-  /// @brief Method EvaluateMagnitude, addr 0x2f90514, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method EvaluateMagnitude, addr 0x30cb2a0, size 0x4c, virtual true, abstract: false, final false
   inline float_t EvaluateMagnitude(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
   static inline ::UnityEngine::InputSystem::Composites::AxisComposite* New_ctor();
 
-  /// @brief Method ReadValue, addr 0x2f903f4, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method ReadValue, addr 0x30cb180, size 0x120, virtual true, abstract: false, final false
   inline float_t ReadValue(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
   constexpr float_t const& __cordl_internal_get_maxValue() const;
@@ -147,10 +148,10 @@ public:
 
   constexpr void __cordl_internal_set_whichSideWins(::UnityEngine::InputSystem::Composites::__AxisComposite__WhichSideWins value);
 
-  /// @brief Method .ctor, addr 0x2f90560, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x30cb2ec, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_midPoint, addr 0x2f903e0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_midPoint, addr 0x30cb16c, size 0x14, virtual false, abstract: false, final false
   inline float_t get_midPoint();
 
 protected:

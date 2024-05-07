@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Principal/GenericPrincipal.hpp"
 #include "System/Security/Claims/zzzz__ClaimsPrincipal_impl.hpp"
 #include "System/Security/Principal/zzzz__GenericPrincipal_def.hpp"
 #include "System/Security/Principal/zzzz__IIdentity_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Principal::GenericPrincipal::*)(
     ::System::Security::Principal::IIdentity*, ::ArrayW<::StringW, ::Array<::StringW>*>)>(&::System::Security::Principal::GenericPrincipal::_ctor)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x26fa4c0;
+  constexpr static std::size_t addrs = 0x27f78bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

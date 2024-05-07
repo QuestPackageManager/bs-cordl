@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "MS/Internal/Xml/XPath/AstNode.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -119,7 +120,7 @@ public:
 
   static inline ::MS::Internal::Xml::XPath::AstNode* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2d617a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e5e0a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_ReturnType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

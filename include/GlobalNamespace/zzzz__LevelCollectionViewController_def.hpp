@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/LevelCollectionViewController.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -121,10 +122,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x254c5e0, size 0x294, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26422a0, size 0x294, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x254c874, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2642534, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -192,7 +193,7 @@ public:
 
   static inline ::GlobalNamespace::__LevelCollectionViewController____c__DisplayClass26_0* New_ctor();
 
-  /// @brief Method <SongPlayerCrossfadeToLevelAsync>b__0, addr 0x254c888, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <SongPlayerCrossfadeToLevelAsync>b__0, addr 0x2642548, size 0x20, virtual false, abstract: false, final false
   inline void _SongPlayerCrossfadeToLevelAsync_b__0();
 
   constexpr ::UnityW<::GlobalNamespace::LevelCollectionViewController> const& __cordl_internal_get___4__this() const;
@@ -207,7 +208,7 @@ public:
 
   constexpr void __cordl_internal_set_level(::GlobalNamespace::BeatmapLevel* value);
 
-  /// @brief Method .ctor, addr 0x254c880, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2642540, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -251,10 +252,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x254c8a8, size 0x360, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2642568, size 0x360, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x254cc08, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x26428c8, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -385,49 +386,49 @@ public:
       property(get = __cordl_internal_get_didSelectLevelEvent,
                put = __cordl_internal_set_didSelectLevelEvent))::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionViewController>, ::GlobalNamespace::BeatmapLevel*>* didSelectLevelEvent;
 
-  /// @brief Method DidActivate, addr 0x254bdd0, size 0x210, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x2641a90, size 0x210, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x254bfe0, size 0x1e0, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x2641ca0, size 0x1e0, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleAdditionalContentModelDidInvalidateData, addr 0x254c5b4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleAdditionalContentModelDidInvalidateData, addr 0x2642274, size 0x1c, virtual false, abstract: false, final false
   inline void HandleAdditionalContentModelDidInvalidateData();
 
-  /// @brief Method HandleLevelCollectionTableViewDidSelectLevel, addr 0x254c1c0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method HandleLevelCollectionTableViewDidSelectLevel, addr 0x2641e80, size 0x50, virtual false, abstract: false, final false
   inline void HandleLevelCollectionTableViewDidSelectLevel(::GlobalNamespace::LevelCollectionTableView* tableView, ::GlobalNamespace::BeatmapLevel* level);
 
-  /// @brief Method HandleLevelCollectionTableViewDidSelectPack, addr 0x254c570, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method HandleLevelCollectionTableViewDidSelectPack, addr 0x2642230, size 0x44, virtual false, abstract: false, final false
   inline void HandleLevelCollectionTableViewDidSelectPack(::GlobalNamespace::LevelCollectionTableView* tableView);
 
-  /// @brief Method LateUpdate, addr 0x254c4b4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x2642174, size 0x50, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::LevelCollectionViewController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x254c460, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x2642120, size 0x54, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x254c38c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x264204c, size 0xd4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method RefreshFavorites, addr 0x254bcb4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method RefreshFavorites, addr 0x2641974, size 0x30, virtual false, abstract: false, final false
   inline void RefreshFavorites();
 
-  /// @brief Method SelectLevel, addr 0x25499bc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method SelectLevel, addr 0x263f67c, size 0x34, virtual false, abstract: false, final false
   inline void SelectLevel(::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
-  /// @brief Method SetData, addr 0x254aea4, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x2640b64, size 0x270, virtual false, abstract: false, final false
   inline void SetData(::ArrayW<::GlobalNamespace::BeatmapLevel*, ::Array<::GlobalNamespace::BeatmapLevel*>*> beatmapLevels, ::StringW headerText, ::UnityEngine::Sprite* headerSprite, bool sortLevels,
                       bool sortBeatmapLevels, ::UnityEngine::GameObject* noDataInfoPrefab);
 
-  /// @brief Method SongPlayerCrossfadeToLevel, addr 0x254c210, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method SongPlayerCrossfadeToLevel, addr 0x2641ed0, size 0x9c, virtual false, abstract: false, final false
   inline void SongPlayerCrossfadeToLevel(::GlobalNamespace::BeatmapLevel* level);
 
-  /// @brief Method SongPlayerCrossfadeToLevelAsync, addr 0x254c2ac, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method SongPlayerCrossfadeToLevelAsync, addr 0x2641f6c, size 0xe0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* SongPlayerCrossfadeToLevelAsync(::GlobalNamespace::BeatmapLevel* level, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method UnloadPreviewAudioClip, addr 0x254c504, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method UnloadPreviewAudioClip, addr 0x26421c4, size 0x6c, virtual false, abstract: false, final false
   inline void UnloadPreviewAudioClip(::GlobalNamespace::BeatmapLevel* level);
 
   constexpr ::GlobalNamespace::IAdditionalContentModel*& __cordl_internal_get__additionalContentModel();
@@ -521,19 +522,19 @@ public:
 
   constexpr void __cordl_internal_set_didSelectLevelEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionViewController>, ::GlobalNamespace::BeatmapLevel*>* value);
 
-  /// @brief Method .ctor, addr 0x254c5d0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2642290, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didSelectHeaderEvent, addr 0x254a130, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didSelectHeaderEvent, addr 0x263fdf0, size 0xb0, virtual false, abstract: false, final false
   inline void add_didSelectHeaderEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelCollectionViewController>>* value);
 
-  /// @brief Method add_didSelectLevelEvent, addr 0x254a080, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didSelectLevelEvent, addr 0x263fd40, size 0xb0, virtual false, abstract: false, final false
   inline void add_didSelectLevelEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionViewController>, ::GlobalNamespace::BeatmapLevel*>* value);
 
-  /// @brief Method remove_didSelectHeaderEvent, addr 0x254a9d4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSelectHeaderEvent, addr 0x2640694, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didSelectHeaderEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelCollectionViewController>>* value);
 
-  /// @brief Method remove_didSelectLevelEvent, addr 0x254a924, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSelectLevelEvent, addr 0x26405e4, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didSelectLevelEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionViewController>, ::GlobalNamespace::BeatmapLevel*>* value);
 
 protected:

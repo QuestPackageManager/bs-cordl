@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Esf/OcspIdentifier.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,14 +47,14 @@ public:
   /// @brief Field producedAt, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_producedAt, put = __cordl_internal_set_producedAt))::Org::BouncyCastle::Asn1::DerGeneralizedTime* producedAt;
 
-  /// @brief Method GetInstance, addr 0xffe520, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x10f1c44, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Esf::OcspIdentifier* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::OcspIdentifier* New_ctor(::Org::BouncyCastle::Asn1::Ocsp::ResponderID* ocspResponderID, ::System::DateTime producedAt);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::OcspIdentifier* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0xffe9a0, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x10f20c4, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Ocsp::ResponderID*& __cordl_internal_get_ocspResponderID();
@@ -68,16 +69,16 @@ public:
 
   constexpr void __cordl_internal_set_producedAt(::Org::BouncyCastle::Asn1::DerGeneralizedTime* value);
 
-  /// @brief Method .ctor, addr 0xffe8b8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10f1fdc, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Ocsp::ResponderID* ocspResponderID, ::System::DateTime producedAt);
 
-  /// @brief Method .ctor, addr 0xffe6a8, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10f1dcc, size 0x210, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_OcspResponderID, addr 0xffe97c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OcspResponderID, addr 0x10f20a0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Ocsp::ResponderID* get_OcspResponderID();
 
-  /// @brief Method get_ProducedAt, addr 0xffe984, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_ProducedAt, addr 0x10f20a8, size 0x1c, virtual false, abstract: false, final false
   inline ::System::DateTime get_ProducedAt();
 
 protected:

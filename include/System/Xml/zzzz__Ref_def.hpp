@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Ref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,7 +20,7 @@ namespace System::Xml {
 class CORDL_TYPE Ref : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Equal, addr 0x2da2304, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Equal, addr 0x2e9ec04, size 0xc, virtual false, abstract: false, final false
   static inline bool Equal(::StringW strA, ::StringW strB);
 
 protected:

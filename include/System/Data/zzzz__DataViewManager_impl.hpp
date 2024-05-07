@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/DataViewManager.hpp"
 #include "System/ComponentModel/zzzz__MarshalByValueComponent_impl.hpp"
 #include "System/Data/zzzz__DataViewManager_def.hpp"
 #include "System/Data/zzzz__DataViewSettingCollection_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataViewSettingCollection* (::System::Data::DataViewManager::*)()>(
     &::System::Data::DataViewManager::get_DataViewSettings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2bc12e0;
+  constexpr static std::size_t addrs = 0x2cbdbe0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataViewManager*>::get(), "get_DataViewSettings",

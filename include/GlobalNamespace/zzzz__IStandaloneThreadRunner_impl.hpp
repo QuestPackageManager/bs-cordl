@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IStandaloneThreadRunner.hpp"
 #include "GlobalNamespace/zzzz__IStandaloneThreadRunner_def.hpp"
 #include "GlobalNamespace/zzzz__IStandaloneThreadRunnable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IStandaloneThreadRunner.Run

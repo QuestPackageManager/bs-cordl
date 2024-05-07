@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Environments/Definitions/ColorSchemesAsyncInstaller.hpp"
 #include "BGLib/AppFlow/Initialization/zzzz__AddressablesAsyncInstaller_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Environments/Definitions/zzzz__ColorSchemesAsyncInstaller_def.hpp"
@@ -14,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Environments::Definitions::__ColorSchemesAsyncInstaller____c::*)()>(
     &::Environments::Definitions::__ColorSchemesAsyncInstaller____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x140dc9c;
+  constexpr static std::size_t addrs = 0x15002ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -29,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Environments::Definitions::__ColorSchemesAsyncInstaller____c::*)(::GlobalNamespace::ColorSchemeSO*)>(
     &::Environments::Definitions::__ColorSchemesAsyncInstaller____c::_LoadResourcesBeforeInstall_b__3_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x140dca4;
+  constexpr static std::size_t addrs = 0x15002f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -79,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Environments::Definitions::ColorSchemesAsyncInstaller::*)()>(
     &::Environments::Definitions::ColorSchemesAsyncInstaller::get_assetLabelRuntimeKey)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x140d98c;
+  constexpr static std::size_t addrs = 0x14fffdc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -96,7 +97,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::IList_1<::UnityW<::GlobalNamespace::ColorSchemeSO>>*, ::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry*)>(
     &::Environments::Definitions::ColorSchemesAsyncInstaller::LoadResourcesBeforeInstall)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x140d9cc;
+  constexpr static std::size_t addrs = 0x150001c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -112,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Environments::Definitions::ColorSchemesAsyncInstaller::*)()>(
     &::Environments::Definitions::ColorSchemesAsyncInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x140daf4;
+  constexpr static std::size_t addrs = 0x1500144;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -128,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Environments::Definitions::ColorSchemesAsyncInstaller::*)()>(
     &::Environments::Definitions::ColorSchemesAsyncInstaller::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x140dba8;
+  constexpr static std::size_t addrs = 0x15001f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Environments::Definitions::ColorSchemesAsyncInstaller*>::get(),

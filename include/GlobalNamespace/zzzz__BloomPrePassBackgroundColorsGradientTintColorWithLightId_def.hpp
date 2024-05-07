@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BloomPrePassBackgroundColorsGradientTintColorWithLightId.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,7 +36,7 @@ public:
   /// @brief Field grayscaleFactor, offset 0x54, size 0x4
   __declspec(property(get = __cordl_internal_get_grayscaleFactor, put = __cordl_internal_set_grayscaleFactor)) float_t grayscaleFactor;
 
-  /// @brief Method ColorWasSet, addr 0x23f9a34, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x24f1624, size 0x70, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::BloomPrePassBackgroundColorsGradientTintColorWithLightId* New_ctor();
@@ -58,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set_grayscaleFactor(float_t value);
 
-  /// @brief Method .ctor, addr 0x23f9aa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f1694, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/OffsetInstruction.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,16 +39,16 @@ public:
   /// @brief Field _offset, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__offset, put = __cordl_internal_set__offset)) int32_t _offset;
 
-  /// @brief Method Fixup, addr 0x2b15748, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Fixup, addr 0x2c13048, size 0x94, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Interpreter::Instruction* Fixup(int32_t offset);
 
   static inline ::System::Linq::Expressions::Interpreter::OffsetInstruction* New_ctor();
 
-  /// @brief Method ToDebugString, addr 0x2b157dc, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method ToDebugString, addr 0x2c130dc, size 0xc8, virtual true, abstract: false, final false
   inline ::StringW ToDebugString(int32_t instructionIndex, ::System::Object* cookie, ::System::Func_2<int32_t, int32_t>* labelIndexer,
                                  ::System::Collections::Generic::IReadOnlyList_1<::System::Object*>* objects);
 
-  /// @brief Method ToString, addr 0x2b158a4, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2c131a4, size 0xcc, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr int32_t const& __cordl_internal_get__offset() const;
@@ -56,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set__offset(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2b15970, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c13270, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_Cache, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/EnvironmentType.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::EnvironmentType::EnvironmentType(int32_t value__) noexcept {

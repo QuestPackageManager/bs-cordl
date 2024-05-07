@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/COpenVRContext.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "OVR/OpenVR/zzzz__COpenVRContext_def.hpp"
 // Ctor Parameters [CppParam { name: "m_pVRSystem", ty: "void*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_pVRChaperone", ty: "void*", modifiers: "", def_value: Some("{}") },

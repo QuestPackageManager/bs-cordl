@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/SwitchCase.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,10 +50,10 @@ public:
 
   constexpr void __cordl_internal_set__TestValues_k__BackingField(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* value);
 
-  /// @brief Method get_Body, addr 0x2b0ef1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Body, addr 0x2c0c81c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Body();
 
-  /// @brief Method get_TestValues, addr 0x2b0ef14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TestValues, addr 0x2c0c814, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* get_TestValues();
 
 protected:

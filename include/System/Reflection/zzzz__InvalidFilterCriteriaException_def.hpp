@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Reflection/InvalidFilterCriteriaException.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,16 +37,16 @@ public:
 
   static inline ::System::Reflection::InvalidFilterCriteriaException* New_ctor(::StringW message, ::System::Exception* inner);
 
-  /// @brief Method .ctor, addr 0x2767c60, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2867370, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2767d0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x286741c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x2767cc0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28673d0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x2767ce8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28673f8, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* inner);
 
 protected:

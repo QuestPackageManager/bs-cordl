@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/AssemblyLoadEventHandler.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__AssemblyLoadEventHandler_def.hpp"
 #include "System/zzzz__AssemblyLoadEventArgs_def.hpp"
@@ -8,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::AssemblyLoadEventHandler::*)(::System::Object*, void*)>(&::System::AssemblyLoadEventHandler::_ctor)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x279abe8;
+  constexpr static std::size_t addrs = 0x289a308;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::AssemblyLoadEventHandler::*)(::System::Object*, ::System::AssemblyLoadEventArgs*)>(
     &::System::AssemblyLoadEventHandler::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x279ad18;
+  constexpr static std::size_t addrs = 0x289a438;
 
   inline static ::MethodInfo const* methodInfo() {
 

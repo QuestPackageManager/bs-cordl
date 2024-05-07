@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Ocsp/OcspUtilities.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,18 +44,18 @@ public:
   /// @brief Field oids, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_oids, put = setStaticF_oids))::System::Collections::IDictionary* oids;
 
-  /// @brief Method GetAlgorithmName, addr 0x120c234, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method GetAlgorithmName, addr 0x12fc958, size 0x198, virtual false, abstract: false, final false
   static inline ::StringW GetAlgorithmName(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetAlgorithmOid, addr 0x1211b48, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method GetAlgorithmOid, addr 0x130226c, size 0x20c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetAlgorithmOid(::StringW algorithmName);
 
-  /// @brief Method GetSigAlgID, addr 0x120e7a4, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method GetSigAlgID, addr 0x12feec8, size 0x16c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* GetSigAlgID(::Org::BouncyCastle::Asn1::DerObjectIdentifier* sigOid);
 
   static inline ::Org::BouncyCastle::Ocsp::OcspUtilities* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1214b78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x130529c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::IDictionary* getStaticF_algorithms();
@@ -63,7 +64,7 @@ public:
 
   static inline ::System::Collections::IDictionary* getStaticF_oids();
 
-  /// @brief Method get_AlgNames, addr 0x120eaa8, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method get_AlgNames, addr 0x12ff1cc, size 0x10c, virtual false, abstract: false, final false
   static inline ::System::Collections::IEnumerable* get_AlgNames();
 
   static inline void setStaticF_algorithms(::System::Collections::IDictionary* value);

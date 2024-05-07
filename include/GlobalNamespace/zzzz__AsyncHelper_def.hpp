@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/AsyncHelper.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -53,10 +54,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0xf818c4, size 0x2a8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x1072e74, size 0x2a8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0xf81b6c, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x107311c, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -113,13 +114,13 @@ public:
   // Declarations
   using _AnyTaskTrueNonAlloc_d__2 = ::GlobalNamespace::__AsyncHelper___AnyTaskTrueNonAlloc_d__2;
 
-  /// @brief Method AnyTaskTrueNonAlloc, addr 0xf817cc, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method AnyTaskTrueNonAlloc, addr 0x1072d7c, size 0xf8, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<bool>* AnyTaskTrueNonAlloc(::System::Collections::Generic::List_1<::System::Threading::Tasks::Task_1<bool>*>* tasks);
 
   /// @brief Method RunSync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T RunSync(::System::Func_1<::System::Threading::Tasks::Task_1<T>*>* asyncTask);
 
-  /// @brief Method RunSync, addr 0xf81744, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method RunSync, addr 0x1072cf4, size 0x88, virtual false, abstract: false, final false
   static inline void RunSync(::System::Func_1<::System::Threading::Tasks::Task*>* asyncTask);
 
 protected:

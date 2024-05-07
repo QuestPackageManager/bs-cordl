@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/LocalDataStoreHolder.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__LocalDataStoreHolder_def.hpp"
 #include "System/zzzz__LocalDataStore_def.hpp"
@@ -7,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::LocalDataStoreHolder::*)(::System::LocalDataStore*)>(&::System::LocalDataStoreHolder::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x285e174;
+  constexpr static std::size_t addrs = 0x295ca1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -21,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::LocalDataStoreHolder::*)()>(&::System::LocalDataStoreHolder::Finalize)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x285e19c;
+  constexpr static std::size_t addrs = 0x295ca44;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -35,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::LocalDataStore* (::System::LocalDataStoreHolder::*)()>(&::System::LocalDataStoreHolder::get_Store)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x285e254;
+  constexpr static std::size_t addrs = 0x295cafc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::LocalDataStoreHolder*>::get(), "get_Store",

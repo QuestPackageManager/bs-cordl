@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatmapDataLoaderVersion4/BpmEventConverter.hpp"
 #include "GlobalNamespace/zzzz__BeatToTimeConverterProvider_impl.hpp"
 #include "BeatmapDataLoaderVersion4/zzzz__BpmEventConverter_def.hpp"
 #include "BeatmapLevelSaveDataVersion4/zzzz__BpmData_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapDataLoaderVersion4::BpmEventConverter::*)(int32_t, ::GlobalNamespace::BpmTimeProcessor*)>(
     &::BeatmapDataLoaderVersion4::BpmEventConverter::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x1403d90;
+  constexpr static std::size_t addrs = 0x14f6350;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapEventData* (
     ::BeatmapDataLoaderVersion4::BpmEventConverter::*)(::BeatmapLevelSaveDataVersion4::BpmData*)>(&::BeatmapDataLoaderVersion4::BpmEventConverter::Convert)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x1403dbc;
+  constexpr static std::size_t addrs = 0x14f637c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/HttpListenerException.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,16 +36,16 @@ public:
   static inline ::System::Net::HttpListenerException* New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
                                                                ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method .ctor, addr 0x2ecefa8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fd18a8, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2ecf00c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fd190c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t errorCode, ::StringW message);
 
-  /// @brief Method .ctor, addr 0x2ecf014, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fd1914, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method get_ErrorCode, addr 0x2ecf01c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ErrorCode, addr 0x2fd191c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ErrorCode();
 
 protected:

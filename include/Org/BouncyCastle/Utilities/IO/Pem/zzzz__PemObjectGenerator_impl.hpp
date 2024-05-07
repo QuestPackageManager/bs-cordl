@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Utilities/IO/Pem/PemObjectGenerator.hpp"
 #include "Org/BouncyCastle/Utilities/IO/Pem/zzzz__PemObjectGenerator_def.hpp"
 #include "Org/BouncyCastle/Utilities/IO/Pem/zzzz__PemObject_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator.Generate

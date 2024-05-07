@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Bcpg/UserAttributeSubpacket.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,16 +42,16 @@ public:
   /// @brief Field type, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag type;
 
-  /// @brief Method Encode, addr 0x1335cf4, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x1429418, size 0x138, virtual true, abstract: false, final false
   inline void Encode(::System::IO::Stream* os);
 
-  /// @brief Method Equals, addr 0x1335e2c, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x1429550, size 0xe8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetData, addr 0x1335cec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetData, addr 0x1429410, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetData();
 
-  /// @brief Method GetHashCode, addr 0x1335f14, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x1429638, size 0x10a4, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::Org::BouncyCastle::Bcpg::UserAttributeSubpacket* New_ctor(::Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag type, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
@@ -75,13 +76,13 @@ public:
 
   constexpr void __cordl_internal_set_type(::Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag value);
 
-  /// @brief Method .ctor, addr 0x1335c70, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1429394, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag type, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0x1335ca4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14293c8, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag type, bool forceLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method get_SubpacketType, addr 0x1335ce4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SubpacketType, addr 0x1429408, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag get_SubpacketType();
 
 protected:

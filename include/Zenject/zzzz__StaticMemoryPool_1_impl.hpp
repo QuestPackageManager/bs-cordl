@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/StaticMemoryPool_1.hpp"
 #include "Zenject/zzzz__StaticMemoryPoolBase_1_impl.hpp"
 #include "Zenject/zzzz__StaticMemoryPool_1_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"

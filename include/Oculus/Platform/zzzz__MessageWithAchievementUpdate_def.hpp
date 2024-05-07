@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/MessageWithAchievementUpdate.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,15 +23,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithAchievementUpdate : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AchievementUpdate*> {
 public:
   // Declarations
-  /// @brief Method GetAchievementUpdate, addr 0x29c933c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetAchievementUpdate, addr 0x2ac6bec, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AchievementUpdate* GetAchievementUpdate();
 
-  /// @brief Method GetDataFromMessage, addr 0x29c9378, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x2ac6c28, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AchievementUpdate* GetDataFromMessage(void* c_message);
 
   static inline ::Oculus::Platform::MessageWithAchievementUpdate* New_ctor(void* c_message);
 
-  /// @brief Method .ctor, addr 0x29c72ac, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ac4b5c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(void* c_message);
 
 protected:

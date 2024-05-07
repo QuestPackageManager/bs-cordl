@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Unity/UnityTls.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -783,14 +784,14 @@ namespace Mono::Unity {
 class CORDL_TYPE __UnityTls__unitytls_x509verify_callback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2b60a88, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2c5d388, size 0x14, virtual true, abstract: false, final false
   inline ::Mono::Unity::__UnityTls__unitytls_x509verify_result Invoke(::cordl_internals::Ptr<void> userData, ::Mono::Unity::__UnityTls__unitytls_x509_ref cert,
                                                                       ::Mono::Unity::__UnityTls__unitytls_x509verify_result result,
                                                                       ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::Mono::Unity::__UnityTls__unitytls_x509verify_callback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2b609b0, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c5d2b0, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1018,12 +1019,12 @@ namespace Mono::Unity {
 class CORDL_TYPE __UnityTls__unitytls_tlsctx_write_callback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2b60b74, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2c5d474, size 0x14, virtual true, abstract: false, final false
   inline void* Invoke(::cordl_internals::Ptr<void> userData, ::cordl_internals::Ptr<uint8_t> data, void* bufferLen, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::Mono::Unity::__UnityTls__unitytls_tlsctx_write_callback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2b60a9c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c5d39c, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1054,13 +1055,13 @@ namespace Mono::Unity {
 class CORDL_TYPE __UnityTls__unitytls_tlsctx_read_callback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2b60c60, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2c5d560, size 0x14, virtual true, abstract: false, final false
   inline void* Invoke(::cordl_internals::Ptr<void> userData, ::cordl_internals::Ptr<uint8_t> buffer, void* bufferLen,
                       ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::Mono::Unity::__UnityTls__unitytls_tlsctx_read_callback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2b60b88, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c5d488, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1091,13 +1092,13 @@ namespace Mono::Unity {
 class CORDL_TYPE __UnityTls__unitytls_tlsctx_trace_callback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2b60d4c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2c5d64c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<void> userData, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx, ::cordl_internals::Ptr<uint8_t> traceMessage,
                      void* traceMessageLen);
 
   static inline ::Mono::Unity::__UnityTls__unitytls_tlsctx_trace_callback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2b60c74, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c5d574, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1128,14 +1129,14 @@ namespace Mono::Unity {
 class CORDL_TYPE __UnityTls__unitytls_tlsctx_certificate_callback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2b60e38, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2c5d738, size 0x1c, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<void> userData, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx, ::cordl_internals::Ptr<uint8_t> cn, void* cnLen,
                      ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509name> caList, void* caListLen, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list_ref> chain,
                      ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_key_ref> key, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::Mono::Unity::__UnityTls__unitytls_tlsctx_certificate_callback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2b60d60, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c5d660, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1166,13 +1167,13 @@ namespace Mono::Unity {
 class CORDL_TYPE __UnityTls__unitytls_tlsctx_x509verify_callback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2b60f2c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2c5d82c, size 0x14, virtual true, abstract: false, final false
   inline ::Mono::Unity::__UnityTls__unitytls_x509verify_result Invoke(::cordl_internals::Ptr<void> userData, ::Mono::Unity::__UnityTls__unitytls_x509list_ref chain,
                                                                       ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::Mono::Unity::__UnityTls__unitytls_tlsctx_x509verify_callback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2b60e54, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c5d754, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1244,12 +1245,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_errorstate_create_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2b61004, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2c5d904, size 0x14, virtual true, abstract: false, final false
   inline ::Mono::Unity::__UnityTls__unitytls_errorstate Invoke();
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_create_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2b60f48, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c5d848, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1280,12 +1281,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_errorstate_raise_error_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2b610f0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2c5d9f0, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState, ::Mono::Unity::__UnityTls__unitytls_error_code errorCode);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_raise_error_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2b61018, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c5d918, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1316,13 +1317,13 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_key_get_ref_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2b611dc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2c5dadc, size 0x14, virtual true, abstract: false, final false
   inline ::Mono::Unity::__UnityTls__unitytls_key_ref Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_key> key,
                                                             ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_get_ref_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2b61104, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c5da04, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1353,13 +1354,13 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_key_parse_der_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2b612c8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2c5dbc8, size 0x14, virtual true, abstract: false, final false
   inline ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_key> Invoke(::cordl_internals::Ptr<uint8_t> buffer, void* bufferLen, ::cordl_internals::Ptr<uint8_t> password, void* passwordLen,
                                                                                 ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_der_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2b611f0, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c5daf0, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1390,13 +1391,13 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_key_parse_pem_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2b613b4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2c5dcb4, size 0x14, virtual true, abstract: false, final false
   inline ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_key> Invoke(::cordl_internals::Ptr<uint8_t> buffer, void* bufferLen, ::cordl_internals::Ptr<uint8_t> password, void* passwordLen,
                                                                                 ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_pem_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2b612dc, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c5dbdc, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1427,12 +1428,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_key_free_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2b6149c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2c5dd9c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_key> key);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_free_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2b613c8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c5dcc8, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1463,13 +1464,13 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_x509_export_der_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2b61574, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2c5de74, size 0x14, virtual true, abstract: false, final false
   inline void* Invoke(::Mono::Unity::__UnityTls__unitytls_x509_ref cert, ::cordl_internals::Ptr<uint8_t> buffer, void* bufferLen,
                       ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509_export_der_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2b614b0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c5ddb0, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1500,13 +1501,13 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_x509list_get_ref_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2b61660, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2c5df60, size 0x14, virtual true, abstract: false, final false
   inline ::Mono::Unity::__UnityTls__unitytls_x509list_ref Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list> list,
                                                                  ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_ref_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2b61588, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c5de88, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1537,13 +1538,13 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_x509list_get_x509_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2b61738, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2c5e038, size 0x14, virtual true, abstract: false, final false
   inline ::Mono::Unity::__UnityTls__unitytls_x509_ref Invoke(::Mono::Unity::__UnityTls__unitytls_x509list_ref list, void* index,
                                                              ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_x509_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2b61674, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c5df74, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1574,12 +1575,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_x509list_create_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2b61820, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2c5e120, size 0x14, virtual true, abstract: false, final false
   inline ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list> Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_create_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2b6174c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c5e04c, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1610,13 +1611,13 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_x509list_append_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2b6190c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2c5e20c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list> list, ::Mono::Unity::__UnityTls__unitytls_x509_ref cert,
                      ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2b61834, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c5e134, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1647,13 +1648,13 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2b619f8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2c5e2f8, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list> list, ::cordl_internals::Ptr<uint8_t> buffer, void* bufferLen,
                      ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2b61920, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c5e220, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1684,12 +1685,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_x509list_free_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2b61ae0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2c5e3e0, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list> list);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_free_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2b61a0c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c5e30c, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1720,14 +1721,14 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_x509verify_default_ca_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2b61bb8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2c5e4b8, size 0x14, virtual true, abstract: false, final false
   inline ::Mono::Unity::__UnityTls__unitytls_x509verify_result Invoke(::Mono::Unity::__UnityTls__unitytls_x509list_ref chain, ::cordl_internals::Ptr<uint8_t> cn, void* cnLen,
                                                                       ::Mono::Unity::__UnityTls__unitytls_x509verify_callback* cb, ::cordl_internals::Ptr<void> userData,
                                                                       ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_default_ca_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2b61af4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c5e3f4, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1758,14 +1759,14 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_x509verify_explicit_ca_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2b61c90, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2c5e590, size 0x18, virtual true, abstract: false, final false
   inline ::Mono::Unity::__UnityTls__unitytls_x509verify_result Invoke(::Mono::Unity::__UnityTls__unitytls_x509list_ref chain, ::Mono::Unity::__UnityTls__unitytls_x509list_ref trustCA,
                                                                       ::cordl_internals::Ptr<uint8_t> cn, void* cnLen, ::Mono::Unity::__UnityTls__unitytls_x509verify_callback* cb,
                                                                       ::cordl_internals::Ptr<void> userData, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_explicit_ca_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2b61bcc, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c5e4cc, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1796,14 +1797,14 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_server_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2b61d6c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2c5e66c, size 0x3c, virtual true, abstract: false, final false
   inline ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> Invoke(::Mono::Unity::__UnityTls__unitytls_tlsctx_protocolrange supportedProtocols,
                                                                                    ::Mono::Unity::__UnityTls__unitytls_tlsctx_callbacks callbacks, uint64_t certChain, uint64_t leafCertificateKey,
                                                                                    ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_server_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2b61ca8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c5e5a8, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1834,14 +1835,14 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_client_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2b61e6c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2c5e76c, size 0x3c, virtual true, abstract: false, final false
   inline ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> Invoke(::Mono::Unity::__UnityTls__unitytls_tlsctx_protocolrange supportedProtocols,
                                                                                    ::Mono::Unity::__UnityTls__unitytls_tlsctx_callbacks callbacks, ::cordl_internals::Ptr<uint8_t> cn, void* cnLen,
                                                                                    ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_client_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2b61da8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c5e6a8, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1872,13 +1873,13 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_server_require_client_authentication_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2b61f80, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2c5e880, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx, ::Mono::Unity::__UnityTls__unitytls_x509list_ref clientAuthCAList,
                      ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_server_require_client_authentication_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2b61ea8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c5e7a8, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1911,13 +1912,13 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_certificate_callback_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2b6206c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2c5e96c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx, ::Mono::Unity::__UnityTls__unitytls_tlsctx_certificate_callback* cb, ::cordl_internals::Ptr<void> userData,
                      ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_certificate_callback_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2b61f94, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c5e894, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1948,13 +1949,13 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_trace_callback_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2b62158, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2c5ea58, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx, ::Mono::Unity::__UnityTls__unitytls_tlsctx_trace_callback* cb, ::cordl_internals::Ptr<void> userData,
                      ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_trace_callback_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2b62080, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c5e980, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -1985,13 +1986,13 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_x509verify_callback_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2b62244, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2c5eb44, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx, ::Mono::Unity::__UnityTls__unitytls_tlsctx_x509verify_callback* cb, ::cordl_internals::Ptr<void> userData,
                      ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_x509verify_callback_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2b6216c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c5ea6c, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -2022,13 +2023,13 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_supported_ciphersuites_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2b62330, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2c5ec30, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_ciphersuite> supportedCiphersuites,
                      void* supportedCiphersuitesLen, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_supported_ciphersuites_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2b62258, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c5eb58, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -2059,13 +2060,13 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_ciphersuite_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2b6241c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2c5ed1c, size 0x14, virtual true, abstract: false, final false
   inline ::Mono::Unity::__UnityTls__unitytls_ciphersuite Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx,
                                                                 ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_ciphersuite_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2b62344, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c5ec44, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -2096,13 +2097,13 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_protocol_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2b62508, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2c5ee08, size 0x14, virtual true, abstract: false, final false
   inline ::Mono::Unity::__UnityTls__unitytls_protocol Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx,
                                                              ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_protocol_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2b62430, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c5ed30, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -2133,13 +2134,13 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_process_handshake_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2b625f4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2c5eef4, size 0x14, virtual true, abstract: false, final false
   inline ::Mono::Unity::__UnityTls__unitytls_x509verify_result Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx,
                                                                       ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_process_handshake_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2b6251c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c5ee1c, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -2170,13 +2171,13 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_read_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2b626e0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2c5efe0, size 0x14, virtual true, abstract: false, final false
   inline void* Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx, ::cordl_internals::Ptr<uint8_t> buffer, void* bufferLen,
                       ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_read_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2b62608, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c5ef08, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -2207,13 +2208,13 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_write_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2b627cc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2c5f0cc, size 0x14, virtual true, abstract: false, final false
   inline void* Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx, ::cordl_internals::Ptr<uint8_t> data, void* bufferLen,
                       ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_write_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2b626f4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c5eff4, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -2244,12 +2245,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_notify_close_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2b628b8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2c5f1b8, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_notify_close_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2b627e0, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c5f0e0, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -2280,12 +2281,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_free_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2b629a0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2c5f2a0, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_tlsctx> ctx);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_free_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2b628cc, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c5f1cc, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -2316,12 +2317,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_random_generate_bytes_t : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2b62a8c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2c5f38c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::cordl_internals::Ptr<uint8_t> buffer, void* bufferLen, ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
   static inline ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_random_generate_bytes_t* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2b629b4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c5f2b4, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -2771,7 +2772,7 @@ public:
 
   constexpr void __cordl_internal_set_unitytls_x509verify_explicit_ca(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_explicit_ca_t* value);
 
-  /// @brief Method .ctor, addr 0x2b60f40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c5d840, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -3012,15 +3013,15 @@ public:
   /// @brief Field marshalledInterface, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_marshalledInterface, put = setStaticF_marshalledInterface))::Mono::Unity::__UnityTls__unitytls_interface_struct* marshalledInterface;
 
-  /// @brief Method GetUnityTlsInterface, addr 0x2b60994, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetUnityTlsInterface, addr 0x2c5d294, size 0x4, virtual false, abstract: false, final false
   static inline void* GetUnityTlsInterface();
 
   static inline ::Mono::Unity::__UnityTls__unitytls_interface_struct* getStaticF_marshalledInterface();
 
-  /// @brief Method get_IsSupported, addr 0x2b60998, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_IsSupported, addr 0x2c5d298, size 0x18, virtual false, abstract: false, final false
   static inline bool get_IsSupported();
 
-  /// @brief Method get_NativeInterface, addr 0x2b606e4, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method get_NativeInterface, addr 0x2c5cfe4, size 0xe4, virtual false, abstract: false, final false
   static inline ::Mono::Unity::__UnityTls__unitytls_interface_struct* get_NativeInterface();
 
   static inline void setStaticF_marshalledInterface(::Mono::Unity::__UnityTls__unitytls_interface_struct* value);

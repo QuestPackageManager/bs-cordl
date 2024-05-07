@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/FieldExpression.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -35,7 +36,7 @@ public:
   /// @brief Field _field, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__field, put = __cordl_internal_set__field))::System::Reflection::FieldInfo* _field;
 
-  /// @brief Method GetMember, addr 0x2b0c6e8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetMember, addr 0x2c09fe8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Reflection::MemberInfo* GetMember();
 
   static inline ::System::Linq::Expressions::FieldExpression* New_ctor(::System::Linq::Expressions::Expression* expression, ::System::Reflection::FieldInfo* member);
@@ -46,10 +47,10 @@ public:
 
   constexpr void __cordl_internal_set__field(::System::Reflection::FieldInfo* value);
 
-  /// @brief Method .ctor, addr 0x2b0c668, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c09f68, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Expression* expression, ::System::Reflection::FieldInfo* member);
 
-  /// @brief Method get_Type, addr 0x2b0c6f0, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method get_Type, addr 0x2c09ff0, size 0x24, virtual true, abstract: false, final true
   inline ::System::Type* get_Type();
 
 protected:

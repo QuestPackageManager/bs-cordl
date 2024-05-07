@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MultiplayerUnavailableReasonMethods.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,19 +30,19 @@ namespace GlobalNamespace {
 class CORDL_TYPE MultiplayerUnavailableReasonMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ErrorCode, addr 0x13e3f30, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method ErrorCode, addr 0x14d72e0, size 0x80, virtual false, abstract: false, final false
   static inline ::StringW ErrorCode(::GlobalNamespace::MultiplayerUnavailableReason multiplayerUnavailableReason);
 
-  /// @brief Method GetLocalizedMessage, addr 0x13e42c0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetLocalizedMessage, addr 0x14d7670, size 0xb0, virtual false, abstract: false, final false
   static inline ::StringW GetLocalizedMessage(::GlobalNamespace::MultiplayerStatusData* data, ::BGLib::Polyglot::Language language);
 
-  /// @brief Method LocalizedKey, addr 0x13e3eac, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method LocalizedKey, addr 0x14d725c, size 0x84, virtual false, abstract: false, final false
   static inline ::StringW LocalizedKey(::GlobalNamespace::MultiplayerUnavailableReason multiplayerUnavailableReason);
 
-  /// @brief Method TryGetMultiplayerUnavailableReason, addr 0x13e3fb0, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method TryGetMultiplayerUnavailableReason, addr 0x14d7360, size 0x108, virtual false, abstract: false, final false
   static inline bool TryGetMultiplayerUnavailableReason(::GlobalNamespace::MultiplayerStatusData* data, ByRef<::GlobalNamespace::MultiplayerUnavailableReason> reason);
 
-  /// @brief Method VersionLessThan, addr 0x13e40b8, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method VersionLessThan, addr 0x14d7468, size 0x208, virtual false, abstract: false, final false
   static inline bool VersionLessThan(::StringW currentVersion, ::StringW minVersion);
 
 protected:

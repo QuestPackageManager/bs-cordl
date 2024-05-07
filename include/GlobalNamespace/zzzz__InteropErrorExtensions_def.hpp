@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/InteropErrorExtensions.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +25,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE InteropErrorExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Info, addr 0x2692bb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Info, addr 0x278ffb0, size 0x8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__Interop__ErrorInfo Info(::GlobalNamespace::__Interop__Error error);
 
 protected:

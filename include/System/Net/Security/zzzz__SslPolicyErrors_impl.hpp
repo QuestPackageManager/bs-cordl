@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Security/SslPolicyErrors.hpp"
 #include "System/Net/Security/zzzz__SslPolicyErrors_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Net::Security::SslPolicyErrors::SslPolicyErrors(int32_t value__) noexcept {

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MultiplayerSpectatingSpotPickerViewController.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,24 +35,24 @@ public:
   /// @brief Field _stepValuePicker, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__stepValuePicker, put = __cordl_internal_set__stepValuePicker))::UnityW<::GlobalNamespace::StepValuePicker> _stepValuePicker;
 
-  /// @brief Method HandleDecButtonWasPressed, addr 0x25e63a8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleDecButtonWasPressed, addr 0x26e61ac, size 0x1c, virtual false, abstract: false, final false
   inline void HandleDecButtonWasPressed();
 
-  /// @brief Method HandleIncButtonWasPressed, addr 0x25e638c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleIncButtonWasPressed, addr 0x26e6190, size 0x1c, virtual false, abstract: false, final false
   inline void HandleIncButtonWasPressed();
 
-  /// @brief Method HandleSpectatingSpotDidChangeEvent, addr 0x25e6388, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleSpectatingSpotDidChangeEvent, addr 0x26e618c, size 0x4, virtual false, abstract: false, final false
   inline void HandleSpectatingSpotDidChangeEvent(::GlobalNamespace::IMultiplayerSpectatingSpot* spectatingSpot);
 
   static inline ::GlobalNamespace::MultiplayerSpectatingSpotPickerViewController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x25e61d4, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x26e5fd8, size 0x1b4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RefreshSpectatingSpotName, addr 0x25e60d8, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method RefreshSpectatingSpotName, addr 0x26e5edc, size 0xfc, virtual false, abstract: false, final false
   inline void RefreshSpectatingSpotName();
 
-  /// @brief Method Start, addr 0x25e5f90, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x26e5d94, size 0x148, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::MultiplayerSpectatorController> const& __cordl_internal_get__spectatorController() const;
@@ -66,7 +67,7 @@ public:
 
   constexpr void __cordl_internal_set__stepValuePicker(::UnityW<::GlobalNamespace::StepValuePicker> value);
 
-  /// @brief Method .ctor, addr 0x25e63c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e61c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

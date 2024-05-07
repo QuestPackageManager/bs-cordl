@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/StyleVariableResolver.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -197,39 +198,39 @@ public:
 
   __declspec(property(get = get_variableContext, put = set_variableContext))::UnityEngine::UIElements::StyleVariableContext* variableContext;
 
-  /// @brief Method AddValue, addr 0x33b94d8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method AddValue, addr 0x35bf214, size 0xac, virtual false, abstract: false, final false
   inline void AddValue(::UnityEngine::UIElements::StyleValueHandle handle);
 
-  /// @brief Method Init, addr 0x33b9340, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x35bf07c, size 0xb0, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::StyleProperty* property, ::UnityEngine::UIElements::StyleSheet* sheet,
                    ::ArrayW<::UnityEngine::UIElements::StyleValueHandle, ::Array<::UnityEngine::UIElements::StyleValueHandle>*> handles);
 
   static inline ::UnityEngine::UIElements::StyleVariableResolver* New_ctor();
 
-  /// @brief Method ParseVarFunction, addr 0x33b9650, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ParseVarFunction, addr 0x35bf38c, size 0xb0, virtual false, abstract: false, final false
   static inline void ParseVarFunction(::UnityEngine::UIElements::StyleSheet* sheet,
                                       ::ArrayW<::UnityEngine::UIElements::StyleValueHandle, ::Array<::UnityEngine::UIElements::StyleValueHandle>*> handles, ByRef<int32_t> index,
                                       ByRef<int32_t> argCount, ByRef<::StringW> variableName);
 
-  /// @brief Method PopContext, addr 0x33b945c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method PopContext, addr 0x35bf198, size 0x7c, virtual false, abstract: false, final false
   inline void PopContext();
 
-  /// @brief Method PushContext, addr 0x33b93f0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method PushContext, addr 0x35bf12c, size 0x6c, virtual false, abstract: false, final false
   inline void PushContext(::UnityEngine::UIElements::StyleSheet* sheet, ::ArrayW<::UnityEngine::UIElements::StyleValueHandle, ::Array<::UnityEngine::UIElements::StyleValueHandle>*> handles);
 
-  /// @brief Method ResolveFallback, addr 0x33b9adc, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method ResolveFallback, addr 0x35bf818, size 0x284, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::__StyleVariableResolver__Result ResolveFallback(ByRef<int32_t> index);
 
-  /// @brief Method ResolveVarFunction, addr 0x33b9700, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method ResolveVarFunction, addr 0x35bf43c, size 0x15c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::__StyleVariableResolver__Result ResolveVarFunction(ByRef<int32_t> index, int32_t argc, ::StringW varName);
 
-  /// @brief Method ResolveVarFunction, addr 0x33b9584, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method ResolveVarFunction, addr 0x35bf2c0, size 0xcc, virtual false, abstract: false, final false
   inline bool ResolveVarFunction(ByRef<int32_t> index);
 
-  /// @brief Method ResolveVariable, addr 0x33b985c, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method ResolveVariable, addr 0x35bf598, size 0x278, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::__StyleVariableResolver__Result ResolveVariable(::StringW variableName);
 
-  /// @brief Method ValidateResolvedValues, addr 0x33b9d60, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method ValidateResolvedValues, addr 0x35bfa9c, size 0x170, virtual false, abstract: false, final false
   inline bool ValidateResolvedValues();
 
   constexpr ::UnityEngine::UIElements::StyleVariableContext*& __cordl_internal_get__variableContext_k__BackingField();
@@ -276,26 +277,26 @@ public:
 
   constexpr void __cordl_internal_set_m_ResolvedVarStack(::System::Collections::Generic::Stack_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x33ba028, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35bfd64, size 0x134, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxParser* getStaticF_s_SyntaxParser();
 
-  /// @brief Method get_currentHandles, addr 0x33b9320, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_currentHandles, addr 0x35bf05c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::UIElements::StyleValueHandle, ::Array<::UnityEngine::UIElements::StyleValueHandle>*> get_currentHandles();
 
-  /// @brief Method get_currentSheet, addr 0x33b9318, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_currentSheet, addr 0x35bf054, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UIElements::StyleSheet> get_currentSheet();
 
-  /// @brief Method get_resolvedValues, addr 0x33b9328, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_resolvedValues, addr 0x35bf064, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StylePropertyValue>* get_resolvedValues();
 
-  /// @brief Method get_variableContext, addr 0x33b9330, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_variableContext, addr 0x35bf06c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleVariableContext* get_variableContext();
 
   static inline void setStaticF_s_SyntaxParser(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxParser* value);
 
-  /// @brief Method set_variableContext, addr 0x33b9338, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_variableContext, addr 0x35bf074, size 0x8, virtual false, abstract: false, final false
   inline void set_variableContext(::UnityEngine::UIElements::StyleVariableContext* value);
 
 protected:

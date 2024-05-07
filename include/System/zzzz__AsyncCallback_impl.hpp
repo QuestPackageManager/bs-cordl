@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/AsyncCallback.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
@@ -8,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::AsyncCallback::*)(::System::Object*, void*)>(&::System::AsyncCallback::_ctor)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x279ad2c;
+  constexpr static std::size_t addrs = 0x289a44c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -22,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::AsyncCallback::*)(::System::IAsyncResult*)>(&::System::AsyncCallback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x279ae58;
+  constexpr static std::size_t addrs = 0x289a578;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -37,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::IAsyncResult* (::System::AsyncCallback::*)(::System::IAsyncResult*, ::System::AsyncCallback*, ::System::Object*)>(&::System::AsyncCallback::BeginInvoke)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x279ae6c;
+  constexpr static std::size_t addrs = 0x289a58c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -51,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::AsyncCallback::*)(::System::IAsyncResult*)>(&::System::AsyncCallback::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x279ae8c;
+  constexpr static std::size_t addrs = 0x289a5ac;
 
   inline static ::MethodInfo const* methodInfo() {
 

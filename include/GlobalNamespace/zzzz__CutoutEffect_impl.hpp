@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/CutoutEffect.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__CutoutEffect_def.hpp"
@@ -10,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::CutoutEffect::*)()>(&::GlobalNamespace::CutoutEffect::get_useRandomCutoutOffset)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x25b8ea0;
+  constexpr static std::size_t addrs = 0x26b684c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CutoutEffect*>::get(),
@@ -23,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CutoutEffect::*)()>(&::GlobalNamespace::CutoutEffect::Start)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x25b8ee8;
+  constexpr static std::size_t addrs = 0x26b6894;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CutoutEffect*>::get(), "Start",
@@ -36,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CutoutEffect::*)(float_t)>(&::GlobalNamespace::CutoutEffect::SetCutout)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x25b8c5c;
+  constexpr static std::size_t addrs = 0x26b6608;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -51,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CutoutEffect::*)(float_t, ::UnityEngine::Vector3)>(
     &::GlobalNamespace::CutoutEffect::SetCutout)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x25b8f24;
+  constexpr static std::size_t addrs = 0x26b68d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -66,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CutoutEffect::*)()>(&::GlobalNamespace::CutoutEffect::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25b9008;
+  constexpr static std::size_t addrs = 0x26b69b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CutoutEffect*>::get(), ".ctor",

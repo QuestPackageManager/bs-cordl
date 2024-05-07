@@ -1,12 +1,13 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/PlaybackRecord.hpp"
 #include "BeatSaber/RecPlay/zzzz__PoseNoise_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__PlaybackRecord_def.hpp"
+#include "BeatSaber/GameSettings/zzzz__MainSettingsHandler_def.hpp"
 #include "BeatSaber/RecPlay/zzzz__PlayerPoseSampler_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
 #include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
 #include "GlobalNamespace/zzzz__LevelRecording_def.hpp"
-#include "GlobalNamespace/zzzz__MainSettingsModelSO_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerTransforms_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerVRControllersManager_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
@@ -14,14 +15,14 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlaybackRecord::*)(
-    ::GlobalNamespace::MainSettingsModelSO*, ::GlobalNamespace::IVRPlatformHelper*, ::GlobalNamespace::LevelRecording*)>(&::GlobalNamespace::PlaybackRecord::Initialize)> {
+    ::BeatSaber::GameSettings::MainSettingsHandler*, ::GlobalNamespace::IVRPlatformHelper*, ::GlobalNamespace::LevelRecording*)>(&::GlobalNamespace::PlaybackRecord::Initialize)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x25971a4;
+  constexpr static std::size_t addrs = 0x269042c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlaybackRecord*>::get(), "Initialize", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MainSettingsModelSO*>::get(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatSaber::GameSettings::MainSettingsHandler*>::get(),
                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IVRPlatformHelper*>::get(),
                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::LevelRecording*>::get() })));
     return ___internal_method;
@@ -32,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlaybackRecord::*)()>(&::GlobalNamespace::PlaybackRecord::Enable)> {
   constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x2597790;
+  constexpr static std::size_t addrs = 0x2690a0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlaybackRecord*>::get(), "Enable",
@@ -45,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlaybackRecord::*)()>(&::GlobalNamespace::PlaybackRecord::Disable)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x2597910;
+  constexpr static std::size_t addrs = 0x2690b8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlaybackRecord*>::get(), "Disable",
@@ -58,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlaybackRecord::*)()>(&::GlobalNamespace::PlaybackRecord::Refresh)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x2597a48;
+  constexpr static std::size_t addrs = 0x2690cc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlaybackRecord*>::get(), "Refresh",
@@ -71,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlaybackRecord::*)()>(&::GlobalNamespace::PlaybackRecord::Update)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2597b98;
+  constexpr static std::size_t addrs = 0x2690e14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlaybackRecord*>::get(), "Update",
@@ -84,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlaybackRecord::*)()>(&::GlobalNamespace::PlaybackRecord::OnEnable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2597b9c;
+  constexpr static std::size_t addrs = 0x2690e18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlaybackRecord*>::get(), "OnEnable",
@@ -97,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlaybackRecord::*)()>(&::GlobalNamespace::PlaybackRecord::OnDisable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2597ba0;
+  constexpr static std::size_t addrs = 0x2690e1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlaybackRecord*>::get(), "OnDisable",
@@ -110,7 +111,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlaybackRecord::*)()>(&::GlobalNamespace::PlaybackRecord::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2597ba4;
+  constexpr static std::size_t addrs = 0x2690e20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlaybackRecord*>::get(), ".ctor",
@@ -190,14 +191,14 @@ constexpr void GlobalNamespace::PlaybackRecord::__cordl_internal_set__hmdCamera(
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____hmdCamera)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::PlaybackRecord::Initialize(::GlobalNamespace::MainSettingsModelSO* settings, ::GlobalNamespace::IVRPlatformHelper* vrPlatformHelper,
+inline void GlobalNamespace::PlaybackRecord::Initialize(::BeatSaber::GameSettings::MainSettingsHandler* mainSettingsHandler, ::GlobalNamespace::IVRPlatformHelper* vrPlatformHelper,
                                                         ::GlobalNamespace::LevelRecording* recording) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlaybackRecord*>::get(), "Initialize", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MainSettingsModelSO*>::get(),
+                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatSaber::GameSettings::MainSettingsHandler*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IVRPlatformHelper*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::LevelRecording*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, settings, vrPlatformHelper, recording);
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, mainSettingsHandler, vrPlatformHelper, recording);
 }
 inline void GlobalNamespace::PlaybackRecord::Enable() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlaybackRecord*>::get(), "Enable",

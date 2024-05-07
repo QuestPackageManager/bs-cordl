@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Text/DecoderExceptionFallbackBuffer.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,21 +23,21 @@ public:
   // Declarations
   __declspec(property(get = get_Remaining)) int32_t Remaining;
 
-  /// @brief Method Fallback, addr 0x28ba14c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Fallback, addr 0x29b89fc, size 0x8, virtual true, abstract: false, final false
   inline bool Fallback(::ArrayW<uint8_t, ::Array<uint8_t>*> bytesUnknown, int32_t index);
 
-  /// @brief Method GetNextChar, addr 0x28ba328, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetNextChar, addr 0x29b8bd8, size 0x8, virtual true, abstract: false, final false
   inline char16_t GetNextChar();
 
   static inline ::System::Text::DecoderExceptionFallbackBuffer* New_ctor();
 
-  /// @brief Method Throw, addr 0x28ba154, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method Throw, addr 0x29b8a04, size 0x1d4, virtual false, abstract: false, final false
   inline void Throw(::ArrayW<uint8_t, ::Array<uint8_t>*> bytesUnknown, int32_t index);
 
-  /// @brief Method .ctor, addr 0x28ba0d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29b8988, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Remaining, addr 0x28ba330, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Remaining, addr 0x29b8be0, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Remaining();
 
 protected:

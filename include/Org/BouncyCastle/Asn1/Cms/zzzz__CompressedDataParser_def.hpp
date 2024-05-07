@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Cms/CompressedDataParser.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,7 +44,7 @@ public:
   /// @brief Field _version, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version))::Org::BouncyCastle::Asn1::DerInteger* _version;
 
-  /// @brief Method GetEncapContentInfo, addr 0xfe0f1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetEncapContentInfo, addr 0x10d4640, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::ContentInfoParser* GetEncapContentInfo();
 
   static inline ::Org::BouncyCastle::Asn1::Cms::CompressedDataParser* New_ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq);
@@ -66,13 +67,13 @@ public:
 
   constexpr void __cordl_internal_set__version(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0xfe0c50, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10d4374, size 0x2bc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq);
 
-  /// @brief Method get_CompressionAlgorithmIdentifier, addr 0xfe0f14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CompressionAlgorithmIdentifier, addr 0x10d4638, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_CompressionAlgorithmIdentifier();
 
-  /// @brief Method get_Version, addr 0xfe0f0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x10d4630, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
 protected:

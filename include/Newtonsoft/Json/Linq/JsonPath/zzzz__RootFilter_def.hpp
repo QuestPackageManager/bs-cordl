@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Linq/JsonPath/RootFilter.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,14 +31,14 @@ public:
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance))::Newtonsoft::Json::Linq::JsonPath::RootFilter* Instance;
 
-  /// @brief Method ExecuteFilter, addr 0x29838fc, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method ExecuteFilter, addr 0x2a811ac, size 0x90, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* ExecuteFilter(::Newtonsoft::Json::Linq::JToken* root,
                                                                                                          ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* current,
                                                                                                          ::Newtonsoft::Json::Linq::JsonSelectSettings* settings);
 
   static inline ::Newtonsoft::Json::Linq::JsonPath::RootFilter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29838f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a811a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Newtonsoft::Json::Linq::JsonPath::RootFilter* getStaticF_Instance();

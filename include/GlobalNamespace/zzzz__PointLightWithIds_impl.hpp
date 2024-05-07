@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/PointLightWithIds.hpp"
 #include "GlobalNamespace/zzzz__RuntimeLightWithIds_impl.hpp"
 #include "GlobalNamespace/zzzz__PointLightWithIds_def.hpp"
 #include "GlobalNamespace/zzzz__PointLight_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PointLightWithIds::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::PointLightWithIds::ColorWasSet)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x23fda9c;
+  constexpr static std::size_t addrs = 0x24f568c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -23,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PointLightWithIds::*)()>(&::GlobalNamespace::PointLightWithIds::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x23fdabc;
+  constexpr static std::size_t addrs = 0x24f56ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PointLightWithIds*>::get(), ".ctor",

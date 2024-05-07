@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/ChannelData.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,7 +53,7 @@ public:
   /// @brief Field _serverProviders, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__serverProviders, put = __cordl_internal_set__serverProviders))::System::Collections::ArrayList* _serverProviders;
 
-  /// @brief Method CopyFrom, addr 0x270ffe8, size 0x940, virtual false, abstract: false, final false
+  /// @brief Method CopyFrom, addr 0x280e3e4, size 0x940, virtual false, abstract: false, final false
   inline void CopyFrom(::System::Runtime::Remoting::ChannelData* other);
 
   static inline ::System::Runtime::Remoting::ChannelData* New_ctor();
@@ -99,16 +100,16 @@ public:
 
   constexpr void __cordl_internal_set__serverProviders(::System::Collections::ArrayList* value);
 
-  /// @brief Method .ctor, addr 0x2711094, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x280f490, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ClientProviders, addr 0x270ff10, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_ClientProviders, addr 0x280e30c, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* get_ClientProviders();
 
-  /// @brief Method get_CustomProperties, addr 0x270ff7c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_CustomProperties, addr 0x280e378, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Collections::Hashtable* get_CustomProperties();
 
-  /// @brief Method get_ServerProviders, addr 0x270fea4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_ServerProviders, addr 0x280e2a0, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* get_ServerProviders();
 
 protected:

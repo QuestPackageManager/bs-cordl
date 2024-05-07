@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UI/LayoutRebuilder.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UI/zzzz__LayoutRebuilder_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -17,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::__LayoutRebuilder____c::*)()>(&::UnityEngine::UI::__LayoutRebuilder____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32c7378;
+  constexpr static std::size_t addrs = 0x34ce0b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__LayoutRebuilder____c*>::get(), ".ctor",
@@ -31,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UI::LayoutRebuilder* (::UnityEngine::UI::__LayoutRebuilder____c::*)()>(
     &::UnityEngine::UI::__LayoutRebuilder____c::__cctor_b__5_0)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x32c7380;
+  constexpr static std::size_t addrs = 0x34ce0bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::__LayoutRebuilder____c*>::get(),
@@ -45,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::__LayoutRebuilder____c::*)(::UnityEngine::UI::LayoutRebuilder*)>(
     &::UnityEngine::UI::__LayoutRebuilder____c::__cctor_b__5_1)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x32c73dc;
+  constexpr static std::size_t addrs = 0x34ce118;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -60,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UI::__LayoutRebuilder____c::*)(::UnityEngine::Component*)>(
     &::UnityEngine::UI::__LayoutRebuilder____c::_StripDisabledBehavioursFromList_b__10_0)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x32c73f8;
+  constexpr static std::size_t addrs = 0x34ce134;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -75,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::__LayoutRebuilder____c::*)(::UnityEngine::Component*)>(
     &::UnityEngine::UI::__LayoutRebuilder____c::_Rebuild_b__12_0)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x32c7484;
+  constexpr static std::size_t addrs = 0x34ce1c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -90,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::__LayoutRebuilder____c::*)(::UnityEngine::Component*)>(
     &::UnityEngine::UI::__LayoutRebuilder____c::_Rebuild_b__12_1)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x32c7540;
+  constexpr static std::size_t addrs = 0x34ce27c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -105,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::__LayoutRebuilder____c::*)(::UnityEngine::Component*)>(
     &::UnityEngine::UI::__LayoutRebuilder____c::_Rebuild_b__12_2)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32c75fc;
+  constexpr static std::size_t addrs = 0x34ce338;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -120,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::__LayoutRebuilder____c::*)(::UnityEngine::Component*)>(
     &::UnityEngine::UI::__LayoutRebuilder____c::_Rebuild_b__12_3)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x32c76bc;
+  constexpr static std::size_t addrs = 0x34ce3f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -239,7 +240,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::LayoutRebuilder::*)(::UnityEngine::RectTransform*)>(
     &::UnityEngine::UI::LayoutRebuilder::Initialize)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x32c603c;
+  constexpr static std::size_t addrs = 0x34ccd78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -253,7 +254,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::LayoutRebuilder::*)()>(&::UnityEngine::UI::LayoutRebuilder::Clear)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x32c6070;
+  constexpr static std::size_t addrs = 0x34ccdac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutRebuilder*>::get(), "Clear",
@@ -266,7 +267,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::RectTransform*)>(&::UnityEngine::UI::LayoutRebuilder::ReapplyDrivenProperties)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x32c6254;
+  constexpr static std::size_t addrs = 0x34ccf90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -281,7 +282,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (::UnityEngine::UI::LayoutRebuilder::*)()>(
     &::UnityEngine::UI::LayoutRebuilder::get_transform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32c62a8;
+  constexpr static std::size_t addrs = 0x34ccfe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutRebuilder*>::get(), "get_transform",
@@ -294,7 +295,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UI::LayoutRebuilder::*)()>(&::UnityEngine::UI::LayoutRebuilder::IsDestroyed)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x32c62b0;
+  constexpr static std::size_t addrs = 0x34ccfec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutRebuilder*>::get(), "IsDestroyed",
@@ -308,7 +309,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Component>>*)>(
     &::UnityEngine::UI::LayoutRebuilder::StripDisabledBehavioursFromList)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x32c6310;
+  constexpr static std::size_t addrs = 0x34cd04c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -322,7 +323,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::RectTransform*)>(&::UnityEngine::UI::LayoutRebuilder::ForceRebuildLayoutImmediate)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x32c640c;
+  constexpr static std::size_t addrs = 0x34cd148;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -337,7 +338,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::LayoutRebuilder::*)(::UnityEngine::UI::CanvasUpdate)>(
     &::UnityEngine::UI::LayoutRebuilder::Rebuild)> {
   constexpr static std::size_t size = 0x2b4;
-  constexpr static std::size_t addrs = 0x32c64e8;
+  constexpr static std::size_t addrs = 0x34cd224;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -352,7 +353,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::LayoutRebuilder::*)(
     ::UnityEngine::RectTransform*, ::UnityEngine::Events::UnityAction_1<::UnityW<::UnityEngine::Component>>*)>(&::UnityEngine::UI::LayoutRebuilder::PerformLayoutControl)> {
   constexpr static std::size_t size = 0x3d0;
-  constexpr static std::size_t addrs = 0x32c6a9c;
+  constexpr static std::size_t addrs = 0x34cd7d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -368,7 +369,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::LayoutRebuilder::*)(
     ::UnityEngine::RectTransform*, ::UnityEngine::Events::UnityAction_1<::UnityW<::UnityEngine::Component>>*)>(&::UnityEngine::UI::LayoutRebuilder::PerformLayoutCalculation)> {
   constexpr static std::size_t size = 0x300;
-  constexpr static std::size_t addrs = 0x32c679c;
+  constexpr static std::size_t addrs = 0x34cd4d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -383,7 +384,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::RectTransform*)>(&::UnityEngine::UI::LayoutRebuilder::MarkLayoutForRebuild)> {
   constexpr static std::size_t size = 0x3ec;
-  constexpr static std::size_t addrs = 0x32c1790;
+  constexpr static std::size_t addrs = 0x34c84cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -398,7 +399,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::RectTransform*, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Component>>*)>(
     &::UnityEngine::UI::LayoutRebuilder::ValidController)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x32c6e6c;
+  constexpr static std::size_t addrs = 0x34cdba8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -413,7 +414,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::RectTransform*)>(&::UnityEngine::UI::LayoutRebuilder::MarkLayoutRootForRebuild)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x32c7060;
+  constexpr static std::size_t addrs = 0x34cdd9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -427,7 +428,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::LayoutRebuilder::*)()>(&::UnityEngine::UI::LayoutRebuilder::LayoutComplete)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x32c71c4;
+  constexpr static std::size_t addrs = 0x34cdf00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutRebuilder*>::get(), "LayoutComplete",
@@ -440,7 +441,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::LayoutRebuilder::*)()>(&::UnityEngine::UI::LayoutRebuilder::GraphicUpdateComplete)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x32c7244;
+  constexpr static std::size_t addrs = 0x34cdf80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutRebuilder*>::get(),
@@ -453,7 +454,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UI::LayoutRebuilder::*)()>(&::UnityEngine::UI::LayoutRebuilder::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32c7248;
+  constexpr static std::size_t addrs = 0x34cdf84;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -467,7 +468,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UI::LayoutRebuilder::*)(::System::Object*)>(&::UnityEngine::UI::LayoutRebuilder::Equals)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x32c7250;
+  constexpr static std::size_t addrs = 0x34cdf8c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -481,7 +482,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UI::LayoutRebuilder::*)()>(&::UnityEngine::UI::LayoutRebuilder::ToString)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x32c72a0;
+  constexpr static std::size_t addrs = 0x34cdfdc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -495,7 +496,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::LayoutRebuilder::*)()>(&::UnityEngine::UI::LayoutRebuilder::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32c730c;
+  constexpr static std::size_t addrs = 0x34ce048;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::LayoutRebuilder*>::get(), ".ctor",

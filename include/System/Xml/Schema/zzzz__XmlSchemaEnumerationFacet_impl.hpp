@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaEnumerationFacet.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaFacet_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaEnumerationFacet_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::XmlSchemaEnumerationFacet._ctor
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaEnumerationFacet::*)()>(
     &::System::Xml::Schema::XmlSchemaEnumerationFacet::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2d158b4;
+  constexpr static std::size_t addrs = 0x2e131b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaEnumerationFacet*>::get(),

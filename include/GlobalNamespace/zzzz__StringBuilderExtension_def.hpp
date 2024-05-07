@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/StringBuilderExtension.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,13 +23,13 @@ namespace GlobalNamespace {
 class CORDL_TYPE StringBuilderExtension : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AppendNumber, addr 0xf82c38, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method AppendNumber, addr 0x10741e8, size 0x14, virtual false, abstract: false, final false
   static inline void AppendNumber(::System::Text::StringBuilder* sb, int32_t number);
 
-  /// @brief Method AppendNumber, addr 0xf82c64, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method AppendNumber, addr 0x1074214, size 0xa4, virtual false, abstract: false, final false
   static inline void AppendNumber(::System::Text::StringBuilder* sb, uint32_t uNumber, bool isNegative);
 
-  /// @brief Method Swap, addr 0xf82a10, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method Swap, addr 0x1073fc0, size 0x228, virtual false, abstract: false, final false
   static inline void Swap(::System::Text::StringBuilder* sb, int32_t startIndex, int32_t endIndex);
 
 protected:

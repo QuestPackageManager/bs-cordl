@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Math/EC/Multiplier/WNafUtilities.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -81,7 +82,7 @@ public:
 
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::__WNafUtilities__ConfigureBasepointCallback* New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, int32_t confWidth);
 
-  /// @brief Method Precompute, addr 0x11a82bc, size 0x1b8, virtual true, abstract: false, final true
+  /// @brief Method Precompute, addr 0x12999e0, size 0x1b8, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* Precompute(::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* existing);
 
   constexpr int32_t const& __cordl_internal_get_m_confWidth() const;
@@ -96,7 +97,7 @@ public:
 
   constexpr void __cordl_internal_set_m_curve(::Org::BouncyCastle::Math::EC::ECCurve* value);
 
-  /// @brief Method .ctor, addr 0x11a7270, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1298994, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, int32_t confWidth);
 
   /// @brief Convert to "::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback"
@@ -155,7 +156,7 @@ public:
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::__WNafUtilities__MapPointCallback* New_ctor(::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo* infoP, bool includeNegated,
                                                                                                        ::Org::BouncyCastle::Math::EC::ECPointMap* pointMap);
 
-  /// @brief Method Precompute, addr 0x11a8474, size 0x378, virtual true, abstract: false, final true
+  /// @brief Method Precompute, addr 0x1299b98, size 0x378, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* Precompute(::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* existing);
 
   constexpr bool const& __cordl_internal_get_m_includeNegated() const;
@@ -176,7 +177,7 @@ public:
 
   constexpr void __cordl_internal_set_m_pointMap(::Org::BouncyCastle::Math::EC::ECPointMap* value);
 
-  /// @brief Method .ctor, addr 0x11a7f38, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x129965c, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo* infoP, bool includeNegated, ::Org::BouncyCastle::Math::EC::ECPointMap* pointMap);
 
   /// @brief Convert to "::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback"
@@ -237,15 +238,15 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback"
   constexpr operator ::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback*() noexcept;
 
-  /// @brief Method CheckExisting, addr 0x11a8fd0, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method CheckExisting, addr 0x129a6f4, size 0x108, virtual false, abstract: false, final false
   inline bool CheckExisting(::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo* existingWNaf, int32_t width, int32_t reqPreCompLen, bool includeNegated);
 
-  /// @brief Method CheckTable, addr 0x11a90d8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method CheckTable, addr 0x129a7fc, size 0x1c, virtual false, abstract: false, final false
   inline bool CheckTable(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*> table, int32_t reqLen);
 
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::__WNafUtilities__PrecomputeCallback* New_ctor(::Org::BouncyCastle::Math::EC::ECPoint* p, int32_t minWidth, bool includeNegated);
 
-  /// @brief Method Precompute, addr 0x11a87ec, size 0x7e4, virtual true, abstract: false, final true
+  /// @brief Method Precompute, addr 0x1299f10, size 0x7e4, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* Precompute(::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* existing);
 
   constexpr bool const& __cordl_internal_get_m_includeNegated() const;
@@ -266,7 +267,7 @@ public:
 
   constexpr void __cordl_internal_set_m_p(::Org::BouncyCastle::Math::EC::ECPoint* value);
 
-  /// @brief Method .ctor, addr 0x11a7f78, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x129969c, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECPoint* p, int32_t minWidth, bool includeNegated);
 
   /// @brief Convert to "::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback"
@@ -330,10 +331,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback"
   constexpr operator ::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback*() noexcept;
 
-  /// @brief Method CheckExisting, addr 0x11a94fc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method CheckExisting, addr 0x129ac20, size 0x9c, virtual false, abstract: false, final false
   inline bool CheckExisting(::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo* existingWNaf, int32_t width, int32_t reqPreCompLen, bool includeNegated);
 
-  /// @brief Method CheckTable, addr 0x11a9598, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method CheckTable, addr 0x129acbc, size 0x1c, virtual false, abstract: false, final false
   inline bool CheckTable(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*> table, int32_t reqLen);
 
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::__WNafUtilities__PrecomputeWithPointMapCallback* New_ctor(::Org::BouncyCastle::Math::EC::ECPoint* point,
@@ -341,7 +342,7 @@ public:
                                                                                                                      ::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo* fromWNaf,
                                                                                                                      bool includeNegated);
 
-  /// @brief Method Precompute, addr 0x11a90f4, size 0x408, virtual true, abstract: false, final true
+  /// @brief Method Precompute, addr 0x129a818, size 0x408, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* Precompute(::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* existing);
 
   constexpr ::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo*& __cordl_internal_get_m_fromWNaf();
@@ -368,7 +369,7 @@ public:
 
   constexpr void __cordl_internal_set_m_pointMap(::Org::BouncyCastle::Math::EC::ECPointMap* value);
 
-  /// @brief Method .ctor, addr 0x11a80f8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x129981c, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECPoint* point, ::Org::BouncyCastle::Math::EC::ECPointMap* pointMap, ::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo* fromWNaf,
                     bool includeNegated);
 
@@ -444,69 +445,69 @@ public:
   /// @brief Field PRECOMP_NAME, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_PRECOMP_NAME, put = setStaticF_PRECOMP_NAME))::StringW PRECOMP_NAME;
 
-  /// @brief Method ConfigureBasepoint, addr 0x11a70f0, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method ConfigureBasepoint, addr 0x1298814, size 0x180, virtual false, abstract: false, final false
   static inline void ConfigureBasepoint(::Org::BouncyCastle::Math::EC::ECPoint* p);
 
-  /// @brief Method GenerateCompactNaf, addr 0x11a5f0c, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method GenerateCompactNaf, addr 0x1297630, size 0x274, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> GenerateCompactNaf(::Org::BouncyCastle::Math::BigInteger* k);
 
-  /// @brief Method GenerateCompactWindowNaf, addr 0x11a6cc4, size 0x30c, virtual false, abstract: false, final false
+  /// @brief Method GenerateCompactWindowNaf, addr 0x12983e8, size 0x30c, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> GenerateCompactWindowNaf(int32_t width, ::Org::BouncyCastle::Math::BigInteger* k);
 
-  /// @brief Method GenerateJsf, addr 0x11a7324, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method GenerateJsf, addr 0x1298a48, size 0x298, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateJsf(::Org::BouncyCastle::Math::BigInteger* g, ::Org::BouncyCastle::Math::BigInteger* h);
 
-  /// @brief Method GenerateNaf, addr 0x11a7640, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GenerateNaf, addr 0x1298d64, size 0x188, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateNaf(::Org::BouncyCastle::Math::BigInteger* k);
 
-  /// @brief Method GenerateWindowNaf, addr 0x11a77c8, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method GenerateWindowNaf, addr 0x1298eec, size 0x2d8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateWindowNaf(int32_t width, ::Org::BouncyCastle::Math::BigInteger* k);
 
-  /// @brief Method GetNafWeight, addr 0x11a7aa0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetNafWeight, addr 0x12991c4, size 0x64, virtual false, abstract: false, final false
   static inline int32_t GetNafWeight(::Org::BouncyCastle::Math::BigInteger* k);
 
-  /// @brief Method GetWNafPreCompInfo, addr 0x11a7b04, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetWNafPreCompInfo, addr 0x1299228, size 0x98, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo* GetWNafPreCompInfo(::Org::BouncyCastle::Math::EC::ECPoint* p);
 
-  /// @brief Method GetWNafPreCompInfo, addr 0x11a7b9c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetWNafPreCompInfo, addr 0x12992c0, size 0x78, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo* GetWNafPreCompInfo(::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* preCompInfo);
 
-  /// @brief Method GetWindowSize, addr 0x11a6b24, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetWindowSize, addr 0x1298248, size 0x64, virtual false, abstract: false, final false
   static inline int32_t GetWindowSize(int32_t bits);
 
-  /// @brief Method GetWindowSize, addr 0x11a7ccc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetWindowSize, addr 0x12993f0, size 0x70, virtual false, abstract: false, final false
   static inline int32_t GetWindowSize(int32_t bits, int32_t maxWidth);
 
-  /// @brief Method GetWindowSize, addr 0x11a7d3c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetWindowSize, addr 0x1299460, size 0x70, virtual false, abstract: false, final false
   static inline int32_t GetWindowSize(int32_t bits, ::ArrayW<int32_t, ::Array<int32_t>*> windowSizeCutoffs);
 
-  /// @brief Method GetWindowSize, addr 0x11a7c14, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetWindowSize, addr 0x1299338, size 0xb8, virtual false, abstract: false, final false
   static inline int32_t GetWindowSize(int32_t bits, ::ArrayW<int32_t, ::Array<int32_t>*> windowSizeCutoffs, int32_t maxWidth);
 
-  /// @brief Method MapPointWithPrecomp, addr 0x11a7dac, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method MapPointWithPrecomp, addr 0x12994d0, size 0x18c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::EC::ECPoint* MapPointWithPrecomp(::Org::BouncyCastle::Math::EC::ECPoint* p, int32_t minWidth, bool includeNegated,
                                                                             ::Org::BouncyCastle::Math::EC::ECPointMap* pointMap);
 
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities* New_ctor();
 
-  /// @brief Method Precompute, addr 0x11a6b88, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method Precompute, addr 0x12982ac, size 0x13c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo* Precompute(::Org::BouncyCastle::Math::EC::ECPoint* p, int32_t minWidth, bool includeNegated);
 
-  /// @brief Method PrecomputeWithPointMap, addr 0x11a7fb8, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method PrecomputeWithPointMap, addr 0x12996dc, size 0x140, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo* PrecomputeWithPointMap(::Org::BouncyCastle::Math::EC::ECPoint* p, ::Org::BouncyCastle::Math::EC::ECPointMap* pointMap,
                                                                                                    ::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo* fromWNaf, bool includeNegated);
 
-  /// @brief Method ResizeTable, addr 0x11a813c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ResizeTable, addr 0x1299860, size 0x84, virtual false, abstract: false, final false
   static inline ::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*>
   ResizeTable(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*> a, int32_t length);
 
-  /// @brief Method Trim, addr 0x11a72a0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Trim, addr 0x12989c4, size 0x84, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> Trim(::ArrayW<int32_t, ::Array<int32_t>*> a, int32_t length);
 
-  /// @brief Method Trim, addr 0x11a75bc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Trim, addr 0x1298ce0, size 0x84, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Trim(::ArrayW<uint8_t, ::Array<uint8_t>*> a, int32_t length);
 
-  /// @brief Method .ctor, addr 0x11a82b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12999d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_DEFAULT_WINDOW_SIZE_CUTOFFS();

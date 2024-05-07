@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "IgnoranceCore/IgnoranceIncomingPacket.hpp"
 #include "ENet/zzzz__Packet_impl.hpp"
 #include "IgnoranceCore/zzzz__IgnoranceIncomingPacket_def.hpp"
 #include "ENet/zzzz__Packet_def.hpp"

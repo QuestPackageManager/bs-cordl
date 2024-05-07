@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Reflection/TypeInfo.hpp"
 #include "System/Reflection/zzzz__BindingFlags_impl.hpp"
 #include "System/zzzz__Type_impl.hpp"
 #include "System/Reflection/zzzz__TypeInfo_def.hpp"
@@ -10,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Reflection::TypeInfo::*)()>(&::System::Reflection::TypeInfo::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x276cd80;
+  constexpr static std::size_t addrs = 0x286c490;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::TypeInfo*>::get(), ".ctor",
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::TypeInfo* (::System::Reflection::TypeInfo::*)()>(
     &::System::Reflection::TypeInfo::System_Reflection_IReflectableType_GetTypeInfo)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x276d448;
+  constexpr static std::size_t addrs = 0x286cb58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::System::Type*>* (::System::Reflection::TypeInfo::*)()>(
     &::System::Reflection::TypeInfo::get_ImplementedInterfaces)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x276d44c;
+  constexpr static std::size_t addrs = 0x286cb5c;
 
   inline static ::MethodInfo const* methodInfo() {
 

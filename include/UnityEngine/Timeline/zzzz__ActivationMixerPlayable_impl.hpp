@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Timeline/ActivationMixerPlayable.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableBehaviour_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__ActivationTrack_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__ActivationMixerPlayable_def.hpp"
@@ -15,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::ActivationMixerPlayable*> (*)(
     ::UnityEngine::Playables::PlayableGraph, int32_t)>(&::UnityEngine::Timeline::ActivationMixerPlayable::Create)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x317d29c;
+  constexpr static std::size_t addrs = 0x3383d24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -31,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState (
     ::UnityEngine::Timeline::ActivationMixerPlayable::*)()>(&::UnityEngine::Timeline::ActivationMixerPlayable::get_postPlaybackState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x317d320;
+  constexpr static std::size_t addrs = 0x3383da8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ActivationMixerPlayable*>::get(),
@@ -45,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::ActivationMixerPlayable::*)(
     ::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState)>(&::UnityEngine::Timeline::ActivationMixerPlayable::set_postPlaybackState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x317d328;
+  constexpr static std::size_t addrs = 0x3383db0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -60,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::ActivationMixerPlayable::*)(::UnityEngine::Playables::Playable)>(
     &::UnityEngine::Timeline::ActivationMixerPlayable::OnPlayableDestroy)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x317d330;
+  constexpr static std::size_t addrs = 0x3383db8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -76,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::ActivationMixerPlayable::*)(
     ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*)>(&::UnityEngine::Timeline::ActivationMixerPlayable::ProcessFrame)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x317d3f0;
+  constexpr static std::size_t addrs = 0x3383e78;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -92,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::ActivationMixerPlayable::*)()>(
     &::UnityEngine::Timeline::ActivationMixerPlayable::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x317d5b4;
+  constexpr static std::size_t addrs = 0x338403c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ActivationMixerPlayable*>::get(),

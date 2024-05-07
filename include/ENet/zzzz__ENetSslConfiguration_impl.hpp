@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "ENet/ENetSslConfiguration.hpp"
 #include "ENet/zzzz__SslMode_impl.hpp"
 #include "ENet/zzzz__ENetSslConfiguration_def.hpp"
 #include "ENet/zzzz__SslMode_def.hpp"

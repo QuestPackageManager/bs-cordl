@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/DefaultScenesTransitionsFromInit.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__DefaultScenesTransitionsFromInit_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEditorScenesTransitionSetupDataSO_def.hpp"
@@ -14,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::MenuScenesTransitionSetupDataSO> (
     ::GlobalNamespace::DefaultScenesTransitionsFromInit::*)()>(&::GlobalNamespace::DefaultScenesTransitionsFromInit::get_mainMenuScenesTransitionSetupData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2507fa4;
+  constexpr static std::size_t addrs = 0x25fec30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -29,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DefaultScenesTransitionsFromInit::*)(bool, bool, bool)>(
     &::GlobalNamespace::DefaultScenesTransitionsFromInit::TransitionToNextScene)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x2507fac;
+  constexpr static std::size_t addrs = 0x25fec38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -45,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DefaultScenesTransitionsFromInit::*)(::StringW, ::StringW)>(
     &::GlobalNamespace::DefaultScenesTransitionsFromInit::TransitionToStartupErrorScene)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x250817c;
+  constexpr static std::size_t addrs = 0x25fee08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -60,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DefaultScenesTransitionsFromInit::*)()>(
     &::GlobalNamespace::DefaultScenesTransitionsFromInit::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2508228;
+  constexpr static std::size_t addrs = 0x25feeb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DefaultScenesTransitionsFromInit*>::get(),

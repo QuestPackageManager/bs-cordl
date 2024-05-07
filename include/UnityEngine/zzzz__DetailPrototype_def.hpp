@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/DetailPrototype.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -106,13 +107,13 @@ public:
 
   __declspec(property(put = set_usePrototypeMesh)) bool usePrototypeMesh;
 
-  /// @brief Method Equals, addr 0x326ad9c, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3473ad8, size 0x64, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x326ae00, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x3473b3c, size 0x1ec, virtual false, abstract: false, final false
   inline bool Equals(::UnityEngine::DetailPrototype* other);
 
-  /// @brief Method GetHashCode, addr 0x326afec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3473d28, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::UnityEngine::DetailPrototype* New_ctor();
@@ -201,72 +202,72 @@ public:
 
   constexpr void __cordl_internal_set_m_UsePrototypeMesh(int32_t value);
 
-  /// @brief Method .ctor, addr 0x326acfc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3473a38, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Color getStaticF_DefaultDryColor();
 
   static inline ::UnityEngine::Color getStaticF_DefaultHealthColor();
 
-  /// @brief Method get_dryColor, addr 0x326acb8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_dryColor, addr 0x34739f4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_dryColor();
 
-  /// @brief Method get_healthyColor, addr 0x326aca0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_healthyColor, addr 0x34739dc, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_healthyColor();
 
-  /// @brief Method get_maxHeight, addr 0x326ac80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxHeight, addr 0x34739bc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_maxHeight();
 
-  /// @brief Method get_maxWidth, addr 0x326ac60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxWidth, addr 0x347399c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_maxWidth();
 
-  /// @brief Method get_minHeight, addr 0x326ac70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_minHeight, addr 0x34739ac, size 0x8, virtual false, abstract: false, final false
   inline float_t get_minHeight();
 
-  /// @brief Method get_minWidth, addr 0x326ac50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_minWidth, addr 0x347398c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_minWidth();
 
-  /// @brief Method get_noiseSpread, addr 0x326ac90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noiseSpread, addr 0x34739cc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_noiseSpread();
 
-  /// @brief Method get_renderMode, addr 0x326acd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_renderMode, addr 0x3473a0c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::DetailRenderMode get_renderMode();
 
   static inline void setStaticF_DefaultDryColor(::UnityEngine::Color value);
 
   static inline void setStaticF_DefaultHealthColor(::UnityEngine::Color value);
 
-  /// @brief Method set_dryColor, addr 0x326acc4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_dryColor, addr 0x3473a00, size 0xc, virtual false, abstract: false, final false
   inline void set_dryColor(::UnityEngine::Color value);
 
-  /// @brief Method set_healthyColor, addr 0x326acac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_healthyColor, addr 0x34739e8, size 0xc, virtual false, abstract: false, final false
   inline void set_healthyColor(::UnityEngine::Color value);
 
-  /// @brief Method set_maxHeight, addr 0x326ac88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maxHeight, addr 0x34739c4, size 0x8, virtual false, abstract: false, final false
   inline void set_maxHeight(float_t value);
 
-  /// @brief Method set_maxWidth, addr 0x326ac68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maxWidth, addr 0x34739a4, size 0x8, virtual false, abstract: false, final false
   inline void set_maxWidth(float_t value);
 
-  /// @brief Method set_minHeight, addr 0x326ac78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_minHeight, addr 0x34739b4, size 0x8, virtual false, abstract: false, final false
   inline void set_minHeight(float_t value);
 
-  /// @brief Method set_minWidth, addr 0x326ac58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_minWidth, addr 0x3473994, size 0x8, virtual false, abstract: false, final false
   inline void set_minWidth(float_t value);
 
-  /// @brief Method set_noiseSpread, addr 0x326ac98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_noiseSpread, addr 0x34739d4, size 0x8, virtual false, abstract: false, final false
   inline void set_noiseSpread(float_t value);
 
-  /// @brief Method set_prototype, addr 0x326ac40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_prototype, addr 0x347397c, size 0x8, virtual false, abstract: false, final false
   inline void set_prototype(::UnityEngine::GameObject* value);
 
-  /// @brief Method set_prototypeTexture, addr 0x326ac48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_prototypeTexture, addr 0x3473984, size 0x8, virtual false, abstract: false, final false
   inline void set_prototypeTexture(::UnityEngine::Texture2D* value);
 
-  /// @brief Method set_renderMode, addr 0x326acd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_renderMode, addr 0x3473a14, size 0x8, virtual false, abstract: false, final false
   inline void set_renderMode(::UnityEngine::DetailRenderMode value);
 
-  /// @brief Method set_usePrototypeMesh, addr 0x326ace0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_usePrototypeMesh, addr 0x3473a1c, size 0x1c, virtual false, abstract: false, final false
   inline void set_usePrototypeMesh(bool value);
 
 protected:

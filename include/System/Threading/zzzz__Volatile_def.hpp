@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/Volatile.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -141,19 +142,19 @@ public:
   /// @brief Method Read, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T Read(ByRef<T> location);
 
-  /// @brief Method Read, addr 0x28a9d2c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Read, addr 0x29a85dc, size 0x18, virtual false, abstract: false, final false
   static inline bool Read(ByRef<bool> location);
 
-  /// @brief Method Read, addr 0x28a9d68, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Read, addr 0x29a8618, size 0x18, virtual false, abstract: false, final false
   static inline int32_t Read(ByRef<int32_t> location);
 
   /// @brief Method Write, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void Write(ByRef<T> location, T value);
 
-  /// @brief Method Write, addr 0x28a9d44, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0x29a85f4, size 0x24, virtual false, abstract: false, final false
   static inline void Write(ByRef<bool> location, bool value);
 
-  /// @brief Method Write, addr 0x28a9d80, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0x29a8630, size 0x24, virtual false, abstract: false, final false
   static inline void Write(ByRef<int32_t> location, int32_t value);
 
 protected:

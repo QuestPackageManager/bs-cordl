@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Schema/JsonSchemaResolver.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Schema/zzzz__JsonSchemaResolver_def.hpp"
 #include "Newtonsoft/Json/Schema/zzzz__JsonSchemaResolver_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Schema::__JsonSchemaResolver____c__DisplayClass5_0::*)()>(
     &::Newtonsoft::Json::Schema::__JsonSchemaResolver____c__DisplayClass5_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2955280;
+  constexpr static std::size_t addrs = 0x2a53b30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Schema::__JsonSchemaResolver____c__DisplayClass5_0::*)(
     ::Newtonsoft::Json::Schema::JsonSchema*)>(&::Newtonsoft::Json::Schema::__JsonSchemaResolver____c__DisplayClass5_0::_GetSchema_b__0)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2955288;
+  constexpr static std::size_t addrs = 0x2a53b38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Schema::__JsonSchemaResolver____c__DisplayClass5_0::*)(
     ::Newtonsoft::Json::Schema::JsonSchema*)>(&::Newtonsoft::Json::Schema::__JsonSchemaResolver____c__DisplayClass5_0::_GetSchema_b__1)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x29552b0;
+  constexpr static std::size_t addrs = 0x2a53b60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -90,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchema*>* (
     ::Newtonsoft::Json::Schema::JsonSchemaResolver::*)()>(&::Newtonsoft::Json::Schema::JsonSchemaResolver::get_LoadedSchemas)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2955130;
+  constexpr static std::size_t addrs = 0x2a539e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Schema::JsonSchemaResolver*>::get(),
@@ -104,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Schema::JsonSchemaResolver::*)(
     ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchema*>*)>(&::Newtonsoft::Json::Schema::JsonSchemaResolver::set_LoadedSchemas)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2955138;
+  constexpr static std::size_t addrs = 0x2a539e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -118,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Schema::JsonSchemaResolver::*)()>(&::Newtonsoft::Json::Schema::JsonSchemaResolver::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x294b35c;
+  constexpr static std::size_t addrs = 0x2a49c0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Schema::JsonSchemaResolver*>::get(), ".ctor",
@@ -132,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Schema::JsonSchema* (::Newtonsoft::Json::Schema::JsonSchemaResolver::*)(::StringW)>(
     &::Newtonsoft::Json::Schema::JsonSchemaResolver::GetSchema)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x2955140;
+  constexpr static std::size_t addrs = 0x2a539f0;
 
   inline static ::MethodInfo const* methodInfo() {
 

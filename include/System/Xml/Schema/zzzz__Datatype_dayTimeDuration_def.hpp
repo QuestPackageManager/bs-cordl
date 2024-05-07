@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/Datatype_dayTimeDuration.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,13 +40,13 @@ public:
 
   static inline ::System::Xml::Schema::Datatype_dayTimeDuration* New_ctor();
 
-  /// @brief Method TryParseValue, addr 0x2e0be3c, size 0x1c8, virtual true, abstract: false, final false
+  /// @brief Method TryParseValue, addr 0x2f0a73c, size 0x1c8, virtual true, abstract: false, final false
   inline ::System::Exception* TryParseValue(::StringW s, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::IXmlNamespaceResolver* nsmgr, ByRef<::System::Object*> typedValue);
 
-  /// @brief Method .ctor, addr 0x2e063e8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f04ce8, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_TypeCode, addr 0x2e0c004, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TypeCode, addr 0x2f0a904, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
 
 protected:

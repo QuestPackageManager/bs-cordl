@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HEU_Defines.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,7 +42,7 @@ public:
 
   static inline ::HoudiniEngineUnity::HEU_Defines* New_ctor();
 
-  /// @brief Method .ctor, addr 0x246f93c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x256a5c8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_DEFAULT_MATERIAL_KEY();

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Configuration/ServicePointManagerElement.hpp"
 #include "System/Configuration/zzzz__ConfigurationElement_impl.hpp"
 #include "System/Net/Configuration/zzzz__ServicePointManagerElement_def.hpp"
 #include "System/Configuration/zzzz__ConfigurationPropertyCollection_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Configuration::ServicePointManagerElement::*)()>(
     &::System::Net::Configuration::ServicePointManagerElement::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2e798b8;
+  constexpr static std::size_t addrs = 0x2f781b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Configuration::ServicePointManagerElement*>::get(),
@@ -22,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Configuration::ConfigurationPropertyCollection* (
     ::System::Net::Configuration::ServicePointManagerElement::*)()>(&::System::Net::Configuration::ServicePointManagerElement::get_Properties)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2e798f0;
+  constexpr static std::size_t addrs = 0x2f781f0;
 
   inline static ::MethodInfo const* methodInfo() {
 

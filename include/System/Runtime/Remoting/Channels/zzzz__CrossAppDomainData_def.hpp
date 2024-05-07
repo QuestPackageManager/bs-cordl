@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/Channels/CrossAppDomainData.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,13 +57,13 @@ public:
 
   constexpr void __cordl_internal_set__processGuid(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2724e20, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x282321c, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(int32_t domainId);
 
-  /// @brief Method get_DomainID, addr 0x2724ec8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DomainID, addr 0x28232c4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_DomainID();
 
-  /// @brief Method get_ProcessID, addr 0x2724ed0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ProcessID, addr 0x28232cc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ProcessID();
 
 protected:

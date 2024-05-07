@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/ExceptionHelpers.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,7 +22,7 @@ namespace System::Linq::Expressions::Interpreter {
 class CORDL_TYPE ExceptionHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method UnwrapAndRethrow, addr 0x2b3a42c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method UnwrapAndRethrow, addr 0x2c36d2c, size 0x1c, virtual false, abstract: false, final false
   static inline void UnwrapAndRethrow(::System::Reflection::TargetInvocationException* exception);
 
 protected:

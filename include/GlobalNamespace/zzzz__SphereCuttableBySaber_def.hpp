@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SphereCuttableBySaber.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,10 +42,10 @@ public:
 
   __declspec(property(get = get_radius)) float_t radius;
 
-  /// @brief Method Awake, addr 0x2626e6c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2726d40, size 0x2c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Cut, addr 0x2626e98, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method Cut, addr 0x2726d6c, size 0x34, virtual true, abstract: false, final false
   inline void Cut(::GlobalNamespace::Saber* saber, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 cutDirVec);
 
   static inline ::GlobalNamespace::SphereCuttableBySaber* New_ctor();
@@ -61,16 +62,16 @@ public:
 
   constexpr void __cordl_internal_set__collider(::UnityW<::UnityEngine::SphereCollider> value);
 
-  /// @brief Method .ctor, addr 0x2626ecc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2726da0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_canBeCut, addr 0x2626e64, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_canBeCut, addr 0x2726d38, size 0x8, virtual true, abstract: false, final false
   inline bool get_canBeCut();
 
-  /// @brief Method get_radius, addr 0x2626e10, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_radius, addr 0x2726ce4, size 0x1c, virtual true, abstract: false, final false
   inline float_t get_radius();
 
-  /// @brief Method set_canBeCut, addr 0x2626e2c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method set_canBeCut, addr 0x2726d00, size 0x38, virtual true, abstract: false, final false
   inline void set_canBeCut(bool value);
 
 protected:

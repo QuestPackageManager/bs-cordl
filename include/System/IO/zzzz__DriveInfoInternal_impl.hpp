@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/IO/DriveInfoInternal.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/IO/zzzz__DriveInfoInternal_def.hpp"
 //  Writing Method size for method: ::System::IO::DriveInfoInternal.GetLogicalDrives
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (*)()>(&::System::IO::DriveInfoInternal::GetLogicalDrives)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x27ca9f0;
+  constexpr static std::size_t addrs = 0x28c9110;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::DriveInfoInternal*>::get(), "GetLogicalDrives",

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BGLib/Polyglot/LocalizedTextMeshPro.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,24 +29,24 @@ namespace BGLib::Polyglot {
 class CORDL_TYPE LocalizedTextMeshPro : public ::BGLib::Polyglot::LocalizedTextComponent_1<::UnityW<::TMPro::TextMeshPro>> {
 public:
   // Declarations
-  /// @brief Method IsAlignmentLeft, addr 0xf8e18c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsAlignmentLeft, addr 0x108077c, size 0x28, virtual false, abstract: false, final false
   static inline bool IsAlignmentLeft(::TMPro::TextAlignmentOptions alignment);
 
-  /// @brief Method IsAlignmentRight, addr 0xf8e164, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsAlignmentRight, addr 0x1080754, size 0x28, virtual false, abstract: false, final false
   static inline bool IsAlignmentRight(::TMPro::TextAlignmentOptions alignment);
 
-  /// @brief Method IsOppositeDirection, addr 0xf8e108, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method IsOppositeDirection, addr 0x10806f8, size 0x5c, virtual false, abstract: false, final false
   static inline bool IsOppositeDirection(::TMPro::TextAlignmentOptions alignment, ::BGLib::Polyglot::LanguageDirection direction);
 
   static inline ::BGLib::Polyglot::LocalizedTextMeshPro* New_ctor();
 
-  /// @brief Method SetText, addr 0xf8dfd4, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method SetText, addr 0x10805c4, size 0x2c, virtual true, abstract: false, final false
   inline void SetText(::TMPro::TextMeshPro* text, ::StringW value);
 
-  /// @brief Method UpdateAlignment, addr 0xf8e000, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method UpdateAlignment, addr 0x10805f0, size 0x108, virtual true, abstract: false, final false
   inline void UpdateAlignment(::TMPro::TextMeshPro* text, ::BGLib::Polyglot::LanguageDirection direction);
 
-  /// @brief Method .ctor, addr 0xf8e1b4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10807a4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

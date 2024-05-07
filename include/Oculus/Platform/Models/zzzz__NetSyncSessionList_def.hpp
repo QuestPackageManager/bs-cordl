@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/Models/NetSyncSessionList.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +25,7 @@ public:
   // Declarations
   static inline ::Oculus::Platform::Models::NetSyncSessionList* New_ctor(void* a);
 
-  /// @brief Method .ctor, addr 0x29def58, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2add808, size 0x23c, virtual false, abstract: false, final false
   inline void _ctor(void* a);
 
 protected:

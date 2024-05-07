@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/IStyleValue_1.hpp"
 #include "UnityEngine/UIElements/zzzz__IStyleValue_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleKeyword_def.hpp"
 template <typename T> inline T UnityEngine::UIElements::IStyleValue_1<T>::get_value() {

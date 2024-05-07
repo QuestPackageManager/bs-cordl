@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/NetworkInformation/IPInterfaceProperties.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/NetworkInformation/zzzz__IPInterfaceProperties_def.hpp"
 #include "System/Net/NetworkInformation/zzzz__GatewayIPAddressInformationCollection_def.hpp"
@@ -41,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::NetworkInformation::IPInterfaceProperties::*)()>(
     &::System::Net::NetworkInformation::IPInterfaceProperties::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2f20f68;
+  constexpr static std::size_t addrs = 0x3021868;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::IPInterfaceProperties*>::get(),

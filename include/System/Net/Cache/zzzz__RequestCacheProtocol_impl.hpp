@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Cache/RequestCacheProtocol.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Cache/zzzz__RequestCacheProtocol_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Cache::RequestCacheProtocol::*)(::System::Object*, ::System::Object*)>(
     &::System::Net::Cache::RequestCacheProtocol::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2f26d80;
+  constexpr static std::size_t addrs = 0x3027680;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Memory_1.hpp"
 #include "System/zzzz__Memory_1_def.hpp"
 #include "System/Buffers/zzzz__MemoryHandle_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"

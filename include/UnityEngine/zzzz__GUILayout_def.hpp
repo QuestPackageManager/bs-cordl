@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/GUILayout.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,10 +23,10 @@ namespace UnityEngine {
 class CORDL_TYPE GUILayout : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Height, addr 0x32379d4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Height, addr 0x343f710, size 0x9c, virtual false, abstract: false, final false
   static inline ::UnityEngine::GUILayoutOption* Height(float_t height);
 
-  /// @brief Method Width, addr 0x3237938, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Width, addr 0x343f674, size 0x9c, virtual false, abstract: false, final false
   static inline ::UnityEngine::GUILayoutOption* Width(float_t width);
 
 protected:

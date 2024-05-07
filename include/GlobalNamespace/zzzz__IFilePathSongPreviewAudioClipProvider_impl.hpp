@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IFilePathSongPreviewAudioClipProvider.hpp"
 #include "GlobalNamespace/zzzz__IFilePathSongPreviewAudioClipProvider_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IFilePathSongPreviewAudioClipProvider.get_songPreviewAudioClipPath
 template <>

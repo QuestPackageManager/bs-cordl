@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/InputProcessor.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,7 +33,7 @@ public:
   /// @brief Field s_Processors, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_Processors, put = setStaticF_s_Processors))::UnityEngine::InputSystem::Utilities::TypeTable s_Processors;
 
-  /// @brief Method GetValueTypeFromType, addr 0x2f9ef0c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetValueTypeFromType, addr 0x30dac98, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::Type* GetValueTypeFromType(::System::Type* processorType);
 
   static inline ::UnityEngine::InputSystem::InputProcessor* New_ctor();
@@ -43,7 +44,7 @@ public:
   /// @brief Method ProcessAsObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* ProcessAsObject(::System::Object* value, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method .ctor, addr 0x2f9f000, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x30dad8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::Utilities::TypeTable getStaticF_s_Processors();

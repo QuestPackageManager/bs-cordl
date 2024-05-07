@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/EnableDeviceCommand.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,7 +39,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*();
 
-  /// @brief Method Create, addr 0x301ae58, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x3156be4, size 0x34, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::EnableDeviceCommand Create();
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand const& __cordl_internal_get_baseCommand() const;
@@ -47,10 +48,10 @@ public:
 
   constexpr void __cordl_internal_set_baseCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand value);
 
-  /// @brief Method get_Type, addr 0x301adf8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x3156b84, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
 
-  /// @brief Method get_typeStatic, addr 0x301ae28, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x3156bb4, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"

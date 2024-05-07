@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/Services/ITrackingHandler.hpp"
 #include "System/Runtime/Remoting/Services/zzzz__ITrackingHandler_def.hpp"
 #include "System/Runtime/Remoting/zzzz__ObjRef_def.hpp"
 #include "System/zzzz__Object_def.hpp"

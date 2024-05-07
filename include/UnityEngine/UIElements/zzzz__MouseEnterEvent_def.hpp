@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/MouseEnterEvent.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,15 +19,15 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE MouseEnterEvent : public ::UnityEngine::UIElements::MouseEventBase_1<::UnityEngine::UIElements::MouseEnterEvent*> {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x33a071c, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x35a6458, size 0x54, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x33a0770, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x35a64ac, size 0xc, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::MouseEnterEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x33a077c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35a64b8, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

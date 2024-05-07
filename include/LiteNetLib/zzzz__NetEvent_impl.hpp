@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LiteNetLib/NetEvent.hpp"
 #include "LiteNetLib/zzzz__DeliveryMethod_impl.hpp"
 #include "LiteNetLib/zzzz__DisconnectReason_impl.hpp"
 #include "LiteNetLib/zzzz__NetEvent_impl.hpp"
@@ -32,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::NetEvent::*)(::LiteNetLib::NetManager*)>(&::LiteNetLib::NetEvent::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x24e99d0;
+  constexpr static std::size_t addrs = 0x25e165c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

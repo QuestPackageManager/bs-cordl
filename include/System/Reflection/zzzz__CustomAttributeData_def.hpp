@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Reflection/CustomAttributeData.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -92,7 +93,7 @@ public:
 
   constexpr void __cordl_internal_set_data_length(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x2771298, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28709b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -161,25 +162,25 @@ public:
   __declspec(property(get = __cordl_internal_get_namedArgs,
                       put = __cordl_internal_set_namedArgs))::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeNamedArgument>* namedArgs;
 
-  /// @brief Method Equals, addr 0x2771bc8, size 0x680, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x28712e8, size 0x680, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetCustomAttributes, addr 0x277146c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x2870b8c, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeData*>* GetCustomAttributes(::System::Reflection::Assembly* target);
 
-  /// @brief Method GetCustomAttributes, addr 0x27714c8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x2870be8, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeData*>* GetCustomAttributes(::System::Reflection::MemberInfo* target);
 
-  /// @brief Method GetCustomAttributes, addr 0x2771580, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x2870ca0, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeData*>* GetCustomAttributes(::System::Reflection::Module* target);
 
-  /// @brief Method GetCustomAttributes, addr 0x27715dc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x2870cfc, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeData*>* GetCustomAttributes(::System::Reflection::ParameterInfo* target);
 
-  /// @brief Method GetCustomAttributesInternal, addr 0x2771524, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetCustomAttributesInternal, addr 0x2870c44, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeData*>* GetCustomAttributesInternal(::System::RuntimeType* target);
 
-  /// @brief Method GetHashCode, addr 0x2772248, size 0x2f8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2871968, size 0x2f8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Reflection::CustomAttributeData* New_ctor();
@@ -192,14 +193,14 @@ public:
                                                                     ::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeTypedArgument>* ctorArgs,
                                                                     ::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeNamedArgument>* namedArgs);
 
-  /// @brief Method ResolveArguments, addr 0x27712a4, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method ResolveArguments, addr 0x28709c4, size 0x190, virtual false, abstract: false, final false
   inline void ResolveArguments();
 
-  /// @brief Method ResolveArgumentsInternal, addr 0x27712a0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ResolveArgumentsInternal, addr 0x28709c0, size 0x4, virtual false, abstract: false, final false
   static inline void ResolveArgumentsInternal(::System::Reflection::ConstructorInfo* ctor, ::System::Reflection::Assembly* assembly, void* data, uint32_t data_length,
                                               ByRef<::ArrayW<::System::Object*, ::Array<::System::Object*>*>> ctorArgs, ByRef<::ArrayW<::System::Object*, ::Array<::System::Object*>*>> namedArgs);
 
-  /// @brief Method ToString, addr 0x2771658, size 0x570, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2870d78, size 0x570, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   /// @brief Method UnboxValues, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -229,29 +230,29 @@ public:
 
   constexpr void __cordl_internal_set_namedArgs(::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeNamedArgument>* value);
 
-  /// @brief Method .ctor, addr 0x27711f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2870918, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2767644, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2866d54, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::ConstructorInfo* ctorInfo);
 
-  /// @brief Method .ctor, addr 0x2771200, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2870920, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::ConstructorInfo* ctorInfo, ::System::Reflection::Assembly* assembly, void* data, uint32_t data_length);
 
-  /// @brief Method .ctor, addr 0x27679f0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2867100, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::ConstructorInfo* ctorInfo, ::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeTypedArgument>* ctorArgs,
                     ::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeNamedArgument>* namedArgs);
 
-  /// @brief Method get_AttributeType, addr 0x2771638, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_AttributeType, addr 0x2870d58, size 0x20, virtual false, abstract: false, final false
   inline ::System::Type* get_AttributeType();
 
-  /// @brief Method get_Constructor, addr 0x2771434, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Constructor, addr 0x2870b54, size 0x8, virtual true, abstract: false, final false
   inline ::System::Reflection::ConstructorInfo* get_Constructor();
 
-  /// @brief Method get_ConstructorArguments, addr 0x277143c, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_ConstructorArguments, addr 0x2870b5c, size 0x18, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeTypedArgument>* get_ConstructorArguments();
 
-  /// @brief Method get_NamedArguments, addr 0x2771454, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_NamedArguments, addr 0x2870b74, size 0x18, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeNamedArgument>* get_NamedArguments();
 
 protected:

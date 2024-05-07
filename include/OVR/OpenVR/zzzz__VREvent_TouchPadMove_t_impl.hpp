@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/VREvent_TouchPadMove_t.hpp"
 #include "OVR/OpenVR/zzzz__VREvent_TouchPadMove_t_def.hpp"
 // Ctor Parameters [CppParam { name: "bFingerDown", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "flSecondsFingerDown", ty: "float_t", modifiers: "", def_value: Some("{}") },
 // CppParam { name: "fValueXFirst", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "fValueYFirst", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name:

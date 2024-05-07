@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Esf/CrlIdentifier.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Esf/zzzz__CrlIdentifier_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__X509Name_def.hpp"
@@ -15,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Esf::CrlIdentifier* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Esf::CrlIdentifier::GetInstance)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0xffc474;
+  constexpr static std::size_t addrs = 0x10efb98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Esf::CrlIdentifier::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Esf::CrlIdentifier::_ctor)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0xffc5fc;
+  constexpr static std::size_t addrs = 0x10efd20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -45,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::Org::BouncyCastle::Asn1::Esf::CrlIdentifier::*)(::Org::BouncyCastle::Asn1::X509::X509Name*, ::System::DateTime)>(&::Org::BouncyCastle::Asn1::Esf::CrlIdentifier::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xffc814;
+  constexpr static std::size_t addrs = 0x10eff38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Esf::CrlIdentifier::*)(
     ::Org::BouncyCastle::Asn1::X509::X509Name*, ::System::DateTime, ::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Asn1::Esf::CrlIdentifier::_ctor)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0xffc81c;
+  constexpr static std::size_t addrs = 0x10eff40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -78,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::X509Name* (::Org::BouncyCastle::Asn1::Esf::CrlIdentifier::*)()>(
     &::Org::BouncyCastle::Asn1::Esf::CrlIdentifier::get_CrlIssuer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xffc928;
+  constexpr static std::size_t addrs = 0x10f004c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Esf::CrlIdentifier*>::get(),
@@ -92,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (::Org::BouncyCastle::Asn1::Esf::CrlIdentifier::*)()>(
     &::Org::BouncyCastle::Asn1::Esf::CrlIdentifier::get_CrlIssuedTime)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0xffc930;
+  constexpr static std::size_t addrs = 0x10f0054;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Esf::CrlIdentifier*>::get(),
@@ -106,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Asn1::Esf::CrlIdentifier::*)()>(
     &::Org::BouncyCastle::Asn1::Esf::CrlIdentifier::get_CrlNumber)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0xffc94c;
+  constexpr static std::size_t addrs = 0x10f0070;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Esf::CrlIdentifier*>::get(),
@@ -120,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Esf::CrlIdentifier::*)()>(
     &::Org::BouncyCastle::Asn1::Esf::CrlIdentifier::ToAsn1Object)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0xffc95c;
+  constexpr static std::size_t addrs = 0x10f0080;
 
   inline static ::MethodInfo const* methodInfo() {
 

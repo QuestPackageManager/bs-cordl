@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Utilities/CipherFactory.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,16 +39,16 @@ public:
   /// @brief Field rc2Ekb, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_rc2Ekb, put = setStaticF_rc2Ekb))::ArrayW<int16_t, ::Array<int16_t>*> rc2Ekb;
 
-  /// @brief Method CreateCipher, addr 0x112cfd8, size 0x3b8, virtual false, abstract: false, final false
+  /// @brief Method CreateCipher, addr 0x12206fc, size 0x3b8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::BufferedBlockCipher* CreateCipher(::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithm);
 
-  /// @brief Method CreateContentCipher, addr 0x112c880, size 0x758, virtual false, abstract: false, final false
+  /// @brief Method CreateContentCipher, addr 0x121ffa4, size 0x758, virtual false, abstract: false, final false
   static inline ::System::Object* CreateContentCipher(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* encKey,
                                                       ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* encryptionAlgID);
 
   static inline ::Org::BouncyCastle::Crypto::Utilities::CipherFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x112c878, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x121ff9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<int16_t, ::Array<int16_t>*> getStaticF_rc2Ekb();

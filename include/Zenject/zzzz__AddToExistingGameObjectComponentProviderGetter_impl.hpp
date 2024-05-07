@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/AddToExistingGameObjectComponentProviderGetter.hpp"
 #include "Zenject/zzzz__AddToGameObjectComponentProviderBase_impl.hpp"
 #include "Zenject/zzzz__AddToExistingGameObjectComponentProviderGetter_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -17,7 +18,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::GameObject>>*, ::Zenject::DiContainer*, ::System::Type*, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*,
     ::System::Object*, ::System::Action_2<::Zenject::InjectContext*, ::System::Object*>*)>(&::Zenject::AddToExistingGameObjectComponentProviderGetter::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x34552e0;
+  constexpr static std::size_t addrs = 0x36592a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -37,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::AddToExistingGameObjectComponentProviderGetter::*)()>(
     &::Zenject::AddToExistingGameObjectComponentProviderGetter::get_ShouldToggleActive)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3455318;
+  constexpr static std::size_t addrs = 0x36592e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -53,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::Zenject::AddToExistingGameObjectComponentProviderGetter::*)(
     ::Zenject::InjectContext*)>(&::Zenject::AddToExistingGameObjectComponentProviderGetter::GetGameObject)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3455320;
+  constexpr static std::size_t addrs = 0x36592e8;
 
   inline static ::MethodInfo const* methodInfo() {
 

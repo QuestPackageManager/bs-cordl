@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/InteropServices/MemoryMarshal.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/InteropServices/zzzz__MemoryMarshal_def.hpp"
 #include "System/zzzz__ArraySegment_1_def.hpp"

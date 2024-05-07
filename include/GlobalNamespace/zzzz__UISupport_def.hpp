@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/UISupport.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,7 +19,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE UISupport : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Initialize, addr 0x2f68640, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x30a53cc, size 0x74, virtual false, abstract: false, final false
   static inline void Initialize();
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/HydraulicCarJumpEffect.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -73,15 +74,15 @@ public:
   /// @brief Field _rigidbody, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__rigidbody, put = __cordl_internal_set__rigidbody))::UnityW<::UnityEngine::Rigidbody> _rigidbody;
 
-  /// @brief Method HandleBeatmapEvent, addr 0xf6ab80, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x105a78c, size 0x11c, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
   static inline ::GlobalNamespace::HydraulicCarJumpEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0xf6ab64, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x105a770, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0xf6a9f4, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x105a600, size 0x170, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
@@ -150,7 +151,7 @@ public:
 
   constexpr void __cordl_internal_set__rigidbody(::UnityW<::UnityEngine::Rigidbody> value);
 
-  /// @brief Method .ctor, addr 0xf6ac9c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x105a8a8, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

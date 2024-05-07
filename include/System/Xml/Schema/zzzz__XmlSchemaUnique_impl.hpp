@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaUnique.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaIdentityConstraint_impl.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaUnique_def.hpp"
 //  Writing Method size for method: ::System::Xml::Schema::XmlSchemaUnique._ctor
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaUnique::*)()>(&::System::Xml::Schema::XmlSchemaUnique::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2d15c54;
+  constexpr static std::size_t addrs = 0x2e13554;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaUnique*>::get(), ".ctor",

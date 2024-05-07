@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/ServerCertValidationCallback.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -93,7 +94,7 @@ public:
 
   constexpr void __cordl_internal_set_sslPolicyErrors(::System::Net::Security::SslPolicyErrors value);
 
-  /// @brief Method .ctor, addr 0x2eef330, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ff0c30, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* request, ::System::Security::Cryptography::X509Certificates::X509Certificate* certificate, ::System::Security::Cryptography::X509Certificates::X509Chain* chain,
                     ::System::Net::Security::SslPolicyErrors sslPolicyErrors);
 
@@ -161,10 +162,10 @@ public:
   __declspec(property(get = __cordl_internal_get_m_ValidationCallback,
                       put = __cordl_internal_set_m_ValidationCallback))::System::Net::Security::RemoteCertificateValidationCallback* m_ValidationCallback;
 
-  /// @brief Method Callback, addr 0x2eef11c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Callback, addr 0x2ff0a1c, size 0xac, virtual false, abstract: false, final false
   inline void Callback(::System::Object* state);
 
-  /// @brief Method Invoke, addr 0x2eef1c8, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2ff0ac8, size 0x168, virtual false, abstract: false, final false
   inline bool Invoke(::System::Object* request, ::System::Security::Cryptography::X509Certificates::X509Certificate* certificate, ::System::Security::Cryptography::X509Certificates::X509Chain* chain,
                      ::System::Net::Security::SslPolicyErrors sslPolicyErrors);
 
@@ -182,10 +183,10 @@ public:
 
   constexpr void __cordl_internal_set_m_ValidationCallback(::System::Net::Security::RemoteCertificateValidationCallback* value);
 
-  /// @brief Method .ctor, addr 0x2eef09c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ff099c, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Security::RemoteCertificateValidationCallback* validationCallback);
 
-  /// @brief Method get_ValidationCallback, addr 0x2eef114, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ValidationCallback, addr 0x2ff0a14, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Security::RemoteCertificateValidationCallback* get_ValidationCallback();
 
 protected:

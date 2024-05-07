@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/Test_HAPI_AttributeInfo_Extensions.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,7 +25,7 @@ namespace HoudiniEngineUnity {
 class CORDL_TYPE Test_HAPI_AttributeInfo_Extensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToTestObject, addr 0x24cf8bc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x25c7548, size 0x88, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::Test_HAPI_AttributeInfo* ToTestObject(::HoudiniEngineUnity::HAPI_AttributeInfo self);
 
 protected:

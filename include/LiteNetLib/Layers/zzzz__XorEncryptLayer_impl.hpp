@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LiteNetLib/Layers/XorEncryptLayer.hpp"
 #include "LiteNetLib/Layers/zzzz__PacketLayerBase_impl.hpp"
 #include "LiteNetLib/Layers/zzzz__XorEncryptLayer_def.hpp"
 #include "System/Net/zzzz__IPEndPoint_def.hpp"
@@ -7,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Layers::XorEncryptLayer::*)()>(&::LiteNetLib::Layers::XorEncryptLayer::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x24fb6d8;
+  constexpr static std::size_t addrs = 0x25f2364;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::Layers::XorEncryptLayer*>::get(), ".ctor",
@@ -21,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Layers::XorEncryptLayer::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::LiteNetLib::Layers::XorEncryptLayer::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x24fb6f4;
+  constexpr static std::size_t addrs = 0x25f2380;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Layers::XorEncryptLayer::*)(::StringW)>(&::LiteNetLib::Layers::XorEncryptLayer::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x24fb7b8;
+  constexpr static std::size_t addrs = 0x25f2444;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Layers::XorEncryptLayer::*)(::StringW)>(&::LiteNetLib::Layers::XorEncryptLayer::SetKey)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x24fb7e8;
+  constexpr static std::size_t addrs = 0x25f2474;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Layers::XorEncryptLayer::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::LiteNetLib::Layers::XorEncryptLayer::SetKey)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x24fb724;
+  constexpr static std::size_t addrs = 0x25f23b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Layers::XorEncryptLayer::*)(
     ::System::Net::IPEndPoint*, ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>>, ByRef<int32_t>, ByRef<int32_t>)>(&::LiteNetLib::Layers::XorEncryptLayer::ProcessInboundPacket)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x24fb82c;
+  constexpr static std::size_t addrs = 0x25f24b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -94,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Layers::XorEncryptLayer::*)(
     ::System::Net::IPEndPoint*, ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>>, ByRef<int32_t>, ByRef<int32_t>)>(&::LiteNetLib::Layers::XorEncryptLayer::ProcessOutBoundPacket)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x24fb8bc;
+  constexpr static std::size_t addrs = 0x25f2548;
 
   inline static ::MethodInfo const* methodInfo() {
 

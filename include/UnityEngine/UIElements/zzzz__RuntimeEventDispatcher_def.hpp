@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/RuntimeEventDispatcher.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,7 +22,7 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE RuntimeEventDispatcher : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x33680d0, size 0x3cc, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x356be0c, size 0x3cc, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::EventDispatcher* Create();
 
 protected:

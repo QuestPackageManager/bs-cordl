@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Bindings/NativeHeaderAttribute.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,10 +33,10 @@ public:
 
   constexpr void __cordl_internal_set__Header_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3266a98, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x346f7d4, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::StringW header);
 
-  /// @brief Method set_Header, addr 0x3266a90, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_Header, addr 0x346f7cc, size 0x8, virtual true, abstract: false, final true
   inline void set_Header(::StringW value);
 
 protected:

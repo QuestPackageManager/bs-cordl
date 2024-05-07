@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Utilities/Collections/EmptyEnumerator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Utilities/Collections/zzzz__EmptyEnumerator_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::EmptyEnumerator::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::EmptyEnumerator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x12c7b9c;
+  constexpr static std::size_t addrs = 0x13b92c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Utilities::Collections::EmptyEnumerator::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::EmptyEnumerator::MoveNext)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x12c7ba4;
+  constexpr static std::size_t addrs = 0x13b92c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::EmptyEnumerator::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::EmptyEnumerator::Reset)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x12c7bac;
+  constexpr static std::size_t addrs = 0x13b92d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -54,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Org::BouncyCastle::Utilities::Collections::EmptyEnumerator::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::EmptyEnumerator::get_Current)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x12c7bb0;
+  constexpr static std::size_t addrs = 0x13b92d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

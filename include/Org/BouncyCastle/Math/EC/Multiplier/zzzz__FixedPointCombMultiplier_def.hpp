@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Math/EC/Multiplier/FixedPointCombMultiplier.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,12 +25,12 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
 class CORDL_TYPE FixedPointCombMultiplier : public ::Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier {
 public:
   // Declarations
-  /// @brief Method MultiplyPositive, addr 0x11a4f3c, size 0x2a8, virtual true, abstract: false, final false
+  /// @brief Method MultiplyPositive, addr 0x1296660, size 0x2a8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* MultiplyPositive(::Org::BouncyCastle::Math::EC::ECPoint* p, ::Org::BouncyCastle::Math::BigInteger* k);
 
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::FixedPointCombMultiplier* New_ctor();
 
-  /// @brief Method .ctor, addr 0x11a5350, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1296a74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

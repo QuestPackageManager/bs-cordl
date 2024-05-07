@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/PrefabInstantiator.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -89,7 +90,7 @@ public:
 
   static inline ::Zenject::__PrefabInstantiator____c__DisplayClass15_0* New_ctor();
 
-  /// @brief Method <Instantiate>b__0, addr 0x3457f3c, size 0x5a8, virtual false, abstract: false, final false
+  /// @brief Method <Instantiate>b__0, addr 0x365bf04, size 0x5a8, virtual false, abstract: false, final false
   inline void _Instantiate_b__0();
 
   constexpr ::Zenject::PrefabInstantiator*& __cordl_internal_get___4__this();
@@ -122,13 +123,13 @@ public:
 
   constexpr void __cordl_internal_set_shouldMakeActive(bool value);
 
-  /// @brief Method __zenCreate, addr 0x34584e4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x365c4ac, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x3458540, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x365c508, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x3457f34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x365befc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -218,10 +219,10 @@ public:
   /// @brief Convert operator to "::Zenject::IPrefabInstantiator"
   constexpr operator ::Zenject::IPrefabInstantiator*() noexcept;
 
-  /// @brief Method GetPrefab, addr 0x3457cec, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method GetPrefab, addr 0x365bcb4, size 0xa0, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::Object> GetPrefab();
 
-  /// @brief Method Instantiate, addr 0x3457d8c, size 0x1a8, virtual true, abstract: false, final true
+  /// @brief Method Instantiate, addr 0x365bd54, size 0x1a8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::GameObject> Instantiate(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args,
                                                          ByRef<::System::Action*> injectAction);
 
@@ -272,18 +273,18 @@ public:
 
   constexpr void __cordl_internal_set__prefabProvider(::Zenject::IPrefabProvider* value);
 
-  /// @brief Method .ctor, addr 0x3457c10, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x365bbd8, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo, ::System::Type* argumentTarget,
                     ::System::Collections::Generic::IEnumerable_1<::System::Type*>* instantiateCallbackTypes, ::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>* extraArguments,
                     ::Zenject::IPrefabProvider* prefabProvider, ::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* instantiateCallback);
 
-  /// @brief Method get_ArgumentTarget, addr 0x3457cdc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_ArgumentTarget, addr 0x365bca4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* get_ArgumentTarget();
 
-  /// @brief Method get_ExtraArguments, addr 0x3457ce4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_ExtraArguments, addr 0x365bcac, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* get_ExtraArguments();
 
-  /// @brief Method get_GameObjectCreationParameters, addr 0x3457cd4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_GameObjectCreationParameters, addr 0x365bc9c, size 0x8, virtual true, abstract: false, final true
   inline ::Zenject::GameObjectCreationParameters* get_GameObjectCreationParameters();
 
   /// @brief Convert to "::Zenject::IPrefabInstantiator"

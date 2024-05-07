@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/Packet.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,15 +38,15 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x29cd5ac, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2acae5c, size 0x88, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Finalize, addr 0x29cd518, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x2acadc8, size 0x94, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::Oculus::Platform::Packet* New_ctor(void* packetHandle);
 
-  /// @brief Method ReadBytes, addr 0x29cd374, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method ReadBytes, addr 0x2acac24, size 0x144, virtual false, abstract: false, final false
   inline uint64_t ReadBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> destination);
 
   constexpr void* const& __cordl_internal_get_packetHandle() const;
@@ -60,13 +61,13 @@ public:
 
   constexpr void __cordl_internal_set_size(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x29cd2c4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2acab74, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(void* packetHandle);
 
-  /// @brief Method get_SenderID, addr 0x29cd4b8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_SenderID, addr 0x2acad68, size 0x58, virtual false, abstract: false, final false
   inline uint64_t get_SenderID();
 
-  /// @brief Method get_Size, addr 0x29cd510, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Size, addr 0x2acadc0, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_Size();
 
   /// @brief Convert to "::System::IDisposable"

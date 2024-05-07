@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/TextEvent.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,13 +46,13 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo*();
 
-  /// @brief Method Create, addr 0x3024210, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x315ff9c, size 0xa0, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::TextEvent Create(int32_t deviceId, char16_t character, double_t time);
 
-  /// @brief Method Create, addr 0x30242b0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x316003c, size 0x9c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::TextEvent Create(int32_t deviceId, int32_t character, double_t time);
 
-  /// @brief Method From, addr 0x30240e4, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method From, addr 0x315fe70, size 0x12c, virtual false, abstract: false, final false
   static inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::TextEvent> From(::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr);
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputEvent const& __cordl_internal_get_baseEvent() const;
@@ -66,7 +67,7 @@ public:
 
   constexpr void __cordl_internal_set_character(int32_t value);
 
-  /// @brief Method get_typeStatic, addr 0x30240c4, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x315fe50, size 0x20, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo"

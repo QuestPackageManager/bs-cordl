@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/XR/Haptics/HapticState.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,19 +24,19 @@ public:
 
   __declspec(property(get = get_samplesQueued, put = set_samplesQueued)) uint32_t samplesQueued;
 
-  /// @brief Method .ctor, addr 0x2ffd0e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3139e74, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(uint32_t samplesQueued, uint32_t samplesAvailable);
 
-  /// @brief Method get_samplesAvailable, addr 0x2ffd100, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_samplesAvailable, addr 0x3139e8c, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_samplesAvailable();
 
-  /// @brief Method get_samplesQueued, addr 0x2ffd0f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_samplesQueued, addr 0x3139e7c, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_samplesQueued();
 
-  /// @brief Method set_samplesAvailable, addr 0x2ffd108, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_samplesAvailable, addr 0x3139e94, size 0x8, virtual false, abstract: false, final false
   inline void set_samplesAvailable(uint32_t value);
 
-  /// @brief Method set_samplesQueued, addr 0x2ffd0f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_samplesQueued, addr 0x3139e84, size 0x8, virtual false, abstract: false, final false
   inline void set_samplesQueued(uint32_t value);
 
   // Ctor Parameters []

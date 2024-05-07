@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HAPI_ImageInfo.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_ImageDataFormat_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_ImagePacking_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_ImageInfo_def.hpp"

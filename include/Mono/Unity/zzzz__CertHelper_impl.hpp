@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Unity/CertHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Unity/zzzz__CertHelper_def.hpp"
 #include "Mono/Unity/zzzz__UnityTls_def.hpp"
@@ -11,7 +12,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list>, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*,
                          ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate>)>(&::Mono::Unity::CertHelper::AddCertificatesToNativeChain)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x2b6034c;
+  constexpr static std::size_t addrs = 0x2c5cc4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,7 +30,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list>, ::System::Security::Cryptography::X509Certificates::X509Certificate*,
                          ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate>)>(&::Mono::Unity::CertHelper::AddCertificateToNativeChain)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x2b60524;
+  constexpr static std::size_t addrs = 0x2c5ce24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

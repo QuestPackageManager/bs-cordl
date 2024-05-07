@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/TMP_MaterialReference.hpp"
 #include "TMPro/zzzz__TMP_MaterialReference_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
 // Ctor Parameters [CppParam { name: "material", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "referenceCount", ty: "int32_t", modifiers: "",

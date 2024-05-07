@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SpawnChevronObjectPoolsInstaller.hpp"
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__SpawnChevronObjectPoolsInstaller_def.hpp"
 #include "GlobalNamespace/zzzz__SpawnRotationChevron_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpawnChevronObjectPoolsInstaller::*)()>(
     &::GlobalNamespace::SpawnChevronObjectPoolsInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x25d6848;
+  constexpr static std::size_t addrs = 0x26d6588;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpawnChevronObjectPoolsInstaller::*)()>(
     &::GlobalNamespace::SpawnChevronObjectPoolsInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25d68cc;
+  constexpr static std::size_t addrs = 0x26d660c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SpawnChevronObjectPoolsInstaller*>::get(),

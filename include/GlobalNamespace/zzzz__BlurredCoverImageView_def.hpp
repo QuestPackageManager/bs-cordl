@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BlurredCoverImageView.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -64,10 +65,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x256eb4c, size 0x6cc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2666628, size 0x6cc, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x256f218, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2666cf4, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -153,10 +154,10 @@ public:
 
   static inline ::GlobalNamespace::BlurredCoverImageView* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x256ea00, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x26664dc, size 0xa4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetTextureAsync, addr 0x256eaa4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method SetTextureAsync, addr 0x2666580, size 0xa0, virtual false, abstract: false, final false
   inline void SetTextureAsync(::GlobalNamespace::BeatmapLevel* level);
 
   constexpr ::UnityW<::UnityEngine::Texture2D> const& __cordl_internal_get__blurredCoverTexture() const;
@@ -189,7 +190,7 @@ public:
 
   constexpr void __cordl_internal_set__settingTextureForLevelId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x256eb44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2666620, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

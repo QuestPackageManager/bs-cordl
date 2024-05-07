@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Cms/OriginatorID.hpp"
 #include "Org/BouncyCastle/X509/Store/zzzz__X509CertStoreSelector_impl.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__OriginatorID_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -7,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Cms::OriginatorID::*)()>(&::Org::BouncyCastle::Cms::OriginatorID::GetHashCode)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x1374840;
+  constexpr static std::size_t addrs = 0x1469f64;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -22,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Cms::OriginatorID::*)(::System::Object*)>(
     &::Org::BouncyCastle::Cms::OriginatorID::Equals)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x13748e4;
+  constexpr static std::size_t addrs = 0x146a008;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -36,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::OriginatorID::*)()>(&::Org::BouncyCastle::Cms::OriginatorID::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x13721b8;
+  constexpr static std::size_t addrs = 0x14678dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::OriginatorID*>::get(), ".ctor",

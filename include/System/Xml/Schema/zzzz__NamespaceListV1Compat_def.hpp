@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/NamespaceListV1Compat.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,12 +20,12 @@ namespace System::Xml::Schema {
 class CORDL_TYPE NamespaceListV1Compat : public ::System::Xml::Schema::NamespaceList {
 public:
   // Declarations
-  /// @brief Method Allows, addr 0x2cc1f38, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Allows, addr 0x2dbf838, size 0x24, virtual true, abstract: false, final false
   inline bool Allows(::StringW ns);
 
   static inline ::System::Xml::Schema::NamespaceListV1Compat* New_ctor(::StringW namespaces, ::StringW targetNamespace);
 
-  /// @brief Method .ctor, addr 0x2cc1f34, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dbf834, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW namespaces, ::StringW targetNamespace);
 
 protected:

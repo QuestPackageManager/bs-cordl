@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ArticulationJointType.hpp"
 #include "UnityEngine/zzzz__ArticulationJointType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::ArticulationJointType::ArticulationJointType(int32_t value__) noexcept {

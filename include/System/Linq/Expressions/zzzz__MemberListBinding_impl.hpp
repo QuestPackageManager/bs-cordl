@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/MemberListBinding.hpp"
 #include "System/Linq/Expressions/zzzz__MemberBinding_impl.hpp"
 #include "System/Linq/Expressions/zzzz__MemberListBinding_def.hpp"
 #include "System/Collections/ObjectModel/zzzz__ReadOnlyCollection_1_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ElementInit*>* (
     ::System::Linq::Expressions::MemberListBinding::*)()>(&::System::Linq::Expressions::MemberListBinding::get_Initializers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b0c750;
+  constexpr static std::size_t addrs = 0x2c0a050;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::MemberListBinding*>::get(),

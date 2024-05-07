@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Motion.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,10 +32,10 @@ public:
 
   constexpr void __cordl_internal_set__isAnimatorMotion_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x31be868, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33c42f0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isLooping, addr 0x31be8c0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isLooping, addr 0x33c4348, size 0x3c, virtual false, abstract: false, final false
   inline bool get_isLooping();
 
 protected:

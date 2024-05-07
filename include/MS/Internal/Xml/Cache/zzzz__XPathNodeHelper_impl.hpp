@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "MS/Internal/Xml/Cache/XPathNodeHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "MS/Internal/Xml/Cache/zzzz__XPathNodeHelper_def.hpp"
 #include "MS/Internal/Xml/Cache/zzzz__XPathNode_def.hpp"
@@ -9,7 +10,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                               ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>>)>(
     &::MS::Internal::Xml::Cache::XPathNodeHelper::GetLocalNamespaces)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2d65c58;
+  constexpr static std::size_t addrs = 0x2e62558;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +29,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                               ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>>)>(
     &::MS::Internal::Xml::Cache::XPathNodeHelper::GetInScopeNamespaces)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x2d65cbc;
+  constexpr static std::size_t addrs = 0x2e625bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -46,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>>,
                                                                                            ByRef<int32_t>)>(&::MS::Internal::Xml::Cache::XPathNodeHelper::GetParent)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2d65f78;
+  constexpr static std::size_t addrs = 0x2e62878;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -63,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<int32_t (*)(::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>, int32_t)>(&::MS::Internal::Xml::Cache::XPathNodeHelper::GetLocation)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2d66354;
+  constexpr static std::size_t addrs = 0x2e62c54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -81,7 +82,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>>, ByRef<int32_t>,
                          ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>, int32_t)>(&::MS::Internal::Xml::Cache::XPathNodeHelper::GetTextFollowing)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x2d657dc;
+  constexpr static std::size_t addrs = 0x2e620dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -100,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>>,
                                                                                            ByRef<int32_t>)>(&::MS::Internal::Xml::Cache::XPathNodeHelper::GetNonDescendant)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x2d6575c;
+  constexpr static std::size_t addrs = 0x2e6205c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

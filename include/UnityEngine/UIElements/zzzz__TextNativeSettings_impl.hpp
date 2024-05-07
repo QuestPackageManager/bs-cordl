@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/TextNativeSettings.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__FontStyle_impl.hpp"
 #include "UnityEngine/zzzz__TextAnchor_impl.hpp"

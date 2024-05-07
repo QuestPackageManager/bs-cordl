@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/PlatformException.hpp"
 #include "GlobalNamespace/zzzz__PlatformException_impl.hpp"
 #include "System/zzzz__Exception_impl.hpp"
 #include "GlobalNamespace/zzzz__PlatformException_def.hpp"
@@ -19,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::PlatformException::*)(::GlobalNamespace::__PlatformException__ErrorType, ::StringW, ::System::Exception*)>(&::GlobalNamespace::PlatformException::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2ad5b20;
+  constexpr static std::size_t addrs = 0x2bd23d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlatformException::*)(
     ::GlobalNamespace::__PlatformException__ErrorType, int32_t, int32_t, ::StringW, ::System::Exception*)>(&::GlobalNamespace::PlatformException::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x2ad5b34;
+  constexpr static std::size_t addrs = 0x2bd23e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

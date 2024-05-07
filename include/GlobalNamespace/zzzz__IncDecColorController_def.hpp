@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IncDecColorController.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,7 +34,7 @@ public:
 
   __declspec(property(put = set_enableInc)) bool enableInc;
 
-  /// @brief Method Awake, addr 0x2663634, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x2762a24, size 0xb8, virtual true, abstract: false, final false
   inline void Awake();
 
   /// @brief Method DecButtonPressed, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -44,7 +45,7 @@ public:
 
   static inline ::GlobalNamespace::IncDecColorController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x26636ec, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2762adc, size 0x104, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::UnityW<::GlobalNamespace::ColorStepValuePicker> const& __cordl_internal_get__stepValuePicker() const;
@@ -53,16 +54,16 @@ public:
 
   constexpr void __cordl_internal_set__stepValuePicker(::UnityW<::GlobalNamespace::ColorStepValuePicker> value);
 
-  /// @brief Method .ctor, addr 0x26637f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2762be0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_color, addr 0x2663608, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_color, addr 0x27629f8, size 0x2c, virtual false, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
-  /// @brief Method set_enableDec, addr 0x26635b8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_enableDec, addr 0x27629a8, size 0x28, virtual false, abstract: false, final false
   inline void set_enableDec(bool value);
 
-  /// @brief Method set_enableInc, addr 0x26635e0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_enableInc, addr 0x27629d0, size 0x28, virtual false, abstract: false, final false
   inline void set_enableInc(bool value);
 
 protected:

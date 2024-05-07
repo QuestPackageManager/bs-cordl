@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/ValidationHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__ValidationHelper_def.hpp"
 //  Writing Method size for method: ::System::Net::ValidationHelper.MakeStringNull
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::System::Net::ValidationHelper::MakeStringNull)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2ed2644;
+  constexpr static std::size_t addrs = 0x2fd4f44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -20,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::System::Net::ValidationHelper::IsBlankString)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2ed2658;
+  constexpr static std::size_t addrs = 0x2fd4f58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t)>(&::System::Net::ValidationHelper::ValidateTcpPort)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2ed2674;
+  constexpr static std::size_t addrs = 0x2fd4f74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

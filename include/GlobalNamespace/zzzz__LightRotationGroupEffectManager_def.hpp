@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/LightRotationGroupEffectManager.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,10 +46,10 @@ public:
 
   static inline ::GlobalNamespace::LightRotationGroupEffectManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x25cc26c, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x26cafd8, size 0x148, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x25cbd08, size 0x564, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x26caa74, size 0x564, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
@@ -69,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set__lightRotationGroups(::ArrayW<::UnityW<::GlobalNamespace::LightRotationGroup>, ::Array<::UnityW<::GlobalNamespace::LightRotationGroup>>*> value);
 
-  /// @brief Method .ctor, addr 0x25cc3b4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26cb120, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

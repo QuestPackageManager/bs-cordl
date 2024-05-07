@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Globalization/ThaiBuddhistCalendar.hpp"
 #include "System/Globalization/zzzz__Calendar_impl.hpp"
 #include "System/Globalization/zzzz__ThaiBuddhistCalendar_def.hpp"
 #include "System/Globalization/zzzz__EraInfo_def.hpp"
@@ -11,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (::System::Globalization::ThaiBuddhistCalendar::*)()>(
     &::System::Globalization::ThaiBuddhistCalendar::get_MinSupportedDateTime)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x27edea4;
+  constexpr static std::size_t addrs = 0x28ed5c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (::System::Globalization::ThaiBuddhistCalendar::*)()>(
     &::System::Globalization::ThaiBuddhistCalendar::get_MaxSupportedDateTime)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x27edefc;
+  constexpr static std::size_t addrs = 0x28ed61c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Globalization::ThaiBuddhistCalendar::*)()>(&::System::Globalization::ThaiBuddhistCalendar::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x27edf54;
+  constexpr static std::size_t addrs = 0x28ed674;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::ThaiBuddhistCalendar*>::get(), ".ctor",
@@ -54,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::ThaiBuddhistCalendar::*)()>(
     &::System::Globalization::ThaiBuddhistCalendar::get_ID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x27ee000;
+  constexpr static std::size_t addrs = 0x28ed720;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -69,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::ThaiBuddhistCalendar::*)(int32_t, int32_t, int32_t)>(
     &::System::Globalization::ThaiBuddhistCalendar::GetDaysInMonth)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x27ee008;
+  constexpr static std::size_t addrs = 0x28ed728;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -85,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::ThaiBuddhistCalendar::*)(int32_t, int32_t)>(
     &::System::Globalization::ThaiBuddhistCalendar::GetDaysInYear)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x27ee020;
+  constexpr static std::size_t addrs = 0x28ed740;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -101,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::ThaiBuddhistCalendar::*)(::System::DateTime)>(
     &::System::Globalization::ThaiBuddhistCalendar::GetDayOfMonth)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x27ee038;
+  constexpr static std::size_t addrs = 0x28ed758;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -117,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DayOfWeek (::System::Globalization::ThaiBuddhistCalendar::*)(::System::DateTime)>(
     &::System::Globalization::ThaiBuddhistCalendar::GetDayOfWeek)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x27ee080;
+  constexpr static std::size_t addrs = 0x28ed7a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -133,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::ThaiBuddhistCalendar::*)(int32_t, int32_t)>(
     &::System::Globalization::ThaiBuddhistCalendar::GetMonthsInYear)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x27ee098;
+  constexpr static std::size_t addrs = 0x28ed7b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -149,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::ThaiBuddhistCalendar::*)(::System::DateTime)>(
     &::System::Globalization::ThaiBuddhistCalendar::GetEra)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x27ee0bc;
+  constexpr static std::size_t addrs = 0x28ed7dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -165,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::ThaiBuddhistCalendar::*)(::System::DateTime)>(
     &::System::Globalization::ThaiBuddhistCalendar::GetMonth)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x27ee0d4;
+  constexpr static std::size_t addrs = 0x28ed7f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -181,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::ThaiBuddhistCalendar::*)(::System::DateTime)>(
     &::System::Globalization::ThaiBuddhistCalendar::GetYear)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x27ee11c;
+  constexpr static std::size_t addrs = 0x28ed83c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -197,7 +198,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Globalization::ThaiBuddhistCalendar::*)(int32_t, int32_t)>(
     &::System::Globalization::ThaiBuddhistCalendar::IsLeapYear)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x27ee134;
+  constexpr static std::size_t addrs = 0x28ed854;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -213,7 +214,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (::System::Globalization::ThaiBuddhistCalendar::*)(
     int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t)>(&::System::Globalization::ThaiBuddhistCalendar::ToDateTime)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x27ee14c;
+  constexpr static std::size_t addrs = 0x28ed86c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -229,7 +230,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int32_t, ::Array<int32_t>*> (::System::Globalization::ThaiBuddhistCalendar::*)()>(
     &::System::Globalization::ThaiBuddhistCalendar::get_Eras)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x27ee16c;
+  constexpr static std::size_t addrs = 0x28ed88c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -245,7 +246,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::ThaiBuddhistCalendar::*)()>(
     &::System::Globalization::ThaiBuddhistCalendar::get_TwoDigitYearMax)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x27ee184;
+  constexpr static std::size_t addrs = 0x28ed8a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -261,7 +262,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Globalization::ThaiBuddhistCalendar::*)(int32_t)>(
     &::System::Globalization::ThaiBuddhistCalendar::set_TwoDigitYearMax)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x27ee1c8;
+  constexpr static std::size_t addrs = 0x28ed8e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -277,7 +278,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::ThaiBuddhistCalendar::*)(int32_t)>(
     &::System::Globalization::ThaiBuddhistCalendar::ToFourDigitYear)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x27ee304;
+  constexpr static std::size_t addrs = 0x28eda24;
 
   inline static ::MethodInfo const* methodInfo() {
 

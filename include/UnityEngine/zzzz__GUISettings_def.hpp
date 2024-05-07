@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/GUISettings.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -67,7 +68,7 @@ public:
 
   constexpr void __cordl_internal_set_m_TripleClickSelectsLine(bool value);
 
-  /// @brief Method .ctor, addr 0x32420bc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3449df8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

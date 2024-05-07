@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/HEU_AssetEventReceiverTest.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,18 +28,18 @@ namespace GlobalNamespace {
 class CORDL_TYPE HEU_AssetEventReceiverTest : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Method BakedCallback, addr 0x2438304, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method BakedCallback, addr 0x2531f90, size 0x1ac, virtual false, abstract: false, final false
   inline void BakedCallback(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool success, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputList);
 
-  /// @brief Method CookedCallback, addr 0x2438158, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method CookedCallback, addr 0x2531de4, size 0x1ac, virtual false, abstract: false, final false
   inline void CookedCallback(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool success, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputList);
 
   static inline ::GlobalNamespace::HEU_AssetEventReceiverTest* New_ctor();
 
-  /// @brief Method ReloadCallback, addr 0x2437fac, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method ReloadCallback, addr 0x2531c38, size 0x1ac, virtual false, abstract: false, final false
   inline void ReloadCallback(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool success, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputList);
 
-  /// @brief Method .ctor, addr 0x24384b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x253213c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

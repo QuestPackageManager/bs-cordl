@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Math/Field/GenericPolynomialExtensionField.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,10 +63,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Math::Field::IPolynomialExtensionField"
   constexpr operator ::Org::BouncyCastle::Math::Field::IPolynomialExtensionField*() noexcept;
 
-  /// @brief Method Equals, addr 0x11cb900, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x12bc024, size 0xd0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x11cb9d0, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x12bc0f4, size 0x54, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::Org::BouncyCastle::Math::Field::GenericPolynomialExtensionField* New_ctor(::Org::BouncyCastle::Math::Field::IFiniteField* subfield,
@@ -83,22 +84,22 @@ public:
 
   constexpr void __cordl_internal_set_subfield(::Org::BouncyCastle::Math::Field::IFiniteField* value);
 
-  /// @brief Method .ctor, addr 0x11cb3b8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12bbadc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::Field::IFiniteField* subfield, ::Org::BouncyCastle::Math::Field::IPolynomial* polynomial);
 
-  /// @brief Method get_Characteristic, addr 0x11cb68c, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method get_Characteristic, addr 0x12bbdb0, size 0xa0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Characteristic();
 
-  /// @brief Method get_Degree, addr 0x11cb858, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method get_Degree, addr 0x12bbf7c, size 0xa0, virtual true, abstract: false, final false
   inline int32_t get_Degree();
 
-  /// @brief Method get_Dimension, addr 0x11cb72c, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method get_Dimension, addr 0x12bbe50, size 0x124, virtual true, abstract: false, final false
   inline int32_t get_Dimension();
 
-  /// @brief Method get_MinimalPolynomial, addr 0x11cb8f8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_MinimalPolynomial, addr 0x12bc01c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::Field::IPolynomial* get_MinimalPolynomial();
 
-  /// @brief Method get_Subfield, addr 0x11cb850, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Subfield, addr 0x12bbf74, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::Field::IFiniteField* get_Subfield();
 
   /// @brief Convert to "::Org::BouncyCastle::Math::Field::IExtensionField"

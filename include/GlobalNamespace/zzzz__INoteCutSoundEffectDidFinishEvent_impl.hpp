@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/INoteCutSoundEffectDidFinishEvent.hpp"
 #include "GlobalNamespace/zzzz__INoteCutSoundEffectDidFinishEvent_def.hpp"
 #include "GlobalNamespace/zzzz__NoteCutSoundEffect_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::INoteCutSoundEffectDidFinishEvent.HandleNoteCutSoundEffectDidFinish

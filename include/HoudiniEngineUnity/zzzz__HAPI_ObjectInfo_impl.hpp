@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HAPI_ObjectInfo.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_ObjectInfo_def.hpp"
 // Ctor Parameters [CppParam { name: "nameSH", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "objectInstancePathSH", ty: "int32_t", modifiers: "", def_value: Some("{}") },
 // CppParam { name: "hasTransformChanged", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "haveGeosChanged", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name:

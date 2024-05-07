@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ImageWithHintItemsList.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,7 +24,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::ImageWithHintItemsList* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2638900, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27386ec, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

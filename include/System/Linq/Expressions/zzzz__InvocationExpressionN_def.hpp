@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/InvocationExpressionN.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,13 +39,13 @@ public:
   __declspec(property(get = __cordl_internal_get__arguments,
                       put = __cordl_internal_set__arguments))::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* _arguments;
 
-  /// @brief Method GetArgument, addr 0x2b0b46c, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method GetArgument, addr 0x2c08d6c, size 0xa8, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* GetArgument(int32_t index);
 
   static inline ::System::Linq::Expressions::InvocationExpressionN*
   New_ctor(::System::Linq::Expressions::Expression* lambda, ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* arguments, ::System::Type* returnType);
 
-  /// @brief Method Rewrite, addr 0x2b0b5b4, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method Rewrite, addr 0x2c08eb4, size 0x74, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::InvocationExpression* Rewrite(::System::Linq::Expressions::Expression* lambda,
                                                                     ::ArrayW<::System::Linq::Expressions::Expression*, ::Array<::System::Linq::Expressions::Expression*>*> arguments);
 
@@ -54,10 +55,10 @@ public:
 
   constexpr void __cordl_internal_set__arguments(::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* value);
 
-  /// @brief Method .ctor, addr 0x2b0b444, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c08d44, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Expression* lambda, ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* arguments, ::System::Type* returnType);
 
-  /// @brief Method get_ArgumentCount, addr 0x2b0b514, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method get_ArgumentCount, addr 0x2c08e14, size 0xa0, virtual true, abstract: false, final false
   inline int32_t get_ArgumentCount();
 
 protected:

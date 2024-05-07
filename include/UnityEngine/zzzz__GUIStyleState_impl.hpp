@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/GUIStyleState.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__GUIStyleState_def.hpp"
@@ -9,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUIStyleState::*)(::UnityEngine::Color)>(&::UnityEngine::GUIStyleState::set_textColor)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3245ff0;
+  constexpr static std::size_t addrs = 0x344dd2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (*)()>(&::UnityEngine::GUIStyleState::Init)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3246088;
+  constexpr static std::size_t addrs = 0x344ddc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyleState*>::get(), "Init",
@@ -36,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUIStyleState::*)()>(&::UnityEngine::GUIStyleState::Cleanup)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x32460b0;
+  constexpr static std::size_t addrs = 0x344ddec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyleState*>::get(), "Cleanup",
@@ -49,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUIStyleState::*)()>(&::UnityEngine::GUIStyleState::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x32460ec;
+  constexpr static std::size_t addrs = 0x344de28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyleState*>::get(), ".ctor",
@@ -62,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUIStyleState::*)(::UnityEngine::GUIStyle*, void*)>(&::UnityEngine::GUIStyleState::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3246134;
+  constexpr static std::size_t addrs = 0x344de70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -78,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GUIStyleState* (*)(::UnityEngine::GUIStyle*, void*)>(
     &::UnityEngine::GUIStyleState::GetGUIStyleState)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3246160;
+  constexpr static std::size_t addrs = 0x344de9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -93,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUIStyleState::*)()>(&::UnityEngine::GUIStyleState::Finalize)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x32461d0;
+  constexpr static std::size_t addrs = 0x344df0c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -108,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUIStyleState::*)(ByRef<::UnityEngine::Color>)>(
     &::UnityEngine::GUIStyleState::set_textColor_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3246044;
+  constexpr static std::size_t addrs = 0x344dd80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

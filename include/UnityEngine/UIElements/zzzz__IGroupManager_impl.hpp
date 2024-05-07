@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/IGroupManager.hpp"
 #include "UnityEngine/UIElements/zzzz__IGroupManager_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IGroupBoxOption_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::IGroupManager.OnOptionSelectionChanged

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/SparselyPopulatedArrayFragment_1.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/zzzz__SparselyPopulatedArrayFragment_1_def.hpp"
 template <typename T> constexpr ::ArrayW<T, ::Array<T>*>& System::Threading::SparselyPopulatedArrayFragment_1<T>::__cordl_internal_get__elements() {

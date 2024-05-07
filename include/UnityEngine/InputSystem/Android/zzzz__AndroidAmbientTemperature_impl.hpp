@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Android/AndroidAmbientTemperature.hpp"
 #include "UnityEngine/InputSystem/zzzz__AmbientTemperatureSensor_impl.hpp"
 #include "UnityEngine/InputSystem/Android/zzzz__AndroidAmbientTemperature_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Android::AndroidAmbientTemperature._ctor
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Android::AndroidAmbientTemperature::*)()>(
     &::UnityEngine::InputSystem::Android::AndroidAmbientTemperature::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x301933c;
+  constexpr static std::size_t addrs = 0x31550c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

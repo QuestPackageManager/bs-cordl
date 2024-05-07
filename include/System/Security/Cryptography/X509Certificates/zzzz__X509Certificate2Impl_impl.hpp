@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/Cryptography/X509Certificates/X509Certificate2Impl.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateImpl_impl.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2Impl_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
@@ -194,7 +195,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl::*)(::System::Security::Cryptography::RSA*)>(
     &::System::Security::Cryptography::X509Certificates::X509Certificate2Impl::CopyWithPrivateKey)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x2eb0a84;
+  constexpr static std::size_t addrs = 0x2fb2384;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -209,7 +210,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::X509Certificates::X509Certificate2Impl::*)()>(
     &::System::Security::Cryptography::X509Certificates::X509Certificate2Impl::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2eb0b30;
+  constexpr static std::size_t addrs = 0x2fb2430;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

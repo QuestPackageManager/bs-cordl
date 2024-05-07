@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Experimental/Rendering/ScriptableRuntimeReflectionSystemWrapper.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,7 +29,7 @@ public:
 
   __declspec(property(get = get_implementation, put = set_implementation))::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* implementation;
 
-  /// @brief Method Internal_ScriptableRuntimeReflectionSystemWrapper_TickRealtimeProbes, addr 0x322dfac, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Internal_ScriptableRuntimeReflectionSystemWrapper_TickRealtimeProbes, addr 0x3435ce8, size 0xb4, virtual false, abstract: false, final false
   inline void Internal_ScriptableRuntimeReflectionSystemWrapper_TickRealtimeProbes(ByRef<bool> result);
 
   static inline ::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper* New_ctor();
@@ -39,13 +40,13 @@ public:
 
   constexpr void __cordl_internal_set__implementation_k__BackingField(::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* value);
 
-  /// @brief Method .ctor, addr 0x322df94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3435cd0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_implementation, addr 0x322df9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_implementation, addr 0x3435cd8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* get_implementation();
 
-  /// @brief Method set_implementation, addr 0x322dfa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_implementation, addr 0x3435ce0, size 0x8, virtual false, abstract: false, final false
   inline void set_implementation(::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* value);
 
 protected:

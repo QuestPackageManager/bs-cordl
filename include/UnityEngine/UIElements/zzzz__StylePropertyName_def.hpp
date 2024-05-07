@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/StylePropertyName.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,43 +38,43 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::StylePropertyName>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::StylePropertyName>*();
 
-  /// @brief Method Equals, addr 0x330b008, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x350fd44, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method Equals, addr 0x330b080, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x350fdbc, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::StylePropertyName other);
 
-  /// @brief Method GetHashCode, addr 0x330b000, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x350fd3c, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method StylePropertyIdFromString, addr 0x330ae48, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method StylePropertyIdFromString, addr 0x350fb84, size 0xa0, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleSheets::StylePropertyId StylePropertyIdFromString(::StringW name);
 
-  /// @brief Method ToString, addr 0x330b090, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x350fdcc, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x330af94, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x350fcd0, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x330aee8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x350fc24, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleSheets::StylePropertyId stylePropertyId);
 
-  /// @brief Method get_id, addr 0x330ae38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x350fb74, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSheets::StylePropertyId get_id();
 
-  /// @brief Method get_name, addr 0x330ae40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x350fb7c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StylePropertyName>"
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::StylePropertyName>* i___System__IEquatable_1___UnityEngine__UIElements__StylePropertyName_();
 
-  /// @brief Method op_Equality, addr 0x330afc8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x350fd04, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::StylePropertyName lhs, ::UnityEngine::UIElements::StylePropertyName rhs);
 
-  /// @brief Method op_Implicit, addr 0x330afe0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x350fd1c, size 0x20, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StylePropertyName op_Implicit___UnityEngine__UIElements__StylePropertyName(::StringW name);
 
-  /// @brief Method op_Inequality, addr 0x330afd4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x350fd10, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::UIElements::StylePropertyName lhs, ::UnityEngine::UIElements::StylePropertyName rhs);
 
   // Ctor Parameters []

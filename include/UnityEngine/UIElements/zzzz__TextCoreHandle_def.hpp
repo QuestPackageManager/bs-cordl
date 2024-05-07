@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/TextCoreHandle.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,56 +58,56 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::ITextHandle"
   constexpr operator ::UnityEngine::UIElements::ITextHandle*();
 
-  /// @brief Method ComputeTextHeight, addr 0x3394d3c, size 0x34, virtual true, abstract: false, final true
+  /// @brief Method ComputeTextHeight, addr 0x359aa78, size 0x34, virtual true, abstract: false, final true
   inline float_t ComputeTextHeight(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams parms, float_t scaling);
 
-  /// @brief Method ComputeTextWidth, addr 0x3394bd8, size 0x34, virtual true, abstract: false, final true
+  /// @brief Method ComputeTextWidth, addr 0x359a914, size 0x34, virtual true, abstract: false, final true
   inline float_t ComputeTextWidth(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams parms, float_t scaling);
 
-  /// @brief Method GetCursorPosition, addr 0x3394bb0, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method GetCursorPosition, addr 0x359a8ec, size 0x28, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector2 GetCursorPosition(::UnityEngine::UIElements::CursorPositionStylePainterParameters parms, float_t scaling);
 
-  /// @brief Method GetLineHeight, addr 0x3394d70, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method GetLineHeight, addr 0x359aaac, size 0x68, virtual true, abstract: false, final true
   inline float_t GetLineHeight(int32_t characterIndex, ::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams textParams, float_t textScaling, float_t pixelPerPoint);
 
-  /// @brief Method GetTextOverflowMode, addr 0x339528c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetTextOverflowMode, addr 0x359afc8, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::TextCore::Text::TextOverflowMode GetTextOverflowMode(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams textParams);
 
-  /// @brief Method IsDirty, addr 0x3394b6c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method IsDirty, addr 0x359a8a8, size 0x44, virtual false, abstract: false, final false
   inline bool IsDirty(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams parms);
 
-  /// @brief Method IsElided, addr 0x33954a8, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method IsElided, addr 0x359b1e4, size 0x64, virtual true, abstract: false, final true
   inline bool IsElided();
 
-  /// @brief Method IsLegacy, addr 0x3394b64, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method IsLegacy, addr 0x359a8a0, size 0x8, virtual true, abstract: false, final true
   inline bool IsLegacy();
 
-  /// @brief Method New, addr 0x3394978, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method New, addr 0x359a6b4, size 0xc0, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::ITextHandle* New();
 
-  /// @brief Method Update, addr 0x3394dd8, size 0x208, virtual true, abstract: false, final true
+  /// @brief Method Update, addr 0x359ab14, size 0x208, virtual true, abstract: false, final true
   inline ::UnityEngine::TextCore::Text::TextInfo* Update(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams parms, float_t pixelsPerPoint);
 
-  /// @brief Method UpdateGenerationSettingsCommon, addr 0x3394fe0, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method UpdateGenerationSettingsCommon, addr 0x359ad1c, size 0x2ac, virtual false, abstract: false, final false
   static inline void UpdateGenerationSettingsCommon(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams painterParams, ::UnityEngine::TextCore::Text::TextGenerationSettings* settings);
 
-  /// @brief Method UpdatePreferredValues, addr 0x3394c0c, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method UpdatePreferredValues, addr 0x359a948, size 0x130, virtual false, abstract: false, final false
   inline void UpdatePreferredValues(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams parms);
 
   static inline ::UnityEngine::TextCore::Text::TextGenerationSettings* getStaticF_s_LayoutSettings();
 
   static inline ::UnityEngine::TextCore::Text::TextInfo* getStaticF_s_TextInfoLayout();
 
-  /// @brief Method get_MeasuredSizes, addr 0x3394958, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_MeasuredSizes, addr 0x359a694, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector2 get_MeasuredSizes();
 
-  /// @brief Method get_RoundedSizes, addr 0x3394968, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_RoundedSizes, addr 0x359a6a4, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector2 get_RoundedSizes();
 
-  /// @brief Method get_textInfoLayout, addr 0x3394aa4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method get_textInfoLayout, addr 0x359a7e0, size 0xc0, virtual false, abstract: false, final false
   static inline ::UnityEngine::TextCore::Text::TextInfo* get_textInfoLayout();
 
-  /// @brief Method get_textInfoMesh, addr 0x3394a38, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_textInfoMesh, addr 0x359a774, size 0x6c, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::Text::TextInfo* get_textInfoMesh();
 
   /// @brief Convert to "::UnityEngine::UIElements::ITextHandle"
@@ -116,10 +117,10 @@ public:
 
   static inline void setStaticF_s_TextInfoLayout(::UnityEngine::TextCore::Text::TextInfo* value);
 
-  /// @brief Method set_MeasuredSizes, addr 0x3394960, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_MeasuredSizes, addr 0x359a69c, size 0x8, virtual true, abstract: false, final true
   inline void set_MeasuredSizes(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_RoundedSizes, addr 0x3394970, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_RoundedSizes, addr 0x359a6ac, size 0x8, virtual true, abstract: false, final true
   inline void set_RoundedSizes(::UnityEngine::Vector2 value);
 
   // Ctor Parameters []

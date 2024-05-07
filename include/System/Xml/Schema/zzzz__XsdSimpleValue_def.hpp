@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/XsdSimpleValue.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,13 +49,13 @@ public:
 
   constexpr void __cordl_internal_set_xmlType(::System::Xml::Schema::XmlSchemaSimpleType* value);
 
-  /// @brief Method .ctor, addr 0x2e01c64, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f00564, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaSimpleType* st, ::System::Object* value);
 
-  /// @brief Method get_TypedValue, addr 0x2e01c98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TypedValue, addr 0x2f00598, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_TypedValue();
 
-  /// @brief Method get_XmlType, addr 0x2e01c90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlType, addr 0x2f00590, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaSimpleType* get_XmlType();
 
 protected:

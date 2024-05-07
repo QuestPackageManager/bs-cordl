@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/CustomControlPlayableAsset.hpp"
 #include "UnityEngine/Timeline/zzzz__ControlPlayableAsset_impl.hpp"
 #include "GlobalNamespace/zzzz__CustomControlPlayableAsset_def.hpp"
 #include "GlobalNamespace/zzzz__AvatarColorBehaviour_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Timeline::ClipCaps (::GlobalNamespace::CustomControlPlayableAsset::*)()>(
     &::GlobalNamespace::CustomControlPlayableAsset::get_clipCaps)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25a2134;
+  constexpr static std::size_t addrs = 0x269bff8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomControlPlayableAsset*>::get(),
@@ -23,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CustomControlPlayableAsset::*)()>(&::GlobalNamespace::CustomControlPlayableAsset::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x25a213c;
+  constexpr static std::size_t addrs = 0x269c000;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomControlPlayableAsset*>::get(), ".ctor",

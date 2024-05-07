@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/IntersectionMaskCircle_t.hpp"
 #include "OVR/OpenVR/zzzz__IntersectionMaskCircle_t_def.hpp"
 // Ctor Parameters [CppParam { name: "m_flCenterX", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_flCenterY", ty: "float_t", modifiers: "", def_value: Some("{}") },
 // CppParam { name: "m_flRadius", ty: "float_t", modifiers: "", def_value: Some("{}") }]

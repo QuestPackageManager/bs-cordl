@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MoveInDirectionEffect.hpp"
 #include "GlobalNamespace/zzzz__FloatFxGroupEffectTarget_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__MoveInDirectionEffect_def.hpp"
@@ -8,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MoveInDirectionEffect::*)()>(&::GlobalNamespace::MoveInDirectionEffect::Awake)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x25c84f0;
+  constexpr static std::size_t addrs = 0x26c725c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MoveInDirectionEffect*>::get(), "Awake",
@@ -22,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MoveInDirectionEffect::*)(int32_t, int32_t, float_t)>(
     &::GlobalNamespace::MoveInDirectionEffect::SetValue)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x25c860c;
+  constexpr static std::size_t addrs = 0x26c7378;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -37,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MoveInDirectionEffect::*)(int32_t, int32_t, float_t)>(
     &::GlobalNamespace::MoveInDirectionEffect::TriggerValue)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x25c865c;
+  constexpr static std::size_t addrs = 0x26c73c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -51,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MoveInDirectionEffect::*)(float_t)>(&::GlobalNamespace::MoveInDirectionEffect::Move)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x25c8610;
+  constexpr static std::size_t addrs = 0x26c737c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MoveInDirectionEffect::*)()>(&::GlobalNamespace::MoveInDirectionEffect::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x25c8660;
+  constexpr static std::size_t addrs = 0x26c73cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MoveInDirectionEffect*>::get(), ".ctor",

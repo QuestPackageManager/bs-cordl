@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/DisposableManager.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -90,7 +91,7 @@ namespace Zenject {
 struct CORDL_TYPE __DisposableManager__DisposableInfo {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x345e798, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3662760, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::IDisposable* disposable, int32_t priority);
 
   // Ctor Parameters []
@@ -147,13 +148,13 @@ public:
 
   constexpr void __cordl_internal_set_Priority(int32_t value);
 
-  /// @brief Method __zenCreate, addr 0x345f948, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x3663910, size 0x110, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x345fa58, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x3663a20, size 0x304, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x345e7ac, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3662774, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::ILateDisposable* lateDisposable, int32_t priority);
 
 protected:
@@ -205,16 +206,16 @@ public:
 
   constexpr void __cordl_internal_set_disposable(::System::IDisposable* value);
 
-  /// @brief Method <.ctor>b__0, addr 0x345fd5c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0, addr 0x3663d24, size 0x80, virtual false, abstract: false, final false
   inline bool __ctor_b__0(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x);
 
-  /// @brief Method __zenCreate, addr 0x345fddc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x3663da4, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x345fe38, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x3663e00, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x345e790, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3662758, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -261,16 +262,16 @@ public:
 
   constexpr void __cordl_internal_set_lateDisposable(::Zenject::ILateDisposable* value);
 
-  /// @brief Method <.ctor>b__2, addr 0x345fff8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__2, addr 0x3663fc0, size 0x80, virtual false, abstract: false, final false
   inline bool __ctor_b__2(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x);
 
-  /// @brief Method __zenCreate, addr 0x3460078, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x3664040, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x34600d4, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x366409c, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x345e7a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x366276c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -325,25 +326,25 @@ public:
 
   static inline ::Zenject::__DisposableManager____c* New_ctor();
 
-  /// @brief Method <Dispose>b__11_0, addr 0x34603d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <Dispose>b__11_0, addr 0x36643a0, size 0x8, virtual false, abstract: false, final false
   inline int32_t _Dispose_b__11_0(::Zenject::__DisposableManager__DisposableInfo x);
 
-  /// @brief Method <LateDispose>b__10_0, addr 0x34603c0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <LateDispose>b__10_0, addr 0x3664388, size 0x18, virtual false, abstract: false, final false
   inline int32_t _LateDispose_b__10_0(::Zenject::__DisposableManager__LateDisposableInfo* x);
 
-  /// @brief Method <.ctor>b__4_1, addr 0x3460300, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__4_1, addr 0x36642c8, size 0x60, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int32_t> __ctor_b__4_1(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x);
 
-  /// @brief Method <.ctor>b__4_3, addr 0x3460360, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__4_3, addr 0x3664328, size 0x60, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int32_t> __ctor_b__4_3(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>* x);
 
-  /// @brief Method __zenCreate, addr 0x34603e0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x36643a8, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x346043c, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x3664404, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x34602f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36642c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Zenject::__DisposableManager____c* getStaticF___9();
@@ -399,7 +400,7 @@ public:
 
   static inline ::Zenject::__DisposableManager____c__DisplayClass9_0* New_ctor();
 
-  /// @brief Method <Remove>b__0, addr 0x34605fc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <Remove>b__0, addr 0x36645c4, size 0x10, virtual false, abstract: false, final false
   inline bool _Remove_b__0(::Zenject::__DisposableManager__DisposableInfo x);
 
   constexpr ::System::IDisposable*& __cordl_internal_get_disposable();
@@ -408,13 +409,13 @@ public:
 
   constexpr void __cordl_internal_set_disposable(::System::IDisposable* value);
 
-  /// @brief Method __zenCreate, addr 0x346060c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x36645d4, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x3460668, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x3664630, size 0x1c0, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x345eac4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3662a8c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -479,22 +480,22 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Add, addr 0x345e7dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x36627a4, size 0x8, virtual false, abstract: false, final false
   inline void Add(::System::IDisposable* disposable);
 
-  /// @brief Method Add, addr 0x345e7e4, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x36627ac, size 0xbc, virtual false, abstract: false, final false
   inline void Add(::System::IDisposable* disposable, int32_t priority);
 
-  /// @brief Method AddLate, addr 0x345e8a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AddLate, addr 0x3662868, size 0x8, virtual false, abstract: false, final false
   inline void AddLate(::Zenject::ILateDisposable* disposable);
 
-  /// @brief Method AddLate, addr 0x345e8a8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method AddLate, addr 0x3662870, size 0xf0, virtual false, abstract: false, final false
   inline void AddLate(::Zenject::ILateDisposable* disposable, int32_t priority);
 
-  /// @brief Method Dispose, addr 0x345ef28, size 0x438, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3662ef0, size 0x438, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method LateDispose, addr 0x345eacc, size 0x45c, virtual false, abstract: false, final false
+  /// @brief Method LateDispose, addr 0x3662a94, size 0x45c, virtual false, abstract: false, final false
   inline void LateDispose();
 
   static inline ::Zenject::DisposableManager* New_ctor(::System::Collections::Generic::List_1<::System::IDisposable*>* disposables,
@@ -502,7 +503,7 @@ public:
                                                        ::System::Collections::Generic::List_1<::Zenject::ILateDisposable*>* lateDisposables,
                                                        ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* latePriorities);
 
-  /// @brief Method Remove, addr 0x345e998, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x3662960, size 0x12c, virtual false, abstract: false, final false
   inline void Remove(::System::IDisposable* disposable);
 
   constexpr ::System::Collections::Generic::List_1<::Zenject::__DisposableManager__DisposableInfo>*& __cordl_internal_get__disposables();
@@ -529,13 +530,13 @@ public:
 
   constexpr void __cordl_internal_set__lateDisposed(bool value);
 
-  /// @brief Method __zenCreate, addr 0x345f360, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x3663328, size 0x1c4, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x345f524, size 0x424, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x36634ec, size 0x424, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x345df60, size 0x830, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3661f28, size 0x830, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::System::IDisposable*>* disposables,
                     ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* priorities,
                     ::System::Collections::Generic::List_1<::Zenject::ILateDisposable*>* lateDisposables,

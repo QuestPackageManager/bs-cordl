@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BombExecutionRating.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -97,10 +98,10 @@ public:
 
   constexpr void __cordl_internal_set__rating_k__BackingField(::GlobalNamespace::__BombExecutionRating__Rating value);
 
-  /// @brief Method .ctor, addr 0x13a7030, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x149c70c, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(float_t time, ::GlobalNamespace::__BombExecutionRating__Rating rating);
 
-  /// @brief Method get_rating, addr 0x13a7028, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rating, addr 0x149c704, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__BombExecutionRating__Rating get_rating();
 
 protected:

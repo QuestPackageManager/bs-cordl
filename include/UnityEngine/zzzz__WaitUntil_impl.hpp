@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/WaitUntil.hpp"
 #include "UnityEngine/zzzz__CustomYieldInstruction_impl.hpp"
 #include "UnityEngine/zzzz__WaitUntil_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"
@@ -7,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::WaitUntil::*)()>(&::UnityEngine::WaitUntil::get_keepWaiting)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3206290;
+  constexpr static std::size_t addrs = 0x340cfc4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -21,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::WaitUntil::*)(::System::Func_1<bool>*)>(&::UnityEngine::WaitUntil::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x32062c0;
+  constexpr static std::size_t addrs = 0x340cff4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

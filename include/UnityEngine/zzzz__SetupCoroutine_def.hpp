@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/SetupCoroutine.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,10 +27,10 @@ namespace UnityEngine {
 class CORDL_TYPE SetupCoroutine : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InvokeMember, addr 0x3207e00, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method InvokeMember, addr 0x340eb34, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::Object* InvokeMember(::System::Object* behaviour, ::StringW name, ::System::Object* variable);
 
-  /// @brief Method InvokeMoveNext, addr 0x3207cac, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method InvokeMoveNext, addr 0x340e9e0, size 0x154, virtual false, abstract: false, final false
   static inline void InvokeMoveNext(::System::Collections::IEnumerator* enumerator, void* returnValueAddress);
 
 protected:

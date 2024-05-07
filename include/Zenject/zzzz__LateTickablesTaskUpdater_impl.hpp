@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/LateTickablesTaskUpdater.hpp"
 #include "Zenject/zzzz__TaskUpdater_1_impl.hpp"
 #include "Zenject/zzzz__LateTickablesTaskUpdater_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::LateTickablesTaskUpdater::*)(::Zenject::ILateTickable*)>(
     &::Zenject::LateTickablesTaskUpdater::UpdateItem)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3468050;
+  constexpr static std::size_t addrs = 0x366c018;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::LateTickablesTaskUpdater::*)()>(&::Zenject::LateTickablesTaskUpdater::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x34680ec;
+  constexpr static std::size_t addrs = 0x366c0b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::LateTickablesTaskUpdater*>::get(), ".ctor",
@@ -38,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::Zenject::LateTickablesTaskUpdater::__zenCreate)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3468134;
+  constexpr static std::size_t addrs = 0x366c0fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::LateTickablesTaskUpdater::__zenCreateInjectTypeInfo)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x346818c;
+  constexpr static std::size_t addrs = 0x366c154;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::LateTickablesTaskUpdater*>::get(),

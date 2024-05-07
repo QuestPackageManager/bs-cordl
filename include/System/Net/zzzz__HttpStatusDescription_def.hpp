@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/HttpStatusDescription.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,10 +24,10 @@ namespace System::Net {
 class CORDL_TYPE HttpStatusDescription : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Get, addr 0x2ebbea0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x2fbe7a0, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW Get(::System::Net::HttpStatusCode code);
 
-  /// @brief Method Get, addr 0x2ebbea4, size 0x698, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x2fbe7a4, size 0x698, virtual false, abstract: false, final false
   static inline ::StringW Get(int32_t code);
 
 protected:

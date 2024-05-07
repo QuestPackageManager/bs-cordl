@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IBpmController.hpp"
 #include "GlobalNamespace/zzzz__IBpmController_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IBpmController.get_currentBpm
 template <>

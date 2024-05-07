@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Android/LowLevel/AndroidCompensateRotationProcessor.hpp"
 #include "UnityEngine/InputSystem/Processors/zzzz__CompensateRotationProcessor_impl.hpp"
 #include "UnityEngine/InputSystem/Android/LowLevel/zzzz__AndroidCompensateRotationProcessor_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (::UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateRotationProcessor::*)(
     ::UnityEngine::Quaternion, ::UnityEngine::InputSystem::InputControl*)>(&::UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateRotationProcessor::Process)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x301a888;
+  constexpr static std::size_t addrs = 0x3156614;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateRotationProcessor::*)()>(
     &::UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateRotationProcessor::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x301a8bc;
+  constexpr static std::size_t addrs = 0x3156648;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

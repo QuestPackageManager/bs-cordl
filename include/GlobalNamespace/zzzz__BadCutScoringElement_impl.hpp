@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BadCutScoringElement.hpp"
 #include "GlobalNamespace/zzzz__ScoreMultiplierCounter_impl.hpp"
 #include "GlobalNamespace/zzzz__ScoringElement_impl.hpp"
 #include "GlobalNamespace/zzzz__BadCutScoringElement_def.hpp"
@@ -11,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__BadCutScoringElement__Pool::*)()>(
     &::GlobalNamespace::__BadCutScoringElement__Pool::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x262a080;
+  constexpr static std::size_t addrs = 0x2729f54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BadCutScoringElement__Pool*>::get(), ".ctor",
@@ -34,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::BadCutScoringElement::*)()>(&::GlobalNamespace::BadCutScoringElement::get_cutScore)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x262a054;
+  constexpr static std::size_t addrs = 0x2729f28;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -49,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType (::GlobalNamespace::BadCutScoringElement::*)()>(
     &::GlobalNamespace::BadCutScoringElement::get_wouldBeCorrectCutBestPossibleMultiplierEventType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x262a05c;
+  constexpr static std::size_t addrs = 0x2729f30;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -64,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType (::GlobalNamespace::BadCutScoringElement::*)()>(
     &::GlobalNamespace::BadCutScoringElement::get_multiplierEventType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x262a064;
+  constexpr static std::size_t addrs = 0x2729f38;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -79,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::BadCutScoringElement::*)()>(
     &::GlobalNamespace::BadCutScoringElement::get_executionOrder)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x262a06c;
+  constexpr static std::size_t addrs = 0x2729f40;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -94,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BadCutScoringElement::*)(::GlobalNamespace::NoteData*)>(
     &::GlobalNamespace::BadCutScoringElement::Init)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x2629aac;
+  constexpr static std::size_t addrs = 0x2729980;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -108,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BadCutScoringElement::*)()>(&::GlobalNamespace::BadCutScoringElement::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x262a078;
+  constexpr static std::size_t addrs = 0x2729f4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BadCutScoringElement*>::get(), ".ctor",

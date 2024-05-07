@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/SceneKernel.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,10 +24,10 @@ public:
   // Declarations
   static inline ::Zenject::SceneKernel* New_ctor();
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x3465c44, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x3669c0c, size 0x178, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x3465c3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3669c04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

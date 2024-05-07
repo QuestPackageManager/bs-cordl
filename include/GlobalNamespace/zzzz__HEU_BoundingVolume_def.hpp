@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/HEU_BoundingVolume.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,15 +30,15 @@ public:
   // Declarations
   __declspec(property(get = get_BoundingCollider))::UnityW<::UnityEngine::Collider> BoundingCollider;
 
-  /// @brief Method GetAllIntersectingObjects, addr 0x2434f20, size 0x2b4, virtual false, abstract: false, final false
+  /// @brief Method GetAllIntersectingObjects, addr 0x252ebac, size 0x2b4, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* GetAllIntersectingObjects();
 
   static inline ::GlobalNamespace::HEU_BoundingVolume* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24351d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x252ee60, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BoundingCollider, addr 0x2434ed8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_BoundingCollider, addr 0x252eb64, size 0x48, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Collider> get_BoundingCollider();
 
 protected:

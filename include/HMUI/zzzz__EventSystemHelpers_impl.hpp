@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/EventSystemHelpers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "HMUI/zzzz__EventSystemHelpers_def.hpp"
 //  Writing Method size for method: ::HMUI::EventSystemHelpers.IsInputFieldSelected
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::HMUI::EventSystemHelpers::IsInputFieldSelected)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x240686c;
+  constexpr static std::size_t addrs = 0x24ff4f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::EventSystemHelpers*>::get(), "IsInputFieldSelected",

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/IPrefabInstantiator.hpp"
 #include "Zenject/zzzz__IPrefabInstantiator_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Action_def.hpp"

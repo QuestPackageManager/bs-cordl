@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/DelayedMenuButtonTrigger.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -54,7 +55,7 @@ public:
 
   static inline ::GlobalNamespace::DelayedMenuButtonTrigger* New_ctor();
 
-  /// @brief Method Tick, addr 0x25e3630, size 0x110, virtual true, abstract: false, final true
+  /// @brief Method Tick, addr 0x26e33e8, size 0x110, virtual true, abstract: false, final true
   inline void Tick();
 
   constexpr float_t const& __cordl_internal_get__pressDuration() const;
@@ -87,10 +88,10 @@ public:
 
   constexpr void __cordl_internal_set_menuButtonTriggeredEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x25e3740, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e34f8, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_menuButtonTriggeredEvent, addr 0x25e34f8, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_menuButtonTriggeredEvent, addr 0x26e32b0, size 0x9c, virtual true, abstract: false, final true
   inline void add_menuButtonTriggeredEvent(::System::Action* value);
 
   /// @brief Convert to "::GlobalNamespace::IMenuButtonTrigger"
@@ -99,7 +100,7 @@ public:
   /// @brief Convert to "::Zenject::ITickable"
   constexpr ::Zenject::ITickable* i___Zenject__ITickable() noexcept;
 
-  /// @brief Method remove_menuButtonTriggeredEvent, addr 0x25e3594, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_menuButtonTriggeredEvent, addr 0x26e334c, size 0x9c, virtual true, abstract: false, final true
   inline void remove_menuButtonTriggeredEvent(::System::Action* value);
 
 protected:

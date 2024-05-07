@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/ConformanceLevel.hpp"
 #include "System/Xml/zzzz__ConformanceLevel_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Xml::ConformanceLevel::ConformanceLevel(int32_t value__) noexcept {

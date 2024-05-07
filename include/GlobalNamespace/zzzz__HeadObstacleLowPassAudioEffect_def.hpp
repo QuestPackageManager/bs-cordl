@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/HeadObstacleLowPassAudioEffect.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,7 +37,7 @@ public:
 
   static inline ::GlobalNamespace::HeadObstacleLowPassAudioEffect* New_ctor();
 
-  /// @brief Method Update, addr 0x25c6eb4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x26c5c20, size 0x5c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get__headWasInObstacle() const;
@@ -57,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set__playerHeadAndObstacleInteraction(::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction> value);
 
-  /// @brief Method .ctor, addr 0x25c6f10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c5c7c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Reflection/MemberFilter.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Reflection/zzzz__MemberFilter_def.hpp"
 #include "System/Reflection/zzzz__MemberInfo_def.hpp"
@@ -8,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Reflection::MemberFilter::*)(::System::Object*, void*)>(&::System::Reflection::MemberFilter::_ctor)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x2767d14;
+  constexpr static std::size_t addrs = 0x2867424;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::MemberFilter::*)(::System::Reflection::MemberInfo*, ::System::Object*)>(
     &::System::Reflection::MemberFilter::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2767e44;
+  constexpr static std::size_t addrs = 0x2867554;
 
   inline static ::MethodInfo const* methodInfo() {
 

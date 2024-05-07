@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SongSpeedData.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,7 +31,7 @@ public:
 
   constexpr void __cordl_internal_set_speedMul(float_t value);
 
-  /// @brief Method .ctor, addr 0x13a9300, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x149e9dc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(float_t speedMul);
 
 protected:

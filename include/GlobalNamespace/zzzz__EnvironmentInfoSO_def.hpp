@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/EnvironmentInfoSO.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -192,43 +193,43 @@ public:
 
   constexpr void __cordl_internal_set__serializedName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x13a80c8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x149d7a4, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_colorScheme, addr 0x13a8078, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorScheme, addr 0x149d754, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::ColorSchemeSO> get_colorScheme();
 
-  /// @brief Method get_defaultLightshowAsset, addr 0x13a80b8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_defaultLightshowAsset, addr 0x149d794, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::TextAsset> get_defaultLightshowAsset();
 
-  /// @brief Method get_environmentAssetDirectory, addr 0x13a8088, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_environmentAssetDirectory, addr 0x149d764, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_environmentAssetDirectory();
 
-  /// @brief Method get_environmentIntensityReductionOptions, addr 0x13a80a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_environmentIntensityReductionOptions, addr 0x149d77c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EnvironmentIntensityReductionOptions* get_environmentIntensityReductionOptions();
 
-  /// @brief Method get_environmentKeywords, addr 0x13a80a8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_environmentKeywords, addr 0x149d784, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IReadOnlyList_1<::StringW>* get_environmentKeywords();
 
-  /// @brief Method get_environmentLightGroups, addr 0x13a80b0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_environmentLightGroups, addr 0x149d78c, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::IEnvironmentLightGroups* get_environmentLightGroups();
 
-  /// @brief Method get_environmentName, addr 0x13a8070, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_environmentName, addr 0x149d74c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_environmentName();
 
-  /// @brief Method get_environmentSizeData, addr 0x13a8098, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_environmentSizeData, addr 0x149d774, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EnvironmentSizeData* get_environmentSizeData();
 
-  /// @brief Method get_environmentType, addr 0x13a8090, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_environmentType, addr 0x149d76c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EnvironmentType get_environmentType();
 
-  /// @brief Method get_order, addr 0x13a80c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_order, addr 0x149d79c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_order();
 
-  /// @brief Method get_sceneInfo, addr 0x13a8068, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sceneInfo, addr 0x149d744, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::SceneInfo> get_sceneInfo();
 
-  /// @brief Method get_serializedName, addr 0x13a8080, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_serializedName, addr 0x149d75c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_serializedName();
 
   /// @brief Convert to "::GlobalNamespace::IEnvironmentInfo"

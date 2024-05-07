@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Serialization/XmlNamespaceDeclarationsAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Xml/Serialization/zzzz__XmlNamespaceDeclarationsAttribute_def.hpp"
 //  Writing Method size for method: ::System::Xml::Serialization::XmlNamespaceDeclarationsAttribute._ctor
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Serialization::XmlNamespaceDeclarationsAttribute::*)()>(
     &::System::Xml::Serialization::XmlNamespaceDeclarationsAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2dd1328;
+  constexpr static std::size_t addrs = 0x2ecfc28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

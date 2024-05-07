@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/TubeBloomPrePassLightCollisionEffect.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,10 +64,10 @@ public:
 
   static inline ::GlobalNamespace::TubeBloomPrePassLightCollisionEffect* New_ctor();
 
-  /// @brief Method Start, addr 0x25d3d0c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x26d3a78, size 0x38, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x25d3d44, size 0x310, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x26d3ab0, size 0x310, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityEngine::LayerMask const& __cordl_internal_get__environmentLayerMask() const;
@@ -123,7 +124,7 @@ public:
 
   constexpr void __cordl_internal_set__tubeBloomPrePassLight(::UnityW<::GlobalNamespace::TubeBloomPrePassLight> value);
 
-  /// @brief Method .ctor, addr 0x25d4054, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26d3dc0, size 0x34, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

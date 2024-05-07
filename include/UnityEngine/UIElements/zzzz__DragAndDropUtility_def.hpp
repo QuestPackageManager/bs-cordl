@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/DragAndDropUtility.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,7 +35,7 @@ public:
 
   static inline ::System::Func_1<::UnityEngine::UIElements::IDragAndDrop*>* getStaticF_s_MakeClientFunc();
 
-  /// @brief Method get_dragAndDrop, addr 0x335b78c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method get_dragAndDrop, addr 0x355f4c8, size 0xac, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::IDragAndDrop* get_dragAndDrop();
 
   static inline void setStaticF_s_DragAndDrop(::UnityEngine::UIElements::IDragAndDrop* value);

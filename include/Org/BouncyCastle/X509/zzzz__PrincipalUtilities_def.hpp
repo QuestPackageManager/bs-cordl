@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/X509/PrincipalUtilities.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,18 +28,18 @@ namespace Org::BouncyCastle::X509 {
 class CORDL_TYPE PrincipalUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetIssuerX509Principal, addr 0x12e5f6c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method GetIssuerX509Principal, addr 0x13d8690, size 0x118, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::X509Name* GetIssuerX509Principal(::Org::BouncyCastle::X509::X509Certificate* cert);
 
-  /// @brief Method GetIssuerX509Principal, addr 0x12e619c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method GetIssuerX509Principal, addr 0x13d88c0, size 0x118, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::X509Name* GetIssuerX509Principal(::Org::BouncyCastle::X509::X509Crl* crl);
 
-  /// @brief Method GetSubjectX509Principal, addr 0x12e6084, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method GetSubjectX509Principal, addr 0x13d87a8, size 0x118, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::X509Name* GetSubjectX509Principal(::Org::BouncyCastle::X509::X509Certificate* cert);
 
   static inline ::Org::BouncyCastle::X509::PrincipalUtilities* New_ctor();
 
-  /// @brief Method .ctor, addr 0x12e62b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13d89d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

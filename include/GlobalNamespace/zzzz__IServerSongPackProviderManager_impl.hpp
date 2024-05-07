@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IServerSongPackProviderManager.hpp"
 #include "GlobalNamespace/zzzz__IServerSongPackProviderManager_def.hpp"
 #include "GlobalNamespace/zzzz__IServerSongPackProvider_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"

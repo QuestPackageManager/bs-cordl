@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Cache/RequestCacheValidator.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,7 +22,7 @@ namespace System::Net::Cache {
 class CORDL_TYPE RequestCacheValidator : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateValidator, addr 0x2f26c88, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method CreateValidator, addr 0x3027588, size 0x40, virtual false, abstract: false, final false
   inline ::System::Object* CreateValidator();
 
 protected:

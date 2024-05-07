@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UI/RectangularVertexClipper.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,7 +38,7 @@ public:
   /// @brief Field m_WorldCorners, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_WorldCorners, put = __cordl_internal_set_m_WorldCorners))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> m_WorldCorners;
 
-  /// @brief Method GetCanvasRect, addr 0x32a1718, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method GetCanvasRect, addr 0x34a8454, size 0x170, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect GetCanvasRect(::UnityEngine::RectTransform* t, ::UnityEngine::Canvas* c);
 
   static inline ::UnityEngine::UI::RectangularVertexClipper* New_ctor();
@@ -54,7 +55,7 @@ public:
 
   constexpr void __cordl_internal_set_m_WorldCorners(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
-  /// @brief Method .ctor, addr 0x32a1888, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34a85c4, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

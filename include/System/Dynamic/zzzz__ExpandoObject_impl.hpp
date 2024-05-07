@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Dynamic/ExpandoObject.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_impl.hpp"
 #include "System/Dynamic/zzzz__DynamicMetaObject_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -35,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__ExpandoObject__KeyCollection___GetEnumerator_d__15::*)(int32_t)>(
     &::GlobalNamespace::__ExpandoObject__KeyCollection___GetEnumerator_d__15::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2b54f8c;
+  constexpr static std::size_t addrs = 0x2c5188c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__ExpandoObject__KeyCollection___GetEnumerator_d__15::*)()>(
     &::GlobalNamespace::__ExpandoObject__KeyCollection___GetEnumerator_d__15::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2b54fb4;
+  constexpr static std::size_t addrs = 0x2c518b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -65,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__ExpandoObject__KeyCollection___GetEnumerator_d__15::*)()>(
     &::GlobalNamespace::__ExpandoObject__KeyCollection___GetEnumerator_d__15::MoveNext)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x2b54fb8;
+  constexpr static std::size_t addrs = 0x2c518b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -80,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::__ExpandoObject__KeyCollection___GetEnumerator_d__15::*)()>(
     &::GlobalNamespace::__ExpandoObject__KeyCollection___GetEnumerator_d__15::System_Collections_Generic_IEnumerator_System_String__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b55134;
+  constexpr static std::size_t addrs = 0x2c51a34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__ExpandoObject__KeyCollection___GetEnumerator_d__15::*)()>(
     &::GlobalNamespace::__ExpandoObject__KeyCollection___GetEnumerator_d__15::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2b5513c;
+  constexpr static std::size_t addrs = 0x2c51a3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -110,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__ExpandoObject__KeyCollection___GetEnumerator_d__15::*)()>(
     &::GlobalNamespace::__ExpandoObject__KeyCollection___GetEnumerator_d__15::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b5517c;
+  constexpr static std::size_t addrs = 0x2c51a7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -252,7 +253,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::__ExpandoObject__KeyCollection::*)(::System::Dynamic::ExpandoObject*)>(
     &::System::Dynamic::__ExpandoObject__KeyCollection::_ctor)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x2b52c70;
+  constexpr static std::size_t addrs = 0x2c4f570;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -267,7 +268,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::__ExpandoObject__KeyCollection::*)()>(
     &::System::Dynamic::__ExpandoObject__KeyCollection::CheckVersion)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x2b53a88;
+  constexpr static std::size_t addrs = 0x2c50388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::__ExpandoObject__KeyCollection*>::get(),
@@ -281,7 +282,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::__ExpandoObject__KeyCollection::*)(::StringW)>(
     &::System::Dynamic::__ExpandoObject__KeyCollection::Add)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2b53ae8;
+  constexpr static std::size_t addrs = 0x2c503e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -296,7 +297,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::__ExpandoObject__KeyCollection::*)()>(
     &::System::Dynamic::__ExpandoObject__KeyCollection::Clear)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2b53b10;
+  constexpr static std::size_t addrs = 0x2c50410;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::__ExpandoObject__KeyCollection*>::get(),
@@ -310,7 +311,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Dynamic::__ExpandoObject__KeyCollection::*)(::StringW)>(
     &::System::Dynamic::__ExpandoObject__KeyCollection::Contains)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x2b53b38;
+  constexpr static std::size_t addrs = 0x2c50438;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -325,7 +326,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::__ExpandoObject__KeyCollection::*)(::ArrayW<::StringW, ::Array<::StringW>*>, int32_t)>(
     &::System::Dynamic::__ExpandoObject__KeyCollection::CopyTo)> {
   constexpr static std::size_t size = 0x2a8;
-  constexpr static std::size_t addrs = 0x2b53c30;
+  constexpr static std::size_t addrs = 0x2c50530;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -341,7 +342,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Dynamic::__ExpandoObject__KeyCollection::*)()>(
     &::System::Dynamic::__ExpandoObject__KeyCollection::get_Count)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x2b53ed8;
+  constexpr static std::size_t addrs = 0x2c507d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::__ExpandoObject__KeyCollection*>::get(),
@@ -355,7 +356,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Dynamic::__ExpandoObject__KeyCollection::*)()>(
     &::System::Dynamic::__ExpandoObject__KeyCollection::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b53ef0;
+  constexpr static std::size_t addrs = 0x2c507f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::__ExpandoObject__KeyCollection*>::get(),
@@ -369,7 +370,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Dynamic::__ExpandoObject__KeyCollection::*)(::StringW)>(
     &::System::Dynamic::__ExpandoObject__KeyCollection::Remove)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2b53ef8;
+  constexpr static std::size_t addrs = 0x2c507f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -384,7 +385,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerator_1<::StringW>* (::System::Dynamic::__ExpandoObject__KeyCollection::*)()>(
     &::System::Dynamic::__ExpandoObject__KeyCollection::GetEnumerator)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2b53f20;
+  constexpr static std::size_t addrs = 0x2c50820;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::__ExpandoObject__KeyCollection*>::get(),
@@ -398,7 +399,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::Dynamic::__ExpandoObject__KeyCollection::*)()>(
     &::System::Dynamic::__ExpandoObject__KeyCollection::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x1004;
-  constexpr static std::size_t addrs = 0x2b53f88;
+  constexpr static std::size_t addrs = 0x2c50888;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -554,7 +555,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__ExpandoObject__ValueCollection___GetEnumerator_d__15::*)(int32_t)>(
     &::GlobalNamespace::__ExpandoObject__ValueCollection___GetEnumerator_d__15::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2b55808;
+  constexpr static std::size_t addrs = 0x2c52108;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -569,7 +570,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__ExpandoObject__ValueCollection___GetEnumerator_d__15::*)()>(
     &::GlobalNamespace::__ExpandoObject__ValueCollection___GetEnumerator_d__15::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2b55834;
+  constexpr static std::size_t addrs = 0x2c52134;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -584,7 +585,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__ExpandoObject__ValueCollection___GetEnumerator_d__15::*)()>(
     &::GlobalNamespace::__ExpandoObject__ValueCollection___GetEnumerator_d__15::MoveNext)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x2b55838;
+  constexpr static std::size_t addrs = 0x2c52138;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -599,7 +600,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__ExpandoObject__ValueCollection___GetEnumerator_d__15::*)()>(
     &::GlobalNamespace::__ExpandoObject__ValueCollection___GetEnumerator_d__15::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b5595c;
+  constexpr static std::size_t addrs = 0x2c5225c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -614,7 +615,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__ExpandoObject__ValueCollection___GetEnumerator_d__15::*)()>(
     &::GlobalNamespace::__ExpandoObject__ValueCollection___GetEnumerator_d__15::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2b55964;
+  constexpr static std::size_t addrs = 0x2c52264;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -629,7 +630,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__ExpandoObject__ValueCollection___GetEnumerator_d__15::*)()>(
     &::GlobalNamespace::__ExpandoObject__ValueCollection___GetEnumerator_d__15::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b559a4;
+  constexpr static std::size_t addrs = 0x2c522a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -772,7 +773,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::__ExpandoObject__ValueCollection::*)(::System::Dynamic::ExpandoObject*)>(
     &::System::Dynamic::__ExpandoObject__ValueCollection::_ctor)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x2b55184;
+  constexpr static std::size_t addrs = 0x2c51a84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -787,7 +788,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::__ExpandoObject__ValueCollection::*)()>(
     &::System::Dynamic::__ExpandoObject__ValueCollection::CheckVersion)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x2b55278;
+  constexpr static std::size_t addrs = 0x2c51b78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::__ExpandoObject__ValueCollection*>::get(),
@@ -801,7 +802,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::__ExpandoObject__ValueCollection::*)(::System::Object*)>(
     &::System::Dynamic::__ExpandoObject__ValueCollection::Add)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2b552d8;
+  constexpr static std::size_t addrs = 0x2c51bd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -816,7 +817,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::__ExpandoObject__ValueCollection::*)()>(
     &::System::Dynamic::__ExpandoObject__ValueCollection::Clear)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2b55300;
+  constexpr static std::size_t addrs = 0x2c51c00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::__ExpandoObject__ValueCollection*>::get(),
@@ -830,7 +831,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Dynamic::__ExpandoObject__ValueCollection::*)(::System::Object*)>(
     &::System::Dynamic::__ExpandoObject__ValueCollection::Contains)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x2b55328;
+  constexpr static std::size_t addrs = 0x2c51c28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -845,7 +846,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::__ExpandoObject__ValueCollection::*)(
     ::ArrayW<::System::Object*, ::Array<::System::Object*>*>, int32_t)>(&::System::Dynamic::__ExpandoObject__ValueCollection::CopyTo)> {
   constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x2b5548c;
+  constexpr static std::size_t addrs = 0x2c51d8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -861,7 +862,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Dynamic::__ExpandoObject__ValueCollection::*)()>(
     &::System::Dynamic::__ExpandoObject__ValueCollection::get_Count)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x2b55758;
+  constexpr static std::size_t addrs = 0x2c52058;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::__ExpandoObject__ValueCollection*>::get(),
@@ -875,7 +876,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Dynamic::__ExpandoObject__ValueCollection::*)()>(
     &::System::Dynamic::__ExpandoObject__ValueCollection::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b55770;
+  constexpr static std::size_t addrs = 0x2c52070;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::__ExpandoObject__ValueCollection*>::get(),
@@ -889,7 +890,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Dynamic::__ExpandoObject__ValueCollection::*)(::System::Object*)>(
     &::System::Dynamic::__ExpandoObject__ValueCollection::Remove)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2b55778;
+  constexpr static std::size_t addrs = 0x2c52078;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -904,7 +905,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>* (
     ::System::Dynamic::__ExpandoObject__ValueCollection::*)()>(&::System::Dynamic::__ExpandoObject__ValueCollection::GetEnumerator)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2b557a0;
+  constexpr static std::size_t addrs = 0x2c520a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::__ExpandoObject__ValueCollection*>::get(),
@@ -918,7 +919,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::Dynamic::__ExpandoObject__ValueCollection::*)()>(
     &::System::Dynamic::__ExpandoObject__ValueCollection::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2b55830;
+  constexpr static std::size_t addrs = 0x2c52130;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1074,7 +1075,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__ExpandoObject__MetaExpando____c__DisplayClass3_0::*)()>(
     &::GlobalNamespace::__ExpandoObject__MetaExpando____c__DisplayClass3_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b56604;
+  constexpr static std::size_t addrs = 0x2c52f04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1090,7 +1091,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Dynamic::DynamicMetaObject* (::GlobalNamespace::__ExpandoObject__MetaExpando____c__DisplayClass3_0::*)(::System::Dynamic::DynamicMetaObject*)>(
         &::GlobalNamespace::__ExpandoObject__MetaExpando____c__DisplayClass3_0::_BindInvokeMember_b__0)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2b56f04;
+  constexpr static std::size_t addrs = 0x2c53804;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1149,7 +1150,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__ExpandoObject__MetaExpando___GetDynamicMemberNames_d__6::*)(int32_t)>(
     &::GlobalNamespace::__ExpandoObject__MetaExpando___GetDynamicMemberNames_d__6::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x2b56dd8;
+  constexpr static std::size_t addrs = 0x2c536d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1164,7 +1165,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__ExpandoObject__MetaExpando___GetDynamicMemberNames_d__6::*)()>(
     &::GlobalNamespace::__ExpandoObject__MetaExpando___GetDynamicMemberNames_d__6::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2b56f30;
+  constexpr static std::size_t addrs = 0x2c53830;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1179,7 +1180,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__ExpandoObject__MetaExpando___GetDynamicMemberNames_d__6::*)()>(
     &::GlobalNamespace::__ExpandoObject__MetaExpando___GetDynamicMemberNames_d__6::MoveNext)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x2b56f34;
+  constexpr static std::size_t addrs = 0x2c53834;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1194,7 +1195,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::__ExpandoObject__MetaExpando___GetDynamicMemberNames_d__6::*)()>(
     &::GlobalNamespace::__ExpandoObject__MetaExpando___GetDynamicMemberNames_d__6::System_Collections_Generic_IEnumerator_System_String__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b57070;
+  constexpr static std::size_t addrs = 0x2c53970;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1209,7 +1210,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__ExpandoObject__MetaExpando___GetDynamicMemberNames_d__6::*)()>(
     &::GlobalNamespace::__ExpandoObject__MetaExpando___GetDynamicMemberNames_d__6::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2b57078;
+  constexpr static std::size_t addrs = 0x2c53978;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1224,7 +1225,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__ExpandoObject__MetaExpando___GetDynamicMemberNames_d__6::*)()>(
     &::GlobalNamespace::__ExpandoObject__MetaExpando___GetDynamicMemberNames_d__6::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b570b8;
+  constexpr static std::size_t addrs = 0x2c539b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1240,7 +1241,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::IEnumerator_1<::StringW>* (::GlobalNamespace::__ExpandoObject__MetaExpando___GetDynamicMemberNames_d__6::*)()>(
         &::GlobalNamespace::__ExpandoObject__MetaExpando___GetDynamicMemberNames_d__6::System_Collections_Generic_IEnumerable_System_String__GetEnumerator)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x2b570c0;
+  constexpr static std::size_t addrs = 0x2c539c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1256,7 +1257,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::__ExpandoObject__MetaExpando___GetDynamicMemberNames_d__6::*)()>(
         &::GlobalNamespace::__ExpandoObject__MetaExpando___GetDynamicMemberNames_d__6::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2b57164;
+  constexpr static std::size_t addrs = 0x2c53a64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1454,7 +1455,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::__ExpandoObject__MetaExpando::*)(
     ::System::Linq::Expressions::Expression*, ::System::Dynamic::ExpandoObject*)>(&::System::Dynamic::__ExpandoObject__MetaExpando::_ctor)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x2b559ac;
+  constexpr static std::size_t addrs = 0x2c522ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1472,7 +1473,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                         ::System::Func_2<::System::Dynamic::DynamicMetaObject*, ::System::Dynamic::DynamicMetaObject*>*)>(
     &::System::Dynamic::__ExpandoObject__MetaExpando::BindGetOrInvokeMember)> {
   constexpr static std::size_t size = 0x5d0;
-  constexpr static std::size_t addrs = 0x2b55a54;
+  constexpr static std::size_t addrs = 0x2c52354;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1490,7 +1491,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Dynamic::DynamicMetaObject* (
     ::System::Dynamic::__ExpandoObject__MetaExpando::*)(::System::Dynamic::GetMemberBinder*)>(&::System::Dynamic::__ExpandoObject__MetaExpando::BindGetMember)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x2b56428;
+  constexpr static std::size_t addrs = 0x2c52d28;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1507,7 +1508,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Dynamic::__ExpandoObject__MetaExpando::*)(::System::Dynamic::InvokeMemberBinder*, ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*>)>(
     &::System::Dynamic::__ExpandoObject__MetaExpando::BindInvokeMember)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x2b564d0;
+  constexpr static std::size_t addrs = 0x2c52dd0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1523,7 +1524,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Dynamic::DynamicMetaObject* (
     ::System::Dynamic::__ExpandoObject__MetaExpando::*)(::System::Dynamic::SetMemberBinder*, ::System::Dynamic::DynamicMetaObject*)>(&::System::Dynamic::__ExpandoObject__MetaExpando::BindSetMember)> {
   constexpr static std::size_t size = 0x3dc;
-  constexpr static std::size_t addrs = 0x2b5661c;
+  constexpr static std::size_t addrs = 0x2c52f1c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1539,7 +1540,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Dynamic::DynamicMetaObject* (
     ::System::Dynamic::__ExpandoObject__MetaExpando::*)(::System::Dynamic::DeleteMemberBinder*)>(&::System::Dynamic::__ExpandoObject__MetaExpando::BindDeleteMember)> {
   constexpr static std::size_t size = 0x2b8;
-  constexpr static std::size_t addrs = 0x2b56aa8;
+  constexpr static std::size_t addrs = 0x2c533a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1555,7 +1556,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::StringW>* (::System::Dynamic::__ExpandoObject__MetaExpando::*)()>(
     &::System::Dynamic::__ExpandoObject__MetaExpando::GetDynamicMemberNames)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x2b56d60;
+  constexpr static std::size_t addrs = 0x2c53660;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1572,7 +1573,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Dynamic::__ExpandoObject__MetaExpando::*)(::System::Dynamic::DynamicMetaObjectBinder*, ::System::Dynamic::ExpandoClass*, ::System::Dynamic::ExpandoClass*,
                                                         ::System::Dynamic::DynamicMetaObject*)>(&::System::Dynamic::__ExpandoObject__MetaExpando::AddDynamicTestAndDefer)> {
   constexpr static std::size_t size = 0x2b8;
-  constexpr static std::size_t addrs = 0x2b56170;
+  constexpr static std::size_t addrs = 0x2c52a70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1591,7 +1592,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Dynamic::__ExpandoObject__MetaExpando::*)(::StringW, bool, ::System::Dynamic::ExpandoObject*, ByRef<::System::Dynamic::ExpandoClass*>, ByRef<int32_t>)>(
     &::System::Dynamic::__ExpandoObject__MetaExpando::GetClassEnsureIndex)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2b569f8;
+  constexpr static std::size_t addrs = 0x2c532f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1609,7 +1610,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (::System::Dynamic::__ExpandoObject__MetaExpando::*)()>(
     &::System::Dynamic::__ExpandoObject__MetaExpando::GetLimitedSelf)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x2b56088;
+  constexpr static std::size_t addrs = 0x2c52988;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::__ExpandoObject__MetaExpando*>::get(),
@@ -1623,7 +1624,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Dynamic::BindingRestrictions* (::System::Dynamic::__ExpandoObject__MetaExpando::*)()>(
     &::System::Dynamic::__ExpandoObject__MetaExpando::GetRestrictions)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2b56e0c;
+  constexpr static std::size_t addrs = 0x2c5370c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::__ExpandoObject__MetaExpando*>::get(),
@@ -1637,7 +1638,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Dynamic::ExpandoObject* (::System::Dynamic::__ExpandoObject__MetaExpando::*)()>(
     &::System::Dynamic::__ExpandoObject__MetaExpando::get_Value)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2b56024;
+  constexpr static std::size_t addrs = 0x2c52924;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::__ExpandoObject__MetaExpando*>::get(),
@@ -1740,7 +1741,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Dynamic::__ExpandoObject__ExpandoData::*)(int32_t)>(
     &::System::Dynamic::__ExpandoObject__ExpandoData::get_Item)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x2b55104;
+  constexpr static std::size_t addrs = 0x2c51a04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1755,7 +1756,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::__ExpandoObject__ExpandoData::*)(int32_t, ::System::Object*)>(
     &::System::Dynamic::__ExpandoObject__ExpandoData::set_Item)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x2b57168;
+  constexpr static std::size_t addrs = 0x2c53a68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1770,7 +1771,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Dynamic::__ExpandoObject__ExpandoData::*)()>(
     &::System::Dynamic::__ExpandoObject__ExpandoData::get_Version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b571d8;
+  constexpr static std::size_t addrs = 0x2c53ad8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::__ExpandoObject__ExpandoData*>::get(),
@@ -1784,7 +1785,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Dynamic::__ExpandoObject__ExpandoData::*)()>(
     &::System::Dynamic::__ExpandoObject__ExpandoData::get_Length)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2b571e0;
+  constexpr static std::size_t addrs = 0x2c53ae0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::__ExpandoObject__ExpandoData*>::get(),
@@ -1798,7 +1799,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::__ExpandoObject__ExpandoData::*)()>(
     &::System::Dynamic::__ExpandoObject__ExpandoData::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x2b571fc;
+  constexpr static std::size_t addrs = 0x2c53afc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::__ExpandoObject__ExpandoData*>::get(), ".ctor",
@@ -1812,7 +1813,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::__ExpandoObject__ExpandoData::*)(
     ::System::Dynamic::ExpandoClass*, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>, int32_t)>(&::System::Dynamic::__ExpandoObject__ExpandoData::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2b572c0;
+  constexpr static std::size_t addrs = 0x2c53bc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1829,7 +1830,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Dynamic::__ExpandoObject__ExpandoData* (
     ::System::Dynamic::__ExpandoObject__ExpandoData::*)(::System::Dynamic::ExpandoClass*)>(&::System::Dynamic::__ExpandoObject__ExpandoData::UpdateClass)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x2b572fc;
+  constexpr static std::size_t addrs = 0x2c53bfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1843,7 +1844,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::System::Dynamic::__ExpandoObject__ExpandoData::GetAlignedSize)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2b57494;
+  constexpr static std::size_t addrs = 0x2c53d94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1959,7 +1960,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::__ExpandoObject___GetExpandoEnumerator_d__51::*)(int32_t)>(
     &::System::Dynamic::__ExpandoObject___GetExpandoEnumerator_d__51::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2b57500;
+  constexpr static std::size_t addrs = 0x2c53e00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1974,7 +1975,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::__ExpandoObject___GetExpandoEnumerator_d__51::*)()>(
     &::System::Dynamic::__ExpandoObject___GetExpandoEnumerator_d__51::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2b57528;
+  constexpr static std::size_t addrs = 0x2c53e28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1989,7 +1990,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Dynamic::__ExpandoObject___GetExpandoEnumerator_d__51::*)()>(
     &::System::Dynamic::__ExpandoObject___GetExpandoEnumerator_d__51::MoveNext)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x2b5752c;
+  constexpr static std::size_t addrs = 0x2c53e2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2006,7 +2007,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*> (::System::Dynamic::__ExpandoObject___GetExpandoEnumerator_d__51::*)()>(
         &::System::Dynamic::__ExpandoObject___GetExpandoEnumerator_d__51::System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_String_System_Object___get_Current)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2b576d0;
+  constexpr static std::size_t addrs = 0x2c53fd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2022,7 +2023,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::__ExpandoObject___GetExpandoEnumerator_d__51::*)()>(
     &::System::Dynamic::__ExpandoObject___GetExpandoEnumerator_d__51::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2b576dc;
+  constexpr static std::size_t addrs = 0x2c53fdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2037,7 +2038,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Dynamic::__ExpandoObject___GetExpandoEnumerator_d__51::*)()>(
     &::System::Dynamic::__ExpandoObject___GetExpandoEnumerator_d__51::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x2b5771c;
+  constexpr static std::size_t addrs = 0x2c5401c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2193,7 +2194,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::ExpandoObject::*)()>(&::System::Dynamic::ExpandoObject::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x2b52a04;
+  constexpr static std::size_t addrs = 0x2c4f304;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(), ".ctor",
@@ -2207,7 +2208,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Dynamic::ExpandoObject::*)(::System::Object*, int32_t, ::StringW, bool, ByRef<::System::Object*>)>(
     &::System::Dynamic::ExpandoObject::TryGetValue)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x2b4ec14;
+  constexpr static std::size_t addrs = 0x2c4b514;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2224,7 +2225,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::ExpandoObject::*)(::System::Object*, int32_t, ::System::Object*, ::StringW, bool, bool)>(
     &::System::Dynamic::ExpandoObject::TrySetValue)> {
   constexpr static std::size_t size = 0x39c;
-  constexpr static std::size_t addrs = 0x2b4ed64;
+  constexpr static std::size_t addrs = 0x2c4b664;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2241,7 +2242,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Dynamic::ExpandoObject::*)(::System::Object*, int32_t, ::StringW, bool, ::System::Object*)>(
     &::System::Dynamic::ExpandoObject::TryDeleteValue)> {
   constexpr static std::size_t size = 0x314;
-  constexpr static std::size_t addrs = 0x2b4f198;
+  constexpr static std::size_t addrs = 0x2c4ba98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2257,7 +2258,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Dynamic::ExpandoObject::*)(int32_t)>(&::System::Dynamic::ExpandoObject::IsDeletedMember)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x2b528f4;
+  constexpr static std::size_t addrs = 0x2c4f1f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2272,7 +2273,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Dynamic::ExpandoClass* (::System::Dynamic::ExpandoObject::*)()>(
     &::System::Dynamic::ExpandoObject::get_Class)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2b4f4d4;
+  constexpr static std::size_t addrs = 0x2c4bdd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(), "get_Class",
@@ -2286,7 +2287,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Dynamic::__ExpandoObject__ExpandoData* (
     ::System::Dynamic::ExpandoObject::*)(::System::Dynamic::ExpandoClass*, ::System::Dynamic::ExpandoClass*)>(&::System::Dynamic::ExpandoObject::PromoteClassCore)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2b52aa4;
+  constexpr static std::size_t addrs = 0x2c4f3a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2302,7 +2303,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::ExpandoObject::*)(::System::Object*, ::System::Object*)>(
     &::System::Dynamic::ExpandoObject::PromoteClass)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x2b4f500;
+  constexpr static std::size_t addrs = 0x2c4be00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2318,7 +2319,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Dynamic::DynamicMetaObject* (
     ::System::Dynamic::ExpandoObject::*)(::System::Linq::Expressions::Expression*)>(&::System::Dynamic::ExpandoObject::System_Dynamic_IDynamicMetaObjectProvider_GetMetaObject)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x2b52adc;
+  constexpr static std::size_t addrs = 0x2c4f3dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2333,7 +2334,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::ExpandoObject::*)(::StringW, ::System::Object*)>(
     &::System::Dynamic::ExpandoObject::TryAddMember)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x2b52b50;
+  constexpr static std::size_t addrs = 0x2c4f450;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2349,7 +2350,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Dynamic::ExpandoObject::*)(::StringW, ByRef<::System::Object*>)>(
     &::System::Dynamic::ExpandoObject::TryGetValueForKey)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x2b52bcc;
+  constexpr static std::size_t addrs = 0x2c4f4cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2364,7 +2365,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Dynamic::ExpandoObject::*)(::StringW)>(&::System::Dynamic::ExpandoObject::ExpandoContainsKey)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2b52be4;
+  constexpr static std::size_t addrs = 0x2c4f4e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2379,7 +2380,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::ICollection_1<::StringW>* (::System::Dynamic::ExpandoObject::*)()>(
     &::System::Dynamic::ExpandoObject::System_Collections_Generic_IDictionary_System_String_System_Object__get_Keys)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x2b52c10;
+  constexpr static std::size_t addrs = 0x2c4f510;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
@@ -2394,7 +2395,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::ICollection_1<::System::Object*>* (::System::Dynamic::ExpandoObject::*)()>(
     &::System::Dynamic::ExpandoObject::System_Collections_Generic_IDictionary_System_String_System_Object__get_Values)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2b52d64;
+  constexpr static std::size_t addrs = 0x2c4f664;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
@@ -2409,7 +2410,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Dynamic::ExpandoObject::*)(::StringW)>(
     &::System::Dynamic::ExpandoObject::System_Collections_Generic_IDictionary_System_String_System_Object__get_Item)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2b52dc8;
+  constexpr static std::size_t addrs = 0x2c4f6c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
@@ -2424,7 +2425,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::ExpandoObject::*)(::StringW, ::System::Object*)>(
     &::System::Dynamic::ExpandoObject::System_Collections_Generic_IDictionary_System_String_System_Object__set_Item)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x2b52e2c;
+  constexpr static std::size_t addrs = 0x2c4f72c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
@@ -2440,7 +2441,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::ExpandoObject::*)(::StringW, ::System::Object*)>(
     &::System::Dynamic::ExpandoObject::System_Collections_Generic_IDictionary_System_String_System_Object__Add)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2b52ea8;
+  constexpr static std::size_t addrs = 0x2c4f7a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
@@ -2456,7 +2457,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Dynamic::ExpandoObject::*)(::StringW)>(
     &::System::Dynamic::ExpandoObject::System_Collections_Generic_IDictionary_System_String_System_Object__ContainsKey)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x2b52eac;
+  constexpr static std::size_t addrs = 0x2c4f7ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2471,7 +2472,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Dynamic::ExpandoObject::*)(::StringW)>(
     &::System::Dynamic::ExpandoObject::System_Collections_Generic_IDictionary_System_String_System_Object__Remove)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x2b52f80;
+  constexpr static std::size_t addrs = 0x2c4f880;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
@@ -2486,7 +2487,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Dynamic::ExpandoObject::*)(::StringW, ByRef<::System::Object*>)>(
     &::System::Dynamic::ExpandoObject::System_Collections_Generic_IDictionary_System_String_System_Object__TryGetValue)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x2b53020;
+  constexpr static std::size_t addrs = 0x2c4f920;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2503,7 +2504,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Dynamic::ExpandoObject::*)()>(
     &::System::Dynamic::ExpandoObject::System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___get_Count)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b53038;
+  constexpr static std::size_t addrs = 0x2c4f938;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
@@ -2518,7 +2519,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Dynamic::ExpandoObject::*)()>(
     &::System::Dynamic::ExpandoObject::System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b53040;
+  constexpr static std::size_t addrs = 0x2c4f940;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2535,7 +2536,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Dynamic::ExpandoObject::*)(::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>)>(
         &::System::Dynamic::ExpandoObject::System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___Add)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x2b53048;
+  constexpr static std::size_t addrs = 0x2c4f948;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2551,7 +2552,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::ExpandoObject::*)()>(
     &::System::Dynamic::ExpandoObject::System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___Clear)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x2b530a8;
+  constexpr static std::size_t addrs = 0x2c4f9a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoObject*>::get(),
@@ -2567,7 +2568,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (::System::Dynamic::ExpandoObject::*)(::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>)>(
         &::System::Dynamic::ExpandoObject::System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___Contains)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x2b532d0;
+  constexpr static std::size_t addrs = 0x2c4fbd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2584,7 +2585,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>, ::Array<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>>*>, int32_t)>(
     &::System::Dynamic::ExpandoObject::System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___CopyTo)> {
   constexpr static std::size_t size = 0x420;
-  constexpr static std::size_t addrs = 0x2b53364;
+  constexpr static std::size_t addrs = 0x2c4fc64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2604,7 +2605,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (::System::Dynamic::ExpandoObject::*)(::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>)>(
         &::System::Dynamic::ExpandoObject::System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_System_Object___Remove)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x2b53784;
+  constexpr static std::size_t addrs = 0x2c50084;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2621,7 +2622,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>>* (::System::Dynamic::ExpandoObject::*)()>(
         &::System::Dynamic::ExpandoObject::System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_String_System_Object___GetEnumerator)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2b537f0;
+  constexpr static std::size_t addrs = 0x2c500f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2637,7 +2638,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::Dynamic::ExpandoObject::*)()>(
     &::System::Dynamic::ExpandoObject::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2b5388c;
+  constexpr static std::size_t addrs = 0x2c5018c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2653,7 +2654,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>>* (
         ::System::Dynamic::ExpandoObject::*)(::System::Dynamic::__ExpandoObject__ExpandoData*, int32_t)>(&::System::Dynamic::ExpandoObject::GetExpandoEnumerator)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x2b5380c;
+  constexpr static std::size_t addrs = 0x2c5010c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

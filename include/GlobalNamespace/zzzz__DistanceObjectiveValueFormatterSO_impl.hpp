@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/DistanceObjectiveValueFormatterSO.hpp"
 #include "GlobalNamespace/zzzz__ObjectiveValueFormatterSO_impl.hpp"
 #include "GlobalNamespace/zzzz__DistanceObjectiveValueFormatterSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::DistanceObjectiveValueFormatterSO.FormatValue
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::DistanceObjectiveValueFormatterSO::*)(int32_t)>(
     &::GlobalNamespace::DistanceObjectiveValueFormatterSO::FormatValue)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x13d7094;
+  constexpr static std::size_t addrs = 0x14ca444;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DistanceObjectiveValueFormatterSO::*)()>(
     &::GlobalNamespace::DistanceObjectiveValueFormatterSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x13d7114;
+  constexpr static std::size_t addrs = 0x14ca4c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DistanceObjectiveValueFormatterSO*>::get(),

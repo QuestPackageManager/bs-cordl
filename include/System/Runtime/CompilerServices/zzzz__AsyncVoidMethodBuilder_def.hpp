@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/CompilerServices/AsyncVoidMethodBuilder.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,25 +44,25 @@ public:
   /// @brief Method AwaitUnsafeOnCompleted, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TAwaiter, typename TStateMachine> inline void AwaitUnsafeOnCompleted(ByRef<TAwaiter> awaiter, ByRef<TStateMachine> stateMachine);
 
-  /// @brief Method Create, addr 0x275db14, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x285d224, size 0x40, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder Create();
 
-  /// @brief Method NotifySynchronizationContextOfCompletion, addr 0x275dcec, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method NotifySynchronizationContextOfCompletion, addr 0x285d3fc, size 0xa4, virtual false, abstract: false, final false
   inline void NotifySynchronizationContextOfCompletion();
 
-  /// @brief Method SetException, addr 0x275dd90, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method SetException, addr 0x285d4a0, size 0x134, virtual false, abstract: false, final false
   inline void SetException(::System::Exception* exception);
 
-  /// @brief Method SetResult, addr 0x275dc24, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetResult, addr 0x285d334, size 0x5c, virtual false, abstract: false, final false
   inline void SetResult();
 
-  /// @brief Method SetStateMachine, addr 0x275db54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetStateMachine, addr 0x285d264, size 0x8, virtual false, abstract: false, final false
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TStateMachine> inline void Start(ByRef<TStateMachine> stateMachine);
 
-  /// @brief Method get_Task, addr 0x275dc80, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_Task, addr 0x285d390, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* get_Task();
 
   // Ctor Parameters []

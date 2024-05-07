@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Bson/BsonBoolean.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,7 +27,7 @@ public:
 
   static inline ::Newtonsoft::Json::Bson::BsonBoolean* New_ctor(bool value);
 
-  /// @brief Method .ctor, addr 0x299e310, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a9bbc0, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(bool value);
 
   static inline ::Newtonsoft::Json::Bson::BsonBoolean* getStaticF_False();

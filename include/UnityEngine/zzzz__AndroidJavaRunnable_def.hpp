@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/AndroidJavaRunnable.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,12 +23,12 @@ namespace UnityEngine {
 class CORDL_TYPE AndroidJavaRunnable : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x31b20d8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x33b7b60, size 0x14, virtual true, abstract: false, final false
   inline void Invoke();
 
   static inline ::UnityEngine::AndroidJavaRunnable* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x31b201c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33b7aa4, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:

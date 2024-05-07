@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/Syntax/Expression.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/StyleSheets/Syntax/zzzz__DataType_impl.hpp"
 #include "UnityEngine/UIElements/StyleSheets/Syntax/zzzz__ExpressionCombinator_impl.hpp"
@@ -12,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleSheets::Syntax::Expression::*)(
     ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType)>(&::UnityEngine::UIElements::StyleSheets::Syntax::Expression::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3346d20;
+  constexpr static std::size_t addrs = 0x354ba5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

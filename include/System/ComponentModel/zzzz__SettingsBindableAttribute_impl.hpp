@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ComponentModel/SettingsBindableAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/ComponentModel/zzzz__SettingsBindableAttribute_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::SettingsBindableAttribute::*)(bool)>(
     &::System::ComponentModel::SettingsBindableAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2e49518;
+  constexpr static std::size_t addrs = 0x2f47e18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::SettingsBindableAttribute::*)()>(
     &::System::ComponentModel::SettingsBindableAttribute::get_Bindable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2e49540;
+  constexpr static std::size_t addrs = 0x2f47e40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::SettingsBindableAttribute*>::get(),
@@ -37,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::SettingsBindableAttribute::*)(::System::Object*)>(
     &::System::ComponentModel::SettingsBindableAttribute::Equals)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x2e49548;
+  constexpr static std::size_t addrs = 0x2f47e48;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -53,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ComponentModel::SettingsBindableAttribute::*)()>(
     &::System::ComponentModel::SettingsBindableAttribute::GetHashCode)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2e495d4;
+  constexpr static std::size_t addrs = 0x2f47ed4;
 
   inline static ::MethodInfo const* methodInfo() {
 

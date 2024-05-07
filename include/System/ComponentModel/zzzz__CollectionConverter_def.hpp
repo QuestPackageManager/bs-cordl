@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ComponentModel/CollectionConverter.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,20 +38,20 @@ namespace System::ComponentModel {
 class CORDL_TYPE CollectionConverter : public ::System::ComponentModel::TypeConverter {
 public:
   // Declarations
-  /// @brief Method ConvertTo, addr 0x2e4b610, size 0x178, virtual true, abstract: false, final false
+  /// @brief Method ConvertTo, addr 0x2f49f10, size 0x178, virtual true, abstract: false, final false
   inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
                                      ::System::Type* destinationType);
 
-  /// @brief Method GetProperties, addr 0x2e4b788, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetProperties, addr 0x2f4a088, size 0x8, virtual true, abstract: false, final false
   inline ::System::ComponentModel::PropertyDescriptorCollection* GetProperties(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Object* value,
                                                                                ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes);
 
-  /// @brief Method GetPropertiesSupported, addr 0x2e4b790, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetPropertiesSupported, addr 0x2f4a090, size 0x8, virtual true, abstract: false, final false
   inline bool GetPropertiesSupported(::System::ComponentModel::ITypeDescriptorContext* context);
 
   static inline ::System::ComponentModel::CollectionConverter* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e4b798, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f4a098, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BezierCurve.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,7 +23,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE BezierCurve {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0xf68490, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1058018, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 p0, ::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 p2, ::UnityEngine::Vector3 p3);
 
   // Ctor Parameters []

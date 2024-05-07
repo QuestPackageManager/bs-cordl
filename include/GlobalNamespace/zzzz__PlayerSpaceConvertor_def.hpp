@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/PlayerSpaceConvertor.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,7 +30,7 @@ public:
 
   static inline ::GlobalNamespace::PlayerSpaceConvertor* New_ctor();
 
-  /// @brief Method Start, addr 0x2622b64, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2722a38, size 0x38, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityEngine::Quaternion const& __cordl_internal_get__worldToPlayerSpaceRotation() const;
@@ -38,10 +39,10 @@ public:
 
   constexpr void __cordl_internal_set__worldToPlayerSpaceRotation(::UnityEngine::Quaternion value);
 
-  /// @brief Method .ctor, addr 0x2622b9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2722a70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_worldToPlayerSpaceRotation, addr 0x2622b58, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_worldToPlayerSpaceRotation, addr 0x2722a2c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_worldToPlayerSpaceRotation();
 
 protected:

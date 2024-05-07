@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/ITextInputField.hpp"
 #include "UnityEngine/UIElements/zzzz__ITextInputField_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IEventHandler_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ITextElement_def.hpp"

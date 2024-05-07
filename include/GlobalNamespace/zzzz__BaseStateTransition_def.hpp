@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BaseStateTransition.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,57 +39,57 @@ public:
 
   __declspec(property(get = get_tweeningManager))::UnityW<::Tweening::TimeTweeningManager> tweeningManager;
 
-  /// @brief Method HandleSelectableStateControllerStateDidChange, addr 0x263aa04, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method HandleSelectableStateControllerStateDidChange, addr 0x273a7f0, size 0x6c, virtual false, abstract: false, final false
   inline void HandleSelectableStateControllerStateDidChange(::GlobalNamespace::__SelectableStateController__ViewState state, bool animated);
 
   static inline ::GlobalNamespace::BaseStateTransition* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x263a96c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x273a758, size 0x98, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x263a834, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x273a620, size 0x88, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x263a6e0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x273a4cc, size 0x9c, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method SetDisabledState, addr 0x263aa94, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetDisabledState, addr 0x273a880, size 0x4, virtual true, abstract: false, final false
   inline void SetDisabledState();
 
-  /// @brief Method SetHighlightedState, addr 0x263aa8c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetHighlightedState, addr 0x273a878, size 0x4, virtual true, abstract: false, final false
   inline void SetHighlightedState();
 
-  /// @brief Method SetNormalState, addr 0x263aa88, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetNormalState, addr 0x273a874, size 0x4, virtual true, abstract: false, final false
   inline void SetNormalState();
 
-  /// @brief Method SetPressedState, addr 0x263aa90, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetPressedState, addr 0x273a87c, size 0x4, virtual true, abstract: false, final false
   inline void SetPressedState();
 
-  /// @brief Method SetSelectedAndHighlightedState, addr 0x263aa9c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetSelectedAndHighlightedState, addr 0x273a888, size 0x4, virtual true, abstract: false, final false
   inline void SetSelectedAndHighlightedState();
 
-  /// @brief Method SetSelectedState, addr 0x263aa98, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetSelectedState, addr 0x273a884, size 0x4, virtual true, abstract: false, final false
   inline void SetSelectedState();
 
-  /// @brief Method SetState, addr 0x263a664, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetState, addr 0x273a450, size 0x7c, virtual false, abstract: false, final false
   inline void SetState(::GlobalNamespace::__SelectableStateController__ViewState viewState);
 
-  /// @brief Method TransitionToDisabledState, addr 0x263aa7c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method TransitionToDisabledState, addr 0x273a868, size 0x4, virtual true, abstract: false, final false
   inline void TransitionToDisabledState();
 
-  /// @brief Method TransitionToHighlightedState, addr 0x263aa74, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method TransitionToHighlightedState, addr 0x273a860, size 0x4, virtual true, abstract: false, final false
   inline void TransitionToHighlightedState();
 
-  /// @brief Method TransitionToNormalState, addr 0x263aa70, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method TransitionToNormalState, addr 0x273a85c, size 0x4, virtual true, abstract: false, final false
   inline void TransitionToNormalState();
 
-  /// @brief Method TransitionToPressedState, addr 0x263aa78, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method TransitionToPressedState, addr 0x273a864, size 0x4, virtual true, abstract: false, final false
   inline void TransitionToPressedState();
 
-  /// @brief Method TransitionToSelectedAndHighlightedState, addr 0x263aa84, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method TransitionToSelectedAndHighlightedState, addr 0x273a870, size 0x4, virtual true, abstract: false, final false
   inline void TransitionToSelectedAndHighlightedState();
 
-  /// @brief Method TransitionToSelectedState, addr 0x263aa80, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method TransitionToSelectedState, addr 0x273a86c, size 0x4, virtual true, abstract: false, final false
   inline void TransitionToSelectedState();
 
   constexpr ::UnityW<::GlobalNamespace::SelectableStateController> const& __cordl_internal_get__selectableStateController() const;
@@ -97,13 +98,13 @@ public:
 
   constexpr void __cordl_internal_set__selectableStateController(::UnityW<::GlobalNamespace::SelectableStateController> value);
 
-  /// @brief Method .ctor, addr 0x263aaa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x273a88c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_transition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityW<::GlobalNamespace::BaseTransitionSO> get_transition();
 
-  /// @brief Method get_tweeningManager, addr 0x263a648, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_tweeningManager, addr 0x273a434, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityW<::Tweening::TimeTweeningManager> get_tweeningManager();
 
 protected:

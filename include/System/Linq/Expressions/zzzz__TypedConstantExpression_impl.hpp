@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/TypedConstantExpression.hpp"
 #include "System/Linq/Expressions/zzzz__ConstantExpression_impl.hpp"
 #include "System/Linq/Expressions/zzzz__TypedConstantExpression_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::TypedConstantExpression::*)(::System::Object*, ::System::Type*)>(
     &::System::Linq::Expressions::TypedConstantExpression::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2b00de4;
+  constexpr static std::size_t addrs = 0x2bfe6e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::TypedConstantExpression*>::get(),
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Linq::Expressions::TypedConstantExpression::*)()>(
     &::System::Linq::Expressions::TypedConstantExpression::get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b00e08;
+  constexpr static std::size_t addrs = 0x2bfe708;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::TypedConstantExpression*>::get(),

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/IriHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__IriHelper_def.hpp"
 #include "System/zzzz__UriComponents_def.hpp"
@@ -7,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(char16_t, bool)>(&::System::IriHelper::CheckIriUnicodeRange)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2e7cbd4;
+  constexpr static std::size_t addrs = 0x2f7c4d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -21,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(char16_t, char16_t, ByRef<bool>, bool)>(&::System::IriHelper::CheckIriUnicodeRange)> {
   constexpr static std::size_t size = 0x630;
-  constexpr static std::size_t addrs = 0x2e7cc2c;
+  constexpr static std::size_t addrs = 0x2f7c52c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -36,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(char16_t, ::System::UriComponents)>(&::System::IriHelper::CheckIsReserved)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x2e7d25c;
+  constexpr static std::size_t addrs = 0x2f7cb5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -52,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::cordl_internals::Ptr<char16_t>, int32_t, int32_t, ::System::UriComponents)>(
     &::System::IriHelper::EscapeUnescapeIri)> {
   constexpr static std::size_t size = 0x7fc;
-  constexpr static std::size_t addrs = 0x2e7d3a0;
+  constexpr static std::size_t addrs = 0x2f7cca0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

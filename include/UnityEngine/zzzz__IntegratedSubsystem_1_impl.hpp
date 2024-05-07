@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/IntegratedSubsystem_1.hpp"
 #include "UnityEngine/zzzz__IntegratedSubsystem_impl.hpp"
 #include "UnityEngine/zzzz__IntegratedSubsystem_1_def.hpp"
 template <typename TSubsystemDescriptor> inline TSubsystemDescriptor UnityEngine::IntegratedSubsystem_1<TSubsystemDescriptor>::get_subsystemDescriptor() {

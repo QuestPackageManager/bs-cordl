@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ProBuilder/MeshOperations/DeleteElements.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -70,16 +71,16 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__DeleteElements____c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method <DeleteVertices>b__0, addr 0x30d9a44, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method <DeleteVertices>b__0, addr 0x32e04cc, size 0x6c, virtual false, abstract: false, final false
   inline bool _DeleteVertices_b__0(::System::Collections::Generic::KeyValuePair_2<int32_t, int32_t> x);
 
-  /// @brief Method <DeleteVertices>b__1, addr 0x30d9ab0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method <DeleteVertices>b__1, addr 0x32e0538, size 0xa8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::KeyValuePair_2<int32_t, int32_t> _DeleteVertices_b__1(::System::Collections::Generic::KeyValuePair_2<int32_t, int32_t> y);
 
-  /// @brief Method <DeleteVertices>b__2, addr 0x30d9b58, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method <DeleteVertices>b__2, addr 0x32e05e0, size 0x6c, virtual false, abstract: false, final false
   inline bool _DeleteVertices_b__2(::System::Collections::Generic::KeyValuePair_2<int32_t, int32_t> x);
 
-  /// @brief Method <DeleteVertices>b__3, addr 0x30d9bc4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method <DeleteVertices>b__3, addr 0x32e064c, size 0xa8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::KeyValuePair_2<int32_t, int32_t> _DeleteVertices_b__3(::System::Collections::Generic::KeyValuePair_2<int32_t, int32_t> y);
 
   constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_offset() const;
@@ -94,7 +95,7 @@ public:
 
   constexpr void __cordl_internal_set_sorted(::System::Collections::Generic::List_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x30d92f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32dfd80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -140,7 +141,7 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__DeleteElements____c__DisplayClass2_0* New_ctor();
 
-  /// @brief Method <DeleteFaces>b__0, addr 0x30d9c6c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <DeleteFaces>b__0, addr 0x32e06f4, size 0x5c, virtual false, abstract: false, final false
   inline int32_t _DeleteFaces_b__0(::UnityEngine::ProBuilder::Face* x);
 
   constexpr ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> const& __cordl_internal_get_mesh() const;
@@ -149,7 +150,7 @@ public:
 
   constexpr void __cordl_internal_set_mesh(::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> value);
 
-  /// @brief Method .ctor, addr 0x30d9300, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32dfd88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -194,10 +195,10 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__DeleteElements____c* New_ctor();
 
-  /// @brief Method <DeleteFaces>b__3_0, addr 0x30d9d34, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <DeleteFaces>b__3_0, addr 0x32e07bc, size 0x18, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* _DeleteFaces_b__3_0(::UnityEngine::ProBuilder::Face* x);
 
-  /// @brief Method .ctor, addr 0x30d9d2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32e07b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__DeleteElements____c* getStaticF___9();
@@ -242,23 +243,23 @@ public:
 
   using __c__DisplayClass2_0 = ::UnityEngine::ProBuilder::MeshOperations::__DeleteElements____c__DisplayClass2_0;
 
-  /// @brief Method DeleteFace, addr 0x30c8884, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method DeleteFace, addr 0x32cf30c, size 0xa0, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> DeleteFace(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Face* face);
 
-  /// @brief Method DeleteFaces, addr 0x30d9308, size 0x604, virtual false, abstract: false, final false
+  /// @brief Method DeleteFaces, addr 0x32dfd90, size 0x604, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> DeleteFaces(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IList_1<int32_t>* faceIndexes);
 
-  /// @brief Method DeleteFaces, addr 0x30d0748, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method DeleteFaces, addr 0x32d71d0, size 0x104, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> DeleteFaces(::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
                                                                  ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces);
 
-  /// @brief Method DeleteVertices, addr 0x30ca750, size 0x4d4, virtual false, abstract: false, final false
+  /// @brief Method DeleteVertices, addr 0x32d11d8, size 0x4d4, virtual false, abstract: false, final false
   static inline void DeleteVertices(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<int32_t>* distinctIndexes);
 
-  /// @brief Method RemoveDegenerateTriangles, addr 0x30d990c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method RemoveDegenerateTriangles, addr 0x32e0394, size 0x9c, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> RemoveDegenerateTriangles(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
 
-  /// @brief Method RemoveUnusedVertices, addr 0x30d99a8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method RemoveUnusedVertices, addr 0x32e0430, size 0x9c, virtual false, abstract: false, final false
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> RemoveUnusedVertices(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
 
 protected:

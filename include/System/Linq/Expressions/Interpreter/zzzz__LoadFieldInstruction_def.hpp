@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/LoadFieldInstruction.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,19 +35,19 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::LoadFieldInstruction* New_ctor(::System::Reflection::FieldInfo* field);
 
-  /// @brief Method Run, addr 0x2b1d780, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x2c1b080, size 0x5c, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x2b1d708, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c1b008, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::FieldInfo* field);
 
-  /// @brief Method get_ConsumedStack, addr 0x2b1d770, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x2c1b070, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x2b1d730, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x2c1b030, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x2b1d778, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x2c1b078, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/FormattedFloatListSettingsController.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -123,18 +124,18 @@ public:
 
   __declspec(property(get = get_values, put = set_values))::ArrayW<float_t, ::Array<float_t>*> values;
 
-  /// @brief Method ApplyValue, addr 0x253b8cc, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method ApplyValue, addr 0x2632290, size 0x58, virtual true, abstract: false, final false
   inline void ApplyValue(int32_t idx);
 
-  /// @brief Method GetInitValues, addr 0x253b77c, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method GetInitValues, addr 0x2632140, size 0x150, virtual true, abstract: false, final false
   inline bool GetInitValues(ByRef<int32_t> idx, ByRef<int32_t> numberOfElements);
 
   static inline ::GlobalNamespace::FormattedFloatListSettingsController* New_ctor();
 
-  /// @brief Method SetValue, addr 0x2534f90, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x262b944, size 0x18, virtual false, abstract: false, final false
   inline void SetValue(float_t value, bool callCallback);
 
-  /// @brief Method TextForValue, addr 0x253b924, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method TextForValue, addr 0x26322e8, size 0xdc, virtual true, abstract: false, final false
   inline ::StringW TextForValue(int32_t idx);
 
   constexpr ::StringW const& __cordl_internal_get__formattingString() const;
@@ -186,22 +187,22 @@ public:
 
   constexpr void __cordl_internal_set_valueType(::GlobalNamespace::__FormattedFloatListSettingsController__ValueType value);
 
-  /// @brief Method .ctor, addr 0x253ba00, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26323c4, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_valueDidChangeEvent, addr 0x253b5fc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_valueDidChangeEvent, addr 0x2631fc0, size 0xb0, virtual false, abstract: false, final false
   inline void add_valueDidChangeEvent(::System::Action_2<::UnityW<::GlobalNamespace::FormattedFloatListSettingsController>, float_t>* value);
 
-  /// @brief Method get_value, addr 0x253b75c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x2632120, size 0x8, virtual false, abstract: false, final false
   inline float_t get_value();
 
-  /// @brief Method get_values, addr 0x253b764, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_values, addr 0x2632128, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<float_t, ::Array<float_t>*> get_values();
 
-  /// @brief Method remove_valueDidChangeEvent, addr 0x253b6ac, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_valueDidChangeEvent, addr 0x2632070, size 0xb0, virtual false, abstract: false, final false
   inline void remove_valueDidChangeEvent(::System::Action_2<::UnityW<::GlobalNamespace::FormattedFloatListSettingsController>, float_t>* value);
 
-  /// @brief Method set_values, addr 0x253b76c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_values, addr 0x2632130, size 0x10, virtual false, abstract: false, final false
   inline void set_values(::ArrayW<float_t, ::Array<float_t>*> value);
 
 protected:

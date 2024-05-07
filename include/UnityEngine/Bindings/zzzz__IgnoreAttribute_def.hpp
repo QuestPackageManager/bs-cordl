@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Bindings/IgnoreAttribute.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,10 +33,10 @@ public:
 
   constexpr void __cordl_internal_set__DoesNotContributeToSize_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x32671fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x346ff38, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_DoesNotContributeToSize, addr 0x32671f0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_DoesNotContributeToSize, addr 0x346ff2c, size 0xc, virtual false, abstract: false, final false
   inline void set_DoesNotContributeToSize(bool value);
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Converters/VersionConverter.hpp"
 #include "Newtonsoft/Json/zzzz__JsonConverter_impl.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__VersionConverter_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
@@ -12,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Converters::VersionConverter::*)(
     ::Newtonsoft::Json::JsonWriter*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*)>(&::Newtonsoft::Json::Converters::VersionConverter::WriteJson)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x298dfe8;
+  constexpr static std::size_t addrs = 0x2a8b898;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -29,7 +30,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::Newtonsoft::Json::Converters::VersionConverter::*)(::Newtonsoft::Json::JsonReader*, ::System::Type*, ::System::Object*, ::Newtonsoft::Json::JsonSerializer*)>(
         &::Newtonsoft::Json::Converters::VersionConverter::ReadJson)> {
   constexpr static std::size_t size = 0x2a4;
-  constexpr static std::size_t addrs = 0x298e0d4;
+  constexpr static std::size_t addrs = 0x2a8b984;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -45,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Converters::VersionConverter::*)(::System::Type*)>(
     &::Newtonsoft::Json::Converters::VersionConverter::CanConvert)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x298e378;
+  constexpr static std::size_t addrs = 0x2a8bc28;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -61,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Converters::VersionConverter::*)()>(
     &::Newtonsoft::Json::Converters::VersionConverter::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x298e400;
+  constexpr static std::size_t addrs = 0x2a8bcb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::VersionConverter*>::get(),

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/Parser.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -137,37 +138,37 @@ public:
   /// @brief Field xmlns, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get_xmlns, put = __cordl_internal_set_xmlns))::StringW xmlns;
 
-  /// @brief Method CheckSchemaRoot, addr 0x2cc2aa8, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method CheckSchemaRoot, addr 0x2dc03a8, size 0x108, virtual false, abstract: false, final false
   inline bool CheckSchemaRoot(::System::Xml::Schema::SchemaType rootType, ByRef<::StringW> code);
 
-  /// @brief Method CreateXmlNsAttribute, addr 0x2cc332c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method CreateXmlNsAttribute, addr 0x2dc0c2c, size 0x11c, virtual false, abstract: false, final false
   inline ::System::Xml::XmlAttribute* CreateXmlNsAttribute(::StringW prefix, ::StringW value);
 
-  /// @brief Method FinishParsing, addr 0x2cc2bb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method FinishParsing, addr 0x2dc04b0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::SchemaType FinishParsing();
 
-  /// @brief Method LoadAttributeNode, addr 0x2cc31b8, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method LoadAttributeNode, addr 0x2dc0ab8, size 0x174, virtual false, abstract: false, final false
   inline ::System::Xml::XmlAttribute* LoadAttributeNode();
 
-  /// @brief Method LoadElementNode, addr 0x2cc2df0, size 0x3c8, virtual false, abstract: false, final false
+  /// @brief Method LoadElementNode, addr 0x2dc06f0, size 0x3c8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlElement* LoadElementNode(bool root);
 
-  /// @brief Method LoadEntityReferenceInAttribute, addr 0x2cc3448, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method LoadEntityReferenceInAttribute, addr 0x2dc0d48, size 0x218, virtual false, abstract: false, final false
   inline ::System::Xml::XmlEntityReference* LoadEntityReferenceInAttribute();
 
   static inline ::System::Xml::Schema::Parser* New_ctor(::System::Xml::Schema::SchemaType schemaType, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::Schema::SchemaNames* schemaNames,
                                                         ::System::Xml::Schema::ValidationEventHandler* eventHandler);
 
-  /// @brief Method Parse, addr 0x2cc2014, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x2dbf914, size 0x50, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::SchemaType Parse(::System::Xml::XmlReader* reader, ::StringW targetNamespace);
 
-  /// @brief Method ParseReaderNode, addr 0x2cc2428, size 0x680, virtual false, abstract: false, final false
+  /// @brief Method ParseReaderNode, addr 0x2dbfd28, size 0x680, virtual false, abstract: false, final false
   inline bool ParseReaderNode();
 
-  /// @brief Method ProcessAppInfoDocMarkup, addr 0x2cc2bd0, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method ProcessAppInfoDocMarkup, addr 0x2dc04d0, size 0x220, virtual false, abstract: false, final false
   inline void ProcessAppInfoDocMarkup(bool root);
 
-  /// @brief Method StartParsing, addr 0x2cc2064, size 0x3c4, virtual false, abstract: false, final false
+  /// @brief Method StartParsing, addr 0x2dbf964, size 0x3c4, virtual false, abstract: false, final false
   inline void StartParsing(::System::Xml::XmlReader* reader, ::StringW targetNamespace);
 
   constexpr ::System::Xml::XmlNamespaceManager*& __cordl_internal_get_annotationNSManager();
@@ -290,17 +291,17 @@ public:
 
   constexpr void __cordl_internal_set_xmlns(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2cc1f5c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dbf85c, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::SchemaType schemaType, ::System::Xml::XmlNameTable* nameTable, ::System::Xml::Schema::SchemaNames* schemaNames,
                     ::System::Xml::Schema::ValidationEventHandler* eventHandler);
 
-  /// @brief Method get_XdrSchema, addr 0x2cc2bc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XdrSchema, addr 0x2dc04c8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::SchemaInfo* get_XdrSchema();
 
-  /// @brief Method get_XmlSchema, addr 0x2cc2bb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_XmlSchema, addr 0x2dc04b8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchema* get_XmlSchema();
 
-  /// @brief Method set_XmlResolver, addr 0x2cc2bc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_XmlResolver, addr 0x2dc04c0, size 0x8, virtual false, abstract: false, final false
   inline void set_XmlResolver(::System::Xml::XmlResolver* value);
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ISortedListItemProcessor_1.hpp"
 #include "GlobalNamespace/zzzz__ISortedListItemProcessor_1_def.hpp"
 #include "System/Collections/Generic/zzzz__LinkedListNode_1_def.hpp"
 template <typename T> inline void GlobalNamespace::ISortedListItemProcessor_1<T>::ProcessInsertedData(::System::Collections::Generic::LinkedListNode_1<T>* insertedNode) {

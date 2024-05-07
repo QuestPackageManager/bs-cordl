@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatSaber/AvatarCore/LobbyAvatarInstaller.hpp"
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "BeatSaber/AvatarCore/zzzz__LobbyAvatarInstaller_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::AvatarCore::LobbyAvatarInstaller::*)()>(
     &::BeatSaber::AvatarCore::LobbyAvatarInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x264;
-  constexpr static std::size_t addrs = 0xf534cc;
+  constexpr static std::size_t addrs = 0x1042040;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -22,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::AvatarCore::LobbyAvatarInstaller::*)()>(&::BeatSaber::AvatarCore::LobbyAvatarInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf53730;
+  constexpr static std::size_t addrs = 0x10422a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::LobbyAvatarInstaller*>::get(), ".ctor",

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/NoteCutter.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -80,7 +81,7 @@ public:
 
   constexpr void __cordl_internal_set_pos(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x262504c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2724f20, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -129,12 +130,12 @@ public:
   /// @brief Convert operator to "::System::Collections::IComparer"
   constexpr operator ::System::Collections::IComparer*() noexcept;
 
-  /// @brief Method Compare, addr 0x2625054, size 0x124, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x2724f28, size 0x124, virtual true, abstract: false, final true
   inline int32_t Compare(::System::Object* p0, ::System::Object* p1);
 
   static inline ::GlobalNamespace::__NoteCutter__CuttableBySaberSortParamsComparer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2625044, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2724f18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Collections::IComparer"
@@ -183,7 +184,7 @@ public:
                       put = __cordl_internal_set__cuttableBySaberSortParams))::ArrayW<::GlobalNamespace::__NoteCutter__CuttableBySaberSortParams*,
                                                                                       ::Array<::GlobalNamespace::__NoteCutter__CuttableBySaberSortParams*>*> _cuttableBySaberSortParams;
 
-  /// @brief Method Cut, addr 0x26248dc, size 0x524, virtual false, abstract: false, final false
+  /// @brief Method Cut, addr 0x27247b0, size 0x524, virtual false, abstract: false, final false
   inline void Cut(::GlobalNamespace::Saber* saber);
 
   static inline ::GlobalNamespace::NoteCutter* New_ctor();
@@ -209,7 +210,7 @@ public:
   constexpr void
   __cordl_internal_set__cuttableBySaberSortParams(::ArrayW<::GlobalNamespace::__NoteCutter__CuttableBySaberSortParams*, ::Array<::GlobalNamespace::__NoteCutter__CuttableBySaberSortParams*>*> value);
 
-  /// @brief Method .ctor, addr 0x2624f0c, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2724de0, size 0x138, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

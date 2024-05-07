@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Http/Headers/TryParseDelegate_1.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Net/Http/Headers/zzzz__TryParseDelegate_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"

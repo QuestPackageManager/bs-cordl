@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/WebExceptionMapping.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,7 +27,7 @@ public:
   /// @brief Field s_Mapping, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_Mapping, put = setStaticF_s_Mapping))::ArrayW<::StringW, ::Array<::StringW>*> s_Mapping;
 
-  /// @brief Method GetWebStatusString, addr 0x2ed4394, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method GetWebStatusString, addr 0x2fd6c94, size 0x198, virtual false, abstract: false, final false
   static inline ::StringW GetWebStatusString(::System::Net::WebExceptionStatus status);
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_s_Mapping();

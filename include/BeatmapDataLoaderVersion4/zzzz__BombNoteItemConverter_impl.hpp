@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatmapDataLoaderVersion4/BombNoteItemConverter.hpp"
 #include "GlobalNamespace/zzzz__BeatToTimeConverterProvider_impl.hpp"
 #include "BeatmapDataLoaderVersion4/zzzz__BombNoteItemConverter_def.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__BeatmapBeatIndex_def.hpp"
@@ -11,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapDataLoaderVersion4::BombNoteItemConverter::*)(
     ::ArrayW<::BeatmapSaveDataVersion4::BombNote, ::Array<::BeatmapSaveDataVersion4::BombNote>*>, ::GlobalNamespace::BpmTimeProcessor*)>(&::BeatmapDataLoaderVersion4::BombNoteItemConverter::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x1403eb0;
+  constexpr static std::size_t addrs = 0x14f6470;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapObjectData* (
     ::BeatmapDataLoaderVersion4::BombNoteItemConverter::*)(::BeatmapSaveDataVersion4::BeatmapBeatIndex*)>(&::BeatmapDataLoaderVersion4::BombNoteItemConverter::Convert)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x1404060;
+  constexpr static std::size_t addrs = 0x14f6620;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

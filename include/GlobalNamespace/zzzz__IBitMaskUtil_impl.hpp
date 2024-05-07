@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IBitMaskUtil.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__IBitMaskUtil_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IBitMaskUtil.GetHexDigit
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(char16_t)>(&::GlobalNamespace::IBitMaskUtil::GetHexDigit)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x1411c7c;
+  constexpr static std::size_t addrs = 0x15032cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -20,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(char16_t)>(&::GlobalNamespace::IBitMaskUtil::GetBase64Digit)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x1411ccc;
+  constexpr static std::size_t addrs = 0x150331c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (*)(uint64_t)>(&::GlobalNamespace::IBitMaskUtil::GetBase64Char)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x1411d3c;
+  constexpr static std::size_t addrs = 0x150338c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

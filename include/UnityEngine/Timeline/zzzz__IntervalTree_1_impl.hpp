@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Timeline/IntervalTree_1.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__IntervalTree_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"

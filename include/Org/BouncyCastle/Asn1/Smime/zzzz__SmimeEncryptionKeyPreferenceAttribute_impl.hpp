@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Smime/SmimeEncryptionKeyPreferenceAttribute.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AttributeX509_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Smime/zzzz__SmimeEncryptionKeyPreferenceAttribute_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__IssuerAndSerialNumber_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Smime::SmimeEncryptionKeyPreferenceAttribute::*)(
     ::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber*)>(&::Org::BouncyCastle::Asn1::Smime::SmimeEncryptionKeyPreferenceAttribute::_ctor)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x11e4efc;
+  constexpr static std::size_t addrs = 0x12d5620;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Smime::SmimeEncryptionKeyPreferenceAttribute::*)(
     ::Org::BouncyCastle::Asn1::Cms::RecipientKeyIdentifier*)>(&::Org::BouncyCastle::Asn1::Smime::SmimeEncryptionKeyPreferenceAttribute::_ctor)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x11e4fe0;
+  constexpr static std::size_t addrs = 0x12d5704;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Smime::SmimeEncryptionKeyPreferenceAttribute::*)(
     ::Org::BouncyCastle::Asn1::Asn1OctetString*)>(&::Org::BouncyCastle::Asn1::Smime::SmimeEncryptionKeyPreferenceAttribute::_ctor)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x11e50c4;
+  constexpr static std::size_t addrs = 0x12d57e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

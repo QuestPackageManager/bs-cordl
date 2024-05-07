@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BeatmapObjectAvoidancePathEvaluator.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,7 +59,7 @@ public:
   /// @brief Field _zOffset, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__zOffset, put = __cordl_internal_set__zOffset)) float_t _zOffset;
 
-  /// @brief Method GetCurrentPathPosition, addr 0xf61048, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentPathPosition, addr 0x1050bbc, size 0x104, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetCurrentPathPosition();
 
   static inline ::GlobalNamespace::BeatmapObjectAvoidancePathEvaluator* New_ctor(::GlobalNamespace::IAudioTimeSource* audioTimeSource, ::GlobalNamespace::PlayerTransforms* playerTransforms,
@@ -119,7 +120,7 @@ public:
 
   constexpr void __cordl_internal_set__zOffset(float_t value);
 
-  /// @brief Method .ctor, addr 0xf60fd0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1050b44, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IAudioTimeSource* audioTimeSource, ::GlobalNamespace::PlayerTransforms* playerTransforms, ::GlobalNamespace::BezierSplineEvaluator* pathBezierCurveEvaluator,
                     float_t jumpStartZ, float_t jumpEndZ, float_t yOffset, float_t zOffset, float_t noteJumpSeed, float_t moveToPlayerHeadTParam);
 

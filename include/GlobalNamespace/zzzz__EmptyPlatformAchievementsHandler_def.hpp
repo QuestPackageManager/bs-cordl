@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/EmptyPlatformAchievementsHandler.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,18 +35,18 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IPlatformAchievementsHandler"
   constexpr operator ::GlobalNamespace::IPlatformAchievementsHandler*() noexcept;
 
-  /// @brief Method GetUnlockedAchievements, addr 0x139e33c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetUnlockedAchievements, addr 0x1493a60, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::HMAsyncRequest* GetUnlockedAchievements(::GlobalNamespace::__IPlatformAchievementsHandler__GetUnlockedAchievementsCompletionHandler* completionHandler);
 
-  /// @brief Method Initialize, addr 0x139e330, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x1493a54, size 0x4, virtual true, abstract: false, final true
   inline void Initialize();
 
   static inline ::GlobalNamespace::EmptyPlatformAchievementsHandler* New_ctor();
 
-  /// @brief Method UnlockAchievement, addr 0x139e334, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnlockAchievement, addr 0x1493a58, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::HMAsyncRequest* UnlockAchievement(::StringW achievementId, ::GlobalNamespace::__IPlatformAchievementsHandler__UnlockAchievementCompletionHandler* completionHandler);
 
-  /// @brief Method .ctor, addr 0x139e344, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1493a68, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IPlatformAchievementsHandler"

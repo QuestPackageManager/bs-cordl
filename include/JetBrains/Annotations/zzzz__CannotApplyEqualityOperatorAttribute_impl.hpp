@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "JetBrains/Annotations/CannotApplyEqualityOperatorAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "JetBrains/Annotations/zzzz__CannotApplyEqualityOperatorAttribute_def.hpp"
 //  Writing Method size for method: ::JetBrains::Annotations::CannotApplyEqualityOperatorAttribute._ctor
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::CannotApplyEqualityOperatorAttribute::*)()>(
     &::JetBrains::Annotations::CannotApplyEqualityOperatorAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x340a03c;
+  constexpr static std::size_t addrs = 0x360ed78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

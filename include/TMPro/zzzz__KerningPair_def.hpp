@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/KerningPair.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,7 +56,7 @@ public:
   /// @brief Field xOffset, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get_xOffset, put = __cordl_internal_set_xOffset)) float_t xOffset;
 
-  /// @brief Method ConvertLegacyKerningData, addr 0x313fdb4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ConvertLegacyKerningData, addr 0x334483c, size 0xc, virtual false, abstract: false, final false
   inline void ConvertLegacyKerningData();
 
   static inline ::TMPro::KerningPair* New_ctor();
@@ -101,38 +102,38 @@ public:
 
   constexpr void __cordl_internal_set_xOffset(float_t value);
 
-  /// @brief Method .ctor, addr 0x313fcd0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3344758, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x313fd34, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33447bc, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(uint32_t firstGlyph, ::TMPro::GlyphValueRecord_Legacy firstGlyphAdjustments, uint32_t secondGlyph, ::TMPro::GlyphValueRecord_Legacy secondGlyphAdjustments);
 
-  /// @brief Method .ctor, addr 0x313fcf4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x334477c, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(uint32_t left, uint32_t right, float_t offset);
 
   static inline ::TMPro::KerningPair* getStaticF_empty();
 
-  /// @brief Method get_firstGlyph, addr 0x313fc90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_firstGlyph, addr 0x3344718, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_firstGlyph();
 
-  /// @brief Method get_firstGlyphAdjustments, addr 0x313fca0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_firstGlyphAdjustments, addr 0x3344728, size 0xc, virtual false, abstract: false, final false
   inline ::TMPro::GlyphValueRecord_Legacy get_firstGlyphAdjustments();
 
-  /// @brief Method get_ignoreSpacingAdjustments, addr 0x313fcc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ignoreSpacingAdjustments, addr 0x3344750, size 0x8, virtual false, abstract: false, final false
   inline bool get_ignoreSpacingAdjustments();
 
-  /// @brief Method get_secondGlyph, addr 0x313fcac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_secondGlyph, addr 0x3344734, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_secondGlyph();
 
-  /// @brief Method get_secondGlyphAdjustments, addr 0x313fcbc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_secondGlyphAdjustments, addr 0x3344744, size 0xc, virtual false, abstract: false, final false
   inline ::TMPro::GlyphValueRecord_Legacy get_secondGlyphAdjustments();
 
   static inline void setStaticF_empty(::TMPro::KerningPair* value);
 
-  /// @brief Method set_firstGlyph, addr 0x313fc98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_firstGlyph, addr 0x3344720, size 0x8, virtual false, abstract: false, final false
   inline void set_firstGlyph(uint32_t value);
 
-  /// @brief Method set_secondGlyph, addr 0x313fcb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_secondGlyph, addr 0x334473c, size 0x8, virtual false, abstract: false, final false
   inline void set_secondGlyph(uint32_t value);
 
 protected:

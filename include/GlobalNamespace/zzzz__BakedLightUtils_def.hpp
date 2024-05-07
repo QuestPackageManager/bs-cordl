@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BakedLightUtils.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,7 +32,7 @@ public:
   /// @brief Field _zWritePropertyId, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__zWritePropertyId, put = setStaticF__zWritePropertyId)) int32_t _zWritePropertyId;
 
-  /// @brief Method ValidateLoadedEnvironmentScene, addr 0x2586ab0, size 0x7a0, virtual false, abstract: false, final false
+  /// @brief Method ValidateLoadedEnvironmentScene, addr 0x267ef44, size 0x7a0, virtual false, abstract: false, final false
   static inline void ValidateLoadedEnvironmentScene(bool validateBakedGIEnabled);
 
   static inline int32_t getStaticF__stencilCompPropertyId();

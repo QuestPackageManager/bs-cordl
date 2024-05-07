@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/LightColorGroupEffect.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -87,7 +88,7 @@ public:
 
   constexpr void __cordl_internal_set_lightId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x25ca98c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c96f8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(int32_t groupId, int32_t elementId, int32_t lightId);
 
 protected:
@@ -191,27 +192,27 @@ public:
   /// @brief Field _usingBoostColors, offset 0xa1, size 0x1
   __declspec(property(get = __cordl_internal_get__usingBoostColors, put = __cordl_internal_set__usingBoostColors)) bool _usingBoostColors;
 
-  /// @brief Method Cleanup, addr 0x25ca018, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x26c8d84, size 0x9c, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method GetColor, addr 0x25ca7d4, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method GetColor, addr 0x26c9540, size 0x34, virtual true, abstract: false, final false
   inline ::UnityEngine::Color GetColor(::GlobalNamespace::EnvironmentColorType colorType, bool colorBoost, float_t brightness);
 
-  /// @brief Method HandleColorChangeBeatmapEvent, addr 0x25ca0b4, size 0x47c, virtual false, abstract: false, final false
+  /// @brief Method HandleColorChangeBeatmapEvent, addr 0x26c8e20, size 0x47c, virtual false, abstract: false, final false
   inline void HandleColorChangeBeatmapEvent(::GlobalNamespace::LightColorBeatmapEventData* currentEventData);
 
   static inline ::GlobalNamespace::LightColorGroupEffect* New_ctor(::GlobalNamespace::__LightColorGroupEffect__InitData* initData, ::GlobalNamespace::LightWithIdManager* lightManager,
                                                                    ::Tweening::SongTimeTweeningManager* tweeningManager, ::GlobalNamespace::ColorManager* colorManager,
                                                                    ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController, ::GlobalNamespace::IBpmController* bpmController);
 
-  /// @brief Method SetColor, addr 0x25ca530, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method SetColor, addr 0x26c929c, size 0x124, virtual false, abstract: false, final false
   inline void SetColor(float_t t);
 
-  /// @brief Method SetData, addr 0x25ca808, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x26c9574, size 0x184, virtual false, abstract: false, final false
   inline void SetData(::UnityEngine::Color fromColor, ::UnityEngine::Color toColor, ::UnityEngine::Color alternativeFromColor, ::UnityEngine::Color alternativeToColor, float_t fromStrobeBeatFrequency,
                       float_t toStrobeBeatFrequency, float_t fromStrobeBrightness, float_t toStrobeBrightness, bool strobeFade);
 
-  /// @brief Method UseBoostColors, addr 0x25ca654, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method UseBoostColors, addr 0x26c93c0, size 0x180, virtual false, abstract: false, final false
   inline void UseBoostColors(bool useBoostColors);
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__alternativeFromColor() const;
@@ -322,7 +323,7 @@ public:
 
   constexpr void __cordl_internal_set__usingBoostColors(bool value);
 
-  /// @brief Method .ctor, addr 0x25c9cbc, size 0x35c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c8a28, size 0x35c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__LightColorGroupEffect__InitData* initData, ::GlobalNamespace::LightWithIdManager* lightManager, ::Tweening::SongTimeTweeningManager* tweeningManager,
                     ::GlobalNamespace::ColorManager* colorManager, ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController, ::GlobalNamespace::IBpmController* bpmController);
 

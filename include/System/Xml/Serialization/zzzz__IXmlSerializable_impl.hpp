@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Serialization/IXmlSerializable.hpp"
 #include "System/Xml/Serialization/zzzz__IXmlSerializable_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchema_def.hpp"
 #include "System/Xml/zzzz__XmlReader_def.hpp"

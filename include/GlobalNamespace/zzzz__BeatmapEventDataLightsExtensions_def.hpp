@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BeatmapEventDataLightsExtensions.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -104,19 +105,19 @@ public:
   // Declarations
   using LightSwitchEventEffectDataValues = ::GlobalNamespace::__BeatmapEventDataLightsExtensions__LightSwitchEventEffectDataValues;
 
-  /// @brief Method GetLightColorTypeFromEventDataValue, addr 0xf46744, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetLightColorTypeFromEventDataValue, addr 0x10352b8, size 0x2c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::EnvironmentColorType GetLightColorTypeFromEventDataValue(int32_t beatmapEventValue);
 
-  /// @brief Method HasFixedDurationLightSwitchEventDataValue, addr 0xf467a4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method HasFixedDurationLightSwitchEventDataValue, addr 0x1035318, size 0x4c, virtual false, abstract: false, final false
   static inline bool HasFixedDurationLightSwitchEventDataValue(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
-  /// @brief Method HasFixedDurationLightSwitchEventDataValue, addr 0xf467f0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method HasFixedDurationLightSwitchEventDataValue, addr 0x1035364, size 0x3c, virtual false, abstract: false, final false
   static inline bool HasFixedDurationLightSwitchEventDataValue(int32_t beatmapEventValue);
 
-  /// @brief Method HasLightFadeEventDataValue, addr 0xf46770, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method HasLightFadeEventDataValue, addr 0x10352e4, size 0x34, virtual false, abstract: false, final false
   static inline bool HasLightFadeEventDataValue(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
-  /// @brief Method LightColorTypeFromEventDataValue, addr 0xf4672c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method LightColorTypeFromEventDataValue, addr 0x10352a0, size 0x18, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::EnvironmentColorType LightColorTypeFromEventDataValue(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
 protected:

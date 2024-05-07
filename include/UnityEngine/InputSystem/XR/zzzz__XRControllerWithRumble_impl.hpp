@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/XR/XRControllerWithRumble.hpp"
 #include "UnityEngine/InputSystem/XR/zzzz__XRController_impl.hpp"
 #include "UnityEngine/InputSystem/XR/zzzz__XRControllerWithRumble_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::XR::XRControllerWithRumble.SendImpulse
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::XRControllerWithRumble::*)(float_t, float_t)>(
     &::UnityEngine::InputSystem::XR::XRControllerWithRumble::SendImpulse)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x2ff955c;
+  constexpr static std::size_t addrs = 0x31362e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -22,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::XRControllerWithRumble::*)()>(
     &::UnityEngine::InputSystem::XR::XRControllerWithRumble::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2ff9684;
+  constexpr static std::size_t addrs = 0x3136410;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::XR::XRControllerWithRumble*>::get(),

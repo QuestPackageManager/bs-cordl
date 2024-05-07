@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/MulOvfInstruction_MulOvfInt32.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__MulOvfInstruction_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__MulOvfInstruction_MulOvfInt32_def.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__InterpretedFrame_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::__MulOvfInstruction__MulOvfInt32::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::System::Linq::Expressions::Interpreter::__MulOvfInstruction__MulOvfInt32::Run)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x2b41e30;
+  constexpr static std::size_t addrs = 0x2c3e730;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::__MulOvfInstruction__MulOvfInt32::*)()>(
     &::System::Linq::Expressions::Interpreter::__MulOvfInstruction__MulOvfInt32::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b41b8c;
+  constexpr static std::size_t addrs = 0x2c3e48c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ScriptingUtility.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,7 +59,7 @@ public:
   // Declarations
   using TestClass = ::UnityEngine::__ScriptingUtility__TestClass;
 
-  /// @brief Method IsManagedCodeWorking, addr 0x320a868, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsManagedCodeWorking, addr 0x341159c, size 0x8, virtual false, abstract: false, final false
   static inline bool IsManagedCodeWorking();
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/ArrayHelpers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__ArrayHelpers_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"

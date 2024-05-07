@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BookmarksFoldersModel.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,10 +46,10 @@ public:
 
   static inline ::GlobalNamespace::__BookmarksFoldersModel____c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x13a76a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x149cd84, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_bookmarksFolders>b__3_0, addr 0x13a76b0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <get_bookmarksFolders>b__3_0, addr 0x149cd8c, size 0xc, virtual false, abstract: false, final false
   inline ::StringW _get_bookmarksFolders_b__3_0(::System::__Environment__SpecialFolder specialFolder);
 
   static inline ::GlobalNamespace::__BookmarksFoldersModel____c* getStaticF___9();
@@ -112,10 +113,10 @@ public:
 
   constexpr void __cordl_internal_set_myFolders(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method .ctor, addr 0x13a763c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x149cd18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bookmarksFolders, addr 0x13a7068, size 0x594, virtual false, abstract: false, final false
+  /// @brief Method get_bookmarksFolders, addr 0x149c744, size 0x594, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::FileBrowserItem*, ::Array<::GlobalNamespace::FileBrowserItem*>*> get_bookmarksFolders();
 
 protected:

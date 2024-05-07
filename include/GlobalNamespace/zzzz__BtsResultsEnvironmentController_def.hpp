@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BtsResultsEnvironmentController.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -107,12 +108,12 @@ public:
 
   __declspec(property(get = get_name))::StringW name;
 
-  /// @brief Method Clean, addr 0xf66f0c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Clean, addr 0x1056a94, size 0xec, virtual false, abstract: false, final false
   inline void Clean();
 
   static inline ::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation* New_ctor();
 
-  /// @brief Method SetCharacter, addr 0xf66ab4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method SetCharacter, addr 0x105663c, size 0xcc, virtual false, abstract: false, final false
   inline void SetCharacter(::UnityEngine::AddressableAssets::AssetReference* assetReference, ::GlobalNamespace::BTSCharacter* btsCharacter, bool alternativeMaterial);
 
   constexpr ::UnityW<::UnityEngine::AnimationClip> const& __cordl_internal_get__animationClip() const;
@@ -151,10 +152,10 @@ public:
 
   constexpr void __cordl_internal_set__placeTransform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0xf6707c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1056c04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_name, addr 0xf67074, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x1056bfc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
 protected:
@@ -237,21 +238,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0xf67088, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x1056c10, size 0xc0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__13* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0xf67148, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x1056cd0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0xf67150, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x1056cd8, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0xf67190, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x1056d18, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0xf67084, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x1056c0c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -272,7 +273,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::BtsResultsEnvironmentController> value);
 
-  /// @brief Method .ctor, addr 0xf66ee4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1056a6c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -353,24 +354,24 @@ public:
 
   __declspec(property(get = get_keyword))::StringW keyword;
 
-  /// @brief Method Activate, addr 0xf66b80, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method Activate, addr 0x1056708, size 0xa8, virtual true, abstract: false, final false
   inline void Activate();
 
-  /// @brief Method Deactivate, addr 0xf66c28, size 0x1d0, virtual true, abstract: false, final false
+  /// @brief Method Deactivate, addr 0x10567b0, size 0x1d0, virtual true, abstract: false, final false
   inline void Deactivate();
 
-  /// @brief Method DestroyCharactersAndStopAnimations, addr 0xf66df8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method DestroyCharactersAndStopAnimations, addr 0x1056980, size 0x84, virtual false, abstract: false, final false
   inline void DestroyCharactersAndStopAnimations();
 
-  /// @brief Method DestroyCharactersDelayed, addr 0xf66e7c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method DestroyCharactersDelayed, addr 0x1056a04, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* DestroyCharactersDelayed();
 
   static inline ::GlobalNamespace::BtsResultsEnvironmentController* New_ctor();
 
-  /// @brief Method Setup, addr 0xf66380, size 0x4e4, virtual true, abstract: false, final false
+  /// @brief Method Setup, addr 0x1055f08, size 0x4e4, virtual true, abstract: false, final false
   inline void Setup(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
 
-  /// @brief Method SpawnBtsCharacters, addr 0xf66864, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method SpawnBtsCharacters, addr 0x10563ec, size 0x250, virtual false, abstract: false, final false
   inline void SpawnBtsCharacters(::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId* btsCharacterPrefabToSpawn, bool useAlternativeMaterial);
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__btsCharacterAnimationWrapper() const;
@@ -410,10 +411,10 @@ public:
                                                                            ::Array<::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation*>*>
                                                                       value);
 
-  /// @brief Method .ctor, addr 0xf66ff8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1056b80, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_keyword, addr 0xf66340, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_keyword, addr 0x1055ec8, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_keyword();
 
 protected:

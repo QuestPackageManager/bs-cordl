@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/AnimatorStateInfo.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,7 +23,7 @@ public:
   // Declarations
   __declspec(property(get = get_normalizedTime)) float_t normalizedTime;
 
-  /// @brief Method get_normalizedTime, addr 0x31be8fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_normalizedTime, addr 0x33c4384, size 0x8, virtual false, abstract: false, final false
   inline float_t get_normalizedTime();
 
   // Ctor Parameters []

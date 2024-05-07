@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/Tasks/ContinuationTaskFromTask.hpp"
 #include "System/Threading/Tasks/zzzz__Task_impl.hpp"
 #include "System/Threading/Tasks/zzzz__ContinuationTaskFromTask_def.hpp"
 #include "System/Threading/Tasks/zzzz__InternalTaskOptions_def.hpp"
@@ -13,7 +14,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Threading::Tasks::Task*, ::System::Delegate*, ::System::Object*, ::System::Threading::Tasks::TaskCreationOptions, ::System::Threading::Tasks::InternalTaskOptions)>(
     &::System::Threading::Tasks::ContinuationTaskFromTask::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x28b11e8;
+  constexpr static std::size_t addrs = 0x29afa98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -32,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::Tasks::ContinuationTaskFromTask::*)()>(
     &::System::Threading::Tasks::ContinuationTaskFromTask::InnerInvoke)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x28b45c0;
+  constexpr static std::size_t addrs = 0x29b2e70;
 
   inline static ::MethodInfo const* methodInfo() {
 

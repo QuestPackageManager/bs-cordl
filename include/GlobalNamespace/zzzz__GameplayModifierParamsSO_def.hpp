@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/GameplayModifierParamsSO.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -130,34 +131,34 @@ public:
 
   constexpr void __cordl_internal_set__requires(::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*> value);
 
-  /// @brief Method .ctor, addr 0x13abc00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14a12dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_descriptionLocalizationKey, addr 0x13abbc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_descriptionLocalizationKey, addr 0x14a129c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_descriptionLocalizationKey();
 
-  /// @brief Method get_icon, addr 0x13abbd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_icon, addr 0x14a12b4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_icon();
 
-  /// @brief Method get_isInBeta, addr 0x13abbf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isInBeta, addr 0x14a12d4, size 0x8, virtual false, abstract: false, final false
   inline bool get_isInBeta();
 
-  /// @brief Method get_modifierNameLocalizationKey, addr 0x13abbb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_modifierNameLocalizationKey, addr 0x14a1294, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_modifierNameLocalizationKey();
 
-  /// @brief Method get_multiplier, addr 0x13abbc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_multiplier, addr 0x14a12a4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_multiplier();
 
-  /// @brief Method get_multiplierConditionallyValid, addr 0x13abbd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_multiplierConditionallyValid, addr 0x14a12ac, size 0x8, virtual false, abstract: false, final false
   inline bool get_multiplierConditionallyValid();
 
-  /// @brief Method get_mutuallyExclusives, addr 0x13abbe0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mutuallyExclusives, addr 0x14a12bc, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*> get_mutuallyExclusives();
 
-  /// @brief Method get_requiredBy, addr 0x13abbf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_requiredBy, addr 0x14a12cc, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*> get_requiredBy();
 
-  /// @brief Method get_requires, addr 0x13abbe8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_requires, addr 0x14a12c4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*> get_requires();
 
 protected:

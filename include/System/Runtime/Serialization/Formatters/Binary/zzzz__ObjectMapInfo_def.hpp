@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Serialization/Formatters/Binary/ObjectMapInfo.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,10 +64,10 @@ public:
 
   constexpr void __cordl_internal_set_objectId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2749f24, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2849320, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(int32_t objectId, int32_t numMembers, ::ArrayW<::StringW, ::Array<::StringW>*> memberNames, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> memberTypes);
 
-  /// @brief Method isCompatible, addr 0x2749f64, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method isCompatible, addr 0x2849360, size 0x13c, virtual false, abstract: false, final false
   inline bool isCompatible(int32_t numMembers, ::ArrayW<::StringW, ::Array<::StringW>*> memberNames, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> memberTypes);
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/CompilerServices/InternalsVisibleToAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__InternalsVisibleToAttribute_def.hpp"
 //  Writing Method size for method: ::System::Runtime::CompilerServices::InternalsVisibleToAttribute._ctor
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::InternalsVisibleToAttribute::*)(::StringW)>(
     &::System::Runtime::CompilerServices::InternalsVisibleToAttribute::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x275eecc;
+  constexpr static std::size_t addrs = 0x285e5dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::InternalsVisibleToAttribute::*)(bool)>(
     &::System::Runtime::CompilerServices::InternalsVisibleToAttribute::set_AllInternalsVisible)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x275eefc;
+  constexpr static std::size_t addrs = 0x285e60c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

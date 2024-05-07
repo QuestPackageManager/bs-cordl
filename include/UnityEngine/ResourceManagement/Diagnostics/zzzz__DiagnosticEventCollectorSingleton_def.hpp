@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ResourceManagement/Diagnostics/DiagnosticEventCollectorSingleton.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -62,13 +63,13 @@ public:
 
   static inline ::UnityEngine::ResourceManagement::Diagnostics::__DiagnosticEventCollectorSingleton____c* New_ctor();
 
-  /// @brief Method <Awake>b__11_0, addr 0x310be74, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__11_0, addr 0x33128fc, size 0x5c, virtual false, abstract: false, final false
   inline void _Awake_b__11_0(::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent diagnosticEvent);
 
-  /// @brief Method <RegisterEventHandler>b__8_0, addr 0x310be6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <RegisterEventHandler>b__8_0, addr 0x33128f4, size 0x8, virtual false, abstract: false, final false
   inline int32_t _RegisterEventHandler_b__8_0(::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent evt);
 
-  /// @brief Method .ctor, addr 0x310be64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33128ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::ResourceManagement::Diagnostics::__DiagnosticEventCollectorSingleton____c* getStaticF___9();
@@ -139,27 +140,27 @@ public:
   /// @brief Field s_editorConnectionGuid, offset 0xffffffff, size 0x10
   static __declspec(property(get = getStaticF_s_editorConnectionGuid, put = setStaticF_s_editorConnectionGuid))::System::Guid s_editorConnectionGuid;
 
-  /// @brief Method Awake, addr 0x310ba40, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x33124c8, size 0xe4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method GetGameObjectName, addr 0x310b19c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GetGameObjectName, addr 0x3311c24, size 0x40, virtual true, abstract: false, final false
   inline ::StringW GetGameObjectName();
 
   static inline ::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton* New_ctor();
 
-  /// @brief Method PostEvent, addr 0x310b81c, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method PostEvent, addr 0x33122a4, size 0x224, virtual false, abstract: false, final false
   inline void PostEvent(::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent diagnosticEvent);
 
-  /// @brief Method RegisterEventHandler, addr 0x310b1dc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method RegisterEventHandler, addr 0x3311c64, size 0xbc, virtual false, abstract: false, final false
   static inline bool RegisterEventHandler(::System::Action_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* handler, bool _cordl_register, bool create);
 
-  /// @brief Method RegisterEventHandler, addr 0x310b298, size 0x4dc, virtual false, abstract: false, final false
+  /// @brief Method RegisterEventHandler, addr 0x3311d20, size 0x4dc, virtual false, abstract: false, final false
   inline void RegisterEventHandler(::System::Action_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* handler);
 
-  /// @brief Method UnregisterEventHandler, addr 0x310b774, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method UnregisterEventHandler, addr 0x33121fc, size 0xa8, virtual false, abstract: false, final false
   inline void UnregisterEventHandler(::System::Action_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* handler);
 
-  /// @brief Method Update, addr 0x310bb24, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x33125ac, size 0x1d8, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr float_t const& __cordl_internal_get_fpsAvg() const;
@@ -201,12 +202,12 @@ public:
 
   constexpr void __cordl_internal_set_s_EventHandlers(::GlobalNamespace::DelegateList_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* value);
 
-  /// @brief Method .ctor, addr 0x310bcfc, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3312784, size 0x104, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Guid getStaticF_s_editorConnectionGuid();
 
-  /// @brief Method get_PlayerConnectionGuid, addr 0x310b0a0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_PlayerConnectionGuid, addr 0x3311b28, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Guid get_PlayerConnectionGuid();
 
   static inline void setStaticF_s_editorConnectionGuid(::System::Guid value);

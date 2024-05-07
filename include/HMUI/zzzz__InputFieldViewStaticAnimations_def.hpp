@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/InputFieldViewStaticAnimations.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -48,21 +49,21 @@ public:
   /// @brief Field _selectedClip, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__selectedClip, put = __cordl_internal_set__selectedClip))::UnityW<::UnityEngine::AnimationClip> _selectedClip;
 
-  /// @brief Method Awake, addr 0x242a9ac, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2525638, size 0x88, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleInputFieldViewSelectionStateDidChange, addr 0x242aa58, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method HandleInputFieldViewSelectionStateDidChange, addr 0x25256e4, size 0x100, virtual false, abstract: false, final false
   inline void HandleInputFieldViewSelectionStateDidChange(::HMUI::__InputFieldView__SelectionState state);
 
   static inline ::HMUI::InputFieldViewStaticAnimations* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x242ab74, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2525800, size 0xd0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnEnable, addr 0x242ab58, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x25257e4, size 0x1c, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Start, addr 0x242aa34, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x25256c0, size 0x24, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr bool const& __cordl_internal_get__didStart() const;
@@ -107,7 +108,7 @@ public:
 
   constexpr void __cordl_internal_set__selectedClip(::UnityW<::UnityEngine::AnimationClip> value);
 
-  /// @brief Method .ctor, addr 0x242ac44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25258d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

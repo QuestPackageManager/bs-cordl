@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/XR/WindowsMR/Input/WMRHMD.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,7 +28,7 @@ public:
 
   __declspec(property(get = get_userPresence, put = set_userPresence))::UnityEngine::InputSystem::Controls::ButtonControl* userPresence;
 
-  /// @brief Method FinishSetup, addr 0x2f69778, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x30a6504, size 0x7c, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::XR::WindowsMR::Input::WMRHMD* New_ctor();
@@ -38,13 +39,13 @@ public:
 
   constexpr void __cordl_internal_set__userPresence_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method .ctor, addr 0x2f697f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x30a6580, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_userPresence, addr 0x2f69768, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_userPresence, addr 0x30a64f4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_userPresence();
 
-  /// @brief Method set_userPresence, addr 0x2f69770, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_userPresence, addr 0x30a64fc, size 0x8, virtual false, abstract: false, final false
   inline void set_userPresence(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Experimental/Playables/TexturePlayableOutput.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,7 +29,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayableOutput"
   constexpr operator ::UnityEngine::Playables::IPlayableOutput*();
 
-  /// @brief Method GetHandle, addr 0x322e2a4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetHandle, addr 0x3435fe0, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableOutputHandle GetHandle();
 
   /// @brief Convert to "::UnityEngine::Playables::IPlayableOutput"

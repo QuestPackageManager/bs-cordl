@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MirrorRendererGraphicsSettingsPresets.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -174,7 +175,7 @@ public:
 
   constexpr void __cordl_internal_set_stereoTextureWidth(int32_t value);
 
-  /// @brief Method .ctor, addr 0x13d6b30, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14c9ee0, size 0x44, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -267,13 +268,13 @@ public:
   constexpr void
   __cordl_internal_set__presets(::ArrayW<::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset*, ::Array<::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset*>*> value);
 
-  /// @brief Method .ctor, addr 0x13d6b28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14c9ed8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_namedPresets, addr 0x13d6b20, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_namedPresets, addr 0x14c9ed0, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::NamedPreset*, ::Array<::GlobalNamespace::NamedPreset*>*> get_namedPresets();
 
-  /// @brief Method get_presets, addr 0x13d6b18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_presets, addr 0x14c9ec8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset*, ::Array<::GlobalNamespace::__MirrorRendererGraphicsSettingsPresets__Preset*>*> get_presets();
 
 protected:

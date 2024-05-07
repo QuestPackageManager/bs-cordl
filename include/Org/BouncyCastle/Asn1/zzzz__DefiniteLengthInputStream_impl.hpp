@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/DefiniteLengthInputStream.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__LimitedInputStream_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DefiniteLengthInputStream_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::DefiniteLengthInputStream::*)(::System::IO::Stream*, int32_t, int32_t)>(
     &::Org::BouncyCastle::Asn1::DefiniteLengthInputStream::_ctor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x1323808;
+  constexpr static std::size_t addrs = 0x1416f2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Asn1::DefiniteLengthInputStream::*)()>(
     &::Org::BouncyCastle::Asn1::DefiniteLengthInputStream::get_Remaining)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x132f268;
+  constexpr static std::size_t addrs = 0x142298c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::DefiniteLengthInputStream*>::get(),
@@ -38,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Asn1::DefiniteLengthInputStream::*)()>(
     &::Org::BouncyCastle::Asn1::DefiniteLengthInputStream::ReadByte)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x132f270;
+  constexpr static std::size_t addrs = 0x1422994;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -54,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Asn1::DefiniteLengthInputStream::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Asn1::DefiniteLengthInputStream::Read)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x132f454;
+  constexpr static std::size_t addrs = 0x1422b78;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -70,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::DefiniteLengthInputStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Asn1::DefiniteLengthInputStream::ReadAllIntoByteArray)> {
   constexpr static std::size_t size = 0x3a4;
-  constexpr static std::size_t addrs = 0x1325ad0;
+  constexpr static std::size_t addrs = 0x14191f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -85,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Asn1::DefiniteLengthInputStream::*)()>(
     &::Org::BouncyCastle::Asn1::DefiniteLengthInputStream::ToArray)> {
   constexpr static std::size_t size = 0x3a8;
-  constexpr static std::size_t addrs = 0x13238d0;
+  constexpr static std::size_t addrs = 0x1416ff4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::DefiniteLengthInputStream*>::get(),

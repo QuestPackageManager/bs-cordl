@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ILevelStartController.hpp"
 #include "GlobalNamespace/zzzz__ILevelStartController_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ILevelStartController.add_levelWillStartIntroEvent

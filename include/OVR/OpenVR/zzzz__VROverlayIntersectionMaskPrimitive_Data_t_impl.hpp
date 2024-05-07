@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/VROverlayIntersectionMaskPrimitive_Data_t.hpp"
 #include "OVR/OpenVR/zzzz__IntersectionMaskCircle_t_impl.hpp"
 #include "OVR/OpenVR/zzzz__IntersectionMaskRectangle_t_impl.hpp"
 #include "OVR/OpenVR/zzzz__VROverlayIntersectionMaskPrimitive_Data_t_def.hpp"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatmapSaveDataVersion3/BombNoteData.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,13 +45,13 @@ public:
 
   constexpr void __cordl_internal_set_y(int32_t value);
 
-  /// @brief Method .ctor, addr 0x1401438, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14f29fc, size 0x103c, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, int32_t line, int32_t layer);
 
-  /// @brief Method get_layer, addr 0x1401430, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_layer, addr 0x14f29f4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_layer();
 
-  /// @brief Method get_line, addr 0x1401428, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_line, addr 0x14f29ec, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_line();
 
 protected:

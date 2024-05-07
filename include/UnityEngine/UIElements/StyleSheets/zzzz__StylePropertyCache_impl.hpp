@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/StyleSheets/StylePropertyCache.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__StylePropertyCache_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -7,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<::StringW>)>(&::UnityEngine::UIElements::StyleSheets::StylePropertyCache::TryGetSyntax)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x333f15c;
+  constexpr static std::size_t addrs = 0x3543e98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ByRef<::StringW>)>(
     &::UnityEngine::UIElements::StyleSheets::StylePropertyCache::TryGetNonTerminalValue)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x333f1ec;
+  constexpr static std::size_t addrs = 0x3543f28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

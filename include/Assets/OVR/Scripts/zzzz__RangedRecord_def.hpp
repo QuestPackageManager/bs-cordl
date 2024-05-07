@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Assets/OVR/Scripts/RangedRecord.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set_value(float_t value);
 
-  /// @brief Method .ctor, addr 0x2acfbfc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bcc4ac, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(int32_t order, ::StringW cat, ::StringW msg, float_t val, float_t minVal, float_t maxVal);
 
 protected:

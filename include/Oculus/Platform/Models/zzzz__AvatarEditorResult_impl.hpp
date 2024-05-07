@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/Models/AvatarEditorResult.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/Models/zzzz__AvatarEditorResult_def.hpp"
 //  Writing Method size for method: ::Oculus::Platform::Models::AvatarEditorResult._ctor
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Models::AvatarEditorResult::*)(void*)>(
     &::Oculus::Platform::Models::AvatarEditorResult::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x29dc564;
+  constexpr static std::size_t addrs = 0x2adae14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

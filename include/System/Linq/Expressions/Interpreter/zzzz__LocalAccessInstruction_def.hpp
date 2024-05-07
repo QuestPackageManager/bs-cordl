@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/LocalAccessInstruction.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,7 +35,7 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::LocalAccessInstruction* New_ctor(int32_t index);
 
-  /// @brief Method ToDebugString, addr 0x2b3d480, size 0x240, virtual true, abstract: false, final false
+  /// @brief Method ToDebugString, addr 0x2c39d80, size 0x240, virtual true, abstract: false, final false
   inline ::StringW ToDebugString(int32_t instructionIndex, ::System::Object* cookie, ::System::Func_2<int32_t, int32_t>* labelIndexer,
                                  ::System::Collections::Generic::IReadOnlyList_1<::System::Object*>* objects);
 
@@ -44,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set__index(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2b3d458, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c39d58, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t index);
 
 protected:

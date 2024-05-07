@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BGNet/Core/GameLift/IGameLiftPlayerSessionProvider.hpp"
 #include "BGNet/Core/GameLift/zzzz__IGameLiftPlayerSessionProvider_def.hpp"
 #include "BGNet/Core/GameLift/zzzz__PlayerSessionInfo_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelSelectionMask_def.hpp"

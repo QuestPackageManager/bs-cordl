@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Text/RegularExpressions/RegexReplacement.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Text/RegularExpressions/zzzz__RegexReplacement_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -15,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::RegexReplacement::*)(
     ::StringW, ::System::Text::RegularExpressions::RegexNode*, ::System::Collections::Hashtable*)>(&::System::Text::RegularExpressions::RegexReplacement::_ctor)> {
   constexpr static std::size_t size = 0x4e8;
-  constexpr static std::size_t addrs = 0x2e98108;
+  constexpr static std::size_t addrs = 0x2f98a08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -34,7 +35,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                                                                           ::System::Collections::Hashtable*, int32_t, ::System::Collections::Hashtable*,
                                                                           ::System::Text::RegularExpressions::RegexOptions)>(&::System::Text::RegularExpressions::RegexReplacement::GetOrCreate)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x2e9cb9c;
+  constexpr static std::size_t addrs = 0x2f9d49c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -53,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Text::RegularExpressions::RegexReplacement::*)()>(
     &::System::Text::RegularExpressions::RegexReplacement::get_Pattern)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2e9ccb0;
+  constexpr static std::size_t addrs = 0x2f9d5b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::RegexReplacement*>::get(),
@@ -67,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::RegexReplacement::*)(
     ::System::Text::StringBuilder*, ::System::Text::RegularExpressions::Match*)>(&::System::Text::RegularExpressions::RegexReplacement::ReplacementImpl)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x2e9ccb8;
+  constexpr static std::size_t addrs = 0x2f9d5b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -83,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::RegexReplacement::*)(
     ::System::Collections::Generic::List_1<::StringW>*, ::System::Text::RegularExpressions::Match*)>(&::System::Text::RegularExpressions::RegexReplacement::ReplacementImplRTL)> {
   constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x2e9ce5c;
+  constexpr static std::size_t addrs = 0x2f9d75c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -99,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Text::RegularExpressions::RegexReplacement::*)(
     ::System::Text::RegularExpressions::Regex*, ::StringW, int32_t, int32_t)>(&::System::Text::RegularExpressions::RegexReplacement::Replace)> {
   constexpr static std::size_t size = 0x3a0;
-  constexpr static std::size_t addrs = 0x2e9d08c;
+  constexpr static std::size_t addrs = 0x2f9d98c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

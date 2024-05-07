@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HAPI_AttributeOwner.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_AttributeOwner_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::HoudiniEngineUnity::HAPI_AttributeOwner::HAPI_AttributeOwner(int32_t value__) noexcept {

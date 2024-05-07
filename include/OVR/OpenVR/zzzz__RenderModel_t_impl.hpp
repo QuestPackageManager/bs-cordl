@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/RenderModel_t.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "OVR/OpenVR/zzzz__RenderModel_t_def.hpp"
 // Ctor Parameters [CppParam { name: "rVertexData", ty: "void*", modifiers: "", def_value: Some("{}") }, CppParam { name: "unVertexCount", ty: "uint32_t", modifiers: "", def_value: Some("{}") },

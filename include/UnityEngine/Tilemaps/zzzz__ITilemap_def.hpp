@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Tilemaps/ITilemap.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,18 +43,18 @@ public:
   /// @brief Field s_Instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance))::UnityEngine::Tilemaps::ITilemap* s_Instance;
 
-  /// @brief Method CreateInstance, addr 0x329ea18, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x34a5754, size 0x70, virtual false, abstract: false, final false
   static inline ::UnityEngine::Tilemaps::ITilemap* CreateInstance();
 
-  /// @brief Method FindAllRefreshPositions, addr 0x329ea88, size 0x318, virtual false, abstract: false, final false
+  /// @brief Method FindAllRefreshPositions, addr 0x34a57c4, size 0x318, virtual false, abstract: false, final false
   static inline void FindAllRefreshPositions(::UnityEngine::Tilemaps::ITilemap* tilemap, int32_t count, void* oldTilesIntPtr, void* newTilesIntPtr, void* positionsIntPtr);
 
-  /// @brief Method GetAllTileData, addr 0x329eda0, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method GetAllTileData, addr 0x34a5adc, size 0x1f8, virtual false, abstract: false, final false
   static inline void GetAllTileData(::UnityEngine::Tilemaps::ITilemap* tilemap, int32_t count, void* tilesIntPtr, void* positionsIntPtr, void* outTileDataIntPtr);
 
   static inline ::UnityEngine::Tilemaps::ITilemap* New_ctor();
 
-  /// @brief Method RefreshTile, addr 0x329e7cc, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method RefreshTile, addr 0x34a5508, size 0x164, virtual false, abstract: false, final false
   inline void RefreshTile(::UnityEngine::Vector3Int position);
 
   constexpr bool const& __cordl_internal_get_m_AddToList() const;
@@ -80,7 +81,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Tilemap(::UnityW<::UnityEngine::Tilemaps::Tilemap> value);
 
-  /// @brief Method .ctor, addr 0x329ea10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34a574c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Tilemaps::ITilemap* getStaticF_s_Instance();

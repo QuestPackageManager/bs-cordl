@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/NumericConvertInstruction_ToUnderlying.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__NumericConvertInstruction_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__NumericConvertInstruction_ToUnderlying_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::__NumericConvertInstruction__ToUnderlying::*)()>(
     &::System::Linq::Expressions::Interpreter::__NumericConvertInstruction__ToUnderlying::get_InstructionName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2b48564;
+  constexpr static std::size_t addrs = 0x2c44e64;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::__NumericConvertInstruction__ToUnderlying::*)(
     ::System::TypeCode, bool)>(&::System::Linq::Expressions::Interpreter::__NumericConvertInstruction__ToUnderlying::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x2b485a4;
+  constexpr static std::size_t addrs = 0x2c44ea4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +43,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::System::Linq::Expressions::Interpreter::__NumericConvertInstruction__ToUnderlying::*)(::System::Object*)>(
         &::System::Linq::Expressions::Interpreter::__NumericConvertInstruction__ToUnderlying::Convert)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x2b485d4;
+  constexpr static std::size_t addrs = 0x2c44ed4;
 
   inline static ::MethodInfo const* methodInfo() {
 

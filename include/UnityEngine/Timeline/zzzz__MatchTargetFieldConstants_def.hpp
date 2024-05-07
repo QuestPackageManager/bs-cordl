@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Timeline/MatchTargetFieldConstants.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,10 +35,10 @@ public:
   /// @brief Field Rotation, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_Rotation, put = setStaticF_Rotation))::UnityEngine::Timeline::MatchTargetFields Rotation;
 
-  /// @brief Method HasAny, addr 0x317f5fc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method HasAny, addr 0x3386084, size 0x74, virtual false, abstract: false, final false
   static inline bool HasAny(::UnityEngine::Timeline::MatchTargetFields me, ::UnityEngine::Timeline::MatchTargetFields fields);
 
-  /// @brief Method Toggle, addr 0x317f670, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Toggle, addr 0x33860f8, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Timeline::MatchTargetFields Toggle(::UnityEngine::Timeline::MatchTargetFields me, ::UnityEngine::Timeline::MatchTargetFields flag);
 
   static inline ::UnityEngine::Timeline::MatchTargetFields getStaticF_All();

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/IReorderable.hpp"
 #include "UnityEngine/UIElements/zzzz__IReorderable_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::IReorderable.get_enableReordering
 template <>

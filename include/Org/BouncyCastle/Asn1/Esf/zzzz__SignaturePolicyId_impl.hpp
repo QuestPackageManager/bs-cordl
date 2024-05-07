@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Esf/SignaturePolicyId.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Esf/zzzz__SignaturePolicyId_def.hpp"
 #include "Org/BouncyCastle/Asn1/Esf/zzzz__OtherHashAlgAndValue_def.hpp"
@@ -14,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId::GetInstance)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x10029bc;
+  constexpr static std::size_t addrs = 0x10f60e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId::_ctor)> {
   constexpr static std::size_t size = 0x2e4;
-  constexpr static std::size_t addrs = 0x1002b44;
+  constexpr static std::size_t addrs = 0x10f6268;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -44,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId::*)(
     ::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue*)>(&::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1002e28;
+  constexpr static std::size_t addrs = 0x10f654c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -61,7 +62,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue*,
     ::ArrayW<::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo*, ::Array<::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo*>*>)>(&::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId::_ctor)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x1002e30;
+  constexpr static std::size_t addrs = 0x10f6554;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -80,7 +81,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue*, ::System::Collections::IEnumerable*)>(
     &::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId::_ctor)> {
   constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x1002f34;
+  constexpr static std::size_t addrs = 0x10f6658;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -97,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerObjectIdentifier* (::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId::*)()>(
     &::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId::get_SigPolicyIdentifier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1003118;
+  constexpr static std::size_t addrs = 0x10f683c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId*>::get(),
@@ -111,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Esf::OtherHashAlgAndValue* (::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId::*)()>(
     &::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId::get_SigPolicyHash)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1003120;
+  constexpr static std::size_t addrs = 0x10f6844;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId*>::get(),
@@ -126,7 +127,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo*, ::Array<::Org::BouncyCastle::Asn1::Esf::SigPolicyQualifierInfo*>*> (::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId::*)()>(
     &::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId::GetSigPolicyQualifiers)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x1003128;
+  constexpr static std::size_t addrs = 0x10f684c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId*>::get(),
@@ -140,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId::*)()>(
     &::Org::BouncyCastle::Asn1::Esf::SignaturePolicyId::ToAsn1Object)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x10033c4;
+  constexpr static std::size_t addrs = 0x10f6ae8;
 
   inline static ::MethodInfo const* methodInfo() {
 

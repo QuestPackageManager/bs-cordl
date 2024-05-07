@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/AuthorityInformationAccess.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,17 +47,17 @@ public:
       property(get = __cordl_internal_get_descriptions,
                put = __cordl_internal_set_descriptions))::ArrayW<::Org::BouncyCastle::Asn1::X509::AccessDescription*, ::Array<::Org::BouncyCastle::Asn1::X509::AccessDescription*>*> descriptions;
 
-  /// @brief Method Copy, addr 0x11f552c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Copy, addr 0x12e5c50, size 0x78, virtual false, abstract: false, final false
   static inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::AccessDescription*, ::Array<::Org::BouncyCastle::Asn1::X509::AccessDescription*>*>
   Copy(::ArrayW<::Org::BouncyCastle::Asn1::X509::AccessDescription*, ::Array<::Org::BouncyCastle::Asn1::X509::AccessDescription*>*> descriptions);
 
-  /// @brief Method FromExtensions, addr 0x11f5810, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method FromExtensions, addr 0x12e5f34, size 0x68, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess* FromExtensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
-  /// @brief Method GetAccessDescriptions, addr 0x11f59c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetAccessDescriptions, addr 0x12e60ec, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::AccessDescription*, ::Array<::Org::BouncyCastle::Asn1::X509::AccessDescription*>*> GetAccessDescriptions();
 
-  /// @brief Method GetInstance, addr 0x11f55a4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x12e5cc8, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess* New_ctor(::Org::BouncyCastle::Asn1::X509::AccessDescription* description);
@@ -68,10 +69,10 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x11f59d0, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x12e60f4, size 0x68, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-  /// @brief Method ToString, addr 0x11f5a38, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x12e615c, size 0x15c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::ArrayW<::Org::BouncyCastle::Asn1::X509::AccessDescription*, ::Array<::Org::BouncyCastle::Asn1::X509::AccessDescription*>*> const& __cordl_internal_get_descriptions() const;
@@ -80,16 +81,16 @@ public:
 
   constexpr void __cordl_internal_set_descriptions(::ArrayW<::Org::BouncyCastle::Asn1::X509::AccessDescription*, ::Array<::Org::BouncyCastle::Asn1::X509::AccessDescription*>*> value);
 
-  /// @brief Method .ctor, addr 0x11f5878, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12e5f9c, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AccessDescription* description);
 
-  /// @brief Method .ctor, addr 0x11f5920, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12e6044, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::AccessDescription*, ::Array<::Org::BouncyCastle::Asn1::X509::AccessDescription*>*> descriptions);
 
-  /// @brief Method .ctor, addr 0x11f5950, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12e6074, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Asn1::X509::GeneralName* location);
 
-  /// @brief Method .ctor, addr 0x11f5648, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12e5d6c, size 0x1c8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
 protected:

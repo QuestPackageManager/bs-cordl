@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Globalization/DaylightTime.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -61,16 +62,16 @@ public:
 
   constexpr void __cordl_internal_set__start(::System::DateTime value);
 
-  /// @brief Method .ctor, addr 0x27d94dc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28d7bfc, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::DateTime start, ::System::DateTime end, ::System::TimeSpan delta);
 
-  /// @brief Method get_Delta, addr 0x27d9528, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Delta, addr 0x28d7c48, size 0x8, virtual false, abstract: false, final false
   inline ::System::TimeSpan get_Delta();
 
-  /// @brief Method get_End, addr 0x27d9520, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_End, addr 0x28d7c40, size 0x8, virtual false, abstract: false, final false
   inline ::System::DateTime get_End();
 
-  /// @brief Method get_Start, addr 0x27d9518, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Start, addr 0x28d7c38, size 0x8, virtual false, abstract: false, final false
   inline ::System::DateTime get_Start();
 
 protected:

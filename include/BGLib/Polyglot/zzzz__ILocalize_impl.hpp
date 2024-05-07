@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BGLib/Polyglot/ILocalize.hpp"
 #include "BGLib/Polyglot/zzzz__ILocalize_def.hpp"
 #include "BGLib/Polyglot/zzzz__LocalizationModel_def.hpp"
 //  Writing Method size for method: ::BGLib::Polyglot::ILocalize.OnLocalize

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BeatmapEventTypeExtensions.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,7 +23,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE BeatmapEventTypeExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsCoreLightIntensityChangeEvent, addr 0xf4682c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method IsCoreLightIntensityChangeEvent, addr 0x10353a0, size 0x1c, virtual false, abstract: false, final false
   static inline bool IsCoreLightIntensityChangeEvent(::GlobalNamespace::BasicBeatmapEventType basicBeatmapEventType);
 
 protected:

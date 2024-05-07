@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Math/EC/AbstractECLookupTable.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -33,12 +34,12 @@ public:
   /// @brief Method Lookup, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Lookup(int32_t index);
 
-  /// @brief Method LookupVar, addr 0x1137d7c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method LookupVar, addr 0x122b4a0, size 0xc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* LookupVar(int32_t index);
 
   static inline ::Org::BouncyCastle::Math::EC::AbstractECLookupTable* New_ctor();
 
-  /// @brief Method .ctor, addr 0x11379a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x122b0cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_Size, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

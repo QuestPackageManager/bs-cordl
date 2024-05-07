@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/DataError.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -82,29 +83,29 @@ public:
   /// @brief Field _rowError, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__rowError, put = __cordl_internal_set__rowError))::StringW _rowError;
 
-  /// @brief Method Clear, addr 0x2b849e0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x2c822e0, size 0xa8, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Clear, addr 0x2b84750, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x2c82050, size 0xac, virtual false, abstract: false, final false
   inline void Clear(::System::Data::DataColumn* column);
 
-  /// @brief Method GetColumnError, addr 0x2b84944, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetColumnError, addr 0x2c82244, size 0x9c, virtual false, abstract: false, final false
   inline ::StringW GetColumnError(::System::Data::DataColumn* column);
 
-  /// @brief Method GetColumnsInError, addr 0x2b84a88, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetColumnsInError, addr 0x2c82388, size 0xe8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> GetColumnsInError();
 
-  /// @brief Method IndexOf, addr 0x2b847fc, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x2c820fc, size 0x148, virtual false, abstract: false, final false
   inline int32_t IndexOf(::System::Data::DataColumn* column);
 
   static inline ::System::Data::DataError* New_ctor();
 
   static inline ::System::Data::DataError* New_ctor(::StringW rowError);
 
-  /// @brief Method SetColumnError, addr 0x2b84670, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method SetColumnError, addr 0x2c81f70, size 0xe0, virtual false, abstract: false, final false
   inline void SetColumnError(::System::Data::DataColumn* column, ::StringW error);
 
-  /// @brief Method SetText, addr 0x2b84584, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SetText, addr 0x2c81e84, size 0x58, virtual false, abstract: false, final false
   inline void SetText(::StringW errorText);
 
   constexpr int32_t const& __cordl_internal_get__count() const;
@@ -125,19 +126,19 @@ public:
 
   constexpr void __cordl_internal_set__rowError(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2b84490, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c81d90, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2b844e8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c81de8, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::StringW rowError);
 
-  /// @brief Method get_HasErrors, addr 0x2b8463c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_HasErrors, addr 0x2c81f3c, size 0x34, virtual false, abstract: false, final false
   inline bool get_HasErrors();
 
-  /// @brief Method get_Text, addr 0x2b845dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Text, addr 0x2c81edc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Text();
 
-  /// @brief Method set_Text, addr 0x2b845e4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method set_Text, addr 0x2c81ee4, size 0x58, virtual false, abstract: false, final false
   inline void set_Text(::StringW value);
 
 protected:

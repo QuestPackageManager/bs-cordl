@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/DataColumnChangeEventArgs.hpp"
 #include "System/zzzz__EventArgs_impl.hpp"
 #include "System/Data/zzzz__DataColumnChangeEventArgs_def.hpp"
 #include "System/Data/zzzz__DataColumn_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataColumnChangeEventArgs::*)(::System::Data::DataRow*)>(
     &::System::Data::DataColumnChangeEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x2b81588;
+  constexpr static std::size_t addrs = 0x2c7ee88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Data::DataColumnChangeEventArgs::*)(::System::Data::DataRow*, ::System::Data::DataColumn*, ::System::Object*)>(&::System::Data::DataColumnChangeEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x2b815f4;
+  constexpr static std::size_t addrs = 0x2c7eef4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::DataColumnChangeEventArgs::*)()>(
     &::System::Data::DataColumnChangeEventArgs::get_ProposedValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b81674;
+  constexpr static std::size_t addrs = 0x2c7ef74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataColumnChangeEventArgs*>::get(),
@@ -56,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataColumnChangeEventArgs::*)(::System::Object*)>(
     &::System::Data::DataColumnChangeEventArgs::set_ProposedValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b8167c;
+  constexpr static std::size_t addrs = 0x2c7ef7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataColumnChangeEventArgs::*)(::System::Data::DataColumn*, ::System::Object*)>(
     &::System::Data::DataColumnChangeEventArgs::InitializeColumnChangeEvent)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2b81684;
+  constexpr static std::size_t addrs = 0x2c7ef84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

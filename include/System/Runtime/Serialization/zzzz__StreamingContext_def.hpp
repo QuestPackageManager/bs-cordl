@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Serialization/StreamingContext.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,22 +31,22 @@ public:
 
   __declspec(property(get = get_State))::System::Runtime::Serialization::StreamingContextStates State;
 
-  /// @brief Method Equals, addr 0x2742040, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x284043c, size 0xb0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x27420f0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x28404ec, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x2742020, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x284041c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::StreamingContextStates state);
 
-  /// @brief Method .ctor, addr 0x274202c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2840428, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::StreamingContextStates state, ::System::Object* additional);
 
-  /// @brief Method get_Context, addr 0x2742038, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Context, addr 0x2840434, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Context();
 
-  /// @brief Method get_State, addr 0x27420f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_State, addr 0x28404f4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::StreamingContextStates get_State();
 
   // Ctor Parameters []

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/MonoListItem.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,7 +42,7 @@ public:
 
   constexpr void __cordl_internal_set_next(::System::MonoListItem* value);
 
-  /// @brief Method .ctor, addr 0x288491c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29841cc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

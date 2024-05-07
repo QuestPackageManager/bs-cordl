@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/NativeClassAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/zzzz__NativeClassAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::NativeClassAttribute.set_QualifiedNativeName
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::NativeClassAttribute::*)(::StringW)>(
     &::UnityEngine::NativeClassAttribute::set_QualifiedNativeName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3266880;
+  constexpr static std::size_t addrs = 0x346f5bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::NativeClassAttribute::*)(::StringW)>(&::UnityEngine::NativeClassAttribute::set_Declaration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3266888;
+  constexpr static std::size_t addrs = 0x346f5c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::NativeClassAttribute::*)(::StringW)>(&::UnityEngine::NativeClassAttribute::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3266890;
+  constexpr static std::size_t addrs = 0x346f5cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -49,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::NativeClassAttribute::*)(::StringW, ::StringW)>(&::UnityEngine::NativeClassAttribute::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3266900;
+  constexpr static std::size_t addrs = 0x346f63c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

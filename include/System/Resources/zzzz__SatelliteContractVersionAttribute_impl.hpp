@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Resources/SatelliteContractVersionAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Resources/zzzz__SatelliteContractVersionAttribute_def.hpp"
 //  Writing Method size for method: ::System::Resources::SatelliteContractVersionAttribute._ctor
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Resources::SatelliteContractVersionAttribute::*)(::StringW)>(
     &::System::Resources::SatelliteContractVersionAttribute::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x2760cb4;
+  constexpr static std::size_t addrs = 0x28603c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

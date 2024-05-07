@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Diagnostics/Debugger.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Diagnostics/zzzz__Debugger_def.hpp"
 //  Writing Method size for method: ::System::Diagnostics::Debugger.IsLogging
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::System::Diagnostics::Debugger::IsLogging)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x27fe918;
+  constexpr static std::size_t addrs = 0x28fe038;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::Debugger*>::get(), "IsLogging",
@@ -19,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, ByRef<::StringW>, ByRef<::StringW>)>(&::System::Diagnostics::Debugger::Log_icall)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x27fe91c;
+  constexpr static std::size_t addrs = 0x28fe03c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -34,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, ::StringW, ::StringW)>(&::System::Diagnostics::Debugger::Log)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x27fe920;
+  constexpr static std::size_t addrs = 0x28fe040;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -49,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::Diagnostics::Debugger::NotifyOfCrossThreadDependency)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x27fe98c;
+  constexpr static std::size_t addrs = 0x28fe0ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::Debugger*>::get(),

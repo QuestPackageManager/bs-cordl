@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ProcessPort.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,15 +44,15 @@ public:
 
   __declspec(property(get = get_protocol, put = set_protocol))::StringW protocol;
 
-  /// @brief Method GetProcessesByPort, addr 0x2a798b4, size 0xbdc, virtual false, abstract: false, final false
+  /// @brief Method GetProcessesByPort, addr 0x2b76164, size 0xbdc, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::GlobalNamespace::ProcessPort*>* GetProcessesByPort(::StringW targetPort);
 
-  /// @brief Method LookupProcess, addr 0x2a797e8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method LookupProcess, addr 0x2b76098, size 0xcc, virtual false, abstract: false, final false
   static inline ::StringW LookupProcess(int32_t pid);
 
   static inline ::GlobalNamespace::ProcessPort* New_ctor();
 
-  /// @brief Method ToString, addr 0x2a79640, size 0x168, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2b75ef0, size 0x168, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::StringW const& __cordl_internal_get__portNumber_k__BackingField() const;
@@ -78,31 +79,31 @@ public:
 
   constexpr void __cordl_internal_set__protocol_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2a7a490, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b76d40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_portNumber, addr 0x2a797c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_portNumber, addr 0x2b76078, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_portNumber();
 
-  /// @brief Method get_processId, addr 0x2a797b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_processId, addr 0x2b76068, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_processId();
 
-  /// @brief Method get_processName, addr 0x2a797a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_processName, addr 0x2b76058, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_processName();
 
-  /// @brief Method get_protocol, addr 0x2a797d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_protocol, addr 0x2b76088, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_protocol();
 
-  /// @brief Method set_portNumber, addr 0x2a797d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_portNumber, addr 0x2b76080, size 0x8, virtual false, abstract: false, final false
   inline void set_portNumber(::StringW value);
 
-  /// @brief Method set_processId, addr 0x2a797c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_processId, addr 0x2b76070, size 0x8, virtual false, abstract: false, final false
   inline void set_processId(int32_t value);
 
-  /// @brief Method set_processName, addr 0x2a797b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_processName, addr 0x2b76060, size 0x8, virtual false, abstract: false, final false
   inline void set_processName(::StringW value);
 
-  /// @brief Method set_protocol, addr 0x2a797e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_protocol, addr 0x2b76090, size 0x8, virtual false, abstract: false, final false
   inline void set_protocol(::StringW value);
 
 protected:

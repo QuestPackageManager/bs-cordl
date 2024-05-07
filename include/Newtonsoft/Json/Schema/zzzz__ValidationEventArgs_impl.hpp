@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Schema/ValidationEventArgs.hpp"
 #include "System/zzzz__EventArgs_impl.hpp"
 #include "Newtonsoft/Json/Schema/zzzz__ValidationEventArgs_def.hpp"
 #include "Newtonsoft/Json/Schema/zzzz__JsonSchemaException_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Schema::ValidationEventArgs::*)(::Newtonsoft::Json::Schema::JsonSchemaException*)>(
     &::Newtonsoft::Json::Schema::ValidationEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x2956218;
+  constexpr static std::size_t addrs = 0x2a54ac8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Schema::JsonSchemaException* (::Newtonsoft::Json::Schema::ValidationEventArgs::*)()>(
     &::Newtonsoft::Json::Schema::ValidationEventArgs::get_Exception)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x29562a8;
+  constexpr static std::size_t addrs = 0x2a54b58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Schema::ValidationEventArgs*>::get(),
@@ -37,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Schema::ValidationEventArgs::*)()>(
     &::Newtonsoft::Json::Schema::ValidationEventArgs::get_Path)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x29562b0;
+  constexpr static std::size_t addrs = 0x2a54b60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Schema::ValidationEventArgs*>::get(),
@@ -51,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Schema::ValidationEventArgs::*)()>(
     &::Newtonsoft::Json::Schema::ValidationEventArgs::get_Message)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x294aff0;
+  constexpr static std::size_t addrs = 0x2a498a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Schema::ValidationEventArgs*>::get(),

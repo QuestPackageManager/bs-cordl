@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/NativeOverlapped.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/Threading/zzzz__NativeOverlapped_def.hpp"
 // Ctor Parameters [CppParam { name: "InternalLow", ty: "void*", modifiers: "", def_value: Some("{}") }, CppParam { name: "InternalHigh", ty: "void*", modifiers: "", def_value: Some("{}") }, CppParam

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OculusPlatformExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OculusPlatformExtensions_def.hpp"
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
@@ -12,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message*> (*)(::Oculus::Platform::Request*)>(
     &::GlobalNamespace::OculusPlatformExtensions::GetAwaiter)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0xf70c1c;
+  constexpr static std::size_t addrs = 0x1062dec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

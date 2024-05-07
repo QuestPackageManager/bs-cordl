@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/Metadata/SoapMethodAttribute.hpp"
 #include "System/Runtime/Remoting/Metadata/zzzz__SoapAttribute_impl.hpp"
 #include "System/Runtime/Remoting/Metadata/zzzz__SoapMethodAttribute_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Metadata::SoapMethodAttribute::*)()>(
     &::System::Runtime::Remoting::Metadata::SoapMethodAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2727bf0;
+  constexpr static std::size_t addrs = 0x2825fec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Remoting::Metadata::SoapMethodAttribute::*)()>(
     &::System::Runtime::Remoting::Metadata::SoapMethodAttribute::get_UseAttribute)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2727bf8;
+  constexpr static std::size_t addrs = 0x2825ff4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -39,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::Remoting::Metadata::SoapMethodAttribute::*)()>(
     &::System::Runtime::Remoting::Metadata::SoapMethodAttribute::get_XmlNamespace)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2727c00;
+  constexpr static std::size_t addrs = 0x2825ffc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Metadata::SoapMethodAttribute::*)(::System::Object*)>(
     &::System::Runtime::Remoting::Metadata::SoapMethodAttribute::SetReflectionObject)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x2727c08;
+  constexpr static std::size_t addrs = 0x2826004;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/AuthenticationManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__AuthenticationManager_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"
@@ -12,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::Net::AuthenticationManager::EnsureModules)> {
   constexpr static std::size_t size = 0x2a0;
-  constexpr static std::size_t addrs = 0x2eef374;
+  constexpr static std::size_t addrs = 0x2ff0c74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::AuthenticationManager*>::get(), "EnsureModules",
@@ -26,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Authorization* (*)(::StringW, ::System::Net::WebRequest*, ::System::Net::ICredentials*)>(
     &::System::Net::AuthenticationManager::Authenticate)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x2eef624;
+  constexpr static std::size_t addrs = 0x2ff0f24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Authorization* (*)(::StringW, ::System::Net::WebRequest*, ::System::Net::ICredentials*)>(
     &::System::Net::AuthenticationManager::DoAuthenticate)> {
   constexpr static std::size_t size = 0x4e8;
-  constexpr static std::size_t addrs = 0x2eef730;
+  constexpr static std::size_t addrs = 0x2ff1030;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Authorization* (*)(::System::Net::WebRequest*, ::System::Net::ICredentials*)>(
     &::System::Net::AuthenticationManager::PreAuthenticate)> {
   constexpr static std::size_t size = 0x538;
-  constexpr static std::size_t addrs = 0x2eefc18;
+  constexpr static std::size_t addrs = 0x2ff1518;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

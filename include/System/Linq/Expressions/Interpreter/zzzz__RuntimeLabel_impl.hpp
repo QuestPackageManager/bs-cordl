@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/RuntimeLabel.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__RuntimeLabel_def.hpp"
 //  Writing Method size for method: ::System::Linq::Expressions::Interpreter::RuntimeLabel._ctor
 template <>
@@ -6,7 +7,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::RuntimeLabel::*)(int32_t, int32_t, int32_t)>(
     &::System::Linq::Expressions::Interpreter::RuntimeLabel::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2b13f4c;
+  constexpr static std::size_t addrs = 0x2c1184c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -22,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::RuntimeLabel::*)()>(
     &::System::Linq::Expressions::Interpreter::RuntimeLabel::ToString)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x2b13f58;
+  constexpr static std::size_t addrs = 0x2c11858;
 
   inline static ::MethodInfo const* methodInfo() {
 

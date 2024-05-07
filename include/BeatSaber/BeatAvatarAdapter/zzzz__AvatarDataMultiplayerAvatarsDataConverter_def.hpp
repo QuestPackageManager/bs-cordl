@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatSaber/BeatAvatarAdapter/AvatarDataMultiplayerAvatarsDataConverter.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,10 +25,10 @@ namespace BeatSaber::BeatAvatarAdapter {
 class CORDL_TYPE AvatarDataMultiplayerAvatarsDataConverter : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateAvatarData, addr 0xf57778, size 0x5e8, virtual false, abstract: false, final false
+  /// @brief Method CreateAvatarData, addr 0x10462ec, size 0x5e8, virtual false, abstract: false, final false
   static inline ::BeatSaber::BeatAvatarSDK::AvatarData* CreateAvatarData(::GlobalNamespace::MultiplayerAvatarData multiplayerAvatarsData);
 
-  /// @brief Method CreateMultiplayerAvatarsData, addr 0xf57270, size 0x508, virtual false, abstract: false, final false
+  /// @brief Method CreateMultiplayerAvatarsData, addr 0x1045de4, size 0x508, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::MultiplayerAvatarData CreateMultiplayerAvatarsData(::BeatSaber::BeatAvatarSDK::AvatarData* avatarData);
 
 protected:

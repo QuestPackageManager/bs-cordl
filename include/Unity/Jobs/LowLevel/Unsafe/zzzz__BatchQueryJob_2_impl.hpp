@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Unity/Jobs/LowLevel/Unsafe/BatchQueryJob_2.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "Unity/Jobs/LowLevel/Unsafe/zzzz__BatchQueryJob_2_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"

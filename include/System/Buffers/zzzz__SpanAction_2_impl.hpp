@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Buffers/SpanAction_2.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Buffers/zzzz__SpanAction_2_def.hpp"
 #include "System/zzzz__Object_def.hpp"

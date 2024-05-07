@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/Channels/ChannelServices.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Remoting/Channels/zzzz__ChannelServices_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"
@@ -18,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Contexts::CrossContextChannel* (*)()>(
     &::System::Runtime::Remoting::Channels::ChannelServices::get_CrossContextChannel)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2722838;
+  constexpr static std::size_t addrs = 0x2820c34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Channels::ChannelServices*>::get(),
@@ -32,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Messaging::IMessageSink* (*)(::StringW, ::System::Object*, ByRef<::StringW>)>(
     &::System::Runtime::Remoting::Channels::ChannelServices::CreateClientChannelSinkChain)> {
   constexpr static std::size_t size = 0x87c;
-  constexpr static std::size_t addrs = 0x2714df4;
+  constexpr static std::size_t addrs = 0x28131f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Channels::ChannelServices*>::get(),
@@ -50,7 +51,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Runtime::Remoting::Messaging::IMessageSink* (*)(::System::Runtime::Remoting::Channels::IChannelSender*, ::StringW, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>,
                                                                           ByRef<::StringW>)>(&::System::Runtime::Remoting::Channels::ChannelServices::CreateClientChannelSinkChain)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x2722890;
+  constexpr static std::size_t addrs = 0x2820c8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Runtime::Remoting::Channels::IChannel*)>(
     &::System::Runtime::Remoting::Channels::ChannelServices::RegisterChannel)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2722a98;
+  constexpr static std::size_t addrs = 0x2820e94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -84,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Runtime::Remoting::Channels::IChannel*, bool)>(
     &::System::Runtime::Remoting::Channels::ChannelServices::RegisterChannel)> {
   constexpr static std::size_t size = 0x878;
-  constexpr static std::size_t addrs = 0x2722af0;
+  constexpr static std::size_t addrs = 0x2820eec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -100,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Runtime::Remoting::ChannelData*)>(
     &::System::Runtime::Remoting::Channels::ChannelServices::RegisterChannelConfig)> {
   constexpr static std::size_t size = 0xbc8;
-  constexpr static std::size_t addrs = 0x2723368;
+  constexpr static std::size_t addrs = 0x2821764;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -115,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::System::Runtime::Remoting::ProviderData*)>(
     &::System::Runtime::Remoting::Channels::ChannelServices::CreateProvider)> {
   constexpr static std::size_t size = 0x314;
-  constexpr static std::size_t addrs = 0x2723f30;
+  constexpr static std::size_t addrs = 0x282232c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -130,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Messaging::IMessage* (*)(::System::Runtime::Remoting::Messaging::IMessage*)>(
     &::System::Runtime::Remoting::Channels::ChannelServices::SyncDispatchMessage)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x2724244;
+  constexpr static std::size_t addrs = 0x2822640;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -145,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Messaging::ReturnMessage* (*)(::System::Runtime::Remoting::Messaging::IMessage*)>(
     &::System::Runtime::Remoting::Channels::ChannelServices::CheckIncomingMessage)> {
   constexpr static std::size_t size = 0x2a4;
-  constexpr static std::size_t addrs = 0x27242ec;
+  constexpr static std::size_t addrs = 0x28226e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -161,7 +162,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Runtime::Remoting::Messaging::IMessage* (*)(::System::Runtime::Remoting::Messaging::IMessage*, ::System::Runtime::Remoting::Messaging::IMessage*)>(
         &::System::Runtime::Remoting::Channels::ChannelServices::CheckReturnMessage)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x2724590;
+  constexpr static std::size_t addrs = 0x282298c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -177,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Runtime::Remoting::Messaging::IMessage*)>(
     &::System::Runtime::Remoting::Channels::ChannelServices::IsLocalCall)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2724764;
+  constexpr static std::size_t addrs = 0x2822b60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -192,7 +193,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Object*, ::Array<::System::Object*>*> (*)()>(
     &::System::Runtime::Remoting::Channels::ChannelServices::GetCurrentChannelInfo)> {
   constexpr static std::size_t size = 0x500;
-  constexpr static std::size_t addrs = 0x272476c;
+  constexpr static std::size_t addrs = 0x2822b68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Channels::ChannelServices*>::get(),

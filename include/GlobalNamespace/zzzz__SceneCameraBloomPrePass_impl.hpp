@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SceneCameraBloomPrePass.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SceneCameraBloomPrePass_def.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassEffectContainerSO_def.hpp"
@@ -9,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SceneCameraBloomPrePass::*)()>(&::GlobalNamespace::SceneCameraBloomPrePass::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23f4860;
+  constexpr static std::size_t addrs = 0x24ec450;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SceneCameraBloomPrePass*>::get(), ".ctor",

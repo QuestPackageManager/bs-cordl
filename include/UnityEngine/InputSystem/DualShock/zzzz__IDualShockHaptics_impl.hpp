@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/DualShock/IDualShockHaptics.hpp"
 #include "UnityEngine/InputSystem/DualShock/zzzz__IDualShockHaptics_def.hpp"
 #include "UnityEngine/InputSystem/Haptics/zzzz__IDualMotorRumble_def.hpp"
 #include "UnityEngine/InputSystem/Haptics/zzzz__IHaptics_def.hpp"

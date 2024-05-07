@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "MS/Internal/Xml/XPath/Operator.hpp"
 #include "MS/Internal/Xml/XPath/zzzz__AstNode_impl.hpp"
 #include "MS/Internal/Xml/XPath/zzzz__Operator_impl.hpp"
 #include "MS/Internal/Xml/XPath/zzzz__Operator_def.hpp"
@@ -32,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::MS::Internal::Xml::XPath::Operator::*)(
     ::MS::Internal::Xml::XPath::__Operator__Op, ::MS::Internal::Xml::XPath::AstNode*, ::MS::Internal::Xml::XPath::AstNode*)>(&::MS::Internal::Xml::XPath::Operator::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2d61da8;
+  constexpr static std::size_t addrs = 0x2e5e6a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::MS::Internal::Xml::XPath::__AstNode__AstType (::MS::Internal::Xml::XPath::Operator::*)()>(
     &::MS::Internal::Xml::XPath::Operator::get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2d61de4;
+  constexpr static std::size_t addrs = 0x2e5e6e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -64,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XPath::XPathResultType (::MS::Internal::Xml::XPath::Operator::*)()>(
     &::MS::Internal::Xml::XPath::Operator::get_ReturnType)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2d61dec;
+  constexpr static std::size_t addrs = 0x2e5e6ec;
 
   inline static ::MethodInfo const* methodInfo() {
 

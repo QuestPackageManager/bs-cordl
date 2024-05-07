@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MissionStage.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,13 +50,13 @@ public:
 
   constexpr void __cordl_internal_set__rectTransform(::UnityW<::UnityEngine::RectTransform> value);
 
-  /// @brief Method .ctor, addr 0x13d754c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14ca8fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_minimumMissionsToUnlock, addr 0x13d7528, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_minimumMissionsToUnlock, addr 0x14ca8d8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_minimumMissionsToUnlock();
 
-  /// @brief Method get_position, addr 0x13d7530, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_position, addr 0x14ca8e0, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_position();
 
 protected:

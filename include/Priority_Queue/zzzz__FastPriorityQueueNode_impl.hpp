@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Priority_Queue/FastPriorityQueueNode.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Priority_Queue/zzzz__FastPriorityQueueNode_def.hpp"
 //  Writing Method size for method: ::Priority_Queue::FastPriorityQueueNode.get_Priority
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::Priority_Queue::FastPriorityQueueNode::*)()>(&::Priority_Queue::FastPriorityQueueNode::get_Priority)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf8353c;
+  constexpr static std::size_t addrs = 0x10754b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Priority_Queue::FastPriorityQueueNode*>::get(), "get_Priority",
@@ -19,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Priority_Queue::FastPriorityQueueNode::*)(float_t)>(&::Priority_Queue::FastPriorityQueueNode::set_Priority)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf83544;
+  constexpr static std::size_t addrs = 0x10754b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Priority_Queue::FastPriorityQueueNode::*)()>(&::Priority_Queue::FastPriorityQueueNode::get_QueueIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf8354c;
+  constexpr static std::size_t addrs = 0x10754c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Priority_Queue::FastPriorityQueueNode*>::get(),
@@ -47,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Priority_Queue::FastPriorityQueueNode::*)(int32_t)>(
     &::Priority_Queue::FastPriorityQueueNode::set_QueueIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf83554;
+  constexpr static std::size_t addrs = 0x10754c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Priority_Queue::FastPriorityQueueNode::*)()>(&::Priority_Queue::FastPriorityQueueNode::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf8355c;
+  constexpr static std::size_t addrs = 0x10754d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Priority_Queue::FastPriorityQueueNode*>::get(), ".ctor",

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IConnection.hpp"
 #include "GlobalNamespace/zzzz__IConnection_def.hpp"
 #include "BGNet/Core/zzzz__DeliveryMethod_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"

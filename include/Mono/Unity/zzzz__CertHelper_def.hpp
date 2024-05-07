@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Unity/CertHelper.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,12 +31,12 @@ namespace Mono::Unity {
 class CORDL_TYPE CertHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AddCertificateToNativeChain, addr 0x2b60524, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method AddCertificateToNativeChain, addr 0x2c5ce24, size 0x1c0, virtual false, abstract: false, final false
   static inline void AddCertificateToNativeChain(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list> nativeCertificateChain,
                                                  ::System::Security::Cryptography::X509Certificates::X509Certificate* certificate,
                                                  ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);
 
-  /// @brief Method AddCertificatesToNativeChain, addr 0x2b6034c, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method AddCertificatesToNativeChain, addr 0x2c5cc4c, size 0x1d8, virtual false, abstract: false, final false
   static inline void AddCertificatesToNativeChain(::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_x509list> nativeCertificateChain,
                                                   ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* certificates,
                                                   ::cordl_internals::Ptr<::Mono::Unity::__UnityTls__unitytls_errorstate> errorState);

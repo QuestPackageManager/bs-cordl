@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/UxmlRootElementTraits.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,7 +42,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Name(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x335e0f4, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3561e30, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

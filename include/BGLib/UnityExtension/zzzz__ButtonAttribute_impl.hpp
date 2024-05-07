@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BGLib/UnityExtension/ButtonAttribute.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "BGLib/UnityExtension/zzzz__ButtonAttribute_def.hpp"
 //  Writing Method size for method: ::BGLib::UnityExtension::ButtonAttribute._ctor
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::UnityExtension::ButtonAttribute::*)(::StringW)>(&::BGLib::UnityExtension::ButtonAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0xf92818;
+  constexpr static std::size_t addrs = 0x1086f3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

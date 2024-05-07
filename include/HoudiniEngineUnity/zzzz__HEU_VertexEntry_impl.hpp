@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HEU_VertexEntry.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_VertexEntry_def.hpp"
 //  Writing Method size for method: ::HoudiniEngineUnity::HEU_VertexEntry._ctor
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_VertexEntry::*)(int32_t, int32_t, int32_t)>(
     &::HoudiniEngineUnity::HEU_VertexEntry::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x24ae524;
+  constexpr static std::size_t addrs = 0x25a71b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

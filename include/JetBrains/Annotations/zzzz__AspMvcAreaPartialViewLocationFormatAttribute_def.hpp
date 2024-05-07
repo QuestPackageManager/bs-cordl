@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "JetBrains/Annotations/AspMvcAreaPartialViewLocationFormatAttribute.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,13 +33,13 @@ public:
 
   constexpr void __cordl_internal_set__Format_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x340a35c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x360f098, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW format);
 
-  /// @brief Method get_Format, addr 0x340a384, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Format, addr 0x360f0c0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Format();
 
-  /// @brief Method set_Format, addr 0x340a38c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Format, addr 0x360f0c8, size 0x8, virtual false, abstract: false, final false
   inline void set_Format(::StringW value);
 
 protected:

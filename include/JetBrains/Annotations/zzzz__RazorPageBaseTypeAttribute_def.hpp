@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "JetBrains/Annotations/RazorPageBaseTypeAttribute.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,22 +46,22 @@ public:
 
   constexpr void __cordl_internal_set__PageName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x340a854, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x360f590, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW baseType);
 
-  /// @brief Method .ctor, addr 0x340a87c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x360f5b8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW baseType, ::StringW pageName);
 
-  /// @brief Method get_BaseType, addr 0x340a8a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BaseType, addr 0x360f5e4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_BaseType();
 
-  /// @brief Method get_PageName, addr 0x340a8b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PageName, addr 0x360f5f4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_PageName();
 
-  /// @brief Method set_BaseType, addr 0x340a8b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BaseType, addr 0x360f5ec, size 0x8, virtual false, abstract: false, final false
   inline void set_BaseType(::StringW value);
 
-  /// @brief Method set_PageName, addr 0x340a8c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_PageName, addr 0x360f5fc, size 0x8, virtual false, abstract: false, final false
   inline void set_PageName(::StringW value);
 
 protected:

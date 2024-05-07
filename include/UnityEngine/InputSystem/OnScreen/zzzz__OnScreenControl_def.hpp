@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/OnScreen/OnScreenControl.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -43,13 +44,13 @@ namespace UnityEngine::InputSystem::OnScreen {
 struct CORDL_TYPE __OnScreenControl__OnScreenDeviceInfo {
 public:
   // Declarations
-  /// @brief Method AddControl, addr 0x300be94, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method AddControl, addr 0x3148c20, size 0x2c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::OnScreen::__OnScreenControl__OnScreenDeviceInfo AddControl(::UnityEngine::InputSystem::OnScreen::OnScreenControl* control);
 
-  /// @brief Method Destroy, addr 0x300bde0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Destroy, addr 0x3148b6c, size 0xb4, virtual false, abstract: false, final false
   inline void Destroy();
 
-  /// @brief Method RemoveControl, addr 0x300c20c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method RemoveControl, addr 0x3148f98, size 0x110, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::OnScreen::__OnScreenControl__OnScreenDeviceInfo RemoveControl(::UnityEngine::InputSystem::OnScreen::OnScreenControl* control);
 
   // Ctor Parameters []
@@ -124,19 +125,19 @@ public:
 
   static inline ::UnityEngine::InputSystem::OnScreen::OnScreenControl* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x300bff8, size 0x214, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x3148d84, size 0x214, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x300bff4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x3148d80, size 0x4, virtual true, abstract: false, final false
   inline void OnEnable();
 
   /// @brief Method SendValueToControl, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue> inline void SendValueToControl(TValue value);
 
-  /// @brief Method SentDefaultValueToControl, addr 0x300bec0, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method SentDefaultValueToControl, addr 0x3148c4c, size 0x134, virtual false, abstract: false, final false
   inline void SentDefaultValueToControl();
 
-  /// @brief Method SetupInputControl, addr 0x300b4e8, size 0x8f0, virtual false, abstract: false, final false
+  /// @brief Method SetupInputControl, addr 0x3148274, size 0x8f0, virtual false, abstract: false, final false
   inline void SetupInputControl();
 
   constexpr ::UnityEngine::InputSystem::InputControl*& __cordl_internal_get_m_Control();
@@ -157,15 +158,15 @@ public:
 
   constexpr void __cordl_internal_set_m_NextControlOnDevice(::UnityW<::UnityEngine::InputSystem::OnScreen::OnScreenControl> value);
 
-  /// @brief Method .ctor, addr 0x300b49c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3148228, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::OnScreen::__OnScreenControl__OnScreenDeviceInfo> getStaticF_s_OnScreenDevices();
 
-  /// @brief Method get_control, addr 0x300bdd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_control, addr 0x3148b64, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputControl* get_control();
 
-  /// @brief Method get_controlPath, addr 0x300b4a4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_controlPath, addr 0x3148230, size 0xc, virtual false, abstract: false, final false
   inline ::StringW get_controlPath();
 
   /// @brief Method get_controlPathInternal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -173,7 +174,7 @@ public:
 
   static inline void setStaticF_s_OnScreenDevices(::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::OnScreen::__OnScreenControl__OnScreenDeviceInfo> value);
 
-  /// @brief Method set_controlPath, addr 0x300b4b0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method set_controlPath, addr 0x314823c, size 0x38, virtual false, abstract: false, final false
   inline void set_controlPath(::StringW value);
 
   /// @brief Method set_controlPathInternal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false

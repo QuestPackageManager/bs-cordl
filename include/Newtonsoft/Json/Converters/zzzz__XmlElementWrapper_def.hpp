@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Converters/XmlElementWrapper.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,12 +40,12 @@ public:
   /// @brief Convert operator to "::Newtonsoft::Json::Converters::IXmlNode"
   constexpr operator ::Newtonsoft::Json::Converters::IXmlNode*() noexcept;
 
-  /// @brief Method GetPrefixOfNamespace, addr 0x298eda8, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method GetPrefixOfNamespace, addr 0x2a8c658, size 0x24, virtual true, abstract: false, final true
   inline ::StringW GetPrefixOfNamespace(::StringW namespaceUri);
 
   static inline ::Newtonsoft::Json::Converters::XmlElementWrapper* New_ctor(::System::Xml::XmlElement* element);
 
-  /// @brief Method SetAttributeNode, addr 0x298ecc0, size 0xe8, virtual true, abstract: false, final true
+  /// @brief Method SetAttributeNode, addr 0x2a8c570, size 0xe8, virtual true, abstract: false, final true
   inline void SetAttributeNode(::Newtonsoft::Json::Converters::IXmlNode* attribute);
 
   constexpr ::System::Xml::XmlElement*& __cordl_internal_get__element();
@@ -53,10 +54,10 @@ public:
 
   constexpr void __cordl_internal_set__element(::System::Xml::XmlElement* value);
 
-  /// @brief Method .ctor, addr 0x298e9e8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a8c298, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlElement* element);
 
-  /// @brief Method get_IsEmpty, addr 0x298edcc, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_IsEmpty, addr 0x2a8c67c, size 0x1c, virtual true, abstract: false, final true
   inline bool get_IsEmpty();
 
   /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlElement"

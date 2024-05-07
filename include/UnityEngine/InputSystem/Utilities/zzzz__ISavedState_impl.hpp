@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/ISavedState.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__ISavedState_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Utilities::ISavedState.StaticDisposeCurrentState
 template <>

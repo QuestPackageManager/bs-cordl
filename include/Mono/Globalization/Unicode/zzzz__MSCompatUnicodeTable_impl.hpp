@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Globalization/Unicode/MSCompatUnicodeTable.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Globalization/Unicode/zzzz__MSCompatUnicodeTable_def.hpp"
 #include "Mono/Globalization/Unicode/zzzz__CodePointIndexer_def.hpp"
@@ -15,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Globalization::Unicode::__MSCompatUnicodeTable____c::*)()>(
     &::Mono::Globalization::Unicode::__MSCompatUnicodeTable____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2698378;
+  constexpr static std::size_t addrs = 0x2795774;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -30,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Mono::Globalization::Unicode::__MSCompatUnicodeTable____c::*)(
     ::Mono::Globalization::Unicode::Level2Map*, ::Mono::Globalization::Unicode::Level2Map*)>(&::Mono::Globalization::Unicode::__MSCompatUnicodeTable____c::_BuildTailoringTables_b__17_0)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2698380;
+  constexpr static std::size_t addrs = 0x279577c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -84,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Globalization::Unicode::TailoringInfo* (*)(int32_t)>(
     &::Mono::Globalization::Unicode::MSCompatUnicodeTable::GetTailoringInfo)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x2696530;
+  constexpr static std::size_t addrs = 0x279392c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -101,7 +102,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ByRef<::ArrayW<::Mono::Globalization::Unicode::Contraction*, ::Array<::Mono::Globalization::Unicode::Contraction*>*>>,
     ByRef<::ArrayW<::Mono::Globalization::Unicode::Level2Map*, ::Array<::Mono::Globalization::Unicode::Level2Map*>*>>)>(&::Mono::Globalization::Unicode::MSCompatUnicodeTable::BuildTailoringTables)> {
   constexpr static std::size_t size = 0x750;
-  constexpr static std::size_t addrs = 0x2696634;
+  constexpr static std::size_t addrs = 0x2793a30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -121,7 +122,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::StringW, ByRef<::Mono::Globalization::Unicode::CodePointIndexer*>, ByRef<::cordl_internals::Ptr<uint8_t>>, ByRef<::cordl_internals::Ptr<uint8_t>>,
                          ByRef<::Mono::Globalization::Unicode::CodePointIndexer*>, ByRef<::cordl_internals::Ptr<uint8_t>>)>(&::Mono::Globalization::Unicode::MSCompatUnicodeTable::SetCJKReferences)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x2696d84;
+  constexpr static std::size_t addrs = 0x2794180;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -140,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(int32_t)>(&::Mono::Globalization::Unicode::MSCompatUnicodeTable::Category)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x2696fbc;
+  constexpr static std::size_t addrs = 0x27943b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -154,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(int32_t)>(&::Mono::Globalization::Unicode::MSCompatUnicodeTable::Level1)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x2697060;
+  constexpr static std::size_t addrs = 0x279445c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -168,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(int32_t)>(&::Mono::Globalization::Unicode::MSCompatUnicodeTable::Level2)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x2697104;
+  constexpr static std::size_t addrs = 0x2794500;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -182,7 +183,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(int32_t)>(&::Mono::Globalization::Unicode::MSCompatUnicodeTable::Level3)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x26971a8;
+  constexpr static std::size_t addrs = 0x27945a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -196,7 +197,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t, uint8_t)>(&::Mono::Globalization::Unicode::MSCompatUnicodeTable::IsIgnorable)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x269724c;
+  constexpr static std::size_t addrs = 0x2794648;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -210,7 +211,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t)>(&::Mono::Globalization::Unicode::MSCompatUnicodeTable::IsIgnorableNonSpacing)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2697364;
+  constexpr static std::size_t addrs = 0x2794760;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -224,7 +225,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::Mono::Globalization::Unicode::MSCompatUnicodeTable::ToKanaTypeInsensitive)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x26973bc;
+  constexpr static std::size_t addrs = 0x27947b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -238,7 +239,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::Mono::Globalization::Unicode::MSCompatUnicodeTable::ToWidthCompat)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x26973dc;
+  constexpr static std::size_t addrs = 0x27947d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -252,7 +253,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(char16_t)>(&::Mono::Globalization::Unicode::MSCompatUnicodeTable::HasSpecialWeight)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x2697568;
+  constexpr static std::size_t addrs = 0x2794964;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -266,7 +267,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(char16_t)>(&::Mono::Globalization::Unicode::MSCompatUnicodeTable::IsHalfWidthKana)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x26975e8;
+  constexpr static std::size_t addrs = 0x27949e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -280,7 +281,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(char16_t)>(&::Mono::Globalization::Unicode::MSCompatUnicodeTable::IsHiragana)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x26975fc;
+  constexpr static std::size_t addrs = 0x27949f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -294,7 +295,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(char16_t)>(&::Mono::Globalization::Unicode::MSCompatUnicodeTable::IsJapaneseSmallLetter)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x2697614;
+  constexpr static std::size_t addrs = 0x2794a10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -308,7 +309,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::Mono::Globalization::Unicode::MSCompatUnicodeTable::get_IsReady)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x26976fc;
+  constexpr static std::size_t addrs = 0x2794af8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get(),
@@ -321,7 +322,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (*)(::StringW)>(&::Mono::Globalization::Unicode::MSCompatUnicodeTable::GetResource)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x2697754;
+  constexpr static std::size_t addrs = 0x2794b50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -336,7 +337,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::cordl_internals::Ptr<uint8_t>, uint32_t)>(
     &::Mono::Globalization::Unicode::MSCompatUnicodeTable::UInt32FromBytePtr)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x269780c;
+  constexpr static std::size_t addrs = 0x2794c08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -353,7 +354,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::StringW, ByRef<::Mono::Globalization::Unicode::CodePointIndexer*>, ByRef<::cordl_internals::Ptr<uint8_t>>, ByRef<::cordl_internals::Ptr<uint8_t>>,
                          ByRef<::Mono::Globalization::Unicode::CodePointIndexer*>, ByRef<::cordl_internals::Ptr<uint8_t>>)>(&::Mono::Globalization::Unicode::MSCompatUnicodeTable::FillCJK)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x2697ce8;
+  constexpr static std::size_t addrs = 0x27950e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -374,7 +375,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::StringW, ByRef<::Mono::Globalization::Unicode::CodePointIndexer*>, ByRef<::cordl_internals::Ptr<uint8_t>>, ByRef<::cordl_internals::Ptr<uint8_t>>,
                          ByRef<::Mono::Globalization::Unicode::CodePointIndexer*>, ByRef<::cordl_internals::Ptr<uint8_t>>)>(&::Mono::Globalization::Unicode::MSCompatUnicodeTable::FillCJKCore)> {
   constexpr static std::size_t size = 0x4c8;
-  constexpr static std::size_t addrs = 0x2697e4c;
+  constexpr static std::size_t addrs = 0x2795248;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

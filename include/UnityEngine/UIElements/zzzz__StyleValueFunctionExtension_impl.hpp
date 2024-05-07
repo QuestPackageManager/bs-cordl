@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/StyleValueFunctionExtension.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleValueFunctionExtension_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleValueFunction_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::UnityEngine::UIElements::StyleValueFunction)>(
     &::UnityEngine::UIElements::StyleValueFunctionExtension::ToUssString)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x33ba598;
+  constexpr static std::size_t addrs = 0x35c02d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

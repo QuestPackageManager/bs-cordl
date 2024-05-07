@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Globalization/Bootstring.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,19 +45,19 @@ public:
   /// @brief Field tmin, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_tmin, put = __cordl_internal_set_tmin)) int32_t tmin;
 
-  /// @brief Method Adapt, addr 0x27fde3c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Adapt, addr 0x28fd55c, size 0x78, virtual false, abstract: false, final false
   inline int32_t Adapt(int32_t delta, int32_t numPoints, bool firstTime);
 
-  /// @brief Method Decode, addr 0x27fdae0, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x28fd200, size 0x2d8, virtual false, abstract: false, final false
   inline ::StringW Decode(::StringW s, int32_t offset);
 
-  /// @brief Method DecodeDigit, addr 0x27fdeb4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method DecodeDigit, addr 0x28fd5d4, size 0x38, virtual false, abstract: false, final false
   inline int32_t DecodeDigit(char16_t c);
 
-  /// @brief Method Encode, addr 0x27fd358, size 0x344, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x28fca78, size 0x344, virtual false, abstract: false, final false
   inline ::StringW Encode(::StringW s, int32_t offset);
 
-  /// @brief Method EncodeDigit, addr 0x27fde24, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method EncodeDigit, addr 0x28fd544, size 0x18, virtual false, abstract: false, final false
   inline char16_t EncodeDigit(int32_t d);
 
   static inline ::System::Globalization::Bootstring* New_ctor(char16_t delimiter, int32_t baseNum, int32_t tmin, int32_t tmax, int32_t skew, int32_t damp, int32_t initialBias, int32_t initialN);
@@ -109,7 +110,7 @@ public:
 
   constexpr void __cordl_internal_set_tmin(int32_t value);
 
-  /// @brief Method .ctor, addr 0x27fddb8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28fd4d8, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(char16_t delimiter, int32_t baseNum, int32_t tmin, int32_t tmax, int32_t skew, int32_t damp, int32_t initialBias, int32_t initialN);
 
 protected:

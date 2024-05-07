@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ILevelProductData.hpp"
 #include "GlobalNamespace/zzzz__ILevelProductData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ILevelProductData.get_levelId
 template <>

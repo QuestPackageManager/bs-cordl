@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Converters/RegexConverter.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,36 +43,36 @@ namespace Newtonsoft::Json::Converters {
 class CORDL_TYPE RegexConverter : public ::Newtonsoft::Json::JsonConverter {
 public:
   // Declarations
-  /// @brief Method CanConvert, addr 0x298bc80, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method CanConvert, addr 0x2a89530, size 0x7c, virtual true, abstract: false, final false
   inline bool CanConvert(::System::Type* objectType);
 
-  /// @brief Method HasFlag, addr 0x298b7d0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HasFlag, addr 0x2a89080, size 0xc, virtual false, abstract: false, final false
   inline bool HasFlag(::System::Text::RegularExpressions::RegexOptions options, ::System::Text::RegularExpressions::RegexOptions flag);
 
-  /// @brief Method IsRegex, addr 0x298bcfc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method IsRegex, addr 0x2a895ac, size 0x88, virtual false, abstract: false, final false
   inline bool IsRegex(::System::Type* objectType);
 
   static inline ::Newtonsoft::Json::Converters::RegexConverter* New_ctor();
 
-  /// @brief Method ReadJson, addr 0x298b7dc, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method ReadJson, addr 0x2a8908c, size 0xb0, virtual true, abstract: false, final false
   inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method ReadRegexObject, addr 0x298b88c, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method ReadRegexObject, addr 0x2a8913c, size 0x288, virtual false, abstract: false, final false
   inline ::System::Text::RegularExpressions::Regex* ReadRegexObject(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method ReadRegexString, addr 0x298bb14, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method ReadRegexString, addr 0x2a893c4, size 0x16c, virtual false, abstract: false, final false
   inline ::System::Object* ReadRegexString(::Newtonsoft::Json::JsonReader* reader);
 
-  /// @brief Method WriteBson, addr 0x298b4d4, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method WriteBson, addr 0x2a88d84, size 0x138, virtual false, abstract: false, final false
   inline void WriteBson(::Newtonsoft::Json::Bson::BsonWriter* writer, ::System::Text::RegularExpressions::Regex* regex);
 
-  /// @brief Method WriteJson, addr 0x298b60c, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method WriteJson, addr 0x2a88ebc, size 0x1c4, virtual false, abstract: false, final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Text::RegularExpressions::Regex* regex, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method WriteJson, addr 0x298b3b4, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method WriteJson, addr 0x2a88c64, size 0x120, virtual true, abstract: false, final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
 
-  /// @brief Method .ctor, addr 0x298bd84, size 0x1008, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a89634, size 0x1008, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

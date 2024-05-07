@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Cms/RecipientKeyIdentifier.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,10 +57,10 @@ public:
   /// @brief Field subjectKeyIdentifier, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_subjectKeyIdentifier, put = __cordl_internal_set_subjectKeyIdentifier))::Org::BouncyCastle::Asn1::Asn1OctetString* subjectKeyIdentifier;
 
-  /// @brief Method GetInstance, addr 0xfe477c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x10d7ea0, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::RecipientKeyIdentifier* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* ato, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0xfe831c, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x10dba40, size 0x178, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::RecipientKeyIdentifier* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::RecipientKeyIdentifier* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
@@ -72,7 +73,7 @@ public:
   static inline ::Org::BouncyCastle::Asn1::Cms::RecipientKeyIdentifier* New_ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* subjectKeyIdentifier, ::Org::BouncyCastle::Asn1::DerGeneralizedTime* date,
                                                                                  ::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute* other);
 
-  /// @brief Method ToAsn1Object, addr 0xfe84ac, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x10dbbd0, size 0x174, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime*& __cordl_internal_get_date();
@@ -93,25 +94,25 @@ public:
 
   constexpr void __cordl_internal_set_subjectKeyIdentifier(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  /// @brief Method .ctor, addr 0xfe80e8, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10db80c, size 0x234, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0xfe804c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10db770, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> subjectKeyIdentifier);
 
-  /// @brief Method .ctor, addr 0xfe8058, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10db77c, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> subjectKeyIdentifier, ::Org::BouncyCastle::Asn1::DerGeneralizedTime* date, ::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute* other);
 
-  /// @brief Method .ctor, addr 0xfe8010, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10db734, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* subjectKeyIdentifier, ::Org::BouncyCastle::Asn1::DerGeneralizedTime* date, ::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute* other);
 
-  /// @brief Method get_Date, addr 0xfe849c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Date, addr 0x10dbbc0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerGeneralizedTime* get_Date();
 
-  /// @brief Method get_OtherKeyAttribute, addr 0xfe84a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_OtherKeyAttribute, addr 0x10dbbc8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute* get_OtherKeyAttribute();
 
-  /// @brief Method get_SubjectKeyIdentifier, addr 0xfe8494, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SubjectKeyIdentifier, addr 0x10dbbb8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_SubjectKeyIdentifier();
 
 protected:

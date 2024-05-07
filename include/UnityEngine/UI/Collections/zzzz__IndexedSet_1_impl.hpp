@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UI/Collections/IndexedSet_1.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UI/Collections/zzzz__IndexedSet_1_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"

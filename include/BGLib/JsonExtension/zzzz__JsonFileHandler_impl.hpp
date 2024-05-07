@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BGLib/JsonExtension/JsonFileHandler.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BGLib/JsonExtension/zzzz__JsonFileHandler_def.hpp"
 #include "BGLib/JsonExtension/zzzz__JsonFileHandler_def.hpp"

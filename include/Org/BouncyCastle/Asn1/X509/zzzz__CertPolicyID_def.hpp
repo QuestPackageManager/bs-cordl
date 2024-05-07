@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/CertPolicyID.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,7 +22,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Asn1::X509::CertPolicyID* New_ctor(::StringW id);
 
-  /// @brief Method .ctor, addr 0x12faab8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13ed1dc, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW id);
 
 protected:

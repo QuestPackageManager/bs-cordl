@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ParamsArray.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -36,19 +37,19 @@ public:
   /// @brief Field s_twoArgArray, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_twoArgArray, put = setStaticF_s_twoArgArray))::ArrayW<::System::Object*, ::Array<::System::Object*>*> s_twoArgArray;
 
-  /// @brief Method GetAtSlow, addr 0x2843820, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetAtSlow, addr 0x2942ff4, size 0x54, virtual false, abstract: false, final false
   inline ::System::Object* GetAtSlow(int32_t index);
 
-  /// @brief Method .ctor, addr 0x2843624, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2942df8, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* arg0);
 
-  /// @brief Method .ctor, addr 0x2843698, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2942e6c, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* arg0, ::System::Object* arg1);
 
-  /// @brief Method .ctor, addr 0x2843710, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2942ee4, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* arg0, ::System::Object* arg1, ::System::Object* arg2);
 
-  /// @brief Method .ctor, addr 0x2843794, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2942f68, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   static inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> getStaticF_s_oneArgArray();
@@ -57,10 +58,10 @@ public:
 
   static inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> getStaticF_s_twoArgArray();
 
-  /// @brief Method get_Item, addr 0x2843810, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x2942fe4, size 0x10, virtual false, abstract: false, final false
   inline ::System::Object* get_Item(int32_t index);
 
-  /// @brief Method get_Length, addr 0x28437f4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x2942fc8, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
   static inline void setStaticF_s_oneArgArray(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);

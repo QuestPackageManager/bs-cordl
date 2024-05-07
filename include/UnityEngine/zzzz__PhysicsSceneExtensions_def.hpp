@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/PhysicsSceneExtensions.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,13 +26,13 @@ namespace UnityEngine {
 class CORDL_TYPE PhysicsSceneExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetPhysicsScene, addr 0x3266424, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetPhysicsScene, addr 0x346f160, size 0x108, virtual false, abstract: false, final false
   static inline ::UnityEngine::PhysicsScene GetPhysicsScene(::UnityEngine::SceneManagement::Scene scene);
 
-  /// @brief Method GetPhysicsScene_Internal, addr 0x326652c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetPhysicsScene_Internal, addr 0x346f268, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::PhysicsScene GetPhysicsScene_Internal(::UnityEngine::SceneManagement::Scene scene);
 
-  /// @brief Method GetPhysicsScene_Internal_Injected, addr 0x3266578, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetPhysicsScene_Internal_Injected, addr 0x346f2b4, size 0x44, virtual false, abstract: false, final false
   static inline void GetPhysicsScene_Internal_Injected(ByRef<::UnityEngine::SceneManagement::Scene> scene, ByRef<::UnityEngine::PhysicsScene> ret);
 
 protected:

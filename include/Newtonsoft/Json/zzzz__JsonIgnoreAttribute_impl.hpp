@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/JsonIgnoreAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "Newtonsoft/Json/zzzz__JsonIgnoreAttribute_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::JsonIgnoreAttribute._ctor
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::JsonIgnoreAttribute::*)()>(&::Newtonsoft::Json::JsonIgnoreAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x28c7f70;
+  constexpr static std::size_t addrs = 0x29c6820;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::JsonIgnoreAttribute*>::get(), ".ctor",

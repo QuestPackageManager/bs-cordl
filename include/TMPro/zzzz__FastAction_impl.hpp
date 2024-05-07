@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/FastAction.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "TMPro/zzzz__FastAction_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -10,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::FastAction::*)(::System::Action*)>(&::TMPro::FastAction::Add)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x311ea04;
+  constexpr static std::size_t addrs = 0x332448c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::FastAction::*)(::System::Action*)>(&::TMPro::FastAction::Remove)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x311eac4;
+  constexpr static std::size_t addrs = 0x332454c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -38,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::FastAction::*)()>(&::TMPro::FastAction::Call)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x311eb84;
+  constexpr static std::size_t addrs = 0x332460c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::FastAction*>::get(), "Call",
@@ -51,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::FastAction::*)()>(&::TMPro::FastAction::_ctor)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x311ec1c;
+  constexpr static std::size_t addrs = 0x33246a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::FastAction*>::get(), ".ctor",

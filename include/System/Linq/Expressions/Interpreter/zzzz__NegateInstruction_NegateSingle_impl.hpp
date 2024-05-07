@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/NegateInstruction_NegateSingle.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__NegateInstruction_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__NegateInstruction_NegateSingle_def.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__InterpretedFrame_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::__NegateInstruction__NegateSingle::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::System::Linq::Expressions::Interpreter::__NegateInstruction__NegateSingle::Run)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2b42d2c;
+  constexpr static std::size_t addrs = 0x2c3f62c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::__NegateInstruction__NegateSingle::*)()>(
     &::System::Linq::Expressions::Interpreter::__NegateInstruction__NegateSingle::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b42b24;
+  constexpr static std::size_t addrs = 0x2c3f424;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

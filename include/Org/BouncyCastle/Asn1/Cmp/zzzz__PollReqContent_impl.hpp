@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/Cmp/PollReqContent.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Cmp/zzzz__PollReqContent_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
@@ -11,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cmp::PollReqContent::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Cmp::PollReqContent::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0xfd8dd8;
+  constexpr static std::size_t addrs = 0x10cc4fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cmp::PollReqContent* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Cmp::PollReqContent::GetInstance)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0xfd4f8c;
+  constexpr static std::size_t addrs = 0x10c86b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +44,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                          ::Array<::ArrayW<::Org::BouncyCastle::Asn1::DerInteger*, ::Array<::Org::BouncyCastle::Asn1::DerInteger*>*>>*> (::Org::BouncyCastle::Asn1::Cmp::PollReqContent::*)()>(
         &::Org::BouncyCastle::Asn1::Cmp::PollReqContent::GetCertReqIDs)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0xfd8e00;
+  constexpr static std::size_t addrs = 0x10cc524;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -59,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Org::BouncyCastle::Asn1::DerInteger*, ::Array<::Org::BouncyCastle::Asn1::DerInteger*>*> (*)(
     ::Org::BouncyCastle::Asn1::Asn1Sequence*)>(&::Org::BouncyCastle::Asn1::Cmp::PollReqContent::SequenceToDerIntegerArray)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0xfd8f3c;
+  constexpr static std::size_t addrs = 0x10cc660;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -74,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Cmp::PollReqContent::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::PollReqContent::ToAsn1Object)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xfd9030;
+  constexpr static std::size_t addrs = 0x10cc754;
 
   inline static ::MethodInfo const* methodInfo() {
 

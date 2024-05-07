@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LIV/SDK/Unity/RENDERING_PIPELINE.hpp"
 #include "LIV/SDK/Unity/zzzz__RENDERING_PIPELINE_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::LIV::SDK::Unity::RENDERING_PIPELINE::RENDERING_PIPELINE(uint32_t value__) noexcept {

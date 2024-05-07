@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MissionObjectivesGameUIController.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,18 +48,18 @@ public:
   /// @brief Field _separator, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__separator, put = __cordl_internal_set__separator)) float_t _separator;
 
-  /// @brief Method CreateUIElements, addr 0x25e0b78, size 0x3a0, virtual false, abstract: false, final false
+  /// @brief Method CreateUIElements, addr 0x26e08b8, size 0x3a0, virtual false, abstract: false, final false
   inline void CreateUIElements();
 
-  /// @brief Method HandleMissionObjectiveCheckersManagerObjectivesListDidChange, addr 0x25e0fec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleMissionObjectiveCheckersManagerObjectivesListDidChange, addr 0x26e0d2c, size 0x4, virtual false, abstract: false, final false
   inline void HandleMissionObjectiveCheckersManagerObjectivesListDidChange();
 
   static inline ::GlobalNamespace::MissionObjectivesGameUIController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x25e0f18, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x26e0c58, size 0xd4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x25e0ae4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x26e0824, size 0x94, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr float_t const& __cordl_internal_get__elementWidth() const;
@@ -92,7 +93,7 @@ public:
 
   constexpr void __cordl_internal_set__separator(float_t value);
 
-  /// @brief Method .ctor, addr 0x25e0ff0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e0d30, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

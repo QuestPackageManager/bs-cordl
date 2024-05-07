@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MultiplayerDuelConnectedPlayerGameplayAnimator.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerGameplayAnimator_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerDuelConnectedPlayerGameplayAnimator_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerLevelFailController_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator::*)()>(
     &::GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator::OnDestroy)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x25f3874;
+  constexpr static std::size_t addrs = 0x26f268c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator::*)()>(
     &::GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator::TransitionIntoFailedState)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x25f3950;
+  constexpr static std::size_t addrs = 0x26f2768;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -41,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator::*)(bool)>(
     &::GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator::AnimateNewLeaderSelected)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x25f3a24;
+  constexpr static std::size_t addrs = 0x26f283c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator::*)(
     ::GlobalNamespace::__MultiplayerController__State)>(&::GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator::HandleStateChanged)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x25f3b00;
+  constexpr static std::size_t addrs = 0x26f2918;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -73,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator::*)()>(
     &::GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator::HandlePlayerDidFail)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x25f3c10;
+  constexpr static std::size_t addrs = 0x26f2a28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -88,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator::*)()>(
     &::GlobalNamespace::MultiplayerDuelConnectedPlayerGameplayAnimator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25f3c14;
+  constexpr static std::size_t addrs = 0x26f2a2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

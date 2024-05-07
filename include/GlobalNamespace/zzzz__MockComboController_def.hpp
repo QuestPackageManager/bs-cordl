@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MockComboController.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -51,22 +52,22 @@ public:
 
   constexpr void __cordl_internal_set_comboDidChangeEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x2628498, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x272836c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_comboBreakingEventHappenedEvent, addr 0x2628360, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_comboBreakingEventHappenedEvent, addr 0x2728234, size 0x9c, virtual true, abstract: false, final true
   inline void add_comboBreakingEventHappenedEvent(::System::Action* value);
 
-  /// @brief Method add_comboDidChangeEvent, addr 0x2628200, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_comboDidChangeEvent, addr 0x27280d4, size 0xb0, virtual true, abstract: false, final true
   inline void add_comboDidChangeEvent(::System::Action_1<int32_t>* value);
 
   /// @brief Convert to "::GlobalNamespace::IComboController"
   constexpr ::GlobalNamespace::IComboController* i___GlobalNamespace__IComboController() noexcept;
 
-  /// @brief Method remove_comboBreakingEventHappenedEvent, addr 0x26283fc, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_comboBreakingEventHappenedEvent, addr 0x27282d0, size 0x9c, virtual true, abstract: false, final true
   inline void remove_comboBreakingEventHappenedEvent(::System::Action* value);
 
-  /// @brief Method remove_comboDidChangeEvent, addr 0x26282b0, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_comboDidChangeEvent, addr 0x2728184, size 0xb0, virtual true, abstract: false, final true
   inline void remove_comboDidChangeEvent(::System::Action_1<int32_t>* value);
 
 protected:

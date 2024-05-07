@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/NullableMethodCallInstruction_GetValue.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__NullableMethodCallInstruction_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__NullableMethodCallInstruction_GetValue_def.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__InterpretedFrame_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::__NullableMethodCallInstruction__GetValue::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::System::Linq::Expressions::Interpreter::__NullableMethodCallInstruction__GetValue::Run)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x2b4d00c;
+  constexpr static std::size_t addrs = 0x2c4990c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::__NullableMethodCallInstruction__GetValue::*)()>(
     &::System::Linq::Expressions::Interpreter::__NullableMethodCallInstruction__GetValue::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b4ced8;
+  constexpr static std::size_t addrs = 0x2c497d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

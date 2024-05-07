@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Asn1/BerOctetStringParser.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__BerOctetStringParser_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
@@ -12,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::BerOctetStringParser::*)(::Org::BouncyCastle::Asn1::Asn1StreamParser*)>(
     &::Org::BouncyCastle::Asn1::BerOctetStringParser::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x13256ec;
+  constexpr static std::size_t addrs = 0x1418e10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (::Org::BouncyCastle::Asn1::BerOctetStringParser::*)()>(
     &::Org::BouncyCastle::Asn1::BerOctetStringParser::GetOctetStream)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x132c8f4;
+  constexpr static std::size_t addrs = 0x1420018;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::BerOctetStringParser*>::get(),
@@ -41,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::BerOctetStringParser::*)()>(
     &::Org::BouncyCastle::Asn1::BerOctetStringParser::ToAsn1Object)> {
   constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x1325714;
+  constexpr static std::size_t addrs = 0x1418e38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::BerOctetStringParser*>::get(),

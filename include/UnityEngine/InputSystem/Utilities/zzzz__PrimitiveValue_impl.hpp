@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/PrimitiveValue.hpp"
 #include "System/zzzz__TypeCode_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__PrimitiveValue_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
@@ -15,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::cordl_internals::Ptr<uint8_t> (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)()>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::get_valuePtr)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3048fd0;
+  constexpr static std::size_t addrs = 0x3183d5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::PrimitiveValue>::get(),
@@ -29,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TypeCode (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)()>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::get_type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3048fd8;
+  constexpr static std::size_t addrs = 0x3183d64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::PrimitiveValue>::get(),
@@ -43,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)()>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::get_isEmpty)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x303c86c;
+  constexpr static std::size_t addrs = 0x31775f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::PrimitiveValue>::get(),
@@ -57,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(bool)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3048fe0;
+  constexpr static std::size_t addrs = 0x3183d6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -72,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(char16_t)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3048ffc;
+  constexpr static std::size_t addrs = 0x3183d88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(uint8_t)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3049014;
+  constexpr static std::size_t addrs = 0x3183da0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -102,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(int8_t)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x304902c;
+  constexpr static std::size_t addrs = 0x3183db8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -117,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(int16_t)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3049044;
+  constexpr static std::size_t addrs = 0x3183dd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -132,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(uint16_t)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x304905c;
+  constexpr static std::size_t addrs = 0x3183de8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -147,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(int32_t)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3049074;
+  constexpr static std::size_t addrs = 0x3183e00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -162,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(uint32_t)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3049084;
+  constexpr static std::size_t addrs = 0x3183e10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -177,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(int64_t)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3049094;
+  constexpr static std::size_t addrs = 0x3183e20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -192,7 +193,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(uint64_t)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x30490a8;
+  constexpr static std::size_t addrs = 0x3183e34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -207,7 +208,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(float_t)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x30490bc;
+  constexpr static std::size_t addrs = 0x3183e48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -222,7 +223,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(double_t)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x30490d0;
+  constexpr static std::size_t addrs = 0x3183e5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -237,7 +238,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::PrimitiveValue (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(
     ::System::TypeCode)>(&::UnityEngine::InputSystem::Utilities::PrimitiveValue::ConvertTo)> {
   constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x304733c;
+  constexpr static std::size_t addrs = 0x31820c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -252,7 +253,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(
     ::UnityEngine::InputSystem::Utilities::PrimitiveValue)>(&::UnityEngine::InputSystem::Utilities::PrimitiveValue::Equals)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x304953c;
+  constexpr static std::size_t addrs = 0x31842c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -267,7 +268,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(::System::Object*)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::Equals)> {
   constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x3049588;
+  constexpr static std::size_t addrs = 0x3184314;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -283,7 +284,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(
     ::UnityEngine::InputSystem::Utilities::PrimitiveValue, ::UnityEngine::InputSystem::Utilities::PrimitiveValue)>(&::UnityEngine::InputSystem::Utilities::PrimitiveValue::op_Equality)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3047590;
+  constexpr static std::size_t addrs = 0x318231c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -299,7 +300,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(
     ::UnityEngine::InputSystem::Utilities::PrimitiveValue, ::UnityEngine::InputSystem::Utilities::PrimitiveValue)>(&::UnityEngine::InputSystem::Utilities::PrimitiveValue::op_Inequality)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3049d88;
+  constexpr static std::size_t addrs = 0x3184b14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -315,7 +316,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)()>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::GetHashCode)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x30476a8;
+  constexpr static std::size_t addrs = 0x3182434;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -331,7 +332,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)()>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::ToString)> {
   constexpr static std::size_t size = 0x3d0;
-  constexpr static std::size_t addrs = 0x3049db8;
+  constexpr static std::size_t addrs = 0x3184b44;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -347,7 +348,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::PrimitiveValue (*)(::StringW)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::FromString)> {
   constexpr static std::size_t size = 0x2f4;
-  constexpr static std::size_t addrs = 0x3047ba4;
+  constexpr static std::size_t addrs = 0x3182930;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -362,7 +363,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TypeCode (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)()>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::GetTypeCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x304a188;
+  constexpr static std::size_t addrs = 0x3184f14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::PrimitiveValue>::get(),
@@ -376,7 +377,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(::System::IFormatProvider*)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::ToBoolean)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x30490e4;
+  constexpr static std::size_t addrs = 0x3183e70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -391,7 +392,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(::System::IFormatProvider*)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::ToByte)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3049288;
+  constexpr static std::size_t addrs = 0x3184014;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -406,7 +407,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(::System::IFormatProvider*)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::ToChar)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x304923c;
+  constexpr static std::size_t addrs = 0x3183fc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -421,7 +422,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(::System::IFormatProvider*)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::ToDateTime)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x304a190;
+  constexpr static std::size_t addrs = 0x3184f1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -436,7 +437,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(::System::IFormatProvider*)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::ToDecimal)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x304a1e0;
+  constexpr static std::size_t addrs = 0x3184f6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -451,7 +452,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(::System::IFormatProvider*)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::ToDouble)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x304947c;
+  constexpr static std::size_t addrs = 0x3184208;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -466,7 +467,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(::System::IFormatProvider*)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::ToInt16)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x30492d0;
+  constexpr static std::size_t addrs = 0x318405c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -481,7 +482,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(::System::IFormatProvider*)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::ToInt32)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x30492f4;
+  constexpr static std::size_t addrs = 0x3184080;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -496,7 +497,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(::System::IFormatProvider*)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::ToInt64)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3049318;
+  constexpr static std::size_t addrs = 0x31840a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -511,7 +512,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(::System::IFormatProvider*)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::ToSByte)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x30492ac;
+  constexpr static std::size_t addrs = 0x3184038;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -526,7 +527,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(::System::IFormatProvider*)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::ToSingle)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x303c87c;
+  constexpr static std::size_t addrs = 0x3177608;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -541,7 +542,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(::System::IFormatProvider*)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::ToString)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x304a22c;
+  constexpr static std::size_t addrs = 0x3184fb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -556,7 +557,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (
     ::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(::System::Type*, ::System::IFormatProvider*)>(&::UnityEngine::InputSystem::Utilities::PrimitiveValue::ToType)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x304a230;
+  constexpr static std::size_t addrs = 0x3184fbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -572,7 +573,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(::System::IFormatProvider*)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::ToUInt16)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x304a270;
+  constexpr static std::size_t addrs = 0x3184ffc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -587,7 +588,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(::System::IFormatProvider*)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::ToUInt32)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x304a280;
+  constexpr static std::size_t addrs = 0x318500c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -602,7 +603,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)(::System::IFormatProvider*)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::ToUInt64)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x30493d0;
+  constexpr static std::size_t addrs = 0x318415c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -617,7 +618,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::InputSystem::Utilities::PrimitiveValue::*)()>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::ToObject)> {
   constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x3048180;
+  constexpr static std::size_t addrs = 0x3182f0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::PrimitiveValue>::get(),
@@ -631,7 +632,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::PrimitiveValue (*)(::System::Object*)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::FromObject)> {
   constexpr static std::size_t size = 0x5e8;
-  constexpr static std::size_t addrs = 0x30497a0;
+  constexpr static std::size_t addrs = 0x318452c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -646,7 +647,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::PrimitiveValue (*)(bool)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::op_Implicit___UnityEngine__InputSystem__Utilities__PrimitiveValue)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3047b90;
+  constexpr static std::size_t addrs = 0x318291c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -661,7 +662,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::PrimitiveValue (*)(char16_t)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::op_Implicit___UnityEngine__InputSystem__Utilities__PrimitiveValue)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3049274;
+  constexpr static std::size_t addrs = 0x3184000;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -676,7 +677,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::PrimitiveValue (*)(uint8_t)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::op_Implicit___UnityEngine__InputSystem__Utilities__PrimitiveValue)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3049298;
+  constexpr static std::size_t addrs = 0x3184024;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -691,7 +692,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::PrimitiveValue (*)(int8_t)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::op_Implicit___UnityEngine__InputSystem__Utilities__PrimitiveValue)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x30492bc;
+  constexpr static std::size_t addrs = 0x3184048;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -706,7 +707,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::PrimitiveValue (*)(int16_t)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::op_Implicit___UnityEngine__InputSystem__Utilities__PrimitiveValue)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x30492e0;
+  constexpr static std::size_t addrs = 0x318406c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -721,7 +722,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::PrimitiveValue (*)(uint16_t)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::op_Implicit___UnityEngine__InputSystem__Utilities__PrimitiveValue)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x304a290;
+  constexpr static std::size_t addrs = 0x318501c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -736,7 +737,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::PrimitiveValue (*)(int32_t)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::op_Implicit___UnityEngine__InputSystem__Utilities__PrimitiveValue)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3049304;
+  constexpr static std::size_t addrs = 0x3184090;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -751,7 +752,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::PrimitiveValue (*)(uint32_t)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::op_Implicit___UnityEngine__InputSystem__Utilities__PrimitiveValue)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x304a2a4;
+  constexpr static std::size_t addrs = 0x3185030;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -766,7 +767,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::PrimitiveValue (*)(int64_t)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::op_Implicit___UnityEngine__InputSystem__Utilities__PrimitiveValue)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x30493b8;
+  constexpr static std::size_t addrs = 0x3184144;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -781,7 +782,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::PrimitiveValue (*)(uint64_t)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::op_Implicit___UnityEngine__InputSystem__Utilities__PrimitiveValue)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3049464;
+  constexpr static std::size_t addrs = 0x31841f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -796,7 +797,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::PrimitiveValue (*)(float_t)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::op_Implicit___UnityEngine__InputSystem__Utilities__PrimitiveValue)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x303c8e8;
+  constexpr static std::size_t addrs = 0x3177674;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -811,7 +812,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::PrimitiveValue (*)(double_t)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::op_Implicit___UnityEngine__InputSystem__Utilities__PrimitiveValue)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3049524;
+  constexpr static std::size_t addrs = 0x31842b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -826,7 +827,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::PrimitiveValue (*)(bool)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::FromBoolean)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x304a2b8;
+  constexpr static std::size_t addrs = 0x3185044;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -841,7 +842,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::PrimitiveValue (*)(char16_t)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::FromChar)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x304a2cc;
+  constexpr static std::size_t addrs = 0x3185058;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -856,7 +857,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::PrimitiveValue (*)(uint8_t)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::FromByte)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x304a2e0;
+  constexpr static std::size_t addrs = 0x318506c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -871,7 +872,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::PrimitiveValue (*)(int8_t)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::FromSByte)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x304a2f4;
+  constexpr static std::size_t addrs = 0x3185080;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -886,7 +887,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::PrimitiveValue (*)(int16_t)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::FromInt16)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x304a308;
+  constexpr static std::size_t addrs = 0x3185094;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -901,7 +902,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::PrimitiveValue (*)(uint16_t)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::FromUInt16)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x304a31c;
+  constexpr static std::size_t addrs = 0x31850a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -916,7 +917,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::PrimitiveValue (*)(int32_t)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::FromInt32)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x304a330;
+  constexpr static std::size_t addrs = 0x31850bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -931,7 +932,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::PrimitiveValue (*)(uint32_t)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::FromUInt32)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x304a344;
+  constexpr static std::size_t addrs = 0x31850d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -946,7 +947,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::PrimitiveValue (*)(int64_t)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::FromInt64)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x304a358;
+  constexpr static std::size_t addrs = 0x31850e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -961,7 +962,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::PrimitiveValue (*)(uint64_t)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::FromUInt64)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x304a370;
+  constexpr static std::size_t addrs = 0x31850fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -976,7 +977,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::PrimitiveValue (*)(float_t)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::FromSingle)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x304a388;
+  constexpr static std::size_t addrs = 0x3185114;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -991,7 +992,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::PrimitiveValue (*)(double_t)>(
     &::UnityEngine::InputSystem::Utilities::PrimitiveValue::FromDouble)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x304a39c;
+  constexpr static std::size_t addrs = 0x3185128;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

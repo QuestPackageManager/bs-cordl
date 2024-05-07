@@ -1,15 +1,16 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/PlayerHeightSettingsController.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(PlayerHeightSettingsController)
-namespace GlobalNamespace {
-class IVRPlatformHelper;
+namespace BeatSaber::GameSettings {
+class MainSettingsHandler;
 }
 namespace GlobalNamespace {
-class Vector3SO;
+class IVRPlatformHelper;
 }
 namespace HMUI {
 class ButtonBinder;
@@ -40,8 +41,8 @@ public:
   /// @brief Field _buttonBinder, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__buttonBinder, put = __cordl_internal_set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
 
-  /// @brief Field _roomCenter, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__roomCenter, put = __cordl_internal_set__roomCenter))::UnityW<::GlobalNamespace::Vector3SO> _roomCenter;
+  /// @brief Field _mainSettingsHandler, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__mainSettingsHandler, put = __cordl_internal_set__mainSettingsHandler))::BeatSaber::GameSettings::MainSettingsHandler* _mainSettingsHandler;
 
   /// @brief Field _setButton, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__setButton, put = __cordl_internal_set__setButton))::UnityW<::UnityEngine::UI::Button> _setButton;
@@ -52,7 +53,7 @@ public:
   /// @brief Field _value, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value)) float_t _value;
 
-  /// @brief Field _vrPlatformHelper, offset 0x30, size 0x8
+  /// @brief Field _vrPlatformHelper, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__vrPlatformHelper, put = __cordl_internal_set__vrPlatformHelper))::GlobalNamespace::IVRPlatformHelper* _vrPlatformHelper;
 
   __declspec(property(get = get_value)) float_t value;
@@ -60,27 +61,27 @@ public:
   /// @brief Field valueDidChangeEvent, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_valueDidChangeEvent, put = __cordl_internal_set_valueDidChangeEvent))::System::Action_1<float_t>* valueDidChangeEvent;
 
-  /// @brief Method AutoSetHeight, addr 0x253d08c, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method AutoSetHeight, addr 0x2633704, size 0x13c, virtual false, abstract: false, final false
   inline void AutoSetHeight();
 
-  /// @brief Method Awake, addr 0x253cf18, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2633590, size 0xc4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Init, addr 0x253cfdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2633654, size 0x8, virtual false, abstract: false, final false
   inline void Init(float_t playerHeight);
 
   static inline ::GlobalNamespace::PlayerHeightSettingsController* New_ctor();
 
-  /// @brief Method RefreshUI, addr 0x253cfe4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method RefreshUI, addr 0x263365c, size 0xa8, virtual false, abstract: false, final false
   inline void RefreshUI();
 
   constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
 
   constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __cordl_internal_get__buttonBinder() const;
 
-  constexpr ::UnityW<::GlobalNamespace::Vector3SO> const& __cordl_internal_get__roomCenter() const;
+  constexpr ::BeatSaber::GameSettings::MainSettingsHandler*& __cordl_internal_get__mainSettingsHandler();
 
-  constexpr ::UnityW<::GlobalNamespace::Vector3SO>& __cordl_internal_get__roomCenter();
+  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::GameSettings::MainSettingsHandler*> const& __cordl_internal_get__mainSettingsHandler() const;
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__setButton() const;
 
@@ -104,7 +105,7 @@ public:
 
   constexpr void __cordl_internal_set__buttonBinder(::HMUI::ButtonBinder* value);
 
-  constexpr void __cordl_internal_set__roomCenter(::UnityW<::GlobalNamespace::Vector3SO> value);
+  constexpr void __cordl_internal_set__mainSettingsHandler(::BeatSaber::GameSettings::MainSettingsHandler* value);
 
   constexpr void __cordl_internal_set__setButton(::UnityW<::UnityEngine::UI::Button> value);
 
@@ -116,16 +117,16 @@ public:
 
   constexpr void __cordl_internal_set_valueDidChangeEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method .ctor, addr 0x253d1ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2633840, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_valueDidChangeEvent, addr 0x253cdb0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_valueDidChangeEvent, addr 0x2633428, size 0xb0, virtual false, abstract: false, final false
   inline void add_valueDidChangeEvent(::System::Action_1<float_t>* value);
 
-  /// @brief Method get_value, addr 0x253cf10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x2633588, size 0x8, virtual false, abstract: false, final false
   inline float_t get_value();
 
-  /// @brief Method remove_valueDidChangeEvent, addr 0x253ce60, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_valueDidChangeEvent, addr 0x26334d8, size 0xb0, virtual false, abstract: false, final false
   inline void remove_valueDidChangeEvent(::System::Action_1<float_t>* value);
 
 protected:
@@ -148,11 +149,11 @@ public:
   /// @brief Field _setButton, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____setButton;
 
-  /// @brief Field _roomCenter, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::Vector3SO> ____roomCenter;
-
-  /// @brief Field _vrPlatformHelper, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _vrPlatformHelper, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::IVRPlatformHelper* ____vrPlatformHelper;
+
+  /// @brief Field _mainSettingsHandler, offset: 0x30, size: 0x8, def value: None
+  ::BeatSaber::GameSettings::MainSettingsHandler* ____mainSettingsHandler;
 
   /// @brief Field valueDidChangeEvent, offset: 0x38, size: 0x8, def value: None
   ::System::Action_1<float_t>* ___valueDidChangeEvent;
@@ -172,9 +173,9 @@ static_assert(offsetof(::GlobalNamespace::PlayerHeightSettingsController, ____te
 
 static_assert(offsetof(::GlobalNamespace::PlayerHeightSettingsController, ____setButton) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PlayerHeightSettingsController, ____roomCenter) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerHeightSettingsController, ____vrPlatformHelper) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PlayerHeightSettingsController, ____vrPlatformHelper) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PlayerHeightSettingsController, ____mainSettingsHandler) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PlayerHeightSettingsController, ___valueDidChangeEvent) == 0x38, "Offset mismatch!");
 

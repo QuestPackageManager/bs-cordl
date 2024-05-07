@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/TemplateAsset.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -109,10 +110,10 @@ public:
 
   constexpr void __cordl_internal_set_m_TemplateAlias(::StringW value);
 
-  /// @brief Method get_attributeOverrides, addr 0x336107c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_attributeOverrides, addr 0x3564db8, size 0x80, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::__TemplateAsset__AttributeOverride>* get_attributeOverrides();
 
-  /// @brief Method get_slotUsages, addr 0x33610fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_slotUsages, addr 0x3564e38, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::__VisualTreeAsset__SlotUsageEntry>* get_slotUsages();
 
 protected:

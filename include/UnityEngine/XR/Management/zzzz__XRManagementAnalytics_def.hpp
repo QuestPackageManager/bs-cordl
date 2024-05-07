@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/XR/Management/XRManagementAnalytics.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -76,7 +77,7 @@ public:
   // Declarations
   using BuildEvent = ::UnityEngine::XR::Management::__XRManagementAnalytics__BuildEvent;
 
-  /// @brief Method Initialize, addr 0x31a3f0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x33aa994, size 0x8, virtual false, abstract: false, final false
   static inline bool Initialize();
 
 protected:

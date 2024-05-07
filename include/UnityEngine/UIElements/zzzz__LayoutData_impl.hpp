@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/LayoutData.hpp"
 #include "UnityEngine/UIElements/zzzz__Align_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__DisplayStyle_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__FlexDirection_impl.hpp"
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::LayoutData (::UnityEngine::UIElements::LayoutData::*)()>(
     &::UnityEngine::UIElements::LayoutData::Copy)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x33d2be4;
+  constexpr static std::size_t addrs = 0x35d8920;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::LayoutData>::get(), "Copy",
@@ -37,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::LayoutData::*)(ByRef<::UnityEngine::UIElements::LayoutData>)>(
     &::UnityEngine::UIElements::LayoutData::CopyFrom)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x33d2c00;
+  constexpr static std::size_t addrs = 0x35d893c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::LayoutData, ::UnityEngine::UIElements::LayoutData)>(
     &::UnityEngine::UIElements::LayoutData::op_Equality)> {
   constexpr static std::size_t size = 0x280;
-  constexpr static std::size_t addrs = 0x33d2c14;
+  constexpr static std::size_t addrs = 0x35d8950;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::LayoutData::*)(::UnityEngine::UIElements::LayoutData)>(
     &::UnityEngine::UIElements::LayoutData::Equals)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x33d2e94;
+  constexpr static std::size_t addrs = 0x35d8bd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::LayoutData::*)(::System::Object*)>(&::UnityEngine::UIElements::LayoutData::Equals)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x33d2ee0;
+  constexpr static std::size_t addrs = 0x35d8c1c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -96,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::LayoutData::*)()>(&::UnityEngine::UIElements::LayoutData::GetHashCode)> {
   constexpr static std::size_t size = 0x264;
-  constexpr static std::size_t addrs = 0x33d2f88;
+  constexpr static std::size_t addrs = 0x35d8cc4;
 
   inline static ::MethodInfo const* methodInfo() {
 

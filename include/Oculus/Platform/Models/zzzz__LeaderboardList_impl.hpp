@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/Models/LeaderboardList.hpp"
 #include "Oculus/Platform/Models/zzzz__DeserializableList_1_impl.hpp"
 #include "Oculus/Platform/Models/zzzz__LeaderboardList_def.hpp"
 #include "Oculus/Platform/Models/zzzz__Leaderboard_def.hpp"
@@ -7,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Models::LeaderboardList::*)(void*)>(&::Oculus::Platform::Models::LeaderboardList::_ctor)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x29de134;
+  constexpr static std::size_t addrs = 0x2adc9e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

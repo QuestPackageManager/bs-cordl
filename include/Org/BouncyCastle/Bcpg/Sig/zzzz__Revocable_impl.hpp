@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Bcpg/Sig/Revocable.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__SignatureSubpacket_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/Sig/zzzz__Revocable_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Bcpg::Sig::Revocable.BooleanToByteArray
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(bool)>(&::Org::BouncyCastle::Bcpg::Sig::Revocable::BooleanToByteArray)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x1337798;
+  constexpr static std::size_t addrs = 0x142bebc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -21,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::Sig::Revocable::*)(bool, bool, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Bcpg::Sig::Revocable::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x1337804;
+  constexpr static std::size_t addrs = 0x142bf28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -36,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::Sig::Revocable::*)(bool, bool)>(&::Org::BouncyCastle::Bcpg::Sig::Revocable::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x133784c;
+  constexpr static std::size_t addrs = 0x142bf70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -50,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Bcpg::Sig::Revocable::*)()>(&::Org::BouncyCastle::Bcpg::Sig::Revocable::IsRevocable)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x1337898;
+  constexpr static std::size_t addrs = 0x142bfbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::Sig::Revocable*>::get(), "IsRevocable",

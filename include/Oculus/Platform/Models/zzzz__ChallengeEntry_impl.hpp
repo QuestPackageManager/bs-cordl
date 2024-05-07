@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/Models/ChallengeEntry.hpp"
 #include "System/zzzz__DateTime_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/Models/zzzz__ChallengeEntry_def.hpp"
@@ -8,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Models::ChallengeEntry::*)(void*)>(&::Oculus::Platform::Models::ChallengeEntry::_ctor)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x29dd0dc;
+  constexpr static std::size_t addrs = 0x2adb98c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

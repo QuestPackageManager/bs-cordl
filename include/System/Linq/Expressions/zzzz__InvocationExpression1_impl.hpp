@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/InvocationExpression1.hpp"
 #include "System/Linq/Expressions/zzzz__InvocationExpression_impl.hpp"
 #include "System/Linq/Expressions/zzzz__InvocationExpression1_def.hpp"
 #include "System/Linq/Expressions/zzzz__Expression_def.hpp"
@@ -11,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::InvocationExpression1::*)(
     ::System::Linq::Expressions::Expression*, ::System::Type*, ::System::Linq::Expressions::Expression*)>(&::System::Linq::Expressions::InvocationExpression1::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2b0b6dc;
+  constexpr static std::size_t addrs = 0x2c08fdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::InvocationExpression1::*)(int32_t)>(
     &::System::Linq::Expressions::InvocationExpression1::GetArgument)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2b0b700;
+  constexpr static std::size_t addrs = 0x2c09000;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::InvocationExpression1::*)()>(
     &::System::Linq::Expressions::InvocationExpression1::get_ArgumentCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b0b79c;
+  constexpr static std::size_t addrs = 0x2c0909c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -62,7 +63,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                            ::ArrayW<::System::Linq::Expressions::Expression*, ::Array<::System::Linq::Expressions::Expression*>*>)>(
     &::System::Linq::Expressions::InvocationExpression1::Rewrite)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x2b0b7a4;
+  constexpr static std::size_t addrs = 0x2c090a4;
 
   inline static ::MethodInfo const* methodInfo() {
 

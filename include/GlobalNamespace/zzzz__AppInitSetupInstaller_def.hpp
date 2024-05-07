@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/AppInitSetupInstaller.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -18,12 +19,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE AppInitSetupInstaller : public ::Zenject::MonoInstaller {
 public:
   // Declarations
-  /// @brief Method InstallBindings, addr 0x2507d4c, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x25fe9d8, size 0x5c, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::AppInitSetupInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2507da8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25fea34, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

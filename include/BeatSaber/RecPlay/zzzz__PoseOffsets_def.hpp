@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatSaber/RecPlay/PoseOffsets.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,16 +27,16 @@ public:
   /// @brief Field kDefault, offset 0xffffffff, size 0x54
   static __declspec(property(get = getStaticF_kDefault, put = setStaticF_kDefault))::BeatSaber::RecPlay::PoseOffsets kDefault;
 
-  /// @brief Method AdjustHead, addr 0xf75420, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method AdjustHead, addr 0x10689d0, size 0x5c, virtual false, abstract: false, final false
   inline void AdjustHead(ByRef<::UnityEngine::Pose> pose);
 
-  /// @brief Method AdjustLeftHand, addr 0xf75348, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method AdjustLeftHand, addr 0x10688f8, size 0x6c, virtual false, abstract: false, final false
   inline void AdjustLeftHand(ByRef<::UnityEngine::Pose> pose);
 
-  /// @brief Method AdjustPose, addr 0xf7573c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method AdjustPose, addr 0x1068cec, size 0xc0, virtual false, abstract: false, final false
   static inline void AdjustPose(ByRef<::UnityEngine::Pose> pose, ByRef<::UnityEngine::Pose> room, ByRef<::UnityEngine::Pose> controller);
 
-  /// @brief Method AdjustRightHand, addr 0xf753b4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method AdjustRightHand, addr 0x1068964, size 0x6c, virtual false, abstract: false, final false
   inline void AdjustRightHand(ByRef<::UnityEngine::Pose> pose);
 
   static inline ::BeatSaber::RecPlay::PoseOffsets getStaticF_kDefault();

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UISystemProfilerApi.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__UISystemProfilerApi_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
@@ -16,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::__UISystemProfilerApi__SampleType)>(&::UnityEngine::UISystemProfilerApi::BeginSample)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x33f97d4;
+  constexpr static std::size_t addrs = 0x35ff510;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::__UISystemProfilerApi__SampleType)>(&::UnityEngine::UISystemProfilerApi::EndSample)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x33f9810;
+  constexpr static std::size_t addrs = 0x35ff54c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::UnityEngine::Object*)>(&::UnityEngine::UISystemProfilerApi::AddMarker)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x33f984c;
+  constexpr static std::size_t addrs = 0x35ff588;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/TryFaultHandler.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__TryFaultHandler_def.hpp"
 //  Writing Method size for method: ::System::Linq::Expressions::Interpreter::TryFaultHandler._ctor
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::TryFaultHandler::*)(int32_t, int32_t, int32_t, int32_t)>(
     &::System::Linq::Expressions::Interpreter::TryFaultHandler::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2b2b390;
+  constexpr static std::size_t addrs = 0x2c28c90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

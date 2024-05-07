@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/Channels/CADSerializer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Remoting/Channels/zzzz__CADSerializer_def.hpp"
 #include "System/IO/zzzz__MemoryStream_def.hpp"
@@ -12,7 +13,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Runtime::Remoting::Messaging::IMessage* (*)(::System::IO::MemoryStream*, ::System::Runtime::Remoting::Messaging::IMethodCallMessage*)>(
         &::System::Runtime::Remoting::Channels::CADSerializer::DeserializeMessage)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2725ba8;
+  constexpr static std::size_t addrs = 0x2823fa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::MemoryStream* (*)(::System::Runtime::Remoting::Messaging::IMessage*)>(
     &::System::Runtime::Remoting::Channels::CADSerializer::SerializeMessage)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x27255ec;
+  constexpr static std::size_t addrs = 0x28239e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::System::Runtime::Remoting::Channels::CADSerializer::DeserializeObjectSafe)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x2725f68;
+  constexpr static std::size_t addrs = 0x2824364;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::MemoryStream* (*)(::System::Object*)>(
     &::System::Runtime::Remoting::Channels::CADSerializer::SerializeObject)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x2726090;
+  constexpr static std::size_t addrs = 0x282448c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::System::IO::MemoryStream*)>(
     &::System::Runtime::Remoting::Channels::CADSerializer::DeserializeObject)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x2726008;
+  constexpr static std::size_t addrs = 0x2824404;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

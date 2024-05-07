@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/NumericConvertInstruction_Unchecked.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -29,27 +30,27 @@ public:
   // Declarations
   __declspec(property(get = get_InstructionName))::StringW InstructionName;
 
-  /// @brief Method Convert, addr 0x2b46974, size 0x368, virtual true, abstract: false, final false
+  /// @brief Method Convert, addr 0x2c43274, size 0x368, virtual true, abstract: false, final false
   inline ::System::Object* Convert(::System::Object* obj);
 
-  /// @brief Method ConvertDouble, addr 0x2b4739c, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method ConvertDouble, addr 0x2c43c9c, size 0x2cc, virtual false, abstract: false, final false
   inline ::System::Object* ConvertDouble(double_t obj);
 
-  /// @brief Method ConvertInt32, addr 0x2b46cdc, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method ConvertInt32, addr 0x2c435dc, size 0x25c, virtual false, abstract: false, final false
   inline ::System::Object* ConvertInt32(int32_t obj);
 
-  /// @brief Method ConvertInt64, addr 0x2b46f38, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method ConvertInt64, addr 0x2c43838, size 0x230, virtual false, abstract: false, final false
   inline ::System::Object* ConvertInt64(int64_t obj);
 
-  /// @brief Method ConvertUInt64, addr 0x2b47168, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method ConvertUInt64, addr 0x2c43a68, size 0x234, virtual false, abstract: false, final false
   inline ::System::Object* ConvertUInt64(uint64_t obj);
 
   static inline ::System::Linq::Expressions::Interpreter::__NumericConvertInstruction__Unchecked* New_ctor(::System::TypeCode from, ::System::TypeCode to, bool isLiftedToNull);
 
-  /// @brief Method .ctor, addr 0x2b46938, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c43238, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::TypeCode from, ::System::TypeCode to, bool isLiftedToNull);
 
-  /// @brief Method get_InstructionName, addr 0x2b468f8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x2c431f8, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
 protected:

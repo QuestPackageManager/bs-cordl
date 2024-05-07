@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/LoadSceneRelationship.hpp"
 #include "Zenject/zzzz__LoadSceneRelationship_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::Zenject::LoadSceneRelationship::LoadSceneRelationship(int32_t value__) noexcept {

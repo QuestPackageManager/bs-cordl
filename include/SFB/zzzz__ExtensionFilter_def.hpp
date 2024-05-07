@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "SFB/ExtensionFilter.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,7 +21,7 @@ namespace SFB {
 struct CORDL_TYPE ExtensionFilter {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x25adc10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26aac6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW filterName, ::ArrayW<::StringW, ::Array<::StringW>*> filterExtensions);
 
   // Ctor Parameters []

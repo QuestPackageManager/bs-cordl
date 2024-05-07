@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/MinAttribute.hpp"
 #include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
 #include "UnityEngine/zzzz__MinAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::MinAttribute._ctor
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::MinAttribute::*)(float_t)>(&::UnityEngine::MinAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3203504;
+  constexpr static std::size_t addrs = 0x340a238;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/GeometryTools.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,11 +28,11 @@ public:
   // Declarations
   static inline ::GlobalNamespace::GeometryTools* New_ctor();
 
-  /// @brief Method ThreePointsToBox, addr 0xf90a14, size 0x3ec, virtual false, abstract: false, final false
+  /// @brief Method ThreePointsToBox, addr 0x1085320, size 0x3ec, virtual false, abstract: false, final false
   static inline bool ThreePointsToBox(::UnityEngine::Vector3 p0, ::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 p2, ByRef<::UnityEngine::Vector3> center, ByRef<::UnityEngine::Vector3> halfSize,
                                       ByRef<::UnityEngine::Quaternion> orientation);
 
-  /// @brief Method .ctor, addr 0xf90e00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x108570c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

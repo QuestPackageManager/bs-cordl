@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/WaitForSecondsRealtime.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,7 +32,7 @@ public:
 
   static inline ::UnityEngine::WaitForSecondsRealtime* New_ctor(float_t time);
 
-  /// @brief Method Reset, addr 0x320aa5c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x3411790, size 0xc, virtual true, abstract: false, final false
   inline void Reset();
 
   constexpr float_t const& __cordl_internal_get__waitTime_k__BackingField() const;
@@ -46,16 +47,16 @@ public:
 
   constexpr void __cordl_internal_set_m_WaitUntilTime(float_t value);
 
-  /// @brief Method .ctor, addr 0x320aa2c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3411760, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(float_t time);
 
-  /// @brief Method get_keepWaiting, addr 0x320a990, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method get_keepWaiting, addr 0x34116c4, size 0x9c, virtual true, abstract: false, final false
   inline bool get_keepWaiting();
 
-  /// @brief Method get_waitTime, addr 0x320a980, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_waitTime, addr 0x34116b4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_waitTime();
 
-  /// @brief Method set_waitTime, addr 0x320a988, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_waitTime, addr 0x34116bc, size 0x8, virtual false, abstract: false, final false
   inline void set_waitTime(float_t value);
 
 protected:

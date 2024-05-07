@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/HtmlTernaryTree.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__HtmlTernaryTree_def.hpp"
 inline void System::Xml::HtmlTernaryTree::setStaticF_htmlElements(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Net/Security/Private/CallbackHelpers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Net/Security/Private/zzzz__CallbackHelpers_def.hpp"
 #include "Mono/Net/Security/Private/zzzz__CallbackHelpers_def.hpp"
@@ -16,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass0_0::*)()>(
     &::Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass0_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b6ebe8;
+  constexpr static std::size_t addrs = 0x2c6b4e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -32,7 +33,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::StringW, ::System::Security::Cryptography::X509Certificates::X509Certificate*, ::System::Security::Cryptography::X509Certificates::X509Chain*, ::Mono::Security::Interface::MonoSslPolicyErrors)>(
     &::Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass0_0::_PublicToMono_b__0)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2b6ebf8;
+  constexpr static std::size_t addrs = 0x2c6b4f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -87,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass6_0::*)()>(
     &::Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass6_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b6ebf0;
+  constexpr static std::size_t addrs = 0x2c6b4f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -104,7 +105,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                 ::System::Security::Cryptography::X509Certificates::X509Certificate*, ::ArrayW<::StringW, ::Array<::StringW>*>)>(
     &::Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass6_0::_MonoToInternal_b__0)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2b6ec1c;
+  constexpr static std::size_t addrs = 0x2c6b51c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -161,7 +162,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Mono::Security::Interface::MonoRemoteCertificateValidationCallback* (*)(::System::Net::Security::RemoteCertificateValidationCallback*)>(
         &::Mono::Net::Security::Private::CallbackHelpers::PublicToMono)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2b6eb38;
+  constexpr static std::size_t addrs = 0x2c6b438;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -176,7 +177,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Net::Security::LocalCertSelectionCallback* (*)(::Mono::Security::Interface::MonoLocalCertificateSelectionCallback*)>(&::Mono::Net::Security::Private::CallbackHelpers::MonoToInternal)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2b69278;
+  constexpr static std::size_t addrs = 0x2c65b78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

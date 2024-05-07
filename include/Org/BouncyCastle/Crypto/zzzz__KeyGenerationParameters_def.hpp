@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/KeyGenerationParameters.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -46,13 +47,13 @@ public:
 
   constexpr void __cordl_internal_set_strength(int32_t value);
 
-  /// @brief Method .ctor, addr 0x109b324, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x118ea48, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* random, int32_t strength);
 
-  /// @brief Method get_Random, addr 0x109b3f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Random, addr 0x118eb1c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Security::SecureRandom* get_Random();
 
-  /// @brief Method get_Strength, addr 0x109b400, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Strength, addr 0x118eb24, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Strength();
 
 protected:

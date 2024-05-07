@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Bits.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__Bits_def.hpp"
 //  Writing Method size for method: ::System::Xml::Bits.Count
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(uint32_t)>(&::System::Xml::Bits::Count)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2c95130;
+  constexpr static std::size_t addrs = 0x2d93a30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -20,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(uint32_t)>(&::System::Xml::Bits::LeastPosition)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x2c951cc;
+  constexpr static std::size_t addrs = 0x2d93acc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

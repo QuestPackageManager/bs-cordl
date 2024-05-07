@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/NumberHelpers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__NumberHelpers_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Utilities::NumberHelpers.AlignToMultipleOf
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, int32_t)>(&::UnityEngine::InputSystem::Utilities::NumberHelpers::AlignToMultipleOf)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3048330;
+  constexpr static std::size_t addrs = 0x31830bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -20,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(int64_t, int64_t)>(&::UnityEngine::InputSystem::Utilities::NumberHelpers::AlignToMultipleOf)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x304834c;
+  constexpr static std::size_t addrs = 0x31830d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -34,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint32_t, uint32_t)>(&::UnityEngine::InputSystem::Utilities::NumberHelpers::AlignToMultipleOf)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3048368;
+  constexpr static std::size_t addrs = 0x31830f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -48,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(double_t, double_t)>(&::UnityEngine::InputSystem::Utilities::NumberHelpers::Approximately)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3048384;
+  constexpr static std::size_t addrs = 0x3183110;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -63,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(int32_t, int32_t, int32_t)>(
     &::UnityEngine::InputSystem::Utilities::NumberHelpers::IntToNormalizedFloat)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3048420;
+  constexpr static std::size_t addrs = 0x31831ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -79,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(float_t, int32_t, int32_t)>(
     &::UnityEngine::InputSystem::Utilities::NumberHelpers::NormalizedFloatToInt)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x304845c;
+  constexpr static std::size_t addrs = 0x31831e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -95,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(uint32_t, uint32_t, uint32_t)>(
     &::UnityEngine::InputSystem::Utilities::NumberHelpers::UIntToNormalizedFloat)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x30484ac;
+  constexpr static std::size_t addrs = 0x3183238;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -111,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(float_t, uint32_t, uint32_t)>(
     &::UnityEngine::InputSystem::Utilities::NumberHelpers::NormalizedFloatToUInt)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x30484e8;
+  constexpr static std::size_t addrs = 0x3183274;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -127,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint32_t, uint32_t, uint32_t)>(
     &::UnityEngine::InputSystem::Utilities::NumberHelpers::RemapUIntBitsToNormalizeFloatToUIntBits)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3048530;
+  constexpr static std::size_t addrs = 0x31832bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::NumberHelpers*>::get(),

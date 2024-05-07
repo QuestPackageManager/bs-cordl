@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "ENet/Event.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,28 +45,28 @@ public:
 
   __declspec(property(get = get_Type))::ENet::EventType Type;
 
-  /// @brief Method .ctor, addr 0x24dcfe8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25d4c74, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::ENet::ENetEvent event);
 
-  /// @brief Method get_ChannelID, addr 0x24dd0a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ChannelID, addr 0x25d4d30, size 0x8, virtual false, abstract: false, final false
   inline uint8_t get_ChannelID();
 
-  /// @brief Method get_Data, addr 0x24dd0ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Data, addr 0x25d4d38, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_Data();
 
-  /// @brief Method get_NativeData, addr 0x24dcfd0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_NativeData, addr 0x25d4c5c, size 0xc, virtual false, abstract: false, final false
   inline ::ENet::ENetEvent get_NativeData();
 
-  /// @brief Method get_Packet, addr 0x24dd0b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Packet, addr 0x25d4d40, size 0x8, virtual false, abstract: false, final false
   inline ::ENet::Packet get_Packet();
 
-  /// @brief Method get_Peer, addr 0x24dcffc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_Peer, addr 0x25d4c88, size 0x28, virtual false, abstract: false, final false
   inline ::ENet::Peer get_Peer();
 
-  /// @brief Method get_Type, addr 0x24dcff4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x25d4c80, size 0x8, virtual false, abstract: false, final false
   inline ::ENet::EventType get_Type();
 
-  /// @brief Method set_NativeData, addr 0x24dcfdc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_NativeData, addr 0x25d4c68, size 0xc, virtual false, abstract: false, final false
   inline void set_NativeData(::ENet::ENetEvent value);
 
   // Ctor Parameters []

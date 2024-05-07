@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/FloatFxGroupEffect.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -74,7 +75,7 @@ public:
 
   constexpr void __cordl_internal_set_target(::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget> value);
 
-  /// @brief Method .ctor, addr 0x25c7e20, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c6b8c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(int32_t groupId, int32_t elementId, ::GlobalNamespace::FloatFxGroupEffectTarget* target);
 
 protected:
@@ -139,16 +140,16 @@ public:
   /// @brief Field _tweeningManager, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager))::UnityW<::Tweening::SongTimeTweeningManager> _tweeningManager;
 
-  /// @brief Method Cleanup, addr 0x25c7fa4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x26c6d10, size 0x9c, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method HandleFloatFxBeatmapEventCallback, addr 0x25c831c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method HandleFloatFxBeatmapEventCallback, addr 0x26c7088, size 0x10c, virtual false, abstract: false, final false
   inline void HandleFloatFxBeatmapEventCallback(::GlobalNamespace::FloatFxBeatmapEventData* currentEvent);
 
   static inline ::GlobalNamespace::FloatFxGroupEffect* New_ctor(::GlobalNamespace::__FloatFxGroupEffect__InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager,
                                                                 ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 
-  /// @brief Method SetValue, addr 0x25c8428, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x26c7194, size 0x2c, virtual false, abstract: false, final false
   inline void SetValue(float_t value);
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
@@ -181,7 +182,7 @@ public:
 
   constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::SongTimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x25c8148, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26c6eb4, size 0x1d4, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__FloatFxGroupEffect__InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager,
                     ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 

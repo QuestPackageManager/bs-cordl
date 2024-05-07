@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BaseViewControllersInstaller.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,7 +33,7 @@ public:
   __declspec(property(get = __cordl_internal_get__simpleDialogPromptViewControllerPrefab,
                       put = __cordl_internal_set__simpleDialogPromptViewControllerPrefab))::UnityW<::GlobalNamespace::SimpleDialogPromptViewController> _simpleDialogPromptViewControllerPrefab;
 
-  /// @brief Method InstallBindings, addr 0x262dff8, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x272ddf8, size 0xac, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::BaseViewControllersInstaller* New_ctor();
@@ -49,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set__simpleDialogPromptViewControllerPrefab(::UnityW<::GlobalNamespace::SimpleDialogPromptViewController> value);
 
-  /// @brief Method .ctor, addr 0x262e0a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x272dea4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Converters/XDeclarationWrapper.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,22 +59,22 @@ public:
 
   constexpr void __cordl_internal_set__Declaration_k__BackingField(::System::Xml::Linq::XDeclaration* value);
 
-  /// @brief Method .ctor, addr 0x298fbb8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a8d468, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XDeclaration* declaration);
 
-  /// @brief Method get_Declaration, addr 0x298fbb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Declaration, addr 0x2a8d460, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Linq::XDeclaration* get_Declaration();
 
-  /// @brief Method get_Encoding, addr 0x298fc2c, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_Encoding, addr 0x2a8d4dc, size 0x1c, virtual true, abstract: false, final true
   inline ::StringW get_Encoding();
 
-  /// @brief Method get_NodeType, addr 0x298fc08, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x2a8d4b8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method get_Standalone, addr 0x298fc64, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_Standalone, addr 0x2a8d514, size 0x1c, virtual true, abstract: false, final true
   inline ::StringW get_Standalone();
 
-  /// @brief Method get_Version, addr 0x298fc10, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_Version, addr 0x2a8d4c0, size 0x1c, virtual true, abstract: false, final true
   inline ::StringW get_Version();
 
   /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlDeclaration"
@@ -82,10 +83,10 @@ public:
   /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlNode"
   constexpr ::Newtonsoft::Json::Converters::IXmlNode* i___Newtonsoft__Json__Converters__IXmlNode() noexcept;
 
-  /// @brief Method set_Encoding, addr 0x298fc48, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method set_Encoding, addr 0x2a8d4f8, size 0x1c, virtual true, abstract: false, final true
   inline void set_Encoding(::StringW value);
 
-  /// @brief Method set_Standalone, addr 0x298fc80, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method set_Standalone, addr 0x2a8d530, size 0x1c, virtual true, abstract: false, final true
   inline void set_Standalone(::StringW value);
 
 protected:

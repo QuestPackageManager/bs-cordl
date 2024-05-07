@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/GameplayCoreSceneSetupData.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_impl.hpp"
 #include "GlobalNamespace/zzzz__LoadBeatmapLevelDataResult_impl.hpp"
 #include "GlobalNamespace/zzzz__RecordingToolManager_impl.hpp"
@@ -8,6 +9,7 @@
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplayCoreSceneSetupData_def.hpp"
+#include "BeatSaber/PerformancePresets/zzzz__PerformancePreset_def.hpp"
 #include "GlobalNamespace/zzzz__AudioClipAsyncLoader_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapBasicData_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataLoader_def.hpp"
@@ -21,7 +23,6 @@
 #include "GlobalNamespace/zzzz__IBeatmapLevelData_def.hpp"
 #include "GlobalNamespace/zzzz__IReadonlyBeatmapData_def.hpp"
 #include "GlobalNamespace/zzzz__LoadBeatmapLevelDataResult_def.hpp"
-#include "GlobalNamespace/zzzz__MainSettingsModelSO_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerSpecificSettings_def.hpp"
 #include "GlobalNamespace/zzzz__PracticeSettings_def.hpp"
 #include "GlobalNamespace/zzzz__RecordingToolManager_def.hpp"
@@ -39,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__GameplayCoreSceneSetupData___LoadTransformedBeatmapDataAsync_d__33::*)()>(
     &::GlobalNamespace::__GameplayCoreSceneSetupData___LoadTransformedBeatmapDataAsync_d__33::MoveNext)> {
   constexpr static std::size_t size = 0x4ec;
-  constexpr static std::size_t addrs = 0x25a804c;
+  constexpr static std::size_t addrs = 0x26a20f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -54,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__GameplayCoreSceneSetupData___LoadTransformedBeatmapDataAsync_d__33::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::__GameplayCoreSceneSetupData___LoadTransformedBeatmapDataAsync_d__33::SetStateMachine)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x25a8538;
+  constexpr static std::size_t addrs = 0x26a25dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -110,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__GameplayCoreSceneSetupData___LoadBeatmapLevelData_d__35::*)()>(
     &::GlobalNamespace::__GameplayCoreSceneSetupData___LoadBeatmapLevelData_d__35::MoveNext)> {
   constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x25a8544;
+  constexpr static std::size_t addrs = 0x26a25e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -125,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__GameplayCoreSceneSetupData___LoadBeatmapLevelData_d__35::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::__GameplayCoreSceneSetupData___LoadBeatmapLevelData_d__35::SetStateMachine)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x25a8780;
+  constexpr static std::size_t addrs = 0x26a2824;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -177,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::AudioClip> (::GlobalNamespace::GameplayCoreSceneSetupData::*)()>(
     &::GlobalNamespace::GameplayCoreSceneSetupData::get_songAudioClip)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25a7930;
+  constexpr static std::size_t addrs = 0x26a1a14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayCoreSceneSetupData*>::get(),
@@ -191,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayCoreSceneSetupData::*)(::UnityEngine::AudioClip*)>(
     &::GlobalNamespace::GameplayCoreSceneSetupData::set_songAudioClip)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25a7938;
+  constexpr static std::size_t addrs = 0x26a1a1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -206,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IBeatmapLevelData* (::GlobalNamespace::GameplayCoreSceneSetupData::*)()>(
     &::GlobalNamespace::GameplayCoreSceneSetupData::get_beatmapLevelData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25a7940;
+  constexpr static std::size_t addrs = 0x26a1a24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayCoreSceneSetupData*>::get(),
@@ -220,7 +221,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayCoreSceneSetupData::*)(::GlobalNamespace::IBeatmapLevelData*)>(
     &::GlobalNamespace::GameplayCoreSceneSetupData::set_beatmapLevelData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25a7948;
+  constexpr static std::size_t addrs = 0x26a1a2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -235,7 +236,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IReadonlyBeatmapData* (::GlobalNamespace::GameplayCoreSceneSetupData::*)()>(
     &::GlobalNamespace::GameplayCoreSceneSetupData::get_transformedBeatmapData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25a7950;
+  constexpr static std::size_t addrs = 0x26a1a34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayCoreSceneSetupData*>::get(),
@@ -249,7 +250,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayCoreSceneSetupData::*)(::GlobalNamespace::IReadonlyBeatmapData*)>(
     &::GlobalNamespace::GameplayCoreSceneSetupData::set_transformedBeatmapData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25a7958;
+  constexpr static std::size_t addrs = 0x26a1a3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -263,11 +264,11 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayCoreSceneSetupData::*)(
     ByRef<::GlobalNamespace::BeatmapKey>, ::GlobalNamespace::BeatmapLevel*, ::GlobalNamespace::GameplayModifiers*, ::GlobalNamespace::PlayerSpecificSettings*, ::GlobalNamespace::PracticeSettings*,
-    bool, ::GlobalNamespace::EnvironmentInfoSO*, ::GlobalNamespace::ColorScheme*, ::GlobalNamespace::MainSettingsModelSO*, ::GlobalNamespace::AudioClipAsyncLoader*,
+    bool, ::GlobalNamespace::EnvironmentInfoSO*, ::GlobalNamespace::ColorScheme*, ::BeatSaber::PerformancePresets::PerformancePreset*, ::GlobalNamespace::AudioClipAsyncLoader*,
     ::GlobalNamespace::BeatmapDataLoader*, ::GlobalNamespace::BeatmapLevelsModel*, bool, ::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData>)>(
     &::GlobalNamespace::GameplayCoreSceneSetupData::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x25a7960;
+  constexpr static std::size_t addrs = 0x26a1a44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -280,7 +281,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PracticeSettings*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentInfoSO*>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorScheme*>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MainSettingsModelSO*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatSaber::PerformancePresets::PerformancePreset*>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::AudioClipAsyncLoader*>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapDataLoader*>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevelsModel*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
@@ -293,11 +294,11 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayCoreSceneSetupData::*)(
     ::GlobalNamespace::IBeatmapLevelData*, ByRef<::GlobalNamespace::BeatmapKey>, ::GlobalNamespace::BeatmapLevel*, ::GlobalNamespace::GameplayModifiers*, ::GlobalNamespace::PlayerSpecificSettings*,
-    ::GlobalNamespace::PracticeSettings*, bool, ::GlobalNamespace::EnvironmentInfoSO*, ::GlobalNamespace::ColorScheme*, ::GlobalNamespace::MainSettingsModelSO*,
+    ::GlobalNamespace::PracticeSettings*, bool, ::GlobalNamespace::EnvironmentInfoSO*, ::GlobalNamespace::ColorScheme*, ::BeatSaber::PerformancePresets::PerformancePreset*,
     ::GlobalNamespace::AudioClipAsyncLoader*, ::GlobalNamespace::BeatmapDataLoader*, bool, ::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData>)>(
     &::GlobalNamespace::GameplayCoreSceneSetupData::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x25a7b90;
+  constexpr static std::size_t addrs = 0x26a1c34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -311,7 +312,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PracticeSettings*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentInfoSO*>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorScheme*>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MainSettingsModelSO*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatSaber::PerformancePresets::PerformancePreset*>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::AudioClipAsyncLoader*>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapDataLoader*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData>>::get() })));
@@ -323,10 +324,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayCoreSceneSetupData::*)(
     ByRef<::GlobalNamespace::BeatmapKey>, ::GlobalNamespace::BeatmapLevel*, ::GlobalNamespace::GameplayModifiers*, ::GlobalNamespace::PlayerSpecificSettings*, ::GlobalNamespace::PracticeSettings*,
-    bool, ::GlobalNamespace::EnvironmentInfoSO*, ::GlobalNamespace::ColorScheme*, ::GlobalNamespace::MainSettingsModelSO*, ::GlobalNamespace::AudioClipAsyncLoader*,
+    bool, ::GlobalNamespace::EnvironmentInfoSO*, ::GlobalNamespace::ColorScheme*, ::BeatSaber::PerformancePresets::PerformancePreset*, ::GlobalNamespace::AudioClipAsyncLoader*,
     ::GlobalNamespace::BeatmapDataLoader*, bool, ::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData>)>(&::GlobalNamespace::GameplayCoreSceneSetupData::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x25a7c0c;
+  constexpr static std::size_t addrs = 0x26a1cb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -339,7 +340,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PracticeSettings*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentInfoSO*>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorScheme*>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MainSettingsModelSO*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatSaber::PerformancePresets::PerformancePreset*>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::AudioClipAsyncLoader*>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapDataLoader*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData>>::get() })));
@@ -351,10 +352,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayCoreSceneSetupData::*)(
     ByRef<::GlobalNamespace::BeatmapKey>, ::GlobalNamespace::BeatmapLevel*, ::GlobalNamespace::GameplayModifiers*, ::GlobalNamespace::PlayerSpecificSettings*, ::GlobalNamespace::PracticeSettings*,
-    bool, ::GlobalNamespace::EnvironmentInfoSO*, ::GlobalNamespace::ColorScheme*, ::GlobalNamespace::MainSettingsModelSO*, ::GlobalNamespace::AudioClipAsyncLoader*,
+    bool, ::GlobalNamespace::EnvironmentInfoSO*, ::GlobalNamespace::ColorScheme*, ::BeatSaber::PerformancePresets::PerformancePreset*, ::GlobalNamespace::AudioClipAsyncLoader*,
     ::GlobalNamespace::BeatmapDataLoader*, bool, bool, ::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData>)>(&::GlobalNamespace::GameplayCoreSceneSetupData::_ctor)> {
-  constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x25a79bc;
+  constexpr static std::size_t size = 0x194;
+  constexpr static std::size_t addrs = 0x26a1aa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -367,7 +368,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentInfoSO*>::get(),
                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorScheme*>::get(),
-                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MainSettingsModelSO*>::get(),
+                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatSaber::PerformancePresets::PerformancePreset*>::get(),
                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::AudioClipAsyncLoader*>::get(),
                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapDataLoader*>::get(),
                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
@@ -381,7 +382,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayCoreSceneSetupData::*)()>(
     &::GlobalNamespace::GameplayCoreSceneSetupData::LoadTransformedBeatmapData)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x25a7c58;
+  constexpr static std::size_t addrs = 0x26a1cfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayCoreSceneSetupData*>::get(),
@@ -395,7 +396,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::GameplayCoreSceneSetupData::*)()>(
     &::GlobalNamespace::GameplayCoreSceneSetupData::LoadTransformedBeatmapDataAsync)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x25a7e94;
+  constexpr static std::size_t addrs = 0x26a1f38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -410,7 +411,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IReadonlyBeatmapData* (
     ::GlobalNamespace::GameplayCoreSceneSetupData::*)(::GlobalNamespace::IReadonlyBeatmapData*)>(&::GlobalNamespace::GameplayCoreSceneSetupData::TransformBeatmapData)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x25a7e40;
+  constexpr static std::size_t addrs = 0x26a1ee4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -425,7 +426,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::IBeatmapLevelData*>* (
     ::GlobalNamespace::GameplayCoreSceneSetupData::*)()>(&::GlobalNamespace::GameplayCoreSceneSetupData::LoadBeatmapLevelData)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x25a7f5c;
+  constexpr static std::size_t addrs = 0x26a2000;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayCoreSceneSetupData*>::get(),
@@ -592,17 +593,17 @@ constexpr void GlobalNamespace::GameplayCoreSceneSetupData::__cordl_internal_set
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____transformedBeatmapData_k__BackingField)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO>& GlobalNamespace::GameplayCoreSceneSetupData::__cordl_internal_get__mainSettingsModel() {
+constexpr ::BeatSaber::PerformancePresets::PerformancePreset*& GlobalNamespace::GameplayCoreSceneSetupData::__cordl_internal_get__performancePreset() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____mainSettingsModel;
+  return this->____performancePreset;
 }
-constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO> const& GlobalNamespace::GameplayCoreSceneSetupData::__cordl_internal_get__mainSettingsModel() const {
+constexpr ::cordl_internals::to_const_pointer<::BeatSaber::PerformancePresets::PerformancePreset*> const& GlobalNamespace::GameplayCoreSceneSetupData::__cordl_internal_get__performancePreset() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____mainSettingsModel;
+  return this->____performancePreset;
 }
-constexpr void GlobalNamespace::GameplayCoreSceneSetupData::__cordl_internal_set__mainSettingsModel(::UnityW<::GlobalNamespace::MainSettingsModelSO> value) {
+constexpr void GlobalNamespace::GameplayCoreSceneSetupData::__cordl_internal_set__performancePreset(::BeatSaber::PerformancePresets::PerformancePreset* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mainSettingsModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____performancePreset)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::BeatmapLevelsModel*& GlobalNamespace::GameplayCoreSceneSetupData::__cordl_internal_get__beatmapLevelsModel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -701,11 +702,11 @@ inline void GlobalNamespace::GameplayCoreSceneSetupData::set_transformedBeatmapD
 inline ::GlobalNamespace::GameplayCoreSceneSetupData* GlobalNamespace::GameplayCoreSceneSetupData::New_ctor(
     ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
     ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings, bool useTestNoteCutSoundEffects,
-    ::GlobalNamespace::EnvironmentInfoSO* environmentInfo, ::GlobalNamespace::ColorScheme* colorScheme, ::GlobalNamespace::MainSettingsModelSO* mainSettingsModel,
+    ::GlobalNamespace::EnvironmentInfoSO* environmentInfo, ::GlobalNamespace::ColorScheme* colorScheme, ::BeatSaber::PerformancePresets::PerformancePreset* performancePreset,
     ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader, ::GlobalNamespace::BeatmapDataLoader* beatmapDataLoader, ::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel,
     bool enableBeatmapDataCaching, ::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData> recordingToolData) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::GameplayCoreSceneSetupData*>(beatmapKey, beatmapLevel, gameplayModifiers, playerSpecificSettings, practiceSettings,
-                                                                                                  useTestNoteCutSoundEffects, environmentInfo, colorScheme, mainSettingsModel, audioClipAsyncLoader,
+                                                                                                  useTestNoteCutSoundEffects, environmentInfo, colorScheme, performancePreset, audioClipAsyncLoader,
                                                                                                   beatmapDataLoader, beatmapLevelsModel, enableBeatmapDataCaching, recordingToolData));
 }
 /// @param recordingToolData: ::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData> (default: {})
@@ -713,7 +714,7 @@ inline void GlobalNamespace::GameplayCoreSceneSetupData::_ctor(ByRef<::GlobalNam
                                                                ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings,
                                                                ::GlobalNamespace::PracticeSettings* practiceSettings, bool useTestNoteCutSoundEffects,
                                                                ::GlobalNamespace::EnvironmentInfoSO* environmentInfo, ::GlobalNamespace::ColorScheme* colorScheme,
-                                                               ::GlobalNamespace::MainSettingsModelSO* mainSettingsModel, ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader,
+                                                               ::BeatSaber::PerformancePresets::PerformancePreset* performancePreset, ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader,
                                                                ::GlobalNamespace::BeatmapDataLoader* beatmapDataLoader, ::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel,
                                                                bool enableBeatmapDataCaching, ::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData> recordingToolData) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -726,24 +727,24 @@ inline void GlobalNamespace::GameplayCoreSceneSetupData::_ctor(ByRef<::GlobalNam
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PracticeSettings*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentInfoSO*>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorScheme*>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MainSettingsModelSO*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatSaber::PerformancePresets::PerformancePreset*>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::AudioClipAsyncLoader*>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapDataLoader*>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevelsModel*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, beatmapKey, beatmapLevel, gameplayModifiers, playerSpecificSettings, practiceSettings, useTestNoteCutSoundEffects,
-                                                          environmentInfo, colorScheme, mainSettingsModel, audioClipAsyncLoader, beatmapDataLoader, beatmapLevelsModel, enableBeatmapDataCaching,
+                                                          environmentInfo, colorScheme, performancePreset, audioClipAsyncLoader, beatmapDataLoader, beatmapLevelsModel, enableBeatmapDataCaching,
                                                           recordingToolData);
 }
 /// @param recordingToolData: ::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData> (default: {})
 inline ::GlobalNamespace::GameplayCoreSceneSetupData* GlobalNamespace::GameplayCoreSceneSetupData::New_ctor(
     ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData, ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
     ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings,
-    bool useTestNoteCutSoundEffects, ::GlobalNamespace::EnvironmentInfoSO* environmentInfo, ::GlobalNamespace::ColorScheme* colorScheme, ::GlobalNamespace::MainSettingsModelSO* mainSettingsModel,
-    ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader, ::GlobalNamespace::BeatmapDataLoader* beatmapDataLoader, bool enableBeatmapDataCaching,
-    ::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData> recordingToolData) {
+    bool useTestNoteCutSoundEffects, ::GlobalNamespace::EnvironmentInfoSO* environmentInfo, ::GlobalNamespace::ColorScheme* colorScheme,
+    ::BeatSaber::PerformancePresets::PerformancePreset* performancePreset, ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader, ::GlobalNamespace::BeatmapDataLoader* beatmapDataLoader,
+    bool enableBeatmapDataCaching, ::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData> recordingToolData) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::GameplayCoreSceneSetupData*>(beatmapLevelData, beatmapKey, beatmapLevel, gameplayModifiers, playerSpecificSettings,
-                                                                                                  practiceSettings, useTestNoteCutSoundEffects, environmentInfo, colorScheme, mainSettingsModel,
+                                                                                                  practiceSettings, useTestNoteCutSoundEffects, environmentInfo, colorScheme, performancePreset,
                                                                                                   audioClipAsyncLoader, beatmapDataLoader, enableBeatmapDataCaching, recordingToolData));
 }
 /// @param recordingToolData: ::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData> (default: {})
@@ -751,7 +752,7 @@ inline void GlobalNamespace::GameplayCoreSceneSetupData::_ctor(::GlobalNamespace
                                                                ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
                                                                ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings,
                                                                bool useTestNoteCutSoundEffects, ::GlobalNamespace::EnvironmentInfoSO* environmentInfo, ::GlobalNamespace::ColorScheme* colorScheme,
-                                                               ::GlobalNamespace::MainSettingsModelSO* mainSettingsModel, ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader,
+                                                               ::BeatSaber::PerformancePresets::PerformancePreset* performancePreset, ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader,
                                                                ::GlobalNamespace::BeatmapDataLoader* beatmapDataLoader, bool enableBeatmapDataCaching,
                                                                ::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData> recordingToolData) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -765,12 +766,12 @@ inline void GlobalNamespace::GameplayCoreSceneSetupData::_ctor(::GlobalNamespace
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PracticeSettings*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentInfoSO*>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorScheme*>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MainSettingsModelSO*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatSaber::PerformancePresets::PerformancePreset*>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::AudioClipAsyncLoader*>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapDataLoader*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, beatmapLevelData, beatmapKey, beatmapLevel, gameplayModifiers, playerSpecificSettings, practiceSettings,
-                                                          useTestNoteCutSoundEffects, environmentInfo, colorScheme, mainSettingsModel, audioClipAsyncLoader, beatmapDataLoader,
+                                                          useTestNoteCutSoundEffects, environmentInfo, colorScheme, performancePreset, audioClipAsyncLoader, beatmapDataLoader,
                                                           enableBeatmapDataCaching, recordingToolData);
 }
 /// @param recordingToolData: ::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData> (default: {})
@@ -778,11 +779,11 @@ inline ::GlobalNamespace::GameplayCoreSceneSetupData*
 GlobalNamespace::GameplayCoreSceneSetupData::New_ctor(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
                                                       ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings,
                                                       ::GlobalNamespace::PracticeSettings* practiceSettings, bool useTestNoteCutSoundEffects, ::GlobalNamespace::EnvironmentInfoSO* environmentInfo,
-                                                      ::GlobalNamespace::ColorScheme* colorScheme, ::GlobalNamespace::MainSettingsModelSO* mainSettingsModel,
+                                                      ::GlobalNamespace::ColorScheme* colorScheme, ::BeatSaber::PerformancePresets::PerformancePreset* performancePreset,
                                                       ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader, ::GlobalNamespace::BeatmapDataLoader* beatmapDataLoader,
                                                       bool enableBeatmapDataCaching, ::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData> recordingToolData) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::GameplayCoreSceneSetupData*>(beatmapKey, beatmapLevel, gameplayModifiers, playerSpecificSettings, practiceSettings,
-                                                                                                  useTestNoteCutSoundEffects, environmentInfo, colorScheme, mainSettingsModel, audioClipAsyncLoader,
+                                                                                                  useTestNoteCutSoundEffects, environmentInfo, colorScheme, performancePreset, audioClipAsyncLoader,
                                                                                                   beatmapDataLoader, enableBeatmapDataCaching, recordingToolData));
 }
 /// @param recordingToolData: ::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData> (default: {})
@@ -790,7 +791,7 @@ inline void GlobalNamespace::GameplayCoreSceneSetupData::_ctor(ByRef<::GlobalNam
                                                                ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings,
                                                                ::GlobalNamespace::PracticeSettings* practiceSettings, bool useTestNoteCutSoundEffects,
                                                                ::GlobalNamespace::EnvironmentInfoSO* environmentInfo, ::GlobalNamespace::ColorScheme* colorScheme,
-                                                               ::GlobalNamespace::MainSettingsModelSO* mainSettingsModel, ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader,
+                                                               ::BeatSaber::PerformancePresets::PerformancePreset* performancePreset, ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader,
                                                                ::GlobalNamespace::BeatmapDataLoader* beatmapDataLoader, bool enableBeatmapDataCaching,
                                                                ::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData> recordingToolData) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -803,22 +804,22 @@ inline void GlobalNamespace::GameplayCoreSceneSetupData::_ctor(ByRef<::GlobalNam
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PracticeSettings*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentInfoSO*>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorScheme*>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MainSettingsModelSO*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatSaber::PerformancePresets::PerformancePreset*>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::AudioClipAsyncLoader*>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapDataLoader*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, beatmapKey, beatmapLevel, gameplayModifiers, playerSpecificSettings, practiceSettings, useTestNoteCutSoundEffects,
-                                                          environmentInfo, colorScheme, mainSettingsModel, audioClipAsyncLoader, beatmapDataLoader, enableBeatmapDataCaching, recordingToolData);
+                                                          environmentInfo, colorScheme, performancePreset, audioClipAsyncLoader, beatmapDataLoader, enableBeatmapDataCaching, recordingToolData);
 }
 /// @param recordingToolData: ::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData> (default: {})
 inline ::GlobalNamespace::GameplayCoreSceneSetupData* GlobalNamespace::GameplayCoreSceneSetupData::New_ctor(
     ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
     ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings, bool useTestNoteCutSoundEffects,
-    ::GlobalNamespace::EnvironmentInfoSO* environmentInfo, ::GlobalNamespace::ColorScheme* colorScheme, ::GlobalNamespace::MainSettingsModelSO* mainSettingsModel,
+    ::GlobalNamespace::EnvironmentInfoSO* environmentInfo, ::GlobalNamespace::ColorScheme* colorScheme, ::BeatSaber::PerformancePresets::PerformancePreset* performancePreset,
     ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader, ::GlobalNamespace::BeatmapDataLoader* beatmapDataLoader, bool enableBeatmapDataCaching, bool allowNullBeatmapLevelData,
     ::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData> recordingToolData) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::GameplayCoreSceneSetupData*>(beatmapKey, beatmapLevel, gameplayModifiers, playerSpecificSettings, practiceSettings,
-                                                                                                  useTestNoteCutSoundEffects, environmentInfo, colorScheme, mainSettingsModel, audioClipAsyncLoader,
+                                                                                                  useTestNoteCutSoundEffects, environmentInfo, colorScheme, performancePreset, audioClipAsyncLoader,
                                                                                                   beatmapDataLoader, enableBeatmapDataCaching, allowNullBeatmapLevelData, recordingToolData));
 }
 /// @param recordingToolData: ::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData> (default: {})
@@ -826,7 +827,7 @@ inline void GlobalNamespace::GameplayCoreSceneSetupData::_ctor(ByRef<::GlobalNam
                                                                ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings,
                                                                ::GlobalNamespace::PracticeSettings* practiceSettings, bool useTestNoteCutSoundEffects,
                                                                ::GlobalNamespace::EnvironmentInfoSO* environmentInfo, ::GlobalNamespace::ColorScheme* colorScheme,
-                                                               ::GlobalNamespace::MainSettingsModelSO* mainSettingsModel, ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader,
+                                                               ::BeatSaber::PerformancePresets::PerformancePreset* performancePreset, ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader,
                                                                ::GlobalNamespace::BeatmapDataLoader* beatmapDataLoader, bool enableBeatmapDataCaching, bool allowNullBeatmapLevelData,
                                                                ::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData> recordingToolData) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -839,13 +840,13 @@ inline void GlobalNamespace::GameplayCoreSceneSetupData::_ctor(ByRef<::GlobalNam
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentInfoSO*>::get(),
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorScheme*>::get(),
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MainSettingsModelSO*>::get(),
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatSaber::PerformancePresets::PerformancePreset*>::get(),
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::AudioClipAsyncLoader*>::get(),
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapDataLoader*>::get(),
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, beatmapKey, beatmapLevel, gameplayModifiers, playerSpecificSettings, practiceSettings, useTestNoteCutSoundEffects,
-                                                          environmentInfo, colorScheme, mainSettingsModel, audioClipAsyncLoader, beatmapDataLoader, enableBeatmapDataCaching, allowNullBeatmapLevelData,
+                                                          environmentInfo, colorScheme, performancePreset, audioClipAsyncLoader, beatmapDataLoader, enableBeatmapDataCaching, allowNullBeatmapLevelData,
                                                           recordingToolData);
 }
 inline void GlobalNamespace::GameplayCoreSceneSetupData::LoadTransformedBeatmapData() {

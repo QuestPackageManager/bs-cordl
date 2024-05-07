@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Collections/Specialized/NotifyCollectionChangedEventHandler.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Collections/Specialized/zzzz__NotifyCollectionChangedEventHandler_def.hpp"
 #include "System/Collections/Specialized/zzzz__NotifyCollectionChangedEventArgs_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::NotifyCollectionChangedEventHandler::*)(::System::Object*, void*)>(
     &::System::Collections::Specialized::NotifyCollectionChangedEventHandler::_ctor)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x2e73ca8;
+  constexpr static std::size_t addrs = 0x2f725a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::NotifyCollectionChangedEventHandler::*)(
     ::System::Object*, ::System::Collections::Specialized::NotifyCollectionChangedEventArgs*)>(&::System::Collections::Specialized::NotifyCollectionChangedEventHandler::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2e73dd8;
+  constexpr static std::size_t addrs = 0x2f726d8;
 
   inline static ::MethodInfo const* methodInfo() {
 

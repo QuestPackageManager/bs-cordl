@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/ContextClickEvent.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,7 +21,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::ContextClickEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x33a04c8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35a6204, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

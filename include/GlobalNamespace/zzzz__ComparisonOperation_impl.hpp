@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ComparisonOperation.hpp"
 #include "GlobalNamespace/zzzz__ComparisonOperation_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::ComparisonOperation::ComparisonOperation(int32_t value__) noexcept {

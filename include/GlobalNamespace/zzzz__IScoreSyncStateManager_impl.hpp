@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IScoreSyncStateManager.hpp"
 #include "GlobalNamespace/zzzz__IScoreSyncStateManager_def.hpp"
 #include "GlobalNamespace/zzzz__IScoreSyncStateManager_5_def.hpp"
 #include "GlobalNamespace/zzzz__StandardScoreSyncStateDeltaNetSerializable_def.hpp"

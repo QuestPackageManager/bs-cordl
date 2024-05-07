@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/Shaders.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__Shaders_def.hpp"
 inline void UnityEngine::UIElements::UIR::Shaders::setStaticF_k_AtlasBlit(::StringW value) {

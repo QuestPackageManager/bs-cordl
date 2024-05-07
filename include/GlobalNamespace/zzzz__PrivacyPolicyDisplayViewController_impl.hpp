@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/PrivacyPolicyDisplayViewController.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "GlobalNamespace/zzzz__PrivacyPolicyDisplayViewController_def.hpp"
 #include "GlobalNamespace/zzzz__LocalizedTextAsset_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PrivacyPolicyDisplayViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::PrivacyPolicyDisplayViewController::DidActivate)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2564bec;
+  constexpr static std::size_t addrs = 0x265a40c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PrivacyPolicyDisplayViewController::*)()>(
     &::GlobalNamespace::PrivacyPolicyDisplayViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2564c30;
+  constexpr static std::size_t addrs = 0x265a450;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PrivacyPolicyDisplayViewController*>::get(),

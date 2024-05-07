@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/Entitlements.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,7 +22,7 @@ namespace Oculus::Platform {
 class CORDL_TYPE Entitlements : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsUserEntitledToApplication, addr 0x29d54c8, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method IsUserEntitledToApplication, addr 0x2ad2d78, size 0x144, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request* IsUserEntitledToApplication();
 
 protected:

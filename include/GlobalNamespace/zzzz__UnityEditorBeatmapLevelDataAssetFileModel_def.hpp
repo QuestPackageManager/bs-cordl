@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/UnityEditorBeatmapLevelDataAssetFileModel.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -32,13 +33,13 @@ public:
   /// @brief Method LoadAllAssetsFromAssetDatabase, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T, ::Array<T>*> LoadAllAssetsFromAssetDatabase();
 
-  /// @brief Method LoadBeatmapLevelDataFromAssetDatabase, addr 0x13ff2ac, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method LoadBeatmapLevelDataFromAssetDatabase, addr 0x14f0868, size 0x74, virtual false, abstract: false, final false
   static inline ::UnityW<::GlobalNamespace::BeatmapLevelDataSO> LoadBeatmapLevelDataFromAssetDatabase(::StringW levelId);
 
-  /// @brief Method LoadBeatmapLevelFromAssetDatabase, addr 0x13ff320, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method LoadBeatmapLevelFromAssetDatabase, addr 0x14f08dc, size 0x74, virtual false, abstract: false, final false
   static inline ::UnityW<::GlobalNamespace::BeatmapLevelSO> LoadBeatmapLevelFromAssetDatabase(::StringW levelId);
 
-  /// @brief Method LoadBeatmapLevelPackFromAssetDatabase, addr 0x13ff394, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method LoadBeatmapLevelPackFromAssetDatabase, addr 0x14f0950, size 0x74, virtual false, abstract: false, final false
   static inline ::UnityW<::GlobalNamespace::BeatmapLevelPackSO> LoadBeatmapLevelPackFromAssetDatabase(::StringW packId);
 
   /// @brief Method LoadUniqueAssetFromAssetDatabase, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/TextCore/Text/TextStyleSheet.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextStyleSheet_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::TextStyle*>* (
     ::UnityEngine::TextCore::Text::TextStyleSheet::*)()>(&::UnityEngine::TextCore::Text::TextStyleSheet::get_styles)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32999e8;
+  constexpr static std::size_t addrs = 0x34a1724;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextStyleSheet*>::get(),
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextCore::Text::TextStyle* (::UnityEngine::TextCore::Text::TextStyleSheet::*)(int32_t)>(
     &::UnityEngine::TextCore::Text::TextStyleSheet::GetStyle)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x32999f0;
+  constexpr static std::size_t addrs = 0x34a172c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextCore::Text::TextStyle* (::UnityEngine::TextCore::Text::TextStyleSheet::*)(::StringW)>(
     &::UnityEngine::TextCore::Text::TextStyleSheet::GetStyle)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3299c3c;
+  constexpr static std::size_t addrs = 0x34a1978;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextStyleSheet::*)()>(
     &::UnityEngine::TextCore::Text::TextStyleSheet::RefreshStyles)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3299cd4;
+  constexpr static std::size_t addrs = 0x34a1a10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextStyleSheet*>::get(),
@@ -68,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextStyleSheet::*)()>(
     &::UnityEngine::TextCore::Text::TextStyleSheet::LoadStyleDictionaryInternal)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x3299a78;
+  constexpr static std::size_t addrs = 0x34a17b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextStyleSheet*>::get(),
@@ -81,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextStyleSheet::*)()>(&::UnityEngine::TextCore::Text::TextStyleSheet::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3299cd8;
+  constexpr static std::size_t addrs = 0x34a1a14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextStyleSheet*>::get(), ".ctor",

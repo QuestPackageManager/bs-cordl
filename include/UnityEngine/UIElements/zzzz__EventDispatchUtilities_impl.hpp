@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/EventDispatchUtilities.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__EventDispatchUtilities_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UIElements::EventBase*)>(
     &::UnityEngine::UIElements::EventDispatchUtilities::PropagateEvent)> {
   constexpr static std::size_t size = 0x74c;
-  constexpr static std::size_t addrs = 0x339aef4;
+  constexpr static std::size_t addrs = 0x35a0c30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::EventBase*)>(
     &::UnityEngine::UIElements::EventDispatchUtilities::PropagateToIMGUIContainer)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x339b64c;
+  constexpr static std::size_t addrs = 0x35a1388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::IPanel*)>(
     &::UnityEngine::UIElements::EventDispatchUtilities::ExecuteDefaultAction)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x33a27e0;
+  constexpr static std::size_t addrs = 0x35a851c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

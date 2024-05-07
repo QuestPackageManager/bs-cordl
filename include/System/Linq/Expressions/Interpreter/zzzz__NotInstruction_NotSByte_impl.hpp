@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/NotInstruction_NotSByte.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__NotInstruction_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__NotInstruction_NotSByte_def.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__InterpretedFrame_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::__NotInstruction__NotSByte::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::System::Linq::Expressions::Interpreter::__NotInstruction__NotSByte::Run)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x2b463ac;
+  constexpr static std::size_t addrs = 0x2c42cac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::__NotInstruction__NotSByte::*)()>(
     &::System::Linq::Expressions::Interpreter::__NotInstruction__NotSByte::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b45e5c;
+  constexpr static std::size_t addrs = 0x2c4275c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

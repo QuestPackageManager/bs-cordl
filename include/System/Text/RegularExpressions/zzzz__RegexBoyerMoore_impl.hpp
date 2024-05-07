@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Text/RegularExpressions/RegexBoyerMoore.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Text/RegularExpressions/zzzz__RegexBoyerMoore_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::RegexBoyerMoore::*)(
     ::StringW, bool, bool, ::System::Globalization::CultureInfo*)>(&::System::Text::RegularExpressions::RegexBoyerMoore::_ctor)> {
   constexpr static std::size_t size = 0x4b4;
-  constexpr static std::size_t addrs = 0x2e88648;
+  constexpr static std::size_t addrs = 0x2f87f48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Text::RegularExpressions::RegexBoyerMoore::*)(::StringW, int32_t)>(
     &::System::Text::RegularExpressions::RegexBoyerMoore::MatchPattern)> {
   constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x2e88afc;
+  constexpr static std::size_t addrs = 0x2f883fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Text::RegularExpressions::RegexBoyerMoore::*)(::StringW, int32_t, int32_t, int32_t)>(
     &::System::Text::RegularExpressions::RegexBoyerMoore::IsMatch)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x2e88c20;
+  constexpr static std::size_t addrs = 0x2f88520;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -56,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::RegularExpressions::RegexBoyerMoore::*)(::StringW, int32_t, int32_t, int32_t)>(
     &::System::Text::RegularExpressions::RegexBoyerMoore::Scan)> {
   constexpr static std::size_t size = 0x2e4;
-  constexpr static std::size_t addrs = 0x2e88c8c;
+  constexpr static std::size_t addrs = 0x2f8858c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

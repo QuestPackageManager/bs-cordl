@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BeatmapDataItemExecutionOrderConstants.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataItemExecutionOrderConstants_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BeatmapDataItemExecutionOrderConstants._ctor
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapDataItemExecutionOrderConstants::*)()>(
     &::GlobalNamespace::BeatmapDataItemExecutionOrderConstants::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf46848;
+  constexpr static std::size_t addrs = 0x10353bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

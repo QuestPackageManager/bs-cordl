@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/PointerType.hpp"
 #include "UnityEngine/zzzz__PointerType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::PointerType::PointerType(int32_t value__) noexcept {

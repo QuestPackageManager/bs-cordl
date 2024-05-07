@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/InputActionProperty.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,31 +45,31 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityW<::UnityEngine::InputSystem::InputActionReference>>"
   constexpr operator ::System::IEquatable_1<::UnityW<::UnityEngine::InputSystem::InputActionReference>>*();
 
-  /// @brief Method Equals, addr 0x2f7b588, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x30b8314, size 0xcc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x2f7b500, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x30b828c, size 0x1c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::InputSystem::InputAction* other);
 
-  /// @brief Method Equals, addr 0x2f7b45c, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x30b81e8, size 0xa4, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::InputSystem::InputActionProperty other);
 
-  /// @brief Method Equals, addr 0x2f7b51c, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x30b82a8, size 0x6c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::InputSystem::InputActionReference* other);
 
-  /// @brief Method GetHashCode, addr 0x2f7b654, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x30b83e0, size 0x9c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x2f7b440, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x30b81cc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::InputAction* action);
 
-  /// @brief Method .ctor, addr 0x2f7b44c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x30b81d8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::InputActionReference* reference);
 
-  /// @brief Method get_action, addr 0x2f7b2e8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_action, addr 0x30b8074, size 0x94, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputAction* get_action();
 
-  /// @brief Method get_reference, addr 0x2f7b428, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_reference, addr 0x30b81b4, size 0x18, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> get_reference();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::InputSystem::InputActionProperty>"
@@ -80,10 +81,10 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::UnityW<::UnityEngine::InputSystem::InputActionReference>>"
   constexpr ::System::IEquatable_1<::UnityW<::UnityEngine::InputSystem::InputActionReference>>* i___System__IEquatable_1___UnityW___UnityEngine__InputSystem__InputActionReference__();
 
-  /// @brief Method op_Equality, addr 0x2f7b6f0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x30b847c, size 0x30, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::InputSystem::InputActionProperty left, ::UnityEngine::InputSystem::InputActionProperty right);
 
-  /// @brief Method op_Inequality, addr 0x2f7b720, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x30b84ac, size 0x34, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::InputSystem::InputActionProperty left, ::UnityEngine::InputSystem::InputActionProperty right);
 
   // Ctor Parameters []

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Math/EC/SimpleLookupTable.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__AbstractECLookupTable_impl.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__SimpleLookupTable_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECPoint_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*> (*)(
     ::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Math::EC::SimpleLookupTable::Copy)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x11cafdc;
+  constexpr static std::size_t addrs = 0x12bb700;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::SimpleLookupTable::*)(
     ::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Math::EC::SimpleLookupTable::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x11cb0c8;
+  constexpr static std::size_t addrs = 0x12bb7ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Math::EC::SimpleLookupTable::*)()>(
     &::Org::BouncyCastle::Math::EC::SimpleLookupTable::get_Size)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x11cb110;
+  constexpr static std::size_t addrs = 0x12bb834;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECPoint* (::Org::BouncyCastle::Math::EC::SimpleLookupTable::*)(int32_t)>(
     &::Org::BouncyCastle::Math::EC::SimpleLookupTable::Lookup)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x11cb12c;
+  constexpr static std::size_t addrs = 0x12bb850;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -74,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECPoint* (::Org::BouncyCastle::Math::EC::SimpleLookupTable::*)(int32_t)>(
     &::Org::BouncyCastle::Math::EC::SimpleLookupTable::LookupVar)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x11cb17c;
+  constexpr static std::size_t addrs = 0x12bb8a0;
 
   inline static ::MethodInfo const* methodInfo() {
 

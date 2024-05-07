@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UI/IClipper.hpp"
 #include "UnityEngine/UI/zzzz__IClipper_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UI::IClipper.PerformClipping
 template <>

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Security/Interface/MonoLocalCertificateSelectionCallback.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,7 +31,7 @@ namespace Mono::Security::Interface {
 class CORDL_TYPE MonoLocalCertificateSelectionCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2683bac, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2780fa8, size 0x14, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate* Invoke(::StringW targetHost,
                                                                                      ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* localCertificates,
                                                                                      ::System::Security::Cryptography::X509Certificates::X509Certificate* remoteCertificate,
@@ -38,7 +39,7 @@ public:
 
   static inline ::Mono::Security::Interface::MonoLocalCertificateSelectionCallback* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x2683ad4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2780ed0, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:

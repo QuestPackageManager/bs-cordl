@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/SubContainerCreatorByInstaller.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -57,7 +58,7 @@ public:
   /// @brief Convert operator to "::Zenject::ISubContainerCreator"
   constexpr operator ::Zenject::ISubContainerCreator*() noexcept;
 
-  /// @brief Method CreateSubContainer, addr 0x345a0ac, size 0x1a8, virtual true, abstract: false, final true
+  /// @brief Method CreateSubContainer, addr 0x365e074, size 0x1a8, virtual true, abstract: false, final true
   inline ::Zenject::DiContainer* CreateSubContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::InjectContext* context);
 
   static inline ::Zenject::SubContainerCreatorByInstaller* New_ctor(::Zenject::DiContainer* container, ::Zenject::SubContainerCreatorBindInfo* containerBindInfo, ::System::Type* installerType);
@@ -89,10 +90,10 @@ public:
 
   constexpr void __cordl_internal_set__installerType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x345a00c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x365dfd4, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::Zenject::SubContainerCreatorBindInfo* containerBindInfo, ::System::Type* installerType);
 
-  /// @brief Method .ctor, addr 0x3459f1c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x365dee4, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::Zenject::SubContainerCreatorBindInfo* containerBindInfo, ::System::Type* installerType,
                     ::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>* extraArgs);
 

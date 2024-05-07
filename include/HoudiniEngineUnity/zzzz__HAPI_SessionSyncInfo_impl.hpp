@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HAPI_SessionSyncInfo.hpp"
 #include "HoudiniEngineUnity/zzzz__HAPI_SessionSyncInfo_def.hpp"
 // Ctor Parameters [CppParam { name: "cookUsingHoudiniTime", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "syncViewport", ty: "bool", modifiers: "", def_value: Some("{}") }]
 constexpr ::HoudiniEngineUnity::HAPI_SessionSyncInfo::HAPI_SessionSyncInfo(bool cookUsingHoudiniTime, bool syncViewport) noexcept {

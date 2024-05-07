@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ResultObjectiveListItem.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ResultObjectiveListItem_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
@@ -11,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ResultObjectiveListItem::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::ResultObjectiveListItem::set_iconColor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2575c24;
+  constexpr static std::size_t addrs = 0x266e05c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ResultObjectiveListItem::*)(::UnityEngine::Sprite*)>(
     &::GlobalNamespace::ResultObjectiveListItem::set_icon)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2575c48;
+  constexpr static std::size_t addrs = 0x266e080;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ResultObjectiveListItem::*)(::UnityEngine::Sprite*)>(
     &::GlobalNamespace::ResultObjectiveListItem::set_iconGlow)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2575c64;
+  constexpr static std::size_t addrs = 0x266e09c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -56,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ResultObjectiveListItem::*)(::StringW)>(
     &::GlobalNamespace::ResultObjectiveListItem::set_title)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2575c80;
+  constexpr static std::size_t addrs = 0x266e0b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ResultObjectiveListItem::*)(::StringW)>(
     &::GlobalNamespace::ResultObjectiveListItem::set_conditionText)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2575ca4;
+  constexpr static std::size_t addrs = 0x266e0dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ResultObjectiveListItem::*)(bool)>(
     &::GlobalNamespace::ResultObjectiveListItem::set_hideConditionText)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x2575cc8;
+  constexpr static std::size_t addrs = 0x266e100;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -101,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ResultObjectiveListItem::*)(::StringW)>(
     &::GlobalNamespace::ResultObjectiveListItem::set_valueText)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2575cfc;
+  constexpr static std::size_t addrs = 0x266e134;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -116,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ResultObjectiveListItem::*)(bool)>(
     &::GlobalNamespace::ResultObjectiveListItem::set_hideValueText)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x2575d20;
+  constexpr static std::size_t addrs = 0x266e158;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -130,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ResultObjectiveListItem::*)()>(&::GlobalNamespace::ResultObjectiveListItem::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2575d54;
+  constexpr static std::size_t addrs = 0x266e18c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ResultObjectiveListItem*>::get(), ".ctor",

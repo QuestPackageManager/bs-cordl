@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/INoteMovementProvider.hpp"
 #include "GlobalNamespace/zzzz__INoteMovementProvider_def.hpp"
 #include "GlobalNamespace/zzzz__NoteMovement_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::INoteMovementProvider.get_noteMovement

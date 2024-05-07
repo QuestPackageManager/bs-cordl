@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/AttachToPanelEvent.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,7 +21,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::AttachToPanelEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x33a1e0c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35a7b48, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

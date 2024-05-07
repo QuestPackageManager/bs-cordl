@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Linq/JConstructor.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -101,10 +102,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x295a61c, size 0x5ac, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2a58ecc, size 0x5ac, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x295acbc, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2a5956c, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -185,10 +186,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x295ad14, size 0x3a4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2a595c4, size 0x3a4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x295b0b8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2a59968, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -285,33 +286,33 @@ public:
   /// @brief Field _values, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__values, put = __cordl_internal_set__values))::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JToken*>* _values;
 
-  /// @brief Method CloneToken, addr 0x2959a00, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method CloneToken, addr 0x2a582b0, size 0x70, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::JToken* CloneToken(::Newtonsoft::Json::Linq::JsonCloneSettings* settings);
 
-  /// @brief Method DeepEquals, addr 0x2959698, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method DeepEquals, addr 0x2a57f48, size 0xac, virtual true, abstract: false, final false
   inline bool DeepEquals(::Newtonsoft::Json::Linq::JToken* node);
 
-  /// @brief Method GetDeepHashCode, addr 0x2959db8, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method GetDeepHashCode, addr 0x2a58668, size 0x44, virtual true, abstract: false, final false
   inline int32_t GetDeepHashCode();
 
-  /// @brief Method IndexOfItem, addr 0x2958120, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method IndexOfItem, addr 0x2a569d0, size 0x64, virtual true, abstract: false, final false
   inline int32_t IndexOfItem(::Newtonsoft::Json::Linq::JToken* item);
 
-  /// @brief Method Load, addr 0x295a100, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x2a589b0, size 0x8, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::JConstructor* Load(::Newtonsoft::Json::JsonReader* reader);
 
-  /// @brief Method Load, addr 0x295a108, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x2a589b8, size 0x20c, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::JConstructor* Load(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Linq::JsonLoadSettings* settings);
 
-  /// @brief Method LoadAsync, addr 0x2958004, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LoadAsync, addr 0x2a568b4, size 0xc, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::Newtonsoft::Json::Linq::JConstructor*>* LoadAsync(::Newtonsoft::Json::JsonReader* reader,
                                                                                                        ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method LoadAsync, addr 0x2958010, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method LoadAsync, addr 0x2a568c0, size 0x108, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::Newtonsoft::Json::Linq::JConstructor*>* LoadAsync(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Linq::JsonLoadSettings* settings,
                                                                                                        ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method MergeItem, addr 0x2958184, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method MergeItem, addr 0x2a56a34, size 0xb0, virtual true, abstract: false, final false
   inline void MergeItem(::System::Object* content, ::Newtonsoft::Json::Linq::JsonMergeSettings* settings);
 
   static inline ::Newtonsoft::Json::Linq::JConstructor* New_ctor();
@@ -326,10 +327,10 @@ public:
 
   static inline ::Newtonsoft::Json::Linq::JConstructor* New_ctor(::Newtonsoft::Json::Linq::JConstructor* other, ::Newtonsoft::Json::Linq::JsonCloneSettings* settings);
 
-  /// @brief Method WriteTo, addr 0x2959a70, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method WriteTo, addr 0x2a58320, size 0xe8, virtual true, abstract: false, final false
   inline void WriteTo(::Newtonsoft::Json::JsonWriter* writer, ::ArrayW<::Newtonsoft::Json::JsonConverter*, ::Array<::Newtonsoft::Json::JsonConverter*>*> converters);
 
-  /// @brief Method WriteToAsync, addr 0x2957f10, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method WriteToAsync, addr 0x2a567c0, size 0xf4, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteToAsync(::Newtonsoft::Json::JsonWriter* writer, ::System::Threading::CancellationToken cancellationToken,
                                                         ::ArrayW<::Newtonsoft::Json::JsonConverter*, ::Array<::Newtonsoft::Json::JsonConverter*>*> converters);
 
@@ -345,40 +346,40 @@ public:
 
   constexpr void __cordl_internal_set__values(::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JToken*>* value);
 
-  /// @brief Method .ctor, addr 0x2958f8c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a5783c, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2959568, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a57e18, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x2959500, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a57db0, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> content);
 
-  /// @brief Method .ctor, addr 0x2959534, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a57de4, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::System::Object* content);
 
-  /// @brief Method .ctor, addr 0x295905c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a5790c, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::Linq::JConstructor* other);
 
-  /// @brief Method .ctor, addr 0x2959460, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a57d10, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::Linq::JConstructor* other, ::Newtonsoft::Json::Linq::JsonCloneSettings* settings);
 
-  /// @brief Method get_ChildrenTokens, addr 0x2958118, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ChildrenTokens, addr 0x2a569c8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Linq::JToken*>* get_ChildrenTokens();
 
-  /// @brief Method get_Item, addr 0x2959b58, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method get_Item, addr 0x2a58408, size 0x12c, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::JToken* get_Item(::System::Object* key);
 
-  /// @brief Method get_Name, addr 0x2958f74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x2a57824, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Type, addr 0x2958f84, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x2a57834, size 0x8, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::JTokenType get_Type();
 
-  /// @brief Method set_Item, addr 0x2959c84, size 0x134, virtual true, abstract: false, final false
+  /// @brief Method set_Item, addr 0x2a58534, size 0x134, virtual true, abstract: false, final false
   inline void set_Item(::System::Object* key, ::Newtonsoft::Json::Linq::JToken* value);
 
-  /// @brief Method set_Name, addr 0x2958f7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x2a5782c, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
 protected:

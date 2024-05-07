@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LIV/SDK/Unity/FEATURES.hpp"
 #include "LIV/SDK/Unity/zzzz__FEATURES_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "uint64_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::LIV::SDK::Unity::FEATURES::FEATURES(uint64_t value__) noexcept {

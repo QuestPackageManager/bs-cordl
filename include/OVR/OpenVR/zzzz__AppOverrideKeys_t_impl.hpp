@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/AppOverrideKeys_t.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "OVR/OpenVR/zzzz__AppOverrideKeys_t_def.hpp"
 // Ctor Parameters [CppParam { name: "pchKey", ty: "void*", modifiers: "", def_value: Some("{}") }, CppParam { name: "pchValue", ty: "void*", modifiers: "", def_value: Some("{}") }]

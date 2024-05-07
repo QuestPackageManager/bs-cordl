@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ResolveEventArgs.hpp"
 #include "System/zzzz__EventArgs_impl.hpp"
 #include "System/zzzz__ResolveEventArgs_def.hpp"
 #include "System/Reflection/zzzz__Assembly_def.hpp"
@@ -7,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ResolveEventArgs::*)(::StringW)>(&::System::ResolveEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x2845768;
+  constexpr static std::size_t addrs = 0x2944f3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -22,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ResolveEventArgs::*)(::StringW, ::System::Reflection::Assembly*)>(
     &::System::ResolveEventArgs::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x28457d4;
+  constexpr static std::size_t addrs = 0x2944fa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

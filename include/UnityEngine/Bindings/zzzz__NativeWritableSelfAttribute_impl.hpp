@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Bindings/NativeWritableSelfAttribute.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/Bindings/zzzz__NativeWritableSelfAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Bindings::NativeWritableSelfAttribute.set_WritableSelf
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Bindings::NativeWritableSelfAttribute::*)(bool)>(
     &::UnityEngine::Bindings::NativeWritableSelfAttribute::set_WritableSelf)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3266ca8;
+  constexpr static std::size_t addrs = 0x346f9e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -22,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Bindings::NativeWritableSelfAttribute::*)()>(
     &::UnityEngine::Bindings::NativeWritableSelfAttribute::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3266cb4;
+  constexpr static std::size_t addrs = 0x346f9f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Bindings::NativeWritableSelfAttribute*>::get(),

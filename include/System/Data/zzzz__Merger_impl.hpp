@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Data/Merger.hpp"
 #include "System/Data/zzzz__MissingSchemaAction_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Data/zzzz__Merger_def.hpp"
@@ -14,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Merger::*)(::System::Data::DataSet*, bool, ::System::Data::MissingSchemaAction)>(
     &::System::Data::Merger::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x2bd9df8;
+  constexpr static std::size_t addrs = 0x2cd66f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Merger::*)(::System::Data::DataTable*, bool, ::System::Data::MissingSchemaAction)>(
     &::System::Data::Merger::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2bd9e48;
+  constexpr static std::size_t addrs = 0x2cd6748;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -46,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Merger::*)(::System::Data::DataSet*)>(&::System::Data::Merger::MergeDataSet)> {
   constexpr static std::size_t size = 0x10c8;
-  constexpr static std::size_t addrs = 0x2bd9ea0;
+  constexpr static std::size_t addrs = 0x2cd67a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -60,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Merger::*)(::System::Data::DataTable*)>(&::System::Data::Merger::MergeTable)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x2bdba50;
+  constexpr static std::size_t addrs = 0x2cd8350;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -75,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Merger::*)(::System::Data::DataTable*, ::System::Data::DataTable*)>(
     &::System::Data::Merger::MergeTable)> {
   constexpr static std::size_t size = 0x4a4;
-  constexpr static std::size_t addrs = 0x2bdbc7c;
+  constexpr static std::size_t addrs = 0x2cd857c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -91,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataTable* (::System::Data::Merger::*)(::System::Data::DataTable*)>(
     &::System::Data::Merger::MergeSchema)> {
   constexpr static std::size_t size = 0x70c;
-  constexpr static std::size_t addrs = 0x2bdc26c;
+  constexpr static std::size_t addrs = 0x2cd8b6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -105,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Merger::*)(::System::Data::DataTable*)>(&::System::Data::Merger::MergeTableData)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x2bdaf68;
+  constexpr static std::size_t addrs = 0x2cd7868;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -119,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Merger::*)(::System::Data::DataSet*)>(&::System::Data::Merger::MergeConstraints)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x2bdaff0;
+  constexpr static std::size_t addrs = 0x2cd78f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -133,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Merger::*)(::System::Data::DataTable*)>(&::System::Data::Merger::MergeConstraints)> {
   constexpr static std::size_t size = 0x2b0;
-  constexpr static std::size_t addrs = 0x2bdc978;
+  constexpr static std::size_t addrs = 0x2cd9278;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -147,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Merger::*)(::System::Data::DataRelation*)>(&::System::Data::Merger::MergeRelation)> {
   constexpr static std::size_t size = 0x79c;
-  constexpr static std::size_t addrs = 0x2bdb060;
+  constexpr static std::size_t addrs = 0x2cd7960;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -162,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Merger::*)(::System::Data::PropertyCollection*, ::System::Data::PropertyCollection*)>(
     &::System::Data::Merger::MergeExtendedProperties)> {
   constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x2bdb7fc;
+  constexpr static std::size_t addrs = 0x2cd80fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -178,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataKey (::System::Data::Merger::*)(::System::Data::DataTable*, ::System::Data::DataTable*)>(
     &::System::Data::Merger::GetSrcKey)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x2bdc120;
+  constexpr static std::size_t addrs = 0x2cd8a20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

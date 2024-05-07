@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IRefreshable.hpp"
 #include "GlobalNamespace/zzzz__IRefreshable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IRefreshable.Refresh
 template <>

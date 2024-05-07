@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Timeline/IMarker.hpp"
 #include "UnityEngine/Timeline/zzzz__IMarker_def.hpp"
 #include "UnityEngine/Timeline/zzzz__TrackAsset_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Timeline::IMarker.get_time

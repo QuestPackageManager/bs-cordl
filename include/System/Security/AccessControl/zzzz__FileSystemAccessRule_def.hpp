@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/AccessControl/FileSystemAccessRule.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,12 +42,12 @@ public:
                                                                                   ::System::Security::AccessControl::PropagationFlags propagationFlags,
                                                                                   ::System::Security::AccessControl::AccessControlType type);
 
-  /// @brief Method .ctor, addr 0x2706eb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28042b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Principal::IdentityReference* identity, ::System::Security::AccessControl::FileSystemRights fileSystemRights, bool isInherited,
                     ::System::Security::AccessControl::InheritanceFlags inheritanceFlags, ::System::Security::AccessControl::PropagationFlags propagationFlags,
                     ::System::Security::AccessControl::AccessControlType type);
 
-  /// @brief Method get_FileSystemRights, addr 0x2706ebc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FileSystemRights, addr 0x28042b8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::AccessControl::FileSystemRights get_FileSystemRights();
 
 protected:

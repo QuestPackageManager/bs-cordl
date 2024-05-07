@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Security/X509/X509ChainStatusFlags.hpp"
 #include "Mono/Security/X509/zzzz__X509ChainStatusFlags_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::Mono::Security::X509::X509ChainStatusFlags::X509ChainStatusFlags(int32_t value__) noexcept {

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/Compute_DT_EventArgs.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -58,10 +59,10 @@ public:
 
   constexpr void __cordl_internal_set_ProgressPercentage(float_t value);
 
-  /// @brief Method .ctor, addr 0x312ed4c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33347d4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::TMPro::Compute_DistanceTransform_EventTypes type, ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> colors);
 
-  /// @brief Method .ctor, addr 0x312ed14, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x333479c, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::TMPro::Compute_DistanceTransform_EventTypes type, float_t progress);
 
 protected:

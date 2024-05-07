@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HoudiniEngineUnity/HEU_Vector3SerializationSurrogate.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "HoudiniEngineUnity/zzzz__HEU_Vector3SerializationSurrogate_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISerializationSurrogate_def.hpp"
@@ -13,7 +14,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Object*, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(
     &::HoudiniEngineUnity::HEU_Vector3SerializationSurrogate::System_Runtime_Serialization_ISerializationSurrogate_GetObjectData)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x243a634;
+  constexpr static std::size_t addrs = 0x25342c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,7 +34,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                 ::System::Runtime::Serialization::ISurrogateSelector*)>(
     &::HoudiniEngineUnity::HEU_Vector3SerializationSurrogate::System_Runtime_Serialization_ISerializationSurrogate_SetObjectData)> {
   constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x243a728;
+  constexpr static std::size_t addrs = 0x25343b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HoudiniEngineUnity::HEU_Vector3SerializationSurrogate::*)()>(
     &::HoudiniEngineUnity::HEU_Vector3SerializationSurrogate::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2439a34;
+  constexpr static std::size_t addrs = 0x25336c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_Vector3SerializationSurrogate*>::get(),

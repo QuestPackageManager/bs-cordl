@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Security/Protocol/Ntlm/Type1Message.hpp"
 #include "Mono/Security/Protocol/Ntlm/zzzz__MessageBase_impl.hpp"
 #include "Mono/Security/Protocol/Ntlm/zzzz__Type1Message_def.hpp"
 //  Writing Method size for method: ::Mono::Security::Protocol::Ntlm::Type1Message._ctor
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Protocol::Ntlm::Type1Message::*)()>(&::Mono::Security::Protocol::Ntlm::Type1Message::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x2681254;
+  constexpr static std::size_t addrs = 0x277f650;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Protocol::Ntlm::Type1Message*>::get(), ".ctor",
@@ -20,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Protocol::Ntlm::Type1Message::*)(::StringW)>(
     &::Mono::Security::Protocol::Ntlm::Type1Message::set_Domain)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x26812d8;
+  constexpr static std::size_t addrs = 0x277f6d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Protocol::Ntlm::Type1Message::*)(::StringW)>(
     &::Mono::Security::Protocol::Ntlm::Type1Message::set_Host)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x2681358;
+  constexpr static std::size_t addrs = 0x277f754;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Protocol::Ntlm::Type1Message::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Mono::Security::Protocol::Ntlm::Type1Message::Decode)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x26813d8;
+  constexpr static std::size_t addrs = 0x277f7d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -66,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Mono::Security::Protocol::Ntlm::Type1Message::*)()>(
     &::Mono::Security::Protocol::Ntlm::Type1Message::GetBytes)> {
   constexpr static std::size_t size = 0x24c;
-  constexpr static std::size_t addrs = 0x26814c8;
+  constexpr static std::size_t addrs = 0x277f8c4;
 
   inline static ::MethodInfo const* methodInfo() {
 

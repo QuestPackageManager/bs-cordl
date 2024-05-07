@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/GameplayModifiersModelSO.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,18 +67,18 @@ namespace GlobalNamespace {
 class CORDL_TYPE __GameplayModifiersModelSO__GameplayModifierBoolGetter : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x13ad0d8, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x14a27b4, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x13ad0f8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x14a27d4, size 0x28, virtual true, abstract: false, final false
   inline bool EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x13ad0c4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x14a27a0, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
   static inline ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x13ac5a4, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14a1c80, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:
@@ -161,55 +162,55 @@ public:
 
   static inline ::GlobalNamespace::__GameplayModifiersModelSO____c* New_ctor();
 
-  /// @brief Method <OnEnable>b__21_0, addr 0x13ad18c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__21_0, addr 0x14a2868, size 0x20, virtual false, abstract: false, final false
   inline bool _OnEnable_b__21_0(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method <OnEnable>b__21_1, addr 0x13ad1ac, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__21_1, addr 0x14a2888, size 0x18, virtual false, abstract: false, final false
   inline bool _OnEnable_b__21_1(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method <OnEnable>b__21_10, addr 0x13ad29c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__21_10, addr 0x14a2978, size 0x20, virtual false, abstract: false, final false
   inline bool _OnEnable_b__21_10(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method <OnEnable>b__21_11, addr 0x13ad2bc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__21_11, addr 0x14a2998, size 0x18, virtual false, abstract: false, final false
   inline bool _OnEnable_b__21_11(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method <OnEnable>b__21_12, addr 0x13ad2d4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__21_12, addr 0x14a29b0, size 0x18, virtual false, abstract: false, final false
   inline bool _OnEnable_b__21_12(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method <OnEnable>b__21_13, addr 0x13ad2ec, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__21_13, addr 0x14a29c8, size 0x18, virtual false, abstract: false, final false
   inline bool _OnEnable_b__21_13(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method <OnEnable>b__21_14, addr 0x13ad304, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__21_14, addr 0x14a29e0, size 0x18, virtual false, abstract: false, final false
   inline bool _OnEnable_b__21_14(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method <OnEnable>b__21_15, addr 0x13ad31c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__21_15, addr 0x14a29f8, size 0x18, virtual false, abstract: false, final false
   inline bool _OnEnable_b__21_15(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method <OnEnable>b__21_2, addr 0x13ad1c4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__21_2, addr 0x14a28a0, size 0x18, virtual false, abstract: false, final false
   inline bool _OnEnable_b__21_2(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method <OnEnable>b__21_3, addr 0x13ad1dc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__21_3, addr 0x14a28b8, size 0x20, virtual false, abstract: false, final false
   inline bool _OnEnable_b__21_3(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method <OnEnable>b__21_4, addr 0x13ad1fc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__21_4, addr 0x14a28d8, size 0x18, virtual false, abstract: false, final false
   inline bool _OnEnable_b__21_4(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method <OnEnable>b__21_5, addr 0x13ad214, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__21_5, addr 0x14a28f0, size 0x18, virtual false, abstract: false, final false
   inline bool _OnEnable_b__21_5(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method <OnEnable>b__21_6, addr 0x13ad22c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__21_6, addr 0x14a2908, size 0x18, virtual false, abstract: false, final false
   inline bool _OnEnable_b__21_6(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method <OnEnable>b__21_7, addr 0x13ad244, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__21_7, addr 0x14a2920, size 0x18, virtual false, abstract: false, final false
   inline bool _OnEnable_b__21_7(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method <OnEnable>b__21_8, addr 0x13ad25c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__21_8, addr 0x14a2938, size 0x20, virtual false, abstract: false, final false
   inline bool _OnEnable_b__21_8(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method <OnEnable>b__21_9, addr 0x13ad27c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <OnEnable>b__21_9, addr 0x14a2958, size 0x20, virtual false, abstract: false, final false
   inline bool _OnEnable_b__21_9(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method .ctor, addr 0x13ad184, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14a2860, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__GameplayModifiersModelSO____c* getStaticF___9();
@@ -367,39 +368,39 @@ public:
   __declspec(property(get = get_gameplayModifierGetters))::System::Collections::Generic::Dictionary_2<
       ::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*>* gameplayModifierGetters;
 
-  /// @brief Method CreateGameplayModifiers, addr 0x13ac6d0, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method CreateGameplayModifiers, addr 0x14a1dac, size 0x278, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayModifiers* CreateGameplayModifiers(::System::Func_2<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, bool>* valueGetter);
 
-  /// @brief Method CreateModifierParamsList, addr 0x13aca68, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method CreateModifierParamsList, addr 0x14a2144, size 0x290, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* CreateModifierParamsList(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method GetGameplayModifierParams, addr 0x13acf6c, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method GetGameplayModifierParams, addr 0x14a2648, size 0x150, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::GameplayModifierParamsSO> GetGameplayModifierParams(::GlobalNamespace::GameplayModifierMask modifier);
 
-  /// @brief Method GetModifiedScoreForGameplayModifiers, addr 0x13acedc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetModifiedScoreForGameplayModifiers, addr 0x14a25b8, size 0x8c, virtual false, abstract: false, final false
   inline int32_t GetModifiedScoreForGameplayModifiers(int32_t multipliedScore, ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* modifierParams,
                                                       float_t energy);
 
-  /// @brief Method GetModifierBoolValue, addr 0x13ac9cc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetModifierBoolValue, addr 0x14a20a8, size 0x9c, virtual false, abstract: false, final false
   inline bool GetModifierBoolValue(::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::GameplayModifierParamsSO* gameplayModifierParams);
 
-  /// @brief Method GetSongSpeedFromValueGetter, addr 0x13ac948, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetSongSpeedFromValueGetter, addr 0x14a2024, size 0x84, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__GameplayModifiers__SongSpeed GetSongSpeedFromValueGetter(::System::Func_2<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, bool>* valueGetter);
 
-  /// @brief Method GetTotalMultiplier, addr 0x13accf8, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method GetTotalMultiplier, addr 0x14a23d4, size 0x1e0, virtual false, abstract: false, final false
   inline float_t GetTotalMultiplier(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* modifierParams, float_t energy);
 
-  /// @brief Method MaxModifiedScoreForMaxMultipliedScore, addr 0x13aced8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method MaxModifiedScoreForMaxMultipliedScore, addr 0x14a25b4, size 0x4, virtual false, abstract: false, final false
   inline int32_t MaxModifiedScoreForMaxMultipliedScore(int32_t maxMultipliedScore, ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* modifierParams,
                                                        float_t energy);
 
-  /// @brief Method MaxModifiedScoreForMaxMultipliedScore, addr 0x13acf68, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method MaxModifiedScoreForMaxMultipliedScore, addr 0x14a2644, size 0x4, virtual false, abstract: false, final false
   inline int32_t MaxModifiedScoreForMaxMultipliedScore(int32_t maxMultipliedScore, ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* modifierParams,
                                                        ::GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel, float_t energy);
 
   static inline ::GlobalNamespace::GameplayModifiersModelSO* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x13abc10, size 0x994, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x14a12ec, size 0x994, virtual true, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::UnityW<::GlobalNamespace::GameplayModifierParamsSO> const& __cordl_internal_get__batteryEnergy() const;
@@ -508,10 +509,10 @@ public:
 
   constexpr void __cordl_internal_set__zenMode(::UnityW<::GlobalNamespace::GameplayModifierParamsSO> value);
 
-  /// @brief Method .ctor, addr 0x13ad0bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14a2798, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_gameplayModifierGetters, addr 0x13abc08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameplayModifierGetters, addr 0x14a12e4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::GlobalNamespace::__GameplayModifiersModelSO__GameplayModifierBoolGetter*>*
   get_gameplayModifierGetters();
 

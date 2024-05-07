@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/RenderModel_Vertex_t.hpp"
 #include "OVR/OpenVR/zzzz__HmdVector3_t_impl.hpp"
 #include "OVR/OpenVR/zzzz__RenderModel_Vertex_t_def.hpp"
 #include "OVR/OpenVR/zzzz__HmdVector3_t_def.hpp"

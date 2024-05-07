@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/NetSync.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/zzzz__NetSync_def.hpp"
 #include "Oculus/Platform/Models/zzzz__NetSyncConnection_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Oculus::Platform::__Message_1__Callback<::Oculus::Platform::Models::NetSyncConnection*>*)>(
     &::Oculus::Platform::NetSync::SetConnectionStatusChangedNotificationCallback)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x29d75b0;
+  constexpr static std::size_t addrs = 0x2ad4e60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
     ::Oculus::Platform::__Message_1__Callback<::Oculus::Platform::Models::NetSyncSessionsChangedNotification*>*)>(&::Oculus::Platform::NetSync::SetSessionsChangedNotificationCallback)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x29d7624;
+  constexpr static std::size_t addrs = 0x2ad4ed4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "LiteNetLib/PacketProperty.hpp"
 #include "LiteNetLib/zzzz__PacketProperty_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::LiteNetLib::PacketProperty::PacketProperty(uint8_t value__) noexcept {

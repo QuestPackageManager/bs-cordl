@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ClientCertificateValidator.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,15 +35,15 @@ public:
 
   static inline ::GlobalNamespace::ClientCertificateValidator* New_ctor();
 
-  /// @brief Method ValidateCertificateChain, addr 0xf947e0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method ValidateCertificateChain, addr 0x1088f04, size 0x4, virtual true, abstract: false, final true
   inline void ValidateCertificateChain(::GlobalNamespace::DnsEndPoint* endPoint, ::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate,
                                        ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> certificateChain);
 
-  /// @brief Method ValidateCertificateChainInternal, addr 0xf947e4, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method ValidateCertificateChainInternal, addr 0x1088f08, size 0x1c8, virtual false, abstract: false, final false
   inline void ValidateCertificateChainInternal(::GlobalNamespace::DnsEndPoint* endPoint, ::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate,
                                                ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> certificateChain);
 
-  /// @brief Method .ctor, addr 0xf949ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10890d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::ICertificateValidator"

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Tayx/Graphy/Fps/G_FpsGraph.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -65,21 +66,21 @@ public:
   /// @brief Field m_shaderGraph, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_m_shaderGraph, put = __cordl_internal_set_m_shaderGraph))::Tayx::Graphy::G_GraphShader* m_shaderGraph;
 
-  /// @brief Method CreatePoints, addr 0x2f3f104, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method CreatePoints, addr 0x303fa04, size 0x14c, virtual true, abstract: false, final false
   inline void CreatePoints();
 
-  /// @brief Method Init, addr 0x2f3edac, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x303f6ac, size 0x114, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::Tayx::Graphy::Fps::G_FpsGraph* New_ctor();
 
-  /// @brief Method Update, addr 0x2f3eca0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x303f5a0, size 0xc, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateGraph, addr 0x2f3eec0, size 0x244, virtual true, abstract: false, final false
+  /// @brief Method UpdateGraph, addr 0x303f7c0, size 0x244, virtual true, abstract: false, final false
   inline void UpdateGraph();
 
-  /// @brief Method UpdateParameters, addr 0x2f3ecac, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method UpdateParameters, addr 0x303f5ac, size 0x100, virtual false, abstract: false, final false
   inline void UpdateParameters();
 
   constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get_ShaderFull() const;
@@ -142,7 +143,7 @@ public:
 
   constexpr void __cordl_internal_set_m_shaderGraph(::Tayx::Graphy::G_GraphShader* value);
 
-  /// @brief Method .ctor, addr 0x2f3f250, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x303fb50, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

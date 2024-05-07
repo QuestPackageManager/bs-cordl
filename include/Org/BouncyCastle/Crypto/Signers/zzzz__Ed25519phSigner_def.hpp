@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Signers/Ed25519phSigner.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,24 +57,24 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ISigner"
   constexpr operator ::Org::BouncyCastle::Crypto::ISigner*() noexcept;
 
-  /// @brief Method BlockUpdate, addr 0x10b497c, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method BlockUpdate, addr 0x11a80a0, size 0xc4, virtual true, abstract: false, final false
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
-  /// @brief Method GenerateSignature, addr 0x10b4a40, size 0x23c, virtual true, abstract: false, final false
+  /// @brief Method GenerateSignature, addr 0x11a8164, size 0x23c, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateSignature();
 
-  /// @brief Method Init, addr 0x10b4758, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x11a7e7c, size 0xd4, virtual true, abstract: false, final false
   inline void Init(bool forSigning, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Signers::Ed25519phSigner* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> context);
 
-  /// @brief Method Reset, addr 0x10b482c, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x11a7f50, size 0xa4, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method Update, addr 0x10b48d0, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x11a7ff4, size 0xac, virtual true, abstract: false, final false
   inline void Update(uint8_t b);
 
-  /// @brief Method VerifySignature, addr 0x10b4c7c, size 0x1ac, virtual true, abstract: false, final false
+  /// @brief Method VerifySignature, addr 0x11a83a0, size 0x1ac, virtual true, abstract: false, final false
   inline bool VerifySignature(::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_context() const;
@@ -106,10 +107,10 @@ public:
 
   constexpr void __cordl_internal_set_publicKey(::Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters* value);
 
-  /// @brief Method .ctor, addr 0x10b4670, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11a7d94, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> context);
 
-  /// @brief Method get_AlgorithmName, addr 0x10b4718, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x11a7e3c, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ISigner"

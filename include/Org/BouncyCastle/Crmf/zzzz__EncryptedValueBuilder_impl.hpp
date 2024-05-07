@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crmf/EncryptedValueBuilder.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crmf/zzzz__EncryptedValueBuilder_def.hpp"
 #include "Org/BouncyCastle/Asn1/Crmf/zzzz__EncryptedValue_def.hpp"
@@ -13,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crmf::EncryptedValueBuilder::*)(
     ::Org::BouncyCastle::Crypto::IKeyWrapper*, ::Org::BouncyCastle::Crypto::ICipherBuilderWithKey*)>(&::Org::BouncyCastle::Crmf::EncryptedValueBuilder::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x137e93c;
+  constexpr static std::size_t addrs = 0x1474060;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +31,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Crypto::IKeyWrapper*, ::Org::BouncyCastle::Crypto::ICipherBuilderWithKey*, ::Org::BouncyCastle::Crmf::IEncryptedValuePadder*)>(
     &::Org::BouncyCastle::Crmf::EncryptedValueBuilder::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x137e96c;
+  constexpr static std::size_t addrs = 0x1474090;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* (
     ::Org::BouncyCastle::Crmf::EncryptedValueBuilder::*)(::ArrayW<char16_t, ::Array<char16_t>*>)>(&::Org::BouncyCastle::Crmf::EncryptedValueBuilder::Build)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x137e9a8;
+  constexpr static std::size_t addrs = 0x14740cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* (
     ::Org::BouncyCastle::Crmf::EncryptedValueBuilder::*)(::Org::BouncyCastle::X509::X509Certificate*)>(&::Org::BouncyCastle::Crmf::EncryptedValueBuilder::Build)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x137f1c0;
+  constexpr static std::size_t addrs = 0x14748e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -77,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* (
     ::Org::BouncyCastle::Crmf::EncryptedValueBuilder::*)(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo*)>(&::Org::BouncyCastle::Crmf::EncryptedValueBuilder::Build)> {
   constexpr static std::size_t size = 0x5b4;
-  constexpr static std::size_t addrs = 0x137f304;
+  constexpr static std::size_t addrs = 0x1474a28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -92,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* (
     ::Org::BouncyCastle::Crmf::EncryptedValueBuilder::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crmf::EncryptedValueBuilder::EncryptData)> {
   constexpr static std::size_t size = 0x734;
-  constexpr static std::size_t addrs = 0x137ea8c;
+  constexpr static std::size_t addrs = 0x14741b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -107,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crmf::EncryptedValueBuilder::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crmf::EncryptedValueBuilder::PadData)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x137e9d8;
+  constexpr static std::size_t addrs = 0x14740fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

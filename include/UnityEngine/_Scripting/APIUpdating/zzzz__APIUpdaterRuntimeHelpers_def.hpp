@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/_Scripting/APIUpdating/APIUpdaterRuntimeHelpers.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,10 +24,10 @@ namespace UnityEngine::_Scripting::APIUpdating {
 class CORDL_TYPE APIUpdaterRuntimeHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetMovedFromAttributeDataForType, addr 0x321cfd0, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method GetMovedFromAttributeDataForType, addr 0x3423d0c, size 0x140, virtual false, abstract: false, final false
   static inline bool GetMovedFromAttributeDataForType(::System::Type* sourceType, ByRef<::StringW> assembly, ByRef<::StringW> nsp, ByRef<::StringW> klass);
 
-  /// @brief Method GetObsoleteTypeRedirection, addr 0x321d110, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method GetObsoleteTypeRedirection, addr 0x3423e4c, size 0x2bc, virtual false, abstract: false, final false
   static inline bool GetObsoleteTypeRedirection(::System::Type* sourceType, ByRef<::StringW> assemblyName, ByRef<::StringW> nsp, ByRef<::StringW> className);
 
 protected:

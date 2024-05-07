@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Diagnostics/DebuggerBrowsableAttribute.hpp"
 #include "System/Diagnostics/zzzz__DebuggerBrowsableState_impl.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Diagnostics/zzzz__DebuggerBrowsableAttribute_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::DebuggerBrowsableAttribute::*)(::System::Diagnostics::DebuggerBrowsableState)>(
     &::System::Diagnostics::DebuggerBrowsableAttribute::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x27fe734;
+  constexpr static std::size_t addrs = 0x28fde54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((

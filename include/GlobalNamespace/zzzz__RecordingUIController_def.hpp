@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/RecordingUIController.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -41,7 +42,7 @@ public:
 
   constexpr void __cordl_internal_set_recordingEnabled(bool value);
 
-  /// @brief Method .ctor, addr 0x25e19f4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e1734, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool recordingEnabled);
 
 protected:
@@ -91,12 +92,12 @@ public:
   /// @brief Field _updateTimeSpan, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__updateTimeSpan, put = __cordl_internal_set__updateTimeSpan)) float_t _updateTimeSpan;
 
-  /// @brief Method Init, addr 0x25e18f8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x26e1638, size 0x80, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::RecordingUIController* New_ctor();
 
-  /// @brief Method Update, addr 0x25e1978, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x26e16b8, size 0x6c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__circle() const;
@@ -123,7 +124,7 @@ public:
 
   constexpr void __cordl_internal_set__updateTimeSpan(float_t value);
 
-  /// @brief Method .ctor, addr 0x25e19e4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e1724, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

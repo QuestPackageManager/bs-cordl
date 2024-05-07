@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/NetworkInformation/AixStructs/ifreq_flags.hpp"
 #include "System/Net/NetworkInformation/AixStructs/zzzz__ifreq_flags_impl.hpp"
 #include "System/Net/NetworkInformation/AixStructs/zzzz__ifreq_flags_def.hpp"
 #include "System/Net/NetworkInformation/AixStructs/zzzz__ifreq_flags_def.hpp"

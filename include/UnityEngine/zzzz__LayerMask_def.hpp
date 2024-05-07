@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/LayerMask.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,22 +24,22 @@ public:
   // Declarations
   __declspec(property(get = get_value, put = set_value)) int32_t value;
 
-  /// @brief Method GetMask, addr 0x3207f4c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetMask, addr 0x340ec80, size 0x108, virtual false, abstract: false, final false
   static inline int32_t GetMask(::ArrayW<::StringW, ::Array<::StringW>*> layerNames);
 
-  /// @brief Method NameToLayer, addr 0x3207f10, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method NameToLayer, addr 0x340ec44, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t NameToLayer(::StringW layerName);
 
-  /// @brief Method get_value, addr 0x3207f00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x340ec34, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_value();
 
-  /// @brief Method op_Implicit, addr 0x3207ef8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x340ec2c, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::LayerMask op_Implicit___UnityEngine__LayerMask(int32_t intVal);
 
-  /// @brief Method op_Implicit, addr 0x3207ef4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x340ec28, size 0x4, virtual false, abstract: false, final false
   static inline int32_t op_Implicit_int32_t(::UnityEngine::LayerMask mask);
 
-  /// @brief Method set_value, addr 0x3207f08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_value, addr 0x340ec3c, size 0x8, virtual false, abstract: false, final false
   inline void set_value(int32_t value);
 
   // Ctor Parameters []

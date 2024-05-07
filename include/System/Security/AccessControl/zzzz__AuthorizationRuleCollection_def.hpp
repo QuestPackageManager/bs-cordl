@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/AccessControl/AuthorizationRuleCollection.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,7 +26,7 @@ public:
   static inline ::System::Security::AccessControl::AuthorizationRuleCollection*
   New_ctor(::ArrayW<::System::Security::AccessControl::AuthorizationRule*, ::Array<::System::Security::AccessControl::AuthorizationRule*>*> rules);
 
-  /// @brief Method .ctor, addr 0x27042f0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28016ec, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::System::Security::AccessControl::AuthorizationRule*, ::Array<::System::Security::AccessControl::AuthorizationRule*>*> rules);
 
 protected:

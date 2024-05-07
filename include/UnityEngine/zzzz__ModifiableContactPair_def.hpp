@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ModifiableContactPair.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -50,94 +51,94 @@ public:
 
   __declspec(property(get = get_otherColliderInstanceID)) int32_t otherColliderInstanceID;
 
-  /// @brief Method GetBounciness, addr 0x3257bac, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetBounciness, addr 0x34608e8, size 0x1c, virtual false, abstract: false, final false
   inline float_t GetBounciness(int32_t i);
 
-  /// @brief Method GetContact, addr 0x32579f4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method GetContact, addr 0x3460730, size 0x48, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<::UnityEngine::ModifiableContact> GetContact(int32_t index);
 
-  /// @brief Method GetContactPatch, addr 0x3257938, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method GetContactPatch, addr 0x3460674, size 0x50, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<::UnityEngine::ModifiableContactPatch> GetContactPatch();
 
-  /// @brief Method GetDynamicFriction, addr 0x3257c6c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetDynamicFriction, addr 0x34609a8, size 0x1c, virtual false, abstract: false, final false
   inline float_t GetDynamicFriction(int32_t i);
 
-  /// @brief Method GetFaceIndex, addr 0x3257d34, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetFaceIndex, addr 0x3460a70, size 0xb4, virtual false, abstract: false, final false
   inline uint32_t GetFaceIndex(int32_t i);
 
-  /// @brief Method GetMaxImpulse, addr 0x3257ccc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetMaxImpulse, addr 0x3460a08, size 0x1c, virtual false, abstract: false, final false
   inline float_t GetMaxImpulse(int32_t i);
 
-  /// @brief Method GetNormal, addr 0x3257a78, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetNormal, addr 0x34607b4, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetNormal(int32_t i);
 
-  /// @brief Method GetPoint, addr 0x32579d4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetPoint, addr 0x3460710, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetPoint(int32_t i);
 
-  /// @brief Method GetSeparation, addr 0x3257af0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetSeparation, addr 0x346082c, size 0x1c, virtual false, abstract: false, final false
   inline float_t GetSeparation(int32_t i);
 
-  /// @brief Method GetStaticFriction, addr 0x3257c0c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetStaticFriction, addr 0x3460948, size 0x1c, virtual false, abstract: false, final false
   inline float_t GetStaticFriction(int32_t i);
 
-  /// @brief Method GetTargetVelocity, addr 0x3257b34, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetTargetVelocity, addr 0x3460870, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetTargetVelocity(int32_t i);
 
-  /// @brief Method IgnoreContact, addr 0x3257d2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IgnoreContact, addr 0x3460a68, size 0x8, virtual false, abstract: false, final false
   inline void IgnoreContact(int32_t i);
 
-  /// @brief Method ResolveBodyInstanceID, addr 0x3257898, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ResolveBodyInstanceID, addr 0x34605d4, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t ResolveBodyInstanceID(void* actorPtr);
 
-  /// @brief Method ResolveColliderInstanceID, addr 0x32577e4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ResolveColliderInstanceID, addr 0x3460520, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t ResolveColliderInstanceID(void* shapePtr);
 
-  /// @brief Method SetBounciness, addr 0x3257bc8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetBounciness, addr 0x3460904, size 0x44, virtual false, abstract: false, final false
   inline void SetBounciness(int32_t i, float_t bounciness);
 
-  /// @brief Method SetDynamicFriction, addr 0x3257c88, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetDynamicFriction, addr 0x34609c4, size 0x44, virtual false, abstract: false, final false
   inline void SetDynamicFriction(int32_t i, float_t dynamicFriction);
 
-  /// @brief Method SetMaxImpulse, addr 0x3257ce8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetMaxImpulse, addr 0x3460a24, size 0x44, virtual false, abstract: false, final false
   inline void SetMaxImpulse(int32_t i, float_t value);
 
-  /// @brief Method SetNormal, addr 0x3257a98, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SetNormal, addr 0x34607d4, size 0x58, virtual false, abstract: false, final false
   inline void SetNormal(int32_t i, ::UnityEngine::Vector3 normal);
 
-  /// @brief Method SetPoint, addr 0x3257a3c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetPoint, addr 0x3460778, size 0x3c, virtual false, abstract: false, final false
   inline void SetPoint(int32_t i, ::UnityEngine::Vector3 v);
 
-  /// @brief Method SetSeparation, addr 0x3257b0c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SetSeparation, addr 0x3460848, size 0x28, virtual false, abstract: false, final false
   inline void SetSeparation(int32_t i, float_t separation);
 
-  /// @brief Method SetStaticFriction, addr 0x3257c28, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetStaticFriction, addr 0x3460964, size 0x44, virtual false, abstract: false, final false
   inline void SetStaticFriction(int32_t i, float_t staticFriction);
 
-  /// @brief Method SetTargetVelocity, addr 0x3257b54, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SetTargetVelocity, addr 0x3460890, size 0x58, virtual false, abstract: false, final false
   inline void SetTargetVelocity(int32_t i, ::UnityEngine::Vector3 velocity);
 
-  /// @brief Method TranslateTriangleIndex, addr 0x3257de8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method TranslateTriangleIndex, addr 0x3460b24, size 0x44, virtual false, abstract: false, final false
   static inline uint32_t TranslateTriangleIndex(void* shapePtr, uint32_t rawIndex);
 
-  /// @brief Method get_bodyInstanceID, addr 0x325785c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_bodyInstanceID, addr 0x3460598, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_bodyInstanceID();
 
-  /// @brief Method get_colliderInstanceID, addr 0x32577a8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_colliderInstanceID, addr 0x34604e4, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_colliderInstanceID();
 
-  /// @brief Method get_contactCount, addr 0x3257910, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_contactCount, addr 0x346064c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_contactCount();
 
-  /// @brief Method get_massProperties, addr 0x3257918, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_massProperties, addr 0x3460654, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::ModifiableMassProperties get_massProperties();
 
-  /// @brief Method get_otherBodyInstanceID, addr 0x32578d4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_otherBodyInstanceID, addr 0x3460610, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_otherBodyInstanceID();
 
-  /// @brief Method get_otherColliderInstanceID, addr 0x3257820, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_otherColliderInstanceID, addr 0x346055c, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_otherColliderInstanceID();
 
-  /// @brief Method set_massProperties, addr 0x3257988, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_massProperties, addr 0x34606c4, size 0x4c, virtual false, abstract: false, final false
   inline void set_massProperties(::UnityEngine::ModifiableMassProperties value);
 
   // Ctor Parameters []

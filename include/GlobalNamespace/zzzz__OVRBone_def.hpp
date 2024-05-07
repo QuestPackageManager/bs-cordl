@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OVRBone.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -63,28 +64,28 @@ public:
 
   constexpr void __cordl_internal_set__Transform_k__BackingField(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x2a979e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b93298, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2a98764, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b94014, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__OVRSkeleton__BoneId id, int16_t parentBoneIndex, ::UnityEngine::Transform* trans);
 
-  /// @brief Method get_Id, addr 0x2a98734, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Id, addr 0x2b93fe4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRSkeleton__BoneId get_Id();
 
-  /// @brief Method get_ParentBoneIndex, addr 0x2a98744, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ParentBoneIndex, addr 0x2b93ff4, size 0x8, virtual false, abstract: false, final false
   inline int16_t get_ParentBoneIndex();
 
-  /// @brief Method get_Transform, addr 0x2a98754, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Transform, addr 0x2b94004, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_Transform();
 
-  /// @brief Method set_Id, addr 0x2a9873c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Id, addr 0x2b93fec, size 0x8, virtual false, abstract: false, final false
   inline void set_Id(::GlobalNamespace::__OVRSkeleton__BoneId value);
 
-  /// @brief Method set_ParentBoneIndex, addr 0x2a9874c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ParentBoneIndex, addr 0x2b93ffc, size 0x8, virtual false, abstract: false, final false
   inline void set_ParentBoneIndex(int16_t value);
 
-  /// @brief Method set_Transform, addr 0x2a9875c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Transform, addr 0x2b9400c, size 0x8, virtual false, abstract: false, final false
   inline void set_Transform(::UnityEngine::Transform* value);
 
 protected:

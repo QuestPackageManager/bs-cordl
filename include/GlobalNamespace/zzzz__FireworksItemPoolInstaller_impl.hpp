@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/FireworksItemPoolInstaller.hpp"
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__FireworksItemPoolInstaller_def.hpp"
 #include "GlobalNamespace/zzzz__FireworkItemController_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FireworksItemPoolInstaller::*)()>(
     &::GlobalNamespace::FireworksItemPoolInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x25ba0e0;
+  constexpr static std::size_t addrs = 0x26b7c34;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -23,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FireworksItemPoolInstaller::*)()>(&::GlobalNamespace::FireworksItemPoolInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25ba174;
+  constexpr static std::size_t addrs = 0x26b7cc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FireworksItemPoolInstaller*>::get(), ".ctor",

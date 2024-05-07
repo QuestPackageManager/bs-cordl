@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/MessageWithUserAccountAgeCategory.hpp"
 #include "Oculus/Platform/zzzz__Message_1_impl.hpp"
 #include "Oculus/Platform/zzzz__MessageWithUserAccountAgeCategory_def.hpp"
 #include "Oculus/Platform/Models/zzzz__UserAccountAgeCategory_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::MessageWithUserAccountAgeCategory::*)(void*)>(
     &::Oculus::Platform::MessageWithUserAccountAgeCategory::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x29c82d4;
+  constexpr static std::size_t addrs = 0x2ac5b84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::UserAccountAgeCategory* (::Oculus::Platform::MessageWithUserAccountAgeCategory::*)()>(
     &::Oculus::Platform::MessageWithUserAccountAgeCategory::GetUserAccountAgeCategory)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x29cc654;
+  constexpr static std::size_t addrs = 0x2ac9f04;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -39,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::UserAccountAgeCategory* (
     ::Oculus::Platform::MessageWithUserAccountAgeCategory::*)(void*)>(&::Oculus::Platform::MessageWithUserAccountAgeCategory::GetDataFromMessage)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x29cc690;
+  constexpr static std::size_t addrs = 0x2ac9f40;
 
   inline static ::MethodInfo const* methodInfo() {
 

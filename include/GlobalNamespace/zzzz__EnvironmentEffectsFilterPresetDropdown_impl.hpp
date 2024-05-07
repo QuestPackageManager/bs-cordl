@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/EnvironmentEffectsFilterPresetDropdown.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentEffectsFilterPreset_impl.hpp"
 #include "GlobalNamespace/zzzz__ValueDropdownController_1_impl.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentEffectsFilterPresetDropdown_def.hpp"
@@ -12,7 +13,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::EnvironmentEffectsFilterPreset, ::StringW>*>* (
         ::GlobalNamespace::EnvironmentEffectsFilterPresetDropdown::*)()>(&::GlobalNamespace::EnvironmentEffectsFilterPresetDropdown::GetNamedValues)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x253c47c;
+  constexpr static std::size_t addrs = 0x2632ae4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -28,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentEffectsFilterPresetDropdown::*)()>(
     &::GlobalNamespace::EnvironmentEffectsFilterPresetDropdown::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x253c5a4;
+  constexpr static std::size_t addrs = 0x2632c0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/CollisionFlags.hpp"
 #include "UnityEngine/zzzz__CollisionFlags_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::CollisionFlags::CollisionFlags(int32_t value__) noexcept {

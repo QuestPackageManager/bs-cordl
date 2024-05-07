@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/SemaphoreFullException.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,10 +29,10 @@ public:
 
   static inline ::System::Threading::SemaphoreFullException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x2898e34, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29976e4, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2898e80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2997730, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
 protected:

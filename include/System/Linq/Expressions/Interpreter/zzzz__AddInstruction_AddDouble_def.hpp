@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/Interpreter/AddInstruction_AddDouble.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -24,10 +25,10 @@ public:
   // Declarations
   static inline ::System::Linq::Expressions::Interpreter::__AddInstruction__AddDouble* New_ctor();
 
-  /// @brief Method Run, addr 0x2b11874, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x2c0f174, size 0x148, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x2b10f84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c0e884, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

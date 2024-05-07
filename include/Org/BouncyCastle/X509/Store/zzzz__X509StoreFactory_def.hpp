@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/X509/Store/X509StoreFactory.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,15 +32,15 @@ namespace Org::BouncyCastle::X509::Store {
 class CORDL_TYPE X509StoreFactory : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x12e37e8, size 0x3b8, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x13d4f0c, size 0x3b8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::X509::Store::IX509Store* Create(::StringW type, ::Org::BouncyCastle::X509::Store::IX509StoreParameters* parameters);
 
   static inline ::Org::BouncyCastle::X509::Store::X509StoreFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x12e37e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13d4f04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method checkCorrectType, addr 0x12e3ba0, size 0x380, virtual false, abstract: false, final false
+  /// @brief Method checkCorrectType, addr 0x13d52c4, size 0x380, virtual false, abstract: false, final false
   static inline void checkCorrectType(::System::Collections::ICollection* coll, ::System::Type* t);
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Engines/RsaBlindedEngine.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Engines/zzzz__RsaBlindedEngine_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__RsaKeyParameters_def.hpp"
@@ -12,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::RsaBlindedEngine::*)()>(
     &::Org::BouncyCastle::Crypto::Engines::RsaBlindedEngine::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x104aa48;
+  constexpr static std::size_t addrs = 0x113f16c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::RsaBlindedEngine*>::get(),
@@ -26,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::RsaBlindedEngine::*)(::Org::BouncyCastle::Crypto::IRsa*)>(
     &::Org::BouncyCastle::Crypto::Engines::RsaBlindedEngine::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x104aabc;
+  constexpr static std::size_t addrs = 0x113f1e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Engines::RsaBlindedEngine::*)()>(
     &::Org::BouncyCastle::Crypto::Engines::RsaBlindedEngine::get_AlgorithmName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x104aae4;
+  constexpr static std::size_t addrs = 0x113f208;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::RsaBlindedEngine::*)(
     bool, ::Org::BouncyCastle::Crypto::ICipherParameters*)>(&::Org::BouncyCastle::Crypto::Engines::RsaBlindedEngine::Init)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x104ab24;
+  constexpr static std::size_t addrs = 0x113f248;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -73,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Engines::RsaBlindedEngine::*)()>(
     &::Org::BouncyCastle::Crypto::Engines::RsaBlindedEngine::GetInputBlockSize)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x104ad80;
+  constexpr static std::size_t addrs = 0x113f4a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -89,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Engines::RsaBlindedEngine::*)()>(
     &::Org::BouncyCastle::Crypto::Engines::RsaBlindedEngine::GetOutputBlockSize)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x104ae24;
+  constexpr static std::size_t addrs = 0x113f548;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -105,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Engines::RsaBlindedEngine::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Engines::RsaBlindedEngine::ProcessBlock)> {
   constexpr static std::size_t size = 0x41c;
-  constexpr static std::size_t addrs = 0x104aec8;
+  constexpr static std::size_t addrs = 0x113f5ec;
 
   inline static ::MethodInfo const* methodInfo() {
 

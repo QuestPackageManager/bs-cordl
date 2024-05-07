@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Utilities/IO/NullOutputStream.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,13 +23,13 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Utilities::IO::NullOutputStream* New_ctor();
 
-  /// @brief Method Write, addr 0x12cfc8c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x13c13b0, size 0x4, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method WriteByte, addr 0x12cfc88, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method WriteByte, addr 0x13c13ac, size 0x4, virtual true, abstract: false, final false
   inline void WriteByte(uint8_t b);
 
-  /// @brief Method .ctor, addr 0x12cfc90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13c13b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

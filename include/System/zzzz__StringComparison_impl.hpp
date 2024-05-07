@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/StringComparison.hpp"
 #include "System/zzzz__StringComparison_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::StringComparison::StringComparison(int32_t value__) noexcept {

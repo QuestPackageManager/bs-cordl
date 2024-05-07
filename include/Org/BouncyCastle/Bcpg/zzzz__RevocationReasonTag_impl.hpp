@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Bcpg/RevocationReasonTag.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__RevocationReasonTag_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::Org::BouncyCastle::Bcpg::RevocationReasonTag::RevocationReasonTag(uint8_t value__) noexcept {

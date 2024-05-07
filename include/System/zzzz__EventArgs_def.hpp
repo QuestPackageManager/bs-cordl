@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/EventArgs.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,7 +24,7 @@ public:
 
   static inline ::System::EventArgs* New_ctor();
 
-  /// @brief Method .ctor, addr 0x281c1cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x291b8ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::EventArgs* getStaticF_Empty();

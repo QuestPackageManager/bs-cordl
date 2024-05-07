@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Bindings/StaticAccessorAttribute.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -49,16 +50,16 @@ public:
 
   constexpr void __cordl_internal_set__Type_k__BackingField(::UnityEngine::Bindings::StaticAccessorType value);
 
-  /// @brief Method .ctor, addr 0x326716c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x346fea8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x3267194, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x346fed0, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::UnityEngine::Bindings::StaticAccessorType type);
 
-  /// @brief Method set_Name, addr 0x326715c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x346fe98, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
-  /// @brief Method set_Type, addr 0x3267164, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Type, addr 0x346fea0, size 0x8, virtual false, abstract: false, final false
   inline void set_Type(::UnityEngine::Bindings::StaticAccessorType value);
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Cms/PasswordRecipientInformation.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,7 +39,7 @@ public:
   /// @brief Field info, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_info, put = __cordl_internal_set_info))::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo* info;
 
-  /// @brief Method GetContentStream, addr 0x1375be4, size 0x574, virtual true, abstract: false, final false
+  /// @brief Method GetContentStream, addr 0x146b308, size 0x574, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Cms::CmsTypedStream* GetContentStream(::Org::BouncyCastle::Crypto::ICipherParameters* key);
 
   static inline ::Org::BouncyCastle::Cms::PasswordRecipientInformation* New_ctor(::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo* info,
@@ -50,10 +51,10 @@ public:
 
   constexpr void __cordl_internal_set_info(::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo* value);
 
-  /// @brief Method .ctor, addr 0x1352034, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1447758, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo* info, ::Org::BouncyCastle::Cms::CmsSecureReadable* secureReadable);
 
-  /// @brief Method get_KeyDerivationAlgorithm, addr 0x1375bc8, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_KeyDerivationAlgorithm, addr 0x146b2ec, size 0x1c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_KeyDerivationAlgorithm();
 
 protected:

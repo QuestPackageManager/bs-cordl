@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "TMPro/TMP_SpriteGlyph.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,13 +46,13 @@ public:
 
   constexpr void __cordl_internal_set_sprite(::UnityW<::UnityEngine::Sprite> value);
 
-  /// @brief Method .ctor, addr 0x3173f60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33799e8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x31742d4, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3379d5c, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(uint32_t index, ::UnityEngine::TextCore::GlyphMetrics metrics, ::UnityEngine::TextCore::GlyphRect glyphRect, float_t scale, int32_t atlasIndex);
 
-  /// @brief Method .ctor, addr 0x3174390, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3379e18, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(uint32_t index, ::UnityEngine::TextCore::GlyphMetrics metrics, ::UnityEngine::TextCore::GlyphRect glyphRect, float_t scale, int32_t atlasIndex, ::UnityEngine::Sprite* sprite);
 
 protected:

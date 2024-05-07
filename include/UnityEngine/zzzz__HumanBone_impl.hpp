@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/HumanBone.hpp"
 #include "UnityEngine/zzzz__HumanLimit_impl.hpp"
 #include "UnityEngine/zzzz__HumanBone_def.hpp"
 #include "UnityEngine/zzzz__HumanLimit_def.hpp"

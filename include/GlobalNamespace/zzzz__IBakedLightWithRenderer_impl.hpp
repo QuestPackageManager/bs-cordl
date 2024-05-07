@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IBakedLightWithRenderer.hpp"
 #include "GlobalNamespace/zzzz__IBakedLightWithRenderer_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IBakedLightWithRenderer.get_bakingMaterial

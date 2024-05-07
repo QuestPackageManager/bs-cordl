@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/HeaderVariantInfo.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,13 +28,13 @@ public:
 
   __declspec(property(get = get_Variant))::System::Net::CookieVariant Variant;
 
-  /// @brief Method .ctor, addr 0x2ee367c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fe5f7c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::System::Net::CookieVariant variant);
 
-  /// @brief Method get_Name, addr 0x2ee3688, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x2fe5f88, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Variant, addr 0x2ee3690, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Variant, addr 0x2fe5f90, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::CookieVariant get_Variant();
 
   // Ctor Parameters []

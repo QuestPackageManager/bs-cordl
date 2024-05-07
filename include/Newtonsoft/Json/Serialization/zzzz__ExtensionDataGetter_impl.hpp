@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/ExtensionDataGetter.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__ExtensionDataGetter_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
@@ -12,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::ExtensionDataGetter::*)(::System::Object*, void*)>(
     &::Newtonsoft::Json::Serialization::ExtensionDataGetter::_ctor)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x2924858;
+  constexpr static std::size_t addrs = 0x2a23108;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +29,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::System::Object*, ::System::Object*>>* (
         ::Newtonsoft::Json::Serialization::ExtensionDataGetter::*)(::System::Object*)>(&::Newtonsoft::Json::Serialization::ExtensionDataGetter::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x292e398;
+  constexpr static std::size_t addrs = 0x2a2cc48;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
     ::Newtonsoft::Json::Serialization::ExtensionDataGetter::*)(::System::Object*, ::System::AsyncCallback*, ::System::Object*)>(&::Newtonsoft::Json::Serialization::ExtensionDataGetter::BeginInvoke)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x292e3ac;
+  constexpr static std::size_t addrs = 0x2a2cc5c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -61,7 +62,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::System::Object*, ::System::Object*>>* (
         ::Newtonsoft::Json::Serialization::ExtensionDataGetter::*)(::System::IAsyncResult*)>(&::Newtonsoft::Json::Serialization::ExtensionDataGetter::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x292e3cc;
+  constexpr static std::size_t addrs = 0x2a2cc7c;
 
   inline static ::MethodInfo const* methodInfo() {
 

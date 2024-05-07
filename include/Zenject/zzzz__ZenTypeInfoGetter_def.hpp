@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/ZenTypeInfoGetter.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,18 +32,18 @@ namespace Zenject {
 class CORDL_TYPE ZenTypeInfoGetter : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x346d670, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x3671638, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x346d690, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x3671658, size 0xc, virtual true, abstract: false, final false
   inline ::Zenject::InjectTypeInfo* EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x346d65c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3671624, size 0x14, virtual true, abstract: false, final false
   inline ::Zenject::InjectTypeInfo* Invoke();
 
   static inline ::Zenject::ZenTypeInfoGetter* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x346d5a0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3671568, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:

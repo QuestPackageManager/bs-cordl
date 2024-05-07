@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/ConstraintStruct.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -89,10 +90,10 @@ public:
 
   constexpr void __cordl_internal_set_tableDim(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2df7e44, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ef6744, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::CompiledIdentityConstraint* constraint);
 
-  /// @brief Method get_TableDim, addr 0x2df7e3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TableDim, addr 0x2ef673c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_TableDim();
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/X509/IX509AttributeCertificate.hpp"
 #include "Org/BouncyCastle/X509/zzzz__IX509AttributeCertificate_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"

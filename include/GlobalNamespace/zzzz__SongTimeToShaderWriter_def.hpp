@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/SongTimeToShaderWriter.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,7 +31,7 @@ public:
 
   static inline ::GlobalNamespace::SongTimeToShaderWriter* New_ctor();
 
-  /// @brief Method Update, addr 0x25a0db0, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x269aef8, size 0x240, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSource();
@@ -39,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set__audioTimeSource(::GlobalNamespace::IAudioTimeSource* value);
 
-  /// @brief Method .ctor, addr 0x25a0ff0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x269b138, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__songTimePropertyId();

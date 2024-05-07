@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Net/Security/AsyncReadRequest.hpp"
 #include "Mono/Net/Security/zzzz__AsyncReadOrWriteRequest_impl.hpp"
 #include "Mono/Net/Security/zzzz__AsyncReadRequest_def.hpp"
 #include "Mono/Net/Security/zzzz__AsyncOperationStatus_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::AsyncReadRequest::*)(
     ::Mono::Net::Security::MobileAuthenticatedStream*, bool, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Mono::Net::Security::AsyncReadRequest::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b688dc;
+  constexpr static std::size_t addrs = 0x2c651dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Mono::Net::Security::AsyncOperationStatus (::Mono::Net::Security::AsyncReadRequest::*)(::Mono::Net::Security::AsyncOperationStatus)>(&::Mono::Net::Security::AsyncReadRequest::Run)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2b688e4;
+  constexpr static std::size_t addrs = 0x2c651e4;
 
   inline static ::MethodInfo const* methodInfo() {
 

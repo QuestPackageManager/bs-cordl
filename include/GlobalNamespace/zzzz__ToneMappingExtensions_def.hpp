@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ToneMappingExtensions.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -26,7 +27,7 @@ public:
   /// @brief Field _shaderKeywordMap, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__shaderKeywordMap, put = setStaticF__shaderKeywordMap))::ArrayW<::StringW, ::Array<::StringW>*> _shaderKeywordMap;
 
-  /// @brief Method SetShaderKeyword, addr 0x23f30d0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method SetShaderKeyword, addr 0x24eacc0, size 0x94, virtual false, abstract: false, final false
   static inline void SetShaderKeyword(::GlobalNamespace::ToneMapping toneMapping);
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF__shaderKeywordMap();

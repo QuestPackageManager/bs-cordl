@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/IPAddress_ReadOnlyIPAddress.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,7 +22,7 @@ public:
   // Declarations
   static inline ::System::Net::__IPAddress__ReadOnlyIPAddress* New_ctor(int64_t newAddress);
 
-  /// @brief Method .ctor, addr 0x2ebf698, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fc1f98, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(int64_t newAddress);
 
 protected:

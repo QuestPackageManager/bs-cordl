@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ProBuilder/Poly2Tri/Orientation.hpp"
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__Orientation_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::ProBuilder::Poly2Tri::Orientation::Orientation(int32_t value__) noexcept {

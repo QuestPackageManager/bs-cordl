@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/IReadonlyBeatmapLineData.hpp"
 #include "GlobalNamespace/zzzz__IReadonlyBeatmapLineData_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectData_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"

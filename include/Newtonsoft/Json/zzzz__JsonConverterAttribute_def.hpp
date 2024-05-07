@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/JsonConverterAttribute.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,16 +53,16 @@ public:
 
   constexpr void __cordl_internal_set__converterType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x28c7838, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29c60e8, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* converterType);
 
-  /// @brief Method .ctor, addr 0x28c7904, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29c61b4, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* converterType, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> converterParameters);
 
-  /// @brief Method get_ConverterParameters, addr 0x28c7830, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ConverterParameters, addr 0x29c60e0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> get_ConverterParameters();
 
-  /// @brief Method get_ConverterType, addr 0x28c7828, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ConverterType, addr 0x29c60d8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ConverterType();
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/RenderChainTextEntry.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__RenderChainTextEntry_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__RenderChainCommand_def.hpp"
 // Ctor Parameters [CppParam { name: "command", ty: "::UnityEngine::UIElements::UIR::RenderChainCommand*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "firstVertex", ty: "int32_t",

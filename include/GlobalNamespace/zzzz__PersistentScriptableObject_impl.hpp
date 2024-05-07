@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/PersistentScriptableObject.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PersistentScriptableObject.OnEnable
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PersistentScriptableObject::*)()>(
     &::GlobalNamespace::PersistentScriptableObject::OnEnable)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0xf90e08;
+  constexpr static std::size_t addrs = 0x1085714;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -21,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PersistentScriptableObject::*)()>(&::GlobalNamespace::PersistentScriptableObject::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0xf90e2c;
+  constexpr static std::size_t addrs = 0x1085738;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PersistentScriptableObject*>::get(), ".ctor",

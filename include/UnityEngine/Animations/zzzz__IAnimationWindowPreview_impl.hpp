@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Animations/IAnimationWindowPreview.hpp"
 #include "UnityEngine/Animations/zzzz__IAnimationWindowPreview_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Animations::IAnimationWindowPreview.UpdatePreviewGraph

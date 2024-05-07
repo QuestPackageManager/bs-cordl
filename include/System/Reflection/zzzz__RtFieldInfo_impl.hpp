@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Reflection/RtFieldInfo.hpp"
 #include "System/Reflection/zzzz__FieldInfo_impl.hpp"
 #include "System/Reflection/zzzz__RtFieldInfo_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"
@@ -56,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Reflection::RtFieldInfo::*)()>(&::System::Reflection::RtFieldInfo::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x27737bc;
+  constexpr static std::size_t addrs = 0x2872edc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::RtFieldInfo*>::get(), ".ctor",

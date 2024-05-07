@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/Models/LivestreamingStatus.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -66,7 +67,7 @@ public:
 
   constexpr void __cordl_internal_set_MicEnabled(bool value);
 
-  /// @brief Method .ctor, addr 0x29dec08, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2add4b8, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(void* o);
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Internal/Cryptography/Helpers.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Internal/Cryptography/zzzz__Helpers_def.hpp"
 //  Writing Method size for method: ::Internal::Cryptography::Helpers.CloneByteArray
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Internal::Cryptography::Helpers::CloneByteArray)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x26ad6ec;
+  constexpr static std::size_t addrs = 0x27abae8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<char16_t, ::Array<char16_t>*> (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Internal::Cryptography::Helpers::ToHexArrayUpper)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x26ad764;
+  constexpr static std::size_t addrs = 0x27abb60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Internal::Cryptography::Helpers::ToHexStringUpper)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x26ad86c;
+  constexpr static std::size_t addrs = 0x27abc68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (*)(uint8_t)>(&::Internal::Cryptography::Helpers::NibbleToHex)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x26ad850;
+  constexpr static std::size_t addrs = 0x27abc4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

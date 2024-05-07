@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Mono/Security/Interface/MonoTlsProviderFactory.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -21,7 +22,7 @@ namespace Mono::Security::Interface {
 class CORDL_TYPE MonoTlsProviderFactory : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetProvider, addr 0x2683bc8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetProvider, addr 0x2780fc4, size 0x70, virtual false, abstract: false, final false
   static inline ::Mono::Security::Interface::MonoTlsProvider* GetProvider();
 
 protected:

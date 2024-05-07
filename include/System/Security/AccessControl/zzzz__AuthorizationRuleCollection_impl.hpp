@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/AccessControl/AuthorizationRuleCollection.hpp"
 #include "System/Collections/zzzz__ReadOnlyCollectionBase_impl.hpp"
 #include "System/Security/AccessControl/zzzz__AuthorizationRuleCollection_def.hpp"
 #include "System/Security/AccessControl/zzzz__AuthorizationRule_def.hpp"
@@ -9,7 +10,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::System::Security::AccessControl::AuthorizationRule*, ::Array<::System::Security::AccessControl::AuthorizationRule*>*>)>(
     &::System::Security::AccessControl::AuthorizationRuleCollection::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x27042f0;
+  constexpr static std::size_t addrs = 0x28016ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

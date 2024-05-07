@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BeatmapDifficultySerializedMethods.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,10 +24,10 @@ namespace GlobalNamespace {
 class CORDL_TYPE BeatmapDifficultySerializedMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method BeatmapDifficultyFromSerializedName, addr 0xf45dbc, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method BeatmapDifficultyFromSerializedName, addr 0x1034930, size 0x164, virtual false, abstract: false, final false
   static inline bool BeatmapDifficultyFromSerializedName(::StringW name, ByRef<::GlobalNamespace::BeatmapDifficulty> difficulty);
 
-  /// @brief Method SerializedName, addr 0xf45d18, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method SerializedName, addr 0x103488c, size 0xa4, virtual false, abstract: false, final false
   static inline ::StringW SerializedName(::GlobalNamespace::BeatmapDifficulty difficulty);
 
 protected:

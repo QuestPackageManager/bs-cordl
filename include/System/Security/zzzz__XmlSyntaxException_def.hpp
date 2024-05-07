@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Security/XmlSyntaxException.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,16 +35,16 @@ public:
 
   static inline ::System::Security::XmlSyntaxException* New_ctor(int32_t lineNumber, ::StringW message);
 
-  /// @brief Method .ctor, addr 0x26d342c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27d1828, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x26d3444, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27d1840, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x26d3434, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27d1830, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t lineNumber);
 
-  /// @brief Method .ctor, addr 0x26d343c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27d1838, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t lineNumber, ::StringW message);
 
 protected:

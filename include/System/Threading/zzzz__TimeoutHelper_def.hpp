@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/TimeoutHelper.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -19,10 +20,10 @@ namespace System::Threading {
 class CORDL_TYPE TimeoutHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetTime, addr 0x289ab04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetTime, addr 0x29993b4, size 0x8, virtual false, abstract: false, final false
   static inline uint32_t GetTime();
 
-  /// @brief Method UpdateTimeOut, addr 0x289abb8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method UpdateTimeOut, addr 0x2999468, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t UpdateTimeOut(uint32_t startTime, int32_t originalWaitMillisecondsTimeout);
 
 protected:

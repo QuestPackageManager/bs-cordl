@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Schema/ValidationEventHandler.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -31,18 +32,18 @@ namespace Newtonsoft::Json::Schema {
 class CORDL_TYPE ValidationEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x29562e0, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2a54b90, size 0x28, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::Object* sender, ::Newtonsoft::Json::Schema::ValidationEventArgs* e, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2956308, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2a54bb8, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x29562cc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2a54b7c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* sender, ::Newtonsoft::Json::Schema::ValidationEventArgs* e);
 
   static inline ::Newtonsoft::Json::Schema::ValidationEventHandler* New_ctor(::System::Object* object, void* method);
 
-  /// @brief Method .ctor, addr 0x294aa20, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a492d0, size 0x130, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, void* method);
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/NetworkInformation/UnixNetworkInterfaceFactoryPal.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/NetworkInformation/zzzz__UnixNetworkInterfaceFactoryPal_def.hpp"
 #include "System/Net/NetworkInformation/zzzz__NetworkInterfaceFactory_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::NetworkInformation::NetworkInterfaceFactory* (*)()>(
     &::System::Net::NetworkInformation::UnixNetworkInterfaceFactoryPal::Create)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x2f25b48;
+  constexpr static std::size_t addrs = 0x3026448;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

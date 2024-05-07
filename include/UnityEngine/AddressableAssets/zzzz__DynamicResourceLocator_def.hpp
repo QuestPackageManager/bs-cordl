@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/AddressableAssets/DynamicResourceLocator.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -56,11 +57,11 @@ public:
   /// @brief Convert operator to "::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator"
   constexpr operator ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*() noexcept;
 
-  /// @brief Method CreateDynamicLocations, addr 0x2f5c5e0, size 0x68c, virtual false, abstract: false, final false
+  /// @brief Method CreateDynamicLocations, addr 0x305dee0, size 0x68c, virtual false, abstract: false, final false
   inline void CreateDynamicLocations(::System::Type* type, ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* locations,
                                      ::StringW locName, ::StringW subKey, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* mainLoc);
 
-  /// @brief Method Locate, addr 0x2f5c094, size 0x54c, virtual true, abstract: false, final true
+  /// @brief Method Locate, addr 0x305d994, size 0x54c, virtual true, abstract: false, final true
   inline bool Locate(::System::Object* key, ::System::Type* type, ByRef<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> locations);
 
   static inline ::UnityEngine::AddressableAssets::DynamicResourceLocator* New_ctor(::UnityEngine::AddressableAssets::AddressablesImpl* addr);
@@ -77,16 +78,16 @@ public:
 
   constexpr void __cordl_internal_set_m_AtlasSpriteProviderId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2f5c06c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x305d96c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::AddressableAssets::AddressablesImpl* addr);
 
-  /// @brief Method get_AtlasSpriteProviderId, addr 0x2f5bc14, size 0x458, virtual false, abstract: false, final false
+  /// @brief Method get_AtlasSpriteProviderId, addr 0x305d514, size 0x458, virtual false, abstract: false, final false
   inline ::StringW get_AtlasSpriteProviderId();
 
-  /// @brief Method get_Keys, addr 0x2f5bbd0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method get_Keys, addr 0x305d4d0, size 0x44, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Object*>* get_Keys();
 
-  /// @brief Method get_LocatorId, addr 0x2f5bb90, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_LocatorId, addr 0x305d490, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_LocatorId();
 
   /// @brief Convert to "::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator"

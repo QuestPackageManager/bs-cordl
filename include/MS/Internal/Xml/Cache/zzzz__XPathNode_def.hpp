@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "MS/Internal/Xml/Cache/XPathNode.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -64,55 +65,55 @@ public:
 
   __declspec(property(get = get_Value))::StringW Value;
 
-  /// @brief Method GetParent, addr 0x2d65f28, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetParent, addr 0x2e62828, size 0x24, virtual false, abstract: false, final false
   inline int32_t GetParent(ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>> pageNode);
 
-  /// @brief Method GetSibling, addr 0x2d65dfc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetSibling, addr 0x2e626fc, size 0x24, virtual false, abstract: false, final false
   inline int32_t GetSibling(ByRef<::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>> pageNode);
 
-  /// @brief Method get_CollapsedLinePosition, addr 0x2d66220, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_CollapsedLinePosition, addr 0x2e62b20, size 0x2c, virtual false, abstract: false, final false
   inline int32_t get_CollapsedLinePosition();
 
-  /// @brief Method get_Document, addr 0x2d65b48, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Document, addr 0x2e62448, size 0x1c, virtual false, abstract: false, final false
   inline ::System::Xml::XPath::XPathDocument* get_Document();
 
-  /// @brief Method get_HasCollapsedText, addr 0x2d662a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_HasCollapsedText, addr 0x2e62ba8, size 0xc, virtual false, abstract: false, final false
   inline bool get_HasCollapsedText();
 
-  /// @brief Method get_HasNamespaceDecls, addr 0x2d66314, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_HasNamespaceDecls, addr 0x2e62c14, size 0xc, virtual false, abstract: false, final false
   inline bool get_HasNamespaceDecls();
 
-  /// @brief Method get_HasSibling, addr 0x2d66298, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_HasSibling, addr 0x2e62b98, size 0x10, virtual false, abstract: false, final false
   inline bool get_HasSibling();
 
-  /// @brief Method get_IsText, addr 0x2d662b4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_IsText, addr 0x2e62bb4, size 0x60, virtual false, abstract: false, final false
   inline bool get_IsText();
 
-  /// @brief Method get_IsXmlNamespaceNode, addr 0x2d65d74, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_IsXmlNamespaceNode, addr 0x2e62674, size 0x88, virtual false, abstract: false, final false
   inline bool get_IsXmlNamespaceNode();
 
-  /// @brief Method get_LineNumber, addr 0x2d66154, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_LineNumber, addr 0x2e62a54, size 0x28, virtual false, abstract: false, final false
   inline int32_t get_LineNumber();
 
-  /// @brief Method get_LinePosition, addr 0x2d6624c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_LinePosition, addr 0x2e62b4c, size 0x24, virtual false, abstract: false, final false
   inline int32_t get_LinePosition();
 
-  /// @brief Method get_LocalName, addr 0x2d65a38, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x2e62338, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_NamespaceUri, addr 0x2d65a90, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_NamespaceUri, addr 0x2e62390, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW get_NamespaceUri();
 
-  /// @brief Method get_NodeType, addr 0x2d659f0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x2e622f0, size 0xc, virtual false, abstract: false, final false
   inline ::System::Xml::XPath::XPathNodeType get_NodeType();
 
-  /// @brief Method get_PageInfo, addr 0x2d6627c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_PageInfo, addr 0x2e62b7c, size 0x1c, virtual false, abstract: false, final false
   inline ::MS::Internal::Xml::Cache::XPathNodePageInfo* get_PageInfo();
 
-  /// @brief Method get_Prefix, addr 0x2d65ae8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Prefix, addr 0x2e623e8, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW get_Prefix();
 
-  /// @brief Method get_Value, addr 0x2d66320, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x2e62c20, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Value();
 
   // Ctor Parameters []

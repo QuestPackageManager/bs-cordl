@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatmapSaveDataVersion3/TransitionType.hpp"
 #include "BeatmapSaveDataVersion3/zzzz__TransitionType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::BeatmapSaveDataVersion3::TransitionType::TransitionType(int32_t value__) noexcept {

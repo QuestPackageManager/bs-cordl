@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Runtime/Remoting/Contexts/IContextAttribute.hpp"
 #include "System/Runtime/Remoting/Contexts/zzzz__IContextAttribute_def.hpp"
 #include "System/Runtime/Remoting/Activation/zzzz__IConstructionCallMessage_def.hpp"
 #include "System/Runtime/Remoting/Contexts/zzzz__Context_def.hpp"

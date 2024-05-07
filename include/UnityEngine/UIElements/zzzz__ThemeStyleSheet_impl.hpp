@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/ThemeStyleSheet.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleSheet_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__ThemeStyleSheet_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::ThemeStyleSheet.OnEnable
@@ -6,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ThemeStyleSheet::*)()>(&::UnityEngine::UIElements::ThemeStyleSheet::OnEnable)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x33ba3b8;
+  constexpr static std::size_t addrs = 0x35c00f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -20,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ThemeStyleSheet::*)()>(&::UnityEngine::UIElements::ThemeStyleSheet::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x33ba538;
+  constexpr static std::size_t addrs = 0x35c0274;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ThemeStyleSheet*>::get(), ".ctor",

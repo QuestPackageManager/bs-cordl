@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BeatmapObjectAvoidanceTiltEvaluator.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectAvoidanceTiltEvaluator_def.hpp"
@@ -11,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator::*)(
     ::GlobalNamespace::IAudioTimeSource*, ::GlobalNamespace::BezierSplineEvaluator*, ::UnityEngine::Vector2)>(&::GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator::_ctor)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0xf61164;
+  constexpr static std::size_t addrs = 0x1050cd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator::*)()>(
     &::GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator::GetTiltAngle)> {
   constexpr static std::size_t size = 0x2cc;
-  constexpr static std::size_t addrs = 0xf61244;
+  constexpr static std::size_t addrs = 0x1050db8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator*>::get(),

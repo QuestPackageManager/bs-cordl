@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Http/Headers/RangeConditionHeaderValue.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,23 +53,23 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Equals, addr 0x2c79520, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2d76e20, size 0x144, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2c79664, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2d76f64, size 0x84, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Net::Http::Headers::RangeConditionHeaderValue* New_ctor(::System::DateTimeOffset date);
 
   static inline ::System::Net::Http::Headers::RangeConditionHeaderValue* New_ctor(::System::Net::Http::Headers::EntityTagHeaderValue* entityTag);
 
-  /// @brief Method System.ICloneable.Clone, addr 0x2c79518, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.ICloneable.Clone, addr 0x2d76e18, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method ToString, addr 0x2c79934, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2d77234, size 0xe4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryParse, addr 0x2c796e8, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x2d76fe8, size 0x24c, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, ByRef<::System::Net::Http::Headers::RangeConditionHeaderValue*> parsedValue);
 
   constexpr ::System::Nullable_1<::System::DateTimeOffset> const& __cordl_internal_get__Date_k__BackingField() const;
@@ -83,25 +84,25 @@ public:
 
   constexpr void __cordl_internal_set__EntityTag_k__BackingField(::System::Net::Http::Headers::EntityTagHeaderValue* value);
 
-  /// @brief Method .ctor, addr 0x2c793d8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d76cd8, size 0x90, virtual false, abstract: false, final false
   inline void _ctor(::System::DateTimeOffset date);
 
-  /// @brief Method .ctor, addr 0x2c79468, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d76d68, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Http::Headers::EntityTagHeaderValue* entityTag);
 
-  /// @brief Method get_Date, addr 0x2c794e0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_Date, addr 0x2d76de0, size 0x14, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::System::DateTimeOffset> get_Date();
 
-  /// @brief Method get_EntityTag, addr 0x2c79508, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_EntityTag, addr 0x2d76e08, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Http::Headers::EntityTagHeaderValue* get_EntityTag();
 
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  /// @brief Method set_Date, addr 0x2c794f4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_Date, addr 0x2d76df4, size 0x14, virtual false, abstract: false, final false
   inline void set_Date(::System::Nullable_1<::System::DateTimeOffset> value);
 
-  /// @brief Method set_EntityTag, addr 0x2c79510, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_EntityTag, addr 0x2d76e10, size 0x8, virtual false, abstract: false, final false
   inline void set_EntityTag(::System::Net::Http::Headers::EntityTagHeaderValue* value);
 
 protected:

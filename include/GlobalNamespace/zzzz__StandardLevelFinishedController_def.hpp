@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/StandardLevelFinishedController.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,18 +39,18 @@ public:
   __declspec(property(get = __cordl_internal_get__standardLevelSceneSetupData,
                       put = __cordl_internal_set__standardLevelSceneSetupData))::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> _standardLevelSceneSetupData;
 
-  /// @brief Method HandleLevelFinished, addr 0x25eb608, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleLevelFinished, addr 0x26ea5b4, size 0x4, virtual false, abstract: false, final false
   inline void HandleLevelFinished();
 
   static inline ::GlobalNamespace::StandardLevelFinishedController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x25eb500, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x26ea4ac, size 0x108, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x25eb410, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x26ea3bc, size 0xf0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartLevelFinished, addr 0x25eb60c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method StartLevelFinished, addr 0x26ea5b8, size 0x40, virtual false, abstract: false, final false
   inline void StartLevelFinished();
 
   constexpr ::GlobalNamespace::ILevelEndActions*& __cordl_internal_get__gameplayManager();
@@ -70,7 +71,7 @@ public:
 
   constexpr void __cordl_internal_set__standardLevelSceneSetupData(::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0x25eb64c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ea5f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

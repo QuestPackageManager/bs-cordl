@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/ColorArrayLightWithIds.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,7 +56,7 @@ public:
   /// @brief Field didSetColorEvent, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_didSetColorEvent, put = __cordl_internal_set_didSetColorEvent))::System::Action_2<int32_t, ::UnityEngine::Color>* didSetColorEvent;
 
-  /// @brief Method ColorWasSet, addr 0x23fa16c, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x24f1d5c, size 0x48, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color newColor);
 
   static inline ::GlobalNamespace::__ColorArrayLightWithIds__ColorArrayLightWithId* New_ctor(int32_t index, int32_t lightId);
@@ -72,13 +73,13 @@ public:
 
   constexpr void __cordl_internal_set_didSetColorEvent(::System::Action_2<int32_t, ::UnityEngine::Color>* value);
 
-  /// @brief Method .ctor, addr 0x23fa114, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f1d04, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(int32_t index, int32_t lightId);
 
-  /// @brief Method add_didSetColorEvent, addr 0x23f9f38, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didSetColorEvent, addr 0x24f1b28, size 0xb0, virtual false, abstract: false, final false
   inline void add_didSetColorEvent(::System::Action_2<int32_t, ::UnityEngine::Color>* value);
 
-  /// @brief Method remove_didSetColorEvent, addr 0x23f9fe8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSetColorEvent, addr 0x24f1bd8, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didSetColorEvent(::System::Action_2<int32_t, ::UnityEngine::Color>* value);
 
 protected:
@@ -149,33 +150,33 @@ public:
                       put = __cordl_internal_set__materialPropertyBlockControllers))::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>,
                                                                                              ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*> _materialPropertyBlockControllers;
 
-  /// @brief Method GetLightWithIds, addr 0x23f9dd8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetLightWithIds, addr 0x24f19c8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__LightWithIds__LightWithId*>* GetLightWithIds();
 
-  /// @brief Method HandleColorLightWithIdDidSetColor, addr 0x23f9de0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method HandleColorLightWithIdDidSetColor, addr 0x24f19d0, size 0x8c, virtual false, abstract: false, final false
   inline void HandleColorLightWithIdDidSetColor(int32_t index, ::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::ColorArrayLightWithIds* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x23f9ccc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x24f18bc, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnEnable, addr 0x23f9b2c, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x24f171c, size 0x18, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method ProcessNewColorData, addr 0x23f9da4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ProcessNewColorData, addr 0x24f1994, size 0x4, virtual true, abstract: false, final false
   inline void ProcessNewColorData();
 
-  /// @brief Method RegisterArrayForColorChanges, addr 0x23f9b48, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method RegisterArrayForColorChanges, addr 0x24f1738, size 0x184, virtual false, abstract: false, final false
   inline void RegisterArrayForColorChanges();
 
-  /// @brief Method SetColorArrayOffsetToMaterialPropertyBlocks, addr 0x23f9e6c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method SetColorArrayOffsetToMaterialPropertyBlocks, addr 0x24f1a5c, size 0xcc, virtual false, abstract: false, final false
   inline void SetColorArrayOffsetToMaterialPropertyBlocks();
 
-  /// @brief Method SetColorDataToMaterial, addr 0x23f9da8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetColorDataToMaterial, addr 0x24f1998, size 0x30, virtual false, abstract: false, final false
   inline void SetColorDataToMaterial();
 
-  /// @brief Method UnregisterArrayFromColorChanges, addr 0x23f9cd0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method UnregisterArrayFromColorChanges, addr 0x24f18c0, size 0xd4, virtual false, abstract: false, final false
   inline void UnregisterArrayFromColorChanges();
 
   constexpr ::ArrayW<::GlobalNamespace::__ColorArrayLightWithIds__ColorArrayLightWithId*, ::Array<::GlobalNamespace::__ColorArrayLightWithIds__ColorArrayLightWithId*>*> const&
@@ -232,7 +233,7 @@ public:
   constexpr void __cordl_internal_set__materialPropertyBlockControllers(
       ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>, ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*> value);
 
-  /// @brief Method .ctor, addr 0x23fa098, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f1c88, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

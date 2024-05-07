@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatmapSaveDataVersion2_6_0AndEarlier/WaypointData.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -75,19 +76,19 @@ public:
 
   constexpr void __cordl_internal_set__time(float_t value);
 
-  /// @brief Method .ctor, addr 0x1401c84, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14f4210, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(float_t time, int32_t lineIndex, ::BeatmapSaveDataCommon::NoteLineLayer lineLayer, ::BeatmapSaveDataCommon::OffsetDirection offsetDirection);
 
-  /// @brief Method get_lineIndex, addr 0x1401c6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lineIndex, addr 0x14f41f8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_lineIndex();
 
-  /// @brief Method get_lineLayer, addr 0x1401c74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lineLayer, addr 0x14f4200, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::NoteLineLayer get_lineLayer();
 
-  /// @brief Method get_offsetDirection, addr 0x1401c7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_offsetDirection, addr 0x14f4208, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataCommon::OffsetDirection get_offsetDirection();
 
-  /// @brief Method get_time, addr 0x1401c64, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_time, addr 0x14f41f0, size 0x8, virtual true, abstract: false, final false
   inline float_t get_time();
 
 protected:

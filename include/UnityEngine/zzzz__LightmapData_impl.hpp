@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/LightmapData.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__LightmapData_def.hpp"
 #include "UnityEngine/zzzz__Texture2D_def.hpp"
@@ -7,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::LightmapData::*)()>(&::UnityEngine::LightmapData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x31f6d7c;
+  constexpr static std::size_t addrs = 0x33fdab0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightmapData*>::get(), ".ctor",

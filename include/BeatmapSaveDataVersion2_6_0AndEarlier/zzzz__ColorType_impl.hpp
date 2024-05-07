@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatmapSaveDataVersion2_6_0AndEarlier/ColorType.hpp"
 #include "BeatmapSaveDataVersion2_6_0AndEarlier/zzzz__ColorType_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::BeatmapSaveDataVersion2_6_0AndEarlier::ColorType::ColorType(int32_t value__) noexcept {

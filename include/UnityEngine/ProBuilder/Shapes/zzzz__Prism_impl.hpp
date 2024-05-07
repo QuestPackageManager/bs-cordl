@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ProBuilder/Shapes/Prism.hpp"
 #include "UnityEngine/ProBuilder/Shapes/zzzz__Shape_impl.hpp"
 #include "UnityEngine/ProBuilder/Shapes/zzzz__Prism_def.hpp"
 #include "UnityEngine/ProBuilder/Shapes/zzzz__Shape_def.hpp"
@@ -12,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Shapes::Prism::*)(::UnityEngine::ProBuilder::Shapes::Shape*)>(
     &::UnityEngine::ProBuilder::Shapes::Prism::CopyShape)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x30bccc8;
+  constexpr static std::size_t addrs = 0x32c3750;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Bounds (::UnityEngine::ProBuilder::Shapes::Prism::*)(
     ::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(&::UnityEngine::ProBuilder::Shapes::Prism::RebuildMesh)> {
   constexpr static std::size_t size = 0x814;
-  constexpr static std::size_t addrs = 0x30bcccc;
+  constexpr static std::size_t addrs = 0x32c3754;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Shapes::Prism::*)()>(&::UnityEngine::ProBuilder::Shapes::Prism::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x30bd4e0;
+  constexpr static std::size_t addrs = 0x32c3f68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::Prism*>::get(), ".ctor",

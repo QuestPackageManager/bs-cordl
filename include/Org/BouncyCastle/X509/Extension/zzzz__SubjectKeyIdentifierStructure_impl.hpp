@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/X509/Extension/SubjectKeyIdentifierStructure.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__SubjectKeyIdentifier_impl.hpp"
 #include "Org/BouncyCastle/X509/Extension/zzzz__SubjectKeyIdentifierStructure_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1OctetString_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::X509::Extension::SubjectKeyIdentifierStructure::*)(
     ::Org::BouncyCastle::Asn1::Asn1OctetString*)>(&::Org::BouncyCastle::X509::Extension::SubjectKeyIdentifierStructure::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x12e046c;
+  constexpr static std::size_t addrs = 0x13d1b90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1OctetString* (*)(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*)>(
     &::Org::BouncyCastle::X509::Extension::SubjectKeyIdentifierStructure::FromPublicKey)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x12e0500;
+  constexpr static std::size_t addrs = 0x13d1c24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::X509::Extension::SubjectKeyIdentifierStructure::*)(
     ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*)>(&::Org::BouncyCastle::X509::Extension::SubjectKeyIdentifierStructure::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x12e06bc;
+  constexpr static std::size_t addrs = 0x13d1de0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

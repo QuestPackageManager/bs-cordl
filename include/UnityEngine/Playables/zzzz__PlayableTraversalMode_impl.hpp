@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Playables/PlayableTraversalMode.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableTraversalMode_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Playables::PlayableTraversalMode::PlayableTraversalMode(int32_t value__) noexcept {

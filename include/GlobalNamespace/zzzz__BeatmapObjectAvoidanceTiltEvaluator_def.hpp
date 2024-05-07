@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BeatmapObjectAvoidanceTiltEvaluator.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,7 +45,7 @@ public:
   /// @brief Field _normalizedGravity, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__normalizedGravity, put = __cordl_internal_set__normalizedGravity))::UnityEngine::Vector2 _normalizedGravity;
 
-  /// @brief Method GetTiltAngle, addr 0xf61244, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method GetTiltAngle, addr 0x1050db8, size 0x2cc, virtual false, abstract: false, final false
   inline float_t GetTiltAngle();
 
   static inline ::GlobalNamespace::BeatmapObjectAvoidanceTiltEvaluator* New_ctor(::GlobalNamespace::IAudioTimeSource* audioTimeSource, ::GlobalNamespace::BezierSplineEvaluator* bezierSplineEvaluator,
@@ -80,7 +81,7 @@ public:
 
   constexpr void __cordl_internal_set__normalizedGravity(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0xf61164, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1050cd8, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IAudioTimeSource* audioTimeSource, ::GlobalNamespace::BezierSplineEvaluator* bezierSplineEvaluator, ::UnityEngine::Vector2 gravity);
 
 protected:

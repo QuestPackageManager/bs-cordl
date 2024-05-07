@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/ISerializationBinder.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__ISerializationBinder_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Serialization::ISerializationBinder.BindToType

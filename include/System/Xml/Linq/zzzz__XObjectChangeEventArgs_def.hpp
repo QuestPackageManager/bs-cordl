@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Linq/XObjectChangeEventArgs.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -45,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set__objectChange(::System::Xml::Linq::XObjectChange value);
 
-  /// @brief Method .ctor, addr 0x2ca1688, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2d9ff88, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XObjectChange objectChange);
 
   static inline ::System::Xml::Linq::XObjectChangeEventArgs* getStaticF_Add();

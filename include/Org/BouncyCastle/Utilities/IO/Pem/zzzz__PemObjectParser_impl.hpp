@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Utilities/IO/Pem/PemObjectParser.hpp"
 #include "Org/BouncyCastle/Utilities/IO/Pem/zzzz__PemObjectParser_def.hpp"
 #include "Org/BouncyCastle/Utilities/IO/Pem/zzzz__PemObject_def.hpp"
 #include "System/zzzz__Object_def.hpp"

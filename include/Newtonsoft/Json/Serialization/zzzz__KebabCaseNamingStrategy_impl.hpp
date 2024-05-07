@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Serialization/KebabCaseNamingStrategy.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__NamingStrategy_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__KebabCaseNamingStrategy_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Serialization::KebabCaseNamingStrategy._ctor
@@ -7,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::KebabCaseNamingStrategy::*)(bool, bool)>(
     &::Newtonsoft::Json::Serialization::KebabCaseNamingStrategy::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x29473cc;
+  constexpr static std::size_t addrs = 0x2a45c7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -22,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::KebabCaseNamingStrategy::*)(bool, bool, bool)>(
     &::Newtonsoft::Json::Serialization::KebabCaseNamingStrategy::_ctor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x294740c;
+  constexpr static std::size_t addrs = 0x2a45cbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -38,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::KebabCaseNamingStrategy::*)()>(
     &::Newtonsoft::Json::Serialization::KebabCaseNamingStrategy::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2947458;
+  constexpr static std::size_t addrs = 0x2a45d08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -53,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Serialization::KebabCaseNamingStrategy::*)(::StringW)>(
     &::Newtonsoft::Json::Serialization::KebabCaseNamingStrategy::ResolvePropertyName)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2947460;
+  constexpr static std::size_t addrs = 0x2a45d10;
 
   inline static ::MethodInfo const* methodInfo() {
 

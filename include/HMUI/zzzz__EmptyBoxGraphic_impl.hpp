@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/EmptyBoxGraphic.hpp"
 #include "UnityEngine/UI/zzzz__Graphic_impl.hpp"
 #include "HMUI/zzzz__EmptyBoxGraphic_def.hpp"
 #include "UnityEngine/UI/zzzz__VertexHelper_def.hpp"
@@ -7,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::EmptyBoxGraphic::*)(::UnityEngine::UI::VertexHelper*)>(&::HMUI::EmptyBoxGraphic::OnPopulateMesh)> {
   constexpr static std::size_t size = 0x5b8;
-  constexpr static std::size_t addrs = 0x240ee30;
+  constexpr static std::size_t addrs = 0x2507abc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -21,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::EmptyBoxGraphic::*)()>(&::HMUI::EmptyBoxGraphic::OnDrawGizmosSelected)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x240f3e8;
+  constexpr static std::size_t addrs = 0x2508074;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::EmptyBoxGraphic*>::get(), "OnDrawGizmosSelected",
@@ -34,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::EmptyBoxGraphic::*)()>(&::HMUI::EmptyBoxGraphic::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x240f574;
+  constexpr static std::size_t addrs = 0x2508200;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::EmptyBoxGraphic*>::get(), ".ctor",

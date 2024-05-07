@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "HMUI/ImageWithHint.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -52,16 +53,16 @@ public:
 
   constexpr void __cordl_internal_set__image(::UnityW<::UnityEngine::UI::Image> value);
 
-  /// @brief Method .ctor, addr 0x2429ba8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2524834, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_sprite, addr 0x2429b70, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_sprite, addr 0x25247fc, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_sprite();
 
-  /// @brief Method set_hintText, addr 0x2429b8c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_hintText, addr 0x2524818, size 0x1c, virtual false, abstract: false, final false
   inline void set_hintText(::StringW value);
 
-  /// @brief Method set_sprite, addr 0x2429b54, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_sprite, addr 0x25247e0, size 0x1c, virtual false, abstract: false, final false
   inline void set_sprite(::UnityEngine::Sprite* value);
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/DlcPromoPanelDataSO.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,19 +56,19 @@ public:
 
   constexpr void __cordl_internal_set__minNumberOfNotOwnedPacks(int32_t value);
 
-  /// @brief Method .ctor, addr 0x13f87ec, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14eaef8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_cutOffTest, addr 0x13f87cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cutOffTest, addr 0x14eaed8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_cutOffTest();
 
-  /// @brief Method get_defaultPromoInfoId, addr 0x13f87dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultPromoInfoId, addr 0x14eaee8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_defaultPromoInfoId();
 
-  /// @brief Method get_minNumberOfNotOwnedPacks, addr 0x13f87d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_minNumberOfNotOwnedPacks, addr 0x14eaee0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_minNumberOfNotOwnedPacks();
 
-  /// @brief Method set_defaultPromoInfoId, addr 0x13f87e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_defaultPromoInfoId, addr 0x14eaef0, size 0x8, virtual false, abstract: false, final false
   inline void set_defaultPromoInfoId(::StringW value);
 
 protected:

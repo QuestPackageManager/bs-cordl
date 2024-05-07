@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/ZenMemberSetterMethod.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "Zenject/zzzz__ZenMemberSetterMethod_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
@@ -9,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::ZenMemberSetterMethod::*)(::System::Object*, void*)>(&::Zenject::ZenMemberSetterMethod::_ctor)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x3409a48;
+  constexpr static std::size_t addrs = 0x360e784;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::ZenMemberSetterMethod::*)(::System::Object*, ::System::Object*)>(
     &::Zenject::ZenMemberSetterMethod::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3409b78;
+  constexpr static std::size_t addrs = 0x360e8b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -39,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
     ::Zenject::ZenMemberSetterMethod::*)(::System::Object*, ::System::Object*, ::System::AsyncCallback*, ::System::Object*)>(&::Zenject::ZenMemberSetterMethod::BeginInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3409b8c;
+  constexpr static std::size_t addrs = 0x360e8c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -53,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::ZenMemberSetterMethod::*)(::System::IAsyncResult*)>(&::Zenject::ZenMemberSetterMethod::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3409bb4;
+  constexpr static std::size_t addrs = 0x360e8f0;
 
   inline static ::MethodInfo const* methodInfo() {
 

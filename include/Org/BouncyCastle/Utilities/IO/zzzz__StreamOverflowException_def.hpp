@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Utilities/IO/StreamOverflowException.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -28,13 +29,13 @@ public:
 
   static inline ::Org::BouncyCastle::Utilities::IO::StreamOverflowException* New_ctor(::StringW message, ::System::Exception* exception);
 
-  /// @brief Method .ctor, addr 0x12cfd98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13c14bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x12cfda0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13c14c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x12cfda8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13c14cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* exception);
 
 protected:

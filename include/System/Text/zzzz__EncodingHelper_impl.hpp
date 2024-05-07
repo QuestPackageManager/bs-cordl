@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Text/EncodingHelper.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Text/zzzz__EncodingHelper_def.hpp"
 #include "System/Reflection/zzzz__Assembly_def.hpp"
@@ -9,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::Encoding* (*)()>(&::System::Text::EncodingHelper::get_UTF8Unmarked)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x26d31c0;
+  constexpr static std::size_t addrs = 0x27d15bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::EncodingHelper*>::get(), "get_UTF8Unmarked",
@@ -22,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(ByRef<int32_t>)>(&::System::Text::EncodingHelper::InternalCodePage)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x26d33b0;
+  constexpr static std::size_t addrs = 0x27d17ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::Encoding* (*)()>(&::System::Text::EncodingHelper::GetDefaultEncoding)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x26d0154;
+  constexpr static std::size_t addrs = 0x27ce550;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::EncodingHelper*>::get(), "GetDefaultEncoding",
@@ -50,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::StringW, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::System::Text::EncodingHelper::InvokeI18N)> {
   constexpr static std::size_t size = 0x70c;
-  constexpr static std::size_t addrs = 0x26ce5a4;
+  constexpr static std::size_t addrs = 0x27cc9a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

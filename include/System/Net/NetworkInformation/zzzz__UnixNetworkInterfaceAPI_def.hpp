@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/NetworkInformation/UnixNetworkInterfaceAPI.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,13 +23,13 @@ public:
   // Declarations
   static inline ::System::Net::NetworkInformation::UnixNetworkInterfaceAPI* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f230b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x30239b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method freeifaddrs, addr 0x2f23814, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method freeifaddrs, addr 0x3024114, size 0x7c, virtual false, abstract: false, final false
   static inline void freeifaddrs(void* ifap);
 
-  /// @brief Method getifaddrs, addr 0x2f23894, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method getifaddrs, addr 0x3024194, size 0x7c, virtual false, abstract: false, final false
   static inline int32_t getifaddrs(ByRef<void*> ifap);
 
 protected:

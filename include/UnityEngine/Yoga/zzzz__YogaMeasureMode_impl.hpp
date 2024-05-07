@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Yoga/YogaMeasureMode.hpp"
 #include "UnityEngine/Yoga/zzzz__YogaMeasureMode_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Yoga::YogaMeasureMode::YogaMeasureMode(int32_t value__) noexcept {

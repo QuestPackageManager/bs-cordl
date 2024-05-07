@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/IO/MatchCasing.hpp"
 #include "System/IO/zzzz__MatchCasing_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::IO::MatchCasing::MatchCasing(int32_t value__) noexcept {

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/Button.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,7 +56,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::__Button__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3389ce0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x358ea1c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -88,7 +89,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::__Button__UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3389d28, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x358ea64, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -134,7 +135,7 @@ public:
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName))::StringW ussClassName;
 
-  /// @brief Method DoMeasure, addr 0x3389b98, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method DoMeasure, addr 0x358e8d4, size 0xbc, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 DoMeasure(float_t desiredWidth, ::UnityEngine::UIElements::__VisualElement__MeasureMode widthMode, float_t desiredHeight,
                                           ::UnityEngine::UIElements::__VisualElement__MeasureMode heightMode);
 
@@ -142,10 +143,10 @@ public:
 
   static inline ::UnityEngine::UIElements::Button* New_ctor(::System::Action* clickEvent);
 
-  /// @brief Method OnKeyDown, addr 0x3389a80, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method OnKeyDown, addr 0x358e7bc, size 0x118, virtual false, abstract: false, final false
   inline void OnKeyDown(::UnityEngine::UIElements::KeyDownEvent* evt);
 
-  /// @brief Method OnNavigationSubmit, addr 0x3389a48, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method OnNavigationSubmit, addr 0x358e784, size 0x38, virtual false, abstract: false, final false
   inline void OnNavigationSubmit(::UnityEngine::UIElements::NavigationSubmitEvent* evt);
 
   constexpr ::UnityEngine::UIElements::Clickable*& __cordl_internal_get_m_Clickable();
@@ -154,24 +155,24 @@ public:
 
   constexpr void __cordl_internal_set_m_Clickable(::UnityEngine::UIElements::Clickable* value);
 
-  /// @brief Method .ctor, addr 0x3389a40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x358e77c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x337cc54, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3581990, size 0x1c8, virtual false, abstract: false, final false
   inline void _ctor(::System::Action* clickEvent);
 
   static inline ::StringW getStaticF_NonEmptyString();
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_clickable, addr 0x33899d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_clickable, addr 0x358e710, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Clickable* get_clickable();
 
   static inline void setStaticF_NonEmptyString(::StringW value);
 
   static inline void setStaticF_ussClassName(::StringW value);
 
-  /// @brief Method set_clickable, addr 0x33899dc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_clickable, addr 0x358e718, size 0x64, virtual false, abstract: false, final false
   inline void set_clickable(::UnityEngine::UIElements::Clickable* value);
 
 protected:

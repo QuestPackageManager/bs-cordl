@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BitMaskUtil.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -20,16 +21,16 @@ namespace GlobalNamespace {
 class CORDL_TYPE BitMaskUtil : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method NumberOfSetBits, addr 0xf4626c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method NumberOfSetBits, addr 0x1034de0, size 0x34, virtual false, abstract: false, final false
   static inline uint32_t NumberOfSetBits(uint32_t i);
 
-  /// @brief Method NumberOfSetBits, addr 0xf4d8dc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method NumberOfSetBits, addr 0x103c450, size 0x64, virtual false, abstract: false, final false
   static inline uint32_t NumberOfSetBits(uint64_t i);
 
-  /// @brief Method ShiftLeft, addr 0xf4d940, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method ShiftLeft, addr 0x103c4b4, size 0x48, virtual false, abstract: false, final false
   static inline uint64_t ShiftLeft(ByRef<uint64_t> value, ByRef<int32_t> shift);
 
-  /// @brief Method ShiftRight, addr 0xf4d988, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ShiftRight, addr 0x103c4fc, size 0x60, virtual false, abstract: false, final false
   static inline uint64_t ShiftRight(ByRef<uint64_t> value, ByRef<int32_t> shift);
 
 protected:

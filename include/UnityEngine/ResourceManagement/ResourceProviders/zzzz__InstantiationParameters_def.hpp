@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ResourceManagement/ResourceProviders/InstantiationParameters.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -42,25 +43,25 @@ public:
   /// @brief Method Instantiate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TObject> inline TObject Instantiate(TObject source);
 
-  /// @brief Method .ctor, addr 0x3106680, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x330d108, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Transform* parent, bool instantiateInWorldSpace);
 
-  /// @brief Method .ctor, addr 0x310672c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x330d1b4, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Transform* parent);
 
-  /// @brief Method get_InstantiateInWorldPosition, addr 0x3106670, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InstantiateInWorldPosition, addr 0x330d0f8, size 0x8, virtual false, abstract: false, final false
   inline bool get_InstantiateInWorldPosition();
 
-  /// @brief Method get_Parent, addr 0x3106668, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parent, addr 0x330d0f0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_Parent();
 
-  /// @brief Method get_Position, addr 0x3106650, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Position, addr 0x330d0d8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_Position();
 
-  /// @brief Method get_Rotation, addr 0x310665c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Rotation, addr 0x330d0e4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_Rotation();
 
-  /// @brief Method get_SetPositionRotation, addr 0x3106678, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SetPositionRotation, addr 0x330d100, size 0x8, virtual false, abstract: false, final false
   inline bool get_SetPositionRotation();
 
   // Ctor Parameters []

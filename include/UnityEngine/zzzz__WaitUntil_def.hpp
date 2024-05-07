@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/WaitUntil.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,10 +35,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Predicate(::System::Func_1<bool>* value);
 
-  /// @brief Method .ctor, addr 0x32062c0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x340cff4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Func_1<bool>* predicate);
 
-  /// @brief Method get_keepWaiting, addr 0x3206290, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method get_keepWaiting, addr 0x340cfc4, size 0x30, virtual true, abstract: false, final false
   inline bool get_keepWaiting();
 
 protected:

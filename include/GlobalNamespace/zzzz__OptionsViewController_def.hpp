@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/OptionsViewController.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -105,18 +106,18 @@ public:
   __declspec(property(get = __cordl_internal_get_didFinishEvent,
                       put = __cordl_internal_set_didFinishEvent))::System::Action_1<::GlobalNamespace::__OptionsViewController__OptionsButton>* didFinishEvent;
 
-  /// @brief Method DidActivate, addr 0x2569348, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x26613d0, size 0x15c, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::OptionsViewController* New_ctor();
 
-  /// @brief Method <DidActivate>b__7_0, addr 0x25694ac, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__7_0, addr 0x2661534, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__7_0();
 
-  /// @brief Method <DidActivate>b__7_1, addr 0x25694cc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__7_1, addr 0x2661554, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__7_1();
 
-  /// @brief Method <DidActivate>b__7_2, addr 0x25694ec, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__7_2, addr 0x2661574, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__7_2();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__editAvatarButton() const;
@@ -143,13 +144,13 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::GlobalNamespace::__OptionsViewController__OptionsButton>* value);
 
-  /// @brief Method .ctor, addr 0x25694a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x266152c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x25691e8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x2661270, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::__OptionsViewController__OptionsButton>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x2569298, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x2661320, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::__OptionsViewController__OptionsButton>* value);
 
 protected:

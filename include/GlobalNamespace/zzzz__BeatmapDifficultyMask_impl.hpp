@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/BeatmapDifficultyMask.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficultyMask_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::BeatmapDifficultyMask::BeatmapDifficultyMask(uint8_t value__) noexcept {

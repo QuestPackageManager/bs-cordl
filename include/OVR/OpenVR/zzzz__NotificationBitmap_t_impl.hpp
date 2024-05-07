@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "OVR/OpenVR/NotificationBitmap_t.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "OVR/OpenVR/zzzz__NotificationBitmap_t_def.hpp"
 // Ctor Parameters [CppParam { name: "m_pImageData", ty: "void*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_nWidth", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {

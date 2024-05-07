@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/GotoExpressionKind.hpp"
 #include "System/Linq/Expressions/zzzz__GotoExpressionKind_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Linq::Expressions::GotoExpressionKind::GotoExpressionKind(int32_t value__) noexcept {

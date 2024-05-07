@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/IAsyncLocal.hpp"
 #include "System/Threading/zzzz__IAsyncLocal_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Threading::IAsyncLocal.OnValueChanged

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/ITextInputReceiver.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__ITextInputReceiver_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__IMECompositionString_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::ITextInputReceiver.OnTextInput

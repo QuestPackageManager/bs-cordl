@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/DropdownUtility.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -27,7 +28,7 @@ public:
   /// @brief Field MakeDropdownFunc, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_MakeDropdownFunc, put = setStaticF_MakeDropdownFunc))::System::Func_1<::UnityEngine::UIElements::IGenericMenu*>* MakeDropdownFunc;
 
-  /// @brief Method CreateDropdown, addr 0x3303078, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method CreateDropdown, addr 0x3508db4, size 0x98, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::IGenericMenu* CreateDropdown();
 
   static inline ::System::Func_1<::UnityEngine::UIElements::IGenericMenu*>* getStaticF_MakeDropdownFunc();

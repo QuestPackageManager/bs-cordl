@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ResourceManagement/ResourceProviders/AssetBundleProvider.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,21 +31,21 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
 class CORDL_TYPE AssetBundleProvider : public ::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase {
 public:
   // Declarations
-  /// @brief Method GetDefaultType, addr 0x3105258, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetDefaultType, addr 0x330bce0, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Type* GetDefaultType(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location);
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::AssetBundleProvider* New_ctor();
 
-  /// @brief Method Provide, addr 0x31051d8, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Provide, addr 0x330bc60, size 0x80, virtual true, abstract: false, final false
   inline void Provide(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle providerInterface);
 
-  /// @brief Method Release, addr 0x31052c4, size 0x184, virtual true, abstract: false, final false
+  /// @brief Method Release, addr 0x330bd4c, size 0x184, virtual true, abstract: false, final false
   inline void Release(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::System::Object* asset);
 
-  /// @brief Method WaitForAllUnloadingBundlesToComplete, addr 0x31051d4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method WaitForAllUnloadingBundlesToComplete, addr 0x330bc5c, size 0x4, virtual false, abstract: false, final false
   static inline void WaitForAllUnloadingBundlesToComplete();
 
-  /// @brief Method .ctor, addr 0x3105448, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x330bed0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

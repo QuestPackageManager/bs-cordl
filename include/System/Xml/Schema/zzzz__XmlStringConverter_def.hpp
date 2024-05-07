@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/XmlStringConverter.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,21 +35,21 @@ namespace System::Xml::Schema {
 class CORDL_TYPE XmlStringConverter : public ::System::Xml::Schema::XmlBaseConverter {
 public:
   // Declarations
-  /// @brief Method ChangeType, addr 0x2d3f2a0, size 0x29c, virtual true, abstract: false, final false
+  /// @brief Method ChangeType, addr 0x2e3bba0, size 0x29c, virtual true, abstract: false, final false
   inline ::System::Object* ChangeType(::StringW value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method ChangeType, addr 0x2d3f53c, size 0x43c, virtual true, abstract: false, final false
+  /// @brief Method ChangeType, addr 0x2e3be3c, size 0x43c, virtual true, abstract: false, final false
   inline ::System::Object* ChangeType(::System::Object* value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method Create, addr 0x2d3f030, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2e3b930, size 0x60, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::XmlValueConverter* Create(::System::Xml::Schema::XmlSchemaType* schemaType);
 
   static inline ::System::Xml::Schema::XmlStringConverter* New_ctor(::System::Xml::Schema::XmlSchemaType* schemaType);
 
-  /// @brief Method ToString, addr 0x2d3f090, size 0x210, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2e3b990, size 0x210, virtual true, abstract: false, final false
   inline ::StringW ToString(::System::Object* value, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method .ctor, addr 0x2d3efc8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e3b8c8, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaType* schemaType);
 
 protected:

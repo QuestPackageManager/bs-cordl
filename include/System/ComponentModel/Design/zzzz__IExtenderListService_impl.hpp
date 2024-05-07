@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ComponentModel/Design/IExtenderListService.hpp"
 #include "System/ComponentModel/Design/zzzz__IExtenderListService_def.hpp"
 #include "System/ComponentModel/zzzz__IExtenderProvider_def.hpp"
 //  Writing Method size for method: ::System::ComponentModel::Design::IExtenderListService.GetExtenderProviders

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Converters/XProcessingInstructionWrapper.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -30,19 +31,19 @@ public:
 
   static inline ::Newtonsoft::Json::Converters::XProcessingInstructionWrapper* New_ctor(::System::Xml::Linq::XProcessingInstruction* processingInstruction);
 
-  /// @brief Method .ctor, addr 0x2990914, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a8e1c4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XProcessingInstruction* processingInstruction);
 
-  /// @brief Method get_LocalName, addr 0x29914ec, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x2a8ed9c, size 0x1c, virtual true, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_ProcessingInstruction, addr 0x2991474, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_ProcessingInstruction, addr 0x2a8ed24, size 0x78, virtual false, abstract: false, final false
   inline ::System::Xml::Linq::XProcessingInstruction* get_ProcessingInstruction();
 
-  /// @brief Method get_Value, addr 0x2991508, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x2a8edb8, size 0x1c, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method set_Value, addr 0x2991524, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method set_Value, addr 0x2a8edd4, size 0x6c, virtual true, abstract: false, final false
   inline void set_Value(::StringW value);
 
 protected:

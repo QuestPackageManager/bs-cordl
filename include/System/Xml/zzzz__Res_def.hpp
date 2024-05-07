@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Res.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -23,10 +24,10 @@ namespace System::Xml {
 class CORDL_TYPE Res : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetString, addr 0x2db5da0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetString, addr 0x2eb36a0, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW GetString(::StringW name);
 
-  /// @brief Method GetString, addr 0x2db39cc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetString, addr 0x2eb12cc, size 0x10, virtual false, abstract: false, final false
   static inline ::StringW GetString(::StringW name, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/Timeline/DirectorControlPlayable.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableBehaviour_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__DirectorControlPlayable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -13,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::DirectorControlPlayable*> (*)(
     ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::Playables::PlayableDirector*)>(&::UnityEngine::Timeline::DirectorControlPlayable::Create)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x3193c88;
+  constexpr static std::size_t addrs = 0x339a710;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -29,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::DirectorControlPlayable::*)(::UnityEngine::Playables::Playable)>(
     &::UnityEngine::Timeline::DirectorControlPlayable::OnPlayableDestroy)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x31990e4;
+  constexpr static std::size_t addrs = 0x339fb6c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -45,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::DirectorControlPlayable::*)(
     ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData)>(&::UnityEngine::Timeline::DirectorControlPlayable::PrepareFrame)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x31991a4;
+  constexpr static std::size_t addrs = 0x339fc2c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -61,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::DirectorControlPlayable::*)(
     ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData)>(&::UnityEngine::Timeline::DirectorControlPlayable::OnBehaviourPlay)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3199658;
+  constexpr static std::size_t addrs = 0x33a00e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -77,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::DirectorControlPlayable::*)(
     ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData)>(&::UnityEngine::Timeline::DirectorControlPlayable::OnBehaviourPause)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x319972c;
+  constexpr static std::size_t addrs = 0x33a01b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -93,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::DirectorControlPlayable::*)(
     ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*)>(&::UnityEngine::Timeline::DirectorControlPlayable::ProcessFrame)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x319982c;
+  constexpr static std::size_t addrs = 0x33a02b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -109,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::DirectorControlPlayable::*)(double_t)>(
     &::UnityEngine::Timeline::DirectorControlPlayable::SyncSpeed)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x319946c;
+  constexpr static std::size_t addrs = 0x339fef4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -124,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::DirectorControlPlayable::*)(::UnityEngine::Playables::PlayableGraph, double_t)>(
     &::UnityEngine::Timeline::DirectorControlPlayable::SyncStart)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3199598;
+  constexpr static std::size_t addrs = 0x33a0020;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -140,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::DirectorControlPlayable::*)(::UnityEngine::Playables::PlayableGraph, double_t)>(
     &::UnityEngine::Timeline::DirectorControlPlayable::SyncStop)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3199d08;
+  constexpr static std::size_t addrs = 0x33a0790;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -156,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Timeline::DirectorControlPlayable::*)(
     ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData)>(&::UnityEngine::Timeline::DirectorControlPlayable::DetectDiscontinuity)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x3199358;
+  constexpr static std::size_t addrs = 0x339fde0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -172,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Timeline::DirectorControlPlayable::*)(::UnityEngine::Playables::Playable)>(
     &::UnityEngine::Timeline::DirectorControlPlayable::DetectOutOfSync)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x3199a2c;
+  constexpr static std::size_t addrs = 0x33a04b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -187,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::DirectorControlPlayable::*)(::UnityEngine::Playables::Playable)>(
     &::UnityEngine::Timeline::DirectorControlPlayable::UpdateTime)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x3199b78;
+  constexpr static std::size_t addrs = 0x33a0600;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -202,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::DirectorControlPlayable::*)()>(
     &::UnityEngine::Timeline::DirectorControlPlayable::_ctor)> {
   constexpr static std::size_t size = 0x1010;
-  constexpr static std::size_t addrs = 0x3199d8c;
+  constexpr static std::size_t addrs = 0x33a0814;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::DirectorControlPlayable*>::get(),

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Tsp/TimeStampRequest.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -65,19 +66,19 @@ public:
   /// @brief Field req, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_req, put = __cordl_internal_set_req))::Org::BouncyCastle::Asn1::Tsp::TimeStampReq* req;
 
-  /// @brief Method GetEncoded, addr 0x12bfe6c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x13b1590, size 0x1c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
-  /// @brief Method GetExtension, addr 0x12bfe98, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetExtension, addr 0x13b15bc, size 0x14, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extension* GetExtension(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
 
-  /// @brief Method GetExtensionOids, addr 0x12bfeac, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method GetExtensionOids, addr 0x13b15d0, size 0x58, virtual true, abstract: false, final false
   inline ::System::Collections::IList* GetExtensionOids();
 
-  /// @brief Method GetMessageImprintDigest, addr 0x12bf578, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetMessageImprintDigest, addr 0x13b0c9c, size 0x24, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetMessageImprintDigest();
 
-  /// @brief Method GetX509Extensions, addr 0x12bffb4, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetX509Extensions, addr 0x13b16d8, size 0x1c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* GetX509Extensions();
 
   static inline ::Org::BouncyCastle::Tsp::TimeStampRequest* New_ctor(::System::IO::Stream* input);
@@ -88,7 +89,7 @@ public:
 
   static inline ::Org::BouncyCastle::Tsp::TimeStampRequest* New_ctor(::Org::BouncyCastle::Asn1::Asn1InputStream* str);
 
-  /// @brief Method Validate, addr 0x12bf620, size 0x628, virtual false, abstract: false, final false
+  /// @brief Method Validate, addr 0x13b0d44, size 0x628, virtual false, abstract: false, final false
   inline void Validate(::System::Collections::IList* algorithms, ::System::Collections::IList* policies, ::System::Collections::IList* extensions);
 
   constexpr ::Org::BouncyCastle::Asn1::X509::X509Extensions*& __cordl_internal_get_extensions();
@@ -103,37 +104,37 @@ public:
 
   constexpr void __cordl_internal_set_req(::Org::BouncyCastle::Asn1::Tsp::TimeStampReq* value);
 
-  /// @brief Method .ctor, addr 0x12bf4a4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13b0bc8, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* input);
 
-  /// @brief Method .ctor, addr 0x12bf2fc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13b0a20, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> req);
 
-  /// @brief Method .ctor, addr 0x12bf2c4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13b09e8, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Tsp::TimeStampReq* req);
 
-  /// @brief Method .ctor, addr 0x12bf370, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13b0a94, size 0x134, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1InputStream* str);
 
-  /// @brief Method get_CertReq, addr 0x12bf5f4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_CertReq, addr 0x13b0d18, size 0x2c, virtual false, abstract: false, final false
   inline bool get_CertReq();
 
-  /// @brief Method get_Extensions, addr 0x12bfc6c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Extensions, addr 0x13b1390, size 0x1c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* get_Extensions();
 
-  /// @brief Method get_HasExtensions, addr 0x12bfe88, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method get_HasExtensions, addr 0x13b15ac, size 0x10, virtual true, abstract: false, final false
   inline bool get_HasExtensions();
 
-  /// @brief Method get_MessageImprintAlgOid, addr 0x12bf53c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_MessageImprintAlgOid, addr 0x13b0c60, size 0x3c, virtual false, abstract: false, final false
   inline ::StringW get_MessageImprintAlgOid();
 
-  /// @brief Method get_Nonce, addr 0x12bf5c8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_Nonce, addr 0x13b0cec, size 0x2c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Nonce();
 
-  /// @brief Method get_ReqPolicy, addr 0x12bf59c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_ReqPolicy, addr 0x13b0cc0, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_ReqPolicy();
 
-  /// @brief Method get_Version, addr 0x12bf518, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x13b0c3c, size 0x24, virtual false, abstract: false, final false
   inline int32_t get_Version();
 
 protected:

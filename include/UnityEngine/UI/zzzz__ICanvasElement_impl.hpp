@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UI/ICanvasElement.hpp"
 #include "UnityEngine/UI/zzzz__ICanvasElement_def.hpp"
 #include "UnityEngine/UI/zzzz__CanvasUpdate_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"

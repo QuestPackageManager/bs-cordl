@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Lookup_2.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Linq/zzzz__Lookup_2_def.hpp"
 #include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"

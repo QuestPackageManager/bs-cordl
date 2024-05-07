@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ConsoleKeyInfo.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,22 +35,22 @@ public:
 
   __declspec(property(get = get_KeyChar)) char16_t KeyChar;
 
-  /// @brief Method Equals, addr 0x28554c8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x2954d70, size 0x34, virtual false, abstract: false, final false
   inline bool Equals(::System::ConsoleKeyInfo obj);
 
-  /// @brief Method Equals, addr 0x2855430, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2954cd8, size 0x98, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* value);
 
-  /// @brief Method GetHashCode, addr 0x28554fc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2954da4, size 0x14, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x2855378, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2954c20, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(char16_t keyChar, ::System::ConsoleKey key, bool shift, bool alt, bool control);
 
-  /// @brief Method get_Key, addr 0x2855428, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Key, addr 0x2954cd0, size 0x8, virtual false, abstract: false, final false
   inline ::System::ConsoleKey get_Key();
 
-  /// @brief Method get_KeyChar, addr 0x2855420, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KeyChar, addr 0x2954cc8, size 0x8, virtual false, abstract: false, final false
   inline char16_t get_KeyChar();
 
   // Ctor Parameters []

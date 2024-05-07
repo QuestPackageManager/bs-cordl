@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Oculus/Platform/MessageWithPlatformInitialize.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -22,15 +23,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithPlatformInitialize : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::PlatformInitialize*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x29ccd68, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x2aca618, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::PlatformInitialize* GetDataFromMessage(void* c_message);
 
-  /// @brief Method GetPlatformInitialize, addr 0x29ccd2c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetPlatformInitialize, addr 0x2aca5dc, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::PlatformInitialize* GetPlatformInitialize();
 
   static inline ::Oculus::Platform::MessageWithPlatformInitialize* New_ctor(void* c_message);
 
-  /// @brief Method .ctor, addr 0x29c84e4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ac5d94, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(void* c_message);
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "BeatmapSaveDataVersion3/FxEventBoxGroup.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -44,10 +45,10 @@ public:
 
   constexpr void __cordl_internal_set_t(::BeatmapSaveDataVersion3::FxEventType value);
 
-  /// @brief Method .ctor, addr 0x1400228, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14f17ec, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, int32_t groupId, ::BeatmapSaveDataVersion3::FxEventType type, ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::FxEventBox*>* eventBoxes);
 
-  /// @brief Method get_type, addr 0x1400220, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_type, addr 0x14f17e4, size 0x8, virtual false, abstract: false, final false
   inline ::BeatmapSaveDataVersion3::FxEventType get_type();
 
 protected:

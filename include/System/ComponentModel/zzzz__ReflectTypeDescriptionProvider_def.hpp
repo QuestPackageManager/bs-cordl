@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/ComponentModel/ReflectTypeDescriptionProvider.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -107,42 +108,42 @@ public:
   /// @brief Field _type, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__type, put = __cordl_internal_set__type))::System::Type* _type;
 
-  /// @brief Method GetAttributes, addr 0x2e564a8, size 0x540, virtual false, abstract: false, final false
+  /// @brief Method GetAttributes, addr 0x2f54da8, size 0x540, virtual false, abstract: false, final false
   inline ::System::ComponentModel::AttributeCollection* GetAttributes();
 
-  /// @brief Method GetClassName, addr 0x2e56d80, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetClassName, addr 0x2f55680, size 0x24, virtual false, abstract: false, final false
   inline ::StringW GetClassName(::System::Object* instance);
 
-  /// @brief Method GetComponentName, addr 0x2e56dc8, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method GetComponentName, addr 0x2f556c8, size 0x1ac, virtual false, abstract: false, final false
   inline ::StringW GetComponentName(::System::Object* instance);
 
-  /// @brief Method GetConverter, addr 0x2e56f98, size 0x468, virtual false, abstract: false, final false
+  /// @brief Method GetConverter, addr 0x2f55898, size 0x468, virtual false, abstract: false, final false
   inline ::System::ComponentModel::TypeConverter* GetConverter(::System::Object* instance);
 
-  /// @brief Method GetDefaultEvent, addr 0x2e57424, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultEvent, addr 0x2f55d24, size 0x19c, virtual false, abstract: false, final false
   inline ::System::ComponentModel::EventDescriptor* GetDefaultEvent(::System::Object* instance);
 
-  /// @brief Method GetDefaultProperty, addr 0x2e575e4, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultProperty, addr 0x2f55ee4, size 0x19c, virtual false, abstract: false, final false
   inline ::System::ComponentModel::PropertyDescriptor* GetDefaultProperty(::System::Object* instance);
 
-  /// @brief Method GetEditor, addr 0x2e577b4, size 0x5b0, virtual false, abstract: false, final false
+  /// @brief Method GetEditor, addr 0x2f560b4, size 0x5b0, virtual false, abstract: false, final false
   inline ::System::Object* GetEditor(::System::Object* instance, ::System::Type* editorBaseType);
 
-  /// @brief Method GetEditorAttribute, addr 0x2e5d368, size 0x3c8, virtual false, abstract: false, final false
+  /// @brief Method GetEditorAttribute, addr 0x2f5bc68, size 0x3c8, virtual false, abstract: false, final false
   static inline ::System::ComponentModel::EditorAttribute* GetEditorAttribute(::System::ComponentModel::AttributeCollection* attributes, ::System::Type* editorBaseType);
 
-  /// @brief Method GetEvents, addr 0x2e5819c, size 0x2fc, virtual false, abstract: false, final false
+  /// @brief Method GetEvents, addr 0x2f56a9c, size 0x2fc, virtual false, abstract: false, final false
   inline ::System::ComponentModel::EventDescriptorCollection* GetEvents();
 
-  /// @brief Method GetProperties, addr 0x2e5ab8c, size 0x2fc, virtual false, abstract: false, final false
+  /// @brief Method GetProperties, addr 0x2f5948c, size 0x2fc, virtual false, abstract: false, final false
   inline ::System::ComponentModel::PropertyDescriptorCollection* GetProperties();
 
-  /// @brief Method GetTypeFromName, addr 0x2e5ce44, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method GetTypeFromName, addr 0x2f5b744, size 0x1a8, virtual false, abstract: false, final false
   inline ::System::Type* GetTypeFromName(::StringW typeName);
 
   static inline ::System::ComponentModel::__ReflectTypeDescriptionProvider__ReflectedTypeData* New_ctor(::System::Type* type);
 
-  /// @brief Method Refresh, addr 0x2e5c160, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x2f5aa60, size 0x18, virtual false, abstract: false, final false
   inline void Refresh();
 
   constexpr ::System::ComponentModel::AttributeCollection*& __cordl_internal_get__attributes();
@@ -193,10 +194,10 @@ public:
 
   constexpr void __cordl_internal_set__type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x2e5ae90, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f59790, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
-  /// @brief Method get_IsPopulated, addr 0x2e5b000, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_IsPopulated, addr 0x2f59900, size 0x1c, virtual false, abstract: false, final false
   inline bool get_IsPopulated();
 
 protected:
@@ -318,126 +319,126 @@ public:
   /// @brief Field _typeData, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__typeData, put = __cordl_internal_set__typeData))::System::Collections::Hashtable* _typeData;
 
-  /// @brief Method CreateInstance, addr 0x2e56110, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x2f54a10, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Object* CreateInstance(::System::Type* objectType, ::System::Type* callingType);
 
-  /// @brief Method CreateInstance, addr 0x2e55f50, size 0x1c0, virtual true, abstract: false, final false
+  /// @brief Method CreateInstance, addr 0x2f54850, size 0x1c0, virtual true, abstract: false, final false
   inline ::System::Object* CreateInstance(::System::IServiceProvider* provider, ::System::Type* objectType, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> argTypes,
                                           ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method GetAttributes, addr 0x2e5620c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetAttributes, addr 0x2f54b0c, size 0x1c, virtual false, abstract: false, final false
   inline ::System::ComponentModel::AttributeCollection* GetAttributes(::System::Type* type);
 
-  /// @brief Method GetCache, addr 0x2e569e8, size 0x368, virtual true, abstract: false, final false
+  /// @brief Method GetCache, addr 0x2f552e8, size 0x368, virtual true, abstract: false, final false
   inline ::System::Collections::IDictionary* GetCache(::System::Object* instance);
 
-  /// @brief Method GetClassName, addr 0x2e56d50, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetClassName, addr 0x2f55650, size 0x30, virtual false, abstract: false, final false
   inline ::StringW GetClassName(::System::Type* type);
 
-  /// @brief Method GetComponentName, addr 0x2e56da4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetComponentName, addr 0x2f556a4, size 0x24, virtual false, abstract: false, final false
   inline ::StringW GetComponentName(::System::Type* type, ::System::Object* instance);
 
-  /// @brief Method GetConverter, addr 0x2e56f74, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetConverter, addr 0x2f55874, size 0x24, virtual false, abstract: false, final false
   inline ::System::ComponentModel::TypeConverter* GetConverter(::System::Type* type, ::System::Object* instance);
 
-  /// @brief Method GetDefaultEvent, addr 0x2e57400, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultEvent, addr 0x2f55d00, size 0x24, virtual false, abstract: false, final false
   inline ::System::ComponentModel::EventDescriptor* GetDefaultEvent(::System::Type* type, ::System::Object* instance);
 
-  /// @brief Method GetDefaultProperty, addr 0x2e575c0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultProperty, addr 0x2f55ec0, size 0x24, virtual false, abstract: false, final false
   inline ::System::ComponentModel::PropertyDescriptor* GetDefaultProperty(::System::Type* type, ::System::Object* instance);
 
-  /// @brief Method GetEditor, addr 0x2e57780, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetEditor, addr 0x2f56080, size 0x34, virtual false, abstract: false, final false
   inline ::System::Object* GetEditor(::System::Type* type, ::System::Object* instance, ::System::Type* editorBaseType);
 
-  /// @brief Method GetEditorTable, addr 0x2e57d64, size 0x41c, virtual false, abstract: false, final false
+  /// @brief Method GetEditorTable, addr 0x2f56664, size 0x41c, virtual false, abstract: false, final false
   static inline ::System::Collections::Hashtable* GetEditorTable(::System::Type* editorBaseType);
 
-  /// @brief Method GetEvents, addr 0x2e58180, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetEvents, addr 0x2f56a80, size 0x1c, virtual false, abstract: false, final false
   inline ::System::ComponentModel::EventDescriptorCollection* GetEvents(::System::Type* type);
 
-  /// @brief Method GetExtendedAttributes, addr 0x2e58498, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetExtendedAttributes, addr 0x2f56d98, size 0x58, virtual false, abstract: false, final false
   inline ::System::ComponentModel::AttributeCollection* GetExtendedAttributes(::System::Object* instance);
 
-  /// @brief Method GetExtendedClassName, addr 0x2e584f0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetExtendedClassName, addr 0x2f56df0, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW GetExtendedClassName(::System::Object* instance);
 
-  /// @brief Method GetExtendedComponentName, addr 0x2e5851c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetExtendedComponentName, addr 0x2f56e1c, size 0x3c, virtual false, abstract: false, final false
   inline ::StringW GetExtendedComponentName(::System::Object* instance);
 
-  /// @brief Method GetExtendedConverter, addr 0x2e58558, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetExtendedConverter, addr 0x2f56e58, size 0x3c, virtual false, abstract: false, final false
   inline ::System::ComponentModel::TypeConverter* GetExtendedConverter(::System::Object* instance);
 
-  /// @brief Method GetExtendedDefaultEvent, addr 0x2e58594, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetExtendedDefaultEvent, addr 0x2f56e94, size 0x8, virtual false, abstract: false, final false
   inline ::System::ComponentModel::EventDescriptor* GetExtendedDefaultEvent(::System::Object* instance);
 
-  /// @brief Method GetExtendedDefaultProperty, addr 0x2e5859c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetExtendedDefaultProperty, addr 0x2f56e9c, size 0x8, virtual false, abstract: false, final false
   inline ::System::ComponentModel::PropertyDescriptor* GetExtendedDefaultProperty(::System::Object* instance);
 
-  /// @brief Method GetExtendedEditor, addr 0x2e585a4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetExtendedEditor, addr 0x2f56ea4, size 0x44, virtual false, abstract: false, final false
   inline ::System::Object* GetExtendedEditor(::System::Object* instance, ::System::Type* editorBaseType);
 
-  /// @brief Method GetExtendedEvents, addr 0x2e585e8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetExtendedEvents, addr 0x2f56ee8, size 0x58, virtual false, abstract: false, final false
   inline ::System::ComponentModel::EventDescriptorCollection* GetExtendedEvents(::System::Object* instance);
 
-  /// @brief Method GetExtendedProperties, addr 0x2e58640, size 0x544, virtual false, abstract: false, final false
+  /// @brief Method GetExtendedProperties, addr 0x2f56f40, size 0x544, virtual false, abstract: false, final false
   inline ::System::ComponentModel::PropertyDescriptorCollection* GetExtendedProperties(::System::Object* instance);
 
-  /// @brief Method GetExtendedPropertyOwner, addr 0x2e5aad8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetExtendedPropertyOwner, addr 0x2f593d8, size 0x2c, virtual false, abstract: false, final false
   inline ::System::Object* GetExtendedPropertyOwner(::System::Object* instance, ::System::ComponentModel::PropertyDescriptor* pd);
 
-  /// @brief Method GetExtendedTypeDescriptor, addr 0x2e5ab68, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetExtendedTypeDescriptor, addr 0x2f59468, size 0x8, virtual true, abstract: false, final false
   inline ::System::ComponentModel::ICustomTypeDescriptor* GetExtendedTypeDescriptor(::System::Object* instance);
 
-  /// @brief Method GetExtenderProviders, addr 0x2e59b38, size 0x48c, virtual true, abstract: false, final false
+  /// @brief Method GetExtenderProviders, addr 0x2f58438, size 0x48c, virtual true, abstract: false, final false
   inline ::ArrayW<::System::ComponentModel::IExtenderProvider*, ::Array<::System::ComponentModel::IExtenderProvider*>*> GetExtenderProviders(::System::Object* instance);
 
-  /// @brief Method GetExtenders, addr 0x2e59fc4, size 0xb14, virtual false, abstract: false, final false
+  /// @brief Method GetExtenders, addr 0x2f588c4, size 0xb14, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::ComponentModel::IExtenderProvider*, ::Array<::System::ComponentModel::IExtenderProvider*>*>
   GetExtenders(::System::Collections::ICollection* components, ::System::Object* instance, ::System::Collections::IDictionary* cache);
 
-  /// @brief Method GetProperties, addr 0x2e5ab70, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetProperties, addr 0x2f59470, size 0x1c, virtual false, abstract: false, final false
   inline ::System::ComponentModel::PropertyDescriptorCollection* GetProperties(::System::Type* type);
 
-  /// @brief Method GetPropertyOwner, addr 0x2e5ab04, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetPropertyOwner, addr 0x2f59404, size 0x64, virtual false, abstract: false, final false
   inline ::System::Object* GetPropertyOwner(::System::Type* type, ::System::Object* instance, ::System::ComponentModel::PropertyDescriptor* pd);
 
-  /// @brief Method GetReflectionType, addr 0x2e5ae88, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetReflectionType, addr 0x2f59788, size 0x8, virtual true, abstract: false, final false
   inline ::System::Type* GetReflectionType(::System::Type* objectType, ::System::Object* instance);
 
-  /// @brief Method GetTypeData, addr 0x2e56228, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method GetTypeData, addr 0x2f54b28, size 0x280, virtual false, abstract: false, final false
   inline ::System::ComponentModel::__ReflectTypeDescriptionProvider__ReflectedTypeData* GetTypeData(::System::Type* type, bool createIfNeeded);
 
-  /// @brief Method GetTypeDescriptor, addr 0x2e5aeb8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetTypeDescriptor, addr 0x2f597b8, size 0x8, virtual true, abstract: false, final false
   inline ::System::ComponentModel::ICustomTypeDescriptor* GetTypeDescriptor(::System::Type* objectType, ::System::Object* instance);
 
-  /// @brief Method GetTypeFromName, addr 0x2e5aec0, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method GetTypeFromName, addr 0x2f597c0, size 0x110, virtual false, abstract: false, final false
   static inline ::System::Type* GetTypeFromName(::StringW typeName);
 
-  /// @brief Method IsPopulated, addr 0x2e5afd0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method IsPopulated, addr 0x2f598d0, size 0x30, virtual false, abstract: false, final false
   inline bool IsPopulated(::System::Type* type);
 
   static inline ::System::ComponentModel::ReflectTypeDescriptionProvider* New_ctor();
 
-  /// @brief Method ReflectGetAttributes, addr 0x2e48ce8, size 0x450, virtual false, abstract: false, final false
+  /// @brief Method ReflectGetAttributes, addr 0x2f475e8, size 0x450, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> ReflectGetAttributes(::System::Reflection::MemberInfo* member);
 
-  /// @brief Method ReflectGetAttributes, addr 0x2e5b01c, size 0x450, virtual false, abstract: false, final false
+  /// @brief Method ReflectGetAttributes, addr 0x2f5991c, size 0x450, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> ReflectGetAttributes(::System::Type* type);
 
-  /// @brief Method ReflectGetEvents, addr 0x2e5b46c, size 0x6b4, virtual false, abstract: false, final false
+  /// @brief Method ReflectGetEvents, addr 0x2f59d6c, size 0x6b4, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::ComponentModel::EventDescriptor*, ::Array<::System::ComponentModel::EventDescriptor*>*> ReflectGetEvents(::System::Type* type);
 
-  /// @brief Method ReflectGetExtendedProperties, addr 0x2e58bf0, size 0xf48, virtual false, abstract: false, final false
+  /// @brief Method ReflectGetExtendedProperties, addr 0x2f574f0, size 0xf48, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::ComponentModel::PropertyDescriptor*, ::Array<::System::ComponentModel::PropertyDescriptor*>*>
   ReflectGetExtendedProperties(::System::ComponentModel::IExtenderProvider* provider);
 
-  /// @brief Method ReflectGetProperties, addr 0x2e5bb20, size 0x614, virtual false, abstract: false, final false
+  /// @brief Method ReflectGetProperties, addr 0x2f5a420, size 0x614, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::ComponentModel::PropertyDescriptor*, ::Array<::System::ComponentModel::PropertyDescriptor*>*> ReflectGetProperties(::System::Type* type);
 
-  /// @brief Method Refresh, addr 0x2e5c134, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x2f5aa34, size 0x2c, virtual false, abstract: false, final false
   inline void Refresh(::System::Type* type);
 
-  /// @brief Method SearchIntrinsicTable, addr 0x2e5c178, size 0x990, virtual false, abstract: false, final false
+  /// @brief Method SearchIntrinsicTable, addr 0x2f5aa78, size 0x990, virtual false, abstract: false, final false
   static inline ::System::Object* SearchIntrinsicTable(::System::Collections::Hashtable* table, ::System::Type* callingType);
 
   constexpr ::System::Collections::Hashtable*& __cordl_internal_get__typeData();
@@ -446,7 +447,7 @@ public:
 
   constexpr void __cordl_internal_set__typeData(::System::Collections::Hashtable* value);
 
-  /// @brief Method .ctor, addr 0x2e55448, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f53d48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Hashtable* getStaticF__attributeCache();
@@ -479,7 +480,7 @@ public:
 
   static inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> getStaticF__typeConstructor();
 
-  /// @brief Method get_IntrinsicTypeConverters, addr 0x2e55450, size 0xb00, virtual false, abstract: false, final false
+  /// @brief Method get_IntrinsicTypeConverters, addr 0x2f53d50, size 0xb00, virtual false, abstract: false, final false
   static inline ::System::Collections::Hashtable* get_IntrinsicTypeConverters();
 
   static inline void setStaticF__attributeCache(::System::Collections::Hashtable* value);

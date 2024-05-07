@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/Schema/XmlSchemaAppInfo.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -47,16 +48,16 @@ public:
 
   constexpr void __cordl_internal_set_source(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2d10b34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e0e434, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Markup, addr 0x2d10b24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Markup, addr 0x2e0e424, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Xml::XmlNode*, ::Array<::System::Xml::XmlNode*>*> get_Markup();
 
-  /// @brief Method set_Markup, addr 0x2d10b2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Markup, addr 0x2e0e42c, size 0x8, virtual false, abstract: false, final false
   inline void set_Markup(::ArrayW<::System::Xml::XmlNode*, ::Array<::System::Xml::XmlNode*>*> value);
 
-  /// @brief Method set_Source, addr 0x2d10b1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Source, addr 0x2e0e41c, size 0x8, virtual false, abstract: false, final false
   inline void set_Source(::StringW value);
 
 protected:

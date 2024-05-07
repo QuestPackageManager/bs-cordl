@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Operators/RsaOaepWrapperProvider.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -38,7 +39,7 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Operators::RsaOaepWrapperProvider* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestOid);
 
-  /// @brief Method Org.BouncyCastle.Crypto.Operators.WrapperProvider.CreateWrapper, addr 0x1094874, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method Org.BouncyCastle.Crypto.Operators.WrapperProvider.CreateWrapper, addr 0x1187f98, size 0x7c, virtual true, abstract: false, final true
   inline ::System::Object* Org_BouncyCastle_Crypto_Operators_WrapperProvider_CreateWrapper(bool forWrapping, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_digestOid();
@@ -47,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set_digestOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  /// @brief Method .ctor, addr 0x109415c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1187880, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestOid);
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Operators::WrapperProvider"

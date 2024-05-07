@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Zenject/ConcreteIdArgConditionCopyNonLazyBinder.hpp"
 #include "Zenject/zzzz__ArgConditionCopyNonLazyBinder_impl.hpp"
 #include "Zenject/zzzz__ConcreteIdArgConditionCopyNonLazyBinder_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -10,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::ConcreteIdArgConditionCopyNonLazyBinder::*)(::Zenject::BindInfo*)>(
     &::Zenject::ConcreteIdArgConditionCopyNonLazyBinder::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x341731c;
+  constexpr static std::size_t addrs = 0x361c058;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::ArgConditionCopyNonLazyBinder* (::Zenject::ConcreteIdArgConditionCopyNonLazyBinder::*)(::System::Object*)>(
     &::Zenject::ConcreteIdArgConditionCopyNonLazyBinder::WithConcreteId)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3417324;
+  constexpr static std::size_t addrs = 0x361c060;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

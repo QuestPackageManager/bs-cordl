@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/XmlResolver.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -34,18 +35,18 @@ public:
   /// @brief Method GetEntity, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Object* GetEntity(::System::Uri* absoluteUri, ::StringW role, ::System::Type* ofObjectToReturn);
 
-  /// @brief Method GetEntityAsync, addr 0x2dc12bc, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GetEntityAsync, addr 0x2ebebbc, size 0x40, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Object*>* GetEntityAsync(::System::Uri* absoluteUri, ::StringW role, ::System::Type* ofObjectToReturn);
 
   static inline ::System::Xml::XmlResolver* New_ctor();
 
-  /// @brief Method ResolveUri, addr 0x2dc0f9c, size 0x1d8, virtual true, abstract: false, final false
+  /// @brief Method ResolveUri, addr 0x2ebe89c, size 0x1d8, virtual true, abstract: false, final false
   inline ::System::Uri* ResolveUri(::System::Uri* baseUri, ::StringW relativeUri);
 
-  /// @brief Method SupportsType, addr 0x2dc1174, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method SupportsType, addr 0x2ebea74, size 0x148, virtual true, abstract: false, final false
   inline bool SupportsType(::System::Uri* absoluteUri, ::System::Type* type);
 
-  /// @brief Method .ctor, addr 0x2dc12fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ebebfc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

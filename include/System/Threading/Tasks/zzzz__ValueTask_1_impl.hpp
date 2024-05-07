@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Threading/Tasks/ValueTask_1.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/Tasks/zzzz__ValueTask_1_def.hpp"

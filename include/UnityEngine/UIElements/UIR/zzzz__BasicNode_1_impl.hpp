@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/UIR/BasicNode_1.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__LinkedPoolItem_1_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__BasicNode_1_def.hpp"
 template <typename T> constexpr ::UnityEngine::UIElements::UIR::BasicNode_1<T>*& UnityEngine::UIElements::UIR::BasicNode_1<T>::__cordl_internal_get_next() {

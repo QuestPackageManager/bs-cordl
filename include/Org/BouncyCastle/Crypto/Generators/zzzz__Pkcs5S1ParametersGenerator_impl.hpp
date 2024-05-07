@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Org/BouncyCastle/Crypto/Generators/Pkcs5S1ParametersGenerator.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__PbeParametersGenerator_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Generators/zzzz__Pkcs5S1ParametersGenerator_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::Pkcs5S1ParametersGenerator::*)(::Org::BouncyCastle::Crypto::IDigest*)>(
     &::Org::BouncyCastle::Crypto::Generators::Pkcs5S1ParametersGenerator::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x106f0ac;
+  constexpr static std::size_t addrs = 0x11627d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Generators::Pkcs5S1ParametersGenerator::*)()>(
     &::Org::BouncyCastle::Crypto::Generators::Pkcs5S1ParametersGenerator::GenerateDerivedKey)> {
   constexpr static std::size_t size = 0x34c;
-  constexpr static std::size_t addrs = 0x106f0d4;
+  constexpr static std::size_t addrs = 0x11627f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::ICipherParameters* (
     ::Org::BouncyCastle::Crypto::Generators::Pkcs5S1ParametersGenerator::*)(int32_t)>(&::Org::BouncyCastle::Crypto::Generators::Pkcs5S1ParametersGenerator::GenerateDerivedParameters)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x106f420;
+  constexpr static std::size_t addrs = 0x1162b44;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::ICipherParameters* (
     ::Org::BouncyCastle::Crypto::Generators::Pkcs5S1ParametersGenerator::*)(::StringW, int32_t)>(&::Org::BouncyCastle::Crypto::Generators::Pkcs5S1ParametersGenerator::GenerateDerivedParameters)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x106f42c;
+  constexpr static std::size_t addrs = 0x1162b50;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -71,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::ICipherParameters* (
     ::Org::BouncyCastle::Crypto::Generators::Pkcs5S1ParametersGenerator::*)(int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Generators::Pkcs5S1ParametersGenerator::GenerateDerivedParameters)> {
   constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x106f5d4;
+  constexpr static std::size_t addrs = 0x1162cf8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -88,7 +89,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Crypto::ICipherParameters* (::Org::BouncyCastle::Crypto::Generators::Pkcs5S1ParametersGenerator::*)(::StringW, int32_t, int32_t)>(
         &::Org::BouncyCastle::Crypto::Generators::Pkcs5S1ParametersGenerator::GenerateDerivedParameters)> {
   constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x106f7d8;
+  constexpr static std::size_t addrs = 0x1162efc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -104,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::ICipherParameters* (
     ::Org::BouncyCastle::Crypto::Generators::Pkcs5S1ParametersGenerator::*)(int32_t)>(&::Org::BouncyCastle::Crypto::Generators::Pkcs5S1ParametersGenerator::GenerateDerivedMacParameters)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x106f9ec;
+  constexpr static std::size_t addrs = 0x1163110;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Net/Configuration/PerformanceCountersElement.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -25,10 +26,10 @@ public:
 
   static inline ::System::Net::Configuration::PerformanceCountersElement* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e79848, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f78148, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Properties, addr 0x2e79880, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x2f78180, size 0x38, virtual true, abstract: false, final false
   inline ::System::Configuration::ConfigurationPropertyCollection* get_Properties();
 
 protected:

@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/AveragingValueRecorder.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__AveragingValueRecorder_def.hpp"
 #include "GlobalNamespace/zzzz__AveragingValueRecorder_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::__AveragingValueRecorder__AverageValueData::*)()>(
     &::GlobalNamespace::__AveragingValueRecorder__AverageValueData::get_value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2580e5c;
+  constexpr static std::size_t addrs = 0x26792f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__AveragingValueRecorder__AverageValueData::*)(float_t)>(
     &::GlobalNamespace::__AveragingValueRecorder__AverageValueData::set_value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2580e64;
+  constexpr static std::size_t addrs = 0x26792f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::__AveragingValueRecorder__AverageValueData::*)()>(
     &::GlobalNamespace::__AveragingValueRecorder__AverageValueData::get_time)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2580e6c;
+  constexpr static std::size_t addrs = 0x2679300;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -54,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__AveragingValueRecorder__AverageValueData::*)(float_t)>(
     &::GlobalNamespace::__AveragingValueRecorder__AverageValueData::set_time)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2580e74;
+  constexpr static std::size_t addrs = 0x2679308;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__AveragingValueRecorder__AverageValueData::*)(float_t, float_t)>(
     &::GlobalNamespace::__AveragingValueRecorder__AverageValueData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2580e3c;
+  constexpr static std::size_t addrs = 0x26792d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -122,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AveragingValueRecorder::*)(float_t, float_t, float_t)>(
     &::GlobalNamespace::AveragingValueRecorder::_ctor)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x2580a28;
+  constexpr static std::size_t addrs = 0x2678ebc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -138,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AveragingValueRecorder::*)(float_t, float_t)>(
     &::GlobalNamespace::AveragingValueRecorder::Update)> {
   constexpr static std::size_t size = 0x2c0;
-  constexpr static std::size_t addrs = 0x2580b7c;
+  constexpr static std::size_t addrs = 0x2679010;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -153,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::AveragingValueRecorder::*)()>(
     &::GlobalNamespace::AveragingValueRecorder::GetAverageValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2580e44;
+  constexpr static std::size_t addrs = 0x26792d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AveragingValueRecorder*>::get(),
@@ -166,7 +167,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::AveragingValueRecorder::*)()>(&::GlobalNamespace::AveragingValueRecorder::GetLastValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2580e4c;
+  constexpr static std::size_t addrs = 0x26792e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AveragingValueRecorder*>::get(),
@@ -180,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::Queue_1<float_t>* (::GlobalNamespace::AveragingValueRecorder::*)()>(
     &::GlobalNamespace::AveragingValueRecorder::GetHistoryValues)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2580e54;
+  constexpr static std::size_t addrs = 0x26792e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AveragingValueRecorder*>::get(),

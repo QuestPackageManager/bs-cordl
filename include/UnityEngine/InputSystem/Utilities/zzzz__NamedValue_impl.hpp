@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/InputSystem/Utilities/NamedValue.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__PrimitiveValue_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__NamedValue_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
@@ -11,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::Utilities::NamedValue::*)()>(
     &::UnityEngine::InputSystem::Utilities::NamedValue::get_name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x30472d4;
+  constexpr static std::size_t addrs = 0x3182060;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::NamedValue>::get(),
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Utilities::NamedValue::*)(::StringW)>(
     &::UnityEngine::InputSystem::Utilities::NamedValue::set_name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x30472dc;
+  constexpr static std::size_t addrs = 0x3182068;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::PrimitiveValue (::UnityEngine::InputSystem::Utilities::NamedValue::*)()>(
     &::UnityEngine::InputSystem::Utilities::NamedValue::get_value)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x30472e4;
+  constexpr static std::size_t addrs = 0x3182070;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::NamedValue>::get(),
@@ -54,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Utilities::NamedValue::*)(::UnityEngine::InputSystem::Utilities::PrimitiveValue)>(
     &::UnityEngine::InputSystem::Utilities::NamedValue::set_value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x30472f0;
+  constexpr static std::size_t addrs = 0x318207c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -69,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TypeCode (::UnityEngine::InputSystem::Utilities::NamedValue::*)()>(
     &::UnityEngine::InputSystem::Utilities::NamedValue::get_type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x30472f8;
+  constexpr static std::size_t addrs = 0x3182084;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::NamedValue>::get(),
@@ -83,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::NamedValue (::UnityEngine::InputSystem::Utilities::NamedValue::*)(
     ::System::TypeCode)>(&::UnityEngine::InputSystem::Utilities::NamedValue::ConvertTo)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3047300;
+  constexpr static std::size_t addrs = 0x318208c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::Utilities::NamedValue::*)()>(
     &::UnityEngine::InputSystem::Utilities::NamedValue::ToString)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3047240;
+  constexpr static std::size_t addrs = 0x3181fcc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -114,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Utilities::NamedValue::*)(::UnityEngine::InputSystem::Utilities::NamedValue)>(
     &::UnityEngine::InputSystem::Utilities::NamedValue::Equals)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3047534;
+  constexpr static std::size_t addrs = 0x31822c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -129,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Utilities::NamedValue::*)(::System::Object*)>(
     &::UnityEngine::InputSystem::Utilities::NamedValue::Equals)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x30475bc;
+  constexpr static std::size_t addrs = 0x3182348;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -145,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::Utilities::NamedValue::*)()>(
     &::UnityEngine::InputSystem::Utilities::NamedValue::GetHashCode)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x304764c;
+  constexpr static std::size_t addrs = 0x31823d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -161,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::InputSystem::Utilities::NamedValue, ::UnityEngine::InputSystem::Utilities::NamedValue)>(
     &::UnityEngine::InputSystem::Utilities::NamedValue::op_Equality)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3047730;
+  constexpr static std::size_t addrs = 0x31824bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -177,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::InputSystem::Utilities::NamedValue, ::UnityEngine::InputSystem::Utilities::NamedValue)>(
     &::UnityEngine::InputSystem::Utilities::NamedValue::op_Inequality)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3047760;
+  constexpr static std::size_t addrs = 0x31824ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -194,7 +195,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::UnityEngine::InputSystem::Utilities::NamedValue, ::Array<::UnityEngine::InputSystem::Utilities::NamedValue>*> (*)(::StringW)>(
         &::UnityEngine::InputSystem::Utilities::NamedValue::ParseMultiple)> {
   constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x3047034;
+  constexpr static std::size_t addrs = 0x3181dc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -209,7 +210,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::NamedValue (*)(::StringW)>(
     &::UnityEngine::InputSystem::Utilities::NamedValue::Parse)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3047b58;
+  constexpr static std::size_t addrs = 0x31828e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -224,7 +225,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::NamedValue (*)(::StringW, ByRef<int32_t>)>(
     &::UnityEngine::InputSystem::Utilities::NamedValue::ParseParameter)> {
   constexpr static std::size_t size = 0x354;
-  constexpr static std::size_t addrs = 0x3047804;
+  constexpr static std::size_t addrs = 0x3182590;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -239,7 +240,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Utilities::NamedValue::*)(::System::Object*)>(
     &::UnityEngine::InputSystem::Utilities::NamedValue::ApplyToObject)> {
   constexpr static std::size_t size = 0x2e8;
-  constexpr static std::size_t addrs = 0x3047e98;
+  constexpr static std::size_t addrs = 0x3182c24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

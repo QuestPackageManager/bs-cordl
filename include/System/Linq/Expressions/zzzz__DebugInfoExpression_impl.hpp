@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Linq/Expressions/DebugInfoExpression.hpp"
 #include "System/Linq/Expressions/zzzz__Expression_impl.hpp"
 #include "System/Linq/Expressions/zzzz__DebugInfoExpression_def.hpp"
 #include "System/Linq/Expressions/zzzz__SymbolDocumentInfo_def.hpp"
@@ -8,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::DebugInfoExpression::*)()>(
     &::System::Linq::Expressions::DebugInfoExpression::get_StartLine)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2b00e10;
+  constexpr static std::size_t addrs = 0x2bfe710;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::DebugInfoExpression::*)()>(
     &::System::Linq::Expressions::DebugInfoExpression::get_EndLine)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2b00e38;
+  constexpr static std::size_t addrs = 0x2bfe738;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::SymbolDocumentInfo* (::System::Linq::Expressions::DebugInfoExpression::*)()>(
     &::System::Linq::Expressions::DebugInfoExpression::get_Document)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2b00e60;
+  constexpr static std::size_t addrs = 0x2bfe760;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::DebugInfoExpression*>::get(),
@@ -54,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Linq::Expressions::DebugInfoExpression::*)()>(
     &::System::Linq::Expressions::DebugInfoExpression::get_IsClear)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2b00e68;
+  constexpr static std::size_t addrs = 0x2bfe768;
 
   inline static ::MethodInfo const* methodInfo() {
 

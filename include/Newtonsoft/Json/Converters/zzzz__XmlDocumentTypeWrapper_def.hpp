@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "Newtonsoft/Json/Converters/XmlDocumentTypeWrapper.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -55,22 +56,22 @@ public:
 
   constexpr void __cordl_internal_set__documentType(::System::Xml::XmlDocumentType* value);
 
-  /// @brief Method .ctor, addr 0x298e898, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a8c148, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlDocumentType* documentType);
 
-  /// @brief Method get_InternalSubset, addr 0x298eecc, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_InternalSubset, addr 0x2a8c77c, size 0x1c, virtual true, abstract: false, final true
   inline ::StringW get_InternalSubset();
 
-  /// @brief Method get_LocalName, addr 0x298eee8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x2a8c798, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_Name, addr 0x298ee74, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method get_Name, addr 0x2a8c724, size 0x20, virtual true, abstract: false, final true
   inline ::StringW get_Name();
 
-  /// @brief Method get_Public, addr 0x298eeb0, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_Public, addr 0x2a8c760, size 0x1c, virtual true, abstract: false, final true
   inline ::StringW get_Public();
 
-  /// @brief Method get_System, addr 0x298ee94, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_System, addr 0x2a8c744, size 0x1c, virtual true, abstract: false, final true
   inline ::StringW get_System();
 
   /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlDocumentType"

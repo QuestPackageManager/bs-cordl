@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/UIElements/EventDispatcherGate.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,19 +38,19 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::EventDispatcherGate>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::EventDispatcherGate>*();
 
-  /// @brief Method Dispose, addr 0x3352728, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x3556464, size 0x18, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Equals, addr 0x33527d4, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3556510, size 0x7c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x33527c8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x3556504, size 0xc, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::EventDispatcherGate other);
 
-  /// @brief Method GetHashCode, addr 0x3352850, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x355658c, size 0x18, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x33526ac, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35563e8, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::EventDispatcher* d);
 
   /// @brief Convert to "::System::IDisposable"

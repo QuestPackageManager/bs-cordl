@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "System/Xml/AttributePSVIInfo.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -39,7 +40,7 @@ public:
 
   static inline ::System::Xml::AttributePSVIInfo* New_ctor();
 
-  /// @brief Method Reset, addr 0x2d8bd54, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x2e88654, size 0x64, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::System::Xml::Schema::XmlSchemaInfo*& __cordl_internal_get_attributeSchemaInfo();
@@ -66,7 +67,7 @@ public:
 
   constexpr void __cordl_internal_set_typedAttributeValue(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x2d8bce8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e885e8, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

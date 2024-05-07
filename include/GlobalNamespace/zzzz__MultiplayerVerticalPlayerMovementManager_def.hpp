@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "GlobalNamespace/MultiplayerVerticalPlayerMovementManager.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -89,18 +90,18 @@ public:
   /// @brief Field _scoreProvider, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__scoreProvider, put = __cordl_internal_set__scoreProvider))::UnityW<::GlobalNamespace::MultiplayerScoreProvider> _scoreProvider;
 
-  /// @brief Method HandleStateChanged, addr 0x261d1dc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method HandleStateChanged, addr 0x271e06c, size 0x10, virtual false, abstract: false, final false
   inline void HandleStateChanged(::GlobalNamespace::__MultiplayerController__State state);
 
   static inline ::GlobalNamespace::MultiplayerVerticalPlayerMovementManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x261d1ec, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x271e07c, size 0xd4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x261d134, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x271dfc0, size 0xac, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x261d2bc, size 0x7e0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x271e150, size 0x820, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr float_t const& __cordl_internal_get__accelerationMetersPerSecondSquared() const;
@@ -183,7 +184,7 @@ public:
 
   constexpr void __cordl_internal_set__scoreProvider(::UnityW<::GlobalNamespace::MultiplayerScoreProvider> value);
 
-  /// @brief Method .ctor, addr 0x261da9c, size 0x10e0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x271e970, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

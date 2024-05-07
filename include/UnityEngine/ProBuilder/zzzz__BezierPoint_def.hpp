@@ -1,4 +1,5 @@
 #pragma once
+// IWYU pragma private; include "UnityEngine/ProBuilder/BezierPoint.hpp"
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
@@ -37,28 +38,28 @@ namespace UnityEngine::ProBuilder {
 struct CORDL_TYPE BezierPoint {
 public:
   // Declarations
-  /// @brief Method CubicPosition, addr 0x3068fb8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method CubicPosition, addr 0x3270a40, size 0xa0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 CubicPosition(::UnityEngine::ProBuilder::BezierPoint a, ::UnityEngine::ProBuilder::BezierPoint b, float_t t);
 
-  /// @brief Method EnforceTangentMode, addr 0x3068bc8, size 0x318, virtual false, abstract: false, final false
+  /// @brief Method EnforceTangentMode, addr 0x3270650, size 0x318, virtual false, abstract: false, final false
   inline void EnforceTangentMode(::UnityEngine::ProBuilder::BezierTangentDirection master, ::UnityEngine::ProBuilder::BezierTangentMode mode);
 
-  /// @brief Method GetLookDirection, addr 0x3069058, size 0x9f8, virtual false, abstract: false, final false
+  /// @brief Method GetLookDirection, addr 0x3270ae0, size 0x9f8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetLookDirection(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::BezierPoint>* points, int32_t index, int32_t previous, int32_t next);
 
-  /// @brief Method QuadraticPosition, addr 0x3068f58, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method QuadraticPosition, addr 0x32709e0, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 QuadraticPosition(::UnityEngine::ProBuilder::BezierPoint a, ::UnityEngine::ProBuilder::BezierPoint b, float_t t);
 
-  /// @brief Method SetPosition, addr 0x3068ee0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method SetPosition, addr 0x3270968, size 0x50, virtual false, abstract: false, final false
   inline void SetPosition(::UnityEngine::Vector3 position);
 
-  /// @brief Method SetTangentIn, addr 0x3068f30, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SetTangentIn, addr 0x32709b8, size 0x14, virtual false, abstract: false, final false
   inline void SetTangentIn(::UnityEngine::Vector3 tangent, ::UnityEngine::ProBuilder::BezierTangentMode mode);
 
-  /// @brief Method SetTangentOut, addr 0x3068f44, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SetTangentOut, addr 0x32709cc, size 0x14, virtual false, abstract: false, final false
   inline void SetTangentOut(::UnityEngine::Vector3 tangent, ::UnityEngine::ProBuilder::BezierTangentMode mode);
 
-  /// @brief Method .ctor, addr 0x3068ba0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3270628, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 position, ::UnityEngine::Vector3 tangentIn, ::UnityEngine::Vector3 tangentOut, ::UnityEngine::Quaternion rotation);
 
   // Ctor Parameters []
