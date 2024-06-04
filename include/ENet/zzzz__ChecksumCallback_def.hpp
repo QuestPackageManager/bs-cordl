@@ -13,6 +13,9 @@ namespace System {
 class IAsyncResult;
 }
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Object;
 }
 // Forward declare root types
@@ -29,19 +32,19 @@ namespace ENet {
 class CORDL_TYPE ChecksumCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x25d4418, size 0xb4, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(void* buffers, int32_t bufferCount, ::System::AsyncCallback* callback, ::System::Object* object);
+  /// @brief Method BeginInvoke, addr 0x25ec35c, size 0xb4, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(::System::IntPtr buffers, int32_t bufferCount, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x25d44cc, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x25ec410, size 0x28, virtual true, abstract: false, final false
   inline uint64_t EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x25d4404, size 0x14, virtual true, abstract: false, final false
-  inline uint64_t Invoke(void* buffers, int32_t bufferCount);
+  /// @brief Method Invoke, addr 0x25ec348, size 0x14, virtual true, abstract: false, final false
+  inline uint64_t Invoke(::System::IntPtr buffers, int32_t bufferCount);
 
-  static inline ::ENet::ChecksumCallback* New_ctor(::System::Object* object, void* method);
+  static inline ::ENet::ChecksumCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x25d4340, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
+  /// @brief Method .ctor, addr 0x25ec284, size 0xc4, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []

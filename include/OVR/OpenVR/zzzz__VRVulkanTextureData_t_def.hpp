@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(VRVulkanTextureData_t)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace OVR::OpenVR {
 struct VRVulkanTextureData_t;
@@ -25,28 +28,28 @@ public:
   // @brief default ctor
   constexpr VRVulkanTextureData_t();
 
-  // Ctor Parameters [CppParam { name: "m_nImage", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "m_pDevice", ty: "void*", modifiers: "", def_value: None }, CppParam { name:
-  // "m_pPhysicalDevice", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "m_pInstance", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "m_pQueue", ty: "void*",
-  // modifiers: "", def_value: None }, CppParam { name: "m_nQueueFamilyIndex", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_nWidth", ty: "uint32_t", modifiers: "", def_value:
-  // None }, CppParam { name: "m_nHeight", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_nFormat", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "m_nSampleCount", ty: "uint32_t", modifiers: "", def_value: None }]
-  constexpr VRVulkanTextureData_t(uint64_t m_nImage, void* m_pDevice, void* m_pPhysicalDevice, void* m_pInstance, void* m_pQueue, uint32_t m_nQueueFamilyIndex, uint32_t m_nWidth, uint32_t m_nHeight,
-                                  uint32_t m_nFormat, uint32_t m_nSampleCount) noexcept;
+  // Ctor Parameters [CppParam { name: "m_nImage", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "m_pDevice", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam {
+  // name: "m_pPhysicalDevice", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "m_pInstance", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name:
+  // "m_pQueue", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "m_nQueueFamilyIndex", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_nWidth", ty:
+  // "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_nHeight", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_nFormat", ty: "uint32_t", modifiers: "",
+  // def_value: None }, CppParam { name: "m_nSampleCount", ty: "uint32_t", modifiers: "", def_value: None }]
+  constexpr VRVulkanTextureData_t(uint64_t m_nImage, ::System::IntPtr m_pDevice, ::System::IntPtr m_pPhysicalDevice, ::System::IntPtr m_pInstance, ::System::IntPtr m_pQueue,
+                                  uint32_t m_nQueueFamilyIndex, uint32_t m_nWidth, uint32_t m_nHeight, uint32_t m_nFormat, uint32_t m_nSampleCount) noexcept;
 
   /// @brief Field m_nImage, offset: 0x0, size: 0x8, def value: None
   uint64_t m_nImage;
 
   /// @brief Field m_pDevice, offset: 0x8, size: 0x8, def value: None
-  void* m_pDevice;
+  ::System::IntPtr m_pDevice;
 
   /// @brief Field m_pPhysicalDevice, offset: 0x10, size: 0x8, def value: None
-  void* m_pPhysicalDevice;
+  ::System::IntPtr m_pPhysicalDevice;
 
   /// @brief Field m_pInstance, offset: 0x18, size: 0x8, def value: None
-  void* m_pInstance;
+  ::System::IntPtr m_pInstance;
 
   /// @brief Field m_pQueue, offset: 0x20, size: 0x8, def value: None
-  void* m_pQueue;
+  ::System::IntPtr m_pQueue;
 
   /// @brief Field m_nQueueFamilyIndex, offset: 0x28, size: 0x4, def value: None
   uint32_t m_nQueueFamilyIndex;

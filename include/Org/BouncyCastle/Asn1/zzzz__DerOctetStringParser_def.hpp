@@ -43,12 +43,12 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Convertible*() noexcept;
 
-  /// @brief Method GetOctetStream, addr 0x1425f20, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetOctetStream, addr 0x142c790, size 0x8, virtual true, abstract: false, final true
   inline ::System::IO::Stream* GetOctetStream();
 
   static inline ::Org::BouncyCastle::Asn1::DerOctetStringParser* New_ctor(::Org::BouncyCastle::Asn1::DefiniteLengthInputStream* stream);
 
-  /// @brief Method ToAsn1Object, addr 0x1425f28, size 0x16c, virtual true, abstract: false, final true
+  /// @brief Method ToAsn1Object, addr 0x142c798, size 0x16c, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DefiniteLengthInputStream*& __cordl_internal_get_stream();
@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set_stream(::Org::BouncyCastle::Asn1::DefiniteLengthInputStream* value);
 
-  /// @brief Method .ctor, addr 0x141cc04, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1423474, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DefiniteLengthInputStream* stream);
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::Asn1OctetStringParser"

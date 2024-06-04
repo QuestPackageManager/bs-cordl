@@ -2,19 +2,21 @@
 // IWYU pragma private; include "System/Xml/Serialization/XmlSerializationWriteCallback.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/Xml/Serialization/zzzz__XmlSerializationWriteCallback_def.hpp"
+#include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Xml::Serialization::XmlSerializationWriteCallback._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Serialization::XmlSerializationWriteCallback::*)(::System::Object*, void*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Serialization::XmlSerializationWriteCallback::*)(::System::Object*, ::System::IntPtr)>(
     &::System::Xml::Serialization::XmlSerializationWriteCallback::_ctor)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x2ee13a8;
+  constexpr static std::size_t addrs = 0x2f01a98;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::XmlSerializationWriteCallback*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get() })));
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
@@ -24,9 +26,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Serialization::XmlSerializationWriteCallback::*)(::System::Object*)>(
     &::System::Xml::Serialization::XmlSerializationWriteCallback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x2ee14d4;
+  constexpr static std::size_t addrs = 0x2f01bc4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::XmlSerializationWriteCallback*>::get(),
@@ -34,13 +36,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::System::Xml::Serialization::XmlSerializationWriteCallback* System::Xml::Serialization::XmlSerializationWriteCallback::New_ctor(::System::Object* object, void* method) {
+inline ::System::Xml::Serialization::XmlSerializationWriteCallback* System::Xml::Serialization::XmlSerializationWriteCallback::New_ctor(::System::Object* object, ::System::IntPtr method) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::Serialization::XmlSerializationWriteCallback*>(object, method));
 }
-inline void System::Xml::Serialization::XmlSerializationWriteCallback::_ctor(::System::Object* object, void* method) {
+inline void System::Xml::Serialization::XmlSerializationWriteCallback::_ctor(::System::Object* object, ::System::IntPtr method) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Serialization::XmlSerializationWriteCallback*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get() })));
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
 inline void System::Xml::Serialization::XmlSerializationWriteCallback::Invoke(::System::Object* o) {

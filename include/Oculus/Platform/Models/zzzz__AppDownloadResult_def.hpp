@@ -6,6 +6,9 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AppDownloadResult)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class AppDownloadResult;
@@ -23,7 +26,7 @@ public:
   /// @brief Field Timestamp, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_Timestamp, put = __cordl_internal_set_Timestamp)) int64_t Timestamp;
 
-  static inline ::Oculus::Platform::Models::AppDownloadResult* New_ctor(void* o);
+  static inline ::Oculus::Platform::Models::AppDownloadResult* New_ctor(::System::IntPtr o);
 
   constexpr int64_t const& __cordl_internal_get_Timestamp() const;
 
@@ -31,8 +34,8 @@ public:
 
   constexpr void __cordl_internal_set_Timestamp(int64_t value);
 
-  /// @brief Method .ctor, addr 0x2ada034, size 0x78, virtual false, abstract: false, final false
-  inline void _ctor(void* o);
+  /// @brief Method .ctor, addr 0x2afa6c0, size 0x78, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr o);
 
 protected:
   // Ctor Parameters []

@@ -23,10 +23,10 @@ namespace Oculus::Platform {
 class CORDL_TYPE Vrcamera : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetGetDataChannelMessageUpdateNotificationCallback, addr 0x2ad6578, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetGetDataChannelMessageUpdateNotificationCallback, addr 0x2af6c04, size 0x74, virtual false, abstract: false, final false
   static inline void SetGetDataChannelMessageUpdateNotificationCallback(::Oculus::Platform::__Message_1__Callback<::StringW>* callback);
 
-  /// @brief Method SetGetSurfaceUpdateNotificationCallback, addr 0x2ad65ec, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetGetSurfaceUpdateNotificationCallback, addr 0x2af6c78, size 0x74, virtual false, abstract: false, final false
   static inline void SetGetSurfaceUpdateNotificationCallback(::Oculus::Platform::__Message_1__Callback<::StringW>* callback);
 
 protected:

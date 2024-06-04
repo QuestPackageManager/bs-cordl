@@ -33,7 +33,7 @@ public:
 
   static inline ::Zenject::WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder* New_ctor(::Zenject::SubContainerCreatorBindInfo* subContainerBindInfo, ::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method WithKernel, addr 0x36325c0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method WithKernel, addr 0x365eabc, size 0x20, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* WithKernel();
 
   /// @brief Method WithKernel, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set__subContainerBindInfo(::Zenject::SubContainerCreatorBindInfo* value);
 
-  /// @brief Method .ctor, addr 0x3632594, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x365ea90, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::SubContainerCreatorBindInfo* subContainerBindInfo, ::Zenject::BindInfo* bindInfo);
 
 protected:

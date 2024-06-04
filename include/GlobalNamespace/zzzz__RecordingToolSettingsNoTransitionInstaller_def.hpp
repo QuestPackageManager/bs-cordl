@@ -36,7 +36,7 @@ public:
   __declspec(property(get = __cordl_internal_get__scenesTransitionSetupData,
                       put = __cordl_internal_set__scenesTransitionSetupData))::UnityW<::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO> _scenesTransitionSetupData;
 
-  /// @brief Method InstallBindings, addr 0x26a0d08, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x26b9d14, size 0x44, virtual true, abstract: false, final false
   inline void InstallBindings(::Zenject::DiContainer* container);
 
   static inline ::GlobalNamespace::RecordingToolSettingsNoTransitionInstaller* New_ctor();
@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set__scenesTransitionSetupData(::UnityW<::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0x26a0d54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b9d60, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

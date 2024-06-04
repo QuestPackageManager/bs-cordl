@@ -28,7 +28,7 @@ public:
   /// @brief Field _innerBinder, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__innerBinder, put = __cordl_internal_set__innerBinder))::System::Dynamic::GetMemberBinder* _innerBinder;
 
-  /// @brief Method FallbackGetMember, addr 0x2a10478, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method FallbackGetMember, addr 0x2a2db04, size 0x13c, virtual true, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* FallbackGetMember(::System::Dynamic::DynamicMetaObject* target, ::System::Dynamic::DynamicMetaObject* errorSuggestion);
 
   static inline ::Newtonsoft::Json::Utilities::NoThrowGetBinderMember* New_ctor(::System::Dynamic::GetMemberBinder* innerBinder);
@@ -39,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set__innerBinder(::System::Dynamic::GetMemberBinder* value);
 
-  /// @brief Method .ctor, addr 0x2a10440, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a2dacc, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::System::Dynamic::GetMemberBinder* innerBinder);
 
 protected:

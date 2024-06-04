@@ -10,9 +10,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRMeshData (::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::*)()>(
     &::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::get_MeshData)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2af7cf8;
+  constexpr static std::size_t addrs = 0x2b1a384;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler*>::get(), "get_MeshData",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -25,9 +25,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::*)(::GlobalNamespace::OVRMeshData)>(
     &::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::set_MeshData)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x2af7d08;
+  constexpr static std::size_t addrs = 0x2b1a394;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler*>::get(), "set_MeshData", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRMeshData>::get() })));
@@ -40,9 +40,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::*)(::GlobalNamespace::OVRMeshData)>(
     &::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x2af7d20;
+  constexpr static std::size_t addrs = 0x2b1a3ac;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRMeshData>::get() })));
@@ -55,9 +55,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::*)()>(
     &::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::Update)> {
   constexpr static std::size_t size = 0x384;
-  constexpr static std::size_t addrs = 0x2af7d54;
+  constexpr static std::size_t addrs = 0x2b1a3e0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler*>::get(), "Update",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -70,9 +70,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::*)()>(
     &::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler::MarkModified)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2af80d8;
+  constexpr static std::size_t addrs = 0x2b1a764;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler*>::get(), "MarkModified",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));

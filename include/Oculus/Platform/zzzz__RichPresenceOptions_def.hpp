@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RichPresenceOptions)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform {
 class RichPresenceOptions;
@@ -22,24 +25,24 @@ class CORDL_TYPE RichPresenceOptions : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Handle, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_Handle, put = __cordl_internal_set_Handle)) void* Handle;
+  __declspec(property(get = __cordl_internal_get_Handle, put = __cordl_internal_set_Handle))::System::IntPtr Handle;
 
-  /// @brief Method Finalize, addr 0x2ad6f38, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x2af75c4, size 0xd4, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::Oculus::Platform::RichPresenceOptions* New_ctor();
 
-  constexpr void* const& __cordl_internal_get_Handle() const;
+  constexpr ::System::IntPtr const& __cordl_internal_get_Handle() const;
 
-  constexpr void*& __cordl_internal_get_Handle();
+  constexpr ::System::IntPtr& __cordl_internal_get_Handle();
 
-  constexpr void __cordl_internal_set_Handle(void* value);
+  constexpr void __cordl_internal_set_Handle(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x2ad6ed4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2af7560, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method op_Explicit, addr 0x2ad5530, size 0x58, virtual false, abstract: false, final false
-  static inline void* op_Explicit_void_(::Oculus::Platform::RichPresenceOptions* options);
+  /// @brief Method op_Explicit, addr 0x2af5bbc, size 0x58, virtual false, abstract: false, final false
+  static inline ::System::IntPtr op_Explicit___System__IntPtr(::Oculus::Platform::RichPresenceOptions* options);
 
 protected:
   // Ctor Parameters []
@@ -56,7 +59,7 @@ public:
   RichPresenceOptions(RichPresenceOptions const&) = delete;
 
   /// @brief Field Handle, offset: 0x10, size: 0x8, def value: None
-  void* ___Handle;
+  ::System::IntPtr ___Handle;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

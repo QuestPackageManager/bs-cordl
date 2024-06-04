@@ -36,7 +36,7 @@ public:
 
   static inline ::GlobalNamespace::GameplayModifierInfoListItem* New_ctor();
 
-  /// @brief Method SetModifier, addr 0x273681c, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method SetModifier, addr 0x274dfa4, size 0x190, virtual false, abstract: false, final false
   inline void SetModifier(::GlobalNamespace::GameplayModifierParamsSO* modifierParam, bool showName);
 
   constexpr ::UnityW<::HMUI::HoverHint> const& __cordl_internal_get__hoverHint() const;
@@ -51,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set__iconImage(::UnityW<::UnityEngine::UI::Image> value);
 
-  /// @brief Method .ctor, addr 0x27369ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x274e134, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

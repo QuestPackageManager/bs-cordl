@@ -23,25 +23,25 @@ namespace System::Linq {
 class CORDL_TYPE Error : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ArgumentNull, addr 0x2bdf2d8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ArgumentNull, addr 0x2c009c8, size 0x64, virtual false, abstract: false, final false
   static inline ::System::Exception* ArgumentNull(::StringW s);
 
-  /// @brief Method ArgumentOutOfRange, addr 0x2bdf33c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ArgumentOutOfRange, addr 0x2c00a2c, size 0x64, virtual false, abstract: false, final false
   static inline ::System::Exception* ArgumentOutOfRange(::StringW s);
 
-  /// @brief Method MoreThanOneElement, addr 0x2bdf3a0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method MoreThanOneElement, addr 0x2c00a90, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Exception* MoreThanOneElement();
 
-  /// @brief Method MoreThanOneMatch, addr 0x2bdf414, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method MoreThanOneMatch, addr 0x2c00b04, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Exception* MoreThanOneMatch();
 
-  /// @brief Method NoElements, addr 0x2bdf488, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method NoElements, addr 0x2c00b78, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Exception* NoElements();
 
-  /// @brief Method NoMatch, addr 0x2bdf4fc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method NoMatch, addr 0x2c00bec, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Exception* NoMatch();
 
-  /// @brief Method NotSupported, addr 0x2bdf570, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method NotSupported, addr 0x2c00c60, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Exception* NotSupported();
 
 protected:

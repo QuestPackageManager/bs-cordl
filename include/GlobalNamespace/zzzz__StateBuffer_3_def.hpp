@@ -34,6 +34,9 @@ namespace System {
 class IAsyncResult;
 }
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Object;
 }
 // Forward declare root types
@@ -130,10 +133,10 @@ public:
   /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline TState Invoke(TState a, int64_t timeA, TState b, int64_t timeB, int64_t time);
 
-  static inline ::GlobalNamespace::__StateBuffer_3__InterpolationDelegate<TStateTable, TType, TState>* New_ctor(::System::Object* object, void* method);
+  static inline ::GlobalNamespace::__StateBuffer_3__InterpolationDelegate<TStateTable, TType, TState>* New_ctor(::System::Object* object, ::System::IntPtr method);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
@@ -172,10 +175,10 @@ public:
   /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline TState Invoke(TState a, TState b, float_t smooth);
 
-  static inline ::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>* New_ctor(::System::Object* object, void* method);
+  static inline ::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>* New_ctor(::System::Object* object, ::System::IntPtr method);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []

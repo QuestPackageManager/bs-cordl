@@ -31,19 +31,19 @@ public:
   // Declarations
   __declspec(property(get = get_assetLabelRuntimeKey))::StringW assetLabelRuntimeKey;
 
-  /// @brief Method InstallBindings, addr 0x103e1f8, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x10469a4, size 0xbc, virtual true, abstract: false, final false
   inline void InstallBindings();
 
-  /// @brief Method LoadResourcesBeforeInstall, addr 0x103e2b4, size 0x3ec, virtual true, abstract: false, final false
+  /// @brief Method LoadResourcesBeforeInstall, addr 0x1046a60, size 0x3ec, virtual true, abstract: false, final false
   inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::UnityW<::BeatSaber::AvatarCore::AbstractAdapterInstallerSO>>* adaptersInstallers,
                                          ::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry* registry);
 
   static inline ::BeatSaber::AvatarCore::AvatarsAsyncInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0x103e6a0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1046e4c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_assetLabelRuntimeKey, addr 0x103e1b8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_assetLabelRuntimeKey, addr 0x1046964, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_assetLabelRuntimeKey();
 
 protected:

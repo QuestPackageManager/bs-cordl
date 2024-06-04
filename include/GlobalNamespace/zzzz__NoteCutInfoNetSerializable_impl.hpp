@@ -20,9 +20,9 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::NoteCutInfoNetSerializable* (*)()>(&::GlobalNamespace::NoteCutInfoNetSerializable::Obtain)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x15049dc;
+  constexpr static std::size_t addrs = 0x150ae20;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutInfoNetSerializable*>::get(), "Obtain",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
@@ -34,9 +34,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteCutInfoNetSerializable::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::NoteCutInfoNetSerializable::Deserialize)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x1504a40;
+  constexpr static std::size_t addrs = 0x150ae84;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutInfoNetSerializable*>::get(),
@@ -50,9 +50,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteCutInfoNetSerializable::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::NoteCutInfoNetSerializable::Serialize)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x1504c20;
+  constexpr static std::size_t addrs = 0x150b064;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutInfoNetSerializable*>::get(),
@@ -65,9 +65,9 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteCutInfoNetSerializable::*)()>(&::GlobalNamespace::NoteCutInfoNetSerializable::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x1504dcc;
+  constexpr static std::size_t addrs = 0x150b210;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutInfoNetSerializable*>::get(), ".ctor",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
@@ -80,9 +80,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::NoteCutInfoNetSerializable::*)(ByRef<::GlobalNamespace::NoteCutInfo>, ::GlobalNamespace::NoteData*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Vector3,
                                                       ::UnityEngine::Vector3)>(&::GlobalNamespace::NoteCutInfoNetSerializable::Init)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x1504e2c;
+  constexpr static std::size_t addrs = 0x150b270;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutInfoNetSerializable*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 6>{
@@ -101,9 +101,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                       ::GlobalNamespace::ColorType, ::GlobalNamespace::NoteLineLayer, int32_t, float_t, float_t, ::UnityEngine::Vector3, ::UnityEngine::Quaternion,
                                                       ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::GlobalNamespace::NoteCutInfoNetSerializable::Init)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x1504f10;
+  constexpr static std::size_t addrs = 0x150b354;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutInfoNetSerializable*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 15>{

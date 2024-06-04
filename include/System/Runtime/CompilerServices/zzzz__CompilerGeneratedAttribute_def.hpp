@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::System::Runtime::CompilerServices::CompilerGeneratedAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x285b7fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2874e88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

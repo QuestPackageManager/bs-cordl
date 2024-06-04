@@ -9,6 +9,9 @@ CORDL_MODULE_EXPORT(MessageWithAvatarEditorResult)
 namespace Oculus::Platform::Models {
 class AvatarEditorResult;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform {
 class MessageWithAvatarEditorResult;
@@ -23,16 +26,16 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithAvatarEditorResult : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AvatarEditorResult*> {
 public:
   // Declarations
-  /// @brief Method GetAvatarEditorResult, addr 0x2ac7534, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetAvatarEditorResult, addr 0x2ae7bc0, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AvatarEditorResult* GetAvatarEditorResult();
 
-  /// @brief Method GetDataFromMessage, addr 0x2ac7570, size 0x9c, virtual true, abstract: false, final false
-  inline ::Oculus::Platform::Models::AvatarEditorResult* GetDataFromMessage(void* c_message);
+  /// @brief Method GetDataFromMessage, addr 0x2ae7bfc, size 0x9c, virtual true, abstract: false, final false
+  inline ::Oculus::Platform::Models::AvatarEditorResult* GetDataFromMessage(::System::IntPtr c_message);
 
-  static inline ::Oculus::Platform::MessageWithAvatarEditorResult* New_ctor(void* c_message);
+  static inline ::Oculus::Platform::MessageWithAvatarEditorResult* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x2ac4f24, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor(void* c_message);
+  /// @brief Method .ctor, addr 0x2ae55b0, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr c_message);
 
 protected:
   // Ctor Parameters []

@@ -56,13 +56,13 @@ public:
   /// @brief Field _kernelSize, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__kernelSize, put = __cordl_internal_set__kernelSize))::GlobalNamespace::__KawaseBlurRendererSO__KernelSize _kernelSize;
 
-  /// @brief Method CamerasDict, addr 0x2bd283c, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method CamerasDict, addr 0x2bf3ec8, size 0x58, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Camera>, ::GlobalNamespace::CommandBufferOwners*>* CamerasDict();
 
-  /// @brief Method CommandBufferCameraEvent, addr 0x2bd2894, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CommandBufferCameraEvent, addr 0x2bf3f20, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::Rendering::CameraEvent CommandBufferCameraEvent();
 
-  /// @brief Method CreateCommandBuffer, addr 0x2bd2740, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method CreateCommandBuffer, addr 0x2bf3dcc, size 0xfc, virtual true, abstract: false, final false
   inline ::UnityEngine::Rendering::CommandBuffer* CreateCommandBuffer(::UnityEngine::Camera* camera);
 
   static inline ::GlobalNamespace::CommandBufferBlurryScreenGrab* New_ctor();
@@ -91,7 +91,7 @@ public:
 
   constexpr void __cordl_internal_set__kernelSize(::GlobalNamespace::__KawaseBlurRendererSO__KernelSize value);
 
-  /// @brief Method .ctor, addr 0x2bd289c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bf3f28, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Camera>, ::GlobalNamespace::CommandBufferOwners*>* getStaticF__cameras();

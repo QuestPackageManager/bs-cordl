@@ -55,18 +55,18 @@ public:
   /// @brief Convert operator to "::HMUI::__TableView__IDataSource"
   constexpr operator ::HMUI::__TableView__IDataSource*() noexcept;
 
-  /// @brief Method CellForIdx, addr 0x266e618, size 0x1d0, virtual true, abstract: false, final true
+  /// @brief Method CellForIdx, addr 0x26881a0, size 0x1d0, virtual true, abstract: false, final true
   inline ::UnityW<::HMUI::TableCell> CellForIdx(::HMUI::TableView* tableView, int32_t idx);
 
-  /// @brief Method CellSize, addr 0x266e570, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method CellSize, addr 0x26880f8, size 0x8, virtual true, abstract: false, final true
   inline float_t CellSize();
 
   static inline ::GlobalNamespace::ResultsTableView* New_ctor();
 
-  /// @brief Method NumberOfCells, addr 0x266e578, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method NumberOfCells, addr 0x2688100, size 0xa0, virtual true, abstract: false, final true
   inline int32_t NumberOfCells();
 
-  /// @brief Method SetData, addr 0x266e7e8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x2688370, size 0x2c, virtual false, abstract: false, final false
   inline void SetData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* dataList);
 
   constexpr ::UnityW<::GlobalNamespace::ResultsTableCell> const& __cordl_internal_get__cellPrefab() const;
@@ -93,7 +93,7 @@ public:
 
   constexpr void __cordl_internal_set__tableView(::UnityW<::HMUI::TableView> value);
 
-  /// @brief Method .ctor, addr 0x266e814, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x268839c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::HMUI::__TableView__IDataSource"

@@ -24,16 +24,16 @@ public:
 
   __declspec(property(get = get_spring, put = set_spring)) float_t spring;
 
-  /// @brief Method get_damper, addr 0x346f358, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_damper, addr 0x3497854, size 0x8, virtual false, abstract: false, final false
   inline float_t get_damper();
 
-  /// @brief Method get_spring, addr 0x346f348, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_spring, addr 0x3497844, size 0x8, virtual false, abstract: false, final false
   inline float_t get_spring();
 
-  /// @brief Method set_damper, addr 0x346f360, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_damper, addr 0x349785c, size 0x8, virtual false, abstract: false, final false
   inline void set_damper(float_t value);
 
-  /// @brief Method set_spring, addr 0x346f350, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_spring, addr 0x349784c, size 0x8, virtual false, abstract: false, final false
   inline void set_spring(float_t value);
 
   // Ctor Parameters []

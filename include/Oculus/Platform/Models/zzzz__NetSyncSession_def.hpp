@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NetSyncSession)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class NetSyncSession;
@@ -36,7 +39,7 @@ public:
   /// @brief Field VoipGroup, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_VoipGroup, put = __cordl_internal_set_VoipGroup))::StringW VoipGroup;
 
-  static inline ::Oculus::Platform::Models::NetSyncSession* New_ctor(void* o);
+  static inline ::Oculus::Platform::Models::NetSyncSession* New_ctor(::System::IntPtr o);
 
   constexpr int64_t const& __cordl_internal_get_ConnectionId() const;
 
@@ -68,8 +71,8 @@ public:
 
   constexpr void __cordl_internal_set_VoipGroup(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2add74c, size 0xbc, virtual false, abstract: false, final false
-  inline void _ctor(void* o);
+  /// @brief Method .ctor, addr 0x2afddd8, size 0xbc, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr o);
 
 protected:
   // Ctor Parameters []

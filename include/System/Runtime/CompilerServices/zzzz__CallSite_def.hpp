@@ -44,10 +44,10 @@ public:
 
   constexpr void __cordl_internal_set__match(bool value);
 
-  /// @brief Method .ctor, addr 0x2c4bf64, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c6d654, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::CompilerServices::CallSiteBinder* binder);
 
-  /// @brief Method get_Binder, addr 0x2c4bf8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Binder, addr 0x2c6d67c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::CompilerServices::CallSiteBinder* get_Binder();
 
 protected:

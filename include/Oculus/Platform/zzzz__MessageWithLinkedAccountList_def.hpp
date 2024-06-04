@@ -9,6 +9,9 @@ CORDL_MODULE_EXPORT(MessageWithLinkedAccountList)
 namespace Oculus::Platform::Models {
 class LinkedAccountList;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform {
 class MessageWithLinkedAccountList;
@@ -23,16 +26,16 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithLinkedAccountList : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::LinkedAccountList*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x2ac8600, size 0x9c, virtual true, abstract: false, final false
-  inline ::Oculus::Platform::Models::LinkedAccountList* GetDataFromMessage(void* c_message);
+  /// @brief Method GetDataFromMessage, addr 0x2ae8c8c, size 0x9c, virtual true, abstract: false, final false
+  inline ::Oculus::Platform::Models::LinkedAccountList* GetDataFromMessage(::System::IntPtr c_message);
 
-  /// @brief Method GetLinkedAccountList, addr 0x2ac85c4, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetLinkedAccountList, addr 0x2ae8c50, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::LinkedAccountList* GetLinkedAccountList();
 
-  static inline ::Oculus::Platform::MessageWithLinkedAccountList* New_ctor(void* c_message);
+  static inline ::Oculus::Platform::MessageWithLinkedAccountList* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x2ac856c, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor(void* c_message);
+  /// @brief Method .ctor, addr 0x2ae8bf8, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr c_message);
 
 protected:
   // Ctor Parameters []

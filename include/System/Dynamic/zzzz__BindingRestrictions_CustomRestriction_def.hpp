@@ -29,13 +29,13 @@ public:
   /// @brief Field _expression, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__expression, put = __cordl_internal_set__expression))::System::Linq::Expressions::Expression* _expression;
 
-  /// @brief Method Equals, addr 0x2c4ccc0, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2c6e3b0, size 0x70, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetExpression, addr 0x2c4cd60, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetExpression, addr 0x2c6e450, size 0x8, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* GetExpression();
 
-  /// @brief Method GetHashCode, addr 0x2c4cd30, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2c6e420, size 0x30, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Dynamic::__BindingRestrictions__CustomRestriction* New_ctor(::System::Linq::Expressions::Expression* expression);
@@ -46,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set__expression(::System::Linq::Expressions::Expression* value);
 
-  /// @brief Method .ctor, addr 0x2c4c7b0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c6dea0, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Expression* expression);
 
 protected:

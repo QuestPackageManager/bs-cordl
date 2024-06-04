@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NetSyncVoipAttenuationValue)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class NetSyncVoipAttenuationValue;
@@ -27,7 +30,7 @@ public:
   /// @brief Field Distance, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_Distance, put = __cordl_internal_set_Distance)) float_t Distance;
 
-  static inline ::Oculus::Platform::Models::NetSyncVoipAttenuationValue* New_ctor(void* o);
+  static inline ::Oculus::Platform::Models::NetSyncVoipAttenuationValue* New_ctor(::System::IntPtr o);
 
   constexpr float_t const& __cordl_internal_get_Decibels() const;
 
@@ -41,8 +44,8 @@ public:
 
   constexpr void __cordl_internal_set_Distance(float_t value);
 
-  /// @brief Method .ctor, addr 0x2addbb4, size 0x88, virtual false, abstract: false, final false
-  inline void _ctor(void* o);
+  /// @brief Method .ctor, addr 0x2afe240, size 0x88, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr o);
 
 protected:
   // Ctor Parameters []

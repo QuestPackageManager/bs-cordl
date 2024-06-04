@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BRECORD)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace System {
 struct BRECORD;
@@ -25,14 +28,14 @@ public:
   // @brief default ctor
   constexpr BRECORD();
 
-  // Ctor Parameters [CppParam { name: "pvRecord", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "pRecInfo", ty: "void*", modifiers: "", def_value: None }]
-  constexpr BRECORD(void* pvRecord, void* pRecInfo) noexcept;
+  // Ctor Parameters [CppParam { name: "pvRecord", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "pRecInfo", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  constexpr BRECORD(::System::IntPtr pvRecord, ::System::IntPtr pRecInfo) noexcept;
 
   /// @brief Field pvRecord, offset: 0x0, size: 0x8, def value: None
-  void* pvRecord;
+  ::System::IntPtr pvRecord;
 
   /// @brief Field pRecInfo, offset: 0x8, size: 0x8, def value: None
-  void* pRecInfo;
+  ::System::IntPtr pRecInfo;
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

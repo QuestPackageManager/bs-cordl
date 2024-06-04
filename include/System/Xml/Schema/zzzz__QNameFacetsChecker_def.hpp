@@ -34,21 +34,21 @@ namespace System::Xml::Schema {
 class CORDL_TYPE QNameFacetsChecker : public ::System::Xml::Schema::FacetsChecker {
 public:
   // Declarations
-  /// @brief Method CheckValueFacets, addr 0x2db36a0, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x2dd3d90, size 0x12c, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::System::Object* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x2db37cc, size 0x1cc, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x2dd3ebc, size 0x1cc, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::System::Xml::XmlQualifiedName* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method MatchEnumeration, addr 0x2db3aa8, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method MatchEnumeration, addr 0x2dd4198, size 0x114, virtual true, abstract: false, final false
   inline bool MatchEnumeration(::System::Object* value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method MatchEnumeration, addr 0x2db3998, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method MatchEnumeration, addr 0x2dd4088, size 0x110, virtual false, abstract: false, final false
   inline bool MatchEnumeration(::System::Xml::XmlQualifiedName* value, ::System::Collections::ArrayList* enumeration);
 
   static inline ::System::Xml::Schema::QNameFacetsChecker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2db3bbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2dd42ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

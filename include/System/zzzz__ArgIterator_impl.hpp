@@ -2,15 +2,16 @@
 // IWYU pragma private; include "System/ArgIterator.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__ArgIterator_def.hpp"
+#include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::ArgIterator.Equals
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ArgIterator::*)(::System::Object*)>(&::System::ArgIterator::Equals)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x297c1c0;
+  constexpr static std::size_t addrs = 0x299684c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArgIterator>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArgIterator>::get(), 0));
@@ -22,9 +23,9 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ArgIterator::*)()>(&::System::ArgIterator::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x297c210;
+  constexpr static std::size_t addrs = 0x299689c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArgIterator>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArgIterator>::get(), 2));
@@ -41,9 +42,9 @@ inline int32_t System::ArgIterator::GetHashCode() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ArgIterator>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "sig", ty: "void*", modifiers: "", def_value: Some("{}") }, CppParam { name: "args", ty: "void*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "next_arg", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "num_args", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::System::ArgIterator::ArgIterator(void* sig, void* args, int32_t next_arg, int32_t num_args) noexcept {
+// Ctor Parameters [CppParam { name: "sig", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam { name: "args", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") },
+// CppParam { name: "next_arg", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "num_args", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+constexpr ::System::ArgIterator::ArgIterator(::System::IntPtr sig, ::System::IntPtr args, int32_t next_arg, int32_t num_args) noexcept {
   this->sig = sig;
   this->args = args;
   this->next_arg = next_arg;

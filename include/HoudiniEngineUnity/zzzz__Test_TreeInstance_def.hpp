@@ -32,7 +32,7 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_TreeInstance*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_TreeInstance*>*() noexcept;
 
-  /// @brief Method IsEquivalentTo, addr 0x25cc0f4, size 0x21c, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x25e4038, size 0x21c, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::Test_TreeInstance* other);
 
   static inline ::HoudiniEngineUnity::Test_TreeInstance* New_ctor(::UnityEngine::TreeInstance self);
@@ -43,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set_self(::UnityEngine::TreeInstance value);
 
-  /// @brief Method .ctor, addr 0x25cc0c0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e4004, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::TreeInstance self);
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_TreeInstance*>"

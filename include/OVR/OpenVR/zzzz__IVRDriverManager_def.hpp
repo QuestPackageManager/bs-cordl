@@ -27,6 +27,9 @@ namespace System {
 class IAsyncResult;
 }
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Object;
 }
 // Forward declare root types
@@ -55,19 +58,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRDriverManager___GetDriverCount : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bc1300, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2be298c, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2bc1320, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2be29ac, size 0x28, virtual true, abstract: false, final false
   inline uint32_t EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x2bc12ec, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2be2978, size 0x14, virtual true, abstract: false, final false
   inline uint32_t Invoke();
 
-  static inline ::OVR::OpenVR::__IVRDriverManager___GetDriverCount* New_ctor(::System::Object* object, void* method);
+  static inline ::OVR::OpenVR::__IVRDriverManager___GetDriverCount* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2bc1230, size 0xbc, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
+  /// @brief Method .ctor, addr 0x2be28bc, size 0xbc, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
@@ -97,19 +100,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRDriverManager___GetDriverName : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bc1420, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2be2aac, size 0xa4, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(uint32_t nDriver, ::System::Text::StringBuilder* pchValue, uint32_t unBufferSize, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2bc14c4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2be2b50, size 0x28, virtual true, abstract: false, final false
   inline uint32_t EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x2bc140c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2be2a98, size 0x14, virtual true, abstract: false, final false
   inline uint32_t Invoke(uint32_t nDriver, ::System::Text::StringBuilder* pchValue, uint32_t unBufferSize);
 
-  static inline ::OVR::OpenVR::__IVRDriverManager___GetDriverName* New_ctor(::System::Object* object, void* method);
+  static inline ::OVR::OpenVR::__IVRDriverManager___GetDriverName* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2bc1348, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
+  /// @brief Method .ctor, addr 0x2be29d4, size 0xc4, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
@@ -139,19 +142,19 @@ namespace OVR::OpenVR {
 class CORDL_TYPE __IVRDriverManager___GetDriverHandle : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bc15d4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2be2c60, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW pchDriverName, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2bc15f4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2be2c80, size 0x28, virtual true, abstract: false, final false
   inline uint64_t EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x2bc15c0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2be2c4c, size 0x14, virtual true, abstract: false, final false
   inline uint64_t Invoke(::StringW pchDriverName);
 
-  static inline ::OVR::OpenVR::__IVRDriverManager___GetDriverHandle* New_ctor(::System::Object* object, void* method);
+  static inline ::OVR::OpenVR::__IVRDriverManager___GetDriverHandle* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2bc14ec, size 0xd4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
+  /// @brief Method .ctor, addr 0x2be2b78, size 0xd4, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []

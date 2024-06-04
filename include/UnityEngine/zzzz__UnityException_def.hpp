@@ -32,13 +32,13 @@ public:
 
   static inline ::UnityEngine::UnityException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3410598, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3439a8c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3410618, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3439b0c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3402a10, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x342bf04, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

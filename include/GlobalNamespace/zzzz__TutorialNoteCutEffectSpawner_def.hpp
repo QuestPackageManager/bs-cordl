@@ -38,15 +38,15 @@ public:
   /// @brief Field _failFlyingTextSpawner, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__failFlyingTextSpawner, put = __cordl_internal_set__failFlyingTextSpawner))::UnityW<::GlobalNamespace::FlyingTextSpawner> _failFlyingTextSpawner;
 
-  /// @brief Method HandleNoteWasCut, addr 0x272c764, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasCut, addr 0x2742eec, size 0x268, virtual false, abstract: false, final false
   inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
   static inline ::GlobalNamespace::TutorialNoteCutEffectSpawner* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x272c6cc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2742e54, size 0x98, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x272c640, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2742dc8, size 0x8c, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapObjectManager*& __cordl_internal_get__beatmapObjectManager();
@@ -61,7 +61,7 @@ public:
 
   constexpr void __cordl_internal_set__failFlyingTextSpawner(::UnityW<::GlobalNamespace::FlyingTextSpawner> value);
 
-  /// @brief Method .ctor, addr 0x272c9cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2743154, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

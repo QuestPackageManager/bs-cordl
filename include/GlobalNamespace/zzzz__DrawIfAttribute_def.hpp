@@ -129,10 +129,10 @@ public:
 
   constexpr void __cordl_internal_set_value(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x1072984, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1079ccc, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW propertyName, ::System::Object* value, ::GlobalNamespace::__DrawIfAttribute__DisablingType disablingType);
 
-  /// @brief Method .ctor, addr 0x10729c0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1079d08, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::StringW propertyName, ::System::Object* value, ::System::Object* orValue, ::GlobalNamespace::__DrawIfAttribute__DisablingType disablingType);
 
 protected:

@@ -6,6 +6,9 @@ CORDL_MODULE_INIT
 #include "Microsoft/Win32/SafeHandles/zzzz__SafeHandleZeroOrMinusOneIsInvalid_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SafeWaitHandle)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Microsoft::Win32::SafeHandles {
 class SafeWaitHandle;
@@ -20,13 +23,13 @@ namespace Microsoft::Win32::SafeHandles {
 class CORDL_TYPE SafeWaitHandle : public ::Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid {
 public:
   // Declarations
-  static inline ::Microsoft::Win32::SafeHandles::SafeWaitHandle* New_ctor(void* existingHandle, bool ownsHandle);
+  static inline ::Microsoft::Win32::SafeHandles::SafeWaitHandle* New_ctor(::System::IntPtr existingHandle, bool ownsHandle);
 
-  /// @brief Method ReleaseHandle, addr 0x27ab488, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method ReleaseHandle, addr 0x27c4af4, size 0x1c, virtual true, abstract: false, final false
   inline bool ReleaseHandle();
 
-  /// @brief Method .ctor, addr 0x27ab460, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(void* existingHandle, bool ownsHandle);
+  /// @brief Method .ctor, addr 0x27c4acc, size 0x28, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr existingHandle, bool ownsHandle);
 
 protected:
   // Ctor Parameters []

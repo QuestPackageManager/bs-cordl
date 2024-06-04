@@ -12,6 +12,9 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Object;
 }
 // Forward declare root types
@@ -33,10 +36,10 @@ public:
   /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool Invoke(::StringW value, int32_t minimalCount, ByRef<::System::Collections::Generic::List_1<T>*> result);
 
-  static inline ::System::Net::Http::Headers::TryParseListDelegate_1<T>* New_ctor(::System::Object* object, void* method);
+  static inline ::System::Net::Http::Headers::TryParseListDelegate_1<T>* New_ctor(::System::Object* object, ::System::IntPtr method);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []

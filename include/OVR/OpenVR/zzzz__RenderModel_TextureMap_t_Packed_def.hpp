@@ -11,6 +11,9 @@ CORDL_MODULE_EXPORT(RenderModel_TextureMap_t_Packed)
 namespace OVR::OpenVR {
 struct RenderModel_TextureMap_t;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace OVR::OpenVR {
 struct RenderModel_TextureMap_t_Packed;
@@ -26,10 +29,10 @@ namespace OVR::OpenVR {
 struct CORDL_TYPE RenderModel_TextureMap_t_Packed {
 public:
   // Declarations
-  /// @brief Method Unpack, addr 0x2bca770, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Unpack, addr 0x2bebdfc, size 0x1c, virtual false, abstract: false, final false
   inline void Unpack(ByRef<::OVR::OpenVR::RenderModel_TextureMap_t> unpacked);
 
-  /// @brief Method .ctor, addr 0x2bca75c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bebde8, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::OVR::OpenVR::RenderModel_TextureMap_t unpacked);
 
   // Ctor Parameters []
@@ -37,8 +40,8 @@ public:
   constexpr RenderModel_TextureMap_t_Packed();
 
   // Ctor Parameters [CppParam { name: "unWidth", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "unHeight", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name:
-  // "rubTextureMapData", ty: "void*", modifiers: "", def_value: None }]
-  constexpr RenderModel_TextureMap_t_Packed(uint16_t unWidth, uint16_t unHeight, void* rubTextureMapData) noexcept;
+  // "rubTextureMapData", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  constexpr RenderModel_TextureMap_t_Packed(uint16_t unWidth, uint16_t unHeight, ::System::IntPtr rubTextureMapData) noexcept;
 
   /// @brief Field unWidth, offset: 0x0, size: 0x2, def value: None
   uint16_t unWidth;
@@ -47,7 +50,7 @@ public:
   uint16_t unHeight;
 
   /// @brief Field rubTextureMapData, offset: 0x4, size: 0x8, def value: None
-  void* rubTextureMapData;
+  ::System::IntPtr rubTextureMapData;
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };

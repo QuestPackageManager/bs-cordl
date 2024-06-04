@@ -53,7 +53,7 @@ public:
   /// @brief Field controls, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_controls, put = __cordl_internal_set_controls))::Org::BouncyCastle::Asn1::Crmf::Controls* controls;
 
-  /// @brief Method GetInstance, addr 0x10e29f4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x10e9264, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Crmf::CertRequest* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::CertRequest* New_ctor(::Org::BouncyCastle::Asn1::DerInteger* certReqId, ::Org::BouncyCastle::Asn1::Crmf::CertTemplate* certTemplate,
@@ -64,7 +64,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::CertRequest* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x10e3340, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x10e9bb0, size 0x174, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_certReqId();
@@ -85,22 +85,22 @@ public:
 
   constexpr void __cordl_internal_set_controls(::Org::BouncyCastle::Asn1::Crmf::Controls* value);
 
-  /// @brief Method .ctor, addr 0x10e32ec, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10e9b5c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerInteger* certReqId, ::Org::BouncyCastle::Asn1::Crmf::CertTemplate* certTemplate, ::Org::BouncyCastle::Asn1::Crmf::Controls* controls);
 
-  /// @brief Method .ctor, addr 0x10e3260, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10e9ad0, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(int32_t certReqId, ::Org::BouncyCastle::Asn1::Crmf::CertTemplate* certTemplate, ::Org::BouncyCastle::Asn1::Crmf::Controls* controls);
 
-  /// @brief Method .ctor, addr 0x10e2f94, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10e9804, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_CertReqID, addr 0x10e3328, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CertReqID, addr 0x10e9b98, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_CertReqID();
 
-  /// @brief Method get_CertTemplate, addr 0x10e3330, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CertTemplate, addr 0x10e9ba0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::CertTemplate* get_CertTemplate();
 
-  /// @brief Method get_Controls, addr 0x10e3338, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Controls, addr 0x10e9ba8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::Controls* get_Controls();
 
 protected:

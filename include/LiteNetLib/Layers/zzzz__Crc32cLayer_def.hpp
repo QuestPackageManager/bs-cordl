@@ -27,13 +27,13 @@ public:
   // Declarations
   static inline ::LiteNetLib::Layers::Crc32cLayer* New_ctor();
 
-  /// @brief Method ProcessInboundPacket, addr 0x25f2130, size 0x194, virtual true, abstract: false, final false
+  /// @brief Method ProcessInboundPacket, addr 0x260a074, size 0x194, virtual true, abstract: false, final false
   inline void ProcessInboundPacket(::System::Net::IPEndPoint* remoteEndPoint, ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> data, ByRef<int32_t> offset, ByRef<int32_t> length);
 
-  /// @brief Method ProcessOutBoundPacket, addr 0x25f22c4, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method ProcessOutBoundPacket, addr 0x260a208, size 0xa0, virtual true, abstract: false, final false
   inline void ProcessOutBoundPacket(::System::Net::IPEndPoint* remoteEndPoint, ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> data, ByRef<int32_t> offset, ByRef<int32_t> length);
 
-  /// @brief Method .ctor, addr 0x25f20e8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x260a02c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

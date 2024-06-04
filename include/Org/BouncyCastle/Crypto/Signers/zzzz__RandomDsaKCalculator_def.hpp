@@ -41,15 +41,15 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator"
   constexpr operator ::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator*() noexcept;
 
-  /// @brief Method Init, addr 0x11b3690, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x11b9f00, size 0x50, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Math::BigInteger* d, ::ArrayW<uint8_t, ::Array<uint8_t>*> message);
 
-  /// @brief Method Init, addr 0x11b3688, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x11b9ef8, size 0x8, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Security::SecureRandom* random);
 
   static inline ::Org::BouncyCastle::Crypto::Signers::RandomDsaKCalculator* New_ctor();
 
-  /// @brief Method NextK, addr 0x11b36e0, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method NextK, addr 0x11b9f50, size 0xc4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* NextK();
 
   constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_q();
@@ -64,10 +64,10 @@ public:
 
   constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method .ctor, addr 0x11b37a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11ba014, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsDeterministic, addr 0x11b3680, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsDeterministic, addr 0x11b9ef0, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsDeterministic();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator"

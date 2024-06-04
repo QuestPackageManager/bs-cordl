@@ -113,7 +113,7 @@ public:
 
   constexpr void __cordl_internal_set_messageType(::BGLib::UnityExtension::__InfoBoxAttribute__Type value);
 
-  /// @brief Method .ctor, addr 0x1086f64, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x108d478, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW info, ::BGLib::UnityExtension::__InfoBoxAttribute__Type messageType);
 
 protected:

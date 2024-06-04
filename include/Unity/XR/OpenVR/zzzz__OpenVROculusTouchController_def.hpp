@@ -24,53 +24,53 @@ class OpenVROculusTouchController;
 // Write type traits
 MARK_REF_PTR_T(::Unity::XR::OpenVR::OpenVROculusTouchController);
 // Type: Unity.XR.OpenVR::OpenVROculusTouchController
-// SizeInfo { instance_size: 464, native_size: -1, calculated_instance_size: 464, calculated_native_size: 464, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 488, native_size: -1, calculated_instance_size: 488, calculated_native_size: 488, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::XR::OpenVR {
 // Is value type: false
 // CS Name: ::Unity.XR.OpenVR::OpenVROculusTouchController*
 class CORDL_TYPE OpenVROculusTouchController : public ::UnityEngine::InputSystem::XR::XRControllerWithRumble {
 public:
   // Declarations
-  /// @brief Field <deviceAngularVelocity>k__BackingField, offset 0x1c8, size 0x8
+  /// @brief Field <deviceAngularVelocity>k__BackingField, offset 0x1e0, size 0x8
   __declspec(property(get = __cordl_internal_get__deviceAngularVelocity_k__BackingField,
                       put = __cordl_internal_set__deviceAngularVelocity_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _deviceAngularVelocity_k__BackingField;
 
-  /// @brief Field <deviceVelocity>k__BackingField, offset 0x1c0, size 0x8
+  /// @brief Field <deviceVelocity>k__BackingField, offset 0x1d8, size 0x8
   __declspec(property(get = __cordl_internal_get__deviceVelocity_k__BackingField,
                       put = __cordl_internal_set__deviceVelocity_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _deviceVelocity_k__BackingField;
 
-  /// @brief Field <gripPressed>k__BackingField, offset 0x1a0, size 0x8
+  /// @brief Field <gripPressed>k__BackingField, offset 0x1b8, size 0x8
   __declspec(property(get = __cordl_internal_get__gripPressed_k__BackingField,
                       put = __cordl_internal_set__gripPressed_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _gripPressed_k__BackingField;
 
-  /// @brief Field <grip>k__BackingField, offset 0x188, size 0x8
+  /// @brief Field <grip>k__BackingField, offset 0x1a0, size 0x8
   __declspec(property(get = __cordl_internal_get__grip_k__BackingField, put = __cordl_internal_set__grip_k__BackingField))::UnityEngine::InputSystem::Controls::AxisControl* _grip_k__BackingField;
 
-  /// @brief Field <primaryButton>k__BackingField, offset 0x190, size 0x8
+  /// @brief Field <primaryButton>k__BackingField, offset 0x1a8, size 0x8
   __declspec(property(get = __cordl_internal_get__primaryButton_k__BackingField,
                       put = __cordl_internal_set__primaryButton_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _primaryButton_k__BackingField;
 
-  /// @brief Field <secondaryButton>k__BackingField, offset 0x198, size 0x8
+  /// @brief Field <secondaryButton>k__BackingField, offset 0x1b0, size 0x8
   __declspec(property(get = __cordl_internal_get__secondaryButton_k__BackingField,
                       put = __cordl_internal_set__secondaryButton_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _secondaryButton_k__BackingField;
 
-  /// @brief Field <thumbstickClicked>k__BackingField, offset 0x1b0, size 0x8
+  /// @brief Field <thumbstickClicked>k__BackingField, offset 0x1c8, size 0x8
   __declspec(property(get = __cordl_internal_get__thumbstickClicked_k__BackingField,
                       put = __cordl_internal_set__thumbstickClicked_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _thumbstickClicked_k__BackingField;
 
-  /// @brief Field <thumbstickTouched>k__BackingField, offset 0x1b8, size 0x8
+  /// @brief Field <thumbstickTouched>k__BackingField, offset 0x1d0, size 0x8
   __declspec(property(get = __cordl_internal_get__thumbstickTouched_k__BackingField,
                       put = __cordl_internal_set__thumbstickTouched_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _thumbstickTouched_k__BackingField;
 
-  /// @brief Field <thumbstick>k__BackingField, offset 0x178, size 0x8
+  /// @brief Field <thumbstick>k__BackingField, offset 0x190, size 0x8
   __declspec(property(get = __cordl_internal_get__thumbstick_k__BackingField,
                       put = __cordl_internal_set__thumbstick_k__BackingField))::UnityEngine::InputSystem::Controls::Vector2Control* _thumbstick_k__BackingField;
 
-  /// @brief Field <triggerPressed>k__BackingField, offset 0x1a8, size 0x8
+  /// @brief Field <triggerPressed>k__BackingField, offset 0x1c0, size 0x8
   __declspec(property(get = __cordl_internal_get__triggerPressed_k__BackingField,
                       put = __cordl_internal_set__triggerPressed_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _triggerPressed_k__BackingField;
 
-  /// @brief Field <trigger>k__BackingField, offset 0x180, size 0x8
+  /// @brief Field <trigger>k__BackingField, offset 0x198, size 0x8
   __declspec(property(get = __cordl_internal_get__trigger_k__BackingField,
                       put = __cordl_internal_set__trigger_k__BackingField))::UnityEngine::InputSystem::Controls::AxisControl* _trigger_k__BackingField;
 
@@ -96,7 +96,7 @@ public:
 
   __declspec(property(get = get_triggerPressed, put = set_triggerPressed))::UnityEngine::InputSystem::Controls::ButtonControl* triggerPressed;
 
-  /// @brief Method FinishSetup, addr 0x30a5f80, size 0x260, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x30c3728, size 0x260, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::Unity::XR::OpenVR::OpenVROculusTouchController* New_ctor();
@@ -167,73 +167,73 @@ public:
 
   constexpr void __cordl_internal_set__trigger_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method .ctor, addr 0x30a61e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x30c3988, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_deviceAngularVelocity, addr 0x30a5f70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_deviceAngularVelocity, addr 0x30c3718, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_deviceAngularVelocity();
 
-  /// @brief Method get_deviceVelocity, addr 0x30a5f60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_deviceVelocity, addr 0x30c3708, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_deviceVelocity();
 
-  /// @brief Method get_grip, addr 0x30a5ef0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_grip, addr 0x30c3698, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_grip();
 
-  /// @brief Method get_gripPressed, addr 0x30a5f20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gripPressed, addr 0x30c36c8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_gripPressed();
 
-  /// @brief Method get_primaryButton, addr 0x30a5f00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_primaryButton, addr 0x30c36a8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_primaryButton();
 
-  /// @brief Method get_secondaryButton, addr 0x30a5f10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_secondaryButton, addr 0x30c36b8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_secondaryButton();
 
-  /// @brief Method get_thumbstick, addr 0x30a5ed0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_thumbstick, addr 0x30c3678, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector2Control* get_thumbstick();
 
-  /// @brief Method get_thumbstickClicked, addr 0x30a5f40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_thumbstickClicked, addr 0x30c36e8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_thumbstickClicked();
 
-  /// @brief Method get_thumbstickTouched, addr 0x30a5f50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_thumbstickTouched, addr 0x30c36f8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_thumbstickTouched();
 
-  /// @brief Method get_trigger, addr 0x30a5ee0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_trigger, addr 0x30c3688, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_trigger();
 
-  /// @brief Method get_triggerPressed, addr 0x30a5f30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_triggerPressed, addr 0x30c36d8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_triggerPressed();
 
-  /// @brief Method set_deviceAngularVelocity, addr 0x30a5f78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_deviceAngularVelocity, addr 0x30c3720, size 0x8, virtual false, abstract: false, final false
   inline void set_deviceAngularVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method set_deviceVelocity, addr 0x30a5f68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_deviceVelocity, addr 0x30c3710, size 0x8, virtual false, abstract: false, final false
   inline void set_deviceVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method set_grip, addr 0x30a5ef8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_grip, addr 0x30c36a0, size 0x8, virtual false, abstract: false, final false
   inline void set_grip(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method set_gripPressed, addr 0x30a5f28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_gripPressed, addr 0x30c36d0, size 0x8, virtual false, abstract: false, final false
   inline void set_gripPressed(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_primaryButton, addr 0x30a5f08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_primaryButton, addr 0x30c36b0, size 0x8, virtual false, abstract: false, final false
   inline void set_primaryButton(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_secondaryButton, addr 0x30a5f18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_secondaryButton, addr 0x30c36c0, size 0x8, virtual false, abstract: false, final false
   inline void set_secondaryButton(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_thumbstick, addr 0x30a5ed8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_thumbstick, addr 0x30c3680, size 0x8, virtual false, abstract: false, final false
   inline void set_thumbstick(::UnityEngine::InputSystem::Controls::Vector2Control* value);
 
-  /// @brief Method set_thumbstickClicked, addr 0x30a5f48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_thumbstickClicked, addr 0x30c36f0, size 0x8, virtual false, abstract: false, final false
   inline void set_thumbstickClicked(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_thumbstickTouched, addr 0x30a5f58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_thumbstickTouched, addr 0x30c3700, size 0x8, virtual false, abstract: false, final false
   inline void set_thumbstickTouched(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_trigger, addr 0x30a5ee8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_trigger, addr 0x30c3690, size 0x8, virtual false, abstract: false, final false
   inline void set_trigger(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method set_triggerPressed, addr 0x30a5f38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_triggerPressed, addr 0x30c36e0, size 0x8, virtual false, abstract: false, final false
   inline void set_triggerPressed(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
 protected:
@@ -250,65 +250,65 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   OpenVROculusTouchController(OpenVROculusTouchController const&) = delete;
 
-  /// @brief Field <thumbstick>k__BackingField, offset: 0x178, size: 0x8, def value: None
+  /// @brief Field <thumbstick>k__BackingField, offset: 0x190, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::Vector2Control* ____thumbstick_k__BackingField;
 
-  /// @brief Field <trigger>k__BackingField, offset: 0x180, size: 0x8, def value: None
+  /// @brief Field <trigger>k__BackingField, offset: 0x198, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::AxisControl* ____trigger_k__BackingField;
 
-  /// @brief Field <grip>k__BackingField, offset: 0x188, size: 0x8, def value: None
+  /// @brief Field <grip>k__BackingField, offset: 0x1a0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::AxisControl* ____grip_k__BackingField;
 
-  /// @brief Field <primaryButton>k__BackingField, offset: 0x190, size: 0x8, def value: None
+  /// @brief Field <primaryButton>k__BackingField, offset: 0x1a8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____primaryButton_k__BackingField;
 
-  /// @brief Field <secondaryButton>k__BackingField, offset: 0x198, size: 0x8, def value: None
+  /// @brief Field <secondaryButton>k__BackingField, offset: 0x1b0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____secondaryButton_k__BackingField;
 
-  /// @brief Field <gripPressed>k__BackingField, offset: 0x1a0, size: 0x8, def value: None
+  /// @brief Field <gripPressed>k__BackingField, offset: 0x1b8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____gripPressed_k__BackingField;
 
-  /// @brief Field <triggerPressed>k__BackingField, offset: 0x1a8, size: 0x8, def value: None
+  /// @brief Field <triggerPressed>k__BackingField, offset: 0x1c0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____triggerPressed_k__BackingField;
 
-  /// @brief Field <thumbstickClicked>k__BackingField, offset: 0x1b0, size: 0x8, def value: None
+  /// @brief Field <thumbstickClicked>k__BackingField, offset: 0x1c8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____thumbstickClicked_k__BackingField;
 
-  /// @brief Field <thumbstickTouched>k__BackingField, offset: 0x1b8, size: 0x8, def value: None
+  /// @brief Field <thumbstickTouched>k__BackingField, offset: 0x1d0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____thumbstickTouched_k__BackingField;
 
-  /// @brief Field <deviceVelocity>k__BackingField, offset: 0x1c0, size: 0x8, def value: None
+  /// @brief Field <deviceVelocity>k__BackingField, offset: 0x1d8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::Vector3Control* ____deviceVelocity_k__BackingField;
 
-  /// @brief Field <deviceAngularVelocity>k__BackingField, offset: 0x1c8, size: 0x8, def value: None
+  /// @brief Field <deviceAngularVelocity>k__BackingField, offset: 0x1e0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::Vector3Control* ____deviceAngularVelocity_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Unity::XR::OpenVR::OpenVROculusTouchController, 0x1d0>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::Unity::XR::OpenVR::OpenVROculusTouchController, 0x1e8>, "Size mismatch!");
 
-static_assert(offsetof(::Unity::XR::OpenVR::OpenVROculusTouchController, ____thumbstick_k__BackingField) == 0x178, "Offset mismatch!");
+static_assert(offsetof(::Unity::XR::OpenVR::OpenVROculusTouchController, ____thumbstick_k__BackingField) == 0x190, "Offset mismatch!");
 
-static_assert(offsetof(::Unity::XR::OpenVR::OpenVROculusTouchController, ____trigger_k__BackingField) == 0x180, "Offset mismatch!");
+static_assert(offsetof(::Unity::XR::OpenVR::OpenVROculusTouchController, ____trigger_k__BackingField) == 0x198, "Offset mismatch!");
 
-static_assert(offsetof(::Unity::XR::OpenVR::OpenVROculusTouchController, ____grip_k__BackingField) == 0x188, "Offset mismatch!");
+static_assert(offsetof(::Unity::XR::OpenVR::OpenVROculusTouchController, ____grip_k__BackingField) == 0x1a0, "Offset mismatch!");
 
-static_assert(offsetof(::Unity::XR::OpenVR::OpenVROculusTouchController, ____primaryButton_k__BackingField) == 0x190, "Offset mismatch!");
+static_assert(offsetof(::Unity::XR::OpenVR::OpenVROculusTouchController, ____primaryButton_k__BackingField) == 0x1a8, "Offset mismatch!");
 
-static_assert(offsetof(::Unity::XR::OpenVR::OpenVROculusTouchController, ____secondaryButton_k__BackingField) == 0x198, "Offset mismatch!");
+static_assert(offsetof(::Unity::XR::OpenVR::OpenVROculusTouchController, ____secondaryButton_k__BackingField) == 0x1b0, "Offset mismatch!");
 
-static_assert(offsetof(::Unity::XR::OpenVR::OpenVROculusTouchController, ____gripPressed_k__BackingField) == 0x1a0, "Offset mismatch!");
+static_assert(offsetof(::Unity::XR::OpenVR::OpenVROculusTouchController, ____gripPressed_k__BackingField) == 0x1b8, "Offset mismatch!");
 
-static_assert(offsetof(::Unity::XR::OpenVR::OpenVROculusTouchController, ____triggerPressed_k__BackingField) == 0x1a8, "Offset mismatch!");
+static_assert(offsetof(::Unity::XR::OpenVR::OpenVROculusTouchController, ____triggerPressed_k__BackingField) == 0x1c0, "Offset mismatch!");
 
-static_assert(offsetof(::Unity::XR::OpenVR::OpenVROculusTouchController, ____thumbstickClicked_k__BackingField) == 0x1b0, "Offset mismatch!");
+static_assert(offsetof(::Unity::XR::OpenVR::OpenVROculusTouchController, ____thumbstickClicked_k__BackingField) == 0x1c8, "Offset mismatch!");
 
-static_assert(offsetof(::Unity::XR::OpenVR::OpenVROculusTouchController, ____thumbstickTouched_k__BackingField) == 0x1b8, "Offset mismatch!");
+static_assert(offsetof(::Unity::XR::OpenVR::OpenVROculusTouchController, ____thumbstickTouched_k__BackingField) == 0x1d0, "Offset mismatch!");
 
-static_assert(offsetof(::Unity::XR::OpenVR::OpenVROculusTouchController, ____deviceVelocity_k__BackingField) == 0x1c0, "Offset mismatch!");
+static_assert(offsetof(::Unity::XR::OpenVR::OpenVROculusTouchController, ____deviceVelocity_k__BackingField) == 0x1d8, "Offset mismatch!");
 
-static_assert(offsetof(::Unity::XR::OpenVR::OpenVROculusTouchController, ____deviceAngularVelocity_k__BackingField) == 0x1c8, "Offset mismatch!");
+static_assert(offsetof(::Unity::XR::OpenVR::OpenVROculusTouchController, ____deviceAngularVelocity_k__BackingField) == 0x1e0, "Offset mismatch!");
 
 } // namespace Unity::XR::OpenVR
 NEED_NO_BOX(::Unity::XR::OpenVR::OpenVROculusTouchController);

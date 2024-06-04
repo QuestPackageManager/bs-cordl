@@ -57,37 +57,37 @@ public:
 
   constexpr void __cordl_internal_set_m_Value(::Unity::Burst::Intrinsics::v128 value);
 
-  /// @brief Method .ctor, addr 0x3091a90, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x30af238, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Burst::Intrinsics::v128 value);
 
-  /// @brief Method get_Byte, addr 0x3091abc, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method get_Byte, addr 0x30af264, size 0x158, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Byte();
 
-  /// @brief Method get_Double, addr 0x30921d4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_Double, addr 0x30af97c, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<double_t, ::Array<double_t>*> get_Double();
 
-  /// @brief Method get_Float, addr 0x309204c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_Float, addr 0x30af7f4, size 0x98, virtual false, abstract: false, final false
   inline ::ArrayW<float_t, ::Array<float_t>*> get_Float();
 
-  /// @brief Method get_SByte, addr 0x3091c14, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method get_SByte, addr 0x30af3bc, size 0x158, virtual false, abstract: false, final false
   inline ::ArrayW<int8_t, ::Array<int8_t>*> get_SByte();
 
-  /// @brief Method get_SInt, addr 0x3091fb4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_SInt, addr 0x30af75c, size 0x98, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> get_SInt();
 
-  /// @brief Method get_SLong, addr 0x30920e4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_SLong, addr 0x30af88c, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<int64_t, ::Array<int64_t>*> get_SLong();
 
-  /// @brief Method get_SShort, addr 0x3091e44, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method get_SShort, addr 0x30af5ec, size 0xd8, virtual false, abstract: false, final false
   inline ::ArrayW<int16_t, ::Array<int16_t>*> get_SShort();
 
-  /// @brief Method get_UInt, addr 0x3091f1c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_UInt, addr 0x30af6c4, size 0x98, virtual false, abstract: false, final false
   inline ::ArrayW<uint32_t, ::Array<uint32_t>*> get_UInt();
 
-  /// @brief Method get_ULong, addr 0x309215c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_ULong, addr 0x30af904, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<uint64_t, ::Array<uint64_t>*> get_ULong();
 
-  /// @brief Method get_UShort, addr 0x3091d6c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method get_UShort, addr 0x30af514, size 0xd8, virtual false, abstract: false, final false
   inline ::ArrayW<uint16_t, ::Array<uint16_t>*> get_UShort();
 
 protected:

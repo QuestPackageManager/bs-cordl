@@ -36,30 +36,30 @@ public:
   /// @brief Field count, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_count, put = __cordl_internal_set_count)) uint64_t count;
 
-  /// @brief Method AddLength, addr 0x27f5030, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method AddLength, addr 0x280f6bc, size 0xf0, virtual false, abstract: false, final false
   inline void AddLength(uint64_t length, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t position);
 
-  /// @brief Method FillBuff, addr 0x27f4dfc, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method FillBuff, addr 0x280f488, size 0x234, virtual false, abstract: false, final false
   static inline void FillBuff(::ArrayW<uint32_t, ::Array<uint32_t>*> buff);
 
-  /// @brief Method HashCore, addr 0x27f3eb0, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method HashCore, addr 0x280e53c, size 0x100, virtual false, abstract: false, final false
   inline void HashCore(::ArrayW<uint8_t, ::Array<uint8_t>*> rgb, int32_t ibStart, int32_t cbSize);
 
-  /// @brief Method HashFinal, addr 0x27f44c8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method HashFinal, addr 0x280eb54, size 0xd8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> HashFinal();
 
-  /// @brief Method InitialiseBuff, addr 0x27f475c, size 0x6a0, virtual false, abstract: false, final false
+  /// @brief Method InitialiseBuff, addr 0x280ede8, size 0x6a0, virtual false, abstract: false, final false
   static inline void InitialiseBuff(::ArrayW<uint32_t, ::Array<uint32_t>*> buff, ::ArrayW<uint8_t, ::Array<uint8_t>*> input, uint32_t inputOffset);
 
-  /// @brief Method Initialize, addr 0x27f3e28, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x280e4b4, size 0x88, virtual false, abstract: false, final false
   inline void Initialize();
 
   static inline ::System::Security::Cryptography::SHA1Internal* New_ctor();
 
-  /// @brief Method ProcessBlock, addr 0x27f3fb0, size 0x518, virtual false, abstract: false, final false
+  /// @brief Method ProcessBlock, addr 0x280e63c, size 0x518, virtual false, abstract: false, final false
   inline void ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> inputBuffer, uint32_t inputOffset);
 
-  /// @brief Method ProcessFinalBlock, addr 0x27f45a0, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method ProcessFinalBlock, addr 0x280ec2c, size 0x1bc, virtual false, abstract: false, final false
   inline void ProcessFinalBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> inputBuffer, int32_t inputOffset, int32_t inputCount);
 
   constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get__H() const;
@@ -92,7 +92,7 @@ public:
 
   constexpr void __cordl_internal_set_count(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x27f3d8c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x280e418, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

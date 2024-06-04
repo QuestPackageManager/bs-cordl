@@ -42,7 +42,7 @@ public:
   __declspec(property(get = get_error))::StringW error;
 
   /// @brief Field m_Ptr, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) void* m_Ptr;
+  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr))::System::IntPtr m_Ptr;
 
   __declspec(property(get = get_nativeData))::Unity::Collections::__NativeArray_1__ReadOnly<uint8_t> nativeData;
 
@@ -51,75 +51,75 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method CreateNativeArrayForNativeData, addr 0x360390c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method CreateNativeArrayForNativeData, addr 0x362ee08, size 0x68, virtual false, abstract: false, final false
   static inline void CreateNativeArrayForNativeData(ByRef<::Unity::Collections::NativeArray_1<uint8_t>> data, ::cordl_internals::Ptr<uint8_t> bytes, int32_t length);
 
-  /// @brief Method Dispose, addr 0x36031d8, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x362e6d4, size 0x94, virtual true, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method DisposeNativeArray, addr 0x36038b8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method DisposeNativeArray, addr 0x362edb4, size 0x54, virtual false, abstract: false, final false
   static inline void DisposeNativeArray(ByRef<::Unity::Collections::NativeArray_1<uint8_t>> data);
 
-  /// @brief Method Finalize, addr 0x360313c, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x362e638, size 0x9c, virtual true, abstract: false, final false
   inline void Finalize();
 
   /// @brief Method GetCheckedDownloader, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T GetCheckedDownloader(::UnityEngine::Networking::UnityWebRequest* www);
 
-  /// @brief Method GetContentType, addr 0x360376c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetContentType, addr 0x362ec68, size 0x3c, virtual false, abstract: false, final false
   inline ::StringW GetContentType();
 
-  /// @brief Method GetData, addr 0x360336c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method GetData, addr 0x362e868, size 0x4, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetData();
 
-  /// @brief Method GetErrorMsg, addr 0x36032a8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetErrorMsg, addr 0x362e7a4, size 0x3c, virtual false, abstract: false, final false
   inline ::StringW GetErrorMsg();
 
-  /// @brief Method GetNativeData, addr 0x3603360, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method GetNativeData, addr 0x362e85c, size 0xc, virtual true, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1<uint8_t> GetNativeData();
 
-  /// @brief Method GetText, addr 0x3603414, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method GetText, addr 0x362e910, size 0xe8, virtual true, abstract: false, final false
   inline ::StringW GetText();
 
-  /// @brief Method GetTextEncoder, addr 0x36034fc, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method GetTextEncoder, addr 0x362e9f8, size 0x270, virtual false, abstract: false, final false
   inline ::System::Text::Encoding* GetTextEncoder();
 
-  /// @brief Method InternalGetByteArray, addr 0x3603370, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method InternalGetByteArray, addr 0x362e86c, size 0xa4, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> InternalGetByteArray(::UnityEngine::Networking::DownloadHandler* dh);
 
-  /// @brief Method InternalGetByteArray, addr 0x36037b8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method InternalGetByteArray, addr 0x362ecb4, size 0x44, virtual false, abstract: false, final false
   static inline ::cordl_internals::Ptr<uint8_t> InternalGetByteArray(::UnityEngine::Networking::DownloadHandler* dh, ByRef<int32_t> length);
 
-  /// @brief Method InternalGetNativeArray, addr 0x36037fc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method InternalGetNativeArray, addr 0x362ecf8, size 0xbc, virtual false, abstract: false, final false
   static inline ::Unity::Collections::NativeArray_1<uint8_t> InternalGetNativeArray(::UnityEngine::Networking::DownloadHandler* dh, ByRef<::Unity::Collections::NativeArray_1<uint8_t>> nativeArray);
 
   static inline ::UnityEngine::Networking::DownloadHandler* New_ctor();
 
-  /// @brief Method ReceiveContentLength, addr 0x36037b4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ReceiveContentLength, addr 0x362ecb0, size 0x4, virtual true, abstract: false, final false
   inline void ReceiveContentLength(int32_t contentLength);
 
-  /// @brief Method ReceiveContentLengthHeader, addr 0x36037a8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ReceiveContentLengthHeader, addr 0x362eca4, size 0xc, virtual true, abstract: false, final false
   inline void ReceiveContentLengthHeader(uint64_t contentLength);
 
-  /// @brief Method Release, addr 0x36030f8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x362e5f4, size 0x3c, virtual false, abstract: false, final false
   inline void Release();
 
-  constexpr void* const& __cordl_internal_get_m_Ptr() const;
+  constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
 
-  constexpr void*& __cordl_internal_get_m_Ptr();
+  constexpr ::System::IntPtr& __cordl_internal_get_m_Ptr();
 
-  constexpr void __cordl_internal_set_m_Ptr(void* value);
+  constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x3603134, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x362e630, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_error, addr 0x360326c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_error, addr 0x362e768, size 0x3c, virtual false, abstract: false, final false
   inline ::StringW get_error();
 
-  /// @brief Method get_nativeData, addr 0x36032e4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_nativeData, addr 0x362e7e0, size 0x70, virtual false, abstract: false, final false
   inline ::Unity::Collections::__NativeArray_1__ReadOnly<uint8_t> get_nativeData();
 
-  /// @brief Method get_text, addr 0x3603354, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x362e850, size 0xc, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
   /// @brief Convert to "::System::IDisposable"
@@ -140,7 +140,7 @@ public:
   DownloadHandler(DownloadHandler const&) = delete;
 
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
-  void* ___m_Ptr;
+  ::System::IntPtr ___m_Ptr;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

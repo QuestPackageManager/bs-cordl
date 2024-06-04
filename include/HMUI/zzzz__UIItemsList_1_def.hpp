@@ -23,6 +23,9 @@ namespace System {
 class IAsyncResult;
 }
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Object;
 }
 namespace UnityEngine {
@@ -60,10 +63,10 @@ public:
   /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Invoke(int32_t idx, T item);
 
-  static inline ::HMUI::__UIItemsList_1__DataCallback<T>* New_ctor(::System::Object* object, void* method);
+  static inline ::HMUI::__UIItemsList_1__DataCallback<T>* New_ctor(::System::Object* object, ::System::IntPtr method);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []

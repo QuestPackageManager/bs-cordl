@@ -66,10 +66,10 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::NumericConvertInstruction* New_ctor(::System::TypeCode from, ::System::TypeCode to, bool isLiftedToNull);
 
-  /// @brief Method Run, addr 0x2c42eac, size 0xd4, virtual true, abstract: false, final true
+  /// @brief Method Run, addr 0x2c6459c, size 0xd4, virtual true, abstract: false, final true
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method ToString, addr 0x2c42fd0, size 0x228, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2c646c0, size 0x228, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::TypeCode const& __cordl_internal_get__from() const;
@@ -90,16 +90,16 @@ public:
 
   constexpr void __cordl_internal_set__to(::System::TypeCode value);
 
-  /// @brief Method .ctor, addr 0x2c42e70, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c64560, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::TypeCode from, ::System::TypeCode to, bool isLiftedToNull);
 
-  /// @brief Method get_ConsumedStack, addr 0x2c42fc0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x2c646b0, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x2c42f80, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x2c64670, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x2c42fc8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x2c646b8, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
 protected:

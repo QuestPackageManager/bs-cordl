@@ -10,6 +10,9 @@ CORDL_MODULE_EXPORT(ManagedStreamHelpers)
 namespace System::IO {
 class Stream;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace UnityEngine {
 class ManagedStreamHelpers;
@@ -24,16 +27,16 @@ namespace UnityEngine {
 class CORDL_TYPE ManagedStreamHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ManagedStreamLength, addr 0x3411ae4, size 0xfc, virtual false, abstract: false, final false
-  static inline void ManagedStreamLength(::System::IO::Stream* stream, void* returnValueAddress);
+  /// @brief Method ManagedStreamLength, addr 0x343afd8, size 0xfc, virtual false, abstract: false, final false
+  static inline void ManagedStreamLength(::System::IO::Stream* stream, ::System::IntPtr returnValueAddress);
 
-  /// @brief Method ManagedStreamRead, addr 0x34118ac, size 0x120, virtual false, abstract: false, final false
-  static inline void ManagedStreamRead(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::IO::Stream* stream, void* returnValueAddress);
+  /// @brief Method ManagedStreamRead, addr 0x343ada0, size 0x120, virtual false, abstract: false, final false
+  static inline void ManagedStreamRead(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::IO::Stream* stream, ::System::IntPtr returnValueAddress);
 
-  /// @brief Method ManagedStreamSeek, addr 0x34119cc, size 0x118, virtual false, abstract: false, final false
-  static inline void ManagedStreamSeek(int64_t offset, uint32_t origin, ::System::IO::Stream* stream, void* returnValueAddress);
+  /// @brief Method ManagedStreamSeek, addr 0x343aec0, size 0x118, virtual false, abstract: false, final false
+  static inline void ManagedStreamSeek(int64_t offset, uint32_t origin, ::System::IO::Stream* stream, ::System::IntPtr returnValueAddress);
 
-  /// @brief Method ValidateLoadFromStream, addr 0x341179c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method ValidateLoadFromStream, addr 0x343ac90, size 0x110, virtual false, abstract: false, final false
   static inline void ValidateLoadFromStream(::System::IO::Stream* stream);
 
 protected:

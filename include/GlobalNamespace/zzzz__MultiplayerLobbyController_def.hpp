@@ -72,10 +72,10 @@ public:
 
   __declspec(property(get = get_lobbyActivated, put = set_lobbyActivated)) bool lobbyActivated;
 
-  /// @brief Method ActivateMultiplayerLobby, addr 0x262ef8c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method ActivateMultiplayerLobby, addr 0x26485ac, size 0xcc, virtual false, abstract: false, final false
   inline void ActivateMultiplayerLobby();
 
-  /// @brief Method DeactivateMultiplayerLobby, addr 0x262f058, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method DeactivateMultiplayerLobby, addr 0x2648678, size 0x84, virtual false, abstract: false, final false
   inline void DeactivateMultiplayerLobby();
 
   static inline ::GlobalNamespace::MultiplayerLobbyController* New_ctor();
@@ -134,13 +134,13 @@ public:
 
   constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
 
-  /// @brief Method .ctor, addr 0x262f0dc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26486fc, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_lobbyActivated, addr 0x262ef78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lobbyActivated, addr 0x2648598, size 0x8, virtual false, abstract: false, final false
   inline bool get_lobbyActivated();
 
-  /// @brief Method set_lobbyActivated, addr 0x262ef80, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_lobbyActivated, addr 0x26485a0, size 0xc, virtual false, abstract: false, final false
   inline void set_lobbyActivated(bool value);
 
 protected:

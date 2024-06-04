@@ -21,10 +21,10 @@ namespace Unity::Burst::Intrinsics {
 class CORDL_TYPE Common : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Pause, addr 0x3091480, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Pause, addr 0x30aec28, size 0x4, virtual false, abstract: false, final false
   static inline void Pause();
 
-  /// @brief Method umul128, addr 0x3091484, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method umul128, addr 0x30aec2c, size 0x3c, virtual false, abstract: false, final false
   static inline uint64_t umul128(uint64_t x, uint64_t y, ByRef<uint64_t> high);
 
 protected:

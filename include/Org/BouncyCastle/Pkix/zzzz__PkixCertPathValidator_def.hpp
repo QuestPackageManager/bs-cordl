@@ -31,15 +31,15 @@ namespace Org::BouncyCastle::Pkix {
 class CORDL_TYPE PkixCertPathValidator : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CheckCertificate, addr 0x1358234, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method CheckCertificate, addr 0x1360aa4, size 0x108, virtual false, abstract: false, final false
   static inline void CheckCertificate(::Org::BouncyCastle::X509::X509Certificate* cert);
 
   static inline ::Org::BouncyCastle::Pkix::PkixCertPathValidator* New_ctor();
 
-  /// @brief Method Validate, addr 0x1355c28, size 0x1eec, virtual true, abstract: false, final false
+  /// @brief Method Validate, addr 0x135e498, size 0x1eec, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult* Validate(::Org::BouncyCastle::Pkix::PkixCertPath* certPath, ::Org::BouncyCastle::Pkix::PkixParameters* paramsPkix);
 
-  /// @brief Method .ctor, addr 0x1355670, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x135dee0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

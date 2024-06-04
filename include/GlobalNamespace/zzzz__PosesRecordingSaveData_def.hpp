@@ -108,7 +108,7 @@ public:
 
   constexpr void __cordl_internal_set_rotZ(float_t value);
 
-  /// @brief Method .ctor, addr 0x268728c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a06ac, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(float_t posX, float_t posY, float_t posZ, float_t rotX, float_t rotY, float_t rotZ, float_t rotW);
 
 protected:
@@ -197,7 +197,7 @@ public:
 
   constexpr void __cordl_internal_set_time(float_t value);
 
-  /// @brief Method .ctor, addr 0x26872f0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a0710, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::GlobalNamespace::__PosesRecordingSaveData__PoseSaveData*, ::Array<::GlobalNamespace::__PosesRecordingSaveData__PoseSaveData*>*> poses, float_t time);
 
 protected:
@@ -286,7 +286,7 @@ public:
 
   constexpr void __cordl_internal_set_nearOffset(float_t value);
 
-  /// @brief Method .ctor, addr 0x2687328, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a0748, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(float_t fieldOfVision, float_t nearClip, float_t farClip, float_t hmdOffset, float_t nearOffset);
 
 protected:
@@ -385,7 +385,7 @@ public:
 
   constexpr void __cordl_internal_set_objectIds(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method .ctor, addr 0x2687250, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26a0670, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::StringW, ::Array<::StringW>*> objectIds,
                     ::ArrayW<::GlobalNamespace::__PosesRecordingSaveData__TransformsSaveKeyframe*, ::Array<::GlobalNamespace::__PosesRecordingSaveData__TransformsSaveKeyframe*>*> keyframes,
                     ::GlobalNamespace::__PosesRecordingSaveData__ExternalCameraCalibrationSaveData* externalCameraCalibration);

@@ -9,6 +9,9 @@ CORDL_MODULE_EXPORT(MessageWithApplicationVersion)
 namespace Oculus::Platform::Models {
 class ApplicationVersion;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform {
 class MessageWithApplicationVersion;
@@ -23,16 +26,16 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithApplicationVersion : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::ApplicationVersion*> {
 public:
   // Declarations
-  /// @brief Method GetApplicationVersion, addr 0x2ac6f4c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetApplicationVersion, addr 0x2ae75d8, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::ApplicationVersion* GetApplicationVersion();
 
-  /// @brief Method GetDataFromMessage, addr 0x2ac6f88, size 0x9c, virtual true, abstract: false, final false
-  inline ::Oculus::Platform::Models::ApplicationVersion* GetDataFromMessage(void* c_message);
+  /// @brief Method GetDataFromMessage, addr 0x2ae7614, size 0x9c, virtual true, abstract: false, final false
+  inline ::Oculus::Platform::Models::ApplicationVersion* GetDataFromMessage(::System::IntPtr c_message);
 
-  static inline ::Oculus::Platform::MessageWithApplicationVersion* New_ctor(void* c_message);
+  static inline ::Oculus::Platform::MessageWithApplicationVersion* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x2ac4cbc, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor(void* c_message);
+  /// @brief Method .ctor, addr 0x2ae5348, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr c_message);
 
 protected:
   // Ctor Parameters []

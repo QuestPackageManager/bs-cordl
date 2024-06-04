@@ -28,16 +28,16 @@ namespace GlobalNamespace {
 class CORDL_TYPE PerformanceReport : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateReportDescriptor, addr 0x268fb18, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method CreateReportDescriptor, addr 0x26a8a60, size 0x188, virtual false, abstract: false, final false
   static inline ::StringW CreateReportDescriptor(::System::DateTime timestamp, ::GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData);
 
-  /// @brief Method CreateTimestamp, addr 0x268fac8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method CreateTimestamp, addr 0x26a8a10, size 0x50, virtual false, abstract: false, final false
   static inline ::StringW CreateTimestamp(::System::DateTime timestamp);
 
-  /// @brief Method ListAggregatedFps, addr 0x268f7a4, size 0x324, virtual false, abstract: false, final false
+  /// @brief Method ListAggregatedFps, addr 0x26a86ec, size 0x324, virtual false, abstract: false, final false
   static inline ::StringW ListAggregatedFps(::ArrayW<float_t, ::Array<float_t>*> frameDurations, float_t minWindowSize);
 
-  /// @brief Method ListFrameDurations, addr 0x268f690, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method ListFrameDurations, addr 0x26a85d8, size 0x114, virtual false, abstract: false, final false
   static inline ::StringW ListFrameDurations(::ArrayW<float_t, ::Array<float_t>*> frameDurations);
 
 protected:

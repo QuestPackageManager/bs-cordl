@@ -16,6 +16,9 @@ class MultiplayerStatusData;
 namespace GlobalNamespace {
 struct MultiplayerUnavailableReason;
 }
+namespace System::Text::RegularExpressions {
+class Regex;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class MultiplayerUnavailableReasonMethods;
@@ -30,20 +33,27 @@ namespace GlobalNamespace {
 class CORDL_TYPE MultiplayerUnavailableReasonMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ErrorCode, addr 0x14d72e0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Field kContentVersionRegex, offset 0xffffffff, size 0x8
+  static __declspec(property(get = getStaticF_kContentVersionRegex, put = setStaticF_kContentVersionRegex))::System::Text::RegularExpressions::Regex* kContentVersionRegex;
+
+  /// @brief Method ErrorCode, addr 0x14dd27c, size 0x80, virtual false, abstract: false, final false
   static inline ::StringW ErrorCode(::GlobalNamespace::MultiplayerUnavailableReason multiplayerUnavailableReason);
 
-  /// @brief Method GetLocalizedMessage, addr 0x14d7670, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetLocalizedMessage, addr 0x14dd600, size 0xb0, virtual false, abstract: false, final false
   static inline ::StringW GetLocalizedMessage(::GlobalNamespace::MultiplayerStatusData* data, ::BGLib::Polyglot::Language language);
 
-  /// @brief Method LocalizedKey, addr 0x14d725c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method LocalizedKey, addr 0x14dd1f8, size 0x84, virtual false, abstract: false, final false
   static inline ::StringW LocalizedKey(::GlobalNamespace::MultiplayerUnavailableReason multiplayerUnavailableReason);
 
-  /// @brief Method TryGetMultiplayerUnavailableReason, addr 0x14d7360, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method TryGetMultiplayerUnavailableReason, addr 0x14dd2fc, size 0x13c, virtual false, abstract: false, final false
   static inline bool TryGetMultiplayerUnavailableReason(::GlobalNamespace::MultiplayerStatusData* data, ByRef<::GlobalNamespace::MultiplayerUnavailableReason> reason);
 
-  /// @brief Method VersionLessThan, addr 0x14d7468, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method VersionLessThan, addr 0x14dd438, size 0x1c8, virtual false, abstract: false, final false
   static inline bool VersionLessThan(::StringW currentVersion, ::StringW minVersion);
+
+  static inline ::System::Text::RegularExpressions::Regex* getStaticF_kContentVersionRegex();
+
+  static inline void setStaticF_kContentVersionRegex(::System::Text::RegularExpressions::Regex* value);
 
 protected:
   // Ctor Parameters []

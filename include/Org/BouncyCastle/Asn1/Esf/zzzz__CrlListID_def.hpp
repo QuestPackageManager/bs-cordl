@@ -38,10 +38,10 @@ public:
   /// @brief Field crls, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_crls, put = __cordl_internal_set_crls))::Org::BouncyCastle::Asn1::Asn1Sequence* crls;
 
-  /// @brief Method GetCrls, addr 0x10f0c04, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method GetCrls, addr 0x10f7474, size 0x120, virtual false, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::Esf::CrlValidatedID*, ::Array<::Org::BouncyCastle::Asn1::Esf::CrlValidatedID*>*> GetCrls();
 
-  /// @brief Method GetInstance, addr 0x10f020c, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x10f6a7c, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Esf::CrlListID* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::CrlListID* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Esf::CrlValidatedID*, ::Array<::Org::BouncyCastle::Asn1::Esf::CrlValidatedID*>*> crls);
@@ -50,7 +50,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Esf::CrlListID* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x10f0d24, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x10f7594, size 0x68, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_crls();
@@ -59,13 +59,13 @@ public:
 
   constexpr void __cordl_internal_set_crls(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method .ctor, addr 0x10f099c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10f720c, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Esf::CrlValidatedID*, ::Array<::Org::BouncyCastle::Asn1::Esf::CrlValidatedID*>*> crls);
 
-  /// @brief Method .ctor, addr 0x10f0a60, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10f72d0, size 0x1a4, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IEnumerable* crls);
 
-  /// @brief Method .ctor, addr 0x10f0394, size 0x480, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10f6c04, size 0x480, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
 protected:

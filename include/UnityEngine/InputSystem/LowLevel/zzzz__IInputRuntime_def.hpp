@@ -75,7 +75,7 @@ public:
 
   __declspec(property(get = get_pollingFrequency, put = set_pollingFrequency)) float_t pollingFrequency;
 
-  __declspec(property(get = get_runInBackground)) bool runInBackground;
+  __declspec(property(get = get_runInBackground, put = set_runInBackground)) bool runInBackground;
 
   __declspec(property(get = get_screenOrientation))::UnityEngine::ScreenOrientation screenOrientation;
 
@@ -163,6 +163,9 @@ public:
 
   /// @brief Method set_pollingFrequency, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_pollingFrequency(float_t value);
+
+  /// @brief Method set_runInBackground, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline void set_runInBackground(bool value);
 
   // Ctor Parameters [CppParam { name: "", ty: "IInputRuntime", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

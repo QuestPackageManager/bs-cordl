@@ -4,6 +4,7 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__BatchRendererGroup_def.hpp"
+#include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "Unity/Jobs/zzzz__JobHandle_def.hpp"
 #include "UnityEngine/Rendering/zzzz__BatchCullingContext_def.hpp"
@@ -13,15 +14,16 @@
 //  Writing Method size for method: ::UnityEngine::Rendering::__BatchRendererGroup__OnPerformCulling._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::__BatchRendererGroup__OnPerformCulling::*)(::System::Object*, void*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::__BatchRendererGroup__OnPerformCulling::*)(::System::Object*, ::System::IntPtr)>(
     &::UnityEngine::Rendering::__BatchRendererGroup__OnPerformCulling::_ctor)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x3431100;
+  constexpr static std::size_t addrs = 0x345a5fc;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::__BatchRendererGroup__OnPerformCulling*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get() })));
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
@@ -31,9 +33,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Jobs::JobHandle (::UnityEngine::Rendering::__BatchRendererGroup__OnPerformCulling::*)(
     ::UnityEngine::Rendering::BatchRendererGroup*, ::UnityEngine::Rendering::BatchCullingContext)>(&::UnityEngine::Rendering::__BatchRendererGroup__OnPerformCulling::Invoke)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3431230;
+  constexpr static std::size_t addrs = 0x345a72c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::__BatchRendererGroup__OnPerformCulling*>::get(),
@@ -41,13 +43,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::UnityEngine::Rendering::__BatchRendererGroup__OnPerformCulling* UnityEngine::Rendering::__BatchRendererGroup__OnPerformCulling::New_ctor(::System::Object* object, void* method) {
+inline ::UnityEngine::Rendering::__BatchRendererGroup__OnPerformCulling* UnityEngine::Rendering::__BatchRendererGroup__OnPerformCulling::New_ctor(::System::Object* object, ::System::IntPtr method) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Rendering::__BatchRendererGroup__OnPerformCulling*>(object, method));
 }
-inline void UnityEngine::Rendering::__BatchRendererGroup__OnPerformCulling::_ctor(::System::Object* object, void* method) {
+inline void UnityEngine::Rendering::__BatchRendererGroup__OnPerformCulling::_ctor(::System::Object* object, ::System::IntPtr method) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::__BatchRendererGroup__OnPerformCulling*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get() })));
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
 inline ::Unity::Jobs::JobHandle UnityEngine::Rendering::__BatchRendererGroup__OnPerformCulling::Invoke(::UnityEngine::Rendering::BatchRendererGroup* rendererGroup,
@@ -66,9 +69,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::Rendering::BatchRendererGroup*, ByRef<::UnityEngine::Rendering::BatchRendererCullingOutput>, ByRef<::UnityEngine::Rendering::LODParameters>)>(
         &::UnityEngine::Rendering::BatchRendererGroup::InvokeOnPerformCulling)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x3430ee0;
+  constexpr static std::size_t addrs = 0x345a3dc;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::BatchRendererGroup*>::get(), "InvokeOnPerformCulling", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::BatchRendererGroup*>::get(),
@@ -77,15 +80,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     return ___internal_method;
   }
 };
-constexpr void*& UnityEngine::Rendering::BatchRendererGroup::__cordl_internal_get_m_GroupHandle() {
+constexpr ::System::IntPtr& UnityEngine::Rendering::BatchRendererGroup::__cordl_internal_get_m_GroupHandle() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_GroupHandle;
 }
-constexpr void* const& UnityEngine::Rendering::BatchRendererGroup::__cordl_internal_get_m_GroupHandle() const {
+constexpr ::System::IntPtr const& UnityEngine::Rendering::BatchRendererGroup::__cordl_internal_get_m_GroupHandle() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_GroupHandle;
 }
-constexpr void UnityEngine::Rendering::BatchRendererGroup::__cordl_internal_set_m_GroupHandle(void* value) {
+constexpr void UnityEngine::Rendering::BatchRendererGroup::__cordl_internal_set_m_GroupHandle(::System::IntPtr value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_GroupHandle = value;
 }

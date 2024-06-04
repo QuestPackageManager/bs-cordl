@@ -72,21 +72,21 @@ public:
   inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncObjectProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg,
                                                                                          ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
-  /// @brief Method AttachServerObject, addr 0x2813b70, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method AttachServerObject, addr 0x282e1fc, size 0x5c, virtual false, abstract: false, final false
   inline void AttachServerObject(::System::MarshalByRefObject* serverObject, ::System::Runtime::Remoting::Contexts::Context* context);
 
-  /// @brief Method CreateObjRef, addr 0x2814e8c, size 0x1ac, virtual true, abstract: false, final false
+  /// @brief Method CreateObjRef, addr 0x282f518, size 0x1ac, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::ObjRef* CreateObjRef(::System::Type* requestedType);
 
-  /// @brief Method DisposeServerObject, addr 0x2814e10, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method DisposeServerObject, addr 0x282f49c, size 0x7c, virtual false, abstract: false, final false
   inline void DisposeServerObject();
 
   static inline ::System::Runtime::Remoting::ServerIdentity* New_ctor(::StringW objectUri, ::System::Runtime::Remoting::Contexts::Context* context, ::System::Type* objectType);
 
-  /// @brief Method OnLifetimeExpired, addr 0x2814e0c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnLifetimeExpired, addr 0x282f498, size 0x4, virtual true, abstract: false, final false
   inline void OnLifetimeExpired();
 
-  /// @brief Method StartTrackingLifetime, addr 0x28116b8, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method StartTrackingLifetime, addr 0x282bd44, size 0x18c, virtual false, abstract: false, final false
   inline void StartTrackingLifetime(::System::Runtime::Remoting::Lifetime::ILease* lease);
 
   /// @brief Method SyncObjectProcessMessage, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -122,19 +122,19 @@ public:
 
   constexpr void __cordl_internal_set__serverSink(::System::Runtime::Remoting::Messaging::IMessageSink* value);
 
-  /// @brief Method .ctor, addr 0x2814c14, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x282f2a0, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW objectUri, ::System::Runtime::Remoting::Contexts::Context* context, ::System::Type* objectType);
 
-  /// @brief Method get_Context, addr 0x2815654, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Context, addr 0x282fce0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::Contexts::Context* get_Context();
 
-  /// @brief Method get_Lease, addr 0x281564c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Lease, addr 0x282fcd8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::Lifetime::Lease* get_Lease();
 
-  /// @brief Method get_ObjectType, addr 0x2814c44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectType, addr 0x282f2d0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ObjectType();
 
-  /// @brief Method set_Context, addr 0x281565c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Context, addr 0x282fce8, size 0x8, virtual false, abstract: false, final false
   inline void set_Context(::System::Runtime::Remoting::Contexts::Context* value);
 
 protected:

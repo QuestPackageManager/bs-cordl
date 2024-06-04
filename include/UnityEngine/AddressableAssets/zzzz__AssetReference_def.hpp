@@ -90,22 +90,22 @@ public:
   /// @brief Method CreateFailedOperation, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<T> CreateFailedOperation();
 
-  /// @brief Method Instantiate, addr 0x305a3b8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Instantiate, addr 0x3076b60, size 0x38, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>> Instantiate(::UnityEngine::Transform* parent, bool instantiateInWorldSpace);
 
-  /// @brief Method Instantiate, addr 0x305a384, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Instantiate, addr 0x3076b2c, size 0x34, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>>
   Instantiate(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Transform* parent);
 
-  /// @brief Method InstantiateAsync, addr 0x305a6e0, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method InstantiateAsync, addr 0x3076e88, size 0xac, virtual true, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>> InstantiateAsync(::UnityEngine::Transform* parent,
                                                                                                                                           bool instantiateInWorldSpace);
 
-  /// @brief Method InstantiateAsync, addr 0x305a5ec, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method InstantiateAsync, addr 0x3076d94, size 0xf4, virtual true, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>>
   InstantiateAsync(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Transform* parent);
 
-  /// @brief Method IsValid, addr 0x305a108, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x30768b0, size 0xc, virtual false, abstract: false, final false
   inline bool IsValid();
 
   /// @brief Method LoadAsset, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -114,10 +114,10 @@ public:
   /// @brief Method LoadAssetAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   template <typename TObject> inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> LoadAssetAsync();
 
-  /// @brief Method LoadScene, addr 0x305a344, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method LoadScene, addr 0x3076aec, size 0x40, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> LoadScene();
 
-  /// @brief Method LoadSceneAsync, addr 0x305a3f0, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method LoadSceneAsync, addr 0x3076b98, size 0x160, virtual true, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>
   LoadSceneAsync(::UnityEngine::SceneManagement::LoadSceneMode loadMode, bool activateOnLoad, int32_t priority);
 
@@ -127,25 +127,25 @@ public:
 
   static inline ::UnityEngine::AddressableAssets::AssetReference* New_ctor(::StringW guid, ::System::Type* type);
 
-  /// @brief Method ReleaseAsset, addr 0x305a844, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method ReleaseAsset, addr 0x3076fec, size 0xec, virtual true, abstract: false, final false
   inline void ReleaseAsset();
 
-  /// @brief Method ReleaseInstance, addr 0x305a930, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method ReleaseInstance, addr 0x30770d8, size 0x54, virtual true, abstract: false, final false
   inline void ReleaseInstance(::UnityEngine::GameObject* obj);
 
-  /// @brief Method RuntimeKeyIsValid, addr 0x305a78c, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method RuntimeKeyIsValid, addr 0x3076f34, size 0xb8, virtual true, abstract: false, final false
   inline bool RuntimeKeyIsValid();
 
-  /// @brief Method ToString, addr 0x305a2d8, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3076a80, size 0x6c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method UnLoadScene, addr 0x305a550, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method UnLoadScene, addr 0x3076cf8, size 0x9c, virtual true, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> UnLoadScene();
 
-  /// @brief Method ValidateAsset, addr 0x305a984, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ValidateAsset, addr 0x307712c, size 0x8, virtual true, abstract: false, final false
   inline bool ValidateAsset(::UnityEngine::Object* obj);
 
-  /// @brief Method ValidateAsset, addr 0x305a98c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ValidateAsset, addr 0x3077134, size 0x8, virtual true, abstract: false, final false
   inline bool ValidateAsset(::StringW path);
 
   constexpr ::StringW const& __cordl_internal_get_m_AssetGUID() const;
@@ -172,43 +172,43 @@ public:
 
   constexpr void __cordl_internal_set_m_SubObjectType(::StringW value);
 
-  /// @brief Method .ctor, addr 0x305a120, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x30768c8, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x305a170, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3076918, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::StringW guid);
 
-  /// @brief Method .ctor, addr 0x305a1d4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x307697c, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::StringW guid, ::System::Type* type);
 
-  /// @brief Method get_Asset, addr 0x305a238, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method get_Asset, addr 0x30769e0, size 0xa0, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> get_Asset();
 
-  /// @brief Method get_AssetGUID, addr 0x305a044, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_AssetGUID, addr 0x30767ec, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_AssetGUID();
 
-  /// @brief Method get_IsDone, addr 0x305a114, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IsDone, addr 0x30768bc, size 0xc, virtual false, abstract: false, final false
   inline bool get_IsDone();
 
-  /// @brief Method get_OperationHandle, addr 0x3059f80, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_OperationHandle, addr 0x3076728, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle get_OperationHandle();
 
-  /// @brief Method get_RuntimeKey, addr 0x3059fa8, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method get_RuntimeKey, addr 0x3076750, size 0x9c, virtual true, abstract: false, final false
   inline ::System::Object* get_RuntimeKey();
 
-  /// @brief Method get_SubObjectName, addr 0x305a04c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SubObjectName, addr 0x30767f4, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_SubObjectName();
 
-  /// @brief Method get_SubOjbectType, addr 0x305a05c, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method get_SubOjbectType, addr 0x3076804, size 0xac, virtual true, abstract: false, final false
   inline ::System::Type* get_SubOjbectType();
 
   /// @brief Convert to "::UnityEngine::AddressableAssets::IKeyEvaluator"
   constexpr ::UnityEngine::AddressableAssets::IKeyEvaluator* i___UnityEngine__AddressableAssets__IKeyEvaluator() noexcept;
 
-  /// @brief Method set_OperationHandle, addr 0x3059f94, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_OperationHandle, addr 0x307673c, size 0x14, virtual false, abstract: false, final false
   inline void set_OperationHandle(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle value);
 
-  /// @brief Method set_SubObjectName, addr 0x305a054, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_SubObjectName, addr 0x30767fc, size 0x8, virtual true, abstract: false, final false
   inline void set_SubObjectName(::StringW value);
 
 protected:

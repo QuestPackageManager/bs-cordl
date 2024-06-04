@@ -304,237 +304,237 @@ public:
   /// @brief Field xsiTypeString, offset 0x100, size 0x8
   __declspec(property(get = __cordl_internal_get_xsiTypeString, put = __cordl_internal_set_xsiTypeString))::StringW xsiTypeString;
 
-  /// @brief Method AddIdentityConstraints, addr 0x2e28494, size 0x3f8, virtual false, abstract: false, final false
+  /// @brief Method AddIdentityConstraints, addr 0x2e4ab84, size 0x3f8, virtual false, abstract: false, final false
   inline void AddIdentityConstraints();
 
-  /// @brief Method AddSchema, addr 0x2e1f9d4, size 0x43c, virtual false, abstract: false, final false
+  /// @brief Method AddSchema, addr 0x2e420c4, size 0x43c, virtual false, abstract: false, final false
   inline void AddSchema(::System::Xml::Schema::XmlSchema* schema);
 
-  /// @brief Method AddXmlNamespaceSchema, addr 0x2e28c3c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method AddXmlNamespaceSchema, addr 0x2e4b32c, size 0x88, virtual false, abstract: false, final false
   inline void AddXmlNamespaceSchema();
 
-  /// @brief Method AttributeIdentityConstraints, addr 0x2e23090, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method AttributeIdentityConstraints, addr 0x2e45780, size 0x2a8, virtual false, abstract: false, final false
   inline void AttributeIdentityConstraints(::StringW name, ::StringW ns, ::System::Object* obj, ::StringW sobj, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method BuildElementName, addr 0x2e23a94, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method BuildElementName, addr 0x2e46184, size 0x12c, virtual false, abstract: false, final false
   static inline ::StringW BuildElementName(::StringW localName, ::StringW ns);
 
-  /// @brief Method BuildElementName, addr 0x2e27700, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method BuildElementName, addr 0x2e49df0, size 0x68, virtual false, abstract: false, final false
   static inline ::StringW BuildElementName(::System::Xml::XmlQualifiedName* qname);
 
-  /// @brief Method CheckAttributeValue, addr 0x2e22c60, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method CheckAttributeValue, addr 0x2e45350, size 0x284, virtual false, abstract: false, final false
   inline ::System::Object* CheckAttributeValue(::System::Object* value, ::System::Xml::Schema::SchemaAttDef* attdef);
 
-  /// @brief Method CheckElementProperties, addr 0x2e21c6c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method CheckElementProperties, addr 0x2e4435c, size 0xb4, virtual false, abstract: false, final false
   inline void CheckElementProperties();
 
-  /// @brief Method CheckElementValue, addr 0x2e28168, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method CheckElementValue, addr 0x2e4a858, size 0x258, virtual false, abstract: false, final false
   inline ::System::Object* CheckElementValue(::StringW stringValue);
 
-  /// @brief Method CheckForwardRefs, addr 0x2e24b14, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method CheckForwardRefs, addr 0x2e47204, size 0xf0, virtual false, abstract: false, final false
   inline void CheckForwardRefs();
 
-  /// @brief Method CheckIsXmlAttribute, addr 0x2e22a08, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method CheckIsXmlAttribute, addr 0x2e450f8, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::SchemaAttDef* CheckIsXmlAttribute(::System::Xml::XmlQualifiedName* attQName);
 
-  /// @brief Method CheckMixedValueConstraint, addr 0x2e25c6c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method CheckMixedValueConstraint, addr 0x2e4835c, size 0xdc, virtual false, abstract: false, final false
   inline ::System::Object* CheckMixedValueConstraint(::StringW elementValue);
 
-  /// @brief Method CheckRequiredAttributes, addr 0x2e23400, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method CheckRequiredAttributes, addr 0x2e45af0, size 0x204, virtual false, abstract: false, final false
   inline void CheckRequiredAttributes(::System::Xml::Schema::SchemaElementDecl* currentElementDecl);
 
-  /// @brief Method CheckStateTransition, addr 0x2e208e0, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method CheckStateTransition, addr 0x2e42fd0, size 0x250, virtual false, abstract: false, final false
   inline void CheckStateTransition(::System::Xml::Schema::ValidatorState toState, ::StringW methodName);
 
-  /// @brief Method CheckTokenizedTypes, addr 0x2e22ee4, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method CheckTokenizedTypes, addr 0x2e455d4, size 0x18c, virtual false, abstract: false, final false
   inline void CheckTokenizedTypes(::System::Xml::Schema::XmlSchemaDatatype* dtype, ::System::Object* typedValue, bool attrValue);
 
-  /// @brief Method CheckXsiTypeAndNil, addr 0x2e21534, size 0x5f0, virtual false, abstract: false, final false
+  /// @brief Method CheckXsiTypeAndNil, addr 0x2e43c24, size 0x5f0, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::SchemaElementDecl* CheckXsiTypeAndNil(::System::Xml::Schema::SchemaElementDecl* elementDecl, ::StringW xsiType, ::StringW xsiNil, ByRef<bool> declFound);
 
-  /// @brief Method ClearPSVI, addr 0x2e20b30, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ClearPSVI, addr 0x2e43220, size 0x44, virtual false, abstract: false, final false
   inline void ClearPSVI();
 
-  /// @brief Method CompleteValidationError, addr 0x2e25d48, size 0x4a8, virtual false, abstract: false, final false
+  /// @brief Method CompleteValidationError, addr 0x2e48438, size 0x4a8, virtual false, abstract: false, final false
   static inline void CompleteValidationError(::System::Xml::Schema::ValidationState* context, ::System::Xml::Schema::ValidationEventHandler* eventHandler, ::System::Object* sender,
                                              ::StringW sourceUri, int32_t lineNo, int32_t linePos, ::System::Xml::Schema::XmlSchemaSet* schemaSet);
 
-  /// @brief Method ElementIdentityConstraints, addr 0x2e2888c, size 0x3b0, virtual false, abstract: false, final false
+  /// @brief Method ElementIdentityConstraints, addr 0x2e4af7c, size 0x3b0, virtual false, abstract: false, final false
   inline void ElementIdentityConstraints();
 
-  /// @brief Method ElementValidationError, addr 0x2e27980, size 0x7e8, virtual false, abstract: false, final false
+  /// @brief Method ElementValidationError, addr 0x2e4a070, size 0x7e8, virtual false, abstract: false, final false
   static inline void ElementValidationError(::System::Xml::XmlQualifiedName* name, ::System::Xml::Schema::ValidationState* context, ::System::Xml::Schema::ValidationEventHandler* eventHandler,
                                             ::System::Object* sender, ::StringW sourceUri, int32_t lineNo, int32_t linePos, ::System::Xml::Schema::XmlSchemaSet* schemaSet);
 
-  /// @brief Method EndElementIdentityConstraints, addr 0x2e261f0, size 0xd5c, virtual false, abstract: false, final false
+  /// @brief Method EndElementIdentityConstraints, addr 0x2e488e0, size 0xd5c, virtual false, abstract: false, final false
   inline void EndElementIdentityConstraints(::System::Object* typedValue, ::StringW stringValue, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method EndValidation, addr 0x2e24a20, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method EndValidation, addr 0x2e47110, size 0xf4, virtual false, abstract: false, final false
   inline void EndValidation();
 
-  /// @brief Method EnumerateAny, addr 0x2e29a9c, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method EnumerateAny, addr 0x2e4c18c, size 0x230, virtual false, abstract: false, final false
   static inline void EnumerateAny(::System::Text::StringBuilder* builder, ::StringW namespaces);
 
-  /// @brief Method FastGetElementDecl, addr 0x2e20f7c, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method FastGetElementDecl, addr 0x2e4366c, size 0x250, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::SchemaElementDecl* FastGetElementDecl(::System::Xml::XmlQualifiedName* elementName, ::System::Object* particle);
 
-  /// @brief Method FindId, addr 0x2e29134, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method FindId, addr 0x2e4b824, size 0x1c, virtual false, abstract: false, final false
   inline ::System::Object* FindId(::StringW name);
 
-  /// @brief Method GetConcatenatedValue, addr 0x2e25684, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method GetConcatenatedValue, addr 0x2e47d74, size 0x20, virtual false, abstract: false, final false
   inline ::StringW GetConcatenatedValue();
 
-  /// @brief Method GetDefaultAttributePrefix, addr 0x2e251b4, size 0x3f0, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultAttributePrefix, addr 0x2e478a4, size 0x3f0, virtual false, abstract: false, final false
   inline ::StringW GetDefaultAttributePrefix(::StringW attributeNS);
 
-  /// @brief Method GetSchemaElement, addr 0x2e21d7c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetSchemaElement, addr 0x2e4446c, size 0x108, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaElement* GetSchemaElement();
 
-  /// @brief Method GetSubstitutionGroupHead, addr 0x2e274d4, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method GetSubstitutionGroupHead, addr 0x2e49bc4, size 0x22c, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaElement* GetSubstitutionGroupHead(::System::Xml::XmlQualifiedName* member);
 
-  /// @brief Method GetTypeName, addr 0x2e283c0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetTypeName, addr 0x2e4aab0, size 0x68, virtual false, abstract: false, final false
   inline ::StringW GetTypeName(::System::Xml::Schema::SchemaDeclBase* decl);
 
-  /// @brief Method GetUnspecifiedDefaultAttributes, addr 0x2e24c04, size 0x5b0, virtual false, abstract: false, final false
+  /// @brief Method GetUnspecifiedDefaultAttributes, addr 0x2e472f4, size 0x5b0, virtual false, abstract: false, final false
   inline void GetUnspecifiedDefaultAttributes(::System::Collections::ArrayList* defaultAttributes, bool createNodeData);
 
-  /// @brief Method Init, addr 0x2e1f318, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2e41a08, size 0x314, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method Initialize, addr 0x2e2015c, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x2e4284c, size 0x160, virtual false, abstract: false, final false
   inline void Initialize();
 
-  /// @brief Method Initialize, addr 0x2e202bc, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x2e429ac, size 0x2c4, virtual false, abstract: false, final false
   inline void Initialize(::System::Xml::Schema::XmlSchemaObject* partialValidationType);
 
-  /// @brief Method InternalValidateEndElement, addr 0x2e24200, size 0x4f8, virtual false, abstract: false, final false
+  /// @brief Method InternalValidateEndElement, addr 0x2e468f0, size 0x4f8, virtual false, abstract: false, final false
   inline ::System::Object* InternalValidateEndElement(::System::Xml::Schema::XmlSchemaInfo* schemaInfo, ::System::Object* typedValue);
 
-  /// @brief Method LoadSchema, addr 0x2e26f4c, size 0x4d4, virtual false, abstract: false, final false
+  /// @brief Method LoadSchema, addr 0x2e4963c, size 0x4d4, virtual false, abstract: false, final false
   inline void LoadSchema(::StringW uri, ::StringW url);
 
   static inline ::System::Xml::Schema::XmlSchemaValidator* New_ctor(::System::Xml::XmlNameTable* nameTable, ::System::Xml::Schema::XmlSchemaSet* schemas,
                                                                     ::System::Xml::IXmlNamespaceResolver* namespaceResolver, ::System::Xml::Schema::XmlSchemaValidationFlags validationFlags);
 
-  /// @brief Method Pop, addr 0x2e248fc, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method Pop, addr 0x2e46fec, size 0x124, virtual false, abstract: false, final false
   inline void Pop();
 
-  /// @brief Method PrintExpectedElements, addr 0x2e23bc0, size 0x3fc, virtual false, abstract: false, final false
+  /// @brief Method PrintExpectedElements, addr 0x2e462b0, size 0x3fc, virtual false, abstract: false, final false
   static inline ::StringW PrintExpectedElements(::System::Collections::ArrayList* expected, bool getParticles);
 
-  /// @brief Method PrintNames, addr 0x2e29920, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method PrintNames, addr 0x2e4c010, size 0x17c, virtual false, abstract: false, final false
   static inline ::StringW PrintNames(::System::Collections::ArrayList* expected);
 
-  /// @brief Method PrintNamesWithNS, addr 0x2e294b0, size 0x470, virtual false, abstract: false, final false
+  /// @brief Method PrintNamesWithNS, addr 0x2e4bba0, size 0x470, virtual false, abstract: false, final false
   static inline void PrintNamesWithNS(::System::Collections::ArrayList* expected, ::System::Text::StringBuilder* builder);
 
-  /// @brief Method ProcessEntity, addr 0x2e29150, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method ProcessEntity, addr 0x2e4b840, size 0x174, virtual false, abstract: false, final false
   inline void ProcessEntity(::StringW name);
 
-  /// @brief Method ProcessSchemaLocations, addr 0x2e211cc, size 0x368, virtual false, abstract: false, final false
+  /// @brief Method ProcessSchemaLocations, addr 0x2e438bc, size 0x368, virtual false, abstract: false, final false
   inline void ProcessSchemaLocations(::StringW xsiSchemaLocation, ::StringW xsiNoNamespaceSchemaLocation);
 
-  /// @brief Method ProcessTokenizedType, addr 0x2e28e90, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method ProcessTokenizedType, addr 0x2e4b580, size 0x2a4, virtual false, abstract: false, final false
   inline void ProcessTokenizedType(::System::Xml::XmlTokenizedType ttype, ::StringW name, bool attrValue);
 
-  /// @brief Method Push, addr 0x2e1f62c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Push, addr 0x2e41d1c, size 0xf0, virtual false, abstract: false, final false
   inline void Push(::System::Xml::XmlQualifiedName* elementName);
 
-  /// @brief Method QNameString, addr 0x2e239e0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method QNameString, addr 0x2e460d0, size 0x74, virtual false, abstract: false, final false
   static inline ::StringW QNameString(::StringW localName, ::StringW ns);
 
-  /// @brief Method RecompileSchemaSet, addr 0x2e1f7a8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method RecompileSchemaSet, addr 0x2e41e98, size 0xc0, virtual false, abstract: false, final false
   inline void RecompileSchemaSet();
 
-  /// @brief Method Reset, addr 0x2e1f71c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x2e41e0c, size 0x8c, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method SaveTextValue, addr 0x2e23a54, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method SaveTextValue, addr 0x2e46144, size 0x40, virtual false, abstract: false, final false
   inline void SaveTextValue(::System::Object* value);
 
-  /// @brief Method SendValidationEvent, addr 0x2e28428, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SendValidationEvent, addr 0x2e4ab18, size 0x60, virtual false, abstract: false, final false
   inline void SendValidationEvent(::StringW code);
 
-  /// @brief Method SendValidationEvent, addr 0x2e2288c, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method SendValidationEvent, addr 0x2e44f7c, size 0x17c, virtual false, abstract: false, final false
   inline void SendValidationEvent(::StringW code, ::StringW arg);
 
-  /// @brief Method SendValidationEvent, addr 0x2e27768, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method SendValidationEvent, addr 0x2e49e58, size 0x218, virtual false, abstract: false, final false
   inline void SendValidationEvent(::StringW code, ::StringW arg1, ::StringW arg2);
 
-  /// @brief Method SendValidationEvent, addr 0x2e22ad0, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method SendValidationEvent, addr 0x2e451c0, size 0x190, virtual false, abstract: false, final false
   inline void SendValidationEvent(::StringW code, ::ArrayW<::StringW, ::Array<::StringW>*> args);
 
-  /// @brief Method SendValidationEvent, addr 0x2e1ffc0, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method SendValidationEvent, addr 0x2e426b0, size 0x19c, virtual false, abstract: false, final false
   inline void SendValidationEvent(::StringW code, ::ArrayW<::StringW, ::Array<::StringW>*> args, ::System::Exception* innerException);
 
-  /// @brief Method SendValidationEvent, addr 0x2e28cc4, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method SendValidationEvent, addr 0x2e4b3b4, size 0x1cc, virtual false, abstract: false, final false
   inline void SendValidationEvent(::StringW code, ::ArrayW<::StringW, ::Array<::StringW>*> args, ::System::Exception* innerException, ::System::Xml::Schema::XmlSeverityType severity);
 
-  /// @brief Method SendValidationEvent, addr 0x2e1fe10, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method SendValidationEvent, addr 0x2e42500, size 0x1b0, virtual false, abstract: false, final false
   inline void SendValidationEvent(::StringW code, ::StringW msg, ::System::Xml::Schema::XmlSeverityType severity);
 
-  /// @brief Method SendValidationEvent, addr 0x2e27420, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method SendValidationEvent, addr 0x2e49b10, size 0xb4, virtual false, abstract: false, final false
   inline void SendValidationEvent(::System::Xml::Schema::XmlSchemaException* e);
 
-  /// @brief Method SendValidationEvent, addr 0x2e293ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SendValidationEvent, addr 0x2e4badc, size 0x8, virtual false, abstract: false, final false
   inline void SendValidationEvent(::System::Xml::Schema::XmlSchemaValidationException* e);
 
-  /// @brief Method SendValidationEvent, addr 0x2e292c4, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method SendValidationEvent, addr 0x2e4b9b4, size 0x11c, virtual false, abstract: false, final false
   inline void SendValidationEvent(::System::Xml::Schema::XmlSchemaValidationException* e, ::System::Xml::Schema::XmlSeverityType severity);
 
-  /// @brief Method SendValidationEvent, addr 0x2e293f4, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method SendValidationEvent, addr 0x2e4bae4, size 0xbc, virtual false, abstract: false, final false
   static inline void SendValidationEvent(::System::Xml::Schema::ValidationEventHandler* eventHandler, ::System::Object* sender, ::System::Xml::Schema::XmlSchemaValidationException* e,
                                          ::System::Xml::Schema::XmlSeverityType severity);
 
-  /// @brief Method SetDtdSchemaInfo, addr 0x2e255e8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetDtdSchemaInfo, addr 0x2e47cd8, size 0x10, virtual false, abstract: false, final false
   inline void SetDtdSchemaInfo(::System::Xml::IDtdInfo* dtdSchemaInfo);
 
-  /// @brief Method SkipToEndElement, addr 0x2e246f8, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method SkipToEndElement, addr 0x2e46de8, size 0x204, virtual false, abstract: false, final false
   inline void SkipToEndElement(::System::Xml::Schema::XmlSchemaInfo* schemaInfo);
 
-  /// @brief Method ThrowDeclNotFoundWarningOrError, addr 0x2e21b24, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method ThrowDeclNotFoundWarningOrError, addr 0x2e44214, size 0x148, virtual false, abstract: false, final false
   inline void ThrowDeclNotFoundWarningOrError(bool declFound);
 
-  /// @brief Method ValidateAtomicValue, addr 0x2e25938, size 0x334, virtual false, abstract: false, final false
+  /// @brief Method ValidateAtomicValue, addr 0x2e48028, size 0x334, virtual false, abstract: false, final false
   inline ::System::Object* ValidateAtomicValue(::System::Object* parsedValue, ByRef<::System::Xml::Schema::XmlSchemaSimpleType*> memberType);
 
-  /// @brief Method ValidateAtomicValue, addr 0x2e256a4, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method ValidateAtomicValue, addr 0x2e47d94, size 0x294, virtual false, abstract: false, final false
   inline ::System::Object* ValidateAtomicValue(::StringW stringValue, ByRef<::System::Xml::Schema::XmlSchemaSimpleType*> memberType);
 
-  /// @brief Method ValidateAttribute, addr 0x2e21ee4, size 0x9a8, virtual false, abstract: false, final false
+  /// @brief Method ValidateAttribute, addr 0x2e445d4, size 0x9a8, virtual false, abstract: false, final false
   inline ::System::Object* ValidateAttribute(::StringW lName, ::StringW ns, ::System::Xml::Schema::XmlValueGetter* attributeValueGetter, ::StringW attributeStringValue,
                                              ::System::Xml::Schema::XmlSchemaInfo* schemaInfo);
 
-  /// @brief Method ValidateAttribute, addr 0x2e21e84, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ValidateAttribute, addr 0x2e44574, size 0x60, virtual false, abstract: false, final false
   inline ::System::Object* ValidateAttribute(::StringW localName, ::StringW namespaceUri, ::System::Xml::Schema::XmlValueGetter* attributeValue, ::System::Xml::Schema::XmlSchemaInfo* schemaInfo);
 
-  /// @brief Method ValidateElement, addr 0x2e20580, size 0x360, virtual false, abstract: false, final false
+  /// @brief Method ValidateElement, addr 0x2e42c70, size 0x360, virtual false, abstract: false, final false
   inline void ValidateElement(::StringW localName, ::StringW namespaceUri, ::System::Xml::Schema::XmlSchemaInfo* schemaInfo, ::StringW xsiType, ::StringW xsiNil, ::StringW xsiSchemaLocation,
                               ::StringW xsiNoNamespaceSchemaLocation);
 
-  /// @brief Method ValidateElementContext, addr 0x2e20b74, size 0x408, virtual false, abstract: false, final false
+  /// @brief Method ValidateElementContext, addr 0x2e43264, size 0x408, virtual false, abstract: false, final false
   inline ::System::Object* ValidateElementContext(::System::Xml::XmlQualifiedName* elementName, ByRef<bool> invalidElementInContext);
 
-  /// @brief Method ValidateEndElement, addr 0x2e241f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ValidateEndElement, addr 0x2e468e8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* ValidateEndElement(::System::Xml::Schema::XmlSchemaInfo* schemaInfo);
 
-  /// @brief Method ValidateEndOfAttributes, addr 0x2e23338, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method ValidateEndOfAttributes, addr 0x2e45a28, size 0xc8, virtual false, abstract: false, final false
   inline void ValidateEndOfAttributes(::System::Xml::Schema::XmlSchemaInfo* schemaInfo);
 
-  /// @brief Method ValidateStartElementIdentityConstraints, addr 0x2e21d20, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ValidateStartElementIdentityConstraints, addr 0x2e44410, size 0x5c, virtual false, abstract: false, final false
   inline void ValidateStartElementIdentityConstraints();
 
-  /// @brief Method ValidateText, addr 0x2e23664, size 0x37c, virtual false, abstract: false, final false
+  /// @brief Method ValidateText, addr 0x2e45d54, size 0x37c, virtual false, abstract: false, final false
   inline void ValidateText(::StringW elementStringValue, ::System::Xml::Schema::XmlValueGetter* elementValueGetter);
 
-  /// @brief Method ValidateText, addr 0x2e23604, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ValidateText, addr 0x2e45cf4, size 0x60, virtual false, abstract: false, final false
   inline void ValidateText(::System::Xml::Schema::XmlValueGetter* elementValue);
 
-  /// @brief Method ValidateWhitespace, addr 0x2e2401c, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method ValidateWhitespace, addr 0x2e4670c, size 0x1dc, virtual false, abstract: false, final false
   inline void ValidateWhitespace(::StringW elementStringValue, ::System::Xml::Schema::XmlValueGetter* elementValueGetter);
 
-  /// @brief Method ValidateWhitespace, addr 0x2e23fbc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ValidateWhitespace, addr 0x2e466ac, size 0x60, virtual false, abstract: false, final false
   inline void ValidateWhitespace(::System::Xml::Schema::XmlValueGetter* elementValue);
 
   constexpr ::System::Collections::Hashtable*& __cordl_internal_get_IDs();
@@ -771,11 +771,11 @@ public:
 
   constexpr void __cordl_internal_set_xsiTypeString(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2e1f12c, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e4181c, size 0x1ec, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlNameTable* nameTable, ::System::Xml::Schema::XmlSchemaSet* schemas, ::System::Xml::IXmlNamespaceResolver* namespaceResolver,
                     ::System::Xml::Schema::XmlSchemaValidationFlags validationFlags);
 
-  /// @brief Method add_ValidationEventHandler, addr 0x2e1f8d4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method add_ValidationEventHandler, addr 0x2e41fc4, size 0x80, virtual false, abstract: false, final false
   inline void add_ValidationEventHandler(::System::Xml::Schema::ValidationEventHandler* value);
 
   static inline ::ArrayW<::System::Xml::Schema::XmlSchemaAttribute*, ::Array<::System::Xml::Schema::XmlSchemaAttribute*>*> getStaticF_EmptyAttributeArray();
@@ -792,34 +792,34 @@ public:
 
   static inline ::System::Xml::Schema::XmlSchemaDatatype* getStaticF_dtStringArray();
 
-  /// @brief Method get_CurrentContentType, addr 0x2e255b4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentContentType, addr 0x2e47ca4, size 0x34, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaContentType get_CurrentContentType();
 
-  /// @brief Method get_HasIdentityConstraints, addr 0x2e23070, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_HasIdentityConstraints, addr 0x2e45760, size 0x20, virtual false, abstract: false, final false
   inline bool get_HasIdentityConstraints();
 
-  /// @brief Method get_HasSchema, addr 0x2e2563c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_HasSchema, addr 0x2e47d2c, size 0x48, virtual false, abstract: false, final false
   inline bool get_HasSchema();
 
-  /// @brief Method get_ProcessIdentityConstraints, addr 0x2e28488, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_ProcessIdentityConstraints, addr 0x2e4ab78, size 0xc, virtual false, abstract: false, final false
   inline bool get_ProcessIdentityConstraints();
 
-  /// @brief Method get_ProcessSchemaHints, addr 0x2e1f868, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_ProcessSchemaHints, addr 0x2e41f58, size 0x10, virtual false, abstract: false, final false
   inline bool get_ProcessSchemaHints();
 
-  /// @brief Method get_ReportValidationWarnings, addr 0x2e293e0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_ReportValidationWarnings, addr 0x2e4bad0, size 0xc, virtual false, abstract: false, final false
   inline bool get_ReportValidationWarnings();
 
-  /// @brief Method get_SchemaSet, addr 0x2e255a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SchemaSet, addr 0x2e47c94, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaSet* get_SchemaSet();
 
-  /// @brief Method get_StrictlyAssessed, addr 0x2e255f8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_StrictlyAssessed, addr 0x2e47ce8, size 0x44, virtual false, abstract: false, final false
   inline bool get_StrictlyAssessed();
 
-  /// @brief Method get_ValidationFlags, addr 0x2e255ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ValidationFlags, addr 0x2e47c9c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaValidationFlags get_ValidationFlags();
 
-  /// @brief Method remove_ValidationEventHandler, addr 0x2e1f954, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method remove_ValidationEventHandler, addr 0x2e42044, size 0x80, virtual false, abstract: false, final false
   inline void remove_ValidationEventHandler(::System::Xml::Schema::ValidationEventHandler* value);
 
   static inline void setStaticF_EmptyAttributeArray(::ArrayW<::System::Xml::Schema::XmlSchemaAttribute*, ::Array<::System::Xml::Schema::XmlSchemaAttribute*>*> value);
@@ -836,16 +836,16 @@ public:
 
   static inline void setStaticF_dtStringArray(::System::Xml::Schema::XmlSchemaDatatype* value);
 
-  /// @brief Method set_LineInfoProvider, addr 0x2e1f880, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_LineInfoProvider, addr 0x2e41f70, size 0x18, virtual false, abstract: false, final false
   inline void set_LineInfoProvider(::System::Xml::IXmlLineInfo* value);
 
-  /// @brief Method set_SourceUri, addr 0x2e1f898, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method set_SourceUri, addr 0x2e41f88, size 0x34, virtual false, abstract: false, final false
   inline void set_SourceUri(::System::Uri* value);
 
-  /// @brief Method set_ValidationEventSender, addr 0x2e1f8cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ValidationEventSender, addr 0x2e41fbc, size 0x8, virtual false, abstract: false, final false
   inline void set_ValidationEventSender(::System::Object* value);
 
-  /// @brief Method set_XmlResolver, addr 0x2e1f878, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_XmlResolver, addr 0x2e41f68, size 0x8, virtual false, abstract: false, final false
   inline void set_XmlResolver(::System::Xml::XmlResolver* value);
 
 protected:

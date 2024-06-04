@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__MenuDestination_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(SelectMultiplayerLobbyDestination)
 // Forward declare root types
 namespace GlobalNamespace {
@@ -31,8 +30,6 @@ public:
 
   static inline ::GlobalNamespace::SelectMultiplayerLobbyDestination* New_ctor(::StringW lobbySecret, ::StringW lobbyCode);
 
-  static inline ::GlobalNamespace::SelectMultiplayerLobbyDestination* New_ctor(uint64_t roomId);
-
   constexpr ::StringW const& __cordl_internal_get_lobbyCode() const;
 
   constexpr ::StringW& __cordl_internal_get_lobbyCode();
@@ -45,14 +42,11 @@ public:
 
   constexpr void __cordl_internal_set_lobbySecret(::StringW value);
 
-  /// @brief Method .ctor, addr 0x149cf4c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14a279c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW lobbyCode);
 
-  /// @brief Method .ctor, addr 0x149ce4c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14a2770, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW lobbySecret, ::StringW lobbyCode);
-
-  /// @brief Method .ctor, addr 0x149ce78, size 0xd4, virtual false, abstract: false, final false
-  inline void _ctor(uint64_t roomId);
 
 protected:
   // Ctor Parameters []

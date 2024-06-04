@@ -27,18 +27,18 @@ public:
 
   __declspec(property(get = get_playerRoot, put = set_playerRoot))::UnityW<::UnityEngine::GameObject> playerRoot;
 
-  /// @brief Method InitializePlayerRoot, addr 0x3145bd0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method InitializePlayerRoot, addr 0x3168308, size 0xc4, virtual false, abstract: false, final false
   inline void InitializePlayerRoot();
 
   static inline ::UnityEngine::InputSystem::UI::MultiplayerEventSystem* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3145cb0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x31683e8, size 0x8, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3145c94, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x31683cc, size 0x1c, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Update, addr 0x3145cb8, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x31683f0, size 0x108, virtual true, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_m_PlayerRoot() const;
@@ -47,13 +47,13 @@ public:
 
   constexpr void __cordl_internal_set_m_PlayerRoot(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x3145dc0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31684f8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_playerRoot, addr 0x3145bc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerRoot, addr 0x31682f8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_playerRoot();
 
-  /// @brief Method set_playerRoot, addr 0x3145bc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_playerRoot, addr 0x3168300, size 0x8, virtual false, abstract: false, final false
   inline void set_playerRoot(::UnityEngine::GameObject* value);
 
 protected:

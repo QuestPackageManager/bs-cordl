@@ -26,15 +26,15 @@ public:
   /// @brief Field _saberActivityCounter, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__saberActivityCounter, put = __cordl_internal_set__saberActivityCounter))::UnityW<::GlobalNamespace::SaberActivityCounter> _saberActivityCounter;
 
-  /// @brief Method HandleTotalDistanceDidChange, addr 0x26eb604, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method HandleTotalDistanceDidChange, addr 0x2703d2c, size 0x60, virtual false, abstract: false, final false
   inline void HandleTotalDistanceDidChange(float_t distance);
 
-  /// @brief Method Init, addr 0x26eb664, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x2703d8c, size 0x108, virtual true, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::HandsMovementMissionObjectiveChecker* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x26eb530, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2703c58, size 0xd4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::UnityW<::GlobalNamespace::SaberActivityCounter> const& __cordl_internal_get__saberActivityCounter() const;
@@ -43,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set__saberActivityCounter(::UnityW<::GlobalNamespace::SaberActivityCounter> value);
 
-  /// @brief Method .ctor, addr 0x26eb76c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2703e94, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

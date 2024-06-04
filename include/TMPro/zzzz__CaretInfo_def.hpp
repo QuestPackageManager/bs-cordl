@@ -24,7 +24,7 @@ namespace TMPro {
 struct CORDL_TYPE CaretInfo {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x337e42c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33a8780, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t index, ::TMPro::CaretPosition position);
 
   // Ctor Parameters []

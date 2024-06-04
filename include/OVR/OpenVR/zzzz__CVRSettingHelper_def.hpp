@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CVRSettingHelper)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace OVR::OpenVR {
 struct CVRSettingHelper;
@@ -25,11 +28,11 @@ public:
   // @brief default ctor
   constexpr CVRSettingHelper();
 
-  // Ctor Parameters [CppParam { name: "m_pSettings", ty: "void*", modifiers: "", def_value: None }]
-  constexpr CVRSettingHelper(void* m_pSettings) noexcept;
+  // Ctor Parameters [CppParam { name: "m_pSettings", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  constexpr CVRSettingHelper(::System::IntPtr m_pSettings) noexcept;
 
   /// @brief Field m_pSettings, offset: 0x0, size: 0x8, def value: None
-  void* m_pSettings;
+  ::System::IntPtr m_pSettings;
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

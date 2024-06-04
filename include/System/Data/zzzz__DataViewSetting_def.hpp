@@ -58,10 +58,10 @@ public:
 
   static inline ::System::Data::DataViewSetting* New_ctor();
 
-  /// @brief Method SetDataTable, addr 0x2cbdd5c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SetDataTable, addr 0x2cde44c, size 0x14, virtual false, abstract: false, final false
   inline void SetDataTable(::System::Data::DataTable* table);
 
-  /// @brief Method SetDataViewManager, addr 0x2cbdd48, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SetDataViewManager, addr 0x2cde438, size 0x14, virtual false, abstract: false, final false
   inline void SetDataViewManager(::System::Data::DataViewManager* dataViewManager);
 
   constexpr bool const& __cordl_internal_get__applyDefaultSort() const;
@@ -100,19 +100,19 @@ public:
 
   constexpr void __cordl_internal_set__table(::System::Data::DataTable* value);
 
-  /// @brief Method .ctor, addr 0x2cbdce0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2cde3d0, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ApplyDefaultSort, addr 0x2cbdd40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ApplyDefaultSort, addr 0x2cde430, size 0x8, virtual false, abstract: false, final false
   inline bool get_ApplyDefaultSort();
 
-  /// @brief Method get_RowFilter, addr 0x2cbdd70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RowFilter, addr 0x2cde460, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_RowFilter();
 
-  /// @brief Method get_RowStateFilter, addr 0x2cbdd78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RowStateFilter, addr 0x2cde468, size 0x8, virtual false, abstract: false, final false
   inline ::System::Data::DataViewRowState get_RowStateFilter();
 
-  /// @brief Method get_Sort, addr 0x2cbdd80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Sort, addr 0x2cde470, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Sort();
 
 protected:

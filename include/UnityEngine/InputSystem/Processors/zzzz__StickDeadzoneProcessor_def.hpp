@@ -38,15 +38,15 @@ public:
 
   __declspec(property(get = get_minOrDefault)) float_t minOrDefault;
 
-  /// @brief Method GetDeadZoneAdjustedValue, addr 0x3168680, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetDeadZoneAdjustedValue, addr 0x318ce48, size 0x68, virtual false, abstract: false, final false
   inline float_t GetDeadZoneAdjustedValue(float_t value);
 
   static inline ::UnityEngine::InputSystem::Processors::StickDeadzoneProcessor* New_ctor();
 
-  /// @brief Method Process, addr 0x31685b0, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method Process, addr 0x318cd78, size 0xd0, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 Process(::UnityEngine::Vector2 value, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method ToString, addr 0x31686e8, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x318ceb0, size 0xa8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr float_t const& __cordl_internal_get_max() const;
@@ -61,13 +61,13 @@ public:
 
   constexpr void __cordl_internal_set_min(float_t value);
 
-  /// @brief Method .ctor, addr 0x3168790, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x318cf58, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_maxOrDefault, addr 0x3168540, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_maxOrDefault, addr 0x318cd08, size 0x70, virtual false, abstract: false, final false
   inline float_t get_maxOrDefault();
 
-  /// @brief Method get_minOrDefault, addr 0x31684d0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_minOrDefault, addr 0x318cc98, size 0x70, virtual false, abstract: false, final false
   inline float_t get_minOrDefault();
 
 protected:

@@ -32,18 +32,18 @@ public:
   /// @brief Field nullCount, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_nullCount, put = __cordl_internal_set_nullCount)) int32_t nullCount;
 
-  /// @brief Method Dump, addr 0x2843fe8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Dump, addr 0x285e674, size 0x4, virtual false, abstract: false, final false
   inline void Dump();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::ObjectNull* New_ctor();
 
-  /// @brief Method Read, addr 0x2843f88, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Read, addr 0x285e614, size 0x60, virtual false, abstract: false, final false
   inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input, ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum);
 
-  /// @brief Method SetNullCount, addr 0x2843ed4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetNullCount, addr 0x285e560, size 0x8, virtual false, abstract: false, final false
   inline void SetNullCount(int32_t nullCount);
 
-  /// @brief Method Write, addr 0x2843edc, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method Write, addr 0x285e568, size 0xac, virtual true, abstract: false, final true
   inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
 
   constexpr int32_t const& __cordl_internal_get_nullCount() const;
@@ -52,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set_nullCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2843ecc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x285e558, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -26,9 +26,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation::*)()>(
     &::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation::get_name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1056bfc;
+  constexpr static std::size_t addrs = 0x105e348;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation*>::get(),
                                     "get_name", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -41,9 +41,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation::*)()>(
     &::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation::Clean)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x1056a94;
+  constexpr static std::size_t addrs = 0x105e1e0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation*>::get(), "Clean",
                                     std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -57,9 +57,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::AddressableAssets::AssetReference*, ::GlobalNamespace::BTSCharacter*, bool)>(
     &::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation::SetCharacter)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x105663c;
+  constexpr static std::size_t addrs = 0x105dd88;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation*>::get(),
                                     "SetCharacter", std::span<Il2CppClass const* const, 0>(),
@@ -75,9 +75,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation::*)()>(
     &::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1056c04;
+  constexpr static std::size_t addrs = 0x105e350;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation*>::get(), ".ctor",
                                     std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -202,9 +202,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__13::*)(int32_t)>(
     &::GlobalNamespace::__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__13::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x1056a6c;
+  constexpr static std::size_t addrs = 0x105e1b8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__13*>::get(), ".ctor",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
@@ -217,9 +217,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__13::*)()>(
     &::GlobalNamespace::__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__13::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x1056c0c;
+  constexpr static std::size_t addrs = 0x105e358;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__13*>::get(),
                                                  "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -232,9 +232,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__13::*)()>(
     &::GlobalNamespace::__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__13::MoveNext)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x1056c10;
+  constexpr static std::size_t addrs = 0x105e35c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__13*>::get(),
                                                  "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -247,9 +247,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__13::*)()>(
     &::GlobalNamespace::__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__13::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1056cd0;
+  constexpr static std::size_t addrs = 0x105e41c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__13*>::get(),
                                     "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -262,9 +262,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__13::*)()>(
     &::GlobalNamespace::__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__13::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x1056cd8;
+  constexpr static std::size_t addrs = 0x105e424;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__13*>::get(),
                                                  "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -277,9 +277,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__13::*)()>(
     &::GlobalNamespace::__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__13::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1056d18;
+  constexpr static std::size_t addrs = 0x105e464;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__13*>::get(),
                                                  "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -396,9 +396,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::BtsResultsEnvironmentController::*)()>(
     &::GlobalNamespace::BtsResultsEnvironmentController::get_keyword)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x1055ec8;
+  constexpr static std::size_t addrs = 0x105d614;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BtsResultsEnvironmentController*>::get(),
@@ -412,9 +412,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BtsResultsEnvironmentController::*)(::GlobalNamespace::IReadonlyBeatmapData*)>(
     &::GlobalNamespace::BtsResultsEnvironmentController::Setup)> {
   constexpr static std::size_t size = 0x4e4;
-  constexpr static std::size_t addrs = 0x1055f08;
+  constexpr static std::size_t addrs = 0x105d654;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BtsResultsEnvironmentController*>::get(),
@@ -428,9 +428,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BtsResultsEnvironmentController::*)(
     ::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId*, bool)>(&::GlobalNamespace::BtsResultsEnvironmentController::SpawnBtsCharacters)> {
   constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x10563ec;
+  constexpr static std::size_t addrs = 0x105db38;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BtsResultsEnvironmentController*>::get(), "SpawnBtsCharacters", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId*>::get(),
@@ -444,9 +444,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BtsResultsEnvironmentController::*)()>(
     &::GlobalNamespace::BtsResultsEnvironmentController::Activate)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x1056708;
+  constexpr static std::size_t addrs = 0x105de54;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BtsResultsEnvironmentController*>::get(),
@@ -460,9 +460,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BtsResultsEnvironmentController::*)()>(
     &::GlobalNamespace::BtsResultsEnvironmentController::Deactivate)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x10567b0;
+  constexpr static std::size_t addrs = 0x105defc;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BtsResultsEnvironmentController*>::get(),
@@ -476,9 +476,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::BtsResultsEnvironmentController::*)()>(
     &::GlobalNamespace::BtsResultsEnvironmentController::DestroyCharactersDelayed)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x1056a04;
+  constexpr static std::size_t addrs = 0x105e150;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BtsResultsEnvironmentController*>::get(),
                                                                                "DestroyCharactersDelayed", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
@@ -490,9 +490,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BtsResultsEnvironmentController::*)()>(
     &::GlobalNamespace::BtsResultsEnvironmentController::DestroyCharactersAndStopAnimations)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x1056980;
+  constexpr static std::size_t addrs = 0x105e0cc;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BtsResultsEnvironmentController*>::get(),
                                                  "DestroyCharactersAndStopAnimations", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -505,9 +505,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BtsResultsEnvironmentController::*)()>(
     &::GlobalNamespace::BtsResultsEnvironmentController::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x1056b80;
+  constexpr static std::size_t addrs = 0x105e2cc;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BtsResultsEnvironmentController*>::get(),
                                                                                ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;

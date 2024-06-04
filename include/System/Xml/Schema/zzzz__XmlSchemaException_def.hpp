@@ -69,10 +69,10 @@ public:
   /// @brief Field sourceUri, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get_sourceUri, put = __cordl_internal_set_sourceUri))::StringW sourceUri;
 
-  /// @brief Method CreateMessage, addr 0x2e12950, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method CreateMessage, addr 0x2e34040, size 0xc4, virtual false, abstract: false, final false
   static inline ::StringW CreateMessage(::StringW res, ::ArrayW<::StringW, ::Array<::StringW>*> args);
 
-  /// @brief Method GetObjectData, addr 0x2e12a14, size 0x170, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x2e34104, size 0x170, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Xml::Schema::XmlSchemaException* New_ctor();
@@ -104,13 +104,13 @@ public:
 
   static inline ::System::Xml::Schema::XmlSchemaException* New_ctor(::StringW res, ::StringW sourceUri, int32_t lineNumber, int32_t linePosition);
 
-  /// @brief Method SetSchemaObject, addr 0x2e12f90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetSchemaObject, addr 0x2e34680, size 0x8, virtual false, abstract: false, final false
   inline void SetSchemaObject(::System::Xml::Schema::XmlSchemaObject* source);
 
-  /// @brief Method SetSource, addr 0x2e12f98, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SetSource, addr 0x2e34688, size 0x28, virtual false, abstract: false, final false
   inline void SetSource(::System::Xml::Schema::XmlSchemaObject* source);
 
-  /// @brief Method SetSource, addr 0x2e09ce4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetSource, addr 0x2e2b3d4, size 0xc, virtual false, abstract: false, final false
   inline void SetSource(::StringW sourceUri, int32_t lineNumber, int32_t linePosition);
 
   constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_args() const;
@@ -155,68 +155,68 @@ public:
 
   constexpr void __cordl_internal_set_sourceUri(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2e12b84, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e34274, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2e12598, size 0x3b8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e33c88, size 0x3b8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x2e12b98, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e34288, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x2e12ccc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e343bc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x2e12ba8, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e34298, size 0x124, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException, int32_t lineNumber, int32_t linePosition);
 
-  /// @brief Method .ctor, addr 0x2e0a8a0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e2bf90, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::StringW res, ::StringW arg);
 
-  /// @brief Method .ctor, addr 0x2e12ea8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e34598, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::StringW res, ::StringW arg, ::System::Xml::Schema::XmlSchemaObject* source);
 
-  /// @brief Method .ctor, addr 0x2e05cb0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e273a0, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(::StringW res, ::StringW arg, ::StringW sourceUri, int32_t lineNumber, int32_t linePosition);
 
-  /// @brief Method .ctor, addr 0x2e12d60, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e34450, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::StringW res, ::ArrayW<::StringW, ::Array<::StringW>*> args);
 
-  /// @brief Method .ctor, addr 0x2e12cd8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e343c8, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::StringW res, ::ArrayW<::StringW, ::Array<::StringW>*> args, ::System::Exception* innerException, ::StringW sourceUri, int32_t lineNumber, int32_t linePosition,
                     ::System::Xml::Schema::XmlSchemaObject* source);
 
-  /// @brief Method .ctor, addr 0x2e12e30, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e34520, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::StringW res, ::ArrayW<::StringW, ::Array<::StringW>*> args, ::System::Xml::Schema::XmlSchemaObject* source);
 
-  /// @brief Method .ctor, addr 0x2e05b6c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e2725c, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::StringW res, ::ArrayW<::StringW, ::Array<::StringW>*> args, ::StringW sourceUri, int32_t lineNumber, int32_t linePosition);
 
-  /// @brief Method .ctor, addr 0x2e12e24, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e34514, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW res, ::System::Xml::Schema::XmlSchemaObject* source);
 
-  /// @brief Method .ctor, addr 0x2e12db8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e344a8, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW res, ::StringW sourceUri, int32_t lineNumber, int32_t linePosition);
 
-  /// @brief Method get_Args, addr 0x2e12f68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Args, addr 0x2e34658, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_Args();
 
-  /// @brief Method get_GetRes, addr 0x2e12f60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_GetRes, addr 0x2e34650, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_GetRes();
 
-  /// @brief Method get_LineNumber, addr 0x2e12f78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LineNumber, addr 0x2e34668, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_LineNumber();
 
-  /// @brief Method get_LinePosition, addr 0x2e12f80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LinePosition, addr 0x2e34670, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_LinePosition();
 
-  /// @brief Method get_Message, addr 0x2e12fc0, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x2e346b0, size 0x18, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
-  /// @brief Method get_SourceSchemaObject, addr 0x2e12f88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SourceSchemaObject, addr 0x2e34678, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObject* get_SourceSchemaObject();
 
-  /// @brief Method get_SourceUri, addr 0x2e12f70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SourceUri, addr 0x2e34660, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_SourceUri();
 
 protected:

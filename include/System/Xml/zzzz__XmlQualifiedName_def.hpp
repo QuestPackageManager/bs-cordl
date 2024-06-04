@@ -19,6 +19,9 @@ namespace System::Xml {
 class __XmlQualifiedName__HashCodeOfStringDelegate;
 }
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Object;
 }
 // Forward declare root types
@@ -39,13 +42,13 @@ namespace System::Xml {
 class CORDL_TYPE __XmlQualifiedName__HashCodeOfStringDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2ebe888, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2edef78, size 0x14, virtual true, abstract: false, final false
   inline int32_t Invoke(::StringW s, int32_t sLen, int64_t additionalEntropy);
 
-  static inline ::System::Xml::__XmlQualifiedName__HashCodeOfStringDelegate* New_ctor(::System::Object* object, void* method);
+  static inline ::System::Xml::__XmlQualifiedName__HashCodeOfStringDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2ebe3d4, size 0xd8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
+  /// @brief Method .ctor, addr 0x2edeac4, size 0xd8, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
@@ -98,28 +101,28 @@ public:
   /// @brief Field ns, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_ns, put = __cordl_internal_set_ns))::StringW ns;
 
-  /// @brief Method Atomize, addr 0x2ebe56c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Atomize, addr 0x2edec5c, size 0x54, virtual false, abstract: false, final false
   inline void Atomize(::System::Xml::XmlNameTable* nameTable);
 
-  /// @brief Method Clone, addr 0x2ebe778, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Clone, addr 0x2edee68, size 0x80, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* Clone();
 
-  /// @brief Method Equals, addr 0x2ebe1a4, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2ede894, size 0xe0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method GetHashCode, addr 0x2ebdeb0, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2ede5a0, size 0xcc, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetHashCodeDelegate, addr 0x2ebdf7c, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetHashCodeDelegate, addr 0x2ede66c, size 0x17c, virtual false, abstract: false, final false
   static inline ::System::Xml::__XmlQualifiedName__HashCodeOfStringDelegate* GetHashCodeDelegate();
 
-  /// @brief Method GetHashCodeOfString, addr 0x2ebe4ac, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetHashCodeOfString, addr 0x2edeb9c, size 0x1c, virtual false, abstract: false, final false
   static inline int32_t GetHashCodeOfString(::StringW s, int32_t length, int64_t additionalEntropy);
 
-  /// @brief Method Init, addr 0x2ebe4c8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2edebb8, size 0xc, virtual false, abstract: false, final false
   inline void Init(::StringW name, ::StringW ns);
 
-  /// @brief Method IsRandomizedHashingDisabled, addr 0x2ebe3cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method IsRandomizedHashingDisabled, addr 0x2edeabc, size 0x8, virtual false, abstract: false, final false
   static inline bool IsRandomizedHashingDisabled();
 
   static inline ::System::Xml::XmlQualifiedName* New_ctor();
@@ -128,19 +131,19 @@ public:
 
   static inline ::System::Xml::XmlQualifiedName* New_ctor(::StringW name, ::StringW ns);
 
-  /// @brief Method Parse, addr 0x2ebe5c0, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x2edecb0, size 0x1b8, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlQualifiedName* Parse(::StringW s, ::System::Xml::IXmlNamespaceResolver* nsmgr, ByRef<::StringW> prefix);
 
-  /// @brief Method SetNamespace, addr 0x2ebe4d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetNamespace, addr 0x2edebc4, size 0x8, virtual false, abstract: false, final false
   inline void SetNamespace(::StringW ns);
 
-  /// @brief Method ToString, addr 0x2ebe134, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2ede824, size 0x70, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x2ebe35c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x2edea4c, size 0x70, virtual false, abstract: false, final false
   static inline ::StringW ToString(::StringW name, ::StringW ns);
 
-  /// @brief Method Verify, addr 0x2ebe4dc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Verify, addr 0x2edebcc, size 0x90, virtual false, abstract: false, final false
   inline void Verify();
 
   constexpr int32_t const& __cordl_internal_get_hash() const;
@@ -161,32 +164,32 @@ public:
 
   constexpr void __cordl_internal_set_ns(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2ebdd60, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ede450, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2ebde40, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ede530, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x2ebddb4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ede4a4, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::StringW ns);
 
   static inline ::System::Xml::XmlQualifiedName* getStaticF_Empty();
 
   static inline ::System::Xml::__XmlQualifiedName__HashCodeOfStringDelegate* getStaticF_hashCodeDelegate();
 
-  /// @brief Method get_IsEmpty, addr 0x2ebe0f8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_IsEmpty, addr 0x2ede7e8, size 0x3c, virtual false, abstract: false, final false
   inline bool get_IsEmpty();
 
-  /// @brief Method get_Name, addr 0x2ebdea8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x2ede598, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Namespace, addr 0x2ebdea0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Namespace, addr 0x2ede590, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Namespace();
 
-  /// @brief Method op_Equality, addr 0x2ebe2f4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x2ede9e4, size 0x68, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Xml::XmlQualifiedName* a, ::System::Xml::XmlQualifiedName* b);
 
-  /// @brief Method op_Inequality, addr 0x2ebe284, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x2ede974, size 0x70, virtual false, abstract: false, final false
   static inline bool op_Inequality(::System::Xml::XmlQualifiedName* a, ::System::Xml::XmlQualifiedName* b);
 
   static inline void setStaticF_Empty(::System::Xml::XmlQualifiedName* value);

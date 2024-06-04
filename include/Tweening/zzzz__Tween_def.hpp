@@ -5,6 +5,7 @@
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__EaseType_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "Tweening/zzzz__FrameParity_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(Tween)
 namespace GlobalNamespace {
@@ -13,6 +14,9 @@ struct EaseType;
 namespace System {
 class Action;
 }
+namespace Tweening {
+struct FrameParity;
+}
 // Forward declare root types
 namespace Tweening {
 class Tween;
@@ -20,7 +24,7 @@ class Tween;
 // Write type traits
 MARK_REF_PTR_T(::Tweening::Tween);
 // Type: Tweening::Tween
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Tweening {
 // Is value type: false
 // CS Name: ::Tweening::Tween*
@@ -51,6 +55,9 @@ public:
   /// @brief Field _startTime, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get__startTime, put = __cordl_internal_set__startTime)) float_t _startTime;
 
+  /// @brief Field _updateAt, offset 0x44, size 0x4
+  __declspec(property(get = __cordl_internal_get__updateAt, put = __cordl_internal_set__updateAt))::Tweening::FrameParity _updateAt;
+
   __declspec(property(get = get_delay, put = set_delay)) float_t delay;
 
   __declspec(property(get = get_duration, put = set_duration)) float_t duration;
@@ -80,21 +87,23 @@ public:
 
   __declspec(property(get = get_startTime)) float_t startTime;
 
-  /// @brief Method Kill, addr 0x304482c, size 0xc, virtual false, abstract: false, final false
+  __declspec(property(get = get_updateAt, put = set_updateAt))::Tweening::FrameParity updateAt;
+
+  /// @brief Method Kill, addr 0x3060f30, size 0xc, virtual false, abstract: false, final false
   inline void Kill();
 
   static inline ::Tweening::Tween* New_ctor();
 
-  /// @brief Method Restart, addr 0x3044838, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Restart, addr 0x3060f3c, size 0x10, virtual false, abstract: false, final false
   inline void Restart(float_t startTime);
 
-  /// @brief Method Resume, addr 0x3044848, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Resume, addr 0x3060f4c, size 0x8, virtual false, abstract: false, final false
   inline void Resume();
 
   /// @brief Method Sample, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Sample(float_t t);
 
-  /// @brief Method SetStartTimeAndEndTime, addr 0x3044850, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetStartTimeAndEndTime, addr 0x3060f54, size 0xc, virtual false, abstract: false, final false
   inline void SetStartTimeAndEndTime(float_t startTime, float_t endTime);
 
   /// @brief Method Update, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -132,6 +141,10 @@ public:
 
   constexpr float_t& __cordl_internal_get__startTime();
 
+  constexpr ::Tweening::FrameParity const& __cordl_internal_get__updateAt() const;
+
+  constexpr ::Tweening::FrameParity& __cordl_internal_get__updateAt();
+
   constexpr ::System::Action*& __cordl_internal_get_onCompleted();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_onCompleted() const;
@@ -160,56 +173,64 @@ public:
 
   constexpr void __cordl_internal_set__startTime(float_t value);
 
+  constexpr void __cordl_internal_set__updateAt(::Tweening::FrameParity value);
+
   constexpr void __cordl_internal_set_onCompleted(::System::Action* value);
 
   constexpr void __cordl_internal_set_onKilled(::System::Action* value);
 
   constexpr void __cordl_internal_set_onStart(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x304485c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3060f60, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_delay, addr 0x304480c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_delay, addr 0x3060f00, size 0x8, virtual false, abstract: false, final false
   inline float_t get_delay();
 
-  /// @brief Method get_duration, addr 0x30447e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_duration, addr 0x3060edc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_duration();
 
-  /// @brief Method get_easeType, addr 0x304481c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_easeType, addr 0x3060f10, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EaseType get_easeType();
 
-  /// @brief Method get_isActive, addr 0x304478c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_isActive, addr 0x3060e80, size 0x30, virtual false, abstract: false, final false
   inline bool get_isActive();
 
-  /// @brief Method get_isComplete, addr 0x30447bc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_isComplete, addr 0x3060eb0, size 0x14, virtual false, abstract: false, final false
   inline bool get_isComplete();
 
-  /// @brief Method get_isKilled, addr 0x30447d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isKilled, addr 0x3060ec4, size 0x8, virtual false, abstract: false, final false
   inline bool get_isKilled();
 
-  /// @brief Method get_isStarted, addr 0x3044784, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isStarted, addr 0x3060e78, size 0x8, virtual false, abstract: false, final false
   inline bool get_isStarted();
 
-  /// @brief Method get_loop, addr 0x30447f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_loop, addr 0x3060eec, size 0x8, virtual false, abstract: false, final false
   inline bool get_loop();
 
-  /// @brief Method get_progress, addr 0x30447d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_progress, addr 0x3060ecc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_progress();
 
-  /// @brief Method get_startTime, addr 0x30447e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_startTime, addr 0x3060ed4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_startTime();
 
-  /// @brief Method set_delay, addr 0x3044814, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_updateAt, addr 0x3060f20, size 0x8, virtual false, abstract: false, final false
+  inline ::Tweening::FrameParity get_updateAt();
+
+  /// @brief Method set_delay, addr 0x3060f08, size 0x8, virtual false, abstract: false, final false
   inline void set_delay(float_t value);
 
-  /// @brief Method set_duration, addr 0x30447f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_duration, addr 0x3060ee4, size 0x8, virtual false, abstract: false, final false
   inline void set_duration(float_t value);
 
-  /// @brief Method set_easeType, addr 0x3044824, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_easeType, addr 0x3060f18, size 0x8, virtual false, abstract: false, final false
   inline void set_easeType(::GlobalNamespace::EaseType value);
 
-  /// @brief Method set_loop, addr 0x3044800, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_loop, addr 0x3060ef4, size 0xc, virtual false, abstract: false, final false
   inline void set_loop(bool value);
+
+  /// @brief Method set_updateAt, addr 0x3060f28, size 0x8, virtual false, abstract: false, final false
+  inline void set_updateAt(::Tweening::FrameParity value);
 
 protected:
   // Ctor Parameters []
@@ -258,6 +279,9 @@ public:
   /// @brief Field _easeType, offset: 0x40, size: 0x4, def value: None
   ::GlobalNamespace::EaseType ____easeType;
 
+  /// @brief Field _updateAt, offset: 0x44, size: 0x4, def value: None
+  ::Tweening::FrameParity ____updateAt;
+
   /// @brief Field kEpsilon offset 0xffffffff size 0x4
   static constexpr float_t kEpsilon{ 0.001 };
 
@@ -287,6 +311,8 @@ static_assert(offsetof(::Tweening::Tween, ____isStarted) == 0x3c, "Offset mismat
 static_assert(offsetof(::Tweening::Tween, ____isKilled) == 0x3d, "Offset mismatch!");
 
 static_assert(offsetof(::Tweening::Tween, ____easeType) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::Tweening::Tween, ____updateAt) == 0x44, "Offset mismatch!");
 
 } // namespace Tweening
 NEED_NO_BOX(::Tweening::Tween);

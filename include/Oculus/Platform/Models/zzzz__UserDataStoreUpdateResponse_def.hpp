@@ -6,6 +6,9 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(UserDataStoreUpdateResponse)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class UserDataStoreUpdateResponse;
@@ -23,7 +26,7 @@ public:
   /// @brief Field Success, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_Success, put = __cordl_internal_set_Success)) bool Success;
 
-  static inline ::Oculus::Platform::Models::UserDataStoreUpdateResponse* New_ctor(void* o);
+  static inline ::Oculus::Platform::Models::UserDataStoreUpdateResponse* New_ctor(::System::IntPtr o);
 
   constexpr bool const& __cordl_internal_get_Success() const;
 
@@ -31,8 +34,8 @@ public:
 
   constexpr void __cordl_internal_set_Success(bool value);
 
-  /// @brief Method .ctor, addr 0x2adf4f4, size 0x7c, virtual false, abstract: false, final false
-  inline void _ctor(void* o);
+  /// @brief Method .ctor, addr 0x2affb80, size 0x7c, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr o);
 
 protected:
   // Ctor Parameters []

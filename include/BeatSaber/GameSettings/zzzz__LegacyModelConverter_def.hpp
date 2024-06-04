@@ -76,10 +76,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x105f648, size 0x234, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x1066d9c, size 0x234, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x105f87c, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x1066fd0, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -137,10 +137,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x105f8d4, size 0x828, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x1067028, size 0x828, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x1060478, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x1067bcc, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -238,12 +238,12 @@ public:
   /// @brief Field _legacyModel, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__legacyModel, put = __cordl_internal_set__legacyModel))::BeatSaber::GameSettings::LegacySettingsModel* _legacyModel;
 
-  /// @brief Method AttemptConversionAsync, addr 0x105f550, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method AttemptConversionAsync, addr 0x1066ca4, size 0xf8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::ValueTuple_2<::BeatSaber::GameSettings::MainSettings*, ::BeatSaber::GameSettings::GraphicSettings*>>* AttemptConversionAsync();
 
   static inline ::BeatSaber::GameSettings::LegacyModelConverter* New_ctor(::GlobalNamespace::IFileStorage* fileStorage);
 
-  /// @brief Method RequiresUpdateAsync, addr 0x105f458, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method RequiresUpdateAsync, addr 0x1066bac, size 0xf8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* RequiresUpdateAsync();
 
   constexpr ::GlobalNamespace::IFileStorage*& __cordl_internal_get__fileStorage();
@@ -258,7 +258,7 @@ public:
 
   constexpr void __cordl_internal_set__legacyModel(::BeatSaber::GameSettings::LegacySettingsModel* value);
 
-  /// @brief Method .ctor, addr 0x105f430, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1066b84, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IFileStorage* fileStorage);
 
 protected:

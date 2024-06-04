@@ -62,10 +62,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x10610fc, size 0x214, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x1068828, size 0x214, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x1061310, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x1068a3c, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -130,35 +130,35 @@ public:
 
   __declspec(property(get = get_version))::System::Version* version;
 
-  /// @brief Method InternalLoadAsync, addr 0x1060fc4, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method InternalLoadAsync, addr 0x10686f0, size 0xf0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::BGLib::SaveDataCore::SaveDataResult>* InternalLoadAsync();
 
   static inline ::BeatSaber::GameSettings::MainSettingsHandler* New_ctor(::GlobalNamespace::IFileStorage* fileStorage);
 
   static inline ::BeatSaber::GameSettings::MainSettingsHandler* New_ctor(::GlobalNamespace::IFileStorage* fileStorage, ::BeatSaber::GameSettings::MainSettings* instance);
 
-  /// @brief Method PerformPostLoad, addr 0x1060b5c, size 0x468, virtual false, abstract: false, final false
+  /// @brief Method PerformPostLoad, addr 0x1068288, size 0x468, virtual false, abstract: false, final false
   inline ::BGLib::SaveDataCore::SaveDataResult PerformPostLoad();
 
-  /// @brief Method <>n__0, addr 0x10610b4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method <>n__0, addr 0x10687e0, size 0x48, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::BGLib::SaveDataCore::SaveDataResult>* __n__0();
 
-  /// @brief Method .ctor, addr 0x1060aa4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10681d0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IFileStorage* fileStorage);
 
-  /// @brief Method .ctor, addr 0x1060afc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1068228, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IFileStorage* fileStorage, ::BeatSaber::GameSettings::MainSettings* instance);
 
-  /// @brief Method get_fileNameWithExtension, addr 0x1060a5c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_fileNameWithExtension, addr 0x1068188, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_fileNameWithExtension();
 
-  /// @brief Method get_firstVersion, addr 0x10609e8, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method get_firstVersion, addr 0x1068114, size 0x74, virtual true, abstract: false, final false
   inline ::System::Version* get_firstVersion();
 
-  /// @brief Method get_preferredStorageLocation, addr 0x1060a9c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_preferredStorageLocation, addr 0x10681c8, size 0x8, virtual true, abstract: false, final false
   inline ::GlobalNamespace::StoragePreference get_preferredStorageLocation();
 
-  /// @brief Method get_version, addr 0x1060974, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method get_version, addr 0x10680a0, size 0x74, virtual true, abstract: false, final false
   inline ::System::Version* get_version();
 
 protected:

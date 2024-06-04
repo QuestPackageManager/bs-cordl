@@ -54,7 +54,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE __GameplayServerFiniteStateMachine__InitParams {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x109a928, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10a1110, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::BGNet::Core::ITaskUtility* taskUtility, ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::StringW creatorId,
                     ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::GlobalNamespace::GameplayServerConfiguration configuration,
                     ::GlobalNamespace::IServerBeatmapProvider* beatmapProvider);
@@ -234,55 +234,55 @@ public:
 
   constexpr void __cordl_internal_set_state(::GlobalNamespace::GameState* value);
 
-  /// @brief Method .ctor, addr 0x109a804, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10a0fec, size 0x124, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__GameplayServerFiniteStateMachine__InitParams initParams);
 
-  /// @brief Method get_beatmapProvider, addr 0x109a7d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapProvider, addr 0x10a0fbc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IServerBeatmapProvider* get_beatmapProvider();
 
-  /// @brief Method get_configuration, addr 0x109a7ac, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_configuration, addr 0x10a0f94, size 0x14, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayServerConfiguration get_configuration();
 
-  /// @brief Method get_gameplayRpcManager, addr 0x109a7f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameplayRpcManager, addr 0x10a0fdc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayRpcManager* get_gameplayRpcManager();
 
-  /// @brief Method get_menuRpcManager, addr 0x109a7e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_menuRpcManager, addr 0x10a0fcc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MenuRpcManager* get_menuRpcManager();
 
-  /// @brief Method get_multiplayerSessionManager, addr 0x109a75c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_multiplayerSessionManager, addr 0x10a0f44, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IMultiplayerSessionManager* get_multiplayerSessionManager();
 
-  /// @brief Method get_ownerUserId, addr 0x109a76c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ownerUserId, addr 0x10a0f54, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ownerUserId();
 
-  /// @brief Method get_selectionMask, addr 0x109a77c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_selectionMask, addr 0x10a0f64, size 0x18, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapLevelSelectionMask get_selectionMask();
 
-  /// @brief Method get_taskUtility, addr 0x109a74c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_taskUtility, addr 0x10a0f34, size 0x8, virtual false, abstract: false, final false
   inline ::BGNet::Core::ITaskUtility* get_taskUtility();
 
-  /// @brief Method set_beatmapProvider, addr 0x109a7dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_beatmapProvider, addr 0x10a0fc4, size 0x8, virtual false, abstract: false, final false
   inline void set_beatmapProvider(::GlobalNamespace::IServerBeatmapProvider* value);
 
-  /// @brief Method set_configuration, addr 0x109a7c0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_configuration, addr 0x10a0fa8, size 0x14, virtual false, abstract: false, final false
   inline void set_configuration(::GlobalNamespace::GameplayServerConfiguration value);
 
-  /// @brief Method set_gameplayRpcManager, addr 0x109a7fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_gameplayRpcManager, addr 0x10a0fe4, size 0x8, virtual false, abstract: false, final false
   inline void set_gameplayRpcManager(::GlobalNamespace::GameplayRpcManager* value);
 
-  /// @brief Method set_menuRpcManager, addr 0x109a7ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_menuRpcManager, addr 0x10a0fd4, size 0x8, virtual false, abstract: false, final false
   inline void set_menuRpcManager(::GlobalNamespace::MenuRpcManager* value);
 
-  /// @brief Method set_multiplayerSessionManager, addr 0x109a764, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_multiplayerSessionManager, addr 0x10a0f4c, size 0x8, virtual false, abstract: false, final false
   inline void set_multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
 
-  /// @brief Method set_ownerUserId, addr 0x109a774, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ownerUserId, addr 0x10a0f5c, size 0x8, virtual false, abstract: false, final false
   inline void set_ownerUserId(::StringW value);
 
-  /// @brief Method set_selectionMask, addr 0x109a794, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_selectionMask, addr 0x10a0f7c, size 0x18, virtual false, abstract: false, final false
   inline void set_selectionMask(::GlobalNamespace::BeatmapLevelSelectionMask value);
 
-  /// @brief Method set_taskUtility, addr 0x109a754, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_taskUtility, addr 0x10a0f3c, size 0x8, virtual false, abstract: false, final false
   inline void set_taskUtility(::BGNet::Core::ITaskUtility* value);
 
 protected:

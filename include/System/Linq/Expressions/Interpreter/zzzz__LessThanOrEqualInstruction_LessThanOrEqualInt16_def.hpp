@@ -28,10 +28,10 @@ public:
   // Declarations
   static inline ::System::Linq::Expressions::Interpreter::__LessThanOrEqualInstruction__LessThanOrEqualInt16* New_ctor(::System::Object* nullValue);
 
-  /// @brief Method Run, addr 0x2c27e24, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x2c48514, size 0xdc, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x2c27bb8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c482a8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* nullValue);
 
 protected:

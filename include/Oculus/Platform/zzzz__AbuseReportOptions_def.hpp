@@ -10,6 +10,9 @@ CORDL_MODULE_EXPORT(AbuseReportOptions)
 namespace Oculus::Platform {
 struct AbuseReportType;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform {
 class AbuseReportOptions;
@@ -25,30 +28,30 @@ class CORDL_TYPE AbuseReportOptions : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Handle, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_Handle, put = __cordl_internal_set_Handle)) void* Handle;
+  __declspec(property(get = __cordl_internal_get_Handle, put = __cordl_internal_set_Handle))::System::IntPtr Handle;
 
-  /// @brief Method Finalize, addr 0x2aa3bf4, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x2ac4280, size 0xd4, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::Oculus::Platform::AbuseReportOptions* New_ctor();
 
-  /// @brief Method SetPreventPeopleChooser, addr 0x2aa39c4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetPreventPeopleChooser, addr 0x2ac4050, size 0x68, virtual false, abstract: false, final false
   inline void SetPreventPeopleChooser(bool value);
 
-  /// @brief Method SetReportType, addr 0x2aa3ab0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetReportType, addr 0x2ac413c, size 0x68, virtual false, abstract: false, final false
   inline void SetReportType(::Oculus::Platform::AbuseReportType value);
 
-  constexpr void* const& __cordl_internal_get_Handle() const;
+  constexpr ::System::IntPtr const& __cordl_internal_get_Handle() const;
 
-  constexpr void*& __cordl_internal_get_Handle();
+  constexpr ::System::IntPtr& __cordl_internal_get_Handle();
 
-  constexpr void __cordl_internal_set_Handle(void* value);
+  constexpr void __cordl_internal_set_Handle(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x2aa38f8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ac3f84, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method op_Explicit, addr 0x2aa3b9c, size 0x58, virtual false, abstract: false, final false
-  static inline void* op_Explicit_void_(::Oculus::Platform::AbuseReportOptions* options);
+  /// @brief Method op_Explicit, addr 0x2ac4228, size 0x58, virtual false, abstract: false, final false
+  static inline ::System::IntPtr op_Explicit___System__IntPtr(::Oculus::Platform::AbuseReportOptions* options);
 
 protected:
   // Ctor Parameters []
@@ -65,7 +68,7 @@ public:
   AbuseReportOptions(AbuseReportOptions const&) = delete;
 
   /// @brief Field Handle, offset: 0x10, size: 0x8, def value: None
-  void* ___Handle;
+  ::System::IntPtr ___Handle;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

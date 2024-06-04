@@ -179,16 +179,16 @@ public:
 
   static inline ::GlobalNamespace::__HID__HIDLayoutBuilder____c* New_ctor();
 
-  /// @brief Method <Build>b__4_0, addr 0x314e16c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <Build>b__4_0, addr 0x3171b68, size 0x24, virtual false, abstract: false, final false
   inline bool _Build_b__4_0(::UnityEngine::InputSystem::HID::__HID__HIDElementDescriptor element);
 
-  /// @brief Method <Build>b__4_1, addr 0x314e190, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <Build>b__4_1, addr 0x3171b8c, size 0x24, virtual false, abstract: false, final false
   inline bool _Build_b__4_1(::UnityEngine::InputSystem::HID::__HID__HIDElementDescriptor element);
 
-  /// @brief Method <Build>b__4_2, addr 0x314e1b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <Build>b__4_2, addr 0x3171bb0, size 0xc, virtual false, abstract: false, final false
   inline ::StringW _Build_b__4_2(::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem x);
 
-  /// @brief Method .ctor, addr 0x314e164, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3171b60, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__HID__HIDLayoutBuilder____c* getStaticF___9();
@@ -380,10 +380,10 @@ namespace UnityEngine::InputSystem::HID {
 struct CORDL_TYPE __HID__HIDDeviceDescriptor {
 public:
   // Declarations
-  /// @brief Method FromJson, addr 0x314a784, size 0xf28, virtual false, abstract: false, final false
+  /// @brief Method FromJson, addr 0x316e224, size 0xf28, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor FromJson(::StringW json);
 
-  /// @brief Method ToJson, addr 0x314c2f0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ToJson, addr 0x316fce0, size 0x70, virtual false, abstract: false, final false
   inline ::StringW ToJson();
 
   // Ctor Parameters []
@@ -478,7 +478,7 @@ public:
   /// @brief Field parentLayout, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_parentLayout, put = __cordl_internal_set_parentLayout))::StringW parentLayout;
 
-  /// @brief Method Build, addr 0x314c490, size 0xcac, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x316fe80, size 0xcb4, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::InputControlLayout* Build();
 
   static inline ::UnityEngine::InputSystem::HID::__HID__HIDLayoutBuilder* New_ctor();
@@ -507,7 +507,7 @@ public:
 
   constexpr void __cordl_internal_set_parentLayout(::StringW value);
 
-  /// @brief Method .ctor, addr 0x314a77c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x316e21c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -793,71 +793,71 @@ public:
 
   __declspec(property(get = get_minFloatValue)) float_t minFloatValue;
 
-  /// @brief Method AddChildControls, addr 0x314daa4, size 0x65c, virtual false, abstract: false, final false
+  /// @brief Method AddChildControls, addr 0x31714a0, size 0x65c, virtual false, abstract: false, final false
   inline void AddChildControls(ByRef<::UnityEngine::InputSystem::HID::__HID__HIDElementDescriptor> element, ::StringW controlName,
                                ByRef<::UnityEngine::InputSystem::Layouts::__InputControlLayout__Builder*> builder);
 
-  /// @brief Method DetermineAxisNormalizationParameters, addr 0x314e35c, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method DetermineAxisNormalizationParameters, addr 0x3171d58, size 0x1c8, virtual false, abstract: false, final false
   inline ::StringW DetermineAxisNormalizationParameters();
 
-  /// @brief Method DetermineDefaultState, addr 0x314d2b8, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method DetermineDefaultState, addr 0x3170cb0, size 0xc8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::PrimitiveValue DetermineDefaultState();
 
-  /// @brief Method DetermineDisplayName, addr 0x314d710, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method DetermineDisplayName, addr 0x3171108, size 0xfc, virtual false, abstract: false, final false
   inline ::StringW DetermineDisplayName();
 
-  /// @brief Method DetermineFormat, addr 0x314d80c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method DetermineFormat, addr 0x3171204, size 0x10c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::FourCC DetermineFormat();
 
-  /// @brief Method DetermineLayout, addr 0x314d414, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method DetermineLayout, addr 0x3170e0c, size 0xec, virtual false, abstract: false, final false
   inline ::StringW DetermineLayout();
 
-  /// @brief Method DetermineName, addr 0x314d500, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method DetermineName, addr 0x3170ef8, size 0x210, virtual false, abstract: false, final false
   inline ::StringW DetermineName();
 
-  /// @brief Method DetermineParameters, addr 0x314d13c, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method DetermineParameters, addr 0x3170b34, size 0x170, virtual false, abstract: false, final false
   inline ::StringW DetermineParameters();
 
-  /// @brief Method DetermineProcessors, addr 0x314d380, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method DetermineProcessors, addr 0x3170d78, size 0x70, virtual false, abstract: false, final false
   inline ::StringW DetermineProcessors();
 
-  /// @brief Method DetermineUsages, addr 0x314d914, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method DetermineUsages, addr 0x3171310, size 0x190, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::InputSystem::Utilities::InternedString, ::Array<::UnityEngine::InputSystem::Utilities::InternedString>*> DetermineUsages();
 
-  /// @brief Method Is, addr 0x314d3f0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Is, addr 0x3170de8, size 0x24, virtual false, abstract: false, final false
   inline bool Is(::UnityEngine::InputSystem::HID::__HID__UsagePage usagePage, int32_t usage);
 
-  /// @brief Method IsUsableElement, addr 0x314a744, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method IsUsableElement, addr 0x316e1e4, size 0x38, virtual false, abstract: false, final false
   inline bool IsUsableElement();
 
-  /// @brief Method get_hasNullState, addr 0x314e1c0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_hasNullState, addr 0x3171bbc, size 0xc, virtual false, abstract: false, final false
   inline bool get_hasNullState();
 
-  /// @brief Method get_hasPreferredState, addr 0x314e1cc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_hasPreferredState, addr 0x3171bc8, size 0x10, virtual false, abstract: false, final false
   inline bool get_hasPreferredState();
 
-  /// @brief Method get_isArray, addr 0x314e1dc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_isArray, addr 0x3171bd8, size 0x10, virtual false, abstract: false, final false
   inline bool get_isArray();
 
-  /// @brief Method get_isConstant, addr 0x314e204, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isConstant, addr 0x3171c00, size 0xc, virtual false, abstract: false, final false
   inline bool get_isConstant();
 
-  /// @brief Method get_isNonLinear, addr 0x314e1ec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isNonLinear, addr 0x3171be8, size 0xc, virtual false, abstract: false, final false
   inline bool get_isNonLinear();
 
-  /// @brief Method get_isRelative, addr 0x314e1f8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isRelative, addr 0x3171bf4, size 0xc, virtual false, abstract: false, final false
   inline bool get_isRelative();
 
-  /// @brief Method get_isSigned, addr 0x314d2ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isSigned, addr 0x3170ca4, size 0xc, virtual false, abstract: false, final false
   inline bool get_isSigned();
 
-  /// @brief Method get_isWrapping, addr 0x314e210, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isWrapping, addr 0x3171c0c, size 0xc, virtual false, abstract: false, final false
   inline bool get_isWrapping();
 
-  /// @brief Method get_maxFloatValue, addr 0x314e2b8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_maxFloatValue, addr 0x3171cb4, size 0xa4, virtual false, abstract: false, final false
   inline float_t get_maxFloatValue();
 
-  /// @brief Method get_minFloatValue, addr 0x314e21c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_minFloatValue, addr 0x3171c18, size 0x9c, virtual false, abstract: false, final false
   inline float_t get_minFloatValue();
 
   // Ctor Parameters []
@@ -1031,28 +1031,28 @@ namespace UnityEngine::InputSystem::HID {
 struct CORDL_TYPE __HID__HIDDeviceDescriptorBuilder {
 public:
   // Declarations
-  /// @brief Method AddElement, addr 0x314e954, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method AddElement, addr 0x3172350, size 0x48, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptorBuilder AddElement(::UnityEngine::InputSystem::HID::__HID__GenericDesktop usage, int32_t sizeInBits);
 
-  /// @brief Method AddElement, addr 0x314e580, size 0x3d4, virtual false, abstract: false, final false
+  /// @brief Method AddElement, addr 0x3171f7c, size 0x3d4, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptorBuilder AddElement(::UnityEngine::InputSystem::HID::__HID__UsagePage usagePage, int32_t usage, int32_t sizeInBits);
 
-  /// @brief Method Finish, addr 0x314eca8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Finish, addr 0x31726a4, size 0xb0, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor Finish();
 
-  /// @brief Method StartReport, addr 0x314e558, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method StartReport, addr 0x3171f54, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptorBuilder StartReport(::UnityEngine::InputSystem::HID::__HID__HIDReportType reportType, int32_t reportId);
 
-  /// @brief Method WithLogicalMinMax, addr 0x314eb30, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method WithLogicalMinMax, addr 0x317252c, size 0x178, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptorBuilder WithLogicalMinMax(int32_t min, int32_t max);
 
-  /// @brief Method WithPhysicalMinMax, addr 0x314e99c, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method WithPhysicalMinMax, addr 0x3172398, size 0x194, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptorBuilder WithPhysicalMinMax(int32_t min, int32_t max);
 
-  /// @brief Method .ctor, addr 0x314e53c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3171f38, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::HID::__HID__GenericDesktop usage);
 
-  /// @brief Method .ctor, addr 0x314e524, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3171f20, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::HID::__HID__UsagePage usagePage, int32_t usage);
 
   // Ctor Parameters []
@@ -1787,7 +1787,7 @@ public:
 
   static inline ::UnityEngine::InputSystem::HID::__HID____c__DisplayClass12_0* New_ctor();
 
-  /// @brief Method <OnFindLayoutForDevice>b__0, addr 0x314ed58, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <OnFindLayoutForDevice>b__0, addr 0x3172754, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::InputControlLayout* _OnFindLayoutForDevice_b__0();
 
   constexpr ::UnityEngine::InputSystem::HID::__HID__HIDLayoutBuilder*& __cordl_internal_get_layout();
@@ -1796,7 +1796,7 @@ public:
 
   constexpr void __cordl_internal_set_layout(::UnityEngine::InputSystem::HID::__HID__HIDLayoutBuilder* value);
 
-  /// @brief Method .ctor, addr 0x3149fdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x316dae4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1825,7 +1825,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::HID::__HID____c__DisplayClass
 
 } // namespace UnityEngine::InputSystem::HID
 // Type: UnityEngine.InputSystem.HID::HID
-// SizeInfo { instance_size: 400, native_size: -1, calculated_instance_size: 400, calculated_native_size: 400, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 424, native_size: -1, calculated_instance_size: 424, calculated_native_size: 424, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::HID {
 // Is value type: false
 // CS Name: ::UnityEngine.InputSystem.HID::HID*
@@ -1860,26 +1860,26 @@ public:
 
   __declspec(property(get = get_hidDescriptor))::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor hidDescriptor;
 
-  /// @brief Field m_HIDDescriptor, offset 0x160, size 0x30
+  /// @brief Field m_HIDDescriptor, offset 0x178, size 0x30
   __declspec(property(get = __cordl_internal_get_m_HIDDescriptor, put = __cordl_internal_set_m_HIDDescriptor))::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor m_HIDDescriptor;
 
-  /// @brief Field m_HaveParsedHIDDescriptor, offset 0x158, size 0x1
+  /// @brief Field m_HaveParsedHIDDescriptor, offset 0x170, size 0x1
   __declspec(property(get = __cordl_internal_get_m_HaveParsedHIDDescriptor, put = __cordl_internal_set_m_HaveParsedHIDDescriptor)) bool m_HaveParsedHIDDescriptor;
 
   static inline ::UnityEngine::InputSystem::HID::HID* New_ctor();
 
-  /// @brief Method OnFindLayoutForDevice, addr 0x3149694, size 0x948, virtual false, abstract: false, final false
+  /// @brief Method OnFindLayoutForDevice, addr 0x316d17c, size 0x968, virtual false, abstract: false, final false
   static inline ::StringW OnFindLayoutForDevice(ByRef<::UnityEngine::InputSystem::Layouts::InputDeviceDescription> description, ::StringW matchedLayout,
                                                 ::UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate* executeDeviceCommand);
 
-  /// @brief Method ReadHIDDeviceDescriptor, addr 0x3149fe4, size 0x6f8, virtual false, abstract: false, final false
+  /// @brief Method ReadHIDDeviceDescriptor, addr 0x316daec, size 0x6f8, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor ReadHIDDeviceDescriptor(ByRef<::UnityEngine::InputSystem::Layouts::InputDeviceDescription> deviceDescription,
                                                                                                     ::UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate* executeCommandDelegate);
 
-  /// @brief Method UsagePageToString, addr 0x314c360, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method UsagePageToString, addr 0x316fd50, size 0x8c, virtual false, abstract: false, final false
   static inline ::StringW UsagePageToString(::UnityEngine::InputSystem::HID::__HID__UsagePage usagePage);
 
-  /// @brief Method UsageToString, addr 0x314c3ec, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method UsageToString, addr 0x316fddc, size 0x9c, virtual false, abstract: false, final false
   static inline ::StringW UsageToString(::UnityEngine::InputSystem::HID::__HID__UsagePage usagePage, int32_t usage);
 
   constexpr ::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor const& __cordl_internal_get_m_HIDDescriptor() const;
@@ -1894,19 +1894,19 @@ public:
 
   constexpr void __cordl_internal_set_m_HaveParsedHIDDescriptor(bool value);
 
-  /// @brief Method .ctor, addr 0x314c488, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x316fe78, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_QueryHIDParsedReportDescriptorDeviceCommandType, addr 0x31495c0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_QueryHIDParsedReportDescriptorDeviceCommandType, addr 0x316d0a0, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_QueryHIDParsedReportDescriptorDeviceCommandType();
 
-  /// @brief Method get_QueryHIDReportDescriptorDeviceCommandType, addr 0x3149560, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_QueryHIDReportDescriptorDeviceCommandType, addr 0x316d040, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_QueryHIDReportDescriptorDeviceCommandType();
 
-  /// @brief Method get_QueryHIDReportDescriptorSizeDeviceCommandType, addr 0x3149590, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_QueryHIDReportDescriptorSizeDeviceCommandType, addr 0x316d070, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_QueryHIDReportDescriptorSizeDeviceCommandType();
 
-  /// @brief Method get_hidDescriptor, addr 0x31495f0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_hidDescriptor, addr 0x316d0d0, size 0xac, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor get_hidDescriptor();
 
 protected:
@@ -1923,10 +1923,10 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HID(HID const&) = delete;
 
-  /// @brief Field m_HaveParsedHIDDescriptor, offset: 0x158, size: 0x1, def value: None
+  /// @brief Field m_HaveParsedHIDDescriptor, offset: 0x170, size: 0x1, def value: None
   bool ___m_HaveParsedHIDDescriptor;
 
-  /// @brief Field m_HIDDescriptor, offset: 0x160, size: 0x30, def value: None
+  /// @brief Field m_HIDDescriptor, offset: 0x178, size: 0x30, def value: None
   ::UnityEngine::InputSystem::HID::__HID__HIDDeviceDescriptor ___m_HIDDescriptor;
 
   /// @brief Field kHIDInterface offset 0xffffffff size 0x8
@@ -1938,11 +1938,11 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::HID::HID, 0x190>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::HID::HID, 0x1a8>, "Size mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::HID::HID, ___m_HaveParsedHIDDescriptor) == 0x158, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::HID::HID, ___m_HaveParsedHIDDescriptor) == 0x170, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::HID::HID, ___m_HIDDescriptor) == 0x160, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::HID::HID, ___m_HIDDescriptor) == 0x178, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem::HID
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::HID::__HID__Button, "UnityEngine.InputSystem.HID", "HID/Button");

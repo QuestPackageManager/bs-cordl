@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ProfilerUnsafeUtility)
+namespace System {
+struct IntPtr;
+}
 namespace Unity::Profiling::LowLevel {
 struct MarkerFlags;
 }
@@ -24,14 +27,14 @@ namespace Unity::Profiling::LowLevel::Unsafe {
 class CORDL_TYPE ProfilerUnsafeUtility : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method BeginSample, addr 0x33d4f4c, size 0x3c, virtual false, abstract: false, final false
-  static inline void BeginSample(void* markerPtr);
+  /// @brief Method BeginSample, addr 0x33fe440, size 0x3c, virtual false, abstract: false, final false
+  static inline void BeginSample(::System::IntPtr markerPtr);
 
-  /// @brief Method CreateMarker, addr 0x33d4dc8, size 0x5c, virtual false, abstract: false, final false
-  static inline void* CreateMarker(::StringW name, uint16_t categoryId, ::Unity::Profiling::LowLevel::MarkerFlags flags, int32_t metadataCount);
+  /// @brief Method CreateMarker, addr 0x33fe2bc, size 0x5c, virtual false, abstract: false, final false
+  static inline ::System::IntPtr CreateMarker(::StringW name, uint16_t categoryId, ::Unity::Profiling::LowLevel::MarkerFlags flags, int32_t metadataCount);
 
-  /// @brief Method EndSample, addr 0x33d5018, size 0x3c, virtual false, abstract: false, final false
-  static inline void EndSample(void* markerPtr);
+  /// @brief Method EndSample, addr 0x33fe50c, size 0x3c, virtual false, abstract: false, final false
+  static inline void EndSample(::System::IntPtr markerPtr);
 
 protected:
   // Ctor Parameters []

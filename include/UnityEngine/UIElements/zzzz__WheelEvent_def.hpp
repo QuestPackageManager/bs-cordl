@@ -34,16 +34,16 @@ public:
 
   __declspec(property(get = get_delta, put = set_delta))::UnityEngine::Vector3 delta;
 
-  /// @brief Method GetPooled, addr 0x35a62e0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x35d17dc, size 0x78, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::WheelEvent* GetPooled(::UnityEngine::Vector3 delta, ::UnityEngine::UIElements::IPointerEvent* pointerEvent);
 
-  /// @brief Method GetPooled, addr 0x35a6264, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x35d1760, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::WheelEvent* GetPooled(::UnityEngine::Event* systemEvent);
 
-  /// @brief Method Init, addr 0x35a6358, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x35d1854, size 0x50, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x35a63a8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x35d18a4, size 0x60, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::WheelEvent* New_ctor();
@@ -54,13 +54,13 @@ public:
 
   constexpr void __cordl_internal_set__delta_k__BackingField(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x35a6408, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35d1904, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_delta, addr 0x35a624c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_delta, addr 0x35d1748, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_delta();
 
-  /// @brief Method set_delta, addr 0x35a6258, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_delta, addr 0x35d1754, size 0xc, virtual false, abstract: false, final false
   inline void set_delta(::UnityEngine::Vector3 value);
 
 protected:

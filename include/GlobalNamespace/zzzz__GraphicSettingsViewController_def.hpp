@@ -34,7 +34,7 @@ public:
 
   constexpr void __cordl_internal_set__graphicSettingsHandler(::BeatSaber::GameSettings::GraphicSettingsHandler* value);
 
-  /// @brief Method .ctor, addr 0x265f9bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2678dbc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

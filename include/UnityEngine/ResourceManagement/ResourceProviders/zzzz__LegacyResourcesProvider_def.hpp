@@ -50,18 +50,18 @@ public:
   /// @brief Field m_RequestOperation, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_RequestOperation, put = __cordl_internal_set_m_RequestOperation))::UnityEngine::ResourceRequest* m_RequestOperation;
 
-  /// @brief Method AsyncOperationCompleted, addr 0x330e1c4, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method AsyncOperationCompleted, addr 0x3337518, size 0x184, virtual false, abstract: false, final false
   inline void AsyncOperationCompleted(::UnityEngine::AsyncOperation* op);
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::__LegacyResourcesProvider__InternalOp* New_ctor();
 
-  /// @brief Method PercentComplete, addr 0x330e348, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method PercentComplete, addr 0x333769c, size 0x18, virtual false, abstract: false, final false
   inline float_t PercentComplete();
 
-  /// @brief Method Start, addr 0x330def0, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3337244, size 0x190, virtual false, abstract: false, final false
   inline void Start(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle);
 
-  /// @brief Method WaitForCompletionHandler, addr 0x330e1b0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method WaitForCompletionHandler, addr 0x3337504, size 0x14, virtual false, abstract: false, final false
   inline bool WaitForCompletionHandler();
 
   constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle const& __cordl_internal_get_m_ProvideHandle() const;
@@ -76,7 +76,7 @@ public:
 
   constexpr void __cordl_internal_set_m_RequestOperation(::UnityEngine::ResourceRequest* value);
 
-  /// @brief Method .ctor, addr 0x330dee8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x333723c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -121,13 +121,13 @@ public:
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::LegacyResourcesProvider* New_ctor();
 
-  /// @brief Method Provide, addr 0x330dafc, size 0x3ec, virtual true, abstract: false, final false
+  /// @brief Method Provide, addr 0x3336e50, size 0x3ec, virtual true, abstract: false, final false
   inline void Provide(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle pi);
 
-  /// @brief Method Release, addr 0x330e080, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method Release, addr 0x33373d4, size 0x128, virtual true, abstract: false, final false
   inline void Release(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::System::Object* asset);
 
-  /// @brief Method .ctor, addr 0x330e1a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33374fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

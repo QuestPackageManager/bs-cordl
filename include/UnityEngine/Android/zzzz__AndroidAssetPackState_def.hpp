@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set__status_k__BackingField(::UnityEngine::Android::AndroidAssetPackStatus value);
 
-  /// @brief Method .ctor, addr 0x33c08c8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33e9dbc, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::UnityEngine::Android::AndroidAssetPackStatus status, ::UnityEngine::Android::AndroidAssetPackError error);
 
 protected:

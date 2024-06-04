@@ -11,9 +11,9 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::InternalThread::*)()>(&::System::Threading::InternalThread::Thread_free_internal)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x29a7260;
+  constexpr static std::size_t addrs = 0x29c38ec;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::InternalThread*>::get(),
                                                                                "Thread_free_internal", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
@@ -24,9 +24,9 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::InternalThread::*)()>(&::System::Threading::InternalThread::Finalize)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x29a7264;
+  constexpr static std::size_t addrs = 0x29c38f0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::InternalThread*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::InternalThread*>::get(), 1));
@@ -38,9 +38,9 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::InternalThread::*)()>(&::System::Threading::InternalThread::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x29a72f8;
+  constexpr static std::size_t addrs = 0x29c3984;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::InternalThread*>::get(), ".ctor",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
@@ -58,39 +58,39 @@ constexpr void System::Threading::InternalThread::__cordl_internal_set_lock_thre
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lock_thread_id = value;
 }
-constexpr void*& System::Threading::InternalThread::__cordl_internal_get_handle() {
+constexpr ::System::IntPtr& System::Threading::InternalThread::__cordl_internal_get_handle() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handle;
 }
-constexpr void* const& System::Threading::InternalThread::__cordl_internal_get_handle() const {
+constexpr ::System::IntPtr const& System::Threading::InternalThread::__cordl_internal_get_handle() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handle;
 }
-constexpr void System::Threading::InternalThread::__cordl_internal_set_handle(void* value) {
+constexpr void System::Threading::InternalThread::__cordl_internal_set_handle(::System::IntPtr value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___handle = value;
 }
-constexpr void*& System::Threading::InternalThread::__cordl_internal_get_native_handle() {
+constexpr ::System::IntPtr& System::Threading::InternalThread::__cordl_internal_get_native_handle() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___native_handle;
 }
-constexpr void* const& System::Threading::InternalThread::__cordl_internal_get_native_handle() const {
+constexpr ::System::IntPtr const& System::Threading::InternalThread::__cordl_internal_get_native_handle() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___native_handle;
 }
-constexpr void System::Threading::InternalThread::__cordl_internal_set_native_handle(void* value) {
+constexpr void System::Threading::InternalThread::__cordl_internal_set_native_handle(::System::IntPtr value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___native_handle = value;
 }
-constexpr void*& System::Threading::InternalThread::__cordl_internal_get_name_chars() {
+constexpr ::System::IntPtr& System::Threading::InternalThread::__cordl_internal_get_name_chars() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___name_chars;
 }
-constexpr void* const& System::Threading::InternalThread::__cordl_internal_get_name_chars() const {
+constexpr ::System::IntPtr const& System::Threading::InternalThread::__cordl_internal_get_name_chars() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___name_chars;
 }
-constexpr void System::Threading::InternalThread::__cordl_internal_set_name_chars(void* value) {
+constexpr void System::Threading::InternalThread::__cordl_internal_set_name_chars(::System::IntPtr value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___name_chars = value;
 }
@@ -166,39 +166,39 @@ constexpr void System::Threading::InternalThread::__cordl_internal_set_thread_id
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___thread_id = value;
 }
-constexpr void*& System::Threading::InternalThread::__cordl_internal_get_debugger_thread() {
+constexpr ::System::IntPtr& System::Threading::InternalThread::__cordl_internal_get_debugger_thread() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___debugger_thread;
 }
-constexpr void* const& System::Threading::InternalThread::__cordl_internal_get_debugger_thread() const {
+constexpr ::System::IntPtr const& System::Threading::InternalThread::__cordl_internal_get_debugger_thread() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___debugger_thread;
 }
-constexpr void System::Threading::InternalThread::__cordl_internal_set_debugger_thread(void* value) {
+constexpr void System::Threading::InternalThread::__cordl_internal_set_debugger_thread(::System::IntPtr value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___debugger_thread = value;
 }
-constexpr void*& System::Threading::InternalThread::__cordl_internal_get_static_data() {
+constexpr ::System::UIntPtr& System::Threading::InternalThread::__cordl_internal_get_static_data() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___static_data;
 }
-constexpr void* const& System::Threading::InternalThread::__cordl_internal_get_static_data() const {
+constexpr ::System::UIntPtr const& System::Threading::InternalThread::__cordl_internal_get_static_data() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___static_data;
 }
-constexpr void System::Threading::InternalThread::__cordl_internal_set_static_data(void* value) {
+constexpr void System::Threading::InternalThread::__cordl_internal_set_static_data(::System::UIntPtr value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___static_data = value;
 }
-constexpr void*& System::Threading::InternalThread::__cordl_internal_get_runtime_thread_info() {
+constexpr ::System::IntPtr& System::Threading::InternalThread::__cordl_internal_get_runtime_thread_info() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___runtime_thread_info;
 }
-constexpr void* const& System::Threading::InternalThread::__cordl_internal_get_runtime_thread_info() const {
+constexpr ::System::IntPtr const& System::Threading::InternalThread::__cordl_internal_get_runtime_thread_info() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___runtime_thread_info;
 }
-constexpr void System::Threading::InternalThread::__cordl_internal_set_runtime_thread_info(void* value) {
+constexpr void System::Threading::InternalThread::__cordl_internal_set_runtime_thread_info(::System::IntPtr value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___runtime_thread_info = value;
 }
@@ -250,15 +250,15 @@ constexpr void System::Threading::InternalThread::__cordl_internal_set__serializ
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____serialized_principal_version = value;
 }
-constexpr void*& System::Threading::InternalThread::__cordl_internal_get_appdomain_refs() {
+constexpr ::System::IntPtr& System::Threading::InternalThread::__cordl_internal_get_appdomain_refs() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___appdomain_refs;
 }
-constexpr void* const& System::Threading::InternalThread::__cordl_internal_get_appdomain_refs() const {
+constexpr ::System::IntPtr const& System::Threading::InternalThread::__cordl_internal_get_appdomain_refs() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___appdomain_refs;
 }
-constexpr void System::Threading::InternalThread::__cordl_internal_set_appdomain_refs(void* value) {
+constexpr void System::Threading::InternalThread::__cordl_internal_set_appdomain_refs(::System::IntPtr value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___appdomain_refs = value;
 }
@@ -274,15 +274,15 @@ constexpr void System::Threading::InternalThread::__cordl_internal_set_interrupt
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___interruption_requested = value;
 }
-constexpr void*& System::Threading::InternalThread::__cordl_internal_get_longlived() {
+constexpr ::System::IntPtr& System::Threading::InternalThread::__cordl_internal_get_longlived() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___longlived;
 }
-constexpr void* const& System::Threading::InternalThread::__cordl_internal_get_longlived() const {
+constexpr ::System::IntPtr const& System::Threading::InternalThread::__cordl_internal_get_longlived() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___longlived;
 }
-constexpr void System::Threading::InternalThread::__cordl_internal_set_longlived(void* value) {
+constexpr void System::Threading::InternalThread::__cordl_internal_set_longlived(::System::IntPtr value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___longlived = value;
 }
@@ -370,51 +370,51 @@ constexpr void System::Threading::InternalThread::__cordl_internal_set_small_id(
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___small_id = value;
 }
-constexpr void*& System::Threading::InternalThread::__cordl_internal_get_manage_callback() {
+constexpr ::System::IntPtr& System::Threading::InternalThread::__cordl_internal_get_manage_callback() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___manage_callback;
 }
-constexpr void* const& System::Threading::InternalThread::__cordl_internal_get_manage_callback() const {
+constexpr ::System::IntPtr const& System::Threading::InternalThread::__cordl_internal_get_manage_callback() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___manage_callback;
 }
-constexpr void System::Threading::InternalThread::__cordl_internal_set_manage_callback(void* value) {
+constexpr void System::Threading::InternalThread::__cordl_internal_set_manage_callback(::System::IntPtr value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___manage_callback = value;
 }
-constexpr void*& System::Threading::InternalThread::__cordl_internal_get_flags() {
+constexpr ::System::IntPtr& System::Threading::InternalThread::__cordl_internal_get_flags() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___flags;
 }
-constexpr void* const& System::Threading::InternalThread::__cordl_internal_get_flags() const {
+constexpr ::System::IntPtr const& System::Threading::InternalThread::__cordl_internal_get_flags() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___flags;
 }
-constexpr void System::Threading::InternalThread::__cordl_internal_set_flags(void* value) {
+constexpr void System::Threading::InternalThread::__cordl_internal_set_flags(::System::IntPtr value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___flags = value;
 }
-constexpr void*& System::Threading::InternalThread::__cordl_internal_get_thread_pinning_ref() {
+constexpr ::System::IntPtr& System::Threading::InternalThread::__cordl_internal_get_thread_pinning_ref() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___thread_pinning_ref;
 }
-constexpr void* const& System::Threading::InternalThread::__cordl_internal_get_thread_pinning_ref() const {
+constexpr ::System::IntPtr const& System::Threading::InternalThread::__cordl_internal_get_thread_pinning_ref() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___thread_pinning_ref;
 }
-constexpr void System::Threading::InternalThread::__cordl_internal_set_thread_pinning_ref(void* value) {
+constexpr void System::Threading::InternalThread::__cordl_internal_set_thread_pinning_ref(::System::IntPtr value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___thread_pinning_ref = value;
 }
-constexpr void*& System::Threading::InternalThread::__cordl_internal_get_abort_protected_block_count() {
+constexpr ::System::IntPtr& System::Threading::InternalThread::__cordl_internal_get_abort_protected_block_count() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___abort_protected_block_count;
 }
-constexpr void* const& System::Threading::InternalThread::__cordl_internal_get_abort_protected_block_count() const {
+constexpr ::System::IntPtr const& System::Threading::InternalThread::__cordl_internal_get_abort_protected_block_count() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___abort_protected_block_count;
 }
-constexpr void System::Threading::InternalThread::__cordl_internal_set_abort_protected_block_count(void* value) {
+constexpr void System::Threading::InternalThread::__cordl_internal_set_abort_protected_block_count(::System::IntPtr value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___abort_protected_block_count = value;
 }
@@ -430,27 +430,27 @@ constexpr void System::Threading::InternalThread::__cordl_internal_set_priority(
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___priority = value;
 }
-constexpr void*& System::Threading::InternalThread::__cordl_internal_get_owned_mutex() {
+constexpr ::System::IntPtr& System::Threading::InternalThread::__cordl_internal_get_owned_mutex() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___owned_mutex;
 }
-constexpr void* const& System::Threading::InternalThread::__cordl_internal_get_owned_mutex() const {
+constexpr ::System::IntPtr const& System::Threading::InternalThread::__cordl_internal_get_owned_mutex() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___owned_mutex;
 }
-constexpr void System::Threading::InternalThread::__cordl_internal_set_owned_mutex(void* value) {
+constexpr void System::Threading::InternalThread::__cordl_internal_set_owned_mutex(::System::IntPtr value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___owned_mutex = value;
 }
-constexpr void*& System::Threading::InternalThread::__cordl_internal_get_suspended_event() {
+constexpr ::System::IntPtr& System::Threading::InternalThread::__cordl_internal_get_suspended_event() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___suspended_event;
 }
-constexpr void* const& System::Threading::InternalThread::__cordl_internal_get_suspended_event() const {
+constexpr ::System::IntPtr const& System::Threading::InternalThread::__cordl_internal_get_suspended_event() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___suspended_event;
 }
-constexpr void System::Threading::InternalThread::__cordl_internal_set_suspended_event(void* value) {
+constexpr void System::Threading::InternalThread::__cordl_internal_set_suspended_event(::System::IntPtr value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___suspended_event = value;
 }
@@ -466,63 +466,63 @@ constexpr void System::Threading::InternalThread::__cordl_internal_set_self_susp
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___self_suspended = value;
 }
-constexpr void*& System::Threading::InternalThread::__cordl_internal_get_thread_state() {
+constexpr ::System::IntPtr& System::Threading::InternalThread::__cordl_internal_get_thread_state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___thread_state;
 }
-constexpr void* const& System::Threading::InternalThread::__cordl_internal_get_thread_state() const {
+constexpr ::System::IntPtr const& System::Threading::InternalThread::__cordl_internal_get_thread_state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___thread_state;
 }
-constexpr void System::Threading::InternalThread::__cordl_internal_set_thread_state(void* value) {
+constexpr void System::Threading::InternalThread::__cordl_internal_set_thread_state(::System::IntPtr value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___thread_state = value;
 }
-constexpr void*& System::Threading::InternalThread::__cordl_internal_get_netcore0() {
+constexpr ::System::IntPtr& System::Threading::InternalThread::__cordl_internal_get_netcore0() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___netcore0;
 }
-constexpr void* const& System::Threading::InternalThread::__cordl_internal_get_netcore0() const {
+constexpr ::System::IntPtr const& System::Threading::InternalThread::__cordl_internal_get_netcore0() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___netcore0;
 }
-constexpr void System::Threading::InternalThread::__cordl_internal_set_netcore0(void* value) {
+constexpr void System::Threading::InternalThread::__cordl_internal_set_netcore0(::System::IntPtr value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___netcore0 = value;
 }
-constexpr void*& System::Threading::InternalThread::__cordl_internal_get_netcore1() {
+constexpr ::System::IntPtr& System::Threading::InternalThread::__cordl_internal_get_netcore1() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___netcore1;
 }
-constexpr void* const& System::Threading::InternalThread::__cordl_internal_get_netcore1() const {
+constexpr ::System::IntPtr const& System::Threading::InternalThread::__cordl_internal_get_netcore1() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___netcore1;
 }
-constexpr void System::Threading::InternalThread::__cordl_internal_set_netcore1(void* value) {
+constexpr void System::Threading::InternalThread::__cordl_internal_set_netcore1(::System::IntPtr value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___netcore1 = value;
 }
-constexpr void*& System::Threading::InternalThread::__cordl_internal_get_netcore2() {
+constexpr ::System::IntPtr& System::Threading::InternalThread::__cordl_internal_get_netcore2() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___netcore2;
 }
-constexpr void* const& System::Threading::InternalThread::__cordl_internal_get_netcore2() const {
+constexpr ::System::IntPtr const& System::Threading::InternalThread::__cordl_internal_get_netcore2() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___netcore2;
 }
-constexpr void System::Threading::InternalThread::__cordl_internal_set_netcore2(void* value) {
+constexpr void System::Threading::InternalThread::__cordl_internal_set_netcore2(::System::IntPtr value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___netcore2 = value;
 }
-constexpr void*& System::Threading::InternalThread::__cordl_internal_get_last() {
+constexpr ::System::IntPtr& System::Threading::InternalThread::__cordl_internal_get_last() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___last;
 }
-constexpr void* const& System::Threading::InternalThread::__cordl_internal_get_last() const {
+constexpr ::System::IntPtr const& System::Threading::InternalThread::__cordl_internal_get_last() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___last;
 }
-constexpr void System::Threading::InternalThread::__cordl_internal_set_last(void* value) {
+constexpr void System::Threading::InternalThread::__cordl_internal_set_last(::System::IntPtr value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___last = value;
 }

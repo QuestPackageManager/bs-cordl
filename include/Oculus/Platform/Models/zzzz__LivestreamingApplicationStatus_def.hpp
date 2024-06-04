@@ -6,6 +6,9 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LivestreamingApplicationStatus)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class LivestreamingApplicationStatus;
@@ -23,7 +26,7 @@ public:
   /// @brief Field StreamingEnabled, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_StreamingEnabled, put = __cordl_internal_set_StreamingEnabled)) bool StreamingEnabled;
 
-  static inline ::Oculus::Platform::Models::LivestreamingApplicationStatus* New_ctor(void* o);
+  static inline ::Oculus::Platform::Models::LivestreamingApplicationStatus* New_ctor(::System::IntPtr o);
 
   constexpr bool const& __cordl_internal_get_StreamingEnabled() const;
 
@@ -31,8 +34,8 @@ public:
 
   constexpr void __cordl_internal_set_StreamingEnabled(bool value);
 
-  /// @brief Method .ctor, addr 0x2add3c4, size 0x7c, virtual false, abstract: false, final false
-  inline void _ctor(void* o);
+  /// @brief Method .ctor, addr 0x2afda50, size 0x7c, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr o);
 
 protected:
   // Ctor Parameters []

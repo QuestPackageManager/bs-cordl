@@ -33,13 +33,13 @@ public:
   /// @brief Method LoadAllAssetsFromAssetDatabase, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T, ::Array<T>*> LoadAllAssetsFromAssetDatabase();
 
-  /// @brief Method LoadBeatmapLevelDataFromAssetDatabase, addr 0x14f0868, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method LoadBeatmapLevelDataFromAssetDatabase, addr 0x14f6d80, size 0x74, virtual false, abstract: false, final false
   static inline ::UnityW<::GlobalNamespace::BeatmapLevelDataSO> LoadBeatmapLevelDataFromAssetDatabase(::StringW levelId);
 
-  /// @brief Method LoadBeatmapLevelFromAssetDatabase, addr 0x14f08dc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method LoadBeatmapLevelFromAssetDatabase, addr 0x14f6df4, size 0x74, virtual false, abstract: false, final false
   static inline ::UnityW<::GlobalNamespace::BeatmapLevelSO> LoadBeatmapLevelFromAssetDatabase(::StringW levelId);
 
-  /// @brief Method LoadBeatmapLevelPackFromAssetDatabase, addr 0x14f0950, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method LoadBeatmapLevelPackFromAssetDatabase, addr 0x14f6e68, size 0x74, virtual false, abstract: false, final false
   static inline ::UnityW<::GlobalNamespace::BeatmapLevelPackSO> LoadBeatmapLevelPackFromAssetDatabase(::StringW packId);
 
   /// @brief Method LoadUniqueAssetFromAssetDatabase, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

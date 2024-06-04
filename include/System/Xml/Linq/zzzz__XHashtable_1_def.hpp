@@ -21,6 +21,9 @@ namespace System::Xml::Linq {
 template <typename TValue> class __XHashtable_1__XHashtableState;
 }
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Object;
 }
 // Forward declare root types
@@ -54,10 +57,10 @@ public:
   /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW Invoke(TValue value);
 
-  static inline ::System::Xml::Linq::__XHashtable_1__ExtractKeyDelegate<TValue>* New_ctor(::System::Object* object, void* method);
+  static inline ::System::Xml::Linq::__XHashtable_1__ExtractKeyDelegate<TValue>* New_ctor(::System::Object* object, ::System::IntPtr method);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []

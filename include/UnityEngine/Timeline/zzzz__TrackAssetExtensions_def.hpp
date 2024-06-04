@@ -25,10 +25,10 @@ namespace UnityEngine::Timeline {
 class CORDL_TYPE TrackAssetExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetGroup, addr 0x339f220, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GetGroup, addr 0x33c8574, size 0xc4, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Timeline::GroupTrack> GetGroup(::UnityEngine::Timeline::TrackAsset* asset);
 
-  /// @brief Method SetGroup, addr 0x339f2e4, size 0x330, virtual false, abstract: false, final false
+  /// @brief Method SetGroup, addr 0x33c8638, size 0x330, virtual false, abstract: false, final false
   static inline void SetGroup(::UnityEngine::Timeline::TrackAsset* asset, ::UnityEngine::Timeline::GroupTrack* group);
 
 protected:

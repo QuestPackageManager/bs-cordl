@@ -48,13 +48,13 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IRenderingParamsApplicator"
   constexpr operator ::GlobalNamespace::IRenderingParamsApplicator*() noexcept;
 
-  /// @brief Method Apply, addr 0x2696dc4, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method Apply, addr 0x26afd5c, size 0x18, virtual true, abstract: false, final true
   inline void Apply(::GlobalNamespace::SceneType sceneType, ::StringW optionalEnvironmentSerializedName);
 
-  /// @brief Method ApplyGraphicsSettings, addr 0x2696ddc, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method ApplyGraphicsSettings, addr 0x26afd74, size 0xec, virtual false, abstract: false, final false
   inline void ApplyGraphicsSettings(::GlobalNamespace::SceneType sceneType, ::StringW optionalEnvironmentSerializedName);
 
-  /// @brief Method ApplyMainSettings, addr 0x2696ec8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ApplyMainSettings, addr 0x26afe60, size 0x64, virtual false, abstract: false, final false
   inline void ApplyMainSettings();
 
   static inline ::GlobalNamespace::RenderingParamsSetupApplicator* New_ctor();
@@ -77,7 +77,7 @@ public:
 
   constexpr void __cordl_internal_set__settingsApplicator(::UnityW<::GlobalNamespace::SettingsApplicatorSO> value);
 
-  /// @brief Method .ctor, addr 0x2696f74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26affcc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IRenderingParamsApplicator"

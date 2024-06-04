@@ -32,13 +32,13 @@ public:
 
   static inline ::System::Data::DeletedRowInaccessibleException* New_ctor(::StringW s);
 
-  /// @brief Method .ctor, addr 0x2c82590, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ca2c80, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2c82588, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ca2c78, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x2c825ec, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ca2cdc, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW s);
 
 protected:

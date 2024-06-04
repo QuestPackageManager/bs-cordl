@@ -8,6 +8,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ArgIterator)
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Object;
 }
 // Forward declare root types
@@ -24,25 +27,25 @@ namespace System {
 struct CORDL_TYPE ArgIterator {
 public:
   // Declarations
-  /// @brief Method Equals, addr 0x297c1c0, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x299684c, size 0x50, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method GetHashCode, addr 0x297c210, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x299689c, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr ArgIterator();
 
-  // Ctor Parameters [CppParam { name: "sig", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "args", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "next_arg", ty:
-  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "num_args", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr ArgIterator(void* sig, void* args, int32_t next_arg, int32_t num_args) noexcept;
+  // Ctor Parameters [CppParam { name: "sig", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "args", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam {
+  // name: "next_arg", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "num_args", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr ArgIterator(::System::IntPtr sig, ::System::IntPtr args, int32_t next_arg, int32_t num_args) noexcept;
 
   /// @brief Field sig, offset: 0x0, size: 0x8, def value: None
-  void* sig;
+  ::System::IntPtr sig;
 
   /// @brief Field args, offset: 0x8, size: 0x8, def value: None
-  void* args;
+  ::System::IntPtr args;
 
   /// @brief Field next_arg, offset: 0x10, size: 0x4, def value: None
   int32_t next_arg;

@@ -32,13 +32,13 @@ public:
 
   static inline ::System::Data::InvalidConstraintException* New_ctor(::StringW s);
 
-  /// @brief Method .ctor, addr 0x2c82728, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ca2e18, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2c82720, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ca2e10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x2c82784, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ca2e74, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW s);
 
 protected:

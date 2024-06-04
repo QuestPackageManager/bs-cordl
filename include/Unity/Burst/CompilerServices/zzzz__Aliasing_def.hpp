@@ -20,7 +20,7 @@ namespace Unity::Burst::CompilerServices {
 class CORDL_TYPE Aliasing : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ExpectAliased, addr 0x30a5388, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ExpectAliased, addr 0x30c2b30, size 0x4, virtual false, abstract: false, final false
   static inline void ExpectAliased(::cordl_internals::Ptr<void> a, ::cordl_internals::Ptr<void> b);
 
   /// @brief Method ExpectAliased, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -32,7 +32,7 @@ public:
   /// @brief Method ExpectAliased, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename A, typename B> static inline void ExpectAliased(ByRef<A> a, ByRef<B> b);
 
-  /// @brief Method ExpectNotAliased, addr 0x30a538c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ExpectNotAliased, addr 0x30c2b34, size 0x4, virtual false, abstract: false, final false
   static inline void ExpectNotAliased(::cordl_internals::Ptr<void> a, ::cordl_internals::Ptr<void> b);
 
   /// @brief Method ExpectNotAliased, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

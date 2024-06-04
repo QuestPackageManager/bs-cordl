@@ -67,7 +67,7 @@ public:
   /// @brief Field type, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::StringW type;
 
-  /// @brief Method DeserializeDelegate, addr 0x297fba0, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method DeserializeDelegate, addr 0x299a22c, size 0x278, virtual false, abstract: false, final false
   inline ::System::Delegate* DeserializeDelegate(::System::Runtime::Serialization::SerializationInfo* info, int32_t index);
 
   static inline ::System::__DelegateSerializationHolder__DelegateEntry* New_ctor(::System::Delegate* del, ::StringW targetLabel);
@@ -114,7 +114,7 @@ public:
 
   constexpr void __cordl_internal_set_type(::StringW value);
 
-  /// @brief Method .ctor, addr 0x297fe18, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x299a4a4, size 0x11c, virtual false, abstract: false, final false
   inline void _ctor(::System::Delegate* del, ::StringW targetLabel);
 
 protected:
@@ -191,13 +191,13 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method GetDelegateData, addr 0x297f580, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method GetDelegateData, addr 0x2999c0c, size 0x248, virtual false, abstract: false, final false
   static inline void GetDelegateData(::System::Delegate* instance, ::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext ctx);
 
-  /// @brief Method GetObjectData, addr 0x297ff34, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method GetObjectData, addr 0x299a5c0, size 0x40, virtual true, abstract: false, final true
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetRealObject, addr 0x297ff74, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetRealObject, addr 0x299a600, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* GetRealObject(::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::DelegateSerializationHolder* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext ctx);
@@ -208,7 +208,7 @@ public:
 
   constexpr void __cordl_internal_set__delegate(::System::Delegate* value);
 
-  /// @brief Method .ctor, addr 0x297f9a0, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x299a02c, size 0x200, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext ctx);
 
   /// @brief Convert to "::System::Runtime::Serialization::IObjectReference"

@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::UnityEngine::ExecuteInEditMode* New_ctor();
 
-  /// @brief Method .ctor, addr 0x341081c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3439d10, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

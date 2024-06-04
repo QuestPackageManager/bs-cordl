@@ -35,16 +35,16 @@ public:
   __declspec(property(get = __cordl_internal_get__standardLevelScenesTransitionSetupData,
                       put = __cordl_internal_set__standardLevelScenesTransitionSetupData))::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> _standardLevelScenesTransitionSetupData;
 
-  /// @brief Method HandleStandardLevelDidFinishEvent, addr 0x25fe5a8, size 0x428, virtual false, abstract: false, final false
+  /// @brief Method HandleStandardLevelDidFinishEvent, addr 0x26164ec, size 0x428, virtual false, abstract: false, final false
   inline void HandleStandardLevelDidFinishEvent(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelScenesTransitionSetupData,
                                                 ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
   static inline ::GlobalNamespace::StandardLevelAnalytics* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x25fe51c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2616460, size 0x8c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x25fe490, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x26163d4, size 0x8c, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::IAnalyticsModel*& __cordl_internal_get__analyticsModel();
@@ -59,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set__standardLevelScenesTransitionSetupData(::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0x25fe9d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2616914, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

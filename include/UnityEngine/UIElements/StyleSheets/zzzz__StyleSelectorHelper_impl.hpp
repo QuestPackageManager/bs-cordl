@@ -17,9 +17,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::StyleSheets::MatchResultInfo (*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSelector*)>(&::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper::MatchesSelector)> {
   constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x353e81c;
+  constexpr static std::size_t addrs = 0x3567d18;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper*>::get(), "MatchesSelector", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get(),
@@ -35,9 +35,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                          ::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::MatchResultInfo>*)>(
         &::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper::MatchRightToLeft)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x353ead8;
+  constexpr static std::size_t addrs = 0x3567fd4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper*>::get(), "MatchRightToLeft", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{
@@ -55,9 +55,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                          ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>*, ::UnityEngine::UIElements::StyleMatchingContext*, ::StringW,
                          ByRef<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>)>(&::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper::FastLookup)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x353eca0;
+  constexpr static std::size_t addrs = 0x356819c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper*>::get(), "FastLookup", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 5>{
@@ -75,9 +75,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::UIElements::StyleMatchingContext*, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>*, int32_t)>(
         &::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper::FindMatches)> {
   constexpr static std::size_t size = 0x358;
-  constexpr static std::size_t addrs = 0x353ee64;
+  constexpr static std::size_t addrs = 0x3568360;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper*>::get(), "FindMatches", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{

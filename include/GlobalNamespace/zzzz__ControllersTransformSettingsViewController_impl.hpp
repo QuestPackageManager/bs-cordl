@@ -11,29 +11,13 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ControllersTransformSettingsViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::ControllersTransformSettingsViewController::DidActivate)> {
   constexpr static std::size_t size = 0x564;
-  constexpr static std::size_t addrs = 0x265ea58;
+  constexpr static std::size_t addrs = 0x2677e50;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ControllersTransformSettingsViewController*>::get(),
                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ControllersTransformSettingsViewController*>::get(), 5));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::ControllersTransformSettingsViewController.DidDeactivate
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ControllersTransformSettingsViewController::*)(bool, bool)>(
-    &::GlobalNamespace::ControllersTransformSettingsViewController::DidDeactivate)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x265efbc;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ControllersTransformSettingsViewController*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ControllersTransformSettingsViewController*>::get(), 6));
     return ___internal_method;
   }
 };
@@ -42,10 +26,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ControllersTransformSettingsViewController::*)()>(
     &::GlobalNamespace::ControllersTransformSettingsViewController::OnDestroy)> {
-  constexpr static std::size_t size = 0x338;
-  constexpr static std::size_t addrs = 0x265f068;
+  constexpr static std::size_t size = 0x2c0;
+  constexpr static std::size_t addrs = 0x26783b4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ControllersTransformSettingsViewController*>::get(),
@@ -58,10 +42,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ControllersTransformSettingsViewController::*)(::HMUI::RangeValuesTextSlider*, float_t)>(
     &::GlobalNamespace::ControllersTransformSettingsViewController::HandlePositionSliderValueDidChange)> {
-  constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x265f3a0;
+  constexpr static std::size_t size = 0x148;
+  constexpr static std::size_t addrs = 0x2678674;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ControllersTransformSettingsViewController*>::get(),
                                                  "HandlePositionSliderValueDidChange", std::span<Il2CppClass const* const, 0>(),
@@ -75,10 +59,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ControllersTransformSettingsViewController::*)(::HMUI::RangeValuesTextSlider*, float_t)>(
     &::GlobalNamespace::ControllersTransformSettingsViewController::HandleRotationSliderValueDidChange)> {
-  constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x265f4d8;
+  constexpr static std::size_t size = 0x140;
+  constexpr static std::size_t addrs = 0x26787bc;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ControllersTransformSettingsViewController*>::get(),
                                                  "HandleRotationSliderValueDidChange", std::span<Il2CppClass const* const, 0>(),
@@ -93,9 +77,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ControllersTransformSettingsViewController::*)()>(
     &::GlobalNamespace::ControllersTransformSettingsViewController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x265f608;
+  constexpr static std::size_t addrs = 0x26788fc;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ControllersTransformSettingsViewController*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -205,12 +189,6 @@ inline void GlobalNamespace::ControllersTransformSettingsViewController::DidActi
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ControllersTransformSettingsViewController*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, firstActivation, addedToHierarchy, screenSystemEnabling);
-}
-inline void GlobalNamespace::ControllersTransformSettingsViewController::DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling) {
-  auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ControllersTransformSettingsViewController*>::get(), 6)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, removedFromHierarchy, screenSystemDisabling);
 }
 inline void GlobalNamespace::ControllersTransformSettingsViewController::OnDestroy() {
   auto* ___internal_method =

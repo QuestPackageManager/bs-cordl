@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SubsystemDescriptorBindings)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace UnityEngine {
 class SubsystemDescriptorBindings;
@@ -21,11 +24,11 @@ namespace UnityEngine {
 class CORDL_TYPE SubsystemDescriptorBindings : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x34716f4, size 0x3c, virtual false, abstract: false, final false
-  static inline void* Create(void* descriptorPtr);
+  /// @brief Method Create, addr 0x3499bf0, size 0x3c, virtual false, abstract: false, final false
+  static inline ::System::IntPtr Create(::System::IntPtr descriptorPtr);
 
-  /// @brief Method GetId, addr 0x34716a4, size 0x3c, virtual false, abstract: false, final false
-  static inline ::StringW GetId(void* descriptorPtr);
+  /// @brief Method GetId, addr 0x3499ba0, size 0x3c, virtual false, abstract: false, final false
+  static inline ::StringW GetId(::System::IntPtr descriptorPtr);
 
 protected:
   // Ctor Parameters []

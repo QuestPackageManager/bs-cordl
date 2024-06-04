@@ -51,22 +51,22 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::BeatmapLevelMask*>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::BeatmapLevelMask*>*() noexcept;
 
-  /// @brief Method AddLevel, addr 0x1500de8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method AddLevel, addr 0x150722c, size 0x60, virtual false, abstract: false, final false
   inline void AddLevel(::StringW state);
 
-  /// @brief Method Contains, addr 0x1500d88, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x15071cc, size 0x60, virtual false, abstract: false, final false
   inline bool Contains(::StringW state);
 
-  /// @brief Method Deserialize, addr 0x1500ff4, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0x1507438, size 0x18, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Equals, addr 0x1501164, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x15075a8, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x1501144, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x1507588, size 0x20, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::BeatmapLevelMask* other);
 
-  /// @brief Method GetHashCode, addr 0x1501124, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x1507568, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::GlobalNamespace::BeatmapLevelMask* New_ctor();
@@ -75,10 +75,10 @@ public:
 
   static inline ::GlobalNamespace::BeatmapLevelMask* New_ctor(::System::Collections::Generic::HashSet_1<::StringW>* levelSet);
 
-  /// @brief Method Serialize, addr 0x1500e48, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x150728c, size 0x18, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method ToString, addr 0x15010a0, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x15074e4, size 0x84, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::GlobalNamespace::BitMaskSparse*& __cordl_internal_get__bloomFilter();
@@ -87,13 +87,13 @@ public:
 
   constexpr void __cordl_internal_set__bloomFilter(::GlobalNamespace::BitMaskSparse* value);
 
-  /// @brief Method .ctor, addr 0x1500a58, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1506e9c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x1500b50, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1506f94, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::StringW level);
 
-  /// @brief Method .ctor, addr 0x1500bf0, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1507034, size 0x198, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::HashSet_1<::StringW>* levelSet);
 
   /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"

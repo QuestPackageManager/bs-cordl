@@ -63,13 +63,13 @@ public:
   /// @brief Convert operator to "::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator"
   constexpr operator ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*() noexcept;
 
-  /// @brief Method Add, addr 0x3065748, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x3081ef0, size 0x164, virtual false, abstract: false, final false
   inline void Add(::System::Object* key, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location);
 
-  /// @brief Method Add, addr 0x3063e10, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x30805b8, size 0x68, virtual false, abstract: false, final false
   inline void Add(::System::Object* key, ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* locations);
 
-  /// @brief Method Locate, addr 0x3063fb8, size 0x86c, virtual true, abstract: false, final true
+  /// @brief Method Locate, addr 0x3080760, size 0x86c, virtual true, abstract: false, final true
   inline bool Locate(::System::Object* key, ::System::Type* type, ByRef<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> locations);
 
   static inline ::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap* New_ctor(::StringW id, int32_t capacity);
@@ -93,30 +93,30 @@ public:
 
   constexpr void __cordl_internal_set__LocatorId_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3063b7c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3080324, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::StringW id, int32_t capacity);
 
-  /// @brief Method .ctor, addr 0x3064ddc, size 0x96c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3081584, size 0x96c, virtual false, abstract: false, final false
   inline void _ctor(::StringW id, ::System::Collections::Generic::IList_1<::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationData*>* locations);
 
-  /// @brief Method get_Keys, addr 0x30658bc, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method get_Keys, addr 0x3082064, size 0x50, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerable_1<::System::Object*>* get_Keys();
 
-  /// @brief Method get_Locations, addr 0x30658ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Locations, addr 0x3082054, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>*
   get_Locations();
 
-  /// @brief Method get_LocatorId, addr 0x3064dcc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_LocatorId, addr 0x3081574, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_LocatorId();
 
   /// @brief Convert to "::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator"
   constexpr ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* i___UnityEngine__AddressableAssets__ResourceLocators__IResourceLocator() noexcept;
 
-  /// @brief Method set_Locations, addr 0x30658b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Locations, addr 0x308205c, size 0x8, virtual false, abstract: false, final false
   inline void set_Locations(
       ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>* value);
 
-  /// @brief Method set_LocatorId, addr 0x3064dd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LocatorId, addr 0x308157c, size 0x8, virtual false, abstract: false, final false
   inline void set_LocatorId(::StringW value);
 
 protected:

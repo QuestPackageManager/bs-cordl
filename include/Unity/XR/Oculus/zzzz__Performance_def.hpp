@@ -27,19 +27,19 @@ public:
   static __declspec(property(get = getStaticF_cachedDisplayAvailableFrequencies,
                              put = setStaticF_cachedDisplayAvailableFrequencies))::ArrayW<float_t, ::Array<float_t>*> cachedDisplayAvailableFrequencies;
 
-  /// @brief Method TryGetAvailableDisplayRefreshRates, addr 0x33acd84, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method TryGetAvailableDisplayRefreshRates, addr 0x33d6278, size 0x1b8, virtual false, abstract: false, final false
   static inline bool TryGetAvailableDisplayRefreshRates(ByRef<::ArrayW<float_t, ::Array<float_t>*>> refreshRates);
 
-  /// @brief Method TryGetDisplayRefreshRate, addr 0x33acf48, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TryGetDisplayRefreshRate, addr 0x33d643c, size 0x4, virtual false, abstract: false, final false
   static inline bool TryGetDisplayRefreshRate(ByRef<float_t> refreshRate);
 
-  /// @brief Method TrySetCPULevel, addr 0x33acd4c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method TrySetCPULevel, addr 0x33d6240, size 0x18, virtual false, abstract: false, final false
   static inline bool TrySetCPULevel(int32_t level);
 
-  /// @brief Method TrySetDisplayRefreshRate, addr 0x33acf40, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TrySetDisplayRefreshRate, addr 0x33d6434, size 0x4, virtual false, abstract: false, final false
   static inline bool TrySetDisplayRefreshRate(float_t refreshRate);
 
-  /// @brief Method TrySetGPULevel, addr 0x33acd68, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method TrySetGPULevel, addr 0x33d625c, size 0x18, virtual false, abstract: false, final false
   static inline bool TrySetGPULevel(int32_t level);
 
   static inline ::ArrayW<float_t, ::Array<float_t>*> getStaticF_cachedDisplayAvailableFrequencies();

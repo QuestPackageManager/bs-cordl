@@ -104,21 +104,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x24faaa0, size 0x134, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2513970, size 0x134, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::HMUI::__AlphabetScrollbar___PointerMoveInsideCoroutine_d__18* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x24fabd4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2513aa4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x24fabdc, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2513aac, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x24fac1c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2513aec, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x24faa9c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x251396c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -145,7 +145,7 @@ public:
 
   constexpr void __cordl_internal_set_eventData(::UnityEngine::EventSystems::PointerEventData* value);
 
-  /// @brief Method .ctor, addr 0x24faa38, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2513908, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -254,39 +254,39 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerUpHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerUpHandler*() noexcept;
 
-  /// @brief Method Awake, addr 0x24f9c14, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x2512ae4, size 0x20, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method GetPointerCharacterIndex, addr 0x24fa554, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method GetPointerCharacterIndex, addr 0x2513424, size 0x2d0, virtual false, abstract: false, final false
   inline int32_t GetPointerCharacterIndex(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method InitText, addr 0x24f9ea0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method InitText, addr 0x2512d70, size 0xb4, virtual false, abstract: false, final false
   inline void InitText(::TMPro::TextMeshProUGUI* text, char16_t character);
 
   static inline ::HMUI::AlphabetScrollbar* New_ctor();
 
-  /// @brief Method OnPointerDown, addr 0x24fa470, size 0xe4, virtual true, abstract: false, final true
+  /// @brief Method OnPointerDown, addr 0x2513340, size 0xe4, virtual true, abstract: false, final true
   inline void OnPointerDown(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerEnter, addr 0x24fa82c, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method OnPointerEnter, addr 0x25136fc, size 0x20, virtual true, abstract: false, final true
   inline void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerExit, addr 0x24fa8c0, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method OnPointerExit, addr 0x2513790, size 0x24, virtual true, abstract: false, final true
   inline void OnPointerExit(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerUp, addr 0x24fa824, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method OnPointerUp, addr 0x25136f4, size 0x8, virtual true, abstract: false, final true
   inline void OnPointerUp(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method PointerMoveInsideCoroutine, addr 0x24fa84c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method PointerMoveInsideCoroutine, addr 0x251371c, size 0x74, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* PointerMoveInsideCoroutine(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method PrepareTransforms, addr 0x24f9f54, size 0x51c, virtual false, abstract: false, final false
+  /// @brief Method PrepareTransforms, addr 0x2512e24, size 0x51c, virtual false, abstract: false, final false
   inline void PrepareTransforms();
 
-  /// @brief Method RefreshHighlight, addr 0x24fa8e4, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method RefreshHighlight, addr 0x25137b4, size 0x154, virtual false, abstract: false, final false
   inline void RefreshHighlight();
 
-  /// @brief Method SetData, addr 0x24f9c34, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x2512b04, size 0x26c, virtual false, abstract: false, final false
   inline void SetData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__AlphabetScrollInfo__Data*>* characterScrollData);
 
   constexpr float_t const& __cordl_internal_get__characterHeight() const;
@@ -350,7 +350,7 @@ public:
 
   constexpr void __cordl_internal_set__texts(::System::Collections::Generic::List_1<::UnityW<::TMPro::TextMeshProUGUI>>* value);
 
-  /// @brief Method .ctor, addr 0x24faa60, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2513930, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"

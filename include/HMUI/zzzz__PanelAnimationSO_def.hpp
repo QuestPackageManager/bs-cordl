@@ -47,16 +47,16 @@ public:
   /// @brief Field _scaleYAnimationCurve, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__scaleYAnimationCurve, put = __cordl_internal_set__scaleYAnimationCurve))::UnityEngine::AnimationCurve* _scaleYAnimationCurve;
 
-  /// @brief Method ExecuteAnimation, addr 0x24fb14c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ExecuteAnimation, addr 0x251401c, size 0x10, virtual false, abstract: false, final false
   inline void ExecuteAnimation(::UnityEngine::GameObject* go);
 
-  /// @brief Method ExecuteAnimation, addr 0x24fb228, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ExecuteAnimation, addr 0x25140f8, size 0x10, virtual false, abstract: false, final false
   inline void ExecuteAnimation(::UnityEngine::GameObject* go, ::System::Action* finishedCallback);
 
-  /// @brief Method ExecuteAnimation, addr 0x24fb238, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ExecuteAnimation, addr 0x2514108, size 0xc, virtual false, abstract: false, final false
   inline void ExecuteAnimation(::UnityEngine::GameObject* go, ::UnityEngine::CanvasGroup* parentCanvasGroup, ::System::Action* finishedCallback);
 
-  /// @brief Method ExecuteAnimation, addr 0x24fb15c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method ExecuteAnimation, addr 0x251402c, size 0xcc, virtual false, abstract: false, final false
   inline void ExecuteAnimation(::UnityEngine::GameObject* go, ::UnityEngine::CanvasGroup* parentCanvasGroup, bool instant, ::System::Action* finishedCallback);
 
   static inline ::HMUI::PanelAnimationSO* New_ctor();
@@ -91,7 +91,7 @@ public:
 
   constexpr void __cordl_internal_set__scaleYAnimationCurve(::UnityEngine::AnimationCurve* value);
 
-  /// @brief Method .ctor, addr 0x24fb244, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2514114, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

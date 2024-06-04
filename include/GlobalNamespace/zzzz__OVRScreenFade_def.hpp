@@ -82,21 +82,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x2b91754, size 0x11c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2bb2de0, size 0x11c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__OVRScreenFade___Fade_d__25* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2b91870, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2bb2efc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2b91878, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2bb2f04, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2b918b8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2bb2f44, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x2b91750, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x2bb2ddc, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -135,7 +135,7 @@ public:
 
   constexpr void __cordl_internal_set_startAlpha(float_t value);
 
-  /// @brief Method .ctor, addr 0x2b916fc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bb2d88, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -245,36 +245,36 @@ public:
   /// @brief Field uiFadeAlpha, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get_uiFadeAlpha, put = __cordl_internal_set_uiFadeAlpha)) float_t uiFadeAlpha;
 
-  /// @brief Method Fade, addr 0x2b91398, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Fade, addr 0x2bb2a24, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Fade(float_t startAlpha, float_t endAlpha);
 
-  /// @brief Method FadeIn, addr 0x2b91370, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method FadeIn, addr 0x2bb29fc, size 0x28, virtual false, abstract: false, final false
   inline void FadeIn();
 
-  /// @brief Method FadeOut, addr 0x2b91414, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method FadeOut, addr 0x2bb2aa0, size 0x28, virtual false, abstract: false, final false
   inline void FadeOut();
 
   static inline ::GlobalNamespace::OVRScreenFade* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x2b9147c, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2bb2b08, size 0x154, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnEnable, addr 0x2b91464, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x2bb2af0, size 0x18, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnLevelFinishedLoading, addr 0x2b9143c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method OnLevelFinishedLoading, addr 0x2bb2ac8, size 0x28, virtual false, abstract: false, final false
   inline void OnLevelFinishedLoading(int32_t level);
 
-  /// @brief Method SetExplicitFade, addr 0x2b916f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetExplicitFade, addr 0x2bb2d80, size 0x8, virtual false, abstract: false, final false
   inline void SetExplicitFade(float_t level);
 
-  /// @brief Method SetMaterialAlpha, addr 0x2b915ec, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method SetMaterialAlpha, addr 0x2bb2c78, size 0x108, virtual false, abstract: false, final false
   inline void SetMaterialAlpha();
 
-  /// @brief Method SetUIFade, addr 0x2b915d0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SetUIFade, addr 0x2bb2c5c, size 0x1c, virtual false, abstract: false, final false
   inline void SetUIFade(float_t level);
 
-  /// @brief Method Start, addr 0x2b90ed4, size 0x49c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2bb2560, size 0x49c, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr float_t const& __cordl_internal_get_animatedFadeAlpha() const;
@@ -343,20 +343,20 @@ public:
 
   constexpr void __cordl_internal_set_uiFadeAlpha(float_t value);
 
-  /// @brief Method .ctor, addr 0x2b91724, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bb2db0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityW<::GlobalNamespace::OVRScreenFade> getStaticF__instance_k__BackingField();
 
-  /// @brief Method get_currentAlpha, addr 0x2b90e18, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method get_currentAlpha, addr 0x2bb24a4, size 0xbc, virtual false, abstract: false, final false
   inline float_t get_currentAlpha();
 
-  /// @brief Method get_instance, addr 0x2b90d84, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_instance, addr 0x2bb2410, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityW<::GlobalNamespace::OVRScreenFade> get_instance();
 
   static inline void setStaticF__instance_k__BackingField(::UnityW<::GlobalNamespace::OVRScreenFade> value);
 
-  /// @brief Method set_instance, addr 0x2b90dcc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_instance, addr 0x2bb2458, size 0x4c, virtual false, abstract: false, final false
   static inline void set_instance(::GlobalNamespace::OVRScreenFade* value);
 
 protected:

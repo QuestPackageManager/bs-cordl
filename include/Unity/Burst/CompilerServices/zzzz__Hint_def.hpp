@@ -19,13 +19,13 @@ namespace Unity::Burst::CompilerServices {
 class CORDL_TYPE Hint : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Assume, addr 0x30a53b8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Assume, addr 0x30c2b60, size 0x4, virtual false, abstract: false, final false
   static inline void Assume(bool condition);
 
-  /// @brief Method Likely, addr 0x30a53a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Likely, addr 0x30c2b50, size 0x8, virtual false, abstract: false, final false
   static inline bool Likely(bool condition);
 
-  /// @brief Method Unlikely, addr 0x30a53b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Unlikely, addr 0x30c2b58, size 0x8, virtual false, abstract: false, final false
   static inline bool Unlikely(bool condition);
 
 protected:

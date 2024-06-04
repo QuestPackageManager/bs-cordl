@@ -47,13 +47,13 @@ public:
 
   constexpr void __cordl_internal_set__bagOID(::StringW value);
 
-  /// @brief Method .ctor, addr 0x276e788, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2787df4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW bagOID, ::Mono::Security::ASN1* asn1);
 
-  /// @brief Method get_ASN1, addr 0x276e7bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ASN1, addr 0x2787e28, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Security::ASN1* get_ASN1();
 
-  /// @brief Method get_BagOID, addr 0x276e7b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BagOID, addr 0x2787e20, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_BagOID();
 
 protected:

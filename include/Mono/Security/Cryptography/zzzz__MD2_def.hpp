@@ -19,12 +19,12 @@ namespace Mono::Security::Cryptography {
 class CORDL_TYPE MD2 : public ::System::Security::Cryptography::HashAlgorithm {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x279ea88, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x27b80f4, size 0x58, virtual false, abstract: false, final false
   static inline ::Mono::Security::Cryptography::MD2* Create();
 
   static inline ::Mono::Security::Cryptography::MD2* New_ctor();
 
-  /// @brief Method .ctor, addr 0x279ea68, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27b80d4, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

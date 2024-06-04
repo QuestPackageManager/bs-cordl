@@ -5,6 +5,7 @@
 CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+#include <cstdint>
 CORDL_MODULE_EXPORT(IBeatmapLevelData)
 namespace GlobalNamespace {
 struct BeatmapKey;
@@ -28,6 +29,8 @@ public:
   // Declarations
   __declspec(property(get = get_name))::StringW name;
 
+  __declspec(property(get = get_version)) int32_t version;
+
   /// @brief Method GetAudioDataString, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW GetAudioDataString();
 
@@ -48,6 +51,9 @@ public:
 
   /// @brief Method get_name, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_name();
+
+  /// @brief Method get_version, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+  inline int32_t get_version();
 
   // Ctor Parameters [CppParam { name: "", ty: "IBeatmapLevelData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

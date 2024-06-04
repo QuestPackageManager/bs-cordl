@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GfxUpdateBufferRange)
+namespace System {
+struct UIntPtr;
+}
 // Forward declare root types
 namespace UnityEngine::UIElements::UIR {
 struct GfxUpdateBufferRange;
@@ -26,8 +29,8 @@ public:
   constexpr GfxUpdateBufferRange();
 
   // Ctor Parameters [CppParam { name: "offsetFromWriteStart", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "size", ty: "uint32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "source", ty: "void*", modifiers: "", def_value: None }]
-  constexpr GfxUpdateBufferRange(uint32_t offsetFromWriteStart, uint32_t size, void* source) noexcept;
+  // name: "source", ty: "::System::UIntPtr", modifiers: "", def_value: None }]
+  constexpr GfxUpdateBufferRange(uint32_t offsetFromWriteStart, uint32_t size, ::System::UIntPtr source) noexcept;
 
   /// @brief Field offsetFromWriteStart, offset: 0x0, size: 0x4, def value: None
   uint32_t offsetFromWriteStart;
@@ -36,7 +39,7 @@ public:
   uint32_t size;
 
   /// @brief Field source, offset: 0x8, size: 0x8, def value: None
-  void* source;
+  ::System::UIntPtr source;
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

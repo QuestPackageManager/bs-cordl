@@ -63,10 +63,10 @@ public:
 
   static inline ::GlobalNamespace::__MultiplayerOtherPlayersScoreDiffTextManager____c* New_ctor();
 
-  /// @brief Method <Update>b__10_0, addr 0x2715f2c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <Update>b__10_0, addr 0x272d69c, size 0x14, virtual false, abstract: false, final false
   inline bool _Update_b__10_0(::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer* p);
 
-  /// @brief Method .ctor, addr 0x2715f24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x272d694, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__MultiplayerOtherPlayersScoreDiffTextManager____c* getStaticF___9();
@@ -129,24 +129,24 @@ public:
   /// @brief Field _timeToNextUpdate, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get__timeToNextUpdate, put = __cordl_internal_set__timeToNextUpdate)) float_t _timeToNextUpdate;
 
-  /// @brief Method HandleStateChanged, addr 0x2715d50, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method HandleStateChanged, addr 0x272d4c0, size 0x168, virtual false, abstract: false, final false
   inline void HandleStateChanged(::GlobalNamespace::__MultiplayerController__State newState);
 
-  /// @brief Method HideAll, addr 0x27154d4, size 0x3c0, virtual false, abstract: false, final false
+  /// @brief Method HideAll, addr 0x272cc44, size 0x3c0, virtual false, abstract: false, final false
   inline void HideAll();
 
-  /// @brief Method InitLeftRightPositions, addr 0x2715894, size 0x4bc, virtual false, abstract: false, final false
+  /// @brief Method InitLeftRightPositions, addr 0x272d004, size 0x4bc, virtual false, abstract: false, final false
   inline void InitLeftRightPositions();
 
   static inline ::GlobalNamespace::MultiplayerOtherPlayersScoreDiffTextManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x2715030, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x272c7a0, size 0xd0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x2714f78, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x272c6e8, size 0xb8, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x2715100, size 0x3d4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x272c870, size 0x3d4, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::__CoreGameHUDController__InitData*& __cordl_internal_get__initData();
@@ -191,7 +191,7 @@ public:
 
   constexpr void __cordl_internal_set__timeToNextUpdate(float_t value);
 
-  /// @brief Method .ctor, addr 0x2715eb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x272d628, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -15,14 +15,14 @@ class AttitudeSensor;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::AttitudeSensor);
 // Type: UnityEngine.InputSystem::AttitudeSensor
-// SizeInfo { instance_size: 352, native_size: -1, calculated_instance_size: 352, calculated_native_size: 352, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 376, native_size: -1, calculated_instance_size: 376, calculated_native_size: 376, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
 // CS Name: ::UnityEngine.InputSystem::AttitudeSensor*
 class CORDL_TYPE AttitudeSensor : public ::UnityEngine::InputSystem::Sensor {
 public:
   // Declarations
-  /// @brief Field <attitude>k__BackingField, offset 0x158, size 0x8
+  /// @brief Field <attitude>k__BackingField, offset 0x170, size 0x8
   __declspec(property(get = __cordl_internal_get__attitude_k__BackingField,
                       put = __cordl_internal_set__attitude_k__BackingField))::UnityEngine::InputSystem::Controls::QuaternionControl* _attitude_k__BackingField;
 
@@ -31,15 +31,15 @@ public:
 
   __declspec(property(get = get_attitude, put = set_attitude))::UnityEngine::InputSystem::Controls::QuaternionControl* attitude;
 
-  /// @brief Method FinishSetup, addr 0x31189f4, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x313a180, size 0x78, virtual true, abstract: false, final false
   inline void FinishSetup();
 
-  /// @brief Method MakeCurrent, addr 0x311891c, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method MakeCurrent, addr 0x313a0a8, size 0x54, virtual true, abstract: false, final false
   inline void MakeCurrent();
 
   static inline ::UnityEngine::InputSystem::AttitudeSensor* New_ctor();
 
-  /// @brief Method OnRemoved, addr 0x3118970, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method OnRemoved, addr 0x313a0fc, size 0x84, virtual true, abstract: false, final false
   inline void OnRemoved();
 
   constexpr ::UnityEngine::InputSystem::Controls::QuaternionControl*& __cordl_internal_get__attitude_k__BackingField();
@@ -48,23 +48,23 @@ public:
 
   constexpr void __cordl_internal_set__attitude_k__BackingField(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
-  /// @brief Method .ctor, addr 0x3118a6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x313a1f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::AttitudeSensor* getStaticF__current_k__BackingField();
 
-  /// @brief Method get_attitude, addr 0x3118878, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_attitude, addr 0x313a004, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::QuaternionControl* get_attitude();
 
-  /// @brief Method get_current, addr 0x3118888, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_current, addr 0x313a014, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::AttitudeSensor* get_current();
 
   static inline void setStaticF__current_k__BackingField(::UnityEngine::InputSystem::AttitudeSensor* value);
 
-  /// @brief Method set_attitude, addr 0x3118880, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_attitude, addr 0x313a00c, size 0x8, virtual false, abstract: false, final false
   inline void set_attitude(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
-  /// @brief Method set_current, addr 0x31188d0, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_current, addr 0x313a05c, size 0x4c, virtual false, abstract: false, final false
   static inline void set_current(::UnityEngine::InputSystem::AttitudeSensor* value);
 
 protected:
@@ -81,15 +81,15 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   AttitudeSensor(AttitudeSensor const&) = delete;
 
-  /// @brief Field <attitude>k__BackingField, offset: 0x158, size: 0x8, def value: None
+  /// @brief Field <attitude>k__BackingField, offset: 0x170, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::QuaternionControl* ____attitude_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::AttitudeSensor, 0x160>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::AttitudeSensor, 0x178>, "Size mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::AttitudeSensor, ____attitude_k__BackingField) == 0x158, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::AttitudeSensor, ____attitude_k__BackingField) == 0x170, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem
 NEED_NO_BOX(::UnityEngine::InputSystem::AttitudeSensor);

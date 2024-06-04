@@ -9,6 +9,9 @@ CORDL_MODULE_EXPORT(MessageWithNetSyncSessionsChangedNotification)
 namespace Oculus::Platform::Models {
 class NetSyncSessionsChangedNotification;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform {
 class MessageWithNetSyncSessionsChangedNotification;
@@ -23,16 +26,16 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithNetSyncSessionsChangedNotification : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::NetSyncSessionsChangedNotification*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x2ac8e20, size 0x9c, virtual true, abstract: false, final false
-  inline ::Oculus::Platform::Models::NetSyncSessionsChangedNotification* GetDataFromMessage(void* c_message);
+  /// @brief Method GetDataFromMessage, addr 0x2ae94ac, size 0x9c, virtual true, abstract: false, final false
+  inline ::Oculus::Platform::Models::NetSyncSessionsChangedNotification* GetDataFromMessage(::System::IntPtr c_message);
 
-  /// @brief Method GetNetSyncSessionsChangedNotification, addr 0x2ac8de4, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetNetSyncSessionsChangedNotification, addr 0x2ae9470, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::NetSyncSessionsChangedNotification* GetNetSyncSessionsChangedNotification();
 
-  static inline ::Oculus::Platform::MessageWithNetSyncSessionsChangedNotification* New_ctor(void* c_message);
+  static inline ::Oculus::Platform::MessageWithNetSyncSessionsChangedNotification* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x2ac565c, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor(void* c_message);
+  /// @brief Method .ctor, addr 0x2ae5ce8, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr c_message);
 
 protected:
   // Ctor Parameters []

@@ -36,7 +36,7 @@ public:
 
   static inline ::GlobalNamespace::CreateServerFormController* New_ctor();
 
-  /// @brief Method Setup, addr 0x262b8fc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x2644f1c, size 0x48, virtual false, abstract: false, final false
   inline void Setup(int32_t selectedNumberOfPlayers, bool netDiscoverable);
 
   constexpr ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> const& __cordl_internal_get__maxPlayersList() const;
@@ -51,10 +51,10 @@ public:
 
   constexpr void __cordl_internal_set__netDiscoverable(bool value);
 
-  /// @brief Method .ctor, addr 0x262b95c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2644f7c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_formData, addr 0x262b80c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method get_formData, addr 0x2644e2c, size 0xf0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::CreateServerFormData get_formData();
 
 protected:

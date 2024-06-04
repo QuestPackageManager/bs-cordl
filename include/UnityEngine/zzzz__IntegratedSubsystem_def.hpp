@@ -28,7 +28,7 @@ class CORDL_TYPE IntegratedSubsystem : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Ptr, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) void* m_Ptr;
+  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr))::System::IntPtr m_Ptr;
 
   /// @brief Field m_SubsystemDescriptor, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_SubsystemDescriptor, put = __cordl_internal_set_m_SubsystemDescriptor))::UnityEngine::ISubsystemDescriptor* m_SubsystemDescriptor;
@@ -40,42 +40,42 @@ public:
   /// @brief Convert operator to "::UnityEngine::ISubsystem"
   constexpr operator ::UnityEngine::ISubsystem*() noexcept;
 
-  /// @brief Method Destroy, addr 0x34718d4, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method Destroy, addr 0x3499dd0, size 0xb0, virtual true, abstract: false, final true
   inline void Destroy();
 
-  /// @brief Method IsRunning, addr 0x3471bec, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsRunning, addr 0x349a0e8, size 0x3c, virtual false, abstract: false, final false
   inline bool IsRunning();
 
   static inline ::UnityEngine::IntegratedSubsystem* New_ctor();
 
-  /// @brief Method SetHandle, addr 0x3471818, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetHandle, addr 0x3499d14, size 0x44, virtual false, abstract: false, final false
   inline void SetHandle(::UnityEngine::IntegratedSubsystem* subsystem);
 
-  /// @brief Method Start, addr 0x347185c, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method Start, addr 0x3499d58, size 0x3c, virtual true, abstract: false, final true
   inline void Start();
 
-  /// @brief Method Stop, addr 0x3471898, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method Stop, addr 0x3499d94, size 0x3c, virtual true, abstract: false, final true
   inline void Stop();
 
-  constexpr void* const& __cordl_internal_get_m_Ptr() const;
+  constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
 
-  constexpr void*& __cordl_internal_get_m_Ptr();
+  constexpr ::System::IntPtr& __cordl_internal_get_m_Ptr();
 
   constexpr ::UnityEngine::ISubsystemDescriptor*& __cordl_internal_get_m_SubsystemDescriptor();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ISubsystemDescriptor*> const& __cordl_internal_get_m_SubsystemDescriptor() const;
 
-  constexpr void __cordl_internal_set_m_Ptr(void* value);
+  constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
 
   constexpr void __cordl_internal_set_m_SubsystemDescriptor(::UnityEngine::ISubsystemDescriptor* value);
 
-  /// @brief Method .ctor, addr 0x3471c28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x349a124, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_running, addr 0x3471b44, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method get_running, addr 0x349a040, size 0x54, virtual true, abstract: false, final true
   inline bool get_running();
 
-  /// @brief Method get_valid, addr 0x3471b98, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_valid, addr 0x349a094, size 0x54, virtual false, abstract: false, final false
   inline bool get_valid();
 
   /// @brief Convert to "::UnityEngine::ISubsystem"
@@ -96,7 +96,7 @@ public:
   IntegratedSubsystem(IntegratedSubsystem const&) = delete;
 
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
-  void* ___m_Ptr;
+  ::System::IntPtr ___m_Ptr;
 
   /// @brief Field m_SubsystemDescriptor, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::ISubsystemDescriptor* ___m_SubsystemDescriptor;

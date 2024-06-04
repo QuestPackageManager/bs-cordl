@@ -49,16 +49,16 @@ public:
 
   constexpr void __cordl_internal_set_membersList(::System::Collections::ArrayList* value);
 
-  /// @brief Method .ctor, addr 0x2e1e548, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e40c38, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Examplar, addr 0x2e1e538, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Examplar, addr 0x2e40c28, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* get_Examplar();
 
-  /// @brief Method get_Members, addr 0x2e1e530, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Members, addr 0x2e40c20, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* get_Members();
 
-  /// @brief Method set_Examplar, addr 0x2e1e540, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Examplar, addr 0x2e40c30, size 0x8, virtual false, abstract: false, final false
   inline void set_Examplar(::System::Xml::XmlQualifiedName* value);
 
 protected:

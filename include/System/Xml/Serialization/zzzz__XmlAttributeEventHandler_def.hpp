@@ -10,6 +10,9 @@ namespace System::Xml::Serialization {
 class XmlAttributeEventArgs;
 }
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Object;
 }
 // Forward declare root types
@@ -26,13 +29,13 @@ namespace System::Xml::Serialization {
 class CORDL_TYPE XmlAttributeEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2ec2c2c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2ee331c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* sender, ::System::Xml::Serialization::XmlAttributeEventArgs* e);
 
-  static inline ::System::Xml::Serialization::XmlAttributeEventHandler* New_ctor(::System::Object* object, void* method);
+  static inline ::System::Xml::Serialization::XmlAttributeEventHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2ec2afc, size 0x130, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
+  /// @brief Method .ctor, addr 0x2ee31ec, size 0x130, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []

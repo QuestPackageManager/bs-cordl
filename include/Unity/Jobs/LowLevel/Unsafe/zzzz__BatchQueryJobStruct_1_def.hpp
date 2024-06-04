@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(BatchQueryJobStruct_1)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Unity::Jobs::LowLevel::Unsafe {
 template <typename T> struct BatchQueryJobStruct_1;
@@ -25,14 +28,14 @@ struct CORDL_TYPE BatchQueryJobStruct_1 {
 public:
   // Declarations
   /// @brief Field jobReflectionData, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_jobReflectionData, put = setStaticF_jobReflectionData)) void* jobReflectionData;
+  static __declspec(property(get = getStaticF_jobReflectionData, put = setStaticF_jobReflectionData))::System::IntPtr jobReflectionData;
 
   /// @brief Method Initialize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline void* Initialize();
+  static inline ::System::IntPtr Initialize();
 
-  static inline void* getStaticF_jobReflectionData();
+  static inline ::System::IntPtr getStaticF_jobReflectionData();
 
-  static inline void setStaticF_jobReflectionData(void* value);
+  static inline void setStaticF_jobReflectionData(::System::IntPtr value);
 
   // Ctor Parameters []
   // @brief default ctor

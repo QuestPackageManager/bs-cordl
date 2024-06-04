@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::System::Runtime::InteropServices::OptionalAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2857e44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28714d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

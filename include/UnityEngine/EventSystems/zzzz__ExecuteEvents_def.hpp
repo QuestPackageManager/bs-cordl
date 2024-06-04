@@ -20,6 +20,9 @@ namespace System {
 class IAsyncResult;
 }
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Object;
 }
 namespace UnityEngine::EventSystems {
@@ -123,10 +126,10 @@ public:
   /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Invoke(T1 handler, ::UnityEngine::EventSystems::BaseEventData* eventData);
 
-  static inline ::UnityEngine::EventSystems::__ExecuteEvents__EventFunction_1<T1>* New_ctor(::System::Object* object, void* method);
+  static inline ::UnityEngine::EventSystems::__ExecuteEvents__EventFunction_1<T1>* New_ctor(::System::Object* object, ::System::IntPtr method);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
@@ -245,58 +248,58 @@ public:
   template <typename T>
   static inline bool Execute(::UnityEngine::GameObject* target, ::UnityEngine::EventSystems::BaseEventData* eventData, ::UnityEngine::EventSystems::__ExecuteEvents__EventFunction_1<T>* functor);
 
-  /// @brief Method Execute, addr 0x34edf00, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Execute, addr 0x35173fc, size 0xf4, virtual false, abstract: false, final false
   static inline void Execute(::UnityEngine::EventSystems::IBeginDragHandler* handler, ::UnityEngine::EventSystems::BaseEventData* eventData);
 
-  /// @brief Method Execute, addr 0x34ee748, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Execute, addr 0x3517c44, size 0xa4, virtual false, abstract: false, final false
   static inline void Execute(::UnityEngine::EventSystems::ICancelHandler* handler, ::UnityEngine::EventSystems::BaseEventData* eventData);
 
-  /// @brief Method Execute, addr 0x34ee50c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Execute, addr 0x3517a08, size 0xa4, virtual false, abstract: false, final false
   static inline void Execute(::UnityEngine::EventSystems::IDeselectHandler* handler, ::UnityEngine::EventSystems::BaseEventData* eventData);
 
-  /// @brief Method Execute, addr 0x34edff4, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Execute, addr 0x35174f0, size 0xf4, virtual false, abstract: false, final false
   static inline void Execute(::UnityEngine::EventSystems::IDragHandler* handler, ::UnityEngine::EventSystems::BaseEventData* eventData);
 
-  /// @brief Method Execute, addr 0x34ee1dc, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Execute, addr 0x35176d8, size 0xf4, virtual false, abstract: false, final false
   static inline void Execute(::UnityEngine::EventSystems::IDropHandler* handler, ::UnityEngine::EventSystems::BaseEventData* eventData);
 
-  /// @brief Method Execute, addr 0x34ee0e8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Execute, addr 0x35175e4, size 0xf4, virtual false, abstract: false, final false
   static inline void Execute(::UnityEngine::EventSystems::IEndDragHandler* handler, ::UnityEngine::EventSystems::BaseEventData* eventData);
 
-  /// @brief Method Execute, addr 0x34ede0c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Execute, addr 0x3517308, size 0xf4, virtual false, abstract: false, final false
   static inline void Execute(::UnityEngine::EventSystems::IInitializePotentialDragHandler* handler, ::UnityEngine::EventSystems::BaseEventData* eventData);
 
-  /// @brief Method Execute, addr 0x34ee5b0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Execute, addr 0x3517aac, size 0xf4, virtual false, abstract: false, final false
   static inline void Execute(::UnityEngine::EventSystems::IMoveHandler* handler, ::UnityEngine::EventSystems::BaseEventData* eventData);
 
-  /// @brief Method Execute, addr 0x34edd18, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Execute, addr 0x3517214, size 0xf4, virtual false, abstract: false, final false
   static inline void Execute(::UnityEngine::EventSystems::IPointerClickHandler* handler, ::UnityEngine::EventSystems::BaseEventData* eventData);
 
-  /// @brief Method Execute, addr 0x34edb30, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Execute, addr 0x351702c, size 0xf4, virtual false, abstract: false, final false
   static inline void Execute(::UnityEngine::EventSystems::IPointerDownHandler* handler, ::UnityEngine::EventSystems::BaseEventData* eventData);
 
-  /// @brief Method Execute, addr 0x34ed948, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Execute, addr 0x3516e44, size 0xf4, virtual false, abstract: false, final false
   static inline void Execute(::UnityEngine::EventSystems::IPointerEnterHandler* handler, ::UnityEngine::EventSystems::BaseEventData* eventData);
 
-  /// @brief Method Execute, addr 0x34eda3c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Execute, addr 0x3516f38, size 0xf4, virtual false, abstract: false, final false
   static inline void Execute(::UnityEngine::EventSystems::IPointerExitHandler* handler, ::UnityEngine::EventSystems::BaseEventData* eventData);
 
-  /// @brief Method Execute, addr 0x34ed854, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Execute, addr 0x3516d50, size 0xf4, virtual false, abstract: false, final false
   static inline void Execute(::UnityEngine::EventSystems::IPointerMoveHandler* handler, ::UnityEngine::EventSystems::BaseEventData* eventData);
 
-  /// @brief Method Execute, addr 0x34edc24, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Execute, addr 0x3517120, size 0xf4, virtual false, abstract: false, final false
   static inline void Execute(::UnityEngine::EventSystems::IPointerUpHandler* handler, ::UnityEngine::EventSystems::BaseEventData* eventData);
 
-  /// @brief Method Execute, addr 0x34ee2d0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Execute, addr 0x35177cc, size 0xf4, virtual false, abstract: false, final false
   static inline void Execute(::UnityEngine::EventSystems::IScrollHandler* handler, ::UnityEngine::EventSystems::BaseEventData* eventData);
 
-  /// @brief Method Execute, addr 0x34ee468, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Execute, addr 0x3517964, size 0xa4, virtual false, abstract: false, final false
   static inline void Execute(::UnityEngine::EventSystems::ISelectHandler* handler, ::UnityEngine::EventSystems::BaseEventData* eventData);
 
-  /// @brief Method Execute, addr 0x34ee6a4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Execute, addr 0x3517ba0, size 0xa4, virtual false, abstract: false, final false
   static inline void Execute(::UnityEngine::EventSystems::ISubmitHandler* handler, ::UnityEngine::EventSystems::BaseEventData* eventData);
 
-  /// @brief Method Execute, addr 0x34ee3c4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Execute, addr 0x35178c0, size 0xa4, virtual false, abstract: false, final false
   static inline void Execute(::UnityEngine::EventSystems::IUpdateSelectedHandler* handler, ::UnityEngine::EventSystems::BaseEventData* eventData);
 
   /// @brief Method ExecuteHierarchy, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -304,7 +307,7 @@ public:
   static inline ::UnityW<::UnityEngine::GameObject> ExecuteHierarchy(::UnityEngine::GameObject* root, ::UnityEngine::EventSystems::BaseEventData* eventData,
                                                                      ::UnityEngine::EventSystems::__ExecuteEvents__EventFunction_1<T>* callbackFunction);
 
-  /// @brief Method GetEventChain, addr 0x34eee1c, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method GetEventChain, addr 0x3518318, size 0x194, virtual false, abstract: false, final false
   static inline void GetEventChain(::UnityEngine::GameObject* root, ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Transform>>* eventChain);
 
   /// @brief Method GetEventHandler, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -357,58 +360,58 @@ public:
 
   static inline ::UnityEngine::EventSystems::__ExecuteEvents__EventFunction_1<::UnityEngine::EventSystems::IUpdateSelectedHandler*>* getStaticF_s_UpdateSelectedHandler();
 
-  /// @brief Method get_beginDragHandler, addr 0x34eea54, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_beginDragHandler, addr 0x3517f50, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::EventSystems::__ExecuteEvents__EventFunction_1<::UnityEngine::EventSystems::IBeginDragHandler*>* get_beginDragHandler();
 
-  /// @brief Method get_cancelHandler, addr 0x34eedc4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_cancelHandler, addr 0x35182c0, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::EventSystems::__ExecuteEvents__EventFunction_1<::UnityEngine::EventSystems::ICancelHandler*>* get_cancelHandler();
 
-  /// @brief Method get_deselectHandler, addr 0x34eecbc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_deselectHandler, addr 0x35181b8, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::EventSystems::__ExecuteEvents__EventFunction_1<::UnityEngine::EventSystems::IDeselectHandler*>* get_deselectHandler();
 
-  /// @brief Method get_dragHandler, addr 0x34eeaac, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_dragHandler, addr 0x3517fa8, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::EventSystems::__ExecuteEvents__EventFunction_1<::UnityEngine::EventSystems::IDragHandler*>* get_dragHandler();
 
-  /// @brief Method get_dropHandler, addr 0x34eeb5c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_dropHandler, addr 0x3518058, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::EventSystems::__ExecuteEvents__EventFunction_1<::UnityEngine::EventSystems::IDropHandler*>* get_dropHandler();
 
-  /// @brief Method get_endDragHandler, addr 0x34eeb04, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_endDragHandler, addr 0x3518000, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::EventSystems::__ExecuteEvents__EventFunction_1<::UnityEngine::EventSystems::IEndDragHandler*>* get_endDragHandler();
 
-  /// @brief Method get_initializePotentialDrag, addr 0x34ee9fc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_initializePotentialDrag, addr 0x3517ef8, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::EventSystems::__ExecuteEvents__EventFunction_1<::UnityEngine::EventSystems::IInitializePotentialDragHandler*>* get_initializePotentialDrag();
 
-  /// @brief Method get_moveHandler, addr 0x34eed14, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_moveHandler, addr 0x3518210, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::EventSystems::__ExecuteEvents__EventFunction_1<::UnityEngine::EventSystems::IMoveHandler*>* get_moveHandler();
 
-  /// @brief Method get_pointerClickHandler, addr 0x34ee9a4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_pointerClickHandler, addr 0x3517ea0, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::EventSystems::__ExecuteEvents__EventFunction_1<::UnityEngine::EventSystems::IPointerClickHandler*>* get_pointerClickHandler();
 
-  /// @brief Method get_pointerDownHandler, addr 0x34ee8f4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_pointerDownHandler, addr 0x3517df0, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::EventSystems::__ExecuteEvents__EventFunction_1<::UnityEngine::EventSystems::IPointerDownHandler*>* get_pointerDownHandler();
 
-  /// @brief Method get_pointerEnterHandler, addr 0x34ee844, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_pointerEnterHandler, addr 0x3517d40, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::EventSystems::__ExecuteEvents__EventFunction_1<::UnityEngine::EventSystems::IPointerEnterHandler*>* get_pointerEnterHandler();
 
-  /// @brief Method get_pointerExitHandler, addr 0x34ee89c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_pointerExitHandler, addr 0x3517d98, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::EventSystems::__ExecuteEvents__EventFunction_1<::UnityEngine::EventSystems::IPointerExitHandler*>* get_pointerExitHandler();
 
-  /// @brief Method get_pointerMoveHandler, addr 0x34ee7ec, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_pointerMoveHandler, addr 0x3517ce8, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::EventSystems::__ExecuteEvents__EventFunction_1<::UnityEngine::EventSystems::IPointerMoveHandler*>* get_pointerMoveHandler();
 
-  /// @brief Method get_pointerUpHandler, addr 0x34ee94c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_pointerUpHandler, addr 0x3517e48, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::EventSystems::__ExecuteEvents__EventFunction_1<::UnityEngine::EventSystems::IPointerUpHandler*>* get_pointerUpHandler();
 
-  /// @brief Method get_scrollHandler, addr 0x34eebb4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_scrollHandler, addr 0x35180b0, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::EventSystems::__ExecuteEvents__EventFunction_1<::UnityEngine::EventSystems::IScrollHandler*>* get_scrollHandler();
 
-  /// @brief Method get_selectHandler, addr 0x34eec64, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_selectHandler, addr 0x3518160, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::EventSystems::__ExecuteEvents__EventFunction_1<::UnityEngine::EventSystems::ISelectHandler*>* get_selectHandler();
 
-  /// @brief Method get_submitHandler, addr 0x34eed6c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_submitHandler, addr 0x3518268, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::EventSystems::__ExecuteEvents__EventFunction_1<::UnityEngine::EventSystems::ISubmitHandler*>* get_submitHandler();
 
-  /// @brief Method get_updateSelectedHandler, addr 0x34eec0c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_updateSelectedHandler, addr 0x3518108, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::EventSystems::__ExecuteEvents__EventFunction_1<::UnityEngine::EventSystems::IUpdateSelectedHandler*>* get_updateSelectedHandler();
 
   static inline void setStaticF_s_BeginDragHandler(::UnityEngine::EventSystems::__ExecuteEvents__EventFunction_1<::UnityEngine::EventSystems::IBeginDragHandler*>* value);

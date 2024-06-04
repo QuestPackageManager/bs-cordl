@@ -39,12 +39,12 @@ public:
   /// @brief Field telemetryEnabled, offset 0x1e, size 0x1
   __declspec(property(get = __cordl_internal_get_telemetryEnabled, put = __cordl_internal_set_telemetryEnabled)) bool telemetryEnabled;
 
-  /// @brief Method GetRuntimeSettings, addr 0x2b5352c, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetRuntimeSettings, addr 0x2b76bb8, size 0x114, virtual false, abstract: false, final false
   static inline ::UnityW<::GlobalNamespace::OVRRuntimeSettings> GetRuntimeSettings();
 
   static inline ::GlobalNamespace::OVRRuntimeSettings* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x2b53640, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x2b76ccc, size 0x4c, virtual false, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::GlobalNamespace::__OVRManager__ColorSpace const& __cordl_internal_get_colorSpace() const;
@@ -71,18 +71,18 @@ public:
 
   constexpr void __cordl_internal_set_telemetryEnabled(bool value);
 
-  /// @brief Method .ctor, addr 0x2b536b4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b76d40, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityW<::GlobalNamespace::OVRRuntimeSettings> getStaticF__instance();
 
-  /// @brief Method get_HasSetTelemetryEnabled, addr 0x2b5368c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HasSetTelemetryEnabled, addr 0x2b76d18, size 0x8, virtual false, abstract: false, final false
   inline bool get_HasSetTelemetryEnabled();
 
-  /// @brief Method get_Instance, addr 0x2b53490, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_Instance, addr 0x2b76b1c, size 0x9c, virtual false, abstract: false, final false
   static inline ::UnityW<::GlobalNamespace::OVRRuntimeSettings> get_Instance();
 
-  /// @brief Method get_TelemetryEnabled, addr 0x2b53694, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_TelemetryEnabled, addr 0x2b76d20, size 0x20, virtual false, abstract: false, final false
   inline bool get_TelemetryEnabled();
 
   static inline void setStaticF__instance(::UnityW<::GlobalNamespace::OVRRuntimeSettings> value);

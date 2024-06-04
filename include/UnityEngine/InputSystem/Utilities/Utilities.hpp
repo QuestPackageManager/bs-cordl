@@ -31,6 +31,7 @@ module;
 #include "UnityEngine/InputSystem/Utilities/ReadOnlyArray_1.hpp"
 #include "UnityEngine/InputSystem/Utilities/SavedStructState_1.hpp"
 #include "UnityEngine/InputSystem/Utilities/SelectManyObservable_2.hpp"
+#include "UnityEngine/InputSystem/Utilities/SpriteUtilities.hpp"
 #include "UnityEngine/InputSystem/Utilities/StringHelpers.hpp"
 #include "UnityEngine/InputSystem/Utilities/Substring.hpp"
 #include "UnityEngine/InputSystem/Utilities/TakeNObservable_1.hpp"

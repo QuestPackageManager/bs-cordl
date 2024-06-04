@@ -28,10 +28,10 @@ namespace System::Net {
 class CORDL_TYPE AutoWebProxyScriptEngine : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetProxies, addr 0x2fef3dc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetProxies, addr 0x300bacc, size 0xc, virtual false, abstract: false, final false
   inline bool GetProxies(::System::Uri* destination, ByRef<::System::Collections::Generic::IList_1<::StringW>*> proxyList);
 
-  /// @brief Method GetProxies, addr 0x2fef3e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetProxies, addr 0x300bad8, size 0xc, virtual false, abstract: false, final false
   inline bool GetProxies(::System::Uri* destination, ByRef<::System::Collections::Generic::IList_1<::StringW>*> proxyList, ByRef<int32_t> syncStatus);
 
 protected:

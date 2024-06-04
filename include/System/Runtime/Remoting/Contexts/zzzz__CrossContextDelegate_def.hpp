@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CrossContextDelegate)
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Object;
 }
 // Forward declare root types
@@ -23,13 +26,13 @@ namespace System::Runtime::Remoting::Contexts {
 class CORDL_TYPE CrossContextDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2820c20, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x283b2ac, size 0x14, virtual true, abstract: false, final false
   inline void Invoke();
 
-  static inline ::System::Runtime::Remoting::Contexts::CrossContextDelegate* New_ctor(::System::Object* object, void* method);
+  static inline ::System::Runtime::Remoting::Contexts::CrossContextDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2820b64, size 0xbc, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
+  /// @brief Method .ctor, addr 0x283b1f0, size 0xbc, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []

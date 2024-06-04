@@ -21,7 +21,7 @@ namespace UnityEngine::TextCore::Text {
 struct CORDL_TYPE LinkInfo {
 public:
   // Declarations
-  /// @brief Method SetLinkId, addr 0x3496cfc, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SetLinkId, addr 0x34bf1f8, size 0xd4, virtual false, abstract: false, final false
   inline void SetLinkId(::ArrayW<char16_t, ::Array<char16_t>*> text, int32_t startIndex, int32_t length);
 
   // Ctor Parameters []

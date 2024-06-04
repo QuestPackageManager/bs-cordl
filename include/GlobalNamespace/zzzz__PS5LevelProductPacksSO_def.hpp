@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::PS5LevelProductPacksSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x14dd70c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14e36a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

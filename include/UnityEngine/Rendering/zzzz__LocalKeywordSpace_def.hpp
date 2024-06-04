@@ -11,6 +11,9 @@ namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Object;
 }
 // Forward declare root types
@@ -30,30 +33,30 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::LocalKeywordSpace>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::LocalKeywordSpace>*();
 
-  /// @brief Method Equals, addr 0x3431878, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x345ad74, size 0x7c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method Equals, addr 0x34318f4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x345adf0, size 0xc, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::LocalKeywordSpace rhs);
 
-  /// @brief Method GetHashCode, addr 0x3431850, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x345ad4c, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::LocalKeywordSpace>"
   constexpr ::System::IEquatable_1<::UnityEngine::Rendering::LocalKeywordSpace>* i___System__IEquatable_1___UnityEngine__Rendering__LocalKeywordSpace_();
 
-  /// @brief Method op_Equality, addr 0x34317f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x345acf4, size 0x8, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Rendering::LocalKeywordSpace lhs, ::UnityEngine::Rendering::LocalKeywordSpace rhs);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr LocalKeywordSpace();
 
-  // Ctor Parameters [CppParam { name: "m_KeywordSpace", ty: "void*", modifiers: "", def_value: None }]
-  constexpr LocalKeywordSpace(void* m_KeywordSpace) noexcept;
+  // Ctor Parameters [CppParam { name: "m_KeywordSpace", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  constexpr LocalKeywordSpace(::System::IntPtr m_KeywordSpace) noexcept;
 
   /// @brief Field m_KeywordSpace, offset: 0x0, size: 0x8, def value: None
-  void* m_KeywordSpace;
+  ::System::IntPtr m_KeywordSpace;
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

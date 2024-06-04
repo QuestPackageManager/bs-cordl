@@ -13,7 +13,7 @@ class DoubleControl;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Controls::DoubleControl);
 // Type: UnityEngine.InputSystem.Controls::DoubleControl
-// SizeInfo { instance_size: 240, native_size: -1, calculated_instance_size: 240, calculated_native_size: 240, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 272, native_size: -1, calculated_instance_size: 272, calculated_native_size: 265, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: false
 // CS Name: ::UnityEngine.InputSystem.Controls::DoubleControl*
@@ -22,13 +22,13 @@ public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Controls::DoubleControl* New_ctor();
 
-  /// @brief Method ReadUnprocessedValueFromState, addr 0x3177efc, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ReadUnprocessedValueFromState, addr 0x319eaf4, size 0xc, virtual true, abstract: false, final false
   inline double_t ReadUnprocessedValueFromState(::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method WriteValueIntoState, addr 0x3177f08, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method WriteValueIntoState, addr 0x319eb00, size 0xc, virtual true, abstract: false, final false
   inline void WriteValueIntoState(double_t value, ::cordl_internals::Ptr<void> statePtr);
 
-  /// @brief Method .ctor, addr 0x3177e74, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x319ea6c, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -48,7 +48,7 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Controls::DoubleControl, 0xf0>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Controls::DoubleControl, 0x110>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::Controls
 NEED_NO_BOX(::UnityEngine::InputSystem::Controls::DoubleControl);

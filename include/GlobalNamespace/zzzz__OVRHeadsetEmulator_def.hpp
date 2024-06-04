@@ -136,18 +136,18 @@ public:
   /// @brief Field resetHmdPoseOnRelease, offset 0x1c, size 0x1
   __declspec(property(get = __cordl_internal_get_resetHmdPoseOnRelease, put = __cordl_internal_set_resetHmdPoseOnRelease)) bool resetHmdPoseOnRelease;
 
-  /// @brief Method IsEmulationActivated, addr 0x2aff398, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method IsEmulationActivated, addr 0x2b21a24, size 0x90, virtual false, abstract: false, final false
   inline bool IsEmulationActivated();
 
-  /// @brief Method IsTweakingPitch, addr 0x2aff428, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method IsTweakingPitch, addr 0x2b21ab4, size 0x7c, virtual false, abstract: false, final false
   inline bool IsTweakingPitch();
 
   static inline ::GlobalNamespace::OVRHeadsetEmulator* New_ctor();
 
-  /// @brief Method Start, addr 0x2afef30, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2b215bc, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x2afef34, size 0x464, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2b215c0, size 0x464, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::ArrayW<::UnityEngine::KeyCode, ::Array<::UnityEngine::KeyCode>*> const& __cordl_internal_get_activateKeys() const;
@@ -222,7 +222,7 @@ public:
 
   constexpr void __cordl_internal_set_resetHmdPoseOnRelease(bool value);
 
-  /// @brief Method .ctor, addr 0x2aff4a4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b21b30, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

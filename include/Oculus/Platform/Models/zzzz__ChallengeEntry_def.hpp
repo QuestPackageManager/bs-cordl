@@ -12,6 +12,9 @@ CORDL_MODULE_EXPORT(ChallengeEntry)
 namespace Oculus::Platform::Models {
 class User;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class ChallengeEntry;
@@ -47,7 +50,7 @@ public:
   /// @brief Field ID, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__cordl_ID, put = __cordl_internal_set__cordl_ID)) uint64_t _cordl_ID;
 
-  static inline ::Oculus::Platform::Models::ChallengeEntry* New_ctor(void* o);
+  static inline ::Oculus::Platform::Models::ChallengeEntry* New_ctor(::System::IntPtr o);
 
   constexpr ::StringW const& __cordl_internal_get_DisplayScore() const;
 
@@ -91,8 +94,8 @@ public:
 
   constexpr void __cordl_internal_set__cordl_ID(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x2adb98c, size 0x110, virtual false, abstract: false, final false
-  inline void _ctor(void* o);
+  /// @brief Method .ctor, addr 0x2afc018, size 0x110, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr o);
 
 protected:
   // Ctor Parameters []

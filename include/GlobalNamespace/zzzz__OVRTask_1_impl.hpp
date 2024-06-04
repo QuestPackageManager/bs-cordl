@@ -17,14 +17,17 @@
 #include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-template <typename TResult> inline ::GlobalNamespace::__OVRTask_1__CallbackInvoker<TResult>* GlobalNamespace::__OVRTask_1__CallbackInvoker<TResult>::New_ctor(::System::Object* object, void* method) {
+template <typename TResult>
+inline ::GlobalNamespace::__OVRTask_1__CallbackInvoker<TResult>* GlobalNamespace::__OVRTask_1__CallbackInvoker<TResult>::New_ctor(::System::Object* object, ::System::IntPtr method) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__OVRTask_1__CallbackInvoker<TResult>*>(object, method));
 }
-template <typename TResult> inline void GlobalNamespace::__OVRTask_1__CallbackInvoker<TResult>::_ctor(::System::Object* object, void* method) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRTask_1__CallbackInvoker<TResult>*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get() })));
+template <typename TResult> inline void GlobalNamespace::__OVRTask_1__CallbackInvoker<TResult>::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRTask_1__CallbackInvoker<TResult>*>::get(),
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                                                             ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
 template <typename TResult> inline void GlobalNamespace::__OVRTask_1__CallbackInvoker<TResult>::Invoke(::System::Guid guid, TResult result) {
@@ -48,13 +51,15 @@ template <typename TResult> inline void GlobalNamespace::__OVRTask_1__CallbackIn
 }
 // Ctor Parameters []
 template <typename TResult> constexpr ::GlobalNamespace::__OVRTask_1__CallbackInvoker<TResult>::__OVRTask_1__CallbackInvoker() {}
-template <typename TResult> inline ::GlobalNamespace::__OVRTask_1__CallbackRemover<TResult>* GlobalNamespace::__OVRTask_1__CallbackRemover<TResult>::New_ctor(::System::Object* object, void* method) {
+template <typename TResult>
+inline ::GlobalNamespace::__OVRTask_1__CallbackRemover<TResult>* GlobalNamespace::__OVRTask_1__CallbackRemover<TResult>::New_ctor(::System::Object* object, ::System::IntPtr method) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__OVRTask_1__CallbackRemover<TResult>*>(object, method));
 }
-template <typename TResult> inline void GlobalNamespace::__OVRTask_1__CallbackRemover<TResult>::_ctor(::System::Object* object, void* method) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRTask_1__CallbackRemover<TResult>*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get() })));
+template <typename TResult> inline void GlobalNamespace::__OVRTask_1__CallbackRemover<TResult>::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRTask_1__CallbackRemover<TResult>*>::get(),
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                                                             ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
 template <typename TResult> inline bool GlobalNamespace::__OVRTask_1__CallbackRemover<TResult>::Invoke(::System::Guid guid) {
@@ -79,13 +84,14 @@ template <typename TResult> inline bool GlobalNamespace::__OVRTask_1__CallbackRe
 // Ctor Parameters []
 template <typename TResult> constexpr ::GlobalNamespace::__OVRTask_1__CallbackRemover<TResult>::__OVRTask_1__CallbackRemover() {}
 template <typename TResult>
-inline ::GlobalNamespace::__OVRTask_1__InternalDataRemover<TResult>* GlobalNamespace::__OVRTask_1__InternalDataRemover<TResult>::New_ctor(::System::Object* object, void* method) {
+inline ::GlobalNamespace::__OVRTask_1__InternalDataRemover<TResult>* GlobalNamespace::__OVRTask_1__InternalDataRemover<TResult>::New_ctor(::System::Object* object, ::System::IntPtr method) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__OVRTask_1__InternalDataRemover<TResult>*>(object, method));
 }
-template <typename TResult> inline void GlobalNamespace::__OVRTask_1__InternalDataRemover<TResult>::_ctor(::System::Object* object, void* method) {
+template <typename TResult> inline void GlobalNamespace::__OVRTask_1__InternalDataRemover<TResult>::_ctor(::System::Object* object, ::System::IntPtr method) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRTask_1__InternalDataRemover<TResult>*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get() })));
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
 template <typename TResult> inline bool GlobalNamespace::__OVRTask_1__InternalDataRemover<TResult>::Invoke(::System::Guid guid) {

@@ -44,13 +44,13 @@ public:
 
   constexpr void __cordl_internal_set__levelDirPath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26a19a4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ba9b0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW levelDirPath, ::StringW levelAssetPath);
 
-  /// @brief Method get_levelAssetPath, addr 0x26a199c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelAssetPath, addr 0x26ba9a8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_levelAssetPath();
 
-  /// @brief Method get_levelDirPath, addr 0x26a1994, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelDirPath, addr 0x26ba9a0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_levelDirPath();
 
 protected:

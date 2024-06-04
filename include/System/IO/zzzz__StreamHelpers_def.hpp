@@ -23,7 +23,7 @@ namespace System::IO {
 class CORDL_TYPE StreamHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ValidateCopyToArgs, addr 0x287d79c, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method ValidateCopyToArgs, addr 0x2897e28, size 0x240, virtual false, abstract: false, final false
   static inline void ValidateCopyToArgs(::System::IO::Stream* source, ::System::IO::Stream* destination, int32_t bufferSize);
 
 protected:

@@ -3,6 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "Tweening/zzzz__FrameParity_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(TweeningManager)
@@ -31,7 +32,7 @@ class TweeningManager;
 // Write type traits
 MARK_REF_PTR_T(::Tweening::TweeningManager);
 // Type: Tweening::TweeningManager
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Tweening {
 // Is value type: false
 // CS Name: ::Tweening::TweeningManager*
@@ -48,6 +49,9 @@ public:
   __declspec(property(get = __cordl_internal_get__ownerByTween,
                       put = __cordl_internal_set__ownerByTween))::System::Collections::Generic::Dictionary_2<::Tweening::Tween*, ::System::Object*>* _ownerByTween;
 
+  /// @brief Field _parityOfNextNewTween, offset 0x40, size 0x4
+  __declspec(property(get = __cordl_internal_get__parityOfNextNewTween, put = __cordl_internal_set__parityOfNextNewTween))::Tweening::FrameParity _parityOfNextNewTween;
+
   /// @brief Field _reusableTweenHashSets, offset 0x38, size 0x8
   __declspec(
       property(get = __cordl_internal_get__reusableTweenHashSets,
@@ -58,36 +62,36 @@ public:
       get = __cordl_internal_get__tweensByOwner,
       put = __cordl_internal_set__tweensByOwner))::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Collections::Generic::HashSet_1<::Tweening::Tween*>*>* _tweensByOwner;
 
-  /// @brief Method AddTween, addr 0x3044c80, size 0x4c, virtual false, abstract: false, final false
-  inline ::Tweening::Tween* AddTween(::Tweening::Tween* tween, ::System::Object* owner);
+  /// @brief Method AddTween, addr 0x30613d0, size 0x50, virtual false, abstract: false, final false
+  inline ::Tweening::Tween* AddTween(::Tweening::Tween* tween, ::System::Object* owner, bool updateEveryOtherFrame);
 
-  /// @brief Method AddTweenToDataStructures, addr 0x3044ccc, size 0x134, virtual false, abstract: false, final false
-  inline bool AddTweenToDataStructures(::Tweening::Tween* tween, ::System::Object* owner);
+  /// @brief Method AddTweenToDataStructures, addr 0x3061420, size 0x174, virtual false, abstract: false, final false
+  inline bool AddTweenToDataStructures(::Tweening::Tween* tween, ::System::Object* owner, bool updateEveryOtherFrame);
 
-  /// @brief Method AddTweenToOwnerDictionary, addr 0x3044ff8, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method AddTweenToOwnerDictionary, addr 0x30617a0, size 0x198, virtual false, abstract: false, final false
   inline void AddTweenToOwnerDictionary(::Tweening::Tween* tween, ::System::Object* owner);
 
   /// @brief Method GetTime, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline float_t GetTime();
 
-  /// @brief Method KillAllTweens, addr 0x3044e7c, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method KillAllTweens, addr 0x3061624, size 0x17c, virtual false, abstract: false, final false
   inline void KillAllTweens(::System::Object* owner);
 
-  /// @brief Method LateUpdate, addr 0x30448d0, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x3060fec, size 0x220, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::Tweening::TweeningManager* New_ctor();
 
-  /// @brief Method RemoveTweenFromOwnerDictionary, addr 0x3044abc, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method RemoveTweenFromOwnerDictionary, addr 0x306120c, size 0x1c4, virtual false, abstract: false, final false
   inline void RemoveTweenFromOwnerDictionary(::Tweening::Tween* tween);
 
-  /// @brief Method RestartTween, addr 0x3044e00, size 0x58, virtual false, abstract: false, final false
-  inline ::Tweening::Tween* RestartTween(::Tweening::Tween* tween, ::System::Object* owner);
+  /// @brief Method RestartTween, addr 0x3061594, size 0x68, virtual false, abstract: false, final false
+  inline ::Tweening::Tween* RestartTween(::Tweening::Tween* tween, ::System::Object* owner, bool updateEveryOtherFrame);
 
-  /// @brief Method ResumeTween, addr 0x3044e58, size 0x24, virtual false, abstract: false, final false
-  inline ::Tweening::Tween* ResumeTween(::Tweening::Tween* tween, ::System::Object* owner);
+  /// @brief Method ResumeTween, addr 0x30615fc, size 0x28, virtual false, abstract: false, final false
+  inline ::Tweening::Tween* ResumeTween(::Tweening::Tween* tween, ::System::Object* owner, bool updateEveryOtherFrame);
 
-  /// @brief Method Start, addr 0x304486c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x3060f88, size 0x64, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::System::Collections::Generic::List_1<::Tweening::Tween*>*& __cordl_internal_get__activeTweens();
@@ -101,6 +105,10 @@ public:
   constexpr ::System::Collections::Generic::Dictionary_2<::Tweening::Tween*, ::System::Object*>*& __cordl_internal_get__ownerByTween();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::Tweening::Tween*, ::System::Object*>*> const& __cordl_internal_get__ownerByTween() const;
+
+  constexpr ::Tweening::FrameParity const& __cordl_internal_get__parityOfNextNewTween() const;
+
+  constexpr ::Tweening::FrameParity& __cordl_internal_get__parityOfNextNewTween();
 
   constexpr ::System::Collections::Generic::Queue_1<::System::Collections::Generic::HashSet_1<::Tweening::Tween*>*>*& __cordl_internal_get__reusableTweenHashSets();
 
@@ -118,11 +126,13 @@ public:
 
   constexpr void __cordl_internal_set__ownerByTween(::System::Collections::Generic::Dictionary_2<::Tweening::Tween*, ::System::Object*>* value);
 
+  constexpr void __cordl_internal_set__parityOfNextNewTween(::Tweening::FrameParity value);
+
   constexpr void __cordl_internal_set__reusableTweenHashSets(::System::Collections::Generic::Queue_1<::System::Collections::Generic::HashSet_1<::Tweening::Tween*>*>* value);
 
   constexpr void __cordl_internal_set__tweensByOwner(::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Collections::Generic::HashSet_1<::Tweening::Tween*>*>* value);
 
-  /// @brief Method .ctor, addr 0x30445f8, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3060ce4, size 0x194, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -154,10 +164,13 @@ public:
   /// @brief Field _reusableTweenHashSets, offset: 0x38, size: 0x8, def value: None
   ::System::Collections::Generic::Queue_1<::System::Collections::Generic::HashSet_1<::Tweening::Tween*>*>* ____reusableTweenHashSets;
 
+  /// @brief Field _parityOfNextNewTween, offset: 0x40, size: 0x4, def value: None
+  ::Tweening::FrameParity ____parityOfNextNewTween;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Tweening::TweeningManager, 0x40>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::Tweening::TweeningManager, 0x48>, "Size mismatch!");
 
 static_assert(offsetof(::Tweening::TweeningManager, ____activeTweens) == 0x18, "Offset mismatch!");
 
@@ -168,6 +181,8 @@ static_assert(offsetof(::Tweening::TweeningManager, ____tweensByOwner) == 0x28, 
 static_assert(offsetof(::Tweening::TweeningManager, ____ownerByTween) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::Tweening::TweeningManager, ____reusableTweenHashSets) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::Tweening::TweeningManager, ____parityOfNextNewTween) == 0x40, "Offset mismatch!");
 
 } // namespace Tweening
 NEED_NO_BOX(::Tweening::TweeningManager);

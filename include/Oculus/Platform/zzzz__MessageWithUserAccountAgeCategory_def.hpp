@@ -9,6 +9,9 @@ CORDL_MODULE_EXPORT(MessageWithUserAccountAgeCategory)
 namespace Oculus::Platform::Models {
 class UserAccountAgeCategory;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform {
 class MessageWithUserAccountAgeCategory;
@@ -23,16 +26,16 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithUserAccountAgeCategory : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::UserAccountAgeCategory*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x2ac9f40, size 0x9c, virtual true, abstract: false, final false
-  inline ::Oculus::Platform::Models::UserAccountAgeCategory* GetDataFromMessage(void* c_message);
+  /// @brief Method GetDataFromMessage, addr 0x2aea5cc, size 0x9c, virtual true, abstract: false, final false
+  inline ::Oculus::Platform::Models::UserAccountAgeCategory* GetDataFromMessage(::System::IntPtr c_message);
 
-  /// @brief Method GetUserAccountAgeCategory, addr 0x2ac9f04, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetUserAccountAgeCategory, addr 0x2aea590, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::UserAccountAgeCategory* GetUserAccountAgeCategory();
 
-  static inline ::Oculus::Platform::MessageWithUserAccountAgeCategory* New_ctor(void* c_message);
+  static inline ::Oculus::Platform::MessageWithUserAccountAgeCategory* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x2ac5b84, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor(void* c_message);
+  /// @brief Method .ctor, addr 0x2ae6210, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr c_message);
 
 protected:
   // Ctor Parameters []

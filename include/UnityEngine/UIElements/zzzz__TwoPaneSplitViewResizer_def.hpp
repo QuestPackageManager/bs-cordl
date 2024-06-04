@@ -64,25 +64,25 @@ public:
   /// @brief Field m_Start, offset 0x30, size 0xc
   __declspec(property(get = __cordl_internal_get_m_Start, put = __cordl_internal_set_m_Start))::UnityEngine::Vector3 m_Start;
 
-  /// @brief Method ApplyDelta, addr 0x358f18c, size 0x600, virtual false, abstract: false, final false
+  /// @brief Method ApplyDelta, addr 0x35ba688, size 0x600, virtual false, abstract: false, final false
   inline void ApplyDelta(float_t delta);
 
   static inline ::UnityEngine::UIElements::TwoPaneSplitViewResizer* New_ctor(::UnityEngine::UIElements::TwoPaneSplitView* splitView, int32_t dir,
                                                                              ::UnityEngine::UIElements::TwoPaneSplitViewOrientation orientation);
 
-  /// @brief Method OnPointerDown, addr 0x358f78c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method OnPointerDown, addr 0x35bac88, size 0xc8, virtual false, abstract: false, final false
   inline void OnPointerDown(::UnityEngine::UIElements::PointerDownEvent* e);
 
-  /// @brief Method OnPointerMove, addr 0x358f854, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method OnPointerMove, addr 0x35bad50, size 0xb8, virtual false, abstract: false, final false
   inline void OnPointerMove(::UnityEngine::UIElements::PointerMoveEvent* e);
 
-  /// @brief Method OnPointerUp, addr 0x358f90c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method OnPointerUp, addr 0x35bae08, size 0xac, virtual false, abstract: false, final false
   inline void OnPointerUp(::UnityEngine::UIElements::PointerUpEvent* e);
 
-  /// @brief Method RegisterCallbacksOnTarget, addr 0x358edf4, size 0x1cc, virtual true, abstract: false, final false
+  /// @brief Method RegisterCallbacksOnTarget, addr 0x35ba2f0, size 0x1cc, virtual true, abstract: false, final false
   inline void RegisterCallbacksOnTarget();
 
-  /// @brief Method UnregisterCallbacksFromTarget, addr 0x358efc0, size 0x1cc, virtual true, abstract: false, final false
+  /// @brief Method UnregisterCallbacksFromTarget, addr 0x35ba4bc, size 0x1cc, virtual true, abstract: false, final false
   inline void UnregisterCallbacksFromTarget();
 
   constexpr bool const& __cordl_internal_get_m_Active() const;
@@ -115,19 +115,19 @@ public:
 
   constexpr void __cordl_internal_set_m_Start(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x358ed1c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35ba218, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::TwoPaneSplitView* splitView, int32_t dir, ::UnityEngine::UIElements::TwoPaneSplitViewOrientation orientation);
 
-  /// @brief Method get_fixedPane, addr 0x358eabc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_fixedPane, addr 0x35b9fb8, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_fixedPane();
 
-  /// @brief Method get_fixedPaneMinDimension, addr 0x358eaf4, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method get_fixedPaneMinDimension, addr 0x35b9ff0, size 0x114, virtual false, abstract: false, final false
   inline float_t get_fixedPaneMinDimension();
 
-  /// @brief Method get_flexedPane, addr 0x358ead8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_flexedPane, addr 0x35b9fd4, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_flexedPane();
 
-  /// @brief Method get_flexedPaneMinDimension, addr 0x358ec08, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method get_flexedPaneMinDimension, addr 0x35ba104, size 0x114, virtual false, abstract: false, final false
   inline float_t get_flexedPaneMinDimension();
 
 protected:

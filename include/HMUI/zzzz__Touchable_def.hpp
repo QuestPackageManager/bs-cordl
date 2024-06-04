@@ -30,7 +30,7 @@ public:
 
   static inline ::HMUI::Touchable* New_ctor();
 
-  /// @brief Method OnPopulateMesh, addr 0x2508268, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method OnPopulateMesh, addr 0x25211ac, size 0x18, virtual true, abstract: false, final false
   inline void OnPopulateMesh(::UnityEngine::UI::VertexHelper* vh);
 
   constexpr float_t const& __cordl_internal_get__skew() const;
@@ -39,10 +39,10 @@ public:
 
   constexpr void __cordl_internal_set__skew(float_t value);
 
-  /// @brief Method .ctor, addr 0x2507a64, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25209a8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_skew, addr 0x2508260, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_skew, addr 0x25211a4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_skew();
 
 protected:

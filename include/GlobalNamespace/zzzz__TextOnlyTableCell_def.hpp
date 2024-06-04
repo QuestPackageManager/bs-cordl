@@ -44,15 +44,15 @@ public:
 
   __declspec(property(get = get_text, put = set_text))::StringW text;
 
-  /// @brief Method HighlightDidChange, addr 0x273a41c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method HighlightDidChange, addr 0x2751ba4, size 0x4, virtual true, abstract: false, final false
   inline void HighlightDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
 
   static inline ::GlobalNamespace::TextOnlyTableCell* New_ctor();
 
-  /// @brief Method RefreshVisuals, addr 0x273a350, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method RefreshVisuals, addr 0x2751ad8, size 0xcc, virtual false, abstract: false, final false
   inline void RefreshVisuals();
 
-  /// @brief Method SelectionDidChange, addr 0x273a34c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SelectionDidChange, addr 0x2751ad4, size 0x4, virtual true, abstract: false, final false
   inline void SelectionDidChange(::HMUI::__SelectableCell__TransitionType transitionType);
 
   constexpr ::UnityW<::HMUI::ImageView> const& __cordl_internal_get__bgImage() const;
@@ -79,13 +79,13 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x273a420, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2751ba8, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_text, addr 0x273a304, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x2751a8c, size 0x24, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method set_text, addr 0x273a328, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x2751ab0, size 0x24, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:

@@ -60,19 +60,19 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::RareData>"
   constexpr operator ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::RareData>*();
 
-  /// @brief Method Copy, addr 0x35d8f28, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Copy, addr 0x3603424, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::RareData Copy();
 
-  /// @brief Method CopyFrom, addr 0x35d8f44, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method CopyFrom, addr 0x3603440, size 0x14, virtual true, abstract: false, final true
   inline void CopyFrom(ByRef<::UnityEngine::UIElements::RareData> other);
 
-  /// @brief Method Equals, addr 0x35d90bc, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x36035b8, size 0xa0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x35d9078, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x3603574, size 0x44, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::RareData other);
 
-  /// @brief Method GetHashCode, addr 0x35d915c, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3603658, size 0xf8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::RareData>"
@@ -81,7 +81,7 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::RareData>"
   constexpr ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::RareData>* i___UnityEngine__UIElements__IStyleDataGroup_1___UnityEngine__UIElements__RareData_();
 
-  /// @brief Method op_Equality, addr 0x35d8f58, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x3603454, size 0x120, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::RareData lhs, ::UnityEngine::UIElements::RareData rhs);
 
   // Ctor Parameters []

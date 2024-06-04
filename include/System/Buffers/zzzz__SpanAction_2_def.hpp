@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SpanAction_2)
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Object;
 }
 namespace System {
@@ -31,10 +34,10 @@ public:
   /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Invoke(::System::Span_1<T> span, TArg arg);
 
-  static inline ::System::Buffers::SpanAction_2<T, TArg>* New_ctor(::System::Object* object, void* method);
+  static inline ::System::Buffers::SpanAction_2<T, TArg>* New_ctor(::System::Object* object, ::System::IntPtr method);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []

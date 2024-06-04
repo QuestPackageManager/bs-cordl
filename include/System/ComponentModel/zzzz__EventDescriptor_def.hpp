@@ -26,7 +26,7 @@ public:
   // Declarations
   static inline ::System::ComponentModel::EventDescriptor* New_ctor(::StringW name, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attrs);
 
-  /// @brief Method .ctor, addr 0x2f3da2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f5e11c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attrs);
 
 protected:

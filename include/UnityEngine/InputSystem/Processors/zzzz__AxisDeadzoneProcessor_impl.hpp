@@ -9,9 +9,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::Processors::AxisDeadzoneProcessor::*)()>(
     &::UnityEngine::InputSystem::Processors::AxisDeadzoneProcessor::get_minOrDefault)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x31671bc;
+  constexpr static std::size_t addrs = 0x318b974;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Processors::AxisDeadzoneProcessor*>::get(), "get_minOrDefault",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -24,9 +24,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::Processors::AxisDeadzoneProcessor::*)()>(
     &::UnityEngine::InputSystem::Processors::AxisDeadzoneProcessor::get_maxOrDefault)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x316722c;
+  constexpr static std::size_t addrs = 0x318b9e4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Processors::AxisDeadzoneProcessor*>::get(), "get_maxOrDefault",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -39,13 +39,13 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::Processors::AxisDeadzoneProcessor::*)(
     float_t, ::UnityEngine::InputSystem::InputControl*)>(&::UnityEngine::InputSystem::Processors::AxisDeadzoneProcessor::Process)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x316729c;
+  constexpr static std::size_t addrs = 0x318ba54;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Processors::AxisDeadzoneProcessor*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Processors::AxisDeadzoneProcessor*>::get(), 6));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Processors::AxisDeadzoneProcessor*>::get(), 7));
     return ___internal_method;
   }
 };
@@ -55,9 +55,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::Processors::AxisDeadzoneProcessor::*)()>(
     &::UnityEngine::InputSystem::Processors::AxisDeadzoneProcessor::ToString)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3167304;
+  constexpr static std::size_t addrs = 0x318babc;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Processors::AxisDeadzoneProcessor*>::get(),
@@ -71,9 +71,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Processors::AxisDeadzoneProcessor::*)()>(
     &::UnityEngine::InputSystem::Processors::AxisDeadzoneProcessor::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x31673ac;
+  constexpr static std::size_t addrs = 0x318bb64;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Processors::AxisDeadzoneProcessor*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -120,7 +120,7 @@ inline float_t UnityEngine::InputSystem::Processors::AxisDeadzoneProcessor::get_
 inline float_t UnityEngine::InputSystem::Processors::AxisDeadzoneProcessor::Process(float_t value, ::UnityEngine::InputSystem::InputControl* control) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Processors::AxisDeadzoneProcessor*>::get(), 6)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Processors::AxisDeadzoneProcessor*>::get(), 7)));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method, value, control);
 }
 inline ::StringW UnityEngine::InputSystem::Processors::AxisDeadzoneProcessor::ToString() {

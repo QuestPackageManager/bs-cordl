@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::Unity::Mathematics::DoNotNormalizeAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3242f1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x326a270, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

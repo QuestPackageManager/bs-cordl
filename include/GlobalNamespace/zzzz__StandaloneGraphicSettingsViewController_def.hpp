@@ -61,37 +61,37 @@ public:
   /// @brief Field _vrRenderingScale, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__vrRenderingScale, put = __cordl_internal_set__vrRenderingScale))::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> _vrRenderingScale;
 
-  /// @brief Method DidActivate, addr 0x2660808, size 0x3ec, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x2679c08, size 0x3ec, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x2660cc0, size 0x220, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x267a0c0, size 0x220, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleAntiAliasingLevelChanged, addr 0x2660ee0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method HandleAntiAliasingLevelChanged, addr 0x267a2e0, size 0x6c, virtual false, abstract: false, final false
   inline void HandleAntiAliasingLevelChanged(int32_t newValue);
 
-  /// @brief Method HandleFullscreenToggled, addr 0x2660fc0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method HandleFullscreenToggled, addr 0x267a3c0, size 0x64, virtual false, abstract: false, final false
   inline void HandleFullscreenToggled(bool newValue);
 
-  /// @brief Method HandleMainEffectChanged, addr 0x2661190, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method HandleMainEffectChanged, addr 0x267a590, size 0x6c, virtual false, abstract: false, final false
   inline void HandleMainEffectChanged(int32_t newValue);
 
-  /// @brief Method HandleMirrorChanged, addr 0x26611fc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method HandleMirrorChanged, addr 0x267a5fc, size 0x6c, virtual false, abstract: false, final false
   inline void HandleMirrorChanged(int32_t newValue);
 
-  /// @brief Method HandleScreenDisplacementToggled, addr 0x2661124, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method HandleScreenDisplacementToggled, addr 0x267a524, size 0x6c, virtual false, abstract: false, final false
   inline void HandleScreenDisplacementToggled(bool newValue);
 
-  /// @brief Method HandleShockwaveMaxParticlesChanged, addr 0x2661024, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method HandleShockwaveMaxParticlesChanged, addr 0x267a424, size 0x6c, virtual false, abstract: false, final false
   inline void HandleShockwaveMaxParticlesChanged(int32_t newValue);
 
-  /// @brief Method HandleSmokeToggled, addr 0x2661090, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method HandleSmokeToggled, addr 0x267a490, size 0x94, virtual false, abstract: false, final false
   inline void HandleSmokeToggled(bool newValue);
 
-  /// @brief Method HandleVrRenderingScaleChanged, addr 0x2660f4c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method HandleVrRenderingScaleChanged, addr 0x267a34c, size 0x74, virtual false, abstract: false, final false
   inline void HandleVrRenderingScaleChanged(::GlobalNamespace::FormattedFloatListSettingsController* _, float_t newValue);
 
-  /// @brief Method LoadPerformancePresetSettings, addr 0x2660bf4, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method LoadPerformancePresetSettings, addr 0x2679ff4, size 0xcc, virtual false, abstract: false, final false
   inline void LoadPerformancePresetSettings(::BeatSaber::PerformancePresets::PerformancePreset* preset);
 
   static inline ::GlobalNamespace::StandaloneGraphicSettingsViewController* New_ctor();
@@ -144,7 +144,7 @@ public:
 
   constexpr void __cordl_internal_set__vrRenderingScale(::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> value);
 
-  /// @brief Method .ctor, addr 0x2661268, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x267a668, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

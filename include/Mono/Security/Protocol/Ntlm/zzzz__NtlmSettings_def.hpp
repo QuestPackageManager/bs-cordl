@@ -28,7 +28,7 @@ public:
 
   static inline ::Mono::Security::Protocol::Ntlm::NtlmAuthLevel getStaticF_defaultAuthLevel();
 
-  /// @brief Method get_DefaultAuthLevel, addr 0x277f5ac, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultAuthLevel, addr 0x2798c18, size 0x58, virtual false, abstract: false, final false
   static inline ::Mono::Security::Protocol::Ntlm::NtlmAuthLevel get_DefaultAuthLevel();
 
   static inline void setStaticF_defaultAuthLevel(::Mono::Security::Protocol::Ntlm::NtlmAuthLevel value);

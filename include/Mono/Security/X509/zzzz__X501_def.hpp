@@ -76,13 +76,13 @@ public:
   /// @brief Field userid, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_userid, put = setStaticF_userid))::ArrayW<uint8_t, ::Array<uint8_t>*> userid;
 
-  /// @brief Method AppendEntry, addr 0x2775d48, size 0x7c4, virtual false, abstract: false, final false
+  /// @brief Method AppendEntry, addr 0x278f3b4, size 0x7c4, virtual false, abstract: false, final false
   static inline void AppendEntry(::System::Text::StringBuilder* sb, ::Mono::Security::ASN1* entry, bool quotes);
 
-  /// @brief Method ToString, addr 0x276e538, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x2787ba4, size 0x138, virtual false, abstract: false, final false
   static inline ::StringW ToString(::Mono::Security::ASN1* seq);
 
-  /// @brief Method ToString, addr 0x277650c, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x278fb78, size 0x1a8, virtual false, abstract: false, final false
   static inline ::StringW ToString(::Mono::Security::ASN1* seq, bool reversed, ::StringW separator, bool quotes);
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_commonName();

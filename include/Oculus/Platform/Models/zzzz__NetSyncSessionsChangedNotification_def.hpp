@@ -9,6 +9,9 @@ CORDL_MODULE_EXPORT(NetSyncSessionsChangedNotification)
 namespace Oculus::Platform::Models {
 class NetSyncSessionList;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class NetSyncSessionsChangedNotification;
@@ -29,7 +32,7 @@ public:
   /// @brief Field Sessions, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_Sessions, put = __cordl_internal_set_Sessions))::Oculus::Platform::Models::NetSyncSessionList* Sessions;
 
-  static inline ::Oculus::Platform::Models::NetSyncSessionsChangedNotification* New_ctor(void* o);
+  static inline ::Oculus::Platform::Models::NetSyncSessionsChangedNotification* New_ctor(::System::IntPtr o);
 
   constexpr int64_t const& __cordl_internal_get_ConnectionId() const;
 
@@ -43,8 +46,8 @@ public:
 
   constexpr void __cordl_internal_set_Sessions(::Oculus::Platform::Models::NetSyncSessionList* value);
 
-  /// @brief Method .ctor, addr 0x2adda44, size 0xc0, virtual false, abstract: false, final false
-  inline void _ctor(void* o);
+  /// @brief Method .ctor, addr 0x2afe0d0, size 0xc0, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr o);
 
 protected:
   // Ctor Parameters []

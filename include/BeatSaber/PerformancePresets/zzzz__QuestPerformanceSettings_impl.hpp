@@ -12,9 +12,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::PerformancePresets::ProcessorPerformanceLevel (
     ::BeatSaber::PerformancePresets::QuestPerformanceSettings::*)()>(&::BeatSaber::PerformancePresets::QuestPerformanceSettings::get_gpuLevel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1066f10;
+  constexpr static std::size_t addrs = 0x106d63c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::PerformancePresets::QuestPerformanceSettings*>::get(), "get_gpuLevel",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -27,9 +27,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::PerformancePresets::ProcessorPerformanceLevel (
     ::BeatSaber::PerformancePresets::QuestPerformanceSettings::*)()>(&::BeatSaber::PerformancePresets::QuestPerformanceSettings::get_cpuLevel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1066f18;
+  constexpr static std::size_t addrs = 0x106d644;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::PerformancePresets::QuestPerformanceSettings*>::get(), "get_cpuLevel",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -42,9 +42,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::PerformancePresets::FoveatedRenderingLevel (
     ::BeatSaber::PerformancePresets::QuestPerformanceSettings::*)()>(&::BeatSaber::PerformancePresets::QuestPerformanceSettings::get_foveatedRenderingLevelMenu)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1066f20;
+  constexpr static std::size_t addrs = 0x106d64c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::PerformancePresets::QuestPerformanceSettings*>::get(),
                                                  "get_foveatedRenderingLevelMenu", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -57,9 +57,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::PerformancePresets::FoveatedRenderingLevel (
     ::BeatSaber::PerformancePresets::QuestPerformanceSettings::*)()>(&::BeatSaber::PerformancePresets::QuestPerformanceSettings::get_foveatedRenderingLevelGameplay)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1066f28;
+  constexpr static std::size_t addrs = 0x106d654;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::PerformancePresets::QuestPerformanceSettings*>::get(),
                                                  "get_foveatedRenderingLevelGameplay", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -72,9 +72,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BeatSaber::PerformancePresets::QuestPerformanceSettings::*)()>(
     &::BeatSaber::PerformancePresets::QuestPerformanceSettings::get_eyeTrackedFoveatedRenderingEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1066f30;
+  constexpr static std::size_t addrs = 0x106d65c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::PerformancePresets::QuestPerformanceSettings*>::get(),
                                                  "get_eyeTrackedFoveatedRenderingEnabled", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -87,9 +87,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BeatSaber::PerformancePresets::QuestPerformanceSettings::*)()>(
     &::BeatSaber::PerformancePresets::QuestPerformanceSettings::get_dynamicFoveatedRenderingEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x1066f38;
+  constexpr static std::size_t addrs = 0x106d664;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::PerformancePresets::QuestPerformanceSettings*>::get(),
                                                  "get_dynamicFoveatedRenderingEnabled", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -102,9 +102,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::PerformancePresets::QuestPerformanceSettings::*)()>(
     &::BeatSaber::PerformancePresets::QuestPerformanceSettings::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x1066f40;
+  constexpr static std::size_t addrs = 0x106d66c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::PerformancePresets::QuestPerformanceSettings*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));

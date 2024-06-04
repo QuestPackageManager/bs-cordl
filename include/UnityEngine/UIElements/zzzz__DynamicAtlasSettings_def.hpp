@@ -84,43 +84,43 @@ public:
 
   constexpr void __cordl_internal_set_m_MinAtlasSize(int32_t value);
 
-  /// @brief Method .ctor, addr 0x356b458, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3596954, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_activeFilters, addr 0x356b3b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_activeFilters, addr 0x35968ac, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::DynamicAtlasFilters get_activeFilters();
 
-  /// @brief Method get_customFilter, addr 0x356b3c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_customFilter, addr 0x35968c4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::DynamicAtlasCustomFilter* get_customFilter();
 
-  /// @brief Method get_defaultFilters, addr 0x356b3c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultFilters, addr 0x35968bc, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::DynamicAtlasFilters get_defaultFilters();
 
-  /// @brief Method get_defaults, addr 0x356b3d8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_defaults, addr 0x35968d4, size 0x80, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::DynamicAtlasSettings* get_defaults();
 
-  /// @brief Method get_maxAtlasSize, addr 0x356b390, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxAtlasSize, addr 0x359688c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxAtlasSize();
 
-  /// @brief Method get_maxSubTextureSize, addr 0x356b3a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxSubTextureSize, addr 0x359689c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxSubTextureSize();
 
-  /// @brief Method get_minAtlasSize, addr 0x356b380, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_minAtlasSize, addr 0x359687c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_minAtlasSize();
 
-  /// @brief Method set_activeFilters, addr 0x356b3b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_activeFilters, addr 0x35968b4, size 0x8, virtual false, abstract: false, final false
   inline void set_activeFilters(::UnityEngine::UIElements::DynamicAtlasFilters value);
 
-  /// @brief Method set_customFilter, addr 0x356b3d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_customFilter, addr 0x35968cc, size 0x8, virtual false, abstract: false, final false
   inline void set_customFilter(::UnityEngine::UIElements::DynamicAtlasCustomFilter* value);
 
-  /// @brief Method set_maxAtlasSize, addr 0x356b398, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maxAtlasSize, addr 0x3596894, size 0x8, virtual false, abstract: false, final false
   inline void set_maxAtlasSize(int32_t value);
 
-  /// @brief Method set_maxSubTextureSize, addr 0x356b3a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maxSubTextureSize, addr 0x35968a4, size 0x8, virtual false, abstract: false, final false
   inline void set_maxSubTextureSize(int32_t value);
 
-  /// @brief Method set_minAtlasSize, addr 0x356b388, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_minAtlasSize, addr 0x3596884, size 0x8, virtual false, abstract: false, final false
   inline void set_minAtlasSize(int32_t value);
 
 protected:

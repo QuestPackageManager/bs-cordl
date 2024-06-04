@@ -66,12 +66,12 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3420340, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x344a834, size 0x60, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::UnityEngine::__Transform__Enumerator* New_ctor(::UnityEngine::Transform* outer);
 
-  /// @brief Method Reset, addr 0x34203a0, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x344a894, size 0xc, virtual true, abstract: false, final true
   inline void Reset();
 
   constexpr int32_t const& __cordl_internal_get_currentIndex() const;
@@ -86,10 +86,10 @@ public:
 
   constexpr void __cordl_internal_set_outer(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x341fe20, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x344a314, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Transform* outer);
 
-  /// @brief Method get_Current, addr 0x34202f4, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x344a7e8, size 0x4c, virtual true, abstract: false, final true
   inline ::System::Object* get_Current();
 
   /// @brief Convert to "::System::Collections::IEnumerator"
@@ -182,402 +182,402 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method DetachChildren, addr 0x341f99c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method DetachChildren, addr 0x3449e90, size 0x3c, virtual false, abstract: false, final false
   inline void DetachChildren();
 
-  /// @brief Method Find, addr 0x341fb78, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Find, addr 0x344a06c, size 0x98, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> Find(::StringW n);
 
-  /// @brief Method FindChild, addr 0x341fdb0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method FindChild, addr 0x344a2a4, size 0x4, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> FindChild(::StringW n);
 
-  /// @brief Method FindRelativeTransformWithPath, addr 0x341fb24, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method FindRelativeTransformWithPath, addr 0x344a018, size 0x54, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Transform> FindRelativeTransformWithPath(::UnityEngine::Transform* transform, ::StringW path, bool isActiveOnly);
 
-  /// @brief Method GetChild, addr 0x341ffc0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetChild, addr 0x344a4b4, size 0x44, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> GetChild(int32_t index);
 
-  /// @brief Method GetChildCount, addr 0x3420004, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetChildCount, addr 0x344a4f8, size 0x3c, virtual false, abstract: false, final false
   inline int32_t GetChildCount();
 
-  /// @brief Method GetEnumerator, addr 0x341fdb4, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x344a2a8, size 0x6c, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
-  /// @brief Method GetLocalEulerAngles, addr 0x341dc68, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetLocalEulerAngles, addr 0x344815c, size 0x64, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetLocalEulerAngles(::UnityEngine::RotationOrder order);
 
-  /// @brief Method GetLocalEulerAngles_Injected, addr 0x341dccc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetLocalEulerAngles_Injected, addr 0x34481c0, size 0x54, virtual false, abstract: false, final false
   inline void GetLocalEulerAngles_Injected(::UnityEngine::RotationOrder order, ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method GetParent, addr 0x341e7bc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetParent, addr 0x3448cb0, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> GetParent();
 
-  /// @brief Method GetRoot, addr 0x341f924, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetRoot, addr 0x3449e18, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> GetRoot();
 
-  /// @brief Method GetRotationOrderInternal, addr 0x341e434, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetRotationOrderInternal, addr 0x3448928, size 0x3c, virtual false, abstract: false, final false
   inline int32_t GetRotationOrderInternal();
 
-  /// @brief Method GetSiblingIndex, addr 0x341fae8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetSiblingIndex, addr 0x3449fdc, size 0x3c, virtual false, abstract: false, final false
   inline int32_t GetSiblingIndex();
 
-  /// @brief Method Internal_LookAt, addr 0x341f3a0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Internal_LookAt, addr 0x3449894, size 0x60, virtual false, abstract: false, final false
   inline void Internal_LookAt(::UnityEngine::Vector3 worldPosition, ::UnityEngine::Vector3 worldUp);
 
-  /// @brief Method Internal_LookAt_Injected, addr 0x341f47c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Internal_LookAt_Injected, addr 0x3449970, size 0x54, virtual false, abstract: false, final false
   inline void Internal_LookAt_Injected(ByRef<::UnityEngine::Vector3> worldPosition, ByRef<::UnityEngine::Vector3> worldUp);
 
-  /// @brief Method InverseTransformDirection, addr 0x341f528, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method InverseTransformDirection, addr 0x3449a1c, size 0x68, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 InverseTransformDirection(::UnityEngine::Vector3 direction);
 
-  /// @brief Method InverseTransformDirection, addr 0x341f5e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InverseTransformDirection, addr 0x3449ad8, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 InverseTransformDirection(float_t x, float_t y, float_t z);
 
-  /// @brief Method InverseTransformDirection_Injected, addr 0x341f590, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method InverseTransformDirection_Injected, addr 0x3449a84, size 0x54, virtual false, abstract: false, final false
   inline void InverseTransformDirection_Injected(ByRef<::UnityEngine::Vector3> direction, ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method InverseTransformPoint, addr 0x341f828, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method InverseTransformPoint, addr 0x3449d1c, size 0x68, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 InverseTransformPoint(::UnityEngine::Vector3 position);
 
-  /// @brief Method InverseTransformPoint, addr 0x341f8e4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InverseTransformPoint, addr 0x3449dd8, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 InverseTransformPoint(float_t x, float_t y, float_t z);
 
-  /// @brief Method InverseTransformPoint_Injected, addr 0x341f890, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method InverseTransformPoint_Injected, addr 0x3449d84, size 0x54, virtual false, abstract: false, final false
   inline void InverseTransformPoint_Injected(ByRef<::UnityEngine::Vector3> position, ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method InverseTransformVector, addr 0x341f6a8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method InverseTransformVector, addr 0x3449b9c, size 0x68, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 InverseTransformVector(::UnityEngine::Vector3 vector);
 
-  /// @brief Method InverseTransformVector, addr 0x341f764, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InverseTransformVector, addr 0x3449c58, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 InverseTransformVector(float_t x, float_t y, float_t z);
 
-  /// @brief Method InverseTransformVector_Injected, addr 0x341f710, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method InverseTransformVector_Injected, addr 0x3449c04, size 0x54, virtual false, abstract: false, final false
   inline void InverseTransformVector_Injected(ByRef<::UnityEngine::Vector3> vector, ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method IsChildOf, addr 0x341fcec, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method IsChildOf, addr 0x344a1e0, size 0x44, virtual false, abstract: false, final false
   inline bool IsChildOf(::UnityEngine::Transform* parent);
 
-  /// @brief Method IsConstrainProportionsScale, addr 0x3420230, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsConstrainProportionsScale, addr 0x344a724, size 0x3c, virtual false, abstract: false, final false
   inline bool IsConstrainProportionsScale();
 
-  /// @brief Method IsNonUniformScaleTransform, addr 0x34201b8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsNonUniformScaleTransform, addr 0x344a6ac, size 0x3c, virtual false, abstract: false, final false
   inline bool IsNonUniformScaleTransform();
 
-  /// @brief Method LookAt, addr 0x341f2a8, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method LookAt, addr 0x344979c, size 0xf8, virtual false, abstract: false, final false
   inline void LookAt(::UnityEngine::Transform* target);
 
-  /// @brief Method LookAt, addr 0x341f1e4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method LookAt, addr 0x34496d8, size 0xc0, virtual false, abstract: false, final false
   inline void LookAt(::UnityEngine::Transform* target, ::UnityEngine::Vector3 worldUp);
 
-  /// @brief Method LookAt, addr 0x341f400, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method LookAt, addr 0x34498f4, size 0x7c, virtual false, abstract: false, final false
   inline void LookAt(::UnityEngine::Vector3 worldPosition);
 
-  /// @brief Method LookAt, addr 0x341f2a4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method LookAt, addr 0x3449798, size 0x4, virtual false, abstract: false, final false
   inline void LookAt(::UnityEngine::Vector3 worldPosition, ::UnityEngine::Vector3 worldUp);
 
-  /// @brief Method MoveAfterSibling, addr 0x341fa94, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method MoveAfterSibling, addr 0x3449f88, size 0x54, virtual false, abstract: false, final false
   inline void MoveAfterSibling(::UnityEngine::Transform* transform, bool notifyEditorAndMarkDirty);
 
   static inline ::UnityEngine::Transform* New_ctor();
 
-  /// @brief Method Rotate, addr 0x341f120, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Rotate, addr 0x3449614, size 0x8, virtual false, abstract: false, final false
   inline void Rotate(::UnityEngine::Vector3 axis, float_t angle);
 
-  /// @brief Method Rotate, addr 0x341f094, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Rotate, addr 0x3449588, size 0x8c, virtual false, abstract: false, final false
   inline void Rotate(::UnityEngine::Vector3 axis, float_t angle, ::UnityEngine::Space relativeTo);
 
-  /// @brief Method Rotate, addr 0x341efc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Rotate, addr 0x34494bc, size 0x8, virtual false, abstract: false, final false
   inline void Rotate(::UnityEngine::Vector3 eulers);
 
-  /// @brief Method Rotate, addr 0x341ed48, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method Rotate, addr 0x344923c, size 0x280, virtual false, abstract: false, final false
   inline void Rotate(::UnityEngine::Vector3 eulers, ::UnityEngine::Space relativeTo);
 
-  /// @brief Method Rotate, addr 0x341efd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Rotate, addr 0x34494c8, size 0x8, virtual false, abstract: false, final false
   inline void Rotate(float_t xAngle, float_t yAngle, float_t zAngle);
 
-  /// @brief Method Rotate, addr 0x341efd0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Rotate, addr 0x34494c4, size 0x4, virtual false, abstract: false, final false
   inline void Rotate(float_t xAngle, float_t yAngle, float_t zAngle, ::UnityEngine::Space relativeTo);
 
-  /// @brief Method RotateAround, addr 0x341fe50, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method RotateAround, addr 0x344a344, size 0x64, virtual false, abstract: false, final false
   inline void RotateAround(::UnityEngine::Vector3 axis, float_t angle);
 
-  /// @brief Method RotateAround, addr 0x341f128, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method RotateAround, addr 0x344961c, size 0xbc, virtual false, abstract: false, final false
   inline void RotateAround(::UnityEngine::Vector3 point, ::UnityEngine::Vector3 axis, float_t angle);
 
-  /// @brief Method RotateAroundInternal, addr 0x341efdc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method RotateAroundInternal, addr 0x34494d0, size 0x64, virtual false, abstract: false, final false
   inline void RotateAroundInternal(::UnityEngine::Vector3 axis, float_t angle);
 
-  /// @brief Method RotateAroundInternal_Injected, addr 0x341f040, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method RotateAroundInternal_Injected, addr 0x3449534, size 0x54, virtual false, abstract: false, final false
   inline void RotateAroundInternal_Injected(ByRef<::UnityEngine::Vector3> axis, float_t angle);
 
-  /// @brief Method RotateAroundLocal, addr 0x341ff08, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method RotateAroundLocal, addr 0x344a3fc, size 0x64, virtual false, abstract: false, final false
   inline void RotateAroundLocal(::UnityEngine::Vector3 axis, float_t angle);
 
-  /// @brief Method RotateAroundLocal_Injected, addr 0x341ff6c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method RotateAroundLocal_Injected, addr 0x344a460, size 0x54, virtual false, abstract: false, final false
   inline void RotateAroundLocal_Injected(ByRef<::UnityEngine::Vector3> axis, float_t angle);
 
-  /// @brief Method RotateAround_Injected, addr 0x341feb4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method RotateAround_Injected, addr 0x344a3a8, size 0x54, virtual false, abstract: false, final false
   inline void RotateAround_Injected(ByRef<::UnityEngine::Vector3> axis, float_t angle);
 
-  /// @brief Method SendTransformChangedScale, addr 0x341fc10, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SendTransformChangedScale, addr 0x344a104, size 0x3c, virtual false, abstract: false, final false
   inline void SendTransformChangedScale();
 
-  /// @brief Method SetAsFirstSibling, addr 0x341f9d8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetAsFirstSibling, addr 0x3449ecc, size 0x3c, virtual false, abstract: false, final false
   inline void SetAsFirstSibling();
 
-  /// @brief Method SetAsLastSibling, addr 0x341fa14, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetAsLastSibling, addr 0x3449f08, size 0x3c, virtual false, abstract: false, final false
   inline void SetAsLastSibling();
 
-  /// @brief Method SetConstrainProportionsScale, addr 0x34202b0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetConstrainProportionsScale, addr 0x344a7a4, size 0x44, virtual false, abstract: false, final false
   inline void SetConstrainProportionsScale(bool isLinked);
 
-  /// @brief Method SetLocalEulerAngles, addr 0x341dd20, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetLocalEulerAngles, addr 0x3448214, size 0x5c, virtual false, abstract: false, final false
   inline void SetLocalEulerAngles(::UnityEngine::Vector3 euler, ::UnityEngine::RotationOrder order);
 
-  /// @brief Method SetLocalEulerAngles_Injected, addr 0x341dd7c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetLocalEulerAngles_Injected, addr 0x3448270, size 0x54, virtual false, abstract: false, final false
   inline void SetLocalEulerAngles_Injected(ByRef<::UnityEngine::Vector3> euler, ::UnityEngine::RotationOrder order);
 
-  /// @brief Method SetLocalEulerHint, addr 0x341ddd0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetLocalEulerHint, addr 0x34482c4, size 0x54, virtual false, abstract: false, final false
   inline void SetLocalEulerHint(::UnityEngine::Vector3 euler);
 
-  /// @brief Method SetLocalEulerHint_Injected, addr 0x341de24, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetLocalEulerHint_Injected, addr 0x3448318, size 0x44, virtual false, abstract: false, final false
   inline void SetLocalEulerHint_Injected(ByRef<::UnityEngine::Vector3> euler);
 
-  /// @brief Method SetLocalPositionAndRotation, addr 0x341eaa8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SetLocalPositionAndRotation, addr 0x3448f9c, size 0x60, virtual false, abstract: false, final false
   inline void SetLocalPositionAndRotation(::UnityEngine::Vector3 localPosition, ::UnityEngine::Quaternion localRotation);
 
-  /// @brief Method SetLocalPositionAndRotation_Injected, addr 0x341eb08, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetLocalPositionAndRotation_Injected, addr 0x3448ffc, size 0x54, virtual false, abstract: false, final false
   inline void SetLocalPositionAndRotation_Injected(ByRef<::UnityEngine::Vector3> localPosition, ByRef<::UnityEngine::Quaternion> localRotation);
 
-  /// @brief Method SetParent, addr 0x341e7f8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SetParent, addr 0x3448cec, size 0x48, virtual false, abstract: false, final false
   inline void SetParent(::UnityEngine::Transform* p);
 
-  /// @brief Method SetParent, addr 0x341e840, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetParent, addr 0x3448d34, size 0x54, virtual false, abstract: false, final false
   inline void SetParent(::UnityEngine::Transform* parent, bool worldPositionStays);
 
-  /// @brief Method SetPositionAndRotation, addr 0x341e9f4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SetPositionAndRotation, addr 0x3448ee8, size 0x60, virtual false, abstract: false, final false
   inline void SetPositionAndRotation(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method SetPositionAndRotation_Injected, addr 0x341ea54, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetPositionAndRotation_Injected, addr 0x3448f48, size 0x54, virtual false, abstract: false, final false
   inline void SetPositionAndRotation_Injected(ByRef<::UnityEngine::Vector3> position, ByRef<::UnityEngine::Quaternion> rotation);
 
-  /// @brief Method SetRotationOrderInternal, addr 0x341e4b4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetRotationOrderInternal, addr 0x34489a8, size 0x44, virtual false, abstract: false, final false
   inline void SetRotationOrderInternal(::UnityEngine::RotationOrder rotationOrder);
 
-  /// @brief Method SetSiblingIndex, addr 0x341fa50, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetSiblingIndex, addr 0x3449f44, size 0x44, virtual false, abstract: false, final false
   inline void SetSiblingIndex(int32_t index);
 
-  /// @brief Method TransformDirection, addr 0x341ebe4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method TransformDirection, addr 0x34490d8, size 0x68, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 TransformDirection(::UnityEngine::Vector3 direction);
 
-  /// @brief Method TransformDirection, addr 0x341f524, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TransformDirection, addr 0x3449a18, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 TransformDirection(float_t x, float_t y, float_t z);
 
-  /// @brief Method TransformDirection_Injected, addr 0x341f4d0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method TransformDirection_Injected, addr 0x34499c4, size 0x54, virtual false, abstract: false, final false
   inline void TransformDirection_Injected(ByRef<::UnityEngine::Vector3> direction, ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method TransformPoint, addr 0x341f768, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method TransformPoint, addr 0x3449c5c, size 0x68, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 TransformPoint(::UnityEngine::Vector3 position);
 
-  /// @brief Method TransformPoint, addr 0x341f824, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TransformPoint, addr 0x3449d18, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 TransformPoint(float_t x, float_t y, float_t z);
 
-  /// @brief Method TransformPoint_Injected, addr 0x341f7d0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method TransformPoint_Injected, addr 0x3449cc4, size 0x54, virtual false, abstract: false, final false
   inline void TransformPoint_Injected(ByRef<::UnityEngine::Vector3> position, ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method TransformVector, addr 0x341f5e8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method TransformVector, addr 0x3449adc, size 0x68, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 TransformVector(::UnityEngine::Vector3 vector);
 
-  /// @brief Method TransformVector, addr 0x341f6a4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method TransformVector, addr 0x3449b98, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 TransformVector(float_t x, float_t y, float_t z);
 
-  /// @brief Method TransformVector_Injected, addr 0x341f650, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method TransformVector_Injected, addr 0x3449b44, size 0x54, virtual false, abstract: false, final false
   inline void TransformVector_Injected(ByRef<::UnityEngine::Vector3> vector, ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method Translate, addr 0x341ec4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Translate, addr 0x3449140, size 0x8, virtual false, abstract: false, final false
   inline void Translate(::UnityEngine::Vector3 translation);
 
-  /// @brief Method Translate, addr 0x341eb5c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Translate, addr 0x3449050, size 0x88, virtual false, abstract: false, final false
   inline void Translate(::UnityEngine::Vector3 translation, ::UnityEngine::Space relativeTo);
 
-  /// @brief Method Translate, addr 0x341ec60, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Translate, addr 0x3449154, size 0xe4, virtual false, abstract: false, final false
   inline void Translate(::UnityEngine::Vector3 translation, ::UnityEngine::Transform* relativeTo);
 
-  /// @brief Method Translate, addr 0x341ec58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Translate, addr 0x344914c, size 0x8, virtual false, abstract: false, final false
   inline void Translate(float_t x, float_t y, float_t z);
 
-  /// @brief Method Translate, addr 0x341ec54, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Translate, addr 0x3449148, size 0x4, virtual false, abstract: false, final false
   inline void Translate(float_t x, float_t y, float_t z, ::UnityEngine::Space relativeTo);
 
-  /// @brief Method Translate, addr 0x341ed44, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Translate, addr 0x3449238, size 0x4, virtual false, abstract: false, final false
   inline void Translate(float_t x, float_t y, float_t z, ::UnityEngine::Transform* relativeTo);
 
-  /// @brief Method .ctor, addr 0x341d9f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3447ee4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_childCount, addr 0x341f960, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_childCount, addr 0x3449e54, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_childCount();
 
-  /// @brief Method get_constrainProportionsScale, addr 0x34201f4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_constrainProportionsScale, addr 0x344a6e8, size 0x3c, virtual false, abstract: false, final false
   inline bool get_constrainProportionsScale();
 
-  /// @brief Method get_eulerAngles, addr 0x341de68, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_eulerAngles, addr 0x344835c, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_eulerAngles();
 
-  /// @brief Method get_forward, addr 0x341e258, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_forward, addr 0x344874c, size 0x78, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_forward();
 
-  /// @brief Method get_hasChanged, addr 0x341fd30, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_hasChanged, addr 0x344a224, size 0x3c, virtual false, abstract: false, final false
   inline bool get_hasChanged();
 
-  /// @brief Method get_hierarchyCapacity, addr 0x3420040, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_hierarchyCapacity, addr 0x344a534, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_hierarchyCapacity();
 
-  /// @brief Method get_hierarchyCount, addr 0x3420140, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_hierarchyCount, addr 0x344a634, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_hierarchyCount();
 
-  /// @brief Method get_localEulerAngles, addr 0x341df68, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_localEulerAngles, addr 0x344845c, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_localEulerAngles();
 
-  /// @brief Method get_localPosition, addr 0x341db30, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_localPosition, addr 0x3448024, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_localPosition();
 
-  /// @brief Method get_localPosition_Injected, addr 0x341db8c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_localPosition_Injected, addr 0x3448080, size 0x44, virtual false, abstract: false, final false
   inline void get_localPosition_Injected(ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method get_localRotation, addr 0x341df90, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_localRotation, addr 0x3448484, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_localRotation();
 
-  /// @brief Method get_localRotation_Injected, addr 0x341e370, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_localRotation_Injected, addr 0x3448864, size 0x44, virtual false, abstract: false, final false
   inline void get_localRotation_Injected(ByRef<::UnityEngine::Quaternion> ret);
 
-  /// @brief Method get_localScale, addr 0x341e4f8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_localScale, addr 0x34489ec, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_localScale();
 
-  /// @brief Method get_localScale_Injected, addr 0x341e554, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_localScale_Injected, addr 0x3448a48, size 0x44, virtual false, abstract: false, final false
   inline void get_localScale_Injected(ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method get_localToWorldMatrix, addr 0x341e944, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_localToWorldMatrix, addr 0x3448e38, size 0x6c, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 get_localToWorldMatrix();
 
-  /// @brief Method get_localToWorldMatrix_Injected, addr 0x341e9b0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_localToWorldMatrix_Injected, addr 0x3448ea4, size 0x44, virtual false, abstract: false, final false
   inline void get_localToWorldMatrix_Injected(ByRef<::UnityEngine::Matrix4x4> ret);
 
-  /// @brief Method get_lossyScale, addr 0x341fc4c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_lossyScale, addr 0x344a140, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_lossyScale();
 
-  /// @brief Method get_lossyScale_Injected, addr 0x341fca8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_lossyScale_Injected, addr 0x344a19c, size 0x44, virtual false, abstract: false, final false
   inline void get_lossyScale_Injected(ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method get_parent, addr 0x341e630, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_parent, addr 0x3448b24, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_parent();
 
-  /// @brief Method get_parentInternal, addr 0x341e66c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_parentInternal, addr 0x3448b60, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_parentInternal();
 
-  /// @brief Method get_position, addr 0x341d9f8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_position, addr 0x3447eec, size 0x5c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_position();
 
-  /// @brief Method get_position_Injected, addr 0x341da54, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_position_Injected, addr 0x3447f48, size 0x44, virtual false, abstract: false, final false
   inline void get_position_Injected(ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method get_right, addr 0x341e068, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_right, addr 0x344855c, size 0x78, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_right();
 
-  /// @brief Method get_root, addr 0x341f8e8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_root, addr 0x3449ddc, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> get_root();
 
-  /// @brief Method get_rotation, addr 0x341de90, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_rotation, addr 0x3448384, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_rotation();
 
-  /// @brief Method get_rotationOrder, addr 0x341e3f8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_rotationOrder, addr 0x34488ec, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::RotationOrder get_rotationOrder();
 
-  /// @brief Method get_rotation_Injected, addr 0x341e2e8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_rotation_Injected, addr 0x34487dc, size 0x44, virtual false, abstract: false, final false
   inline void get_rotation_Injected(ByRef<::UnityEngine::Quaternion> ret);
 
-  /// @brief Method get_up, addr 0x341e160, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_up, addr 0x3448654, size 0x78, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_up();
 
-  /// @brief Method get_worldToLocalMatrix, addr 0x341e894, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_worldToLocalMatrix, addr 0x3448d88, size 0x6c, virtual false, abstract: false, final false
   inline ::UnityEngine::Matrix4x4 get_worldToLocalMatrix();
 
-  /// @brief Method get_worldToLocalMatrix_Injected, addr 0x341e900, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_worldToLocalMatrix_Injected, addr 0x3448df4, size 0x44, virtual false, abstract: false, final false
   inline void get_worldToLocalMatrix_Injected(ByRef<::UnityEngine::Matrix4x4> ret);
 
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  /// @brief Method internal_getHierarchyCapacity, addr 0x342007c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method internal_getHierarchyCapacity, addr 0x344a570, size 0x3c, virtual false, abstract: false, final false
   inline int32_t internal_getHierarchyCapacity();
 
-  /// @brief Method internal_getHierarchyCount, addr 0x342017c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method internal_getHierarchyCount, addr 0x344a670, size 0x3c, virtual false, abstract: false, final false
   inline int32_t internal_getHierarchyCount();
 
-  /// @brief Method internal_setHierarchyCapacity, addr 0x34200fc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method internal_setHierarchyCapacity, addr 0x344a5f0, size 0x44, virtual false, abstract: false, final false
   inline void internal_setHierarchyCapacity(int32_t value);
 
-  /// @brief Method set_constrainProportionsScale, addr 0x342026c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_constrainProportionsScale, addr 0x344a760, size 0x44, virtual false, abstract: false, final false
   inline void set_constrainProportionsScale(bool value);
 
-  /// @brief Method set_eulerAngles, addr 0x341dee8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_eulerAngles, addr 0x34483dc, size 0x2c, virtual false, abstract: false, final false
   inline void set_eulerAngles(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_forward, addr 0x341e2d0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_forward, addr 0x34487c4, size 0x18, virtual false, abstract: false, final false
   inline void set_forward(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_hasChanged, addr 0x341fd6c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_hasChanged, addr 0x344a260, size 0x44, virtual false, abstract: false, final false
   inline void set_hasChanged(bool value);
 
-  /// @brief Method set_hierarchyCapacity, addr 0x34200b8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_hierarchyCapacity, addr 0x344a5ac, size 0x44, virtual false, abstract: false, final false
   inline void set_hierarchyCapacity(int32_t value);
 
-  /// @brief Method set_localEulerAngles, addr 0x341dfe8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_localEulerAngles, addr 0x34484dc, size 0x2c, virtual false, abstract: false, final false
   inline void set_localEulerAngles(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_localPosition, addr 0x341dbd0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_localPosition, addr 0x34480c4, size 0x54, virtual false, abstract: false, final false
   inline void set_localPosition(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_localPosition_Injected, addr 0x341dc24, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_localPosition_Injected, addr 0x3448118, size 0x44, virtual false, abstract: false, final false
   inline void set_localPosition_Injected(ByRef<::UnityEngine::Vector3> value);
 
-  /// @brief Method set_localRotation, addr 0x341e014, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_localRotation, addr 0x3448508, size 0x54, virtual false, abstract: false, final false
   inline void set_localRotation(::UnityEngine::Quaternion value);
 
-  /// @brief Method set_localRotation_Injected, addr 0x341e3b4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_localRotation_Injected, addr 0x34488a8, size 0x44, virtual false, abstract: false, final false
   inline void set_localRotation_Injected(ByRef<::UnityEngine::Quaternion> value);
 
-  /// @brief Method set_localScale, addr 0x341e598, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_localScale, addr 0x3448a8c, size 0x54, virtual false, abstract: false, final false
   inline void set_localScale(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_localScale_Injected, addr 0x341e5ec, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_localScale_Injected, addr 0x3448ae0, size 0x44, virtual false, abstract: false, final false
   inline void set_localScale_Injected(ByRef<::UnityEngine::Vector3> value);
 
-  /// @brief Method set_parent, addr 0x341e6a8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method set_parent, addr 0x3448b9c, size 0xcc, virtual false, abstract: false, final false
   inline void set_parent(::UnityEngine::Transform* value);
 
-  /// @brief Method set_parentInternal, addr 0x341e774, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method set_parentInternal, addr 0x3448c68, size 0x48, virtual false, abstract: false, final false
   inline void set_parentInternal(::UnityEngine::Transform* value);
 
-  /// @brief Method set_position, addr 0x341da98, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_position, addr 0x3447f8c, size 0x54, virtual false, abstract: false, final false
   inline void set_position(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_position_Injected, addr 0x341daec, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_position_Injected, addr 0x3447fe0, size 0x44, virtual false, abstract: false, final false
   inline void set_position_Injected(ByRef<::UnityEngine::Vector3> value);
 
-  /// @brief Method set_right, addr 0x341e0e0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method set_right, addr 0x34485d4, size 0x80, virtual false, abstract: false, final false
   inline void set_right(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_rotation, addr 0x341df14, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_rotation, addr 0x3448408, size 0x54, virtual false, abstract: false, final false
   inline void set_rotation(::UnityEngine::Quaternion value);
 
-  /// @brief Method set_rotationOrder, addr 0x341e470, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_rotationOrder, addr 0x3448964, size 0x44, virtual false, abstract: false, final false
   inline void set_rotationOrder(::UnityEngine::RotationOrder value);
 
-  /// @brief Method set_rotation_Injected, addr 0x341e32c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_rotation_Injected, addr 0x3448820, size 0x44, virtual false, abstract: false, final false
   inline void set_rotation_Injected(ByRef<::UnityEngine::Quaternion> value);
 
-  /// @brief Method set_up, addr 0x341e1d8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method set_up, addr 0x34486cc, size 0x80, virtual false, abstract: false, final false
   inline void set_up(::UnityEngine::Vector3 value);
 
 protected:

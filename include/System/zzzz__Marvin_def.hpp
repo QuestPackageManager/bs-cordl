@@ -27,24 +27,24 @@ public:
   /// @brief Field <DefaultSeed>k__BackingField, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__DefaultSeed_k__BackingField, put = setStaticF__DefaultSeed_k__BackingField)) uint64_t _DefaultSeed_k__BackingField;
 
-  /// @brief Method Block, addr 0x2932d88, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Block, addr 0x294e414, size 0x88, virtual false, abstract: false, final false
   static inline void Block(ByRef<uint32_t> rp0, ByRef<uint32_t> rp1);
 
-  /// @brief Method ComputeHash32, addr 0x293290c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ComputeHash32, addr 0x294df98, size 0xac, virtual false, abstract: false, final false
   static inline int32_t ComputeHash32(::System::ReadOnlySpan_1<uint8_t> data, uint64_t seed);
 
-  /// @brief Method ComputeHash32, addr 0x29329b8, size 0x3d0, virtual false, abstract: false, final false
+  /// @brief Method ComputeHash32, addr 0x294e044, size 0x3d0, virtual false, abstract: false, final false
   static inline int32_t ComputeHash32(ByRef<uint8_t> data, int32_t count, uint64_t seed);
 
-  /// @brief Method GenerateSeed, addr 0x2932e74, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GenerateSeed, addr 0x294e500, size 0xc, virtual false, abstract: false, final false
   static inline uint64_t GenerateSeed();
 
-  /// @brief Method _rotl, addr 0x2932e10, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method _rotl, addr 0x294e49c, size 0xc, virtual false, abstract: false, final false
   static inline uint32_t _rotl(uint32_t value, int32_t shift);
 
   static inline uint64_t getStaticF__DefaultSeed_k__BackingField();
 
-  /// @brief Method get_DefaultSeed, addr 0x2932e1c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultSeed, addr 0x294e4a8, size 0x58, virtual false, abstract: false, final false
   static inline uint64_t get_DefaultSeed();
 
   static inline void setStaticF__DefaultSeed_k__BackingField(uint64_t value);

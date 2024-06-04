@@ -40,19 +40,19 @@ public:
 
   __declspec(property(get = get_isValid)) bool isValid;
 
-  /// @brief Method Clear, addr 0x34f6340, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x351f83c, size 0xa4, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method ToString, addr 0x34eb0a0, size 0x6d8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x351459c, size 0x6d8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_gameObject, addr 0x34f6298, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameObject, addr 0x351f794, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_gameObject();
 
-  /// @brief Method get_isValid, addr 0x34f62a8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_isValid, addr 0x351f7a4, size 0x98, virtual false, abstract: false, final false
   inline bool get_isValid();
 
-  /// @brief Method set_gameObject, addr 0x34f62a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_gameObject, addr 0x351f79c, size 0x8, virtual false, abstract: false, final false
   inline void set_gameObject(::UnityEngine::GameObject* value);
 
   // Ctor Parameters []

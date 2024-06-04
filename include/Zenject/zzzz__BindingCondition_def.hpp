@@ -13,6 +13,9 @@ namespace System {
 class IAsyncResult;
 }
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Object;
 }
 namespace Zenject {
@@ -32,19 +35,19 @@ namespace Zenject {
 class CORDL_TYPE BindingCondition : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x364a560, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x3676a5c, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::Zenject::InjectContext* c, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x364a580, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x3676a7c, size 0x28, virtual true, abstract: false, final false
   inline bool EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x364a54c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3676a48, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::Zenject::InjectContext* c);
 
-  static inline ::Zenject::BindingCondition* New_ctor(::System::Object* object, void* method);
+  static inline ::Zenject::BindingCondition* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x364a420, size 0x12c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
+  /// @brief Method .ctor, addr 0x367691c, size 0x12c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []

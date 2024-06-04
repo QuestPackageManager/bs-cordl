@@ -139,10 +139,10 @@ public:
 
   static inline ::GlobalNamespace::TubeLightBehaviour* New_ctor();
 
-  /// @brief Method OnPlayableDestroy, addr 0x269d968, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method OnPlayableDestroy, addr 0x26b6958, size 0xcc, virtual true, abstract: false, final false
   inline void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method ProcessFrame, addr 0x269d560, size 0x408, virtual true, abstract: false, final false
+  /// @brief Method ProcessFrame, addr 0x26b6550, size 0x408, virtual true, abstract: false, final false
   inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData);
 
   constexpr ::ArrayW<::UnityW<::GlobalNamespace::DirectionalLight>, ::Array<::UnityW<::GlobalNamespace::DirectionalLight>>*> const& __cordl_internal_get__directionalLights() const;
@@ -205,7 +205,7 @@ public:
 
   constexpr void __cordl_internal_set_started(bool value);
 
-  /// @brief Method .ctor, addr 0x269da34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26b6a24, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

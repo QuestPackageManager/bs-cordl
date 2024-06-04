@@ -61,10 +61,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::IFormatterConverter"
   constexpr operator ::System::Runtime::Serialization::IFormatterConverter*() noexcept;
 
-  /// @brief Method Convert, addr 0x2a2e1c0, size 0x118, virtual true, abstract: false, final true
+  /// @brief Method Convert, addr 0x2a4c84c, size 0x118, virtual true, abstract: false, final true
   inline ::System::Object* Convert(::System::Object* value, ::System::Type* type);
 
-  /// @brief Method Convert, addr 0x2a2e3fc, size 0x108, virtual true, abstract: false, final true
+  /// @brief Method Convert, addr 0x2a4ca88, size 0x108, virtual true, abstract: false, final true
   inline ::System::Object* Convert(::System::Object* value, ::System::TypeCode typeCode);
 
   /// @brief Method GetTokenValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -74,49 +74,49 @@ public:
                                                                                     ::Newtonsoft::Json::Serialization::JsonISerializableContract* contract,
                                                                                     ::Newtonsoft::Json::Serialization::JsonProperty* member);
 
-  /// @brief Method ToBoolean, addr 0x2a2e504, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method ToBoolean, addr 0x2a4cb90, size 0x58, virtual true, abstract: false, final true
   inline bool ToBoolean(::System::Object* value);
 
-  /// @brief Method ToByte, addr 0x2a2e55c, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method ToByte, addr 0x2a4cbe8, size 0x58, virtual true, abstract: false, final true
   inline uint8_t ToByte(::System::Object* value);
 
-  /// @brief Method ToChar, addr 0x2a2e5b4, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method ToChar, addr 0x2a4cc40, size 0x58, virtual true, abstract: false, final true
   inline char16_t ToChar(::System::Object* value);
 
-  /// @brief Method ToDateTime, addr 0x2a2e60c, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method ToDateTime, addr 0x2a4cc98, size 0x58, virtual true, abstract: false, final true
   inline ::System::DateTime ToDateTime(::System::Object* value);
 
-  /// @brief Method ToDecimal, addr 0x2a2e664, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method ToDecimal, addr 0x2a4ccf0, size 0x58, virtual true, abstract: false, final true
   inline ::System::Decimal ToDecimal(::System::Object* value);
 
-  /// @brief Method ToDouble, addr 0x2a2e6bc, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method ToDouble, addr 0x2a4cd48, size 0x58, virtual true, abstract: false, final true
   inline double_t ToDouble(::System::Object* value);
 
-  /// @brief Method ToInt16, addr 0x2a2e714, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method ToInt16, addr 0x2a4cda0, size 0x58, virtual true, abstract: false, final true
   inline int16_t ToInt16(::System::Object* value);
 
-  /// @brief Method ToInt32, addr 0x2a2e76c, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method ToInt32, addr 0x2a4cdf8, size 0x58, virtual true, abstract: false, final true
   inline int32_t ToInt32(::System::Object* value);
 
-  /// @brief Method ToInt64, addr 0x2a2e7c4, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method ToInt64, addr 0x2a4ce50, size 0x58, virtual true, abstract: false, final true
   inline int64_t ToInt64(::System::Object* value);
 
-  /// @brief Method ToSByte, addr 0x2a2e81c, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method ToSByte, addr 0x2a4cea8, size 0x58, virtual true, abstract: false, final true
   inline int8_t ToSByte(::System::Object* value);
 
-  /// @brief Method ToSingle, addr 0x2a2e874, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method ToSingle, addr 0x2a4cf00, size 0x58, virtual true, abstract: false, final true
   inline float_t ToSingle(::System::Object* value);
 
-  /// @brief Method ToString, addr 0x2a2e8cc, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method ToString, addr 0x2a4cf58, size 0x58, virtual true, abstract: false, final true
   inline ::StringW ToString(::System::Object* value);
 
-  /// @brief Method ToUInt16, addr 0x2a2e924, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method ToUInt16, addr 0x2a4cfb0, size 0x58, virtual true, abstract: false, final true
   inline uint16_t ToUInt16(::System::Object* value);
 
-  /// @brief Method ToUInt32, addr 0x2a2e97c, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method ToUInt32, addr 0x2a4d008, size 0x58, virtual true, abstract: false, final true
   inline uint32_t ToUInt32(::System::Object* value);
 
-  /// @brief Method ToUInt64, addr 0x2a2e9d4, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method ToUInt64, addr 0x2a4d060, size 0x58, virtual true, abstract: false, final true
   inline uint64_t ToUInt64(::System::Object* value);
 
   constexpr ::Newtonsoft::Json::Serialization::JsonISerializableContract*& __cordl_internal_get__contract();
@@ -137,7 +137,7 @@ public:
 
   constexpr void __cordl_internal_set__reader(::Newtonsoft::Json::Serialization::JsonSerializerInternalReader* value);
 
-  /// @brief Method .ctor, addr 0x2a2e124, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a4c7b0, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::Serialization::JsonSerializerInternalReader* reader, ::Newtonsoft::Json::Serialization::JsonISerializableContract* contract,
                     ::Newtonsoft::Json::Serialization::JsonProperty* member);
 

@@ -90,25 +90,25 @@ public:
 
   constexpr void __cordl_internal_set__selectedSprite(::UnityW<::UnityEngine::Sprite> value);
 
-  /// @brief Method .ctor, addr 0x273db2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27552cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_disabledSprite, addr 0x273db14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disabledSprite, addr 0x27552b4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_disabledSprite();
 
-  /// @brief Method get_highlightedSprite, addr 0x273db04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_highlightedSprite, addr 0x27552a4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_highlightedSprite();
 
-  /// @brief Method get_normalSprite, addr 0x273dafc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_normalSprite, addr 0x275529c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_normalSprite();
 
-  /// @brief Method get_pressedSprite, addr 0x273db0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pressedSprite, addr 0x27552ac, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_pressedSprite();
 
-  /// @brief Method get_selectedAndHighlightedSprite, addr 0x273db24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedAndHighlightedSprite, addr 0x27552c4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_selectedAndHighlightedSprite();
 
-  /// @brief Method get_selectedSprite, addr 0x273db1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedSprite, addr 0x27552bc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_selectedSprite();
 
 protected:

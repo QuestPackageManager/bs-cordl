@@ -143,18 +143,18 @@ public:
   /// @brief Field _workResults, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__workResults, put = __cordl_internal_set__workResults))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPWorkResult*>* _workResults;
 
-  /// @brief Method AnyWorkItemsFailed, addr 0x2581610, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method AnyWorkItemsFailed, addr 0x2598554, size 0x24, virtual false, abstract: false, final false
   inline bool AnyWorkItemsFailed();
 
-  /// @brief Method AnyWorkItemsPending, addr 0x25818e8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method AnyWorkItemsPending, addr 0x259882c, size 0x58, virtual false, abstract: false, final false
   inline bool AnyWorkItemsPending();
 
-  /// @brief Method AreAllWorkItemsComplete, addr 0x2581854, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method AreAllWorkItemsComplete, addr 0x2598798, size 0x4c, virtual false, abstract: false, final false
   inline bool AreAllWorkItemsComplete();
 
   static inline ::HoudiniEngineUnity::HEU_TOPNodeData* New_ctor();
 
-  /// @brief Method Reset, addr 0x2581830, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x2598774, size 0x24, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr int32_t const& __cordl_internal_get__nodeID() const;
@@ -211,7 +211,7 @@ public:
 
   constexpr void __cordl_internal_set__workResults(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPWorkResult*>* value);
 
-  /// @brief Method .ctor, addr 0x257fe00, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2596d44, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

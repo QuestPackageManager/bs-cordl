@@ -99,10 +99,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x1062238, size 0x258, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x1069964, size 0x258, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x1062490, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x1069bbc, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -158,10 +158,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x10624e8, size 0x2fc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x1069c14, size 0x2fc, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x10627e4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x1069f10, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -217,10 +217,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x10627f0, size 0x3b4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x1069f1c, size 0x3b4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x1062ba4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x106a2d0, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -272,10 +272,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x1062bb0, size 0x23c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x106a2dc, size 0x23c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x1062ee4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x106a610, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -326,10 +326,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x1062ef0, size 0x3f4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x106a61c, size 0x3f4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x10632e4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x106aa10, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -403,19 +403,19 @@ public:
   /// @brief Field _playerDataModel, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel))::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
 
-  /// @brief Method CheckEntitlementsAsync, addr 0x10620a8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method CheckEntitlementsAsync, addr 0x10697d4, size 0xc4, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* CheckEntitlementsAsync();
 
-  /// @brief Method CheckUserAgeCategoryAsync, addr 0x106216c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method CheckUserAgeCategoryAsync, addr 0x1069898, size 0xcc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* CheckUserAgeCategoryAsync();
 
-  /// @brief Method InitializeCoreAsync, addr 0x1061fe4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method InitializeCoreAsync, addr 0x1069710, size 0xc4, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* InitializeCoreAsync();
 
-  /// @brief Method InitializeInternalAsync, addr 0x1061e24, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method InitializeInternalAsync, addr 0x1069550, size 0xf8, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* InitializeInternalAsync();
 
-  /// @brief Method InitializeOculusAsync, addr 0x1061f1c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method InitializeOculusAsync, addr 0x1069648, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* InitializeOculusAsync();
 
   static inline ::GlobalNamespace::OculusInit* New_ctor();
@@ -426,7 +426,7 @@ public:
 
   constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
 
-  /// @brief Method .ctor, addr 0x1061e1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1069548, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

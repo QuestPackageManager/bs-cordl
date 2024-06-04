@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LanguagePackInfo)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class LanguagePackInfo;
@@ -30,7 +33,7 @@ public:
   /// @brief Field Tag, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_Tag, put = __cordl_internal_set_Tag))::StringW Tag;
 
-  static inline ::Oculus::Platform::Models::LanguagePackInfo* New_ctor(void* o);
+  static inline ::Oculus::Platform::Models::LanguagePackInfo* New_ctor(::System::IntPtr o);
 
   constexpr ::StringW const& __cordl_internal_get_EnglishName() const;
 
@@ -50,8 +53,8 @@ public:
 
   constexpr void __cordl_internal_set_Tag(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2ada8a4, size 0x98, virtual false, abstract: false, final false
-  inline void _ctor(void* o);
+  /// @brief Method .ctor, addr 0x2afaf30, size 0x98, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr o);
 
 protected:
   // Ctor Parameters []

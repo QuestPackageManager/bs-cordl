@@ -47,13 +47,13 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::__VectorImageRenderInfoPool____c* New_ctor();
 
-  /// @brief Method <.ctor>b__0_0, addr 0x3521c84, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0_0, addr 0x354b180, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::VectorImageRenderInfo* __ctor_b__0_0();
 
-  /// @brief Method <.ctor>b__0_1, addr 0x3521d24, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0_1, addr 0x354b220, size 0x20, virtual false, abstract: false, final false
   inline void __ctor_b__0_1(::UnityEngine::UIElements::UIR::VectorImageRenderInfo* vectorImageInfo);
 
-  /// @brief Method .ctor, addr 0x3521c7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x354b178, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::UIR::__VectorImageRenderInfoPool____c* getStaticF___9();
@@ -100,7 +100,7 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::VectorImageRenderInfoPool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3521a90, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x354af8c, size 0x188, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

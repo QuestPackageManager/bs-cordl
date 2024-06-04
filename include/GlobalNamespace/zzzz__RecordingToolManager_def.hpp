@@ -135,10 +135,10 @@ public:
 
   static inline ::GlobalNamespace::__RecordingToolManager____c* New_ctor();
 
-  /// @brief Method <.ctor>b__25_0, addr 0x269385c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__25_0, addr 0x26ac890, size 0x18, virtual false, abstract: false, final false
   inline bool __ctor_b__25_0(::GlobalNamespace::RecordingSettings* recordingSettings);
 
-  /// @brief Method .ctor, addr 0x2693854, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ac888, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__RecordingToolManager____c* getStaticF___9();
@@ -180,10 +180,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2693874, size 0x2b8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26ac8a8, size 0x2b8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2693b2c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x26acb60, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -297,22 +297,22 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
-  /// @brief Method BindNextRecording, addr 0x26934a0, size 0x350, virtual false, abstract: false, final false
+  /// @brief Method BindNextRecording, addr 0x26ac4d4, size 0x350, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MenuDestination* BindNextRecording(::Zenject::DiContainer* container, ::GlobalNamespace::RecordingSettings* recordingSettings, bool quitAppAfterRun);
 
-  /// @brief Method Dispose, addr 0x2693374, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x26ac3a8, size 0x98, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method HandleGameplayLevelSceneTransitionEventsAnyGameplayLevelDidFinish, addr 0x269340c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method HandleGameplayLevelSceneTransitionEventsAnyGameplayLevelDidFinish, addr 0x26ac440, size 0x94, virtual false, abstract: false, final false
   inline void HandleGameplayLevelSceneTransitionEventsAnyGameplayLevelDidFinish();
 
-  /// @brief Method Initialize, addr 0x2693128, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x26ac15c, size 0xa8, virtual true, abstract: false, final true
   inline void Initialize();
 
   static inline ::GlobalNamespace::RecordingToolManager* New_ctor(::GlobalNamespace::RecordingToolConfigurationProcessor* processor,
                                                                   ::GlobalNamespace::BeatmapCharacteristicCollection* beatmapCharacteristicCollection, ::Zenject::DiContainer* diContainer);
 
-  /// @brief Method StartNextRecording, addr 0x26931d0, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method StartNextRecording, addr 0x26ac204, size 0x1a4, virtual false, abstract: false, final false
   inline void StartNextRecording();
 
   constexpr ::StringW const& __cordl_internal_get__configJsonData() const;
@@ -381,26 +381,26 @@ public:
 
   constexpr void __cordl_internal_set__recordingToolSettings(::GlobalNamespace::RecordingToolSettings* value);
 
-  /// @brief Method .ctor, addr 0x26930a0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26ac0d4, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::RecordingToolConfigurationProcessor* processor, ::GlobalNamespace::BeatmapCharacteristicCollection* beatmapCharacteristicCollection,
                     ::Zenject::DiContainer* diContainer);
 
-  /// @brief Method get_configJsonData, addr 0x2693088, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_configJsonData, addr 0x26ac0bc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_configJsonData();
 
-  /// @brief Method get_performanceRecordingEnabled, addr 0x2693080, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_performanceRecordingEnabled, addr 0x26ac0b4, size 0x8, virtual false, abstract: false, final false
   inline bool get_performanceRecordingEnabled();
 
-  /// @brief Method get_posesSerializer, addr 0x2693098, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_posesSerializer, addr 0x26ac0cc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IPosesSerializer* get_posesSerializer();
 
-  /// @brief Method get_recordingToolEnabled, addr 0x2693070, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_recordingToolEnabled, addr 0x26ac0a4, size 0x8, virtual false, abstract: false, final false
   inline bool get_recordingToolEnabled();
 
-  /// @brief Method get_recordingToolSettings, addr 0x2693090, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_recordingToolSettings, addr 0x26ac0c4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::RecordingToolSettings* get_recordingToolSettings();
 
-  /// @brief Method get_showRecordingToolScene, addr 0x2693078, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_showRecordingToolScene, addr 0x26ac0ac, size 0x8, virtual false, abstract: false, final false
   inline bool get_showRecordingToolScene();
 
   /// @brief Convert to "::System::IDisposable"

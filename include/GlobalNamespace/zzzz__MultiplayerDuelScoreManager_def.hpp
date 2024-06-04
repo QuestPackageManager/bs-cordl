@@ -60,27 +60,27 @@ public:
   /// @brief Field _timeSinceLastScoreUpdate, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get__timeSinceLastScoreUpdate, put = __cordl_internal_set__timeSinceLastScoreUpdate)) float_t _timeSinceLastScoreUpdate;
 
-  /// @brief Method EnsureOpponentAssigned, addr 0x270c33c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method EnsureOpponentAssigned, addr 0x2723a98, size 0x2c, virtual false, abstract: false, final false
   inline bool EnsureOpponentAssigned();
 
-  /// @brief Method GetOpponentPlayer, addr 0x270c368, size 0x3f0, virtual false, abstract: false, final false
+  /// @brief Method GetOpponentPlayer, addr 0x2723ac4, size 0x3f0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IConnectedPlayer* GetOpponentPlayer();
 
-  /// @brief Method HandleStateChanged, addr 0x270c838, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method HandleStateChanged, addr 0x2723f94, size 0xf0, virtual false, abstract: false, final false
   inline void HandleStateChanged(::GlobalNamespace::__MultiplayerController__State newState);
 
   static inline ::GlobalNamespace::MultiplayerDuelScoreManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x270c204, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2723960, size 0xd0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x270be6c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x27235c0, size 0xcc, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x270c2d4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2723a30, size 0x68, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateScoreAndName, addr 0x270c04c, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method UpdateScoreAndName, addr 0x27237a8, size 0x1b8, virtual false, abstract: false, final false
   inline void UpdateScoreAndName();
 
   constexpr float_t const& __cordl_internal_get__delayBetweenScoreUpdates() const;
@@ -125,7 +125,7 @@ public:
 
   constexpr void __cordl_internal_set__timeSinceLastScoreUpdate(float_t value);
 
-  /// @brief Method .ctor, addr 0x270c928, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2724084, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

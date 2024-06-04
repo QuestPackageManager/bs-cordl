@@ -45,7 +45,7 @@ public:
 
   static inline ::GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method <CreateTransformedData>g__ProcessData|0, addr 0x149af3c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method <CreateTransformedData>g__ProcessData|0, addr 0x14a0818, size 0x2c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDataItem* _CreateTransformedData_g__ProcessData_0(::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
 
   constexpr ::GlobalNamespace::__GameplayModifiers__EnabledObstacleType const& __cordl_internal_get_enabledObstaclesType() const;
@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set_noBombs(bool value);
 
-  /// @brief Method .ctor, addr 0x149ae2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14a0708, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -103,11 +103,11 @@ public:
   // Declarations
   using __c__DisplayClass0_0 = ::GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0;
 
-  /// @brief Method CreateTransformedData, addr 0x149acf8, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method CreateTransformedData, addr 0x14a05d4, size 0x134, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData,
                                                                                ::GlobalNamespace::__GameplayModifiers__EnabledObstacleType enabledObstaclesType, bool noBombs);
 
-  /// @brief Method ShouldUseBeatmapDataItem, addr 0x149ae34, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method ShouldUseBeatmapDataItem, addr 0x14a0710, size 0x108, virtual false, abstract: false, final false
   static inline bool ShouldUseBeatmapDataItem(::GlobalNamespace::BeatmapDataItem* beatmapDataItem, ::GlobalNamespace::__GameplayModifiers__EnabledObstacleType enabledObstaclesType, bool noBombs);
 
 protected:

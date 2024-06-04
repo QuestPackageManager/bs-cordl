@@ -55,18 +55,18 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method GetEnumerator, addr 0x29040a0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x291f72c, size 0x24, virtual true, abstract: false, final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
   static inline ::System::Collections::ReadOnlyCollectionBase* New_ctor();
 
-  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x2904064, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x291f6f0, size 0x3c, virtual true, abstract: false, final true
   inline void System_Collections_ICollection_CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method System.Collections.ICollection.get_IsSynchronized, addr 0x290401c, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.get_IsSynchronized, addr 0x291f6a8, size 0x24, virtual true, abstract: false, final true
   inline bool System_Collections_ICollection_get_IsSynchronized();
 
-  /// @brief Method System.Collections.ICollection.get_SyncRoot, addr 0x2904040, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.get_SyncRoot, addr 0x291f6cc, size 0x24, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_ICollection_get_SyncRoot();
 
   constexpr ::System::Collections::ArrayList*& __cordl_internal_get__list();
@@ -75,13 +75,13 @@ public:
 
   constexpr void __cordl_internal_set__list(::System::Collections::ArrayList* value);
 
-  /// @brief Method .ctor, addr 0x29040c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x291f750, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Count, addr 0x2903ff8, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x291f684, size 0x24, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_InnerList, addr 0x2903f90, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_InnerList, addr 0x291f61c, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* get_InnerList();
 
   /// @brief Convert to "::System::Collections::ICollection"

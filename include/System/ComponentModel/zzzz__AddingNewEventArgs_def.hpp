@@ -35,10 +35,10 @@ public:
 
   constexpr void __cordl_internal_set__NewObject_k__BackingField(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x2f3359c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f53c8c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_NewObject, addr 0x2f335f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NewObject, addr 0x2f53ce4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_NewObject();
 
 protected:

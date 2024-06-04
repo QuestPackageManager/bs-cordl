@@ -15,7 +15,7 @@ class DebugSettings;
 // Write type traits
 MARK_REF_PTR_T(::BeatSaber::GameSettings::DebugSettings);
 // Type: BeatSaber.GameSettings::DebugSettings
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 21, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace BeatSaber::GameSettings {
 // Is value type: false
 // CS Name: ::BeatSaber.GameSettings::DebugSettings*
@@ -34,6 +34,9 @@ public:
   /// @brief Field <isDirty>k__BackingField, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get__isDirty_k__BackingField, put = __cordl_internal_set__isDirty_k__BackingField)) bool _isDirty_k__BackingField;
 
+  /// @brief Field _showBeatmapLevelVersion, offset 0x14, size 0x1
+  __declspec(property(get = __cordl_internal_get__showBeatmapLevelVersion, put = __cordl_internal_set__showBeatmapLevelVersion)) bool _showBeatmapLevelVersion;
+
   __declspec(property(get = get_enableFpsCounter, put = set_enableFpsCounter)) bool enableFpsCounter;
 
   __declspec(property(get = get_enableFpsRecorder, put = set_enableFpsRecorder)) bool enableFpsRecorder;
@@ -41,6 +44,8 @@ public:
   __declspec(property(get = get_enableMemoryTracker, put = set_enableMemoryTracker)) bool enableMemoryTracker;
 
   __declspec(property(get = get_isDirty, put = set_isDirty)) bool isDirty;
+
+  __declspec(property(get = get_showBeatmapLevelVersion, put = set_showBeatmapLevelVersion)) bool showBeatmapLevelVersion;
 
   /// @brief Convert operator to "::BGLib::SaveDataCore::ISerializableSaveData"
   constexpr operator ::BGLib::SaveDataCore::ISerializableSaveData*() noexcept;
@@ -63,6 +68,10 @@ public:
 
   constexpr bool& __cordl_internal_get__isDirty_k__BackingField();
 
+  constexpr bool const& __cordl_internal_get__showBeatmapLevelVersion() const;
+
+  constexpr bool& __cordl_internal_get__showBeatmapLevelVersion();
+
   constexpr void __cordl_internal_set__enableFpsCounter(bool value);
 
   constexpr void __cordl_internal_set__enableFpsRecorder(bool value);
@@ -71,35 +80,43 @@ public:
 
   constexpr void __cordl_internal_set__isDirty_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x10606ac, size 0x8, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__showBeatmapLevelVersion(bool value);
+
+  /// @brief Method .ctor, addr 0x1067e1c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_enableFpsCounter, addr 0x1060694, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_enableFpsCounter, addr 0x1067de8, size 0x8, virtual false, abstract: false, final false
   inline bool get_enableFpsCounter();
 
-  /// @brief Method get_enableFpsRecorder, addr 0x106069c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_enableFpsRecorder, addr 0x1067df0, size 0x8, virtual false, abstract: false, final false
   inline bool get_enableFpsRecorder();
 
-  /// @brief Method get_enableMemoryTracker, addr 0x10606a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_enableMemoryTracker, addr 0x1067df8, size 0x8, virtual false, abstract: false, final false
   inline bool get_enableMemoryTracker();
 
-  /// @brief Method get_isDirty, addr 0x1060680, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isDirty, addr 0x1067dd4, size 0x8, virtual true, abstract: false, final true
   inline bool get_isDirty();
+
+  /// @brief Method get_showBeatmapLevelVersion, addr 0x1067e00, size 0x8, virtual false, abstract: false, final false
+  inline bool get_showBeatmapLevelVersion();
 
   /// @brief Convert to "::BGLib::SaveDataCore::ISerializableSaveData"
   constexpr ::BGLib::SaveDataCore::ISerializableSaveData* i___BGLib__SaveDataCore__ISerializableSaveData() noexcept;
 
-  /// @brief Method set_enableFpsCounter, addr 0x106043c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_enableFpsCounter, addr 0x1067b90, size 0x14, virtual false, abstract: false, final false
   inline void set_enableFpsCounter(bool value);
 
-  /// @brief Method set_enableFpsRecorder, addr 0x1060450, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_enableFpsRecorder, addr 0x1067ba4, size 0x14, virtual false, abstract: false, final false
   inline void set_enableFpsRecorder(bool value);
 
-  /// @brief Method set_enableMemoryTracker, addr 0x1060464, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_enableMemoryTracker, addr 0x1067bb8, size 0x14, virtual false, abstract: false, final false
   inline void set_enableMemoryTracker(bool value);
 
-  /// @brief Method set_isDirty, addr 0x1060688, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method set_isDirty, addr 0x1067ddc, size 0xc, virtual true, abstract: false, final true
   inline void set_isDirty(bool value);
+
+  /// @brief Method set_showBeatmapLevelVersion, addr 0x1067e08, size 0x14, virtual false, abstract: false, final false
+  inline void set_showBeatmapLevelVersion(bool value);
 
 protected:
   // Ctor Parameters []
@@ -127,6 +144,9 @@ public:
   /// @brief Field _enableMemoryTracker, offset: 0x13, size: 0x1, def value: None
   bool ____enableMemoryTracker;
 
+  /// @brief Field _showBeatmapLevelVersion, offset: 0x14, size: 0x1, def value: None
+  bool ____showBeatmapLevelVersion;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -139,6 +159,8 @@ static_assert(offsetof(::BeatSaber::GameSettings::DebugSettings, ____enableFpsCo
 static_assert(offsetof(::BeatSaber::GameSettings::DebugSettings, ____enableFpsRecorder) == 0x12, "Offset mismatch!");
 
 static_assert(offsetof(::BeatSaber::GameSettings::DebugSettings, ____enableMemoryTracker) == 0x13, "Offset mismatch!");
+
+static_assert(offsetof(::BeatSaber::GameSettings::DebugSettings, ____showBeatmapLevelVersion) == 0x14, "Offset mismatch!");
 
 } // namespace BeatSaber::GameSettings
 NEED_NO_BOX(::BeatSaber::GameSettings::DebugSettings);

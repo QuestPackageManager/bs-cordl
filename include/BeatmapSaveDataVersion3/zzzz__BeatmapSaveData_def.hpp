@@ -262,7 +262,7 @@ public:
 
   constexpr void __cordl_internal_set_waypoints(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::WaypointData*>* value);
 
-  /// @brief Method .ctor, addr 0x14f1668, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14f7b80, size 0x10c, virtual false, abstract: false, final false
   inline void
   _ctor(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::BpmChangeEventData*>* bpmEvents,
         ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::RotationEventData*>* rotationEvents,

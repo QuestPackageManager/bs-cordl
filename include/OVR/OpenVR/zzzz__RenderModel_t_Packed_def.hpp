@@ -11,6 +11,9 @@ CORDL_MODULE_EXPORT(RenderModel_t_Packed)
 namespace OVR::OpenVR {
 struct RenderModel_t;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace OVR::OpenVR {
 struct RenderModel_t_Packed;
@@ -26,29 +29,29 @@ namespace OVR::OpenVR {
 struct CORDL_TYPE RenderModel_t_Packed {
 public:
   // Declarations
-  /// @brief Method Unpack, addr 0x2bca7b8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Unpack, addr 0x2bebe44, size 0x24, virtual false, abstract: false, final false
   inline void Unpack(ByRef<::OVR::OpenVR::RenderModel_t> unpacked);
 
-  /// @brief Method .ctor, addr 0x2bca78c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bebe18, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::OVR::OpenVR::RenderModel_t unpacked);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr RenderModel_t_Packed();
 
-  // Ctor Parameters [CppParam { name: "rVertexData", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "unVertexCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "rIndexData", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "unTriangleCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "diffuseTextureId", ty:
-  // "int32_t", modifiers: "", def_value: None }]
-  constexpr RenderModel_t_Packed(void* rVertexData, uint32_t unVertexCount, void* rIndexData, uint32_t unTriangleCount, int32_t diffuseTextureId) noexcept;
+  // Ctor Parameters [CppParam { name: "rVertexData", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "unVertexCount", ty: "uint32_t", modifiers: "", def_value: None },
+  // CppParam { name: "rIndexData", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "unTriangleCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
+  // "diffuseTextureId", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr RenderModel_t_Packed(::System::IntPtr rVertexData, uint32_t unVertexCount, ::System::IntPtr rIndexData, uint32_t unTriangleCount, int32_t diffuseTextureId) noexcept;
 
   /// @brief Field rVertexData, offset: 0x0, size: 0x8, def value: None
-  void* rVertexData;
+  ::System::IntPtr rVertexData;
 
   /// @brief Field unVertexCount, offset: 0x8, size: 0x4, def value: None
   uint32_t unVertexCount;
 
   /// @brief Field rIndexData, offset: 0xc, size: 0x8, def value: None
-  void* rIndexData;
+  ::System::IntPtr rIndexData;
 
   /// @brief Field unTriangleCount, offset: 0x14, size: 0x4, def value: None
   uint32_t unTriangleCount;

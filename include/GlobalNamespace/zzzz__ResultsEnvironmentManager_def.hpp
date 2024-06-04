@@ -33,18 +33,18 @@ public:
   __declspec(property(get = __cordl_internal_get__preloadedResultsEnvironmentControllers, put = __cordl_internal_set__preloadedResultsEnvironmentControllers))::System::Collections::Generic::
       Dictionary_2<::StringW, ::UnityW<::GlobalNamespace::BaseResultsEnvironmentController>>* _preloadedResultsEnvironmentControllers;
 
-  /// @brief Method GetResultEnvironmentControllerForKeyword, addr 0x260db0c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetResultEnvironmentControllerForKeyword, addr 0x2625778, size 0x78, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BaseResultsEnvironmentController> GetResultEnvironmentControllerForKeyword(::StringW keyword);
 
-  /// @brief Method HideResultForKeyword, addr 0x260dc08, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method HideResultForKeyword, addr 0x2625874, size 0x84, virtual false, abstract: false, final false
   inline void HideResultForKeyword(::StringW keyword);
 
-  /// @brief Method Init, addr 0x260d6fc, size 0x410, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2625368, size 0x410, virtual false, abstract: false, final false
   inline void Init(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::BaseResultsEnvironmentController>>* resultsEnvironmentControllers);
 
   static inline ::GlobalNamespace::ResultsEnvironmentManager* New_ctor();
 
-  /// @brief Method ShowResultForKeyword, addr 0x260db84, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ShowResultForKeyword, addr 0x26257f0, size 0x84, virtual false, abstract: false, final false
   inline void ShowResultForKeyword(::StringW keyword);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::GlobalNamespace::BaseResultsEnvironmentController>>*& __cordl_internal_get__preloadedResultsEnvironmentControllers();
@@ -55,7 +55,7 @@ public:
   constexpr void
   __cordl_internal_set__preloadedResultsEnvironmentControllers(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::GlobalNamespace::BaseResultsEnvironmentController>>* value);
 
-  /// @brief Method .ctor, addr 0x260dc8c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26258f8, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

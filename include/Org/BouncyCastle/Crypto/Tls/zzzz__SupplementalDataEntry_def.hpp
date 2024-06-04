@@ -45,13 +45,13 @@ public:
 
   constexpr void __cordl_internal_set_mDataType(int32_t value);
 
-  /// @brief Method .ctor, addr 0x11f8040, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x11fd8b0, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(int32_t dataType, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method get_Data, addr 0x11f8078, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Data, addr 0x11fd8e8, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Data();
 
-  /// @brief Method get_DataType, addr 0x11f8070, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_DataType, addr 0x11fd8e0, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_DataType();
 
 protected:

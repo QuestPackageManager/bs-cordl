@@ -49,13 +49,13 @@ public:
   /// @brief Field didSelectHelpSubMenuEvent, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get_didSelectHelpSubMenuEvent, put = __cordl_internal_set_didSelectHelpSubMenuEvent))::System::Action_1<int32_t>* didSelectHelpSubMenuEvent;
 
-  /// @brief Method DidActivate, addr 0x263d470, size 0x2b8, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x2655a90, size 0x2b8, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method HandleHelpMenuSegmentedControlDidSelectCell, addr 0x263d728, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandleHelpMenuSegmentedControlDidSelectCell, addr 0x2655d48, size 0x24, virtual false, abstract: false, final false
   inline void HandleHelpMenuSegmentedControlDidSelectCell(::HMUI::SegmentedControl* segmentedControl, int32_t cellIdx);
 
-  /// @brief Method Init, addr 0x263d468, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2655a88, size 0x8, virtual false, abstract: false, final false
   inline void Init(::System::Collections::Generic::List_1<::System::ValueTuple_2<::UnityW<::HMUI::ViewController>, ::StringW>>* viewControllers);
 
   static inline ::GlobalNamespace::HelpMenuViewController* New_ctor();
@@ -79,13 +79,13 @@ public:
 
   constexpr void __cordl_internal_set_didSelectHelpSubMenuEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x263d74c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2655d6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didSelectHelpSubMenuEvent, addr 0x263d308, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didSelectHelpSubMenuEvent, addr 0x2655928, size 0xb0, virtual false, abstract: false, final false
   inline void add_didSelectHelpSubMenuEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method remove_didSelectHelpSubMenuEvent, addr 0x263d3b8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSelectHelpSubMenuEvent, addr 0x26559d8, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didSelectHelpSubMenuEvent(::System::Action_1<int32_t>* value);
 
 protected:

@@ -38,15 +38,15 @@ public:
   __declspec(property(get = __cordl_internal_get_lookup,
                       put = __cordl_internal_set_lookup))::System::Collections::Generic::Dictionary_2<::System::Action*, ::System::Collections::Generic::LinkedListNode_1<::System::Action*>*>* lookup;
 
-  /// @brief Method Add, addr 0x332448c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x334e7e0, size 0xc0, virtual false, abstract: false, final false
   inline void Add(::System::Action* rhs);
 
-  /// @brief Method Call, addr 0x332460c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Call, addr 0x334e960, size 0x98, virtual false, abstract: false, final false
   inline void Call();
 
   static inline ::TMPro::FastAction* New_ctor();
 
-  /// @brief Method Remove, addr 0x332454c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x334e8a0, size 0xc0, virtual false, abstract: false, final false
   inline void Remove(::System::Action* rhs);
 
   constexpr ::System::Collections::Generic::LinkedList_1<::System::Action*>*& __cordl_internal_get_delegates();
@@ -62,7 +62,7 @@ public:
 
   constexpr void __cordl_internal_set_lookup(::System::Collections::Generic::Dictionary_2<::System::Action*, ::System::Collections::Generic::LinkedListNode_1<::System::Action*>*>* value);
 
-  /// @brief Method .ctor, addr 0x33246a4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x334e9f8, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -105,7 +105,7 @@ public:
 
   constexpr void __cordl_internal_set_showProtected(bool value);
 
-  /// @brief Method .ctor, addr 0x262d400, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2646a20, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -24,40 +24,40 @@ namespace LIV::SDK::Unity {
 struct CORDL_TYPE SDKVector3 {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x25f8e24, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2610d68, size 0xc4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_forward, addr 0x25f8db0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_forward, addr 0x2610cf4, size 0x10, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKVector3 get_forward();
 
-  /// @brief Method get_one, addr 0x25f8da0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_one, addr 0x2610ce4, size 0x10, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKVector3 get_one();
 
-  /// @brief Method get_right, addr 0x25f8dd0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_right, addr 0x2610d14, size 0x10, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKVector3 get_right();
 
-  /// @brief Method get_up, addr 0x25f8dc0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_up, addr 0x2610d04, size 0x10, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKVector3 get_up();
 
-  /// @brief Method get_zero, addr 0x25f8d90, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_zero, addr 0x2610cd4, size 0x10, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKVector3 get_zero();
 
-  /// @brief Method op_Addition, addr 0x25f8de4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Addition, addr 0x2610d28, size 0x10, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKVector3 op_Addition(::LIV::SDK::Unity::SDKVector3 lhs, ::LIV::SDK::Unity::SDKVector3 rhs);
 
-  /// @brief Method op_Implicit, addr 0x25f835c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x26102a0, size 0x4, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKVector3 op_Implicit___LIV__SDK__Unity__SDKVector3(::UnityEngine::Vector3 v);
 
-  /// @brief Method op_Implicit, addr 0x25f8de0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x2610d24, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 op_Implicit___UnityEngine__Vector3(::LIV::SDK::Unity::SDKVector3 v);
 
-  /// @brief Method op_Multiply, addr 0x25f8e04, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Multiply, addr 0x2610d48, size 0x10, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKVector3 op_Multiply(::LIV::SDK::Unity::SDKVector3 lhs, ::LIV::SDK::Unity::SDKVector3 rhs);
 
-  /// @brief Method op_Multiply, addr 0x25f8e14, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Multiply, addr 0x2610d58, size 0x10, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKVector3 op_Multiply(::LIV::SDK::Unity::SDKVector3 lhs, float_t rhs);
 
-  /// @brief Method op_Subtraction, addr 0x25f8df4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Subtraction, addr 0x2610d38, size 0x10, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKVector3 op_Subtraction(::LIV::SDK::Unity::SDKVector3 lhs, ::LIV::SDK::Unity::SDKVector3 rhs);
 
   // Ctor Parameters []

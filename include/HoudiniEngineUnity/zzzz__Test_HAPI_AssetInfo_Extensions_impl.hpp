@@ -10,9 +10,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HoudiniEngineUnity::Test_HAPI_AssetInfo* (*)(::HoudiniEngineUnity::HAPI_AssetInfo)>(
     &::HoudiniEngineUnity::Test_HAPI_AssetInfo_Extensions::ToTestObject)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x25c66b0;
+  constexpr static std::size_t addrs = 0x25de5f4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::Test_HAPI_AssetInfo_Extensions*>::get(), "ToTestObject", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HoudiniEngineUnity::HAPI_AssetInfo>::get() })));

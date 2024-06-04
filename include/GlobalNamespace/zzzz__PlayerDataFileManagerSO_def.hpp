@@ -59,16 +59,16 @@ public:
 
   constexpr void __cordl_internal_set__defaultLastSelectedBeatmapCharacteristic(::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> value);
 
-  /// @brief Method .ctor, addr 0x14e5704, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14eb7c4, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_allSongPackSerializedName, addr 0x14e56fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_allSongPackSerializedName, addr 0x14eb7bc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_allSongPackSerializedName();
 
-  /// @brief Method get_buildInSongPackSerializedName, addr 0x14e56f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_buildInSongPackSerializedName, addr 0x14eb7b4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_buildInSongPackSerializedName();
 
-  /// @brief Method get_defaultLastSelectedBeatmapCharacteristic, addr 0x14e56ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultLastSelectedBeatmapCharacteristic, addr 0x14eb7ac, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> get_defaultLastSelectedBeatmapCharacteristic();
 
 protected:

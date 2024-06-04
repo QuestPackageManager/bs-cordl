@@ -9,6 +9,9 @@ CORDL_MODULE_EXPORT(MessageWithLaunchReportFlowResult)
 namespace Oculus::Platform::Models {
 class LaunchReportFlowResult;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform {
 class MessageWithLaunchReportFlowResult;
@@ -23,16 +26,16 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithLaunchReportFlowResult : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::LaunchReportFlowResult*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x2ac8248, size 0x9c, virtual true, abstract: false, final false
-  inline ::Oculus::Platform::Models::LaunchReportFlowResult* GetDataFromMessage(void* c_message);
+  /// @brief Method GetDataFromMessage, addr 0x2ae88d4, size 0x9c, virtual true, abstract: false, final false
+  inline ::Oculus::Platform::Models::LaunchReportFlowResult* GetDataFromMessage(::System::IntPtr c_message);
 
-  /// @brief Method GetLaunchReportFlowResult, addr 0x2ac820c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetLaunchReportFlowResult, addr 0x2ae8898, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::LaunchReportFlowResult* GetLaunchReportFlowResult();
 
-  static inline ::Oculus::Platform::MessageWithLaunchReportFlowResult* New_ctor(void* c_message);
+  static inline ::Oculus::Platform::MessageWithLaunchReportFlowResult* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x2ac81b4, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor(void* c_message);
+  /// @brief Method .ctor, addr 0x2ae8840, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr c_message);
 
 protected:
   // Ctor Parameters []

@@ -13,6 +13,9 @@ namespace System {
 class IAsyncResult;
 }
 namespace System {
+struct IntPtr;
+}
+namespace System {
 template <typename T> struct Nullable_1;
 }
 namespace System {
@@ -38,20 +41,20 @@ namespace UnityEngine::InputSystem::LowLevel {
 class CORDL_TYPE InputDeviceCommandDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3156eb8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x317a994, size 0x28, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::UnityEngine::InputSystem::InputDevice* device, ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputDeviceCommand> command,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3156ee0, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x317a9bc, size 0x2c, virtual true, abstract: false, final false
   inline ::System::Nullable_1<int64_t> EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3156ea4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x317a980, size 0x14, virtual true, abstract: false, final false
   inline ::System::Nullable_1<int64_t> Invoke(::UnityEngine::InputSystem::InputDevice* device, ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputDeviceCommand> command);
 
-  static inline ::UnityEngine::InputSystem::LowLevel::InputDeviceCommandDelegate* New_ctor(::System::Object* object, void* method);
+  static inline ::UnityEngine::InputSystem::LowLevel::InputDeviceCommandDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3156d74, size 0x130, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
+  /// @brief Method .ctor, addr 0x317a850, size 0x130, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []

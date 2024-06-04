@@ -41,15 +41,15 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x2764c68, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x277d2d4, size 0xc8, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method HandleNodePoseSyncStateUpdate, addr 0x2764f60, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleNodePoseSyncStateUpdate, addr 0x277d5cc, size 0x4, virtual false, abstract: false, final false
   inline void HandleNodePoseSyncStateUpdate(::GlobalNamespace::NodePoseSyncStateNetSerializable* nodePose, ::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
   static inline ::GlobalNamespace::MockNodePoseSyncStateSender* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* msm);
 
-  /// @brief Method SendPose, addr 0x2764d30, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method SendPose, addr 0x277d39c, size 0x230, virtual false, abstract: false, final false
   inline void SendPose(::GlobalNamespace::PoseSerializable headPose, ::GlobalNamespace::PoseSerializable leftHandPose, ::GlobalNamespace::PoseSerializable rightHandPose);
 
   constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
 
-  /// @brief Method .ctor, addr 0x2764aec, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x277d158, size 0x17c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IMultiplayerSessionManager* msm);
 
   /// @brief Convert to "::System::IDisposable"

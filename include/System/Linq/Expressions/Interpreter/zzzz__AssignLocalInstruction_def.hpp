@@ -39,24 +39,24 @@ public:
   /// @brief Convert operator to "::System::Linq::Expressions::Interpreter::IBoxableInstruction"
   constexpr operator ::System::Linq::Expressions::Interpreter::IBoxableInstruction*() noexcept;
 
-  /// @brief Method BoxIfIndexMatches, addr 0x2c3a684, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method BoxIfIndexMatches, addr 0x2c5bd74, size 0x78, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::Interpreter::Instruction* BoxIfIndexMatches(int32_t index);
 
   static inline ::System::Linq::Expressions::Interpreter::AssignLocalInstruction* New_ctor(int32_t index);
 
-  /// @brief Method Run, addr 0x2c3a60c, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x2c5bcfc, size 0x78, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x2c3a594, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c5bc84, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t index);
 
-  /// @brief Method get_ConsumedStack, addr 0x2c3a5bc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x2c5bcac, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x2c3a5cc, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x2c5bcbc, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x2c3a5c4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x2c5bcb4, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
   /// @brief Convert to "::System::Linq::Expressions::Interpreter::IBoxableInstruction"

@@ -45,7 +45,7 @@ public:
   /// @brief Field _invalidCultureName, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get__invalidCultureName, put = __cordl_internal_set__invalidCultureName))::StringW _invalidCultureName;
 
-  /// @brief Method GetObjectData, addr 0x28d0b80, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x28ed20c, size 0x164, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Globalization::CultureNotFoundException* New_ctor();
@@ -66,28 +66,28 @@ public:
 
   constexpr void __cordl_internal_set__invalidCultureName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x28d0924, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28ecfb0, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x28d09c4, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28ed050, size 0x1bc, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x28d09b0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28ed03c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::StringW paramName, ::StringW message);
 
-  /// @brief Method get_DefaultMessage, addr 0x28d0970, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultMessage, addr 0x28ecffc, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_DefaultMessage();
 
-  /// @brief Method get_FormatedInvalidCultureId, addr 0x28d0cf4, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method get_FormatedInvalidCultureId, addr 0x28ed380, size 0x134, virtual false, abstract: false, final false
   inline ::StringW get_FormatedInvalidCultureId();
 
-  /// @brief Method get_InvalidCultureId, addr 0x28d0ce4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_InvalidCultureId, addr 0x28ed370, size 0x8, virtual true, abstract: false, final false
   inline ::System::Nullable_1<int32_t> get_InvalidCultureId();
 
-  /// @brief Method get_InvalidCultureName, addr 0x28d0cec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_InvalidCultureName, addr 0x28ed378, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_InvalidCultureName();
 
-  /// @brief Method get_Message, addr 0x28d0e28, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x28ed4b4, size 0xbc, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
 protected:

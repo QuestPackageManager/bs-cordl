@@ -86,11 +86,11 @@ public:
 
   constexpr void __cordl_internal_set_oldValue(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2e9f1b0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ec08a0, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlNode* node, ::System::Xml::XmlNode* oldParent, ::System::Xml::XmlNode* newParent, ::StringW oldValue, ::StringW newValue,
                     ::System::Xml::XmlNodeChangedAction action);
 
-  /// @brief Method get_Action, addr 0x2e9f24c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Action, addr 0x2ec093c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlNodeChangedAction get_Action();
 
 protected:

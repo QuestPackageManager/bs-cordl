@@ -32,7 +32,7 @@ public:
 
   static inline ::System::Runtime::Remoting::Messaging::MethodReturnDictionary* New_ctor(::System::Runtime::Remoting::Messaging::IMethodReturnMessage* message);
 
-  /// @brief Method .ctor, addr 0x2831ee0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x284c56c, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::IMethodReturnMessage* message);
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_InternalExceptionKeys();

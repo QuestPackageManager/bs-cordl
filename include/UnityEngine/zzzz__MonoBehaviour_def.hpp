@@ -35,93 +35,93 @@ public:
   // Declarations
   __declspec(property(get = get_useGUILayout, put = set_useGUILayout)) bool useGUILayout;
 
-  /// @brief Method CancelInvoke, addr 0x3410944, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method CancelInvoke, addr 0x3439e38, size 0x3c, virtual false, abstract: false, final false
   inline void CancelInvoke();
 
-  /// @brief Method CancelInvoke, addr 0x3410b2c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method CancelInvoke, addr 0x343a020, size 0x44, virtual false, abstract: false, final false
   inline void CancelInvoke(::StringW methodName);
 
-  /// @brief Method CancelInvoke, addr 0x3410b70, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method CancelInvoke, addr 0x343a064, size 0x44, virtual false, abstract: false, final false
   static inline void CancelInvoke(::UnityEngine::MonoBehaviour* self, ::StringW methodName);
 
-  /// @brief Method GetScriptClassName, addr 0x34112f8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetScriptClassName, addr 0x343a7ec, size 0x3c, virtual false, abstract: false, final false
   inline ::StringW GetScriptClassName();
 
-  /// @brief Method Internal_CancelInvokeAll, addr 0x3410980, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Internal_CancelInvokeAll, addr 0x3439e74, size 0x3c, virtual false, abstract: false, final false
   static inline void Internal_CancelInvokeAll(::UnityEngine::MonoBehaviour* self);
 
-  /// @brief Method Internal_IsInvokingAll, addr 0x3410908, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Internal_IsInvokingAll, addr 0x3439dfc, size 0x3c, virtual false, abstract: false, final false
   static inline bool Internal_IsInvokingAll(::UnityEngine::MonoBehaviour* self);
 
-  /// @brief Method Invoke, addr 0x34109bc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3439eb0, size 0x58, virtual false, abstract: false, final false
   inline void Invoke(::StringW methodName, float_t time);
 
-  /// @brief Method InvokeDelayed, addr 0x3410a14, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method InvokeDelayed, addr 0x3439f08, size 0x5c, virtual false, abstract: false, final false
   static inline void InvokeDelayed(::UnityEngine::MonoBehaviour* self, ::StringW methodName, float_t time, float_t repeatRate);
 
-  /// @brief Method InvokeRepeating, addr 0x3410a70, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method InvokeRepeating, addr 0x3439f64, size 0xbc, virtual false, abstract: false, final false
   inline void InvokeRepeating(::StringW methodName, float_t time, float_t repeatRate);
 
-  /// @brief Method IsInvoking, addr 0x34108cc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsInvoking, addr 0x3439dc0, size 0x3c, virtual false, abstract: false, final false
   inline bool IsInvoking();
 
-  /// @brief Method IsInvoking, addr 0x3410bb4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method IsInvoking, addr 0x343a0a8, size 0x44, virtual false, abstract: false, final false
   inline bool IsInvoking(::StringW methodName);
 
-  /// @brief Method IsInvoking, addr 0x3410bf8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method IsInvoking, addr 0x343a0ec, size 0x44, virtual false, abstract: false, final false
   static inline bool IsInvoking(::UnityEngine::MonoBehaviour* self, ::StringW methodName);
 
-  /// @brief Method IsObjectMonoBehaviour, addr 0x3410d58, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsObjectMonoBehaviour, addr 0x343a24c, size 0x3c, virtual false, abstract: false, final false
   static inline bool IsObjectMonoBehaviour(::UnityEngine::Object* obj);
 
   static inline ::UnityEngine::MonoBehaviour* New_ctor();
 
-  /// @brief Method StartCoroutine, addr 0x3410c3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method StartCoroutine, addr 0x343a130, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Coroutine* StartCoroutine(::StringW methodName);
 
-  /// @brief Method StartCoroutine, addr 0x3410c44, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method StartCoroutine, addr 0x343a138, size 0x114, virtual false, abstract: false, final false
   inline ::UnityEngine::Coroutine* StartCoroutine(::StringW methodName, ::System::Object* value);
 
-  /// @brief Method StartCoroutine, addr 0x3410de8, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method StartCoroutine, addr 0x343a2dc, size 0xf8, virtual false, abstract: false, final false
   inline ::UnityEngine::Coroutine* StartCoroutine(::System::Collections::IEnumerator* routine);
 
-  /// @brief Method StartCoroutineManaged, addr 0x3410d94, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method StartCoroutineManaged, addr 0x343a288, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::Coroutine* StartCoroutineManaged(::StringW methodName, ::System::Object* value);
 
-  /// @brief Method StartCoroutineManaged2, addr 0x3410ee0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method StartCoroutineManaged2, addr 0x343a3d4, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::Coroutine* StartCoroutineManaged2(::System::Collections::IEnumerator* enumerator);
 
-  /// @brief Method StartCoroutine_Auto, addr 0x3410f24, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method StartCoroutine_Auto, addr 0x343a418, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::Coroutine* StartCoroutine_Auto(::System::Collections::IEnumerator* routine);
 
-  /// @brief Method StopAllCoroutines, addr 0x34111e4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method StopAllCoroutines, addr 0x343a6d8, size 0x3c, virtual false, abstract: false, final false
   inline void StopAllCoroutines();
 
-  /// @brief Method StopCoroutine, addr 0x34111a0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method StopCoroutine, addr 0x343a694, size 0x44, virtual false, abstract: false, final false
   inline void StopCoroutine(::StringW methodName);
 
-  /// @brief Method StopCoroutine, addr 0x3410f28, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method StopCoroutine, addr 0x343a41c, size 0xf8, virtual false, abstract: false, final false
   inline void StopCoroutine(::System::Collections::IEnumerator* routine);
 
-  /// @brief Method StopCoroutine, addr 0x3411064, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method StopCoroutine, addr 0x343a558, size 0xf8, virtual false, abstract: false, final false
   inline void StopCoroutine(::UnityEngine::Coroutine* routine);
 
-  /// @brief Method StopCoroutineFromEnumeratorManaged, addr 0x3411020, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method StopCoroutineFromEnumeratorManaged, addr 0x343a514, size 0x44, virtual false, abstract: false, final false
   inline void StopCoroutineFromEnumeratorManaged(::System::Collections::IEnumerator* routine);
 
-  /// @brief Method StopCoroutineManaged, addr 0x341115c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method StopCoroutineManaged, addr 0x343a650, size 0x44, virtual false, abstract: false, final false
   inline void StopCoroutineManaged(::UnityEngine::Coroutine* routine);
 
-  /// @brief Method .ctor, addr 0x3411334, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x343a828, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_useGUILayout, addr 0x3411220, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_useGUILayout, addr 0x343a714, size 0x3c, virtual false, abstract: false, final false
   inline bool get_useGUILayout();
 
-  /// @brief Method print, addr 0x34112a0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method print, addr 0x343a794, size 0x58, virtual false, abstract: false, final false
   static inline void print(::System::Object* message);
 
-  /// @brief Method set_useGUILayout, addr 0x341125c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_useGUILayout, addr 0x343a750, size 0x44, virtual false, abstract: false, final false
   inline void set_useGUILayout(bool value);
 
 protected:

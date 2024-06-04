@@ -9,6 +9,9 @@ CORDL_MODULE_EXPORT(MessageWithChallenge)
 namespace Oculus::Platform::Models {
 class Challenge;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform {
 class MessageWithChallenge;
@@ -23,16 +26,16 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithChallenge : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::Challenge*> {
 public:
   // Declarations
-  /// @brief Method GetChallenge, addr 0x2ac76e4, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetChallenge, addr 0x2ae7d70, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::Challenge* GetChallenge();
 
-  /// @brief Method GetDataFromMessage, addr 0x2ac7720, size 0x9c, virtual true, abstract: false, final false
-  inline ::Oculus::Platform::Models::Challenge* GetDataFromMessage(void* c_message);
+  /// @brief Method GetDataFromMessage, addr 0x2ae7dac, size 0x9c, virtual true, abstract: false, final false
+  inline ::Oculus::Platform::Models::Challenge* GetDataFromMessage(::System::IntPtr c_message);
 
-  static inline ::Oculus::Platform::MessageWithChallenge* New_ctor(void* c_message);
+  static inline ::Oculus::Platform::MessageWithChallenge* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x2ac4fd4, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor(void* c_message);
+  /// @brief Method .ctor, addr 0x2ae5660, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr c_message);
 
 protected:
   // Ctor Parameters []

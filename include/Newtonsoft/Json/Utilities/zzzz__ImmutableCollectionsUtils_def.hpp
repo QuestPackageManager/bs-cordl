@@ -102,25 +102,25 @@ public:
 
   constexpr void __cordl_internal_set__CreatedTypeName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2a140b0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a3173c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW contractTypeName, ::StringW createdTypeName, ::StringW builderTypeName);
 
-  /// @brief Method get_BuilderTypeName, addr 0x2a1410c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BuilderTypeName, addr 0x2a31798, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_BuilderTypeName();
 
-  /// @brief Method get_ContractTypeName, addr 0x2a140ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContractTypeName, addr 0x2a31778, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ContractTypeName();
 
-  /// @brief Method get_CreatedTypeName, addr 0x2a140fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CreatedTypeName, addr 0x2a31788, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_CreatedTypeName();
 
-  /// @brief Method set_BuilderTypeName, addr 0x2a14114, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BuilderTypeName, addr 0x2a317a0, size 0x8, virtual false, abstract: false, final false
   inline void set_BuilderTypeName(::StringW value);
 
-  /// @brief Method set_ContractTypeName, addr 0x2a140f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ContractTypeName, addr 0x2a31780, size 0x8, virtual false, abstract: false, final false
   inline void set_ContractTypeName(::StringW value);
 
-  /// @brief Method set_CreatedTypeName, addr 0x2a14104, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CreatedTypeName, addr 0x2a31790, size 0x8, virtual false, abstract: false, final false
   inline void set_CreatedTypeName(::StringW value);
 
 protected:
@@ -177,13 +177,13 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c* New_ctor();
 
-  /// @brief Method <TryBuildImmutableForArrayContract>b__24_1, addr 0x2a14188, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method <TryBuildImmutableForArrayContract>b__24_1, addr 0x2a31814, size 0x94, virtual false, abstract: false, final false
   inline bool _TryBuildImmutableForArrayContract_b__24_1(::System::Reflection::MethodInfo* m);
 
-  /// @brief Method <TryBuildImmutableForDictionaryContract>b__25_1, addr 0x2a1421c, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method <TryBuildImmutableForDictionaryContract>b__25_1, addr 0x2a318a8, size 0x150, virtual false, abstract: false, final false
   inline bool _TryBuildImmutableForDictionaryContract_b__25_1(::System::Reflection::MethodInfo* m);
 
-  /// @brief Method .ctor, addr 0x2a14180, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a3180c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c* getStaticF___9();
@@ -231,7 +231,7 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c__DisplayClass24_0* New_ctor();
 
-  /// @brief Method <TryBuildImmutableForArrayContract>b__0, addr 0x2a1436c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <TryBuildImmutableForArrayContract>b__0, addr 0x2a319f8, size 0x24, virtual false, abstract: false, final false
   inline bool _TryBuildImmutableForArrayContract_b__0(::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo* d);
 
   constexpr ::StringW const& __cordl_internal_get_name() const;
@@ -240,7 +240,7 @@ public:
 
   constexpr void __cordl_internal_set_name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2a132dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a30968, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -281,7 +281,7 @@ public:
 
   static inline ::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils____c__DisplayClass25_0* New_ctor();
 
-  /// @brief Method <TryBuildImmutableForDictionaryContract>b__0, addr 0x2a14390, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <TryBuildImmutableForDictionaryContract>b__0, addr 0x2a31a1c, size 0x24, virtual false, abstract: false, final false
   inline bool _TryBuildImmutableForDictionaryContract_b__0(::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo* d);
 
   constexpr ::StringW const& __cordl_internal_get_name() const;
@@ -290,7 +290,7 @@ public:
 
   constexpr void __cordl_internal_set_name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2a13778, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2a30e04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -342,11 +342,11 @@ public:
   static __declspec(property(get = getStaticF_DictionaryContractImmutableCollectionDefinitions, put = setStaticF_DictionaryContractImmutableCollectionDefinitions))::System::Collections::Generic::
       IList_1<::Newtonsoft::Json::Utilities::__ImmutableCollectionsUtils__ImmutableCollectionTypeInfo*>* DictionaryContractImmutableCollectionDefinitions;
 
-  /// @brief Method TryBuildImmutableForArrayContract, addr 0x2a12e9c, size 0x440, virtual false, abstract: false, final false
+  /// @brief Method TryBuildImmutableForArrayContract, addr 0x2a30528, size 0x440, virtual false, abstract: false, final false
   static inline bool TryBuildImmutableForArrayContract(::System::Type* underlyingType, ::System::Type* collectionItemType, ByRef<::System::Type*> createdType,
                                                        ByRef<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*> parameterizedCreator);
 
-  /// @brief Method TryBuildImmutableForDictionaryContract, addr 0x2a132e4, size 0x494, virtual false, abstract: false, final false
+  /// @brief Method TryBuildImmutableForDictionaryContract, addr 0x2a30970, size 0x494, virtual false, abstract: false, final false
   static inline bool TryBuildImmutableForDictionaryContract(::System::Type* underlyingType, ::System::Type* keyItemType, ::System::Type* valueItemType, ByRef<::System::Type*> createdType,
                                                             ByRef<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*> parameterizedCreator);
 

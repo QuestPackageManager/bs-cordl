@@ -70,6 +70,9 @@ namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Object;
 }
 // Forward declare root types
@@ -129,10 +132,10 @@ public:
   /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Invoke(::System::Guid guid, TResult result);
 
-  static inline ::GlobalNamespace::__OVRTask_1__CallbackInvoker<TResult>* New_ctor(::System::Object* object, void* method);
+  static inline ::GlobalNamespace::__OVRTask_1__CallbackInvoker<TResult>* New_ctor(::System::Object* object, ::System::IntPtr method);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
@@ -171,10 +174,10 @@ public:
   /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool Invoke(::System::Guid guid);
 
-  static inline ::GlobalNamespace::__OVRTask_1__CallbackRemover<TResult>* New_ctor(::System::Object* object, void* method);
+  static inline ::GlobalNamespace::__OVRTask_1__CallbackRemover<TResult>* New_ctor(::System::Object* object, ::System::IntPtr method);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
@@ -213,10 +216,10 @@ public:
   /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool Invoke(::System::Guid guid);
 
-  static inline ::GlobalNamespace::__OVRTask_1__InternalDataRemover<TResult>* New_ctor(::System::Object* object, void* method);
+  static inline ::GlobalNamespace::__OVRTask_1__InternalDataRemover<TResult>* New_ctor(::System::Object* object, ::System::IntPtr method);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []

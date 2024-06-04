@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TimerCallback)
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Object;
 }
 // Forward declare root types
@@ -23,13 +26,13 @@ namespace System::Threading {
 class CORDL_TYPE TimerCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x29a85c8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x29c4c54, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* state);
 
-  static inline ::System::Threading::TimerCallback* New_ctor(::System::Object* object, void* method);
+  static inline ::System::Threading::TimerCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x29a849c, size 0x12c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
+  /// @brief Method .ctor, addr 0x29c4b28, size 0x12c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []

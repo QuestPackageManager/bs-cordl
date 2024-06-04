@@ -27,7 +27,7 @@ public:
 
   static inline ::GlobalNamespace::SetApplicationVersionText* New_ctor();
 
-  /// @brief Method Start, addr 0x26e26a8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x26f9c28, size 0x48, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::TMPro::TextMeshPro> const& __cordl_internal_get__versionText() const;
@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set__versionText(::UnityW<::TMPro::TextMeshPro> value);
 
-  /// @brief Method .ctor, addr 0x26e26f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26f9c70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

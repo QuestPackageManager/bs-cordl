@@ -32,18 +32,18 @@ public:
   /// @brief Field _obstacleController, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__obstacleController, put = __cordl_internal_set__obstacleController))::UnityW<::GlobalNamespace::ObstacleControllerBase> _obstacleController;
 
-  /// @brief Method Awake, addr 0x26abaf0, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x263ceec, size 0xec, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleObcstacleDidStartDissolvingEvent, addr 0x26abd64, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandleObcstacleDidStartDissolvingEvent, addr 0x263d128, size 0x28, virtual false, abstract: false, final false
   inline void HandleObcstacleDidStartDissolvingEvent(::GlobalNamespace::ObstacleControllerBase* obstacleController, float_t duration);
 
-  /// @brief Method HandleObstacleDidInitEvent, addr 0x26abd10, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method HandleObstacleDidInitEvent, addr 0x263d10c, size 0x1c, virtual false, abstract: false, final false
   inline void HandleObstacleDidInitEvent(::GlobalNamespace::ObstacleControllerBase* obstacleController);
 
   static inline ::GlobalNamespace::ObstacleDissolve* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x26abbdc, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x263cfd8, size 0x134, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::UnityW<::GlobalNamespace::CutoutAnimateEffect> const& __cordl_internal_get__cutoutAnimateEffect() const;
@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set__obstacleController(::UnityW<::GlobalNamespace::ObstacleControllerBase> value);
 
-  /// @brief Method .ctor, addr 0x26abddc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x263d150, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

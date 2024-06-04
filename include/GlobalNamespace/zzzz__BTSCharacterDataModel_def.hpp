@@ -63,13 +63,13 @@ public:
 
   constexpr void __cordl_internal_set__prefabAssetReference(::UnityEngine::AddressableAssets::AssetReference* value);
 
-  /// @brief Method .ctor, addr 0x10534a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x105abf0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_id, addr 0x1053494, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x105abe0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_id();
 
-  /// @brief Method get_prefabAssetReference, addr 0x105349c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_prefabAssetReference, addr 0x105abe8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::AddressableAssets::AssetReference* get_prefabAssetReference();
 
 protected:
@@ -135,13 +135,13 @@ public:
 
   constexpr void __cordl_internal_set__id(int32_t value);
 
-  /// @brief Method .ctor, addr 0x10534bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x105ac08, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_animationClipAssetReference, addr 0x10534b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_animationClipAssetReference, addr 0x105ac00, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::AddressableAssets::AssetReference* get_animationClipAssetReference();
 
-  /// @brief Method get_id, addr 0x10534ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x105abf8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_id();
 
 protected:
@@ -219,13 +219,13 @@ public:
 
   constexpr void __cordl_internal_set__prefabsWithIds(::ArrayW<::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId*, ::Array<::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId*>*> value);
 
-  /// @brief Method .ctor, addr 0x105348c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x105abd8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_animationClipsWithIds, addr 0x1053484, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_animationClipsWithIds, addr 0x105abd0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::__BTSCharacterDataModel__AnimationClipWithId*, ::Array<::GlobalNamespace::__BTSCharacterDataModel__AnimationClipWithId*>*> get_animationClipsWithIds();
 
-  /// @brief Method get_prefabsWithIds, addr 0x105347c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_prefabsWithIds, addr 0x105abc8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId*, ::Array<::GlobalNamespace::__BTSCharacterDataModel__PrefabWithId*>*> get_prefabsWithIds();
 
 protected:

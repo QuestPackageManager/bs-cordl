@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(sockaddr_dl)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace System::Net::NetworkInformation::AixStructs {
 struct sockaddr_dl;
@@ -21,8 +24,8 @@ namespace System::Net::NetworkInformation::AixStructs {
 struct CORDL_TYPE sockaddr_dl {
 public:
   // Declarations
-  /// @brief Method Read, addr 0x3023744, size 0x190, virtual false, abstract: false, final false
-  inline void Read(void* ptr);
+  /// @brief Method Read, addr 0x3040e34, size 0x190, virtual false, abstract: false, final false
+  inline void Read(::System::IntPtr ptr);
 
   // Ctor Parameters []
   // @brief default ctor

@@ -82,7 +82,7 @@ public:
 
   constexpr void __cordl_internal_set_rotationStep(float_t value);
 
-  /// @brief Method .ctor, addr 0x26d92c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26f0844, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -169,30 +169,30 @@ public:
   __declspec(property(get = __cordl_internal_get_ringRotationEffectsToDelete,
                       put = __cordl_internal_set_ringRotationEffectsToDelete))::System::Collections::Generic::List_1<int32_t>* ringRotationEffectsToDelete;
 
-  /// @brief Method AddRingRotationEffect, addr 0x26d92dc, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method AddRingRotationEffect, addr 0x26f085c, size 0xe4, virtual false, abstract: false, final false
   inline void AddRingRotationEffect(float_t angle, float_t step, int32_t propagationSpeed, float_t flexySpeed);
 
-  /// @brief Method Awake, addr 0x26d9144, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x26f06c4, size 0x180, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method FixedUpdate, addr 0x26d93c0, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method FixedUpdate, addr 0x26f0940, size 0x164, virtual false, abstract: false, final false
   inline void FixedUpdate();
 
-  /// @brief Method GetFirstRingDestinationRotationAngle, addr 0x26d96d8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetFirstRingDestinationRotationAngle, addr 0x26f0c58, size 0x38, virtual false, abstract: false, final false
   inline float_t GetFirstRingDestinationRotationAngle();
 
-  /// @brief Method GetFirstRingRotationAngle, addr 0x26d96a0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetFirstRingRotationAngle, addr 0x26f0c20, size 0x38, virtual false, abstract: false, final false
   inline float_t GetFirstRingRotationAngle();
 
   static inline ::GlobalNamespace::TrackLaneRingsRotationEffect* New_ctor();
 
-  /// @brief Method RecycleRingRotationEffect, addr 0x26d9524, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method RecycleRingRotationEffect, addr 0x26f0aa4, size 0xa8, virtual false, abstract: false, final false
   inline void RecycleRingRotationEffect(::GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect* ringRotationEffect);
 
-  /// @brief Method SpawnRingRotationEffect, addr 0x26d95cc, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SpawnRingRotationEffect, addr 0x26f0b4c, size 0xd4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect* SpawnRingRotationEffect();
 
-  /// @brief Method Start, addr 0x26d92cc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x26f084c, size 0x10, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__TrackLaneRingsRotationEffect__RingRotationEffect*>*& __cordl_internal_get__activeRingRotationEffects();
@@ -245,7 +245,7 @@ public:
 
   constexpr void __cordl_internal_set_ringRotationEffectsToDelete(::System::Collections::Generic::List_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x26d9710, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26f0c90, size 0x90, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

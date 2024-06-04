@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HttpTransferUpdate)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class HttpTransferUpdate;
@@ -30,7 +33,7 @@ public:
   /// @brief Field ID, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__cordl_ID, put = __cordl_internal_set__cordl_ID)) uint64_t _cordl_ID;
 
-  static inline ::Oculus::Platform::Models::HttpTransferUpdate* New_ctor(void* o);
+  static inline ::Oculus::Platform::Models::HttpTransferUpdate* New_ctor(::System::IntPtr o);
 
   constexpr bool const& __cordl_internal_get_IsCompleted() const;
 
@@ -50,8 +53,8 @@ public:
 
   constexpr void __cordl_internal_set__cordl_ID(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x2adc0f0, size 0x158, virtual false, abstract: false, final false
-  inline void _ctor(void* o);
+  /// @brief Method .ctor, addr 0x2afc77c, size 0x158, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr o);
 
 protected:
   // Ctor Parameters []

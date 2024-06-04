@@ -11,6 +11,9 @@ CORDL_MODULE_EXPORT(CVRResources)
 namespace System::Text {
 class StringBuilder;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace OVR::OpenVR {
 class CVRResources;
@@ -28,13 +31,13 @@ public:
   /// @brief Field FnTable, offset 0x10, size 0x10
   __declspec(property(get = __cordl_internal_get_FnTable, put = __cordl_internal_set_FnTable))::OVR::OpenVR::IVRResources FnTable;
 
-  /// @brief Method GetResourceFullPath, addr 0x2bc98a4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetResourceFullPath, addr 0x2beaf30, size 0x24, virtual false, abstract: false, final false
   inline uint32_t GetResourceFullPath(::StringW pchResourceName, ::StringW pchResourceTypeDirectory, ::System::Text::StringBuilder* pchPathBuffer, uint32_t unBufferLen);
 
-  /// @brief Method LoadSharedResource, addr 0x2bc9880, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method LoadSharedResource, addr 0x2beaf0c, size 0x24, virtual false, abstract: false, final false
   inline uint32_t LoadSharedResource(::StringW pchResourceName, ::StringW pchBuffer, uint32_t unBufferLen);
 
-  static inline ::OVR::OpenVR::CVRResources* New_ctor(void* pInterface);
+  static inline ::OVR::OpenVR::CVRResources* New_ctor(::System::IntPtr pInterface);
 
   constexpr ::OVR::OpenVR::IVRResources const& __cordl_internal_get_FnTable() const;
 
@@ -42,8 +45,8 @@ public:
 
   constexpr void __cordl_internal_set_FnTable(::OVR::OpenVR::IVRResources value);
 
-  /// @brief Method .ctor, addr 0x2bc9774, size 0x10c, virtual false, abstract: false, final false
-  inline void _ctor(void* pInterface);
+  /// @brief Method .ctor, addr 0x2beae00, size 0x10c, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr pInterface);
 
 protected:
   // Ctor Parameters []

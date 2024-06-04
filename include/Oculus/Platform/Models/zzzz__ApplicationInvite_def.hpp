@@ -13,6 +13,9 @@ class Destination;
 namespace Oculus::Platform::Models {
 class User;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class ApplicationInvite;
@@ -51,7 +54,7 @@ public:
   /// @brief Field ID, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__cordl_ID, put = __cordl_internal_set__cordl_ID)) uint64_t _cordl_ID;
 
-  static inline ::Oculus::Platform::Models::ApplicationInvite* New_ctor(void* o);
+  static inline ::Oculus::Platform::Models::ApplicationInvite* New_ctor(::System::IntPtr o);
 
   constexpr ::Oculus::Platform::Models::Destination*& __cordl_internal_get_Destination();
 
@@ -101,8 +104,8 @@ public:
 
   constexpr void __cordl_internal_set__cordl_ID(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x2ada0ac, size 0x1bc, virtual false, abstract: false, final false
-  inline void _ctor(void* o);
+  /// @brief Method .ctor, addr 0x2afa738, size 0x1bc, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr o);
 
 protected:
   // Ctor Parameters []

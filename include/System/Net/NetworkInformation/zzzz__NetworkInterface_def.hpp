@@ -36,24 +36,24 @@ public:
 
   __declspec(property(get = get_OperationalStatus))::System::Net::NetworkInformation::OperationalStatus OperationalStatus;
 
-  /// @brief Method GetAllNetworkInterfaces, addr 0x30218e4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetAllNetworkInterfaces, addr 0x303efd4, size 0x4c, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Net::NetworkInformation::NetworkInterface*, ::Array<::System::Net::NetworkInformation::NetworkInterface*>*> GetAllNetworkInterfaces();
 
-  /// @brief Method GetIPProperties, addr 0x3021a6c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GetIPProperties, addr 0x303f15c, size 0x40, virtual true, abstract: false, final false
   inline ::System::Net::NetworkInformation::IPInterfaceProperties* GetIPProperties();
 
   static inline ::System::Net::NetworkInformation::NetworkInterface* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3021b2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x303f21c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x3021a2c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x303f11c, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NetworkInterfaceType, addr 0x3021aec, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_NetworkInterfaceType, addr 0x303f1dc, size 0x40, virtual true, abstract: false, final false
   inline ::System::Net::NetworkInformation::NetworkInterfaceType get_NetworkInterfaceType();
 
-  /// @brief Method get_OperationalStatus, addr 0x3021aac, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_OperationalStatus, addr 0x303f19c, size 0x40, virtual true, abstract: false, final false
   inline ::System::Net::NetworkInformation::OperationalStatus get_OperationalStatus();
 
 protected:

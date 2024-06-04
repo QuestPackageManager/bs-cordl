@@ -48,10 +48,10 @@ public:
 
   static inline ::GlobalNamespace::BTSCharacterResultAnimationController* New_ctor();
 
-  /// @brief Method SetCharacter, addr 0x1053574, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetCharacter, addr 0x105acc0, size 0x68, virtual false, abstract: false, final false
   inline void SetCharacter(::GlobalNamespace::BTSCharacter* btsCharacter);
 
-  /// @brief Method StopAnimation, addr 0x10535dc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method StopAnimation, addr 0x105ad28, size 0x20, virtual false, abstract: false, final false
   inline void StopAnimation();
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__collidersGameObject() const;
@@ -78,7 +78,7 @@ public:
 
   constexpr void __cordl_internal_set__rimLightIntensityAnimator(::UnityW<::GlobalNamespace::MaterialPropertyBlockFloatAnimator> value);
 
-  /// @brief Method .ctor, addr 0x10535fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x105ad48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

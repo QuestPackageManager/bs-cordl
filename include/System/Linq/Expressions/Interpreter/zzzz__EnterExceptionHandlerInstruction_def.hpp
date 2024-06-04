@@ -41,7 +41,7 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::EnterExceptionHandlerInstruction* New_ctor(bool hasValue);
 
-  /// @brief Method Run, addr 0x2c1503c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x2c3572c, size 0x8, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   constexpr bool const& __cordl_internal_get__hasValue() const;
@@ -50,20 +50,20 @@ public:
 
   constexpr void __cordl_internal_set__hasValue(bool value);
 
-  /// @brief Method .ctor, addr 0x2c14fc4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c356b4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(bool hasValue);
 
   static inline ::System::Linq::Expressions::Interpreter::EnterExceptionHandlerInstruction* getStaticF_NonVoid();
 
   static inline ::System::Linq::Expressions::Interpreter::EnterExceptionHandlerInstruction* getStaticF_Void();
 
-  /// @brief Method get_ConsumedStack, addr 0x2c1502c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x2c3571c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x2c14fec, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x2c356dc, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x2c15034, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x2c35724, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
   static inline void setStaticF_NonVoid(::System::Linq::Expressions::Interpreter::EnterExceptionHandlerInstruction* value);

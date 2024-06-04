@@ -50,13 +50,13 @@ public:
 
   static inline ::HoudiniEngineUnity::__Test_Terrain_Extensions____c* New_ctor();
 
-  /// @brief Method <ToTestObject>b__1_0, addr 0x25cd4c8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <ToTestObject>b__1_0, addr 0x25e540c, size 0x64, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_Terrain* _ToTestObject_b__1_0(::UnityEngine::Terrain* lod);
 
-  /// @brief Method <ToTestObject>b__2_0, addr 0x25cd52c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <ToTestObject>b__2_0, addr 0x25e5470, size 0x64, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::Test_Terrain* _ToTestObject_b__2_0(::UnityEngine::Terrain* lod);
 
-  /// @brief Method .ctor, addr 0x25cd4c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25e5404, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::HoudiniEngineUnity::__Test_Terrain_Extensions____c* getStaticF___9();
@@ -101,13 +101,13 @@ public:
   // Declarations
   using __c = ::HoudiniEngineUnity::__Test_Terrain_Extensions____c;
 
-  /// @brief Method ToTestObject, addr 0x25cd268, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x25e51ac, size 0xf8, virtual false, abstract: false, final false
   static inline ::ArrayW<::HoudiniEngineUnity::Test_Terrain*, ::Array<::HoudiniEngineUnity::Test_Terrain*>*> ToTestObject(::ArrayW<::UnityEngine::Terrain*, ::Array<::UnityEngine::Terrain*>*> self);
 
-  /// @brief Method ToTestObject, addr 0x25c62ec, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x25de230, size 0x64, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::Test_Terrain* ToTestObject(::UnityEngine::Terrain* self);
 
-  /// @brief Method ToTestObject, addr 0x25cd360, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ToTestObject, addr 0x25e52a4, size 0xfc, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_Terrain*>* ToTestObject(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Terrain>>* self);
 
 protected:

@@ -78,22 +78,22 @@ public:
 
   constexpr void __cordl_internal_set_y(int32_t value);
 
-  /// @brief Method .ctor, addr 0x14f3c88, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14fa11c, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, int32_t line, int32_t layer, float_t duration, int32_t width, int32_t height);
 
-  /// @brief Method get_duration, addr 0x14f3c70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_duration, addr 0x14fa104, size 0x8, virtual false, abstract: false, final false
   inline float_t get_duration();
 
-  /// @brief Method get_height, addr 0x14f3c80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_height, addr 0x14fa114, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_height();
 
-  /// @brief Method get_layer, addr 0x14f3c68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_layer, addr 0x14fa0fc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_layer();
 
-  /// @brief Method get_line, addr 0x14f3c60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_line, addr 0x14fa0f4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_line();
 
-  /// @brief Method get_width, addr 0x14f3c78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_width, addr 0x14fa10c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_width();
 
 protected:

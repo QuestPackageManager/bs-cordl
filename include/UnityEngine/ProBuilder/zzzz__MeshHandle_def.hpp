@@ -34,7 +34,7 @@ public:
 
   __declspec(property(get = get_mesh))::UnityW<::UnityEngine::Mesh> mesh;
 
-  /// @brief Method DrawMeshNow, addr 0x32854e4, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method DrawMeshNow, addr 0x32ac838, size 0x128, virtual false, abstract: false, final false
   inline void DrawMeshNow(int32_t submeshIndex);
 
   static inline ::UnityEngine::ProBuilder::MeshHandle* New_ctor(::UnityEngine::Transform* transform, ::UnityEngine::Mesh* mesh);
@@ -51,10 +51,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x32854b8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32ac80c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Transform* transform, ::UnityEngine::Mesh* mesh);
 
-  /// @brief Method get_mesh, addr 0x32854b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_mesh, addr 0x32ac804, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_mesh();
 
 protected:

@@ -3,21 +3,23 @@
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "UnityEngine/zzzz__TextEditor_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TextEditorEngine_def.hpp"
+#include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TextEditorEngine_def.hpp"
 #include "UnityEngine/zzzz__Rect_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::__TextEditorEngine__OnDetectFocusChangeFunction._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__TextEditorEngine__OnDetectFocusChangeFunction::*)(::System::Object*, void*)>(
-    &::UnityEngine::UIElements::__TextEditorEngine__OnDetectFocusChangeFunction::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__TextEditorEngine__OnDetectFocusChangeFunction::*)(
+    ::System::Object*, ::System::IntPtr)>(&::UnityEngine::UIElements::__TextEditorEngine__OnDetectFocusChangeFunction::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x35882c0;
+  constexpr static std::size_t addrs = 0x35b37bc;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextEditorEngine__OnDetectFocusChangeFunction*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get() })));
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
@@ -27,9 +29,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__TextEditorEngine__OnDetectFocusChangeFunction::*)()>(
     &::UnityEngine::UIElements::__TextEditorEngine__OnDetectFocusChangeFunction::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x358837c;
+  constexpr static std::size_t addrs = 0x35b3878;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextEditorEngine__OnDetectFocusChangeFunction*>::get(),
@@ -38,13 +40,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 inline ::UnityEngine::UIElements::__TextEditorEngine__OnDetectFocusChangeFunction* UnityEngine::UIElements::__TextEditorEngine__OnDetectFocusChangeFunction::New_ctor(::System::Object* object,
-                                                                                                                                                                      void* method) {
+                                                                                                                                                                      ::System::IntPtr method) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::__TextEditorEngine__OnDetectFocusChangeFunction*>(object, method));
 }
-inline void UnityEngine::UIElements::__TextEditorEngine__OnDetectFocusChangeFunction::_ctor(::System::Object* object, void* method) {
+inline void UnityEngine::UIElements::__TextEditorEngine__OnDetectFocusChangeFunction::_ctor(::System::Object* object, ::System::IntPtr method) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextEditorEngine__OnDetectFocusChangeFunction*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get() })));
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
 inline void UnityEngine::UIElements::__TextEditorEngine__OnDetectFocusChangeFunction::Invoke() {
@@ -58,15 +61,16 @@ constexpr ::UnityEngine::UIElements::__TextEditorEngine__OnDetectFocusChangeFunc
 //  Writing Method size for method: ::UnityEngine::UIElements::__TextEditorEngine__OnIndexChangeFunction._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__TextEditorEngine__OnIndexChangeFunction::*)(::System::Object*, void*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__TextEditorEngine__OnIndexChangeFunction::*)(::System::Object*, ::System::IntPtr)>(
     &::UnityEngine::UIElements::__TextEditorEngine__OnIndexChangeFunction::_ctor)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3588390;
+  constexpr static std::size_t addrs = 0x35b388c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextEditorEngine__OnIndexChangeFunction*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get() })));
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
@@ -76,9 +80,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::__TextEditorEngine__OnIndexChangeFunction::*)()>(
     &::UnityEngine::UIElements::__TextEditorEngine__OnIndexChangeFunction::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x358844c;
+  constexpr static std::size_t addrs = 0x35b3948;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextEditorEngine__OnIndexChangeFunction*>::get(),
@@ -86,13 +90,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::UnityEngine::UIElements::__TextEditorEngine__OnIndexChangeFunction* UnityEngine::UIElements::__TextEditorEngine__OnIndexChangeFunction::New_ctor(::System::Object* object, void* method) {
+inline ::UnityEngine::UIElements::__TextEditorEngine__OnIndexChangeFunction* UnityEngine::UIElements::__TextEditorEngine__OnIndexChangeFunction::New_ctor(::System::Object* object,
+                                                                                                                                                          ::System::IntPtr method) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::__TextEditorEngine__OnIndexChangeFunction*>(object, method));
 }
-inline void UnityEngine::UIElements::__TextEditorEngine__OnIndexChangeFunction::_ctor(::System::Object* object, void* method) {
+inline void UnityEngine::UIElements::__TextEditorEngine__OnIndexChangeFunction::_ctor(::System::Object* object, ::System::IntPtr method) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::__TextEditorEngine__OnIndexChangeFunction*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get() })));
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
 inline void UnityEngine::UIElements::__TextEditorEngine__OnIndexChangeFunction::Invoke() {
@@ -110,9 +116,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::UIElements::__TextEditorEngine__OnDetectFocusChangeFunction*, ::UnityEngine::UIElements::__TextEditorEngine__OnIndexChangeFunction*)>(
     &::UnityEngine::UIElements::TextEditorEngine::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x35881a0;
+  constexpr static std::size_t addrs = 0x35b369c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextEditorEngine*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::__TextEditorEngine__OnDetectFocusChangeFunction*>::get(),
@@ -126,9 +132,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rect (::UnityEngine::UIElements::TextEditorEngine::*)()>(
     &::UnityEngine::UIElements::TextEditorEngine::get_localPosition)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x35881cc;
+  constexpr static std::size_t addrs = 0x35b36c8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextEditorEngine*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextEditorEngine*>::get(), 4));
@@ -141,9 +147,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TextEditorEngine::*)()>(
     &::UnityEngine::UIElements::TextEditorEngine::OnDetectFocusChange)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3588254;
+  constexpr static std::size_t addrs = 0x35b3750;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextEditorEngine*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextEditorEngine*>::get(), 5));
@@ -156,9 +162,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TextEditorEngine::*)()>(
     &::UnityEngine::UIElements::TextEditorEngine::OnCursorIndexChange)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3588278;
+  constexpr static std::size_t addrs = 0x35b3774;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextEditorEngine*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextEditorEngine*>::get(), 6));
@@ -171,9 +177,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TextEditorEngine::*)()>(
     &::UnityEngine::UIElements::TextEditorEngine::OnSelectIndexChange)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x358829c;
+  constexpr static std::size_t addrs = 0x35b3798;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextEditorEngine*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextEditorEngine*>::get(), 7));

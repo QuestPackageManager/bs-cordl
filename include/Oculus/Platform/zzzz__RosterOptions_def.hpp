@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RosterOptions)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform {
 class RosterOptions;
@@ -22,30 +25,30 @@ class CORDL_TYPE RosterOptions : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Handle, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_Handle, put = __cordl_internal_set_Handle)) void* Handle;
+  __declspec(property(get = __cordl_internal_get_Handle, put = __cordl_internal_set_Handle))::System::IntPtr Handle;
 
-  /// @brief Method AddSuggestedUser, addr 0x2aa0f80, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method AddSuggestedUser, addr 0x2ac160c, size 0x68, virtual false, abstract: false, final false
   inline void AddSuggestedUser(uint64_t userID);
 
-  /// @brief Method ClearSuggestedUsers, addr 0x2ad700c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ClearSuggestedUsers, addr 0x2af7698, size 0x58, virtual false, abstract: false, final false
   inline void ClearSuggestedUsers();
 
-  /// @brief Method Finalize, addr 0x2ad7064, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x2af76f0, size 0xd4, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::Oculus::Platform::RosterOptions* New_ctor();
 
-  constexpr void* const& __cordl_internal_get_Handle() const;
+  constexpr ::System::IntPtr const& __cordl_internal_get_Handle() const;
 
-  constexpr void*& __cordl_internal_get_Handle();
+  constexpr ::System::IntPtr& __cordl_internal_get_Handle();
 
-  constexpr void __cordl_internal_set_Handle(void* value);
+  constexpr void __cordl_internal_set_Handle(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x2aa0f1c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2ac15a8, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method op_Explicit, addr 0x2ad34b8, size 0x58, virtual false, abstract: false, final false
-  static inline void* op_Explicit_void_(::Oculus::Platform::RosterOptions* options);
+  /// @brief Method op_Explicit, addr 0x2af3b44, size 0x58, virtual false, abstract: false, final false
+  static inline ::System::IntPtr op_Explicit___System__IntPtr(::Oculus::Platform::RosterOptions* options);
 
 protected:
   // Ctor Parameters []
@@ -62,7 +65,7 @@ public:
   RosterOptions(RosterOptions const&) = delete;
 
   /// @brief Field Handle, offset: 0x10, size: 0x8, def value: None
-  void* ___Handle;
+  ::System::IntPtr ___Handle;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -227,27 +227,27 @@ public:
   /// @brief Field cachedVector3fSize, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_cachedVector3fSize, put = setStaticF_cachedVector3fSize)) int32_t cachedVector3fSize;
 
-  /// @brief Method GetConfigured, addr 0x2ae3770, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetConfigured, addr 0x2b04dfc, size 0x98, virtual false, abstract: false, final false
   inline bool GetConfigured();
 
-  /// @brief Method GetDimensions, addr 0x2aec03c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetDimensions, addr 0x2b0d6c8, size 0xd0, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetDimensions(::GlobalNamespace::__OVRBoundary__BoundaryType boundaryType);
 
-  /// @brief Method GetGeometry, addr 0x2ae3808, size 0x43c, virtual false, abstract: false, final false
+  /// @brief Method GetGeometry, addr 0x2b04e94, size 0x43c, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> GetGeometry(::GlobalNamespace::__OVRBoundary__BoundaryType boundaryType);
 
-  /// @brief Method GetVisible, addr 0x2aec110, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetVisible, addr 0x2b0d79c, size 0x98, virtual false, abstract: false, final false
   inline bool GetVisible();
 
   static inline ::GlobalNamespace::OVRBoundary* New_ctor();
 
-  /// @brief Method SetVisible, addr 0x2aec1a8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method SetVisible, addr 0x2b0d834, size 0x9c, virtual false, abstract: false, final false
   inline void SetVisible(bool value);
 
-  /// @brief Method TestNode, addr 0x2aebdf0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method TestNode, addr 0x2b0d47c, size 0xc4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRBoundary__BoundaryTestResult TestNode(::GlobalNamespace::__OVRBoundary__Node node, ::GlobalNamespace::__OVRBoundary__BoundaryType boundaryType);
 
-  /// @brief Method TestPoint, addr 0x2aebeb4, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method TestPoint, addr 0x2b0d540, size 0xe8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRBoundary__BoundaryTestResult TestPoint(::UnityEngine::Vector3 point, ::GlobalNamespace::__OVRBoundary__BoundaryType boundaryType);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& __cordl_internal_get_cachedGeometryList();
@@ -256,7 +256,7 @@ public:
 
   constexpr void __cordl_internal_set_cachedGeometryList(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value);
 
-  /// @brief Method .ctor, addr 0x2aec244, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2b0d8d0, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<float_t, ::Array<float_t>*> getStaticF_cachedGeometryManagedBuffer();

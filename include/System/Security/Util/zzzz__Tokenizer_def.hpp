@@ -155,16 +155,16 @@ public:
   /// @brief Field cStringsUsed, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_cStringsUsed, put = __cordl_internal_set_cStringsUsed)) uint32_t cStringsUsed;
 
-  /// @brief Method CompareStringAndChars, addr 0x27d76e8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method CompareStringAndChars, addr 0x27f0d74, size 0x94, virtual false, abstract: false, final false
   inline bool CompareStringAndChars(::StringW str, ::ArrayW<char16_t, ::Array<char16_t>*> a, int32_t l);
 
-  /// @brief Method HashCharArray, addr 0x27d75f8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method HashCharArray, addr 0x27f0c84, size 0x5c, virtual false, abstract: false, final false
   static inline uint32_t HashCharArray(::ArrayW<char16_t, ::Array<char16_t>*> a, int32_t l);
 
-  /// @brief Method HashString, addr 0x27d758c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method HashString, addr 0x27f0c18, size 0x6c, virtual false, abstract: false, final false
   static inline uint32_t HashString(::StringW str);
 
-  /// @brief Method MakeString, addr 0x27d1e68, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method MakeString, addr 0x27eb4f4, size 0x26c, virtual false, abstract: false, final false
   inline ::StringW MakeString();
 
   static inline ::System::Security::Util::__Tokenizer__StringMaker* New_ctor();
@@ -205,7 +205,7 @@ public:
 
   constexpr void __cordl_internal_set_cStringsUsed(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x27d7654, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27f0ce0, size 0x94, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -302,7 +302,7 @@ public:
 
   static inline ::System::Security::Util::__Tokenizer__StreamTokenReader* New_ctor(::System::IO::StreamReader* input);
 
-  /// @brief Method Read, addr 0x27d777c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x27f0e08, size 0x3c, virtual true, abstract: false, final false
   inline int32_t Read();
 
   constexpr ::System::IO::StreamReader*& __cordl_internal_get__in();
@@ -317,10 +317,10 @@ public:
 
   constexpr void __cordl_internal_set__numCharRead(int32_t value);
 
-  /// @brief Method .ctor, addr 0x27d7370, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27f09fc, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::StreamReader* input);
 
-  /// @brief Method get_NumCharEncountered, addr 0x27d77b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NumCharEncountered, addr 0x27f0e44, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_NumCharEncountered();
 
   /// @brief Convert to "::System::Security::Util::__Tokenizer__ITokenReader"
@@ -420,21 +420,21 @@ public:
   /// @brief Field _searchStrings, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__searchStrings, put = __cordl_internal_set__searchStrings))::ArrayW<::StringW, ::Array<::StringW>*> _searchStrings;
 
-  /// @brief Method BasicInitialization, addr 0x27d729c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method BasicInitialization, addr 0x27f0928, size 0x78, virtual false, abstract: false, final false
   inline void BasicInitialization();
 
-  /// @brief Method ChangeFormat, addr 0x27d6ae0, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method ChangeFormat, addr 0x27f016c, size 0x224, virtual false, abstract: false, final false
   inline void ChangeFormat(::System::Text::Encoding* encoding);
 
-  /// @brief Method GetStringToken, addr 0x27d7484, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetStringToken, addr 0x27f0b10, size 0x18, virtual false, abstract: false, final false
   inline ::StringW GetStringToken();
 
-  /// @brief Method GetTokens, addr 0x27d62a0, size 0x7e0, virtual false, abstract: false, final false
+  /// @brief Method GetTokens, addr 0x27ef92c, size 0x7e0, virtual false, abstract: false, final false
   inline void GetTokens(::System::Security::Util::TokenizerStream* stream, int32_t maxNum, bool endAfterKet);
 
   static inline ::System::Security::Util::Tokenizer* New_ctor(::StringW input);
 
-  /// @brief Method Recycle, addr 0x27d7314, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Recycle, addr 0x27f09a0, size 0x5c, virtual false, abstract: false, final false
   inline void Recycle();
 
   constexpr int32_t const& __cordl_internal_get_LineNo() const;
@@ -533,7 +533,7 @@ public:
 
   constexpr void __cordl_internal_set__searchStrings(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method .ctor, addr 0x27d7254, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27f08e0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::StringW input);
 
 protected:

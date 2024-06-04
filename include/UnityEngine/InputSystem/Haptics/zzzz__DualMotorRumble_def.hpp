@@ -29,31 +29,31 @@ public:
 
   __declspec(property(get = get_lowFrequencyMotorSpeed, put = set_lowFrequencyMotorSpeed)) float_t lowFrequencyMotorSpeed;
 
-  /// @brief Method PauseHaptics, addr 0x3156728, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method PauseHaptics, addr 0x317a204, size 0x110, virtual false, abstract: false, final false
   inline void PauseHaptics(::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method ResetHaptics, addr 0x3156a58, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ResetHaptics, addr 0x317a534, size 0x90, virtual false, abstract: false, final false
   inline void ResetHaptics(::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method ResumeHaptics, addr 0x3156888, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ResumeHaptics, addr 0x317a364, size 0x8c, virtual false, abstract: false, final false
   inline void ResumeHaptics(::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method SetMotorSpeeds, addr 0x3156914, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method SetMotorSpeeds, addr 0x317a3f0, size 0x144, virtual false, abstract: false, final false
   inline void SetMotorSpeeds(::UnityEngine::InputSystem::InputDevice* device, float_t lowFrequency, float_t highFrequency);
 
-  /// @brief Method get_highFrequencyMotorSpeed, addr 0x3156660, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_highFrequencyMotorSpeed, addr 0x317a13c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_highFrequencyMotorSpeed();
 
-  /// @brief Method get_isRumbling, addr 0x3156670, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_isRumbling, addr 0x317a14c, size 0xb8, virtual false, abstract: false, final false
   inline bool get_isRumbling();
 
-  /// @brief Method get_lowFrequencyMotorSpeed, addr 0x3156650, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lowFrequencyMotorSpeed, addr 0x317a12c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_lowFrequencyMotorSpeed();
 
-  /// @brief Method set_highFrequencyMotorSpeed, addr 0x3156668, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_highFrequencyMotorSpeed, addr 0x317a144, size 0x8, virtual false, abstract: false, final false
   inline void set_highFrequencyMotorSpeed(float_t value);
 
-  /// @brief Method set_lowFrequencyMotorSpeed, addr 0x3156658, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lowFrequencyMotorSpeed, addr 0x317a134, size 0x8, virtual false, abstract: false, final false
   inline void set_lowFrequencyMotorSpeed(float_t value);
 
   // Ctor Parameters []

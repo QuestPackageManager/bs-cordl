@@ -57,27 +57,27 @@ public:
   /// @brief Field peOffset, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_peOffset, put = __cordl_internal_set_peOffset)) int32_t peOffset;
 
-  /// @brief Method Close, addr 0x2788818, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x27a1e84, size 0x2c, virtual false, abstract: false, final false
   inline void Close();
 
-  /// @brief Method GetHash, addr 0x2788be0, size 0x488, virtual false, abstract: false, final false
+  /// @brief Method GetHash, addr 0x27a224c, size 0x488, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetHash(::System::Security::Cryptography::HashAlgorithm* hash);
 
-  /// @brief Method GetSecurityEntry, addr 0x2788b10, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetSecurityEntry, addr 0x27a217c, size 0xd0, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSecurityEntry();
 
   static inline ::Mono::Security::Authenticode::AuthenticodeBase* New_ctor();
 
-  /// @brief Method Open, addr 0x2788784, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x27a1df0, size 0x94, virtual false, abstract: false, final false
   inline void Open(::StringW filename);
 
-  /// @brief Method Open, addr 0x2788844, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Open, addr 0x27a1eb0, size 0x8c, virtual false, abstract: false, final false
   inline void Open(::ArrayW<uint8_t, ::Array<uint8_t>*> rawdata);
 
-  /// @brief Method ProcessFirstBlock, addr 0x27888d0, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method ProcessFirstBlock, addr 0x27a1f3c, size 0x240, virtual false, abstract: false, final false
   inline int32_t ProcessFirstBlock();
 
-  /// @brief Method ReadFirstBlock, addr 0x27886ac, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method ReadFirstBlock, addr 0x27a1d18, size 0xd8, virtual false, abstract: false, final false
   inline void ReadFirstBlock();
 
   constexpr int32_t const& __cordl_internal_get_blockLength() const;
@@ -134,10 +134,10 @@ public:
 
   constexpr void __cordl_internal_set_peOffset(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2788628, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27a1c94, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_PEOffset, addr 0x2788684, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_PEOffset, addr 0x27a1cf0, size 0x28, virtual false, abstract: false, final false
   inline int32_t get_PEOffset();
 
 protected:

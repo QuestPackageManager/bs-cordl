@@ -39,16 +39,16 @@ public:
   /// @brief Field m_nTag, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_m_nTag, put = __cordl_internal_set_m_nTag)) uint8_t m_nTag;
 
-  /// @brief Method Add, addr 0x279bf98, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x27b5604, size 0x8c, virtual false, abstract: false, final false
   inline ::Mono::Security::ASN1* Add(::Mono::Security::ASN1* asn1);
 
-  /// @brief Method Decode, addr 0x279bdc8, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x27b5434, size 0x124, virtual false, abstract: false, final false
   inline void Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> asn1, ByRef<int32_t> anPos, int32_t anLength);
 
-  /// @brief Method DecodeTLV, addr 0x279c6bc, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method DecodeTLV, addr 0x27b5d28, size 0x124, virtual false, abstract: false, final false
   inline void DecodeTLV(::ArrayW<uint8_t, ::Array<uint8_t>*> asn1, ByRef<int32_t> pos, ByRef<uint8_t> tag, ByRef<int32_t> length, ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> content);
 
-  /// @brief Method GetBytes, addr 0x279c024, size 0x698, virtual true, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x27b5690, size 0x698, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBytes();
 
   static inline ::Mono::Security::ASN1* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
@@ -57,7 +57,7 @@ public:
 
   static inline ::Mono::Security::ASN1* New_ctor(uint8_t tag, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method ToString, addr 0x279c7e0, size 0x290, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x27b5e4c, size 0x290, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Collections::ArrayList*& __cordl_internal_get_elist();
@@ -78,19 +78,19 @@ public:
 
   constexpr void __cordl_internal_set_m_nTag(uint8_t value);
 
-  /// @brief Method .ctor, addr 0x279bc50, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27b52bc, size 0x178, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0x279bbf4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27b5260, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(uint8_t tag);
 
-  /// @brief Method .ctor, addr 0x279bc20, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27b528c, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(uint8_t tag, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method get_Count, addr 0x279beec, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x27b5558, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Value, addr 0x279bf08, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x27b5574, size 0x90, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Value();
 
 protected:

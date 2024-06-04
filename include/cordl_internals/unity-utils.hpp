@@ -21,8 +21,7 @@ template <typename T> struct UnityW {
   constexpr UnityW(T* t) noexcept : innerPtr(t) {}
 
   template <typename U>
-    requires(std::is_convertible_v<U*, T*>)
-  constexpr UnityW(UnityW<U> u) : innerPtr(u.innerPtr) {}
+  requires(std::is_convertible_v<U*, T*>) constexpr UnityW(UnityW<U> u) : innerPtr(u.innerPtr) {}
 
   constexpr UnityW(nullptr_t) noexcept : innerPtr(nullptr) {}
   explicit constexpr UnityW(void* p) noexcept : innerPtr(static_cast<T*>(p)) {}
@@ -90,8 +89,7 @@ template <typename T> struct UnityW {
   }
 
   template <typename U = T>
-    requires(std::is_assignable_v<T, U> || std::is_same_v<T, U>)
-  constexpr bool operator==(UnityW<U> const& other) const {
+  requires(std::is_assignable_v<T, U> || std::is_same_v<T, U>) constexpr bool operator==(UnityW<U> const& other) const {
     return other.isAlive() == isAlive() && other.innerPtr == innerPtr;
   }
 
@@ -108,7 +106,7 @@ template <typename T> struct UnityW {
   }
 
   [[nodiscard]] static constexpr inline void* cached_ptr(T const* ptr) {
-    return ptr->m_CachedPtr;
+    return ptr->m_CachedPtr.m_value.convert();
   }
 
 private:
@@ -119,9 +117,7 @@ MARK_GEN_REF_T(UnityW);
 
 // static_assert(il2cpp_utils::has_il2cpp_conversion<UnityW<Il2CppObject>>);
 
-template <class T> struct BS_HOOKS_HIDDEN ::il2cpp_utils::il2cpp_type_check::need_box<UnityW<T>> {
-  constexpr static bool value = false;
-};
+template <class T> struct BS_HOOKS_HIDDEN ::il2cpp_utils::il2cpp_type_check::need_box<UnityW<T>> { constexpr static bool value = false; };
 
 template <class T> struct ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<UnityW<T>> {
   static inline Il2CppType const* get() {

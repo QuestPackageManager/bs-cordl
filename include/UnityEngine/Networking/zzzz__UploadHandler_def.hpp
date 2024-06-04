@@ -22,19 +22,19 @@ class CORDL_TYPE UploadHandler : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Ptr, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) void* m_Ptr;
+  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr))::System::IntPtr m_Ptr;
 
-  /// @brief Method Dispose, addr 0x3603a54, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x362ef50, size 0x94, virtual true, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method Release, addr 0x3603a18, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x362ef14, size 0x3c, virtual false, abstract: false, final false
   inline void Release();
 
-  constexpr void* const& __cordl_internal_get_m_Ptr() const;
+  constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
 
-  constexpr void*& __cordl_internal_get_m_Ptr();
+  constexpr ::System::IntPtr& __cordl_internal_get_m_Ptr();
 
-  constexpr void __cordl_internal_set_m_Ptr(void* value);
+  constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
 
 protected:
   // Ctor Parameters []
@@ -51,7 +51,7 @@ public:
   UploadHandler(UploadHandler const&) = delete;
 
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
-  void* ___m_Ptr;
+  ::System::IntPtr ___m_Ptr;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

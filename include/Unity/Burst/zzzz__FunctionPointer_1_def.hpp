@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(FunctionPointer_1)
+namespace System {
+struct IntPtr;
+}
 namespace Unity::Burst {
 class IFunctionPointer;
 }
@@ -30,7 +33,7 @@ public:
 
   __declspec(property(get = get_IsCreated)) bool IsCreated;
 
-  __declspec(property(get = get_Value)) void* Value;
+  __declspec(property(get = get_Value))::System::IntPtr Value;
 
   /// @brief Convert operator to "::Unity::Burst::IFunctionPointer"
   constexpr operator ::Unity::Burst::IFunctionPointer*();
@@ -39,10 +42,10 @@ public:
   inline void CheckIsCreated();
 
   /// @brief Method Unity.Burst.IFunctionPointer.FromIntPtr, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline ::Unity::Burst::IFunctionPointer* Unity_Burst_IFunctionPointer_FromIntPtr(void* ptr);
+  inline ::Unity::Burst::IFunctionPointer* Unity_Burst_IFunctionPointer_FromIntPtr(::System::IntPtr ptr);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(void* ptr);
+  inline void _ctor(::System::IntPtr ptr);
 
   /// @brief Method get_Invoke, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T get_Invoke();
@@ -51,7 +54,7 @@ public:
   inline bool get_IsCreated();
 
   /// @brief Method get_Value, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void* get_Value();
+  inline ::System::IntPtr get_Value();
 
   /// @brief Convert to "::Unity::Burst::IFunctionPointer"
   constexpr ::Unity::Burst::IFunctionPointer* i___Unity__Burst__IFunctionPointer();
@@ -60,11 +63,11 @@ public:
   // @brief default ctor
   constexpr FunctionPointer_1();
 
-  // Ctor Parameters [CppParam { name: "_ptr", ty: "void*", modifiers: "", def_value: None }]
-  constexpr FunctionPointer_1(void* _ptr) noexcept;
+  // Ctor Parameters [CppParam { name: "_ptr", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  constexpr FunctionPointer_1(::System::IntPtr _ptr) noexcept;
 
   /// @brief Field _ptr, offset: 0x0, size: 0x8, def value: None
-  void* _ptr;
+  ::System::IntPtr _ptr;
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

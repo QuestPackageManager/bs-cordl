@@ -181,25 +181,25 @@ public:
   /// @brief Field postPlayback, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_postPlayback, put = __cordl_internal_set_postPlayback))::UnityEngine::Timeline::__ActivationControlPlayable__PostPlaybackState postPlayback;
 
-  /// @brief Method Create, addr 0x339a5d0, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x33c3924, size 0x140, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::ActivationControlPlayable*>
   Create(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* gameObject, ::UnityEngine::Timeline::__ActivationControlPlayable__PostPlaybackState postPlaybackState);
 
   static inline ::UnityEngine::Timeline::ActivationControlPlayable* New_ctor();
 
-  /// @brief Method OnBehaviourPause, addr 0x339f750, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method OnBehaviourPause, addr 0x33c8aa4, size 0xa8, virtual true, abstract: false, final false
   inline void OnBehaviourPause(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method OnBehaviourPlay, addr 0x339f6c8, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method OnBehaviourPlay, addr 0x33c8a1c, size 0x88, virtual true, abstract: false, final false
   inline void OnBehaviourPlay(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method OnGraphStart, addr 0x339f880, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method OnGraphStart, addr 0x33c8bd4, size 0x94, virtual true, abstract: false, final false
   inline void OnGraphStart(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method OnPlayableDestroy, addr 0x339f914, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method OnPlayableDestroy, addr 0x33c8c68, size 0xcc, virtual true, abstract: false, final false
   inline void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method ProcessFrame, addr 0x339f7f8, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method ProcessFrame, addr 0x33c8b4c, size 0x88, virtual true, abstract: false, final false
   inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* userData);
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_gameObject() const;
@@ -220,7 +220,7 @@ public:
 
   constexpr void __cordl_internal_set_postPlayback(::UnityEngine::Timeline::__ActivationControlPlayable__PostPlaybackState value);
 
-  /// @brief Method .ctor, addr 0x339f9e0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33c8d34, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

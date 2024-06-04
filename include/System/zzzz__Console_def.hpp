@@ -33,6 +33,9 @@ namespace System {
 struct ConsoleKeyInfo;
 }
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Object;
 }
 namespace System {
@@ -60,13 +63,13 @@ namespace GlobalNamespace {
 class CORDL_TYPE __Console__WindowsConsole__WindowsCancelHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x297d578, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2997c04, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(int32_t keyCode);
 
-  static inline ::GlobalNamespace::__Console__WindowsConsole__WindowsCancelHandler* New_ctor(::System::Object* object, void* method);
+  static inline ::GlobalNamespace::__Console__WindowsConsole__WindowsCancelHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x297d4b4, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
+  /// @brief Method .ctor, addr 0x2997b40, size 0xc4, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
@@ -104,19 +107,19 @@ public:
   /// @brief Field ctrlHandlerAdded, offset 0xffffffff, size 0x1
   static __declspec(property(get = getStaticF_ctrlHandlerAdded, put = setStaticF_ctrlHandlerAdded)) bool ctrlHandlerAdded;
 
-  /// @brief Method DoWindowsConsoleCancelEvent, addr 0x297d3b8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method DoWindowsConsoleCancelEvent, addr 0x2997a44, size 0x60, virtual false, abstract: false, final false
   static inline bool DoWindowsConsoleCancelEvent(int32_t keyCode);
 
-  /// @brief Method GetConsoleCP, addr 0x297d2e4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetConsoleCP, addr 0x2997970, size 0x68, virtual false, abstract: false, final false
   static inline int32_t GetConsoleCP();
 
-  /// @brief Method GetConsoleOutputCP, addr 0x297d34c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetConsoleOutputCP, addr 0x29979d8, size 0x6c, virtual false, abstract: false, final false
   static inline int32_t GetConsoleOutputCP();
 
-  /// @brief Method GetInputCodePage, addr 0x297c41c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetInputCodePage, addr 0x2996aa8, size 0x4c, virtual false, abstract: false, final false
   static inline int32_t GetInputCodePage();
 
-  /// @brief Method GetOutputCodePage, addr 0x297c468, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetOutputCodePage, addr 0x2996af4, size 0x4c, virtual false, abstract: false, final false
   static inline int32_t GetOutputCodePage();
 
   static inline ::GlobalNamespace::__Console__WindowsConsole__WindowsCancelHandler* getStaticF_cancelHandler();
@@ -175,34 +178,34 @@ public:
   /// @brief Field stdout, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_stdout, put = setStaticF_stdout))::System::IO::TextWriter* stdout;
 
-  /// @brief Method DoConsoleCancelEvent, addr 0x297d0ec, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method DoConsoleCancelEvent, addr 0x2997778, size 0x1f8, virtual false, abstract: false, final false
   static inline void DoConsoleCancelEvent();
 
-  /// @brief Method Open, addr 0x297cbfc, size 0x15c, virtual false, abstract: false, final false
-  static inline ::System::IO::Stream* Open(void* handle, ::System::IO::FileAccess access, int32_t bufferSize);
+  /// @brief Method Open, addr 0x2997288, size 0x15c, virtual false, abstract: false, final false
+  static inline ::System::IO::Stream* Open(::System::IntPtr handle, ::System::IO::FileAccess access, int32_t bufferSize);
 
-  /// @brief Method OpenStandardError, addr 0x297cabc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OpenStandardError, addr 0x2997148, size 0x90, virtual false, abstract: false, final false
   static inline ::System::IO::Stream* OpenStandardError(int32_t bufferSize);
 
-  /// @brief Method OpenStandardInput, addr 0x297c99c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OpenStandardInput, addr 0x2997028, size 0x90, virtual false, abstract: false, final false
   static inline ::System::IO::Stream* OpenStandardInput(int32_t bufferSize);
 
-  /// @brief Method OpenStandardOutput, addr 0x297ca2c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OpenStandardOutput, addr 0x29970b8, size 0x90, virtual false, abstract: false, final false
   static inline ::System::IO::Stream* OpenStandardOutput(int32_t bufferSize);
 
-  /// @brief Method ReadKey, addr 0x297cf60, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ReadKey, addr 0x29975ec, size 0x58, virtual false, abstract: false, final false
   static inline ::System::ConsoleKeyInfo ReadKey();
 
-  /// @brief Method ReadKey, addr 0x297cfb8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ReadKey, addr 0x2997644, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::ConsoleKeyInfo ReadKey(bool intercept);
 
-  /// @brief Method SetOut, addr 0x297cd58, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method SetOut, addr 0x29973e4, size 0xe4, virtual false, abstract: false, final false
   static inline void SetOut(::System::IO::TextWriter* newOut);
 
-  /// @brief Method SetupStreams, addr 0x297c4b4, size 0x3b0, virtual false, abstract: false, final false
+  /// @brief Method SetupStreams, addr 0x2996b40, size 0x3b0, virtual false, abstract: false, final false
   static inline void SetupStreams(::System::Text::Encoding* inputEncoding, ::System::Text::Encoding* outputEncoding);
 
-  /// @brief Method WriteLine, addr 0x297ce3c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method WriteLine, addr 0x29974c8, size 0x74, virtual false, abstract: false, final false
   static inline void WriteLine(::StringW value);
 
   static inline ::System::ConsoleCancelEventHandler* getStaticF_cancel_event();
@@ -217,16 +220,16 @@ public:
 
   static inline ::System::IO::TextWriter* getStaticF_stdout();
 
-  /// @brief Method get_Error, addr 0x297cb4c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Error, addr 0x29971d8, size 0x58, virtual false, abstract: false, final false
   static inline ::System::IO::TextWriter* get_Error();
 
-  /// @brief Method get_InputEncoding, addr 0x297ceb0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_InputEncoding, addr 0x299753c, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Text::Encoding* get_InputEncoding();
 
-  /// @brief Method get_Out, addr 0x297cba4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Out, addr 0x2997230, size 0x58, virtual false, abstract: false, final false
   static inline ::System::IO::TextWriter* get_Out();
 
-  /// @brief Method get_OutputEncoding, addr 0x297cf08, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_OutputEncoding, addr 0x2997594, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Text::Encoding* get_OutputEncoding();
 
   static inline void setStaticF_cancel_event(::System::ConsoleCancelEventHandler* value);

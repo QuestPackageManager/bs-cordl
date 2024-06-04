@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ArrayPool)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace ENet {
 class ArrayPool;
@@ -25,21 +28,21 @@ public:
   static __declspec(property(get = getStaticF_byteBuffer, put = setStaticF_byteBuffer))::ArrayW<uint8_t, ::Array<uint8_t>*> byteBuffer;
 
   /// @brief Field pointerBuffer, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_pointerBuffer, put = setStaticF_pointerBuffer))::ArrayW<void*, ::Array<void*>*> pointerBuffer;
+  static __declspec(property(get = getStaticF_pointerBuffer, put = setStaticF_pointerBuffer))::ArrayW<::System::IntPtr, ::Array<::System::IntPtr>*> pointerBuffer;
 
-  /// @brief Method GetByteBuffer, addr 0x25d44f4, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetByteBuffer, addr 0x25ec438, size 0x94, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetByteBuffer();
 
-  /// @brief Method GetPointerBuffer, addr 0x25d4588, size 0x94, virtual false, abstract: false, final false
-  static inline ::ArrayW<void*, ::Array<void*>*> GetPointerBuffer();
+  /// @brief Method GetPointerBuffer, addr 0x25ec4cc, size 0x94, virtual false, abstract: false, final false
+  static inline ::ArrayW<::System::IntPtr, ::Array<::System::IntPtr>*> GetPointerBuffer();
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_byteBuffer();
 
-  static inline ::ArrayW<void*, ::Array<void*>*> getStaticF_pointerBuffer();
+  static inline ::ArrayW<::System::IntPtr, ::Array<::System::IntPtr>*> getStaticF_pointerBuffer();
 
   static inline void setStaticF_byteBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  static inline void setStaticF_pointerBuffer(::ArrayW<void*, ::Array<void*>*> value);
+  static inline void setStaticF_pointerBuffer(::ArrayW<::System::IntPtr, ::Array<::System::IntPtr>*> value);
 
 protected:
   // Ctor Parameters []

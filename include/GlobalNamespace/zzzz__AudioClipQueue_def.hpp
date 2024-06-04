@@ -38,15 +38,15 @@ public:
   /// @brief Field _queue, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__queue, put = __cordl_internal_set__queue))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::AudioClip>>* _queue;
 
-  /// @brief Method Awake, addr 0x26050a0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x261cfec, size 0x20, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::AudioClipQueue* New_ctor();
 
-  /// @brief Method PlayAudioClipWithDelay, addr 0x2605200, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method PlayAudioClipWithDelay, addr 0x261d14c, size 0xcc, virtual false, abstract: false, final false
   inline void PlayAudioClipWithDelay(::UnityEngine::AudioClip* audioClip, float_t delay);
 
-  /// @brief Method Update, addr 0x26050c0, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x261d00c, size 0x140, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
@@ -67,7 +67,7 @@ public:
 
   constexpr void __cordl_internal_set__queue(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::AudioClip>>* value);
 
-  /// @brief Method .ctor, addr 0x26052cc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x261d218, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

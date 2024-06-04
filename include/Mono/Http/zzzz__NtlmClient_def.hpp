@@ -61,10 +61,10 @@ public:
 
   static inline ::Mono::Http::__NtlmClient____c* New_ctor();
 
-  /// @brief Method <Authenticate>b__1_0, addr 0x2c6bea0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <Authenticate>b__1_0, addr 0x2c8d590, size 0x5c, virtual false, abstract: false, final false
   inline ::Mono::Http::NtlmSession* _Authenticate_b__1_0(::System::Net::HttpWebRequest* x);
 
-  /// @brief Method .ctor, addr 0x2c6be98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c8d588, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Mono::Http::__NtlmClient____c* getStaticF___9();
@@ -114,20 +114,20 @@ public:
   /// @brief Convert operator to "::System::Net::IAuthenticationModule"
   constexpr operator ::System::Net::IAuthenticationModule*() noexcept;
 
-  /// @brief Method Authenticate, addr 0x2c6b9d4, size 0x384, virtual true, abstract: false, final true
+  /// @brief Method Authenticate, addr 0x2c8d0c4, size 0x384, virtual true, abstract: false, final true
   inline ::System::Net::Authorization* Authenticate(::StringW challenge, ::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
 
   static inline ::Mono::Http::NtlmClient* New_ctor();
 
-  /// @brief Method PreAuthenticate, addr 0x2c6bd58, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method PreAuthenticate, addr 0x2c8d448, size 0x8, virtual true, abstract: false, final true
   inline ::System::Net::Authorization* PreAuthenticate(::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
 
-  /// @brief Method .ctor, addr 0x2c6bda0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c8d490, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Net::HttpWebRequest*, ::Mono::Http::NtlmSession*>* getStaticF_cache();
 
-  /// @brief Method get_AuthenticationType, addr 0x2c6bd60, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_AuthenticationType, addr 0x2c8d450, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_AuthenticationType();
 
   /// @brief Convert to "::System::Net::IAuthenticationModule"

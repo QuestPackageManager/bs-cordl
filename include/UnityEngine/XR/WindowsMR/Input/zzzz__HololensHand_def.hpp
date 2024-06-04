@@ -21,26 +21,26 @@ class HololensHand;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::XR::WindowsMR::Input::HololensHand);
 // Type: UnityEngine.XR.WindowsMR.Input::HololensHand
-// SizeInfo { instance_size: 408, native_size: -1, calculated_instance_size: 408, calculated_native_size: 408, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 432, native_size: -1, calculated_instance_size: 432, calculated_native_size: 432, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::XR::WindowsMR::Input {
 // Is value type: false
 // CS Name: ::UnityEngine.XR.WindowsMR.Input::HololensHand*
 class CORDL_TYPE HololensHand : public ::UnityEngine::InputSystem::XR::XRController {
 public:
   // Declarations
-  /// @brief Field <airTap>k__BackingField, offset 0x180, size 0x8
+  /// @brief Field <airTap>k__BackingField, offset 0x198, size 0x8
   __declspec(property(get = __cordl_internal_get__airTap_k__BackingField,
                       put = __cordl_internal_set__airTap_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _airTap_k__BackingField;
 
-  /// @brief Field <deviceVelocity>k__BackingField, offset 0x178, size 0x8
+  /// @brief Field <deviceVelocity>k__BackingField, offset 0x190, size 0x8
   __declspec(property(get = __cordl_internal_get__deviceVelocity_k__BackingField,
                       put = __cordl_internal_set__deviceVelocity_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _deviceVelocity_k__BackingField;
 
-  /// @brief Field <sourceLossMitigationDirection>k__BackingField, offset 0x190, size 0x8
+  /// @brief Field <sourceLossMitigationDirection>k__BackingField, offset 0x1a8, size 0x8
   __declspec(property(get = __cordl_internal_get__sourceLossMitigationDirection_k__BackingField,
                       put = __cordl_internal_set__sourceLossMitigationDirection_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _sourceLossMitigationDirection_k__BackingField;
 
-  /// @brief Field <sourceLossRisk>k__BackingField, offset 0x188, size 0x8
+  /// @brief Field <sourceLossRisk>k__BackingField, offset 0x1a0, size 0x8
   __declspec(property(get = __cordl_internal_get__sourceLossRisk_k__BackingField,
                       put = __cordl_internal_set__sourceLossRisk_k__BackingField))::UnityEngine::InputSystem::Controls::AxisControl* _sourceLossRisk_k__BackingField;
 
@@ -52,7 +52,7 @@ public:
 
   __declspec(property(get = get_sourceLossRisk, put = set_sourceLossRisk))::UnityEngine::InputSystem::Controls::AxisControl* sourceLossRisk;
 
-  /// @brief Method FinishSetup, addr 0x30a65c8, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x30c3d70, size 0x12c, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::XR::WindowsMR::Input::HololensHand* New_ctor();
@@ -81,31 +81,31 @@ public:
 
   constexpr void __cordl_internal_set__sourceLossRisk_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method .ctor, addr 0x30a66f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x30c3e9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_airTap, addr 0x30a6598, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_airTap, addr 0x30c3d40, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_airTap();
 
-  /// @brief Method get_deviceVelocity, addr 0x30a6588, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_deviceVelocity, addr 0x30c3d30, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_deviceVelocity();
 
-  /// @brief Method get_sourceLossMitigationDirection, addr 0x30a65b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sourceLossMitigationDirection, addr 0x30c3d60, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_sourceLossMitigationDirection();
 
-  /// @brief Method get_sourceLossRisk, addr 0x30a65a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sourceLossRisk, addr 0x30c3d50, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_sourceLossRisk();
 
-  /// @brief Method set_airTap, addr 0x30a65a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_airTap, addr 0x30c3d48, size 0x8, virtual false, abstract: false, final false
   inline void set_airTap(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_deviceVelocity, addr 0x30a6590, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_deviceVelocity, addr 0x30c3d38, size 0x8, virtual false, abstract: false, final false
   inline void set_deviceVelocity(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method set_sourceLossMitigationDirection, addr 0x30a65c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_sourceLossMitigationDirection, addr 0x30c3d68, size 0x8, virtual false, abstract: false, final false
   inline void set_sourceLossMitigationDirection(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method set_sourceLossRisk, addr 0x30a65b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_sourceLossRisk, addr 0x30c3d58, size 0x8, virtual false, abstract: false, final false
   inline void set_sourceLossRisk(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
 protected:
@@ -122,30 +122,30 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   HololensHand(HololensHand const&) = delete;
 
-  /// @brief Field <deviceVelocity>k__BackingField, offset: 0x178, size: 0x8, def value: None
+  /// @brief Field <deviceVelocity>k__BackingField, offset: 0x190, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::Vector3Control* ____deviceVelocity_k__BackingField;
 
-  /// @brief Field <airTap>k__BackingField, offset: 0x180, size: 0x8, def value: None
+  /// @brief Field <airTap>k__BackingField, offset: 0x198, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____airTap_k__BackingField;
 
-  /// @brief Field <sourceLossRisk>k__BackingField, offset: 0x188, size: 0x8, def value: None
+  /// @brief Field <sourceLossRisk>k__BackingField, offset: 0x1a0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::AxisControl* ____sourceLossRisk_k__BackingField;
 
-  /// @brief Field <sourceLossMitigationDirection>k__BackingField, offset: 0x190, size: 0x8, def value: None
+  /// @brief Field <sourceLossMitigationDirection>k__BackingField, offset: 0x1a8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::Vector3Control* ____sourceLossMitigationDirection_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::XR::WindowsMR::Input::HololensHand, 0x198>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::XR::WindowsMR::Input::HololensHand, 0x1b0>, "Size mismatch!");
 
-static_assert(offsetof(::UnityEngine::XR::WindowsMR::Input::HololensHand, ____deviceVelocity_k__BackingField) == 0x178, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::XR::WindowsMR::Input::HololensHand, ____deviceVelocity_k__BackingField) == 0x190, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::XR::WindowsMR::Input::HololensHand, ____airTap_k__BackingField) == 0x180, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::XR::WindowsMR::Input::HololensHand, ____airTap_k__BackingField) == 0x198, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::XR::WindowsMR::Input::HololensHand, ____sourceLossRisk_k__BackingField) == 0x188, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::XR::WindowsMR::Input::HololensHand, ____sourceLossRisk_k__BackingField) == 0x1a0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::XR::WindowsMR::Input::HololensHand, ____sourceLossMitigationDirection_k__BackingField) == 0x190, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::XR::WindowsMR::Input::HololensHand, ____sourceLossMitigationDirection_k__BackingField) == 0x1a8, "Offset mismatch!");
 
 } // namespace UnityEngine::XR::WindowsMR::Input
 NEED_NO_BOX(::UnityEngine::XR::WindowsMR::Input::HololensHand);

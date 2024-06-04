@@ -28,19 +28,19 @@ namespace System::Runtime::CompilerServices {
 class CORDL_TYPE RuntimeOps : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ExpandoCheckVersion, addr 0x2c4bdac, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ExpandoCheckVersion, addr 0x2c6d49c, size 0x28, virtual false, abstract: false, final false
   static inline bool ExpandoCheckVersion(::System::Dynamic::ExpandoObject* expando, ::System::Object* version);
 
-  /// @brief Method ExpandoPromoteClass, addr 0x2c4bdf0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ExpandoPromoteClass, addr 0x2c6d4e0, size 0x10, virtual false, abstract: false, final false
   static inline void ExpandoPromoteClass(::System::Dynamic::ExpandoObject* expando, ::System::Object* oldClass, ::System::Object* newClass);
 
-  /// @brief Method ExpandoTryDeleteValue, addr 0x2c4ba00, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method ExpandoTryDeleteValue, addr 0x2c6d0f0, size 0x98, virtual false, abstract: false, final false
   static inline bool ExpandoTryDeleteValue(::System::Dynamic::ExpandoObject* expando, ::System::Object* indexClass, int32_t index, ::StringW name, bool ignoreCase);
 
-  /// @brief Method ExpandoTryGetValue, addr 0x2c4b500, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method ExpandoTryGetValue, addr 0x2c6cbf0, size 0x14, virtual false, abstract: false, final false
   static inline bool ExpandoTryGetValue(::System::Dynamic::ExpandoObject* expando, ::System::Object* indexClass, int32_t index, ::StringW name, bool ignoreCase, ByRef<::System::Object*> value);
 
-  /// @brief Method ExpandoTrySetValue, addr 0x2c4b63c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ExpandoTrySetValue, addr 0x2c6cd2c, size 0x28, virtual false, abstract: false, final false
   static inline ::System::Object* ExpandoTrySetValue(::System::Dynamic::ExpandoObject* expando, ::System::Object* indexClass, int32_t index, ::System::Object* value, ::StringW name, bool ignoreCase);
 
 protected:

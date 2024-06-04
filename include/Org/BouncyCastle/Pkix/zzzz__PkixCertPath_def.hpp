@@ -56,16 +56,16 @@ public:
   /// @brief Field certificates, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_certificates, put = __cordl_internal_set_certificates))::System::Collections::IList* certificates;
 
-  /// @brief Method Equals, addr 0x1352fa4, size 0x41c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x135b814, size 0x41c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetEncoded, addr 0x13533e8, size 0x344, virtual true, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x135bc58, size 0x344, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
-  /// @brief Method GetEncoded, addr 0x135372c, size 0x88c, virtual true, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x135bf9c, size 0x88c, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded(::StringW encoding);
 
-  /// @brief Method GetHashCode, addr 0x13533c0, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x135bc30, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::Org::BouncyCastle::Pkix::PkixCertPath* New_ctor(::System::Collections::ICollection* certificates);
@@ -74,13 +74,13 @@ public:
 
   static inline ::Org::BouncyCastle::Pkix::PkixCertPath* New_ctor(::System::IO::Stream* inStream, ::StringW encoding);
 
-  /// @brief Method SortCerts, addr 0x13518bc, size 0xd94, virtual false, abstract: false, final false
+  /// @brief Method SortCerts, addr 0x135a12c, size 0xd94, virtual false, abstract: false, final false
   static inline ::System::Collections::IList* SortCerts(::System::Collections::IList* certs);
 
-  /// @brief Method ToAsn1Object, addr 0x1353fb8, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x135c828, size 0x100, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object(::Org::BouncyCastle::X509::X509Certificate* cert);
 
-  /// @brief Method ToDerEncoded, addr 0x13540b8, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method ToDerEncoded, addr 0x135c928, size 0x11c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ToDerEncoded(::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
 
   constexpr ::System::Collections::IList*& __cordl_internal_get_certificates();
@@ -89,21 +89,21 @@ public:
 
   constexpr void __cordl_internal_set_certificates(::System::Collections::IList* value);
 
-  /// @brief Method .ctor, addr 0x134cba0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1355410, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::ICollection* certificates);
 
-  /// @brief Method .ctor, addr 0x1352650, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x135aec0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* inStream);
 
-  /// @brief Method .ctor, addr 0x13526a8, size 0x86c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x135af18, size 0x86c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* inStream, ::StringW encoding);
 
   static inline ::System::Collections::IList* getStaticF_certPathEncodings();
 
-  /// @brief Method get_Certificates, addr 0x13541d4, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_Certificates, addr 0x135ca44, size 0xc, virtual true, abstract: false, final false
   inline ::System::Collections::IList* get_Certificates();
 
-  /// @brief Method get_Encodings, addr 0x1352f14, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method get_Encodings, addr 0x135b784, size 0x90, virtual true, abstract: false, final false
   inline ::System::Collections::IEnumerable* get_Encodings();
 
   static inline void setStaticF_certPathEncodings(::System::Collections::IList* value);

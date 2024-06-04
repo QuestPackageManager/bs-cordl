@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NativeOverlapped)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace System::Threading {
 struct NativeOverlapped;
@@ -25,16 +28,16 @@ public:
   // @brief default ctor
   constexpr NativeOverlapped();
 
-  // Ctor Parameters [CppParam { name: "InternalLow", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "InternalHigh", ty: "void*", modifiers: "", def_value: None }, CppParam { name:
-  // "OffsetLow", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "OffsetHigh", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "EventHandle", ty: "void*",
-  // modifiers: "", def_value: None }]
-  constexpr NativeOverlapped(void* InternalLow, void* InternalHigh, int32_t OffsetLow, int32_t OffsetHigh, void* EventHandle) noexcept;
+  // Ctor Parameters [CppParam { name: "InternalLow", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "InternalHigh", ty: "::System::IntPtr", modifiers: "", def_value: None
+  // }, CppParam { name: "OffsetLow", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "OffsetHigh", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "EventHandle",
+  // ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  constexpr NativeOverlapped(::System::IntPtr InternalLow, ::System::IntPtr InternalHigh, int32_t OffsetLow, int32_t OffsetHigh, ::System::IntPtr EventHandle) noexcept;
 
   /// @brief Field InternalLow, offset: 0x0, size: 0x8, def value: None
-  void* InternalLow;
+  ::System::IntPtr InternalLow;
 
   /// @brief Field InternalHigh, offset: 0x8, size: 0x8, def value: None
-  void* InternalHigh;
+  ::System::IntPtr InternalHigh;
 
   /// @brief Field OffsetLow, offset: 0x10, size: 0x4, def value: None
   int32_t OffsetLow;
@@ -43,7 +46,7 @@ public:
   int32_t OffsetHigh;
 
   /// @brief Field EventHandle, offset: 0x18, size: 0x8, def value: None
-  void* EventHandle;
+  ::System::IntPtr EventHandle;
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

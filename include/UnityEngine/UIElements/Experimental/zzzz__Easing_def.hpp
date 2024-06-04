@@ -21,79 +21,79 @@ namespace UnityEngine::UIElements::Experimental {
 class CORDL_TYPE Easing : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InBack, addr 0x3538374, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method InBack, addr 0x3561870, size 0x24, virtual false, abstract: false, final false
   static inline float_t InBack(float_t t);
 
-  /// @brief Method InBounce, addr 0x3538050, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method InBounce, addr 0x356154c, size 0x24, virtual false, abstract: false, final false
   static inline float_t InBounce(float_t t);
 
-  /// @brief Method InCirc, addr 0x3538444, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method InCirc, addr 0x3561940, size 0x20, virtual false, abstract: false, final false
   static inline float_t InCirc(float_t t);
 
-  /// @brief Method InCubic, addr 0x3537f34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InCubic, addr 0x3561430, size 0x8, virtual false, abstract: false, final false
   static inline float_t InCubic(float_t t);
 
-  /// @brief Method InElastic, addr 0x3538180, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method InElastic, addr 0x356167c, size 0x78, virtual false, abstract: false, final false
   static inline float_t InElastic(float_t t);
 
-  /// @brief Method InOutBack, addr 0x35383c8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method InOutBack, addr 0x35618c4, size 0x7c, virtual false, abstract: false, final false
   static inline float_t InOutBack(float_t t);
 
-  /// @brief Method InOutBounce, addr 0x353812c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method InOutBounce, addr 0x3561628, size 0x54, virtual false, abstract: false, final false
   static inline float_t InOutBounce(float_t t);
 
-  /// @brief Method InOutCirc, addr 0x3538480, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method InOutCirc, addr 0x356197c, size 0x48, virtual false, abstract: false, final false
   static inline float_t InOutCirc(float_t t);
 
-  /// @brief Method InOutCubic, addr 0x3537fa0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method InOutCubic, addr 0x356149c, size 0x48, virtual false, abstract: false, final false
   static inline float_t InOutCubic(float_t t);
 
-  /// @brief Method InOutElastic, addr 0x3538270, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method InOutElastic, addr 0x356176c, size 0x104, virtual false, abstract: false, final false
   static inline float_t InOutElastic(float_t t);
 
-  /// @brief Method InOutPower, addr 0x3537fe8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method InOutPower, addr 0x35614e4, size 0x68, virtual false, abstract: false, final false
   static inline float_t InOutPower(float_t t, int32_t power);
 
-  /// @brief Method InOutQuad, addr 0x3537ef4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method InOutQuad, addr 0x35613f0, size 0x40, virtual false, abstract: false, final false
   static inline float_t InOutQuad(float_t t);
 
-  /// @brief Method InOutSine, addr 0x3537ea8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method InOutSine, addr 0x35613a4, size 0x34, virtual false, abstract: false, final false
   static inline float_t InOutSine(float_t t);
 
-  /// @brief Method InPower, addr 0x3537f3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InPower, addr 0x3561438, size 0x8, virtual false, abstract: false, final false
   static inline float_t InPower(float_t t, int32_t power);
 
-  /// @brief Method InQuad, addr 0x3537edc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InQuad, addr 0x35613d8, size 0x8, virtual false, abstract: false, final false
   static inline float_t InQuad(float_t t);
 
-  /// @brief Method InSine, addr 0x3537e6c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method InSine, addr 0x3561368, size 0x2c, virtual false, abstract: false, final false
   static inline float_t InSine(float_t t);
 
-  /// @brief Method Linear, addr 0x3537e68, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Linear, addr 0x3561364, size 0x4, virtual false, abstract: false, final false
   static inline float_t Linear(float_t t);
 
-  /// @brief Method OutBack, addr 0x3538398, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method OutBack, addr 0x3561894, size 0x30, virtual false, abstract: false, final false
   static inline float_t OutBack(float_t t);
 
-  /// @brief Method OutBounce, addr 0x3538074, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method OutBounce, addr 0x3561570, size 0xb8, virtual false, abstract: false, final false
   static inline float_t OutBounce(float_t t);
 
-  /// @brief Method OutCirc, addr 0x3538464, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OutCirc, addr 0x3561960, size 0x1c, virtual false, abstract: false, final false
   static inline float_t OutCirc(float_t t);
 
-  /// @brief Method OutCubic, addr 0x3537f44, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method OutCubic, addr 0x3561440, size 0x24, virtual false, abstract: false, final false
   static inline float_t OutCubic(float_t t);
 
-  /// @brief Method OutElastic, addr 0x35381f8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method OutElastic, addr 0x35616f4, size 0x78, virtual false, abstract: false, final false
   static inline float_t OutElastic(float_t t);
 
-  /// @brief Method OutPower, addr 0x3537f68, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method OutPower, addr 0x3561464, size 0x38, virtual false, abstract: false, final false
   static inline float_t OutPower(float_t t, int32_t power);
 
-  /// @brief Method OutQuad, addr 0x3537ee4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method OutQuad, addr 0x35613e0, size 0x10, virtual false, abstract: false, final false
   static inline float_t OutQuad(float_t t);
 
-  /// @brief Method OutSine, addr 0x3537e98, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method OutSine, addr 0x3561394, size 0x10, virtual false, abstract: false, final false
   static inline float_t OutSine(float_t t);
 
 protected:

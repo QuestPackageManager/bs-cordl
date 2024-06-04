@@ -13,6 +13,9 @@ namespace System {
 class IAsyncResult;
 }
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Object;
 }
 // Forward declare root types
@@ -29,19 +32,19 @@ namespace ENet {
 class CORDL_TYPE AllocCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x25d3c8c, size 0x84, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(void* size, ::System::AsyncCallback* callback, ::System::Object* object);
+  /// @brief Method BeginInvoke, addr 0x25ebbd0, size 0x84, virtual true, abstract: false, final false
+  inline ::System::IAsyncResult* BeginInvoke(::System::IntPtr size, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x25d3d10, size 0x28, virtual true, abstract: false, final false
-  inline void* EndInvoke(::System::IAsyncResult* result);
+  /// @brief Method EndInvoke, addr 0x25ebc54, size 0x28, virtual true, abstract: false, final false
+  inline ::System::IntPtr EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x25d3c78, size 0x14, virtual true, abstract: false, final false
-  inline void* Invoke(void* size);
+  /// @brief Method Invoke, addr 0x25ebbbc, size 0x14, virtual true, abstract: false, final false
+  inline ::System::IntPtr Invoke(::System::IntPtr size);
 
-  static inline ::ENet::AllocCallback* New_ctor(::System::Object* object, void* method);
+  static inline ::ENet::AllocCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x25d3bb4, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
+  /// @brief Method .ctor, addr 0x25ebaf8, size 0xc4, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []

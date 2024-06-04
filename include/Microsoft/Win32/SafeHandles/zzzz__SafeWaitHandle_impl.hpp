@@ -2,18 +2,19 @@
 // IWYU pragma private; include "Microsoft/Win32/SafeHandles/SafeWaitHandle.hpp"
 #include "Microsoft/Win32/SafeHandles/zzzz__SafeHandleZeroOrMinusOneIsInvalid_impl.hpp"
 #include "Microsoft/Win32/SafeHandles/zzzz__SafeWaitHandle_def.hpp"
+#include "System/zzzz__IntPtr_def.hpp"
 //  Writing Method size for method: ::Microsoft::Win32::SafeHandles::SafeWaitHandle._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Microsoft::Win32::SafeHandles::SafeWaitHandle::*)(void*, bool)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Microsoft::Win32::SafeHandles::SafeWaitHandle::*)(::System::IntPtr, bool)>(
     &::Microsoft::Win32::SafeHandles::SafeWaitHandle::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x27ab460;
+  constexpr static std::size_t addrs = 0x27c4acc;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Microsoft::Win32::SafeHandles::SafeWaitHandle*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
@@ -23,9 +24,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Microsoft::Win32::SafeHandles::SafeWaitHandle::*)()>(
     &::Microsoft::Win32::SafeHandles::SafeWaitHandle::ReleaseHandle)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x27ab488;
+  constexpr static std::size_t addrs = 0x27c4af4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Microsoft::Win32::SafeHandles::SafeWaitHandle*>::get(),
@@ -33,13 +34,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline ::Microsoft::Win32::SafeHandles::SafeWaitHandle* Microsoft::Win32::SafeHandles::SafeWaitHandle::New_ctor(void* existingHandle, bool ownsHandle) {
+inline ::Microsoft::Win32::SafeHandles::SafeWaitHandle* Microsoft::Win32::SafeHandles::SafeWaitHandle::New_ctor(::System::IntPtr existingHandle, bool ownsHandle) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Microsoft::Win32::SafeHandles::SafeWaitHandle*>(existingHandle, ownsHandle));
 }
-inline void Microsoft::Win32::SafeHandles::SafeWaitHandle::_ctor(void* existingHandle, bool ownsHandle) {
+inline void Microsoft::Win32::SafeHandles::SafeWaitHandle::_ctor(::System::IntPtr existingHandle, bool ownsHandle) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Microsoft::Win32::SafeHandles::SafeWaitHandle*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, existingHandle, ownsHandle);
 }
 inline bool Microsoft::Win32::SafeHandles::SafeWaitHandle::ReleaseHandle() {

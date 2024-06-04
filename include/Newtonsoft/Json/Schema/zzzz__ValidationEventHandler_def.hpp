@@ -16,6 +16,9 @@ namespace System {
 class IAsyncResult;
 }
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Object;
 }
 // Forward declare root types
@@ -32,19 +35,19 @@ namespace Newtonsoft::Json::Schema {
 class CORDL_TYPE ValidationEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x2a54b90, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2a7321c, size 0x28, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::Object* sender, ::Newtonsoft::Json::Schema::ValidationEventArgs* e, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2a54bb8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2a73244, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x2a54b7c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2a73208, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* sender, ::Newtonsoft::Json::Schema::ValidationEventArgs* e);
 
-  static inline ::Newtonsoft::Json::Schema::ValidationEventHandler* New_ctor(::System::Object* object, void* method);
+  static inline ::Newtonsoft::Json::Schema::ValidationEventHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2a492d0, size 0x130, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
+  /// @brief Method .ctor, addr 0x2a6795c, size 0x130, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []

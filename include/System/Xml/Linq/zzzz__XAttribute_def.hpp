@@ -49,17 +49,17 @@ public:
   /// @brief Field value, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value))::StringW value;
 
-  /// @brief Method GetPrefixOfNamespace, addr 0x2d981b0, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method GetPrefixOfNamespace, addr 0x2db78a0, size 0x138, virtual false, abstract: false, final false
   inline ::StringW GetPrefixOfNamespace(::System::Xml::Linq::XNamespace* ns);
 
   static inline ::System::Xml::Linq::XAttribute* New_ctor(::System::Xml::Linq::XName* name, ::System::Object* value);
 
   static inline ::System::Xml::Linq::XAttribute* New_ctor(::System::Xml::Linq::XAttribute* other);
 
-  /// @brief Method ToString, addr 0x2d97ddc, size 0x3d4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2db74cc, size 0x3d4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ValidateAttribute, addr 0x2d97810, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method ValidateAttribute, addr 0x2db6f00, size 0x230, virtual false, abstract: false, final false
   static inline void ValidateAttribute(::System::Xml::Linq::XName* name, ::StringW value);
 
   constexpr ::System::Xml::Linq::XName*& __cordl_internal_get_name();
@@ -80,25 +80,25 @@ public:
 
   constexpr void __cordl_internal_set_value(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2d97340, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2db6a30, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XName* name, ::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x2d97a40, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2db7130, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XAttribute* other);
 
-  /// @brief Method get_IsNamespaceDeclaration, addr 0x2d97abc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method get_IsNamespaceDeclaration, addr 0x2db71ac, size 0x9c, virtual false, abstract: false, final false
   inline bool get_IsNamespaceDeclaration();
 
-  /// @brief Method get_Name, addr 0x2d97b74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x2db7264, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Linq::XName* get_Name();
 
-  /// @brief Method get_NodeType, addr 0x2d97b7c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x2db726c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNodeType get_NodeType();
 
-  /// @brief Method get_Value, addr 0x2d97b84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x2db7274, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method set_Value, addr 0x2d97b8c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method set_Value, addr 0x2db727c, size 0x100, virtual false, abstract: false, final false
   inline void set_Value(::StringW value);
 
 protected:

@@ -25,15 +25,15 @@ public:
   /// @brief Field _container, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__container, put = setStaticF__container))::Zenject::DiContainer* _container;
 
-  /// @brief Method Clear, addr 0x364880c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x3674d08, size 0x48, virtual false, abstract: false, final false
   static inline void Clear();
 
   static inline ::Zenject::DiContainer* getStaticF__container();
 
-  /// @brief Method get_Container, addr 0x3644288, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_Container, addr 0x3670784, size 0x90, virtual false, abstract: false, final false
   static inline ::Zenject::DiContainer* get_Container();
 
-  /// @brief Method get_HasContainer, addr 0x3648854, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_HasContainer, addr 0x3674d50, size 0x50, virtual false, abstract: false, final false
   static inline bool get_HasContainer();
 
   static inline void setStaticF__container(::Zenject::DiContainer* value);

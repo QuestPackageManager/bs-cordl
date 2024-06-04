@@ -66,18 +66,18 @@ public:
   /// @brief Field saberManager, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_saberManager, put = __cordl_internal_set_saberManager))::UnityW<::GlobalNamespace::SaberManager> saberManager;
 
-  /// @brief Method HandleBombCutSoundEffectDidFinish, addr 0x2606e58, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method HandleBombCutSoundEffectDidFinish, addr 0x261ed6c, size 0xb8, virtual false, abstract: false, final false
   inline void HandleBombCutSoundEffectDidFinish(::GlobalNamespace::BombCutSoundEffect* bombCutSoundEffect);
 
-  /// @brief Method HandleNoteWasCut, addr 0x2606ba0, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasCut, addr 0x261eab4, size 0x220, virtual false, abstract: false, final false
   inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
   static inline ::GlobalNamespace::BombCutSoundEffectManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x2606dc0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x261ecd4, size 0x98, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x2606abc, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x261e9d0, size 0xe4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapObjectManager*& __cordl_internal_get__beatmapObjectManager();
@@ -116,7 +116,7 @@ public:
 
   constexpr void __cordl_internal_set_saberManager(::UnityW<::GlobalNamespace::SaberManager> value);
 
-  /// @brief Method .ctor, addr 0x2606f10, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x261ee24, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

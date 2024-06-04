@@ -9,6 +9,9 @@ CORDL_MODULE_EXPORT(ChallengeList)
 namespace Oculus::Platform::Models {
 class Challenge;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class ChallengeList;
@@ -26,7 +29,7 @@ public:
   /// @brief Field TotalCount, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_TotalCount, put = __cordl_internal_set_TotalCount)) uint64_t TotalCount;
 
-  static inline ::Oculus::Platform::Models::ChallengeList* New_ctor(void* a);
+  static inline ::Oculus::Platform::Models::ChallengeList* New_ctor(::System::IntPtr a);
 
   constexpr uint64_t const& __cordl_internal_get_TotalCount() const;
 
@@ -34,8 +37,8 @@ public:
 
   constexpr void __cordl_internal_set_TotalCount(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x2adb710, size 0x27c, virtual false, abstract: false, final false
-  inline void _ctor(void* a);
+  /// @brief Method .ctor, addr 0x2afbd9c, size 0x27c, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr a);
 
 protected:
   // Ctor Parameters []

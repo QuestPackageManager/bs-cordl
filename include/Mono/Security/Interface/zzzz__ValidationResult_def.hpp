@@ -71,13 +71,13 @@ public:
 
   constexpr void __cordl_internal_set_user_denied(bool value);
 
-  /// @brief Method .ctor, addr 0x2780ca0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x279a30c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(bool trusted, bool user_denied, int32_t error_code, ::System::Nullable_1<::Mono::Security::Interface::MonoSslPolicyErrors> policy_errors);
 
-  /// @brief Method get_Trusted, addr 0x2780ce8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Trusted, addr 0x279a354, size 0x8, virtual false, abstract: false, final false
   inline bool get_Trusted();
 
-  /// @brief Method get_UserDenied, addr 0x2780cf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UserDenied, addr 0x279a35c, size 0x8, virtual false, abstract: false, final false
   inline bool get_UserDenied();
 
 protected:

@@ -30,7 +30,7 @@ public:
   // Declarations
   static inline ::Unity::Burst::__SharedStatic__PreserveAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3071628, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x308edd0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -63,13 +63,13 @@ public:
   // Declarations
   using PreserveAttribute = ::Unity::Burst::__SharedStatic__PreserveAttribute;
 
-  /// @brief Method CheckResult, addr 0x3071580, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CheckResult, addr 0x308ed28, size 0x58, virtual false, abstract: false, final false
   static inline void CheckResult(::cordl_internals::Ptr<void> result);
 
-  /// @brief Method CheckSizeOf, addr 0x3071510, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method CheckSizeOf, addr 0x308ecb8, size 0x70, virtual false, abstract: false, final false
   static inline void CheckSizeOf(uint32_t sizeOf);
 
-  /// @brief Method GetOrCreateSharedStaticInternal, addr 0x30715d8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method GetOrCreateSharedStaticInternal, addr 0x308ed80, size 0x50, virtual false, abstract: false, final false
   static inline ::cordl_internals::Ptr<void> GetOrCreateSharedStaticInternal(int64_t getHashCode64, int64_t getSubHashCode64, uint32_t sizeOf, uint32_t alignment);
 
 protected:

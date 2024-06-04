@@ -30,7 +30,7 @@ public:
 
   static inline ::UnityEngine::UI::BaseVertexEffect* New_ctor();
 
-  /// @brief Method .ctor, addr 0x34e53b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x350d8b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

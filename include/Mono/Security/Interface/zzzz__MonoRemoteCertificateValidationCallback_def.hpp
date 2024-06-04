@@ -17,6 +17,9 @@ namespace System::Security::Cryptography::X509Certificates {
 class X509Chain;
 }
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Object;
 }
 // Forward declare root types
@@ -33,14 +36,14 @@ namespace Mono::Security::Interface {
 class CORDL_TYPE MonoRemoteCertificateValidationCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2780ebc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x279a528, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::StringW targetHost, ::System::Security::Cryptography::X509Certificates::X509Certificate* certificate, ::System::Security::Cryptography::X509Certificates::X509Chain* chain,
                      ::Mono::Security::Interface::MonoSslPolicyErrors sslPolicyErrors);
 
-  static inline ::Mono::Security::Interface::MonoRemoteCertificateValidationCallback* New_ctor(::System::Object* object, void* method);
+  static inline ::Mono::Security::Interface::MonoRemoteCertificateValidationCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2780de4, size 0xd8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
+  /// @brief Method .ctor, addr 0x279a450, size 0xd8, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []

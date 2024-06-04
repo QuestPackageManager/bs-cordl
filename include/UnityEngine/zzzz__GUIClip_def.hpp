@@ -41,10 +41,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x34404c0, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x34699bc, size 0x40, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method .ctor, addr 0x344046c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3469968, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Matrix4x4 objectTransform, ::UnityEngine::Rect clipRect);
 
   /// @brief Convert to "::System::IDisposable"
@@ -81,40 +81,40 @@ public:
   // Declarations
   using ParentClipScope = ::UnityEngine::__GUIClip__ParentClipScope;
 
-  /// @brief Method GetMatrix, addr 0x343e8cc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetMatrix, addr 0x3467dc8, size 0x64, virtual false, abstract: false, final false
   static inline ::UnityEngine::Matrix4x4 GetMatrix();
 
-  /// @brief Method GetMatrix_Injected, addr 0x34402dc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetMatrix_Injected, addr 0x34697d8, size 0x3c, virtual false, abstract: false, final false
   static inline void GetMatrix_Injected(ByRef<::UnityEngine::Matrix4x4> ret);
 
-  /// @brief Method Internal_GetCount, addr 0x34402b4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Internal_GetCount, addr 0x34697b0, size 0x28, virtual false, abstract: false, final false
   static inline int32_t Internal_GetCount();
 
-  /// @brief Method Internal_Pop, addr 0x344028c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Internal_Pop, addr 0x3469788, size 0x28, virtual false, abstract: false, final false
   static inline void Internal_Pop();
 
-  /// @brief Method Internal_PopParentClip, addr 0x3440444, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Internal_PopParentClip, addr 0x3469940, size 0x28, virtual false, abstract: false, final false
   static inline void Internal_PopParentClip();
 
-  /// @brief Method Internal_PushParentClip, addr 0x3440354, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Internal_PushParentClip, addr 0x3469850, size 0x40, virtual false, abstract: false, final false
   static inline void Internal_PushParentClip(::UnityEngine::Matrix4x4 objectTransform, ::UnityEngine::Rect clipRect);
 
-  /// @brief Method Internal_PushParentClip, addr 0x3440394, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Internal_PushParentClip, addr 0x3469890, size 0x5c, virtual false, abstract: false, final false
   static inline void Internal_PushParentClip(::UnityEngine::Matrix4x4 renderTransform, ::UnityEngine::Matrix4x4 inputTransform, ::UnityEngine::Rect clipRect);
 
-  /// @brief Method Internal_PushParentClip_Injected, addr 0x34403f0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Internal_PushParentClip_Injected, addr 0x34698ec, size 0x54, virtual false, abstract: false, final false
   static inline void Internal_PushParentClip_Injected(ByRef<::UnityEngine::Matrix4x4> renderTransform, ByRef<::UnityEngine::Matrix4x4> inputTransform, ByRef<::UnityEngine::Rect> clipRect);
 
-  /// @brief Method SetMatrix, addr 0x343e97c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetMatrix, addr 0x3467e78, size 0x3c, virtual false, abstract: false, final false
   static inline void SetMatrix(::UnityEngine::Matrix4x4 m);
 
-  /// @brief Method SetMatrix_Injected, addr 0x3440318, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetMatrix_Injected, addr 0x3469814, size 0x3c, virtual false, abstract: false, final false
   static inline void SetMatrix_Injected(ByRef<::UnityEngine::Matrix4x4> m);
 
-  /// @brief Method get_visibleRect, addr 0x343f17c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_visibleRect, addr 0x3468678, size 0x48, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rect get_visibleRect();
 
-  /// @brief Method get_visibleRect_Injected, addr 0x3440250, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_visibleRect_Injected, addr 0x346974c, size 0x3c, virtual false, abstract: false, final false
   static inline void get_visibleRect_Injected(ByRef<::UnityEngine::Rect> ret);
 
 protected:

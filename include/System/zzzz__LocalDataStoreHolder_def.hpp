@@ -27,7 +27,7 @@ public:
   /// @brief Field m_Store, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Store, put = __cordl_internal_set_m_Store))::System::LocalDataStore* m_Store;
 
-  /// @brief Method Finalize, addr 0x295ca44, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x29780d0, size 0x9c, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::System::LocalDataStoreHolder* New_ctor(::System::LocalDataStore* store);
@@ -38,10 +38,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Store(::System::LocalDataStore* value);
 
-  /// @brief Method .ctor, addr 0x295ca1c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x29780a8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::LocalDataStore* store);
 
-  /// @brief Method get_Store, addr 0x295cafc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Store, addr 0x2978188, size 0x8, virtual false, abstract: false, final false
   inline ::System::LocalDataStore* get_Store();
 
 protected:

@@ -11,6 +11,7 @@
 #include "System/IO/Enumeration/zzzz__FileSystemEntry_def.hpp"
 #include "System/IO/zzzz__EnumerationOptions_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<TResult>"
@@ -99,15 +100,15 @@ template <typename TResult> constexpr void System::IO::Enumeration::FileSystemEn
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____currentPath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-template <typename TResult> constexpr void*& System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_get__directoryHandle() {
+template <typename TResult> constexpr ::System::IntPtr& System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_get__directoryHandle() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____directoryHandle;
 }
-template <typename TResult> constexpr void* const& System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_get__directoryHandle() const {
+template <typename TResult> constexpr ::System::IntPtr const& System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_get__directoryHandle() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____directoryHandle;
 }
-template <typename TResult> constexpr void System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_set__directoryHandle(void* value) {
+template <typename TResult> constexpr void System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_set__directoryHandle(::System::IntPtr value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____directoryHandle = value;
 }
@@ -219,11 +220,11 @@ template <typename TResult> inline bool System::IO::Enumeration::FileSystemEnume
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, info);
 }
 /// @param ignoreNotFound: bool (default: false)
-template <typename TResult> inline void* System::IO::Enumeration::FileSystemEnumerator_1<TResult>::CreateDirectoryHandle(::StringW path, bool ignoreNotFound) {
+template <typename TResult> inline ::System::IntPtr System::IO::Enumeration::FileSystemEnumerator_1<TResult>::CreateDirectoryHandle(::StringW path, bool ignoreNotFound) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::Enumeration::FileSystemEnumerator_1<TResult>*>::get(), "CreateDirectoryHandle", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void*, false>(this, ___internal_method, path, ignoreNotFound);
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(this, ___internal_method, path, ignoreNotFound);
 }
 template <typename TResult> inline void System::IO::Enumeration::FileSystemEnumerator_1<TResult>::CloseDirectoryHandle() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::Enumeration::FileSystemEnumerator_1<TResult>*>::get(),

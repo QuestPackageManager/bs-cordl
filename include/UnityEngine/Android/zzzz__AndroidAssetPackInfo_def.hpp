@@ -87,7 +87,7 @@ public:
 
   constexpr void __cordl_internal_set__transferProgress_k__BackingField(float_t value);
 
-  /// @brief Method .ctor, addr 0x33c0864, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33e9d58, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::UnityEngine::Android::AndroidAssetPackStatus status, uint64_t size, uint64_t bytesDownloaded, float_t transferProgress,
                     ::UnityEngine::Android::AndroidAssetPackError error);
 

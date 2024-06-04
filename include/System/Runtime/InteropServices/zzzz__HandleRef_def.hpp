@@ -8,6 +8,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HandleRef)
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Object;
 }
 // Forward declare root types
@@ -24,26 +27,26 @@ namespace System::Runtime::InteropServices {
 struct CORDL_TYPE HandleRef {
 public:
   // Declarations
-  __declspec(property(get = get_Handle)) void* Handle;
+  __declspec(property(get = get_Handle))::System::IntPtr Handle;
 
-  /// @brief Method .ctor, addr 0x28572e0, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* wrapper, void* handle);
+  /// @brief Method .ctor, addr 0x287096c, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* wrapper, ::System::IntPtr handle);
 
-  /// @brief Method get_Handle, addr 0x28572e8, size 0x8, virtual false, abstract: false, final false
-  inline void* get_Handle();
+  /// @brief Method get_Handle, addr 0x2870974, size 0x8, virtual false, abstract: false, final false
+  inline ::System::IntPtr get_Handle();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr HandleRef();
 
-  // Ctor Parameters [CppParam { name: "_wrapper", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "_handle", ty: "void*", modifiers: "", def_value: None }]
-  constexpr HandleRef(::System::Object* _wrapper, void* _handle) noexcept;
+  // Ctor Parameters [CppParam { name: "_wrapper", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "_handle", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  constexpr HandleRef(::System::Object* _wrapper, ::System::IntPtr _handle) noexcept;
 
   /// @brief Field _wrapper, offset: 0x0, size: 0x8, def value: None
   ::System::Object* _wrapper;
 
   /// @brief Field _handle, offset: 0x8, size: 0x8, def value: None
-  void* _handle;
+  ::System::IntPtr _handle;
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

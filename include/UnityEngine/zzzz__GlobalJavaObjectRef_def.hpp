@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(GlobalJavaObjectRef)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace UnityEngine {
 class GlobalJavaObjectRef;
@@ -25,33 +28,33 @@ public:
   __declspec(property(get = __cordl_internal_get_m_disposed, put = __cordl_internal_set_m_disposed)) bool m_disposed;
 
   /// @brief Field m_jobject, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_jobject, put = __cordl_internal_set_m_jobject)) void* m_jobject;
+  __declspec(property(get = __cordl_internal_get_m_jobject, put = __cordl_internal_set_m_jobject))::System::IntPtr m_jobject;
 
-  /// @brief Method Dispose, addr 0x33b7d1c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x33e1210, size 0x7c, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method Finalize, addr 0x33b7c88, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x33e117c, size 0x94, virtual true, abstract: false, final false
   inline void Finalize();
 
-  static inline ::UnityEngine::GlobalJavaObjectRef* New_ctor(void* jobject);
+  static inline ::UnityEngine::GlobalJavaObjectRef* New_ctor(::System::IntPtr jobject);
 
   constexpr bool const& __cordl_internal_get_m_disposed() const;
 
   constexpr bool& __cordl_internal_get_m_disposed();
 
-  constexpr void* const& __cordl_internal_get_m_jobject() const;
+  constexpr ::System::IntPtr const& __cordl_internal_get_m_jobject() const;
 
-  constexpr void*& __cordl_internal_get_m_jobject();
+  constexpr ::System::IntPtr& __cordl_internal_get_m_jobject();
 
   constexpr void __cordl_internal_set_m_disposed(bool value);
 
-  constexpr void __cordl_internal_set_m_jobject(void* value);
+  constexpr void __cordl_internal_set_m_jobject(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x33b7b98, size 0xb4, virtual false, abstract: false, final false
-  inline void _ctor(void* jobject);
+  /// @brief Method .ctor, addr 0x33e108c, size 0xb4, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr jobject);
 
-  /// @brief Method op_Implicit, addr 0x33b7d98, size 0x18, virtual false, abstract: false, final false
-  static inline void* op_Implicit_void_(::UnityEngine::GlobalJavaObjectRef* obj);
+  /// @brief Method op_Implicit, addr 0x33e128c, size 0x18, virtual false, abstract: false, final false
+  static inline ::System::IntPtr op_Implicit___System__IntPtr(::UnityEngine::GlobalJavaObjectRef* obj);
 
 protected:
   // Ctor Parameters []
@@ -71,7 +74,7 @@ public:
   bool ___m_disposed;
 
   /// @brief Field m_jobject, offset: 0x18, size: 0x8, def value: None
-  void* ___m_jobject;
+  ::System::IntPtr ___m_jobject;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

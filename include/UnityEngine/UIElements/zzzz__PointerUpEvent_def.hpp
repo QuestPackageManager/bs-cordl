@@ -22,18 +22,18 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE PointerUpEvent : public ::UnityEngine::UIElements::PointerEventBase_1<::UnityEngine::UIElements::PointerUpEvent*> {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x35a4acc, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x35cffc8, size 0x50, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x35a4b1c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x35d0018, size 0x104, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::PointerUpEvent* New_ctor();
 
-  /// @brief Method PostDispatch, addr 0x35a4c70, size 0x32c, virtual true, abstract: false, final false
+  /// @brief Method PostDispatch, addr 0x35d016c, size 0x32c, virtual true, abstract: false, final false
   inline void PostDispatch(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method .ctor, addr 0x35a4c20, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35d011c, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

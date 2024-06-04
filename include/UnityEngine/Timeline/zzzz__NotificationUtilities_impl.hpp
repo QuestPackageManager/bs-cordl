@@ -16,9 +16,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Playables::PlayableGraph, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::IMarker*>*, double_t, ::UnityEngine::Playables::DirectorWrapMode)>(
     &::UnityEngine::Timeline::NotificationUtilities::CreateNotificationsPlayable)> {
   constexpr static std::size_t size = 0x6e0;
-  constexpr static std::size_t addrs = 0x33a615c;
+  constexpr static std::size_t addrs = 0x33ce4b0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::NotificationUtilities*>::get(), "CreateNotificationsPlayable", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Playables::PlayableGraph>::get(),
@@ -33,9 +33,9 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::UnityEngine::Timeline::NotificationUtilities::TrackTypeSupportsNotifications)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x33a683c;
+  constexpr static std::size_t addrs = 0x33ceb90;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::NotificationUtilities*>::get(), "TrackTypeSupportsNotifications",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));

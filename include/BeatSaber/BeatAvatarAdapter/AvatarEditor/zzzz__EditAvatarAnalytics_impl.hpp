@@ -15,9 +15,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarAnalytics::*)()>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarAnalytics::Awake)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x104a8a8;
+  constexpr static std::size_t addrs = 0x1052ff4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarAnalytics*>::get(), "Awake",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -30,9 +30,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarAnalytics::*)()>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarAnalytics::OnDestroy)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x104a9fc;
+  constexpr static std::size_t addrs = 0x1053148;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarAnalytics*>::get(), "OnDestroy",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -45,9 +45,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarAnalytics::*)(
     ::BeatSaber::AvatarCore::__AvatarEditorFlowCoordinator__EditMode)>(&::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarAnalytics::HandleAvatarEditorFlowCoordinatorDidSetup)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x104ab9c;
+  constexpr static std::size_t addrs = 0x10532e8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarAnalytics*>::get(), "HandleAvatarEditorFlowCoordinatorDidSetup",
         std::span<Il2CppClass const* const, 0>(),
@@ -62,9 +62,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator*, ::BeatSaber::AvatarCore::IAvatarSystemMetadata*, ::BeatSaber::AvatarCore::__AvatarEditorFlowCoordinator__FinishAction)>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarAnalytics::HandleAvatarEditorFlowCoordinatorDidFinish)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x104aeec;
+  constexpr static std::size_t addrs = 0x1053638;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarAnalytics*>::get(), "HandleAvatarEditorFlowCoordinatorDidFinish",
         std::span<Il2CppClass const* const, 0>(),
@@ -80,9 +80,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarAnalytics::*)()>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarAnalytics::HandleAvatarEditorFlowCoordinatorRandomizeAllButtonWasPressed)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x104afe4;
+  constexpr static std::size_t addrs = 0x1053730;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarAnalytics*>::get(),
                                     "HandleAvatarEditorFlowCoordinatorRandomizeAllButtonWasPressed", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -95,9 +95,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* (
     ::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarAnalytics::*)()>(&::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarAnalytics::CreateEditAvatarEventData)> {
   constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x104ac74;
+  constexpr static std::size_t addrs = 0x10533c0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarAnalytics*>::get(),
                                                  "CreateEditAvatarEventData", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -110,9 +110,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarAnalytics::*)()>(
     &::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarAnalytics::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x104b0b4;
+  constexpr static std::size_t addrs = 0x1053800;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarAnalytics*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));

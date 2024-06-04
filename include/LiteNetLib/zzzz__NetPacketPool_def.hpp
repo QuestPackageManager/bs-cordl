@@ -39,21 +39,21 @@ public:
   /// @brief Field _pool, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__pool, put = __cordl_internal_set__pool))::ArrayW<::LiteNetLib::NetPacket*, ::Array<::LiteNetLib::NetPacket*>*> _pool;
 
-  /// @brief Method GetPacket, addr 0x25e2858, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method GetPacket, addr 0x25fa79c, size 0x16c, virtual false, abstract: false, final false
   inline ::LiteNetLib::NetPacket* GetPacket(int32_t size);
 
-  /// @brief Method GetWithData, addr 0x25e6428, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetWithData, addr 0x25fe36c, size 0xd8, virtual false, abstract: false, final false
   inline ::LiteNetLib::NetPacket* GetWithData(::LiteNetLib::PacketProperty property, ::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t start, int32_t length);
 
-  /// @brief Method GetWithProperty, addr 0x25e4b54, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetWithProperty, addr 0x25fca98, size 0xa4, virtual false, abstract: false, final false
   inline ::LiteNetLib::NetPacket* GetWithProperty(::LiteNetLib::PacketProperty property);
 
-  /// @brief Method GetWithProperty, addr 0x25e3fb0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method GetWithProperty, addr 0x25fbef4, size 0xac, virtual false, abstract: false, final false
   inline ::LiteNetLib::NetPacket* GetWithProperty(::LiteNetLib::PacketProperty property, int32_t size);
 
   static inline ::LiteNetLib::NetPacketPool* New_ctor();
 
-  /// @brief Method Recycle, addr 0x25e139c, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method Recycle, addr 0x25f92e0, size 0x140, virtual false, abstract: false, final false
   inline void Recycle(::LiteNetLib::NetPacket* packet);
 
   constexpr int32_t const& __cordl_internal_get__count() const;
@@ -74,7 +74,7 @@ public:
 
   constexpr void __cordl_internal_set__pool(::ArrayW<::LiteNetLib::NetPacket*, ::Array<::LiteNetLib::NetPacket*>*> value);
 
-  /// @brief Method .ctor, addr 0x25e2104, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x25fa048, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

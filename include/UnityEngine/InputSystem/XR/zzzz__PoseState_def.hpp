@@ -3,6 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_def.hpp"
 #include "UnityEngine/XR/zzzz__InputTrackingState_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
@@ -53,6 +54,9 @@ public:
   /// @brief Field rotation, offset 0x14, size 0x10
   __declspec(property(get = __cordl_internal_get_rotation, put = __cordl_internal_set_rotation))::UnityEngine::Quaternion rotation;
 
+  /// @brief Field s_Format, offset 0xffffffff, size 0x4
+  static __declspec(property(get = getStaticF_s_Format, put = setStaticF_s_Format))::UnityEngine::InputSystem::Utilities::FourCC s_Format;
+
   /// @brief Field trackingState, offset 0x4, size 0x4
   __declspec(property(get = __cordl_internal_get_trackingState, put = __cordl_internal_set_trackingState))::UnityEngine::XR::InputTrackingState trackingState;
 
@@ -98,15 +102,19 @@ public:
 
   constexpr void __cordl_internal_set_velocity(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x3135944, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31573bc, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(bool isTracked, ::UnityEngine::XR::InputTrackingState trackingState, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 velocity,
                     ::UnityEngine::Vector3 angularVelocity);
 
-  /// @brief Method get_format, addr 0x3135914, size 0x30, virtual true, abstract: false, final true
+  static inline ::UnityEngine::InputSystem::Utilities::FourCC getStaticF_s_Format();
+
+  /// @brief Method get_format, addr 0x3157364, size 0x58, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo* i___UnityEngine__InputSystem__LowLevel__IInputStateTypeInfo();
+
+  static inline void setStaticF_s_Format(::UnityEngine::InputSystem::Utilities::FourCC value);
 
   // Ctor Parameters []
   // @brief default ctor

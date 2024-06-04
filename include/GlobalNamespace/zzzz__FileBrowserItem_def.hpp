@@ -55,25 +55,25 @@ public:
 
   constexpr void __cordl_internal_set__isDirectory_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x149ccd8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14a25b4, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::StringW displayName, ::StringW fullPath, bool isDirectory);
 
-  /// @brief Method get_displayName, addr 0x149f024, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_displayName, addr 0x14a4824, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_displayName();
 
-  /// @brief Method get_fullPath, addr 0x149f034, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fullPath, addr 0x14a4834, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_fullPath();
 
-  /// @brief Method get_isDirectory, addr 0x149f044, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isDirectory, addr 0x14a4844, size 0x8, virtual false, abstract: false, final false
   inline bool get_isDirectory();
 
-  /// @brief Method set_displayName, addr 0x149f02c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_displayName, addr 0x14a482c, size 0x8, virtual false, abstract: false, final false
   inline void set_displayName(::StringW value);
 
-  /// @brief Method set_fullPath, addr 0x149f03c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_fullPath, addr 0x14a483c, size 0x8, virtual false, abstract: false, final false
   inline void set_fullPath(::StringW value);
 
-  /// @brief Method set_isDirectory, addr 0x149f04c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isDirectory, addr 0x14a484c, size 0xc, virtual false, abstract: false, final false
   inline void set_isDirectory(bool value);
 
 protected:

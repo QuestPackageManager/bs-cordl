@@ -9,6 +9,9 @@ CORDL_MODULE_EXPORT(LaunchInvitePanelFlowResult)
 namespace Oculus::Platform::Models {
 class UserList;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class LaunchInvitePanelFlowResult;
@@ -26,7 +29,7 @@ public:
   /// @brief Field InvitedUsers, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_InvitedUsers, put = __cordl_internal_set_InvitedUsers))::Oculus::Platform::Models::UserList* InvitedUsers;
 
-  static inline ::Oculus::Platform::Models::LaunchInvitePanelFlowResult* New_ctor(void* o);
+  static inline ::Oculus::Platform::Models::LaunchInvitePanelFlowResult* New_ctor(::System::IntPtr o);
 
   constexpr ::Oculus::Platform::Models::UserList*& __cordl_internal_get_InvitedUsers();
 
@@ -34,8 +37,8 @@ public:
 
   constexpr void __cordl_internal_set_InvitedUsers(::Oculus::Platform::Models::UserList* value);
 
-  /// @brief Method .ctor, addr 0x2adc818, size 0xb0, virtual false, abstract: false, final false
-  inline void _ctor(void* o);
+  /// @brief Method .ctor, addr 0x2afcea4, size 0xb0, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr o);
 
 protected:
   // Ctor Parameters []

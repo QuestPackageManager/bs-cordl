@@ -10,6 +10,9 @@ namespace System::ComponentModel {
 class PropertyChangedEventArgs;
 }
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Object;
 }
 // Forward declare root types
@@ -26,13 +29,13 @@ namespace System::ComponentModel {
 class CORDL_TYPE PropertyChangedEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2f49d4c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2f6a43c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* sender, ::System::ComponentModel::PropertyChangedEventArgs* e);
 
-  static inline ::System::ComponentModel::PropertyChangedEventHandler* New_ctor(::System::Object* object, void* method);
+  static inline ::System::ComponentModel::PropertyChangedEventHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2f49c1c, size 0x130, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
+  /// @brief Method .ctor, addr 0x2f6a30c, size 0x130, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []

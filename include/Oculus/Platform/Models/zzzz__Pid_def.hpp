@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Pid)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class Pid;
@@ -24,7 +27,7 @@ public:
   /// @brief Field Id, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_Id, put = __cordl_internal_set_Id))::StringW Id;
 
-  static inline ::Oculus::Platform::Models::Pid* New_ctor(void* o);
+  static inline ::Oculus::Platform::Models::Pid* New_ctor(::System::IntPtr o);
 
   constexpr ::StringW const& __cordl_internal_get_Id() const;
 
@@ -32,8 +35,8 @@ public:
 
   constexpr void __cordl_internal_set_Id(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2ade234, size 0x78, virtual false, abstract: false, final false
-  inline void _ctor(void* o);
+  /// @brief Method .ctor, addr 0x2afe8c0, size 0x78, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr o);
 
 protected:
   // Ctor Parameters []

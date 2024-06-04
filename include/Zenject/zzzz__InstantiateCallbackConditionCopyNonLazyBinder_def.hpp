@@ -104,13 +104,13 @@ public:
 
   static inline ::Zenject::InstantiateCallbackConditionCopyNonLazyBinder* New_ctor(::Zenject::BindInfo* bindInfo);
 
-  /// @brief Method OnInstantiated, addr 0x362ee64, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnInstantiated, addr 0x365b360, size 0x1c, virtual false, abstract: false, final false
   inline ::Zenject::ConditionCopyNonLazyBinder* OnInstantiated(::System::Action_2<::Zenject::InjectContext*, ::System::Object*>* callback);
 
   /// @brief Method OnInstantiated, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::Zenject::ConditionCopyNonLazyBinder* OnInstantiated(::System::Action_2<::Zenject::InjectContext*, T>* callback);
 
-  /// @brief Method .ctor, addr 0x362ee5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x365b358, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::BindInfo* bindInfo);
 
 protected:

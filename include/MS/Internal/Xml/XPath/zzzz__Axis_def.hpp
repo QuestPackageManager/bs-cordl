@@ -232,43 +232,43 @@ public:
 
   constexpr void __cordl_internal_set_abbrAxis(bool value);
 
-  /// @brief Method .ctor, addr 0x2e5e148, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e7e838, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::MS::Internal::Xml::XPath::__Axis__AxisType axisType, ::MS::Internal::Xml::XPath::AstNode* input);
 
-  /// @brief Method .ctor, addr 0x2e5e0b0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e7e7a0, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::MS::Internal::Xml::XPath::__Axis__AxisType axisType, ::MS::Internal::Xml::XPath::AstNode* input, ::StringW prefix, ::StringW name, ::System::Xml::XPath::XPathNodeType nodetype);
 
-  /// @brief Method get_AbbrAxis, addr 0x2e5e204, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AbbrAxis, addr 0x2e7e8f4, size 0x8, virtual false, abstract: false, final false
   inline bool get_AbbrAxis();
 
-  /// @brief Method get_Input, addr 0x2e5e1d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Input, addr 0x2e7e8c4, size 0x8, virtual false, abstract: false, final false
   inline ::MS::Internal::Xml::XPath::AstNode* get_Input();
 
-  /// @brief Method get_Name, addr 0x2e5e1ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x2e7e8dc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NodeType, addr 0x2e5e1f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NodeType, addr 0x2e7e8e4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XPath::XPathNodeType get_NodeType();
 
-  /// @brief Method get_Prefix, addr 0x2e5e1e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Prefix, addr 0x2e7e8d4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Prefix();
 
-  /// @brief Method get_ReturnType, addr 0x2e5e1cc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ReturnType, addr 0x2e7e8bc, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XPath::XPathResultType get_ReturnType();
 
-  /// @brief Method get_Type, addr 0x2e5e1c4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x2e7e8b4, size 0x8, virtual true, abstract: false, final false
   inline ::MS::Internal::Xml::XPath::__AstNode__AstType get_Type();
 
-  /// @brief Method get_TypeOfAxis, addr 0x2e5e1fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfAxis, addr 0x2e7e8ec, size 0x8, virtual false, abstract: false, final false
   inline ::MS::Internal::Xml::XPath::__Axis__AxisType get_TypeOfAxis();
 
-  /// @brief Method get_Urn, addr 0x2e5e20c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Urn, addr 0x2e7e8fc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Urn();
 
-  /// @brief Method set_Input, addr 0x2e5e1dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Input, addr 0x2e7e8cc, size 0x8, virtual false, abstract: false, final false
   inline void set_Input(::MS::Internal::Xml::XPath::AstNode* value);
 
-  /// @brief Method set_Urn, addr 0x2e5e214, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Urn, addr 0x2e7e904, size 0x8, virtual false, abstract: false, final false
   inline void set_Urn(::StringW value);
 
 protected:

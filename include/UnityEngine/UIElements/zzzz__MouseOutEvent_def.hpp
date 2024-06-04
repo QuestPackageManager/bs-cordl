@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::MouseOutEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x35a6b6c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35d2068, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -12,7 +12,7 @@ class AndroidRelativeHumidity;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Android::AndroidRelativeHumidity);
 // Type: UnityEngine.InputSystem.Android::AndroidRelativeHumidity
-// SizeInfo { instance_size: 352, native_size: -1, calculated_instance_size: 352, calculated_native_size: 352, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 376, native_size: -1, calculated_instance_size: 376, calculated_native_size: 376, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Android {
 // Is value type: false
 // CS Name: ::UnityEngine.InputSystem.Android::AndroidRelativeHumidity*
@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Android::AndroidRelativeHumidity* New_ctor();
 
-  /// @brief Method .ctor, addr 0x31550c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3178b9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -41,7 +41,7 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Android::AndroidRelativeHumidity, 0x160>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Android::AndroidRelativeHumidity, 0x178>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::Android
 NEED_NO_BOX(::UnityEngine::InputSystem::Android::AndroidRelativeHumidity);

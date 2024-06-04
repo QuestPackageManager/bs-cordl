@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(HiddenAreaMesh_t)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace OVR::OpenVR {
 struct HiddenAreaMesh_t;
@@ -25,11 +28,11 @@ public:
   // @brief default ctor
   constexpr HiddenAreaMesh_t();
 
-  // Ctor Parameters [CppParam { name: "pVertexData", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "unTriangleCount", ty: "uint32_t", modifiers: "", def_value: None }]
-  constexpr HiddenAreaMesh_t(void* pVertexData, uint32_t unTriangleCount) noexcept;
+  // Ctor Parameters [CppParam { name: "pVertexData", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "unTriangleCount", ty: "uint32_t", modifiers: "", def_value: None }]
+  constexpr HiddenAreaMesh_t(::System::IntPtr pVertexData, uint32_t unTriangleCount) noexcept;
 
   /// @brief Field pVertexData, offset: 0x0, size: 0x8, def value: None
-  void* pVertexData;
+  ::System::IntPtr pVertexData;
 
   /// @brief Field unTriangleCount, offset: 0x8, size: 0x4, def value: None
   uint32_t unTriangleCount;

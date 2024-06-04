@@ -82,11 +82,11 @@ public:
 
   constexpr void __cordl_internal_set_propagationFlags(::System::Security::AccessControl::PropagationFlags value);
 
-  /// @brief Method .ctor, addr 0x2801474, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x281bb00, size 0x19c, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Principal::IdentityReference* identity, int32_t accessMask, bool isInherited, ::System::Security::AccessControl::InheritanceFlags inheritanceFlags,
                     ::System::Security::AccessControl::PropagationFlags propagationFlags);
 
-  /// @brief Method get_AccessMask, addr 0x28016e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AccessMask, addr 0x281bd70, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_AccessMask();
 
 protected:

@@ -25,15 +25,15 @@ public:
   /// @brief Field crc, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_crc, put = __cordl_internal_set_crc)) int32_t crc;
 
-  /// @brief Method GetValue, addr 0x1433ce0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetValue, addr 0x1439550, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetValue();
 
   static inline ::Org::BouncyCastle::Bcpg::Crc24* New_ctor();
 
-  /// @brief Method Reset, addr 0x142dc90, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x1433500, size 0x10, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Update, addr 0x142dca0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x1433510, size 0x38, virtual false, abstract: false, final false
   inline void Update(int32_t b);
 
   constexpr int32_t const& __cordl_internal_get_crc() const;
@@ -42,10 +42,10 @@ public:
 
   constexpr void __cordl_internal_set_crc(int32_t value);
 
-  /// @brief Method .ctor, addr 0x142cfcc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x143283c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Value, addr 0x1433ce8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x1439558, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Value();
 
 protected:

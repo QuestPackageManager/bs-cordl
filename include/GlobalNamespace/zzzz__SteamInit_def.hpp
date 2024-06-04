@@ -22,12 +22,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE SteamInit : public ::GlobalNamespace::BasePlatformInit {
 public:
   // Declarations
-  /// @brief Method InitializeInternalAsync, addr 0x2604780, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method InitializeInternalAsync, addr 0x261c6c4, size 0x68, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* InitializeInternalAsync();
 
   static inline ::GlobalNamespace::SteamInit* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26047e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x261c72c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

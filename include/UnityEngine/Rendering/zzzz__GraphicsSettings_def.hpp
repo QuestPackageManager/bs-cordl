@@ -25,31 +25,31 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE GraphicsSettings : public ::UnityEngine::Object {
 public:
   // Declarations
-  /// @brief Method get_INTERNAL_currentRenderPipeline, addr 0x3429730, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_INTERNAL_currentRenderPipeline, addr 0x3453c2c, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ScriptableObject> get_INTERNAL_currentRenderPipeline();
 
-  /// @brief Method get_INTERNAL_defaultRenderPipeline, addr 0x34298f4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_INTERNAL_defaultRenderPipeline, addr 0x3453df0, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ScriptableObject> get_INTERNAL_defaultRenderPipeline();
 
-  /// @brief Method get_currentRenderPipeline, addr 0x3429758, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_currentRenderPipeline, addr 0x3453c54, size 0x90, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Rendering::RenderPipelineAsset> get_currentRenderPipeline();
 
-  /// @brief Method get_defaultRenderPipeline, addr 0x34297ec, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method get_defaultRenderPipeline, addr 0x3453ce8, size 0x90, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Rendering::RenderPipelineAsset> get_defaultRenderPipeline();
 
-  /// @brief Method get_lightsUseLinearIntensity, addr 0x3429708, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_lightsUseLinearIntensity, addr 0x3453c04, size 0x28, virtual false, abstract: false, final false
   static inline bool get_lightsUseLinearIntensity();
 
-  /// @brief Method get_renderPipelineAsset, addr 0x34297e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_renderPipelineAsset, addr 0x3453ce4, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Rendering::RenderPipelineAsset> get_renderPipelineAsset();
 
-  /// @brief Method set_INTERNAL_defaultRenderPipeline, addr 0x342991c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_INTERNAL_defaultRenderPipeline, addr 0x3453e18, size 0x3c, virtual false, abstract: false, final false
   static inline void set_INTERNAL_defaultRenderPipeline(::UnityEngine::ScriptableObject* value);
 
-  /// @brief Method set_defaultRenderPipeline, addr 0x34298b8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_defaultRenderPipeline, addr 0x3453db4, size 0x3c, virtual false, abstract: false, final false
   static inline void set_defaultRenderPipeline(::UnityEngine::Rendering::RenderPipelineAsset* value);
 
-  /// @brief Method set_renderPipelineAsset, addr 0x342987c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_renderPipelineAsset, addr 0x3453d78, size 0x3c, virtual false, abstract: false, final false
   static inline void set_renderPipelineAsset(::UnityEngine::Rendering::RenderPipelineAsset* value);
 
 protected:

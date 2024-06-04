@@ -104,27 +104,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x33973fc, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x33c0750, size 0x90, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::UnityEngine::Timeline::__AudioPlayableAsset___get_outputs_d__16* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.Playables.PlayableBinding>.GetEnumerator, addr 0x339753c, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.Playables.PlayableBinding>.GetEnumerator, addr 0x33c0890, size 0xa4, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::Playables::PlayableBinding>* System_Collections_Generic_IEnumerable_UnityEngine_Playables_PlayableBinding__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.Playables.PlayableBinding>.get_Current, addr 0x339748c, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.Playables.PlayableBinding>.get_Current, addr 0x33c07e0, size 0x10, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableBinding System_Collections_Generic_IEnumerator_UnityEngine_Playables_PlayableBinding__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x33975e0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x33c0934, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x339749c, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x33c07f0, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x33974dc, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x33c0830, size 0x60, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x33973f8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x33c074c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -151,7 +151,7 @@ public:
 
   constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3397220, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33c0574, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>"
@@ -248,7 +248,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::Timeline::ITimelineClipAsset"
   constexpr operator ::UnityEngine::Timeline::ITimelineClipAsset*() noexcept;
 
-  /// @brief Method CreatePlayable, addr 0x3397254, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method CreatePlayable, addr 0x33c05a8, size 0x11c, virtual true, abstract: false, final false
   inline ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go);
 
   static inline ::UnityEngine::Timeline::AudioPlayableAsset* New_ctor();
@@ -277,37 +277,37 @@ public:
 
   constexpr void __cordl_internal_set_m_bufferingTime(float_t value);
 
-  /// @brief Method .ctor, addr 0x339737c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33c06d0, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bufferingTime, addr 0x33970c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bufferingTime, addr 0x33c0414, size 0x8, virtual false, abstract: false, final false
   inline float_t get_bufferingTime();
 
-  /// @brief Method get_clip, addr 0x33970d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_clip, addr 0x33c0424, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::AudioClip> get_clip();
 
-  /// @brief Method get_clipCaps, addr 0x3397370, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_clipCaps, addr 0x33c06c4, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Timeline::ClipCaps get_clipCaps();
 
-  /// @brief Method get_duration, addr 0x33970f4, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method get_duration, addr 0x33c0448, size 0xb4, virtual true, abstract: false, final false
   inline double_t get_duration();
 
-  /// @brief Method get_loop, addr 0x33970e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_loop, addr 0x33c0434, size 0x8, virtual false, abstract: false, final false
   inline bool get_loop();
 
-  /// @brief Method get_outputs, addr 0x33971a8, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method get_outputs, addr 0x33c04fc, size 0x78, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* get_outputs();
 
   /// @brief Convert to "::UnityEngine::Timeline::ITimelineClipAsset"
   constexpr ::UnityEngine::Timeline::ITimelineClipAsset* i___UnityEngine__Timeline__ITimelineClipAsset() noexcept;
 
-  /// @brief Method set_bufferingTime, addr 0x33970c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_bufferingTime, addr 0x33c041c, size 0x8, virtual false, abstract: false, final false
   inline void set_bufferingTime(float_t value);
 
-  /// @brief Method set_clip, addr 0x33970d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_clip, addr 0x33c042c, size 0x8, virtual false, abstract: false, final false
   inline void set_clip(::UnityEngine::AudioClip* value);
 
-  /// @brief Method set_loop, addr 0x33970e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_loop, addr 0x33c043c, size 0xc, virtual false, abstract: false, final false
   inline void set_loop(bool value);
 
 protected:

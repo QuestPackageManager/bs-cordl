@@ -41,16 +41,16 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDerivationParameters"
   constexpr operator ::Org::BouncyCastle::Crypto::IDerivationParameters*() noexcept;
 
-  /// @brief Method DefaultParameters, addr 0x1195310, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method DefaultParameters, addr 0x119bb80, size 0x6c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::HkdfParameters* DefaultParameters(::ArrayW<uint8_t, ::Array<uint8_t>*> ikm);
 
-  /// @brief Method GetIkm, addr 0x119537c, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method GetIkm, addr 0x119bbec, size 0x5c, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetIkm();
 
-  /// @brief Method GetInfo, addr 0x119543c, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method GetInfo, addr 0x119bcac, size 0x5c, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetInfo();
 
-  /// @brief Method GetSalt, addr 0x11953e0, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method GetSalt, addr 0x119bc50, size 0x5c, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSalt();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::HkdfParameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> ikm, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt,
@@ -59,7 +59,7 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Parameters::HkdfParameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> ikm, bool skip, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt,
                                                                                   ::ArrayW<uint8_t, ::Array<uint8_t>*> info);
 
-  /// @brief Method SkipExtractParameters, addr 0x1195298, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SkipExtractParameters, addr 0x119bb08, size 0x78, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::HkdfParameters* SkipExtractParameters(::ArrayW<uint8_t, ::Array<uint8_t>*> ikm, ::ArrayW<uint8_t, ::Array<uint8_t>*> info);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_ikm() const;
@@ -86,13 +86,13 @@ public:
 
   constexpr void __cordl_internal_set_skipExpand(bool value);
 
-  /// @brief Method .ctor, addr 0x1195288, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x119baf8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> ikm, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, ::ArrayW<uint8_t, ::Array<uint8_t>*> info);
 
-  /// @brief Method .ctor, addr 0x1195128, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x119b998, size 0x160, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> ikm, bool skip, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, ::ArrayW<uint8_t, ::Array<uint8_t>*> info);
 
-  /// @brief Method get_SkipExtract, addr 0x11953d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SkipExtract, addr 0x119bc48, size 0x8, virtual true, abstract: false, final false
   inline bool get_SkipExtract();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDerivationParameters"

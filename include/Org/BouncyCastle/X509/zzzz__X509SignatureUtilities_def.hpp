@@ -38,18 +38,18 @@ public:
   /// @brief Field derNull, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_derNull, put = setStaticF_derNull))::Org::BouncyCastle::Asn1::Asn1Null* derNull;
 
-  /// @brief Method GetDigestAlgName, addr 0x13e27d4, size 0x370, virtual false, abstract: false, final false
+  /// @brief Method GetDigestAlgName, addr 0x13e9044, size 0x370, virtual false, abstract: false, final false
   static inline ::StringW GetDigestAlgName(::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestAlgOID);
 
-  /// @brief Method GetSignatureName, addr 0x13dad70, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method GetSignatureName, addr 0x13e15e0, size 0x2e4, virtual false, abstract: false, final false
   static inline ::StringW GetSignatureName(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* sigAlgId);
 
   static inline ::Org::BouncyCastle::X509::X509SignatureUtilities* New_ctor();
 
-  /// @brief Method SetSignatureParameters, addr 0x13e2758, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method SetSignatureParameters, addr 0x13e8fc8, size 0x7c, virtual false, abstract: false, final false
   static inline void SetSignatureParameters(::Org::BouncyCastle::Crypto::ISigner* signature, ::Org::BouncyCastle::Asn1::Asn1Encodable* parameters);
 
-  /// @brief Method .ctor, addr 0x13e2bbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13e942c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Asn1::Asn1Null* getStaticF_derNull();

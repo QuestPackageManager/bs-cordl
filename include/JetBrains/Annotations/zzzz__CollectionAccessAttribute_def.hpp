@@ -37,13 +37,13 @@ public:
 
   constexpr void __cordl_internal_set__CollectionAccessType_k__BackingField(::JetBrains::Annotations::CollectionAccessType value);
 
-  /// @brief Method .ctor, addr 0x360f348, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x363a844, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::JetBrains::Annotations::CollectionAccessType collectionAccessType);
 
-  /// @brief Method get_CollectionAccessType, addr 0x360f370, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CollectionAccessType, addr 0x363a86c, size 0x8, virtual false, abstract: false, final false
   inline ::JetBrains::Annotations::CollectionAccessType get_CollectionAccessType();
 
-  /// @brief Method set_CollectionAccessType, addr 0x360f378, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CollectionAccessType, addr 0x363a874, size 0x8, virtual false, abstract: false, final false
   inline void set_CollectionAccessType(::JetBrains::Annotations::CollectionAccessType value);
 
 protected:

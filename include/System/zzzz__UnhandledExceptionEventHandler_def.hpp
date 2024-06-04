@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnhandledExceptionEventHandler)
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Object;
 }
 namespace System {
@@ -26,13 +29,13 @@ namespace System {
 class CORDL_TYPE UnhandledExceptionEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2952f80, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x296e60c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* sender, ::System::UnhandledExceptionEventArgs* e);
 
-  static inline ::System::UnhandledExceptionEventHandler* New_ctor(::System::Object* object, void* method);
+  static inline ::System::UnhandledExceptionEventHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2952e50, size 0x130, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
+  /// @brief Method .ctor, addr 0x296e4dc, size 0x130, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []

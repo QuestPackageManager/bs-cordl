@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::System::Xml::Schema::XmlSchemaUnique* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2e13554, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e34c44, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

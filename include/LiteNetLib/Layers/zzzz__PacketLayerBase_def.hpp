@@ -42,7 +42,7 @@ public:
 
   constexpr void __cordl_internal_set_ExtraPacketSizeForLayer(int32_t value);
 
-  /// @brief Method .ctor, addr 0x25f2108, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x260a04c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t extraPacketSizeForLayer);
 
 protected:

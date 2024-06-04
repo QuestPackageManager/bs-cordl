@@ -252,21 +252,21 @@ public:
 
   constexpr void __cordl_internal_set__prefix(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2e5e39c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e7ea8c, size 0x108, virtual false, abstract: false, final false
   inline void _ctor(::MS::Internal::Xml::XPath::__Function__FunctionType ftype, ::MS::Internal::Xml::XPath::AstNode* arg);
 
-  /// @brief Method .ctor, addr 0x2e5e258, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e7e948, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::MS::Internal::Xml::XPath::__Function__FunctionType ftype, ::System::Collections::Generic::List_1<::MS::Internal::Xml::XPath::AstNode*>* argumentList);
 
-  /// @brief Method .ctor, addr 0x2e5e2f0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e7e9e0, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::StringW prefix, ::StringW name, ::System::Collections::Generic::List_1<::MS::Internal::Xml::XPath::AstNode*>* argumentList);
 
   static inline ::ArrayW<::System::Xml::XPath::XPathResultType, ::Array<::System::Xml::XPath::XPathResultType>*> getStaticF_ReturnTypes();
 
-  /// @brief Method get_ReturnType, addr 0x2e5e4ac, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method get_ReturnType, addr 0x2e7eb9c, size 0x80, virtual true, abstract: false, final false
   inline ::System::Xml::XPath::XPathResultType get_ReturnType();
 
-  /// @brief Method get_Type, addr 0x2e5e4a4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x2e7eb94, size 0x8, virtual true, abstract: false, final false
   inline ::MS::Internal::Xml::XPath::__AstNode__AstType get_Type();
 
   static inline void setStaticF_ReturnTypes(::ArrayW<::System::Xml::XPath::XPathResultType, ::Array<::System::Xml::XPath::XPathResultType>*> value);

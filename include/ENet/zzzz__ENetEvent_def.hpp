@@ -11,6 +11,9 @@ CORDL_MODULE_EXPORT(ENetEvent)
 namespace ENet {
 struct EventType;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace ENet {
 struct ENetEvent;
@@ -29,16 +32,16 @@ public:
   // @brief default ctor
   constexpr ENetEvent();
 
-  // Ctor Parameters [CppParam { name: "type", ty: "::ENet::EventType", modifiers: "", def_value: None }, CppParam { name: "peer", ty: "void*", modifiers: "", def_value: None }, CppParam { name:
-  // "channelID", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "data", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "packet", ty: "void*", modifiers: "",
-  // def_value: None }]
-  constexpr ENetEvent(::ENet::EventType type, void* peer, uint8_t channelID, uint32_t data, void* packet) noexcept;
+  // Ctor Parameters [CppParam { name: "type", ty: "::ENet::EventType", modifiers: "", def_value: None }, CppParam { name: "peer", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam {
+  // name: "channelID", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "data", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "packet", ty: "::System::IntPtr",
+  // modifiers: "", def_value: None }]
+  constexpr ENetEvent(::ENet::EventType type, ::System::IntPtr peer, uint8_t channelID, uint32_t data, ::System::IntPtr packet) noexcept;
 
   /// @brief Field type, offset: 0x0, size: 0x4, def value: None
   ::ENet::EventType type;
 
   /// @brief Field peer, offset: 0x8, size: 0x8, def value: None
-  void* peer;
+  ::System::IntPtr peer;
 
   /// @brief Field channelID, offset: 0x10, size: 0x1, def value: None
   uint8_t channelID;
@@ -47,7 +50,7 @@ public:
   uint32_t data;
 
   /// @brief Field packet, offset: 0x18, size: 0x8, def value: None
-  void* packet;
+  ::System::IntPtr packet;
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

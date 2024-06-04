@@ -29,7 +29,7 @@ public:
 
   static inline ::GlobalNamespace::SortingLayer* New_ctor();
 
-  /// @brief Method Reset, addr 0x24d7bb8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x24f0990, size 0x50, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::UnityW<::UnityEngine::Renderer> const& __cordl_internal_get__renderer() const;
@@ -38,10 +38,10 @@ public:
 
   constexpr void __cordl_internal_set__renderer(::UnityW<::UnityEngine::Renderer> value);
 
-  /// @brief Method .ctor, addr 0x24d7c08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24f09e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_renderer, addr 0x24d7bb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_renderer, addr 0x24f0988, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Renderer> get_renderer();
 
 protected:

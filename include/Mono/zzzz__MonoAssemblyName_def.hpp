@@ -11,6 +11,9 @@ CORDL_MODULE_EXPORT(MonoAssemblyName)
 namespace Mono {
 struct __MonoAssemblyName___public_key_token_e__FixedBuffer;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Mono {
 struct MonoAssemblyName;
@@ -69,26 +72,27 @@ public:
   // @brief default ctor
   constexpr MonoAssemblyName();
 
-  // Ctor Parameters [CppParam { name: "name", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "culture", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "hash_value",
-  // ty: "void*", modifiers: "", def_value: None }, CppParam { name: "public_key", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "public_key_token", ty:
-  // "::Mono::__MonoAssemblyName___public_key_token_e__FixedBuffer", modifiers: "", def_value: None }, CppParam { name: "hash_alg", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "hash_len", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "major", ty: "uint16_t", modifiers: "",
-  // def_value: None }, CppParam { name: "minor", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "build", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name:
-  // "revision", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "arch", ty: "uint16_t", modifiers: "", def_value: None }]
-  constexpr MonoAssemblyName(void* name, void* culture, void* hash_value, void* public_key, ::Mono::__MonoAssemblyName___public_key_token_e__FixedBuffer public_key_token, uint32_t hash_alg,
-                             uint32_t hash_len, uint32_t flags, uint16_t major, uint16_t minor, uint16_t build, uint16_t revision, uint16_t arch) noexcept;
+  // Ctor Parameters [CppParam { name: "name", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "culture", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam
+  // { name: "hash_value", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "public_key", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name:
+  // "public_key_token", ty: "::Mono::__MonoAssemblyName___public_key_token_e__FixedBuffer", modifiers: "", def_value: None }, CppParam { name: "hash_alg", ty: "uint32_t", modifiers: "", def_value:
+  // None }, CppParam { name: "hash_len", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "major", ty:
+  // "uint16_t", modifiers: "", def_value: None }, CppParam { name: "minor", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "build", ty: "uint16_t", modifiers: "", def_value: None
+  // }, CppParam { name: "revision", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "arch", ty: "uint16_t", modifiers: "", def_value: None }]
+  constexpr MonoAssemblyName(::System::IntPtr name, ::System::IntPtr culture, ::System::IntPtr hash_value, ::System::IntPtr public_key,
+                             ::Mono::__MonoAssemblyName___public_key_token_e__FixedBuffer public_key_token, uint32_t hash_alg, uint32_t hash_len, uint32_t flags, uint16_t major, uint16_t minor,
+                             uint16_t build, uint16_t revision, uint16_t arch) noexcept;
 
   /// @brief Field name, offset: 0x0, size: 0x8, def value: None
-  void* name;
+  ::System::IntPtr name;
 
   /// @brief Field culture, offset: 0x8, size: 0x8, def value: None
-  void* culture;
+  ::System::IntPtr culture;
 
   /// @brief Field hash_value, offset: 0x10, size: 0x8, def value: None
-  void* hash_value;
+  ::System::IntPtr hash_value;
 
   /// @brief Field public_key, offset: 0x18, size: 0x8, def value: None
-  void* public_key;
+  ::System::IntPtr public_key;
 
   /// @brief Field public_key_token, offset: 0x20, size: 0x11, def value: None
   ::Mono::__MonoAssemblyName___public_key_token_e__FixedBuffer public_key_token;

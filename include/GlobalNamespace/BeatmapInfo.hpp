@@ -1,7 +1,7 @@
 #pragma once
 // IWYU pragma: begin_exports
-#include "GlobalNamespace/zzzz__FlexyFollow_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapInfo_def.hpp"
 #ifndef CORDL_NO_IMPL_INCLUDE
-#include "GlobalNamespace/zzzz__FlexyFollow_impl.hpp"
+#include "GlobalNamespace/zzzz__BeatmapInfo_impl.hpp"
 #endif
 // IWYU pragma: end_exports

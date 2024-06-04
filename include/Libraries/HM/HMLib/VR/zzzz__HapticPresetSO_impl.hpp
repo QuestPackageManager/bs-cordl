@@ -11,9 +11,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Libraries::HM::HMLib::VR::HapticPresetSO::*)()>(
     &::Libraries::HM::HMLib::VR::HapticPresetSO::get_hasPS5HapticsClip)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x24dca78;
+  constexpr static std::size_t addrs = 0x24f5850;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Libraries::HM::HMLib::VR::HapticPresetSO*>::get(),
                                                                                "get_hasPS5HapticsClip", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
@@ -25,9 +25,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Libraries::HM::HMLib::VR::HapticPresetSO::*)()>(
     &::Libraries::HM::HMLib::VR::HapticPresetSO::get_hasOculusHapticsClip)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x24d9c2c;
+  constexpr static std::size_t addrs = 0x24f2a04;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Libraries::HM::HMLib::VR::HapticPresetSO*>::get(),
                                                                                "get_hasOculusHapticsClip", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
@@ -37,10 +37,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Libraries::HM::HMLib::VR::HapticPresetSO::*)()>(&::Libraries::HM::HMLib::VR::HapticPresetSO::_ctor)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x24e3c4c;
+  constexpr static std::size_t size = 0x102c;
+  constexpr static std::size_t addrs = 0x24fca24;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Libraries::HM::HMLib::VR::HapticPresetSO*>::get(), ".ctor",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;

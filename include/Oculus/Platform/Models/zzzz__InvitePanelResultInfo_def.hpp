@@ -6,6 +6,9 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(InvitePanelResultInfo)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class InvitePanelResultInfo;
@@ -23,7 +26,7 @@ public:
   /// @brief Field InvitesSent, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_InvitesSent, put = __cordl_internal_set_InvitesSent)) bool InvitesSent;
 
-  static inline ::Oculus::Platform::Models::InvitePanelResultInfo* New_ctor(void* o);
+  static inline ::Oculus::Platform::Models::InvitePanelResultInfo* New_ctor(::System::IntPtr o);
 
   constexpr bool const& __cordl_internal_get_InvitesSent() const;
 
@@ -31,8 +34,8 @@ public:
 
   constexpr void __cordl_internal_set_InvitesSent(bool value);
 
-  /// @brief Method .ctor, addr 0x2adc53c, size 0x7c, virtual false, abstract: false, final false
-  inline void _ctor(void* o);
+  /// @brief Method .ctor, addr 0x2afcbc8, size 0x7c, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr o);
 
 protected:
   // Ctor Parameters []

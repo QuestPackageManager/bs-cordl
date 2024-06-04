@@ -61,7 +61,7 @@ public:
   /// @brief Field _secondaryTriangle, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__secondaryTriangle, put = __cordl_internal_set__secondaryTriangle))::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* _secondaryTriangle;
 
-  /// @brief Method Clear, addr 0x326e0b0, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method Clear, addr 0x3295404, size 0x44, virtual true, abstract: false, final false
   inline void Clear();
 
   static inline ::UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext* New_ctor(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* tcx);
@@ -96,40 +96,40 @@ public:
 
   constexpr void __cordl_internal_set__secondaryTriangle(::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* value);
 
-  /// @brief Method .ctor, addr 0x326d9a4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3294cf8, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext* tcx);
 
-  /// @brief Method get_ActiveConstraint, addr 0x326e078, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ActiveConstraint, addr 0x32953cc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* get_ActiveConstraint();
 
-  /// @brief Method get_ActiveNode, addr 0x326e070, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ActiveNode, addr 0x32953c4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* get_ActiveNode();
 
-  /// @brief Method get_ActivePoint, addr 0x326e01c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ActivePoint, addr 0x3295370, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* get_ActivePoint();
 
-  /// @brief Method get_IsDebugContext, addr 0x326e0a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDebugContext, addr 0x32953fc, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDebugContext();
 
-  /// @brief Method get_PrimaryTriangle, addr 0x326e00c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PrimaryTriangle, addr 0x3295360, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* get_PrimaryTriangle();
 
-  /// @brief Method get_SecondaryTriangle, addr 0x326e014, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SecondaryTriangle, addr 0x3295368, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* get_SecondaryTriangle();
 
-  /// @brief Method set_ActiveConstraint, addr 0x326aa08, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_ActiveConstraint, addr 0x3291d5c, size 0x4c, virtual false, abstract: false, final false
   inline void set_ActiveConstraint(::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* value);
 
-  /// @brief Method set_ActiveNode, addr 0x326b424, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_ActiveNode, addr 0x3292778, size 0x4c, virtual false, abstract: false, final false
   inline void set_ActiveNode(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* value);
 
-  /// @brief Method set_ActivePoint, addr 0x326e024, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_ActivePoint, addr 0x3295378, size 0x4c, virtual false, abstract: false, final false
   inline void set_ActivePoint(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* value);
 
-  /// @brief Method set_PrimaryTriangle, addr 0x326bc1c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_PrimaryTriangle, addr 0x3292f70, size 0x4c, virtual false, abstract: false, final false
   inline void set_PrimaryTriangle(::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* value);
 
-  /// @brief Method set_SecondaryTriangle, addr 0x326cd14, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_SecondaryTriangle, addr 0x3294068, size 0x4c, virtual false, abstract: false, final false
   inline void set_SecondaryTriangle(::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* value);
 
 protected:

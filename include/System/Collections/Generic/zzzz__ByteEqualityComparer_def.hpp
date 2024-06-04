@@ -24,27 +24,27 @@ namespace System::Collections::Generic {
 class CORDL_TYPE ByteEqualityComparer : public ::System::Collections::Generic::EqualityComparer_1<uint8_t> {
 public:
   // Declarations
-  /// @brief Method Equals, addr 0x291151c, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x292cba8, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x2911304, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x292c990, size 0x10, virtual true, abstract: false, final false
   inline bool Equals(uint8_t x, uint8_t y);
 
-  /// @brief Method GetHashCode, addr 0x2911594, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x292cc20, size 0x34, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetHashCode, addr 0x2911314, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x292c9a0, size 0x1c, virtual true, abstract: false, final false
   inline int32_t GetHashCode(uint8_t b);
 
-  /// @brief Method IndexOf, addr 0x2911330, size 0x194, virtual true, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x292c9bc, size 0x194, virtual true, abstract: false, final false
   inline int32_t IndexOf(::ArrayW<uint8_t, ::Array<uint8_t>*> array, uint8_t value, int32_t startIndex, int32_t count);
 
-  /// @brief Method LastIndexOf, addr 0x29114c4, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method LastIndexOf, addr 0x292cb50, size 0x58, virtual true, abstract: false, final false
   inline int32_t LastIndexOf(::ArrayW<uint8_t, ::Array<uint8_t>*> array, uint8_t value, int32_t startIndex, int32_t count);
 
   static inline ::System::Collections::Generic::ByteEqualityComparer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x29115c8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x292cc54, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

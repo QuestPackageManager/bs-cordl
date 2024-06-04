@@ -52,7 +52,7 @@ public:
 
   static inline ::GlobalNamespace::StandardLevelBuyInfoView* New_ctor();
 
-  /// @brief Method RefreshView, addr 0x266fabc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method RefreshView, addr 0x2689644, size 0x98, virtual false, abstract: false, final false
   inline void RefreshView(::StringW infoText, bool canBuyPack);
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__buyLevelButton() const;
@@ -85,16 +85,16 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x266fb54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26896dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_buyLevelButton, addr 0x266faa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_buyLevelButton, addr 0x268962c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Button> get_buyLevelButton();
 
-  /// @brief Method get_buyPackButton, addr 0x266fab4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_buyPackButton, addr 0x268963c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Button> get_buyPackButton();
 
-  /// @brief Method get_openPackButton, addr 0x266faac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_openPackButton, addr 0x2689634, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Button> get_openPackButton();
 
 protected:

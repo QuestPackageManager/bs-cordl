@@ -41,32 +41,32 @@ public:
   /// @brief Field languagePattern, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_languagePattern, put = setStaticF_languagePattern))::System::Text::RegularExpressions::Regex* languagePattern;
 
-  /// @brief Method CheckBuiltInFacets, addr 0x2f1876c, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method CheckBuiltInFacets, addr 0x2f39e5c, size 0x21c, virtual false, abstract: false, final false
   inline ::System::Exception* CheckBuiltInFacets(::StringW s, ::System::Xml::Schema::XmlTypeCode typeCode, bool verifyUri);
 
-  /// @brief Method CheckValueFacets, addr 0x2f18764, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x2f39e54, size 0x8, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::StringW value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x2f0bbb0, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x2f2d2a0, size 0x208, virtual false, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::StringW value, ::System::Xml::Schema::XmlSchemaDatatype* datatype, bool verifyUri);
 
-  /// @brief Method CheckValueFacets, addr 0x2f18704, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x2f39df4, size 0x60, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::System::Object* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method MatchEnumeration, addr 0x2f18988, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method MatchEnumeration, addr 0x2f3a078, size 0x1d4, virtual false, abstract: false, final false
   inline bool MatchEnumeration(::StringW value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method MatchEnumeration, addr 0x2f18b5c, size 0x105c, virtual true, abstract: false, final false
+  /// @brief Method MatchEnumeration, addr 0x2f3a24c, size 0x5c, virtual true, abstract: false, final false
   inline bool MatchEnumeration(::System::Object* value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
   static inline ::System::Xml::Schema::StringFacetsChecker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f03d60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f25450, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Text::RegularExpressions::Regex* getStaticF_languagePattern();
 
-  /// @brief Method get_LanguagePattern, addr 0x2f1864c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_LanguagePattern, addr 0x2f39d3c, size 0xb8, virtual false, abstract: false, final false
   static inline ::System::Text::RegularExpressions::Regex* get_LanguagePattern();
 
   static inline void setStaticF_languagePattern(::System::Text::RegularExpressions::Regex* value);

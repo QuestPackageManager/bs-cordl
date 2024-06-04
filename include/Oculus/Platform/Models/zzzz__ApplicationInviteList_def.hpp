@@ -9,6 +9,9 @@ CORDL_MODULE_EXPORT(ApplicationInviteList)
 namespace Oculus::Platform::Models {
 class ApplicationInvite;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class ApplicationInviteList;
@@ -23,10 +26,10 @@ namespace Oculus::Platform::Models {
 class CORDL_TYPE ApplicationInviteList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::ApplicationInvite*> {
 public:
   // Declarations
-  static inline ::Oculus::Platform::Models::ApplicationInviteList* New_ctor(void* a);
+  static inline ::Oculus::Platform::Models::ApplicationInviteList* New_ctor(::System::IntPtr a);
 
-  /// @brief Method .ctor, addr 0x2ada418, size 0x25c, virtual false, abstract: false, final false
-  inline void _ctor(void* a);
+  /// @brief Method .ctor, addr 0x2afaaa4, size 0x25c, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr a);
 
 protected:
   // Ctor Parameters []

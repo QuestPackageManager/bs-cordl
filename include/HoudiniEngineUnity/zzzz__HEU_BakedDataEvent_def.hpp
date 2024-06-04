@@ -24,7 +24,7 @@ public:
   // Declarations
   static inline ::HoudiniEngineUnity::HEU_BakedDataEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2532418, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x254935c, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

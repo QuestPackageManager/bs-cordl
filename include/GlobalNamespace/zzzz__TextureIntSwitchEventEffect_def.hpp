@@ -118,19 +118,19 @@ public:
   __declspec(property(get = __cordl_internal_get__valueToTextureMap,
                       put = __cordl_internal_set__valueToTextureMap))::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::Texture>>* _valueToTextureMap;
 
-  /// @brief Method HandleBasicBeatmapEventData, addr 0x26d3a58, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleBasicBeatmapEventData, addr 0x26e9fd4, size 0x18, virtual false, abstract: false, final false
   inline void HandleBasicBeatmapEventData(::GlobalNamespace::BasicBeatmapEventData* data);
+
+  /// @brief Method Initialize, addr 0x26e9d34, size 0x1b4, virtual false, abstract: false, final false
+  inline void Initialize(::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 
   static inline ::GlobalNamespace::TextureIntSwitchEventEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x26d3a3c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x26e9fb8, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetTextureByIndex, addr 0x26d396c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method SetTextureByIndex, addr 0x26e9ee8, size 0xd0, virtual false, abstract: false, final false
   inline void SetTextureByIndex(int32_t value);
-
-  /// @brief Method Start, addr 0x26d37c0, size 0x1ac, virtual false, abstract: false, final false
-  inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
 
@@ -189,7 +189,7 @@ public:
 
   constexpr void __cordl_internal_set__valueToTextureMap(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::Texture>>* value);
 
-  /// @brief Method .ctor, addr 0x26d3a70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e9fec, size 0x1008, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -53,18 +53,18 @@ public:
   /// @brief Convert operator to "::Newtonsoft::Json::Converters::IXmlNode"
   constexpr operator ::Newtonsoft::Json::Converters::IXmlNode*() noexcept;
 
-  /// @brief Method AppendChild, addr 0x2a8fd64, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method AppendChild, addr 0x2ab03f0, size 0x18, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Converters::IXmlNode* AppendChild(::Newtonsoft::Json::Converters::IXmlNode* newChild);
 
-  /// @brief Method GetPrefixOfNamespace, addr 0x2a8fd24, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method GetPrefixOfNamespace, addr 0x2ab03b0, size 0x40, virtual true, abstract: false, final true
   inline ::StringW GetPrefixOfNamespace(::StringW namespaceUri);
 
-  /// @brief Method HasImplicitNamespaceAttribute, addr 0x2a8f874, size 0x4b0, virtual false, abstract: false, final false
+  /// @brief Method HasImplicitNamespaceAttribute, addr 0x2aaff00, size 0x4b0, virtual false, abstract: false, final false
   inline bool HasImplicitNamespaceAttribute(::StringW namespaceUri);
 
   static inline ::Newtonsoft::Json::Converters::XElementWrapper* New_ctor(::System::Xml::Linq::XElement* element);
 
-  /// @brief Method SetAttributeNode, addr 0x2a8f270, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method SetAttributeNode, addr 0x2aaf8fc, size 0xa4, virtual true, abstract: false, final true
   inline void SetAttributeNode(::Newtonsoft::Json::Converters::IXmlNode* attribute);
 
   constexpr ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>*& __cordl_internal_get__attributes();
@@ -73,25 +73,25 @@ public:
 
   constexpr void __cordl_internal_set__attributes(::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* value);
 
-  /// @brief Method .ctor, addr 0x2a8e294, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aae920, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Linq::XElement* element);
 
-  /// @brief Method get_Attributes, addr 0x2a8f314, size 0x560, virtual true, abstract: false, final false
+  /// @brief Method get_Attributes, addr 0x2aaf9a0, size 0x560, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* get_Attributes();
 
-  /// @brief Method get_Element, addr 0x2a8f1f8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_Element, addr 0x2aaf884, size 0x78, virtual false, abstract: false, final false
   inline ::System::Xml::Linq::XElement* get_Element();
 
-  /// @brief Method get_IsEmpty, addr 0x2a8fe4c, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_IsEmpty, addr 0x2ab04d8, size 0x1c, virtual true, abstract: false, final true
   inline bool get_IsEmpty();
 
-  /// @brief Method get_LocalName, addr 0x2a8fe04, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x2ab0490, size 0x24, virtual true, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_NamespaceUri, addr 0x2a8fe28, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_NamespaceUri, addr 0x2ab04b4, size 0x24, virtual true, abstract: false, final false
   inline ::StringW get_NamespaceUri();
 
-  /// @brief Method get_Value, addr 0x2a8fd7c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x2ab0408, size 0x1c, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
   /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlElement"
@@ -100,7 +100,7 @@ public:
   /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlNode"
   constexpr ::Newtonsoft::Json::Converters::IXmlNode* i___Newtonsoft__Json__Converters__IXmlNode() noexcept;
 
-  /// @brief Method set_Value, addr 0x2a8fd98, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method set_Value, addr 0x2ab0424, size 0x6c, virtual true, abstract: false, final false
   inline void set_Value(::StringW value);
 
 protected:

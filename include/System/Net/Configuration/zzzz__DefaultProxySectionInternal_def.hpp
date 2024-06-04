@@ -33,13 +33,13 @@ public:
   /// @brief Field webProxy, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_webProxy, put = __cordl_internal_set_webProxy))::System::Net::IWebProxy* webProxy;
 
-  /// @brief Method GetDefaultProxy_UsingOldMonoCode, addr 0x3026d38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultProxy_UsingOldMonoCode, addr 0x3044428, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Net::IWebProxy* GetDefaultProxy_UsingOldMonoCode();
 
-  /// @brief Method GetSection, addr 0x3026de8, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetSection, addr 0x30444d8, size 0x114, virtual false, abstract: false, final false
   static inline ::System::Net::Configuration::DefaultProxySectionInternal* GetSection();
 
-  /// @brief Method GetSystemWebProxy, addr 0x3026d40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetSystemWebProxy, addr 0x3044430, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Net::IWebProxy* GetSystemWebProxy();
 
   static inline ::System::Net::Configuration::DefaultProxySectionInternal* New_ctor();
@@ -50,15 +50,15 @@ public:
 
   constexpr void __cordl_internal_set_webProxy(::System::Net::IWebProxy* value);
 
-  /// @brief Method .ctor, addr 0x3026efc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x30445ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Object* getStaticF_classSyncObject();
 
-  /// @brief Method get_ClassSyncObject, addr 0x3026d48, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_ClassSyncObject, addr 0x3044438, size 0xa0, virtual false, abstract: false, final false
   static inline ::System::Object* get_ClassSyncObject();
 
-  /// @brief Method get_WebProxy, addr 0x3026f04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_WebProxy, addr 0x30445f4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::IWebProxy* get_WebProxy();
 
   static inline void setStaticF_classSyncObject(::System::Object* value);

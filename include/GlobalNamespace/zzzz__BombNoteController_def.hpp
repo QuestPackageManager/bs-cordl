@@ -48,7 +48,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::__BombNoteController__Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x261ba14, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2633160, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -87,34 +87,34 @@ public:
   /// @brief Field _wrapperGO, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__wrapperGO, put = __cordl_internal_set__wrapperGO))::UnityW<::UnityEngine::GameObject> _wrapperGO;
 
-  /// @brief Method Awake, addr 0x261aadc, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x2632228, size 0xf8, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleDidPassHalfJump, addr 0x261b28c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandleDidPassHalfJump, addr 0x26329d8, size 0x24, virtual false, abstract: false, final false
   inline void HandleDidPassHalfJump();
 
-  /// @brief Method HandleWasCutBySaber, addr 0x261b2b0, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method HandleWasCutBySaber, addr 0x26329fc, size 0x284, virtual false, abstract: false, final false
   inline void HandleWasCutBySaber(::GlobalNamespace::Saber* saber, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 cutDirVec);
 
-  /// @brief Method HiddenStateDidChange, addr 0x261b784, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method HiddenStateDidChange, addr 0x2632ed0, size 0x24, virtual true, abstract: false, final false
   inline void HiddenStateDidChange(bool hide);
 
-  /// @brief Method Init, addr 0x260faf4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2631e04, size 0xd0, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::NoteData* noteData, float_t worldRotation, ::UnityEngine::Vector3 moveStartPos, ::UnityEngine::Vector3 moveEndPos, ::UnityEngine::Vector3 jumpEndPos,
                    float_t moveDuration, float_t jumpDuration, float_t jumpGravity);
 
   static inline ::GlobalNamespace::BombNoteController* New_ctor();
 
-  /// @brief Method NoteDidPassMissedMarker, addr 0x261b090, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method NoteDidPassMissedMarker, addr 0x26327dc, size 0x30, virtual true, abstract: false, final false
   inline void NoteDidPassMissedMarker();
 
-  /// @brief Method NoteDidStartDissolving, addr 0x261b760, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method NoteDidStartDissolving, addr 0x2632eac, size 0x24, virtual true, abstract: false, final false
   inline void NoteDidStartDissolving();
 
-  /// @brief Method OnDestroy, addr 0x261adec, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2632538, size 0xdc, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Pause, addr 0x261b7a8, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Pause, addr 0x2632ef4, size 0x10, virtual true, abstract: false, final false
   inline void Pause(bool pause);
 
   constexpr ::UnityW<::GlobalNamespace::CuttableBySaber> const& __cordl_internal_get__cuttableBySaber() const;
@@ -129,7 +129,7 @@ public:
 
   constexpr void __cordl_internal_set__wrapperGO(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x261b7b8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2632f04, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

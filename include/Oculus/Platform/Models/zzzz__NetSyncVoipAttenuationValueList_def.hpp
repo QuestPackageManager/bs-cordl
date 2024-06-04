@@ -9,6 +9,9 @@ CORDL_MODULE_EXPORT(NetSyncVoipAttenuationValueList)
 namespace Oculus::Platform::Models {
 class NetSyncVoipAttenuationValue;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class NetSyncVoipAttenuationValueList;
@@ -23,10 +26,10 @@ namespace Oculus::Platform::Models {
 class CORDL_TYPE NetSyncVoipAttenuationValueList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::NetSyncVoipAttenuationValue*> {
 public:
   // Declarations
-  static inline ::Oculus::Platform::Models::NetSyncVoipAttenuationValueList* New_ctor(void* a);
+  static inline ::Oculus::Platform::Models::NetSyncVoipAttenuationValueList* New_ctor(::System::IntPtr a);
 
-  /// @brief Method .ctor, addr 0x2addc3c, size 0x23c, virtual false, abstract: false, final false
-  inline void _ctor(void* a);
+  /// @brief Method .ctor, addr 0x2afe2c8, size 0x23c, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr a);
 
 protected:
   // Ctor Parameters []

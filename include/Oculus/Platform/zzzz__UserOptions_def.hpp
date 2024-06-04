@@ -13,6 +13,9 @@ struct ServiceProvider;
 namespace Oculus::Platform {
 struct TimeWindow;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform {
 class UserOptions;
@@ -28,36 +31,36 @@ class CORDL_TYPE UserOptions : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Handle, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_Handle, put = __cordl_internal_set_Handle)) void* Handle;
+  __declspec(property(get = __cordl_internal_get_Handle, put = __cordl_internal_set_Handle))::System::IntPtr Handle;
 
-  /// @brief Method AddServiceProvider, addr 0x2ad6b6c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method AddServiceProvider, addr 0x2af71f8, size 0x68, virtual false, abstract: false, final false
   inline void AddServiceProvider(::Oculus::Platform::ServiceProvider value);
 
-  /// @brief Method ClearServiceProviders, addr 0x2ad7408, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method ClearServiceProviders, addr 0x2af7a94, size 0x58, virtual false, abstract: false, final false
   inline void ClearServiceProviders();
 
-  /// @brief Method Finalize, addr 0x2ad74c8, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x2af7b54, size 0xd4, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::Oculus::Platform::UserOptions* New_ctor();
 
-  /// @brief Method SetMaxUsers, addr 0x2ad73a0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetMaxUsers, addr 0x2af7a2c, size 0x68, virtual false, abstract: false, final false
   inline void SetMaxUsers(uint32_t value);
 
-  /// @brief Method SetTimeWindow, addr 0x2ad7460, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetTimeWindow, addr 0x2af7aec, size 0x68, virtual false, abstract: false, final false
   inline void SetTimeWindow(::Oculus::Platform::TimeWindow value);
 
-  constexpr void* const& __cordl_internal_get_Handle() const;
+  constexpr ::System::IntPtr const& __cordl_internal_get_Handle() const;
 
-  constexpr void*& __cordl_internal_get_Handle();
+  constexpr ::System::IntPtr& __cordl_internal_get_Handle();
 
-  constexpr void __cordl_internal_set_Handle(void* value);
+  constexpr void __cordl_internal_set_Handle(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x2ad6b08, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2af7194, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method op_Explicit, addr 0x2ad6bd4, size 0x58, virtual false, abstract: false, final false
-  static inline void* op_Explicit_void_(::Oculus::Platform::UserOptions* options);
+  /// @brief Method op_Explicit, addr 0x2af7260, size 0x58, virtual false, abstract: false, final false
+  static inline ::System::IntPtr op_Explicit___System__IntPtr(::Oculus::Platform::UserOptions* options);
 
 protected:
   // Ctor Parameters []
@@ -74,7 +77,7 @@ public:
   UserOptions(UserOptions const&) = delete;
 
   /// @brief Field Handle, offset: 0x10, size: 0x8, def value: None
-  void* ___Handle;
+  ::System::IntPtr ___Handle;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

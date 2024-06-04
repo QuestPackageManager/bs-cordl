@@ -55,7 +55,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::__GroupBox__UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x358c7fc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35b7cf8, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -89,7 +89,7 @@ public:
   /// @brief Field m_Text, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Text, put = __cordl_internal_set_m_Text))::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Text;
 
-  /// @brief Method Init, addr 0x358c844, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x35b7d40, size 0xf8, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::__GroupBox__UxmlTraits* New_ctor();
@@ -100,7 +100,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Text(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x358c93c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35b7e38, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -164,10 +164,10 @@ public:
 
   constexpr void __cordl_internal_set_m_TitleLabel(::UnityEngine::UIElements::Label* value);
 
-  /// @brief Method .ctor, addr 0x358c6cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35b7bc8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x358c6d4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35b7bd0, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::StringW text);
 
   static inline ::StringW getStaticF_labelUssClassName();
@@ -181,7 +181,7 @@ public:
 
   static inline void setStaticF_ussClassName(::StringW value);
 
-  /// @brief Method set_text, addr 0x358c5b4, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x35b7ab0, size 0x118, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:

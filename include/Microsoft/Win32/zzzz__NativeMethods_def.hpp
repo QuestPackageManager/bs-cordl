@@ -19,6 +19,9 @@ struct HandleRef;
 namespace System::Runtime::InteropServices {
 class SafeHandle;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Microsoft::Win32 {
 class NativeMethods;
@@ -33,36 +36,36 @@ namespace Microsoft::Win32 {
 class CORDL_TYPE NativeMethods : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CloseProcess, addr 0x2c70444, size 0x4, virtual false, abstract: false, final false
-  static inline bool CloseProcess(void* handle);
+  /// @brief Method CloseProcess, addr 0x2c91b34, size 0x4, virtual false, abstract: false, final false
+  static inline bool CloseProcess(::System::IntPtr handle);
 
-  /// @brief Method DuplicateHandle, addr 0x2c700c8, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method DuplicateHandle, addr 0x2c917b8, size 0x150, virtual false, abstract: false, final false
   static inline bool DuplicateHandle(::System::Runtime::InteropServices::HandleRef hSourceProcessHandle, ::System::Runtime::InteropServices::HandleRef hSourceHandle,
                                      ::System::Runtime::InteropServices::HandleRef hTargetProcess, ByRef<::Microsoft::Win32::SafeHandles::SafeProcessHandle*> targetHandle, int32_t dwDesiredAccess,
                                      bool bInheritHandle, int32_t dwOptions);
 
-  /// @brief Method DuplicateHandle, addr 0x2c6fec4, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method DuplicateHandle, addr 0x2c915b4, size 0x204, virtual false, abstract: false, final false
   static inline bool DuplicateHandle(::System::Runtime::InteropServices::HandleRef hSourceProcessHandle, ::System::Runtime::InteropServices::SafeHandle* hSourceHandle,
                                      ::System::Runtime::InteropServices::HandleRef hTargetProcess, ByRef<::Microsoft::Win32::SafeHandles::SafeWaitHandle*> targetHandle, int32_t dwDesiredAccess,
                                      bool bInheritHandle, int32_t dwOptions);
 
-  /// @brief Method GetCurrentProcess, addr 0x2c70244, size 0x4, virtual false, abstract: false, final false
-  static inline void* GetCurrentProcess();
+  /// @brief Method GetCurrentProcess, addr 0x2c91934, size 0x4, virtual false, abstract: false, final false
+  static inline ::System::IntPtr GetCurrentProcess();
 
-  /// @brief Method GetCurrentProcessId, addr 0x2c70440, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentProcessId, addr 0x2c91b30, size 0x4, virtual false, abstract: false, final false
   static inline int32_t GetCurrentProcessId();
 
-  /// @brief Method GetExitCodeProcess, addr 0x2c7024c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetExitCodeProcess, addr 0x2c9193c, size 0xe8, virtual false, abstract: false, final false
   static inline bool GetExitCodeProcess(::Microsoft::Win32::SafeHandles::SafeProcessHandle* processHandle, ByRef<int32_t> exitCode);
 
-  /// @brief Method GetExitCodeProcess, addr 0x2c70248, size 0x4, virtual false, abstract: false, final false
-  static inline bool GetExitCodeProcess(void* processHandle, ByRef<int32_t> exitCode);
+  /// @brief Method GetExitCodeProcess, addr 0x2c91938, size 0x4, virtual false, abstract: false, final false
+  static inline bool GetExitCodeProcess(::System::IntPtr processHandle, ByRef<int32_t> exitCode);
 
-  /// @brief Method GetProcessTimes, addr 0x2c70338, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetProcessTimes, addr 0x2c91a28, size 0x108, virtual false, abstract: false, final false
   static inline bool GetProcessTimes(::Microsoft::Win32::SafeHandles::SafeProcessHandle* handle, ByRef<int64_t> creation, ByRef<int64_t> exit, ByRef<int64_t> kernel, ByRef<int64_t> user);
 
-  /// @brief Method GetProcessTimes, addr 0x2c70334, size 0x4, virtual false, abstract: false, final false
-  static inline bool GetProcessTimes(void* handle, ByRef<int64_t> creation, ByRef<int64_t> exit, ByRef<int64_t> kernel, ByRef<int64_t> user);
+  /// @brief Method GetProcessTimes, addr 0x2c91a24, size 0x4, virtual false, abstract: false, final false
+  static inline bool GetProcessTimes(::System::IntPtr handle, ByRef<int64_t> creation, ByRef<int64_t> exit, ByRef<int64_t> kernel, ByRef<int64_t> user);
 
 protected:
   // Ctor Parameters []

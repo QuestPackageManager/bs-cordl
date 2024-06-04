@@ -41,10 +41,10 @@ public:
   /// @brief Field s_DefaultHttpBinding, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_DefaultHttpBinding, put = setStaticF_s_DefaultHttpBinding))::System::Net::Cache::RequestCacheBinding* s_DefaultHttpBinding;
 
-  /// @brief Method GetBinding, addr 0x302708c, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method GetBinding, addr 0x304477c, size 0x1fc, virtual false, abstract: false, final false
   static inline ::System::Net::Cache::RequestCacheBinding* GetBinding(::StringW internedScheme);
 
-  /// @brief Method LoadConfigSettings, addr 0x3027288, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method LoadConfigSettings, addr 0x3044978, size 0x184, virtual false, abstract: false, final false
   static inline void LoadConfigSettings();
 
   static inline ::System::Net::Cache::RequestCacheBinding* getStaticF_s_BypassCacheBinding();

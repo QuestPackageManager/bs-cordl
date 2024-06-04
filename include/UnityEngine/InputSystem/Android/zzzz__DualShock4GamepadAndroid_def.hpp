@@ -12,7 +12,7 @@ class DualShock4GamepadAndroid;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Android::DualShock4GamepadAndroid);
 // Type: UnityEngine.InputSystem.Android::DualShock4GamepadAndroid
-// SizeInfo { instance_size: 544, native_size: -1, calculated_instance_size: 544, calculated_native_size: 544, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 568, native_size: -1, calculated_instance_size: 568, calculated_native_size: 568, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Android {
 // Is value type: false
 // CS Name: ::UnityEngine.InputSystem.Android::DualShock4GamepadAndroid*
@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Android::DualShock4GamepadAndroid* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3155068, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3178b44, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -41,7 +41,7 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Android::DualShock4GamepadAndroid, 0x220>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Android::DualShock4GamepadAndroid, 0x238>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::Android
 NEED_NO_BOX(::UnityEngine::InputSystem::Android::DualShock4GamepadAndroid);

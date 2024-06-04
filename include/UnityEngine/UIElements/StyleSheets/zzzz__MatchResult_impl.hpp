@@ -9,9 +9,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::StyleSheets::MatchResult::*)()>(
     &::UnityEngine::UIElements::StyleSheets::MatchResult::get_success)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x354529c;
+  constexpr static std::size_t addrs = 0x356f798;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::MatchResult>::get(),
                                                                                "get_success", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;

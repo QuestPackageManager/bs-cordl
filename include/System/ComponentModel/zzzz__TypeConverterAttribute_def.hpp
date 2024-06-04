@@ -35,10 +35,10 @@ public:
   /// @brief Field <ConverterTypeName>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__ConverterTypeName_k__BackingField, put = __cordl_internal_set__ConverterTypeName_k__BackingField))::StringW _ConverterTypeName_k__BackingField;
 
-  /// @brief Method Equals, addr 0x2f48aa8, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x2f69198, size 0x80, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x2f48b28, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x2f69218, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::ComponentModel::TypeConverterAttribute* New_ctor();
@@ -53,18 +53,18 @@ public:
 
   constexpr void __cordl_internal_set__ConverterTypeName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2f489d8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f690c8, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2f48a34, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f69124, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
-  /// @brief Method .ctor, addr 0x2f48a78, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f69168, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW typeName);
 
   static inline ::System::ComponentModel::TypeConverterAttribute* getStaticF_Default();
 
-  /// @brief Method get_ConverterTypeName, addr 0x2f48aa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ConverterTypeName, addr 0x2f69190, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ConverterTypeName();
 
   static inline void setStaticF_Default(::System::ComponentModel::TypeConverterAttribute* value);

@@ -45,10 +45,10 @@ public:
 
   static inline ::UnityEngine::InputSystem::Interactions::SlowTapInteraction* New_ctor();
 
-  /// @brief Method Process, addr 0x317a76c, size 0x168, virtual true, abstract: false, final true
+  /// @brief Method Process, addr 0x31a1b14, size 0x168, virtual true, abstract: false, final true
   inline void Process(ByRef<::UnityEngine::InputSystem::InputInteractionContext> context);
 
-  /// @brief Method Reset, addr 0x317a8d4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x31a1c7c, size 0x8, virtual true, abstract: false, final true
   inline void Reset();
 
   constexpr float_t const& __cordl_internal_get_duration() const;
@@ -69,13 +69,13 @@ public:
 
   constexpr void __cordl_internal_set_pressPoint(float_t value);
 
-  /// @brief Method .ctor, addr 0x317a8dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31a1c84, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_durationOrDefault, addr 0x317a6a4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_durationOrDefault, addr 0x31a1a4c, size 0x70, virtual false, abstract: false, final false
   inline float_t get_durationOrDefault();
 
-  /// @brief Method get_pressPointOrDefault, addr 0x317a714, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_pressPointOrDefault, addr 0x31a1abc, size 0x58, virtual false, abstract: false, final false
   inline float_t get_pressPointOrDefault();
 
   /// @brief Convert to "::UnityEngine::InputSystem::IInputInteraction"

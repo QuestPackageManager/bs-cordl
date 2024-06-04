@@ -38,7 +38,7 @@ public:
 
   static inline ::GlobalNamespace::__BeatmapDataMirrorTransform____c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method <CreateTransformedData>g__ProcessData|0, addr 0x149aa48, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method <CreateTransformedData>g__ProcessData|0, addr 0x14a0324, size 0xe0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDataItem* _CreateTransformedData_g__ProcessData_0(::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
 
   constexpr int32_t const& __cordl_internal_get_numberOfLines() const;
@@ -47,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set_numberOfLines(int32_t value);
 
-  /// @brief Method .ctor, addr 0x149aa40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14a031c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -85,7 +85,7 @@ public:
   // Declarations
   using __c__DisplayClass0_0 = ::GlobalNamespace::__BeatmapDataMirrorTransform____c__DisplayClass0_0;
 
-  /// @brief Method CreateTransformedData, addr 0x149a8c4, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method CreateTransformedData, addr 0x14a01a0, size 0x17c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
 
 protected:

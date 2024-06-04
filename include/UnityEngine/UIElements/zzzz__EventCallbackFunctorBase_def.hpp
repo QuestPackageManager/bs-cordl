@@ -56,7 +56,7 @@ public:
 
   static inline ::UnityEngine::UIElements::EventCallbackFunctorBase* New_ctor(::UnityEngine::UIElements::CallbackPhase phase, ::UnityEngine::UIElements::InvokePolicy invokePolicy);
 
-  /// @brief Method PhaseMatches, addr 0x35a2f28, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method PhaseMatches, addr 0x35ce424, size 0x3c, virtual false, abstract: false, final false
   inline bool PhaseMatches(::UnityEngine::UIElements::PropagationPhase propagationPhase);
 
   constexpr ::UnityEngine::UIElements::InvokePolicy const& __cordl_internal_get__invokePolicy_k__BackingField() const;
@@ -71,13 +71,13 @@ public:
 
   constexpr void __cordl_internal_set__phase_k__BackingField(::UnityEngine::UIElements::CallbackPhase value);
 
-  /// @brief Method .ctor, addr 0x35a2efc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35ce3f8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::CallbackPhase phase, ::UnityEngine::UIElements::InvokePolicy invokePolicy);
 
-  /// @brief Method get_invokePolicy, addr 0x35a2ef4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_invokePolicy, addr 0x35ce3f0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::InvokePolicy get_invokePolicy();
 
-  /// @brief Method get_phase, addr 0x35a2eec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_phase, addr 0x35ce3e8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::CallbackPhase get_phase();
 
 protected:

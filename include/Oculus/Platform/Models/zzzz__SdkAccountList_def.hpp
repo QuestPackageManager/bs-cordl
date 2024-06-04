@@ -9,6 +9,9 @@ CORDL_MODULE_EXPORT(SdkAccountList)
 namespace Oculus::Platform::Models {
 class SdkAccount;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class SdkAccountList;
@@ -23,10 +26,10 @@ namespace Oculus::Platform::Models {
 class CORDL_TYPE SdkAccountList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::SdkAccount*> {
 public:
   // Declarations
-  static inline ::Oculus::Platform::Models::SdkAccountList* New_ctor(void* a);
+  static inline ::Oculus::Platform::Models::SdkAccountList* New_ctor(::System::IntPtr a);
 
-  /// @brief Method .ctor, addr 0x2aded88, size 0x23c, virtual false, abstract: false, final false
-  inline void _ctor(void* a);
+  /// @brief Method .ctor, addr 0x2aff414, size 0x23c, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr a);
 
 protected:
   // Ctor Parameters []

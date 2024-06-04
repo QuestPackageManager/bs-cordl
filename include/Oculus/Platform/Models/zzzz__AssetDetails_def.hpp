@@ -10,6 +10,9 @@ CORDL_MODULE_EXPORT(AssetDetails)
 namespace Oculus::Platform::Models {
 class LanguagePackInfo;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class AssetDetails;
@@ -48,7 +51,7 @@ public:
   /// @brief Field Metadata, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_Metadata, put = __cordl_internal_set_Metadata))::StringW Metadata;
 
-  static inline ::Oculus::Platform::Models::AssetDetails* New_ctor(void* o);
+  static inline ::Oculus::Platform::Models::AssetDetails* New_ctor(::System::IntPtr o);
 
   constexpr uint64_t const& __cordl_internal_get_AssetId() const;
 
@@ -98,8 +101,8 @@ public:
 
   constexpr void __cordl_internal_set_Metadata(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2ada73c, size 0x168, virtual false, abstract: false, final false
-  inline void _ctor(void* o);
+  /// @brief Method .ctor, addr 0x2afadc8, size 0x168, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr o);
 
 protected:
   // Ctor Parameters []

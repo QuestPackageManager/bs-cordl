@@ -42,6 +42,9 @@ struct __PlatformInternal__MessageTypeInternal;
 namespace Oculus::Platform {
 class __PlatformInternal__Users;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform {
 struct __PlatformInternal__MessageTypeInternal;
@@ -369,7 +372,7 @@ namespace Oculus::Platform {
 class CORDL_TYPE __PlatformInternal__HTTP : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetHttpTransferUpdateCallback, addr 0x2ad68e4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetHttpTransferUpdateCallback, addr 0x2af6f70, size 0x74, virtual false, abstract: false, final false
   static inline void SetHttpTransferUpdateCallback(::Oculus::Platform::__Message_1__Callback<::Oculus::Platform::Models::HttpTransferUpdate*>* callback);
 
 protected:
@@ -400,7 +403,7 @@ namespace Oculus::Platform {
 class CORDL_TYPE __PlatformInternal__Users : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetLinkedAccounts, addr 0x2ad6958, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method GetLinkedAccounts, addr 0x2af6fe4, size 0x1b0, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::LinkedAccountList*>*
   GetLinkedAccounts(::ArrayW<::Oculus::Platform::ServiceProvider, ::Array<::Oculus::Platform::ServiceProvider>*> providers);
 
@@ -438,14 +441,14 @@ public:
 
   using Users = ::Oculus::Platform::__PlatformInternal__Users;
 
-  /// @brief Method CrashApplication, addr 0x2ad6660, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method CrashApplication, addr 0x2af6cec, size 0x4c, virtual false, abstract: false, final false
   static inline void CrashApplication();
 
-  /// @brief Method InitializeStandaloneAsync, addr 0x2ad66ac, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method InitializeStandaloneAsync, addr 0x2af6d38, size 0x154, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>* InitializeStandaloneAsync(uint64_t appID, ::StringW accessToken);
 
-  /// @brief Method ParseMessageHandle, addr 0x2ac5dec, size 0x8b4, virtual false, abstract: false, final false
-  static inline ::Oculus::Platform::Message* ParseMessageHandle(void* messageHandle, ::Oculus::Platform::__Message__MessageType messageType);
+  /// @brief Method ParseMessageHandle, addr 0x2ae6478, size 0x8b4, virtual false, abstract: false, final false
+  static inline ::Oculus::Platform::Message* ParseMessageHandle(::System::IntPtr messageHandle, ::Oculus::Platform::__Message__MessageType messageType);
 
 protected:
   // Ctor Parameters []

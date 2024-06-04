@@ -19,6 +19,9 @@ namespace System {
 class IAsyncResult;
 }
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Object;
 }
 // Forward declare root types
@@ -35,19 +38,19 @@ namespace Newtonsoft::Json::Serialization {
 class CORDL_TYPE ExtensionDataGetter : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x2a2cc5c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x2a4b2e8, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::Object* o, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x2a2cc7c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x2a4b308, size 0xc, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::System::Object*, ::System::Object*>>* EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x2a2cc48, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2a4b2d4, size 0x14, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::System::Object*, ::System::Object*>>* Invoke(::System::Object* o);
 
-  static inline ::Newtonsoft::Json::Serialization::ExtensionDataGetter* New_ctor(::System::Object* object, void* method);
+  static inline ::Newtonsoft::Json::Serialization::ExtensionDataGetter* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2a23108, size 0x12c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
+  /// @brief Method .ctor, addr 0x2a41794, size 0x12c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []

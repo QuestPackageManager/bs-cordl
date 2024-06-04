@@ -33,14 +33,20 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   InputFeatureNames(InputFeatureNames const&) = delete;
 
-  /// @brief Field kDisableShortcutSupport offset 0xffffffff size 0x8
-  static constexpr ::ConstString kDisableShortcutSupport{ u"DISABLE_SHORTCUT_SUPPORT" };
-
   /// @brief Field kDisableUnityRemoteSupport offset 0xffffffff size 0x8
   static constexpr ::ConstString kDisableUnityRemoteSupport{ u"DISABLE_UNITY_REMOTE_SUPPORT" };
 
+  /// @brief Field kParanoidReadValueCachingChecks offset 0xffffffff size 0x8
+  static constexpr ::ConstString kParanoidReadValueCachingChecks{ u"PARANOID_READ_VALUE_CACHING_CHECKS" };
+
   /// @brief Field kRunPlayerUpdatesInEditMode offset 0xffffffff size 0x8
   static constexpr ::ConstString kRunPlayerUpdatesInEditMode{ u"RUN_PLAYER_UPDATES_IN_EDIT_MODE" };
+
+  /// @brief Field kUseOptimizedControls offset 0xffffffff size 0x8
+  static constexpr ::ConstString kUseOptimizedControls{ u"USE_OPTIMIZED_CONTROLS" };
+
+  /// @brief Field kUseReadValueCaching offset 0xffffffff size 0x8
+  static constexpr ::ConstString kUseReadValueCaching{ u"USE_READ_VALUE_CACHING" };
 
   /// @brief Field kUseWindowsGamingInputBackend offset 0xffffffff size 0x8
   static constexpr ::ConstString kUseWindowsGamingInputBackend{ u"USE_WINDOWS_GAMING_INPUT_BACKEND" };

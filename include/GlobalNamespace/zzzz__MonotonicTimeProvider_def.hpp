@@ -42,10 +42,10 @@ public:
   /// @brief Convert operator to "::BGNet::Core::ITimeProvider"
   constexpr operator ::BGNet::Core::ITimeProvider*() noexcept;
 
-  /// @brief Method GetTicks, addr 0x10a8200, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method GetTicks, addr 0x10ae9e8, size 0x58, virtual true, abstract: false, final true
   inline int64_t GetTicks();
 
-  /// @brief Method GetTimeMs, addr 0x10a81d4, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method GetTimeMs, addr 0x10ae9bc, size 0x2c, virtual true, abstract: false, final true
   inline int64_t GetTimeMs();
 
   static inline ::GlobalNamespace::MonotonicTimeProvider* New_ctor();
@@ -68,7 +68,7 @@ public:
 
   constexpr void __cordl_internal_set__timeSpanTicksPerStopwatchTick(double_t value);
 
-  /// @brief Method .ctor, addr 0x10a803c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10ae824, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::MonotonicTimeProvider* getStaticF_instance();

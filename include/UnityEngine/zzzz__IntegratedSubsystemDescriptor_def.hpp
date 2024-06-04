@@ -31,7 +31,7 @@ public:
   __declspec(property(get = get_id))::StringW id;
 
   /// @brief Field m_Ptr, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) void* m_Ptr;
+  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr))::System::IntPtr m_Ptr;
 
   /// @brief Convert operator to "::UnityEngine::ISubsystemDescriptor"
   constexpr operator ::UnityEngine::ISubsystemDescriptor*() noexcept;
@@ -41,19 +41,19 @@ public:
 
   static inline ::UnityEngine::IntegratedSubsystemDescriptor* New_ctor();
 
-  /// @brief Method UnityEngine.ISubsystemDescriptor.Create, addr 0x34716e0, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ISubsystemDescriptor.Create, addr 0x3499bdc, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::ISubsystem* UnityEngine_ISubsystemDescriptor_Create();
 
-  constexpr void* const& __cordl_internal_get_m_Ptr() const;
+  constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
 
-  constexpr void*& __cordl_internal_get_m_Ptr();
+  constexpr ::System::IntPtr& __cordl_internal_get_m_Ptr();
 
-  constexpr void __cordl_internal_set_m_Ptr(void* value);
+  constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x34716ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3499be8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_id, addr 0x3471668, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method get_id, addr 0x3499b64, size 0x3c, virtual true, abstract: false, final true
   inline ::StringW get_id();
 
   /// @brief Convert to "::UnityEngine::ISubsystemDescriptor"
@@ -74,7 +74,7 @@ public:
   IntegratedSubsystemDescriptor(IntegratedSubsystemDescriptor const&) = delete;
 
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
-  void* ___m_Ptr;
+  ::System::IntPtr ___m_Ptr;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

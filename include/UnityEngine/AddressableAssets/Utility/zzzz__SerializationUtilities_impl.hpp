@@ -36,9 +36,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::UnityEngine::AddressableAssets::Utility::SerializationUtilities::ReadInt32FromByteArray)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x305f780;
+  constexpr static std::size_t addrs = 0x307bf28;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::Utility::SerializationUtilities*>::get(),
                                                  "ReadInt32FromByteArray", std::span<Il2CppClass const* const, 0>(),
@@ -53,9 +53,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::UnityEngine::AddressableAssets::Utility::SerializationUtilities::WriteInt32ToByteArray)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x305f7f4;
+  constexpr static std::size_t addrs = 0x307bf9c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::Utility::SerializationUtilities*>::get(), "WriteInt32ToByteArray",
         std::span<Il2CppClass const* const, 0>(),
@@ -70,9 +70,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::UnityEngine::AddressableAssets::Utility::SerializationUtilities::ReadObjectFromByteArray)> {
   constexpr static std::size_t size = 0x5a0;
-  constexpr static std::size_t addrs = 0x305f878;
+  constexpr static std::size_t addrs = 0x307c020;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::Utility::SerializationUtilities*>::get(),
                                                  "ReadObjectFromByteArray", std::span<Il2CppClass const* const, 0>(),
@@ -87,9 +87,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::Object*, ::System::Collections::Generic::List_1<uint8_t>*)>(
     &::UnityEngine::AddressableAssets::Utility::SerializationUtilities::WriteObjectToByteList)> {
   constexpr static std::size_t size = 0xb60;
-  constexpr static std::size_t addrs = 0x305fe18;
+  constexpr static std::size_t addrs = 0x307c5c0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::Utility::SerializationUtilities*>::get(), "WriteObjectToByteList",
                                     std::span<Il2CppClass const* const, 0>(),

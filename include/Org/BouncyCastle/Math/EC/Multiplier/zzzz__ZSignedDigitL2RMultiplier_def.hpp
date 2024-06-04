@@ -25,12 +25,12 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
 class CORDL_TYPE ZSignedDigitL2RMultiplier : public ::Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier {
 public:
   // Declarations
-  /// @brief Method MultiplyPositive, addr 0x129b604, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method MultiplyPositive, addr 0x12a3e74, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* MultiplyPositive(::Org::BouncyCastle::Math::EC::ECPoint* p, ::Org::BouncyCastle::Math::BigInteger* k);
 
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::ZSignedDigitL2RMultiplier* New_ctor();
 
-  /// @brief Method .ctor, addr 0x129b6f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12a3f64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

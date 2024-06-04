@@ -61,21 +61,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x2f4a15c, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x2f6a84c, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x2f4a1c8, size 0x304, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x2f6a8b8, size 0x304, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Finalize, addr 0x2f4a0a0, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x2f6a790, size 0xa0, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method GetService, addr 0x2f4a4cc, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method GetService, addr 0x2f6abbc, size 0xb4, virtual true, abstract: false, final false
   inline ::System::Object* GetService(::System::Type* service);
 
   static inline ::System::ComponentModel::Component* New_ctor();
 
-  /// @brief Method ToString, addr 0x2f4a630, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2f6ad20, size 0x130, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::ComponentModel::EventHandlerList*& __cordl_internal_get_events();
@@ -90,21 +90,21 @@ public:
 
   constexpr void __cordl_internal_set_site(::System::ComponentModel::ISite* value);
 
-  /// @brief Method .ctor, addr 0x2f4a760, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f6ae50, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Object* getStaticF_EventDisposed();
 
-  /// @brief Method get_CanRaiseEvents, addr 0x2f4a140, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanRaiseEvents, addr 0x2f6a830, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanRaiseEvents();
 
-  /// @brief Method get_CanRaiseEventsInternal, addr 0x2f4a148, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_CanRaiseEventsInternal, addr 0x2f6a838, size 0xc, virtual false, abstract: false, final false
   inline bool get_CanRaiseEventsInternal();
 
-  /// @brief Method get_DesignMode, addr 0x2f4a580, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method get_DesignMode, addr 0x2f6ac70, size 0xb0, virtual false, abstract: false, final false
   inline bool get_DesignMode();
 
-  /// @brief Method get_Site, addr 0x2f4a154, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Site, addr 0x2f6a844, size 0x8, virtual true, abstract: false, final false
   inline ::System::ComponentModel::ISite* get_Site();
 
   /// @brief Convert to "::System::ComponentModel::IComponent"

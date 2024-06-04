@@ -47,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set_newVertexIndexes(::System::Collections::Generic::List_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x32da78c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3304ae0, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ProBuilder::FaceRebuildData* faceRebuildData, ::System::Collections::Generic::List_1<int32_t>* newVertexIndexes);
 
 protected:

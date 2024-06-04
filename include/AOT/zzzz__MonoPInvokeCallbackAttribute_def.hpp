@@ -24,7 +24,7 @@ public:
   // Declarations
   static inline ::AOT::MonoPInvokeCallbackAttribute* New_ctor(::System::Type* type);
 
-  /// @brief Method .ctor, addr 0x33d4c18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33fe10c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
 protected:

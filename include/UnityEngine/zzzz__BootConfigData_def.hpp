@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BootConfigData)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace UnityEngine {
 class BootConfigData;
@@ -22,21 +25,21 @@ class CORDL_TYPE BootConfigData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Ptr, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) void* m_Ptr;
+  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr))::System::IntPtr m_Ptr;
 
-  static inline ::UnityEngine::BootConfigData* New_ctor(void* nativeHandle);
+  static inline ::UnityEngine::BootConfigData* New_ctor(::System::IntPtr nativeHandle);
 
-  /// @brief Method WrapBootConfigData, addr 0x340b0e4, size 0x60, virtual false, abstract: false, final false
-  static inline ::UnityEngine::BootConfigData* WrapBootConfigData(void* nativeHandle);
+  /// @brief Method WrapBootConfigData, addr 0x34345d8, size 0x60, virtual false, abstract: false, final false
+  static inline ::UnityEngine::BootConfigData* WrapBootConfigData(::System::IntPtr nativeHandle);
 
-  constexpr void* const& __cordl_internal_get_m_Ptr() const;
+  constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
 
-  constexpr void*& __cordl_internal_get_m_Ptr();
+  constexpr ::System::IntPtr& __cordl_internal_get_m_Ptr();
 
-  constexpr void __cordl_internal_set_m_Ptr(void* value);
+  constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x340b144, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor(void* nativeHandle);
+  /// @brief Method .ctor, addr 0x3434638, size 0xc4, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr nativeHandle);
 
 protected:
   // Ctor Parameters []
@@ -53,7 +56,7 @@ public:
   BootConfigData(BootConfigData const&) = delete;
 
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
-  void* ___m_Ptr;
+  ::System::IntPtr ___m_Ptr;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

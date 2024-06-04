@@ -4,6 +4,7 @@
 #include "UnityEngine/Rendering/zzzz__RenderTargetIdentifier_impl.hpp"
 #include "UnityEngine/zzzz__RenderTextureDescriptor_impl.hpp"
 #include "UnityEngine/XR/zzzz__XRDisplaySubsystem_def.hpp"
+#include "System/zzzz__IntPtr_def.hpp"
 #include "UnityEngine/Rendering/zzzz__RenderTargetIdentifier_def.hpp"
 #include "UnityEngine/zzzz__RenderTextureDescriptor_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
@@ -15,13 +16,13 @@ constexpr ::UnityEngine::XR::__XRDisplaySubsystem__LateLatchNode::__XRDisplaySub
 constexpr ::UnityEngine::XR::__XRDisplaySubsystem__LateLatchNode UnityEngine::XR::__XRDisplaySubsystem__LateLatchNode::Head{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::XR::__XRDisplaySubsystem__LateLatchNode UnityEngine::XR::__XRDisplaySubsystem__LateLatchNode::LeftHand{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::XR::__XRDisplaySubsystem__LateLatchNode UnityEngine::XR::__XRDisplaySubsystem__LateLatchNode::RightHand{ static_cast<int32_t>(0x2) };
-// Ctor Parameters [CppParam { name: "displaySubsystemInstance", ty: "void*", modifiers: "", def_value: Some("{}") }, CppParam { name: "renderPassIndex", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "renderTarget", ty: "::UnityEngine::Rendering::RenderTargetIdentifier", modifiers: "", def_value: Some("{}") }, CppParam { name: "renderTargetDesc", ty:
+// Ctor Parameters [CppParam { name: "displaySubsystemInstance", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam { name: "renderPassIndex", ty: "int32_t", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "renderTarget", ty: "::UnityEngine::Rendering::RenderTargetIdentifier", modifiers: "", def_value: Some("{}") }, CppParam { name: "renderTargetDesc", ty:
 // "::UnityEngine::RenderTextureDescriptor", modifiers: "", def_value: Some("{}") }, CppParam { name: "hasMotionVectorPass", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name:
 // "motionVectorRenderTarget", ty: "::UnityEngine::Rendering::RenderTargetIdentifier", modifiers: "", def_value: Some("{}") }, CppParam { name: "motionVectorRenderTargetDesc", ty:
 // "::UnityEngine::RenderTextureDescriptor", modifiers: "", def_value: Some("{}") }, CppParam { name: "shouldFillOutDepth", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name:
 // "cullingPassIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::XR::__XRDisplaySubsystem__XRRenderPass::__XRDisplaySubsystem__XRRenderPass(void* displaySubsystemInstance, int32_t renderPassIndex,
+constexpr ::UnityEngine::XR::__XRDisplaySubsystem__XRRenderPass::__XRDisplaySubsystem__XRRenderPass(::System::IntPtr displaySubsystemInstance, int32_t renderPassIndex,
                                                                                                     ::UnityEngine::Rendering::RenderTargetIdentifier renderTarget,
                                                                                                     ::UnityEngine::RenderTextureDescriptor renderTargetDesc, bool hasMotionVectorPass,
                                                                                                     ::UnityEngine::Rendering::RenderTargetIdentifier motionVectorRenderTarget,
@@ -39,10 +40,10 @@ constexpr ::UnityEngine::XR::__XRDisplaySubsystem__XRRenderPass::__XRDisplaySubs
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::XR::__XRDisplaySubsystem__XRRenderPass::__XRDisplaySubsystem__XRRenderPass() {}
-// Ctor Parameters [CppParam { name: "displaySubsystemInstance", ty: "void*", modifiers: "", def_value: Some("{}") }, CppParam { name: "nativeBlitAvailable", ty: "bool", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "nativeBlitInvalidStates", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "blitParamsCount", ty: "int32_t", modifiers: "", def_value: Some("{}")
-// }]
-constexpr ::UnityEngine::XR::__XRDisplaySubsystem__XRMirrorViewBlitDesc::__XRDisplaySubsystem__XRMirrorViewBlitDesc(void* displaySubsystemInstance, bool nativeBlitAvailable,
+// Ctor Parameters [CppParam { name: "displaySubsystemInstance", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam { name: "nativeBlitAvailable", ty: "bool", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "nativeBlitInvalidStates", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "blitParamsCount", ty: "int32_t", modifiers: "", def_value:
+// Some("{}") }]
+constexpr ::UnityEngine::XR::__XRDisplaySubsystem__XRMirrorViewBlitDesc::__XRDisplaySubsystem__XRMirrorViewBlitDesc(::System::IntPtr displaySubsystemInstance, bool nativeBlitAvailable,
                                                                                                                     bool nativeBlitInvalidStates, int32_t blitParamsCount) noexcept {
   this->displaySubsystemInstance = displaySubsystemInstance;
   this->nativeBlitAvailable = nativeBlitAvailable;

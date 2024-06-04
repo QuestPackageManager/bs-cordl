@@ -213,7 +213,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*();
 
-  /// @brief Method Create, addr 0x31577ac, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x317b288, size 0x58, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::QueryPairedUserAccountCommand Create();
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand const& __cordl_internal_get_baseCommand() const;
@@ -240,25 +240,25 @@ public:
 
   constexpr void __cordl_internal_set_nameBuffer(::UnityEngine::InputSystem::LowLevel::__QueryPairedUserAccountCommand___nameBuffer_e__FixedBuffer value);
 
-  /// @brief Method get_Type, addr 0x3157504, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x317afe0, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
 
-  /// @brief Method get_id, addr 0x3157534, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x317b010, size 0x10, virtual false, abstract: false, final false
   inline ::StringW get_id();
 
-  /// @brief Method get_name, addr 0x3157658, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x317b134, size 0x10, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method get_typeStatic, addr 0x315777c, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x317b258, size 0x30, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
   constexpr ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo* i___UnityEngine__InputSystem__LowLevel__IInputDeviceCommandInfo();
 
-  /// @brief Method set_id, addr 0x3157544, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method set_id, addr 0x317b020, size 0x114, virtual false, abstract: false, final false
   inline void set_id(::StringW value);
 
-  /// @brief Method set_name, addr 0x3157668, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method set_name, addr 0x317b144, size 0x114, virtual false, abstract: false, final false
   inline void set_name(::StringW value);
 
   // Ctor Parameters []

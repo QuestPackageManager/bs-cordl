@@ -33,13 +33,13 @@ public:
 
   constexpr void __cordl_internal_set__maxNumberOfScoresInLeaderboard(int32_t value);
 
-  /// @brief Method .ctor, addr 0x14a7434, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14acc80, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_maxNumberOfScoresInLeaderboard, addr 0x14a7424, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxNumberOfScoresInLeaderboard, addr 0x14acc70, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxNumberOfScoresInLeaderboard();
 
-  /// @brief Method set_maxNumberOfScoresInLeaderboard, addr 0x14a742c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maxNumberOfScoresInLeaderboard, addr 0x14acc78, size 0x8, virtual false, abstract: false, final false
   inline void set_maxNumberOfScoresInLeaderboard(int32_t value);
 
 protected:

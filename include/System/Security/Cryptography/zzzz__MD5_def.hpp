@@ -19,12 +19,12 @@ namespace System::Security::Cryptography {
 class CORDL_TYPE MD5 : public ::System::Security::Cryptography::HashAlgorithm {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x27e0a5c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x27fa0e8, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::MD5* Create();
 
   static inline ::System::Security::Cryptography::MD5* New_ctor();
 
-  /// @brief Method .ctor, addr 0x27e0a3c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27fa0c8, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

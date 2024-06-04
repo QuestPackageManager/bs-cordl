@@ -22,7 +22,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::XPlatformAccessTokenFetchException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x2bd0d94, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bf2420, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

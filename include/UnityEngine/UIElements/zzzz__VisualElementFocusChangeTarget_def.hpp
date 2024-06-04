@@ -36,13 +36,13 @@ public:
 
   __declspec(property(get = get_target, put = set_target))::UnityEngine::UIElements::Focusable* target;
 
-  /// @brief Method ApplyTo, addr 0x3510404, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method ApplyTo, addr 0x3539900, size 0x24, virtual true, abstract: false, final false
   inline void ApplyTo(::UnityEngine::UIElements::FocusController* focusController, ::UnityEngine::UIElements::Focusable* f);
 
-  /// @brief Method Dispose, addr 0x3510380, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x353987c, size 0x84, virtual true, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method GetPooled, addr 0x35102f8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x35397f4, size 0x88, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::VisualElementFocusChangeTarget* GetPooled(::UnityEngine::UIElements::Focusable* target);
 
   static inline ::UnityEngine::UIElements::VisualElementFocusChangeTarget* New_ctor();
@@ -53,17 +53,17 @@ public:
 
   constexpr void __cordl_internal_set__target_k__BackingField(::UnityEngine::UIElements::Focusable* value);
 
-  /// @brief Method .ctor, addr 0x3510428, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3539924, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::VisualElementFocusChangeTarget*>* getStaticF_Pool();
 
-  /// @brief Method get_target, addr 0x35104c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_target, addr 0x35399c4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Focusable* get_target();
 
   static inline void setStaticF_Pool(::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::VisualElementFocusChangeTarget*>* value);
 
-  /// @brief Method set_target, addr 0x35104d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_target, addr 0x35399cc, size 0x8, virtual false, abstract: false, final false
   inline void set_target(::UnityEngine::UIElements::Focusable* value);
 
 protected:

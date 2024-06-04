@@ -5,15 +5,16 @@
 #include "BGLib/Polyglot/zzzz__Language_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerStatusData_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerUnavailableReason_def.hpp"
+#include "System/Text/RegularExpressions/zzzz__Regex_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerUnavailableReasonMethods.LocalizedKey
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::GlobalNamespace::MultiplayerUnavailableReason)>(
     &::GlobalNamespace::MultiplayerUnavailableReasonMethods::LocalizedKey)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x14d725c;
+  constexpr static std::size_t addrs = 0x14dd1f8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerUnavailableReasonMethods*>::get(), "LocalizedKey", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MultiplayerUnavailableReason>::get() })));
@@ -26,9 +27,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::GlobalNamespace::MultiplayerUnavailableReason)>(
     &::GlobalNamespace::MultiplayerUnavailableReasonMethods::ErrorCode)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x14d72e0;
+  constexpr static std::size_t addrs = 0x14dd27c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerUnavailableReasonMethods*>::get(), "ErrorCode", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MultiplayerUnavailableReason>::get() })));
@@ -40,10 +41,10 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::MultiplayerStatusData*, ByRef<::GlobalNamespace::MultiplayerUnavailableReason>)>(
     &::GlobalNamespace::MultiplayerUnavailableReasonMethods::TryGetMultiplayerUnavailableReason)> {
-  constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x14d7360;
+  constexpr static std::size_t size = 0x13c;
+  constexpr static std::size_t addrs = 0x14dd2fc;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerUnavailableReasonMethods*>::get(), "TryGetMultiplayerUnavailableReason",
                                     std::span<Il2CppClass const* const, 0>(),
@@ -58,9 +59,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::GlobalNamespace::MultiplayerStatusData*, ::BGLib::Polyglot::Language)>(
     &::GlobalNamespace::MultiplayerUnavailableReasonMethods::GetLocalizedMessage)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x14d7670;
+  constexpr static std::size_t addrs = 0x14dd600;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerUnavailableReasonMethods*>::get(), "GetLocalizedMessage", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MultiplayerStatusData*>::get(),
@@ -72,16 +73,25 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::StringW)>(&::GlobalNamespace::MultiplayerUnavailableReasonMethods::VersionLessThan)> {
-  constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x14d7468;
+  constexpr static std::size_t size = 0x1c8;
+  constexpr static std::size_t addrs = 0x14dd438;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerUnavailableReasonMethods*>::get(), "VersionLessThan", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
+inline void GlobalNamespace::MultiplayerUnavailableReasonMethods::setStaticF_kContentVersionRegex(::System::Text::RegularExpressions::Regex* value) {
+  ::cordl_internals::setStaticField<::System::Text::RegularExpressions::Regex*, "kContentVersionRegex",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerUnavailableReasonMethods*>::get>(
+      std::forward<::System::Text::RegularExpressions::Regex*>(value));
+}
+inline ::System::Text::RegularExpressions::Regex* GlobalNamespace::MultiplayerUnavailableReasonMethods::getStaticF_kContentVersionRegex() {
+  return ::cordl_internals::getStaticField<::System::Text::RegularExpressions::Regex*, "kContentVersionRegex",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerUnavailableReasonMethods*>::get>();
+}
 inline ::StringW GlobalNamespace::MultiplayerUnavailableReasonMethods::LocalizedKey(::GlobalNamespace::MultiplayerUnavailableReason multiplayerUnavailableReason) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerUnavailableReasonMethods*>::get(), "LocalizedKey", std::span<Il2CppClass const* const, 0>(),

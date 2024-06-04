@@ -52,19 +52,19 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::TransformData>"
   constexpr operator ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::TransformData>*();
 
-  /// @brief Method Copy, addr 0x35d9254, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Copy, addr 0x3603750, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::TransformData Copy();
 
-  /// @brief Method CopyFrom, addr 0x35d9270, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method CopyFrom, addr 0x360376c, size 0x14, virtual true, abstract: false, final true
   inline void CopyFrom(ByRef<::UnityEngine::UIElements::TransformData> other);
 
-  /// @brief Method Equals, addr 0x35d93f0, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x36038ec, size 0xa0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x35d93ac, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x36038a8, size 0x44, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::TransformData other);
 
-  /// @brief Method GetHashCode, addr 0x35d9490, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x360398c, size 0x64, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::TransformData>"
@@ -73,7 +73,7 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::TransformData>"
   constexpr ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::TransformData>* i___UnityEngine__UIElements__IStyleDataGroup_1___UnityEngine__UIElements__TransformData_();
 
-  /// @brief Method op_Equality, addr 0x35d9284, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x3603780, size 0x128, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::TransformData lhs, ::UnityEngine::UIElements::TransformData rhs);
 
   // Ctor Parameters []

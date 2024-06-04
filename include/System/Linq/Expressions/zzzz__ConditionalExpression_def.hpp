@@ -47,19 +47,19 @@ public:
   /// @brief Field <Test>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__Test_k__BackingField, put = __cordl_internal_set__Test_k__BackingField))::System::Linq::Expressions::Expression* _Test_k__BackingField;
 
-  /// @brief Method Accept, addr 0x2bfe4ac, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Accept, addr 0x2c1eb9c, size 0x28, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* Accept(::System::Linq::Expressions::ExpressionVisitor* visitor);
 
-  /// @brief Method GetFalse, addr 0x2bfe454, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method GetFalse, addr 0x2c1eb44, size 0x58, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* GetFalse();
 
-  /// @brief Method Make, addr 0x2bfe1c0, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method Make, addr 0x2c1e8b0, size 0x204, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::ConditionalExpression* Make(::System::Linq::Expressions::Expression* test, ::System::Linq::Expressions::Expression* ifTrue,
                                                                          ::System::Linq::Expressions::Expression* ifFalse, ::System::Type* type);
 
   static inline ::System::Linq::Expressions::ConditionalExpression* New_ctor(::System::Linq::Expressions::Expression* test, ::System::Linq::Expressions::Expression* ifTrue);
 
-  /// @brief Method Update, addr 0x2bfe4d4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x2c1ebc4, size 0xd4, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::ConditionalExpression* Update(::System::Linq::Expressions::Expression* test, ::System::Linq::Expressions::Expression* ifTrue,
                                                                     ::System::Linq::Expressions::Expression* ifFalse);
 
@@ -75,22 +75,22 @@ public:
 
   constexpr void __cordl_internal_set__Test_k__BackingField(::System::Linq::Expressions::Expression* value);
 
-  /// @brief Method .ctor, addr 0x2bfe150, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c1e840, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Expression* test, ::System::Linq::Expressions::Expression* ifTrue);
 
-  /// @brief Method get_IfFalse, addr 0x2bfe448, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IfFalse, addr 0x2c1eb38, size 0xc, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_IfFalse();
 
-  /// @brief Method get_IfTrue, addr 0x2bfe440, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IfTrue, addr 0x2c1eb30, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_IfTrue();
 
-  /// @brief Method get_NodeType, addr 0x2bfe410, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_NodeType, addr 0x2c1eb00, size 0x8, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::ExpressionType get_NodeType();
 
-  /// @brief Method get_Test, addr 0x2bfe438, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Test, addr 0x2c1eb28, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Test();
 
-  /// @brief Method get_Type, addr 0x2bfe418, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x2c1eb08, size 0x20, virtual true, abstract: false, final false
   inline ::System::Type* get_Type();
 
 protected:

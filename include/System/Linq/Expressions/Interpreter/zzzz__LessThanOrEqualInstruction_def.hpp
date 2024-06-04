@@ -160,7 +160,7 @@ public:
   /// @brief Field s_liftedToNullUInt64, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_liftedToNullUInt64, put = setStaticF_s_liftedToNullUInt64))::System::Linq::Expressions::Interpreter::Instruction* s_liftedToNullUInt64;
 
-  /// @brief Method Create, addr 0x2c225bc, size 0x9ec, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x2c42cac, size 0x9ec, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::Interpreter::Instruction* Create(::System::Type* type, bool liftedToNull);
 
   static inline ::System::Linq::Expressions::Interpreter::LessThanOrEqualInstruction* New_ctor(::System::Object* nullValue);
@@ -171,7 +171,7 @@ public:
 
   constexpr void __cordl_internal_set__nullValue(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x2c27b68, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c48258, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* nullValue);
 
   static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_Byte();
@@ -218,13 +218,13 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_liftedToNullUInt64();
 
-  /// @brief Method get_ConsumedStack, addr 0x2c27b18, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x2c48208, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x2c27b28, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x2c48218, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x2c27b20, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x2c48210, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
   static inline void setStaticF_s_Byte(::System::Linq::Expressions::Interpreter::Instruction* value);

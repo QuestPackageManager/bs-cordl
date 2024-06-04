@@ -63,10 +63,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x265feb0, size 0x478, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26792b0, size 0x478, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x2660328, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2679728, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -129,10 +129,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x2660334, size 0x4c8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2679734, size 0x4c8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26607fc, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2679bfc, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -213,27 +213,27 @@ public:
   __declspec(property(get = __cordl_internal_get__stinsonOnlyEntries,
                       put = __cordl_internal_set__stinsonOnlyEntries))::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> _stinsonOnlyEntries;
 
-  /// @brief Method DidActivate, addr 0x265f9c4, size 0x214, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x2678dc4, size 0x214, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x265fc78, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x2679078, size 0x8c, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method GetPresetKey, addr 0x265fda0, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetPresetKey, addr 0x26791a0, size 0x108, virtual false, abstract: false, final false
   inline ::StringW GetPresetKey();
 
-  /// @brief Method Handle120HzToggleValueChangedAsync, addr 0x265fd9c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Handle120HzToggleValueChangedAsync, addr 0x267919c, size 0x4, virtual false, abstract: false, final false
   inline void Handle120HzToggleValueChangedAsync(bool newState);
 
-  /// @brief Method HandleMirrorChanged, addr 0x265fd04, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleMirrorChanged, addr 0x2679104, size 0x4, virtual false, abstract: false, final false
   inline void HandleMirrorChanged(int32_t newValue);
 
-  /// @brief Method InitializeSettingsAsync, addr 0x265fbd8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method InitializeSettingsAsync, addr 0x2678fd8, size 0xa0, virtual false, abstract: false, final false
   inline void InitializeSettingsAsync(bool firstActivation);
 
   static inline ::GlobalNamespace::QuestGraphicSettingsViewController* New_ctor();
 
-  /// @brief Method UpdatePreset, addr 0x265fd08, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method UpdatePreset, addr 0x2679108, size 0x94, virtual false, abstract: false, final false
   inline void UpdatePreset();
 
   constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__120HzMode() const;
@@ -254,7 +254,7 @@ public:
 
   constexpr void __cordl_internal_set__stinsonOnlyEntries(::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> value);
 
-  /// @brief Method .ctor, addr 0x265fea8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26792a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -107,7 +107,7 @@ public:
 
   constexpr void __cordl_internal_set__packGeometryBeforeMerging(bool value);
 
-  /// @brief Method .ctor, addr 0x25325f0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2549534, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

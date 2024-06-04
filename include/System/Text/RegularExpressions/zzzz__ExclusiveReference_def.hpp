@@ -32,12 +32,12 @@ public:
   /// @brief Field _ref, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__ref, put = __cordl_internal_set__ref))::System::Text::RegularExpressions::RegexRunner* _ref;
 
-  /// @brief Method Get, addr 0x2f85748, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Get, addr 0x2fa4e38, size 0x58, virtual false, abstract: false, final false
   inline ::System::Text::RegularExpressions::RegexRunner* Get();
 
   static inline ::System::Text::RegularExpressions::ExclusiveReference* New_ctor();
 
-  /// @brief Method Release, addr 0x2f857a0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x2fa4e90, size 0xbc, virtual false, abstract: false, final false
   inline void Release(::System::Text::RegularExpressions::RegexRunner* obj);
 
   constexpr int32_t const& __cordl_internal_get__locked() const;
@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set__ref(::System::Text::RegularExpressions::RegexRunner* value);
 
-  /// @brief Method .ctor, addr 0x2f8585c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fa4f4c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

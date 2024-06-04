@@ -27,9 +27,6 @@ class DebugSettings;
 namespace BeatSaber::GameSettings {
 class SmoothCamera;
 }
-namespace System {
-class Action;
-}
 namespace UnityEngine {
 struct Vector3;
 }
@@ -40,7 +37,7 @@ class MainSettings;
 // Write type traits
 MARK_REF_PTR_T(::BeatSaber::GameSettings::MainSettings);
 // Type: BeatSaber.GameSettings::MainSettings
-// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 126, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 102, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::GameSettings {
 // Is value type: false
 // CS Name: ::BeatSaber.GameSettings::MainSettings*
@@ -55,7 +52,7 @@ public:
   __declspec(property(get = __cordl_internal_get__controllerSettings_k__BackingField,
                       put = __cordl_internal_set__controllerSettings_k__BackingField))::BeatSaber::GameSettings::Controllers* _controllerSettings_k__BackingField;
 
-  /// @brief Field _createScreenshotDuringTheGame, offset 0x7d, size 0x1
+  /// @brief Field _createScreenshotDuringTheGame, offset 0x65, size 0x1
   __declspec(property(get = __cordl_internal_get__createScreenshotDuringTheGame, put = __cordl_internal_set__createScreenshotDuringTheGame)) bool _createScreenshotDuringTheGame;
 
   /// @brief Field <customServerSettings>k__BackingField, offset 0x38, size 0x8
@@ -66,7 +63,7 @@ public:
   __declspec(property(get = __cordl_internal_get__debugSettings_k__BackingField,
                       put = __cordl_internal_set__debugSettings_k__BackingField))::BeatSaber::GameSettings::DebugSettings* _debugSettings_k__BackingField;
 
-  /// @brief Field _hapticFeedback, offset 0x7c, size 0x1
+  /// @brief Field _hapticFeedback, offset 0x64, size 0x1
   __declspec(property(get = __cordl_internal_get__hapticFeedback, put = __cordl_internal_set__hapticFeedback)) bool _hapticFeedback;
 
   /// @brief Field _language, offset 0x48, size 0x8
@@ -75,10 +72,10 @@ public:
   /// @brief Field _pauseButtonPressDurationLevel, offset 0x50, size 0x4
   __declspec(property(get = __cordl_internal_get__pauseButtonPressDurationLevel, put = __cordl_internal_set__pauseButtonPressDurationLevel)) int32_t _pauseButtonPressDurationLevel;
 
-  /// @brief Field _roomCenter, offset 0x60, size 0xc
+  /// @brief Field _roomCenter, offset 0x54, size 0xc
   __declspec(property(get = __cordl_internal_get__roomCenter, put = __cordl_internal_set__roomCenter))::UnityEngine::Vector3 _roomCenter;
 
-  /// @brief Field _roomRotation, offset 0x78, size 0x4
+  /// @brief Field _roomRotation, offset 0x60, size 0x4
   __declspec(property(get = __cordl_internal_get__roomRotation, put = __cordl_internal_set__roomRotation)) float_t _roomRotation;
 
   /// @brief Field <smoothCameraSettings>k__BackingField, offset 0x28, size 0x8
@@ -105,13 +102,7 @@ public:
 
   __declspec(property(get = get_roomCenter, put = set_roomCenter))::UnityEngine::Vector3 roomCenter;
 
-  /// @brief Field roomCenterDidChange, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_roomCenterDidChange, put = __cordl_internal_set_roomCenterDidChange))::System::Action* roomCenterDidChange;
-
   __declspec(property(get = get_roomRotation, put = set_roomRotation)) float_t roomRotation;
-
-  /// @brief Field roomRotationDidChange, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_roomRotationDidChange, put = __cordl_internal_set_roomRotationDidChange))::System::Action* roomRotationDidChange;
 
   __declspec(property(get = get_smoothCameraSettings, put = set_smoothCameraSettings))::BeatSaber::GameSettings::SmoothCamera* smoothCameraSettings;
 
@@ -161,14 +152,6 @@ public:
 
   constexpr ::cordl_internals::to_const_pointer<::BeatSaber::GameSettings::SmoothCamera*> const& __cordl_internal_get__smoothCameraSettings_k__BackingField() const;
 
-  constexpr ::System::Action*& __cordl_internal_get_roomCenterDidChange();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_roomCenterDidChange() const;
-
-  constexpr ::System::Action*& __cordl_internal_get_roomRotationDidChange();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_roomRotationDidChange() const;
-
   constexpr void __cordl_internal_set__audioSettings_k__BackingField(::BeatSaber::GameSettings::Audio* value);
 
   constexpr void __cordl_internal_set__controllerSettings_k__BackingField(::BeatSaber::GameSettings::Controllers* value);
@@ -191,83 +174,79 @@ public:
 
   constexpr void __cordl_internal_set__smoothCameraSettings_k__BackingField(::BeatSaber::GameSettings::SmoothCamera* value);
 
-  constexpr void __cordl_internal_set_roomCenterDidChange(::System::Action* value);
-
-  constexpr void __cordl_internal_set_roomRotationDidChange(::System::Action* value);
-
-  /// @brief Method .ctor, addr 0x10600fc, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1067850, size 0x180, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_audioSettings, addr 0x106077c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_audioSettings, addr 0x1067eec, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::GameSettings::Audio* get_audioSettings();
 
-  /// @brief Method get_controllerSettings, addr 0x106079c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_controllerSettings, addr 0x1067f0c, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::GameSettings::Controllers* get_controllerSettings();
 
-  /// @brief Method get_createScreenshotDuringTheGame, addr 0x10608b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_createScreenshotDuringTheGame, addr 0x1067fe0, size 0x8, virtual false, abstract: false, final false
   inline bool get_createScreenshotDuringTheGame();
 
-  /// @brief Method get_customServerSettings, addr 0x10607ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_customServerSettings, addr 0x1067f1c, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::GameSettings::CustomServer* get_customServerSettings();
 
-  /// @brief Method get_debugSettings, addr 0x10607bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_debugSettings, addr 0x1067f2c, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::GameSettings::DebugSettings* get_debugSettings();
 
-  /// @brief Method get_hapticFeedback, addr 0x10608ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hapticFeedback, addr 0x1067fd8, size 0x8, virtual false, abstract: false, final false
   inline bool get_hapticFeedback();
 
-  /// @brief Method get_isDirty, addr 0x10606b4, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method get_isDirty, addr 0x1067e24, size 0x74, virtual true, abstract: false, final false
   inline bool get_isDirty();
 
-  /// @brief Method get_language, addr 0x10607cc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_language, addr 0x1067f3c, size 0xc, virtual false, abstract: false, final false
   inline ::BGLib::Polyglot::Language get_language();
 
-  /// @brief Method get_pauseButtonPressDurationLevel, addr 0x10607d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pauseButtonPressDurationLevel, addr 0x1067f48, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_pauseButtonPressDurationLevel();
 
-  /// @brief Method get_roomCenter, addr 0x10607e0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_roomCenter, addr 0x1067f50, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_roomCenter();
 
-  /// @brief Method get_roomRotation, addr 0x1060854, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_roomRotation, addr 0x1067fa0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_roomRotation();
 
-  /// @brief Method get_smoothCameraSettings, addr 0x106078c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_smoothCameraSettings, addr 0x1067efc, size 0x8, virtual false, abstract: false, final false
   inline ::BeatSaber::GameSettings::SmoothCamera* get_smoothCameraSettings();
 
-  /// @brief Method set_audioSettings, addr 0x1060784, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_audioSettings, addr 0x1067ef4, size 0x8, virtual false, abstract: false, final false
   inline void set_audioSettings(::BeatSaber::GameSettings::Audio* value);
 
-  /// @brief Method set_controllerSettings, addr 0x10607a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_controllerSettings, addr 0x1067f14, size 0x8, virtual false, abstract: false, final false
   inline void set_controllerSettings(::BeatSaber::GameSettings::Controllers* value);
 
-  /// @brief Method set_createScreenshotDuringTheGame, addr 0x10608bc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_createScreenshotDuringTheGame, addr 0x1067fe8, size 0x30, virtual false, abstract: false, final false
   inline void set_createScreenshotDuringTheGame(bool value);
 
-  /// @brief Method set_customServerSettings, addr 0x10607b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_customServerSettings, addr 0x1067f24, size 0x8, virtual false, abstract: false, final false
   inline void set_customServerSettings(::BeatSaber::GameSettings::CustomServer* value);
 
-  /// @brief Method set_debugSettings, addr 0x10607c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_debugSettings, addr 0x1067f34, size 0x8, virtual false, abstract: false, final false
   inline void set_debugSettings(::BeatSaber::GameSettings::DebugSettings* value);
 
-  /// @brief Method set_hapticFeedback, addr 0x10603ac, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_hapticFeedback, addr 0x1067b00, size 0x30, virtual false, abstract: false, final false
   inline void set_hapticFeedback(bool value);
 
-  /// @brief Method set_isDirty, addr 0x1060728, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method set_isDirty, addr 0x1067e98, size 0x54, virtual true, abstract: false, final false
   inline void set_isDirty(bool value);
 
-  /// @brief Method set_language, addr 0x106027c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_language, addr 0x10679d0, size 0x3c, virtual false, abstract: false, final false
   inline void set_language(::BGLib::Polyglot::Language value);
 
-  /// @brief Method set_pauseButtonPressDurationLevel, addr 0x10602b8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_pauseButtonPressDurationLevel, addr 0x1067a0c, size 0x30, virtual false, abstract: false, final false
   inline void set_pauseButtonPressDurationLevel(int32_t value);
 
-  /// @brief Method set_roomCenter, addr 0x10607ec, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_roomCenter, addr 0x1067f5c, size 0x44, virtual false, abstract: false, final false
   inline void set_roomCenter(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_roomRotation, addr 0x106085c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method set_roomRotation, addr 0x1067fa8, size 0x30, virtual false, abstract: false, final false
   inline void set_roomRotation(float_t value);
 
-  /// @brief Method set_smoothCameraSettings, addr 0x1060794, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_smoothCameraSettings, addr 0x1067f04, size 0x8, virtual false, abstract: false, final false
   inline void set_smoothCameraSettings(::BeatSaber::GameSettings::SmoothCamera* value);
 
 protected:
@@ -305,28 +284,22 @@ public:
   /// @brief Field _pauseButtonPressDurationLevel, offset: 0x50, size: 0x4, def value: None
   int32_t ____pauseButtonPressDurationLevel;
 
-  /// @brief Field roomCenterDidChange, offset: 0x58, size: 0x8, def value: None
-  ::System::Action* ___roomCenterDidChange;
-
-  /// @brief Field _roomCenter, offset: 0x60, size: 0xc, def value: None
+  /// @brief Field _roomCenter, offset: 0x54, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____roomCenter;
 
-  /// @brief Field roomRotationDidChange, offset: 0x70, size: 0x8, def value: None
-  ::System::Action* ___roomRotationDidChange;
-
-  /// @brief Field _roomRotation, offset: 0x78, size: 0x4, def value: None
+  /// @brief Field _roomRotation, offset: 0x60, size: 0x4, def value: None
   float_t ____roomRotation;
 
-  /// @brief Field _hapticFeedback, offset: 0x7c, size: 0x1, def value: None
+  /// @brief Field _hapticFeedback, offset: 0x64, size: 0x1, def value: None
   bool ____hapticFeedback;
 
-  /// @brief Field _createScreenshotDuringTheGame, offset: 0x7d, size: 0x1, def value: None
+  /// @brief Field _createScreenshotDuringTheGame, offset: 0x65, size: 0x1, def value: None
   bool ____createScreenshotDuringTheGame;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatSaber::GameSettings::MainSettings, 0x80>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::BeatSaber::GameSettings::MainSettings, 0x68>, "Size mismatch!");
 
 static_assert(offsetof(::BeatSaber::GameSettings::MainSettings, ____audioSettings_k__BackingField) == 0x20, "Offset mismatch!");
 
@@ -342,17 +315,13 @@ static_assert(offsetof(::BeatSaber::GameSettings::MainSettings, ____language) ==
 
 static_assert(offsetof(::BeatSaber::GameSettings::MainSettings, ____pauseButtonPressDurationLevel) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::GameSettings::MainSettings, ___roomCenterDidChange) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::GameSettings::MainSettings, ____roomCenter) == 0x54, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::GameSettings::MainSettings, ____roomCenter) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::GameSettings::MainSettings, ____roomRotation) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::GameSettings::MainSettings, ___roomRotationDidChange) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::GameSettings::MainSettings, ____hapticFeedback) == 0x64, "Offset mismatch!");
 
-static_assert(offsetof(::BeatSaber::GameSettings::MainSettings, ____roomRotation) == 0x78, "Offset mismatch!");
-
-static_assert(offsetof(::BeatSaber::GameSettings::MainSettings, ____hapticFeedback) == 0x7c, "Offset mismatch!");
-
-static_assert(offsetof(::BeatSaber::GameSettings::MainSettings, ____createScreenshotDuringTheGame) == 0x7d, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::GameSettings::MainSettings, ____createScreenshotDuringTheGame) == 0x65, "Offset mismatch!");
 
 } // namespace BeatSaber::GameSettings
 NEED_NO_BOX(::BeatSaber::GameSettings::MainSettings);

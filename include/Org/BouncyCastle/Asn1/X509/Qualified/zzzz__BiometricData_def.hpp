@@ -61,7 +61,7 @@ public:
   __declspec(property(get = __cordl_internal_get_typeOfBiometricData,
                       put = __cordl_internal_set_typeOfBiometricData))::Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData* typeOfBiometricData;
 
-  /// @brief Method GetInstance, addr 0x12e09dc, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x12ea24c, size 0x168, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::Qualified::BiometricData* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::Qualified::BiometricData* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
@@ -75,7 +75,7 @@ public:
                                                                                     ::Org::BouncyCastle::Asn1::Asn1OctetString* biometricDataHash,
                                                                                     ::Org::BouncyCastle::Asn1::DerIA5String* sourceDataUri);
 
-  /// @brief Method ToAsn1Object, addr 0x12e0e8c, size 0x1a0, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x12ea6fc, size 0x1a0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_biometricDataHash();
@@ -102,27 +102,27 @@ public:
 
   constexpr void __cordl_internal_set_typeOfBiometricData(::Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData* value);
 
-  /// @brief Method .ctor, addr 0x12e0b44, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12ea3b4, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method .ctor, addr 0x12e0e30, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12ea6a0, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData* typeOfBiometricData, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgorithm,
                     ::Org::BouncyCastle::Asn1::Asn1OctetString* biometricDataHash);
 
-  /// @brief Method .ctor, addr 0x12e0df0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12ea660, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData* typeOfBiometricData, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgorithm,
                     ::Org::BouncyCastle::Asn1::Asn1OctetString* biometricDataHash, ::Org::BouncyCastle::Asn1::DerIA5String* sourceDataUri);
 
-  /// @brief Method get_BiometricDataHash, addr 0x12e0e7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BiometricDataHash, addr 0x12ea6ec, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_BiometricDataHash();
 
-  /// @brief Method get_HashAlgorithm, addr 0x12e0e74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HashAlgorithm, addr 0x12ea6e4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_HashAlgorithm();
 
-  /// @brief Method get_SourceDataUri, addr 0x12e0e84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SourceDataUri, addr 0x12ea6f4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerIA5String* get_SourceDataUri();
 
-  /// @brief Method get_TypeOfBiometricData, addr 0x12e0e6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TypeOfBiometricData, addr 0x12ea6dc, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::Qualified::TypeOfBiometricData* get_TypeOfBiometricData();
 
 protected:

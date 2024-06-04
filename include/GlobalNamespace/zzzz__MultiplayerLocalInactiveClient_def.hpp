@@ -32,7 +32,7 @@ public:
   /// @brief Field _playerTransforms, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__playerTransforms, put = __cordl_internal_set__playerTransforms))::UnityW<::GlobalNamespace::PlayerTransforms> _playerTransforms;
 
-  /// @brief Method LateUpdate, addr 0x26fcf4c, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x2715688, size 0x348, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::MultiplayerLocalInactiveClient* New_ctor();
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set__playerTransforms(::UnityW<::GlobalNamespace::PlayerTransforms> value);
 
-  /// @brief Method .ctor, addr 0x26fd294, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x27159d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -12,6 +12,9 @@ CORDL_MODULE_EXPORT(Variant)
 namespace System {
 struct BRECORD;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace System {
 struct Variant;
@@ -36,7 +39,7 @@ public:
   __declspec(property(get = __cordl_internal_get_boolVal, put = __cordl_internal_set_boolVal)) int16_t boolVal;
 
   /// @brief Field bstrVal, offset 0x8, size 0x8
-  __declspec(property(get = __cordl_internal_get_bstrVal, put = __cordl_internal_set_bstrVal)) void* bstrVal;
+  __declspec(property(get = __cordl_internal_get_bstrVal, put = __cordl_internal_set_bstrVal))::System::IntPtr bstrVal;
 
   /// @brief Field cVal, offset 0x8, size 0x1
   __declspec(property(get = __cordl_internal_get_cVal, put = __cordl_internal_set_cVal)) int8_t cVal;
@@ -60,7 +63,7 @@ public:
   __declspec(property(get = __cordl_internal_get_llVal, put = __cordl_internal_set_llVal)) int64_t llVal;
 
   /// @brief Field pdispVal, offset 0x8, size 0x8
-  __declspec(property(get = __cordl_internal_get_pdispVal, put = __cordl_internal_set_pdispVal)) void* pdispVal;
+  __declspec(property(get = __cordl_internal_get_pdispVal, put = __cordl_internal_set_pdispVal))::System::IntPtr pdispVal;
 
   /// @brief Field uiVal, offset 0x8, size 0x2
   __declspec(property(get = __cordl_internal_get_uiVal, put = __cordl_internal_set_uiVal)) uint16_t uiVal;
@@ -86,7 +89,7 @@ public:
   /// @brief Field wReserved3, offset 0x6, size 0x2
   __declspec(property(get = __cordl_internal_get_wReserved3, put = __cordl_internal_set_wReserved3)) uint16_t wReserved3;
 
-  /// @brief Method Clear, addr 0x298ef60, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x29aa5ec, size 0x74, virtual false, abstract: false, final false
   inline void Clear();
 
   constexpr ::System::BRECORD const& __cordl_internal_get_bRecord() const;
@@ -101,9 +104,9 @@ public:
 
   constexpr int16_t& __cordl_internal_get_boolVal();
 
-  constexpr void* const& __cordl_internal_get_bstrVal() const;
+  constexpr ::System::IntPtr const& __cordl_internal_get_bstrVal() const;
 
-  constexpr void*& __cordl_internal_get_bstrVal();
+  constexpr ::System::IntPtr& __cordl_internal_get_bstrVal();
 
   constexpr int8_t const& __cordl_internal_get_cVal() const;
 
@@ -133,9 +136,9 @@ public:
 
   constexpr int64_t& __cordl_internal_get_llVal();
 
-  constexpr void* const& __cordl_internal_get_pdispVal() const;
+  constexpr ::System::IntPtr const& __cordl_internal_get_pdispVal() const;
 
-  constexpr void*& __cordl_internal_get_pdispVal();
+  constexpr ::System::IntPtr& __cordl_internal_get_pdispVal();
 
   constexpr uint16_t const& __cordl_internal_get_uiVal() const;
 
@@ -175,7 +178,7 @@ public:
 
   constexpr void __cordl_internal_set_boolVal(int16_t value);
 
-  constexpr void __cordl_internal_set_bstrVal(void* value);
+  constexpr void __cordl_internal_set_bstrVal(::System::IntPtr value);
 
   constexpr void __cordl_internal_set_cVal(int8_t value);
 
@@ -191,7 +194,7 @@ public:
 
   constexpr void __cordl_internal_set_llVal(int64_t value);
 
-  constexpr void __cordl_internal_set_pdispVal(void* value);
+  constexpr void __cordl_internal_set_pdispVal(::System::IntPtr value);
 
   constexpr void __cordl_internal_set_uiVal(uint16_t value);
 
@@ -217,13 +220,14 @@ public:
   // "wReserved2", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "wReserved3", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "llVal", ty: "int64_t",
   // modifiers: "", def_value: None }, CppParam { name: "lVal", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "bVal", ty: "uint8_t", modifiers: "", def_value: None }, CppParam {
   // name: "iVal", ty: "int16_t", modifiers: "", def_value: None }, CppParam { name: "fltVal", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "dblVal", ty: "double_t", modifiers:
-  // "", def_value: None }, CppParam { name: "boolVal", ty: "int16_t", modifiers: "", def_value: None }, CppParam { name: "bstrVal", ty: "void*", modifiers: "", def_value: None }, CppParam { name:
-  // "cVal", ty: "int8_t", modifiers: "", def_value: None }, CppParam { name: "uiVal", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "ulVal", ty: "uint32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "ullVal", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "intVal", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "uintVal", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "pdispVal", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "bRecord", ty: "::System::BRECORD",
-  // modifiers: "", def_value: None }]
+  // "", def_value: None }, CppParam { name: "boolVal", ty: "int16_t", modifiers: "", def_value: None }, CppParam { name: "bstrVal", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam
+  // { name: "cVal", ty: "int8_t", modifiers: "", def_value: None }, CppParam { name: "uiVal", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "ulVal", ty: "uint32_t", modifiers:
+  // "", def_value: None }, CppParam { name: "ullVal", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "intVal", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
+  // "uintVal", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "pdispVal", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "bRecord", ty:
+  // "::System::BRECORD", modifiers: "", def_value: None }]
   constexpr Variant(int16_t vt, uint16_t wReserved1, uint16_t wReserved2, uint16_t wReserved3, int64_t llVal, int32_t lVal, uint8_t bVal, int16_t iVal, float_t fltVal, double_t dblVal,
-                    int16_t boolVal, void* bstrVal, int8_t cVal, uint16_t uiVal, uint32_t ulVal, uint64_t ullVal, int32_t intVal, uint32_t uintVal, void* pdispVal, ::System::BRECORD bRecord) noexcept;
+                    int16_t boolVal, ::System::IntPtr bstrVal, int8_t cVal, uint16_t uiVal, uint32_t ulVal, uint64_t ullVal, int32_t intVal, uint32_t uintVal, ::System::IntPtr pdispVal,
+                    ::System::BRECORD bRecord) noexcept;
 
 private:
   /// @brief Explicitly laid out type with union based offsets
@@ -387,14 +391,14 @@ private:
       /// @brief Padding field 0x8
       uint8_t ___bstrVal_padding[0x8];
       /// @brief Field bstrVal, offset: 0x8, size: 0x8, def value: None
-      void* ___bstrVal;
+      ::System::IntPtr ___bstrVal;
     };
 #pragma pack(pop, tp)
     struct {
       /// @brief Padding field 0x8 for alignment
       uint8_t ___bstrVal_padding_forAlignment[0x8];
       /// @brief Field bstrVal, offset: 0x8, size: 0x8, def value: None
-      void* ___bstrVal_forAlignment;
+      ::System::IntPtr ___bstrVal_forAlignment;
     };
 #pragma pack(push, tp, 1)
     struct {
@@ -485,14 +489,14 @@ private:
       /// @brief Padding field 0x8
       uint8_t ___pdispVal_padding[0x8];
       /// @brief Field pdispVal, offset: 0x8, size: 0x8, def value: None
-      void* ___pdispVal;
+      ::System::IntPtr ___pdispVal;
     };
 #pragma pack(pop, tp)
     struct {
       /// @brief Padding field 0x8 for alignment
       uint8_t ___pdispVal_padding_forAlignment[0x8];
       /// @brief Field pdispVal, offset: 0x8, size: 0x8, def value: None
-      void* ___pdispVal_forAlignment;
+      ::System::IntPtr ___pdispVal_forAlignment;
     };
 #pragma pack(push, tp, 1)
     struct {

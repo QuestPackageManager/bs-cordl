@@ -14,6 +14,9 @@ namespace System {
 template <typename T> class IEquatable_1;
 }
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Object;
 }
 namespace UnityEngine {
@@ -47,71 +50,71 @@ public:
   __declspec(property(get = get_colorKeys, put = set_colorKeys))::ArrayW<::UnityEngine::GradientColorKey, ::Array<::UnityEngine::GradientColorKey>*> colorKeys;
 
   /// @brief Field m_Ptr, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) void* m_Ptr;
+  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr))::System::IntPtr m_Ptr;
 
   __declspec(property(put = set_mode))::UnityEngine::GradientMode mode;
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Gradient*>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Gradient*>*() noexcept;
 
-  /// @brief Method Cleanup, addr 0x341b194, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x3445688, size 0x3c, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method Equals, addr 0x341b568, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3445a5c, size 0xc8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method Equals, addr 0x341b630, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x3445b24, size 0xc8, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Gradient* other);
 
-  /// @brief Method Evaluate, addr 0x341b314, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Evaluate, addr 0x3445808, size 0x68, virtual false, abstract: false, final false
   inline ::UnityEngine::Color Evaluate(float_t time);
 
-  /// @brief Method Evaluate_Injected, addr 0x341b37c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Evaluate_Injected, addr 0x3445870, size 0x54, virtual false, abstract: false, final false
   inline void Evaluate_Injected(float_t time, ByRef<::UnityEngine::Color> ret);
 
-  /// @brief Method Finalize, addr 0x341b25c, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x3445750, size 0xb8, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method GetHashCode, addr 0x341b6f8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3445bec, size 0xc, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Init, addr 0x341b16c, size 0x28, virtual false, abstract: false, final false
-  static inline void* Init();
+  /// @brief Method Init, addr 0x3445660, size 0x28, virtual false, abstract: false, final false
+  static inline ::System::IntPtr Init();
 
-  /// @brief Method Internal_Equals, addr 0x341b1d0, size 0x44, virtual false, abstract: false, final false
-  inline bool Internal_Equals(void* other);
+  /// @brief Method Internal_Equals, addr 0x34456c4, size 0x44, virtual false, abstract: false, final false
+  inline bool Internal_Equals(::System::IntPtr other);
 
   static inline ::UnityEngine::Gradient* New_ctor();
 
-  /// @brief Method SetKeys, addr 0x341b514, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method SetKeys, addr 0x3445a08, size 0x54, virtual false, abstract: false, final false
   inline void SetKeys(::ArrayW<::UnityEngine::GradientColorKey, ::Array<::UnityEngine::GradientColorKey>*> colorKeys,
                       ::ArrayW<::UnityEngine::GradientAlphaKey, ::Array<::UnityEngine::GradientAlphaKey>*> alphaKeys);
 
-  constexpr void* const& __cordl_internal_get_m_Ptr() const;
+  constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
 
-  constexpr void*& __cordl_internal_get_m_Ptr();
+  constexpr ::System::IntPtr& __cordl_internal_get_m_Ptr();
 
-  constexpr void __cordl_internal_set_m_Ptr(void* value);
+  constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x341b214, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3445708, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_alphaKeys, addr 0x341b450, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_alphaKeys, addr 0x3445944, size 0x3c, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::GradientAlphaKey, ::Array<::UnityEngine::GradientAlphaKey>*> get_alphaKeys();
 
-  /// @brief Method get_colorKeys, addr 0x341b3d0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_colorKeys, addr 0x34458c4, size 0x3c, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::GradientColorKey, ::Array<::UnityEngine::GradientColorKey>*> get_colorKeys();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Gradient*>"
   constexpr ::System::IEquatable_1<::UnityEngine::Gradient*>* i___System__IEquatable_1___UnityEngine__Gradient__() noexcept;
 
-  /// @brief Method set_alphaKeys, addr 0x341b48c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_alphaKeys, addr 0x3445980, size 0x44, virtual false, abstract: false, final false
   inline void set_alphaKeys(::ArrayW<::UnityEngine::GradientAlphaKey, ::Array<::UnityEngine::GradientAlphaKey>*> value);
 
-  /// @brief Method set_colorKeys, addr 0x341b40c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_colorKeys, addr 0x3445900, size 0x44, virtual false, abstract: false, final false
   inline void set_colorKeys(::ArrayW<::UnityEngine::GradientColorKey, ::Array<::UnityEngine::GradientColorKey>*> value);
 
-  /// @brief Method set_mode, addr 0x341b4d0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_mode, addr 0x34459c4, size 0x44, virtual false, abstract: false, final false
   inline void set_mode(::UnityEngine::GradientMode value);
 
 protected:
@@ -129,7 +132,7 @@ public:
   Gradient(Gradient const&) = delete;
 
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
-  void* ___m_Ptr;
+  ::System::IntPtr ___m_Ptr;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

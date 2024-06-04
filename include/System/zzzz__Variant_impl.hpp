@@ -4,14 +4,15 @@
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Variant_def.hpp"
 #include "System/zzzz__BRECORD_def.hpp"
+#include "System/zzzz__IntPtr_def.hpp"
 //  Writing Method size for method: ::System::Variant.Clear
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Variant::*)()>(&::System::Variant::Clear)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x298ef60;
+  constexpr static std::size_t addrs = 0x29aa5ec;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Variant>::get(), "Clear",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
@@ -116,13 +117,13 @@ constexpr int16_t const& System::Variant::__cordl_internal_get_boolVal() const {
 constexpr void System::Variant::__cordl_internal_set_boolVal(int16_t value) {
   this->___boolVal = value;
 }
-constexpr void*& System::Variant::__cordl_internal_get_bstrVal() {
+constexpr ::System::IntPtr& System::Variant::__cordl_internal_get_bstrVal() {
   return this->___bstrVal;
 }
-constexpr void* const& System::Variant::__cordl_internal_get_bstrVal() const {
+constexpr ::System::IntPtr const& System::Variant::__cordl_internal_get_bstrVal() const {
   return this->___bstrVal;
 }
-constexpr void System::Variant::__cordl_internal_set_bstrVal(void* value) {
+constexpr void System::Variant::__cordl_internal_set_bstrVal(::System::IntPtr value) {
   this->___bstrVal = value;
 }
 constexpr int8_t& System::Variant::__cordl_internal_get_cVal() {
@@ -179,13 +180,13 @@ constexpr uint32_t const& System::Variant::__cordl_internal_get_uintVal() const 
 constexpr void System::Variant::__cordl_internal_set_uintVal(uint32_t value) {
   this->___uintVal = value;
 }
-constexpr void*& System::Variant::__cordl_internal_get_pdispVal() {
+constexpr ::System::IntPtr& System::Variant::__cordl_internal_get_pdispVal() {
   return this->___pdispVal;
 }
-constexpr void* const& System::Variant::__cordl_internal_get_pdispVal() const {
+constexpr ::System::IntPtr const& System::Variant::__cordl_internal_get_pdispVal() const {
   return this->___pdispVal;
 }
-constexpr void System::Variant::__cordl_internal_set_pdispVal(void* value) {
+constexpr void System::Variant::__cordl_internal_set_pdispVal(::System::IntPtr value) {
   this->___pdispVal = value;
 }
 constexpr ::System::BRECORD& System::Variant::__cordl_internal_get_bRecord() {
@@ -206,14 +207,14 @@ inline void System::Variant::Clear() {
 // name: "wReserved2", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "wReserved3", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "llVal", ty:
 // "int64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "lVal", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "bVal", ty: "uint8_t", modifiers: "", def_value:
 // Some("{}") }, CppParam { name: "iVal", ty: "int16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "fltVal", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "dblVal", ty: "double_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "boolVal", ty: "int16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "bstrVal", ty: "void*",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "cVal", ty: "int8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "uiVal", ty: "uint16_t", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "ulVal", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ullVal", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "intVal",
-// ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "uintVal", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "pdispVal", ty: "void*", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "bRecord", ty: "::System::BRECORD", modifiers: "", def_value: Some("{}") }]
+// "dblVal", ty: "double_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "boolVal", ty: "int16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "bstrVal", ty:
+// "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam { name: "cVal", ty: "int8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "uiVal", ty: "uint16_t", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "ulVal", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "ullVal", ty: "uint64_t", modifiers: "", def_value: Some("{}") },
+// CppParam { name: "intVal", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "uintVal", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "pdispVal",
+// ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam { name: "bRecord", ty: "::System::BRECORD", modifiers: "", def_value: Some("{}") }]
 constexpr ::System::Variant::Variant(int16_t vt, uint16_t wReserved1, uint16_t wReserved2, uint16_t wReserved3, int64_t llVal, int32_t lVal, uint8_t bVal, int16_t iVal, float_t fltVal,
-                                     double_t dblVal, int16_t boolVal, void* bstrVal, int8_t cVal, uint16_t uiVal, uint32_t ulVal, uint64_t ullVal, int32_t intVal, uint32_t uintVal, void* pdispVal,
-                                     ::System::BRECORD bRecord) noexcept {
+                                     double_t dblVal, int16_t boolVal, ::System::IntPtr bstrVal, int8_t cVal, uint16_t uiVal, uint32_t ulVal, uint64_t ullVal, int32_t intVal, uint32_t uintVal,
+                                     ::System::IntPtr pdispVal, ::System::BRECORD bRecord) noexcept {
   this->vt = vt;
   this->wReserved1 = wReserved1;
   this->wReserved2 = wReserved2;

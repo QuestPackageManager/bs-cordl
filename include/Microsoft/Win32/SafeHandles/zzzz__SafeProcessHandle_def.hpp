@@ -6,6 +6,9 @@ CORDL_MODULE_INIT
 #include "Microsoft/Win32/SafeHandles/zzzz__SafeHandleZeroOrMinusOneIsInvalid_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SafeProcessHandle)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Microsoft::Win32::SafeHandles {
 class SafeProcessHandle;
@@ -23,18 +26,18 @@ public:
   /// @brief Field InvalidHandle, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_InvalidHandle, put = setStaticF_InvalidHandle))::Microsoft::Win32::SafeHandles::SafeProcessHandle* InvalidHandle;
 
-  static inline ::Microsoft::Win32::SafeHandles::SafeProcessHandle* New_ctor(void* existingHandle, bool ownsHandle);
+  static inline ::Microsoft::Win32::SafeHandles::SafeProcessHandle* New_ctor(::System::IntPtr existingHandle, bool ownsHandle);
 
-  static inline ::Microsoft::Win32::SafeHandles::SafeProcessHandle* New_ctor(void* handle);
+  static inline ::Microsoft::Win32::SafeHandles::SafeProcessHandle* New_ctor(::System::IntPtr handle);
 
-  /// @brief Method ReleaseHandle, addr 0x2c70474, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ReleaseHandle, addr 0x2c91b64, size 0x8, virtual true, abstract: false, final false
   inline bool ReleaseHandle();
 
-  /// @brief Method .ctor, addr 0x2c70218, size 0x2c, virtual false, abstract: false, final false
-  inline void _ctor(void* existingHandle, bool ownsHandle);
+  /// @brief Method .ctor, addr 0x2c91908, size 0x2c, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr existingHandle, bool ownsHandle);
 
-  /// @brief Method .ctor, addr 0x2c70448, size 0x2c, virtual false, abstract: false, final false
-  inline void _ctor(void* handle);
+  /// @brief Method .ctor, addr 0x2c91b38, size 0x2c, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr handle);
 
   static inline ::Microsoft::Win32::SafeHandles::SafeProcessHandle* getStaticF_InvalidHandle();
 

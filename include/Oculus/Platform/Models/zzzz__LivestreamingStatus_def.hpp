@@ -6,6 +6,9 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LivestreamingStatus)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class LivestreamingStatus;
@@ -35,7 +38,7 @@ public:
   /// @brief Field MicEnabled, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_MicEnabled, put = __cordl_internal_set_MicEnabled)) bool MicEnabled;
 
-  static inline ::Oculus::Platform::Models::LivestreamingStatus* New_ctor(void* o);
+  static inline ::Oculus::Platform::Models::LivestreamingStatus* New_ctor(::System::IntPtr o);
 
   constexpr bool const& __cordl_internal_get_CommentsVisible() const;
 
@@ -67,8 +70,8 @@ public:
 
   constexpr void __cordl_internal_set_MicEnabled(bool value);
 
-  /// @brief Method .ctor, addr 0x2add4b8, size 0xc8, virtual false, abstract: false, final false
-  inline void _ctor(void* o);
+  /// @brief Method .ctor, addr 0x2afdb44, size 0xc8, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr o);
 
 protected:
   // Ctor Parameters []

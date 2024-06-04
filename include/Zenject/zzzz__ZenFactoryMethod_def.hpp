@@ -14,6 +14,9 @@ namespace System {
 class IAsyncResult;
 }
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Object;
 }
 // Forward declare root types
@@ -30,19 +33,19 @@ namespace Zenject {
 class CORDL_TYPE ZenFactoryMethod : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x360e758, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x3639c54, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x360e778, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x3639c74, size 0xc, virtual true, abstract: false, final false
   inline ::System::Object* EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x360e744, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3639c40, size 0x14, virtual true, abstract: false, final false
   inline ::System::Object* Invoke(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  static inline ::Zenject::ZenFactoryMethod* New_ctor(::System::Object* object, void* method);
+  static inline ::Zenject::ZenFactoryMethod* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x360e618, size 0x12c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
+  /// @brief Method .ctor, addr 0x3639b14, size 0x12c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []

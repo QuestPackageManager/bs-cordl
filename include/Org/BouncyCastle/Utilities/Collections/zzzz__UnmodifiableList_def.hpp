@@ -59,10 +59,10 @@ public:
   /// @brief Convert operator to "::System::Collections::IList"
   constexpr operator ::System::Collections::IList*() noexcept;
 
-  /// @brief Method Add, addr 0x13bc118, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x13c3988, size 0x40, virtual true, abstract: false, final false
   inline int32_t Add(::System::Object* o);
 
-  /// @brief Method Clear, addr 0x13bc158, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method Clear, addr 0x13c39c8, size 0x40, virtual true, abstract: false, final false
   inline void Clear();
 
   /// @brief Method Contains, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -80,18 +80,18 @@ public:
   /// @brief Method IndexOf, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t IndexOf(::System::Object* o);
 
-  /// @brief Method Insert, addr 0x13bc198, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method Insert, addr 0x13c3a08, size 0x40, virtual true, abstract: false, final false
   inline void Insert(int32_t i, ::System::Object* o);
 
   static inline ::Org::BouncyCastle::Utilities::Collections::UnmodifiableList* New_ctor();
 
-  /// @brief Method Remove, addr 0x13bc1e0, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method Remove, addr 0x13c3a50, size 0x40, virtual true, abstract: false, final false
   inline void Remove(::System::Object* o);
 
-  /// @brief Method RemoveAt, addr 0x13bc220, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method RemoveAt, addr 0x13c3a90, size 0x40, virtual true, abstract: false, final false
   inline void RemoveAt(int32_t i);
 
-  /// @brief Method .ctor, addr 0x13bc110, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13c3980, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -100,13 +100,13 @@ public:
   /// @brief Method get_IsFixedSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsFixedSize();
 
-  /// @brief Method get_IsReadOnly, addr 0x13bc1d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x13c3a48, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
   /// @brief Method get_IsSynchronized, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_Item, addr 0x13bc260, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method get_Item, addr 0x13c3ad0, size 0x10, virtual true, abstract: false, final false
   inline ::System::Object* get_Item(int32_t i);
 
   /// @brief Method get_SyncRoot, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
@@ -121,7 +121,7 @@ public:
   /// @brief Convert to "::System::Collections::IList"
   constexpr ::System::Collections::IList* i___System__Collections__IList() noexcept;
 
-  /// @brief Method set_Item, addr 0x13bc270, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method set_Item, addr 0x13c3ae0, size 0x40, virtual true, abstract: false, final false
   inline void set_Item(int32_t i, ::System::Object* value);
 
 protected:

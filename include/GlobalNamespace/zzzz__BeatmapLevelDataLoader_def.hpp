@@ -62,10 +62,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x14b6494, size 0x260, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x14bbce0, size 0x260, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x14b676c, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x14bbfb8, size 0x58, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -148,20 +148,20 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method CheckBeatmapLevelDataFromAssetBundleExistsAsync, addr 0x14b60c4, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method CheckBeatmapLevelDataFromAssetBundleExistsAsync, addr 0x14bb910, size 0x118, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* CheckBeatmapLevelDataFromAssetBundleExistsAsync(::StringW levelId, ::StringW assetBundlePath,
                                                                                                    ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method Dispose, addr 0x14b61dc, size 0x1b4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x14bba28, size 0x1b4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method LoadBeatmapLevelDataFromAssetBundleAsync, addr 0x14b5d64, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method LoadBeatmapLevelDataFromAssetBundleAsync, addr 0x14bb5b0, size 0x134, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IBeatmapLevelData*>* LoadBeatmapLevelDataFromAssetBundleAsync(::StringW levelId, ::StringW assetBundlePath, ::StringW levelDataAssetName,
                                                                                                                              ::System::Threading::CancellationToken cancellationToken);
 
   static inline ::GlobalNamespace::BeatmapLevelDataLoader* New_ctor();
 
-  /// @brief Method TryUnload, addr 0x14b6390, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method TryUnload, addr 0x14bbbdc, size 0x88, virtual false, abstract: false, final false
   inline bool TryUnload(::StringW beatmapLevelId);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::BeatmapLevelDataLoadRequest*>*& __cordl_internal_get__loadRequests();
@@ -171,10 +171,10 @@ public:
 
   constexpr void __cordl_internal_set__loadRequests(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::BeatmapLevelDataLoadRequest*>* value);
 
-  /// @brief Method .ctor, addr 0x14b6418, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14bbc64, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_loadRequestCount, addr 0x14b5d14, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_loadRequestCount, addr 0x14bb560, size 0x50, virtual false, abstract: false, final false
   inline int32_t get_loadRequestCount();
 
   /// @brief Convert to "::System::IDisposable"

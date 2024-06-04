@@ -24,7 +24,7 @@ public:
 
   static inline ::System::EventArgs* New_ctor();
 
-  /// @brief Method .ctor, addr 0x291b8ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2936f78, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::EventArgs* getStaticF_Empty();

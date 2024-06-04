@@ -46,12 +46,12 @@ public:
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::InstanceProvider* New_ctor();
 
-  /// @brief Method ProvideInstance, addr 0x330d1d4, size 0xd8, virtual true, abstract: false, final true
+  /// @brief Method ProvideInstance, addr 0x3336528, size 0xd8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::GameObject> ProvideInstance(::UnityEngine::ResourceManagement::ResourceManager* resourceManager,
                                                              ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>> prefabHandle,
                                                              ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters instantiateParameters);
 
-  /// @brief Method ReleaseInstance, addr 0x330d2ac, size 0x218, virtual true, abstract: false, final true
+  /// @brief Method ReleaseInstance, addr 0x3336600, size 0x218, virtual true, abstract: false, final true
   inline void ReleaseInstance(::UnityEngine::ResourceManagement::ResourceManager* resourceManager, ::UnityEngine::GameObject* instance);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::GameObject>,
@@ -66,7 +66,7 @@ public:
       ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::GameObject>,
                                                    ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>>>* value);
 
-  /// @brief Method .ctor, addr 0x330d4c4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3336818, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider"

@@ -10,6 +10,9 @@ CORDL_MODULE_EXPORT(CompensateDirectionProcessor)
 namespace UnityEngine::InputSystem {
 class InputControl;
 }
+namespace UnityEngine::InputSystem {
+struct __InputProcessor__CachingPolicy;
+}
 namespace UnityEngine {
 struct Vector3;
 }
@@ -27,16 +30,21 @@ namespace UnityEngine::InputSystem::Processors {
 class CORDL_TYPE CompensateDirectionProcessor : public ::UnityEngine::InputSystem::InputProcessor_1<::UnityEngine::Vector3> {
 public:
   // Declarations
+  __declspec(property(get = get_cachingPolicy))::UnityEngine::InputSystem::__InputProcessor__CachingPolicy cachingPolicy;
+
   static inline ::UnityEngine::InputSystem::Processors::CompensateDirectionProcessor* New_ctor();
 
-  /// @brief Method Process, addr 0x31674f4, size 0x1f0, virtual true, abstract: false, final false
+  /// @brief Method Process, addr 0x318bcac, size 0x1f0, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 Process(::UnityEngine::Vector3 value, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method ToString, addr 0x31676e4, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x318be9c, size 0x40, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x3167724, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x318bee4, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
+
+  /// @brief Method get_cachingPolicy, addr 0x318bedc, size 0x8, virtual true, abstract: false, final false
+  inline ::UnityEngine::InputSystem::__InputProcessor__CachingPolicy get_cachingPolicy();
 
 protected:
   // Ctor Parameters []

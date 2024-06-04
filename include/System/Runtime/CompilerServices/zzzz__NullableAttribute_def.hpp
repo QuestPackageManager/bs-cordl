@@ -34,10 +34,10 @@ public:
 
   constexpr void __cordl_internal_set_NullableFlags(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x1061444, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1064408, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> _cordl_fixed_empty_name_whitespace);
 
-  /// @brief Method .ctor, addr 0x10613c4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1064388, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(uint8_t _cordl_fixed_empty_name_whitespace);
 
 protected:

@@ -40,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set_min(float_t value);
 
-  /// @brief Method .ctor, addr 0x340a20c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3433700, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(float_t min, float_t max);
 
 protected:

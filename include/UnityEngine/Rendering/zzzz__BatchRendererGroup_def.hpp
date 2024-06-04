@@ -10,6 +10,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BatchRendererGroup)
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Object;
 }
 namespace Unity::Jobs {
@@ -45,13 +48,13 @@ namespace UnityEngine::Rendering {
 class CORDL_TYPE __BatchRendererGroup__OnPerformCulling : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x3431230, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x345a72c, size 0x5c, virtual true, abstract: false, final false
   inline ::Unity::Jobs::JobHandle Invoke(::UnityEngine::Rendering::BatchRendererGroup* rendererGroup, ::UnityEngine::Rendering::BatchCullingContext cullingContext);
 
-  static inline ::UnityEngine::Rendering::__BatchRendererGroup__OnPerformCulling* New_ctor(::System::Object* object, void* method);
+  static inline ::UnityEngine::Rendering::__BatchRendererGroup__OnPerformCulling* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3431100, size 0x130, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
+  /// @brief Method .ctor, addr 0x345a5fc, size 0x130, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
@@ -84,24 +87,24 @@ public:
   using OnPerformCulling = ::UnityEngine::Rendering::__BatchRendererGroup__OnPerformCulling;
 
   /// @brief Field m_GroupHandle, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_GroupHandle, put = __cordl_internal_set_m_GroupHandle)) void* m_GroupHandle;
+  __declspec(property(get = __cordl_internal_get_m_GroupHandle, put = __cordl_internal_set_m_GroupHandle))::System::IntPtr m_GroupHandle;
 
   /// @brief Field m_PerformCulling, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_PerformCulling, put = __cordl_internal_set_m_PerformCulling))::UnityEngine::Rendering::__BatchRendererGroup__OnPerformCulling* m_PerformCulling;
 
-  /// @brief Method InvokeOnPerformCulling, addr 0x3430ee0, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method InvokeOnPerformCulling, addr 0x345a3dc, size 0x220, virtual false, abstract: false, final false
   static inline void InvokeOnPerformCulling(::UnityEngine::Rendering::BatchRendererGroup* group, ByRef<::UnityEngine::Rendering::BatchRendererCullingOutput> context,
                                             ByRef<::UnityEngine::Rendering::LODParameters> lodParameters);
 
-  constexpr void* const& __cordl_internal_get_m_GroupHandle() const;
+  constexpr ::System::IntPtr const& __cordl_internal_get_m_GroupHandle() const;
 
-  constexpr void*& __cordl_internal_get_m_GroupHandle();
+  constexpr ::System::IntPtr& __cordl_internal_get_m_GroupHandle();
 
   constexpr ::UnityEngine::Rendering::__BatchRendererGroup__OnPerformCulling*& __cordl_internal_get_m_PerformCulling();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Rendering::__BatchRendererGroup__OnPerformCulling*> const& __cordl_internal_get_m_PerformCulling() const;
 
-  constexpr void __cordl_internal_set_m_GroupHandle(void* value);
+  constexpr void __cordl_internal_set_m_GroupHandle(::System::IntPtr value);
 
   constexpr void __cordl_internal_set_m_PerformCulling(::UnityEngine::Rendering::__BatchRendererGroup__OnPerformCulling* value);
 
@@ -120,7 +123,7 @@ public:
   BatchRendererGroup(BatchRendererGroup const&) = delete;
 
   /// @brief Field m_GroupHandle, offset: 0x10, size: 0x8, def value: None
-  void* ___m_GroupHandle;
+  ::System::IntPtr ___m_GroupHandle;
 
   /// @brief Field m_PerformCulling, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::Rendering::__BatchRendererGroup__OnPerformCulling* ___m_PerformCulling;

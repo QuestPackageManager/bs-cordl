@@ -45,19 +45,19 @@ public:
 
   constexpr void __cordl_internal_set__QueueIndex_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x10754d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x107c818, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Priority, addr 0x10754b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Priority, addr 0x107c7f8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_Priority();
 
-  /// @brief Method get_QueueIndex, addr 0x10754c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_QueueIndex, addr 0x107c808, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_QueueIndex();
 
-  /// @brief Method set_Priority, addr 0x10754b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Priority, addr 0x107c800, size 0x8, virtual false, abstract: false, final false
   inline void set_Priority(float_t value);
 
-  /// @brief Method set_QueueIndex, addr 0x10754c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_QueueIndex, addr 0x107c810, size 0x8, virtual false, abstract: false, final false
   inline void set_QueueIndex(int32_t value);
 
 protected:

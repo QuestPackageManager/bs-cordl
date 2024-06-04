@@ -42,10 +42,10 @@ public:
 
   constexpr void __cordl_internal_set__avatarsData(::GlobalNamespace::MultiplayerAvatarsData value);
 
-  /// @brief Method .ctor, addr 0x103ca28, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x10451d4, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::MultiplayerAvatarsData avatarsData);
 
-  /// @brief Method get_avatarsData, addr 0x103ca14, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method get_avatarsData, addr 0x10451c0, size 0x14, virtual true, abstract: false, final true
   inline ::GlobalNamespace::MultiplayerAvatarsData get_avatarsData();
 
   /// @brief Convert to "::BeatSaber::AvatarCore::IAvatarVisualDataProvider"

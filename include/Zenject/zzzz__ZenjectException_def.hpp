@@ -27,10 +27,10 @@ public:
 
   static inline ::Zenject::ZenjectException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x36730cc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36a05c8, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3673134, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36a0630, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
 protected:

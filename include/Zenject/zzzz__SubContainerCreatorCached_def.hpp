@@ -46,7 +46,7 @@ public:
   /// @brief Convert operator to "::Zenject::ISubContainerCreator"
   constexpr operator ::Zenject::ISubContainerCreator*() noexcept;
 
-  /// @brief Method CreateSubContainer, addr 0x366030c, size 0x180, virtual true, abstract: false, final true
+  /// @brief Method CreateSubContainer, addr 0x368d808, size 0x180, virtual true, abstract: false, final true
   inline ::Zenject::DiContainer* CreateSubContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::InjectContext* context);
 
   static inline ::Zenject::SubContainerCreatorCached* New_ctor(::Zenject::ISubContainerCreator* subCreator);
@@ -69,7 +69,7 @@ public:
 
   constexpr void __cordl_internal_set__subCreator(::Zenject::ISubContainerCreator* value);
 
-  /// @brief Method .ctor, addr 0x36602e4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x368d7e0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::ISubContainerCreator* subCreator);
 
   /// @brief Convert to "::Zenject::ISubContainerCreator"

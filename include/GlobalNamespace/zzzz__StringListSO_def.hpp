@@ -37,10 +37,10 @@ public:
 
   constexpr void __cordl_internal_set__strings(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method .ctor, addr 0x10861f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x108c6f4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_strings, addr 0x10861f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_strings, addr 0x108c6ec, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::StringW>* get_strings();
 
 protected:

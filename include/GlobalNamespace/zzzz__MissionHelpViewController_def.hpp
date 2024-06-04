@@ -60,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set_missionHelp(::UnityW<::GlobalNamespace::MissionHelpSO> value);
 
-  /// @brief Method .ctor, addr 0x264e5fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2666c20, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -116,18 +116,18 @@ public:
   /// @brief Field didFinishEvent, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent))::System::Action_1<::UnityW<::GlobalNamespace::MissionHelpViewController>>* didFinishEvent;
 
-  /// @brief Method DidActivate, addr 0x264e528, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x2666b4c, size 0xac, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::MissionHelpViewController* New_ctor();
 
-  /// @brief Method OkButtonPressed, addr 0x264e5d4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method OkButtonPressed, addr 0x2666bf8, size 0x20, virtual false, abstract: false, final false
   inline void OkButtonPressed();
 
-  /// @brief Method RefreshContent, addr 0x264e458, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method RefreshContent, addr 0x2666a7c, size 0xd0, virtual false, abstract: false, final false
   inline void RefreshContent();
 
-  /// @brief Method Setup, addr 0x264e42c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x2666a50, size 0x2c, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::MissionHelpSO* missionHelp);
 
   constexpr ::UnityW<::GlobalNamespace::MissionHelpSO> const& __cordl_internal_get__missionHelp() const;
@@ -157,13 +157,13 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionHelpViewController>>* value);
 
-  /// @brief Method .ctor, addr 0x264e5f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2666c18, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x264e2cc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x26668f0, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionHelpViewController>>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x264e37c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x26669a0, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionHelpViewController>>* value);
 
 protected:

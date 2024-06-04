@@ -21,7 +21,7 @@ namespace HoudiniEngineUnity {
 struct CORDL_TYPE HAPI_SphereInfo {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x2576e18, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x258cd5c, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(bool initialize_fields);
 
   // Ctor Parameters []

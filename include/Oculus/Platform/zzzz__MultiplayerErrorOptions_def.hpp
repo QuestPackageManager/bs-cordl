@@ -10,6 +10,9 @@ CORDL_MODULE_EXPORT(MultiplayerErrorOptions)
 namespace Oculus::Platform {
 struct MultiplayerErrorErrorKey;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform {
 class MultiplayerErrorOptions;
@@ -25,27 +28,27 @@ class CORDL_TYPE MultiplayerErrorOptions : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Handle, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_Handle, put = __cordl_internal_set_Handle)) void* Handle;
+  __declspec(property(get = __cordl_internal_get_Handle, put = __cordl_internal_set_Handle))::System::IntPtr Handle;
 
-  /// @brief Method Finalize, addr 0x2aca7d8, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x2aeae64, size 0xd4, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::Oculus::Platform::MultiplayerErrorOptions* New_ctor();
 
-  /// @brief Method SetErrorKey, addr 0x2aca718, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetErrorKey, addr 0x2aeada4, size 0x68, virtual false, abstract: false, final false
   inline void SetErrorKey(::Oculus::Platform::MultiplayerErrorErrorKey value);
 
-  constexpr void* const& __cordl_internal_get_Handle() const;
+  constexpr ::System::IntPtr const& __cordl_internal_get_Handle() const;
 
-  constexpr void*& __cordl_internal_get_Handle();
+  constexpr ::System::IntPtr& __cordl_internal_get_Handle();
 
-  constexpr void __cordl_internal_set_Handle(void* value);
+  constexpr void __cordl_internal_set_Handle(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x2aca6b4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aead40, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method op_Explicit, addr 0x2aca780, size 0x58, virtual false, abstract: false, final false
-  static inline void* op_Explicit_void_(::Oculus::Platform::MultiplayerErrorOptions* options);
+  /// @brief Method op_Explicit, addr 0x2aeae0c, size 0x58, virtual false, abstract: false, final false
+  static inline ::System::IntPtr op_Explicit___System__IntPtr(::Oculus::Platform::MultiplayerErrorOptions* options);
 
 protected:
   // Ctor Parameters []
@@ -62,7 +65,7 @@ public:
   MultiplayerErrorOptions(MultiplayerErrorOptions const&) = delete;
 
   /// @brief Field Handle, offset: 0x10, size: 0x8, def value: None
-  void* ___Handle;
+  ::System::IntPtr ___Handle;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

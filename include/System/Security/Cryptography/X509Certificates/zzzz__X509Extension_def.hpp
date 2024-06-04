@@ -30,10 +30,10 @@ public:
   /// @brief Field _critical, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get__critical, put = __cordl_internal_set__critical)) bool _critical;
 
-  /// @brief Method CopyFrom, addr 0x2fba750, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method CopyFrom, addr 0x2fd6e40, size 0x130, virtual true, abstract: false, final false
   inline void CopyFrom(::System::Security::Cryptography::AsnEncodedData* asnEncodedData);
 
-  /// @brief Method FormatUnkownData, addr 0x2fba880, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method FormatUnkownData, addr 0x2fd6f70, size 0x114, virtual false, abstract: false, final false
   inline ::StringW FormatUnkownData(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   static inline ::System::Security::Cryptography::X509Certificates::X509Extension* New_ctor();
@@ -46,16 +46,16 @@ public:
 
   constexpr void __cordl_internal_set__critical(bool value);
 
-  /// @brief Method .ctor, addr 0x2fba70c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fd6dfc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2fba714, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2fd6e04, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW oid, ::ArrayW<uint8_t, ::Array<uint8_t>*> rawData, bool critical);
 
-  /// @brief Method get_Critical, addr 0x2fba73c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Critical, addr 0x2fd6e2c, size 0x8, virtual false, abstract: false, final false
   inline bool get_Critical();
 
-  /// @brief Method set_Critical, addr 0x2fba744, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Critical, addr 0x2fd6e34, size 0xc, virtual false, abstract: false, final false
   inline void set_Critical(bool value);
 
 protected:

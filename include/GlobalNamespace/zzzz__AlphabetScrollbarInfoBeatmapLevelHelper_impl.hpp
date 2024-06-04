@@ -13,9 +13,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__AlphabetScrollbarInfoBeatmapLevelHelper____c::*)()>(
     &::GlobalNamespace::__AlphabetScrollbarInfoBeatmapLevelHelper____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x14c88d0;
+  constexpr static std::size_t addrs = 0x14ce86c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__AlphabetScrollbarInfoBeatmapLevelHelper____c*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -28,9 +28,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::__AlphabetScrollbarInfoBeatmapLevelHelper____c::*)(::GlobalNamespace::BeatmapLevel*)>(
     &::GlobalNamespace::__AlphabetScrollbarInfoBeatmapLevelHelper____c::_CreateData_b__3_0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x14c88d8;
+  constexpr static std::size_t addrs = 0x14ce874;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__AlphabetScrollbarInfoBeatmapLevelHelper____c*>::get(), "<CreateData>b__3_0",
         std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevel*>::get() })));
@@ -80,9 +80,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                                          ByRef<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevel*>*>)>(
     &::GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper::CreateData)> {
   constexpr static std::size_t size = 0x594;
-  constexpr static std::size_t addrs = 0x14c82d8;
+  constexpr static std::size_t addrs = 0x14ce274;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper*>::get(), "CreateData", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{

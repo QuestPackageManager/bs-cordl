@@ -2,16 +2,19 @@
 // IWYU pragma private; include "System/Action_12.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Action_12_def.hpp"
+#include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12>
-inline ::System::Action_12<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12>* System::Action_12<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12>::New_ctor(::System::Object* object, void* method) {
+inline ::System::Action_12<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12>* System::Action_12<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12>::New_ctor(::System::Object* object,
+                                                                                                                                                              ::System::IntPtr method) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Action_12<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12>*>(object, method));
 }
 template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12>
-inline void System::Action_12<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12>::_ctor(::System::Object* object, void* method) {
+inline void System::Action_12<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12>::_ctor(::System::Object* object, ::System::IntPtr method) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Action_12<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12>*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get() })));
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
 template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12>

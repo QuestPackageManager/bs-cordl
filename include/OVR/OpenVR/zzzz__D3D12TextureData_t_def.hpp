@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(D3D12TextureData_t)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace OVR::OpenVR {
 struct D3D12TextureData_t;
@@ -25,15 +28,15 @@ public:
   // @brief default ctor
   constexpr D3D12TextureData_t();
 
-  // Ctor Parameters [CppParam { name: "m_pResource", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "m_pCommandQueue", ty: "void*", modifiers: "", def_value: None }, CppParam { name:
-  // "m_nNodeMask", ty: "uint32_t", modifiers: "", def_value: None }]
-  constexpr D3D12TextureData_t(void* m_pResource, void* m_pCommandQueue, uint32_t m_nNodeMask) noexcept;
+  // Ctor Parameters [CppParam { name: "m_pResource", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "m_pCommandQueue", ty: "::System::IntPtr", modifiers: "", def_value:
+  // None }, CppParam { name: "m_nNodeMask", ty: "uint32_t", modifiers: "", def_value: None }]
+  constexpr D3D12TextureData_t(::System::IntPtr m_pResource, ::System::IntPtr m_pCommandQueue, uint32_t m_nNodeMask) noexcept;
 
   /// @brief Field m_pResource, offset: 0x0, size: 0x8, def value: None
-  void* m_pResource;
+  ::System::IntPtr m_pResource;
 
   /// @brief Field m_pCommandQueue, offset: 0x8, size: 0x8, def value: None
-  void* m_pCommandQueue;
+  ::System::IntPtr m_pCommandQueue;
 
   /// @brief Field m_nNodeMask, offset: 0x10, size: 0x4, def value: None
   uint32_t m_nNodeMask;

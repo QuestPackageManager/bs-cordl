@@ -37,23 +37,23 @@ public:
   // Declarations
   __declspec(property(get = get_IsNullable)) bool IsNullable;
 
-  /// @brief Method ConstructChildPos, addr 0x2efa3e8, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method ConstructChildPos, addr 0x2f1bad8, size 0xdc, virtual false, abstract: false, final false
   static inline void ConstructChildPos(::System::Xml::Schema::SyntaxTreeNode* child, ::System::Xml::Schema::BitSet* firstpos, ::System::Xml::Schema::BitSet* lastpos,
                                        ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*> followpos);
 
-  /// @brief Method ConstructPos, addr 0x2efa4c4, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method ConstructPos, addr 0x2f1bbb4, size 0x118, virtual true, abstract: false, final false
   inline void ConstructPos(::System::Xml::Schema::BitSet* firstpos, ::System::Xml::Schema::BitSet* lastpos,
                            ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*> followpos);
 
-  /// @brief Method ExpandTree, addr 0x2efa66c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ExpandTree, addr 0x2f1bd5c, size 0x4, virtual true, abstract: false, final false
   inline void ExpandTree(::System::Xml::Schema::InteriorNode* parent, ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions);
 
   static inline ::System::Xml::Schema::ChoiceNode* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2ef9c34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f1b324, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsNullable, addr 0x2efa5dc, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method get_IsNullable, addr 0x2f1bccc, size 0x90, virtual true, abstract: false, final false
   inline bool get_IsNullable();
 
 protected:

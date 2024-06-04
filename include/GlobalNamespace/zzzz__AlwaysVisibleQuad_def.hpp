@@ -27,10 +27,10 @@ public:
 
   static inline ::GlobalNamespace::AlwaysVisibleQuad* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x2bd2724, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x2bf3db0, size 0xc, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x2bd2500, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x2bf3b8c, size 0x224, virtual false, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::UnityW<::UnityEngine::Mesh> const& __cordl_internal_get__mesh() const;
@@ -39,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set__mesh(::UnityW<::UnityEngine::Mesh> value);
 
-  /// @brief Method .ctor, addr 0x2bd2730, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2bf3dbc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

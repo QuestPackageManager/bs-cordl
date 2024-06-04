@@ -58,10 +58,10 @@ public:
 
   static inline ::GlobalNamespace::__BeatmapDifficultyDropdown____c* New_ctor();
 
-  /// @brief Method <Start>b__11_0, addr 0x262c968, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__11_0, addr 0x2645f88, size 0x44, virtual false, abstract: false, final false
   inline ::StringW _Start_b__11_0(::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask, ::StringW>* x);
 
-  /// @brief Method .ctor, addr 0x262c960, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2645f80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__BeatmapDifficultyDropdown____c* getStaticF___9();
@@ -120,24 +120,24 @@ public:
 
   __declspec(property(get = get_includeAllDifficulties, put = set_includeAllDifficulties)) bool includeAllDifficulties;
 
-  /// @brief Method GetIdxForBeatmapDifficultyMask, addr 0x262c82c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetIdxForBeatmapDifficultyMask, addr 0x2645e4c, size 0xa4, virtual false, abstract: false, final false
   inline int32_t GetIdxForBeatmapDifficultyMask(::GlobalNamespace::BeatmapDifficultyMask beatmapDifficultyMask);
 
-  /// @brief Method GetSelectedBeatmapDifficultyMask, addr 0x262c72c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetSelectedBeatmapDifficultyMask, addr 0x2645d4c, size 0xd0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDifficultyMask GetSelectedBeatmapDifficultyMask();
 
-  /// @brief Method HandleSimpleTextDropdownDidSelectCellWithIdx, addr 0x262c8d0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandleSimpleTextDropdownDidSelectCellWithIdx, addr 0x2645ef0, size 0x24, virtual false, abstract: false, final false
   inline void HandleSimpleTextDropdownDidSelectCellWithIdx(::HMUI::DropdownWithTableView* dropdownWithTableView, int32_t idx);
 
   static inline ::GlobalNamespace::BeatmapDifficultyDropdown* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x262c658, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2645c78, size 0xd4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SelectCellWithBeatmapDifficultyMask, addr 0x262c7fc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SelectCellWithBeatmapDifficultyMask, addr 0x2645e1c, size 0x30, virtual false, abstract: false, final false
   inline void SelectCellWithBeatmapDifficultyMask(::GlobalNamespace::BeatmapDifficultyMask beatmapDifficultyMask);
 
-  /// @brief Method Start, addr 0x262c4b8, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x2645ad8, size 0x1a0, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask, ::StringW>*>*& __cordl_internal_get__beatmapDifficultyData();
@@ -165,22 +165,22 @@ public:
 
   constexpr void __cordl_internal_set_didSelectCellWithIdxEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x262c8f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2645f14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didSelectCellWithIdxEvent, addr 0x262c168, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didSelectCellWithIdxEvent, addr 0x2645788, size 0xb0, virtual false, abstract: false, final false
   inline void add_didSelectCellWithIdxEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method get_beatmapDifficultyData, addr 0x262c2c8, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapDifficultyData, addr 0x26458e8, size 0x1dc, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask, ::StringW>*>* get_beatmapDifficultyData();
 
-  /// @brief Method get_includeAllDifficulties, addr 0x262c4a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_includeAllDifficulties, addr 0x2645ac4, size 0x8, virtual false, abstract: false, final false
   inline bool get_includeAllDifficulties();
 
-  /// @brief Method remove_didSelectCellWithIdxEvent, addr 0x262c218, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSelectCellWithIdxEvent, addr 0x2645838, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didSelectCellWithIdxEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method set_includeAllDifficulties, addr 0x262c4ac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_includeAllDifficulties, addr 0x2645acc, size 0xc, virtual false, abstract: false, final false
   inline void set_includeAllDifficulties(bool value);
 
 protected:

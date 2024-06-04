@@ -28,18 +28,18 @@ public:
   // Declarations
   __declspec(property(get = get_SignatureAlgorithm)) uint8_t SignatureAlgorithm;
 
-  /// @brief Method CreateDsaImpl, addr 0x120b4fc, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method CreateDsaImpl, addr 0x1211d6c, size 0xc8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::IDsa* CreateDsaImpl(uint8_t hashAlgorithm);
 
-  /// @brief Method IsValidPublicKey, addr 0x120b484, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method IsValidPublicKey, addr 0x1211cf4, size 0x78, virtual true, abstract: false, final false
   inline bool IsValidPublicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsECDsaSigner* New_ctor();
 
-  /// @brief Method .ctor, addr 0x1209870, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12100e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_SignatureAlgorithm, addr 0x120b79c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SignatureAlgorithm, addr 0x121200c, size 0x8, virtual true, abstract: false, final false
   inline uint8_t get_SignatureAlgorithm();
 
 protected:

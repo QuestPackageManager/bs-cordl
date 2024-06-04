@@ -40,21 +40,21 @@ public:
   /// @brief Field _particlesPerFrame, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__particlesPerFrame, put = __cordl_internal_set__particlesPerFrame)) int32_t _particlesPerFrame;
 
-  /// @brief Method Awake, addr 0x26cf2e4, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x26e5dbc, size 0x100, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleNoteDidStartJump, addr 0x26cf580, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteDidStartJump, addr 0x26e6058, size 0xc, virtual false, abstract: false, final false
   inline void HandleNoteDidStartJump();
 
-  /// @brief Method HandleNoteMovementDidInit, addr 0x26cf574, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteMovementDidInit, addr 0x26e604c, size 0xc, virtual false, abstract: false, final false
   inline void HandleNoteMovementDidInit();
 
   static inline ::GlobalNamespace::NoteTrailEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x26cf3e4, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x26e5ebc, size 0x12c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Update, addr 0x26cf510, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x26e5fe8, size 0x64, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr float_t const& __cordl_internal_get__maxSpawnDistance() const;
@@ -81,7 +81,7 @@ public:
 
   constexpr void __cordl_internal_set__particlesPerFrame(int32_t value);
 
-  /// @brief Method .ctor, addr 0x26cf58c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26e6064, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

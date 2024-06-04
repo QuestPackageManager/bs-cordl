@@ -52,119 +52,119 @@ public:
   /// @brief Field allowListToList, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get_allowListToList, put = __cordl_internal_set_allowListToList)) bool allowListToList;
 
-  /// @brief Method ChangeListType, addr 0x2e417dc, size 0x308, virtual true, abstract: false, final false
+  /// @brief Method ChangeListType, addr 0x2e62ecc, size 0x308, virtual true, abstract: false, final false
   inline ::System::Object* ChangeListType(::System::Object* value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method ChangeType, addr 0x2e3f6d8, size 0xc08, virtual true, abstract: false, final false
+  /// @brief Method ChangeType, addr 0x2e60dc8, size 0xc08, virtual true, abstract: false, final false
   inline ::System::Object* ChangeType(::StringW value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method ChangeType, addr 0x2e3ed60, size 0x1cc, virtual true, abstract: false, final false
+  /// @brief Method ChangeType, addr 0x2e60450, size 0x1cc, virtual true, abstract: false, final false
   inline ::System::Object* ChangeType(::System::DateTime value, ::System::Type* destinationType);
 
-  /// @brief Method ChangeType, addr 0x2e3ef2c, size 0x20c, virtual true, abstract: false, final false
+  /// @brief Method ChangeType, addr 0x2e6061c, size 0x20c, virtual true, abstract: false, final false
   inline ::System::Object* ChangeType(::System::Decimal value, ::System::Type* destinationType);
 
-  /// @brief Method ChangeType, addr 0x2e402e0, size 0x14fc, virtual true, abstract: false, final false
+  /// @brief Method ChangeType, addr 0x2e619d0, size 0x14fc, virtual true, abstract: false, final false
   inline ::System::Object* ChangeType(::System::Object* value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method ChangeType, addr 0x2e3e9e4, size 0x1e4, virtual true, abstract: false, final false
+  /// @brief Method ChangeType, addr 0x2e600d4, size 0x1e4, virtual true, abstract: false, final false
   inline ::System::Object* ChangeType(bool value, ::System::Type* destinationType);
 
-  /// @brief Method ChangeType, addr 0x2e3f138, size 0x1e0, virtual true, abstract: false, final false
+  /// @brief Method ChangeType, addr 0x2e60828, size 0x1e0, virtual true, abstract: false, final false
   inline ::System::Object* ChangeType(double_t value, ::System::Type* destinationType);
 
-  /// @brief Method ChangeType, addr 0x2e3f318, size 0x1e0, virtual true, abstract: false, final false
+  /// @brief Method ChangeType, addr 0x2e60a08, size 0x1e0, virtual true, abstract: false, final false
   inline ::System::Object* ChangeType(int32_t value, ::System::Type* destinationType);
 
-  /// @brief Method ChangeType, addr 0x2e3f4f8, size 0x1e0, virtual true, abstract: false, final false
+  /// @brief Method ChangeType, addr 0x2e60be8, size 0x1e0, virtual true, abstract: false, final false
   inline ::System::Object* ChangeType(int64_t value, ::System::Type* destinationType);
 
-  /// @brief Method ChangeTypeWildcardDestination, addr 0x2e3c6f8, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method ChangeTypeWildcardDestination, addr 0x2e5dde8, size 0x13c, virtual false, abstract: false, final false
   inline ::System::Object* ChangeTypeWildcardDestination(::System::Object* value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method ChangeTypeWildcardSource, addr 0x2e3ebc8, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method ChangeTypeWildcardSource, addr 0x2e602b8, size 0x198, virtual false, abstract: false, final false
   inline ::System::Object* ChangeTypeWildcardSource(::System::Object* value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
   static inline ::System::Xml::Schema::XmlUntypedConverter* New_ctor();
 
   static inline ::System::Xml::Schema::XmlUntypedConverter* New_ctor(::System::Xml::Schema::XmlUntypedConverter* atomicConverter, bool allowListToList);
 
-  /// @brief Method SupportsType, addr 0x2e41ae4, size 0x530, virtual false, abstract: false, final false
+  /// @brief Method SupportsType, addr 0x2e631d4, size 0x530, virtual false, abstract: false, final false
   inline bool SupportsType(::System::Type* clrType);
 
-  /// @brief Method ToBoolean, addr 0x2e3c480, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method ToBoolean, addr 0x2e5db70, size 0xa8, virtual true, abstract: false, final false
   inline bool ToBoolean(::StringW value);
 
-  /// @brief Method ToBoolean, addr 0x2e3c528, size 0x1d0, virtual true, abstract: false, final false
+  /// @brief Method ToBoolean, addr 0x2e5dc18, size 0x1d0, virtual true, abstract: false, final false
   inline bool ToBoolean(::System::Object* value);
 
-  /// @brief Method ToDateTime, addr 0x2e3c834, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method ToDateTime, addr 0x2e5df24, size 0xa8, virtual true, abstract: false, final false
   inline ::System::DateTime ToDateTime(::StringW value);
 
-  /// @brief Method ToDateTime, addr 0x2e3c8dc, size 0x1b8, virtual true, abstract: false, final false
+  /// @brief Method ToDateTime, addr 0x2e5dfcc, size 0x1b8, virtual true, abstract: false, final false
   inline ::System::DateTime ToDateTime(::System::Object* value);
 
-  /// @brief Method ToDateTimeOffset, addr 0x2e3ca94, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method ToDateTimeOffset, addr 0x2e5e184, size 0xa8, virtual true, abstract: false, final false
   inline ::System::DateTimeOffset ToDateTimeOffset(::StringW value);
 
-  /// @brief Method ToDateTimeOffset, addr 0x2e3cb3c, size 0x1b8, virtual true, abstract: false, final false
+  /// @brief Method ToDateTimeOffset, addr 0x2e5e22c, size 0x1b8, virtual true, abstract: false, final false
   inline ::System::DateTimeOffset ToDateTimeOffset(::System::Object* value);
 
-  /// @brief Method ToDecimal, addr 0x2e3ccf4, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method ToDecimal, addr 0x2e5e3e4, size 0xa8, virtual true, abstract: false, final false
   inline ::System::Decimal ToDecimal(::StringW value);
 
-  /// @brief Method ToDecimal, addr 0x2e3cd9c, size 0x1d0, virtual true, abstract: false, final false
+  /// @brief Method ToDecimal, addr 0x2e5e48c, size 0x1d0, virtual true, abstract: false, final false
   inline ::System::Decimal ToDecimal(::System::Object* value);
 
-  /// @brief Method ToDouble, addr 0x2e3cf6c, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method ToDouble, addr 0x2e5e65c, size 0xa8, virtual true, abstract: false, final false
   inline double_t ToDouble(::StringW value);
 
-  /// @brief Method ToDouble, addr 0x2e3d014, size 0x1d0, virtual true, abstract: false, final false
+  /// @brief Method ToDouble, addr 0x2e5e704, size 0x1d0, virtual true, abstract: false, final false
   inline double_t ToDouble(::System::Object* value);
 
-  /// @brief Method ToInt32, addr 0x2e3d1e4, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method ToInt32, addr 0x2e5e8d4, size 0xa8, virtual true, abstract: false, final false
   inline int32_t ToInt32(::StringW value);
 
-  /// @brief Method ToInt32, addr 0x2e3d28c, size 0x1d0, virtual true, abstract: false, final false
+  /// @brief Method ToInt32, addr 0x2e5e97c, size 0x1d0, virtual true, abstract: false, final false
   inline int32_t ToInt32(::System::Object* value);
 
-  /// @brief Method ToInt64, addr 0x2e3d45c, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method ToInt64, addr 0x2e5eb4c, size 0xa8, virtual true, abstract: false, final false
   inline int64_t ToInt64(::StringW value);
 
-  /// @brief Method ToInt64, addr 0x2e3d504, size 0x1d0, virtual true, abstract: false, final false
+  /// @brief Method ToInt64, addr 0x2e5ebf4, size 0x1d0, virtual true, abstract: false, final false
   inline int64_t ToInt64(::System::Object* value);
 
-  /// @brief Method ToSingle, addr 0x2e3d6d4, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method ToSingle, addr 0x2e5edc4, size 0xa8, virtual true, abstract: false, final false
   inline float_t ToSingle(::StringW value);
 
-  /// @brief Method ToSingle, addr 0x2e3d77c, size 0x1d0, virtual true, abstract: false, final false
+  /// @brief Method ToSingle, addr 0x2e5ee6c, size 0x1d0, virtual true, abstract: false, final false
   inline float_t ToSingle(::System::Object* value);
 
-  /// @brief Method ToString, addr 0x2e3d9a4, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2e5f094, size 0x58, virtual true, abstract: false, final false
   inline ::StringW ToString(::System::DateTime value);
 
-  /// @brief Method ToString, addr 0x2e3d9fc, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2e5f0ec, size 0x68, virtual true, abstract: false, final false
   inline ::StringW ToString(::System::DateTimeOffset value);
 
-  /// @brief Method ToString, addr 0x2e3da64, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2e5f154, size 0x68, virtual true, abstract: false, final false
   inline ::StringW ToString(::System::Decimal value);
 
-  /// @brief Method ToString, addr 0x2e3dc3c, size 0xda8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2e5f32c, size 0xda8, virtual true, abstract: false, final false
   inline ::StringW ToString(::System::Object* value, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method ToString, addr 0x2e3d94c, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2e5f03c, size 0x58, virtual true, abstract: false, final false
   inline ::StringW ToString(bool value);
 
-  /// @brief Method ToString, addr 0x2e3dacc, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2e5f1bc, size 0x60, virtual true, abstract: false, final false
   inline ::StringW ToString(double_t value);
 
-  /// @brief Method ToString, addr 0x2e3dbdc, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2e5f2cc, size 0x60, virtual true, abstract: false, final false
   inline ::StringW ToString(float_t value);
 
-  /// @brief Method ToString, addr 0x2e3db2c, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2e5f21c, size 0x58, virtual true, abstract: false, final false
   inline ::StringW ToString(int32_t value);
 
-  /// @brief Method ToString, addr 0x2e3db84, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x2e5f274, size 0x58, virtual true, abstract: false, final false
   inline ::StringW ToString(int64_t value);
 
   constexpr bool const& __cordl_internal_get_allowListToList() const;
@@ -173,10 +173,10 @@ public:
 
   constexpr void __cordl_internal_set_allowListToList(bool value);
 
-  /// @brief Method .ctor, addr 0x2e3c278, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e5d968, size 0x90, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2e3c370, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2e5da60, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlUntypedConverter* atomicConverter, bool allowListToList);
 
   static inline ::System::Xml::Schema::XmlValueConverter* getStaticF_Untyped();

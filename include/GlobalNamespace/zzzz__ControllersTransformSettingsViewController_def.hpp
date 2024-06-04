@@ -53,21 +53,18 @@ public:
   /// @brief Field _vrPlatformHelper, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get__vrPlatformHelper, put = __cordl_internal_set__vrPlatformHelper))::GlobalNamespace::IVRPlatformHelper* _vrPlatformHelper;
 
-  /// @brief Method DidActivate, addr 0x265ea58, size 0x564, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x2677e50, size 0x564, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x265efbc, size 0xac, virtual true, abstract: false, final false
-  inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
-
-  /// @brief Method HandlePositionSliderValueDidChange, addr 0x265f3a0, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method HandlePositionSliderValueDidChange, addr 0x2678674, size 0x148, virtual false, abstract: false, final false
   inline void HandlePositionSliderValueDidChange(::HMUI::RangeValuesTextSlider* slider, float_t value);
 
-  /// @brief Method HandleRotationSliderValueDidChange, addr 0x265f4d8, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method HandleRotationSliderValueDidChange, addr 0x26787bc, size 0x140, virtual false, abstract: false, final false
   inline void HandleRotationSliderValueDidChange(::HMUI::RangeValuesTextSlider* slider, float_t value);
 
   static inline ::GlobalNamespace::ControllersTransformSettingsViewController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x265f068, size 0x338, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x26783b4, size 0x2c0, virtual true, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::BeatSaber::GameSettings::MainSettingsHandler*& __cordl_internal_get__mainSettingsHandler();
@@ -118,7 +115,7 @@ public:
 
   constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
 
-  /// @brief Method .ctor, addr 0x265f608, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26788fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

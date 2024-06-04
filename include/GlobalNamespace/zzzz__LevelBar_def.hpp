@@ -3,14 +3,23 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "GlobalNamespace/zzzz__BeatmapDifficulty_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LevelBar)
+namespace GlobalNamespace {
+class BeatmapCharacteristicSO;
+}
+namespace GlobalNamespace {
+struct BeatmapDifficulty;
+}
 namespace GlobalNamespace {
 struct BeatmapKey;
 }
@@ -21,10 +30,19 @@ namespace GlobalNamespace {
 class BeatmapLevelsModel;
 }
 namespace GlobalNamespace {
+struct __LevelBar___SetupData_d__20;
+}
+namespace GlobalNamespace {
 struct __LevelBar___Setup_d__18;
+}
+namespace GlobalNamespace {
+struct __LevelBar___Setup_d__19;
 }
 namespace HMUI {
 class ImageView;
+}
+namespace System::Runtime::CompilerServices {
+struct AsyncTaskMethodBuilder;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncVoidMethodBuilder;
@@ -34,6 +52,12 @@ class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct TaskAwaiter_1;
+}
+namespace System::Runtime::CompilerServices {
+struct TaskAwaiter;
+}
+namespace System::Threading::Tasks {
+class Task;
 }
 namespace System::Threading {
 class CancellationTokenSource;
@@ -55,13 +79,21 @@ namespace GlobalNamespace {
 class LevelBar;
 }
 namespace GlobalNamespace {
+struct __LevelBar___SetupData_d__20;
+}
+namespace GlobalNamespace {
 struct __LevelBar___Setup_d__18;
+}
+namespace GlobalNamespace {
+struct __LevelBar___Setup_d__19;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LevelBar);
+MARK_VAL_T(::GlobalNamespace::__LevelBar___SetupData_d__20);
 MARK_VAL_T(::GlobalNamespace::__LevelBar___Setup_d__18);
+MARK_VAL_T(::GlobalNamespace::__LevelBar___Setup_d__19);
 // Type: ::<Setup>d__18
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::LevelBar::<Setup>d__18
@@ -71,10 +103,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x266af68, size 0x6c8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x26847ac, size 0x1ac, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x266b630, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x2684958, size 0xc, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -86,12 +118,10 @@ public:
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::LevelBar>", modifiers: "",
-  // def_value: None }, CppParam { name: "beatmapKey", ty: "::GlobalNamespace::BeatmapKey", modifiers: "", def_value: None }, CppParam { name: "_beatmapLevel_5__2", ty:
-  // "::GlobalNamespace::BeatmapLevel*", modifiers: "", def_value: None }, CppParam { name: "_cancellationToken_5__3", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None },
-  // CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>>", modifiers: "", def_value: None }]
+  // def_value: None }, CppParam { name: "beatmapKey", ty: "::GlobalNamespace::BeatmapKey", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
   constexpr __LevelBar___Setup_d__18(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::LevelBar> __4__this,
-                                     ::GlobalNamespace::BeatmapKey beatmapKey, ::GlobalNamespace::BeatmapLevel* _beatmapLevel_5__2, ::System::Threading::CancellationToken _cancellationToken_5__3,
-                                     ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>> __u__1) noexcept;
+                                     ::GlobalNamespace::BeatmapKey beatmapKey, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -105,22 +135,16 @@ public:
   /// @brief Field beatmapKey, offset: 0x30, size: 0x18, def value: None
   ::GlobalNamespace::BeatmapKey beatmapKey;
 
-  /// @brief Field <beatmapLevel>5__2, offset: 0x48, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapLevel* _beatmapLevel_5__2;
-
-  /// @brief Field <cancellationToken>5__3, offset: 0x50, size: 0x8, def value: None
-  ::System::Threading::CancellationToken _cancellationToken_5__3;
-
-  /// @brief Field <>u__1, offset: 0x58, size: 0x8, def value: None
-  ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>> __u__1;
+  /// @brief Field <>u__1, offset: 0x48, size: 0x8, def value: None
+  ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LevelBar___Setup_d__18, 0x60>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LevelBar___Setup_d__18, 0x50>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::__LevelBar___Setup_d__18, __1__state) == 0x0, "Offset mismatch!");
 
@@ -130,11 +154,168 @@ static_assert(offsetof(::GlobalNamespace::__LevelBar___Setup_d__18, __4__this) =
 
 static_assert(offsetof(::GlobalNamespace::__LevelBar___Setup_d__18, beatmapKey) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__LevelBar___Setup_d__18, _beatmapLevel_5__2) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__LevelBar___Setup_d__18, __u__1) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__LevelBar___Setup_d__18, _cancellationToken_5__3) == 0x50, "Offset mismatch!");
+} // namespace GlobalNamespace
+// Type: ::<Setup>d__19
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+namespace GlobalNamespace {
+// Is value type: true
+// CS Name: ::LevelBar::<Setup>d__19
+struct CORDL_TYPE __LevelBar___Setup_d__19 {
+public:
+  // Declarations
+  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-static_assert(offsetof(::GlobalNamespace::__LevelBar___Setup_d__18, __u__1) == 0x58, "Offset mismatch!");
+  /// @brief Method MoveNext, addr 0x2684964, size 0x184, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x2684ae8, size 0xc, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __LevelBar___Setup_d__19();
+
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::LevelBar>", modifiers: "",
+  // def_value: None }, CppParam { name: "beatmapLevel", ty: "::GlobalNamespace::BeatmapLevel*", modifiers: "", def_value: None }, CppParam { name: "beatmapDifficulty", ty:
+  // "::GlobalNamespace::BeatmapDifficulty", modifiers: "", def_value: None }, CppParam { name: "beatmapCharacteristic", ty: "::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>", modifiers: "",
+  // def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  constexpr __LevelBar___Setup_d__19(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::LevelBar> __4__this,
+                                     ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty,
+                                     ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> beatmapCharacteristic, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
+
+  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+  int32_t __1__state;
+
+  /// @brief Field <>t__builder, offset: 0x8, size: 0x20, def value: None
+  ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder;
+
+  /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::LevelBar> __4__this;
+
+  /// @brief Field beatmapLevel, offset: 0x30, size: 0x8, def value: None
+  ::GlobalNamespace::BeatmapLevel* beatmapLevel;
+
+  /// @brief Field beatmapDifficulty, offset: 0x38, size: 0x4, def value: None
+  ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty;
+
+  /// @brief Field beatmapCharacteristic, offset: 0x40, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> beatmapCharacteristic;
+
+  /// @brief Field <>u__1, offset: 0x48, size: 0x8, def value: None
+  ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LevelBar___Setup_d__19, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LevelBar___Setup_d__19, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LevelBar___Setup_d__19, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LevelBar___Setup_d__19, __4__this) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LevelBar___Setup_d__19, beatmapLevel) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LevelBar___Setup_d__19, beatmapDifficulty) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LevelBar___Setup_d__19, beatmapCharacteristic) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LevelBar___Setup_d__19, __u__1) == 0x48, "Offset mismatch!");
+
+} // namespace GlobalNamespace
+// Type: ::<SetupData>d__20
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+namespace GlobalNamespace {
+// Is value type: true
+// CS Name: ::LevelBar::<SetupData>d__20
+struct CORDL_TYPE __LevelBar___SetupData_d__20 {
+public:
+  // Declarations
+  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Method MoveNext, addr 0x2684af4, size 0x69c, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x2685190, size 0xc, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr __LevelBar___SetupData_d__20();
+
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::LevelBar>", modifiers: "",
+  // def_value: None }, CppParam { name: "beatmapLevel", ty: "::GlobalNamespace::BeatmapLevel*", modifiers: "", def_value: None }, CppParam { name: "beatmapDifficulty", ty:
+  // "::GlobalNamespace::BeatmapDifficulty", modifiers: "", def_value: None }, CppParam { name: "beatmapCharacteristic", ty: "::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>", modifiers: "",
+  // def_value: None }, CppParam { name: "_cancellationToken_5__2", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>>", modifiers: "", def_value: None }]
+  constexpr __LevelBar___SetupData_d__20(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::LevelBar> __4__this,
+                                         ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty,
+                                         ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> beatmapCharacteristic, ::System::Threading::CancellationToken _cancellationToken_5__2,
+                                         ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>> __u__1) noexcept;
+
+  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+  int32_t __1__state;
+
+  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
+  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
+
+  /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::LevelBar> __4__this;
+
+  /// @brief Field beatmapLevel, offset: 0x28, size: 0x8, def value: None
+  ::GlobalNamespace::BeatmapLevel* beatmapLevel;
+
+  /// @brief Field beatmapDifficulty, offset: 0x30, size: 0x4, def value: None
+  ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty;
+
+  /// @brief Field beatmapCharacteristic, offset: 0x38, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> beatmapCharacteristic;
+
+  /// @brief Field <cancellationToken>5__2, offset: 0x40, size: 0x8, def value: None
+  ::System::Threading::CancellationToken _cancellationToken_5__2;
+
+  /// @brief Field <>u__1, offset: 0x48, size: 0x8, def value: None
+  ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>> __u__1;
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LevelBar___SetupData_d__20, 0x50>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LevelBar___SetupData_d__20, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LevelBar___SetupData_d__20, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LevelBar___SetupData_d__20, __4__this) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LevelBar___SetupData_d__20, beatmapLevel) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LevelBar___SetupData_d__20, beatmapDifficulty) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LevelBar___SetupData_d__20, beatmapCharacteristic) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LevelBar___SetupData_d__20, _cancellationToken_5__2) == 0x40, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__LevelBar___SetupData_d__20, __u__1) == 0x48, "Offset mismatch!");
 
 } // namespace GlobalNamespace
 // Type: ::LevelBar
@@ -145,7 +326,11 @@ namespace GlobalNamespace {
 class CORDL_TYPE LevelBar : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
+  using _SetupData_d__20 = ::GlobalNamespace::__LevelBar___SetupData_d__20;
+
   using _Setup_d__18 = ::GlobalNamespace::__LevelBar___Setup_d__18;
+
+  using _Setup_d__19 = ::GlobalNamespace::__LevelBar___Setup_d__19;
 
   /// @brief Field _artworkBackgroundImage, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__artworkBackgroundImage, put = __cordl_internal_set__artworkBackgroundImage))::UnityW<::HMUI::ImageView> _artworkBackgroundImage;
@@ -200,11 +385,18 @@ public:
 
   static inline ::GlobalNamespace::LevelBar* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x266af4c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2684790, size 0x14, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Setup, addr 0x266ae9c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x2684534, size 0xb0, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::BeatmapKey beatmapKey);
+
+  /// @brief Method Setup, addr 0x26845e4, size 0xb8, virtual false, abstract: false, final false
+  inline void Setup(::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
+
+  /// @brief Method SetupData, addr 0x268469c, size 0xf4, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task* SetupData(::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty,
+                                                     ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
 
   constexpr ::UnityW<::HMUI::ImageView> const& __cordl_internal_get__artworkBackgroundImage() const;
 
@@ -302,10 +494,10 @@ public:
 
   constexpr void __cordl_internal_set__useArtworkBackground(bool value);
 
-  /// @brief Method .ctor, addr 0x266af60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26847a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_hide, addr 0x266ae70, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_hide, addr 0x2684508, size 0x2c, virtual false, abstract: false, final false
   inline void set_hide(bool value);
 
 protected:
@@ -410,4 +602,6 @@ static_assert(offsetof(::GlobalNamespace::LevelBar, ____cancellationTokenSource)
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LevelBar);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LevelBar*, "", "LevelBar");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__LevelBar___SetupData_d__20, "", "LevelBar/<SetupData>d__20");
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__LevelBar___Setup_d__18, "", "LevelBar/<Setup>d__18");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__LevelBar___Setup_d__19, "", "LevelBar/<Setup>d__19");

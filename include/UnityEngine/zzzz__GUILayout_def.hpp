@@ -23,10 +23,10 @@ namespace UnityEngine {
 class CORDL_TYPE GUILayout : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Height, addr 0x343f710, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Height, addr 0x3468c0c, size 0x9c, virtual false, abstract: false, final false
   static inline ::UnityEngine::GUILayoutOption* Height(float_t height);
 
-  /// @brief Method Width, addr 0x343f674, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Width, addr 0x3468b70, size 0x9c, virtual false, abstract: false, final false
   static inline ::UnityEngine::GUILayoutOption* Width(float_t width);
 
 protected:

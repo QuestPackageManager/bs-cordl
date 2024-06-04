@@ -9,6 +9,9 @@ CORDL_MODULE_EXPORT(AssetDetailsList)
 namespace Oculus::Platform::Models {
 class AssetDetails;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class AssetDetailsList;
@@ -23,10 +26,10 @@ namespace Oculus::Platform::Models {
 class CORDL_TYPE AssetDetailsList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::AssetDetails*> {
 public:
   // Declarations
-  static inline ::Oculus::Platform::Models::AssetDetailsList* New_ctor(void* a);
+  static inline ::Oculus::Platform::Models::AssetDetailsList* New_ctor(::System::IntPtr a);
 
-  /// @brief Method .ctor, addr 0x2ada93c, size 0x23c, virtual false, abstract: false, final false
-  inline void _ctor(void* a);
+  /// @brief Method .ctor, addr 0x2afafc8, size 0x23c, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr a);
 
 protected:
   // Ctor Parameters []

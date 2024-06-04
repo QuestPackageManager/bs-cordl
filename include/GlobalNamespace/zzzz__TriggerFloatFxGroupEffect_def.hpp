@@ -68,7 +68,7 @@ public:
 
   constexpr void __cordl_internal_set_target(::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget> value);
 
-  /// @brief Method .ctor, addr 0x26c7c94, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26de758, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(int32_t groupId, int32_t elementId, ::GlobalNamespace::FloatFxGroupEffectTarget* target);
 
 protected:
@@ -127,10 +127,10 @@ public:
   /// @brief Field _initData, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData))::GlobalNamespace::__TriggerFloatFxGroupEffect__InitData* _initData;
 
-  /// @brief Method Cleanup, addr 0x26c7a2c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x26de4f0, size 0x1c, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method HandleFloatFxBeatmapEventCallback, addr 0x26c7c5c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HandleFloatFxBeatmapEventCallback, addr 0x26de720, size 0x38, virtual false, abstract: false, final false
   inline void HandleFloatFxBeatmapEventCallback(::GlobalNamespace::FloatFxBeatmapEventData* currentEvent);
 
   static inline ::GlobalNamespace::TriggerFloatFxGroupEffect* New_ctor(::GlobalNamespace::__TriggerFloatFxGroupEffect__InitData* initData,
@@ -154,7 +154,7 @@ public:
 
   constexpr void __cordl_internal_set__initData(::GlobalNamespace::__TriggerFloatFxGroupEffect__InitData* value);
 
-  /// @brief Method .ctor, addr 0x26c7b48, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26de60c, size 0x114, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::__TriggerFloatFxGroupEffect__InitData* initData, ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 
 protected:

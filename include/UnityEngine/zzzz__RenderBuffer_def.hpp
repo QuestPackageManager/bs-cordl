@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RenderBuffer)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace UnityEngine {
 struct RenderBuffer;
@@ -25,14 +28,15 @@ public:
   // @brief default ctor
   constexpr RenderBuffer();
 
-  // Ctor Parameters [CppParam { name: "m_RenderTextureInstanceID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_BufferPtr", ty: "void*", modifiers: "", def_value: None }]
-  constexpr RenderBuffer(int32_t m_RenderTextureInstanceID, void* m_BufferPtr) noexcept;
+  // Ctor Parameters [CppParam { name: "m_RenderTextureInstanceID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_BufferPtr", ty: "::System::IntPtr", modifiers: "", def_value:
+  // None }]
+  constexpr RenderBuffer(int32_t m_RenderTextureInstanceID, ::System::IntPtr m_BufferPtr) noexcept;
 
   /// @brief Field m_RenderTextureInstanceID, offset: 0x0, size: 0x4, def value: None
   int32_t m_RenderTextureInstanceID;
 
   /// @brief Field m_BufferPtr, offset: 0x8, size: 0x8, def value: None
-  void* m_BufferPtr;
+  ::System::IntPtr m_BufferPtr;
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

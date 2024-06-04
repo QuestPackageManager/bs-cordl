@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ifconf)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace System::Net::NetworkInformation::AixStructs {
 struct ifconf;
@@ -23,20 +26,20 @@ struct CORDL_TYPE ifconf {
 public:
   // Declarations
   /// @brief Field ifc_buf, offset 0x8, size 0x8
-  __declspec(property(get = __cordl_internal_get_ifc_buf, put = __cordl_internal_set_ifc_buf)) void* ifc_buf;
+  __declspec(property(get = __cordl_internal_get_ifc_buf, put = __cordl_internal_set_ifc_buf))::System::IntPtr ifc_buf;
 
   /// @brief Field ifc_len, offset 0x0, size 0x4
   __declspec(property(get = __cordl_internal_get_ifc_len, put = __cordl_internal_set_ifc_len)) int32_t ifc_len;
 
-  constexpr void* const& __cordl_internal_get_ifc_buf() const;
+  constexpr ::System::IntPtr const& __cordl_internal_get_ifc_buf() const;
 
-  constexpr void*& __cordl_internal_get_ifc_buf();
+  constexpr ::System::IntPtr& __cordl_internal_get_ifc_buf();
 
   constexpr int32_t const& __cordl_internal_get_ifc_len() const;
 
   constexpr int32_t& __cordl_internal_get_ifc_len();
 
-  constexpr void __cordl_internal_set_ifc_buf(void* value);
+  constexpr void __cordl_internal_set_ifc_buf(::System::IntPtr value);
 
   constexpr void __cordl_internal_set_ifc_len(int32_t value);
 
@@ -44,8 +47,8 @@ public:
   // @brief default ctor
   constexpr ifconf();
 
-  // Ctor Parameters [CppParam { name: "ifc_len", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "ifc_buf", ty: "void*", modifiers: "", def_value: None }]
-  constexpr ifconf(int32_t ifc_len, void* ifc_buf) noexcept;
+  // Ctor Parameters [CppParam { name: "ifc_len", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "ifc_buf", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  constexpr ifconf(int32_t ifc_len, ::System::IntPtr ifc_buf) noexcept;
 
 private:
   /// @brief Explicitly laid out type with union based offsets
@@ -69,14 +72,14 @@ private:
       /// @brief Padding field 0x8
       uint8_t ___ifc_buf_padding[0x8];
       /// @brief Field ifc_buf, offset: 0x8, size: 0x8, def value: None
-      void* ___ifc_buf;
+      ::System::IntPtr ___ifc_buf;
     };
 #pragma pack(pop, tp)
     struct {
       /// @brief Padding field 0x8 for alignment
       uint8_t ___ifc_buf_padding_forAlignment[0x8];
       /// @brief Field ifc_buf, offset: 0x8, size: 0x8, def value: None
-      void* ___ifc_buf_forAlignment;
+      ::System::IntPtr ___ifc_buf_forAlignment;
     };
   };
 

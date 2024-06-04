@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AnimationHumanStream)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace UnityEngine::Animations {
 struct AnimationHumanStream;
@@ -25,11 +28,11 @@ public:
   // @brief default ctor
   constexpr AnimationHumanStream();
 
-  // Ctor Parameters [CppParam { name: "stream", ty: "void*", modifiers: "", def_value: None }]
-  constexpr AnimationHumanStream(void* stream) noexcept;
+  // Ctor Parameters [CppParam { name: "stream", ty: "::System::IntPtr", modifiers: "", def_value: None }]
+  constexpr AnimationHumanStream(::System::IntPtr stream) noexcept;
 
   /// @brief Field stream, offset: 0x0, size: 0x8, def value: None
-  void* stream;
+  ::System::IntPtr stream;
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

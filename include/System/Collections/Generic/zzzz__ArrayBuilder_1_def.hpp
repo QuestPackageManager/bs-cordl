@@ -23,29 +23,14 @@ template <typename T>
 struct CORDL_TYPE ArrayBuilder_1 {
 public:
   // Declarations
-  __declspec(property(get = get_Capacity)) int32_t Capacity;
-
-  __declspec(property(get = get_Count)) int32_t Count;
-
-  __declspec(property(get = get_Item)) T Item[];
-
-  /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void Add(T item);
-
-  /// @brief Method EnsureCapacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void EnsureCapacity(int32_t minimum);
+  /// @brief Method ToArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::ArrayW<T, ::Array<T>*> ToArray();
 
   /// @brief Method UncheckedAdd, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void UncheckedAdd(T item);
 
-  /// @brief Method get_Capacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline int32_t get_Capacity();
-
-  /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline int32_t get_Count();
-
-  /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline T get_Item(int32_t index);
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(int32_t capacity);
 
   // Ctor Parameters []
   // @brief default ctor

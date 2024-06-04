@@ -9,6 +9,9 @@ CORDL_MODULE_EXPORT(MessageWithAssetFileDownloadUpdate)
 namespace Oculus::Platform::Models {
 class AssetFileDownloadUpdate;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform {
 class MessageWithAssetFileDownloadUpdate;
@@ -23,16 +26,16 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithAssetFileDownloadUpdate : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetFileDownloadUpdate*> {
 public:
   // Declarations
-  /// @brief Method GetAssetFileDownloadUpdate, addr 0x2ac745c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetAssetFileDownloadUpdate, addr 0x2ae7ae8, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AssetFileDownloadUpdate* GetAssetFileDownloadUpdate();
 
-  /// @brief Method GetDataFromMessage, addr 0x2ac7498, size 0x9c, virtual true, abstract: false, final false
-  inline ::Oculus::Platform::Models::AssetFileDownloadUpdate* GetDataFromMessage(void* c_message);
+  /// @brief Method GetDataFromMessage, addr 0x2ae7b24, size 0x9c, virtual true, abstract: false, final false
+  inline ::Oculus::Platform::Models::AssetFileDownloadUpdate* GetDataFromMessage(::System::IntPtr c_message);
 
-  static inline ::Oculus::Platform::MessageWithAssetFileDownloadUpdate* New_ctor(void* c_message);
+  static inline ::Oculus::Platform::MessageWithAssetFileDownloadUpdate* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x2ac4ecc, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor(void* c_message);
+  /// @brief Method .ctor, addr 0x2ae5558, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr c_message);
 
 protected:
   // Ctor Parameters []

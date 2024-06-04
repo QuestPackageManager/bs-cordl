@@ -9,6 +9,9 @@ CORDL_MODULE_EXPORT(IUIElementsUtility)
 namespace System {
 class Exception;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace UnityEngine::UIElements {
 class IUIElementsUtility;
@@ -33,7 +36,7 @@ public:
   inline bool MakeCurrentIMGUIContainerDirty();
 
   /// @brief Method ProcessEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool ProcessEvent(int32_t instanceID, void* nativeEventPtr, ByRef<bool> eventHandled);
+  inline bool ProcessEvent(int32_t instanceID, ::System::IntPtr nativeEventPtr, ByRef<bool> eventHandled);
 
   /// @brief Method ReleaseCapture, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool ReleaseCapture();

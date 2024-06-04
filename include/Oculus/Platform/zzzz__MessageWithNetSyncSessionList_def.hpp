@@ -9,6 +9,9 @@ CORDL_MODULE_EXPORT(MessageWithNetSyncSessionList)
 namespace Oculus::Platform::Models {
 class NetSyncSessionList;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform {
 class MessageWithNetSyncSessionList;
@@ -23,16 +26,16 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithNetSyncSessionList : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::NetSyncSessionList*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x2ac8d48, size 0x9c, virtual true, abstract: false, final false
-  inline ::Oculus::Platform::Models::NetSyncSessionList* GetDataFromMessage(void* c_message);
+  /// @brief Method GetDataFromMessage, addr 0x2ae93d4, size 0x9c, virtual true, abstract: false, final false
+  inline ::Oculus::Platform::Models::NetSyncSessionList* GetDataFromMessage(::System::IntPtr c_message);
 
-  /// @brief Method GetNetSyncSessionList, addr 0x2ac8d0c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetNetSyncSessionList, addr 0x2ae9398, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::NetSyncSessionList* GetNetSyncSessionList();
 
-  static inline ::Oculus::Platform::MessageWithNetSyncSessionList* New_ctor(void* c_message);
+  static inline ::Oculus::Platform::MessageWithNetSyncSessionList* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x2ac8cb4, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor(void* c_message);
+  /// @brief Method .ctor, addr 0x2ae9340, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr c_message);
 
 protected:
   // Ctor Parameters []

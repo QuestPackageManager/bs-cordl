@@ -26,7 +26,7 @@ public:
 
   static inline ::Org::BouncyCastle::Apache::Bzip2::BZip2Constants* New_ctor();
 
-  /// @brief Method .ctor, addr 0x13eaeb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x13f1720, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_rNums();

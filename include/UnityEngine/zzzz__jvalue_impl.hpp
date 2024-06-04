@@ -2,6 +2,7 @@
 // IWYU pragma private; include "UnityEngine/jvalue.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "UnityEngine/zzzz__jvalue_def.hpp"
+#include "System/zzzz__IntPtr_def.hpp"
 constexpr bool& UnityEngine::jvalue::__cordl_internal_get_z() {
   return this->___z;
 }
@@ -74,20 +75,20 @@ constexpr double_t const& UnityEngine::jvalue::__cordl_internal_get_d() const {
 constexpr void UnityEngine::jvalue::__cordl_internal_set_d(double_t value) {
   this->___d = value;
 }
-constexpr void*& UnityEngine::jvalue::__cordl_internal_get_l() {
+constexpr ::System::IntPtr& UnityEngine::jvalue::__cordl_internal_get_l() {
   return this->___l;
 }
-constexpr void* const& UnityEngine::jvalue::__cordl_internal_get_l() const {
+constexpr ::System::IntPtr const& UnityEngine::jvalue::__cordl_internal_get_l() const {
   return this->___l;
 }
-constexpr void UnityEngine::jvalue::__cordl_internal_set_l(void* value) {
+constexpr void UnityEngine::jvalue::__cordl_internal_set_l(::System::IntPtr value) {
   this->___l = value;
 }
 // Ctor Parameters [CppParam { name: "z", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "b", ty: "int8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "c", ty:
 // "char16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "s", ty: "int16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "i", ty: "int32_t", modifiers: "", def_value:
 // Some("{}") }, CppParam { name: "j", ty: "int64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "f", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "d", ty:
-// "double_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "l", ty: "void*", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::jvalue::jvalue(bool z, int8_t b, char16_t c, int16_t s, int32_t i, int64_t j, float_t f, double_t d, void* l) noexcept {
+// "double_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "l", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::jvalue::jvalue(bool z, int8_t b, char16_t c, int16_t s, int32_t i, int64_t j, float_t f, double_t d, ::System::IntPtr l) noexcept {
   this->z = z;
   this->b = b;
   this->c = c;

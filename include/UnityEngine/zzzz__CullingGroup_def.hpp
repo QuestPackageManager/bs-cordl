@@ -9,6 +9,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CullingGroup)
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Object;
 }
 namespace UnityEngine {
@@ -35,13 +38,13 @@ namespace UnityEngine {
 class CORDL_TYPE __CullingGroup__StateChanged : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x3400430, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x3429924, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::UnityEngine::CullingGroupEvent sphere);
 
-  static inline ::UnityEngine::__CullingGroup__StateChanged* New_ctor(::System::Object* object, void* method);
+  static inline ::UnityEngine::__CullingGroup__StateChanged* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x340036c, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
+  /// @brief Method .ctor, addr 0x3429860, size 0xc4, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []
@@ -77,22 +80,22 @@ public:
   __declspec(property(get = __cordl_internal_get_m_OnStateChanged, put = __cordl_internal_set_m_OnStateChanged))::UnityEngine::__CullingGroup__StateChanged* m_OnStateChanged;
 
   /// @brief Field m_Ptr, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) void* m_Ptr;
+  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr))::System::IntPtr m_Ptr;
 
-  /// @brief Method SendEvents, addr 0x3400310, size 0x5c, virtual false, abstract: false, final false
-  static inline void SendEvents(::UnityEngine::CullingGroup* cullingGroup, void* eventsPtr, int32_t count);
+  /// @brief Method SendEvents, addr 0x3429804, size 0x5c, virtual false, abstract: false, final false
+  static inline void SendEvents(::UnityEngine::CullingGroup* cullingGroup, ::System::IntPtr eventsPtr, int32_t count);
 
   constexpr ::UnityEngine::__CullingGroup__StateChanged*& __cordl_internal_get_m_OnStateChanged();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::__CullingGroup__StateChanged*> const& __cordl_internal_get_m_OnStateChanged() const;
 
-  constexpr void* const& __cordl_internal_get_m_Ptr() const;
+  constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
 
-  constexpr void*& __cordl_internal_get_m_Ptr();
+  constexpr ::System::IntPtr& __cordl_internal_get_m_Ptr();
 
   constexpr void __cordl_internal_set_m_OnStateChanged(::UnityEngine::__CullingGroup__StateChanged* value);
 
-  constexpr void __cordl_internal_set_m_Ptr(void* value);
+  constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
 
 protected:
   // Ctor Parameters []
@@ -109,7 +112,7 @@ public:
   CullingGroup(CullingGroup const&) = delete;
 
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
-  void* ___m_Ptr;
+  ::System::IntPtr ___m_Ptr;
 
   /// @brief Field m_OnStateChanged, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::__CullingGroup__StateChanged* ___m_OnStateChanged;

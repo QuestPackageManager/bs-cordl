@@ -38,10 +38,10 @@ public:
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InputHDAInfo*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InputHDAInfo*>*() noexcept;
 
-  /// @brief Method CopyTo, addr 0x2554a8c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x256a9d0, size 0x24, virtual false, abstract: false, final false
   inline void CopyTo(::HoudiniEngineUnity::HEU_InputHDAInfo* destInfo);
 
-  /// @brief Method IsEquivalentTo, addr 0x2556164, size 0x130, virtual true, abstract: false, final true
+  /// @brief Method IsEquivalentTo, addr 0x256c0a8, size 0x130, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_InputHDAInfo* other);
 
   static inline ::HoudiniEngineUnity::HEU_InputHDAInfo* New_ctor();
@@ -64,7 +64,7 @@ public:
 
   constexpr void __cordl_internal_set__pendingGO(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x2553f8c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2569ed0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InputHDAInfo*>"

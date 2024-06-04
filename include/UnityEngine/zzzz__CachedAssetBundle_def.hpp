@@ -28,13 +28,13 @@ public:
 
   __declspec(property(get = get_name))::StringW name;
 
-  /// @brief Method .ctor, addr 0x34000a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x342959c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::UnityEngine::Hash128 hash);
 
-  /// @brief Method get_hash, addr 0x33ffaa0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_hash, addr 0x3428f94, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Hash128 get_hash();
 
-  /// @brief Method get_name, addr 0x33ffa98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x3428f8c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
   // Ctor Parameters []

@@ -9,6 +9,9 @@ CORDL_MODULE_EXPORT(MessageWithAchievementProgressList)
 namespace Oculus::Platform::Models {
 class AchievementProgressList;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform {
 class MessageWithAchievementProgressList;
@@ -23,16 +26,16 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithAchievementProgressList : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AchievementProgressList*> {
 public:
   // Declarations
-  /// @brief Method GetAchievementProgressList, addr 0x2ac6b14, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetAchievementProgressList, addr 0x2ae71a0, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::AchievementProgressList* GetAchievementProgressList();
 
-  /// @brief Method GetDataFromMessage, addr 0x2ac6b50, size 0x9c, virtual true, abstract: false, final false
-  inline ::Oculus::Platform::Models::AchievementProgressList* GetDataFromMessage(void* c_message);
+  /// @brief Method GetDataFromMessage, addr 0x2ae71dc, size 0x9c, virtual true, abstract: false, final false
+  inline ::Oculus::Platform::Models::AchievementProgressList* GetDataFromMessage(::System::IntPtr c_message);
 
-  static inline ::Oculus::Platform::MessageWithAchievementProgressList* New_ctor(void* c_message);
+  static inline ::Oculus::Platform::MessageWithAchievementProgressList* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x2ac4b04, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor(void* c_message);
+  /// @brief Method .ctor, addr 0x2ae5190, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr c_message);
 
 protected:
   // Ctor Parameters []

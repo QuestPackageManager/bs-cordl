@@ -45,15 +45,15 @@ public:
   __declspec(property(get = __cordl_internal_get_didFinishEvent,
                       put = __cordl_internal_set_didFinishEvent))::System::Action_2<::UnityW<::GlobalNamespace::EnterTextViewController>, ::StringW>* didFinishEvent;
 
-  /// @brief Method DidActivate, addr 0x2636b38, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x2650158, size 0xe4, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method Init, addr 0x2636b14, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x2650134, size 0x24, virtual false, abstract: false, final false
   inline void Init(::StringW titleText);
 
   static inline ::GlobalNamespace::EnterTextViewController* New_ctor();
 
-  /// @brief Method OkButtonPressed, addr 0x2636c1c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method OkButtonPressed, addr 0x265023c, size 0x98, virtual false, abstract: false, final false
   inline void OkButtonPressed();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__okButton() const;
@@ -80,13 +80,13 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::EnterTextViewController>, ::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x2636cb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x26502d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x26369b4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x264ffd4, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::EnterTextViewController>, ::StringW>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x2636a64, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x2650084, size 0xb0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::EnterTextViewController>, ::StringW>* value);
 
 protected:

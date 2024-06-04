@@ -8,6 +8,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(GUIStyleState)
+namespace System {
+struct IntPtr;
+}
 namespace UnityEngine {
 struct Color;
 }
@@ -29,51 +32,51 @@ class CORDL_TYPE GUIStyleState : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Ptr, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) void* m_Ptr;
+  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr))::System::IntPtr m_Ptr;
 
   /// @brief Field m_SourceStyle, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_SourceStyle, put = __cordl_internal_set_m_SourceStyle))::UnityEngine::GUIStyle* m_SourceStyle;
 
   __declspec(property(put = set_textColor))::UnityEngine::Color textColor;
 
-  /// @brief Method Cleanup, addr 0x344ddec, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x34772e8, size 0x3c, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method Finalize, addr 0x344df0c, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x3477408, size 0xf8, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method GetGUIStyleState, addr 0x344de9c, size 0x70, virtual false, abstract: false, final false
-  static inline ::UnityEngine::GUIStyleState* GetGUIStyleState(::UnityEngine::GUIStyle* sourceStyle, void* source);
+  /// @brief Method GetGUIStyleState, addr 0x3477398, size 0x70, virtual false, abstract: false, final false
+  static inline ::UnityEngine::GUIStyleState* GetGUIStyleState(::UnityEngine::GUIStyle* sourceStyle, ::System::IntPtr source);
 
-  /// @brief Method Init, addr 0x344ddc4, size 0x28, virtual false, abstract: false, final false
-  static inline void* Init();
+  /// @brief Method Init, addr 0x34772c0, size 0x28, virtual false, abstract: false, final false
+  static inline ::System::IntPtr Init();
 
   static inline ::UnityEngine::GUIStyleState* New_ctor();
 
-  static inline ::UnityEngine::GUIStyleState* New_ctor(::UnityEngine::GUIStyle* sourceStyle, void* source);
+  static inline ::UnityEngine::GUIStyleState* New_ctor(::UnityEngine::GUIStyle* sourceStyle, ::System::IntPtr source);
 
-  constexpr void* const& __cordl_internal_get_m_Ptr() const;
+  constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
 
-  constexpr void*& __cordl_internal_get_m_Ptr();
+  constexpr ::System::IntPtr& __cordl_internal_get_m_Ptr();
 
   constexpr ::UnityEngine::GUIStyle*& __cordl_internal_get_m_SourceStyle();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __cordl_internal_get_m_SourceStyle() const;
 
-  constexpr void __cordl_internal_set_m_Ptr(void* value);
+  constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
 
   constexpr void __cordl_internal_set_m_SourceStyle(::UnityEngine::GUIStyle* value);
 
-  /// @brief Method .ctor, addr 0x344de28, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3477324, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x344de70, size 0x2c, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::GUIStyle* sourceStyle, void* source);
+  /// @brief Method .ctor, addr 0x347736c, size 0x2c, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::GUIStyle* sourceStyle, ::System::IntPtr source);
 
-  /// @brief Method set_textColor, addr 0x344dd2c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_textColor, addr 0x3477228, size 0x54, virtual false, abstract: false, final false
   inline void set_textColor(::UnityEngine::Color value);
 
-  /// @brief Method set_textColor_Injected, addr 0x344dd80, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_textColor_Injected, addr 0x347727c, size 0x44, virtual false, abstract: false, final false
   inline void set_textColor_Injected(ByRef<::UnityEngine::Color> value);
 
 protected:
@@ -91,7 +94,7 @@ public:
   GUIStyleState(GUIStyleState const&) = delete;
 
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
-  void* ___m_Ptr;
+  ::System::IntPtr ___m_Ptr;
 
   /// @brief Field m_SourceStyle, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::GUIStyle* ___m_SourceStyle;

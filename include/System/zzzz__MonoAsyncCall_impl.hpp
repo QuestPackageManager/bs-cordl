@@ -9,9 +9,9 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::MonoAsyncCall::*)()>(&::System::MonoAsyncCall::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x298041c;
+  constexpr static std::size_t addrs = 0x299aaa8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::MonoAsyncCall*>::get(), ".ctor",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
@@ -29,15 +29,15 @@ constexpr void System::MonoAsyncCall::__cordl_internal_set_msg(::System::Object*
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___msg)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr void*& System::MonoAsyncCall::__cordl_internal_get_cb_method() {
+constexpr ::System::IntPtr& System::MonoAsyncCall::__cordl_internal_get_cb_method() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cb_method;
 }
-constexpr void* const& System::MonoAsyncCall::__cordl_internal_get_cb_method() const {
+constexpr ::System::IntPtr const& System::MonoAsyncCall::__cordl_internal_get_cb_method() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cb_method;
 }
-constexpr void System::MonoAsyncCall::__cordl_internal_set_cb_method(void* value) {
+constexpr void System::MonoAsyncCall::__cordl_internal_set_cb_method(::System::IntPtr value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___cb_method = value;
 }

@@ -27,69 +27,69 @@ public:
   /// @brief Field ROOT_Z, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_ROOT_Z, put = setStaticF_ROOT_Z))::ArrayW<uint64_t, ::Array<uint64_t>*> ROOT_Z;
 
-  /// @brief Method Add, addr 0x12678c8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x1270138, size 0xa8, virtual false, abstract: false, final false
   static inline void Add(::ArrayW<uint64_t, ::Array<uint64_t>*> x, ::ArrayW<uint64_t, ::Array<uint64_t>*> y, ::ArrayW<uint64_t, ::Array<uint64_t>*> z);
 
-  /// @brief Method AddExt, addr 0x1267970, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method AddExt, addr 0x12701e0, size 0x108, virtual false, abstract: false, final false
   static inline void AddExt(::ArrayW<uint64_t, ::Array<uint64_t>*> xx, ::ArrayW<uint64_t, ::Array<uint64_t>*> yy, ::ArrayW<uint64_t, ::Array<uint64_t>*> zz);
 
-  /// @brief Method AddOne, addr 0x1267a78, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method AddOne, addr 0x12702e8, size 0x70, virtual false, abstract: false, final false
   static inline void AddOne(::ArrayW<uint64_t, ::Array<uint64_t>*> x, ::ArrayW<uint64_t, ::Array<uint64_t>*> z);
 
-  /// @brief Method AddTo, addr 0x1267ae8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method AddTo, addr 0x1270358, size 0x84, virtual false, abstract: false, final false
   static inline void AddTo(::ArrayW<uint64_t, ::Array<uint64_t>*> x, ::ArrayW<uint64_t, ::Array<uint64_t>*> z);
 
-  /// @brief Method FromBigInteger, addr 0x1267b6c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method FromBigInteger, addr 0x12703dc, size 0x10, virtual false, abstract: false, final false
   static inline ::ArrayW<uint64_t, ::Array<uint64_t>*> FromBigInteger(::Org::BouncyCastle::Math::BigInteger* x);
 
-  /// @brief Method HalfTrace, addr 0x1267b7c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method HalfTrace, addr 0x12703ec, size 0xc8, virtual false, abstract: false, final false
   static inline void HalfTrace(::ArrayW<uint64_t, ::Array<uint64_t>*> x, ::ArrayW<uint64_t, ::Array<uint64_t>*> z);
 
-  /// @brief Method ImplCompactExt, addr 0x12687b0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ImplCompactExt, addr 0x1271020, size 0x90, virtual false, abstract: false, final false
   static inline void ImplCompactExt(::ArrayW<uint64_t, ::Array<uint64_t>*> zz);
 
-  /// @brief Method ImplMultiply, addr 0x1268150, size 0x330, virtual false, abstract: false, final false
+  /// @brief Method ImplMultiply, addr 0x12709c0, size 0x330, virtual false, abstract: false, final false
   static inline void ImplMultiply(::ArrayW<uint64_t, ::Array<uint64_t>*> x, ::ArrayW<uint64_t, ::Array<uint64_t>*> y, ::ArrayW<uint64_t, ::Array<uint64_t>*> zz);
 
-  /// @brief Method ImplMulw, addr 0x1268840, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method ImplMulw, addr 0x12710b0, size 0x1e4, virtual false, abstract: false, final false
   static inline void ImplMulw(uint64_t x, uint64_t y, ::ArrayW<uint64_t, ::Array<uint64_t>*> z, int32_t zOff);
 
-  /// @brief Method ImplSquare, addr 0x1267c44, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ImplSquare, addr 0x12704b4, size 0x90, virtual false, abstract: false, final false
   static inline void ImplSquare(::ArrayW<uint64_t, ::Array<uint64_t>*> x, ::ArrayW<uint64_t, ::Array<uint64_t>*> zz);
 
-  /// @brief Method Invert, addr 0x1267db4, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method Invert, addr 0x1270624, size 0x1c4, virtual false, abstract: false, final false
   static inline void Invert(::ArrayW<uint64_t, ::Array<uint64_t>*> x, ::ArrayW<uint64_t, ::Array<uint64_t>*> z);
 
-  /// @brief Method Multiply, addr 0x1267ffc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Multiply, addr 0x127086c, size 0x88, virtual false, abstract: false, final false
   static inline void Multiply(::ArrayW<uint64_t, ::Array<uint64_t>*> x, ::ArrayW<uint64_t, ::Array<uint64_t>*> y, ::ArrayW<uint64_t, ::Array<uint64_t>*> z);
 
-  /// @brief Method MultiplyAddToExt, addr 0x1268480, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method MultiplyAddToExt, addr 0x1270cf0, size 0x8c, virtual false, abstract: false, final false
   static inline void MultiplyAddToExt(::ArrayW<uint64_t, ::Array<uint64_t>*> x, ::ArrayW<uint64_t, ::Array<uint64_t>*> y, ::ArrayW<uint64_t, ::Array<uint64_t>*> zz);
 
   static inline ::Org::BouncyCastle::Math::EC::Custom::Sec::SecT131Field* New_ctor();
 
-  /// @brief Method Reduce, addr 0x1267cd4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Reduce, addr 0x1270544, size 0xe0, virtual false, abstract: false, final false
   static inline void Reduce(::ArrayW<uint64_t, ::Array<uint64_t>*> xx, ::ArrayW<uint64_t, ::Array<uint64_t>*> z);
 
-  /// @brief Method Reduce61, addr 0x126850c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Reduce61, addr 0x1270d7c, size 0x90, virtual false, abstract: false, final false
   static inline void Reduce61(::ArrayW<uint64_t, ::Array<uint64_t>*> z, int32_t zOff);
 
-  /// @brief Method Sqrt, addr 0x126859c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method Sqrt, addr 0x1270e0c, size 0x144, virtual false, abstract: false, final false
   static inline void Sqrt(::ArrayW<uint64_t, ::Array<uint64_t>*> x, ::ArrayW<uint64_t, ::Array<uint64_t>*> z);
 
-  /// @brief Method Square, addr 0x1267f78, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Square, addr 0x12707e8, size 0x84, virtual false, abstract: false, final false
   static inline void Square(::ArrayW<uint64_t, ::Array<uint64_t>*> x, ::ArrayW<uint64_t, ::Array<uint64_t>*> z);
 
-  /// @brief Method SquareAddToExt, addr 0x12686e0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method SquareAddToExt, addr 0x1270f50, size 0x88, virtual false, abstract: false, final false
   static inline void SquareAddToExt(::ArrayW<uint64_t, ::Array<uint64_t>*> x, ::ArrayW<uint64_t, ::Array<uint64_t>*> zz);
 
-  /// @brief Method SquareN, addr 0x1268084, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method SquareN, addr 0x12708f4, size 0xcc, virtual false, abstract: false, final false
   static inline void SquareN(::ArrayW<uint64_t, ::Array<uint64_t>*> x, int32_t n, ::ArrayW<uint64_t, ::Array<uint64_t>*> z);
 
-  /// @brief Method Trace, addr 0x1268768, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Trace, addr 0x1270fd8, size 0x48, virtual false, abstract: false, final false
   static inline uint32_t Trace(::ArrayW<uint64_t, ::Array<uint64_t>*> x);
 
-  /// @brief Method .ctor, addr 0x1268ab8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1271328, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<uint64_t, ::Array<uint64_t>*> getStaticF_ROOT_Z();

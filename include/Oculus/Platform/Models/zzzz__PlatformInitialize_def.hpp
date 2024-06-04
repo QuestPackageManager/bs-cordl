@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlatformInitialize)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class PlatformInitialize;
@@ -24,7 +27,7 @@ public:
   /// @brief Field Result, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_Result, put = __cordl_internal_set_Result))::Oculus::Platform::PlatformInitializeResult Result;
 
-  static inline ::Oculus::Platform::Models::PlatformInitialize* New_ctor(void* o);
+  static inline ::Oculus::Platform::Models::PlatformInitialize* New_ctor(::System::IntPtr o);
 
   constexpr ::Oculus::Platform::PlatformInitializeResult const& __cordl_internal_get_Result() const;
 
@@ -32,8 +35,8 @@ public:
 
   constexpr void __cordl_internal_set_Result(::Oculus::Platform::PlatformInitializeResult value);
 
-  /// @brief Method .ctor, addr 0x2ade5e4, size 0x78, virtual false, abstract: false, final false
-  inline void _ctor(void* o);
+  /// @brief Method .ctor, addr 0x2afec70, size 0x78, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr o);
 
 protected:
   // Ctor Parameters []

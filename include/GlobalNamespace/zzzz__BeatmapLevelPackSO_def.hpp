@@ -68,7 +68,7 @@ public:
 
   __declspec(property(get = get_smallCoverImage))::UnityW<::UnityEngine::Sprite> smallCoverImage;
 
-  /// @brief Method Create, addr 0x14beecc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x14c4e54, size 0x64, virtual false, abstract: false, final false
   static inline ::UnityW<::GlobalNamespace::BeatmapLevelPackSO> Create(::StringW packID);
 
   static inline ::GlobalNamespace::BeatmapLevelPackSO* New_ctor();
@@ -115,31 +115,31 @@ public:
 
   constexpr void __cordl_internal_set__smallCoverImage(::UnityW<::UnityEngine::Sprite> value);
 
-  /// @brief Method .ctor, addr 0x14bef30, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x14c4eb8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_beatmapLevelCollection, addr 0x14beebc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapLevelCollection, addr 0x14c4e44, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BeatmapLevelCollectionSO> get_beatmapLevelCollection();
 
-  /// @brief Method get_collectionName, addr 0x14beea4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_collectionName, addr 0x14c4e2c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_collectionName();
 
-  /// @brief Method get_contentRating, addr 0x14beec4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_contentRating, addr 0x14c4e4c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerSensitivityFlag get_contentRating();
 
-  /// @brief Method get_coverImage, addr 0x14beeac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_coverImage, addr 0x14c4e34, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_coverImage();
 
-  /// @brief Method get_packID, addr 0x14bee8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_packID, addr 0x14c4e14, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_packID();
 
-  /// @brief Method get_packName, addr 0x14bee94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_packName, addr 0x14c4e1c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_packName();
 
-  /// @brief Method get_shortPackName, addr 0x14bee9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_shortPackName, addr 0x14c4e24, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_shortPackName();
 
-  /// @brief Method get_smallCoverImage, addr 0x14beeb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_smallCoverImage, addr 0x14c4e3c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_smallCoverImage();
 
 protected:

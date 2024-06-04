@@ -10,6 +10,9 @@ namespace System {
 class EventArgs;
 }
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Object;
 }
 // Forward declare root types
@@ -26,13 +29,13 @@ namespace System {
 class CORDL_TYPE EventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x291ba88, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2937114, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* sender, ::System::EventArgs* e);
 
-  static inline ::System::EventHandler* New_ctor(::System::Object* object, void* method);
+  static inline ::System::EventHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x291b958, size 0x130, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
+  /// @brief Method .ctor, addr 0x2936fe4, size 0x130, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []

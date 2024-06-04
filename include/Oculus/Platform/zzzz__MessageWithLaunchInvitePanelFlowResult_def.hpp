@@ -9,6 +9,9 @@ CORDL_MODULE_EXPORT(MessageWithLaunchInvitePanelFlowResult)
 namespace Oculus::Platform::Models {
 class LaunchInvitePanelFlowResult;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform {
 class MessageWithLaunchInvitePanelFlowResult;
@@ -23,16 +26,16 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithLaunchInvitePanelFlowResult : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::LaunchInvitePanelFlowResult*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x2ac8118, size 0x9c, virtual true, abstract: false, final false
-  inline ::Oculus::Platform::Models::LaunchInvitePanelFlowResult* GetDataFromMessage(void* c_message);
+  /// @brief Method GetDataFromMessage, addr 0x2ae87a4, size 0x9c, virtual true, abstract: false, final false
+  inline ::Oculus::Platform::Models::LaunchInvitePanelFlowResult* GetDataFromMessage(::System::IntPtr c_message);
 
-  /// @brief Method GetLaunchInvitePanelFlowResult, addr 0x2ac80dc, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetLaunchInvitePanelFlowResult, addr 0x2ae8768, size 0x3c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::LaunchInvitePanelFlowResult* GetLaunchInvitePanelFlowResult();
 
-  static inline ::Oculus::Platform::MessageWithLaunchInvitePanelFlowResult* New_ctor(void* c_message);
+  static inline ::Oculus::Platform::MessageWithLaunchInvitePanelFlowResult* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x2ac539c, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor(void* c_message);
+  /// @brief Method .ctor, addr 0x2ae5a28, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr c_message);
 
 protected:
   // Ctor Parameters []

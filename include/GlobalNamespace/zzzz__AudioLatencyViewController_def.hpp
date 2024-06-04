@@ -83,30 +83,30 @@ public:
   __declspec(property(get = __cordl_internal_get__volumeSettingsList,
                       put = __cordl_internal_set__volumeSettingsList))::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> _volumeSettingsList;
 
-  /// @brief Method DidActivate, addr 0x265e2b8, size 0x2d4, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x26776b0, size 0x2d4, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x265e67c, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x2677a74, size 0xf8, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleAmbientVolumeChanged, addr 0x265e8cc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method HandleAmbientVolumeChanged, addr 0x2677cc4, size 0x74, virtual false, abstract: false, final false
   inline void HandleAmbientVolumeChanged(::GlobalNamespace::FormattedFloatListSettingsController* _, float_t newValue);
 
-  /// @brief Method HandleOverrideAudioLatencyToggleValueChanged, addr 0x265e9c8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method HandleOverrideAudioLatencyToggleValueChanged, addr 0x2677dc0, size 0x7c, virtual false, abstract: false, final false
   inline void HandleOverrideAudioLatencyToggleValueChanged(bool isOn);
 
-  /// @brief Method HandleVolumeChanged, addr 0x265e858, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method HandleVolumeChanged, addr 0x2677c50, size 0x74, virtual false, abstract: false, final false
   inline void HandleVolumeChanged(::GlobalNamespace::FormattedFloatListSettingsController* _, float_t newValue);
 
   static inline ::GlobalNamespace::AudioLatencyViewController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x265e774, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x2677b6c, size 0xe4, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RefreshVisuals, addr 0x265e58c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method RefreshVisuals, addr 0x2677984, size 0xf0, virtual false, abstract: false, final false
   inline void RefreshVisuals(bool overrideAudioLatencyIsEnabled);
 
-  /// @brief Method SliderValueDidChange, addr 0x265e940, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method SliderValueDidChange, addr 0x2677d38, size 0x88, virtual false, abstract: false, final false
   inline void SliderValueDidChange(::HMUI::RangeValuesTextSlider* slider, float_t value);
 
   constexpr ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> const& __cordl_internal_get__ambientSettingsList() const;
@@ -175,7 +175,7 @@ public:
 
   constexpr void __cordl_internal_set__volumeSettingsList(::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> value);
 
-  /// @brief Method .ctor, addr 0x265ea44, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2677e3c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

@@ -13,7 +13,7 @@ class ButtonControl;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Controls::ButtonControl);
 // Type: UnityEngine.InputSystem.Controls::ButtonControl
-// SizeInfo { instance_size: 288, native_size: -1, calculated_instance_size: 288, calculated_native_size: 284, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 304, native_size: -1, calculated_instance_size: 304, calculated_native_size: 304, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: false
 // CS Name: ::UnityEngine.InputSystem.Controls::ButtonControl*
@@ -22,7 +22,7 @@ public:
   // Declarations
   __declspec(property(get = get_isPressed)) bool isPressed;
 
-  /// @brief Field pressPoint, offset 0x118, size 0x4
+  /// @brief Field pressPoint, offset 0x12c, size 0x4
   __declspec(property(get = __cordl_internal_get_pressPoint, put = __cordl_internal_set_pressPoint)) float_t pressPoint;
 
   __declspec(property(get = get_pressPointOrDefault)) float_t pressPointOrDefault;
@@ -37,7 +37,7 @@ public:
 
   __declspec(property(get = get_wasReleasedThisFrame)) bool wasReleasedThisFrame;
 
-  /// @brief Method IsValueConsideredPressed, addr 0x3177688, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method IsValueConsideredPressed, addr 0x319e1a8, size 0x6c, virtual false, abstract: false, final false
   inline bool IsValueConsideredPressed(float_t value);
 
   static inline ::UnityEngine::InputSystem::Controls::ButtonControl* New_ctor();
@@ -48,23 +48,23 @@ public:
 
   constexpr void __cordl_internal_set_pressPoint(float_t value);
 
-  /// @brief Method .ctor, addr 0x31770b4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x319d938, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline float_t getStaticF_s_GlobalDefaultButtonPressPoint();
 
   static inline float_t getStaticF_s_GlobalDefaultButtonReleaseThreshold();
 
-  /// @brief Method get_isPressed, addr 0x31776f4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_isPressed, addr 0x319e214, size 0xa0, virtual false, abstract: false, final false
   inline bool get_isPressed();
 
-  /// @brief Method get_pressPointOrDefault, addr 0x317761c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_pressPointOrDefault, addr 0x319e13c, size 0x58, virtual false, abstract: false, final false
   inline float_t get_pressPointOrDefault();
 
-  /// @brief Method get_wasPressedThisFrame, addr 0x3177794, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method get_wasPressedThisFrame, addr 0x319e2b4, size 0x120, virtual false, abstract: false, final false
   inline bool get_wasPressedThisFrame();
 
-  /// @brief Method get_wasReleasedThisFrame, addr 0x31778b4, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method get_wasReleasedThisFrame, addr 0x319e3d4, size 0x120, virtual false, abstract: false, final false
   inline bool get_wasReleasedThisFrame();
 
   static inline void setStaticF_s_GlobalDefaultButtonPressPoint(float_t value);
@@ -85,7 +85,7 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ButtonControl(ButtonControl const&) = delete;
 
-  /// @brief Field pressPoint, offset: 0x118, size: 0x4, def value: None
+  /// @brief Field pressPoint, offset: 0x12c, size: 0x4, def value: None
   float_t ___pressPoint;
 
   /// @brief Field kMinButtonPressPoint offset 0xffffffff size 0x4
@@ -94,9 +94,9 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Controls::ButtonControl, 0x120>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Controls::ButtonControl, 0x130>, "Size mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Controls::ButtonControl, ___pressPoint) == 0x118, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Controls::ButtonControl, ___pressPoint) == 0x12c, "Offset mismatch!");
 
 } // namespace UnityEngine::InputSystem::Controls
 NEED_NO_BOX(::UnityEngine::InputSystem::Controls::ButtonControl);

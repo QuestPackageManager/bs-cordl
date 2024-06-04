@@ -10,6 +10,9 @@ CORDL_MODULE_EXPORT(RuntimeGPtrArrayHandle)
 namespace Mono {
 struct __RuntimeStructs__GPtrArray;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Mono {
 struct RuntimeGPtrArrayHandle;
@@ -24,26 +27,26 @@ namespace Mono {
 struct CORDL_TYPE RuntimeGPtrArrayHandle {
 public:
   // Declarations
-  __declspec(property(get = get_Item)) void* Item[];
+  __declspec(property(get = get_Item))::System::IntPtr Item[];
 
   __declspec(property(get = get_Length)) int32_t Length;
 
-  /// @brief Method DestroyAndFree, addr 0x2790d54, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method DestroyAndFree, addr 0x27aa3c0, size 0x1c, virtual false, abstract: false, final false
   static inline void DestroyAndFree(ByRef<::Mono::RuntimeGPtrArrayHandle> h);
 
-  /// @brief Method GPtrArrayFree, addr 0x2790d50, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GPtrArrayFree, addr 0x27aa3bc, size 0x4, virtual false, abstract: false, final false
   static inline void GPtrArrayFree(::cordl_internals::Ptr<::Mono::__RuntimeStructs__GPtrArray> value);
 
-  /// @brief Method Lookup, addr 0x2790ce4, size 0x6c, virtual false, abstract: false, final false
-  inline void* Lookup(int32_t i);
+  /// @brief Method Lookup, addr 0x27aa350, size 0x6c, virtual false, abstract: false, final false
+  inline ::System::IntPtr Lookup(int32_t i);
 
-  /// @brief Method .ctor, addr 0x2790ca4, size 0x20, virtual false, abstract: false, final false
-  inline void _ctor(void* ptr);
+  /// @brief Method .ctor, addr 0x27aa310, size 0x20, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr ptr);
 
-  /// @brief Method get_Item, addr 0x2790ce0, size 0x4, virtual false, abstract: false, final false
-  inline void* get_Item(int32_t i);
+  /// @brief Method get_Item, addr 0x27aa34c, size 0x4, virtual false, abstract: false, final false
+  inline ::System::IntPtr get_Item(int32_t i);
 
-  /// @brief Method get_Length, addr 0x2790cc4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x27aa330, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
   // Ctor Parameters []

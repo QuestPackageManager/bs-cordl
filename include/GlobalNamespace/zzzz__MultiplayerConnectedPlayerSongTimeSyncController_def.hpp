@@ -70,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set_timeScale(float_t value);
 
-  /// @brief Method .ctor, addr 0x26f1ee4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x270a614, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(float_t startSongTime, float_t songTimeOffset, float_t timeScale);
 
 protected:
@@ -177,19 +177,19 @@ public:
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController* New_ctor();
 
-  /// @brief Method SetConnectedPlayerSongTime, addr 0x26f2640, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method SetConnectedPlayerSongTime, addr 0x270ad70, size 0x38, virtual false, abstract: false, final false
   inline void SetConnectedPlayerSongTime(int64_t syncTime, float_t songTime);
 
-  /// @brief Method Start, addr 0x26f24d4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x270ac04, size 0xc, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartSong, addr 0x26f0840, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method StartSong, addr 0x2708f6c, size 0x178, virtual false, abstract: false, final false
   inline void StartSong(int64_t songStartSyncTime);
 
-  /// @brief Method StopSong, addr 0x26f0b34, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method StopSong, addr 0x2709260, size 0xc, virtual false, abstract: false, final false
   inline void StopSong();
 
-  /// @brief Method Update, addr 0x26f24e0, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x270ac10, size 0x160, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr float_t const& __cordl_internal_get__audioSyncLerpSpeed() const;
@@ -276,31 +276,31 @@ public:
 
   constexpr void __cordl_internal_set__timeScale(float_t value);
 
-  /// @brief Method .ctor, addr 0x26f2678, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x270ada8, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isReady, addr 0x26f24cc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isReady, addr 0x270abfc, size 0x8, virtual true, abstract: false, final true
   inline bool get_isReady();
 
-  /// @brief Method get_lastFrameDeltaSongTime, addr 0x26f24a4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_lastFrameDeltaSongTime, addr 0x270abd4, size 0x8, virtual true, abstract: false, final true
   inline float_t get_lastFrameDeltaSongTime();
 
-  /// @brief Method get_songEndTime, addr 0x26f24b4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_songEndTime, addr 0x270abe4, size 0xc, virtual true, abstract: false, final true
   inline float_t get_songEndTime();
 
-  /// @brief Method get_songLength, addr 0x26f24c0, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_songLength, addr 0x270abf0, size 0xc, virtual true, abstract: false, final true
   inline float_t get_songLength();
 
-  /// @brief Method get_songTime, addr 0x26f2494, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_songTime, addr 0x270abc4, size 0x8, virtual true, abstract: false, final true
   inline float_t get_songTime();
 
   /// @brief Convert to "::GlobalNamespace::IAudioTimeSource"
   constexpr ::GlobalNamespace::IAudioTimeSource* i___GlobalNamespace__IAudioTimeSource() noexcept;
 
-  /// @brief Method set_lastFrameDeltaSongTime, addr 0x26f24ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lastFrameDeltaSongTime, addr 0x270abdc, size 0x8, virtual false, abstract: false, final false
   inline void set_lastFrameDeltaSongTime(float_t value);
 
-  /// @brief Method set_songTime, addr 0x26f249c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_songTime, addr 0x270abcc, size 0x8, virtual false, abstract: false, final false
   inline void set_songTime(float_t value);
 
 protected:

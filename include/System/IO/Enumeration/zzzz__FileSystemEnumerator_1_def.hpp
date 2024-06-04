@@ -33,6 +33,9 @@ namespace System {
 class IDisposable;
 }
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Object;
 }
 namespace System {
@@ -65,7 +68,7 @@ public:
   __declspec(property(get = __cordl_internal_get__currentPath, put = __cordl_internal_set__currentPath))::StringW _currentPath;
 
   /// @brief Field _directoryHandle, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__directoryHandle, put = __cordl_internal_set__directoryHandle)) void* _directoryHandle;
+  __declspec(property(get = __cordl_internal_get__directoryHandle, put = __cordl_internal_set__directoryHandle))::System::IntPtr _directoryHandle;
 
   /// @brief Field _entry, offset 0x50, size 0x10
   __declspec(property(get = __cordl_internal_get__entry, put = __cordl_internal_set__entry))::GlobalNamespace::__Interop__Sys__DirectoryEntry _entry;
@@ -110,7 +113,7 @@ public:
   inline bool ContinueOnError(int32_t error);
 
   /// @brief Method CreateDirectoryHandle, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void* CreateDirectoryHandle(::StringW path, bool ignoreNotFound);
+  inline ::System::IntPtr CreateDirectoryHandle(::StringW path, bool ignoreNotFound);
 
   /// @brief Method DequeueNextDirectory, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool DequeueNextDirectory();
@@ -176,9 +179,9 @@ public:
 
   constexpr ::StringW& __cordl_internal_get__currentPath();
 
-  constexpr void* const& __cordl_internal_get__directoryHandle() const;
+  constexpr ::System::IntPtr const& __cordl_internal_get__directoryHandle() const;
 
-  constexpr void*& __cordl_internal_get__directoryHandle();
+  constexpr ::System::IntPtr& __cordl_internal_get__directoryHandle();
 
   constexpr ::GlobalNamespace::__Interop__Sys__DirectoryEntry const& __cordl_internal_get__entry() const;
 
@@ -220,7 +223,7 @@ public:
 
   constexpr void __cordl_internal_set__currentPath(::StringW value);
 
-  constexpr void __cordl_internal_set__directoryHandle(void* value);
+  constexpr void __cordl_internal_set__directoryHandle(::System::IntPtr value);
 
   constexpr void __cordl_internal_set__entry(::GlobalNamespace::__Interop__Sys__DirectoryEntry value);
 
@@ -285,7 +288,7 @@ public:
   ::StringW ____currentPath;
 
   /// @brief Field _directoryHandle, offset: 0x38, size: 0x8, def value: None
-  void* ____directoryHandle;
+  ::System::IntPtr ____directoryHandle;
 
   /// @brief Field _lastEntryFound, offset: 0x40, size: 0x1, def value: None
   bool ____lastEntryFound;

@@ -56,21 +56,21 @@ public:
 
   __declspec(property(get = get_valueType))::System::Type* valueType;
 
-  /// @brief Method EvaluateMagnitude, addr 0x30cbe40, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method EvaluateMagnitude, addr 0x30eb300, size 0x40, virtual true, abstract: false, final false
   inline float_t EvaluateMagnitude(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
-  /// @brief Method FinishSetup, addr 0x30cbfa0, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x30eb460, size 0x90, virtual true, abstract: false, final false
   inline void FinishSetup(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
-  /// @brief Method ModifiersArePressed, addr 0x30cbe80, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ModifiersArePressed, addr 0x30eb340, size 0xbc, virtual false, abstract: false, final false
   inline bool ModifiersArePressed(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
   static inline ::UnityEngine::InputSystem::Composites::TwoModifiersComposite* New_ctor();
 
-  /// @brief Method ReadValue, addr 0x30cbf3c, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method ReadValue, addr 0x30eb3fc, size 0x64, virtual true, abstract: false, final false
   inline void ReadValue(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context, ::cordl_internals::Ptr<void> buffer, int32_t bufferSize);
 
-  /// @brief Method ReadValueAsObject, addr 0x30cc04c, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method ReadValueAsObject, addr 0x30eb4f0, size 0x64, virtual true, abstract: false, final false
   inline ::System::Object* ReadValueAsObject(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
   constexpr int32_t const& __cordl_internal_get_binding() const;
@@ -115,13 +115,13 @@ public:
 
   constexpr void __cordl_internal_set_overrideModifiersNeedToBePressedFirst(bool value);
 
-  /// @brief Method .ctor, addr 0x30cc0b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x30eb554, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_valueSizeInBytes, addr 0x30cbe38, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_valueSizeInBytes, addr 0x30eb2f8, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_valueSizeInBytes();
 
-  /// @brief Method get_valueType, addr 0x30cbe30, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_valueType, addr 0x30eb2f0, size 0x8, virtual true, abstract: false, final false
   inline ::System::Type* get_valueType();
 
 protected:

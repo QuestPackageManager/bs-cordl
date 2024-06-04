@@ -9,6 +9,9 @@ CORDL_MODULE_EXPORT(LeaderboardList)
 namespace Oculus::Platform::Models {
 class Leaderboard;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class LeaderboardList;
@@ -23,10 +26,10 @@ namespace Oculus::Platform::Models {
 class CORDL_TYPE LeaderboardList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::Leaderboard*> {
 public:
   // Declarations
-  static inline ::Oculus::Platform::Models::LeaderboardList* New_ctor(void* a);
+  static inline ::Oculus::Platform::Models::LeaderboardList* New_ctor(::System::IntPtr a);
 
-  /// @brief Method .ctor, addr 0x2adc9e4, size 0x25c, virtual false, abstract: false, final false
-  inline void _ctor(void* a);
+  /// @brief Method .ctor, addr 0x2afd070, size 0x25c, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr a);
 
 protected:
   // Ctor Parameters []

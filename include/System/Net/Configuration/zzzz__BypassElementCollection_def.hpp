@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::System::Net::Configuration::BypassElementCollection* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2f77dc8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2f984b8, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

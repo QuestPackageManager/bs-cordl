@@ -37,7 +37,7 @@ public:
   /// @brief Field _conversion, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__conversion, put = __cordl_internal_set__conversion))::System::Linq::Expressions::LambdaExpression* _conversion;
 
-  /// @brief Method GetConversion, addr 0x2be5448, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetConversion, addr 0x2c06b38, size 0x8, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::LambdaExpression* GetConversion();
 
   static inline ::System::Linq::Expressions::OpAssignMethodConversionBinaryExpression* New_ctor(::System::Linq::Expressions::ExpressionType nodeType, ::System::Linq::Expressions::Expression* left,
@@ -50,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set__conversion(::System::Linq::Expressions::LambdaExpression* value);
 
-  /// @brief Method .ctor, addr 0x2be53c0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2c06ab0, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::ExpressionType nodeType, ::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right, ::System::Type* type,
                     ::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::LambdaExpression* conversion);
 

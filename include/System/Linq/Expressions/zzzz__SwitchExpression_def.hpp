@@ -79,16 +79,16 @@ public:
 
   constexpr void __cordl_internal_set__SwitchValue_k__BackingField(::System::Linq::Expressions::Expression* value);
 
-  /// @brief Method get_Cases, addr 0x2c0c82c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Cases, addr 0x2c2cf1c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::SwitchCase*>* get_Cases();
 
-  /// @brief Method get_Comparison, addr 0x2c0c83c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Comparison, addr 0x2c2cf2c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::MethodInfo* get_Comparison();
 
-  /// @brief Method get_DefaultBody, addr 0x2c0c834, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultBody, addr 0x2c2cf24, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_DefaultBody();
 
-  /// @brief Method get_SwitchValue, addr 0x2c0c824, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SwitchValue, addr 0x2c2cf14, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_SwitchValue();
 
 protected:

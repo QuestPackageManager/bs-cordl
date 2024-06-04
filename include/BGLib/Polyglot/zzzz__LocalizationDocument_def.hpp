@@ -73,19 +73,19 @@ public:
 
   constexpr void __cordl_internal_set_textAsset(::UnityW<::UnityEngine::TextAsset> value);
 
-  /// @brief Method .ctor, addr 0x107dcb8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x1085000, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_DocsId, addr 0x107dca0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DocsId, addr 0x1084fe8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_DocsId();
 
-  /// @brief Method get_Format, addr 0x107dcb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Format, addr 0x1084ff8, size 0x8, virtual false, abstract: false, final false
   inline ::BGLib::Polyglot::GoogleDriveDownloadFormat get_Format();
 
-  /// @brief Method get_SheetId, addr 0x107dca8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SheetId, addr 0x1084ff0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_SheetId();
 
-  /// @brief Method get_TextAsset, addr 0x107dc98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TextAsset, addr 0x1084fe0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::TextAsset> get_TextAsset();
 
 protected:

@@ -10,9 +10,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::CollectionAccessAttribute::*)(::JetBrains::Annotations::CollectionAccessType)>(
     &::JetBrains::Annotations::CollectionAccessAttribute::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x360f348;
+  constexpr static std::size_t addrs = 0x363a844;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::JetBrains::Annotations::CollectionAccessAttribute*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::JetBrains::Annotations::CollectionAccessType>::get() })));
@@ -25,9 +25,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::JetBrains::Annotations::CollectionAccessType (::JetBrains::Annotations::CollectionAccessAttribute::*)()>(
     &::JetBrains::Annotations::CollectionAccessAttribute::get_CollectionAccessType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x360f370;
+  constexpr static std::size_t addrs = 0x363a86c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::JetBrains::Annotations::CollectionAccessAttribute*>::get(),
                                                                                "get_CollectionAccessType", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
@@ -39,9 +39,9 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::CollectionAccessAttribute::*)(::JetBrains::Annotations::CollectionAccessType)>(
     &::JetBrains::Annotations::CollectionAccessAttribute::set_CollectionAccessType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x360f378;
+  constexpr static std::size_t addrs = 0x363a874;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::JetBrains::Annotations::CollectionAccessAttribute*>::get(), "set_CollectionAccessType", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::JetBrains::Annotations::CollectionAccessType>::get() })));

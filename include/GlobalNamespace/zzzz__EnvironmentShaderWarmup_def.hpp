@@ -75,21 +75,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x25fbb2c, size 0x444, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x2613a70, size 0x444, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__EnvironmentShaderWarmup___Start_d__6* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x25fbf70, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x2613eb4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x25fbf78, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2613ebc, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x25fbfb8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2613efc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x25fbb28, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x2613a6c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -110,7 +110,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::EnvironmentShaderWarmup> value);
 
-  /// @brief Method .ctor, addr 0x25fbaf8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2613a3c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -181,7 +181,7 @@ public:
 
   static inline ::GlobalNamespace::EnvironmentShaderWarmup* New_ctor();
 
-  /// @brief Method Start, addr 0x25fba90, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x26139d4, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Start();
 
   constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get__gameScenesManager() const;
@@ -208,7 +208,7 @@ public:
 
   constexpr void __cordl_internal_set__parentingTransform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x25fbb20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2613a64, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

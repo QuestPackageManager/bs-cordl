@@ -168,7 +168,7 @@ public:
 
   constexpr void __cordl_internal_set_localizedKey(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2648908, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2660f2c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -221,7 +221,7 @@ public:
 
   static inline ::GlobalNamespace::__SelectLevelCategoryViewController____c__DisplayClass12_0* New_ctor();
 
-  /// @brief Method <Setup>b__0, addr 0x2648910, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Setup>b__0, addr 0x2660f34, size 0x58, virtual false, abstract: false, final false
   inline bool _Setup_b__0(::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo* data);
 
   constexpr ::ArrayW<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory, ::Array<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory>*> const&
@@ -233,7 +233,7 @@ public:
   constexpr void __cordl_internal_set_enabledLevelCategories(
       ::ArrayW<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory, ::Array<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory>*> value);
 
-  /// @brief Method .ctor, addr 0x264859c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2660bc0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -283,13 +283,13 @@ public:
 
   static inline ::GlobalNamespace::__SelectLevelCategoryViewController____c* New_ctor();
 
-  /// @brief Method <Setup>b__12_1, addr 0x26489d4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method <Setup>b__12_1, addr 0x2660ff8, size 0x80, virtual false, abstract: false, final false
   inline ::HMUI::__IconSegmentedControl__DataItem* _Setup_b__12_1(::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo* x);
 
-  /// @brief Method <Setup>b__12_2, addr 0x2648a54, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <Setup>b__12_2, addr 0x2661078, size 0x18, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory _Setup_b__12_2(::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategoryInfo* x);
 
-  /// @brief Method .ctor, addr 0x26489cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2660ff0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::__SelectLevelCategoryViewController____c* getStaticF___9();
@@ -370,18 +370,18 @@ public:
 
   __declspec(property(get = get_selectedLevelCategory))::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory selectedLevelCategory;
 
-  /// @brief Method DidActivate, addr 0x26485a4, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x2660bc8, size 0xa0, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x2648644, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x2660c68, size 0xa0, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method LevelFilterCategoryIconSegmentedControlDidSelectCell, addr 0x26486e4, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method LevelFilterCategoryIconSegmentedControlDidSelectCell, addr 0x2660d08, size 0x21c, virtual false, abstract: false, final false
   inline void LevelFilterCategoryIconSegmentedControlDidSelectCell(::HMUI::SegmentedControl* segmentedControl, int32_t index);
 
   static inline ::GlobalNamespace::SelectLevelCategoryViewController* New_ctor();
 
-  /// @brief Method Setup, addr 0x2643464, size 0x318, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x265ba88, size 0x318, virtual false, abstract: false, final false
   inline void
   Setup(::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory selectedCategory,
         ::ArrayW<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory, ::Array<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory>*> enabledLevelCategories);
@@ -432,17 +432,17 @@ public:
   constexpr void __cordl_internal_set_didSelectLevelCategoryEvent(
       ::System::Action_2<::UnityW<::GlobalNamespace::SelectLevelCategoryViewController>, ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory>* value);
 
-  /// @brief Method .ctor, addr 0x2648900, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2660f24, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didSelectLevelCategoryEvent, addr 0x2643b58, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didSelectLevelCategoryEvent, addr 0x265c17c, size 0xb0, virtual false, abstract: false, final false
   inline void
   add_didSelectLevelCategoryEvent(::System::Action_2<::UnityW<::GlobalNamespace::SelectLevelCategoryViewController>, ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory>* value);
 
-  /// @brief Method get_selectedLevelCategory, addr 0x2642f94, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_selectedLevelCategory, addr 0x265b5b8, size 0x58, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory get_selectedLevelCategory();
 
-  /// @brief Method remove_didSelectLevelCategoryEvent, addr 0x2644244, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSelectLevelCategoryEvent, addr 0x265c868, size 0xb0, virtual false, abstract: false, final false
   inline void
   remove_didSelectLevelCategoryEvent(::System::Action_2<::UnityW<::GlobalNamespace::SelectLevelCategoryViewController>, ::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory>* value);
 

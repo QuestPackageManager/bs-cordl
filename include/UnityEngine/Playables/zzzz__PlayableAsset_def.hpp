@@ -10,6 +10,9 @@ CORDL_MODULE_EXPORT(PlayableAsset)
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
+namespace System {
+struct IntPtr;
+}
 namespace UnityEngine::Playables {
 class IPlayableAsset;
 }
@@ -49,21 +52,21 @@ public:
   /// @brief Method CreatePlayable, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* owner);
 
-  /// @brief Method Internal_CreatePlayable, addr 0x3436fc4, size 0xd8, virtual false, abstract: false, final false
-  static inline void Internal_CreatePlayable(::UnityEngine::Playables::PlayableAsset* asset, ::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go, void* ptr);
+  /// @brief Method Internal_CreatePlayable, addr 0x34604c0, size 0xd8, virtual false, abstract: false, final false
+  static inline void Internal_CreatePlayable(::UnityEngine::Playables::PlayableAsset* asset, ::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go, ::System::IntPtr ptr);
 
-  /// @brief Method Internal_GetPlayableAssetDuration, addr 0x34370f4, size 0x28, virtual false, abstract: false, final false
-  static inline void Internal_GetPlayableAssetDuration(::UnityEngine::Playables::PlayableAsset* asset, void* ptrToDouble);
+  /// @brief Method Internal_GetPlayableAssetDuration, addr 0x34605f0, size 0x28, virtual false, abstract: false, final false
+  static inline void Internal_GetPlayableAssetDuration(::UnityEngine::Playables::PlayableAsset* asset, ::System::IntPtr ptrToDouble);
 
   static inline ::UnityEngine::Playables::PlayableAsset* New_ctor();
 
-  /// @brief Method .ctor, addr 0x343711c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3460618, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_duration, addr 0x3436f14, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_duration, addr 0x3460410, size 0x58, virtual true, abstract: false, final false
   inline double_t get_duration();
 
-  /// @brief Method get_outputs, addr 0x3436f6c, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_outputs, addr 0x3460468, size 0x58, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* get_outputs();
 
   /// @brief Convert to "::UnityEngine::Playables::IPlayableAsset"

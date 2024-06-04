@@ -34,15 +34,15 @@ public:
   /// @brief Field callback_, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_callback_, put = __cordl_internal_set_callback_))::Oculus::Platform::__Message__Callback* callback_;
 
-  /// @brief Method HandleMessage, addr 0x2ad6e68, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method HandleMessage, addr 0x2af74f4, size 0x6c, virtual true, abstract: false, final false
   inline void HandleMessage(::Oculus::Platform::Message* msg);
 
   static inline ::Oculus::Platform::Request* New_ctor(uint64_t requestID);
 
-  /// @brief Method OnComplete, addr 0x2aa0850, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method OnComplete, addr 0x2ac0edc, size 0x6c, virtual false, abstract: false, final false
   inline ::Oculus::Platform::Request* OnComplete(::Oculus::Platform::__Message__Callback* callback);
 
-  /// @brief Method RunCallbacks, addr 0x2aa5e10, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method RunCallbacks, addr 0x2ac649c, size 0x68, virtual false, abstract: false, final false
   static inline void RunCallbacks(uint32_t limit);
 
   constexpr uint64_t const& __cordl_internal_get__RequestID_k__BackingField() const;
@@ -57,13 +57,13 @@ public:
 
   constexpr void __cordl_internal_set_callback_(::Oculus::Platform::__Message__Callback* value);
 
-  /// @brief Method .ctor, addr 0x2acd624, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2aedcb0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(uint64_t requestID);
 
-  /// @brief Method get_RequestID, addr 0x2ad6e58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RequestID, addr 0x2af74e4, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_RequestID();
 
-  /// @brief Method set_RequestID, addr 0x2ad6e60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RequestID, addr 0x2af74ec, size 0x8, virtual false, abstract: false, final false
   inline void set_RequestID(uint64_t value);
 
 protected:

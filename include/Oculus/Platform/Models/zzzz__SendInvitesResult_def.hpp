@@ -9,6 +9,9 @@ CORDL_MODULE_EXPORT(SendInvitesResult)
 namespace Oculus::Platform::Models {
 class ApplicationInviteList;
 }
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace Oculus::Platform::Models {
 class SendInvitesResult;
@@ -26,7 +29,7 @@ public:
   /// @brief Field Invites, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_Invites, put = __cordl_internal_set_Invites))::Oculus::Platform::Models::ApplicationInviteList* Invites;
 
-  static inline ::Oculus::Platform::Models::SendInvitesResult* New_ctor(void* o);
+  static inline ::Oculus::Platform::Models::SendInvitesResult* New_ctor(::System::IntPtr o);
 
   constexpr ::Oculus::Platform::Models::ApplicationInviteList*& __cordl_internal_get_Invites();
 
@@ -34,8 +37,8 @@ public:
 
   constexpr void __cordl_internal_set_Invites(::Oculus::Platform::Models::ApplicationInviteList* value);
 
-  /// @brief Method .ctor, addr 0x2adefc4, size 0xb0, virtual false, abstract: false, final false
-  inline void _ctor(void* o);
+  /// @brief Method .ctor, addr 0x2aff650, size 0xb0, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr o);
 
 protected:
   // Ctor Parameters []

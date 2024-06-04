@@ -26,17 +26,17 @@ namespace System::Security::Principal {
 class CORDL_TYPE IdentityNotMappedException : public ::System::SystemException {
 public:
   // Declarations
-  /// @brief Method GetObjectData, addr 0x27f7b24, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x28121b0, size 0x4, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
   static inline ::System::Security::Principal::IdentityNotMappedException* New_ctor();
 
   static inline ::System::Security::Principal::IdentityNotMappedException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x27f7ac4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2812150, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x27f7b1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x28121a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:

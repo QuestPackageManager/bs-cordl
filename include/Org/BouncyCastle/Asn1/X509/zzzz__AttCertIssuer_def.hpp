@@ -51,17 +51,17 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-  /// @brief Method GetInstance, addr 0x12e4748, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x12edfb8, size 0x1c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::AttCertIssuer* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-  /// @brief Method GetInstance, addr 0x12e43d8, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x12edc48, size 0x2a4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::AttCertIssuer* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::AttCertIssuer* New_ctor(::Org::BouncyCastle::Asn1::X509::GeneralNames* names);
 
   static inline ::Org::BouncyCastle::Asn1::X509::AttCertIssuer* New_ctor(::Org::BouncyCastle::Asn1::X509::V2Form* v2Form);
 
-  /// @brief Method ToAsn1Object, addr 0x12e476c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x12edfdc, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Object*& __cordl_internal_get_choiceObj();
@@ -76,13 +76,13 @@ public:
 
   constexpr void __cordl_internal_set_obj(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method .ctor, addr 0x12e4704, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12edf74, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::GeneralNames* names);
 
-  /// @brief Method .ctor, addr 0x12e467c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x12edeec, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::V2Form* v2Form);
 
-  /// @brief Method get_Issuer, addr 0x12e4764, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Issuer, addr 0x12edfd4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Issuer();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"

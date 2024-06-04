@@ -8,6 +8,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Unsafe)
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Object;
 }
 // Forward declare root types
@@ -28,16 +31,16 @@ public:
   template <typename T> static inline ::cordl_internals::Ptr<void> Add(::cordl_internals::Ptr<void> source, int32_t elementOffset);
 
   /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ByRef<T> Add(ByRef<T> source, int32_t elementOffset);
+  template <typename T> static inline ByRef<T> Add(ByRef<T> source, ::System::IntPtr elementOffset);
 
   /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ByRef<T> Add(ByRef<T> source, void* elementOffset);
+  template <typename T> static inline ByRef<T> Add(ByRef<T> source, int32_t elementOffset);
+
+  /// @brief Method AddByteOffset, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline ByRef<T> AddByteOffset(ByRef<T> source, ::System::IntPtr byteOffset);
 
   /// @brief Method AddByteOffset, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ByRef<T> AddByteOffset(ByRef<T> source, uint64_t byteOffset);
-
-  /// @brief Method AddByteOffset, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ByRef<T> AddByteOffset(ByRef<T> source, void* byteOffset);
 
   /// @brief Method AreSame, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool AreSame(ByRef<T> left, ByRef<T> right);
@@ -57,7 +60,7 @@ public:
   /// @brief Method AsRef, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ByRef<T> AsRef(ByRef<T> source);
 
-  /// @brief Method InitBlockUnaligned, addr 0x285e824, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InitBlockUnaligned, addr 0x2877eb0, size 0x8, virtual false, abstract: false, final false
   static inline void InitBlockUnaligned(ByRef<uint8_t> startAddress, uint8_t value, uint32_t byteCount);
 
   /// @brief Method IsAddressLessThan, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false

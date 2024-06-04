@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlSerializationFixupCallback)
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Object;
 }
 // Forward declare root types
@@ -23,13 +26,13 @@ namespace System::Xml::Serialization {
 class CORDL_TYPE XmlSerializationFixupCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x2ed72e0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x2ef79d0, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Object* fixup);
 
-  static inline ::System::Xml::Serialization::XmlSerializationFixupCallback* New_ctor(::System::Object* object, void* method);
+  static inline ::System::Xml::Serialization::XmlSerializationFixupCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x2ed71b4, size 0x12c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, void* method);
+  /// @brief Method .ctor, addr 0x2ef78a4, size 0x12c, virtual false, abstract: false, final false
+  inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
   // Ctor Parameters []

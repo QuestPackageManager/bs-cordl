@@ -35,10 +35,10 @@ public:
 
   static inline ::GlobalNamespace::BloomFogEnvironment* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x24e485c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x24fe634, size 0x40, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnValidate, addr 0x24e48bc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x24fe694, size 0x60, virtual false, abstract: false, final false
   inline void OnValidate();
 
   constexpr ::UnityW<::GlobalNamespace::BloomFogSO> const& __cordl_internal_get__bloomFog() const;
@@ -53,10 +53,10 @@ public:
 
   constexpr void __cordl_internal_set__fogParams(::UnityW<::GlobalNamespace::BloomFogEnvironmentParams> value);
 
-  /// @brief Method .ctor, addr 0x24e4b3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x24fe914, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_fogParams, addr 0x24e4854, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fogParams, addr 0x24fe62c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BloomFogEnvironmentParams> get_fogParams();
 
 protected:

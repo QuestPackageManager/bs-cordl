@@ -21,31 +21,31 @@ namespace UnityEngine::InputSystem::Utilities {
 class CORDL_TYPE NumberHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AlignToMultipleOf, addr 0x31830bc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AlignToMultipleOf, addr 0x31a9cfc, size 0x1c, virtual false, abstract: false, final false
   static inline int32_t AlignToMultipleOf(int32_t number, int32_t alignment);
 
-  /// @brief Method AlignToMultipleOf, addr 0x31830d8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AlignToMultipleOf, addr 0x31a9d18, size 0x1c, virtual false, abstract: false, final false
   static inline int64_t AlignToMultipleOf(int64_t number, int64_t alignment);
 
-  /// @brief Method AlignToMultipleOf, addr 0x31830f4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AlignToMultipleOf, addr 0x31a9d34, size 0x1c, virtual false, abstract: false, final false
   static inline uint32_t AlignToMultipleOf(uint32_t number, uint32_t alignment);
 
-  /// @brief Method Approximately, addr 0x3183110, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Approximately, addr 0x31a9d50, size 0x9c, virtual false, abstract: false, final false
   static inline bool Approximately(double_t a, double_t b);
 
-  /// @brief Method IntToNormalizedFloat, addr 0x31831ac, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IntToNormalizedFloat, addr 0x31a9dec, size 0x3c, virtual false, abstract: false, final false
   static inline float_t IntToNormalizedFloat(int32_t value, int32_t minValue, int32_t maxValue);
 
-  /// @brief Method NormalizedFloatToInt, addr 0x31831e8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method NormalizedFloatToInt, addr 0x31a9e28, size 0x50, virtual false, abstract: false, final false
   static inline int32_t NormalizedFloatToInt(float_t value, int32_t intMinValue, int32_t intMaxValue);
 
-  /// @brief Method NormalizedFloatToUInt, addr 0x3183274, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method NormalizedFloatToUInt, addr 0x31a9eb4, size 0x48, virtual false, abstract: false, final false
   static inline uint32_t NormalizedFloatToUInt(float_t value, uint32_t uintMinValue, uint32_t uintMaxValue);
 
-  /// @brief Method RemapUIntBitsToNormalizeFloatToUIntBits, addr 0x31832bc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method RemapUIntBitsToNormalizeFloatToUIntBits, addr 0x31a9efc, size 0x6c, virtual false, abstract: false, final false
   static inline uint32_t RemapUIntBitsToNormalizeFloatToUIntBits(uint32_t value, uint32_t inBitSize, uint32_t outBitSize);
 
-  /// @brief Method UIntToNormalizedFloat, addr 0x3183238, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method UIntToNormalizedFloat, addr 0x31a9e78, size 0x3c, virtual false, abstract: false, final false
   static inline float_t UIntToNormalizedFloat(uint32_t value, uint32_t minValue, uint32_t maxValue);
 
 protected:

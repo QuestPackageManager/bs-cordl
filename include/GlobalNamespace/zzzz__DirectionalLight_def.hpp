@@ -42,10 +42,10 @@ public:
 
   static inline ::GlobalNamespace::DirectionalLight* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x24ee128, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x2507ff8, size 0x80, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x24ee058, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x2507f28, size 0xd0, virtual false, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get_color() const;
@@ -66,14 +66,14 @@ public:
 
   constexpr void __cordl_internal_set_radius(float_t value);
 
-  /// @brief Method .ctor, addr 0x24ee1a8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x2508078, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::DirectionalLight>>* getStaticF__lights();
 
   static inline ::UnityW<::GlobalNamespace::DirectionalLight> getStaticF__mainLight();
 
-  /// @brief Method get_lights, addr 0x24ee000, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_lights, addr 0x2507ed0, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::DirectionalLight>>* get_lights();
 
   static inline void setStaticF__lights(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::DirectionalLight>>* value);
